@@ -1,0 +1,35 @@
+---
+title: Interne meldingen verzenden
+description: Leer hoe u realtime systeemmeldingen naar uw Adobe Campagnegebruikers kunt verzenden.
+page-status-flag: never-activated
+uuid: f196f025-dbb9-4268-9d7d-ff626994b447
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: administration
+content-type: reference
+topic-tags: application-settings
+discoiquuid: 4d51229a-745a-4f24-b1c2-22fa203b499c
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+
+---
+
+
+# Interne meldingen verzenden{#sending-internal-notifications}
+
+Met Adobe Campaign kunt u meldingen over belangrijke systeemactiviteiten rechtstreeks in de toepassing ontvangen. Kennisgevingen in realtime houden relevante belanghebbenden op de hoogte en bieden gebruikers de mogelijkheid om onmiddellijk en rechtstreeks te reageren op activiteitenmeldingen vanuit de toepassing. Het resultaat voor teams is geavanceerde behendigheid, efficiency en vlottere uitvoering van campagnes.
+
+![](assets/pulse_3.png)
+
+U kunt meldingen configureren voor de volgende objecten:
+
+* **[!UICONTROL A/B Test emails]**: de maker van de e-mail en de modifier(s) ervan in kennis worden gesteld dat een variant is gekozen (automatische modus) of dat een variant moet worden gekozen (handmatige modus). Als u op de melding klikt, wordt de bijbehorende e-mail weergegeven. Meldingen worden standaard geactiveerd in de testsjabloon voor de uit-van-de-box A/B. Als u deze wilt deactiveren, bewerkt u de eigenschappen van de e-mailsjabloon of de e-mailsjabloon en schakelt u het selectievakje onder **Algemeen > Meldingen** uit. Voor meer informatie over A/B test e-mails, verwijs naar het [Creëren van een Test](../../channels/using/designing-an-a-b-test-email.md)van AB. Zie [Lijst met e-maileigenschappen](../../administration/using/configuring-email-channel.md#list-of-email-properties)voor meer informatie over e-maileigenschappen.
+
+   ![](assets/pulse_2.png)
+
+* **[!UICONTROL Workflows]**: elk lid van de geselecteerde beveiligingsgroep wordt op de hoogte gesteld (e-mail en meldingen in de app) wanneer een workflow een fout bevat. Als u op de melding of op de e-mailkoppeling klikt, wordt de bijbehorende workflow weergegeven. Meldingen worden standaard gedeactiveerd in de werkstroomsjabloon buiten de box. Als u deze wilt activeren, bewerkt u de eigenschappen van de workflow of werkstroomsjabloon en voegt u een beveiligingsgroep toe onder **Algemeen > Uitvoering > Foutbeheer > Supervisors**. Voor meer informatie over veiligheidsgroepen, verwijs naar het [Leiden groepen en gebruikers](../../administration/using/managing-groups-and-users.md). Zie [Workfloweigenschappen](../../automating/using/executing-a-workflow.md#workflow-properties)voor meer informatie over workfloweigenschappen.
+
+   ![](assets/pulse_1.png)
+
