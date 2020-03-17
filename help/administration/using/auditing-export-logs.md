@@ -1,0 +1,34 @@
+---
+title: Logbestanden voor exporteren controleren
+description: Beheerders kunnen de exportbewerkingen bijhouden die zijn gemaakt via Adobe Campaign.
+page-status-flag: never-activated
+uuid: 2a93485e-f6b9-4b01-b3a1-c91f2739d188
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: administration
+content-type: reference
+topic-tags: users-and-security
+discoiquuid: 1033d0ce-a400-47ad-afda-bcf7419c94c7
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+
+---
+
+
+# Logbestanden voor exporteren controleren{#auditing-export-logs}
+
+Vanuit **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**, kunnen beheerders een lijst weergeven met alle volgende exportbewerkingen, inclusief de datum en de gebruiker die het exporteren heeft uitgevoerd:
+
+* Bestanden uploaden uit een **[!UICONTROL Transfer file]** activiteit in een workflow.
+* Exporteren vanuit een lijst of sublijst.
+* Bestand gedownload vanaf het bezorgdashboard van een Direct-mailbericht.
+
+>[!NOTE]
+>
+>De overige uitvoer wordt niet bijgehouden. De lijst met exportbewerkingen wordt standaard elke zes maanden gewist.
+
+Vanuit het linkerdeelvenster kunt u de gewenste exportbewerkingen filteren.
+
+U kunt de lijst exporteren als een afzonderlijk bestand, zoals wordt beschreven in de sectie Lijsten [](../../automating/using/exporting-lists.md) exporteren.
