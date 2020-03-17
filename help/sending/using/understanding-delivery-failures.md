@@ -1,0 +1,128 @@
+---
+title: Leveringsfouten begrijpen
+description: Leer hoe u leveringsfouten kunt beheren met Campagne.
+page-status-flag: never-activated
+uuid: 2735aa05-7b6f-47c9-98c4-a15cc33be39d
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: sending
+content-type: reference
+topic-tags: monitoring-messages
+discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
+
+---
+
+
+# Leveringsfouten begrijpen{#understanding-delivery-failures}
+
+## Leveringsfouten {#about-delivery-failures}
+
+Wanneer een levering niet naar een profiel kan worden verzonden, verzendt de externe server automatisch een foutbericht dat door het Adobe Campagne-platform wordt opgepakt en dat is gekwalificeerd om te bepalen of het e-mailadres of telefoonnummer al dan niet in quarantaine moet worden geplaatst. Zie [Bounce mail-kwalificatie](#bounce-mail-qualification).
+
+>[!NOTE]
+>
+>**E-mailfoutberichten** (of &#39;bounces&#39;) worden gekwalificeerd door het InMail-proces. **SMS** -foutberichten (of &quot;SR&quot; voor &quot;Statusrapport&quot;) worden gekwalificeerd door het MTA-proces.
+
+Berichten kunnen ook tijdens de voorbereiding van de levering worden uitgesloten als een adres in quarantaine is geplaatst of als een profiel op een zwarte lijst staat. Uitgesloten berichten worden vermeld op het **[!UICONTROL Exclusion logs]** tabblad van het leveringsdashboard (zie [deze sectie](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
+
+![](assets/exclusion_logs.png)
+
+**Verwante onderwerpen:**
+
+* [Werken met quarantainebeheer](../../sending/using/understanding-quarantine-management.md)
+* [Zwarte lijst beheren in campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+
+## Leveringsfouten identificeren voor een bericht {#identifying-delivery-failures-for-a-message}
+
+Zodra een levering wordt verzonden, staat het **[!UICONTROL Sending logs]** lusje (zie [deze sectie](../../sending/using/monitoring-a-delivery.md#sending-logs)) u toe om de leveringsstatus voor elk profiel en het bijbehorende mislukkingstype en de reden (zie de types en de redenen [van de mislukking van de](#delivery-failure-types-and-reasons)Levering) te bekijken.
+
+![](assets/sending_logs.png)
+
+Er is ook een speciaal rapport beschikbaar dat niet in de doos kan worden weergegeven. In dit rapport worden de algemene harde en zachte fouten beschreven die tijdens de leveringen zijn opgetreden, alsmede de automatische verwerking van steunbedragen. For more on this, refer to [this section](../../reporting/using/bounce-summary.md).
+
+## Typen leveringsfouten en redenen {#delivery-failure-types-and-reasons}
+
+Er zijn drie soorten fouten wanneer een levering mislukt:
+
+* **Hard**: Een &quot;harde&quot;fout wijst op een ongeldig adres. Dit omvat een foutbericht waarin expliciet wordt aangegeven dat het adres ongeldig is, zoals: &quot;Onbekende gebruiker&quot;.
+* **Zacht**: Dit kan een tijdelijke fout zijn of een fout die niet kan worden gecategoriseerd, zoals: &quot;Ongeldig domein&quot; of &quot;Brievenbus vol&quot;.
+* **Genegeerd**: Dit is een fout die als tijdelijk, zoals &quot;uit bureau&quot;bekend is, of een technische fout, bijvoorbeeld als het afzendertype &quot;postmaster&quot;is.
+
+De mogelijke oorzaken van een mislukking van de levering zijn:
+
+* **[!UICONTROL User unknown]** (Hard type): het adres bestaat niet. Voor dit profiel worden geen verdere leveringen uitgevoerd.
+* **[!UICONTROL Quarantined address]** (Hard type): het adres is in quarantaine geplaatst.
+* **[!UICONTROL Unreachable]** (Zacht/Hard type): er heeft zich een fout voorgedaan in de berichtleveringsketen (incident op SMTP relay, tijdelijk onbereikbaar domein, enz.). Volgens de fout die door de leverancier is geretourneerd, wordt het adres rechtstreeks naar quarantaine verzonden of wordt de levering opnieuw geprobeerd tot de campagne een fout ontvangt die de quarantainestatus rechtvaardigt of tot het aantal fouten 5 bereikt.
+* **[!UICONTROL Address empty]** (Hard type): het adres is niet gedefinieerd.
+* **[!UICONTROL Mailbox full]** (Zachte tekst): de brievenbus van deze gebruiker is volledig en kan niet meer berichten goedkeuren. Dit adres kan uit de quarantainelijst worden verwijderd om een andere poging te doen. Het wordt automatisch na 30 dagen verwijderd.
+
+   Om het adres automatisch uit de lijst met in quarantaine geplaatste adressen te verwijderen moet de technische workflow voor **[!UICONTROL Database cleanup]** worden gestart.
+
+* **[!UICONTROL Refused]** (Zacht/Hard type): het adres is in quarantaine geplaatst wegens veiligheidsterugkoppelen als spamrapport. Volgens de fout die door de leverancier is geretourneerd, wordt het adres rechtstreeks naar quarantaine verzonden of wordt de levering opnieuw geprobeerd tot de campagne een fout ontvangt die de quarantainestatus rechtvaardigt of tot het aantal fouten 5 bereikt.
+* **[!UICONTROL Duplicate]**: het adres is reeds ontdekt in de segmentatie.
+* **[!UICONTROL Not defined]** (Zachte tekst): het adres is in kwalificatie omdat de fouten nog niet zijn verhoogd.
+
+   Dit type fout treedt op wanneer een nieuw foutbericht wordt verzonden door de server: het kan een geïsoleerde fout zijn, maar als het opnieuw voorkomt, zal de foutenteller stijgen, die de technische teams zal waarschuwen.
+
+* **[!UICONTROL Error ignored]**: het adres bevindt zich in de whitelist en er zal in ieder geval een e-mail naar worden gestuurd .
+* **[!UICONTROL Blacklisted address]**: het adres was op het moment van verzending op de zwarte lijst geplaatst.
+* **[!UICONTROL Account disabled]** (Zacht/Hard type): wanneer de Internet Access Provider (IAP) een lange periode van inactiviteit ontdekt, kan het de rekening van de gebruiker sluiten: levering aan het adres van de gebruiker zal dan onmogelijk zijn. Het type Zacht of Hard is afhankelijk van het type ontvangen fout: als de account tijdelijk is uitgeschakeld vanwege een inactiviteit van zes maanden en nog steeds kan worden geactiveerd , **[!UICONTROL Erroneous]** wordt de status toegewezen en wordt de levering opnieuw geprobeerd . Als de ontvangen fout aangeeft dat de account permanent is gedeactiveerd, wordt deze rechtstreeks naar Quarantine verzonden.
+* **[!UICONTROL Not connected]**: de mobiele telefoon van het profiel is uitgeschakeld of heeft geen verbinding met het netwerk wanneer het bericht wordt verzonden.
+* **[!UICONTROL Invalid domain]** (Zachte tekst): het domein van het e-mailadres is onjuist of bestaat niet meer. Dit profiel wordt opnieuw geactiveerd tot het aantal fouten 5 is. Hierna wordt de record ingesteld op Quarantine-status en wordt het niet opnieuw geprobeerd.
+* **[!UICONTROL Text too long]**: het aantal tekens in het SMS-bericht overschrijdt de limiet. Zie [SMS-codering, -lengte en -transliteratie](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)voor meer informatie.
+* **[!UICONTROL Character not supported by encoding]**: het SMS-bericht bevat een of meer tekens die niet door de codering worden ondersteund. &amp;Zie [Tekenlijst - GSM-standaard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)voor meer informatie.
+
+## Retourneert na een tijdelijke leverfout {#retries-after-a-delivery-temporary-failure}
+
+Als een bericht wegens een tijdelijke fout van het **genegeerde** type ontbreekt, zullen de pogingen tijdens de leveringsduur opnieuw worden uitgevoerd. Voor meer over de types van fouten, zie de types en de redenen [van de mislukking van de](#delivery-failure-types-and-reasons)Levering.
+
+Om de duur van een levering te wijzigen, ga naar de geavanceerde parameters van het levering of leveringsmalplaatje en specificeer de gewenste duur op het overeenkomstige gebied. De geavanceerde leveringseigenschappen worden voorgesteld in [deze sectie](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+
+De standaardconfiguratie staat vijf herpogingen toe met intervallen van één uur, die door één herpoging per dag gedurende vier dagen worden gevolgd. Het aantal pogingen kan globaal worden gewijzigd (neem contact op met uw technische beheerder van Adobe) of voor elke levering of leveringsmalplaatje (zie [deze sectie](../../administration/using/configuring-email-channel.md#sending-parameters)).
+
+## Synchrone en asynchrone fouten {#synchronous-and-asynchronous-errors}
+
+Een levering kan onmiddellijk (synchrone fout), of later op ontbreken, nadat het is verzonden (asynchrone fout).
+
+* **Synchrone fout**: Als de externe server waarmee contact is opgenomen door de Adobe Campaign-leveringsserver onmiddellijk een foutbericht heeft geretourneerd, mag de levering niet naar de server van het profiel worden verzonden.
+* **Asynchrone fout**: een stuiterende post of een SR werd later opnieuw toegestuurd door de ontvangende server. Asynchrone fouten kunnen optreden tot een week nadat een levering is verzonden.
+
+## Bounce mail-kwalificatie {#bounce-mail-qualification}
+
+Foutberichten voor leveringsfouten (of &quot;SMTP bounce responses&quot;) worden opgehaald door het Adobe Campagne-platform en vervolgens verwerkt en gekwalificeerd als **Hard**, **Zacht** of **Genegeerd** met de **[!UICONTROL Delivery log qualification]** database.
+
+<!--Delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.(applies to asynchronous (out-of-band) bounces)-->
+
+Deze lijst is alleen beschikbaar voor beheerders en bevat alle regels die door Adobe Campagne worden gebruikt om leveringsfouten te kwalificeren.
+
+Als u het wilt openen, klikt u op het **[!UICONTROL Adobe Campaign]** logo, linksboven, en selecteert u **[!UICONTROL Administration > Channels > Email > Email processing rules]**.
+
+For more on this, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+
+>[!IMPORTANT]
+>
+>Zodra bijgewerkt naar de verbeterde MTA, worden de stuiterende kwalificaties in de **[!UICONTROL Message qualification]** lijst van de Campagne niet meer gebruikt. Voor de synchrone foutenmeldingen van de leveringsmislukking, bepaalt Verbeterde MTA het stuittype en de kwalificatie, en stuurt die informatie terug naar Campagne. Asynchrone stuitingen worden nog steeds gekwalificeerd door het inMail-proces.
+>
+>Raadpleeg dit [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)voor meer informatie over de verbeterde MTA voor Adobe-campagne.
+
+Stuiterwaarden kunnen de volgende kwalificatiestatus hebben:
+
+* **[!UICONTROL To qualify]**: de stuiterende post moet worden gekwalificeerd. De kwalificatie moet door het leveringsteam worden gedaan om ervoor te zorgen dat de platformleverbaarheid correct functioneert. Zolang het niet wordt gekwalificeerd, wordt de stuiterende post niet gebruikt om de lijst van e-mailverwerkingsregels te verrijken.
+* **[!UICONTROL Keep]**: de stuiterende post werd gekwalificeerd en zal door de **Update voor leverbaarheidswerkschema** worden gebruikt om met bestaande e-mailverwerkingsregels te worden vergeleken en de lijst te verrijken.
+* **[!UICONTROL Ignore]**: de stuiterende post werd gekwalificeerd maar zal niet door de **Update voor leverbaarheidswerkschema** worden gebruikt. Het wordt dus niet naar de clientinstanties verzonden.
+
+Als u de verschillende grenzen en de bijbehorende fouttypen en redenen wilt weergeven, klikt u op het **[!UICONTROL Adobe Campaign]** logo in de linkerbovenhoek en selecteert u **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+
+![](assets/qualification.png)
+
+## De postleverbaarheid van het optimaliseren met dubbel opt-in mechanisme {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
+
+Dubbele aanmeldingsprocedure is een beste manier om e-mails te verzenden. Het beveiligt het platform tegen onjuiste of ongeldige e-mailadressen, spambots, en voorkomt mogelijke spamklachten.
+
+Het principe is om een e-mail te verzenden om de overeenkomst van de bezoeker te bevestigen alvorens hen als &quot;profielen&quot;in uw gegevensbestand van de Campagne op te slaan: de bezoeker vult een online bestemmingspagina in, ontvangt een e-mail en moet in de bevestigingsverbinding klikken om zijn abonnement te voltooien.
+
+For more on this, refer to [this section](../../channels/using/setting-up-a-double-opt-in-process.md).
