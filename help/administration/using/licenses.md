@@ -1,0 +1,39 @@
+---
+title: Licenties
+description: Meer informatie over licenties die op uw exemplaar zijn geïnstalleerd.
+page-status-flag: never-activated
+uuid: fea2ea2b-e036-4fe4-9db2-7ba25ec8fb3b
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: administration
+content-type: reference
+topic-tags: users-and-security
+discoiquuid: b0056f83-610e-4fdc-95cd-bb5ed9f5c483
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+
+---
+
+
+# Licenties{#licenses}
+
+In het **[!UICONTROL Licenses]** venster kunt u de geïnstalleerde licenties en andere informatie over uw exemplaar bekijken, zoals het buildnummer, de releaseversie of de voorwaarden van de overeenkomst die u hebt geaccepteerd en door wie.
+
+![](assets/license_1.png)
+
+Met een nieuwe build of een nieuwe functie kunnen licentievoorwaarden veranderen en moeten deze worden geaccepteerd door een functionele beheerder van de instantie.
+
+Het volgende venster verschijnt voor standaardgebruikers na het aanmelden, er is geen actie van hun kant vereist. Ze kunnen nog steeds werken op Adobe Campaign door op de **[!UICONTROL OK]** knop te klikken.
+
+![](assets/license_2.png)
+
+Een beheerder moet de nieuwe bepalingen van overeenkomst in de volgende 30 dagen van de bouwstijlinstallatie lezen en bevestigen door te controleren **[!UICONTROL I accept the terms from the license agreement]** en te klikken **[!UICONTROL Confirm]**.
+
+![](assets/license_3.png)
+
+Deze 30 dagen zijn goedgekeurd als de overeenkomst niet wordt geaccepteerd, kunnen geen gebruikers dit exemplaar gebruiken. De standaardgebruikers hebben geen toegang tot de functies van de Campagne van Adobe en zullen slechts het volgende bericht zien tot een functionele beheerder de voorwaarden van overeenkomst goedkeurt.
+
+![](assets/license_4.png)
+
