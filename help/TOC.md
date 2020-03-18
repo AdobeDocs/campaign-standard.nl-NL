@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
+source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
 
 ---
 
@@ -152,6 +152,7 @@ source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
    + Berichten verzenden en volgen {#sending-and-tracking-messages}
       + [De verzending bevestigen](sending/using/confirming-the-send.md)
       + [Berichten bijhouden](sending/using/tracking-messages.md)
+      + [Archiveren met e-mail-BCC](sending/using/archiving.md)
    + Monitoringberichten {#monitoring-messages}
       + [Toezicht op levering](sending/using/monitoring-a-delivery.md)
       + [Waarschuwingen ontvangen wanneer fouten optreden](sending/using/receiving-alerts-when-failures-happen.md)
