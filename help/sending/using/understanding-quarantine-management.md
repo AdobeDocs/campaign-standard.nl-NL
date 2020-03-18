@@ -12,7 +12,7 @@ discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f7e361d10d039718c421a3684c518347af2be951
 
 ---
 
@@ -81,7 +81,7 @@ Adobe Campagne beheert quarantaine volgens het type van leveringsmislukking en d
 
 * **Genegeerde fout**: genegeerde fouten sturen geen adres naar quarantaine.
 * **Harde fout**: het desbetreffende e-mailadres wordt onmiddellijk naar quarantaine verzonden.
-* **Zachte fout**: de zachte fouten verzenden onmiddellijk geen adres naar quarantaine, maar zij verhogen een foutenteller. Wanneer de foutenteller de grensdrempel bereikt, gaat het adres in quarantaine. In de standaardconfiguratie is de drempel ingesteld op vijf fouten, waarbij twee fouten significant zijn als ze zich op een afstand van minstens 24 uur bevinden. Het adres wordt in quarantaine geplaatst bij de zesde fout. De drempelwaarde voor de foutteller kan worden gewijzigd. Raadpleeg deze [pagina](../../administration/using/configuring-email-channel.md#email-channel-parameters)voor meer informatie.
+* **Zachte fout**: de zachte fouten verzenden onmiddellijk geen adres naar quarantaine, maar zij verhogen een foutenteller. Wanneer de foutenteller de grensdrempel bereikt, gaat het adres in quarantaine. In de standaardconfiguratie is de drempel ingesteld op vijf fouten, waarbij twee fouten significant zijn als ze zich op een afstand van minstens 24 uur bevinden. Het adres wordt in quarantaine geplaatst bij de vijfde fout. De drempelwaarde voor de foutteller kan worden gewijzigd. Raadpleeg deze [pagina](../../administration/using/configuring-email-channel.md#email-channel-parameters)voor meer informatie.
 
    Wanneer een levering succesvol na opnieuw probeert, wordt de foutenteller van het adres dat voorafgaand aan die quarantined was opnieuw geïnitialiseerd. De adresstatus verandert in **[!UICONTROL Valid]** en wordt na twee dagen door de **[!UICONTROL Database cleanup]** workflow verwijderd uit de lijst met quarantines.
 
