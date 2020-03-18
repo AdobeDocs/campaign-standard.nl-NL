@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 09a41719e7c857c87607a29a08bc819752d88fd2
+source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
 
 ---
 
@@ -27,6 +27,10 @@ U kunt ook de opmerkingen bij de [release](../../rn/using/release-notes.md)van A
 
 ## Documentatie - maart 2020 {#doc-updates-march-2020}
 
+Meer gedetailleerde informatie over Verbeterde MTA is toegevoegd aan kerndocumentatie, met name betreffende de regels van de e-mailverwerking en de kwalificatie van de stuiterende post [Lees meer](../../administration/using/configuring-email-channel.md#email-processing-rules)
+
+De sectie die gewijd is aan archivering met e-mail BCC is verplaatst en bijgewerkt. [Meer informatie](../../sending/using/archiving.md)
+
 De documentatie bij een mobiele toepassing configureren en de bijbehorende pagina&#39;s zijn bijgewerkt met de afschrijving van SDK V4. [Meer informatie](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
 
 De integratiedocumentatie van Adobe Campagne Standard / Adobe Experience Manager is bijgewerkt en verbeterd. [Meer informatie](../../integrating/using/configure-experience-manager.md)
@@ -36,6 +40,8 @@ De documentatie bij Campagne E-mail Designer en verwante pagina&#39;s zijn bijge
 Er is nu een nieuwe sectie beschikbaar die specifiek is gewijd aan best practices voor het standaardgegevensmodel van de campagne. [Meer informatie](../../developing/using/data-model-best-practices.md)
 
 Er is informatie toegevoegd aan de rechterkant van de **[!UICONTROL Workflow]** doos. [Meer informatie](../../administration/using/list-of-roles.md)
+
+Er is informatie toegevoegd over de **[!UICONTROL History in days field]** beschikbare werkstroomeigenschappen. [Meer informatie](../../automating/using/executing-a-workflow.md)
 
 ## Release 20.1 - februari 2019 {#release-20-1---february-2020}
 
