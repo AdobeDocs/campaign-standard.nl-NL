@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
+source-git-commit: e8302a8d3ba914781bd332bc318b65d88afc6d94
 
 ---
 
@@ -54,11 +54,7 @@ Standaard zijn alleen de details van de laatste overgang van de workflow toegank
 
 Wanneer een overgang is geopend, kunt u de overgang bewerken **[!UICONTROL Label]** of er een koppeling **[!UICONTROL Segment code]** aan maken. Hiervoor bewerkt u de desbetreffende velden en bevestigt u uw wijzigingen.
 
-## Workflows besturen vanuit de REST API {#controlling-a-workflow-from-the-rest-api}
-
-Met de REST API kunt u een workflow **starten**, **pauzeren**, **hervatten** en **stoppen** .
-
-Meer details en voorbeelden van REST-aanroepen vindt u in de [API-documentatie.](../../api/using/controlling-a-workflow.md)
+Met de standaard REST API&#39;s voor campagnes kunt u een workflow **starten**, **pauzeren**, **hervatten** en **stoppen** . Meer details en voorbeelden van REST-aanroepen vindt u in de [API-documentatie.](../../api/using/controlling-a-workflow.md)
 
 ## Levenscyclus {#life-cycle}
 
@@ -174,37 +170,52 @@ In dit geval wordt de onjuiste taak afgebroken. Deze modus is vooral geschikt vo
 >
 >U kunt deze configuratie afzonderlijk toepassen voor elke activiteit. U doet dit door een activiteit te selecteren en deze te openen met de snelle actie ![](assets/edit_darkgrey-24px.png). Selecteer vervolgens de modus voor foutbeheer op het tabblad **Uitvoeropties** . Zie Opties voor het uitvoeren van [activiteiten](#activity-execution-options).
 
-In het **[!UICONTROL Execution]** **[!UICONTROL Consecutive errors]** gedeelte van de workfloweigenschappen kunt u ook een aantal geoorloofde bewerkingen definiëren voordat de uitvoering van de workflow automatisch wordt opgeschort. Zolang dit aantal niet wordt bereikt, worden de onjuiste elementen genegeerd en de andere werkschematakken normaal uitgevoerd. Als dit nummer is bereikt, wordt de workflow opgeschort en worden de workflowtoezichthouders automatisch op de hoogte gesteld (e-mail en meldingen in de app). Zie [Workfloweigenschappen](#workflow-properties) en [Adobe Campagne-meldingen](../../administration/using/sending-internal-notifications.md).
+In de eigenschappen [van de](#workflow-properties)workflow zijn aanvullende opties beschikbaar voor foutbeheer.
 
-De supervisors kunnen ook in de uitvoeringseigenschappen van het werkschema worden bepaald.
+![](assets/wkf_execution_error.png)
+
+Mogelijke opties zijn:
+
+* **[!UICONTROL Supervisors]**: Hiermee kunt u de groep personen definiëren die op de hoogte moeten worden gesteld (e-mail en meldingen in de app) als de workflow een fout aantreft. Als er geen groep wordt gedefinieerd, wordt niemand op de hoogte gebracht. Meer informatie over Adobe Campagne-meldingen vindt u in [Adobe Campagne-meldingen](../../administration/using/sending-internal-notifications.md).
+
+* **[!UICONTROL In case of error]**: kunt u opgeven welke actie moet worden uitgevoerd als de activiteit een fout aantreft. Hiervoor zijn twee opties beschikbaar:
+
+   * **Het proces** onderbreken: de workflow wordt automatisch opgeschort. De workflowstatus is dan **fout** en de bijbehorende kleur wordt rood. Start de workflow opnieuw als het probleem is opgelost.
+   * **Negeren**: de activiteit wordt niet uitgevoerd, en bijgevolg zijn er ook geen van de activiteiten die daarop volgen (in dezelfde tak). Dit kan handig zijn voor terugkerende taken. Als de tak een eerder geplaatste planner heeft, zou dit op de volgende uitvoeringsdatum moeten teweegbrengen.
+
+* **[!UICONTROL Consecutive errors]** : Hiermee kunt u een aantal opeenvolgende fouten definiëren die zijn geautoriseerd voordat de uitvoering van de workflow automatisch wordt onderbroken.
+
+   * Wanneer het opgegeven getal wordt opgegeven **[!UICONTROL 0]**, of zolang het opgegeven getal niet wordt bereikt, worden activiteiten die fouten tegenkomen, genegeerd. De andere werkstroomvertakkingen worden normaal uitgevoerd.
+
+   * Als het opgegeven aantal is bereikt, wordt de gehele workflow onderbroken en wordt deze **[!UICONTROL Erroneous]** vervolgens geactiveerd. Als toezichthouders zijn gedefinieerd, worden ze automatisch via e-mail op de hoogte gesteld. Zie [Adobe Campagne-meldingen](../../administration/using/sending-internal-notifications.md).
 
 ## Workflow-eigenschappen {#workflow-properties}
 
 Als u de uitvoeringsopties van een workflow wilt wijzigen, gebruikt u de ![](assets/edit_darkgrey-24px.png) knop om de workfloweigenschappen te openen en selecteert u de **[!UICONTROL Execution]** sectie.
 
-In het **[!UICONTROL Default affinity]** veld kunt u een workflow of een werkstroomactiviteit op een bepaalde computer uitvoeren.
-
-Geef in het **[!UICONTROL History in days]** veld de duur op waarna de historie moet worden gewist.
-
-U kunt desgewenst de opties **[!UICONTROL Save SQL queries in the log]** en **[!UICONTROL Execute in the engine (do not use in production)]** inschakelen.
-
-Schakel de **[!UICONTROL Keep interim results]** optie in als u de details van de overgangen wilt bekijken. Waarschuwing: Als u deze optie inschakelt, kan de uitvoering van de workflow aanzienlijk worden vertraagd.
-
-In het **[!UICONTROL Severity]** veld kunt u een prioriteitsniveau opgeven voor het uitvoeren van workflows in uw Adobe Campagne-instantie. Kritieke workflows worden eerst uitgevoerd.
-
-In dit **[!UICONTROL Supervisors]** veld kunt u de groep personen definiëren die een melding moeten ontvangen (e-mail en meldingen in de app) als er een fout optreedt in de workflow. Als er geen groep wordt gedefinieerd, wordt niemand op de hoogte gebracht. Meer informatie over Adobe Campagne-meldingen vindt u in [Adobe Campagne-meldingen](../../administration/using/sending-internal-notifications.md).
-
-In het **[!UICONTROL In case of error]** veld kunt u opgeven welke actie moet worden uitgevoerd als er een fout optreedt. Hiervoor zijn twee opties beschikbaar:
-
-* **Het proces** onderbreken: de workflow wordt automatisch opgeschort. De workflowstatus is dan **fout** en de bijbehorende kleur wordt rood. Start de workflow opnieuw als het probleem is opgelost.
-* **Negeren**: de activiteit wordt niet uitgevoerd, en bijgevolg zijn er ook geen van de activiteiten die daarop volgen (in dezelfde tak). Dit kan handig zijn voor terugkerende taken. Als de tak een eerder geplaatste planner heeft, zou dit op de volgende uitvoeringsdatum moeten teweegbrengen.
-
-   Als u deze optie selecteert, kunt u ook een aantal geoorloofde **[!UICONTROL Consecutive errors]** opties definiëren:
-
-   * Wanneer het opgegeven getal wordt opgegeven **[!UICONTROL 0]**, of zolang het opgegeven getal niet wordt bereikt, worden activiteiten die fouten tegenkomen, genegeerd. De andere werkstroomvertakkingen worden normaal uitgevoerd.
-   * Als het opgegeven aantal is bereikt, wordt de gehele workflow onderbroken en wordt deze **[!UICONTROL Erroneous]** vervolgens geactiveerd. Als toezichthouders zijn gedefinieerd, worden ze automatisch via e-mail op de hoogte gesteld.
-
 ![](assets/wkf_execution_6.png)
+
+Mogelijke opties zijn:
+
+* **[!UICONTROL Default affinity]**: in dit veld kunt u ervoor zorgen dat een workflow of een werkstroomactiviteit op een bepaalde computer wordt uitgevoerd.
+
+* **[!UICONTROL History in days]**: geeft het aantal dagen aan waarna de historie moet worden gewist. De geschiedenis bestaat uit alle elementen die verwant zijn aan logboeken, taken, gebeurtenissen. De standaardwaarde is 30 dagen voor workflowsjablonen buiten de box.
+
+   De geschiedenis wordt gewist door het technische werk van de Opschoonmaakbeurt van het Gegevensbestand, dat door gebrek dagelijks wordt uitgevoerd (zie [Lijst van technische werkschema](../../administration/using/technical-workflows.md).)
+
+   >[!IMPORTANT]
+   >
+   >Als het **[!UICONTROL History in days]** veld leeg blijft, wordt de waarde ervan beschouwd als &quot;1&quot;, wat betekent dat de historie na 1 dag wordt gewist.
+
+* **[!UICONTROL Save SQL queries in the log]**: Hiermee kunt u de SQL-query&#39;s uit de workflow opslaan in de logbestanden.
+
+* ***[!UICONTROL Keep interim results]**: Schakel deze optie in als u de details van de overgangen wilt bekijken. Waarschuwing: Als u deze optie inschakelt, kan de uitvoering van de workflow aanzienlijk worden vertraagd.
+
+* **[!UICONTROL Execute in the engine (do not use in production)]**: Hiermee kunt u de workflow lokaal uitvoeren voor het testen van ontwikkelomgevingen.
+
+* **[!UICONTROL Severity]**: kunt u een prioriteitsniveau opgeven voor het uitvoeren van workflows in uw Adobe Campagne-instantie. Kritieke workflows worden eerst uitgevoerd.
+
+Het **[!UICONTROL Error management]** gedeelte bevat aanvullende opties waarmee u kunt bepalen hoe workflows zich gedragen bij fouten. Deze opties worden beschreven in de sectie [Foutbeheer](#error-management) .
 
 ## Activiteiteneigenschappen {#activity-properties}
 
