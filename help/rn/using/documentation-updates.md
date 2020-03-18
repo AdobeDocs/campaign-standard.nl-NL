@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
+source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
 
 ---
 
@@ -27,7 +27,7 @@ U kunt ook de opmerkingen bij de [release](../../rn/using/release-notes.md)van A
 
 ## Documentatie - maart 2020 {#doc-updates-march-2020}
 
-Meer gedetailleerde informatie over Verbeterde MTA is toegevoegd aan kerndocumentatie, met name betreffende de regels van de e-mailverwerking en de kwalificatie van de stuiterende post [Lees meer](../../administration/using/configuring-email-channel.md#email-processing-rules)
+Meer gedetailleerde informatie over Verbeterde MTA is toegevoegd aan kerndocumentatie, met name betreffende de regels van de e-mailverwerking en stuiterend postkwalificatie. [Meer informatie](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
 De sectie die gewijd is aan archivering met e-mail BCC is verplaatst en bijgewerkt. [Meer informatie](../../sending/using/archiving.md)
 
@@ -267,7 +267,7 @@ De gids voor automatiseren is bijgewerkt met koppelingen naar gerelateerde workf
 
 Het gedeelte Indicatorberekening voor dynamische rapporten is bijgewerkt. [Meer informatie](../../reporting/using/indicator-calculation.md)
 
-Er is een dynamische compatibiliteitstabel voor rapporten toegevoegd om de compatibiliteit tussen dimensies en maatstaven beter te begrijpen. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
+Er is een dynamische compatibiliteitstabel voor rapporten toegevoegd om beter inzicht te krijgen in de compatibiliteit tussen afmetingen en metriek. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
 
 De lijst met functies voor workflows is bijgewerkt. [Meer informatie](../../automating/using/list-of-functions.md)
 
