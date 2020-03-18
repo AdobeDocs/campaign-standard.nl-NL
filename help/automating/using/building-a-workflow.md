@@ -13,7 +13,7 @@ context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
+source-git-commit: e04b70012188b455382406df167328f963d577da
 
 ---
 
@@ -62,7 +62,8 @@ Het maken van een marketingactiviteit wordt gedetailleerd beschreven in het gede
 
 **Verwant onderwerp:**
 
-[Een werkstroomvideo](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html) maken
+* [Een werkstroomvideo](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html) maken
+* [Workflow-eigenschappen](../../automating/using/executing-a-workflow.md#workflow-properties)
 
 ## Toevoegen en koppelen van activiteiten {#adding-and-linking-activities}
 
@@ -74,16 +75,16 @@ U moet nu de verschillende activiteiten definiëren en deze koppelen in het diag
 
 De activiteiten worden gegroepeerd op categorie in de verschillende secties van het palet.
 
-* Het eerste deel bevat gerichte activiteiten.
-* Het tweede deel bevat de uitvoeringsactiviteiten, die hoofdzakelijk worden gebruikt voor de coördinatie van andere activiteiten.
-* De derde sectie bevat activiteiten die kunnen worden gebruikt om berichten op verschillende kanalen te verzenden. De activiteiten in deze sectie kunnen afhankelijk van de kanalen variëren die op uw instantie worden toegelaten.
-* De vierde sectie bevat activiteiten op het gebied van bestandmanipulatie en gegevensbeheer.
+* Het eerste deel bevat [gerichte activiteiten](../../automating/using/about-targeting-activities.md)
+* Het tweede deel bevat de [uitvoeringsactiviteiten](../../automating/using/about-execution-activities.md), die hoofdzakelijk worden gebruikt voor de coördinatie van andere activiteiten.
+* De derde sectie bevat activiteiten die kunnen worden gebruikt om berichten op verschillende [kanalen](../../automating/using/about-channel-activities.md)te verzenden. De activiteiten in deze sectie kunnen afhankelijk van de kanalen variëren die op uw instantie worden toegelaten.
+* Het vierde gedeelte bevat [activiteiten](../../automating/using/about-data-management-activities.md)op het gebied van bestandmanipulatie en gegevensbeheer.
 
 Het diagram maken:
 
 1. Voeg een activiteit toe door het uit het palet te slepen en het in het diagram te laten vallen.
 
-   Bijvoorbeeld, voeg een activiteit van het **Begin** en dan een **E-mail leveringsactiviteit** op het diagram toe.
+   Bijvoorbeeld, voeg een activiteit van het **[Begin](../../automating/using/start-and-end.md)**en dan een**[ E-mail leveringsactiviteit](../../automating/using/email-delivery.md)** op het diagram toe.
 
 1. Koppel de activiteiten aan elkaar door de overgang naar activiteit **starten** te slepen en neer te zetten op de activiteit **E-maillevering** .
 
