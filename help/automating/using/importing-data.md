@@ -12,7 +12,7 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 4ca603abd9b4ef1a9272a89acb62dee545b76114
 
 ---
 
@@ -24,9 +24,13 @@ source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 U kunt gegevens van een bestand verzamelen om het te verwerken en/of te importeren in de Adobe Campagne-database.
 
 * Met deze **[!UICONTROL Load file]** activiteit kunt u gegevens in één gestructureerd formulier importeren en deze gegevens gebruiken in Adobe Campaign. De gegevens worden tijdelijk geïmporteerd en een andere activiteit is nodig om deze definitief te integreren in de Adobe Campaign-database.
-* Met deze **[!UICONTROL Transfer file]** activiteit kunt u bestanden ontvangen of verzenden, testen of er bestanden aanwezig zijn of bestanden weergeven in Adobe Campagne.
 
-   U kunt deze activiteit vóór een **[!UICONTROL Load file]** voor het geval gebruiken u het dossier van een externe bron moet terugwinnen.
+   Raadpleeg [deze sectie](../../automating/using/load-file.md)voor meer informatie over het gebruik van deze activiteit.
+
+* Met deze **[!UICONTROL Transfer file]** activiteit kunt u bestanden ontvangen of verzenden, testen of er bestanden aanwezig zijn of bestanden weergeven in Adobe Campagne.
+U kunt deze activiteit vóór een **[!UICONTROL Load file]** voor het geval gebruiken u het dossier van een externe bron moet terugwinnen.
+
+   Raadpleeg [deze sectie](../../automating/using/transfer-file.md)voor meer informatie over het gebruik van deze activiteit.
 
 ## Beste werkwijzen importeren {#import-best-practices}
 
@@ -47,6 +51,14 @@ Een voorbeeld van een generiek werkschemamalplaatje dat voor het invoeren van ge
 >[!NOTE]
 >
 >U kunt ook [importsjablonen](../../automating/using/importing-data-with-import-templates.md)gebruiken. Het zijn werkstroomsjablonen die zijn gedefinieerd door een beheerder die, nadat ze zijn geactiveerd, alleen de mogelijkheid biedt om het bestand op te geven dat de te importeren gegevens bevat.
+
+**Verwante onderwerpen:**
+
+* [Bestandsactiviteit laden](../../automating/using/load-file.md)
+* [Afstemmingsactiviteit](../../automating/using/reconciliation.md)
+* [Segmenteringsactiviteit](../../automating/using/segmentation.md)
+* [Deduplicatieactiviteit](../../automating/using/deduplication.md)
+* [Gegevensactiviteit bijwerken](../../automating/using/update-data.md)
 
 ### Vlakke bestandsindelingen gebruiken {#using-flat-file-formats}
 
@@ -72,6 +84,11 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ### Compressie gebruiken {#using-compression}
 
 Gebruik indien mogelijk gecomprimeerde bestanden voor importeren en exporteren. GZIP wordt standaard ondersteund. U kunt voorbewerking toevoegen tijdens het importeren van bestanden of naverwerking bij het extraheren van gegevens, respectievelijk in de **[!UICONTROL Load file]** en de **[!UICONTROL Extract file]** werkstroom.
+
+**Verwante onderwerpen:**
+
+* [Bestandsactiviteit laden](../../automating/using/load-file.md)
+* [Bestandsactiviteit extraheren](../../automating/using/extract-file.md)
 
 ### Importeren in de Delta-modus {#importing-in-delta-mode}
 
@@ -105,11 +122,16 @@ Als u bijvoorbeeld een bestand wilt decoderen met PGP, is de opdracht:
    <path-to_pgp_if-not_global_or_server/>pgp.exe --decrypt --input nl6/var/vp/import/filename.pgp --passphrase "your password" --recipient recipient @email.com --verbose --output nl6/var/vp/import/filename
    ```
 
-Zodra het verzoek wordt verwerkt, zullen de encryptie/decryptiebevelen op het **!UICONTROL Pre-processing stage]** gebied van de **[!UICONTROL Data loading (file)]** en **[!UICONTROL Extracting data (file)]** activiteiten beschikbaar zijn. U kunt deze gebruiken om de bestanden te decoderen of te coderen die u wilt importeren of exporteren.
+Zodra het verzoek wordt verwerkt, zullen de encryptie/decryptiebevelen op het **!UICONTROL Pre-processing stage]** gebied van de **[!UICONTROL Load file]** en **[!UICONTROL Extract file]** activiteiten beschikbaar zijn. U kunt deze gebruiken om de bestanden te decoderen of te coderen die u wilt importeren of exporteren.
 
 ![](assets/preprocessing-encryption.png)
 
-## Voorbeeld: Workflow-sjabloon importeren {#example--import-workflow-template}
+**Verwante onderwerpen:**
+
+* [Bestand laden](../../automating/using/load-file.md)
+* [Bestand uitpakken](../../automating/using/extract-file.md)
+
+## Werkstroomsjabloon maken voor het importeren van gegevens {#example--import-workflow-template}
 
 Het gebruik van een importsjabloon is de beste manier als u regelmatig bestanden met dezelfde structuur moet importeren.
 
@@ -184,7 +206,7 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
 
       >[!NOTE]
       >
-      >Als u directe mails naar deze profielen wilt verzenden, moet u ook een postadres opgeven. Deze informatie is namelijk van wezenlijk belang voor de provider van de directe mail. Controleer ook of het **[!UICONTROL Address specified]** vak in de gegevens van uw profielen is ingeschakeld. Als u deze optie vanuit een workflow wilt bijwerken, voegt u eenvoudig een element toe aan de velden die u wilt bijwerken, geeft u **1** op als **[!UICONTROL Source]** en selecteert u het **`postalAddress/@addrDefined`** veld als **[!UICONTROL Destination]**. Zie **[!UICONTROL Address specified]** dit document [voor meer informatie over direct mail en het gebruik van de](../../channels/using/about-direct-mail.md#recommendations)optie.
+      >Als u directe mails naar deze profielen wilt verzenden, moet u ook een postadres opgeven. Deze informatie is namelijk van wezenlijk belang voor de provider van de directe mail. Controleer ook of het **[!UICONTROL Address specified]** vak in de gegevens van uw profielen is ingeschakeld. Als u deze optie vanuit een workflow wilt bijwerken, voegt u eenvoudig een element toe aan de velden die u wilt bijwerken, geeft u **1** op als **[!UICONTROL Source]** en selecteert u het `postalAddress/@addrDefined` veld als **[!UICONTROL Destination]**. Zie **[!UICONTROL Address specified]** dit document [voor meer informatie over direct mail en het gebruik van de](../../channels/using/about-direct-mail.md#recommendations)optie.
 
 1. Configureer de **[!UICONTROL Deduplication]** activiteit die zich na de overgang bevindt en die niet-compatibele profielen bevat:
 
