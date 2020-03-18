@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9163a375a4d2345e94a62e38475cb90bd203ce48
+source-git-commit: 04709dd9a754ea616f3e695ada072137b9ecce6a
 
 ---
 
@@ -78,84 +78,86 @@ De standaardregels zijn als volgt:
 
 ### Stuitberichten {#bounce-mails}
 
-Wanneer een e-mailbericht mislukt, retourneert de server voor het externe bericht een stuitfoutbericht naar het adres dat is opgegeven in de toepassingsinstellingen.
+Voor de synchrone foutenmeldingen van de leveringsmislukking, bepaalt Verbeterde MTA het stuittype en de kwalificatie, en stuurt die informatie terug naar Campagne. Raadpleeg dit [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)voor meer informatie over de verbeterde MTA voor Adobe-campagne.
 
-De Campagne van Adobe vergelijkt de inhoud van elke stuiterende post met de koorden in de lijst van regels, en wijst het dan toe één van de drie foutentypes.
-
->[!IMPORTANT]
->
->Zodra bijgewerkt naar de verbeterde MTA, worden de stuiterende kwalificaties in de **[!UICONTROL Message qualification]** lijst van de Campagne niet meer gebruikt. Voor de synchrone foutenmeldingen van de leveringsmislukking, bepaalt Verbeterde MTA het stuittype en de kwalificatie, en stuurt die informatie terug naar Campagne. Asynchrone stuitingen worden nog steeds gekwalificeerd door het inMail-proces.
->
->Raadpleeg dit [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)voor meer informatie over de verbeterde MTA voor Adobe-campagne.
-
-De gebruiker kan zijn eigen regels tot stand brengen.
+De asynchrone stuitingen worden nog gekwalificeerd door het proces van de Campagne inMail door de **[!UICONTROL Bounce mails]** regel.
 
 >[!IMPORTANT]
 >
->Wanneer u een pakket importeert en gegevens bijwerkt via de workflow **Bijwerken voor** de levering, worden de door de gebruiker gemaakte regels overschreven.
+>Zodra bijgewerkt naar de verbeterde MTA, worden de stuiterende kwalificaties in de **[!UICONTROL Message qualification]** lijst van de Campagne niet meer gebruikt. Zie deze [sectie](../../sending/using/understanding-delivery-failures.md)voor meer informatie over stuiterende mailkwalificatie.
 
-### E-maildomeinen beheren {#managing-email-domains}
-
-De regels van het domeinbeheer worden gebruikt om de stroom van uitgaande e-mails voor een specifiek domein te regelen. Ze nemen een monster van de stuiterende berichten en blokkeren het verzenden, indien van toepassing.
-
-De het overseinenserver van de Campagne van Adobe past regels toe specifiek voor de domeinen, en toen de regels voor het algemene geval dat door een asterisk in de lijst van regels wordt vertegenwoordigd.
+<!--The user can create his own rules.
 
 >[!IMPORTANT]
 >
->Zodra bijgewerkt aan Verbeterde MTA, wordt het ondertekenen van de e-mailauthentificatie DKIM (DomainKeys Identified Mail) gedaan door Verbeterde MTA. DKIM-signing door de native Campagne MTA zal binnen de **[!UICONTROL Domain management]** lijst als deel van de Verbeterde verbetering MTA worden uitgezet.
+>When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.-->
+
+### Beheer van e-maildomeinen {#managing-email-domains}
+
+<!--The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
+
+The **SMTP parameters** act as filters applied for a blocking rule.
+
+* You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
+* **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain.-->
+
+>[!IMPORTANT]
 >
->Raadpleeg dit [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)voor meer informatie over de verbeterde MTA voor Adobe-campagne.
+>Zodra de upgrade naar de verbeterde MTA is uitgevoerd, worden de **[!UICONTROL Domain management]** regels voor Adobe-campagne niet meer gebruikt.
 
-Om domeinbeheerregels te vormen, eenvoudig plaats een drempel en selecteer bepaalde parameters SMTP. Een **drempel** is een grens die als foutenpercentage wordt berekend waarvoorbij alle berichten naar een specifiek domein worden geblokkeerd.
+**DKIM (DomainKeys Identified Mail)** e-mailverificatie wordt ondertekend door de Enhanced MTA voor alle berichten met alle domeinen. Het ondertekent niet met identiteitskaart **van de** Afzender, **DomainKeys**, **DKIM**, of **S/MIME** tenzij anders gespecificeerd op het Verbeterde niveau MTA.
 
-De **parameters** SMTP handelen als filters die voor een blokkerende regel worden toegepast.
-
-* U kunt kiezen al dan niet om bepaalde identificatienormen en encryptiesleutels te activeren om de domeinnaam, zoals identiteitskaart **van de** Afzender, **Domeinsleutels**, **DKIM**, en **S/MIME** te controleren.
-* **SMTP-relais**: laat u het IP adres en de haven van een relaisserver voor een bepaald domein vormen.
+Raadpleeg dit [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)voor meer informatie over de verbeterde MTA voor Adobe-campagne.
 
 ### MX-beheer {#mx-management}
 
-Elke regel bepaalt een adresmasker voor MX. Elke MX waarvan de naam overeenkomt met dit masker is daarom in aanmerking. Het masker kan &quot;*&quot; en &quot;?&quot; bevatten algemene tekens.
+<!--The MX management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate.
 
-De volgende adressen zijn bijvoorbeeld:
+The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
 
-* a.mx.yahoo.com
-* b.mx.yahoo.com
+To configure MX management rules, simply set a threshold and select certain SMTP parameters. A **threshold** is a limit calculated as an error percentage beyond which all messages towards a specific domain are blocked.-->
+
+>[!IMPORTANT]
+>
+>Nadat de upgrade naar de verbeterde MTA is uitgevoerd, worden de regels voor de **[!UICONTROL MX management]** leveringstijd van Adobe Campagne niet meer gebruikt.
+
+Verbeterde MTA gebruikt zijn eigen MX regels die het toestaan om uw productie door domein aan te passen die op uw eigen historische e-mailreputatie wordt gebaseerd, en op real time terugkoppelen die uit de domeinen komt waar u e-mails verzendt.
+
+Raadpleeg dit [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)voor meer informatie over de verbeterde MTA voor Adobe-campagne.
+
+<!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
+
+For example, the following addresses:
+
+* a.mx.yahoo.com 
+* b.mx.yahoo.com 
 * c.mx.yahoo.com
 
-zijn compatibel met de volgende maskers:
+are compatible with the following masks:
 
-* *.yahoo.com
+* &#42;.yahoo.com
 * ?.mx.yahoo.com
 
-Deze regels worden achtereenvolgens toegepast: de eerste regel wordt toegepast waarvan MX-masker compatibel is met de beoogde MX.
+These rules are applied in sequence: the first rule whose MX mask is compatible with the targeted MX is applied.
+
+The following parameters are available for each rule:
+
+* **[!UICONTROL Range of IDs]**: this option lets you indicate the ranges of identifiers (publicId) for which the rule applies. You can specify:
+
+    * A number: the rule will only apply to this publicId.
+    * A range of numbers (number1-number2): the rule will apply to all publicIds between these two numbers.
+
+  If the field is empty, the rule applies to all IDs.
+
+* **[!UICONTROL Shared]**: this option indicates that the highest number of messages per hour and of connections applies to all MXs linked to this rule. 
+* **[!UICONTROL Maximum number of connections]**: maximum number of simultaneous connections to an MX from a given address. 
+* **Maximum number of messages**: maximum number of messages that can be sent by one connection. After this amount, the connection is closed and a new one is reopened. 
+* **[!UICONTROL Messages per hour]**: maximum number of messages that can be sent in one hour for an MX via a given address.
 
 >[!IMPORTANT]
 >
->Nadat de upgrade naar de verbeterde MTA is uitgevoerd, worden de regels voor de leveringstijd van de Adobe Campagne **** MX niet meer gebruikt. Verbeterde MTA gebruikt zijn eigen MX regels die het toestaan om uw productie door domein aan te passen die op uw eigen historische e-mailreputatie wordt gebaseerd, en op real time terugkoppelen die uit de domeinen komt waar u e-mails verzendt.
->
->Raadpleeg dit [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)voor meer informatie over de verbeterde MTA voor Adobe-campagne.
-
-De volgende parameters zijn beschikbaar voor elke regel:
-
-* **[!UICONTROL Range of IDs]**: Met deze optie kunt u de bereiken van id&#39;s (publicId) aangeven waarop de regel van toepassing is. U kunt het volgende opgeven:
-
-   * Een getal: de regel is alleen van toepassing op deze publicId.
-   * Een reeks getallen (getal1-getal2): de regel zal op alle publicIds tussen deze twee aantallen van toepassing zijn.
-   Als het veld leeg is, geldt de regel voor alle id&#39;s.
-
-* **[!UICONTROL Shared]**: deze optie wijst erop dat het hoogste aantal berichten per uur en van verbindingen op alle MXs van toepassing is verbonden aan deze regel.
-* **[!UICONTROL Maximum number of connections]**: maximumaantal gelijktijdige verbindingen aan MX van een bepaald adres.
-* **Maximum aantal berichten**: maximum aantal berichten dat door één verbinding kan worden verzonden. Na dit bedrag, wordt de verbinding gesloten en een nieuwe wordt heropend.
-* **[!UICONTROL Messages per hour]**: maximumaantal berichten dat in één uur voor MX via een bepaald adres kan worden verzonden.
-
->[!IMPORTANT]
->
->* De leveringsserver (MTA) moet opnieuw worden begonnen als de parameters zijn veranderd.
->* De wijziging of invoering van beheerregels is alleen voor professionele gebruikers.
->
-
-
+>* The delivery server (MTA) must be restarted if the parameters have been changed. 
+>* The modification or creation of management rules is for expert users only. -->
 
 ## Lijst met e-maileigenschappen {#list-of-email-properties}
 
@@ -331,37 +333,3 @@ De **[!UICONTROL Access authorization]** sectie bevat de volgende parameters:
    >U kunt organisatorische eenheden configureren via het menu **Beheer** > **Gebruikers en beveiliging** .
 
 * De velden **[!UICONTROL Created by]**, **[!UICONTROL Created]****[!UICONTROL Modified by]** en **[!UICONTROL Last modified]** velden worden automatisch ingevuld.
-
-## E-mails archiveren {#archiving-emails}
-
-U kunt Adobe Campaign zodanig configureren dat een kopie van de e-mails die u van uw platform hebt ontvangen, bewaard blijft.
-
-Adobe Campaign zelf beheert echter geen gearchiveerde bestanden. Het laat u toe om de berichten van uw keus naar een specifiek adres te verzenden, van waar zij kunnen worden verwerkt en worden gearchiveerd gebruikend een extern systeem.
-
-Wanneer geactiveerd in het leveringsmalplaatje, staat deze eigenschap u toe om een nauwkeurige kopie van de overeenkomstige verzonden berichten naar een BCC e-mailadres (onzichtbaar aan de leveringsontvangers) te verzenden dat u moet specificeren.
-
-### Aanbevelingen en beperkingen {#recommendations-and-limitations}
-
-* Deze functie is optioneel. Controleer uw licentieovereenkomst en neem contact op met uw accountmanager om deze te activeren.
-* Het BCC-adres van uw keuze moet worden opgegeven aan het Adobe-team dat het voor u zal configureren.
-* U kunt slechts één BCC-e-mailadres gebruiken.
-* Alleen e-mailberichten die correct zijn verzonden, worden in aanmerking genomen. Bounces niet.
-* Om privacyredenen moeten BCC-e-mails worden verwerkt door een archiveringssysteem dat veilig identificeerbare informatie (PII) kan opslaan.
-* Bij het maken van een nieuwe leveringssjabloon is de optie BCC via e-mail niet standaard ingeschakeld, zelfs niet als de optie is aangeschaft. U moet het manueel in elke leveringsmalplaatje toelaten waar u het wilt gebruiken.
-
-### E-mailarchivering activeren {#activating-email-archiving}
-
-E-mail BCC wordt geactiveerd in de [e-mailsjabloon](../../start/using/marketing-activity-templates.md)via een speciale optie:
-
-1. Ga naar **Bronnen** > **Sjablonen** > **Leveringssjablonen**.
-1. Dupliceer de out-of-box **[!UICONTROL Send via email]** sjabloon.
-1. Selecteer de gedupliceerde sjabloon.
-1. Klik op de **[!UICONTROL Edit properties]** knop om de eigenschappen van de sjabloon te bewerken.
-1. Vouw de sectie **[!UICONTROL Send]** uit.
-1. Schakel het **[!UICONTROL Archive emails]** selectievakje in om een kopie van alle verzonden berichten te bewaren voor elke levering die op deze sjabloon is gebaseerd.
-
-   ![](assets/email_archiving.png)
-
->[!NOTE]
->
->Als de e-mails die naar het BCC-adres worden verzonden worden geopend en doorgeklikt, wordt hiermee rekening gehouden in de analyse **[!UICONTROL Total opens]** en **[!UICONTROL Clicks]** de verzendanalyse, wat tot onjuiste berekeningen kan leiden.
