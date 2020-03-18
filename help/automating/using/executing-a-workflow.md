@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8302a8d3ba914781bd332bc318b65d88afc6d94
+source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
 
 ---
 
@@ -209,9 +209,9 @@ Mogelijke opties zijn:
 
 * **[!UICONTROL Save SQL queries in the log]**: Hiermee kunt u de SQL-query&#39;s uit de workflow opslaan in de logbestanden.
 
-* ***[!UICONTROL Keep interim results]**: Schakel deze optie in als u de details van de overgangen wilt bekijken. Waarschuwing: Als u deze optie inschakelt, kan de uitvoering van de workflow aanzienlijk worden vertraagd.
+* **[!UICONTROL Keep interim results]**: Schakel deze optie in als u de details van de overgangen wilt bekijken. Waarschuwing: Als u deze optie inschakelt, kan de uitvoering van de workflow aanzienlijk worden vertraagd.
 
-* **[!UICONTROL Execute in the engine (do not use in production)]**: Hiermee kunt u de workflow lokaal uitvoeren voor het testen van ontwikkelomgevingen.
+* **[!UICONTROL Execute in the engine (do not use in production)]**: Hiermee kunt u de workflow lokaal uitvoeren voor testdoeleinden in de ontwikkelomgeving.
 
 * **[!UICONTROL Severity]**: kunt u een prioriteitsniveau opgeven voor het uitvoeren van workflows in uw Adobe Campagne-instantie. Kritieke workflows worden eerst uitgevoerd.
 
