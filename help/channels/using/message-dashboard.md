@@ -13,7 +13,7 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
 
 ---
 
@@ -96,7 +96,7 @@ Hieronder volgt een lijst met de berichten die kunnen worden weergegeven:
 
    Als u dit bericht ziet, is er een kwestie op het IP niveau van de affiniteitdefinitie of op het verzendende procesniveau. Neem contact op met uw Adobe-beheerder.
 
-* *&quot;Dit transactionele bericht is een uit-van-de-doos transactionele berichtmalplaatje. Als u het wilt wijzigen, moet u het dupliceren en aan uw exemplaar werken.&quot;*
+* *&quot;Dit is een uit-van-de-doos transactionele berichtmalplaatje. Als u het wilt wijzigen, moet u het dupliceren en aan uw exemplaar werken.&quot;*
 
    Sommige van deze uit-van-de-doos transactionele berichtmalplaatjes zijn ingebouwde het landen paginasjablonen. Zie [deze sectie](../../channels/using/landing-page-templates.md)voor meer informatie.
 
