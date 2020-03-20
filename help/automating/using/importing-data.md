@@ -12,7 +12,7 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -206,7 +206,7 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
 
       >[!NOTE]
       >
-      >Als u directe mails naar deze profielen wilt verzenden, moet u ook een postadres opgeven. Deze informatie is namelijk van wezenlijk belang voor de provider van de directe mail. Controleer ook of het **[!UICONTROL Address specified]** vak in de gegevens van uw profielen is ingeschakeld. Als u deze optie vanuit een workflow wilt bijwerken, voegt u eenvoudig een element toe aan de velden die u wilt bijwerken, geeft u **1** op als **[!UICONTROL Source]** en selecteert u het veld **Postadres/@addrDefined** als **[!UICONTROL Destination]**. Zie **[!UICONTROL Address specified]** dit document [voor meer informatie over direct mail en het gebruik van de](../../channels/using/about-direct-mail.md#recommendations)optie.
+      >Als u directe mails naar deze profielen wilt verzenden, moet u ook een postadres opgeven. Deze informatie is namelijk van wezenlijk belang voor de provider van de directe mail. Controleer ook of het **[!UICONTROL Address specified]** vak in de gegevens van uw profielen is ingeschakeld. Als u deze optie vanuit een workflow wilt bijwerken, voegt u eenvoudig een element toe aan de velden die u wilt bijwerken, geeft u **1** op als **[!UICONTROL Source]** en selecteert u het `postalAddress/@addrDefined` veld als **[!UICONTROL Destination]**. Zie **[!UICONTROL Address specified]** dit document [voor meer informatie over direct mail en het gebruik van de](../../channels/using/about-direct-mail.md#recommendations)optie.
 
 1. Configureer de **[!UICONTROL Deduplication]** activiteit die zich na de overgang bevindt en die niet-compatibele profielen bevat:
 
