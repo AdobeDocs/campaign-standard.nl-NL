@@ -13,7 +13,7 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 1269ee2041e0857b077424ba7f50fbfa9519ae7b
 
 ---
 
@@ -28,6 +28,10 @@ Met de inhoudeditor in de app kunt u kiezen uit twee berichtmodi in de app:
 * [Aangepast bericht](#customizing-with-a-custom-html-message): Met deze sjabloon kunt u aangepaste HTML importeren.
 
 ![](assets/inapp_customize_1.png)
+
+>[!NOTE]
+>
+> Berichtweergave in de app wordt alleen ondersteund voor Android API 19 en latere versies.
 
 **Verwante onderwerpen:**
 
