@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
@@ -32,7 +32,7 @@ De interface van de Bouwer van het Verenigde Segment wordt samengesteld als volg
 
 * Het linkerpaneel verstrekt alle attributen, gebeurtenissen en publiek beschikbaar om het segment te bouwen door gewenste gebieden in de werkruimte van de segmentbouwer te slepen en te laten vallen.
 * Het middelste gebied biedt een werkruimte om het segment te maken door regels van de beschikbare velden te definiëren en te combineren.
-* In de koptekst en het rechterdeelvenster worden de eigenschappen van het segment weergegeven (naam, beschrijving en geschatte gekwalificeerde profielen voor het segment).
+* De kopbal en juiste ruit tonen de eigenschappen van het segment (d.w.z., naam, beschrijving, en geschat gekwalificeerde profielen voor het segment).
 
 ![](assets/aep_audiences_interface.png)
 
