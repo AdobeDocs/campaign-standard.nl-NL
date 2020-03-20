@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
+source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
 + Opmerkingen bij de release {#release-notes}
    + [Laatste release](rn/using/release-notes.md)
    + Eerdere versies {#previous-releases}
+      + [Opmerkingen bij de release 2020](rn/using/release-notes-2020.md)
       + [Opmerkingen bij de release 2019](rn/using/release-notes-2019.md)
       + [Opmerkingen bij de release 2018](rn/using/release-notes-2018.md)
       + [Opmerkingen bij de release 2017](rn/using/release-notes-2017.md)
@@ -32,7 +33,6 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
    + De interface detecteren {#discovering-the-interface}
       + [Over de interface](start/using/about-the-interface.md)
       + [Interfacebeschrijving](start/using/interface-description.md)
-      + [Compatibele browsers](start/using/compatible-browsers.md)
       + [Lijsten aanpassen](start/using/customizing-lists.md)
    + Marketingplannen {#marketing-plans}
       + [Programma&#39;s en campagnes](start/using/programs-and-campaigns.md)
@@ -141,6 +141,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [Berichten voorvertonen](sending/using/previewing-messages.md)
       + [De verzending voorbereiden](sending/using/preparing-the-send.md)
       + [Proefdrukken verzenden](sending/using/sending-proofs.md)
+      + [E-mailberichten testen met doelprofielen](sending/using/testing-messages-using-target.md)
       + [De onderwerpregel van een e-mail testen](sending/using/testing-subject-line-email.md)
       + [E-mailrendering](sending/using/email-rendering.md)
       + [Overvullingen gebruiken](sending/using/using-traps.md)
@@ -342,6 +343,10 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [Bezoeker](developing/using/datamodel-visitor.md)
 + Beheer {#administrating}
    + [Informatie over Adobe-campagne beheren](administration/using/about-administrating-adobe-campaign.md)
+   + Richtlijnen voor configuratie {#configuration-guidelines}
+      + [Configuratierichtlijnen](administration/using/about-configuration-guidelines.md)
+      + [Compatibele browsers](administration/using/compatible-browsers.md)
+      + [Campagne Standaard netwerkeindpunten](administration/using/campaign-standard-network-endpoints.md)
    + Gebruikers en beveiliging {#users-and-security}
       + [Over toegangsbeheer](administration/using/about-access-management.md)
       + [Gebruikersbeheer](administration/using/users-management.md)
