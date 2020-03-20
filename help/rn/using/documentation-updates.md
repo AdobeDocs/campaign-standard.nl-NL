@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
+source-git-commit: 73fd120c79130c3a4eff43bb080bde8dabe58032
 
 ---
 
@@ -24,6 +24,34 @@ Meer informatie over alle nieuwste updates voor de documentatie van Adobe Campag
 Deze pagina bevat een overzicht van alle nieuwe functies en documentatie-updates voor elke release van Adobe Campaign Standard.
 
 U kunt ook de opmerkingen bij de [release](../../rn/using/release-notes.md)van Adobe Campaign raadplegen.
+
+## Release 20.2 - maart 2020 {#release-20-2---march-2020}
+
+**Nieuwe mogelijkheden inbegrepen in de versie**
+
+Azure Blob Integration - [Lees meer](../../administration/using/external-accounts.md#microsoft-azure-external-account)
+
+Unified Experience Cloud-interface en -domein - Meer [informatie](../../start/using/interface-description.md#top-bar)
+
+Testen via e-mail met doelprofielen - Meer [informatie](../../sending/using/testing-messages-using-target.md)
+
+**Overige documentatie-updates die bij de release worden geleverd**
+
+Er is een beperking toegevoegd aan het renderen van berichten in de app. [Meer informatie](../../channels/using/customizing-an-in-app-message.md)
+
+Er is informatie toegevoegd over het gebruik van aggregaten in een **[!UICONTROL Query]** activiteit. [Meer informatie](../../automating/using/query.md#adding-an-aggregate)
+
+De beperking is toegevoegd met MCPNS wanneer het vormen van een mobiele toepassing. [Meer informatie](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+
+Een nieuwe sectie van configuratierichtlijnen is toegevoegd aan de het Beheersen gids. De sectie over compatibele browsers en besturingssystemen is verplaatst van de gids Aan de slag naar deze sectie. Het technologie op het Standaardnetwerkeindpunten van de Campagne is ook toegevoegd aan deze sectie. [Meer informatie](../../administration/using/about-configuration-guidelines.md)
+
+Er is nu een nieuwe sectie beschikbaar waarin wordt beschreven hoe u een gebeurtenisconfiguratie kunt verwijderen. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+
+De pagina die beschrijft hoe u de onderwerpregel van een e-mail kunt testen om de open snelheid van de e-mail te voorspellen, is bijgewerkt en verbeterd, inclusief een nieuwe sectie voor [probleemoplossing](../../sending/using/testing-subject-line-email.md#troubleshooting) . [Meer informatie](../../sending/using/testing-subject-line-email.md#troubleshooting)
+
+De secties van het transactionele overseinen zijn bijgewerkt om op de veelvoudige gebruikersinterface lichte updates en verbeteringen te wijzen. [Meer informatie](../../channels/using/about-transactional-messaging.md)
+
+Informatie over de externe API-activiteitshandleidingen is bijgewerkt. [Meer informatie](../../automating/using/external-api.md)
 
 ## Documentatie - maart 2020 {#doc-updates-march-2020}
 
@@ -43,7 +71,7 @@ Er is informatie toegevoegd aan de rechterkant van de **[!UICONTROL Workflow]** 
 
 Er is informatie toegevoegd over de **[!UICONTROL History in days field]** beschikbare werkstroomeigenschappen. [Meer informatie](../../automating/using/executing-a-workflow.md)
 
-## Release 20.1 - februari 2019 {#release-20-1---february-2020}
+## Release 20.1 - februari 2020 {#release-20-1---february-2020}
 
 **Nieuwe mogelijkheden inbegrepen in de versie**
 
@@ -267,7 +295,7 @@ De gids voor automatiseren is bijgewerkt met koppelingen naar gerelateerde workf
 
 Het gedeelte Indicatorberekening voor dynamische rapporten is bijgewerkt. [Meer informatie](../../reporting/using/indicator-calculation.md)
 
-Er is een dynamische compatibiliteitstabel voor rapporten toegevoegd om beter inzicht te krijgen in de compatibiliteit tussen afmetingen en metriek. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
+Er is een dynamische compatibiliteitstabel voor rapporten toegevoegd om de compatibiliteit tussen dimensies en maatstaven beter te begrijpen. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
 
 De lijst met functies voor workflows is bijgewerkt. [Meer informatie](../../automating/using/list-of-functions.md)
 
@@ -281,7 +309,7 @@ Er is een nieuwe sectie toegevoegd om het specifieke proces voor het opnieuw pro
 
 De sectie Een bron publiceren met API-extensie is verduidelijkt en bijgewerkt met de meest recente wijzigingen in de gebruikersinterface. [Meer informatie](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-De naam en de indeling van de sectie E-mailberichten archiveren zijn gewijzigd. [Meer informatie](../../administration/using/configuring-email-channel.md#archiving-emails)
+De naam en de indeling van de sectie E-mailberichten archiveren zijn gewijzigd. [Meer informatie](../../sending/using/archiving.md)
 
 De sectie Een e-mailbericht maken is bijgewerkt met de meest recente interfacewijzigingen. [Meer informatie](../../channels/using/creating-an-email.md)
 
@@ -315,7 +343,7 @@ Er is een nieuwe sectie toegevoegd waarin de verschillende opties voor het schri
 
 De sectie Aangepaste inhoudsblokken maken is uitgebreid met informatie over het maken van doeldimensies. [Meer informatie](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-Er is een waarschuwing toegevoegd dat de e-mailontwerper Internet Explorer 11 niet ondersteunt. [Meer informatie](../../start/using/compatible-browsers.md)
+Er is een waarschuwing toegevoegd dat de e-mailontwerper Internet Explorer 11 niet ondersteunt. [Meer informatie](../../administration/using/compatible-browsers.md)
 
 Er zijn waarschuwingen toegevoegd aan de sectie Een resource verwijderen. [Meer informatie](../../developing/using/deleting-a-resource.md)
 
@@ -377,7 +405,7 @@ Toegevoegde informatie over het nieuwe gebied in de de gegevensactiviteit van de
 
 De inhoud [importeren is bijgewerkt in een URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) -documentatie met informatie over de e-mailontwerper.
 
-Microsoft Edge (nieuwste versie) is toegevoegd aan de lijst met compatibele browsers voor computers. [Meer informatie](../../start/using/compatible-browsers.md)
+Microsoft Edge (nieuwste versie) is toegevoegd aan de lijst met compatibele browsers voor computers. [Meer informatie](../../administration/using/compatible-browsers.md)
 
 Informatie toegevoegd over de nieuwe optie in de activiteit van het Extraheren dossier die verhindert om een dossier te produceren als de binnenkomende overgang leeg is. [Meer informatie](../../automating/using/extract-file.md)
 
