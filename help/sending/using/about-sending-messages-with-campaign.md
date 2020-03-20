@@ -12,14 +12,14 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 6e605f1046ddcbad9b4e6f369ea5ecf7202f3def
 
 ---
 
 
 # Informatie over het verzenden van berichten via Campagne{#about-sending-messages-with-campaign}
 
-Nadat u het doel hebt gedefinieerd en de inhoud van een bericht hebt gemaakt, moet u het testen en goedkeuren voordat u het naar het hoofddoel verzendt. Dit doet u als volgt:
+Zodra u het doel hebt bepaald en de inhoud van een bericht gecreeerd, moet u het testen en goedkeuren alvorens het bericht naar het belangrijkste doel te verzenden. Dit doet u als volgt:
 
 * Geef een voorvertoning van uw levering weer met een testprofiel.
 * Plan het verzenden: bepalen wanneer het bericht moet worden verzonden.
