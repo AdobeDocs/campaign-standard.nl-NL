@@ -12,7 +12,7 @@ discoiquuid: 7cbca5fb-a99b-43ea-b629-6236cf2a5ef4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: abe529fca5e3631f42a454dfb20a85b60cd3b6e0
 
 ---
 
@@ -23,12 +23,12 @@ Houd de aandacht van uw klanten op en verbeter de responssnelheid door inhoud en
 
 Persoonlijke berichten zijn essentieel voor het verzenden van relevante inhoud, het bieden van persoonlijke ervaringen en het verhogen van de open en conversiesnelheden. Kanaaloverschrijdende berichten die door Adobe Campaign worden geleverd, kunnen op verschillende manieren worden gepersonaliseerd. Deze manieren kunnen met criteria afhankelijk van de profielen worden gecombineerd. U kunt:
 
-* Voeg [dynamische verpersoonlijkingsgebieden](../../designing/using/personalization.md#inserting-a-personalization-field) in uw berichten op
-* Vooraf [gedefinieerde aanpassingsblokken invoegen](../../designing/using/personalization.md#adding-a-content-block)
-* [De afzender](../../designing/using/subject-line.md) van een e-mail of een SMS-bericht aanpassen
-* [Pas de onderwerpregel](../../designing/using/subject-line.md) van een e-mail aan uw wensen aan of gebruik de mogelijkheden van de [prediklijn](../../designing/using/subject-line.md#predictive-subject-line) om dit te optimaliseren
-* [Voorwaardelijke inhoud maken in een e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) of [op een bestemmingspagina](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* Dynamische [tekst](../../channels/using/defining-dynamic-text.md) invoegen in een SMS-bericht of een pushmelding
+* Voeg [dynamische verpersoonlijkingsgebieden](../../designing/using/personalization.md#inserting-a-personalization-field) in uw berichten op.
+* Voeg [vooraf gedefinieerde aanpassingsblokken](../../designing/using/personalization.md#adding-a-content-block)in.
+* [Pas de afzender](../../designing/using/subject-line.md) van een e-mail of SMS aan.
+* [Pas de onderwerpregel](../../designing/using/subject-line.md) van een e-mail aan uw wensen aan of gebruik de mogelijkheden van de [prediklijn](../../sending/using/testing-subject-line-email.md#about-predictive-subject-line) voor het onderwerp om deze te optimaliseren.
+* Maak [voorwaardelijke inhoud in een e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) of [op een bestemmingspagina](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page).
+* Voeg [dynamische tekst](../../channels/using/defining-dynamic-text.md) in een SMS-bericht of een pushmelding in.
 
 ![](assets/delivery_content_43.png)
 
