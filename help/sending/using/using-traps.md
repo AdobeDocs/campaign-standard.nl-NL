@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff9d0c3ca42606f097a34b1835d285541061e57b
+source-git-commit: a7c2d444b7d971124b676fa2392b51aab40e5629
 
 ---
 
@@ -59,6 +59,8 @@ Bij het definiëren van het publiek van een bericht:
    ![](assets/trap_confirm.png)
 
 Het bericht wordt naar het hoofddoel en naar het testprofiel verzonden.
+
+U kunt overvullingen gebruiken bij het verzenden van transactieberichten. In dit geval ontvangt het testprofiel één bericht per gebeurtenisconfiguratie. Voor meer op transactioneel overseinen, zie deze [sectie](../../channels/using/about-transactional-messaging.md).
 
 >[!NOTE]
 >
