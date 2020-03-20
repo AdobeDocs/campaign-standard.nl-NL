@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
 
 ---
 
@@ -24,7 +24,7 @@ De inhoud en weergave van berichten die door Adobe Campaign worden geleverd, kun
 * Voeg dynamische verpersoonlijkingsgebieden in. Zie Een verpersoonlijkingsveld [invoegen](#inserting-a-personalization-field).
 * Vooraf gedefinieerde aanpassingsblokken invoegen. Zie [Een inhoudsblok](#adding-a-content-block)toevoegen.
 * Pas de afzender van een e-mail aan. Zie [De afzender](#personalizing-the-sender)personaliseren.
-* Pas het onderwerp van een e-mail aan. Zie [De onderwerpregel van een e-mail](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email)aanpassen.
+* Pas het onderwerp van een e-mail aan. Zie [De onderwerpregel van een e-mail](../../designing/using/subject-line.md#subject-line)aanpassen.
 * Voorwaardelijke inhoud maken. Zie Dynamische inhoud [definiëren in een e-mail](#defining-dynamic-content-in-an-email).
 
 ## De afzender aanpassen {#personalizing-the-sender}
