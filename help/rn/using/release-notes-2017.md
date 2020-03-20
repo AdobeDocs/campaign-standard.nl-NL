@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
+source-git-commit: 6a34cc1a8848b21ea01b9a20b9deb9be5b5e3895
 
 ---
 
@@ -157,7 +157,7 @@ _Transactieberichten_
 _Rapporten_
 
 * Het rapport **Hot kliks** is verbeterd. Ook, is het nu mogelijk om heet kliks volgens elke voorwaardelijke inhoud te tonen die in een levering werd bepaald en hete kliks voor elke uitvoering van terugkomende leveringen of transactionele berichten te tonen. Raadpleeg de [gedetailleerde documentatie](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)voor meer informatie.
-* Probleem verholpen waarbij de quarantaineminimetrische gegevens niet werden opgehaald.
+* Probleem verholpen waarbij de quarantaineminimetrie onjuiste gegevens niet kon ophalen.
 * Er is een nieuw vooraf ingesteld tijdframe toegevoegd aan de kalenderwidget.
 * De [dynamische rapportmetriek](../../reporting/using/indicator-calculation.md) en KPIs van [campagnes](../../sending/using/confirming-the-send.md) (die op het dashboard van verzonden berichten worden getoond) zijn gericht voor meer coherentie.
 * Probleem verholpen waarbij een pijpleiding ertoe kon leiden dat er een crash optrad bij debian 7.
@@ -194,7 +194,7 @@ _Profielen en publiek_
   </tr> 
   <tr> 
    <td> Campagne van Adobe<br /> </td> 
-   <td> Ontvang meldingen met betrekking tot belangrijke systeemactiviteiten rechtstreeks in Adobe Campagne Standard. U wordt bijvoorbeeld op de hoogte gesteld van de voortgang van de lopende leveringen of wanneer een workflow een fout bevat.<br /> Kennisgevingen in realtime houden relevante belanghebbenden op de hoogte en bieden gebruikers de mogelijkheid om onmiddellijk en rechtstreeks te reageren op activiteitenmeldingen vanuit de toepassing. Het resultaat voor teams is geavanceerde behendigheid, efficiency en vlottere uitvoering van campagnes.  Raadpleeg de <a href="../../administration/using/sending-internal-notifications.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> Ontvang meldingen met betrekking tot belangrijke systeemactiviteiten rechtstreeks in Adobe Campagne Standard. U wordt bijvoorbeeld op de hoogte gesteld van de voortgang van de lopende leveringen of wanneer een workflow een fout bevat.<br /> Kennisgevingen in realtime houden relevante belanghebbenden op de hoogte en bieden gebruikers de mogelijkheid om onmiddellijk en rechtstreeks te reageren op activiteitenmeldingen vanuit de toepassing. Het resultaat voor teams is geavanceerde behendigheid, efficiency en vlottere uitvoering van campagnes. Raadpleeg de <a href="../../administration/using/sending-internal-notifications.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Leveringswaarschuwing<br /> </td> 
@@ -270,7 +270,7 @@ _Workflows_
   </tr> 
   <tr> 
    <td> BCC e-mailen<br /> </td> 
-   <td> Met e-mail BCC kunt u unieke e-mailberichten opslaan die naar individuele ontvangers zijn verzonden, zodat het merk deze berichten kan archiveren. Door een BCC e-mailadres aan alle e-mails toe te voegen, kunnen klanten van Adobe Campagne Standard een exacte kopie van elke e-mail bewaren met deze functie. Dit is een algemene wettelijke vereiste voor de financiële dienstenindustrie en is nuttig in het helpen van de centra van de klantendienst bij het oplossen van conflicten in echt - tijd.<br /> Raadpleeg de <a href="../../administration/using/configuring-email-channel.md#archiving-emails">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> Met e-mail BCC kunt u unieke e-mailberichten opslaan die naar individuele ontvangers zijn verzonden, zodat het merk deze berichten kan archiveren. Door een BCC e-mailadres aan alle e-mails toe te voegen, kunnen klanten van Adobe Campagne Standard een exacte kopie van elke e-mail bewaren met deze functie. Dit is een algemene wettelijke vereiste voor de financiële dienstenindustrie en is nuttig in het helpen van de centra van de klantendienst bij het oplossen van conflicten in echt - tijd.<br /> Raadpleeg de <a href="../../sending/using/archiving.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -421,7 +421,7 @@ _Pushmeldingen_
      <li> Interactieve push </li> 
      <li> Ondersteuning voor rijke inhoud </li> 
      <li> calculator voor downloadgrootte </li> 
-    </ul>  Raadpleeg de <a href="../../channels/using/about-push-notifications.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+    </ul> Raadpleeg de <a href="../../channels/using/about-push-notifications.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Workflows: nieuwe signaalactiviteit<br /> </td> 
@@ -429,7 +429,7 @@ _Pushmeldingen_
     <ul> 
      <li> <span class="uicontrol">Eindactiviteit</span> : op een nieuw tabblad kunt u een workflow opgeven die wordt geactiveerd nadat deze activiteit is uitgevoerd. </li> 
      <li> <span class="uicontrol">Gegevensactiviteit</span> bijwerken: gebruik de nieuwe lege uitgaande overgang om een activiteit van het <strong>Eind</strong> toe te voegen die een andere werkschema teweegbrengt. Lege uitgaande overgangen bevatten geen gegevens en nemen geen overbodige ruimte in het systeem in beslag </li> 
-    </ul>  Raadpleeg de <a href="../../automating/using/external-signal.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+    </ul> Raadpleeg de <a href="../../automating/using/external-signal.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Workflows: nieuwe activiteit voor publiek lezen<br /> </td> 
