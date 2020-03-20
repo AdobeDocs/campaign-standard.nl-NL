@@ -13,7 +13,7 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 6e61fe77c66f77178b47abeb4c45a6a636f87c1d
 
 ---
 
@@ -159,6 +159,12 @@ Door een eenvoudig veld als aanvullende gegevens toe te voegen, wordt dat veld d
 ### Een aggregaat toevoegen {#adding-an-aggregate}
 
 Met aggregaten kunnen waarden worden berekend op basis van velden van de doeldimensie of op basis van velden van dimensies die verband houden met de doeldimensie. Bijvoorbeeld: het gemiddelde bedrag dat door een profiel wordt aangekocht.
+Wanneer het gebruiken van aggregaat met vraag, kan zijn functie aan nul terugkeren die dan als ONGELDIG wordt beschouwd. Gebruik het **[!UICONTROL Output filtering]** lusje van uw vraag om de bijeengevoegde waarde te filtreren:
+
+* Als u nulwaarden wilt gebruiken, moet u hierop filteren **[!UICONTROL is null]**.
+* Als u geen nulwaarden wilt inschakelen **[!UICONTROL is not null]**.
+
+Als u sortering op het aggregaat moet toepassen, moet u nul-waarden wegfilteren. Anders wordt de waarde NULL weergegeven als het grootste getal.
 
 1. Voeg op het **[!UICONTROL Additional data]** tabblad een nieuw element toe.
 1. Selecteer in het venster dat wordt geopend de verzameling die u wilt gebruiken om uw aggregaat in het **[!UICONTROL Expression]** veld te maken.
