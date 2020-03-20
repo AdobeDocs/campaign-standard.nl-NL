@@ -10,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
+source-git-commit: 8f3c8f9a167f11ba5ded2be34a50b52edeeb6412
 
 ---
 
@@ -41,8 +41,8 @@ De belangrijkste kenmerken van deze activiteit zijn:
 
 Voor deze activiteit zijn de volgende voorzorgsmaatregelen getroffen:
 
-* 5MB http-limiet voor gegevensgrootte
-* De time-out van het verzoek is 60 seconden
+* 50 MB http response data size limit
+* Verzoek time-out is 10 minuten
 * HTTP-omleidingen zijn niet toegestaan
 * Niet-HTTPS-URL&#39;s worden geweigerd
 * &quot;Accepteren: application/json&quot;-aanvraagheader en &quot;Content-Type: application/json&quot;-responsheader is toegestaan
