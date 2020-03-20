@@ -13,7 +13,7 @@ context-tags: setOfService,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -57,7 +57,7 @@ Als opgegeven in een bestand via toegewezen kolommen, kunt u met deze activiteit
 
       In deze kolom moet de bewerking worden opgegeven als een Booleaanse waarde of geheel getal. Gebruik **0** om een record op te zeggen en **1** om te abonneren.
 
-      Als de waarden in een geïmporteerd bestand niet overeenkomen met de bovenstaande vereisten, kunt u toch de optie [Opnieuw toewijzen van waarden](../../automating/using/load-file.md#column-format) gebruiken die beschikbaar is in de **[!UICONTROL Load file]** activiteit
+      Als de waarden in een geïmporteerd bestand niet overeenkomen met de bovenstaande vereisten, kunt u toch de optie [Opnieuw toewijzen van waarden](../../automating/using/load-file.md#column-format) gebruiken die beschikbaar is in de **[!UICONTROL Load file]** activiteit.
 
 1. Als de binnenkomende gegevens een kolom bevatten met de abonnementsdatum van het profiel aan de dienst, selecteer het. U kunt deze leeg laten, maar er is geen abonnementsdatum ingesteld wanneer de workflow wordt uitgevoerd.
 1. Geef de oorsprong van het abonnement op. U kunt het aan één van de gebieden van de binnenkomende gegevens of aan een constante waarde van uw keus plaatsen door de **[!UICONTROL Set a constant as origin]** optie te controleren. U kunt deze leeg laten, maar er wordt geen oorsprong ingesteld wanneer de workflow wordt uitgevoerd.
