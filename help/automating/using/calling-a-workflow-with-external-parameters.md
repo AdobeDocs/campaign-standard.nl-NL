@@ -12,7 +12,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -114,7 +114,7 @@ Wanneer het gebruiken van een variabele in een activiteit, verstrekt de interfac
 
 ![](assets/extsignal_callparameter.png)
 
-* ![](assets/extsignal_picker.png): Selecteer de gebeurtenisvariabele onder alle variabelen die beschikbaar zijn in de workflow (zie ).
+* ![](assets/extsignal_picker.png): Selecteer de gebeurtenisvariabele onder alle variabelen die beschikbaar zijn in de workflow.
 
    ![](assets/wkf_test_activity_variables.png)
 
@@ -357,7 +357,7 @@ Voer de onderstaande stappen uit om de workflow te configureren:
    ![](assets/extsignal_uc10.png)
 
 1. Sleep een **[!UICONTROL Email delivery]** activiteit om een bericht naar het publiek te verzenden.
-1. Identificeer de parameters in het bericht te gebruiken om het met de parameter **discontoDesc** te personaliseren. Hiervoor opent u de geavanceerde opties van de activiteit en voegt u vervolgens de parameternaam en -waarde toe.
+1. Identificeer de parameters in het bericht te gebruiken om het met de parameter **discontoDesc** te personaliseren. Hiervoor opent u de geavanceerde opties van de activiteit en voegt u vervolgens de naam en de waarde van de parameter toe.
 
    ![](assets/extsignal_uc10b.png)
 
