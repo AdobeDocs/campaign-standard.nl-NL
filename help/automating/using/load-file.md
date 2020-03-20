@@ -13,7 +13,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -32,7 +32,7 @@ De manier waarop de gegevens worden geëxtraheerd, wordt gedefinieerd wanneer de
 
 >[!CAUTION]
 >
->Alleen de &#39;platte&#39; structuurbestanden worden in aanmerking genomen, bijvoorbeeld de bestanden .txt, .csv, enz.
+>Alleen &#39;platte&#39; structuurbestanden worden in aanmerking genomen, zoals .txt-, .csv-, enz.-bestanden.
 
 U kunt:
 
@@ -105,7 +105,7 @@ De activiteitenconfiguratie omvat twee stappen. Eerst moet u de verwachte bestan
 
 1. Bevestig de configuratie van uw activiteit en sla uw werkschema op.
 
-Als er na het uitvoeren van de workflow een fout optreedt met de activiteit, raadpleegt u de logboeken voor meer informatie over de waarden die niet correct zijn in het bestand. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring)
+Als er na het uitvoeren van de workflow een fout optreedt met de activiteit, raadpleegt u de logboeken voor meer informatie over de waarden die niet correct zijn in het bestand. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring).
 
 ## Kolomnotatie {#column-format}
 
