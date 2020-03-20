@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
+source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 Met Adobe Campaign kunt u persoonlijke en gesegmenteerde pushmeldingen verzenden naar mobiele apparaten met iOS en Android.
 
-Deze berichten worden ontvangen op mobiele toepassingen die u instelt in Adobe Campagne door de Experience Cloud Mobile SDK V4 of Experience Platform SDK te gebruiken. Raadpleeg [Een mobiele toepassing configureren met SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) en een mobiele toepassing [configureren met SDK&#39;s van het Adobe Experience Platform voor meer informatie](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+Deze berichten worden ontvangen op mobiele toepassingen die u instelt in Adobe Campagne door gebruik te maken van de Experience Platform SDK. Zie Een mobiele toepassing [configureren met SDK&#39;s van het Adobe Experience Platform voor meer informatie hierover](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
 In Adobe Campaign worden data van mobiele profielkenmerken die vanaf een mobiel apparaat worden verzonden, opgeslagen in de resource **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** waardoor u de data die u van de abonnees van uw applicaties wilt verzamelen, kunt definiëren.
 
@@ -61,7 +61,7 @@ Als deskundige gebruiker, om deze specifieke configuraties te bepalen, verwijs n
 >Als u de functie voor pushmeldingen van Campagne wilt gebruiken, moet u een geldig pushcertificaat in .pem-indeling opgeven zonder wachtwoorden.
 Als u een geldig p12-certificaat hebt, kunt u het gemakkelijk converteren naar een .pem-bestand met onlinebronnen.
 
-Ten eerste moet u uw mobiele toepassing configureren met SDK V4 om pushmeldingen te kunnen verzenden. U kunt uw mobiele toepassing ook configureren met behulp van Experience Platform SDK&#39;s. Raadpleeg deze [pagina](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)voor meer informatie.
+Ten eerste moet u uw mobiele toepassing configureren met behulp van Experience Platform SDK&#39;s om pushmeldingen te kunnen verzenden. Raadpleeg deze [pagina](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)voor meer informatie.
 
 Voordat u pushmeldingen verzendt, moet u:
 
