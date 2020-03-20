@@ -12,12 +12,14 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 259f7033310982298024462c0134989404c096f4
+source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
 
 ---
 
 
 # De onderwerpregel en de afzender van een e-mail definiëren{#defining-the-subject-line-of-an-email}
+
+## De onderwerpregel van een e-mailbericht definiëren {#subject-line}
 
 Het bericht is verplicht om het bericht voor te bereiden en te verzenden.
 
@@ -25,31 +27,14 @@ Het bericht is verplicht om het bericht voor te bereiden en te verzenden.
 >
 >Als de onderwerpregel leeg is, wordt een waarschuwing weergegeven op het berichtdashboard en in de e-mailontwerper.
 
-Als u het onderwerp van de e-mail wilt configureren, gaat u naar het **[!UICONTROL Properties]** tabblad van de introductiepagina E-mail Designer (toegankelijk via het introductiepictogram) en vult u de **[!UICONTROL Subject]** sectie in.
-
-**De onderwerpregel van een e-mail** definiëren:
-
 1. Maak een e-mail.
-1. Sluit homepage.
-1. Ga naar het **[!UICONTROL Properties]** tabblad van de introductiepagina E-mail Designer (toegankelijk via het introductiepictogram) en vul de **[!UICONTROL Subject]** sectie in.
+1. Ga naar het **[!UICONTROL Properties]** tabblad van de introductiepagina E-mail Designer (toegankelijk via het introductiepictogram).
+1. Vul de **[!UICONTROL Subject]** sectie in.
 
-![](assets/email_designer_subject.png)
+   ![](assets/email_designer_subject.png)
 
-U kunt ook aanpassingsvelden, inhoudsblokken en dynamische inhoud toevoegen aan de onderwerpregel door op de corresponderende pictogrammen te klikken.
-
-## Predictieve onderwerpregel {#predictive-subject-line}
-
-Wanneer u een e-mailbericht bewerkt, kunt u verschillende onderwerpregel uitproberen en een schatting krijgen van de openstaande frequentie voordat u het bericht verzendt.
-
-Deze functie is standaard uitgeschakeld. Deze optie wordt ingeschakeld wanneer het eerste model wordt geïmporteerd. Een model is het resultaat van reeksen van opleidingsgegevens die specifiek zijn voor een bepaalde bedrijfstak. Met modellen kan het systeem voorspellen wat de open snelheid van de e-mail is wanneer een nieuwe onderwerpregel wordt verzonden.
-
->[!NOTE]
->
->Deze functie is beschikbaar voor e-mailberichten en voor databases die alleen Engelse inhoud bevatten. Het getrainde model is inconsistent en leidt tot onjuiste resultaten als uw exemplaar e-mails in andere talen bevat. De optie waarmee u een onderwerp kunt testen, is alleen zichtbaar als er al een model beschikbaar is in uw exemplaar.
-
-**Verwante onderwerpen**
-
-* [De onderwerpregel van een e-mail testen](../../sending/using/testing-subject-line-email.md)
+1. U kunt ook aanpassingsvelden, inhoudsblokken en dynamische inhoud toevoegen aan de onderwerpregel door op de corresponderende pictogrammen te klikken. Zie [Personalisatie](../../designing/using/personalization.md)voor meer informatie.
+1. U kunt verschillende onderwerpreeksen uitproberen om een schatting te krijgen van uw e-mailopen tarief alvorens u het verzendt. Zie [De onderwerpregel van een e-mail](../../sending/using/testing-subject-line-email.md)testen voor meer informatie.
 
 ## De e-mailafzender van een e-mailbericht definiëren {#email-sender}
 
@@ -61,7 +46,7 @@ Als u de naam wilt definiëren van de afzender die wordt weergegeven in de kopte
 
    U kunt de naam van de afzender wijzigen door op het naamblok van de **afzender** te klikken. Het veld wordt bewerkbaar en u kunt de naam invoeren die u wilt gebruiken.
 
-   U kunt dit veld aanpassen. Hiervoor kunt u aanpassingsvelden, inhoudsblokken en dynamische inhoud toevoegen door op de pictogrammen onder de naam van de afzender te klikken.
+   U kunt dit veld aanpassen. Hiervoor kunt u aanpassingsvelden, inhoudsblokken en dynamische inhoud toevoegen door op de pictogrammen onder de naam van de afzender te klikken. Zie [Personalisatie](../../designing/using/personalization.md)voor meer informatie.
 
 * Het **[!UICONTROL From: email address]** veld kan niet vanuit deze sectie worden bewerkt. U kunt dit wijzigen door de eigenschappen van de e-mail te bewerken vanaf het dashboard. Zie [Lijst met geavanceerde e-mailparameters](../../administration/using/configuring-email-channel.md#advanced-parameters)voor meer informatie.
 
