@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
+source-git-commit: 7d31d92197a6bf26b7530b8e8ff42c0dc7f25359
 
 ---
 
@@ -31,6 +31,7 @@ U kunt de volgende typen externe accounts instellen:
 * Adobe Experience Manager. For more on this, refer to [this section](#adobe-experience-manager-external-account).
 * Adobe Analytics. For more on this, refer to [this section](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. For more on this, refer to [this section](#google-recaptcha-external-account).
+* Microsoft Azure Blob-opslag. For more on this, refer to [this section](#microsoft-azure-external-account).
 
 >[!NOTE]
 >
@@ -150,3 +151,53 @@ Geef voor een externe account van Google reCAPTCHA V3 de volgende gegevens op:
    De 0,0- **[!UICONTROL Threshold]** waarde betekent dat het waarschijnlijk een beide is en 1,0 dat het waarschijnlijk een goede interactie is. Standaard kunt u een drempel van 0,5 gebruiken.
 
 ![](assets/external_accounts_3.png)
+
+## Microsoft Azure Blob-opslagexterne account {#microsoft-azure-external-account}
+
+>[!NOTE]
+>
+>De informatie die nodig is om uw externe account te configureren in Adobe Campaign Standard vindt u in de Azure Portal door **[!UICONTROL Settings]** > **[!UICONTROL Access keys]** te selecteren.
+
+Geef voor een externe account voor Microsoft Azure Blob-opslag de volgende gegevens op:
+
+* Een **[!UICONTROL Label]** en **[!UICONTROL ID]** van uw externe account
+* **[!UICONTROL Type]**: Microsoft Azure Blob-opslag
+* Je **[!UICONTROL Account name]** en **[!UICONTROL Account key]**. Als u wilt weten waar u de naam en sleutel van uw account vindt, raadpleegt u deze [pagina](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* Je **[!UICONTROL Endpoint suffix]**. U vindt dit in uw **[!UICONTROL Connection string]** menu in het **[!UICONTROL Access keys]** Azure Portal. Raadpleeg deze [pagina](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)voor meer informatie.
+* Uw **[!UICONTROL Container]** naam. Als u meerdere containers wilt gebruiken, moet u zoveel externe accounts maken als containers.
+* Met de **[!UICONTROL Concurrency]** optie kunt u de snelheid van de bestandsoverdracht afstemmen.
+
+![](assets/external_accounts_4.png)
+
+Klik eenmaal geconfigureerd **[!UICONTROL Test connection]** om Adobe Campagne te koppelen aan de opslag van Microsoft Azure Blob.
+
+### Aanbevelingen voor opslag Microsoft Azure Blob {#azure-blob-recommendations}
+
+**Versleuteling**
+
+Adobe Campaign gebruikt een beveiligde verbinding (HTTPS) om toegang te krijgen tot uw Microsoft Azure Blob-opslagaccount.
+
+**Accountsleutel**
+
+Wanneer u uw externe account configureert, moet u een van de **[!UICONTROL Account key]** beschikbare mogelijkheden van de Azure Portal gebruiken. Raadpleeg deze [pagina](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string)voor meer informatie over waar u uw accountsleutels kunt vinden.
+
+**De bestandsoverdrachtsnelheid optimaliseren**
+
+Met de **[!UICONTROL Concurrency]** optie kunt u de snelheid van de bestandsoverdracht afstemmen.
+Het vertegenwoordigt het aantal draden die zullen worden gebruikt om de dossieroverdracht uit te voeren. Elk van deze draden zal een gedeelte van ongeveer 1MB van de blob downloaden. Zij zullen dan in de rij worden geplaatst om aan schijf worden geschreven. Door het aantal threads te verhogen, verhoogt u ook de belasting van de bronnen die door de toepassing worden gebruikt tijdens de bestandsoverdracht.
+
+Nadat de bestandsoverdracht is voltooid, kunt u de prestatiegegevens vinden in de workflowlogboeken.
+
+**Opnieuw**
+
+Standaard kan de bestandsoverdracht voor Azure Blob maximaal vier keer worden uitgevoerd.  Als de Azure Storage-service een foutcode retourneert zoals 503 (server bezet) of 500 (bewerkingstijd), kan dit erop wijzen dat u de schaalbaarheid van uw opslagaccount nadert of overschrijdt. Dit kan gebeuren als u een nieuwe account gebruikt of tests uitvoert.
+
+Als de fout zich blijft voordoen, kunt u het aantal pogingen verhogen door een optie te creëren onder het Geavanceerde menu **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
+
+Indien geïmplementeerd, moet de optie als volgt worden gemaakt:
+
+```
+ID:        AzureBlob_Max_Retries
+Date type: Integer
+Default:   <the number of retries needed>
+```
