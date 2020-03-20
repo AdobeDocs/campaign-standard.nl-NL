@@ -13,7 +13,7 @@ context-tags: recipient,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
@@ -31,4 +31,3 @@ Met Adobe Campaign kunt u contactpersonen gedurende de volledige levenscyclus be
 Wanneer u campagnes maakt, kunt u het doel van de leveringen definiëren door profielen te selecteren op basis van eenvoudige of geavanceerde criteria. Technisch gesproken is een profiel een item in de database dat alle informatie bevat die vereist is voor het bepalen van de focus, kwalificeren en volgen van gedragingen.
 
 Een profiel kan zijn: een cliënt, een vooruitzicht, een individu aan een nieuwsbrief, een ontvanger, een gebruiker, of een andere denominatie afhankelijk van uw organisatie wordt ingetekend. Gebruik [doelafmetingen](../../automating/using/query.md#targeting-dimensions-and-resources)om verschillende typen profielen te definiëren.
-
