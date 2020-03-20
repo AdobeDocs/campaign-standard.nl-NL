@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3be170b5e1560e0b48db02de4eeb5ea96b794b04
+source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
 
 ---
 
@@ -56,7 +56,7 @@ De mogelijke oorzaken van een mislukking van de levering zijn:
 
 * **[!UICONTROL User unknown]** (Hard type): het adres bestaat niet. Voor dit profiel worden geen verdere leveringen uitgevoerd.
 * **[!UICONTROL Quarantined address]** (Hard type): het adres is in quarantaine geplaatst.
-* **[!UICONTROL Unreachable]** (Zacht/Hard type): er heeft zich een fout voorgedaan in de berichtleveringsketen (incident op SMTP relay, tijdelijk onbereikbaar domein, enz.). Volgens de fout die door de leverancier is geretourneerd, wordt het adres rechtstreeks naar quarantaine verzonden of wordt de levering opnieuw geprobeerd tot de campagne een fout ontvangt die de quarantainestatus rechtvaardigt of tot het aantal fouten 5 bereikt.
+* **[!UICONTROL Unreachable]** (Zacht/Hard type): er is een fout opgetreden in de berichtleveringsketen (bijvoorbeeld een tijdelijk onbereikbaar domein). Volgens de fout die door de leverancier is geretourneerd, wordt het adres rechtstreeks naar quarantaine verzonden of wordt de levering opnieuw geprobeerd tot de campagne een fout ontvangt die de quarantainestatus rechtvaardigt of tot het aantal fouten 5 bereikt.
 * **[!UICONTROL Address empty]** (Hard type): het adres is niet gedefinieerd.
 * **[!UICONTROL Mailbox full]** (Zachte tekst): de brievenbus van deze gebruiker is volledig en kan niet meer berichten goedkeuren. Dit adres kan uit de quarantainelijst worden verwijderd om een andere poging te doen. Het wordt automatisch na 30 dagen verwijderd.
 
