@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campagne Standard - productdocumentatie
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 3fa3fac1ae34c5e53195ad1605be5d4e25f11318
+source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
 
 ---
 
@@ -15,11 +15,9 @@ source-git-commit: 3fa3fac1ae34c5e53195ad1605be5d4e25f11318
 
 ## Nieuwe functies
 
+* **[Testen via e-mail met doelprofielen](sending/using/testing-messages-using-target.md)**Leer hoe u e-mailberichten kunt testen op echte doelprofielen.
+
 * **[Privacybeheer](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Meer informatie over de hulpmiddelen van Adobe Campagne om u te helpen bij het naleven van uw privacy-regels.
-
-* **[Best practices](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>voor levering Meer informatie over aanbevolen procedures voor het ontwerpen en verzenden van de levering.
-
-* **[E-mailontwerper](designing/using/designing-content-in-adobe-campaign.md)**<br/>Raadpleeg de opnieuw georganiseerde documentatie bij E-mailontwerper.
 
 * **[Campagne Standaard mobiele gids](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>Meer informatie over algemene richtlijnen voor mobiele leveringen.
 
