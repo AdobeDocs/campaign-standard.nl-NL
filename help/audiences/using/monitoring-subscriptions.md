@@ -12,7 +12,7 @@ discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
 
 ---
 
@@ -24,9 +24,9 @@ Gebruik de interface van de Campagne van Adobe om uw abonnees te volgen en het s
 U hebt verschillende opties voor het controleren van abonnementen op en het opzeggen van abonnementen:
 
 * Bekijk de lijst met personen die momenteel via het servicedashboard zijn geabonneerd op uw service. Zie [Serviceddashboard](#service-dashboard).
-* raadpleeg de geschiedenis van abonnementen en abonnementen van het lusje van de **Geschiedenis** van het Abonnement in het de dienstdashboard. Zie [Abonnementsgeschiedenis](#subscription-history).
-* een rapport weergeven waarin de ontwikkeling van abonnementen en abonnementen in de **servicerapporten** wordt beschreven. Zie [Servicerapporten](#service-reports).
-* de lijst met services vinden die een persoon heeft geabonneerd van zijn **profiel**. Zie [Geschiedenis van gebeurtenissen die zijn gekoppeld aan een profiel](#history-of-events-linked-to-a-profile).
+* Raadpleeg de geschiedenis met abonnementen en abonnementen op het tabblad **Abonnementsgeschiedenis** in het servicedashboard. Zie [Abonnementsgeschiedenis](#subscription-history).
+* Geef een rapport weer waarin de ontwikkeling van abonnementen en abonnementen in de **servicerapporten** wordt beschreven. Zie [Servicerapporten](#service-reports).
+* Zoek de lijst met services waarop een persoon zich heeft geabonneerd vanuit zijn **profiel**. Zie [Geschiedenis van gebeurtenissen die zijn gekoppeld aan een profiel](#history-of-events-linked-to-a-profile).
 
 ## Servicedashboard {#service-dashboard}
 
