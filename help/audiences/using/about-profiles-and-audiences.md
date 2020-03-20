@@ -12,7 +12,7 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 
 ---
 
@@ -31,7 +31,7 @@ De Campagne van Adobe bouwt rijke klantenprofielen in echt - tijd, die u toestaa
 
    Gebruikend werkschema&#39;s en de vraagredacteur, kunt u publiek construeren dat door uw marketing campagnes, afhankelijk van de informatie zal worden gericht die u op hen, hun activiteiten, en hun marketing geschiedenis hebt. Op deze manier kunt u geabonneerde profielen filteren, monsters nemen of doelsoorten maken op een onbeperkt aantal criteria.
 
-Voordat u begint met het verzenden van berichten naar een contactpersoon, moet u ervoor zorgen dat u hiervoor toestemming krijgt. Als dat niet het geval is, worden uw e-mails mogelijk gemarkeerd als spam. Dit is van invloed op de prestaties van uw platform. Om ervoor te zorgen dat een gezond profielgegevensbestand wordt gebouwd, veilig deze toestemming als eerste stap. Met Campagne, adviseren wij u om gemakkelijke opt-in en opt-out mechanismen door de [diensten](../../audiences/using/creating-a-service.md)te gebruiken, en pagina [&#39;s te](../../channels/using/getting-started-with-landing-pages.md) landen om uw contactinformatie bij te werken en uw gegevensbestand te kweken.
+Voordat u begint met het verzenden van berichten naar een contactpersoon, moet u ervoor zorgen dat u de juiste machtigingen krijgt. Als dat niet het geval is, worden uw e-mails mogelijk gemarkeerd als spam. Dit is van invloed op de prestaties van uw platform. Om ervoor te zorgen dat een gezond profielgegevensbestand wordt gebouwd, veilig deze toestemming als eerste stap. Met Campagne, adviseren wij u om gemakkelijke opt-in en opt-out mechanismen door de [diensten](../../audiences/using/creating-a-service.md)te gebruiken, en pagina [&#39;s te](../../channels/using/getting-started-with-landing-pages.md) landen om uw contactinformatie bij te werken en uw gegevensbestand te kweken.
 
 Als u koppelingen zonder abonnement in uw berichten aanbiedt, kunnen profielen zo nodig op de zwarte lijst worden weergegeven. Hierdoor kunt u de prestaties van uw platform verbeteren. Raadpleeg [Info over opt-in en opt-out in Campagne voor meer informatie over zwarte lijsten](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
