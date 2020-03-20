@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 490908e5fe0810c0a07c73fef5040ddb42983019
+source-git-commit: d8ad3801dba50e357c21a7551e897e0e2c5aedc5
 
 ---
 
@@ -23,7 +23,7 @@ Adobe evalueert voortdurend de productmogelijkheden om oudere eigenschappen te i
 
 Om de aanstaande verwijdering/vervanging van de Standaardmogelijkheden van de Campagne mee te delen, zijn de volgende regels van toepassing:
 
-* Aankondiging van afkeuring komt voorop. Hoewel verouderde mogelijkheden nog steeds beschikbaar kunnen zijn voor bestaande gebruikers, worden deze niet verder uitgebreid of gedocumenteerd.
+* Aankondiging van afkeuring komt voorop. Hoewel verouderde mogelijkheden nog steeds beschikbaar kunnen zijn voor bestaande gebruikers, worden ze niet verder uitgebreid of gedocumenteerd.
 * Afgekeurde functies worden ten vroegste uit de volgende release verwijderd. De werkelijke doeldatum voor verwijdering wordt op deze pagina aangekondigd.
 
 Dit proces biedt klanten minstens één releasecyclus om hun implementatie aan een nieuwe versie of opvolger van een vervangen capaciteit aan te passen, alvorens daadwerkelijke verwijdering.
@@ -78,7 +78,7 @@ Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Vanaf de release van Campagne 19.4 is het gebruik van de campagne-API en de interface voor toegangs- en verwijderingsverzoeken afgekeurd. Gebruik <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
+   <td> <p>Vanaf de release van Campagne 19.4 is het gebruik van de campagne-API en de interface voor toegangs- en verwijderingsverzoeken afgekeurd. De profielverwijdering in twee stappen is niet beschikbaar. Gebruik <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
    <p>Zie ook <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Privacybeheer in de Standaard</a>van de Campagne.</p>
   <p> Doeldatum verwijdering: Juli 2020 - Versie van Campagne 20.5</p>
    </td> 
