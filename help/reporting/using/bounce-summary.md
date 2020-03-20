@@ -13,7 +13,7 @@ context-tags: bounceReport,main;campaignCirculationReport,main;programCirculatio
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
 
 ---
 
@@ -32,7 +32,7 @@ De tabel met **stuitredenen** bevat de beschikbare gegevens voor de typen fouten
 
 * **[!UICONTROL User unknown]**: Het type fout dat wordt gegenereerd wanneer een levering naar een ongeldig e-mailadres wordt verzonden.
 * **[!UICONTROL Invalid domain]**: Het type fout dat wordt gegenereerd wanneer een levering wordt verzonden naar een e-mailadres waarvan het domein onjuist is of niet meer bestaat.
-* **[!UICONTROL Unreachable]**: Het type fout aangetroffen in de tekenreeks voor het verzenden van berichten. Bijvoorbeeld, SMTP relaisincident, tijdelijk onbereikbaar domein, enz.
+* **[!UICONTROL Unreachable]**: Het type van fout die in het koord van de berichtlevering wordt ontmoet, zoals domein tijdelijk onbereikbaar.
 * **[!UICONTROL Account disabled]**: Het type fout dat wordt gegenereerd wanneer een levering wordt verzonden naar een e-mailadres dat niet meer bestaat.
 * **[!UICONTROL Mailbox full]**: Het type fout dat wordt gegenereerd wanneer het Postvak IN van de ontvanger vol is. Er zijn vijf pogingen om het bericht te leveren alvorens deze fout wordt geproduceerd.
 * **[!UICONTROL Not connected]**: Het type fout dat wordt gegenereerd wanneer de mobiele telefoon van de ontvanger is uitgeschakeld of wanneer de ontvanger niet is verbonden met een netwerk op het moment dat het bericht wordt verzonden.
