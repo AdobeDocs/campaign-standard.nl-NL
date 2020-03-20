@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 04709dd9a754ea616f3e695ada072137b9ecce6a
+source-git-commit: 130eaa44dc89a3b013038660d8e3790f05299136
 
 ---
 
@@ -309,6 +309,10 @@ Het voorbereiden van berichten wordt gedetailleerd in de [Goedkeuring berichten]
    Het is ook mogelijk om het leveringsetiket met gebeurtenisvariabelen te personaliseren die in de externe signaalactiviteit van het werkschema zijn verklaard. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 * **[!UICONTROL Save SQL queries in the log]**: met deze optie kunt u SQL-querylogs toevoegen in het journaal tijdens de voorbereidingsfase.
+
+#### Proefinstellingen {#proof-settings}
+
+In deze sectie kunt u het standaardvoorvoegsel configureren voor gebruik in de onderwerpregel van de proefdruk. For more in this, refer to [this section](../../sending/using/sending-proofs.md).
 
 ### Lijst met SMTP-parameters voor e-mail {#list-of-email-smtp-parameters}
 
