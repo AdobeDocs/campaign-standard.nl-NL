@@ -12,14 +12,20 @@ discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 92f6a176a5c0e712170c7d7ef5a993af18d77295
 
 ---
 
 
-# Berichten voorvertonen{#previewing-messages}
+# Berichten voorvertonen {#previewing-messages}
 
-Nadat u testprofielen in het **[!UICONTROL Audience]** venster hebt toegevoegd, kunt u een voorbeeld van uw bericht bekijken om de personalisatie te controleren en te zien hoe de ontvangers de levering zullen bekijken.
+Met Campagnestandaard kunt u berichten voorvertonen voordat ze worden verzonden, zodat u kunt controleren of de berichten op maat zijn en hoe de ontvangers ze zullen zien.
+
+De voorproef van berichten wordt uitgevoerd gebruikend de profielen **van de** Test die u aan het doel van het bericht toevoegt.
+
+Voor **e-mailberichten** kunt u met de standaard Campagne berichten voorvertonen met behulp van de beoogde profielen in plaats van testprofielen. Op deze manier kunt u een exacte weergave krijgen van het bericht dat een specifiek profiel ontvangt. Zie E-mailberichten [testen met doelprofielen](../../sending/using/testing-messages-using-target.md)voor meer informatie.
+
+Voer de volgende stappen uit om een bericht weer te geven met testprofielen:
 
 1. Klik in [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md)op de **[!UICONTROL Preview]** knop.
 
@@ -39,3 +45,8 @@ Nadat u testprofielen in het **[!UICONTROL Audience]** venster hebt toegevoegd, 
 
    ![](assets/sending_preview_edit.png)
 
+**Verwante onderwerpen**
+
+* [Testprofielen beheren](../../audiences/using/managing-test-profiles.md)
+* [E-mailberichten testen met doelprofielen](../../sending/using/testing-messages-using-target.md)
+* [Proefdrukken verzenden](../../sending/using/sending-proofs.md)
