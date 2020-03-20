@@ -13,7 +13,7 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
 
 ---
 
@@ -44,52 +44,12 @@ U kunt deze activiteit gebruiken om gegevens terug te krijgen die dan met de **[
    * **Bestanden uploaden**: kunt u een bestand uploaden. Wanneer u een bestand uploadt uit het Adobe Campaign-bestand, wordt een logbestandvermelding in het **[!UICONTROL Export audits]** menu gegenereerd. Raadpleeg voor meer informatie over exportaudits de sectie [Audit export](../../administration/using/auditing-export-logs.md) .
    * **Testen om te controleren of het bestand bestaat**: kunt u controleren of er een bestand is.
    * **Bestandenlijst**: kunt u een lijst maken van de bestanden die aanwezig zijn in Adobe Campaign.
-   Afhankelijk van de geselecteerde actie, zijn één of verscheidene protocollen beschikbaar:
-
-   * **HTTP**: Met dit protocol kunt u beginnen met het downloaden van een bestand van een externe account of van een URL.
-
-      * Klik op de **[!UICONTROL Use connection parameters defined in an external account]** optie, selecteer het account dat u wilt en geef het pad op van het bestand dat u wilt downloaden.
-
-         ![](assets/wkf_file_transfer_03.png)
-
-      * Klik op de **[!UICONTROL Quick configuration]** optie en voer de URL in het veld in dat wordt weergegeven.
-
-         ![](assets/wkf_file_transfer_04.png)
-   * **S3**: Met dit protocol kunt u een bestand vanaf een URL of een externe account downloaden via Amazon Simple Storage Service (S3).
-
-      * Selecteer de externe account en geef het pad op van het bestand dat u wilt downloaden.
-
-         ![](assets/wkf_file_transfer_08.png)
-   * **SFTP**: Met dit protocol kunt u beginnen met het downloaden van een bestand vanaf een URL of een externe account.
-
-      * Klik op de **[!UICONTROL Use connection parameters defined in an external account]** optie, selecteer het account dat u wilt en geef het pad op van het bestand dat u wilt downloaden.
-
-         ![](assets/wkf_file_transfer_07.png)
-
-         >[!CAUTION]
-         >
-         >Jokertekens worden ondersteund.
-
-      * Klik op de **[!UICONTROL Quick configuration]** optie en voer de URL in het veld in dat wordt weergegeven.
-      * Als u de geïmporteerde bestanden wilt sorteren, selecteert u de **[!UICONTROL Sort alphanumerically]** optie in de **[!UICONTROL Additional options]** sectie. De bestanden worden vervolgens in volgorde verwerkt.
-
-         ![](assets/wkf_file_transfer_sort.png)
-   * **Bestand(en) aanwezig op de Adobe Campagneserver**: dit protocol komt overeen met de opslagplaats die de te herstellen bestanden bevat.
-
-      Metatekens of jokertekens (bijvoorbeeld * of ?) kan worden gebruikt om bestanden te filteren.
-
-      Vul dit veld in en bevestig uw activiteit om dit protocol te gebruiken.
-
-      >[!NOTE]
-      >
-      >Het pad moet relatief zijn ten opzichte van de opslagruimtedirectory van de Adobe Campaign-server. De bestanden bevinden zich in de map **sftp&lt;yourinstancename>/** . U kunt ook niet door de mappen boven de opslagruimte bladeren. Bijvoorbeeld:
-
-      >**user&lt;yourinstancename>/my_recipients.csv** is correct.
-      **../hello/my_recipients.csv** is onjuist.
-      **/myserver/hello/myrecipients.csv** is onjuist.
-   Selecteer het protocol en vul de bijbehorende velden in.
-
-   De **[!UICONTROL Use a dynamic file path]** optie, beschikbaar voor elk protocol, laat u een standaarduitdrukking en gebeurtenisvariabelen gebruiken om de naam van het over te brengen dossier te personaliseren. Raadpleeg voor meer informatie de sectie [Activiteiten aanpassen met gebeurtenisvariabelen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) .
+1. Selecteer het protocol dat u wilt gebruiken:
+   * [HTTP](#HTTP-configuration-wf)
+   * [SFTP](#SFTP-configuration-wf)
+   * [Amazon S3](#S3-configuration-wf)
+   * [Microsoft Azure Blob-opslag](#azure-blob-configuration-wf)
+   * [Bestand(en) aanwezig op de Adobe Campagneserver](#files-server-configuration-wf)
 
 1. In de **[!UICONTROL Additional options]** sectie, die afhankelijk is van het geselecteerde protocol, kunt u parameters toevoegen aan uw protocol. U kunt:
 
@@ -104,6 +64,80 @@ U kunt deze activiteit gebruiken om gegevens terug te krijgen die dan met de **[
    ![](assets/wkf_file_transfer_09.png)
 
 1. Bevestig de configuratie van uw activiteit en sla uw werkschema op.
+
+### Configuratie met HTTP {#HTTP-configuration-wf}
+
+Met het HTTP-protocol kunt u een bestand downloaden van een externe account of van een URL.
+
+Met dit profiel kunt u **[!UICONTROL Use connection parameters defined in an external account]** optie kiezen. Selecteer in dit geval de account die u wilt downloaden en geef het pad op van het bestand dat u wilt downloaden.
+![](assets/wkf_file_transfer_03.png)
+
+U kunt ook de **[!UICONTROL Quick configuration]** optie kiezen. U hoeft de URL alleen in te voeren in het veld URL.
+![](assets/wkf_file_transfer_04.png)
+
+### Configuratie met SFTP {#SFTP-configuration-wf}
+
+Met het SFTP-protocol kunt u beginnen met het downloaden van een bestand vanaf een URL of een externe account.
+
+Met dit profiel kunt u **[!UICONTROL Use connection parameters defined in an external account]** optie kiezen, vervolgens het account selecteren dat u wilt en het pad opgeven van het bestand dat u wilt downloaden.
+![](assets/wkf_file_transfer_07.png)
+
+>[!CAUTION]
+>
+>Jokertekens worden ondersteund.
+
+U kunt ook de **[!UICONTROL Quick configuration]** optie kiezen. U hoeft de URL alleen in te voeren in het veld URL.
+
+### Configuratie met Amazon S3 {#S3-configuration-wf}
+
+Met het Amazon S3-protocol kunt u een bestand vanaf een URL of een externe account downloaden via Amazon Simple Storage Service (S3).
+
+1. Selecteer een externe Amazon S3-account. Raadpleeg deze [pagina](../../administration/using/external-accounts.md#amazon-s3-external-account)voor meer informatie.
+
+2. Kies of u wilt **[!UICONTROL Define a file path]** of **[!UICONTROL Use a dynamic file path]**.
+
+3. Geef het pad op van het bestand dat u wilt downloaden.
+
+   ![](assets/wkf_file_transfer_08.png)
+
+4. Als u de bronbestanden wilt verwijderen wanneer de overdracht is voltooid, selecteert u **[!UICONTROL Delete the source files after transfer]**.
+
+### Configuratie met Microsoft Azure Blob-opslag {#azure-blob-configuration-wf}
+
+Met het Microsoft Azure Blob-protocol hebt u toegang tot blob op een Microsoft Azure Blob Storage-account.
+
+1. Selecteer een **[!UICONTROL Microsoft Azure Blob]** externe account. Raadpleeg deze [pagina](../../administration/using/external-accounts.md#microsoft-azure-external-account)voor meer informatie.
+
+1. Kies of u wilt **[!UICONTROL Define a file path]** of **[!UICONTROL Use a dynamic file path]**.
+
+   ![](assets/wkf_file_transfer_10.png)
+
+1. Geef het pad op van het bestand dat u wilt downloaden. Dit pad kan overeenkomen met meerdere blokken. In dat geval activeert de **[!UICONTROL File transfer]** activiteit de uitgaande overgang eenmaal per aangetroffen blok. Vervolgens worden ze in alfabetische volgorde verwerkt.
+
+   >[!CAUTION]
+   >
+   >Jokertekens worden niet ondersteund om overeen te komen met meerdere bestandsnamen. In plaats daarvan moet u een voorvoegsel invoeren. Alle blob-namen die overeenkomen met dat voorvoegsel komen in aanmerking.
+
+   U vindt onder een lijst met voorbeelden van bestandspaden:
+
+   * **&quot;campagne/&quot;**: komt overeen met alle balken in de map Campagne in de hoofdmap van de container.
+   * **&quot;campagne/nieuw-&quot;**: komt overeen met alle basen met een bestandsnaam die begint met &quot;new-&quot; en zich bevindt in de map Campagne.
+   * **&quot;&quot;**: door een leeg pad toe te voegen, kunt u alle balken afstemmen die in de container beschikbaar zijn.
+
+### Configuratie met bestanden die aanwezig zijn op de Adobe Campagne-server {#files-server-configuration-wf}
+
+Het **[!UICONTROL File(s) present on the Adobe Campaign server]** protocol komt overeen met de opslagplaats die de te herstellen bestanden bevat.
+Metatekens of jokertekens (bijvoorbeeld * of ?) kan worden gebruikt om bestanden te filteren.
+
+Kies of u wilt **[!UICONTROL Define a file path]** of **[!UICONTROL Use a dynamic file path]** de **[!UICONTROL Use a dynamic file path]** optie, laat u een standaarduitdrukking en gebeurtenisvariabelen gebruiken om de naam van het over te brengen dossier te personaliseren. Raadpleeg voor meer informatie de sectie [Activiteiten aanpassen met gebeurtenisvariabelen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) .
+
+Houd er rekening mee dat het pad relatief moet zijn ten opzichte van de opslagruimtedirectory van de Adobe Campagneserver. De bestanden bevinden zich in de map **sftp&lt;yourinstancename>/** . U kunt ook niet door de mappen boven de opslagruimte bladeren. Bijvoorbeeld:
+
+    >**user&amp;lt;yourinstancename>/my_recipients.csv** is correct.
+    >
+    >**../hello/my_recipients.csv** is onjuist.
+    >
+    >**//myserver/hello/myrecipients.csv** is onjuist.
 
 ## Historialisatie-instellingen {#historization-settings}
 
@@ -120,7 +154,8 @@ Telkens wanneer de activiteit wordt uitgevoerd, wordt de omslag gecontroleerd al
 * Als de totale grootte van de bestanden waarmee rekening wordt gehouden groter is dan de waarde van de **[!UICONTROL Maximum size (in MB)]** parameter, worden de oudste bestanden verwijderd totdat de **[!UICONTROL Maximum size (in MB)]** toegestane waarde is bereikt.
 
 >[!NOTE]
-Als de activiteit niet opnieuw wordt uitgevoerd, zal zijn omslag niet worden gecontroleerd noch worden leeggemaakt. Wees daarom voorzichtig bij het overdragen van grote bestanden.
+>
+>Als de activiteit niet opnieuw wordt uitgevoerd, zal zijn omslag niet worden gecontroleerd noch worden leeggemaakt. Wees daarom voorzichtig bij het overdragen van grote bestanden.
 
 ## Voorbeeld {#example}
 
