@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
+source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 
 ---
 
@@ -36,6 +36,8 @@ De belangrijkste stappen zijn:
 1. (optioneel) Geef voor elk profiel een **voorvoegsel** op dat u aan de onderwerpregel van de proefdruk wilt toevoegen.
 1. **Geef in de e-mailontwerper een voorbeeld** weer van hoe het bericht voor de profielen wordt weergegeven.
 1. Verzend de proefdrukken.
+
+Voor meer informatie over het globale proces, verwijs naar de tutorial video beschikbaar [hier](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html).
 
 >[!IMPORTANT]
 >
@@ -254,6 +256,6 @@ De belangrijkste stappen voor dit gebruik zijn als volgt:
 
    ![](assets/substitution_uc_sendproof.png)
 
-1. De proefdrukken worden verzonden op basis van wat is geconfigureerd op het tabblad **[!UICONTROL[Profile substitutions ]**.
+1. De proefdrukken worden verzonden volgens wat in het **[!UICONTROL Profile substitutions]** lusje is gevormd.
 
    ![](assets/substitution_uc_proofs.png)
