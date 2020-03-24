@@ -170,8 +170,8 @@ U kunt tot het transactiebericht toegang hebben dat direct van de verbinding in 
 U moet deze triggergebeurtenis ook integreren in uw website. Zie Het activeren van de gebeurtenis [integreren in een website](#integrating-the-triggering-of-the-event-in-a-website).
 
 <!-->>[!NOTE]
->Als u de vorige publicaties wilt raadplegen, klikt u op de **[!UICONTROL Latest transactional events]** koppeling onder de **[!UICONTROL History]** sectie in het linkergedeelte.—>
->
+>Als u de vorige publicaties wilt raadplegen, klikt u op de **[!UICONTROL Latest transactional events]** koppeling onder de **[!UICONTROL History]** sectie in het linkergedeelte.-->
+
 ### Publicatie van een gebeurtenis ongedaan maken {#unpublishing-an-event}
 
 Met de **[!UICONTROL Unpublish]** knop kunt u de publicatie van de gebeurtenis annuleren. Hierdoor wordt de bron die overeenkomt met de gebeurtenis die u eerder hebt gemaakt, van de REST-API verwijderd. Zelfs als de gebeurtenis via uw website wordt geactiveerd, worden de bijbehorende berichten niet meer verzonden en niet opgeslagen in de database.
