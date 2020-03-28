@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e62fdfba531bcfe18c147e7035c79e1ac6bca979
+source-git-commit: ce55c5193e7944c65e0d9e6cc791ed2bc13b3509
 
 ---
 
@@ -169,8 +169,11 @@ U kunt tot het transactiebericht toegang hebben dat direct van de verbinding in 
 
 U moet deze triggergebeurtenis ook integreren in uw website. Zie Het activeren van de gebeurtenis [integreren in een website](#integrating-the-triggering-of-the-event-in-a-website).
 
-<!-->>[!NOTE]
->Als u de vorige publicaties wilt raadplegen, klikt u op de **[!UICONTROL Latest transactional events]** koppeling onder de **[!UICONTROL History]** sectie in het linkergedeelte.-->
+<!--
+>[!NOTE]
+>
+>To consult the previous publications if any, click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section in the left-hand side area.
+-->
 
 ### Publicatie van een gebeurtenis ongedaan maken {#unpublishing-an-event}
 
@@ -179,7 +182,8 @@ Met de **[!UICONTROL Unpublish]** knop kunt u de publicatie van de gebeurtenis a
 ![](assets/message-center_unpublish.png)
 
 >[!NOTE]
-Als u het overeenkomstige transactiemelding reeds hebt gepubliceerd, wordt de transactieberichtpublicatie ook geannuleerd. Zie [Publicatie van een transactiebericht](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message)ongedaan maken.
+>
+>Als u het overeenkomstige transactiemelding reeds hebt gepubliceerd, wordt de transactieberichtpublicatie ook geannuleerd. Zie [Publicatie van een transactiebericht](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message)ongedaan maken.
 
 Klik op de **[!UICONTROL Publish]** knop om een nieuwe REST API te genereren.
 
@@ -193,14 +197,16 @@ Nadat een gebeurtenis niet gepubliceerd is of nog niet gepubliceerd is, kunt u d
    ![](assets/message-center_delete-button.png)
 
    >[!NOTE]
-   Zorg ervoor dat de gebeurtenisconfiguratie de **[!UICONTROL Draft]** status heeft, anders kunt u deze niet verwijderen. De **[!UICONTROL Draft]** status is van toepassing op een gebeurtenis die nog niet is gepubliceerd of die [niet is gepubliceerd](#unpublishing-an-event).
+   >
+   >Zorg ervoor dat de gebeurtenisconfiguratie de **[!UICONTROL Draft]** status heeft, anders kunt u deze niet verwijderen. De **[!UICONTROL Draft]** status is van toepassing op een gebeurtenis die nog niet is gepubliceerd of die [niet is gepubliceerd](#unpublishing-an-event).
 
 1. Klik op de **[!UICONTROL Confirm]** knop.
 
    ![](assets/message-center_delete-confirm.png)
 
 >[!IMPORTANT]
-Als u een gebeurtenisconfiguratie verwijdert die is gepubliceerd en al wordt gebruikt, worden ook de bijbehorende transactiemeldingen en de bijbehorende verzendings- en trackinglogboeken verwijderd.
+>
+>Als u een gebeurtenisconfiguratie verwijdert die is gepubliceerd en al wordt gebruikt, worden ook de bijbehorende transactiemeldingen en de bijbehorende verzendings- en trackinglogboeken verwijderd.
 
 ## De activering van de gebeurtenis in een website integreren {#integrating-the-triggering-of-the-event-in-a-website}
 
@@ -222,11 +228,12 @@ Als u een op een gebeurtenis gebaseerd transactiebericht wilt verzenden, moet u 
 Voor meer informatie, zie het [Inschakelen met transactioneel overseinen](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences).
 
 1. Selecteer bij het maken van de gebeurtenisconfiguratie de **[!UICONTROL Real-time event]** doeldimensie (zie [Een gebeurtenis](#creating-an-event)maken).
-1. Voeg velden toe aan de gebeurtenis om het transactiemelding aan te passen (zie Gebeurteniskenmerken [](#defining-the-event-attributes)definiëren).
+1. Voeg velden aan de gebeurtenis toe om het transactiemelding aan te passen (zie Gebeurteniskenmerken [](#defining-the-event-attributes)definiëren).
 1. Verrijk de inhoud van het transactiemeldingsbericht als u aanvullende informatie uit de Adobe Campagne-database wilt gebruiken (zie [Verrijken van de inhoud](#enriching-the-transactional-message-content)van het transactiebericht).
 
    >[!NOTE]
-   Het op gebeurtenis-gebaseerde transactieoverseinen wordt verondersteld om slechts de gegevens te gebruiken die in de verzonden gebeurtenis zijn om de ontvanger en de verpersoonlijking van de berichtinhoud te bepalen. U kunt de inhoud van uw transactiemelding echter verrijken met gegevens uit de Adobe Campagne-database.
+   >
+   >Het op gebeurtenis-gebaseerde transactieoverseinen wordt verondersteld om slechts de gegevens te gebruiken die in de verzonden gebeurtenis zijn om de ontvanger en de verpersoonlijking van de berichtinhoud te bepalen. U kunt de inhoud van uw transactiemelding echter verrijken met gegevens uit de Adobe Campagne-database.
 
 1. Een voorvertoning van de gebeurtenis weergeven en deze publiceren (zie [De gebeurtenis](#previewing-and-publishing-the-event)voorvertonen en publiceren).
 
@@ -241,7 +248,7 @@ Voor meer informatie, zie het [Inschakelen met transactioneel overseinen](https:
 Als u een op een profiel gebaseerd transactiebericht wilt verzenden, moet u eerst een gebeurtenis maken en configureren die gegevens als doel heeft die zich in de Adobe Campagne-database bevinden.
 
 1. Selecteer bij het maken van de gebeurtenisconfiguratie de **[!UICONTROL Profile event]** doeldimensie (zie [Een gebeurtenis](#creating-an-event)maken).
-1. Voeg velden toe aan de gebeurtenis om het transactiemelding aan te passen (zie Gebeurteniskenmerken [](#defining-the-event-attributes)definiëren). U moet ten minste één veld toevoegen om een verrijking te maken. U hoeft geen andere velden te maken, zoals de **voornaam** en de **achternaam** , omdat u verpersoonlijkingsvelden uit de Adobe Campagne-database kunt gebruiken.
+1. Voeg velden aan de gebeurtenis toe om het transactiemelding aan te passen (zie Gebeurteniskenmerken [](#defining-the-event-attributes)definiëren). U moet ten minste één veld toevoegen om een verrijking te maken. U hoeft geen andere velden te maken, zoals de **voornaam** en de **achternaam** , omdat u verpersoonlijkingsvelden uit de Adobe Campagne-database kunt gebruiken.
 1. Maak een verrijking om de gebeurtenis aan de **[!UICONTROL Profile]** bron te koppelen (zie De inhoud [van het transactiebericht](#enriching-the-transactional-message-content)verrijken). Het is verplicht een verrijking te maken wanneer u een **[!UICONTROL Profile]** doeldimensie gebruikt.
 1. Een voorvertoning van de gebeurtenis weergeven en deze publiceren (zie [De gebeurtenis](#previewing-and-publishing-the-event)voorvertonen en publiceren).
 
@@ -264,11 +271,12 @@ De gebeurtenis moet de volgende drie elementen bevatten:
 * Een **pushplatform** (&quot;gcm&quot; voor Android of &quot;apns&quot; voor iOS).
 
 1. Wanneer u de gebeurtenisconfiguratie maakt, selecteert u het **[!UICONTROL Mobile application]** kanaal en de **[!UICONTROL Real-time event]** doeldimensie (zie [Een gebeurtenis](#creating-an-event)maken).
-1. Voeg velden toe aan de gebeurtenis om het transactiemelding aan te passen (zie Gebeurteniskenmerken [](#defining-the-event-attributes)definiëren).
+1. Voeg velden aan de gebeurtenis toe om het transactiemelding aan te passen (zie Gebeurteniskenmerken [](#defining-the-event-attributes)definiëren).
 1. Verrijk de inhoud van het transactiemeldingsbericht als u aanvullende informatie uit de Adobe Campagne-database wilt gebruiken (zie [Verrijken van de inhoud](#enriching-the-transactional-message-content)van het transactiemelding).
 
    >[!NOTE]
-   Het op gebeurtenis-gebaseerde transactieoverseinen wordt verondersteld om slechts de gegevens te gebruiken die in de verzonden gebeurtenis zijn om de ontvanger en de verpersoonlijking van de berichtinhoud te bepalen. U kunt de inhoud van uw transactiemelding echter verrijken met gegevens uit de Adobe Campagne-database.
+   >
+   >Het op gebeurtenis-gebaseerde transactieoverseinen wordt verondersteld om slechts de gegevens te gebruiken die in de verzonden gebeurtenis zijn om de ontvanger en de verpersoonlijking van de berichtinhoud te bepalen. U kunt de inhoud van uw transactiemelding echter verrijken met gegevens uit de Adobe Campagne-database.
 
 1. Een voorvertoning van de gebeurtenis weergeven en deze publiceren (zie [De gebeurtenis](#previewing-and-publishing-the-event)voorvertonen en publiceren).
 
@@ -293,7 +301,8 @@ Als u een pushmelding over transacties wilt verzenden naar de Adobe Campagne-pro
 1. Voeg velden toe aan de gebeurtenis als u het transactiemelding wilt aanpassen (zie Gebeurteniskenmerken [](#defining-the-event-attributes)definiëren).
 
    >[!NOTE]
-   U moet ten minste één veld toevoegen om een verrijking te maken. U hoeft geen andere velden te maken, zoals de **voornaam** en de **achternaam** , omdat u verpersoonlijkingsvelden uit de Adobe Campagne-database kunt gebruiken.
+   >
+   >U moet ten minste één veld toevoegen om een verrijking te maken. U hoeft geen andere velden te maken, zoals de **voornaam** en de **achternaam** , omdat u verpersoonlijkingsvelden uit de Adobe Campagne-database kunt gebruiken.
 
 1. Maak een verrijking om de gebeurtenis aan de **[!UICONTROL Profile]** bron te koppelen (zie De inhoud [van het transactiebericht](#enriching-the-transactional-message-content)verrijken). Het is verplicht een verrijking te maken wanneer u een **[!UICONTROL Profile]** doeldimensie gebruikt.
 1. Een voorvertoning van de gebeurtenis weergeven en deze publiceren (zie [De gebeurtenis](#previewing-and-publishing-the-event)voorvertonen en publiceren).
