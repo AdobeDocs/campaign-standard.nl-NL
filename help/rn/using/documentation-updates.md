@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 73fd120c79130c3a4eff43bb080bde8dabe58032
+source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 
 ---
 
@@ -30,8 +30,6 @@ U kunt ook de opmerkingen bij de [release](../../rn/using/release-notes.md)van A
 **Nieuwe mogelijkheden inbegrepen in de versie**
 
 Azure Blob Integration - [Lees meer](../../administration/using/external-accounts.md#microsoft-azure-external-account)
-
-Unified Experience Cloud-interface en -domein - Meer [informatie](../../start/using/interface-description.md#top-bar)
 
 Testen via e-mail met doelprofielen - Meer [informatie](../../sending/using/testing-messages-using-target.md)
 
@@ -275,7 +273,7 @@ De contextafhankelijke Help-koppelingen die rechtstreeks beschikbaar zijn in Ado
 
 De volgende [pagina](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) wordt de officiële pagina Video&#39;s voor de Standaard van de Campagne van Adobe.
 
-Er is een sectie toegevoegd over gegevensbewaring, inclusief de standaardwaarden voor gegevensbehoud voor standaardtabellen. [Meer informatie](../../administration/using/data-retention.md)
+Er is een sectie toegevoegd over gegevensbewaring, inclusief de standaardwaarden voor het bewaren van gegevens voor standaardtabellen. [Meer informatie](../../administration/using/data-retention.md)
 
 Een sectie toegevoegd over updates en onderhoudsbewerkingen. [Meer informatie](../../administration/using/updates-and-maintenance-operations.md)
 
