@@ -43,7 +43,7 @@ De updates van het milieu gebeuren in golven, tijdens de vermelde hieronder term
  <tbody> 
   <tr> 
    <td> Werkgebied<br /> </td> 
-   <td> 1 april - 2 april 2020<br /> </td> 
+   <td> 31 maart - 1 april 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Productie<br /> </td> 
