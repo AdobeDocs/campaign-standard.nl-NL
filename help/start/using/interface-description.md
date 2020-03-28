@@ -12,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1e9f1f69a23a2510bf91b101a74434f759fdb95
+source-git-commit: 260312a461d02c32683e1eb8a90bbaa282800668
 
 ---
 
@@ -60,25 +60,12 @@ De navigatieprincipes zijn:
 * Met de **[!UICONTROL Home]** koppeling kunt u de startpagina van de Adobe-campagne weergeven.
 * Met de **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** en **[!UICONTROL Reports]** koppelingen hebt u toegang tot de weergaven die aan deze functies zijn gekoppeld.
 * Met de **[!UICONTROL Help]** knop hebt u toegang tot de productdocumentatie en de contextafhankelijke Help, opmerkingen bij de release, versienummers, juridische kennisgevingen en de koppelingen naar de Adobe Experience Cloud-community en de klantenservice.
-* De organisatieknop
-* Met het pictogram **Oplossingswisselaar** kunt u overschakelen naar een andere Adobe Experience Cloud-oplossing en naar de profielinstellingen.
-* Het pictogram **Meldingen** geeft de meest recente waarschuwingen of informatie weer.
-* Met het **gebruikerspictogram** kunt u informatie weergeven die is gekoppeld aan uw profiel. Het geeft toegang tot de **[!UICONTROL Sign out]** knoop.
-
-### Help {#help}
-
-* **[!UICONTROL Search]** kunt u documentatie, artikelen en video&#39;s ophalen en inhoud filteren op oplossing
-
-* **[!UICONTROL Help]** tab
-   * Via koppelingen hebt u snel toegang tot artikelen, documentatie en video&#39;s die betrekking hebben op de pagina waarop u bladert
-   * **[!UICONTROL Learning]** Met deze koppeling hebt u toegang tot Experience League.
-   * **[!UICONTROL Community]** Deze verbinding staat u toe toegang tot het forum gewijd aan uw vragen over ACS.
-
-* **[!UICONTROL Support]** kunt u een ondersteuningsticket maken en via telefoon of Twitter contact met ons opnemen.
-
-* **[!UICONTROL Feedback ]** kunt u problemen en ideeën over de oplossing delen.
 
    ![](assets/ux_help.png)
+
+* Met het pictogram Oplossing **** selecteren kunt u overschakelen naar een andere Adobe Experience Cloud-oplossing en naar de profielinstellingen.
+* Het pictogram **Meldingen** geeft de meest recente waarschuwingen of informatie weer.
+* Met het **gebruikerspictogram** kunt u informatie weergeven die is gekoppeld aan uw profiel. Het geeft toegang tot de **[!UICONTROL Sign out]** knoop.
 
 ## Het menu Geavanceerd {#advanced-menu}
 
