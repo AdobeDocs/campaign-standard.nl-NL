@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 7d31d92197a6bf26b7530b8e8ff42c0dc7f25359
+source-git-commit: 5b53f210bc8fc211b1f48f5b6ff8694bcaf41622
 
 ---
 
@@ -157,6 +157,8 @@ Geef voor een externe account van Google reCAPTCHA V3 de volgende gegevens op:
 >[!NOTE]
 >
 >De informatie die nodig is om uw externe account te configureren in Adobe Campaign Standard vindt u in de Azure Portal door **[!UICONTROL Settings]** > **[!UICONTROL Access keys]** te selecteren.
+
+De Azure Blob-opslagconnector kan worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campagne met behulp van een **[!UICONTROLTworkflowactiviteit voor het overdragen van bestanden]** . For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
 
 Geef voor een externe account voor Microsoft Azure Blob-opslag de volgende gegevens op:
 
