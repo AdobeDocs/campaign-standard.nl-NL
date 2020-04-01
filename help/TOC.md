@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
@@ -198,37 +198,47 @@ source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
       + [Componenten toevoegen](reporting/using/adding-components.md)
       + [Een aangepaste profieldimensie maken](reporting/using/creating-a-custom-profile-dimension.md)
       + [Een rapport maken op basis van workflowsegmenten](reporting/using/creating-a-report-workflow-segment.md)
-+ Integreren met Adobe Cloud {#integrating-with-adobe-cloud}
++ Integreren met andere oplossingen {#integrating-with-adobe-cloud}
    + [Over de integratie van campagnes](integrating/using/about-campaign-integrations.md)
-   + Werken met Campagne en Experience Manager {#working-with-campaign-and-experience-manager}
+   + Campagne en Experience Manager {#working-with-campaign-and-experience-manager}
       + [De integratie van Campagne-Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [De integratie van Campagne-Experience Manager configureren](integrating/using/configure-experience-manager.md)
       + [E-mailinhoud maken in Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
       + [Campagneformulier maken in Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-   + Werken met campagne en doel {#working-with-campaign-and-target}
+   + Campagne en doel {#working-with-campaign-and-target}
       + [Info over Campagne-Target-integratie](integrating/using/about-campaign-target-integration.md)
       + [De integratie Campagne-Target configureren](integrating/using/configuring-the-campaign-target-integration.md)
       + [Dynamische doelinhoud toevoegen](integrating/using/adding-target-dynamic-content.md)
-   + Werken met campagne en analyse {#working-with-campaign-and-analytics}
+   + Campagne en analyse {#working-with-campaign-and-analytics}
       + [Integratie van Campagne-Analytics](integrating/using/about-campaign-analytics-integration.md)
       + [Integratie van Campagne-Analytics configureren](integrating/using/configure-campaign-analytics-integration.md)
       + [Campagnedimensies en meetgegevens in Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + Werken met de kernservice Campagne en Audience Manager of Personen {#working-with-campaign-and-audience-manager-or-people-core-service}
+   + Campagne en de Manager van de Auditie of de dienst van de Kern van Mensen {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [Informatie over de integratie van de kern van de service Campagne-Audience Manager of People](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [De levering en het vormen integratie met de Manager van het Publiek of de kerndienst van Mensen](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [Problemen oplossen](integrating/using/troubleshooting.md)
       + [Het delen van publiek met de Manager van de Publiek of de kerndienst van Mensen](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Werken met de centrale service Campagne en middelen](integrating/using/working-with-campaign-and-assets-core-service.md)
-   + Werken met campagne en analyse voor mobiele apparaten {#working-with-campaign-and-analytics-for-mobile}
+   + Campagne en analyse voor mobiele apparaten {#working-with-campaign-and-analytics-for-mobile}
       + [Info over de integratie van campagnepunten voor interessante gegevens](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Integratie van Campagne-Punten van interessegegevens configureren](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Campagneberichten aanpassen met gegevens van het Punt](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + Werken met campagne en triggers {#working-with-campaign-and-triggers}
+   + Campagne en triggers {#working-with-campaign-and-triggers}
       + [Informatie over Adobe Experience Cloud-triggers](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Triggers configureren in Experience Cloud](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Triggers gebruiken in campagne](integrating/using/using-triggers-in-campaign.md)
       + [Uw triggers testen](integrating/using/testing-your-triggers.md)
       + [Afsluiten Gebruiksgevallen activeren](integrating/using/abandonment-triggers-use-cases.md)
+   + Campagne en de Dynamica 365 van Microsoft {#campaign-and-microsoft-dynamics-365}
+      + [Adobe IO configureren voor integratie met Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Werken met de Standaard van de Campagne en Dynamica 365 van Microsoft]{#configuring-acs-ms-dynamics}
+         + [Werken met de Standaard van de Campagne en Dynamica 365 van Microsoft](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+         + [Aankondigingen en aanbevelingen](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+         + [Het vragen van en het vormen van de Dynamica 365 van Microsoft met de Standaardintegratie van de Campagne](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+         + [Het gebruiken van de Dynamica 365 van Microsoft met de Standaardintegratie van de Campagne](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Microsoft Dynamics 365 configureren voor integratie van campagnes](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [Unifi configureren voor integratie met Microsoft Dynamics 365](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
+      + [Aangepaste bronnen voor campagne toewijzen en eigen entiteiten voor dynamiek 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + Processen en gegevens beheren {#managing-processes-and-data}
    + Workflows en gegevensbeheer {#about-workflows-and-data-management}
       + [Workflowgegevens en processen](automating/using/workflow-data-and-processes.md)
