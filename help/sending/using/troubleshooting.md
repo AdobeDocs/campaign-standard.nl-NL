@@ -13,14 +13,16 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
+source-git-commit: b4ba56e5cd639c547a7060be9c60985f5564160d
 
 ---
 
 
 # Problemen oplossen{#troubleshooting}
 
-Ondervindt u een probleem met de leesbaarheid? U kunt hier de oplossing vinden...
+Ondervindt u een probleem met de leesbaarheid? U kunt hier de oplossing vinden.
+
+## Hetzelfde foutbericht voor een ISP {#same-error-for-an-isp}
 
 **Waarom krijg ik altijd het zelfde foutenbericht voor bepaalde ISP?**
 
@@ -31,35 +33,40 @@ Als u altijd het zelfde foutenbericht voor ISP krijgt, kan uw e-mail of IP als g
 
 Neem contact op met de commerciële of leverbare services of met de ondersteuning van Adobe Campagne als het probleem zich blijft voordoen.
 
-**Wat is het verschil tussen een e-mailadres dat op de zwarte lijst staat en een e-mailadres dat in quarantaine is geplaatst?**
+## Zwarte lijst versus quarantaine {#blacklisting-versus-quarantine}
 
-De status **[!UICONTROL Blacklisted]** is een resultaat van een feedbacklus (wanneer een persoon een bericht rapporteert als spam).
+* **Wat is het verschil tussen een e-mailadres dat op de zwarte lijst staat en een e-mailadres dat in quarantaine is geplaatst?**
 
-De status **[!UICONTROL Quarantined]** is het resultaat van een zachte of harde stuit.
+   * De status **[!UICONTROL Blacklisted]** is een resultaat van een feedbacklus (wanneer een persoon een bericht rapporteert als spam).
 
-**Wat betekenen de verschillende redenen voor quarantainefouten?**
+   * De status **[!UICONTROL Quarantined]** is het resultaat van een zachte of harde stuit. Zie deze [sectie](../../sending/using/understanding-quarantine-management.md)voor meer informatie.
 
-Hier volgen tien mogelijke redenen: niet gedefinieerd, gebruiker onbekend, ongeldig domein, adres op de zwarte lijst, geweigerd, fout genegeerd, onbereikbaar, account uitgeschakeld, postvak vol, niet verbonden.
+* **Wat betekenen de verschillende redenen voor quarantainefouten?**
 
-Voor meer op dit, zie het [Begrip van quarantainebeheer](../../sending/using/understanding-quarantine-management.md).
+   Hier volgen tien mogelijke redenen: niet gedefinieerd, gebruiker onbekend, ongeldig domein, adres op de zwarte lijst, geweigerd, fout genegeerd, onbereikbaar, account uitgeschakeld, postvak vol, niet verbonden.
 
-**Een van mijn ontvangers was per ongeluk op de zwarte lijst gezet. Hoe maak ik de zwarte lijst ongedaan zodat ik ze opnieuw kan versturen?**
+   Voor meer op dit, zie het [Begrip van quarantainebeheer](../../sending/using/understanding-quarantine-management.md).
 
-* Ga naar **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
-* Stel in de details van de corresponderende record de waarde van het **[!UICONTROL Status]** veld in op **[!UICONTROL Valid]**.
-* Sla de record op.
+## Uitschakelen {#unblacklisting}
 
-**Hoe kan ik weten of één van mijn IPs zwarte lijst is? Hoe maak ik mijn IP(s) niet op de zwarte lijst?**
+* **Een van mijn ontvangers was per ongeluk op de zwarte lijst gezet. Hoe maak ik de zwarte lijst ongedaan zodat ik ze opnieuw kan versturen?**
 
-Om te controleren of uw IP adres zwarte lijst is, kunt u diverse websites gebruiken om het te verifiëren:
-* https://mxtoolbox.com/
-* https://whatismyipaddress.com/blacklist-check
-* https://www.blacklistalert.org/
+   * Ga naar **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
+   * Stel in de details van de corresponderende record de waarde van het **[!UICONTROL Status]** veld in op **[!UICONTROL Valid]**.
+   * Sla de record op.
 
-Over het algemeen, zal het resultaat van de IP adrescontrole een lijst terugkeren die details van de zwarte lijst en ook de naam van de website bevat die het IP adres zwarte lijst maakt.
+* **Hoe kan ik weten of één van mijn IPs zwarte lijst is? Hoe maak ik mijn IP(s) niet op de zwarte lijst?**
 
-Als u op de koppeling klikt, hebt u toegang tot de gegevens van de website.
+   Om te controleren of uw IP adres zwarte lijst is, kunt u diverse websites gebruiken om het te verifiëren:
+   * https://mxtoolbox.com/
+   * https://whatismyipaddress.com/blacklist-check
+   * https://www.blacklistalert.org/
+   Over het algemeen, zal het resultaat van de IP adrescontrole een lijst terugkeren die details van de zwarte lijst en ook de naam van de website bevat die het IP adres zwarte lijst maakt.
 
-Vervolgens kunt u vragen dat uw website wordt verwijderd van de website die het IP-adres op een zwarte lijst zet.
+   Als u op de desbetreffende koppeling klikt, hebt u toegang tot de gegevens van de website.
 
-Het verwijderingsproces kan afhankelijk van de website variëren. Sommige plaatsen vereisen u om een rekening tot stand te brengen, terwijl anderen enkel u nodig hebben om het IP adres te verstrekken.
+   Vervolgens kunt u vragen dat uw website wordt verwijderd van de website die het IP-adres op een zwarte lijst zet.
+
+   >[!NOTE]
+   >
+   >Het verwijderingsproces kan afhankelijk van de website variëren. Sommige plaatsen vereisen u om een rekening tot stand te brengen, terwijl anderen enkel u nodig hebben om het IP adres te verstrekken.
