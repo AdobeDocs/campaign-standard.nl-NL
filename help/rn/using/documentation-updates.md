@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
+source-git-commit: 34a478b73ba458d0509639dfbb4641bc63b2aa1a
 
 ---
 
@@ -24,6 +24,17 @@ Meer informatie over alle nieuwste updates voor de documentatie van Adobe Campag
 Deze pagina bevat een overzicht van alle nieuwe functies en documentatie-updates voor elke release van Adobe Campaign Standard.
 
 U kunt ook de opmerkingen bij de [release](../../rn/using/release-notes.md)van Adobe Campaign raadplegen.
+
+## Documentatie-updates - april 2020 {#doc-updates-april-2020}
+
+De integratie van de Dynamica 365 van Microsoft met de documentatie van de Standaard van de Campagne van Adobe is geïntegreerd in de kerndocumentatie in het Integrating met andere oplossingen gids. [Meer informatie](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
+Er zijn extra bronnen toegevoegd aan de pagina &quot;Documentstartpagina&quot;. [Meer informatie](../../campaign-standard-home.md)
+
+Informatie over de Experience CLoud ID Service (ECID) is toegevoegd aan de documentatie van de Data Connector van het Adobe Experience Platform. [Meer informatie](../../administration/using/aep-about-data-connector.md#key-concepts)
+
+De het Vormen transactionele overseinensectie is verbeterd met informatie over hoe te om tot de recentste transactionele gebeurtenissen en bijgewerkte screenshots toegang te hebben. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
+
 
 ## Release 20.2 - maart 2020 {#release-20-2---march-2020}
 
@@ -45,7 +56,7 @@ Een nieuwe sectie van configuratierichtlijnen is toegevoegd aan de het Beheersen
 
 Er is nu een nieuwe sectie beschikbaar waarin wordt beschreven hoe u een gebeurtenisconfiguratie kunt verwijderen. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
 
-De pagina die beschrijft hoe u de onderwerpregel van een e-mail kunt testen om de open snelheid van de e-mail te voorspellen, is bijgewerkt en verbeterd, inclusief een nieuwe sectie voor [probleemoplossing](../../sending/using/testing-subject-line-email.md#troubleshooting) . [Meer informatie](../../sending/using/testing-subject-line-email.md#troubleshooting)
+De pagina die beschrijft hoe u de onderwerpregel van een e-mail kunt testen om de open snelheid van de e-mail te voorspellen, is bijgewerkt en verbeterd, inclusief een nieuwe sectie voor [probleemoplossing](../../sending/using/testing-subject-line-email.md#troubleshooting) . [Meer informatie](../../sending/using/testing-subject-line-email.md)
 
 De secties van het transactionele overseinen zijn bijgewerkt om op de veelvoudige gebruikersinterface lichte updates en verbeteringen te wijzen. [Meer informatie](../../channels/using/about-transactional-messaging.md)
 
@@ -147,7 +158,7 @@ Het nieuwe API eindpunt **/customResources** is toegevoegd aan de API documentat
 
 California Consumer Privacy Act (CCPA) - [Lees meer](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
 
-Integratie van Microsoft Dynamics 365 (GA) - [Lees meer](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+Integratie van Microsoft Dynamics 365 (GA) - [Lees meer](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
@@ -211,7 +222,7 @@ Rapport over workflowsegment - Meer [informatie](../../reporting/using/creating-
 
 De Handleiding voor standaardimplementatie voor campagnes is nu live.[Meer informatie](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-Een reeks nieuwe hulpartikelen is gecreeerd over de schakelaarimplementatie en het gebruik van de Dynamica 365 van Microsoft. Merk op dat deze eigenschap momenteel in Beperkte Beschikbaarheid is.[Meer informatie](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+Een reeks nieuwe hulpartikelen is gecreeerd over de schakelaarimplementatie en het gebruik van de Dynamica 365 van Microsoft. Merk op dat deze eigenschap momenteel in Beperkte Beschikbaarheid is.[Meer informatie](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 Er is een opmerking toegevoegd aan het [aanroepen van een workflow met parametersectie](../../automating/using/calling-a-workflow-with-external-parameters.md) over de voorbereiding van de levering en de bijbehorende aggregatieperiode.
 
@@ -273,7 +284,7 @@ De contextafhankelijke Help-koppelingen die rechtstreeks beschikbaar zijn in Ado
 
 De volgende [pagina](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) wordt de officiële pagina Video&#39;s voor de Standaard van de Campagne van Adobe.
 
-Er is een sectie toegevoegd over gegevensbewaring, inclusief de standaardwaarden voor het bewaren van gegevens voor standaardtabellen. [Meer informatie](../../administration/using/data-retention.md)
+Er is een sectie toegevoegd over gegevensbewaring, inclusief de standaardwaarden voor gegevensbehoud voor standaardtabellen. [Meer informatie](../../administration/using/data-retention.md)
 
 Een sectie toegevoegd over updates en onderhoudsbewerkingen. [Meer informatie](../../administration/using/updates-and-maintenance-operations.md)
 
