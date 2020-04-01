@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campagne Standard - productdocumentatie
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
+source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
 
 ---
 
@@ -58,19 +58,13 @@ source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 </tr>
 </table>
 
-
 ## Aanvullende bronnen
 
-* [Opmerkingen bij de release](rn/using/release-notes.md)
-
-* [Deelvenster Beheer](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
-
-* [Hoe kan ik-video&#39;s](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
-
-* [Handleiding voor releaseplanning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
-
-* [Verouderde en verwijderde functies](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-
-* [Technische noten](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
-
-* [Handleiding voor implementatie van Adobe Campagne Standard](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
+| Nuttige pagina&#39;s | Bronnen voor ontwikkelaars |
+|---|---|
+| [Opmerkingen bij de release](rn/using/release-notes.md) | [Implementatiehandleiding](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |
+| [Documentatie van het regelpaneel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [API-documentatie](api/using/about-campaign-standard-apis.md) |
+| [Hoe kan ik-video&#39;s](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) | [Lijst met foutberichten](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [Handleiding voor releaseplanning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Standaard gegevensmodel voor campagne](developing/using/datamodel-introduction.md) |
+| [Verouderde en verwijderde functies](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Campagne-integratie](integrating/using/about-campaign-integrations.md) |
+| [Aan de slag met de standaard voor campagnes](start/using/campaign-orchestration.md) | [Technische noten](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
