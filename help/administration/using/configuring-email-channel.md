@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b85633e278e3824a58390ee538b4a6e6954785af
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
@@ -251,7 +251,7 @@ De **[!UICONTROL Validity period]** sectie bevat de volgende parameters:
 
    >[!IMPORTANT]
    >
-   >Het e-mailbericht kan alleen worden gemaakt als er een HTML-inhoud is gedefinieerd.
+   >Er moet HTML-inhoud zijn gedefinieerd voordat de e-mailpagina kan worden gemaakt.
 
    * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (standaardmodus): De spiegelpagina wordt geproduceerd als de verbinding in de postinhoud wordt opgenomen.
    * **Het genereren van de spiegelpagina** forceren: zelfs als geen verbinding aan de spiegelpagina in de berichten wordt opgenomen, zal de spiegelpagina worden gecreeerd.
