@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
@@ -56,7 +56,7 @@ source-git-commit: 127c8d9ddc63077cb78b75bb1883f81fecd6febe
   <tr> 
    <td> 
     <p>De integratie tussen Adobe Campaign Standard en Microsoft Dynamics 365 is nu beschikbaar. U kunt uw contact- en aangepaste entiteitsrecords van Dynamics 365 naar Campagne overbrengen en e-mailgebeurtenisgegevens terugkrijgen van Campagne naar Dynamics 365 voor een betere uitlijning van verkoop/marketing.</p>
-    <p>Raadpleeg de <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">gedetailleerde documentatie</a> om deze integratie in te stellen en de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">hoe kan ik-video</a>te bekijken.</p>
+    <p>Raadpleeg de <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">gedetailleerde documentatie</a> om deze integratie in te stellen en de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">hoe kan ik-video</a>te bekijken.</p>
   </td>
   </tr> 
  </tbody> 
@@ -366,8 +366,8 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 * De dimensie van de code van het postcode is verwijderd uit Dynamische Rapportering. We raden je aan in plaats daarvan de afmetingen Plaats, Land en Staat te gebruiken.
 * De gebeurtenisactivering &#39;First Launch&#39; van de levenscyclus van In-App-berichten is verwijderd.
 * Wanneer het uitvoeren van een pakket met veiligheidsgroepen, bevat het nu de rollen die aan elke groep worden toegewezen. (CAMP-32960)
-* In de activiteit van het Dossier van de Lading, laat een nieuwe optie u controleren dat de kolommen van het dossier u uploadt de kolomdefinitie aanpassen.  Raadpleeg de [gedetailleerde documentatie](../../automating/using/load-file.md)voor meer informatie. (CAMP-3229)
-* Workflows kunnen nu worden gestart met een payload, zodat u externe parameters kunt gebruiken en delen tussen activiteiten in de workflow.  Raadpleeg de [gedetailleerde documentatie](../../automating/using/calling-a-workflow-with-external-parameters.md)voor meer informatie. (CAMP-29412 &amp; CAMP-29413)
+* In de activiteit van het Dossier van de Lading, laat een nieuwe optie u controleren dat de kolommen van het dossier u uploadt de kolomdefinitie aanpassen. Raadpleeg de [gedetailleerde documentatie](../../automating/using/load-file.md)voor meer informatie. (CAMP-3229)
+* Workflows kunnen nu worden gestart met een payload, zodat u externe parameters kunt gebruiken en delen tussen activiteiten in de workflow. Raadpleeg de [gedetailleerde documentatie](../../automating/using/calling-a-workflow-with-external-parameters.md)voor meer informatie. (CAMP-29412 &amp; CAMP-29413)
 * Met de API&#39;s van Campagnestandaard kunt u nu de geografische en organisatorische eenheden van profielen bijwerken met behulp van een payload. Raadpleeg de [gedetailleerde documentatie](../../api/using/about-campaign-standard-apis.md)voor meer informatie.
 * Foutberichten waarin een object uit de database niet toegankelijk is, zijn duidelijker om te begrijpen.
 * In de activiteit van het Extraheren dossier, zijn de mogelijkheden JavaScript bijgewerkt toen het bepalen van de naam van een dossier om uit te voeren. Alleen de functie formatDate is nu beschikbaar voor gebruik in het veld Uitvoer. Raadpleeg de [gedetailleerde documentatie](../../automating/using/extract-file.md)voor meer informatie.
@@ -387,12 +387,12 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 * Er zijn nieuwe instanties van de Campagnestandaard ingericht. (CAMP-32635 &amp; CAMP-32344)
 * Probleem verholpen waarbij de aanpassing van de datumformule in een workflow werd voorkomen. (CAMP-30336)
 * Probleem verholpen bij het definiëren van een aangepaste datumformule die kan voorkomen dat de velden &quot;Aanvullende gegevens&quot; en &quot;Segmentcode&quot; beschikbaar zijn in de vervolgkeuzelijst. (CAMP-32383)
-* Probleem verholpen waarbij de activiteiten &quot;Overdrachtsbestand&quot; en &quot;Bestand uitpakken&quot; er niet in konden slagen de bestanden te zoeken die worden afgewezen als ze werden versleuteld. (CAMP-32377)
+* Probleem verholpen waarbij de activiteiten &quot;Overdrachtsbestand&quot; en &quot;Bestand uitpakken&quot; er niet in konden slagen de bestanden te zoeken die werden afgewezen als ze waren versleuteld. (CAMP-32377)
 * Probleem verholpen in API&#39;s waardoor het lineCount-filter niet het exacte totale aantal kan weergeven. (CAMP-31424)
 * Probleem verholpen in bestemmingspagina&#39;s die konden verhinderen dat invoervelden de bijgewerkte waarde konden weergeven nadat deze was gewijzigd. (CAMP-31401)
 * Probleem verholpen waarbij een signaalactiviteit onverwacht kon worden geactiveerd.
 * Probleem verholpen waarbij e-mailvoorvertoning niet kon worden weergegeven wanneer het publiek leeg is.
-* Probleem verholpen in de activiteit &quot;Bestand uitpakken&quot; die een bestand kon genereren terwijl de optie &quot;Geen bestand genereren als de inkomende overgang leeg is&quot; was geactiveerd.
+* Probleem verholpen in de activiteit &#39;Bestand uitpakken&#39; die een bestand kon genereren terwijl de optie &#39;Geen bestand genereren als de binnenkomende overgang leeg is&#39; was geactiveerd.
 * Probleem verholpen waardoor de workflow voor aflevering werd uitgeschakeld als deze niet succesvol was voltooid.
 * Probleem verholpen waardoor gebruikers rapporten niet konden opslaan of plannen. (CAMP-31133)
 
@@ -486,7 +486,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 * De drop-down lijst van de tijdzone in het de aanmaakscherm van het Profiel is bewogen van de sectie van het Adres aan de hogere sectie van de interface.
 * U kunt nu scheidingstekens toevoegen wanneer u aangepaste bronschermen configureert, zodat u uw velden in categorieën kunt indelen.
 
-    Raadpleeg de [gedetailleerde documentatie](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)voor meer informatie.
+   Raadpleeg de [gedetailleerde documentatie](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)voor meer informatie.
 
 **Overige wijzigingen**
 
