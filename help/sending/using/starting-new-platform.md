@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 89965d859986b9176de6b6bf96df1fbbb89b5b8f
+source-git-commit: f83cf866f1c9fa53687e6cee26306d33327bd822
 
 ---
 
@@ -26,12 +26,14 @@ Het beginnen om e-mails op een nieuw platform te verzenden is een gevoelige stap
 
 Je kunt niet verwachten dat je aan het begin van de productiefase een operationele snelheid bereikt in termen van productie. Bovendien zou u niet moeten proberen om berichten aan dit tarief te verzenden aangezien het ISPs zou kunnen leiden om de verzendende adressen te blokkeren en de rest van de aanloopfase ernstig te compromitteren.
 
-Het beginnen van een platform gebeurt vaak wanneer het gebruiken van een lijst van adressen voor het eerst en die niet volledig gekwalificeerd kunnen zijn. Als u naar ongeldige adressen verzendt of naar honeypot-adressen, zal dit bijdragen aan het verminderen van de reputatie van het platform. Als u een lijst van ongeldige adressen hebt, is het in uw beste belang om het in de quarantainetabel (**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]** > **[!UICONTROL Addresses]**) in te voeren alvorens voor het eerst te verzenden. Als, allen het zelfde, u wenst om de ongeldige adressen opnieuw te kwalificeren, is het verreweg verkieslijk om dit te doen zodra de reputatie van het platform en beetje door beetje wordt gevestigd om het gebruik van slechte adressen in tijd &quot;te &quot;verwateren&quot;.
+Het beginnen van een platform gebeurt vaak wanneer het gebruiken van een lijst van adressen voor het eerst en die niet volledig gekwalificeerd kunnen zijn. Als u naar ongeldige adressen verzendt of naar honeypot-adressen, zal dit bijdragen aan het verminderen van de reputatie van het platform.
+* Als u een lijst van ongeldige adressen hebt, is het in uw beste belang om het in de quarantainetabel (**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]** > **[!UICONTROL Addresses]**) in te voeren alvorens voor het eerst te verzenden. Zie deze [sectie](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform)voor meer informatie.
+* Als, allen het zelfde, u wenst om de ongeldige adressen opnieuw te kwalificeren, is het verreweg verkieslijk om dit te doen zodra de reputatie van het platform en beetje door beetje wordt gevestigd om het gebruik van slechte adressen in tijd &quot;te &quot;verwateren&quot;.
 
 Een overzicht geven van de beginselen die bij het opstarten moeten worden gevolgd:
-* **Een specifiek subdomein** delegeren aan Adobe dat specifiek is voor e-mailcampagnes die van Adobe worden verzonden
-* **Ongeldige/inactieve adressen importeren in de quarantainetabel** (als u deze informatie hebt)
-* **Beperk het tarief van de leveringsproductie** (technische het plaatsen: beperking van het aantal tapijten)
-* **De verzonden** volumes progressief verhogen: niet de gehele database vanaf het begin als doel instellen, maar telkens wanneer u de gegevens verzendt, een extra gedeelte van de lijst toevoegen; dit zou u moeten toelaten om het volume bij elke stap te verhogen terwijl het verminderen van het algemene tarief van ongeldige adressen
-* **Verzend regelmatig** berichten: In zekere zin is het beter om regelmatig kleine opnamen te sturen in plaats van sporadisch grote campagnes
+* **Wijs een specifiek subdomein** toe aan Adobe dat specifiek is voor e-mailcampagnes die van Adobe worden verzonden.
+* **Importeer ongeldige/inactieve adressen in de quarantainetabel** (als u deze informatie hebt).
+* **Beperk het tarief van de leveringsproductie** (technische het plaatsen: beperking van het aantal tapijten).
+* **De verzonden** volumes progressief verhogen: richt niet het volledige gegevensbestand vanaf zeer begin, maar voegt eerder een extra fractie van de lijst toe telkens als u verzendt. Dit zou u moeten toelaten om het volume bij elke stap te verhogen terwijl het verminderen van het algemene tarief van ongeldige adressen.
+* **Verzend regelmatig** berichten: tot op zekere hoogte is het beter regelmatig kleine opnamen te sturen in plaats van sporadisch grote campagnes .
 * **De leveringsrapporten** nauwlettend volgen: hoge foutenindicatoren kunnen betekenen een technische instelling slecht gevormd is.
