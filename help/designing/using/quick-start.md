@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
@@ -139,7 +139,7 @@ Als u een raamwerk van modulaire sjablonen en fragmenten wilt maken die u kunt c
 
 ### HTML-inhoud converteren {#converting-an-html-content}
 
-Met deze kwestie kunt u snel een HTML-e-mail converteren naar onderdelen van E-mailontwerper.
+Met deze kwestie kunt u HTML-e-mail snel converteren naar onderdelen van E-mailontwerper.
 
 >[!CAUTION]
 >
