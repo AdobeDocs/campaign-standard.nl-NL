@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
+source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
 
 ---
 
@@ -24,9 +24,9 @@ source-git-commit: fcb6a145b19b68865babba659bf0bfb7623397c8
 >
 >De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 
-De Verenigde Bouwer van het Segment staat u toe om publiek te bouwen door regels te bepalen die op gegevens worden gebaseerd die uit de [Verenigde Dienst](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)van het Profiel komen.
+De Verenigde Bouwer van het Segment staat u toe om publiek te bouwen door regels te bepalen die op gegevens worden gebaseerd die uit de [Verenigde Dienst](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)van het Profiel komen.
 
-In deze sectie worden algemene concepten beschreven wanneer u een segment maakt. Voor gedetailleerde informatie over de Verenigde Bouwer van het Segment zelf, verwijs naar de de gebruikersgids [van de Bouwer van het](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)Segment.
+In deze sectie worden algemene concepten beschreven wanneer u een segment maakt. Voor gedetailleerde informatie over de Verenigde Bouwer van het Segment zelf, verwijs naar de de gebruikersgids [van de Bouwer van het](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)Segment.
 
 De interface van de Bouwer van het Verenigde Segment wordt samengesteld als volgt:
 
@@ -48,7 +48,7 @@ De Unified Segment Builder moet nu in uw werkruimte worden weergegeven. Hiermee 
 
 1. Controleer of het gewenste samenvoegbeleid is geselecteerd in het instellingenvenster.
 
-   Voor meer informatie over fusiebeleid, verwijs naar de specifieke sectie van de de gebruikersgids [van de Bouwer van het](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)Segment.
+   Voor meer informatie over fusiebeleid, verwijs naar de specifieke sectie van de de gebruikersgids [van de Bouwer van het](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)Segment.
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -82,7 +82,7 @@ Velden zijn ingedeeld in tabbladen:
 >
 >**Met segmentatie** over meerdere entiteiten kunt u de profielgegevens uitbreiden met aanvullende gegevens op basis van producten, opslagruimten of andere klassen zonder profiel. Zodra verbonden, worden de gegevens van extra klassen beschikbaar alsof zij aan het schema van het Profiel inheems waren.
 >
->Raadpleeg de [desbetreffende documentatie](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md)voor meer informatie hierover.
+>Raadpleeg de [desbetreffende documentatie](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html)voor meer informatie hierover.
 
 Door gebrek, de Verenigde bouwer van het Segment toont gebieden waarin de gegevens reeds aanwezig zijn. Als u het volledige schema wilt weergeven, inclusief de velden waarvoor geen gegevens aanwezig zijn, schakelt u de **[!UICONTROL Show full XDM schema]** optie van de instellingen in.
 
@@ -96,7 +96,7 @@ Het symbool aan het eind van elk gebied verstrekt extra informatie over de attri
 
 >[!NOTE]
 >
->In de onderstaande sectie vindt u algemene informatie over de definitie van regels. Raadpleeg voor meer informatie de gebruikershandleiding [van](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)Segment Builder.
+>In de onderstaande sectie vindt u algemene informatie over de definitie van regels. Raadpleeg voor meer informatie de gebruikershandleiding [van](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)Segment Builder.
 
 Voer de volgende stappen uit om een regel te maken:
 
