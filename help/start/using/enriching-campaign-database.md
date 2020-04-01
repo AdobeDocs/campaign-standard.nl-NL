@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
@@ -56,7 +56,7 @@ Raadpleeg de [desbetreffende documentatie](../../channels/using/getting-started-
 De standaardintegratie van de campagne met de Dynamica 365 van Microsoft staat u toe om contactgegevens van de Dynamica 365 van Microsoft tot het gegevensbestand van de Campagne over te gaan.
 Deze contacten zijn dan zichtbaar in de lijst van Profielen en kunnen in marketing campagnes worden gericht.
 
-Raadpleeg de [desbetreffende documentatie](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)voor meer informatie over deze integratie.
+Raadpleeg de [desbetreffende documentatie](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)voor meer informatie over deze integratie.
 
 >[!NOTE]
 >
