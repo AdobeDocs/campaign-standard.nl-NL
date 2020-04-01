@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8ea3340e9ffb8b438c781aeff1a8554c9160474f
+source-git-commit: 2d4140982ee772eda9eecb01a55748c1d439150e
 
 ---
 
@@ -46,11 +46,7 @@ Hoe kan ik-video&#39;s zijn ook beschikbaar op [deze pagina](https://docs.adobe.
 
 * Uit de functie voor het toewijzen van vakken is alleen beschikbaar voor velden die standaard in de campagnestandaard zijn opgenomen. Voor het opnemen van alle douanegebieden en middelen, moet elke klant zijn eigen afbeelding bepalen.
 
-* Adobe Experience Platform Data Connector stuurt profielgegevens regelmatig door het platform. &#x200B; De intervalduur is 15 mn. Deze waarde kan niet worden gewijzigd.
-
-   >[!NOTE]
-   >
-   >Deze duur kan worden gewijzigd met API&#39;s van [het Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
+* Adobe Experience Platform Data Connector stuurt profielgegevens regelmatig door het platform. &#x200B; De intervalduur is 15 mn. Deze waarde kan worden gewijzigd met API&#39;s van [Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
 
 * De gegevenstechnicus kan de toewijzing publiceren, wijzigen en pauzeren van Campagne aan het Platform van de Ervaring van Adobe.
 
@@ -60,7 +56,15 @@ Hoe kan ik-video&#39;s zijn ook beschikbaar op [deze pagina](https://docs.adobe.
 
 * Wijzigingen in Adobe Campaign Standard of XDM-schema moeten handmatig opnieuw worden toegewezen. &#x200B;
 
-* Gegevens van trackinglogbestanden en uitzendingen worden automatisch als Experience Events opgenomen in het Adobe Experience Platform. Deze opname wordt realtime gestreamd naar het Adobe Experience Platform.
+* Gegevens van trackinglogbestanden en uitzendingen worden automatisch als Experience Events opgenomen in het Adobe Experience Platform. Deze opname wordt in real-time gestreamd naar het Adobe Experience Platform.
+
+* Experience Cloud ID Service (ECID) is een apparaat-id die standaard wordt verzonden met Experience Events.
+
+   Het is een unieke en permanente id die aan een bezoeker is toegewezen en die door de Platform Identity Service kan worden gebruikt om dezelfde bezoeker en zijn gegevens in verschillende Experience Cloud-oplossingen te identificeren. Raadpleeg de Help bij [de](https://docs.adobe.com/content/help/en/id-service/using/home.html)Experience Cloud Identity Service voor meer informatie.
+
+   >[!NOTE]
+   >
+   >Houd er rekening mee dat als twee of meer profielen hetzelfde apparaat delen, de ECID hetzelfde is voor deze twee profielen in de Unified Identity-service.
 
 ## Beperkingen {#limitations}
 
