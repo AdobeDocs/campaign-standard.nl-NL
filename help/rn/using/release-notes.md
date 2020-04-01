@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
+source-git-commit: ce0ddc11c239dd72f14ace56ad008717ebaa47de
 
 ---
 
@@ -20,6 +20,8 @@ source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 # Laatste release{#latest-release}
 
 [Release-planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Release](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) van het regelpaneel| [Documentatiebijwerkingen](../../rn/using/documentation-updates.md) | [Opmerkingen bij](../../rn/using/release-notes-2019.md) vorige release| [Verouderde functies](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+[Klik hier](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) om u te abonneren op de release-meldingen en informatie over de nieuwste Adobe Experience Cloud-releases direct in uw Postvak IN op te halen.
 
 ## Release 20.2 - maart 2020 {#release-20-2---march-2020}
 
@@ -89,7 +91,7 @@ source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 
 >[!NOTE]
 >
->De functies van het Adobe Experience Platform in de Campaign Standard worden momenteel in bèta weergegeven. Dit probleem kan vaak en zonder kennisgeving worden bijgewerkt. Raadpleeg de gedetailleerde documentatie: [Ervaring Platform Data Connector](../../administration/using/aep-about-data-connector.md), [Publiek Doelen](../../audiences/using/aep-about-audience-destinations-service.md)
+>De functies van het Adobe Experience Platform in Campaign Standard worden momenteel in bèta weergegeven, die vaak zonder kennisgeving kan worden bijgewerkt. Raadpleeg de gedetailleerde documentatie: [Ervaring Platform Data Connector](../../administration/using/aep-about-data-connector.md), [Publiek Doelen](../../audiences/using/aep-about-audience-destinations-service.md)
 
 * In workflowlogboeken wordt om de 10 minuten het aantal records weergegeven dat al is verwerkt door de taak die momenteel wordt uitgevoerd.
 * Probleem verholpen die kon optreden bij het importeren van een Adobe Experience Platform-profiel dat uit de database was verwijderd.
