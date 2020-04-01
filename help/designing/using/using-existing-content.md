@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
@@ -170,7 +170,7 @@ Zie [deze sectie](../../designing/using/using-existing-content.md)voor meer info
 
 Als u een raamwerk van modulaire sjablonen en fragmenten wilt maken die u kunt combineren voor hergebruik in meerdere e-mails, kunt u uw e-mailHTML converteren naar een sjabloon voor e-mailontwerpen.
 
-Met deze kwestie kunt u snel een HTML-e-mail converteren naar onderdelen van E-mailontwerper.
+Met deze kwestie kunt u HTML-e-mail snel converteren naar onderdelen van E-mailontwerper.
 
 >[!CAUTION]
 >
