@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d4140982ee772eda9eecb01a55748c1d439150e
+source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
 
 ---
 
@@ -38,15 +38,15 @@ Hoe kan ik-video&#39;s zijn ook beschikbaar op [deze pagina](https://docs.adobe.
 >
 >Dit kan worden uitgevoerd via de API&#39;s of de interface van het Adobe Experience Platform. Raadpleeg de desbetreffende documentatie voor meer informatie:
 >
->* [Een gegevensset inschakelen voor realtime klantprofiel](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/data_ingestion_tutorial/data_ingestion_tutorial.md)
->* [Een gegevensset configureren voor realtime profiel en identiteitsservice van klanten met behulp van API&#39;s](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/unified_profile_dataset_tutorial/unified_profile_dataset_api_tutorial.md)
+>* [Een gegevensset inschakelen voor realtime klantprofiel](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/datasets/dataset.html)
+>* [Een gegevensset configureren voor realtime profiel en identiteitsservice van klanten met behulp van API&#39;s](https://docs.adobe.com/content/help/en/experience-platform/catalog/api/getting-started.html)
 
 
 ## Belangrijkste concepten {#key-concepts}
 
 * Uit de functie voor het toewijzen van vakken is alleen beschikbaar voor velden die standaard in de campagnestandaard zijn opgenomen. Voor het opnemen van alle douanegebieden en middelen, moet elke klant zijn eigen afbeelding bepalen.
 
-* Adobe Experience Platform Data Connector stuurt profielgegevens regelmatig door het platform. &#x200B; De intervalduur is 15 mn. Deze waarde kan worden gewijzigd met API&#39;s van [Adobe Experience Platform](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md).
+* Adobe Experience Platform Data Connector stuurt profielgegevens regelmatig door het platform. &#x200B; De intervalduur is 15 mn. Deze waarde kan worden gewijzigd met API&#39;s van [Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html).
 
 * De gegevenstechnicus kan de toewijzing publiceren, wijzigen en pauzeren van Campagne aan het Platform van de Ervaring van Adobe.
 
