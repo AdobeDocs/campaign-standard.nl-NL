@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4ba56e5cd639c547a7060be9c60985f5564160d
+source-git-commit: 87168dca3604073d8a540c579448ab65f07cd976
 
 ---
 
@@ -39,7 +39,8 @@ Neem contact op met de commerciële of leverbare services of met de ondersteunin
 
    * De status **[!UICONTROL Blacklisted]** is een resultaat van een feedbacklus (wanneer een persoon een bericht rapporteert als spam).
 
-   * De status **[!UICONTROL Quarantined]** is het resultaat van een zachte of harde stuit. Zie deze [sectie](../../sending/using/understanding-quarantine-management.md)voor meer informatie.
+   * De status **[!UICONTROL Quarantined]** is het resultaat van een zachte of harde stuit.
+   Zie deze [sectie](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting)voor meer informatie.
 
 * **Wat betekenen de verschillende redenen voor quarantainefouten?**
 
