@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
+source-git-commit: 573131986d52bb4415cca59600048fd7dc5ba0db
 
 ---
 
@@ -66,7 +66,7 @@ De Unified Segment Builder moet nu in uw werkruimte worden weergegeven. Hiermee 
 
 In het linkerdeelvenster worden alle kenmerken, gebeurtenissen en doelgroepen weergegeven die u kunt gebruiken om regels samen te stellen.
 
-De vermelde velden zijn kenmerken die door uw bedrijf zijn vastgelegd en die beschikbaar zijn gesteld via het XDM-systeem ( [Experience Data Model)](https://www.adobe.io/apis/experienceplatform/home/xdm.html).
+De vermelde velden zijn kenmerken die door uw bedrijf zijn vastgelegd en die beschikbaar zijn gesteld via het XDM-systeem ( [Experience Data Model)](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
 
 Velden zijn ingedeeld in tabbladen:
 
