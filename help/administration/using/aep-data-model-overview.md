@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
+source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
 
 ---
 
@@ -33,7 +33,7 @@ XDM Workspace biedt de mogelijkheid om gegevensschema&#39;s weer te geven, te ma
 
 Open het Adobe Experience Platform voor toegang tot de XDM-gebruikersinterface. Navigeer naar het venster Gegevensmodel om een XDM-schema te maken of uit te breiden.
 
-Raadpleeg de volledige [XDM Workspace documentatie](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/xdm_system/xdm_system_in_experience_platform.md).
+Raadpleeg de volledige [XDM Workspace documentatie](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -48,4 +48,4 @@ U kunt de volgende handelingen uitvoeren via de XDM Schema-API:
 * Schema-beschrijvingen weergeven
 * Schema-descriptors maken, bijwerken en verwijderen
 
-Alle details om API vraag te manipuleren zijn beschikbaar in de Gids [van de](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/technical_overview/schema_registry/schema_registry_developer_guide.md)Ontwikkelaar.
+Alle details om API vraag te manipuleren zijn beschikbaar in de Gids [van de](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)Ontwikkelaar.
