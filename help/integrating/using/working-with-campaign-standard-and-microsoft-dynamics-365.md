@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 74cc176a1b93a7983629ccccb1fea00628241952
+source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
 
 ---
 
@@ -60,4 +60,3 @@ Als contactgegevens zijn gesynchroniseerd met Adobe Campaign, kunnen communicati
 >[!CAUTION]
 >
 >Voor de synchronisatie van Contacten, beschouwt deze integratie Dynamiek 365 als bron van waarheid.  Om het even welke veranderingen in gesynchroniseerde contactattributen zouden in Dynamiek 365, niet in Campagne moeten worden gedaan.  Als er wijzigingen worden aangebracht in Campagne, kunnen deze tijdens de synchronisatie worden overschreven.
-
