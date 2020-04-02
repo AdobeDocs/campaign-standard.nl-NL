@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -60,21 +60,21 @@ De klant heeft een voertuig van de douaneentiteit vooraf bepaald in Dynamica 365
 
 De douaneentiteiten van deze klant in Dynamiek 365 kunnen in het Dashboard van de Verkoop worden bekeken door op de drop-down naast Dynamiek 365 te klikken.  De aangepaste entiteiten van deze klant zijn gegroepeerd onder **[!UICONTROL Extensions]**.
 
-(../assets/SalesDashboard.png)
+![](assets/SalesDashboard.png)
 
 U kunt de gegevens van het voertuig bekijken door op de **[!UICONTROL vehicle]** aangepaste entiteit te klikken.  Zie de onderstaande lijst met voertuigen.
 
-(../assets/VehicleCustomEntity.png)
+![](assets/VehicleCustomEntity.png)
 
 De relatie van de **[!UICONTROL vehicle]** entiteit met de **[!UICONTROL Contact]** entiteit is hieronder te zien. **[!UICONTROL Parental]** is gekozen voor de **[!UICONTROL Type of Behavior]**.
 
-(../assets/ContactToVehicle.png)
+![](assets/ContactToVehicle.png)
 
 ### Configuratie in de standaard Campagne
 
 In Campagne, kunnen de douanemiddelen van de klant worden bekeken door **[!UICONTROL Adobe Campaign]** in de hogere linkerhoek te klikken, dan selecterend **[!UICONTROL Client data]**.
 
-(../assets/ClientDataMenu.png)
+![](assets/ClientDataMenu.png)
 
 ### Aangepaste bronnen en aangepaste entiteiten toewijzen
 
@@ -82,14 +82,14 @@ De **[!UICONTROL vehicle]** douanemiddel zou eerder door de klant moeten zijn vo
 
 Klik op **[!UICONTROL Adobe Campaign]** in de linkerbovenhoek en klik op **[!UICONTROL Administration > Development > Custom Resources]**.
 
-(../assets/CustomRes.png)
+![](assets/CustomRes.png)
 
 1. Klik op **[!UICONTROL Custom Resources]**.
 1. Klik op de **[!UICONTROL Create]** knop.  Hiermee wordt een pop-upvenster geopend.
 1. Selecteer **[!UICONTROL Create a new resource]** en typ **[!UICONTROL Vehicle]** als label en id.
 1. Klik op **[!UICONTROL Create]**.
 
-(../assets/CreateAcusRes.png)
+![](assets/CreateAcusRes.png)
 
 De campagne zal dan gegevensstructuren en verbindingspagina tonen.  U ziet dat er verschillende velden zijn toegevoegd.
 
@@ -97,23 +97,23 @@ De campagne zal dan gegevensstructuren en verbindingspagina tonen.  U ziet dat e
 * Bijbehorend profiel is de id van het profiel waaraan de voertuigregistratie is gekoppeld; als deze koppeling bestaat, wordt deze gekoppeld aan het **[!UICONTROL externalId]** veld van de tabel Profiel.
 * VIN en voertuignaam zijn velden waarin informatie over het voertuig wordt vastgelegd.
 
-(../assets/CusResConfig.png)
+![](assets/CusResConfig.png)
 
 >[!CAUTION]
 >
 >Elke douanebron moet een uniek gebied met identiteitskaart van externalId (precies) hebben.  Dit gebied zal aan het gebied van identiteitskaart van het douanemiddel in Dynamiek 365 (zie hieronder) in kaart brengen.
 
-(../assets/FieldsInDynamics.png)
+![](assets/FieldsInDynamics.png)
 
 ### De identificatietoetsen definiëren
 
 De volgende stap bestaat uit het definiëren van de identificatietoetsen.  Maak eerst de identificatietoetsen, zoals hieronder wordt weergegeven.
 
-(../assets/IDkeys.png)
+![](assets/IDkeys.png)
 
 Selecteer het **[!UICONTROL externalId]** veld in het scherm Sleuteldefinitie.
 
-(../assets/KeyDefinition.png)
+![](assets/KeyDefinition.png)
 
 >[!CAUTION]
 >
@@ -127,11 +127,11 @@ Klik onder **[!UICONTROL Filter Definition]** op **[!UICONTROL Add an element]**
 Geef het label en de id de naam **[!UICONTROL ExternalId]**.
 Klik op **[!UICONTROL Add]**.
 
-(../assets/FilterDefinition.png)
+![](assets/FilterDefinition.png)
 
 Klik nu op Bewerken op het zojuist toegevoegde filterelement en configureer het filter voor de onderstaande afbeelding.  Als u **[!UICONTROL externalId]** in het **[!UICONTROL Parameters]** veld invoert en op het plusteken klikt, **[!UICONTROL externalId_parameter]** wordt het veld weergegeven.  Selecteer dit als de parameter.
 
-(../assets/EditArule.png)
+![](assets/EditArule.png)
 
 ### De koppeling definiëren
 
@@ -143,13 +143,13 @@ Vervolgens wordt de koppeling van de aangepaste bron opgegeven.  In dit geval he
 1. In **[!UICONTROL Join Definitions]** selecteert u **[!UICONTROL Define specific join conditions]**.
 1. Klik vervolgens **[!UICONTROL Add an element]**.
 
-(../assets/LinkConfiguration.png)
+![](assets/LinkConfiguration.png)
 
 Voor de bij definitie aansluiten, gaan wij hieronder de waarden in.
 
 Merk op dat de **[!UICONTROL @externalId]** ingang het externalId gebied van de profiellijst is en de **[!UICONTROL ProfileExternalId]** ingang identiteitskaart van het overeenkomstige gebied in het middel van de autodouane is.  Wanneer de waarde externalId van een profielrecord wordt ingevoerd in het **[!UICONTROL ProfileExternalId]** veld van een voertuigrecord, worden de twee records aan elkaar gekoppeld.
 
-(../assets/JoinDefinition.png)
+![](assets/JoinDefinition.png)
 
 Wijzigingen bevestigen en de aangepaste entiteit opslaan.
 
@@ -161,21 +161,21 @@ De laatste stap bestaat uit het publiceren van de aangepaste bron.
 1. De standaardoptie behouden: **[!UICONTROL Determine modifications since the last publication]**.
 1. Klik **[!UICONTROL Prepare Publication]** en wacht tot het is voltooid.
 
-(../assets/PublishModifications.png)
+![](assets/PublishModifications.png)
 
 Klik vervolgens **[!UICONTROL Publish]** en wacht tot de bewerking is voltooid.
 
-(../assets/Publish.png)
+![](assets/Publish.png)
 
 ### Unifi ingress-schema
 
 Ervan uitgaande dat de klant de aangepaste voertuigentiteit reeds heeft ingevuld in Dynamics 365 en dat Unifi hun aangepaste entiteitstaken en -schema’s voor voertuigen heeft opgezet met, moet de klant het ingangsschema voor de voertuigentiteit kunnen afschoppen.
 
-(../assets/Schedule.png)
+![](assets/Schedule.png)
 
 Na voltooiing van de ingangsbaan, kunnen de voertuiggegevens nu in de onlangs bevolkte **[!UICONTROL Vehicle]** douanemiddel in Campaign worden gezien.
 
-(../assets/ACSUpdate.png)
+![](assets/ACSUpdate.png)
 
 **Verwante onderwerpen**
 
