@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -34,17 +34,16 @@ Stroomdiagramdetails (afbeeldingen tot bovenstaande stappen):
 1. Lees dit artikel, controleer berichten en configuratiestappen.
 
 1. Stuur een accountverzoek naar adobe-support@unifisoftware.com; Unifi vereist de volgende informatie wanneer u een account aanvraagt:
-* Voornaam gebruiker
-* Achternaam gebruiker
-* E-mail gebruiker
-* Bedrijfsnaam
-* Regio (Noord-Amerika, EMEA of APAC)
-* Gebruikstype:  Het Type van klant (klantengebruikers die hun productiegegevens in deze integratie zullen gebruiken), of het Type van Partner (partneradviseurs die uit de integratie testen om een beter inzicht te krijgen zodat zij hun klanten van de Campagne kunnen helpen) of Intern Type (de interne gebruikers van Adobe die de integratie uittesten om een beter inzicht in de oplossing te krijgen)
-* De standaardgegevensstatus van de campagne (die met schone gegevensbestand beginnen of bestaande gegevens aan integratie brengen)
-* Identiteitskaart van de Aannemer van de campagne (zie Vorm de sectie van de integratie van de Campagne 3 om uw identiteitskaart van de Aannemer te krijgen)
-* URL van campagneexemplaar
-
-Unifi-verwachte responstijd: 1 uur tijdens normale kantooruren in de VS (9.00 tot 17.00 uur Pacific Time, ma - vrijdag, met uitzondering van feestdagen).
+   * Voornaam gebruiker
+   * Achternaam gebruiker
+   * E-mail gebruiker
+   * Bedrijfsnaam
+   * Regio (Noord-Amerika, EMEA of APAC)
+   * Gebruikstype:  Het Type van klant (klantengebruikers die hun productiegegevens in deze integratie zullen gebruiken), of het Type van Partner (partneradviseurs die uit de integratie testen om een beter inzicht te krijgen zodat zij hun klanten van de Campagne kunnen helpen) of Intern Type (de interne gebruikers van Adobe die de integratie uittesten om een beter inzicht in de oplossing te krijgen)
+   * De standaardgegevensstatus van de campagne (die met schone gegevensbestand beginnen of bestaande gegevens aan integratie brengen)
+   * Identiteitskaart van de Aannemer van de campagne (zie Vorm de sectie van de integratie van de Campagne 3 om uw identiteitskaart van de Aannemer te krijgen)
+   * URL van campagneexemplaar
+   Unifi-verwachte responstijd: 1 uur tijdens normale kantooruren in de VS (9.00 tot 17.00 uur Pacific Time, ma - vrijdag, met uitzondering van feestdagen).
 
 1. Voltooi de stappen na levering voor de Dynamica 365 van Microsoft en voor de Norm van de Campagne.
 Stuur bovendien een ticket naar de klantenservice van Adobe (rechtstreeks of via uw Adobe-contactpersoon) om de markering voor eenmalige aanmelding in uw Campagne in te schakelen. Partners moeten hun Adobe-partner sandbox-vertegenwoordiger bereiken en in plaats daarvan contact opnemen met de klantenservice van Adobe om de functiemarkering in te schakelen.
