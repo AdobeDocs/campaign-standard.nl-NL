@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -45,7 +45,7 @@ Een OAuth toegangstoken staat Unifi toe om met uw instantie van de Dynamiek van 
 
 De volgende video bevat een overzicht van de belangrijkste stappen:
 
-** VIDEO**
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 Volg de onderstaande stappen om het toegangstoken OAuth te genereren.
 
@@ -57,12 +57,12 @@ Volg de onderstaande stappen om het toegangstoken OAuth te genereren.
 
 1. Klik **[!UICONTROL New registration]** bij de bovenkant van het scherm.
 
-![](assets/MSdynACSIntegration-7.png)
+   ![](assets/MSdynACSIntegration-7.png)
 
-Vul het registratiescherm voor de app in:
+1. Vul het registratiescherm voor de app in:
 
-* Naam: adobe-campagne
-* Ondersteund accounttype: **[!UICONTROL Accounts in this organizational directory only]** (standaardwaarde)
+   * Naam: adobe-campagne
+   * Ondersteund accounttype: **[!UICONTROL Accounts in this organizational directory only]** (standaardwaarde)
 
 Raadpleeg [deze sectie](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app)voor meer informatie over het maken van een nieuwe toepassing.
 
@@ -104,25 +104,24 @@ Deze nieuwe gebruiker is een generieke gebruiker. Deze wordt door de toepassing 
 
 1. Navigeer naar de instantie Dynamics 365 en meld u aan als Admin.
 
-1. Klik op het tandwielpictogram in de rechterbovenhoek en klik op **[!UICONTROL Advanced Setting]**s. Klik in de bovenste banner op de vervolgkeuzelijst naast **[!UICONTROL Settings]** en klik op **[!UICONTROL Security > Users]**.
+1. Klik op het tandwielpictogram in de rechterbovenhoek en klik op **[!UICONTROL Advanced Settings]**. Klik in de bovenste banner op de vervolgkeuzelijst naast **[!UICONTROL Settings]** en klik op **[!UICONTROL Security > Users]**.
 
 1. Klik op de drop-down menu ga naar **[!UICONTROL Application Users]**. Klik op **[!UICONTROL New]**.
 
 1. Ga naar de vervolgkeuzelijst naast de tekst van het gebruikerspictogram **[!UICONTROL USER:APPLICATION USER]**.
 
-Vul het scherm voor de nieuwe gebruiker in.  Suggesties voor parameters:
+   Vul het scherm voor de nieuwe gebruiker in.  Suggesties voor parameters:
 
-* **[!UICONTROL User Name]** (e-mail): adobeapi@`<hostname>`, waarbij `<hostname>` de hostnaam van uw instantie Dynamics 365 is
-* **[!UICONTROL Application ID]**: Id van de toepassing die u hebt geregistreerd in Azure AD (dit is verplicht)
-* U kunt leeg laten **[!UICONTROL Application ID URI]** en **[!UICONTROL Azure AD Object ID]**
-* **[!UICONTROL Full Name]**: Adobe API
-* **[!UICONTROL Email]**: gelijk aan **[!UICONTROL User Name]** (of e-mailadres van beheerder indien gewenst)
-
-Raadpleeg [deze sectie](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user)voor meer informatie over het maken van apps door gebruikers.
+   * **[!UICONTROL User Name]** (e-mail): adobeapi@`<hostname>`, waarbij `<hostname>` de hostnaam van uw instantie Dynamics 365 is
+   * **[!UICONTROL Application ID]**: Id van de toepassing die u hebt geregistreerd in Azure AD (dit is verplicht)
+   * U kunt leeg laten **[!UICONTROL Application ID URI]** en **[!UICONTROL Azure AD Object ID]**
+   * **[!UICONTROL Full Name]**: Adobe API
+   * **[!UICONTROL Email]**: gelijk aan **[!UICONTROL User Name]** (of e-mailadres van beheerder indien gewenst)
+   Raadpleeg [deze sectie](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user)voor meer informatie over het maken van apps door gebruikers.
 
 1. Klik op het gebruikerspictogram en upload een pictogram van de Campagne van Adobe; Dit is het pictogram dat wordt weergegeven in de tijdlijnweergave wanneer nieuwe Adobe-gebeurtenissen worden weergegeven in Dynamics 365.
 
-***getfile***
+<!-- ***getfile*** adobe campaign logo-->
 
 1. Open de lijst met gebruikersrollen door op **[!UICONTROL MANAGE ROLES]** het bovenste lint te klikken.
 
