@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
+source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
 
 ---
 
@@ -43,7 +43,7 @@ Om deze taak uit te voeren, zijn de eerste vereisten:
 
 >[!NOTE]
 >
->Als een partij in het Profiel van de Klant in real time of de Dienst van de Identiteit moet worden opgenomen, moet de dataset voor het Profiel [van de Klant in real time worden](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/data_ingestion_tutorial/data_ingestion_tutorial.md)toegelaten.
+>Als een partij in het Profiel van de Klant in real time of de Dienst van de Identiteit moet worden opgenomen, moet de dataset voor het Profiel [van de Klant in real time worden](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/intro/get-started.html)toegelaten.
 >
 >Als de gegevensset die u selecteert al wordt gebruikt in een bestaande gegevenstoewijzing, wordt een waarschuwing weergegeven dat uw gegevens mogelijk worden overschreven op het Adobe Experience Platform. Dit kan gebeuren wanneer er sommige gemeenschappelijke ontvangers in datamappings gebruikend een zelfde dataset zijn.
 
@@ -63,7 +63,7 @@ De uitgebreide bronnen die zijn gedefinieerd in de Campagnestandaard worden toeg
 
 U kunt de XDM-extensie aanpassen via de API en uw eigen extensie definiëren, zodat u een betere controle hebt over de toewijzing.
 
-Zie [Schema Registry API zelfstudie](https://www.adobe.io/apis/experienceplatform/home/xdm/xdmservices.html#!api-specification/markdown/narrative/tutorials/schema_registry_api_tutorial/schema_registry_api_tutorial.md) voor meer informatie over XDM API.
+Zie [Schema Registry API zelfstudie](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html) voor meer informatie over XDM API.
 
 Als u een opsommingsveld wilt toewijzen, moet u de expressie-editor gebruiken om elke opsommingswaarde te definiëren die overeenkomt met de XDM-waarde. Het postadressfield moet bijvoorbeeld als volgt worden gedefinieerd:
 
