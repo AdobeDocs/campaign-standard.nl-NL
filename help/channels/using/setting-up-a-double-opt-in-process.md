@@ -12,7 +12,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -96,9 +96,9 @@ Het bevestigingsbericht is een [transactiebericht](../../channels/using/about-tr
 
 De gebeurtenis is gereed. U kunt nu de e-mailsjabloon ontwerpen. Deze sjabloon moet een koppeling bevatten naar de eerder gemaakte **CONFIRMATION** -landingspagina. Zie [Het bevestigingsbericht](#design-the-confirmation-message)ontwerpen voor meer informatie.
 
-### De typologieregel maken {#create-the-typology-rule}
+### De typologie maken {#create-the-typology-rule}
 
-U moet een specifieke [typologieregel](../../administration/using/about-typology-rules.md)maken door een regel uit de doos te dupliceren. Op grond van deze regel kunnen berichten worden verzonden naar profielen die hun overeenkomst nog niet hebben bevestigd en nog steeds op de zwarte lijst staan. Standaard sluiten typologische regels profielen voor opt-out (d.w.z. op de zwarte lijst) uit. Voer de volgende stappen uit om deze typologieregel te maken:
+U moet een specifieke [typologie](../../sending/using/about-typology-rules.md)maken door een uit-van-doos te dupliceren. De typologie maakt het mogelijk berichten te sturen naar profielen die hun overeenkomst nog niet hebben bevestigd en nog steeds op de zwarte lijst staan. Standaard sluiten typologieën opt-out-profielen uit (d.w.z. op de zwarte lijst geplaatste profielen). Voer de volgende stappen uit om deze typologie te maken:
 
 1. Selecteer in het Adobe Campagne-logo **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** en klik **[!UICONTROL Typologies]**.
 1. Dupliceer de uit-van-doos typologie **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
