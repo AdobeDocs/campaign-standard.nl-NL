@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -74,7 +74,7 @@ Het maken van een directe postbezorging lijkt veel op het maken van een gewone e
 
    >[!NOTE]
    >
-   >U kunt algemene regels voor vermoeidheid tussen kanalen instellen die overgevulde profielen automatisch uitsluiten van campagnes. Zie [Vermoeidheidsregels](../../administration/using/fatigue-rules.md).
+   >U kunt algemene regels voor vermoeidheid tussen kanalen instellen die overgevulde profielen automatisch uitsluiten van campagnes. Zie [Vermoeidheidsregels](../../sending/using/fatigue-rules.md).
 
 1. Klik op **[!UICONTROL Explore file]** om een voorvertoning van de eerste 100 regels van het bestand weer te geven.
 
