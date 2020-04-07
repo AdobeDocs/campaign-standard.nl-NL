@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -65,6 +65,6 @@ Als u vermoeidheidsregels wilt toepassen, definieert u een maximumaantal bericht
 
 **Verwante onderwerpen:**
 
-* Leer hoe u vermoeidheidsregels [kunt](../../administration/using/fatigue-rules.md#examples) ontwerpen aan de hand van een set voorbeelden
-* Leer hoe u [typologische regels maakt](../../administration/using/about-typology-rules.md)
-* Gebruik [filterregels](../../administration/using/filtering-rules.md) om het publiek van uw berichten te verfijnen
+* Leer hoe u vermoeidheidsregels [kunt](../../sending/using/fatigue-rules.md#examples) ontwerpen aan de hand van een set voorbeelden
+* Leer hoe u [typologische regels maakt](../../sending/using/about-typology-rules.md)
+* Gebruik [filterregels](../../sending/using/filtering-rules.md) om het publiek van uw berichten te verfijnen
