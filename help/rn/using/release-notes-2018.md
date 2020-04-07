@@ -461,7 +461,7 @@ Sommige problemen kunnen zich voordoen bij het gebruik van contextafhankelijke H
   </tr> 
   <tr> 
    <td> Delen van rapporten<br /> </td> 
-   <td> Met Rapport delen kunt u uw rapporten delen met gebruikers van Adobe Campagne als e-mailbijlage, inclusief op een geautomatiseerde terugkerende basis. Gebruikers die terugkerende rapporten ontvangen, kunnen zich afmelden voor deze communicatie via een speciale koppeling in elke e-mail.<br /> Raadpleeg de <a href="../../reporting/using/reporting-interface.md#share-tab">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> Met Rapport delen kunt u uw rapporten delen met gebruikers van Adobe Campagne als e-mailbijlage, inclusief op een geautomatiseerde terugkerende basis. Gebruikers die terugkerende rapporten ontvangen, kunnen hun abonnement op deze berichten opzeggen via een speciale koppeling in elke e-mail.<br /> Raadpleeg de <a href="../../reporting/using/reporting-interface.md#share-tab">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Nieuwe mogelijkheden duwen<br /> </td> 
