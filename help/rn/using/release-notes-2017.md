@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a34cc1a8848b21ea01b9a20b9deb9be5b5e3895
+source-git-commit: c21a6fb4916430deb76d5d01b379453e398f6f25
 
 ---
 
@@ -39,7 +39,7 @@ Bekijk de meest recente [documentatie-updates](../../rn/using/documentation-upda
  <tbody> 
   <tr> 
    <td> Vermogensbeheer<br /> </td> 
-   <td> Met vermoeidheidsbeheer kunt u vermoeidheidsregels maken om overcommunicatie met profielen te beheren. De regels van de vermoeidheid worden gemakkelijk gebouwd, maar zijn uiterst flexibel met mogelijkheden zoals het tellen van berichten over veelvoudige kanalen (met inbegrip van transactionele berichten), slechts het tellen van specifieke leveringen, of het toepassen van regels op specifieke profielen.<br /> Raadpleeg de <a href="../../administration/using/fatigue-rules.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> Met vermoeidheidsbeheer kunt u vermoeidheidsregels maken om overcommunicatie met profielen te beheren. De regels van de vermoeidheid worden gemakkelijk gebouwd, maar zijn uiterst flexibel met mogelijkheden zoals het tellen van berichten over veelvoudige kanalen (met inbegrip van transactionele berichten), slechts het tellen van specifieke leveringen, of het toepassen van regels op specifieke profielen.<br /> Raadpleeg de <a href="../../sending/using/fatigue-rules.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Inhoud maken: Importeren vanaf een URL<br /> </td> 
