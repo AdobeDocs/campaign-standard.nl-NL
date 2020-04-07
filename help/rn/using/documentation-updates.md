@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34a478b73ba458d0509639dfbb4641bc63b2aa1a
+source-git-commit: 240e8738fab8f0eaa8398de1b74e22d292536908
 
 ---
 
@@ -35,6 +35,13 @@ Informatie over de Experience CLoud ID Service (ECID) is toegevoegd aan de docum
 
 De het Vormen transactionele overseinensectie is verbeterd met informatie over hoe te om tot de recentste transactionele gebeurtenissen en bijgewerkte screenshots toegang te hebben. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
+Het gedeelte over typologieën en typologische regels is verbeterd en bijgewerkt met aanvullende informatie over de typologische regels buiten de box. [Meer informatie](../../sending/using/about-typology-rules.md)
+
+Er is informatie toegevoegd over de **[!UICONTROL Transfer file]** actie van de **!UICONTROL File listing]** activiteit. [Meer informatie](../../automating/using/transfer-file.md)
+
+De documentatie over herpogingen na een levering tijdelijke mislukking is bijgewerkt met meer details over hoe herpogingen worden beheerd zodra bijgewerkt aan Verbeterde MTA. [Meer informatie](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
+
+Het verwijderen van een gedeelte Transactiebericht is verbeterd en verduidelijkt. [Meer informatie](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
 ## Release 20.2 - maart 2020 {#release-20-2---march-2020}
 
@@ -284,7 +291,7 @@ De contextafhankelijke Help-koppelingen die rechtstreeks beschikbaar zijn in Ado
 
 De volgende [pagina](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) wordt de officiële pagina Video&#39;s voor de Standaard van de Campagne van Adobe.
 
-Er is een sectie toegevoegd over gegevensbewaring, inclusief de standaardwaarden voor gegevensbehoud voor standaardtabellen. [Meer informatie](../../administration/using/data-retention.md)
+Er is een sectie toegevoegd over gegevensbewaring, inclusief de standaardwaarden voor het bewaren van gegevens voor standaardtabellen. [Meer informatie](../../administration/using/data-retention.md)
 
 Een sectie toegevoegd over updates en onderhoudsbewerkingen. [Meer informatie](../../administration/using/updates-and-maintenance-operations.md)
 
@@ -432,7 +439,7 @@ De sectie Type gebruikers is bijgewerkt. [Meer informatie](../../administration/
 
 In-app berichten (bèta) - [Meer informatie](../../channels/using/about-in-app-messaging.md)
 
-Integratie van Adobe Launch voor mobiele apps (bèta) - [Lees meer](../../administration/using/about-typology-rules.md#typology-rules)
+Integratie van Adobe Launch voor mobiele apps (bèta) - [Lees meer](../../sending/using/about-typology-rules.md#typology-rules)
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
@@ -446,7 +453,7 @@ Bijgewerkte het bericht van de Duw uit-van-de-doos rapportsectie. [Meer informat
 
 **Nieuwe mogelijkheden inbegrepen in de versie**
 
-[Markering](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) en [typologisch filter](../../administration/using/about-typology-rules.md#typology-rules) met hoge prioriteit voor abonnees van mobiele apps.
+[Markering](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) en [typologisch filter](../../sending/using/about-typology-rules.md#typology-rules) met hoge prioriteit voor abonnees van mobiele apps.
 
 Geautomatiseerde inhoud importeren van een URL tijdens het voorbereiden. [Meer informatie](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
@@ -570,7 +577,7 @@ Toegevoegde informatie over het voorbereiden van een bericht in een levering [Le
 
 Opmerkingen bij de release zijn op meerdere pagina&#39;s opnieuw ingedeeld, zodat u een meer algemene weergave krijgt van alle verschillende releases.
 
-De **[!UICONTROL Working with typologies]** sectie is bijgewerkt voor een verbeterde zichtbaarheid. [Meer informatie](../../administration/using/about-typology-rules.md)
+De **[!UICONTROL Working with typologies]** sectie is bijgewerkt voor een verbeterde zichtbaarheid. [Meer informatie](../../sending/using/about-typology-rules.md)
 
 Er **[!UICONTROL Query]** is nu een nieuwe optie beschikbaar waarmee u meer prestaties kunt behalen bij het definiëren van veel aanvullende gegevens in een document. [Meer informatie](../../automating/using/query.md)
 
@@ -600,7 +607,7 @@ Nieuwe secties die zijn gewijd aan [doeltoewijzingen](../../administration/using
 
 **Nieuwe mogelijkheden inbegrepen in de versie**
 
-Rapportage voor vermoeidheidsbeheer - [Meer informatie](../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
+Rapportage voor vermoeidheidsbeheer - [Meer informatie](../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
 
 Delen van rapporten - Meer [informatie](../../reporting/using/reporting-interface.md#share-tab)
 
@@ -628,7 +635,7 @@ De instructies om de integratie met de Manager van de Audience of de kerndienst 
 
 **Nieuwe mogelijkheden inbegrepen in de versie**
 
-Moeilijkheidsbeheer - Meer [informatie](../../administration/using/fatigue-rules.md)
+Moeilijkheidsbeheer - Meer [informatie](../../sending/using/fatigue-rules.md)
 
 Inhoud maken: Importeren van een URL - Meer [informatie](../../designing/using/using-existing-content.md#importing-content-from-a-url)
 
