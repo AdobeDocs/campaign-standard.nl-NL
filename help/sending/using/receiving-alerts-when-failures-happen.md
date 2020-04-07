@@ -12,7 +12,7 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -245,7 +245,7 @@ Hier volgen enkele mogelijke redenen om waarschuwingsberichten te ontvangen op b
    * Er is een onjuiste syntaxis op de verpersoonlijkingsgebieden.
    * Het doel ontbreekt.
    * De levering overschrijdt de groottelimiet.
-   Voor meer op dit, zie het [Voorbereiden verzendt](../../sending/using/preparing-the-send.md). Deze fouten worden echter meestal waargenomen tijdens de analyse van berichten. Zie [Regels](../../administration/using/control-rules.md)voor besturing.
+   Voor meer op dit, zie het [Voorbereiden verzendt](../../sending/using/preparing-the-send.md). Deze fouten worden echter meestal waargenomen tijdens de analyse van berichten. Zie [Regels](../../sending/using/control-rules.md)voor besturing.
 
 * De mogelijke oorzaken voor een **[!UICONTROL Delivery with bad error ratio for soft bounces]** alarm kunnen zijn:
 
@@ -261,7 +261,7 @@ Hier volgen enkele mogelijke redenen om waarschuwingsberichten te ontvangen op b
    * De server van de ontvanger blokkeert de levering.
    Volg onderstaande aanbevolen procedures om zachte en harde stuiterfouten te voorkomen:
 
-   * Bouw het filtreren typologieregels om één deel van het berichtdoel tijdens de leveringsanalyse, zoals in quarantaine gehouden ontvangers uit te sluiten. Zie [Een filterregel](../../administration/using/filtering-rules.md)maken.
+   * Bouw het filtreren typologieregels om één deel van het berichtdoel tijdens de leveringsanalyse, zoals in quarantaine gehouden ontvangers uit te sluiten. Zie [Een filterregel](../../sending/using/filtering-rules.md)maken.
    * Werk regelmatig uw klantengegevensbestand bij om goede processen van het quarantainebeheer te handhaven. Zie [Informatie over quarantines](../../sending/using/understanding-quarantine-management.md#about-quarantines).
    * Over het algemeen kunt u de prestaties het beste verbeteren. Raadpleeg de gedetailleerde documentatie bij de [levering](../../sending/using/about-deliverability.md) van Adobe Campagne en neem contact op met uw Adobe Campagnebeheerder voor hulp.
 
