@@ -13,7 +13,7 @@ delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -65,7 +65,7 @@ Als u SMS-berichten wilt maken en verzenden naar een mobiele telefoon, hebt u he
 
    >[!NOTE]
    >
-   >U kunt algemene regels voor vermoeidheid tussen kanalen instellen die overgevulde profielen automatisch uitsluiten van campagnes. Zie [Vermoeidheidsregels](../../administration/using/fatigue-rules.md).
+   >U kunt algemene regels voor vermoeidheid tussen kanalen instellen die overgevulde profielen automatisch uitsluiten van campagnes. Zie [Vermoeidheidsregels](../../sending/using/fatigue-rules.md).
 
 1. Proefdrukken verzenden om uw bericht te controleren en te valideren en de weergave in de Postbus te controleren. Zie de sectie [Bewijs](../../sending/using/sending-proofs.md) verzenden.
 1. Bevestig de verzending van het bericht. Het verzenden zal dienovereenkomstig aan het programma beginnen u hebt bepaald.
