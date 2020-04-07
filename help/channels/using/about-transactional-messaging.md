@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -97,13 +97,13 @@ De manier u een berichtinhoud kunt personaliseren hangt van het type van transac
 * De verpersoonlijkingsinformatie komt uit de gegevens in de gebeurtenis zelf. Zie Transactieberichten voor [gebeurtenissen](../../channels/using/event-transactional-messages.md).
 * U kunt inhoudsblokken voor **Unsubscription-koppelingen** niet gebruiken in een transactiebericht voor een gebeurtenis.
 * Het op gebeurtenis-gebaseerde transactieoverseinen wordt verondersteld om slechts de gegevens te gebruiken die in de verzonden gebeurtenis zijn om de ontvanger en de verpersoonlijking van de berichtinhoud te bepalen. U kunt de inhoud van uw transactiemelding echter verrijken met gegevens uit de Adobe Campagne-database. Zie [De inhoud](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)van het transactiebericht verrijken.
-* Aangezien de berichten van de gebeurtenistransactie geen profielinformatie bevatten, zijn zij niet compatibel met vermoeidheidsregels, zelfs in het geval van een verrijking met profielen. Zie [Vermoeidheidsregels](../../administration/using/fatigue-rules.md).
+* Aangezien de berichten van de gebeurtenistransactie geen profielinformatie bevatten, zijn zij niet compatibel met vermoeidheidsregels, zelfs in het geval van een verrijking met profielen. Zie [Vermoeidheidsregels](../../sending/using/fatigue-rules.md).
 
 **Transactieberichten** op basis van profiel:
 
 * De personalisatiegegevens kunnen afkomstig zijn van de gegevens in de gebeurtenis of uit de profielrecord die met elkaar in overeenstemming is. Zie Transactieberichten [voor profielen](../../channels/using/profile-transactional-messages.md).
 * U kunt de blokken van de de verbindingsinhoud van de Verbinding **van de** Unsubscription in een bericht van de profieltransactie gebruiken. Zie [Een inhoudsblok](../../designing/using/personalization.md#adding-a-content-block)toevoegen.
-* De regels van de moeheid zijn compatibel met de berichten van de profieltransactie. Zie [Vermoeidheidsregels](../../administration/using/fatigue-rules.md).
+* De regels van de moeheid zijn compatibel met de berichten van de profieltransactie. Zie [Vermoeidheidsregels](../../sending/using/fatigue-rules.md).
 
 Productaanbiedingen zijn alleen beschikbaar in transactie-e-mailberichten. Zie [Productaanbiedingen gebruiken in een transactiebericht](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
 
