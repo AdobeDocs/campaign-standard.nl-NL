@@ -12,7 +12,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 U kunt transactieberichten verzenden die op klanten marketing profielen worden gebaseerd, die u toestaan:
 
-* Pas de typologieregels voor marketing toe, zoals **[!UICONTROL Blacklisted address]** of [vermoeidheidsregels](../../administration/using/fatigue-rules.md).
+* Pas de typologieregels voor marketing toe, zoals **[!UICONTROL Blacklisted address]** of [vermoeidheidsregels](../../sending/using/fatigue-rules.md).
 * Neem de koppeling voor het opzeggen van abonnementen op in de berichten.
 * Voeg de transactieberichten aan de globale levering toe rapporteert.
 * Hefboomwerking de transactionele berichten in de klantenreis.
@@ -36,7 +36,7 @@ Als de gebeurtenis het verzenden van een transactiemelding moet activeren, moet 
 >
 >Om tot transactieberichten toegang te hebben, moet u deel van de **[!UICONTROL Administrators (all units)]** veiligheidsgroep uitmaken.
 >
->De regels van de moeheid zijn compatibel met de berichten van de profieltransactie. Zie [Vermoeidheidsregels](../../administration/using/fatigue-rules.md).
+>De regels van de moeheid zijn compatibel met de berichten van de profieltransactie. Zie [Vermoeidheidsregels](../../sending/using/fatigue-rules.md).
 
 ## Een bericht voor een profieltransactie verzenden {#sending-a-profile-transactional-message}
 
@@ -84,5 +84,5 @@ Deze regel maakt deel uit van een specifieke typologie die op alle transactionel
 **Verwante onderwerpen**:
 
 * [Site-integratie](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
-* [Typologieën](../../administration/using/about-typology-rules.md)
+* [Typologieën](../../sending/using/about-typology-rules.md)
 
