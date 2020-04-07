@@ -57,7 +57,7 @@ Om deze landende pagina tot stand te brengen en te vormen, moet u:
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Deze context verwijdert het zwarte lijstveld om e-mailberichten te kunnen verzenden. Later zullen we zien dat de eerste bestemmingspagina dit veld vóór de bevestiging instelde op **true** om te voorkomen dat e-mails naar niet-bevestigde profielen worden verzonden. Zie [Stap 3 voor meer informatie: Maak de aanschafpagina](#step-3--create-the-acquisition-landing-page).
+   Deze context verwijdert het zwarte lijstveld om e-mailberichten te kunnen verzenden. Later zullen we zien dat de eerste landingspagina dit veld vóór de bevestiging instelde op **true** om te voorkomen dat e-mails naar niet-bevestigde profielen worden verzonden. Zie [Stap 3 voor meer informatie: Maak de aanschafpagina](#step-3--create-the-acquisition-landing-page).
 
 1. De inhoud van de bestemmingspagina aanpassen: U kunt bijvoorbeeld gepersonaliseerde gegevens weergeven en het label van de bevestigingsknop wijzigen in &quot;Klik hier om mijn abonnement te bevestigen&quot;.
 
