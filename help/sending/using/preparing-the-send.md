@@ -12,7 +12,7 @@ discoiquuid: 003abc83-7f07-471f-ab2f-1d352d22c26f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -57,7 +57,7 @@ Zodra de voorbereiding is voltooid, is uw bericht klaar om te worden verzonden. 
 
 **Typologieregels**
 
-De Campagne van Adobe komt met een reeks ingebouwde typologieregels die tijdens de berichtvoorbereiding worden toegepast. Ze worden gebruikt om te controleren of een bericht geldig is en aan uw kwaliteitscriteria voldoet. Zie [Typologieën](../../administration/using/about-typology-rules.md). U kunt bijvoorbeeld uw eigen typologieregels definiëren. Met deze regels kunt u bijvoorbeeld algemene regels voor vermoeidheid tussen kanalen instellen die overbelaste profielen automatisch uitsluiten van campagnes. Zie [Vermoeidheidsregels](../../administration/using/fatigue-rules.md).
+De Campagne van Adobe komt met een reeks ingebouwde typologieregels die tijdens de berichtvoorbereiding worden toegepast. Ze worden gebruikt om te controleren of een bericht geldig is en aan uw kwaliteitscriteria voldoet. Zie [Typologieën](../../sending/using/about-typology-rules.md). U kunt bijvoorbeeld uw eigen typologieregels definiëren. Met deze regels kunt u bijvoorbeeld algemene regels voor vermoeidheid tussen kanalen instellen die overbelaste profielen automatisch uitsluiten van campagnes. Zie [Vermoeidheidsregels](../../sending/using/fatigue-rules.md).
 
 **SMS-berichtcontrole**
 
