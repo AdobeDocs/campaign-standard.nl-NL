@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: be6751f2f966f99d2b986aeba0b3720d2e8c4599
 
 ---
 
@@ -32,7 +32,7 @@ Als de gebeurtenis het verzenden van een transactiemelding moet activeren, moet 
 >
 >Om tot transactieberichten toegang te hebben, moet u deel van de **[!UICONTROL Administrators (all units)]** veiligheidsgroep uitmaken.
 >
->Transactieberichten van gebeurtenissen bevatten geen profielinformatie en zijn daarom niet compatibel met vermoeidheidsregels (zelfs niet in geval van een verrijking met profielen). Zie [Vermoeidheidsregels](../../administration/using/fatigue-rules.md#choosing-the-channel).
+>Transactieberichten van gebeurtenissen bevatten geen profielinformatie en zijn daarom niet compatibel met vermoeidheidsregels (zelfs niet in geval van een verrijking met profielen). Zie [Vermoeidheidsregels](../../sending/using/fatigue-rules.md#choosing-the-channel).
 
 ## Een testprofiel definiëren in een transactiebericht {#defining-a-test-profile-in-a-transactional-message}
 
@@ -99,7 +99,7 @@ Volg onderstaande stappen om een personalisatie in te stellen in een transactieb
 
    ![](assets/message-center_7.png)
 
-1. Als u de inhoud van uw bericht wilt verrijken, voegt u velden toe door deze te selecteren in de tabel waaraan u de gebeurtenis hebt gekoppeld. Selecteer in ons voorbeeld het **[!UICONTROL Title (salutation)]** veld in de **[!UICONTROL Profile]** tabel via **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. Als u de inhoud van uw bericht wilt verrijken, voegt u velden toe door deze te selecteren in de tabel waaraan u de gebeurtenis hebt gekoppeld. In ons voorbeeld selecteert u het **[!UICONTROL Title (salutation)]** veld in de **[!UICONTROL Profile]** tabel via **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -119,7 +119,7 @@ Volg onderstaande stappen om een personalisatie in te stellen in een transactieb
 
 U kunt productlijsten maken die verwijzen naar een of meer gegevensverzamelingen in de inhoud van een transactie-e-mail. Zo kunt u in een e-mailbericht voor het verlaten van een winkelwagentje een lijst opnemen met alle producten die zich in de winkelwagentjes bevonden toen ze uw website verlieten, met een afbeelding, de prijs en een koppeling naar elk product.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Aanbiedingen in producten zijn alleen beschikbaar wanneer u transactieberichten bewerkt via de [e-mailinterface van Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) .
 
@@ -209,7 +209,7 @@ Zie Gegevensverzamelingen [definiëren voor meer informatie over het maken van e
 
    Open in het knooppunt **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** het knooppunt dat overeenkomt met de verzameling die u hebt gemaakt (hier **[!UICONTROL Product list]** ) en selecteer het URL-veld dat u hebt gemaakt (hier **[!UICONTROL Product URL]** ). Klik op **[!UICONTROL Save]**.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Om veiligheidsredenen, zorg ervoor u het verpersoonlijkingsgebied binnen een verbinding opneemt die met een juiste statische domeinnaam begint.
 
@@ -266,35 +266,43 @@ Wanneer u klikt, worden alle gebeurtenissen in de wachtrij (op voorwaarde dat de
 
 ## Het publiceren van een transactiemelding opheffen {#unpublishing-a-transactional-message}
 
-Klik **[!UICONTROL Unpublish]** staat u toe om de transactionele berichtpublicatie, maar ook de publicatie van de overeenkomstige gebeurtenis te annuleren, die van REST API de middel schrapt die aan de gebeurtenis beantwoordt die u eerder creeerde. Zelfs als de gebeurtenis via uw website wordt geactiveerd, worden de bijbehorende berichten niet meer verzonden en niet opgeslagen in de database.
+Klik **[!UICONTROL Unpublish]** staat u toe om de transactionele berichtpublicatie, maar ook de publicatie van de overeenkomstige gebeurtenis te annuleren, die van REST API de middel schrapt die aan de gebeurtenis beantwoordt die u eerder creeerde.
 
 ![](assets/message-center_unpublish-template.png)
+
+Zelfs als de gebeurtenis via uw website wordt geactiveerd, worden de bijbehorende berichten niet meer verzonden en niet opgeslagen in de database.
 
 >[!NOTE]
 >
 >Als u het bericht opnieuw wilt publiceren, moet u teruggaan naar de bijbehorende gebeurtenisconfiguratie, het publiceren en vervolgens het bericht publiceren. Voor meer op dit, zie het [Publiceren van een transactiebericht](#publishing-a-transactional-message).
 
-Als u de publicatie van een gepauzeerd transactiebericht ongedaan maakt, moet u mogelijk tot 24 uur wachten voordat u het bericht opnieuw kunt publiceren. Hiermee kan de **[!UICONTROL Database cleanup]** workflow alle gebeurtenissen opschonen die naar de wachtrij zijn verzonden. De stappen voor het pauzeren van een bericht zijn gedetailleerd in de [Onderbreking van een sectie van de transactieberichtpublicatie](#suspending-a-transactional-message-publication) .
+Als u de publicatie van een gepauzeerd transactiebericht ongedaan maakt, moet u mogelijk tot 24 uur wachten voordat u het bericht opnieuw kunt publiceren. Hiermee kan de **[!UICONTROL Database cleanup]** workflow alle gebeurtenissen opschonen die naar de wachtrij zijn verzonden.
+
+De stappen voor het pauzeren van een bericht zijn gedetailleerd in de [Onderbreking van een sectie van de transactieberichtpublicatie](#suspending-a-transactional-message-publication) .
 
 De **[!UICONTROL Database cleanup]** workflow, die elke dag om 4.00 uur wordt uitgevoerd, is toegankelijk via **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**.
 
 ## Transactiebericht verwijderen {#deleting-a-transactional-message}
 
+Zodra een transactiebericht niet gepubliceerd is, of als een transactiebericht nog niet is gepubliceerd, kunt u het van de transactiemeldlijst schrappen. Dit doet u als volgt:
+
+1. Klik in de linkerbovenhoek op het **[!UICONTROL Adobe Campaign]** logo en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Houd de muis boven het bericht van uw keuze.
+1. Klik op de **[!UICONTROL Delete element]** knop.
+
 ![](assets/message-center_delete-template.png)
 
-Door een transactiemelding te selecteren, kunt u het met de **[!UICONTROL Delete element]** knoop schrappen zelfs als het reeds is gepubliceerd. Het verwijderen van een transactiebericht kan echter alleen onder bepaalde voorwaarden worden uitgevoerd:
+Het verwijderen van een transactiebericht kan echter alleen onder bepaalde voorwaarden worden uitgevoerd:
 
-* **Transactieberichten**: Als u een transactiebericht wilt verwijderen, moet het bericht niet worden gepubliceerd en niet worden gepauzeerd.
+* Zorg ervoor dat het transactiebericht de **[!UICONTROL Draft]** status heeft, anders kunt u het bericht niet verwijderen. De **[!UICONTROL Draft]** status is van toepassing op een bericht dat nog niet is gepubliceerd of dat [niet is gepubliceerd](#unpublishing-a-transactional-message) (en niet is [gepauzeerd](#suspending-a-transactional-message-publication)).
 
-   Als het transactiebericht niet gepubliceerd is, moet de gebeurtenisconfiguratie ook unpublished zijn om uw transactiebericht met succes te schrappen, tenzij een ander transactiebericht met de overeenkomstige gebeurtenis verbonden is. Raadpleeg deze [sectie](#unpublishing-a-transactional-message)voor meer informatie over het ongedaan maken van de publicatie van een transactiebericht.
+* **Transactieberichten**: Tenzij een ander transactiebericht met de overeenkomstige gebeurtenis wordt verbonden, als het transactiebericht unpublished is, moet de gebeurtenisconfiguratie ook unpublished zijn om uw transactiebericht met succes te schrappen. Zie Publicatie van een gebeurtenis [](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event)ongedaan maken voor meer informatie hierover.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Als u een transactiemelding verwijdert waarvoor al meldingen zijn verzonden, worden ook de verzendings- en trackinglogboeken verwijderd.
 
-* **Transactieberichten van een uit-van-de-doos gebeurtenissjabloon (interne transactieberichten)**: Als u een intern transactiebericht wilt verwijderen, moet het bericht niet worden gepubliceerd en niet worden gepauzeerd.
-
-   Het zou ook niet het enige transactionele bericht in de gebeurtenis moeten zijn, andere berichten moeten met de overeenkomstige gebeurtenis worden verbonden.
+* **Transactieberichten van een uit-van-de-doos gebeurtenissjabloon (interne transactieberichten)**: Als een intern transactiebericht de enige is die aan de overeenkomstige interne gebeurtenis is gekoppeld, kan het niet worden verwijderd. U moet eerst een ander transactiebericht maken door het te dupliceren of via het menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** .
 
 ## Transactiebericht opnieuw proberen {#transactional-message-retry-process}
 
