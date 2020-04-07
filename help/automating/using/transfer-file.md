@@ -13,7 +13,7 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: 7f203ff0e635faf802a5577f761dc308dae4ab66
 
 ---
 
@@ -43,7 +43,8 @@ U kunt deze activiteit gebruiken om gegevens terug te krijgen die dan met de **[
    * **Bestanden downloaden**: kunt u een bestand downloaden.
    * **Bestanden uploaden**: kunt u een bestand uploaden. Wanneer u een bestand uploadt uit het Adobe Campaign-bestand, wordt een logbestandvermelding in het **[!UICONTROL Export audits]** menu gegenereerd. Raadpleeg voor meer informatie over exportaudits de sectie [Audit export](../../administration/using/auditing-export-logs.md) .
    * **Testen om te controleren of het bestand bestaat**: kunt u controleren of er een bestand is.
-   * **Bestandenlijst**: kunt u een lijst maken van de bestanden die aanwezig zijn in Adobe Campaign.
+   * **Bestandenlijst**: Hiermee kunt u de bestanden weergeven die aanwezig zijn op de server die is gedefinieerd op het **[!UICONTROL Protocol]** tabblad. Deze actie wordt hoofdzakelijk gebruikt voor het zuiveren doeleinden, om te controleren of wordt de activiteit gevormd volgens uw behoeften alvorens de dossiers van de verre server te downloaden.
+
 1. Selecteer het protocol dat u wilt gebruiken:
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
@@ -55,7 +56,7 @@ U kunt deze activiteit gebruiken om gegevens terug te krijgen die dan met de **[
 
    * **[!UICONTROL Delete the source files after transfer]**
    * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**: deze optie is beschikbaar wanneer u de **[!UICONTROL File listing]** actie selecteert. Hiermee kunt u alle bestanden indexeren die aanwezig zijn op de server in de gebeurtenisvariabele **vars.filenames** waarin de bestandsnamen worden gescheiden door de tekens **&#39;n&#39;** .
+   * **[!UICONTROL List all files]**: deze optie is beschikbaar wanneer u **[!UICONTROL File listing]** action.in het **[!UICONTROL General]** tabblad selecteert. Hiermee kunt u alle bestanden indexeren die aanwezig zijn op de server in de gebeurtenisvariabele **vars.filenames** waarin de bestandsnamen worden gescheiden door de tekens **&#39;n&#39;** .
 
 1. In het **[!UICONTROL If no files are found]** gedeelte van het **[!UICONTROL Advanced options]** tabblad kunt u specifieke handelingen configureren als er fouten of onbestaande bestanden worden gedetecteerd wanneer de activiteit wordt gestart.
 
