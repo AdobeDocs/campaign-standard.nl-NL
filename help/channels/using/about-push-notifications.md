@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
+source-git-commit: 8111dfd2fd3cf254f73d0b01917d606b0a70aa84
 
 ---
 
@@ -61,21 +61,18 @@ Als deskundige gebruiker, om deze specifieke configuraties te bepalen, verwijs n
 >Als u de functie voor pushmeldingen van Campagne wilt gebruiken, moet u een geldig pushcertificaat in .pem-indeling opgeven zonder wachtwoorden.
 Als u een geldig p12-certificaat hebt, kunt u het gemakkelijk converteren naar een .pem-bestand met onlinebronnen.
 
-Ten eerste moet u uw mobiele toepassing configureren met behulp van Experience Platform SDK&#39;s om pushmeldingen te kunnen verzenden. Raadpleeg deze [pagina](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)voor meer informatie.
-
 Voordat u pushmeldingen verzendt, moet u:
 
-1. Zorg ervoor dat u toegang hebt tot het **[!UICONTROL Mobile app]** kanaal in Adobe Campaign.
-1. Uw mobiele toepassing configureren in:
+1. Zorg ervoor dat u in Adobe Campaign toegang hebt tot het **[!UICONTROL Push notification]** kanaal. Neem contact op met uw accountteam als u deze kanalen niet kunt openen.
 
-   * Adobe-campagne
-   * De interface van Adobe Mobile Services
+1. Controleer of uw gebruiker beschikt over de vereiste machtigingen in Adobe Campagne Standard en Experience Platform Launch.
 
-1. Voer de specifieke installatie van de mobiele toepassing uit:
+1. Maak een mobiele eigenschap in Experience Platform Launch. Zie Een mobiele eigenschap [](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)instellen voor meer informatie.
 
-   * Verpak het configuratiebestand dat u hebt gedownload van de Adobe Mobile Services-interface met de mobiele toepassing.
-   * Integreer de Experience Cloud Mobile SDK in uw mobiele toepassing.
+1. Installeer de **[!UICONTROL Adobe Campaign Standard]** extensie in Experience Platform Launch.
 
-1. Definieer de gegevens die u van de abonnees van uw toepassing wilt verzamelen. De abonnees van de mobiele toepassing die een profiel in de Adobe Campagne-database hebben, worden op basis van de criteria die u hebt gedefinieerd met elkaar in overeenstemming gebracht.
+1. In de Standaard van de Campagne van Adobe, vorm het mobiele bezit dat u in de Lancering van het Platform van de Ervaring creeerde. Zie Uw toepassing voor het starten van het Experience Platform [instellen in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign)voor meer informatie.
 
-Nadat u de mobiele toepassing hebt geconfigureerd, kunt u nu uw In-app-berichten voorbereiden en verzenden. Zie Een pushmelding [voorbereiden en verzenden voor meer informatie](../../channels/using/preparing-and-sending-a-push-notification.md).
+1. Voeg de kanaalspecifieke configuratie toe aan uw mobiele toepassingsopstelling. Zie [Kanaalspecifieke toepassingsconfiguratie in Adobe Campagne](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)voor meer informatie.
+
+1. Voor ondersteuning van implementaties van gevallen voor mobiel gebruik raadpleegt u de gedetailleerde instructies over extensies, Experience Platform Launch-regels en de SDK-implementatie in gevallen van [mobiel gebruik die worden ondersteund in Adobe Campaign Standard met behulp van de SDK&#39;s](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)van het Adobe Experience Platform.
