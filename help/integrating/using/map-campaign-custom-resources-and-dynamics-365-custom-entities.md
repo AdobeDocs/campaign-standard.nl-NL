@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
 
 ---
 
@@ -137,7 +137,7 @@ Klik nu op Bewerken op het zojuist toegevoegde filterelement en configureer het 
 
 Vervolgens wordt de koppeling van de aangepaste bron opgegeven.  In dit geval hebben we ervoor gekozen een koppeling tot stand te brengen van de aangepaste entiteit (bron) naar de profielentiteit (doel) met behulp van een **[!UICONTROL Vehicles]** **[!UICONTROL 1 cardinality simple link]**.
 
-(../assets/DefineTheLink.png)
+![](assets/DefineTheLink.png)
 
 1. Kies de verwijderoptie in het **[!UICONTROL Link definitions]** scherm: **[!UICONTROL Deleting the target record implies deleting records referenced by the link]**. Deze optie is zo gekozen dat wanneer een profiel wordt verwijderd, alle **[!UICONTROL Vehicle]** records die aan dat profiel zijn gekoppeld, ook worden verwijderd.
 1. In **[!UICONTROL Join Definitions]** selecteert u **[!UICONTROL Define specific join conditions]**.
