@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 ---
 
@@ -76,7 +76,7 @@ U kunt een e-mailbericht maken vanuit een [campagne](../../start/using/marketing
 
    >[!NOTE]
    >
-   >U kunt algemene regels voor vermoeidheid tussen kanalen instellen die overgevulde profielen automatisch uitsluiten van campagnes. Zie [Vermoeidsregels](../../administration/using/fatigue-rules.md)voor meer informatie hierover.
+   >U kunt algemene regels voor vermoeidheid tussen kanalen instellen die overgevulde profielen automatisch uitsluiten van campagnes. Zie [Vermoeidsregels](../../sending/using/fatigue-rules.md)voor meer informatie hierover.
 
 1. Proefdrukken verzenden om uw bericht te controleren en te valideren en de weergave in de Postbus te controleren. Zie Proef [verzenden](../../sending/using/sending-proofs.md).
 
