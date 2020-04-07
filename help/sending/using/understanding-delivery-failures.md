@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
+source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
 
 ---
 
@@ -25,7 +25,7 @@ Wanneer een levering niet naar een profiel kan worden verzonden, verzendt de ext
 
 >[!NOTE]
 >
->**E-mailfoutberichten** (of &#39;bounces&#39;) worden gekwalificeerd door het InMail-proces. **SMS** -foutberichten (of &quot;SR&quot; voor &quot;Statusrapport&quot;) worden gekwalificeerd door het MTA-proces.
+>**E-mailfoutberichten** (of &#39;bounces&#39;) worden gekwalificeerd door de Enhanced MTA (synchrone stuitingen) of door het inMail-proces (asynchrone stuitingen). **SMS** -foutberichten (of &quot;SR&quot; voor &quot;Statusrapport&quot;) worden gekwalificeerd door het MTA-proces.
 
 Berichten kunnen ook tijdens de voorbereiding van de levering worden uitgesloten als een adres in quarantaine is geplaatst of als een profiel op een zwarte lijst staat. Uitgesloten berichten worden vermeld op het **[!UICONTROL Exclusion logs]** tabblad van het leveringsdashboard (zie [deze sectie](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
@@ -80,9 +80,21 @@ De mogelijke oorzaken van een mislukking van de levering zijn:
 
 Als een bericht wegens een tijdelijke fout van het **genegeerde** type ontbreekt, zullen de pogingen tijdens de leveringsduur opnieuw worden uitgevoerd. Voor meer over de types van fouten, zie de types en de redenen [van de mislukking van de](#delivery-failure-types-and-reasons)Levering.
 
-Om de duur van een levering te wijzigen, ga naar de geavanceerde parameters van het levering of leveringsmalplaatje en specificeer de gewenste duur op het overeenkomstige gebied. De geavanceerde leveringseigenschappen worden voorgesteld in [deze sectie](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+Nadat de upgrade naar de [Adobe Campagne Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)is uitgevoerd, worden de instellingen voor **Opnieuw proberen** in Campagne genegeerd. Het aantal pogingen (hoeveel pogingen zouden moeten worden uitgevoerd de dag nadat verzenden is begonnen) en de minimumvertraging tussen pogingen worden beheerd door Verbeterde MTA, gebaseerd op hoe goed IP zowel historisch als momenteel bij een bepaald domein uitvoert.
 
-De standaardconfiguratie staat vijf herpogingen toe met intervallen van één uur, die door één herpoging per dag gedurende vier dagen worden gevolgd. Het aantal pogingen kan globaal worden gewijzigd (neem contact op met uw technische beheerder van Adobe) of voor elke levering of leveringsmalplaatje (zie [deze sectie](../../administration/using/configuring-email-channel.md#sending-parameters)).
+Om de duur van een levering te wijzigen, ga naar de geavanceerde parameters van het levering of leveringsmalplaatje, en geef het **[!UICONTROL Delivery duration]** gebied van de sectie van de [Geldigheidsperiode](../../administration/using/configuring-email-channel.md#validity-period-parameters) uit.
+
+>[!IMPORTANT]
+>
+>Zodra de upgrade naar de [Adobe Campagne Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)is uitgevoerd, wordt de **[!UICONTROL Delivery duration]** parameter in uw campagneleveringen alleen gebruikt als deze op 3,5 dagen of minder is ingesteld. Als u een waarde definieert die hoger is dan 3,5 dagen, wordt hiermee geen rekening gehouden.
+
+Bijvoorbeeld, als u herpogingen voor een levering na één dag wilt ophouden, kunt u de leveringsduur aan **1d** plaatsen, en Verbeterde MTA zal dat het plaatsen door berichten in de herprobeer rij na één dag te verwijderen respecteren.
+
+>[!NOTE]
+>
+>Zodra een bericht in de Verbeterde MTA rij 3.5 dagen is geweest en niet heeft geleverd, zal het uit tijd en zijn status van **[!UICONTROL Sent]** aan **[!UICONTROL Failed]** in de [leveringslogboeken](../../sending/using/monitoring-a-delivery.md#delivery-logs)worden bijgewerkt.
+
+<!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
 ## Synchrone en asynchrone fouten {#synchronous-and-asynchronous-errors}
 
