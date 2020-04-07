@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d1ec5dddcf4c1aa3fe6338d35b381986ba32a28d
+source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 ---
 
@@ -108,7 +108,7 @@ Bekijk de meest recente [documentatie-updates](../../rn/using/documentation-upda
   </tr> 
   <tr> 
    <td> Typologisch filter voor abonnees van mobiele apps<br /> </td> 
-   <td> Ondersteuningsabonnementen in typologiefilter - Wanneer u de filtercriteria voor een typologieregel opgeeft, kunnen de abonnementen van de toepassing worden geselecteerd als de filterings- en doelafmetingen, zodat u op kenmerken kunt filteren voor gebruikers met of zonder profiel. <br /> Raadpleeg de <a href="../../administration/using/about-typology-rules.md#typology-rules">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> Ondersteuningsabonnementen in typologiefilter - Wanneer u de filtercriteria voor een typologieregel opgeeft, kunnen de abonnementen van de toepassing worden geselecteerd als de filterings- en doelafmetingen, zodat u op kenmerken kunt filteren voor gebruikers met of zonder profiel. <br /> Raadpleeg de <a href="../../sending/using/about-typology-rules.md#typology-rules">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Geautomatiseerde inhoud importeren van een URL tijdens berichtvoorbereiding<br /> </td> 
@@ -217,7 +217,7 @@ Bekijk de meest recente [documentatie-updates](../../rn/using/documentation-upda
     <ul> 
      <li> Uitgebreide uitzendingen met "bevroren"gegevens uitvoeren: Als markeerteken wil ik alle profielen exporteren waarvoor segmentcode gelijk is aan "A" (afkomstig van de workflow-engine). </li> 
      <li> Segmentering van "bevroren" gegevens: Als marktleider, zou ik alle profielen willen <strong>richten</strong> die 1000 loyaliteitspunten sinds het laatste verzenden hebben gewonnen of waar de segmentcode aan "A"gelijk was. </li> 
-    </ul>  Raadpleeg de <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+    </ul> Raadpleeg de <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dynamische rapportage met aangepaste profielgegevens<br /> </td> 
@@ -329,7 +329,7 @@ _Aangepaste bronnen_
     <ul> 
      <li> Aangepaste velden als afstemmingscriteria gebruiken om een transactiebericht aan een profiel aan te passen </li> 
      <li> Gebruik volledige profielen, de diensten en verbonden gegevens om transactieverslagen verder te personaliseren </li> 
-    </ul>  Raadpleeg de <a href="../../administration/using/configuring-transactional-messaging.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+    </ul> Raadpleeg de <a href="../../administration/using/configuring-transactional-messaging.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -457,7 +457,7 @@ Sommige problemen kunnen zich voordoen bij het gebruik van contextafhankelijke H
  <tbody> 
   <tr> 
    <td> Rapportage voor vermoeidheidsbeheer<br /> </td> 
-   <td> De rapportering voor het Beheer van de Vermoeidheid is een specifiek, configureerbaar rapport dat de gevolgen de regels van de Vermoeidheid op leveringen over e-mail, Duw, SMS, en de Directe kanalen van de Post binnen een gespecificeerde datumwaaier toont alvorens te verzenden. Met het toegevoegde inzicht om alle conflicterende campagnes in één enkele mening snel te kunnen zien, kunnen de marketers marketing campagnes volgens de vastgestelde vermoeidheidsregels effectiever plannen, en mededelingen prioriteren.<br /> Raadpleeg de <a href="../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> De rapportering voor het Beheer van de Vermoeidheid is een specifiek, configureerbaar rapport dat de gevolgen de regels van de Vermoeidheid op leveringen over e-mail, Duw, SMS, en de Directe kanalen van de Post binnen een gespecificeerde datumwaaier toont alvorens te verzenden. Met het toegevoegde inzicht om alle conflicterende campagnes in één enkele mening snel te kunnen zien, kunnen de marketers marketing campagnes volgens de vastgestelde vermoeidheidsregels effectiever plannen, en mededelingen prioriteren.<br /> Raadpleeg de <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Delen van rapporten<br /> </td> 
