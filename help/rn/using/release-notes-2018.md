@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
 
 ---
 
@@ -461,7 +461,7 @@ Sommige problemen kunnen zich voordoen bij het gebruik van contextafhankelijke H
   </tr> 
   <tr> 
    <td> Delen van rapporten<br /> </td> 
-   <td> Met Rapport delen kunt u uw rapporten delen met gebruikers van Adobe Campagne als e-mailbijlage, inclusief op een geautomatiseerde terugkerende basis. Gebruikers die terugkerende rapporten ontvangen, kunnen hun abonnement op deze berichten opzeggen via een speciale koppeling in elke e-mail.<br /> Raadpleeg de <a href="../../reporting/using/reporting-interface.md#share-tab">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> Met Rapport delen kunt u uw rapporten delen met gebruikers van Adobe Campagne als e-mailbijlage, inclusief op een geautomatiseerde terugkerende basis. Gebruikers die terugkerende rapporten ontvangen, kunnen zich afmelden voor deze communicatie via een speciale koppeling in elke e-mail.<br /> Raadpleeg de <a href="../../reporting/using/reporting-interface.md#share-tab">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Nieuwe mogelijkheden duwen<br /> </td> 
@@ -479,7 +479,7 @@ Sommige problemen kunnen zich voordoen bij het gebruik van contextafhankelijke H
   </tr> 
   <tr> 
    <td> API Signaalactiviteit activeren<br /> </td> 
-   <td> Het is nu mogelijk om een signaalactiviteit voor uw workflows rechtstreeks vanuit de Adobe Campagne Standard API te activeren.<br /> Raadpleeg de <a class="anchorLink" href="../../api/using/triggering-a-signal-activity.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Het is nu mogelijk om een signaalactiviteit voor uw workflows rechtstreeks vanuit de Adobe Campagne Standard API te activeren.<br /> Raadpleeg de <a href="/help/api/using/triggering-a-signal-activity.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
