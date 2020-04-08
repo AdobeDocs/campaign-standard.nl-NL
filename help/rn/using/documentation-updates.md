@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 240e8738fab8f0eaa8398de1b74e22d292536908
+source-git-commit: 876f12d5256ef991741c35b17eff666dedc99d73
 
 ---
 
@@ -31,13 +31,13 @@ De integratie van de Dynamica 365 van Microsoft met de documentatie van de Stand
 
 Er zijn extra bronnen toegevoegd aan de pagina &quot;Documentstartpagina&quot;. [Meer informatie](../../campaign-standard-home.md)
 
-Informatie over de Experience CLoud ID Service (ECID) is toegevoegd aan de documentatie van de Data Connector van het Adobe Experience Platform. [Meer informatie](../../administration/using/aep-about-data-connector.md#key-concepts)
+Informatie over de Experience Cloud ID Service (ECID) is toegevoegd aan de documentatie van het Adobe Experience Platform Data Connector. [Meer informatie](../../administration/using/aep-about-data-connector.md#key-concepts)
 
 De het Vormen transactionele overseinensectie is verbeterd met informatie over hoe te om tot de recentste transactionele gebeurtenissen en bijgewerkte screenshots toegang te hebben. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
 Het gedeelte over typologieën en typologische regels is verbeterd en bijgewerkt met aanvullende informatie over de typologische regels buiten de box. [Meer informatie](../../sending/using/about-typology-rules.md)
 
-Er is informatie toegevoegd over de **[!UICONTROL Transfer file]** actie van de **!UICONTROL File listing]** activiteit. [Meer informatie](../../automating/using/transfer-file.md)
+Er is informatie toegevoegd over de **[!UICONTROL Transfer file]** actie van de **[!UICONTROL File listing]** activiteit. [Meer informatie](../../automating/using/transfer-file.md)
 
 De documentatie over herpogingen na een levering tijdelijke mislukking is bijgewerkt met meer details over hoe herpogingen worden beheerd zodra bijgewerkt aan Verbeterde MTA. [Meer informatie](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
@@ -291,7 +291,7 @@ De contextafhankelijke Help-koppelingen die rechtstreeks beschikbaar zijn in Ado
 
 De volgende [pagina](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) wordt de officiële pagina Video&#39;s voor de Standaard van de Campagne van Adobe.
 
-Er is een sectie toegevoegd over gegevensbewaring, inclusief de standaardwaarden voor gegevensbehoud voor standaardtabellen. [Meer informatie](../../administration/using/data-retention.md)
+Er is een sectie toegevoegd over gegevensbewaring, inclusief de standaardwaarden voor het bewaren van gegevens voor standaardtabellen. [Meer informatie](../../administration/using/data-retention.md)
 
 Een sectie toegevoegd over updates en onderhoudsbewerkingen. [Meer informatie](../../administration/using/updates-and-maintenance-operations.md)
 
