@@ -12,7 +12,7 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
+source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
 
 ---
 
@@ -26,7 +26,7 @@ Met filterregels kunt u een deel van het berichtdoel uitsluiten volgens criteria
 De lijst hieronder verstrekt informatie over uit-van-de-doos het filtreren regels, evenals hun verwante kanalen.
 
 | Label | Kanaal | Beschrijving |
----------|----------|---------|---------
+---------|----------|---------
 | **[!UICONTROL Address not specified]** | Alles | Hiermee sluit u de doelpopulatie zonder opgegeven adres (e-mail, postadres, enz.) uit. volgens het geselecteerde kanaal). |
 | **[!UICONTROL Blacklisted address]** | Alles | Exclusief adressen op de zwarte lijst. |
 | **[!UICONTROL Duplicate]** | Alles | Hiermee worden duplicaten op basis van het **[!UICONTROL Address]** doelpopulatieveld uitgesloten. |
