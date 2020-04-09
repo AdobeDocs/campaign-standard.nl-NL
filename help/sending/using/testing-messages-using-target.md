@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
+source-git-commit: 1f0df05a08cc07b7c2a5b8e175177006360e7e7d
 
 ---
 
@@ -129,7 +129,7 @@ Voer de volgende stappen uit om profielen te importeren die u wilt gebruiken voo
 >
 >Als u hetzelfde publiek nogmaals importeert met verschillende vervangende adressen en/of voorvoegsels, worden de profielen toegevoegd aan de lijst, naast de profielen die u eerder hebt geïmporteerd.
 
-    ![](assets/substitution_audience_added.png)
+![](assets/substitution_audience_added.png)
 
 ## Een voorbeeld van het bericht weergeven met de doelprofielen
 
