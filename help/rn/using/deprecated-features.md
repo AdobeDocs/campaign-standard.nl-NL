@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d8ad3801dba50e357c21a7551e897e0e2c5aedc5
+source-git-commit: c35468d7c9a3177d755dad2a9ab2e09510d680fa
 
 ---
 
@@ -50,23 +50,9 @@ Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik 
   <tr> 
    <td> <p> Vanaf release 20.1 is SDK v4 afgekeurd. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Meer</a>informatie.</p><br/>
    <p>De <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (voorheen v5 genoemd) biedt uitsluitend ondersteuning voor toekomstige functies en functies van Adobe Experience Cloud.</p></br>
-     <p>Doeldatum verwijdering: 30 september 2020</p>
+     <p>
+     <em>Doeldatum verwijdering: 30 september 2020</em></p>
      </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Creative SDK voor campagnestandaard</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Adobe Creative SDK is uit bedrijf genomen. Daarom is de versie van de afbeelding, die vanaf 20.1 wordt geactiveerd door Creative SDK in e-mailberichten van de Campagnestandaard, verouderd.</p></br>
-  <p> Doeldatum verwijdering: Maart 2020 - release Campagne 20.2</p>
-   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +66,8 @@ Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik 
   <tr> 
    <td> <p>Vanaf de release van Campagne 19.4 is het gebruik van de campagne-API en de interface voor toegangs- en verwijderingsverzoeken afgekeurd. De profielverwijdering in twee stappen is niet beschikbaar. Gebruik <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
    <p>Zie ook <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Privacybeheer in de Standaard</a>van de Campagne.</p>
-  <p> Doeldatum verwijdering: Juli 2020 - Versie van Campagne 20.5</p>
+  <p> 
+  <em>Doeldatum verwijdering: Juli 2020 - Versie van Campagne 20.5 </em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -96,7 +83,8 @@ Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik 
   <tr> 
    <td> <p>Vanaf de release Campagne 19.0 is de oude e-maileditor afgekeurd. Met <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">de nieuwe e-mailontwerper</a> kunt u uw e-mailinhoud maken en aanpassen. </p></br>
    <p>Lees <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">deze sectie</a> om te leren hoe u uw e-mailsjablonen voor de nieuwe editor kunt aanpassen.</p></br>
-  <p> Doeldatum verwijdering: Oktober 2020 - de release van de Campagne 20.6</p>
+  <p> 
+  <em>Doeldatum verwijdering: Oktober 2020 - de release van de Campagne 20.6 </em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -116,6 +104,23 @@ Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik 
  </tbody> 
 </table>
 
+## Verwijderde functies {#removed-features}
+
+Deze sectie bevat een lijst met functies en mogelijkheden die zijn verwijderd uit Campagnestandaard.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Creative SDK voor campagnestandaard</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Adobe Creative SDK is uit bedrijf genomen. Hierdoor is de afbeeldingseditie, aangedreven door Creative SDK, in e-mails met de campagnestandaard niet meer beschikbaar vanaf de release Campagne 20.2.</p></br>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ## Einde van compatibiliteit {#end-of-compatibility}
 
