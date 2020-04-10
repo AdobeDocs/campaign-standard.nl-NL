@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 451c7d15bfe206912fd1f8db8bf8c3d7ec83616d
+source-git-commit: a71af00e606d78c4ff8b39da1b9f032c0dcf0fc6
 
 ---
 
@@ -27,9 +27,9 @@ Upgrades worden in twee fasen geïmplementeerd. Eerst worden Stage-instanties bi
 
 Alle releasedatums kunnen worden gewijzigd: We raden u aan deze pagina regelmatig te bezoeken om te controleren op updates.
 
-Meld u aan om releasemeldingen [te](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) ontvangen voor meer informatie over de nieuwste Adobe Experience Cloud-releases direct in uw Postvak IN.
+**NIEUW!** Meld u aan bij [de releasemeldingen](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) voor Campagne Standard voor meer informatie over komende releases in uw Postvak IN.
 
-## Release 20.2.1 - Release van april {#release-20-2-april-release}
+## Release 20.3.1 - Release mei {#release-20-3-may-release}
 
 De updates van het milieu gebeuren in golven, tijdens de vermelde hieronder termijnen. Gedetailleerde informatie over deze versie vindt u in de [releaseopmerkingen](../../rn/using/release-notes.md). Neem contact op met de [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin)als u nog vragen hebt.
 
@@ -43,11 +43,11 @@ De updates van het milieu gebeuren in golven, tijdens de vermelde hieronder term
  <tbody> 
   <tr> 
    <td> Werkgebied<br /> </td> 
-   <td> 31 maart - 1 april 2020<br /> </td> 
+   <td> 27 april 2020 - 28 april 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Productie<br /> </td> 
-   <td> 6 april - 9 april 2020<br /> </td> 
+   <td> 4 mei - 11 mei 2020<br /> </td> 
   </tr> 
  </tbody> 
 </table>
