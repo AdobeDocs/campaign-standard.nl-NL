@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campagne Standard - productdocumentatie
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
+source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
 
 * **[Testen via e-mail met doelprofielen](sending/using/testing-messages-using-target.md)**<br/>Leer hoe u e-mailberichten kunt testen op echte doelprofielen.
 
-* **[Privacybeheer](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>Meer informatie over de hulpmiddelen van Adobe Campagne om u te helpen bij het naleven van uw privacy-regels.
+* **[Privacybeheer](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/> Meer informatie over de hulpmiddelen van Adobe Campagne om u te helpen bij het naleven van uw privacy-regels.
 
-* **[Campagne Standaard mobiele gids](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>Meer informatie over algemene richtlijnen voor mobiele leveringen.
+* **[Campagne Standaard mobiele gids](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/> Meer informatie over algemene richtlijnen voor mobiele leveringen.
 
 [Klik hier voor meer updates](rn/using/documentation-updates.md)
 
@@ -63,8 +63,8 @@ source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
 | Nuttige pagina&#39;s | Bronnen voor ontwikkelaars |
 |---|---|
 | [Opmerkingen bij de release](rn/using/release-notes.md) | [Implementatiehandleiding](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |
-| [Documentatie van het regelpaneel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [API-documentatie](api/using/about-campaign-standard-apis.md) |
+| [Documentatie van het regelpaneel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Campagne-API&#39;s](api/using/about-campaign-standard-apis.md) |
 | [Hoe kan ik-video&#39;s](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) | [Lijst met foutberichten](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
-| [Handleiding voor releaseplanning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Standaard gegevensmodel voor campagne](developing/using/datamodel-introduction.md) |
-| [Verouderde en verwijderde functies](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Campagne-integratie](integrating/using/about-campaign-integrations.md) |
+| [Release-planning](rn/using/release-planning.md) | [Campagne gegevensmodel](developing/using/datamodel-introduction.md) |
+| [Verouderde en verwijderde functies](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Hulplijn voor meerdere oplossingen](integrating/using/about-campaign-integrations.md) |
 | [Aan de slag met de standaard voor campagnes](start/using/campaign-orchestration.md) | [Technische noten](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
