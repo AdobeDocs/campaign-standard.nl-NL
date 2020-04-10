@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
+source-git-commit: 66e480e957d12275d2ce5575c99b0808462588f9
 
 ---
 
@@ -91,7 +91,7 @@ source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 
 >[!NOTE]
 >
->De functies van het Adobe Experience Platform in de Campaign Standard worden momenteel in bèta weergegeven. Dit probleem kan vaak en zonder kennisgeving worden bijgewerkt. Raadpleeg de gedetailleerde documentatie: [Ervaring Platform Data Connector](../../administration/using/aep-about-data-connector.md), [Publiek Doelen](../../audiences/using/aep-about-audience-destinations-service.md)
+>De functies van het Adobe Experience Platform in Campaign Standard worden momenteel in bèta weergegeven, die vaak zonder kennisgeving kan worden bijgewerkt. Raadpleeg de gedetailleerde documentatie: [Ervaring Platform Data Connector](../../administration/using/aep-about-data-connector.md), [Publiek Doelen](../../audiences/using/aep-about-audience-destinations-service.md)
 
 * In workflowlogboeken wordt om de 10 minuten het aantal records weergegeven dat al is verwerkt door de taak die momenteel wordt uitgevoerd.
 * Probleem verholpen die kon optreden bij het importeren van een Adobe Experience Platform-profiel dat uit de database was verwijderd.
@@ -106,3 +106,4 @@ source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 * Probleem verholpen bij het handmatig verwijderen van een privacyaanvraag in Campagne nadat deze was verwerkt. Hierdoor konden gegevens die aan de aanvraag waren gekoppeld, niet worden verwijderd, zelfs na opschoning.
 * Probleem verholpen dat kon optreden tijdens het voorvertonen of verzenden van berichten met speciale tekens van Adobe Experience Manager.
 * Probleem verholpen dat in workflows kon voorkomen wanneer een activiteit met verschillende binnenkomende overgangen werd uitgevoerd.
+* Probleem verholpen waarbij standaardgebruikers de &#39;Abonnementen op een toepassing&#39; niet konden gebruiken als de doeldimensie in een workflowquery of een levering. (CAMP-37618)
