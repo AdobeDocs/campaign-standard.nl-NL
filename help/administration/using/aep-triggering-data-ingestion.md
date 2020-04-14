@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
+source-git-commit: 57b87896281efa7dd1e6a612926f59061a0fdcb8
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 >[!IMPORTANT]
 >
->De dienst van de Gegevens van de Standaard van de campagne is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
+>Adobe Experience Platform Data Connector is momenteel in bèta, die vaak zonder kennisgeving kan worden bijgewerkt. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 
 Met Adobe Campaign Standard kunt u de onmiddellijke invoer van gegevenstoewijzingen via API&#39;s activeren en de status van uw insluitingsaanvragen ophalen.
 
@@ -34,7 +34,7 @@ Alvorens APIs te gebruiken, moet de gegevenstoewijzing eerst binnen de Standaard
 * [Toewijzingsdefinitie](../../administration/using/aep-mapping-definition.md)
 * [Toewijzingsactivering](../../administration/using/aep-mapping-activation.md)
 
-Nadat de gegevenstoewijzing is gemaakt, moet u de bewerking stoppen zodat u deze op elk gewenst moment vanuit de API kunt activeren. Ga als volgt te werk om dit te doen:
+Als de gegevenstoewijzing is gemaakt, moet u de bewerking stoppen zodat u deze op elk gewenst moment vanuit de API kunt activeren. Ga als volgt te werk om dit te doen:
 
 1. Ga in Campagnestandaard naar **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
 
