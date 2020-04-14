@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
+source-git-commit: a09d82ae6fa77bb94550e533aa8fb63b463cd28c
 
 ---
 
@@ -42,6 +42,8 @@ Er is informatie toegevoegd over de **[!UICONTROL Transfer file]** actie van de 
 De documentatie over herpogingen na een levering tijdelijke mislukking is bijgewerkt met meer details over hoe herpogingen worden beheerd zodra bijgewerkt aan Verbeterde MTA. [Meer informatie](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
 Het verwijderen van een gedeelte Transactiebericht is verbeterd en verduidelijkt. [Meer informatie](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
+
+De sectie **Voorvertoning van leveringen** is bijgewerkt met voorbeelden van mobiele leveringen.[Meer informatie](../../sending/using/previewing-messages.md)
 
 ## Release 20.2 - april 2020 {#release-20-2---april-2020}
 
@@ -291,7 +293,7 @@ De contextafhankelijke Help-koppelingen die rechtstreeks beschikbaar zijn in Ado
 
 De volgende [pagina](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) wordt de officiële pagina Video&#39;s voor de Standaard van de Campagne van Adobe.
 
-Er is een sectie toegevoegd over gegevensbewaring, inclusief de standaardwaarden voor gegevensbehoud voor standaardtabellen. [Meer informatie](../../administration/using/data-retention.md)
+Er is een sectie toegevoegd over gegevensbewaring, inclusief de standaardwaarden voor het bewaren van gegevens voor standaardtabellen. [Meer informatie](../../administration/using/data-retention.md)
 
 Een sectie toegevoegd over updates en onderhoudsbewerkingen. [Meer informatie](../../administration/using/updates-and-maintenance-operations.md)
 
