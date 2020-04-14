@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 023159c1c2d3334fd79e9ed9bf628758d84111eb
 
 ---
 
@@ -87,7 +87,7 @@ Hier volgt een lijst met de beschikbare onderdelen in E-mailontwerper:
 
    U kunt knoppen ook opslaan in fragmenten die opnieuw kunnen worden gebruikt. Zie [Een inhoudsfragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment) maken en inhoud [opslaan als fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)voor meer informatie.
 
-1. Selecteer deze optie **[!UICONTROL Fallback view]** om de fallback-afbeelding weer te geven in de e-mailontwerper.
+Selecteer deze optie **[!UICONTROL Fallback view]** om de fallback-afbeelding weer te geven in de e-mailontwerper.
 
 - **[!UICONTROL Text]**
 
