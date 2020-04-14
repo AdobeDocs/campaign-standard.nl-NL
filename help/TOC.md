@@ -4,7 +4,7 @@ sub-product: Adobe-campagnestandaard
 audience: end-user
 user-guide-title: Help bij Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
+source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
 
 ---
 
@@ -138,7 +138,7 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
 + Testen en verzenden {#testing-and-sending}
    + [Informatie over het verzenden van berichten via Campagne](sending/using/about-sending-messages-with-campaign.md)
    + Berichten voorbereiden en testen {#preparing-and-testing-messages}
-      + [Berichten voorvertonen](sending/using/previewing-messages.md)
+      + [Leveringen vooraf bekijken](sending/using/previewing-messages.md)
       + [De verzending voorbereiden](sending/using/preparing-the-send.md)
       + [Proefdrukken verzenden](sending/using/sending-proofs.md)
       + [E-mailberichten testen met doelprofielen](sending/using/testing-messages-using-target.md)
