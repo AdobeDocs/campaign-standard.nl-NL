@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
+source-git-commit: 640286c66da3f216cac6264ab6c61652bba209ce
 
 ---
 
@@ -48,7 +48,7 @@ Als u gegevensstromen van andere systemen met de Campagne van Adobe wilt integre
  </thead> 
  <tbody> 
   <tr> 
-   <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4<br /> </td> 
+   <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4, 6.5<br /> </td> 
    <td> Hiermee kunt u rechtstreeks in Adobe Experience Manager e-mailinhoud of -formulieren maken die zijn toegewezen aan de Adobe Campaign-database.<br /> </td> 
    <td> 
      <a href="../../integrating/using/integrating-with-experience-manager.md">Werken met Campagne en Experience Manager</a><br/>, Ervingenbeheer <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">integreren en Campagne Standard</a> <br/>, een e-mail <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">maken met Experience Manager en Campagne</a> 
