@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f0df05a08cc07b7c2a5b8e175177006360e7e7d
+source-git-commit: 4a8fa27d816dade8a7eb26bb5b66e3ebfbec4b51
 
 ---
 
@@ -125,11 +125,11 @@ Voer de volgende stappen uit om profielen te importeren die u wilt gebruiken voo
 
 1. Klik op de **[!UICONTROL Import]** knop. De profielen van het publiek die aan het berichtdoel beantwoorden worden toegevoegd aan het **[!UICONTROL Profile substitution]** lusje, evenals de bijbehorende substitutieadressen en prefixen.
 
->[!NOTE]
->
->Als u hetzelfde publiek nogmaals importeert met verschillende vervangende adressen en/of voorvoegsels, worden de profielen toegevoegd aan de lijst, naast de profielen die u eerder hebt geïmporteerd.
+   ![](assets/substitution_audience_added.png)
 
-![](assets/substitution_audience_added.png)
+   >[!NOTE]
+   >
+   >Als u hetzelfde publiek nogmaals importeert met verschillende vervangende adressen en/of voorvoegsels, worden de profielen toegevoegd aan de lijst, naast de profielen die u eerder hebt geïmporteerd.
 
 ## Een voorbeeld van het bericht weergeven met de doelprofielen
 
