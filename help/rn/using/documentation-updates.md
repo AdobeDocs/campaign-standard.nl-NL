@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a09d82ae6fa77bb94550e533aa8fb63b463cd28c
+source-git-commit: 09c7f365969fe415f1bcdcc57e7cfbb9ed99b521
 
 ---
 
@@ -44,6 +44,10 @@ De documentatie over herpogingen na een levering tijdelijke mislukking is bijgew
 Het verwijderen van een gedeelte Transactiebericht is verbeterd en verduidelijkt. [Meer informatie](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
 De sectie **Voorvertoning van leveringen** is bijgewerkt met voorbeelden van mobiele leveringen.[Meer informatie](../../sending/using/previewing-messages.md)
+
+De beste praktijken zijn toegevoegd betreffende transactieoverseinen en de schrapping van ongebruikte gebeurtenissen in real time. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
+
+De sectie Het e-mailkanaal configureren is bijgewerkt met uitleg over alle e-mailinstellingen die nu worden beheerd door de uitgebreide MTA voor Adobe Campagne. [Meer informatie](../../administration/using/configuring-email-channel.md)
 
 ## Release 20.2 - april 2020 {#release-20-2---april-2020}
 
@@ -293,7 +297,7 @@ De contextafhankelijke Help-koppelingen die rechtstreeks beschikbaar zijn in Ado
 
 De volgende [pagina](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) wordt de officiële pagina Video&#39;s voor de Standaard van de Campagne van Adobe.
 
-Er is een sectie toegevoegd over gegevensbewaring, inclusief de standaardwaarden voor het bewaren van gegevens voor standaardtabellen. [Meer informatie](../../administration/using/data-retention.md)
+Er is een sectie toegevoegd over gegevensbewaring, inclusief de standaardwaarden voor gegevensbehoud voor standaardtabellen. [Meer informatie](../../administration/using/data-retention.md)
 
 Een sectie toegevoegd over updates en onderhoudsbewerkingen. [Meer informatie](../../administration/using/updates-and-maintenance-operations.md)
 
