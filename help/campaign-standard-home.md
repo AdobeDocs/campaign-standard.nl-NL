@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campagne Standard - productdocumentatie
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
+source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
 
 ---
 
@@ -47,12 +47,11 @@ source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
     <em>Leer hoe u responsieve en persoonlijke e-mailberichten</em>maakt met de e-mailontwerper <br>
   </td>
   <td valign="top">
-       <img alt="Ontwikkelaars" src="start/using/assets/dev.png" />
-    <div>
-    <strong>Bronnen voor ontwikkelaars</strong>
+       <img alt="Ondersteuning" src="start/using/assets/do-not-localize/help.jpeg" />
+    <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
+    Ondersteuning <strong>ophalen</strong></a>
     </div>
-    <p><em><a href="api/using/about-campaign-standard-apis.md">Adobe Campagne-API</a></em></p>
-    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud-triggers</a></em></p>
+    <p><em>Open veelgestelde vragen, best practices, Help-bronnen en maak verbinding met campagnedeskundigen.</em></p>
     <br>
   </td>
 </tr>
@@ -62,9 +61,9 @@ source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
 
 | Nuttige pagina&#39;s | Bronnen voor ontwikkelaars |
 |---|---|
-| [Opmerkingen bij de release](rn/using/release-notes.md) | [Implementatiehandleiding](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |
+| [Opmerkingen bij de release](rn/using/release-notes.md) | [Experience Cloud-triggers](integrating/using/about-adobe-experience-cloud-triggers.md) |
 | [Documentatie van het regelpaneel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Campagne-API&#39;s](api/using/about-campaign-standard-apis.md) |
-| [Hoe kan ik-video&#39;s](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) | [Lijst met foutberichten](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [Implementatiehandleiding](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) | [Lijst met foutberichten](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Release-planning](rn/using/release-planning.md) | [Campagne gegevensmodel](developing/using/datamodel-introduction.md) |
 | [Verouderde en verwijderde functies](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Hulplijn voor meerdere oplossingen](integrating/using/about-campaign-integrations.md) |
 | [Aan de slag met de standaard voor campagnes](start/using/campaign-orchestration.md) | [Technische noten](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
