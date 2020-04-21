@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: fa80fefc1c897afb8448fc0121705102091ecf5c
 
 ---
 
@@ -21,9 +21,9 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 De toegang tot de API voor Adobe Campagne Standard wordt ingesteld via de onderstaande stappen. Elk van deze stappen wordt beschreven in de documentatie [van](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)Adobe IO.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Als u certificaten wilt beheren in Adobe IO, moet u ervoor zorgen dat u <b>Systeembeheerdersrechten</b> hebt voor de organisatie of een <a href="https://helpx.adobe.com/enterprise/using/manage-developers.html">ontwikkelaarsaccount</a> in de beheerconsole.
+>Als u certificaten wilt beheren in Adobe IO, moet u ervoor zorgen dat u <b>Systeembeheerdersrechten</b> hebt voor de organisatie of een [ontwikkelaarsaccount](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a> in de beheerconsole.
 
 1. **Controleer of u een digitaal certificaat** hebt of maak er zo nodig een. De openbare en persoonlijke sleutels die van het certificaat worden voorzien zijn vereist in de volgende stappen.
 1. **Maak een nieuwe integratie met de Adobe Campagne Service** in Adobe IO en configureer deze. Uw referenties worden vervolgens gegenereerd (API-sleutel, clientgeheim...).
