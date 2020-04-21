@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
+source-git-commit: c1287a360cdd1750996b47a27b85a11e90b29df0
 
 ---
 
@@ -25,7 +25,9 @@ Wanneer een levering niet naar een profiel kan worden verzonden, verzendt de ext
 
 >[!NOTE]
 >
->**E-mailfoutberichten** (of &#39;bounces&#39;) worden gekwalificeerd door de Enhanced MTA (synchrone stuitingen) of door het inMail-proces (asynchrone stuitingen). **SMS** -foutberichten (of &quot;SR&quot; voor &quot;Statusrapport&quot;) worden gekwalificeerd door het MTA-proces.
+>**E-mailfoutberichten** (of &#39;bounces&#39;) worden gekwalificeerd door de Enhanced MTA (synchrone stuitingen) of door het inMail-proces (asynchrone stuitingen).
+>
+>**SMS** -foutberichten (of &quot;SR&quot; voor &quot;Statusrapport&quot;) worden gekwalificeerd door het MTA-proces.
 
 Berichten kunnen ook tijdens de voorbereiding van de levering worden uitgesloten als een adres in quarantaine is geplaatst of als een profiel op een zwarte lijst staat. Uitgesloten berichten worden vermeld op het **[!UICONTROL Exclusion logs]** tabblad van het leveringsdashboard (zie [deze sectie](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
@@ -80,13 +82,13 @@ De mogelijke oorzaken van een mislukking van de levering zijn:
 
 Als een bericht wegens een tijdelijke fout van het **genegeerde** type ontbreekt, zullen de pogingen tijdens de leveringsduur opnieuw worden uitgevoerd. Voor meer over de types van fouten, zie de types en de redenen [van de mislukking van de](#delivery-failure-types-and-reasons)Levering.
 
-Nadat de upgrade naar de [Adobe Campagne Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)is uitgevoerd, worden de instellingen voor **Opnieuw proberen** in Campagne genegeerd. Het aantal pogingen (hoeveel pogingen zouden moeten worden uitgevoerd de dag nadat verzenden is begonnen) en de minimumvertraging tussen pogingen worden beheerd door Verbeterde MTA, gebaseerd op hoe goed IP zowel historisch als momenteel bij een bepaald domein uitvoert.
+Het aantal pogingen (hoeveel pogingen zouden moeten worden uitgevoerd de dag nadat het verzenden is begonnen) en de minimumvertraging tussen pogingen worden nu beheerd door Verbeterde MTA van de Campagne van Adobe, die op hoe goed wordt gebaseerd IP zowel historisch als momenteel bij een bepaald domein presteert. De instellingen voor **Opnieuw** proberen in Campagne worden genegeerd.
 
 Om de duur van een levering te wijzigen, ga naar de geavanceerde parameters van het levering of leveringsmalplaatje, en geef het **[!UICONTROL Delivery duration]** gebied van de sectie van de [Geldigheidsperiode](../../administration/using/configuring-email-channel.md#validity-period-parameters) uit.
 
 >[!IMPORTANT]
 >
->Zodra de upgrade naar de [Adobe Campagne Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)is uitgevoerd, wordt de **[!UICONTROL Delivery duration]** parameter in uw campagneleveringen alleen gebruikt als deze op 3,5 dagen of minder is ingesteld. Als u een waarde definieert die hoger is dan 3,5 dagen, wordt hiermee geen rekening gehouden.
+>**De **[!UICONTROL Delivery duration]**parameter in uw campagneleveringen wordt nu alleen gebruikt als deze is ingesteld op 3,5 dagen of minder.** Als u een waarde definieert die hoger is dan 3,5 dagen, wordt er geen rekening mee gehouden omdat deze waarde nu wordt beheerd door de verbeterde MTA voor Adobe Campagne.
 
 Bijvoorbeeld, als u herpogingen voor een levering na één dag wilt ophouden, kunt u de leveringsduur aan **1d** plaatsen, en Verbeterde MTA zal dat het plaatsen door berichten in de herprobeer rij na één dag te verwijderen respecteren.
 
@@ -105,19 +107,13 @@ Een levering kan onmiddellijk (synchrone fout), of later op ontbreken, nadat het
 
 ## Bounce mail-kwalificatie {#bounce-mail-qualification}
 
-<!--Delivery failure error messages (or "SMTP bounce responses") are picked up by the Adobe Campaign platform and then processed and qualified as **Hard**, **Soft**, or **Ignored** using the **[!UICONTROL Delivery log qualification]** database.
-
-//Delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.(applies to asynchronous (out-of-band) bounces)
-
-This list is available to administrators only and contains all the rules used by Adobe Campaign to qualify delivery failures.-->
-
->[!IMPORTANT]
->
->Zodra bijgewerkt naar de verbeterde MTA, worden de stuiterende kwalificaties in de **[!UICONTROL Message qualification]** lijst van de Campagne niet meer gebruikt.
-
-Voor de synchrone foutenmeldingen van de leveringsmislukking, bepaalt Verbeterde MTA het stuittype en de kwalificatie, en stuurt die informatie terug naar Campagne. Raadpleeg dit [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)voor meer informatie over de verbeterde MTA voor Adobe-campagne.
+Voor de synchrone foutenmeldingen van de leveringsmislukking, bepaalt Verbeterde MTA het stuittype en de kwalificatie, en stuurt die informatie terug naar Campagne.
 
 De asynchrone stuitingen worden nog gekwalificeerd door het inMail proces door de **[!UICONTROL Inbound email]** regels. U opent deze regels door te klikken op het **[!UICONTROL Adobe Campaign]** logo, linksboven, vervolgens te selecteren **[!UICONTROL Administration > Channels > Email > Email processing rules]** en te selecteren **[!UICONTROL Bounce mails]**. Raadpleeg deze [sectie](../../administration/using/configuring-email-channel.md#email-processing-rules)voor meer informatie over deze regel.
+
+>[!NOTE]
+>
+>De kwalificatie voor stuiterende e-mail wordt nu beheerd door de uitgebreide MTA van de Campagne van Adobe. De stuiterende kwalificaties in de **[!UICONTROL Message qualification]** tabel Campagne worden niet meer gebruikt.
 
 <!--Bounces can have the following qualification statuses:
 
