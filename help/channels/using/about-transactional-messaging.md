@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
 
 ---
 
@@ -48,7 +48,7 @@ Transactieberichten zijn ook beschikbaar via de Adobe Campagne Standard API. Raa
 
 >[!IMPORTANT]
 >
->Zodra bijgewerkt naar de [verbeterde MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html), worden alle transactionele berichten verzonden met de Verbeterde MTA van de Campagne van Adobe voor betere leverability, productie, en stuiterende behandeling. Alle effecten zijn gelijk aan die voor standaardmarketingberichten en worden beschreven in het document [Adobe Campagne Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) .
+>Alle transactieberichten worden nu verzonden met de verbeterde MTA van de Campagne van Adobe voor betere leverability, productie, en stuiterende behandeling. Alle effecten zijn hetzelfde als bij standaardmarketingberichten.
 
 ## Operationeel beginsel van het transactieverkeer {#transactional-messaging-operating-principle}
 
