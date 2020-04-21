@@ -12,7 +12,7 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
+source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
 
 ---
 
@@ -40,7 +40,7 @@ Als deze optie eenmaal is ingeschakeld, moet u de e-mail BCC activeren via de **
 
 >[!NOTE]
 >
->De gearchiveerde e-mails kunnen momenteel niet worden verzonden met de verbeterde MTA [voor](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)Adobe-campagne, zelfs niet als u al bent bijgewerkt naar de verbeterde MTA.
+>De gearchiveerde e-mails kunnen momenteel niet worden verzonden met de verbeterde MTA voor Adobe Campagne, zelfs niet als u al bent bijgewerkt naar de verbeterde MTA.
 
 ## E-mailarchivering activeren {#activating-email-archiving}
 
