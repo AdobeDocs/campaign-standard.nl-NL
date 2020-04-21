@@ -13,7 +13,7 @@ context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;progra
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
+source-git-commit: 32cb3c8039e813143d45276958001b79e54c173c
 
 ---
 
@@ -27,8 +27,6 @@ Dit rapport bevat gegevens met betrekking tot de leveringsproductie van een verz
 
 ![](assets/delivery_reports_1.png)
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Zodra bijgewerkt aan Verbeterde MTA, toont de **[!UICONTROL Delivery throughput]** pagina niet meer de productie aan uw e-mailontvangers. Het toont de productiesnelheid voor het relais van uw berichten van Campagne over aan Verbeterde MTA.
->
->Raadpleeg dit [document](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)voor meer informatie over de verbeterde MTA voor Adobe-campagne.
+>De **[!UICONTROL Delivery throughput]** pagina toont de productiesnelheid voor het doorgeven van uw berichten van Campagne over aan de Campagne van Adobe Verbeterde MTA.
