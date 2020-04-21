@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34f4bbf7b7913cfb1833379c963b590961f7de73
+source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 ---
 
@@ -30,6 +30,10 @@ Zodra de gebeurtenis wordt gepubliceerd, wordt het overeenkomstige transactiemel
 ## Een gebeurtenis maken {#creating-an-event}
 
 Begin door de gebeurtenis te creëren die aan uw behoeften beantwoordt.
+
+>[!NOTE]
+>
+>Het aantal gemaakte realtime-gebeurtenissen kan van invloed zijn op uw platform. Voor optimale prestaties moet u realtime gebeurtenissen verwijderen die u niet meer nodig hebt. Zie Een gebeurtenis [verwijderen](../../administration/using/configuring-transactional-messaging.md#deleting-an-event).
 
 1. Klik in de linkerbovenhoek op het **[!UICONTROL Adobe Campaign]** logo en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Klik op de **[!UICONTROL Create]** knop.
@@ -95,7 +99,7 @@ Hier volgt de API-voorvertoning voor dit voorbeeld:
 
 Door de inhoud van transactiemeldingen te verrijken met informatie uit de Adobe Campagne-database, kunt u uw berichten personaliseren. Van achternaam of identiteitskaart van CRM van elk van uw ontvangers, bijvoorbeeld, kunt u gegevens zoals hun adres of geboortedatum of een ander douanegebied terugkrijgen dat in de lijst van het Profiel wordt toegevoegd, om de informatie te personaliseren die naar hen wordt verzonden.
 
-Het is mogelijk om de inhoud van het transactiebericht met informatie van uitgebreide **[!UICONTROL Profile]** of **[!UICONTROL Service]** middelen te verrijken.
+Het is mogelijk om de inhoud van het transactiebericht te verrijken met informatie van uitgebreid **[!UICONTROL Profile and services Ext API]**. Zie API [uitbreiden voor meer informatie: De extensie publiceren](../../developing/using/step-2--publish-the-extension.md)
 
 Deze informatie kan ook in nieuwe middelen worden opgeslagen. In dat geval moet de bron rechtstreeks of via een andere tabel worden gekoppeld aan de **[!UICONTROL Profile]** of de **[!UICONTROL Service]** bronnen. Bijvoorbeeld, in de configuratie hieronder, is het mogelijk om de transactionele berichtinhoud met informatie van het **[!UICONTROL Product]** middel zoals de productcategorie of identiteitskaart te verrijken, als het middel met het **[!UICONTROL Product]** **[!UICONTROL Profile]** middel verbonden is.
 
