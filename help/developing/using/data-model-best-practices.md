@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34a58e0ec028feacf928f9048378c3255a04a33d
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -27,7 +27,7 @@ In dit document worden belangrijke aanbevelingen beschreven tijdens het ontwerpe
 >
 >Raadpleeg [deze sectie](../../developing/using/key-steps-to-add-a-resource.md)als u bronnen wilt maken en wijzigen om het vooraf gedefinieerde gegevensmodel van de Adobe-campagne uit te breiden.
 >
->U kunt een vertegenwoordiging van het gegevensmodel van de uit-van-de-doos middelen [hier](../../developing/using/datamodel-introduction.md)vinden.
+>U vindt een representatie van de ingebouwde bronnen in [deze pagina](../../developing/using/datamodel-introduction.md)in het gegevensmodel.
 
 ## Overzicht {#overview}
 
