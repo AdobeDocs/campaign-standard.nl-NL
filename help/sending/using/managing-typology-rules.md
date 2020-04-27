@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c5b1882e143924f94530c166b6af61a1bce30d72
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -40,23 +40,23 @@ Afhankelijk van uw behoeften kunt u bestaande typologische regels wijzigen of ni
 
 De belangrijkste stappen om een typologieregel tot stand te brengen zijn als volgt:
 
-1. Open het menu **[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Typologies]** / **[!UICONTROL Typology rules]** en klik vervolgens op **[!UICONTROL Create]**.
+1. Open het menu / **[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Typologies]** / **[!UICONTROL Typology rules]** en klik op **[!UICONTROL Create]**.
 
-![](assets/typology_create-rule.png)
+   ![](assets/typology_create-rule.png)
 
 1. Voer de typologie in **[!UICONTROL Label]** en geef op **[!UICONTROL Channel]** op welke regel u wilt toepassen.
 
-![](assets/typology-rule-label.png)
+   ![](assets/typology-rule-label.png)
 
 1. Geef de typologieregel op **[!UICONTROL Type]** en configureer deze op basis van uw behoeften. De configuratie van typologische regels is afhankelijk van het type. Raadpleeg de secties **[Filterregels](../../sending/using/filtering-rules.md)**en**[ Vermoeidheidsregels](../../sending/using/fatigue-rules.md)** voor meer informatie.
 
 1. Selecteer de typologieën waarin u de nieuwe regel wilt omvatten. U doet dit door het **[!UICONTROL Typologies]** tabblad te selecteren en vervolgens op de **[!UICONTROL Create element]** knop te klikken.
 
-![](assets/typology-typologies-tab.png)
+   ![](assets/typology-typologies-tab.png)
 
 1. Selecteer de gewenste typologie en klik op **[!UICONTROL Confirm]**.
 
-![](assets/typology-link.png)
+   ![](assets/typology-link.png)
 
 1. Wanneer alle typologieën zijn geselecteerd, klikt u **[!UICONTROL Create]** om het maken van de typologieregel te bevestigen.
 
