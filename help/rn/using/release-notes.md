@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 86302762a46a814ecc9b14a5fe1bfe1a4a4e0437
+source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 
 ---
 
@@ -70,6 +70,9 @@ source-git-commit: 86302762a46a814ecc9b14a5fe1bfe1a4a4e0437
 
 * Het aantal tekens dat in het veld **Voorvoegsel** kan worden gebruikt om berichten te [testen met behulp van doelprofielen](../../sending/using/testing-messages-using-target.md) , is verhoogd van 32 naar 500 tekens.
 * Het maximumaantal real-time gebeurtenissen dat op een instantie kan worden gepubliceerd, is verhoogd van 350 tot 2000. (CAMP-41608)
+* De synchronisatie tussen Adobe Launch en Campaign Standard is verbeterd dankzij de technische workflow SyncWithLaunch. Met deze workflow kunt u alle mobiele eigenschappen van Adobe Launch automatisch importeren in Adobe Campagne Standard. Raadpleeg [deze pagina](../../administration/using/technical-workflows.md)voor meer informatie.
+
+   U moet een ticket naar de klantenservice van Adobe verzenden (rechtstreeks of via uw Adobe-contactpersoon) om de technische workflow voor syncWithLaunch in uw Campagne-instantie te activeren. (CAMP-40082)
 
 **Verbeteringen voor e-mailontwerper**
 
