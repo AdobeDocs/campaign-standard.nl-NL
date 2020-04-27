@@ -13,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 8c24e048c698f7ad699e83a753c114fcfd25f6a0
 
 ---
 
@@ -38,15 +38,12 @@ Invoervelden worden gebruikt om gegevens op te slaan of bij te werken in de Camp
 
    ![](assets/editing_lp_content_4.png)
 
-1. Kies een databaseveld dat u wilt koppelen aan het formulierveld in de **[!UICONTROL Field]** selectiezone.
+1. Kies een databaseveld dat u wilt koppelen aan het formulierveld in de **[!UICONTROL Field]** selectiezone. Openingspagina&#39;s kunnen alleen worden toegewezen met **profielen**.
 
-   Als de **[!UICONTROL Mandatory]** optie is ingeschakeld, kan de pagina alleen worden verzonden als de gebruiker dit veld heeft voltooid. Als een verplicht veld niet wordt ingevuld, wordt een foutbericht weergegeven wanneer de gebruiker de pagina valideert.
-
-   >[!NOTE]
-   >
-   >Openingspagina&#39;s kunnen alleen worden toegewezen met **profielen**.
+1. Schakel indien nodig de **[!UICONTROL Mandatory]** optie in. De pagina kan alleen worden verzonden als de gebruiker dit veld heeft ingevuld. Als een verplicht veld niet wordt ingevuld, wordt een foutbericht weergegeven wanneer de gebruiker de pagina valideert.
 
 1. Definieer het veldtype door bijvoorbeeld **[!UICONTROL Text]** of in **[!UICONTROL Number]** het **[!UICONTROL Date]** **[!UICONTROL HTML type of the field]** selectiegebied te kiezen.
+Als u een verplichte optie kiest, moet u controleren of deze van het **[!UICONTROL Checkbox]****[!UICONTROL Field]** type is.
 
 >[!NOTE]
 >
