@@ -12,7 +12,7 @@ discoiquuid: 2ea51543-fe4d-462b-b47e-9ccaa1d68dfa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -36,5 +36,5 @@ Er is ook een integratie beschikbaar tussen de belangrijkste **servicetriggers**
 
 * [Campagnedimensies en meetgegevens in Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 * [Rapportage](../../reporting/using/about-dynamic-reports.md)
-* [Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/reference/adobe-campaign.html) -documentatie
+* [Adobe Analytics-documentatie](https://marketing.adobe.com/resources/help/en_US/reference/adobe-campaign.html)
 
