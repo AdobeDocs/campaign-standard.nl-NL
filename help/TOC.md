@@ -4,7 +4,7 @@ sub-product: Adobe-campagnestandaard
 audience: end-user
 user-guide-title: Help bij Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
+source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
 
 ---
 
@@ -96,6 +96,9 @@ source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
       + [Meertalige pushmeldingen maken](channels/using/creating-a-multilingual-push-notification.md)
       + [Een CSV-bestand genereren voor Meertalig pushbericht](channels/using/generating-csv-multilingual-push.md)
       + [Profielgegevens maken en bijwerken op basis van gegevens van mobiele toepassingen](channels/using/updating-profile-with-mobile-app-data.md)
+      + [Push tracking implementeren](channels/using/push-tracking.md)
+      + [Een afbeelding weergeven op basis van een pushmelding in Adobe Campagne Standard](channels/using/image-push-notification.md)
+      + [Werken met de standaardstructuur voor pushberichten](channels/using/push-payload.md)
    + Messaging in de app {#in-app-messaging}
       + [Info over In-App-berichten](channels/using/about-in-app-messaging.md)
       + [Een bericht in de app voorbereiden en verzenden](channels/using/preparing-and-sending-an-in-app-message.md)
