@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5476cc6a93aac9805a3b471923bfffa8043a876
+source-git-commit: b44e4e7e6b48ebc5c618b014eacfc9909bc2661e
 
 ---
 
@@ -69,6 +69,10 @@ Als u doelprofielen wilt gebruiken voor tests, moet u deze eerst selecteren en v
 
    Als u een specifiek voorvoegsel wilt toevoegen aan de onderwerpregel van de proefdrukken, vult u het **[!UICONTROL Subject line prefix]** veld in.
 
+   >[!NOTE]
+   >
+   >Het voorvoegsel van de onderwerpregel kan maximaal 500 tekens bevatten.
+
    ![](assets/substitution_address.png)
 
    Het voorvoegsel wordt als volgt weergegeven:
@@ -116,6 +120,10 @@ Voer de volgende stappen uit om profielen te importeren die u wilt gebruiken voo
    ![](assets/substitution_audience_import.png)
 
 1. Selecteer het publiek dat u wilt gebruiken en voer vervolgens het vervangende adres en het voorvoegsel in dat u wilt gebruiken voor de proefdrukken die naar het publiek worden verzonden.
+
+   >[!NOTE]
+   >
+   >Het voorvoegsel van de onderwerpregel kan maximaal 500 tekens bevatten.
 
    ![](assets/substitution_audience_define.png)
 
