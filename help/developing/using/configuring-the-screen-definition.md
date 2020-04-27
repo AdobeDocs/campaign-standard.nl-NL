@@ -13,7 +13,7 @@ context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -53,7 +53,7 @@ In het **[!UICONTROL List configuration]** gedeelte van de schermdefinitie kunt 
 
 1. Controleer in de **[!UICONTROL Simple search]** sectie welke velden worden opgenomen in de zoekopdracht **[!UICONTROL Specify the fields to be taken into account in the search]** om te definiëren.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Deze configuratie vervangt de gebieden die in het standaardonderzoek worden gebruikt.
 
@@ -103,4 +103,3 @@ Deze montages staan u toe om een controlebar in het scherm van het douanemiddel 
 
 * **[!UICONTROL Authorize duplicating]**: met deze optie kunt u dubbele records activeren die zijn gekoppeld aan de aangepaste bron.
 * **[!UICONTROL Authorize deleting]**: met deze optie kunt u verwijderingsrecords activeren die zijn gekoppeld aan de aangepaste bron.
-
