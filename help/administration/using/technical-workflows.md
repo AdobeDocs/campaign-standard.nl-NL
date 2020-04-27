@@ -12,7 +12,7 @@ discoiquuid: e9f147bd-6a5b-4b82-b9bb-311e38e22c62
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 
 ---
 
@@ -97,6 +97,12 @@ Technische workflows worden gebruikt om door uzelf geactiveerde achtergrond- en 
    <td> <span class="uicontrol">kpiSharing</span><br /> </td> 
    <td> Met deze workflow worden om de 15 minuten KPI-gegevens opgehaald van Adobe Campaign Standard naar Adobe Analytics.<br /> </td> 
   </tr> 
+    </tr> 
+   <tr> 
+   <td> <span class="uicontrol">Synchroniseren met starten</span><br /> </td> 
+   <td> <span class="uicontrol">SyncWithLaunch</span><br /> </td> 
+   <td> Deze workflow synchroniseert de Adobe Launch mobile-eigenschappen die zijn geïmporteerd in Adobe Campagne Standard. Het wordt elke 15 minuten gestart.<br /> </td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">Uitvoering</span> van levering bijwerken <br /> </td> 
    <td> <span class="uicontrol">updateDeliveryExecInfo</span><br /> </td> 
