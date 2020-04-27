@@ -13,7 +13,7 @@ context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
@@ -43,7 +43,7 @@ In de specifieke context van een A/B-test:
 
    >[!NOTE]
    >
-   >Follow-up en A/B-testsjablonen zijn standaard verborgen. Schakel het testvak A/B links ( **[!UICONTROL Filter]** zijpaneel) in om deze weer te geven.
+   >Follow-up en A/B-testsjablonen zijn standaard verborgen. Schakel het testvak A/B links (**[!UICONTROL Filter]** zijpaneel) in om deze weer te geven.
 
 1. Definieer de algemene eigenschappen en het doelpubliek van de e-mail, net als voor een standaard-e-mail. Raadpleeg de sectie [Soorten publiek](../../audiences/using/creating-audiences.md) maken.
 1. Bij de vierde stap van de aanmaakwizard definieert u de testparameters A/B:
@@ -71,7 +71,7 @@ In de specifieke context van een A/B-test:
 1. Controleer voordat u de A/B-test verzendt uw e-mail door proefdrukken te verzenden.
 1. Zodra de bereiding is voltooid, bevestigt u de verzending van de test. Na bevestiging kunnen de parameters van de A/B-test niet worden gewijzigd.
 
-   De A/B-test begint op de datum die is gedefinieerd in de **[!UICONTROL Schedule]**.U kunt de voortgang volgen met de **[!UICONTROL A/B test]** en **[!UICONTROL Deployment]** blokken.
+   De A/B-test begint op de in de **[!UICONTROL Schedule]** bijlage aangegeven datum. U kunt de voortgang volgen met behulp van de blokken **[!UICONTROL A/B test]** en **[!UICONTROL Deployment]** blokken.
 
    U kunt de winnende variant op elk gewenst moment handmatig selecteren als u de testduur kort wilt houden.
 
