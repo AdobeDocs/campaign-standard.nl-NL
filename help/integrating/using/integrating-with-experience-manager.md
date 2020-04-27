@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5c1a540475b7d93c18c957243ee2a403b8154aa3
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -41,25 +41,26 @@ Adobe Campaign Standard is compatibel met Adobe Experience Manager 6.1, 6.2, 6.3
 
    Wanneer u de ExternalAlizer configureert terwijl u Experience Manager implementeert voor Adobe Campaign Standard, kunt u een bronnenpad omzetten in een URL. Hierdoor kunt u uw afbeeldingen zichtbaar maken op de pagina. Als de ExternalAlizer niet correct is geconfigureerd, bevatten uw e-mails beschadigde afbeeldingen.
 
-   Meer informatie over het configureren van de Externalzer vindt u in deze [pagina](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/externalizer.html)
+   Leren hoe te om Externalzer te vormen, verwijs naar deze [pagina](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/externalizer.html).
 
 * **Organiseer uw e-mailsjablonen om misbruik te voorkomen.**
 
    Door sjablonen te organiseren zorgt u ervoor dat de juiste sjablonen zich in de juiste mappen bevinden en dat de verkeerde sjablonen niet per ongeluk worden gekozen. Tijdens implementatie, zouden de wegen moeten worden gecreeerd om malplaatjes in de juiste plaatsen op te slaan.
 
-   Raadpleeg deze [pagina voor meer informatie over sjablonen](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html#template-availability)
+   Raadpleeg deze [pagina](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html#template-availability)voor meer informatie over sjablonen.
 
 * **Ga snel aan de slag met onderdelen die niet meer in de verpakking staan.**
 
    Componenten die niet in de handel zijn in Adobe Experience Manager voor Adobe Campaign Standard kunnen u helpen snel aan de slag te gaan als uw sjablonen niet complex zijn.
 Er zijn zeven out-of-the-box componenten in de Manager van de Ervaring die u kunt beginnen te gebruiken:
-   1. Kop
-   1. Afbeelding
-   1. Koppeling
-   1. Scene7-afbeeldingssjabloon
-   1. Gerichte referentie
-   1. Tekst en afbeelding
-   1. Tekst en personalisatie
+
+   * Kop
+   * Afbeelding
+   * Koppeling
+   * Scene7-afbeeldingssjabloon
+   * Gerichte referentie
+   * Tekst en afbeelding
+   * Tekst en personalisatie
 
 * **HTML voor e-mails is anders dan HTML voor het web**
 
