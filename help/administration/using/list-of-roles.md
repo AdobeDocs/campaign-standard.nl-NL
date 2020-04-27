@@ -13,7 +13,7 @@ context-tags: role,overview;role,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 88d0f67683c5209ccf25d1ceae1ab23b3ac14e06
+source-git-commit: 18db1b8cade7d88294ef2609dd4fad95c55fbd37
 
 ---
 
@@ -34,15 +34,10 @@ Standaardrechten zijn:
 
 * **[!UICONTROL Administration]**: Algemeen bestuursrecht.
 * **[!UICONTROL Datamodel]**: Recht om publicaties te leiden en douanemiddelen tot stand te brengen.
-* **[!UICONTROL Export]**: Recht op het exporteren van gegevens.
 * **[!UICONTROL Generic import]**: Recht om generische invoer op gegevens in werking te stellen. Dit werkt alleen als u de **[!UICONTROL Generic import]** rol aan de **[!UICONTROL Workflow]** rol koppelt.
 * **[!UICONTROL Prepare deliveries]**: Recht om leveringen te maken, te wijzigen, voor te bereiden en te verwijderen. Gebruikers met deze rol kunnen de levering voorbereiden, maar niet verzenden.
 * **[!UICONTROL Start deliveries]**: Recht om leveringen te maken, te wijzigen, voor te bereiden, te verzenden en te verwijderen.
 * **[!UICONTROL Workflow]**: Recht om de uitvoering van workflows te beheren (starten, stoppen, pauzeren, enz.). Gebruikers met deze rol kunnen zelfs in een workflow geen levering verzenden.
-
->[!IMPORTANT]
->
->De rollen **[!UICONTROL Deliverability]**, **[!UICONTROL Command execution]**, **[!UICONTROL Export]**, **[!UICONTROL File access]** en **[!UICONTROL Message Center push]** zijn alleen voor intern gebruik door Adobe-beheerders. Ze mogen niet aan een gebruiker worden verleend.
 
 **Verwante onderwerpen:**
 
