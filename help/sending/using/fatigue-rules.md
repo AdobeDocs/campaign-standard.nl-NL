@@ -12,7 +12,7 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: bebe6df66c9a87db882d03b36c72ebdae3085245
 
 ---
 
@@ -32,8 +32,8 @@ Als u vermoeidheidsregels wilt toepassen, definieert u een maximumaantal bericht
 Verwante onderwerpen:
 
 * [Voorbereiding](../../administration/using/configuring-email-channel.md#preparation)
-* [Typologieën beheren](../../sending/using/about-typology-rules.md#managing-typologies)
-* [Typologieregels](../../sending/using/about-typology-rules.md#typology-rules)
+* [Typologieën beheren](../../sending/using/managing-typologies.md)
+* [Typologieregels](../../sending/using/managing-typology-rules.md)
 * [De communicatiefrequentie optimaliseren om vermoeidheid bij contact te voorkomen](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## Een vermoeidheidsregel maken {#creating-a-fatigue-rule}
@@ -235,7 +235,7 @@ Er zijn veel mogelijkheden op het gebied van de uitvoering van vermoeidheidsbehe
 
    ![](assets/fatigue24.png)
 
-* Maak een vermoeidheidsregel met behulp van een **formule** voor drempelberekening:
+* Maak een vermoeidheidsregel met een berekeningsformule **voor** drempelwaarden:
 
    U wilt de drempelwaarde wijzigen op basis van de leeftijd van uw profielen. Als een profiel kleiner is dan 40, wilt u een limiet van 4 definiëren en een limiet van 2 voor oudere profielen. In plaats van deze drempel voor elk profiel met een uitgebreid veld te definiëren, kunt u rechtstreeks in de vermoeidheidsregel een formule maken om de drempel op basis van de leeftijd van het profiel te berekenen. In ons voorbeeld zou de formule zijn **[!UICONTROL Iif (@age<40, 4, 2)]**.
 
