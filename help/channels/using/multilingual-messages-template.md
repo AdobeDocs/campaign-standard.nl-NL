@@ -12,14 +12,14 @@ discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
 
 # Sjablonen voor meertalige berichten {#multilingual-messages-template}
 
-Een meertalige sjabloon is een specifieke sjabloon voor het beheren van meertalige berichten. Dit soort sjabloon is beschikbaar voor ****E-mail** - en **SMS-berichten** en kan worden gebruikt in zelfstandige modus, in een workflow of in een terugkerende levering.
+Een meertalige sjabloon is een specifieke sjabloon voor het beheren van meertalige berichten. Dit soort sjabloon is beschikbaar voor **e-mail** - en **sms-berichten** en kan worden gebruikt in de zelfstandige modus, in een workflow of in een terugkerende levering.
 
 In de meertalige eigenschapmalplaatjes, is het taalbeheer gebaseerd op varianten. **Elke variant vertegenwoordigt één taal**. Adobe Campaign Standard kan maximaal 40 varianten instellen.
 
