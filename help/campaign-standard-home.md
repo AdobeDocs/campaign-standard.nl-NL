@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campagne Standard - productdocumentatie
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -15,11 +15,11 @@ source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
 
 ## Nieuwe functies
 
-* **[Testen via e-mail met doelprofielen](sending/using/testing-messages-using-target.md)**<br/>Leer hoe u e-mailberichten kunt testen op echte doelprofielen.
+* **[Testen via e-mail met doelprofielen](sending/using/testing-messages-using-target.md)**<br/>Leer hoe u e-mailberichten kunt testen op echte doelprofielen
 
-* **[Privacybeheer](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/> Meer informatie over de hulpmiddelen van Adobe Campagne om u te helpen bij het naleven van uw privacy-regels.
+* **[Privacybeheer](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/> Meer informatie over de tools die Adobe Campaign biedt om u te helpen aan uw privacyvereisten te voldoen
 
-* **[Campagne Standaard mobiele gids](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/> Meer informatie over algemene richtlijnen voor mobiele leveringen.
+* **[Campagne Standaard mobiele gids](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/> Meer informatie over algemene richtlijnen voor mobiele leveringen
 
 [Klik hier voor meer updates](rn/using/documentation-updates.md)
 
@@ -34,8 +34,7 @@ source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
     <div>
     <a href="administration/using/about-access-management.md"><strong>Rollen en veiligheidsgroepen</strong></a>
     </div>
-    <em>Leer hoe u machtigingen definieert en rollen toewijst aan Campagnegebruikers.</em>
-    <br>
+    <em>Leer hoe te om toestemmingen te bepalen en rollen toe te wijzen aan de gebruikers</em>van de Campagne <br>
   </td>
   <td valign="top">
     <a href="designing/using/designing-content-in-adobe-campaign.md">
@@ -51,7 +50,7 @@ source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
     <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
     Ondersteuning <strong>ophalen</strong></a>
     </div>
-    <p><em>Open veelgestelde vragen, best practices, Help-bronnen en maak verbinding met campagnedeskundigen.</em></p>
+    <p><em>Toegang tot veelgestelde vragen, best practices, Help-bronnen en contact met de experts</em></p>
     <br>
   </td>
 </tr>
