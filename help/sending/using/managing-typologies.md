@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -44,7 +44,7 @@ Voer de volgende stappen uit om een nieuwe typologie te maken:
 
 1. De lijst met typologieën wordt weergegeven. Klik op de **[!UICONTROL Create]** knop.
 
-   ![](assets/typologies-list.png)
+   ![](assets/typologies-create.png)
 
 1. Definieer de typologie **[!UICONTROL Label]** en klik vervolgens op de **[!UICONTROL Add an element]** knop om de typologische regels te selecteren die u in de typologie wilt opnemen. For more on typology rules, refer to [this section](../../sending/using/managing-typology-rules.md).
 
