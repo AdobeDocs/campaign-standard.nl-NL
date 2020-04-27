@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -139,7 +139,7 @@ De volgende frequentie wordt aanbevolen voor verschillende gebruiksgevallen:
 >
 >Standaard worden SEND-marketinggebeurtenissen buiten de egress-taak gefilterd.  Als u SEND marketing gebeurtenissen in Dynamiek 365 wilt zien, moet u de filter (stap 5) van de uitgang baan in Unifi wijzigen.
 
-Er zijn twee verschillende rollen in Unifi, een eigenaargebruiker en een read-only analist gebruiker. Een eigenaargebruiker heeft de mogelijkheid om taken en schema&#39;s te wijzigen, terwijl de alleen-lezen analist dat niet doet.  Er kan slechts één eigenaargebruiker voor een bepaalde klanteninstantie zijn.  Als de klant de toegewezen persoon als eigenaargebruiker moet wijzigen, kan hij of zij een e-mail sturen naar [adobe-support@unifisoftware.com](mailto: adobe-support@unifisoftware.com) met de gewenste wijziging.
+Er zijn twee verschillende rollen in Unifi, een eigenaargebruiker en een read-only analist gebruiker. Een eigenaargebruiker heeft de mogelijkheid om taken en schema&#39;s te wijzigen, terwijl de alleen-lezen analist dat niet doet.  Er kan slechts één eigenaargebruiker voor een bepaalde klanteninstantie zijn.  Als de klant de toegewezen persoon als eigenaargebruiker moet wijzigen, kan hij of zij een e-mail sturen naar [adobe-support@unifisoftware.com](mailto:adobe-support@unifisoftware.com) met de gevraagde wijziging.
 
 In de onderstaande video&#39;s wordt een overzicht gegeven van de unieke configuratie, taakdetails, installatie en bewaking.
 
