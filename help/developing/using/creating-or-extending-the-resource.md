@@ -12,16 +12,16 @@ discoiquuid: 8dc45c37-6908-407e-8e41-4a4188cba2b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
 # De bron maken of uitbreiden{#creating-or-extending-the-resource}
 
-Beheerders kunnen een geheel nieuwe bron maken of een uitbreiding van een bestaande bron maken als u werk nodig hebt aan gegevens die geen deel uitmaken van het gegevensmodel in de box.
+Beheerders kunnen een geheel nieuwe bron maken of een uitbreiding van een bestaande bron maken als u gegevens nodig hebt die geen deel uitmaken van het ingebouwde gegevensmodel.
 
-Alleen de volgende bronnen buiten de box kunnen worden uitgebreid:
+Alleen de volgende ingebouwde bronnen kunnen worden uitgebreid:
 
 * **[!UICONTROL Campaign (campaign)]**
 * **[!UICONTROL Deliveries (delivery)]**
@@ -44,7 +44,7 @@ Een bron maken of uitbreiden:
 
       >[!NOTE]
       >
-      >We raden u aan maximaal 30 tekens te gebruiken.
+      >Gebruik maximaal 30 tekens.
 
    * **[!UICONTROL Extend an existing resource]**: Selecteer de bron die u wilt uitbreiden.
 
