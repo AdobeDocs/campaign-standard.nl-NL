@@ -13,14 +13,14 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9b632bdd9d2546b40fd00cc4ef8800dd88fa55de
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
 
 # E-mailkanaal configureren{#configuring-email-channel}
 
-Als [beheerder](../../administration/using/about-administrating-adobe-campaign.md)van de Campagne, kunt u e-mailkanaalmontages vormen. Deze geavanceerde instellingen zijn onder andere algemene parameters voor e-mailkanalen, accounts voor het routeren van e-mail, verwerkingsregels voor e-mail en e-maileigenschappen. Op deze pagina leert u hoe u de standaardwaarden voor de algemene e-mail en het verzenden van parameters kunt bewerken.
+Als [beheerder](../../administration/using/users-management.md#functional-administrators)van de Campagne, kunt u e-mailkanaalmontages vormen. Deze geavanceerde instellingen zijn onder andere algemene parameters voor e-mailkanalen, accounts voor het routeren van e-mail, verwerkingsregels voor e-mail en e-maileigenschappen. Op deze pagina leert u hoe u de standaardwaarden voor de algemene e-mail en het verzenden van parameters kunt bewerken.
 
 Sommige e-mailinstellingen worden nu beheerd door de uitgebreide MTA van Adobe Campagne. Daarom:
 * Sommige configuraties in de gebruikersinterface van de Campagne worden niet meer toegepast:
@@ -273,7 +273,7 @@ Het voorbereiden van berichten wordt gedetailleerd in de [Goedkeuring berichten]
 
    >[!NOTE]
    >
-   >Typologieën, die toegankelijk zijn via het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** , worden weergegeven in de sectie [Typologieën](../../sending/using/about-typology-rules.md) .
+   >Typologieën, die toegankelijk zijn via het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** , worden in [deze sectie](../../sending/using/about-typology-rules.md)weergegeven.
 
 * **[!UICONTROL Compute the label during delivery preparation]**: Hiermee kunt u de labelwaarde van de e-mail tijdens de voorbereidingsfase berekenen met gebruik van verpersoonlijkingsvelden, inhoudsblokken en dynamische tekst.
 
