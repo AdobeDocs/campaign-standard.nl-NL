@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
+source-git-commit: ffdbeb7031697c7b00edc658096f55df815b0f63
 
 ---
 
@@ -86,7 +86,7 @@ Bekijk de meest recente [documentatie-updates](../../rn/using/documentation-upda
 * Probleem verholpen waarbij foto&#39;s die vanaf een camera zijn geüpload en die in de staande modus zijn genomen, werden weergegeven op een ongewenste geroteerde positie.
 * Probleem verholpen waarbij onduidelijke selectiegegevens werden weergegeven wanneer de interface voor de query-editor in Creative Designer werd gebruikt.
 * Probleem verholpen waarbij een element niet correct kon worden gedupliceerd wanneer de interface voor de query-editor in Creative Designer werd gebruikt.
-* Probleem verholpen waarbij SMS-berichten werden doorgestuurd naar op de zwarte lijst geplaatste ontvangers, ook al was hun abonnement opgezegd door middel van een automatisch antwoord. (CAMP-27128)
+* Probleem verholpen waarbij SMS-berichten werden doorgestuurd naar op de zwarte lijst geplaatste ontvangers, ook al waren ze niet geabonneerd via een automatisch antwoord. (CAMP-27128)
 * Probleem verholpen waarbij de fouten die ervoor zorgden dat de workflow voor het opschonen van **databases** mislukte, niet konden worden weergegeven. (CAMP-26876)
 * Probleem verholpen waarbij het verwijderen van aangepaste velden in een definitie van een pushmelding werd voorkomen. (CAMP-25588)
 
@@ -108,7 +108,7 @@ Bekijk de meest recente [documentatie-updates](../../rn/using/documentation-upda
   </tr> 
   <tr> 
    <td> Typologisch filter voor abonnees van mobiele apps<br /> </td> 
-   <td> Ondersteuningsabonnementen in typologiefilter - Wanneer u de filtercriteria voor een typologieregel opgeeft, kunnen de abonnementen van de toepassing worden geselecteerd als de filterings- en doelafmetingen, zodat u op kenmerken kunt filteren voor gebruikers met of zonder profiel. <br /> Raadpleeg de <a href="../../sending/using/about-typology-rules.md#typology-rules">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> Ondersteuningsabonnementen in typologiefilter - Wanneer u de filtercriteria voor een typologieregel opgeeft, kunnen de abonnementen van de toepassing worden geselecteerd als de filterings- en doelafmetingen, zodat u op kenmerken kunt filteren voor gebruikers met of zonder profiel. <br /> Raadpleeg de <a href="../../sending/using/about-typology-rules.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Geautomatiseerde inhoud importeren van een URL tijdens berichtvoorbereiding<br /> </td> 
@@ -145,7 +145,7 @@ Bekijk de meest recente [documentatie-updates](../../rn/using/documentation-upda
 * Correctie van een fout die ervoor zorgde dat bij Publiek opslaan geen gebruikers konden delen voor de toepassing in Adobe Experience Cloud.
 * Probleem verholpen met de bestandsoverdrachtactiviteit die kon optreden wanneer de bestandsnaam lege spaties bevatte. (CAMP-25936)
 * Probleem verholpen die kon optreden wanneer de knop Opnieuw verbinden werd gebruikt nadat een sessie was verlopen. (CAMP-25560)
-* Probleem verholpen dat tot uitsluitingen kon leiden bij het verzenden van leveringen met optimalisatie van tijdzone gekoppeld aan fatigues-regels. (CAMP-25425)
+* Probleem verholpen dat tot uitsluitingen kon leiden bij het verzenden van leveringen met optimalisatie voor tijdzone gekoppeld aan fatigues-regels. (CAMP-25425)
 * Probleem verholpen bij het gebruik van de API GDPR-functie, die kan voorkomen dat gegevens met een koppeling van het type 0-1 worden verwijderd.
 * Probleem verholpen dat tot een foutbericht kon leiden wanneer de uitgave van een moeilijkheidtypologieregel werd geannuleerd.
 * Probleem verholpen dat kon optreden wanneer een voorvertoning van een leveringsinhoud werd weergegeven nadat deze was bewerkt.
@@ -461,7 +461,7 @@ Sommige problemen kunnen zich voordoen bij het gebruik van contextafhankelijke H
   </tr> 
   <tr> 
    <td> Delen van rapporten<br /> </td> 
-   <td> Met Rapport delen kunt u uw rapporten delen met gebruikers van Adobe Campagne als e-mailbijlage, inclusief op een geautomatiseerde terugkerende basis. Gebruikers die terugkerende rapporten ontvangen, kunnen zich afmelden voor deze communicatie via een speciale koppeling in elke e-mail.<br /> Raadpleeg de <a href="../../reporting/using/reporting-interface.md#share-tab">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> Met Rapport delen kunt u uw rapporten delen met gebruikers van Adobe Campagne als e-mailbijlage, inclusief op een geautomatiseerde terugkerende basis. Gebruikers die terugkerende rapporten ontvangen, kunnen hun abonnement op deze berichten opzeggen via een speciale koppeling in elke e-mail.<br /> Raadpleeg de <a href="../../reporting/using/reporting-interface.md#share-tab">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Nieuwe mogelijkheden duwen<br /> </td> 
