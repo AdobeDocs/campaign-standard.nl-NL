@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
@@ -54,7 +54,7 @@ Wanneer u de velden toevoegt die u in het extractiebestand wilt opnemen, zijn de
 
 Adobe Campagne biedt u een reeks vooraf gedefinieerde, berekende velden die de meest gebruikelijke normalisatie van het postadres volgen. De velden zijn beschikbaar in het **[!UICONTROL Postal address]** knooppunt.
 
-Een adres kan maximaal zes lijnen door gebrek bevatten: het eerste berekende veld ( **[!UICONTROL Line 1]** bevat de voornaam en achternaam, de volgende regels bevatten het postadres (weg enz.) en de laatste regel bevat de postcode en de plaats of stad.
+Een adres kan maximaal zes lijnen door gebrek bevatten: het eerste berekende veld (**[!UICONTROL Line 1]** bevat de voornaam en achternaam, de volgende regels bevatten het postadres (weg enz.) en de laatste regel bevat de postcode en de plaats of stad.
 
 ![](assets/direct_mail_23.png)
 
