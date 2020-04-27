@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 50991e9b376be5e706d2e8d8dcfa8c3677651281
 
 ---
 
@@ -25,7 +25,7 @@ De Standaard van de campagne biedt verscheidene hulpmiddelen aan om u te helpen 
 
 Met workflows kunt u gegevens verzamelen en importeren in de Campagne-database via het gebruik van [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) activiteiten.
 
-Algemene informatie en aanbevolen procedures bij het importeren van gegevens via workflows worden in [deze sectie](../../automating/using/importing-data.md)weergegeven.
+Algemene informatie en aanbevolen procedures bij het importeren van gegevens via workflows vindt u in [deze sectie](../../automating/using/importing-data.md).
 
 Daarnaast kunt u sjablonen instellen voor het importeren van gegevens. Het gebruik van importsjablonen is de beste manier als u regelmatig bestanden met dezelfde structuur moet importeren.
 
