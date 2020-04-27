@@ -10,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8f3c8f9a167f11ba5ded2be34a50b52edeeb6412
+source-git-commit: e545e0ffba80f6165242f6974adf0e4c4abafff4
 
 ---
 
@@ -21,23 +21,35 @@ source-git-commit: 8f3c8f9a167f11ba5ded2be34a50b52edeeb6412
 
 ![](assets/wf_externalAPI.png)
 
-De **[!UICONTROL External API]** activiteit brengt gegevens in het werkschema van een **extern systeem** via een **REST API** vraag.
+De **[!UICONTROL External API]** activiteit brengt gegevens in het werkschema van een **extern systeem** via een **HTTP API** vraag.
 
-De REST-eindpunten kunnen een clientbeheersysteem, een [Adobe I/O-runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) -instantie of een Experience Cloud REST-eindpunten zijn (Data Platform, Target, Analytics, Campaign, enz.).
+De eindpunten van het externe systeem kunnen openbare API eindpunten, klantenbeheersystemen, of serverloze toepassingsinstanties (b.v., Runtime [van](https://www.adobe.io/apis/experienceplatform/runtime.html)Adobe I/O) zijn, om een paar categorieën te noemen.
 
 >[!NOTE]
 >
 >Om veiligheidsredenen wordt het gebruik van JSSPs niet gesteund in de Norm van de Campagne. Als u code moet uitvoeren, kunt u een Adobe I/O Runtime instantie via de Externe API activiteit roepen.
-
->[!IMPORTANT]
->
->Deze mogelijkheid is momenteel beschikbaar in bèta. U moet de gebruiksovereenkomst accepteren voordat u begint met het gebruik van de externe API-activiteit. Houd er rekening mee dat deze bètamogelijkheid nog niet door Adobe commercieel is uitgebracht en dat deze niet door Adobe Client Care wordt ondersteund. De bètafunctie bevat mogelijk fouten en werkt mogelijk niet zo goed als andere vrijgegeven functies.
 
 De belangrijkste kenmerken van deze activiteit zijn:
 
 * Mogelijkheid om gegevens in een JSON-indeling door te geven aan een ander REST API-eindpunt
 * Mogelijkheid om een JSON-reactie terug te ontvangen, deze toe te wijzen aan uitvoertabellen en stroomafwaarts door te geven aan andere workflowactiviteiten.
 * Het beheer van de mislukking met een uitgaande specifieke overgang
+
+### Overgang van bèta naar GA {#from-beta-to-ga}
+
+Met de campagnestandaard 20.3-release is de externe API-functionaliteit van bèta naar algemene beschikbaarheid (GA) verplaatst.
+
+Dientengevolge, als u beta Externe API activiteiten gebruikte, moet u hen met GA Externe API activiteiten in alle werkschema&#39;s vervangen.  Workflows die de bètaversie van de externe API gebruiken, werken niet meer vanaf de release 20.3.
+
+Wanneer u externe API-activiteiten vervangt, voegt u de nieuwe externe API-activiteit toe aan de workflow, kopieert u handmatig over de configuratiedetails en verwijdert u vervolgens de oude activiteit.
+
+>[!NOTE]
+>
+>U kunt niet over koptekstwaarden kopiëren omdat deze binnen de activiteit gemaskeerd zijn.
+
+Vervolgens configureert u andere activiteiten in de workflow opnieuw, waarbij gegevens uit de API-activiteit van de bètaversie External worden aangeroepen en/of gebruikt om gegevens uit de nieuwe externe API-activiteit aan te wijzen en/of te gebruiken. Voorbeelden van activiteiten: e-maillevering (personalisatievelden), verrijkingsactiviteiten, enz.
+
+### Beperkingen en geleiders {#guardrails}
 
 Voor deze activiteit zijn de volgende voorzorgsmaatregelen getroffen:
 
@@ -49,7 +61,21 @@ Voor deze activiteit zijn de volgende voorzorgsmaatregelen getroffen:
 
 >[!CAUTION]
 >
->Houd er rekening mee dat de activiteit bedoeld is voor het ophalen van gegevens voor de hele campagne (laatste reeks aanbiedingen, laatste scores, enz.) niet voor het ophalen van specifieke informatie voor elk profiel, omdat dit kan leiden tot grote hoeveelheden gegevens die worden overgedragen. Als het gebruiksgeval dit vereist, is de aanbeveling om de activiteit van het Dossier [van de](../../automating/using/transfer-file.md) Overdracht te gebruiken.
+>Houd er rekening mee dat de activiteit bedoeld is voor het ophalen van gegevens voor de hele campagne (laatste reeks aanbiedingen, laatste scores, enz.), niet voor het ophalen van specifieke informatie voor elk profiel, omdat dit kan leiden tot het overdragen van grote hoeveelheden gegevens. Als het gebruiksgeval dit vereist, is de aanbeveling om de activiteit van het Dossier [van de](../../automating/using/transfer-file.md) Overdracht te gebruiken.
+
+
+Voor de JSON zijn specifieke voorzorgsmaatregelen getroffen:
+
+* **Max. diepte** van JSON: Beperk de maximumdiepte van een aangepaste geneste JSON die kan worden verwerkt tot 10 niveaus.
+* **Max. keylengte** JSON: de maximumlengte van de gegenereerde interne sleutel beperken tot 255. Deze sleutel is gekoppeld aan de kolom-id.
+* **JSON Max. aantal dubbele toetsen toegestaan**:  Beperk het maximumaantal dubbele JSON bezitsnamen, die als kolom ID worden gebruikt, tot 150.
+
+
+De JSON-structuur wordt niet ondersteund als:
+
+* Arrayobject combineren met andere niet-arrayelementen
+* JSON-arrayobject is genest binnen een of meer tussenliggende arrayobjecten.
+
 
 ## Configuratie {#configuration}
 
@@ -64,7 +90,7 @@ Gebaseerd op deze tijdelijke lijst, kan de gebruiker wijziging aan binnenkomende
 
 Het **Binnenkomende middeldrop** laat u de vraagactiviteit selecteren die tot de tijdelijke lijst zal leiden.
 
-Met het selectievakje **Telparameter** toevoegen wordt een telwaarde ingesteld voor elke rij die uit de tijdelijke tabel komt. Merk op dat dit checkbox slechts beschikbaar is als de binnenkomende activiteit een tijdelijke lijst produceert.
+Met het selectievakje **Telparameter** toevoegen wordt een telwaarde toegevoegd voor elke rij die uit de tijdelijke tabel komt. Merk op dat dit checkbox slechts beschikbaar is als de binnenkomende activiteit een tijdelijke lijst produceert.
 
 Met de sectie **Binnenkomende kolommen** kan de gebruiker alle velden uit de binnenkomende overgangstabel toevoegen. De geselecteerde kolom(men) zijn de sleutels in het gegevensobject. Het gegevensobject in de JSON wordt een arraylijst met gegevens voor geselecteerde kolommen uit elke rij van de binnenkomende overgangstabel.
 
@@ -76,17 +102,26 @@ Op dit tabblad kunt u de voorbeeld- **JSON-structuur** definiëren die door de A
 
 ![](assets/externalAPI-outbound.png)
 
-Het JSON-structuurpatroon is: `{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
+De JSON-parser is ontworpen voor standaard JSON-structuurpatroontypen, met enkele uitzonderingen. Een voorbeeld van een standaardpatroon is:`{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
 
 De JSON-voorbeelddefinitie moet de **volgende kenmerken** hebben:
 
-* **data** is een verplichte eigenschapnaam in de JSON, de inhoud van &quot;data&quot; is een JSON-array.
 * **Array-elementen** moeten eigenschappen op het eerste niveau bevatten (diepere niveaus worden niet ondersteund).
    **Namen** van eigenschappen worden uiteindelijk kolomnamen voor het uitvoerschema van de tijdelijke uitvoertabel.
+* **JSON-elementen** die moeten worden vastgelegd, moeten binnen de JSON-respons maximaal 10 nestniveaus hebben.
 * **De kolomnaamdefinitie** is gebaseerd op het eerste element van de array &#39;data&#39;.
 De definitie van kolommen (toevoegen/verwijderen) en de typewaarde van het bezit kunnen in de de definitietabel **van de** Kolom worden uitgegeven.
 
-Als de **parsering wordt gevalideerd** , verschijnt er een bericht waarin u wordt gevraagd de gegevenstoewijzing op het tabblad &quot;Kolomdefinitie&quot; aan te passen. In andere gevallen wordt een foutbericht weergegeven.
+**Gedrag van selectievakje** Afvlakken:
+
+Selectievakje Afvlakken (standaard: (niet ingeschakeld) wordt opgegeven om aan te geven of de JSON al dan niet moet worden afgevlakt op een sleutel-/waardeoverzicht.
+
+* Wanneer het **selectievakje is uitgeschakeld** (uitgeschakeld), wordt het voorbeeld-JSON geparseerd om naar een matrixobject te zoeken. De gebruiker moet een bijgesneden versie van de JSON-voorbeeldindeling voor API-reacties opgeven, zodat Adobe Campagne precies kan bepalen in welke array de gebruiker geïnteresseerd is. Tijdens het ontwerpen van de workflow wordt het pad naar het geneste arrayobject bepaald en opgenomen, zodat het tijdens de uitvoering kan worden gebruikt om toegang te krijgen tot dat matrixobject van de JSON-responsinstantie die van de API-aanroep is ontvangen.
+
+* Wanneer het **selectievakje is ingeschakeld** (ingeschakeld), wordt het voorbeeld-JSON afgevlakt en worden alle eigenschappen die in het opgegeven voorbeeld JSON zijn opgegeven, gebruikt om kolommen van de tijdelijke uitvoertabel te maken en weergegeven op het tabblad Kolomdefinities. Als er een arrayobject in het JSON-voorbeeld is, worden alle elementen van die arrayobjecten ook afgevlakt.
+
+
+Als de **parsering wordt gevalideerd**, verschijnt er een bericht waarin u wordt gevraagd de gegevenstoewijzing op het tabblad &quot;Kolomdefinitie&quot; aan te passen. In andere gevallen wordt een foutbericht weergegeven.
 
 ### Uitvoering
 
