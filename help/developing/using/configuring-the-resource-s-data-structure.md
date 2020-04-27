@@ -13,7 +13,7 @@ context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
+source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
 
 ---
 
@@ -159,7 +159,7 @@ Een koppeling geeft de koppeling weer die een tabel heeft met andere tabellen.
    >
    >Gebruik maximaal 30 tekens.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Het is niet mogelijk de naam van een koppeling te wijzigen nadat deze is gemaakt. Als u de naam van een koppeling wilt wijzigen, moet u de koppeling verwijderen en opnieuw maken.
 
@@ -254,7 +254,7 @@ Van Dynamische Rapportering, kunt u de dimensie van het douanegebied in een vrij
 
 Voor meer informatie over Dynamische Rapportering, verwijs naar de [Lijst van componenten](../../reporting/using/list-of-components-.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Het aantal velden dat naar Dynamic Reporting wordt verzonden, is beperkt tot 20.
 
