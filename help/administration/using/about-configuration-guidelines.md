@@ -12,7 +12,7 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5a77a681a20d5e7bea73b52c994137d4a61f78d
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
@@ -21,6 +21,6 @@ source-git-commit: d5a77a681a20d5e7bea73b52c994137d4a61f78d
 
 In deze sectie worden de verschillende configuratierichtlijnen voor Adobe Campagne Standard opnieuw gegroepeerd.
 
-Ontdek welke browsers compatibel zijn met de campagnestandaard en de verschillende ondersteunde besturingssystemen voor tablets.
+Ontdek welke browsers compatibel zijn met de campagnestandaard en de verschillende ondersteunde besturingssystemen voor tablets. Zie [deze sectie](../../administration/using/compatible-browsers.md)voor meer informatie.
 
-Leer ook over de verschillende eindpunten die in de Norm van de Campagne worden gebruikt.
+Leer ook over de verschillende eindpunten die in de Norm van de Campagne worden gebruikt. Zie [deze sectie](../../administration/using/campaign-standard-network-endpoints.md)voor meer informatie.
