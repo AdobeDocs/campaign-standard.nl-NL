@@ -12,7 +12,7 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -60,7 +60,7 @@ Voer de volgende stappen uit om een filtreertypologieregel te maken:
 
 1. Selecteer het **[!UICONTROL Filtering]** regeltype en geef vervolgens het gewenste kanaal op.
 
-1. Selecteer op het tabblad **[!UICONTROSL Filtrerende criteria]** de abonnementen in de **[!UICONTROL Subscription]** categorie.
+1. Selecteer op het **[!UICONTROL Filtering criteria]** tabblad de abonnementen in de **[!UICONTROL Subscription]** categorie.
 
    ![](assets/typology_create-rule-subscription.png)
 
