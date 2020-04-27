@@ -12,98 +12,104 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 66e480e957d12275d2ce5575c99b0808462588f9
+source-git-commit: 86302762a46a814ecc9b14a5fe1bfe1a4a4e0437
 
 ---
 
 
 # Laatste release{#latest-release}
 
-[Release-planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Release](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) van het regelpaneel| [Documentatiebijwerkingen](../../rn/using/documentation-updates.md) | [Opmerkingen bij](../../rn/using/release-notes-2019.md) vorige release| [Verouderde functies](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[Release-planning](../../rn/using/release-planning.md) | [Release](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) van het regelpaneel| [Documentatiebijwerkingen](../../rn/using/documentation-updates.md) | [Opmerkingen bij](../../rn/using/release-notes-2020.md) vorige release| [Verouderde functies](../../rn/using/deprecated-features.md)
 
-[Klik hier](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) om u te abonneren op de release-meldingen en informatie over de nieuwste Adobe Experience Cloud-releases direct in uw Postvak IN op te halen.
-
-## Release 20.2 - april 2020 {#release-20-2---april-2020}
+## Release 20.3 - mei 2020 {#release-20-3---may-2020}
 
 **Wat is nieuw?**
 
 <table> 
- <thead> 
-  <tr> 
-   <th> <strong>Azure Blob Integration</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>De Azure Blob-opslagconnector kan nu worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campagne met behulp van een workflowactiviteit voor het <strong>overdragen van bestanden</strong> . </p>
-    <p>Raadpleeg de <a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">gedetailleerde documentatie</a>voor meer informatie.</p>
-   </td> 
-  </tr> 
- </tbody> 
+<thead> 
+<tr> 
+<th> <strong>Thaise wet inzake de bescherming van persoonsgegevens (PDPA)</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>De Thaise wet inzake de bescherming van persoonsgegevens (PDPA) is de nieuwe privacywet die de vereisten inzake gegevensbescherming voor Thailand harmoniseert en moderniseert. Deze verordening is van toepassing op klanten van de Campagne van Adobe die gegevens voor Subjects van Gegevens in dit land verblijven.</p>
+<p>Naast de privacymogelijkheden die reeds beschikbaar zijn in de Campagne van Adobe (met inbegrip van toestemmingsbeheer, montages van het gegevensbehoud, en gebruikersrollen), nemen wij deze gelegenheid aan om extra mogelijkheden te omvatten, helpen uw bereidheid voor PDPA vergemakkelijken:</p>
+<ul>
+<li>Recht op toegang en recht op verwijdering: wij benutten de capaciteiten die voor de GDPR en de CCPA zijn toegevoegd. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Meer informatie</a> </li>
+<li><p>Wanneer het creëren van een verzoek van de Privacy, is het PDPA regelgevende type toegevoegd in de Dienst van de Kern van de Privacy. Dit is de methode u voor alle toegang en schrappingsverzoeken zou moeten gebruiken. Het gebruik van de campagne-API en -interface voor toegangs- en verwijderingsverzoeken is afgekeurd.  Zie het artikel <a href="../../rn/using/deprecated-features.md"></a>Vervangen en verwijderde functies.</p></li>
+</ul>
+<p>Raadpleeg de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">Hoe kan ik-video</a>.</p>
+</td> 
+</tr> 
+</tbody> 
 </table>
 
 <table> 
- <thead> 
-  <tr> 
-   <th> <strong>Testen via e-mail met doelprofielen</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Naast testprofielen kunt u nu uw e-mails testen op echte doelprofielen. Zo kunt u een exacte weergave krijgen van het bericht dat het profiel ontvangt: aangepaste velden, dynamische en persoonlijke gegevens, inclusief aanvullende gegevens van workflows, enz. </p>
-    <p>Raadpleeg de <a href="../../sending/using/testing-messages-using-target.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">zelfstudie-video</a>voor meer informatie. </p>
-   </td> 
-  </tr> 
- </tbody> 
+<thead> 
+<tr> 
+<th> <strong>Externe API-activiteit (GA)</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+  <td> <p>De <strong>externe API</strong> -activiteit verloopt van bèta naar GA. Deze release biedt extra flexibiliteit voor de parser van de JSON-responsstructuur. U kunt nu:</p>
+<ul>
+<li>parseer een geneste JSON met een maximale diepte van 10 niveaus. </li>
+<li>Hiermee parseert u geselecteerde eigenschappen als bladknooppunten van een JSON en voegt u deze samen tot één tabelrij.</li>
+<li>Selecteer en gebruik een matrixobject van een JSON zonder dat het object een naam moet geven aan de "gegevens" of op het hoofdniveau moet staan.</li>
+</ul>
+<p><strong>Let op:</strong> Klanten moeten in hun workflows alle API-activiteiten <strong>voor de bètaversie van External API</strong> vervangen door externe API-activiteiten voor GA.  Workflows die de bètaversie van de externe API gebruiken, werken niet meer in 20.3.</p>
+<p>Raadpleeg voor meer informatie de <a href="../../automating/using/external-api.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">Hoe kan ik-video</a>.</p>
+</td> 
+</tr> 
+</tbody> 
 </table>
-
->[!NOTE]
->
->Nieuwe mogelijkheden worden in april beschikbaar gesteld in het Configuratiescherm van Campagne, waaronder Google TXT-recordbeheer, bewaking van de databaseruimte en e-mailwaarschuwingen. Raadpleeg de Opmerking bij de release van het [Configuratiescherm voor meer informatie over deze functies](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 **Verbeteringen**
 
-* De transnationale overseinengebruikerservaring is verbeterd en de interfaceconsistentie werd verbeterd. [Meer informatie](../../channels/using/about-transactional-messaging.md)
-* Met de campagnestandaard kunt u nu proefdrukken naar testprofielen verzenden met behulp van aanvullende gegevens uit workflows.
-* De handleidingen voor de externe API-activiteit zijn bijgewerkt. [Meer informatie](../../automating/using/external-api.md)
+* Het aantal tekens dat in het veld **Voorvoegsel** kan worden gebruikt om berichten te [testen met behulp van doelprofielen](../../sending/using/testing-messages-using-target.md) , is verhoogd van 32 naar 500 tekens.
+* Het maximumaantal real-time gebeurtenissen dat op een instantie kan worden gepubliceerd, is verhoogd van 350 tot 2000. (CAMP-41608)
 
 **Verbeteringen voor e-mailontwerper**
 
-* Probleem verholpen dat invloed had op escape wanneer meerdere keren op een gepersonaliseerde afbeelding werd geklikt.
-* Probleem verholpen bij het dupliceren van dynamische tekstcomponenten die kunnen leiden tot het dupliceren van de lange lijn. (CAMP-41249)
-* Probleem met opvulling in Outlook verholpen bij het definiëren van opvulling op tabelniveau in plaats van op div-niveau.
-* Probleem verholpen waarbij de breedte van een afbeelding werd gewijzigd wanneer naar de HTML-modus werd overgeschakeld. (CAMP-41116)
-* Probleem verholpen waarbij de component sociale media niet toegankelijk was wanneer alternatieve tekst voor de pictogrammen wordt aangeboden. (CAMP-41345)
-* Probleem verholpen waarbij zichtbare `<br>` tags werden weergegeven bij gebruik van kopiëren plakken in e-mailontwerper.
-* Probleem verholpen waarbij HTML-tags in de e-mail werden weergegeven nadat er van HTML-inhoud naar normale tekst was overgeschakeld. (CAMP-41138)
-* Probleem verholpen waarbij het renderen van knoppen met slechts één rand werd voorkomen.
-* Probleem verholpen in HTML-inspringing waardoor de voettekst van e-mailberichten in Microsoft Outlook naar links werd verplaatst. (CAMP-40987)
-* Probleem verholpen waarbij aanpassingsvelden die verwijzen naar een verzamelingskenmerk dat is gedefinieerd in HTML, in de normale tekstinhoud werden gekopieerd wanneer naar de modus Onbewerkte tekst werd geschakeld. (CAMP-40365)
-* Probleem verholpen waarbij werd voorkomen dat koppelingen werden ingevoegd op een tekstsegment dat is geselecteerd. (CAMP-41406)
-* Probleem verholpen waarbij de datum werd gewijzigd wanneer een tijdzone werd geselecteerd in de query-editor. (CAMP-38277)
+* De e-mailontwerper kan nu een flexibelere HTML-opmaak verwerken dan strikte W3C. (CAMP-42529)
+* Probleem verholpen met [klikbare afbeeldingen](../../designing/using/links.md#inserting-a-link) om te voorkomen dat koppelingen naast de afbeelding in inhoudsblokken worden weergegeven. (CAMP-41586)
+* Probleem verholpen waarbij de omleiding naar een bestemmingspagina niet mogelijk was wanneer een [bijgehouden URL](../../designing/using/links.md#about-tracked-urls) een categorie in de sjabloon had toegevoegd. (CAMP-41537)
+* Probleem verholpen met opvulling van knoppen in Outlook.
+* Probleem verholpen waarbij HTML-tags in onbewerkte tekst werden weergegeven.
+* Bij zoeken in inhoudsblokken worden nu de zoekresultaten van de server en de vooraf geladen resultaten weergegeven. (CAMP-41870)
 
 **Overige wijzigingen**
 
-* De **KPIs-afstemming met de out-of-the-box workflow van Adobe Analytics** loopt nu tot de huidige datum in plaats van één dag.
-* De MCPNS steunt niet het toevoegen van APNS en APNS-SANDBOX allebei als platforms in een app. Nadat u het certificaat hebt toegevoegd in Adobe Campaign Standard, kunt u de instellingen nu niet meer wijzigen omdat er slechts één APNS-platform (productie of sandbox) aan de MCPNS-app kan worden toegevoegd.
+* De interface voor het publiceren van aangepaste bronnen is verbeterd met duidelijkere foutberichten.
+* De ongebruikte leveringstoewijzingen zijn verwijderd uit de interface.
+* De onnodige beheerderrollen zijn verwijderd uit de interface.
+* Selectievakjes kunnen nu verplicht zijn op een bestemmingspagina.
+* Tijdens het downloaden van het CSV-bestand van een Dynamic-rapport is de limiet van 200 rijen verwijderd. U kunt nu elke rij van uw rapport opnemen. (CAMP-40810)
+* De ES-VS-taal is toegevoegd aan de lijst met talen die niet in de verpakking staan voor meertalige e-mails. (CAMP-42279)
+* Bestanden die met een overdrachtsbestandsactiviteit zijn gedownload, worden nu na X dagen verwijderd, waarbij X wordt bepaald door de **Geschiedenis in het veld dagen** onder het menu **Uitvoering** in de Workfloweigenschappen. [Meer informatie](../../automating/using/executing-a-workflow.md#workflow-properties)
 
 **Integratie van ervaringsplatforms**
 
->[!NOTE]
->
->De functies van het Adobe Experience Platform in Campaign Standard worden momenteel in bèta weergegeven, die vaak zonder kennisgeving kan worden bijgewerkt. Raadpleeg de gedetailleerde documentatie: [Ervaring Platform Data Connector](../../administration/using/aep-about-data-connector.md), [Publiek Doelen](../../audiences/using/aep-about-audience-destinations-service.md)
-
-* In workflowlogboeken wordt om de 10 minuten het aantal records weergegeven dat al is verwerkt door de taak die momenteel wordt uitgevoerd.
-* Probleem verholpen die kon optreden bij het importeren van een Adobe Experience Platform-profiel dat uit de database was verwijderd.
-* Probleem verholpen in workflowlogboeken waarbij een onjuist resultaat kon worden weergegeven voor het totale aantal geïmporteerde records.
+* De activering van het publiek [van het Adobe](../../automating/using/aep-targeting-audiences.md) Experience Platform uit de **Lees-publiek** -activiteit is verbeterd en biedt nu betere prestaties en stabiliteit. Bovendien zijn workflowlogbestanden duidelijker en gedetailleerder geworden ten aanzien van activeringstaken, zodat gebruikers van het Adobe Experience Platform eenvoudiger controle en probleemoplossing kunnen krijgen bij het lezen van doelgroepen van het Adobe Experience Platform.
 
 **Patches**
 
-* Probleem verholpen met de activiteit van de **verrijkingsworkflow** die kan optreden wanneer spaties worden toegevoegd in het veld **Alias** , dat vervolgens een nieuw rijitem heeft gemaakt. (CAMP-39229)
-* Probleem verholpen waarbij elk testprofiel als doel kon worden ingesteld bij het verzenden van een proefdrukbericht.
-* Oplossing voor een probleem dat optrad na het verwijderen en verwijderen van een gebeurtenisconfiguratie. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
-* Probleem verholpen waarbij de knop **Opslaan** verdwijnt wanneer u wijzigingen aanbrengt in workflows.
-* Probleem verholpen bij het handmatig verwijderen van een privacyaanvraag in Campagne nadat deze was verwerkt. Hierdoor konden gegevens die aan de aanvraag waren gekoppeld, niet worden verwijderd, zelfs na opschoning.
-* Probleem verholpen dat kon optreden tijdens het voorvertonen of verzenden van berichten met speciale tekens van Adobe Experience Manager.
-* Probleem verholpen dat in workflows kon voorkomen wanneer een activiteit met verschillende binnenkomende overgangen werd uitgevoerd.
-* Probleem verholpen waarbij standaardgebruikers de &#39;Abonnementen op een toepassing&#39; niet konden gebruiken als de doeldimensie in een workflowquery of een levering. (CAMP-37618)
+* Probleem verholpen waarbij een spookbron werd gemaakt tijdens de publicatietaak van een aangepaste bron.
+* Probleem verholpen waarbij de marketinggeschiedenis van profielen niet kon worden weergegeven als de profielbron was uitgebreid met een aangepaste bron. (CAMP-41009)
+* Probleem verholpen met out-of-the-box landingspagina-sjablonen die de inhoud in het Frans weergaven bij het openen van de editor. (CAMP-41639)
+* Probleem verholpen in pushberichten met dynamische inhoud die kan voorkomen dat emojis wordt weergegeven. (CAMP-40715)
+* Probleem verholpen in de **deduplicatie** -activiteit die ertoe kon leiden dat een onjuiste segmentcode werd toegewezen aan een van de uitgaande complement-overgangen. (CAMP-41400)
+* Probleem verholpen waardoor geplande rapporten niet konden worden verwijderd. (CAMP-41302)
+* Probleem opgelost waarbij een discrepantie optrad tussen het dashboard voor levering en het rapport **Afleveringsoverzicht** . (CAMP-41145)
+* Probleem verholpen dat leidde tot een weergaveprobleem met tekenoverlapping in gedownloade rapporten.
+* Probleem verholpen waardoor de voorvertoning van een levering niet kon werken voor vervanging van proefdrukken.
+* Correctie van een fout bij het verwijderen van aangepaste velden van een lokale melding in de app.
+* Probleem verholpen waardoor de charIndex-functie niet kon werken met een **End** - of **File-overdrachtactiviteit** in een workflow.
+* Probleem verholpen in workflows die kunnen optreden wanneer een **verrijkingsactiviteit** wordt gebruikt met twee invoeractiviteiten, waaronder doelbronnen die er een koppeling tussen hebben. (CAMP-42133)
+* Probleem verholpen waarbij een workflow niet kon worden uitgevoerd wanneer onbekende functies werden gebruikt. (CAMP-41873)
+* Probleem verholpen in workflows die kunnen optreden wanneer een publiek wordt gemaakt met verschillende activiteiten voor **het opslaan van het publiek** als aanvulling op uitgaande overgangen. (CAMP-39992)
+* Probleem verholpen dat tot gegevensdiscrepantie leidde bij het gebruik van personalisatie in transactie-e-mails. (CAMP-41842)
+* Correctie van problemen die optraden bij het verwijderen van aangepaste velden in pushberichtleveringen. (CAMP-37586)
+* Probleem verholpen waardoor gebruikers geen wijzigingen konden aanbrengen in rapporten. (CAMP-42505)
