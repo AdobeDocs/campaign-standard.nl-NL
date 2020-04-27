@@ -12,22 +12,32 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 09c7f365969fe415f1bcdcc57e7cfbb9ed99b521
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
 # Documentatieupdates{#documentation-updates}
 
-Meer informatie over alle nieuwste updates voor de documentatie van Adobe Campagne Standard.
+Naast de opmerkingen bij de [release](../../rn/using/release-notes.md)van Adobe Campaign worden op deze pagina alle nieuwe updates in de documentatie van Adobe Campaign Standard weergegeven.
 
-Deze pagina bevat een overzicht van alle nieuwe functies en documentatie-updates voor elke release van Adobe Campaign Standard.
+## Release 20.3 - mei 2020 {#release-20-3---may-2020}
 
-U kunt ook de opmerkingen bij de [release](../../rn/using/release-notes.md)van Adobe Campaign raadplegen.
+**Nieuwe mogelijkheden inbegrepen in de versie**
+
+Thaise wet op de bescherming van persoonsgegevens (PDPA) - [Meer informatie](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
+
+Externe API-activiteit (GA) - [Lees meer](../../automating/using/external-api.md)
+
+**Overige documentatie-updates die bij de release worden geleverd**
+
+* Er is informatie toegevoegd aan het **[!UICONTROL History in days]** veld in de eigenschappen van workflows waarin nu bestanden zijn opgenomen die door de **[!UICONTROL Transfer file]** activiteit zijn gedownload. [Meer informatie](../../automating/using/executing-a-workflow.md)
+
+* Er is informatie toegevoegd aan de sectie voor profielvervanging met betrekking tot de limiet van 500 tekens voor het voorvoegsel van de onderwerpregel. [Meer informatie](../../sending/using/testing-messages-using-target.md)
 
 ## Documentatie-updates - april 2020 {#doc-updates-april-2020}
 
-De integratie van de Dynamica 365 van Microsoft met de documentatie van de Standaard van de Campagne van Adobe is geïntegreerd in de kerndocumentatie in het Integrating met andere oplossingen gids. [Meer informatie](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+De integratie van Microsoft Dynamics 365 met de documentatie van de Standaard van de Campagne van Adobe is nu beschikbaar in de kerndocumentatie. [Meer informatie](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 Er zijn extra bronnen toegevoegd aan de pagina &quot;Documentstartpagina&quot;. [Meer informatie](../../campaign-standard-home.md)
 
@@ -35,7 +45,7 @@ Informatie over de Experience Cloud ID Service (ECID) is toegevoegd aan de docum
 
 De het Vormen transactionele overseinensectie is verbeterd met informatie over hoe te om tot de recentste transactionele gebeurtenissen en bijgewerkte screenshots toegang te hebben. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
-Het gedeelte over typologieën en typologische regels is verbeterd en bijgewerkt met aanvullende informatie over de typologische regels buiten de box. [Meer informatie](../../sending/using/about-typology-rules.md)
+De documentatie over typologie en typologieregels is verbeterd en bijgewerkt met aanvullende informatie over ingebouwde typologische regels. [Meer informatie](../../sending/using/about-typology-rules.md)
 
 Er is informatie toegevoegd over de **[!UICONTROL Transfer file]** actie van de **[!UICONTROL File listing]** activiteit. [Meer informatie](../../automating/using/transfer-file.md)
 
@@ -48,6 +58,8 @@ De sectie **Voorvertoning van leveringen** is bijgewerkt met voorbeelden van mob
 De beste praktijken zijn toegevoegd betreffende transactieoverseinen en de schrapping van ongebruikte gebeurtenissen in real time. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
 
 De sectie Het e-mailkanaal configureren is bijgewerkt met uitleg over alle e-mailinstellingen die nu worden beheerd door de uitgebreide MTA voor Adobe Campagne. [Meer informatie](../../administration/using/configuring-email-channel.md)
+
+De het Vormen sectie van het transactieoverseinen is bijgewerkt met verdere informatie over de rechten nodig om gebeurtenisconfiguraties uit te geven en op hoe te om inzamelingen in transactionele berichten te verrijken. [Lees meer](../../administration/using/configuring-transactional-messaging.md).
 
 ## Release 20.2 - april 2020 {#release-20-2---april-2020}
 
@@ -89,7 +101,7 @@ De documentatie bij Campagne E-mail Designer en verwante pagina&#39;s zijn bijge
 
 Er is nu een nieuwe sectie beschikbaar die specifiek is gewijd aan best practices voor het standaardgegevensmodel van de campagne. [Meer informatie](../../developing/using/data-model-best-practices.md)
 
-Er is informatie toegevoegd aan de rechterkant van de **[!UICONTROL Workflow]** doos. [Meer informatie](../../administration/using/list-of-roles.md)
+Er is informatie toegevoegd aan het **[!UICONTROL Workflow]** ingebouwde recht. [Meer informatie](../../administration/using/list-of-roles.md)
 
 Er is informatie toegevoegd over de **[!UICONTROL History in days field]** beschikbare werkstroomeigenschappen. [Meer informatie](../../automating/using/executing-a-workflow.md)
 
@@ -453,7 +465,7 @@ Bijgewerkte gids voor pushmeldingen met interfacewijzigingen. [Meer informatie](
 
 Toegevoegde informatie over het verwijderen van een publiek. [Meer informatie](../../audiences/using/creating-audiences.md#deleting-audiences)
 
-Bijgewerkte het bericht van de Duw uit-van-de-doos rapportsectie. [Meer informatie](../../reporting/using/push-notification-report.md)
+Bijgewerkte het bericht van de Duw ingebouwde rapportsectie. [Meer informatie](../../reporting/using/push-notification-report.md)
 
 ## Release 18.7 - juli 2018 {#release-18-7---july-2018}
 
@@ -577,7 +589,7 @@ Verrijkingsactiviteit - Verrijken gegevens op basis van eerdere overgangen - [Me
 
 De meeste URL&#39;s voor integratie van campagnes en Adobe-oplossingen zijn gewijzigd! Controleer uw bladwijzers! [Meer informatie](../../integrating/using/about-campaign-integrations.md)
 
-Het datamodel v1 is nu beschikbaar met de SQL-structuur voor bronnen buiten de box - [Lees meer](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
+Het datamodel v1 is nu beschikbaar met de SQL-structuur voor ingebouwde bronnen - [Lees meer](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
 
 Toegevoegde informatie over het voorbereiden van een bericht in een levering [Lees meer](../../sending/using/preparing-the-send.md)
 
@@ -653,7 +665,7 @@ Nieuwe technologie voor het maken of bijwerken van profielgegevens wanneer een m
 
 Sectie toegevoegd over nieuwe mogelijkheden voor exporttracering. [Meer informatie](../../administration/using/auditing-export-logs.md)
 
-Toegevoegde precisies over uit-van-de-doos pakketuitvoer. [Meer informatie](../../automating/using/managing-packages.md)
+Toegevoegde precisies over ingebouwde pakketexport. [Meer informatie](../../automating/using/managing-packages.md)
 
 Definitie en voorbeelden van externe accounts zijn bijgewerkt. [Meer informatie](../../administration/using/external-accounts.md)
 
