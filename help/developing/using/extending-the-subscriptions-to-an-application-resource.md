@@ -12,14 +12,14 @@ discoiquuid: 59faa74e-86fc-42d3-90da-f48580b5ec13
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
 # De abonnementen uitbreiden naar een toepassingsbron{#extending-the-subscriptions-to-an-application-resource}
 
-In Adobe Campaign worden data van mobiele profielkenmerken die vanaf een mobiel apparaat worden verzonden, opgeslagen in de resource **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** waardoor u de data die u van de abonnees van uw applicaties wilt verzamelen, kunt definiëren. Raadpleeg deze [pagina](../../developing/using/key-steps-to-add-a-resource.md)voor meer informatie over aangepaste bronnen.
+In Adobe Campaign worden data van mobiele profielkenmerken die vanaf een mobiel apparaat worden verzonden, opgeslagen in de resource **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** waardoor u de data die u van de abonnees van uw applicaties wilt verzamelen, kunt definiëren. Raadpleeg [deze pagina](../../developing/using/key-steps-to-add-a-resource.md)voor meer informatie over aangepaste bronnen.
 
 Deze bron kan worden uitgebreid om gegevens te verzamelen die u van het mobiele apparaat naar de Campagne van Adobe wilt verzenden.
 
@@ -29,7 +29,7 @@ Deze bron kan worden uitgebreid om gegevens te verzamelen die u van het mobiele 
 
    ![](assets/in_app_personal_data_4.png)
 
-1. Definieer in de **[!UICONTROL Fields]** categorie van het **[!UICONTROL Data structure]** tabblad de klantgegevens die u van uw mobiele toepassing wilt ophalen door op de **[!UICONTROL Add field]** knop te klikken.
+1. Definieer in de **[!UICONTROL Fields]** categorie van het **[!UICONTROL Data structure]** tabblad de klantgegevens die u wilt ophalen van uw mobiele toepassing door op de **[!UICONTROL Add field]** knop te klikken.
 
    >[!NOTE]
    >
