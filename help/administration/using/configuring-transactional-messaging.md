@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
@@ -21,19 +21,21 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 Als u een transactiebericht wilt verzenden met Adobe Campaign, moet u eerst de structuur van de gebeurtenisgegevens beschrijven.
 
-De configuratie van de gebeurtenis moet door een **beheerder** door de hieronder stappen worden uitgevoerd:
+Gebeurtenisconfiguratie moet worden uitgevoerd door een [beheerder](../../administration/using/users-management.md#functional-administrators) die de onderstaande stappen uitvoert.
 
-De configuratie kan afhankelijk van het type van transactiebericht variëren u wilt verzenden. Raadpleeg voor meer informatie de specifieke configuraties van [Transactiegebeurtenissen](#transactional-event-specific-configurations)
+>[!NOTE]
+>
+>De configuratie kan afhankelijk van het type van transactiebericht variëren u wilt verzenden. Raadpleeg voor meer informatie de specifieke configuraties [van](#transactional-event-specific-configurations)Transactionele gebeurtenissen.
 
 Zodra de gebeurtenis wordt gepubliceerd, wordt het overeenkomstige transactiemelding automatisch gecreeerd. Raadpleeg [deze pagina](../../channels/using/about-transactional-messaging.md)voor meer informatie over transacties.
 
 ## Een gebeurtenis maken {#creating-an-event}
 
-Begin door de gebeurtenis te creëren die aan uw behoeften beantwoordt.
+Maak de gebeurtenis die aan uw behoeften voldoet om aan de slag te gaan.
 
 >[!NOTE]
 >
->Het aantal gemaakte realtime-gebeurtenissen kan van invloed zijn op uw platform. Voor optimale prestaties moet u realtime gebeurtenissen verwijderen die u niet meer nodig hebt. Zie Een gebeurtenis [verwijderen](../../administration/using/configuring-transactional-messaging.md#deleting-an-event).
+>Alleen gebruikers die de **[!UICONTROL Administration]** rol spelen en deel uitmaken van de **[!UICONTROL All]**[ organisatie](../../administration/using/organizational-units.md) , hebben de juiste rechten om een gebeurtenisconfiguratie te maken.
 
 1. Klik in de linkerbovenhoek op het **[!UICONTROL Adobe Campaign]** logo en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Klik op de **[!UICONTROL Create]** knop.
@@ -55,6 +57,10 @@ Begin door de gebeurtenis te creëren die aan uw behoeften beantwoordt.
 
    Transactieberichten die zijn gebaseerd op gebeurtenissen, zijn gericht op gegevens die zich in de gebeurtenis zelf bevinden, terwijl op profielen gebaseerde transactieberichten gegevens bevatten die zich in de Adobe Campagne-database bevinden. Raadpleeg voor meer informatie de specifieke configuraties [van](#transactional-event-specific-configurations)Transactionele gebeurtenissen.
 
+>[!NOTE]
+>
+>Het aantal gemaakte realtime-gebeurtenissen kan van invloed zijn op uw platform. Voor optimale prestaties moet u realtime gebeurtenissen verwijderen die u niet meer nodig hebt. Zie Een gebeurtenis [verwijderen](#deleting-an-event).
+
 ## Gebeurteniskenmerken definiëren {#defining-the-event-attributes}
 
 In de **[!UICONTROL Fields]** sectie, bepaal de attributen die in de gebeurtenisinhoud zullen worden geïntegreerd en dan zullen kunnen worden gebruikt om het transactionele bericht te personaliseren.
@@ -71,7 +77,7 @@ De stappen voor het toevoegen en wijzigen van velden zijn gelijk aan die voor [a
 
 U kunt aan de inhoud van de gebeurtenis een inzameling van elementen toevoegen, elk element zelf met verscheidene attributen.
 
-Deze verzameling kan worden gebruikt in een transactie-e-mail om productaanbiedingen aan de inhoud van het bericht toe te voegen, bijvoorbeeld een lijst met producten - met de prijs, het referentienummer, het aantal, enz. voor elk product in de lijst.
+Deze verzameling kan worden gebruikt in een transactie-e-mail om [productaanbiedingen](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message) aan de inhoud van het bericht toe te voegen, bijvoorbeeld een lijst met producten - met de prijs, het referentienummer, het aantal, enz. voor elk product in de lijst.
 
 1. Klik in de **[!UICONTROL Collections]** sectie op de **[!UICONTROL Create element]** knop.
 
@@ -84,6 +90,12 @@ Deze verzameling kan worden gebruikt in een transactie-e-mail om productaanbiedi
 
    ![](assets/message-center_collection_fields.png)
 
+1. Op het **[!UICONTROL Enrichment]** tabblad kunt u elk item van de verzameling verrijken. Op deze manier kunt u de elementen van de overeenkomende productlijst aanpassen met informatie uit de Adobe Campagne-database of uit andere bronnen die u hebt gemaakt.
+
+>[!NOTE]
+>
+>De stappen voor het verrijken van de elementen van een verzameling zijn gelijk aan de stappen die worden beschreven in de sectie [Verrijken van de gebeurtenis](#enriching-the-transactional-message-content) . Door de gebeurtenis te verrijken, kunt u een verzameling niet verrijken: u moet een verrijking aan de inzameling zelf in de **[!UICONTROL Collections]** sectie toevoegen.
+
 Zodra de gebeurtenis en het bericht worden gepubliceerd, zult u deze inzameling in uw transactiebericht kunnen gebruiken.
 
 Hier volgt de API-voorvertoning voor dit voorbeeld:
@@ -95,9 +107,9 @@ Hier volgt de API-voorvertoning voor dit voorbeeld:
 * [De gebeurtenis voorvertonen en publiceren](#previewing-and-publishing-the-event)
 * [Productaanbiedingen in een transactiebericht gebruiken](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-## De inhoud van transactiemeldingen verrijken {#enriching-the-transactional-message-content}
+## De gebeurtenis verrijken {#enriching-the-transactional-message-content}
 
-Door de inhoud van transactiemeldingen te verrijken met informatie uit de Adobe Campagne-database, kunt u uw berichten personaliseren. Van achternaam of identiteitskaart van CRM van elk van uw ontvangers, bijvoorbeeld, kunt u gegevens zoals hun adres of geboortedatum of een ander douanegebied terugkrijgen dat in de lijst van het Profiel wordt toegevoegd, om de informatie te personaliseren die naar hen wordt verzonden.
+U kunt de inhoud van transactiemeldingen verrijken met informatie uit de Adobe Campagne-database om uw berichten aan uw persoonlijke wensen aan te passen. Van achternaam of identiteitskaart van CRM van elk van uw ontvangers, bijvoorbeeld, kunt u gegevens zoals hun adres of geboortedatum of een ander douanegebied terugkrijgen dat in de lijst van het Profiel wordt toegevoegd, om de informatie te personaliseren die naar hen wordt verzonden.
 
 Het is mogelijk om de inhoud van het transactiebericht te verrijken met informatie van uitgebreid **[!UICONTROL Profile and services Ext API]**. Zie API [uitbreiden voor meer informatie: De extensie publiceren](../../developing/using/step-2--publish-the-extension.md)
 
