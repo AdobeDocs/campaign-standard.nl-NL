@@ -12,7 +12,7 @@ discoiquuid: 0130733d-4e3f-40cd-b959-56381f2c8f44
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
+source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
 
 ---
 
@@ -24,7 +24,7 @@ Als u een bron wilt verwijderen, moet de bron in kwestie een **[!UICONTROL Draft
 * Het is zojuist opgericht en is nog niet gepubliceerd.
 * Als het al is gepubliceerd, moet de bron opnieuw worden opgesteld.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Het herschrijven en schrappen van een douanemiddel zijn gevoelige verrichtingen die andere middelen kunnen beïnvloeden. Deze handelingen mogen alleen door een deskundige gebruiker worden uitgevoerd.
 
