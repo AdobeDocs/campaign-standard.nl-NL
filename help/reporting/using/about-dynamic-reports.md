@@ -12,20 +12,20 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 6bf67d05ec8f5b4024df29c7ee7df7fc15e95e0a
 
 ---
 
 
 # Dynamische rapporten{#about-dynamic-reports}
 
+De dynamische Rapportering verstrekt volledig klantgerichte en real-time rapporten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. Met de belemmering-en-dalingsinterface, kunt u gegevens onderzoeken, bepalen hoe uw e-mailcampagnes tegen uw belangrijkste klantensegmenten werden uitgevoerd en hun effect op ontvangers meten.
+
 >[!NOTE]
 >
 >Alleen gebruikers met beheerrechten of met organisatorische eenheden die op **Alles** zijn ingesteld, kunnen een nieuw rapport maken of opslaan. For more on this, refer to this [section](../../administration/using/users-management.md).
 
 ![](assets/dynamic_report_intro.png)
-
-De dynamische Rapportering verstrekt volledig klantgerichte en real-time rapporten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. Met de belemmering-en-dalingsinterface, kunt u gegevens onderzoeken, bepalen hoe uw e-mailcampagnes tegen uw belangrijkste klantensegmenten werden uitgevoerd en hun effect op ontvangers meten.
 
 Dankzij het slepen en neerzetten en aanpasbare visualisaties kunt u met de functie voor dynamische rapporten dimensies, metriek en tijdbereik in elke combinatie combineren met onbeperkte onderverdelingen en vergelijkingen.
 
