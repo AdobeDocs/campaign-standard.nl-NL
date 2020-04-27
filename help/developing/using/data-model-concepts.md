@@ -13,7 +13,7 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1deeead4ad311fd3ba3a5e9d27a67d3a1dadf3d2
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -30,14 +30,14 @@ Via het menu **[!UICONTROL Administration]** > **[!UICONTROL Development]** , da
 
 De gegevens die door Adobe Campaign worden gebruikt, worden via verschillende bronnen gedefinieerd. U kunt het gegevensmalplaatje **** verrijken dat door uw eigen douanemiddelen, zoals aankoop of productlijsten wordt verstrekt te creëren.
 
-Bronnen buiten de box (zoals campagnes, e-mails of publiek) kunnen niet worden gewijzigd. Aangepaste bronnen kunnen echter worden uitgebreid om nieuwe velden toe te voegen.
+Ingebouwde bronnen (zoals campagnes, e-mails of publiek) kunnen niet worden gewijzigd. Aangepaste bronnen kunnen echter worden uitgebreid om nieuwe velden toe te voegen.
 
-Extensievelden worden gegenereerd met een voorvoegsel, zodat ze nooit een conflict veroorzaken met de velden buiten het vak.
+Extensievelden worden gegenereerd met een voorvoegsel, zodat ze nooit een conflict veroorzaken met de ingebouwde velden.
 
 >[!NOTE]
 >
->U kunt een datamodel vertegenwoordiging voor de uit-van-de-doos middelen [hier](../../developing/using/datamodel-introduction.md)vinden.
+>U kunt een datamodel-vertegenwoordiging voor de ingebouwde middelen in [deze pagina](../../developing/using/datamodel-introduction.md)vinden.
 
-U kunt de navigatie **in de schermen ook** vormen die aan het gecreeerde middel beantwoorden.
+U kunt de navigatie [in de schermen ook](configuring-the-screen-definition.md) vormen die aan het gecreeerde middel beantwoorden.
 
 Het is mogelijk aangepaste bronnen te **exporteren en te importeren** , bijvoorbeeld van een ontwikkeling naar een productieomgeving. Raadpleeg deze [stapsgewijze gebruiksaanwijzing](../../automating/using/exporting-importing-custom-resources.md)voor meer informatie.
