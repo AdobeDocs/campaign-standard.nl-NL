@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
+source-git-commit: f0f7441f06b51f9bd2d5a1b3c26f031d4eb1e4c1
 
 ---
 
@@ -46,9 +46,9 @@ Het berichttype wordt bepaald wanneer het vormen van de gebeurtenis die in een t
 
 Transactieberichten zijn ook beschikbaar via de Adobe Campagne Standard API. Raadpleeg de [desbetreffende documentatie](../../api/using/managing-transactional-messages.md)voor meer informatie hierover.
 
->[!IMPORTANT]
+>[!NOTE]
 >
->Alle transactieberichten worden nu verzonden met de verbeterde MTA van de Campagne van Adobe voor betere leverability, productie, en stuiterende behandeling. Alle effecten zijn hetzelfde als bij standaardmarketingberichten.
+>Alle transactieberichten worden nu verzonden met de verbeterde MTA van de Campagne van Adobe voor betere leverability, productie, en stuiterende behandeling. Alle effecten zijn hetzelfde als bij standaardmarketingberichten. Zie deze [sectie](../../administration/using/configuring-email-channel.md)voor meer informatie.
 
 ## Operationeel beginsel van het transactieverkeer {#transactional-messaging-operating-principle}
 
