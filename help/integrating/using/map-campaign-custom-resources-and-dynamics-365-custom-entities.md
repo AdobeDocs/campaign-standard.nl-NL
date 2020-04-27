@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -35,7 +35,7 @@ Een uitgebreider overzicht van de aangepaste bronnen voor campagnes vindt u [op 
 
 Als u de integratie voor aangepaste entiteiten wilt instellen, kunt u zich wenden tot [adobe-support@unifisoftware.com](mailto:adobe-support@unifisoftware.com) .  Unifi zal de namen van de lijsten van de douaneentiteit in beide systemen, evenals de gewenste attributenafbeeldingen vereisen.  Unifi zal dan de overeenkomstige banen en dienstregelingen creëren.
 
-Een voorbeeld van het gebruik van de steun van de douaneentiteit kan in de sectie [van het Geval van het](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md#UC)Gebruik worden gezien.
+Hieronder ziet u een voorbeeld van het gebruik van aangepaste eenheidondersteuning.
 
 >[!CAUTION]
 >
@@ -44,7 +44,6 @@ Een voorbeeld van het gebruik van de steun van de douaneentiteit kan in de secti
 
 
 ## Hoofdletters gebruiken
-
 
 ### Beginstaat
 
@@ -179,5 +178,5 @@ Na voltooiing van de ingangsbaan, kunnen de voertuiggegevens nu in de onlangs be
 
 **Verwante onderwerpen**
 
-* Werken met Adobe Campaign Standard - Microsoft Dynamics 365
-* Belangrijke stappen voor het toevoegen van een aangepaste bron in de campagne
+* [Werken met Adobe Campaign Standard - Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Belangrijke stappen voor het toevoegen van een aangepaste bron in de campagne](../../developing/using/key-steps-to-add-a-resource.md)
