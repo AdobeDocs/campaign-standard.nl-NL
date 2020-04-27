@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
+source-git-commit: e5c21e1398d5fbe39761ab00ada24263317e6742
 
 ---
 
@@ -76,7 +76,7 @@ Als de workflow eenmaal is gestart, kan deze ook twee andere statussen hebben:
 
 * **Waarschuwing** (geel)
 
-   De werkstroom kon niet worden voltooid of werd gepauzeerd met de ![](assets/pause_darkgrey-24px.png) knoppen of ![](assets/check_pause_darkgrey-24px.png) knoppen.
+   De werkstroom kon niet worden voltooid of was gepauzeerd met de ![](assets/pause_darkgrey-24px.png) knoppen of de ![](assets/check_pause_darkgrey-24px.png) knoppen.
 
 * **Onjuist** (rood)
 
@@ -199,7 +199,7 @@ Mogelijke opties zijn:
 
 * **[!UICONTROL Default affinity]**: in dit veld kunt u ervoor zorgen dat een workflow of een werkstroomactiviteit op een bepaalde computer wordt uitgevoerd.
 
-* **[!UICONTROL History in days]**: geeft het aantal dagen aan waarna de historie moet worden gewist. De geschiedenis bestaat uit alle elementen die verwant zijn aan logboeken, taken, gebeurtenissen. De standaardwaarde is 30 dagen voor workflowsjablonen buiten de box.
+* **[!UICONTROL History in days]**: geeft het aantal dagen aan waarna de historie moet worden gewist. De geschiedenis bevat elementen die gerelateerd zijn aan de workflow: logbestanden, taken, gebeurtenissen (technische objecten die zijn gekoppeld aan de workflowbewerking), en bestanden die door de **[!UICONTROL Transfer file]** activiteit zijn gedownload. De standaardwaarde is 30 dagen voor workflowsjablonen buiten de box.
 
    De geschiedenis wordt gewist door het technische werk van de Opschoonmaakbeurt van het Gegevensbestand, dat door gebrek dagelijks wordt uitgevoerd (zie [Lijst van technische werkschema](../../administration/using/technical-workflows.md).)
 
