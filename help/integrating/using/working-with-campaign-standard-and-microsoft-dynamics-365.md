@@ -1,6 +1,6 @@
 ---
-title: Werken met de Standaard van de Campagne en Dynamica 365 van Microsoft
-description: Leer hoe te met de Norm van de Campagne en Dynamica 365 van Microsoft te werken
+title: Aan de slag met de integratie van Microsoft Dynamics 365
+description: Leer hoe u aan de slag kunt met de integratie van Microsoft Dynamics 365
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
 contentOwner: sauviat
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
+source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
 
 ---
 
 
-# Werken met de Standaard van de Campagne en Dynamica 365 van Microsoft
+# Aan de slag met de integratie van Microsoft Dynamics 365
 
 Activeer uw CRM-gegevens voor kanaalcommunicatie: Leer hoe te om contacten van de Dynamica 365 van Microsoft aan de Campagne van Adobe over te brengen, en de gegevens van campagneprestaties (verzendt, opent, klikt, en stuit) terug van de Campagne van Adobe aan de Dynamica 365 van Microsoft te delen.
 
