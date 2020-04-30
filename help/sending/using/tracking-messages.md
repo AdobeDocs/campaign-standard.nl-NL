@@ -12,7 +12,7 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50aeb40d891f6a089a556ef25eba87e568a88e94
+source-git-commit: b8c3569fc3965f463a06ae8375a623553037e248
 
 ---
 
@@ -30,7 +30,7 @@ Trackinggegevens zijn beschikbaar voor elk contact van uw database met **[!UICON
 Adobe Campaign gebruikt twee soorten cookies:
 
 * Een sessiecookie (ongeldig). Dit bevat het herkenningsteken van e-mail die naar het contact (broadlogId) wordt verzonden en herkenningsteken van het berichtmalplaatje (deliveryId). Deze wordt toegevoegd wanneer de contactpersoon op een URL klikt die is opgenomen in een e-mailbericht dat is verzonden door Adobe Campaign. Hiermee kunt u het gedrag van de contactpersoon op het web volgen. Deze sessiecookie wordt automatisch gewist wanneer de browser wordt gesloten. De contactpersoon kan zijn browser configureren om cookies te weigeren.
-* Een cookie die wordt gedeeld tussen Adobe Experience Cloud-oplossingen. Op deze manier kunt u de gebruikers identificeren die met de Experience Cloud-oplossingen werken wanneer ze een website bezoeken. De beschrijving van deze cookie is hier beschikbaar: [https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html).
+* Een cookie die wordt gedeeld tussen Adobe Experience Cloud-oplossingen. Op deze manier kunt u de gebruikers identificeren die met de Experience Cloud-oplossingen werken wanneer ze een website bezoeken. De beschrijving van deze cookie is [hier](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html)beschikbaar.
 
 Als u opvolgt met de Adobe Campaign Standard, hebt u toegang tot de volgende functies:
 
