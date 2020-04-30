@@ -1,5 +1,5 @@
 ---
-title: Het gebruiken van de Dynamica 365 van Microsoft met de Standaardintegratie van de Campagne
+title: De integratie van Microsoft Dynamics 365 gebruiken
 description: Leer hoe te om de Dynamica 365 van Microsoft met de integratie van de Standaard van de Campagne te gebruiken
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bff3b8f8f58c491e4010d24132b0fa3e93c3a7ab
+source-git-commit: de048c06ea2af0c988e97a37ebf945906069935e
 
 ---
 
 
-# Het gebruiken van de Dynamica 365 van Microsoft met de Standaardintegratie van de Campagne
+# De integratie van Microsoft Dynamics 365 gebruiken
 
 Deze integratie biedt verschillende functies:
 
@@ -90,23 +90,23 @@ Om de Chronologie van een contact te bekijken, navigeer aan uw contactenlijst do
 
 Hieronder ziet u een momentopname van het scherm van het Contact voor &quot;Gebruiker van de Dynamiek&quot;.  In de mening van de Chronologie, zult u merken dat de Gebruiker van de Dynamiek een e-mail werd verzonden verbonden aan de Naam van de Campagne &quot;2019LoyaltyCamp&quot;en de Naam van de Levering &quot;DM190&quot;.  Dynamics User opende het e-mailbericht en klikte ook een URL in e-mail; beide acties hebben gebeurtenissen gemaakt die ook hieronder worden weergegeven .  Als u naar de rechterhoek kijkt, ziet u de RA-kaart (Relationship Assistant). bevat momenteel een taak die moet worden opgevolgd op de aangeklikte URL.
 
-![](assets/MSdynamicsACS-usage4.png)
+![](assets/do-not-localize/MSdynamicsACS-usage4.png)
 
 Zie hieronder voor een close-up van de mening van de Chronologie voor de Gebruiker van de Dynamiek.
 
-![](assets/MSdynamicsACS-usage5.png)
+![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
 Hieronder volgt een close-up van de Relationship Assistant-kaart (RA).  De app AppSource bevat een workflow die zoekt naar een Adobe-gebeurtenis Click URL.  Wanneer deze gebeurtenis zich voordoet, wordt een taak gemaakt en wordt een vervaldatum ingesteld.  Hierdoor kan de taak worden weergegeven in de RA-kaart, waardoor deze meer zichtbaar wordt.  Er is een vergelijkbare workflow voor Adobe e-mailstuitgebeurtenissen, waarbij u een taak toevoegt om het ongeldige e-mailadres te combineren.  Deze workflows kunnen in de oplossing worden uitgeschakeld.
 
-![](assets/MSdynamicsACS-usage6.png)
+![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
 Als u klikt op het onderwerp van de verzendgebeurtenis, ziet u een formulier dat lijkt op het hieronder weergegeven formulier.  De formulieren voor open en bounce-gebeurtenissen zijn vergelijkbaar.
 
-![](assets/mirror_page_url_send.png)
+![](assets/do-not-localize/mirror_page_url_send.png)
 
 Het formulier voor URL-klikgebeurtenissen voor e-mail voegt een extra kenmerk toe voor de URL waarop is geklikt:
 
-![](assets/mirror_page_url_click.png)
+![](assets/do-not-localize/mirror_page_url_click.png)
 
 Hieronder volgt een lijst met kenmerken en een beschrijving:
 
