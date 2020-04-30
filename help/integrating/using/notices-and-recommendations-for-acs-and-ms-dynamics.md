@@ -1,5 +1,5 @@
 ---
-title: '"Werken met de Standaard van de Campagne en Dynamica 365 van Microsoft: Kennisgevingen en aanbevelingen"'
+title: Over de integratie van Microsoft Dynamics 365
 description: Leer berichten en aanbevelingen voor hoe te met de Norm van de Campagne en de Dynamica 365 van Microsoft te werken
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 620be6615d162672948c3dccdae2752b8c999c47
+source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
 
 ---
 
 
-# Werken met de Standaard van de Campagne en Dynamica 365 van Microsoft: Aankondigingen en aanbevelingen
+# Over de integratie van Microsoft Dynamics 365
 
 ## Ondersteuning voor regio
 
@@ -61,7 +61,7 @@ Raadpleeg [How to execute privacy related delete request in Adobe Campaign Stand
 
 ## Uitschakelen
 
-Wegens de verschillen in opt-outattributen tussen Dynamiek 365 en Campagne, en door de verschillen in bedrijfsvereisten van elke klant, is de opt-out afbeelding verlaten als oefening voor de klant om te voltooien. Het is belangrijk ervoor te zorgen dat de optie-outs correct tussen systemen worden toegewezen, zodat de voorkeuren voor de optie-out voor eindgebruikers behouden blijven en er geen communicatie plaatsvindt via een kanaal dat ze hebben opgegeven.
+Wegens de verschillen in opt-outattributen tussen Dynamiek 365 en Campagne, en wegens de verschillen in bedrijfsvereisten van elke klant, is de opt-out afbeelding verlaten als oefening voor de klant om te voltooien. Het is belangrijk ervoor te zorgen dat de optie-outs correct tussen systemen worden toegewezen, zodat de voorkeuren voor de optie-out voor eindgebruikers behouden blijven en er geen communicatie plaatsvindt via een kanaal dat ze hebben opgegeven.
 
 Houd er rekening mee dat alleen Campagnekenmerken met het voorvoegsel &quot;blackList&quot; (bijvoorbeeld blackListEmail) of het specifieke kenmerk voor de optie om te weigeren in toewijzingen voor niet-aanmelding kunnen worden gebruikt.  In Dynamiek 365, hebben de meeste opt-outgebieden het &quot;doNot&quot;prefix; echter, kunt u douanekenmerken ook gebruiken u voor opt-outdoeleinden hebt gecreeerd als de gegevens-types compatibel zijn.
 
