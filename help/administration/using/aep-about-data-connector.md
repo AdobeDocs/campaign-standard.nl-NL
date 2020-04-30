@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
+source-git-commit: 9388df151eabbc6f63461e854d0276c14d9ef93d
 
 ---
 
@@ -70,7 +70,7 @@ Hoe kan ik-video&#39;s zijn ook beschikbaar op [deze pagina](https://docs.adobe.
 
 * De overdracht van abonnementsgebeurtenissen buiten de box wordt niet ondersteund. Als u abonnementsgebeurtenissen wilt overbrengen, kunt u de bijbehorende XDM en gegevensset maken op het Adobe Experience Platform en vervolgens een aangepaste gegevenstoewijzing voor deze gegevens configureren.
 
-* Met betrekking tot privacyverzoeken moeten klanten afzonderlijke aanvragen indienen voor de belangrijkste privacyservice van Campagne en het Adobe Experience Platform voor zowel toegang als verwijdering.
+* Met betrekking tot privacyverzoeken (zowel toegangs- als verwijderacties) moeten klanten afzonderlijke aanvragen indienen: één voor Campagne via de integratie van de Privacy Core Service (zie [deze sectie](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess)), en één voor het Platform van de Ervaring van Adobe via zijn [Privacy Service](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa). Zie [deze pagina](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess)voor meer informatie over aanvragen voor toegang en verwijderen.
 
 * Voor elk XDM-veld moet de DULE-labeling worden uitgevoerd in het Adobe Experience Platform. Dit is de verantwoordelijkheid van de klant om DULE-labels toe te passen.
 
