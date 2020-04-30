@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -59,15 +59,15 @@ De klant heeft een voertuig van de douaneentiteit vooraf bepaald in Dynamica 365
 
 De douaneentiteiten van deze klant in Dynamiek 365 kunnen in het Dashboard van de Verkoop worden bekeken door op de drop-down naast Dynamiek 365 te klikken.  De aangepaste entiteiten van deze klant zijn gegroepeerd onder **[!UICONTROL Extensions]**.
 
-![](assets/SalesDashboard.png)
+![](assets/do-not-localize/SalesDashboard.png)
 
 U kunt de gegevens van het voertuig bekijken door op de **[!UICONTROL vehicle]** aangepaste entiteit te klikken.  Zie de onderstaande lijst met voertuigen.
 
-![](assets/VehicleCustomEntity.png)
+![](assets/do-not-localize/VehicleCustomEntity.png)
 
 De relatie van de **[!UICONTROL vehicle]** entiteit met de **[!UICONTROL Contact]** entiteit is hieronder te zien. **[!UICONTROL Parental]** is gekozen voor de **[!UICONTROL Type of Behavior]**.
 
-![](assets/ContactToVehicle.png)
+![](assets/do-not-localize/ContactToVehicle.png)
 
 ### Configuratie in de standaard Campagne
 
@@ -102,7 +102,7 @@ De campagne zal dan gegevensstructuren en verbindingspagina tonen.  U ziet dat e
 >
 >Elke douanebron moet een uniek gebied met identiteitskaart van externalId (precies) hebben.  Dit gebied zal aan het gebied van identiteitskaart van het douanemiddel in Dynamiek 365 (zie hieronder) in kaart brengen.
 
-![](assets/FieldsInDynamics.png)
+![](assets/do-not-localize/FieldsInDynamics.png)
 
 ### De identificatietoetsen definiëren
 
@@ -170,7 +170,7 @@ Klik vervolgens **[!UICONTROL Publish]** en wacht tot de bewerking is voltooid.
 
 Ervan uitgaande dat de klant de aangepaste voertuigentiteit reeds heeft ingevuld in Dynamics 365 en dat Unifi hun aangepaste entiteitstaken en -schema’s voor voertuigen heeft opgezet met, moet de klant het ingangsschema voor de voertuigentiteit kunnen afschoppen.
 
-![](assets/Schedule.png)
+![](assets/do-not-localize/Schedule.png)
 
 Na voltooiing van de ingangsbaan, kunnen de voertuiggegevens nu in de onlangs bevolkte **[!UICONTROL Vehicle]** douanemiddel in Campaign worden gezien.
 
