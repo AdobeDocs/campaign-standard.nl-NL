@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
+source-git-commit: e904118852b06263b1320d65867539feb6360053
 
 ---
 
@@ -108,6 +108,8 @@ Een inhoudsblok toevoegen:
 De naam van het inhoudsblok wordt weergegeven in de editor en geel gemarkeerd. Het zal automatisch aan het profiel aanpassen wanneer de verpersoonlijking wordt geproduceerd.
 
 ![](assets/email_content_block_3.png)
+
+De uit-van-de-doos inhoudsblokken zijn:
 
 De uit-van-de-doos inhoudsblokken zijn:
 
