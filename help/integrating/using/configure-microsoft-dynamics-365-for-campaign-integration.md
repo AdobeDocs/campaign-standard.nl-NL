@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -57,7 +57,7 @@ Volg de onderstaande stappen om het toegangstoken OAuth te genereren.
 
 1. Klik **[!UICONTROL New registration]** bij de bovenkant van het scherm.
 
-   ![](assets/MSdynACSIntegration-7.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-7.png)
 
 1. Vul het registratiescherm voor de app in:
 
@@ -74,7 +74,7 @@ Raadpleeg [deze sectie](https://docs.microsoft.com/en-us/azure/active-directory/
 
 1. Klik in het scherm met het overzicht van de toepassing op het submenu links op **[!UICONTROL Certificates and Secrets > New client secret]**
 
-   ![](assets/MSdynACSIntegration-8.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-8.png)
 
 1. Voer een beschrijving in, stel de duur in en klik op **[!UICONTROL OK]**.
 
@@ -90,11 +90,11 @@ Raadpleeg deze sectie voor meer informatie over het genereren van een clientgehe
 
 1. Klik in dit scherm of in het overzichtsscherm van de toepassing op **[!UICONTROL API permissions]** het submenu links.  Nadat u hebt geklikt **[!UICONTROL Add a permission]**, moet u **[!UICONTROL Dynamics CRM]** in het menu selecteren.
 
-   ![](assets/MSdynACSIntegration-9.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-9.png)
 
 1. Schakel vervolgens het selectievakje in **[!UICONTROL user_impersonation]** en klik op de **[!UICONTROL Add permissions]** knop.
 
-   ![](assets/MSdynACSIntegration-10.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-10.png)
 
 Raadpleeg [deze sectie](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis)voor meer informatie over het instellen van machtigingen.
 
@@ -138,7 +138,7 @@ Volg de instructies in de volgende koppeling om uw huurder-id te zoeken.  U hebt
 Volg onderstaande stappen om de Dynamics 365 App te integreren in uw omgeving van Campagne Standard:
 
 1. Ga naar de volgende koppeling: [https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps) en zoek naar _Adobe Campaign for Dynamics 365_ op de zoekbalk.
-U kunt ook naar deze [koppeling](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&tab=Overview)navigeren.
+U kunt ook naar deze [koppeling](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview)navigeren.
 1. Volg de instructies om app voor uw instantie Dynamics 365 te installeren.
 1. Na geïnstalleerd, navigeer aan uw instantie van de Dynamiek 365 en teken binnen als beheerder.
 1. Klik op het tandwielpictogram in de rechterbovenhoek en klik op **[!UICONTROL Advanced Settings]**. Klik in de bovenste banner op de vervolgkeuzelijst naast **[!UICONTROL Settings]** en klik op **[!UICONTROL Processes]** onder **[!UICONTROL Process Center]**.
