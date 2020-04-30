@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: 5d4560a26c0f5c6d3e8710caf51d4a82fbf80174
 
 ---
 
@@ -31,9 +31,15 @@ Externe API-activiteit (GA) - [Lees meer](../../automating/using/external-api.md
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
-* Er is informatie toegevoegd aan het **[!UICONTROL History in days]** veld in de eigenschappen van workflows waarin nu bestanden zijn opgenomen die door de **[!UICONTROL Transfer file]** activiteit zijn gedownload. [Meer informatie](../../automating/using/executing-a-workflow.md)
+Er is informatie toegevoegd aan het **[!UICONTROL History in days]** veld in de eigenschappen van workflows waarin nu bestanden zijn opgenomen die door de **[!UICONTROL Transfer file]** activiteit zijn gedownload. [Meer informatie](../../automating/using/executing-a-workflow.md)
 
-* Er is informatie toegevoegd aan de sectie voor profielvervanging met betrekking tot de limiet van 500 tekens voor het voorvoegsel van de onderwerpregel. [Meer informatie](../../sending/using/testing-messages-using-target.md)
+Er is informatie toegevoegd aan de sectie voor profielvervanging met betrekking tot de limiet van 500 tekens voor het voorvoegsel van de onderwerpregel. [Meer informatie](../../sending/using/testing-messages-using-target.md)
+
+Er is een nieuwe sectie over privacy en toestemming toegevoegd aan de kerndocumentatie. [Meer informatie](../../start/using/privacy.md)
+
+* Er is een gebruiksscenario toegevoegd waarmee u e-mailberichten van de oude editor kunt converteren naar de e-mailtoepassing van Designer. [Meer informatie](../../designing/using/converting-emails-from-legacy-editor.md)
+
+* Er is een vaak gestelde vraagsectie toegevoegd over de e-mailontwerper. [Meer informatie](../../designing/using/faq-email-designer.md)
 
 ## Documentatie-updates - april 2020 {#doc-updates-april-2020}
 
