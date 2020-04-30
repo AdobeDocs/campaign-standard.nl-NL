@@ -1,6 +1,6 @@
 ---
 title: Adobe IO configureren voor integratie met Microsoft Dynamics 365
-description: Leer hoe u Adobe IO voor Microsoft Dynamics 365-integratie configureert.
+description: Leer hoe u Adobe IO for Microsoft Dynamics 365-integratie configureert.
 page-status-flag: never-activated
 uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
@@ -136,7 +136,7 @@ Voorbeeld:  Campagnestandaard - uw campagne-organisatieID - Beheerders
 
 Klik op **[!UICONTROL Create Integration]**.
 
-![](assets/MSdynACSIntegration-4B.png)
+![](assets/do-not-localize/MSdynACSIntegration-4B.png)
 
 ### Integratiedetails instellen
 
@@ -144,13 +144,13 @@ Klik op **[!UICONTROL Create Integration]**.
 
 Controleer de integratiedetails.  U moet naar deze instructies terugverwijzen wanneer u Unifi-postprovisioning-stappen doorloopt.
 
-![](assets/MSdynACSIntegration-5.png)
+![](assets/do-not-localize/MSdynACSIntegration-5.png)
 
 1. Klik op de tab en voeg **[!UICONTROL Services]** services **[!UICONTROL I/O Events]** **[!UICONTROL I/O Management API]** en services toe.  Klik vervolgens op het keuzerondje om de service toe te voegen **[!UICONTROL Add service]**.  U zult dit voor elke dienst afzonderlijk doen.
 
 Als je klaar bent, worden je services bovenaan weergegeven, zoals in de onderstaande afbeelding. U zult niet de sectie a-op moeten voltooien die een JWT en toegangstoken produceert.
 
-![](assets/MSdynACSIntegration-6.png)
+![](assets/do-not-localize/MSdynACSIntegration-6.png)
 
 Post provisioning in Campaign is nu voltooid.  Ga aan volledige [postleveringsstappen voor de Dynamica 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)van Microsoft te werk.
 
