@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
+source-git-commit: 6aa48a9f36e0716b036288862d1a0064e489be92
 
 ---
 
@@ -22,14 +22,14 @@ Met de e-mailontwerper kunt u op vier manieren e-mailberichten maken.
 
 U kunt een nieuwe e-mail maken [die begint in de e-mailontwerper](#without-existing-content):
 
-* U kunt een e-mailbericht maken op basis van een leeg canvas door eenvoudig structuur- en inhoudsonderdelen toe te voegen en de inhoud aan te passen, zodat een levering snel verloopt. U kunt stijlelementen ook volledig beheren. Ga snel aan de [slag of raadpleeg de](#from-scratch-email) volledige documentatie [](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)voor meer informatie.
+1. U kunt een e-mailbericht **maken op basis van een leeg canvas** door eenvoudig structuur- en inhoudscomponenten toe te voegen en de inhoud aan te passen, zodat u snel een levering kunt verzenden. U kunt stijlelementen ook volledig beheren. Ga snel aan de [slag of raadpleeg de](#from-scratch-email) volledige documentatie [](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)voor meer informatie.
 
-* U kunt een e-mailbericht maken van een out-of-the-box-sjabloon door een sjabloon te selecteren en vanaf hier uw nieuwe e-mailinhoud te maken. [Meer informatie](#building-content-from-an-out-of-the-box-template)
+1. U kunt een e-mailbericht **maken op basis van een sjabloon** buiten de box door een sjabloon te selecteren en vanaf hier uw nieuwe e-mailinhoud te maken. [Meer informatie](#building-content-from-an-out-of-the-box-template)
 
 U kunt ook een e-mail maken [met bestaande inhoud](#with-existing-content):
 
-* U kunt bestaande HTML-inhoud (die extern is gemaakt of in de verouderde editor) converteren. [Meer informatie](#converting-an-html-content)
-* U kunt bestaande HTML-inhoud rechtstreeks importeren in de compatibiliteitsmodus. [Meer informatie](#compatibility-mode)
+1. U kunt bestaande HTML-inhoud **(die extern is gemaakt of in de verouderde editor)** converteren. [Meer informatie](#converting-an-html-content)
+1. U kunt een bestaande HTML-inhoud **direct** importeren in de compatibiliteitsmodus. [Meer informatie](#compatibility-mode)
 
 | Zonder inhoud | Met inhoud |
 |---|---|
@@ -139,7 +139,7 @@ Als u een raamwerk van modulaire sjablonen en fragmenten wilt maken die u kunt c
 
 ### HTML-inhoud converteren {#converting-an-html-content}
 
-Met deze kwestie kunt u HTML-e-mail snel converteren naar onderdelen van E-mailontwerper.
+Met deze kwestie kunt u HTML-e-mail snel converteren naar onderdelen van E-mailontwerper. Zie HTML-inhoud [omzetten voor meer informatie over dit onderwerp](../../designing/using/using-existing-content.md#converting-an-html-content).
 
 >[!CAUTION]
 >
@@ -149,84 +149,9 @@ Met deze kwestie kunt u HTML-e-mail snel converteren naar onderdelen van E-mailo
 >
 >Net als in de compatibiliteitsmodus kan een HTML-component met beperkte opties worden bewerkt: u kunt alleen op plaats een editie uitvoeren.
 
-Buiten de e-mailontwerper, zorg ervoor originele HTML in herbruikbare secties wordt verdeeld.
-
-1. Open de E-mailontwerper om een lege e-mailinhoud te maken.
-1. Stel de kenmerken voor het hoofdtekstniveau in: achtergrondkleuren, breedte, enz. Zie E-mailstijlen [](../../designing/using/styles.md)bewerken voor meer informatie.
-
-Als dit niet het geval is, snijd de verschillende blokken van uw HTML uit. Hier ziet u bijvoorbeeld een duidelijk afgebakende sectie:
-
-```
-<!-- 3 COLUMN w/CTA (SCALED) -->
-<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0" role="presentation" style="max-width:680px;">
-<tbody>
-<tr>
-<td class="padh10" align="center" valign="top" style="padding:0 5px 20px 5px;">
-<table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
-<tbody>
-<tr>
-...
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- //3 COLUMN w/CTA (SCALED) -->
-```
-
-Herhaal de volgende procedure voor elk gedeelte van uw bestaande e-mailbericht nadat u al uw blokken hebt geïdentificeerd:
-
-1. Voeg een structuurcomponent toe. Zie [De e-mailstructuur](../../designing/using/designing-from-scratch.md#defining-the-email-structure)bewerken voor meer informatie.
-1. Voeg een HTML-component toe. Zie Fragmenten en componenten [](../../designing/using/designing-from-scratch.md#defining-the-email-structure)toevoegen voor meer informatie.
-1. Kopieer en plak de HTML in die component.
-1. Schakel over naar de mobiele weergave. Zie [deze sectie](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)voor meer informatie.
-
-   De responsieve weergave is verbroken, omdat uw CSS ontbreekt.
-
-1. U kunt dit corrigeren door over te schakelen naar de modus Broncode en de stijlsectie te kopiëren en te plakken in een nieuwe stijlsectie. Bijvoorbeeld:
-
-   ```
-   <style type="text/css">
-   a {text-decoration:none;}
-   body {min-width:100% !important; margin:0 auto !important; padding:0 !important;}
-   img {line-height:100%; text-decoration:none; -ms-interpolation-mode:bicubic;}
-   ...
-   </style>
-   ```
-
-   >[!NOTE]
-   >
-   >Voeg vervolgens de stijl in een andere aangepaste stijltag toe.
-   >
-   >Wijzig de CSS die is gegenereerd door de e-mailontwerper niet:
-   >
-   >* `<style data-name="default" type="text/css">(##)</style>`
-   >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
-   >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
-   >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
-   >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
-
-
-1. Ga terug naar de mobiele weergave om te controleren of uw inhoud correct wordt weergegeven en sla uw wijzigingen op.
 
 ### Een HTML-e-mail importeren en bewerken {#compatibility-mode}
 
 Wanneer u inhoud uploadt, moet deze specifieke codering bevatten om volledig compatibel te zijn met en te kunnen worden bewerkt met de WYSIWYG-editor van de e-mailontwerper.
 
-Als de geüploade HTML geheel of gedeeltelijk niet voldoet aan de verwachte codering, wordt de inhoud vervolgens geladen in de &#39;compatibiliteitsmodus&#39;, die de versiemogelijkheden beperkt via de gebruikersinterface.
-
-Wanneer inhoud wordt geladen in de compatibiliteitsmodus, kunt u nog steeds de volgende wijzigingen uitvoeren via de interface (niet-beschikbare acties worden verborgen):
-
-* De tekst wijzigen of een afbeelding wijzigen
-* Koppelingen en aanpassingsvelden invoegen
-* Enkele opmaakopties voor het geselecteerde HTML-blok bewerken
-* Voorwaardelijke inhoud definiëren
-
-![](assets/email_designer_compatibility.png)
-
-Andere wijzigingen, zoals het toevoegen van nieuwe secties aan uw e-mail of geavanceerde opmaak, moeten rechtstreeks in de broncode van de e-mail worden uitgevoerd via de HTML-modus.
-Hoewel u in de compatibiliteitsmodus slepen en neerzetten niet kunt gebruiken, zijn er voor deze modus dezelfde functies beschikbaar als voor de oudere editor.
-
-Zie [deze sectie](../../designing/using/using-existing-content.md)voor meer informatie over het converteren van een bestaande e-mail naar een e-mail die compatibel is met e-mail die compatibel is met e-mail met Designer.
+Zie [deze sectie](../../designing/using/using-existing-content.md#compatibility-mode)voor meer informatie over het converteren van een bestaande e-mail naar een e-mail die compatibel is met e-mail die compatibel is met e-mail met Designer.
