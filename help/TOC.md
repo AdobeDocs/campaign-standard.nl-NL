@@ -4,7 +4,7 @@ sub-product: Adobe-campagnestandaard
 audience: end-user
 user-guide-title: Help bij Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
+source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
 
 ---
 
@@ -25,6 +25,7 @@ source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
 + Aan de slag {#getting-started}
    + Informatie over Adobe-campagne {#about-adobe-campaign}
       + [Campagne-orkestatie](start/using/campaign-orchestration.md)
+      + [Privacy en instemming](start/using/privacy.md)
       + [Segmentering en doelgerichtheid](start/using/segmentation-and-targeting.md)
       + [Dynamische en gepersonaliseerde inhoud](start/using/dynamic-and-personalized-content.md)
       + [Tracering, toezicht en rapportage](start/using/tracking--monitoring-and-reporting.md)
@@ -134,10 +135,12 @@ source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
       + [Werken met herbruikbare inhoud](designing/using/using-reusable-content.md)
       + [Integraties met meerdere oplossingen gebruiken](designing/using/using-integrations.md)
       + [Onbewerkte tekst, HTML en mobiele e-mails bewerken](designing/using/plain-text-html-modes.md)
+      + [E-mails van de oude editor converteren naar de e-mailontwerper](designing/using/converting-emails-from-legacy-editor.md)
    + [E-mailinhoud aanpassen](designing/using/personalization.md)
    + [E-mailstijlen beheren](designing/using/styles.md)
    + [Koppelingen beheren](designing/using/links.md)
    + [Afbeeldingen beheren](designing/using/images.md)
+   + [Veelgestelde vragen](designing/using/faq-email-designer.md)
 + Testen en verzenden {#testing-and-sending}
    + [Informatie over het verzenden van berichten via Campagne](sending/using/about-sending-messages-with-campaign.md)
    + Berichten voorbereiden en testen {#preparing-and-testing-messages}
@@ -241,10 +244,10 @@ source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
       + [Afsluiten Gebruiksgevallen activeren](integrating/using/abandonment-triggers-use-cases.md)
    + Campagne en de Dynamica 365 van Microsoft {#campaign-and-microsoft-dynamics-365}
       + Werken met de Standaard van de Campagne en Dynamica 365 van Microsoft {#working-with-campaign-standard-and-ms-dynamics}
-         + [Werken met de Standaard van de Campagne en Dynamica 365 van Microsoft](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-         + [Aankondigingen en aanbevelingen](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-         + [Het vragen van en het vormen van de Dynamica 365 van Microsoft met de Standaardintegratie van de Campagne](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-         + [Het gebruiken van de Dynamica 365 van Microsoft met de Standaardintegratie van de Campagne](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+         + [Aan de slag met de integratie van Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+         + [Over de integratie van Microsoft Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+         + [Vraag en vorm de integratie van de Dynamica 365 van Microsoft](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+         + [De integratie van Microsoft Dynamics 365 gebruiken](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
       + [Adobe IO configureren voor integratie met Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [Microsoft Dynamics 365 configureren voor integratie van campagnes](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
       + [Unifi configureren voor integratie met Microsoft Dynamics 365](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
