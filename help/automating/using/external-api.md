@@ -10,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e545e0ffba80f6165242f6974adf0e4c4abafff4
+source-git-commit: c59faa935663bf803ed97f30e45f9b4276b448b8
 
 ---
 
@@ -39,7 +39,9 @@ De belangrijkste kenmerken van deze activiteit zijn:
 
 Met de campagnestandaard 20.3-release is de externe API-functionaliteit van bèta naar algemene beschikbaarheid (GA) verplaatst.
 
-Dientengevolge, als u beta Externe API activiteiten gebruikte, moet u hen met GA Externe API activiteiten in alle werkschema&#39;s vervangen.  Workflows die de bètaversie van de externe API gebruiken, werken niet meer vanaf de release 20.3.
+>[!CAUTION]
+>
+>Dientengevolge, als u beta Externe API activiteiten gebruikte, moet u hen met GA Externe API activiteiten in alle werkschema&#39;s vervangen.  Workflows die de bètaversie van de externe API gebruiken, werken niet meer vanaf de release 20.3.
 
 Wanneer u externe API-activiteiten vervangt, voegt u de nieuwe externe API-activiteit toe aan de workflow, kopieert u handmatig over de configuratiedetails en verwijdert u vervolgens de oude activiteit.
 
