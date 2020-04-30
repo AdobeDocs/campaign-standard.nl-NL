@@ -1,5 +1,5 @@
 ---
-title: Het vragen van en het vormen van de Dynamica 365 van Microsoft met de Standaardintegratie van de Campagne
+title: Vraag en vorm de integratie van de Dynamica 365 van Microsoft
 description: Leer hoe te om de Dynamica 365 van Microsoft met de integratie van de Standaard van de Campagne te vragen en te vormen
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
 
 ---
 
 
-# Het vragen van de Dynamica 365 van Microsoft met de integratie van de Standaard van de Campagne
+# Vraag en vorm de integratie van de Dynamica 365 van Microsoft
 
 Om deze integratie mogelijk te maken, moet u de onderstaande stappen volgen.
 
