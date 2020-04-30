@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: eb7758c6d2b19bb7a302649626acead97497da9a
 
 ---
 
@@ -152,7 +152,7 @@ Wat fragmenten betreft, moet u het volgende opmerken:
 * Bij het bewerken van stijlen zijn alleen weblettertypen beschikbaar die officieel door de meeste e-mailclients worden ondersteund.
 * Stijlen kunnen niet worden opgeslagen als thema voor toekomstig hergebruik. De CSS-stijl kan echter worden opgeslagen in een inhoudssjabloon of in een e-mail. Zie [deze sectie](../../designing/using/styles.md)voor meer informatie over stijlen.
 
-**Verwante onderwerpen**:
+**Verwante onderwerpen**
 
 * [Een e-mail maken](../../channels/using/creating-an-email.md)
 * [Een openingspagina ontwerpen](../../channels/using/designing-a-landing-page.md)
