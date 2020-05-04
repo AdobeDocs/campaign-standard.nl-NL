@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a71af00e606d78c4ff8b39da1b9f032c0dcf0fc6
+source-git-commit: 0c9f465ac3df39fd5df1266c2f993c0b08d3d4fd
 
 ---
 
@@ -33,23 +33,23 @@ Alle releasedatums kunnen worden gewijzigd: We raden u aan deze pagina regelmati
 
 De updates van het milieu gebeuren in golven, tijdens de vermelde hieronder termijnen. Gedetailleerde informatie over deze versie vindt u in de [releaseopmerkingen](../../rn/using/release-notes.md). Neem contact op met de [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin)als u nog vragen hebt.
 
-<table> 
- <thead> 
-  <tr> 
-   <th> Omgeving<br /> </th> 
-   <th> Datums<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> Werkgebied<br /> </td> 
-   <td> 27 april 2020 - 28 april 2020<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Productie<br /> </td> 
-   <td> 4 mei - 11 mei 2020<br /> </td> 
-  </tr> 
- </tbody> 
+<table>
+ <thead>
+  <tr>
+   <th> Omgeving<br /> </th>
+   <th> Datums<br /> </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>Werkgebied<br /> </td>
+   <td><s>27 april 2020 - 28 april 2020</s> vertraging<br /> </td>
+  </tr>
+  <tr>
+   <td> Productie<br /> </td>
+   <td><s>4 mei - 11 mei 2020</s> vertraging<br /> </td>
+  </tr>
+ </tbody>
 </table>
 
 
