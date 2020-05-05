@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -25,7 +25,7 @@ Als u een profiel wilt maken of bijwerken in Campagne, kunt u:
 
 * Een profiellijst importeren vanuit een bestand via een [workflow](../../automating/using/importing-data.md#example--import-workflow-template)
 * Gegevens online verzamelen via [bestemmingspagina&#39;s](../../channels/using/getting-started-with-landing-pages.md)
-* Bulk maken via [REST API](../../api/using/about-campaign-standard-apis.md)
+* Bulk maken via [REST API](../../api/using/get-started-apis.md)
 * Profielen synchroniseren met [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 * Gegevens invoeren met de grafische interfaceschermen, zoals hieronder wordt uitgelegd
 
