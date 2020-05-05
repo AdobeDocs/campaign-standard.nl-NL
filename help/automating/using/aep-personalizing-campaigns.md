@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -57,6 +57,6 @@ Hiervoor moet u de volgende kenmerken aan de **[!UICONTROL Read audience]** acti
 
 Raadpleeg de documentatie bij Campagnestandaard voor meer informatie over het maken en personaliseren van leveringen:
 
-* [Communicatiekanalen detecteren](../../channels/using/discovering-communication-channels.md)
+* [Communicatiekanalen detecteren](../../channels/using/get-started-communication-channels.md)
 * [Kanaalactiviteiten](../../automating/using/about-channel-activities.md)
 * [Leveringen aanpassen](../../designing/using/personalization.md)
