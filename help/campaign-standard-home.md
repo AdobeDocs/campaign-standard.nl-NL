@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campagne Standard - productdocumentatie
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -63,7 +63,7 @@ source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 | Nuttige pagina&#39;s | Bronnen voor ontwikkelaars |
 |---|---|
 | [Opmerkingen bij de release](rn/using/release-notes.md) | [Experience Cloud-triggers](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [Documentatie van het regelpaneel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Campagne-API&#39;s](api/using/about-campaign-standard-apis.md) |
+| [Documentatie van het regelpaneel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Campagne-API&#39;s](api/using/get-started-apis.md) |
 | [Implementatiehandleiding](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) | [Lijst met foutberichten](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Release-planning](rn/using/release-planning.md) | [Campagne gegevensmodel](developing/using/datamodel-introduction.md) |
 | [Verouderde en verwijderde functies](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Hulplijn voor meerdere oplossingen](integrating/using/get-started-campaign-integrations.md) |
