@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -28,7 +28,7 @@ Directe post is een off-line kanaal dat u toestaat om het dossier te personalise
 
 Met onlinekanalen kunt u uw berichten maken (e-mail, sms, levering van mobiele apps, enz.) en stuur ze rechtstreeks vanuit Adobe Campaign naar uw doelgroep. Bij offlinekanalen is dit anders. Wanneer u een directe postbestelling voorbereidt, genereert Adobe Campagne een dossier met alle gerichte profielen en de gekozen contactinformatie (postadres bijvoorbeeld). U kunt dit bestand dan naar uw directe-mailprovider sturen, die voor de verzending zal zorgen.
 
-In de volgende sectie wordt uitgelegd hoe u een enkelvoudige directe maillevering maakt en genereert. U kunt ook direct-mailactiviteiten opnemen in een workflow om campagnes te organiseren waarin online en offline kanalen worden gecombineerd. Raadpleeg de handleiding [Workflows](../../automating/using/workflow-data-and-processes.md) voor meer informatie.
+In de volgende sectie wordt uitgelegd hoe u een enkelvoudige directe maillevering maakt en genereert. U kunt ook direct-mailactiviteiten opnemen in een workflow om campagnes te organiseren waarin online en offline kanalen worden gecombineerd. Raadpleeg de handleiding [Workflows](../../automating/using/get-started-workflows.md) voor meer informatie.
 
 Het gebruikersproces in Adobe Campaign is als volgt:
 
