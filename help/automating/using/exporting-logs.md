@@ -23,7 +23,7 @@ Loggegevens, of ze nu betrekking hebben op leveringen of op abonnementen, kunnen
 
 Door een bestand te gebruiken **[!UICONTROL Incremental query]** dat alleen nieuwe logbestanden ophaalt wanneer de workflow wordt uitgevoerd en een eenvoudige **[!UICONTROL Extract file]** activiteit om de uitvoerkolommen te definiëren, kunt u een bestand ophalen met de indeling en alle gegevens die u nodig hebt. Dan gebruik een **[!UICONTROL Transfer file]** activiteit om het definitieve dossier terug te winnen. Elke werkstroomuitvoering wordt gepland door een **[!UICONTROL Scheduler]**.
 
-De bewerking voor het exporteren van logbestanden kan worden uitgevoerd door standaardgebruikers. Particuliere middelen zoals: de uitzendingen, het volgen logboeken, de logboeken van het uitsluitingslogboeken van het abonnement en de geschiedenis van het abonnement logboeken op **Profielen** kunnen slechts door functionele beheerder worden beheerd.
+De bewerking voor het exporteren van logbestanden kan worden uitgevoerd door standaardgebruikers. Particuliere middelen zoals: de uitzendingen, het volgen logboeken, de logboeken van het uitsluitingslogboeken van het abonnement en de historie van het abonnement logboeken op **Profielen** kunnen slechts door functionele beheerder worden beheerd.
 
 1. Maak een nieuwe workflow zoals in [deze sectie](../../automating/using/building-a-workflow.md#creating-a-workflow)wordt beschreven.
 1. Voeg een **[!UICONTROL Scheduler]** activiteit toe en plaats het op uw behoeften. Hieronder ziet u een voorbeeld van een maandelijkse uitvoering.
