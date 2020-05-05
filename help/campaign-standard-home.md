@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campagne Standard - productdocumentatie
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 ---
 
@@ -34,7 +34,8 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
     <div>
     <a href="administration/using/about-access-management.md"><strong>Rollen en veiligheidsgroepen</strong></a>
     </div>
-    <em>Leer hoe te om toestemmingen te bepalen en rollen toe te wijzen aan de gebruikers</em>van de Campagne <br>
+    <em>Leer hoe u machtigingen definieert en rollen toewijst aan Campagnegebruikers</em>
+    <br>
   </td>
   <td valign="top">
     <a href="designing/using/designing-content-in-adobe-campaign.md">
@@ -43,12 +44,13 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Een e-mail ontwerpen</strong></a>
     </div>
-    <em>Leer hoe u responsieve en persoonlijke e-mailberichten</em>maakt met de e-mailontwerper <br>
+    <em>Leer hoe u responsieve en persoonlijke e-mailberichten maakt met de e-mailontwerper</em>
+    <br>
   </td>
   <td valign="top">
        <img alt="Ondersteuning" src="start/using/assets/do-not-localize/help.jpeg" />
     <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
-    Ondersteuning <strong>ophalen</strong></a>
+    <strong>Ondersteuning</strong></a>
     </div>
     <p><em>Toegang tot veelgestelde vragen, best practices, Help-bronnen en contact met de experts</em></p>
     <br>
@@ -64,5 +66,5 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 | [Documentatie van het regelpaneel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Campagne-API&#39;s](api/using/about-campaign-standard-apis.md) |
 | [Implementatiehandleiding](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) | [Lijst met foutberichten](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Release-planning](rn/using/release-planning.md) | [Campagne gegevensmodel](developing/using/datamodel-introduction.md) |
-| [Verouderde en verwijderde functies](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Hulplijn voor meerdere oplossingen](integrating/using/about-campaign-integrations.md) |
-| [Aan de slag met de standaard voor campagnes](start/using/campaign-orchestration.md) | [Technische noten](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
+| [Verouderde en verwijderde functies](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Hulplijn voor meerdere oplossingen](integrating/using/get-started-campaign-integrations.md) |
+| [Aan de slag met de standaard voor campagnes](start/using/about-campaign-standard.md) | [Technische noten](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
