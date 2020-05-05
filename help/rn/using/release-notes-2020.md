@@ -213,4 +213,4 @@ source-git-commit: f4c6b74d9b80d80befed65d853cf82b32084c49d
 * Probleem verholpen dat discrepantie veroorzaakte in tellingen van Unsubscription in Dynamic reporting. (CAMP-39949)
 * Probleem verholpen waarbij adressen niet konden worden weergegeven in het scherm Logboeken verzenden bij het verzenden van In-App-berichten.
 * Probleem verholpen waarbij het verzenden van SMS-logs niet met het juiste aantal berichten kon worden bijgewerkt. (CAMP-38395)
-* Probleem verholpen waarbij de berichttokens voor pushberichten konden worden bijgewerkt met het abonnement op de toepassing. (CAMP-39273)
+* Probleem verholpen waarbij de berichttokens voor pushberichten konden worden bijgewerkt met abonnementsberichten van de toepassing. (CAMP-39273)
