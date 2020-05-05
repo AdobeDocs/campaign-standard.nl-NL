@@ -74,7 +74,7 @@ Hier is alleen het eerste profiel bijgewerkt sinds het de oudste vermelding was.
 Voordat u een bestemmingspagina instelt, moet u eerst een sjabloon voor een bestemmingspagina configureren die aan uw behoeften voldoet. Zodra het malplaatje klaar is, zullen alle het landen pagina&#39;s die op het worden gebaseerd vooraf gevormd met de gewenste parameters.
 
 1. Selecteer / **[!UICONTROL Resources]** / **[!UICONTROL Templates]** **[!UICONTROL Landing page templates]**/ in het menu Geavanceerd via het Adobe Campagne-logo en dupliceer vervolgens de sjabloon die u wilt gebruiken.
-1. Geef in de sjablooneigenschappen alle parameters op die de bestemmingspagina&#39;s gemeenschappelijk moeten hebben. Bijvoorbeeld: de doeldimensie, de toegangsparameters voor bepaalde of niet-geïdentificeerde bezoekers, acties die specifiek zijn voor formuliervalidatie door een bezoeker, het merk/logo dat/dat in de inhoud moet worden gebruikt, enz. Zie [deze sectie voor meer informatie over eigenschappen van bestemmingspagina&#39;s](../../channels/using/configuring-landing-page.md)
+1. Geef in de sjablooneigenschappen alle parameters op die de bestemmingspagina&#39;s gemeenschappelijk moeten hebben. Bijvoorbeeld: de doeldimensie, de toegangsparameters voor bepaalde of niet-geïdentificeerde bezoekers, acties die specifiek zijn voor formuliervalidatie door een bezoeker, het merk/logo dat/dat in de inhoud moet worden gebruikt, enz. Raadpleeg [deze sectie voor meer informatie over eigenschappen van bestemmingspagina&#39;s](../../channels/using/configuring-landing-page.md)
 1. Sla uw wijzigingen op.
 
 Raadpleeg [deze sectie](../../channels/using/getting-started-with-landing-pages.md)voor meer informatie over sjablonen voor landingspagina&#39;s.
