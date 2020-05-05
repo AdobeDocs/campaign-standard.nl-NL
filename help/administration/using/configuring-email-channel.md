@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7af424d2b2ce29811dc0deb015113de2de0124c0
+source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 ---
 
@@ -44,7 +44,7 @@ In het configuratiescherm voor e-mail kunt u de parameters voor het e-mailkanaal
    * Zowel het afzenderadres als het foutadres worden ingesteld door Adobe. Deze velden mogen niet leeg zijn.
    * U kunt deze velden niet bewerken. Als u een adres wilt bijwerken, neemt u contact op met het team voor klantenservice van Adobe.
    * Als u nog een adres wilt toevoegen, gebruikt u het [Configuratiescherm](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) om een nieuw subdomein in te stellen of neemt u contact op met het team van de klantenservice van Adobe. Als u meerdere maskers gebruikt, worden deze door komma&#39;s van elkaar gescheiden.
-   * Het is aan te raden adressen in te stellen met een ster zoals **@yourdomain.com*: u kunt hiermee elk adres gebruiken dat eindigt met uw subdomeinnaam.
+   * Het is aan te raden adressen in te stellen met een ster zoals *@yourdomain.com: u kunt hiermee elk adres gebruiken dat eindigt met uw subdomeinnaam.
 
 * **Leverbaarheid**
 
