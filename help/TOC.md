@@ -4,7 +4,7 @@ sub-product: Adobe-campagnestandaard
 audience: end-user
 user-guide-title: Help bij Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
+source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
 
 ---
 
@@ -23,28 +23,19 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
    + [Release-planning](rn/using/release-planning.md)
    + [Verouderde functies](rn/using/deprecated-features.md)
 + Aan de slag {#getting-started}
-   + Informatie over Adobe-campagne {#about-adobe-campaign}
-      + [Campagne-orkestatie](start/using/campaign-orchestration.md)
-      + [Privacy en instemming](start/using/privacy.md)
-      + [Segmentering en doelgerichtheid](start/using/segmentation-and-targeting.md)
-      + [Dynamische en gepersonaliseerde inhoud](start/using/dynamic-and-personalized-content.md)
-      + [Tracering, toezicht en rapportage](start/using/tracking--monitoring-and-reporting.md)
-      + [Integreren met Adobe-oplossingen](start/using/integrating-with-adobe-solutions.md)
-      + [De verrijkende gegevensbestand van de Campagne](start/using/enriching-campaign-database.md)
+   + [Informatie over Adobe Campagne Standard](start/using/about-campaign-standard.md)
+   + [Privacy en instemming](start/using/privacy.md)
    + De interface detecteren {#discovering-the-interface}
       + [Over de interface](start/using/about-the-interface.md)
       + [Interfacebeschrijving](start/using/interface-description.md)
       + [Lijsten aanpassen](start/using/customizing-lists.md)
-   + Marketingplannen {#marketing-plans}
+   + Werken met marketingactiviteiten {#marketing-plans}
       + [Programma&#39;s en campagnes](start/using/programs-and-campaigns.md)
       + [Marketing](start/using/marketing-activities.md)
       + [Sjablonen voor marketingactiviteiten](start/using/marketing-activity-templates.md)
       + [Tijdlijn](start/using/timeline.md)
-   + Zelfstudies {#tutorials}
-      + [Stapsgewijze hulplijnen](start/using/step-by-step-guides.md)
-      + [Hoe kan ik-video&#39;s](start/using/how-to-videos.md)
 + Profielen en publiek {#profiles-and-audiences}
-   + [Profielen en publiek](audiences/using/about-profiles-and-audiences.md)
+   + [Aan de slag met profielen en publiek](audiences/using/get-started-profiles-and-audiences.md)
    + Profielen beheren {#managing-profiles}
       + [Profielen](audiences/using/about-profiles.md)
       + [Profielen maken](audiences/using/creating-profiles.md)
@@ -52,6 +43,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Geïntegreerd klantprofiel](audiences/using/integrated-customer-profile.md)
       + [Actieve profielen](audiences/using/active-profiles.md)
       + [Testprofielen beheren](audiences/using/managing-test-profiles.md)
+      + [De verrijkende gegevensbestand van de Campagne](audiences/using/enriching-campaign-database.md)
    + Het publiek beheren {#managing-audiences}
       + [Informatie over publiek](audiences/using/about-audiences.md)
       + [Soorten publiek maken](audiences/using/creating-audiences.md)
@@ -71,8 +63,8 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Adobe Experience Platform-publiek beheren](audiences/using/aep-managing-audiences.md)
       + [Het gebruiken van de Verenigde Bouwer van het Segment](audiences/using/aep-using-segment-builder.md)
 + Communicatiekanalen {#communication-channels}
+   + [Aan de slag met communicatiekanalen](channels/using/get-started-communication-channels.md)
    + Communicatiekanalen {#about-communication-channels}
-      + [Communicatiekanalen detecteren](channels/using/discovering-communication-channels.md)
       + [Belangrijkste stappen om een bericht te verzenden](channels/using/key-steps-to-send-a-message.md)
       + [Berichten openen](channels/using/accessing-messages.md)
       + [Berichtdashboard](channels/using/message-dashboard.md)
@@ -142,7 +134,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
    + [Afbeeldingen beheren](designing/using/images.md)
    + [Veelgestelde vragen](designing/using/faq-email-designer.md)
 + Testen en verzenden {#testing-and-sending}
-   + [Informatie over het verzenden van berichten via Campagne](sending/using/about-sending-messages-with-campaign.md)
+   + [Aan de slag met testen en verzenden](sending/using/get-started-sending-messages.md)
    + Berichten voorbereiden en testen {#preparing-and-testing-messages}
       + [Leveringen vooraf bekijken](sending/using/previewing-messages.md)
       + [De verzending voorbereiden](sending/using/preparing-the-send.md)
@@ -182,6 +174,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Vermogensregels](sending/using/fatigue-rules.md)
       + [Controlevoorschriften](sending/using/control-rules.md)
 + Rapportage {#reporting}
+   + [Aan de slag met dynamische rapporten](reporting/using/get-started-reporting.md)
    + Over rapportage {#about-reporting}
       + [Dynamische rapporten](reporting/using/about-dynamic-reports.md)
       + [Rapportageinterface](reporting/using/reporting-interface.md)
@@ -212,7 +205,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Een aangepaste profieldimensie maken](reporting/using/creating-a-custom-profile-dimension.md)
       + [Een rapport maken op basis van workflowsegmenten](reporting/using/creating-a-report-workflow-segment.md)
 + Integreren met andere oplossingen {#integrating-with-adobe-cloud}
-   + [Over de integratie van campagnes](integrating/using/about-campaign-integrations.md)
+   + [Aan de slag met de integratie van campagnes](integrating/using/get-started-campaign-integrations.md)
    + Campagne en Experience Manager {#working-with-campaign-and-experience-manager}
       + [De integratie van Campagne-Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [De integratie van Campagne-Experience Manager configureren](integrating/using/configure-experience-manager.md)
@@ -243,6 +236,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Uw triggers testen](integrating/using/testing-your-triggers.md)
       + [Afsluiten Gebruiksgevallen activeren](integrating/using/abandonment-triggers-use-cases.md)
    + Campagne en de Dynamica 365 van Microsoft {#campaign-and-microsoft-dynamics-365}
+      + [Adobe IO configureren voor integratie met Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + Werken met de Standaard van de Campagne en Dynamica 365 van Microsoft {#working-with-campaign-standard-and-ms-dynamics}
          + [Aan de slag met de integratie van Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [Over de integratie van Microsoft Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
@@ -253,19 +247,16 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Unifi configureren voor integratie met Microsoft Dynamics 365](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
       + [Aangepaste bronnen voor campagne toewijzen en eigen entiteiten voor dynamiek 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + Processen en gegevens beheren {#managing-processes-and-data}
-   + Workflows en gegevensbeheer {#about-workflows-and-data-management}
-      + [Workflowgegevens en processen](automating/using/workflow-data-and-processes.md)
-      + [Workflows detecteren](automating/using/discovering-workflows.md)
-      + [Operationele workflowbeginselen](automating/using/workflow-operating-principles.md)
-      + [Workflowinterface](automating/using/workflow-interface.md)
+   + [Aan de slag met gegevens- en procesbeheer](automating/using/get-started-workflows.md)
    + Algemene werkstroom {#workflow-general-operation}
+      + [Workflowinterface](automating/using/workflow-interface.md)
       + [Een workflow maken](automating/using/building-a-workflow.md)
       + [Doelgegevens](automating/using/targeting-data.md)
       + [Gegevens importeren](automating/using/importing-data.md)
       + [Werkstroomgegevens gebruiken](automating/using/using-workflow-data.md)
       + [Een workflow uitvoeren](automating/using/executing-a-workflow.md)
-      + [Een workflow aanroepen met externe parameters](automating/using/calling-a-workflow-with-external-parameters.md)
       + [Best practices voor workflows](automating/using/best-practices-workflows.md)
+   + [Een workflow aanroepen met externe parameters](automating/using/calling-a-workflow-with-external-parameters.md)
    + Gerichte activiteiten {#targeting-activities}
       + [Over doelactiviteiten](automating/using/about-targeting-activities.md)
       + [Query](automating/using/query.md)
@@ -327,6 +318,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Doelgroep voor Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
       + [Campagnes aanpassen met de kenmerken van het Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
 + Ontwikkelen {#developing}
+   + [Aan de slag met het standaard gegevensmodel van de campagne](developing/using/get-started-data-model.md)
    + Informatie over aangepaste bronnen {#about-custom-resources}
       + [Concepten van gegevensmodellen](developing/using/data-model-concepts.md)
       + [Bronstatussen](developing/using/resource-statuses.md)
@@ -364,12 +356,15 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Logbestanden bijhouden](developing/using/datamodel-tracking.md)
       + [Unsubscription-gebeurtenis](developing/using/datamodel-unsubscription.md)
       + [Bezoeker](developing/using/datamodel-visitor.md)
+   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
+      + [Info over Adobe Experience Platform Data Connector](developing/using/aep-about-data-connector.md)
+      + [Datamodel van het Platform van de ervaring](developing/using/aep-data-model-overview.md)
+      + [Toewijzingsdefinitie](developing/using/aep-mapping-definition.md)
+      + [Toewijzingsactivering](developing/using/aep-mapping-activation.md)
+      + [Gegevensinvoer via API&#39;s activeren](developing/using/aep-triggering-data-ingestion.md)
 + Beheer {#administrating}
-   + [Informatie over Adobe-campagne beheren](administration/using/about-administrating-adobe-campaign.md)
-   + Richtlijnen voor configuratie {#configuration-guidelines}
-      + [Configuratierichtlijnen](administration/using/about-configuration-guidelines.md)
-      + [Compatibele browsers](administration/using/compatible-browsers.md)
-      + [Campagne Standaard netwerkeindpunten](administration/using/campaign-standard-network-endpoints.md)
+   + [Ga aan de slag met het beheer Campagne Standard](administration/using/get-started-campaign-administration.md)
+   + [Richtlijnen voor configuratie](administration/using/about-configuration-guidelines.md)
    + Gebruikers en beveiliging {#users-and-security}
       + [Over toegangsbeheer](administration/using/about-access-management.md)
       + [Gebruikersbeheer](administration/using/users-management.md)
@@ -393,15 +388,9 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Interne meldingen verzenden](administration/using/sending-internal-notifications.md)
       + [Bewaren van gegevens](administration/using/data-retention.md)
       + [Updates en onderhoudswerkzaamheden](administration/using/updates-and-maintenance-operations.md)
-   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
-      + [Info over Adobe Experience Platform Data Connector](administration/using/aep-about-data-connector.md)
-      + [Datamodel van het Platform van de ervaring](administration/using/aep-data-model-overview.md)
-      + [Toewijzingsdefinitie](administration/using/aep-mapping-definition.md)
-      + [Toewijzingsactivering](administration/using/aep-mapping-activation.md)
-      + [Gegevensinvoer via API&#39;s activeren](administration/using/aep-triggering-data-ingestion.md)
 + Werken met API&#39;s {#working-with-apis}
+   + [Aan de slag met standaard API&#39;s voor campagnes](api/using/about-campaign-standard-apis.md)
    + Informatie over standaard-API&#39;s voor campagnes {#about-campaign-standard-apis}
-      + [Overzicht](api/using/about-campaign-standard-apis.md)
       + [Waarom API&#39;s voor standaard campagne gebruiken](api/using/why-using-campaign-standard-apis.md)
       + [API-toegang instellen](api/using/setting-up-api-access.md)
    + Algemene concepten {#global-concepts}
