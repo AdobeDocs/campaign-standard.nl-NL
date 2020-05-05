@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -47,7 +47,7 @@ Voer de volgende stappen uit om een publiek van het Adobe Experience Platform in
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   Deze lijst bevat alle afbeeldingen van het Gegevensmodel van de Ervaring (XDM) die op uw instantie zijn gevormd. Raadpleeg [dit speciale document](../../administration/using/aep-about-data-connector.md)voor meer informatie over de gegevensverbinding van het Adobe Experience Platform.
+   Deze lijst bevat alle afbeeldingen van het Gegevensmodel van de Ervaring (XDM) die op uw instantie zijn gevormd. Raadpleeg [dit speciale document](../../developing/using/aep-about-data-connector.md)voor meer informatie over de gegevensverbinding van het Adobe Experience Platform.
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
@@ -65,7 +65,7 @@ U kunt nu uw workflow configureren met andere activiteiten. U kunt bijvoorbeeld 
 
 Raadpleeg de volgende secties voor meer informatie over het gebruik van workflows en leveringen:
 
-* [Workflows detecteren](../../automating/using/discovering-workflows.md)
+* [Workflows detecteren](../../automating/using/get-started-workflows.md)
 * [Een workflow maken](../../automating/using/building-a-workflow.md)
-* [Communicatiekanalen detecteren](../../channels/using/discovering-communication-channels.md)
+* [Communicatiekanalen detecteren](../../channels/using/get-started-communication-channels.md)
 * [Kanaalactiviteiten](../../automating/using/about-channel-activities.md)
