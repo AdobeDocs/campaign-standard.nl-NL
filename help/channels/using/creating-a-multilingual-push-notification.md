@@ -12,7 +12,7 @@ discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 Pas de inhoud van uw pushmelding aan door berichten te verzenden die zijn gebaseerd op de voorkeurstalen en -regio&#39;s van uw gebruikers. U kunt inhoudsvarianten voor meertalige pushmeldingen rechtstreeks importeren in de inhoudeditor en een meertalig pushbericht verzenden in één levering.
 
-Deze functie gebruikt de voorkeurstalen die zijn opgegeven in de profielen van ontvangers of de voorkeur voor de systeemtaal voor Mobile App Subscribers, afhankelijk van de leveringssjabloon die wordt gebruikt voor pushberichten. Als de taalvoorkeur niet voor een bepaalde gebruiker wordt bevolkt, zal het systeem de standaardvariant gebruiken die terwijl het creëren van een meertalige duw- bericht wordt bepaald. Raadpleeg deze [handleiding voor meer informatie over het beheren van uw profielen en abonnees](../../audiences/using/about-profiles-and-audiences.md).
+Deze functie gebruikt de voorkeurstalen die zijn opgegeven in de profielen van ontvangers of de voorkeur voor de systeemtaal voor Mobile App Subscribers, afhankelijk van de leveringssjabloon die wordt gebruikt voor pushberichten. Als de taalvoorkeur niet voor een bepaalde gebruiker wordt bevolkt, zal het systeem de standaardvariant gebruiken die terwijl het creëren van een meertalige duw- bericht wordt bepaald. Raadpleeg deze [handleiding voor meer informatie over het beheren van uw profielen en abonnees](../../audiences/using/get-started-profiles-and-audiences.md).
 
 ![](assets/multivariant_push_1.png)
 
