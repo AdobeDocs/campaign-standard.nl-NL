@@ -13,7 +13,7 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f959441647d1fea41ecce2fc41e3cad3cb536bac
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -28,8 +28,8 @@ Het doel is hier een publiek te selecteren uit de ontvangers van de database en 
 
 Raadpleeg de volgende documenten voor meer informatie over workflows en de verschillende kanalen die beschikbaar zijn in Adobe Campaign:
 
-* [Workflows detecteren](../../automating/using/discovering-workflows.md)
-* [Communicatiekanalen detecteren](../../channels/using/discovering-communication-channels.md)
+* [Workflows detecteren](../../automating/using/get-started-workflows.md)
+* [Communicatiekanalen detecteren](../../channels/using/get-started-communication-channels.md)
 
 ## Een workflow maken {#creating-workflow}
 
@@ -133,7 +133,7 @@ Een e-maillevering maken:
 
    ![](assets/wkf_segment_deliveries2.png)
 
-   De uitgaande overgang zal u toestaan om de bevolking en het volgen logboeken terug te krijgen. U kunt dit bijvoorbeeld gebruiken om een tweede e-mail te sturen naar de mensen die niet in de eerste e-mail hebben geklikt.
+   De uitgaande overgang zal u toestaan om de bevolking en het volgen logboeken terug te krijgen. U kunt dit bijvoorbeeld gebruiken om een tweede e-mail te sturen naar de personen die niet in de eerste e-mail hebben geklikt.
 
 1. Selecteer een e-mailsjabloon en klik op **[!UICONTROL Next]**.
 1. Voer de e-maileigenschappen in en klik op **[!UICONTROL Next]**.
