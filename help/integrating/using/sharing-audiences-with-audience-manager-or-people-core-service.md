@@ -12,7 +12,7 @@ discoiquuid: 77af0772-52b5-46bc-a964-675b45965524
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -80,6 +80,6 @@ De synchronisatie tussen Adobe Campaign en de People core-service duurt 24 tot 3
 
 **Verwante onderwerpen:**
 
-* [Workflows](../../automating/using/workflow-data-and-processes.md)
+* [Workflows](../../automating/using/get-started-workflows.md)
 * [Soorten publiek](../../audiences/using/about-audiences.md)
 
