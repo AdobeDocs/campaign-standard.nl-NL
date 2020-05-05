@@ -12,7 +12,7 @@ discoiquuid: 305cadde-6424-4c6f-b11b-1e8bdbad6ef1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 40de67f4c918b26de6d306ce6af5cb8832741d6f
+source-git-commit: f5054272683ed846b5e0a4e64ed20c49309f8d58
 
 ---
 
@@ -44,7 +44,7 @@ Een reeks standaardregels verzekert de standaardcontroles. In de onderstaande ta
 | **[!UICONTROL Check URL labels]** | E-mail | Aan het begin van personalisatie | Controleert dat elke volgende URL een etiket heeft. |
 | **[!UICONTROL Check URLs]** | E-mail | Aan het begin van personalisatie | Controleert URLs het volgen (aanwezigheid van &quot;&amp;&quot;karakter). |
 
-## Uitvoeringsfasen van de controleregels (controle-regels-uitvoering-fasen)
+## Uitvoeringsfasen van regelregels {#control-rules-execution-phases}
 
 Regels voor controle kunnen worden toegepast in verschillende fasen van de levenscyclus van de levering:
 
