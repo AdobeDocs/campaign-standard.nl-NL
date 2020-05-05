@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5d4560a26c0f5c6d3e8710caf51d4a82fbf80174
+source-git-commit: 62b1f9bb452c229b879f735830b330d0fda5ea3c
 
 ---
 
@@ -20,6 +20,12 @@ source-git-commit: 5d4560a26c0f5c6d3e8710caf51d4a82fbf80174
 # Documentatieupdates{#documentation-updates}
 
 Naast de opmerkingen bij de [release](../../rn/using/release-notes.md)van Adobe Campaign worden op deze pagina alle nieuwe updates in de documentatie van Adobe Campaign Standard weergegeven.
+
+## Documentatie - mei 2020 {#doc-updates-may-2020}
+
+De overzichtspagina van de campagnestandaard is verrijkt en in thematische onderwerpen gereorganiseerd. [Meer informatie](../../start/using/about-campaign-standard.md)
+
+Het gedeelte Parameters e-mailkanaal is verduidelijkt met verdere informatie over de toegestane maskervelden en de id van de leveringsrapporten. [Meer informatie](../../administration/using/configuring-email-channel.md)
 
 ## Release 20.3 - mei 2020 {#release-20-3---may-2020}
 
@@ -37,9 +43,9 @@ Er is informatie toegevoegd aan de sectie voor profielvervanging met betrekking 
 
 Er is een nieuwe sectie over privacy en toestemming toegevoegd aan de kerndocumentatie. [Meer informatie](../../start/using/privacy.md)
 
-* Er is een gebruiksscenario toegevoegd waarmee u e-mailberichten van de oude editor kunt converteren naar de e-mailtoepassing van Designer. [Meer informatie](../../designing/using/converting-emails-from-legacy-editor.md)
+Er is een gebruiksscenario toegevoegd waarmee u e-mailberichten van de oude editor kunt converteren naar de e-mailtoepassing van Designer. [Meer informatie](../../designing/using/converting-emails-from-legacy-editor.md)
 
-* Er is een vaak gestelde vraagsectie toegevoegd over de e-mailontwerper. [Meer informatie](../../designing/using/faq-email-designer.md)
+Er is een vaak gestelde vraagsectie toegevoegd over de e-mailontwerper. [Meer informatie](../../designing/using/faq-email-designer.md)
 
 ## Documentatie-updates - april 2020 {#doc-updates-april-2020}
 
@@ -47,7 +53,7 @@ De integratie van Microsoft Dynamics 365 met de documentatie van de Standaard va
 
 Er zijn extra bronnen toegevoegd aan de pagina &quot;Documentstartpagina&quot;. [Meer informatie](../../campaign-standard-home.md)
 
-Informatie over de Experience Cloud ID Service (ECID) is toegevoegd aan de documentatie van het Adobe Experience Platform Data Connector. [Meer informatie](../../administration/using/aep-about-data-connector.md#key-concepts)
+Informatie over de Experience Cloud ID Service (ECID) is toegevoegd aan de documentatie van het Adobe Experience Platform Data Connector. [Meer informatie](../../developing/using/aep-about-data-connector.md#key-concepts)
 
 De het Vormen transactionele overseinensectie is verbeterd met informatie over hoe te om tot de recentste transactionele gebeurtenissen en bijgewerkte screenshots toegang te hebben. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
@@ -115,7 +121,7 @@ Er is informatie toegevoegd over de **[!UICONTROL History in days field]** besch
 
 **Nieuwe mogelijkheden inbegrepen in de versie**
 
-Adobe Experience Platform Data Connector (bèta) - [Lees meer](../../administration/using/aep-about-data-connector.md)
+Adobe Experience Platform Data Connector (bèta) - [Lees meer](../../developing/using/aep-about-data-connector.md)
 
 Bestemmingen van het publiek (bèta) - [Lees meer](../../audiences/using/aep-about-audience-destinations-service.md)
 
@@ -165,7 +171,7 @@ De gids Aan de slag over hoe te om douanemiddelen uit te voeren/in te voeren is 
 
 ## Documentatie-updates - november 2019 {#doc-updates-november-2019}
 
-Er is een nieuw gebruiksgeval toegevoegd waarin wordt beschreven hoe u een controlegroep maakt met behulp van een workflow in Campagnestandaard. Meer[informatie](../../automating/using/workflow-control-group.md)
+Er is een nieuw gebruiksgeval toegevoegd waarin wordt beschreven hoe u een controlegroep maakt met behulp van een workflow in Campagnestandaard. [Meer informatie](../../automating/using/workflow-control-group.md)
 
 Informatie met betrekking tot de eigenschappen van bestemmingspagina&#39;s is verplaatst naar een specifieke sectie. [Meer informatie](../../channels/using/configuring-landing-page.md)
 
@@ -201,7 +207,7 @@ Er is een nieuw diagram toegevoegd waarin het publicatieproces voor transactiebe
 
 De gids Aan de slag met best practices voor levering is verplaatst en bijgewerkt. [Meer informatie](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-Er is een nieuwe sectie toegevoegd. Het verstrekt een overzicht van de verschillende methodes die u toestaan om het Standaard gegevensbestand van de Campagne te verrijken. [Meer informatie](../../start/using/enriching-campaign-database.md)
+Er is een nieuwe sectie toegevoegd. Het verstrekt een overzicht van de verschillende methodes die u toestaan om het Standaard gegevensbestand van de Campagne te verrijken. [Meer informatie](../../audiences/using/enriching-campaign-database.md)
 
 Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u koppelingen met de e-mailontwerper kunt opmaken. [Meer informatie](../../designing/using/styles.md#about-styling-links)
 
@@ -315,7 +321,7 @@ De contextafhankelijke Help-koppelingen die rechtstreeks beschikbaar zijn in Ado
 
 De volgende [pagina](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) wordt de officiële pagina Video&#39;s voor de Standaard van de Campagne van Adobe.
 
-Er is een sectie toegevoegd over gegevensbewaring, inclusief de standaardwaarden voor gegevensbehoud voor standaardtabellen. [Meer informatie](../../administration/using/data-retention.md)
+Er is een sectie toegevoegd over gegevensbewaring, inclusief de standaardwaarden voor het bewaren van gegevens voor standaardtabellen. [Meer informatie](../../administration/using/data-retention.md)
 
 Een sectie toegevoegd over updates en onderhoudsbewerkingen. [Meer informatie](../../administration/using/updates-and-maintenance-operations.md)
 
@@ -355,7 +361,7 @@ De sectie Een e-mailbericht maken is bijgewerkt met de meest recente interfacewi
 
 Het de schakelaarprotocol van [SMS en montages](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) het artikel van de Kennisbank is bijgewerkt met de nieuwe optie die aan de externe rekening van SMS wordt toegevoegd om het aantal instanties te beperken MTA die met de leverancier SMPP mogen verbinden.
 
-De gids Aan de slag is verrijkt en gereorganiseerd. [Meer informatie](../../start/using/campaign-orchestration.md)
+De gids Aan de slag is verrijkt en gereorganiseerd. [Meer informatie](../../start/using/about-campaign-standard.md)
 
 De pagina Vervangen en Verwijderde functies is bijgewerkt. [Meer informatie](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
@@ -383,7 +389,7 @@ Er is een nieuwe sectie toegevoegd waarin de verschillende opties voor het schri
 
 De sectie Aangepaste inhoudsblokken maken is uitgebreid met informatie over het maken van doeldimensies. [Meer informatie](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-Er is een waarschuwing toegevoegd dat de e-mailontwerper Internet Explorer 11 niet ondersteunt. [Meer informatie](../../administration/using/compatible-browsers.md)
+Er is een waarschuwing toegevoegd dat de e-mailontwerper Internet Explorer 11 niet ondersteunt. [Meer informatie](../../administration/using/about-configuration-guidelines.md)
 
 Er zijn waarschuwingen toegevoegd aan de sectie Een resource verwijderen. [Meer informatie](../../developing/using/deleting-a-resource.md)
 
@@ -445,7 +451,7 @@ Toegevoegde informatie over het nieuwe gebied in de de gegevensactiviteit van de
 
 De inhoud [importeren is bijgewerkt in een URL](../../designing/using/using-existing-content.md#importing-content-from-a-url) -documentatie met informatie over de e-mailontwerper.
 
-Microsoft Edge (nieuwste versie) is toegevoegd aan de lijst met compatibele browsers voor computers. [Meer informatie](../../administration/using/compatible-browsers.md)
+Microsoft Edge (nieuwste versie) is toegevoegd aan de lijst met compatibele browsers voor computers. [Meer informatie](../../administration/using/about-configuration-guidelines.md)
 
 Informatie toegevoegd over de nieuwe optie in de activiteit van het Extraheren dossier die verhindert om een dossier te produceren als de binnenkomende overgang leeg is. [Meer informatie](../../automating/using/extract-file.md)
 
@@ -579,7 +585,7 @@ De lijst met technische workflows is bijgewerkt. [Meer informatie](../../adminis
 
 Bijgewerkt de sectie van de planningsactiviteit. [Meer informatie](../../automating/using/scheduler.md)
 
-De lijst met Help-materialen voor de integratie van Campagne en Adobe-oplossingen is bijgewerkt. [Lees meer](../../integrating/using/about-campaign-integrations.md).
+De lijst met Help-materialen voor de integratie van Campagne en Adobe-oplossingen is bijgewerkt. [Lees meer](../../integrating/using/get-started-campaign-integrations.md).
 
 Bijgewerkte standaard in-product contextafhankelijke hulp voor campagnes.
 
@@ -593,7 +599,7 @@ Verrijkingsactiviteit - Verrijken gegevens op basis van eerdere overgangen - [Me
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
-De meeste URL&#39;s voor integratie van campagnes en Adobe-oplossingen zijn gewijzigd! Controleer uw bladwijzers! [Meer informatie](../../integrating/using/about-campaign-integrations.md)
+De meeste URL&#39;s voor integratie van campagnes en Adobe-oplossingen zijn gewijzigd! Controleer uw bladwijzers! [Meer informatie](../../integrating/using/get-started-campaign-integrations.md)
 
 Het datamodel v1 is nu beschikbaar met de SQL-structuur voor ingebouwde bronnen - [Lees meer](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
 
@@ -777,13 +783,13 @@ BCC via e-mail - Meer [informatie](../../administration/using/configuring-email-
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
-De gids &quot;Leveringen&quot; is gereorganiseerd en heet &quot;Kanalen&quot;. [Meer informatie](../../channels/using/discovering-communication-channels.md)
+De gids &quot;Leveringen&quot; is gereorganiseerd en heet &quot;Kanalen&quot;. [Meer informatie](../../channels/using/get-started-communication-channels.md)
 
 Er zijn talloze schermafbeeldingen bijgewerkt om wijzigingen in de interface te weerspiegelen.
 
 Er is nu een nieuw technologie beschikbaar: &quot;De Adobe Mobile SDK integreren met uw mobiele app&quot;. [Meer informatie](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-Instructies voor het configureren van de kernservice Personen of de integratie van Audience Manager met Adobe Campaign zijn bijgewerkt. [Meer informatie](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Instructies om de de kerndienst van Mensen of integratie van de Manager van de Audience met de campagne van Adobe te vormen hebben geworpen-mededeling-kanalen.mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 De machtigingstabel is herzien om de functie van bepaalde rollen duidelijker te maken. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -867,5 +873,5 @@ URL wijzigen: De kerndienst van activa - [Lees meer](../../integrating/using/wor
 
 URL wijzigen: De kerndienst van de Mensen - [Lees meer](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
-De gids Profielen en publiek is gereorganiseerd. [Meer informatie](../../audiences/using/about-profiles-and-audiences.md)
+De gids Profielen en publiek is gereorganiseerd. [Meer informatie](../../audiences/using/get-started-profiles-and-audiences.md)
 
