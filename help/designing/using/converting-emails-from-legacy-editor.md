@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
+source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
 
 ---
 
@@ -21,11 +21,11 @@ source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
 
 Werk met de e-mailontwerper en maak herbruikbare sjablonen en fragmenten op van uw e-mailHTML die u hebt gemaakt in de Verouderde editor.
 
-Met dit gebruiksgeval kunt u een E-mailDesigner-sjabloon maken door een HTML-e-mail te gebruiken en deze in HTML-componenten te verdelen in de e-mailontwerper.
-
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Deze sectie is bedoeld voor geavanceerde gebruikers die vertrouwd zijn met HTML-code.
+
+Met dit gebruiksgeval kunt u een E-mailDesigner-sjabloon maken door een HTML-e-mail te gebruiken en deze in HTML-componenten te verdelen in de e-mailontwerper.
 
 >[!NOTE]
 >
@@ -96,21 +96,21 @@ Klik op **[!UICONTROL Show source]** om de HTML-versie van de e-mail weer te gev
 
 ### De e-mailsjabloon en de structuur ervan maken
 
-1. Sleep en zet de lay-out van onze e-mail **[!UICONTROL Structure Components]** in beeld.
+1. Sleep en zet de lay-out van onze e-mail **[!UICONTROL Structure components]** in beeld.
 
-We moeten elf structuurcomponenten maken.
+1. Herhaal dit zo vaak als nodig is. We moeten elf structuurcomponenten maken.
 
-![](assets/structure-components-migration.png)
+   ![](assets/structure-components-migration.png)
 
 ### HTML-inhoudscomponenten invoegen
 
-1. Voeg een **[!UICONTROL HTML component]** insteekmodule in **[!UICONTROL structure component]** .
+1. Voeg een **[!UICONTROL HTML component]** insteekmodule in **[!UICONTROL Structure component]** .
 
-![](assets/html-components.png)
+   ![](assets/html-components.png)
 
 1. Klik voor elke sectie op **[!UICONTROL Show source code]** .
 
-![](assets/show-source-code.png)
+   ![](assets/show-source-code.png)
 
 1. Voeg de HTML-sectie in.
 
@@ -122,7 +122,7 @@ U kunt nu de weergave van uw e-mail controleren.
 
 ### Stijlen beheren voor mobiele weergave
 
-Voeg CSS-elementen in om ervoor te zorgen dat uw e-mail geschikt is voor de mobiele weergave.
+1. Voeg CSS-elementen in om ervoor te zorgen dat uw e-mail geschikt is voor de mobiele weergave.
 
 1. Schakel over naar broncode en kopieer en plak de stijlsectie in een nieuwe stijlsectie.
 
