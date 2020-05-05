@@ -2,7 +2,7 @@
 title: Een bron aanroepen met een samengestelde identificatiesleutel
 description: Leer hoe u een bron aanroept met een samengestelde id-toets
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -23,7 +23,7 @@ Verwante onderwerpen:
 
 * [De bron maken of uitbreiden](../../developing/using/creating-or-extending-the-resource.md)
 * [Identificatietoetsen definiëren](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [Standaard REST API&#39;s voor campagne](../../api/using/about-campaign-standard-apis.md)
+* [Standaard REST API&#39;s voor campagne](../../api/using/get-started-apis.md)
 
 ## Stap 1: De id-toets configureren{#step-1-configure-the-identification-key}
 
@@ -52,7 +52,7 @@ Verwante onderwerpen:
 ## Stap 2: De filterdefinitie configureren{#step-2-configure-the-filter-definition}
 
 >[!NOTE]
-> Algemene concepten bij het configureren van filterdefinities worden in [deze sectie](../../developing/using/configuring-filter-definition.md)nader beschreven.
+> Algemene concepten bij het configureren van filterdefinities worden in [deze sectie](../../developing/using/configuring-filter-definition.md)beschreven.
 
 1. Klik op het **[!UICONTROL Filter definition]** tabblad **[!UICONTROL Add an element]** en voer vervolgens het label en de id van de filterdefinitie in.
 
