@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 5b53f210bc8fc211b1f48f5b6ff8694bcaf41622
+source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 ---
 
@@ -124,7 +124,7 @@ We raden u aan de volgende aanbevelingen te volgen om u te helpen bij het instel
 
 De externe accounts van Adobe Experience Manager worden gebruikt bij de integratie van Campagne met Experience Manager.
 
-De processen en vereisten met betrekking tot deze integratie zijn beschikbaar in [dit document](../../integrating/using/about-campaign-integrations.md).
+De processen en vereisten met betrekking tot deze integratie zijn beschikbaar in [dit document](../../integrating/using/get-started-campaign-integrations.md).
 
 Wanneer u deze nieuwe externe account instelt, moet u de volgende gegevens opgeven:
 
