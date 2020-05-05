@@ -12,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 260312a461d02c32683e1eb8a90bbaa282800668
+source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
 
 ---
 
@@ -101,7 +101,7 @@ Het **[!UICONTROL Resources]** pictogram geeft u toegang tot de volgende functie
 
 ### Beheer {#administration}
 
-Het **[!UICONTROL Administration]** pictogram geeft u toegang tot de geavanceerde functies die alleen door de functionele beheerder kunnen worden uitgevoerd. Zie de sectie [Toediening](../../administration/using/about-administrating-adobe-campaign.md) voor meer informatie.
+Het **[!UICONTROL Administration]** pictogram geeft u toegang tot de geavanceerde functies die alleen door de functionele beheerder kunnen worden uitgevoerd. Zie de sectie [Toediening](../../administration/using/get-started-campaign-administration.md) voor meer informatie.
 
 ## Centrale zone {#central-zone}
 
