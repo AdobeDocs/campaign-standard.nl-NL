@@ -4,7 +4,7 @@ sub-product: Adobe-campagnestandaard
 audience: end-user
 user-guide-title: Help bij Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -389,7 +389,7 @@ source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
       + [Bewaren van gegevens](administration/using/data-retention.md)
       + [Updates en onderhoudswerkzaamheden](administration/using/updates-and-maintenance-operations.md)
 + Werken met API&#39;s {#working-with-apis}
-   + [Aan de slag met standaard API&#39;s voor campagnes](api/using/about-campaign-standard-apis.md)
+   + [Aan de slag met standaard API&#39;s voor campagnes](api/using/get-started-apis.md)
    + Informatie over standaard-API&#39;s voor campagnes {#about-campaign-standard-apis}
       + [Waarom API&#39;s voor standaard campagne gebruiken](api/using/why-using-campaign-standard-apis.md)
       + [API-toegang instellen](api/using/setting-up-api-access.md)
