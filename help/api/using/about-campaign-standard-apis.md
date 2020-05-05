@@ -1,5 +1,5 @@
 ---
-title: Informatie over standaard-API's voor campagnes
+title: Aan de slag met standaard API's voor campagnes
 description: Meer informatie over standaard API's voor campaing.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -12,59 +12,29 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 27ca2116c49f9c23a56c178a3e3f7baf2f755c45
+source-git-commit: 181f7114bd7b9d633de44687320f0c897e146862
 
 ---
 
 
-# Informatie over standaard-API&#39;s voor campagnes {#about-campaign-standard-apis}
+# Aan de slag met standaard API&#39;s voor campagnes {#get-started-apis}
 
 De standaard-API&#39;s van de campagne zijn bedoeld om u in staat te stellen **integratie** voor Adobe Campaign Standard te maken en uw eigen ecosysteem **te** bouwen door Adobe Campaign Standard te koppelen aan het deelvenster met technologieën dat u gebruikt.
 
 Met de standaard-API&#39;s van Adobe Campagne hebt u toegang tot de volgende functies:
 
-<table>
-<tr>
-    <td valign="top">
-        <a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="voorwaarden" src="assets/icon_profile.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../api/using/creating-a-service.md"><img width="60px" alt="voorwaarden" src="assets/icon_services.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="voorwaarden" src="assets/icon_customresources.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="voorwaarden" src="assets/icon_marketinghistory.svg"/></a>
-    </td>
+<table><tr>
+ <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="voorwaarden" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">Profielen</a></p></td>
+<td valign="top"><a href="../../api/using/creating-a-service.md"><img width="60px" alt="voorwaarden" src="assets/icon_services.svg"/></a><p><a href="../../api/using/creating-a-service.md">Services en abonnementen</a></p></td>
+<td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="voorwaarden" src="assets/icon_customresources.svg"/></a><p><a href="../../api/using/interacting-with-custom-resources.md">Aangepaste bronnen</a></p></td>
+<td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="voorwaarden" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">Marketinggeschiedenis</a></p></td>
 </tr>
 <tr>
-<td>Profielen</td>
-<td>Services en abonnementen</td>
-<td>Aangepaste bronnen</td>
-<td>Marketinggeschiedenis</td>
-</tr>
-<tr>
-    <td valign="top">
-        <a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="voorwaarden" src="assets/icon_privacy.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="voorwaarden" src="assets/icon_transactionalmessage.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="voorwaarden" src="assets/icon_workflows.svg"/></a>
-    </td>
-    <td valign="top">
-        <a href="../../api/using/retrieving-an-organizational-unit.md"><img width="60px" alt="voorwaarden" src="assets/icon_units.svg"/></a>
-    </td>
-</tr>
-<tr>
-<td>Privacybeheer</td>
-<td>Transactieberichten</td>
-<td>Workflows</td>
-<td>Organisatorische eenheden</td>
-</td>
-</table>
+<td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="voorwaarden" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">Privacybeheer</a></p></td>
+<td valign="top"><a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="voorwaarden" src="assets/icon_transactionalmessage.svg"/></a><p><a href="../../api/using/managing-transactional-messages.md">Transactieberichten</a></p></td>
+<td valign="top"><a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="voorwaarden" src="assets/icon_workflows.svg"/></a><p><a href="../../api/using/controlling-a-workflow.md">Workflows</a></p></td>
+<td valign="top"><a href="../../api/using/retrieving-an-organizational-unit.md"><img width="60px" alt="voorwaarden" src="assets/icon_units.svg"/></a><p><a href="../../api/using/retrieving-an-organizational-unit.md">Organisatorische eenheden</a></p></td>
+</tr></table>
 
 >[!NOTE]
 >
@@ -73,7 +43,7 @@ Met de standaard-API&#39;s van Adobe Campagne hebt u toegang tot de volgende fun
 Als u de standaard-API voor campagnes wilt gebruiken, hebt u een Adobe I/O-account nodig. Dit is een verplichte eerste stap om door te gaan en de API-functies te ontdekken.
 For more on this, refer to [this section](../../api/using/setting-up-api-access.md).
 
-De API&#39;s die we bieden, gebruiken **standaardconcepten** met een REST-interface en JSON-nuttige ladingen.
+De API&#39;s die we bieden, gebruiken **standaardconcepten** met een REST-interface en JSON-payloads.
 
 >[!NOTE]
 >
