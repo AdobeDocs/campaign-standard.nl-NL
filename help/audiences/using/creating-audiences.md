@@ -13,7 +13,7 @@ context-tags: readAudience,main;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## Query-publiek maken {#creating-query-audiences}
 
-In deze sectie wordt beschreven hoe u een **query** -publiek kunt maken. U kunt ook een publiek maken dat een bestand importeert of doelt in een [workflow](../../automating/using/discovering-workflows.md).
+In deze sectie wordt beschreven hoe u een **query** -publiek kunt maken. U kunt ook een publiek maken dat een bestand importeert of doelt in een [workflow](../../automating/using/get-started-workflows.md).
 
 Vanuit de publiekslijst kunt u soorten publiek maken door query&#39;s uit te voeren in Adobe Campagneprofielen of door een Adobe Experience Cloud-publiek te importeren.
 
@@ -49,7 +49,7 @@ Vanuit de publiekslijst kunt u soorten publiek maken door query&#39;s uit te voe
 
 ## Lijstpubliek maken {#creating-list-audiences}
 
-In deze sectie wordt beschreven hoe u een **List** -publiek kunt maken nadat u zich hebt aangemeld voor een workflow. U kunt ook een publiek maken door een bestand in een [werkstroom](../../automating/using/discovering-workflows.md) te importeren of via een query in het **[!UICONTROL Audiences]** menu.
+In deze sectie wordt beschreven hoe u een **List** -publiek kunt maken nadat u zich hebt aangemeld voor een workflow. U kunt ook een publiek maken door een bestand in een [werkstroom](../../automating/using/get-started-workflows.md) te importeren of via een query in het **[!UICONTROL Audiences]** menu.
 
 Voor het maken van een **List** -publiek worden de volgende stappen uitgevoerd:
 
@@ -79,7 +79,7 @@ Voor het maken van een **List** -publiek worden de volgende stappen uitgevoerd:
 
 ## Bestandspubliek maken {#creating-file-audiences}
 
-In deze sectie wordt beschreven hoe u een **bestandspubliek** kunt maken door een bestand in een workflow te importeren. U kunt ook een publiek maken op basis van een doelactiviteit in een [workflow](../../automating/using/discovering-workflows.md) of via een query in het **[!UICONTROL Audiences]** menu.
+In deze sectie wordt beschreven hoe u een **bestandspubliek** kunt maken door een bestand in een workflow te importeren. U kunt ook een publiek maken op basis van een doelactiviteit in een [workflow](../../automating/using/get-started-workflows.md) of via een query in het **[!UICONTROL Audiences]** menu.
 
 Voor het maken van een **bestandspubliek** gelden de volgende stappen:
 
