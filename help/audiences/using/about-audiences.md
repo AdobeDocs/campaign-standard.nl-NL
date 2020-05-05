@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -29,7 +29,7 @@ Met Adobe Campaign kunt u handmatig een publiek maken met behulp van query&#39;s
 U kunt verschillende soorten publiek manipuleren in Adobe Campaign. Het type publiek komt overeen met de manier waarop het is gemaakt:
 
 * **[!UICONTROL Query]**: Hiermee wordt aangegeven dat het publiek is gemaakt op basis van een [query](../../automating/using/editing-queries.md#about-query-editor) op gegevens uit de Adobe Campaign-database in de lijst met doelgroepen. Het publiek dat door een vraag wordt bepaald wordt opnieuw berekend bij elk verder gebruik.
-* **[!UICONTROL List]**: Hiermee wordt aangegeven dat het publiek een vaste lijst met profielen is. Deze lijsten worden gecreeerd in een [werkschema](../../automating/using/discovering-workflows.md), waar de gegevensdimensie wanneer het bewaren van het publiek gekend is. Bijvoorbeeld, na het richten van activiteiten (vooral **[!UICONTROL Query]** ) of na de verzoening van gegevens die uit een dossier worden ingevoerd.
+* **[!UICONTROL List]**: Hiermee wordt aangegeven dat het publiek een vaste lijst met profielen is. Deze lijsten worden gecreeerd in een [werkschema](../../automating/using/get-started-workflows.md), waar de gegevensdimensie wanneer het bewaren van het publiek gekend is. Bijvoorbeeld, na het richten van activiteiten (vooral **[!UICONTROL Query]** ) of na de verzoening van gegevens die uit een dossier worden ingevoerd.
 * **[!UICONTROL File]**: Hiermee wordt aangegeven dat het publiek rechtstreeks is gemaakt op basis van een workflow voor het importeren van [bestanden](../../automating/using/load-file.md) en dat de gegevensdimensie onbekend was bij het opslaan van het publiek.
 * **[!UICONTROL Experience Cloud]**: geeft aan dat het publiek is geïmporteerd uit de Adobe Experience Cloud. Deze optie is alleen beschikbaar als de functionaliteit voor het delen van publiek is geconfigureerd. Zie Een publiek [importeren uit de Adobe Experience Cloud](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md#importing-an-audience)voor meer informatie.
 
