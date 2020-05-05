@@ -12,14 +12,14 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
+source-git-commit: f4c6b74d9b80d80befed65d853cf82b32084c49d
 
 ---
 
 
 # Opmerkingen bij de release 2020{#release-notes-2020}
 
-[Release-planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Release](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) van het regelpaneel| [Documentatiebijwerkingen](../../rn/using/documentation-updates.md) | [Opmerkingen bij](../../rn/using/release-notes-2019.md) vorige release| [Verouderde functies](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[Release-planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Release van het regelpaneel](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Documentatie-updates](../../rn/using/documentation-updates.md) | Opmerkingen bij de [vorige release](../../rn/using/release-notes-2019.md) | [Verouderde functies](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## Release 20.2 - april 2020 {#release-20-2---april-2020}
 
@@ -89,7 +89,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
 
 >[!NOTE]
 >
->De functies van het Adobe Experience Platform in de Campaign Standard worden momenteel in bèta weergegeven. Dit probleem kan vaak en zonder kennisgeving worden bijgewerkt. Raadpleeg de gedetailleerde documentatie: [Ervaring Platform Data Connector](../../administration/using/aep-about-data-connector.md), [Publiek Doelen](../../audiences/using/aep-about-audience-destinations-service.md)
+>De functies van het Adobe Experience Platform in de Campaign Standard worden momenteel in bèta weergegeven. Dit probleem kan vaak en zonder kennisgeving worden bijgewerkt. Raadpleeg de gedetailleerde documentatie: [De Verbinding](../../developing/using/aep-about-data-connector.md)van de Gegevens van het Platform van de ervaring, de Doelen van de [Publiek](../../audiences/using/aep-about-audience-destinations-service.md)
 
 * In workflowlogboeken wordt om de 10 minuten het aantal records weergegeven dat al is verwerkt door de taak die momenteel wordt uitgevoerd.
 * Probleem verholpen die kon optreden bij het importeren van een Adobe Experience Platform-profiel dat uit de database was verwijderd.
@@ -136,7 +136,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
  <tbody> 
   <tr> 
    <td> <p>De Adobe Experience Platform Data Connector is nu geïntegreerd met Adobe Campaign Standard. U kunt uw Campagnegegevens op het Platform van de Ervaring van Adobe ter beschikking stellen door de gegevens van XTK (gegevens die in Campagne worden opgenomen) aan het Model van de Gegevens van het Platform van de Ervaring van Adobe (XDM) toe te wijzen. </p>
-    <p>Deze mogelijkheid is alleen beschikbaar voor klanten die in Azure worden gehost. Raadpleeg de <a href="../../administration/using/aep-about-data-connector.md">gedetailleerde documentatie</a> en de video <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">waarin u kunt zien hoe u deze functie en de voorwaarden</a>kunt activeren.</p>
+    <p>Deze mogelijkheid is alleen beschikbaar voor klanten die in Azure worden gehost. Raadpleeg de <a href="../../developing/using/aep-about-data-connector.md">gedetailleerde documentatie</a> en de video <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">waarin u kunt zien hoe u deze functie en de voorwaarden</a>kunt activeren.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -171,7 +171,7 @@ source-git-commit: d0dde3a445c7047d97c3612b284b9bad36f71539
 
 * Ontbrekende verplichte tekstinstructies toegevoegd bij het maken van een publiek.
 * Probleem verholpen door te klikken op de knop Inhoud **** wijzigen in de wizard van de oude e-maileditor.
-* Probleem opgelost waarbij kopteksten niet konden worden uitgelijnd met de inhoud in het rapport Servicesamenvatting. (CAMP-38103)
+* Probleem verholpen waarbij kopteksten niet konden worden uitgelijnd met de inhoud in het rapport Servicesamenvatting. (CAMP-38103)
 * Probleem verholpen waardoor dynamische inhoudvarianten niet konden worden verwijderd zonder dat dit van invloed was op de rest van de onderwerpregel. (CAMP-40096)
 * Probleem verholpen met A/B-tests bij gebruik van de B-variant op de onderwerpregel. (CAMP-40327)
 * Probleem verholpen waarbij bestanden niet konden worden gesleept en neergezet wanneer de functie HTML importeren uploaden werd gebruikt. (CAMP-39326)
