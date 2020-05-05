@@ -13,18 +13,27 @@ context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e04b70012188b455382406df167328f963d577da
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
 
 # Een workflow maken{#building-a-workflow}
 
-In dit gedeelte worden de belangrijkste beginselen en aanbevolen procedures beschreven voor het maken van een nieuwe workflow:
+In deze sectie worden de belangrijkste beginselen en aanbevolen procedures voor het maken van een nieuwe workflow beschreven.
 
-* Een workflow maken.
-* Toevoegen en koppelen van activiteiten.
-* Configureer activiteiten.
+## Operationele workflowbeginselen{#workflow-operating-principles}
+
+Een workflow is een **reeks configureerbare activiteiten**. Elke activiteit heeft een specifieke rol in het proces. Het resultaat van elke activiteit wordt doorgestuurd naar de volgende activiteit door een **overgang**, die door een pijl wordt vertegenwoordigd.
+
+Het type gegevens dat tussen de ene activiteit en de andere wordt uitgewisseld, kan van invloed zijn op de manier waarop de volgende activiteiten worden geconfigureerd. Als bijvoorbeeld een populatie is ingesteld vóór verzending via e-mail, kan deze als doel dienen voor de betreffende e-mail.
+
+U kunt activiteiten openen om parameters te controleren of te bewerken voordat of nadat u de workflow hebt uitgevoerd.
+
+U kunt overgangen openen om te controleren of de verzonden gegevens tijdens of na het uitvoeren van de werkstroom correct zijn. Voor toegang tot de gedetailleerde weergave van de overgangen moet u de **[!UICONTROL Keep interim results]** optie in het **[!UICONTROL Execution]** gedeelte van de workfloweigenschappen controleren.
+
+![](assets/workflow_overview.png)
+
 
 ## Een workflow maken {#creating-a-workflow}
 
