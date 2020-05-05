@@ -13,18 +13,12 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 0dd69cbad3e05a5a7eb36da80264e6eb6aae0e34
 
 ---
 
 
 # Aan de slag met bestemmingspagina&#39;s {#getting-started-with-landing-pages}
-
-## Informatie over openingspagina&#39;s {#about-landing-pages}
-
-De campagne komt met het landen pagina&#39;s die Webvormen zijn die kunnen worden gebruikt om informatie over uw publiek te vangen, abonnementen aan de dienst aan te bieden, gegevens te tonen en uw gegevensbestand te kweken. Openingspagina&#39;s kunnen ook worden gebruikt voor het aanschaffen of bijwerken van bestaande profielen.
-
-Aanvoerpagina&#39;s kunnen ook worden gebruikt om een dubbele aanmeldingsprocedure in te stellen, zodat u het platform kunt beschermen tegen onjuiste of ongeldige e-mailadressen of spambots. Raadpleeg voor meer informatie de [speciale](../../channels/using/setting-up-a-double-opt-in-process.md)gebruikscase.
 
 De belangrijkste stappen bij het instellen van bestemmingspagina&#39;s zijn als volgt:
 
@@ -80,7 +74,7 @@ Hier is alleen het eerste profiel bijgewerkt sinds het de oudste vermelding was.
 Voordat u een bestemmingspagina instelt, moet u eerst een sjabloon voor een bestemmingspagina configureren die aan uw behoeften voldoet. Zodra het malplaatje klaar is, zullen alle het landen pagina&#39;s die op het worden gebaseerd vooraf gevormd met de gewenste parameters.
 
 1. Selecteer / **[!UICONTROL Resources]** / **[!UICONTROL Templates]** **[!UICONTROL Landing page templates]**/ in het menu Geavanceerd via het Adobe Campagne-logo en dupliceer vervolgens de sjabloon die u wilt gebruiken.
-1. Geef in de sjablooneigenschappen alle parameters op die de bestemmingspagina&#39;s gemeenschappelijk moeten hebben. Bijvoorbeeld: de doeldimensie, de toegangsparameters voor bepaalde of niet-geïdentificeerde bezoekers, acties die specifiek zijn voor formuliervalidatie door een bezoeker, het merk/logo dat/dat in de inhoud moet worden gebruikt, enz. Raadpleeg [deze sectie voor meer informatie over eigenschappen van bestemmingspagina&#39;s](../../channels/using/configuring-landing-page.md)
+1. Geef in de sjablooneigenschappen alle parameters op die de bestemmingspagina&#39;s gemeenschappelijk moeten hebben. Bijvoorbeeld: de doeldimensie, de toegangsparameters voor bepaalde of niet-geïdentificeerde bezoekers, acties die specifiek zijn voor formuliervalidatie door een bezoeker, het merk/logo dat/dat in de inhoud moet worden gebruikt, enz. Zie [deze sectie voor meer informatie over eigenschappen van bestemmingspagina&#39;s](../../channels/using/configuring-landing-page.md)
 1. Sla uw wijzigingen op.
 
 Raadpleeg [deze sectie](../../channels/using/getting-started-with-landing-pages.md)voor meer informatie over sjablonen voor landingspagina&#39;s.
