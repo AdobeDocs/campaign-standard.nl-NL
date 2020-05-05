@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
+source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
 
 ---
 
@@ -36,7 +36,9 @@ Het belangrijkste beginsel van het vormen en het gebruiken van merken is:
 
 >[!IMPORTANT]
 >
->Merken kunnen niet door eindgebruikers worden gemaakt of gewijzigd: deze bewerkingen moeten worden uitgevoerd door de technische beheerder van Adobe Campagne. Neem voor elk verzoek contact op met de klantenservice van Adobe. Multi-branding kan niet worden gebruikt in de context van transactieoverseinen. Voor meer op dit, zie [Transactionele berichten en branding](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
+>Merken kunnen niet door eindgebruikers worden gemaakt of gewijzigd: deze bewerkingen moeten worden uitgevoerd door de technische beheerder van Adobe Campagne. Neem voor elk verzoek contact op met de klantenservice van Adobe.
+>
+>Multi-branding kan niet worden gebruikt in de context van transactieoverseinen. Voor meer op dit, zie [Transactionele berichten en branding](../../channels/using/about-transactional-messaging.md#permissions-and-branding).
 
 De merken kunnen in het **[!UICONTROL Administration > Instance settings > Brand configuration]** menu worden gevonden.
 
