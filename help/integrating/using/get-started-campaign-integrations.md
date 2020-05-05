@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -31,7 +31,7 @@ Afhankelijk van uw omgeving kunnen andere oplossingen ook worden gekoppeld aan A
 
 Een organisatie is de entiteit die een beheerder toelaat om groepen en gebruikers te vormen, en enige aanmelding in de Cloud van de Ervaring te controleren. De organisatie werkt als een aanmeldingsbedrijf dat alle producten en oplossingen van de Experience Cloud overspant. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter veel organisaties hebben. Beheer van gebruikers en organisaties vindt u in detail in de Help-portal [van](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)Adobe Experience Cloud.
 
-Als u gegevensstromen van andere systemen met de Campagne van Adobe wilt integreren, bekijk onze [API documentatie](../../api/using/about-campaign-standard-apis.md).
+Als u gegevensstromen van andere systemen met de Campagne van Adobe wilt integreren, bekijk onze [API documentatie](../../api/using/get-started-apis.md).
 
 >[!NOTE]
 >
