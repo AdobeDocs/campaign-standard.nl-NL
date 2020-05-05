@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dd7e50abbb73bf89ea39f6488083180bcee5163d
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: dd7e50abbb73bf89ea39f6488083180bcee5163d
 
 Met Adobe Campaign Standard kunt u de onmiddellijke invoer van gegevenstoewijzingen via API&#39;s activeren en de status van uw insluitingsaanvragen ophalen.
 
-Op deze pagina wordt beschreven hoe u de ingangsstatus van uw gegevenstoewijzingen kunt activeren en ophalen. Zie [deze sectie](../../api/using/about-campaign-standard-apis.md)voor algemene informatie over standaard-API&#39;s voor campagnes.
+Op deze pagina wordt beschreven hoe u de ingangsstatus van uw gegevenstoewijzingen kunt activeren en ophalen. Zie [deze sectie](../../api/using/get-started-apis.md)voor algemene informatie over standaard-API&#39;s voor campagnes.
 
 ## Vereisten {#prerequisites}
 
