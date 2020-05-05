@@ -12,7 +12,7 @@ discoiquuid: fb511bb8-6be7-43f6-86ab-94d5cfa3efc9
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Door gegevens te importeren, kunt u gegevens verzamelen om de database van uw campagne te voeden.
 
-Als alternatief voor [Workflows](../../automating/using/discovering-workflows.md)biedt Adobe Campaign een vereenvoudigde importfunctie waarmee de gebruiker bepaalde typen importbewerkingen kan beheren die door een beheerder zijn gedefinieerd.
+Als alternatief voor [Workflows](../../automating/using/get-started-workflows.md)biedt Adobe Campaign een vereenvoudigde importfunctie waarmee de gebruiker bepaalde typen importbewerkingen kan beheren die door een beheerder zijn gedefinieerd.
 
 Het operationele beginsel is als volgt: een **beheerder** definieert en beheert importsjablonen (zie [Importsjablonen](../../automating/using/defining-import-templates.md)definiëren). Deze importsjablonen worden vervolgens beschikbaar gesteld aan gebruikers met vereenvoudigde weergaven onder het menu **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Imports]** .
 
