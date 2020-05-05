@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
+source-git-commit: 7af424d2b2ce29811dc0deb015113de2de0124c0
 
 ---
 
@@ -38,13 +38,18 @@ In het configuratiescherm voor e-mail kunt u de parameters voor het e-mailkanaal
 
 ![](assets/channels_1.png)
 
-* **Koptekstparameters van verzonden e-mails**
+* **Geautoriseerde maskervelden**
 
-   In deze sectie kunt u opgeven **[!UICONTROL masks]** welke gegevens zijn geautoriseerd voor het verzendadres en het foutadres. Als er meerdere maskers worden gebruikt, moeten deze door komma&#39;s van elkaar worden gescheiden. Wanneer deze velden zijn ingevuld, controleert Adobe Campagne of de ingevoerde adressen geldig zijn tijdens de voorbereiding van berichten. Deze werkende wijze zorgt ervoor dat geen adressen worden gebruikt die leveringskwesties konden teweegbrengen. Zowel het afzenderadres als het foutadres worden ingesteld door Adobe. U dient contact op te nemen met het team voor klantenservice van Adobe om deze bij te werken.
+   De **[!UICONTROL Header parameters of sent emails]** lijst bevat de geoorloofde e-mailadressen die u kunt gebruiken om e-mails naar uw ontvangers te verzenden (verzendadres) en om hen op de hoogte te stellen van eventuele fouten (foutadres).  Adobe Campagne controleert of de ingevoerde adressen geldig zijn tijdens de voorbereiding van berichten. Deze werkende wijze zorgt ervoor dat geen adressen worden gebruikt die leveringskwesties konden teweegbrengen.
+   * Zowel het afzenderadres als het foutadres worden ingesteld door Adobe. Deze velden mogen niet leeg zijn.
+   * U kunt deze velden niet bewerken. Als u een adres wilt bijwerken, neemt u contact op met het team voor klantenservice van Adobe.
+   * Als u nog een adres wilt toevoegen, gebruikt u het [Configuratiescherm](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) om een nieuw subdomein in te stellen of neemt u contact op met het team van de klantenservice van Adobe. Als u meerdere maskers gebruikt, worden deze door komma&#39;s van elkaar gescheiden.
+   * Het is aan te raden adressen in te stellen met een ster zoals **@yourdomain.com*: u kunt hiermee elk adres gebruiken dat eindigt met uw subdomeinnaam.
 
 * **Leverbaarheid**
 
-   Deze id wordt geleverd door het team voor klantenservice van Adobe. Het is verplicht om de resultaten correct te laten werken.
+   Het **[!UICONTROL Delivery reports ID]** wordt geleverd door het team van de klantenservice van Adobe. Het identificeert elk geval met een leverability identiteitskaart die in de technische leveringsrapporten wordt gebruikt.
+   <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
 
 * **Leveringsparameters**
 
@@ -71,6 +76,7 @@ In het configuratiescherm voor e-mail kunt u de parameters voor het e-mailkanaal
    Voer in het **[!UICONTROL Time between two significant errors]** veld een waarde in om de tijd te definiëren die de toepassing wacht voordat de foutenteller bij een fout wordt verhoogd. De standaardwaarde is **&quot;1d&quot;**, voor 1 dag.
 
    Wanneer de **[!UICONTROL Maximum number of errors before quarantine]** waarde is bereikt, wordt het e-mailadres in quarantaine geplaatst. De standaardwaarde is **&quot;5&quot;**: het adres zal op de vijfde fout in quarantined zijn. Dit betekent dat het contact automatisch van volgende leveringen wordt uitgesloten.
+   <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
    Voor meer op quarantines, zie het [Begrip van quarantainebeheer](../../sending/using/understanding-quarantine-management.md).
 
