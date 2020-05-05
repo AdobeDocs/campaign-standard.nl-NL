@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f0f7441f06b51f9bd2d5a1b3c26f031d4eb1e4c1
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -83,7 +83,7 @@ Voor meer op de stappen van de gebeurtenisconfiguratie, zie [Transactionele over
 Tijdens het ontwerpen en publiceren van transactieberichten kunnen sommige stappen die u moet uitvoeren, niet worden teruggezet. U dient op de hoogte te zijn van de volgende beperkingen:
 
 * Voor elke gebeurtenisconfiguratie kan slechts één kanaal worden gebruikt. Zie [Een gebeurtenis](../../administration/using/configuring-transactional-messaging.md#creating-an-event)maken.
-* Nadat de gebeurtenis is gemaakt, kunt u het kanaal niet meer wijzigen. Daarom als een bericht niet met succes wordt verzonden, moet u het mechanisme ontwerpen dat het toestaat om het van een ander kanaal te verzenden gebruikend een werkschema. Zie [Werkstroomgegevens en processen](../../automating/using/workflow-data-and-processes.md).
+* Nadat de gebeurtenis is gemaakt, kunt u het kanaal niet meer wijzigen. Daarom als een bericht niet met succes wordt verzonden, moet u het mechanisme ontwerpen dat het toestaat om het van een ander kanaal te verzenden gebruikend een werkschema. Zie [Werkstroomgegevens en processen](../../automating/using/get-started-workflows.md).
 * U kunt de doeldimensie ( **[!UICONTROL Real-time event]** of **[!UICONTROL Profile]** ) niet wijzigen nadat de gebeurtenis is gemaakt. Zie [Een gebeurtenis](../../administration/using/configuring-transactional-messaging.md#creating-an-event)maken.
 * U kunt een publicatie niet terugdraaien, maar u kunt de publicatie van een gebeurtenis wel ongedaan maken: deze bewerking maakt de gebeurtenis en het bijbehorende transactiemelding ontoegankelijk. Zie Publicatie van een gebeurtenis [](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event)ongedaan maken.
 * Het enige transactiebericht dat aan een gebeurtenis kan worden geassocieerd is het bericht dat automatisch wordt gecreeerd bij het publiceren van die gebeurtenis. Zie [Een voorvertoning weergeven en de gebeurtenis](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)publiceren.
