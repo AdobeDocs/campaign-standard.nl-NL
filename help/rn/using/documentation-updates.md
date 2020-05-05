@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62b1f9bb452c229b879f735830b330d0fda5ea3c
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -157,7 +157,7 @@ Er is een nieuwe pagina toegevoegd met algemene richtlijnen voor mobiele leverin
 
 Het werken met de documentatie van de Manager van de Campagne en van de Ervaring is bijgewerkt met een nieuwe sectieTips **over hoe te om de integratie** van de Manager van de Campagne-Ervaring te gebruiken. [Meer informatie](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
-De APIs documentatiehomepage is verbeterd met redirection aan de verschillende onderwerpen. [Meer informatie](../../api/using/about-campaign-standard-apis.md)
+De APIs documentatiehomepage is verbeterd met redirection aan de verschillende onderwerpen. [Meer informatie](../../api/using/get-started-apis.md)
 
 ## Documentatie-updates - december 2019 {#doc-updates-december-2019}
 
@@ -179,7 +179,7 @@ De documentatie van het Controlebord is geïntegreerd in de nieuwe collectieve d
 
 De tabel voor de berekening **van de** indicator is bijgewerkt. [Meer informatie](../../reporting/using/indicator-calculation.md)
 
-De documentatieset van APIs is geïntegreerd in de documentatie van de Standaard van de Campagne.[Meer informatie](../../api/using/about-campaign-standard-apis.md)
+De documentatieset van APIs is geïntegreerd in de documentatie van de Standaard van de Campagne.[Meer informatie](../../api/using/get-started-apis.md)
 
 De gids Een gepersonaliseerde e-mail maken om aan de slag te gaan is verplaatst en bijgewerkt. [Meer informatie](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
@@ -327,7 +327,7 @@ Een sectie toegevoegd over updates en onderhoudsbewerkingen. [Meer informatie](.
 
 Er is informatie toegevoegd over de nieuwe sorteeroptie in de activiteit **Bestand** overbrengen. [Meer informatie](../../automating/using/transfer-file.md)
 
-De documentatie [van](../../api/using/about-campaign-standard-apis.md) REST API&#39;s is bijgewerkt:
+De documentatie [van](../../api/using/get-started-apis.md) REST API&#39;s is bijgewerkt:
 
 * Er is een nieuwe sectie toegevoegd met algemene informatie over waarom de standaard REST API&#39;s voor campagnes worden gebruikt.
 * Er is een verzameling van vooraf ontworpen API-aanvragen beschikbaar gesteld, die veelvoorkomende gebruiksgevallen weergeven.
@@ -697,7 +697,7 @@ De SMS-documentatie is bijgewerkt en er is enige verduidelijking toegevoegd aan 
 
 Nieuwe sectie die gewijd is aan workflowbeheer via de API. [Meer informatie](../../api/using/controlling-a-workflow.md)
 
-Nieuwe sectie gewijd aan primaire sleutels en het gebruik van een bedrijfs identiteitskaart als sleutel in API. [Meer informatie](../../api/using/about-campaign-standard-apis.md)
+Nieuwe sectie gewijd aan primaire sleutels en het gebruik van een bedrijfs identiteitskaart als sleutel in API. [Meer informatie](../../api/using/get-started-apis.md)
 
 Informatie toegevoegd over eenvoudige en meervoudige filtering in de API. [Meer informatie](../../api/using/filtering.md)
 
@@ -849,7 +849,7 @@ Gekoppelde bronnen in REST API&#39;s - Meer [informatie](../../developing/using/
 
 Triggerintegratie: er zijn twee gebruiksgevallen toegevoegd . [Meer informatie](../../integrating/using/abandonment-triggers-use-cases.md)
 
-We hebben de ontwikkelaars-API-documentatie opnieuw ontworpen met nieuwe informatie- en codefragmenten voor een verbeterde gebruikerservaring. [Meer informatie](../../api/using/about-campaign-standard-apis.md)
+We hebben de ontwikkelaars-API-documentatie opnieuw ontworpen met nieuwe informatie- en codefragmenten voor een verbeterde gebruikerservaring. [Meer informatie](../../api/using/get-started-apis.md)
 
 Ontdek voorbeelden van het nieuwe [Lees publiek](../../automating/using/read-audience.md) en de [Externe activiteiten van het signaalwerkschema](../../automating/using/external-signal.md) .
 
@@ -859,7 +859,7 @@ Ontdek voorbeelden van het nieuwe [Lees publiek](../../automating/using/read-aud
 
 Logexport voor externe rapportage - [Meer informatie](../../automating/using/exporting-logs.md)
 
-Transactieberichten-API - [Meer informatie](../../api/using/about-campaign-standard-apis.md)
+Transactieberichten-API - [Meer informatie](../../api/using/get-started-apis.md)
 
 Marketingmogelijkheden voor transactieberichten - [lees meer](../../channels/using/profile-transactional-messages.md)
 
