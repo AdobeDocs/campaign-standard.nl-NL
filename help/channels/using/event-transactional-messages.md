@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -258,7 +258,7 @@ Klik op de **[!UICONTROL Reports]** knop voor toegang tot rapporten over je tran
 
 U kunt het publiceren van uw transactiebericht opschorten door de **[!UICONTROL Pause]** knoop, bijvoorbeeld, te gebruiken om de gegevens te wijzigen in het bericht. De gebeurtenissen worden daarom niet meer verwerkt, maar in plaats daarvan in een wachtrij opgeslagen in de Adobe Campagne-database.
 
-De gebeurtenissen in de wachtrij worden bewaard gedurende een periode die is gedefinieerd in de REST API (zie de documentatie [van de](../../api/using/about-campaign-standard-apis.md)REST API) of in de triggergebeurtenis als u de Triggers Core-service gebruikt (zie [Werken met Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)voor campagne en ervaring).
+De gebeurtenissen in de wachtrij worden bewaard gedurende een periode die is gedefinieerd in de REST API (zie de documentatie [van de](../../api/using/get-started-apis.md)REST API) of in de triggergebeurtenis als u de Triggers Core-service gebruikt (zie [Werken met Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)voor campagne en ervaring).
 
 ![](assets/message-center_pause.png)
 
