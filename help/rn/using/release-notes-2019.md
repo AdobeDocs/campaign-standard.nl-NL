@@ -13,6 +13,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '7621'
+ht-degree: 0%
 
 ---
 
@@ -368,7 +371,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 * Wanneer het uitvoeren van een pakket met veiligheidsgroepen, bevat het nu de rollen die aan elke groep worden toegewezen. (CAMP-32960)
 * In de activiteit van het Dossier van de Lading, laat een nieuwe optie u controleren dat de kolommen van het dossier u uploadt de kolomdefinitie aanpassen. Raadpleeg de [gedetailleerde documentatie](../../automating/using/load-file.md)voor meer informatie. (CAMP-3229)
 * Workflows kunnen nu worden gestart met een payload, zodat u externe parameters kunt gebruiken en delen tussen activiteiten in de workflow. Raadpleeg de [gedetailleerde documentatie](../../automating/using/calling-a-workflow-with-external-parameters.md)voor meer informatie. (CAMP-29412 &amp; CAMP-29413)
-* Met de API&#39;s van Campagnestandaard kunt u nu de geografische en organisatorische eenheden van profielen bijwerken met behulp van een payload. Raadpleeg de [gedetailleerde documentatie](../../api/using/get-started-apis.md)voor meer informatie.
+* Met de API&#39;s van Campagnestandaard kunt u nu de geografische en organisatorische eenheden van profielen bijwerken met een payload. Raadpleeg de [gedetailleerde documentatie](../../api/using/get-started-apis.md)voor meer informatie.
 * Foutberichten waarin een object uit de database niet toegankelijk is, zijn duidelijker om te begrijpen.
 * In de activiteit van het Extraheren dossier, zijn de mogelijkheden JavaScript bijgewerkt toen het bepalen van de naam van een dossier om uit te voeren. Alleen de functie formatDate is nu beschikbaar voor gebruik in het veld Uitvoer. Raadpleeg de [gedetailleerde documentatie](../../automating/using/extract-file.md)voor meer informatie.
 * Het genereren van automatische sequentie-id&#39;s is verbeterd voor aangepaste bronnen. De primaire sleutels voor nieuwe douanemiddelen zijn nu in 64 beetjes door gebrek.
@@ -387,7 +390,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 * Er zijn nieuwe instanties van de Campagnestandaard ingericht. (CAMP-32635 &amp; CAMP-32344)
 * Probleem verholpen waarbij de aanpassing van de datumformule in een workflow werd voorkomen. (CAMP-30336)
 * Probleem verholpen bij het definiëren van een aangepaste datumformule die kan voorkomen dat de velden &quot;Aanvullende gegevens&quot; en &quot;Segmentcode&quot; beschikbaar zijn in de vervolgkeuzelijst. (CAMP-32383)
-* Probleem verholpen waarbij de activiteiten &quot;Overdrachtsbestand&quot; en &quot;Bestand uitpakken&quot; er niet in konden slagen de bestanden te zoeken die worden afgewezen als ze werden versleuteld. (CAMP-32377)
+* Probleem verholpen waarbij de activiteiten &quot;Overdrachtsbestand&quot; en &quot;Bestand uitpakken&quot; er niet in konden slagen de bestanden te zoeken die werden afgewezen als ze waren versleuteld. (CAMP-32377)
 * Probleem verholpen in API&#39;s waardoor het lineCount-filter niet het exacte totale aantal kan weergeven. (CAMP-31424)
 * Probleem verholpen in bestemmingspagina&#39;s die konden verhinderen dat invoervelden de bijgewerkte waarde konden weergeven nadat deze was gewijzigd. (CAMP-31401)
 * Probleem verholpen waarbij een signaalactiviteit onverwacht kon worden geactiveerd.
