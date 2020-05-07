@@ -3,6 +3,9 @@ title: Een bron aanroepen met een samengestelde identificatiesleutel
 description: Leer hoe u een bron aanroept met een samengestelde id-toets
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 0%
 
 ---
 
@@ -52,7 +55,7 @@ Verwante onderwerpen:
 ## Stap 2: De filterdefinitie configureren{#step-2-configure-the-filter-definition}
 
 >[!NOTE]
-> Algemene concepten bij het configureren van filterdefinities worden in [deze sectie](../../developing/using/configuring-filter-definition.md)beschreven.
+> Algemene concepten bij het configureren van filterdefinities worden in [deze sectie](../../developing/using/configuring-filter-definition.md)nader beschreven.
 
 1. Klik op het **[!UICONTROL Filter definition]** tabblad **[!UICONTROL Add an element]** en voer vervolgens het label en de id van de filterdefinitie in.
 
