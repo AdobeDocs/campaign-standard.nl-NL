@@ -12,7 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 0c91c22bf181607ae35297532562e20b63771e4a
+workflow-type: tm+mt
+source-wordcount: '5775'
+ht-degree: 0%
 
 ---
 
@@ -717,7 +720,7 @@ Gedetailleerde lijst van alle componenten beschikbaar in Dynamische Rapporten en
 
 Gedetailleerde lijst met KPI&#39;s die worden gedeeld met Adobe Analytics. [Meer informatie](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
-Video over nieuw dynamisch rapport. [Meer informatie](../../start/using/how-to-videos.md)
+Video over nieuw dynamisch rapport.
 
 Toegevoegde S3 rekeningsaanbevelingen. [Meer informatie](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
@@ -759,7 +762,7 @@ Direct Mail Channel - Terug naar afzender, [meer lezen](../../channels/using/ret
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
-De [Aan de slag-hulplijnen](../../start/using/step-by-step-guides.md) en [hoe kan ik-video](../../start/using/how-to-videos.md) &#39;s zijn opnieuw gegroepeerd in een speciale sectie.
+De gids Aan de slag en instructievideo&#39;s zijn opnieuw gegroepeerd in een speciale sectie.
 
 De documentatie voor e-mailrendering is bijgewerkt. [Meer informatie](../../sending/using/email-rendering.md)
 
