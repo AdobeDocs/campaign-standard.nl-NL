@@ -13,6 +13,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '793'
+ht-degree: 0%
 
 ---
 
@@ -78,7 +81,7 @@ Gebruik de functie voor leveringswaarschuwingen om de successen of mislukkingen 
 
 **Breid het Standaard gegevensmodel** van de Campagne met uw eigen gebieden en middelen uit, en controleer alle veranderingen van het gegevensmodel in één enkele mening. [Aan de slag met het standaard gegevensmodel van de campagne](../../developing/using/get-started-data-model.md)
 
-**Gebruik REST APIs** om diverse verrichtingen uit te voeren en de Norm van de Campagne met uw eigen ecosysteem te integreren. [Aan de slag met standaard REST-API&#39;s voor campagnes](../../api/using/get-started-apis.md)
+**Gebruik REST API&#39;s** om verschillende bewerkingen uit te voeren en de campagnestandaard te integreren met uw eigen ecosysteem. [Aan de slag met standaard REST-API&#39;s voor campagnes](../../api/using/get-started-apis.md)
 
 **Campagne** beheren vanuit één weergave: om uw exemplaar te controleren, de toestemmingen van gebruikers te beheren. De externe servers van de opstelling om met uw instantie te verbinden, en parameters voor uw communicatiekanalen te vormen. [Ga aan de slag met het beheer Campagne Standard](../../administration/using/get-started-campaign-administration.md)
 
