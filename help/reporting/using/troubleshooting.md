@@ -12,7 +12,10 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 001fc2df11e32bdcc31dfe917884460b4d3de541
+source-git-commit: a894e72bb02fbecb86d43c6d2a13adf7ab10f73e
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 4%
 
 ---
 
@@ -36,9 +39,9 @@ Hier volgt een visuele weergave van de interactie van de profielen met de verzon
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Dag</strong><br /> </th> 
-   <th align="center"> <strong>Openen</strong><br /> </th> 
-   <th align="center"> <strong>Uniek wordt geopend</strong><br /> </th> 
+   <th align="center"> <strong>Dag</strong> <br /> </th> 
+   <th align="center"> <strong>Openen</strong> <br /> </th> 
+   <th align="center"> <strong>Unieke openingen</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -64,9 +67,9 @@ Dit resulteert in de volgende tabel:
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Dag</strong><br /> </th> 
-   <th align="center"> <strong>Openen</strong><br /> </th> 
-   <th align="center"> <strong>Uniek wordt geopend</strong><br /> </th> 
+   <th align="center"> <strong>Dag</strong> <br /> </th> 
+   <th align="center"> <strong>Openen</strong> <br /> </th> 
+   <th align="center"> <strong>Unieke openingen</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -100,6 +103,57 @@ Dergelijke voorvallen worden toegevoegd als **&quot;een e-mailklik impliceert ee
 >[!NOTE]
 >
 >Aangezien de unieke tellingen op een op HLL-Gebaseerde schets gebaseerd zijn, kunnen kleine inconsistenties tussen de tellingen worden ervaren.
+
+## Hoe worden tellingen voor terugkomende/transactionele leveringen berekend? {#counts-recurring-deliveries}
+
+Wanneer het werken met terugkomende en transactionele leveringen, zullen de tellingen aan zowel de ouder als kindleveringen worden toegeschreven.
+Wij kunnen het voorbeeld nemen van een terugkomende levering genoemd **R1** die wordt geplaatst om elke dag op dag 1 (RC1), dag 2 (RC2) en dag 3 (RC3) te lopen.
+Laten we aannemen dat slechts één persoon alle onderliggende leveringen meerdere keren heeft geopend. In dit geval, zullen de individuele terugkomende kindleveringen de **[!UICONTROL Open]** telling als 1 voor elk tonen.
+Aangezien dezelfde persoon echter op alle leveringen heeft geklikt, heeft de bovenliggende terugkerende levering ook **[!UICONTROL Unique open]** de waarde 1.
+
+Rapporten moeten er als volgt uitzien:
+
+<table> 
+ <thead> 
+  <tr> 
+   <th align="center"> <strong>Aflevering</strong> <br /> </th> 
+   <th align="center"> <strong>Verzonden</strong> <br /> </th> 
+   <th align="center"> <strong>Geleverd</strong> <br /> </th>
+   <th align="center"> <strong>Openen</strong> <br /> </th> 
+   <th align="center"> <strong>Unieke openingen</strong> <br /> </th>
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td align="center"> <strong>R1<br/> </td> 
+   <td align="center"> <strong>100<br/> </td> 
+   <td align="center"> <strong>90<br/> </td> 
+   <td align="center"> <strong>10<br/> </td> 
+   <td align="center"> <strong>3<br/> </td> 
+  </tr> 
+  <tr> 
+   <td align="center"> RC1<br/> </td> 
+   <td align="center"> 20<br /> </td> 
+   <td align="center"> 20<br /> </td> 
+   <td align="center"> 6<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr>
+    <tr> 
+   <td align="center"> RC2<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 30<br /> </td> 
+   <td align="center"> 2<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr> 
+    <tr> 
+   <td align="center"> RC3<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 2<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ## Wat is de aanduiding van de kleuren in de tabel van mijn verslagen? {#reports-color-signification}
 
