@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c91c22bf181607ae35297532562e20b63771e4a
+source-git-commit: 72d27b33d6e69af47b34cc6bfeae7b34911e8d10
 workflow-type: tm+mt
-source-wordcount: '5775'
+source-wordcount: '5807'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Naast de opmerkingen bij de [release](../../rn/using/release-notes.md)van Adobe 
 De overzichtspagina van de campagnestandaard is verrijkt en in thematische onderwerpen gereorganiseerd. [Meer informatie](../../start/using/about-campaign-standard.md)
 
 Het gedeelte Parameters e-mailkanaal is verduidelijkt met verdere informatie over de toegestane maskervelden en de id van de leveringsrapporten. [Meer informatie](../../administration/using/configuring-email-channel.md)
+
+De configuratie van een mobiele toepassing met SDK&#39;s van het Adobe Experience Platform is nu beschikbaar in de kerndocumentatie met meer informatie over de technische workflow voor het synchroniseren van de mobiele app AEPSDK in de startprocedure. [Meer informatie](../../administration/using/configuring-a-mobile-application.md)
 
 ## Release 20.3 - mei 2020 {#release-20-3---may-2020}
 
