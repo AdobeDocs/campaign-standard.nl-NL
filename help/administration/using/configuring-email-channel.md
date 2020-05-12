@@ -13,7 +13,10 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: e2303055b3370efab204adbdb1b9f567a555a23f
+workflow-type: tm+mt
+source-wordcount: '2331'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +43,7 @@ In het configuratiescherm voor e-mail kunt u de parameters voor het e-mailkanaal
 
 * **Geautoriseerde maskervelden**
 
-   De **[!UICONTROL Header parameters of sent emails]** lijst bevat de geoorloofde e-mailadressen die u kunt gebruiken om e-mails naar uw ontvangers te verzenden (verzendadres) en om hen op de hoogte te stellen van eventuele fouten (foutadres).  Adobe Campagne controleert of de ingevoerde adressen geldig zijn tijdens de voorbereiding van berichten. Deze werkende wijze zorgt ervoor dat geen adressen worden gebruikt die leveringskwesties konden teweegbrengen.
+   In de **[!UICONTROL Header parameters of sent emails]** sectie worden de geoorloofde e-mailadressen vermeld die u kunt gebruiken om e-mails naar uw ontvangers te verzenden (het adres van de afzender) en om hen in staat te stellen geautomatiseerde antwoorden zoals asynchrone stuitingen, uit-van-bureauantwoorden, enz. terug te sturen. (foutadres).  Adobe Campagne controleert of de ingevoerde adressen geldig zijn tijdens de voorbereiding van berichten. Deze werkende wijze zorgt ervoor dat geen adressen worden gebruikt die leveringskwesties konden teweegbrengen.
    * Zowel het afzenderadres als het foutadres worden ingesteld door Adobe. Deze velden mogen niet leeg zijn.
    * U kunt deze velden niet bewerken. Als u een adres wilt bijwerken, neemt u contact op met het team voor klantenservice van Adobe.
    * Als u nog een adres wilt toevoegen, gebruikt u het [Configuratiescherm](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) om een nieuw subdomein in te stellen of neemt u contact op met het team van de klantenservice van Adobe. Als u meerdere maskers gebruikt, worden deze door komma&#39;s van elkaar gescheiden.
@@ -53,7 +56,7 @@ In het configuratiescherm voor e-mail kunt u de parameters voor het e-mailkanaal
 
 * **Leveringsparameters**
 
-   Adobe Campaign verzendt de berichten die op de begindatum beginnen. In het **[!UICONTROL Message delivery duration]** veld kunt u opgeven gedurende welke periode de berichten kunnen worden verzonden.
+   Adobe Campaign verzendt de berichten die op de begindatum beginnen. In het **[!UICONTROL Message delivery duration]** veld kunt u opgeven in welke tijd een bericht in de levering waarbij een tijdelijke fout of een zachte stuit optreedt, opnieuw wordt geprobeerd.
 
    >[!IMPORTANT]
    >
@@ -73,7 +76,7 @@ In het configuratiescherm voor e-mail kunt u de parameters voor het e-mailkanaal
 
 * **E-mailquarantaineparameters**
 
-   Voer in het **[!UICONTROL Time between two significant errors]** veld een waarde in om de tijd te definiëren die de toepassing wacht voordat de foutenteller bij een fout wordt verhoogd. De standaardwaarde is **&quot;1d&quot;**, voor 1 dag.
+   Voer in het **[!UICONTROL Time between two significant errors]** veld een waarde in om de tijd te definiëren die de toepassing wacht voordat de foutenteller wordt verhoogd in het geval van een fout met zachte vlag. De standaardwaarde is **&quot;1d&quot;**, voor 1 dag.
 
    Wanneer de **[!UICONTROL Maximum number of errors before quarantine]** waarde is bereikt, wordt het e-mailadres in quarantaine geplaatst. De standaardwaarde is **&quot;5&quot;**: het adres zal op de vijfde fout in quarantined zijn. Dit betekent dat het contact automatisch van volgende leveringen wordt uitgesloten.
    <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
@@ -102,9 +105,9 @@ Merk op dat de e-maildomeinen en de MX regels nu door Verbeterde MTA van de Camp
 
 ### Stuitberichten {#bounce-mails}
 
-De asynchrone stuitingen worden nog gekwalificeerd door het proces van de Campagne inMail door de **[!UICONTROL Bounce mails]** regel.
+De asynchrone stuitingen worden nog gekwalificeerd door het proces van de Campagne inMail door de **[!UICONTROL Bounce mails]** regels.
 
-Deze regel bevat de lijst met tekenreeksen die door externe servers kunnen worden geretourneerd en waarmee u de fout kunt kwalificeren (**Hard**, **Zacht** of **Genegeerd**).
+Deze regels bevatten de lijst met tekenreeksen die door externe servers kunnen worden geretourneerd en waarmee u de fout (**Hard**, **Zacht** of **Genegeerd**) kunt kwalificeren.
 
 >[!NOTE]
 >
