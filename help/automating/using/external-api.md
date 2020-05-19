@@ -10,7 +10,10 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c59faa935663bf803ed97f30e45f9b4276b448b8
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '1703'
+ht-degree: 0%
 
 ---
 
@@ -158,7 +161,7 @@ Op dit tabblad kunt u de **uitgaande overgang** en het label ervan activeren. De
 
 ### Uitvoeropties
 
-Dit tabblad is beschikbaar voor de meeste workflowactiviteiten. Raadpleeg de sectie [Activiteiteneigenschappen](../../automating/using/executing-a-workflow.md#activity-properties) voor meer informatie.
+Dit tabblad is beschikbaar voor de meeste workflowactiviteiten. Raadpleeg de sectie [Activiteiteneigenschappen](../../automating/using/activity-properties.md) voor meer informatie.
 
 ![](assets/externalAPI-options.png)
 
