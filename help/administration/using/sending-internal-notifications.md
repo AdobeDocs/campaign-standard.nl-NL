@@ -12,7 +12,10 @@ discoiquuid: 4d51229a-745a-4f24-b1c2-22fa203b499c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +32,6 @@ U kunt meldingen configureren voor de volgende objecten:
 
    ![](assets/pulse_2.png)
 
-* **[!UICONTROL Workflows]**: elk lid van de geselecteerde beveiligingsgroep wordt op de hoogte gesteld (e-mail en meldingen in de app) wanneer een workflow een fout bevat. Als u op de melding of op de e-mailkoppeling klikt, wordt de bijbehorende workflow weergegeven. Meldingen worden standaard gedeactiveerd in de werkstroomsjabloon buiten de box. Als u deze wilt activeren, bewerkt u de eigenschappen van de workflow of werkstroomsjabloon en voegt u een beveiligingsgroep toe onder **Algemeen > Uitvoering > Foutbeheer > Supervisors**. Voor meer informatie over veiligheidsgroepen, verwijs naar het [Leiden groepen en gebruikers](../../administration/using/managing-groups-and-users.md). Zie [Workfloweigenschappen](../../automating/using/executing-a-workflow.md#workflow-properties)voor meer informatie over workfloweigenschappen.
+* **[!UICONTROL Workflows]**: elk lid van de geselecteerde beveiligingsgroep wordt op de hoogte gesteld (e-mail en meldingen in de app) wanneer een workflow een fout bevat. Als u op de melding of op de e-mailkoppeling klikt, wordt de bijbehorende workflow weergegeven. Meldingen worden standaard gedeactiveerd in de werkstroomsjabloon buiten de box. Als u deze wilt activeren, bewerkt u de eigenschappen van de workflow of werkstroomsjabloon en voegt u een beveiligingsgroep toe onder **Algemeen > Uitvoering > Foutbeheer > Supervisors**. Voor meer informatie over veiligheidsgroepen, verwijs naar het [Leiden groepen en gebruikers](../../administration/using/managing-groups-and-users.md). Zie [Workfloweigenschappen](../../automating/using/managing-execution-options.md)voor meer informatie over workfloweigenschappen.
 
    ![](assets/pulse_1.png)
-
