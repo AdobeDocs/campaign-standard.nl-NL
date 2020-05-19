@@ -12,7 +12,10 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c21a6fb4916430deb76d5d01b379453e398f6f25
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '4623'
+ht-degree: 0%
 
 ---
 
@@ -247,7 +250,7 @@ _Rapporten_
 
 _Workflows_
 
-* U kunt werkstroomlogboeken (tijd- en tekstzoektijd) nu filteren. Raadpleeg de [gedetailleerde documentatie](../../automating/using/executing-a-workflow.md#monitoring)voor meer informatie.
+* U kunt werkstroomlogboeken (tijd- en tekstzoektijd) nu filteren. Raadpleeg de [gedetailleerde documentatie](../../automating/using/monitoring-workflow-execution.md)voor meer informatie.
 * Er is nu een optie beschikbaar in workflowleveringen om de bevestiging te deactiveren voordat deze wordt verzonden.
 * Probleem verholpen waardoor u geen uitgaande overgang kon instellen in de wizard voor het maken van terugkerende leveringen.
 * Probleem verholpen die optrad wanneer een activiteit van de werkschemaquery die op een gebied van het douanemiddel met een opsomming wordt gebaseerd die veel waarden had
