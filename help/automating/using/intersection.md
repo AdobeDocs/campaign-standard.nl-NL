@@ -12,7 +12,10 @@ discoiquuid: 7a107d6b-edc3-44c3-bbb7-ba3dec8e43f9
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 0%
 
 ---
 
@@ -41,7 +44,7 @@ De **[!UICONTROL Intersection]** activiteit wordt over het algemeen gebruikt om 
    * **[!UICONTROL A selection of columns]**: Selecteer deze optie om de lijst met kolommen te definiëren waarop de afstemming van gegevens wordt toegepast. U moet eerst de primaire set selecteren (die de brongegevens bevat) en vervolgens de velden opgeven die u wilt gebruiken voor de samenvoeging.
 
 1. Schakel het **[!UICONTROL Use common additional data only]** selectievakje in als u alleen de aanvullende gegevens in alle binnenkomende overgangen wilt behouden.
-1. Indien nodig, beheer de [Overgangen](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) van de activiteit om tot de geavanceerde opties voor de uitgaande bevolking toegang te hebben.
+1. Indien nodig, beheer de [Overgangen](../../automating/using/activity-properties.md) van de activiteit om tot de geavanceerde opties voor de uitgaande bevolking toegang te hebben.
 1. Bevestig de configuratie van uw activiteit en sla uw werkschema op.
 
 ## Voorbeeld {#example}
