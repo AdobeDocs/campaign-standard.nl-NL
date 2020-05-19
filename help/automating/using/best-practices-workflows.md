@@ -12,7 +12,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '1046'
+ht-degree: 0%
 
 ---
 
@@ -64,7 +67,7 @@ Workflows die langer dan 7 dagen zijn gepauzeerd of gezakt, worden gestopt om mi
 
 Een workflow met niet-afgesloten overgangen kan nog steeds worden uitgevoerd: er wordt een waarschuwingsbericht gegenereerd en de workflow wordt gepauzeerd zodra de overgang is bereikt, maar er wordt geen fout gegenereerd. U kunt ook een workflow starten zonder een voltooid ontwerp en deze voltooien.
 
-Raadpleeg Workflows [](../../automating/using//executing-a-workflow.md)uitvoeren voor meer informatie.
+Raadpleeg Workflows [](../../automating/using/about-workflow-execution.md)uitvoeren voor meer informatie.
 
 ### Tijdzone
 
@@ -130,7 +133,7 @@ Adobe Campaign biedt verschillende logbestanden om meer inzicht te krijgen in wo
 
 U kunt werkstroomlogboeken openen om de uitvoering van uw activiteiten te controleren. De uitgevoerde bewerkingen en uitvoeringsfouten worden in chronologische volgorde geïndexeerd. Het tabblad Logs bestaat uit de geschiedenis van de uitvoering van alle of bepaalde geselecteerde activiteiten.
 Op het tabblad Taken wordt de volgorde van uitvoering van de activiteiten weergegeven. Klik op een taak voor meer informatie over een activiteit.
-Raadpleeg de uitvoering van de [controleworkflow](../../automating/using/executing-a-workflow.md#monitoring)voor meer informatie.
+Raadpleeg de uitvoering van de [controleworkflow](../../automating/using/monitoring-workflow-execution.md)voor meer informatie.
 
 #### Problemen met gegevensbeheer oplossen{#troubleshooting-data-management-activities}
 
@@ -158,4 +161,4 @@ Raadpleeg [Leveringswaarschuwingen](../../sending/using/receiving-alerts-when-fa
 
 **Verwante onderwerpen:**
 
-* [Foutbeheer](../../automating/using/executing-a-workflow.md#error-management)
+* [Foutbeheer](../../automating/using/monitoring-workflow-execution.md)
