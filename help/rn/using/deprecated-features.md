@@ -12,7 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c35468d7c9a3177d755dad2a9ab2e09510d680fa
+source-git-commit: f8c8dd5ec3dcff557d17e92591748cb1b6694122
+workflow-type: tm+mt
+source-wordcount: '591'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +41,7 @@ Deze sectie maakt een lijst van eigenschappen en mogelijkheden die als verouderd
 
 In het algemeen worden functies die in een toekomstige release verwijderd moeten worden, eerst vervangen, met een alternatief dat beschikbaar is. Deze functies en mogelijkheden zijn niet meer beschikbaar voor nieuwe standaardklanten van de campagne of moeten niet worden gebruikt voor nieuwe implementatie. Ze worden ook verwijderd uit de productdocumentatie.
 
-Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik maken van de functie/mogelijkheid en plannen te maken om hun implementatie te wijzigen en het geboden alternatief te gebruiken. Raadpleeg de verwijderingsdatum van het doel om uw omgeving en projectupdates dienovereenkomstig te plannen.
+Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik maken van de functie/mogelijkheid en plannen te maken om hun implementatie te wijzigen en het geboden alternatief te gebruiken. Raadpleeg de versie voor doelverwijdering om uw omgeving en projectupdates dienovereenkomstig te plannen.
 
 <table> 
  <thead> 
@@ -67,7 +70,7 @@ Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik 
    <td> <p>Vanaf de release van Campagne 19.4 is het gebruik van de campagne-API en de interface voor toegangs- en verwijderingsverzoeken afgekeurd. De profielverwijdering in twee stappen is niet beschikbaar. Gebruik <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
    <p>Zie ook <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Privacybeheer in de Standaard</a>van de Campagne.</p>
   <p> 
-  <em>Doeldatum verwijdering: Juli 2020 - Versie van Campagne 20.5 </em></p>
+  <em>Doelversie verwijdering: Release van campagne 20.4</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -84,7 +87,7 @@ Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik 
    <td> <p>Vanaf de release Campagne 19.0 is de oude e-maileditor afgekeurd. Met <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">de nieuwe e-mailontwerper</a> kunt u uw e-mailinhoud maken en aanpassen. </p></br>
    <p>Lees <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">deze sectie</a> om te leren hoe u uw e-mailsjablonen voor de nieuwe editor kunt aanpassen.</p></br>
   <p> 
-  <em>Doeldatum verwijdering: Oktober 2020 - de release van de Campagne 20.6 </em></p>
+  <em>Doelversie verwijdering: Release van campagne 20.4</em></p>
    </td> 
   </tr> 
  </tbody> 
