@@ -12,7 +12,10 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '2026'
+ht-degree: 0%
 
 ---
 
@@ -190,16 +193,16 @@ Op het **[!UICONTROL Criteria parameters]** tabblad van een [leveringswaarschuwi
 
 ![](assets/delivery-alerting_dashboard_criteria-parameters.png)
 
-* **[!UICONTROL Delivery target minimum size]**: Bijvoorbeeld, als u 100 op dit gebied ingaat, wordt een bericht verzonden slechts voor leveringen met een doel gelijk aan of groter dan 100 ontvangers. Deze parameter geldt voor alle criteria.
-* **[!UICONTROL Monitoring period before and after the contact date (in hours)]**: Aantal uren voor en na de huidige tijd. Alleen de leveringen met een contactdatum in dit tijdsbereik worden in aanmerking genomen. Deze parameter geldt voor alle criteria. De standaardwaarde voor dit veld is 24 uur.
+* **[!UICONTROL Delivery target minimum size]**: Bijvoorbeeld, als u 100 op dit gebied ingaat, wordt een bericht verzonden slechts voor leveringen met een doel gelijk aan of groter dan 100 ontvangers. This parameter applies to all criteria.
+* **[!UICONTROL Monitoring period before and after the contact date (in hours)]**: Number of hours before and after the current time. Alleen de leveringen met een contactdatum in dit tijdsbereik worden in aanmerking genomen. This parameter applies to all criteria. By default, the value of this field is set to 24 hours.
 
-   Zie [Informatie over de planning](../../sending/using/about-scheduling-messages.md)voor meer informatie over de contactdatum.
+   For more information on the contact date, see [About the scheduling](../../sending/using/about-scheduling-messages.md).
 
-* **[!UICONTROL Maximum ratio of soft bounce errors]**: Er wordt een melding verzonden voor alle leveringen met een soft bounce error ratio die groter is dan de opgegeven waarde. De standaardwaarde voor dit veld is 0,05 (5%).
+* **[!UICONTROL Maximum ratio of soft bounce errors]**: Er wordt een melding verzonden voor alle leveringen met een soft bounce error ratio die groter is dan de opgegeven waarde. By default, the value of this field is set to 0.05 (5%).
 
-   Voor meer op zachte stuitfouten, zie de kwalificatie [van de](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) post van de Stuitage en [Lijst van de types](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)van leveringsmislukking.
+   For more on soft bounce errors, see [Bounce mail qualification](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) and [List of delivery failure types](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
-* **[!UICONTROL Maximum ratio of hard bounce errors]**: Er wordt een melding verzonden voor alle leveringen met een harde stuitfoutenverhouding die groter is dan de opgegeven waarde. De standaardwaarde voor dit veld is 0,05 (5%).
+* **[!UICONTROL Maximum ratio of hard bounce errors]**: Er wordt een melding verzonden voor alle leveringen met een harde stuitfoutenverhouding die groter is dan de opgegeven waarde. By default, the value of this field is set to 0.05 (5%).
 
    Voor meer op harde stuitfouten, zie de kwalificatie [van de](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) post van de Stuitage en [Lijst van de types](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)van leveringsmislukking.
 
@@ -211,7 +214,7 @@ Op het **[!UICONTROL Criteria parameters]** tabblad van een [leveringswaarschuwi
 
 ### Waarschuwingsfrequentie {#alerting-frequency}
 
-Met de **[!UICONTROL Frequency of delivery alerting]** optie kunt u de vertraging tussen twee waarschuwingsberichten definiëren. De standaardwaarde is 10 minuten.
+Met de **[!UICONTROL Frequency of delivery alerting]** optie kunt u de vertraging tussen twee waarschuwingsberichten definiëren. By default, it is set to 10 minutes.
 
 U kunt deze instelling wijzigen via het menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** .
 
@@ -237,7 +240,7 @@ Hier volgen enkele mogelijke redenen om waarschuwingsberichten te ontvangen op b
    * Een time-out voor de verbinding tussen de Adobe Campagne-leveringsserver en de ontvangende server
    * Een probleem met betrekking tot de leverbaarheid
    * Een onjuiste workflow
-   Als de levering met een werkschema in werking wordt gesteld, controleer of die werkschema correct was begonnen. Zie Een workflow [](../../automating/using/executing-a-workflow.md)uitvoeren voor meer informatie. Anders kunt u contact opnemen met de beheerder van de Adobe-campagne om het probleem op te lossen.
+   Als de levering met een werkschema in werking wordt gesteld, controleer of die werkschema correct was begonnen. Zie Een workflow [](../../automating/using/about-workflow-execution.md)uitvoeren voor meer informatie. Anders kunt u contact opnemen met de beheerder van de Adobe-campagne om het probleem op te lossen.
 
 * **[!UICONTROL Deliveries with preparation failed]**: Er kan een fout optreden tijdens de voorbereiding van de levering in de volgende gevallen:
 
