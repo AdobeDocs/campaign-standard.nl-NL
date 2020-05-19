@@ -13,7 +13,10 @@ context-tags: writer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '517'
+ht-degree: 0%
 
 ---
 
@@ -63,7 +66,7 @@ U kunt de **activiteit Gegevens** bijwerken gebruiken nadat u een bestand hebt g
    >
    >**Het beheren van updates** de **[!UICONTROL lastModified]**, **[!UICONTROL modifiedBy]**, **[!UICONTROL created]** en **[!UICONTROL createdBy]** gebieden wordt automatisch bijgewerkt wanneer een activiteit van updategegevens in werking wordt gesteld, tenzij hun configuratie uitdrukkelijk op de lijst van de gebiedsupdate wordt uitgevoerd. De update wordt alleen uitgevoerd in de registers waar ten minste één verschil is vastgesteld. Als de waarden gelijk zijn, wordt geen update uitgevoerd.
 
-1. Indien nodig, beheer de [Overgangen](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) van de activiteit om tot de geavanceerde opties voor de uitgaande bevolking toegang te hebben.
+1. Indien nodig, beheer de [Overgangen](../../automating/using/activity-properties.md) van de activiteit om tot de geavanceerde opties voor de uitgaande bevolking toegang te hebben.
 
    Als u hebt geselecteerd **[!UICONTROL Insert only]** en de geïmporteerde gegevens records kunnen bevatten die al in de database aanwezig zijn, schakelt u het **[!UICONTROL Generate an outbound transition for the rejects]** vakje in om mogelijke fouten te voorkomen.
 
