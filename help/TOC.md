@@ -4,7 +4,7 @@ sub-product: Adobe-campagnestandaard
 audience: end-user
 user-guide-title: Help bij Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 9a8b9f522e5f9ea5d7ea59701cd03878599d97c1
+source-git-commit: 4e5bb76be743fb44a464ebedb466927b87e21584
 workflow-type: tm+mt
 source-wordcount: '1451'
 ht-degree: 0%
@@ -257,12 +257,12 @@ ht-degree: 0%
       + [Gegevens importeren](automating/using/importing-data.md)
       + [Werkstroomgegevens gebruiken](automating/using/using-workflow-data.md)
       + [Best practices voor workflows](automating/using/best-practices-workflows.md)
-   + [Een workflow uitvoeren]{#executing-a-workflow}
+   + Een workflow uitvoeren {#executing-a-workflow}
       + [Workflowuitvoering](automating/using/about-workflow-execution.md)
       + [Levenscyclus van werkstroom](automating/using/workflow-life-cycle.md)
       + [Uitvoeropdrachten](automating/using/execution-commands.md)
       + [Uitvoering van controlewerkstroom](automating/using/monitoring-workflow-execution.md)
-      + [Managing execution options](automating/using/managing-execution-options.md)
+      + [Uitvoeropties beheren](automating/using/managing-execution-options.md)
       + [Beheersactiviteiten](automating/using/activity-properties.md)
    + [Een workflow aanroepen met externe parameters](automating/using/calling-a-workflow-with-external-parameters.md)
    + Gerichte activiteiten {#targeting-activities}
@@ -289,7 +289,7 @@ ht-degree: 0%
    + Kanaalactiviteiten {#channel-activities}
       + [Kanaalactiviteiten](automating/using/about-channel-activities.md)
       + [E-maillevering](automating/using/email-delivery.md)
-      + [SMS delivery](automating/using/sms-delivery.md)
+      + [Levering via SMS](automating/using/sms-delivery.md)
       + [Levering pushmelding](automating/using/push-notification-delivery.md)
       + [Directe postbezorging](automating/using/direct-mail-delivery.md)
       + [Levering in de app](automating/using/in-app-delivery.md)
@@ -384,7 +384,7 @@ ht-degree: 0%
    + Kanalen configureren {#configuring-channels}
       + [Kanaalconfiguratie](administration/using/about-channel-configuration.md)
       + [E-mailkanaal configureren](administration/using/configuring-email-channel.md)
-      + [Configuring SMS channel](administration/using/configuring-sms-channel.md)
+      + [SMS-kanaal configureren](administration/using/configuring-sms-channel.md)
       + [Een mobiele toepassing configureren](administration/using/configuring-a-mobile-application.md)
       + [Transactieberichten configureren](administration/using/configuring-transactional-messaging.md)
    + Toepassingsinstellingen {#application-settings}
