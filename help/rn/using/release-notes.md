@@ -12,14 +12,17 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
+source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+workflow-type: tm+mt
+source-wordcount: '1007'
+ht-degree: 0%
 
 ---
 
 
 # Laatste release{#latest-release}
 
-[Release-planning](../../rn/using/release-planning.md) | [Release](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) van het regelpaneel| [Documentatiebijwerkingen](../../rn/using/documentation-updates.md) | [Opmerkingen bij](../../rn/using/release-notes-2020.md) vorige release| [Verouderde functies](../../rn/using/deprecated-features.md)
+[Release-planning](../../rn/using/release-planning.md) | [Release van het regelpaneel](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Documentatie-updates](../../rn/using/documentation-updates.md) | Opmerkingen bij de [vorige release](../../rn/using/release-notes-2020.md) | [Verouderde functies](../../rn/using/deprecated-features.md)
 
 ## Release 20.3 - mei 2020 {#release-20-3---may-2020}
 
@@ -91,7 +94,7 @@ source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 * Selectievakjes kunnen nu verplicht zijn op een bestemmingspagina.
 * Tijdens het downloaden van het CSV-bestand van een Dynamic-rapport is de limiet van 200 rijen verwijderd. U kunt nu elke rij van uw rapport opnemen. (CAMP-40810)
 * De ES-VS-taal is toegevoegd aan de lijst met talen die niet in de verpakking staan voor meertalige e-mails. (CAMP-42279)
-* Bestanden die met een overdrachtsbestandsactiviteit zijn gedownload, worden nu na X dagen verwijderd, waarbij X wordt bepaald door de **Geschiedenis in het veld dagen** onder het menu **Uitvoering** in de Workfloweigenschappen. [Meer informatie](../../automating/using/executing-a-workflow.md#workflow-properties)
+* Bestanden die met een overdrachtsbestandsactiviteit zijn gedownload, worden nu na X dagen verwijderd, waarbij X wordt bepaald door de **Geschiedenis in het veld dagen** onder het menu **Uitvoering** in de Workfloweigenschappen. [Meer informatie](../../automating/using/managing-execution-options.md)
 
 **Integratie van ervaringsplatforms**
 
