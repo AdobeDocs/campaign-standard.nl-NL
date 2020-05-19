@@ -13,7 +13,10 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '1771'
+ht-degree: 0%
 
 ---
 
@@ -105,7 +108,7 @@ De activiteitenconfiguratie omvat twee stappen. Eerst moet u de verwachte bestan
 
 1. Bevestig de configuratie van uw activiteit en sla uw werkschema op.
 
-Als er na het uitvoeren van de workflow een fout optreedt met de activiteit, raadpleegt u de logboeken voor meer informatie over de waarden die niet correct zijn in het bestand. For more on workflows logs, refer to [this section](../../automating/using/executing-a-workflow.md#monitoring).
+Als er na het uitvoeren van de workflow een fout optreedt met de activiteit, raadpleegt u de logboeken voor meer informatie over de waarden die niet correct zijn in het bestand. For more on workflows logs, refer to [this section](../../automating/using/monitoring-workflow-execution.md).
 
 ## Kolomnotatie {#column-format}
 
