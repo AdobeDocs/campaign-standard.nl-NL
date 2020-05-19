@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72d27b33d6e69af47b34cc6bfeae7b34911e8d10
+source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
 workflow-type: tm+mt
 source-wordcount: '5807'
 ht-degree: 0%
@@ -42,7 +42,7 @@ Externe API-activiteit (GA) - [Lees meer](../../automating/using/external-api.md
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
-Er is informatie toegevoegd aan het **[!UICONTROL History in days]** veld in de eigenschappen van workflows waarin nu bestanden zijn opgenomen die door de **[!UICONTROL Transfer file]** activiteit zijn gedownload. [Meer informatie](../../automating/using/executing-a-workflow.md)
+Er is informatie toegevoegd aan het **[!UICONTROL History in days]** veld in de eigenschappen van workflows waarin nu bestanden zijn opgenomen die door de **[!UICONTROL Transfer file]** activiteit zijn gedownload. [Meer informatie](../../automating/using/managing-execution-options.md)
 
 Er is informatie toegevoegd aan de sectie voor profielvervanging met betrekking tot de limiet van 500 tekens voor het voorvoegsel van de onderwerpregel. [Meer informatie](../../sending/using/testing-messages-using-target.md)
 
@@ -120,7 +120,7 @@ Er is nu een nieuwe sectie beschikbaar die specifiek is gewijd aan best practice
 
 Er is informatie toegevoegd aan het **[!UICONTROL Workflow]** ingebouwde recht. [Meer informatie](../../administration/using/list-of-roles.md)
 
-Er is informatie toegevoegd over de **[!UICONTROL History in days field]** beschikbare werkstroomeigenschappen. [Meer informatie](../../automating/using/executing-a-workflow.md)
+Er is informatie toegevoegd over de **[!UICONTROL History in days field]** beschikbare werkstroomeigenschappen. [Meer informatie](../../automating/using/about-workflow-execution.md)
 
 ## Release 20.1 - februari 2020 {#release-20-1---february-2020}
 
@@ -346,7 +346,7 @@ De gids voor automatiseren is bijgewerkt met koppelingen naar gerelateerde workf
 
 Het gedeelte Indicatorberekening voor dynamische rapporten is bijgewerkt. [Meer informatie](../../reporting/using/indicator-calculation.md)
 
-Er is een dynamische compatibiliteitstabel voor rapporten toegevoegd om de compatibiliteit tussen dimensies en maatstaven beter te begrijpen. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
+Er is een dynamische compatibiliteitstabel voor rapporten toegevoegd om beter inzicht te krijgen in de compatibiliteit tussen afmetingen en metriek. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
 
 De lijst met functies voor workflows is bijgewerkt. [Meer informatie](../../automating/using/list-of-functions.md)
 
@@ -818,7 +818,7 @@ Live over Dreamweaver-integratie - [Meer informatie](https://docs.adobe.com/cont
 
 Sectie toegevoegd aan de verschillende typen Adobe Campagnegebruikers. [Meer informatie](../../administration/using/users-management.md)
 
-De Workflowgids is gereorganiseerd en uitgebreid. U kunt eenvoudig zoeken hoe u een workflow [bouwt](../../automating/using/building-a-workflow.md) en [uitvoert](../../automating/using/executing-a-workflow.md) , hoe u uw gegevens [als doel](../../automating/using/targeting-data.md) instelt en [beheert](../../automating/using/targeting-data.md#enriching-data) , hoe u gegevens [importeert](../../automating/using/importing-data.md) [](../../automating/using/using-workflow-data.md) en hoe u workflowgegevens kunt gebruiken om de database bij te werken of leveringen te verzenden.
+De Workflowgids is gereorganiseerd en uitgebreid. U kunt eenvoudig zoeken hoe u een workflow [bouwt](../../automating/using/building-a-workflow.md) en [uitvoert](../../automating/using/about-workflow-execution.md) , hoe u uw gegevens [als doel](../../automating/using/targeting-data.md) instelt en [beheert](../../automating/using/targeting-data.md#enriching-data) , hoe u gegevens [importeert](../../automating/using/importing-data.md) [](../../automating/using/using-workflow-data.md) en hoe u workflowgegevens kunt gebruiken om de database bij te werken of leveringen te verzenden.
 
 De berekening van de rapportindicator is nu beschikbaar voor dynamische rapporten, inclusief een volledige beschrijving en berekeningsformule. [Meer informatie](../../reporting/using/indicator-calculation.md)
 
