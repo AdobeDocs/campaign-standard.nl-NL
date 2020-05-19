@@ -13,7 +13,10 @@ context-tags: union,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '368'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +50,7 @@ De **[!UICONTROL Union]** activiteit wordt gebruikt om de populaties van binnenk
 
 1. Schakel het **[!UICONTROL Use common additional data only]** selectievakje in als u alleen de aanvullende gegevens in alle binnenkomende overgangen wilt behouden.
 1. Als u de grootte van de uiteindelijke populatie wilt beperken, schakelt u het **[!UICONTROL Limit size of generated population]** selectievakje in. De grootte kan in het **[!UICONTROL Maximum number of records]** veld worden opgegeven.
-1. Indien nodig, beheer de [Overgangen](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) van de activiteit om tot de geavanceerde opties voor de berekende bevolking toegang te hebben.
+1. Indien nodig, beheer de [Overgangen](../../automating/using/activity-properties.md) van de activiteit om tot de geavanceerde opties voor de berekende bevolking toegang te hebben.
 1. Bevestig de configuratie van uw activiteit en sla uw werkschema op.
 
 ## Voorbeeld {#example}
