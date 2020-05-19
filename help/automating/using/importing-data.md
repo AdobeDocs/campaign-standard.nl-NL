@@ -12,7 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: e22a2fcfd36adc1d4c9b62b1fd336e553c69b5af
+workflow-type: tm+mt
+source-wordcount: '1961'
+ht-degree: 0%
 
 ---
 
@@ -100,10 +103,10 @@ Volledige invoer mag alleen voor eerste lading worden gebruikt.
 
 Houd u aan de volgende beginselen om de consistentie van gegevens in de Adobe Campagne-database te garanderen:
 
-* Als de geïmporteerde gegevens overeenkomen met een referentietabel in Adobe Campaign, moet deze in de workflow overeenkomen met de desbetreffende tabel. Records die niet overeenkomen, moeten worden afgewezen.
-* Zorg ervoor dat de geïmporteerde gegevens altijd **&quot;genormaliseerd&quot;** zijn (e-mail, telefoonnummer, direct-mailadres) en dat deze normalisatie betrouwbaar is en in de loop der jaren niet zal veranderen. Als dit niet het geval is, zullen sommige duplicaten waarschijnlijk in het gegevensbestand verschijnen, en aangezien de Campagne van Adobe geen hulpmiddelen verstrekt om &quot;vage&quot;aanpassing te doen, zal het zeer moeilijk zijn om hen te beheren en te verwijderen.
-* Transactionele gegevens moeten een afstemmingssleutel hebben en in overeenstemming zijn met de bestaande gegevens om het creëren van duplicaten te voorkomen.
-* **Verwante bestanden op volgorde** importeren. Als het importeren uit meerdere bestanden bestaat die van elkaar afhankelijk zijn, moet de workflow ervoor zorgen dat de bestanden in de juiste volgorde worden geïmporteerd. Wanneer een bestand mislukt, worden de andere bestanden niet geïmporteerd.
+* Als de geïmporteerde gegevens overeenkomen met een referentietabel in Adobe Campaign, moet deze in de workflow overeenkomen met de desbetreffende tabel. Records that do not match should be rejected.
+* Ensure that the imported data is always **&quot;normalized&quot;** (email, phone number, direct mail address) and that this normalization is reliable and will not change over the years. If this is not the case, some duplicates are likely to appear in the database, and as Adobe Campaign does not provide tools to do &quot;fuzzy&quot; matching, it will be very difficult to manage and remove them.
+* Transactional data should have a reconciliation key and be reconciled with the existing data in order to avoid creating duplicates.
+* **Import related files in order**. If the import is composed of multiple files that depend on each other, the workflow should make sure that the files are imported in the correct order. When a file fails, the other files are not imported.
 * **U kunt gegevens dedupliceren**, combineren en de consistentie behouden wanneer u ze importeert.
 
 ## Gecodeerde gegevens beheren {#managing-encrypted-data}
@@ -122,7 +125,7 @@ Als u bijvoorbeeld een bestand wilt decoderen met PGP, is de opdracht:
    <path-to_pgp_if-not_global_or_server/>pgp.exe --decrypt --input nl6/var/vp/import/filename.pgp --passphrase "your password" --recipient recipient @email.com --verbose --output nl6/var/vp/import/filename
    ```
 
-Zodra het verzoek wordt verwerkt, zullen de encryptie/decryptiebevelen op het **!UICONTROL Pre-processing stage]** gebied van de **[!UICONTROL Load file]** en **[!UICONTROL Extract file]** activiteiten beschikbaar zijn. U kunt deze gebruiken om de bestanden te decoderen of te coderen die u wilt importeren of exporteren.
+Zodra het verzoek wordt verwerkt, zullen de encryptie/decryptiebevelen op het **[!UICONTROL Pre-processing stage]** gebied van de **[!UICONTROL Load file]** en **[!UICONTROL Extract file]** activiteiten beschikbaar zijn. U kunt deze gebruiken om de bestanden te decoderen of te coderen die u wilt importeren of exporteren.
 
 ![](assets/preprocessing-encryption.png)
 
@@ -161,7 +164,7 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
       Smith;Hayden;23/05/1989;hayden.smith@mailtest.com;123456
       ```
 
-   * Selecteer in de **[!UICONTROL File to load]** sectie de velden **[!UICONTROL Upload a new file from the local machine]** en laat deze leeg. Telkens wanneer een nieuwe werkstroom van dit malplaatje wordt gecreeerd, kunt u hier het dossier specificeren u wilt, zolang het aan de bepaalde structuur beantwoordt.
+   * Selecteer in de **[!UICONTROL File to load]** sectie de velden **[!UICONTROL Upload a new file from the local machine]** en laat deze leeg. Each time a new workflow is created from this template, you can specify here the file you want, as long at it corresponds to the defined structure.
 
       U kunt alle opties gebruiken, maar u moet de sjabloon dienovereenkomstig aanpassen. Als u bijvoorbeeld een optie selecteert **[!UICONTROL Use the file specified in the inbound transition]**, kunt u een **[!UICONTROL Transfer file]** activiteit toevoegen voordat u het bestand ophaalt dat u wilt importeren van een FTP-/SFTP-server.
 
@@ -231,11 +234,11 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
 
       >[!NOTE]
       >
-      >Als u directe mails naar deze profielen wilt verzenden, moet u ook een postadres opgeven. Deze informatie is namelijk van wezenlijk belang voor de provider van de directe mail. Controleer ook of het **[!UICONTROL Address specified]** vak in de gegevens van uw profielen is ingeschakeld. Als u deze optie vanuit een workflow wilt bijwerken, voegt u eenvoudig een element toe aan de velden die u wilt bijwerken, geeft u **1** op als **[!UICONTROL Source]** en selecteert u het veld **[Postadres/@addrDefined]** als **[!UICONTROL Destination]**. Zie **[!UICONTROL Address specified]** dit document [voor meer informatie over direct mail en het gebruik van de](../../channels/using/about-direct-mail.md#recommendations)optie.
+      >Als u directe mails naar deze profielen wilt verzenden, moet u ook een postadres opgeven. Deze informatie is namelijk van wezenlijk belang voor de provider van de directe mail. Controleer ook of het **[!UICONTROL Address specified]** vak in de gegevens van uw profielen is ingeschakeld. To update this option from a workflow, simply add an element to the fields to update, and specify **1** as **[!UICONTROL Source]** and select the **[postalAddress/@addrDefined]** field as **[!UICONTROL Destination]**. Zie **[!UICONTROL Address specified]** dit document [voor meer informatie over direct mail en het gebruik van de](../../channels/using/about-direct-mail.md#recommendations)optie.
 
-1. Na de derde overgang van de **[!UICONTROL Segmentation]** activiteit, voeg een **[!UICONTROL Extract file]** activiteit en een **[!UICONTROL Transfer file]** activiteit toe als u spoor van gegevens wilt houden die niet in het gegevensbestand worden opgenomen. Configureer die activiteiten om de kolom die u nodig hebt te exporteren en om het bestand over te brengen naar een FTP- of SFTP-server waar u het bestand kunt ophalen.
-1. Voeg een **[!UICONTROL End]** activiteit toe en sla het werkschemamalplaatje op.
+1. After the third transition of the **[!UICONTROL Segmentation]** activity, add a **[!UICONTROL Extract file]** activity and a **[!UICONTROL Transfer file]** activity if you want to keep track of data not inserted in the database. Configure those activities to export the column you need and to transfer the file on a FTP or SFTP server where you can retrieve it.
+1. Add an **[!UICONTROL End]** activity and save the workflow template.
 
-De sjabloon kan nu worden gebruikt en is beschikbaar voor elke nieuwe workflow. Alles is dan nodig om het bestand op te geven dat de gegevens bevat die in de **[!UICONTROL Load file]** activiteit moeten worden geïmporteerd.
+The template can now be used and is available for every new workflow. Alles is dan nodig om het bestand op te geven dat de gegevens bevat die in de **[!UICONTROL Load file]** activiteit moeten worden geïmporteerd.
 
 ![](assets/import_template_example9.png)
