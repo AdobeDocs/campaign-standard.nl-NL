@@ -13,7 +13,10 @@ context-tags: exclusion,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 0%
 
 ---
 
@@ -42,7 +45,7 @@ Een primaire set wordt gedefinieerd onder binnenkomende overgangen. Leden van an
    >
    >De binnenkomende overgangen moeten hetzelfde type populatie bevatten. Als de primaire set bijvoorbeeld testprofielen bevat, moeten de andere overgangen ook testprofielen bevatten.
 
-1. Indien nodig, beheer de [Overgangen](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) van de activiteit om tot de geavanceerde opties voor de uitgaande bevolking toegang te hebben.
+1. Indien nodig, beheer de [Overgangen](../../automating/using/activity-properties.md) van de activiteit om tot de geavanceerde opties voor de uitgaande bevolking toegang te hebben.
 1. Bevestig de configuratie van uw activiteit en sla uw werkschema op.
 
 ## Voorbeeld {#example}
