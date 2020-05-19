@@ -4,9 +4,9 @@ sub-product: Adobe-campagnestandaard
 audience: end-user
 user-guide-title: Help bij Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 9a8b9f522e5f9ea5d7ea59701cd03878599d97c1
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1451'
 ht-degree: 0%
 
 ---
@@ -239,7 +239,6 @@ ht-degree: 0%
       + [Uw triggers testen](integrating/using/testing-your-triggers.md)
       + [Afsluiten Gebruiksgevallen activeren](integrating/using/abandonment-triggers-use-cases.md)
    + Campagne en de Dynamica 365 van Microsoft {#campaign-and-microsoft-dynamics-365}
-      + [Adobe IO configureren voor integratie met Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + Werken met de Standaard van de Campagne en Dynamica 365 van Microsoft {#working-with-campaign-standard-and-ms-dynamics}
          + [Aan de slag met de integratie van Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [Over de integratie van Microsoft Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
@@ -257,8 +256,14 @@ ht-degree: 0%
       + [Doelgegevens](automating/using/targeting-data.md)
       + [Gegevens importeren](automating/using/importing-data.md)
       + [Werkstroomgegevens gebruiken](automating/using/using-workflow-data.md)
-      + [Een workflow uitvoeren](automating/using/executing-a-workflow.md)
       + [Best practices voor workflows](automating/using/best-practices-workflows.md)
+   + [Een workflow uitvoeren]{#executing-a-workflow}
+      + [Workflowuitvoering](automating/using/about-workflow-execution.md)
+      + [Levenscyclus van werkstroom](automating/using/workflow-life-cycle.md)
+      + [Uitvoeropdrachten](automating/using/execution-commands.md)
+      + [Uitvoering van controlewerkstroom](automating/using/monitoring-workflow-execution.md)
+      + [Managing execution options](automating/using/managing-execution-options.md)
+      + [Beheersactiviteiten](automating/using/activity-properties.md)
    + [Een workflow aanroepen met externe parameters](automating/using/calling-a-workflow-with-external-parameters.md)
    + Gerichte activiteiten {#targeting-activities}
       + [Over doelactiviteiten](automating/using/about-targeting-activities.md)
@@ -284,7 +289,7 @@ ht-degree: 0%
    + Kanaalactiviteiten {#channel-activities}
       + [Kanaalactiviteiten](automating/using/about-channel-activities.md)
       + [E-maillevering](automating/using/email-delivery.md)
-      + [Levering via SMS](automating/using/sms-delivery.md)
+      + [SMS delivery](automating/using/sms-delivery.md)
       + [Levering pushmelding](automating/using/push-notification-delivery.md)
       + [Directe postbezorging](automating/using/direct-mail-delivery.md)
       + [Levering in de app](automating/using/in-app-delivery.md)
@@ -379,7 +384,7 @@ ht-degree: 0%
    + Kanalen configureren {#configuring-channels}
       + [Kanaalconfiguratie](administration/using/about-channel-configuration.md)
       + [E-mailkanaal configureren](administration/using/configuring-email-channel.md)
-      + [SMS-kanaal configureren](administration/using/configuring-sms-channel.md)
+      + [Configuring SMS channel](administration/using/configuring-sms-channel.md)
       + [Een mobiele toepassing configureren](administration/using/configuring-a-mobile-application.md)
       + [Transactieberichten configureren](administration/using/configuring-transactional-messaging.md)
    + Toepassingsinstellingen {#application-settings}
