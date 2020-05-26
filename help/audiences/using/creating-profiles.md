@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -26,7 +26,7 @@ In Adobe Campagne, worden de profielen gebruikt door gebrek om het belangrijkste
 
 Als u een profiel wilt maken of bijwerken in Campagne, kunt u:
 
-* Een profiellijst importeren vanuit een bestand via een [workflow](../../automating/using/importing-data.md#example--import-workflow-template)
+* Een profiellijst importeren vanuit een bestand via een [workflow](../../automating/using/creating-import-workflow-templates.md)
 * Gegevens online verzamelen via [bestemmingspagina&#39;s](../../channels/using/getting-started-with-landing-pages.md)
 * Bulk maken via [REST API](../../api/using/get-started-apis.md)
 * Profielen synchroniseren met [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
