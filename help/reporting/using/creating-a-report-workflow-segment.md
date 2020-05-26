@@ -12,7 +12,10 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 0%
 
 ---
 
@@ -69,7 +72,7 @@ Eerst moet u een workflow maken met verschillende doelgroepen. Hier, willen wij 
 
    ![](assets/report_segment_1.png)
 
-1. Voeg een **[!UICONTROL Segmentation]** activiteit toe om uw vraagresultaten in twee gerichte populaties te verdelen. Raadpleeg deze [pagina](../../automating/using/targeting-data.md#segmenting-data)voor meer informatie over segmentatie.
+1. Voeg een **[!UICONTROL Segmentation]** activiteit toe om uw vraagresultaten in twee gerichte populaties te verdelen. Raadpleeg deze [pagina](../../automating/using/segmentation.md)voor meer informatie over segmentatie.
 
 1. Dubbelklik op de **[!UICONTROL Segmentation]** activiteit om deze te configureren. Bewerk het eerste segment door op **[!UICONTROL Edit properties]** te klikken.
 
