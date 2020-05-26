@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96a1812ce8775f4bfb3db64a824a9fdc8185ac6b
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '2536'
+ht-degree: 0%
 
 ---
 
@@ -83,7 +86,7 @@ Als personalisatie is gegenereerd (bijvoorbeeld bij het voorvertonen en voorbere
 
 >[!NOTE]
 >
->Als de e-mail wordt gemaakt op basis van een workflow, zijn de aanvullende gegevens die in de workflow zijn berekend, ook beschikbaar in de velden voor personalisatie. Raadpleeg de sectie [Verrijkende gegevens](../../automating/using/targeting-data.md#enriching-data) voor meer informatie over het toevoegen van aanvullende gegevens uit een workflow.
+>Als de e-mail wordt gemaakt op basis van een workflow, zijn de aanvullende gegevens die in de workflow zijn berekend, ook beschikbaar in de velden voor personalisatie. Raadpleeg de sectie [Verrijkende gegevens](../../automating/using/about-targeting-activities.md#enriching-data) voor meer informatie over het toevoegen van aanvullende gegevens uit een workflow.
 
 ## Een inhoudsblok toevoegen{#adding-a-content-block}
 
