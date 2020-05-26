@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
-source-wordcount: '5807'
+source-wordcount: '5809'
 ht-degree: 0%
 
 ---
@@ -346,7 +346,7 @@ De gids voor automatiseren is bijgewerkt met koppelingen naar gerelateerde workf
 
 Het gedeelte Indicatorberekening voor dynamische rapporten is bijgewerkt. [Meer informatie](../../reporting/using/indicator-calculation.md)
 
-Er is een dynamische compatibiliteitstabel voor rapporten toegevoegd om beter inzicht te krijgen in de compatibiliteit tussen afmetingen en metriek. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
+Er is een dynamische compatibiliteitstabel voor rapporten toegevoegd om de compatibiliteit tussen dimensies en maatstaven beter te begrijpen. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
 
 De lijst met functies voor workflows is bijgewerkt. [Meer informatie](../../automating/using/list-of-functions.md)
 
@@ -584,7 +584,7 @@ De [het Vormen transactieoverseinen](../../administration/using/configuring-tran
 
 Er is een technologie toegevoegd voor het genereren van een meertalig CSV-bestand voor pushberichten. [Lees meer](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
-Toegevoegde informatie over de **Update direct-mail quarantines en de invoermalplaatje van de leveringslogboeken** . [Meer informatie](../../automating/using/defining-import-templates.md)
+Toegevoegde informatie over de **Update direct-mail quarantines en de invoermalplaatje van de leveringslogboeken** . [Meer informatie](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
 De lijst met technische workflows is bijgewerkt. [Meer informatie](../../administration/using/technical-workflows.md)
 
@@ -616,7 +616,7 @@ De **[!UICONTROL Working with typologies]** sectie is bijgewerkt voor een verbet
 
 Er **[!UICONTROL Query]** is nu een nieuwe optie beschikbaar waarmee u meer prestaties kunt behalen bij het definiëren van veel aanvullende gegevens in een document. [Meer informatie](../../automating/using/query.md)
 
-Het voorbeeld voor het importeren van profielen is met een aantal tips bijgewerkt zodat uw profielen direct mails kunnen ontvangen. [Meer informatie](../../automating/using/importing-data.md)
+Het voorbeeld voor het importeren van profielen is met een aantal tips bijgewerkt zodat uw profielen direct mails kunnen ontvangen. [Meer informatie](../../automating/using/about-data-import-and-export.md)
 
 Er is een nieuwe activiteit beschikbaar in workflows: de **[!UICONTROL Enrichment]** activiteit. [Meer informatie](../../automating/using/enrichment.md)
 
@@ -818,7 +818,7 @@ Live over Dreamweaver-integratie - [Meer informatie](https://docs.adobe.com/cont
 
 Sectie toegevoegd aan de verschillende typen Adobe Campagnegebruikers. [Meer informatie](../../administration/using/users-management.md)
 
-De Workflowgids is gereorganiseerd en uitgebreid. U kunt eenvoudig zoeken hoe u een workflow [bouwt](../../automating/using/building-a-workflow.md) en [uitvoert](../../automating/using/about-workflow-execution.md) , hoe u uw gegevens [als doel](../../automating/using/targeting-data.md) instelt en [beheert](../../automating/using/targeting-data.md#enriching-data) , hoe u gegevens [importeert](../../automating/using/importing-data.md) [](../../automating/using/using-workflow-data.md) en hoe u workflowgegevens kunt gebruiken om de database bij te werken of leveringen te verzenden.
+De Workflowgids is gereorganiseerd en uitgebreid. Ontdek eenvoudig hoe u een workflow kunt [bouwen](../../automating/using/building-a-workflow.md) en [uitvoeren](../../automating/using/about-workflow-execution.md) , hoe u uw gegevens kunt [beheren](../../automating/using/about-targeting-activities.md) , hoe u gegevens kunt [importeren en exporteren](../../automating/using/about-targeting-activities.md#enriching-data) [](../../automating/using/about-data-import-and-export.md) en hoe u workflowgegevens kunt gebruiken om de database bij te werken of om leveringen te verzenden.
 
 De berekening van de rapportindicator is nu beschikbaar voor dynamische rapporten, inclusief een volledige beschrijving en berekeningsformule. [Meer informatie](../../reporting/using/indicator-calculation.md)
 
