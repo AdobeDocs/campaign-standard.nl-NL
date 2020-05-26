@@ -12,7 +12,10 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 0%
 
 ---
 
@@ -47,7 +50,6 @@ De stappen om dit in werking te stellen zijn:
 
    ![](assets/remarketing_4.png)
 
-1. Als er in Analytics een &#39;propensity scoring&#39; is gedefinieerd (zie de [Experience Cloud-documentatie](https://marketing.adobe.com/resources/help/en_US/insight/client/c_visitor_propensity.html)), kunt u ervoor kiezen het bericht niet te verzenden als de klant in de nabije toekomst waarschijnlijk terug zal keren naar de website. De inhoud van de score en de drempel is beschikbaar in de inhoud van de lading zodat u die waarden kunt gebruiken om het bericht aan te passen. Schakel het selectievakje onder aan het scherm in als u deze optie wilt gebruiken. De cliënten met een grote waarschijnlijkheid om in de nabije toekomst terug naar de plaats te komen zullen geen bericht ontvangen.
 1. Klik op de **[!UICONTROL Publish]** knop om de triggergebeurtenis te publiceren.
 1. Als u een wijziging in het triggerschema moet aanbrengen zelfs nadat u de triggergebeurtenis hebt gepubliceerd, klikt u op de **[!UICONTROL Update schema]** knop om de laatste wijzigingen op te halen.
 
