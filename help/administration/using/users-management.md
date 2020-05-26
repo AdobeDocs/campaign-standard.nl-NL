@@ -12,7 +12,10 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '1144'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 Met Adobe Campaign kunt u een set rollen toewijzen aan uw gebruikers om te bepalen tot welk deel van de interface zij toegang hebben.
 
-De specifieke rollen en de bijbehorende machtigingen worden in de volgende secties nader beschreven: het [begrijpen van rollen](../../administration/using/list-of-roles.md) en [toestemmingen](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+De specifieke rollen en de bijbehorende machtigingen worden in de volgende secties nader beschreven: [het begrijpen van rollen](../../administration/using/list-of-roles.md) en [toestemmingen](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
 Beheerders kunnen gebruikers beheren via de beheerconsole. Gebruikers worden dan automatisch gesynchroniseerd met Adobe Campaign. Raadpleeg de documentatie bij de [beheerconsole](https://helpx.adobe.com/enterprise/using/users.html) voor meer informatie.
 
@@ -69,7 +72,7 @@ Hier volgen de belangrijkste taken die ze kunnen uitvoeren:
 * [Nieuwe functies ontwikkelen om functies](../../developing/using/data-model-concepts.md)buiten de box te verbeteren: beheer uw aangepaste bronnen en open diagnostische hulpmiddelen.
 * [Stel de parameters](../../administration/using/branding.md)voor de instantie in: de verschillende merken definiëren en hun instellingen configureren (logo, bijhouden beheren, URL-domein voor toegang tot de bestemmingspagina&#39;s, enz.).
 * [Gegevenspakketten](../../automating/using/managing-packages.md)exporteren en importeren: U kunt bronnen uitwisselen tussen verschillende Adobe Campagne-instanties via gestructureerde XML-bestanden.
-* [Logboeken](../../automating/using/exporting-logs.md) exporteren en [importsjablonen](../../automating/using/defining-import-templates.md)definiëren.
+* [Logboeken](../../automating/using/exporting-logs.md) exporteren en [importsjablonen](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)definiëren.
 
 ### Geavanceerde gebruikers {#advanced-users}
 
