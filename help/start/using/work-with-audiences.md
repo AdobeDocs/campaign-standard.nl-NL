@@ -12,7 +12,7 @@ discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 0%
@@ -64,11 +64,11 @@ De Standaard van de campagne biedt verscheidene hulpmiddelen aan om u te helpen 
 
 ### Gegevens importeren via workflows {#importing-data-through-workflows}
 
-Met workflows kunt u gegevens verzamelen en importeren in de Campagne-database via het gebruik van [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) activiteiten. Algemene informatie en aanbevolen procedures bij het importeren van gegevens via workflows worden in [deze sectie](../../automating/using/importing-data.md)weergegeven.
+Met workflows kunt u gegevens verzamelen en importeren in de Campagne-database via het gebruik van [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) activiteiten. Algemene informatie en aanbevolen procedures bij het importeren van gegevens via workflows worden in [deze sectie](../../automating/using/about-data-import-and-export.md)weergegeven.
 
 Daarnaast kunt u sjablonen instellen voor het importeren van gegevens. Het gebruik van importsjablonen is de beste manier als u regelmatig bestanden met dezelfde structuur moet importeren. U kunt twee typen sjablonen instellen:
 
-* **Workflowsjablonen**: Dit zijn vooraf geconfigureerde workflows die u één keer kunt instellen op basis van uw behoeften en die u telkens opnieuw kunt gebruiken wanneer u gegevens wilt importeren en de database wilt bijwerken. In [deze sectie](../../automating/using/importing-data.md#example--import-workflow-template)wordt een voorbeeld van een werkstroomsjabloon voor het importeren van gegevens beschreven.
+* **Workflowsjablonen**: Dit zijn vooraf geconfigureerde workflows die u één keer kunt instellen op basis van uw behoeften en die u telkens opnieuw kunt gebruiken wanneer u gegevens wilt importeren en de database wilt bijwerken. In [deze sectie](../../automating/using/creating-import-workflow-templates.md)wordt een voorbeeld van een werkstroomsjabloon voor het importeren van gegevens beschreven.
 
 * **Gegevenssjablonen** importeren: dit zijn, net als workflowsjablonen, sjablonen die zijn gebaseerd op workflows, die zijn ingesteld om bestanden te uploaden om de database bij te werken. Zodra gevormd, worden zij ter beschikking gesteld aan gebruikers met een vereenvoudigde mening onder **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** menu. Raadpleeg de [desbetreffende documentatie](../../automating/using/importing-data-with-import-templates.md)voor meer informatie over sjablonen voor importgegevens.
 
