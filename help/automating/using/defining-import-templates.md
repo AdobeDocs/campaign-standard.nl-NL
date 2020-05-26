@@ -12,7 +12,10 @@ discoiquuid: 85d13147-fb31-446a-8476-f112c841fb82
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '787'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +56,7 @@ Deze standaardsjablonen zijn alleen-lezen en zijn niet zichtbaar voor standaardg
 
 1. Go to the **[!UICONTROL Workflow]** tab. Van hieruit kunt u de workflow die standaard wordt aangeboden verrijken door nieuwe activiteiten toe te voegen die aan uw behoeften voldoen.
 
-   Voor meer op hoe te om de werkschemaactiviteiten te vormen, verwijs naar het gebruiksgeval dat in deze sectie wordt beschreven: [Voorbeeld: Workflowsjabloon](../../automating/using/importing-data.md#example--import-workflow-template)importeren. Met deze gebruiksaanwijzing kunt u een workflow instellen die opnieuw kan worden gebruikt voor het importeren van profielen die afkomstig zijn van een CRM in de Adobe Campagne-database.
+   Voor meer op hoe te om de werkschemaactiviteiten te vormen, verwijs naar het gebruiksgeval dat in deze sectie wordt beschreven: [Voorbeeld: Workflowsjabloon](../../automating/using/creating-import-workflow-templates.md)importeren. Met deze gebruiksaanwijzing kunt u een workflow instellen die opnieuw kan worden gebruikt voor het importeren van profielen die afkomstig zijn van een CRM in de Adobe Campagne-database.
 
 1. Sla de sjabloon op zodat de configuratie van de workflow correct in aanmerking wordt genomen.
 1. Upload een voorbeeldbestand vanaf het **[!UICONTROL Properties]** tabblad. Het geüploade bestand kan alleen kolommen bevatten die nodig zijn voor toekomstige import of voorbeeldgegevens. Met de gegevens in het voorbeeldbestand kunt u de vereenvoudigde importbewerking testen zodra de workflow is gedefinieerd.
@@ -84,6 +87,6 @@ De importsjabloon is nu beschikbaar voor de gebruikers en kan worden gebruikt om
 **Verwante onderwerpen:**
 
 * [Workflows](../../automating/using/get-started-workflows.md)
-* [Gegevens importeren](../../automating/using/importing-data.md)
-* [Voorbeeld: Workflow-sjabloon importeren](../../automating/using/importing-data.md#example--import-workflow-template)
+* [Gegevens importeren en exporteren](../../automating/using/about-data-import-and-export.md)
+* [Voorbeeld: Workflow-sjabloon importeren](../../automating/using/creating-import-workflow-templates.md)
 
