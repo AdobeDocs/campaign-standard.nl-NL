@@ -12,7 +12,10 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 0%
 
 ---
 
@@ -74,7 +77,6 @@ Zo ja, volg de volgende hulplijnen:
 Indien niet, ga naar de volgende stap. Zo ja, volg de volgende hulplijnen:
 
 * Controleer of de transactiesjabloon is gepubliceerd.
-* Als de drempel propensityScore voor Campagne wordt toegelaten, controleer de de aandrijvingsscore van de trekker van de pijpleiding.
 * Controleer of het profiel niet op de zwarte lijst staat.
 * Controleer de toepassing van typologische regels.
 * Controleer de logboeken van het transactiemelding bericht.
