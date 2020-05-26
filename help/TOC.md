@@ -4,9 +4,9 @@ sub-product: Adobe-campagnestandaard
 audience: end-user
 user-guide-title: Help bij Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 4e5bb76be743fb44a464ebedb466927b87e21584
+source-git-commit: a9a6fc70fe8fe4ffa3560c725b7753b001d8e928
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1453'
 ht-degree: 0%
 
 ---
@@ -253,9 +253,6 @@ ht-degree: 0%
    + Algemene werkstroom {#workflow-general-operation}
       + [Workflowinterface](automating/using/workflow-interface.md)
       + [Een workflow maken](automating/using/building-a-workflow.md)
-      + [Doelgegevens](automating/using/targeting-data.md)
-      + [Gegevens importeren](automating/using/importing-data.md)
-      + [Werkstroomgegevens gebruiken](automating/using/using-workflow-data.md)
       + [Best practices voor workflows](automating/using/best-practices-workflows.md)
    + Een workflow uitvoeren {#executing-a-workflow}
       + [Workflowuitvoering](automating/using/about-workflow-execution.md)
@@ -308,8 +305,10 @@ ht-degree: 0%
       + [Lijst met functies](automating/using/list-of-functions.md)
    + Gegevens importeren en exporteren {#importing-and-exporting-data}
       + [Informatie over importeren en exporteren van gegevens](automating/using/about-data-import-and-export.md)
+      + [Beste werkwijzen importeren](automating/using/import-best-practices.md)
       + [Gegevens importeren met importsjablonen](automating/using/importing-data-with-import-templates.md)
-      + [Importsjablonen definiëren](automating/using/defining-import-templates.md)
+      + [Workflowsjablonen maken om gegevens te importeren](automating/using/creating-import-workflow-templates.md)
+      + [Gecodeerde gegevens beheren](automating/using/managing-encrypted-data.md)
       + [Logbestanden exporteren](automating/using/exporting-logs.md)
       + [Pakketten beheren](automating/using/managing-packages.md)
       + [Lijsten exporteren](automating/using/exporting-lists.md)
