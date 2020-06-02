@@ -12,9 +12,9 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: e89218b584f0d621ca700d4ee2a4866555d00679
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '595'
 ht-degree: 1%
 
 ---
@@ -35,11 +35,6 @@ Afhankelijk van uw omgeving kunnen andere oplossingen ook worden gekoppeld aan A
 Een organisatie is de entiteit die een beheerder toelaat om groepen en gebruikers te vormen, en enige aanmelding in de Cloud van de Ervaring te controleren. De organisatie werkt als een aanmeldingsbedrijf dat alle producten en oplossingen van de Experience Cloud overspant. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter veel organisaties hebben. Beheer van gebruikers en organisaties vindt u in detail in de Help-portal [van](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)Adobe Experience Cloud.
 
 Als u gegevensstromen van andere systemen met de Campagne van Adobe wilt integreren, bekijk onze [API documentatie](../../api/using/get-started-apis.md).
-
->[!NOTE]
->
->Adobe Campaign Standard kan ook verbinding maken met Microsoft Dynamics 365 : Dankzij deze integratie kunnen alle beschikbare contactgegevens in het CRM-systeem worden gesynchroniseerd, zodat alle relevante contactgegevens beschikbaar zijn voor campagneactiviteiten. Raadpleeg [Werken met campagne en dynamiek 365 voor meer informatie over deze integratie](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
-
 
 <table> 
  <thead> 
