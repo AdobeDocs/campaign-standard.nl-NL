@@ -2,7 +2,7 @@
 title: Een bron aanroepen met een samengestelde identificatiesleutel
 description: Leer hoe u een bron aanroept met een samengestelde id-toets
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 1e1e1f5f9dd239e45d83330aed74a951a7b332d4
 workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 0%
@@ -99,7 +99,7 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 ```
 
 >[!NOTE]
->Als u een klantfilter wilt aanroepen, gebruikt u het voorvoegsel &quot;by&quot; gevolgd door de filternaam die is gedefinieerd bij het configureren van de filterdefinitie in [stap 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
+>Als u een aangepast filter wilt aanroepen, gebruikt u het voorvoegsel &quot;by&quot; gevolgd door de filternaam die is gedefinieerd bij het configureren van de filterdefinitie in [stap 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
 
 In ons geval zou de syntaxis om een profiel op te halen uit de categorie &quot;spring&quot; met de CRM-id &quot;123456&quot; als volgt zijn:
 
