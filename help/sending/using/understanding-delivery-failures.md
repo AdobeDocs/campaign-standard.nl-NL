@@ -12,7 +12,10 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1287a360cdd1750996b47a27b85a11e90b29df0
+source-git-commit: d05d2692607117e056c360e81d85b7d64c4077a3
+workflow-type: tm+mt
+source-wordcount: '1279'
+ht-degree: 1%
 
 ---
 
@@ -56,27 +59,23 @@ Er zijn drie soorten fouten wanneer een levering mislukt:
 
 De mogelijke oorzaken van een mislukking van de levering zijn:
 
-* **[!UICONTROL User unknown]** (Hard type): het adres bestaat niet. Voor dit profiel worden geen verdere leveringen uitgevoerd.
-* **[!UICONTROL Quarantined address]** (Hard type): het adres is in quarantaine geplaatst.
-* **[!UICONTROL Unreachable]** (Zacht/Hard type): er is een fout opgetreden in de berichtleveringsketen (bijvoorbeeld een tijdelijk onbereikbaar domein). Volgens de fout die door de leverancier is geretourneerd, wordt het adres rechtstreeks naar quarantaine verzonden of wordt de levering opnieuw geprobeerd tot de campagne een fout ontvangt die de quarantainestatus rechtvaardigt of tot het aantal fouten 5 bereikt.
-* **[!UICONTROL Address empty]** (Hard type): het adres is niet gedefinieerd.
-* **[!UICONTROL Mailbox full]** (Zachte tekst): de brievenbus van deze gebruiker is volledig en kan niet meer berichten goedkeuren. Dit adres kan uit de quarantainelijst worden verwijderd om een andere poging te doen. Het wordt automatisch na 30 dagen verwijderd.
-
-   Om het adres automatisch uit de lijst met in quarantaine geplaatste adressen te verwijderen moet de technische workflow voor **[!UICONTROL Database cleanup]** worden gestart.
-
-* **[!UICONTROL Refused]** (Zacht/Hard type): het adres is in quarantaine geplaatst wegens veiligheidsterugkoppelen als spamrapport. Volgens de fout die door de leverancier is geretourneerd, wordt het adres rechtstreeks naar quarantaine verzonden of wordt de levering opnieuw geprobeerd tot de campagne een fout ontvangt die de quarantainestatus rechtvaardigt of tot het aantal fouten 5 bereikt.
-* **[!UICONTROL Duplicate]**: het adres is reeds ontdekt in de segmentatie.
-* **[!UICONTROL Not defined]** (Zachte tekst): het adres is in kwalificatie omdat de fouten nog niet zijn verhoogd.
-
-   Dit type fout treedt op wanneer een nieuw foutbericht wordt verzonden door de server: het kan een geïsoleerde fout zijn, maar als het opnieuw voorkomt, zal de foutenteller stijgen, die de technische teams zal waarschuwen.
-
-* **[!UICONTROL Error ignored]**: het adres bevindt zich in de whitelist en er zal in ieder geval een e-mail naar worden gestuurd .
-* **[!UICONTROL Blacklisted address]**: het adres was op het moment van verzending op de zwarte lijst geplaatst.
-* **[!UICONTROL Account disabled]** (Zacht/Hard type): wanneer de Internet Access Provider (IAP) een lange periode van inactiviteit ontdekt, kan het de rekening van de gebruiker sluiten: levering aan het adres van de gebruiker zal dan onmogelijk zijn. Het type Zacht of Hard is afhankelijk van het type ontvangen fout: als de account tijdelijk is uitgeschakeld vanwege een inactiviteit van zes maanden en nog steeds kan worden geactiveerd , **[!UICONTROL Erroneous]** wordt de status toegewezen en wordt de levering opnieuw geprobeerd . Als de ontvangen fout aangeeft dat de account permanent is gedeactiveerd, wordt deze rechtstreeks naar Quarantine verzonden.
-* **[!UICONTROL Not connected]**: de mobiele telefoon van het profiel is uitgeschakeld of heeft geen verbinding met het netwerk wanneer het bericht wordt verzonden.
-* **[!UICONTROL Invalid domain]** (Zachte tekst): het domein van het e-mailadres is onjuist of bestaat niet meer. Dit profiel wordt opnieuw geactiveerd tot het aantal fouten 5 is. Hierna wordt de record ingesteld op Quarantine-status en wordt het niet opnieuw geprobeerd.
-* **[!UICONTROL Text too long]**: het aantal tekens in het SMS-bericht overschrijdt de limiet. Zie [SMS-codering, -lengte en -transliteratie](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)voor meer informatie.
-* **[!UICONTROL Character not supported by encoding]**: het SMS-bericht bevat een of meer tekens die niet door de codering worden ondersteund. &amp;Zie [Tekenlijst - GSM-standaard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)voor meer informatie.
+| Foutlabel | Fouttype | Beschrijving |
+---------|----------|---------
+| **[!UICONTROL User unknown]** | Hard | Het adres bestaat niet. Voor dit profiel worden geen verdere leveringen uitgevoerd. |
+| **[!UICONTROL Quarantined address]** | Hard | Het adres is in quarantaine geplaatst. |
+| **[!UICONTROL Unreachable]** | Zacht/Hard | Er is een fout opgetreden in de berichtleveringsketen (bijvoorbeeld een tijdelijk onbereikbaar domein). Volgens de fout die door de leverancier is geretourneerd, wordt het adres rechtstreeks naar quarantaine verzonden of wordt de levering opnieuw geprobeerd tot de campagne een fout ontvangt die de quarantainestatus rechtvaardigt of tot het aantal fouten 5 bereikt. |
+| **[!UICONTROL Address empty]** | Hard | Het adres is niet gedefinieerd. |
+| **[!UICONTROL Mailbox full]** | Zacht | De brievenbus van deze gebruiker is volledig en kan niet meer berichten goedkeuren. Dit adres kan uit de quarantainelijst worden verwijderd om een andere poging te doen. Het wordt automatisch na 30 dagen verwijderd. Om het adres automatisch uit de lijst met in quarantaine geplaatste adressen te verwijderen moet de technische workflow voor **[!UICONTROL Database cleanup]** worden gestart. |
+| **[!UICONTROL Refused]** | Zacht/Hard | Het adres is in quarantaine geplaatst toe te schrijven aan een veiligheid terugkoppelt als spamrapport. Volgens de fout die door de leverancier is geretourneerd, wordt het adres rechtstreeks naar quarantaine verzonden of wordt de levering opnieuw geprobeerd tot de campagne een fout ontvangt die de quarantainestatus rechtvaardigt of tot het aantal fouten 5 bereikt. |
+| **[!UICONTROL Duplicate]** | Genegeerd | Het adres is reeds ontdekt in de segmentatie. |
+| **[!UICONTROL Not defined]** | Zacht | het adres is in kwalificatie omdat de fouten nog niet zijn verhoogd. Dit type fout treedt op wanneer een nieuw foutbericht wordt verzonden door de server: het kan een geïsoleerde fout zijn, maar als het opnieuw voorkomt, zal de foutenteller stijgen, die de technische teams zal waarschuwen. |
+| **[!UICONTROL Error ignored]** | Genegeerd | Het adres is in de whitelist en er wordt in elk geval een e-mail naar gestuurd. |
+| **[!UICONTROL Blacklisted address]** | Hard | het adres was op het moment van verzending op de zwarte lijst geplaatst. |
+| **[!UICONTROL Account disabled]** | Zacht/Hard | Wanneer de Internet Access Provider (IAP) een lange periode van inactiviteit ontdekt, kan het de rekening van de gebruiker sluiten: levering aan het adres van de gebruiker zal dan onmogelijk zijn. Het type Zacht of Hard is afhankelijk van het type ontvangen fout: als de account tijdelijk is uitgeschakeld vanwege een inactiviteit van zes maanden en nog steeds kan worden geactiveerd , **[!UICONTROL Erroneous]** wordt de status toegewezen en wordt de levering opnieuw geprobeerd . Als de ontvangen fout aangeeft dat de account permanent is gedeactiveerd, wordt deze rechtstreeks naar Quarantine verzonden. |
+| **[!UICONTROL Not connected]** | Genegeerd | De mobiele telefoon van het profiel is uitgeschakeld of heeft geen verbinding met het netwerk wanneer het bericht wordt verzonden. |
+| **[!UICONTROL Invalid domain]** | Zacht | Het domein van het e-mailadres is onjuist of bestaat niet meer. Dit profiel wordt opnieuw geactiveerd tot het aantal fouten 5 is. Hierna wordt de record ingesteld op Quarantine-status en wordt het niet opnieuw geprobeerd. |
+| **[!UICONTROL Text too long]** | Genegeerd | Het aantal tekens in het SMS-bericht overschrijdt de limiet. Zie [SMS-codering, -lengte en -transliteratie](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)voor meer informatie. |
+| **[!UICONTROL Character not supported by encoding]** | Genegeerd | Het SMS-bericht bevat een of meer tekens die niet door de codering worden ondersteund. &amp;Zie [Tekenlijst - GSM-standaard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)voor meer informatie. |
 
 ## Retourneert na een tijdelijke leverfout {#retries-after-a-delivery-temporary-failure}
 
