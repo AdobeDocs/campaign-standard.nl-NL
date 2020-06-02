@@ -13,7 +13,10 @@ context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 6e87dc8f299f0c9fbb33e5e56c0a76cfef0aa9a6
+workflow-type: tm+mt
+source-wordcount: '993'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +33,7 @@ Met deze **[!UICONTROL Email delivery]** activiteit kunt u het verzenden van een
 
 E-mailberichten die u per e-mail verzendt, zijn standaard e-mailberichten die u één keer verzendt.
 
-Als u e-mails terugstuurt, kunt u dezelfde e-mail gedurende een bepaalde periode meerdere keren naar verschillende doelen verzenden. U kunt de leveringen per periode samenvoegen om rapporten te krijgen die aan uw behoeften beantwoorden.
+Als u e-mailberichten terugstuurt, kunt u dezelfde e-mail gedurende een bepaalde periode meerdere keren naar verschillende doelen verzenden. U kunt de leveringen per periode samenvoegen om rapporten te krijgen die aan uw behoeften beantwoorden.
 
 ## Gebruikscontext {#context-of-use}
 
@@ -57,6 +60,9 @@ De voorbereiding van berichten wordt geactiveerd volgens de parameters voor work
    * **[!UICONTROL Recurring email]**: de e-mail wordt verscheidene keren verzonden, volgens de frequentie die in een **[!UICONTROL Scheduler]** activiteit wordt bepaald. Selecteer de samenvoegingsperiode van de verzendingen. Hierdoor kunt u alle verzendingen die tijdens de gedefinieerde periode optreden, hergroeperen in één e-mail die ook wel **Herhalende uitvoering** wordt genoemd en die vanuit de lijst met marketingactiviteiten van de toepassing kan worden benaderd.
 
       Bijvoorbeeld, voor een terugkerende verjaardagse-mail, die dagelijks wordt verzonden, kunt u verkiezen om verzendt per maand samen te voegen. Op deze manier kunt u maandelijks rapporten over uw levering ontvangen, hoewel de e-mail elke dag wordt verzonden.
+   >[!NOTE]
+   >
+   >Terugkerende leveringen worden voorbereid op basis van de **aggregatieperiode**. Als de samenvoegingsperiode bijvoorbeeld &quot;op dag&quot; is, wordt de levering slechts eenmaal per dag opnieuw voorbereid. Als u deze workflow meerdere keren per dag wilt aanroepen, gebruikt u [!UICONTROL No aggregation].
 
 1. Selecteer een e-mailtype. De e-mailtypen zijn afkomstig van e-mailsjablonen die u hebt gedefinieerd in het menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** .
 1. Voer de algemene eigenschappen voor de e-mail in. U kunt het aan een bestaande campagne ook vastmaken. Het label van de leveringsactiviteit van de werkstroom wordt bijgewerkt met het e-maillabel.
