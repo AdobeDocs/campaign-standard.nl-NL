@@ -7,17 +7,24 @@ contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
-topic-tags: working-with-campaign-and-experience-manager
+topic-tags: working-with-campaign-and-microsoft-dynamics-365
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
+source-git-commit: 21135f27fd1d8297edd3dd067446d09c39de9f4f
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 0%
 
 ---
 
 
 # Aan de slag met de integratie van Microsoft Dynamics 365
+
+>[!IMPORTANT]
+>
+>Deze integratie is momenteel niet beschikbaar. Er wordt een nieuwe aansluiting ontwikkeld die in de toekomst beschikbaar zal zijn. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 Activeer uw CRM-gegevens voor kanaalcommunicatie: Leer hoe te om contacten van de Dynamica 365 van Microsoft aan de Campagne van Adobe over te brengen, en de gegevens van campagneprestaties (verzendt, opent, klikt, en stuit) terug van de Campagne van Adobe aan de Dynamica 365 van Microsoft te delen.
 
@@ -25,9 +32,7 @@ Activeer uw CRM-gegevens voor kanaalcommunicatie: Leer hoe te om contacten van d
 >
 >De integratie van Microsoft Dynamics 365 / Adobe Campaign Standard biedt alleen ondersteuning voor de **verkoopapp** Microsoft Dynamics 365.
 
-## Voordelen en gebruiksgevallen
-
-### Beginselen
+## Beginselen
 
 De integratie van de Campagne van Adobe en van de Dynamica 365 van Microsoft laat synchronisatie van alle beschikbare gegevens van het Contact in het systeem van CRM toe, die alle relevante gegevens van het Contact ter beschikking stellen voor campagneactiviteiten.
 
@@ -41,9 +46,7 @@ Deze integratie is ontworpen om drie hoofdgebruiksituaties te ondersteunen:
 1. Het verzenden van e-mail marketing gebeurtenissen (verzendt, opent, klikt, stuit) van Campagne aan Dynamica 365 om aan verkoopbewaarplaats in de interface van de Dynamiek 365 te tonen
 1. Het synchroniseren van douaneentiteiten van Dynamiek 365 aan Campagne zodat kunnen zij voor segmentatie en verpersoonlijking worden gebruikt
 
-Bekijk [hier](https://helpx.adobe.com/campaign/kt/acs/using/acs-ms-dynamics-crm-connector-tutorial.html)de video van de 365-Campagne Standaard integratie.
-
-### Belangrijkste voordelen
+## Belangrijkste voordelen
 
 * Consistente communicatie tussen verkoop en marketing
 
