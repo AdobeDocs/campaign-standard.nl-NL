@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89218b584f0d621ca700d4ee2a4866555d00679
+source-git-commit: 15570e42a345e0b8df2fe59d5ce06877e2ac7cf3
 workflow-type: tm+mt
 source-wordcount: '5842'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Naast de opmerkingen bij de [release](../../rn/using/release-notes.md)van Adobe 
 
 ## Documentatie - juni 2020 {#doc-updates-june-2020}
 
-Campagnestandaard - integratie van Microsoft Dynamics 365 is momenteel niet beschikbaar. Er wordt een nieuwe aansluiting ontwikkeld die in de toekomst beschikbaar zal zijn. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+Campagnestandaard - integratie van Microsoft Dynamics 365 is momenteel niet beschikbaar. Er wordt een nieuwe aansluiting ontwikkeld die in de toekomst beschikbaar zal zijn. De gerelateerde Help-pagina&#39;s zijn verwijderd. [Meer informatie](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## Documentatie - mei 2020 {#doc-updates-may-2020}
 
