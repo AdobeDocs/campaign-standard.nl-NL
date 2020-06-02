@@ -12,7 +12,10 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: 26760a118f87676afe3d359c8db3513c1a190d35
+workflow-type: tm+mt
+source-wordcount: '1479'
+ht-degree: 0%
 
 ---
 
@@ -83,7 +86,7 @@ De [belangrijkste wetgeving](#privacy-regulations) heeft als volgt betrekking op
 
 Als bedrijf dat persoonlijke gegevens verzamelt en deelt, bent u dus de Data Controller, zijn uw klanten de Data Subjects en Adobe Campaign fungeert als een gegevensprocessor bij de verwerking van hun persoonlijke gegevens op de door u aangegeven wijze. Merk op dat het uw verantwoordelijkheid als Controlemechanisme van Gegevens is om de verhouding met de Onderwerpen van Gegevens te behandelen zoals wanneer het beheren van [privacyverzoeken](#privacy-requests).
 
-Wanneer het integreren van Campagne met andere oplossingen van de Wolk van de Ervaring waar het publiek van één systeem aan een ander kan worden overgebracht, zoals de dienst [van de Doelen van het](../../audiences/using/aep-about-audience-destinations-service.md)Publiek, [Analytics](../../integrating/using/about-campaign-analytics-integration.md)van Adobe, de Manager van het [Publiek of de kerndienst](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)van het Mensen, of met andere oplossingen zoals de Dynamica 365 [van](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)Microsoft, moet u extra zorg aan persoonlijke gegevensbescherming betalen.
+Wanneer het integreren van Campagne met andere oplossingen van de Wolk van de Ervaring waar het publiek van één systeem aan een ander kan worden overgebracht, zoals de dienst [van de Doelen van het](../../audiences/using/aep-about-audience-destinations-service.md)Publiek, [Analytics](../../integrating/using/about-campaign-analytics-integration.md)van Adobe, de Manager van het [Publiek of de kerndienst](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)van het Mensen, of met andere oplossingen zoals de Dynamica 365 [van](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)Microsoft, moet u extra zorg aan persoonlijke gegevensbescherming betalen.
 
 ## Gegevensverwerving {#data-acquisition}
 
