@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
+source-git-commit: bb83fb3b24af0102dc3745517e8604fdac82ee19
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 0%
 
 ---
 
@@ -21,15 +24,15 @@ source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
 
 Werk met de e-mailontwerper en maak herbruikbare sjablonen en fragmenten op van uw e-mailHTML die u hebt gemaakt in de Verouderde editor.
 
->[!IMPORTANT]
->
->Deze sectie is bedoeld voor geavanceerde gebruikers die vertrouwd zijn met HTML-code.
-
 Met dit gebruiksgeval kunt u een E-mailDesigner-sjabloon maken door een HTML-e-mail te gebruiken en deze in HTML-componenten te verdelen in de e-mailontwerper.
 
 >[!NOTE]
 >
 >Net als in de compatibiliteitsmodus kan een HTML-component met beperkte opties worden bewerkt: u kunt alleen op plaats een editie uitvoeren.
+
+>[!IMPORTANT]
+>
+>Deze sectie is bedoeld voor geavanceerde gebruikers die vertrouwd zijn met HTML-code.
 
 ## E-mailinhoud voorbereiden
 
