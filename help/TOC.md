@@ -4,9 +4,9 @@ sub-product: Adobe-campagnestandaard
 audience: end-user
 user-guide-title: Help bij Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: a9a6fc70fe8fe4ffa3560c725b7753b001d8e928
+source-git-commit: c7bac40fc736c107dcdbc910ab35b9eb53a915f6
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1403'
 ht-degree: 0%
 
 ---
@@ -239,15 +239,7 @@ ht-degree: 0%
       + [Uw triggers testen](integrating/using/testing-your-triggers.md)
       + [Afsluiten Gebruiksgevallen activeren](integrating/using/abandonment-triggers-use-cases.md)
    + Campagne en de Dynamica 365 van Microsoft {#campaign-and-microsoft-dynamics-365}
-      + Werken met de Standaard van de Campagne en Dynamica 365 van Microsoft {#working-with-campaign-standard-and-ms-dynamics}
-         + [Aan de slag met de integratie van Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-         + [Over de integratie van Microsoft Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-         + [Vraag en vorm de integratie van de Dynamica 365 van Microsoft](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-         + [De integratie van Microsoft Dynamics 365 gebruiken](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [Adobe IO configureren voor integratie met Microsoft Dynamics 365](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [Microsoft Dynamics 365 configureren voor integratie van campagnes](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [Unifi configureren voor integratie met Microsoft Dynamics 365](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
-      + [Aangepaste bronnen voor campagne toewijzen en eigen entiteiten voor dynamiek 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Aan de slag met de integratie van Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 + Processen en gegevens beheren {#managing-processes-and-data}
    + [Aan de slag met gegevens- en procesbeheer](automating/using/get-started-workflows.md)
    + Algemene werkstroom {#workflow-general-operation}
