@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15570e42a345e0b8df2fe59d5ce06877e2ac7cf3
+source-git-commit: babbf78d91d3cab9569eab3b15da50f64a91a560
 workflow-type: tm+mt
-source-wordcount: '5842'
+source-wordcount: '5876'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,10 @@ Naast de opmerkingen bij de [release](../../rn/using/release-notes.md)van Adobe 
 
 ## Documentatie - juni 2020 {#doc-updates-june-2020}
 
+Verwijzingen naar de oude ondersteuningswebsite zijn vervangen door de nieuwe URL. [Meer informatie](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
+
+Aangepaste Litmus-accountconfiguratie is verwijderd uit Inbox-rendermogelijkheden. [Meer informatie](../../sending/using/email-rendering.md)
+
 Campagnestandaard - integratie van Microsoft Dynamics 365 is momenteel niet beschikbaar. Er wordt een nieuwe aansluiting ontwikkeld die in de toekomst beschikbaar zal zijn. De gerelateerde Help-pagina&#39;s zijn verwijderd. [Meer informatie](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## Documentatie - mei 2020 {#doc-updates-may-2020}
@@ -34,7 +38,7 @@ De overzichtspagina van de campagnestandaard is verrijkt en in thematische onder
 
 Het gedeelte Parameters e-mailkanaal is verduidelijkt met verdere informatie over de toegestane maskervelden en de id van de leveringsrapporten. [Meer informatie](../../administration/using/configuring-email-channel.md)
 
-De configuratie van een mobiele toepassing met SDK&#39;s van het Adobe Experience Platform is nu beschikbaar in de kerndocumentatie met meer informatie over de technische workflow voor het synchroniseren van de mobiele app AEPSDK in de startprocedure. [Meer informatie](../../administration/using/configuring-a-mobile-application.md)
+Het configureren van een mobiele toepassing met Adobe Experience Platform SDK&#39;s is nu beschikbaar in de kerndocumentatie met meer informatie over de technische workflow voor het synchroniseren van mobiele app AEPSDK vanuit Launch. [Meer informatie](../../administration/using/configuring-a-mobile-application.md)
 
 ## Release 20.3 - mei 2020 {#release-20-3---may-2020}
 
@@ -62,7 +66,7 @@ De integratie van Microsoft Dynamics 365 met de documentatie van de Standaard va
 
 Er zijn extra bronnen toegevoegd aan de pagina &quot;Documentstartpagina&quot;. [Meer informatie](../../campaign-standard-home.md)
 
-Informatie over de Experience Cloud ID Service (ECID) is toegevoegd aan de documentatie van het Adobe Experience Platform Data Connector. [Meer informatie](../../developing/using/aep-about-data-connector.md#key-concepts)
+Informatie over de Experience Cloud ID Service (ECID) is toegevoegd aan de documentatie van de Adobe Experience Platform Data Connector. [Meer informatie](../../developing/using/aep-about-data-connector.md#key-concepts)
 
 De het Vormen transactionele overseinensectie is verbeterd met informatie over hoe te om tot de recentste transactionele gebeurtenissen en bijgewerkte screenshots toegang te hebben. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
@@ -130,7 +134,7 @@ Er is informatie toegevoegd over de **[!UICONTROL History in days field]** besch
 
 **Nieuwe mogelijkheden inbegrepen in de versie**
 
-Adobe Experience Platform Data Connector (bèta) - [Lees meer](../../developing/using/aep-about-data-connector.md)
+Adobe Experience Platform Data Connector (bèta) - [Meer informatie](../../developing/using/aep-about-data-connector.md)
 
 Bestemmingen van het publiek (bèta) - [Lees meer](../../audiences/using/aep-about-audience-destinations-service.md)
 
@@ -350,7 +354,7 @@ De gids voor automatiseren is bijgewerkt met koppelingen naar gerelateerde workf
 
 Het gedeelte Indicatorberekening voor dynamische rapporten is bijgewerkt. [Meer informatie](../../reporting/using/indicator-calculation.md)
 
-Er is een dynamische compatibiliteitstabel voor rapporten toegevoegd om beter inzicht te krijgen in de compatibiliteit tussen afmetingen en metriek. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
+Er is een dynamische compatibiliteitstabel voor rapporten toegevoegd om de compatibiliteit tussen dimensies en maatstaven beter te begrijpen. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
 
 De lijst met functies voor workflows is bijgewerkt. [Meer informatie](../../automating/using/list-of-functions.md)
 
@@ -466,7 +470,7 @@ Informatie toegevoegd over de nieuwe optie in de activiteit van het Extraheren d
 
 De sectie Een mobiele toepassing configureren met SDK V4 is [hier](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)geplaatst.
 
-Het gedeelte Een mobiele toepassing configureren met behulp van de Adobe Experience Platform SDK&#39;s is [hier](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)geplaatst.
+Het gedeelte Een mobiele toepassing configureren met Adobe Experience Platform SDK&#39;s is [hier](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)geplaatst.
 
 Video&#39;s zijn [hier](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)bijgewerkt en verplaatst.
 
