@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: fef25718906ba52158ebe4d53bbadc799cd5dd88
+source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1554'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Om dergelijke problemen te voorkomen, raadt Adobe aan de onderstaande aanbevolen
 * Soms, login aan SFTP om direct te controleren wat daar ligt.
 * Houd er rekening mee dat SFTP-schijfbeheer primair uw verantwoordelijkheid is.
 
-Ook, merk op dat openbare IPs waarvan u probeert om de verbinding in werking te stellen SFTP op de instantie van de Campagne moet worden gewhitelisteerd. Whitelisting van IP adressen kan via een [steunkaartje](https://support.neolane.net), samen met het verstrekken van de openbare sleutel voor authentificatie worden gevraagd.
+Ook, merk op dat openbare IPs waarvan u probeert om de verbinding in werking te stellen SFTP op de instantie van de Campagne moet worden gewhitelisteerd. Whitelisting van IP adressen kan via een [steunkaartje](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), samen met het verstrekken van de openbare sleutel voor authentificatie worden gevraagd.
 
 SFTP-servers kunnen worden beheerd via het Configuratiescherm. Raadpleeg de documentatie bij het [Configuratiescherm voor meer informatie](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
