@@ -12,7 +12,10 @@ discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: b43e6be265ff2d8ce357ef44672a755028e2e5af
+workflow-type: tm+mt
+source-wordcount: '435'
+ht-degree: 0%
 
 ---
 
@@ -74,13 +77,13 @@ In dit rapport worden de e-mailresultaten weergegeven zoals deze naar de ontvang
 
 >[!NOTE]
 >
->Het aantal beschikbare weergaven wordt vermeld in uw licentieovereenkomst. Bij elke levering waarvoor rendering via **e-mail** is ingeschakeld, worden de beschikbare renderingen (tokens genoemd) met één verminderd. Als u een Litmus-client bent, kunt u uw eigen Litmus-account gebruiken om gegevens te verschaffen en e-mailrendering te gebruiken in Adobe Campaign. Neem voor meer informatie hierover contact op met de manager van uw Adobe-account.
+>Het aantal beschikbare weergaven wordt vermeld in uw licentieovereenkomst. Bij elke levering waarvoor rendering via **e-mail** is ingeschakeld, worden de beschikbare renderingen (tokens genoemd) met één verminderd.
 
 De rapportsamenvatting geeft het aantal ontvangen, ongewenste (spam), niet ontvangen, of hangende ontvangst weer.
 
 ![](assets/inbox_rendering_report.png)
 
-Het verslag bestaat uit drie delen: **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]**, en **[!UICONTROL Webmails]**. Schuif omlaag het rapport om alle renderingen weer te geven die in deze drie categorieën zijn gegroepeerd.
+Het verslag bestaat uit drie delen: **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]** en **[!UICONTROL Webmails]**. Schuif omlaag het rapport om alle renderingen weer te geven die in deze drie categorieën zijn gegroepeerd.
 
 ![](assets/inbox_rendering_report_3.png)
 
