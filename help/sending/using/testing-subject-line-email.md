@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f89b420f0f98c13da1bfff8f9b1b29e015aef89
+source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+workflow-type: tm+mt
+source-wordcount: '1095'
+ht-degree: 0%
 
 ---
 
@@ -80,14 +83,14 @@ Er wordt standaard geen model uitgevoerd op uw Adobe Campaign-server. Er zijn tw
 >U kunt slechts één getraind model op uw exemplaar hebben.
 
 Een lokaal model trainen:
-1. Download subjectLineTraining.xml van [hier](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) en gebruik de functie [package import](../../automating/using/managing-packages.md) om deze naar uw Adobe Campagne-instantie te uploaden. De training wordt automatisch uitgevoerd via een technische workflow.
+1. Download subjectLineTraining.xml van [hier](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) en gebruik de functie [package import](../../automating/using/managing-packages.md) om deze naar uw Adobe Campagne-instantie te uploaden. De training wordt automatisch uitgevoerd via een technische workflow.
 1. De eerste keer dat u een model wilt trainen, kan een beheerder dwingen om te beginnen van **[!UICONTROL SubjectLine Training workflow]** > **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** **[!UICONTROL Workflows]** menu.
 1. Nadat een model is geüpload en opgeleid, wordt de functie automatisch geactiveerd en wordt een nieuwe optie weergegeven naast het veld voor de onderwerpregel van uw berichten.
 1. De technische workflow zal dan automatisch elke week uw model trainen.
 
 ### Voorgeschoolde modellen importeren {#pre-trained-models}
 
-Klik [hier](https://support.neolane.net/webApp/extranetLogin) en ga naar **[!UICONTROL Download Center]**. Gebruik de functie voor het importeren van [pakketten](../../automating/using/managing-packages.md) om een model te uploaden naar uw Adobe Campagne-instantie.
+Klik [hier](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)om deze modellen te openen. Gebruik de functie voor het importeren van [pakketten](../../automating/using/managing-packages.md) om een model te uploaden naar uw Adobe Campagne-instantie.
 
 De modellen die voor gebruik beschikbaar zijn zijn:
 
