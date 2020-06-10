@@ -12,9 +12,9 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fb865ae08a4b0db42b71e58895976a973a2ed6b7
+source-git-commit: c7ed307e982e3fe41b2e3a7d0de7de356338bc08
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ Alle releasedatums kunnen worden gewijzigd: We raden u aan deze pagina regelmati
 
 **NIEUW!** Meld u aan bij [de releasemeldingen](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) voor Campagne Standard voor meer informatie over komende releases in uw Postvak IN.
 
-## Release 20.3.1 - Release mei {#release-20-3-may-release}
+## Release 20.4 - Release oktober {#release-20-4-oct-release}
 
-De updates van het milieu gebeuren in golven, tijdens de vermelde hieronder termijnen. Gedetailleerde informatie over deze versie vindt u in de [releaseopmerkingen](../../rn/using/release-notes.md). Neem contact op met de [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin)als u nog vragen hebt.
+De updates van het milieu gebeuren in golven, tijdens de vermelde hieronder termijnen. Gedetailleerde informatie over deze versie vindt u in de [releaseopmerkingen](../../rn/using/release-notes.md). Neem contact op met de [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)als u nog vragen hebt.
 
 <table>
  <thead>
@@ -46,11 +46,11 @@ De updates van het milieu gebeuren in golven, tijdens de vermelde hieronder term
  <tbody>
   <tr>
    <td>Werkgebied<br /> </td>
-   <td>26 mei 2020 - 27 mei 2020<br /> </td>
+   <td>21 sep. 22, 2020<br /> </td>
   </tr>
   <tr>
    <td> Productie<br /> </td>
-   <td>28 mei - 1 juni 2020<br /> </td>
+   <td>28 sep. - 5 okt. 2020<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -65,7 +65,7 @@ A: Wijzigingen worden vermeld in de [releaseopmerkingen](../../rn/using/release-
 
 **V: Wat is het validatieproces?**
 
-A: Naarmate de upgrade van uw testexemplaar wordt uitgevoerd, raadt Adobe u aan uw processen te valideren en de gebruiksgevallen correct met deze nieuwe versie werken en eventuele problemen aan de [Adobe Client Care](https://support.neolane.net/webApp/extranetLogin)te melden.
+A: Naarmate de upgrade van uw testexemplaar wordt uitgevoerd, raadt Adobe u aan uw processen te valideren en de gebruiksgevallen correct met deze nieuwe versie werken en eventuele problemen aan de [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)te melden.
 
 **V: Zal er toegang tot de instantie tijdens het verbeteringsproces zijn?**
 
@@ -87,4 +87,4 @@ A: Ja, ze zullen werken. Er kunnen geen nieuwe e-mailberichten worden verzonden 
 
 A: Wanneer het programma openen aan Campaign, zal popup van het versiebericht, met de recentste versie worden getoond.
 
-Neem voor alle andere vragen contact op met de [klantenservice](https://support.neolane.net/webApp/extranetLogin)van Adobe.
+Neem voor alle andere vragen contact op met de [klantenservice](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)van Adobe.
