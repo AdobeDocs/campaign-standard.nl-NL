@@ -1,6 +1,6 @@
 ---
-title: Een nieuw platform starten met Adobe Campagne Standard
-description: Leer hoe u een nieuw platform instelt met behoud van uw domein- en IP-adresreputatie met Adobe Campagne Standard.
+title: Een nieuw platform starten met Adobe Campaign Standard
+description: Leer hoe te opstelling een nieuw platform terwijl het handhaven van uw domein en IP adresreputatie met Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,7 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f83cf866f1c9fa53687e6cee26306d33327bd822
+source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: f83cf866f1c9fa53687e6cee26306d33327bd822
 
 Het handhaven van uw domein en IP adresreputatie is essentieel. Hier volgt een advies voor het opzetten van een nieuw platform.
 
-Het beginnen om e-mails op een nieuw platform te verzenden is een gevoelige stap omdat het platform geen geschiedenis van gebruik en geen reputatie heeft (wanneer de verzendende IPs nooit voor dit doel zijn gebruikt). ISPs is natuurlijk verdacht van IP adressen die nooit zijn gebruikt om e-mail te verzenden en die plotseling beginnen grote volumes van e-mailverkeer te verzenden. In feite, gebruiken spammers over het algemeen &quot;onbekende&quot;IP adressen (d.w.z. adressen die nooit op de zwarte lijst zijn gezet) om het grootste mogelijke aantal berichten vóór opsporing te verzenden.
+Het beginnen om e-mails op een nieuw platform te verzenden is een gevoelige stap omdat het platform geen geschiedenis van gebruik en geen reputatie heeft (wanneer de verzendende IPs nooit voor dit doel zijn gebruikt). ISPs is natuurlijk verdacht van IP adressen die nooit zijn gebruikt om e-mail te verzenden en die plotseling beginnen grote volumes van e-mailverkeer te verzenden. In feite, gebruiken spammers over het algemeen &quot;onbekende&quot;IP adressen (adressen die nooit aan een bloklijst zijn toegevoegd) om het grootste mogelijke aantal berichten vóór opsporing te verzenden.
 
 Je kunt niet verwachten dat je aan het begin van de productiefase een operationele snelheid bereikt in termen van productie. Bovendien zou u niet moeten proberen om berichten aan dit tarief te verzenden aangezien het ISPs zou kunnen leiden om de verzendende adressen te blokkeren en de rest van de aanloopfase ernstig te compromitteren.
 
