@@ -13,14 +13,17 @@ context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,m
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 0%
 
 ---
 
 
 # Uitsplitsing naar domein{#breakdown-by-domains}
 
-Dit rapport bevat de prestatiegegevens voor elk domein dat in het publiek voor een e-maillevering wordt vertegenwoordigd. Als het een campagne- of programmarapport is, zijn de prestatiegegevens beschikbaar voor meerdere doelgroepen. Met deze gegevens kunt u het gedrag van elk domein analyseren in reactie op specifieke gebeurtenissen. Bijvoorbeeld koppelingsweergave, URL-zwarte lijst, enz.
+Dit rapport bevat de prestatiegegevens voor elk domein dat in het publiek voor een e-maillevering wordt vertegenwoordigd. Als het een campagne- of programmarapport is, zijn de prestatiegegevens beschikbaar voor meerdere doelgroepen. Met deze gegevens kunt u het gedrag van elk domein analyseren in reactie op specifieke gebeurtenissen. Bijvoorbeeld koppelingsweergave, URL in bloklijst, enz.
 
 ![](assets/delivery_reports_6.png)
 
@@ -39,5 +42,5 @@ De tweede lijst, het **Volgen statistieken**, bevat de beschikbare gegevens voor
 * **Klik**: Het aantal keren dat op inhoud is geklikt in een levering.
 * **Abonnement opgezegd**: Het aantal klikken op de abonnementkoppeling.
 * **Pagina** spiegelen: Het aantal klikken op de koppeling van de spiegelpagina.
-* **Op zwarte lijst**: Het aantal ontvangers dat een e-mail heeft gedeclareerd als spam of junk (zie [De zwarte lijst beheren in Campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+* **Blocklisted**: Het aantal ontvangers dat een e-mailbericht heeft gedeclareerd als spam of junk (zie Beheer [bloklijst in campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 
