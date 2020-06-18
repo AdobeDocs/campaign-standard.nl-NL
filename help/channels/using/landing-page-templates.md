@@ -13,7 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 0%
 
 ---
 
@@ -25,13 +28,13 @@ Campagne wordt geleverd met een set ingebouwde sjablonen voor bestemmingspagina&
 * **[!UICONTROL Acquisition]**: Dit is het standaardmalplaatje voor het landen van pagina&#39;s, dat u toelaat om gegevens in het gegevensbestand van de Campagne te vangen en bij te werken.
 * **[!UICONTROL Subscription]**: deze template moet worden gebruikt om abonnementen op een service aan te bieden.
 * **[!UICONTROL Unsubscription]**: deze sjabloon kan worden gekoppeld via een e-mail die naar abonnees van een service wordt verzonden, zodat zij hun abonnement op deze service kunnen opzeggen.
-* **[!UICONTROL Blacklist]**: deze sjabloon moet worden gebruikt wanneer een profiel niet langer via Campagne in contact wil komen. Meer informatie over zwarte lijsten vindt u in [Info over opt-in en opt-out in Campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **[!UICONTROL Block list]**: deze sjabloon moet worden gebruikt wanneer een profiel niet langer via Campagne in contact wil komen. Raadpleeg [Informatie over opt-in en opt-out in Campagne voor meer informatie over beheer van](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)bloklijsten.
 
 Deze sjablonen worden standaard voorgesteld bij het maken van een nieuwe bestemmingspagina.
 
 ![](assets/lp_creation_1.png)
 
-Als u paginasjablonen wilt openen, klikt u op het logo van de Adobe-campagne in de linkerbovenhoek en selecteert u **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Landing page templates]**.
+Klik op het Adobe Campaign-logo in de linkerbovenhoek van de landingspagina en selecteer **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Landing page templates]**.
 
 >[!NOTE]
 >
