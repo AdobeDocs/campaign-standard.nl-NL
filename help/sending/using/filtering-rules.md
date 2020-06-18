@@ -12,7 +12,10 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
+source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +31,7 @@ De lijst hieronder verstrekt informatie over uit-van-de-doos het filtreren regel
 | Label | Kanaal | Beschrijving |
 ---------|----------|---------
 | **[!UICONTROL Address not specified]** | Alles | Hiermee sluit u de doelpopulatie zonder opgegeven adres (e-mail, postadres, enz.) uit. volgens het geselecteerde kanaal). |
-| **[!UICONTROL Blacklisted address]** | Alles | Exclusief adressen op de zwarte lijst. |
+| **[!UICONTROL Blocklisted address]** | Alles | Sluit adressen uit die op de bloklijst zijn. |
 | **[!UICONTROL Duplicate]** | Alles | Hiermee worden duplicaten op basis van het **[!UICONTROL Address]** doelpopulatieveld uitgesloten. |
 | **[!UICONTROL Exclude mobile applications]** | Mobiele toepassing | Hiermee sluit u app-abonnementen uit die niet overeenkomen met de mobiele toepassing die in het bericht is gedefinieerd. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | In app | Hiermee sluit u toepassingsabonnementen uit die niet overeenkomen met de mobiele toepassing die in het bericht is gedefinieerd (In-App-sjabloon). |
@@ -44,7 +47,7 @@ Naast deze standaard het filtreren regels, zijn twee uitsluitingsregels beschikb
 
 Tijdens de e-mailanalyse, vergelijken deze regels de ontvankelijke e-mailadressen met de verboden adressen of domeinnamen in een gecodeerde globale suppressielijst die in de leveringsinstantie wordt beheerd. Als er een gelijke is, wordt het bericht niet verzonden naar die ontvanger.
 
-Dit om te voorkomen dat ze op de zwarte lijst worden gezet vanwege kwaadwillige activiteiten, met name het gebruik van een Spamtrap. Als bijvoorbeeld een spamtrap wordt gebruikt om zich te abonneren via een van uw webformulieren, wordt automatisch een bevestigingsbericht verzonden naar die spamtrap. Hierdoor wordt uw adres automatisch op de zwarte lijst gezet.
+Hiermee voorkomt u dat de bloklijst wordt toegevoegd vanwege kwaadaardige activiteiten, met name het gebruik van een Spamtrap. Als bijvoorbeeld een spamtrap wordt gebruikt om zich te abonneren via een van uw webformulieren, wordt automatisch een bevestigingsbericht verzonden naar die spamtrap. Hierdoor wordt uw adres automatisch toegevoegd aan de lijst met blokkeringen.
 
 >[!NOTE]
 >
@@ -84,7 +87,7 @@ Wanneer deze regel in een bericht wordt gebruikt, worden abonnees die als minder
 
 ## Het vormen van het filtreren regels richten context {#configuring-filtering-rules-targeting-context}
 
-De Norm van de campagne staat u toe om de het **richten** en het **Filtreren** dimensies te vormen om afhankelijk van de gegevens te gebruiken die u wilt richten.
+Campaign Standard staat u toe om de het **richten** en het **Filtreren** dimensies te vormen om afhankelijk van de gegevens te gebruiken die u wilt richten.
 
 Om dit te doen, open de eigenschappen van de typologieregel, dan heb toegang tot de **[!UICONTROL Advanced information]** sectie.
 
