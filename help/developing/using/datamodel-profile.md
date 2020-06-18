@@ -10,7 +10,10 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 25ef93bcc48d58bfdfc13223c2c40b664d5159f0
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1248'
+ht-degree: 0%
 
 ---
 
@@ -51,43 +54,43 @@ source-git-commit: 25ef93bcc48d58bfdfc13223c2c40b664d5159f0
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackList</td>
+                  <td>blockList</td>
                   <td>Geen contact meer (via een kanaal)</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListEmail</td>
+                  <td>blockListEmail</td>
                   <td>Geen contact meer per e-mail</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListFax</td>
+                  <td>blockListFax</td>
                   <td>Geen contact meer per fax</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListMobile</td>
+                  <td>blockListMobile</td>
                   <td>Geen contact meer met SMS</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPhone</td>
+                  <td>blockListPhone</td>
                   <td>Geen contact meer telefonisch</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPostalMail</td>
+                  <td>blockListPostalMail</td>
                   <td>Geen contact meer per direct mail</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPushnotification</td>
+                  <td>blockListPushnotification</td>
                   <td>Neem niet meer contact op met een pushmelding</td>
                   <td>boolean </td>
                   <td> </td>
@@ -217,7 +220,7 @@ source-git-commit: 25ef93bcc48d58bfdfc13223c2c40b664d5159f0
                <tr>
                   <td>lastName</td>
                   <td>Achternaam</td>
-                  <td>tekenreeks (50)</td>
+                  <td>tekenreeks (30)</td>
                   <td> </td>
                </tr>
                <tr>
