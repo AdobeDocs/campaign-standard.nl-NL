@@ -1,6 +1,6 @@
 ---
 title: Over opt-in en opt-out in campagne
-description: Als u de optie Weigeren (of een zwarte lijst) kiest, wordt een profiel niet meer gebruikt voor levering of voor leveringen via een specifiek kanaal.
+description: Uitschakelen heeft tot gevolg dat een profiel niet langer wordt gericht op levering of op leveringen van een specifiek kanaal.
 page-status-flag: never-activated
 uuid: 501d9485-976b-4de7-b242-6886f2814c6c
 contentOwner: sauviat
@@ -12,14 +12,17 @@ discoiquuid: 2f26ec22-0809-4541-b2a1-e84ff868ba6e
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '220'
+ht-degree: 0%
 
 ---
 
 
 # Over opt-in en opt-out in campagne{#about-opt-in-and-opt-out-in-campaign}
 
-Als u de optie Weigeren (of een zwarte lijst) kiest, wordt een profiel niet meer gebruikt voor levering of voor leveringen via een specifiek kanaal.
+Uitschakelen heeft tot gevolg dat een profiel niet langer wordt gericht op levering of op leveringen van een specifiek kanaal.
 
 Als u profielen de mogelijkheid wilt geven om in of uit te schakelen, moet u een specifieke bestemmingspagina maken. Raadpleeg voor meer informatie de pagina&#39;s [Optie-in en Optie-uit](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages)instellen.
 
