@@ -1,6 +1,6 @@
 ---
-title: Uw reputatie verbeteren met Adobe Campagne Standard
-description: Leer hoe u uw reputatie kunt verbeteren met Adobe Campagne Standard door dubbele e-mailadressen en quarantines te beheren.
+title: Je reputatie verbeteren met Adobe Campaign Standard
+description: Leer hoe u uw reputatie met Adobe Campaign Standard kunt verbeteren door dubbele e-mailadressen en quarantines te beheren.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,14 +13,17 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
+source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 0%
 
 ---
 
 
 # Uw reputatie verbeteren{#improving-reputation}
 
-Verwijder dubbele e-mailadressen van uw doel om te voorkomen dat de ontvangers uitputten. Deze stap beschermt uw verzendende reputatie en verzekert goed quarantainebeheer. De Campagne van Adobe biedt de noodzakelijke hulpmiddelen om deze aanbevelingen uit te voeren en het risico te vermijden om door ISP op de zwarte lijst te worden gezet.
+Verwijder dubbele e-mailadressen van uw doel om te voorkomen dat de ontvangers uitputten. Deze stap beschermt uw verzendende reputatie en verzekert goed quarantainebeheer. Adobe Campaign biedt de noodzakelijke hulpmiddelen aan om deze aanbevelingen uit te voeren en het risico te vermijden om aan een bloklijst door ISPs worden toegevoegd.
 
 Hieronder vindt u meer informatie over duplicaat- en quarantainebeheer.
 
@@ -30,7 +33,7 @@ Het hebben van dubbele e-mailadressen kan veelvoudige gevolgen hebben:
 * Hetzelfde bericht wordt meerdere keren verzonden. Zelfs als Campagne standaard een deduplicatieprocedure uitvoert voordat het wordt verzonden, is er niets om te voorkomen dat hetzelfde bericht wordt verzonden door verschillende handelingen met dezelfde inhoud wanneer een doel wordt gesplitst.
 * Abonnementsverzoeken worden niet geaccepteerd. Als een ontvanger zich afmeldt na het ontvangen van een bericht, zal zijn dubbel profiel nog verkiesbaar voor toekomstige berichten zijn.
 
-Naast deze nevenstap van de opt-in-procedures zal deze situatie gebruikers waarschijnlijk ertoe brengen de berichten als spam te beschouwen en een zwarte-beursprocedure bij ISP in werking te stellen.
+Naast deze zijstap van opt-in procedures, zal deze situatie gebruikers waarschijnlijk leiden om de berichten als spam te beschouwen en een procedure van de bloklijst bij ISP teweeg te brengen.
 
 U moet bijzonder voorzichtig zijn wanneer het uitvoeren van verrichtingen op het gegevensbestand. Om dubbel werk zoveel mogelijk te voorkomen, moeten de volgende acties worden uitgevoerd:
 * **De invoer moet zorgvuldig worden gevormd.** Dit is met name van belang bij het kiezen van de verzoeningssleutel.
