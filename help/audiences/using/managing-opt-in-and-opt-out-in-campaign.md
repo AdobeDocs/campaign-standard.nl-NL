@@ -1,6 +1,6 @@
 ---
 title: Optie en opt-out beheren in campagne
-description: Begrijp hoe opt-in en opt-out worden beheerd in de Campagne van Adobe.
+description: Begrijp hoe opt-in en opt-out in Adobe Campaign worden beheerd.
 page-status-flag: never-activated
 uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 Gebruikers kunnen door een operator rechtstreeks vanuit het **[!UICONTROL General]** tabblad Profiel in- of uitschakelen.
 
-In de **[!UICONTROL No longer contact (blacklist)]** sectie komen de geselecteerde selectievakjes overeen met de kanalen waarvan de gebruiker de optie Weigeren heeft gekozen. Selecteer de kanalen op basis van de behoeften van de gebruiker.
+In de **[!UICONTROL No longer contact (on block list)]** sectie komen de geselecteerde selectievakjes overeen met de kanalen waarvan de gebruiker de optie Weigeren heeft gekozen. Selecteer de kanalen op basis van de behoeften van de gebruiker.
 
 ![](assets/optin_landingpage_3.png)
 
@@ -31,7 +34,7 @@ In de **[!UICONTROL No longer contact (blacklist)]** sectie komen de geselecteer
 
 Als u gebruikers de mogelijkheid wilt geven om in of uit te gaan, moet u een **[!UICONTROL Profile acquisition]** bestemmingspagina maken en publiceren. Vervolgens kunnen zij de kanalen selecteren op basis van hun behoeften. Volg de onderstaande stappen om dit te doen.
 
-U kunt ook een **[!UICONTROL BlackList]** openingspagina instellen waarmee gebruikers zich kunnen afmelden voor alle leveringen. Raadpleeg voor meer informatie een [bestemmingspagina instellen om te weigeren van alle leveringen](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
+U kunt ook een **[!UICONTROL Block List]** openingspagina instellen waarmee gebruikers zich kunnen afmelden voor alle leveringen. Raadpleeg voor meer informatie een [bestemmingspagina instellen om te weigeren van alle leveringen](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
 
 >[!NOTE]
 >
@@ -53,9 +56,9 @@ U kunt ook een **[!UICONTROL BlackList]** openingspagina instellen waarmee gebru
 
 ### Een landingspagina instellen om af te zien van alle leveringen {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-Als u gebruikers de mogelijkheid wilt geven zich af te melden voor alle leveringen, moet u een **[!UICONTROL BlackList]** bestemmingspagina maken en publiceren. Raadpleeg [deze pagina](../../channels/using/getting-started-with-landing-pages.md)voor meer informatie over het maken van bestemmingspagina&#39;s.
+Als u gebruikers de mogelijkheid wilt geven zich af te melden voor alle leveringen, moet u een **[!UICONTROL Block list]** bestemmingspagina maken en publiceren. Raadpleeg [deze pagina](../../channels/using/getting-started-with-landing-pages.md)voor meer informatie over het maken van bestemmingspagina&#39;s.
 
 Wanneer een gebruiker op de koppeling naar de bestemmingspagina klikt, wordt de **[!UICONTROL No longer contact (by any channel)]** optie in het profiel automatisch geselecteerd.
 
-![](assets/blacklisting_allchannels.png)
+![](assets/blocklisting_allchannels.png)
 
