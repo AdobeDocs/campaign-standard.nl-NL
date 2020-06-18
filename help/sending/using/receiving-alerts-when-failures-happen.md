@@ -12,9 +12,9 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2031'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,9 @@ De verzonden meldingen bevatten een rapport dat standaard is gebaseerd op de vol
 * Levert met een lage doorvoer
 * Leveringen in uitvoering
 
-De ontvangers van de waarschuwingen kunnen toezicht houden op de leveringen die worden verwerkt door Adobe Campaign en de juiste acties ondernemen wanneer er problemen zijn bij de uitvoering ervan.
+De ontvangers van de waarschuwingen kunnen toezicht houden op de leveringen die door Adobe Campaign worden verwerkt en passende maatregelen nemen wanneer er problemen zijn bij de uitvoering ervan.
 
-Deze waarschuwingsmeldingen kunnen worden aangepast op basis van specifieke waarschuwingscriteria die via een dashboard in de Adobe Campagne-interface zijn gedefinieerd.
+Deze waarschuwingsmeldingen kunnen worden aangepast op basis van specifieke waarschuwingscriteria die via een dashboard in de Adobe Campaign-interface zijn gedefinieerd.
 
 >[!NOTE]
 >
@@ -59,9 +59,9 @@ Als u de ontvangers van de meldingen wilt beheren, de waarschuwingscriteria wilt
 
 >[!NOTE]
 >
->Om tot de dashboards en de alarmerende criteria toegang te hebben en te vormen, moet u beleidsrechten hebben of in de de veiligheidsgroep van de supervisors **van de** Levering verschijnen. Standaardgebruikers hebben geen toegang tot de dashboards in de Adobe Campagne-interface. Ze kunnen alleen de waarschuwingsmeldingen ontvangen. Zie [Typen gebruikers](../../administration/using/users-management.md) en Beveiligingsgroepen [](../../administration/using/managing-groups-and-users.md#about-security-groups)voor meer informatie over gebruikers en beveiliging in Adobe Campagne.
+>Om tot de dashboards en de alarmerende criteria toegang te hebben en te vormen, moet u beleidsrechten hebben of in de de veiligheidsgroep van de supervisors **van de** Levering verschijnen. Standaardgebruikers hebben geen toegang tot de dashboards in de Adobe Campaign-interface. Ze kunnen alleen de waarschuwingsmeldingen ontvangen. Zie [Typen gebruikers](../../administration/using/users-management.md) en [Beveiligingsgroepen](../../administration/using/managing-groups-and-users.md#about-security-groups)voor meer informatie over gebruikers en beveiliging in Adobe Campaign.
 
-Vanuit de Adobe Campagne-interface kunt u:
+Via de Adobe Campaign-interface kunt u:
 
 * Maak en beheer waarschuwingsdashboards voor levering. Zie [Een waarschuwingsdashboard](#creating-a-delivery-alerting-dashboard)voor levering maken.
 * Definieer en beheer de waarschuwingscriteria voor levering voor elk dashboard. U kunt bijvoorbeeld waarschuwingen maken op basis van leveringen met mislukte voorbereiding of leveringen met alleen een lage doorvoer. Zie [Informatie over waarschuwingscriteria](#about-alerting-criteria).
@@ -149,7 +149,7 @@ U kunt bijvoorbeeld een nieuw criterium maken waarmee u een melding kunt verzend
 
 Hiervoor moet u eerst de **leveringsbron** uitbreiden en een nieuw filter toevoegen waarmee u alleen de leveringen met een **[!UICONTROL Finished]** status kunt selecteren.
 
-1. Ga naar **Adobe Campagne** > **Beheer** > **Ontwikkeling** > **Aangepaste bronnen** en klik **[!UICONTROL Create]**.
+1. Ga naar **Adobe Campaign** > **Beheer** > **Ontwikkeling** > **Aangepaste bronnen** en klik **[!UICONTROL Create]**.
 1. Selecteer **[!UICONTROL Extend an existing resource]**, selecteer de **[!UICONTROL Delivery]** bron in de vervolgkeuzelijst en klik **[!UICONTROL Create]** om deze te bewerken.
 
    ![](assets/delivery-alerting_extend-delivery-cus.png)
@@ -193,16 +193,16 @@ Op het **[!UICONTROL Criteria parameters]** tabblad van een [leveringswaarschuwi
 
 ![](assets/delivery-alerting_dashboard_criteria-parameters.png)
 
-* **[!UICONTROL Delivery target minimum size]**: Bijvoorbeeld, als u 100 op dit gebied ingaat, wordt een bericht verzonden slechts voor leveringen met een doel gelijk aan of groter dan 100 ontvangers. This parameter applies to all criteria.
-* **[!UICONTROL Monitoring period before and after the contact date (in hours)]**: Number of hours before and after the current time. Alleen de leveringen met een contactdatum in dit tijdsbereik worden in aanmerking genomen. This parameter applies to all criteria. By default, the value of this field is set to 24 hours.
+* **[!UICONTROL Delivery target minimum size]**: Bijvoorbeeld, als u 100 op dit gebied ingaat, wordt een bericht verzonden slechts voor leveringen met een doel gelijk aan of groter dan 100 ontvangers. Deze parameter geldt voor alle criteria.
+* **[!UICONTROL Monitoring period before and after the contact date (in hours)]**: Aantal uren voor en na de huidige tijd. Alleen de leveringen met een contactdatum in dit tijdsbereik worden in aanmerking genomen. Deze parameter geldt voor alle criteria. De standaardwaarde voor dit veld is 24 uur.
 
-   For more information on the contact date, see [About the scheduling](../../sending/using/about-scheduling-messages.md).
+   Zie [Informatie over de planning](../../sending/using/about-scheduling-messages.md)voor meer informatie over de contactdatum.
 
-* **[!UICONTROL Maximum ratio of soft bounce errors]**: Er wordt een melding verzonden voor alle leveringen met een soft bounce error ratio die groter is dan de opgegeven waarde. By default, the value of this field is set to 0.05 (5%).
+* **[!UICONTROL Maximum ratio of soft bounce errors]**: Er wordt een melding verzonden voor alle leveringen met een soft bounce error ratio die groter is dan de opgegeven waarde. De standaardwaarde voor dit veld is 0,05 (5%).
 
-   For more on soft bounce errors, see [Bounce mail qualification](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) and [List of delivery failure types](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+   Voor meer op zachte stuitfouten, zie de kwalificatie [van de](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) post van de Stuitage en [Lijst van de types](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)van leveringsmislukking.
 
-* **[!UICONTROL Maximum ratio of hard bounce errors]**: Er wordt een melding verzonden voor alle leveringen met een harde stuitfoutenverhouding die groter is dan de opgegeven waarde. By default, the value of this field is set to 0.05 (5%).
+* **[!UICONTROL Maximum ratio of hard bounce errors]**: Er wordt een melding verzonden voor alle leveringen met een harde stuitfoutenverhouding die groter is dan de opgegeven waarde. De standaardwaarde voor dit veld is 0,05 (5%).
 
    Voor meer op harde stuitfouten, zie de kwalificatie [van de](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) post van de Stuitage en [Lijst van de types](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)van leveringsmislukking.
 
@@ -214,17 +214,17 @@ Op het **[!UICONTROL Criteria parameters]** tabblad van een [leveringswaarschuwi
 
 ### Waarschuwingsfrequentie {#alerting-frequency}
 
-Met de **[!UICONTROL Frequency of delivery alerting]** optie kunt u de vertraging tussen twee waarschuwingsberichten definiëren. By default, it is set to 10 minutes.
+Met de **[!UICONTROL Frequency of delivery alerting]** optie kunt u de vertraging tussen twee waarschuwingsberichten definiëren. De standaardwaarde is 10 minuten.
 
 U kunt deze instelling wijzigen via het menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** .
 
 >[!NOTE]
 >
->Deze optie is van toepassing op alle dashboards die in de Campagne van Adobe worden bepaald. U kunt geen specifieke frequentie instellen voor elk dashboard.
+>Deze optie is van toepassing op alle dashboards die in Adobe Campaign worden gedefinieerd. U kunt geen specifieke frequentie instellen voor elk dashboard.
 
 ## Redenen voor aflevering {#delivery-alerting-reasons}
 
-Met de functie **Leveringswaarschuwingen** worden alle betrokken gebruikers van Adobe Campagne automatisch via e-mail en het dashboard op de hoogte gebracht van de uitvoeringsstatus van de levering.
+Met de functie **Leveringswaarschuwingen** worden alle betrokken Adobe Campaign-gebruikers automatisch via e-mail en het dashboard op de hoogte gehouden van de uitvoeringsstatus van de levering.
 
 Wanneer u nu een bericht ontvangt voor een waarschuwing over de levering, kunt u enkele tips weergeven over wat u kunt doen.
 
@@ -237,10 +237,10 @@ Hier volgen enkele mogelijke redenen om waarschuwingsberichten te ontvangen op b
 * **[!UICONTROL Deliveries failed]**: Dit criterium brengt u op de hoogte van alle leveringen met een onjuiste status. Dit kan te wijten zijn aan:
 
    * Een probleem met de leveringsserver (MTA, de Agent van de Overdracht van het Bericht)
-   * Een time-out voor de verbinding tussen de Adobe Campagne-leveringsserver en de ontvangende server
+   * Een time-out voor de verbinding tussen de Adobe Campaign-leveringsserver en de ontvangende server
    * Een probleem met betrekking tot de leverbaarheid
    * Een onjuiste workflow
-   Als de levering met een werkschema in werking wordt gesteld, controleer of die werkschema correct was begonnen. Zie Een workflow [](../../automating/using/about-workflow-execution.md)uitvoeren voor meer informatie. Anders kunt u contact opnemen met de beheerder van de Adobe-campagne om het probleem op te lossen.
+   Als de levering met een werkschema in werking wordt gesteld, controleer of die werkschema correct was begonnen. Zie Een workflow [](../../automating/using/about-workflow-execution.md)uitvoeren voor meer informatie. Anders kunt u contact opnemen met uw Adobe Campaign-beheerder om het probleem op te lossen.
 
 * **[!UICONTROL Deliveries with preparation failed]**: Er kan een fout optreden tijdens de voorbereiding van de levering in de volgende gevallen:
 
@@ -258,7 +258,7 @@ Hier volgen enkele mogelijke redenen om waarschuwingsberichten te ontvangen op b
 
    De mogelijke oorzaken voor een **[!UICONTROL Delivery with bad error ratio for hard bounces]** alarm kunnen zijn:
 
-   * De ontvanger staat op de zwarte lijst, wat betekent dat hij niet langer contact met hem wil opnemen.
+   * De ontvanger staat op de bloklijst, wat betekent dat hij niet langer contact met hem wil opnemen.
    * Het e-mailadres van de ontvanger bestaat niet.
    * Het domein van de ontvanger bestaat niet.
    * De server van de ontvanger blokkeert de levering.
@@ -266,7 +266,7 @@ Hier volgen enkele mogelijke redenen om waarschuwingsberichten te ontvangen op b
 
    * Bouw het filtreren typologieregels om één deel van het berichtdoel tijdens de leveringsanalyse, zoals in quarantaine gehouden ontvangers uit te sluiten. Zie [Een filterregel](../../sending/using/filtering-rules.md)maken.
    * Werk regelmatig uw klantengegevensbestand bij om goede processen van het quarantainebeheer te handhaven. Zie [Informatie over quarantines](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * Over het algemeen kunt u de prestaties het beste verbeteren. Raadpleeg de gedetailleerde documentatie bij de [levering](../../sending/using/about-deliverability.md) van Adobe Campagne en neem contact op met uw Adobe Campagnebeheerder voor hulp.
+   * Over het algemeen kunt u de prestaties het beste verbeteren. Raadpleeg de gedetailleerde documentatie over de [leverbaarheid](../../sending/using/about-deliverability.md) van Adobe Campaign en neem contact op met uw Adobe Campaign-beheerder voor hulp.
 
 
 
@@ -274,11 +274,11 @@ Hier volgen enkele mogelijke redenen om waarschuwingsberichten te ontvangen op b
 
    **[!UICONTROL Deliveries with low throughput]**: Nogmaals, dit is een kwestie van leverbaarheid die betekent dat de MTA te langzaam is.
 
-   Neem contact op met uw Adobe Campagnebeheerder voor meer informatie over deze problemen.
+   Neem contact op met uw Adobe Campaign-beheerder voor meer informatie over deze problemen.
 
 **Verwante onderwerpen:**
 
 * [Leveringsfouten begrijpen](../../sending/using/understanding-delivery-failures.md)
 * [Werken met quarantainebeheer](../../sending/using/understanding-quarantine-management.md)
-* [Zwarte lijst beheren in campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Over opt-in en opt-out in campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
