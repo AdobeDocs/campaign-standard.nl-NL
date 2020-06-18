@@ -12,7 +12,10 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 
 U kunt transactieberichten verzenden die op klanten marketing profielen worden gebaseerd, die u toestaan:
 
-* Pas de typologieregels voor marketing toe, zoals **[!UICONTROL Blacklisted address]** of [vermoeidheidsregels](../../sending/using/fatigue-rules.md).
+* Pas de typologieregels voor marketing toe, zoals **[!UICONTROL Address on block list]** of [vermoeidheidsregels](../../sending/using/fatigue-rules.md).
 * Neem de koppeling voor het opzeggen van abonnementen op in de berichten.
 * Voeg de transactieberichten aan de globale levering toe rapporteert.
 * Hefboomwerking de transactionele berichten in de klantenreis.
@@ -71,11 +74,11 @@ Zodra het bericht wordt gepubliceerd en uw plaatsintegratie wordt gedaan, kunt u
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Selecteer het **[!UICONTROL Exclusions logs]** tabblad om ontvangers te bekijken die zijn uitgesloten van het berichtdoel, zoals adressen op de zwarte lijst.
+1. Selecteer het **[!UICONTROL Exclusions logs]** lusje om ontvangers te bekijken die van het berichtdoel, zoals adressen op bloklijst zijn uitgesloten.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-Voor elk profiel dat is uitgeschakeld, is de **[!UICONTROL Blacklisted address]** typologieregel niet van toepassing op de bijbehorende ontvanger.
+Voor elk profiel dat is uitgeschakeld, is de **[!UICONTROL Address on block list]** typologieregel niet van toepassing op de bijbehorende ontvanger.
 
 Deze regel maakt deel uit van een specifieke typologie die op alle transactionele berichten van toepassing is die op de **[!UICONTROL Profile]** lijst worden gebaseerd.
 
