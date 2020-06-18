@@ -12,7 +12,10 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1277'
+ht-degree: 0%
 
 ---
 
@@ -149,12 +152,12 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
  </thead> 
  <tbody> 
   <tr> 
-   <td> Zwart<br /> </td> 
+   <td> Op bloklijst<br /> </td> 
    <td> Aantal ontvangers die een e-mailbericht hebben gedeclareerd als spam of junk.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tarief op zwarte lijst<br /> </td> 
-   <td> Percentage leveringen die op de zwarte lijst staan vermeld.<br /> </td> 
+   <td> Bloklijstfrequentie<br /> </td> 
+   <td> Percentage leveringen gemarkeerd op de bloklijst.<br /> </td> 
   </tr> 
   <tr> 
    <td> Bounces + fouten<br /> </td> 
@@ -360,7 +363,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
   </tr> 
   <tr> 
    <td> Verwerkt/verzonden<br /> </td> 
-   <td> Het totale aantal berichten in de app dat is verzonden vanuit Adobe Campaign als onderdeel van het verzendproces voor de levering.<br /> </td> 
+   <td> Het totale aantal berichten in de app dat door Adobe Campaign is verzonden als onderdeel van het verzendproces voor de levering.<br /> </td> 
   </tr> 
   <tr> 
    <td> Unieke afbeeldingen<br /> </td> 
