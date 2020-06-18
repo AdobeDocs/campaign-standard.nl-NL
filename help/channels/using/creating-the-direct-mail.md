@@ -1,6 +1,6 @@
 ---
 title: Direct mail maken
-description: Ga als volgt te werk om een directe postbezorging te maken in Adobe Campaign.
+description: Voer de volgende stappen uit om een levering via e-mail te maken in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 3b1365c4-4ea1-4434-818b-05ff0c9b42c1
 contentOwner: sauviat
@@ -13,7 +13,10 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
 
 Het maken van een directe postbezorging lijkt veel op het maken van een gewone e-mail. In de volgende stappen wordt de configuratie beschreven die specifiek is voor dit kanaal. Zie Een e-mail [](../../channels/using/creating-an-email.md) maken voor meer informatie over andere opties.
 
-1. Maak een nieuwe direct-maillevering. U kunt er een maken op de [startpagina](../../start/using/interface-description.md#home-page)van Adobe Campagne, in een [campagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) of in een lijst met [](../../start/using/programs-and-campaigns.md#creating-a-campaign)marketingactiviteiten.
+1. Maak een nieuwe direct-maillevering. U kunt er een maken op de Adobe Campaign- [startpagina](../../start/using/interface-description.md#home-page), in een [campagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) of in een lijst met [marketingactiviteiten](../../start/using/programs-and-campaigns.md#creating-a-campaign).
 
    >[!NOTE]
    >
@@ -60,7 +63,7 @@ Het maken van een directe postbezorging lijkt veel op het maken van een gewone e
 
    >[!NOTE]
    >
-   >De **[!UICONTROL Export]** rol is vereist om Adobe Campagne toe te staan om het dossier uit te voeren en het ter beschikking te stellen voor download. Neem contact op met uw beheerder.
+   >De **[!UICONTROL Export]** rol is vereist om Adobe Campaign in staat te stellen het bestand te exporteren en beschikbaar te maken voor downloaden. Neem contact op met uw beheerder.
 
    ![](assets/direct_mail_19.png)
 
@@ -84,7 +87,7 @@ Het maken van een directe postbezorging lijkt veel op het maken van een gewone e
 
    >[!NOTE]
    >
-   >De **[!UICONTROL Export]** rol is vereist om Adobe Campagne toe te staan om het dossier uit te voeren en het ter beschikking te stellen voor download. Neem contact op met uw beheerder.
+   >De **[!UICONTROL Export]** rol is vereist om Adobe Campaign in staat te stellen het bestand te exporteren en beschikbaar te maken voor downloaden. Neem contact op met uw beheerder.
 
    Als u de inhoud van de levering moet wijzigen, hoeft u alleen op de **[!UICONTROL Regenerate file]** knop te klikken om rekening te houden met de wijziging. De voorbereiding hoeft niet opnieuw te worden doorlopen.
 
@@ -99,4 +102,4 @@ U kunt het extractiebestand nu naar uw directe-mailprovider verzenden. Hiervoor 
 * Verzend het via een gewone e-mail, met het bijgevoegde dossier
 * Verzenden via campagne: direct mail uitvoeren binnen een [campagneworkflow](../../automating/using/direct-mail-delivery.md) en een bericht toevoegen **[!UICONTROL Transfer file]** om het bestand bijvoorbeeld via FTP te verzenden. Zie Bestand [](../../automating/using/transfer-file.md)overbrengen.
 
-De provider haalt de lijst met onjuiste adressen op en stuurt deze gegevens naar Adobe Campaign, die automatisch de onjuiste adressen op zwarte lijsten zet. Zie [Terug naar afzender](../../channels/using/return-to-sender.md).
+De leverancier wint de lijst van onjuiste adressen terug en verzendt deze informatie naar Adobe Campaign die automatisch aan de bloklijst de onjuiste adressen toevoegt. Zie [Terug naar afzender](../../channels/using/return-to-sender.md).
