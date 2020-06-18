@@ -1,6 +1,6 @@
 ---
 title: Een dubbele opt-in-procedure instellen
-description: Voer de volgende stappen uit om een dubbele aanmeldingsprocedure in te stellen met behulp van bestemmingspagina's in Adobe Campaign.
+description: Voer de volgende stappen uit om een dubbel aanmeldingsproces in te stellen met behulp van bestemmingspagina's in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1157'
+ht-degree: 0%
 
 ---
 
@@ -29,11 +32,11 @@ Het principe is om een e-mail te verzenden om de overeenkomst van de bezoeker te
 
 U moet het volgende instellen:
 
-1. Maak en publiceer een bestemmingspagina zodat de bezoekers zich kunnen registreren en zich kunnen abonneren. Deze openingspagina is beschikbaar op een website. Bezoekers die deze landingspagina invullen en indienen, worden in de database opgeslagen, maar op de zwarte lijst geplaatst, zodat zij geen communicatie ontvangen vóór de definitieve validatie (zie [De zwarte lijst beheren in Campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Maak en publiceer een bestemmingspagina zodat de bezoekers zich kunnen registreren en zich kunnen abonneren. Deze openingspagina is beschikbaar op een website. Bezoekers die deze landingspagina invullen en verzenden, worden in de database opgeslagen maar aan de bloklijst toegevoegd om geen communicatie te ontvangen vóór de laatste validatie (zie [Bloklijstbeheer in Campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Maak en verzend automatisch de e-mail met aanmelding, met een bevestigingskoppeling. Dit e-mailbericht is bedoeld voor de populatie die de landingspagina heeft verzonden. Het zal gebaseerd zijn op een e-mailsjabloon dat het mogelijk maakt zich te richten op &quot;opt-out&quot;-profielen.
 1. Omleiden naar een bestemmingspagina voor bevestiging. Op deze laatste landingspagina wordt een bevestigingsknop voorgesteld: de bezoekers moeten erop klikken . U kunt een welkomstbericht ontwerpen dat wordt verzonden wanneer de bevestiging wordt uitgevoerd, en bijvoorbeeld een speciale aanbieding in de e-mail toevoegen voor nieuwe ontvangers.
 
-Deze stappen moeten in de Campagne van Adobe in een specifieke orde worden geplaatst om alle parameters te hebben behoorlijk toegelaten.
+Deze stappen moeten in Adobe Campaign in een specifieke volgorde worden ingesteld, zodat alle parameters correct worden ingeschakeld.
 
 ## Stap 1: De bestemmingspagina voor bevestiging maken {#step-1--create-the-confirmation-landing-page}
 
@@ -51,13 +54,13 @@ Om deze landende pagina tot stand te brengen en te vormen, moet u:
 
 1. Klik in de sectie **[!UICONTROL Job]** > **[!UICONTROL Additional data]** op het volgende contextpad **[!UICONTROL Add an element]** en voer dit in:
 
-   /context/profile/blackList
+   /context/profile/blockList
 
    Stel de waarde in op **false** en klik op **[!UICONTROL Add]**.
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   Deze context verwijdert het zwarte lijstveld om e-mailberichten te kunnen verzenden. Later zullen we zien dat de eerste landingspagina dit veld vóór de bevestiging instelde op **true** om te voorkomen dat e-mails naar niet-bevestigde profielen worden verzonden. Zie [Stap 3 voor meer informatie: Maak de aanschafpagina](#step-3--create-the-acquisition-landing-page).
+   Deze context verwijdert het veld &#39;Op bloklijst&#39; om e-mails te kunnen verzenden. Later zullen we zien dat de eerste bestemmingspagina dit veld vóór de bevestiging instelde op **true** om te voorkomen dat e-mails naar niet-bevestigde profielen worden verzonden. Zie [Stap 3 voor meer informatie: Maak de aanschafpagina](#step-3--create-the-acquisition-landing-page).
 
 1. De inhoud van de bestemmingspagina aanpassen: U kunt bijvoorbeeld gepersonaliseerde gegevens weergeven en het label van de bevestigingsknop wijzigen in &quot;Klik hier om mijn abonnement te bevestigen&quot;.
 
@@ -79,7 +82,7 @@ De stappen voor het maken van deze elementen worden hieronder beschreven. U moet
 
 Het bevestigingsbericht is een [transactiebericht](../../channels/using/about-transactional-messaging.md) als reactie op een gebeurtenis: de validatie van het formulier. U moet eerst de gebeurtenis maken en vervolgens de sjabloon van het transactiebericht maken.
 
-1. Maak een gebeurtenis via het menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** , die toegankelijk is via het logo van de Adobe-campagne, en voer het label &#39;**CONFIRM**&#39; in.
+1. Maak een gebeurtenis via het menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]** , die toegankelijk is via het Adobe Campaign-logo, en voer het label &#39;**CONFIRM**&#39; in.
 1. Selecteer de **[!UICONTROL Profile]** doeldimensie en klik **[!UICONTROL Create]**.
 
    ![](assets/optin_eventcreate.png)
@@ -98,12 +101,12 @@ De gebeurtenis is gereed. U kunt nu de e-mailsjabloon ontwerpen. Deze sjabloon m
 
 ### De typologie maken {#create-the-typology-rule}
 
-U moet een specifieke [typologie](../../sending/using/about-typology-rules.md)maken door een uit-van-doos te dupliceren. De typologie maakt het mogelijk berichten te sturen naar profielen die hun overeenkomst nog niet hebben bevestigd en nog steeds op de zwarte lijst staan. Standaard sluiten typologieën opt-out-profielen uit (d.w.z. op de zwarte lijst geplaatste profielen). Voer de volgende stappen uit om deze typologie te maken:
+U moet een specifieke [typologie](../../sending/using/about-typology-rules.md)maken door een uit-van-doos te dupliceren. Met de typologie kunnen berichten worden verzonden naar profielen die hun instemming nog niet hebben bevestigd en die nog steeds op de bloklijst staan. Standaard sluiten typologieën opt-out-profielen uit (d.w.z. op de bloklijst). Voer de volgende stappen uit om deze typologie te maken:
 
-1. Selecteer in het Adobe Campagne-logo **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** en klik **[!UICONTROL Typologies]**.
+1. Selecteer in het Adobe Campaign-logo **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** en klik **[!UICONTROL Typologies]**.
 1. Dupliceer de uit-van-doos typologie **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Zodra duplicatie is bevestigd, bewerkt u de nieuwe typologie en voert u het label **TYPOLOGY_PROFILE** in.
-1. Verwijder de **adresregel op de zwarte lijst** .
+1. Verwijder het **Adres op de regel van de bloklijst** .
 1. Klik op **[!UICONTROL Save]**.
 
 Deze typologie kan nu worden gekoppeld aan het bevestigingsbericht.
@@ -112,7 +115,7 @@ Deze typologie kan nu worden gekoppeld aan het bevestigingsbericht.
 
 Het bevestigingsbericht is een transactiemelding op basis van de gebeurtenis die eerder is gemaakt. Voer de onderstaande stappen uit om dit bericht te maken:
 
-1. Selecteer **[!UICONTROL Marketing plans]** > in het Adobe Campagne-logo **[!UICONTROL Transactional messages]** en klik op **[!UICONTROL Transactional messages]**.
+1. Selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** en klik op het Adobe Campaign-logo **[!UICONTROL Transactional messages]**.
 1. Bewerk de e-mailsjabloon **BEVESTIGEN** en pas deze aan. U kunt bestaande inhoud uploaden of een sjabloon buiten de doos gebruiken.
 1. Voeg een koppeling toe aan de bestemmingspagina **CONFIRMATION** en klik **[!UICONTROL Confirm]** om wijzigingen op te slaan.
 
@@ -130,11 +133,11 @@ Om deze landende pagina tot stand te brengen en te vormen, moet u:
 1. Ontwerp een [nieuwe landingspagina](../../channels/using/getting-started-with-landing-pages.md) op basis van de **[!UICONTROL Profile acquisition (acquisition)]** sjabloon. Voer het label &#39;**ACQUISITION**&#39; in.
 1. Bewerk de eigenschappen van de openingspagina: Klik in de sectie **[!UICONTROL Job]** > **[!UICONTROL Additional data]** op het volgende contextpad **[!UICONTROL Add an element]** en voer dit in:
 
-   /context/profile/blackList
+   /context/profile/blockList
 
    en stel de waarde in op **true**.
 
-   Dit is verplicht de zwarte lijst te forceren en geen berichten te sturen naar bezoekers die hun instemming niet hebben bevestigd. De validatie van de bestemmingspagina van de BEVESTIGING zal dit gebied aan **vals** na bevestiging plaatsen. Zie [Stap 1 voor meer informatie: Maak de bestemmingspagina](#step-1--create-the-confirmation-landing-page)voor bevestiging.
+   Dit is verplicht om het toevoegen aan de bloklijst te forceren en geen berichten te sturen naar bezoekers die hun instemming niet hebben bevestigd. De validatie van de bestemmingspagina van de BEVESTIGING zal dit gebied aan **vals** na bevestiging plaatsen. Zie [Stap 1 voor meer informatie: Maak de bestemmingspagina](#step-1--create-the-confirmation-landing-page)voor bevestiging.
 
 1. Selecteer de optie in de sectie **[!UICONTROL Job]** > **[!UICONTROL Specific actions]** **[!UICONTROL Start sending messages]**.
 1. In de bijbehorende drop-down lijst, kies **BEVESTIGEN** transactiemalplaatje u creeerde.
