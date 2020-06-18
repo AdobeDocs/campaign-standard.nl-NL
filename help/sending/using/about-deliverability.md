@@ -1,6 +1,6 @@
 ---
-title: Over de te leveren items in Adobe Campagne Standard
-description: Leer meer over de concepten en beste praktijken met betrekking tot leverbaarheid evenals de hulpmiddelen die door de Norm van de Campagne van Adobe worden aangeboden om het verzenden van uw leveringen te optimaliseren.
+title: Informatie over leverbaarbaarheid in Adobe Campaign Standard
+description: Leer meer over de concepten en beste praktijken met betrekking tot leverbaarheid evenals de hulpmiddelen die door Adobe Campaign Standard worden aangeboden om het verzenden van uw leveringen te optimaliseren.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,7 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 02b8d847d4506eca96abfa27db1e2efadc2a68d2
+source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+workflow-type: tm+mt
+source-wordcount: '663'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +37,7 @@ Het percentage te leveren producten hangt af van een groot aantal factoren, met 
 
 ## Belangrijkste punten om te controleren {#deliverability-key-points}
 
-We raden u aan de onderstaande aanbevolen werkwijzen te gebruiken om de leverbaarheid van uw e-mailberichten voor Adobe Campagne te optimaliseren. De leveringsproblemen houden over het algemeen verband met maatregelen ter bescherming tegen spam die worden uitgevoerd door internetserviceproviders en postserverbeheerders.
+We raden u aan de onderstaande aanbevolen procedures te gebruiken om de leverbaarheid van je Adobe Campaign-e-mails te optimaliseren. De leveringsproblemen houden over het algemeen verband met maatregelen ter bescherming tegen spam die worden uitgevoerd door internetserviceproviders en postserverbeheerders.
 
 De e-mailleverbaarheid verwijst naar de reeks kenmerken die bepalen of een bericht zijn bestemming, via een persoonlijk e-mailadres, binnen een korte tijd, en met de verwachte kwaliteit in termen van inhoud en formaat kan bereiken. Deze kenmerken vallen in vier hoofdcategorieën: gegevenskwaliteit, bericht en inhoud, verzendende infrastructuur, en reputatie. Samen vormen ze de basis voor een succesvol e-mailprogramma.
 
@@ -43,7 +46,7 @@ Hier volgt een lijst met de belangrijkste punten die moeten worden gecontroleerd
 
 ## Leveringsgereedschappen {#deliverability-tools}
 
-Eerst raadpleegt u de documentatie over de leverbare gereedschappen die bij de campagnestandaard worden geleverd:
+Eerst raadpleegt u de documentatie over de leverbare gereedschappen die bij Campaign Standard worden geleverd:
 * [Best practices voor levering](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 * [De naam van de afzender aanpassen](../../designing/using/personalization.md#personalizing-the-sender)
 * [De onderwerpregel van een e-mail testen](../../sending/using/testing-subject-line-email.md)
@@ -54,7 +57,7 @@ Eerst raadpleegt u de documentatie over de leverbare gereedschappen die bij de c
 * [Waarschuwingen ontvangen wanneer fouten optreden](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Leveringsfouten begrijpen](../../sending/using/understanding-delivery-failures.md)
 * [Werken met quarantainebeheer](../../sending/using/understanding-quarantine-management.md)
-* [Quarantine versus zwarte lijst](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting)
+* [Quarantine versus block list](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
 * [Dynamische rapporten](../../reporting/using/about-dynamic-reports.md)
 
 ## Netwerkconfiguratie controleren {#network-configuration}
