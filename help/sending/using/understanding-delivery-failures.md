@@ -12,9 +12,9 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d05d2692607117e056c360e81d85b7d64c4077a3
+source-git-commit: ecb57ccc4cafa609f7ddccb5f934aa3ab2368dde
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1289'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ## Leveringsfouten {#about-delivery-failures}
 
-Wanneer een levering niet naar een profiel kan worden verzonden, verzendt de externe server automatisch een foutbericht dat door het Adobe Campagne-platform wordt opgepakt en dat is gekwalificeerd om te bepalen of het e-mailadres of telefoonnummer al dan niet in quarantaine moet worden geplaatst. Zie [Bounce mail-kwalificatie](#bounce-mail-qualification).
+Wanneer een levering niet naar een profiel kan worden verzonden, verzendt de externe server automatisch een foutbericht dat door het Adobe Campaign-platform wordt opgehaald en dat is gekwalificeerd om te bepalen of het e-mailadres of telefoonnummer al dan niet in quarantaine moet worden geplaatst. Zie [Bounce mail-kwalificatie](#bounce-mail-qualification).
 
 >[!NOTE]
 >
@@ -32,14 +32,14 @@ Wanneer een levering niet naar een profiel kan worden verzonden, verzendt de ext
 >
 >**SMS** -foutberichten (of &quot;SR&quot; voor &quot;Statusrapport&quot;) worden gekwalificeerd door het MTA-proces.
 
-Berichten kunnen ook tijdens de voorbereiding van de levering worden uitgesloten als een adres in quarantaine is geplaatst of als een profiel op een zwarte lijst staat. Uitgesloten berichten worden vermeld op het **[!UICONTROL Exclusion logs]** tabblad van het leveringsdashboard (zie [deze sectie](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
+De berichten kunnen ook tijdens de leveringsvoorbereiding worden uitgesloten als een adres quarantined is of als een profiel op de bloklijst is. Uitgesloten berichten worden vermeld op het **[!UICONTROL Exclusion logs]** tabblad van het leveringsdashboard (zie [deze sectie](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
 ![](assets/exclusion_logs.png)
 
 **Verwante onderwerpen:**
 
 * [Werken met quarantainebeheer](../../sending/using/understanding-quarantine-management.md)
-* [Zwarte lijst beheren in campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Over opt-in en opt-out in campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## Leveringsfouten identificeren voor een bericht {#identifying-delivery-failures-for-a-message}
 
@@ -69,8 +69,8 @@ De mogelijke oorzaken van een mislukking van de levering zijn:
 | **[!UICONTROL Refused]** | Zacht/Hard | Het adres is in quarantaine geplaatst toe te schrijven aan een veiligheid terugkoppelt als spamrapport. Volgens de fout die door de leverancier is geretourneerd, wordt het adres rechtstreeks naar quarantaine verzonden of wordt de levering opnieuw geprobeerd tot de campagne een fout ontvangt die de quarantainestatus rechtvaardigt of tot het aantal fouten 5 bereikt. |
 | **[!UICONTROL Duplicate]** | Genegeerd | Het adres is reeds ontdekt in de segmentatie. |
 | **[!UICONTROL Not defined]** | Zacht | het adres is in kwalificatie omdat de fouten nog niet zijn verhoogd. Dit type fout treedt op wanneer een nieuw foutbericht wordt verzonden door de server: het kan een geïsoleerde fout zijn, maar als het opnieuw voorkomt, zal de foutenteller stijgen, die de technische teams zal waarschuwen. |
-| **[!UICONTROL Error ignored]** | Genegeerd | Het adres is in de whitelist en er wordt in elk geval een e-mail naar gestuurd. |
-| **[!UICONTROL Blacklisted address]** | Hard | het adres was op het moment van verzending op de zwarte lijst geplaatst. |
+| **[!UICONTROL Error ignored]** | Genegeerd | Het adres staat op de lijst Toestaan en er wordt in elk geval een e-mail naar gestuurd. |
+| **[!UICONTROL Address on block list]** | Hard | Het adres werd toegevoegd aan de bloklijst op het tijdstip van verzending. |
 | **[!UICONTROL Account disabled]** | Zacht/Hard | Wanneer de Internet Access Provider (IAP) een lange periode van inactiviteit ontdekt, kan het de rekening van de gebruiker sluiten: levering aan het adres van de gebruiker zal dan onmogelijk zijn. Het type Zacht of Hard is afhankelijk van het type ontvangen fout: als de account tijdelijk is uitgeschakeld vanwege een inactiviteit van zes maanden en nog steeds kan worden geactiveerd , **[!UICONTROL Erroneous]** wordt de status toegewezen en wordt de levering opnieuw geprobeerd . Als de ontvangen fout aangeeft dat de account permanent is gedeactiveerd, wordt deze rechtstreeks naar Quarantine verzonden. |
 | **[!UICONTROL Not connected]** | Genegeerd | De mobiele telefoon van het profiel is uitgeschakeld of heeft geen verbinding met het netwerk wanneer het bericht wordt verzonden. |
 | **[!UICONTROL Invalid domain]** | Zacht | Het domein van het e-mailadres is onjuist of bestaat niet meer. Dit profiel wordt opnieuw geactiveerd tot het aantal fouten 5 is. Hierna wordt de record ingesteld op Quarantine-status en wordt het niet opnieuw geprobeerd. |
@@ -81,13 +81,13 @@ De mogelijke oorzaken van een mislukking van de levering zijn:
 
 Als een bericht wegens een tijdelijke fout van het **genegeerde** type ontbreekt, zullen de pogingen tijdens de leveringsduur opnieuw worden uitgevoerd. Voor meer over de types van fouten, zie de types en de redenen [van de mislukking van de](#delivery-failure-types-and-reasons)Levering.
 
-Het aantal pogingen (hoeveel pogingen zouden moeten worden uitgevoerd de dag nadat het verzenden is begonnen) en de minimumvertraging tussen pogingen worden nu beheerd door Verbeterde MTA van de Campagne van Adobe, die op hoe goed wordt gebaseerd IP zowel historisch als momenteel bij een bepaald domein presteert. De instellingen voor **Opnieuw** proberen in Campagne worden genegeerd.
+Het aantal pogingen (hoeveel pogingen zouden moeten worden uitgevoerd de dag nadat verzenden is begonnen) en de minimumvertraging tussen herpogingen worden nu beheerd door Verbeterde MTA Adobe Campaign, die op hoe goed wordt gebaseerd IP zowel historisch als momenteel bij een bepaald domein presteert. De instellingen voor **Opnieuw** proberen in Campagne worden genegeerd.
 
 Om de duur van een levering te wijzigen, ga naar de geavanceerde parameters van het levering of leveringsmalplaatje, en geef het **[!UICONTROL Delivery duration]** gebied van de sectie van de [Geldigheidsperiode](../../administration/using/configuring-email-channel.md#validity-period-parameters) uit.
 
 >[!IMPORTANT]
 >
->**De **[!UICONTROL Delivery duration]**parameter in uw campagneleveringen wordt nu alleen gebruikt als deze is ingesteld op 3,5 dagen of minder.** Als u een waarde definieert die hoger is dan 3,5 dagen, wordt er geen rekening mee gehouden omdat deze waarde nu wordt beheerd door de verbeterde MTA voor Adobe Campagne.
+>**De **[!UICONTROL Delivery duration]**parameter in uw campagneleveringen wordt nu alleen gebruikt als deze is ingesteld op 3,5 dagen of minder.** Als u een waarde definieert die hoger is dan 3,5 dagen, wordt hiermee geen rekening gehouden omdat deze nu wordt beheerd door de Adobe Campaign Enhanced MTA.
 
 Bijvoorbeeld, als u herpogingen voor een levering na één dag wilt ophouden, kunt u de leveringsduur aan **1d** plaatsen, en Verbeterde MTA zal dat het plaatsen door berichten in de herprobeer rij na één dag te verwijderen respecteren.
 
@@ -112,7 +112,7 @@ De asynchrone stuitingen worden nog gekwalificeerd door het inMail proces door d
 
 >[!NOTE]
 >
->De kwalificatie voor stuiterende e-mail wordt nu beheerd door de uitgebreide MTA van de Campagne van Adobe. De stuiterende kwalificaties in de **[!UICONTROL Message qualification]** tabel Campagne worden niet meer gebruikt.
+>Bounce mail-kwalificatie wordt nu beheerd door de Adobe Campaign Enhanced MTA. De stuiterende kwalificaties in de **[!UICONTROL Message qualification]** tabel Campagne worden niet meer gebruikt.
 
 <!--Bounces can have the following qualification statuses:
 
