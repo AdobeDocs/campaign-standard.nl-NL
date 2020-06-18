@@ -13,7 +13,10 @@ context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1727'
+ht-degree: 0%
 
 ---
 
@@ -376,7 +379,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       </tr>
       <tr>
          <td>programma (programBase)</td>
-         <td> Programma</td>
+         <td>Programma</td>
          <td>link </td>
          <td> </td>
       </tr>
@@ -428,7 +431,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
          <td>opsomming (byte) </td>
          <td>
             <ul>
-               <li>Blacklist - blackList - 3</li>
+               <li>Blocklist - blockList - 3</li>
                <li>Geen specifieke actie - geen - 0</li>
                <li>Abonnement opzeggen - abonnement opgezegd - 2</li>
                <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
@@ -579,7 +582,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <li>(GMT+04:00) Greenwich Mean Time plus 4 uur - Gmt_p4 - Etc/GMT-4</li>
                <li>(GMT+07:00) Greenwich Mean Time plus 7 uur - GMT_p7 - Etc/GMT-7</li>
                <li>(GMT+06:00) Greenwich Mean Time plus 6 uur - Gmt_p6 - Etc/GMT-6</li>
-               <li>(GMT+01:00) Greenwich Mean Time plus 1 uur - Gmt_p1 - EC/GMT-1</li>
+               <li>(GMT+01:00) Greenwich Mean Time plus 1 uur - Gmt_p1 - Etc/GMT-1</li>
                <li>(GMT-08:00) Pacific (Verenigde Staten en Canada) - America_Los_Angeles - America/Los_Angeles</li>
                <li>(GMT+02:00) Greenwich Mean Time plus 2 uur - Gmt_p2 - Etc/GMT-2</li>
                <li>(GMT+07:00) Krasnoïarsk - Azië_Krasnoyarsk - Azië/Krasnoyarsk</li>
@@ -609,7 +612,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       </tr>
       <tr>
          <td>titel</td>
-         <td> Openingspagina</td>
+         <td>Openingspagina</td>
          <td>tekenreeks (255)</td>
          <td> </td>
       </tr>
@@ -633,7 +636,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
             <ul>
                <li>Algemeen, algemeen, 0</li>
                <li>Abonnement op een service opzeggen - geen abonnement - 3</li>
-               <li>Blacklist - blackList - 4</li>
+               <li>Blocklist - blockList - 4</li>
                <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                <li>Overname - overname - 1</li>
                <li>Abonnement op een service - Abonnement - 2</li>
