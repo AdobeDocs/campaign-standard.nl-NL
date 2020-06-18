@@ -1,6 +1,6 @@
 ---
 title: Opmerkingen bij de release 2018
-description: Deze pagina bevat een overzicht van alle 2018-releases van Adobe Campaign Standard.
+description: Deze pagina bevat een lijst met alle versies van Adobe Campaign Standard van 2018.
 page-status-flag: never-activated
 uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
 contentOwner: sauviat
@@ -12,18 +12,21 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ffdbeb7031697c7b00edc658096f55df815b0f63
+source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+workflow-type: tm+mt
+source-wordcount: '5399'
+ht-degree: 0%
 
 ---
 
 
 # Opmerkingen bij de release 2018{#release-notes}
 
-Op zoek naar een specifieke release van Adobe Campaign Standard voor 2018?
+Op zoek naar een specifieke release van Adobe Campaign Standard in 2018?
 
 Elke release bevat nieuwe functies en patches. Klik op een release om de inhoud ervan weer te geven.
 
-Bekijk de meest recente [documentatie-updates](../../rn/using/documentation-updates.md) voor Adobe Campagne Standard. Raadpleeg deze [pagina](../../rn/using/release-notes.md)als u op zoek bent naar een nieuwere versie.
+Bekijk de nieuwste [documentatieupdates](../../rn/using/documentation-updates.md) voor Adobe Campaign Standard. Raadpleeg deze [pagina](../../rn/using/release-notes.md)als u op zoek bent naar een nieuwere versie.
 
 ## Release 18.9 - september 2018 {#release-18-9---september-2018}
 
@@ -43,7 +46,7 @@ Bekijk de meest recente [documentatie-updates](../../rn/using/documentation-upda
   </tr> 
   <tr> 
    <td> Integratie van Adobe Launch voor mobiele apps (bèta)<br /> </td> 
-   <td> De integratie van Adobe Launch met de Campagne van Adobe vereenvoudigt en automatiseert nu het proces van de Activering van het Bezit van de Mobiele App in Campagne gebruikend Mobile SDK V5.<br /> Raadpleeg de <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> De integratie van Adobe Launch met Adobe Campaign vereenvoudigt en automatiseert nu het activeren van de eigenschap Mobile App in Campaign met de Mobile SDK V5.<br /> Raadpleeg de <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +62,7 @@ Bekijk de meest recente [documentatie-updates](../../rn/using/documentation-upda
 
    Raadpleeg voor meer informatie de gedetailleerde documentatie over het configureren van een mobiele toepassing met [SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) en [SDK V5](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-* Doelgebruikers voor een specifieke mobiele toepassing door een mobiele toepassing te selecteren terwijl de campagneeigenschappen worden gedefinieerd. Deze functie is bedoeld voor zowel Push- als In-App Messaging-kanalen.
+* Target-gebruikers op een specifieke mobiele toepassing door een mobiele toepassing te selecteren terwijl ze de campagne-eigenschappen definiëren. Deze functie is bedoeld voor zowel Push- als In-App Messaging-kanalen.
 
    Raadpleeg de [gedetailleerde documentatie](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)voor meer informatie.
 
@@ -78,15 +81,15 @@ Bekijk de meest recente [documentatie-updates](../../rn/using/documentation-upda
 * Probleem verholpen waarbij het bijwerken van servicedescriptdatums tijdens het importeren van een bestand werd voorkomen.
 * Probleem verholpen met de activiteit van het laadbestand waardoor werkstromen geen bestanden konden importeren (CAMP-27068).
 * Probleem verholpen waarbij het onjuiste aantal abonnementen in de samenvattingsrapporten van de service (CAMP-25587) werd weergegeven.
-* Het probleem met de gegevensdiscrepantie tussen Adobe Analytics en Adobe Campaign-rapporten is opgelost. (CAMP-25393)
+* Oplossing voor een probleem met gegevensdiscrepantie tussen Adobe Analytics- en Adobe Campaign-rapporten. (CAMP-25393)
 * Probleem verholpen waardoor een gebruiker met beperkte toegang zich niet kon aanmelden. (CAMP-27381)
-* Probleem verholpen waarbij de lijst met Adobe Experience Manager-inhoud niet kon worden weergegeven wanneer een e-mailbericht werd bewerkt met Creative Designer. (CAMP-27181)
+* Probleem verholpen waardoor de lijst met inhoud van de Adobe Experience Manager niet kon worden weergegeven tijdens het bewerken van een e-mailbericht met Creative Designer. (CAMP-27181)
 * Probleem verholpen waardoor Creative Designer niet kon worden geopend. Er is een fout opgetreden. (CAMP-27304)
 * Probleem verholpen waardoor slepen en neerzetten niet correct werkte in Creative Designer bij gebruik van Internet Explorer 11.
 * Probleem verholpen waarbij foto&#39;s die vanaf een camera zijn geüpload en die in de staande modus zijn genomen, werden weergegeven op een ongewenste geroteerde positie.
 * Probleem verholpen waarbij onduidelijke selectiegegevens werden weergegeven wanneer de interface voor de query-editor in Creative Designer werd gebruikt.
 * Probleem verholpen waarbij een element niet correct kon worden gedupliceerd wanneer de interface voor de query-editor in Creative Designer werd gebruikt.
-* Probleem verholpen waarbij SMS-berichten werden doorgestuurd naar op de zwarte lijst geplaatste ontvangers, ook al waren ze niet geabonneerd via een automatisch antwoord. (CAMP-27128)
+* Probleem verholpen waarbij SMS-berichten aan ontvangers op de bloklijst bleven worden geleverd, ook al was het abonnement op deze berichten opgezegd via een automatisch antwoord. (CAMP-27128)
 * Probleem verholpen waarbij de fouten die ervoor zorgden dat de workflow voor het opschonen van **databases** mislukte, niet konden worden weergegeven. (CAMP-26876)
 * Probleem verholpen waarbij het verwijderen van aangepaste velden in een definitie van een pushmelding werd voorkomen. (CAMP-25588)
 
@@ -120,14 +123,14 @@ Bekijk de meest recente [documentatie-updates](../../rn/using/documentation-upda
   </tr> 
   <tr> 
    <td> Gebruikersbeheer<br /> </td> 
-   <td> De geografische eenheidscapaciteit is nu niet beschikbaar voor nieuwe instanties van de Standaard van de Campagne, evenals bestaande instanties zonder geografische eenheden gecreeerd, die 18.7 versie beginnen.<br /> Raadpleeg deze <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">pagina</a>voor meer informatie.<br /> </td> 
+   <td> De mogelijkheid voor geografische eenheden is nu niet meer beschikbaar voor nieuwe Campaign Standard-exemplaren en voor bestaande exemplaren zonder geografische eenheden die zijn gemaakt, vanaf de release 18.7.<br /> Raadpleeg deze <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">pagina</a>voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Verbeteringen**
 
-* Met de integratie van Adobe Campaign en Adobe Target kunt u nu de [functie voor machtigingen](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html) van Target gebruiken. Wanneer u een dynamische afbeelding van Adobe Target in een e-mailbericht opneemt, kunt u nu een eigenschap Doel opgeven (at_property-code).
+* Dankzij de integratie met Adobe Campaign en Adobe Target kunt u nu gebruikmaken van de functie [Machtigingen](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html) van Target. Wanneer u een dynamische afbeelding van Adobe Target in een e-mail opneemt, kunt u nu een Target-eigenschap (at_property-code) opgeven.
 * Aangepaste bronnen met een eigen koppeling naar de profielbron worden nu in aanmerking genomen door verzoeken om toegang tot of verwijdering van GDPR-privacy. Voor 1 kardinaliteit eenvoudige verbindingen en de verbindingen van de kardinaliteitsinzameling van N, moet u &quot;het Schrappen/het Dupliceren van het doelverslag impliceren schrappend/het dupliceren van de verslagen van verwijzingen voorzien door de verbinding&quot;in het douanemiddel selecteren. Voor eenvoudige 0- of 1-cardinaliteit-koppelingen selecteert u &quot;Verwijderen/dupliceren van de record houdt in dat de doelrecord waarnaar door de koppeling wordt verwezen, wordt verwijderd/gedupliceerd&quot;.
 
 **Overige wijzigingen**
@@ -145,7 +148,7 @@ Bekijk de meest recente [documentatie-updates](../../rn/using/documentation-upda
 * Correctie van een fout die ervoor zorgde dat bij Publiek opslaan geen gebruikers konden delen voor de toepassing in Adobe Experience Cloud.
 * Probleem verholpen met de bestandsoverdrachtactiviteit die kon optreden wanneer de bestandsnaam lege spaties bevatte. (CAMP-25936)
 * Probleem verholpen die kon optreden wanneer de knop Opnieuw verbinden werd gebruikt nadat een sessie was verlopen. (CAMP-25560)
-* Probleem verholpen dat tot uitsluitingen kon leiden bij het verzenden van leveringen met optimalisatie voor tijdzone gekoppeld aan fatigues-regels. (CAMP-25425)
+* Probleem verholpen dat tot uitsluitingen kon leiden bij het verzenden van leveringen met optimalisatie van tijdzone gekoppeld aan fatigues-regels. (CAMP-25425)
 * Probleem verholpen bij het gebruik van de API GDPR-functie, die kan voorkomen dat gegevens met een koppeling van het type 0-1 worden verwijderd.
 * Probleem verholpen dat tot een foutbericht kon leiden wanneer de uitgave van een moeilijkheidtypologieregel werd geannuleerd.
 * Probleem verholpen dat kon optreden wanneer een voorvertoning van een leveringsinhoud werd weergegeven nadat deze was bewerkt.
@@ -174,12 +177,12 @@ Bekijk de meest recente [documentatie-updates](../../rn/using/documentation-upda
 
 **Patches**
 
-* Probleem opgelost waarbij e-mailberichten niet konden worden verzonden wanneer een dynamische afbeelding van Adobe Target werd opgenomen (CAMP-24848).
+* Probleem opgelost waarbij e-mailberichten niet konden worden verzonden wanneer een dynamische afbeelding uit Adobe Target werd opgenomen (CAMP-24848).
 * Probleem verholpen met de **[!UICONTROL Privacy Access/Delete Request]** technische workflows, die niet werden voltooid als een van de verzoeken mislukte.
 * Probleem verholpen waardoor de Privacy Core-service geen updates van de aanvraagstatus kon ontvangen vanuit de campagne.
 * Probleem opgelost waarbij de technische workflow voor **[!UICONTROL Import shared audience]** niet goed kon werken (CAMP-25465).
 * Probleem verholpen waarbij werd voorkomen dat privacyverzoeken voor campagnes werden gemarkeerd als voltooid in de Core Privacy Service.
-* Probleem verholpen waardoor bepaalde gebruikers zich niet konden aanmelden bij de campagnestandaard via IMS-verificatie wanneer de Adobe-id te lang was. (CAMP-24095)
+* Probleem verholpen waardoor bepaalde gebruikers zich niet konden aanmelden bij Campaign Standard via IMS-verificatie wanneer de Adobe ID te lang was. (CAMP-24095)
 * Oplossing voor een probleem in Creative Designer dat kan optreden wanneer u inhoudsmodules verwijdert. (CAMP-25242)
 * Probleem verholpen bij het gebruik van de vermoeiingsregels voor pushmeldingen voor abonnees zonder profiel in de database. (CAMP-25344)
 * Probleem verholpen waarbij een foutbericht kon worden weergegeven wanneer toegang werd verkregen tot uitsluitingslogboeken voor leveringen. (CAMP-24724)
@@ -205,11 +208,11 @@ Bekijk de meest recente [documentatie-updates](../../rn/using/documentation-upda
  <tbody> 
   <tr> 
    <td> GDPR: Core Service Integration<br /> </td> 
-   <td> De Integratie van de Dienst van de Kern van de privacy staat u toe om uw verzoeken GDPR in een multi-oplossingscontext door één enkele vraag van JSON API te automatiseren. <br /> GDPR-aanvragen die van de Privacy Core Service naar alle Experience Cloud-oplossingen worden geduwd, worden nu automatisch door de Campagne afgehandeld. <br /> Raadpleeg de <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> De Integratie van de Dienst van de Kern van de privacy staat u toe om uw verzoeken GDPR in een multi-oplossingscontext door één enkele vraag van JSON API te automatiseren. <br /> GDPR-verzoeken die van de Privacy Core Service naar alle Experience Cloud-oplossingen worden geduwd, worden nu automatisch door de Campagne afgehandeld. <br /> Raadpleeg de <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Push-verbeteringen - gedetailleerde feedback voor levering<br /> </td> 
-   <td> De Campagne van Adobe biedt nu de capaciteit om gedetailleerde terugkoppelen (het verzenden van logboeken en uitsluitingslogboeken) op dupberichten van de leveranciers (APNS/GCM) via MCPNS te ontvangen.<br /> Raadpleeg de <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> Adobe Campaign biedt nu de mogelijkheid om gedetailleerde feedback (het verzenden van logboeken en uitsluitingslogboeken) te ontvangen over pushberichten van APNS/GCM via MCPNS.<br /> Raadpleeg de <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Extensie voor leveringslogs<br /> </td> 
@@ -233,8 +236,8 @@ Bekijk de meest recente [documentatie-updates](../../rn/using/documentation-upda
 **Overige wijzigingen**
 
 * De activiteit van de workflow Publiek lezen kan nu Experience Cloud-publiek lezen. Eerder kon deze activiteit alleen het publiek Query en List lezen. Raadpleeg de [gedetailleerde documentatie](../../automating/using/read-audience.md). (CAMP-23623)
-* De id van de standaard gezamenlijke gegevensbron bevindt zich nu in de modus Alleen-lezen en kan niet meer worden gewijzigd. Als u deze id wijzigt, kunnen er problemen optreden wanneer u een publiek deelt met de Experience Cloud.
-* Het importeren van soorten publiek vanuit Audience Manager werkt nu met gesplitste bestanden. Eerder werd alleen het laatste bestand van het segment geïmporteerd door de technische workflow van importSharedAudience.
+* De id van de standaard gezamenlijke gegevensbron bevindt zich nu in de modus Alleen-lezen en kan niet meer worden gewijzigd. Als u deze id wijzigt, kunnen er problemen optreden bij het delen van het publiek met de Experience Cloud.
+* Het importeren van soorten publiek uit Audience Manager werkt nu met gesplitste bestanden. Eerder werd alleen het laatste bestand van het segment geïmporteerd door de technische workflow van importSharedAudience.
 * De externe rekeningen van AWS S3 steunen nu gebieden en het versie 4 authentificatiemechanisme. Raadpleeg de [gedetailleerde documentatie](../../administration/using/external-accounts.md).
 * Het venster Asset Selecting moet nu sneller worden geladen en het mogelijk maken om een element te selecteren en vervolgens het venster zonder probleem te sluiten.
 * De eigenschappen en structuur van technische werkstromen kunnen nu worden gewijzigd door gebruikers met beheerrechten die tot de &quot;Alle&quot; organisatorische en geografische eenheden behoren.
@@ -303,15 +306,15 @@ _Aangepaste bronnen_
  <tbody> 
   <tr> 
    <td> Algemene EU-verordening inzake gegevensbescherming (GDPR)<br /> </td> 
-   <td> GDPR is de nieuwe privacywet van de Europese Unie (EU) die de vereisten inzake gegevensbescherming harmoniseert en moderniseert en op 25 mei 2018 van kracht wordt. GDPR is van toepassing op klanten van de Campagne van Adobe die gegevens voor de Onderwerpen van Gegevens in de EU houden.<br /> Naast de privacymogelijkheden die reeds beschikbaar zijn in de Campagne van Adobe (met inbegrip van toestemmingsbeheer, montages van het gegevensbehoud, en gebruikersrollen), nemen wij deze kans in onze rol als Bewerker van Gegevens om extra mogelijkheden te omvatten, helpen uw bereidheid als Controlemechanisme voor bepaalde GDPR- verzoeken vergemakkelijken:<br /> 
+   <td> GDPR is de nieuwe privacywet van de Europese Unie (EU) die de vereisten inzake gegevensbescherming harmoniseert en moderniseert en op 25 mei 2018 van kracht wordt. GDPR is van toepassing op Adobe Campaign-klanten die gegevens aanhouden voor in de EU verblijvende gegevenssubjecten.<br /> Naast de privacy mogelijkheden reeds beschikbaar in Adobe Campaign (met inbegrip van toestemmingsbeheer, montages van het gegevensbehoud, en gebruikersrollen), nemen wij deze kans in onze rol als Bewerker van Gegevens om extra mogelijkheden te omvatten, om uw bereidheid als Datacontrole voor bepaalde GDPR verzoeken te helpen vergemakkelijken:<br /> 
     <ul> 
-     <li> Recht op toegang: Hiermee kan de betrokkene een kopie ontvangen van zijn/haar persoonlijke gegevens die zijn vastgelegd door gegevenscontrollers, waaronder mogelijk gegevens die zijn opgeslagen in Adobe Campaign. </li> 
-     <li> Rechts om te verwijderen: geeft de betrokkene het recht om zijn/haar persoonlijke gegevens die door gegevenscontrollers zijn vastgelegd, te laten wissen, mogelijk met inbegrip van gegevens die in Adobe Campaign zijn opgeslagen. </li> 
+     <li> Recht op toegang: staat de betrokkene toe een kopie te ontvangen van zijn/haar persoonsgegevens die door de gegevensverwerkingsverantwoordelijken zijn vastgelegd, met inbegrip van gegevens die in Adobe Campaign zijn opgeslagen. </li> 
+     <li> Rechts om te verwijderen: geeft de betrokkene het recht om zijn/haar persoonsgegevens die door gegevensverwerkingsverantwoordelijken zijn vastgelegd, te laten wissen, eventueel met inbegrip van gegevens die in Adobe Campaign zijn opgeslagen. </li> 
     </ul> Raadpleeg de <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer voor e-mail (bèta)<br /> </td> 
-   <td> De nieuwe Creative Designer van Adobe Campagne biedt een volledig geïntegreerde ontwerpervaring in Campagne, waarmee u snel en moeiteloos visuele creaties kunt maken van het fascineren van individueel gepersonaliseerde e-mails zonder dat u een script hoeft te maken voor één regel code. Dankzij de krachtige interface voor slepen en neerzetten helpt Creative Designer het maken van e-mail te schalen, of gebruikers nu op een lege site beginnen of bestaande inhoudfragmenten of -sjablonen gebruiken. <br /> De belangrijkste mogelijkheden omvatten:<br /> 
+   <td> De nieuwe Creative Designer-versie van Adobe Campaign biedt een volledig geïntegreerde ontwerpervaring in Campagne, waardoor u snel en moeiteloos visueel fascinerende, individueel gepersonaliseerde e-mails kunt maken zonder dat u een script hoeft te schrijven voor één regel code. Dankzij de krachtige interface voor slepen en neerzetten helpt Creative Designer het maken van e-mail te schalen, of gebruikers nu op een lege site beginnen of bestaande inhoudfragmenten of -sjablonen gebruiken. <br /> De belangrijkste mogelijkheden omvatten:<br /> 
     <ul> 
      <li> Ontwerp en maak visueel volledig persoonlijke, responsieve e-mails via een drag-and-drop interface, aangevuld met geïntegreerde Creative Cloud-oplossingen </li> 
      <li> Een sjabloon voor e-mailinhoud en opgeslagen sjablonen maken en opslaan om het maken van e-mail te helpen schalen </li> 
@@ -321,7 +324,7 @@ _Aangepaste bronnen_
   </tr> 
   <tr> 
    <td> Meertalige pushleveringen<br /> </td> 
-   <td> Dezelfde eenvoudige meertalige interface, die al bestaat op de e-mail- en sms-kanalen, is toegevoegd aan het pushkanaal, zodat u klanten kunt bereiken, ongeacht hun voorkeurstaal.<br /> Dit vermogen biedt een scalable en automatische oplossing voor klanten die Push campagnes leiden die veelvoudige gebieden overspannen en gebruikers in hun aangewezen taal willen richten. Hiermee kunt u alle taalvarianten via een sjabloonspreadsheet uploaden naar één pushbericht, met één klik. De Campagne van Adobe voert dan een automatische segmentatie uit op basis van de taalvoorkeur van de gebruikers, die de gedwongen ontslagen helpen te verminderen door werkschema's en rapportering te vereenvoudigen.<br /> Raadpleeg de <a href="../../channels/using/creating-a-multilingual-push-notification.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> Dezelfde eenvoudige meertalige interface, die al bestaat op de e-mail- en sms-kanalen, is toegevoegd aan het pushkanaal, zodat u klanten kunt bereiken, ongeacht hun voorkeurstaal.<br /> Dit vermogen biedt een scalable en automatische oplossing voor klanten die Push campagnes leiden die veelvoudige gebieden overspannen en gebruikers in hun aangewezen taal willen richten. Hiermee kunt u alle taalvarianten via een sjabloonspreadsheet uploaden naar één pushbericht, met één klik. Adobe Campaign voert vervolgens een automatische segmentatie uit op basis van de taalvoorkeur van de gebruiker, waardoor de redundantie wordt verminderd door workflows en rapportering te vereenvoudigen.<br /> Raadpleeg de <a href="../../channels/using/creating-a-multilingual-push-notification.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Gebruik van de Middelen van de Douane in Transactieoverseinen<br /> </td> 
@@ -356,7 +359,7 @@ _E-mail, SMS-berichten en direct mail_
 
 _Soorten publiek en vragen_
 
-* Probleem verholpen waarbij gegevens niet konden worden geopend en query&#39;s werden ingesteld voor ontvangers die van Adobe Campagne Classic naar Standard zijn gerepliceerd.
+* Probleem verholpen waarbij gegevens niet konden worden benaderd en query&#39;s werden ingesteld voor ontvangers die zijn gerepliceerd van Adobe Campaign Classic naar Standard.
 * Probleem verholpen die optrad bij het gebruik van een filtertekstveld in de query-editor, na het gebruik van de knoppen **Aantal** of **Voorvertoning** .
 
 _Workflows_
@@ -369,7 +372,7 @@ _Workflows_
 _Integraties_
 
 * Probleem verholpen waardoor internationale tekens niet correct naar Adobe Analytics konden worden verzonden.
-* Elementen worden nu sneller geladen wanneer u een afbeelding probeert in te voegen uit de Elements-bibliotheek van Experience Cloud in een bericht.
+* Elementen worden nu sneller geladen wanneer u een afbeelding probeert in te voegen vanuit uw Experience Cloud-elementenbibliotheek in een bericht.
 * Probleem verholpen waardoor het venster voor het selecteren van elementen in sommige gevallen niet kon worden gesloten.
 * Van een gegevensbrondetail, kunt u tot zijn verwante werkschema nu direct toegang hebben om de staat van het werkschema te controleren.
 * U kunt het triggerschema nu rechtstreeks bijwerken wanneer u een triggergebeurtenis definieert of bewerkt. Door deze wijziging hoeft u de publicatie van de trigger niet meer ongedaan te maken en een andere trigger te maken.
@@ -406,7 +409,7 @@ _Transactieberichten_
 
 _Platform_
 
-* De bovenste balk van de interface van Adobe Campaign is bijgewerkt met het nieuwe menu Experience Cloud.
+* De bovenste balk van de Adobe Campaign-interface is bijgewerkt met het nieuwe Experience Cloud-menu.
 * Probleem verholpen waardoor de koppeling naar niet kon worden weergegeven in de vervolgkeuzelijst voor oplossingen. **[!UICONTROL Offers]**
 
 _E-mail, SMS-berichten en direct mail_
@@ -461,11 +464,11 @@ Sommige problemen kunnen zich voordoen bij het gebruik van contextafhankelijke H
   </tr> 
   <tr> 
    <td> Delen van rapporten<br /> </td> 
-   <td> Met Rapport delen kunt u uw rapporten delen met gebruikers van Adobe Campagne als e-mailbijlage, inclusief op een geautomatiseerde terugkerende basis. Gebruikers die terugkerende rapporten ontvangen, kunnen hun abonnement op deze berichten opzeggen via een speciale koppeling in elke e-mail.<br /> Raadpleeg de <a href="../../reporting/using/reporting-interface.md#share-tab">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> Met gedeelde rapporten kunt u uw rapporten delen met Adobe Campaign-gebruikers als e-mailbijlage, inclusief op een geautomatiseerde terugkerende basis. Gebruikers die terugkerende rapporten ontvangen, kunnen zich afmelden voor deze communicatie via een speciale koppeling in elke e-mail.<br /> Raadpleeg de <a href="../../reporting/using/reporting-interface.md#share-tab">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Nieuwe mogelijkheden duwen<br /> </td> 
-   <td> Push Message Preview - Voorvertoning van pushberichten weergeven op iOS- en Android-apparaten vanuit de inhoud-editor voor pushberichten om precies te zien wat de ontvangers zullen zien voordat ze de levering testen of uitvoeren.<br /> Raadpleeg de <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">gedetailleerde documentatie</a>voor meer informatie.<br /> Inhoud beschikbaar - Als apps niet gedurende langere perioden worden geopend, kunnen hun gegevens verouderd raken. Dit betekent dat de gegevens moeten worden bijgewerkt of vervangen op het moment dat een gebruiker de app eindelijk opent, wat kan leiden tot vertragingen bij het gebruik van de app. Met de extra ondersteuning voor Beschikbare inhoud kunnen gebruikers van Adobe Campagne hun app wakker maken om de gegevens op de achtergrond te vernieuwen bij het verzenden van een pushmelding, waardoor ze consistenter kunnen zijn en meer controle kunnen krijgen over de ervaringen in de app van een gebruiker.<br /> Mutable Content - Met de toegevoegde ondersteuning van Mutable Content kunnen gebruikers van Adobe Campaign hun mobiele app-extensies nu gebruiken om de inhoud of presentatie van aankomende pushmeldingen die vanuit Adobe Campagne worden verzonden, verder te wijzigen. Gebruikers kunnen bijvoorbeeld Mutable Content gebruiken voor: <br /> 
+   <td> Push Message Preview - Voorvertoning van pushberichten weergeven op iOS- en Android-apparaten vanuit de inhoud-editor voor pushberichten om precies te zien wat de ontvangers zullen zien voordat ze de levering testen of uitvoeren.<br /> Raadpleeg de <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">gedetailleerde documentatie</a>voor meer informatie.<br /> Inhoud beschikbaar - Als apps niet gedurende langere perioden worden geopend, kunnen hun gegevens verouderd raken. Dit betekent dat de gegevens moeten worden bijgewerkt of vervangen op het moment dat een gebruiker de app eindelijk opent, wat kan leiden tot vertragingen bij het gebruik van de app. Met de extra ondersteuning voor Beschikbare inhoud kunnen Adobe Campaign-gebruikers hun app wakker maken om de gegevens op de achtergrond te vernieuwen bij het verzenden van een pushmelding, waardoor ze consistenter kunnen zijn en meer controle kunnen krijgen over de ervaringen in de app van een gebruiker.<br /> Mutable Content - Met de toegevoegde ondersteuning van Mutable Content kunnen Adobe Campaign-gebruikers hun mobiele app-extensies nu gebruiken om de inhoud of presentatie van aankomende pushberichten die vanuit Adobe Campaign worden verzonden, verder te wijzigen. Gebruikers kunnen bijvoorbeeld Mutable Content gebruiken voor: <br /> 
     <ul> 
      <li> gegevens decoderen die in een gecodeerde indeling zijn geleverd </li> 
      <li> afbeeldingen of andere mediabestanden downloaden en toevoegen als bijlagen aan een melding </li> 
@@ -479,7 +482,7 @@ Sommige problemen kunnen zich voordoen bij het gebruik van contextafhankelijke H
   </tr> 
   <tr> 
    <td> API Signaalactiviteit activeren<br /> </td> 
-   <td> Het is nu mogelijk om een signaalactiviteit voor uw workflows rechtstreeks vanuit de Adobe Campagne Standard API te activeren.<br /> Raadpleeg de <a href="/help/api/using/triggering-a-signal-activity.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Het is nu mogelijk om een signaalactiviteit voor uw werkschema's direct van Adobe Campaign Standard API teweeg te brengen.<br /> Raadpleeg de <a href="/help/api/using/triggering-a-signal-activity.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
