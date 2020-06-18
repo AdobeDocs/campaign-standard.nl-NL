@@ -12,7 +12,10 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 0%
 
 ---
 
@@ -30,9 +33,9 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Label</strong><br /> </th> 
-   <th> <strong>Veldnaam</strong><br /> </th> 
-   <th> <strong>Indicatorberekeningsformule</strong><br /> </th> 
+   <th> <strong>Label</strong> <br /> </th> 
+   <th> <strong>Veldnaam</strong> <br /> </th> 
+   <th> <strong>Indicatorberekeningsformule</strong> <br /> </th> 
    <th> <strong>Opmerkingen</strong><br /> </th> 
   </tr> 
  </thead> 
@@ -44,15 +47,15 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Zwart<br /> </td> 
-   <td> @blacklist<br /> </td> 
+   <td> Blockliklet<br /> </td> 
+   <td> @blocklisted<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Tarief op zwarte lijst<br /> </td> 
-   <td> @rateBlacklist<br /> </td> 
-   <td> @blacklist/@sent<br /> </td> 
+   <td> Blocklikliksnelheid<br /> </td> 
+   <td> @rateBlocklisted<br /> </td> 
+   <td> @blocklisted/@sent<br /> </td> 
    <td> De noemer voor de berekening van de rente is gebaseerd op het aantal verzonden (Geleverd + Bounces).<br /> </td> 
   </tr> 
   <tr> 
@@ -231,9 +234,9 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Label</strong><br /> </th> 
-   <th> <strong>Veldnaam</strong><br /> </th> 
-   <th> <strong>Indicatorberekeningsformule</strong><br /> </th> 
+   <th> <strong>Label</strong> <br /> </th> 
+   <th> <strong>Veldnaam</strong> <br /> </th> 
+   <th> <strong>Indicatorberekeningsformule</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -305,9 +308,9 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Label</strong><br /> </th> 
-   <th> <strong>Veldnaam</strong><br /> </th> 
-   <th> <strong>Indicatorberekeningsformule</strong><br /> </th> 
+   <th> <strong>Label</strong> <br /> </th> 
+   <th> <strong>Veldnaam</strong> <br /> </th> 
+   <th> <strong>Indicatorberekeningsformule</strong> <br /> </th> 
    <th> <strong>Opmerkingen</strong><br /> </th> 
   </tr> 
  </thead> 
@@ -334,7 +337,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> Unieke afbeeldingen<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view)<br /> </td> 
-   <td> Voor <span class="uicontrol">doelgebruikers die zijn gebaseerd op hun sjabloon Campagneprofiel (inAppProfile)</span> , is gebruiker = Ontvangersidentiteitskaart<br /> Voor <span class="uicontrol">Doel: alle gebruikers van een mobiele app (inAppBroadcast)</span> en <span class="uicontrol">doelgebruikers op basis van hun sjablonen voor hun mobiele profiel (inApp)</span> . Dit is de gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
+   <td> Voor <span class="uicontrol">Target-gebruikers op basis van hun sjabloon Campagne-profiel (inAppProfile)</span> , gebruiker = Ontvanger-id.<br /> Voor <span class="uicontrol">Target geldt dat voor alle gebruikers van een mobiele app (inAppBroadcast)</span> en <span class="uicontrol">Target op basis van hun mobiele profielsjablonen (inApp)</span> de gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
   </tr> 
   <tr> 
    <td> In-app klikken <br /> </td> 
@@ -346,7 +349,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> Unieke muisklikken in de app<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=click)<br /> </td> 
-   <td> Voor <span class="uicontrol">doelgebruikers die zijn gebaseerd op hun sjabloon Campagneprofiel (inAppProfile)</span> , is gebruiker = Ontvangersidentiteitskaart<br /> Voor <span class="uicontrol">Doel: alle gebruikers van een mobiele app (inAppBroadcast)</span> en <span class="uicontrol">doelgebruikers op basis van hun sjablonen voor hun mobiele profiel (inApp)</span> . Dit is de gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
+   <td> Voor <span class="uicontrol">Target-gebruikers op basis van hun sjabloon Campagne-profiel (inAppProfile)</span> , gebruiker = Ontvanger-id.<br /> Voor <span class="uicontrol">Target geldt dat voor alle gebruikers van een mobiele app (inAppBroadcast)</span> en <span class="uicontrol">Target op basis van hun mobiele profielsjablonen (inApp)</span> de gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
   </tr> 
   <tr> 
    <td> Doorklikfrequentie in de app<br /> </td> 
@@ -364,7 +367,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> Unieke ontslagen in de app<br /> </td> 
    <td> @uniquedismission<br /> </td> 
    <td> @unique(@count (status=close)<br /> </td> 
-   <td> Voor <span class="uicontrol">doelgebruikers die zijn gebaseerd op hun sjabloon Campagneprofiel (inAppProfile)</span> , is gebruiker = Ontvangersidentiteitskaart<br /> Voor <span class="uicontrol">Doel: alle gebruikers van een mobiele app (inAppBroadcast)</span> en <span class="uicontrol">doelgebruikers op basis van hun sjablonen voor hun mobiele profiel (inApp)</span> . Dit is de gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
+   <td> Voor <span class="uicontrol">Target-gebruikers op basis van hun sjabloon Campagne-profiel (inAppProfile)</span> , gebruiker = Ontvanger-id.<br /> Voor <span class="uicontrol">Target geldt dat voor alle gebruikers van een mobiele app (inAppBroadcast)</span> en <span class="uicontrol">Target op basis van hun mobiele profielsjablonen (inApp)</span> de gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
   </tr> 
   <tr> 
    <td> Ontslagfrequentie in de app<br /> </td> 
