@@ -10,7 +10,10 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1204'
+ht-degree: 0%
 
 ---
 
@@ -45,43 +48,43 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackList</td>
+                  <td>blockList</td>
                   <td>Geen contact meer (via een kanaal)</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListEmail</td>
+                  <td>blockListEmail</td>
                   <td>Geen contact meer per e-mail</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListFax</td>
+                  <td>blockListFax</td>
                   <td>Geen contact meer per fax</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListMobile</td>
+                  <td>blockListMobile</td>
                   <td>Geen contact meer met SMS</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPhone</td>
+                  <td>blockListPhone</td>
                   <td>Geen contact meer telefonisch</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPostalMail</td>
+                  <td>blockListPostalMail</td>
                   <td>Geen contact meer per direct mail</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blackListPushnotification</td>
+                  <td>blockListPushnotification</td>
                   <td>Neem niet meer contact op met een pushmelding</td>
                   <td>boolean </td>
                   <td> </td>
@@ -198,7 +201,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>lastName</td>
                   <td>Achternaam</td>
-                  <td>tekenreeks (50)</td>
+                  <td>tekenreeks (30)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -357,7 +360,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                         <li>(GMT+04:00) Greenwich Mean Time plus 4 uur - Gmt_p4 - Etc/GMT-4</li>
                         <li>(GMT+07:00) Greenwich Mean Time plus 7 uur - GMT_p7 - Etc/GMT-7</li>
                         <li>(GMT+06:00) Greenwich Mean Time plus 6 uur - Gmt_p6 - Etc/GMT-6</li>
-                        <li>(GMT+01:00) Greenwich Mean Time plus 1 uur - Gmt_p1 - Etc/GMT-1</li>
+                        <li>(GMT+01:00) Greenwich Mean Time plus 1 uur - Gmt_p1 - EC/GMT-1</li>
                         <li>(GMT-08:00) Pacific (Verenigde Staten en Canada) - America_Los_Angeles - America/Los_Angeles</li>
                         <li>(GMT+02:00) Greenwich Mean Time plus 2 uur - Gmt_p2 - Etc/GMT-2</li>
                         <li>(GMT+07:00) Krasnoïarsk - Azië_Krasnoyarsk - Azië/Krasnoyarsk</li>
