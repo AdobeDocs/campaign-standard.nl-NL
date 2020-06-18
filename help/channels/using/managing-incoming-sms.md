@@ -13,7 +13,10 @@ delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '599'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +31,7 @@ Deze configuratie wordt bepaald in de **[!UICONTROL Automatic reply sent to the 
 
 Daartoe:
 
-1. Selecteer in het menu Geavanceerd via het Adobe Campagne-logo **[!UICONTROL Administration > Application settings > External accounts]** vervolgens het **[!UICONTROL SMS routing via SMPP]** externe account.
+1. Selecteer in het geavanceerde menu via het Adobe Campaign-logo **[!UICONTROL Administration > Application settings > External accounts]** vervolgens de **[!UICONTROL SMS routing via SMPP]** externe account.
 1. Klik onder de **[!UICONTROL Automatic reply sent to the MO]** categorie **[!UICONTROL Create element]** om de automatische reactie te configureren.
 
    ![](assets/sms_mo_1.png)
@@ -54,7 +57,7 @@ Daartoe:
    * De **[!UICONTROL Send to quarantine]** actie plaatst automatisch het aantal van de profieltelefoon in quarantines.
    * De **[!UICONTROL Remove from quarantine]** actie verwijdert het aantal van de profieltelefoon uit quarantaine.
    * Met de **[!UICONTROL None]** handeling kunt u alleen het bericht naar de ontvangers verzenden zonder een handeling uit te voeren.
-   Bijvoorbeeld, in de configuratie hieronder, als de ontvangers het sleutelwoord &quot;STOP&quot;verzenden, zullen zij automatisch een unsubscription bevestiging ontvangen en hun telefoonaantal zal naar quarantaine met de **[!UICONTROL Blacklisted]** status worden verzonden. Deze status verwijst alleen naar het telefoonnummer, het profiel wordt niet op de zwarte lijst weergegeven zodat de gebruiker e-mailberichten blijft ontvangen.
+   Bijvoorbeeld, in de configuratie hieronder, als de ontvangers het sleutelwoord &quot;STOP&quot;verzenden, zullen zij automatisch een unsubscription bevestiging ontvangen en hun telefoonaantal zal naar quarantaine met de **[!UICONTROL On block list]** status worden verzonden. Deze status verwijst alleen naar het telefoonnummer, het profiel wordt niet toegevoegd aan de bloklijst zodat de gebruiker e-mailberichten blijft ontvangen.
 
    ![](assets/sms_mo.png)
 
