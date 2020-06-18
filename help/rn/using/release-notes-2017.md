@@ -1,6 +1,6 @@
 ---
 title: Opmerkingen bij de release 2017
-description: Deze pagina bevat een overzicht van alle 2017-releases van Adobe Campaign Standard.
+description: Deze pagina bevat een lijst met alle versies van Adobe Campaign Standard van 2017.
 page-status-flag: never-activated
 uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4631'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 # Opmerkingen bij de release 2017{#release-notes}
 
-Op zoek naar een specifieke release van Adobe Campaign Standard voor 2017?
+Op zoek naar een specifieke release van Adobe Campaign Standard in 2017?
 
 Elke release bevat nieuwe functies en patches. Klik op een release om de inhoud ervan weer te geven.
 
-Bekijk de meest recente [documentatie-updates](../../rn/using/documentation-updates.md) voor Adobe Campagne Standard. Raadpleeg deze [pagina](../../rn/using/release-notes.md)als u op zoek bent naar een nieuwere versie.
+Bekijk de nieuwste [documentatieupdates](../../rn/using/documentation-updates.md) voor Adobe Campaign Standard. Raadpleeg deze [pagina](../../rn/using/release-notes.md)als u op zoek bent naar een nieuwere versie.
 
 ## Release 17.10 - oktober 2017 {#release-17-10---october-2017}
 
@@ -71,16 +71,16 @@ _E-mail, SMS-berichten en direct mail_
 _Pushmeldingen_
 
 * Wanneer u het pushmeldingskanaal configureert, moet het pushprovider voor iOS **apns** en voor Android **gcm** zijn.
-* Correctie van een fout waardoor de mobiele app van iOS niet kon worden toegevoegd aan de interface van Adobe Campagne.
+* Correctie van een fout die ervoor zorgde dat mobiele iOS-app niet kon worden toegevoegd aan de Adobe Campaign-interface.
 * Pushmeldingen worden nu ondersteund op mobiele Android-toepassingen die geschikt zijn voor GCM en FCM.
 * Oplossing voor een fout die ervoor zorgde dat er geen inhoud kon worden opgeslagen tijdens het dupliceren van een pushberichtsjabloon.
-* Het is nu mogelijk om een profiel te maken of bij te werken vanuit de Adobe Campagne-database door de gegevens van gebruikers van mobiele toepassingen met elkaar in overeenstemming te brengen.
-* Adobe Campaign geeft nu prioriteit aan het verwerken van de pushmeldingen over transacties boven standaardpushmeldingen.
+* Het is nu mogelijk om een profiel te maken of bij te werken vanuit de Adobe Campaign-database door de gegevens van gebruikers van mobiele toepassingen met elkaar in overeenstemming te brengen.
+* Adobe Campaign geeft nu prioriteit aan het verwerken van de transactionele pushmeldingen boven standaardpushmeldingen.
 
 _Rapporten_
 
 * Probleem verholpen waardoor de percentages voor klikken met hot in de e-mailinhoud niet konden worden weergegeven.
-* Probleem opgelost met de zwarte lijst, die werd geteld als een harde stuit in plaats van een stuit.
+* Probleem verholpen met de metrische waarde van de bloklijst, die werd geteld als een harde stuit in plaats van een stuit.
 * Probleem verholpen waarbij negatieve tellingen werden weergegeven in samenvattingsgegevens.
 * Probleem verholpen waarbij profielen in het verkeerde leeftijdssegment werden geteld.
 * De zachte en harde berekeningsformules zijn veranderd.
@@ -129,7 +129,7 @@ _Aangepaste bronnen_
   </tr> 
   <tr> 
    <td> Abonnement voor massa met oorsprong en datum<br /> </td> 
-   <td> Met deze Mass Subscription-uitbreiding kunt u abonnementsgegevens (oorsprong en datum) nu rechtstreeks in de Adobe Campagne Standard-database opslaan via de activiteit Subscription Services in een workflow.<br /> Raadpleeg de <a href="../../automating/using/subscription-services.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> Met deze Mass Subscription-uitbreiding kunt u nu abonnementsgegevens (oorsprong en datum) rechtstreeks in de Adobe Campaign Standard-database opslaan via de activiteit Subscription Services in een workflow.<br /> Raadpleeg de <a href="../../automating/using/subscription-services.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -138,7 +138,7 @@ _Aangepaste bronnen_
 
 _Platform_
 
-* Sommige klanten moeten een id die afkomstig is uit de Adobe Campaign Standard kunnen gebruiken omdat ze geen unieke sleutel beheren om hun eigen records te identificeren. Deze id (**ACS-id**) kan worden geëxporteerd en als een afstemmingssleutel worden gebruikt bij het bijwerken van de gegevens. Raadpleeg de [gedetailleerde documentatie](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)voor meer informatie.
+* Sommige klanten moeten een id van Adobe Campaign Standard kunnen gebruiken omdat ze geen unieke sleutel beheren om hun eigen records te identificeren. Deze id (**ACS-id**) kan worden geëxporteerd en als een afstemmingssleutel worden gebruikt bij het bijwerken van de gegevens. Raadpleeg de [gedetailleerde documentatie](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)voor meer informatie.
 * Het FTP-protocol wordt afgekeurd. Gebruik nu SFTP. Om bestaande implementaties niet te blokkeren, werken bestaande configuraties op FTP nog steeds zoals voorheen, maar de optie wordt niet weergegeven voor nieuwe activiteiten.
 
 _E-mail, SMS-berichten en direct mail_
@@ -160,7 +160,7 @@ _Transactieberichten_
 _Rapporten_
 
 * Het rapport **Hot kliks** is verbeterd. Ook, is het nu mogelijk om heet kliks volgens elke voorwaardelijke inhoud te tonen die in een levering werd bepaald en hete kliks voor elke uitvoering van terugkomende leveringen of transactionele berichten te tonen. Raadpleeg de [gedetailleerde documentatie](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)voor meer informatie.
-* Probleem verholpen waarbij de quarantaineminimetrie onjuiste gegevens niet kon ophalen.
+* Probleem verholpen waarbij de quarantaineminimetrische gegevens niet werden opgehaald.
 * Er is een nieuw vooraf ingesteld tijdframe toegevoegd aan de kalenderwidget.
 * De [dynamische rapportmetriek](../../reporting/using/indicator-calculation.md) en KPIs van [campagnes](../../sending/using/confirming-the-send.md) (die op het dashboard van verzonden berichten worden getoond) zijn gericht voor meer coherentie.
 * Probleem verholpen waarbij een pijpleiding ertoe kon leiden dat er een crash optrad bij debian 7.
@@ -171,7 +171,7 @@ _Workflows_
 
 _Integraties_
 
-* Vars en gebeurtenissen worden nu ondersteund voor de integratie van Analytics &amp; Campagne.
+* Vars en evenementen worden nu ondersteund voor de integratie van Analytics en Campagne.
 * Wanneer u een e-mail verzendt met de inhoud van de verlaten winkelwagen, is de parameter voor het laden van elementen die uit winkelwagentje zijn verwijderd nu optioneel.
 
 _Profielen en publiek_
@@ -196,20 +196,20 @@ _Profielen en publiek_
    <td> Bepaal en voer meertalige e-mail &amp; SMS-leveringen uit door één enkele levering op basis van de voorkeurstaal van uw automatisch gesegmenteerde klanten. Rapporteer de prestaties van elke levering tot aan de taal en het individuele niveau.<br /> Steeds meer bedrijven worden geconfronteerd met de uitdaging om content in meerdere talen te leveren terwijl ze in eigen land en in het buitenland groeien. Als zodanig vormt het stroomlijnen van gelokaliseerde berichtlevering een essentieel onderdeel van een effectieve strategie voor klantcommunicatie voor multinationale ondernemingen; ondernemingen in landen met meerdere talen; en bedrijven die hun inhoud op taalkundig niveau verder willen aanpassen, ongeacht waar de klanten zich bevinden. Raadpleeg de <a href="../../channels/using/creating-a-multilingual-email.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Campagne van Adobe<br /> </td> 
-   <td> Ontvang meldingen met betrekking tot belangrijke systeemactiviteiten rechtstreeks in Adobe Campagne Standard. U wordt bijvoorbeeld op de hoogte gesteld van de voortgang van de lopende leveringen of wanneer een workflow een fout bevat.<br /> Kennisgevingen in realtime houden relevante belanghebbenden op de hoogte en bieden gebruikers de mogelijkheid om onmiddellijk en rechtstreeks te reageren op activiteitenmeldingen vanuit de toepassing. Het resultaat voor teams is geavanceerde behendigheid, efficiency en vlottere uitvoering van campagnes. Raadpleeg de <a href="../../administration/using/sending-internal-notifications.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> Adobe Campaign-meldingen<br /> </td> 
+   <td> Ontvang meldingen met betrekking tot belangrijke systeemactiviteiten rechtstreeks in Adobe Campaign Standard. U wordt bijvoorbeeld op de hoogte gesteld van de voortgang van de lopende leveringen of wanneer een workflow een fout bevat.<br /> Kennisgevingen in realtime houden relevante belanghebbenden op de hoogte en bieden gebruikers de mogelijkheid om onmiddellijk en rechtstreeks te reageren op activiteitenmeldingen vanuit de toepassing. Het resultaat voor teams is geavanceerde behendigheid, efficiency en vlottere uitvoering van campagnes. Raadpleeg de <a href="../../administration/using/sending-internal-notifications.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Leveringswaarschuwing<br /> </td> 
-   <td> Naast het rechtstreeks weergeven van meldingen in de Adobe Campaign Standard beschikt Adobe Campaign nu ook over een e-mailwaarschuwingssysteem waarmee waarschuwingen via e-mail aan gebruikers of externe belanghebbenden over belangrijke systeemactiviteiten kunnen worden gestuurd. Maak, beheer en ontvang aanpasbare waarschuwingen en dashboards om de resultaten of mislukkingen van de levering bij te houden.<br /> Adobe Campagne Delivery Alerting verhoogt de efficiëntie door alle betrokken gebruikers van Adobe Campagne in een bedrijf automatisch via e-mail en dashboard op de hoogte te houden van de uitvoeringsstatus van de levering. Raadpleeg de <a href="../../sending/using/receiving-alerts-when-failures-happen.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> Naast het rechtstreeks bekijken van berichten in Adobe Campaign Standard, biedt Adobe Campaign nu ook een e-mailwaarschuwingssysteem om e-mailwaarschuwingen aan gebruikers of externe belanghebbenden over belangrijke systeemactiviteiten te activeren. Maak, beheer en ontvang aanpasbare waarschuwingen en dashboards om de resultaten of mislukkingen van de levering bij te houden.<br /> Adobe Campaign Delivery Alerting verhoogt de efficiëntie door alle betrokken Adobe Campaign-gebruikers automatisch via e-mail en dashboard op de hoogte te houden van de uitvoeringsstatus van de levering. Raadpleeg de <a href="../../sending/using/receiving-alerts-when-failures-happen.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Versleutelde gedeclareerde id in gegevensbronnen<br /> </td> 
-   <td> Verzend e-mail en de trekkers van SMS zonder de behoefte aan een bestaand profiel in Campagne door gecodeerde contactinformatie (e-mailadres of telefoonaantal) als Verklaarde identiteitskaart te gebruiken Omdat gecodeerde declaraties van id's kunnen worden gedecodeerd door Adobe Campagne Standard, kan Campagne nu nieuwe verhandelbare profielen maken wanneer gebruikers van andere Experience Cloud-oplossingen met eerder onbekende contactpersonen worden ontvangen.<br /> De klanten van het doel en onbekende vooruitzichten in real time door zowel e-mail als SMS om loyaliteit in uw bestaande klantenbasis te verbeteren en nieuwe klanten te verwerven. Maak optimaal gebruik van de cookie-gegevens van uw eerste partij (vanuit Adobe Audience Manager*) als de vooruitzichten voor verificatie zorgen en gebruik deze inzichten in Adobe Campaign. <br /> *Adobe Audience Manager is vereist. Raadpleeg de <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> Verzend e-mail en de trekkers van SMS zonder de behoefte aan een bestaand profiel in Campagne door gecodeerde contactinformatie (e-mailadres of telefoonaantal) als Verklaarde identiteitskaart te gebruiken Omdat gecodeerde opgegeven id's kunnen worden gedecodeerd door Adobe Campaign Standard, kan Campagne nu nieuwe verhandelbare profielen maken wanneer gebruikers van andere Experience Cloud-oplossingen die eerder onbekende contactpersonen bevatten, worden benaderd.<br /> Target-klanten en onbekende toekomstperspectieven in real-time via e-mail en SMS om de loyaliteit in uw bestaande klantenbestand te verbeteren en nieuwe klanten te kopen. Maak optimaal gebruik van uw first-party koekjesgegevens (van Adobe Audience Manager*) zodra de vooruitzichten voor authentiek verklaren en hefboomwerking die inzichten in Adobe Campaign. <br /> *Adobe Audience Manager is vereist. Raadpleeg de <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
-   <td> KPI-delen van campagne naar analyse<br /> </td> 
-   <td> Deel campagnegegevens met Adobe Analytics om de metriek van de e-mailmarketing van Campagne samen met andere marketing en reclame inspanningen door omzetting te meten, verenigend pre en post-klikgedrag.<br /> De algemene prestaties rechtstreeks volgen en synergieën met externe programma's in Analytics aan het licht brengen. Pas uw leren van deze geconsolideerde mening terug in uw campagnes toe; verbeteren van de open, doorklikings- en conversiekoersen, waardoor de omzet en de algehele campagneprestaties toenemen. <br /> Adobe Analytics is vereist. Raadpleeg de <a href="../../integrating/using/about-campaign-analytics-integration.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> Delen van KPI vanuit Campagne naar Analytics<br /> </td> 
+   <td> Deel campagnegegevens met Adobe Analytics om de maatstaven voor e-mailmarketing van Campaign te meten in combinatie met andere marketing- en advertentiemaatregelen door middel van conversie, zodat het gedrag voor en na het klikken wordt verenigd.<br /> De algemene prestaties rechtstreeks volgen en synergieën met externe programma's in Analytics aan het licht brengen. Pas uw leren van deze geconsolideerde mening terug in uw campagnes toe; verbeteren van de open, doorklikings- en conversiekoersen, waardoor de omzet en de algehele campagneprestaties toenemen. <br /> Adobe Analytics is vereist. Raadpleeg de <a href="../../integrating/using/about-campaign-analytics-integration.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Direct Mail Channel - Terugkeer naar afzender<br /> </td> 
@@ -269,11 +269,11 @@ _Workflows_
  <tbody> 
   <tr> 
    <td> Direct mail<br /> </td> 
-   <td> Doorbreek de digitale barrière en verbind met de fysieke wereld met het eerste off-line kanaal van de Norm van de Campagne van Adobe, Direct Mail. Met deze functie kunt u het bestand dat door directe-mailproviders wordt vereist, aanpassen en genereren als onderdeel van de campagnes voor meerdere kanalen. Gebruik Direct Mail om klanten opnieuw aan te trekken of om de klantervaring te verbeteren met een aansprekend aanraakpunt dat klanten naar uw app, website of winkel stuurt.<br /> Raadpleeg de <a href="../../channels/using/about-direct-mail.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> Doorbreek de digitale barrière en verbind met de fysieke wereld met het eerste off-line kanaal van Adobe Campaign Standard, Direct Mail. Met deze functie kunt u het bestand dat door directe-mailproviders wordt vereist, aanpassen en genereren als onderdeel van de campagnes voor meerdere kanalen. Gebruik Direct Mail om klanten opnieuw aan te trekken of om de klantervaring te verbeteren met een aansprekend aanraakpunt dat klanten naar uw app, website of winkel stuurt.<br /> Raadpleeg de <a href="../../channels/using/about-direct-mail.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> BCC e-mailen<br /> </td> 
-   <td> Met e-mail BCC kunt u unieke e-mailberichten opslaan die naar individuele ontvangers zijn verzonden, zodat het merk deze berichten kan archiveren. Door een BCC e-mailadres aan alle e-mails toe te voegen, kunnen klanten van Adobe Campagne Standard een exacte kopie van elke e-mail bewaren met deze functie. Dit is een algemene wettelijke vereiste voor de financiële dienstenindustrie en is nuttig in het helpen van de centra van de klantendienst bij het oplossen van conflicten in echt - tijd.<br /> Raadpleeg de <a href="../../sending/using/archiving.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> Met e-mail BCC kunt u unieke e-mailberichten opslaan die naar individuele ontvangers zijn verzonden, zodat het merk deze berichten kan archiveren. Door een BCC e-mailadres aan alle e-mails toe te voegen, kunnen Adobe Campaign Standard-klanten een exacte kopie van elke e-mail bewaren met deze functie. Dit is een algemene wettelijke vereiste voor de financiële dienstenindustrie en is nuttig in het helpen van de centra van de klantendienst bij het oplossen van conflicten in echt - tijd.<br /> Raadpleeg de <a href="../../sending/using/archiving.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -320,7 +320,7 @@ _Pushmeldingen_
   </tr> 
   <tr> 
    <td> Transactionele pushmeldingen<br /> </td> 
-   <td> Het kanaal voor mobiele toepassingen is toegevoegd aan de mogelijkheden voor transactiemeldingen van Adobe Campaign. Er worden nu drie kanalen ondersteund voor transactieberichten: e-mail-, SMS- en pushberichten.<br /> Raadpleeg de <a href="../../channels/using/transactional-push-notifications.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> Het mobiele toepassingskanaal is toegevoegd aan de mogelijkheden voor transactiemeldingen van Adobe Campaign. Er worden nu drie kanalen ondersteund voor transactieberichten: e-mail-, SMS- en pushberichten.<br /> Raadpleeg de <a href="../../channels/using/transactional-push-notifications.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Pushmeldingen herstellen<br /> </td> 
@@ -328,11 +328,11 @@ _Pushmeldingen_
   </tr> 
   <tr> 
    <td> Amazon Simple Storage Service (S3)-connector<br /> </td> 
-   <td> De Amazon Simple Storage Service (S3)-connector kan nu worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campagne. Deze kan worden ingesteld in een workflowactiviteit. De configuratie wordt uitgevoerd in een externe account.<br /> Raadpleeg de <a href="../../administration/using/external-accounts.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> De Amazon Simple Storage Service (S3)-connector kan nu worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campaign. Deze kan worden ingesteld in een workflowactiviteit. De configuratie wordt uitgevoerd in een externe account.<br /> Raadpleeg de <a href="../../administration/using/external-accounts.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Integratie van Dreamweaver live<br /> </td> 
-   <td> De integratie tussen Adobe Campaign en Dreamweaver is nu live. Het werkt nu met de officiële laatst gepubliceerde versie van Dreamweaver (17.0.2).<br /> Hiervoor moet u de extensie Adobe Campagne Integration hier installeren: <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> Raadpleeg deze <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>voor meer informatie.<br /> </td> 
+   <td> De integratie tussen Adobe Campaign en Dreamweaver is nu live. Het werkt nu met de officiële laatst gepubliceerde versie van Dreamweaver (17.0.2).<br /> Hiervoor is de installatie van de Adobe Campaign Integration-extensie vanaf hier vereist: <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> Raadpleeg deze <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -405,7 +405,7 @@ _Pushmeldingen_
   </tr> 
   <tr> 
    <td> Dreamweaver-integratie (Labs)<br /> </td> 
-   <td> Dankzij de integratie met Adobe Campaign en Dreamweaver hebt u nu een geïntegreerd proces voor het maken van e-mailcampagnes met Adobe-oplossingen.<br /> U kunt Adobe Campagne-e-mails bewerken in Dreamweaver en de inhoud naadloos laten synchroniseren tussen beide oplossingen.<br /> Voor de eerste release is de integratie beschikbaar als een 'Labs'-functie en werkt deze alleen met Dreamweaver Pre Release Bèta. Neem contact op met AC-DW-integration@adobe.com als u dit wilt activeren.<br /> Raadpleeg deze <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>voor meer informatie.<br /> </td> 
+   <td> Dankzij de integratie met Adobe Campaign en Dreamweaver hebt u nu een geïntegreerd proces voor het maken van e-mailcampagnes met Adobe-oplossingen.<br /> U kunt Adobe Campaign-e-mailberichten bewerken in Dreamweaver en de inhoud naadloos laten synchroniseren tussen beide oplossingen.<br /> Voor de eerste release is de integratie beschikbaar als een 'Labs'-functie en werkt deze alleen met Dreamweaver Pre Release Bèta. Neem contact op met AC-DW-integration@adobe.com als u dit wilt activeren.<br /> Raadpleeg deze <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Tijdoptimalisatie voor handmatig verzenden<br /> </td> 
@@ -440,7 +440,7 @@ _Pushmeldingen_
   </tr> 
   <tr> 
    <td> Gegevens over punten van belangstelling<br /> </td> 
-   <td> Gegevens met interesse integreren Adobe Campagne met Adobe Analytics for Mobile. Een merk kan gegevens verzamelen van de mobiele locaties van gebruikers - de zogenaamde <strong>punten van interesse</strong> - wanneer gebruikers de app van het merk openen. Hierdoor kan het merk gebruikmaken van de Adobe Campagne-workflows om persoonlijke berichten te verzenden op basis van de locatie van de gebruiker. Dit kanaal gebruikt SDK van de Mobiele kerndienst.<br /> Voor deze functie is Analytics for Mobile vereist. Dit is een betaalde oplossing.<br /> Raadpleeg de <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
+   <td> Gegevens met interesse integreren Adobe Campaign met Adobe Analytics for Mobile. Een merk kan gegevens verzamelen van de mobiele locaties van gebruikers - de zogenaamde <strong>punten van interesse</strong> - wanneer gebruikers de app van het merk openen. Hierdoor kan het merk Adobe Campaign-workflows gebruiken om persoonlijke berichten te verzenden op basis van de locatie van de gebruiker. Dit kanaal gebruikt SDK van de Mobiele kerndienst.<br /> Voor deze functie is Analytics for Mobile vereist. Dit is een betaalde oplossing.<br /> Raadpleeg de <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">gedetailleerde documentatie</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API's<br /> </td> 
@@ -494,7 +494,7 @@ _Workflows_
    <td> Marketingmogelijkheden voor transactieberichten<br /> </td> 
    <td> Marktdeelnemers kunnen nu transactieberichten verzenden op basis van marketingprofielen van klanten. Hierdoor kunnen zij:<br /> 
     <ul> 
-     <li> Pas regels voor marketingtypologie toe, zoals adres <span class="uicontrol">op</span> zwarte lijst. </li> 
+     <li> Pas de regels van de marketing typologie zoals <span class="uicontrol">Adres op bloklijst</span> toe. </li> 
      <li> Neem de koppeling voor het opzeggen van abonnementen op in de berichten. </li> 
      <li> Voeg de transactieberichten aan de globale levering toe rapporteert. </li> 
      <li> Hefboomwerking de transactionele berichten in de klantenreis. </li> 
@@ -505,7 +505,7 @@ _Workflows_
    <td> De API voor transactief berichtenverkeer is nu beschikbaar via <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>, zodat u deze eenvoudiger kunt gebruiken en controleren:<br /> 
     <ul> 
      <li> U kunt profiteren van de rapportage- en monitoringfuncties van het platform adobe.io. </li> 
-     <li> De verificatie wordt nu uitgevoerd met behulp van de op adobe.io-token gebaseerde verificatie in plaats van IP-whitelisting, waardoor het beveiligingsproces eenvoudiger wordt. </li> 
+     <li> De verificatie wordt nu uitgevoerd met de op adobe.io-token gebaseerde verificatie in plaats van met IP allow list, waardoor het beveiligingsproces eenvoudiger wordt. </li> 
      <li> Alle API's zijn nu geïntegreerd op één platform, waardoor het eenvoudiger dan ooit is om transactionele communicatiemogelijkheden toe te voegen aan uw integratie als u de profiel- en services-API al ondersteunt. </li> 
     </ul> </td> 
   </tr> 
@@ -530,7 +530,7 @@ _Pushmeldingen_
 * Probleem verholpen waarbij het terugsturen van een toepassing naar de Adobe Campaign-server mogelijk is voorkomen.
 * Probleem verholpen dat mogelijk voorkwam **[!UICONTROL Play a sound]** **[!UICONTROL Custom fields]** en waarmee rekening moest worden gehouden voor Android.
 * Probleem verholpen waarbij een extra escapeteken zijn toegevoegd aan Unicode-tekens die voor Emojis worden gebruikt.
-* Wanneer de registratietoken van een abonnee op de zwarte lijst wordt gezet, wordt de bijbehorende status nu direct bijgewerkt in de lijst met abonnees van de toepassing in Adobe Campaign.
+* Wanneer de registratietoken van een abonnee aan de bloklijst wordt toegevoegd, wordt de overeenkomstige status nu onmiddellijk bijgewerkt in de lijst van abonnees van de toepassing in Adobe Campaign.
 
 _Workflows_
 
@@ -542,7 +542,7 @@ _Workflows_
 
 _Integraties_
 
-* Probleem verholpen dat een fout kan veroorzaken bij het implementeren van een gebeurtenistrigger in Adobe Campaign. Deze fout is opgetreden toen de metagegevens &quot;Waarschijnlijkheid om in 30 dagen terug te keren&quot; waren toegevoegd aan de trigger voor het afzien van objecten in Adobe Marketing Cloud.
-* Probleem verholpen waardoor het veld Doeldimensie tijdens het importeren van soorten publiek uit de hoofdservice van Personen mogelijk is gewist door de technische workflow. De volgende vragen konden niet het ingevoerde publiek terugwinnen.
+* Probleem verholpen dat een fout kan veroorzaken bij het implementeren van een gebeurtenistrigger in Adobe Campaign. Deze fout trad op wanneer de metagegevens &quot;Waarschijnlijkheid om in 30 dagen terug te keren&quot; waren toegevoegd aan de trigger voor afschrijving in de Adobe Marketing Cloud.
+* Probleem verholpen waardoor het veld Target Dimension tijdens het importeren van publiek uit de People core-service mogelijk is gewist door de technische workflow. De volgende vragen konden niet het ingevoerde publiek terugwinnen.
 * Probleem verholpen waarbij de **[!UICONTROL Save audience]** activiteit van een workflow mogelijk mislukte wanneer de optie **[!UICONTROL Share in Adobe Marketing Cloud]** werd ingeschakeld.
 
