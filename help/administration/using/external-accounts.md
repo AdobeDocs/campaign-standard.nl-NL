@@ -1,5 +1,5 @@
 ---
-title: Externe rekeningen
+title: External accounts
 description: Vorm externe rekeningen aan opstellingsverbindingen met externe systemen zoals servers SFTP.
 page-status-flag: never-activated
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1561'
 ht-degree: 0%
 
 ---
@@ -23,41 +23,41 @@ ht-degree: 0%
 
 # Externe rekeningen{#external-accounts}
 
-Een externe account is een configuratie waarmee u de toegang tot een externe server van Adobe Campaign kunt configureren en testen.
+An external account is a configuration that allows you to configure and test the access to a server that is external to Adobe Campaign.
 
-Deze externe accounts kunnen in Campagneworkflows worden gebruikt voor toegang tot en beheer van gegevens.
+These external accounts can be used in Campaign workflows to access and manage data.
 
-U kunt de volgende typen externe accounts instellen:
+You can set up the following types of external accounts:
 
 * SFTP. For more on this, refer to [this section](#sftp-external-account).
 * Amazon Storage Service (S3). For more on this, refer to [this section](#amazon-s3-external-account).
 * Adobe Experience Manager. For more on this, refer to [this section](#adobe-experience-manager-external-account).
 * Adobe Analytics. For more on this, refer to [this section](../../integrating/using/configure-campaign-analytics-integration.md).
 * Google reCAPTCHA. For more on this, refer to [this section](#google-recaptcha-external-account).
-* Microsoft Azure Blob-opslag. For more on this, refer to [this section](#microsoft-azure-external-account).
+* Microsoft Azure Blob storage. For more on this, refer to [this section](#microsoft-azure-external-account).
 
 >[!NOTE]
 >
->Andere typen externe accounts worden door Adobe gebruikt tijdens het proces van productprovisioning. Vanuit de campagnestandaard 17.9-release kunnen externe FTP-accounts nog wel worden gedefinieerd, maar kunnen deze niet meer worden gebruikt voor nieuwe workflowactiviteiten. Als u al een verbinding had opstelling, wordt het nog toegelaten.
+>Other types of external accounts are used by Adobe during product provisioning process. From Campaign Standard 17.9 release, FTP external accounts can still be defined but are no longer usable in new workflow activities. If you already had a connection set up, it is still enabled.
 
-Externe accounts kunnen worden geconfigureerd door beheerders onder het **[!UICONTROL Administration > Application settings > External accounts]** menu.
+External accounts can be configured by administrators under the **[!UICONTROL Administration > Application settings > External accounts]** menu.
 
 ## Een externe account maken {#creating-an-external-account}
 
-Adobe Campagne wordt geleverd met een set vooraf gedefinieerde externe accounts. Als u verbindingen wilt instellen met externe systemen, zoals FTP-servers die worden gebruikt voor bestandsoverdracht, kunt u uw eigen externe accounts maken.
+Adobe Campaign comes with a set of pre-defined external accounts. In order to set up connections with external systems such as FTP servers used for file transfers, you can create your own external accounts.
 
-Externe accounts worden gebruikt door technische processen, zoals technische workflows of workflows voor campagnes. Wanneer u een bestandsoverdracht instelt in een workflow of een gegevensuitwisseling met een andere toepassing (Adobe Target, Experience Manager, enz.), moet u een externe account selecteren.
+External accounts are used by technical processes such as technical workflows or campaign workflows. When setting up a file transfer in a workflow or a data exchange with any other application (Adobe Target, Experience Manager, etc.), you need to select an external account.
 
 1. Klik op de **[!UICONTROL Create]** knop.
-1. Voer een label in. Het label en de id worden gebruikt bij het selecteren van externe accounts in workflows.
-1. Selecteer het type account dat u wilt maken.
-1. Configureer de toegang tot de account door referenties, serveradres, poortnummer en of sleutels op te geven, indien van toepassing.
+1. Enter a label. Het label en de id worden gebruikt bij het selecteren van externe accounts in workflows.
+1. Select the type of account you want to create.
+1. Configure the access to the account by specifying credentials, server address, port number, and or keys when relevant.
 
    De noodzakelijke informatie wordt gewoonlijk verstrekt door de leverancier van de server u met verbindt.
 
-1. Sla uw account op.
+1. Save your account.
 
-De externe account wordt gemaakt en toegevoegd aan de accountlijst. Het is nu beschikbaar voor uw gegevens/dossier overdrachten of het verpletteren van configuraties in werkschemaactiviteiten en leveringseigenschappen.
+The external account is created and added to the account list. It is now available for your data/file transfers or routing configurations in workflow activities and delivery properties.
 
 ## Externe SFTP-account {#sftp-external-account}
 
@@ -78,15 +78,15 @@ Wanneer deze ruimte niet correct wordt gebruikt of wordt gecontroleerd, kan deze
 Om dergelijke problemen te voorkomen, raadt Adobe aan de onderstaande aanbevolen procedures te volgen:
 
 * Houd de minimale gegevens mogelijk.
-* Gebruik op sleutels gebaseerde verificatie om te voorkomen dat het wachtwoord vervalt. Ondersteunde indelingen zijn alleen **OpenSSH** en **SSH2** . U moet de openbare sleutel aan het ondersteuningsteam van Adobe verstrekken om het te hebben geupload op de server van de Campagne.
-* Bewaar de gegevens slechts zolang als nodig is. 15 dagen is de maximumtermijn.
+* Use key based authentication to avoid password expiry. Supported formats are **OpenSSH** and **SSH2** only. You will have to provide the public key to Adobe support team to have it uploaded on the Campaign server.
+* Bewaar de gegevens slechts zolang als nodig is. 15 days is the maximum time limit.
 * Gebruik workflows om de gegevens correct te verwijderen (de bewaring van werkstromen die gegevens verbruiken, beheren).
 * Gebruik batchverwerking in SFTP-uploads en in workflows.
 * Fouten/uitzonderingen afhandelen.
 * Soms, login aan SFTP om direct te controleren wat daar ligt.
 * Houd er rekening mee dat SFTP-schijfbeheer primair uw verantwoordelijkheid is.
 
-Ook, merk op dat openbare IPs waarvan u probeert om de verbinding in werking te stellen SFTP op de instantie van de Campagne moet worden gewhitelisteerd. Whitelisting van IP adressen kan via een [steunkaartje](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), samen met het verstrekken van de openbare sleutel voor authentificatie worden gevraagd.
+Ook, merk op dat openbare IPs waarvan u probeert om de verbinding in werking te stellen SFTP aan toe te voegen staat lijst op de instantie van de Campagne toe. Het toevoegen van IP adressen aan staat lijst kan via een [steunkaartje](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), samen met het verstrekken van de openbare sleutel aan gebruik voor authentificatie worden gevraagd.
 
 SFTP-servers kunnen worden beheerd via het Configuratiescherm. Raadpleeg de documentatie bij het [Configuratiescherm voor meer informatie](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -113,9 +113,9 @@ Specificeer **[!UICONTROL AWS Region]** verbonden aan uw eindpunt. U kunt de ond
 
 >[!NOTE]
 >
->Uw **[!UICONTROL Receiver server]** gegevens moeten zonder uw AWS-regio worden ingevoerd. De gegevens worden later automatisch aan uw URL toegevoegd.
+>Your **[!UICONTROL Receiver server]** should be entered without your AWS Region, it will later be automatically added to your URL.
 
-### Aanbevelingen voor Amazon S3-account {#amazon-s3-account-recommendations}
+### Amazon S3 account recommendations {#amazon-s3-account-recommendations}
 
 We raden u aan de volgende aanbevelingen te volgen om u te helpen bij het instellen van uw Amazon S3-account:
 
@@ -123,16 +123,16 @@ We raden u aan de volgende aanbevelingen te volgen om u te helpen bij het instel
 * Schakel tijdens het maken van een externe account de codering in om gevoelige gegevens op te slaan in het S3-emmertje door het **[!UICONTROL Keep files in S3 encrypted]** selectievakje in te schakelen.
 * Rechten van emmertjes verlenen om op te geven wie toegang heeft tot het object in een emmertje. Raadpleeg de documentatie [van](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)Amazon S3 voor meer informatie over emmermachtigingen.
 
-## Externe account voor Adobe Experience Manager {#adobe-experience-manager-external-account}
+## Externe rekening van Adobe Experience Manager {#adobe-experience-manager-external-account}
 
-De externe accounts van Adobe Experience Manager worden gebruikt bij de integratie van Campagne met Experience Manager.
+Adobe Experience Manager external accounts are used when integrating Campaign with Experience Manager.
 
 De processen en vereisten met betrekking tot deze integratie zijn beschikbaar in [dit document](../../integrating/using/get-started-campaign-integrations.md).
 
 Wanneer u deze nieuwe externe account instelt, moet u de volgende gegevens opgeven:
 
 * Server: Voer de URL van de Adobe Experience Manager-server in. Bijvoorbeeld **http://aem.domain.com:4502**.
-* Referenties van AEM-account: gebruik het account dat toegang krijgt tot het Adobe Experience Manager-exemplaar. Het zou een rekeningsdeel van de campagne-verre groep in de Manager van de Ervaring moeten zijn.
+* Referenties van AEM-account: gebruik de rekening die tot de instantie van de Adobe Experience Manager zal toegang hebben. Het zou een rekeningsdeel van de campagne-verre groep in Experience Manager moeten zijn.
 
 ## Google reCAPTCHA externe account {#google-recaptcha-external-account}
 
@@ -159,9 +159,9 @@ Geef voor een externe account van Google reCAPTCHA V3 de volgende gegevens op:
 
 >[!NOTE]
 >
->De informatie die nodig is om uw externe account te configureren in Adobe Campaign Standard vindt u in de Azure Portal door **[!UICONTROL Settings]** > **[!UICONTROL Access keys]** te selecteren.
+>De informatie die nodig is om uw externe account in Adobe Campaign Standard te configureren, kunt u vinden in de Azure Portal door **[!UICONTROL Settings]** > **[!UICONTROL Access keys]** te selecteren.
 
-De Azure Blob-opslagconnector kan worden gebruikt om gegevens te importeren of te exporteren naar Adobe Campaign via een **[!UICONTROL Transfer file]** workflowactiviteit. For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
+De Azure Blob-opslagconnector kan worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campaign met behulp van een **[!UICONTROL Transfer file]** workflowactiviteit. For more on this, refer to this [section](../../automating/using/transfer-file.md#azure-blob-configuration-wf).
 
 Geef voor een externe account voor Microsoft Azure Blob-opslag de volgende gegevens op:
 
@@ -174,13 +174,13 @@ Geef voor een externe account voor Microsoft Azure Blob-opslag de volgende gegev
 
 ![](assets/external_accounts_4.png)
 
-Klik eenmaal geconfigureerd **[!UICONTROL Test connection]** om Adobe Campagne te koppelen aan de opslag van Microsoft Azure Blob.
+Klik eenmaal geconfigureerd **[!UICONTROL Test connection]** om Adobe Campaign te koppelen aan Microsoft Azure Blob-opslag.
 
 ### Aanbevelingen voor opslag Microsoft Azure Blob {#azure-blob-recommendations}
 
 **Versleuteling**
 
-Adobe Campaign gebruikt een beveiligde verbinding (HTTPS) om toegang te krijgen tot uw Microsoft Azure Blob-opslagaccount.
+Adobe Campaign gebruikt een HTTPS (Secure Connection) om toegang te krijgen tot uw Microsoft Azure Blob-opslagaccount.
 
 **Accountsleutel**
 
