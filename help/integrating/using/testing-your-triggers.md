@@ -12,9 +12,9 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 # Uw triggers testen{#testing-your-triggers}
 
-De volgende tips voor het oplossen van problemen helpen u de meest voorkomende problemen op te lossen die u kunt tegenkomen bij het gebruik van Triggers in Adobe Campagne:
+De volgende tips voor het oplossen van problemen helpen u de meest voorkomende problemen op te lossen die u kunt tegenkomen bij het gebruik van Triggers met Adobe Campaign:
 
 **Is de functionaliteit geactiveerd?**
 
-Als u wilt controleren of de integratie Triggers - campagne is geactiveerd, klikt u op het logo Adobe Campagne in de linkerbovenhoek en selecteert u **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Je moet het **[!UICONTROL Experience Cloud Triggers]** object zien.
+Als u wilt controleren of de integratie Triggers - campagne is geactiveerd, klikt u op het Adobe Campaign-logo in de linkerbovenhoek en selecteert u **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Je moet het **[!UICONTROL Experience Cloud Triggers]** object zien.
 
 Ga naar de volgende stap als u deze ziet.
 
@@ -36,11 +36,11 @@ Als dat niet het geval is, neemt u contact op met uw Adobe-accountmanager of pro
 
 Voer de stappen uit die worden beschreven in [Een toegewezen trigger maken in Campagne](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) om een trigger te maken.
 
-Als de trigger is gemaakt, gaat u verder naar de volgende stap. Zo niet, dan betekent dit dat de verbinding met het eindpunt van de trigger is mislukt. Controleer of Triggers zijn ingericht in Experience Cloud (Activeringsservices). Als dat niet het geval is, neemt u contact op met de manager of de professionele servicepartner van Adobe. De volgende informatie is vereist:
+Als de trigger is gemaakt, gaat u verder naar de volgende stap. Zo niet, dan betekent dit dat de verbinding met het eindpunt van de trigger is mislukt. Controleer of Triggers is ingericht in Experience Cloud (Activeringsservices). Als dat niet het geval is, neemt u contact op met de manager of de professionele servicepartner van Adobe. De volgende informatie is vereist:
 
 * Bedrijfsnaam van Marketing Cloud
 * IMS ORG ID
-* Login Company Analytics (kan het zelfde zijn als de Bedrijfsnaam van de Onderneming van de Marketing Cloud)
+* Analytics Login Company (kan het zelfde zijn als de Bedrijfsnaam van de Onderneming van de Marketing Cloud)
 
 **Probeer de trigger te publiceren**
 
@@ -52,11 +52,11 @@ Als de publicatie is gelukt, gaat u verder naar de volgende stap. Als dat niet h
 
 Voer de stappen uit die worden beschreven in [Het transactiemalplaatje](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) bewerken en publiceren van de transactiesjabloon. Test vervolgens het genereren van de trigger van de website.
 
-Als de trigger wordt ontvangen door Analytics, gaat u naar de volgende stap. Indien niet, controleer de volgende punten:
+Ga naar de volgende stap als de trigger door Analytics is ontvangen. Indien niet, controleer de volgende punten:
 
 * Trigger is ingeschakeld voor Analytics
 * De website die MCID en Analytics gebruikt, is ingeschakeld in DTM
-* De juiste analytische rapportsuite wordt gebruikt bij het maken van triggers
+* De juiste Analytics-rapportsuite wordt gebruikt bij het maken van triggers
 
 **Wordt de trigger ontvangen door Campaign?**
 
@@ -77,7 +77,7 @@ Zo ja, volg de volgende hulplijnen:
 Indien niet, ga naar de volgende stap. Zo ja, volg de volgende hulplijnen:
 
 * Controleer of de transactiesjabloon is gepubliceerd.
-* Controleer of het profiel niet op de zwarte lijst staat.
+* Controleer of het profiel zich niet op de bloklijst bevindt.
 * Controleer de toepassing van typologische regels.
 * Controleer de logboeken van het transactiemelding bericht.
 
