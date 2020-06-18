@@ -1,6 +1,6 @@
 ---
-title: Te leveren items bewaken in Adobe Campaign Standard
-description: Gebruik de gereedschappen van Adobe Campagne Standard om de prestaties van uw platform te controleren.
+title: Leverbaarheid in Adobe Campaign Standard bewaken
+description: Gebruik de tools die Adobe Campaign Standard aanbiedt om de prestaties van uw platform te controleren.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,21 +13,24 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1d5bb21ab16df87e268b9eabe92965be1b052556
+source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 0%
 
 ---
 
 
 # Leverbaarheid controleren{#monitor-deliverability}
 
-Hieronder vindt u meer informatie over het **[!UICONTROL Delivery throughput]** rapport en de verschillende bewakingsprogramma&#39;s die door Adobe Campaign worden aangeboden. Hier volgen enkele aanvullende richtlijnen voor het controleren van de leverbaarheid:
+Hieronder vindt u nadere informatie over het **[!UICONTROL Delivery throughput]** rapport en de verschillende monitoringinstrumenten die Adobe Campaign biedt. Hier volgen enkele aanvullende richtlijnen voor het controleren van de leverbaarheid:
 * Controleer regelmatig de leveringsproductie voor het gehele platform om te verifiëren of het met de originele opstelling verenigbaar is.
 * Controleer of het opnieuw proberen correct is ingesteld (30 minuten voor herbestellingsperiode en meer dan 20 pogingen) in leveringssjablonen.
 * Verifieer regelmatig dat de stuiterende brievenbus toegankelijk is en dat de rekening niet op het punt staat te verlopen.
 * Controleer elke leveringsproductie om ervoor te zorgen dat het met de geldigheid van de leveringsinhoud (b.v. &#39;Flash-verkoop&#39; moet in minuten worden geleverd, niet in dagen).
 * Wanneer het gebruiken van golven, verifieer dat elke golf genoeg tijd heeft om te beëindigen alvorens volgende wordt teweeggebracht.
 * Controleer of het aantal fouten en nieuwe quarantines consistent zijn met andere leveringen.
-* Raadpleeg zorgvuldig de leveringslogboeken om na te gaan welke fouten worden gemarkeerd (grijze of zwarte lijst, DNS-problemen, anti-spamregels, enz.).
+* Raadpleeg zorgvuldig de leveringslogboeken in detail om het soort fouten te controleren die worden benadrukt (bloklijsten, DNS kwesties, anti-spamregels, enz.).
 
 ## Leveringsdoorvoer {#delivery-throughput}
 
@@ -65,6 +68,6 @@ Spam van het signaal verstrekt ook directe klachten dat het eind - gebruikers do
 
 ## 250ok {#solution-250ok}
 
-250ok is een controleoplossing die IP, domein zwarte lijst en reputatie indicatoren verstrekt.
+250ok is een controleoplossing die IP en domeinbloklijsten, evenals reputatie-indicatoren verstrekt.
 
 De verstrekte informatie is real-time, wat een pro-actieve bijstand mogelijk maakt. 250ok is een aanvullende oplossing voor de interne hulpprogramma&#39;s voor de leveringsmogelijkheden van Adobe.
