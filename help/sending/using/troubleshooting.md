@@ -1,6 +1,6 @@
 ---
-title: Probleemoplossing voor leveringsproblemen in Adobe Campaign Standard
-description: Leer wat u moet doen als u problemen ondervindt met de beschikbaarheid van Adobe Campagne Standard.
+title: Problemen met de leverbaarheid van Adobe Campaign Standard oplossen
+description: Leer wat je moet doen als je problemen hebt met de levering van Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,7 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 87168dca3604073d8a540c579448ab65f07cd976
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 0%
 
 ---
 
@@ -31,42 +34,41 @@ Als u altijd het zelfde foutenbericht voor ISP krijgt, kan uw e-mail of IP als g
 * Werk uw abonnementsformulieren bij om fouten in de ingevoerde domeinnamen op te sporen (bijvoorbeeld: gmaul.com of yaho.com).
 * Als u fouten opmerkt die verklaren dat uw berichten als spam worden verklaard, of dat uw berichten constant worden geblokkeerd, probeer exclusief de ontvangers die niet in één van uw berichten in de laatste 12 maanden van het doel hebben geopend of geklikt.
 
-Neem contact op met de commerciële of leverbare services of met de ondersteuning van Adobe Campagne als het probleem zich blijft voordoen.
+Als het probleem zich blijft voordoen, neemt u contact op met de services voor commercieel gebruik of voor levering, of met de Adobe Campaign-ondersteuning.
 
-## Zwarte lijst versus quarantaine {#blacklisting-versus-quarantine}
+## Bloklijst versus quarantaine {#block-list-versus-quarantine}
 
-* **Wat is het verschil tussen een e-mailadres dat op de zwarte lijst staat en een e-mailadres dat in quarantaine is geplaatst?**
+* **Wat is het verschil tussen een e-mailadres op een bloklijst en een in quarantaine geplaatst e-mailadres?**
 
-   * De status **[!UICONTROL Blacklisted]** is een resultaat van een feedbacklus (wanneer een persoon een bericht rapporteert als spam).
+   * De status **[!UICONTROL On block list]** is een resultaat van een feedbacklus (wanneer een persoon een bericht rapporteert als spam).
 
    * De status **[!UICONTROL Quarantined]** is het resultaat van een zachte of harde stuit.
-   Zie deze [sectie](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting)voor meer informatie.
+   Zie deze [sectie](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)voor meer informatie.
 
 * **Wat betekenen de verschillende redenen voor quarantainefouten?**
 
-   Hier volgen tien mogelijke redenen: niet gedefinieerd, gebruiker onbekend, ongeldig domein, adres op de zwarte lijst, geweigerd, fout genegeerd, onbereikbaar, account uitgeschakeld, postvak vol, niet verbonden.
+   Hier volgen tien mogelijke redenen: niet bepaald, gebruiker onbekend, ongeldig domein, adres op bloklijst, geweigerd, fout genegeerd, onbereikbaar, account gehandicapt, brievenbus volledig, niet verbonden.
 
    Voor meer op dit, zie het [Begrip van quarantainebeheer](../../sending/using/understanding-quarantine-management.md).
 
-## Uitschakelen {#unblacklisting}
+## Verwijderen uit de bloklijst {#removing-from-block-list}
 
-* **Een van mijn ontvangers was per ongeluk op de zwarte lijst gezet. Hoe maak ik de zwarte lijst ongedaan zodat ik ze opnieuw kan versturen?**
+* **Een van mijn ontvangers is per ongeluk aan de bloklijst toegevoegd. Hoe verwijder ik hen uit de bloklijst zodat ik kan beginnen hen berichten opnieuw te verzenden?**
 
    * Ga naar **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * Stel in de details van de corresponderende record de waarde van het **[!UICONTROL Status]** veld in op **[!UICONTROL Valid]**.
    * Sla de record op.
 
-* **Hoe kan ik weten of één van mijn IPs zwarte lijst is? Hoe maak ik mijn IP(s) niet op de zwarte lijst?**
+* **Hoe kan ik te weten komen of één van mijn IPs op een bloklijst is? Hoe verwijder ik mijn IP(s) uit een bloklijst?**
 
-   Om te controleren of uw IP adres zwarte lijst is, kunt u diverse websites gebruiken om het te verifiëren:
-   * https://mxtoolbox.com/
-   * https://whatismyipaddress.com/blacklist-check
-   * https://www.blacklistalert.org/
-   Over het algemeen, zal het resultaat van de IP adrescontrole een lijst terugkeren die details van de zwarte lijst en ook de naam van de website bevat die het IP adres zwarte lijst maakt.
+   Om te controleren of uw IP adres op een bloklijst is, kunt u diverse websites gebruiken om het te verifiëren, zoals:
+   * [MX-gereedschapset](https://mxtoolbox.com/)
+   * [Wat is mijn IP adres](https://whatismyipaddress.com)
+   Over het algemeen, zal het resultaat van de IP adrescontrole een lijst terugkeren die details van de bloklijst en ook de naam van de website bevat die het IP adres blokkeerde.
 
    Als u op de desbetreffende koppeling klikt, hebt u toegang tot de gegevens van de website.
 
-   Vervolgens kunt u vragen dat uw website wordt verwijderd van de website die het IP-adres op een zwarte lijst zet.
+   Vervolgens kunt u vragen dat uw website wordt verwijderd van de website die het IP-adres aan de bloklijst heeft toegevoegd.
 
    >[!NOTE]
    >
