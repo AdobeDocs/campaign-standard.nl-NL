@@ -13,7 +13,10 @@ context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;progra
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 14%
 
 ---
 
@@ -26,4 +29,4 @@ In het rapport **[!UICONTROL Complaints]** worden de leveringen die de meeste de
 
 In de tabel **Flop** , gesorteerd op ontvangend domein, wordt het aantal ontvangers weergegeven dat een e-mail of junk heeft gedeclareerd. De resultaten van de tabel zijn ook beschikbaar in een diagram en een overzichtsnummer.
 
-In de tabel **Bezorgd versus Verkoop op zwarte lijst** wordt het aantal ontvangers weergegeven dat een e-mail heeft gedeclareerd als spam of junk. De tabel wordt gesorteerd op levering.
+De **geleverde versus de lijst van het Blok lijsttarief** maakt een lijst van het aantal ontvangers die een e-mail als spam of junk hebben verklaard. De tabel wordt gesorteerd op levering.
