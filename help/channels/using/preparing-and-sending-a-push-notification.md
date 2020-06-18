@@ -1,6 +1,6 @@
 ---
 title: Een pushmelding voorbereiden en verzenden
-description: Ga als volgt te werk om een pushmelding voor één verzending te maken in Adobe Campagne.
+description: Voer de volgende stappen uit om een pushmelding voor één verzending te maken in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 01997725-ca0a-420c-9e81-5ea801652f87
 contentOwner: sauviat
@@ -13,7 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '857'
+ht-degree: 4%
 
 ---
 
@@ -22,11 +25,11 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ## De melding voorbereiden {#preparing-the-notification}
 
-De stappen voor het maken van een pushmelding met Adobe Campagne zijn:
+De stappen voor het maken van een pushmelding met Adobe Campaign zijn:
 
 1. Maak vanuit het **[!UICONTROL Marketing activities]** venster een nieuwe marketingactiviteit [](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
-   Er kan ook één pushmelding worden gemaakt van een [campagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) of van de Adobe Campagne- [startpagina](../../start/using/interface-description.md#home-page).
+   Merk op dat één enkel dupbericht ook van een [campagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) of van de [homepage](../../start/using/interface-description.md#home-page)van Adobe Campaign kan worden gecreeerd.
 
    U kunt ook een leveringsactiviteit voor pushberichten gebruiken in een workflow. Deze activiteit wordt voorgesteld in de [sectie van de het berichtlevering](../../automating/using/push-notification-delivery.md) van de duw.
 
@@ -37,7 +40,7 @@ De stappen voor het maken van een pushmelding met Adobe Campagne zijn:
 
    Standaard kunt u een van de volgende twee sjablonen selecteren:
 
-   * **[!UICONTROL Send push to Campaign profiles]**: Gebruik deze sjabloon als doel voor de Adobe Campagne CRM-profielen die zijn geabonneerd op uw mobiele toepassing en zich hebben aangemeld voor het ontvangen van pushberichten. U kunt [verpersoonlijkingsgebieden](../../designing/using/personalization.md#inserting-a-personalization-field) in uw dupmelding, zoals de voornaam van de ontvanger opnemen.
+   * **[!UICONTROL Send push to Campaign profiles]**: Gebruik deze sjabloon als doel voor de Adobe Campaign CRM-profielen die zijn geabonneerd op uw mobiele toepassing en zich hebben aangemeld voor het ontvangen van pushberichten. U kunt [verpersoonlijkingsgebieden](../../designing/using/personalization.md#inserting-a-personalization-field) in uw dupmelding, zoals de voornaam van de ontvanger opnemen.
    * **[!UICONTROL Send push to app subscribers]**: gebruik deze sjabloon om een pushmelding te verzenden naar alle bekende en anonieme gebruikers van mobiele toepassingen die zich hebben aangemeld om meldingen van uw toepassing te ontvangen. U kunt deze berichten personaliseren met gegevens die uit uw mobiele toepassing worden verzameld.
    U kunt ook meertalige sjablonen selecteren. Raadpleeg [Een meertalige pushmelding](../../channels/using/creating-a-multilingual-push-notification.md)maken voor meer informatie.
 
@@ -45,7 +48,7 @@ De stappen voor het maken van een pushmelding met Adobe Campagne zijn:
 
 1. Voer de eigenschappen van uw pushmelding in en selecteer uw mobiele app in het **[!UICONTROL Associate a Mobile App to a delivery]** veld.
 
-   In het vervolgkeuzemenu worden zowel SDK V4- als Experience Platform SDK-toepassingen weergegeven.
+   In het vervolgkeuzemenu worden zowel SDK V4- als SDK-toepassingen voor Experience Platforms weergegeven.
 
    ![](assets/push_notif_properties.png)
 
@@ -86,7 +89,7 @@ De stappen voor het maken van een pushmelding met Adobe Campagne zijn:
 
 ## De melding verzenden {#sending-the-notification}
 
-U kunt pushmeldingen naar een geselecteerd publiek in Adobe Campagne verzenden door de criteria voor het publiek te definiëren. In het onderstaande voorbeeld bestaat ons geselecteerde publiek uit vier beoogde abonnees van mobiele apps.
+U kunt pushmeldingen naar een geselecteerd publiek in Adobe Campaign verzenden door de criteria voor het publiek te definiëren. In het onderstaande voorbeeld bestaat ons geselecteerde publiek uit vier beoogde abonnees van mobiele apps.
 
 1. Klik **[!UICONTROL Prepare]** om het doel te berekenen en de berichten te produceren.
 
@@ -98,7 +101,7 @@ U kunt pushmeldingen naar een geselecteerd publiek in Adobe Campagne verzenden d
 
 1. Op het **[!UICONTROL Exclusion logs]** tabblad vindt u de lijst met alle berichten die zijn uitgesloten van het verzonden doel en de reden voor deze uitsluiting.
 
-   Hier kunnen we zien dat een van onze abonnees op mobiele apps is uitgesloten omdat het adres op de zwarte lijst stond en de andere abonnees omdat het profiel een duplicaat was.
+   Hier kunnen we zien dat een van onze abonnees voor mobiele apps is uitgesloten omdat het adres is toegevoegd aan de bloklijst en de andere abonnees omdat het profiel een duplicaat was.
 
    ![](assets/push_send_5.png)
 
@@ -109,15 +112,15 @@ U kunt pushmeldingen naar een geselecteerd publiek in Adobe Campagne verzenden d
 1. U kunt nu klikken **[!UICONTROL Confirm]** om pushmeldingen te verzenden.
 1. Controleer de status van uw levering via het berichtdashboard en de logboeken. Voor meer op dit, zie het [Verzenden van berichten](../../sending/using/confirming-the-send.md) en de Logboeken [van de](../../sending/using/monitoring-a-delivery.md#delivery-logs)Levering.
 
-   In dit voorbeeld wordt op het berichtdashboard weergegeven dat Adobe Campagne heeft geprobeerd twee pushmeldingen te verzenden: een werd met succes geleverd aan het apparaat en een andere ontbrak. Als u wilt weten waarom de levering fouten bevat, klikt u op de ![](assets/lp_link_properties.png) knop onder aan het **[!UICONTROL Deployment]** venster.
+   In dit voorbeeld wordt op het berichtdashboard weergegeven dat Adobe Campaign heeft geprobeerd twee pushmeldingen te verzenden: een werd met succes geleverd aan het apparaat en een andere ontbrak. Als u wilt weten waarom de levering fouten bevat, klikt u op de ![](assets/lp_link_properties.png) knop onder aan het **[!UICONTROL Deployment]** venster.
 
    ![](assets/push_send_4.png)
 
-1. Klik in het **[!UICONTROL Deployment]** venster op het **[!UICONTROL Sending logs]** tabblad voor toegang tot de lijst met verzonden pushberichten en hun status. Voor deze levering is een pushmelding verzonden, terwijl het andere is mislukt als gevolg van een ongeldige apparaattoken. Deze abonnee wordt dan op de zwarte lijst gezet van verdere leveringen.
+1. Klik in het **[!UICONTROL Deployment]** venster op het **[!UICONTROL Sending logs]** tabblad voor toegang tot de lijst met verzonden pushberichten en hun status. Voor deze levering is een pushmelding verzonden, terwijl het andere is mislukt als gevolg van een ongeldige apparaattoken. Deze abonnee wordt vervolgens uit verdere leveringen aan de bloklijst toegevoegd.
 
    >[!NOTE]
    >
-   >De oorzaak kan zijn dat de campagne van Adobe is mislukt. In het geval van mislukkingen van aanbieders zoals apns en fcm, zal de reden dat ook weerspiegelen. Raadpleeg de documentatie van [Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html) en [Android](https://firebase.google.com/docs/cloud-messaging/http-server-ref) voor meer informatie over problemen met leveranciers.
+   >Redenen kunnen elke mislukking van Adobe Campaign zijn. In het geval van mislukkingen van aanbieders zoals apns en fcm, zal de reden dat ook weerspiegelen. Raadpleeg de documentatie van [Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html) en [Android](https://firebase.google.com/docs/cloud-messaging/http-server-ref) voor meer informatie over problemen met leveranciers.
 
    ![](assets/push_send_6.png)
 
