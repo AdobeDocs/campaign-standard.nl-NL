@@ -12,7 +12,10 @@ discoiquuid: 896859da-a230-4f13-9b1f-cbff34b3c0e0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Opt-outprofielen voor een specifieke levering worden vermeld na de voorbereidingsfase, op het **[!UICONTROL Exclusion logs]** tabblad van het leveringsdashboard.
 
-![](assets/exclusion_blacklisting.png)
+![](assets/exclusion_blocklisting.png)
 
 **Verwante onderwerpen:**
 
