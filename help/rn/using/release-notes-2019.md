@@ -1,6 +1,6 @@
 ---
 title: Opmerkingen bij de release 2019
-description: Deze pagina bevat een overzicht van alle 2019-releases van Adobe Campaign Standard.
+description: Deze pagina bevat een lijst met alle versies van Adobe Campaign Standard van 2019.
 page-status-flag: never-activated
 uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
 workflow-type: tm+mt
-source-wordcount: '7621'
+source-wordcount: '7626'
 ht-degree: 0%
 
 ---
@@ -36,12 +36,12 @@ ht-degree: 0%
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>CCPA is de nieuwe privacywet van de staat Californië die de vereisten inzake gegevensbescherming harmoniseert en moderniseert en van kracht wordt op 1 januari 2020. CCPA is op de klanten van de Campagne van Adobe van toepassing die gegevens voor de Onderwerpen van Gegevens in Californië verblijven.</p>
-   <p>Naast de privacy mogelijkheden reeds beschikbaar in de Campagne van Adobe (met inbegrip van toestemmingsbeheer, montages van het gegevensbehoud, en gebruikersrollen), nemen wij deze kans aan om extra mogelijkheden te omvatten, helpen uw bereidheid voor CCPA vergemakkelijken:</p>
+   <td> <p>CCPA is de nieuwe privacywet van de staat Californië die de vereisten inzake gegevensbescherming harmoniseert en moderniseert en van kracht wordt op 1 januari 2020. CCPA is op de klanten van Adobe Campaign van toepassing die gegevens voor de Onderwerpen van Gegevens in Californië verblijven.</p>
+   <p>Naast de privacy mogelijkheden reeds beschikbaar in Adobe Campaign (met inbegrip van toestemmingsbeheer, de montages van het gegevensbehoud, en gebruikersrollen), nemen wij deze kans aan om extra mogelijkheden te omvatten, helpen uw bereidheid voor CCPA vergemakkelijken:</p>
    <ul>
     <li>Recht op toegang en recht op verwijdering: We benutten de capaciteiten die voor GDPR zijn toegevoegd. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Meer informatie</a> </li>
     <li><p>Bij het maken van een privacyverzoek is het regulatietype (GDPR of CCPA) toegevoegd aan de Privacy Core Service. Dit is de methode u voor alle toegang en schrappingsverzoeken zou moeten gebruiken. Het gebruik van de campagne-API en -interface voor toegangs- en verwijderingsverzoeken is afgekeurd.  Zie het artikel <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html"></a>Vervangen en verwijderde functies.</p></li>
-    <li>Er is een <strong>Opt-Out</strong> -veld CCPA toegevoegd aan de profielbron zodat gebruikers van Adobe Campagne kunnen controleren of een consument heeft gekozen voor de verkoop van persoonlijke gegevens. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Meer</a>informatie.</li>
+    <li>Er is een <strong>Opt-Out</strong> -veld CCPA toegevoegd aan de profielbron zodat Adobe Campaign-gebruikers kunnen controleren of een consument heeft gekozen voor de verkoop van persoonlijke gegevens. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Meer</a>informatie.</li>
   </ul>
     <p>Raadpleeg de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">Hoe kan ik-video</a>.</p>
 </td> 
@@ -67,13 +67,13 @@ ht-degree: 0%
 
 **Verbeteringen**
 
-* De toestemmingspop-up voor Dynamische rapportering is bijgewerkt om de integratie van de Norm van de Campagne van Adobe en van de Dynamica 365 van Microsoft te omvatten. Als u de voorwaarden accepteert, worden profielgegevens opgenomen wanneer u de integratie van Adobe Campagne Standard / Microsoft Dynamics 365 en Dynamic Reporting gebruikt. [Lees meer](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
+* De toestemmings pop-up voor Dynamische rapportering is bijgewerkt om integratie van de Dynamica van Adobe Campaign Standard en van Microsoft 365 te omvatten. Door de voorwaarden te accepteren, worden profielgegevens opgenomen wanneer de integratie Adobe Campaign Standard / Microsoft Dynamics 365 en Dynamic Reporting worden gebruikt. [Lees meer](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * Probleem verholpen waarbij onjuiste contactdata werden weergegeven bij ontvangst van leveringswaarschuwingen.
 * Wanneer een transactieberichtgebeurtenis met een onbekende contextparameter wordt voorgelegd, keert de Campagne nu een &quot;400&quot;foutenmelding in plaats van &quot;500&quot;terug. (CAMP-28632)
 * Er is een nieuw proefdruksegment **uitsluiten** toegevoegd aan Dynamische rapportage. Dit segment is nu standaard geselecteerd om uw rapporten te filteren. [Meer informatie](../../reporting/using/list-of-components-.md#segments)
 * De optie **Bericht bij verlopen** is toegevoegd aan pushmelding. Hiermee kunt u een vervaldatum opgeven waarop het bericht niet meer wordt verzonden door Apple (APNS) of Android (FCM). [Meer informatie](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * Er zijn verbeteringen aangebracht in de activiteit **Bestand** laden: workflowlogboeken zijn duidelijker en gedetailleerder gemaakt over de fout die optreedt wanneer een bestand niet kan worden geladen. De uitgaande overgang die is gegenereerd bij het activeren van de optie **Afwijzingen behouden in een bestand** , heeft de naam **Afwijzen** gewijzigd. [Meer informatie](../../automating/using/load-file.md)
-* Meertalige verwante logbestanden zijn toegevoegd aan de verzendende logboeken om beter te begrijpen dat verzendfouten optreden omdat de geüploade CSV-bestanden ontbrekende talen bevatten.
+* Meertalige verwante logboeken zijn toegevoegd aan de verzendende logboeken om het versturen van fouten beter te begrijpen die het gevolg zijn van ontbrekende talen in de geüploade CSV-bestanden.
 
 **Verbeterde beveiliging**
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 * Probleem verholpen waardoor koppelingen naar abonnements-, abonnements- en landingspagina&#39;s niet konden worden bijgehouden wanneer deze in een e-mail werden ingevoegd. (CAMP-37809)
 * Probleem verholpen dat tot fouten kon leiden bij het maken van een nieuwe e-mail en het selecteren van een sjabloon. (CAMP-38000)
-* Als u een koppeling bewerkt met de e-mailontwerper, kunt u nu de optie **Onderstrepen** gebruiken. Er is ook een eigenschap **Target** toegevoegd met de standaardwaarde **Geen**. [Meer informatie](../../designing/using/styles.md#about-styling-links)
+* Als u een koppeling bewerkt met de e-mailontwerper, kunt u nu de optie **Onderstrepen** gebruiken. Bovendien is een **Target** -eigenschap toegevoegd met de standaardwaarde ingesteld op **Geen**. [Meer informatie](../../designing/using/styles.md#about-styling-links)
 * Probleem verholpen met kleuren van koppelingen in tekstcomponenten in de tekst van een e-mailbericht. (CAMP-37330)
 * Probleem verholpen waarbij gekoppelde koppelingen niet konden worden verwijderd wanneer een afbeelding werd verwijderd. (CAMP-37234)
 * Probleem verholpen waarbij het opslaan van wijzigingen in de **Orde** -instellingen van dynamische inhoud in een voorwaarde werd voorkomen. (CAMP-36883)
@@ -120,7 +120,7 @@ ht-degree: 0%
 * Er wordt nu een foutbericht weergegeven wanneer de **planneractiviteit** van een werkstroom wordt uitgevoerd die met zichzelf is verbonden, rechtstreeks of via verschillende activiteiten, omdat dit ertoe kan leiden dat de werkstroomserver van de instantie vastloopt.
 * De verbeteringen zijn aangebracht helpen transactioneel overseinen problemen oplossen: De &quot;Gegevens&quot;verbinding is anders genoemd &quot;Laatste transactionele gebeurtenissen&quot;in het scherm van de gebeurtenisconfiguratie, maakt nu een lijst van de ontvangen gebeurtenissen die in een dalende orde worden gesorteerd. Er is ook een nieuwe status voor een transactiegebeurtenis gemaakt: &quot;targetingFailed&quot;. Wanneer de transactionele overseinenmodule er niet in slaagt om een verbinding te verrijken die voor bericht het richten wordt gebruikt, zal de transactionele gebeurtenis nu in deze nieuwe staat (in plaats van de &quot;routingFailed&quot;status) zijn.
 * Er zijn verbeteringen aangebracht in de interface bij het beperken van de toegang tot landingspagina&#39;s tot specifieke geografische of organisatorische eenheden. Het doel is te waarschuwen dat de landingspagina aan zichtbaarheidsvoorwaarden kan worden onderworpen: de selectie van een geografische en organisatorische eenheid bij het creëren van een landingspagina is nu verplicht . Een banner met verwante informatie wordt nu weergegeven zodra een eenheid is geselecteerd. Het foutbericht dat wordt weergegeven tijdens het testen van de landingspagina is duidelijker.
-* In de Standaard-API&#39;s van Campagne kunt u aangepaste sleutels niet wijzigen met een PATCH-bewerking als de sleutelwaarde afwijkt van de oorspronkelijke sleutel of als u uw eigen zakelijke sleutel gebruikt als URI in plaats van de door Adobe verschafte sleutel.
+* In Campaign Standard API&#39;s kunnen aangepaste sleutels niet worden gewijzigd met behulp van een PATCH-bewerking als de sleutelwaarde afwijkt van de oorspronkelijke sleutel of als u uw eigen zakelijke sleutel gebruikt als URI in plaats van de sleutel die door Adobe wordt geleverd.
 * De taal &quot;Albanees - Macedonië&quot; is toegevoegd aan de keuzelijst met voorkeurstalen. (CAMP-35396)
 
 **Patches**
@@ -164,7 +164,7 @@ ht-degree: 0%
  <tbody> 
   <tr> 
    <td> Externe API-activiteit (openbare bètaversie)<br /> </td> 
-   <td> <p>Voor een diepere verpersoonlijking, staat de Externe API Activiteit u toe om gegevens van externe systemen in een werkschema via een REST API vraag te brengen. De REST-eindpunten kunnen een Klantbeheersysteem, Adobe I/O-runtime of Adobe Experience Cloud REST-eindpunt zijn (bijvoorbeeld Gegevensplatform, Doel, Analytics, Campagne).</p><p>Deze mogelijkheid is momenteel beschikbaar in een openbare bètaversie.</p><p>Raadpleeg voor meer informatie de <a href="../../automating/using/external-api.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">Hoe kan ik-video</a>.</p></td> 
+   <td> <p>Voor een diepere verpersoonlijking, staat de Externe API Activiteit u toe om gegevens van externe systemen in een werkschema via een REST API vraag te brengen. De REST-eindpunten kunnen een Klantbeheersysteem, Adobe I/O-runtime of Adobe Experience Cloud REST-eindpunt zijn (bijvoorbeeld Data Platform, Target, Analytics, Campaign).</p><p>Deze mogelijkheid is momenteel beschikbaar in een openbare bètaversie.</p><p>Raadpleeg voor meer informatie de <a href="../../automating/using/external-api.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">Hoe kan ik-video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Rapport over workflowsegment<br /> </td> 
@@ -206,7 +206,7 @@ ht-degree: 0%
 
 **Overige verbeteringen**
 
-* Dankzij de integratie met Adobe Experience Platform Location Services is Adobe Campaign nu compatibel om op locatie gebaseerde marketingberichten naar de abonnees van uw mobiele toepassing te verzenden via de Experience Platform SDK. Raadpleeg de [gedetailleerde documentatie](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)voor meer informatie.
+* Dankzij de integratie met Adobe Experience Platform Location Services is Adobe Campaign nu compatibel met het versturen van op locatie gebaseerde marketingberichten naar de abonnees van uw mobiele toepassing via de SDK van het Experience Platform. Raadpleeg de [gedetailleerde documentatie](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)voor meer informatie.
 * De rapportfunctie is verbeterd voor een betere ervaring. Om deze eigenschap te gebruiken, moet u de Dynamische Overeenkomst van het Gebruik van de Rapportering goedkeuren. Raadpleeg de [gedetailleerde documentatie](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)voor meer informatie.
 * In workflows is een nieuwe optie toegevoegd om een voorvertoning te bekijken van de volgende tien uitvoeringen van een workflow. Raadpleeg de [gedetailleerde documentatie](../../automating/using/scheduler.md)voor meer informatie.
 * In de activiteit van de Planner, staat een nieuwe optie u toe om een specifieke dag van een specifieke week voor maandelijkse leveringen te selecteren. Raadpleeg de [gedetailleerde documentatie](../../automating/using/scheduler.md)voor meer informatie.
@@ -290,10 +290,10 @@ Introduceerde een reeks verbeteringen en correcties om fragmenten te optimaliser
 * Probleem verholpen waarbij het verzenden van SMS-berichten na het verbreken van de verbinding met de SMS-connector kon worden hervat.
 * Probleem opgelost waarbij SMPP-verbindingen konden worden gesloten wanneer TLS was ingeschakeld.
 * Probleem opgelost waarbij SMPP-verbindingen konden worden gesloten wanneer TLS was ingeschakeld.
-* De optie &quot;Launch_URL_Campaign&quot; is toegevoegd in Campagne voor het beheer van eigenschappen van mobiele toepassingen die zijn gemaakt met de Adobe Experience Platform Mobile SDK.
+* De optie &quot;Launch_URL_Campaign&quot; is toegevoegd in Campagne om eigenschappen van mobiele toepassingen te beheren die zijn gemaakt met Adobe Experience Platform Mobile SDK.
 * Correctie van een fout die ertoe leidde dat de de milieuoptie van de Sandbox na het uploaden van het certificaat van een nieuw gecreeerd mobiel bezit en het weggaan van de mobiele pagina van het toepassingsbezit werd ongecontroleerd.
 * Probleem verholpen waardoor u een transactiemelding voor berichtinhoud niet kon verrijken met informatie uit het servicemiddel. (CAMP-33707)
-* Probleem verholpen met landingspagina&#39;s van Blacklist die optraden tijdens een poging om profielen af te melden bij een service.
+* Probleem verholpen met landingspagina&#39;s in de bloklijst die optraden tijdens een poging om profielen af te melden bij een service.
 
 ## Release 19.2 - mei 2019 {#release-19-2---may-2019}
 
@@ -371,7 +371,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 * Wanneer het uitvoeren van een pakket met veiligheidsgroepen, bevat het nu de rollen die aan elke groep worden toegewezen. (CAMP-32960)
 * In de activiteit van het Dossier van de Lading, laat een nieuwe optie u controleren dat de kolommen van het dossier u uploadt de kolomdefinitie aanpassen. Raadpleeg de [gedetailleerde documentatie](../../automating/using/load-file.md)voor meer informatie. (CAMP-3229)
 * Workflows kunnen nu worden gestart met een payload, zodat u externe parameters kunt gebruiken en delen tussen activiteiten in de workflow. Raadpleeg de [gedetailleerde documentatie](../../automating/using/calling-a-workflow-with-external-parameters.md)voor meer informatie. (CAMP-29412 &amp; CAMP-29413)
-* Met de API&#39;s van Campagnestandaard kunt u nu de geografische en organisatorische eenheden van profielen bijwerken met een payload. Raadpleeg de [gedetailleerde documentatie](../../api/using/get-started-apis.md)voor meer informatie.
+* Met Campaign Standard API&#39;s kunt u nu de geografische en organisatorische eenheden van profielen bijwerken met een payload. Raadpleeg de [gedetailleerde documentatie](../../api/using/get-started-apis.md)voor meer informatie.
 * Foutberichten waarin een object uit de database niet toegankelijk is, zijn duidelijker om te begrijpen.
 * In de activiteit van het Extraheren dossier, zijn de mogelijkheden JavaScript bijgewerkt toen het bepalen van de naam van een dossier om uit te voeren. Alleen de functie formatDate is nu beschikbaar voor gebruik in het veld Uitvoer. Raadpleeg de [gedetailleerde documentatie](../../automating/using/extract-file.md)voor meer informatie.
 * Het genereren van automatische sequentie-id&#39;s is verbeterd voor aangepaste bronnen. De primaire sleutels voor nieuwe douanemiddelen zijn nu in 64 beetjes door gebrek.
@@ -382,11 +382,11 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 
 * Probleem verholpen waarbij geheugenlek naar de MTA kon optreden toen de SMS-instellingen opnieuw werden geladen.
 * Probleem opgelost waarbij updates van databases niet konden worden gepubliceerd in de herstelmodus.
-* Probleem verholpen waarbij een discrepantie optrad tussen Adobe Analytics Reports en Adobe Campaign Dynamic Reporting. (CAMP-25393)
+* Probleem verholpen dat een verschil veroorzaakte tussen Adobe Analytics Reports en Adobe Campaign Dynamic Reporting. (CAMP-25393)
 * Oplossing van een fout die ervoor zorgde dat de workflow voor het delen van rapporten mislukte.
 * Probleem verholpen waardoor gebruikers geen berichten in de app konden verzenden met alleen de media-URL.
 * Probleem verholpen waarbij een mobiele toepassing werd weergegeven, zelfs als het certificaat niet naar de instantie is geüpload.
-* Correctie van een fout die verpersoonlijkingsgebieden verhinderde te werken wanneer het gebruiken van het **Doel alle gebruikers van een Mobiele toepassingsmalplaatje** .
+* Correctie van een fout die ervoor zorgde dat aanpassingsvelden niet werkten wanneer alle gebruikers van een **Target-toepassingssjabloon** de velden konden gebruiken.
 * Er zijn nieuwe instanties van de Campagnestandaard ingericht. (CAMP-32635 &amp; CAMP-32344)
 * Probleem verholpen waarbij de aanpassing van de datumformule in een workflow werd voorkomen. (CAMP-30336)
 * Probleem verholpen bij het definiëren van een aangepaste datumformule die kan voorkomen dat de velden &quot;Aanvullende gegevens&quot; en &quot;Segmentcode&quot; beschikbaar zijn in de vervolgkeuzelijst. (CAMP-32383)
@@ -473,17 +473,17 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 
 * U kunt nu aangepaste sociale kanalen toevoegen aan uw e-mailsjabloon boven op de kanalen die al beschikbaar zijn.
 * Probleem verholpen waarbij niet kon worden geschoven in het structuurmenu bij gebruik van meer dan 18 structuren. (CAMP-31173)
-* Probleem verholpen waarbij de voorheader boven op de inhoud werd weergegeven wanneer een e-mail met een voorheader die met Adobe Campaign is verzonden, werd verstuurd. (CAMP-30736)
-* Probleem verholpen waardoor de onderwerpregel niet kon worden bijgewerkt wanneer werd geklikt op de optie AEM-inhoud **** vernieuwen nadat het onderwerp in Adobe Experience Manager was gewijzigd. (CAMP-29984)
-* Correctie van verschillende problemen waardoor het gebruik van dynamische afbeeldingen van Adobe Target werd voorkomen.
+* Probleem verholpen waarbij de voorheader boven op de inhoud werd weergegeven wanneer een e-mail met een voorheader die met Adobe Campaign is verzonden, werd verzonden. (CAMP-30736)
+* Probleem verholpen waardoor de onderwerpregel niet kon worden bijgewerkt wanneer werd geklikt op de optie AEM-inhoud **** vernieuwen nadat het onderwerp in de Adobe Experience Manager was gewijzigd. (CAMP-29984)
+* Correctie van verschillende problemen die het gebruik van dynamische afbeeldingen van Adobe Target verhinderden.
 * Probleem verholpen waardoor de voorvertoning niet kon worden bijgewerkt wanneer tijdens het voorbereiden inhoud werd opgehaald als de inhoud eerder uit een URL was geïmporteerd.
 * Het YouTube-pictogram is toegevoegd aan de component **Sociale** inhoud.
 * De **lijstweergave** is toegevoegd voor inhoudscomponenten en fragmenten die worden weergegeven in het palet E-mailontwerper.
 
 **Overige verbeteringen**
 
-* Adobe Campaign is nu volledig FCM-compatibel voor SDK V4- en AEP SDK-apps.
-* Adobe Campaign biedt ondersteuning voor pushmeldingen op Android-besturingssystemen en voor watchOS door Apple.
+* Adobe Campaign is nu volledig FCM-compatibel voor zowel SDK V4- als AEP SDK-apps.
+* Adobe Campaign biedt ondersteuning voor pushberichten op het besturingssysteem Wear door Android en voor watchOS door Apple.
 * Waarschuwings- en foutberichten die kunnen worden weergegeven wanneer u in de interface navigeert, zijn duidelijker en begrijpelijker gemaakt.
 * U kunt nu kolommen toevoegen aan de profielenlijst met betrekking tot opt-in en opt-out (&quot;Niet meer contact..&quot; velden).
 * De drop-down lijst van de tijdzone in het de aanmaakscherm van het Profiel is bewogen van de sectie van het Adres aan de hogere sectie van de interface.
@@ -493,7 +493,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 
 **Overige wijzigingen**
 
-* Adobe Campaign and Adobe Experience Cloud zal vanaf het voorjaar van 2019 de ondersteuning voor Microsoft Internet Explorer 11 en de campagnestandaard 19.2 stopzetten. Schakel over naar Microsoft Edge of een andere ondersteunde browser. Zie pagina [Vervangen en verwijderde functies](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) .
+* Adobe Campaign en Adobe Experience Cloud zullen vanaf het voorjaar van 2019 de ondersteuning voor Microsoft Internet Explorer 11 en de Campaign Standard 19.2-release stopzetten. Schakel over naar Microsoft Edge of een andere ondersteunde browser. Zie pagina [Vervangen en verwijderde functies](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) .
 * Het veld **Landcode** van de profielbron is hernoemd naar de code **** Land/regio.
 
 **Patches**
@@ -536,7 +536,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
    <td> Algemene beschikbaarheid van e-mailontwerper<br /> </td> 
    <td> <p>De nieuwe intuïtieve e-mailontwerper (voorheen Creative Designer genoemd) is verplaatst naar GA. De klasse biedt nu ondersteuning voor alle functies van de verouderde inhoudeditor, waaronder:</p> 
     <ul> 
-     <li> Het gebruik van <a href="../../integrating/using/adding-target-dynamic-content.md">dynamische afbeeldingen van Adobe Target</a> </li> 
+     <li> Het gebruik van <a href="../../integrating/using/adding-target-dynamic-content.md">dynamische afbeeldingen uit Adobe Target</a> </li> 
      <li> De mogelijkheid om inhoud automatisch tijdens de voorbereiding van een URL op te <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">halen</a> </li> 
      <li> Volledig compatibele sjablonen voor inhoud <a href="../../designing/using/using-reusable-content.md#content-templates">buiten het vak</a>. </li> 
     </ul> 
@@ -575,7 +575,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 
 **E-mailontwerper**
 
-* Probleem verholpen waarbij de geografische eenheid kon worden gebruikt voor een e-mailsjabloon of een inhoudsfragment dat met de e-mailontwerper is gemaakt, ook al was deze functie uitgeschakeld in Adobe Campagne. Hierdoor was de sjabloon of het fragment niet beschikbaar toen u probeerde deze opnieuw te openen. (CAMP-28174)
+* Probleem verholpen waarbij de geografische eenheid kon worden gebruikt voor een e-mailsjabloon of een inhoudsfragment dat met de e-mailontwerper is gemaakt, ook al was deze functie uitgeschakeld in Adobe Campaign, waardoor de sjabloon of het fragment niet beschikbaar was toen u opnieuw probeerde toegang te krijgen tot de sjabloon. (CAMP-28174)
 * Probleem verholpen waardoor dynamische inhoudsvoorwaarden niet konden worden opgeslagen tijdens het bewerken van inhoud met de e-mailontwerper. (CAMP-27905)
 * Probleem verholpen waarbij de HTML-versie uit de e-mailinhoud werd verwijderd nadat de onbewerkte tekstversie van een bericht was bewerkt en de HTML-synchronisatie in de e-mailontwerper was verbroken. (CAMP-28507)
 * Probleem verholpen waardoor de interface van E-mailDesigner niet kon worden geopend in Internet Explorer 11. (CAMP-28273)
@@ -617,7 +617,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 * Oplossing voor een probleem in de queryeditor met de voorwaarde voor samenvoeging tussen log en trackinglogbestand voor rtEvent. (CAMP-28780)
 * Probleem verholpen waardoor wijzigingen in de landingspagina van &quot;Specifieke actie&quot; niet konden worden opgeslagen. (CAMP-29422)
 * Probleem verholpen waarbij het laden van een gebeurtenislading in een werkstroom werd verhinderd. (CAMP-29029)
-* Probleem verholpen waarbij werd voorkomen dat SMS-nummers op de zwarte lijst in een SMS-bericht werden uitgesloten. (CAMP-28898)
+* Probleem verholpen waarbij SMS-nummers op de bloklijst niet in een SMS-bericht konden worden uitgesloten. (CAMP-28898)
 * Probleem verholpen waardoor SMPP-providers niet op de hoogte konden worden gesteld van een fout tijdens de verwerking van binnenkomende berichten. (CAMP-29804)
 * Probleem verholpen waarbij externe accounts met bijbehorende leveringen konden worden verwijderd. (CAMP-29738)
 * De verzendende doorvoer is verbeterd en gestabiliseerd voor SMS-berichten.
