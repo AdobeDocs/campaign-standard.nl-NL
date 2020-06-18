@@ -1,6 +1,6 @@
 ---
 title: Aan de slag met profielen en publiek
-description: '"Meer informatie over profielen en beheer van doelgroepen in Adobe Campaign: doelgroepen definiëren, doelgroepen selecteren, ontvangers filteren, gegevens verzamelen en bijwerken."'
+description: '"Meer informatie over profielen en beheer van soorten publiek in Adobe Campaign: doelgroepen definiëren, doelgroepen selecteren, ontvangers filteren, gegevens verzamelen en bijwerken."'
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Wanneer u campagnes of berichten creeert, kunt u het doel van de leveringen spec
 
 Identificeer klanten effectiever over al uw kanalen gebruikend **geïntegreerde klantenprofielen** en **aangepaste segmenten**. Wanneer u uw klanten, interesses, demografie en kanaalvoorkeuren kent, is het eenvoudiger om persoonlijke ervaringen te maken die u kunt zien.
 
-De Campagne van Adobe bouwt rijke klantenprofielen in echt - tijd, die u toestaat om relevantere en gepersonaliseerde aanbiedingen te leveren aangezien de voorkeur van uw klant verandert. Daarnaast integreert Adobe Campaign geavanceerde functionaliteit voor analyse, gegevensbeheer en doelgerichtheid om een publiek te maken.
+Adobe Campaign bouwt rijke klantenprofielen in real time, toestaand u om relevantere en gepersonaliseerde aanbiedingen te leveren aangezien de voorkeur van uw klant verandert. Daarnaast integreert Adobe Campaign geavanceerde analyse-, gegevensbeheer- en doelfuncties om het publiek te stimuleren.
 
 **Profielen** zijn individuele contactpersonen die in de database zijn opgeslagen. Elk profiel komt overeen met één item in de database dat de nodige informatie bevat om dat profiel als doel, als gekwalificeerd en individueel te traceren profiel te hebben: Adobe Campaign kan elke interactie van zowel online als offline kanalen volgen en deze in één profiel samenvoegen.
 
@@ -66,11 +66,11 @@ Voordat u begint met het verzenden van berichten naar een contactpersoon, moet u
 
 Met Campagne, adviseren wij u om **gemakkelijke opt-in en opt-out mechanismen** door de [diensten](../../audiences/using/creating-a-service.md)te gebruiken, en pagina [&#39;s te](../../channels/using/getting-started-with-landing-pages.md) landen om uw contactinformatie bij te werken en uw gegevensbestand te kweken.
 
-Als u links voor **abonnementen** in uw berichten opgeeft, kunnen profielen zo nodig op de zwarte lijst worden weergegeven. Hierdoor kunt u de prestaties van uw platform verbeteren. Raadpleeg [Info over opt-in en opt-out in Campagne voor meer informatie over zwarte lijsten](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Als u links voor **abonnementen** opgeeft in uw berichten, kunnen profielen indien nodig worden toegevoegd aan de bloklijst. Hierdoor kunt u de prestaties van uw platform verbeteren. Raadpleeg [Info over opt-in en opt-out in Campagne voor meer informatie over bloklijstbeheer](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
->U moet het beleid [voor acceptabel gebruik van](https://www.adobe.com/legal/terms/aup.html)Adobe Campagne respecteren.
+>Je moet het beleid [voor acceptabel gebruik van](https://www.adobe.com/legal/terms/aup.html)Adobe Campaign respecteren.
 
 Meer informatie:
 
@@ -81,7 +81,7 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-De Campagne van Adobe biedt een reeks hulpmiddelen om u met uw **Privacy Naleving** voor GDPR, CCPA, en andere privacywetten te helpen.
+Adobe Campaign biedt een reeks tools om u te helpen met uw **privacywetgeving** voor GDPR, CCPA en andere privacywetten.
 
 Lees meer in dit [artikel](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) over privacybeheer en de functies die we bieden voor het beheren van het recht op toegang, het recht om te worden vergeten, toestemming, gegevensbewaring en gebruikersrollen.
 
