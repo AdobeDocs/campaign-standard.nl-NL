@@ -1,12 +1,12 @@
 ---
 keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
-title: Adobe Campagne Standard - productdocumentatie
+title: Adobe Campaign Standard-productdocumentatie
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 01fed9b50964ae15a2127a1a2f9a3ebca944d6b1
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 ## Nieuwe functies
 
-* **[Testen via e-mail met doelprofielen](sending/using/testing-messages-using-target.md)**<br/>Leer hoe u e-mailberichten kunt testen op echte doelprofielen
+* Zowel de termen &quot;whitelist&quot; als &quot;blacklist&quot; zijn uit de documentatie van Adobe Campaign verwijderd. [Meer informatie](rn/using/documentation-updates.md)
 
-* **[Privacybeheer](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/> Meer informatie over de tools die Adobe Campaign biedt om u te helpen aan uw privacyvereisten te voldoen
+* **[Privacybeheer](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/> Meer informatie over de tools die Adobe Campaign biedt om u te helpen aan uw privacyregels te voldoen
 
-* **[Campagne Standaard mobiele gids](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/> Meer informatie over algemene richtlijnen voor mobiele leveringen
+* **[Campaign Standard Mobile-gids](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/> Meer informatie over algemene richtlijnen voor mobiele leveringen
 
 [Klik hier voor meer updates](rn/using/documentation-updates.md)
 
@@ -70,4 +70,4 @@ ht-degree: 0%
 | [Implementatiehandleiding](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) | [Lijst met foutberichten](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Release-planning](rn/using/release-planning.md) | [Campagne gegevensmodel](developing/using/datamodel-introduction.md) |
 | [Verouderde en verwijderde functies](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Hulplijn voor meerdere oplossingen](integrating/using/get-started-campaign-integrations.md) |
-| [Aan de slag met de standaard voor campagnes](start/using/about-campaign-standard.md) | [Technische noten](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
+| [Aan de slag met Campaign Standard](start/using/about-campaign-standard.md) | [Technische noten](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
