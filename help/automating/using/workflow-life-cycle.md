@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
@@ -23,11 +23,11 @@ ht-degree: 0%
 
 # Levenscyclus van werkstroom {#life-cycle}
 
-A workflow&#39;s life cycle includes three main steps and each step is linked to a status and a color:
+De levenscyclus van een werkstroom omvat drie hoofdstappen en elke stap is gekoppeld aan een status en een kleur:
 
-* **Editing** (gray)
+* **Bewerken** (grijs)
 
-   Dit is de eerste ontwerpfase van een workflow (zie [Een workflow](../../automating/using/building-a-workflow.md#creating-a-workflow)maken). The workflow is not yet handled by the server and can be modified without any risk.
+   Dit is de eerste ontwerpfase van een workflow (zie [Een workflow](../../automating/using/building-a-workflow.md#creating-a-workflow)maken). De workflow wordt nog niet door de server afgehandeld en kan zonder risico worden gewijzigd.
 
 * **Bezig** (blauw)
 
@@ -41,11 +41,11 @@ Als de workflow eenmaal is gestart, kan deze ook twee andere statussen hebben:
 
 * **Waarschuwing** (geel)
 
-   De werkstroom kon niet worden voltooid of werd gepauzeerd met de ![](assets/pause_darkgrey-24px.png) knoppen of ![](assets/check_pause_darkgrey-24px.png) knoppen.
+   De werkstroom kon niet worden voltooid of was gepauzeerd met de ![](assets/pause_darkgrey-24px.png) knoppen of de ![](assets/check_pause_darkgrey-24px.png) knoppen.
 
 * **Onjuist** (rood)
 
-   Er is een fout opgetreden bij het uitvoeren van een workflow. De werkstroom is gestopt en de gebruiker moet een actie uitvoeren. Als u meer wilt weten over deze fout, gebruikt u de ![](assets/printpreview_darkgrey-24px.png) knop om het workflowlogboek te openen (zie [Controle](#monitoring)).
+   Er is een fout opgetreden bij het uitvoeren van een workflow. De werkstroom is gestopt en de gebruiker moet een actie uitvoeren. Als u meer wilt weten over deze fout, gebruikt u de ![](assets/printpreview_darkgrey-24px.png) knop om het workflowlogboek te openen (zie [Controle](../../automating/using/monitoring-workflow-execution.md)).
 
 In de lijst met marketingactiviteiten kunt u alle workflows en de bijbehorende statussen weergeven. Zie [Marketing activities](../../start/using/marketing-activities.md#about-marketing-activities)beheren voor meer informatie.
 
