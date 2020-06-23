@@ -1,5 +1,5 @@
 ---
-title: Aan de slag met standaard API's voor campagnes
+title: Aan de slag met Campaign Standard API's
 description: Meer informatie over standaard API's voor campaing.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -12,19 +12,19 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
 
 
-# Aan de slag met standaard API&#39;s voor campagnes {#get-started-apis}
+# Aan de slag met Campaign Standard API&#39;s {#get-started-apis}
 
-De standaard-API&#39;s van de campagne zijn bedoeld om u in staat te stellen **integratie** voor Adobe Campaign Standard te maken en uw eigen ecosysteem **te** bouwen door Adobe Campaign Standard te koppelen aan het deelvenster met technologieën dat u gebruikt.
+Campaign Standard API&#39;s zijn bedoeld om u in staat te stellen integratie **voor Adobe Campaign Standard** tot stand te brengen en uw eigen ecosysteem **te** bouwen door Adobe Campaign Standard te koppelen aan het deelvenster met technologieën dat u gebruikt.
 
-Met de standaard-API&#39;s van Adobe Campagne hebt u toegang tot de volgende functies:
+Met de Adobe Campaign Standard API&#39;s hebt u toegang tot de volgende functies:
 
 <table><tr>
  <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="voorwaarden" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">Profielen</a></p></td>
@@ -43,7 +43,7 @@ Met de standaard-API&#39;s van Adobe Campagne hebt u toegang tot de volgende fun
 >
 >Controleer voordat u API-aanroepen uitvoert de schaalbeperkingen die overeenkomen met uw licentieovereenkomst. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
 
-Als u de standaard-API voor campagnes wilt gebruiken, hebt u een Adobe I/O-account nodig. Dit is een verplichte eerste stap om door te gaan en de API-functies te ontdekken.
+Als u de Campaign Standard API wilt gebruiken, hebt u een Adobe I/O-account nodig. Dit is een verplichte eerste stap om door te gaan en de API-functies te ontdekken.
 For more on this, refer to [this section](../../api/using/setting-up-api-access.md).
 
 De API&#39;s die we bieden, gebruiken **standaardconcepten** met een REST-interface en JSON-nuttige ladingen.
@@ -54,4 +54,4 @@ De API&#39;s die we bieden, gebruiken **standaardconcepten** met een REST-interf
 
 Alle eindpunten worden uitgebreid beschreven in deze documentatie met de algemene begrippen die u moet kennen voor het manipuleren van de API, de volledige API-referentie, codevoorbeelden en snelstarthandleidingen.
 
-Als er iets ontbreekt of onjuist lijkt, vraagt u dit aan de [gemeenschap](https://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html).
+Als er iets ontbreekt of onjuist lijkt, vraagt u dit aan de [gemeenschap](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community).
