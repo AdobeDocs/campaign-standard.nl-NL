@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
 workflow-type: tm+mt
 source-wordcount: '7626'
 ht-degree: 0%
@@ -59,7 +59,7 @@ ht-degree: 0%
   <tr> 
    <td> 
     <p>De integratie tussen Adobe Campaign Standard en Microsoft Dynamics 365 is nu beschikbaar. U kunt uw contact- en aangepaste entiteitsrecords van Dynamics 365 naar Campagne overbrengen en e-mailgebeurtenisgegevens terugkrijgen van Campagne naar Dynamics 365 voor een betere uitlijning van verkoop/marketing.</p>
-    <p>Raadpleeg de <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">gedetailleerde documentatie</a> om deze integratie in te stellen en de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">hoe kan ik-video</a>te bekijken.</p>
+    <p>Raadpleeg de <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">gedetailleerde documentatie</a> om deze integratie in te stellen en de <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/campaign-and-microsoft-dynamics-365/working-with-campaign-standard-and-microsoft-dynamics-365.html">hoe kan ik-video</a>te bekijken.</p>
   </td>
   </tr> 
  </tbody> 
@@ -73,7 +73,7 @@ ht-degree: 0%
 * Er is een nieuw proefdruksegment **uitsluiten** toegevoegd aan Dynamische rapportage. Dit segment is nu standaard geselecteerd om uw rapporten te filteren. [Meer informatie](../../reporting/using/list-of-components-.md#segments)
 * De optie **Bericht bij verlopen** is toegevoegd aan pushmelding. Hiermee kunt u een vervaldatum opgeven waarop het bericht niet meer wordt verzonden door Apple (APNS) of Android (FCM). [Meer informatie](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * Er zijn verbeteringen aangebracht in de activiteit **Bestand** laden: workflowlogboeken zijn duidelijker en gedetailleerder gemaakt over de fout die optreedt wanneer een bestand niet kan worden geladen. De uitgaande overgang die is gegenereerd bij het activeren van de optie **Afwijzingen behouden in een bestand** , heeft de naam **Afwijzen** gewijzigd. [Meer informatie](../../automating/using/load-file.md)
-* Meertalige verwante logboeken zijn toegevoegd aan de verzendende logboeken om het versturen van fouten beter te begrijpen die het gevolg zijn van ontbrekende talen in de geüploade CSV-bestanden.
+* Meertalige verwante logbestanden zijn toegevoegd aan de verzendende logboeken om beter te begrijpen dat verzendfouten optreden omdat de geüploade CSV-bestanden ontbrekende talen bevatten.
 
 **Verbeterde beveiliging**
 
@@ -182,7 +182,7 @@ ht-degree: 0%
 * Probleem verholpen waarbij telkens wanneer een component werd toegevoegd, extra HTML-stijltags aan een HTML-sjabloon werden toegevoegd, waardoor de grootte van de sjabloon aanzienlijk zou kunnen toenemen. (CAMP-34694)
 * Probleem verholpen waarbij sommige opties in het bovenste werkbalkmenu niet beschikbaar waren. (CAMP-34577)
 * Probleem verholpen die optrad wanneer het URL-inhoudsblok van de pagina Mirror was ingevoegd in een e-mailinhoud. (CAMP-34779)
-* Probleem verholpen dat optrad bij het gebruik van JSPP-code in een e-mailbericht, waardoor het moeilijk werd de inhoud te bewerken. (CAMP-34574)
+* Probleem verholpen dat optrad bij het gebruik van JSPP-code in een e-mail, waardoor het moeilijk werd de inhoud te bewerken. (CAMP-34574)
 * Probleem verholpen waarbij afbeeldingen bovenaan werden afgekapt wanneer er een hyperlink aan werd toegevoegd. (CAMP-34382)
 * Probleem met weergave verholpen bij gebruik van e-mailontwerper met Firefox. (CAMP-34364)
 * Verschillende problemen met de modus Geavanceerd bij het definiëren van dynamische inhoud in een e-mail zijn opgelost. (CAMP-34351, CAMP-34333, CAMP-34331)
