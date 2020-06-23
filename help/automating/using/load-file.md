@@ -1,6 +1,6 @@
 ---
 title: Bestand laden
-description: Met de activiteit Bestand laden kunt u gegevens in één gestructureerd formulier importeren en deze gegevens gebruiken in Adobe Campagne.
+description: Met de activiteit Bestand laden kunt u gegevens in één gestructureerd formulier importeren en deze gegevens in Adobe Campaign gebruiken.
 page-status-flag: never-activated
 uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
 contentOwner: sauviat
@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1799'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ![](assets/data_loading.png)
 
-Met deze **[!UICONTROL Load file]** activiteit kunt u gegevens in één gestructureerd formulier importeren en deze gegevens gebruiken in Adobe Campaign. De gegevens worden tijdelijk geïmporteerd en een andere activiteit is nodig om deze definitief te integreren in de Adobe Campaign-database.
+Met deze **[!UICONTROL Load file]** activiteit kunt u gegevens in één gestructureerde vorm importeren en deze gegevens in Adobe Campaign gebruiken. De gegevens worden tijdelijk geïmporteerd en een andere activiteit is nodig om deze definitief in de Adobe Campaign-database te integreren.
 
 ## Gebruikscontext {#context-of-use}
 
@@ -40,7 +40,7 @@ De manier waarop de gegevens worden geëxtraheerd, wordt gedefinieerd wanneer de
 U kunt:
 
 * Gebruik de bestandsstructuur om deze toe te passen op de gegevens van een ander bestand (hersteld met behulp van de **[!UICONTROL Transfer file]** activiteit) of
-* Gebruik de structuur en de gegevens uit het bestand om het bestand te importeren in Adobe Campaign.
+* Gebruik de structuur en de gegevens van het bestand om het bestand in Adobe Campaign te importeren.
 
 ## Configuratie {#configuration}
 
@@ -81,7 +81,7 @@ De activiteitenconfiguratie omvat twee stappen. Eerst moet u de verwachte bestan
 
 1. Ga naar het **[!UICONTROL Column definition]** tabblad om de gegevensindeling voor elke kolom te controleren en pas indien nodig de parameters aan.
 
-   Op het **[!UICONTROL Column definition]** tabblad kunt u nauwkeurig de gegevensstructuur van elke kolom opgeven om gegevens te importeren die geen fouten bevatten (bijvoorbeeld met null-beheer) en deze in overeenstemming te brengen met de typen die al aanwezig zijn in de Adobe Campagne-database voor toekomstige bewerkingen.
+   Op het **[!UICONTROL Column definition]** tabblad kunt u nauwkeurig de gegevensstructuur van elke kolom opgeven om gegevens te importeren die geen fouten bevatten (bijvoorbeeld met null-beheer) en deze in overeenstemming maken met de typen die al aanwezig zijn in de Adobe Campaign-database voor toekomstige bewerkingen.
 
    U kunt bijvoorbeeld het label van een kolom wijzigen, het type kolom selecteren (tekenreeks, geheel getal, datum, enzovoort) of zelfs foutverwerking opgeven.
 
@@ -98,6 +98,9 @@ De activiteitenconfiguratie omvat twee stappen. Eerst moet u de verwachte bestan
       ![](assets/wkf_file_loading1.png)
 
 1. Als het bestand waarvan u de gegevens wilt laden, is gecomprimeerd tot een GZIP-bestand (.gz), selecteert u de **[!UICONTROL Decompression]** optie in het **[!UICONTROL Add a pre-processing step]** veld. Hierdoor kunt u het bestand uitpakken voordat u de gegevens laadt. Deze optie is alleen beschikbaar als het bestand afkomstig is van de inkomende overgang van de activiteit.
+
+   In het **[!UICONTROL Add a pre-processing step]** veld kunt u ook een bestand decoderen voordat u het in de database importeert. Raadpleeg [deze sectie voor meer informatie over het werken met gecodeerde bestanden](../../automating/using/managing-encrypted-data.md)
+
 1. Met de **[!UICONTROL Keep the rejects in a file]** optie kunt u een bestand downloaden dat fouten bevat die tijdens het importeren zijn opgetreden en het vervolgens toepassen in een nabewerkingsfase. Wanneer de optie wordt geactiveerd, wordt de naam van de uitgaande overgang gewijzigd in &quot;Afwijzen&quot;.
 
    >[!NOTE]
@@ -159,7 +162,7 @@ Met de kolomopmaak kunt u de waardeverwerking van elke kolom definiëren:
 
 De activiteit van het ladingsdossier structureert hoofdzakelijk de gegevens van een activiteit van het overdrachtsdossier om het in de bestaande gegevens te integreren.
 
-In het volgende voorbeeld wordt het resultaat getoond van een activiteit van een automatisch gedownload laadbestand via een activiteit van het overdrachtsbestand, gevolgd door een activiteit van updategegevens. Deze workflow is bedoeld om de Adobe Campagne-database te verrijken met nieuwe profielen of om bestaande profielen bij te werken aan de hand van de gegevens uit het geïmporteerde bestand.
+In het volgende voorbeeld wordt het resultaat getoond van een activiteit van een automatisch gedownload laadbestand via een activiteit van het overdrachtsbestand, gevolgd door een activiteit van updategegevens. Deze workflow is bedoeld om de Adobe Campaign-database te verrijken met nieuwe profielen of om bestaande profielen bij te werken aan de hand van de gegevens uit het geïmporteerde bestand.
 
 ![](assets/load_file_workflow_ex1.png)
 
@@ -173,7 +176,7 @@ In het volgende voorbeeld wordt het resultaat getoond van een activiteit van een
 1. Configureer uw activiteit zoals eerder opgegeven.
 1. Sleep en zet een **[!UICONTROL Update data]** activiteit neer in uw werkschema en plaats het na de **[!UICONTROL Load file]** activiteit, dan vorm het. Zie Gegevens [](../../automating/using/update-data.md)bijwerken.
 
-Nadat de workflow is gestart, worden de gegevens uit het geüploade bestand geëxtraheerd en vervolgens gebruikt om de Adobe Campagne-database te verrijken.
+Nadat de workflow is gestart, worden de gegevens uit het geüploade bestand geëxtraheerd en vervolgens gebruikt om de Adobe Campaign-database te verrijken.
 
 ## Voorbeeld 2: Een e-mail verzenden met verrijkte velden {#example-2-email-with-enriched-fields}
 
