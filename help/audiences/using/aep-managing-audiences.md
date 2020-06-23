@@ -1,6 +1,6 @@
 ---
-title: Adobe Experience Platform-publiek beheren
-description: Leer hoe u Adobe Experience Platform beheert binnen de Campagnestandaard.
+title: Adobe Experience Platforms publiek beheren
+description: Leer hoe u Adobe Experience Platform beheert in Campaign Standard.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
 contentOwner: sauviat
@@ -13,38 +13,41 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
+source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 0%
 
 ---
 
 
-# Adobe Experience Platform-publiek beheren {#about-audiences}
+# Adobe Experience Platforms publiek beheren {#about-audiences}
 
 >[!IMPORTANT]
 >
 >De Dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 
-## Toegang tot publiek van Adobe Experience Platform
+## Toegang tot publiek Adobe Experience Platform
 
-Als u toegang wilt krijgen tot de segmentbuilder van het Adobe Experience Platform, navigeert u naar de **[!UICONTROL Audiences]** kaart op de startpagina van Campagne Standard (of de **[!UICONTROL Audiences]** koppeling in de koptekst) en selecteert u de **[!UICONTROL Adobe Experience Platform]** omgeving.
+Als u toegang wilt krijgen tot de builder van het Adobe Experience Platform, navigeert u naar de **[!UICONTROL Audiences]** kaart op de startpagina van Campaign Standard (of de **[!UICONTROL Audiences]** koppeling in de koptekst) en selecteert u de **[!UICONTROL Adobe Experience Platform]** omgeving.
 
 ![](assets/aep_audiences_access.png)
 
-U wordt eerst verwezen naar de pagina met segmentlijsten voor het Adobe Experience Platform, waar u toegang hebt tot bestaande Adobe Experience Platform-segmenten voor verdere bewerking.
+U zult eerst aan de pagina van de de segmentlijst van het Adobe Experience Platform worden geleid, waar reeds bestaande segmenten van het Adobe Experience Platform voor verdere het uitgeven kunnen worden betreden.
 
-Er zijn een zoekbalk en filter beschikbaar waarmee u het gewenste Adobe Experience Platform-segment kunt vinden.
+Er zijn een zoekbalk en filter beschikbaar waarmee u het gewenste Adobe Experience Platform kunt vinden.
 
 ![](assets/aep_audiences_list.png)
 
-## Adobe Experience Platform-publiek maken
+## Adobe Experience Platforms publiek maken
 
-Voer de volgende stappen uit om een publiek van het Adobe Experience Platform rechtstreeks in de Campagnestandaard te maken:
+Ga als volgt te werk om een publiek van een Adobe Experience Platform rechtstreeks in Campaign Standard te maken:
 
-1. Klik op de pagina met segmentlijsten voor Adobe Experience Platform op de **[!UICONTROL New audience]** knop in de rechterhoek.
+1. Van de pagina van de de segmentlijst van het Adobe Experience Platform, klik de **[!UICONTROL New audience]** knoop die in de juiste hoek wordt gevestigd.
 
    ![](assets/aep_audiences_creation_create.png)
 
-1. De Unified Segment Builder moet nu in uw werkruimte worden weergegeven. Hiermee kunt u een segment maken met behulp van gegevens van het Adobe Experience Platform die uiteindelijk worden gebruikt om uw publiek te maken.
+1. De Segment Builder moet nu in uw werkruimte worden weergegeven. Het staat u toe om een segment te bouwen gebruikend gegevens van Adobe Experience Platform die uiteindelijk zullen worden gebruikt om uw publiek tot stand te brengen.
 
 1. Geef het segment een naam in het rechterdeelvenster en voer een beschrijving in (optioneel).
 
@@ -58,15 +61,15 @@ Voer de volgende stappen uit om een publiek van het Adobe Experience Platform re
 
 1. Bepaal de regels die de profielen zullen identificeren die in uw publiek moeten worden teruggewonnen.
 
-   Om dit te doen, sleep de gewenste attributen en/of de gebeurtenissen van de linkerruit in de werkruimte, bepaal de overeenkomstige regels dan klik de **[!UICONTROL Create segment]** knoop om het segment (zie [Gebruikend de Verenigde Bouwer](../../audiences/using/aep-using-segment-builder.md)van het Segment) te bewaren.
+   Om dit te doen, sleep de gewenste attributen en/of de gebeurtenissen van de linkerruit in de werkruimte, bepaal de overeenkomstige regels dan klik de **[!UICONTROL Create segment]** knoop om het segment (zie het [Gebruiken van de Bouwer](../../audiences/using/aep-using-segment-builder.md)van het Segment) te bewaren.
 
    ![](assets/aep_audiences_creation_query.png)
 
-Het publiek is nu klaar om te worden geactiveerd en u kunt het gebruiken als doel voor uw campagnes (zie [Doelgroepen van het Adobe Experience Platform](../../automating/using/aep-targeting-audiences.md)).
+Het publiek is nu klaar om te worden geactiveerd, kunt u het gebruiken als doel voor uw campagnes (zie [Doelgroepen van Adobe Experience Platforms](../../automating/using/aep-targeting-audiences.md)).
 
 ## Soorten publiek bewerken
 
-Om een publiek uit te geven, open het en wijzig de regels zoals nodig binnen de Verenigde interface van de Bouwer van het Segment (zie het [Gebruiken van de Verenigde Bouwer](../../audiences/using/aep-using-segment-builder.md)van het Segment).
+Om een publiek uit te geven, open het en wijzig de regels zoals nodig binnen de interface van de Bouwer van het Segment (zie het [Gebruiken van de Bouwer](../../audiences/using/aep-using-segment-builder.md)van het Segment).
 
 Nadat de wijzigingen zijn voltooid, klikt u op de **[!UICONTROL Save segment]** knop om het publiek bij te werken.
 
