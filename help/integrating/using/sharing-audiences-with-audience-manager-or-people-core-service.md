@@ -1,5 +1,5 @@
 ---
-title: Het delen van publiek met de Manager van de Publiek of de kerndienst van Mensen
+title: Het delen van publiek met de Audience Manager of de kerndienst van Mensen
 description: Leer hoe u uw publiek importeert of exporteert binnen de verschillende Adobe Experience Cloud-oplossingen.
 page-status-flag: never-activated
 uuid: a3701e72-5846-4241-afee-d713b499a27a
@@ -12,18 +12,21 @@ discoiquuid: 77af0772-52b5-46bc-a964-675b45965524
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 0%
 
 ---
 
 
-# Het delen van publiek met de Manager van de Publiek of de kerndienst van Mensen{#sharing-audiences-with-audience-manager-or-people-core-service}
+# Het delen van publiek met de Audience Manager of de kerndienst van Mensen{#sharing-audiences-with-audience-manager-or-people-core-service}
 
 ## Een publiek importeren {#importing-an-audience}
 
-Dankzij de integratie met de basisservice van Personen kunt u een publiek rechtstreeks importeren in Adobe Campaign via een technische workflow om uw database te verrijken. Raadpleeg deze [documentatie](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html)voor meer informatie over het delen van het publiek in de hoofdservice Personen.
+Dankzij de integratie met de basisservice van mensen kan een publiek rechtstreeks in Adobe Campaign worden geïmporteerd via een technische workflow om uw database te verrijken. Raadpleeg deze [documentatie](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)voor meer informatie over het delen van het publiek in de hoofdservice Personen.
 
-Het importeren van soorten publiek/segmenten uit de hoofdservice Personen in Adobe Campagne kan alleen via het **[!UICONTROL Audiences]** menu worden uitgevoerd door gebruikers die via IMS zijn verbonden (verificatie via Adobe-id).
+Het importeren van soorten publiek/segmenten van de People core-service in Adobe Campaign kan alleen via het **[!UICONTROL Audiences]** menu worden uitgevoerd door gebruikers die via IMS zijn verbonden (verificatie via Adobe ID).
 
 1. Ga naar het **[!UICONTROL Audiences]** menu.
 1. Selecteer in de actiebalk **[!UICONTROL Create]** de optie die u naar het scherm wilt gaan om een publiek te maken.
@@ -41,19 +44,19 @@ Het importeren van soorten publiek/segmenten uit de hoofdservice Personen in Ado
 
 1. Bevestig om het publiek te maken.
 
-   Het publiek wordt vervolgens geïmporteerd via een technische workflow. Het bestaat uit records waarvan de id (&#39;Bezoeker-id&#39; of &#39;Opgegeven ID&#39;) kon worden afgestemd op de profieldimensie. ID&#39;s uit de kernservicessegmenten van Personen die niet worden herkend door Adobe Campaign, worden niet geïmporteerd.
+   Het publiek wordt vervolgens geïmporteerd via een technische workflow. Het bestaat uit records waarvan de id (&#39;Bezoeker-id&#39; of &#39;Opgegeven ID&#39;) kon worden afgestemd op de profieldimensie. IDs van de de kernde dienstsegmenten van Mensen die niet door Adobe Campaign worden erkend worden niet ingevoerd.
 
-Uw publiek wordt nu geïmporteerd in uw Adobe Campagne-database. Het importproces duurt 24-36 uur om te synchroniseren, wanneer de segmenten direct uit de kernservice van Mensen of de Manager van het publiek worden ingevoerd. Na deze periode kunt u uw nieuwe publiek zoeken en gebruiken in Adobe Campaign.
+Uw publiek wordt nu geïmporteerd in uw Adobe Campaign-database. Het importproces duurt 24-36 uur om te synchroniseren, wanneer de segmenten direct uit de de kerndienst of Audience Manager van Mensen worden ingevoerd. Na deze periode kun je het nieuwe publiek in Adobe Campaign vinden en gebruiken.
 
 >[!NOTE]
 >
->Als u soorten publiek importeert van Adobe Analytics naar Adobe Campaign, moeten deze soorten publiek eerst worden gedeeld in People Core Service of Audience Manager. Dit proces duurt 12-24 uur en moet worden toegevoegd aan de synchronisatie van 24-36 uur met Campagne. In dat specifieke geval kan de tijd voor het delen van het publiek maximaal 60 uur bedragen. Raadpleeg deze [documentatie voor meer informatie over het delen van publiek in de People Core-service en Audience Manager van Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html).
+>Als u soorten publiek importeert van Adobe Analytics naar Adobe Campaign, moeten deze soorten publiek eerst worden gedeeld in People Core Service of Audience Manager. Dit proces duurt 12-24 uur en moet worden toegevoegd aan de synchronisatie van 24-36 uur met Campagne. In dat specifieke geval kan de tijd voor het delen van het publiek maximaal 60 uur bedragen. Raadpleeg deze [documentatie](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)voor meer informatie over het delen van het publiek in de People Core-service en Audience Manager van Adobe Analytics.
 
 ## Een publiek exporteren {#exporting-an-audience}
 
-Een publiek kan van de Campagne van Adobe aan de Manager van het Publiek of de kerndienst van Mensen worden uitgevoerd gebruikend een werkschema en de **[!UICONTROL Save audience]** activiteit.
+Een publiek kan van Adobe Campaign naar Audience Manager of de kerndienst van Mensen worden uitgevoerd gebruikend een werkschema en de **[!UICONTROL Save audience]** activiteit.
 
-Deze kan worden uitgevoerd in een nieuwe workflow en alleen door gebruikers die via IMS zijn verbonden (verificatie via Adobe-id).
+Het kan worden uitgevoerd in een nieuwe werkstroom en alleen door gebruikers die via IMS zijn verbonden (verificatie via Adobe ID).
 
 1. Maak een nieuwe workflow op basis van een programma, een campagne of de lijst met marketingactiviteiten.
 1. Wijs een reeks profielen aan met behulp van de verschillende beschikbare activiteiten.
@@ -74,9 +77,9 @@ Deze kan worden uitgevoerd in een nieuwe workflow en alleen door gebruikers die 
 1. Selecteer de corresponderende **[!UICONTROL Shared Data Source]**.
 1. Schakel desgewenst het **[!UICONTROL Generate an outbound transition]** selectievakje in om de profielen te gebruiken die zijn geëxporteerd. Alleen de profielen die met elkaar in overeenstemming kunnen worden gebracht, worden geëxporteerd.
 1. Bevestig de configuratie van de activiteit en sla uw werkschema op.
-1. Start de workflow om uw publiek te exporteren. De synchronisatie tussen Adobe Campaign en de People core-service kan enkele uren in beslag nemen
+1. Start de workflow om uw publiek te exporteren. De synchronisatie tussen Adobe Campaign en de kerndienst van Mensen kan verscheidene uren vergen
 
-De synchronisatie tussen Adobe Campaign en de People core-service duurt 24 tot 36 uur. Na deze periode kunt u uw nieuwe doelgroep vinden in de hoofdservice Personen en deze opnieuw gebruiken in andere Adobe Experience Cloud-oplossingen. Raadpleeg deze [documentatie](https://marketing.adobe.com/resources/help/en_US/mcloud/t_audience_create.html)voor meer informatie over het gebruik van een gedeelde Adobe-campagne in de Adobe People core-service.
+De synchronisatie tussen Adobe Campaign en de kerndienst van Mensen vergt 24-36 uur. Na deze periode kunt u uw nieuwe doelgroep vinden in de hoofdservice Personen en deze opnieuw gebruiken in andere Adobe Experience Cloud-oplossingen. Raadpleeg deze [documentatie](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-audience-create.html)voor meer informatie over het gebruik van een door Adobe Campaign gedeeld publiek in de Adobe People core-service.
 
 **Verwante onderwerpen:**
 
