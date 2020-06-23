@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: 4cda0d3a3e65959091cd24bec8af434ab07519f6
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Met het ![](assets/printpreview_darkgrey-24px.png) pictogram opent u het workflowlogboek en het taakmenu.
 
-De workflowgeschiedenis wordt opgeslagen voor de duur die is opgegeven in de opties voor workflowuitvoering (zie [Workfloweigenschappen](#workflow-properties)). Tijdens deze duur, worden alle berichten daarom bewaard, zelfs na een nieuw begin. Als u de berichten van een vorige uitvoering niet wilt opslaan, moet u de geschiedenis wissen door op de ![](assets/delete_darkgrey-24px.png) knop te klikken.
+De workflowgeschiedenis wordt opgeslagen voor de duur die is opgegeven in de opties voor workflowuitvoering (zie [Workfloweigenschappen](../../automating/using/managing-execution-options.md)). Tijdens deze duur, worden alle berichten daarom bewaard, zelfs na een nieuw begin. Als u de berichten van een vorige uitvoering niet wilt opslaan, moet u de geschiedenis wissen door op de ![](assets/delete_darkgrey-24px.png) knop te klikken.
 
 Het **[!UICONTROL Log]** tabblad bevat de uitvoeringsgeschiedenis van alle activiteiten of van geselecteerde activiteiten. De uitgevoerde bewerkingen en uitvoeringsfouten worden in chronologische volgorde geïndexeerd.
 
@@ -55,15 +55,15 @@ In dit geval wordt de onjuiste taak afgebroken. Deze modus is vooral geschikt vo
 
 >[!NOTE]
 >
->U kunt deze configuratie afzonderlijk toepassen voor elke activiteit. U doet dit door een activiteit te selecteren en deze te openen met de snelle actie ![](assets/edit_darkgrey-24px.png). Selecteer vervolgens de modus voor foutbeheer op het tabblad **Uitvoeropties** . Zie Opties voor het uitvoeren van [activiteiten](#activity-execution-options).
+>U kunt deze configuratie afzonderlijk toepassen voor elke activiteit. U doet dit door een activiteit te selecteren en deze te openen met de snelle actie ![](assets/edit_darkgrey-24px.png). Selecteer vervolgens de modus voor foutbeheer op het tabblad **Uitvoeropties** . Zie Opties voor het uitvoeren van [activiteiten](../../automating/using/activity-properties.md).
 
-In de eigenschappen [van de](#workflow-properties)workflow zijn aanvullende opties beschikbaar voor foutbeheer.
+In de eigenschappen [van de](../../automating/using/managing-execution-options.md)workflow zijn aanvullende opties beschikbaar voor foutbeheer.
 
 ![](assets/wkf_execution_error.png)
 
 Mogelijke opties zijn:
 
-* **[!UICONTROL Supervisors]**: Hiermee kunt u de groep personen definiëren die op de hoogte moeten worden gesteld (e-mail en meldingen in de app) als de workflow een fout aantreft. Als er geen groep wordt gedefinieerd, wordt niemand op de hoogte gebracht. Meer informatie over Adobe Campagne-meldingen vindt u in [Adobe Campagne-meldingen](../../administration/using/sending-internal-notifications.md).
+* **[!UICONTROL Supervisors]**: Hiermee kunt u de groep personen definiëren die op de hoogte moeten worden gesteld (e-mail en meldingen in de app) als de workflow een fout aantreft. Als er geen groep wordt gedefinieerd, wordt niemand op de hoogte gebracht. Raadpleeg [Adobe Campaign-berichten](../../administration/using/sending-internal-notifications.md)voor meer informatie over Adobe Campaign-berichten.
 
 * **[!UICONTROL In case of error]**: kunt u opgeven welke actie moet worden uitgevoerd als de activiteit een fout aantreft. Hiervoor zijn twee opties beschikbaar:
 
@@ -74,4 +74,4 @@ Mogelijke opties zijn:
 
    * Wanneer het opgegeven getal wordt opgegeven **[!UICONTROL 0]**, of zolang het opgegeven getal niet wordt bereikt, worden activiteiten die fouten tegenkomen, genegeerd. De andere werkstroomvertakkingen worden normaal uitgevoerd.
 
-   * Als het opgegeven aantal is bereikt, wordt de gehele workflow onderbroken en wordt deze **[!UICONTROL Erroneous]** vervolgens geactiveerd. Als toezichthouders zijn gedefinieerd, worden ze automatisch via e-mail op de hoogte gesteld. Zie [Adobe Campagne-meldingen](../../administration/using/sending-internal-notifications.md).
+   * Als het opgegeven aantal is bereikt, wordt de gehele workflow onderbroken en wordt deze **[!UICONTROL Erroneous]** vervolgens geactiveerd. Als toezichthouders zijn gedefinieerd, worden ze automatisch via e-mail op de hoogte gesteld. Zie [Adobe Campaign-meldingen](../../administration/using/sending-internal-notifications.md).
