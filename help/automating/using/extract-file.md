@@ -1,6 +1,6 @@
 ---
 title: Bestand uitpakken
-description: Met de bestandsactiviteit Extraheren kunt u gegevens uit Adobe Campagne exporteren in de vorm van een extern bestand.
+description: Met de bestandsactiviteit Extraheren kunt u gegevens uit Adobe Campaign exporteren in de vorm van een extern bestand.
 page-status-flag: never-activated
 uuid: 631f0fbd-9e8d-4f77-a338-fcb7f4fc1774
 contentOwner: sauviat
@@ -13,7 +13,10 @@ context-tags: fileExport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 0%
 
 ---
 
@@ -48,6 +51,9 @@ De manier waarop de gegevens worden geëxtraheerd, wordt gedefinieerd bij het co
    >U kunt de **[!UICONTROL formatDate]** functie in dit veld gebruiken om de bestandsnaam op te geven.
 
 1. Indien gewenst, kunt u het uitvoerbestand comprimeren door dit **[!UICONTROL Compression]** in het **[!UICONTROL Add a pre-processing step]** veld te selecteren. Het uitvoerbestand wordt gecomprimeerd tot een GZIP-bestand (.gz).
+
+   In het **[!UICONTROL Add a pre-processing step]** veld kunt u een bestand ook versleutelen voordat u het uitpakt. Raadpleeg [deze sectie voor meer informatie over het werken met gecodeerde bestanden](../../automating/using/managing-encrypted-data.md)
+
 1. Klik op de ![](assets/add_darkgrey-24px.png) knop of de **[!UICONTROL Add an element]** knop om een uitvoerkolom toe te voegen.
 
    ![](assets/wkf_data_export2.png)
@@ -76,7 +82,7 @@ De manier waarop de gegevens worden geëxtraheerd, wordt gedefinieerd bij het co
 
 In het volgende voorbeeld ziet u hoe u een **[!UICONTROL Extract file]** activiteit na een **[!UICONTROL Query]** activiteit configureert.
 
-Het doel van deze workflow is een lijst met profielen te exporteren in de vorm van een extern bestand, zodat de gegevens buiten de Adobe-campagne kunnen worden gebruikt.
+Het doel van deze workflow is een lijst met profielen te exporteren in de vorm van een extern bestand, zodat de gegevens buiten Adobe Campaign kunnen worden gebruikt.
 
 1. Sleep en zet een **[!UICONTROL Extract file]** activiteit neer in uw werkschema en plaats het na de **[!UICONTROL Query]** activiteit.
 
