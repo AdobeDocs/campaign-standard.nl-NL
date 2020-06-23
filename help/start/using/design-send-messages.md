@@ -1,6 +1,6 @@
 ---
 title: Lijsten aanpassen
-description: '"Leer hoe u de weergave kunt aanpassen en kunt werken op lijstschermen in Adobe Campagne Standard:elementen sorteren, filteren, verwijderen of dupliceren. De schermen van lijsten tonen elementen van één of verscheidene bepaalde middelen."'
+description: '"Leer hoe u de weergave kunt aanpassen en hoe u kunt werken op lijstschermen in Adobe Campaign Standard:elementen sorteren, filteren, verwijderen of dupliceren. De schermen van lijsten tonen elementen van één of verscheidene bepaalde middelen."'
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 0%
 
 ---
 
@@ -79,7 +82,7 @@ Persoonlijke berichten zijn essentieel voor het verzenden van relevante inhoud, 
 * Voeg [dynamische verpersoonlijkingsgebieden](../../designing/using/personalization.md#inserting-a-personalization-field) in uw berichten op
 * Vooraf [gedefinieerde aanpassingsblokken invoegen](../../designing/using/personalization.md#adding-a-content-block)
 * [De afzender](../../designing/using/subject-line.md) van een e-mail of een SMS-bericht aanpassen
-* [Pas de onderwerpregel](../../designing/using/subject-line.md) van een e-mail aan uw wensen aan of gebruik de mogelijkheden van de [prediklijn](../../designing/using/subject-line.md#predictive-subject-line) om dit te optimaliseren
+* [Pas de onderwerpregel](../../designing/using/subject-line.md) van een e-mail aan uw wensen aan of gebruik de mogelijkheden van de [prediklijn](../../designing/using/subject-line.md#subject-line) om dit te optimaliseren
 * [Voorwaardelijke inhoud maken in een e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) of [op een bestemmingspagina](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
 * Dynamische [tekst](../../channels/using/defining-dynamic-text.md) invoegen in een SMS-bericht of een pushmelding
 
@@ -95,7 +98,7 @@ Persoonlijke berichten zijn essentieel voor het verzenden van relevante inhoud, 
 
 <img width="60px" alt="voorwaarden" src="assets/icon_profile.svg"/>
 
-Naast krachtige, out-of-the-box rapporteringsmalplaatjes, laat de Campagne van Adobe u douanerapporten op een levering, een campagne, een gebruiker, of een segmentniveau tot stand brengen. Houd uw berichten bij en begrijp het gedrag van uw klanten door hun profielgegevens progressief te verrijken. Met de gereedschappen voor rapporten en analyses kunt u van elke nieuwe campagne profiteren, uw marketingacties beter op de voorgrond plaatsen en de impact en het rendement van uw investering optimaliseren.
+Naast krachtige, out-of-the box rapporteringsmalplaatjes, kunt Adobe Campaign u douanerapporten op een levering, een campagne, een gebruiker, of een segmentniveau tot stand brengen. Houd uw berichten bij en begrijp het gedrag van uw klanten door hun profielgegevens progressief te verrijken. Met de gereedschappen voor rapporten en analyses kunt u van elke nieuwe campagne profiteren, uw marketingacties beter op de voorgrond plaatsen en de impact en het rendement van uw investering optimaliseren.
 
 De grafische interface biedt snelle, eenvoudige toegang tot de belangrijkste indicatoren en leveringsstatistieken.
 
@@ -103,7 +106,7 @@ De grafische interface biedt snelle, eenvoudige toegang tot de belangrijkste ind
 
 De campagne die gebruikersinterface meldt vergemakkelijkt het creëren van dynamische rapporten. U kunt variabelen voor slepen en neerzetten gebruiken om uw rapporten aan te passen en het succes van uw campagnes te analyseren. Afhankelijk van de complexiteit van uw query&#39;s en berekeningen, kunnen de gegevens worden samengevoegd in een lijstweergave of worden geopend in een indeling waarmee het eenvoudig is om marketinganalytische rapporten te genereren.
 
-Met de Campagne van Adobe, kunt u elke levering controleren en volgen individueel. Het berichtdashboard toont specifieke logboeken aan follow-up processen, regels en identificeert mogelijke fouten en waarschuwingen.
+Met Adobe Campaign kunt u elke levering afzonderlijk controleren en bijhouden. Het berichtdashboard toont specifieke logboeken aan follow-up processen, regels en identificeert mogelijke fouten en waarschuwingen.
 
 
 **Meer informatie**
