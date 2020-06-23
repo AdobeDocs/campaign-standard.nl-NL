@@ -12,7 +12,10 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bebe6df66c9a87db882d03b36c72ebdae3085245
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '2342'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +43,7 @@ Verwante onderwerpen:
 
 Voer de volgende stappen uit om een **[!UICONTROL Fatigue]** typologieregel te maken en te configureren:
 
-1. Klik op het Adobe Campagne-logo in de linkerbovenhoek van de interface en selecteer **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
+1. Klik op het Adobe Campaign-logo in de linkerbovenhoek van de interface en selecteer **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
 
    ![](assets/fatigue4.png)
 
@@ -70,7 +73,7 @@ Voer de volgende stappen uit om een **[!UICONTROL Fatigue]** typologieregel te m
 
    ![](assets/fatigue20.png)
 
-1. Selecteer het **[!UICONTROL Typologies]** tabblad en koppel uw typologieregel aan de typologie die voor uw leveringen wordt gebruikt. Zie [Typologieën](../../sending/using/about-typology-rules.md#managing-typologies) en [Typologieregels](../../sending/using/about-typology-rules.md#typology-rules)beheren.
+1. Selecteer het **[!UICONTROL Typologies]** tabblad en koppel uw typologieregel aan de typologie die voor uw leveringen wordt gebruikt. Zie [Typologieën](../../sending/using/managing-typologies.md) en [Typologieregels](../../sending/using/managing-typology-rules.md)beheren.
 
    ![](assets/fatigue12.png)
 
@@ -190,7 +193,7 @@ Er zijn drie tabbladen beschikbaar waarin u de details kunt zien van de resultat
 
 ## Samenvattingsrapport voor de vermoeidheidsregel weergeven {#viewing-the-fatigue-rule-summary-report}
 
-Adobe Campaign beschikt over een speciaal rapport over vermoeidheidsregels om u te helpen begrijpen hoe deze regels op uw campagnes worden toegepast. Zo kunt u leren hoe uw campagnes elkaar beïnvloeden en de juiste aanpassingen aanbrengen.
+Adobe Campaign heeft een speciaal rapport over vermoeidheidsregels om u te helpen begrijpen hoe deze worden toegepast op uw campagnes. Zo kunt u leren hoe uw campagnes elkaar beïnvloeden en de juiste aanpassingen aanbrengen.
 
 Het **[!UICONTROL Fatigue rules summary]** rapport kan van de **[!UICONTROL Reports]** knoop, in de hoogste juiste hoek van elk programma, campagne, en bericht worden betreden.
 
@@ -235,7 +238,7 @@ Er zijn veel mogelijkheden op het gebied van de uitvoering van vermoeidheidsbehe
 
    ![](assets/fatigue24.png)
 
-* Maak een vermoeidheidsregel met een berekeningsformule **voor** drempelwaarden:
+* Maak een vermoeidheidsregel met behulp van een **formule** voor drempelberekening:
 
    U wilt de drempelwaarde wijzigen op basis van de leeftijd van uw profielen. Als een profiel kleiner is dan 40, wilt u een limiet van 4 definiëren en een limiet van 2 voor oudere profielen. In plaats van deze drempel voor elk profiel met een uitgebreid veld te definiëren, kunt u rechtstreeks in de vermoeidheidsregel een formule maken om de drempel op basis van de leeftijd van het profiel te berekenen. In ons voorbeeld zou de formule zijn **[!UICONTROL Iif (@age<40, 4, 2)]**.
 
@@ -272,7 +275,7 @@ Pas de volgende stappen toe om de regel te maken:
 
    ![](assets/fatigue9.png)
 
-1. Voer de gewenste waarden in om de volgende formule te maken: **IF(@status=0,2,4)**
+1. Voer de gewenste waarden in om de volgende formule te maken: **Iif(@status=0,2,4)**
 
    ![](assets/fatigue10.png)
 
