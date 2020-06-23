@@ -12,9 +12,9 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: adc5e92183b891a70cac4aa7a6ed96148d104a20
+source-git-commit: 26f8f7855a30fe90dbfee4bb2b5ee55c7bf4e02b
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,13 @@ ht-degree: 0%
 
 In sommige gevallen moeten de gegevens die u wilt importeren, mogelijk worden gecodeerd, bijvoorbeeld als deze PII-gegevens bevatten.
 
-Als u gecodeerde bestanden wilt importeren of exporteren, moet u eerst contact opnemen met de klantenservice van Adobe, zodat deze uw instantie de benodigde opdrachten voor versleuteling/ontsleuteling kunnen geven.
+Als u uitgaande gegevens wilt coderen of binnenkomende gegevens wilt decoderen, moet u de GPG-sleutels beheren met het [Configuratiescherm](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html).
 
-Hiertoe dient u een verzoek in met de volgende gegevens:
+>[!NOTE]
+>
+>Het Configuratiescherm is beschikbaar voor alle klanten die op AWS worden gehost (behalve voor klanten die hun marketinginstanties op locatie hosten).
+
+Als u niet in aanmerking komt om het Configuratiescherm te gebruiken, dient u contact op te nemen met de klantenservice van Adobe, zodat deze uw exemplaar de benodigde opdrachten voor versleuteling/ontsleuteling kunnen geven. Hiertoe dient u een verzoek in met de volgende gegevens:
 
 * Het **label** dat in de interface van de Campagne zal tonen om het bevel te gebruiken. Bijvoorbeeld &quot;Bestand versleutelen&quot;.
 * De **opdracht** om op uw instantie te installeren.
@@ -36,12 +40,6 @@ Hiertoe dient u een verzoek in met de volgende gegevens:
 Zodra het verzoek wordt verwerkt, zullen de encryptie/decryptiebevelen op het **[!UICONTROL Pre-processing stage]** gebied van de **[!UICONTROL Load file]** en **[!UICONTROL Extract file]** activiteiten beschikbaar zijn. U kunt deze gebruiken om de bestanden te decoderen of te coderen die u wilt importeren of exporteren.
 
 ![](assets/preprocessing-encryption.png)
-
->[!NOTE]
->
->Merk op dat de sleutels GPG aan uw instantie kunnen worden toegevoegd gebruikend het Controlebord, dat aan alle klanten beschikbaar is die op AWS worden ontvangen (behalve voor klanten die hun marketing instanties op gebouw ontvangen).
->
->Raadpleeg de documentatie bij het [Configuratiescherm voor meer informatie](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html).
 
 **Verwante onderwerpen:**
 
