@@ -12,14 +12,17 @@ discoiquuid: e029213f-0b65-41b1-8adf-34fa813b0c70
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 4575c1152f1a33ff18b2200151346cc6e56b45fa
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 0%
 
 ---
 
 
 # Actieve profielen{#active-profiles}
 
-Adobe Campaign biedt een rapport waarin het aantal actieve profielen wordt weergegeven. Dit rapport is slechts informatief, het heeft geen directe invloed op het factureren. Alleen beheerders hebben toegang tot dit rapport, onder **[!UICONTROL Administration > Customer metrics]**.
+Adobe Campaign geeft een rapport weer waarin het aantal actieve profielen wordt weergegeven. Dit rapport is slechts informatief, het heeft geen directe invloed op het factureren. Alleen beheerders hebben toegang tot dit rapport, onder **[!UICONTROL Administration > Customer metrics]**.
 
 ![](assets/audience_active_profiles1.png)
 
@@ -29,3 +32,4 @@ Er wordt geen rekening gehouden met de profielen die tijdens de voorbereiding va
 
 ![](assets/audience_active_profiles2.png)
 
+Als u wordt gehost op AWS en Campaign Standard gebruikt vanuit build 10368, kunt u het aantal actieve profielen dat wordt gebruikt op uw instanties ook rechtstreeks controleren via het Configuratiescherm. Raadpleeg de documentatie bij het [Configuratiescherm voor meer informatie](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
