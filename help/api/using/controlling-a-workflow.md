@@ -12,7 +12,10 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +28,7 @@ U kunt een workflow rechtstreeks vanuit de REST API beheren via een POST-aanvraa
 
 >[!CAUTION]
 >
->Als de werklow-id wordt gewijzigd in Adobe Campaign, werkt de API-aanvraag niet meer.
+>Als de workflow-id in Adobe Campaign wordt gewijzigd, werkt de API-aanvraag niet meer.
 
 Er zijn vier uitvoeringsopdrachten beschikbaar om een workflow te besturen:
 
@@ -34,7 +37,7 @@ Er zijn vier uitvoeringsopdrachten beschikbaar om een workflow te besturen:
 * Hervatten
 * Stoppen
 
-Raadpleeg de documentatie bij [Campagne voor meer informatie over de uitvoeringsopdrachten](https://helpx.adobe.com/campaign/standard/automating/using/executing-a-workflow.html).
+Raadpleeg de documentatie bij [Campagne voor meer informatie over de uitvoeringsopdrachten](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
 
 <br/>
 
