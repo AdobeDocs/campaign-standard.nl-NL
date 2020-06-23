@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
 source-wordcount: '2536'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 # E-mailinhoud aanpassen {#personalization}
 
-De inhoud en weergave van berichten die door Adobe Campaign worden geleverd, kunnen op verschillende manieren worden aangepast. Deze methoden kunnen worden gecombineerd op basis van criteria die afhankelijk zijn van de profielen. In het algemeen kunt u met Adobe Campaign:
+De inhoud en weergave van berichten die door Adobe Campaign worden geleverd, kunnen op verschillende manieren worden gepersonaliseerd. Deze methoden kunnen worden gecombineerd op basis van criteria die afhankelijk zijn van de profielen. In het algemeen kunt u met Adobe Campaign:
 
 * Voeg dynamische verpersoonlijkingsgebieden in. Zie Een verpersoonlijkingsveld [invoegen](#inserting-a-personalization-field).
 * Vooraf gedefinieerde aanpassingsblokken invoegen. Zie [Een inhoudsblok](#adding-a-content-block)toevoegen.
@@ -40,11 +40,11 @@ U kunt dit veld aanpassen. Hiervoor kunt u aanpassingsvelden, inhoudsblokken en 
 
 >[!NOTE]
 >
->De headerparameters mogen niet leeg zijn. Het adres van de afzender is verplicht om een e-mailbericht toe te staan (norm RFC). Adobe Campagne controleert de syntaxis van e-mailadressen ingegaan.
+>De headerparameters mogen niet leeg zijn. Het adres van de afzender is verplicht om een e-mailbericht toe te staan (norm RFC). Adobe Campaign controleert de syntaxis van de ingevoerde e-mailadressen.
 
 ## URL&#39;s aanpassen{#personalizing-urls}
 
-Met Adobe Campaign kunt u een of meerdere URL&#39;s in uw bericht aanpassen door personalisatievelden, inhoudsblokken of dynamische inhoud aan de URL&#39;s toe te voegen. Dit doet u als volgt:
+Met Adobe Campaign kunt u een of meer URL&#39;s in uw bericht aanpassen door personalisatievelden, inhoudsblokken of dynamische inhoud aan de URL&#39;s toe te voegen. Dit doet u als volgt:
 
 1. Voeg een externe URL in en geef de parameters ervan op. Zie Een koppeling [invoegen](../../designing/using/links.md#inserting-a-link).
 1. Als deze optie niet wordt weergegeven, klikt u op het potlood naast de geselecteerde URL in het deelvenster Instellingen voor toegang tot de verpersoonlijkingsopties.
@@ -185,7 +185,7 @@ Raadpleeg [Doeldimensies en bronnen](../../automating/using/query.md#targeting-d
 
 ## Een afbeeldingsbron aanpassen{#personalizing-an-image-source}
 
-Met Adobe Campaign kunt u een of meer afbeeldingen in uw bericht aan een bepaald criterium aanpassen of de afbeeldingen bijhouden gebruiken. Dit wordt gedaan door verpersoonlijkingsgebieden, inhoudsblokken, of dynamische inhoud in de beeldbron op te nemen. Dit doet u als volgt:
+Met Adobe Campaign kunt u een of meer afbeeldingen in uw bericht aanpassen aan een bepaald criterium of de afbeeldingen bijhouden gebruiken. Dit wordt gedaan door verpersoonlijkingsgebieden, inhoudsblokken, of dynamische inhoud in de beeldbron op te nemen. Dit doet u als volgt:
 
 1. Voeg een afbeelding in in de inhoud van het bericht of selecteer een afbeelding die al aanwezig is.
 1. Schakel de **[!UICONTROL Enable personalization]** optie in het palet Eigenschappen van afbeelding in.
@@ -201,7 +201,7 @@ Met Adobe Campaign kunt u een of meer afbeeldingen in uw bericht aan een bepaald
 
    >[!NOTE]
    >
-   >De domeinnaam (http://mydomain.com) kan niet worden gepersonaliseerd, maar moet handmatig worden ingevoerd. De rest van de URL kan worden gepersonaliseerd. Bijvoorbeeld: http://mydomain.com/`[Gender]`.jpg
+   >De domeinnaam (http://mydomain.com) kan niet worden gepersonaliseerd, maar moet handmatig worden ingevoerd. De rest van de URL kan worden gepersonaliseerd. Bijvoorbeeld: http://mydomain.com/ `[Gender]` .jpg
 
 1. Bevestig uw wijzigingen.
 
