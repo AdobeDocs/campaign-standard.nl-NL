@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '5399'
+source-wordcount: '5401'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Bekijk de nieuwste [documentatieupdates](../../rn/using/documentation-updates.md
 
 **Verbeteringen**
 
-* Dankzij de integratie met Adobe Campaign en Adobe Target kunt u nu gebruikmaken van de functie [Machtigingen](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html) van Target. Wanneer u een dynamische afbeelding van Adobe Target in een e-mail opneemt, kunt u nu een Target-eigenschap (at_property-code) opgeven.
+* Dankzij de integratie met Adobe Campaign en Adobe Target kunt u nu gebruikmaken van de functie [Machtigingen](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) van Target. Wanneer u een dynamische afbeelding van Adobe Target in een e-mail opneemt, kunt u nu een Target-eigenschap (at_property-code) opgeven.
 * Aangepaste bronnen met een eigen koppeling naar de profielbron worden nu in aanmerking genomen door verzoeken om toegang tot of verwijdering van GDPR-privacy. Voor 1 kardinaliteit eenvoudige verbindingen en de verbindingen van de kardinaliteitsinzameling van N, moet u &quot;het Schrappen/het Dupliceren van het doelverslag impliceren schrappend/het dupliceren van de verslagen van verwijzingen voorzien door de verbinding&quot;in het douanemiddel selecteren. Voor eenvoudige 0- of 1-cardinaliteit-koppelingen selecteert u &quot;Verwijderen/dupliceren van de record houdt in dat de doelrecord waarnaar door de koppeling wordt verwezen, wordt verwijderd/gedupliceerd&quot;.
 
 **Overige wijzigingen**
