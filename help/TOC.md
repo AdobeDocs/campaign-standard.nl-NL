@@ -2,17 +2,17 @@
 product: adobe campaign
 sub-product: Adobe-campagnestandaard
 audience: end-user
-user-guide-title: Help bij Adobe Campaign Standard
+user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: c7bac40fc736c107dcdbc910ab35b9eb53a915f6
+source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1402'
 ht-degree: 0%
 
 ---
 
 
-# Help bij Adobe Campaign Standard {#using}
+# Adobe Campaign Standard Help {#using}
 
 + [Productdocumentatie](campaign-standard-home.md)
 + [Laatste updates](rn/using/documentation-updates.md)
@@ -26,7 +26,7 @@ ht-degree: 0%
    + [Release-planning](rn/using/release-planning.md)
    + [Verouderde functies](rn/using/deprecated-features.md)
 + Aan de slag {#getting-started}
-   + [Informatie over Adobe Campagne Standard](start/using/about-campaign-standard.md)
+   + [Informatie over Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + [Privacy en instemming](start/using/privacy.md)
    + De interface detecteren {#discovering-the-interface}
       + [Over de interface](start/using/about-the-interface.md)
@@ -43,7 +43,7 @@ ht-degree: 0%
       + [Profielen](audiences/using/about-profiles.md)
       + [Profielen maken](audiences/using/creating-profiles.md)
       + [Profielen bewerken](audiences/using/editing-profiles.md)
-      + [Geïntegreerd klantprofiel](audiences/using/integrated-customer-profile.md)
+      + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
       + [Actieve profielen](audiences/using/active-profiles.md)
       + [Testprofielen beheren](audiences/using/managing-test-profiles.md)
       + [De verrijkende gegevensbestand van de Campagne](audiences/using/enriching-campaign-database.md)
@@ -61,10 +61,10 @@ ht-degree: 0%
       + [Over opt-in en opt-out in campagne](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Optie en opt-out beheren in campagne](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [Optieprofielen voor levering identificeren](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
-   + Werken met het Adobe Experience Platform {#working-with-adobe-experience-platform}
+   + Werken met Adobe Experience Platform {#working-with-adobe-experience-platform}
       + [Informatie over de service Bestemmingen publiek](audiences/using/aep-about-audience-destinations-service.md)
-      + [Adobe Experience Platform-publiek beheren](audiences/using/aep-managing-audiences.md)
-      + [Het gebruiken van de Verenigde Bouwer van het Segment](audiences/using/aep-using-segment-builder.md)
+      + [Adobe Experience Platforms publiek beheren](audiences/using/aep-managing-audiences.md)
+      + [De Segment Builder gebruiken](audiences/using/aep-using-segment-builder.md)
 + Communicatiekanalen {#communication-channels}
    + [Aan de slag met communicatiekanalen](channels/using/get-started-communication-channels.md)
    + Communicatiekanalen {#about-communication-channels}
@@ -93,8 +93,8 @@ ht-degree: 0%
       + [Een CSV-bestand genereren voor Meertalig pushbericht](channels/using/generating-csv-multilingual-push.md)
       + [Profielgegevens maken en bijwerken op basis van gegevens van mobiele toepassingen](channels/using/updating-profile-with-mobile-app-data.md)
       + [Push tracking implementeren](channels/using/push-tracking.md)
-      + [Een afbeelding weergeven op basis van een pushmelding in Adobe Campagne Standard](channels/using/image-push-notification.md)
-      + [Werken met de standaardstructuur voor pushberichten](channels/using/push-payload.md)
+      + [Een afbeelding weergeven op basis van een Adobe Campaign Standard-pushmelding](channels/using/image-push-notification.md)
+      + [Werken met de betalingsstructuur van Campaign Standard-pushberichten](channels/using/push-payload.md)
    + Messaging in de app {#in-app-messaging}
       + [Info over In-App-berichten](channels/using/about-in-app-messaging.md)
       + [Een bericht in de app voorbereiden en verzenden](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -210,25 +210,25 @@ ht-degree: 0%
 + Integreren met andere oplossingen {#integrating-with-adobe-cloud}
    + [Aan de slag met de integratie van campagnes](integrating/using/get-started-campaign-integrations.md)
    + Campagne en Experience Manager {#working-with-campaign-and-experience-manager}
-      + [De integratie van Campagne-Experience Manager](integrating/using/integrating-with-experience-manager.md)
-      + [De integratie van Campagne-Experience Manager configureren](integrating/using/configure-experience-manager.md)
+      + [Over de integratie van Campagne-Experience Manager](integrating/using/integrating-with-experience-manager.md)
+      + [De integratie tussen Campagne en Experience Manager configureren](integrating/using/configure-experience-manager.md)
       + [E-mailinhoud maken in Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
       + [Campagneformulier maken in Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-   + Campagne en doel {#working-with-campaign-and-target}
-      + [Info over Campagne-Target-integratie](integrating/using/about-campaign-target-integration.md)
-      + [De integratie Campagne-Target configureren](integrating/using/configuring-the-campaign-target-integration.md)
-      + [Dynamische doelinhoud toevoegen](integrating/using/adding-target-dynamic-content.md)
-   + Campagne en analyse {#working-with-campaign-and-analytics}
-      + [Integratie van Campagne-Analytics](integrating/using/about-campaign-analytics-integration.md)
-      + [Integratie van Campagne-Analytics configureren](integrating/using/configure-campaign-analytics-integration.md)
-      + [Campagnedimensies en meetgegevens in Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + Campagne en de Manager van de Auditie of de dienst van de Kern van Mensen {#working-with-campaign-and-audience-manager-or-people-core-service}
-      + [Informatie over de integratie van de kern van de service Campagne-Audience Manager of People](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
-      + [De levering en het vormen integratie met de Manager van het Publiek of de kerndienst van Mensen](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+   + Campagne en Target {#working-with-campaign-and-target}
+      + [Over de integratie van Campagne-Target](integrating/using/about-campaign-target-integration.md)
+      + [De integratie tussen Campagne en Target configureren](integrating/using/configuring-the-campaign-target-integration.md)
+      + [Dynamische Target-inhoud toevoegen](integrating/using/adding-target-dynamic-content.md)
+   + Campagne en Analytics {#working-with-campaign-and-analytics}
+      + [Over de integratie van Campagne-Analytics](integrating/using/about-campaign-analytics-integration.md)
+      + [Campagne-Analytics-integratie configureren](integrating/using/configure-campaign-analytics-integration.md)
+      + [Campagne-afmetingen en cijfers in Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
+   + Campagne en Audience Manager of de kerndienst van Mensen {#working-with-campaign-and-audience-manager-or-people-core-service}
+      + [De de dienstintegratie van de Campagne-Audience Manager of van de Kern van Mensen](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+      + [De levering en het vormen integratie met Audience Manager of de kerndienst van Mensen](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [Problemen oplossen](integrating/using/troubleshooting.md)
-      + [Het delen van publiek met de Manager van de Publiek of de kerndienst van Mensen](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
+      + [Het delen van publiek met de Audience Manager of de kerndienst van Mensen](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Werken met de centrale service Campagne en middelen](integrating/using/working-with-campaign-and-assets-core-service.md)
-   + Campagne en analyse voor mobiele apparaten {#working-with-campaign-and-analytics-for-mobile}
+   + Campagne en Analytics for Mobile {#working-with-campaign-and-analytics-for-mobile}
       + [Info over de integratie van campagnepunten voor interessante gegevens](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Integratie van Campagne-Punten van interessegegevens configureren](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [Campagneberichten aanpassen met gegevens van het Punt](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
@@ -313,11 +313,11 @@ ht-degree: 0%
       + [Niet-openers opnieuw rangschikken](automating/using/workflow-cross-channel-retargeting.md)
       + [Een controlegroep samenstellen](automating/using/workflow-control-group.md)
       + [Een levering tussen kanalen maken](automating/using/workflow-cross-channel-delivery.md)
-   + Werken met het publiek van het Adobe Experience Platform {#working-with-aep-audiences}
-      + [Doelgroep voor Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
-      + [Campagnes aanpassen met de kenmerken van het Adobe Experience Platform](automating/using/aep-personalizing-campaigns.md)
+   + Werken met Adobe Experience Platforms {#working-with-aep-audiences}
+      + [Doelgroepen Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
+      + [Bezig met aanpassen van campagnes met gebruik van kenmerken van Adobe Experience Platforms](automating/using/aep-personalizing-campaigns.md)
 + Ontwikkelen {#developing}
-   + [Aan de slag met het standaard gegevensmodel van de campagne](developing/using/get-started-data-model.md)
+   + [Aan de slag met het Campaign Standard-gegevensmodel](developing/using/get-started-data-model.md)
    + Informatie over aangepaste bronnen {#about-custom-resources}
       + [Concepten van gegevensmodellen](developing/using/data-model-concepts.md)
       + [Bronstatussen](developing/using/resource-statuses.md)
@@ -357,12 +357,12 @@ ht-degree: 0%
       + [Bezoeker](developing/using/datamodel-visitor.md)
    + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
       + [Info over Adobe Experience Platform Data Connector](developing/using/aep-about-data-connector.md)
-      + [Datamodel van het Platform van de ervaring](developing/using/aep-data-model-overview.md)
+      + [Experience Platform Datamodel, overzicht](developing/using/aep-data-model-overview.md)
       + [Toewijzingsdefinitie](developing/using/aep-mapping-definition.md)
       + [Toewijzingsactivering](developing/using/aep-mapping-activation.md)
       + [Gegevensinvoer via API&#39;s activeren](developing/using/aep-triggering-data-ingestion.md)
 + Beheer {#administrating}
-   + [Ga aan de slag met het beheer Campagne Standard](administration/using/get-started-campaign-administration.md)
+   + [Aan de slag met de Campaign Standard-administratie](administration/using/get-started-campaign-administration.md)
    + [Richtlijnen voor configuratie](administration/using/about-configuration-guidelines.md)
    + Gebruikers en beveiliging {#users-and-security}
       + [Over toegangsbeheer](administration/using/about-access-management.md)
@@ -379,7 +379,7 @@ ht-degree: 0%
       + [Een mobiele toepassing configureren](administration/using/configuring-a-mobile-application.md)
       + [Transactieberichten configureren](administration/using/configuring-transactional-messaging.md)
    + Toepassingsinstellingen {#application-settings}
-      + [Informatie over standaardinstellingen voor campagnes](administration/using/about-campaign-standard-settings.md)
+      + [Informatie over Campaign Standard-instellingen](administration/using/about-campaign-standard-settings.md)
       + [Externe rekeningen](administration/using/external-accounts.md)
       + [Doeltoewijzingen in campagne](administration/using/target-mappings-in-campaign.md)
       + [Technische workflows](administration/using/technical-workflows.md)
@@ -388,9 +388,9 @@ ht-degree: 0%
       + [Bewaren van gegevens](administration/using/data-retention.md)
       + [Updates en onderhoudswerkzaamheden](administration/using/updates-and-maintenance-operations.md)
 + Werken met API&#39;s {#working-with-apis}
-   + [Aan de slag met standaard API&#39;s voor campagnes](api/using/get-started-apis.md)
-   + Informatie over standaard-API&#39;s voor campagnes {#about-campaign-standard-apis}
-      + [Waarom API&#39;s voor standaard campagne gebruiken](api/using/why-using-campaign-standard-apis.md)
+   + [Aan de slag met Campaign Standard API&#39;s](api/using/get-started-apis.md)
+   + Informatie over Campaign Standard API&#39;s {#about-campaign-standard-apis}
+      + [Waarom Campaign Standard API&#39;s gebruiken](api/using/why-using-campaign-standard-apis.md)
       + [API-toegang instellen](api/using/setting-up-api-access.md)
    + Algemene concepten {#global-concepts}
       + [Doorlezen](api/using/must-read.md)
