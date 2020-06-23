@@ -13,7 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 78800930d78179c1e390313c35f70627b5df0769
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '1494'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +25,7 @@ source-git-commit: 78800930d78179c1e390313c35f70627b5df0769
 
 Als u uw pushmelding wilt verfijnen, kunt u in Adobe Campaign toegang krijgen tot een set geavanceerde opties terwijl u een pushmelding ontwerpt.
 
-Als deskundige gebruiker, om mobiele toepassingen in de Campagne van Adobe te vormen, verwijs naar het volgende technische [Begrip van de StandaardStructuur](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)van de Berichten van de Push van de Campagne de Norm.
+Als deskundige gebruiker, om mobiele toepassingen in Adobe Campaign te vormen, verwijs naar het volgende technische [Begrip van de Structuur](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)van de Payload van de Berichten van Campaign Standard.
 
 ![](assets/push_notif_advanced.png)
 
@@ -40,7 +43,7 @@ Met een geluid worden gebruikers gewaarschuwd voor een pushmelding, waardoor dez
 1. Open de pushmelding en open de **[!UICONTROL Advanced options]** sectie.
 1. Voer in het **[!UICONTROL Play a sound]** veld de bestandsnaam in van het geluidsbestand, zonder de extensie, dat door het mobiele apparaat moet worden afgespeeld wanneer het bericht wordt ontvangen.
 
-   Raadpleeg de documentatie van [Apple](https://support.apple.com/kb/PH16864?locale=en_US) en [Android](https://developer.android.com/guide/topics/media/media-formats.html) voor meer informatie over ondersteunde media-indelingen.
+   Raadpleeg de documentatie van [Apple](https://support.apple.com/kb/PH16864?locale=en_US) en [Android](https://developer.android.com/guide/topics/media/media-formats) voor meer informatie over ondersteunde media-indelingen.
 
    ![](assets/push_notif_advanced_7.png)
 
@@ -153,7 +156,7 @@ Rijke media opnemen in de pushmelding:
 1. Open de pushmelding en open de **[!UICONTROL Advanced options]** sectie.
 1. Voer in het **[!UICONTROL Rich media content URL]** veld de URL van het bestand in voor elke indeling: iOS en Android.
 
-   Voor iOS 10 of hoger kunt u afbeeldings-, gif-, audio- en videobestanden invoegen. Voor eerdere iOS-versies wordt de pushmelding weergegeven zonder rijke inhoud. Raadpleeg deze [pagina](https://helpx.adobe.com/campaign/kb/display-image-push.html)voor gedetailleerde stappen over het weergeven van een afbeelding vanuit een pushmelding voor Adobe Campagne op een iOS-apparaat.
+   Voor iOS 10 of hoger kunt u afbeeldings-, gif-, audio- en videobestanden invoegen. Voor eerdere iOS-versies wordt de pushmelding weergegeven zonder rijke inhoud. Raadpleeg deze [pagina](https://helpx.adobe.com/campaign/kb/display-image-push.html)voor gedetailleerde stappen over het weergeven van een afbeelding vanuit een Adobe Campaign-pushmelding op een iOS-apparaat.
 
    Voor Android kunt u alleen afbeeldingen opnemen.
 
@@ -171,7 +174,7 @@ Voor iOS 10 of hoger zijn twee extra opties beschikbaar in het **[!UICONTROL Adv
 
 Wanneer de **[!UICONTROL Mutable content]** optie is ingeschakeld en/of een URL voor veelzijdige media-inhoud wordt toegevoegd, wordt de markering voor meerbare inhoud verzonden in de pushlading en kan de inhoud van het pushbericht worden gewijzigd door een uitbreiding van de berichtservice die is opgegeven in iOS SDK. Raadpleeg de documentatie bij [ontwikkelaars van](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)Apple voor meer informatie hierover.
 
-Vervolgens kunt u uw mobiele app-extensies gebruiken om de inhoud of presentatie van aankomende pushberichten die vanuit Adobe Campagne zijn verzonden, verder te wijzigen. Gebruikers kunnen deze optie bijvoorbeeld gebruiken om:
+Vervolgens kunt u uw mobiele app-extensies gebruiken om de inhoud of presentatie van aankomende pushberichten die vanuit Adobe Campaign zijn verzonden, verder te wijzigen. Gebruikers kunnen deze optie bijvoorbeeld gebruiken om:
 
 * Gegevens decoderen die in een gecodeerde indeling zijn geleverd
 * Afbeeldingen of andere mediabestanden downloaden en toevoegen als bijlagen aan een melding
