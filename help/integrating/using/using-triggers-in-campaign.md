@@ -12,9 +12,9 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Een toegewezen trigger maken in Campagne {#creating-a-mapped-trigger-in-campaign}
 
-Zorg ervoor dat u de gedragingen definieert die u vooraf wilt controleren in Adobe Experience Cloud ( **[!UICONTROL Triggers]** kernservice). Raadpleeg de documentatie [van](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html)Adobe Experience Cloud voor meer informatie. Wanneer u de trigger definieert, moet u de aliassen inschakelen. Voor elk gedrag (bladeren/verlaten van formulieren, toevoegen/verwijderen van producten, verlopen sessie, enz.) moet een nieuwe trigger worden toegevoegd in Adobe Experience Cloud.
+Zorg ervoor dat u de gedragingen definieert die u vooraf wilt controleren in Adobe Experience Cloud ( **[!UICONTROL Triggers]** kernservice). Raadpleeg de documentatie [van](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html)Adobe Experience Cloud voor meer informatie. Wanneer u de trigger definieert, moet u de aliassen inschakelen. Voor elk gedrag (bladeren/verlaten van formulieren, toevoegen/verwijderen van producten, verlopen sessie, enz.) moet een nieuwe trigger worden toegevoegd in Adobe Experience Cloud.
 
 U moet nu een triggergebeurtenis maken in Adobe Campaign op basis van een bestaande Adobe Experience Cloud-trigger.
 
@@ -36,7 +36,7 @@ De stappen om dit in werking te stellen zijn:
 
    ![](assets/remarketing_1.png)
 
-1. Klik op de **[!UICONTROL Create]** knop. De aanmaakwizard die wordt geopend, geeft een lijst weer van alle triggers die zijn gedefinieerd in Adobe Experience Cloud. In de **[!UICONTROL Fired by Analytics]** kolom wordt het aantal gebeurtenissen weergegeven dat door de Adobe Experience Cloud-trigger naar Campagne wordt verzonden. Dit is het in kaart brengen van trekkers die in de interface van de Wolk van de Ervaring worden gecreeerd.
+1. Klik op de **[!UICONTROL Create]** knop. De aanmaakwizard die wordt geopend, geeft een lijst weer van alle triggers die zijn gedefinieerd in Adobe Experience Cloud. In de **[!UICONTROL Fired by Analytics]** kolom wordt het aantal gebeurtenissen weergegeven dat door de Adobe Experience Cloud-trigger naar Campagne wordt verzonden. Dit is het in kaart brengen van trekkers die in de interface van Experience Cloud worden gecreeerd.
 
    ![](assets/remarketing_2.png)
 
@@ -71,17 +71,17 @@ Als u wilt dat de gebeurtenis het verzenden van een transactiemelding activeert,
 >
 >Als u de publicatie van de sjabloon ongedaan maakt, wordt de publicatie van de triggergebeurtenis automatisch ongedaan gemaakt.
 
-Wanneer u inhoud bewerkt, kunt u een aanpassingsveld toevoegen op basis van de informatie die door de trigger Analytics wordt verzonden. Als u de gebeurtenisgegevens verrijkt met Adobe Campagne-profielgegevens, kunt u het bericht personaliseren op basis van deze gegevens. Als u uw bericht wilt aanpassen, selecteert u **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** en selecteert u een veld.
+Wanneer u inhoud bewerkt, kunt u een aanpassingsveld toevoegen op basis van de informatie die door de Analytics-trigger is verzonden. Als u de gebeurtenisgegevens verrijkt met Adobe Campaign-profielgegevens, kunt u het bericht personaliseren op basis van deze gegevens. Als u uw bericht wilt aanpassen, selecteert u **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** en selecteert u een veld.
 
 ![](assets/remarketing_8.png)
 
 ## De rapporten openen {#accessing-the-reports}
 
-Als u het toegewezen triggerrapport wilt weergeven in Adobe Campaign, opent u de triggergebeurtenis die u eerder hebt gemaakt en klikt u op **[!UICONTROL Show trigger report]**.
+Als u het toegewezen triggerrapport in Adobe Campaign wilt weergeven, opent u de eerder gemaakte triggergebeurtenis en klikt u op **[!UICONTROL Show trigger report]**.
 
 ![](assets/remarketing_9.png)
 
-Het rapport toont het aantal verwerkte gebeurtenissen in vergelijking met het aantal gebeurtenissen dat door Analytics wordt verzonden. Er wordt ook een lijst weergegeven met alle recente triggers.
+Het rapport geeft het aantal verwerkte gebeurtenissen weer in vergelijking met het aantal gebeurtenissen dat door Analytics is verzonden. Er wordt ook een lijst weergegeven met alle recente triggers.
 
 ![](assets/trigger_uc_browse_14.png)
 
