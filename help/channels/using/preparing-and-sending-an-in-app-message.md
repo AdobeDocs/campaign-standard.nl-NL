@@ -13,7 +13,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+workflow-type: tm+mt
+source-wordcount: '1274'
+ht-degree: 10%
 
 ---
 
@@ -22,16 +25,16 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 >[!NOTE]
 >
->De personalisatie in de app is afhankelijk van een koppelingsveld dat doorgaans een CRM-id en/of een Mobile App Login-id is. U bent als enige verantwoordelijk voor het beveiligen van dit koppelingsveld wanneer dit wordt gebruikt in verband met Adobe Campagne. Als u uw koppelingsveld(en) niet veilig houdt, kan uw persoonlijke bericht kwetsbaar zijn. Adobe is niet aansprakelijk voor schade die voortvloeit uit ongeoorloofde toegang tot of gebruik van profielgegevens als u de compositie, het beheer en de beveiligingspraktijken van het veld voor veilige koppelingen niet opvolgt.
+>De personalisatie in de app is afhankelijk van een koppelingsveld dat doorgaans een CRM-id en/of een Mobile App Login-id is. U bent als enige verantwoordelijk voor het beveiligen van dit koppelingsveld bij gebruik in combinatie met Adobe Campaign. Als u uw koppelingsveld(en) niet veilig houdt, kan uw persoonlijke bericht kwetsbaar zijn. Adobe is niet aansprakelijk voor schade die voortvloeit uit ongeoorloofde toegang tot of gebruik van profielgegevens als u de compositie, het beheer en de beveiligingspraktijken van het veld voor veilige koppelingen niet opvolgt.
 
-Er zijn drie typen In-App-berichten beschikbaar in Adobe Campagne:
+Er zijn drie typen In-App-berichten beschikbaar in Adobe Campaign:
 
-* **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: Met dit berichttype kunt u zich richten op Adobe Campagne-profielen (CRM-profielen) die zijn geabonneerd op uw mobiele toepassing. Dit berichttype kan met alle beschikbare profielattributen in de Campagne van Adobe worden gepersonaliseerd maar vereist een veilige handdruk tussen Mobile SDK en de het overseinendienst van de Campagne In-App om ervoor te zorgen dat de berichten met persoonlijke en gevoelige informatie door erkende gebruikers slechts worden gebruikt.
+* **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: Met dit berichttype kunt u zich richten op Adobe Campaign-profielen (CRM-profielen) die zijn geabonneerd op uw mobiele toepassing. Dit berichttype kan met alle beschikbare profielattributen in Adobe Campaign worden gepersonaliseerd maar vereist een veilige handdruk tussen Mobile SDK en de het overseinendienst van de Campagne In-App om ervoor te zorgen dat de berichten met persoonlijke en gevoelige informatie door erkende gebruikers slechts worden gebruikt.
 
-   Om dit berichttype op gebruikersapparaten te downloaden, moet Mobile SDK koppelingsgebieden verzenden die worden gebruikt om een mobiel profiel aan een profiel van CRM in de Campagne van Adobe te verbinden. Raadpleeg deze [pagina](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference)voor meer informatie over SDK API&#39;s die vereist zijn voor ondersteuning van In-App.
+   Om dit berichttype op gebruikersapparaten te downloaden, moet Mobile SDK koppelingsgebieden verzenden die worden gebruikt om een mobiel profiel aan een profiel van CRM in Adobe Campaign te verbinden. Raadpleeg deze [pagina](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference)voor meer informatie over SDK API&#39;s die vereist zijn voor ondersteuning van In-App.
 
-* **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: Met dit berichttype kunt u berichten verzenden naar alle gebruikers (huidige of toekomstige) van uw mobiele toepassing, zelfs als deze geen bestaand profiel hebben in Adobe Campagne. Personalisatie is dus niet mogelijk wanneer u de berichten aanpast, omdat het gebruikersprofiel wellicht niet eens bestaat in Adobe Campaign.
-* **[!UICONTROL Target users based on their Mobile profile (inApp)]**: Met dit berichttype kunt u zich richten op alle bekende of anonieme gebruikers van een mobiele app met een mobiel profiel in Adobe Campagne. Dit berichttype kan worden gepersonaliseerd gebruikend slechts niet-persoonlijke en niet-gevoelige attributen en vereist geen veilige handdruk tussen Mobile SDK en de het overseinendienst van de Campagne van Adobe in-App.
+* **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: Met dit berichttype kunt u berichten verzenden naar alle gebruikers (huidige of toekomstige) van uw mobiele toepassing, zelfs als deze geen bestaand profiel in Adobe Campaign hebben. Personalisatie is dus niet mogelijk bij het aanpassen van de berichten omdat het gebruikersprofiel misschien niet eens bestaat in Adobe Campaign.
+* **[!UICONTROL Target users based on their Mobile profile (inApp)]**: Met dit berichttype kunt u zich richten op alle bekende of anonieme gebruikers van een mobiele app met een mobiel profiel in Adobe Campaign. Dit berichttype kan worden gepersonaliseerd gebruikend slechts niet-persoonlijke en niet-gevoelige attributen en vereist geen veilige handdruk tussen Mobiele SDK en de In-App overseinendienst van Adobe Campaign.
 
    Zie [Mobiele profielvelden afhandelen met persoonlijke en vertrouwelijke gegevens](#handling-mobile-profile-fields-with-personal-and-sensitive-data)voor meer informatie over hoe u met persoonlijke en vertrouwelijke gegevens kunt omgaan.
 
@@ -41,7 +44,7 @@ Er zijn drie typen In-App-berichten beschikbaar in Adobe Campagne:
 
 In Adobe Campaign worden data van mobiele profielkenmerken die vanaf een mobiel apparaat worden verzonden, opgeslagen in de resource **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** waardoor u de data die u van de abonnees van uw applicaties wilt verzamelen, kunt definiëren.
 
-Deze bron moet worden uitgebreid om gegevens te verzamelen die u van het mobiele apparaat naar de Adobe-campagne wilt verzenden. Raadpleeg hiervoor deze [pagina](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) voor de gedetailleerde stappen.
+Deze bron moet worden uitgebreid om gegevens te verzamelen die u van het mobiele apparaat naar Adobe Campaign wilt verzenden. Raadpleeg hiervoor deze [pagina](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) voor de gedetailleerde stappen.
 
 Om personalisatie van uw in-app-berichten veiliger te maken moeten de mobiele profielvelden van deze resource dienovereenkomstig worden geconfigureerd. Wanneer u uw nieuwe mobiele profielvelden maakt, schakelt u in uw **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** de optie **[!UICONTROL Personal and Sensitive]** om deze onbeschikbaar te maken tijdens personalisatie van in-app-berichten.
 
@@ -57,13 +60,13 @@ Als u personalisatie met **persoonlijke en gevoelige** velden nodig hebt, raden 
 
 ## Uw bericht in de app voorbereiden {#preparing-your-in-app-message}
 
-De stappen voor het maken van een zelfstandig In-App-bericht met Adobe Campagne zijn:
+De stappen voor het maken van een zelfstandig In-App-bericht met Adobe Campaign zijn:
 
-1. Klik op de **[!UICONTROL In-App messaging]** kaart op de startpagina van Adobe Campaign.
+1. Klik op de **[!UICONTROL In-App messaging]** kaart vanaf de homepage van Adobe Campaign.
 
    U kunt ook een In-App maken via het tabblad **Marketingactiviteiten** door op de **[!UICONTROL Create]** knop te klikken.
 
-   Een bericht in de app kan ook worden gemaakt op basis van een campagne, de startpagina van de Adobe-campagne of een workflow.
+   Een bericht in de app kan ook worden gemaakt op basis van een campagne, de startpagina van Adobe Campaign of een workflow.
 
 1. Selecteer **In-App-bericht**.
 
@@ -79,7 +82,7 @@ De stappen voor het maken van een zelfstandig In-App-bericht met Adobe Campagne 
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. Voer de berichteigenschappen in de app in en selecteer de mobiele app in het **[!UICONTROL Associate a Mobile App to a delivery]** veld. Houd er rekening mee dat als u uw mobiele app niet hebt geconfigureerd met Adobe Campagne Standard, deze niet in de lijst wordt weergegeven. Raadpleeg deze [pagina](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)voor meer informatie over de configuratie van mobiele toepassingen.
+1. Voer de berichteigenschappen in de app in en selecteer de mobiele app in het **[!UICONTROL Associate a Mobile App to a delivery]** veld. Houd er rekening mee dat als u uw mobiele app niet met Adobe Campaign Standard hebt geconfigureerd, deze niet in de lijst wordt weergegeven. Raadpleeg deze [pagina](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)voor meer informatie over de configuratie van mobiele toepassingen.
 
    ![](assets/inapp_creating_3.png)
 
@@ -99,9 +102,9 @@ De stappen voor het maken van een zelfstandig In-App-bericht met Adobe Campagne 
 
    * **[!UICONTROL Life Cycle events]**: Gebeurtenissen voor de levenscyclus buiten de box die worden ondersteund door Adobe Mobile SDK.
 
-      Raadpleeg deze [pagina](https://marketing.adobe.com/resources/help/en_US/mobile/android/metrics.html)voor meer informatie over levenscyclusgebeurtenissen.
+      Raadpleeg deze [pagina](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)voor meer informatie over levenscyclusgebeurtenissen.
 
-   * **[!UICONTROL Analytics Events]**: De volgende drie categorieën worden ondersteund, afhankelijk van wat er van instrumenten wordt voorzien in uw mobiele app: Adobe Analytics, Context data of View state.
+   * **[!UICONTROL Analytics Events]**: De volgende drie categorieën worden ondersteund, afhankelijk van wat er van instrumenten wordt voorzien in uw mobiele app: Adobe Analytics, Context-gegevens of weergavestatus.
 
       Deze gebeurtenissen zijn alleen beschikbaar als u een Adobe Analytics-licentie hebt.
 
@@ -110,7 +113,7 @@ De stappen voor het maken van een zelfstandig In-App-bericht met Adobe Campagne 
       Raadpleeg de documentatie bij [Plaatsen voor meer informatie over Adobe Places](https://placesdocs.com/).
    ![](assets/inapp_creating_4.png)
 
-1. Als u een bestand gebruikt, worden Adobe Analytics- **[!UICONTROL Analytics Events]** en View-statusgebeurtenissen automatisch ingevuld op basis van de rapportsuites die zijn geconfigureerd in de extensie Analytics in Adobe Experience Platform Launch, terwijl Context Data-gebeurtenissen handmatig moeten worden toegevoegd.
+1. Als u een **[!UICONTROL Analytics Events]**, de staatsgebeurtenissen van Adobe Analytics en van de Mening gebruikt zullen automatisch bevolkt worden gebaseerd op de rapportreeksen die in de uitbreiding van Analytics in de Lancering van het Adobe Experience Platform worden gevormd terwijl de gebeurtenissen van de Context- gegevens manueel moeten worden toegevoegd.
 
    Deze gebeurtenissen zijn alleen beschikbaar als u een Adobe Analytics-licentie hebt.
 
