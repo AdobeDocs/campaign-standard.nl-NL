@@ -1,6 +1,6 @@
 ---
-title: Het gebruiken van de Verenigde Bouwer van het Segment
-description: Leer hoe te om de Verenigde Bouwer van het Segment te gebruiken om publiek tot stand te brengen.
+title: De Segment Builder gebruiken
+description: Leer hoe u de Segment Builder kunt gebruiken om een publiek te maken.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
 contentOwner: sauviat
@@ -13,22 +13,25 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 573131986d52bb4415cca59600048fd7dc5ba0db
+source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+workflow-type: tm+mt
+source-wordcount: '878'
+ht-degree: 0%
 
 ---
 
 
-# Het gebruiken van de Verenigde Bouwer van het Segment {#using-the-unified-segment-builder}
+# De Segment Builder gebruiken {#using-the-segment-builder}
 
 >[!IMPORTANT]
 >
 >De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 
-De Verenigde Bouwer van het Segment staat u toe om publiek te bouwen door regels te bepalen die op gegevens worden gebaseerd die uit de [Verenigde Dienst](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)van het Profiel komen.
+De Bouwer van het Segment staat u toe om publiek te bouwen door regels te bepalen die op gegevens worden gebaseerd die uit het [Real-time Profiel](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)van de Klant komen.
 
-In deze sectie worden algemene concepten beschreven wanneer u een segment maakt. Voor gedetailleerde informatie over de Verenigde Bouwer van het Segment zelf, verwijs naar de de gebruikersgids [van de Bouwer van het](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)Segment.
+In deze sectie worden algemene concepten beschreven wanneer u een segment maakt. Voor gedetailleerde informatie over de Bouwer van het Segment zelf, verwijs naar de de gebruikersgids [van de Bouwer van het](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)Segment.
 
-De interface van de Bouwer van het Verenigde Segment wordt samengesteld als volgt:
+De interface van de Bouwer van het Segment wordt samengesteld als volgt:
 
 * Het linkerpaneel verstrekt alle attributen, gebeurtenissen en publiek beschikbaar om het segment te bouwen door gewenste gebieden in de werkruimte van de segmentbouwer te slepen en te laten vallen.
 * Het middelste gebied biedt een werkruimte om het segment te maken door regels van de beschikbare velden te definiëren en te combineren.
@@ -40,7 +43,7 @@ De interface van de Bouwer van het Verenigde Segment wordt samengesteld als volg
 
 Voer de volgende stappen uit om een segment te maken:
 
-De Unified Segment Builder moet nu in uw werkruimte worden weergegeven. Hiermee kunt u een segment maken met behulp van gegevens van het Adobe Experience Platform die uiteindelijk worden gebruikt om uw publiek te maken.
+De Segment Builder moet nu in uw werkruimte worden weergegeven. Het staat u toe om een segment te bouwen gebruikend gegevens van Adobe Experience Platform die uiteindelijk zullen worden gebruikt om uw publiek tot stand te brengen.
 
 1. Geef het segment een naam en voer vervolgens een beschrijving in (optioneel).
 
@@ -70,11 +73,11 @@ De vermelde velden zijn kenmerken die door uw bedrijf zijn vastgelegd en die bes
 
 Velden zijn ingedeeld in tabbladen:
 
-* **[!UICONTROL Attributes]**: Kenmerken voor bestaande profielen die kunnen ontstaan uit uw Adobe Campagne-database en/of Adobe Experience Platform. Zij verwijzen naar statische informatie die bij een profiel is gevoegd (bijv. e-mailadres, land van verblijf, status van loyaliteitsprogramma, enz.).
+* **[!UICONTROL Attributes]**: Kenmerken voor bestaande profielen die kunnen ontstaan uit uw Adobe Campaign-database en/of -Adobe Experience Platform. Zij verwijzen naar statische informatie die bij een profiel is gevoegd (bijv. e-mailadres, land van verblijf, status van loyaliteitsprogramma, enz.).
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**: Activiteiten die consumenten identificeren die enige interactie hebben gehad met de klantenaanraakpunten van uw bedrijf, zoals &quot;iedereen die tweemaal in twee weken bestelde&quot;. U kunt deze functie vanuit Adobe Analytics streamen of rechtstreeks via externe ETL-programma&#39;s opnemen in het Adobe Experience Platform.
+* **[!UICONTROL Events]**: Activiteiten die consumenten identificeren die enige interactie hebben gehad met de klantenaanraakpunten van uw bedrijf, zoals &quot;iedereen die tweemaal in twee weken bestelde&quot;. Dit kan van Adobe Analytics worden gestreamd, of direct in het Adobe Experience Platform worden opgenomen gebruikend derdehulpmiddelen ETL.
 
    ![](assets/aep_audiences_eventstab.png)
 
@@ -84,7 +87,7 @@ Velden zijn ingedeeld in tabbladen:
 >
 >Raadpleeg de [desbetreffende documentatie](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html)voor meer informatie hierover.
 
-Door gebrek, de Verenigde bouwer van het Segment toont gebieden waarin de gegevens reeds aanwezig zijn. Als u het volledige schema wilt weergeven, inclusief de velden waarvoor geen gegevens aanwezig zijn, schakelt u de **[!UICONTROL Show full XDM schema]** optie van de instellingen in.
+Door gebrek, toont de Bouwer van het Segment gebieden waarin de gegevens reeds aanwezig zijn. Als u het volledige schema wilt weergeven, inclusief de velden waarvoor geen gegevens aanwezig zijn, schakelt u de **[!UICONTROL Show full XDM schema]** optie van de instellingen in.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -124,7 +127,7 @@ Nadat de twee regels zijn gekoppeld, vormen ze een container.
 
 ## Velden vergelijken
 
-De Verenigde Bouwer van het Segment laat u twee gebieden vergelijken om een regel te bepalen. Bijvoorbeeld, vrouwtjes het waarvan huisadres in een verschillende code van het ZIP van hun het werkadres is.
+Met de Segment Builder kunt u twee velden vergelijken om een regel te definiëren. Bijvoorbeeld, vrouwtjes het waarvan huisadres in een verschillende code van het ZIP van hun het werkadres is.
 
 Ga als volgt te werk om dit te doen:
 
