@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
+source-git-commit: 58c69b6f6efdac8be5d05fe723bbf9ff54d186ee
 workflow-type: tm+mt
-source-wordcount: '5923'
+source-wordcount: '5941'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 0%
 Naast de opmerkingen bij de Adobe Campaign- [release](../../rn/using/release-notes.md)bevat deze pagina alle nieuwe updates in de Adobe Campaign Standard-documentatie.
 
 ## Documentatie - juni 2020 {#doc-updates-june-2020}
+
+Er zijn gebruiksgevallen toegevoegd voor het [coderen](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) en [decoderen](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) van gegevens met de workflows Configuratiescherm en Campagne.
 
 Zowel de termen &quot;whitelist&quot; als &quot;blacklist&quot; zijn uit de documentatie van Adobe Campaign verwijderd. Sommige van deze termen bestaan mogelijk nog steeds in de gebruikersinterface van het product, optienamen en interne code, maar worden in komende campagnereleases vervangen door &quot;blocklist&quot; en &quot;allowlist&quot;.
 
@@ -356,7 +358,7 @@ De gids voor automatiseren is bijgewerkt met koppelingen naar gerelateerde workf
 
 Het gedeelte Indicatorberekening voor dynamische rapporten is bijgewerkt. [Meer informatie](../../reporting/using/indicator-calculation.md)
 
-Er is een dynamische compatibiliteitstabel voor rapporten toegevoegd om de compatibiliteit tussen dimensies en maatstaven beter te begrijpen. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
+Er is een dynamische compatibiliteitstabel voor rapporten toegevoegd om beter inzicht te krijgen in de compatibiliteit tussen afmetingen en metriek. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
 
 De lijst met functies voor workflows is bijgewerkt. [Meer informatie](../../automating/using/list-of-functions.md)
 
@@ -484,7 +486,7 @@ De sectie Type gebruikers is bijgewerkt. [Meer informatie](../../administration/
 
 In-app berichten (bèta) - [Meer informatie](../../channels/using/about-in-app-messaging.md)
 
-Integratie van Adobe Launch voor mobiele apps (bèta) - [Lees meer](../../sending/using/about-typology-rules.md#typology-rules)
+Integratie van Adobe Launch voor mobiele apps (bèta) - [Lees meer](../../sending/using/managing-typologies.md)
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
@@ -498,7 +500,7 @@ Bijgewerkte het bericht van de Duw ingebouwde rapportsectie. [Meer informatie](.
 
 **Nieuwe mogelijkheden inbegrepen in de versie**
 
-[Markering](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) en [typologisch filter](../../sending/using/about-typology-rules.md#typology-rules) met hoge prioriteit voor abonnees van mobiele apps.
+[Markering](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) en [typologisch filter](../../sending/using/managing-typologies.md) met hoge prioriteit voor abonnees van mobiele apps.
 
 Geautomatiseerde inhoud importeren van een URL tijdens het voorbereiden. [Meer informatie](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
@@ -794,7 +796,7 @@ De sectie Lijst met rollen is bijgewerkt. [Meer informatie](../../administration
 
 Directe post - [Lees meer](../../channels/using/about-direct-mail.md)
 
-BCC via e-mail - Meer [informatie](../../administration/using/configuring-email-channel.md#archiving-emails)
+BCC via e-mail - Meer [informatie](../../sending/using/archiving.md)
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
