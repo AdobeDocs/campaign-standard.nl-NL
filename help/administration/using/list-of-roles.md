@@ -13,20 +13,23 @@ context-tags: role,overview;role,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18db1b8cade7d88294ef2609dd4fad95c55fbd37
+source-git-commit: c65cce2168219b3cd8cbd6704bdd0b6f3f55e3e6
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 0%
 
 ---
 
 
 # Lijst met rollen{#list-of-roles}
 
-Standaard biedt Adobe Campaign een aantal rollen waarmee u eenheidmachtigingen kunt definiëren die zijn toegewezen aan gebruikers en gebruikersgroepen.
+Adobe Campaign biedt standaard een set rollen waarmee u eenheidmachtigingen kunt definiëren die zijn toegewezen aan gebruikers en gebruikersgroepen.
 
 In combinatie met organisatorische eenheden, geven de rollen gebruikers een gefilterde mening van de interface en bepalen hun toegang tot de verschillende eigenschappen.
 
 Raadpleeg voor meer informatie de tabel [](/help/administration/using/assets/acs_rights.pdf)Rollen en machtigingen, waarin de functies worden beschreven die beschikbaar zijn in de interface, afhankelijk van de geselecteerde machtigingen.
 
-![](assets/user_management_3.png)
+[![image](assets/user_management_3.png](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
 
 Rollen kunnen worden beheerd vanuit het **[!UICONTROL Administration > Users & Security > Roles]** menu.
 
