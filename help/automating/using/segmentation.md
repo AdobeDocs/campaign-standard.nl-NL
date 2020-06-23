@@ -13,7 +13,10 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 740de9fe4666bf12fc97cfa434414668d9394504
+workflow-type: tm+mt
+source-wordcount: '993'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +41,7 @@ De **[!UICONTROL Segmentation]** activiteit wordt over het algemeen geplaatst na
 
 1. Sleep een **[!UICONTROL Segmentation]** activiteit naar uw werkstroom.
 1. Selecteer de activiteit, dan open het gebruikend de ![](assets/edit_darkgrey-24px.png) knoop van de snelle acties die verschijnen.
-1. Selecteer de **[!UICONTROL Resource type]** plaats waar de segmentatie moet worden uitgevoerd:
+1. Selecteer op het **[!UICONTROL General]** tabblad de **[!UICONTROL Resource type]** code waarop de segmentatie moet worden uitgevoerd:
 
    * **[!UICONTROL Database resource]** als de segmentatie wordt uitgevoerd op gegevens die al in de database aanwezig zijn. Selecteer het **[!UICONTROL Filtering dimension]** afhankelijk van de gegevens die u wilt segmenteren. De segmentatie wordt standaard uitgevoerd op de **profielen**.
    * **[!UICONTROL Temporary resource]** indien de segmentatie wordt uitgevoerd op de tijdelijke gegevens van de werkstroom: Selecteer de gegevens **[!UICONTROL Targeted set]** die de gegevens bevatten die u wilt segmenteren. Dit gebruik kan voorkomen na het invoeren van een dossier of als de gegevens in het gegevensbestand werden verrijkt.
