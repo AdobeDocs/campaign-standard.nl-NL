@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e59562bd4f258c4259b8e8e5d9648397d5718792
+source-git-commit: c70d7172af12c2ccad0468f0afdba87bcf4ac839
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 0%
 # Laatste release{#latest-release}
 
 [Release-planning](../../rn/using/release-planning.md) | [Release van het regelpaneel](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Documentatie-updates](../../rn/using/documentation-updates.md) | Opmerkingen bij de [vorige release](../../rn/using/release-notes-2020.md) | [Verouderde functies](../../rn/using/deprecated-features.md)
+
+![](assets/do-not-localize/cp-icon.png) **Nieuwe release** van het Configuratiescherm in juni met controle van actieve profielen, controle van de leverbaarheid van subdomeinen en beheer van GPG-sleutels. Zie Opmerkingen bij de release van [het regelpaneel](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## Release 20.3 - mei 2020 {#release-20-3---may-2020}
 
@@ -36,8 +38,8 @@ ht-degree: 0%
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>De Thaise wet inzake de bescherming van persoonsgegevens (PDPA) is de nieuwe privacywet die de vereisten inzake gegevensbescherming voor Thailand harmoniseert en moderniseert. Deze verordening is van toepassing op klanten van de Campagne van Adobe die gegevens voor Subjects van Gegevens in dit land verblijven.</p>
-<p>Naast de privacymogelijkheden die reeds beschikbaar zijn in de Campagne van Adobe (met inbegrip van toestemmingsbeheer, montages van het gegevensbehoud, en gebruikersrollen), nemen wij deze gelegenheid aan om extra mogelijkheden te omvatten, helpen uw bereidheid voor PDPA vergemakkelijken:</p>
+<td> <p>De Thaise wet inzake de bescherming van persoonsgegevens (PDPA) is de nieuwe privacywet die de vereisten inzake gegevensbescherming voor Thailand harmoniseert en moderniseert. Deze verordening is van toepassing op Adobe Campaign-klanten die gegevens bewaren voor gegevenssubjecten die in dit land verblijven.</p>
+<p>Naast de privacy mogelijkheden reeds beschikbaar in Adobe Campaign (met inbegrip van toestemmingsbeheer, de montages van het gegevensbehoud, en gebruikersrollen), nemen wij deze kans aan om extra mogelijkheden te omvatten, helpen uw bereidheid voor PDPA vergemakkelijken:</p>
 <ul>
 <li>Recht op toegang en recht op verwijdering: wij benutten de capaciteiten die voor de GDPR en de CCPA zijn toegevoegd. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">Meer informatie</a> </li>
 <li><p>Wanneer het creëren van een verzoek van de Privacy, is het PDPA regelgevende type toegevoegd in de Dienst van de Kern van de Privacy. Dit is de methode u voor alle toegang en schrappingsverzoeken zou moeten gebruiken. Het gebruik van de campagne-API en -interface voor toegangs- en verwijderingsverzoeken is afgekeurd.  Zie het artikel <a href="../../rn/using/deprecated-features.md"></a>Vervangen en verwijderde functies.</p></li>
@@ -69,15 +71,13 @@ ht-degree: 0%
 </tbody> 
 </table>
 
->[!NOTE]
->
->De vernieuwing van het certificaat voor subdomeinen CNAME wordt vrijgegeven in het Controlebord van de Campagne in Mei. Raadpleeg de Opmerking bij de release van het [Configuratiescherm voor meer informatie](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Het nieuwe Controlebord kan met certificaatvernieuwing voor subdomeinen CNAME vrijgeven** . Zie Opmerkingen bij de release van [het regelpaneel](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 **Verbeteringen**
 
 * Het aantal tekens dat in het veld **Voorvoegsel** kan worden gebruikt om berichten te [testen met behulp van doelprofielen](../../sending/using/testing-messages-using-target.md) , is verhoogd van 32 naar 500 tekens.
 * Het maximumaantal real-time gebeurtenissen dat op een instantie kan worden gepubliceerd, is verhoogd van 350 tot 2000. (CAMP-41608)
-* De synchronisatie tussen Adobe Launch en Campaign Standard is verbeterd dankzij de technische workflow SyncWithLaunch. Met deze workflow kunt u alle mobiele eigenschappen van Adobe Launch automatisch importeren in Adobe Campagne Standard. Raadpleeg [deze pagina](../../administration/using/technical-workflows.md)voor meer informatie.
+* De synchronisatie tussen Adobe Launch en Campaign Standard is verbeterd dankzij de technische workflow syncWithLaunch. Met deze workflow kunt u alle mobiele eigenschappen van Adobe Launch automatisch importeren in Adobe Campaign Standard. Raadpleeg [deze pagina](../../administration/using/technical-workflows.md)voor meer informatie.
 
    U moet een ticket naar de klantenservice van Adobe verzenden (rechtstreeks of via uw Adobe-contactpersoon) om de technische workflow voor syncWithLaunch in uw Campagne-instantie te activeren. (CAMP-40082)
 
@@ -100,9 +100,9 @@ ht-degree: 0%
 * De ES-VS-taal is toegevoegd aan de lijst met talen die niet in de verpakking staan voor meertalige e-mails. (CAMP-42279)
 * Bestanden die met een overdrachtsbestandsactiviteit zijn gedownload, worden nu na X dagen verwijderd, waarbij X wordt bepaald door de **Geschiedenis in het veld dagen** onder het menu **Uitvoering** in de Workfloweigenschappen. [Meer informatie](../../automating/using/managing-execution-options.md)
 
-**Integratie van ervaringsplatforms**
+**Integratie van Experience Platforms**
 
-* De activering van het publiek [van het Adobe](../../automating/using/aep-targeting-audiences.md) Experience Platform uit de **Lees-publiek** -activiteit is verbeterd en biedt nu betere prestaties en stabiliteit. Bovendien zijn workflowlogbestanden duidelijker en gedetailleerder geworden ten aanzien van activeringstaken, zodat gebruikers van het Adobe Experience Platform eenvoudiger controle en probleemoplossing kunnen krijgen bij het lezen van doelgroepen van het Adobe Experience Platform.
+* De activering van het publiek [van Adobe](../../automating/using/aep-targeting-audiences.md) Experience Platform vanuit de **Lees-doelactiviteit** is verbeterd en biedt nu betere prestaties en stabiliteit. Bovendien zijn workflowlogbestanden duidelijker en gedetailleerder geworden ten aanzien van activeringstaken, zodat gebruikers van Adobe Experience Platforms gemakkelijker kunnen worden gecontroleerd en probleemoplossing kunnen vinden bij het lezen van doelgroepen.
 
 **Patches**
 
