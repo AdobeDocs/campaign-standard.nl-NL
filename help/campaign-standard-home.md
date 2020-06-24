@@ -4,9 +4,9 @@ solution: Campaign Standard
 title: Adobe Campaign Standard-productdocumentatie
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 01fed9b50964ae15a2127a1a2f9a3ebca944d6b1
+source-git-commit: 7ceca9dbdd33d3186f476be8ecb5871e5c1d9c9c
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 ## Nieuwe functies
 
-* Zowel de termen &quot;whitelist&quot; als &quot;blacklist&quot; zijn uit de documentatie van Adobe Campaign verwijderd. [Meer informatie](rn/using/documentation-updates.md)
-
 * **[Privacybeheer](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/> Meer informatie over de tools die Adobe Campaign biedt om u te helpen aan uw privacyregels te voldoen
+
+* **[Externe API](automating/using/external-api.md)**<br/>Gebruik de externe API-activiteit om gegevens van een extern systeem over te brengen naar de werkstroom
 
 * **[Campaign Standard Mobile-gids](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/> Meer informatie over algemene richtlijnen voor mobiele leveringen
 
