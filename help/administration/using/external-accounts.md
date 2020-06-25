@@ -133,7 +133,9 @@ Wanneer u deze nieuwe externe account instelt, moet u de volgende gegevens opgev
 
 * Server: Voer de URL van de Adobe Experience Manager-server in. Bijvoorbeeld:
 
-   ``` http://aem.domain.com:4502 ```
+   ```
+   http://aem.domain.com:4502
+   ```
 
 * Referenties van AEM-account: gebruik de rekening die tot de instantie van de Adobe Experience Manager zal toegang hebben. Het zou een rekeningsdeel van de campagne-verre groep in Experience Manager moeten zijn.
 
