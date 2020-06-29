@@ -13,7 +13,10 @@ context-tags: sms,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 16afc307df6902584624d6457954a472b11c5129
+workflow-type: tm+mt
+source-wordcount: '784'
+ht-degree: 0%
 
 ---
 
@@ -79,23 +82,3 @@ De leveringen die in een workflow worden gemaakt, zijn toegankelijk in de lijst 
 De uitvoeringen van terugkerende leveringen worden echter standaard gemaskeerd. U kunt deze weergeven door de **[!UICONTROL Show recurring executions]** optie in het zoekvenster voor marketingactiviteiten te selecteren.
 
 In de ouderleveranties, die van de marketing activiteitenlijst of direct via de bijbehorende terugkomende uitvoeringen kunnen worden betreden, kunt u het totale aantal verzenden bekijken die zijn verwerkt (volgens de samenvoegingsperiode die wordt gespecificeerd toen de **[!UICONTROL SMS delivery]** activiteit werd gevormd). U doet dit door de detailweergave van het **[!UICONTROL Deployment]** blok van de bovenliggende levering te openen door ![](assets/wkf_dlv_detail_button.png)te selecteren.
-
-## Voorbeeld {#example}
-
-![](assets/wkf_sms_example_1.png)
-
-Dit voorbeeld is een verjaardagsworkflow. Elke dag wordt een SMS verzonden naar profielen waarvan de verjaardag op die dag is. Dit doet u als volgt:
-
-* Met dit **[!UICONTROL Scheduler]** programma kunt u elke dag om 8.00 uur de workflow starten.
-
-   ![](assets/wkf_delivery_example_2.png)
-
-* Met deze **[!UICONTROL Query]** activiteit kunt u de profielen berekenen die een mobiel telefoonnummer hebben opgegeven en waarvan de verjaardag op de huidige dag plaatsvindt, telkens wanneer de workflow wordt uitgevoerd. De verjaardagsberekening wordt uitgevoerd gebruikend een vooraf bepaald filter beschikbaar in het palet in het vraaguitgevende hulpmiddel.
-
-   ![](assets/wkf_delivery_example_3.png)
-
-* Het **[!UICONTROL SMS]** is terugkerend. De verzendingen worden samengevoegd per maand. Alle SMS-berichten die in een maand worden verzonden, worden dus samengevoegd tot één weergave. In één jaar worden er daarom 365 leveringen uitgevoerd, maar deze worden in de interface van Adobe Campagne gerangschikt in 12 weergaven (ook wel **terugkerende uitvoeringen** genoemd). De geschiedenis en rapportdetails worden getoond elke maand en niet voor elke verzend.
-
-   ![](assets/wkf_sms_example_4.png)
-
-Voor een ander voorbeeld van levering van SMS in een werkschema, zie [Gebruik geval: Workflows opnieuw toewijzen om een nieuwe levering naar niet-openers](../../automating/using/workflow-cross-channel-retargeting.md)te verzenden.
