@@ -13,7 +13,10 @@ context-tags: signal,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 16afc307df6902584624d6457954a472b11c5129
+workflow-type: tm+mt
+source-wordcount: '600'
+ht-degree: 0%
 
 ---
 
@@ -39,6 +42,11 @@ Wanneer dit wordt geactiveerd, kunnen externe parameters worden gedefinieerd en 
 >De activiteit kan niet vaker dan om de 10 minuten worden geactiveerd.
 
 Merk op dat een **[!UICONTROL External signal]** activiteit van verscheidene verschillende gebeurtenissen kan worden teweeggebracht. In dat geval **[!UICONTROL External signal]** wordt de activering uitgevoerd zodra een van de bronworkflows of API-aanroepen wordt uitgevoerd. Het vereist niet dat alle bronwerkschema&#39;s worden gebeëindigd.
+
+**Verwante onderwerpen**
+
+* [Hoofdlettergebruik: Externe signaalactiviteit en gegevensinvoer](../../automating/using/external-signal-data-import.md).
+* [Hoofdlettergebruik: Een workflow aanroepen om een publiek te maken op basis van een bestand met externe parameters](../../automating/using/calling-a-workflow-with-external-parameters.md#use-case)
 
 ## Configuratie {#configuration}
 
@@ -81,38 +89,3 @@ Zodra de **[!UICONTROL End]** activiteit van het bronwerkschema of de REST API v
 >[!NOTE]
 >
 >De doelworkflow moet handmatig worden gestart voordat deze kan worden geactiveerd. Wanneer begonnen, **[!UICONTROL External activity]** wordt het geactiveerd en wacht op het signaal van het bronwerkschema.
-
-## Voorbeeld {#example}
-
-Het volgende voorbeeld illustreert de **[!UICONTROL External signal]** activiteit in een typisch gebruiksgeval. Er worden gegevens geïmporteerd in een bronwerkstroom. Nadat het importeren is voltooid en de database is bijgewerkt, wordt een tweede workflow geactiveerd. Deze tweede workflow wordt gebruikt om een aggregaat van de geïmporteerde gegevens bij te werken.
-
-De bronworkflow wordt als volgt weergegeven:
-
-* Een [activiteit van het Laad dossier](../../automating/using/load-file.md) uploadt een dossier dat nieuwe aankoopgegevens bevat. Merk op dat het [gegevensbestand dienovereenkomstig is uitgebreid](../../developing/using/data-model-concepts.md) aangezien de aankoopgegevens niet door gebrek in datamart aanwezig zijn.
-
-   Bijvoorbeeld:
-
-   ```
-   tcode;tdate;customer;product;tamount
-   aze123;21/05/2015;dannymars@example.com;A2;799
-   aze124;28/05/2015;dannymars@example.com;A7;8
-   aze125;31/07/2015;john.smith@example.com;A7;8
-   aze126;14/12/2015;john.smith@example.com;A10;4
-   aze127;02/01/2016;dannymars@example.com;A3;79
-   aze128;04/03/2016;clara.smith@example.com;A8;149
-   ```
-
-* Bij een [afstemmingsactiviteit](../../automating/using/reconciliation.md) worden de koppelingen tussen de geïmporteerde gegevens en de database tot stand gebracht, zodat de transactiegegevens correct zijn gekoppeld aan profielen en producten.
-* Een de gegevensactiviteit van de [Update](../../automating/using/update-data.md) neemt en werkt het middel van Transacties van het gegevensbestand met de inkomende gegevens op.
-* Een **[!UICONTROL End]** activiteit activeert de bestemmingswerkstroom, die wordt gebruikt om aggregaten bij te werken.
-
-![](assets/signal_example_source1.png)
-
-De doelworkflow wordt als volgt weergegeven:
-
-* Een **[!UICONTROL External signal]** activiteit wacht op een succesvolle bronwerkstroom.
-* Een activiteit van de [Vraag](../../automating/using/query.md#enriching-data) richt profielen en verrijkt hen met een inzameling die wordt geplaatst om de laatste aankoopdatum terug te winnen.
-* Met een [updategegevensactiviteit](../../automating/using/update-data.md) worden de aanvullende gegevens opgeslagen in een speciaal aangepast veld. Let op: de profielbron is uitgebreid om het veld **Laatste aankoopdatum** toe te voegen.
-
-![](assets/signal_example_source2.png)
-
