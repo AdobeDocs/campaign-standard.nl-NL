@@ -12,9 +12,9 @@ discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -47,13 +47,13 @@ Het **[!UICONTROL Targeting]** gedeelte bevat de volgende activiteiten:
 
 U kunt gegevens selecteren met de volgende activiteiten:
 
-* Met deze **[!UICONTROL Query]** activiteit kunt u een aantal elementen filteren en extraheren uit de Adobe Campagne-database. Zie de sectie [Query](../../automating/using/query.md) .
-* Met deze **[!UICONTROL Incremental query]** activiteit kunt u een aantal elementen filteren en extraheren uit de Adobe Campagne-database. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Hierdoor kunt u alleen nieuwe elementen als doel instellen. Zie de koppeling. [Incrementele query](../../automating/using/incremental-query.md) -sectie.
+* Met deze **[!UICONTROL Query]** activiteit kunt u een reeks elementen filteren en extraheren uit de Adobe Campaign-database. Zie de sectie [Query](../../automating/using/query.md) .
+* Met deze **[!UICONTROL Incremental query]** activiteit kunt u een reeks elementen filteren en extraheren uit de Adobe Campaign-database. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Hierdoor kunt u alleen nieuwe elementen als doel instellen. Zie de koppeling. [Incrementele query](../../automating/using/incremental-query.md) -sectie.
 * De **[!UICONTROL Read audience]** activiteit staat u toe om een bestaand publiek terug te winnen en het te verfijnen door extra het filtreren voorwaarden toe te passen.Zie de [Gelezen publiekssectie](../../automating/using/read-audience.md) .
 
 ## Gegevens segmenteren {#segmenting-data}
 
-Met Adobe Campaign kunt u sets met binnenkomende gegevens verwerken. U kunt dus meerdere populaties combineren, een deel ervan uitsluiten of gegevens alleen gemeenschappelijk houden voor verschillende doelen.
+Met Adobe Campaign kunt u sets van binnenkomende gegevens verwerken. U kunt dus meerdere populaties combineren, een deel ervan uitsluiten of gegevens alleen gemeenschappelijk houden voor verschillende doelen.
 
 * De **[!UICONTROL Union]** activiteit staat u toe om het resultaat van veelvoudige activiteiten in één enkel doel te hergroeperen. Zie de sectie [Vereniging](../../automating/using/union.md) .
 * Met de **[!UICONTROL Intersection]** activiteit kunt u alleen de elementen behouden die de verschillende binnenkomende populaties in de activiteit gemeen hebben. Zie de sectie [Intersectie](../../automating/using/intersection.md) .
@@ -70,9 +70,6 @@ Op het **[!UICONTROL Additional data]** tabblad van de **[!UICONTROL Query]** en
 * Aggregaten
 * Verzamelingen
 
-**Verwante onderwerpen**
+**Verwante onderwerpen:**
 
-* [Hoofdlettergebruik: Eenmaal per week een e-maillevering maken](../../automating/using/workflow-weekly-offer.md)
-* [Hoofdlettergebruik: Een levering maken die op een locatie is gesegmenteerd](../../automating/using/workflow-segmentation-location.md)
-* [Hoofdlettergebruik: Leveringen maken met een aanvulling](../../automating/using/workflow-created-query-with-complement.md)
-* [Hoofdlettergebruik: Werkstroom opnieuw toewijzen om een nieuwe levering naar niet-openers te verzenden](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Hoofdlettergebruik: Een e-mail aanpassen met aanvullende gegevens](../../automating/using/personalizing-email-with-additional-data.md)
