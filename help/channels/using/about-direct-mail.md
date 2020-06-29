@@ -1,6 +1,6 @@
 ---
 title: Over direct mail
-description: Ontdek de belangrijkste specifieke kenmerken van het directe-mailkanaal in de Campagne van Adobe.
+description: Ontdek de belangrijkste specifieke kenmerken van het direct-mailkanaal in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 24add992-2efe-4b73-81c9-cda3e921ab16
 contentOwner: sauviat
@@ -13,7 +13,10 @@ context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 0%
 
 ---
 
@@ -26,7 +29,7 @@ Directe post is een off-line kanaal dat u toestaat om het dossier te personalise
 >
 >Deze functie is optioneel. Controleer uw licentieovereenkomst. De **[!UICONTROL Export]** rol is vereist om direct mail te gebruiken. Neem contact op met uw beheerder.
 
-Met onlinekanalen kunt u uw berichten maken (e-mail, sms, levering van mobiele apps, enz.) en stuur ze rechtstreeks vanuit Adobe Campaign naar uw doelgroep. Bij offlinekanalen is dit anders. Wanneer u een directe postbestelling voorbereidt, genereert Adobe Campagne een dossier met alle gerichte profielen en de gekozen contactinformatie (postadres bijvoorbeeld). U kunt dit bestand dan naar uw directe-mailprovider sturen, die voor de verzending zal zorgen.
+Met onlinekanalen kunt u uw berichten maken (e-mail, sms, levering van mobiele apps, enz.) en stuur ze rechtstreeks vanuit Adobe Campaign naar je publiek. Bij offlinekanalen is dit anders. Wanneer u een directe postbestelling voorbereidt, genereert Adobe Campaign een bestand met alle doelprofielen en de gekozen contactgegevens (bijvoorbeeld postadres). U kunt dit bestand dan naar uw directe-mailprovider sturen, die voor de verzending zal zorgen.
 
 In de volgende sectie wordt uitgelegd hoe u een enkelvoudige directe maillevering maakt en genereert. U kunt ook direct-mailactiviteiten opnemen in een workflow om campagnes te organiseren waarin online en offline kanalen worden gecombineerd. Raadpleeg de handleiding [Workflows](../../automating/using/get-started-workflows.md) voor meer informatie.
 
@@ -37,6 +40,10 @@ Het gebruikersproces in Adobe Campaign is als volgt:
 1. De inhoud definiëren
 1. De contactdatum instellen
 1. Het bestand genereren
+
+**Verwante onderwerpen:**
+
+* [Hoofdlettergebruik: Koppeling van e-mail- en direct-mailleveringen](../../automating/using/coupling-email-direct-mail.md)
 
 ## Aanbevelingen {#recommendations}
 
@@ -52,9 +59,8 @@ Controleer of u het **[!UICONTROL Address specified]** selectievakje in de profi
 
 Wanneer u de velden toevoegt die u in het extractiebestand wilt opnemen, zijn de velden voor postadressen beschikbaar in het **[!UICONTROL Location]** knooppunt.
 
-Adobe Campagne biedt u een reeks vooraf gedefinieerde, berekende velden die de meest gebruikelijke normalisatie van het postadres volgen. De velden zijn beschikbaar in het **[!UICONTROL Postal address]** knooppunt.
+Adobe Campaign biedt u een set vooraf gedefinieerde berekende velden die de meest gebruikelijke normalisatie van het postadres volgen. De velden zijn beschikbaar in het **[!UICONTROL Postal address]** knooppunt.
 
 Een adres kan maximaal zes lijnen door gebrek bevatten: het eerste berekende veld (**[!UICONTROL Line 1]** bevat de voornaam en achternaam, de volgende regels bevatten het postadres (weg enz.) en de laatste regel bevat de postcode en de plaats of stad.
 
 ![](assets/direct_mail_23.png)
-
