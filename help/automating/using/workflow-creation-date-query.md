@@ -1,6 +1,6 @@
 ---
-title: '"Gebruiksscenario voor workflow: Leveringen maken op de aanmaakdatum van het profiel"'
-description: '"Gebruiksscenario voor workflow: Leveringen maken op de aanmaakdatum van het profiel"'
+title: Leveringen maken op de aanmaakdatum van het profiel
+description: In dit geval kunt u zien hoe u leveringen maakt op de aanmaakdatum van het profiel.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -13,12 +13,15 @@ context-tags: workflow,use-case,query
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
+source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 1%
 
 ---
 
 
-# Gebruiksscenario voor werkstroom: Leveringen maken op de aanmaakdatum van profielen {#creation-date-query}
+# Leveringen maken op de aanmaakdatum van profielen {#creation-date-query}
 
 U kunt een voorstel via e-mail verzenden op de verjaardag van het maken van het profiel van de klant.
 
@@ -28,7 +31,7 @@ U kunt een voorstel via e-mail verzenden op de verjaardag van het maken van het 
 
 ## Een planningsactiviteit maken {#creating-a-scheduler-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, sleep en laat vallen een **[!UICONTROL Scheduler activity]**.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, sleep en laat vallen een activiteit van de [Planner](../../automating/using/scheduler.md) .
 1. Dubbelklik op de activiteit.
 1. Configureer de uitvoering van uw levering.
 1. In **[!UICONTROL Execution frequency]** selecteert u **[!UICONTROL Daily]**.
@@ -44,7 +47,7 @@ U kunt een voorstel via e-mail verzenden op de verjaardag van het maken van het 
 
 ## Query-activiteiten maken {#creating-a-query-activity}
 
-1. Als u ontvangers wilt selecteren, sleept u een ontvanger **[!UICONTROL Query activity]** en dubbelklikt u erop.
+1. Om ontvangers te selecteren, sleep en laat vallen een activiteit van de [Vraag](../../automating/using/query.md) en klik het tweemaal.
 1. Voeg toe **[!UICONTROL Profiles]** en selecteer **[!UICONTROL no longer contact by email]** met de waarde **[!UICONTROL no]**.
 
 ### Profielen ophalen die zijn gemaakt op dezelfde dag als de dag van uitvoering {#retriving-profiles-created-on-the-same-day}
@@ -88,7 +91,7 @@ De uiteindelijke query wordt weergegeven:
 
 ## Een e-maillevering maken{#creating-an-email-delivery}
 
-1. Sleep een e-maillevering en zet deze neer.
+1. Sleep een [e-mailleveringsactiviteit](../../automating/using/email-delivery.md) en zet deze neer.
 1. Klik op de activiteit en selecteer deze ![](assets/edit_darkgrey-24px.png) om te bewerken.
 1. Selecteer **[!UICONTROL Recurring email]** en klik op **[!UICONTROL Next]**.
 1. Selecteer een e-mailsjabloon en klik op **[!UICONTROL Next]**.
@@ -102,7 +105,4 @@ Raadpleeg voor meer informatie het [ontwerpen van een e-mail](../../designing/us
 
 **Verwante onderwerpen:**
 
-* [Query](../../automating/using/query.md)
-* [Planner](../../automating/using/scheduler.md)
-* [E-maillevering](../../automating/using/email-delivery.md)
 * [E-mailkanaal](../../channels/using/creating-an-email.md)
