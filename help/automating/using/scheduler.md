@@ -13,7 +13,10 @@ context-tags: schedule,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
+source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+workflow-type: tm+mt
+source-wordcount: '555'
+ht-degree: 0%
 
 ---
 
@@ -35,6 +38,11 @@ Wanneer het bouwen van uw werkschema, gebruik slechts één **[!UICONTROL Schedu
 >[!CAUTION]
 >
 >De activiteit **[!UICONTROL Repetition frequency]** mag niet minder dan 10 minuten duren. Dit betekent dat een workflow niet automatisch meer dan eenmaal per 10 minuten kan worden uitgevoerd.
+
+**Verwante onderwerpen:**
+
+* [Hoofdlettergebruik: Leveringen maken op de aanmaakdatum van profielen](../../automating/using/workflow-creation-date-query.md)
+* [Hoofdlettergebruik: Elke dinsdag een e-maillevering maken](../../automating/using/workflow-weekly-offer.md)
 
 ## Configuratie {#configuration}
 
@@ -59,13 +67,13 @@ Wanneer het bouwen van uw werkschema, gebruik slechts één **[!UICONTROL Schedu
 
    * **[!UICONTROL Never]**: de werkstroom zal worden uitgevoerd volgens de opgegeven frequentie, zonder beperkingen aan het tijdsbestek of het aantal herhalingen.
    * **[!UICONTROL After a certain number of iterations]**: de workflow wordt uitgevoerd volgens de opgegeven frequentie, tot de limiet van **X** is bereikt. Het **[!UICONTROL Number of iterations]** zal dus nader moeten worden omschreven.
-   * **[!UICONTROL On a specific date]**: de workflow zal worden uitgevoerd volgens de opgegeven frequentie, tot een bepaalde datum. Daarom moet de uitvoeringstermijn worden vastgesteld.
+   * **[!UICONTROL On a specific date]**: de werkstroom zal worden uitgevoerd volgens de opgegeven frequentie, tot een bepaalde datum. Daarom moet de uitvoeringstermijn worden vastgesteld.
 
 1. Controleer het schema van de volgende tien uitvoeringen van uw werkschema door te klikken **[!UICONTROL Preview next executions]**.
 
 1. In het **[!UICONTROL Execution options]** lusje, opstelling de tijdzone voor uw planner op het **[!UICONTROL Time zone]** gebied.
 
-   Voor meer informatie bij het verzenden van levering afhankelijk van de tijdzone van de ontvanger, verwijs naar deze [sectie](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) of dit [voorbeeld](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow) van een terugkomende werkschema.
+   Voor meer informatie bij het verzenden van levering afhankelijk van de tijdzone van de ontvanger, verwijs naar deze [sectie](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) of dit [voorbeeld](../../automating/using/recurring-push-notifications.md) van een terugkomende werkschema.
 
 1. Bevestig de configuratie van uw activiteit en sla uw werkschema op.
 
