@@ -13,7 +13,10 @@ context-tags: directMail,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
+source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+workflow-type: tm+mt
+source-wordcount: '914'
+ht-degree: 0%
 
 ---
 
@@ -41,6 +44,11 @@ Wanneer verbonden met een planner, kunt u terugkomende directe brievenbussen bep
 Directe e-mailontvangers worden vóór de activiteit in dezelfde werkstroom gedefinieerd, via doelactiviteiten zoals query&#39;s, snijpunten, enz. Profielen waarvan het mailadres niet is opgegeven, worden automatisch uitgesloten wanneer het e-mailadres wordt voorbereid.
 
 De voorbereiding van berichten wordt geactiveerd volgens de parameters voor workflowuitvoering. Van het berichtdashboard, kunt u selecteren of om een manuele bevestiging te verzoeken of niet om het bericht te verzenden (die door gebrek wordt vereist). U kunt de workflow handmatig starten of een planneractiviteit in de workflow plaatsen om de uitvoering te automatiseren.
+
+**Verwante onderwerpen:**
+
+* [Hoofdlettergebruik: Koppeling van e-mail- en direct-mailleveringen](../../automating/using/coupling-email-direct-mail.md)
+* [Over direct mail](../../channels/using/about-direct-mail.md)
 
 ## Configuratie {#configuration}
 
@@ -89,7 +97,3 @@ De uitvoering van terugkerende leveringen wordt standaard gemaskeerd. U kunt dez
 In de ouderleveranties, die van de marketing activiteitenlijst of direct via de bijbehorende terugkomende uitvoeringen kunnen worden betreden, kunt u het totale aantal post bekijken die (volgens de samenvoegingsperiode die wordt gespecificeerd toen de **[!UICONTROL Direct mail delivery]** activiteit werd gevormd) is verwerkt. U doet dit door de detailweergave van het **[!UICONTROL Deployment]** blok van de bovenliggende levering te openen door de ![](assets/wkf_dlv_detail_button.png) knop te selecteren.
 
 ![](assets/wkf_display_recurrent_executions_3_direct_mail.png)
-
-## Voorbeeld {#example}
-
-Een voorbeeld van **[!UICONTROL Direct mail delivery]** is beschikbaar in het [Directe hoofdstuk van de Post](../../channels/using/example-of-direct-mail-in-a-workflow.md) .
