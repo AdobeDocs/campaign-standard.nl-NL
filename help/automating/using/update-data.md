@@ -13,9 +13,9 @@ context-tags: writer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,12 @@ Met deze **[!UICONTROL Update data]** activiteit kunt u een massale update uitvo
 
 ## Gebruikscontext {#context-of-use}
 
-U kunt de **activiteit Gegevens** bijwerken gebruiken nadat u een bestand hebt geïmporteerd om de herstelde gegevens in te voegen in de Adobe Campaign-database. Met verschillende opties kunt u het bijwerken van de gegevens aanpassen.
+De **activiteit van de Gegevens** van de Update kan na het invoeren van een dossier worden gebruikt om de gegevens op te nemen die in het gegevensbestand van Adobe Campaign worden teruggekregen. Met verschillende opties kunt u het bijwerken van de gegevens aanpassen.
+
+**Verwante onderwerpen:**
+
+* [Hoofdlettergebruik: Gegevens bijwerken die zijn gebaseerd op een bestand](../../automating/using/update-database-file.md)
+* [Gegevens bijwerken op basis van een automatische bestandsdownload](../../automating/using/update-data-automatic-download.md)
 
 ## Configuratie {#configuration}
 
@@ -71,29 +76,3 @@ U kunt de **activiteit Gegevens** bijwerken gebruiken nadat u een bestand hebt g
    Als u hebt geselecteerd **[!UICONTROL Insert only]** en de geïmporteerde gegevens records kunnen bevatten die al in de database aanwezig zijn, schakelt u het **[!UICONTROL Generate an outbound transition for the rejects]** vakje in om mogelijke fouten te voorkomen.
 
 1. Bevestig de configuratie van uw activiteit en sla uw werkschema op.
-
-## Voorbeeld {#example}
-
-De volgende activiteit toont de configuratie van een **[!UICONTROL Update data]** activiteit na een **[!UICONTROL Load file]** activiteit. Het doel van deze workflow is om profielen aan de Adobe Campagne-database toe te voegen of bij te werken met de gegevens uit het bestand. De gebruikte afstemmingssleutel is het e-mailadres.
-
-Het geladen bestand is een bestand met de indeling **.txt** dat de volgende voorbeeldgegevens bevat:
-
-```
-lastname;firstname;email;birthdate
-jackman;megan;megan.jackman@testmail.com;07/08/1975
-phillips;edward;phillips@testmail.com;09/03/1986
-weaver;justin;justin_w@testmail.com;11/15/1990
-martin;babeth;babeth_martin@testmail.net;11/25/1964
-reese;richard;rreese@testmail.com;02/08/1987
-cage;nathalie;cage.nathalie227@testmail.com;07/03/1989
-xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992
-grimes;daryl;daryl_890@testmail.com;12/06/1979
-tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
-```
-
-De **[!UICONTROL Update data]** activiteit wordt gevormd als volgt:
-
-![](assets/deduplication_example2_writer1.png)
-
-![](assets/deduplication_example2_writer2.png)
-
