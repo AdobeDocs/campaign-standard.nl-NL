@@ -13,12 +13,15 @@ context-tags: setOfService,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9048e11fe063707e1c6b5a86de095f72d22800c1
+source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+workflow-type: tm+mt
+source-wordcount: '1110'
+ht-degree: 0%
 
 ---
 
 
-# Abonnementsservices{#subscription-services}
+# Abonnementsservices {#subscription-services}
 
 ## Beschrijving {#description}
 
@@ -32,11 +35,16 @@ Met de **[!UICONTROL Subscription Services]** activiteit kunt u profielen in mas
 
 ## Gebruikscontext {#context-of-use}
 
-De **[!UICONTROL Subscription Services]** activiteit is de enige functionaliteit van de Campagne van Adobe die veelvoudige profielen toestaat om aan of van de dienst in één enkele actie worden geabonneerd te zijn.
+De **[!UICONTROL Subscription Services]** activiteit is de enige functionaliteit van Adobe Campaign die het mogelijk maakt om aan meerdere profielen te worden geabonneerd of om van de dienst in één enkele actie te worden geabonneerd.
 
 U kunt deze activiteit gebruiken nadat u een gericht bestand hebt uitgevoerd of een bestand met geïdentificeerde gegevens hebt geïmporteerd.
 
 Als opgegeven in een bestand via toegewezen kolommen, kunt u met deze activiteit ook de handeling (abonneren of afmelden) en de service kiezen waarop de handeling moet worden uitgevoerd.
+
+**Verwante onderwerpen:**
+
+* [Hoofdlettergebruik: Meerdere abonnementstatussen bijwerken vanuit een bestand](../../automating/using/updating-subscriptions-from-file.md)
+* [Hoofdlettergebruik: Profielen vanuit een bestand abonneren op een specifieke service](../../automating/using/subscribing-profiles-from-file.md)
 
 ## Configuratie {#configuration}
 
@@ -93,7 +101,7 @@ De workflow wordt als volgt weergegeven:
 
    ![](assets/subscription_activity_example2.png)
 
-* Een **[!UICONTROL Reconciliation]** activiteit identificeert de gegevens van het dossier als deel van de profielafmeting van het gegevensbestand van de Campagne van Adobe. Alleen het **[!UICONTROL Identification]** tabblad is geconfigureerd. De bestandsgegevens worden geïdentificeerd aan de hand van de e-mailadressen van de profielen.
+* Met een **[!UICONTROL Reconciliation]** activiteit worden de gegevens uit het bestand geïdentificeerd als behorend tot de profieldimensie van de Adobe Campaign-database. Alleen het **[!UICONTROL Identification]** tabblad is geconfigureerd. De bestandsgegevens worden geïdentificeerd aan de hand van de e-mailadressen van de profielen.
 
    ![](assets/subscription_activity_example3.png)
 
@@ -138,7 +146,7 @@ De workflow wordt als volgt weergegeven:
 
    Als in uw bestand al &quot;0&quot; en &quot;1&quot; worden gebruikt om de bewerking te identificeren, hoeft u deze waarden niet opnieuw toe te wijzen. Zorg alleen dat de kolom op het **tabblad als een** Booleaanse **of** gehele kolom **[!UICONTROL Column definition]** wordt verwerkt.
 
-* Een **[!UICONTROL Reconciliation]** activiteit identificeert de gegevens van het dossier als deel van de profielafmeting van het gegevensbestand van de Campagne van Adobe. Via het **[!UICONTROL Identification]** tabblad komt het veld **E-mail** van het bestand overeen met het veld **E-mail** van de profielbron.
+* Met een **[!UICONTROL Reconciliation]** activiteit worden de gegevens uit het bestand geïdentificeerd als behorend tot de profieldimensie van de Adobe Campaign-database. Via het **[!UICONTROL Identification]** tabblad komt het veld **E-mail** van het bestand overeen met het veld **E-mail** van de profielbron.
 
    ![](assets/subscription_activity_example3.png)
 
