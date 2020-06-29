@@ -1,6 +1,6 @@
 ---
 title: Unie
-description: Met de activiteit van de Unie kunt u het resultaat van meerdere activiteiten hergroeperen in één doel.
+description: De activiteit van de Unie staat u toe om het resultaat van veelvoudige activiteiten in één enkel doel te hergroeperen.
 page-status-flag: never-activated
 uuid: fafc3ce9-2212-4403-8754-cfbb28ba6e26
 contentOwner: sauviat
@@ -13,9 +13,9 @@ context-tags: union,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ De **[!UICONTROL Union]** activiteit staat u toe om het resultaat van veelvoudig
 
 De **[!UICONTROL Union]** activiteit wordt gebruikt om de populaties van binnenkomende overgangen te combineren wanneer het uitvoeren van een segmentatie, het bepalen van een publiek, of wanneer het voorbereiden van het berichtdoel bijvoorbeeld.
 
+**Verwante onderwerpen:**
+
+* [Hoofdlettergebruik: Unie op twee verfijnde doelgroepen](../../automating/using/union-on-two-refined-audiences.md)
+
 ## Configuratie {#configuration}
 
 1. Sleep een **[!UICONTROL Union]** activiteit naar uw werkstroom.
@@ -55,6 +59,6 @@ De **[!UICONTROL Union]** activiteit wordt gebruikt om de populaties van binnenk
 
 ## Voorbeeld {#example}
 
-In het volgende voorbeeld wordt het resultaat getoond van twee zoekactiviteiten die gericht zijn op het opnieuw groeperen van profielen uit de Adobe Campaign-database die tussen de 18 en 27 jaar oud zijn en van profielen tussen de 34 en 40 jaar oud. Het resultaat bevat alle profielen van de twee vragen of het maximumaantal verslagen, indien van toepassing, zoals gespecificeerd tijdens de configuratie.
+Het volgende voorbeeld toont het resultaat van twee vraagactiviteiten die erop gericht zijn profielen van de gegevensbank van Adobe Campaign te hergroeperen die tussen 18 en 27 jaar oud zijn en die tussen 34 en 40 jaar oud zijn. Het resultaat bevat alle profielen van de twee vragen of het maximumaantal verslagen, indien van toepassing, zoals gespecificeerd tijdens de configuratie.
 
 ![](assets/wkf_union_example.png)
