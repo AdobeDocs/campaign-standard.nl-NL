@@ -12,9 +12,9 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2df909256b910e5e26e0fdac7e150edd0603c8ab
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -98,3 +98,4 @@ Meer informatie:
 * [Een e-maillevering en rapporten controleren (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Aan de slag met e-mails](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 * [Best practices voor levering](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [Hoofdlettergebruik: Een controlegroep samenstellen](../../automating/using/workflow-control-group.md)
