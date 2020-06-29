@@ -13,9 +13,9 @@ context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6e87dc8f299f0c9fbb33e5e56c0a76cfef0aa9a6
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,14 @@ Wanneer u een koppeling naar een planner maakt, kunt u terugkerende e-mails defi
 E-mailontvangers worden vóór de activiteit in dezelfde workflow gedefinieerd, via doelactiviteiten zoals query&#39;s, snijpunten, enz.
 
 De voorbereiding van berichten wordt geactiveerd volgens de parameters voor workflowuitvoering. Van het berichtdashboard, kunt u selecteren of om een manuele bevestiging te verzoeken of niet om het bericht te verzenden (die door gebrek wordt vereist). U kunt de workflow handmatig starten of een planneractiviteit in de workflow plaatsen om de uitvoering te automatiseren.
+
+**Verwante onderwerpen:**
+
+* [Hoofdlettergebruik: Eenmaal per week een e-maillevering maken](../../automating/using/workflow-weekly-offer.md)
+* [Hoofdlettergebruik: Een levering maken die op een locatie is gesegmenteerd](../../automating/using/workflow-segmentation-location.md)
+* [Hoofdlettergebruik: Leveringen maken met een aanvulling](../../automating/using/workflow-created-query-with-complement.md)
+* [Hoofdlettergebruik: Werkstroom opnieuw toewijzen om een nieuwe levering naar niet-openers te verzenden](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Hoofdlettergebruik: Geboortedatum](../../automating/using/birthday-delivery.md)
 
 ## Configuratie {#configuration}
 
@@ -91,28 +99,3 @@ De uitvoeringen van terugkerende leveringen worden echter standaard gemaskeerd. 
 In de ouderleveranties, die van de marketing activiteitenlijst of direct via de bijbehorende terugkomende uitvoeringen kunnen worden betreden, kunt u het totale aantal verzenden bekijken die zijn verwerkt (volgens de samenvoegingsperiode die wordt gespecificeerd toen de **[!UICONTROL Email delivery]** activiteit werd gevormd). U doet dit door de detailweergave van het **[!UICONTROL Deployment]** blok van de bovenliggende levering te openen door ![](assets/wkf_dlv_detail_button.png)te selecteren.
 
 ![](assets/wkf_display_recurrent_executions_3.png)
-
-## Voorbeeld {#example}
-
-![](assets/wkf_delivery_example_1.png)
-
-Dit voorbeeld is een verjaardagsworkflow. Elke dag wordt een e-mail verzonden naar profielen waarvan het verjaart op die dag is. Dit doet u als volgt:
-
-* Met dit **[!UICONTROL Scheduler]** programma kunt u elke dag om 8.00 uur de workflow starten.
-
-   ![](assets/wkf_delivery_example_2.png)
-
-* Met deze **[!UICONTROL Query]** activiteit kunt u de profielen berekenen die een e-mail hebben verzonden en waarvan de verjaardag op de huidige dag is, telkens wanneer de workflow wordt uitgevoerd. De verjaardagsberekening wordt uitgevoerd gebruikend een vooraf bepaald filter beschikbaar in het palet in het vraaguitgevende hulpmiddel.
-
-   ![](assets/wkf_delivery_example_3.png)
-
-* Het **[!UICONTROL Email]** is terugkerend. De verzendingen worden samengevoegd per maand. Alle e-mails die in een maand worden verzonden, worden dus samengevoegd tot één weergave. In één jaar worden er daarom 365 leveringen uitgevoerd, maar deze worden in de interface van Adobe Campagne gerangschikt in 12 weergaven (ook wel **terugkerende uitvoeringen** genoemd). De geschiedenis en rapportdetails worden getoond elke maand en niet voor elke verzend.
-
-   ![](assets/wkf_delivery_example_4.png)
-
-**Verwante onderwerpen**
-
-* [Hoofdlettergebruik: Eenmaal per week een e-maillevering maken](../../automating/using/workflow-weekly-offer.md)
-* [Hoofdlettergebruik: Een levering maken die op een locatie is gesegmenteerd](../../automating/using/workflow-segmentation-location.md)
-* [Hoofdlettergebruik: Leveringen maken met een aanvulling](../../automating/using/workflow-created-query-with-complement.md)
-* [Hoofdlettergebruik: Werkstroom opnieuw toewijzen om een nieuwe levering naar niet-openers te verzenden](../../automating/using/workflow-cross-channel-retargeting.md)
