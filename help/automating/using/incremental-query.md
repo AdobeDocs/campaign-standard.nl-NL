@@ -1,6 +1,6 @@
 ---
 title: Incrementele query
-description: Met de incrementele query-activiteit kunt u een groep elementen filteren en extraheren uit de Adobe Campagne-database.
+description: Met de incrementele query-activiteit kunt u een groep elementen filteren en extraheren uit de Adobe Campaign-database.
 page-status-flag: never-activated
 uuid: 73b42422-e815-43ef-84c0-97c4433ccc98
 contentOwner: sauviat
@@ -13,7 +13,10 @@ context-tags: incremental,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/incremental.png)
 
-Met deze **[!UICONTROL Incremental query]** activiteit kunt u een aantal elementen filteren en extraheren uit de Adobe Campagne-database. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Hierdoor kunt u alleen nieuwe elementen als doel instellen.
+Met deze **[!UICONTROL Incremental query]** activiteit kunt u een reeks elementen filteren en extraheren uit de Adobe Campaign-database. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Hierdoor kunt u alleen nieuwe elementen als doel instellen.
 
 U kunt **[!UICONTROL Additional data]** voor de doelpopulatie definiëren via een toegewezen tabblad. Deze gegevens worden opgeslagen in extra kolommen en kunnen alleen worden gebruikt voor de actieve workflow.
 
@@ -39,7 +42,14 @@ Op het **[!UICONTROL Processed data]** tabblad, dat specifiek is voor deze activ
 De **[!UICONTROL Incremental query]** activiteit kan voor diverse soorten gebruik worden gebruikt:
 
 * Individuen segmenteren om het doel van een bericht, publiek, enz. te bepalen.
+
 * Gegevens exporteren.
+
+   U kunt een **[!UICONTROL Incremental query]** activiteit gebruiken om nieuwe login dossiers regelmatig uit te voeren. Het kan bijvoorbeeld nuttig zijn als u uw logboekgegevens in externe rapportering of hulpmiddelen van BI wilt gebruiken. Een volledig voorbeeld is beschikbaar in de sectie Logbestanden [exporteren](../../automating/using/exporting-logs.md) .
+
+**Verwante onderwerpen**
+
+* [Hoofdlettergebruik: Incrementele query op abonnees van een service](../../automating/using/incremental-query-on-subscribers.md)
 
 ## Configuratie {#configuration}
 
@@ -62,41 +72,9 @@ De **[!UICONTROL Incremental query]** activiteit kan voor diverse soorten gebrui
 
    ![](assets/incremental_query_usedatefield.png)
 
-1. U kunt **[!UICONTROL Additional data]** voor de doelpopulatie definiëren via een toegewezen tabblad. Deze gegevens worden opgeslagen in extra kolommen en kunnen alleen worden gebruikt voor de actieve workflow. Met name kunt u gegevens uit de Adobe Campagne-databasetabellen toevoegen die zijn gekoppeld aan de doeldimensie van de query. Raadpleeg de sectie [Verrijkende gegevens](../../automating/using/query.md#enriching-data) .
+1. U kunt **[!UICONTROL Additional data]** voor de doelpopulatie definiëren via een toegewezen tabblad. Deze gegevens worden opgeslagen in extra kolommen en kunnen alleen worden gebruikt voor de actieve workflow. Met name kunt u gegevens uit de Adobe Campaign-databasetabellen toevoegen die zijn gekoppeld aan de doeldimensie van de query. Raadpleeg de sectie [Verrijkende gegevens](../../automating/using/query.md#enriching-data) .
 1. Bevestig de configuratie van uw activiteit en sla uw werkschema op.
 
 ## Gegevens worden verrijkt {#enriching-data}
 
 Enkel zoals voor een vraag, kunt u de gegevens van een verrijken **[!UICONTROL Incremental query]**. Raadpleeg de sectie [Verrijkende gegevens](../../automating/using/query.md#enriching-data) .
-
-## Voorbeeld: stijgende vraag op abonnees aan de dienst {#example--incremental-query-on-subscribers-to-a-service}
-
-In het volgende voorbeeld wordt de configuratie getoond van een **[!UICONTROL Incremental query]** activiteit die de profielen in de Adobe Campagne-database filtert die zijn geabonneerd op de service **Running Newsletter** , om hen een welkomstbericht met een promo-code te sturen.
-
-De workflow bestaat uit de volgende elementen:
-
-![](assets/incremental_query_example1.png)
-
-* Een **[!UICONTROL Scheduler]** activiteit, om de werkschema uit te voeren elke Maandag om 6.00 uur.
-
-   ![](assets/incremental_query_example2.png)
-
-* Een **[!UICONTROL Incremental query]** activiteit, die alle huidige abonnees tijdens de eerste uitvoering richt, dan slechts de nieuwe abonnees van die week tijdens de volgende executies.
-
-   ![](assets/incremental_query_example3.png)
-
-* Een **[!UICONTROL Email delivery]** activiteit. De workflow wordt één keer per week uitgevoerd, maar u kunt de verzonden e-mails en de resultaten per maand samenvoegen, bijvoorbeeld om rapporten te genereren over een periode van een hele maand en niet slechts één week.
-
-   U doet dit door een nieuwe e-mail en de resultaten te hergroeperen **[!UICONTROL Recurring email]** **[!UICONTROL By month]**.
-
-   Definieer de inhoud van uw e-mail en voeg de code van de welkomstaanbieding in.
-
-   Raadpleeg voor meer informatie de secties [E-maillevering](../../automating/using/email-delivery.md) en [E-mailinhoud](../../designing/using/personalization.md) definiëren.
-
-Start vervolgens de workflowuitvoering. Elke week ontvangen de nieuwe abonnees het welkomstbericht met de promotiecode.
-
-## Voorbeeld: incrementele query op leveringslogs {#example--incremental-query-on-delivery-logs}
-
-U kunt een **[!UICONTROL Incremental query]** activiteit gebruiken om nieuwe login dossiers regelmatig uit te voeren. Het kan bijvoorbeeld nuttig zijn als u uw logboekgegevens in externe rapportering of hulpmiddelen van BI wilt gebruiken.
-
-Een volledig voorbeeld is beschikbaar in de sectie Logbestanden [exporteren](../../automating/using/exporting-logs.md) .
