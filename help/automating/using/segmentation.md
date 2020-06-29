@@ -13,9 +13,9 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 740de9fe4666bf12fc97cfa434414668d9394504
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,18 @@ Met de **[!UICONTROL Segmentation]** activiteit kunt u een of meerdere segmenten
 >
 >Door gebrek, kan een lid van de binnenkomende bevolking slechts tot één enkel segment behoren. De filters worden toegepast op basis van de volgorde van de segmenten in de activiteit.
 
+**Verwante onderwerpen:**
+* [Hoofdlettergebruik: Segmentatie op locatie](../../automating/using/workflow-segmentation-location.md)
+* [Hoofdlettergebruik: Een controlegroep samenstellen](../../automating/using/workflow-control-group.md)
+* [Hoofdlettergebruik: Segmentering volgens leeftijdsgroepen](../../automating/using/segmentation-age-groups.md)
+
 ## Gebruikscontext {#context-of-use}
 
 De **[!UICONTROL Segmentation]** activiteit wordt over het algemeen geplaatst na het richten van activiteiten (vraag, doorsnede, vereniging, uitsluiting, enz.) om de standaardpopulatie te bepalen op basis waarvan de segmenten worden gevormd.
+
+**Verwante onderwerpen**
+
+* [Hoofdlettergebruik: Segmenteringsprofielen op basis van hun leeftijdsgroepen](../../automating/using/segmentation-age-groups.md).
 
 ## Configuratie {#configuration}
 
@@ -91,31 +100,6 @@ De **[!UICONTROL Segmentation]** activiteit wordt over het algemeen geplaatst na
 
    * Controleer de **[!UICONTROL Enable overlapping of outbound populations]** optie als u een lid van de binnenkomende bevolking tot verscheidene segmenten tezelfdertijd wilt behoren. De uitgaande populatie van de activiteit kan groter zijn dan de binnenkomende populatie.
    * Controleer de **[!UICONTROL Concatenate the code of each segment]** optie als de binnenkomende bevolking reeds een segmentcode is toegewezen die u wilt houden. De segmentcode die in de activiteit wordt opgegeven, wordt toegevoegd aan de oorspronkelijke segmentcode.
-   * Controleer de **[!UICONTROL Generate complement]** optie als u de resterende bevolking wilt uitbuiten.
+   * Controleer de **[!UICONTROL Generate complement]** optie als u de resterende bevolking wilt uitbuiten. Zie [Hoofdletters/kleine letters gebruiken: Leveringen maken met een complement](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Bevestig de configuratie van uw activiteit en sla uw werkschema op.
-
-## Voorbeeld {#example}
-
-In het volgende voorbeeld wordt een segmentatie van databaseprofielen weergegeven op basis van hun leeftijdsgroep. Het doel van de workflow is om voor elke leeftijdsgroep een specifieke e-mail te verzenden. Gezien het feit dat deze workflow deel uitmaakt van een testcampagne, kan elk segment slechts maximaal 100 profielen bevatten die willekeurig zijn geselecteerd om een beperkt en representatief publiek te gebruiken.
-
-![](assets/wkf_segment_example_4.png)
-
-De workflow bestaat uit de volgende elementen:
-
-* Een **[!UICONTROL Scheduler]** activiteit om de de uitvoeringsdatum van het werkschema te specificeren. Raadpleeg de sectie [Planner](../../automating/using/scheduler.md) .
-* Een **[!UICONTROL Query]** activiteit aan doelprofielen van mensen van wie verjaardag en e-mailadres zijn ingegaan. Raadpleeg de sectie [Query](../../automating/using/query.md) .
-* Een **[!UICONTROL Segmentation]** activiteit om 3 segmenten tot stand te brengen die in verschillende uitgaande overgangen worden verdeeld: 18-25 jaar oud, 26-32 jaar oud en profielen ouder dan 32 jaar. De segmenten worden gedefinieerd volgens de volgende parameters:
-
-   ![](assets/wkf_segment_example_3.png)
-
-   * Een filter op de leeftijd om de leeftijdsgroep van het segment te bepalen
-
-      ![](assets/wkf_segment_new_segment.png)
-
-   * Een **[!UICONTROL Random sampling]** typelimiet die is gekoppeld aan een **[!UICONTROL Maximum size]** limiet van 100
-
-      ![](assets/wkf_segment_example_1.png)
-
-* Een **[!UICONTROL Email delivery]** activiteit per segment. Raadpleeg de sectie [E-maillevering](../../automating/using/email-delivery.md) .
-
