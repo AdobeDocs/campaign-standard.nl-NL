@@ -12,7 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1b7d2210647a87693d93e325a4c888cb23e5f3a
+source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: c1b7d2210647a87693d93e325a4c888cb23e5f3a
 </table>
 
 Met Adobe Campaign kunt u campagnes op elk kanaal starten, meten en automatiseren.
-Het is niet onmogelijk om al uw afzetkanalen te harmoniseren. Met de hulp van de Campagne van Adobe, kunt u klantengegevens van verschillende systemen, apparaten, en kanalen in één enkel profiel brengen. Dan, leverend geschikte en relevante campagnes die uw klanten op de juiste plaatsen en de juiste manieren tijdens hun klantenreis ontmoeten.
+Het is niet onmogelijk om al uw afzetkanalen te harmoniseren. Met behulp van Adobe Campaign kunt u klantgegevens van verschillende systemen, apparaten en kanalen in één profiel plaatsen. Dan, leverend geschikte en relevante campagnes die uw klanten op de juiste plaatsen en de juiste manieren tijdens hun klantenreis ontmoeten.
 
 ## Algemene concepten {#global-concepts}
 
@@ -50,11 +53,11 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Er zijn vijf communicatiekanalen** beschikbaar in Adobe Campagne: E-mail, SMS-bericht, pushmelding, In-App-bericht en Direct-maillevering.
+**In Adobe Campaign zijn vijf communicatiekanalen** beschikbaar: E-mail, SMS-bericht, pushmelding, In-App-bericht en Direct-maillevering.
 
 Voor elk kanaal zijn specifieke functies beschikbaar. Met het e-mailkanaal kunt u bijvoorbeeld A/B-tests uitvoeren om maximaal drie versies van een e-mailbericht te testen. Met het SMS-kanaal beheert u SMS-berichten van STOP en slaat u inkomende SMS van de ontvangers op in uw database.
 
-Bovendien kunt u de **standaardfunctionaliteit** voor campagnes en dynamische inhoud gebruiken om de interesse van uw publiek te wekken.
+Bovendien kunt u gebruikmaken van Campaign Standard- **personalisatie en dynamische inhoudmogelijkheden** om de interesse van uw publiek te wekken.
 
 Meer informatie:
 
@@ -103,3 +106,4 @@ Meer informatie:
 * [AEM-inhoud importeren](../../integrating/using/creating-email-experience-manager.md)
 * [Berichten verzenden met workflows](../../automating/using/about-channel-activities.md)
 * [Zelfstudievideo&#39;s over communicatiekanalen](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [Hoofdlettergebruik: Een levering tussen kanalen maken](../../automating/using/workflow-cross-channel-delivery.md)
