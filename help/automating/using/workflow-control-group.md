@@ -1,6 +1,6 @@
 ---
-title: '"Gebruiksscenario voor workflow: Controlegroep"'
-description: '"Gebruiksscenario voor workflow: Controlegroep"'
+title: Een controlegroep samenstellen
+description: Dit gebruiksgeval toont hoe te om een controlegroep te bouwen.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -13,20 +13,23 @@ context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d93f79912e4d74ed0e177ad308f25f272092cbc2
+source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+workflow-type: tm+mt
+source-wordcount: '763'
+ht-degree: 0%
 
 ---
 
 
-# Gebruiksscenario voor workflow: Een controlegroep samenstellen {#building-control-group}
+# Een controlegroep samenstellen {#building-control-group}
 
 Om het effect van een levering te meten, kunt u sommige profielen van uw doel willen uitsluiten zodat zij geen bepaald bericht zullen ontvangen. Deze controlegroep kan worden gebruikt om een vergelijking met het gedrag van de doelbevolking te maken die het bericht ontving.
 
-Hiertoe kunt u in Adobe Campagne Standard een workflow maken met de volgende activiteiten:
-* Een activiteit van de Vraag om een bepaalde bevolking te richten.
-* Een segmentatieactiviteit om een willekeurige controlegroep van deze populatie te isoleren.
-* An Email delivery activity to send a message to the main target.
-* Een gegevensactiviteit van de Update om de profielen bij te werken die van het doel (de willekeurige controlegroep) werden uitgesloten.
+Hiertoe kunt u in Adobe Campaign Standard een workflow maken met de volgende activiteiten:
+* Een activiteit van de [Vraag](../../automating/using/query.md) om een bepaalde bevolking te richten.
+* Een [segmentatie](../../automating/using/segmentation.md) -activiteit om een willekeurige controlegroep van deze populatie te isoleren.
+* An [Email delivery](../../automating/using/email-delivery.md) activity to send a message to the main target.
+* An [Update data](../../automating/using/update-data.md) activity to update the profiles that were exclude from the target (the random control group).
 
 ![](assets/wkf_control-group.png)
 
@@ -59,16 +62,14 @@ De gedetailleerde stappen voor het maken van een workflow worden weergegeven in 
 
 ## Query-activiteiten maken {#create-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, sleep en laat vallen een **[!UICONTROL Query activity]**.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, sleep en laat vallen een activiteit van de [Vraag](../../automating/using/query.md) .
 1. Dubbelklik op de activiteit om het doel te definiëren.
 1. U kunt bijvoorbeeld bij **[!UICONTROL Shortcuts]** slepen en neerzetten **[!UICONTROL Profile]** een selectie maken **[!UICONTROL Age]** met de operator **[!UICONTROL Greater than]** en 25 typen in het **[!UICONTROL Value]** veld.
 1. Klik op **[!UICONTROL Confirm]**.
 
-De gedetailleerde stappen om een activiteit van de Vraag te bouwen worden voorgesteld in de sectie van de [Vraag](../../automating/using/query.md) .
-
 ## Een segmentatieactiviteit maken {#creating-a-segmentation-activity}
 
-1. Sleep een **[!UICONTROL Segmentation]** activiteit en zet deze neer en dubbelklik erop.
+1. Sleep een [segmentatie](../../automating/using/segmentation.md) -activiteit en dubbelklik erop.
 1. Selecteer op het **[!UICONTROL Segments]** tabblad het segment dat u wilt bewerken.
 1. Selecteer de **[!UICONTROL Configuration]** **[!UICONTROL Limit the population of this segment]** optie op het tabblad van dat segment.
 
@@ -85,11 +86,9 @@ De gedetailleerde stappen om een activiteit van de Vraag te bouwen worden voorge
 
 1. Klik op **[!UICONTROL Confirm]**.
 
-De gedetailleerde stappen om een activiteit van de Segmentatie te bouwen worden voorgesteld in de sectie van de [Segmentatie](../../automating/using/segmentation.md) .
-
 ## E-mailactiviteiten maken {#creating-an-email-activity}
 
-1. Sleep in **[!UICONTROL Activities]** > **[!UICONTROL Channels]** een segment **[!UICONTROL Email Delivery]** na het hoofddoelsegment.
+1. Sleep in **[!UICONTROL Activities]** > **[!UICONTROL Channels]** een [e-mailbezorgingsactiviteit](../../automating/using/email-delivery.md) na het hoofddoelsegment.
 1. Klik op de activiteit en selecteer deze ![](assets/edit_darkgrey-24px.png) om deze te bewerken.
 1. Selecteer **[!UICONTROL Single send email]** en klik op **[!UICONTROL Next]**.
 1. Selecteer een e-mailsjabloon en klik op **[!UICONTROL Next]**.
@@ -98,11 +97,9 @@ De gedetailleerde stappen om een activiteit van de Segmentatie te bouwen worden 
 1. Bewerk de inhoud en sla deze op.
 1. Schakel in het **[!UICONTROL Schedule]** gedeelte van het berichtdashboard de optie **[!UICONTROL-verzoek bevestigen voordat u berichten verzendt}** uit.
 
-De gedetailleerde stappen voor het samenstellen van een e-mailactiviteit worden weergegeven in de sectie [E-maillevering](../../automating/using/email-delivery.md) .
-
 ## Een updategegevensactiviteit maken {#creating-update-data-activity}
 
-1. Sleep en laat vallen een **[!UICONTROL Update data]** activiteit na het segment van de controlegroep.
+1. Sleep en laat vallen een de gegevensactiviteit van de [Update](../../automating/using/update-data.md) na het segment van de controlegroep.
 1. Selecteer de activiteit, dan open het gebruikend de ![](assets/edit_darkgrey-24px.png) knoop van de snelle acties die verschijnen.
 1. Selecteer op het **[!UICONTROL General]** tabblad een optie in de **[!UICONTROL Update]** **[!UICONTROL Operation type]** vervolgkeuzelijst.
 1. Selecteer op het **[!UICONTROL Identification]** tabblad de **[!UICONTROL Directly using the targeting dimension]** optie.
@@ -115,8 +112,6 @@ De gedetailleerde stappen voor het samenstellen van een e-mailactiviteit worden 
    ![](assets/wkf_control-update-fields-to-update.png)
 
 1. Klik op **[!UICONTROL Confirm]**.
-
-De gedetailleerde stappen om een de gegevensactiviteit van de Update te bouwen worden voorgesteld in de de gegevenssectie van de [Update](../../automating/using/update-data.md) .
 
 ## De workflow uitvoeren {#running-the-workflow}
 
