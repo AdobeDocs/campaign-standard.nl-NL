@@ -1,6 +1,6 @@
 ---
-title: '"Gebruiksscenario voor workflow: Leveringen maken met een complement"'
-description: '"Gebruiksscenario voor workflow: Leveringen maken met een complement"'
+title: Leveringen maken met een aanvulling
+description: In dit gebruiksgeval ziet u hoe u leveringen met een complement maakt.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -13,12 +13,15 @@ context-tags: workflow,use-case,segmentation
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 1%
 
 ---
 
 
-# Gebruiksscenario voor workflow: Leveringen maken met een aanvulling {#deliveries-with-complement}
+# Leveringen maken met een aanvulling {#deliveries-with-complement}
 
 U kunt een e-mail naar klanten sturen: een voor klanten die minder dan een jaar geleden zijn gemaakt, een voor klanten die meer dan een jaar geleden zijn gecreëerd.
 
@@ -28,7 +31,7 @@ U kunt een e-mail naar klanten sturen: een voor klanten die minder dan een jaar 
 
 ## Een query-activiteit maken {#create-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, sleep en laat vallen een **[!UICONTROL Query activity]** ![](assets/query.png).
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, sleep en laat vallen een activiteit van de [Vraag](../../automating/using/query.md) .
 1. Dubbelklik op de activiteit.
 1. In **[!UICONTROL Shortcuts]**, belemmering en daling **[!UICONTROL Profiles]** en selecteer **[!UICONTROL email]** met de exploitant **[!UICONTROL is not empty]**.
 1. Sleep **[!UICONTROL Shortcuts]** en zet de cursor neer **[!UICONTROL Profiles]** en selecteer deze met de waarde **[!UICONTROL no longer contact by email]** **[!UICONTROL no]**.
@@ -38,7 +41,7 @@ U kunt een e-mail naar klanten sturen: een voor klanten die minder dan een jaar 
 
 ## Een segmentatieactiviteit maken {#create-a-segmentation-activity}
 
-1. Sleep in **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** een **[!UICONTROL Segmentation]** activiteit en dubbelklik erop.
+1. Sleep in **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** een [segmenteringsactiviteit](../../automating/using/segmentation.md) en dubbelklik erop.
 1. Houd de muis boven het segment en klik vervolgens op ![](assets/edit_darkgrey-24px.png) om klanten aan te wijzen die dit jaar in de database zijn toegevoegd.
 1. Sleep en zet **[!UICONTROL Profiles]** de cursor neer en selecteer **[!UICONTROL Created]** deze met het filtertype **[!UICONTROL Relative]**.
 1. Wijzig de **[!UICONTROL Level of precision]** in **[!UICONTROL Year]** en selecteer **[!UICONTROL This year]**.
@@ -55,7 +58,7 @@ U kunt een e-mail naar klanten sturen: een voor klanten die minder dan een jaar 
 
 ## Een e-maillevering maken {#create-an-email-delivery}
 
-1. Sleep in **[!UICONTROL Activities]** > **[!UICONTROL Channels]** een e-maillevering na elk segment.
+1. Sleep in **[!UICONTROL Activities]** > **[!UICONTROL Channels]** een activiteit voor het verzenden van [e-mail](../../automating/using/email-delivery.md) na elk segment.
 1. Klik op de activiteit en selecteer deze ![](assets/edit_darkgrey-24px.png) om te bewerken.
 1. Selecteer **[!UICONTROL Single send email]** en klik op **[!UICONTROL Next]**.
 1. Selecteer een e-mailsjabloon en klik op **[!UICONTROL Next]**.
@@ -69,9 +72,3 @@ U kunt een e-mail naar klanten sturen: een voor klanten die minder dan een jaar 
 Raadpleeg voor meer informatie het [ontwerpen van een e-mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
 ![](assets/wf-deliveries-with-a-complement.png)
-
-**Verwante onderwerpen:**
-
-* [Query](../../automating/using/query.md)
-* [Segmenteringsactiviteit](../../automating/using/segmentation.md)
-* [E-maillevering](../../automating/using/email-delivery.md)
