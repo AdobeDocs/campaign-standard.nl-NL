@@ -1,6 +1,6 @@
 ---
 title: Bestand overbrengen
-description: Met de bestandsactiviteit voor overbrengen kunt u bestanden ontvangen of verzenden, testen of er bestanden aanwezig zijn of kunt u een lijst met bestanden weergeven in Adobe Campagne.
+description: Met de bestandsactiviteit Overdracht kunt u bestanden ontvangen of verzenden, testen of er bestanden aanwezig zijn of kunt u een lijst met bestanden weergeven in Adobe Campaign.
 page-status-flag: never-activated
 uuid: a2f18118-b681-4310-aee0-9e82179d2032
 contentOwner: sauviat
@@ -13,7 +13,10 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3e90acaa1c2b3de2240f01e5dc3440be44e65eba
+source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
+workflow-type: tm+mt
+source-wordcount: '1075'
+ht-degree: 0%
 
 ---
 
@@ -24,18 +27,21 @@ source-git-commit: 3e90acaa1c2b3de2240f01e5dc3440be44e65eba
 
 ![](assets/file_transfer.png)
 
-Met deze **[!UICONTROL Transfer file]** activiteit kunt u bestanden ontvangen of verzenden, testen of er bestanden aanwezig zijn of bestanden weergeven in Adobe Campagne.
+Met deze **[!UICONTROL Transfer file]** activiteit kunt u bestanden ontvangen of verzenden, testen of er bestanden aanwezig zijn of kunt u een lijst met bestanden weergeven in Adobe Campaign.
 
 >[!CAUTION]
 >
 >Vanaf versie 20.3 worden bestanden die met de **[!UICONTROL Transfer File]** activiteit zijn gedownload, na X dagen verwijderd, waarbij X wordt bepaald door het **[!UICONTROL History in days]** veld onder het **[!UICONTROL Execution]** menu in de Workfloweigenschappen.
-
 
 ## Gebruikscontext {#context-of-use}
 
 De manier waarop de gegevens worden geëxtraheerd, wordt gedefinieerd wanneer de activiteit wordt geconfigureerd. Het te laden bestand kan bijvoorbeeld een lijst met contactpersonen zijn.
 
 U kunt deze activiteit gebruiken om gegevens terug te krijgen die dan met de **[!UICONTROL Load file]** activiteit zullen worden gestructureerd.
+
+**Verwante onderwerpen:**
+
+* [Hoofdlettergebruik: Gegevens bijwerken op basis van een automatische bestandsdownload](../../automating/using/update-data-automatic-download.md)
 
 ## Configuratie {#configuration}
 
@@ -46,7 +52,7 @@ U kunt deze activiteit gebruiken om gegevens terug te krijgen die dan met de **[
    ![](assets/wkf_file_transfer_01.png)
 
    * **Bestanden downloaden**: kunt u een bestand downloaden.
-   * **Bestanden uploaden**: kunt u een bestand uploaden. Wanneer u een bestand uploadt uit het Adobe Campaign-bestand, wordt een logbestandvermelding in het **[!UICONTROL Export audits]** menu gegenereerd. Raadpleeg voor meer informatie over exportaudits de sectie [Audit export](../../administration/using/auditing-export-logs.md) .
+   * **Bestanden uploaden**: kunt u een bestand uploaden. Als u een bestand uploadt vanuit een Adobe Campaign-bestand, wordt een logbestandvermelding in het **[!UICONTROL Export audits]** menu gegenereerd. Raadpleeg voor meer informatie over exportaudits de sectie [Audit export](../../administration/using/auditing-export-logs.md) .
    * **Testen om te controleren of het bestand bestaat**: kunt u controleren of er een bestand is.
    * **Bestandenlijst**: Hiermee kunt u de bestanden weergeven die aanwezig zijn op de server die is gedefinieerd op het **[!UICONTROL Protocol]** tabblad. Deze actie wordt hoofdzakelijk gebruikt voor het zuiveren doeleinden, om te controleren of wordt de activiteit gevormd volgens uw behoeften alvorens de dossiers van de verre server te downloaden.
 
@@ -55,7 +61,7 @@ U kunt deze activiteit gebruiken om gegevens terug te krijgen die dan met de **[
    * [SFTP](#SFTP-configuration-wf)
    * [Amazon S3](#S3-configuration-wf)
    * [Microsoft Azure Blob-opslag](#azure-blob-configuration-wf)
-   * [Bestand(en) aanwezig op de Adobe Campagneserver](#files-server-configuration-wf)
+   * [Bestand(en) aanwezig op de Adobe Campaign-server](#files-server-configuration-wf)
 
 1. In de **[!UICONTROL Additional options]** sectie, die afhankelijk is van het geselecteerde protocol, kunt u parameters toevoegen aan uw protocol. U kunt:
 
@@ -130,14 +136,14 @@ Met het Microsoft Azure Blob-protocol hebt u toegang tot blob op een Microsoft A
    * **&quot;campagne/nieuw-&quot;**: komt overeen met alle basen met een bestandsnaam die begint met &quot;new-&quot; en zich bevindt in de map Campagne.
    * **&quot;&quot;**: door een leeg pad toe te voegen, kunt u alle balken afstemmen die in de container beschikbaar zijn.
 
-### Configuratie met bestanden die aanwezig zijn op de Adobe Campagne-server {#files-server-configuration-wf}
+### Configuratie met bestanden aanwezig op de Adobe Campaign-server {#files-server-configuration-wf}
 
 Het **[!UICONTROL File(s) present on the Adobe Campaign server]** protocol komt overeen met de opslagplaats die de te herstellen bestanden bevat.
 Metatekens of jokertekens (bijvoorbeeld * of ?) kan worden gebruikt om bestanden te filteren.
 
 Kies of u wilt **[!UICONTROL Define a file path]** of **[!UICONTROL Use a dynamic file path]** de **[!UICONTROL Use a dynamic file path]** optie, laat u een standaarduitdrukking en gebeurtenisvariabelen gebruiken om de naam van het over te brengen dossier te personaliseren. Raadpleeg voor meer informatie de sectie [Activiteiten aanpassen met gebeurtenisvariabelen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) .
 
-Houd er rekening mee dat het pad relatief moet zijn ten opzichte van de opslagruimtedirectory van de Adobe Campagneserver. De bestanden bevinden zich in de map **sftp&lt;yourinstancename>/** . U kunt ook niet door de mappen boven de opslagruimte bladeren. Bijvoorbeeld:
+Het pad moet relatief zijn ten opzichte van de opslagruimtedirectory van de Adobe Campaign-server. De bestanden bevinden zich in de map **sftp&lt;yourinstancename>/** . U kunt ook niet door de mappen boven de opslagruimte bladeren. Bijvoorbeeld:
 
     >**user&amp;lt;yourinstancename>/my_recipients.csv** is correct.
     >
@@ -162,19 +168,3 @@ Telkens wanneer de activiteit wordt uitgevoerd, wordt de omslag gecontroleerd al
 >[!NOTE]
 >
 >Als de activiteit niet opnieuw wordt uitgevoerd, zal zijn omslag niet worden gecontroleerd noch worden leeggemaakt. Wees daarom voorzichtig bij het overdragen van grote bestanden.
-
-## Voorbeeld {#example}
-
-Het volgende voorbeeld toont de configuratie van een activiteit van de **Overdracht** van het Dossier die dan door een activiteit van het Dossier **van de** Lading dan een activiteit van de Gegevens **van de** Update zal worden gevolgd. Het doel van deze workflow is om de Adobe Campagne-databaseprofielen toe te voegen of bij te werken met de gegevens die door de workflow worden hersteld.
-
-1. Sleep een **bestandsactiviteit** overbrengen naar uw workflow.
-1. Selecteer de activiteit, dan open het gebruikend de ![](assets/edit_darkgrey-24px.png) knoop van de snelle acties die verschijnen.
-1. Selecteer op het **[!UICONTROL Protocol]** tabblad **SFTP**.
-1. Selecteer de **verbindingsparameters gebruiken die zijn gedefinieerd in een optie voor een externe account** .
-1. Voer de naam van de externe account in.
-1. Voer het **bestandspad op de externe server** in.
-
-   ![](assets/wkf_file_transfer_07.png)
-
-1. Bevestig uw activiteit en sla uw werkschema op.
-
