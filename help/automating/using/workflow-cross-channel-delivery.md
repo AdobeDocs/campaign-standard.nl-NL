@@ -1,6 +1,6 @@
 ---
-title: '"Gebruiksscenario voor workflow: Kanaallevering"'
-description: '"Gebruiksscenario voor workflow: Kanaallevering"'
+title: Kanaallevering
+description: In deze gebruiksaanwijzing ziet u hoe u een levering via meerdere kanalen kunt maken
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -13,20 +13,23 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+workflow-type: tm+mt
+source-wordcount: '862'
+ht-degree: 0%
 
 ---
 
 
-# Gebruiksscenario voor workflow: Een levering tussen kanalen maken{#cross-channel-delivery}
+# Een levering tussen kanalen maken{#cross-channel-delivery}
 
-In dit document kunt u de volgende functionaliteit van Adobe Campagne ontdekken via een standaarddraagtas: het creëren van een workflow voor levering tussen kanalen.
+In dit document kunt u de volgende Adobe Campaign-functionaliteit vinden via een standaard gebruiksscenario: het creëren van een workflow voor levering tussen kanalen.
 
 Het doel is hier een publiek te selecteren uit de ontvangers van de database en deze te segmenteren in twee verschillende groepen met als doel een e-mail naar de eerste groep en een SMS-bericht naar de tweede groep te sturen.
 
 ![](assets/wkf_segment_overview.png)
 
-Raadpleeg de volgende documenten voor meer informatie over workflows en de verschillende kanalen die beschikbaar zijn in Adobe Campaign:
+Raadpleeg de volgende documenten voor meer informatie over workflows en de verschillende beschikbare kanalen in Adobe Campaign:
 
 * [Workflows detecteren](../../automating/using/get-started-workflows.md)
 * [Communicatiekanalen detecteren](../../channels/using/get-started-communication-channels.md)
@@ -51,7 +54,7 @@ Zodra het werkschema wordt gecreeerd, kunt u tot zijn interface toegang hebben.
 
 Voeg een activiteit van de Vraag in uw werkschema op om de profielen te richten die uw leveringen zullen ontvangen.
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, sleep en laat vallen een **[!UICONTROL Query activity]**.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, sleep en laat vallen een activiteit van de [Vraag](../../automating/using/query.md) .
 1. Dubbelklik op de activiteit.
 1. Blader op het **[!UICONTROL Target]** tabblad door de sneltoetsen en selecteer een van uw [doelgroepen](../../audiences/using/about-audiences.md).
 1. Sleep de sneltoets naar de bewerkingszone. Afhankelijk van het geselecteerde type sneltoets wordt een venster weergegeven.
@@ -63,13 +66,11 @@ U kunt een query voor een of meerdere elementen maken.
 
 Gebruik de **[!UICONTROL Count]** knop om een schatting te zien van het aantal profielen dat de query als doel heeft.
 
-De gedetailleerde stappen om een activiteit van de Vraag te bouwen worden voorgesteld in de sectie van de [Vraag](../../automating/using/query.md) .
-
 ## Een segmentatieactiviteit maken {#creating-segmentation-activity}
 
 Zodra uw doel door de activiteit van de Vraag wordt geïdentificeerd, moet u een criterium selecteren om het doel in twee verschillende populaties te segmenteren: De ene ontvangt een e-mail en de andere ontvangt een SMS.
 
-U moet een activiteit van de Segmentatie gebruiken om één of verscheidene segmenten van een bevolking tot stand te brengen die stroomopwaarts in een vraag wordt berekend.
+U moet een [Segmenteringsactiviteit](../../automating/using/segmentation.md) gebruiken om één of verscheidene segmenten van een bevolking tot stand te brengen die stroomopwaarts in een vraag wordt berekend.
 
 ![](assets/wkf_segment_activity.png)
 
@@ -114,19 +115,17 @@ Uw tweede overgang is nu ook gevormd.
 
 ![](assets/wkf_segment_transitions.png)
 
-De gedetailleerde stappen om een activiteit van de Segmentatie te bouwen worden voorgesteld in de sectie van de [Segmentatie](../../automating/using/segmentation.md) .
-
 ## Leveringen maken {#creating-deliveries}
 
-Aangezien twee overgangen reeds werden gecreeerd, moet u twee soorten leveringen aan de uitgaande overgangen van de activiteit van de Segmentatie nu toevoegen: en **[!UICONTROL Email delivery]** een **[!UICONTROL SMS delivery]**.
+Aangezien twee overgangen reeds werden gecreeerd, moet u twee soorten leveringen aan de uitgaande overgangen van de activiteit van de Segmentatie nu toevoegen: een [e-mailleveringsactiviteit](../../automating/using/email-delivery.md) en een [SMS-leveringsactiviteit](../../automating/using/sms-delivery.md) .
 
-Met Adobe Campaign kunt u leveringen aan een workflow toevoegen. Selecteer hiertoe een levering in de **[!UICONTROL Channels]** categorie van het activiteitenpalet van uw workflow.
+Met Adobe Campaign kunt u leveringen toevoegen aan een workflow. Selecteer hiertoe een levering in de **[!UICONTROL Channels]** categorie van het activiteitenpalet van uw workflow.
 
 ![](assets/wkf_segment_deliveries1.png)
 
 Een e-maillevering maken:
 
-1. Sleep een segment **[!UICONTROL Email delivery]** na het eerste segment.
+1. Sleep een [e-mailleveringsactiviteit](../../automating/using/email-delivery.md) na het eerste segment.
 1. Dubbelklik op de activiteit om deze te bewerken.
 1. Selecteer **[!UICONTROL Simple email]**.
 1. Selecteer **[!UICONTROL Add an outbound transition with the population]** en klik op **[!UICONTROL Next]**.
@@ -141,18 +140,14 @@ Een e-maillevering maken:
 1. Bewerk de inhoud en sla deze op.
 1. Schakel in het **[!UICONTROL Schedule]** gedeelte van het berichtdashboard de optie **[!UICONTROL-verzoek bevestigen voordat u berichten verzendt}** uit.
 
-De gedetailleerde stappen voor het samenstellen van een e-mailactiviteit worden weergegeven in de sectie [E-maillevering](../../automating/using/email-delivery.md) .
-
 Een SMS-verzending maken:
 
-1. Sleep een segment **[!UICONTROL SMS delivery]** na het andere segment.
+1. Sleep een [SMS-leveringsactiviteit](../../automating/using/sms-delivery.md) na het andere segment.
 1. Dubbelklik op de activiteit om deze te bewerken.
 1. Selecteer **[!UICONTROL SMS]** en klik op **[!UICONTROL Next]**.
 1. Selecteer een SMS-sjabloon en klik op **[!UICONTROL Next]**.
 1. Voer de SMS-eigenschappen in en klik op **[!UICONTROL Next]**.
 1. Bewerk de inhoud en sla deze op.
-
-De gedetailleerde stappen om een activiteit van SMS te bouwen worden voorgesteld in de de leverings [sectie van](../../automating/using/sms-delivery.md) SMS.
 
 Nadat u de leveringen hebt gemaakt en bewerkt, kunt u de workflow starten.
 
@@ -160,8 +155,8 @@ Nadat u de leveringen hebt gemaakt en bewerkt, kunt u de workflow starten.
 
 ## De workflow uitvoeren {#running-the-workflow}
 
-Zodra het werkschema is begonnen, zal de bevolking die door de activiteit van de Vraag wordt gericht worden gesegmenteerd om een e-mail of levering van SMS te ontvangen.
+Zodra de workflow is gestart, wordt de populatie waarop de **[!UICONTROL Query]** activiteit betrekking heeft, gesegmenteerd om een e-mail- of sms-levering te ontvangen.
 
 Klik op de **[!UICONTROL Start]** knop op de actiebalk om de workflow uit te voeren.
 
-Via het logo van Adobe Campagne hebt u toegang tot uw leveringen via het menu Geavanceerd van **[!UICONTROL Marketing plans]** > **[!UICONTROL Marketing activities]** . Klik op de levering en vervolgens op de **[!UICONTROL Reports]** knop om de [leveringsrapporten](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports)te openen, zoals de leveringssamenvatting, de open snelheid of de e-mailrendering volgens het berichtvenster van de ontvangers.
+Via het Adobe Campaign-logo hebt u toegang tot uw leveringen via het menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Marketing activities]** Geavanceerd. Klik op de levering en vervolgens op de **[!UICONTROL Reports]** knop om de [leveringsrapporten](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports)te openen, zoals de leveringssamenvatting, de open snelheid of de e-mailrendering volgens het berichtvenster van de ontvangers.
