@@ -1,6 +1,6 @@
 ---
-title: '"Gebruiksscenario voor workflow: Segmentatie op locatie"'
-description: '"Gebruiksscenario voor workflow: Segmentatie op locatie"'
+title: Segmentatie op locatie"
+description: Dit gebruiksgeval toont hoe te om segmentatie op plaats uit te voeren.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
 contentOwner: sauviat
@@ -13,12 +13,15 @@ context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 1%
 
 ---
 
 
-# Gebruiksscenario voor workflow: Segmentatie op locatie {#segmentation-on-location}
+# Segmentatie op locatie {#segmentation-on-location}
 
 U kunt een e-mail sturen naar klanten met aanbiedingen in hun lokale winkels.
 
@@ -28,7 +31,7 @@ U kunt een e-mail sturen naar klanten met aanbiedingen in hun lokale winkels.
 
 ## Ontvangers die via e-mail contact kunnen opnemen selecteren{#selecting-recipients-contactable-via-email}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, sleep en laat vallen een **[!UICONTROL Query activity]** ![](assets/query.png).
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, sleep en laat vallen een activiteit van de [Vraag](../../automating/using/query.md) ![](assets/query.png).
 1. Dubbelklik op de activiteit.
 1. Sleep **[!UICONTROL Shortcuts]** en zet het veld neer **[!UICONTROL Profiles]** en selecteer het veld **[!UICONTROL email]** met de operator **[!UICONTROL is not empty]**.
 1. Sleep **[!UICONTROL Shortcuts]** en zet het veld neer **[!UICONTROL Profiles]** en selecteer het **[!UICONTROL no longer contact by email]** met de waarde **[!UICONTROL no]**.
@@ -38,7 +41,7 @@ U kunt een e-mail sturen naar klanten met aanbiedingen in hun lokale winkels.
 
 ## Een segmentatieactiviteit maken{#creating-a-segmentation-activity}
 
-1. Sleep een **[!UICONTROL Segmentation]** activiteit en zet deze neer en dubbelklik erop.
+1. Sleep een [segmentatie](../../automating/using/segmentation.md) -activiteit en dubbelklik erop.
 1. Klik op segment en open vervolgens de overgang naar de eerste stad. Hier Boston.
 1. Sleep en zet de cursor neer **[!UICONTROL Location]** en selecteer **[!UICONTROL City]** deze met de operator **[!UICONTROL equals to]** en de waarde **[!UICONTROL Boston]**.
 Opmerking: Om alle mensen te bereiken die boston zijn binnengekomen, maakt u, zonder rekening te houden met de zaak, de optie van de case sensitive uit.
@@ -50,7 +53,7 @@ Opmerking: Om alle mensen te bereiken die boston zijn binnengekomen, maakt u, zo
 
 ## Een e-maillevering maken{#creating-an-email-delivery}
 
-1. Sleep in **[!UICONTROL Activities]** > **[!UICONTROL Channels]** een segment **[!UICONTROL Email Delivery]** na elk segment.
+1. Sleep in **[!UICONTROL Activities]** > **[!UICONTROL Channels]** een activiteit voor het verzenden van [e-mail](../../automating/using/email-delivery.md) na elk segment.
 1. Klik op de activiteit en selecteer deze ![](assets/edit_darkgrey-24px.png) om te bewerken.
 1. Selecteer **[!UICONTROL Simple email]** en klik op **[!UICONTROL Next]**.
 1. Selecteer een e-mailsjabloon en klik op **[!UICONTROL Next]**.
@@ -59,15 +62,10 @@ Opmerking: Om alle mensen te bereiken die boston zijn binnengekomen, maakt u, zo
 1. Voeg elementen in of selecteer een bestaande sjabloon.
 1. Pas uw e-mail aan met aanbiedingen die specifiek zijn voor elke locatie.
 
-Raadpleeg voor meer informatie het [ontwerpen van een e-mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+   Raadpleeg voor meer informatie het [ontwerpen van een e-mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
 1. Klik **[!UICONTROL Preview]** om uw lay-out te controleren.
 1. Klik op **[!UICONTROL Save]**.
 
 ![](assets/wf-segmentation-location.png)
 
-**Verwante onderwerpen:**
-
-* [Query-activiteit](../../automating/using/query.md)
-* [Segmenteringsactiviteit](../../automating/using/segmentation.md)
-* [E-maillevering](../../automating/using/email-delivery.md)
