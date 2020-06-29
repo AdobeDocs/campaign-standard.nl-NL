@@ -4,9 +4,9 @@ sub-product: Adobe-campagnestandaard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1524'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,6 @@ ht-degree: 0%
       + [Direct mail maken](channels/using/creating-the-direct-mail.md)
       + [Het directe-mailpubliek definiëren](channels/using/defining-the-direct-mail-audience.md)
       + [De inhoud voor direct mail definiëren](channels/using/defining-the-direct-mail-content.md)
-      + [Voorbeeld van direct mail in een workflow](channels/using/example-of-direct-mail-in-a-workflow.md)
    + Transactieberichten {#transactional-messaging}
       + [Informatie over transactieberichten](channels/using/about-transactional-messaging.md)
       + [Transactieberichten voor gebeurtenissen](channels/using/event-transactional-messages.md)
@@ -305,14 +304,38 @@ ht-degree: 0%
       + [Pakketten beheren](automating/using/managing-packages.md)
       + [Lijsten exporteren](automating/using/exporting-lists.md)
       + [Hoofdlettergebruik: Aangepaste bronnen exporteren/importeren](automating/using/exporting-importing-custom-resources.md)
-   + Gebruik hoofdletters/kleine letters: Workflows {#workflow-use-case}
-      + [Leveringen maken met een aanvulling](automating/using/workflow-created-query-with-complement.md)
-      + [Leveringen maken op de aanmaakdatum](automating/using/workflow-creation-date-query.md)
-      + [wekelijkse levering maken](automating/using/workflow-weekly-offer.md)
-      + [Segmentatie op locatie maken](automating/using/workflow-segmentation-location.md)
-      + [Niet-openers opnieuw rangschikken](automating/using/workflow-cross-channel-retargeting.md)
-      + [Een controlegroep samenstellen](automating/using/workflow-control-group.md)
-      + [Een levering tussen kanalen maken](automating/using/workflow-cross-channel-delivery.md)
+   + Gebruik hoofdletters {#workflow-use-case}
+      + Leveringen {#deliveries}
+         + [Leveringen maken met een aanvulling](automating/using/workflow-created-query-with-complement.md)
+         + [Leveringen maken op de aanmaakdatum van profielen](automating/using/workflow-creation-date-query.md)
+         + [wekelijkse levering maken](automating/using/workflow-weekly-offer.md)
+         + [Een levering tussen kanalen maken](automating/using/workflow-cross-channel-delivery.md)
+         + [Duplicaten identificeren vóór levering](automating/using/identifying-duplicated-before-delivery.md)
+         + [Geboortedatum](automating/using/birthday-delivery.md)
+         + [Koppeling van e-mail- en direct-mailleveringen](automating/using/coupling-email-direct-mail.md)
+         + [Een e-mail verzenden met verrijkte velden](automating/using/sending-email-enriched-fields.md)
+         + [Een e-mail aanpassen met aanvullende gegevens](automating/using/personalizing-email-with-additional-data.md)
+      + Segmentering en doelgerichtheid {#segmentation-targeting}
+         + [Zoekvoorbeelden](automating/using/query-samples.md)
+         + [Unie op twee verfijnde doelgroepen](automating/using/union-on-two-refined-audiences.md)
+         + [Segmentatie op locatie maken](automating/using/workflow-segmentation-location.md)
+         + [Niet-openers opnieuw rangschikken](automating/using/workflow-cross-channel-retargeting.md)
+         + [Incrementele query op abonnees van een service](automating/using/incremental-query-on-subscribers.md)
+         + [Segmentering volgens leeftijdsgroepen](automating/using/segmentation-age-groups.md)
+         + [Bronnen gebruiken die verschillen van doelgerichte dimensies](automating/using/using-resources-different-from-targeting-dimensions.md)
+         + [Een controlegroep samenstellen](automating/using/workflow-control-group.md)
+      + Gegevensbeheer {#data-management}
+         + [Een bestandspubliek in overeenstemming brengen met de database](automating/using/reconcile-file-audience-with-database.md)
+         + [De gegevens uit een geïmporteerd bestand dedupliceren](automating/using/deduplicating-data-imported-file.md)
+         + [Profielgegevens verrijken met gegevens in een bestand](automating/using/enriching-profile-data-file.md)
+         + [Externe signaalactiviteit en gegevensinvoer](automating/using/external-signal-data-import.md)
+         + [De database bijwerken met externe gegevens](automating/using/update-database-file.md)
+         + [Gegevens bijwerken op basis van een automatische bestandsdownload](automating/using/update-data-automatic-download.md)
+         + [Afstemming van gegevens met behulp van relaties](automating/using/reconciliation-using-relations.md)
+         + [Gegevensupdate met afstemming](automating/using/data-update-reconciliation.md)
+         + [Profielen exporteren in een extern bestand](automating/using/exporting-profiles-in-file.md)
+         + [Meerdere abonnementstatussen bijwerken vanuit een bestand](automating/using/updating-subscriptions-from-file.md)
+         + [Profielen vanuit een bestand abonneren op een specifieke service](automating/using/subscribing-profiles-from-file.md)
    + Werken met Adobe Experience Platforms {#working-with-aep-audiences}
       + [Doelgroepen Adobe Experience Platform](automating/using/aep-targeting-audiences.md)
       + [Bezig met aanpassen van campagnes met gebruik van kenmerken van Adobe Experience Platforms](automating/using/aep-personalizing-campaigns.md)
