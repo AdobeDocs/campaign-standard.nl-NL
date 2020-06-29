@@ -13,7 +13,10 @@ context-tags: readAudience,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 0%
 
 ---
 
@@ -29,6 +32,11 @@ De **[!UICONTROL Read audience]** activiteit staat u toe om een bestaand publiek
 ## Gebruikscontext {#context-of-use}
 
 De **[!UICONTROL Read audience]** activiteit is een eenvoudigere versie van de **[!UICONTROL Query]** activiteit die voor gevallen wordt ontworpen waar u slechts een bestaand publiek hoeft te selecteren.
+
+**Verwante onderwerpen**
+
+* [Hoofdlettergebruik: Unie op twee verfijnde doelgroepen](../../automating/using/union-on-two-refined-audiences.md)
+* [Hoofdlettergebruik: Een bestandspubliek in overeenstemming brengen met de database](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuratie {#configuration}
 
@@ -47,57 +55,3 @@ De **[!UICONTROL Read audience]** activiteit is een eenvoudigere versie van de *
    Voor meer informatie over het creëren van het filtreren voorwaarden, verwijs naar de [Creërende vragen](../../automating/using/editing-queries.md#creating-queries) documentatie.
 
 1. Bevestig de configuratie van uw activiteit en sla uw werkschema op.
-
-## Voorbeeld: Een bestandspubliek in overeenstemming brengen met de database {#example--reconcile-a-file-audience-with-the-database}
-
-In dit voorbeeld wordt getoond hoe u de **[!UICONTROL Read audience]** activiteit kunt gebruiken om een publiek te verzoenen dat rechtstreeks is gemaakt van het importeren van een bestand.
-
-Wanneer u een bestand importeert, kunt u de inhoud rechtstreeks in een publiek opslaan. Dit publiek is een publiek van het Dossier en zijn gegevens zijn niet verbonden met om het even welke gegevensbestandmiddelen.
-
-De importworkflow is als volgt ontworpen:
-
-![](assets/readaudience_activity_example3.png)
-
-* Een [activiteit van het Laad dossier](../../automating/using/load-file.md) uploadt een dossier dat profielgegevens bevat die uit een extern hulpmiddel werden gehaald.
-
-   Bijvoorbeeld:
-
-   ```
-   lastname;firstname;birthdate;email;crmID
-   Smith;Hayden;23/05/1989;hayden.smith@example.com;124365
-   Mars;Daniel;17/11/1987;dannymars@example.com;123545
-   Smith;Clara;08/02/1989;hayden.smith@example.com;124567
-   Durance;Allison;15/12/1978;allison.durance@example.com;120987
-   Lucassen;Jody;28/03/1988;jody.lucassen@example.com;127634
-   Binder;Tom;19/01/1982;tombinder@example.com;128653
-   Binder;Tommy;19/01/1915;tombinder@example.com;134576
-   Connor;Jade;10/10/1979;connor.jade@example.com;132452
-   Mack;Clarke;02/03/1985;clarke.mack@example.com;149876
-   Ross;Timothy;04/07/1986;timross@example.com;157643
-   ```
-
-* Met de publieksactiviteit [Opslaan](../../automating/using/save-audience.md) worden de binnenkomende gegevens als een publiek opgeslagen. Aangezien de gegevens nog niet met elkaar in overeenstemming zijn gebracht, is het publiek een bestandspubliek en worden de gegevens ervan nog niet herkend als profielgegevens.
-
-De afstemmingsworkflow is als volgt ontworpen:
-
-![](assets/readaudience_activity_example2.png)
-
-* Een **[!UICONTROL Read audience]** activiteit uploadt het publiek van het Dossier dat in het de invoerwerkschema wordt gecreeerd. De publieksgegevens zijn nog niet in overeenstemming met de Adobe Campaign-database.
-* Met een [afstemmingsactiviteit](../../automating/using/reconciliation.md) worden de inkomende gegevens via het **[!UICONTROL Identification]** tabblad aangeduid als profielen. Bijvoorbeeld door het veld **E-mail** te gebruiken als afstemmingscriteria.
-* Een [updategegevensactiviteit](../../automating/using/update-data.md) neemt en werkt het profielmiddel van het gegevensbestand met de inkomende gegevens op. Aangezien de gegevens al als profielen worden geïdentificeerd, kunt u de **[!UICONTROL Directly using the targeting dimension]** optie selecteren en **[!UICONTROL Profiles]** op het **[!UICONTROL Identification]** tabblad van de activiteit selecteren. Vervolgens hoeft u alleen maar de lijst met velden toe te voegen die op het tabblad Afhankelijk moeten worden bijgewerkt.
-
-## Voorbeeld: Unie op twee verfijnde doelgroepen {#example--union-on-two-refined-audiences}
-
-De workflow die in dit voorbeeld wordt gedefinieerd, toont de samenvoeging van twee **[!UICONTROL Read audience]** activiteiten. Het doel van deze workflow is om een e-mail te sturen naar Gold- of Silver-leden van 18 tot 30 jaar oud.
-
-Er zijn al specifieke doelgroepen in het systeem gecreëerd om de Gold- en Silver-leden bij te houden.
-
-De workflow is als volgt ontworpen:
-
-![](assets/readaudience_activity_example1.png)
-
-* Een eerste **[!UICONTROL Read audience]** activiteit die het publiek van de Gouden leden terugwint en het door slechts profielen te selecteren die tussen 18 en 30 jaar oud zijn verfijnt.
-* Een tweede **[!UICONTROL Read audience]** activiteit die het Silver ledenpubliek terugwint en het verfijnt door slechts profielen te selecteren die tussen 18 en 30 jaar oud zijn.
-* Een **[!UICONTROL Union]** activiteit die populaties van beide **[!UICONTROL Read audiences]** activiteiten verenigt in één eindpopulatie.
-* Een **[!UICONTROL Email delivery]** activiteit die e-mail naar de bevolking verzendt die uit de **[!UICONTROL Union]** activiteit komt.
-
