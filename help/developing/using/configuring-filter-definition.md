@@ -13,7 +13,10 @@ context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: cabe064632c9c2e3de93bc1cff6fa217b4fdf3e6
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 0%
 
 ---
 
@@ -83,3 +86,8 @@ In plaats van het zelf te configureren, moeten ze gewoon de gewenste hoeveelheid
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
+Nadat een filter is geconfigureerd, kunt u het van Campaign Standard API&#39;s gebruiken met behulp van deze syntaxis:
+
+`GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
+
+Raadpleeg de documentatie [van de API&#39;s van](../../api/using/filtering.md#custom-filters)Campaign Standard voor meer informatie.
