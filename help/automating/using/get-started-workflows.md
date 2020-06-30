@@ -12,9 +12,9 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: a9fbf0479019dfbe2964c517a0370f015d0f380a
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Gegevens importeren/exporteren</a></p></td></tr>
 </table>
 
-Adobe Campaign biedt een uitgebreide grafische omgeving waarmee u complexe processen kunt ontwerpen, zoals segmentatie, uitvoering van campagnes, bestandsverwerking, goedkeuringen, enzovoort. U kunt bijvoorbeeld een workflow gebruiken om een bestand van een server te downloaden, het te decomprimeren en vervolgens de records ervan te importeren in de Adobe Campagne-database.
+Adobe Campaign biedt een uitgebreide grafische omgeving waarmee u complexe processen kunt ontwerpen, zoals segmentatie, uitvoering van campagnes, bestandsverwerking, enzovoort. U kunt bijvoorbeeld een workflow gebruiken om een bestand van een server te downloaden, het te decomprimeren en vervolgens de records in de Adobe Campaign-database te importeren.
 
 Een werkstroom kan gebruikers ook betrekken door hen taken toe te wijzen of hen te laten uitgevoerde taken goedkeuren. Dit betekent u een taak aan één of verscheidene gebruikers kunt toewijzen om aan inhoud te werken of doelstellingen te specificeren, en proefdrukken goed te keuren alvorens het bericht te verzenden.
 
@@ -47,7 +47,7 @@ Er zijn verschillende activiteiten beschikbaar om u te helpen uw workflows ontwe
 
 [Met doelgerichte activiteiten](../../automating/using/about-targeting-activities.md) kunt u een of meer doelen maken door sets te definiëren en deze sets te splitsen of te combineren met behulp van doorsnede-, samenvoegings- of uitsluitingsbewerkingen.
 
-Met de activiteiten [van de](../../automating/using/about-execution-activities.md)Uitvoering, coördineer uw werkschema en zijn activiteiten, terwijl de activiteiten [van het](../../automating/using/about-channel-activities.md) Kanaal u de Standaard communicatie van de Campagne kanalen laten combineren om kanaalwerkschema&#39;s tot stand te brengen.
+Met [Uitvoeringsactiviteiten](../../automating/using/about-execution-activities.md)kunt u uw workflow en de activiteiten ervan coördineren, terwijl u met [Kanaalactiviteiten](../../automating/using/about-channel-activities.md) communicatiekanalen van Campaign Standard kunt combineren om kanaalworkflows te maken.
 
 Tot slot staan de [gegevensbeheeractiviteiten](../../automating/using/about-data-management-activities.md) u toe om gegevens van uw gegevensbestand te manipuleren.
 
@@ -61,7 +61,7 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-Gebruik de **vraagredacteur** om gegevens van uw gegevensbestand te filtreren en een bevolking te bouwen om uw ontvangers beter te richten. De vraagredacteur is beschikbaar om verscheidene acties in de Norm van de Campagne uit te voeren: Maak het type van Vraag publiek, bepaal leveringsdoelstellingen, of populaties in werkschemaactiviteiten.
+Gebruik de **vraagredacteur** om gegevens van uw gegevensbestand te filtreren en een bevolking te bouwen om uw ontvangers beter te richten. De query-editor is beschikbaar voor het uitvoeren van verschillende handelingen in Campaign Standard: Maak het type van Vraag publiek, bepaal leveringsdoelstellingen, of populaties in werkschemaactiviteiten.
 
 De vraagredacteur komt met **vooraf bepaalde filters en regels** voor snel en gemakkelijk het filtreren. U kunt echter ook gebruikmaken van de **geavanceerde bewerkingsmogelijkheden** voor expressies. Op deze manier kunt u handmatig voorwaarden invoeren en functies gebruiken om uw eigen regels op te stellen.
 
@@ -75,7 +75,7 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-De standaard van de campagne komt met verscheidene mogelijkheden **van het** gegevensbeheer om gegevens in te voeren en uit te voeren.
+Campaign Standard beschikt over verschillende mogelijkheden **voor** gegevensbeheer voor het importeren en exporteren van gegevens.
 
 [Met de activiteiten](../../automating/using/about-data-management-activities.md) voor gegevensbeheer van workflows kunt u gegevens importeren, massa-updates uitvoeren op velden, bestanden ontvangen of verzenden of niet-geïdentificeerde gegevens koppelen aan bestaande bronnen.
 
@@ -85,7 +85,7 @@ Met de malplaatjes [van de](../../automating/using/importing-data-with-import-te
 
 Gebruik [Pakketten](../../automating/using/managing-packages.md) van de hefboomwerking om middelen tussen verschillende campagneinstanties, bijvoorbeeld, te ruilen om de configuratie van een instantie te herhalen, of gegevens over te brengen van een server aan een andere met inbegrip van douanemiddelen.
 
-Ten slotte kunt u met lijsten [voor](../../automating/using/exporting-lists.md) exporteren lijsten exporteren uit de campagnestandaard, zoals bijvoorbeeld de lijst met testprofielen, de lijst met e-mailadressen voor quarantaines, enzovoort.
+Tot slot kunt u met lijsten [voor](../../automating/using/exporting-lists.md) exporteren lijsten uit Campaign Standard exporteren, zoals bijvoorbeeld de lijst met testprofielen, de lijst met e-mailadressen voor quarantaines, enzovoort.
 
 Meer informatie:
 
@@ -96,4 +96,4 @@ Meer informatie:
 
 * [Zelfstudievideo&#39;s over processen en gegevensbeheer](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
 * [Technische workflows](../../administration/using/technical-workflows.md)
-* [Aan de slag met het standaard gegevensmodel van de campagne](../../developing/using/get-started-data-model.md)
+* [Aan de slag met het Campaign Standard-gegevensmodel](../../developing/using/get-started-data-model.md)
