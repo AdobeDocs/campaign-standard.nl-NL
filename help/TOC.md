@@ -4,9 +4,9 @@ sub-product: Adobe-campagnestandaard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: 49fdf317bdb73c83c9ddc9e0948ab91e1f60bd18
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
@@ -305,6 +305,7 @@ ht-degree: 0%
       + [Lijsten exporteren](automating/using/exporting-lists.md)
       + [Hoofdlettergebruik: Aangepaste bronnen exporteren/importeren](automating/using/exporting-importing-custom-resources.md)
    + Gebruik hoofdletters {#workflow-use-case}
+      + [Gebruikskwesties bij werkstromen](automating/using/about-workflow-use-cases.md)
       + Leveringen {#deliveries}
          + [Leveringen maken met een aanvulling](automating/using/workflow-created-query-with-complement.md)
          + [Leveringen maken op de aanmaakdatum van profielen](automating/using/workflow-creation-date-query.md)
