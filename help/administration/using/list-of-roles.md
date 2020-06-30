@@ -13,9 +13,9 @@ context-tags: role,overview;role,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c65cce2168219b3cd8cbd6704bdd0b6f3f55e3e6
+source-git-commit: 395791e69d0c4c8a888829539338e338387294de
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ In combinatie met organisatorische eenheden, geven de rollen gebruikers een gefi
 
 Raadpleeg voor meer informatie de tabel [](/help/administration/using/assets/acs_rights.pdf)Rollen en machtigingen, waarin de functies worden beschreven die beschikbaar zijn in de interface, afhankelijk van de geselecteerde machtigingen.
 
-[![image](assets/user_management_3.png](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
+[![image](assets/user_management_3.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
 
 Rollen kunnen worden beheerd vanuit het **[!UICONTROL Administration > Users & Security > Roles]** menu.
 
