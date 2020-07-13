@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 446bacfa42fcbc70c7a7c006fa185cdec004c264
+source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
 workflow-type: tm+mt
-source-wordcount: '5954'
+source-wordcount: '5969'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,17 @@ ht-degree: 0%
 
 Naast de opmerkingen bij de Adobe Campaign- [release](../../rn/using/release-notes.md)bevat deze pagina alle nieuwe updates in de Adobe Campaign Standard-documentatie.
 
+## Documentatie-updates - juli 2020 {#doc-updates-july-2020}
+
+Nieuwe e-mailmogelijkheden van AI: tijd optimaliseren en profiel scoring [Meer informatie](../../sending/using/predictive.md)
+
 ## Documentatie - juni 2020 {#doc-updates-june-2020}
 
 Gebruiksscenario&#39;s voor workflowgebruik zijn bijgewerkt en opnieuw ingedeeld in thematische onderdelen. [Meer informatie](../../automating/using/about-workflow-use-cases.md)
 
 Er zijn gebruiksgevallen toegevoegd voor het [coderen](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) en [decoderen](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) van gegevens met de workflows Configuratiescherm en Campagne.
 
-Zowel de termen &quot;whitelist&quot; als &quot;blacklist&quot; zijn uit de documentatie van Adobe Campaign verwijderd. Sommige van deze termen bestaan mogelijk nog steeds in de gebruikersinterface van het product, optienamen en interne code, maar worden in komende campagnereleases vervangen door &quot;blocklist&quot; en &quot;allowlist&quot;.
+Zowel de termen &quot;whitelist&quot; als &quot;blacklist&quot; zijn uit de documentatie van Adobe Campaign verwijderd. Sommige van deze termen bestaan mogelijk nog steeds in de gebruikersinterface van het product, optienamen en interne code, maar worden in komende campagnereleases vervangen door &quot;lijst van afgewezen personen&quot; en &quot;lijst van gewenste personen&quot;.
 
 Verwijzingen naar de oude ondersteuningswebsite zijn vervangen door de nieuwe URL. [Meer informatie](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -340,7 +344,7 @@ De contextafhankelijke Help-koppelingen die rechtstreeks beschikbaar zijn in Ado
 
 De volgende [pagina](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) wordt de officiële pagina Video&#39;s voor Adobe Campaign Standard.
 
-Er is een sectie toegevoegd over gegevensbewaring, inclusief de standaardwaarden voor gegevensbehoud voor standaardtabellen. [Meer informatie](../../administration/using/data-retention.md)
+Er is een sectie toegevoegd over gegevensbewaring, inclusief de standaardwaarden voor het bewaren van gegevens voor standaardtabellen. [Meer informatie](../../administration/using/data-retention.md)
 
 Een sectie toegevoegd over updates en onderhoudsbewerkingen. [Meer informatie](../../administration/using/updates-and-maintenance-operations.md)
 
@@ -360,7 +364,7 @@ De gids voor automatiseren is bijgewerkt met koppelingen naar gerelateerde workf
 
 Het gedeelte Indicatorberekening voor dynamische rapporten is bijgewerkt. [Meer informatie](../../reporting/using/indicator-calculation.md)
 
-Er is een dynamische compatibiliteitstabel voor rapporten toegevoegd om de compatibiliteit tussen dimensies en maatstaven beter te begrijpen. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
+Er is een dynamische compatibiliteitstabel voor rapporten toegevoegd om beter inzicht te krijgen in de compatibiliteit tussen afmetingen en metriek. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
 
 De lijst met functies voor workflows is bijgewerkt. [Meer informatie](../../automating/using/list-of-functions.md)
 
@@ -378,7 +382,7 @@ De naam en de indeling van de sectie E-mailberichten archiveren zijn gewijzigd. 
 
 De sectie Een e-mailbericht maken is bijgewerkt met de meest recente interfacewijzigingen. [Meer informatie](../../channels/using/creating-an-email.md)
 
-Het de schakelaarprotocol van [SMS en montages](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) het artikel van de Kennisbank is bijgewerkt met de nieuwe optie die aan de externe rekening van SMS wordt toegevoegd om het aantal instanties te beperken MTA die met de leverancier SMPP mogen verbinden.
+Het de schakelaarprotocol van [SMS en montages](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) Kennisbank artikel is bijgewerkt met de nieuwe optie die aan de externe rekening van SMS wordt toegevoegd om het aantal instanties te beperken MTA die met de leverancier SMPP mogen verbinden.
 
 De gids Aan de slag is verrijkt en gereorganiseerd. [Meer informatie](../../start/using/about-campaign-standard.md)
 
@@ -568,7 +572,7 @@ Informatie toegevoegd over het bijhouden van logbestandstypen. [Meer informatie]
 
 De sectie van de vraagactiviteit is bijgewerkt met vraagsteekproeven. [Meer informatie](../../automating/using/query.md#query-samples)
 
-De sectie die gewijd is aan bloklijsten is hernoemd &quot;Begrip opt-in en opt-out processen&quot;. Het is bijgewerkt met informatie over hoe de opt-in naar specifieke kanalen kan worden beheerd en hoe bestemmingspagina&#39;s kunnen worden opgezet voor het beheer van opt-in en opt-out. [Meer informatie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+De sectie die gewijd is aan lijsten van afgewezen personen is omgedoopt tot &quot;Inzicht in opt-in en opt-out processen&quot;. Het is bijgewerkt met informatie over hoe de opt-in naar specifieke kanalen kan worden beheerd en hoe bestemmingspagina&#39;s kunnen worden opgezet voor het beheer van opt-in en opt-out. [Meer informatie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Leer de beste werkwijzen voor het gebruik van door Adobe gehoste SFTP-servers. [Meer informatie](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -592,7 +596,7 @@ Gebruik van de Middelen van de Douane in Transactionaal Overseinen - [Lees meer]
 
 De GDPR API reggroepeert eigenschappen die de automatische verwerking van GDPR verzoeken toestaan. [Meer informatie](../../api/using/creating-a-privacy-request.md)
 
-Extra informatie over hoe u bestemmingspagina&#39;s kunt instellen om uw ontvangers de mogelijkheid te geven om aan de bloklijst te worden toegevoegd. [Meer informatie](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Extra informatie over hoe u bestemmingspagina&#39;s kunt instellen om uw ontvangers de mogelijkheid te geven om aan de lijst van afgewezen personen te worden toegevoegd. [Meer informatie](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 De [het Vormen transactieoverseinen](../../administration/using/configuring-transactional-messaging.md) sectie is gereorganiseerd, en een [geleidelijke gebruiksgeval](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) is toegevoegd.
 
@@ -646,7 +650,7 @@ Toegevoegde informatie over hoe u een levering kunt verzenden, afhankelijk van d
 
 De **[!UICONTROL Customizing a push notification]** sectie is opnieuw ingedeeld met stapsgewijze gebruiksgevallen. [Meer informatie](../../channels/using/customizing-a-push-notification.md)
 
-Nieuwe sectie gewijd aan het beheer van de bloklijst. [Meer informatie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Nieuwe sectie gewijd aan het beheer van de lijst van afgewezen personen. [Meer informatie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Bijgewerkte informatie over leveringsmislukkingen en quarantines. [Meer informatie](../../sending/using/monitoring-a-delivery.md)
 
