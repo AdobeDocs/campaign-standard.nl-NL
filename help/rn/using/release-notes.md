@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 04bc32a9abb2939823f18165e1fe46d9f2315cce
+source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,10 @@ ht-degree: 0%
 </tbody> 
 </table>
 
-![](assets/do-not-localize/cp-icon.png) **Het nieuwe Controlebord kan met certificaatvernieuwing voor subdomeinen CNAME vrijgeven** . [Meer](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)informatie.
+**Aanvullende capaciteiten** (vanaf 13 juli)
+
+* **Dankzij de AI-technologie kunt u tijd optimaliseren en profielen scoren** . U kunt nu het ontwerp en de levering van klantritten optimaliseren om de voorkeur van elk individu voor de service te voorspellen. Adobe Campaign wordt aangedreven door Journey AI en kan de open tarieven, optimale verzendtijden en waarschijnlijke kosten analyseren en voorspellen op basis van historische betrokkenheidsmaatstaven. [Meer informatie](../../sending/using/predictive.md)
+* **De nieuwe privacyverordening** van Brazilië - Naast de privacy-mogelijkheden die al beschikbaar zijn in Campaign, helpt Adobe u uw bereidheid voor Lei Geral de Proteçao de Datos (LGPD) van Brazilië te vergemakkelijken. Bij het maken van een privacyverzoek is de LGPD-verordening toegevoegd aan de Adobe Privacy Core Service. [Meer informatie](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html)
 
 **Verbeteringen**
 
@@ -123,3 +126,6 @@ ht-degree: 0%
 * Probleem verholpen dat tot gegevensdiscrepantie leidde bij het gebruik van personalisatie in transactie-e-mails. (CAMP-41842)
 * Correctie van problemen die optraden bij het verwijderen van aangepaste velden in pushberichtleveringen. (CAMP-37586)
 * Probleem verholpen waardoor gebruikers geen wijzigingen konden aanbrengen in rapporten. (CAMP-42505)
+
+
+![](assets/do-not-localize/cp-icon.png) **Het nieuwe Controlebord kan met certificaatvernieuwing voor subdomeinen CNAME vrijgeven** . [Meer](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)informatie.
