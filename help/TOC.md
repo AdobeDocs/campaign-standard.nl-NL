@@ -4,9 +4,9 @@ sub-product: Adobe-campagnestandaard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 49fdf317bdb73c83c9ddc9e0948ab91e1f60bd18
+source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -143,6 +143,7 @@ ht-degree: 0%
       + [Proefdrukken verzenden](sending/using/sending-proofs.md)
       + [E-mailberichten testen met doelprofielen](sending/using/testing-messages-using-target.md)
       + [De onderwerpregel van een e-mail testen](sending/using/testing-subject-line-email.md)
+      + [E-mails met AI-mogelijkheden](sending/using/predictive.md)
       + [E-mailrendering](sending/using/email-rendering.md)
       + [Overvullingen gebruiken](sending/using/using-traps.md)
    + Berichten plannen {#scheduling-messages}
