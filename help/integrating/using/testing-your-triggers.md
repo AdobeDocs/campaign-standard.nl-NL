@@ -12,7 +12,7 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Voer de stappen uit die worden beschreven in [Een toegewezen trigger maken in Ca
 Als de trigger is gemaakt, gaat u verder naar de volgende stap. Zo niet, dan betekent dit dat de verbinding met het eindpunt van de trigger is mislukt. Controleer of Triggers is ingericht in Experience Cloud (Activeringsservices). Als dat niet het geval is, neemt u contact op met de manager of de professionele servicepartner van Adobe. De volgende informatie is vereist:
 
 * Bedrijfsnaam van Marketing Cloud
-* IMS ORG ID
+* IMS Organisatie-id
 * Analytics Login Company (kan het zelfde zijn als de Bedrijfsnaam van de Onderneming van de Marketing Cloud)
 
 **Probeer de trigger te publiceren**
@@ -77,7 +77,7 @@ Zo ja, volg de volgende hulplijnen:
 Indien niet, ga naar de volgende stap. Zo ja, volg de volgende hulplijnen:
 
 * Controleer of de transactiesjabloon is gepubliceerd.
-* Controleer of het profiel zich niet op de bloklijst bevindt.
+* Controleer of het profiel zich niet op lijst van afgewezen personen bevindt.
 * Controleer de toepassing van typologische regels.
 * Controleer de logboeken van het transactiemelding bericht.
 
