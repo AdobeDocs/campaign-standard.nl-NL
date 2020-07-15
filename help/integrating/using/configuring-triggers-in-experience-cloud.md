@@ -12,7 +12,7 @@ discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Adobe moet de functionaliteit in Adobe Campaign activeren. Neem contact op met u
 Het Adobe-team heeft de volgende informatie nodig om triggers te activeren:
 
 * Bedrijfsnaam van Marketing Cloud
-* IMS ORG ID
+* IMS Organisatie-id
 * Analytics Login Company (kan het zelfde zijn als de Bedrijfsnaam van de Onderneming van de Marketing Cloud)
 
 ## Oplossingen en services configureren {#configuring-solutions-and-services}
@@ -106,7 +106,7 @@ Raadpleeg de documentatie [bij](https://docs.adobe.com/content/help/en/core-serv
 
 Hier volgt een lijst met beste praktijken en beperkingen voor het gebruik van de campagne - Triggers-integratie:
 
-* Als u meerdere instanties van Campaign Standard hebt, kunnen triggers door alle instanties worden ontvangen zolang ze zich in dezelfde IMS org-id bevinden. Analytics moet zich ook op dezelfde IMS org-id bevinden.
+* Als u meerdere instanties van Campaign Standard hebt, kunnen triggers door alle instanties worden ontvangen zolang ze zich in dezelfde IMS-organisatie-id bevinden. Analytics moet ook dezelfde IMS-organisatie-id hebben.
 * U kunt geen trekker in de Dienst van de Kern van de Trigger tot stand brengen gebruikend gebeurtenissen van twee verschillende rapportreeksen.
 * Triggers zijn gebaseerd op transactieberichten. Transactieberichten worden gebruikt wanneer u een bericht zeer snel moet verzenden. U kunt geen transactiemeldingen in de wachtrij plaatsen en deze vervolgens in batch herhalen.
 * Triggers zijn niet deterministisch van aard. Wanneer een trigger wordt gegenereerd, verstuurt deze alle aliassen die aan het cookie zijn gekoppeld. In het geval van gedeelde browsers, zoals in winkelkiosken, bibliotheken, cybercafes of gedeelde apparaten thuis (echtgenoot en echtgenote die zich aanmelden vanaf hetzelfde apparaat), is het dus niet mogelijk om de juiste id toe te wijzen. Alle id&#39;s die worden gebruikt om u aan te melden bij de browser, worden verzonden naar Campagne die een bericht verzendt op basis van de eerste afstemming. Als er meerdere &#39;e-mail-id&#39;s&#39; zijn die in aanmerking komen voor afstemming, verzendt Campagne geen e-mail. Campagne kan niet weten wat de juiste e-mailadres is, tenzij deze wordt vastgelegd en verzonden door Analytics.
