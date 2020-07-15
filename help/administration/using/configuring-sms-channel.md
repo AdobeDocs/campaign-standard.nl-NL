@@ -13,7 +13,10 @@ context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
+source-git-commit: 10339aa3a5d16bb995a763b6d846e234c5f1325a
+workflow-type: tm+mt
+source-wordcount: '1625'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +29,7 @@ De stappen voor het maken en wijzigen van een externe account worden beschreven 
 
 ## Het bepalen van een Verpletteren van SMS {#defining-an-sms-routing}
 
-De externe account **[!UICONTROL SMS routing via SMPP]** wordt standaard verschaft, maar het kan handig zijn andere accounts toe te voegen.
+De externe account **[!UICONTROL SMS routing via SMPP]** wordt standaard verschaft, maar het kan handig zijn om andere accounts toe te voegen.
 
 Als u het SMPP-protocol wilt gebruiken, kunt u ook een nieuwe externe account maken. Voor meer informatie over het protocol en de montages van SMS, verwijs naar deze [technische nota](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
@@ -50,7 +53,7 @@ Als u het SMPP-protocol wilt gebruiken, kunt u ook een nieuwe externe account ma
 
    Schakel het selectievakje in **[!UICONTROL Store incoming MO in the database]** als u alle inkomende SMS-berichten in de tabel in InSMS wilt opslaan. Raadpleeg deze [sectie](../../channels/using/managing-incoming-sms.md#storing-incoming-sms)voor meer informatie over het ophalen van uw inkomende SMS.
 
-   Met de **[!UICONTROL Enable Real-time KPI updates during SR processing]** optie kunnen de **[!UICONTROL Delivered]** of **[!UICONTROL Bounces + Errors]** KPI&#39;s in real-time worden bijgewerkt nadat de levering is verzonden. Deze KPIs kan in het **[!UICONTROL Deployment]** venster worden gevonden en wordt direct opnieuw berekend van SR (het Rapport van de Status) die van de leverancier wordt ontvangen.
+   Met de **[!UICONTROL Enable Real-time KPI updates during SR processing]** optie kunnen de **[!UICONTROL Delivered]** of **[!UICONTROL Bounces + Errors]** KPI&#39;s in real-time worden bijgewerkt nadat de levering is verzonden. Deze KPIs kan in het **[!UICONTROL Deployment]** venster worden gevonden en wordt direct herberekend van SR (het Rapport van de Status) die van de leverancier wordt ontvangen.
 
    ![](assets/sms_connection_1.png)
 
@@ -66,10 +69,10 @@ Als u het SMPP-protocol wilt gebruiken, kunt u ook een nieuwe externe account ma
 
    Aangezien bepaalde providers echter het gebruik van het **[!UICONTROL +]** voorvoegsel vereisen, wordt u geadviseerd contact op te nemen met uw provider en wordt u aangeraden deze optie indien nodig in te schakelen.
 
-1. Definieer, indien nodig, automatische antwoorden om acties te activeren op basis van de inhoud van een antwoord. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
+1. Definieer, indien nodig, automatische antwoorden om acties te activeren op basis van de inhoud van een antwoord. Raadpleeg [deze sectie](../../channels/using/managing-incoming-sms.md#managing-stop-sms) voor meer informatie.
 1. Sparen de configuratie van SMS die externe rekening verplettert.
 
-U kunt nu uw nieuwe routering gebruiken om SMS-berichten te verzenden met Adobe Campaign.
+Je kunt nu je nieuwe routering gebruiken om SMS-berichten te verzenden met Adobe Campaign.
 
 ## SMS-codering en -indelingen {#sms-encoding-and-formats}
 
@@ -289,13 +292,13 @@ CR: Enter
 >
 >Met deze opties kunt u de aansluiting aanpassen om te werken met niet-standaard SMSC (d.w.z. niet exact de SMPP 3.4-specificatie volgen) of specifieke coderingsvereisten en moeten alleen door gevorderde gebruikers worden geconfigureerd.
 
-Wanneer u een SMS-bericht verzendt, kan Adobe Campaign een of meer tekstcoderingen gebruiken. Elke codering heeft een eigen specifieke tekenset en bepaalt het aantal tekens dat in een SMS-bericht past.
+Bij het verzenden van een SMS-bericht kan Adobe Campaign een of meer tekstcoderingen gebruiken. Elke codering heeft een eigen specifieke tekenset en bepaalt het aantal tekens dat in een SMS-bericht past.
 
 In het **[!UICONTROL DATA_CODING]** veld kan Adobe Campaign communiceren met SMS-C welke codering wordt gebruikt.
 
 >[!NOTE]
 >
->De toewijzing tussen de werkelijk gebruikte **data_coding** -waarde en de codering wordt gestandaardiseerd. Niettemin hebben bepaalde SMS-C hun eigen specifieke kaart: in dit geval moet uw **Adobe Campagnebeheerder** deze toewijzing declareren. Vraag uw provider om meer informatie.
+>De toewijzing tussen de werkelijk gebruikte **data_coding** -waarde en de codering wordt gestandaardiseerd. Niettemin hebben bepaalde SMS-C hun eigen specifieke kaart: in dit geval moet uw **Adobe Campaign** -beheerder deze toewijzing declareren. Vraag uw provider om meer informatie.
 
 Met de **[!UICONTROL Define a specific mapping of encodings]** functionaliteit kunt u **data_codings** declareren en zo nodig de codering forceren: Hiervoor geeft u één codering in de tabel op.
 
@@ -305,9 +308,10 @@ Met de **[!UICONTROL Define a specific mapping of encodings]** functionaliteit k
 
    * Er wordt geprobeerd GSM-codering te gebruiken waaraan de waarde **data_coding = 0** wordt toegewezen.
    * Als GSM-codering mislukt, wordt **UCS2** -codering gebruikt waaraan de waarde **data_coding = 8** wordt toegewezen.
+
    ![](assets/sms_data_coding.png)
 
-* Wanneer de **[!UICONTROL Define a specific mapping of encodings]** functionaliteit is ingeschakeld, kunt u de gewenste coderingen definiëren en de gekoppelde **[!UICONTROL data_coding]** veldwaarden. Adobe Campaign probeert de eerste codering in de lijst te gebruiken. Als de eerste codering niet mogelijk is, gebeurt het volgende.
+* Wanneer de **[!UICONTROL Define a specific mapping of encodings]** functionaliteit is ingeschakeld, kunt u de gewenste coderingen definiëren en de gekoppelde **[!UICONTROL data_coding]** veldwaarden. Adobe Campaign probeert de eerste codering in de lijst te gebruiken. Als de eerste codering niet mogelijk is, volgt u het volgende.
 
    De volgorde van de verklaringen is belangrijk: U wordt aangeraden de lijst in oplopende volgorde **van kosten** te plaatsen om de coderingen te bevorderen, zodat u in elk SMS-bericht zoveel mogelijk tekens kunt plaatsen.
 
@@ -329,21 +333,27 @@ De specifieke parameters voor het verzenden van SMS-berichten worden opnieuw geg
 
 ![](assets/sms_options.png)
 
+In het **[!UICONTROL Advanced parameters]** gedeelte:
+
 * Met de **[!UICONTROL From]** optie kunt u de naam van de SMS-berichtenafzender aanpassen met een reeks tekens. Dit is de naam die wordt weergegeven als de naam van de afzender van het SMS-bericht op de mobiele telefoon van de ontvanger.
 
    Als dit veld leeg is, wordt het bronnummer van de externe account gebruikt. Als geen bronaantal wordt verstrekt, zal het de korte code zijn die zal worden gebruikt. De externe rekening specifiek voor levering van SMS wordt voorgesteld in het [Bepalen van een SMS verpletterend](#defining-an-sms-routing) sectie.
 
-   ![](assets/sms_smpp.png)
+   ![](assets/sms_smpp_2.png)
 
    >[!IMPORTANT]
    >
    >Controleer de wetgeving in uw land met betrekking tot het wijzigen van het adres van de afzender. Neem ook contact op met uw SMS-serviceprovider om te zien of deze deze functionaliteit aanbiedt.
+
+Uit het **[!UICONTROL Send]** gedeelte van een SMS-sjabloon:
 
 * Met de **[!UICONTROL Maximum number of SMS per message]** optie kunt u het aantal SMS-berichten definiëren dat moet worden gebruikt om een bericht te verzenden. Als dit aantal wordt overschreden, zal het bericht niet worden verzonden.
 
    >[!IMPORTANT]
    >
    >Als u verpersoonlijkingsgebieden of voorwaardelijke tekst in de inhoud van uw SMS bericht hebt opgenomen, kan de lengte van het bericht en, dientengevolge, het aantal te verzenden SMS berichten van één ontvanger aan een andere variëren. Raadpleeg de sectie [SMS-berichten](../../channels/using/personalizing-sms-messages.md) personaliseren voor meer informatie hierover.
+
+   ![](assets/sms_smpp_3.png)
 
 * In het **[!UICONTROL Transmission mode]** veld kunt u de leveringsmethode voor SMS-berichten bepalen:
 
