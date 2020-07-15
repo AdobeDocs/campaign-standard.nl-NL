@@ -4,9 +4,9 @@ sub-product: Adobe-campagnestandaard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
+source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1557'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 + [Productdocumentatie](campaign-standard-home.md)
 + [Laatste updates](rn/using/documentation-updates.md)
-+ Opmerkingen bij de release {#release-notes}
++ Release Notes {#release-notes}
    + [Laatste release](rn/using/release-notes.md)
    + Eerdere versies {#previous-releases}
       + [Opmerkingen bij de release 2020](rn/using/release-notes-2020.md)
@@ -28,7 +28,7 @@ ht-degree: 0%
 + Aan de slag {#getting-started}
    + [Informatie over Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + [Privacy en instemming](start/using/privacy.md)
-   + De interface detecteren {#discovering-the-interface}
+   + De interface verkennen {#discovering-the-interface}
       + [Over de interface](start/using/about-the-interface.md)
       + [Interfacebeschrijving](start/using/interface-description.md)
       + [Lijsten aanpassen](start/using/customizing-lists.md)
@@ -92,9 +92,6 @@ ht-degree: 0%
       + [Meertalige pushmeldingen maken](channels/using/creating-a-multilingual-push-notification.md)
       + [Een CSV-bestand genereren voor Meertalig pushbericht](channels/using/generating-csv-multilingual-push.md)
       + [Profielgegevens maken en bijwerken op basis van gegevens van mobiele toepassingen](channels/using/updating-profile-with-mobile-app-data.md)
-      + [Push tracking implementeren](channels/using/push-tracking.md)
-      + [Een afbeelding weergeven op basis van een Adobe Campaign Standard-pushmelding](channels/using/image-push-notification.md)
-      + [Werken met de betalingsstructuur van Campaign Standard-pushberichten](channels/using/push-payload.md)
    + Messaging in de app {#in-app-messaging}
       + [Info over In-App-berichten](channels/using/about-in-app-messaging.md)
       + [Een bericht in de app voorbereiden en verzenden](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -317,6 +314,7 @@ ht-degree: 0%
          + [Koppeling van e-mail- en direct-mailleveringen](automating/using/coupling-email-direct-mail.md)
          + [Een e-mail verzenden met verrijkte velden](automating/using/sending-email-enriched-fields.md)
          + [Een e-mail aanpassen met aanvullende gegevens](automating/using/personalizing-email-with-additional-data.md)
+         + [Een terugkerende pushmelding verzenden](automating/using/recurring-push-notifications.md)
       + Segmentering en doelgerichtheid {#segmentation-targeting}
          + [Zoekvoorbeelden](automating/using/query-samples.md)
          + [Unie op twee verfijnde doelgroepen](automating/using/union-on-two-refined-audiences.md)
@@ -388,6 +386,7 @@ ht-degree: 0%
       + [Gegevensinvoer via API&#39;s activeren](developing/using/aep-triggering-data-ingestion.md)
 + Beheer {#administrating}
    + [Aan de slag met de Campaign Standard-administratie](administration/using/get-started-campaign-administration.md)
+   + [Monitoringrichtsnoeren](administration/using/monitoring-guidelines.md)
    + [Richtlijnen voor configuratie](administration/using/about-configuration-guidelines.md)
    + Gebruikers en beveiliging {#users-and-security}
       + [Over toegangsbeheer](administration/using/about-access-management.md)
@@ -403,6 +402,13 @@ ht-degree: 0%
       + [SMS-kanaal configureren](administration/using/configuring-sms-channel.md)
       + [Een mobiele toepassing configureren](administration/using/configuring-a-mobile-application.md)
       + [Transactieberichten configureren](administration/using/configuring-transactional-messaging.md)
+   + Mobiele kanalen configureren {#configuring-mobile}
+      + [Push tracking implementeren](administration/using/push-tracking.md)
+      + [Een afbeelding weergeven op basis van een Adobe Campaign Standard-pushmelding](administration/using/image-push-notification.md)
+      + [Werken met de betalingsstructuur van Campaign Standard-pushberichten](administration/using/push-payload.md)
+      + [Lokale meldingstracking implementeren](administration/using/local-tracking.md)
+      + [veelgestelde vragen over de technische workflow voor SyncWithLaunch](administration/using/syncwithlaunch-faq.md)
+      + [Veelgestelde vragen over Adobe Experience Platform SDK en Adobe Campaign-integratie](administration/using/aep-faq.md)
    + Toepassingsinstellingen {#application-settings}
       + [Informatie over Campaign Standard-instellingen](administration/using/about-campaign-standard-settings.md)
       + [Externe rekeningen](administration/using/external-accounts.md)
