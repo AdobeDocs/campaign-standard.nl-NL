@@ -12,7 +12,7 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 3%
@@ -41,8 +41,8 @@ Deze integratie moet eerst worden geconfigureerd. Als u inrichting van deze inte
    <td> Uw organisatienaam </td> 
   </tr> 
   <tr> 
-   <td> <strong>IMS Org ID</strong><br /> </td> 
-   <td> Uw IMS-organisatie-id. <br> U kunt uw IMS Org ID op de Experience Cloud, in het menu van het Beleid vinden. Deze wordt ook geleverd wanneer u voor het eerst verbinding maakt met de Adobe Experience Cloud. </td> 
+   <td> <strong>IMS-organisatie-id</strong><br /> </td> 
+   <td> Uw IMS-organisatie-id. <br> U kunt uw IMS Organisatie-id op de Experience Cloud, in het menu van het Beleid vinden. Deze wordt ook geleverd wanneer u voor het eerst verbinding maakt met de Adobe Experience Cloud. </td> 
   </tr> 
   <tr> 
    <td> <strong>Omgeving:</strong><br /> </td> 
