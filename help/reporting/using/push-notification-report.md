@@ -12,7 +12,10 @@ discoiquuid: a425cd59-edfd-42c5-a6bd-38773c353ff0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 0%
 
 ---
 
@@ -23,9 +26,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 >
 >Houd er rekening mee dat u de **[!UICONTROL Message type]** metriek naar de tabellen moet slepen om de gegevens te splitsen op basis van de leveringstypen, in dit geval de levering van pushberichten.
 
-Het **pushmeldingsrapport** bevat informatie over de marketingprestaties van pushberichten in Adobe Campagne. Dit out-of-the-box rapport helpt u te begrijpen hoe de gebruikers met dupberichten, mobiele toepassingen en leveranties in wisselwerking staan.
+Het **Push-meldingsrapport** bevat informatie over de marketingprestaties van pushberichten in Adobe Campaign. Dit out-of-the-box rapport helpt u te begrijpen hoe de gebruikers met dupberichten, mobiele toepassingen en leveranties in wisselwerking staan.
 
-Voor het implementeren van push-tracking is enige configuratie vereist in de mobiele toepassing. Raadpleeg deze [pagina](https://helpx.adobe.com/campaign/kb/push-tracking.html) voor de gedetailleerde stappen.
+Voor het implementeren van push-tracking is enige configuratie vereist in de mobiele toepassing. Raadpleeg deze [pagina](../../administration/using/push-tracking.md) voor de gedetailleerde stappen.
 
 ![](assets/dynamic_report_push.png)
 
