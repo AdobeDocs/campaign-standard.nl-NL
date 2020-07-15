@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
+source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
 workflow-type: tm+mt
-source-wordcount: '5969'
-ht-degree: 0%
+source-wordcount: '6084'
+ht-degree: 8%
 
 ---
 
@@ -23,6 +23,16 @@ ht-degree: 0%
 # Documentatieupdates{#documentation-updates}
 
 Naast de opmerkingen bij de Adobe Campaign- [release](../../rn/using/release-notes.md)bevat deze pagina alle nieuwe updates in de Adobe Campaign Standard-documentatie.
+
+## Documentatie-updates - juli 2020 {#doc-updates--july-2020}
+
+Er is een nieuwe sectie toegevoegd met richtlijnen voor Campaign Standard-bewaking. [Meer informatie](../../administration/using/monitoring-guidelines.md)
+
+De overzichtspagina van het privacybeheer is bijgewerkt met informatie over de Thaise wet inzake de bescherming van persoonsgegevens (PDPA) en de Braziliaanse Lei Geral de Proteção de Dados (LGPD). [Meer informatie](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+
+De mobiele kanaalhulplijn is gereorganiseerd en verbeterd. Er is een nieuwe gids voor het configureren van mobiele kanalen toegevoegd met technische documentatie over mobiele configuratie. [Meer informatie](../../administration/using/push-tracking.md)
+
+De pagina Privacy Management in Campaign Standard is bijgewerkt en bevat uitleg over het beheer van privacyverzoeken via de integratie met de Privacy Core Service. [Meer informatie](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
 ## Documentatie-updates - juli 2020 {#doc-updates-july-2020}
 
@@ -34,7 +44,7 @@ Gebruiksscenario&#39;s voor workflowgebruik zijn bijgewerkt en opnieuw ingedeeld
 
 Er zijn gebruiksgevallen toegevoegd voor het [coderen](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) en [decoderen](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) van gegevens met de workflows Configuratiescherm en Campagne.
 
-Zowel de termen &quot;whitelist&quot; als &quot;blacklist&quot; zijn uit de documentatie van Adobe Campaign verwijderd. Sommige van deze termen bestaan mogelijk nog steeds in de gebruikersinterface van het product, optienamen en interne code, maar worden in komende campagnereleases vervangen door &quot;lijst van afgewezen personen&quot; en &quot;lijst van gewenste personen&quot;.
+De termen ‘whitelist’ en ‘blacklist’ zijn uit de documentatie van Adobe Campaign verwijderd. Deze termen komen mogelijk nog voor in de gebruikersinterface, optienamen en interne code van het product, maar worden in komende Campaign-releases vervangen door ‘lijst met afgewezen IP-adressen’ en ‘lijst met gewenste IP-adressen’.
 
 Verwijzingen naar de oude ondersteuningswebsite zijn vervangen door de nieuwe URL. [Meer informatie](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -94,7 +104,7 @@ De beste praktijken zijn toegevoegd betreffende transactieoverseinen en de schra
 
 De sectie Het e-mailkanaal configureren is bijgewerkt met uitleg over alle e-mailinstellingen die nu worden beheerd door de Adobe Campaign Enhanced MTA. [Meer informatie](../../administration/using/configuring-email-channel.md)
 
-De het Vormen sectie van het transactieoverseinen is bijgewerkt met verdere informatie over de rechten nodig om gebeurtenisconfiguraties uit te geven en op hoe te om inzamelingen in transactionele berichten te verrijken. [Lees meer](../../administration/using/configuring-transactional-messaging.md).
+De het Vormen sectie van het transactieoverseinen is bijgewerkt met verdere informatie over de rechten nodig om gebeurtenisconfiguraties uit te geven en op hoe te om inzamelingen in transactionele berichten te verrijken. [Meer informatie](../../administration/using/configuring-transactional-messaging.md).
 
 ## Release 20.2 - april 2020 {#release-20-2---april-2020}
 
@@ -194,7 +204,7 @@ De gids Aan de slag over hoe te om douanemiddelen uit te voeren/in te voeren is 
 
 ## Documentatie-updates - november 2019 {#doc-updates-november-2019}
 
-Er is een nieuw gebruiksgeval toegevoegd waarin wordt beschreven hoe u een controlegroep maakt met behulp van een workflow in Campaign Standard. [Meer informatie](../../automating/using/workflow-control-group.md)
+Er is een nieuw gebruiksgeval toegevoegd waarin wordt beschreven hoe u een controlegroep maakt met behulp van een workflow in Campaign Standard. [Read more](../../automating/using/workflow-control-group.md)
 
 Informatie met betrekking tot de eigenschappen van bestemmingspagina&#39;s is verplaatst naar een specifieke sectie. [Meer informatie](../../channels/using/configuring-landing-page.md)
 
@@ -252,7 +262,7 @@ Er is een nieuwe sectie toegevoegd aan de sectie Push-berichten over het maken e
 
 Er is een nieuw voorbeeld toegevoegd waarin wordt getoond hoe u een e-mail verzendt met aanvullende gegevens die zijn opgehaald uit een activiteit in het laadbestand. [Meer informatie](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
-Er is een nieuwe sectie toegevoegd over het gebruik van overvullingen. [Lees meer](../../sending/using/using-traps.md).
+Er is een nieuwe sectie toegevoegd over het gebruik van overvullingen. [Meer informatie](../../sending/using/using-traps.md).
 
 Er is een opmerking over de optie **Launch_URL_Campaign** toegevoegd aan de pagina over het configureren van een mobiele toepassing met behulp van Adobe Experience Platform-SDK&#39;s. [Meer informatie](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
@@ -264,7 +274,7 @@ Er is een nieuwe sectie toegevoegd met praktijkgevallen voor workflows waarin de
 
 Er is een procedure toegevoegd aan de sectie voor het oplossen van werkstroomproblemen over het weergeven van SQL-query&#39;s op het tabblad Logboek. [Meer informatie](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-Er is een nieuw Help-artikel toegevoegd met informatie over subdomeinen en certificaatbeheer in het Configuratiescherm. [Meer informatie](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+Er is een nieuw Help-artikel toegevoegd met informatie over subdomeinen en certificaatbeheer in het Configuratiescherm. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 De sectie die de inhoudssjablonen en fragmenten beschrijft, is bijgewerkt. [Meer informatie](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -336,7 +346,7 @@ Verbetering voor bestemmingspagina&#39;s - Google reCAPTCHA - [Meer informatie](
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
-Het artikel van de Delegatie van de Naam van het Domein is bijgewerkt. [Meer informatie](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)
+Het artikel van de Delegatie van de Naam van het Domein is bijgewerkt. [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/domain-name-delegation.html)
 
 Een nieuw artikel van de Planning van de Versie is gepubliceerd om aanstaande versiedata te delen. [Meer informatie](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 
@@ -364,7 +374,7 @@ De gids voor automatiseren is bijgewerkt met koppelingen naar gerelateerde workf
 
 Het gedeelte Indicatorberekening voor dynamische rapporten is bijgewerkt. [Meer informatie](../../reporting/using/indicator-calculation.md)
 
-Er is een dynamische compatibiliteitstabel voor rapporten toegevoegd om beter inzicht te krijgen in de compatibiliteit tussen afmetingen en metriek. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
+Er is een dynamische compatibiliteitstabel voor rapporten toegevoegd om de compatibiliteit tussen dimensies en maatstaven beter te begrijpen. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
 
 De lijst met functies voor workflows is bijgewerkt. [Meer informatie](../../automating/using/list-of-functions.md)
 
@@ -600,7 +610,7 @@ Extra informatie over hoe u bestemmingspagina&#39;s kunt instellen om uw ontvang
 
 De [het Vormen transactieoverseinen](../../administration/using/configuring-transactional-messaging.md) sectie is gereorganiseerd, en een [geleidelijke gebruiksgeval](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) is toegevoegd.
 
-Er is een technologie toegevoegd voor het genereren van een meertalig CSV-bestand voor pushberichten. [Lees meer](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
+Er is een technologie toegevoegd voor het genereren van een meertalig CSV-bestand voor pushberichten. [Meer informatie](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
 Toegevoegde informatie over de **Update direct-mail quarantines en de invoermalplaatje van de leveringslogboeken** . [Meer informatie](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
@@ -608,7 +618,7 @@ De lijst met technische workflows is bijgewerkt. [Meer informatie](../../adminis
 
 Bijgewerkt de sectie van de planningsactiviteit. [Meer informatie](../../automating/using/scheduler.md)
 
-De lijst met Help-materialen voor de integratie van Campagne en Adobe-oplossingen is bijgewerkt. [Lees meer](../../integrating/using/get-started-campaign-integrations.md).
+De lijst met Help-materialen voor de integratie van Campagne en Adobe-oplossingen is bijgewerkt. [Meer informatie](../../integrating/using/get-started-campaign-integrations.md).
 
 Bijgewerkte contextafhankelijke hulp van Campaign Standard in-product.
 
@@ -712,7 +722,7 @@ Het gedeelte &#39;Aangepaste bronnen&#39; is verduidelijkt met een meer gedetail
 
 Het [technische artikel](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) over de integratie van de Adobe Marketing Cloud Mobile SDK met een mobiele app voor de ontvangst van Adobe Campaign Standard-pushberichten is bijgewerkt en verduidelijkt.
 
-Er is een technische uitleg toegevoegd over de structuur van de payload die in een mobiele app is ontvangen. [Lees meer.](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
+Er is een technische uitleg toegevoegd over de structuur van de payload die in een mobiele app is ontvangen. [Meer informatie.](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
 De [sectie](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) Push channel configuratie is bijgewerkt met nieuwe payload-gegevens in de versie van het besturingssysteem die moeten worden toegevoegd wanneer postbacks worden gedefinieerd in de interface Adobe Mobile Services.
 
@@ -812,7 +822,7 @@ Er zijn talloze schermafbeeldingen bijgewerkt om wijzigingen in de interface te 
 
 Er is nu een nieuw technologie beschikbaar: &quot;De Adobe Mobile SDK integreren met uw mobiele app&quot;. [Meer informatie](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-Instructies om de de kerndienst van Mensen of integratie van de Audience Manager met Adobe Campaign te vormen hebben-begonnen-mededeling-kanalen.mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Er zijn instructies toegevoegd voor het configureren van de kernservice of de Audience Manager van Personen met Adobe Campaign. [Meer informatie](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 De machtigingstabel is herzien om de functie van bepaalde rollen duidelijker te maken. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
