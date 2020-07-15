@@ -12,21 +12,21 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
 workflow-type: tm+mt
 source-wordcount: '7626'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Opmerkingen bij de release 2019{#release-notes-2019}
+# Release Notes 2019{#release-notes-2019}
 
 [Release-planning](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Release van het regelpaneel](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) | [Documentatie-updates](../../rn/using/documentation-updates.md) | [Opmerkingen bij de laatste release](../../rn/using/release-notes.md) | [Verouderde functies](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## Release 19.4 - december 2019 {#release-19-4---october-2019}
 
-**Wat is nieuw?**
+**Nieuwe functies?**
 
 <table> 
  <thead> 
@@ -152,7 +152,7 @@ ht-degree: 0%
 
 ## Release 19.3 - juli 2019 {#release-19-3---july-2019}
 
-**Wat is nieuw?**
+**Nieuwe functies?**
 
 <table> 
  <thead> 
@@ -207,14 +207,14 @@ ht-degree: 0%
 **Overige verbeteringen**
 
 * Dankzij de integratie met Adobe Experience Platform Location Services is Adobe Campaign nu compatibel met het versturen van op locatie gebaseerde marketingberichten naar de abonnees van uw mobiele toepassing via de SDK van het Experience Platform. Raadpleeg de [gedetailleerde documentatie](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)voor meer informatie.
-* De rapportfunctie is verbeterd voor een betere ervaring. Om deze eigenschap te gebruiken, moet u de Dynamische Overeenkomst van het Gebruik van de Rapportering goedkeuren. Raadpleeg de [gedetailleerde documentatie](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)voor meer informatie.
-* In workflows is een nieuwe optie toegevoegd om een voorvertoning te bekijken van de volgende tien uitvoeringen van een workflow. Raadpleeg de [gedetailleerde documentatie](../../automating/using/scheduler.md)voor meer informatie.
-* In de activiteit van de Planner, staat een nieuwe optie u toe om een specifieke dag van een specifieke week voor maandelijkse leveringen te selecteren. Raadpleeg de [gedetailleerde documentatie](../../automating/using/scheduler.md)voor meer informatie.
-* Bij het maken van terugkerende leveringen zonder aggregatieperiode kunt u op het dashboard voor de levering nu een bevestiging aanvragen voordat de levering wordt verzonden. Raadpleeg de [gedetailleerde documentatie](../../sending/using/confirming-the-send.md)voor meer informatie.
-* U kunt het label van een levering nu personaliseren met gebeurtenisvariabelen die zijn gedeclareerd in de externe signaalactiviteit van de workflow. Raadpleeg de [gedetailleerde documentatie](../../automating/using/calling-a-workflow-with-external-parameters.md)voor meer informatie.
+* De rapportfunctie is verbeterd voor een betere ervaring. Om deze eigenschap te gebruiken, moet u de Dynamische Overeenkomst van het Gebruik van de Rapportering goedkeuren. For more on this, refer to the [detailed documentation](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
+* In workflows is een nieuwe optie toegevoegd om een voorvertoning te bekijken van de volgende tien uitvoeringen van een workflow. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
+* In de activiteit van de Planner, staat een nieuwe optie u toe om een specifieke dag van een specifieke week voor maandelijkse leveringen te selecteren. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
+* Bij het maken van terugkerende leveringen zonder aggregatieperiode kunt u op het dashboard voor de levering nu een bevestiging aanvragen voordat de levering wordt verzonden. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
+* U kunt het label van een levering nu personaliseren met gebeurtenisvariabelen die zijn gedeclareerd in de externe signaalactiviteit van de workflow. For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * De GDPR-verwijderquery is verbeterd ten behoeve van betere prestaties. (CAMP-33504)
 * De optie &quot;ftp&quot; is verwijderd uit de interface voor externe accountconfiguratie. (CAMP-34472)
-* U kunt de optie van de SMTP testwijze voor elk e-mailbericht nu toelaten en onbruikbaar maken. Raadpleeg de [gedetailleerde documentatie](../../administration/using/configuring-email-channel.md#smtp-test-mode)voor meer informatie. (CAMP-34602)
+* U kunt de optie van de SMTP testwijze voor elk e-mailbericht nu toelaten en onbruikbaar maken. For more on this, refer to the [detailed documentation](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
 
 **Overige wijzigingen**
 
@@ -237,7 +237,7 @@ ht-degree: 0%
 * Probleem verholpen waarbij vaste e-mailadressen niet in quarantaine konden worden geplaatst. (CAMP-24587)
 * Probleem verholpen dat optrad bij het toevoegen van een typologieregel en vervolgens deze regel verwijderen voordat de typologie werd opgeslagen. (CAMP-32789)
 * Probleem verholpen waardoor het niet mogelijk was om pagina-inhoud te landen wanneer dynamische inhoud werd uitgeschakeld. (CAMP-32924)
-* Probleem verholpen met terugkerende leveringen die optraden bij het gebruik van personalisatie voor de kenmerken van een hoofdlevering. (CAMP-32983)
+* Probleem verholpen met terugkerende leveringen die optraden bij het gebruik van personalisatie voor de kenmerken van een primaire levering. (CAMP-32983)
 * Probleem verholpen in workflows die het lezen van resultaten van een overgang met inkomende sms-berichtengegevens beletten. (CAMP-33134)
 * Probleem opgelost in workflows die optraden bij het combineren van vork- en uitsluitingsactiviteiten om een publiek te maken. (CAMP-33401)
 * Probleem verholpen waardoor de inhoud van de spiegelpagina niet kan worden weergegeven en er geen proefdrukberichten kunnen worden verzonden voor terugkerende leveringen. (CAMP-33413)
@@ -293,11 +293,11 @@ Introduceerde een reeks verbeteringen en correcties om fragmenten te optimaliser
 * De optie &quot;Launch_URL_Campaign&quot; is toegevoegd in Campagne om eigenschappen van mobiele toepassingen te beheren die zijn gemaakt met Adobe Experience Platform Mobile SDK.
 * Correctie van een fout die ertoe leidde dat de de milieuoptie van de Sandbox na het uploaden van het certificaat van een nieuw gecreeerd mobiel bezit en het weggaan van de mobiele pagina van het toepassingsbezit werd ongecontroleerd.
 * Probleem verholpen waardoor u een transactiemelding voor berichtinhoud niet kon verrijken met informatie uit het servicemiddel. (CAMP-33707)
-* Probleem verholpen met landingspagina&#39;s in de bloklijst die optraden tijdens een poging om profielen af te melden bij een service.
+* Probleem verholpen op de pagina&#39;s waarop de lijst van afgewezen personen werd gepost en die optrad toen werd geprobeerd profielen af te melden bij een service.
 
 ## Release 19.2 - mei 2019 {#release-19-2---may-2019}
 
-**Wat is nieuw?**
+**Nieuwe functies?**
 
 <table> 
  <thead> 
@@ -308,7 +308,7 @@ Introduceerde een reeks verbeteringen en correcties om fragmenten te optimaliser
  </thead> 
  <tbody> 
   <tr> 
-   <td> Deelvenster Beheer<br /> </td> 
+   <td> Configuratiescherm<br /> </td> 
    <td> <p>Om uw werk als Admin-gebruiker efficiënter te maken, kunt u eenvoudig de capaciteit controleren en de instellingen van uw instanties beheren (te beginnen met SFTP-serverbeheer).</p><p>Raadpleeg voor meer informatie de <a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">Hoe kan ik-video</a>.</p></td> 
   </tr> 
   <tr> 
@@ -359,13 +359,13 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 * Het transactionele overseinenproces is geoptimaliseerd om in parallelle veelvoudige analyse van het zelfde bericht te kunnen beginnen.
 * Probleem verholpen die tot inconsistente doorvoer en latentie bij pushberichten over transacties kon leiden.
 * Probleem verholpen waarbij een onjuist doelpubliek werd weergegeven voor levering van transactieberichten.
-* Probleem verholpen die optrad bij het importeren van een pakket met een gebeurtenisconfiguratie en het bijbehorende transactiemelding. Raadpleeg de [gedetailleerde documentatie](../../channels/using/about-transactional-messaging.md#exporting-and-importing-transactional-messages)voor meer informatie.
+* Probleem verholpen die optrad bij het importeren van een pakket met een gebeurtenisconfiguratie en het bijbehorende transactiemelding. For more on this, refer to the [detailed documentation](../../channels/using/about-transactional-messaging.md#exporting-and-importing-transactional-messages).
 * Probleem verholpen waarbij de verzamelingsgegevens werden verwijderd uit de testprofielen die zijn gemaakt voor een transactiebericht met productaanbiedingen.
 
 **Overige wijzigingen**
 
 * Er is een nieuwe optie toegevoegd aan de externe SMS-account. Het laat toe om het maximumaantal MTA processen te beperken die SMS verzenden om het aantal parallelle verbindingen beter te controleren. Raadpleeg het [SMS-connectorprotocol en het instellingentechnologie](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) voor meer informatie.
-* Als een bron met API-extensie wordt gepubliceerd en de API al is gepubliceerd, wordt deze nu automatisch bijgewerkt wanneer deze opnieuw wordt gepubliceerd. Eerder was deze handeling handmatig en als de API niet werd bijgewerkt, kon het profiel of de servicebron van deze API worden verbroken. Raadpleeg de [gedetailleerde documentatie](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)voor meer informatie.
+* Als een bron met API-extensie wordt gepubliceerd en de API al is gepubliceerd, wordt deze nu automatisch bijgewerkt wanneer deze opnieuw wordt gepubliceerd. Eerder was deze handeling handmatig en als de API niet werd bijgewerkt, kon het profiel of de servicebron van deze API worden verbroken. For more on this, refer to the [detailed documentation](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * De dimensie van de code van het postcode is verwijderd uit Dynamische Rapportering. We raden je aan in plaats daarvan de afmetingen Plaats, Land en Staat te gebruiken.
 * De gebeurtenisactivering &#39;First Launch&#39; van de levenscyclus van In-App-berichten is verwijderd.
 * Wanneer het uitvoeren van een pakket met veiligheidsgroepen, bevat het nu de rollen die aan elke groep worden toegewezen. (CAMP-32960)
@@ -390,7 +390,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 * Er zijn nieuwe instanties van de Campagnestandaard ingericht. (CAMP-32635 &amp; CAMP-32344)
 * Probleem verholpen waarbij de aanpassing van de datumformule in een workflow werd voorkomen. (CAMP-30336)
 * Probleem verholpen bij het definiëren van een aangepaste datumformule die kan voorkomen dat de velden &quot;Aanvullende gegevens&quot; en &quot;Segmentcode&quot; beschikbaar zijn in de vervolgkeuzelijst. (CAMP-32383)
-* Probleem verholpen waarbij de activiteiten &quot;Overdrachtsbestand&quot; en &quot;Bestand uitpakken&quot; er niet in konden slagen de bestanden te zoeken die werden afgewezen als ze waren versleuteld. (CAMP-32377)
+* Probleem verholpen waarbij de activiteiten &quot;Overdrachtsbestand&quot; en &quot;Bestand uitpakken&quot; er niet in konden slagen de bestanden te zoeken die worden afgewezen als ze werden versleuteld. (CAMP-32377)
 * Probleem verholpen in API&#39;s waardoor het lineCount-filter niet het exacte totale aantal kan weergeven. (CAMP-31424)
 * Probleem verholpen in bestemmingspagina&#39;s die konden verhinderen dat invoervelden de bijgewerkte waarde konden weergeven nadat deze was gewijzigd. (CAMP-31401)
 * Probleem verholpen waarbij een signaalactiviteit onverwacht kon worden geactiveerd.
@@ -415,7 +415,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 
 ## Release 19.1 - februari 2019 {#release-19-1---february-2019}
 
-**Wat is nieuw?**
+**Nieuwe functies?**
 
 <table> 
  <thead> 
@@ -521,7 +521,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 
 ## Release 19.0 - januari 2019 {#release-19-0---january-2019}
 
-**Wat is nieuw?**
+**Nieuwe functies?**
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -617,7 +617,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 * Oplossing voor een probleem in de queryeditor met de voorwaarde voor samenvoeging tussen log en trackinglogbestand voor rtEvent. (CAMP-28780)
 * Probleem verholpen waardoor wijzigingen in de landingspagina van &quot;Specifieke actie&quot; niet konden worden opgeslagen. (CAMP-29422)
 * Probleem verholpen waarbij het laden van een gebeurtenislading in een werkstroom werd verhinderd. (CAMP-29029)
-* Probleem verholpen waarbij SMS-nummers op de bloklijst niet in een SMS-bericht konden worden uitgesloten. (CAMP-28898)
+* Probleem verholpen waarbij SMS-nummers op de lijst van afgewezen personen niet in een SMS-bericht werden uitgesloten. (CAMP-28898)
 * Probleem verholpen waardoor SMPP-providers niet op de hoogte konden worden gesteld van een fout tijdens de verwerking van binnenkomende berichten. (CAMP-29804)
 * Probleem verholpen waarbij externe accounts met bijbehorende leveringen konden worden verwijderd. (CAMP-29738)
 * De verzendende doorvoer is verbeterd en gestabiliseerd voor SMS-berichten.
