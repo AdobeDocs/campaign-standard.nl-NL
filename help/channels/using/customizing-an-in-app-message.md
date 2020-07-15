@@ -13,14 +13,17 @@ context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1269ee2041e0857b077424ba7f50fbfa9519ae7b
+source-git-commit: 4efc42fd6b656c7723ed52f704c801113f9b3817
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 0%
 
 ---
 
 
 # Een bericht in de app aanpassen{#customizing-an-in-app-message}
 
-Als u uw In-App-bericht wilt verfijnen, kunt u met Adobe Campaign toegang krijgen tot een set geavanceerde opties terwijl u een In-App ontwerpt.
+Om uw In-App bericht te verfijnen, staat Adobe Campaign u toe om tot een reeks geavanceerde opties toegang te hebben terwijl het ontwerpen van een In-App.
 
 Met de inhoudeditor in de app kunt u kiezen uit twee berichtmodi in de app:
 
@@ -37,7 +40,7 @@ Met de inhoudeditor in de app kunt u kiezen uit twee berichtmodi in de app:
 
 * [Uw bericht in de app verzenden](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
 * [Rapportage in de app](../../reporting/using/in-app-report.md)
-* [Lokale meldingstracking implementeren](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)
+* [Lokale meldingstracking implementeren](../../administration/using/local-tracking.md)
 
 ## Aanpassen met een berichtsjabloon {#customizing-with-a-message-template}
 
@@ -143,7 +146,7 @@ U kunt maximaal twee knoppen toevoegen aan uw In-App-bericht.
 ## Het type lokaal berichtbericht aanpassen {#customizing-a-local-notification-message-type}
 
 Lokale meldingen kunnen alleen worden geactiveerd door een app op een bepaald tijdstip en afhankelijk van een gebeurtenis. Ze zullen gebruikers waarschuwen dat er iets gebeurt in hun app, zelfs zonder toegang tot internet.
-Raadpleeg deze [pagina](https://helpx.adobe.com/campaign/kb/local-notification-tracking.html)voor meer informatie over het bijhouden van lokale meldingen.
+Raadpleeg deze [pagina](../../administration/using/local-tracking.md)voor meer informatie over het bijhouden van lokale meldingen.
 
 Een lokale melding aanpassen:
 
@@ -184,7 +187,7 @@ Het bestand moet een specifieke indeling hebben die u kunt vinden door op de opt
 
 ![](assets/inapp_customize_16.png)
 
-U vindt ook een lijst met aangepaste HTML-vereisten voor een geslaagde import in Adobe Campagne.
+U vindt ook een lijst met aangepaste HTML-vereisten voor een geslaagde import in Adobe Campaign.
 
 ![](assets/inapp_customize_3.png)
 
@@ -194,7 +197,7 @@ Nadat de HTML is geïmporteerd, kunt u een voorvertoning van het bestand op vers
 
 Voordat u het bericht in de app verzendt, kunt u testen met uw testprofielen om te controleren wat uw doelgroep ziet wanneer zij uw levering ontvangen.
 
-1. Klik op de **[!UICONTROL Preview]** knop.
+1. Klik op de knop **[!UICONTROL Preview]**. 
 
    ![](assets/inapp_sending_2.png)
 
