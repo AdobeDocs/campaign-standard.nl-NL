@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ De eindpunten van het externe systeem kunnen openbare API eindpunten, klantenbeh
 
 >[!NOTE]
 >
->Om veiligheidsredenen wordt het gebruik van JSSPs niet gesteund in de Norm van de Campagne. Als u code moet uitvoeren, kunt u een Adobe I/O Runtime instantie via de Externe API activiteit roepen.
+>Om veiligheidsredenen wordt het gebruik van JSSP&#39;s niet ondersteund in Campaign Standard. Als u code moet uitvoeren, kunt u een Adobe I/O Runtime instantie via de Externe API activiteit roepen.
 
 De belangrijkste kenmerken van deze activiteit zijn:
 
@@ -40,7 +40,7 @@ De belangrijkste kenmerken van deze activiteit zijn:
 
 ### Overgang van bèta naar GA {#from-beta-to-ga}
 
-Met de campagnestandaard 20.3-release is de externe API-functionaliteit van bèta naar algemene beschikbaarheid (GA) verplaatst.
+Met de Campaign Standard 20.3-release is de externe API-functionaliteit verplaatst van bèta naar algemene beschikbaarheid (GA).
 
 >[!CAUTION]
 >
@@ -56,10 +56,10 @@ Vervolgens configureert u andere activiteiten in de workflow opnieuw, waarbij ge
 
 ### Beperkingen en geleiders {#guardrails}
 
-Voor deze activiteit zijn de volgende voorzorgsmaatregelen getroffen:
+Op deze activiteit zijn de volgende instructies van toepassing:
 
-* 50 MB http response data size limit
-* Verzoek time-out is 10 minuten
+* 5MB http-limiet voor gegevensgrootte
+* Verzoek time-out is 1 minuut
 * HTTP-omleidingen zijn niet toegestaan
 * Niet-HTTPS-URL&#39;s worden geweigerd
 * &quot;Accepteren: application/json&quot;-aanvraagheader en &quot;Content-Type: application/json&quot;-responsheader is toegestaan
@@ -121,7 +121,7 @@ De definitie van kolommen (toevoegen/verwijderen) en de typewaarde van het bezit
 
 Selectievakje Afvlakken (standaard: (niet ingeschakeld) wordt opgegeven om aan te geven of de JSON al dan niet moet worden afgevlakt op een sleutel-/waardeoverzicht.
 
-* Wanneer het **selectievakje is uitgeschakeld** (uitgeschakeld), wordt het voorbeeld-JSON geparseerd om naar een matrixobject te zoeken. De gebruiker moet een bijgesneden versie van de JSON-voorbeeldindeling voor API-reacties opgeven, zodat Adobe Campagne precies kan bepalen in welke array de gebruiker geïnteresseerd is. Tijdens het ontwerpen van de workflow wordt het pad naar het geneste arrayobject bepaald en opgenomen, zodat het tijdens de uitvoering kan worden gebruikt om toegang te krijgen tot dat matrixobject van de JSON-responsinstantie die van de API-aanroep is ontvangen.
+* Wanneer het **selectievakje is uitgeschakeld** (uitgeschakeld), wordt het voorbeeld-JSON geparseerd om naar een matrixobject te zoeken. De gebruiker moet een bijgesneden versie van de JSON-voorbeeldindeling voor API-reacties opgeven, zodat Adobe Campaign precies kan bepalen in welke array de gebruiker geïnteresseerd is. Tijdens het ontwerpen van de workflow wordt het pad naar het geneste arrayobject bepaald en opgenomen, zodat het tijdens de uitvoering kan worden gebruikt om toegang te krijgen tot dat matrixobject van de JSON-responsinstantie die van de API-aanroep is ontvangen.
 
 * Wanneer het **selectievakje is ingeschakeld** (ingeschakeld), wordt het voorbeeld-JSON afgevlakt en worden alle eigenschappen die in het opgegeven voorbeeld JSON zijn opgegeven, gebruikt om kolommen van de tijdelijke uitvoertabel te maken en weergegeven op het tabblad Kolomdefinities. Als er een arrayobject in het JSON-voorbeeld is, worden alle elementen van die arrayobjecten ook afgevlakt.
 
@@ -145,7 +145,7 @@ Op dit tabblad kunt u **algemene eigenschappen** voor de externe API-activiteit 
 >
 >Dit tabblad wordt weergegeven wanneer de indeling **van de** reactiegegevens is voltooid en gevalideerd op het tabblad Uitgaande toewijzing.
 
-Op het tabblad **Kolomdefinitie** kunt u nauwkeurig de gegevensstructuur van elke kolom opgeven om gegevens te importeren die geen fouten bevatten en deze in overeenstemming te brengen met de typen die al aanwezig zijn in de Adobe Campagne-database voor toekomstige bewerkingen.
+Op het tabblad **Kolomdefinitie** kunt u de gegevensstructuur van elke kolom nauwkeurig opgeven om gegevens te importeren die geen fouten bevatten en deze in overeenstemming te brengen met de typen die al aanwezig zijn in de Adobe Campaign-database voor toekomstige bewerkingen.
 
 ![](assets/externalAPI-column.png)
 
