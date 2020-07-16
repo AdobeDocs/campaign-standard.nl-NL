@@ -4,10 +4,10 @@ solution: Campaign Standard
 title: Adobe Campaign Standard-productdocumentatie
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 7ceca9dbdd33d3186f476be8ecb5871e5c1d9c9c
+source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 0%
+source-wordcount: '212'
+ht-degree: 2%
 
 ---
 
@@ -18,11 +18,13 @@ ht-degree: 0%
 
 ## Nieuwe functies
 
+* **[E-mails](sending/using/predictive.md)**<br/>met AI optimaliseren Ontwerp en levering met e-mails met AI-mogelijkheden
+
 * **[Privacybeheer](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/> Meer informatie over de tools die Adobe Campaign biedt om u te helpen aan uw privacyregels te voldoen
 
 * **[Externe API](automating/using/external-api.md)**<br/>Gebruik de externe API-activiteit om gegevens van een extern systeem over te brengen naar de werkstroom
 
-* **[Campaign Standard Mobile-gids](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/> Meer informatie over algemene richtlijnen voor mobiele leveringen
+* **[Ga aan de slag met mobiele leveringen](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/> Meer informatie over algemene richtlijnen voor mobiele leveringen (SMS, Push, In-App)
 
 [Klik hier voor meer updates](rn/using/documentation-updates.md)
 
@@ -65,7 +67,7 @@ ht-degree: 0%
 
 | Nuttige pagina&#39;s | Bronnen voor ontwikkelaars |
 |---|---|
-| [Opmerkingen bij de release](rn/using/release-notes.md) | [Experience Cloud-triggers](integrating/using/about-adobe-experience-cloud-triggers.md) |
+| [Releaseopmerkingen](rn/using/release-notes.md) | [Experience Cloud-triggers](integrating/using/about-adobe-experience-cloud-triggers.md) |
 | [Documentatie van het regelpaneel](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [Campagne-API&#39;s](api/using/get-started-apis.md) |
 | [Implementatiehandleiding](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) | [Lijst met foutberichten](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Release-planning](rn/using/release-planning.md) | [Campagne gegevensmodel](developing/using/datamodel-introduction.md) |
