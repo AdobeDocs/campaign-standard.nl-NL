@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
+source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -58,16 +58,15 @@ Vervolgens configureert u andere activiteiten in de workflow opnieuw, waarbij ge
 
 Op deze activiteit zijn de volgende instructies van toepassing:
 
-* 5MB http-limiet voor gegevensgrootte
-* Verzoek time-out is 1 minuut
+* 50 MB http response data size limit (5 MB aanbevolen)
+* Verzoek time-out is 10 minuten
 * HTTP-omleidingen zijn niet toegestaan
 * Niet-HTTPS-URL&#39;s worden geweigerd
 * &quot;Accepteren: application/json&quot;-aanvraagheader en &quot;Content-Type: application/json&quot;-responsheader is toegestaan
 
->[!CAUTION]
+>[!NOTE]
 >
->Houd er rekening mee dat de activiteit bedoeld is voor het ophalen van gegevens voor de hele campagne (laatste reeks aanbiedingen, laatste scores, enz.), niet voor het ophalen van specifieke informatie voor elk profiel, omdat dit kan leiden tot het overdragen van grote hoeveelheden gegevens. Als het gebruiksgeval dit vereist, is de aanbeveling om de activiteit van het Dossier [van de](../../automating/using/transfer-file.md) Overdracht te gebruiken.
-
+>Vanaf de release Campagne 20.4 worden de maximale grootte van de http-responsgegevens en de instructies verlaagd naar 5 MB en 1 minuut.  Hoewel deze wijziging alleen van invloed is op nieuwe externe API-activiteiten, wordt aangeraden de huidige implementaties van de externe API-activiteit af te stemmen op deze nieuwe instructies om de beste praktijken te volgen.
 
 Voor de JSON zijn specifieke voorzorgsmaatregelen getroffen:
 
@@ -75,12 +74,14 @@ Voor de JSON zijn specifieke voorzorgsmaatregelen getroffen:
 * **Max. keylengte** JSON: de maximumlengte van de gegenereerde interne sleutel beperken tot 255. Deze sleutel is gekoppeld aan de kolom-id.
 * **JSON Max. aantal dubbele toetsen toegestaan**:  Beperk het maximumaantal dubbele JSON bezitsnamen, die als kolom ID worden gebruikt, tot 150.
 
-
 De JSON-structuur wordt niet ondersteund als:
 
 * Arrayobject combineren met andere niet-arrayelementen
 * JSON-arrayobject is genest binnen een of meer tussenliggende arrayobjecten.
 
+>[!CAUTION]
+>
+>De externe API-activiteit is bedoeld voor het ophalen van gegevens voor de hele campagne (laatste reeks aanbiedingen, laatste scores, enz.), niet voor het ophalen van specifieke informatie voor elk profiel, omdat dit kan leiden tot de overdracht van grote hoeveelheden gegevens. Als het gebruiksgeval dit vereist, is de aanbeveling om de activiteit van het Dossier [van de](../../automating/using/transfer-file.md) Overdracht te gebruiken.
 
 ## Configuratie {#configuration}
 
