@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
+source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,7 @@ Adobe Campaign Standard biedt twee nieuwe modellen voor het leren van machines: 
 
 * **Predictieve betrokkenheidsscore**: De voorspellende betrokkenheidsscore voorspelt de waarschijnlijkheid dat een ontvanger een bericht in dienst neemt en de waarschijnlijkheid dat hij of zij zich afmeldt (afmeldt) binnen de volgende 7 dagen na de volgende e-mail verzendt. De waarschijnlijkheden worden verder in emmers onderverdeeld op basis van het specifieke risico van terugtrekking, middelgroot of laag. Op deze manier geeft het model ook de risicopreffende positie van de klanten om te begrijpen waar de positie van een bepaalde klant ten opzichte van anderen ligt.
 
->[!NOTE]
-> **Vereisten **
->
+>[!CAUTION]
 >Deze mogelijkheid is niet beschikbaar buiten de verpakking als onderdeel van het product. Voor de implementatie moet Adobe Consulting worden ingeschakeld. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie.
 >
 >Afzonderlijk, vereiste de eigenschap het gebruik van een Azure opslag die door de klant moet worden verstrekt.
