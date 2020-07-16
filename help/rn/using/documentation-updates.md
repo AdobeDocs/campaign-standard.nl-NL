@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 979ddba984bd564bf60b42973c857f2b896eeaf6
+source-git-commit: a1f15808bd892305282b838bebbc8fa1ce58283e
 workflow-type: tm+mt
-source-wordcount: '6089'
+source-wordcount: '6092'
 ht-degree: 9%
 
 ---
@@ -28,7 +28,7 @@ Naast de opmerkingen bij de Adobe Campaign- [release](../../rn/using/release-not
 
 Er is een nieuwe sectie toegevoegd met richtlijnen voor Campaign Standard-bewaking. [Meer informatie](../../administration/using/monitoring-guidelines.md)
 
-Externe API-hulplijnen zijn bijgewerkt. [Meer informatie](../../automating/using/external-api.md)
+De sectie Externe API-instructies en -beperkingen is bijgewerkt.[Meer informatie](../../automating/using/external-api.md#guardrails)
 
 De overzichtspagina van het privacybeheer is bijgewerkt met informatie over de Thaise wet inzake de bescherming van persoonsgegevens (PDPA) en de Braziliaanse Lei Geral de Proteção de Dados (LGPD). [Meer informatie](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
@@ -374,7 +374,7 @@ De gids voor automatiseren is bijgewerkt met koppelingen naar gerelateerde workf
 
 Het gedeelte Indicatorberekening voor dynamische rapporten is bijgewerkt. [Meer informatie](../../reporting/using/indicator-calculation.md)
 
-Er is een dynamische compatibiliteitstabel voor rapporten toegevoegd om de compatibiliteit tussen dimensies en maatstaven beter te begrijpen. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
+Er is een dynamische compatibiliteitstabel voor rapporten toegevoegd om beter inzicht te krijgen in de compatibiliteit tussen afmetingen en metriek. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
 
 De lijst met functies voor workflows is bijgewerkt. [Meer informatie](../../automating/using/list-of-functions.md)
 
@@ -392,7 +392,7 @@ De naam en de indeling van de sectie E-mailberichten archiveren zijn gewijzigd. 
 
 De sectie Een e-mailbericht maken is bijgewerkt met de meest recente interfacewijzigingen. [Meer informatie](../../channels/using/creating-an-email.md)
 
-Het de schakelaarprotocol van [SMS en montages](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) Kennisbank artikel is bijgewerkt met de nieuwe optie die aan de externe rekening van SMS wordt toegevoegd om het aantal instanties te beperken MTA die met de leverancier SMPP mogen verbinden.
+Het de schakelaarprotocol van [SMS en montages](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) het artikel van de Kennisbank is bijgewerkt met de nieuwe optie die aan de externe rekening van SMS wordt toegevoegd om het aantal instanties te beperken MTA die met de leverancier SMPP mogen verbinden.
 
 De gids Aan de slag is verrijkt en gereorganiseerd. [Meer informatie](../../start/using/about-campaign-standard.md)
 
