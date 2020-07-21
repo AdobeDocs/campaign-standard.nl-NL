@@ -13,10 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: f00c5cd2f6642048ebd056dcaf5a156f8cf7ca18
 workflow-type: tm+mt
 source-wordcount: '1559'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -29,12 +29,12 @@ Deze externe accounts kunnen in Campagneworkflows worden gebruikt voor toegang t
 
 U kunt de volgende typen externe accounts instellen:
 
-* SFTP. For more on this, refer to [this section](#sftp-external-account).
-* Amazon Storage Service (S3). For more on this, refer to [this section](#amazon-s3-external-account).
-* Adobe Experience Manager. For more on this, refer to [this section](#adobe-experience-manager-external-account).
-* Adobe Analytics. For more on this, refer to [this section](../../integrating/using/configure-campaign-analytics-integration.md).
-* Google reCAPTCHA. For more on this, refer to [this section](#google-recaptcha-external-account).
-* Microsoft Azure Blob-opslag. For more on this, refer to [this section](#microsoft-azure-external-account).
+* SFTP. Raadpleeg [deze sectie](#sftp-external-account) voor meer informatie.
+* Amazon Storage Service (S3). Raadpleeg [deze sectie](#amazon-s3-external-account) voor meer informatie.
+* Adobe Experience Manager. Raadpleeg [deze sectie](#adobe-experience-manager-external-account) voor meer informatie.
+* Adobe Analytics. Raadpleeg [deze sectie](../../integrating/using/configure-campaign-analytics-integration.md) voor meer informatie.
+* Google reCAPTCHA. Raadpleeg [deze sectie](#google-recaptcha-external-account) voor meer informatie.
+* Microsoft Azure Blob-opslag. Raadpleeg [deze sectie](#microsoft-azure-external-account) voor meer informatie.
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Adobe Campaign wordt geleverd met een reeks vooraf gedefinieerde externe account
 
 Externe accounts worden gebruikt door technische processen, zoals technische workflows of workflows voor campagnes. Wanneer u een bestandsoverdracht instelt in een workflow of een gegevensuitwisseling met een andere toepassing (Adobe Target, Experience Manager, enz.), moet u een externe account selecteren.
 
-1. Klik op de **[!UICONTROL Create]** knop.
+1. Klik op de knop **[!UICONTROL Create]**. 
 1. Voer een label in. Het label en de id worden gebruikt bij het selecteren van externe accounts in workflows.
 1. Selecteer het type account dat u wilt maken.
 1. Configureer de toegang tot de account door referenties, serveradres, poortnummer en of sleutels op te geven, indien van toepassing.
@@ -86,9 +86,9 @@ Om dergelijke problemen te voorkomen, raadt Adobe aan de onderstaande aanbevolen
 * Soms, login aan SFTP om direct te controleren wat daar ligt.
 * Houd er rekening mee dat SFTP-schijfbeheer primair uw verantwoordelijkheid is.
 
-Ook, merk op dat openbare IPs waarvan u probeert om de verbinding in werking te stellen SFTP aan toe te voegen staat lijst op de instantie van de Campagne toe. Het toevoegen van IP adressen aan staat lijst kan via een [steunkaartje](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), samen met het verstrekken van de openbare sleutel aan gebruik voor authentificatie worden gevraagd.
+Ook, merk op dat openbare IPs waarvan u probeert om de verbinding in werking te stellen SFTP aan de lijst van gewenste personen op de instantie van de Campagne moet worden toegevoegd. Het toevoegen van IP adressen aan de lijst van gewenste personen kan via een [steunkaartje](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), samen met het verstrekken van de openbare sleutel voor authentificatie worden gevraagd te gebruiken.
 
-SFTP-servers kunnen worden beheerd via het Configuratiescherm. Raadpleeg de documentatie bij het [Configuratiescherm voor meer informatie](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
+SFTP-servers kunnen worden beheerd via het Configuratiescherm. For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ Specificeer **[!UICONTROL AWS Region]** verbonden aan uw eindpunt. U kunt de ond
 
 We raden u aan de volgende aanbevelingen te volgen om u te helpen bij het instellen van uw Amazon S3-account:
 
-* Creeer het strikte emmerbeleid om toegang tot S3 emmers te beperken. Het beleid van het emmertje kan worden gevormd terwijl het creëren van een emmertje. Raadpleeg de documentatie bij [](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html)Amazon S3 voor meer informatie.
+* Creeer het strikte emmerbeleid om toegang tot S3 emmers te beperken. Het beleid van het emmertje kan worden gevormd terwijl het creëren van een emmertje. For more information, refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
 * Schakel tijdens het maken van een externe account de codering in om gevoelige gegevens op te slaan in het S3-emmertje door het **[!UICONTROL Keep files in S3 encrypted]** selectievakje in te schakelen.
 * Rechten van emmertjes verlenen om op te geven wie toegang heeft tot het object in een emmertje. Raadpleeg de documentatie [van](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)Amazon S3 voor meer informatie over emmermachtigingen.
 
@@ -173,7 +173,7 @@ Geef voor een externe account voor Microsoft Azure Blob-opslag de volgende gegev
 * Een **[!UICONTROL Label]** en **[!UICONTROL ID]** van uw externe account
 * **[!UICONTROL Type]**: Microsoft Azure Blob-opslag
 * Je **[!UICONTROL Account name]** en **[!UICONTROL Account key]**. Als u wilt weten waar u de naam en sleutel van uw account vindt, raadpleegt u deze [pagina](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
-* Je **[!UICONTROL Endpoint suffix]**. U vindt dit in uw **[!UICONTROL Connection string]** menu in het **[!UICONTROL Access keys]** Azure Portal. Raadpleeg deze [pagina](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)voor meer informatie.
+* Je **[!UICONTROL Endpoint suffix]**. U vindt dit in uw **[!UICONTROL Connection string]** menu in het **[!UICONTROL Access keys]** Azure Portal. For more on this, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
 * Uw **[!UICONTROL Container]** naam. Als u meerdere containers wilt gebruiken, moet u zoveel externe accounts maken als containers.
 * Met de **[!UICONTROL Concurrency]** optie kunt u de snelheid van de bestandsoverdracht afstemmen.
 
