@@ -13,9 +13,9 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,10 @@ ht-degree: 0%
 ## Over het bijhouden van push {#about-push-tracking}
 
 Om ervoor te zorgen dat het pushbericht volledig is ontwikkeld, moet u ervoor zorgen dat het trackinggedeelte correct is geïmplementeerd.
+Hierbij wordt ervan uitgegaan dat u de eerste onderdelen van de implementatie van pushberichten al hebt geïmplementeerd:
 
-Met de volgende stappen kunt u controleren of de functie voor het bijhouden van pushmeldingen correct is geïmplementeerd. Hierbij wordt ervan uitgegaan dat u de eerste onderdelen van de implementatie van pushberichten al hebt geïmplementeerd: De gebruiker van de app registreren en een pushmelding afhandelen.
+* De gebruiker van de app registreren
+* Een pushmelding verwerken
 
 De functie Push Tracking bestaat uit drie typen:
 
@@ -37,7 +39,7 @@ De functie Push Tracking bestaat uit drie typen:
 
 * **Push Open** - Wanneer een pushmelding aan het apparaat is geleverd en de gebruiker op het bericht heeft geklikt dat de app moet worden geopend.  Dit is gelijkaardig aan de Duw klikt behalve zal een Duw Open niet teweeggebracht worden als het bericht werd verworpen.
 
-Voor het implementeren van tracering voor Campaign Standard moet de mobiele app de Mobile SDK bevatten. Deze SDK is beschikbaar op Adobe Mobile Services.
+Voor het implementeren van tracering voor Campaign Standard moet de mobiele app de Mobile SDK bevatten. Deze SDK is beschikbaar op Adobe Mobile Services. For more on this, refer to this [page](../../administration/using/configuring-a-mobile-application.md).
 
 Om het volgen informatie te verzenden zijn er drie variabelen die moeten worden verzonden. Twee die deel van de gegevens uitmaken die van Campaign Standard en een actievariabele worden ontvangen die of het een **Indrukking**, **Klik** of **Open** dicteert.
 
@@ -51,7 +53,7 @@ Om het volgen informatie te verzenden zijn er drie variabelen die moeten worden 
 
 ### Hoe u push-tracking implementeert {#push-impression-tracking-android}
 
-Voor het bijhouden van de indruk moet u waarde &quot;7&quot; verzenden voor actie wanneer u de functie trackAction() aanroept.
+Voor het bijhouden van de indruk moet u de waarde 7 voor actie verzenden wanneer u **[!UICONTROL trackAction()]** functie aanroept.
 
 ```
 @Override
@@ -73,7 +75,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### Klikspatiëring implementeren {#push-click-tracking-android}
 
-Als u op &#39;tracking&#39; klikt, moet u de waarde &#39;2&#39; verzenden voor de handeling wanneer u de functie trackAction() aanroept.
+Als u klikt op bijhouden, moet u waarde 2 verzenden voor actie wanneer u **[!UICONTROL trackAction()]** functie aanroept.
 
 Om te volgen klik, moeten twee scenario&#39;s worden behandeld:
 
@@ -82,7 +84,7 @@ Om te volgen klik, moeten twee scenario&#39;s worden behandeld:
 
 Om dit te behandelen, moet u twee Intenten gebruiken: een voor het klikken op de melding en een andere voor het negeren van de melding.
 
-MyFirebaseMessagingService.java
+**[!UICONTROL MyFirebaseMessagingService.java]**
 
 ```
 private void sendNotification(Map<String, String> data) {
@@ -111,7 +113,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-De BroadcastReceiver werkt alleen als u deze registreert bij AndroidManifest.xml
+Als u wilt dat de toepassing **[!UICONTROL BroadcastReceiver]** kan werken, moet u deze registreren bij de **[!UICONTROL AndroidManifest.xml]**
 
 ```
 <manifest>
@@ -152,7 +154,7 @@ U moet &quot;1&quot; en &quot;2&quot; verzenden omdat de gebruiker op een meldin
 
 Als u het openen wilt bijhouden, moet u Intent maken. Met Intentobjecten kan Android OS de methode aanroepen wanneer bepaalde handelingen zijn uitgevoerd. Klik in dit geval op het bericht om de app te openen.
 
-Deze code is gebaseerd op de implementatie van het bijhouden van de klikindruk. Als Intentie is ingesteld, moet u de trackinggegevens nu terugsturen naar Campagne. In dit geval wordt de methode onResume MET DE meldingsgegevens in het Intent-object aangeroepen als u de Open Intent zo moet instellen dat deze voor een bepaalde weergave in uw app wordt geopend.
+Deze code is gebaseerd op de implementatie van het bijhouden van de klikindruk. Met **[!UICONTROL Intent]** deze set moet u nu trackinggegevens terugsturen naar Adobe Campaign Standard. In dit geval moet u instellen **[!UICONTROL Open Intent]** dat de gebeurtenis wordt geopend voor een bepaalde weergave in uw app. Hierbij wordt de methode onResume aangeroepen met de berichtgegevens in de **[!UICONTROL Intent Object]** app.
 
 ```
 @Override
@@ -194,7 +196,7 @@ private void handleTracking() {
 
 ### Hoe u push-tracking implementeert {#push-impression-tracking-iOS}
 
-Voor het bijhouden van de indruk moet u waarde &quot;7&quot; verzenden voor actie wanneer u de functie trackAction() aanroept.
+Voor het bijhouden van de indruk moet u de waarde 7 voor actie verzenden wanneer u **[!UICONTROL trackAction()]** functie aanroept.
 
 Als u wilt weten hoe iOS-meldingen werken, moeten de drie statussen van een app gedetailleerd zijn:
 
@@ -204,11 +206,11 @@ Als u wilt weten hoe iOS-meldingen werken, moeten de drie statussen van een app 
 
 Als een app wordt gesloten, roept Apple de app pas aan nadat de app opnieuw is gestart. Dit betekent dat u niet kunt weten wanneer de melding is ontvangen op iOS.
 
-Om ervoor te zorgen dat het bijhouden van indrukken nog steeds werkt terwijl de app op de achtergrond wordt uitgevoerd, moeten we **Content-Available** verzenden om de app te laten weten dat het bijhouden van de inhoud moet worden uitgevoerd.
+Om de **[!UICONTROL Impression]** tracering nog steeds te laten werken terwijl de app op de achtergrond is, moeten we **[!UICONTROL Content-Available]** de app verzenden om de app te laten weten dat deze moet worden bijgehouden.
 
 >[!CAUTION]
 >
->iOS Impression Tracking is niet correct en moet niet als betrouwbaar worden beschouwd.
+>iOS-impressietracering is niet correct en moet niet als betrouwbaar worden beschouwd.
 
 De volgende code is gericht op de achtergrond-app:
 
@@ -250,7 +252,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 ### Klikspatiëring implementeren {#push-click-tracking-iOS}
 
-Als u op &#39;tracking&#39; klikt, moet u de waarde &#39;2&#39; verzenden voor de handeling wanneer u de functie trackAction() aanroept.
+Als u klikt op bijhouden, moet u waarde 2 verzenden voor actie wanneer u **[!UICONTROL trackAction()]** functie aanroept.
 
 ```
 // AppDelegate.swift
@@ -291,7 +293,7 @@ Wanneer u pushberichten verzendt, moet u nu een categorie toevoegen. In dit geva
 
 ![](assets/tracking_push.png)
 
-Dan om de Ontslag te behandelen en een het volgen info te verzenden moet u het volgende toevoegen:
+Vervolgens moet u het volgende toevoegen om de trackinggegevens te verwerken **[!UICONTROL Dismiss]** en te verzenden:
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
