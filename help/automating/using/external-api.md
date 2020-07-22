@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
+source-git-commit: 3bd2fdb56fc94cef4e9c21466a33cdad7ac825d2
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1754'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Op deze activiteit zijn de volgende instructies van toepassing:
 
 >[!NOTE]
 >
->Vanaf de release Campagne 20.4 worden de maximale grootte van de http-responsgegevens en de instructies verlaagd naar 5 MB en 1 minuut.  Hoewel deze wijziging alleen van invloed is op nieuwe externe API-activiteiten, wordt aangeraden de huidige implementaties van de externe API-activiteit af te stemmen op deze nieuwe instructies om de beste praktijken te volgen.
+>Vanaf de release van Campagne 20.4 worden de beperking voor de grootte van de http-responsgegevens en de time-outinstructies voor de respons verlaagd naar respectievelijk 5 MB en 1 minuut.  Hoewel deze wijziging alleen van invloed is op nieuwe externe API-activiteiten, wordt ten zeerste aanbevolen de huidige implementaties van de externe API-activiteit af te stemmen op deze nieuwe instructies om de best practices te volgen.
 
 Voor de JSON zijn specifieke voorzorgsmaatregelen getroffen:
 
