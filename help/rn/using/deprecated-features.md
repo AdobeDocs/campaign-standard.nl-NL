@@ -12,9 +12,9 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7622018bff9c8b8573dae139372bea697815849f
+source-git-commit: 2d4b1ba38a7aa33d1fff3415d71080e370cb80f4
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik 
    <td> <p>Vanaf de release van Campagne 19.4 is het gebruik van de campagne-API en de interface voor toegangs- en verwijderingsverzoeken afgekeurd. De profielverwijdering in twee stappen is niet beschikbaar. Gebruik <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
    <p>Zie ook <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Privacy Management in Campaign Standard</a>.</p>
   <p> 
-  <em>Target-verwijderingsversie: Release van campagne 20.4</em></p>
+  <em>Verwijderingsdatum Target: 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -87,7 +87,7 @@ Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik 
    <td> <p>Vanaf de release Campagne 19.0 is de oude e-maileditor afgekeurd. Met <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">de nieuwe e-mailontwerper</a> kunt u uw e-mailinhoud maken en aanpassen. </p></br>
    <p>Lees <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">deze sectie</a> om te leren hoe u uw e-mailsjablonen voor de nieuwe editor kunt aanpassen.</p></br>
   <p> 
-  <em>Target-verwijderingsversie: 2021</em></p>
+  <em>Verwijderingsdatum Target: 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
