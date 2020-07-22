@@ -13,19 +13,21 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
 
 
-# Een afbeelding weergeven op basis van een Adobe Campaign Standard-pushmelding {#image-push}
+# Afbeeldingen en video&#39;s toevoegen iOS {#image-push}
 
 >[!NOTE]
 >
 >Dit document is alleen van toepassing op iOS-apparaten.
+
+Leer in dit document hoe u een afbeelding weergeeft via een Adobe Campaign Standard iOS-pushmelding.
 
 ## Stap 1: Pushmelding instellen {#set-up-push}
 
@@ -41,11 +43,11 @@ Als u pushberichten wilt verzenden met een Experience Cloud SDK-toepassing, moet
 
 Als u uw pushmelding wilt verfijnen, kunt u in Adobe Campaign toegang krijgen tot een set geavanceerde opties terwijl u een pushmelding ontwerpt.
 
-1. Maak een pushmelding. Raadpleeg deze pagina voor meer informatie.
+1. Maak een pushmelding. For more on this, refer to this [page](../../channels/using/preparing-and-sending-a-push-notification.md).
 
-1. Open de sectie Geavanceerde opties op de pagina met inhoud voor pushmeldingen.
+1. Open de **[!UICONTROL Advanced options]** sectie vanaf de pagina met inhoud voor pushmeldingen.
 
-1. Typ de URL van het bestand in het veld URL van de rijke media-inhoud.
+1. Voer in het **[!UICONTROL Rich media content URL]** veld de URL van het bestand in.
 Voor iOS 10 of hoger kunt u afbeeldings-, gif-, audio- en videobestanden invoegen.
 
    ![](assets/push_notif_advanced_6.png)
@@ -60,13 +62,13 @@ Nadat u uw pushmelding in Adobe Campaign hebt aangepast, moet u uw mobiele toepa
 >
 >Als uw toepassing in doelstelling-C is, verwijs naar de volgende [documentatie](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
 
-Voer de onderstaande stappen uit als uw app zich in Swift bevindt:
+Voer de volgende stappen uit als uw app is ingeschakeld [!DNL Swift]:
 
-1. Open uw xCode-project.
+1. Open uw [DNL Xcode] project.
 
-1. Selecteer **Bestand** > **Nieuw** > **Target** in uw Xcode-project.
+1. Selecteer in uw [DNL Xcode] -project **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
 
-1. Selecteer Extensie Meldingsservice.
+1. Selecteer **[!UICONTROL Notification Service Extension]**.
 
    ![](assets/push_notif_advanced_12.png)
 
