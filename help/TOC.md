@@ -4,9 +4,9 @@ sub-product: Adobe-campagnestandaard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
+source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -404,11 +404,11 @@ ht-degree: 0%
       + [Transactieberichten configureren](administration/using/configuring-transactional-messaging.md)
    + Mobiele kanalen configureren {#configuring-mobile}
       + [Push tracking implementeren](administration/using/push-tracking.md)
-      + [Een afbeelding weergeven op basis van een Adobe Campaign Standard-pushmelding](administration/using/image-push-notification.md)
-      + [Werken met de betalingsstructuur van Campaign Standard-pushberichten](administration/using/push-payload.md)
+      + [Afbeeldingen en video&#39;s toevoegen iOS](administration/using/image-push-notification.md)
+      + [De payloadstructuur voor pushberichten begrijpen](administration/using/push-payload.md)
       + [Lokale meldingstracking implementeren](administration/using/local-tracking.md)
       + [veelgestelde vragen over de technische workflow voor SyncWithLaunch](administration/using/syncwithlaunch-faq.md)
-      + [Veelgestelde vragen over Adobe Experience Platform SDK en Adobe Campaign-integratie](administration/using/aep-faq.md)
+      + [Aan de slag met Adobe Experience Platform SDK en Campagne](administration/using/aep-faq.md)
    + Toepassingsinstellingen {#application-settings}
       + [Informatie over Campaign Standard-instellingen](administration/using/about-campaign-standard-settings.md)
       + [Externe rekeningen](administration/using/external-accounts.md)
