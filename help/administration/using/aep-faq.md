@@ -12,15 +12,32 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
 
 
-# Veelgestelde vragen over Adobe Experience Platform SDK en Adobe Campaign-integratie {#aep-faq}
+# Aan de slag met Adobe Experience Platform SDK en Campaign Standard {#aep-faq}
+
+Als u pushmeldingen en In-App-berichten wilt verzenden met de SDK-toepassing van het Experience Platform, moet een mobiele toepassing worden ingesteld in de SDK van het Adobe Experience Platform en worden geconfigureerd in Adobe Campaign.
+
+In de onderstaande sectie worden veelgestelde vragen over deze synchronisatie weergegeven.
+
+Raadpleeg de volgende veelgestelde vragen voor meer informatie over Push of In-app:
+
+* [Veelgestelde vragen over pushmeldingen](../../channels/using/about-push-notifications.md#push-faq)
+* [Veelgestelde vragen in de app](../../channels/using/about-push-notifications.md#in-app-faq)
+* [Synchroniseren met veelgestelde vragen over technische workflow starten](../../administration/using/syncwithlaunch-faq.md)
+
+## Nuttige bronnen voordat u begint {#resource-mobile-property}
+
+Raadpleeg de onderstaande bronnen voor meer informatie over de integratie van Adobe Experience Platform SDK en Campaign Standard:
+
+* Video [over het starten/mobiel overzicht](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
+* Handleiding voor [tips en trucs voor starten/mobiel](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Is de integratie van Adobe Experience Platform SDK beschikbaar voor zowel Adobe Campaign Standard als Adobe Campaign Classic? {#aep-validity}
 
@@ -81,13 +98,6 @@ De frequentie en het ontwerp van vraag CollectPII zouden door bedrijfsbehoeften 
 ### Wanneer ik Adobe Experience Platform probeert tot Apps in Campaign of Lancering toegang te hebben, krijg ik soms een bezit niet beschikbare fout. {#aep-error}
 
 Dit is een bekend probleem dat optreedt als een token vervalt. Meld u af en weer aan.
-
-## Wat zouden sommige nuttige middelaanbevelingen zijn om meer over Mobiel bezit te leren dat in de Lancering van het Adobe Experience Platform wordt geplaatst? {#resource-mobile-property}
-
-Ontdek de onderstaande bronnen:
-
-* Video [over het starten/mobiel overzicht](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
-* Handleiding voor [tips en trucs voor starten/mobiel](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Wat zouden sommige nuttige middelaanbevelingen zijn om meer over Adobe Experience Platform SDK (vroeger genoemd geworden SDK V5) te leren?{#resource-aep}
 
