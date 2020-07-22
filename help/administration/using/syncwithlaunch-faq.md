@@ -1,6 +1,6 @@
 ---
-title: Over toegangsbeheer
-description: Beheer uw Adobe Campaign-operatoren met behulp van rollen, groepen en organisatorische eenheden.
+title: Synchroniseren met veelgestelde vragen over technische workflow starten
+description: Algemene vragen over de technische workflow van Starten.
 page-status-flag: never-activated
 uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
 contentOwner: sauviat
@@ -12,19 +12,19 @@ discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
 
 
-# veelgestelde vragen over de technische workflow voor SyncWithLaunch {#syncwithlaunch-faq}
+# Synchroniseren met veelgestelde vragen over technische workflow starten {#syncwithlaunch-faq}
 
-Met de **[!UICONTROL Sync with Launch]** workflow kunt u alle mobiele eigenschappen van Adobe Launch automatisch importeren in Adobe Campaign Standard.
+U kunt mobiele eigenschappen van Adobe Launch importeren in Adobe Campaign Standard via de **[!UICONTROL Sync with Launch]** toegewijde technische workflow. Raadpleeg deze [pagina voor meer informatie](../../administration/using/technical-workflows.md)
 
-Raadpleeg deze [pagina](../../administration/using/technical-workflows.md)voor meer informatie hierover.
+In de onderstaande sectie worden veelgestelde vragen over deze synchronisatie weergegeven.
 
 >[!NOTE]
 >
