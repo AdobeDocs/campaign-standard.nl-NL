@@ -13,9 +13,9 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: cf43edcacbab9f1f33ce29e23c0957d8bfa64e7d
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ De mobiele toepassingen die pushmeldingen ontvangen, moeten door een beheerder i
 
 Door zowel Adobe Campaign als Adobe Mobile Services te configureren, kunt u de gegevens van uw mobiele toepassing gebruiken voor uw campagnes. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
 
-Als u pushberichten wilt verzenden met een Experience Cloud SDK-toepassing, moet een mobiele app worden ingesteld in Adobe Experience Platform Launch en worden geconfigureerd in Adobe Campaign. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+Als u pushmeldingen wilt verzenden met een Experience Cloud SDK-toepassing, moet u een mobiele app instellen in Adobe Experience Platform Launch en configureren in Adobe Campaign. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
 ## Stap 2: Je pushmelding aanpassen in Adobe Campaign {#customize-push}
 
@@ -64,9 +64,9 @@ Nadat u uw pushmelding in Adobe Campaign hebt aangepast, moet u uw mobiele toepa
 
 Voer de volgende stappen uit als uw app is ingeschakeld [!DNL Swift]:
 
-1. Open uw [DNL Xcode] project.
+1. Open uw [!DNL Xcode] project.
 
-1. Selecteer in uw [DNL Xcode] -project **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
+1. Selecteer in uw [!DNL Xcode] project **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
 
 1. Selecteer **[!UICONTROL Notification Service Extension]**.
 
