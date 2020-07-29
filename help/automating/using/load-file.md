@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1364'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 0%
 # Bestand laden {#load-file}
 
 ## Beschrijving {#description}
+
+>[!CAUTION]
+>
+>Houd bij het gebruik van deze functionaliteit rekening met de beperkingen voor SFTP-opslag, DB-opslag en actieve profielen die gelden voor uw AdobeCampagne-contract.
 
 ![](assets/data_loading.png)
 
@@ -154,6 +158,7 @@ Met de kolomopmaak kunt u de waardeverwerking van elke kolom definiëren:
    * **[!UICONTROL Use a default value]**: vervangt de waarde die de fout veroorzaakt door een standaardwaarde, die op het **[!UICONTROL Default value]** gebied wordt bepaald.
    * **[!UICONTROL Use a default value in case the value is not remapped]**: vervangt de waarde die de fout veroorzaakt door een standaardwaarde, die in het **[!UICONTROL Default value]** **[!UICONTROL Remapping of values]** gebied wordt bepaald, tenzij een afbeelding voor de onjuiste waarde werd bepaald (zie de bovenstaande optie).
    * **[!UICONTROL Reject the line when there is no remapping value]**: de gehele regel wordt alleen verwerkt als een toewijzing voor de onjuiste waarde is gedefinieerd (zie de bovenstaande **[!UICONTROL Remapping of values]** optie).
+
    >[!NOTE]
    >
    >**[!UICONTROL Error processing]** betreft fouten met betrekking tot waarden in het geïmporteerde bestand. Een onjuist gegevenstype is bijvoorbeeld aangetroffen (&quot;vier&quot; in letters voor een kolom &quot;Geheel getal&quot;), een tekenreeks die meer tekens bevat dan het toegestane maximum, een datum met onjuiste scheidingstekens, enz. Deze optie heeft echter geen betrekking op fouten die worden gegenereerd door leeg waardebeheer.
