@@ -16,33 +16,33 @@ translation-type: tm+mt
 source-git-commit: 395791e69d0c4c8a888829539338e338387294de
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 0%
+ht-degree: 93%
 
 ---
 
 
 # Lijst met rollen{#list-of-roles}
 
-Adobe Campaign biedt standaard een set rollen waarmee u eenheidmachtigingen kunt definiëren die zijn toegewezen aan gebruikers en gebruikersgroepen.
+Standaard biedt Adobe Campaign een aantal rollen waarmee u unitaire machtigingen kunt definiëren die zijn toegewezen aan gebruikers en gebruikersgroepen.
 
-In combinatie met organisatorische eenheden, geven de rollen gebruikers een gefilterde mening van de interface en bepalen hun toegang tot de verschillende eigenschappen.
+In combinatie met bedrijfseenheden geven rollen gebruikers een gefilterde weergave van de interface en bepalen deze de toegang van gebruikers tot de verschillende functies.
 
-Raadpleeg voor meer informatie de tabel [](/help/administration/using/assets/acs_rights.pdf)Rollen en machtigingen, waarin de functies worden beschreven die beschikbaar zijn in de interface, afhankelijk van de geselecteerde machtigingen.
+Raadpleeg voor meer informatie de tabel [Rollen en machtigingen](/help/administration/using/assets/acs_rights.pdf), waarin de functies worden beschreven die beschikbaar zijn in de interface, afhankelijk van de geselecteerde machtigingen.
 
 [![image](assets/user_management_3.png)](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
 
-Rollen kunnen worden beheerd vanuit het **[!UICONTROL Administration > Users & Security > Roles]** menu.
+Rollen kunnen worden beheerd vanuit het menu **[!UICONTROL Administration > Users & Security > Roles]**.
 
 Standaardrechten zijn:
 
-* **[!UICONTROL Administration]**: Algemeen bestuursrecht.
-* **[!UICONTROL Datamodel]**: Recht om publicaties te leiden en douanemiddelen tot stand te brengen.
-* **[!UICONTROL Generic import]**: Recht om generische invoer op gegevens in werking te stellen. Dit werkt alleen als u de **[!UICONTROL Generic import]** rol aan de **[!UICONTROL Workflow]** rol koppelt.
+* **[!UICONTROL Administration]**: Algemene beheerrechten.
+* **[!UICONTROL Datamodel]**: Recht om publicaties uit te voeren en aangepaste bronnen te maken.
+* **[!UICONTROL Generic import]**: Recht om een generieke import op data uit te voeren. Dit werkt alleen als u de rol **[!UICONTROL Generic import]** aan de rol **[!UICONTROL Workflow]** koppelt.
 * **[!UICONTROL Prepare deliveries]**: Recht om leveringen te maken, te wijzigen, voor te bereiden en te verwijderen. Gebruikers met deze rol kunnen de levering voorbereiden, maar niet verzenden.
 * **[!UICONTROL Start deliveries]**: Recht om leveringen te maken, te wijzigen, voor te bereiden, te verzenden en te verwijderen.
 * **[!UICONTROL Workflow]**: Recht om de uitvoering van workflows te beheren (starten, stoppen, pauzeren, enz.). Gebruikers met deze rol kunnen zelfs in een workflow geen levering verzenden.
 
 **Verwante onderwerpen:**
 
-* [Over toegangsbeheer](../../administration/using/about-access-management.md)
+* [Toegangsbeheer](../../administration/using/about-access-management.md)
 * [Groepen en gebruikers beheren](../../administration/using/managing-groups-and-users.md)
