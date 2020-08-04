@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 3bd2fdb56fc94cef4e9c21466a33cdad7ac825d2
 workflow-type: tm+mt
 source-wordcount: '1754'
-ht-degree: 0%
+ht-degree: 94%
 
 ---
 
@@ -24,155 +24,155 @@ ht-degree: 0%
 
 ![](assets/wf_externalAPI.png)
 
-De **[!UICONTROL External API]** activiteit brengt gegevens in het werkschema van een **extern systeem** via een **HTTP API** vraag.
+De activiteit **[!UICONTROL External API]** brengt data vanaf een **extern systeem** in de workflow via een **HTTP API**-aanroep.
 
-De eindpunten van het externe systeem kunnen openbare API eindpunten, klantenbeheersystemen, of serverloze toepassingsinstanties (b.v., Runtime [van](https://www.adobe.io/apis/experienceplatform/runtime.html)Adobe I/O) zijn, om een paar categorieën te noemen.
+De eindpunten van het externe systeem kunnen openbare API-eindpunten, klantenbeheersystemen of serverloze applicatie-instanties (bijvoorbeeld [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html)) zijn, om maar een paar categorieën te noemen.
 
 >[!NOTE]
 >
->Om veiligheidsredenen wordt het gebruik van JSSP&#39;s niet ondersteund in Campaign Standard. Als u code moet uitvoeren, kunt u een Adobe I/O Runtime instantie via de Externe API activiteit roepen.
+>Om veiligheidsredenen wordt het gebruik van JSSP&#39;s niet ondersteund in Campaign Standard. Als u code moet uitvoeren, kunt u een Adobe I/O Runtime-instantie aanroepen via de activiteit Externe API.
 
 De belangrijkste kenmerken van deze activiteit zijn:
 
-* Mogelijkheid om gegevens in een JSON-indeling door te geven aan een ander REST API-eindpunt
-* Mogelijkheid om een JSON-reactie terug te ontvangen, deze toe te wijzen aan uitvoertabellen en stroomafwaarts door te geven aan andere workflowactiviteiten.
-* Het beheer van de mislukking met een uitgaande specifieke overgang
+* Mogelijkheid om data in een JSON-indeling door te geven aan een REST API-eindpunt van derden
+* Mogelijkheid om een JSON-antwoord terug te krijgen, het toe te wijzen aan uitvoertabellen en stroomafwaarts door te geven aan andere workflowactiviteiten.
+* Het beheer van mislukkingen met een specifieke uitgaande overgang
 
 ### Overgang van bèta naar GA {#from-beta-to-ga}
 
-Met de Campaign Standard 20.3-release is de externe API-functionaliteit verplaatst van bèta naar algemene beschikbaarheid (GA).
+Met de Campaign Standard 20.3-release is de functionaliteit Externe API van bèta naar algemene beschikbaarheid (GA) verplaatst.
 
 >[!CAUTION]
 >
->Dientengevolge, als u beta Externe API activiteiten gebruikte, moet u hen met GA Externe API activiteiten in alle werkschema&#39;s vervangen.  Workflows die de bètaversie van de externe API gebruiken, werken niet meer vanaf de release 20.3.
+>Daardoor moet u, als u bèta-activiteiten voor Externe API gebruikte, deze vervangen door GA-activiteiten voor Externe API in alle workflows.  Workflows die de bètaversie van Externe API gebruiken, werken niet meer vanaf versie 20.3.
 
-Wanneer u externe API-activiteiten vervangt, voegt u de nieuwe externe API-activiteit toe aan de workflow, kopieert u handmatig over de configuratiedetails en verwijdert u vervolgens de oude activiteit.
+Wanneer u activiteiten voor Externe API vervangt, voegt u de nieuwe activiteit Externe API toe aan de workflow, kopieert u handmatig de configuratiedetails en verwijdert u vervolgens de oude activiteit.
 
 >[!NOTE]
 >
->U kunt niet over koptekstwaarden kopiëren omdat deze binnen de activiteit gemaskeerd zijn.
+>U kunt geen koptekstwaarden kopiëren omdat deze binnen de activiteit gemaskeerd zijn.
 
-Vervolgens configureert u andere activiteiten in de workflow opnieuw, waarbij gegevens uit de API-activiteit van de bètaversie External worden aangeroepen en/of gebruikt om gegevens uit de nieuwe externe API-activiteit aan te wijzen en/of te gebruiken. Voorbeelden van activiteiten: e-maillevering (personalisatievelden), verrijkingsactiviteiten, enz.
+Vervolgens configureert u opnieuw andere activiteiten in de workflow die verwijzen naar en/of gebruik maken van data uit de bèta-activiteit voor Externe API om in plaats daarvan te verwijzen naar en/of gebruik te maken van data uit de nieuwe activiteit Externe API. Voorbeelden van activiteiten: e-maillevering (personalisatievelden), verrijkingsactiviteit, enz.
 
-### Beperkingen en geleiders {#guardrails}
+### Beperkingen en beveiligingen {#guardrails}
 
 Op deze activiteit zijn de volgende instructies van toepassing:
 
 * 50 MB http response data size limit (5 MB aanbevolen)
-* Verzoek time-out is 10 minuten
+* Time-out voor aanvraag bedraagt 10 minuten
 * HTTP-omleidingen zijn niet toegestaan
 * Niet-HTTPS-URL&#39;s worden geweigerd
-* &quot;Accepteren: application/json&quot;-aanvraagheader en &quot;Content-Type: application/json&quot;-responsheader is toegestaan
+* Aanvraagheader ‘Accept: application/json’ en antwoordheader ‘Content-Type: application/json’ zijn toegestaan
 
 >[!NOTE]
 >
 >Vanaf de release van Campagne 20.4 worden de beperking voor de grootte van de http-responsgegevens en de time-outinstructies voor de respons verlaagd naar respectievelijk 5 MB en 1 minuut.  Hoewel deze wijziging alleen van invloed is op nieuwe externe API-activiteiten, wordt ten zeerste aanbevolen de huidige implementaties van de externe API-activiteit af te stemmen op deze nieuwe instructies om de best practices te volgen.
 
-Voor de JSON zijn specifieke voorzorgsmaatregelen getroffen:
+Voor JSON zijn specifieke beveiligingen ingevoerd:
 
-* **Max. diepte** van JSON: Beperk de maximumdiepte van een aangepaste geneste JSON die kan worden verwerkt tot 10 niveaus.
-* **Max. keylengte** JSON: de maximumlengte van de gegenereerde interne sleutel beperken tot 255. Deze sleutel is gekoppeld aan de kolom-id.
-* **JSON Max. aantal dubbele toetsen toegestaan**:  Beperk het maximumaantal dubbele JSON bezitsnamen, die als kolom ID worden gebruikt, tot 150.
+* **JSON Max Depth**: Beperk de maximumdiepte van een aangepaste geneste JSON die kan worden verwerkt tot 10 niveaus.
+* **JSON Max Key Length**: Beperk de maximumlengte van de gegenereerde interne sleutel tot 255. Deze sleutel is gekoppeld aan de kolom-id.
+* **JSON Max Duplicate Keys Allowed**: Beperk het maximumaantal dubbele JSON-eigenschapsnamen, die als kolom-id worden gebruikt, tot 150.
 
-De JSON-structuur wordt niet ondersteund als:
+De activiteit ondersteunt de JSON-structuur niet als:
 
-* Arrayobject combineren met andere niet-arrayelementen
-* JSON-arrayobject is genest binnen een of meer tussenliggende arrayobjecten.
+* Een matrixobject wordt gecombineerd met andere niet-matrixelementen
+* Een JSON-matrixobject is genest binnen een of meer tussenliggende matrixobjecten.
 
 >[!CAUTION]
 >
->De externe API-activiteit is bedoeld voor het ophalen van gegevens voor de hele campagne (laatste reeks aanbiedingen, laatste scores, enz.), niet voor het ophalen van specifieke informatie voor elk profiel, omdat dit kan leiden tot de overdracht van grote hoeveelheden gegevens. Als het gebruiksgeval dit vereist, is de aanbeveling om de activiteit van het Dossier [van de](../../automating/using/transfer-file.md) Overdracht te gebruiken.
+>De externe API-activiteit is bedoeld voor het ophalen van gegevens voor de hele campagne (laatste reeks aanbiedingen, laatste scores, enz.), niet voor het ophalen van specifieke informatie voor elk profiel, omdat dit kan leiden tot de overdracht van grote hoeveelheden gegevens. Als het gebruiksscenario dit vereist, wordt aangeraden om de activiteit [Transfer File](../../automating/using/transfer-file.md) te gebruiken.
 
 ## Configuratie {#configuration}
 
-Sleep en zet een **[!UICONTROL External API]** activiteit neer in uw werkschema en open de activiteit om de configuratie te beginnen.
+Sleep een activiteit **[!UICONTROL External API]** en zet deze neer in uw workflow en open de activiteit om de configuratie te beginnen.
 
-### Binnenkomende toewijzing
+### Inbound Mapping
 
-De binnenkomende afbeelding is een tijdelijke lijst die door een vorige binnenkomende activiteit wordt geproduceerd die als JSON in UI zal worden getoond en worden verzonden.
-Gebaseerd op deze tijdelijke lijst, kan de gebruiker wijziging aan binnenkomende gegevens aanbrengen.
+Inbound mapping is een tijdelijke tabel die door een vorige binnenkomende activiteit wordt gegenereerd en die als JSON in de gebruikersinterface wordt weergegeven en verzonden.
+Op basis van deze tijdelijke tabel kan de gebruiker wijzigingen in binnenkomende data aanbrengen.
 
 ![](assets/externalAPI-inbound.png)
 
-Het **Binnenkomende middeldrop** laat u de vraagactiviteit selecteren die tot de tijdelijke lijst zal leiden.
+Met de vervolgkeuzelijst **Inbound resource** kunt u de activiteit Query selecteren waardoor de tijdelijke tabel zal worden gemaakt.
 
-Met het selectievakje **Telparameter** toevoegen wordt een telwaarde toegevoegd voor elke rij die uit de tijdelijke tabel komt. Merk op dat dit checkbox slechts beschikbaar is als de binnenkomende activiteit een tijdelijke lijst produceert.
+Met het selectievakje **Add count parameter** wordt een telwaarde toegevoegd voor elke rij die uit de tijdelijke tabel komt. Merk op dat dit selectievakje alleen beschikbaar is als de binnenkomende activiteit een tijdelijke tabel genereert.
 
-Met de sectie **Binnenkomende kolommen** kan de gebruiker alle velden uit de binnenkomende overgangstabel toevoegen. De geselecteerde kolom(men) zijn de sleutels in het gegevensobject. Het gegevensobject in de JSON wordt een arraylijst met gegevens voor geselecteerde kolommen uit elke rij van de binnenkomende overgangstabel.
+Met de sectie **Inbound Columns** kan de gebruiker willekeurige velden uit de tabel met binnenkomende overgangen toevoegen. De geselecteerde kolommen fungeren als de sleutels in het dataobject. Het dataobject in de JSON wordt een matrixlijst met data voor geselecteerde kolommen uit elke rij van de tabel met binnenkomende overgangen.
 
-In het tekstvak parametertekst **** aanpassen kunt u een geldige JSON toevoegen met aanvullende gegevens die nodig zijn voor de externe API. Deze aanvullende gegevens worden toegevoegd aan het paramideobject in de gegenereerde JSON.
+In het tekstvak **Customize parameter** kunt u een geldige JSON toevoegen met aanvullende data die nodig zijn voor de externe API. Deze aanvullende data worden toegevoegd aan het parameterobject in de gegenereerde JSON.
 
-### Uitgaande toewijzing
+### Outbound Mapping
 
-Op dit tabblad kunt u de voorbeeld- **JSON-structuur** definiëren die door de API-aanroep wordt geretourneerd.
+Op dit tabblad kunt u de **JSON-voorbeeldstructuur** definiëren die door de API-aanroep wordt geretourneerd.
 
 ![](assets/externalAPI-outbound.png)
 
-De JSON-parser is ontworpen voor standaard JSON-structuurpatroontypen, met enkele uitzonderingen. Een voorbeeld van een standaardpatroon is:`{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
+De JSON-parser is ontworpen voor standaard typen JSON-structuurpatronen, met enkele uitzonderingen. Een voorbeeld van een standaard patroon is:`{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
 
 De JSON-voorbeelddefinitie moet de **volgende kenmerken** hebben:
 
-* **Array-elementen** moeten eigenschappen op het eerste niveau bevatten (diepere niveaus worden niet ondersteund).
-   **Namen** van eigenschappen worden uiteindelijk kolomnamen voor het uitvoerschema van de tijdelijke uitvoertabel.
-* **JSON-elementen** die moeten worden vastgelegd, moeten binnen de JSON-respons maximaal 10 nestniveaus hebben.
-* **De kolomnaamdefinitie** is gebaseerd op het eerste element van de array &#39;data&#39;.
-De definitie van kolommen (toevoegen/verwijderen) en de typewaarde van het bezit kunnen in de de definitietabel **van de** Kolom worden uitgegeven.
+* **Matrixelementen** moeten eigenschappen op het eerste niveau bevatten (diepere niveaus worden niet ondersteund).
+   **Eigenschapsnamen** worden uiteindelijk de kolomnamen voor het uitvoerschema van de tijdelijke uitvoertabel.
+* **JSON-elementen** die moeten worden vastgelegd, moeten zich binnen de eerste 10 nestniveaus van het JSON-antwoord bevinden.
+* **De kolomnaamdefinitie** is gebaseerd op het eerste element van de ‘data’-matrix.
+De definitie van kolommen (toevoegen/verwijderen) en de typewaarde van de eigenschap kunnen in het tabblad **Column definition** worden bewerkt.
 
-**Gedrag van selectievakje** Afvlakken:
+Gedrag van het selectievakje **Flatten**:
 
-Selectievakje Afvlakken (standaard: (niet ingeschakeld) wordt opgegeven om aan te geven of de JSON al dan niet moet worden afgevlakt op een sleutel-/waardeoverzicht.
+Het selectievakje Flatten (standaard niet ingeschakeld) wordt opgegeven om aan te geven of de JSON al dan niet moet worden afgevlakt tot een sleutel-/waardetoewijzing.
 
-* Wanneer het **selectievakje is uitgeschakeld** (uitgeschakeld), wordt het voorbeeld-JSON geparseerd om naar een matrixobject te zoeken. De gebruiker moet een bijgesneden versie van de JSON-voorbeeldindeling voor API-reacties opgeven, zodat Adobe Campaign precies kan bepalen in welke array de gebruiker geïnteresseerd is. Tijdens het ontwerpen van de workflow wordt het pad naar het geneste arrayobject bepaald en opgenomen, zodat het tijdens de uitvoering kan worden gebruikt om toegang te krijgen tot dat matrixobject van de JSON-responsinstantie die van de API-aanroep is ontvangen.
+* Wanneer het **selectievakje is uitgeschakeld** (niet geselecteerd), wordt de voorbeeld-JSON geparseerd om naar een matrixobject te zoeken. De gebruiker moet een bijgesneden versie van de JSON-voorbeeldindeling voor API-antwoorden opgeven, zodat Adobe Campaign precies kan bepalen in welke matrix de gebruiker geïnteresseerd is. Tijdens het ontwerpen van de workflow wordt het pad naar het geneste matrixobject bepaald en opgenomen, zodat het tijdens de uitvoering kan worden gebruikt om toegang te krijgen tot het matrixobject van de JSON-antwoordtekst dat van de API-aanroep is ontvangen.
 
-* Wanneer het **selectievakje is ingeschakeld** (ingeschakeld), wordt het voorbeeld-JSON afgevlakt en worden alle eigenschappen die in het opgegeven voorbeeld JSON zijn opgegeven, gebruikt om kolommen van de tijdelijke uitvoertabel te maken en weergegeven op het tabblad Kolomdefinities. Als er een arrayobject in het JSON-voorbeeld is, worden alle elementen van die arrayobjecten ook afgevlakt.
+* Wanneer het **selectievakje is ingeschakeld** (geselecteerd), wordt de voorbeeld-JSON afgevlakt en worden alle eigenschappen die in de opgegeven voorbeeld-JSON zijn gespecificeerd, gebruikt om kolommen van de tijdelijke uitvoertabel te maken en worden deze weergegeven op het tabblad Column definition. Als er een matrixobject in de voorbeeld-JSON voorkomt, worden alle elementen van die matrixobjecten ook afgevlakt.
 
 
-Als de **parsering wordt gevalideerd**, verschijnt er een bericht waarin u wordt gevraagd de gegevenstoewijzing op het tabblad &quot;Kolomdefinitie&quot; aan te passen. In andere gevallen wordt een foutbericht weergegeven.
+Als de **parsering wordt gevalideerd**, verschijnt er een bericht waarin u wordt gevraagd de datatoewijzing op het tabblad Column definition aan te passen. In andere gevallen wordt een foutbericht weergegeven.
 
-### Uitvoering
+### Execution
 
-Dit lusje laat u het Eindpunt **bepalen** HTTPS dat gegevens naar ACS zal verzenden. Indien nodig kunt u verificatiegegevens invoeren in de onderstaande velden.
+Met dit tabblad kunt u het **HTTPS-eindpunt** definiëren dat data naar ACS zal verzenden. Indien nodig kunt u verificatidata invoeren in de onderstaande velden.
 ![](assets/externalAPI-execution.png)
 
-### Eigenschappen
+### Properties
 
-Op dit tabblad kunt u **algemene eigenschappen** voor de externe API-activiteit instellen, zoals het weergegeven label in de gebruikersinterface. De interne id kan niet worden aangepast.
+Op dit tabblad kunt u **algemene eigenschappen** voor de activiteit Externe API bepalen, zoals het weergegeven label in de gebruikersinterface. De interne id kan niet worden aangepast.
 
 ![](assets/externalAPI-properties.png)
 
-### Kolomdefinitie
+### Column definition
 
 >[!NOTE]
 >
->Dit tabblad wordt weergegeven wanneer de indeling **van de** reactiegegevens is voltooid en gevalideerd op het tabblad Uitgaande toewijzing.
+>Dit tabblad wordt weergegeven wanneer de **data-indeling van het antwoord** is voltooid en gevalideerd op het tabblad Outbound Mapping.
 
-Op het tabblad **Kolomdefinitie** kunt u de gegevensstructuur van elke kolom nauwkeurig opgeven om gegevens te importeren die geen fouten bevatten en deze in overeenstemming te brengen met de typen die al aanwezig zijn in de Adobe Campaign-database voor toekomstige bewerkingen.
+Op het tabblad **Column definition** kunt u nauwkeurig de datastructuur van elke kolom opgeven om data te importeren die geen fouten bevatten en deze in overeenstemming te brengen met de typen die al aanwezig zijn in de Adobe Campaign-database voor toekomstige bewerkingen.
 
 ![](assets/externalAPI-column.png)
 
 U kunt bijvoorbeeld het label van een kolom wijzigen, het type kolom selecteren (tekenreeks, geheel getal, datum, enzovoort) of zelfs foutverwerking opgeven.
 
-Raadpleeg de sectie Bestand [](../../automating/using/load-file.md) laden voor meer informatie.
+Raadpleeg de sectie [Bestand laden](../../automating/using/load-file.md) voor meer informatie.
 
-### Overgang
+### Transition
 
-Op dit tabblad kunt u de **uitgaande overgang** en het label ervan activeren. Deze specifieke overgang is nuttig in het geval van **onderbreking** of als de lading de grens **van de** gegevensgrootte overschrijdt.
+Op dit tabblad kunt u de **uitgaande overgang** en het label ervan activeren. Deze specifieke overgang is nuttig in het geval van **time-outs** of als de payload de **groottelimiet van data** overschrijdt.
 
 ![](assets/externalAPI-transition.png)
 
-### Uitvoeropties
+### Execution options
 
-Dit tabblad is beschikbaar voor de meeste workflowactiviteiten. Raadpleeg de sectie [Activiteiteneigenschappen](../../automating/using/activity-properties.md) voor meer informatie.
+Dit tabblad is beschikbaar voor de meeste workflowactiviteiten. Raadpleeg de sectie [Activiteitseigenschappen](../../automating/using/activity-properties.md) voor meer informatie.
 
 ![](assets/externalAPI-options.png)
 
 ## Problemen oplossen
 
-Er zijn twee soorten logboekberichten die aan deze nieuwe werkschemaactiviteit worden toegevoegd: informatie en fouten. Ze kunnen u helpen potentiële problemen op te lossen.
+Er zijn twee soorten logboekberichten die aan deze nieuwe workflowactiviteit worden toegevoegd: informatie en fouten. Ze kunnen u helpen potentiële problemen op te lossen.
 
 ### Informatie
 
-Deze logboekberichten worden gebruikt om informatie over nuttige controlepunten tijdens de uitvoering van de werkschemaactiviteit te registreren. Specifiek, worden de volgende logboekberichten gebruikt om de eerste poging evenals een nieuwe poging (en reden voor mislukking van eerste poging) te registreren om tot API toegang te hebben.
+Deze logboekberichten worden gebruikt om informatie over nuttige controlepunten tijdens de uitvoering van de workflowactiviteit in een logboek te registreren. Specifiek worden de volgende logboekberichten gebruikt om de eerste poging om toegang tot de API te krijgen evenals een nieuwe poging (en de reden voor mislukking van de eerste poging) in een logboek te registreren.
 
 <table> 
  <thead> 
@@ -183,88 +183,88 @@ Deze logboekberichten worden gebruikt om informatie over nuttige controlepunten 
  </thead> 
  <tbody> 
   <tr> 
-   <td> API-URL '%s' aanroepen.</td> 
-   <td> <p>API-URL 'https://example.com/api/v1/web-coupon?count=2' aanroepen.</p></td> 
+   <td> Invoking API URL '%s'.</td> 
+   <td> <p>Invoking API URL 'https://example.com/api/v1/web-coupon?count=2'.</p></td> 
   </tr> 
   <tr> 
-   <td> API-URL '%s' opnieuw proberen, vorige poging mislukt ('%s').</td> 
-   <td> <p>Opnieuw proberen van API URL 'https://example.com/api/v1/web-coupon?count=2', vorige poging mislukt ('HTTP - 401').</p></td>
+   <td> Retrying API URL '%s', previous attempt failed ('%s').</td> 
+   <td> <p>Retrying API URL 'https://example.com/api/v1/web-coupon?count=2', previous attempt failed ('HTTP - 401').</p></td>
   </tr> 
   <tr> 
-   <td> Inhoud overbrengen van '%s' (%s / %s).</td> 
-   <td> <p>Inhoud overbrengen van 'https://example.com/api/v1/web-coupon?count=2' (1234 / 1234).</p></td> 
+   <td> Transferring content from '%s' (%s / %s).</td> 
+   <td> <p>Transferring content from 'https://example.com/api/v1/web-coupon?count=2' (1234 / 1234).</p></td> 
   </tr>
  </tbody> 
 </table>
 
 ### Fouten
 
-Deze logboekberichten worden gebruikt om informatie over onverwachte foutenvoorwaarden te registreren, die de werkschemaactiviteit kunnen uiteindelijk veroorzaken om te ontbreken.
+Deze logboekberichten worden gebruikt om informatie in een logboek te registreren over onverwachte fouten die ertoe kunnen leiden dat de workflowactiviteit mislukt.
 
 <table> 
  <thead> 
   <tr> 
-   <th> Code - Berichtenopmaak<br /> </th> 
+   <th> Code - Berichtindeling<br /> </th> 
    <th> Voorbeeld<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> WKF-560250 - De limiet voor de body van de API-aanvraag is overschreden (limiet: '%d').</td> 
-   <td> <p>Hoofdtekst van API-verzoek is overschreden (limiet: "5242880").</p></td> 
+   <td> WKF-560250 - API request body exceeded limit (limit: '%d').</td> 
+   <td> <p>API request body exceeded limit (limit: '5242880').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560239 - API-respons overschrijdt limiet (limiet: '%d').</td> 
-   <td> <p>Limiet voor API-reactie overschreden (limiet: 5242880").</p></td> 
+   <td> WKF-560239 -  API response exceeded limit (limit: '%d').</td> 
+   <td> <p>API response exceeded limit (limit: 5242880').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560245 - API-URL kan niet worden geparseerd (fout: '%d').</td> 
-   <td> <p>API-URL kan niet worden geparseerd (fout: "-2010").</p>
-   <p> Opmerking: Deze fout wordt geregistreerd wanneer API URL bevestigingsregels ontbreekt.</p></td>
+   <td> WKF-560245 - API URL could not be parsed (error: '%d').</td> 
+   <td> <p>API URL could not be parsed (error: '-2010').</p>
+   <p> Opmerking: Deze fout wordt in een logboek geregistreerd wanneer validatieregels mislukken voor de API URL.</p></td>
   </tr> 
   <tr>
-   <td> WKF-560244 - de gastheer van API URL moet niet "localhost"zijn, of IP adres letterlijk (gastheer URL: '%s').</td> 
-   <td> <p>API URL-host mag geen 'localhost' of letterlijk IP-adres (URL-host: "localhost").</p>
-    <p>API URL-host mag geen 'localhost' of letterlijk IP-adres (URL-host: "192.168.0.5").</p>
-    <p>API URL-host mag geen 'localhost' of letterlijk IP-adres (URL-host: "[2001]").</p></td>
+   <td> WKF-560244 - API URL host must not be 'localhost', or IP address literal (URL host: '%s').</td> 
+   <td> <p>API URL host must not be 'localhost', or IP address literal (URL host: 'localhost').</p>
+    <p>API URL host must not be 'localhost', or IP address literal (URL host: '192.168.0.5').</p>
+    <p>API URL host must not be 'localhost', or IP address literal (URL host: '[2001]').</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560238 - API URL moet een veilige URL (https) zijn (gevraagde URL: '%s').</td> 
-   <td> <p>API-URL moet een beveiligde URL (https) zijn (aangevraagde URL: "https://example.com/api/v1/web-coupon?count=2').</p></td> 
+   <td> WKF-560238 - API URL must be a secure URL (https) (requested URL: '%s').</td> 
+   <td> <p>API URL must be a secure URL (https) (requested URL: 'https://example.com/api/v1/web-coupon?count=2').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560249 - Kan aanvraagbody JSON niet maken. Fout bij het toevoegen van '%s'.</td> 
-   <td> <p>Failed to create request body JSON. Fout bij het toevoegen van 'params'.</p>
-    <p>Failed to create request body JSON. Fout bij het toevoegen van 'data'.</p></td>
+   <td> WKF-560249 - Failed to create request body JSON. Error when adding '%s'.</td> 
+   <td> <p>Failed to create request body JSON. Error when adding 'params'.</p>
+    <p>Failed to create request body JSON. Error when adding 'data'.</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560246 - HTTP-headersleutel is ongeldig (headersleutel: '%s').</td> 
-   <td> <p>HTTP-headersleutel is ongeldig (headersleutel: '%s').</p>
-   <p> Opmerking: Deze fout wordt geregistreerd als de aangepaste headersleutel niet kan worden gevalideerd volgens <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
+   <td> WKF-560246 - HTTP header key is bad (header key: '%s').</td> 
+   <td> <p>HTTP header key is bad (header key: '%s').</p>
+   <p> Opmerking: Deze fout wordt in een logboek geregistreerd wanneer de aangepaste koptekstsleutel niet kan worden gevalideerd volgens <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr>
  <tr> 
-   <td> WKF-560248 - HTTP-headersleutel is niet toegestaan (headersleutel: '%s').</td> 
-   <td> <p>HTTP-headersleutel is niet toegestaan (headersleutel: "Accepteren").</p></td> 
+   <td> WKF-560248 - HTTP header key is not allowed (header key: '%s').</td> 
+   <td> <p>HTTP header key is not allowed (header key: 'Accept').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - AHTTP-headerwaarde is ongeldig (headerwaarde: '%s').</td> 
-   <td> <p>HTTP-headerwaarde is ongeldig (headerwaarde: '%s'). </p>
-    <p>Opmerking: Deze fout wordt geregistreerd als de aangepaste headerwaarde niet kan worden gevalideerd volgens <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
+   <td> WKF-560247 -  AHTTP header value is bad (header value: '%s').</td> 
+   <td> <p>HTTP header value is bad (header value: '%s'). </p>
+    <p>Opmerking: Deze fout wordt in een logboek geregistreerd wanneer de aangepaste koptekstwaarde niet kan worden gevalideerd volgens <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560240 - JSON-payload heeft ongeldige eigenschap '%s'.</td> 
-   <td> <p>JSON payload heeft ongeldige eigenschap 'blah'.</p></td>
+   <td> WKF-560240 - JSON payload has bad property '%s'.</td> 
+   <td> <p>JSON payload has bad property 'blah'.</p></td>
   </tr> 
   <tr>
-   <td> WKF-560241 - Onjuist gevormde JSON of onacceptabel formaat.</td> 
+   <td> WKF-560241 - Malformed JSON or unacceptable format.</td> 
    <td> <p>Onjuiste JSON of onaanvaardbare indeling.</p>
-   <p>Opmerking: Dit bericht is alleen van toepassing op het parseren van de responsstructuur van de externe API en wordt vastgelegd wanneer wordt geprobeerd te valideren of de responsstructuur voldoet aan de JSON-indeling die is ingesteld door deze activiteit.</p></td>
+   <p>Opmerking: Dit bericht is alleen van toepassing op het parseren van de antwoordtekst van de externe API en wordt in een logboek geregistreerd bij een poging te valideren of de antwoordtekst voldoet aan de JSON-indeling die wordt voorgeschreven door deze activiteit.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560246 - De activiteit is mislukt (reden: '%s').</td> 
-   <td> <p>Wanneer de activiteit wegens de foutenreactie van HTTP 401 ontbreekt - de Activiteit ontbrak (reden: 'HTTP - 401')</p>
-        <p>Wanneer de activiteit wegens een ontbroken interne vraag ontbreekt - de Activiteit ontbrak (reden: 'iRc - -Nn').</p>
-        <p>Wanneer de activiteit wegens een ongeldige inhoud-Type kopbal ontbreekt. - Activiteit mislukt (reden: 'Content-Type - application/html').</p></td> 
+   <td> WKF-560246 - Activity failed (reason: '%s').</td> 
+   <td> <p>When activity fails due to HTTP 401 error response - Activity failed (reason: 'HTTP - 401')</p>
+        <p>When activity fails due to a failed internal call - Activity failed (reason: 'iRc - -Nn').</p>
+        <p>When activity fails due to an invalid Content-Type header. - Activity failed (reason: 'Content-Type - application/html').</p></td> 
   </tr>
  </tbody> 
 </table>
