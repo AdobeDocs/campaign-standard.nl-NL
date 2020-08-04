@@ -12,53 +12,56 @@ discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
+workflow-type: ht
+source-wordcount: '308'
+ht-degree: 100%
 
 ---
 
 
 # Typologieën beheren {#managing-typologies}
 
-## Over typologieën {#about-typologies}
+## Typologieën {#about-typologies}
 
-Typologieën zijn reeksen regels die u toestaan om de geldigheid van uw bericht te controleren alvorens het te verzenden. Bijvoorbeeld: De inhoud van het bericht is niet leeg, er is geen abonnement, er zijn geen duplicaten beschikbaar, enzovoort.
+Typologieën zijn reeksen regels waarmee u de geldigheid van uw bericht kunt controleren alvorens het te verzenden. Bijvoorbeeld: de content van het bericht is niet leeg, er is een uitschrijving, uitsluiting van duplicaten enzovoort.
 
-Typologieën zijn toegankelijk via het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** . Standaard is er een standaardtypologie beschikbaar in de toepassing. Gebaseerd op uw behoeften, kunt u uw eigen typologieën tot stand brengen of bestaande degenen wijzigen.
+Typologieën zijn toegankelijk via het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]**. Standaard is er een standaardtypologie beschikbaar in de applicatie. Op basis van uw behoeften kunt u uw eigen typologieën maken of bestaande typologieën wijzigen.
 
 ![](assets/typologies-list.png)
 
-Voor elke typologie wordt in de **[!UICONTROL Typology rules]** sectie een lijst weergegeven met regels die worden uitgevoerd wanneer de typologie met een bericht wordt gebruikt.
+Voor elke typologie bevat de sectie **[!UICONTROL Typology rules]** de lijst met regels die worden uitgevoerd wanneer de typologie met een bericht wordt gebruikt.
 
 ![](assets/typology_typo-rule-list.png)
 
 >[!NOTE]
 >
->Als u meer details wilt over een van de typologische regels, dubbelklikt u erop. De regel wordt alleen-lezen weergegeven.
+>Als u meer details over een van de typologieregels wilt weergeven, dubbelklikt u erop. De regel wordt in de modus Alleen-lezen weergegeven.
 
-## Typologie maken {#creating-a-typology}
+## Een typologie maken {#creating-a-typology}
 
 Voer de volgende stappen uit om een nieuwe typologie te maken:
 
-1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** .
+1. Open het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]**.
 
-1. De lijst met typologieën wordt weergegeven. Klik op de **[!UICONTROL Create]** knop.
+1. De lijst met typologieën wordt weergegeven. Klik op de knop **[!UICONTROL Create]**.
 
    ![](assets/typologies-create.png)
 
-1. Definieer de typologie **[!UICONTROL Label]** en klik vervolgens op de **[!UICONTROL Add an element]** knop om de typologische regels te selecteren die u in de typologie wilt opnemen. For more on typology rules, refer to [this section](../../sending/using/managing-typology-rules.md).
+1. Definieer de typologie **[!UICONTROL Label]** en klik vervolgens op de knop **[!UICONTROL Add an element]** om de typologieregels te selecteren die u erin wilt opnemen. Raadpleeg [deze sectie](../../sending/using/managing-typology-rules.md) voor meer informatie over typologieregels.
 
    ![](assets/typology_addrules.png)
 
    >[!NOTE]
    >
-   >In het **[!UICONTROL IP affinity]** veld kunt u de affiniteiten beheren op basis van uw configuratie. Ze worden gedefinieerd in het configuratiebestand van de instantie. Neem contact op met de beheerder als u de affiniteiten wilt gebruiken.
+   >In het veld **[!UICONTROL IP affinity]** kunt u de affiniteiten beheren op basis van uw configuratie. Ze worden gedefinieerd in het configuratiebestand van de instantie. Neem contact op met de beheerder als u de affiniteiten wilt gebruiken.
 
-1. Klik **[!UICONTROL Create]** om uw selectie te bevestigen. Uw typologie kan nu worden gebruikt in berichten.
+1. Klik op **[!UICONTROL Create]** om uw selectie te bevestigen. Uw typologie kan nu worden gebruikt in berichten.
 
 ## Typologieën toepassen op berichten {#applying-typologies-to-messages}
 
-Wanneer het associëren van een typologie met een bericht of berichtmalplaatje, zullen de typologische regels inbegrepen in de typologie worden uitgevoerd om de berichtgeldigheid te controleren.
+Wanneer u een typologie aan een bericht of berichtsjabloon koppelt, worden de typologieregels die in de typologie zijn opgenomen, uitgevoerd om de berichtgeldigheid te controleren.
 
 >[!NOTE]
 >
@@ -66,7 +69,7 @@ Wanneer het associëren van een typologie met een bericht of berichtmalplaatje, 
 
 Voer de volgende stappen uit om een typologie aan een bericht te koppelen:
 
-1. Heb toegang tot de berichteigenschappen. Bericht sjablonen zijn toegankelijk via het navigatiemenu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** .
+1. Open de berichteigenschappen. Berichtsjablonen zijn toegankelijk via het navigatiemenu **[!UICONTROL Resources]** > **[!UICONTROL Templates]**.
 
 1. Selecteer in de sectie **[!UICONTROL Advanced parameters]** > **[!UICONTROL Prearation]** de typologie die u aan het bericht wilt koppelen.
 
@@ -74,4 +77,4 @@ Voer de volgende stappen uit om een typologie aan een bericht te koppelen:
 
 1. Klik op **[!UICONTROL Confirm]**.
 
-   De geselecteerde typologie is nu gekoppeld aan het bericht. Alle bijbehorende typologische regels worden uitgevoerd om de geldigheid van het bericht te controleren.
+   De geselecteerde typologie is nu gekoppeld aan het bericht. Alle bijbehorende typologieregels worden uitgevoerd om de geldigheid van het bericht te controleren.
