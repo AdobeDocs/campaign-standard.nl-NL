@@ -12,38 +12,38 @@ discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
 context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2479'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # Transactieberichten voor gebeurtenissen{#event-transactional-messages}
 
-U kunt transactiemeldingen voor gebeurtenissen verzenden die verwijzen naar een gebeurtenis. Dit type van transactieberichten bevat geen profielinformatie: het leveringsdoel wordt bepaald door de gegevens in de gebeurtenis zelf.
+U kunt doelgericht transactieberichten voor gebeurtenissen verzenden. Dit type transactieberichten bevat geen profielinformatie: het leveringsdoel wordt bepaald door de data in de gebeurtenis zelf.
 
-Nadat u een gebeurtenis hebt gemaakt en gepubliceerd (de afhandeling van het winkelwagentje, zoals wordt uitgelegd in [deze sectie](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)), wordt het bijbehorende transactiebericht automatisch gemaakt.
+Nadat u een gebeurtenis hebt gemaakt en gepubliceerd (het achterlaten van een winkelwagen, zoals wordt uitgelegd in [deze sectie](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)), wordt het bijbehorende transactiebericht automatisch gemaakt.
 
-De configuratiestappen worden voorgesteld in het [Vormen van een gebeurtenis om een transactieberichtsectie](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) te verzenden.
+De configuratiestappen worden getoond in de sectie [Een gebeurtenis configureren voor het verzenden van een transactiebericht](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
-Als de gebeurtenis het verzenden van een transactiemelding moet activeren, moet u het bericht personaliseren, het vervolgens testen en publiceren.
+Om ervoor te zorgen dat de gebeurtenis het verzenden van een transactioneel bericht activeert, moet u het bericht personaliseren en het vervolgens testen en publiceren.
 
 >[!NOTE]
 >
->Om tot transactieberichten toegang te hebben, moet u deel van de **[!UICONTROL Administrators (all units)]** veiligheidsgroep uitmaken.
+>Om toegang te hebben tot transactionele berichten moet u deel uitmaken van de beveiligingsgroep **[!UICONTROL Administrators (all units)]**.
 >
->Transactieberichten van gebeurtenissen bevatten geen profielinformatie en zijn daarom niet compatibel met vermoeidheidsregels (zelfs niet in geval van een verrijking met profielen). Zie [Vermoeidheidsregels](../../sending/using/fatigue-rules.md#choosing-the-channel).
+>Transactieberichten voor gebeurtenissen bevatten geen profielinformatie en zijn daarom niet compatibel met moeheidsregels (zelfs niet in geval van een verrijking met profielen). Zie [Moeheidsregels](../../sending/using/fatigue-rules.md#choosing-the-channel).
 
 ## Een testprofiel definiëren in een transactiebericht {#defining-a-test-profile-in-a-transactional-message}
 
-Definieer een aangepast testprofiel, waarmee u een voorbeeld van uw bericht kunt bekijken en een proefdruk kunt verzenden om het te controleren.
+Definieer een aangepast testprofiel, zodat u een voorbeeld van uw bericht kunt bekijken en een proef kunt verzenden om het te controleren.
 
 ### Een testprofiel maken in het transactiebericht {#creating-a-test-profile-within-the-transactional-----------message}
 
-1. Als u het bericht wilt openen dat u hebt gemaakt, klikt u op het **[!UICONTROL Adobe Campaign]** logo in de linkerbovenhoek en selecteert u **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Als u een door u gemaakt bericht wilt openen, klikt u op het logo **[!UICONTROL Adobe Campaign]** in de linkerbovenhoek en selecteert u **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_4.png)
 
@@ -51,31 +51,31 @@ Definieer een aangepast testprofiel, waarmee u een voorbeeld van uw bericht kunt
 
    ![](assets/message-center_test-profile.png)
 
-1. Geef de informatie die u wilt verzenden op in de JSON-indeling in de **[!UICONTROL Event data used for personalization]** sectie. Dit is de inhoud die wordt gebruikt wanneer een voorbeeld van het bericht wordt weergegeven en wanneer het testprofiel de proefdruk ontvangt.
+1. Geef de informatie die u wilt verzenden op in de JSON-indeling in de sectie **[!UICONTROL Event data used for personalization]**. Dit is de content die wordt gebruikt wanneer een voorbeeld van het bericht wordt weergegeven en wanneer het testprofiel de proef ontvangt.
 
    ![](assets/message-center_event-data.png)
 
    >[!NOTE]
    >
-   >U kunt ook de informatie over de profielentabel invoeren. Zie [De inhoud](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)van het transactiebericht verrijken.
+   >U kunt ook de informatie over de profieltabel invoeren. Zie [De content van het transactiebericht verrijken](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
 
-1. Nadat het testprofiel is gemaakt, wordt het vooraf opgegeven in het transactiebericht. Klik op het **[!UICONTROL Test profiles]** blok van het bericht om het doel van de proefdruk te controleren.
+1. Het testprofiel wordt na het maken vooraf gespecificeerd in het transactiebericht. Klik op het blok **[!UICONTROL Test profiles]** van het bericht om het doel van de proef te controleren.
 
    ![](assets/message-center_5.png)
 
 ### Een testprofiel maken buiten het transactiebericht {#creating-a-test-profile-outside-the-transactional-----------message}
 
-U kunt ook een nieuw testprofiel maken of een profiel gebruiken dat al in het **[!UICONTROL Test profiles]** menu staat.
+U kunt ook een nieuw testprofiel maken of een profiel gebruiken dat al in het menu **[!UICONTROL Test profiles]** staat.
 
-1. Klik op het **[!UICONTROL Adobe Campaign]** logo in de linkerbovenhoek en selecteer **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
-1. Selecteer in de **[!UICONTROL Event]** sectie van de pagina van het testprofiel dat u hebt gekozen de gebeurtenis die u zojuist hebt gemaakt. In dit voorbeeld selecteert u &quot;Afkapping van winkelwagentje (EVTcartAbandined)&quot;.
-1. Geef in het **[!UICONTROL Event data]** tekstvak de informatie op die u wilt verzenden in de JSON-indeling.
+1. Klik in de linkerbovenhoek op het logo **[!UICONTROL Adobe Campaign]** en selecteer **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. Selecteer de zojuist door u gemaakte gebeurtenis in de sectie **[!UICONTROL Event]** van de pagina van het door u gekozen testprofiel. In dit voorbeeld selecteert u Cart abandonment (EVTcartAbandonment).
+1. Geef in het tekstvak **[!UICONTROL Event data]** de informatie op die u in de JSON-indeling wilt verzenden.
 
    ![](assets/message-center_3.png)
 
 1. Sla uw wijzigingen op.
 
-U kunt nu het bericht openen dat u hebt gemaakt en het bijgewerkte testprofiel selecteren.
+U kunt nu het door u gemaakte bericht openen en het bijgewerkte testprofiel selecteren.
 
 **Verwante onderwerpen:**
 
@@ -84,25 +84,25 @@ U kunt nu het bericht openen dat u hebt gemaakt en het bijgewerkte testprofiel s
 
 ## Een transactiebericht aanpassen {#personalizing-a-transactional-message}
 
-Volg onderstaande stappen om een personalisatie in te stellen in een transactiebericht:
+Volg onderstaande stappen om een transactiebericht te personaliseren:
 
-1. Klik op het **[!UICONTROL Content]** blok om het onderwerp en de inhoud van uw bericht te wijzigen. In dit voorbeeld selecteert u een sjabloon met afbeeldingen en tekst. Zie [Ontwerpen met sjablonen](../../designing/using/using-reusable-content.md#designing-templates)voor meer informatie over sjablonen voor e-mailinhoud.
+1. Klik op het blok **[!UICONTROL Content]** om het onderwerp en de content van uw bericht te wijzigen. In dit voorbeeld selecteert u een sjabloon met afbeeldingen en tekst. Zie [Ontwerpen met sjablonen](../../designing/using/using-reusable-content.md#designing-templates) voor meer informatie over sjablonen voor e-mailcontent.
 
    ![](assets/message-center_6.png)
 
-1. Voeg een onderwerp toe en bewerk de inhoud van het bericht naar wens.
+1. Voeg een onderwerp toe en bewerk de content van het bericht naar wens.
 
    >[OPMERKING]
    >
-   >De koppeling naar het verlaten winkelwagentje is een koppeling naar een externe URL die de persoon omleidt naar zijn winkelwagentje. Deze parameter wordt niet beheerd in Adobe Campaign.
+   >De koppeling naar de verlaten winkelwagen is een koppeling naar een externe URL die de persoon doorstuurt naar zijn/haar winkelwagen. Deze parameter wordt niet beheerd in Adobe Campaign.
 
-1. In dit voorbeeld wilt u drie velden toevoegen die u hebt gedefinieerd toen u de gebeurtenis [](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)maakte: voornaam, laatst geraadpleegd product, totaal aantal karretjes. Om dit te doen, [neem een verpersoonlijkingsgebied](../../designing/using/personalization.md#inserting-a-personalization-field) in de berichtinhoud op.
+1. In dit voorbeeld wilt u drie velden toevoegen die u hebt gedefinieerd toen u [de gebeurtenis maakte](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message): voornaam, laatst geraadpleegde product, het totale bedrag in de winkelwagen. Neem hiervoor [een personalisatieveld](../../designing/using/personalization.md#inserting-a-personalization-field) op in de berichtcontent.
 
 1. Blader naar deze velden via **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7.png)
 
-1. Als u de inhoud van uw bericht wilt verrijken, voegt u velden toe door deze te selecteren in de tabel waaraan u de gebeurtenis hebt gekoppeld. In ons voorbeeld selecteert u het **[!UICONTROL Title (salutation)]** veld in de **[!UICONTROL Profile]** tabel via **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. Als u de content van uw bericht wilt verrijken, voegt u velden toe door deze te selecteren in de tabel waaraan u de gebeurtenis hebt gekoppeld. Selecteer in dit voorbeeld het veld **[!UICONTROL Title (salutation)]** in de tabel **[!UICONTROL Profile]** via **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -110,140 +110,140 @@ Volg onderstaande stappen om een personalisatie in te stellen in een transactieb
 
    ![](assets/message-center_8.png)
 
-1. Geef een voorvertoning van uw bericht weer door het profiel te selecteren dat u voor deze gebeurtenis hebt gedefinieerd.
+1. Bekijk een voorbeeld van uw bericht door het profiel te selecteren dat u voor deze gebeurtenis hebt gedefinieerd.
 
-   De stappen voor het voorvertonen van een bericht worden beschreven in de sectie [Voorvertoning van berichten](../../sending/using/previewing-messages.md) .
+   De stappen voor het bekijken van een voorbeeld van een bericht worden beschreven in de sectie [Berichten voorvertonen](../../sending/using/previewing-messages.md).
 
    ![](assets/message-center_9.png)
 
-   U kunt controleren of de verpersoonlijkingsvelden overeenkomen met de gegevens die zijn ingevoerd in het testprofiel. Zie Een testprofiel [definiëren in een transactiebericht](#defining-a-test-profile-in-a-transactional-message)voor meer informatie hierover.
+   U kunt controleren of de personalisatievelden overeenkomen met de data die in het testprofiel zijn ingevoerd. Zie [Een testprofiel definiëren in een transactiebericht](#defining-a-test-profile-in-a-transactional-message) voor meer informatie hierover.
 
-## Productaanbiedingen in een transactiebericht gebruiken {#using-product-listings-in-a-transactional-message}
+## Productvermeldingen gebruiken in een transactiebericht {#using-product-listings-in-a-transactional-message}
 
-U kunt productlijsten maken die verwijzen naar een of meer gegevensverzamelingen in de inhoud van een transactie-e-mail. Zo kunt u in een e-mailbericht voor het verlaten van een winkelwagentje een lijst opnemen met alle producten die zich in de winkelwagentjes bevonden toen ze uw website verlieten, met een afbeelding, de prijs en een koppeling naar elk product.
+U kunt productvermeldingen maken die verwijzen naar een of meer dataverzamelingen in de content van een transactie-e-mail. Zo kunt u in een e-mailbericht over een achtergelaten winkelwagen een lijst opnemen met alle producten die zich in de winkelwagens bevonden toen de website werd afgesloten, met een afbeelding, de prijs en een koppeling naar elk product.
 
 >[!IMPORTANT]
 >
->Aanbiedingen in producten zijn alleen beschikbaar wanneer u transactieberichten bewerkt via de [e-mailinterface van Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) .
+>Productvermeldingen zijn alleen beschikbaar wanneer u transactie-e-mails bewerkt via de interface van [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
-Volg de onderstaande stappen om een lijst met verlaten producten toe te voegen in een transactiebericht.
+Volg de onderstaande stappen om een lijst met achtergelaten producten toe te voegen aan een transactiebericht.
 
-U kunt ook een set video&#39;s bekijken waarin de stappen worden uitgelegd die nodig zijn om productlijsten te configureren in een transactie-e-mail. Zie [deze pagina](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html)voor meer informatie.
+U kunt ook een aantal video&#39;s bekijken waarin de stappen worden uitgelegd voor het configureren van productvermeldingen in een transactie-e-mail. Ga voor meer informatie naar [deze pagina](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html).
 
 >[!NOTE]
 >
->Adobe Campaign biedt geen ondersteuning voor geneste productaanbiedingen. Dit betekent dat u geen productaanbiedingen in een andere campagne kunt opnemen.
+>Adobe Campaign biedt geen ondersteuning voor geneste productvermeldingen. Dit betekent dat u geen productvermeldingen in een andere vermelding kunt opnemen.
 
-### Een productlijst definiëren {#defining-a-product-listing}
+### Een productvermelding definiëren {#defining-a-product-listing}
 
-Voordat u een productlijst kunt gebruiken in een transactiebericht, moet u op gebeurtenisniveau de lijst met producten en de velden definiëren voor elk product van de lijst die u wilt weergeven. Zie Gegevensverzamelingen [definiëren voor meer informatie](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
+Voordat u een productvermelding in een transactiebericht kunt gebruiken, moet u op gebeurtenisniveau de lijst met producten en de velden definiëren voor elk weer te geven product van de lijst. Ga voor meer informatie naar [Dataverzamelingen definiëren](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
 
-1. Klik in het transactiebericht op het **[!UICONTROL Content]** blok om de e-mailinhoud te wijzigen.
-1. Sleep een structuurcomponent naar de werkruimte. Zie [De e-mailstructuur](../../designing/using/designing-from-scratch.md#defining-the-email-structure)bewerken voor meer informatie.
+1. Klik in het transactiebericht op het blok **[!UICONTROL Content]** om de e-mailcontent te wijzigen.
+1. Sleep een structuurcomponent naar de werkruimte. Ga voor meer informatie naar [De e-mailstructuur bewerken](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-   Selecteer bijvoorbeeld een structuurcomponent met één kolom en voeg een tekstcomponent, een afbeeldingscomponent en een knopcomponent toe. Zie Fragmenten en componenten [](../../designing/using/designing-from-scratch.md#defining-the-email-structure)toevoegen voor meer informatie.
+   Selecteer bijvoorbeeld een structuurcomponent met één kolom en voeg een tekstcomponent, een afbeeldingscomponent en een knopcomponent toe. Ga voor meer informatie naar [Fragmenten en componenten toevoegen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-1. Selecteer de structuurcomponent die u net hebt gemaakt en klik op het **[!UICONTROL Enable product listing]** pictogram op de contextafhankelijke werkbalk.
+1. Selecteer de net gemaakte structuurcomponent en klik op het pictogram **[!UICONTROL Enable product listing]** op de contextgevoelige werkbalk.
 
    ![](assets/message-center_loop_create.png)
 
-   De structuurcomponent wordt gemarkeerd met een oranje kader en de **[!UICONTROL Product listing]** instellingen worden weergegeven in het linkerpalet.
+   De structuurcomponent wordt met een oranje kader gemarkeerd en de instellingen **[!UICONTROL Product listing]** worden in het linkerpalet getoond.
 
    ![](assets/message-center_loop_palette.png)
 
 1. Selecteer hoe de elementen van de verzameling worden weergegeven:
 
-   * **[!UICONTROL Row]**: horizontaal: elk element op de ene rij onder de andere.
-   * **[!UICONTROL Column]**: verticaal, dat wil zeggen elk element naast elkaar op dezelfde rij.
+   * **[!UICONTROL Row]**: horizontaal, elk element op een rij, onder elkaar.
+   * **[!UICONTROL Column]**: verticaal, dat wil zeggen alle elementen naast elkaar op dezelfde rij.
    >[!NOTE]
    >
-   >De **[!UICONTROL Column]** optie is alleen beschikbaar als u een structuurcomponent met meerdere kolommen gebruikt ( **[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** en **[!UICONTROL 4:4 column]** ). Vul bij het bewerken van de productlijst alleen de eerste kolom in: de overige kolommen worden niet in aanmerking genomen . Zie [De e-mailstructuur](../../designing/using/designing-from-scratch.md#defining-the-email-structure)bewerken voor meer informatie over het selecteren van structuurcomponenten.
+   >De optie **[!UICONTROL Column]** is alleen beschikbaar als u een structuurcomponent met meerdere kolommen gebruikt (**[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** en **[!UICONTROL 4:4 column]**). Vul bij het bewerken van de productvermelding alleen de eerste kolom in, want de andere kolommen worden buiten beschouwing gelaten. Zie [De e-mailstructuur bewerken](../../designing/using/designing-from-scratch.md#defining-the-email-structure) voor meer informatie over het selecteren van structuurcomponenten.
 
-1. Selecteer de gegevensverzameling die u hebt gemaakt toen u de gebeurtenis configureerde die betrekking had op het transactiebericht. U vindt de code onder **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** .
+1. Selecteer de dataverzameling die u hebt gemaakt toen u de gebeurtenis die betrekking had op het transactiebericht configureerde. De code kunt u vinden onder de node **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_loop_selection.png)
 
-   Zie Gegevensverzamelingen [definiëren voor meer informatie over het configureren van de gebeurtenis](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
+   Zie [Dataverzamelingen definiëren](../../administration/using/configuring-transactional-messaging.md#defining-data-collections) voor meer informatie over het configureren van de gebeurtenis.
 
-1. Gebruik de **[!UICONTROL First item]** vervolgkeuzelijst om te selecteren welk element de lijst start die in de e-mail wordt weergegeven.
+1. Gebruik de vervolgkeuzelijst **[!UICONTROL First item]** om te selecteren welk element als eerste in de lijst in de e-mail wordt vermeld.
 
-   Als u bijvoorbeeld 2 selecteert, wordt het eerste item van de verzameling niet weergegeven in de e-mail. De productaanbieding begint voor het tweede object.
+   Als u bijvoorbeeld 2 selecteert, wordt het eerste item van de verzameling niet in de e-mail weergegeven. De productvermelding begint bij het tweede item.
 
-1. Selecteer het maximumaantal items dat in de lijst moet worden weergegeven.
+1. Selecteer het maximum aantal items dat in de lijst moet worden weergegeven.
 
    >[!NOTE]
    >
-   >Als u wilt dat de elementen van de lijst verticaal ( **[!UICONTROL Column]** ) worden weergegeven, is het maximumaantal items beperkt volgens de geselecteerde structuurcomponent (2, 3 of 4 kolommen). Zie [De e-mailstructuur](../../designing/using/designing-from-scratch.md#defining-the-email-structure)bewerken voor meer informatie over het selecteren van structuurcomponenten.
+   >Als u wilt dat de elementen van de lijst verticaal (**[!UICONTROL Column]**) worden weergegeven, dan wordt het maximumaantal items beperkt volgens de geselecteerde structuurcomponent (2, 3 of 4 kolommen). Zie [De e-mailstructuur bewerken](../../designing/using/designing-from-scratch.md#defining-the-email-structure) voor meer informatie over het selecteren van structuurcomponenten.
 
-### De productlijst invullen {#populating-the-product-listing}
+### De productvermelding invullen {#populating-the-product-listing}
 
-Volg onderstaande stappen om een lijst weer te geven met producten die afkomstig zijn van de gebeurtenis die gekoppeld is aan de transactie-e-mail.
+Volg onderstaande stappen om een productvermelding van de gebeurtenis die gekoppeld is aan de transactie-e-mail weer te geven.
 
-Zie Gegevensverzamelingen [definiëren voor meer informatie over het maken van een verzameling en verwante velden tijdens het configureren van de gebeurtenis](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
+Zie [Dataverzamelingen definiëren](../../administration/using/configuring-transactional-messaging.md#defining-data-collections) voor meer informatie over het maken van een verzameling en gerelateerde velden tijdens het configureren van de gebeurtenis.
 
-1. Selecteer de afbeeldingscomponent die u hebt ingevoegd, selecteer **[!UICONTROL Enable personalization]** en klik op het potlood in het deelvenster Instellingen.
+1. Selecteer de door u ingevoegde afbeeldingscomponent, selecteer **[!UICONTROL Enable personalization]** en klik op het potlood in het deelvenster Instellingen.
 
    ![](assets/message-center_loop_image.png)
 
-1. Selecteer **[!UICONTROL Add personalization field]** in het **[!UICONTROL Image source URL]** venster dat opent.
+1. Selecteer **[!UICONTROL Add personalization field]** in het venster **[!UICONTROL Image source URL]** dat verschijnt.
 
-   Open in het knooppunt **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** het knooppunt dat overeenkomt met de verzameling die u hebt gemaakt (hier **[!UICONTROL Product list]** ) en selecteer het afbeeldingsveld dat u hebt gedefinieerd (hier **[!UICONTROL Product image]** ). Klik op **[!UICONTROL Save]**.
+   Open in de node **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** de node die overeenkomt met de door u gemaakte verzameling (hier **[!UICONTROL Product list]**) en selecteer het door u gedefinieerde afbeeldingsveld (hier **[!UICONTROL Product image]**). Klik op **[!UICONTROL Save]**.
 
    ![](assets/message-center_loop_product-image.png)
 
-   Het door u geselecteerde aanpassingsveld wordt nu weergegeven in het deelvenster Instellingen.
+   Het door u geselecteerde personalisatieveld wordt nu weergegeven in het deelvenster Instellingen.
 
-1. Selecteer op de gewenste positie op de contextafhankelijke werkbalk. **[!UICONTROL Insert personalization field]**
+1. Op de gewenste positie selecteert u **[!UICONTROL Insert personalization field]** op de contextgevoelige werkbalk.
 
    ![](assets/message-center_loop_product.png)
 
-1. Open in het knooppunt **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** het knooppunt dat overeenkomt met de verzameling die u hebt gemaakt (hier **[!UICONTROL Product list]** ) en selecteer het veld dat u hebt gemaakt (hier **[!UICONTROL Product name]** ). Klik op **[!UICONTROL Confirm]**.
+1. Open in de node **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** de node die overeenkomt met de door u gemaakte verzameling (hier **[!UICONTROL Product list]**) en selecteer het door u gemaakte veld (hier **[!UICONTROL Product name]**). Klik op **[!UICONTROL Confirm]**.
 
    ![](assets/message-center_loop_product_node.png)
 
-   Het door u geselecteerde aanpassingsveld wordt nu op de gewenste positie weergegeven in de e-mailinhoud.
+   Het door u geselecteerde personalisatieveld wordt nu op de gewenste positie in de e-mailcontent weergegeven.
 
 1. Ga op dezelfde manier te werk om de prijs in te voegen.
-1. Selecteer tekst en selecteer tekst op de contextafhankelijke werkbalk. **[!UICONTROL Insert link]**
+1. Selecteer eerst wat tekst en selecteer vervolgens **[!UICONTROL Insert link]** op de contextgevoelige werkbalk.
 
    ![](assets/message-center_loop_link_insert.png)
 
-1. Selecteer **[!UICONTROL Add personalization field]** in het **[!UICONTROL Insert link]** venster dat opent.
+1. Selecteer **[!UICONTROL Add personalization field]** in het venster **[!UICONTROL Insert link]** dat verschijnt.
 
-   Open in het knooppunt **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** het knooppunt dat overeenkomt met de verzameling die u hebt gemaakt (hier **[!UICONTROL Product list]** ) en selecteer het URL-veld dat u hebt gemaakt (hier **[!UICONTROL Product URL]** ). Klik op **[!UICONTROL Save]**.
+   Open in de node **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** de node die overeenkomt met de door u gemaakte verzameling (hier **[!UICONTROL Product list]**) en selecteer het door u gemaakte URL-veld (hier **[!UICONTROL Product URL]**). Klik op **[!UICONTROL Save]**.
 
    >[!IMPORTANT]
    >
-   >Om veiligheidsredenen, zorg ervoor u het verpersoonlijkingsgebied binnen een verbinding opneemt die met een juiste statische domeinnaam begint.
+   >Uit veiligheidsoverwegingen dient u ervoor te zorgen dat u het personalisatieveld invoegt in een koppeling die met een correcte statische domeinnaam begint.
 
    ![](assets/message-center_loop_link_select.png)
 
-   Het door u geselecteerde aanpassingsveld wordt nu weergegeven in het deelvenster Instellingen.
+   Het door u geselecteerde personalisatieveld wordt nu weergegeven in het deelvenster Instellingen.
 
-1. Selecteer de structuurcomponent waarop de productlijst wordt toegepast en selecteer **[!UICONTROL Show fallback]** om een standaardinhoud te definiëren.
+1. Selecteer de structuurcomponent waarop de productvermelding wordt toegepast en selecteer **[!UICONTROL Show fallback]** om standaardcontent te definiëren.
 
    ![](assets/message-center_loop_fallback_show.png)
 
-1. Sleep een of meer inhoudscomponenten en bewerk deze zo nodig.
+1. Sleep een of meer contentcomponenten en bewerk deze indien noodzakelijk.
 
    ![](assets/message-center_loop_fallback.png)
 
-   De fallback-inhoud wordt weergegeven als de verzameling leeg is wanneer de gebeurtenis wordt geactiveerd, bijvoorbeeld als een klant niets in zijn winkelwagentje heeft.
+   De fallback-content wordt weergegeven als de verzameling tijdens het activeren van de gebeurtenis leeg is, bijvoorbeeld als een klant niets in zijn winkelwagen heeft.
 
-1. Bewerk de stijlen voor de productlijst in het deelvenster Instellingen. Zie E-mailstijlen [](../../designing/using/styles.md)bewerken voor meer informatie.
-1. Geef een voorvertoning van de e-mail weer met een testprofiel dat is gekoppeld aan de relevante transactiegebeurtenis en waarvoor u verzamelingsgegevens hebt gedefinieerd. Voeg bijvoorbeeld de volgende informatie in de **[!UICONTROL Event data]** sectie toe voor het testprofiel dat u wilt gebruiken:
+1. Bewerk de stijlen voor de productvermelding in het deelvenster Instellingen. Ga voor meer informatie naar [E-mailstijlen bewerken](../../designing/using/styles.md).
+1. Toon een voorbeeld van de e-mail met een testprofiel dat is gekoppeld aan de relevante transactiegebeurtenis en waarvoor u verzamelingsdata hebt gedefinieerd. Voeg bijvoorbeeld de volgende informatie toe aan de sectie **[!UICONTROL Event data]** voor het testprofiel dat u wilt gebruiken:
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   Zie [deze sectie](#defining-a-test-profile-in-a-transactional-message)voor meer informatie over het definiëren van een testprofiel in een transactiebericht.
+   Ga voor meer informatie over het definiëren van een testprofiel in een transactiebericht naar [deze sectie](#defining-a-test-profile-in-a-transactional-message).
 
-## Transactiebericht testen {#testing-a-transactional-message}
+## Een transactiebericht testen {#testing-a-transactional-message}
 
-Nadat u het transactiebericht hebt opgeslagen, kunt u nu een proefdruk verzenden om het te testen.
+Nadat u het transactiebericht hebt opgeslagen, kunt u een proef verzenden om het te testen.
 
 ![](assets/message-center_10.png)
 
-De stappen voor het verzenden van een bewijs worden beschreven in het [verzenden van een proefdruk](../../sending/using/sending-proofs.md) .
+De stappen voor het verzenden van een proef worden beschreven in de sectie [Een proef verzenden](../../sending/using/sending-proofs.md).
 
 ## Transactiebericht publiceren {#publishing-a-transactional-message}
 
@@ -251,25 +251,25 @@ Nadat u het transactiebericht hebt gecontroleerd, kunt u het publiceren.
 
 ![](assets/message-center_12.png)
 
-Nu, zodra de gebeurtenis van de &quot;Verlaat van de Kar&quot;wordt teweeggebracht, veroorzaakt het automatisch een bericht dat de titel en de familienaam van de ontvanger, de kar URL, het laatste geraadpleegde product of een lijst van producten bevat als u een productlijst, en het totale kartbedrag om te verzenden bepaalde.
+Zodra de gebeurtenis ‘Cart abandonment’ wordt geactiveerd, wordt automatisch een bericht verzonden met de titel en de achternaam van de ontvanger, de URL naar de winkelwagen, het laatst geraadpleegde product of een lijst met producten (als u een productvermelding hebt gedefinieerd) en het totale bedrag van de winkelwagen.
 
-Klik op de **[!UICONTROL Reports]** knop voor toegang tot rapporten over je transactiebericht. Zie [Rapporten](../../reporting/using/about-dynamic-reports.md).
+Klik op de knop **[!UICONTROL Reports]** voor toegang tot rapporten over uw transactiebericht. Zie [Rapporten](../../reporting/using/about-dynamic-reports.md).
 
 ![](assets/message-center_13.png)
 
-## Opschorting van een transactiebericht {#suspending-a-transactional-message-publication}
+## Opschorting van de publicatie van een transactiebericht {#suspending-a-transactional-message-publication}
 
-U kunt het publiceren van uw transactiebericht opschorten door de **[!UICONTROL Pause]** knoop, bijvoorbeeld, te gebruiken om de gegevens te wijzigen in het bericht. De gebeurtenissen worden daarom niet meer verwerkt, maar in plaats daarvan in een wachtrij opgeslagen in de Adobe Campagne-database.
+U kunt het publiceren van uw transactiebericht opschorten met behulp van de knop **[!UICONTROL Pause]**, bijvoorbeeld als u de data in het bericht wilt wijzigen. De gebeurtenissen worden daarom niet meer verwerkt, maar in plaats daarvan in een wachtrij in de Adobe Campaign-database opgeslagen.
 
-De gebeurtenissen in de wachtrij worden bewaard gedurende een periode die is gedefinieerd in de REST API (zie de documentatie [van de](../../api/using/get-started-apis.md)REST API) of in de triggergebeurtenis als u de Triggers Core-service gebruikt (zie [Werken met Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)voor campagne en ervaring).
+De gebeurtenissen in de wachtrij worden bewaard gedurende een periode die is gedefinieerd in de REST API (zie de [REST API](../../api/using/get-started-apis.md)-documentatie) of in de triggergebeurtenis als u de Triggers Core-service gebruikt (zie [Werken met Campaign and Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
-Wanneer u klikt, worden alle gebeurtenissen in de wachtrij (op voorwaarde dat deze niet verlopen zijn) verwerkt. **[!UICONTROL Resume]** Zij bevatten nu alle wijzigingen die zijn uitgevoerd terwijl de publicatie van de template werd opgeschort.
+Na het klikken op **[!UICONTROL Resume]** worden alle gebeurtenissen in de wachtrij verwerkt (op voorwaarde dat deze niet verlopen zijn). Zij bevatten nu alle wijzigingen die zijn uitgevoerd terwijl de publicatie van de sjabloon was opgeschort.
 
-## Het publiceren van een transactiemelding opheffen {#unpublishing-a-transactional-message}
+## Het publiceren van een transactiebericht opheffen {#unpublishing-a-transactional-message}
 
-Klik **[!UICONTROL Unpublish]** staat u toe om de transactionele berichtpublicatie, maar ook de publicatie van de overeenkomstige gebeurtenis te annuleren, die van REST API de middel schrapt die aan de gebeurtenis beantwoordt die u eerder creeerde.
+Door op **[!UICONTROL Unpublish]** te klikken, kunt de publicatie van transactionele berichten en de publicatie van de overeenkomstige gebeurtenis annuleren, waardoor de resource overeenkomend aan de eerder aangemaakte gebeurtenis uit de REST API wordt verwijderd.
 
 ![](assets/message-center_unpublish-template.png)
 
@@ -277,71 +277,71 @@ Zelfs als de gebeurtenis via uw website wordt geactiveerd, worden de bijbehorend
 
 >[!NOTE]
 >
->Als u het bericht opnieuw wilt publiceren, moet u teruggaan naar de bijbehorende gebeurtenisconfiguratie, het publiceren en vervolgens het bericht publiceren. Voor meer op dit, zie het [Publiceren van een transactiebericht](#publishing-a-transactional-message).
+>Als u het bericht opnieuw wilt publiceren, moet u teruggaan naar de bijbehorende gebeurtenisconfiguratie, deze publiceren en vervolgens het bericht publiceren. Zie [Een transactiebericht publiceren](#publishing-a-transactional-message) voor meer informatie hierover.
 
-Als u de publicatie van een gepauzeerd transactiebericht ongedaan maakt, moet u mogelijk tot 24 uur wachten voordat u het bericht opnieuw kunt publiceren. Hiermee kan de **[!UICONTROL Database cleanup]** workflow alle gebeurtenissen opschonen die naar de wachtrij zijn verzonden.
+Als u de publicatie van een gepauzeerd transactiebericht ongedaan maakt, moet u mogelijk tot 24 uur wachten voordat u het bericht opnieuw kunt publiceren. Zo kan de workflow **[!UICONTROL Database cleanup]** alle gebeurtenissen opschonen die naar de wachtrij zijn verzonden.
 
-De stappen voor het pauzeren van een bericht zijn gedetailleerd in de [Onderbreking van een sectie van de transactieberichtpublicatie](#suspending-a-transactional-message-publication) .
+De stappen voor het pauzeren van een bericht worden uitgebreid beschreven in de sectie[Opschorting van de publicatie van een transactiebericht](#suspending-a-transactional-message-publication).
 
-De **[!UICONTROL Database cleanup]** workflow, die elke dag om 4.00 uur wordt uitgevoerd, is toegankelijk via **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**.
+De workflow **[!UICONTROL Database cleanup]**, die elke dag om 4.00 uur wordt uitgevoerd, is toegankelijk via **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**.
 
 ## Transactiebericht verwijderen {#deleting-a-transactional-message}
 
-Zodra een transactiebericht niet gepubliceerd is, of als een transactiebericht nog niet is gepubliceerd, kunt u het van de transactiemeldlijst schrappen. Dit doet u als volgt:
+Als de publicatie van een transactiebericht ongedaan is gemaakt, of als een transactiebericht nog niet is gepubliceerd, kunt u het transactiebericht uit de lijst met transactieberichten verwijderen. Dit doet u als volgt:
 
-1. Klik in de linkerbovenhoek op het **[!UICONTROL Adobe Campaign]** logo en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
-1. Houd de muis boven het bericht van uw keuze.
-1. Klik op de **[!UICONTROL Delete element]** knop.
+1. Klik in de linkerbovenhoek op het logo **[!UICONTROL Adobe Campaign]** en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Houd de muis boven het gewenste bericht.
+1. Klik op de knop **[!UICONTROL Delete element]**.
 
 ![](assets/message-center_delete-template.png)
 
 Het verwijderen van een transactiebericht kan echter alleen onder bepaalde voorwaarden worden uitgevoerd:
 
-* Zorg ervoor dat het transactiebericht de **[!UICONTROL Draft]** status heeft, anders kunt u het bericht niet verwijderen. De **[!UICONTROL Draft]** status is van toepassing op een bericht dat nog niet is gepubliceerd of dat [niet is gepubliceerd](#unpublishing-a-transactional-message) (en niet is [gepauzeerd](#suspending-a-transactional-message-publication)).
+* Zorg ervoor dat het transactiebericht de status **[!UICONTROL Draft]** heeft, anders kunt u het bericht niet verwijderen. De status **[!UICONTROL Draft]** is van toepassing op een bericht dat nog niet is gepubliceerd of waarvan [de publicatie ongedaan is gemaakt](#unpublishing-a-transactional-message) (en niet is [gepauzeerd](#suspending-a-transactional-message-publication)).
 
-* **Transactieberichten**: Tenzij een ander transactiebericht met de overeenkomstige gebeurtenis wordt verbonden, als het transactiebericht unpublished is, moet de gebeurtenisconfiguratie ook unpublished zijn om uw transactiebericht met succes te schrappen. Zie Publicatie van een gebeurtenis [](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event)ongedaan maken voor meer informatie hierover.
+* **Transactieberichten**: Tenzij een ander transactiebericht is gekoppeld aan de overeenkomstige gebeurtenis, geldt dat als de publicatie van het transactiebericht ongedaan is gemaakt de publicatie van de gebeurtenisconfiguratie ook ongedaan moet worden gemaakt om uw transactiebericht te kunnen verwijderen. Zie [Publicatie van een gebeurtenis ongedaan maken](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event) voor meer informatie.
 
    >[!IMPORTANT]
    >
-   >Als u een transactiemelding verwijdert waarvoor al meldingen zijn verzonden, worden ook de verzendings- en trackinglogboeken verwijderd.
+   >Als u een transactiebericht verwijdert waarvoor al meldingen zijn verzonden, worden ook de verzendings- en trackinglogboeken verwijderd.
 
-* **Transactieberichten van een uit-van-de-doos gebeurtenissjabloon (interne transactieberichten)**: Als een intern transactiebericht de enige is die aan de overeenkomstige interne gebeurtenis is gekoppeld, kan het niet worden verwijderd. U moet eerst een ander transactiebericht maken door het te dupliceren of via het menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** .
+* **Transactieberichten van een kant-en-klare gebeurtenissjabloon (interne transactieberichten)**: Als een intern transactiebericht als enige bericht aan de overeenkomstige interne gebeurtenis is gekoppeld, kan het niet worden verwijderd. U moet eerst een ander transactiebericht maken door het te dupliceren of via het menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]**.
 
-## Transactiebericht opnieuw proberen {#transactional-message-retry-process}
+## Proces voor het opnieuw bezorgen van een transactiebericht {#transactional-message-retry-process}
 
-Een tijdelijk onbezorgd transactiebericht is onderworpen aan automatische herpogingen die tot de levering verloopt worden uitgevoerd. Zie Parameters voor de [geldigheidsperiode](../../administration/using/configuring-email-channel.md#validity-period-parameters)voor meer informatie over de leveringsduur.
+Er wordt automatisch opnieuw geprobeerd een tijdelijk onbezorgd transactiebericht te verzenden totdat de levering is vervallen. Zie [Parameters voor geldigheidsperiode](../../administration/using/configuring-email-channel.md#validity-period-parameters) voor meer informatie over de leveringsduur.
 
-Wanneer een transactiebericht niet kan worden verzonden, zijn er twee systemen opnieuw proberen:
+Wanneer een transactiebericht niet kan worden verzonden, zijn er twee systemen om het opnieuw te proberen:
 
-* Op het transactionele overseinenniveau, kan een transactiebericht ontbreken alvorens de gebeurtenis aan een uitvoeringslevering wordt toegewezen, die tussen de gebeurtenisontvangst en de leveringsvoorbereiding betekent. Zie [Proces](#event-processing-retry-process)voor het opnieuw proberen van gebeurtenissen.
-* Op het verzendende procesniveau, zodra de gebeurtenis aan een uitvoeringslevering is toegewezen, kan het transactiebericht wegens een tijdelijke fout ontbreken. Zie [Bericht verzenden opnieuw proberen proces](#message-sending-retry-process).
+* Op transactioneel berichtniveau kan een transactiebericht mislukken voordat de gebeurtenis aan een uitvoeringslevering wordt toegewezen, dus tussen de ontvangst van de gebeurtenis en de voorbereiding van de levering. Zie [Proces nieuwe verwerkingspogingen voor gebeurtenissen](#event-processing-retry-process).
+* Qua verzendingsproces kan het transactiebericht vanwege een tijdelijke fout mislukken als de gebeurtenis eenmaal aan een uitvoeringslevering is toegewezen. Zie [Proces voor het opnieuw verzenden van een bericht](#message-sending-retry-process).
 
-### Herbewerking van gebeurtenisverwerking {#event-processing-retry-process}
+### Proces nieuwe verwerkingspogingen voor gebeurtenissen {#event-processing-retry-process}
 
-Als de gebeurtenis niet aan een uitvoeringslevering kan worden toegewezen, wordt de gebeurtenisverwerking uitgesteld. De pogingen worden dan uitgevoerd tot het aan een nieuwe uitvoeringslevering wordt toegewezen.
-
->[!NOTE]
->
->Een uitgestelde gebeurtenis wordt niet weergegeven in het transactiemeldingsbericht dat logbestanden verzendt, omdat deze gebeurtenis nog niet is toegewezen aan een uitvoeringslevering.
-
-De gebeurtenis kon bijvoorbeeld niet worden toegewezen aan een uitvoeringslevering omdat de inhoud niet correct was, er een probleem was met toegangsrechten of branding, er een fout was ontdekt bij het toepassen van typologische regels, enz. In dit geval kunt u het bericht pauzeren, het bewerken om het probleem op te lossen en het opnieuw publiceren. Het hertestsysteem zal het dan aan een nieuwe uitvoeringslevering toewijzen.
-
-### Bericht bij opnieuw proberen {#message-sending-retry-process}
-
-Zodra de gebeurtenis aan een uitvoeringslevering is toegewezen, kan het transactiebericht wegens een tijdelijke fout ontbreken, als de brievenbus van de ontvanger bijvoorbeeld volledig is. Zie [Opnieuw proberen na een tijdelijke leveringsfout](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)voor meer informatie.
+De gebeurtenisverwerking wordt uitgesteld als de gebeurtenis niet aan een uitvoeringslevering kan worden toegewezen. Hernieuwde pogingen worden uitgevoerd tot de gebeurtenis aan een nieuwe uitvoeringslevering wordt toegewezen.
 
 >[!NOTE]
 >
->Wanneer een gebeurtenis aan een uitvoeringslevering wordt toegewezen, verschijnt het in de verzendende logboeken van deze uitvoeringslevering, en slechts op dit ogenblik. De mislukte leveringen worden weergegeven op het **[!UICONTROL Execution list]** tabblad van het transactiemelding.
+>Een uitgestelde gebeurtenis wordt niet weergegeven in de verzendingslogboeken voor transactieberichten, omdat deze gebeurtenis nog niet is toegewezen aan een uitvoeringslevering.
+
+De gebeurtenis kan bijvoorbeeld niet worden toegewezen aan een uitvoeringslevering omdat de content niet correct is, er een probleem is met toegangsrechten of branding, er een fout is ontdekt bij het toepassen van typologische regels, enz. In dit geval kunt u het bericht pauzeren, het bewerken om het probleem op te lossen en het opnieuw publiceren. Het systeem voor hernieuwde pogingen wijst het bericht dan toe aan een nieuwe uitvoeringslevering.
+
+### Proces voor het opnieuw verzenden van een bericht {#message-sending-retry-process}
+
+Zodra de gebeurtenis aan een uitvoeringslevering is toegewezen, kan het transactiebericht wegens een tijdelijke fout mislukken, bijvoorbeeld als de mailbox van de ontvanger vol is. Zie [Hernieuwde pogingen na een tijdelijke leveringsfout](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)voor meer informatie.
+
+>[!NOTE]
+>
+>Pas wanneer een gebeurtenis aan een uitvoeringslevering wordt toegewezen, verschijnt het in de verzendingslogboeken van deze uitvoeringslevering. De mislukte leveringen worden weergegeven op het tabblad **[!UICONTROL Execution list]** van het transactiebericht.
 
 ### Beperkingen {#limitations}
 
-**Update voor logbestanden verzenden**
+**Verzendingslogboeken bijwerken**
 
-In het proces van het opnieuw proberen, worden de verzendende logboeken van de nieuwe uitvoeringslevering niet onmiddellijk bijgewerkt (de update wordt uitgevoerd door een geplande werkschema). Dit betekent dat het bericht in de **[!UICONTROL Pending]** status kan verkeren, zelfs als de transactiegebeurtenis door de nieuwe uitvoeringslevering is verwerkt.
+Tijdens de hernieuwde pogingen worden de verzendingslogboeken van de nieuwe uitvoeringslevering niet onmiddellijk bijgewerkt (het bijwerken wordt uitgevoerd door een geplande workflow). Dit betekent dat het bericht de status **[!UICONTROL Pending]** kan hebben, zelfs als de transactiegebeurtenis door de nieuwe uitvoeringslevering is verwerkt.
 
 **Uitvoering mislukt**
 
-U kunt een uitvoering niet stoppen. Als de huidige levering van de uitvoering echter mislukt, wordt een nieuwe gebeurtenis gemaakt zodra een nieuwe gebeurtenis wordt ontvangen en worden alle nieuwe gebeurtenissen verwerkt door deze nieuwe levering van de uitvoering. Er worden geen nieuwe gebeurtenissen verwerkt door de mislukte uitvoering.
+U kunt een uitvoeringslevering niet stoppen. Als de huidige uitvoeringslevering echter mislukt, wordt er een nieuwe levering gemaakt zodra een nieuwe gebeurtenis wordt ontvangen en worden alle nieuwe gebeurtenissen door deze nieuwe uitvoeringslevering verwerkt. Er worden geen nieuwe gebeurtenissen door de mislukte uitvoeringslevering verwerkt.
 
-Als sommige gebeurtenissen die al aan een uitvoeringslevering zijn toegewezen, zijn uitgesteld en als die uitvoeringslevering mislukt, wijst het hertestsysteem de uitgestelde gebeurtenissen niet toe aan de nieuwe uitvoeringslevering, wat betekent dat deze gebeurtenissen verloren gaan.
+Als sommige gebeurtenissen die al aan een uitvoeringslevering zijn toegewezen zijn uitgesteld en als die uitvoeringslevering mislukt, wijst het systeem voor hernieuwde pogingen de uitgestelde gebeurtenissen niet toe aan de nieuwe uitvoeringslevering. Dat betekent dus dat deze gebeurtenissen verloren gaan.
