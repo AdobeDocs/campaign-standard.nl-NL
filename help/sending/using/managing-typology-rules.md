@@ -1,6 +1,6 @@
 ---
 title: Typologieregels beheren
-description: Ontdek hoe u de typologische regels moet gebruiken.
+description: Leer hoe u typologieregels gebruikt.
 page-status-flag: never-activated
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner: sauviat
@@ -16,44 +16,44 @@ translation-type: tm+mt
 source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 0%
+ht-degree: 96%
 
 ---
 
 
 # Typologieregels beheren {#managing-typology-rules}
 
-## Typologische regels {#about-typology-rules}
+## Typologieregels {#about-typology-rules}
 
-De regels van de typologie zijn bedrijfsregels die u toestaan om controles en het filtreren op uw bericht uit te voeren alvorens het te verzenden. Beschikbare typen typologische regels zijn:
+Typologieregels zijn bedrijfsregels die het mogelijk maken om controles en filtering op uw bericht uit te voeren voordat het verzonden wordt. Beschikbare soorten typologieregels zijn:
 
-* **Filterregels** : Met dit type regel kunt u één deel van het berichtdoel uitsluiten volgens criteria die in een query zijn gedefinieerd, zoals quarantined profielen of profielen die al een bepaald aantal e-mailberichten hebben ontvangen. For more on this, refer to [this section](../../sending/using/filtering-rules.md).
+* **Filterregels**: Met deze regels kunt u één deel van het berichtdoel uitsluiten volgens criteria die in een query zijn gedefinieerd, zoals profielen in quarantaine of profielen die al een bepaald aantal e-mailberichten hebben ontvangen. Zie [deze sectie](../../sending/using/filtering-rules.md) voor meer informatie.
 
-* **Regels voor vermoeidheid** : Met dit type regels kunt u een maximum aantal berichten per profiel definiëren om te voorkomen dat er te veel wordt gevraagd. For more on this, refer to [this section](../../sending/using/fatigue-rules.md).
+* **Moeheidsregels**: Met deze regels kunt u een maximum aantal berichten per profiel definiëren om te voorkomen dat de profielen te vaak worden benaderd. Zie [deze sectie](../../sending/using/fatigue-rules.md) voor meer informatie.
 
-* **Regels voor controle** : Met dit type regels kan de gebruiker de geldigheid en kwaliteit van de berichten controleren voordat ze worden verzonden, zoals de weergave van tekens, de grootte van SMS-berichten, de adresindeling, enzovoort. For more on this, refer to [this section](../../sending/using/control-rules.md).
+* **Controleregels**: Met deze regels kan de gebruiker de geldigheid en kwaliteit van de berichten controleren voordat ze worden verzonden, zoals de weergave van tekens, de grootte van sms-berichten, de adresnotatie, enzovoort. Zie [deze sectie](../../sending/using/control-rules.md) voor meer informatie.
 
-Typologische regels zijn beschikbaar in het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]** .
+Typologieregels zijn beschikbaar in het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
 
-Door gebrek, zijn verscheidene uit-van-de-doos het **filtreren** en **controle** typologische regels beschikbaar. Zij zijn gedetailleerd in de het [Filtreren regels](../../sending/using/fatigue-rules.md) en de secties van de Regels [van de](../../sending/using/control-rules.md) Controle.
+Standaard zijn verscheidene kant-en-klare typologieregels voor **filteren** en **controleren** beschikbaar. Deze worden in detail behandeld in de secties [Filterregels](../../sending/using/fatigue-rules.md) en [Controleregels](../../sending/using/control-rules.md).
 
-Afhankelijk van uw behoeften kunt u bestaande typologische regels wijzigen of nieuwe regels maken, met uitzondering van **[!UICONTROL Control]** regels, die alleen-lezen zijn en niet kunnen worden gewijzigd.
+Afhankelijk van wat u wilt, kunt u bestaande typologieregels wijzigen of nieuwe regels maken, met uitzondering van **[!UICONTROL Control]** regels, die alleen-lezen zijn en niet kunnen worden gewijzigd.
 
 ## Een typologieregel maken {#creating-a-typology-rule}
 
-De belangrijkste stappen om een typologieregel tot stand te brengen zijn als volgt:
+De belangrijkste stappen om een typologieregel te maken:
 
-1. Open het menu / **[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Typologies]** / **[!UICONTROL Typology rules]** en klik op **[!UICONTROL Create]**.
+1. Open het menu **[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Typologies]** / **[!UICONTROL Typology rules]** en klik op **[!UICONTROL Create]**.
 
    ![](assets/typology_create-rule.png)
 
-1. Voer de typologie in **[!UICONTROL Label]** en geef op **[!UICONTROL Channel]** op welke regel u wilt toepassen.
+1. Voer het **[!UICONTROL Label]** van de typologie in en specifieer het **[!UICONTROL Channel]** waarop de regel op van toepassing moet zijn.
 
    ![](assets/typology-rule-label.png)
 
-1. Geef de typologieregel op **[!UICONTROL Type]** en configureer deze op basis van uw behoeften. De configuratie van typologische regels is afhankelijk van het type. Raadpleeg de secties **[Filterregels](../../sending/using/filtering-rules.md)**en**[ Vermoeidheidsregels](../../sending/using/fatigue-rules.md)** voor meer informatie.
+1. Geef het **[!UICONTROL Type]** van de typologieregel op en configureer deze op basis van uw behoeften. De configuratie van typologieregels is afhankelijk van het type regel. Zie de secties **[Filterregels](../../sending/using/filtering-rules.md)**en**[ Moeheidsregels](../../sending/using/fatigue-rules.md)** voor meer informatie.
 
-1. Selecteer de typologieën waarin u de nieuwe regel wilt omvatten. U doet dit door het **[!UICONTROL Typologies]** tabblad te selecteren en vervolgens op de **[!UICONTROL Create element]** knop te klikken.
+1. Selecteer de typologieën waarin u de nieuwe regel wilt opnemen. U doet dit door het tabblad **[!UICONTROL Typologies]** te selecteren en vervolgens op de knop **[!UICONTROL Create element]** te klikken.
 
    ![](assets/typology-typologies-tab.png)
 
@@ -61,32 +61,32 @@ De belangrijkste stappen om een typologieregel tot stand te brengen zijn als vol
 
    ![](assets/typology-link.png)
 
-1. Wanneer alle typologieën zijn geselecteerd, klikt u **[!UICONTROL Create]** om het maken van de typologieregel te bevestigen.
+1. Wanneer alle typologieën zijn geselecteerd, klikt u op **[!UICONTROL Create]** om het maken van de typologieregel te bevestigen.
 
 ## Uitvoeringsvolgorde van typologieregels {#typology-rules-execution-order}
 
-De regels van de typologie worden uitgevoerd in een orde die tijdens de het richten, analyse, en de fasen van de berichtverpersoonlijking wordt gespecificeerd.
+De typologieregels worden uitgevoerd in de volgorde die wordt opgegeven tijdens de targeting-, analyse- en personalisatiefasen van het bericht.
 
 In de standaardbewerkingsmodus worden de regels in de volgende volgorde toegepast:
 
-1. Controlevoorschriften, als zij bij het begin van het richten worden toegepast.
+1. Controleregels, indien toegepast aan het begin van targeting.
 1. Filterregels:
 
-   * Native toepassingsregels voor adreskwalificatie: gedefinieerd adres / niet-geverifieerd adres / adres in de bloklijst / quarantineadres / adreskwaliteit.
+   * Native toepassingsregels voor adreskwalificatie: bepaald adres / niet-geverifieerd adres / adres op de lijst van afgewezen personen / quarantined adres / adreskwaliteit.
    * Filterregels die door de gebruiker zijn gedefinieerd.
 
-1. Controlevoorschriften, als zij aan het eind van het richten worden toegepast.
-1. Regels van de controle, als zij bij het begin van verpersoonlijking worden toegepast.
-1. Regels van de controle, als zij aan het eind van verpersoonlijking worden toegepast.
+1. Controleregels, indien toegepast aan het einde van targeting.
+1. Controleregels, indien toegepast aan het begin van personalisatie.
+1. Controleregels, indien toegepast aan het einde van personalisatie.
 
-U kunt echter de uitvoeringsvolgorde van hetzelfde type regels in elke typologie aanpassen. Wanneer meerdere regels worden uitgevoerd tijdens dezelfde verwerkingsfase van berichten, kunt u de volgorde kiezen waarin ze worden toegepast.
+U kunt echter de uitvoeringsvolgorde van hetzelfde type regels in elke typologie aanpassen. Wanneer meerdere regels worden uitgevoerd tijdens dezelfde berichtverwerkingsfase, kunt u de volgorde kiezen waarin ze worden toegepast.
 
-Bijvoorbeeld, zal een het filtreren regel de waarvan uitvoeringsorde bij aantal 20 wordt geplaatst vóór een het filtreren regel worden uitgevoerd de waarvan uitvoeringsorde bij aantal 30 wordt geplaatst.
+Een filterregel waarvan de uitvoeringsvolgorde bijvoorbeeld op nummer 20 wordt geplaatst, wordt uitgevoerd vóór een filterregel met de uitvoeringsvolgorde op nummer 30.
 
-In het geval **[!UICONTROL Properties]** van een typologieregel kunt u de uitvoeringsvolgorde instellen. Wanneer verscheidene regels moeten worden toegepast, bepaalt de uitvoeringsorde van elke regel degenen eerst te verwerken. Raadpleeg voor meer informatie de sectie over de uitvoeringsvolgorde van de [Typologieregels](#typology-rules-execution-order) .
+Bij de **[!UICONTROL Properties]** van een typologieregel kunt u de uitvoeringsvolgorde instellen. Wanneer verscheidene regels moeten worden toegepast, bepaalt de uitvoeringsvolgorde van elke regel welke eerst verwerkt moet worden. Raadpleeg de sectie [Uitvoeringsvolgorde van typologieregels](#typology-rules-execution-order) voor meer informatie.
 
 ![](assets/typology_rule-active.png)
 
-Een typologieregel kan via de regel worden gedeactiveerd **[!UICONTROL Properties]** als u niet wilt dat de regel wordt toegepast op het moment dat de berichten waarop de regel betrekking heeft, worden geanalyseerd.
+Een typologieregel kan worden uitgeschakeld via de **[!UICONTROL Properties]** als u niet wilt dat de regel wordt toegepast op het moment dat de desbetreffende berichten worden geanalyseerd.
 
 ![](assets/typology_rule-order.png)
