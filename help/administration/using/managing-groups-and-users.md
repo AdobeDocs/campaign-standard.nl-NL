@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 09a6e062be32b78fda6b0eb83a6d11ac249b3168
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 0%
+ht-degree: 97%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 ## Informatie over beveiligingsgroepen {#about-security-groups}
 
-De groepen van de veiligheid zijn reeksen gebruikers die de zelfde rollen en de rechten binnen uw organisatie delen.
+Beveiligingsgroepen zijn groepen gebruikers die dezelfde rollen en rechten binnen uw organisatie delen.
 
-Gebruikers moeten altijd zijn gekoppeld aan een beveiligingsgroep. Op deze manier kunt u specifieke rollen en organisatorische eenheden toewijzen aan deze groepen.
+Gebruikers moeten altijd aan een beveiligingsgroep gekoppeld zijn. Hierdoor kunt u specifieke rollen en organisatie-eenheden toewijzen aan deze groepen.
 
-Voor meer informatie over rollen, presenteren de lijsten in de volgende pagina de verschillende beschikbare verrichtingen volgens de rol(s) van een gebruiker: [Adobe Campaign Standard-vergunningen](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+Voor meer informatie over rollen presenteren de lijsten op de volgende pagina de verschillende bewerkingen die beschikbaar zijn al naar gelang de rol(len) van een gebruiker: [Adobe Campaign Standard-autorisaties](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
 Standaardbeveiligingsgroepen zijn:
 
@@ -39,99 +39,99 @@ Standaardbeveiligingsgroepen zijn:
 * **[!UICONTROL Standard Users]**
 * **[!UICONTROL Workflow supervisors]**
 
-Als een gebruiker geen verbinding heeft met een beveiligingsgroep, heeft hij geen toegang tot Adobe Campaign.
+Als een gebruiker niet is gekoppeld aan een beveiligingsgroep, heeft deze geen toegang tot Adobe Campaign.
 
-Om de toegang van een gebruiker te beperken, voeg niet de gebruiker aan de de gebruikersgroep van de Campaign Standard toe aangezien dit met **[!UICONTROL All]** organisatorische eenheid verbonden is.
+Als u de toegang van een gebruiker wilt beperken, voegt u de gebruiker niet toe aan de Campaign Standard-gebruikersgroep, aangezien deze is gekoppeld aan de organisatie-eenheid **[!UICONTROL All]**.
 
 >[!NOTE]
 >
->Standaard wordt de **[!UICONTROL All (all)]** organisatorische eenheid toegewezen aan de **[!UICONTROL Administrators]** beveiligingsgroep. Het is alleen-lezen en kan niet worden gewijzigd.
+>Standaard wordt de organisatie-eenheid **[!UICONTROL All (all)]** toegewezen aan de beveiligingsgroep **[!UICONTROL Administrators]**. Deze is alleen-lezen en kan niet worden gewijzigd.
 
 ## Een beveiligingsgroep maken en gebruikers toewijzen {#creating-a-security-group-and-assigning-users}
 
 >[!IMPORTANT]
 >
->Houd er rekening mee dat in de beheerconsole beveiligingsgroepen profielen worden genoemd.
+>Houd er rekening mee dat beveiligingsgroepen in de Admin Console profielen worden genoemd.
 
-U kunt uw eigen veiligheidsgroepen tot stand brengen als de uit-van-de-doos groepen niet genoeg zijn om uw gebruikers te beheren. Ze kunnen worden beheerd door beheerders die toegang hebben tot zowel Adobe Campaign-beheermenu&#39;s als de Admin-console. Raadpleeg deze [documentatie](https://helpx.adobe.com/enterprise/managing/user-guide.html)voor meer informatie over de beheerconsole.
+U kunt uw eigen beveiligingsgroepen maken als de standaardgroepen niet genoeg zijn om uw gebruikers te beheren. Ze kunnen worden beheerd door beheerders die toegang hebben tot de Adobe Campaign-beheermenu’s en de Admin Console. Raadpleeg deze [documentatie](https://helpx.adobe.com/enterprise/managing/user-guide.html)voor meer informatie over de Admin Console.
 
-Hier, moeten wij eerst de twee uit-van-de-doosgroepen Standaardgebruiker en Beheerder aan onze gebruikers toewijzen. Deze veiligheidsgroepen zullen bepaalde functies van Adobe Campaign beperken: De Standaardgebruiker heeft basistoegang tot Adobe Campaign terwijl de Beheerder tot de beleidsmenu&#39;s kan toegang hebben bijvoorbeeld.
+Hier moeten we eerst de twee kant-en-klare groepen, Standaardgebruikers en Beheerders, aan onze gebruikers toewijzen. Deze beveiligingsgroepen beperken een aantal functies van Adobe Campaign: de standaardgebruiker heeft basistoegang tot Adobe Campaign terwijl de beheerder bijvoorbeeld toegang heeft tot de beheermenu’s.
 
-Merk op dat om het even welke veranderingen die aan veiligheidsgroepen op de admin console worden aangebracht zullen worden gesynchroniseerd zodra de gebruikers zich bij Adobe Campaign aanmelden.
+Wijzigingen die in de Admin Console in beveiligingsgroepen worden aangebracht, worden gesynchroniseerd zodra gebruikers zich aanmelden bij Adobe Campaign.
 
-Dan, willen wij een reeks veiligheidsgroepen Geometrixx en de Kleuren van de Geometrixx tot stand brengen die wat toegang afhankelijk van de organisatorische eenheden van onze Standaardgebruiker en Beheerder zal beperken.
+Vervolgens gaan we een reeks beveiligingsgroepen maken, Geometrixx en Geometrixx Clothes, waardoor de toegang wordt beperkt afhankelijk van de organisatie-eenheden van onze standaardgebruiker en beheerder.
 
 ![](assets/ootb_security_group_1.png)
 
-U moet eerst een van de uit-van-de-doos veiligheidsgroep aan uw gebruikers toewijzen:
+U moet eerst een van de standaardbeveiligingsgroepen aan uw gebruikers toewijzen:
 
-1. Selecteer in de beheerconsole eerst uw exemplaar en vervolgens het tabblad **Gebruikers** .
+1. Selecteer in de Admin Console uw instantie en vervolgens het tabblad **Gebruikers**.
 
    ![](assets/manage_security_group_2.png)
 
-1. Klik op de **[!UICONTROL Add user]** knop en voer het e-mailadres van de gebruiker in.
-1. Selecteer op het **[!UICONTROL Assign Products]** tabblad uw instantie en kies vervolgens de **[!UICONTROL Administrators]** uit-van-de-box beveiligingsgroep uit de vervolgkeuzelijst. Hierdoor kan de gebruiker toegang hebben tot de beheermenu&#39;s en de volgende beveiligingsgroepen maken.
+1. Klik op de knop **[!UICONTROL Add user]** en voer het e-mailadres van de gebruiker in.
+1. Selecteer op het tabblad **[!UICONTROL Assign Products]** uw instantie en kies vervolgens de standaardbeveiligingsgroep **[!UICONTROL Administrators]** in de vervolgkeuzelijst. De gebruiker krijgt hierdoor toegang tot de beheermenu’s en kan de volgende beveiligingsgroepen maken.
 
    ![](assets/ootb_security_group_2.png)
 
-1. Klik **[!UICONTROL Save]** **[!UICONTROL Standard Users]** en volg de zelfde procedures om de uit-van-de-doos veiligheidsgroep aan uw nieuwe gebruiker toe te wijzen.
+1. Klik op **[!UICONTROL Save]** en volg dezelfde procedures om de standaardbeveiligingsgroep **[!UICONTROL Standard Users]** aan uw nieuwe gebruiker toe te wijzen.
 
    ![](assets/ootb_security_group_3.png)
 
-Zodra uw twee gebruikers in bijlage aan de **[!UICONTROL Administrators]** en **[!UICONTROL Standard users]** uit-van-de-doos veiligheidsgroepen zijn die rollen aan onze gebruikers toewijzen, kan de gebruiker van de Beheerder de twee veiligheidsgroepen **Geometrixx** en de Kleuren **** nu tot stand brengen die organisatorische eenheden aan onze gebruikers naast de uit-van-de-doos veiligheidsgroepen zullen toewijzen.
+Zodra uw twee gebruikers zijn gekoppeld aan de standaardbeveiligingsgroepen **[!UICONTROL Administrators]** en **[!UICONTROL Standard users]**, die rollen aan de gebruikers toewijzen, kan de gebruiker van het type Beheerder de twee beveiligingsgroepen **Geometrixx** en **Geometrixx Clothes** maken, waardoor naast de standaardbeveiligingsgroepen organisatie-eenheden aan de gebruikers worden toegewezen.
 
-1. In de Admin console, selecteer uw geval toen de **Producten** tabel.
+1. Selecteer in de Admin Console uw instantie en vervolgens het tabblad **Producten**.
 1. Klik op de knop **Nieuw profiel** om de beveiligingsgroep **Geometrixx** te maken.
 
    ![](assets/create_security_1.png)
 
-1. Typ de **[!UICONTROL Profile name]** exacte syntaxis: **[!UICONTROL Campaign Standard- instance name - ID of the security group]** en klik **[!UICONTROL Done]**.
+1. Typ de **[!UICONTROL Profile name]** door precies deze syntaxis te volgen: **[!UICONTROL Campaign Standard- instance name - ID of the security group]** en klik op **[!UICONTROL Done]**.
 
    De gekozen id wordt vervolgens gebruikt tijdens het maken van de beveiligingsgroep in Adobe Campaign.
 
    >[!NOTE]
    >
-   >Als de bovenstaande syntaxis niet met een oudere instantie lijkt te werken, moet deze worden vervangen door **[!UICONTROL Campaign - instance name - ID of the security group]**.
+   >Als de bovenstaande syntaxis niet werkt met een oudere instantie, moet u deze vervangen door **[!UICONTROL Campaign - instance name - ID of the security group]**.
 
    ![](assets/manage_security_group_1.png)
 
-1. Dan, volg de zelfde procedures om de de veiligheidsgroep van de Kleuren van de **Geometrixx tot stand te brengen** .
-1. Wijs uw beveiligingsgroep toe aan uw gebruiker door het **[!UICONTROL Users]** tabblad te selecteren.
+1. Volg dan dezelfde procedures om de beveiligingsgroep **Geometrixx Clothes** te maken.
+1. Wijs de beveiligingsgroep toe aan de gebruiker door het tabblad **[!UICONTROL Users]** te selecteren.
 
    ![](assets/manage_security_group_2.png)
 
-1. Klik op de eerder gemaakte gebruiker en klik vervolgens op het ![](assets/managing_security_group_10.png) pictogram in de **[!UICONTROL Products]** categorie.
+1. Klik op de eerder gemaakte gebruiker en klik vervolgens op het pictogram ![](assets/managing_security_group_10.png) in de categorie **[!UICONTROL Products]**.
 
-   Selecteer deze optie **[!UICONTROL Edit products assigned directly]** om de nieuwe beveiligingsgroep aan de gebruiker toe te wijzen.
+   Selecteer **[!UICONTROL Edit products assigned directly]** om de nieuwe beveiligingsgroep aan de gebruiker toe te wijzen.
 
    ![](assets/manage_security_group_8.png)
 
-1. Selecteer op het **[!UICONTROL Assign Products]** tabblad de instantie die u eerder hebt gemaakt in de vervolgkeuzelijst, in plaats van de Geometrixx voor beveiligingsgroepen, die u aan de beheerder wilt toewijzen.
+1. Selecteer op het tabblad **[!UICONTROL Assign Products]** uw instantie en vervolgens de eerder gemaakte Geometrixx-beveiligingsgroepen in de vervolgkeuzelijst om deze toe te wijzen aan de gebruiker van het type Beheerder.
 
    Klik op **[!UICONTROL Save]**.
 
    ![](assets/manage_security_group_3.png)
 
-   Als een gebruiker in verscheidene groepen is:
+   Als een gebruiker deel uitmaakt van verscheidene groepen, zijn de gevolgen als volgt:
 
-   * De rollen van de verschillende groepen worden gecumuleerd. Hier bevinden gebruikers zich in twee verschillende groepen: één die op rollen de andere op eenheden zal handelen.
-   * Het is de eenheid die de hoogste in de hiërarchie is die zal worden gebruikt (zie voorbeeld in de sectie [Organisatorische eenheden](../../administration/using/organizational-units.md) ).
-   * De gebruiker kan geen verbinding meer maken als de eenheden hetzelfde niveau hebben en zich in parallelle vertakkingen in de hiërarchie bevinden.
+   * De rollen van de verschillende groepen worden gecumuleerd. Hier bevinden gebruikers zich in twee verschillende groepen: één die van invloed is op rollen en de andere die van invloed is op eenheden.
+   * De eenheid die het hoogste is in de hiërarchie wordt gebruikt (zie het voorbeeld in de sectie [Organisatie-eenheden](../../administration/using/organizational-units.md)).
+   * De gebruiker kan geen verbinding meer maken als eenheden hetzelfde equivalente niveau hebben en zich in parallelle vertakkingen in de hiërarchie bevinden.
 
-1. Volg de zelfde procedures om de de veiligheidsgroep van de Kleuren van de Geometrixx aan uw Standaardgebruiker toe te wijzen.
+1. Volg dezelfde procedures om de beveiligingsgroep Geometrixx Clothes aan uw standaardgebruiker toe te wijzen.
 
    ![](assets/manage_security_group_9.png)
 
-De nieuwe beveiligingsgroepen worden nu gemaakt in de beheerconsole. Als u ze volledig wilt synchroniseren, moet u ze ook in Adobe Campaign maken.
+De nieuwe beveiligingsgroepen worden nu gemaakt in de Admin Console. Als u ze volledig wilt synchroniseren, moet u ze ook in Adobe Campaign maken.
 
-De gebruiker van de Beheerder moet de reeks veiligheidsgroepen tot stand brengen die worden gebruikt om organisatorische eenheden toe te wijzen: Geometrixx- en Geometrixx-kleding. Zie [Eenheden](../../administration/using/organizational-units.md#creating-and-managing-units) maken en beheren voor meer informatie over het maken van organisatorische eenheden.
+De gebruiker van het type Beheerder moet de reeks beveiligingsgroepen maken die worden gebruikt om organisatie-eenheden toe te wijzen: Geometrixx en Geometrixx Clothes. Zie [Eenheden maken en beheren](../../administration/using/organizational-units.md#creating-and-managing-units) voor informatie over het maken van organisatie-eenheden.
 
-1. Klik op het **[!UICONTROL Adobe Campaign]** logo in de linkerbovenhoek en selecteer **[!UICONTROL Administration > Users & Security > Security groups]**.
-1. Maak uw nieuwe beveiligingsgroep en geef de groep **[!UICONTROL Label]** en **[!UICONTROL ID]** groep op.
+1. Klik op het **[!UICONTROL Adobe Campaign]**-logo in de linkerbovenhoek en selecteer **[!UICONTROL Administration > Users & Security > Security groups]**.
+1. Maak uw nieuwe beveiligingsgroep en geef het **[!UICONTROL Label]** en de **[!UICONTROL ID]** van de groep op.
 
-   De id moet dezelfde zijn als de id die u in de beheerconsole hebt gekozen.
+   De id moet overeenkomen met de id die u in de Admin Console hebt gekozen.
 
-1. Wijs in het **[!UICONTROL User access]** veld organisatorische eenheid toe. Hier, wordt de de veiligheidsgroep van de Geometrixx toegewezen de **[!UICONTROL All]** organisatorische eenheid.
+1. Wijs in het veld **[!UICONTROL User access]** een organisatie-eenheid toe. Hier wordt de organisatie-eenheid **[!UICONTROL All]** aan de beveiligingsgroep Geometrixx toegewezen.
 
    >[!NOTE]
    >
@@ -139,14 +139,14 @@ De gebruiker van de Beheerder moet de reeks veiligheidsgroepen tot stand brengen
 
    ![](assets/manage_security_group_6.png)
 
-1. U kunt ook rollen toewijzen aan uw beveiligingsgroep. In ons geval, is deze stap niet nodig aangezien de uit-van-de-doos veiligheidsgroepen **[!UICONTROL Administrators]** en gebruikt **[!UICONTROL Standard users]** worden om rollen toe te wijzen.
-1. Volg de zelfde procedures om de laatste Geometrixx Kleuren van de veiligheid tot stand te brengen en de organisatorische eenheid van de Geometrixx Kleuren toe te wijzen.
+1. U kunt ook rollen toewijzen aan uw beveiligingsgroep. In dit geval is deze stap niet nodig aangezien de standaardbeveiligingsgroepen **[!UICONTROL Administrators]** en **[!UICONTROL Standard users]** worden gebruikt om rollen toe te wijzen.
+1. Volg dezelfde procedures om de laatste beveiligingsgroep Geometrixx Clothes te maken en hieraan een organisatie-eenheid toe te wijzen.
 
    ![](assets/manage_security_group_7.png)
 
-Uw gebruikers worden nu toegewezen aan een beveiligingsgroep en kunnen verbinding maken met Adobe Campaign.
+Uw gebruikers zijn nu toegewezen aan een beveiligingsgroep en kunnen verbinding maken met Adobe Campaign.
 
 >[!IMPORTANT]
 >
->Als gebruikers uit een beveiligingsgroep in de beheerconsole worden verwijderd, blijven ze deel uitmaken van de Adobe Campaign-beveiligingsgroep en kunnen ze zich niet meer aanmelden bij Adobe Campaign. Verwijder in dit geval de e-mailadressen van de gebruikers in de beheerconsole om te voorkomen dat ze vertrouwelijke informatie ontvangen.
+>Als gebruikers in de Admin Console uit een beveiligingsgroep worden verwijderd, blijven ze deel uitmaken van de Adobe Campaign-beveiligingsgroep en kunnen ze zich niet meer aanmelden bij Adobe Campaign. Verwijder in dat geval de e-mailadressen van de gebruikers in de Admin Console om te voorkomen dat ze vertrouwelijke informatie ontvangen.
 
