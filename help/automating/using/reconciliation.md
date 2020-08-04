@@ -1,6 +1,6 @@
 ---
-title: Verzoening
-description: Met de afstemmingsactiviteit kunt u niet-geïdentificeerde gegevens koppelen aan bestaande bronnen.
+title: Afstemming
+description: Met de activiteit Afstemming kunt u niet-geïdentificeerde data koppelen aan bestaande resources.
 page-status-flag: never-activated
 uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
 contentOwner: sauviat
@@ -16,38 +16,38 @@ translation-type: tm+mt
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 0%
+ht-degree: 95%
 
 ---
 
 
-# Verzoening{#reconciliation}
+# Afstemming{#reconciliation}
 
 ## Beschrijving {#description}
 
 ![](assets/reconciliation.png)
 
-Met deze **[!UICONTROL Reconciliation]** activiteit kunt u niet-geïdentificeerde gegevens koppelen aan bestaande bronnen.
+Met de activiteit **[!UICONTROL Reconciliation]** kunt u niet-geïdentificeerde data koppelen aan bestaande resources.
 
 ## Gebruikscontext {#context-of-use}
 
-De **[!UICONTROL Reconciliation]** activiteit wordt hoofdzakelijk gebruikt voor gegevensbeheerdoeleinden en houdt twee verschillende gebruiksgevallen in:
+De activiteit **[!UICONTROL Reconciliation]** wordt hoofdzakelijk gebruikt voor databeheerdoeleinden en houdt twee gebruikssituaties in:
 
-* Relaties toevoegen: op een **[!UICONTROL Links]** tabblad kunt u koppelingen toevoegen tussen de binnenkomende gegevens en verschillende andere Adobe Campaign-databaseafmetingen.
+* Relaties toevoegen: Op het tabblad **[!UICONTROL Links]** kunt u koppelingen toevoegen tussen de binnenkomende data en verschillende andere Adobe Campaign-databasedimensies.
 
-   Een bestand met aankoopgegevens kan bijvoorbeeld ook informatie bevatten om de aangekochte producten en de koper te identificeren. De bestandsgegevens hebben derhalve betrekking op twee extra dimensies (naast die van **aankopen**): de afmetingen van de **producten** en **profielen** . Vervolgens moeten er relaties worden aangelegd tussen deze en de **inkoopdimensie** (zie het volgende voorbeeld).
+   Een bestand met aankoopdata kan bijvoorbeeld ook informatie bevatten om de aangekochte producten en de koper te identificeren. De bestandsdata hebben derhalve betrekking op twee extra dimensies (naast **Purchases**): de dimensies **Products** en **Profiles**. Vervolgens moeten er relaties worden aangelegd tussen deze dimensies en de dimensie **Purchases** (zie het volgende voorbeeld).
 
-   Bij het definiëren van een relatie wordt een kolom toegevoegd aan de binnenkomende gegevens om te verwijzen naar de externe sleutel van de gekoppelde dimensie.
+   Bij het definiëren van een relatie wordt een kolom toegevoegd aan de binnenkomende data om te verwijzen naar de externe sleutel van de gekoppelde dimensie.
 
    >[!NOTE]
    >
-   >Deze bewerking houdt in dat de gegevens van de gekoppelde afmetingen al in de database staan. Als u bijvoorbeeld een aankoopbestand importeert waarin wordt aangegeven welk product op welk moment, door welke client enzovoort is aangeschaft, moeten het product en de client al in de database aanwezig zijn.
+   >Deze bewerking houdt in dat de data van de gekoppelde dimensies al in de database staan. Als u bijvoorbeeld een aankoopbestand importeert waarin wordt aangegeven welk product is gekocht, op welk moment, door welke klant, enzovoort, moeten het product en de klant al in de database aanwezig zijn.
 
-* Gegevensidentificatie: Met een **[!UICONTROL Identification]** tabblad kunt u eenvoudig binnenkomende gegevens koppelen aan kolommen van een bestaande dimensie in de Adobe Campaign-database. Na de activiteit, worden de gegevens geïdentificeerd als behorend tot de bepaalde dimensie.
+* Data-identificatie: Op het tabblad **[!UICONTROL Identification]** kunt u binnenkomende data eenvoudig koppelen aan kolommen van een bestaande dimensie in de Adobe Campaign-database. Na de activiteit worden de data geïdentificeerd als behorend tot de gedefinieerde dimensie.
 
-   U kunt dan bijvoorbeeld een publiek opslaan, de database bijwerken, enzovoort.
+   U kunt dan bijvoorbeeld een doelgroep opslaan, de database bijwerken, enzovoort.
 
-De **[!UICONTROL Reconciliation]** activiteit kan bijvoorbeeld worden geplaatst na het laden van gegevens met als doel niet-standaardgegevens in de database te importeren.
+De activiteit **[!UICONTROL Reconciliation]** kan bijvoorbeeld na een activiteit voor het laden van data worden geplaatst met het doel om niet-standaarddata in de database te importeren.
 
 **Verwante onderwerpen:**
 
@@ -57,21 +57,21 @@ De **[!UICONTROL Reconciliation]** activiteit kan bijvoorbeeld worden geplaatst 
 
 ## Configuratie {#configuration}
 
-1. Sleep een **[!UICONTROL Reconciliation]** activiteit naar uw werkstroom, na een overgang die een populatie bevat waarvan de doeldimensie niet rechtstreeks uit Adobe Campaign komt. Raadpleeg [Doeldimensies en bronnen](../../automating/using/query.md#targeting-dimensions-and-resources)voor meer informatie hierover.
-1. Selecteer de activiteit, dan open het gebruikend de ![](assets/edit_darkgrey-24px.png) knoop van de snelle acties die verschijnen.
-1. Ga naar het **[!UICONTROL Links]** tabblad als u koppelingen wilt definiëren tussen de binnenkomende gegevens en andere databaseafmetingen.
+1. Sleep een **[!UICONTROL Reconciliation]**-activiteit naar uw workflow en plaats deze na een overgang met een populatie waarvan de targetingdimensie niet rechtstreeks afkomstig is uit Adobe Campaign. Raadpleeg [Targetingdimensies en resources](../../automating/using/query.md#targeting-dimensions-and-resources) voor meer informatie.
+1. Selecteer de activiteit en open deze met de knop ![](assets/edit_darkgrey-24px.png) vanuit de snelle acties die verschijnen.
+1. Ga naar het tabblad **[!UICONTROL Links]** als u koppelingen wilt definiëren tussen de binnenkomende data en andere databasedimensies.
 
    Voeg zoveel relaties toe als nodig is. Selecteer eerst voor elke relatie de gekoppelde dimensie en geef vervolgens in de koppelingsdetails de bijbehorende velden op.
 
-1. Als u eenvoudig de binnenkomende gegevens wilt identificeren, ga naar het **[!UICONTROL Identification]** lusje en controleer het **[!UICONTROL Identify the document from the working data]** vakje.
+1. Als u de binnenkomende data eenvoudig wilt identificeren, gaat u naar het tabblad **[!UICONTROL Identification]** en schakelt u het vakje **[!UICONTROL Identify the document from the working data]** in.
 
-   Selecteer de doeldimensie waarmee u de binnenkomende gegevens wilt afstemmen.
+   Selecteer de targetingdimensie waarop u de binnenkomende data wilt afstemmen.
 
-   Voeg verzoeningscriteria toe om een binnenkomende overgangsverslag aan een geselecteerd gericht afmetingsverslag te verbinden. Als er meerdere criteria zijn opgegeven, moeten deze allemaal worden geverifieerd voordat het verband tussen al hun gegevens kan worden gecontroleerd.
+   Voeg afstemmingscriteria toe om de record van een binnenkomende overgang aan een geselecteerde targetingdimensie-record te koppelen. Als er meerdere criteria zijn opgegeven, moeten deze allemaal worden geverifieerd om te zorgen dat de koppeling tussen alle betreffende data werkt.
 
-   Kies de **[!UICONTROL Processing unidentified source lines]** modus:
+   Kies de modus **[!UICONTROL Processing unidentified source lines]**:
 
-   * **[!UICONTROL Ignore them]**: alleen de identificeerbare gegevens worden bewaard in de uitgaande overgang van de activiteit.
-   * **[!UICONTROL Keep in the outbound population]**: alle gegevens van de binnenkomende overgang worden gehouden in de uitgaande overgang van de activiteit.
+   * **[!UICONTROL Ignore them]**: Alleen de identificeerbare data blijven behouden in de uitgaande overgang van de activiteit.
+   * **[!UICONTROL Keep in the outbound population]**: Alle data van de binnenkomende overgang blijven behouden in de uitgaande overgang van de activiteit.
 
-1. Bevestig de configuratie van uw activiteit en sla uw werkschema op.
+1. Bevestig de configuratie van uw activiteit en sla de workflow op.
