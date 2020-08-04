@@ -12,27 +12,30 @@ discoiquuid: 8bb160b1-7de9-4c1f-bb89-b2e5fdafed41
 context-tags: delivery,deployment,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '312'
+ht-degree: 100%
 
 ---
 
 
 # De verzending bevestigen{#confirming-the-send}
 
-Nadat u de berichten hebt voorbereid en de goedkeuringsstappen zijn uitgevoerd, kunt u deze verzenden. Raadpleeg [Verzenden](../../sending/using/preparing-the-send.md)voorbereiden voor meer informatie over het voorbereiden van berichten.
+Nadat u de berichten hebt voorbereid en de goedkeuringsstappen zijn uitgevoerd, kunt u de berichten verzenden. Raadpleeg [De verzending voorbereiden](../../sending/using/preparing-the-send.md) voor meer informatie over het voorbereiden van berichten.
 
-Alleen gebruikers met de **[!UICONTROL Start deliveries]** rol kunnen verzenden bevestigen. Raadpleeg voor meer informatie de sectie [Lijst met rollen](../../administration/using/list-of-roles.md) .
+Alleen gebruikers met de rol **[!UICONTROL Start deliveries]** kunnen verzending bevestigen. Raadpleeg de sectie [Lijst met rollen](../../administration/using/list-of-roles.md) voor meer informatie.
 
-Gebruikers zonder deze rol zien het volgende bericht:
+Gebruikers zonder deze rol krijgen het volgende bericht te zien:
 
 ![](assets/confirm_delivery_2.png)
 
-Klik op de **[!UICONTROL Confirm send]** knop op de actiebalk van het bericht om de levering te verzenden.
+Klik op de knop **[!UICONTROL Confirm send]** op de actiebalk van het bericht om de levering te verzenden.
 
 ![](assets/confirm_delivery.png)
 
-Je wordt gevraagd de verzending definitief af te ronden door op de **[!UICONTROL OK]** knop te klikken.
+U wordt gevraagd de verzending definitief af te ronden door op de knop **[!UICONTROL OK]** te klikken.
 
 ![](assets/confirm_delivery1.png)
 
@@ -40,37 +43,37 @@ Het bericht wordt verzonden.
 
 >[!NOTE]
 >
->Als het bericht gepland is, zal het worden verzonden wanneer het verzenden van tijd wordt bereikt. For more on scheduling messages, refer to [this section](../../sending/using/about-scheduling-messages.md).
+>Als het bericht gepland is, wordt het verzonden wanneer de verzendtijd is bereikt. Raadpleeg [deze sectie](../../sending/using/about-scheduling-messages.md) voor meer informatie over het plannen van berichten.
 
-Als u een terugkerende levering zonder samenvoegingsperiode gebruikt, kunt u een bevestiging aanvragen voordat de levering wordt verzonden. Open hiertoe het **[!UICONTROL Schedule]** blok van het leveringsdashboard en activeer de toegewezen optie.
+Als u een terugkerende levering zonder aggregatieperiode gebruikt, kunt u om bevestiging vragen voordat de levering wordt verzonden. Open hiertoe het blok **[!UICONTROL Schedule]** van het leveringsdashboard en activeer de relevante optie.
 
 ![](assets/confirmation_recurring_deliveries.png)
 
-Het **[!UICONTROL Deployment]** blok toont de vooruitgang van het verzenden.
+Het blok **[!UICONTROL Deployment]** toont de voortgang van de verzending.
 
-Zodra het bericht wordt verzonden naar de contacten, toont de **[!UICONTROL Deployment]** streek uw gegevens van KPIs (de Zeer belangrijke Indicator van Prestaties), die omvatten:
+Zodra het bericht is verzonden naar de contacten, toont het vak **[!UICONTROL Deployment]** uw KPI-data (Key Performance Indicator), waaronder:
 
 * Het aantal te leveren berichten
 * Het aantal verzonden berichten
 * Het percentage geleverde berichten
-* Het percentage fouten en stuitingen
-* Het percentage open berichten
+* Het percentage niet-bezorgbare berichten en fouten
+* Het percentage geopende berichten
 * Het percentage klikken in de berichten (voor e-mails)
 
    >[!NOTE]
    >
-   >De **[!UICONTROL Open rate]** en **[!UICONTROL Click-through rate]** worden elk uur bijgewerkt.
+   >De waarden van **[!UICONTROL Open rate]** en **[!UICONTROL Click-through rate]** worden elk uur bijgewerkt.
 
 ![](assets/sending_delivery.png)
 
-Als KPIs te lang duurt om bij te werken of geen rekening te houden met de resultaten van de verzendende logboeken, klik de **[!UICONTROL Compute stats]** knoop in het **[!UICONTROL Deployment]** venster.
+Als het te lang duurt om de KPI’s bij te werken of als de resultaten van de verzendlogboeken er niet in worden meegeteld, klikt u op de knop **[!UICONTROL Compute stats]** in het venster **[!UICONTROL Deployment]**.
 
 ![](assets/sending_delivery7.png)
 
-Het bericht kan in de geschiedenis van één van de cliëntprofielen worden bekeken die deel van het publiek uitmaken. Zie [Geïntegreerd klantprofiel](../../audiences/using/integrated-customer-profile.md).
+Het bericht kan worden bekeken in de geschiedenis van één van de klantprofielen die deel uitmaken van de doelgroep. Zie [Geïntegreerd klantprofiel](../../audiences/using/integrated-customer-profile.md).
 
-Zodra een bericht wordt verzonden, kunt u het gedrag van zijn ontvangers volgen, en het controleren om zijn effect te meten. Raadpleeg de volgende secties voor meer informatie:
+Zodra een bericht is verzonden, kunt u het gedrag van de ontvangers volgen en het bericht controleren om het effect ervan te meten. Raadpleeg deze secties voor meer informatie hierover:
 
-* [Berichten bijhouden](../../sending/using/tracking-messages.md)
-* [Toezicht op levering](../../sending/using/monitoring-a-delivery.md)
+* [Berichten traceren](../../sending/using/tracking-messages.md)
+* [Een levering controleren](../../sending/using/monitoring-a-delivery.md)
 
