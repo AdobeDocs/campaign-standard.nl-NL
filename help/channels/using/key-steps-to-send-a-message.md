@@ -1,5 +1,5 @@
 ---
-title: Belangrijkste stappen om een bericht te verzenden
+title: Belangrijkste stappen voor verzending van een bericht
 description: Voer de volgende stappen uit om berichten te maken en te verzenden met Adobe Campaign.
 page-status-flag: never-activated
 uuid: d3fbb1e6-6444-4b56-b9d6-ae39bd8d4804
@@ -11,29 +11,32 @@ topic-tags: about-communication-channels
 discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+workflow-type: ht
+source-wordcount: '180'
+ht-degree: 100%
 
 ---
 
 
-# Belangrijkste stappen om een bericht te verzenden{#key-steps-to-send-a-message}
+# Belangrijkste stappen voor verzending van een bericht{#key-steps-to-send-a-message}
 
-Raadpleeg de best practices voor [levering](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html) om de best practices voor levering te leren kennen.
+Raadpleeg [Best practices voor levering](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html) voor informatie over de best practices voor levering.
 
 U kunt als volgt berichten maken en verzenden:
 
-1. Maak een **[!UICONTROL Email]**, een **[!UICONTROL SMS]**, een **[!UICONTROL direct mail]** of een **[!UICONTROL push notification]** marketingactiviteit. Zie [Een e-mail](../../channels/using/creating-an-email.md)maken, een sms [](../../channels/using/creating-an-sms-message.md)maken, een directe verzending [via e-mail](../../channels/using/creating-the-direct-mail.md) maken en een pushmelding [](../../channels/using/preparing-and-sending-a-push-notification.md)maken.
-1. Selecteer het publiek van uw bericht. Zie [Soorten publiek](../../audiences/using/creating-audiences.md)maken.
-1. Bepaal de berichtinhoud en zijn verpersoonlijkingselementen. Raadpleeg de [inhoudseditor](../../designing/using/designing-content-in-adobe-campaign.md) voor e-mail of specifieke inhoud voor andere kanalen.
-1. Begin het verzenden voor te bereiden om de doelpopulatie te berekenen en de berichtinhoud te produceren. Zie [Berichten](../../sending/using/preparing-the-send.md)goedkeuren.
+1. Maak een marketingactiviteit van het type **[!UICONTROL Email]**, **[!UICONTROL SMS]**, **[!UICONTROL direct mail]** of **[!UICONTROL push notification]**. Zie [Een e-mail maken](../../channels/using/creating-an-email.md), [Een sms maken](../../channels/using/creating-an-sms-message.md), [Een directmail-levering maken](../../channels/using/creating-the-direct-mail.md) en [Een pushmelding maken](../../channels/using/preparing-and-sending-a-push-notification.md).
+1. Selecteer de doelgroepen van uw bericht. Zie [Doelgroepen maken](../../audiences/using/creating-audiences.md).
+1. Definieer de berichtcontent en de bijbehorende personalisatie-elementen. Raadpleeg de [contenteditor](../../designing/using/designing-content-in-adobe-campaign.md) voor e-mail- of specifieke content voor andere kanalen.
+1. Bereid de verzending voor om de doelpopulatie te berekenen en de berichtcontent te produceren. Zie [Berichten goedkeuren](../../sending/using/preparing-the-send.md).
 
    >[!NOTE]
    >
-   >U kunt algemene regels voor vermoeidheid tussen kanalen instellen die overgevulde profielen automatisch uitsluiten van campagnes. Zie [Vermoeidheidsregels](../../sending/using/fatigue-rules.md).
+   >U kunt algemene moeheidsregels tussen kanalen instellen om overvraagde profielen automatisch uit te sluiten van campagnes. Zie [Moeheidsregels](../../sending/using/fatigue-rules.md).
 
-1. Proefdrukken verzenden. Zie Proefdrukken [verzenden](../../sending/using/sending-proofs.md).
-1. Verzend het bericht en controleer de levering. Zie [Berichten](../../sending/using/confirming-the-send.md)verzenden.
-1. Controleer de speciale leveringsrapporten. Zie [Toegang tot rapporten](../../reporting/using/about-dynamic-reports.md).
+1. Verzend proeven. Zie [Proeven verzenden](../../sending/using/sending-proofs.md).
+1. Verzend het bericht en controleer de levering. Zie [Berichten verzenden](../../sending/using/confirming-the-send.md).
+1. Controleer de speciale leveringsrapporten. Zie [Rapporten openen](../../reporting/using/about-dynamic-reports.md).
 
-De geavanceerde berichtparameters zijn gedetailleerd in de het [Vormen kanalen](../../administration/using/about-channel-configuration.md) secties.
+Geavanceerde berichtparameters zijn gedetailleerd in de secties over [het configureren van kanalen](../../administration/using/about-channel-configuration.md).
