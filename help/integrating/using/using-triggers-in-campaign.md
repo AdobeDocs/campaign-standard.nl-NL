@@ -1,5 +1,5 @@
 ---
-title: Triggers gebruiken in campagne
+title: Triggers gebruiken in Campaign
 description: null
 page-status-flag: never-activated
 uuid: d844d013-b38a-4e69-9df5-0edc01fa9c6e
@@ -15,73 +15,73 @@ translation-type: tm+mt
 source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 0%
+ht-degree: 98%
 
 ---
 
 
-# Triggers gebruiken in campagne{#using-triggers-in-campaign}
+# Triggers gebruiken in Campaign{#using-triggers-in-campaign}
 
-## Een toegewezen trigger maken in Campagne {#creating-a-mapped-trigger-in-campaign}
+## Een gekoppelde trigger in Campaign maken {#creating-a-mapped-trigger-in-campaign}
 
-Zorg ervoor dat u de gedragingen definieert die u vooraf wilt controleren in Adobe Experience Cloud ( **[!UICONTROL Triggers]** kernservice). Raadpleeg de documentatie [van](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html)Adobe Experience Cloud voor meer informatie. Wanneer u de trigger definieert, moet u de aliassen inschakelen. Voor elk gedrag (bladeren/verlaten van formulieren, toevoegen/verwijderen van producten, verlopen sessie, enz.) moet een nieuwe trigger worden toegevoegd in Adobe Experience Cloud.
+Definieer eerst de gedragingen die u in Adobe Experience Cloud (**[!UICONTROL Triggers]**-kernservice) wilt bewaken. Kijk voor meer informatie in de [documentatie van Adobe Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html). Let op dat u bij het definiëren van de trigger aliassen moet inschakelen. Voor elk gedrag (bladeren/verlaten van formulieren, toevoegen/verwijderen van producten, vervallen sessie, enz.) moet een nieuwe trigger worden toegevoegd in Adobe Experience Cloud.
 
-U moet nu een triggergebeurtenis maken in Adobe Campaign op basis van een bestaande Adobe Experience Cloud-trigger.
+Maak nu een triggergebeurtenis in Adobe Campaign op basis van een bestaande Adobe Experience Cloud-trigger.
 
-U kunt deze [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) bekijken om u te helpen begrijpen hoe triggers worden ingesteld in Adobe Campaign.
+Bekijk deze [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) om meer inzicht te krijgen in het instellen van triggers in Adobe Campaign.
 
-De stappen om dit in werking te stellen zijn:
+Voer daartoe de volgende stappen uit:
 
-1. Klik in de linkerbovenhoek op het **[!UICONTROL Adobe Campaign]** logo en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
+1. Klik in de linkerbovenhoek op het logo **[!UICONTROL Adobe Campaign]** en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
 
    ![](assets/remarketing_1.png)
 
-1. Klik op de **[!UICONTROL Create]** knop. De aanmaakwizard die wordt geopend, geeft een lijst weer van alle triggers die zijn gedefinieerd in Adobe Experience Cloud. In de **[!UICONTROL Fired by Analytics]** kolom wordt het aantal gebeurtenissen weergegeven dat door de Adobe Experience Cloud-trigger naar Campagne wordt verzonden. Dit is het in kaart brengen van trekkers die in de interface van Experience Cloud worden gecreeerd.
+1. Klik op de knop **[!UICONTROL Create]**. De geopende creation wizard toont een lijst met alle triggers die in Adobe Experience Cloud zijn gedefinieerd. In de kolom **[!UICONTROL Fired by Analytics]** ziet u het aantal gebeurtenissen dat door de Adobe Experience Cloud-trigger naar Campaign is verzonden. Dit is het toewijzen van triggers die in de Experience Cloud-interface zijn gemaakt.
 
    ![](assets/remarketing_2.png)
 
 1. Selecteer de Adobe Experience Cloud-trigger die u wilt gebruiken en klik op **[!UICONTROL Next]**.
-1. Configureer de algemene eigenschappen van de trigger. Bij deze stap van de tovenaar, specificeer ook het kanaal en de het richten dimensie voor de trekker (zie het [richten dimensies en middelen](../../automating/using/query.md#targeting-dimensions-and-resources)) te gebruiken. Bevestig vervolgens het maken van de trigger.
-1. Klik op de knop rechts van het **[!UICONTROL Event content and enrichment]** veld om de inhoud van de lading weer te geven. In dit scherm kunt u ook gebeurtenisgegevens verrijken met profielgegevens die zijn opgeslagen in de Adobe Campaign-database. De verrijking wordt op dezelfde manier uitgevoerd als voor een standaard transactiebericht.
+1. Configureer de algemene eigenschappen van de trigger. In deze stap van de wizard specificeert u ook het kanaal en de te gebruiken doeldimensie voor de trigger (zie [Doeldimensies en bronnen](../../automating/using/query.md#targeting-dimensions-and-resources)). Bevestig vervolgens het maken van de trigger.
+1. Klik op de knop rechts van het veld **[!UICONTROL Event content and enrichment]** om de content van de payload te bekijken. In dit scherm kunt u ook de gebeurtenisdata verrijken met profieldata die zijn opgeslagen in de Adobe Campaign-database. De verrijking wordt op dezelfde manier uitgevoerd als voor een standaard transactiebericht.
 
    ![](assets/remarketing_3.png)
 
-1. Definieer in het **[!UICONTROL Transactional message validity duration]** veld de duur gedurende welke het bericht geldig blijft nadat de gebeurtenis door Analytics is verzonden. Als een duur van 2 dagen wordt bepaald, zal het bericht niet meer worden verzonden nadat die duur is overgegaan. Als u verscheidene berichten op greep zet, zorgt dit ervoor dat die berichten niet zullen worden verzonden als u hen na een bepaalde periode hervat.
+1. Definieer in het veld **[!UICONTROL Transactional message validity duration]** de duur van de geldigheid van het bericht nadat de gebeurtenis door Analytics is verzonden. Het bericht wordt niet meer verzonden als er een duur van 2 dagen is gedefinieerd en die duur is verstreken. Als u verscheidene berichten in de wachtstand zet, zorgt dit ervoor dat die berichten niet worden verzonden als ze na een bepaalde periode worden hervat.
 
    ![](assets/remarketing_4.png)
 
-1. Klik op de **[!UICONTROL Publish]** knop om de triggergebeurtenis te publiceren.
-1. Als u een wijziging in het triggerschema moet aanbrengen zelfs nadat u de triggergebeurtenis hebt gepubliceerd, klikt u op de **[!UICONTROL Update schema]** knop om de laatste wijzigingen op te halen.
+1. Klik op de knop **[!UICONTROL Publish]** om de triggergebeurtenis te publiceren.
+1. Als u het triggerschema wilt wijzigen, zelfs nadat u de triggergebeurtenis hebt gepubliceerd, klikt u op de knop **[!UICONTROL Update schema]** om de laatste wijzigingen op te halen.
 
-   Houd er rekening mee dat door deze actie de publicatie van uw trigger- en transactiebericht ongedaan wordt gemaakt. Hierna moet u de berichten opnieuw publiceren.
+   Houd er rekening mee dat door deze actie de publicatie van uw trigger en transactiebericht ongedaan wordt gemaakt. Deze moeten hierna opnieuw worden gepubliceerd.
 
    ![](assets/remarketing_11.png)
 
-Met de **[!UICONTROL Show Trigger in Experience Cloud]** knop kunt u de triggerdefinitie weergeven in Adobe Experience Cloud.
+Toon de triggerdefinitie in Adobe Experience Cloud met de knop **[!UICONTROL Show Trigger in Experience Cloud]**.
 
-Nadat de gebeurtenis is gepubliceerd, wordt automatisch een transactiesjabloon gemaakt dat aan de nieuwe gebeurtenis is gekoppeld. Vervolgens moet u de zojuist gemaakte sjabloon wijzigen en publiceren. Raadpleeg de sectie [De sjabloon](../../start/using/marketing-activity-templates.md) bewerken voor meer informatie.
+Na het publiceren van de gebeurtenis wordt er automatisch een transactiesjabloon gemaakt die aan de nieuwe gebeurtenis is gekoppeld. Wijzig en publiceer vervolgens de zojuist gemaakte sjabloon. Raadpleeg de sectie [De sjabloon bewerken](../../start/using/marketing-activity-templates.md) voor meer informatie.
 
-## De transactiemalplaatje van het bericht uitgeven {#editing-the-transactional-message-template}
+## De sjabloon van het transactiebericht bewerken {#editing-the-transactional-message-template}
 
-Nadat u de triggergebeurtenis hebt gemaakt en gepubliceerd, wordt de bijbehorende transactiesjabloon automatisch gemaakt. Raadpleeg voor meer informatie de sectie [Een toegewezen trigger maken in de sectie Campagne](#creating-a-mapped-trigger-in-campaign) .
+Na het maken en publiceren van de triggergebeurtenis, wordt de bijbehorende transactiesjabloon automatisch gemaakt. Raadpleeg de sectie [Een toegewezen trigger maken in Campaign](#creating-a-mapped-trigger-in-campaign) voor meer informatie.
 
-Als u wilt dat de gebeurtenis het verzenden van een transactiemelding activeert, moet u de sjabloon aanpassen, vervolgens testen en publiceren. Deze stappen zijn het zelfde als voor een standaardtransactiebericht. Raadpleeg voor meer informatie de sectie [Transactiesjabloon](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message) .
+Als u wilt dat de gebeurtenis het verzenden van een transactiemelding activeert, moet u de sjabloon personaliseren, en dan testen en publiceren. Deze stappen zijn hetzelfde als voor een standaard transactiebericht. Raadpleeg de sectie [Transactiesjabloon](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message) voor meer informatie.
 
 >[!NOTE]
 >
->Als u de publicatie van de sjabloon ongedaan maakt, wordt de publicatie van de triggergebeurtenis automatisch ongedaan gemaakt.
+>De publicatie van de triggergebeurtenis wordt automatisch ongedaan gemaakt als de publicatie van de sjabloon ongedaan wordt gemaakt.
 
-Wanneer u inhoud bewerkt, kunt u een aanpassingsveld toevoegen op basis van de informatie die door de Analytics-trigger is verzonden. Als u de gebeurtenisgegevens verrijkt met Adobe Campaign-profielgegevens, kunt u het bericht personaliseren op basis van deze gegevens. Als u uw bericht wilt aanpassen, selecteert u **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** en selecteert u een veld.
+Tijdens het bewerken van de content kunt u op basis van de informatie die door de Analytics-trigger wordt verzonden een personalisatieveld toevoegen. Als de gebeurtenisdata worden verrijkt met Adobe Campaign-profieldata, kan het bericht op basis van deze data gepersonaliseerd worden. Selecteer **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** en een veld als u het bericht wilt personaliseren.
 
 ![](assets/remarketing_8.png)
 
 ## De rapporten openen {#accessing-the-reports}
 
-Als u het toegewezen triggerrapport in Adobe Campaign wilt weergeven, opent u de eerder gemaakte triggergebeurtenis en klikt u op **[!UICONTROL Show trigger report]**.
+Als u het speciale triggerrapport in Adobe Campaign wilt weergeven, opent u de eerder gemaakte triggergebeurtenis en klikt u op **[!UICONTROL Show trigger report]**.
 
 ![](assets/remarketing_9.png)
 
-Het rapport geeft het aantal verwerkte gebeurtenissen weer in vergelijking met het aantal gebeurtenissen dat door Analytics is verzonden. Er wordt ook een lijst weergegeven met alle recente triggers.
+Het rapport toont het aantal verwerkte gebeurtenissen in vergelijking met het aantal gebeurtenissen dat door Analytics is verzonden. Er wordt ook een lijst met alle recente triggers weergegeven.
 
 ![](assets/trigger_uc_browse_14.png)
 
