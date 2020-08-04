@@ -1,6 +1,6 @@
 ---
-title: Info over In-App-berichten
-description: Bericht of waarschuwing weergeven in de mobiele toepassing met In-App-berichten.
+title: In-app-berichten
+description: Geef een bericht of waarschuwing weer in de mobiele applicatie met in-app-berichten.
 page-status-flag: never-activated
 uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
 contentOwner: sauviat
@@ -16,36 +16,36 @@ translation-type: tm+mt
 source-git-commit: 4efc42fd6b656c7723ed52f704c801113f9b3817
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 0%
+ht-degree: 28%
 
 ---
 
 
-# Info over In-App-berichten{#about-in-app-messaging}
+# In-app-berichten{#about-in-app-messaging}
 
-In-app overseinen is een overseinenkanaal dat u toestaat om een bericht te tonen wanneer de gebruiker binnen de mobiele toepassing actief is. Dit berichttype is gratis voor pushberichten die worden afgeleverd aan het meldingscentrum van de telefoon van de gebruiker. Raadpleeg deze [sectie](../../channels/using/about-push-notifications.md)voor meer informatie over het pushberichtkanaal.
+In-app-berichten is een berichtenkanaal waarmee u een bericht kunt weergeven wanneer de gebruiker binnen de mobiele applicatie actief is. Dit berichttype is ter aanvulling van pushmeldingen die worden afgeleverd aan het meldingscentrum van de telefoon van gebruikers. Raadpleeg deze [sectie](../../channels/using/about-push-notifications.md)voor meer informatie over het pushmeldingenkanaal.
 
-Voor dit kanaal moeten mobiele toepassingen worden geïntegreerd met Adobe Experience Platform SDK. Deze apps moeten worden geactiveerd in het Adobe Experience Platform Launch voordat ze in Adobe Campaign beschikbaar zijn voor In-App-leveringen.
+Voor dit kanaal moeten mobiele applicaties en worden geïntegreerd met de Adobe Experience Platform SDK. Deze apps moeten worden geactiveerd in Adobe Experience Platform Launch voordat ze beschikbaar zijn in Adobe Campaign voor in-app-leveringen.
 
 ![](assets/launch_campaign.png)
 
-Als u In-App-berichten wilt verzenden voor mobiele toepassingen die gebruikmaken van Experience Platform SDK, moet u aan de volgende voorwaarden voldoen:
+Als u in-app-berichten wilt verzenden op mobiele toepassingen met behulp van de Experience Platform SDK, moet u aan de volgende voorwaarden voldoen:
 
-1. Zorg ervoor dat u in Adobe Campaign toegang hebt tot het **[!UICONTROL In-App]** kanaal. Neem contact op met uw accountteam als u deze kanalen niet kunt openen.
+1. Zorg ervoor dat u in Adobe Campaign toegang hebt tot het kanaal **[!UICONTROL In-App]**. Neem contact op met uw accountteam als u geen toegang hebt tot deze kanalen.
 
-1. Om gebruik van mobiele apparaten in Adobe Campaign Standard te kunnen maken met een Experience Cloud SDK-toepassing, moet een mobiele app worden gemaakt in het Adobe Experience Platform Launch en worden geconfigureerd in Adobe Campaign Standard. Raadpleeg deze [pagina](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)voor de stapsgewijze handleiding.
+1. Als u mobiele gebruiksscenario’s in Adobe Campaign Standard wilt gebruiken met een Experience Cloud SDK-applicatie, moet u een mobiele app maken in Adobe Experience Platform Launch en deze configureren in Adobe Campaign Standard. Raadpleeg deze [pagina](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html) voor de stapsgewijze handleiding.
 
-1. Zodra gevormd, kunt u uw bericht in-app nu voorbereiden. For more on this, refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message).
+1. Zodra de configuratie is voltooid, kunt u uw in-app-bericht voorbereiden. Raadpleeg [deze pagina](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message) voor meer informatie.
 
-1. Vervolgens kunt u een bericht [in de](../../channels/using/customizing-an-in-app-message.md) app of een bericht [voor een lokale melding verzenden](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)Aanpassen.
+1. Vervolgens kunt u een [in-app-bericht](../../channels/using/customizing-an-in-app-message.md) verzenden of een [bericht van het type lokale melding aanpassen](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type).
 
-1. Je levering is nu klaar om te worden verzonden. Raadpleeg deze [pagina](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)voor meer informatie.
+1. Uw levering is nu klaar om te worden verzonden. Raadpleeg deze [pagina](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message) voor meer informatie.
 
-**Gerelateerde inhoud:**
+**Gerelateerde content:**
 
-* [Rapport in app](../../reporting/using/in-app-report.md)
-* [Mobiel gebruik wordt ondersteund in Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)
-* [Campaign Standard Mobile-gids](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+* [In-app-rapport](../../reporting/using/in-app-report.md)
+* [Mobiele gebruiksscenario’s die worden ondersteund in Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)
+* [Campaign Standard - gids voor mobiel gebruik](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
 ## Veelgestelde vragen in de app {#in-app-faq}
 
@@ -53,7 +53,7 @@ Als u In-App-berichten wilt verzenden voor mobiele toepassingen die gebruikmaken
 
 Ontdek de onderstaande bronnen:
 
-* [Videozelfstudies](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
+* [Video-Tutorials](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
 * [Blogbericht](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
 * [Community-pagina](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
