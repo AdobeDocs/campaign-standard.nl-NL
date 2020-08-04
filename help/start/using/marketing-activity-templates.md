@@ -1,6 +1,6 @@
 ---
-title: Over sjablonen
-description: '"Met Adobe Campaign-sjablonen kunt u parameters vooraf configureren, afhankelijk van uw behoeften: sjablonen kunnen een volledige of gedeeltelijke configuratie van de marketingactiviteiten bevatten om het gebruik van Adobe Campagne voor niet-technische eindgebruikers te vereenvoudigen."'
+title: Sjablonen
+description: '"Met Adobe Campaign-sjablonen kunt u parameters vooraf configureren, afhankelijk van uw behoeften: sjablonen kunnen een volledige of gedeeltelijke configuratie van de marketingactiviteiten bevatten om het gebruik van Adobe Campaign voor niet-technische eindgebruikers te vereenvoudigen."'
 page-status-flag: never-activated
 uuid: 018534b6-61a3-433e-bb60-49883c8b9386
 contentOwner: sauviat
@@ -11,73 +11,76 @@ topic-tags: managing-templates
 discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
+workflow-type: ht
+source-wordcount: '402'
+ht-degree: 100%
 
 ---
 
 
 # Sjablonen voor marketingactiviteiten {#marketing-activity-templates}
 
-## Over sjablonen {#about-templates}
+## Sjablonen {#about-templates}
 
-Wanneer u een nieuwe marketing activiteit creeert, vraagt het eerste scherm in de tovenaar u om een type, of een malplaatje te selecteren. Met sjablonen kunt u bepaalde parameters vooraf configureren op basis van uw behoeften. Het model kan een volledige of gedeeltelijke configuratie van de marketingactiviteit bevatten. Het sjabloonbeheer wordt uitgevoerd door de functionele beheerder.
+Wanneer u een nieuwe marketingactiviteit maakt, wordt u in het eerste venster van de Wizard gevraagd om een bepaald type of bepaalde sjabloon te selecteren. Met sjablonen kunt u sommige parameters vooraf configureren op basis van uw behoeften. De sjabloon bevat een volledige of gedeeltelijke configuratie van de marketingactiviteit. Sjabloonbeheer is de verantwoordelijkheid van de functionele beheerder.
 
-De eindgebruiker heeft een vereenvoudigde interface. Wanneer u een nieuwe marketingactiviteit maakt, hoeft u alleen de sjabloon te selecteren die u wilt gebruiken. U hoeft zich geen zorgen te maken over technische configuraties. Dit is reeds pre-gevormd door de functionele beheerder in het malplaatje.
+De eindgebruiker heeft een vereenvoudigde interface. Wanneer u een nieuwe marketingactiviteit maakt, hoeft u dus alleen maar de sjabloon te selecteren die u wilt gebruiken. U hoeft zich geen zorgen te maken over allerlei technische configuraties. De sjabloon is namelijk al voorbewerkt door de functionele beheerder.
 
-Bijvoorbeeld, in het geval van een e-mailmalplaatje, kunt u de inhoud van HTML, het publiek, en een andere parameter van uw levering vooraf vullen: schema, testprofielen, algemene eigenschappen van uw levering, de geavanceerde parameters, enz. Hierdoor kunt u tijd besparen wanneer u een nieuwe activiteit maakt.
+Bij een e-mailsjabloon bijvoorbeeld kunt u de HTML-content, de doelgroep en andere leveringsparameters al vooraf invullen. Denk hierbij aan het schema, de testprofielen, de algemene eigenschappen van uw levering, geavanceerde parameters, enz. Zo bespaart u tijd wanneer u een nieuwe activiteit maakt.
 
 ![](assets/template_1.png)
 
-Voor elk type van marketing activiteit, zijn één of verscheidene out-of-the-box malplaatjes beschikbaar met minimale configuratie. Deze out-of-the-box sjablonen kunnen niet worden gewijzigd of verwijderd.
+Voor elk type marketingactiviteit zijn er een of meer kant-en-klare sjablonen beschikbaar met minimale configuratie. De kant-en-klare sjablonen kunnen niet worden gewijzigd of verwijderd.
 
-Er zijn sjablonen beschikbaar voor de volgende marketingactiviteiten:
+Er zijn sjablonen voor de volgende marketingactiviteiten:
 
 * Programma&#39;s
 * Campagnes
 * E-mailleveringen
-* Leveringen via SMS
+* Leveringen via sms
 * Pushmeldingen
-* Openingspagina&#39;s
+* Landingspagina&#39;s
 * Workflows
 * Services
 * Importeren
 * Transactieberichten
 
-## Creating a new template {#creating-a-new-template}
+## Een nieuwe sjabloon maken {#creating-a-new-template}
 
-De malplaatjes van het bericht kunnen door de functionele beheerder van het platform, onder het **[!UICONTROL Resources > Templates]** menu worden beheerd. Sjablonen buiten de box kunnen niet worden gewijzigd of verwijderd. Als u een nieuwe sjabloon wilt maken, moet u een bestaande sjabloon dupliceren.
+Berichtsjablonen kunnen ook door de functionele beheerder van het platform worden beheerd via het menu **[!UICONTROL Resources > Templates]**. Kant-en-klare sjablonen kunnen niet worden gewijzigd of verwijderd. Als u een nieuwe sjabloon wilt maken, moet u eerst een bestaande sjabloon dupliceren.
 
-1. Selecteer een bestaande sjabloon. In ons voorbeeld hebben we een keuze gemaakt **[!UICONTROL Delivery template]**.
+1. Selecteer een bestaande sjabloon. In ons voorbeeld kiezen we **[!UICONTROL Delivery template]**.
 
    ![](assets/template_2.png)
 
-1. Houd de muisaanwijzer boven de cursor en selecteer de **[!UICONTROL Duplicate element]** optie.
+1. Houd de muisaanwijzer boven de cursor en selecteer de optie **[!UICONTROL Duplicate element]**.
 
    ![](assets/template_3.png)
 
-1. Configureer de gewenste instellingen, net zoals u doet bij het [maken van een nieuwe marketingactiviteit](../../start/using/marketing-activities.md#creating-a-marketing-activity) .
+1. Configureer de gewenste instellingen, net als bij het [maken van een nieuwe marketingactiviteit](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
    ![](assets/template_4.png)
 
-Gemaakte sjablonen kunnen vervolgens door de standaardgebruiker worden geselecteerd in het eerste scherm van de wizard tijdens het maken van een marketingactiviteit.
+De standaardgebruiker kan de gemaakte sjablonen vervolgens selecteren in het eerste Wizard-scherm wanneer hij of zij een marketingactiviteit maakt.
 
 ## Een sjabloon gebruiken {#using-a-template}
 
-We gaan nu bekijken hoe u een sjabloon kunt gebruiken die in de vorige sectie is gemaakt.
+We gaan nu kijken hoe u een sjabloon kunt gebruiken die in de vorige sectie is gemaakt.
 
 >[!NOTE]
 >
->Een marketingactiviteit op basis van een sjabloon wordt meestal uitgevoerd door een standaardgebruikersprofiel.
+>Meestal zijn het standaardgebruikers die een marketingactiviteit maken op basis van een sjabloon.
 
 1. Maak een nieuwe marketingactiviteit.
 
    ![](assets/template_5.png)
 
-1. Selecteer in het eerste scherm van de wizard de sjabloon die u wilt gebruiken.
+1. In het eerste scherm van de wizard selecteert u de sjabloon die u wilt gebruiken.
 
    ![](assets/template_6.png)
 
-   De marketing activiteit wordt pre-gevormd met de parameters die in het malplaatje worden bepaald.
+   De marketingactiviteit wordt vooraf geconfigureerd met de parameters die in de sjabloon zijn gedefinieerd.
 
    ![](assets/template_7.png)
