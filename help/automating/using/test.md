@@ -1,6 +1,6 @@
 ---
-title: Testen
-description: De activiteit van de Test laat een overgang toe die op een testresultaat wordt gebaseerd.
+title: Test
+description: De testactiviteit maakt een overgang mogelijk die is gebaseerd op een testresultaat.
 page-status-flag: never-activated
 uuid: 1562ec7a-253a-4f4f-b66a-c2948b57775a
 contentOwner: sauviat
@@ -12,29 +12,32 @@ discoiquuid: 2650bf1f-0bce-4049-a226-2369f6666b95
 context-tags: jstest,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '176'
+ht-degree: 100%
 
 ---
 
 
-# Testen{#test}
+# Test{#test}
 
 ## Beschrijving {#description}
 
 ![](assets/test.png)
 
-De **[!UICONTROL Test]** activiteit laat een overgang toe die op een testresultaat wordt gebaseerd.
+De **[!UICONTROL Test]**-activiteit maakt een overgang mogelijk die is gebaseerd op een testresultaat.
 
 ## Gebruikscontext {#context-of-use}
 
-Een **testactiviteit** activeert de eerste overgang die aan de voorwaarde verbonden aan het voldoet.
+Een **testactiviteit** activeert de eerste overgang die aan de gekoppelde voorwaarde voldoet.
 
-Als aan geen voorwaarde wordt voldaan en als de optie **Standaardovergang** gebruiken wordt geactiveerd, zal een standaardovergang worden geactiveerd.
+Als aan geen voorwaarde is voldaan en als de optie **Use default transition** (Standaardovergang gebruiken) is geactiveerd, wordt een standaardovergang geactiveerd.
 
 ![](assets/wkf_test_activity_example.png)
 
-De voorwaarden kunnen op **functies**, of op **variabelen** worden gebaseerd, bijvoorbeeld gebeurtenisvariabelen die in de **[!UICONTROL External signal]** activiteit van de werkstroom zijn verklaard.
+Voorwaarden zijn gebaseerd op **functies** of op **variabelen**, zoals gebeurtenisvariabelen die in de **[!UICONTROL External signal]**-activiteit van de workflow zijn opgegeven.
 
 **Verwante onderwerpen:**
 
@@ -43,17 +46,17 @@ De voorwaarden kunnen op **functies**, of op **variabelen** worden gebaseerd, bi
 
 ## Configuratie {#configuration}
 
-1. Sleep een **[!UICONTROL Test]** activiteit naar de werkstroom.
-1. Selecteer de activiteit, dan open het gebruikend de ![](assets/edit_darkgrey-24px.png) knoop van de snelle acties die verschijnen.
-1. De kenmerken van elke voorwaarde definiëren:
+1. Sleep een **[!UICONTROL Test]**-activiteit en plaats deze in de workflow.
+1. Selecteer de activiteit en open deze met de knop ![](assets/edit_darkgrey-24px.png) vanuit de snelle acties die verschijnen.
+1. Kenmerken van elke voorwaarde definiëren:
 
-   Bij het bewerken van het **[!UICONTROL Condition]** veld bieden twee knoppen hulp bij het aanroepen van gebeurtenisvariabelen en het bewerken van expressies waarin variabelen en functies worden gecombineerd:
+   Bij het bewerken van het veld **[!UICONTROL Condition]** krijgt u via twee knoppen hulp bij het aanroepen van gebeurtenisvariabelen en bij het bewerken van expressies waarin variabelen en functies worden gecombineerd:
 
-   * ![](assets/extsignal_picker.png): Selecteer de gebeurtenisvariabele onder alle variabelen die beschikbaar zijn in de workflow (zie Een workflow met externe parameters [](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-a-workflow-with-external-parameters)aanpassen)
+   * ![](assets/extsignal_picker.png): selecteer de gewenste gebeurtenisvariabele tussen alle variabelen die beschikbaar zijn in de workflow (zie [Een workflow met externe parameters aanpassen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-a-workflow-with-external-parameters))
 
       ![](assets/wkf_test_activity_variables.png)
 
-   * ![](assets/extsignal_expression_editor.png): bewerkingsexpressies waarin variabelen en functies worden gecombineerd. Voor meer op de redacteur van de Uitdrukking, verwijs naar [deze sectie](../../automating/using/advanced-expression-editing.md).
+   * ![](assets/extsignal_expression_editor.png): bewerk expressies waarin variabelen en functies worden gecombineerd. Raadpleeg [deze sectie](../../automating/using/advanced-expression-editing.md) voor meer informatie over de expressie-editor.
 
       ![](assets/wkf_test_activity_variables_expression.png)
 
