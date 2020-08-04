@@ -1,5 +1,5 @@
 ---
-title: wekelijkse levering maken
+title: Een wekelijkse levering maken
 description: Met deze gebruiksaanwijzing kunt u zien hoe u een wekelijkse levering maakt.
 page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 2%
+ht-degree: 81%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 2%
 
 U kunt elke dinsdag een e-mail naar alle klanten sturen voor speciale aanbiedingen.
 
-1. Klik in **[!UICONTROL Marketing Activities]** en selecteer **[!UICONTROL Create]** de optie **[!UICONTROL Workflow]**.
+1. Klik in **[!UICONTROL Marketing Activities]** op **[!UICONTROL Create]** en selecteer **[!UICONTROL Workflow]**.
 1. Selecteer **[!UICONTROL New Workflow]** als workflowtype en klik op **[!UICONTROL Next]**.
 1. Voer eigenschappen van de workflow in en klik op **[!UICONTROL Create]**.
 
-## Een planningsactiviteit maken{#creating-a-scheduler-activity}
+## Een activiteit Planner maken{#creating-a-scheduler-activity}
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, sleep en laat vallen een activiteit van de [Planner](../../automating/using/scheduler.md) .
 1. Dubbelklik op de activiteit.
@@ -37,21 +37,21 @@ U kunt elke dinsdag een e-mail naar alle klanten sturen voor speciale aanbieding
 1. In **[!UICONTROL Execution frequency]** selecteert u **[!UICONTROL Weekly]**.
 1. Selecteer een **[!UICONTROL Time]** en een **[!UICONTROL Repetition frequency]** voor uw leveringen.
 1. In **[!UICONTROL Days of the week]** selecteert u **[!UICONTROL Tuesday]**.
-1. Geef een **[!UICONTROL Start]** en een **[!UICONTROL Expiration]** parameter voor de workflow op.
-1. Bevestig uw activiteit en sla uw werkschema op.
+1. Geef de parameters **[!UICONTROL Start]** en **[!UICONTROL Expiration]** op voor de workflow.
+1. Bevestig uw activiteit en sla de workflow op.
 
 ![](assets/scheduler_properties.png)
 
 >[!NOTE]
 >
->Om uw werkschema bij een specifiek **[!UICONTROL Time Zone]**, op het **[!UICONTROL Execution options]** lusje te beginnen, opstelling de tijdzone voor uw planner op het gebied van de tijdzone. Standaard is de geselecteerde tijdzone de tijdzone die is gedefinieerd in de workfloweigenschappen (zie [Een workflow](../../automating/using/building-a-workflow.md)maken).
+>Om uw workflow in een specifieke **[!UICONTROL Time Zone]** te starten stelt u in het tabblad **[!UICONTROL Execution options]** de tijdzone voor uw planner in in het veld voor de tijdzone. Standaard is de geselecteerde tijdzone de tijdzone die is gedefinieerd in de workfloweigenschappen (zie [Een workflow maken](../../automating/using/building-a-workflow.md)).
 
-## Query-activiteiten maken{#creating-a-query-activity}
+## Een queryactiviteit maken{#creating-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, om ontvangers te selecteren, sleep en laat vallen een activiteit van de [Vraag](../../automating/using/query.md) en klik het tweemaal.
-1. In **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]**, belemmering en daling **[!UICONTROL Email]**.
-1. Selecteren **[!UICONTROL is not empty]** als een operator.
-1. Voeg in **[!UICONTROL Shortcuts]** > **[!UICONTROL General]** profielen toe en selecteer deze **[!UICONTROL no longer contact by email]** met de waarde **[!UICONTROL No]**.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, to select recipients, drag and drop a [Query](../../automating/using/query.md) activity and double-click it.
+1. Sleep en zet een **[!UICONTROL Email]** neer in **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]**.
+1. Selecteer **[!UICONTROL is not empty]** als een operator.
+1. Voeg in **[!UICONTROL Shortcuts]** > **[!UICONTROL General]** profielen toe en selecteer **[!UICONTROL no longer contact by email]** met de waarde **[!UICONTROL No]**.
 1. Klik op **[!UICONTROL Confirm]**.
 
 ![](assets/wf-complement-query.png)
@@ -59,16 +59,16 @@ U kunt elke dinsdag een e-mail naar alle klanten sturen voor speciale aanbieding
 ## Een e-maillevering maken{#creating-an-email-delivery}
 
 1. Sleep in **[!UICONTROL Activities]** > **[!UICONTROL Channels]** een activiteit voor het verzenden van [e-mail](../../automating/using/email-delivery.md) en zet deze neer.
-1. Klik op de activiteit en selecteer deze ![](assets/edit_darkgrey-24px.png) om te bewerken.
+1. Klik op de activiteit en selecteer ![](assets/edit_darkgrey-24px.png) om te bewerken.
 1. Selecteer **[!UICONTROL Recurring email]** en klik op **[!UICONTROL Next]**.
 1. Selecteer een e-mailsjabloon en klik op **[!UICONTROL Next]**.
 1. Voer de e-maileigenschappen in en klik op **[!UICONTROL Next]**.
-1. Klik op om de lay-out van uw e-mail te maken **[!UICONTROL Use Email Designer]**.
+1. Klik op **[!UICONTROL Use Email Designer]** om de lay-out van uw e-mail te bepalen.
 1. Voeg elementen in of selecteer een bestaande sjabloon.
-1. Pas uw e-mail aan met behulp van velden en koppelingen.
+1. Personaliseer uw e-mail met velden en koppelingen.
 1. Klik op **[!UICONTROL Save]**.
 
-Raadpleeg voor meer informatie het [ontwerpen van een e-mail](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+Raadpleeg [Een e-mail ontwerpen](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch) voor meer informatie.
 
 **Verwante onderwerpen:**
 
