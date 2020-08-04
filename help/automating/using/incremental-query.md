@@ -1,6 +1,6 @@
 ---
 title: Incrementele query
-description: Met de incrementele query-activiteit kunt u een groep elementen filteren en extraheren uit de Adobe Campaign-database.
+description: Met de incrementele queryactiviteit kunt u een populatie van elementen filteren en extraheren uit de Adobe Campaign-database.
 page-status-flag: never-activated
 uuid: 73b42422-e815-43ef-84c0-97c4433ccc98
 contentOwner: sauviat
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 0%
+ht-degree: 98%
 
 ---
 
@@ -27,25 +27,25 @@ ht-degree: 0%
 
 ![](assets/incremental.png)
 
-Met deze **[!UICONTROL Incremental query]** activiteit kunt u een reeks elementen filteren en extraheren uit de Adobe Campaign-database. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Hierdoor kunt u alleen nieuwe elementen als doel instellen.
+Met de activiteit **[!UICONTROL Incremental query]** kunt u een populatie van elementen filteren en extraheren uit de Adobe Campaign-database. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Zo kunt u doelgericht alleen nieuwe elementen benaderen.
 
-U kunt **[!UICONTROL Additional data]** voor de doelpopulatie definiëren via een toegewezen tabblad. Deze gegevens worden opgeslagen in extra kolommen en kunnen alleen worden gebruikt voor de actieve workflow.
+Via een toegewezen tabblad kunt u **[!UICONTROL Additional data]** voor de doelpopulatie definiëren. Deze data worden in extra kolommen opgeslagen en kunnen alleen worden gebruikt voor de actieve workflow.
 
-De activiteit gebruikt het hulpmiddel van de vraagredacteur. Dit hulpmiddel wordt gedetailleerd in een [specifieke sectie](../../automating/using/editing-queries.md#about-query-editor).
+Deze activiteit maakt gebruikt van de tool Query-editor. Deze tool wordt gedetailleerd beschreven in een [specifieke sectie](../../automating/using/editing-queries.md#about-query-editor).
 
 ## Gebruikscontext {#context-of-use}
 
-Er **[!UICONTROL Incremental query]** moet een koppeling zijn naar een query **[!UICONTROL Scheduler]** om de uitvoeringsfrequentie van de workflow te definiëren, en dus ook naar de query.
+Een **[!UICONTROL Incremental query]** moet gekoppeld worden aan een **[!UICONTROL Scheduler]** om de uitvoeringsfrequentie van de workflow, en dus de query te definiëren.
 
-Op het **[!UICONTROL Processed data]** tabblad, dat specifiek is voor deze activiteit, kunt u, indien nodig, alle resultaten bekijken van de vorige uitvoeringen van de activiteit.
+Op het tabblad **[!UICONTROL Processed data]** dat specifiek is bedoeld voor deze activiteit, kunt u indien nodig alle resultaten bekijken van de vorige uitvoeringen van de activiteit.
 
-De **[!UICONTROL Incremental query]** activiteit kan voor diverse soorten gebruik worden gebruikt:
+De activiteit **[!UICONTROL Incremental query]** kan voor diverse doeleinden worden gebruikt:
 
-* Individuen segmenteren om het doel van een bericht, publiek, enz. te bepalen.
+* Individuele gebruikers segmenteren om het doel van een bericht, doelgroep, enz te bepalen.
 
-* Gegevens exporteren.
+* Data exporteren.
 
-   U kunt een **[!UICONTROL Incremental query]** activiteit gebruiken om nieuwe login dossiers regelmatig uit te voeren. Het kan bijvoorbeeld nuttig zijn als u uw logboekgegevens in externe rapportering of hulpmiddelen van BI wilt gebruiken. Een volledig voorbeeld is beschikbaar in de sectie Logbestanden [exporteren](../../automating/using/exporting-logs.md) .
+   U kunt een activiteit **[!UICONTROL Incremental query]** gebruiken om regelmatig nieuwe logboeken in bestanden te exporteren. Dit kan bijvoorbeeld nuttig zijn als u uw loggegevens wilt gebruiken in externe rapporten of BI-tools. Een volledig voorbeeld is beschikbaar in de sectie [Logboeken exporteren](../../automating/using/exporting-logs.md).
 
 **Verwante onderwerpen**
 
@@ -53,28 +53,28 @@ De **[!UICONTROL Incremental query]** activiteit kan voor diverse soorten gebrui
 
 ## Configuratie {#configuration}
 
-1. Sleep een **[!UICONTROL Incremental query]** activiteit naar uw werkstroom.
-1. Selecteer de activiteit, dan open het gebruikend de ![](assets/edit_darkgrey-24px.png) knoop van de snelle acties die verschijnen.
-1. Als u een vraag op een middel buiten het profielmiddel zou willen in werking stellen, ga naar het **[!UICONTROL Properties]** lusje van de activiteit en selecteer **[!UICONTROL Resource]** en **[!UICONTROL Targeting dimension]**.
+1. Sleep een activiteit **[!UICONTROL Incremental query]** en zet deze neer in uw workflow.
+1. Selecteer de activiteit en open deze met de knop ![](assets/edit_darkgrey-24px.png) vanuit de snelle acties die verschijnen.
+1. Als u een query wilt uitvoeren op een andere bron dan een profielbron, gaat u naar het tabblad **[!UICONTROL Properties]** van de activiteit en selecteert u een **[!UICONTROL Resource]** en een **[!UICONTROL Targeting dimension]**.
 
-   Met de optie **[!UICONTROL Resource]** kunt u de filters verfijnen die in het palet worden weergegeven, terwijl de **[!UICONTROL Targeting dimension]** context met betrekking tot de geselecteerde bron overeenkomt met het type populatie dat u wilt verkrijgen (geïdentificeerde profielen, leveringen, gegevens die zijn gekoppeld aan de geselecteerde bron, enz.).
+   Met de optie **[!UICONTROL Resource]** kunt u de filters verfijnen die in het palet worden weergegeven, terwijl de optie **[!UICONTROL Targeting dimension]** (binnen de context van de geselecteerde bron) overeenkomt met het type populatie dat u wilt verkrijgen (geïdentificeerde profielen, leveringen, data die zijn gekoppeld aan de geselecteerde bron, enz.).
 
-1. Voer op het **[!UICONTROL Target]** tabblad uw query uit door regels te definiëren en te combineren.
-1. Kies op het **[!UICONTROL Processed data]** tabblad de incrementele modus die u wilt gebruiken voor de volgende uitvoeringen van de workflow:
+1. Voer op het tabblad **[!UICONTROL Target]** uw query uit door regels te definiëren en te combineren.
+1. Kies op het tabblad **[!UICONTROL Processed data]** de incrementele modus die u wilt gebruiken voor de volgende uitvoeringen van de workflow:
 
-   * **[!UICONTROL Use the exclusion of the results of previous executions]**: de resultaten van eerdere uitvoeringen voor elke nieuwe uitvoering zijn uitgesloten .
-   * **[!UICONTROL Use a date field]**: bij de volgende uitvoeringen wordt alleen rekening gehouden met de resultaten waarbij het geselecteerde datumveld groter of gelijk is aan de laatste uitvoeringsdatum van de **[!UICONTROL Incremental query]** activiteit. U kunt elk datumveld selecteren dat betrekking heeft op de bron die op het **[!UICONTROL Properties]** tabblad is geselecteerd. Deze modus biedt betere prestaties bij het opvragen van grote bronnen, zoals loggegevens.
+   * **[!UICONTROL Use the exclusion of the results of previous executions]**: De resultaten van eerdere uitvoeringen zijn uitgesloten van elke nieuwe uitvoering.
+   * **[!UICONTROL Use a date field]**: Bij de volgende uitvoeringen wordt alleen rekening gehouden met de resultaten waarvan het geselecteerde datumveld groter is dan of gelijk is aan de laatste uitvoeringsdatum van de activiteit **[!UICONTROL Incremental query]**. U kunt elk datumveld selecteren dat betrekking heeft op de bron die is geselecteerd op het tabblad **[!UICONTROL Properties]**. Deze modus biedt betere prestaties bij het uitvoeren van query&#39;s op grote bronnen, zoals loggegevens.
 
-      Na de eerste uitvoering van de workflow ziet u op dit tabblad de laatste uitvoeringsdatum die wordt gebruikt voor de volgende uitvoering. Deze wordt automatisch bijgewerkt wanneer de workflow wordt uitgevoerd. U kunt deze waarde nog steeds overschrijven door handmatig een nieuwe waarde in te voeren zodat deze aan uw behoeften voldoet.
+      Na de eerste uitvoering van de workflow ziet u op dit tabblad de laatste uitvoeringsdatum die wordt gebruikt voor de volgende uitvoering. Deze wordt automatisch steeds bijgewerkt wanneer de workflow wordt uitgevoerd. U kunt deze waarde ook overschrijven door handmatig een nieuwe waarde in te voeren die beter aan uw behoeften voldoet.
    >[!NOTE]
    >
-   >In de **[!UICONTROL Use a date field]** modus is meer flexibiliteit mogelijk, afhankelijk van het datumveld dat is geselecteerd. Als het geselecteerde veld bijvoorbeeld overeenkomt met een wijzigingsdatum, kunt u in de modus Datumveld gegevens ophalen die onlangs zijn bijgewerkt, terwijl in de andere modus alleen opnamen worden uitgesloten die in een vorige uitvoering al als doel waren ingesteld, zelfs als deze zijn gewijzigd sinds de laatste uitvoering van de workflow.
+   >In de modus **[!UICONTROL Use a date field]** is meer flexibiliteit mogelijk, afhankelijk van het datumveld dat is geselecteerd. Als het geselecteerde veld bijvoorbeeld overeenkomt met een wijzigingsdatum, kunt u in de datumveldmodus data opvragen die recentelijk zijn bijgewerkt. De andere modus sluit opnames echter gewoon uit die al in een eerdere uitvoering waren benaderd, zelfs als deze sinds de laatste uitvoering van de workflow zijn gewijzigd.
 
    ![](assets/incremental_query_usedatefield.png)
 
-1. U kunt **[!UICONTROL Additional data]** voor de doelpopulatie definiëren via een toegewezen tabblad. Deze gegevens worden opgeslagen in extra kolommen en kunnen alleen worden gebruikt voor de actieve workflow. Met name kunt u gegevens uit de Adobe Campaign-databasetabellen toevoegen die zijn gekoppeld aan de doeldimensie van de query. Raadpleeg de sectie [Verrijkende gegevens](../../automating/using/query.md#enriching-data) .
-1. Bevestig de configuratie van uw activiteit en sla uw werkschema op.
+1. Via een toegewezen tabblad kunt u **[!UICONTROL Additional data]** voor de doelpopulatie definiëren. Deze data worden in extra kolommen opgeslagen en kunnen alleen worden gebruikt voor de actieve workflow. U kunt met name data toevoegen uit de Adobe Campaign-databasetabellen die zijn gekoppeld aan de doeldimensie van de query. Raadpleeg de sectie [Data verrijken](../../automating/using/query.md#enriching-data).
+1. Bevestig de configuratie van uw activiteit en sla de workflow op.
 
-## Gegevens worden verrijkt {#enriching-data}
+## Data verrijken {#enriching-data}
 
-Enkel zoals voor een vraag, kunt u de gegevens van een verrijken **[!UICONTROL Incremental query]**. Raadpleeg de sectie [Verrijkende gegevens](../../automating/using/query.md#enriching-data) .
+Net als bij een query kunt u de data van een **[!UICONTROL Incremental query]** verrijken. Raadpleeg de sectie [Data verrijken](../../automating/using/query.md#enriching-data).
