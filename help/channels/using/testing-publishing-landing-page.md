@@ -1,6 +1,6 @@
 ---
-title: Een openingspagina delen
-description: Leer hoe u een openingspagina test en publiceert in Adobe Campaign.
+title: Een landingspagina delen
+description: Leer hoe u een landingspagina test en publiceert in Adobe Campaign.
 page-status-flag: never-activated
 uuid: fb7b087a-3292-496c-bc41-2e3012bacf59
 contentOwner: sauviat
@@ -11,55 +11,58 @@ topic-tags: landing-pages
 discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
+workflow-type: ht
+source-wordcount: '383'
+ht-degree: 100%
 
 ---
 
 
-# Een bestemmingspagina testen en publiceren{#testing-publishing--landing-page}
+# Een landingspagina testen en publiceren{#testing-publishing--landing-page}
 
-## Publicatie van bestemmingspagina {#about-landing-page-publication}
+## De publicatie van een landingspagina {#about-landing-page-publication}
 
-Voordat u een bestemmingspagina publiceert, moet u tests uitvoeren: valideer de uitvoering, configureer de toegang en stel het einde van de levensduur van de bestemmingspagina in. Deze stappen zijn voorwaarden en moeten met voorzichtigheid worden uitgevoerd.
+Voordat u een landingspagina publiceert, moet u tests uitvoeren: valideer de uitvoering, configureer de toegang en stel het einde van de levensduur van de landingspagina in. Deze stappen zijn vereist en moeten voorzichtig worden uitgevoerd.
 
-## De bestemmingspagina testen {#testing-the-landing-page-}
+## De landingspagina testen {#testing-the-landing-page-}
 
-Aangezien de landingspagina uw platform en gegevens zal beïnvloeden, moet u zorgvuldig testen zijn uitvoering. Dit doet u als volgt:
+Aangezien de landingspagina uw platform en data zal beïnvloeden, moet u de uitvoering ervan zorgvuldig testen. Dit doet u als volgt:
 
-1. Klik op de **[!UICONTROL Test]** knop op de actiebalk van de bestemmingspagina.
-1. Selecteer in het testscherm een testprofiel en een testservice als de landingspagina abonnementen moet beheren.
+1. Klik op de knop **[!UICONTROL Test]** op de actiebalk van de landingspagina.
+1. Selecteer in het testscherm een testprofiel en een testservice als de landingspagina wordt gebruikt voor het beheren van abonnementen.
 
    ![](assets/lp_test_2.png)
 
-1. Voer gegevens in de velden in en selecteer opties.
-1. Verzend de bestemmingspagina en controleer updates in het gegevensbestand.
+1. Voer data in de velden in en selecteer opties.
+1. Verzend de landingspagina en controleer updates in de database.
 
    >[!IMPORTANT]
    >
-   >Wanneer het formulier wordt verzonden, worden de service en het gebruikte profiel bijgewerkt.
+   >Wanneer het formulier is verzonden, worden de gebruikte service en het gebruikte profiel bijgewerkt.
 
-1. Herhaal dit met verschillende profielen en gegevens.
+1. Herhaal dit met verschillende profielen en data.
 
-   U kunt ook de miniatuur van de openingspagina genereren op basis van dit scherm.
+   U kunt ook de miniatuur van de landingspagina genereren vanuit dit scherm.
 
 >[!NOTE]
 >
->Als u de voorvertoning van de bestemmingspagina wilt weergeven in de gebruikersinterface van Campagne, moet de URL van de toepassingsserver veilig zijn. In dat geval gebruikt u https:// in plaats van http:// om deze URL in te stellen bij het [configureren van uw merk](../../administration/using/branding.md#configuring-and-using-brands).
+>Als u de voorvertoning van de landingspagina wilt weergeven in de gebruikersinterface van Campaign, moet de URL van de applicatieserver beveiligd zijn. In dat geval gebruikt u https:// in plaats van http:// om deze URL in te stellen bij het [configureren van uw merk](../../administration/using/branding.md#configuring-and-using-brands).
 
 ## Geldigheidsparameters instellen {#setting-up-validity-parameters}
 
-Voordat u gaat publiceren, raden we u uit veiligheidsoverwegingen en om prestaties van het platform aan een vervaldatum in te stellen in de eigenschappen van de bestemmingspagina. Op de geselecteerde datum wordt de bestemmingspagina automatisch niet gepubliceerd. Dit doet u als volgt:
+Voordat u gaat publiceren, is het met het oog op de veiligheid en platformprestaties raadzaam om een vervaldatum in te stellen in de eigenschappen van de landingspagina. Op de geselecteerde datum wordt de publicatie van de landingspagina automatisch ongedaan gemaakt. Dit doet u als volgt:
 
-1. Bewerk de eigenschappen van de bestemmingspagina die via de ![](assets/edit_darkgrey-24px.png) knop in het dashboard van de bestemmingspagina worden benaderd.
+1. Bewerk de eigenschappen van de landingspagina, die toegankelijk zijn via de knop ![](assets/edit_darkgrey-24px.png) in het dashboard van de landingspagina.
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Vervaldatum en -tijd instellen in de **[!UICONTROL Publication]** sectie: de landingspagina wordt automatisch gepubliceerd op de opgegeven datum en is daarom niet langer beschikbaar.
+1. Stel de vervaldatum en -tijd in in de sectie **[!UICONTROL Publication]**: de publicatie van de landingspagina wordt op de opgegeven datum automatisch ongedaan gemaakt en is dan niet langer beschikbaar.
 
-   U kunt de tijdzone selecteren waarmee u rekening wilt houden voor deze datum en tijd.
+   U kunt de tijdzone selecteren die voor deze datum en tijd in aanmerking moet worden genomen.
 
-1. Definieer een URL voor omleiding om bezoekers om te leiden wanneer ze proberen een niet-actieve bestemmingspagina te openen.
+1. Definieer een omleidings-URL om bezoekers om te leiden wanneer ze proberen een niet-actieve landingspagina te openen.
 
    ![](assets/lp_settings_general.png)
 
@@ -67,8 +70,8 @@ Voordat u gaat publiceren, raden we u uit veiligheidsoverwegingen en om prestati
 >
 >U kunt ook een implementatiedatum en -tijd definiëren: de landingspagina wordt dan automatisch gepubliceerd op de opgegeven datum.
 
-## Een openingspagina publiceren {#publishing-a-landing-page}
+## Een landingspagina publiceren {#publishing-a-landing-page}
 
-Wanneer u een landingspagina publiceert, wordt deze live weergegeven en kan deze worden geopend door uw bezoekers.
+Wanneer u een landingspagina publiceert, wordt deze live weergegeven. De landingspagina kan dan worden geopend door uw bezoekers.
 
-U kunt de publicatie of update van de bestemmingspagina op elk gewenst moment ongedaan maken en opnieuw publiceren via de **[!UICONTROL Publish]** knop. Als het opnieuw publiceren mislukt en u de bestemmingspagina nog niet hebt gepubliceerd, blijft de eerste versie online.
+U kunt de publicatie van de landingspagina op elk gewenst moment ongedaan maken of de landingspagina bijwerken en opnieuw publiceren via de knop **[!UICONTROL Publish]**. Als het opnieuw publiceren mislukt en u de publicatie van de landingspagina nog niet ongedaan hebt gemaakt, blijft de eerste versie online.
