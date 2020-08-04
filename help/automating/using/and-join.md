@@ -1,6 +1,6 @@
 ---
 title: AND-join
-description: Met de activiteit AND-join kunt u meerdere uitvoervertakkingen van een workflow synchroniseren.
+description: Met de activiteit AND-join kunt u meerdere uitvoeringstakken van een workflow synchroniseren.
 page-status-flag: never-activated
 uuid: 9b54fd4c-9915-400f-a494-74e52c329b8a
 contentOwner: sauviat
@@ -12,8 +12,11 @@ discoiquuid: 4b55efa2-652e-4493-bfa7-eaee59b383ca
 context-tags: andjoin,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '178'
+ht-degree: 100%
 
 ---
 
@@ -24,24 +27,24 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/and_join.png)
 
-Met deze **[!UICONTROL AND-join]** activiteit kunt u meerdere uitvoeringstakken van een workflow synchroniseren.
+Met de activiteit **[!UICONTROL AND-join]** kunt u meerdere uitvoeringstakken van een workflow synchroniseren.
 
 ## Gebruikscontext {#context-of-use}
 
-De **[!UICONTROL AND-join]** activiteit brengt slechts zijn uitgaande overgang teweeg zodra alle binnenkomende overgangen, met andere woorden, worden geactiveerd zodra alle voorafgaande activiteiten zijn geëindigd.
+De activiteit **[!UICONTROL AND-join]** start de uitgaande overgang pas wanneer alle binnenkomende overgangen zijn geactiveerd, met andere woorden wanneer alle voorafgaande activiteiten zijn geëindigd.
 
 ## Configuratie {#configuration}
 
-1. U kunt meerdere activiteiten, zoals query&#39;s, in uw werkstroom neerzetten om minstens twee verschillende uitvoertakken te vormen.
-1. Sleep een **[!UICONTROL AND-join]** activiteit naar uw werkstroom.
-1. Verbind het na de twee verschillende takken die u zou willen synchroniseren.
-1. Selecteer de activiteit, dan open het gebruikend de ![](assets/edit_darkgrey-24px.png) knoop van de snelle acties die verschijnen.
-1. Selecteer de hoofdset die in de uitgaande overgang moet worden bewaard. Als u geen set selecteert, wordt een willekeurige populatie verzonden uit de activiteit.
-1. Bevestig de configuratie van uw activiteit en sla uw werkschema op.
+1. Sleep meerdere activiteiten, zoals query’s, naar uw workflow om minstens twee verschillende uitvoeringstakken te vormen.
+1. Sleep een activiteit **[!UICONTROL AND-join]** en zet deze neer in uw workflow.
+1. Verbind de activiteit na de twee verschillende takken die u wilt synchroniseren.
+1. Selecteer de activiteit en open deze met de knop ![](assets/edit_darkgrey-24px.png) vanuit de snelle acties die verschijnen.
+1. Selecteer de hoofdset die in de uitgaande overgang behouden moet blijven. Als u geen set selecteert, wordt een willekeurige populatie verzonden vanuit de activiteit.
+1. Bevestig de configuratie van uw activiteit en sla de workflow op.
 
 ## Voorbeeld {#example}
 
-In het volgende voorbeeld worden twee workflowvertakkingen getoond voordat er verbinding wordt gemaakt met de **[!UICONTROL AND-join]** activiteit. Het extraheren van bestanden kan alleen plaatsvinden wanneer de drie binnenkomende overgangen van de **[!UICONTROL AND-join]** activiteit zijn ingeschakeld.
+In het volgende voorbeeld ziet u workflowvertakkingen voordat ze aan de activiteit **[!UICONTROL AND-join]** zijn gekoppeld. Het extraheren van bestanden kan pas plaatsvinden wanneer de drie binnenkomende overgangen van de activiteit **[!UICONTROL AND-join]** zijn ingeschakeld.
 
 ![](assets/wkf_and-join_example.png)
 
