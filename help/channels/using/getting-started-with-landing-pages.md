@@ -1,6 +1,6 @@
 ---
-title: Belangrijkste stappen voor het instellen van een bestemmingspagina
-description: Leer de belangrijkste stappen voor het instellen van een bestemmingspagina
+title: Belangrijkste stappen voor het instellen van een landingspagina
+description: Leer de belangrijkste stappen voor het instellen van een landingspagina
 page-status-flag: never-activated
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: lemaitre
@@ -12,124 +12,127 @@ discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0dd69cbad3e05a5a7eb36da80264e6eb6aae0e34
+workflow-type: ht
+source-wordcount: '1007'
+ht-degree: 100%
 
 ---
 
 
-# Aan de slag met bestemmingspagina&#39;s {#getting-started-with-landing-pages}
+# Aan de slag met landingspagina&#39;s {#getting-started-with-landing-pages}
 
-De belangrijkste stappen bij het instellen van bestemmingspagina&#39;s zijn als volgt:
+De belangrijkste stappen bij het instellen van landingspagina&#39;s zijn als volgt:
 
 ![](assets/lp_steps.png)
 
-Op deze pagina vindt u informatie over elk van deze stappen en verwijzingen naar de specifieke documentatie voor meer informatie.
+Op deze pagina vindt u informatie over elk van deze stappen en verwijzingen naar des desbetreffende documentatie voor meer informatie.
 
 **Verwante onderwerpen:**
 
-* [Video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html) over het maken van zelfstudies voor landingspagina&#39;s
+* [Tutorial voor het maken van landingspagina&#39;s](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html) (video)
 * [Een service maken](../../audiences/using/creating-a-service.md)
-* [Een dubbele opt-in-procedure instellen](setting-up-a-double-opt-in-process.md)
+* [Een dubbele opt-inprocedure instellen](setting-up-a-double-opt-in-process.md)
 
-## Beperkingen op landingspagina{#landing-page-limitations}
+## Beperkingen voor landingspagina{#landing-page-limitations}
 
-In de onderstaande sectie worden de beperkingen weergegeven die u moet kennen voordat u start met het instellen van bestemmingspagina&#39;s.
+In de onderstaande sectie worden enkele beperkingen weergegeven die u moet kennen voordat u landingspagina&#39;s gaat instellen.
 
-**Gegevens schrijven en bijwerken**
+**Schrijven en bijwerken van data**
 
-* Openingspagina&#39;s zijn beperkt tot **[!UICONTROL Profile]** en alleen **[!UICONTROL Subscription]** bronnen. Een record kan worden opgeslagen en bijgewerkt vanuit **[!UICONTROL Profile]** en via een abonnement of abonnement op een **[!UICONTROL Service]**.
-Meer over middelenconfiguratie leren, zie het [Vormen van de de gegevensstructuur](../../developing/using/configuring-the-resource-s-data-structure.md)van het middel.
+* Landingspagina&#39;s zijn alleen beschikbaar voor de bronnen **[!UICONTROL Profile]** en **[!UICONTROL Subscription]**. Een record kan worden opgeslagen en bijgewerkt vanuit **[!UICONTROL Profile]** en een abonnement of uitschrijving naar een **[!UICONTROL Service]**.
+Voor meer informatie over bronconfiguratie gaat u naar [De datastructuur van een bron configureren](../../developing/using/configuring-the-resource-s-data-structure.md).
 
 >[!CAUTION]
 >
->Een landingspagina kan geen gegevens van een andere bron tonen of bijwerken dan **[!UICONTROL Profile]** en **[!UICONTROL Subscription]**.
+>Een landingspagina kan alleen data van de bronnen **[!UICONTROL Profile]** en **[!UICONTROL Subscription]** weergeven of bijwerken.
 
 **Vooraf laden**
 
-* Op de bestemmingspagina kan niet automatisch een lijst met records worden weergegeven. Er kunnen geen services worden vermeld waarop profielen al zijn geabonneerd. Raadpleeg deze [pagina](../../audiences/using/creating-a-service.md)voor meer informatie over services.
+* De landingspagina kan niet automatisch een lijst met records weergeven. Ook kunnen er geen services worden vermeld waarop profielen al zijn geabonneerd. Raadpleeg deze [pagina](../../audiences/using/creating-a-service.md) voor meer informatie over services.
 
-* Openingspagina met een vooraf ingevuld formulier (gegevens worden vooraf met de pagina geladen) is alleen toegankelijk via een e-mailbericht voor Adobe Campagne. Een dergelijk formulier kan niet worden geopend vanaf een websitepagina.
+* Landingspagina&#39;s met een vooraf ingevuld formulier (data zijn al op de pagina ingevuld) zijn alleen toegankelijk via een e-mailbericht van Adobe Campaign. Een dergelijk formulier kan niet worden geopend vanaf een websitepagina.
 
-**Verzoening**
+**Afstemming**
 
-* Het afstemmingsgedrag is als volgt: zodra een overeenkomst wordt gevonden, stopt het afstemmingsproces. Dit betekent dat de afstemming alleen kan worden uitgevoerd op één profielrecord en niet op meerdere records wanneer er duplicaten zijn.
+* Afstemming werkt als volgt: zodra een overeenkomst wordt gevonden, stopt het afstemmingsproces. Dit betekent dat de afstemming alleen kan worden uitgevoerd op één profielrecord, en niet op meerdere records in geval van duplicaten.
 
-U wilt bijvoorbeeld de volgende aanschafpagina naar uw profielen verzenden om uw Campagne-database bij te werken met de mobiele nummers van uw profielen.
+Stel dat u de volgende acquisitielandingspagina naar uw profielen wilt verzenden om uw Campaign-database bij te werken met hun mobiele nummers.
 
 ![](assets/landing_page_limitation_1.png)
 
-Als een van uw profiel uw landingspagina vult met nieuwe informatie maar al een gedupliceerd profiel heeft, wordt het overeenkomende profiel met de vroegste aanmaakdatum bijgewerkt omdat profielen alleen prioriteit krijgen op basis van de aanmaakdatum.
+Als een van uw profielen de landingspagina invult met nieuwe informatie, maar er al een dubbel profiel is, wordt het profiel bijgewerkt dat het eerst is gemaakt. Dit is omdat profielen prioriteit krijgen op basis van de (meest recente) aanmaakdatum.
 
-Hier is alleen het eerste profiel bijgewerkt sinds het de oudste vermelding was.
+Hier is alleen het eerste profiel bijgewerkt aangezien dat de oudste vermelding was.
 
 ![](assets/landing_page_limitation_2.png)
 
-**Testlandingspagina&#39;s**
+**Landingspagina&#39;s testen**
 
-* Het landen van pagina&#39;s werkt alleen aan profielen en niet testprofielen, wat betekent dat bestemmingspagina&#39;s niet kunnen worden getest als onderdeel van een e-mailproefdruk.
+* Landingspagina&#39;s werken alleen met profielen, en niet met testprofielen. Dit betekent dat landingspagina&#39;s niet kunnen worden getest als onderdeel van een e-mailproefversie.
 
-## Stap 1 - vorm het het landen paginasjabloon {#configure-the-landing-page-template}
+## Stap 1 - De sjabloon voor de landingspagina configureren {#configure-the-landing-page-template}
 
-Voordat u een bestemmingspagina instelt, moet u eerst een sjabloon voor een bestemmingspagina configureren die aan uw behoeften voldoet. Zodra het malplaatje klaar is, zullen alle het landen pagina&#39;s die op het worden gebaseerd vooraf gevormd met de gewenste parameters.
+Voordat u een landingspagina instelt, moet u eerst een sjabloon ervoor configureren die aan uw behoeften voldoet. Zodra de sjabloon klaar is, worden alle landingspagina&#39;s die op de sjabloon zijn gebaseerd, vooraf geconfigureerd met de gewenste parameters.
 
-1. Selecteer / **[!UICONTROL Resources]** / **[!UICONTROL Templates]** **[!UICONTROL Landing page templates]**/ in het menu Geavanceerd via het Adobe Campagne-logo en dupliceer vervolgens de sjabloon die u wilt gebruiken.
-1. Geef in de sjablooneigenschappen alle parameters op die de bestemmingspagina&#39;s gemeenschappelijk moeten hebben. Bijvoorbeeld: de doeldimensie, de toegangsparameters voor bepaalde of niet-geïdentificeerde bezoekers, acties die specifiek zijn voor formuliervalidatie door een bezoeker, het merk/logo dat/dat in de inhoud moet worden gebruikt, enz. Raadpleeg [deze sectie voor meer informatie over eigenschappen van bestemmingspagina&#39;s](../../channels/using/configuring-landing-page.md)
+1. Selecteer **[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Landing page templates]** in het menu Geavanceerd (via het Adobe Campaign-logo) en dupliceer vervolgens de sjabloon die u wilt gebruiken.
+1. Geef in de sjablooneigenschappen alle parameters op die uw landingspagina&#39;s gemeenschappelijk moeten hebben. Bijvoorbeeld de doeldimensie, de toegangsparameters voor geïdentificeerde of niet-geïdentificeerde bezoekers, acties die specifiek zijn voor formuliervalidatie door een bezoeker, het merk/logo dat in de content moet worden gebruikt, enz. Raadpleeg [deze sectie](../../channels/using/configuring-landing-page.md) voor meer informatie over de eigenschappen van landingspagina&#39;s.
 1. Sla uw wijzigingen op.
 
-Raadpleeg [deze sectie](../../channels/using/getting-started-with-landing-pages.md)voor meer informatie over sjablonen voor landingspagina&#39;s.
+Raadpleeg [deze sectie](../../channels/using/getting-started-with-landing-pages.md) voor meer informatie over sjablonen voor landingspagina&#39;s.
 
 ![](assets/lp-steps1.png)
 
-## Stap 2 - creeer en vorm de het landen pagina {#create-and-configure-the-landing-page}
+## Stap 2 - De landingspagina maken en configureren {#create-and-configure-the-landing-page}
 
-Maak een nieuwe bestemmingspagina in een programma of campagne op basis van de sjabloon die in de vorige stap is gedefinieerd.
+Op basis van de sjabloon die in de vorige stap is gedefinieerd maakt u nu een nieuwe landingspagina in een programma of campagne.
 
 1. Maak de landingspagina op basis van de gewenste sjabloon.
 1. Voer de algemene parameters van de landingspagina in (label, beschrijving, enz.).
-1. Vervolgens hebt u toegang tot het dashboard voor de bestemmingspagina. Bewerk indien nodig de eigenschappen van de bestemmingspagina (zie Een openingspagina [](../../channels/using/configuring-landing-page.md)configureren). Door gebrek, zijn de eigenschappen die in het het landen paginasjabloon worden gevormd.
-Om veiligheidsredenen en platformprestaties raden we u ten zeerste aan een vervaldatum in te stellen in de eigenschappen van de bestemmingspagina. Als u klaar bent, wordt de bestemmingspagina automatisch op de geselecteerde datum gepubliceerd. For more on validity parameters, refer to [this section](../../channels/using/testing-publishing-landing-page.md#setting-up-validity-parameters).
+1. U hebt nu toegang tot het dashboard van de landingspagina. Bewerk indien nodig de eigenschappen van de landingspagina (zie [Een landingspagina configureren](../../channels/using/configuring-landing-page.md)). Standaard zijn de eigenschappen gelijk aan de eigenschappen die zijn geconfigureerd in de sjabloon voor de landingspagina.
+Uit veiligheidsredenen en voor betere prestaties van het platform raden we u ten sterkste aan om een vervaldatum in te stellen in de eigenschappen van de landingspagina. Als u dat hebt gedaan, wordt de gepubliceerde landingspagina automatisch op de geselecteerde datum verwijderd. Raadpleeg [deze sectie](../../channels/using/testing-publishing-landing-page.md#setting-up-validity-parameters) voor meer informatie over validiteitsparameters.
 
    ![](assets/lp-steps3.png)
 
    >[!NOTE]
    >
-   >Uw wijzigingen zijn alleen effectief voor de bestemmingspagina die wordt bewerkt. Als u deze wijzigingen wilt toepassen op andere bestemmingspagina&#39;s, kunt u hen uitvoeren in een specifiek malplaatje en dan andere landende pagina&#39;s van dat malplaatje creëren.
+   >Uw wijzigingen gelden alleen voor de landingspagina die u hebt bewerkt. Als u deze wijzigingen ook op andere landingspagina&#39;s wilt toepassen, moet u ze in een specifieke sjabloon opnemen en vervolgens landingspagina&#39;s maken op basis van die sjabloon.
 
-## Stap 3 - Ontwerp de landingspagina {#design-the-landing-page}
+## Stap 3 - De landingspagina ontwerpen {#design-the-landing-page}
 
-U kunt nu de inhoud van de openingspagina definiëren. De openingspagina bevat standaard drie pagina&#39;s die via schuivende pijlen kunnen worden geopend: de hoofdpagina met inhoud, een bevestigingspagina en een foutpagina.
+U kunt nu de content van de landingspagina definiëren. De landingspagina bevat standaard drie pagina&#39;s die u kunt doorbladeren met behulp van pijlen: de hoofdpagina met content, een bevestigingspagina en een foutpagina.
 
 ![](assets/lp-steps4.png)
 
-Verscheidene gebieden worden gevormd door gebrek op elke pagina. Indien nodig, kunt u hun eigenschappen en afbeelding bewerken.
+Op elke pagina staan velden die standaard zijn geconfigureerd. Indien gewenst kunt u de veldeigenschappen en -toewijzingen aanpassen.
 
-U kunt ook configureren hoe de bevestigingsknop zich gedraagt wanneer een profiel erop klikt en de inhoud aanpassen aan uw wensen (afbeelding, aanpassingsvelden, enz.). U kunt bijvoorbeeld de voornaam van een profiel invoegen op de bevestigingspagina van de bestemmingspagina om u te bedanken voor de registratie.
+U kunt ook configureren hoe de knop voor bevestiging werkt als een profiel erop klikt. Ook de content van de pagina kan geheel naar wens worden gewijzigd (afbeeldingen, personalisatievelden, enz.). Zo kunt u alvast de voornaam van een profiel invoegen op de bevestigingspagina om ze te bedanken voor hun registratie.
 
-Raadpleeg [deze sectie](../../channels/using/designing-a-landing-page.md)voor meer informatie over het ontwerpen van bestemmingspagina&#39;s.
+Raadpleeg [deze sectie](../../channels/using/designing-a-landing-page.md) voor meer informatie over het ontwerp van landingspagina&#39;s.
 
-## Stap 4 - Test de landingspagina {#test-the-landing-page}
+## Stap 4 - De landingspagina testen{#test-the-landing-page}
 
-Als de bestemmingspagina eenmaal is gedefinieerd, kunt u simuleren hoe deze wordt uitgevoerd en zich gedraagt wanneer deze online beschikbaar is.
+Als de landingspagina eenmaal is gedefinieerd, kunt u simuleren hoe deze online wordt uitgevoerd en zich gedraagt.
 
 ![](assets/lp-steps5.png)
 
 >[!CAUTION]
 >
->De landingspagina-tests kunnen alleen worden uitgevoerd met profielen en niet met testprofielen. Wanneer het formulier wordt verzonden, worden de gegevens van het geselecteerde profiel bijgewerkt voor real-time. Als u wilt voorkomen dat echte profielen worden gewijzigd, gebruikt u een onecht klantprofiel.
+>De testen voor de landingspagina kunnen alleen worden uitgevoerd met profielen, niet met testprofielen. Wanneer het formulier wordt verzonden, worden de data van het geselecteerde profiel ook in het echt bijgewerkt. Als u wilt voorkomen dat echte profielen worden gewijzigd, moet u een namaakprofiel voor de klant gebruiken.
 
-Als u tevreden bent met de manier waarop de bestemmingspagina zich gedraagt, kunt u het publiceren om het online ter beschikking te stellen.
+Als u tevreden bent met de manier waarop de landingspagina functioneert, publiceert u de pagina om deze online beschikbaar te maken.
 
-Raadpleeg [deze sectie](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-)voor meer informatie over het testen van een bestemmingspagina.
+Raadpleeg [deze sectie](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-) voor meer informatie over het testen van een landingspagina.
 
-## Stap 5 - Publiceer de landingspagina {#publish-the-landing-page}
+## Stap 5 - De landingspagina publiceren{#publish-the-landing-page}
 
-Als de tests zijn voltooid, kunt u de bestemmingspagina publiceren met de **[!UICONTROL Publish]** knop op de actiebalk in het dashboard. Een controleblok geeft de voortgang en status van de publicatie aan.
+Als de testen met succes zijn voltooid, publiceert u de landingspagina. Druk hiervoor op de knop **[!UICONTROL Publish]** op de actiebalk in het dashboard. Een controleblok geeft de voortgang en status van de publicatie aan.
 
-Door de bestemmingspagina te publiceren, kunt u deze online openen. Na publicatie kunt u deze altijd bijwerken: om dit te doen, moet u het na elke wijziging opnieuw publiceren. U kunt de publicatie van een bestemmingspagina ook op elk gewenst moment ongedaan maken, zodat deze niet meer beschikbaar is.
+Na publicatie kan de landingspagina online worden bekeken. U kunt de landingspagina ook na publicatie altijd bijwerken. Na elke wijziging moet u de pagina wel opnieuw publiceren. U kunt de publicatie van een landingspagina ook op elk gewenst moment ongedaan maken, zodat de pagina niet meer beschikbaar is.
 
 ![](assets/lp-steps6.png)
 
-Na publicatie is de bestemmingspagina klaar om te worden gebruikt. Vervolgens kunt u verschillende mechanismen instellen waarmee u toegang hebt tot het programma voor het aanschaffen van nieuwe profielen in uw database of voor het verkrijgen van aanvullende informatie over bestaande profielen.
+Na publicatie is de landingspagina klaar voor gebruik. Op dit punt kunt u verschillende methoden instellen waarmee u toegang krijgt tot de pagina. Zo kunt u nieuwe profielen opnemen in uw database, of aanvullende informatie over bestaande profielen verkrijgen.
 
-Raadpleeg [deze sectie](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page)voor meer informatie over het publiceren van bestemmingspagina&#39;s.
+Raadpleeg [deze sectie](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page) voor meer informatie over het publiceren van een landingspagina.
