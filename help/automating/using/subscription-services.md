@@ -1,6 +1,6 @@
 ---
 title: Abonnementsservices
-description: De activiteit van de Diensten van het Abonnement staat u toe om profielen in massa te nemen en hen aan de dienst in te tekenen of hen van de dienst af te schrijven.
+description: Met de activiteit voor abonnementsservices kunt u profielen massaal in- of uitschrijven bij een service.
 page-status-flag: never-activated
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
 contentOwner: sauviat
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 0%
+ht-degree: 98%
 
 ---
 
@@ -27,19 +27,19 @@ ht-degree: 0%
 
 ![](assets/wf_subscription.png)
 
-Met de **[!UICONTROL Subscription Services]** activiteit kunt u profielen in massa nemen en deze aan een service abonneren of u kunt deze afmelden bij een service.
+Met de activiteit **[!UICONTROL Subscription Services]** kunt u profielen massaal in- of uitschrijven bij een service.
 
 >[!CAUTION]
 >
->Als een abonnement wordt beheerd in de context van een workflow, ontvangen de geabonneerde of niet-geabonneerde profielen niet de andere bevestigingse-mails die zijn gedefinieerd in de service-eigenschappen.
+>Als een abonnement wordt beheerd in de context van een workflow, ontvangen de ingeschreven of uitgeschreven profielen niet de verschillende bevestigings-e-mails die in de service-eigenschappen zijn gedefinieerd.
 
 ## Gebruikscontext {#context-of-use}
 
-De **[!UICONTROL Subscription Services]** activiteit is de enige functionaliteit van Adobe Campaign die het mogelijk maakt om aan meerdere profielen te worden geabonneerd of om van de dienst in één enkele actie te worden geabonneerd.
+De activiteit **[!UICONTROL Subscription Services]** is de enige functionaliteit in Adobe Campaign waarmee u meerdere profielen in één enkele actie kunt in- of uitschrijven bij een service.
 
-U kunt deze activiteit gebruiken nadat u een gericht bestand hebt uitgevoerd of een bestand met geïdentificeerde gegevens hebt geïmporteerd.
+U kunt deze activiteit gebruiken nadat u een targetingactiviteit hebt uitgevoerd of een bestand met geïdentificeerde data hebt geïmporteerd.
 
-Als opgegeven in een bestand via toegewezen kolommen, kunt u met deze activiteit ook de handeling (abonneren of afmelden) en de service kiezen waarop de handeling moet worden uitgevoerd.
+Als deze activiteit in een bestand is opgegeven via toegewezen kolommen, kunt u hiermee ook de actie (inschrijven of uitschrijven) en de service kiezen waarop de actie moet worden uitgevoerd.
 
 **Verwante onderwerpen:**
 
@@ -48,43 +48,43 @@ Als opgegeven in een bestand via toegewezen kolommen, kunt u met deze activiteit
 
 ## Configuratie {#configuration}
 
-1. Sleep een **[!UICONTROL Subscription Services]** activiteit naar uw werkstroom.
-1. Sluit de toepassing aan na andere doelactiviteiten, zoals een query of een afstemming na het importeren.
-1. Selecteer de activiteit, dan open het gebruikend de ![](assets/edit_darkgrey-24px.png) knoop van de snelle acties die verschijnen.
-1. Selecteer de abonnementen **[!UICONTROL Service]** waarvoor u deze wilt beheren met een van de volgende opties:
+1. Sleep een activiteit **[!UICONTROL Subscription Services]** en zet deze neer in uw workflow.
+1. Koppel deze activiteit na andere targetingactiviteiten, zoals een query of een afstemming na een importbewerking.
+1. Selecteer de activiteit en open deze met de knop ![](assets/edit_darkgrey-24px.png) vanuit de snelle acties die verschijnen.
+1. Selecteer de **[!UICONTROL Service]** waarvoor u de abonnementen wilt beheren aan de hand van een van de volgende opties:
 
    * **[!UICONTROL Select a specific service]**: Selecteer handmatig een service.
-   * **[!UICONTROL Select services from the inbound transition]**: de dienst wordt gespecificeerd in de binnenkomende overgang. U kunt bijvoorbeeld een bestand importeren dat de service opgeeft die voor elke regel moet worden beheerd. Als u deze optie kiest, zorg ervoor een verbinding van tevoren tussen de gegevens en het middel van de **Dienst** , zoals aangetoond in [dit voorbeeld](#example--updating-multiple-subscription-statuses-from-a-file)is gecreeerd.
+   * **[!UICONTROL Select services from the inbound transition]**: De service wordt opgegeven in de binnenkomende overgang. U kunt bijvoorbeeld een bestand importeren dat de service opgeeft die voor elke regel moet worden beheerd. Als u deze optie kiest, maak dan vooraf een koppeling tussen de data en de resource **Service**, zoals weergegeven in [dit voorbeeld](#example--updating-multiple-subscription-statuses-from-a-file).
 
-      De dienst waarop om de verrichting uit te voeren wordt dan dynamisch geselecteerd voor elke verslag.
+      De service waarop de bewerking moet worden uitgevoerd, wordt dan dynamisch geselecteerd voor elke record.
 
-1. Selecteer de **[!UICONTROL Operation type]** optie die u wilt uitvoeren met een van de volgende opties:
+1. Selecteer het **[!UICONTROL Operation type]** dat u wilt uitvoeren aan de hand van een van de volgende opties:
 
-   * **[!UICONTROL Select a specific operation type]**: Selecteer handmatig als u profielen wilt **[!UICONTROL Subscribe]** of **[!UICONTROL Unsubscribe]** .
-   * **[!UICONTROL Select an operation type from a path of inbound transition]**: Selecteer de kolom met de binnenkomende gegevens die de bewerking aangeeft die voor elke record moet worden uitgevoerd.
+   * **[!UICONTROL Select a specific operation type]**: Selecteer dit handmatig als u **[!UICONTROL Subscribe]** of **[!UICONTROL Unsubscribe]** wilt uitvoeren op de profielen.
+   * **[!UICONTROL Select an operation type from a path of inbound transition]**: Selecteer de kolom met de binnenkomende data die de bewerking aangeeft die voor elke record moet worden uitgevoerd.
 
-      In deze kolom moet de bewerking worden opgegeven als een Booleaanse waarde of geheel getal. Gebruik **0** om een record op te zeggen en **1** om te abonneren.
+      In deze kolom moet de bewerking worden opgegeven als een booleaanse waarde of geheel getal. Gebruik **0** om een record uit te schrijven en **1** om een record in te schrijven.
 
-      Als de waarden in een geïmporteerd bestand niet overeenkomen met de bovenstaande vereisten, kunt u toch de optie [Opnieuw toewijzen van waarden](../../automating/using/load-file.md#column-format) gebruiken die beschikbaar is in de **[!UICONTROL Load file]** activiteit.
+      Als de waarden in een geïmporteerd bestand niet overeenkomen met de bovenstaande vereisten, kunt u toch de optie [Remapping of values](../../automating/using/load-file.md#column-format) gebruiken die beschikbaar is in de activiteit **[!UICONTROL Load file]**.
 
-1. Als de binnenkomende gegevens een kolom bevatten met de abonnementsdatum van het profiel aan de dienst, selecteer het. U kunt deze leeg laten, maar er is geen abonnementsdatum ingesteld wanneer de workflow wordt uitgevoerd.
-1. Geef de oorsprong van het abonnement op. U kunt het aan één van de gebieden van de binnenkomende gegevens of aan een constante waarde van uw keus plaatsen door de **[!UICONTROL Set a constant as origin]** optie te controleren. U kunt deze leeg laten, maar er wordt geen oorsprong ingesteld wanneer de workflow wordt uitgevoerd.
-1. Indien nodig, kunt u een uitgaande overgang produceren. Deze overgang bevat precies dezelfde gegevens als die in de binnenkomende activiteit.
-1. Bevestig de configuratie van uw activiteit en sla uw werkschema op.
+1. Als de binnenkomende data een kolom bevatten die overeenkomt met de abonnementsdatum van het profiel voor de service, selecteer deze dan. U kunt dit leeg laten, maar dan wordt er geen abonnementsdatum ingesteld wanneer de workflow wordt uitgevoerd.
+1. Geef de oorsprong van het abonnement op. U kunt dit instellen op een van de velden van de binnenkomende data of op een constante waarde van uw keuze door de optie **[!UICONTROL Set a constant as origin]** in te schakelen. U kunt dit leeg laten, maar dan wordt er geen oorsprong ingesteld wanneer de workflow wordt uitgevoerd.
+1. U kunt indien nodig een uitgaande overgang produceren. Deze overgang bevat precies dezelfde data als de overgang in de binnenkomende activiteit.
+1. Bevestig de configuratie van uw activiteit en sla de workflow op.
 
-   Het is nu klaar om te worden uitgevoerd. Zodra uitgevoerd, kunt u de profielen bekijken die aan of unsubscribed van de dienst in het detail van de dienst zijn ingetekend.
+   De configuratie kan nu worden uitgevoerd. Zodra deze is uitgevoerd, kunt u de profielen die zich hebben ingeschreven of uitgeschreven bij de service bekijken in de details van de service.
 
 ## Voorbeeld: Profielen na het importeren van een bestand abonneren op een specifieke service {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
-In dit voorbeeld ziet u hoe u een bestand met profielen importeert en deze abonneert op een bestaande service. Na het importeren van het bestand moet een afstemming plaatsvinden, zodat de geïmporteerde gegevens kunnen worden geïdentificeerd als profielen. Om ervoor te zorgen dat het bestand geen duplicaten bevat, wordt een deduplicatieactiviteit uitgevoerd op de gegevens.
+In dit voorbeeld ziet u hoe u een bestand met profielen importeert en deze abonneert op een bestaande service. Nadat het bestand is geïmporteerd, moet een afstemming worden uitgevoerd, zodat de geïmporteerde data kunnen worden geïdentificeerd als profielen. Om ervoor te zorgen dat het bestand geen duplicaten bevat, wordt een ontdubbelingsactiviteit uitgevoerd op de data.
 
 De workflow wordt als volgt weergegeven:
 
 ![](assets/subscription_activity_example1.png)
 
-* Een **[!UICONTROL Load file]** activiteit laadt het profieldossier en bepaalt de structuur van de ingevoerde kolommen.
+* Een activiteit **[!UICONTROL Load file]** laadt het profielbestand en definieert de structuur van de geïmporteerde kolommen.
 
-   In dit voorbeeld heeft het geladen bestand de .csv-indeling en bevat het de volgende gegevens:
+   In dit voorbeeld heeft het geladen bestand de csv-indeling en bevat het de volgende data:
 
    ```
    lastname;firstname;email;birthdate;subdate
@@ -101,29 +101,29 @@ De workflow wordt als volgt weergegeven:
 
    ![](assets/subscription_activity_example2.png)
 
-* Met een **[!UICONTROL Reconciliation]** activiteit worden de gegevens uit het bestand geïdentificeerd als behorend tot de profieldimensie van de Adobe Campaign-database. Alleen het **[!UICONTROL Identification]** tabblad is geconfigureerd. De bestandsgegevens worden geïdentificeerd aan de hand van de e-mailadressen van de profielen.
+* Een activiteit **[!UICONTROL Reconciliation]** identificeert de data van het bestand als deel van de profieldimensie van de Adobe Campaign-database. Alleen het tabblad **[!UICONTROL Identification]** is geconfigureerd. De bestandsdata worden geïdentificeerd aan de hand van de e-mailadressen van de profielen.
 
    ![](assets/subscription_activity_example3.png)
 
-* Een **[!UICONTROL Deduplication]** formulier dat is gebaseerd op het veld **E-mail** van de tijdelijke bron (dat is afgeleid van de afstemming), identificeert eventuele duplicaten. Als de gegevens die uit het bestand zijn geïmporteerd, duplicaten bevatten, mislukt het abonnement op een service voor alle gegevens.
+* Een **[!UICONTROL Deduplication]** die is gebaseerd op het veld **Email** van de tijdelijke resource (als resultaat van de afstemming) identificeert eventuele duplicaten. Als de data die uit het bestand zijn geïmporteerd, duplicaten bevatten, mislukt de inschrijving op een service voor alle data.
 
    ![](assets/subscription_activity_example5.png)
 
-* Met een **[!UICONTROL Subscription Services]** activiteit kunt u de service selecteren waarop de profielen moeten worden geabonneerd, het veld dat overeenkomt met de abonnementsdatum en de oorsprong van het abonnement.
+* Met een activiteit **[!UICONTROL Subscription Services]** kunt u de service selecteren waarop de profielen moeten worden geabonneerd, het veld dat overeenkomt met de abonnementsdatum en de oorsprong van het abonnement.
 
    ![](assets/subscription_activity_example4.png)
 
-## Voorbeeld: Meerdere abonnementstatussen bijwerken vanuit een bestand {#example--updating-multiple-subscription-statuses-from-a-file}
+## Voorbeeld: Meerdere abonnementsstatussen bijwerken vanuit een bestand {#example--updating-multiple-subscription-statuses-from-a-file}
 
-In dit voorbeeld wordt getoond hoe u een bestand met profielen kunt importeren en hun abonnement kunt bijwerken naar verschillende services die in het bestand zijn opgegeven. Na het importeren van het bestand moet een afstemming plaatsvinden, zodat de geïmporteerde gegevens kunnen worden geïdentificeerd als profielen met een koppeling naar services. Om ervoor te zorgen dat het bestand geen duplicaten bevat, wordt een deduplicatieactiviteit uitgevoerd op de gegevens.
+In dit voorbeeld wordt getoond hoe u een bestand met profielen kunt importeren en hun inschrijving op verschillende services die in het bestand zijn opgegeven, kunt bijwerken. Nadat het bestand is geïmporteerd, moet een afstemming worden uitgevoerd, zodat de geïmporteerde data kunnen worden geïdentificeerd als profielen met een koppeling naar services. Om ervoor te zorgen dat het bestand geen duplicaten bevat, wordt een ontdubbelingsactiviteit uitgevoerd op de data.
 
 De workflow wordt als volgt weergegeven:
 
 ![](assets/subscription_activity_example1.png)
 
-* Een **[!UICONTROL Load file]** activiteit laadt het profieldossier en bepaalt de structuur van de ingevoerde kolommen.
+* Een activiteit **[!UICONTROL Load file]** laadt het profielbestand en definieert de structuur van de geïmporteerde kolommen.
 
-   In dit voorbeeld heeft het geladen bestand de .csv-indeling en bevat het de volgende gegevens:
+   In dit voorbeeld heeft het geladen bestand de csv-indeling en bevat het de volgende data:
 
    ```
    lastname;firstname;email;birthdate;service;operation
@@ -140,27 +140,27 @@ De workflow wordt als volgt weergegeven:
 
    ![](assets/subscription_example_load_file.png)
 
-   Zoals u misschien hebt opgemerkt, wordt de bewerking in het bestand opgegeven als &quot;sub&quot; of &quot;unsub&quot;. Het systeem verwacht dat een **Booleaanse** of **gehele** waarde de bewerking herkent die moet worden uitgevoerd: &quot;0&quot; voor afmelden en &quot;1&quot; voor abonneren. Om aan dit vereiste te voldoen, wordt een nieuwe toewijzing van waarden uitgevoerd in het detail van de &quot;verrichting&quot;kolom.
+   Zoals u misschien hebt opgemerkt, wordt de bewerking in het bestand opgegeven als ‘sub’ of ‘unsub’. Het systeem verwacht dat een waarde **Boolean** of **Integer** de bewerking herkent die moet worden uitgevoerd: 0 voor uitschrijven en 1 voor inschrijven. Om aan deze vereiste te voldoen, wordt een nieuwe toewijzing van waarden uitgevoerd in de details van de kolom Operation.
 
    ![](assets/subscription_example_remapping.png)
 
-   Als in uw bestand al &quot;0&quot; en &quot;1&quot; worden gebruikt om de bewerking te identificeren, hoeft u deze waarden niet opnieuw toe te wijzen. Zorg alleen dat de kolom op het **tabblad als een** Booleaanse **of** gehele kolom **[!UICONTROL Column definition]** wordt verwerkt.
+   Als in uw bestand al 0 en 1 worden gebruikt om de bewerking te identificeren, hoeft u deze waarden niet opnieuw toe te wijzen. Zorg alleen dat de kolom op het tabblad **[!UICONTROL Column definition]** wordt verwerkt als een **Boolean** of **Integer**.
 
-* Met een **[!UICONTROL Reconciliation]** activiteit worden de gegevens uit het bestand geïdentificeerd als behorend tot de profieldimensie van de Adobe Campaign-database. Via het **[!UICONTROL Identification]** tabblad komt het veld **E-mail** van het bestand overeen met het veld **E-mail** van de profielbron.
+* Een activiteit **[!UICONTROL Reconciliation]** identificeert de data van het bestand als deel van de profieldimensie van de Adobe Campaign-database. Via het tabblad **[!UICONTROL Identification]** wordt het veld **Email** van het bestand afgestemd op het veld **Email** van de profielresource.
 
    ![](assets/subscription_activity_example3.png)
 
-   Op het **[!UICONTROL Relations]** lusje, wordt een verbinding gecreeerd met het de dienstmiddel om het de **dienstgebied** van het dossier toe te laten om worden erkend. In dit voorbeeld, passen de waarden het **naamgebied** van het de dienstmiddel aan.
+   Op het tabblad **[!UICONTROL Relations]** wordt een koppeling met de serviceresource gemaakt zodat het veld **service** van het bestand kan worden herkend. In dit voorbeeld komen de waarden overeen met het veld **name** van de serviceresource.
 
    ![](assets/subscription_example_service_relation.png)
 
-* Een **[!UICONTROL Deduplication]** formulier dat is gebaseerd op het veld **E-mail** van de tijdelijke bron (dat is afgeleid van de afstemming), identificeert duplicaten. Het is belangrijk om dubbele gegevens te elimineren aangezien het abonnement aan de dienst voor alle gegevens in het geval van duplicaten zal ontbreken.
+* Een **[!UICONTROL Deduplication]** die is gebaseerd op het veld **Email** van de tijdelijke resource (als resultaat van de afstemming) identificeert de duplicaten. Het is belangrijk om duplicaten te verwijderen aangezien het abonnement op de service voor alle data zal mislukken als er duplicaten zijn.
 
    ![](assets/subscription_activity_example5.png)
 
-* A **[!UICONTROL Subscription Services]** identificeert de diensten om als afkomstig van de overgang, door de verbinding bij te werken die in de **[!UICONTROL Reconciliation]** activiteit wordt gecreeerd.
+* Met de activiteit **[!UICONTROL Subscription Services]** worden de services die moeten worden bijgewerkt en afkomstig zijn van de overgang, geïdentificeerd via de koppeling die in de activiteit **[!UICONTROL Reconciliation]** wordt gemaakt.
 
-   Het **[!UICONTROL Operation type]** wordt geïdentificeerd als afkomstig van het **bewerkingsveld** van het bestand. U kunt hier alleen Booleaanse of gehele getallen selecteren. Als de kolom van het bestand dat de uit te voeren bewerking bevat, niet in de lijst voorkomt, moet u de kolomindeling correct instellen in de **[!UICONTROL Load file]** activiteit, zoals eerder in dit voorbeeld wordt uitgelegd.
+   Het **[!UICONTROL Operation type]** wordt geïdentificeerd als afkomstig van het veld **operation** van het bestand. U kunt hier alleen de velden Boolean of Integer selecteren. Als de kolom van het bestand dat de uit te voeren bewerking bevat, niet in de lijst voorkomt, moet u controleren of u de kolomindeling in de activiteit **[!UICONTROL Load file]** correct hebt ingesteld, zoals eerder in dit voorbeeld wordt uitgelegd.
 
    ![](assets/subscription_activity_example_from_file.png)
 
