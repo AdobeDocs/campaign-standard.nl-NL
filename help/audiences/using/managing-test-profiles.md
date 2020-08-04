@@ -12,8 +12,11 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 767d4233236019213003961aae1abb317198e581
+workflow-type: ht
+source-wordcount: '433'
+ht-degree: 100%
 
 ---
 
@@ -22,33 +25,33 @@ source-git-commit: 767d4233236019213003961aae1abb317198e581
 
 ## Testprofielen {#about-test-profiles}
 
-Met de testprofielen kunt u zich richten op extra ontvangers die niet voldoen aan de gedefinieerde doelcriteria. Ze worden toegevoegd aan het publiek van een bericht om frauduleus gebruik van de database van de ontvanger op te sporen of om ervoor te zorgen dat de e-mails in de postvakken aankomen.
+Met testprofielen kunt u aanvullende ontvangers die niet voldoen aan de gedefinieerde targetingcriteria doelgericht benaderen. Deze profielen worden toegevoegd aan de doelgroep van een bericht om frauduleus gebruik van uw database met ontvangers op te sporen of om ervoor te zorgen dat de e-mails in de inboxen aankomen.
 
-U kunt uw testprofielen beheren via het menu Geavanceerd **[!UICONTROL Profiles & audiences > Test profiles]**.
+U kunt uw testprofielen beheren via het geavanceerde menu **[!UICONTROL Profiles & audiences > Test profiles]**.
 
-Een testprofiel bevat fictieve contactinformatie, of contactinformatie die door de afzender wordt gecontroleerd, die dan in een bericht in de volgende context kan worden gebruikt:
+Een testprofiel bevat fictieve contactinformatie, of contactinformatie die door de afzender wordt gecontroleerd, en die dan in een bericht in de volgende context kan worden gebruikt:
 
-* Voor het verzenden van **proefdrukken**: Het Bewijs is een specifiek bericht dat wordt gebruikt om het bericht te controleren alvorens de definitieve levering naar ontvangers te verzenden. Een proeftestprofiel is verantwoordelijk voor de controle van de aflevering met betrekking tot de inhoud en de vorm ervan. Zie Proefdrukken [verzenden](../../sending/using/sending-proofs.md).
-* Voor **e-mailrendering**: Het testprofiel voor e-mail renderen wordt gebruikt om te controleren hoe een bericht wordt weergegeven volgens het bericht in het postvak dat het bericht ontvangt. Webmail, berichtservice, mobiel, enzovoort. Zie [E-mailrendering](../../sending/using/email-rendering.md).
+* Voor het verzenden van **proeven**: Een proef is een specifiek bericht dat wordt gebruikt om het bericht te controleren voordat de definitieve levering naar ontvangers wordt verzonden. Een testprofiel voor proeven is verantwoordelijk voor de controle van de levering met betrekking tot de content en de opmaak ervan. Zie [Proeven verzenden](../../sending/using/sending-proofs.md).
+* Voor **e-mailweergave**: Het testprofiel voor e-mailweergave wordt gebruikt om te controleren hoe een bericht wordt weergegeven volgens de berichteninbox die het bericht ontvangt. Dit kan bijvoorbeeld webmail, een berichtenservice, een mobiele applicatie, enzovoort zijn. Zie [E-mailweergave](../../sending/using/email-rendering.md).
 
-   Het gebruik van de rendering **via e-mail** is alleen-lezen. Testprofielen voor dit gebruik zijn alleen offline beschikbaar in Adobe Campagne.
+   **E-mailweergave** is alleen-lezen. Testprofielen voor dit gebruik zijn alleen kant-en-klaar beschikbaar in Adobe Campaign.
 
-* Als **overvulling**: Het bericht wordt naar het testprofiel verzonden enkel aangezien het naar het belangrijkste doel wordt verzonden. Zie [Overvullen](../../sending/using/using-traps.md)gebruiken.
-* Aan **Voorproef** berichten: U kunt een testprofiel selecteren wanneer u een voorbeeld weergeeft van een bericht om de personalisatie-elementen te testen. Zie [Berichten](/help/sending/using/previewing-messages.md)voorvertonen.
+* Als een **trap**: Het bericht wordt naar het testprofiel verzonden op dezelfde manier als het naar het belangrijkste doel wordt verzonden. Zie [Traps gebruiken](../../sending/using/using-traps.md).
+* Voor het weergeven van **voorbeelden** van berichten: U kunt een testprofiel selecteren wanneer u een voorbeeld van een bericht weergeeft om de personalisatie-elementen te testen. Zie [Berichten voorvertonen](/help/sending/using/previewing-messages.md).
 
 ![](assets/test_profile.png)
 
 ## Testprofielen maken {#creating-test-profiles}
 
-1. Kies in het menu Geavanceerd via het logo van Adobe Campagne de optie **Profielen en publiek > Testprofielen** om de lijst met testprofielen te openen.
+1. Selecteer in het geavanceerde menu via het Adobe Campaign-logo de optie **Profiles &amp; audiences > Test profiles** om de lijst met testprofielen te openen.
 
    ![](assets/test_profile_creation_1.png)
 
-1. Klik in het **[!UICONTROL Test profiles]** dashboard op **Maken**.
+1. Klik in het dashboard **[!UICONTROL Test profiles]** op **Create**.
 
    ![](assets/test_profile_creation_2.png)
 
-1. Voer de gegevens voor dit profiel in.
+1. Voer de data voor dit profiel in.
 
    ![](assets/test_profile_creation_3.png)
 
@@ -62,22 +65,22 @@ Een testprofiel bevat fictieve contactinformatie, of contactinformatie die door 
    >
    >U kunt een e-mailindeling van uw voorkeur definiëren: **[!UICONTROL Text]** of **[!UICONTROL HTML]**.
 
-1. Geef een gebeurtenistype en de gegevens voor deze gebeurtenis op als u dit testprofiel wilt gebruiken om de personalisatie van een transactiemelding te testen.
-1. Klik **[!UICONTROL Create]** om het testprofiel op te slaan.
+1. Geef een gebeurtenistype en de data voor deze gebeurtenis op als u dit testprofiel wilt gebruiken om de personalisatie van een transactioneel bericht te testen.
+1. Klik op **[!UICONTROL Create]** om het testprofiel op te slaan.
 
 Het testprofiel wordt vervolgens toegevoegd aan de lijst met profielen.
 
 **Verwant onderwerp:**
 
-[Video over het maken van een testprofiel](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/test-profiles.html)
+Video over [Een testprofiel maken](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/profiles-and-audiences/test-profiles.html)
 
 ## Testprofielen bewerken {#editing-test-profiles}
 
-U kunt als volgt een testprofiel bewerken en de bijbehorende gegevens raadplegen of het profiel wijzigen:
+U kunt als volgt een testprofiel bewerken en de bijbehorende data raadplegen of het profiel wijzigen:
 
-1. Selecteer het testprofiel dat u wilt bewerken door op de afbeelding te klikken.
+1. Selecteer het testprofiel dat u wilt bewerken door op de afbeelding ervan te klikken.
 1. Raadpleeg of wijzig de velden.
 
    ![](assets/test_profile_edit.png)
 
-1. Klik **[!UICONTROL Save]** als u de wijzigingen hebt ingevoerd of selecteer de naam van het testprofiel en ga vervolgens **[!UICONTROL Test profiles]** in de sectie boven aan het scherm terug naar het dashboard voor testprofielen.
+1. Klik op **[!UICONTROL Save]** als u de wijzigingen hebt ingevoerd of selecteer de naam van het testprofiel en vervolgens **[!UICONTROL Test profiles]** in de sectie bovenaan het scherm om terug te gaan naar het dashboard voor testprofielen.
