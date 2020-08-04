@@ -1,6 +1,6 @@
 ---
-title: Transactieberichten profileren
-description: Leer hoe u een bericht voor een profieltransactie maakt en publiceert.
+title: Transactionele berichten voor profielen
+description: Ontdek hoe u een transactioneel bericht voor een profiel maakt en publiceert.
 page-status-flag: never-activated
 uuid: a8efe979-74ae-46ff-a305-b86a90679581
 contentOwner: sauviat
@@ -15,77 +15,77 @@ translation-type: tm+mt
 source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 0%
+ht-degree: 94%
 
 ---
 
 
-# Transactieberichten profileren{#profile-transactional-messages}
+# Transactionele berichten voor profielen{#profile-transactional-messages}
 
-U kunt transactieberichten verzenden die op klanten marketing profielen worden gebaseerd, die u toestaan:
+U kunt transactionele berichten verzenden die op klantmarketingprofielen zijn gebaseerd en waarmee u het volgende kunt doen:
 
-* Pas de typologieregels voor marketing toe, zoals **[!UICONTROL Address on block list]** of [vermoeidheidsregels](../../sending/using/fatigue-rules.md).
-* Neem de koppeling voor het opzeggen van abonnementen op in de berichten.
-* Voeg de transactieberichten aan de globale levering toe rapporteert.
-* Hefboomwerking de transactionele berichten in de klantenreis.
+* De typologieregels voor marketing toepassen, zoals **[!UICONTROL Address on block list]** of [moeheidsregels](../../sending/using/fatigue-rules.md).
+* De koppeling voor het opzeggen van abonnementen in de berichten opnemen.
+* De transactionele berichten aan de globale leveringsrapportage toevoegen.
+* De transactionele berichten in het klanttraject gebruiken.
 
-Nadat u een gebeurtenis hebt gemaakt en gepubliceerd (de winkelwagentje zoals in het [voorbeeld](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) hierboven), wordt het bijbehorende transactiemelding automatisch gemaakt.
+Nadat u een gebeurtenis (een ongebruikte winkelwagen zoals in het [voorbeeld](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) hierboven) hebt gemaakt en gepubliceerd, wordt het bijbehorende transactionele bericht automatisch gemaakt.
 
-De configuratiestappen worden voorgesteld in het [Vormen van een gebeurtenis om een sectie van het profieltransactiebericht](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) te verzenden.
+De configuratiestappen worden weergegeven in de sectie [Een gebeurtenis voor het verzenden van een transactioneel bericht voor een profiel configureren](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
-Als de gebeurtenis het verzenden van een transactiemelding moet activeren, moet u het bericht personaliseren, het vervolgens testen en publiceren.
+Om ervoor te zorgen dat de gebeurtenis het verzenden van een transactioneel bericht activeert, moet u het bericht personaliseren en het vervolgens testen en publiceren.
 
 >[!NOTE]
 >
->Om tot transactieberichten toegang te hebben, moet u deel van de **[!UICONTROL Administrators (all units)]** veiligheidsgroep uitmaken.
+>Om toegang te hebben tot transactionele berichten moet u deel uitmaken van de beveiligingsgroep **[!UICONTROL Administrators (all units)]**.
 >
->De regels van de moeheid zijn compatibel met de berichten van de profieltransactie. Zie [Vermoeidheidsregels](../../sending/using/fatigue-rules.md).
+>De moeheidsregels zijn compatibel met transactieberichten voor profielen. Zie [Moeheidsregels](../../sending/using/fatigue-rules.md).
 
-## Een bericht voor een profieltransactie verzenden {#sending-a-profile-transactional-message}
+## Een transactioneel bericht voor een profiel verzenden {#sending-a-profile-transactional-message}
 
-De stappen voor het maken, personaliseren en publiceren van een bericht voor een profieltransactie zijn hetzelfde als voor een bericht voor een gebeurtenistransactie. Zie Transactieberichten voor [gebeurtenissen](../../channels/using/event-transactional-messages.md).
+De stappen voor het maken, personaliseren en publiceren van een transactioneel bericht voor een profiel zijn dezelfde als voor een transactioneel bericht voor een gebeurtenis. Zie [Transactieberichten voor gebeurtenissen](../../channels/using/event-transactional-messages.md).
 
 De verschillen worden hieronder vermeld.
 
-1. Ga het transactiemelding dat werd gecreeerd om het uit te geven.
-1. Klik in het transactiebericht op de **[!UICONTROL Content]** sectie. Naast de transactiesjabloon kunt u ook elke gewenste e-mailsjabloon kiezen **[!UICONTROL Profile]**.
+1. Ga naar het transactionele bericht dat is gemaakt om het te bewerken.
+1. Klik in het transactionele bericht op de sectie **[!UICONTROL Content]**. Naast de transactionele sjabloon kunt u ook elke gewenste e-mailsjabloontargeting kiezen **[!UICONTROL Profile]**.
 
    ![](assets/message-center_marketing_templates.png)
 
 1. Selecteer de standaard e-mailsjabloon.
 
-   Net als bij alle e-mails over marketingdoeleinden, bevat deze koppeling een koppeling om je abonnement op te zeggen.
+   Net als bij alle marketing-e-mails bevat deze een koppeling voor het opzeggen van abonnementen.
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
-   Ook, in tegenstelling tot configuraties die op gebeurtenissen in real time worden gebaseerd, hebt u directe toegang tot alle profielinformatie om uw bericht te personaliseren. Zie Een verpersoonlijkingsveld [invoegen](../../designing/using/personalization.md#inserting-a-personalization-field).
+   Bovendien hebt u, in tegenstelling tot configuraties die op realtimegebeurtenissen zijn gebaseerd, directe toegang tot alle profielinformatie om uw bericht te personaliseren. Zie [Een personalisatieveld invoegen](../../designing/using/personalization.md#inserting-a-personalization-field).
 
-1. Sla uw wijzigingen op en publiceer het bericht. Zie [Transactiebericht](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)publiceren.
+1. Sla uw wijzigingen op en publiceer het bericht. Zie [Een transactioneel bericht publiceren](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
-## De berichtlevering van een profieltransactie controleren {#monitoring-a-profile-transactional-message-delivery}
+## De levering van een transactioneel bericht voor een profiel controleren {#monitoring-a-profile-transactional-message-delivery}
 
-Zodra het bericht wordt gepubliceerd en uw plaatsintegratie wordt gedaan, kunt u de levering controleren.
+Zodra het bericht is gepubliceerd en uw website-integratie is voltooid, kunt u de levering controleren.
 
-1. Klik op het pictogram rechtsonder in het **[!UICONTROL Deployment]** blok om het logboek voor de verzending van berichten weer te geven.
+1. Klik op het pictogram rechtsonder in het blok **[!UICONTROL Deployment]** om het logboek voor de verzending van berichten weer te geven.
 
-   Voor meer informatie bij de toegang tot van de logboeken, zie de [Controle van de levering](../../sending/using/monitoring-a-delivery.md).
+   Voor meer informatie over het openen van de logboeken raadpleegt u [De levering controleren](../../sending/using/monitoring-a-delivery.md).
 
-1. Selecteer het **[!UICONTROL Sending logs]** tabblad. In de **[!UICONTROL Status]** kolom **[!UICONTROL Sent]** geeft u aan dat er een profiel is geselecteerd.
+1. Selecteer het tabblad **[!UICONTROL Sending logs]**. In de kolom **[!UICONTROL Status]** geeft **[!UICONTROL Sent]** aan dat er een profiel is ingeschreven.
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Selecteer het **[!UICONTROL Exclusions logs]** lusje om ontvangers te bekijken die van het berichtdoel, zoals adressen op bloklijst zijn uitgesloten.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on block list.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-Voor elk profiel dat is uitgeschakeld, is de **[!UICONTROL Address on block list]** typologieregel niet van toepassing op de bijbehorende ontvanger.
+Voor elk profiel dat is uitgeschreven, is de typologieregel **[!UICONTROL Address on block list]** niet van toepassing op de bijbehorende ontvanger.
 
-Deze regel maakt deel uit van een specifieke typologie die op alle transactionele berichten van toepassing is die op de **[!UICONTROL Profile]** lijst worden gebaseerd.
+Deze regel maakt deel uit van een specifieke typologie die op alle transactionele berichten van toepassing is op basis van de tabel **[!UICONTROL Profile]**.
 
 ![](assets/message-center_marketing_typology.png)
 
 **Verwante onderwerpen**:
 
-* [Site-integratie](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
+* [Website-integratie](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
 * [Typologieën](../../sending/using/about-typology-rules.md)
 
