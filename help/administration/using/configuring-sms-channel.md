@@ -1,6 +1,6 @@
 ---
-title: SMS-kanaal configureren
-description: '"Ontdek de de configuratiestappen van SMS: routering, codering, indelingen en geavanceerde eigenschappen. "'
+title: Een sms-kanaal configureren
+description: '‘Kom meer te weten over sms-configuratiestappen: routering, codering, indelingen en geavanceerde eigenschappen. ’'
 page-status-flag: never-activated
 uuid: 5f13dbd5-9522-4199-8d9a-44c397cb2458
 contentOwner: sauviat
@@ -16,96 +16,96 @@ translation-type: tm+mt
 source-git-commit: 10339aa3a5d16bb995a763b6d846e234c5f1325a
 workflow-type: tm+mt
 source-wordcount: '1625'
-ht-degree: 1%
+ht-degree: 99%
 
 ---
 
 
-# SMS-kanaal configureren{#configuring-sms-channel}
+# Een sms-kanaal configureren{#configuring-sms-channel}
 
-Voor het verzenden van SMS-berichten moet een of meer externe accounts zijn geconfigureerd door een beheerder in het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL SMS]** > **[!UICONTROL SMS accounts]** .
+Een beheerder moet een of meer externe accounts configureren in het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL SMS]** > **[!UICONTROL SMS accounts]** voor het verzenden van sms-berichten.
 
-De stappen voor het maken en wijzigen van een externe account worden beschreven in de sectie [Externe accounts](../../administration/using/external-accounts.md) . Hieronder vindt u de parameters die specifiek zijn voor externe accounts bij het verzenden van SMS-berichten.
+De stappen voor het maken en wijzigen van een extern account worden beschreven in de sectie [Externe accounts](../../administration/using/external-accounts.md). Hieronder vindt u de parameters die specifiek zijn voor externe accounts bij het verzenden van sms-berichten.
 
-## Het bepalen van een Verpletteren van SMS {#defining-an-sms-routing}
+## Een sms-routering bepalen {#defining-an-sms-routing}
 
-De externe account **[!UICONTROL SMS routing via SMPP]** wordt standaard verschaft, maar het kan handig zijn om andere accounts toe te voegen.
+Het externe account **[!UICONTROL SMS routing via SMPP]** wordt standaard opgegeven, maar het kan nuttig zijn om andere accounts toe te voegen.
 
-Als u het SMPP-protocol wilt gebruiken, kunt u ook een nieuwe externe account maken. Voor meer informatie over het protocol en de montages van SMS, verwijs naar deze [technische nota](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+Als u het SMPP-protocol wilt gebruiken, kunt u ook een nieuw extern account maken. Voor meer informatie over het protocol en instellingen van sms raadpleegt u deze [technische opmerking](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
 
-1. Maak een nieuw extern account van **[!UICONTROL Administration > Application settings > External accounts]**.
+1. Maak een nieuw extern account vanaf **[!UICONTROL Administration > Application settings > External accounts]**.
 1. Definieer het accounttype als **[!UICONTROL Routing]**, het kanaal als **[!UICONTROL Mobile (SMS)]** en de leveringsmodus als **[!UICONTROL Bulk delivery]**.
 
    ![](assets/sms_routing.png)
 
 1. Definieer de verbindingsinstellingen.
 
-   Als u de verbindingsinstellingen wilt invoeren die specifiek zijn voor het verzenden van SMS-berichten, neemt u contact op met uw SMS-serviceprovider die u zal uitleggen hoe de verschillende velden voor externe accounts moeten worden ingevuld.
+   Als u de verbindingsinstellingen wilt invoeren die specifiek zijn voor het verzenden van sms-berichten, neemt u contact op met uw sms-serviceprovider die u zal uitleggen hoe u de verschillende velden voor externe accounts moet invullen.
 
    ![](assets/sms_connection.png)
 
-   De **[!UICONTROL Enable TLS over SMPP]** optie staat u toe om verkeer te coderen SMPP.
+   Met de optie **[!UICONTROL Enable TLS over SMPP]** kunt u SMPP-verkeer versleutelen.
 
-   **[!UICONTROL Enable verbose SMPP traces in the log file]** staat u toe om al verkeer SMPP in logboekdossiers te dumpen. Deze optie moet worden toegelaten om de schakelaar problemen op te lossen en met het verkeer te vergelijken dat door de leverancier wordt gezien.
+   Met **[!UICONTROL Enable verbose SMPP traces in the log file]** kunt u al het SMPP-verkeer in logboekbestanden dumpen. Deze optie moet zijn ingeschakeld om problemen met de connector op te lossen en om vergelijkingen te maken met het verkeer dat door de provider wordt waargenomen.
 
-1. Neem contact op met Adobe, dat u de waarde geeft die u in het **[!UICONTROL SMS-C implementation name]** veld wilt invoeren, afhankelijk van de gekozen provider.
-1. Geef de instellingen voor het SMPP-kanaal op. Meer informatie vindt u in het gedeelte [SMS-codering en -indelingen](#sms-encoding-and-formats) .
+1. Neem contact op met Adobe om de waarde te verkrijgen die u in het veld **[!UICONTROL SMS-C implementation name]** moet invoeren, afhankelijk van de gekozen provider.
+1. Geef de instellingen voor het SMPP-kanaal op. In de sectie [Sms-codering en -indelingen](#sms-encoding-and-formats) vindt u meer informatie.
 
-   Schakel het selectievakje in **[!UICONTROL Store incoming MO in the database]** als u alle inkomende SMS-berichten in de tabel in InSMS wilt opslaan. Raadpleeg deze [sectie](../../channels/using/managing-incoming-sms.md#storing-incoming-sms)voor meer informatie over het ophalen van uw inkomende SMS.
+   Schakel **[!UICONTROL Store incoming MO in the database]** in als u alle binnenkomende sms-berichten in de tabel voor binnenkomende sms-berichten wilt opslaan. Raadpleeg deze [sectie](../../channels/using/managing-incoming-sms.md#storing-incoming-sms) voor meer informatie over het ophalen van uw binnenkomende sms-berichten.
 
-   Met de **[!UICONTROL Enable Real-time KPI updates during SR processing]** optie kunnen de **[!UICONTROL Delivered]** of **[!UICONTROL Bounces + Errors]** KPI&#39;s in real-time worden bijgewerkt nadat de levering is verzonden. Deze KPIs kan in het **[!UICONTROL Deployment]** venster worden gevonden en wordt direct herberekend van SR (het Rapport van de Status) die van de leverancier wordt ontvangen.
+   Met de optie **[!UICONTROL Enable Real-time KPI updates during SR processing]** kunnen de KPI’s voor **[!UICONTROL Delivered]** of **[!UICONTROL Bounces + Errors]** in real time worden bijgewerkt nadat de levering is verzonden. Deze KPI’s vindt u in het venster **[!UICONTROL Deployment]** en ze worden direct herberekend vanaf het SR (statusrapport) dat van de provider wordt ontvangen.
 
    ![](assets/sms_connection_1.png)
 
-1. Definieer de **[!UICONTROL Throughput and timeouts]** parameters.
+1. Definieer de parameters **[!UICONTROL Throughput and timeouts]**.
 
-   U kunt de maximumproductie van uitgaande berichten (&quot;MT&quot;, Mobiel geëindigd) in MT per seconde specificeren. Als u &quot;0&quot;op het overeenkomstige gebied ingaat, zal de productie onbeperkt zijn.
+   U kunt de maximale doorvoer van uitgaande berichten (‘MT’ of Mobile Terminated) in MT per seconde specificeren. Als u ‘0’ invoert in het overeenkomstige veld, is de doorvoer onbeperkt.
 
-   De waarden van alle velden die overeenkomen met de tijdsduur moeten in seconden worden ingevuld.
+   De waarden van alle velden die corresponderen met een tijdsduur, moeten in seconden worden ingevuld.
 
-1. Definieer de specifieke parameters voor SMS-C voor het geval u een specifieke coderingstoewijzing moet definiëren. Raadpleeg de specifieke [sectie](#smsc-specifics) SMSC voor meer informatie.
+1. Definieer de specifieke parameters voor SMSC wanneer u een specifieke coderingstoewijzing moet definiëren. Raadpleeg de sectie met [SMSC-specificaties](#smsc-specifics) voor meer informatie.
 
-   Schakel de **[!UICONTROL Send full phone number (send characters other than digits)]** optie in als u het SMPP-protocol niet wilt respecteren en het **[!UICONTROL +]** voorvoegsel wilt overbrengen naar de server van de SMS-provider (SMS-C).
+   Schakel de optie **[!UICONTROL Send full phone number (send characters other than digits)]** in als u het SMPP-protocol niet wilt naleven en het voorvoegsel **[!UICONTROL +]** wilt overdragen naar de server van de sms-provider (SMSC).
 
-   Aangezien bepaalde providers echter het gebruik van het **[!UICONTROL +]** voorvoegsel vereisen, wordt u geadviseerd contact op te nemen met uw provider en wordt u aangeraden deze optie indien nodig in te schakelen.
+   Aangezien bepaalde providers echter het gebruik van het voorvoegsel **[!UICONTROL +]** vereisen, wordt u geadviseerd contact op te nemen met uw provider, die u zal aanraden om deze optie zo nodig in te schakelen.
 
-1. Definieer, indien nodig, automatische antwoorden om acties te activeren op basis van de inhoud van een antwoord. Raadpleeg [deze sectie](../../channels/using/managing-incoming-sms.md#managing-stop-sms) voor meer informatie.
-1. Sparen de configuratie van SMS die externe rekening verplettert.
+1. Definieer zo nodig automatische antwoorden om acties te activeren op basis van de content van een antwoord. Raadpleeg [deze sectie](../../channels/using/managing-incoming-sms.md#managing-stop-sms) voor meer informatie.
+1. Sla de configuratie van het externe account voor sms-routering op.
 
-Je kunt nu je nieuwe routering gebruiken om SMS-berichten te verzenden met Adobe Campaign.
+U kunt nu uw nieuwe routering gebruiken om sms-berichten te verzenden met Adobe Campaign.
 
-## SMS-codering en -indelingen {#sms-encoding-and-formats}
+## Sms-codering en -indelingen {#sms-encoding-and-formats}
 
-### SMS-codering, -lengte en -transliteratie {#sms-encoding--length-and-transliteration}
+### Sms-codering, -lengte en -transliteratie {#sms-encoding--length-and-transliteration}
 
-Standaard voldoet het aantal tekens in een SMS aan de GSM-standaarden (Global System for Mobile Communications).
+Standaard voldoet het aantal tekens in een sms aan de gsm-standaarden (Global System for Mobile Communications).
 
-SMS-berichten die gebruikmaken van GSM-codering mogen maximaal 160 tekens bevatten, of 153 tekens per SMS voor berichten die in meerdere onderdelen worden verzonden.
+Sms-berichten met gsm-codering mogen maximaal 160 tekens bevatten of 153 tekens per sms voor berichten die in meerdere delen worden verzonden.
 
 >[!NOTE]
 >
->Bepaalde tekens tellen als twee tekens (accolades, vierkante haken, het euroteken, enz.). De lijst met beschikbare GSM-tekens wordt weergegeven in de sectie [Teksttabel - GSM-standaard](#table-of-characters---gsm-standard) .
+>Bepaalde tekens tellen als twee tekens: accolades, vierkante haakjes, het euroteken, enzovoort. De lijst met beschikbare gsm-tekens vindt u in de sectie [Tabel met tekens - gsm-standaard](#table-of-characters---gsm-standard).
 
-Desgewenst kunt u tekentransliteratie autoriseren door het desbetreffende vak in te schakelen.
+Desgewenst kunt u tekentransliteratie autoriseren door het betreffende vakje in te schakelen.
 
 ![](assets/sms_transliteration.png)
 
-Vertaling bestaat erin een teken van een SMS door een ander te vervangen wanneer dat teken niet in aanmerking wordt genomen door de GSM-standaard.
+Transliteratie houdt in dat een teken van een sms door een ander teken wordt vervangen wanneer dat teken niet in aanmerking wordt genomen door de gsm-standaard.
 
-* Als transliteratie is **toegestaan**, wordt elk teken dat niet in aanmerking wordt genomen, vervangen door een GSM-teken wanneer het bericht wordt verzonden. De letter &quot;ë&quot; wordt bijvoorbeeld vervangen door &quot;e&quot;. Het bericht is daarom enigszins gewijzigd, maar de tekenlimiet blijft ongewijzigd.
-* Wanneer transliteratie **niet is geautoriseerd**, wordt elk bericht dat tekens bevat waarmee geen rekening wordt gehouden, verzonden in binaire notatie (Unicode): alle tekens worden daarom naar behoren verzonden. De SMS-berichten met Unicode zijn echter beperkt tot 70 tekens (of 67 tekens per SMS voor berichten die in meerdere delen worden verzonden). Als het maximumaantal tekens wordt overschreden, worden verschillende berichten verzonden, wat extra kosten kan veroorzaken.
+* Als transliteratie is **toegestaan**, wordt elk teken dat niet in aanmerking wordt genomen, vervangen door een gsm-teken wanneer het bericht wordt verzonden. De letter ‘ë’ wordt bijvoorbeeld vervangen door ‘e’. Het bericht is daarom enigszins gewijzigd, maar de tekenlimiet blijft hetzelfde.
+* Wanneer transliteratie **niet is geautoriseerd**, wordt elk bericht dat tekens bevat die niet in aanmerking worden genomen, verzonden in binaire indeling (Unicode). Dit betekent dat alle tekens worden verzonden zoals ze zijn. De sms-berichten met Unicode zijn echter beperkt tot 70 tekens (of 67 tekens per sms voor berichten die in meerdere delen worden verzonden). Als het maximum aantal tekens wordt overschreden, worden verschillende berichten verzonden, wat extra kosten kan veroorzaken.
 
 >[!IMPORTANT]
 >
->Als u personalisatievelden invoegt in de inhoud van uw SMS-bericht, worden mogelijk tekens ingevoegd waarmee de GSM-codering geen rekening houdt. Een inhoudsvoorbeeld wordt aangeboden in de sectie [SMS-berichten](../../channels/using/personalizing-sms-messages.md) personaliseren.
+>Als u personalisatievelden invoegt in de content van uw sms-bericht, worden mogelijk tekens ingevoegd die niet in aanmerking worden genomen door de gsm-codering. Een contentvoorbeeld vindt u in de sectie [Sms-berichten personaliseren](../../channels/using/personalizing-sms-messages.md).
 
-Standaard is tekentransliteratie uitgeschakeld. Als u alle tekens in uw SMS-berichten wilt behouden zoals ze zijn, wordt u aangeraden deze optie niet in te schakelen om bijvoorbeeld eigennamen te wijzigen.
+Standaard is transliteratie van tekens uitgeschakeld. Als u alle tekens in uw sms-berichten wilt behouden zoals ze zijn, bijvoorbeeld om geen eigennamen te wijzigen, wordt u aangeraden deze optie niet in te schakelen.
 
-Als uw SMS-berichten echter veel tekens bevatten die Unicode-berichten genereren, kunt u deze optie inschakelen om de kosten voor het verzenden van uw berichten te beperken.
+Als uw sms-berichten echter veel tekens bevatten die Unicode-berichten genereren, kunt u deze optie inschakelen om de kosten voor het verzenden van uw berichten te beperken.
 
-### Tekenlijst - GSM-standaard {#table-of-characters---gsm-standard}
+### Tabel met tekens - gsm-standaard {#table-of-characters---gsm-standard}
 
-In dit deel worden de tekens weergegeven waarmee rekening wordt gehouden door de GSM-standaard. Alle karakters die in het berichtlichaam worden opgenomen, buiten die hieronder vermeld, zetten het volledige bericht in binair formaat (Unicode) om en beperken daarom het tot 70 karakters. Raadpleeg voor meer informatie de sectie [SMS-codering, -lengte en -transliteratie](#sms-encoding--length-and-transliteration) .
+In deze sectie vindt u de tekens die in aanmerking worden genomen door de gsm-standaard. Alle tekens die in de hoofdtekst van het bericht worden ingevoegd, met uitzondering van de onderstaande tekens, converteren het volledige bericht naar de binaire indeling (Unicode) en beperken het tot 70 tekens. Raadpleeg de sectie [Sms-codering, -lengte en -transliteratie](#sms-encoding--length-and-transliteration) voor meer informatie.
 
 **Standaardtekens**
 
@@ -134,7 +134,7 @@ In dit deel worden de tekens weergegeven waarmee rekening wordt gehouden door de
   <tr> 
    <td> $<br /> </td> 
    <td> <img height="21px" src="assets/phi.png" /> <br /> </td> 
-   <td> "<br /> </td> 
+   <td> “<br /> </td> 
    <td> 2<br /> </td> 
    <td> B<br /> </td> 
    <td> R<br /> </td> 
@@ -184,7 +184,7 @@ In dit deel worden de tekens weergegeven waarmee rekening wordt gehouden door de
   <tr> 
    <td> ì<br /> </td> 
    <td> <img height="21px" src="assets/psi.png" /> <br /> </td> 
-   <td> '<br /> </td> 
+   <td> ’<br /> </td> 
    <td> 7<br /> </td> 
    <td> G<br /> </td> 
    <td> W<br /> </td> 
@@ -202,7 +202,7 @@ In dit deel worden de tekens weergegeven waarmee rekening wordt gehouden door de
    <td> x<br /> </td> 
   </tr> 
   <tr> 
-   <td> C<br /> </td> 
+   <td> Ç<br /> </td> 
    <td> <img height="21px" src="assets/theta.png" /> <br /> </td> 
    <td> )<br /> </td> 
    <td> 9 </td> 
@@ -233,7 +233,7 @@ In dit deel worden de tekens weergegeven waarmee rekening wordt gehouden door de
   </tr> 
   <tr> 
    <td> ø<br /> </td> 
-   <td> AE<br /> </td> 
+   <td> Æ<br /> </td> 
    <td> ,<br /> </td> 
    <td> &lt;<br /> </td> 
    <td> L<br /> </td> 
@@ -247,7 +247,7 @@ In dit deel worden de tekens weergegeven waarmee rekening wordt gehouden door de
    <td> -<br /> </td> 
    <td> = </td> 
    <td> M<br /> </td> 
-   <td> -<br /> </td> 
+   <td> Ñ<br /> </td> 
    <td> m<br /> </td> 
    <td> ñ<br /> </td> 
   </tr> 
@@ -280,7 +280,7 @@ ESC: Escape
 
 LF: Nieuwe regel
 
-CR: Enter
+CR: Enter-teken
 
 **Geavanceerde tekens (twee keer geteld)**
 
@@ -290,73 +290,73 @@ CR: Enter
 
 >[!NOTE]
 >
->Met deze opties kunt u de aansluiting aanpassen om te werken met niet-standaard SMSC (d.w.z. niet exact de SMPP 3.4-specificatie volgen) of specifieke coderingsvereisten en moeten alleen door gevorderde gebruikers worden geconfigureerd.
+>Met deze opties kunt u de connector aanpassen om te werken met niet-standaard-SMSC (dit betekent dat de SMPP 3.4-specificatie niet exact wordt gevolgd) of specifieke coderingsvereisten. Deze opties mogen alleen door gevorderde gebruikers worden geconfigureerd.
 
-Bij het verzenden van een SMS-bericht kan Adobe Campaign een of meer tekstcoderingen gebruiken. Elke codering heeft een eigen specifieke tekenset en bepaalt het aantal tekens dat in een SMS-bericht past.
+Wanneer u een sms-bericht verzendt, kan Adobe Campaign een of meer tekstcoderingen gebruiken. Elke codering heeft een eigen specifieke tekenset en bepaalt het aantal tekens dat in een sms-bericht past.
 
-In het **[!UICONTROL DATA_CODING]** veld kan Adobe Campaign communiceren met SMS-C welke codering wordt gebruikt.
+In het veld **[!UICONTROL DATA_CODING]** kan Adobe Campaign met SMSC communiceren om aan te geven welke codering wordt gebruikt.
 
 >[!NOTE]
 >
->De toewijzing tussen de werkelijk gebruikte **data_coding** -waarde en de codering wordt gestandaardiseerd. Niettemin hebben bepaalde SMS-C hun eigen specifieke kaart: in dit geval moet uw **Adobe Campaign** -beheerder deze toewijzing declareren. Vraag uw provider om meer informatie.
+>De toewijzing tussen de waarde **data_coding** en de werkelijk gebruikte codering wordt gestandaardiseerd. Niettemin hebben bepaalde SMSC’s hun eigen specifieke toewijzing. In dit geval moet uw **Adobe Campaign**-beheerder deze toewijzing declareren. Neem contact op met uw provider om meer informatie te krijgen.
 
-Met de **[!UICONTROL Define a specific mapping of encodings]** functionaliteit kunt u **data_codings** declareren en zo nodig de codering forceren: Hiervoor geeft u één codering in de tabel op.
+Met de functionaliteit **[!UICONTROL Define a specific mapping of encodings]** kunt u **data_codings** declareren en zo nodig de codering forceren. Hiervoor geeft u één codering in de tabel op.
 
 **Configuratie**
 
-* Wanneer de **[!UICONTROL Define a specific mapping of encodings]** functionaliteit niet wordt gecontroleerd, neemt de schakelaar een generisch gedrag over:
+* Wanneer de functionaliteit **[!UICONTROL Define a specific mapping of encodings]** niet is ingeschakeld, vertoont de connector generiek gedrag.
 
-   * Er wordt geprobeerd GSM-codering te gebruiken waaraan de waarde **data_coding = 0** wordt toegewezen.
-   * Als GSM-codering mislukt, wordt **UCS2** -codering gebruikt waaraan de waarde **data_coding = 8** wordt toegewezen.
+   * Er wordt geprobeerd gsm-codering te gebruiken waaraan de waarde **data_coding = 0** wordt toegewezen.
+   * Als gsm-codering mislukt, wordt **UCS2** -codering gebruikt waaraan de waarde **data_coding = 8** wordt toegewezen.
 
    ![](assets/sms_data_coding.png)
 
-* Wanneer de **[!UICONTROL Define a specific mapping of encodings]** functionaliteit is ingeschakeld, kunt u de gewenste coderingen definiëren en de gekoppelde **[!UICONTROL data_coding]** veldwaarden. Adobe Campaign probeert de eerste codering in de lijst te gebruiken. Als de eerste codering niet mogelijk is, volgt u het volgende.
+* Wanneer de functionaliteit **[!UICONTROL Define a specific mapping of encodings]** is ingeschakeld, kunt u de gewenste coderingen en de gekoppelde **[!UICONTROL data_coding]**-veldwaarden definiëren. Adobe Campaign probeert de eerste codering in de lijst te gebruiken, en daarna de volgende codering als de eerste codering niet mogelijk is.
 
-   De volgorde van de verklaringen is belangrijk: U wordt aangeraden de lijst in oplopende volgorde **van kosten** te plaatsen om de coderingen te bevorderen, zodat u in elk SMS-bericht zoveel mogelijk tekens kunt plaatsen.
+   De volgorde van de declaratie is belangrijk. U wordt aangeraden de lijst in oplopende volgorde **van kosten** te plaatsen om voorrang te geven aan de coderingen, zodat u in elk sms-bericht zoveel mogelijk tekens kunt plaatsen.
 
-   Declareer alleen de coderingen die u wilt gebruiken. Als sommige van de coderingen die door SMS-C worden verstrekt niet aan uw doel van gebruik zouden moeten beantwoorden, verklaar hen niet in de lijst.
+   Declareer alleen de coderingen die u wilt gebruiken. Als sommige van de coderingen die door SMSC worden verstrekt niet aan uw gebruiksdoel beantwoorden, declareer deze dan niet in de lijst.
 
    ![](assets/sms_data_coding1.png)
 
-### Automatisch antwoord verzonden aan de MO {#automatic-reply-sent-to-the-mo}
+### Automatisch antwoord verzonden naar het MO-bericht {#automatic-reply-sent-to-the-mo}
 
-Wanneer een profiel op een SMS-bericht reageert dat via Campagne is verzonden, kunt u berichten configureren die automatisch naar hem worden teruggestuurd, evenals de actie die moet worden uitgevoerd.
+Wanneer een profiel een sms-bericht beantwoordt dat via Campaign is verzonden, kunt u berichten configureren die automatisch naar het profiel worden teruggestuurd, evenals de actie die moet worden uitgevoerd.
 
-For more information, refer to [this section](../../channels/using/managing-incoming-sms.md).
+Raadpleeg [deze sectie](../../channels/using/managing-incoming-sms.md) voor meer informatie.
 
-## Eigenschappen van SMS configureren {#configuring-sms-properties}
+## Sms-eigenschappen configureren {#configuring-sms-properties}
 
-Deze sectie detailleert de lijst van parameters uniek aan SMS in het eigenschappen scherm van een levering van SMS of een malplaatje van SMS.
+In deze sectie vindt u de lijst met parameters die uniek zijn voor sms in het eigenschappenscherm van een sms-levering of een sms-sjabloon.
 
-De specifieke parameters voor het verzenden van SMS-berichten worden opnieuw gegroepeerd in de **[!UICONTROL Send]** sectie en in de **[!UICONTROL Advanced parameters]** secties.
+De specifieke parameters voor het verzenden van sms-berichten worden opnieuw gegroepeerd in de secties **[!UICONTROL Send]** en **[!UICONTROL Advanced parameters]**.
 
 ![](assets/sms_options.png)
 
 In het **[!UICONTROL Advanced parameters]** gedeelte:
 
-* Met de **[!UICONTROL From]** optie kunt u de naam van de SMS-berichtenafzender aanpassen met een reeks tekens. Dit is de naam die wordt weergegeven als de naam van de afzender van het SMS-bericht op de mobiele telefoon van de ontvanger.
+* Met de optie **[!UICONTROL From]** kunt u de naam van de afzender van het sms-bericht aanpassen met een reeks tekens. Dit is de naam die wordt weergegeven als de afzender van het sms-bericht op de mobiele telefoon van de ontvanger.
 
-   Als dit veld leeg is, wordt het bronnummer van de externe account gebruikt. Als geen bronaantal wordt verstrekt, zal het de korte code zijn die zal worden gebruikt. De externe rekening specifiek voor levering van SMS wordt voorgesteld in het [Bepalen van een SMS verpletterend](#defining-an-sms-routing) sectie.
+   Als dit veld leeg is, wordt het bronnummer gebruikt dat in het externe account is opgegeven. Als er geen bronnummer is opgegeven, wordt de korte code gebruikt. Het externe account specifiek voor sms-levering wordt in de sectie [Een sms-routering bepalen](#defining-an-sms-routing) opgegeven.
 
    ![](assets/sms_smpp_2.png)
 
    >[!IMPORTANT]
    >
-   >Controleer de wetgeving in uw land met betrekking tot het wijzigen van het adres van de afzender. Neem ook contact op met uw SMS-serviceprovider om te zien of deze deze functionaliteit aanbiedt.
+   >Controleer de wetgeving in uw land met betrekking tot het wijzigen van het adres van de afzender. Neem ook contact op met uw sms-serviceprovider om te controleren of deze deze functionaliteit aanbiedt.
 
 Uit het **[!UICONTROL Send]** gedeelte van een SMS-sjabloon:
 
-* Met de **[!UICONTROL Maximum number of SMS per message]** optie kunt u het aantal SMS-berichten definiëren dat moet worden gebruikt om een bericht te verzenden. Als dit aantal wordt overschreden, zal het bericht niet worden verzonden.
+* Met de optie **[!UICONTROL Maximum number of SMS per message]** kunt u het aantal sms-berichten definiëren dat moet worden gebruikt om een bericht te verzenden. Als dit aantal wordt overschreden, wordt het bericht niet verzonden.
 
    >[!IMPORTANT]
    >
-   >Als u verpersoonlijkingsgebieden of voorwaardelijke tekst in de inhoud van uw SMS bericht hebt opgenomen, kan de lengte van het bericht en, dientengevolge, het aantal te verzenden SMS berichten van één ontvanger aan een andere variëren. Raadpleeg de sectie [SMS-berichten](../../channels/using/personalizing-sms-messages.md) personaliseren voor meer informatie hierover.
+   >Als u personalisatievelden of voorwaardelijke tekst in de content van uw sms-bericht hebt ingevoegd, kunnen de lengte van het bericht en daarmee het aantal te verzenden sms-berichten verschillen afhankelijk van de ontvanger. Raadpleeg de sectie [Sms-berichten personaliseren](../../channels/using/personalizing-sms-messages.md) voor meer informatie.
 
    ![](assets/sms_smpp_3.png)
 
-* In het **[!UICONTROL Transmission mode]** veld kunt u de leveringsmethode voor SMS-berichten bepalen:
+* In het veld **[!UICONTROL Transmission mode]** kunt u de leveringsmethode voor sms-berichten bepalen:
 
-   * **[!UICONTROL Saved on SIM card]**: het bericht wordt opgeslagen op de telefoonSIM kaart van de ontvanger.
-   * **[!UICONTROL Saved on mobile]**: het bericht wordt opgeslagen op het interne geheugen van de telefoon.
-   * **[!UICONTROL Flash]**: het bericht wordt op de mobiele telefoon van de ontvanger als bericht getoond, dan verdwijnt het zonder wordt bewaard.
+   * **[!UICONTROL Saved on SIM card]**: Het bericht wordt opgeslagen op de simkaart van de telefoon van de ontvanger.
+   * **[!UICONTROL Saved on mobile]**: Het bericht wordt opgeslagen op het interne geheugen van de telefoon.
+   * **[!UICONTROL Flash]**: Het bericht wordt op de mobiele telefoon van de ontvanger getoond als een melding en verdwijnt vervolgens zonder dat het wordt opgeslagen.
