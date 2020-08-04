@@ -1,6 +1,6 @@
 ---
-title: Lees publiek
-description: Met de activiteit van het leespubliek kunt u een bestaand publiek ophalen en verfijnen door aanvullende filtervoorwaarden toe te passen.
+title: Doelgroep lezen
+description: Met de activiteit Doelgroep lezen kunt u een bestaande doelgroep ophalen en verfijnen door aanvullende filtervoorwaarden toe te passen.
 page-status-flag: never-activated
 uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
 contentOwner: sauviat
@@ -16,22 +16,22 @@ translation-type: tm+mt
 source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 0%
+ht-degree: 92%
 
 ---
 
 
-# Lees publiek{#read-audience}
+# Doelgroep lezen{#read-audience}
 
 ## Beschrijving {#description}
 
 ![](assets/prefill.png)
 
-De **[!UICONTROL Read audience]** activiteit staat u toe om een bestaand publiek terug te winnen en het te verfijnen door extra het filtreren voorwaarden toe te passen.
+Met de activiteit **[!UICONTROL Read audience]** kunt u een bestaande doelgroep ophalen en verfijnen door aanvullende filtervoorwaarden toe te passen.
 
 ## Gebruikscontext {#context-of-use}
 
-De **[!UICONTROL Read audience]** activiteit is een eenvoudigere versie van de **[!UICONTROL Query]** activiteit die voor gevallen wordt ontworpen waar u slechts een bestaand publiek hoeft te selecteren.
+De activiteit **[!UICONTROL Read audience]** is een vereenvoudigde versie van de activiteit **[!UICONTROL Query]** die is ontworpen voor gevallen waarbij u slechts een bestaande doelgroep moet selecteren.
 
 **Verwante onderwerpen**
 
@@ -40,18 +40,18 @@ De **[!UICONTROL Read audience]** activiteit is een eenvoudigere versie van de *
 
 ## Configuratie {#configuration}
 
-1. Zet een **[!UICONTROL Read audience]** activiteit neer in uw werkschema.
-1. Selecteer de activiteit, dan open het gebruikend de ![](assets/edit_darkgrey-24px.png) knoop van de snelle acties die verschijnen.
-1. Selecteer het publiek dat u wilt ophalen van het **[!UICONTROL Properties]** tabblad.
+1. Zet een activiteit **[!UICONTROL Read audience]** neer in uw workflow.
+1. Selecteer de activiteit en open deze met de knop ![](assets/edit_darkgrey-24px.png) vanuit de snelle acties die verschijnen.
+1. Selecteer de doelgroep die u wilt ophalen van het tabblad **[!UICONTROL Properties]**.
 
-   U kunt het publiek van de volgende typen ophalen: **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]** en **[!UICONTROL Experience Cloud]**. Raadpleeg de documentatie bij [Soorten publiek](../../audiences/using/about-audiences.md) voor meer informatie over publiekstypen.
+   U kunt doelgroepen van de volgende typen ophalen: **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]** en **[!UICONTROL Experience Cloud]**. Raadpleeg de documentatie bij [Doelgroepen](../../audiences/using/about-audiences.md) voor meer informatie over typen doelgroepen.
 
-   Met de **[!UICONTROL Use a dynamic audience]** optie kunt u de naam definiëren van het publiek waarop u zich wilt richten op basis van de gebeurtenisvariabelen van de workflow. Raadpleeg voor meer informatie de sectie [Activiteiten aanpassen met gebeurtenisvariabelen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) .
+   Met de optie **[!UICONTROL Use a dynamic audience]** kunt u de naam van de doelgroep definiëren die u doelgericht wilt benaderen op basis van de gebeurtenisvariabelen van de workflow. Raadpleeg de sectie [Activiteiten aanpassen met gebeurtenisvariabelen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) voor meer informatie.
 
    ![](assets/readaudience_activity1.png)
 
-1. Als u extra filtreren op het geselecteerde publiek wilt toepassen, voeg voorwaarden via het **[!UICONTROL Source filtering]** lusje van de activiteit toe.
+1. Als u aanvullende filters op de geselecteerde doelgroep wilt toepassen, voegt u voorwaarden toe via het tabblad **[!UICONTROL Source filtering]** van de activiteit.
 
-   Voor meer informatie over het creëren van het filtreren voorwaarden, verwijs naar de [Creërende vragen](../../automating/using/editing-queries.md#creating-queries) documentatie.
+   Voor meer informatie over het maken van filtervoorwaarden raadpleegt u de documentatie bij [Query’s maken](../../automating/using/editing-queries.md#creating-queries).
 
-1. Bevestig de configuratie van uw activiteit en sla uw werkschema op.
+1. Bevestig de configuratie van uw activiteit en sla de workflow op.
