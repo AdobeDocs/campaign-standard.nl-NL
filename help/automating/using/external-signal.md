@@ -1,6 +1,6 @@
 ---
 title: Extern signaal
-description: De activiteit van het Externe signaal brengt een werkschema teweeg wanneer sommige voorwaarden met succes in een andere werkschema worden vervuld.
+description: De activiteit Extern signaal triggert een workflow wanneer aan sommige voorwaarden wordt voldaan in een andere workflow.
 page-status-flag: never-activated
 uuid: 884b6daf-bfd9-440b-8336-004b80c76def
 contentOwner: sauviat
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 16afc307df6902584624d6457954a472b11c5129
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 0%
+ht-degree: 96%
 
 ---
 
@@ -27,21 +27,21 @@ ht-degree: 0%
 
 ![](assets/signal.png)
 
-De **[!UICONTROL External signal]** activiteit brengt een werkschema teweeg wanneer sommige voorwaarden met succes in een andere werkschema of van een REST API vraag worden vervuld.
+De activiteit **[!UICONTROL External signal]** triggert een workflow wanneer aan sommige voorwaarden wordt voldaan in een andere workflow of vanaf een REST API-aanroep.
 
 ## Gebruikscontext {#context-of-use}
 
-De **[!UICONTROL External signal]** activiteit wordt gebruikt om verschillende processen te organiseren en te ordenen die deel van de zelfde klantenreis in verschillende werkschema&#39;s uitmaken. Het staat toe om één werkschema van een andere te beginnen, toelatend om complexere klantenreizen te steunen, terwijl het kunnen beter controleren en reageren in geval van kwestie.
+De activiteit **[!UICONTROL External signal]** wordt gebruikt om verschillende processen te organiseren en te regelen die deel uitmaken van hetzelfde klanttraject in verschillende workflows. Deze activiteit maakt het mogelijk een workflow te starten vanuit een andere workflow ter ondersteuning van complexere klanttrajecten, terwijl u in geval van problemen gemakkelijker kunt opvolgen en reageren.
 
-De **[!UICONTROL External signal]** activiteit wordt ontworpen om als eerste activiteit van een werkschema worden geplaatst. Deze kan worden geactiveerd door de **[!UICONTROL End]** activiteit van een andere workflow of door een REST API-aanroep (zie voor meer informatie de [API-documentatie](../../api/using/triggering-a-signal-activity.md)).
+De activiteit **[!UICONTROL External signal]** is ontworpen om als eerste activiteit van een workflow te worden geplaatst. Deze kan worden geactiveerd vanaf de activiteit **[!UICONTROL End]** van een andere workflow of vanaf een REST API-aanroep (zie de [API-documentatie](../../api/using/triggering-a-signal-activity.md) voor meer informatie).
 
-Wanneer dit wordt geactiveerd, kunnen externe parameters worden gedefinieerd en beschikbaar zijn in de variabelen voor workflowgebeurtenissen. Het proces om een werkschema met externe parameters te roepen is gedetailleerd in [deze sectie](../../automating/using/calling-a-workflow-with-external-parameters.md).
+Wanneer deze activiteit wordt geactiveerd, kunnen externe parameters worden gedefinieerd en ter beschikking worden gesteld in de gebeurtenisvariabelen van de workflow. Het proces om een workflow met externe parameters aan te roepen wordt gedetailleerd beschreven in [deze sectie](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 >[!NOTE]
 >
 >De activiteit kan niet vaker dan om de 10 minuten worden geactiveerd.
 
-Merk op dat een **[!UICONTROL External signal]** activiteit van verscheidene verschillende gebeurtenissen kan worden teweeggebracht. In dat geval **[!UICONTROL External signal]** wordt de activering uitgevoerd zodra een van de bronworkflows of API-aanroepen wordt uitgevoerd. Het vereist niet dat alle bronwerkschema&#39;s worden gebeëindigd.
+Merk op dat een activiteit **[!UICONTROL External signal]** vanaf verschillende gebeurtenissen kan worden geactiveerd. In dat geval wordt het **[!UICONTROL External signal]** geactiveerd zodra een van de bronworkflows of de API-aanroep wordt uitgevoerd. Hiervoor hoeven niet alle bronworkflows voltooid te zijn.
 
 **Verwante onderwerpen**
 
@@ -50,42 +50,42 @@ Merk op dat een **[!UICONTROL External signal]** activiteit van verscheidene ver
 
 ## Configuratie {#configuration}
 
-Wanneer het vormen van een extern signaal, is het belangrijk om de **[!UICONTROL External signal]** activiteit in het bestemmingswerkschema eerst te vormen. Zodra deze configuratie wordt gedaan, wordt de **[!UICONTROL External signal]** activiteit van dit werkschema beschikbaar om de **[!UICONTROL End]** activiteit van het bronwerkschema te vormen.
+Bij het configureren van een extern signaal is het belangrijk om eerst de activiteit **[!UICONTROL External signal]** in de bestemmingsworkflow te configureren. Zodra deze configuratie is uitgevoerd, wordt de activiteit **[!UICONTROL External signal]** van deze workflow beschikbaar om de activiteit **[!UICONTROL End]** van de bronworkflow te configureren.
 
-1. Sleep een **[!UICONTROL External signal]** activiteit naar de doelworkflow.
-1. Selecteer de activiteit, dan open het gebruikend de ![](assets/edit_darkgrey-24px.png) knoop van de snelle acties die verschijnen.
-1. Bewerk het label van de activiteit. Dit etiket is nodig wanneer het vormen van het bronwerkschema dat het **[!UICONTROL External signal]** teweegbrengt.
+1. Sleep een activiteit **[!UICONTROL External signal]** en zet deze neer in uw bestemmingsworkflow.
+1. Selecteer de activiteit en open deze met de knop ![](assets/edit_darkgrey-24px.png) vanuit de snelle acties die verschijnen.
+1. Bewerk het label van de activiteit. Dit label is nodig bij het configureren van de bronworkflow die het **[!UICONTROL External signal]** activeert.
 
-   Als u de werkstroom met parameters wilt roepen, gebruik het **[!UICONTROL Parameters]** gebied om hen te verklaren. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity).
+   Als u de workflow wilt aanroepen met parameters, gebruikt u het gebied **[!UICONTROL Parameters]** om deze te declareren. Raadpleeg [deze sectie](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity) voor meer informatie.
 
    ![](assets/external_signal_configuration.png)
 
-1. Bevestig de configuratie van uw activiteit, voeg om het even welke andere activiteit toe u wenst en sla uw werkschema op.
+1. Bevestig de configuratie van uw activiteit, voeg desgewenst nog een willekeurige activiteit toe en sla uw workflow op.
 
    >[!NOTE]
    >
-   >Ga als volgt te werk als u de doelworkflow wilt activeren vanuit een andere workflow. Als u de doelworkflow wilt activeren via een REST API-aanroep, raadpleegt u de [API-documentatie](../../api/using/triggering-a-signal-activity.md) voor meer informatie.
+   >Ga als volgt te werk als u de bestemmingsworkflow wilt activeren vanuit een andere workflow. Als u de bestemmingsworkflow wilt activeren via een REST API-aanroep, raadpleegt u de [API-documentatie](../../api/using/triggering-a-signal-activity.md) voor meer informatie.
 
-1. Open de bronworkflow en selecteer een **[!UICONTROL End]** activiteit. Als er geen **[!UICONTROL End]** activiteit beschikbaar is, voeg na de laatste activiteit van een tak van het werkschema toe.
+1. Open de bronworkflow en selecteer een activiteit **[!UICONTROL End]**. Als er geen activiteit **[!UICONTROL End]** beschikbaar is, voegt u er een toe na de laatste activiteit van een vertakking van de workflow.
 
-   Sommige activiteiten hebben geen uitgaande overgang door gebrek. Van het **[!UICONTROL Properties]** lusje van deze activiteiten, kunt u een uitgaande overgang toevoegen.
+   Sommige activiteiten hebben standaard geen uitgaande overgang. Via het tabblad **[!UICONTROL Properties]** van deze activiteiten kunt u een uitgaande overgang toevoegen.
 
-   Ga in een **[!UICONTROL Update data]** activiteit bijvoorbeeld naar het **[!UICONTROL Transitions]** tabblad en controleer de **[!UICONTROL Add an outbound transition without the population]** optie. Met deze optie kunt u een overgang toevoegen die geen gegevens bevat en geen overbodige ruimte inneemt op uw systeem. Het wordt enkel gebruikt om de extra **[!UICONTROL End]** activiteit te verbinden die het bestemmingswerkschema teweegbrengt.
+   Ga in een activiteit **[!UICONTROL Update data]** bijvoorbeeld naar het tabblad **[!UICONTROL Transitions]** en schakel de optie **[!UICONTROL Add an outbound transition without the population]** in. Met deze optie kunt u een overgang toevoegen die geen data bevat en geen onnodige ruimte op uw systeem inneemt. Deze overgang wordt alleen gebruikt voor het verbinden van de extra activiteit **[!UICONTROL End]** die de bestemmingsworkflow activeert.
 
    ![](assets/external_signal_empty_transition.png)
 
-1. Selecteer op het **[!UICONTROL External signal]** tabblad van de **[!UICONTROL End]** activiteit de doelworkflow en de **[!UICONTROL External signal]** activiteit die binnen die workflow moet worden geactiveerd.
+1. Selecteer op het tabblad **[!UICONTROL External signal]** van de activiteit **[!UICONTROL End]** de bestemmingsworkflow en de activiteit **[!UICONTROL External signal]** die binnen die workflow moet worden geactiveerd.
 
-   Wanneer u een **[!UICONTROL End]** activiteit plaatst om een andere werkschema teweeg te brengen, wordt zijn pictogram bijgewerkt met een extra signaalsymbool.
+   Wanneer u een activiteit **[!UICONTROL End]** instelt om een andere workflow te activeren, wordt het pictogram ervan bijgewerkt met een aanvullend signaalsymbool.
 
-   Als u de workflow met parameters wilt aanroepen, gebruikt u het **[!UICONTROL Parameters and values]** gebied. For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow).
+   Als u de workflow wilt aanroepen met parameters, gebruikt u het gebied **[!UICONTROL Parameters and values]**. Raadpleeg [deze sectie](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow) voor meer informatie.
 
    ![](assets/external_signal_end.png)
 
 1. Sla de bronworkflow op.
 
-Zodra de **[!UICONTROL End]** activiteit van het bronwerkschema of de REST API vraag wordt uitgevoerd, wordt het bestemmingswerkschema automatisch teweeggebracht van de **[!UICONTROL External signal]** activiteit.
+Zodra de activiteit **[!UICONTROL End]** van de bronworkflow of de REST API-aanroep is uitgevoerd, wordt de bestemmingsworkflow automatisch geactiveerd vanaf de activiteit **[!UICONTROL External signal]**.
 
 >[!NOTE]
 >
->De doelworkflow moet handmatig worden gestart voordat deze kan worden geactiveerd. Wanneer begonnen, **[!UICONTROL External activity]** wordt het geactiveerd en wacht op het signaal van het bronwerkschema.
+>De bestemmingsworkflow moet handmatig worden gestart voordat deze kan worden geactiveerd. Wanneer deze is gestart, wordt de **[!UICONTROL External activity]** geactiveerd en wacht deze op het signaal van de bronworkflow.
