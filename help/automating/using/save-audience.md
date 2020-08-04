@@ -1,6 +1,6 @@
 ---
-title: Adviezen opslaan
-description: Met de activiteit voor het opslaan van het publiek kunt u een bestaand publiek bijwerken of een nieuw publiek maken op basis van de populatie die stroomopwaarts in een workflow is berekend.
+title: Doelgroep opslaan
+description: Met de activiteit Doelgroep opslaan kunt u een bestaande doelgroep bijwerken of een nieuwe doelgroep maken op basis van de populatie die stroomopwaarts in een workflow is berekend.
 page-status-flag: never-activated
 uuid: 8babb173-fa59-44a7-a2a5-49f45ba6bf99
 contentOwner: sauviat
@@ -12,81 +12,84 @@ discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
 context-tags: saveAudience,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '803'
+ht-degree: 100%
 
 ---
 
 
-# Adviezen opslaan{#save-audience}
+# Doelgroep opslaan{#save-audience}
 
 ## Beschrijving {#description}
 
 ![](assets/save_audience.png)
 
-Met de **[!UICONTROL Save audience]** activiteit kunt u een bestaand publiek bijwerken of een nieuw publiek maken van de bevolking die stroomopwaarts in een workflow is berekend. Het publiek dat met deze activiteit wordt gemaakt of bijgewerkt, is **List** - of **File** -publiek. Ze worden toegevoegd aan de lijst met doelgroepen van toepassingen en worden beschikbaar gesteld via het **[!UICONTROL Audiences]** menu.
+Met de activiteit **[!UICONTROL Save audience]** kunt u een bestaande doelgroep bijwerken of een nieuwe doelgroep maken op basis van de populatie die stroomopwaarts in een workflow is berekend. De doelgroepen die vanaf deze activiteit worden gemaakt of bijgewerkt, zijn de doelgroepen **List** of **File**. Ze worden toegevoegd aan de lijst met doelgroepen van applicaties en en worden beschikbaar gesteld via het menu **[!UICONTROL Audiences]**.
 
 >[!NOTE]
 >
->Als het publiek dat door de **[!UICONTROL Save audience]** activiteit wordt gecreeerd met extra gegevens is verrijkt, zult u niet deze gegevens kunnen gebruiken om een standalone levering te personaliseren. Ze kunnen alleen worden gebruikt vanuit een levering die wordt uitgevoerd in een workflow.
+>Als de doelgroep die via de activiteit **[!UICONTROL Save audience]** is gemaakt, wordt verrijkt met aanvullende data, kunt u deze data niet gebruiken om een individuele levering te personaliseren. Ze kunnen alleen worden gebruikt vanuit een levering die wordt uitgevoerd in een workflow.
 
-Met deze activiteit kunt u profielen ook exporteren als Adobe Experience Cloud-publiek/segmenten. Op die manier kunt u deze soorten publiek benutten in andere Adobe Experience Cloud-oplossingen. Voor meer informatie over gedeeld publiek, verwijs naar het [Werken met Campagne en de Dienst](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)van de Kern van Mensen.
+Met deze activiteit kunt u ook profielen exporteren als Adobe Experience Cloud-doelgroepen/-segmenten. Op die manier kunt u deze doelgroepen benutten in andere Adobe Experience Cloud-oplossingen. Voor meer informatie over gedeelde doelgroepen raadpleegt u [Werken met Campaign en de kernservice People](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
 
 ## Gebruikscontext {#context-of-use}
 
-De **[!UICONTROL Save audience]** activiteit wordt hoofdzakelijk gebruikt om populatiegroepen in de zelfde werkschema gegevens te bewaren, door hen in herbruikbaar publiek om te zetten.
+De activiteit **[!UICONTROL Save audience]** wordt hoofdzakelijk gebruikt om berekende populatiegroepen in dezelfde workflow te houden door deze in herbruikbare doelgroepen om te zetten.
 
 ## Configuratie {#configuration}
 
-1. Zet een **[!UICONTROL Save audience]** activiteit neer in uw werkschema.
-1. Verbind het na andere het richten activiteiten zoals een vraag, een doorsnede, een unie, of een uitsluiting.
-1. Selecteer de activiteit, dan open het gebruikend de ![](assets/edit_darkgrey-24px.png) knoop van de snelle acties die verschijnen.
+1. Zet een activiteit **[!UICONTROL Save audience]** neer in uw workflow.
+1. Verbind deze na de andere targetingactiviteiten zoals een query, een doorsnede, een samenvoeging of een uitsluiting.
+1. Selecteer de activiteit en open deze met de knop ![](assets/edit_darkgrey-24px.png) vanuit de snelle acties die verschijnen.
 1. Selecteer de actie die u wilt uitvoeren:
 
-   * **[!UICONTROL Update an existing audience]**: Selecteer een bestaand publiek en kies het type update:
+   * **[!UICONTROL Update an existing audience]**: Selecteer een bestaande doelgroep en kies het updatetype:
 
-      * **[!UICONTROL Replace audience content with new data]**: De volledige inhoud van het publiek wordt vervangen. De oude gegevens gaan verloren. Alleen de gegevens van de binnenkomende overgang van de activiteit voor het opslaan van het publiek blijven behouden.
-      * **[!UICONTROL Complete audience with new data]**: De oude publieksgegevens worden bewaard en de gegevens van sparen publieksactiviteit&#39;s binnenkomende overgang wordt toegevoegd aan het.
-   * **[!UICONTROL Create then update an audience]**: Voer de naam van het publiek in en selecteer het updatetype. Als het publiek nog niet bestaat, wordt het gemaakt. Als deze al bestaat, wordt deze bijgewerkt volgens de geselecteerde modus:
+      * **[!UICONTROL Replace audience content with new data]**: De volledige content van de doelgroep wordt vervangen. De oude data gaan verloren. Alleen de data van de binnenkomende overgang van de activiteit voor het opslaan van de doelgroep blijven behouden.
+      * **[!UICONTROL Complete audience with new data]**: De oude doelgroepsdata worden bewaard en de data van de binnenkomende overgang van de activiteit voor het opslaan van de doelgroep worden eraan toegevoegd.
+   * **[!UICONTROL Create then update an audience]**: Voer de naam in van de doelgroep en selecteer het updatetype. Als de doelgroep nog niet bestaat, wordt deze gemaakt. Als deze al bestaat, wordt deze bijgewerkt volgens de geselecteerde modus:
 
-      * **[!UICONTROL Replace audience content with new data]**: De volledige inhoud van het publiek wordt vervangen. De oude gegevens gaan verloren. Alleen de gegevens van de binnenkomende overgang van de activiteit voor het opslaan van het publiek blijven behouden.
+      * **[!UICONTROL Replace audience content with new data]**: De volledige content van de doelgroep wordt vervangen. De oude data gaan verloren. Alleen de data van de binnenkomende overgang van de activiteit voor het opslaan van de doelgroep blijven behouden.
 
-         Waarschuwing: met deze optie wist u het publiekstype en de doeldimensie van het bijgewerkte publiek.
+         Waarschuwing: Met deze optie wist u het doelgroeptype en de doeldimensie van de bijgewerkte doelgroep.
 
-      * **[!UICONTROL Complete audience with new data]**: De oude publieksgegevens worden bewaard en de gegevens van sparen publieksactiviteit&#39;s binnenkomende overgang wordt toegevoegd aan het.
+      * **[!UICONTROL Complete audience with new data]**: De oude doelgroepsdata worden bewaard en de data van de binnenkomende overgang van de activiteit voor het opslaan van de doelgroep worden eraan toegevoegd.
 
-         Waarschuwing: deze optie veroorzaakt een fout als het publiekstype of de doeldimensie van het bijgewerkte publiek niet compatibel zijn met de huidige configuratie van de workflow. U kunt een publiek met bestandstypen bijvoorbeeld niet voltooien met profielen die afkomstig zijn van een query.
-   * **[!UICONTROL Create a new audience]**: Voer de naam in van het publiek dat u wilt maken. De tijd en datum waarop het publiek wordt gemaakt, worden automatisch toegevoegd aan de naam van het publiek. Dit maakt het publiek uniek telkens als het werkschema wordt uitgevoerd.
-   * **[!UICONTROL Share in Adobe Experience Cloud]**: Als u doelprofielen hebt en u uw publiek wilt exporteren naar Adobe Experience Cloud, selecteert u deze optie en selecteert u een bestaand gedeeld publiek of maakt u een nieuw publiek.
+         Waarschuwing: Deze optie veroorzaakt een fout als het doelgroeptype of de doeldimensie van de bijgewerkte doelgroep niet compatibel is met de huidige configuratie van de workflow. U kunt een doelgroep van het type File bijvoorbeeld niet voltooien met profielen die afkomstig zijn van een query.
+   * **[!UICONTROL Create a new audience]**: Voer de naam in van de doelgroep die u wilt maken. De tijd en datum waarop de doelgroep wordt gemaakt, worden automatisch toegevoegd aan de naam van de doelgroep. Dit maakt de doelgroep uniek telkens wanneer de workflow wordt uitgevoerd.
+   * **[!UICONTROL Share in Adobe Experience Cloud]**: Als u profielen doelgericht hebt benaderd en u uw doelgroep wilt exporteren naar Adobe Experience Cloud, selecteert u deze optie en vervolgens selecteert u een bestaande gedeelde doelgroep of maakt u een nieuwe doelgroep.
 
-      Selecteer ook een bestand **[!UICONTROL Shared Data source]** dat overeenkomt met de bron van de gegevens in het publiek, zodat de gegevens op de juiste wijze worden afgestemd in Adobe Experience Cloud.
+      Selecteer ook een **[!UICONTROL Shared Data source]** die overeenkomt met de resource van de data in de doelgroep, zodat de data op de juiste wijze worden afgestemd in Adobe Experience Cloud.
 
-      Als u deze optie gebruikt, wordt het gedeelde publiek niet toegevoegd aan de lijst met Adobe-soorten publiek dat beschikbaar is via het **[!UICONTROL Audiences]** menu.
+      Als u deze optie gebruikt, wordt de gedeelde doelgroep niet toegevoegd aan de lijst met Adobe Campaign-doelgroepen die beschikbaar zijn via het menu **[!UICONTROL Audiences]**.
 
       >[!NOTE]
       >
-      >Deze optie is alleen beschikbaar als de functionaliteit voor gedeeld publiek met Adobe Experience Cloud door uw beheerder is geconfigureerd. Voor meer informatie, verwijs naar het [Werken met Campagne en de Dienst](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)van de Kern van Mensen.
-   Het type publiek dat tijdens een update wordt opgeslagen of beschikbaar is, is afhankelijk van de activiteiten die stroomopwaarts in de workflow worden geplaatst.
+      >Deze optie is alleen beschikbaar als de functionaliteit voor gedeelde doelgroepen met Adobe Experience Cloud door uw beheerder is geconfigureerd. Voor meer informatie raadpleegt u [Werken met Campaign en de kernservice People](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
+   Het type doelgroepen dat tijdens een update wordt opgeslagen of beschikbaar is, is afhankelijk van de activiteiten die stroomopwaarts in de workflow worden geplaatst.
 
-   Als de doeldimensie van het publiek onbekend is wanneer deze wordt opgeslagen (bijvoorbeeld als deze afkomstig is van een geïmporteerd bestand), wordt het publiek gemaakt of bijgewerkt als een **[!UICONTROL File]** soort publiek.
+   Als de doeldimensie van de doelgroep onbekend is wanneer deze wordt opgeslagen (bijvoorbeeld als deze afkomstig is van een geïmporteerd bestand), wordt de doelgroep gemaakt of bijgewerkt als een doelgroep van het type **[!UICONTROL File]**.
 
-   Als de het richten dimensie van het bewaarde publiek reeds wordt bepaald wanneer het wordt bewaard (bijvoorbeeld, als het uit het richten, na een vraag, enz. komt), dan wordt het publiek bewaard of bijgewerkt als **[!UICONTROL List]** typepubliek.
+   Als de doeldimensie van de opgeslagen doelgroep al is gedefinieerd wanneer deze wordt opgeslagen (bijvoorbeeld als deze afkomstig is van een targeting, na een query, enzovoort), dan wordt de doelgroep opgeslagen of bijgewerkt als een doelgroep van het type **[!UICONTROL List]**.
 
-   De inhoud van het opgeslagen publiek is dan beschikbaar in de gedetailleerde weergave van het publiek, die toegankelijk is via het **[!UICONTROL Audiences]** menu. De kolommen beschikbaar van deze mening beantwoorden aan de kolommen van de binnenkomende overgang van de werkschema sparen publieksactiviteit. Bijvoorbeeld: de kolommen van het ingevoerde dossier, de extra gegevens die van een vraag worden toegevoegd.
+   De content van de opgeslagen doelgroep is vervolgens beschikbaar in de gedetailleerde weergave van de doelgroep, die toegankelijk is via het menu **[!UICONTROL Audiences]**. De kolommen die beschikbaar zijn vanaf deze weergave, komen overeen met de kolommen van de binnenkomende overgang van de activiteit voor het opslaan van de doelgroep van de workflow. Bijvoorbeeld: de kolommen van het geïmporteerde bestand, de extra data die via een query zijn toegevoegd.
 
-1. Bevestig de configuratie van uw activiteit en sla uw werkschema op.
+1. Bevestig de configuratie van uw activiteit en sla de workflow op.
 
 ## Voorbeeld {#example}
 
-De workflow die in dit voorbeeld wordt gedefinieerd, toont een regelmatige publieksupdate van het doel:
+De workflow die in dit voorbeeld wordt gedefinieerd, toont een regelmatige doelgroepupdate vanaf targeting:
 
-* Het wordt automatisch één keer per maand uitgevoerd gebruikend een **[!UICONTROL Scheduler]**.
-* U kunt een bestand gebruiken **[!UICONTROL Query]** om alle profielen te herstellen die zijn geabonneerd op de verschillende beschikbare toepassingsservices.
-* De **[!UICONTROL Save audience]** activiteit werkt het publiek bij door profielen te schrappen die van de dienst sinds de laatste werkschemauitvoering hebben losgemaakt en door de onlangs geabonneerde profielen toe te voegen.
+* Deze wordt automatisch één keer per maand uitgevoerd met behulp van een **[!UICONTROL Scheduler]**.
+* U kunt een **[!UICONTROL Query]** gebruiken om alle profielen te herstellen die geabonneerd zijn op de verschillende beschikbare applicatieservices.
+* De activiteit **[!UICONTROL Save audience]** werkt de doelgroep bij door profielen te schrappen die zich voor de service hebben uitgeschreven sinds de laatste workflowuitvoering en door de onlangs ingeschreven profielen toe te voegen.
 
 ![](assets/save_audience_example_1.png)
 
-De **[!UICONTROL Save audience]** activiteit wordt gevormd als volgt:
+De activiteit **[!UICONTROL Save audience]** wordt als volgt geconfigureerd:
 
 ![](assets/save_audience_example_2.png)
 
