@@ -1,6 +1,6 @@
 ---
-title: Schermdefinitie configureren
-description: Leer hoe u nieuwe Adobe Campagne-schermen definieert op basis van de gegevensstructuur van de bronnen.
+title: De schermdefinitie configureren
+description: Ontdek hoe u nieuwe Adobe Campaign-schermen definieert op basis van de datastructuur van de resources.
 page-status-flag: never-activated
 uuid: 40848197-b1a0-4018-bfc3-7df64fb83307
 contentOwner: sauviat
@@ -12,68 +12,71 @@ discoiquuid: 9dabb328-ac0c-49fd-8996-8d56341ee7ac
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+workflow-type: ht
+source-wordcount: '614'
+ht-degree: 100%
 
 ---
 
 
-# Schermdefinitie configureren{#configuring-the-screen-definition}
+# De schermdefinitie configureren{#configuring-the-screen-definition}
 
-Wanneer u een bron maakt of wanneer u nieuwe velden toevoegt aan een bestaande bron, kunt u definiëren hoe deze moeten worden weergegeven in de interface.
+Wanneer u een resource maakt of nieuwe velden toevoegt aan een bestaande resource, kunt u definiëren hoe deze moeten worden weergegeven in de interface.
 
-Deze stap is niet verplicht omdat u uw bron nog steeds kunt vullen en toegang hebt tot de gegevens via workflows, publiek en REST API.
+Deze stap is niet verplicht omdat u uw resource nog steeds kunt invullen en de data ervan kunt openen via workflows, doelgroepen en de REST API.
 
-Op het **[!UICONTROL Screen definition]** tabblad kunt u:
+Op het tabblad **[!UICONTROL Screen definition]** kunt u het volgende doen:
 
-* Voeg toegang tot het douanemiddel in de navigatieruit toe
-* De manier aanpassen waarop de lijst met elementen waaruit de bron bestaat wordt weergegeven
-* Bepaal de manier de detailmening van elk element van het middel wordt getoond
+* Toegang tot de aangepaste resource toevoegen in het navigatiedeelvenster
+* De manier aanpassen waarop de lijst met elementen waaruit de resource bestaat, wordt weergegeven
+* De manier bepalen waarop de detailweergave van elk element van de resource wordt getoond
 
 ## Toegang inschakelen via het navigatiemenu {#enabling-access-from-the-navigation-menu}
 
-Als u wilt dat uw bron een speciaal scherm heeft, kunt u dit beschikbaar stellen via het navigatiemenu.
+Als u wilt dat uw resource een speciaal scherm heeft, kunt u dit beschikbaar stellen via het navigatiemenu.
 
-1. Van het **[!UICONTROL Screen definition]** lusje van het middel, ontvouw de **[!UICONTROL Navigation]** sectie.
-1. Controleer de **[!UICONTROL Add an entry in the 'Client data' section]** doos om toegang tot dit middel van de navigatieruit toe te staan.
+1. Vouw vanaf het tabblad **[!UICONTROL Screen definition]** van de resource de sectie **[!UICONTROL Navigation]** uit.
+1. Schakel het selectievakje **[!UICONTROL Add an entry in the 'Client data' section]** in om toegang tot deze resource vanaf het navigatiedeelvenster toe te staan.
 
    ![](assets/schema_extension_19.png)
 
-De bron wordt weergegeven als een subitem binnen de **[!UICONTROL Client data]** sectie.
+De resource wordt weergegeven als een subvermelding binnen de sectie **[!UICONTROL Client data]**.
 
 ## De standaardlijstconfiguratie definiëren {#defining-the-default-list-configuration}
 
-In het **[!UICONTROL List configuration]** gedeelte van de schermdefinitie kunt u de kolommen en informatie definiëren die standaard worden weergegeven in het overzicht van een bron.
+In de sectie **[!UICONTROL List configuration]** van de schermdefinitie kunt u de kolommen en informatie definiëren die standaard worden weergegeven in het overzicht van een resource.
 
-1. Controleer de **[!UICONTROL Customize the list configuration]** doos om de manier te bepalen de kolommen van het middel worden getoond.
-1. Gebruik de **[!UICONTROL Create element]** knop om een veld te selecteren uit de velden die u hebt gemaakt.
+1. Schakel het selectievakje **[!UICONTROL Customize the list configuration]** in om de manier te bepalen waarop de kolommen van de resource worden weergegeven.
+1. Gebruik de knop **[!UICONTROL Create element]** om een van de velden die u hebt gemaakt te selecteren.
 1. Het gemaakte veld wordt weergegeven in de lijst. U kunt het label en de breedte ervan bewerken.
 
    ![](assets/schema_extension_20.png)
 
-1. Controleer in de **[!UICONTROL Simple search]** sectie welke velden worden opgenomen in de zoekopdracht **[!UICONTROL Specify the fields to be taken into account in the search]** om te definiëren.
+1. Schakel in de sectie **[!UICONTROL Simple search]** de optie **[!UICONTROL Specify the fields to be taken into account in the search]** in om te definiëren welke velden in de zoekopdracht worden opgenomen.
 
    >[!IMPORTANT]
    >
-   >Deze configuratie vervangt de gebieden die in het standaardonderzoek worden gebruikt.
+   >Deze configuratie vervangt de velden die in de standaardzoekopdracht worden gebruikt.
 
-1. Schakel in de **[!UICONTROL Advanced filtering]** sectie het **[!UICONTROL Add search fields]** vakje in om extra velden toe te voegen die verder gaan dan het eenvoudige zoekveld. Als u bijvoorbeeld het veld &quot;date&quot; selecteert in de velden die u hebt gemaakt, kan de gebruiker een zoekopdracht uitvoeren die alleen naar de datum verwijst.
-1. U kunt de volgorde van de velden voor de twee zoektypen wijzigen.
-1. Voor een geavanceerd onderzoek, kunt u gebieden toevoegen die met een verbonden middel verbinden. Deze filters worden weergegeven in het **[!UICONTROL Search]** menu van het gegenereerde scherm.
+1. Schakel in de sectie **[!UICONTROL Advanced filtering]** het selectievakje **[!UICONTROL Add search fields]** in om meer velden toe te voegen in aanvulling op het veld voor een eenvoudige zoekopdracht. Als u bijvoorbeeld het veld ‘date’ selecteert in de velden die u hebt gemaakt, kan de gebruiker een zoekopdracht uitvoeren die alleen naar de datum verwijst.
+1. U kunt de volgorde van de velden voor de twee typen zoekopdrachten wijzigen.
+1. Voor een geavanceerde zoekopdracht kunt u velden toevoegen die met een gekoppelde resource zijn verbonden. Deze filters worden weergegeven in het menu **[!UICONTROL Search]** van het gegenereerde scherm.
 
-Het overzichtsscherm van de bron is nu gedefinieerd.
+Het overzichtsscherm van de resource is nu gedefinieerd.
 
 ## De configuratie van het detailscherm definiëren {#defining-the-detail-screen-configuration}
 
-In het **[!UICONTROL Detail screen configuration]** gedeelte van de schermdefinitie kunt u de kolommen en informatie definiëren die in het detailscherm van elk element van de bron worden weergegeven.
+In de sectie **[!UICONTROL Detail screen configuration]** van de schermdefinitie kunt u de kolommen en informatie definiëren die in het detailscherm van elk element van de resource worden weergegeven.
 
-1. Ontgrendel de **[!UICONTROL Detail screen configuration]** sectie en controleer **[!UICONTROL Define a detail screen]** om het scherm te vormen dat aan elk element van het middel beantwoordt. Als u dit selectievakje niet inschakelt, is de gedetailleerde weergave van elementen van deze bron niet toegankelijk.
-1. U kunt alle gebieden van uw douanemiddel in één klik toevoegen. Klik hiertoe op het ![](assets/addallfieldsicon.png) pictogram of gebruik de **[!UICONTROL Add an element]** knop.
-1. Selecteer een element van die gecreeerd voor deze middel en specificeer een gebiedstype:
+1. Vouw de sectie **[!UICONTROL Detail screen configuration]** uit en schakel **[!UICONTROL Define a detail screen]** in om het scherm te configureren dat overeenkomt met elk element van de resource. Als u dit selectievakje niet inschakelt, is de gedetailleerde weergave van elementen van deze resource niet toegankelijk.
+1. U kunt alle velden van uw aangepaste resource in één klik toevoegen. Klik hiertoe op het pictogram ![](assets/addallfieldsicon.png) of gebruik de knop **[!UICONTROL Add an element]**.
+1. Selecteer een element uit de elementen die voor deze resource zijn gemaakt en geef een veldtype op:
 
-   * **[!UICONTROL Input field]**: is een bewerkbaar veld.
-   * **[!UICONTROL Value]**: is een alleen-lezen veld.
-   * **[!UICONTROL List]**: is een tabel.
+   * **[!UICONTROL Input field]**: Is een bewerkbaar veld.
+   * **[!UICONTROL Value]**: Is een alleen-lezen veld.
+   * **[!UICONTROL List]**: Is een tabel.
    * **[!UICONTROL Separator]**: Hiermee splitst u de elementen in categorieën.
    ![](assets/schema_extension_23.png)
 
@@ -81,25 +84,25 @@ In het **[!UICONTROL Detail screen configuration]** gedeelte van de schermdefini
 
    ![](assets/schema_extension_22.png)
 
-1. Voeg zoveel elementen toe **[!UICONTROL Separator]** als nodig is om de elementen in verschillende categorieën te splitsen.
+1. Voeg zoveel **[!UICONTROL Separator]** toe als nodig is om de elementen in verschillende categorieën te splitsen.
 
    Zo kunt u scheidingstekens weergeven om de vensters beter te organiseren.
 
    ![](assets/schema_extension_25.png)
 
-Het detailscherm van het middel wordt nu gevormd.
+Het detailscherm van de resource is nu gedefinieerd.
 
-## Handelingen in gegevenssectie {#actions-on-data-section}
+## De sectie Actions on data {#actions-on-data-section}
 
-Deze montages staan u toe om een controlebar in het scherm van het douanemiddel te tonen. Er zijn drie opties beschikbaar:
+Met deze instellingen kunt u een controlebalk in het scherm van de aangepaste resource weergeven. Er zijn drie opties beschikbaar:
 
 ![](assets/schema_extension_actions.png)
 
-* **[!UICONTROL Authorize creating]**: met deze optie kunt u het maken van elementen van de bron activeren. De gebruiker kan daarom aanvullende records toevoegen.
+* **[!UICONTROL Authorize creating]**: Met deze optie kunt u het maken van elementen van de resource activeren. De gebruiker kan daarom aanvullende records toevoegen.
 
    >[!NOTE]
    >
-   >U moet eerst het detailscherm activeren dat aan de bron is gekoppeld om deze optie beschikbaar te maken.
+   >U moet eerst het detailscherm activeren dat aan de resource is gekoppeld om deze optie beschikbaar te maken.
 
-* **[!UICONTROL Authorize duplicating]**: met deze optie kunt u dubbele records activeren die zijn gekoppeld aan de aangepaste bron.
-* **[!UICONTROL Authorize deleting]**: met deze optie kunt u verwijderingsrecords activeren die zijn gekoppeld aan de aangepaste bron.
+* **[!UICONTROL Authorize duplicating]**: Met deze optie kunt u duplicatierecords activeren die aan de aangepaste resource zijn gekoppeld.
+* **[!UICONTROL Authorize deleting]**: Met deze optie kunt u verwijderingsrecords activeren die aan de aangepaste resource zijn gekoppeld.
