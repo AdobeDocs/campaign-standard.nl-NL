@@ -1,6 +1,6 @@
 ---
-title: Waarom gebruik maken van standaard-API's voor campagnes?
-description: Meer informatie over standaard API's voor campagnes en waarom deze gebruiken.
+title: Waarom Campaign Standard-API's gebruiken?
+description: Meer informatie over Campaign Standard API's en waarom kunt u deze gebruiken?
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -12,16 +12,19 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 47b5cf6aee969c7a199ec934b5be6bf80bee590e
+source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 1%
 
 ---
 
 
-# Waarom API&#39;s voor standaard campagne gebruiken {#why-using-campaign-standard-apis}
+# Why use Campaign Standard APIs {#why-using-campaign-standard-apis}
 
-Adobe Campaign Standard biedt API&#39;s waarmee bestaande systemen kunnen integreren met het ACS-platform om problemen in real-time op te lossen.
+Adobe Campaign Standard biedt API&#39;s waarmee bestaande systemen kunnen integreren met het ACS-platform om real-world problemen in real-time op te lossen.
 
-Openbare websites, zoals de aanmeldings- of uitschakelpagina, moeten verbinding maken met back-endsystemen om profielgegevens op te slaan. Ondersteunende systemen zoals Adobe Campaign beschikken over de flexibiliteit en kracht om profielgegevens in te voeren en er aangepaste bewerkingen op uit te voeren.
+Openbare websites, zoals de aanmeldings- of uitschakelpagina, moeten verbinding maken met back-endsystemen om profielgegevens op te slaan. Ondersteunende systemen zoals Adobe Campaign hebben de flexibiliteit en kracht om profielgegevens in te voeren en er aangepaste bewerkingen op uit te voeren.
 
 Hier volgen enkele voorbeelden:
 
@@ -30,7 +33,7 @@ Hier volgen enkele voorbeelden:
 * Transactiecommunicatie op basis van gebeurtenissen activeren - orderbevestiging, boekingsroute, opnieuw instellen van wachtwoord, enz.
 * Zelfs de communicatie via e-mail over het verlaten van de winkelwagentje.
 
-Aanbiedingspagina&#39;s voor aanmelding bieden klanten of vooruitzichten een manier om hun naam en e-mailadres te registreren. Zodra de Standaard van de Campagne de profielinformatie en voorkeur vangt, kan het gepersonaliseerde berichten verzenden die op de belangen van de persoon worden gebaseerd.
+Aanbiedingspagina&#39;s voor aanmelding bieden klanten of vooruitzichten een manier om hun naam en e-mailadres te registreren. Zodra Campaign Standard de profielinformatie en voorkeur vangt, kan het gepersonaliseerde berichten verzenden die op de belangen van de persoon worden gebaseerd.
 
 Ze zijn gemaakt met de volgende elementen:
 
@@ -42,13 +45,13 @@ Ze zijn gemaakt met de volgende elementen:
 
    ![alt-tekst](assets/apis_uc2.png)
 
-1. De details van een profiel kunnen worden gewijzigd nadat u op de koppeling Details bijwerken in de e-mail hebt geklikt. Hiermee wordt het profiel weergegeven op de pagina &quot;Uw profiel en voorkeursgegevens bijwerken&quot;. Om de bewerking uit te voeren, worden de profieldetails (sleutel) overgegaan tot de server van de Campagne en het profiel wordt teruggewonnen en vertegenwoordigd. Nadat het profiel op de knop &quot;Bijwerken&quot; heeft geklikt, wordt de informatie in het systeem bijgewerkt (via een PATCH-opdracht).
+1. De details van een profiel kunnen worden gewijzigd nadat u op de koppeling Details bijwerken in de e-mail hebt geklikt. Hiermee wordt het profiel weergegeven op de pagina &quot;Uw profiel en voorkeursgegevens bijwerken&quot;. Om de bewerking uit te voeren, worden de profieldetails (sleutel) overgegaan tot de server van de Campagne en het profiel wordt teruggewonnen en vertegenwoordigd. Nadat het profiel op de knop &quot;Bijwerken&quot; heeft geklikt, wordt de informatie in het systeem bijgewerkt (via de opdracht PATCH).
 
    ![alt-tekst](assets/apis_uc3.png)
 
-Er is een verzameling verzoeken beschikbaar om u te helpen vertrouwd te maken met de standaard API&#39;s-aanvragen voor campagnes. Deze verzameling in JSON-indeling biedt vooraf ontworpen API-aanvragen die veelvoorkomende gebruiksgevallen vertegenwoordigen.
+Er is een verzameling aanvragen beschikbaar om u te helpen vertrouwd te maken met Campaign Standard API&#39;s-aanvragen. Deze verzameling in JSON-indeling biedt vooraf ontworpen API-aanvragen die veelvoorkomende gebruiksgevallen vertegenwoordigen.
 
-In de onderstaande stappen wordt een stapsgewijze beschrijving van het gebruik beschreven voor het importeren en gebruiken van de verzameling om een profiel te maken in de standaarddatabase van Campagne.
+In de onderstaande stappen wordt een stapsgewijze beschrijving van het gebruik beschreven voor het importeren en gebruiken van de verzameling om een profiel te maken in een Campaign Standard-database.
 
 >[!NOTE]
 >
@@ -62,7 +65,7 @@ In de onderstaande stappen wordt een stapsgewijze beschrijving van het gebruik b
 
    ![alt-tekst](assets/postman_collection.png)
 
-1. Selecteer het **Creëren van een profielverzoek** , dan werk het POST- verzoek en het lusje van **Kopballen** met uw eigen informatie (&lt;ORGANIZATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>) bij. For more on this, refer to [this section](../../api/using/setting-up-api-access.md).
+1. Selecteer het **Creëren van een profielverzoek** , dan werk het verzoek van de POST en het lusje van **Kopballen** met uw eigen informatie (&lt;ORGANIZATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>) bij. Raadpleeg [deze sectie](../../api/using/setting-up-api-access.md) voor meer informatie.
 
    ![alt-tekst](assets/postman_uc1.png)
 
@@ -74,6 +77,6 @@ In de onderstaande stappen wordt een stapsgewijze beschrijving van het gebruik b
 
    ![alt-tekst](assets/postman_uc3.png)
 
-1. Open uw instantie Campagne Standard en controleer vervolgens of het profiel is gemaakt, met alle informatie uit de laadbewerking.
+1. Open uw instantie van de Campaign Standard, dan controleer dat het profiel, met alle informatie van de lading wordt gecreeerd.
 
    ![alt-tekst](assets/postman_uc4.png)
