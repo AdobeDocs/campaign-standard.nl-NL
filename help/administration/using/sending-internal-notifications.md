@@ -1,6 +1,6 @@
 ---
 title: Interne meldingen verzenden
-description: Leer hoe u realtime systeemmeldingen naar uw Adobe Campagnegebruikers kunt verzenden.
+description: Leer hoe u realtime systeemmeldingen naar Adobe Campaign-gebruikers kunt verzenden.
 page-status-flag: never-activated
 uuid: f196f025-dbb9-4268-9d7d-ff626994b447
 contentOwner: sauviat
@@ -12,17 +12,17 @@ discoiquuid: 4d51229a-745a-4f24-b1c2-22fa203b499c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
 # Interne meldingen verzenden{#sending-internal-notifications}
 
-Met Adobe Campaign kunt u meldingen over belangrijke systeemactiviteiten rechtstreeks in de toepassing ontvangen. Kennisgevingen in realtime houden relevante belanghebbenden op de hoogte en bieden gebruikers de mogelijkheid om onmiddellijk en rechtstreeks te reageren op activiteitenmeldingen vanuit de toepassing. Het resultaat voor teams is geavanceerde behendigheid, efficiency en vlottere uitvoering van campagnes.
+Adobe Campaign biedt u de mogelijkheid om meldingen over belangrijke systeemactiviteiten rechtstreeks in de toepassing te ontvangen. Kennisgevingen in realtime houden relevante belanghebbenden op de hoogte en bieden gebruikers de mogelijkheid om onmiddellijk en rechtstreeks te reageren op activiteitenmeldingen vanuit de toepassing. Het resultaat voor teams is geavanceerde behendigheid, efficiency en vlottere uitvoering van campagnes.
 
 ![](assets/pulse_3.png)
 
@@ -32,6 +32,6 @@ U kunt meldingen configureren voor de volgende objecten:
 
    ![](assets/pulse_2.png)
 
-* **[!UICONTROL Workflows]**: elk lid van de geselecteerde beveiligingsgroep wordt op de hoogte gesteld (e-mail en meldingen in de app) wanneer een workflow een fout bevat. Als u op de melding of op de e-mailkoppeling klikt, wordt de bijbehorende workflow weergegeven. Meldingen worden standaard gedeactiveerd in de werkstroomsjabloon buiten de box. Als u deze wilt activeren, bewerkt u de eigenschappen van de workflow of werkstroomsjabloon en voegt u een beveiligingsgroep toe onder **Algemeen > Uitvoering > Foutbeheer > Supervisors**. Voor meer informatie over veiligheidsgroepen, verwijs naar het [Leiden groepen en gebruikers](../../administration/using/managing-groups-and-users.md). Zie [Workfloweigenschappen](../../automating/using/managing-execution-options.md)voor meer informatie over workfloweigenschappen.
+* **[!UICONTROL Workflows]**: elk lid van de geselecteerde beveiligingsgroep wordt op de hoogte gesteld (e-mail en In-App-melding) wanneer er een fout optreedt in de workflow. Als u op de melding of op de e-mailkoppeling klikt, wordt de bijbehorende workflow weergegeven. Meldingen worden standaard gedeactiveerd in de werkstroomsjabloon buiten de box. Als u deze wilt activeren, bewerkt u de eigenschappen van de workflow of werkstroomsjabloon en voegt u een beveiligingsgroep toe onder **Algemeen > Uitvoering > Foutbeheer > Supervisors**. Voor meer informatie over veiligheidsgroepen, verwijs naar het [Leiden groepen en gebruikers](../../administration/using/managing-groups-and-users.md). Zie [Workfloweigenschappen](../../automating/using/managing-execution-options.md)voor meer informatie over workfloweigenschappen.
 
    ![](assets/pulse_1.png)
