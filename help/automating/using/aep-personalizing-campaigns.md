@@ -1,6 +1,6 @@
 ---
-title: Campagnes aanpassen met de kenmerken van het Adobe Experience Platform
-description: Leer hoe u uw campagnes kunt personaliseren met de kenmerken van het Adobe-ervaringsplatform.
+title: Campagnes aanpassen met behulp van Adobe Experience Platform-kenmerken
+description: Leer hoe u uw campagnes kunt personaliseren met de kenmerken van het Adobe-Platform.
 page-status-flag: never-activated
 uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
 contentOwner: sauviat
@@ -12,26 +12,29 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 7%
 
 ---
 
 
-# Campagnes aanpassen met de kenmerken van het Adobe Experience Platform {#personalizing-campaigns-using-aep-attributes}
+# Campagnes aanpassen met behulp van Adobe Experience Platform-kenmerken {#personalizing-campaigns-using-aep-attributes}
 
 >[!IMPORTANT]
 >
 >De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 >
->**Push** - en **in-app** -kanalen zijn nog niet beschikbaar voor personalisatie met gebruik van contextuele gegevens van het Adobe Experience Platform.
+>**Push** - en **In-App** -kanalen zijn nog niet beschikbaar voor personalisatie met gebruik van contextuele gegevens uit Adobe Experience Platform.
 
-Zodra uw werkschema met een publiek [van het Platform van de Ervaring van](../../audiences/using/aep-about-audience-destinations-service.md)Adobe wordt gevormd, kunt u berichten met profielattributen personaliseren die uitsluitend in het Model van de Gegevens van de Ervaring (XDM) bestaan.
+Zodra uw werkschema met een publiek [van](../../audiences/using/aep-about-audience-destinations-service.md)Adobe Experience Platform wordt gevormd, kunt u berichten met profielattributen personaliseren die uitsluitend in het Model van de Gegevens van de Ervaring (XDM) bestaan.
 
 Hiervoor moet u de volgende kenmerken aan de **[!UICONTROL Read audience]** activiteit toevoegen:
 
-1. Open de **[!UICONTROL Read audience]** activiteit. Klik op het **[!UICONTROL Additional data]** tabblad op de **[!UICONTROL Create element]** knop.
+1. Open de **[!UICONTROL Read audience]** activiteit. In the **[!UICONTROL Additional data]** tab, click the **[!UICONTROL Create element]** button.
 
-   Het **[!UICONTROL Additional data]** tabblad is alleen beschikbaar nadat een publiek van het Adobe Experience Platform is geselecteerd.
+   Het **[!UICONTROL Additional data]** tabblad is alleen beschikbaar nadat een Adobe Experience Platform-publiek is geselecteerd.
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
@@ -55,8 +58,8 @@ Hiervoor moet u de volgende kenmerken aan de **[!UICONTROL Read audience]** acti
 
 1. Nadat alle velden zijn toegevoegd, klikt u op de **[!UICONTROL Confirm]** knop om de wijzigingen op te slaan. Ze zijn nu beschikbaar om uw leveringen aan te passen.
 
-Raadpleeg de documentatie bij Campagnestandaard voor meer informatie over het maken en personaliseren van leveringen:
+Raadpleeg de documentatie bij Campaign Standard voor meer informatie over het maken en personaliseren van leveringen:
 
 * [Communicatiekanalen detecteren](../../channels/using/get-started-communication-channels.md)
-* [Kanaalactiviteiten](../../automating/using/about-channel-activities.md)
+* [Informatie over kanaalactiviteiten](../../automating/using/about-channel-activities.md)
 * [Leveringen aanpassen](../../designing/using/personalization.md)
