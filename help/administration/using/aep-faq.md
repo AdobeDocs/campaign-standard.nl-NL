@@ -12,21 +12,21 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 0%
+source-wordcount: '813'
+ht-degree: 2%
 
 ---
 
 
-# Aan de slag met Adobe Experience Platform SDK en Campaign Standard {#aep-faq}
+# Veelgestelde vragen over integratie van Experience Platform SDK {#aep-faq}
 
-Als u pushmeldingen en In-App-berichten wilt verzenden met de SDK-toepassing van het Experience Platform, moet een mobiele toepassing worden ingesteld in de SDK van het Adobe Experience Platform en worden geconfigureerd in Adobe Campaign.
+Als u pushmeldingen en In-App-berichten wilt verzenden met de SDK-toepassing van het Experience Platform, moet een mobiele toepassing worden ingesteld in de SDK van Adobe Experience Platform en worden geconfigureerd in Adobe Campaign.
 
 In de onderstaande sectie worden veelgestelde vragen over deze synchronisatie weergegeven.
 
-Raadpleeg de volgende veelgestelde vragen voor meer informatie over Push of In-app:
+Raadpleeg de volgende veelgestelde vragen voor meer informatie over Push of In-App:
 
 * [Veelgestelde vragen over pushmeldingen](../../channels/using/about-push-notifications.md#push-faq)
 * [Veelgestelde vragen in de app](../../channels/using/about-push-notifications.md#in-app-faq)
@@ -34,7 +34,7 @@ Raadpleeg de volgende veelgestelde vragen voor meer informatie over Push of In-a
 
 ## Nuttige bronnen voordat u begint {#resource-mobile-property}
 
-Raadpleeg de onderstaande bronnen voor meer informatie over de integratie van Adobe Experience Platform SDK en Campaign Standard:
+Raadpleeg de onderstaande bronnen voor meer informatie over de Adobe Experience Platform SDK en de integratie van Campaign Standard:
 
 * Video [over het starten/mobiel overzicht](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
 * Handleiding voor [tips en trucs voor starten/mobiel](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
@@ -51,11 +51,11 @@ Raadpleeg de onderstaande tabel voor meer informatie over deze mogelijkheden.
 
 ![](assets/faq.png)
 
->[!Nofferte]
+>[!NLet op]
 >
 >[!DNL Places] integratie omvat plaatsgebeurtenissen als trekkers voor In-App berichten (n.v.t. Pushberichten), het verrijken van profielen met [!DNL Places] gegevens en lokale berichtsteun. Raadpleeg deze [pagina](../../channels/using/preparing-and-sending-an-in-app-message.md) voor meer informatie. <br>[!DNL Places] beperkte integratie omvat het verrijken van profielen met [!DNL Places] gegevens.
 
-## Wat handig is de integratie van Adobe Experience Platform SDK in Adobe Campaign Standard? {#aep-use-cases}
+## Wat is het nut van de integratie van Adobe Experience Platform SDK in Adobe Campaign Standard? {#aep-use-cases}
 
 De volgende gebruiksgevallen worden ondersteund:
 
@@ -95,11 +95,11 @@ Ja. Afhankelijk van uw bedrijfsbehoefte, kunt u vraag van CollectPII in werking 
 
 De frequentie en het ontwerp van vraag CollectPII zouden door bedrijfsbehoeften moeten worden gedicteerd en zouden niet blindelings moeten worden in brand gestoken aangezien het extra lading op OB creeert.
 
-### Wanneer ik Adobe Experience Platform probeert tot Apps in Campaign of Lancering toegang te hebben, krijg ik soms een bezit niet beschikbare fout. {#aep-error}
+### Wanneer ik toegang probeer te krijgen tot Adobe Experience Platform Apps in Campaign of Launch, krijg ik soms een eigenschap die niet beschikbaar is. {#aep-error}
 
 Dit is een bekend probleem dat optreedt als een token vervalt. Meld u af en weer aan.
 
-## Wat zouden sommige nuttige middelaanbevelingen zijn om meer over Adobe Experience Platform SDK (vroeger genoemd geworden SDK V5) te leren?{#resource-aep}
+## Wat zouden enkele nuttige middelaanbevelingen zijn om meer over Adobe Experience Platform SDK (vroeger genoemd geworden SDK V5) te leren?{#resource-aep}
 
 Ontdek de onderstaande bronnen:
 
