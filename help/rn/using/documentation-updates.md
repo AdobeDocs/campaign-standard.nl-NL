@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1f15808bd892305282b838bebbc8fa1ce58283e
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '6092'
 ht-degree: 94%
@@ -472,7 +472,7 @@ Bètaverbeteringen in in-app-berichten - [Meer informatie](../../channels/using/
 
 De handleiding voor het ontwerpen van content is bijgewerkt met informatie over de algemene beschikbaarheid van de Email Designer en de afschaffing van de verouderde editor voor e-mailcontent. [Meer informatie](../../designing/using/designing-content-in-adobe-campaign.md)
 
-De documentatie voor [in-app-berichten](../../channels/using/about-in-app-messaging.md) en [pushmeldingen](../../channels/using/about-push-notifications.md) is bijgewerkt.
+Updated the [In-App](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
 
 Er is meer informatie toegevoegd over de verschillende typen doelgroepen in Adobe Campaign. [Meer informatie](../../audiences/using/about-audiences.md)
 
