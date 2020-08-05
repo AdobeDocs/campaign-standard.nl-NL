@@ -11,11 +11,11 @@ topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f4c6b74d9b80d80befed65d853cf82b32084c49d
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+workflow-type: tm+mt
 source-wordcount: '1825'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -204,7 +204,7 @@ ht-degree: 100%
 * Problemen met de prestaties verholpen die konden optreden bij het selecteren en bijwerken van testprofielen. (CAMP-37976)
 * Probleem verholpen waarbij foutpagina&#39;s konden worden weergegeven bij het inschrijven of uitschrijven via landingspagina&#39;s. (CAMP-37771)
 * Probleem verholpen dat optrad bij het uploaden van content in zip-indeling, waarbij in de HTML naar PNG-bestanden werd verwezen met de extensie ervan in hoofdletters. (CAMP-37913)
-* Probleem verholpen waardoor in-app-berichten niet konden worden verzonden wanneer een testprofiel aan de levering werd toegevoegd.
+* Probleem verholpen waardoor berichten in de app niet konden worden verzonden tijdens het toevoegen van een testprofiel aan de levering.
 * Probleem verholpen met de workflowactiviteit Externe API die mislukte wanneer deze was gekoppeld aan verrijkingsactiviteiten.
 * Probleem verholpen waarbij de status van sms-berichten onjuist kon worden weergegeven.
 * Probleem verholpen met aangepaste resources die ervoor zorgden dat dubbele vermeldingen onder verschillende API-eindpunten werden weergegeven.
