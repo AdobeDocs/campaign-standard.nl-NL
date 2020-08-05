@@ -12,39 +12,39 @@ discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
 
 
-# Synchroniseren met veelgestelde vragen over technische workflow starten {#syncwithlaunch-faq}
+# Veelgestelde vragen over synchroniseren Adobe starten {#syncwithlaunch-faq}
 
-U kunt mobiele eigenschappen van Adobe Launch importeren in Adobe Campaign Standard via de **[!UICONTROL Sync with Launch]** toegewijde technische workflow. Raadpleeg deze [pagina voor meer informatie](../../administration/using/technical-workflows.md)
+U kunt Adobe Launch mobiele eigenschappen importeren naar Adobe Campaign Standard via de **[!UICONTROL Sync with Launch]** toegewijde technische workflow. For more information, refer to this [page](../../administration/using/technical-workflows.md)
 
 In de onderstaande sectie worden veelgestelde vragen over deze synchronisatie weergegeven.
 
 >[!NOTE]
 >
->U moet een ticket naar de klantenservice van Adobe verzenden (rechtstreeks of via uw Adobe-contactpersoon) om de **[!UICONTROL syncWithLaunch]** technische workflow in uw Campagne-instantie in te schakelen.
+>You will need to submit a ticket to Adobe Customer Care (either directly or through your Adobe contact) to have the **[!UICONTROL syncWithLaunch]** technical workflow enabled in your Campaign instance.
 
 ## Ik heb een eigenschap gemaakt in [!DNL Launch] (niet-admin van Org-unit ALL). Mijn toepassing is klaar om staat in Adobe Campaign te vormen maar ik kan het niet openen/vormen. {#configuring-property}
 
-Alleen de beheerder van de organisatie ALL kan mobiele toepassingen configureren in Adobe Campaign Standard. Zodra gevormd, slechts kunnen de gebruikers van de toegewezen organisatorische eenheid de toepassing uitgeven. Raadpleeg deze [pagina](../../administration/using/organizational-units.md)voor meer informatie over de organisatie-eenheid.
+Alleen de beheerder van de organisatie ALL kan mobiele toepassingen configureren in Adobe Campaign Standard. Zodra gevormd, slechts kunnen de gebruikers van de toegewezen organisatorische eenheid de toepassing uitgeven. For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
 
 ## Ik kan een geconfigureerde mobiele toepassing niet bewerken in Adobe Campaign Standard en mobiele toepassingen zijn alleen-lezen. {#read-mode-mobile-app}
 
 Controleer de organisatorische eenheid van de mobiele toepassing in de **[!UICONTROL Access Authorization ]** sectie. Alleen gebruikers van de toegewezen organisatie kunnen de mobiele toepassing bewerken.
 
-Raadpleeg deze [pagina](../../administration/using/organizational-units.md)voor meer informatie over de organisatie-eenheid.
+For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
 
 ## Ik ben een beheerder met organisatie eenheid ALL in Adobe Campaign Standard maar ik kan mobiele toepassing niet vormen. {#org-unit-mobile}
 
 Een beheerder met organisatie die aan ALLE wordt geplaatst zou rechten op alle mobiele eigenschappen moeten hebben binnen [!DNL Launch] om de mobiele toepassing te vormen.
 
-Raadpleeg deze [pagina](../../administration/using/organizational-units.md)voor meer informatie over de organisatie-eenheid.
+For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
 
 ## Ik heb een eigenschap voor mobiele apparaten gemaakt in [!DNL Launch] maar mijn eigenschap is niet zichtbaar in Adobe Campaign Standard. {#visibility-mobile-property}
 
@@ -90,4 +90,4 @@ U kunt de workflow direct uitvoeren:
 
 1. Open de **[!UICONTROL syncWithLaunch]** workflow.
 
-1. Klik op de **[!UICONTROL Scheduler]** activiteit en selecteer **[!UICONTROL Immediate execution]**.
+1. Click on the **[!UICONTROL Scheduler]** activity and select **[!UICONTROL Immediate execution]**.
