@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Help bij Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
+source-git-commit: b9fbcbd7d6ea206ae3ed1faca89f4000052f97dc
 workflow-type: tm+mt
 source-wordcount: '1564'
-ht-degree: 87%
+ht-degree: 88%
 
 ---
 
@@ -136,13 +136,13 @@ ht-degree: 87%
    + [Aan de slag met testen en verzenden](sending/using/get-started-sending-messages.md)
    + Berichten voorbereiden en testen {#preparing-and-testing-messages}
       + [Voorbeelden van leveringen weergeven](sending/using/previewing-messages.md)
-      + [De verzending voorbereiden](sending/using/preparing-the-send.md)
       + [Proeven verzenden](sending/using/sending-proofs.md)
       + [E-mailberichten testen aan de hand van doelprofielen](sending/using/testing-messages-using-target.md)
       + [De onderwerpregel van een e-mail testen](sending/using/testing-subject-line-email.md)
       + [E-mails met AI-mogelijkheden](sending/using/predictive.md)
       + [E-mailweergave](sending/using/email-rendering.md)
       + [Traps gebruiken](sending/using/using-traps.md)
+      + [De verzending voorbereiden](sending/using/preparing-the-send.md)
    + Berichten plannen {#scheduling-messages}
       + [Informatie over het plannen van berichten](sending/using/about-scheduling-messages.md)
       + [De verzendtijd optimaliseren](sending/using/optimizing-the-sending-time.md)
@@ -252,7 +252,7 @@ ht-degree: 87%
       + [Eigenschappen van activiteiten beheren](automating/using/activity-properties.md)
    + [Een workflow aanroepen met externe parameters](automating/using/calling-a-workflow-with-external-parameters.md)
    + Targetingactiviteiten {#targeting-activities}
-      + [Informatie over targetingactiviteiten](automating/using/about-targeting-activities.md)
+      + [Targetingactiviteiten](automating/using/about-targeting-activities.md)
       + [Query](automating/using/query.md)
       + [Incrementele query](automating/using/incremental-query.md)
       + [Samenvoeging](automating/using/union.md)
@@ -266,8 +266,8 @@ ht-degree: 87%
    + Uitvoeringsactiviteiten {#execution-activities}
       + [Informatie over uitvoeringsactiviteiten](automating/using/about-execution-activities.md)
       + [Start- en Einde-activiteiten](automating/using/start-and-end.md)
-      + [Vertakking](automating/using/fork.md)
-      + [AND-join](automating/using/and-join.md)
+      + [Vork](automating/using/fork.md)
+      + [AND-samenvoeging](automating/using/and-join.md)
       + [Planner](automating/using/scheduler.md)
       + [Wachten](automating/using/wait.md)
       + [Extern signaal](automating/using/external-signal.md)
@@ -302,8 +302,8 @@ ht-degree: 87%
       + [Pakketten beheren](automating/using/managing-packages.md)
       + [Lijsten exporteren](automating/using/exporting-lists.md)
       + [Gebruiksscenario: Aangepaste resources exporteren en importeren](automating/using/exporting-importing-custom-resources.md)
-   + Use cases {#workflow-use-case}
-      + [Gebruikskwesties bij werkstromen](automating/using/about-workflow-use-cases.md)
+   + Gebruiksscenario’s {#workflow-use-case}
+      + [Gebruiksscenario’s voor workflows](automating/using/about-workflow-use-cases.md)
       + Leveringen {#deliveries}
          + [Leveringen maken met een aanvulling](automating/using/workflow-created-query-with-complement.md)
          + [Leveringen maken op de aanmaakdatum van profielen](automating/using/workflow-creation-date-query.md)
@@ -324,7 +324,7 @@ ht-degree: 87%
          + [Segmentering volgens leeftijdsgroepen](automating/using/segmentation-age-groups.md)
          + [Bronnen gebruiken die niet gelijk zijn aan targetingdimensies](automating/using/using-resources-different-from-targeting-dimensions.md)
          + [Een controlegroep samenstellen](automating/using/workflow-control-group.md)
-      + Gegevensbeheer {#data-management}
+      + Data management {#data-management}
          + [Een bestandspubliek in overeenstemming brengen met de database](automating/using/reconcile-file-audience-with-database.md)
          + [De gegevens uit een geïmporteerd bestand dedupliceren](automating/using/deduplicating-data-imported-file.md)
          + [Profielgegevens verrijken met gegevens in een bestand](automating/using/enriching-profile-data-file.md)
