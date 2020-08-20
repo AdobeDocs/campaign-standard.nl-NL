@@ -13,10 +13,10 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 86%
+source-wordcount: '856'
+ht-degree: 85%
 
 ---
 
@@ -138,7 +138,7 @@ Een e-maillevering maken:
 1. Voer de e-maileigenschappen in en klik op **[!UICONTROL Next]**.
 1. Selecteer **[!UICONTROL Use the Email Designer]** om de lay-out van uw e-mail te bepalen.
 1. Bewerk de content en sla deze op.
-1. Schakel in de sectie **[!UICONTROL Schedule]** van het berichtdashboard de optie **[!UICONTROL Request confirmation before sending messages}** uit.
+1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages]** option.
 
 Een sms-levering maken:
 
