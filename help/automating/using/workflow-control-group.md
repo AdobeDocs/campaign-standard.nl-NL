@@ -13,10 +13,10 @@ context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 0%
+source-wordcount: '757'
+ht-degree: 14%
 
 ---
 
@@ -48,28 +48,28 @@ Eerst, moet u het **[!UICONTROL Profile]** middel met een nieuw gebied uitbreide
    ![](assets/wkf_control-group-profile-field-screen.png)
 
 1. Sla uw wijzigingen op.
-1. Werk de databasestructuur bij om de **[!UICONTROL Profile]** uitgebreide bron te publiceren. Zie Een aangepaste bron [publiceren](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. Werk de databasestructuur bij om de **[!UICONTROL Profile]** uitgebreide bron te publiceren. See [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
 Voor meer bij het uitbreiden van een douanemiddel, zie [Zeer belangrijke stappen om een middel](../../developing/using/key-steps-to-add-a-resource.md)toe te voegen.
 
 ## Een workflow maken {#creating-a-workflow}
 
-1. Klik in **[!UICONTROL Marketing Activities]** en selecteer **[!UICONTROL Create]** de optie **[!UICONTROL Workflow]**.
+1. Klik in **[!UICONTROL Marketing Activities]** op **[!UICONTROL Create]** en selecteer **[!UICONTROL Workflow]**.
 1. Selecteer **[!UICONTROL New Workflow]** als workflowtype en klik op **[!UICONTROL Next]**.
 1. Voer de eigenschappen van de workflow in en klik op **[!UICONTROL Create]**.
 
-De gedetailleerde stappen voor het maken van een workflow worden weergegeven in de sectie [Een workflow](../../automating/using/building-a-workflow.md) maken.
+De gedetailleerde stappen voor het maken van een workflow worden uitgelegd in de sectie [Een workflow maken](../../automating/using/building-a-workflow.md).
 
-## Query-activiteiten maken {#create-a-query-activity}
+## Een queryactiviteit maken {#create-a-query-activity}
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, sleep en laat vallen een activiteit van de [Vraag](../../automating/using/query.md) .
 1. Dubbelklik op de activiteit om het doel te definiëren.
 1. U kunt bijvoorbeeld bij **[!UICONTROL Shortcuts]** slepen en neerzetten **[!UICONTROL Profile]** een selectie maken **[!UICONTROL Age]** met de operator **[!UICONTROL Greater than]** en 25 typen in het **[!UICONTROL Value]** veld.
 1. Klik op **[!UICONTROL Confirm]**.
 
-## Een segmentatieactiviteit maken {#creating-a-segmentation-activity}
+## Een segmentatie-activiteit maken {#creating-a-segmentation-activity}
 
-1. Sleep een [segmentatie](../../automating/using/segmentation.md) -activiteit en dubbelklik erop.
+1. Drag and drop a [Segmentation](../../automating/using/segmentation.md) activity and double-click it.
 1. Selecteer op het **[!UICONTROL Segments]** tabblad het segment dat u wilt bewerken.
 1. Selecteer de **[!UICONTROL Configuration]** **[!UICONTROL Limit the population of this segment]** optie op het tabblad van dat segment.
 
@@ -86,23 +86,23 @@ De gedetailleerde stappen voor het maken van een workflow worden weergegeven in 
 
 1. Klik op **[!UICONTROL Confirm]**.
 
-## E-mailactiviteiten maken {#creating-an-email-activity}
+## Creating an Email activity {#creating-an-email-activity}
 
 1. Sleep in **[!UICONTROL Activities]** > **[!UICONTROL Channels]** een [e-mailbezorgingsactiviteit](../../automating/using/email-delivery.md) na het hoofddoelsegment.
-1. Klik op de activiteit en selecteer deze ![](assets/edit_darkgrey-24px.png) om deze te bewerken.
+1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit it.
 1. Selecteer **[!UICONTROL Single send email]** en klik op **[!UICONTROL Next]**.
 1. Selecteer een e-mailsjabloon en klik op **[!UICONTROL Next]**.
 1. Voer de e-maileigenschappen in en klik op **[!UICONTROL Next]**.
-1. Klik op om de lay-out van uw e-mail te maken **[!UICONTROL Use the Email Designer]**.
-1. Bewerk de inhoud en sla deze op.
-1. Schakel in het **[!UICONTROL Schedule]** gedeelte van het berichtdashboard de optie **[!UICONTROL-verzoek bevestigen voordat u berichten verzendt}** uit.
+1. Klik op **[!UICONTROL Use the Email Designer]** om de lay-out van uw e-mail te bepalen.
+1. Bewerk de content en sla deze op.
+1. In the **[!UICONTROL Schedule]** section of the message dashboard, unselect the **[!UICONTROL Request confirmation before sending messages]** option.
 
 ## Een updategegevensactiviteit maken {#creating-update-data-activity}
 
 1. Sleep en laat vallen een de gegevensactiviteit van de [Update](../../automating/using/update-data.md) na het segment van de controlegroep.
-1. Selecteer de activiteit, dan open het gebruikend de ![](assets/edit_darkgrey-24px.png) knoop van de snelle acties die verschijnen.
+1. Selecteer de activiteit en open deze met de knop ![](assets/edit_darkgrey-24px.png) vanuit de snelle acties die verschijnen.
 1. Selecteer op het **[!UICONTROL General]** tabblad een optie in de **[!UICONTROL Update]** **[!UICONTROL Operation type]** vervolgkeuzelijst.
-1. Selecteer op het **[!UICONTROL Identification]** tabblad de **[!UICONTROL Directly using the targeting dimension]** optie.
+1. In the **[!UICONTROL Identification]** tab, select the **[!UICONTROL Directly using the targeting dimension]** option.
 1. Selecteer de **[!UICONTROL Profile]** bron die u eerder hebt uitgebreid als de dimensie die u wilt bijwerken.
 
    ![](assets/wkf_control-update-identification.png)
