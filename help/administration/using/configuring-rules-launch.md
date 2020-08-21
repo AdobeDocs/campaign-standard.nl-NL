@@ -13,9 +13,9 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b8a25a90ea253666fb71c3f7aaf830d736e6c5b
+source-git-commit: 3bace60da0b3cdbbc693507a03cbfb6886b15b4e
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -128,15 +128,15 @@ Als u PII-gegevens wilt verzenden naar [!DNL Adobe Campaign Standard], maakt u e
 
    U kunt levenscyclusgegevens ook doorgeven in de PII-nabewerking verzamelen of een andere nabewerking afhankelijk van de gebeurtenistriggers. Hier is een voorbeeld van de Lifecycle Data JSON:
 
-       &quot;
-     {
-     &quot;marketingCloudId&quot;:&quot;{%%mcid%%}&quot;,
-     &quot;cusDayslastlaunch&quot;: &quot;{%%DaysSinceLastUse%}&quot;,
-     &quot;cusDaysfirstlaunch&quot;: &quot;{%%DaysSinceFirstUse%}&quot;,
-     &quot;cusLaunches&quot;: &quot;{%%Launches%}&quot;
-     }
-     &quot;
-   
+   ```
+   {
+   "marketingCloudId":"{%%mcid%%}",
+   "cusDayslastlaunch": "{%%DaysSinceLastUse%%}", 
+   "cusDaysfirstlaunch": "{%%DaysSinceFirstUse%%}", 
+   "cusLaunches": "{%%Launches%%}"
+   }
+   ```
+
    De gegevenselementen die in worden gedefinieerd, [!DNL Experience Platform Launch] moeten worden ingesloten in dubbele percentages, bijvoorbeeld %%mcid%%, en contextvariabelen van de app moeten worden ingesloten in enkele percentages, bijvoorbeeld %contextdata.email%.
 
 1. Typ in **[!UICONTROL Content Type]** het tekstvak **application/json**.
