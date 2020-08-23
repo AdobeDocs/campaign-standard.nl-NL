@@ -12,9 +12,9 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '812'
 ht-degree: 2%
 
 ---
@@ -51,9 +51,9 @@ Raadpleeg de onderstaande tabel voor meer informatie over deze mogelijkheden.
 
 ![](assets/faq.png)
 
->[!NLet op]
+>[!NOTE]
 >
->[!DNL Places] integratie omvat plaatsgebeurtenissen als trekkers voor In-App berichten (n.v.t. Pushberichten), het verrijken van profielen met [!DNL Places] gegevens en lokale berichtsteun. Raadpleeg deze [pagina](../../channels/using/preparing-and-sending-an-in-app-message.md) voor meer informatie. <br>[!DNL Places] beperkte integratie omvat het verrijken van profielen met [!DNL Places] gegevens.
+>[!DNL Places] integratie omvat plaatsgebeurtenissen als trekkers voor In-App berichten (n.v.t. Pushberichten), het verrijken van profielen met [!DNL Places] gegevens en lokale berichtsteun. Refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md) for more information. <br>[!DNL Places] beperkte integratie omvat het verrijken van profielen met [!DNL Places] gegevens.
 
 ## Wat is het nut van de integratie van Adobe Experience Platform SDK in Adobe Campaign Standard? {#aep-use-cases}
 
@@ -97,7 +97,7 @@ De frequentie en het ontwerp van vraag CollectPII zouden door bedrijfsbehoeften 
 
 ### Wanneer ik toegang probeer te krijgen tot Adobe Experience Platform Apps in Campaign of Launch, krijg ik soms een eigenschap die niet beschikbaar is. {#aep-error}
 
-Dit is een bekend probleem dat optreedt als een token vervalt. Meld u af en weer aan.
+Dit is een bekend probleem en gebeurt als het token vervalt. Meld u af en weer aan.
 
 ## Wat zouden enkele nuttige middelaanbevelingen zijn om meer over Adobe Experience Platform SDK (vroeger genoemd geworden SDK V5) te leren?{#resource-aep}
 
