@@ -12,9 +12,9 @@ discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Het belangrijkste principe voor het configureren en gebruiken van merken is het 
 >
 >Merken kunnen niet door eindgebruikers worden gemaakt of gewijzigd. Deze bewerkingen moeten worden uitgevoerd door de technische beheerder van Adobe Campaign. Neem voor elk verzoek contact op met de klantenservice van Adobe.
 >
->Positionering van meerdere merken kan niet worden gebruikt in de context van transactionele berichten. Raadpleeg [Transactionele berichten en merkpositionering](../../channels/using/about-transactional-messaging.md#permissions-and-branding) voor meer informatie.
+>Positionering van meerdere merken kan niet worden gebruikt in de context van transactionele berichten. Raadpleeg [Transactionele berichten en merkpositionering](../../channels/using/transactional-messaging-limitations.md#permissions-and-branding) voor meer informatie.
 
 U vindt merken in het menu **[!UICONTROL Administration > Instance settings > Brand configuration]**.
 
@@ -67,6 +67,7 @@ Een **merk** wordt gedefinieerd door de volgende kenmerken:
    * **Reply to (email address)** met het e-mailadres waarop de klant kan antwoorden.
    * **Reply to (name)** met de naam van het merk.
    * **Error (email address)** met het e-mailadres dat moet worden gebruikt in geval van een fout.
+
    >[!IMPORTANT]
    >
    >Nadat u de koptekstparameters van de e-mails hebt bijgewerkt, controleert u de geavanceerde instellingen van de sjabloon als de naam en het e-mailadres van de afzender niet zijn gewijzigd in de e-mail die met de sjabloon is gemaakt.
@@ -78,6 +79,7 @@ Een **merk** wordt gedefinieerd door de volgende kenmerken:
    * **External URL of the application server** wordt gebruikt voor het hosten en openen van de verschillende landingspagina&#39;s die u maakt.
    * **External URL of the tracking server** wordt gebruikt als de URL die wordt getraceerd tijdens de leveringen.
    * **External URL of the mirror page server** wordt gebruikt als standaard spiegelpagina in uw leveringen.
+
    >[!NOTE]
    >
    >Als u het voorbeeld van de landingspagina en de weergave van de spiegelpagina wilt weergeven in de gebruikersinterface van Campaign, moeten de URL&#39;s van de applicatieserver en de spiegelpaginaserver veilig zijn. Gebruik in dat geval https:// in plaats van http:// wanneer u deze URL&#39;s instelt.
