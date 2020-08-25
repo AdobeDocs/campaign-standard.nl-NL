@@ -11,9 +11,9 @@ topic-tags: managing-subscriptions
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Wanneer u het configureert vanaf de service, wordt het transactionele bericht me
 
 ### Stap 1: De bevestigings-e-mail maken {#step-1--create-the-confirmation-email-1}
 
-Er wordt automatisch een bevestigings-e-mail verzonden naar elk profiel dat zich inschrijft voor de nieuwsbrief (via een landingspagina of op een andere manier). Het abonnement wordt beschouwd als een gebeurtenis en de e-mail is een [transactioneel bericht](../../channels/using/about-transactional-messaging.md) dat doelgericht elk profiel benadert dat zich inschrijft voor de service.
+Er wordt automatisch een bevestigings-e-mail verzonden naar elk profiel dat zich inschrijft voor de nieuwsbrief (via een landingspagina of op een andere manier). Het abonnement wordt beschouwd als een gebeurtenis en de e-mail is een [transactioneel bericht](../../channels/using/getting-started-with-transactional-msg.md) dat doelgericht elk profiel benadert dat zich inschrijft voor de service.
 
 De stappen voor het maken van de bevestigings-e-mail worden hieronder beschreven. Aangezien in de service naar het transactionele bericht wordt verwezen, moet u dit eerst maken.
 
@@ -135,13 +135,13 @@ Wanneer naar het bevestigingsbericht wordt verwezen vanaf de landingspagina, wor
 
 ### Stap 1: De bevestigings-e-mail maken {#step-1--create-the-confirmation-email-2}
 
-Er wordt automatisch een bevestigings-e-mail verzonden naar elk profiel dat zich inschrijft voor de nieuwsbrief via een landingspagina. Het abonnement wordt beschouwd als een gebeurtenis en de e-mail is een [transactioneel bericht](../../channels/using/about-transactional-messaging.md) dat doelgericht elk profiel benadert dat zich inschrijft voor de service.
+Er wordt automatisch een bevestigings-e-mail verzonden naar elk profiel dat zich inschrijft voor de nieuwsbrief via een landingspagina. Het abonnement wordt beschouwd als een gebeurtenis en de e-mail is een [transactioneel bericht](../../channels/using/getting-started-with-transactional-msg.md) dat doelgericht elk profiel benadert dat zich inschrijft voor de service.
 
 De stappen voor het maken van deze elementen worden hieronder beschreven. Aangezien in de landingspagina naar het transactionele bericht wordt verwezen, moet u dit eerst maken.
 
 #### De gebeurtenis maken {#create-the-event-2}
 
-De bevestigings-e-mail is een [transactioneel bericht](../../channels/using/about-transactional-messaging.md) omdat deze op een gebeurtenis reageert: de inschrijving op een service. Dit bericht wordt verzonden ter bevestiging van een abonnement op uw nieuwsbrief.
+De bevestigings-e-mail is een [transactioneel bericht](../../channels/using/getting-started-with-transactional-msg.md) omdat deze op een gebeurtenis reageert: de inschrijving op een service. Dit bericht wordt verzonden ter bevestiging van een abonnement op uw nieuwsbrief.
 
 1. Maak een gebeurtenis vanaf het menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**, dat u kunt openen via het Adobe Campaign-logo.
 1. Voer een label in, selecteer een doeldimensie en klik op **[!UICONTROL Create]**.
