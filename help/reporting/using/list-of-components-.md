@@ -12,10 +12,10 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: a373eb6546cb3c726e8b6807f6b47b14b3e520e6
 workflow-type: tm+mt
 source-wordcount: '1277'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -26,14 +26,14 @@ Raadpleeg deze [tabel](/help/reporting/using/assets/dynamic_report_compatibility
 
 ![](assets/dynamic_report_compatibility.png)
 
-## Afmetingen {#dimensions}
+## Dimension {#dimensions}
 
 In de onderstaande tabel vindt u een overzicht van de afmetingen die in rapporten en de definities daarvan worden gebruikt.
 
 <table> 
  <thead> 
   <tr> 
-   <th> Dimensie<br /> </th> 
+   <th> Dimension<br /> </th> 
    <th> Definitie<br /> </th> 
   </tr> 
  </thead> 
@@ -43,7 +43,7 @@ In de onderstaande tabel vindt u een overzicht van de afmetingen die in rapporte
    <td> Browser waarvan het bericht werd geopend of aangeklikt.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Campagne<br /> </td> 
+   <td> Campaign<br /> </td> 
    <td> Label en id van uw campagne.<br /> </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ In de onderstaande tabel vindt u een overzicht van de afmetingen die in rapporte
    <td> Land geregistreerd in profiel van ontvanger.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Aflevering<br /> </td> 
+   <td> Levering<br /> </td> 
    <td> Label en id van de levering.<br /> </td> 
   </tr> 
   <tr> 
@@ -87,7 +87,7 @@ In de onderstaande tabel vindt u een overzicht van de afmetingen die in rapporte
    <td> Platform van het apparaat waarvan het bericht werd geopend/bekeken/aangeklikt.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Profielen<br /> </td> 
+   <td> Profiel<br /> </td> 
    <td> Hiermee groepeert u de velden voor een out-of-the-box- en aangepast profiel die zijn gemaakt tijdens de uitbreiding van de profielbron. Meer informatie hierover verwijst naar deze <a href="../../developing/using/key-steps-to-add-a-resource.md">pagina</a> of dit <a href="../../reporting/using/creating-a-custom-profile-dimension.md">voorbeeld</a>.<br /> De gegevens voor deze dimensie worden opgehaald zodra de aangepaste bron die is gekoppeld aan het profielveld is gepubliceerd.<br /> </td> 
   </tr> 
   <tr> 
@@ -152,12 +152,12 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
  </thead> 
  <tbody> 
   <tr> 
-   <td> Op bloklijst<br /> </td> 
+   <td> Op lijst van afgewezen personen<br /> </td> 
    <td> Aantal ontvangers die een e-mailbericht hebben gedeclareerd als spam of junk.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bloklijstfrequentie<br /> </td> 
-   <td> Percentage leveringen gemarkeerd op de bloklijst.<br /> </td> 
+   <td> Lijst van afgewezen personen<br /> </td> 
+   <td> Percentage van de op de lijst van afgewezen personen aangegeven leveringen.<br /> </td> 
   </tr> 
   <tr> 
    <td> Bounces + fouten<br /> </td> 
@@ -298,7 +298,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
   </tr> 
   <tr> 
    <td> Impressies<br /> </td> 
-   <td> Het aantal keren dat een pushmelding aan het apparaat is afgeleverd en ongewijzigd is gelaten in het meldingscentrum. In de meeste gevallen zou het aantal indrukkingen gelijk moeten zijn aan het geleverde getal. Dit zorgt ervoor dat het apparaat het bericht kreeg en die informatie terug naar de server terugbracht.<br /> </td> 
+   <td> Het aantal keren dat een pushmelding aan het apparaat is afgeleverd en ongewijzigd is gelaten in het meldingscentrum. In de meeste gevallen zou het aantal afdrukken gelijk moeten zijn aan het geleverde getal. Dit zorgt ervoor dat het apparaat het bericht kreeg en die informatie terug naar de server terugbracht.<br /> </td> 
   </tr> 
   <tr> 
    <td> Verwerkt/verzonden<br /> </td> 
@@ -313,7 +313,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
    <td> Percentage geopende pushmeldingen.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unieke klik<br /> </td> 
+   <td> Unieke klikken<br /> </td> 
    <td> Aantal keren dat een unieke gebruiker communiceert met de pushmelding, bijvoorbeeld wanneer hij op de melding of knop klikt.<br /> </td> 
   </tr> 
   <tr> 
@@ -350,7 +350,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
    <td> Het totale aantal ontvangers dat op Knoop 1 of Knoop 2 klikte.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Doorklikfrequentie in de app<br /> </td> 
+   <td> In-app klikfrequentie<br /> </td> 
    <td> Percentage gebruikers die op Knoop 1 of Knoop 2 klikte vergeleken met gebruikers die het bericht zagen.<br /> </td> 
   </tr> 
   <tr> 
@@ -426,7 +426,7 @@ In de onderstaande tabel vindt u een lijst met segmenten die in rapporten en de 
   </tr> 
   <tr> 
    <td> Leeftijd: Generation Y (Millenniumjaar)<br /> </td> 
-   <td> Ontvangers geboren van 1977 tot 1994.<br /> </td> 
+   <td> Ontvangers, geboren van 1977 tot 1994.<br /> </td> 
   </tr> 
   <tr> 
    <td> Leeftijd: Generatie Z<br /> </td> 
