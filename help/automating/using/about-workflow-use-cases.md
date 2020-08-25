@@ -12,7 +12,7 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 314321c42094b945eba95540375eeeabacb84e64
+source-git-commit: 1043f69841a5a4ddaecc37289c9cfb1c1b5f7f34
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 18%
@@ -22,7 +22,7 @@ ht-degree: 18%
 
 # Gebruiksscenario’s voor workflows {#about-workflow-use-cases}
 
-In deze sectie vindt u verschillende gebruiksgevallen waarin gebruik wordt gemaakt van de mogelijkheden van de campagne-workflows.
+In deze sectie vindt u verschillende gebruiksgevallen waarbij gebruik wordt gemaakt van de mogelijkheden van de campagne-workflows.
 
 Ze helpen u de verschillende contexten te ontdekken waarin workflows kunnen worden gebruikt en aan uw behoeften kunnen voldoen.
 
