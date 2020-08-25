@@ -12,7 +12,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 94%
@@ -29,7 +29,7 @@ U kunt transactionele berichten verzenden die op klantmarketingprofielen zijn ge
 * De transactionele berichten aan de globale leveringsrapportage toevoegen.
 * De transactionele berichten in het klanttraject gebruiken.
 
-Nadat u een gebeurtenis (een ongebruikte winkelwagen zoals in het [voorbeeld](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) hierboven) hebt gemaakt en gepubliceerd, wordt het bijbehorende transactionele bericht automatisch gemaakt.
+Nadat u een gebeurtenis (een ongebruikte winkelwagen zoals in het [voorbeeld](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) hierboven) hebt gemaakt en gepubliceerd, wordt het bijbehorende transactionele bericht automatisch gemaakt.
 
 De configuratiestappen worden weergegeven in de sectie [Een gebeurtenis voor het verzenden van een transactioneel bericht voor een profiel configureren](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
