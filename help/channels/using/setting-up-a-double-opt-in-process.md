@@ -12,7 +12,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 89%
@@ -60,7 +60,7 @@ Ga als volgt te werk om deze landingspagina te maken en te configureren:
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   In deze context wordt het veld Op lijst van afgewezen personen verwijderd, zodat e-mailberichten kunnen worden verzonden. Later zullen we zien dat op de eerste landingspagina dit veld vóór de bevestiging was ingesteld op **true** om te voorkomen dat e-mails naar niet-bevestigde profielen worden verzonden. Zie [Stap 3: De landingspagina voor acquisitie maken](#step-3--create-the-acquisition-landing-page) voor meer informatie.
+   In deze context wordt het veld &#39;Op lijst van afgewezen personen&#39; verwijderd, zodat e-mailberichten kunnen worden verzonden. Later zullen we zien dat op de eerste landingspagina dit veld vóór de bevestiging was ingesteld op **true** om te voorkomen dat e-mails naar niet-bevestigde profielen worden verzonden. Zie [Stap 3: De landingspagina voor acquisitie maken](#step-3--create-the-acquisition-landing-page) voor meer informatie.
 
 1. Pas de content van de landingspagina aan. U kunt bijvoorbeeld gepersonaliseerde data weergeven en het label van de bevestigingsknop wijzigen in ‘Click here to confirm my subscription’.
 
@@ -80,7 +80,7 @@ De stappen voor het maken van deze elementen worden hieronder beschreven. U moet
 
 ### De gebeurtenis maken {#create-the-event}
 
-De bevestigings-e-mail is een [transactioneel bericht](../../channels/using/about-transactional-messaging.md) omdat deze reageert op een gebeurtenis, namelijk de validatie van het formulier. U moet eerst de gebeurtenis maken en vervolgens de sjabloon van het transactionele bericht maken.
+De bevestigings-e-mail is een [transactioneel bericht](../../channels/using/getting-started-with-transactional-msg.md) omdat deze reageert op een gebeurtenis, namelijk de validatie van het formulier. U moet eerst de gebeurtenis maken en vervolgens de sjabloon van het transactionele bericht maken.
 
 1. Maak een gebeurtenis via het menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**, dat toegankelijk is via het Adobe Campaign-logo en voer het label **CONFIRM** in.
 1. Selecteer de doeldimensie **[!UICONTROL Profile]** en klik op **[!UICONTROL Create]**.
