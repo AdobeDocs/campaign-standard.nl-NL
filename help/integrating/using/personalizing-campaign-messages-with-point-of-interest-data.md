@@ -1,5 +1,5 @@
 ---
-title: Campagneberichten aanpassen met gegevens van het Punt
+title: Campaign-berichten personaliseren met Point of Interest-data
 description: Leer hoe te om een gepersonaliseerd bericht tot stand te brengen dat op de plaats van uw abonnees met de de gegevensintegratie van het Punt van Interesse wordt gebaseerd.
 page-status-flag: never-activated
 uuid: d74c3e55-f130-441b-bc2a-06ddcd5d9784
@@ -12,16 +12,19 @@ discoiquuid: a1736ba3-5121-4d01-bf04-ebb7e701e2e0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 10%
 
 ---
 
 
-# Campagneberichten aanpassen met gegevens van het Punt{#personalizing-campaign-messages-with-point-of-interest-data}
+# Campaign-berichten personaliseren met Point of Interest-data{#personalizing-campaign-messages-with-point-of-interest-data}
 
-In Adobe Campagne kunt u de gegevens van de Punten van Interesse gebruiken die van de abonnees van uw mobiele toepassing worden verzameld om hen gepersonaliseerde marketing berichten, zoals een e-mail te verzenden.
+In Adobe Campaign kunt u de interessepunten die zijn verzameld bij de abonnees van uw mobiele toepassing gebruiken om persoonlijke marketingberichten, zoals een e-mail, te verzenden.
 
-U kunt alleen reageren op Point of Interest-gegevens met standaardleveringen. [Transactieberichten](../../channels/using/about-transactional-messaging.md) kunnen geen locatiegegevens gebruiken.
+U kunt alleen reageren op Point of Interest-gegevens met standaardleveringen. [Transactieberichten](../../channels/using/getting-started-with-transactional-msg.md) kunnen geen locatiegegevens gebruiken.
 
 De vroegste reactie is ongeveer 10 minuten.
 
@@ -34,7 +37,7 @@ In dit geval besluit u een e-mail te sturen naar alle abonnees die uw winkel in 
 
    Het beheren van het publiek wordt gedetailleerd beschreven in de sectie [Het publiek](../../audiences/using/creating-audiences.md) definiëren.
 
-1. Sleep het **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** element in het **[!UICONTROL POI Location Subscription]** venster naar de werkruimte.
+1. In the **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** window, drag and drop the **[!UICONTROL POI Location Subscription]** element into the workspace.
 
    ![](assets/poi_add_rule_profile_subscription.png)
 
@@ -42,10 +45,10 @@ In dit geval besluit u een e-mail te sturen naar alle abonnees die uw winkel in 
 
    ![](assets/poi_location_subscription.png)
 
-1. Selecteer in het **[!UICONTROL Filter type]** veld **[!UICONTROL Relative]**.
+1. Selecteer in het veld **[!UICONTROL Filter type]** de optie **[!UICONTROL Relative]**.
 1. Schakel de **[!UICONTROL Preceding days]** optie in en typ **[!UICONTROL 15]** het desbetreffende veld.
 1. Bepaal het aantal tijden de gebruiker het Punt van Interesse moet hebben bezocht.
-1. Klik **[!UICONTROL Confirm]** om uw publiek op te slaan.
+1. Click **[!UICONTROL Confirm]** to save your audience.
 
    ![](assets/poi_subscriptions_app_audience_defined.png)
 
