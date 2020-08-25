@@ -1,5 +1,5 @@
 ---
-title: Hot kliks
+title: Hot clicks
 description: Met het Hete klikt uit-van-de-doos rapport, leer waar uw klant op uw levering klikte.
 page-status-flag: never-activated
 uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
@@ -13,12 +13,15 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '475'
+ht-degree: 0%
 
 ---
 
 
-# Hot kliks{#hot-clicks}
+# Hot clicks{#hot-clicks}
 
 Dit rapport kan van de **[!UICONTROL Reports]** knoop in elk levering of transactiebericht worden betreden.
 
@@ -65,7 +68,7 @@ Een uitvoering is een niet-activeerbaar en niet-functioneel technisch bericht da
 
 * Door gebrek eens per maand voor transactionele berichten, en telkens als een transactiebericht wordt uitgegeven en opnieuw gepubliceerd.
 
-   Voor meer op transactionele berichten, zie [Ongeveer transactioneel overseinen](../../channels/using/about-transactional-messaging.md).
+   Voor meer op transactionele berichten, zie [Ongeveer transactioneel overseinen](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
