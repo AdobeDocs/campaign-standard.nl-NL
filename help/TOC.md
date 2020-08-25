@@ -4,9 +4,9 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Help bij Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: b9fbcbd7d6ea206ae3ed1faca89f4000052f97dc
+source-git-commit: 7a647878a711777dffd83a8f8dccacf9d9238ba6
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1569'
 ht-degree: 88%
 
 ---
@@ -103,7 +103,8 @@ ht-degree: 88%
       + [De doelgroep voor direct mail definiëren](channels/using/defining-the-direct-mail-audience.md)
       + [De content voor direct mail definiëren](channels/using/defining-the-direct-mail-content.md)
    + Transactionele berichten {#transactional-messaging}
-      + [Informatie over transactieberichten](channels/using/about-transactional-messaging.md)
+      + [Aan de slag met transactiemeldingen](channels/using/getting-started-with-transactional-msg.md)
+      + [Beperkingen voor transactieberichten](channels/using/transactional-messaging-limitations.md)
       + [Transactieberichten voor gebeurtenissen](channels/using/event-transactional-messages.md)
       + [Transactionele berichten voor profielen](channels/using/profile-transactional-messages.md)
       + [Transactionele pushmeldingen](channels/using/transactional-push-notifications.md)
