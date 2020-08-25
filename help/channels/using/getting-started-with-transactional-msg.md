@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f85da747cc4e6226172d2ccda452aadb131daa99
+source-git-commit: 284b177ef6d687cafaf92c50aa2050b8109ac30d
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 31%
@@ -25,13 +25,10 @@ ht-degree: 31%
 
 ## Overzicht
 
-<table>
-<tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"></td>
-<td class="noborder"><p>Het transactieoverseinen laat u toe om individuele en unieke berichten <b>naar uw klanten in real time te</b> verzenden.</p></td>
-<td class="noborder"><p>Dit kunnen welkomstberichten, bestellingen voor het verzenden van bestellingen, wachtwoordwijzigingen, enzovoort zijn.</p></td>
-</tr>
-</table>
+
+<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+
+Het transactieoverseinen laat u toe om individuele en unieke berichten <b>naar uw klanten in real time te</b> verzenden. Dit kunnen welkomstberichten, bestellingen voor het verzenden van bestellingen, wachtwoordwijzigingen, enzovoort zijn.
 
 Met Adobe Campaign kunt u deze functionaliteit integreren met een informatiesysteem dat gebeurtenissen verzendt die moeten worden omgezet in aangepaste transactieberichten.
 
@@ -51,26 +48,22 @@ Transactieberichten zijn ook beschikbaar via de Adobe Campaign Standard-API. Raa
 
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
-<td align="center"><br><p><b>Wat is een transactioneel bericht?</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><br><p><b>Wat is een transactioneel bericht?</b></p></td>
 <td><p>Het is een individuele en unieke communicatie, die door een leverancier zoals een website wordt verzonden.</p></td>
 <td><p>Dit wordt vooral verwacht, omdat het belangrijke informatie bevat die de ontvanger wil controleren of bevestigen.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"></td>
-<td align="center"><p><b>Wanneer komt het?</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>Wanneer komt het?</b></p></td>
 <td><p> Omdat dit bericht belangrijke informatie bevat, verwacht de gebruiker dat het in echt - tijd wordt verzonden.</p></td>
 <td><p>De vertraging tussen de gebeurtenis die wordt geactiveerd en het bericht dat aankomt, moet daarom zeer kort zijn.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"></td>
-<td align="center"><p><b>Waarom is het belangrijk?</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"><br><p><b>Waarom is het belangrijk?</b></p></td>
 <td><p>Over het algemeen zijn er voor een transactiebericht hoge open tarieven. Het moet daarom zorgvuldig worden ontworpen.</p></td>
 <td><p>Het kan namelijk een sterke invloed hebben op het gedrag van de klanten, aangezien het de relatie met de klant definieert.</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"></td>
-<td align="center"><b>Bijvoorbeeld?</b></td>
+<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><b>Bijvoorbeeld?</b></td>
 <td><p>Het zou een welkomstbericht kunnen zijn na het maken van een account, een bevestiging dat een bestelling is verzonden, een factuur...</p></td>
 <td><p>Het kan ook een bericht zijn dat een wachtwoordwijziging bevestigt, of een bericht nadat een klant door uw website heeft gebladerd...</p></td>
 </tr>
@@ -84,21 +77,16 @@ Er zijn twee typen transactieberichten beschikbaar in Adobe Campaign:
 
 <table>
 <tr>
-<td align="center"><a href="../../channels/using/event-transactional-messages.md">Gebeurtenistransactieberichten</a><br><b> die zijn gericht op een gebeurtenis</b>.</td>
-<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"></td>
+<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><a href="../../channels/using/event-transactional-messages.md">Gebeurtenistransactieberichten</a><br><b> die zijn gericht op een gebeurtenis</b>.</td>
 <td><p><ul><li>Ze bevatten geen profielgegevens.</li><li>Zij zijn niet verenigbaar met <a href="../../sending/using/fatigue-rules.md">vermoeidheidsregels</a> (zelfs in geval van verrijking met profielen).</li><li>Het leveringsdoel wordt bepaald door de gegevens in de gebeurtenis zelf.</li></ul></p></td>
+</tr>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md">Profieltransactieberichten</a><br><b> die zijn gericht op profielen in de marketingdatabase van Adobe Campaign</b>.</td>
+<td><p>Transactieberichten van het profiel laten u toe:<ul><li>Pas marketingtypologieregels toe, zoals <b>Adres op lijst van afgewezen personen</b> of <a href="../../sending/using/fatigue-rules.md">vermoeidheidsregels</a>.</li><li>De koppeling voor het opzeggen van abonnementen in de berichten opnemen.</li><li>De transactionele berichten aan de globale leveringsrapportage toevoegen.</li><li>De transactionele berichten in het klanttraject gebruiken.</li></ul></p></td>
 </tr>
 </table>
 
 <!--[Profile transactional messages](../../channels/using/profile-transactional-messages.md) targeting **profiles from the Adobe Campaign marketing database**. You can use information from the Adobe Campaign database to send a transactional message based on customer marketing profiles.-->
-
-<table>
-<tr>
-<td align="center"><a href="../../channels/using/profile-transactional-messages.md">Profieltransactieberichten</a><br><b> die zijn gericht op profielen in de marketingdatabase van Adobe Campaign</b>.</td>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"></td>
-<td><p>Transactieberichten van het profiel laten u toe:<ul><li>Pas marketingtypologieregels toe, zoals <b>Adres op lijst van afgewezen personen</b> of <a href="../../sending/using/fatigue-rules.md">vermoeidheidsregels</a>.</li><li>De koppeling voor het opzeggen van abonnementen in de berichten opnemen.</li><li>De transactionele berichten aan de globale leveringsrapportage toevoegen.</li><li>De transactionele berichten in het klanttraject gebruiken.</li></ul></p></td>
-</tr>
-</table>
 
 Het berichttype wordt bepaald tijdens de configuratie van de gebeurtenis die in een transactiebericht wordt omgezet. Zie [Transactieberichten configureren](../../administration/using/configuring-transactional-messaging.md).
 
@@ -148,13 +136,13 @@ Zie [Site-integratie](../../administration/using/configuring-transactional-messa
 
 <!--Once all of these steps have been carried out, the message can be delivered:-->
 
-<img src="assets/do-not-localize/icon_notification.svg" width="60px">
+<img src="assets/do-not-localize/icon_notification.svg" width="40px">
 
 Zodra een gebruiker de site verlaat zonder de producten in zijn winkelwagentje te bestellen, ontvangt hij automatisch een e-mailbericht.
 
 ## Belangrijkste stappen {#key-steps}
 
-De belangrijkste stappen bij het maken en beheren van persoonlijke transactiemeldingen in Adobe Campaign worden hieronder samengevat.
+De belangrijkste stappen bij het maken en beheren van persoonlijke transactiemeldingen in Adobe Campaign worden in de onderstaande tabel samengevat.
 
 ![](assets/message-center-overview.png)
 
