@@ -12,7 +12,10 @@ discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3fdde5e938dd2d29455396b21398530d09f6d1ae
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +24,7 @@ source-git-commit: 3fdde5e938dd2d29455396b21398530d09f6d1ae
 
 U kunt een vervolgbericht verzenden naar de klanten die een specifiek transactiebericht hebben ontvangen. Hiervoor moet u een workflow voor de bijbehorende gebeurtenis instellen.
 
-Laten wij het voorbeeld opnieuw gebruiken dat in de [Transactionele overseinen werkende principesectie](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) wordt beschreven: er wordt een e-mailbericht met de winkelwagentje verzonden naar gebruikers van uw website die producten aan hun winkelwagentje hebben toegevoegd , maar die de site hebben verlaten zonder dat ze hun aankopen hebben gedaan .
+Laten wij het voorbeeld opnieuw gebruiken dat in de [Transactionele overseinen werkende principesectie](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) wordt beschreven: er wordt een e-mailbericht met de winkelwagentje verzonden naar gebruikers van uw website die producten aan hun winkelwagentje hebben toegevoegd , maar die de site hebben verlaten zonder dat ze hun aankopen hebben gedaan .
 
 U wilt een vriendelijke herinnering sturen aan alle klanten die het bericht van het verlaten van het winkelwagentje hebben ontvangen maar het na drie dagen niet hebben geopend.
 
@@ -29,15 +32,15 @@ Elke betrokken klant zal dan een vervolgbericht ontvangen dat op de zelfde gegev
 
 ## De follow-upberichten openen {#accessing-the-follow-up-messages}
 
-Nadat u een gebeurtenis hebt gemaakt en gepubliceerd (de winkelwagentje zoals in het [voorbeeld](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) hierboven), worden het bijbehorende transactiemelding- en vervolgbericht automatisch gemaakt.
+Once you have created and published an event (the cart abandonment as per the [example](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) above), the corresponding transactional message and follow-up message are created automatically.
 
-De configuratiestappen worden voorgesteld in het [Vormen van een gebeurtenis om een sectie van het vervolgbericht](../../administration/using/configuring-transactional-messaging.md#configuring-an-event-to-send-a-follow-up-message) te verzenden.
+The configuration steps are presented in the [Configuring an event to send a follow-up message](../../administration/using/configuring-transactional-messaging.md#configuring-an-event-to-send-a-follow-up-message) section.
 
 Voor het afhandelen van een gebeurtenis in een workflow is een leveringssjabloon vereist. Wanneer u de gebeurtenis publiceert, kan het [transactiemelding](../../channels/using/event-transactional-messages.md) die wordt gemaakt, echter niet als een sjabloon worden gebruikt. Daarom moet u een specifieke follow-up leveringsmalplaatje creëren dat wordt ontworpen om dit gebeurtenistype te steunen en als malplaatje in een werkschema te gebruiken.
 
 Deze sjabloon openen:
 
-1. Klik in de linkerbovenhoek op het **[!UICONTROL Adobe Campaign]** logo.
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner.
 1. Selecteer **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Schakel het **[!UICONTROL Follow-up messages]** vakje in het linkerdeelvenster in.
 
@@ -47,7 +50,7 @@ Alleen de vervolgberichten worden weergegeven.
 
 >[!NOTE]
 >
->Om tot transactieberichten toegang te hebben, moet u deel van de **[!UICONTROL Administrators (all units)]** veiligheidsgroep uitmaken.
+>Om toegang te hebben tot transactionele berichten moet u deel uitmaken van de beveiligingsgroep **[!UICONTROL Administrators (all units)]**.
 
 ## Een vervolgbericht verzenden {#sending-a-follow-up-message}
 
@@ -55,13 +58,13 @@ Zodra u het malplaatje van de follow-up levering creeerde, kunt u het in een wer
 
 1. Open de lijst met marketingactiviteiten en maak een nieuwe workflow.
 
-   Zie [Een workflow](../../automating/using/building-a-workflow.md#creating-a-workflow)maken.
+   See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
-1. Sleep een **[!UICONTROL Scheduler]** activiteit naar uw werkstroom en open deze. Stel de uitvoeringsfrequentie eenmaal per dag in.
+1. Drag and drop a **[!UICONTROL Scheduler]** activity into your workflow and open it. Stel de uitvoeringsfrequentie eenmaal per dag in.
 
    De activiteit van de Planner wordt voorgesteld in de sectie van de [Planner](../../automating/using/scheduler.md) .
 
-1. Sleep een **[!UICONTROL Query]** activiteit naar uw werkstroom en open deze.
+1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it.
 
    De activiteit van de Vraag wordt voorgesteld in de sectie van de [Vraag](../../automating/using/query.md) .
 
@@ -71,7 +74,7 @@ Zodra u het malplaatje van de follow-up levering creeerde, kunt u het in een wer
 
    >[!NOTE]
    >
-   >Standaard is de activiteit vooraf geconfigureerd voor het zoeken naar profielen.
+   >Standaard is de activiteit vooraf geconfigureerd om te zoeken naar profielen.
 
 1. Selecteer de gebeurtenis die u als doel wilt instellen, zodat u alleen toegang hebt tot gegevens van deze gebeurtenis.
 
@@ -95,15 +98,15 @@ Zodra u het malplaatje van de follow-up levering creeerde, kunt u het in een wer
 
    Dit betekent dat alle ontvangers die het transactiemelding drie dagen voor de uitvoering van de werkstroom hebben ontvangen en nog steeds niet hebben geopend, als doel zijn aangewezen.
 
-   Klik **[!UICONTROL Confirm]** om de query op te slaan.
+   Click **[!UICONTROL Confirm]** to save the query.
 
-1. Sleep een **e-mailbezorgingsactiviteit** naar uw workflow.
+1. Drag and drop an **Email delivery** activity into your workflow.
 
    De leveringsactiviteit via e-mail wordt weergegeven in de sectie [E-maillevering](../../automating/using/email-delivery.md) .
 
    ![](assets/message-center_follow-up-workflow.png)
 
-   U kunt ook een [SMS-levering](../../automating/using/sms-delivery.md) of een levering [via een](../../automating/using/push-notification-delivery.md) mobiele app gebruiken. Selecteer in dit geval het **[!UICONTROL Mobile (SMS)]** of het **[!UICONTROL Mobile application]** kanaal wanneer u de gebeurtenisconfiguratie maakt. Zie [Een gebeurtenis](../../administration/using/configuring-transactional-messaging.md#creating-an-event)maken.
+   U kunt ook een [SMS-levering](../../automating/using/sms-delivery.md) of een levering [via een](../../automating/using/push-notification-delivery.md) mobiele app gebruiken. Selecteer in dit geval het **[!UICONTROL Mobile (SMS)]** of het **[!UICONTROL Mobile application]** kanaal wanneer u de gebeurtenisconfiguratie maakt. Zie [Een gebeurtenis maken](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
 
 1. Open de **e-mailleveringsactiviteit** . Schakel het **[!UICONTROL Follow-up messages]** vakje in de wizard Maken in en selecteer de sjabloon voor vervolglevering die na publicatie van de gebeurtenis is gemaakt.
 
@@ -113,7 +116,7 @@ Zodra u het malplaatje van de follow-up levering creeerde, kunt u het in een wer
 
    ![](assets/message-center_follow-up-content.png)
 
-1. U kunt de velden zoeken die u hebt gedefinieerd tijdens het maken van uw gebeurtenis door **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** te selecteren. Zie [Transactiebericht](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message)personaliseren.
+1. U kunt de velden zoeken die u hebt gedefinieerd tijdens het maken van uw gebeurtenis door **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** te selecteren. See [Personalizing a transactional message](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message).
 
    ![](assets/message-center_follow-up-personalization.png)
 
@@ -125,5 +128,5 @@ Als de workflow eenmaal is gestart, ontvangt elke klant die drie dagen geleden u
 
 >[!NOTE]
 >
->Als u bij het maken van de gebeurtenisconfiguratie de doeldimensie hebt geselecteerd, gebruikt het vervolgbericht ook de marketingdatabase van Adobe Campagne. **[!UICONTROL Profile]** Zie Transactieberichten [voor profielen](../../channels/using/profile-transactional-messages.md).
+>Als u bij het maken van de gebeurtenisconfiguratie de **[!UICONTROL Profile]** doeldimensie hebt geselecteerd, gebruikt het vervolgbericht ook de Adobe Campaign-marketingdatabase. Zie [Profieltransactieberichten](../../channels/using/profile-transactional-messages.md).
 
