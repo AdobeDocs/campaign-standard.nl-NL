@@ -12,9 +12,9 @@ discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
 context-tags: service,wizard;service,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: a8ee3b864b6916871711c6bd2e2d3b794bc706f8
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ Een service configureren:
       >
       >U kunt een standaardbericht wijzigen door op het betreffende label in de sectie **[!UICONTROL Service properties]** te klikken of door het te selecteren in de lijst met transactieberichten van Adobe Campaign, nadat u het selectievakje **[!UICONTROL Show internal transactional messages]** hebt ingeschakeld.
 
-   * **[!UICONTROL Custom message]**: In deze modus kunt u specifieke aangepaste bevestigingsberichten voor elke service afhandelen. Vervolgens selecteert u de sjabloon **[!UICONTROL Custom subscription event configuration]** die aan een specifieke [transactiebericht](../../channels/using/about-transactional-messaging.md)-sjabloon is gekoppeld. Zie [Een abonnement op een service bevestigen](../../audiences/using/confirming-subscription-to-a-service.md) voor meer informatie hierover.
+   * **[!UICONTROL Custom message]**: In deze modus kunt u specifieke aangepaste bevestigingsberichten voor elke service afhandelen. Vervolgens selecteert u de sjabloon **[!UICONTROL Custom subscription event configuration]** die aan een specifieke [transactiebericht](../../channels/using/getting-started-with-transactional-msg.md)-sjabloon is gekoppeld. Zie [Een abonnement op een service bevestigen](../../audiences/using/confirming-subscription-to-a-service.md) voor meer informatie hierover.
 
 1. Sla de service op. De service is nu klaar om te worden gebruikt.
 
