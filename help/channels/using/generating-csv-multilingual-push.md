@@ -1,5 +1,5 @@
 ---
-title: Een CSV-bestand genereren voor Meertalig pushbericht met de campagnestandaard
+title: Een CSV-bestand genereren voor Meertalig pushbericht met Campaign Standard
 description: Het uploaden van een CSV-bestand om inhoud te genereren voor levering is een functie die wordt gebruikt om meertalige pushmeldingen te ondersteunen.
 page-status-flag: never-activated
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
@@ -12,12 +12,15 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
+source-git-commit: 772393c135b96374cb510a3d96e3c781274e857e
+workflow-type: tm+mt
+source-wordcount: '1127'
+ht-degree: 0%
 
 ---
 
 
-# Een CSV-bestand genereren voor Meertalig pushbericht{#generating-csv-multilingual-push}
+# Een CSV-bestand genereren voor meertalige pushmeldingen{#generating-csv-multilingual-push}
 
 Het uploaden van een CSV-bestand om inhoud te genereren voor levering is een functie die wordt gebruikt voor de ondersteuning van meertalige pushberichten. De indeling van het CSV-bestand moet voldoen aan bepaalde richtlijnen voor het uploaden van het bestand, zodat het bestand kan worden geüpload. In de volgende secties worden de bestandsindeling en de overwegingen daarvoor beschreven.
 
@@ -37,7 +40,7 @@ Meertalige push vereist 14 kolommen in het CSV-bestand:
 * isMutableContent
 * customFields
 * landinstelling
-* taal
+* language
 * silentPush
 
 ![](assets/multilingual_push_1.png)
@@ -45,7 +48,7 @@ Meertalige push vereist 14 kolommen in het CSV-bestand:
 Controleer het CSV-voorbeeld door op de knop **[!UICONTROL Download a sample file]** in het **[!UICONTROL Manage Content Variants]** venster te klikken. For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
 
 * **title, messageBody, sound, badge, deplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**: regelmatig de inhoud van de pushlading. U moet deze informatie op dezelfde manier verstrekken als wanneer het creëren van dupleveringen.
-* **Aangepaste velden**:  Gebruik JSON-indeling voor de aangepaste velden, bijvoorbeeld&quot;{&quot;&quot;key1&quot;&quot;:&quot;&quot;value1&quot;&quot;,&quot;&quot;key2&quot;&quot;:&quot;&quot;value2&quot;&quot;&quot;}&quot;. Raadpleeg het voorbeeldbestand hierboven voor een voorbeeld van aangepaste velden.
+* **Aangepaste velden**:  Gebruik de JSON-indeling voor aangepaste velden, bijvoorbeeld `{"key1":"value1","key2":"value2"}`. Raadpleeg het voorbeeldbestand hierboven voor een voorbeeld van aangepaste velden.
 * **isContentAvailable**: markering voor controle van beschikbare inhoud, waarde 1 impliceert waar, waarde 0 impliceert vals. De standaardwaarde is 0. Als u deze kolom leeg laat, wordt de waarde als 0 beschouwd.
 * **isMutableContent**: markering voor Mutable Content, waarde 1 impliceert true, waarde 0 betekent false. De standaardwaarde is 0. Als u deze kolom leeg laat, wordt de waarde als 0 beschouwd.
 * **landinstelling**: landinstelling is het veld voor taalvarianten, bijvoorbeeld &quot;en_us&quot; voor Amerikaans-Engels en &quot;fr_fr&quot; voor Frankrijk-Frans.
@@ -102,14 +105,14 @@ In het bereik zijn twee verplichte kenmerken:
 
 De volgende talen worden ondersteund:
 
-| landinstelling | taal |
+| landinstelling | language |
 |:-:|:-:|
-| af_za | Afrikaans - Zuid-Afrika |
+| Zuid | Afrikaans - Zuid-Afrika |
 | sq_al | Albanees - Albanië |
 | ar_dz | Arabisch - Algerije |
 | ar_bh | Arabisch - Bahrein |
 | ar_iq | Arabisch - Irak |
-| ar_il | Arabisch - Israël |
+| - ar_il | Arabisch - Israël |
 | ar_jo | Arabisch - Jordanië |
 | ar_kw | Arabisch - Koeweit |
 | ar_lb | Arabisch - Libanon |
@@ -131,12 +134,12 @@ De volgende talen worden ondersteund:
 | zh_sg | Chinees (vereenvoudigd) - Singapore |
 | zh_hk | Chinees (traditioneel) - SAR Hongkong van China |
 | zh_tw | Chinees (traditioneel) - Taiwan |
-| hr_hr | Kroatisch - Kroatië |
+| af_uur | Kroatisch - Kroatië |
 | cs_cz | Tsjechisch - Tsjechisch |
 | da_dk | Deens - Denemarken |
 | nl_be | Nederlands - België |
 | nl_nl | Nederlands - Nederland |
-| en_au | Engels - Australië |
+| ar_au | Engels - Australië |
 | en_bz | Engels - Belize |
 | en_ca | Engels - Canada |
 | en_in | Engels - India |
@@ -157,20 +160,20 @@ De volgende talen worden ondersteund:
 | fr_lu | Frans - Luxemburg |
 | fr_ch | Frans - Zwitserland |
 | de_at | Duits - Oostenrijk |
-| de_de | Duits - Duitsland |
+| de_de | es - Duitsland |
 | de_lu | Duits - Luxemburg |
-| de_ch | Duits - Zwitserland |
-| el_cy | Grieks - Cyprus |
-| el_gr | Grieks - Griekenland |
+| es_ch | Duits - Zwitserland |
+| es_cy | Grieks - Cyprus |
+| el_gr | el - Griekenland |
 | gu_in | Gujarati - India |
 | he_il | Hebreeuws - Israël |
 | hi_in | Hindi - India |
 | hu_hu | Hongaars - Hongarije |
 | is_is | IJslands - IJsland |
-| id_id | Indonesisch - Indonesië |
+| fi_id | Indonesisch - Indonesië |
 | it_it | Italiaans - Italië |
-| it_ch | Italiaans - Zwitserland |
-| ja_jp | Japans - Japan |
+| it_ch | Spaans - Zwitserland |
+| ja_jp | es - Japan |
 | kn_in | Kannada - India |
 | kk_kz | Kazachstan - Kazachstan |
 | ko_kr | Koreaans - Zuid-Korea |
@@ -202,24 +205,24 @@ De volgende talen worden ondersteund:
 | es_do | Spaans - Dominicaanse Republiek |
 | es_ec | Spaans - Ecuador |
 | es_sv | Spaans - El Salvador |
-| es_gt | Spaans - Guatemala |
-| es_hn | Spaans - Honduras |
-| es_mx | Spaans - Mexico |
-| es_ni | Spaans - Nicaragua |
+| Spes_gt | Spaans - Guatemala |
+| ada | Spaans - Honduras |
+| es_mx | Grieks - Mexico |
+| - es_ni | Spaans - Nicaragua |
 | es_pa | Spaans - Panama |
 | es_py | Spaans - Paraguay |
 | es_pe | Spaans - Peru |
 | es_pr | Spaans - Puerto Rico |
 | es_es | Spaans - Spanje |
-| es_uy | Spaans - Uruguay |
-| es_ve | Spaans - Venezuela |
+| es_uy | id Spaans - Uruguay |
+| _ve | Japans - Venezuela |
 | sw_ek | Swahili - Kenia |
 | sv_fi | Zweeds - Finland |
 | sv_se | Zweeds - Zweden |
 | ta_in | Tamil - India |
 | tt_ru | Tatar - Russisch |
-| te_inden | Telugu - India |
-| th_th | Thai - Thailand |
+| th_in | Telugu - India |
+| Italiaans_de | Thai - Thailand |
 | tr_cy | Turks - Cyprus |
 | tr_tr | Turks - Turkije |
 | uk_ua | Oekraïens - Oekraïne |
