@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 99%
@@ -64,7 +64,7 @@ ht-degree: 99%
 
 **Verbeteringen**
 
-* De gebruikerservaring met transactionele berichten is uitgebreid en de interfaceconsistentie is verbeterd. [Meer informatie](../../channels/using/about-transactional-messaging.md)
+* De gebruikerservaring met transactionele berichten is uitgebreid en de interfaceconsistentie is verbeterd. [Meer informatie](../../channels/using/getting-started-with-transactional-msg.md)
 * U kunt nu in Campaign Standard proeven naar testprofielen verzenden met behulp van aanvullende data uit workflows.
 * Beveiligingen voor de activiteit Externe API zijn bijgewerkt. [Meer informatie](../../automating/using/external-api.md)
 
