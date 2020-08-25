@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b6607afe05e762c87a95fd88bda0196baa57f1e
+source-git-commit: 6c768132a297d324f6aec87c215222b3587091c6
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 89%
@@ -23,16 +23,13 @@ ht-degree: 89%
 
 # Beperkingen voor transactieberichten {#transactional-messaging-limitations}
 
-<table>
-<tr>
-<td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
-<td><p>In de onderstaande sectie worden de beperkingen weergegeven die u moet kennen voordat u transactiemeldingen gaat maken.</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_concepts.svg" width="60px">
+
+In de onderstaande sectie worden de beperkingen weergegeven die u moet kennen voordat u transactiemeldingen gaat maken.
 
 Voor meer op transactionele berichten, met inbegrip van op hoe te om hen te vormen en tot stand te brengen, zie [Begonnen het worden met transactioneel overseinen](../../channels/using/getting-started-with-transactional-msg.md).
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Voor toegang tot de transactieberichten moet u beheerrechten hebben.
 
