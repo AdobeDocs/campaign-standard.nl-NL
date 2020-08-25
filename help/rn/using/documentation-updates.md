@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: b588366b0697d9cf7aea77b7c9c8ec876b9e0579
 workflow-type: tm+mt
-source-wordcount: '6092'
-ht-degree: 94%
+source-wordcount: '6119'
+ht-degree: 95%
 
 ---
 
@@ -23,6 +23,12 @@ ht-degree: 94%
 # Documentatie-updates{#documentation-updates}
 
 Naast de [releaseopmerkingen](../../rn/using/release-notes.md) bij Adobe Campaign worden op deze pagina alle nieuwe updates in de documentatie van Adobe Campaign Standard weergegeven.
+
+## Documentatie-updates - augustus 2020 {#doc-updates-august-2020}
+
+Er is een nieuwe bijgewerkte sectie beschikbaar om aan de slag te gaan met het transactiebericht. [Meer informatie](../../channels/using/getting-started-with-transactional-msg.md)
+
+De sectie Transactionele berichtenbeperkingen is verplaatst. [Meer informatie](../../channels/using/transactional-messaging-limitations.md)
 
 ## Documentatie-updates - juli 2020 {#doc-updates-july-2020}
 
@@ -40,11 +46,11 @@ Nieuwe e-mailmogelijkheden van AI: tijd optimaliseren en profiel scoring verzend
 
 ## Documentatie - juni 2020 {#doc-updates-june-2020}
 
-Gebruiksscenario&#39;s voor workflowgebruik zijn bijgewerkt en opnieuw ingedeeld in thematische onderdelen. [Meer informatie](../../automating/using/about-workflow-use-cases.md)
+Gebruiksscenario’s voor workflows zijn bijgewerkt en opnieuw ingedeeld in thematische secties. [Meer informatie](../../automating/using/about-workflow-use-cases.md)
 
-Er zijn gebruiksgevallen toegevoegd voor het [coderen](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) en [decoderen](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) van gegevens met de workflows Configuratiescherm en Campagne.
+Er zijn gebruiksscenario’s toegevoegd voor het [versleutelen](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) en [ontsleutelen](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) van data met workflows voor Configuratiescherm en Campaign.
 
-De termen ‘whitelist’ en ‘blacklist’ zijn uit de documentatie van Adobe Campaign verwijderd. Deze termen komen mogelijk nog voor in de gebruikersinterface, optienamen en interne code van het product, maar worden in komende Campaign-releases vervangen door ‘lijst met afgewezen IP-adressen’ en ‘lijst met gewenste IP-adressen’.
+Zowel de termen ‘whitelist’ als ‘blacklist’ zijn uit de documentatie van Adobe Campaign verwijderd. Sommige van deze termen bestaan mogelijk nog steeds in de gebruikersinterface van het product, optienamen en interne code, maar worden in komende Campaign-releases vervangen door ‘blokkeringslijst’ en ‘acceptatielijst’.
 
 Verwijzingen naar de oude ondersteuningswebsite zijn vervangen door de nieuwe URL. [Meer informatie](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -128,7 +134,7 @@ Er is nu een nieuwe sectie beschikbaar waarin wordt beschreven hoe u een gebeurt
 
 De pagina waarin wordt beschreven hoe u de onderwerpregel van een e-mail kunt testen om het aantal geopende e-mails te voorspellen, is bijgewerkt en verbeterd, inclusief een nieuwe sectie voor [probleemoplossing](../../sending/using/testing-subject-line-email.md#troubleshooting). [Meer informatie](../../sending/using/testing-subject-line-email.md)
 
-De secties over transactionele berichten zijn bijgewerkt om kleine updates en verbeteringen in de gebruikersinterface weer te geven. [Meer informatie](../../channels/using/about-transactional-messaging.md)
+De secties over transactionele berichten zijn bijgewerkt om kleine updates en verbeteringen in de gebruikersinterface weer te geven. [Meer informatie](../../channels/using/getting-started-with-transactional-msg.md)
 
 De informatie over externe API-activiteitsbeveiliging is bijgewerkt. [Meer informatie](../../automating/using/external-api.md)
 
@@ -208,7 +214,7 @@ Er is een nieuw gebruiksscenario toegevoegd waarin wordt beschreven hoe u een co
 
 De informatie met betrekking tot de eigenschappen van landingspagina’s is verplaatst naar een specifieke sectie. [Meer informatie](../../channels/using/configuring-landing-page.md)
 
-De documentatie over het Configuratiescherm is geïntegreerd in de nieuwe collectieve documentatieset. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/control-panel-home.translate.html)
+De documentatie voor het Configuratiescherm is geïntegreerd in de nieuwe collaboratieve documentatieset. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/control-panel-home.translate.html)
 
 De tabel voor de **berekening van indicatoren** is bijgewerkt. [Meer informatie](../../reporting/using/indicator-calculation.md)
 
@@ -234,9 +240,9 @@ Microsoft Dynamics 365-integratie (GA) - [Meer informatie](../../integrating/usi
 
 De lijst met foutberichten voor Campaign Standard en Campaign Classic is bijgewerkt. [Meer informatie](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-De handleiding om aan de slag te gaan met de AVG is verbeterd en uitgebreid. De handleiding bevat nu documentatie over privacybeheer, waaronder AVG en CCPA. [Meer informatie](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
+De handleiding om aan de slag te gaan met de AVG is verbeterd en verrijkt. Het is nu een documentatie over privacybeheer, waaronder AVG en CCPA. [Meer informatie](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
-Er is een nieuw diagram toegevoegd waarin het proces voor het publiceren van transactionele berichten wordt beschreven. [Meer informatie](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+Er is een nieuw diagram toegevoegd waarin het proces voor het publiceren van transactionele berichten wordt beschreven. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
 De handleiding om aan de slag te gaan met best practices voor levering is verplaatst en bijgewerkt. [Meer informatie](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
@@ -416,7 +422,7 @@ Workflowverbeteringen - U vindt meer informatie [hier](../../automating/using/wo
 
 De nieuwe onboardingervaring voor het maken van e-mailcontent en andere verbeteringen voor de Email Designer zijn toegevoegd aan het hoofdstuk voor het bewerken van e-mailcontent. [Meer informatie](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
-Er is een nieuwe sectie toegevoegd over beperkingen voor transactionele berichten. [Meer informatie](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+Er is een nieuwe sectie toegevoegd over beperkingen voor transactionele berichten. [Meer informatie](../../channels/using/transactional-messaging-limitations.md)
 
 Er is een nieuwe sectie toegevoegd waarin de verschillende opties voor het schrijven van e-mailberichten in Adobe Campaign worden vergeleken. [Meer informatie](../../designing/using/using-integrations.md#email-design-options-comparison)
 
@@ -846,7 +852,7 @@ Video over Dreamweaver-integratie - [Meer informatie](https://docs.adobe.com/con
 
 Er is een sectie toegevoegd over de verschillende typen Adobe Campaign-gebruikers. [Meer informatie](../../administration/using/users-management.md)
 
-De handleiding over workflows is gereorganiseerd en uitgebreid. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/about-targeting-activities.md) and [manage](../../automating/using/about-targeting-activities.md#enriching-data) your data, how to [import and export](../../automating/using/about-data-import-and-export.md) data, and how to use workflow data to update the database or to send deliveries.
+De handleiding over workflows is opnieuw ingedeeld en uitgebreid. Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/about-targeting-activities.md) and [manage](../../automating/using/about-targeting-activities.md#enriching-data) your data, how to [import and export](../../automating/using/about-data-import-and-export.md) data, and how to use workflow data to update the database or to send deliveries.
 
 De berekening van rapportindicatoren is nu beschikbaar voor dynamische rapporten, inclusief een volledige beschrijving en berekeningsformule. [Meer informatie](../../reporting/using/indicator-calculation.md)
 
