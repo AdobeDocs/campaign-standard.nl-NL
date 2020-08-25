@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: fe9b2156a80f973045a2a7860dac4ac3a1d899e7
 workflow-type: tm+mt
 source-wordcount: '2478'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 U kunt doelgericht transactieberichten voor gebeurtenissen verzenden. Dit type transactieberichten bevat geen profielinformatie: het leveringsdoel wordt bepaald door de data in de gebeurtenis zelf.
 
-Nadat u een gebeurtenis hebt gemaakt en gepubliceerd (het achterlaten van een winkelwagen, zoals wordt uitgelegd in [deze sectie](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)), wordt het bijbehorende transactiebericht automatisch gemaakt.
+Nadat u een gebeurtenis hebt gemaakt en gepubliceerd (het achterlaten van een winkelwagen, zoals wordt uitgelegd in [deze sectie](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)), wordt het bijbehorende transactiebericht automatisch gemaakt.
 
 De configuratiestappen worden getoond in de sectie [Een gebeurtenis configureren voor het verzenden van een transactiebericht](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
