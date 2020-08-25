@@ -11,9 +11,9 @@ topic-tags: discovering-the-interface
 discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '1144'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ Het pictogram **[!UICONTROL Marketing plans]** geeft u toegang tot de volgende f
 * **[!UICONTROL Marketing activities]** - Raadpleeg de sectie [Lijst met marketingactiviteiten](../../start/using/marketing-activities.md#about-marketing-activities) voor meer informatie.
 * **[!UICONTROL Programs & Campaigns]** - Raadpleeg de sectie [Programmalijst](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns) voor meer informatie.
 * **[!UICONTROL Timeline]** - Raadpleeg de sectie [Tijdlijn](../../start/using/timeline.md) voor meer informatie.
-* **[!UICONTROL Transactional messages]** met de submenu&#39;s **[!UICONTROL Deliveries]** en **[!UICONTROL Event configuration]** - Raadpleeg de sectie [Transactieberichten](../../channels/using/about-transactional-messaging.md) voor meer informatie.
+* **[!UICONTROL Transactional messages]** met de submenu&#39;s **[!UICONTROL Deliveries]** en **[!UICONTROL Event configuration]** - Raadpleeg de sectie [Transactieberichten](../../channels/using/getting-started-with-transactional-msg.md) voor meer informatie.
 
 ### Profielen en doelgroepen {#profiles-e-audiences}
 
