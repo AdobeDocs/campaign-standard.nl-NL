@@ -13,7 +13,10 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
+source-wordcount: '598'
+ht-degree: 4%
 
 ---
 
@@ -71,10 +74,10 @@ Het hoofdscherm bestaat uit verschillende blokken. Klik in een blok om het bijbe
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Deployment]**: Hiermee kunt u de voortgang van het voorbereiden of verzenden van berichten volgen. Klik op de knop in de rechterbenedensectie van dit blok voor toegang tot de logboeken voor verzenden en analyse. Dit blok verschijnt slechts zodra het verzenden is voorbereid. Meer hierover. Zie [Verzenden](../../sending/using/confirming-the-send.md)bevestigen.
-* **[!UICONTROL Audience]**: Hiermee kunt u zowel het hoofddoel van het bericht als de testprofielen vaststellen. Zie [Soorten publiek](../../audiences/using/creating-audiences.md)maken.
+* **[!UICONTROL Deployment]**: Hiermee kunt u de voortgang van het voorbereiden of verzenden van berichten volgen. Klik op de knop in de rechterbenedensectie van dit blok voor toegang tot de logboeken voor verzenden en analyse. Dit blok verschijnt slechts zodra het verzenden is voorbereid. Meer hierover. See [Confirming send](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Audience]**: Hiermee kunt u zowel het hoofddoel van het bericht als de testprofielen vaststellen. Zie [Doelgroepen maken](../../audiences/using/creating-audiences.md).
 * **[!UICONTROL Schedule]**: kunt u opgeven op welke datum uw bericht wordt verzonden. Zie [Planning](../../sending/using/about-scheduling-messages.md).
-* **[!UICONTROL Content]**: Hiermee kunt u de inhoud van het bericht definiëren en er een voorvertoning van weergeven. Zie [Belangrijkste stappen om een bericht](../../channels/using/key-steps-to-send-a-message.md)te verzenden.
+* **[!UICONTROL Content]**: Hiermee kunt u de inhoud van het bericht definiëren en er een voorvertoning van weergeven. See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
 
 ## Waarschuwingen {#warnings}
 
@@ -94,7 +97,7 @@ Hieronder volgt een lijst met de berichten die kunnen worden weergegeven:
 
 * *&quot;De berichten kunnen niet worden verzonden omdat de huidige IP affiniteit niet door om het even welk verzendend proces wordt behandeld.&quot;*
 
-   Als u dit bericht ziet, is er een kwestie op het IP niveau van de affiniteitdefinitie of op het verzendende procesniveau. Neem contact op met uw Adobe-beheerder.
+   Als u dit bericht ziet, is er een kwestie op het IP niveau van de affiniteitdefinitie of op het verzendende procesniveau. Neem contact op met de beheerder van de Adobe.
 
 * *&quot;Dit is een uit-van-de-doos transactionele berichtmalplaatje. Als u het wilt wijzigen, moet u het dupliceren en aan uw exemplaar werken.&quot;*
 
@@ -102,4 +105,4 @@ Hieronder volgt een lijst met de berichten die kunnen worden weergegeven:
 
 * *&quot;Dit bericht is een sjabloon voor technische transactieberichten. U kunt deze niet wijzigen of publiceren.&quot;*
 
-   Deze waarschuwing wordt weergegeven in lege transactiemalplaatjes die niet bewerkbaar zijn. Zie [deze sectie](../../channels/using/about-transactional-messaging.md)voor meer informatie over transactieberichten.
+   Deze waarschuwing wordt weergegeven in lege transactiemalplaatjes die niet bewerkbaar zijn. For more on transactional messages, see [this section](../../channels/using/getting-started-with-transactional-msg.md).
