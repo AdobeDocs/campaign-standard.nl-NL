@@ -12,10 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 0%
+source-wordcount: '526'
+ht-degree: 17%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 <td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><p><a href="#global-concepts">Algemene concepten</a></p></td>
 <td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#available-communication-channels">Communicatiekanalen</a></p></td>
 <td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><p><a href="#transactional-messages">Transactieberichten</a></p></td>
-<td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Openingspagina's</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Landingspagina's</a></p></td></tr>
 </table>
 
 Met Adobe Campaign kunt u campagnes op elk kanaal starten, meten en automatiseren.
@@ -57,7 +57,7 @@ Meer informatie:
 
 Voor elk kanaal zijn specifieke functies beschikbaar. Met het e-mailkanaal kunt u bijvoorbeeld A/B-tests uitvoeren om maximaal drie versies van een e-mailbericht te testen. Met het SMS-kanaal beheert u SMS-berichten van STOP en slaat u inkomende SMS van de ontvangers op in uw database.
 
-Bovendien kunt u gebruikmaken van Campaign Standard- **personalisatie en dynamische inhoudmogelijkheden** om de interesse van uw publiek te wekken.
+Bovendien kunt u gebruikmaken van **personalisatie van Campaign Standard en dynamische inhoudmogelijkheden** om de interesse van uw publiek weer te geven.
 
 Meer informatie:
 
@@ -77,13 +77,14 @@ Transactieberichten zijn afhankelijk van uw opties beschikbaar voor de kanalen v
 
 Meer informatie:
 
-* [Informatie over transactieberichten](../../channels/using/about-transactional-messaging.md)
+* [Transactionele berichten](../../channels/using/getting-started-with-transactional-msg.md)
+* [Aan de slag met transactiemeldingen](../../channels/using/getting-started-with-transactional-msg.md)
 * [Transactieberichten voor gebeurtenissen](../../channels/using/event-transactional-messages.md)
-* [Transactieberichten profileren](../../channels/using/profile-transactional-messages.md)
+* [Transactionele berichten voor profielen](../../channels/using/profile-transactional-messages.md)
 * [Transactionele pushmeldingen](../../channels/using/transactional-push-notifications.md)
 * [Vervolgberichten](../../channels/using/follow-up-messages.md)
 
-## Openingspagina&#39;s {#landing-pages}
+## Landingspagina&#39;s {#landing-pages}
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
@@ -93,17 +94,17 @@ Landingspagina&#39;s kunnen ook worden gebruikt voor het **aanschaffen of bijwer
 
 Meer informatie:
 
-* [Aan de slag met bestemmingspagina&#39;s](../../channels/using/getting-started-with-landing-pages.md)
-* [Sjablonen voor bestemmingspagina](../../channels/using/landing-page-templates.md)
-* [Landingspaginaformuliergegevens beheren](../../channels/using/managing-landing-page-form-data.md)
-* [Een dubbele opt-in-procedure instellen](../../channels/using/setting-up-a-double-opt-in-process.md)
+* [Aan de slag met landingspagina&#39;s](../../channels/using/getting-started-with-landing-pages.md)
+* [Sjablonen voor landingspagina&#39;s](../../channels/using/landing-page-templates.md)
+* [Formulierdata voor landingspagina&#39;s beheren](../../channels/using/managing-landing-page-form-data.md)
+* [Een dubbele opt-inprocedure instellen](../../channels/using/setting-up-a-double-opt-in-process.md)
 
-## Aanvullende bronnen
+## Aanvullende resources
 
 * [Uw prestaties optimaliseren](../../sending/using/about-deliverability.md)
-* [Best practices voor levering](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [Best practices voor levering](https://helpx.adobe.com/nl/campaign/kb/delivery-best-practices.html)
 * [E-mailinhoud ontwerpen](../../designing/using/designing-content-in-adobe-campaign.md)
-* [AEM-inhoud importeren](../../integrating/using/creating-email-experience-manager.md)
+* [Een AEM-inhoud importeren](../../integrating/using/creating-email-experience-manager.md)
 * [Berichten verzenden met workflows](../../automating/using/about-channel-activities.md)
 * [Zelfstudievideo&#39;s over communicatiekanalen](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
 * [Hoofdlettergebruik: Een levering tussen kanalen maken](../../automating/using/workflow-cross-channel-delivery.md)
