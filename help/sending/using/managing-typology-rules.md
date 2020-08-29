@@ -51,7 +51,7 @@ De belangrijkste stappen om een typologieregel te maken:
 
    ![](assets/typology-rule-label.png)
 
-1. Geef het **[!UICONTROL Type]** van de typologieregel op en configureer deze op basis van uw behoeften. De configuratie van typologieregels is afhankelijk van het type regel. Zie de secties **[Filterregels](../../sending/using/filtering-rules.md)**en**[ Moeheidsregels](../../sending/using/fatigue-rules.md)** voor meer informatie.
+1. Geef het **[!UICONTROL Type]** van de typologieregel op en configureer deze op basis van uw behoeften. De configuratie van typologieregels is afhankelijk van het type regel. Zie de secties **[Filterregels](../../sending/using/filtering-rules.md)** en **[Moeheidsregels](../../sending/using/fatigue-rules.md)** voor meer informatie.
 
 1. Selecteer de typologieën waarin u de nieuwe regel wilt opnemen. U doet dit door het tabblad **[!UICONTROL Typologies]** te selecteren en vervolgens op de knop **[!UICONTROL Create element]** te klikken.
 
