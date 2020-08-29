@@ -150,7 +150,7 @@ Mobiele App-ontwikkelaars moeten de ondersteuning voor mediabestanden in de app 
 Voer de onderstaande stappen uit:
 
 * Configureer een postback voor het bijhouden van de push. Instructies vindt u [hier](../../administration/using/configuring-a-mobile-application.md).
-* TrackAction-API implementeren vanuit Mobile Core. Raadpleeg deze [pagina](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) voor meer informatie.
+* TrackAction-API implementeren vanuit Mobile Core. Refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) for more information.
 
 Meer gedetailleerde instructies vindt u op deze [pagina](../../administration/using/push-tracking.md).
 
