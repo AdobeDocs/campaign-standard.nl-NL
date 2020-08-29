@@ -67,7 +67,7 @@ Ontdek meer over de tools die Adobe Campaign biedt om u te helpen aan privacyver
 
 ## Aanvullende resources
 
-| Nuttige pagina&#39;s | Resources voor ontwikkelaars |
+| Nuttige pagina’s | Resources voor ontwikkelaars |
 |---|---|
 | [Release-opmerkingen](rn/using/release-notes.md) | [Experience Cloud-triggers](integrating/using/about-adobe-experience-cloud-triggers.md) |
 | [Configuratiescherm-documentatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/control-panel-home.html) | [Campaign-API&#39;s](api/using/get-started-apis.md) |
