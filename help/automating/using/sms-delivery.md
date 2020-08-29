@@ -1,6 +1,6 @@
 ---
-title: Levering via SMS
-description: De de leveringsactiviteit van SMS staat u toe om het verzenden van één enkel te vormen verzend SMS of terugkomende SMS in een werkschema.
+title: Sms-levering
+description: Met de activiteit Sms-levering kunt u het verzenden van één sms of een terugkerende sms in een workflow configureren.
 page-status-flag: never-activated
 uuid: 736078c6-ac91-4440-825b-4a6ae31894ef
 contentOwner: sauviat
@@ -16,12 +16,12 @@ translation-type: tm+mt
 source-git-commit: 16afc307df6902584624d6457954a472b11c5129
 workflow-type: tm+mt
 source-wordcount: '784'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Levering via SMS{#sms-delivery}
+# Sms-levering{#sms-delivery}
 
 ## Beschrijving {#description}
 
@@ -29,56 +29,56 @@ ht-degree: 0%
 
 ![](assets/recurrentsms.png)
 
-De **[!UICONTROL SMS delivery]** activiteit staat u toe om het verzenden van SMS in een werkschema te vormen. Dit kan **één enkel verzenden** SMS zijn en slechts één keer worden verzonden, of het kan een **terugkomende** SMS zijn.
+Met de activiteit **[!UICONTROL SMS delivery]** kunt u het verzenden van een sms in een workflow configureren. Dit kan **het eenmalig verzenden van één sms** zijn of het kan een **terugkerende sms** zijn.
 
-SMS-berichten voor één verzending zijn standaard-SMS-berichten die één keer worden verzonden.
+Sms-berichten voor eenmalige verzending zijn standaard sms-berichten die één keer worden verzonden.
 
-Het terugkeren van SMS berichten staat u toe om het zelfde SMS veelvoudige tijden naar verschillende doelstellingen over een bepaalde periode te verzenden. U kunt de leveringen per periode samenvoegen om rapporten te krijgen die aan uw behoeften beantwoorden.
+Met terugkerende sms-berichten kunt u dezelfde sms meerdere keren naar verschillende doelen verzenden over een bepaalde periode. U kunt de leveringen per periode samenvoegen om rapporten te krijgen die voldoen aan uw behoeften.
 
 ## Gebruikscontext {#context-of-use}
 
-De **[!UICONTROL SMS delivery]** activiteit wordt over het algemeen gebruikt om het verzenden van SMS naar een doel te automatiseren dat in de zelfde werkschema wordt berekend.
+De activiteit **[!UICONTROL SMS delivery]** wordt over het algemeen gebruikt voor de configuratie van het verzenden van een sms naar een doel dat in dezelfde workflow wordt berekend.
 
-Wanneer verbonden met een planner, kunt u terugkomende berichten van SMS bepalen.
+Wanneer dit verbonden is met een planner, kunt u terugkerende sms-berichten definiëren.
 
-De ontvangers van SMS worden bepaald stroomopwaarts van de activiteit in het zelfde werkschema, via het richten van activiteiten zoals vragen, snijpunten, enz.
+De sms-ontvangers worden stroomopwaarts van de activiteit in dezelfde workflow bepaald via targetingactiviteiten zoals query&#39;s, doorsneden, enzovoort.
 
-De voorbereiding van berichten wordt geactiveerd volgens de parameters voor workflowuitvoering. Van het berichtdashboard, kunt u selecteren of om een manuele bevestiging te verzoeken of niet om het bericht te verzenden (die door gebrek wordt vereist). U kunt de workflow handmatig starten of een planneractiviteit in de workflow plaatsen om de uitvoering te automatiseren.
+De voorbereiding van berichten wordt geactiveerd volgens de parameters voor workflowuitvoering. Op het berichtdashboard kunt u kiezen of u al dan niet handmatig wilt bevestigen of u het bericht wilt versturen (standaard vereist). U kunt de workflow handmatig starten of een planneractiviteit in de workflow plaatsen om de uitvoering te automatiseren.
 
 ## Configuratie {#configuration}
 
-1. Sleep een **[!UICONTROL SMS delivery]** activiteit naar uw werkstroom.
-1. Selecteer de activiteit, dan open het gebruikend de ![](assets/edit_darkgrey-24px.png) knoop van de snelle acties die verschijnen.
+1. Sleep een activiteit **[!UICONTROL SMS delivery]** en zet deze neer in uw workflow.
+1. Selecteer de activiteit en open deze met de knop ![](assets/edit_darkgrey-24px.png) vanuit de snelle acties die verschijnen.
 
    >[!NOTE]
    >
-   >U kunt de algemene eigenschappen en geavanceerde opties van de activiteit (en niet van de levering zelf) via de ![](assets/dlv_activity_params-24px.png) knoop in de de actiebar van het werkschema toegang hebben. Deze knop is specifiek voor de **[!UICONTROL SMS delivery]** activiteit. De eigenschappen van SMS kunnen via de actiebar in het dashboard van SMS worden betreden.
+   >U kunt de algemene eigenschappen en geavanceerde opties van de activiteit (en niet van de levering zelf) openen via de knop ![](assets/dlv_activity_params-24px.png) in de actiebalk van de workflow. Deze knop is specifiek voor de activiteit **[!UICONTROL SMS delivery]**. De sms-eigenschappen kunnen via de actiebalk in het sms-dashboard worden geopend.
 
-1. Selecteer de verzendmodus voor SMS:
+1. Selecteer de sms-verzendmodus:
 
-   * **[!UICONTROL SMS]**: het SMS één keer wordt verzonden. U kunt hier specificeren of u al dan niet een uitgaande overgang aan de activiteit wilt toevoegen. De verschillende overgangstypen worden beschreven in stap 7 van deze procedure.
-   * **[!UICONTROL Recurring SMS]**: het SMS verscheidene keren wordt verzonden, volgens de frequentie die in een **[!UICONTROL Scheduler]** activiteit wordt bepaald. Selecteer de samenvoegingsperiode van de verzendingen. Dit staat u toe om al te groeperen verzendt die tijdens de bepaalde periode in één enkele mening voorkomen die ook **Terugkerende uitvoering** wordt genoemd en van de marketing van de toepassing activiteitenlijst kan worden betreden.
+   * **[!UICONTROL SMS]**: De sms wordt één keer verzonden. U kunt hier opgeven of u al dan niet een uitgaande overgang aan de activiteit wilt toevoegen. De verschillende overgangstypen worden beschreven in stap 7 van deze procedure.
+   * **[!UICONTROL Recurring SMS]**: De sms wordt verscheidene keren verzonden, volgens de frequentie die in een activiteit **[!UICONTROL Scheduler]** is bepaald. Selecteer de aggregatieperiode van de verzendingen. Zo kunt u alle verzendingen die tijdens de gedefinieerde periode plaatsvinden, hergroeperen in één enkele weergave die ook wel **Periodieke uitvoering** wordt genoemd en via de lijst met marketingactiviteiten van de applicatie kan worden geopend.
 
-      Bijvoorbeeld, voor een terugkerende verjaardag SMS, dat dagelijks wordt verzonden, kunt u verkiezen om verzendt per maand samen te voegen. Op deze manier kunt u maandelijks rapporten over uw levering ontvangen, hoewel het SMS elke dag wordt verzonden.
+      Voor een terugkerende verjaardags-sms die dagelijks wordt verzonden, kunt u er bijvoorbeeld voor kiezen om de verzendingen per maand samen te voegen. Op deze manier ontvangt u maandelijks rapporten over uw levering, hoewel de sms elke dag wordt verzonden.
 
-1. Selecteer een type SMS. De typen SMS zijn afkomstig van SMS-sjablonen die zijn gedefinieerd in het menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** .
-1. Voer de algemene eigenschappen van het SMS in. U kunt het aan een bestaande campagne ook vastmaken. Het label van de leveringsactiviteit van de workflow wordt bijgewerkt met het SMS-label.
-1. Definieer de inhoud van SMS. Raadpleeg de sectie over het [maken van een SMS-bericht](../../channels/using/creating-an-sms-message.md).
-1. Standaard bevat de **[!UICONTROL SMS delivery]** activiteit geen uitgaande overgangen. Als u een uitgaande overgang aan uw **[!UICONTROL SMS delivery]** activiteit wilt toevoegen, ga naar het **[!UICONTROL General]** lusje van de geavanceerde activiteitenopties ( ![](assets/dlv_activity_params-24px.png) knoop in de snelle acties van de activiteit) dan controleren één van de volgende opties:
+1. Selecteer een sms-type. De sms-typen zijn afkomstig van sms-sjablonen die zijn gedefinieerd in het menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
+1. Voer de algemene eigenschappen van de sms in. U kunt deze ook aan een bestaande campagne koppelen. Het label van de leveringsactiviteit van de workflow wordt bijgewerkt met het sms-label.
+1. Definieer de content van de sms. Raadpleeg de sectie over het [maken van een sms-bericht](../../channels/using/creating-an-sms-message.md).
+1. Standaard bevat de activiteit **[!UICONTROL SMS delivery]** geen uitgaande overgangen. Als u een uitgaande overgang wilt toevoegen aan uw activiteit **[!UICONTROL SMS delivery]**, ga dan naar het tabblad **[!UICONTROL General]** van de geavanceerde opties voor activiteiten (de knop ![](assets/dlv_activity_params-24px.png) in de snelle acties van de activiteit) en vink een van de volgende opties aan:
 
-   * **[!UICONTROL Add outbound transition without the population]**: dit laat u een uitgaande overgang produceren die de nauwkeurige zelfde bevolking zoals de binnenkomende overgang bevat.
-   * **[!UICONTROL Add outbound transition with the population]**: dit laat u een uitgaande overgang produceren die de bevolking bevat aan wie SMS werd verzonden. De leden van de doelgroep die tijdens de voorbereiding van de levering werden uitgesloten (quarantaine, ongeldig aantal, enz.) zijn uitgesloten van deze overgang.
+   * **[!UICONTROL Add outbound transition without the population]**: Hiermee kunt u een uitgaande overgang genereren die exact dezelfde populatie als de binnenkomende overgang bevat.
+   * **[!UICONTROL Add outbound transition with the population]**: Hiermee kunt u een uitgaande overgang genereren die de populatie bevat aan wie de sms is verzonden. De leden van de doelgroep die tijdens de voorbereiding van de levering werden uitgesloten (quarantaine, ongeldig nummer, enzovoort) zijn uitgesloten van deze overgang.
 
-1. Bevestig de configuratie van uw activiteit en sla uw werkschema op.
+1. Bevestig de configuratie van uw activiteit en sla de workflow op.
 
-Wanneer u de activiteit opnieuw opent, wordt u genomen rechtstreeks aan het dashboard van SMS. Alleen de inhoud kan worden bewerkt.
+Wanneer u de activiteit opnieuw opent, wordt u rechtstreeks naar het sms-dashboard geleid. Alleen de content kan worden bewerkt.
 
-Door gebrek, leidt het beginnen van een leveringswerkschema slechts tot de berichtvoorbereiding. Het verzenden van berichten die op basis van een workflow zijn gemaakt, moet nog worden bevestigd nadat de workflow is gestart. Maar van het berichtdashboard, en slechts als het bericht van een werkschema werd gecreeerd, kunt u de **[!UICONTROL Request confirmation before sending messages]** optie onbruikbaar maken. Als u deze optie uitschakelt, worden berichten zonder verdere kennisgeving verzonden zodra de voorbereiding is voltooid.
+Standaard wordt bij het starten van een leveringsworkflow alleen de berichtvoorbereiding geactiveerd. Het verzenden van berichten die op basis van een workflow zijn gemaakt, moet nog worden bevestigd nadat de workflow is gestart. U kunt echter vanaf het berichtdashboard de optie **[!UICONTROL Request confirmation before sending messages]** uitschakelen, maar alleen als het bericht vanuit een workflow is gemaakt. Als u deze optie uitschakelt, worden berichten zonder verdere kennisgeving verzonden zodra de voorbereiding is voltooid.
 
 ## Opmerkingen {#remarks}
 
-De leveringen die in een workflow worden gemaakt, zijn toegankelijk in de lijst met marketingactiviteiten van de toepassing. U kunt de uitvoeringsstatus van de workflow weergeven via het dashboard. Met de koppelingen in het overzichtsvenster van SMS hebt u rechtstreeks toegang tot gekoppelde elementen (workflow, campagne, bovenliggende levering in het geval van een terugkerend SMS).
+De leveringen die in een workflow zijn gemaakt, zijn toegankelijk in de lijst met marketingactiviteiten van de applicatie. U kunt de uitvoeringsstatus van de workflow bekijken via het dashboard. Met de koppelingen in het sms-overzichtsvenster hebt u rechtstreeks toegang tot gekoppelde elementen (workflow, campagne, bovenliggende levering in het geval van een terugkerende sms).
 
-De uitvoeringen van terugkerende leveringen worden echter standaard gemaskeerd. U kunt deze weergeven door de **[!UICONTROL Show recurring executions]** optie in het zoekvenster voor marketingactiviteiten te selecteren.
+De uitvoeringen van terugkerende leveringen worden echter standaard gemaskeerd. U kunt deze weergeven door de optie **[!UICONTROL Show recurring executions]** in het zoekvenster voor marketingactiviteiten te selecteren.
 
-In de ouderleveranties, die van de marketing activiteitenlijst of direct via de bijbehorende terugkomende uitvoeringen kunnen worden betreden, kunt u het totale aantal verzenden bekijken die zijn verwerkt (volgens de samenvoegingsperiode die wordt gespecificeerd toen de **[!UICONTROL SMS delivery]** activiteit werd gevormd). U doet dit door de detailweergave van het **[!UICONTROL Deployment]** blok van de bovenliggende levering te openen door ![](assets/wkf_dlv_detail_button.png)te selecteren.
+In de bovenliggende leveringen, die toegankelijk zijn via de lijst met marketingactiviteiten of rechtstreeks via de bijbehorende periodieke uitvoeringen, kunt u het totale aantal verzendingen bekijken die zijn verwerkt (volgens de aggregatieperiode die is opgegeven toen de activiteit **[!UICONTROL SMS delivery]** werd geconfigureerd). U doet dit door de detailweergave van het blok **[!UICONTROL Deployment]** van de bovenliggende levering te openen door ![](assets/wkf_dlv_detail_button.png) te selecteren.
