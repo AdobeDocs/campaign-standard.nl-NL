@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
 workflow-type: tm+mt
 source-wordcount: '1160'
-ht-degree: 88%
+ht-degree: 90%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 88%
 
 [Releaseplanning](../../rn/using/release-planning.md) | [Releases van het Configuratiescherm](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html) | [Updates van documentatie](../../rn/using/documentation-updates.md) | [Opmerkingen bij eerdere releases](../../rn/using/release-notes-2020.md) | [Verouderde functies](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **Nieuwe release** van het Configuratiescherm in juni met controle van actieve profielen, controle van de leverbaarheid van subdomeinen en beheer van GPG-sleutels. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Release van nieuw configuratiescherm in juni** met controle van actieve profielen, controle van de leverbaarheid van subdomeinen en beheer van GPG-sleutels. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html).
 
 ## Release 20.3 - Mei 2020 {#release-20-3---may-2020}
 
@@ -74,7 +74,7 @@ ht-degree: 88%
 **Aanvullende capaciteiten** (vanaf 13 juli)
 
 * **Dankzij de AI-technologie kunt u tijd optimaliseren en profielen scoren** . U kunt nu het ontwerp en de levering van klantritten optimaliseren om de voorkeur van elk individu voor de service te voorspellen. Adobe Campaign wordt aangedreven door Journey AI en kan de open tarieven, optimale verzendtijden en waarschijnlijke kosten analyseren en voorspellen op basis van historische betrokkenheidsmaatstaven. [Meer informatie](../../sending/using/predictive.md)
-* **De nieuwe privacyverordening** van Brazilië - Naast de privacy-mogelijkheden die al beschikbaar zijn in Campaign, helpt Adobe u uw bereidheid voor de Lei Geral de Proteçao de Datos (LGPD) van Brazilië te vergemakkelijken. Bij het maken van een privacyverzoek is de LGPD-verordening toegevoegd aan de Adobe Privacy Core Service. [Meer informatie](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html)
+* **De nieuwe privacyverordening** van Brazilië - Naast de privacy-mogelijkheden die al beschikbaar zijn in Campaign, helpt Adobe u uw bereidheid voor de Lei Geral de Proteçao de Datos (LGPD) van Brazilië te vergemakkelijken. Bij het maken van een privacyverzoek is de LGPD-verordening toegevoegd aan de Adobe Privacy Core Service. [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy-overview.html)
 
 **Verbeteringen**
 
