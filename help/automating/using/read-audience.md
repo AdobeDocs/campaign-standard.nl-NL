@@ -13,10 +13,10 @@ context-tags: readAudience,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 92%
+source-wordcount: '206'
+ht-degree: 87%
 
 ---
 
@@ -46,7 +46,7 @@ De activiteit **[!UICONTROL Read audience]** is een vereenvoudigde versie van de
 
    U kunt doelgroepen van de volgende typen ophalen: **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]** en **[!UICONTROL Experience Cloud]**. Raadpleeg de documentatie bij [Doelgroepen](../../audiences/using/about-audiences.md) voor meer informatie over typen doelgroepen.
 
-   Met de optie **[!UICONTROL Use a dynamic audience]** kunt u de naam van de doelgroep definiëren die u doelgericht wilt benaderen op basis van de gebeurtenisvariabelen van de workflow. Raadpleeg de sectie [Activiteiten aanpassen met gebeurtenisvariabelen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) voor meer informatie.
+   Met de optie **[!UICONTROL Use a dynamic audience]** kunt u de naam van de doelgroep definiëren die u doelgericht wilt benaderen op basis van de gebeurtenisvariabelen van de workflow. For more on this, refer to this section: [](../../automating/using/customizing-workflow-external-parameters.md) section.
 
    ![](assets/readaudience_activity1.png)
 
