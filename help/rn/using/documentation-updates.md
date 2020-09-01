@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b588366b0697d9cf7aea77b7c9c8ec876b9e0579
+source-git-commit: cbc9114b1179fe6fc0f87a9b9b55397ef60d3cb9
 workflow-type: tm+mt
-source-wordcount: '6119'
-ht-degree: 95%
+source-wordcount: '6144'
+ht-degree: 94%
 
 ---
 
@@ -24,11 +24,17 @@ ht-degree: 95%
 
 Naast de [releaseopmerkingen](../../rn/using/release-notes.md) bij Adobe Campaign worden op deze pagina alle nieuwe updates in de documentatie van Adobe Campaign Standard weergegeven.
 
+## Documentatie-updates - september 2020 {#doc-updates-september-2020}
+
+Het gedeelte Transactieberichten voor gebeurtenissen is opnieuw ingedeeld en verduidelijkt. [Meer informatie](../../channels/using/event-transactional-messages.md)
+
 ## Documentatie-updates - augustus 2020 {#doc-updates-august-2020}
 
 Er is een nieuwe bijgewerkte sectie beschikbaar om aan de slag te gaan met het transactiebericht. [Meer informatie](../../channels/using/getting-started-with-transactional-msg.md)
 
 De sectie Transactionele berichtenbeperkingen is verplaatst. [Meer informatie](../../channels/using/transactional-messaging-limitations.md)
+
+De sectie Verzenden voorbereiden is verplaatst. [Meer informatie](../../sending/using/preparing-the-send.md)
 
 ## Documentatie-updates - juli 2020 {#doc-updates-july-2020}
 
