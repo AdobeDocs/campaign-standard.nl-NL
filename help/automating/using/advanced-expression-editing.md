@@ -12,11 +12,11 @@ discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
 context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '1091'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ Als u een expressie bewerkt, moet u handmatig voorwaarden invoeren om een regel 
 
 In deze modus kunt u geavanceerde functies gebruiken. Met deze functies kunt u de waarden bewerken die worden gebruikt voor het uitvoeren van specifieke query&#39;s, zoals het bewerken van datums, tekenreeksen, numerieke velden, sorteren, enzovoort.
 
-Het is ook mogelijk om gebeurtenisvariabelen te gebruiken bij het bewerken van een expressie. Raadpleeg de sectie [Activiteiten aanpassen met gebeurtenisvariabelen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) voor meer informatie.
+Het is ook mogelijk gebeurtenisvariabelen van workflows te gebruiken wanneer het uitgeven van uitdrukking. Raadpleeg de sectie [Activiteiten aanpassen met gebeurtenisvariabelen](../../automating/using/customizing-workflow-external-parameters.md) voor meer informatie.
 
 U kunt expressies bewerken om:
 
@@ -51,13 +51,14 @@ U kunt expressies bewerken in het venster Audience tijdens het maken van een e-m
    * Een invoerveld waarin de expressie wordt gedefinieerd.
    * De lijst met beschikbare velden die in de expressie kunnen worden gebruikt en overeenkomen met de doeldimensie van de query (zie [Doeldimensies en resources](../../automating/using/query.md#targeting-dimensions-and-resources)).
    * De lijst met beschikbare functies, gesorteerd op categorie.
+
    ![](assets/expression_editor_1.png)
 
 1. Bewerk de expressie door een expressie rechtstreeks in het desbetreffende veld in te voeren of door de lijsten met beschikbare velden en functies te gebruiken.
 
    Als u dubbelklikt op een veld of expressie, wordt dit toegevoegd aan de expressie waarin de cursor is geplaatst.
 
-   Het is mogelijk om gebeurtenisvariabelen van workflows te gebruiken om een expressie samen te stellen. Raadpleeg de sectie [Activiteiten aanpassen met gebeurtenisvariabelen](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) voor meer informatie.
+   Het is mogelijk om gebeurtenisvariabelen van workflows te gebruiken om een expressie samen te stellen. Raadpleeg de sectie [Activiteiten aanpassen met gebeurtenisvariabelen](../../automating/using/customizing-workflow-external-parameters.md) voor meer informatie.
 
 1. Geef uw regel indien nodig een specifieke naam. De ingevoerde naam wordt als regelnaam weergegeven in de werkruimte van de query-editor.
 
@@ -79,6 +80,7 @@ De standaardexpressies bestaan uit een of meer voorwaarden die voldoen aan de vo
    * **&lt;value1>** een veld of een functie is. Bijvoorbeeld **@created** voor de datum waarop een profiel is gemaakt of **Year(@created)** voor het jaar waarin een profiel is gemaakt.
    * **&lt;comparison operator>** een van de operatoren is die worden vermeld in de sectie [Vergelijkingsoperatoren](../../automating/using/advanced-expression-editing.md#comparison-operators). Deze operator definieert de vergelijkingsmethode tussen **&lt;value1>** en **&lt;value2>**.
    * **&lt;value2>** een veld, een functie of een waarde is die handmatig wordt ingevoerd.
+
    >[!NOTE]
    >
    >De typegegevens voor **&lt;value1>** en **&lt;value2>** moeten identiek zijn. Als **&lt;value1>** bijvoorbeeld een datum is, moet **&lt;value2>** ook een datum zijn.
@@ -107,6 +109,7 @@ JavaScript-expressies bestaan uit een of meer voorwaarden en gebruiken de volgen
    * **&lt;context>** een veld of functie is waarmee u de context kunt opgeven. Bijvoorbeeld **context.profile.@email** voor het e-mailadres van een profiel of **context.profile.firstName.length()** voor het aantal tekens in de voornaam van een profiel.
    * **&lt;comparison operator>** een van de operatoren is die worden vermeld in de sectie [Vergelijkingsoperatoren](../../automating/using/advanced-expression-editing.md#comparison-operators). Deze operator definieert de vergelijkingsmethode tussen **&lt;context>** en **&lt;value2>**.
    * **&lt;value2>** een veld, een functie of een waarde is die handmatig wordt ingevoerd.
+
    >[!NOTE]
    De typegegevens voor **&lt;context>** en **&lt;value2>** moeten identiek zijn. Als **&lt;context>** bijvoorbeeld een datum is, moet **&lt;value2>** ook een datum zijn.
 
