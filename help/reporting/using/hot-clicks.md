@@ -13,9 +13,9 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 694fd5802578001ba80b35f0983a068a0a630dd0
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Een uitvoering is een niet-activeerbaar en niet-functioneel technisch bericht da
 
 * Door gebrek eens per maand voor transactionele berichten, en telkens als een transactiebericht wordt uitgegeven en opnieuw gepubliceerd.
 
-   Voor meer op transactionele berichten, zie [Ongeveer transactioneel overseinen](../../channels/using/getting-started-with-transactional-msg.md).
+   Voor meer op transactionele berichten, zie [Begonnen het worden met transactioneel overseinen](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
