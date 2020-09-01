@@ -11,11 +11,11 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
-workflow-type: ht
-source-wordcount: '1046'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '1039'
+ht-degree: 98%
 
 ---
 
@@ -109,7 +109,7 @@ Raadpleeg de [activiteit Planner](../../automating/using/scheduler.md) voor meer
 
 ## Een workflow met parameters aanroepen{#workflow-with-parameters}
 
-Zorg ervoor dat de naam en het aantal parameters identiek zijn aan wat is gedefinieerd bij het aanroepen van de workflow (zie [De parameters definiëren bij het aanroepen van de workflow](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)). De parametertypen moeten ook consistent zijn met de waarden die worden verwacht.
+Zorg ervoor dat de naam en het aantal parameters identiek zijn aan wat wordt bepaald wanneer het roepen van het werkschema (zie [](../../automating/using/defining-parameters-calling-workflow.md). De parametertypen moeten ook consistent zijn met de waarden die worden verwacht.
 
 Zorg ervoor dat alle parameters zijn gedeclareerd in de **[!UICONTROL External signal activity]**. Anders treedt er een fout op wanneer de activiteit wordt uitgevoerd.
 
