@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Help bij Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 7a647878a711777dffd83a8f8dccacf9d9238ba6
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
-source-wordcount: '1569'
-ht-degree: 88%
+source-wordcount: '1596'
+ht-degree: 86%
 
 ---
 
@@ -251,7 +251,12 @@ ht-degree: 88%
       + [Workflowuitvoering opvolgen](automating/using/monitoring-workflow-execution.md)
       + [Uitvoeringsopties beheren](automating/using/managing-execution-options.md)
       + [Eigenschappen van activiteiten beheren](automating/using/activity-properties.md)
-   + [Een workflow aanroepen met externe parameters](automating/using/calling-a-workflow-with-external-parameters.md)
+   + Een workflow aanroepen met externe parameters {#calling-workflow-external-parameters}
+      + [De parameters in de externe signaalactiviteit declareren](automating/using/declaring-parameters-external-signal.md)
+      + [Parameters definiëren wanneer de workflow wordt aangeroepen](automating/using/defining-parameters-calling-workflow.md)
+      + [Gebeurtenisvariabelen controleren](automating/using/monitoring-events-variables.md)
+      + [De workflow aanpassen met externe parameters](automating/using/customizing-workflow-external-parameters.md)
+      + [Gebruiksscenario](automating/using/use-case-calling-workflow.md)
    + Targetingactiviteiten {#targeting-activities}
       + [Targetingactiviteiten](automating/using/about-targeting-activities.md)
       + [Query](automating/using/query.md)
