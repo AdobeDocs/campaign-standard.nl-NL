@@ -4,9 +4,9 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Help bij Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
+source-git-commit: 99e0189e8cfe97eb328e9eb69dbcf3a9772c7792
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1597'
 ht-degree: 86%
 
 ---
@@ -252,6 +252,7 @@ ht-degree: 86%
       + [Uitvoeringsopties beheren](automating/using/managing-execution-options.md)
       + [Eigenschappen van activiteiten beheren](automating/using/activity-properties.md)
    + Een workflow aanroepen met externe parameters {#calling-workflow-external-parameters}
+      + [Overzicht](automating/using/calling-a-workflow-with-external-paraleters.md)
       + [De parameters in de externe signaalactiviteit declareren](automating/using/declaring-parameters-external-signal.md)
       + [Parameters definiëren wanneer de workflow wordt aangeroepen](automating/using/defining-parameters-calling-workflow.md)
       + [Gebeurtenisvariabelen controleren](automating/using/monitoring-events-variables.md)
