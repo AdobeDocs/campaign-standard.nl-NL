@@ -13,10 +13,10 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fe9b2156a80f973045a2a7860dac4ac3a1d899e7
+source-git-commit: e8f8755acdc0b778b74e2bfcd4dc898ceff82b90
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 100%
+source-wordcount: '2492'
+ht-degree: 93%
 
 ---
 
@@ -29,58 +29,26 @@ Nadat u een gebeurtenis hebt gemaakt en gepubliceerd (het achterlaten van een wi
 
 De configuratiestappen worden getoond in de sectie [Een gebeurtenis configureren voor het verzenden van een transactiebericht](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
 
-Om ervoor te zorgen dat de gebeurtenis het verzenden van een transactioneel bericht activeert, moet u het bericht personaliseren en het vervolgens testen en publiceren.
-
 >[!NOTE]
->
->Om toegang te hebben tot transactionele berichten moet u deel uitmaken van de beveiligingsgroep **[!UICONTROL Administrators (all units)]**.
 >
 >Transactieberichten voor gebeurtenissen bevatten geen profielinformatie en zijn daarom niet compatibel met moeheidsregels (zelfs niet in geval van een verrijking met profielen). Zie [Moeheidsregels](../../sending/using/fatigue-rules.md#choosing-the-channel).
 
-## Een testprofiel definiëren in een transactiebericht {#defining-a-test-profile-in-a-transactional-message}
+Om ervoor te zorgen dat de gebeurtenis het verzenden van een transactioneel bericht activeert, moet u het bericht personaliseren en het vervolgens testen en publiceren.
 
-Definieer een aangepast testprofiel, zodat u een voorbeeld van uw bericht kunt bekijken en een proef kunt verzenden om het te controleren.
+## Toegang tot transactieberichten {#accessing-transactional-messages}
 
-### Een testprofiel maken in het transactiebericht {#creating-a-test-profile-within-the-transactional-----------message}
+Om tot het transactiebericht toegang te hebben dat u creeerde:
 
-1. Als u een door u gemaakt bericht wilt openen, klikt u op het logo **[!UICONTROL Adobe Campaign]** in de linkerbovenhoek en selecteert u **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner.
+1. Selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_4.png)
 
-1. Maak een testprofiel dat aan uw gebeurtenis wordt gekoppeld.
+1. Klik op het bericht van uw keuze om het te bewerken.
 
-   ![](assets/message-center_test-profile.png)
-
-1. Geef de informatie die u wilt verzenden op in de JSON-indeling in de sectie **[!UICONTROL Event data used for personalization]**. Dit is de content die wordt gebruikt wanneer een voorbeeld van het bericht wordt weergegeven en wanneer het testprofiel de proef ontvangt.
-
-   ![](assets/message-center_event-data.png)
-
-   >[!NOTE]
-   >
-   >U kunt ook de informatie over de profieltabel invoeren. Zie [De content van het transactiebericht verrijken](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
-
-1. Het testprofiel wordt na het maken vooraf gespecificeerd in het transactiebericht. Klik op het blok **[!UICONTROL Test profiles]** van het bericht om het doel van de proef te controleren.
-
-   ![](assets/message-center_5.png)
-
-### Een testprofiel maken buiten het transactiebericht {#creating-a-test-profile-outside-the-transactional-----------message}
-
-U kunt ook een nieuw testprofiel maken of een profiel gebruiken dat al in het menu **[!UICONTROL Test profiles]** staat.
-
-1. Klik in de linkerbovenhoek op het logo **[!UICONTROL Adobe Campaign]** en selecteer **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
-1. Selecteer de zojuist door u gemaakte gebeurtenis in de sectie **[!UICONTROL Event]** van de pagina van het door u gekozen testprofiel. In dit voorbeeld selecteert u Cart abandonment (EVTcartAbandonment).
-1. Geef in het tekstvak **[!UICONTROL Event data]** de informatie op die u in de JSON-indeling wilt verzenden.
-
-   ![](assets/message-center_3.png)
-
-1. Sla uw wijzigingen op.
-
-U kunt nu het door u gemaakte bericht openen en het bijgewerkte testprofiel selecteren.
-
-**Verwante onderwerpen:**
-
-* [Testprofielen beheren](../../audiences/using/managing-test-profiles.md)
-* [Soorten publiek definiëren](../../audiences/using/creating-audiences.md)
+>[!IMPORTANT]
+>
+>Om toegang te hebben tot transactionele berichten moet u deel uitmaken van de beveiligingsgroep **[!UICONTROL Administrators (all units)]**.
 
 ## Een transactiebericht aanpassen {#personalizing-a-transactional-message}
 
@@ -240,7 +208,47 @@ Zie [Dataverzamelingen definiëren](../../administration/using/configuring-trans
 
 ## Een transactiebericht testen {#testing-a-transactional-message}
 
-Nadat u het transactiebericht hebt opgeslagen, kunt u een proef verzenden om het te testen.
+Eerst moet u een specifiek testprofiel maken waarmee u het transactiemelding correct kunt controleren.
+
+### Een specifiek testprofiel definiëren {#defining-specific-test-profile}
+
+Definieer een testprofiel dat aan uw gebeurtenis wordt gekoppeld. Hiermee kunt u een voorbeeld van uw bericht bekijken en een relevante proefdruk verzenden.
+
+1. From the transactional message dashboard, click the **[!UICONTROL Create test profile]** button.
+
+   ![](assets/message-center_test-profile.png)
+
+1. Geef de informatie die u wilt verzenden op in de JSON-indeling in de sectie **[!UICONTROL Event data used for personalization]**. Dit is de content die wordt gebruikt wanneer een voorbeeld van het bericht wordt weergegeven en wanneer het testprofiel de proef ontvangt.
+
+   ![](assets/message-center_event-data.png)
+
+   >[!NOTE]
+   >
+   >U kunt ook de informatie over de profieltabel invoeren. Zie [De content van het transactiebericht verrijken](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
+
+1. Zodra gecreeerd, zal het testprofiel vooraf gespecificeerd in het transactiebericht zijn. Klik op het blok **[!UICONTROL Test profiles]** van het bericht om het doel van de proef te controleren.
+
+   ![](assets/message-center_5.png)
+
+U kunt ook een nieuw testprofiel maken of een profiel gebruiken dat al in het menu **[!UICONTROL Test profiles]** staat. Dit doet u als volgt:
+
+1. Klik in de linkerbovenhoek op het logo **[!UICONTROL Adobe Campaign]** en selecteer **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. Selecteer in de **[!UICONTROL Event]** sectie de gebeurtenis die u zojuist hebt gemaakt. In dit voorbeeld selecteert u Cart abandonment (EVTcartAbandonment).
+1. Geef in het tekstvak **[!UICONTROL Event data]** de informatie op die u in de JSON-indeling wilt verzenden.
+
+   ![](assets/message-center_3.png)
+
+1. Sla uw wijzigingen op.
+1. Open het bericht dat u hebt gemaakt en selecteer het bijgewerkte testprofiel.
+
+**Verwante onderwerpen:**
+
+* [Testprofielen beheren](../../audiences/using/managing-test-profiles.md)
+* [Soorten publiek definiëren](../../audiences/using/creating-audiences.md)
+
+### De proefdruk verzenden {#sending-proof}
+
+Nadat u een of meer specifieke testprofielen hebt gemaakt en uw transactiebericht hebt opgeslagen, kunt u een proefdruk verzenden om dit te testen.
 
 ![](assets/message-center_10.png)
 
@@ -258,7 +266,7 @@ Klik op de knop **[!UICONTROL Reports]** voor toegang tot rapporten over uw tran
 
 ![](assets/message-center_13.png)
 
-## Opschorting van de publicatie van een transactiebericht {#suspending-a-transactional-message-publication}
+### Opschorting van de publicatie van een transactiebericht {#suspending-a-transactional-message-publication}
 
 U kunt het publiceren van uw transactiebericht opschorten met behulp van de knop **[!UICONTROL Pause]**, bijvoorbeeld als u de data in het bericht wilt wijzigen. De gebeurtenissen worden daarom niet meer verwerkt, maar in plaats daarvan in een wachtrij in de Adobe Campaign-database opgeslagen.
 
@@ -268,7 +276,7 @@ De gebeurtenissen in de wachtrij worden bewaard gedurende een periode die is ged
 
 Na het klikken op **[!UICONTROL Resume]** worden alle gebeurtenissen in de wachtrij verwerkt (op voorwaarde dat deze niet verlopen zijn). Zij bevatten nu alle wijzigingen die zijn uitgevoerd terwijl de publicatie van de sjabloon was opgeschort.
 
-## Het publiceren van een transactiebericht opheffen {#unpublishing-a-transactional-message}
+### Het publiceren van een transactiebericht opheffen {#unpublishing-a-transactional-message}
 
 Door op **[!UICONTROL Unpublish]** te klikken, kunt de publicatie van transactionele berichten en de publicatie van de overeenkomstige gebeurtenis annuleren, waardoor de resource overeenkomend aan de eerder aangemaakte gebeurtenis uit de REST API wordt verwijderd.
 
@@ -286,7 +294,7 @@ De stappen voor het pauzeren van een bericht worden uitgebreid beschreven in de 
 
 De workflow **[!UICONTROL Database cleanup]**, die elke dag om 4.00 uur wordt uitgevoerd, is toegankelijk via **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**.
 
-## Transactiebericht verwijderen {#deleting-a-transactional-message}
+### Transactiebericht verwijderen {#deleting-a-transactional-message}
 
 Als de publicatie van een transactiebericht ongedaan is gemaakt, of als een transactiebericht nog niet is gepubliceerd, kunt u het transactiebericht uit de lijst met transactieberichten verwijderen. Dit doet u als volgt:
 
@@ -333,9 +341,9 @@ Zodra de gebeurtenis aan een uitvoeringslevering is toegewezen, kan het transact
 
 >[!NOTE]
 >
->Pas wanneer een gebeurtenis aan een uitvoeringslevering wordt toegewezen, verschijnt het in de verzendingslogboeken van deze uitvoeringslevering. De mislukte leveringen worden weergegeven op het tabblad **[!UICONTROL Execution list]** van het transactiebericht.
+>Pas wanneer een gebeurtenis aan een uitvoeringslevering wordt toegewezen, verschijnt het in de verzendingslogboeken van deze uitvoeringslevering. The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message sending logs.
 
-### Beperkingen {#limitations}
+### Procesbeperkingen opnieuw proberen {#limitations}
 
 **Verzendingslogboeken bijwerken**
 
