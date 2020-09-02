@@ -12,10 +12,10 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: 5da41379d718d78d7990fd2d767ec21216487b0d
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 1%
+source-wordcount: '182'
+ht-degree: 2%
 
 ---
 
@@ -29,8 +29,7 @@ Neem het volgende voorbeeld, waar wij e-mails rechtstreeks van CMS willen verzen
 Het proces om een werkschema met parameters te roepen is het volgende:
 
 1. Declareer de parameters in de **[!UICONTROL External signal]** activiteit. Zie de parameters [declareren in de externe signaalactiviteit](../../automating/using/declaring-parameters-external-signal.md).
-1. Configureer de **[!UICONTROL End]** activiteit of de API-aanroep om de parameters te definiëren en de **[!UICONTROL External signal]** workflowactiviteit te activeren.
-
-Nadat de workflow is geactiveerd, worden de parameters opgenomen in de gebeurtenisvariabelen van de workflow en kunnen deze binnen de workflow worden gebruikt. Zie [](../../automating/using/customizing-workflow-external-parameters.md).
+1. Configureer de **[!UICONTROL End]** activiteit of de API-aanroep om de parameters te definiëren en de **[!UICONTROL External signal]** workflowactiviteit te activeren. Zie [](../../automating/using/defining-parameters-calling-workflow.md)
+1. Nadat de workflow is geactiveerd, worden de parameters opgenomen in de gebeurtenisvariabelen van de workflow en kunnen deze binnen de workflow worden gebruikt. Zie [](../../automating/using/customizing-workflow-external-parameters.md).
 
 ![](assets/extsignal_process.png)
