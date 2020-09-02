@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 429142610b969f3bd1460a8ba401c7e83acb7dea
+source-git-commit: 07adae5bac947df794520e48361fd3c20eba5ff8
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 30%
@@ -28,7 +28,12 @@ ht-degree: 30%
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-Het transactieoverseinen laat u toe om individuele en unieke berichten <b>naar uw klanten in real time te</b> verzenden. Dit kunnen welkomstberichten, bestellingen voor het verzenden van bestellingen, wachtwoordwijzigingen, enzovoort zijn.
+<table>
+<tr>
+<td ><br><p>Het transactieoverseinen laat u toe om individuele en unieke berichten <b>naar uw klanten in real time te</b> verzenden.</p></td>
+<td>Dit kunnen welkomstberichten, bestellingen voor het verzenden van bestellingen, wachtwoordwijzigingen, enzovoort zijn.</td>
+</tr>
+</table>
 
 Met Adobe Campaign kunt u deze functionaliteit integreren met een informatiesysteem dat gebeurtenissen verzendt die moeten worden omgezet in aangepaste transactieberichten.
 
@@ -112,9 +117,11 @@ Configure an event that will be named "Cart abandonment" and publish this event 
 
 The API that will be used by your website developer is deployed and a transactional message is automatically created.-->
 
+<img src="assets/do-not-localize/icon_config.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p>Configureer een gebeurtenis met de naam "Afstand starten" en publiceer deze gebeurtenisconfiguratie.</p></td>
+<td><br><p>Configureer een gebeurtenis met de naam "Afstand starten" en publiceer deze gebeurtenisconfiguratie.</p></td>
 <td>De API die wordt gebruikt door uw websiteontwikkelaar, wordt geïmplementeerd en er wordt automatisch een transactiemelding gemaakt.</td>
 </tr>
 </table>
@@ -127,9 +134,11 @@ Het maken en publiceren van een gebeurtenis wordt beschreven in de sectie [Een g
 
 Edit and personalize the transactional message, test it, and then publish it.-->
 
+<img src="assets/do-not-localize/icon_notification.svg" width="45px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="45px"><br><p>Bewerk het transactiebericht, test het en publiceer het.</p></td>
+<td><br><p>Bewerk het transactiebericht, test het en publiceer het.</p></td>
 <td>Het transactiebericht is dan klaar om te worden verzonden.</td>
 </tr>
 </table>
@@ -144,9 +153,11 @@ Use the REST Transactional Messages API to integrate the event into your website
 
 The event will be triggered when a client abandons their cart.-->
 
+<img src="assets/do-not-localize/icon_api.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="60px"><br><p>Gebruik de REST Transaction Messages API om de gebeurtenis in uw website te integreren.</p></td>
+<td><br><p>Gebruik de REST Transaction Messages API om de gebeurtenis in uw website te integreren.</p></td>
 <td>De gebeurtenis wordt geactiveerd wanneer een klant zijn winkelwagentje verlaat.</td>
 </tr>
 </table>
@@ -161,9 +172,11 @@ Zie [Site-integratie](../../administration/using/configuring-transactional-messa
 
 As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.-->
 
+<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p>Zodra al deze stappen zijn uitgevoerd, kan het bericht worden geleverd.</p></td>
+<td><br><p>Zodra al deze stappen zijn uitgevoerd, kan het bericht worden geleverd.</p></td>
 <td>Zodra een gebruiker de site verlaat zonder de producten in zijn winkelwagentje te bestellen, ontvangt hij automatisch een e-mailbericht.</td>
 </tr>
 </table>
