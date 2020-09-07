@@ -1,12 +1,15 @@
 ---
 source-git-commit: f803261eb3f0317e8876efea4c20e2f6f357ae40
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
+source-wordcount: '63'
+ht-degree: 100%
 
 ---
 # Welkom!
 
-Dit project bevat de Technische documentatie voor de Norm van de Campagne. U kunt het online [hier](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html)openen.
+Dit project bevat de technische documentatie voor Campaign Standard. U kunt het online [hier](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/campaign-standard-home.html) openen.
 
-Raadpleeg onze [technische notities](https://helpx.adobe.com/campaign/kb/acs-article-list.html)voor meer informatie over het oplossen van problemen, hoe kan ik-onderwerpen en best practices.
+Raadpleeg onze [technische opmerkingen](https://helpx.adobe.com/nl/campaign/kb/acs-article-list.html) voor meer informatie over probleemoplossing, instructies en best practices.
 
-Bekijk [onze zelfstudies](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)voor video&#39;s over de functies van Adobe Campaign Standard.
+Bekijk [onze tutorials](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/overview.html) voor video&#39;s over de functies van Adobe Campaign Standard.
