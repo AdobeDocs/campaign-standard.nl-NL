@@ -12,7 +12,7 @@ discoiquuid: 2ea51543-fe4d-462b-b47e-9ccaa1d68dfa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: da4be48018128a766c749e30301c3c86e9fcf9e9
+source-git-commit: 3534fb2cf9f77168eb3ca0021f4121a44a57916d
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 6%
@@ -38,5 +38,5 @@ Er is ook een integratie tussen Adobe Analytics&#39;s core service **Triggers** 
 **Verwante onderwerpen:**
 
 * [Overzicht van de integratie van Campaign Standard naar Analytics](https://docs.adobe.com/content/help/en/analytics/integration/adobe-campaign.html)
-* [De Campaign Standard-integratie] configureren (https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [De Campaign Standard-integratie configureren](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Dimensies en metrische data van Campaign in Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
