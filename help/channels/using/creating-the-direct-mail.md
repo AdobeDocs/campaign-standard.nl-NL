@@ -13,10 +13,10 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 95%
+source-wordcount: '594'
+ht-degree: 96%
 
 ---
 
@@ -102,4 +102,4 @@ U kunt het extractiebestand nu naar uw direct-mailprovider verzenden. Hiervoor h
 * Verzend het via een gewone e-mail, met het bijgevoegde bestand
 * Verstuur het via Campaign: voer uw direct mail uit binnen een campagne[workflow](../../automating/using/direct-mail-delivery.md) en voeg een **[!UICONTROL Transfer file]** toe om het bestand bijvoorbeeld via FTP te versturen. Zie [Bestand overdragen](../../automating/using/transfer-file.md)
 
-De leverancier wint de lijst van onjuiste adressen terug en verzendt deze informatie naar Adobe Campaign die automatisch aan de lijst van afgewezen personen de onjuiste adressen toevoegt. Zie [Terug naar afzender](../../channels/using/return-to-sender.md).
+De leverancier wint de lijst van onjuiste adressen terug en verzendt deze informatie naar Adobe Campaign die automatisch de onjuiste adressen toe_voegt op lijst van gewenste personen. Zie [Terug naar afzender](../../channels/using/return-to-sender.md).
