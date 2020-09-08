@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 0%
+source-wordcount: '422'
+ht-degree: 7%
 
 ---
 
@@ -30,7 +30,7 @@ Hieronder vindt u nadere informatie over het **[!UICONTROL Delivery throughput]*
 * Controleer elke leveringsproductie om ervoor te zorgen dat het met de geldigheid van de leveringsinhoud (b.v. &#39;Flash-verkoop&#39; moet in minuten worden geleverd, niet in dagen).
 * Wanneer het gebruiken van golven, verifieer dat elke golf genoeg tijd heeft om te beëindigen alvorens volgende wordt teweeggebracht.
 * Controleer of het aantal fouten en nieuwe quarantines consistent zijn met andere leveringen.
-* Raadpleeg zorgvuldig de leveringslogboeken in detail om het soort fouten te controleren die worden benadrukt (bloklijsten, DNS kwesties, anti-spamregels, enz.).
+* Raadpleeg zorgvuldig de leveringslogboeken in detail om het soort fouten te controleren die worden benadrukt (lijsten van afgewezen personen, DNS kwesties, anti-spamregels, enz.).
 
 ## Leveringsdoorvoer {#delivery-throughput}
 
@@ -44,9 +44,9 @@ U kunt de weergegeven waarden configureren door de tijdschaal te wijzigen.
 
 Andere rapporten zijn beschikbaar, zoals **[!UICONTROL Delivery summary]** of **[!UICONTROL Non-deliverables and bounces]**. Zie [Dynamische rapporten](../../reporting/using/about-dynamic-reports.md)voor meer informatie hierover.
 
-## Bewaking van leveringen {#monitoring-deliveries}
+## Leveringen controleren{#monitoring-deliveries}
 
-Het berichtdashboard geeft u toegang tot de leveringslogboeken: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** en **[!UICONTROL Tracked URLs]**. Zij tonen de details van het verzenden, die doel is uitgesloten en waarom, evenals de het volgen informatie zoals opent en klikt.
+Het berichtdashboard geeft u toegang tot de leveringslogboeken: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** en **[!UICONTROL Tracked URLs]**. Zij tonen de details van de verzending, welk doel is uitgesloten en waarom, evenals de tracking-informatie zoals aantal geopend en aantal klikken.
 
 Zie [Levering](../../sending/using/monitoring-a-delivery.md)controleren voor meer informatie.
 
@@ -54,7 +54,7 @@ Zie [Levering](../../sending/using/monitoring-a-delivery.md)controleren voor mee
 
 ## Ontvangen van waarschuwingen {#receiving-alerts}
 
-De **[!UICONTROL Delivery alerting]** functie is een waarschuwingssysteem waarmee een groep gebruikers automatisch meldingen kan ontvangen met informatie over de uitvoering van hun leveringen.
+The **[!UICONTROL Delivery alerting]** feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
 
 Zie Waarschuwingen [ontvangen wanneer fouten optreden](../../sending/using/receiving-alerts-when-failures-happen.md)voor meer informatie hierover.
 
@@ -68,6 +68,6 @@ Spam van het signaal verstrekt ook directe klachten dat het eind - gebruikers do
 
 ## 250ok {#solution-250ok}
 
-250ok is een controleoplossing die IP en domeinbloklijsten, evenals reputatie-indicatoren verstrekt.
+250ok is een controleoplossing die IP en domeinlijsten van afgewezen personen, evenals reputatie-indicatoren verstrekt.
 
-De verstrekte informatie is real-time, wat een pro-actieve bijstand mogelijk maakt. 250ok is een aanvullende oplossing voor de interne hulpprogramma&#39;s voor de leveringsmogelijkheden van Adobe.
+De verstrekte informatie is real-time, wat een pro-actieve bijstand mogelijk maakt. 250ok is een aanvullende oplossing voor de interne instrumenten voor de Adobe-leverbaar.
