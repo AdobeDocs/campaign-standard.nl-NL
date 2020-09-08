@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 0%
+source-wordcount: '452'
+ht-degree: 1%
 
 ---
 
@@ -36,39 +36,40 @@ Als u altijd het zelfde foutenbericht voor ISP krijgt, kan uw e-mail of IP als g
 
 Als het probleem zich blijft voordoen, neemt u contact op met de services voor commercieel gebruik of voor levering, of met de Adobe Campaign-ondersteuning.
 
-## Bloklijst versus quarantaine {#block-list-versus-quarantine}
+## Lijst van afgewezen personen versus quarantaine {#denylist-versus-quarantine}
 
-* **Wat is het verschil tussen een e-mailadres op een bloklijst en een in quarantaine geplaatst e-mailadres?**
+* **Wat is het verschil tussen een op de lijst met ongewenste personen staan e-mailadres en een quarantined e-mailadres?**
 
-   * De status **[!UICONTROL On block list]** is een resultaat van een feedbacklus (wanneer een persoon een bericht rapporteert als spam).
+   * De status **[!UICONTROL Denylisted]** is een resultaat van een feedbacklus (wanneer een persoon een bericht rapporteert als spam).
 
    * De status **[!UICONTROL Quarantined]** is het resultaat van een zachte of harde stuit.
-   Zie deze [sectie](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)voor meer informatie.
+   Zie [deze sectie](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list) voor meer informatie.
 
 * **Wat betekenen de verschillende redenen voor quarantainefouten?**
 
-   Hier volgen tien mogelijke redenen: niet bepaald, gebruiker onbekend, ongeldig domein, adres op bloklijst, geweigerd, fout genegeerd, onbereikbaar, account gehandicapt, brievenbus volledig, niet verbonden.
+   Hier volgen tien mogelijke redenen: niet bepaald, gebruiker onbekend, ongeldig domein, toegevoegd op lijst van gewenste personen adres, geweigerd, fout genegeerd, onbereikbaar, rekening gehandicapt, brievenbus volledig, niet verbonden.
 
-   Voor meer op dit, zie het [Begrip van quarantainebeheer](../../sending/using/understanding-quarantine-management.md).
+   For more on this, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
 
-## Verwijderen uit de bloklijst {#removing-from-block-list}
+## Verwijderen uit lijst van afgewezen personen {#removing-from-denylist}
 
-* **Een van mijn ontvangers is per ongeluk aan de bloklijst toegevoegd. Hoe verwijder ik hen uit de bloklijst zodat ik kan beginnen hen berichten opnieuw te verzenden?**
+* **Een van mijn ontvangers werd per ongeluk toegevoegd op lijst van gewenste personen. Hoe verwijder ik hen uit de lijst van afgewezen personen zodat ik kan beginnen hen berichten opnieuw te verzenden?**
 
    * Ga naar **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * Stel in de details van de corresponderende record de waarde van het **[!UICONTROL Status]** veld in op **[!UICONTROL Valid]**.
    * Sla de record op.
 
-* **Hoe kan ik te weten komen of één van mijn IPs op een bloklijst is? Hoe verwijder ik mijn IP(s) uit een bloklijst?**
+* **Hoe kan ik te weten komen of één van mijn IPs wordt toegevoegd op lijst van gewenste personen? Hoe verwijder ik mijn IP(s) uit een lijst van afgewezen personen?**
 
-   Om te controleren of uw IP adres op een bloklijst is, kunt u diverse websites gebruiken om het te verifiëren, zoals:
+   Om te controleren of uw IP adres wordt toegevoegd op lijst van gewenste personen, kunt u diverse websites gebruiken om het te verifiëren, zoals:
    * [MX-gereedschapset](https://mxtoolbox.com/)
    * [Wat is mijn IP adres](https://whatismyipaddress.com)
-   Over het algemeen, zal het resultaat van de IP adrescontrole een lijst terugkeren die details van de bloklijst en ook de naam van de website bevat die het IP adres blokkeerde.
+
+   Over het algemeen, zal het resultaat van de IP adrescontrole een lijst terugkeren die details van de lijst van afgewezen personen en ook de naam van de website bevat die het IP adres blokkeerde.
 
    Als u op de desbetreffende koppeling klikt, hebt u toegang tot de gegevens van de website.
 
-   Vervolgens kunt u vragen dat uw website wordt verwijderd van de website die het IP-adres aan de bloklijst heeft toegevoegd.
+   Vervolgens kunt u vragen dat uw website wordt verwijderd van de website die het IP-adres aan de lijst van afgewezen personen heeft toegevoegd.
 
    >[!NOTE]
    >
