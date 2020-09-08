@@ -1,5 +1,5 @@
 ---
-title: Uitvoeropties beheren
+title: Uitvoeringsopties beheren
 description: Leer hoe u opties voor het uitvoeren van workflows beheert.
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
@@ -13,15 +13,15 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 8ebded956ef52bb742160d62ebbd8095c390d51c
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 0%
+source-wordcount: '246'
+ht-degree: 2%
 
 ---
 
 
-# Uitvoeropties beheren {#managing-execution-options}
+# Uitvoeringsopties beheren {#managing-execution-options}
 
 Als u de uitvoeringsopties van een workflow wilt wijzigen, gebruikt u de ![](assets/edit_darkgrey-24px.png) knop om de workfloweigenschappen te openen en selecteert u de **[!UICONTROL Execution]** sectie.
 
@@ -45,6 +45,6 @@ Mogelijke opties zijn:
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**: Hiermee kunt u de workflow lokaal uitvoeren voor testdoeleinden in de ontwikkelomgeving.
 
-* **[!UICONTROL Severity]**: kunt u een prioriteitsniveau opgeven voor het uitvoeren van workflows in uw Adobe Campaign-instantie. Kritieke workflows worden eerst uitgevoerd.
+* **[!UICONTROL Severity]**: kunt u een prioriteitsniveau opgeven voor het uitvoeren van workflows in uw Adobe Campaign-instantie. Dit veld wordt alleen voor monitoringdoeleinden gebruikt door Adobe-teams.
 
 Het **[!UICONTROL Error management]** gedeelte bevat aanvullende opties waarmee u kunt bepalen hoe workflows zich gedragen bij fouten. Deze opties worden beschreven in de sectie [Foutbeheer](../../automating/using/monitoring-workflow-execution.md#error-management) .
