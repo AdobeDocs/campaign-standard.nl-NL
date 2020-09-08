@@ -12,15 +12,15 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f5bc442b1dae467a6b6de3e048531940f75031f
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 0%
+source-wordcount: '650'
+ht-degree: 3%
 
 ---
 
 
-# Filterregels {#filtering-rules}
+# Regels filteren {#filtering-rules}
 
 Met filterregels kunt u een deel van het berichtdoel uitsluiten volgens criteria die in een query zijn gedefinieerd, zoals quarantineprofielen of profielen die al een bepaald aantal e-mailberichten hebben ontvangen.
 
@@ -31,7 +31,7 @@ De lijst hieronder verstrekt informatie over uit-van-de-doos het filtreren regel
 | Label | Kanaal | Beschrijving |
 ---------|----------|---------
 | **[!UICONTROL Address not specified]** | Alles | Hiermee sluit u de doelpopulatie zonder opgegeven adres (e-mail, postadres, enz.) uit. volgens het geselecteerde kanaal). |
-| **[!UICONTROL Blocklisted address]** | Alles | Sluit adressen uit die op de bloklijst zijn. |
+| **[!UICONTROL Denylisted address]** | Alles | Sluit adressen uit die op de lijst van afgewezen personen zijn. |
 | **[!UICONTROL Duplicate]** | Alles | Hiermee worden duplicaten op basis van het **[!UICONTROL Address]** doelpopulatieveld uitgesloten. |
 | **[!UICONTROL Exclude mobile applications]** | Mobiele toepassing | Hiermee sluit u app-abonnementen uit die niet overeenkomen met de mobiele toepassing die in het bericht is gedefinieerd. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | In app | Hiermee sluit u toepassingsabonnementen uit die niet overeenkomen met de mobiele toepassing die in het bericht is gedefinieerd (In-App-sjabloon). |
@@ -47,13 +47,13 @@ Naast deze standaard het filtreren regels, zijn twee uitsluitingsregels beschikb
 
 Tijdens de e-mailanalyse, vergelijken deze regels de ontvankelijke e-mailadressen met de verboden adressen of domeinnamen in een gecodeerde globale suppressielijst die in de leveringsinstantie wordt beheerd. Als er een gelijke is, wordt het bericht niet verzonden naar die ontvanger.
 
-Hiermee voorkomt u dat de bloklijst wordt toegevoegd vanwege kwaadaardige activiteiten, met name het gebruik van een Spamtrap. Als bijvoorbeeld een spamtrap wordt gebruikt om zich te abonneren via een van uw webformulieren, wordt automatisch een bevestigingsbericht verzonden naar die spamtrap. Hierdoor wordt uw adres automatisch toegevoegd aan de lijst met blokkeringen.
+Dit is om te voorkomen dat het toegevoegd op lijst van gewenste personen wordt als gevolg van kwaadwillige activiteit, met name het gebruik van een Spamtrap. Als bijvoorbeeld een spamtrap wordt gebruikt om zich te abonneren via een van uw webformulieren, wordt automatisch een bevestigingsbericht verzonden naar die spamtrap. Hierdoor wordt uw adres automatisch toegevoegd aan de lijst van afgewezen personen.
 
 >[!NOTE]
 >
 >De adressen en domeinnamen in de globale suppressielijst worden verborgen. Alleen het aantal uitgesloten ontvangers wordt vermeld in de logboeken van de leveringsanalyse.
 
-## Filterregels maken {#creating-a-filtering-rule}
+## Creating a filtering rule {#creating-a-filtering-rule}
 
 U kunt uw eigen het filtreren regels op uw behoeften tot stand brengen. U kunt bijvoorbeeld de doelpopulatie van nieuwsbrieven filteren, zodat abonnees die jonger zijn dan 18 jaar nooit communicatie ontvangen.
 
@@ -79,7 +79,7 @@ Voer de volgende stappen uit om een filtreertypologieregel te maken:
 
    ![](assets/typology_create-rule-typology.png)
 
-1. Zorg ervoor dat de typologie is geselecteerd in de leveringssjabloon die u wilt gebruiken. For more on this, refer to [this section](../../sending/using/managing-typologies.md#applying-typologies-to-messages).
+1. Zorg ervoor dat de typologie is geselecteerd in de leveringssjabloon die u wilt gebruiken. Raadpleeg [deze sectie](../../sending/using/managing-typologies.md#applying-typologies-to-messages) voor meer informatie.
 
    ![](assets/typology_template.png)
 
@@ -91,11 +91,11 @@ Campaign Standard staat u toe om de het **richten** en het **Filtreren** dimensi
 
 Om dit te doen, open de eigenschappen van de typologieregel, dan heb toegang tot de **[!UICONTROL Advanced information]** sectie.
 
-Filteren wordt standaard uitgevoerd op de **[!UICONTROL Profiles]** knop. Als de regel bijvoorbeeld op een mobiele toepassing is gericht, **[!UICONTROL Filtering dimension]** kan deze worden gewijzigd in **[!UICONTROL Subscriptions to an application]**.
+By default, filtering is carried out on the **[!UICONTROL Profiles]**. Als de regel bijvoorbeeld op een mobiele toepassing is gericht, **[!UICONTROL Filtering dimension]** kan deze worden gewijzigd in **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
 
-## De toepasbaarheid van een filterregel beperken {#restricting-the-applicability-of-a-filtering-rule}
+## Restricting the applicability of a filtering rule {#restricting-the-applicability-of-a-filtering-rule}
 
 U kunt de toepasbaarheid van een het filtreren regel volgens het te verzenden bericht beperken.
 
