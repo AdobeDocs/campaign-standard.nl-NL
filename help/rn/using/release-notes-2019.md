@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '7626'
+source-wordcount: '7622'
 ht-degree: 8%
 
 ---
@@ -293,7 +293,7 @@ Introduceerde een reeks verbeteringen en correcties om fragmenten te optimaliser
 * De optie &quot;Launch_URL_Campaign&quot; is toegevoegd in Campagne voor het beheer van eigenschappen van mobiele toepassingen die zijn gemaakt met Adobe Experience Platform Mobile SDK.
 * Correctie van een fout die ertoe leidde dat de de milieuoptie van Sandbox na het uploaden van het certificaat van een nieuw gecreeerd mobiel bezit en het weggaan van de mobiele pagina van het toepassingsbezit werd ongecontroleerd.
 * Probleem verholpen waardoor u een transactiemelding voor berichtinhoud niet kon verrijken met informatie uit het servicemiddel. (CAMP-33707)
-* Probleem verholpen op de pagina&#39;s waarop de lijst van afgewezen personen werd gepost en die optrad toen werd geprobeerd profielen af te melden bij een service.
+* Probleem verholpen in de openingspagina&#39;s van de lijst van afgewezen personen die optraden toen werd geprobeerd om profielen van de dienst af te schrijven.
 
 ## Release 19.2 - mei 2019 {#release-19-2---may-2019}
 
@@ -617,7 +617,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 * Oplossing voor een probleem in de queryeditor met de voorwaarde voor samenvoeging tussen log en trackinglogbestand voor rtEvent. (CAMP-28780)
 * Probleem verholpen waardoor wijzigingen in de landingspagina van &quot;Specifieke actie&quot; niet konden worden opgeslagen. (CAMP-29422)
 * Probleem verholpen waarbij het laden van een gebeurtenislading in een werkstroom werd verhinderd. (CAMP-29029)
-* Probleem verholpen waarbij SMS-nummers op de lijst van afgewezen personen niet in een SMS-bericht werden uitgesloten. (CAMP-28898)
+* Probleem verholpen waardoor op de lijst met ongewenste personen staan SMS-nummers niet konden worden uitgesloten in een SMS-bericht. (CAMP-28898)
 * Probleem verholpen waardoor SMPP-providers niet op de hoogte konden worden gesteld van een fout tijdens de verwerking van binnenkomende berichten. (CAMP-29804)
 * Probleem verholpen waarbij externe accounts met bijbehorende leveringen konden worden verwijderd. (CAMP-29738)
 * De verzendende doorvoer is verbeterd en gestabiliseerd voor SMS-berichten.
