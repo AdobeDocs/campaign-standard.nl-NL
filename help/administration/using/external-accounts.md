@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: f00c5cd2f6642048ebd056dcaf5a156f8cf7ca18
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1557'
 ht-degree: 96%
 
 ---
@@ -86,7 +86,7 @@ Om dergelijke problemen te voorkomen, wordt u aangeraden de onderstaande best pr
 * Meld u af en toe aan bij de SFTP om de content rechtstreeks te controleren.
 * Vergeet niet dat SFTP-schijfbeheer in de eerste plaats uw verantwoordelijkheid is.
 
-Ook, merk op dat openbare IPs waarvan u probeert om de verbinding in werking te stellen SFTP aan de lijst van gewenste personen op de instantie van de Campagne moet worden toegevoegd. Adding IP addresses to the allow list can be requested via a [support ticket](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
+Ook, merk op dat openbare IPs waarvan u probeert om de verbinding in werking te stellen SFTP aan de lijst van gewenste personen op de instantie van de Campagne moet worden toegevoegd. Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
 
 SFTP-servers kunnen worden beheerd via het Configuratiescherm. Zie de [Configuratiescherm-documentatie](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html) voor meer informatie.
 
