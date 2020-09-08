@@ -12,10 +12,10 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 0%
+source-wordcount: '2028'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## Informatie over leveringswaarschuwingen {#about-delivery-alerting}
 
-De **functie voor leveringswaarschuwingen** is een systeem voor waarschuwingsbeheer waarmee een groep gebruikers automatisch meldingen kan ontvangen die informatie bevatten over de uitvoering van hun leveringen.
+The **Delivery alerting** feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
 
 De verzonden meldingen bevatten een rapport dat standaard is gebaseerd op de volgende criteria:
 
@@ -90,8 +90,8 @@ Als u meldingen op basis van specifieke criteria wilt verzenden naar verschillen
 
 1. Selecteer in de **[!UICONTROL Alert group]** vervolgkeuzelijst de groep ontvangers die u wilt waarschuwen. Zie [Een beveiligingsgroep maken en gebruikers](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)toewijzen om een groep te wijzigen of te maken.
 1. Klik in de **[!UICONTROL Delivery alerting criteria]** sectie **[!UICONTROL Create element]** om criteria toe te voegen. Zie [Informatie over waarschuwingscriteria](#about-alerting-criteria).
-1. Selecteer de **[!UICONTROL Edit properties]** knop. Definieer op het **[!UICONTROL Criteria parameters]** tabblad hoe de criteria worden toegepast. Zie [Criteria parameters](#criteria-parameters).
-1. Klik **[!UICONTROL Create]** om het dashboard op te slaan.
+1. Selecteer de knop **[!UICONTROL Edit properties]**. Definieer op het **[!UICONTROL Criteria parameters]** tabblad hoe de criteria worden toegepast. Zie [Criteria parameters](#criteria-parameters).
+1. Click **[!UICONTROL Create]** to save the dashboard.
 
 Telkens wanneer een levering voldoet aan de criteria die u in dit dashboard hebt gedefinieerd, wordt een waarschuwingsbericht verzonden naar de opgegeven groep gebruikers.
 
@@ -137,9 +137,9 @@ Voor elk criterium kunt u de volgende instellingen definiëren:
 
 **Verwante onderwerpen:**
 
-* [Logboeken verzenden](../../sending/using/monitoring-a-delivery.md#sending-logs)
+* [Verzendlogboeken](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [Waarschuwingsfrequentie](#alerting-frequency)
-* [Pictogrammen en statussen voor marketingactiviteiten](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
+* [Pictogrammen en statussen van marketingactiviteiten](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
 ### Een leveringswaarschuwingscriterium maken {#creating-a-delivery-alerting-criterion}
 
@@ -166,7 +166,7 @@ Hiervoor moet u eerst de **leveringsbron** uitbreiden en een nieuw filter toevoe
 
    Zie [Filters](../../developing/using/configuring-filter-definition.md)definiëren voor meer informatie over het maken en bewerken van aangepaste filters.
 
-1. Sla uw wijzigingen op en publiceer uw bronnen. Voor meer op dit, zie het [Publiceren van een douanemiddel](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. Sla uw wijzigingen op en publiceer uw bronnen. For more on this, see [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
    Het filter wordt gemaakt en kan nu worden geselecteerd in een nieuw leveringswaarschuwingscriterium.
 
@@ -183,7 +183,7 @@ Als deze criteria eenmaal zijn gemaakt, kunnen ze worden toegevoegd aan een waar
 
 **Verwant onderwerp:**
 
-[Een bron toevoegen of uitbreiden](../../developing/using/key-steps-to-add-a-resource.md)
+[Een resource toevoegen of uitbreiden](../../developing/using/key-steps-to-add-a-resource.md)
 
 ## Waarschuwing bij aflevering {#delivery-alerting-parameters}
 
@@ -230,7 +230,7 @@ Wanneer u nu een bericht ontvangt voor een waarschuwing over de levering, kunt u
 
 Eerst en vooral, controleer het lusje van het **Logboek** van de levering om alle informatie met betrekking tot de levering en de proefdrukken te bekijken. Met de rode en gele pictogrammen kunt u fouten of waarschuwingen herkennen. Het rode pictogram geeft een kritieke fout aan die voorkomt dat de levering wordt gestart.
 
-Selecteer het **[!UICONTROL Sending logs]** tabblad om de geschiedenis van elk exemplaar van een levering weer te geven. Het bevat de lijst met verzonden berichten en hun status. Daar kunt u de leveringsstatus voor elke ontvanger ( **[!UICONTROL Sent]**, **[!UICONTROL Pending]**, **[!UICONTROL Failed]**, enz.) controleren. Zie Logboeken [verzenden voor meer informatie](../../sending/using/monitoring-a-delivery.md#sending-logs).
+Selecteer het **[!UICONTROL Sending logs]** tabblad om de geschiedenis van elk exemplaar van een levering weer te geven. Het bevat de lijst met verzonden berichten en hun status. Daar kunt u de leveringsstatus voor elke ontvanger ( **[!UICONTROL Sent]**, **[!UICONTROL Pending]**, **[!UICONTROL Failed]**, enz.) controleren. For more on this, see [Sending logs](../../sending/using/monitoring-a-delivery.md#sending-logs).
 
 Hier volgen enkele mogelijke redenen om waarschuwingsberichten te ontvangen op basis van de criteria waaraan een levering voldoet.
 
@@ -240,6 +240,7 @@ Hier volgen enkele mogelijke redenen om waarschuwingsberichten te ontvangen op b
    * Een time-out voor de verbinding tussen de Adobe Campaign-leveringsserver en de ontvangende server
    * Een probleem met betrekking tot de leverbaarheid
    * Een onjuiste workflow
+
    Als de levering met een werkschema in werking wordt gesteld, controleer of die werkschema correct was begonnen. Zie Een workflow [](../../automating/using/about-workflow-execution.md)uitvoeren voor meer informatie. Anders kunt u contact opnemen met uw Adobe Campaign-beheerder om het probleem op te lossen.
 
 * **[!UICONTROL Deliveries with preparation failed]**: Er kan een fout optreden tijdens de voorbereiding van de levering in de volgende gevallen:
@@ -248,20 +249,23 @@ Hier volgen enkele mogelijke redenen om waarschuwingsberichten te ontvangen op b
    * Er is een onjuiste syntaxis op de verpersoonlijkingsgebieden.
    * Het doel ontbreekt.
    * De levering overschrijdt de groottelimiet.
+
    Voor meer op dit, zie het [Voorbereiden verzendt](../../sending/using/preparing-the-send.md). Deze fouten worden echter meestal waargenomen tijdens de analyse van berichten. Zie [Regels](../../sending/using/control-rules.md)voor besturing.
 
 * De mogelijke oorzaken voor een **[!UICONTROL Delivery with bad error ratio for soft bounces]** alarm kunnen zijn:
 
    * De server van de ontvanger is neer.
    * De brievenbus van de ontvanger is volledig.
+
    Voor meer informatie, controleer de **[!UICONTROL Exclusion logs]** en **[!UICONTROL Exclusion causes]** lusjes van de leveringslogboeken. Zie [Uitsluitingslogboeken](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 
    De mogelijke oorzaken voor een **[!UICONTROL Delivery with bad error ratio for hard bounces]** alarm kunnen zijn:
 
-   * De ontvanger staat op de bloklijst, wat betekent dat hij niet langer contact met hem wil opnemen.
+   * De ontvanger is toegevoegd op lijst van gewenste personen, wat betekent dat hij niet langer contact met hem wil opnemen.
    * Het e-mailadres van de ontvanger bestaat niet.
    * Het domein van de ontvanger bestaat niet.
    * De server van de ontvanger blokkeert de levering.
+
    Volg onderstaande aanbevolen procedures om zachte en harde stuiterfouten te voorkomen:
 
    * Bouw het filtreren typologieregels om één deel van het berichtdoel tijdens de leveringsanalyse, zoals in quarantaine gehouden ontvangers uit te sluiten. Zie [Een filterregel](../../sending/using/filtering-rules.md)maken.
@@ -279,6 +283,6 @@ Hier volgen enkele mogelijke redenen om waarschuwingsberichten te ontvangen op b
 **Verwante onderwerpen:**
 
 * [Leveringsfouten begrijpen](../../sending/using/understanding-delivery-failures.md)
-* [Werken met quarantainebeheer](../../sending/using/understanding-quarantine-management.md)
-* [Over opt-in en opt-out in campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Quarantainebeheer begrijpen](../../sending/using/understanding-quarantine-management.md)
+* [Informatie over opt-in en opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
