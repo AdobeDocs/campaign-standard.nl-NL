@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '5401'
+source-wordcount: '5398'
 ht-degree: 6%
 
 ---
@@ -89,7 +89,7 @@ Bekijk de nieuwste [documentatieupdates](../../rn/using/documentation-updates.md
 * Probleem verholpen waarbij foto&#39;s die vanaf een camera zijn geüpload en die in de staande modus zijn genomen, werden weergegeven op een ongewenste geroteerde positie.
 * Probleem verholpen waarbij onduidelijke selectiegegevens werden weergegeven wanneer de interface voor de query-editor in Creative Designer werd gebruikt.
 * Probleem verholpen waarbij een element niet correct kon worden gedupliceerd wanneer de interface voor de query-editor in Creative Designer werd gebruikt.
-* Probleem verholpen waarbij SMS-berichten aan ontvangers op de lijst van afgewezen personen bleven leveren, ook al waren ze via een automatisch antwoord niet meer geabonneerd. (CAMP-27128)
+* Probleem verholpen waarbij SMS-berichten werden geleverd aan ontvangers die niet op de lijst stonden, ook al waren ze niet geabonneerd via een automatisch antwoord. (CAMP-27128)
 * Probleem verholpen waarbij de fouten die ervoor zorgden dat de workflow voor het opschonen van **databases** mislukte, niet konden worden weergegeven. (CAMP-26876)
 * Probleem verholpen waarbij het verwijderen van aangepaste velden in een definitie van een pushmelding werd voorkomen. (CAMP-25588)
 
@@ -148,7 +148,7 @@ Bekijk de nieuwste [documentatieupdates](../../rn/using/documentation-updates.md
 * Correctie van een fout die ervoor zorgde dat de activiteit van het Publiek van het Opslaan van toepassingsabonnees in Adobe Experience Cloud kon delen.
 * Probleem verholpen met de bestandsoverdrachtactiviteit die kon optreden wanneer de bestandsnaam lege spaties bevatte. (CAMP-25936)
 * Probleem verholpen die kon optreden wanneer de knop Opnieuw verbinden werd gebruikt nadat een sessie was verlopen. (CAMP-25560)
-* Probleem verholpen dat tot uitsluitingen kon leiden bij het verzenden van leveringen met optimalisatie voor tijdzone gekoppeld aan fatigues-regels. (CAMP-25425)
+* Probleem verholpen dat tot uitsluitingen kon leiden bij het verzenden van leveringen met optimalisatie van tijdzone gekoppeld aan fatigues-regels. (CAMP-25425)
 * Probleem verholpen bij het gebruik van de API GDPR-functie, die kan voorkomen dat gegevens met een koppeling van het type 0-1 worden verwijderd.
 * Probleem verholpen dat tot een foutbericht kon leiden wanneer de uitgave van een moeilijkheidtypologieregel werd geannuleerd.
 * Probleem verholpen dat kon optreden wanneer een voorvertoning van een leveringsinhoud werd weergegeven nadat deze was bewerkt.
@@ -306,7 +306,7 @@ _Aangepaste resources_
  <tbody> 
   <tr> 
    <td> EU General Data Protection Regulation (GDPR)<br /> </td> 
-   <td> GDPR is de nieuwe privacywet van de Europese Unie (EU) die de vereisten inzake gegevensbescherming harmoniseert en moderniseert en op 25 mei 2018 van kracht wordt. GDPR is van toepassing op Adobe Campaign-klanten die gegevens aanhouden voor in de EU verblijvende gegevenssubjecten.<br /> Naast de privacy mogelijkheden reeds beschikbaar in Adobe Campaign (met inbegrip van toestemmingsbeheer, montages van het gegevensbehoud, en gebruikersrollen), nemen wij deze kans in onze rol als Bewerker van Gegevens om extra mogelijkheden te omvatten, om uw bereidheid als Datacontrole voor bepaalde GDPR verzoeken te helpen vergemakkelijken:<br /> 
+   <td> GDPR is de nieuwe privacywet van de Europese Unie (EU) die de vereisten inzake gegevensbescherming harmoniseert en moderniseert en op 25 mei 2018 van kracht wordt. AVG is van toepassing op Adobe Campaign-klanten die data bewaren voor in de EU wonende betrokken personen.<br /> Naast de privacy mogelijkheden reeds beschikbaar in Adobe Campaign (met inbegrip van toestemmingsbeheer, montages van het gegevensbehoud, en gebruikersrollen), nemen wij deze kans in onze rol als Bewerker van Gegevens om extra mogelijkheden te omvatten, om uw bereidheid als Datacontrole voor bepaalde GDPR verzoeken te helpen vergemakkelijken:<br /> 
     <ul> 
      <li> Recht op toegang: staat de betrokkene toe een kopie te ontvangen van zijn/haar persoonsgegevens die door de gegevensverwerkingsverantwoordelijken zijn vastgelegd, met inbegrip van gegevens die in Adobe Campaign zijn opgeslagen. </li> 
      <li> Rechts om te verwijderen: geeft de betrokkene het recht om zijn/haar persoonsgegevens die door gegevensverwerkingsverantwoordelijken zijn vastgelegd, te laten wissen, eventueel met inbegrip van gegevens die in Adobe Campaign zijn opgeslagen. </li> 
@@ -314,7 +314,7 @@ _Aangepaste resources_
   </tr> 
   <tr> 
    <td> Creative Designer voor e-mail (bèta)<br /> </td> 
-   <td> De nieuwe Creative Designer-versie van Adobe Campaign biedt een volledig geïntegreerde ontwerpervaring in Campagne, waardoor u snel en moeiteloos visueel fascinerende, individueel gepersonaliseerde e-mails kunt maken zonder dat u een script hoeft te schrijven voor één regel code. Dankzij de krachtige interface voor slepen en neerzetten helpt Creative Designer het maken van e-mail te schalen, of gebruikers nu op een lege site beginnen of bestaande inhoudfragmenten of -sjablonen gebruiken. <br /> De belangrijkste mogelijkheden omvatten:<br /> 
+   <td> De nieuwe Creative Designer-versie van Adobe Campaign biedt een volledig geïntegreerde ontwerpervaring in Campagne, waardoor u snel en moeiteloos visuele creaties kunt maken van fascinerende, individueel gepersonaliseerde e-mails zonder dat u een script hoeft te maken voor één regel code. Dankzij de krachtige interface voor slepen en neerzetten helpt Creative Designer het maken van e-mail te schalen, of gebruikers nu op een lege site beginnen of bestaande inhoudfragmenten of -sjablonen gebruiken. <br /> De belangrijkste mogelijkheden omvatten:<br /> 
     <ul> 
      <li> Ontwerp en maak visueel volledig persoonlijke, responsieve e-mails via een drag-and-drop interface, aangevuld met native Creative Cloud-integratie </li> 
      <li> Een sjabloon voor e-mailinhoud en opgeslagen sjablonen maken en opslaan om het maken van e-mail te helpen schalen </li> 
@@ -474,7 +474,7 @@ Sommige problemen kunnen zich voordoen bij het gebruik van contextafhankelijke H
      <li> afbeeldingen of andere mediabestanden downloaden en toevoegen als bijlagen aan een melding </li> 
      <li> de tekst van de hoofdtekst of titel van een kennisgeving wijzigen </li> 
      <li> voeg een draadherkenningsteken aan een bericht toe </li> 
-    </ul> Raadpleeg de <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">gedetailleerde documentatie</a>voor meer informatie over Beschikbare inhoud en Mutable Content.<br /> <strong>Waarschuwing:</strong> deze updates van pushberichten vereisen dat klanten hun mobiele toepassingen upgraden . Raadpleeg <a href="https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">dit technische artikel</a> voor meer informatie.<br /> </td> 
+    </ul> Raadpleeg de <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">gedetailleerde documentatie</a>voor meer informatie over Beschikbare inhoud en Mutable Content.<br /> <strong>Waarschuwing:</strong> deze updates van pushberichten vereisen dat klanten hun mobiele toepassingen upgraden . Refer to <a href="https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">this technote</a> for more information.<br /> </td> 
   </tr> 
   <tr> 
    <td> Geoptimaliseerde leveringen in tijdzone<br /> </td> 
