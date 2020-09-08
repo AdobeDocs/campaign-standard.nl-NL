@@ -1,5 +1,5 @@
 ---
-title: Uitsplitsing naar domein
+title: Uitsplitsing naar domeinen
 description: Met de Onderverdeling door domeinen uit-van-de-doos rapport, leer over de prestatiesgegevens van uw leveringen afhankelijk van elk van het domein van uw klant.
 page-status-flag: never-activated
 uuid: 75a64c81-325b-422f-b6ef-deb06eec7f7b
@@ -13,17 +13,17 @@ context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,m
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 0%
+source-wordcount: '233'
+ht-degree: 3%
 
 ---
 
 
-# Uitsplitsing naar domein{#breakdown-by-domains}
+# Uitsplitsing naar domeinen{#breakdown-by-domains}
 
-Dit rapport bevat de prestatiegegevens voor elk domein dat in het publiek voor een e-maillevering wordt vertegenwoordigd. Als het een campagne- of programmarapport is, zijn de prestatiegegevens beschikbaar voor meerdere doelgroepen. Met deze gegevens kunt u het gedrag van elk domein analyseren in reactie op specifieke gebeurtenissen. Bijvoorbeeld koppelingsweergave, URL in bloklijst, enz.
+Dit rapport bevat de prestatiegegevens voor elk domein dat in het publiek voor een e-maillevering wordt vertegenwoordigd. Als het een campagne- of programmarapport is, zijn de prestatiegegevens beschikbaar voor meerdere doelgroepen. Met deze gegevens kunt u het gedrag van elk domein analyseren in reactie op specifieke gebeurtenissen. Bijvoorbeeld de weergave van koppelingen, de op de lijst met ongewenste personen staan URL, enzovoort.
 
 ![](assets/delivery_reports_6.png)
 
@@ -42,5 +42,5 @@ De tweede lijst, het **Volgen statistieken**, bevat de beschikbare gegevens voor
 * **Klik**: Het aantal keren dat op inhoud is geklikt in een levering.
 * **Abonnement opgezegd**: Het aantal klikken op de abonnementkoppeling.
 * **Pagina** spiegelen: Het aantal klikken op de koppeling van de spiegelpagina.
-* **Blocklisted**: Het aantal ontvangers dat een e-mailbericht heeft gedeclareerd als spam of junk (zie Beheer [bloklijst in campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+* **Toegevoegd op lijst van gewenste personen**: Het aantal ontvangers dat een e-mail heeft gedeclareerd als spam of junk. [Meer informatie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
