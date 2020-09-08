@@ -1,5 +1,5 @@
 ---
-title: Aan de slag met profielen en publiek
+title: Aan de slag met profielen en doelgroepen
 description: '"Meer informatie over profielen en beheer van soorten publiek in Adobe Campaign: doelgroepen definiëren, doelgroepen selecteren, ontvangers filteren, gegevens verzamelen en bijwerken."'
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
@@ -12,15 +12,15 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 0%
+source-wordcount: '607'
+ht-degree: 8%
 
 ---
 
 
-# Aan de slag met profielen en publiek{#about-profiles-and-audiences}
+# Aan de slag met profielen en doelgroepen{#about-profiles-and-audiences}
 
 <table>
 <tr>
@@ -54,9 +54,9 @@ Meer informatie:
 * [Profielen](../../audiences/using/about-profiles.md)
 * [Actieve profielen](../../audiences/using/active-profiles.md)
 * [Testprofielen beheren](../../audiences/using/managing-test-profiles.md)
-* [De verrijkende gegevensbestand van de Campagne](../../audiences/using/enriching-campaign-database.md)
-* [Informatie over publiek](../../audiences/using/about-audiences.md)
-* [Een publiek in een bericht selecteren](../../audiences/using/selecting-an-audience-in-a-message.md)
+* [De Campaign-database verrijken](../../audiences/using/enriching-campaign-database.md)
+* [Informatie over doelgroepen](../../audiences/using/about-audiences.md)
+* [Een doelgroep in een bericht selecteren](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 ## Toestemming en toestemming {#permission}
 
@@ -66,7 +66,7 @@ Voordat u begint met het verzenden van berichten naar een contactpersoon, moet u
 
 Met Campagne, adviseren wij u om **gemakkelijke opt-in en opt-out mechanismen** door de [diensten](../../audiences/using/creating-a-service.md)te gebruiken, en pagina [&#39;s te](../../channels/using/getting-started-with-landing-pages.md) landen om uw contactinformatie bij te werken en uw gegevensbestand te kweken.
 
-Als u links voor **abonnementen** opgeeft in uw berichten, kunnen profielen indien nodig worden toegevoegd aan de bloklijst. Hierdoor kunt u de prestaties van uw platform verbeteren. Raadpleeg [Info over opt-in en opt-out in Campagne voor meer informatie over bloklijstbeheer](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Als u links voor **abonnementen** opgeeft in uw berichten, kunnen profielen indien nodig worden toegevoegd aan de lijst van afgewezen personen. Hierdoor kunt u de prestaties van uw platform verbeteren. For more on denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
@@ -75,24 +75,24 @@ Als u links voor **abonnementen** opgeeft in uw berichten, kunnen profielen indi
 Meer informatie:
 
 * [Informatie over abonnementen](../../audiences/using/about-subscriptions.md)
-* [Over opt-in en opt-out in campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Informatie over opt-in en opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## Privacynaleving {#privacy}
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-Adobe Campaign biedt een reeks tools om u te helpen met uw **privacywetgeving** voor GDPR, CCPA en andere privacywetten.
+Adobe Campaign offers a set of tools to help you with your **Privacy Compliance** for GDPR, CCPA, and other privacy laws.
 
-Lees meer in dit [artikel](https://helpx.adobe.com/campaign/kb/campaign-privacy.html) over privacybeheer en de functies die we bieden voor het beheren van het recht op toegang, het recht om te worden vergeten, toestemming, gegevensbewaring en gebruikersrollen.
+Lees meer in dit [artikel](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html) over privacybeheer en de functies die we bieden voor het beheren van het recht op toegang, het recht om te worden vergeten, toestemming, gegevensbewaring en gebruikersrollen.
 
 De privacy en de Toestemming in Campagne en hoe te om hen te beheren worden voorgesteld in [deze sectie](../../start/using/privacy.md).
 
 U zult ook beste praktijken vinden, om u met uw naleving van de Privacy te helpen wanneer het gebruiken van onze dienst.
 
-## Aanvullende bronnen
+## Aanvullende resources
 
 * [Werken met de service Doelen voor het publiek](../../audiences/using/aep-about-audience-destinations-service.md)
 * [Werken met Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-* [Gedeeld publiek van Adobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
+* [Adobe Gedeeld publiek](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Workflows gebruiken om profielen te importeren](../../automating/using/creating-import-workflow-templates.md)
 * [Video&#39;s over profielen en soorten publiek](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
