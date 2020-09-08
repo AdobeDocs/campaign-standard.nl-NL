@@ -13,10 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 4%
+source-wordcount: '852'
+ht-degree: 9%
 
 ---
 
@@ -42,11 +42,12 @@ De stappen voor het maken van een pushmelding met Adobe Campaign zijn:
 
    * **[!UICONTROL Send push to Campaign profiles]**: Gebruik deze sjabloon als doel voor de Adobe Campaign CRM-profielen die zijn geabonneerd op uw mobiele toepassing en zich hebben aangemeld voor het ontvangen van pushberichten. U kunt [verpersoonlijkingsgebieden](../../designing/using/personalization.md#inserting-a-personalization-field) in uw dupmelding, zoals de voornaam van de ontvanger opnemen.
    * **[!UICONTROL Send push to app subscribers]**: gebruik deze sjabloon om een pushmelding te verzenden naar alle bekende en anonieme gebruikers van mobiele toepassingen die zich hebben aangemeld om meldingen van uw toepassing te ontvangen. U kunt deze berichten personaliseren met gegevens die uit uw mobiele toepassing worden verzameld.
+
    U kunt ook meertalige sjablonen selecteren. Raadpleeg [Een meertalige pushmelding](../../channels/using/creating-a-multilingual-push-notification.md)maken voor meer informatie.
 
-   Raadpleeg de sectie [Sjablonen](../../start/using/marketing-activity-templates.md) beheren voor meer informatie over sjablonen.
+   For more on templates, refer to the [Managing templates](../../start/using/marketing-activity-templates.md) section.
 
-1. Voer de eigenschappen van uw pushmelding in en selecteer uw mobiele app in het **[!UICONTROL Associate a Mobile App to a delivery]** veld.
+1. Enter your push notification properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
 
    In het vervolgkeuzemenu worden zowel SDK V4- als SDK-toepassingen voor Experience Platforms weergegeven.
 
@@ -54,7 +55,7 @@ De stappen voor het maken van een pushmelding met Adobe Campaign zijn:
 
    U kunt de pushmelding koppelen aan een campagne. U doet dit door het te selecteren uit de campagnes die al zijn gemaakt.
 
-1. In het volgende scherm kunt u een publiek opgeven, bijvoorbeeld al uw VIP-klanten die zich hebben geabonneerd op een specifieke mobiele toepassing. Zie [Soorten publiek](../../audiences/using/creating-audiences.md)maken voor meer informatie hierover.
+1. In het volgende scherm kunt u een publiek opgeven, bijvoorbeeld alle VIP klanten die zich hebben geabonneerd op een specifieke mobiele toepassing. Zie [Soorten publiek](../../audiences/using/creating-audiences.md)maken voor meer informatie hierover.
 
    Uw publiek wordt automatisch gefilterd op basis van de mobiele toepassing die u in de vorige stap hebt geselecteerd.
 
@@ -62,7 +63,7 @@ De stappen voor het maken van een pushmelding met Adobe Campaign zijn:
 
 1. U kunt uw pushmelding nu aanpassen. Kies eerst de berichtstijl: **[!UICONTROL Alert/Message/Badge]** of **[!UICONTROL Silent push]**. De typen pushmeldingen worden beschreven in de sectie [Over pushmeldingen](../../channels/using/about-push-notifications.md) .
 
-   Bewerk de inhoud van uw pushmelding en definieer de geavanceerde opties. Zie Een pushmelding [aanpassen](../../channels/using/customizing-a-push-notification.md).
+   Bewerk de inhoud van uw pushmelding en definieer de geavanceerde opties. See [Customizing a push notification](../../channels/using/customizing-a-push-notification.md).
 
    ![](assets/push_notif_content.png)
 
@@ -91,7 +92,7 @@ De stappen voor het maken van een pushmelding met Adobe Campaign zijn:
 
 U kunt pushmeldingen naar een geselecteerd publiek in Adobe Campaign verzenden door de criteria voor het publiek te definiëren. In het onderstaande voorbeeld bestaat ons geselecteerde publiek uit vier beoogde abonnees van mobiele apps.
 
-1. Klik **[!UICONTROL Prepare]** om het doel te berekenen en de berichten te produceren.
+1. Click **[!UICONTROL Prepare]** to compute the target and generate the notifications.
 
    ![](assets/push_send_1.png)
 
@@ -101,7 +102,7 @@ U kunt pushmeldingen naar een geselecteerd publiek in Adobe Campaign verzenden d
 
 1. Op het **[!UICONTROL Exclusion logs]** tabblad vindt u de lijst met alle berichten die zijn uitgesloten van het verzonden doel en de reden voor deze uitsluiting.
 
-   Hier kunnen we zien dat een van onze abonnees voor mobiele apps is uitgesloten omdat het adres is toegevoegd aan de bloklijst en de andere abonnees omdat het profiel een duplicaat was.
+   Hier kunnen we zien dat een van onze abonnees op mobiele apps is uitgesloten omdat het adres is toegevoegd op lijst van gewenste personen en de andere abonnees omdat het profiel een duplicaat was.
 
    ![](assets/push_send_5.png)
 
@@ -116,7 +117,7 @@ U kunt pushmeldingen naar een geselecteerd publiek in Adobe Campaign verzenden d
 
    ![](assets/push_send_4.png)
 
-1. Klik in het **[!UICONTROL Deployment]** venster op het **[!UICONTROL Sending logs]** tabblad voor toegang tot de lijst met verzonden pushberichten en hun status. Voor deze levering is een pushmelding verzonden, terwijl het andere is mislukt als gevolg van een ongeldige apparaattoken. Deze abonnee wordt vervolgens uit verdere leveringen aan de bloklijst toegevoegd.
+1. Klik in het **[!UICONTROL Deployment]** venster op het **[!UICONTROL Sending logs]** tabblad voor toegang tot de lijst met verzonden pushberichten en hun status. Voor deze levering is een pushmelding verzonden, terwijl het andere is mislukt als gevolg van een ongeldige apparaattoken. Deze abonnee wordt dan toegevoegd aan de denyist van verdere leveringen.
 
    >[!NOTE]
    >
@@ -128,6 +129,6 @@ U kunt nu de impact van uw pushmelding meten met dynamische rapporten.
 
 **Verwante onderwerpen:**
 
-* [Pushmeldingsrapport](../../reporting/using/push-notification-report.md)
+* [Pushmeldingenrapport](../../reporting/using/push-notification-report.md)
 * [Een pushmelding verzenden binnen een workflow](../../automating/using/push-notification-delivery.md)
 
