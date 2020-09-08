@@ -1,6 +1,6 @@
 ---
-title: Lijsten in Adobe Campaign Standard toestaan
-description: Leer hoe u lijsten met toestaan optimaliseert met Adobe Campaign Standard.
+title: Lijsten van gewenste personen in Adobe Campaign Standard
+description: Leer hoe u lijsten van gewenste personen optimaliseert met Adobe Campaign Standard.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ IP de Certificatie is een verzendend beste praktijkprogramma dat helpt ervoor zo
 
 Momenteel bieden twee leveranciers IP Certificatie aan: Return Path en Certified Senders Alliance.
 
-Gecertificeerde afzenders worden toegevoegd aan lijsten voor e-mailadressen die worden gebruikt door leveranciers van postvakken en e-mailbeveiligingsbedrijven. Deze commercieel staan lijsten toe zijn gebaseerd op een systeem dat de afzender toestaat om antispamfilters volledig te mijden of stijgende punten worden toegewezen aangezien zij het systeem ingaan.
+Gecertificeerde afzenders worden toegevoegd op lijst van gewenste personen en worden gebruikt door wereldwijde postbusproviders en e-mailbeveiligingsbedrijven. Deze commerciële lijsten van gewenste personen zijn gebaseerd op een systeem dat de afzender toestaat om antispamfilters volledig te mijden of stijgende punten worden toegewezen aangezien zij het systeem ingaan.
 
 Het [programma voor de certificering](https://www.validity.com/products/returnpath/certification/) van retourpaden biedt een aantal voordelen, waaronder:
 * Een meetbare toename van plaatsing in postvakken op de belangrijkste leveranciers van postvakken, zoals Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru en meer
@@ -42,6 +42,6 @@ De [Certified Senders Alliance](https://certified-senders.org/certification-proc
 * Bescherming tegen juridische en financiële risico&#39;s door volledige naleving van wettelijke normen
 * Bescherming van de reputatie door middel van vroegtijdige waarschuwingen van het CSA Complaints Office en dagelijkse spamvangrapporten
 
-ISPs is vrij om deze diensten te gebruiken en het aantal ISPs kan afhankelijk van toestaan lijst variëren.
+ISPs is vrij om deze diensten te gebruiken en het aantal ISPs kan afhankelijk van de lijst van gewenste personen variëren.
 
 Nochtans, omdat meer en meer ISPs hun antispamfilters bouwen die op het gedrag van elke inbox eigenaar eerder dan het analyseren van de berichtinhoud zelf worden gebaseerd, kan het gebruiken van IP Certificatie geen garantie van inbox plaatsing of zelfs levering zijn.
