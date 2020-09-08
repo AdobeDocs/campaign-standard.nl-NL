@@ -12,10 +12,10 @@ discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 81%
+source-wordcount: '786'
+ht-degree: 83%
 
 ---
 
@@ -32,23 +32,23 @@ In alle gevallen voldoet de quarantaineprocedure aan de specifieke regels van de
 
 De profielen waarvan de e-mailadressen of telefoonnummers in quarantaine zijn geplaatst, worden automatisch uitgesloten tijdens de voorbereiding van berichten (zie [In quarantaine geplaatste adressen voor een levering identificeren](#identifying-quarantined-addresses-for-a-delivery)). Hierdoor wordt de levering versneld, omdat het foutenpercentage een belangrijk effect heeft op de leveringssnelheid.
 
-Sommige internetproviders beschouwen e-mails automatisch als spam als het aantal ongeldige adressen te hoog is. Met quarantaine kunt u dus voorkomen dat u door deze providers aan een lijst van afgewezen personen wordt toegevoegd.
+Sommige internetproviders beschouwen e-mails automatisch als spam als het aantal ongeldige adressen te hoog is. Quarantaine staat u daarom toe om niet door deze leveranciers worden toegevoegd op lijst van gewenste personen.
 
 Bovendien zijn de verzendkosten voor sms-berichten lager doordat onjuiste telefoonnummers van de levering worden uitgesloten.
 
 Raadpleeg [deze pagina](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html) voor meer informatie over de best practices voor het beveiligen en optimaliseren van uw leveringen.
 
-### Quarantine versus lijst van afgewezen personen {#quarantine-vs-block-list}
+### Quarantine versus Lijst van afgewezen personen {#quarantine-vs-denylist}
 
 **Quarantaine** is alleen van toepassing op een adres, niet op het profiel zelf. Wanneer twee profielen hetzelfde e-mailadres hebben, worden ze dus allebei beïnvloed als het adres in quarantaine wordt geplaatst.
 
 Op dezelfde manier kan een profiel waarvan het e-mailadres in quarantaine is geplaatst, zijn profiel bijwerken en een nieuw adres invoeren. Dit profiel kan dan opnieuw worden getarget door leveringsacties.
 
-Being on the **block list**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out). Raadpleeg [Info over opt-in en opt-out in Campagne voor meer informatie over het proces voor](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)lijsten van afgewezen personen.
+Being on the **Denylist**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out). Voor meer informatie over het proces van de lijst van afgewezen personen, verwijs naar [over opt-in en opt-out in Campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!NOTE]
 >
->Wanneer een gebruiker op een SMS-bericht reageert met een trefwoord zoals &quot;STOP&quot; om zich af te melden voor SMS-leveringen, wordt dit profiel niet aan de lijst van afgewezen personen toegevoegd, zoals in het e-mailuitschakelproces. Het profieltelefoonnummer wordt in quarantaine geplaatst met de status **[!UICONTROL On block list]**. Deze status verwijst alleen naar het telefoonnummer, het profiel bevindt zich niet op de lijst van afgewezen personen zodat de gebruiker e-mailberichten blijft ontvangen. Raadpleeg [deze sectie](../../channels/using/managing-incoming-sms.md#managing-stop-sms) voor meer informatie hierover.
+>Wanneer een gebruiker op een SMS-bericht reageert met een trefwoord zoals &quot;STOP&quot; om zich af te melden voor SMS-leveringen, wordt dit profiel niet toegevoegd op lijst van gewenste personen zoals in het e-mailuitschakelproces. Het profieltelefoonnummer wordt in quarantaine geplaatst met de status **[!UICONTROL Denylisted]**. Deze status verwijst alleen naar het telefoonnummer, het profiel wordt niet toegevoegd op lijst van gewenste personen zodat de gebruiker e-mailberichten blijft ontvangen. Raadpleeg [deze sectie](../../channels/using/managing-incoming-sms.md#managing-stop-sms) voor meer informatie hierover.
 
 ## In quarantaine geplaatste adressen identificeren {#identifying-quarantined-addresses}
 
@@ -88,7 +88,7 @@ Adobe Campaign beheert quarantaine op basis van leveringsfouten en de reden die 
 
    Wanneer een levering bij een nieuwe poging succesvol is, wordt de foutenteller voor het adres dat in quarantaine stond, opnieuw geïnitialiseerd. De adresstatus verandert in **[!UICONTROL Valid]** en wordt na twee dagen door de **[!UICONTROL Database cleanup]**-workflow uit de quarantainelijst verwijderd.
 
-Als een gebruiker een e-mail kwalificeert als spam (**Feedbacklus**), wordt het bericht automatisch doorgestuurd naar een technisch postvak dat door Campaign wordt beheerd. Het e-mailadres van de gebruiker wordt vervolgens automatisch in quarantaine geplaatst met de status **[!UICONTROL On block list]**. Deze status verwijst alleen naar het adres, het profiel bevindt zich niet op de lijst van afgewezen personen, zodat de gebruiker SMS-berichten en pushberichten blijft ontvangen.
+Als een gebruiker een e-mail kwalificeert als spam (**Feedbacklus**), wordt het bericht automatisch doorgestuurd naar een technisch postvak dat door Campaign wordt beheerd. Het e-mailadres van de gebruiker wordt vervolgens automatisch in quarantaine geplaatst met de status **[!UICONTROL Denylisted]**. Deze status verwijst alleen naar het adres, het profiel staat niet op de lijst van afgewezen personen, zodat de gebruiker SMS-berichten en pushberichten blijft ontvangen.
 
 >[!NOTE]
 Quarantaine in Adobe Campaign is hoofdlettergevoelig. Zorg dat u de e-mailadressen in kleine letters importeert, zodat ze later niet opnieuw worden getarget.
