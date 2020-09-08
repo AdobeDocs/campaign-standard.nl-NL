@@ -12,10 +12,10 @@ discoiquuid: 5f20ff3f-8242-4735-8c60-c57610edff52
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 0%
+source-wordcount: '212'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Platte bestandsuitwisselingen met Direct Mail-providers die informatie over terugsturen bevatten, worden ondersteund. Hierdoor kunnen de overeenkomstige postadressen van toekomstige mededelingen worden uitgesloten. Op deze manier kunt u ook op de hoogte worden gesteld van een onjuist adres en contact opnemen met de klant via andere kanalen of u kunt hem aanmoedigen zijn postadres bij te werken.
 
-Een contactpersoon is bijvoorbeeld naar een nieuwe plaats verhuisd en heeft je geen nieuw postadres verschaft. De leverancier wint de lijst van onjuiste adressen terug en verzendt deze informatie naar Adobe Campaign die automatisch aan de bloklijst de onjuiste adressen toevoegt.
+Een contactpersoon is bijvoorbeeld naar een nieuwe plaats verhuisd en heeft je geen nieuw postadres verschaft. De leverancier wint de lijst van onjuiste adressen terug en verzendt deze informatie naar Adobe Campaign die automatisch de onjuiste adressen toe_voegt op lijst van gewenste personen.
 
 Opdat deze functionaliteit werkt, omvat het direct-mail standaardleveringsmalplaatje, in de inhoud, identiteitskaart van het leveringslogboek. Zo kan Adobe Campaign het profiel en de leveringsgegevens synchroniseren met de informatie die door de provider wordt geretourneerd.
 
@@ -36,7 +36,7 @@ Een importsjabloon is beschikbaar onder **[!UICONTROL Adobe Campaign > Resources
 
 Wanneer het importeren is voltooid, voert Adobe Campaign automatisch de volgende handelingen uit:
 
-* Onjuiste adressen worden toegevoegd aan de bloklijst op profielniveau
+* De onjuiste adressen worden toegevoegd op lijst van gewenste personen op het profielniveau
 * De belangrijkste leveringsindicatoren (KPI&#39;s) worden bijgewerkt
 * De leveringslogs worden bijgewerkt
 
