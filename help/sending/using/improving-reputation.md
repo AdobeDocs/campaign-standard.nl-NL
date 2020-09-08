@@ -13,17 +13,17 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 0%
+source-wordcount: '455'
+ht-degree: 2%
 
 ---
 
 
 # Uw reputatie verbeteren{#improving-reputation}
 
-Verwijder dubbele e-mailadressen van uw doel om te voorkomen dat de ontvangers uitputten. Deze stap beschermt uw verzendende reputatie en verzekert goed quarantainebeheer. Adobe Campaign biedt de noodzakelijke hulpmiddelen aan om deze aanbevelingen uit te voeren en het risico te vermijden om aan een bloklijst door ISPs worden toegevoegd.
+Verwijder dubbele e-mailadressen van uw doel om te voorkomen dat de ontvangers uitputten. Deze stap beschermt uw verzendende reputatie en verzekert goed quarantainebeheer. Adobe Campaign biedt de noodzakelijke hulpmiddelen aan om deze aanbevelingen uit te voeren en het risico te vermijden dat door ISPs wordt toegevoegd op lijst van gewenste personen.
 
 Hieronder vindt u meer informatie over duplicaat- en quarantainebeheer.
 
@@ -33,7 +33,7 @@ Het hebben van dubbele e-mailadressen kan veelvoudige gevolgen hebben:
 * Hetzelfde bericht wordt meerdere keren verzonden. Zelfs als Campagne standaard een deduplicatieprocedure uitvoert voordat het wordt verzonden, is er niets om te voorkomen dat hetzelfde bericht wordt verzonden door verschillende handelingen met dezelfde inhoud wanneer een doel wordt gesplitst.
 * Abonnementsverzoeken worden niet geaccepteerd. Als een ontvanger zich afmeldt na het ontvangen van een bericht, zal zijn dubbel profiel nog verkiesbaar voor toekomstige berichten zijn.
 
-Naast deze zijstap van opt-in procedures, zal deze situatie gebruikers waarschijnlijk leiden om de berichten als spam te beschouwen en een procedure van de bloklijst bij ISP teweeg te brengen.
+Naast deze zijstap van opt-in procedures, zal deze situatie gebruikers waarschijnlijk leiden om de berichten als spam te beschouwen en een procedure van de lijst van afgewezen personen bij ISP teweeg te brengen.
 
 U moet bijzonder voorzichtig zijn wanneer het uitvoeren van verrichtingen op het gegevensbestand. Om dubbel werk zoveel mogelijk te voorkomen, moeten de volgende acties worden uitgevoerd:
 * **De invoer moet zorgvuldig worden gevormd.** Dit is met name van belang bij het kiezen van de verzoeningssleutel.
