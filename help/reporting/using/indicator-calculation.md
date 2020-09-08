@@ -1,5 +1,5 @@
 ---
-title: Indicatorberekening
+title: Indicatoren berekenen
 description: Begrijp de resultaten van uw rapporten met een lijst van elke metrische formule.
 page-status-flag: never-activated
 uuid: dfbc9d7e-62db-4e77-bb8e-0ac826ec7333
@@ -12,15 +12,15 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Indicatorberekening{#indicator-calculation}
+# Indicatoren berekenen{#indicator-calculation}
 
 >[!NOTE]
 >
@@ -47,15 +47,15 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Blockliklet<br /> </td> 
-   <td> @blocklisted<br /> </td> 
+   <td> Toegevoegd op lijst van gewenste personen<br /> </td> 
+   <td> @blacklist<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Blocklikliksnelheid<br /> </td> 
-   <td> @rateBlocklisted<br /> </td> 
-   <td> @blocklisted/@sent<br /> </td> 
+   <td> Lijst van afgewezen personen<br /> </td> 
+   <td> @rateBlacklist<br /> </td> 
+   <td> @blacklist/@sent<br /> </td> 
    <td> De noemer voor de berekening van de rente is gebaseerd op het aantal verzonden (Geleverd + Bounces).<br /> </td> 
   </tr> 
   <tr> 
@@ -193,7 +193,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   <tr> 
    <td> Unieke klikken<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. Raadpleeg dit <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">voorbeeld</a>voor meer informatie hierover.<br /> </td> 
+   <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -229,7 +229,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
  </tbody> 
 </table>
 
-## Levering pushmelding {#push-notification-delivery}
+## Levering via pushmelding {#push-notification-delivery}
 
 <table> 
  <thead> 
@@ -262,7 +262,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   </tr> 
   <tr> 
    <td> Open<br /> </td> 
-   <td> @open<br /> </td> 
+   <td> @opens<br /> </td> 
    <td> @count(status=open)<br /> </td> 
   </tr> 
   <tr> 
@@ -273,7 +273,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   <tr> 
    <td> Unieke openingen<br /> </td> 
    <td> @uniqueOpenen<br /> </td> 
-   <td> Unieke opent wordt berekend gebruikend de concepten van Schets van unieke RecipientIds. Raadpleeg dit <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">voorbeeld</a>voor meer informatie hierover.<br /> </td> 
+   <td> Unieke opent wordt berekend gebruikend de concepten van Schets van unieke RecipientIds. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressies<br /> </td> 
@@ -293,7 +293,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   <tr> 
    <td> Unieke klikken<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. Raadpleeg dit <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">voorbeeld</a>voor meer informatie hierover.<br /> </td> 
+   <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Klikken tot snelheid<br /> </td> 
@@ -337,7 +337,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> Unieke afbeeldingen<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=view)<br /> </td> 
-   <td> Voor <span class="uicontrol">Target-gebruikers op basis van hun sjabloon Campagne-profiel (inAppProfile)</span> , gebruiker = Ontvanger-id.<br /> Voor <span class="uicontrol">Target geldt dat voor alle gebruikers van een mobiele app (inAppBroadcast)</span> en <span class="uicontrol">Target op basis van hun mobiele profielsjablonen (inApp)</span> de gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
+   <td> Voor <span class="uicontrol">doelgebruikers die zijn gebaseerd op hun sjabloon Campagneprofiel (inAppProfile)</span> , is gebruiker = Ontvangersidentiteitskaart<br /> Voor <span class="uicontrol">Doel: alle gebruikers van een mobiele app (inAppBroadcast)</span> en <span class="uicontrol">doelgebruikers op basis van hun sjablonen voor hun mobiele profiel (inApp)</span> . Dit is de gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
   </tr> 
   <tr> 
    <td> In-app klikken <br /> </td> 
@@ -349,10 +349,10 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> Unieke muisklikken in de app<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=click)<br /> </td> 
-   <td> Voor <span class="uicontrol">Target-gebruikers op basis van hun sjabloon Campagne-profiel (inAppProfile)</span> , gebruiker = Ontvanger-id.<br /> Voor <span class="uicontrol">Target geldt dat voor alle gebruikers van een mobiele app (inAppBroadcast)</span> en <span class="uicontrol">Target op basis van hun mobiele profielsjablonen (inApp)</span> de gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
+   <td> Voor <span class="uicontrol">doelgebruikers die zijn gebaseerd op hun sjabloon Campagneprofiel (inAppProfile)</span> , is gebruiker = Ontvangersidentiteitskaart<br /> Voor <span class="uicontrol">Doel: alle gebruikers van een mobiele app (inAppBroadcast)</span> en <span class="uicontrol">doelgebruikers op basis van hun sjablonen voor hun mobiele profiel (inApp)</span> . Dit is de gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Doorklikfrequentie in de app<br /> </td> 
+   <td> In-app klikfrequentie<br /> </td> 
    <td> @inappclickthrough<br /> </td> 
    <td> De totale kliks op Knoop 1 of Knoop 2/totale beelden*100<br /> </td> 
    <td> </td> 
@@ -367,7 +367,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> Unieke ontslagen in de app<br /> </td> 
    <td> @uniquedismission<br /> </td> 
    <td> @unique(@count (status=close)<br /> </td> 
-   <td> Voor <span class="uicontrol">Target-gebruikers op basis van hun sjabloon Campagne-profiel (inAppProfile)</span> , gebruiker = Ontvanger-id.<br /> Voor <span class="uicontrol">Target geldt dat voor alle gebruikers van een mobiele app (inAppBroadcast)</span> en <span class="uicontrol">Target op basis van hun mobiele profielsjablonen (inApp)</span> de gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
+   <td> Voor <span class="uicontrol">doelgebruikers die zijn gebaseerd op hun sjabloon Campagneprofiel (inAppProfile)</span> , is gebruiker = Ontvangersidentiteitskaart<br /> Voor <span class="uicontrol">Doel: alle gebruikers van een mobiele app (inAppBroadcast)</span> en <span class="uicontrol">doelgebruikers op basis van hun sjablonen voor hun mobiele profiel (inApp)</span> . Dit is de gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
   </tr> 
   <tr> 
    <td> Ontslagfrequentie in de app<br /> </td> 
