@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cbc9114b1179fe6fc0f87a9b9b55397ef60d3cb9
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '6144'
+source-wordcount: '6097'
 ht-degree: 94%
 
 ---
@@ -55,8 +55,6 @@ Nieuwe e-mailmogelijkheden van AI: tijd optimaliseren en profiel scoring verzend
 Gebruiksscenario’s voor workflows zijn bijgewerkt en opnieuw ingedeeld in thematische secties. [Meer informatie](../../automating/using/about-workflow-use-cases.md)
 
 Er zijn gebruiksscenario’s toegevoegd voor het [versleutelen](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) en [ontsleutelen](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) van data met workflows voor Configuratiescherm en Campaign.
-
-Zowel de termen ‘whitelist’ als ‘blacklist’ zijn uit de documentatie van Adobe Campaign verwijderd. Sommige van deze termen bestaan mogelijk nog steeds in de gebruikersinterface van het product, optienamen en interne code, maar worden in komende Campaign-releases vervangen door ‘blokkeringslijst’ en ‘acceptatielijst’.
 
 Verwijzingen naar de oude ondersteuningswebsite zijn vervangen door de nieuwe URL. [Meer informatie](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -594,7 +592,7 @@ Er is informatie toegevoegd over het bijhouden van logboektypen. [Meer informati
 
 De sectie over de activiteit Query is bijgewerkt met queryvoorbeelden. [Meer informatie](../../automating/using/query.md#query-samples)
 
-De sectie die gewijd is aan lijsten van afgewezen personen is omgedoopt tot &quot;Inzicht in opt-in en opt-out processen&quot;. De sectie is bijgewerkt met informatie over het beheren van opt-ins voor specifieke kanalen en het instellen van landingspagina’s om opt-ins en opt-outs te beheren. [Meer informatie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Het gedeelte over lijsten van afgewezen personen is omgedoopt tot &quot;Inzicht in opt-in- en opt-out-processen&quot;. De sectie is bijgewerkt met informatie over het beheren van opt-ins voor specifieke kanalen en het instellen van landingspagina’s om opt-ins en opt-outs te beheren. [Meer informatie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Ontdek de best practices voor het gebruik van door Adobe gehoste SFTP-servers. [Meer informatie](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -618,7 +616,7 @@ Gebruik van aangepaste resources in transactionele berichten - [Meer informatie]
 
 De API voor de AVG groepeert functies die de automatische verwerking van AVG-verzoeken toestaan. [Meer informatie](../../api/using/creating-a-privacy-request.md)
 
-Extra informatie over hoe u bestemmingspagina&#39;s kunt instellen om uw ontvangers de mogelijkheid te geven om aan de lijst van afgewezen personen te worden toegevoegd. [Meer informatie](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Extra informatie over hoe u bestemmingspagina&#39;s kunt instellen om uw ontvangers de mogelijkheid te geven om te worden toegevoegd op lijst van gewenste personen. [Meer informatie](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 De sectie over het [configureren van transactionele berichten](../../administration/using/configuring-transactional-messaging.md) is gereorganiseerd en er is een [stapsgewijs gebruiksscenario](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) toegevoegd.
 
@@ -672,7 +670,7 @@ Er is informatie toegevoegd over hoe u een levering in een terugkerende workflow
 
 De sectie **[!UICONTROL Customizing a push notification]** is opnieuw ingedeeld met stapsgewijze gebruiksscenario’s. [Meer informatie](../../channels/using/customizing-a-push-notification.md)
 
-Nieuwe sectie gewijd aan het beheer van de lijst van afgewezen personen. [Meer informatie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+Nieuwe sectie over het beheer van de lijst van afgewezen personen. [Meer informatie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 De informatie over leveringsfouten en quarantaines is bijgewerkt. [Meer informatie](../../sending/using/monitoring-a-delivery.md)
 
