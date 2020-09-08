@@ -13,15 +13,15 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 0%
+source-wordcount: '662'
+ht-degree: 6%
 
 ---
 
 
-# Over leverbaarbaarheid{#about-deliverability}
+# Leverbaarheid{#about-deliverability}
 
 De levering staat toe om het succes van uw campagnes te meten die uw ontvangers&#39; inbox bereiken zonder te stuiteren, of als spam worden gemerkt.
 
@@ -47,17 +47,17 @@ Hier volgt een lijst met de belangrijkste punten die moeten worden gecontroleerd
 ## Leveringsgereedschappen {#deliverability-tools}
 
 Eerst raadpleegt u de documentatie over de leverbare gereedschappen die bij Campaign Standard worden geleverd:
-* [Best practices voor levering](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+* [Best practices voor levering](https://helpx.adobe.com/nl/campaign/kb/delivery-best-practices.html)
 * [De naam van de afzender aanpassen](../../designing/using/personalization.md#personalizing-the-sender)
 * [De onderwerpregel van een e-mail testen](../../sending/using/testing-subject-line-email.md)
 * [De verzendtijd optimaliseren](../../sending/using/optimizing-the-sending-time.md)
 * [Berichten voorvertonen](../../sending/using/previewing-messages.md)
-* [E-mailrendering](../../sending/using/email-rendering.md)
-* [Toezicht op levering](../../sending/using/monitoring-a-delivery.md)
+* [E-mailweergave](../../sending/using/email-rendering.md)
+* [Een levering controleren](../../sending/using/monitoring-a-delivery.md)
 * [Waarschuwingen ontvangen wanneer fouten optreden](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Leveringsfouten begrijpen](../../sending/using/understanding-delivery-failures.md)
-* [Werken met quarantainebeheer](../../sending/using/understanding-quarantine-management.md)
-* [Quarantine versus block list](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
+* [Quarantainebeheer begrijpen](../../sending/using/understanding-quarantine-management.md)
+* [Quarantine versus lijst van afgewezen personen](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
 * [Dynamische rapporten](../../reporting/using/about-dynamic-reports.md)
 
 ## Netwerkconfiguratie controleren {#network-configuration}
