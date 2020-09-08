@@ -13,10 +13,10 @@ context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '1727'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 0%
       </tr>
       <tr>
          <td>additionalData</td>
-         <td>Aanvullende gegevens</td>
+         <td>Aanvullende data</td>
          <td>collectie </td>
          <td> </td>
       </tr>
@@ -76,7 +76,7 @@ ht-degree: 0%
       </tr>
       <tr>
          <td>campagne (campagneBase)</td>
-         <td>Campagne</td>
+         <td>Campaign</td>
          <td>link </td>
          <td> </td>
       </tr>
@@ -361,7 +361,7 @@ ht-degree: 0%
       </tr>
       <tr>
          <td>name</td>
-         <td>ID</td>
+         <td>Id</td>
          <td>tekenreeks (64)</td>
          <td> </td>
       </tr>
@@ -431,7 +431,7 @@ ht-degree: 0%
          <td>opsomming (byte) </td>
          <td>
             <ul>
-               <li>Blocklist - blockList - 3</li>
+               <li>Blacklist - blackList - 3</li>
                <li>Geen specifieke actie - geen - 0</li>
                <li>Abonnement opzeggen - abonnement opgezegd - 2</li>
                <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
@@ -612,7 +612,7 @@ ht-degree: 0%
       </tr>
       <tr>
          <td>titel</td>
-         <td>Openingspagina</td>
+         <td>Landingspagina</td>
          <td>tekenreeks (255)</td>
          <td> </td>
       </tr>
@@ -636,7 +636,7 @@ ht-degree: 0%
             <ul>
                <li>Algemeen, algemeen, 0</li>
                <li>Abonnement op een service opzeggen - geen abonnement - 3</li>
-               <li>Blocklist - blockList - 4</li>
+               <li>Blacklist - blackList - 4</li>
                <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                <li>Overname - overname - 1</li>
                <li>Abonnement op een service - Abonnement - 2</li>
