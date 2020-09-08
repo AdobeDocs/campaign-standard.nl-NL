@@ -13,10 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 93%
+source-wordcount: '232'
+ht-degree: 94%
 
 ---
 
@@ -28,7 +28,7 @@ Campaign wordt geleverd met een aantal kant-en-klare sjablonen voor landingspagi
 * **[!UICONTROL Acquisition]**: dit is de standaardsjabloon voor landingspagina&#39;s waarmee u data in de Campaign-database kunt vastleggen en bijwerken.
 * **[!UICONTROL Subscription]**: deze sjabloon moet worden gebruikt om abonnementen op een service aan te bieden.
 * **[!UICONTROL Unsubscription]**: deze sjabloon kan worden gekoppeld via een e-mail die naar abonnees van een service wordt verzonden, zodat zij hun abonnement op deze service kunnen opzeggen.
-* **[!UICONTROL Block list]**: deze sjabloon moet worden gebruikt wanneer een profiel niet langer wenst te worden gecontacteerd via Campaign. For more about block list management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **[!UICONTROL Denylist]**: deze sjabloon moet worden gebruikt wanneer een profiel niet langer wenst te worden gecontacteerd via Campaign. For more about denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 Deze sjablonen worden standaard voorgesteld bij het maken van een nieuwe landingspagina.
 
