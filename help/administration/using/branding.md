@@ -13,10 +13,10 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 4f16f4b36fd77e79ade10b4fe39db737e0de9f4c
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 100%
+source-wordcount: '1252'
+ht-degree: 79%
 
 ---
 
@@ -33,7 +33,7 @@ Technische beheerders kunnen een of meer merken definiëren om de parameters voo
 
 Het belangrijkste principe voor het configureren en gebruiken van merken is het volgende:
 
-1. Maak en configureer het merk. Deze bewerking vereist specifieke machtigingen en wordt uitgevoerd door de technische beheerder van Adobe Campaign.
+1. Maak en configureer het merk. Deze bewerking vereist specifieke machtigingen en wordt uitgevoerd door de technische beheerder van Adobe Campaign. De stappen om een nieuw merk in Campagne te krijgen worden gedetailleerd [in deze sectie](#creating-a-brand).
 1. Maak een of meer sjablonen voor leveringen en landingspagina&#39;s voor dit merk. Raadpleeg de sectie [Een sjabloon maken](../../start/using/marketing-activity-templates.md).
 1. Maak berichten en landingspagina&#39;s op basis van deze sjabloon. Raadpleeg de secties [Een e-mail maken](../../channels/using/creating-an-email.md) en [Een landingspagina maken](../../channels/using/designing-a-landing-page.md).
 
@@ -89,6 +89,26 @@ Een **merk** wordt gedefinieerd door de volgende kenmerken:
    Hier worden de aanvullende parameters gedefinieerd waarmee de koppelingen kunnen worden bijgehouden op externe systemen, zoals Web Analytics-tools zoals Adobe Analytics of Google Analytics.
 
    ![](assets/branding_05.png)
+
+## Creating a new brand {#creating-a-brand}
+
+U kunt nieuwe entiteiten van uw organisatie toevoegen in Campagne, of een nieuw type van e-mail tot stand brengen dat u onder een verschillend subdomain moet verzenden. Volg onderstaande stappen om dit te doen:
+
+1. **Een nieuw subdomein** delegeren - Voor elk nieuw subdomein dat door Adobe moet worden gebruikt, is de eerste stap het delegeren van het subdomein. U kunt dit uitvoeren door het Controlebord [van de](https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/subdomains-branding.translate.html) Campagne of uit te reiken aan uw Adobe technisch contact. Meer informatie over subdomeindelegatie vindt u [in dit artikel](https://helpx.adobe.com/nl/campaign/kb/domain-name-delegation.html).
+
+1. **Creeer een kaartje** - Zodra subdomain wordt gedelegeerd, zal Adobe het in uw productiemilieu moeten opstelling. Om dit te verzoeken, [creeer een kaartje aan de Zorg](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) van de Cliënt met de volgende informatie:
+
+   * Betreft: [ACS] New brand
+
+   * Inhoud: Een nieuw domein is gedelegeerd aan Adobe en wij zouden het in ons ACS-platform willen oprichten
+
+   * Domein: XXX
+
+   * Productie-URL: XXX.campagne.adobe.com
+
+1. **Een leveringssjabloon** maken - Als het nieuwe merk beschikbaar is, kunt u het beste ten minste één nieuwe lege leveringssjabloon maken die naar dit nieuwe merk verwijzen. [Meer informatie](#linking-a-brand-to-a-template).
+
+1. **Richtlijnen voor** de leverbaarheid van de controle - Voordat u begint met het gebruik van het nieuwe domein, moet de strategie worden besproken met het team voor de leveringszekerheid van Adobe. Zij zullen helpen om de beste praktijken te bepalen, als een nieuwe affiniteit zou moeten worden gecreeerd om IPs tussen domeinen bijvoorbeeld te verdelen, en/of als een platforminplan zou moeten worden bepaald. Meer informatie over de aanbevolen procedures voor [de levering vindt u in deze sectie](../../sending/using/about-deliverability.md).
 
 ## Een merk toewijzen aan een e-mail {#assigning-a-brand-to-an-email}
 
