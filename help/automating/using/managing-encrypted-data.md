@@ -12,10 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e58ac301d82a360d7065be7c1e3490a2a1821344
+source-git-commit: bd48bb03e6f02a65e6f82cd9cb3131f153e19875
 workflow-type: tm+mt
 source-wordcount: '938'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 0%
 
 In sommige gevallen moeten de gegevens die u wilt importeren, mogelijk worden gecodeerd, bijvoorbeeld als deze PII-gegevens bevatten.
 
-Als u uitgaande gegevens wilt coderen of binnenkomende gegevens wilt decoderen, moet u de GPG-sleutels beheren met het [Configuratiescherm](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html).
+Als u uitgaande gegevens wilt coderen of binnenkomende gegevens wilt decoderen, moet u de GPG-sleutels beheren met het [Configuratiescherm](https://docs.adobe.com/content/help/nl-NL/control-panel/using/instances-settings/gpg-keys-management.html).
 
 >[!NOTE]
 >
 >Het Configuratiescherm is beschikbaar voor alle klanten die op AWS worden gehost (behalve voor klanten die hun marketinginstanties op locatie hosten).
 
-Als u niet in aanmerking komt om het Configuratiescherm te gebruiken, dient u contact op te nemen met de klantenservice van Adobe, zodat deze uw exemplaar de benodigde opdrachten voor versleuteling/ontsleuteling kunnen geven. Hiertoe dient u een verzoek in met de volgende gegevens:
+Als u niet verkiest om Controlebord te gebruiken, moet u de Zorg van de Klant van Adobe contacteren zodat zij uw instantie van de noodzakelijke encryptie/decryptiebevelen voorzien. Hiertoe dient u een verzoek in met de volgende gegevens:
 
 * Het **label** dat in de interface van de Campagne zal tonen om het bevel te gebruiken. Bijvoorbeeld &quot;Bestand versleutelen&quot;.
 * De **opdracht** om op uw instantie te installeren.
@@ -44,7 +44,7 @@ Zodra het verzoek wordt verwerkt, zullen de encryptie/decryptiebevelen op het **
 **Verwante onderwerpen:**
 
 * [Bestand laden](../../automating/using/load-file.md)
-* [Bestand uitpakken](../../automating/using/extract-file.md)
+* [Bestand extraheren](../../automating/using/extract-file.md)
 
 ## Hoofdlettergebruik: Gegevens importeren die zijn versleuteld met een toets die is gegenereerd door het Configuratiescherm {#use-case-gpg-decrypt}
 
@@ -63,9 +63,9 @@ De volgende stappen worden uitgevoerd:
 
 1. In het externe systeem gebruikt u de openbare sleutel die u van het Configuratiescherm hebt gedownload om de gegevens te coderen die u naar Campaign Standard wilt importeren.
 
-   ![](assets/gpg_external.png)
+   ![](assets/do-not-localize/gpg_external.png)
 
-1. In Campaign Standard maakt u een workflow om de gecodeerde gegevens te importeren en te decoderen met de persoonlijke sleutel die is geïnstalleerd via het Configuratiescherm. Hiervoor maken we als volgt een workflow:
+1. In Campaign Standard, bouwt een werkschema om de gecodeerde gegevens in te voeren en het te decrypteren gebruikend de privé sleutel die via het Controlebord is geïnstalleerd. Hiervoor maken we als volgt een workflow:
 
    ![](assets/gpg_workflow.png)
 
@@ -104,7 +104,7 @@ De volgende stappen worden uitgevoerd:
 
    ![](assets/gpg_install.png)
 
-1. In Campaign Standard maakt u een workflow om de gegevens te exporteren en deze te exporteren met de persoonlijke sleutel die is geïnstalleerd via het Configuratiescherm. Hiervoor maken we als volgt een workflow:
+1. In Campaign Standard, bouwt een werkschema om de gegevens uit te voeren en het uit te voeren gebruikend de privé sleutel die via het Controlebord is geïnstalleerd. Hiervoor maken we als volgt een workflow:
 
    ![](assets/gpg-workflow-export.png)
 
@@ -112,7 +112,7 @@ De volgende stappen worden uitgevoerd:
    * **[!UICONTROL Extract file]** activiteit: De gegevens worden gecodeerd en uitgepakt in een bestand.
    * **[!UICONTROL Transfer file]** activiteit: Hiermee wordt het bestand met de gecodeerde gegevens overgebracht naar een SFTP-server.
 
-1. Vorm de **[!UICONTROL Query]** activiteit om de gewenste gegevens van het gegevensbestand te richten. For more on this, refer to [this section](../../automating/using/query.md).
+1. Vorm de **[!UICONTROL Query]** activiteit om de gewenste gegevens van het gegevensbestand te richten. Raadpleeg [deze sectie](../../automating/using/query.md) voor meer informatie.
 
 1. Open de **[!UICONTROL Extract file]** activiteit en configureer de activiteit naar wens (uitvoerbestand, kolommen, indeling, enz.). De globale concepten op hoe te om de activiteit te vormen zijn beschikbaar in [deze sectie](../../automating/using/extract-file.md).
 
@@ -130,4 +130,4 @@ De volgende stappen worden uitgevoerd:
 
 1. U kunt de workflow nu uitvoeren. Zodra het wordt uitgevoerd, zal het gegevensdoel door de vraag naar de server SFTP in een gecodeerd.gpg- dossier worden uitgevoerd.
 
-   ![](assets/gpg-sftp-encrypt.png)
+   ![](assets/do-not-localize/gpg-sftp-encrypt.png)
