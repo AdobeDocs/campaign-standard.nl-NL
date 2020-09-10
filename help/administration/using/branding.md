@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f16f4b36fd77e79ade10b4fe39db737e0de9f4c
+source-git-commit: fc1dc9ca876a0f18b2dad0e02331cfc05a799aad
 workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 79%
@@ -98,9 +98,9 @@ U kunt nieuwe entiteiten van uw organisatie toevoegen in Campagne, of een nieuw 
 
 1. **Creeer een kaartje** - Zodra subdomain wordt gedelegeerd, zal Adobe het in uw productiemilieu moeten opstelling. Om dit te verzoeken, [creeer een kaartje aan de Zorg](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) van de Cliënt met de volgende informatie:
 
-   * Betreft: [ACS] New brand
+   * Betreft: ACS Nieuw merk ingesteld
 
-   * Inhoud: Een nieuw domein is gedelegeerd aan Adobe en wij zouden het in ons ACS-platform willen oprichten
+   * Inhoud: Er is een nieuw domein gedelegeerd aan Adobe en wij willen dat dit wordt opgezet in ons campagneplatform
 
    * Domein: XXX
 
