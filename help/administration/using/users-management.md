@@ -12,10 +12,10 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 100%
+source-wordcount: '1183'
+ht-degree: 96%
 
 ---
 
@@ -61,6 +61,10 @@ We concentreren ons liever op de manier waarop verschillende taken in Adobe Camp
 ### Functionele beheerders {#functional-administrators}
 
 Functionele beheerders zijn gebruikers die toegang hebben tot de meest technische onderdelen van de interface. Zij beschikken over de rol **[!UICONTROL Administration]** en zorgen ervoor dat het platform zo is opgezet dat marketeers zich puur kunnen richten op het leveren van hun campagnes.
+
+>[!CAUTION]
+>
+>Alleen functionele beheerders met **[!UICONTROL Administration]** rol en toegang tot **alle** eenheden hebben toegang tot verzendende logboeken, berichtlogboeken, trackinglogboeken, uitsluitingslogboeken, propositielogboeken en abonnementlogboeken. Een gebruiker zonder beheerdersrechten kan zich richten op deze logbestanden, maar begint met een gekoppelde tabel (profielen, levering).
 
 Functionele beheerders zijn de enige gebruikers die toegang hebben tot het menu **[!UICONTROL Administration]** in de Adobe Campaign-interface. Aangezien deze gebruikers toegang nodig hebben tot de technische bronnen, kunt u de meer geavanceerde rollen aan hen toewijzen, zoals de kant-en-klare rollen **[!UICONTROL Administration]** en **[!UICONTROL Datamodel]**. Deze rollen worden gecombineerd in de **[!UICONTROL Administrators]** kant-en-klare beveiligingsgroep. Raadpleeg [deze sectie](../../administration/using/list-of-roles.md) voor meer informatie hierover.
 
