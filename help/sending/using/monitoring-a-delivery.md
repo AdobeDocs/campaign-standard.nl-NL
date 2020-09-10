@@ -12,18 +12,21 @@ discoiquuid: eb9fa216-4568-423a-9396-8f7b82181ae9
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
-workflow-type: ht
-source-wordcount: '412'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
+workflow-type: tm+mt
+source-wordcount: '461'
+ht-degree: 89%
 
 ---
 
 
 # Een levering controleren{#monitoring-a-delivery}
 
-Er zijn verschillende manieren om een levering te controleren en de impact ervan te meten:
+Er zijn verschillende manieren om een levering te controleren en de impact ervan te meten. Als functionele beheerder, kunt u berichtlogboeken en leveringslogboeken toegang hebben.
+>[!CAUTION]
+>
+>Alleen functionele [beheerders](../../administration/using/users-management.md#functional-administrators)met **[!UICONTROL Administration]** rol en toegang tot **alle** eenheden hebben toegang tot verzendende logboeken, berichtlogbestanden, trackinglogboeken, uitsluitings- of abonnementlogbestanden. Een gebruiker zonder beheerdersrechten kan zich richten op deze logbestanden, maar begint met een gekoppelde tabel (profielen, levering).
 
 * **Berichtenlogbestanden**: Deze logboeken kunnen direct vanuit het berichtdashboard worden geopend. Zij tonen de details van de verzending, welk doel is uitgesloten en waarom, evenals de tracking-informatie zoals aantal geopend en aantal klikken.
 
