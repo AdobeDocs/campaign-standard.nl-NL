@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3bace60da0b3cdbbc693507a03cbfb6886b15b4e
+source-git-commit: 2112f93fba368435850957e6e90b7c7c88ddf248
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
@@ -55,7 +55,7 @@ U kunt als volgt deze gegevenselementen maken:
 
 1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. Dan **[!UICONTROL Experience Cloud ID]** in de **[!UICONTROL Data element]** typedrop-down.
 
-   ![](assets/rules_1.png)
+   ![](assets/do-not-localize/rules_1.png)
 
 1. Klik op Pkey-gegevenselement om het Pkey-gegevenselement te maken **[!UICONTROL Add data element]**.
 
@@ -143,7 +143,7 @@ Als u PII-gegevens wilt verzenden naar [!DNL Adobe Campaign Standard], maakt u e
 
 1. In **[!UICONTROL Timeout]**, select 0.
 
-   ![](assets/rules_2.png)
+   ![](assets/do-not-localize/rules_2.png)
 
 Uw gebruikersgegevens zijn nu geconfigureerd om naar Campagne te worden verzonden.
 
@@ -179,7 +179,7 @@ Als u volggegevens wilt verzenden naar [!DNL Adobe Campaign Standard] voor rappo
 
 1. In **[!UICONTROL Timeout]**, select 0.
 
-   ![](assets/rules_3.png)
+   ![](assets/do-not-localize/rules_3.png)
 
 ### Postback-up van pushberichten {#push-tracking-postback}
 
@@ -264,4 +264,4 @@ Gebruik de trackAction-API om de handelingen van de app bij te houden. Zie Toepa
 
 1. In **[!UICONTROL Timeout]**, select 5.
 
-   ![](assets/rules_4.png)
+   ![](assets/do-not-localize/rules_4.png)
