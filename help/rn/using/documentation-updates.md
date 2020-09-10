@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
 workflow-type: tm+mt
-source-wordcount: '6097'
+source-wordcount: '6128'
 ht-degree: 94%
 
 ---
@@ -28,19 +28,23 @@ Naast de [releaseopmerkingen](../../rn/using/release-notes.md) bij Adobe Campaig
 
 Het gedeelte Transactieberichten voor gebeurtenissen is opnieuw ingedeeld en verduidelijkt. [Meer informatie](../../channels/using/event-transactional-messages.md)
 
+Er is een voorzichtige opmerking toegevoegd om gebruikers te waarschuwen voor machtigingsbeperkingen met betrekking tot logtoegang. [Meer informatie](../../administration/using/users-management.md)
+
+Er is een nieuwe sectie toegevoegd waarin het maken van een nieuw merk nader wordt beschreven. [Meer informatie](../../administration/using/branding.md#creating-a-brand)
+
 ## Documentatie-updates - augustus 2020 {#doc-updates-august-2020}
 
 Er is een nieuwe bijgewerkte sectie beschikbaar om aan de slag te gaan met het transactiebericht. [Meer informatie](../../channels/using/getting-started-with-transactional-msg.md)
 
-De sectie Transactionele berichtenbeperkingen is verplaatst. [Meer informatie](../../channels/using/transactional-messaging-limitations.md)
+De sectie **Transactionele berichtenbeperkingen** is [hier verplaatst](../../channels/using/transactional-messaging-limitations.md)
 
-De sectie Verzenden voorbereiden is verplaatst. [Meer informatie](../../sending/using/preparing-the-send.md)
+De sectie **Verzenden** voorbereiden is [hier verplaatst](../../sending/using/preparing-the-send.md)
 
 ## Documentatie-updates - juli 2020 {#doc-updates-july-2020}
 
 Er is een nieuwe sectie toegevoegd met richtsnoeren voor de bewaking van Campaign Standard. [Meer informatie](../../administration/using/monitoring-guidelines.md)
 
-De sectie Externe API-instructies en -beperkingen is bijgewerkt.[Meer informatie](../../automating/using/external-api.md#guardrails)
+De sectie Externe API-instructies en -beperkingen is bijgewerkt. [Meer informatie](../../automating/using/external-api.md#guardrails)
 
 De overzichtspagina van het privacybeheer is bijgewerkt met informatie over de Thaise wet inzake de bescherming van persoonsgegevens (PDPA) en de Braziliaanse Lei Geral de Proteção de Dados (LGPD). [Meer informatie](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
