@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
+source-git-commit: acaa07b3e40d0bcbf7c44f866ede141b992015a1
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,8 @@ Binnen het Predictive Send Time Optimization model, zijn er twee submodellen:
 
 Uitvoerdetails
 
-* Bereken de beste tijd van de dag om een e-mail voor de volgende 7 dagen te verzenden met intervallen van 1 uur (bijvoorbeeld: 9:00, 10:00, 11:00)
-* Het model geeft de beste tijd aan binnen de komende 7 dagen om de e-mail te verzenden
+* Bereken de beste tijd van de dag om een e-mail voor in de 7 dagen van de week te verzenden met intervallen van 1 uur (bijvoorbeeld: 9:00, 10:00, 11:00)
+* Het model geeft de beste dag in de week en het beste uur op die dag aan
 * Elke optimale tijd wordt tweemaal berekend: één keer om de open snelheid te maximaliseren en één keer om de klikfrequentie te maximaliseren
 * Er worden 16 velden gegeven (14 voor de weekdagen en 2 voor de hele week):
    * beste tijd om een e-mail te verzenden om te optimaliseren klikt voor maandag - waarden tussen 0 en 23
