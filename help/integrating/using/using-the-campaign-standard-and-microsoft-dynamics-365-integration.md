@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ca6b418351cfbe539da9f1f4a542c2d7014dfc24
+source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 0%
@@ -105,7 +105,8 @@ Hieronder volgt een lijst met kenmerken en een beschrijving:
 >De vervalperiode van de pagina van de e-mailspiegel kan in het configuratiescherm van de overeenkomstige activiteit van het e-mailkanaal van de Campagne worden gewijzigd (zie de parameters [van de](../../administration/using/configuring-email-channel.md#validity-period-parameters)Geldigheidsperiode).
 
 >[!NOTE]
-Voor opt-out, wanneer een opt-out attribuut in Dynamiek 365 wordt gewijzigd, zal het in Campagne worden weerspiegeld als u de Dynamiek 365-aan-Campagne of bidirectionele opt-out configuratie hebt geselecteerd, en als u die bepaalde eigenschap correct in kaart gebracht hebt.
+>
+>Voor opt-out, wanneer een opt-out attribuut in Dynamiek 365 wordt gewijzigd, zal het in Campagne worden weerspiegeld als u de Dynamiek 365-aan-Campagne of bidirectionele opt-out configuratie hebt geselecteerd, en als u die bepaalde eigenschap correct in kaart gebracht hebt.
 
 ## Gegevensstromen {#data-flows}
 
@@ -124,7 +125,8 @@ Afhankelijk van het volume van verslagen, kan uw opslag van de Campagne SFTP voo
 Het attribuut externalId van de de profiellijst van de Campagne moet met de Dynamica 365 contactattributen contactId worden bevolkt om contacttoegang te werken. De aangepaste entiteiten van de campagne moeten ook worden gevuld met het attribuut &#39;Dynamics 365 unique ID&#39;; dit kenmerk kan echter worden opgeslagen in elk kenmerk van een aangepaste entiteit voor campagne (het hoeft dus niet om externalId te gaan).
 
 >[!NOTE]
-Voor ingangen van de douaneentiteit, veranderings het volgen binnen Dynamiek 365 voor gesynchroniseerde douaneentiteiten moet worden toegelaten.
+>
+>Voor ingangen van de douaneentiteit, veranderings het volgen binnen Dynamiek 365 voor gesynchroniseerde douaneentiteiten moet worden toegelaten.
 
 ### E-mailmarketinggebeurtenisstroom
 
