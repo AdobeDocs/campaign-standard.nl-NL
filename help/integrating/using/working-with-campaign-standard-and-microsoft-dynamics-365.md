@@ -12,54 +12,61 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21135f27fd1d8297edd3dd067446d09c39de9f4f
+source-git-commit: 3590fd42e4692df6bba21ac721568ae60dfcdd65
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 0%
+source-wordcount: '431'
+ht-degree: 3%
 
 ---
 
 
 # Aan de slag met de integratie van Microsoft Dynamics 365
 
->[!IMPORTANT]
->
->Deze integratie is momenteel niet beschikbaar. Er wordt een nieuwe aansluiting ontwikkeld die in de toekomst beschikbaar zal zijn. Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+Activeer uw CRM-gegevens voor kanaalcommunicatie: Leer hoe te om contacten van de Dynamiek 365 van Microsoft aan Adobe Campaign over te gaan, en gegevens van campagneprestaties (verzendt, opent, klikt, en stuitingen) terug van Adobe Campaign naar de Dynamica 365 van Microsoft te delen.
 
-Activeer uw CRM-gegevens voor kanaalcommunicatie: Leer hoe te om contacten van de Dynamica 365 van Microsoft aan de Campagne van Adobe over te brengen, en de gegevens van campagneprestaties (verzendt, opent, klikt, en stuit) terug van de Campagne van Adobe aan de Dynamica 365 van Microsoft te delen.
+Ondersteunde versies worden weergegeven [in deze sectie](#support-software-versions).
 
->[!NOTE]
+>[!CAUTION]
 >
->De integratie van Microsoft Dynamics 365 / Adobe Campaign Standard biedt alleen ondersteuning voor de **verkoopapp** Microsoft Dynamics 365.
+>Deze mogelijkheid is niet beschikbaar buiten de verpakking als onderdeel van het product. Voor de implementatie moet Adobe Consulting worden ingeschakeld. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie.
 
 ## Beginselen
 
-De integratie van de Campagne van Adobe en van de Dynamica 365 van Microsoft laat synchronisatie van alle beschikbare gegevens van het Contact in het systeem van CRM toe, die alle relevante gegevens van het Contact ter beschikking stellen voor campagneactiviteiten.
+De integratie van de Dynamica 365 van Adobe Campaign en van Microsoft laat synchronisatie van alle beschikbare contactgegevens in het systeem van CRM toe, die alle relevante contactgegevens ter beschikking stellen voor campagneactiviteiten.
 
-Omgekeerd, omdat profielen in Adobe Campaign communiceren met berichten, deze gegevens (bijvoorbeeld: verzendt, opent, klikt, en de grenzen) stromen automatisch in de Dynamiek 365 van Microsoft om de verslagen van het Contact met marketing activiteit eveneens te houden volledig.
+Omgekeerd, aangezien de profielen binnen Adobe Campaign met berichten in wisselwerking staan, die gegevens (b.v.: verzendt, opent, klikt, en stuitingen) stromen automatisch in de Dynamiek 365 van Microsoft om contactverslagen te houden volledig met marketing activiteit eveneens.
 
-De recentste versie van de integratie voegt ook steun voor douaneentiteiten toe, toelatend douaneentiteiten in Dynamiek 365 om aan overeenkomstige douaneentiteiten in Campagne worden gesynchroniseerd.
+De integratie steunt ook douaneentiteiten, toelatend [douaneentiteiten](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md) in Dynamiek 365 om aan overeenkomstige douaneentiteiten in Campagne worden gesynchroniseerd.
 
-Deze integratie is ontworpen om drie hoofdgebruiksituaties te ondersteunen:
+Deze integratie is bedoeld ter ondersteuning van vier belangrijke gebruiksgevallen:
 
-1. Het synchroniseren van Contacten van Dynamiek 365 aan Campagne zodat kunnen zij in marketing campagnes worden gericht
-1. Het verzenden van e-mail marketing gebeurtenissen (verzendt, opent, klikt, stuit) van Campagne aan Dynamica 365 om aan verkoopbewaarplaats in de interface van de Dynamiek 365 te tonen
+1. Het synchroniseren van contacten van Dynamiek 365 aan Campagne zodat kunnen zij in marketing campagnes worden gericht
 1. Het synchroniseren van douaneentiteiten van Dynamiek 365 aan Campagne zodat kunnen zij voor segmentatie en verpersoonlijking worden gebruikt
+1. Het verzenden van e-mail marketing gebeurtenissen (verzendt, opent, klikt, stuit) van Campagne aan Dynamica 365 om aan verkoopbewaarplaats in de interface van de Dynamiek 365 te tonen
+1. Synchronizing opt-out (bijv., niet e-mail) status tussen Dynamics 365 en ACS om de voorkeur van de klantenprivacy te handhaven.
 
 ## Belangrijkste voordelen
 
 * Consistente communicatie tussen verkoop en marketing
 
-De integratie van de Campagne van Adobe en van de Dynamica 365 van Microsoft verleent zowel systeemtoegang tot het inzicht van de klant als de geschiedenis van de e-mailmarketing die alle berichten aan de klant toestaat om het zelfde verenigbare overseinen te delen.
+De integratie van de Dynamica 365 van Adobe Campaign en van Microsoft geeft zowel systeemtoegang tot klanteninzicht als e-mailmarketing geschiedenis die alle berichten aan de klant toestaan om het zelfde verenigbare overseinen te delen.
 
 * Holistische mening van alle vooruitzichten en klantengegevens
 
-Door de Campagne van Adobe met Dynamica 365 te integreren, is het mogelijk om e-mailmarketing geschiedenis op elke Contact van binnen het systeem van CRM te delen en toegang te hebben.
+Door Adobe Campaign met Dynamics 365 te integreren, is het mogelijk om e-mailmarketing geschiedenis op elk contact van binnen het systeem van CRM te delen en toegang te hebben.
 
 * Dynamiek 365 gegevens op om het even welk kanaal activeren
 
-Als contactgegevens zijn gesynchroniseerd met Adobe Campaign, kunnen communicatie via elk online of offline kanaal worden verzonden met Campagne, zoals mobiele push, in-app, e-mail of direct mail. Ongeacht het voorkeurkanaal van elke Contactpersoon, heeft de Campagne u behandeld.
+Als contactgegevens zijn gesynchroniseerd met Adobe Campaign, kunnen communicatie via elk online of offline kanaal worden verzonden met Campagne, zoals mobiele push, in-app, e-mail of direct mail. Ongeacht het voorkeurkanaal van elke contactpersoon, heeft de Campagne u behandeld.
 
 >[!CAUTION]
 >
->Voor de synchronisatie van Contacten, beschouwt deze integratie Dynamiek 365 als bron van waarheid.  Om het even welke veranderingen in gesynchroniseerde contactattributen zouden in Dynamiek 365, niet in Campagne moeten worden gedaan.  Als er wijzigingen worden aangebracht in Campagne, kunnen deze tijdens de synchronisatie worden overschreven.
+>Voor contact en de synchronisatie van de douaneentiteit, beschouwt deze integratie Dynamiek 365 als bron van waarheid.  Om het even welke veranderingen in gesynchroniseerde attributen zouden in Dynamiek 365, niet in Campagne moeten worden gedaan.  Als er wijzigingen worden aangebracht in Campagne, kunnen deze tijdens de synchronisatie worden overschreven.
+
+## Softwareversies ondersteunen {#support-software-versions}
+
+Voor deze integratie zijn de volgende softwareversies vereist:
+
+* Microsoft Dynamics 365 for Sales Online, nieuwste versie
+
+* Adobe Campaign Standard, nieuwste versie
