@@ -12,9 +12,9 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0ce73bf7e250c5e88bbb525854e81ef27662ab06
+source-git-commit: 60a67adf51881b785ad2f0b40ff544a0b9988afd
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '499'
 ht-degree: 3%
 
 ---
@@ -44,53 +44,51 @@ Hiervoor volgt u de onderstaande procedure:
 
 1. Navigeer naar [Adobe IO Console](https://console.adobe.io/home#) en selecteer uw Adobe IMS Organisatie-id van het drop-down menu bij het hoogste recht van het scherm.
 
-1. Klik vervolgens op **[!UICONTROL Create new project]** onder **[!UICONTROL Quick Start]**.
+1. Klik vervolgens **[!UICONTROL Create new project]** onder **[!UICONTROL Quick Start]**.
 
-![](assets/adobeIO1.png)
+   ![](assets/adobeIO1.png)
 
 1. Klik onder **[!UICONTROL Get started with your new project]** op **[!UICONTROL Add API]**.
 
-![](assets/adobeIO2.png)
+   ![](assets/adobeIO2.png)
 
-1. Selecteer de Adobe Campaign API (u moet mogelijk naar de onderkant schuiven) en klik op Volgende.
+1. Selecteer de Adobe Campaign API (u moet mogelijk naar de onderkant schuiven) en klik **[!UICONTROL Next]**.
 
-![](assets/adobeIO3.png)
+   ![](assets/adobeIO3.png)
 
-1. Op het volgende scherm kunt u uw eigen openbare sleutel uploaden of Adobe IO de sleutel laten genereren voor u. Deze instructies volgen de laatste optie. Als u besluit Adobe IO te laten het zeer belangrijke paar produceren, klik op optie 1; Klik vervolgens op de knop &quot;Keypair genereren&quot;.
+1. Op het volgende scherm kunt u uw eigen openbare sleutel uploaden of Adobe IO de sleutel laten genereren voor u. Deze instructies volgen de laatste optie. Als u besluit Adobe IO te laten het zeer belangrijke paar produceren, klik op optie 1; klikt u op de **[!UICONTROL Generate keypair]** knop.
 
-![](assets/adobeIO4.png)
+   ![](assets/adobeIO4.png)
 
 1. In het volgende scherm wordt u gevraagd een naam te geven en de downloadlocatie van het zip-bestand met sleutelpaar te selecteren.
 
 Nadat u het bestand hebt gedownload, kunt u het uitpakken om de openbare en persoonlijke sleutels weer te geven. Adobe IO heeft reeds de openbare sleutel op uw Adobe IO project toegepast. U moet uw persoonlijke sleutel voor later behouden; de persoonlijke sleutel wordt gebruikt tijdens de installatie vóór de integratie van het integratieprogramma.
 
-1. Klik op Volgende om door te gaan
+1. Klik **[!UICONTROL Next]** om door te gaan
 
-![](assets/adobeIO5.png)
+   ![](assets/adobeIO5.png)
 
-1. In het volgende scherm selecteert u productprofielen die u aan dit project wilt koppelen.
+1. In het volgende scherm selecteert u productprofielen die u aan dit project wilt koppelen. Selecteer het productprofiel in de titel: De huurder-id van uw campagneexemplaar - [!UICONTROL Administrators]
 
-1. Selecteer het productprofiel in de titel: De huurder-id van uw Campagne-instantie - [!UICONTROL Administrators] - Voorbeeld: Campaign Standard - uw campagne-huurderID - Beheerders
+   Voorbeeld: Campaign Standard - uw campagne-huurderID - Beheerders
 
-1. Klik op [!UICONTROL Save configured API].
+1. Klik op **[!UICONTROL Save configured API]**.
 
-![](assets/adobeIO6.png)
+   ![](assets/adobeIO6.png)
 
-1. Op het volgende scherm zult u de details van uw nieuw Adobe IO project zien.
+1. Op het volgende scherm zult u de details van uw nieuw Adobe IO project zien. Klik **[!UICONTROL Add to Project]** bij de bovenkant verlaten van het scherm en selecteer **API** van het drop down.
 
-1. Klik op &quot;Toevoegen aan project&quot; linksboven in het scherm en selecteer &quot;API&quot; in de keuzelijst.
+   ![](assets/adobeIO7.png)
 
-![](assets/adobeIO7.png)
+1. In het volgende scherm moet u de API voor I/O-gebeurtenissen selecteren en vervolgens op **[!UICONTROL Next]** klikken.
 
-1. In het volgende scherm moet u de API voor I/O-gebeurtenissen selecteren en vervolgens op Volgende klikken.
+1. Klik op het volgende scherm **[!UICONTROL Save the configured API]**.  U wordt teruggebracht naar het scherm met projectdetails.
 
-1. Klik in het volgende scherm op &quot;geconfigureerde API opslaan&quot;.  U wordt teruggebracht naar het scherm met projectdetails.
+1. Klik nu **[!UICONTROL Add to Project]** bij de bovenkant verlaten van het scherm en selecteer **API** van de drop-down daling, zoals u eerder deed.
 
-1. Klik nu op &quot;Toevoegen aan project&quot; linksboven in het scherm en selecteer &quot;API&quot; in de vervolgkeuzelijst, zoals u eerder hebt gedaan.
+1. In het volgende scherm moet u de API voor I/O-beheer selecteren en op deze knop klikken **[!UICONTROL Next]**.
 
-1. In het volgende scherm moet u de API voor I/O-beheer selecteren en op Volgende klikken.
-
-1. Klik in het volgende scherm op &quot;geconfigureerde API opslaan&quot;.
+1. Klik op het volgende scherm **[!UICONTROL Save the configured API]**.
 
 Installatie vóór integratie in campagne is nu voltooid.  Ga aan volledige [pre-integratieopstelling voor de Dynamica 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)van Microsoft te werk.
 
