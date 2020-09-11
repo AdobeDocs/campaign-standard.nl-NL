@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e90f878814e65a9a61ee4013d94fd0bf3b1f7875
+source-git-commit: 0ce73bf7e250c5e88bbb525854e81ef27662ab06
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 3%
@@ -61,12 +61,12 @@ De kaartjes van de steun kunnen met de Aangepaste Zorg van Adobe worden geregist
 
 Voor om het even welke kwesties met de stromen van integratiegegevens, zorg ervoor om de rapportreeks als deel van de vraagbeschrijving evenals de volgende informatie te omvatten:
 
-* Proceeigenaar: Engineering-architecten
+* **Proceeigenaar**: Engineering-architecten
 
-* ES-proces-id: [Wordt verstrekt tijdens het instapproces]
+* **ES-verwerkings-id**: Wordt verstrekt tijdens het instapproces
 
-* Procestitel: Dynamics 365 / Adobe Campaign Standard Integration
+* **Procestitel**: Dynamics 365 / Adobe Campaign Standard Integration
 
-* Probleembeschrijving: [Beschrijving van het probleem]
+* **Beschrijving** van uitgave: Beschrijving van het probleem
 
 Integratieondersteuning is momenteel 24x5 (beschikbaar van maandag tot en met vrijdag, met uitzondering van Adobe-feestdagen en onderbrekingsperiodes).
