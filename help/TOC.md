@@ -4,10 +4,10 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Help bij Adobe Campaign Standard
 translation-type: tm+mt
-source-git-commit: 92c743c707412f25160ca31ab1da04210ad40816
+source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 86%
+source-wordcount: '1628'
+ht-degree: 85%
 
 ---
 
@@ -237,7 +237,14 @@ ht-degree: 86%
       + [Uw triggers testen](integrating/using/testing-your-triggers.md)
       + [Gebruiksscenario’s voor triggers bij afbrekingsacties](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign en Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Aan de slag met de integratie van Microsoft Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [Aan de slag met de integratie van Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [Gegevens beheren tussen Campagne en Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+      + [Integratie aanvragen](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+      + [Adobe I/O configureren](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [De integratie van Dynamics 365 voor Campaign configureren](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [Aangepaste bronnen voor campagne toewijzen en eigen entiteiten voor dynamiek 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [De integratie van Dynamics 365 gebruiken](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Integratiegereedschappen](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + Processen en data beheren {#managing-processes-and-data}
    + [Aan de slag met data- en procesbeheer](automating/using/get-started-workflows.md)
    + Algemene werking van workflows{#workflow-general-operation}
