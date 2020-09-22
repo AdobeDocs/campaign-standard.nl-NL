@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5203f3b3c520f38d91627df2159a90ab5912e6b6
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 17%
+source-wordcount: '664'
+ht-degree: 16%
 
 ---
 
@@ -134,7 +134,7 @@ Deze sectie bevat een lijst met functies en mogelijkheden die uit Campaign Stand
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Creative SDK is uit bedrijf genomen. Als gevolg hiervan is de afbeeldingseditie, aangedreven door Creative SDK, niet langer beschikbaar vanaf de release Campagne 20.2 in e-mailberichten met Campaign Standard.</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] is uit bedrijf genomen. Als gevolg hiervan is de afbeeldingseditie met de functie [!DNL Creative SDK] in e-mails met Campaign Standard niet meer beschikbaar vanaf de release van Campagne 20.2.</p></br>
    </td> 
   </tr> 
  </tbody> 
