@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Help bij Adobe Campaign Standard
 breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: 5884730b7319e9ee456882e66c8b515458e53e86
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 85%
@@ -143,6 +143,7 @@ ht-degree: 85%
       + [De onderwerpregel van een e-mail testen](sending/using/testing-subject-line-email.md)
       + [E-mails met AI-mogelijkheden](sending/using/predictive.md)
       + [E-mailweergave](sending/using/email-rendering.md)
+      + [Een besturingsgroep toevoegen](sending/using/control-group.md)
       + [Traps gebruiken](sending/using/using-traps.md)
       + [De verzending voorbereiden](sending/using/preparing-the-send.md)
    + Berichten plannen {#scheduling-messages}
@@ -338,7 +339,6 @@ ht-degree: 85%
          + [Incrementele query op abonnees van een service](automating/using/incremental-query-on-subscribers.md)
          + [Segmentering volgens leeftijdsgroepen](automating/using/segmentation-age-groups.md)
          + [Bronnen gebruiken die niet gelijk zijn aan targetingdimensies](automating/using/using-resources-different-from-targeting-dimensions.md)
-         + [Een controlegroep samenstellen](automating/using/workflow-control-group.md)
       + Data management {#data-management}
          + [Een bestandspubliek in overeenstemming brengen met de database](automating/using/reconcile-file-audience-with-database.md)
          + [De gegevens uit een geïmporteerd bestand dedupliceren](automating/using/deduplicating-data-imported-file.md)
