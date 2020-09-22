@@ -13,9 +13,9 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '854'
 ht-degree: 9%
 
 ---
@@ -49,7 +49,7 @@ De stappen voor het maken van een pushmelding met Adobe Campaign zijn:
 
 1. Enter your push notification properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
 
-   In het vervolgkeuzemenu worden zowel SDK V4- als SDK-toepassingen voor Experience Platforms weergegeven.
+   Houd er rekening mee dat in het keuzemenu zowel SDK V4- als SDK-toepassingen voor Experience Platforms worden weergegeven.
 
    ![](assets/push_notif_properties.png)
 
@@ -102,7 +102,7 @@ U kunt pushmeldingen naar een geselecteerd publiek in Adobe Campaign verzenden d
 
 1. Op het **[!UICONTROL Exclusion logs]** tabblad vindt u de lijst met alle berichten die zijn uitgesloten van het verzonden doel en de reden voor deze uitsluiting.
 
-   Hier kunnen we zien dat een van onze abonnees op mobiele apps is uitgesloten omdat het adres is toegevoegd op lijst van gewenste personen en de andere abonnees omdat het profiel een duplicaat was.
+   Hier kunnen we zien dat een van onze abonnees van mobiele apps is uitgesloten, omdat het adres zich op de lijst van afgewezen personen bevond en de andere abonnees omdat het profiel een duplicaat was.
 
    ![](assets/push_send_5.png)
 
@@ -117,7 +117,7 @@ U kunt pushmeldingen naar een geselecteerd publiek in Adobe Campaign verzenden d
 
    ![](assets/push_send_4.png)
 
-1. Klik in het **[!UICONTROL Deployment]** venster op het **[!UICONTROL Sending logs]** tabblad voor toegang tot de lijst met verzonden pushberichten en hun status. Voor deze levering is een pushmelding verzonden, terwijl het andere is mislukt als gevolg van een ongeldige apparaattoken. Deze abonnee wordt dan toegevoegd aan de denyist van verdere leveringen.
+1. Klik in het **[!UICONTROL Deployment]** venster op het **[!UICONTROL Sending logs]** tabblad voor toegang tot de lijst met verzonden pushberichten en hun status. Voor deze levering is een pushmelding verzonden, terwijl het andere is mislukt als gevolg van een ongeldige apparaattoken. Deze abonnee zal dan aan de lijst van afgewezen personen van verdere leveringen worden toegevoegd.
 
    >[!NOTE]
    >
