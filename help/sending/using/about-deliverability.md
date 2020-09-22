@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 6%
+source-wordcount: '657'
+ht-degree: 5%
 
 ---
 
@@ -47,7 +47,7 @@ Hier volgt een lijst met de belangrijkste punten die moeten worden gecontroleerd
 ## Leveringsgereedschappen {#deliverability-tools}
 
 Eerst raadpleegt u de documentatie over de leverbare gereedschappen die bij Campaign Standard worden geleverd:
-* [Best practices voor levering](https://helpx.adobe.com/nl/campaign/kb/delivery-best-practices.html)
+* [Best practices voor levering](../../sending/using/delivery-best-practices.md)
 * [De naam van de afzender aanpassen](../../designing/using/personalization.md#personalizing-the-sender)
 * [De onderwerpregel van een e-mail testen](../../sending/using/testing-subject-line-email.md)
 * [De verzendtijd optimaliseren](../../sending/using/optimizing-the-sending-time.md)
