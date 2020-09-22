@@ -12,9 +12,9 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '443'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Als niet, controleer of de trekker van de pijpleiding wordt ontvangen.
 
 Als niet, contacteer Adobe om de configuratie van de pijpleidingseindpunten te controleren.
 
-Zo ja, volg de volgende hulplijnen:
+Zo ja, volg deze richtsnoeren:
 
 * Controleer het type van verzoeningsidentiteitskaart in de gegevensbron van de Campagne.
 * CustomerId-gegevensbron wordt gemaakt via Customer Attributes.
@@ -74,10 +74,10 @@ Zo ja, volg de volgende hulplijnen:
 
 **Is de trigger in status in behandeling?**
 
-Indien niet, ga naar de volgende stap. Zo ja, volg de volgende hulplijnen:
+Indien niet, ga naar de volgende stap. Zo ja, volg deze richtsnoeren:
 
 * Controleer of de transactiesjabloon is gepubliceerd.
-* Controleer of het profiel niet is toegevoegd op lijst van gewenste personen.
+* Controleer of het profiel niet in lijst van afgewezen personen is.
 * Controleer de toepassing van typologische regels.
 * Controleer de logboeken van het transactiemelding bericht.
 
