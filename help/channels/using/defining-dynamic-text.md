@@ -1,6 +1,6 @@
 ---
 title: Dynamische tekst definiëren
-description: Leer hoe u verschillende teksten dynamisch aan de gebruiker kunt weergeven volgens de voorwaarden die zijn gedefinieerd in Adobe Campaign.
+description: Leer hoe u verschillende teksten dynamisch aan de gebruiker kunt weergeven volgens de voorwaarden die in Adobe Campaign zijn gedefinieerd.
 page-status-flag: never-activated
 uuid: bbcd200c-4fb4-467b-ba39-09b8bee9bcaa
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
+source-git-commit: 564613ecc2879be87d1f85f9f15e675697690139
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 3%
 
 ---
 
@@ -24,6 +27,10 @@ Dynamische tekst wordt op dezelfde manier gedefinieerd als dynamische inhoud. Ra
 >[!NOTE]
 >
 >Voor SMS en push kunt u alleen dynamische tekst definiëren. U kunt zowel dynamische inhoud als tekst op een openingspagina definiëren. Zie Dynamische inhoud in een e-mailbericht [](../../designing/using/designing-content-in-adobe-campaign.md)definiëren als u dynamische tekst wilt definiëren met de [e-mailontwerper](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+
+Vervangende paren, tekens die niet in het meertalig basisvlak van de Unicode-tekenset staan, kunnen niet in 2 bytes (16 bits) worden opgeslagen en moeten in 2 UTF-16-tekens worden gecodeerd. Deze tekens zijn enkele CJK-ideografieën, de meeste emojis en sommige talen.
+<br>Deze tekens kunnen onverenigbaarheidsproblemen veroorzaken in dynamische tekst. U moet sterke tests uitvoeren alvorens uw berichten te verzenden.
+
 
 In het onderstaande voorbeeld ziet u hoe u dynamische tekst in een SMS-bericht definieert.
 
