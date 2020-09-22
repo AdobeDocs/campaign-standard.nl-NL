@@ -12,9 +12,9 @@ discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
+workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 100%
 
@@ -154,6 +154,7 @@ Een koppeling geeft de verbinding weer die een tabel heeft met andere tabellen.
    * **[!UICONTROL 1 cardinality simple link]**: Eén instantie van de brontabel kan maximaal één overeenkomende instantie van de doeltabel bevatten.
    * **[!UICONTROL N cardinality collection link]**: Eén instantie van de brontabel kan meerdere overeenkomende instanties van de doeltabel bevatten, maar één instantie van de doeltabel kan maximaal één overeenkomende instantie van de brontabel hebben.
    * **[!UICONTROL 0 or 1 cardinality simple link]**: Eén instantie van de brontabel kan maximaal één overeenkomende instantie van de doeltabel of geen instantie bevatten. Merk op dat dit **[!UICONTROL Link type]** prestatieproblemen kan veroorzaken.
+
    ![](assets/schema_extension_29.png)
 
 1. In het scherm **[!UICONTROL New link]** zijn de velden **[!UICONTROL Label]** en **[!UICONTROL ID]** standaard ingevuld, maar u kunt ze bewerken.
@@ -161,8 +162,6 @@ Een koppeling geeft de verbinding weer die een tabel heeft met andere tabellen.
    >[!NOTE]
    >
    >Gebruik maximaal 30 tekens.
-
-   >[!IMPORTANT]
    >
    >Het is niet mogelijk de naam van een koppeling te wijzigen nadat deze is gemaakt. Als u de naam van een koppeling wilt wijzigen, moet u de koppeling verwijderen en opnieuw maken.
 
@@ -178,6 +177,7 @@ Een koppeling geeft de verbinding weer die een tabel heeft met andere tabellen.
 
    * **[!UICONTROL Use the primary key to make the join]**: Met deze samenvoegdefinitie kunt u de primaire sleutel van de profielen gebruiken om af te stemmen met de primaire sleutel van de aankopen.
    * **[!UICONTROL Define specific join conditions]**: Met deze samenvoegdefinitie kunt u handmatig de velden selecteren waarmee beide resources worden samengevoegd. Houd er rekening mee dat de record **Purchase** niet zichtbaar is als de data niet correct zijn geconfigureerd.
+
    ![](assets/schema_extension_17.png)
 
 De gemaakte koppelingen worden weergegeven in de lijst in de sectie **[!UICONTROL Links]**.
