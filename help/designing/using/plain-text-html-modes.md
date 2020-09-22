@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e2ea8020c82f578b2cf8c00fa7b9f55b6ce2edd
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 0%
 
 ---
 
@@ -53,15 +56,15 @@ U kunt de HTML-versie van de e-mail op twee manieren bewerken:
 
 * Selecteer een element in de WYSIWYG-interface en klik op het **[!UICONTROL Source code]** pictogram.
 
-   Alleen de bron van het geselecteerde element wordt weergegeven. U kunt de broncode bewerken als het geselecteerde element een **[!UICONTROL HTML]** inhoudscomponent is. Andere componenten zijn alleen-lezen, maar kunnen nog steeds worden bewerkt in de volledige HTML-versie van de e-mail.
+   Alleen de bron van het geselecteerde element wordt weergegeven. U kunt de broncode bewerken als het geselecteerde element een **[!UICONTROL HTML]** inhoudscomponent is. Andere componenten bevinden zich in de modus Alleen-lezen, maar kunnen nog steeds worden bewerkt in de volledige HTML-versie van de e-mail.
 
    ![](assets/email_designer_html2.png)
 
-Als u de HTML-code wijzigt, kan de reactiesnelheid van de e-mail worden verbroken. Controleer dit met de **[!UICONTROL Preview]** knop. Zie [Berichten](../../sending/using/previewing-messages.md)voorvertonen.
+Als u de HTML-code wijzigt, kan de reactiesnelheid van de e-mail worden verbroken. Controleer dit met de **[!UICONTROL Preview]** knop. Zie [Berichten voorvertonen](../../sending/using/previewing-messages.md).
 
 ## E-mails ontwerpen voor mobiele rendering {#switching-to-mobile-view}
 
-U kunt het responsieve ontwerp van een e-mail perfectioneren door alle stijlopties voor mobiele weergave afzonderlijk te bewerken. U kunt bijvoorbeeld marges en opvulling aanpassen, kleinere of grotere tekengrootten gebruiken, knoppen wijzigen of andere achtergrondkleuren toepassen die specifiek zijn voor de mobiele versie van uw e-mail.
+U kunt het responsieve ontwerp van een e-mail perfectioneren door alle stijlopties voor mobiele weergave afzonderlijk te bewerken. U kunt bijvoorbeeld marges en opvulling aanpassen, kleinere of grotere lettergrootten gebruiken, knoppen wijzigen of andere achtergrondkleuren toepassen die specifiek zijn voor de mobiele versie van uw e-mail.
 
 Alle stijlopties zijn beschikbaar in de mobiele weergave. De e-mailDesigner-stijlinstellingen worden eerder op deze pagina weergegeven.
 
@@ -106,7 +109,7 @@ Alle stijlopties zijn beschikbaar in de mobiele weergave. De e-mailDesigner-stij
 
    ![](assets/email_designer_mobile_view_change_content.png)
 
-   Klik nogmaals op de **[!UICONTROL Switch to mobile view]** knop om terug te gaan naar de standaardweergave op het bureaublad. De wijzigingen worden weerspiegeld.
+1. Klik nogmaals op de **[!UICONTROL Switch to mobile view]** knop om terug te gaan naar de standaardweergave op het bureaublad. De wijzigingen worden weerspiegeld.
 
    ![](assets/email_designer_mobile_view_desktop_content-change.png)
 
