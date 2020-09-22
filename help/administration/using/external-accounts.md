@@ -13,10 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 9ba56ca09a1ae948b6d4b1945085f59db1ade973
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 96%
+source-wordcount: '1774'
+ht-degree: 84%
 
 ---
 
@@ -35,6 +35,7 @@ U kunt de volgende typen externe accounts instellen:
 * Adobe Analytics. Zie [deze sectie](../../integrating/using/configure-campaign-analytics-integration.md) voor meer informatie.
 * Google reCAPTCHA. Zie [deze sectie](#google-recaptcha-external-account) voor meer informatie.
 * Microsoft Azure Blob-opslag. Zie [deze sectie](#microsoft-azure-external-account) voor meer informatie.
+* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
 
 >[!NOTE]
 >
@@ -94,6 +95,23 @@ SFTP-servers kunnen worden beheerd via het Configuratiescherm. Zie de [Configura
 >
 >Het Configuratiescherm is alleen beschikbaar voor Admin-gebruikers van klanten die op AWS worden gehost.
 Controleer [hier](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id) of uw instantie op AWS wordt gehost.
+
+## OAuth 2.0-account {#oauth-account}
+
+Geef voor een externe OAuth 2.0-rekening de volgende gegevens:
+
+* Een **subsidietype**: alleen **clientreferenties** worden ondersteund.
+* Een URL voor de **beveiligde API**: Voer het eindpunt van de vergunning in.
+* **OAuth 2.0 gevoelige geloofsbrieven**: Deze sectie is bedoeld voor geloofsbrieven die van nature gevoelig zijn. Referentiewaarden worden op het scherm gemaskeerd nadat ze zijn toegevoegd. op dat moment zijn ze niet leesbaar of bewerkbaar . Als voor het eindpunt van de autorisatie een bepaalde referentie moet worden ingevoegd in de HTTP-autorisatieheader in plaats van in de hoofdtekst van de POST, kunt u de optie Opnemen in koptekst voor die referentie selecteren.
+* **OAuth 2.0 niet-gevoelige geloofsbrieven**: Deze sectie is bedoeld voor geloofsbrieven die in aard niet gevoelig zijn. De referentie-waarden zijn zichtbaar op het scherm nadat ze zijn toegevoegd. zij zullen ook bewerkbaar zijn .  Als voor het eindpunt van de autorisatie een bepaalde referentie moet worden ingevoegd in de HTTP-autorisatieheader in plaats van in de hoofdtekst van de POST, kunt u de optie Opnemen in koptekst voor die referentie selecteren.
+
+Wanneer het eind van de configuratie, klik op schakelaar **van de** Test om te verifiëren dat de externe rekening opstelling correct is.
+
+![](assets/external_accounts_OAuth.png)
+
+>[!NOTE]
+>
+>De referenties &quot;Content-Type: application/x-www-form-urlencoded&quot; en &quot;Grant_type=client_credentials&quot; worden automatisch toegevoegd aan de API-aanroep; daarom zult u niet hen in de geloofsbrieven sectie hoeven toe te voegen.
 
 ## Extern Amazon S3-account {#amazon-s3-external-account}
 
