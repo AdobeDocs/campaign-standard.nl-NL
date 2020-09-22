@@ -13,9 +13,9 @@ delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '593'
 ht-degree: 7%
 
 ---
@@ -58,7 +58,7 @@ Dit doet u als volgt:
    * De **[!UICONTROL Remove from quarantine]** actie verwijdert het aantal van de profieltelefoon uit quarantaine.
    * Met de **[!UICONTROL None]** handeling kunt u alleen het bericht naar de ontvangers verzenden zonder een handeling uit te voeren.
 
-   Bijvoorbeeld, in de configuratie hieronder, als de ontvangers het sleutelwoord &quot;STOP&quot;verzenden, zullen zij automatisch een unsubscription bevestiging ontvangen en hun telefoonaantal zal naar quarantaine met de **[!UICONTROL Denylisted]** status worden verzonden. Deze status verwijst alleen naar het telefoonnummer, het profiel wordt toegevoegd op lijst van gewenste personen zodat de gebruiker e-mailberichten blijft ontvangen.
+   Bijvoorbeeld, in de configuratie hieronder, als de ontvangers het sleutelwoord &quot;STOP&quot;verzenden, zullen zij automatisch een unsubscription bevestiging ontvangen en hun telefoonaantal zal naar quarantaine met de **[!UICONTROL On denylist]** status worden verzonden. Deze status verwijst alleen naar het telefoonnummer. Het profiel is zodanig dat de gebruiker e-mailberichten blijft ontvangen.
 
    ![](assets/sms_mo.png)
 
