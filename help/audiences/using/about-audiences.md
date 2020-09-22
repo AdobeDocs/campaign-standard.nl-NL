@@ -12,11 +12,11 @@ discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
+workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ Met Adobe Campaign kunt u handmatig een doelgroep maken via query&#39;s, of auto
 
 In Adobe Campaign kunt u verschillende soorten doelgroepen bewerken. Het type doelgroep komt overeen met de manier waarop het is gemaakt:
 
-* **[!UICONTROL Query]**: geeft aan dat de doelgroep is gemaakt op basis van een [query](../../automating/using/editing-queries.md#about-query-editor) met betrekking tot data uit de Adobe Campaign-database uit de lijst met doelgroepen. Doelgroepen die op basis van een query worden gedefinieerd, worden bij elk volgend gebruik opnieuw berekend.
+* **[!UICONTROL Query]**: Hiermee wordt aangegeven dat het publiek is gemaakt met een [query](../../automating/using/editing-queries.md#about-query-editor) op gegevens uit de Adobe Campaign-database via de lijst met doelgroepen. Doelgroepen die op basis van een query worden gedefinieerd, worden bij elk volgend gebruik opnieuw berekend.
 * **[!UICONTROL List]**: geeft aan dat de doelgroep bestaat uit een een vaste lijst met profielen. Deze lijsten worden gemaakt in een [workflow](../../automating/using/get-started-workflows.md) waarbij de datadimensie bekend is bij het opslaan van de doelgroep. Bijvoorbeeld na bepaalde targetingactiviteiten (met name **[!UICONTROL Query]**) of na de afstemming van data die vanuit een bestand zijn geïmporteerd.
 * **[!UICONTROL File]**: geeft aan dat de doelgroep rechtstreeks is gebaseerd op een workflow voor [bestandsimport](../../automating/using/load-file.md) en dat de datadimensie onbekend was toen de doelgroep werd opgeslagen.
 * **[!UICONTROL Experience Cloud]**: geeft aan dat de doelgroep is geïmporteerd uit Adobe Experience Cloud. Deze optie is alleen beschikbaar als de functionaliteit voor het delen van doelgroepen is geconfigureerd. Zie [Een doelgroep importeren uit Adobe Experience Cloud](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md#importing-an-audience) voor meer informatie.
