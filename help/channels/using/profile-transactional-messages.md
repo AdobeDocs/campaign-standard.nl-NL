@@ -12,9 +12,9 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 95%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 U kunt transactionele berichten verzenden die op klantmarketingprofielen zijn gebaseerd en waarmee u het volgende kunt doen:
 
-* De typologieregels voor marketing toepassen, zoals **[!UICONTROL Denylisted address]** of [moeheidsregels](../../sending/using/fatigue-rules.md).
+* De typologieregels voor marketing toepassen, zoals **[!UICONTROL Address on denylist]** of [moeheidsregels](../../sending/using/fatigue-rules.md).
 * De koppeling voor het opzeggen van abonnementen in de berichten opnemen.
 * De transactionele berichten aan de globale leveringsrapportage toevoegen.
 * De transactionele berichten in het klanttraject gebruiken.
@@ -74,11 +74,11 @@ Zodra het bericht is gepubliceerd en uw website-integratie is voltooid, kunt u d
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as denylisted addresses.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on denylist.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-Voor elk profiel dat is uitgeschreven, is de typologieregel **[!UICONTROL Denylisted address]** niet van toepassing op de bijbehorende ontvanger.
+Voor elk profiel dat is uitgeschreven, is de typologieregel **[!UICONTROL Address on denylist]** niet van toepassing op de bijbehorende ontvanger.
 
 Deze regel maakt deel uit van een specifieke typologie die op alle transactionele berichten van toepassing is op basis van de tabel **[!UICONTROL Profile]**.
 
