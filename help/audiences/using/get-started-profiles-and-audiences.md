@@ -12,10 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 8%
+source-wordcount: '613'
+ht-degree: 7%
 
 ---
 
@@ -41,7 +41,7 @@ Beheer de machtigingen en toestemming van klanten met behulp van services en bes
 
 Wanneer u campagnes of berichten creeert, kunt u het doel van de leveringen specificeren door uit contacten in het gegevensbestand van de Campagne te selecteren, gebruikend eenvoudige of geavanceerde criteria, of het selecteren van publiek.
 
-Identificeer klanten effectiever over al uw kanalen gebruikend **geïntegreerde klantenprofielen** en **aangepaste segmenten**. Wanneer u uw klanten, interesses, demografie en kanaalvoorkeuren kent, is het eenvoudiger om persoonlijke ervaringen te maken die u kunt zien.
+Identificeer klanten effectiever over al uw kanalen gebruikend **geïntegreerde klantenprofielen**, **aangepaste segmenten** en **controlegroepen**. Wanneer u uw klanten, interesses, demografie en kanaalvoorkeuren kent, is het eenvoudiger om persoonlijke ervaringen te maken die u kunt zien.
 
 Adobe Campaign bouwt rijke klantenprofielen in real time, toestaand u om relevantere en gepersonaliseerde aanbiedingen te leveren aangezien de voorkeur van uw klant verandert. Daarnaast integreert Adobe Campaign geavanceerde analyse-, gegevensbeheer- en doelfuncties om het publiek te stimuleren.
 
@@ -57,6 +57,7 @@ Meer informatie:
 * [De Campaign-database verrijken](../../audiences/using/enriching-campaign-database.md)
 * [Informatie over doelgroepen](../../audiences/using/about-audiences.md)
 * [Een doelgroep in een bericht selecteren](../../audiences/using/selecting-an-audience-in-a-message.md)
+* [Een besturingsgroep toevoegen](../../sending/using/control-group.md)
 
 ## Toestemming en toestemming {#permission}
 
@@ -85,9 +86,7 @@ Adobe Campaign offers a set of tools to help you with your **Privacy Compliance*
 
 Lees meer in dit [artikel](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html) over privacybeheer en de functies die we bieden voor het beheren van het recht op toegang, het recht om te worden vergeten, toestemming, gegevensbewaring en gebruikersrollen.
 
-De privacy en de Toestemming in Campagne en hoe te om hen te beheren worden voorgesteld in [deze sectie](../../start/using/privacy.md).
-
-U zult ook beste praktijken vinden, om u met uw naleving van de Privacy te helpen wanneer het gebruiken van onze dienst.
+De privacy en de Toestemming in Campagne en hoe te om hen te beheren worden voorgesteld in [deze sectie](../../start/using/privacy.md). U zult ook beste praktijken vinden, om u met uw naleving van de Privacy te helpen wanneer het gebruiken van onze dienst.
 
 ## Aanvullende resources
 
