@@ -13,9 +13,9 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '849'
 ht-degree: 92%
 
 ---
@@ -35,7 +35,6 @@ Met de activiteit **[!UICONTROL Segmentation]** kunt u een of meer segmenten mak
 
 **Verwante onderwerpen:**
 * [Hoofdlettergebruik: Segmentatie op locatie](../../automating/using/workflow-segmentation-location.md)
-* [Hoofdlettergebruik: Een controlegroep samenstellen](../../automating/using/workflow-control-group.md)
 * [Hoofdlettergebruik: Segmentering volgens leeftijdsgroepen](../../automating/using/segmentation-age-groups.md)
 
 ## Gebruikscontext {#context-of-use}
