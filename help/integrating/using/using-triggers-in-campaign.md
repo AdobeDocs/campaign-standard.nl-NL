@@ -12,10 +12,10 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: dddd147d01f935ec6f1513c5f92bddf6e789abb1
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 98%
+source-wordcount: '725'
+ht-degree: 86%
 
 ---
 
@@ -50,14 +50,31 @@ Voer daartoe de volgende stappen uit:
 
    ![](assets/remarketing_4.png)
 
-1. Klik op de knop **[!UICONTROL Publish]** om de triggergebeurtenis te publiceren.
+1. U kunt nu de triggers publiceren. Raadpleeg Een trigger [publiceren in Campagne](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)voor meer informatie hierover.
+
+## Een trigger publiceren in Campagne {#publishing-trigger-in-campaign}
+
+Nadat u een triggergebeurtenis in Adobe Campaign hebt gemaakt op basis van een bestaande Adobe Experience Cloud-trigger, moet u deze nu publiceren.
+
+1. Klik vanaf de eerder gemaakte trigger op de **[!UICONTROL Publish]** knop om de triggergebeurtenis te publiceren.
+
+   ![](assets/trigger_publish_1.png)
+
+1. U kunt de voortgang van de triggerpublicatie onder **[!UICONTROL Publication]** controleren.
+
+   ![](assets/trigger_publish_2.png)
+
+1. Wanneer de publicatie is voltooid, wordt het volgende bericht weergegeven onder **[!UICONTROL Publication]**.
+
+   ![](assets/trigger_publish_3.png)
+
 1. Als u het triggerschema wilt wijzigen, zelfs nadat u de triggergebeurtenis hebt gepubliceerd, klikt u op de knop **[!UICONTROL Update schema]** om de laatste wijzigingen op te halen.
 
    Houd er rekening mee dat door deze actie de publicatie van uw trigger en transactiebericht ongedaan wordt gemaakt. Deze moeten hierna opnieuw worden gepubliceerd.
 
-   ![](assets/remarketing_11.png)
+   ![](assets/trigger_publish_4.png)
 
-Toon de triggerdefinitie in Adobe Experience Cloud met de knop **[!UICONTROL Show Trigger in Experience Cloud]**.
+1. Click **[!UICONTROL Show Trigger in Experience Cloud]** button allows you to view the trigger definition in Adobe Experience Cloud.
 
 Na het publiceren van de gebeurtenis wordt er automatisch een transactiesjabloon gemaakt die aan de nieuwe gebeurtenis is gekoppeld. Wijzig en publiceer vervolgens de zojuist gemaakte sjabloon. Raadpleeg de sectie [De sjabloon bewerken](../../start/using/marketing-activity-templates.md) voor meer informatie.
 
