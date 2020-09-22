@@ -12,10 +12,10 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 9f33ca4e8b6326fce5fd301587b15ce706750c6e
 workflow-type: tm+mt
 source-wordcount: '1144'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -43,7 +43,7 @@ De startpagina bestaat uit een set kaarten waarmee u snel toegang hebt tot de be
 * Met de kaart **[!UICONTROL Create an SMS]** gaat u naar de assistent voor het maken van sms-berichten. Met behulp van deze assistent kiest u een sms-type, selecteert u berichtontvangers en definieert u de content. Raadpleeg de sectie [Een sms maken](../../channels/using/creating-an-sms-message.md).
 * Met de kaart **[!UICONTROL Create a Direct mail]** gaat u naar de assistent voor het maken van direct mail. Raadpleeg de sectie [Direct mail](../../channels/using/creating-the-direct-mail.md) maken.
 * Met de kaart **[!UICONTROL Create a push notification]** opent u de assistent voor het maken van meldingen. Met behulp van deze assistent kiest u een type pushmelding, selecteert u berichtontvangers en definieert u de content. Raadpleeg de sectie [Een pushmelding maken](../../channels/using/preparing-and-sending-a-push-notification.md).
-* Met de kaart **[!UICONTROL Create an InApp message]** opent u de assistent voor het maken van InApp-berichten. Met deze assistent selecteert u het type InApp-bericht dat u wilt maken en bepaalt u de eigenschappen, de doelgroep en de content ervan. Raadpleeg de sectie [Een InApp-bericht maken](../../channels/using/about-in-app-messaging.md).
+* The **[!UICONTROL Create an In-App message]** card takes you to the In-App creation assistant. Met deze assistent kunt u het type In-App-bericht selecteren dat u wilt maken, de eigenschappen, het publiek en de inhoud ervan definiëren. Refer to the [Creating an In-App message](../../channels/using/about-in-app-messaging.md) section.
 * Met de kaart **[!UICONTROL Marketing activities]** opent u de volledige lijst met alle activiteiten, programma&#39;s en campagnes, in het bijzonder e-mails, sms-berichten, workflows en landingspagina&#39;s. Vanaf hier kunt u de elementen filteren door te zoeken op naam, datum, status of type activiteit. Raadpleeg de sectie [Lijst met marketingactiviteiten](../../start/using/marketing-activities.md#about-marketing-activities) voor meer informatie.
 * Met de kaart **[!UICONTROL Programs & campaigns]** gaat u naar de lijst met programma&#39;s waarin u campagnes kunt maken en beheren. Raadpleeg de [Programmalijst](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
 * Met de kaart **[!UICONTROL Timeline]** gaat u rechtstreeks naar een interactieve tijdlijn van uw marketingactiviteiten, zodat u de lopende programma&#39;s en hun content kunt raadplegen. Zie [Tijdlijn](../../start/using/timeline.md).
