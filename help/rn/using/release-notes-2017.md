@@ -12,9 +12,9 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4627'
 ht-degree: 8%
 
 ---
@@ -160,7 +160,7 @@ _Transactieberichten_
 _Rapporten_
 
 * Het rapport **Hot kliks** is verbeterd. Ook, is het nu mogelijk om heet kliks volgens elke voorwaardelijke inhoud te tonen die in een levering werd bepaald en hete kliks voor elke uitvoering van terugkomende leveringen of transactionele berichten te tonen. Raadpleeg de [gedetailleerde documentatie](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion) voor meer informatie.
-* Probleem verholpen waarbij de quarantaineminimetrie geen correcte gegevens kon ophalen.
+* Probleem verholpen waarbij de quarantaineminimetrische gegevens niet werden opgehaald.
 * Er is een nieuw vooraf ingesteld tijdframe toegevoegd aan de kalenderwidget.
 * De [dynamische rapportmetriek](../../reporting/using/indicator-calculation.md) en KPIs van [campagnes](../../sending/using/confirming-the-send.md) (die op het dashboard van verzonden berichten worden getoond) zijn gericht voor meer coherentie.
 * Probleem verholpen waarbij een pijpleiding ertoe kon leiden dat er een crash optrad bij debian 7.
@@ -494,7 +494,7 @@ _Workflows_
    <td> Marketingmogelijkheden voor transactieberichten<br /> </td> 
    <td> Marktdeelnemers kunnen nu transactieberichten verzenden op basis van marketingprofielen van klanten. Hierdoor kunnen zij:<br /> 
     <ul> 
-     <li> Pas de regels van de handelingtypologie zoals <span class="uicontrol">Toegevoegd op lijst van gewenste personen adres</span> toe. </li> 
+     <li> Pas marketingtypologische regels toe, zoals <span class="uicontrol">Adres op lijst van afgewezen personen</span> . </li> 
      <li> De koppeling voor het opzeggen van abonnementen in de berichten opnemen. </li> 
      <li> De transactionele berichten aan de globale leveringsrapportage toevoegen. </li> 
      <li> De transactionele berichten in het klanttraject gebruiken. </li> 
@@ -530,7 +530,7 @@ _Pushmeldingen_
 * Probleem verholpen waarbij het terugsturen van een toepassing naar de Adobe Campaign-server mogelijk is voorkomen.
 * Probleem verholpen dat mogelijk voorkwam **[!UICONTROL Play a sound]** **[!UICONTROL Custom fields]** en waarmee rekening moest worden gehouden voor Android.
 * Probleem verholpen waarbij een extra escapeteken zijn toegevoegd aan Unicode-tekens die voor Emojis worden gebruikt.
-* Wanneer de registratietoken van een abonnee wordt toegevoegd op lijst van gewenste personen, wordt de overeenkomstige status nu onmiddellijk bijgewerkt in de lijst van abonnees van de toepassing in Adobe Campaign.
+* Wanneer de registratietoken van een abonnee aan de lijst van afgewezen personen wordt toegevoegd, wordt de overeenkomstige status nu onmiddellijk bijgewerkt in de lijst van abonnees van de toepassing in Adobe Campaign.
 
 _Workflows_
 
