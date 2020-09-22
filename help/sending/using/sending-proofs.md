@@ -12,9 +12,9 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a07ccaf864c3aef881cb02042b5e00a43c48f0a9
+workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 100%
 
@@ -60,6 +60,7 @@ Voer de volgende stappen uit om proeven te verzenden:
    * **[!UICONTROL Email rendering]**: Selecteer deze optie om de manier te testen waarop uw bericht wordt ontvangen volgens de beoogde inboxen. Zie [E-mailweergave](../../sending/using/email-rendering.md) voor meer informatie.
    * **[!UICONTROL Proof]**: Selecteer deze optie om het bericht te testen voordat u het naar het hoofddoel verzendt. De ontvangers van de proef zijn verantwoordelijk voor de goedkeuring van de levering, door zowel de content als de vorm ervan te controleren.
    * **[!UICONTROL Proof + Email rendering]**: Deze optie combineert de twee vorige opties.
+
    ![](assets/bat_select1.png)
 
    >[!NOTE]
@@ -108,7 +109,7 @@ Als u het nummer van de proef wilt verbergen, activeert u de optie **[!UICONTROL
 **Verwant onderwerp:**
 
 * Video over het [verzenden van een test en het voorbereiden en verzenden van een e-mail](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)
-* [E-mailberichten testen met doelprofielen](../../sending/using/testing-messages-using-target.md).
+* [E-mailberichten testen aan de hand van doelprofielen](../../sending/using/testing-messages-using-target.md)
 * [Testprofielen beheren](../../audiences/using/managing-test-profiles.md)
 * [Berichten voorvertonen](../../sending/using/previewing-messages.md)
 * [E-mailkanaal configureren](../../administration/using/configuring-email-channel.md)
