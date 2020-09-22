@@ -12,11 +12,11 @@ discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
 context-tags: activity,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
+workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ In de hoofdzone heeft elk type activiteit in de lijst een pictogram:
 * ![](assets/marketing_program_icon.png): Programma
 * ![](assets/marketing_campaign_icon.png): Campagne
 * ![](assets/marketing_email_icon.png): E-mail
-* ![](assets/marketing_sms_icon.png): Sms
+* ![](assets/marketing_sms_icon.png) : Sms
 * ![](assets/marketing_push_icon.png): Pushmelding
 * ![](assets/marketing_lp_icon.png): In-app-bericht
 * ![](assets/marketing_lp_icon.png): Landingspagina
@@ -89,7 +89,7 @@ Afhankelijk van de context kunt u:
 * [Een e-mail maken](../../channels/using/creating-an-email.md)
 * [Een sms maken](../../channels/using/creating-an-sms-message.md)
 * [Een pushmelding maken](../../channels/using/preparing-and-sending-a-push-notification.md)
-* [Een in-app-bericht maken](../../channels/using/about-in-app-messaging.md)
+* [Een bericht in de app maken](../../channels/using/about-in-app-messaging.md)
 * [Een workflow maken](../../automating/using/building-a-workflow.md#creating-a-workflow)
 * [Een landingspagina maken](../../channels/using/getting-started-with-landing-pages.md)
 * [Een campagne maken](../../start/using/programs-and-campaigns.md#creating-a-campaign)
