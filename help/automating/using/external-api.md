@@ -10,10 +10,10 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3bd2fdb56fc94cef4e9c21466a33cdad7ac825d2
+source-git-commit: 9a8e3087ef6a0cf2f1d68cb145a67af3c05d27ec
 workflow-type: tm+mt
-source-wordcount: '1754'
-ht-degree: 94%
+source-wordcount: '2269'
+ht-degree: 64%
 
 ---
 
@@ -38,19 +38,19 @@ De belangrijkste kenmerken van deze activiteit zijn:
 * Mogelijkheid om een JSON-antwoord terug te krijgen, het toe te wijzen aan uitvoertabellen en stroomafwaarts door te geven aan andere workflowactiviteiten.
 * Het beheer van mislukkingen met een specifieke uitgaande overgang
 
-### Overgang van bèta naar GA {#from-beta-to-ga}
+### Berichten over achterwaartse compatibiliteit {#from-beta-to-ga}
 
-Met de Campaign Standard 20.3-release is de functionaliteit Externe API van bèta naar algemene beschikbaarheid (GA) verplaatst.
+Met de release van Campaign Standard 20.4 zijn de beperking voor de grootte van de http-responsgegevens en de time-outinstructies voor de reactie verkleind om deze af te stemmen op de best practices (zie de sectie &quot;Beperkingen en instructies&quot;). Deze guardrailwijzigingen worden niet van kracht op bestaande externe API-activiteiten; Daarom wordt u aangeraden bestaande externe API-activiteiten in alle workflows te vervangen door nieuwe versies.
 
->[!CAUTION]
->
->Daardoor moet u, als u bèta-activiteiten voor Externe API gebruikte, deze vervangen door GA-activiteiten voor Externe API in alle workflows.  Workflows die de bètaversie van Externe API gebruiken, werken niet meer vanaf versie 20.3.
+Als u een upgrade uitvoert van Campaign Standard 20.2 (of eerder), moet u er rekening mee houden dat de externe API-functionaliteit in de release Campaign Standard 20.3 is verplaatst van bèta naar algemene beschikbaarheid.
+
+Daardoor moet u, als u bèta-activiteiten voor Externe API gebruikte, deze vervangen door GA-activiteiten voor Externe API in alle workflows.  Workflows die de bètaversie van de externe API gebruiken, werken niet vanaf de release Campaign Standard 20.3.
 
 Wanneer u activiteiten voor Externe API vervangt, voegt u de nieuwe activiteit Externe API toe aan de workflow, kopieert u handmatig de configuratiedetails en verwijdert u vervolgens de oude activiteit.
 
 >[!NOTE]
 >
->U kunt geen koptekstwaarden kopiëren omdat deze binnen de activiteit gemaskeerd zijn.
+>U kunt niet kopiëren over activiteitspecifieke koptekstwaarden omdat deze binnen de activiteit gemaskeerd zijn.
 
 Vervolgens configureert u opnieuw andere activiteiten in de workflow die verwijzen naar en/of gebruik maken van data uit de bèta-activiteit voor Externe API om in plaats daarvan te verwijzen naar en/of gebruik te maken van data uit de nieuwe activiteit Externe API. Voorbeelden van activiteiten: e-maillevering (personalisatievelden), verrijkingsactiviteit, enz.
 
@@ -58,26 +58,17 @@ Vervolgens configureert u opnieuw andere activiteiten in de workflow die verwijz
 
 Op deze activiteit zijn de volgende instructies van toepassing:
 
-* 50 MB http response data size limit (5 MB aanbevolen)
-* Time-out voor aanvraag bedraagt 10 minuten
+* 5 MB http response data size limit (note: dit is een wijziging ten opzichte van de limiet van 50 MB in de vorige release)
+* De time-out van het verzoek is 1 minuut (opmerking: dit is een wijziging ten opzichte van de time-out van 10 minuten in de vorige release)
 * HTTP-omleidingen zijn niet toegestaan
 * Niet-HTTPS-URL&#39;s worden geweigerd
 * Aanvraagheader ‘Accept: application/json’ en antwoordheader ‘Content-Type: application/json’ zijn toegestaan
 
->[!NOTE]
->
->Vanaf de release van Campagne 20.4 worden de beperking voor de grootte van de http-responsgegevens en de time-outinstructies voor de respons verlaagd naar respectievelijk 5 MB en 1 minuut.  Hoewel deze wijziging alleen van invloed is op nieuwe externe API-activiteiten, wordt ten zeerste aanbevolen de huidige implementaties van de externe API-activiteit af te stemmen op deze nieuwe instructies om de best practices te volgen.
-
-Voor JSON zijn specifieke beveiligingen ingevoerd:
+Er zijn specifieke voorzorgsmaatregelen getroffen:
 
 * **JSON Max Depth**: Beperk de maximumdiepte van een aangepaste geneste JSON die kan worden verwerkt tot 10 niveaus.
 * **JSON Max Key Length**: Beperk de maximumlengte van de gegenereerde interne sleutel tot 255. Deze sleutel is gekoppeld aan de kolom-id.
 * **JSON Max Duplicate Keys Allowed**: Beperk het maximumaantal dubbele JSON-eigenschapsnamen, die als kolom-id worden gebruikt, tot 150.
-
-De activiteit ondersteunt de JSON-structuur niet als:
-
-* Een matrixobject wordt gecombineerd met andere niet-matrixelementen
-* Een JSON-matrixobject is genest binnen een of meer tussenliggende matrixobjecten.
 
 >[!CAUTION]
 >
@@ -131,7 +122,14 @@ Als de **parsering wordt gevalideerd**, verschijnt er een bericht waarin u wordt
 
 ### Execution
 
-Met dit tabblad kunt u het **HTTPS-eindpunt** definiëren dat data naar ACS zal verzenden. Indien nodig kunt u verificatidata invoeren in de onderstaande velden.
+Op dit tabblad kunt u het eindpunt van de verbinding definiëren. Het **[!UICONTROL URL]** gebied staat u toe om het Eindpunt **te bepalen** HTTPS dat gegevens naar ACS zal verzenden.
+
+Indien nodig door het eindpunt, zijn twee types van authentificatiemethode beschikbaar:
+
+* Standaardverificatie: Voer in het **[!UICONTROL Request Header(s)]** veld uw gebruikersnaam-/wachtwoordgegevens in.
+
+* OAuth-verificatie: Als u op de knop klikt, **[!UICONTROL Use connection parameters defined in an external account]** kunt u een externe account selecteren waarin de OAuth-verificatie is gedefinieerd. For more information, refer to the [External accounts](../../administration/using/external-accounts.md) section.
+
 ![](assets/externalAPI-execution.png)
 
 ### Properties
@@ -172,8 +170,7 @@ Er zijn twee soorten logboekberichten die aan deze nieuwe workflowactiviteit wor
 
 ### Informatie
 
-Deze logboekberichten worden gebruikt om informatie over nuttige controlepunten tijdens de uitvoering van de workflowactiviteit in een logboek te registreren. Specifiek worden de volgende logboekberichten gebruikt om de eerste poging om toegang tot de API te krijgen evenals een nieuwe poging (en de reden voor mislukking van de eerste poging) in een logboek te registreren.
-
+Deze logboekberichten worden gebruikt om informatie over nuttige controlepunten tijdens de uitvoering van de workflowactiviteit in een logboek te registreren.
 <table> 
  <thead> 
   <tr> 
@@ -187,12 +184,32 @@ Deze logboekberichten worden gebruikt om informatie over nuttige controlepunten 
    <td> <p>Invoking API URL 'https://example.com/api/v1/web-coupon?count=2'.</p></td> 
   </tr> 
   <tr> 
-   <td> Retrying API URL '%s', previous attempt failed ('%s').</td> 
-   <td> <p>Retrying API URL 'https://example.com/api/v1/web-coupon?count=2', previous attempt failed ('HTTP - 401').</p></td>
+   <td> API-URL '%s' wordt opnieuw uitgevoerd vanwege %s in %d ms, poging %d.</td> 
+   <td> <p>Opnieuw proberen van API URL 'https://example.com/api/v1/web-coupon?count=0' vanwege HTTP - 401 in 2364 ms, poging 2.</p></td>
   </tr> 
   <tr> 
    <td> Transferring content from '%s' (%s / %s).</td> 
    <td> <p>Transferring content from 'https://example.com/api/v1/web-coupon?count=2' (1234 / 1234).</p></td> 
+  </tr>
+  <tr> 
+   <td> Via toegangstoken in cache voor provider-id '%s'.</td> 
+   <td> <p>Gebruikend caching toegangstoken voor leverancier identiteitskaart "EXT25". Opmerking:  EXT25 is de id (of naam) van de externe account. </p></td> 
+  </tr>
+  <tr> 
+   <td> Toegangstoken via server gevonden voor provider-id '%s'.</td> 
+   <td> <p>Toegangstoken van server voor leverancier-id 'EXT25' gevonden. Opmerking: EXT25 is de id (of naam) van de externe account.</p></td> 
+  </tr>
+  <tr> 
+   <td> OAuth-toegangstoken vernieuwen vanwege fout (HTTP: '%d').</td> 
+   <td> <p>OAuth-toegangstoken vernieuwen vanwege fout (HTTP: "401").</p></td> 
+  </tr>
+  <tr> 
+   <td> Fout bij het vernieuwen van OAuth-toegangstoken (fout: '%d'). </td> 
+   <td> <p>Fout bij het vernieuwen van OAuth-toegangstoken (fout: "404").</p></td> 
+  </tr>
+  <tr> 
+   <td> Kan het toegangstoken OAuth niet ophalen met het opgegeven externe account bij poging %d, opnieuw proberen in %d ms.</td> 
+   <td> <p>Kan het toegangstoken OAuth niet ophalen met de opgegeven externe account bij poging 1, opnieuw proberen in 1387 ms.</p></td> 
   </tr>
  </tbody> 
 </table>
@@ -247,7 +264,7 @@ Deze logboekberichten worden gebruikt om informatie in een logboek te registrere
    <td> <p>HTTP header key is not allowed (header key: 'Accept').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 -  AHTTP header value is bad (header value: '%s').</td> 
+   <td> WKF-560247 - Een HTTP-headerwaarde is ongeldig (headerwaarde: '%s').</td> 
    <td> <p>HTTP header value is bad (header value: '%s'). </p>
     <p>Opmerking: Deze fout wordt in een logboek geregistreerd wanneer de aangepaste koptekstwaarde niet kan worden gevalideerd volgens <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
@@ -265,6 +282,39 @@ Deze logboekberichten worden gebruikt om informatie in een logboek te registrere
    <td> <p>When activity fails due to HTTP 401 error response - Activity failed (reason: 'HTTP - 401')</p>
         <p>When activity fails due to a failed internal call - Activity failed (reason: 'iRc - -Nn').</p>
         <p>When activity fails due to an invalid Content-Type header. - Activity failed (reason: 'Content-Type - application/html').</p></td> 
+  </tr>
+  <tr> 
+   <td> WKF-560278 - "Error initializing OAuth helper (error: '%d').</td> 
+   <td> <p>Deze fout wijst erop dat de activiteit niet de interne hulpfaciliteit OAuth2.0 kon initialiseren, wegens fout in het gebruiken van de attributen die in de externe rekening worden gevormd om helper te initialiseren.</p></td>
+  </tr>
+  <tr> 
+   <td> WKF-560279 - "De kopbalsleutel van HTTP wordt niet toegestaan (kopbalsleutel: '%s')."</td> 
+   <td> <p>Dit waarschuwingsbericht (geen fout) geeft aan dat de externe OAuth 2.0-account is geconfigureerd om een referentie toe te voegen als een HTTP-header, maar dat de gebruikte headersleutel niet is toegestaan omdat deze een gereserveerde headersleutel is.</p></td>
+  </tr>
+  <tr> 
+   <td> WKF-560280 - Externe account van '%s'-id kan niet worden gevonden.</td> 
+   <td> <p>External account of 'EXT25' ID cannot be found.  Opmerking: Deze fout geeft aan dat de activiteit is geconfigureerd voor het gebruik van een externe account, die niet meer kan worden gevonden. Dit zal hoogstwaarschijnlijk gebeuren wanneer de rekening uit de OB is geschrapt, en als zodanig niet waarschijnlijk zal gebeuren in normale bedrijfsomstandigheden.</p></td>
+  </tr>
+  <tr> 
+   <td> WKF-560281 - Externe account van '%s'-id is uitgeschakeld.</td> 
+   <td> <p>Extern account van 'EXT25'-id is uitgeschakeld. Opmerking: Deze fout geeft aan dat de activiteit is geconfigureerd voor het gebruik van een externe account, maar dat account is uitgeschakeld (of inactief is gemarkeerd).</p></td>
+  </tr>
+  <tr> 
+   <td> WKF-560282 - Protocol niet gesteund.</td> 
+   <td> <p>Deze fout geeft aan dat de externe account die aan de activiteit is gekoppeld, geen externe OAuth2.0-account is. Als zodanig is het onwaarschijnlijk dat deze fout optreedt, tenzij er beschadigingen of handmatige wijzigingen in de activiteitenconfiguratie optreden.</p></td>
+  </tr>
+  <tr> 
+   <td> WKF-560283 - Kon niet om het OAuth toegangstoken te halen.</td> 
+   <td> <p>De meest voorkomende oorzaak van deze fout is een verkeerde configuratie van de externe account (bijvoorbeeld de externe account gebruiken zonder te testen of de verbinding is gelukt). Het kan mogelijk zijn dat URL/referenties op de externe account worden gewijzigd.</p></td>
+  </tr>
+  <tr> 
+   <td> CRL-290199 - Kan pagina niet bereiken op: %s.</td> 
+   <td> <p>Dit foutbericht wordt weergegeven in het scherm met de gebruikersinterface van externe accounts wanneer u het instelt voor OAuth. Dit betekent dat de URL voor de externe verificatieserver onjuist/gewijzigd/reactie van de server is. Pagina niet gevonden.</p></td>
+  </tr>
+  <tr> 
+   <td> CRL-290200 - Onvolledige/onjuiste geloofsbrieven.</td> 
+   <td> <p>Dit foutbericht wordt weergegeven in het scherm met de gebruikersinterface van externe accounts wanneer u het instelt voor OAuth. Dit betekent dat de referenties onjuist zijn of dat er andere vereiste gegevens ontbreken om verbinding te maken met de verificatieserver.
+</p></td>
   </tr>
  </tbody> 
 </table>
