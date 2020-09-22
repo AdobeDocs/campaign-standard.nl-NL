@@ -1,6 +1,6 @@
 ---
-title: E-mails
-description: Ontdek de verschillende typen e-mailberichten die u met Adobe Campagne kunt verzenden.
+title: Informatie over e-mails
+description: Ontdek de verschillende typen e-mailberichten die je met Adobe Campaign kunt verzenden.
 page-status-flag: never-activated
 uuid: 1650cad5-afc0-4215-9fb4-7f8ad5f504df
 contentOwner: sauviat
@@ -13,14 +13,17 @@ context-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
 
-# E-mails{#about-emails}
+# Informatie over e-mails{#about-emails}
 
-Het e-mailkanaal is een van de kernkanalen in Adobe Campaign, waarmee u persoonlijke e-mails kunt plannen en verzenden naar specifieke doelgroepen.
+Het e-mailkanaal is een van de belangrijkste kanalen in Adobe Campaign, zodat u persoonlijke e-mails kunt plannen en verzenden naar specifieke doelgroepen.
 
 U kunt verschillende typen e-mailberichten verzenden:
 
@@ -29,4 +32,4 @@ U kunt verschillende typen e-mailberichten verzenden:
 * E-mails voor A/B-tests: test maximaal drie versies van een e-mailbericht.
 * Transactiee-mails: Eenvoudige e-mailberichten die worden geactiveerd op basis van het gedrag van uw klanten.
 
-Raadpleeg de stapsgewijze handleiding bij het [leveren van beste praktijken](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html) voor meer informatie over de beste praktijken bij het maken en verzenden van e-mails.
+Raadpleeg de sectie Aanbevolen procedures voor [levering voor meer informatie over de beste praktijken](../../sending/using/delivery-best-practices.md) bij het maken en verzenden van e-mails.
