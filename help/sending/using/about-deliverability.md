@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 6%
@@ -57,7 +57,7 @@ Eerst raadpleegt u de documentatie over de leverbare gereedschappen die bij Camp
 * [Waarschuwingen ontvangen wanneer fouten optreden](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Leveringsfouten begrijpen](../../sending/using/understanding-delivery-failures.md)
 * [Quarantainebeheer begrijpen](../../sending/using/understanding-quarantine-management.md)
-* [Quarantine versus lijst van afgewezen personen](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
+* [Quarantine versus lijst van afgewezen personen](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 * [Dynamische rapporten](../../reporting/using/about-dynamic-reports.md)
 
 ## Netwerkconfiguratie controleren {#network-configuration}
