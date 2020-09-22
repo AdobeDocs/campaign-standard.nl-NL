@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b82a9dc86ec9e48e25f1ffe53188ba916a9d074
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2948'
 ht-degree: 95%
 
 ---
@@ -296,7 +296,7 @@ ht-degree: 95%
 * De organisatorische eenheid van de beveiligingsgroep Beheerders kan niet meer worden veranderd.
 * Wanneer u een profiel maakt, moet u het veld Organisatorische eenheid nu invullen.
 * Een Experience Cloud Trigger kan nu alleen worden verwijderd als zowel de gebeurtenis als de transactionele sjabloon die eraan gekoppeld is, worden verwijderd.
-* Adobe Creative SDK is uit bedrijf genomen. Deze kan niet meer worden gebruikt in Campaign Standard. Zie de pagina [Verouderde en verwijderde functies](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/deprecated-features.html).
+* [!DNL Adobe Creative SDK] is ontmanteld. Deze kan niet meer worden gebruikt in Campaign Standard. Zie de pagina [Verouderde en verwijderde functies](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/deprecated-features.html).
 
 
 **Patches**
