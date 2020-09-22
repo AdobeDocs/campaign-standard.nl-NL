@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ IP de Certificatie is een verzendend beste praktijkprogramma dat helpt ervoor zo
 
 Momenteel bieden twee leveranciers IP Certificatie aan: Return Path en Certified Senders Alliance.
 
-Gecertificeerde afzenders worden toegevoegd op lijst van gewenste personen en worden gebruikt door wereldwijde postbusproviders en e-mailbeveiligingsbedrijven. Deze commerciële lijsten van gewenste personen zijn gebaseerd op een systeem dat de afzender toestaat om antispamfilters volledig te mijden of stijgende punten worden toegewezen aangezien zij het systeem ingaan.
+Gecertificeerde afzenders zijn in de lijst van gewenste personen die door wereldwijde postbusproviders en e-mailbeveiligingsbedrijven worden gebruikt. Deze commerciële lijsten van gewenste personen zijn gebaseerd op een systeem dat de afzender toestaat om antispamfilters volledig te mijden of stijgende punten worden toegewezen aangezien zij het systeem ingaan.
 
 Het [programma voor de certificering](https://www.validity.com/products/returnpath/certification/) van retourpaden biedt een aantal voordelen, waaronder:
 * Een meetbare toename van plaatsing in postvakken op de belangrijkste leveranciers van postvakken, zoals Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru en meer
