@@ -13,7 +13,10 @@ context-tags: workflow,main;workflow,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 813f74458bef5e80e24cc0125ddd8d7de6252196
+workflow-type: tm+mt
+source-wordcount: '802'
+ht-degree: 4%
 
 ---
 
@@ -53,6 +56,11 @@ De werkruimte is de centrale zone in de werkstroomeditor. Het is in deze streek 
 Als u twee activiteiten wilt koppelen, verplaatst u het einde van de pijl van de eerste activiteit naar de volgende activiteit totdat ze verbinding maken. U kunt de activiteit naar het punt van de pijl achter het bewegen om het aan de voorafgaande activiteit te verbinden. Als u een van de activiteiten verplaatst, blijven deze gekoppeld.
 
 Overgangen na activiteiten die gegevens verwerken, bevatten de intermediaire populaties. U kunt ze openen door de **[!UICONTROL Keep interim results]** optie in het **[!UICONTROL Execution]** gedeelte van de workfloweigenschappen te selecteren.
+
+>[!CAUTION]
+>
+>Deze optie verbruikt veel schijfruimte en is ontworpen om u te helpen een workflow te maken en een correcte configuratie en functionaliteit te garanderen. Laat deze optie uitgeschakeld op productie-instanties.
+
 
 Wanneer een activiteit wordt geselecteerd, verschijnen de snelle acties rond de activiteit, toestaand u om met het in wisselwerking te staan. Als u bijvoorbeeld een activiteit wilt configureren, selecteert u deze en opent u deze vervolgens met de ![](assets/edit_darkgrey-24px_table.png) knop in de snelle handelingen.
 
