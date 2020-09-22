@@ -12,9 +12,9 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1150'
 ht-degree: 90%
 
 ---
@@ -60,7 +60,7 @@ Ga als volgt te werk om deze landingspagina te maken en te configureren:
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   In deze context wordt het veld &#39;Op de lijst met ongewenste personen staan&#39; verwijderd, zodat e-mailberichten kunnen worden verzonden. Later zullen we zien dat op de eerste landingspagina dit veld vóór de bevestiging was ingesteld op **true** om te voorkomen dat e-mails naar niet-bevestigde profielen worden verzonden. Zie [Stap 3: De landingspagina voor acquisitie maken](#step-3--create-the-acquisition-landing-page) voor meer informatie.
+   In deze context wordt het veld &#39;Op lijst van afgewezen personen&#39; verwijderd, zodat e-mailberichten kunnen worden verzonden. Later zullen we zien dat op de eerste landingspagina dit veld vóór de bevestiging was ingesteld op **true** om te voorkomen dat e-mails naar niet-bevestigde profielen worden verzonden. Zie [Stap 3: De landingspagina voor acquisitie maken](#step-3--create-the-acquisition-landing-page) voor meer informatie.
 
 1. Pas de content van de landingspagina aan. U kunt bijvoorbeeld gepersonaliseerde data weergeven en het label van de bevestigingsknop wijzigen in ‘Click here to confirm my subscription’.
 
@@ -101,12 +101,12 @@ De gebeurtenis is gereed. U kunt nu de e-mailsjabloon ontwerpen. Deze sjabloon m
 
 ### De typologie maken {#create-the-typology-rule}
 
-U moet een specifieke [typologie](../../sending/using/about-typology-rules.md) maken door een kant-en-klare typologie te dupliceren. Met de typologie kunnen berichten worden verzonden naar profielen die hun instemming nog niet hebben bevestigd en die nog steeds worden toegevoegd op lijst van gewenste personen. Standaard sluiten typologieën opt-out (dat wil zeggen toegevoegd op lijst van gewenste personen) profielen uit. Voer de volgende stappen uit om deze typologie te maken:
+U moet een specifieke [typologie](../../sending/using/about-typology-rules.md) maken door een kant-en-klare typologie te dupliceren. De typologie maakt het mogelijk berichten te verzenden naar profielen die hun instemming nog niet hebben bevestigd en die nog in de lijst van afgewezen personen zijn. Standaard sluiten typologieën de profielen opt-out (d.w.z. op lijst van afgewezen personen) uit. Voer de volgende stappen uit om deze typologie te maken:
 
 1. Selecteer vanaf het Adobe Campaign-logo de optie **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** en klik op **[!UICONTROL Typologies]**.
 1. Dupliceer de kant-en-klare typologie **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Zodra de duplicatie is bevestigd, bewerkt u de nieuwe typologie en voert u het label **TYPOLOGY_PROFILE** in.
-1. Remove the **Denylisted address** rule.
+1. Verwijder het **Adres op de regel van de lijst van afgewezen personen** .
 1. Klik op **[!UICONTROL Save]**.
 
 Deze typologie kan nu worden gekoppeld aan de bevestigings-e-mail.
