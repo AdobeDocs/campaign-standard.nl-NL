@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: acaa07b3e40d0bcbf7c44f866ede141b992015a1
+source-git-commit: c277a6cb18e9a1d83f8a2632049e7cea36414052
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Adobe Campaign Standard biedt twee nieuwe modellen voor het leren van machines: 
 >[!CAUTION]
 >Deze mogelijkheid is niet beschikbaar buiten de verpakking als onderdeel van het product. Voor de implementatie moet Adobe Consulting worden ingeschakeld. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie.
 >
->Afzonderlijk, vereiste de eigenschap het gebruik van een Azure opslag die door de klant moet worden verstrekt.
+>De functie vereist het gebruik van een Azure-opslag die door de klant moet worden geleverd.
 
 ## Optimalisatie van verzendtijd{#predictive-send-time}
 
