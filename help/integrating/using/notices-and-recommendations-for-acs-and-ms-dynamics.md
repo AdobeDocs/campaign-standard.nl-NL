@@ -12,9 +12,9 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 621c29ae08770b50629ba3d27116f93f8b5c3f62
+source-git-commit: 2ef169d9bf76856bb687af88358e0452953313a0
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1448'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,8 @@ Leer hoe u campagnebronnen en Dynamics 365-entiteiten [in deze sectie](../../int
 
 Wegens de verschillen in opt-outattributen tussen Dynamiek 365 en Campagne, en wegens de verschillen in bedrijfsvereisten van elke klant, is de opt-out afbeelding verlaten als oefening voor de klant om te voltooien.  Het is belangrijk ervoor te zorgen dat de optie-outs correct tussen systemen worden toegewezen, zodat de voorkeuren voor de optie-uit voor eindgebruikers behouden blijven en dat gebruikers geen communicatie ontvangen via een kanaal waarvan ze hebben afgezien.
 
-Houd er rekening mee dat alleen Campagneattributen met het voorvoegsel &quot;lijst van afgewezen personen&quot; (bijvoorbeeld blockListEmail) of het specifieke kenmerk voor de optie CCPA-uitsluiting kunnen worden gebruikt in toewijzingen voor niet-deelname.  In Dynamiek 365, hebben de meeste opt-outgebieden het &quot;donot&quot;prefix; u kunt echter ook andere kenmerken voor opt-outdoeleinden gebruiken als de gegevenstypen compatibel zijn.
+Houd er rekening mee dat alleen campagnerekenmerken met het voorvoegsel &#39;Geen contact meer door&#39; (bijvoorbeeld Geen contact meer via e-mail) of het specifieke kenmerk voor de optie CCPA-optie om te weigeren kunnen worden gebruikt in toewijzingen voor niet-deelname. [Meer informatie](../../developing/using/datamodel-profile.md).
+In Dynamiek 365, hebben de meeste opt-outgebieden het &quot;donot&quot;prefix; u kunt echter ook andere kenmerken voor opt-outdoeleinden gebruiken als de gegevenstypen compatibel zijn.
 
 Wanneer levering van de integratie, zult u de kans hebben om te specificeren welke opt-out configuratie u voor uw zaken vereist:
 
