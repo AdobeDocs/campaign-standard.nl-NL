@@ -12,10 +12,10 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: ed920a9b08eb664c2825ba785c75092eb0f2be1e
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 5%
+source-wordcount: '797'
+ht-degree: 1%
 
 ---
 
@@ -51,41 +51,45 @@ Wanneer het gebruiken van een variabele in een activiteit, verstrekt de interfac
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png): bewerk expressies waarin variabelen en functies worden gecombineerd. Raadpleeg [deze sectie](../../automating/using/advanced-expression-editing.md) voor meer informatie over de expressie-editor.
+* ![](assets/extsignal_expression_editor.png): bewerkingsexpressies waarin variabelen en functies worden gecombineerd (zie [](../../automating/using/advanced-expression-editing.md)).
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
-**Verwante onderwerpen:**
+   Deze lijst verstrekt functies die u toestaan om het complexe filtreren uit te voeren. Deze functies worden beschreven in [deze sectie](../../automating/using/list-of-functions.md).
 
-* [Een expressie bewerken](../../automating/using/advanced-expression-editing.md#edit-an-expression)
-* [Standaardsyntaxis](../../automating/using/advanced-expression-editing.md#standard-syntax)
-* [Lijst met functies](../../automating/using/list-of-functions.md)
+   Bovendien kunt u de functies hieronder gebruiken, die in alle activiteiten beschikbaar zijn die u toestaan om gebeurtenisvariabelen te gebruiken na het roepen van een werkschema met externe parameters (zie [](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
+
+   | Naam | Beschrijving | Syntaxis |
+   ---------|----------|---------
+   | EndWith | Geeft aan of een tekenreeks (eerste parameter) eindigt met een specifieke tekenreeks (tweede parameter). | EndWith(&lt;String>,&lt;String>) |
+   | startWith | Geeft aan of een tekenreeks (eerste parameter) begint met een specifieke tekenreeks (tweede parameter). | startWith(&lt;String>,&lt;String>) |
+   | Extraheren | Retourneert de eerste tekens van een tekenreeks met een scheidingsteken. | Extraheren(&lt;String>,&lt;Separator>) |
+   | ExtractRight | Retourneert de laatste tekens van een tekenreeks met een scheidingsteken. | ExtractRight(&lt;String>,&lt;Separator>) |
+   | DateFormat | Maakt een datum op in de notatie die is opgegeven in de tweede parameter (voorbeeld:  &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;Date>,&lt;Format>) |
+   | FileName | Retourneert de naam van een bestandspad. | FileName(&lt;String>) |
+   | FileExt | Retourneert de extensie van een bestandspad. | FileExt(&lt;String>) |
+   | IsNull | Geeft aan of een tekenreeks of datum null is. | IsNull(&lt;String/date>) |
+   | UrlUtf8Encode | Codeert een URL in UTF8. | UrlUtf8Encode(&lt;String>) |
 
 ## Activiteiten aanpassen met gebeurtenisvariabelen {#customizing-activities-with-events-variables}
 
 Gebeurtenisvariabelen kunnen worden gebruikt om verschillende activiteiten aan te passen die in de onderstaande sectie worden vermeld. Voor meer op hoe te om een variabele van een activiteit te roepen, verwijs naar [deze sectie](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables).
 
-**[!UICONTROL Read audience]** activiteit: het publiek bepalen om te richten op basis van gebeurtenisvariabelen.
-
-Raadpleeg de [desbetreffende sectie](../../automating/using/read-audience.md)voor meer informatie over het gebruik van de activiteit.
+**[!UICONTROL Read audience]** activiteit: het publiek bepalen om te richten op basis van gebeurtenisvariabelen. Raadpleeg [deze sectie](../../automating/using/read-audience.md)voor meer informatie over het gebruik van de activiteit.
 
 ![](assets/extsignal_activities_audience.png)
 
-**[!UICONTROL Test]** activiteit: voorwaarden bouwen die op gebeurtenisvariabelen worden gebaseerd.
-
-Raadpleeg de [desbetreffende sectie](../../automating/using/test.md)voor meer informatie over het gebruik van de activiteit.
+**[!UICONTROL Test]** activiteit: voorwaarden bouwen die op gebeurtenisvariabelen worden gebaseerd. Raadpleeg [deze sectie](../../automating/using/test.md)voor meer informatie over het gebruik van de activiteit.
 
 ![](assets/extsignal_activities_test.png)
 
-**[!UICONTROL Transfer file]** activiteit: Pas het bestand aan dat u wilt overbrengen op basis van gebeurtenisvariabelen.
-
-Raadpleeg de [desbetreffende sectie](../../automating/using/transfer-file.md)voor meer informatie over het gebruik van de activiteit.
+**[!UICONTROL Transfer file]** activiteit: Pas het bestand aan dat u wilt overbrengen op basis van gebeurtenisvariabelen. Raadpleeg [deze sectie](../../automating/using/transfer-file.md)voor meer informatie over het gebruik van de activiteit.
 
 ![](assets/extsignal_activities_transfer.png)
 
 **[!UICONTROL Query]** activiteit: In een query kan naar parameters worden verwezen door expressies te gebruiken die gebeurtenisvariabelen en -functies combineren. Hiervoor voegt u een regel toe en klikt u op de **[!UICONTROL Advanced mode]** koppeling om het venster voor het bewerken van expressies te openen (zie [Geavanceerde bewerking](../../automating/using/advanced-expression-editing.md)van expressies).
 
-Raadpleeg de [desbetreffende sectie](../../automating/using/query.md)voor meer informatie over het gebruik van de activiteit.
+Raadpleeg [deze sectie](../../automating/using/query.md)voor meer informatie over het gebruik van de activiteit.
 
 ![](assets/extsignal_activities_query.png)
 
