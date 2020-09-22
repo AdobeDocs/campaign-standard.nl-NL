@@ -1,20 +1,20 @@
 ---
-title: Een bron aanroepen met een samengestelde identificatiesleutel
+title: Een resource aanroepen met een samengestelde identificatiesleutel
 description: Leer hoe u een bron aanroept met een samengestelde id-toets
 translation-type: tm+mt
-source-git-commit: 1e1e1f5f9dd239e45d83330aed74a951a7b332d4
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 0%
+source-wordcount: '588'
+ht-degree: 7%
 
 ---
 
 
-# Een bron aanroepen met een samengestelde identificatiesleutel{#calling-a-resource-using-a-composite-identification-key}
+# Een resource aanroepen met een samengestelde identificatiesleutel{#calling-a-resource-using-a-composite-identification-key}
 
-In sommige gevallen moet u voor een resource mogelijk een id-sleutel definiëren die uit twee velden bestaat. Zodra de identificatiesleutel wordt gevormd, moet u een filterdefinitie vormen om het middel met deze identificatiesleutel, of van de Standaardinterface van de Campagne of APIs te kunnen roepen.
+In sommige gevallen moet u voor een resource mogelijk een id-sleutel definiëren die uit twee velden bestaat. Zodra de identificatiesleutel wordt gevormd, moet u een filterdefinitie vormen om het middel met deze identificatiesleutel, of van de interface van Campaign Standard of APIs te kunnen roepen.
 
-In dit gebruiksgeval is de **profielbron** uitgebreid met het aangepaste veld **&quot;CRM-id&quot;** en **&quot;categorie&quot;** . We maken een identificatiesleutel voor de profielbron, die uit deze twee velden zal bestaan. Vervolgens configureren we een filterdefinitie, zodat we toegang hebben tot de profielbron met de id-toets.
+In dit geval is de **profielbron** uitgebreid met aangepaste velden **&quot;CRM-id&quot;** en **&quot;categorie&quot;** . We maken een identificatiesleutel voor de profielbron, die uit deze twee velden zal bestaan. Vervolgens configureren we een filterdefinitie, zodat we toegang hebben tot de profielbron met de id-toets.
 
 De belangrijkste stappen voor dit gebruiksgeval zijn:
 
@@ -24,22 +24,22 @@ De belangrijkste stappen voor dit gebruiksgeval zijn:
 
 Verwante onderwerpen:
 
-* [De bron maken of uitbreiden](../../developing/using/creating-or-extending-the-resource.md)
-* [Identificatietoetsen definiëren](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [Standaard REST API&#39;s voor campagne](../../api/using/get-started-apis.md)
+* [De resource maken of uitbreiden](../../developing/using/creating-or-extending-the-resource.md)
+* [Identificatiesleutels definiëren](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
+* [Campaign Standard REST API&#39;s](../../api/using/get-started-apis.md)
 
 ## Stap 1: De id-toets configureren{#step-1-configure-the-identification-key}
 
 >[!NOTE]
 > Algemene concepten bij het configureren van identificatietoetsen worden in [deze sectie](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)nader beschreven.
 
-1. Voordat u de identificatiesleutel configureert, moet u controleren of de bron is uitgebreid met de gewenste velden en of deze is gepubliceerd. For more on this, refer to [this section](../../developing/using/creating-or-extending-the-resource.md).
+1. Voordat u de identificatiesleutel configureert, moet u controleren of de bron is uitgebreid met de gewenste velden en of deze is gepubliceerd. Raadpleeg [deze sectie](../../developing/using/creating-or-extending-the-resource.md) voor meer informatie.
 
 1. Ga naar het **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** menu en open de **[!UICONTROL Profile]** bron.
 
    ![](assets/uc_idkey1.png)
 
-1. Klik in de **[!UICONTROL Identification keys]** sectie op de **[!UICONTROL Create element]** knop.
+1. In the **[!UICONTROL Identification keys]** section, click the **[!UICONTROL Create element]** button.
 
    ![](assets/uc_idkey2.png)
 
@@ -48,7 +48,7 @@ Verwante onderwerpen:
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > Als u de twee aangepaste velden in de interface van het profiel wilt weergeven, configureert u het **[!UICONTROL Screen definition]** tabblad. For more on this, refer to [this section](../../developing/using/configuring-the-screen-definition.md).
+   > Als u de twee aangepaste velden in de interface van het profiel wilt weergeven, configureert u het **[!UICONTROL Screen definition]** tabblad. Raadpleeg [deze sectie](../../developing/using/configuring-the-screen-definition.md) voor meer informatie.
 
 1. U kunt de filterdefinitie nu configureren om de bron aan te roepen met behulp van de id-sleutel.
 
@@ -76,7 +76,7 @@ Verwante onderwerpen:
    ![](assets/uc_idkey7.png)
 
    >[!NOTE]
-   > Nadat u op de plusknop hebt geklikt, wordt de naam van de parameter automatisch gegenereerd. Let op deze informatie omdat u deze nodig hebt om het filter van de API&#39;s te gebruiken.
+   > Nadat u op de knop **+** hebt geklikt, wordt de naam van de parameter automatisch gegenereerd. Let op deze informatie omdat u deze nodig hebt om het filter van de API&#39;s te gebruiken.
 
 1. Herhaal bovenstaande stappen met alle velden waaruit de identificatiesleutel bestaat (&quot;categorie&quot;) en sla uw wijzigingen op.
 
@@ -92,7 +92,7 @@ Als u de filterdefinitie van de interface wilt gebruiken, gebruikt u een **[!UIC
 
 ![](assets/uc_idkey9.png)
 
-Gebruik de onderstaande syntaxis om de filterdefinitie van standaard REST-API&#39;s voor campagnes te gebruiken:
+Gebruik de onderstaande syntaxis om de filterdefinitie van Campaign Standard REST API&#39;s te gebruiken:
 
 ```
 GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<value>&<param2_parameter>=<value>
@@ -107,4 +107,4 @@ In ons geval zou de syntaxis om een profiel op te halen uit de categorie &quot;s
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-Raadpleeg de documentatie [van de standaard REST API&#39;s voor](../../api/using/filtering.md)campagnes voor meer informatie.
+Raadpleeg de documentatie [van de REST API&#39;s van](../../api/using/filtering.md)Campaign Standard voor meer informatie.
