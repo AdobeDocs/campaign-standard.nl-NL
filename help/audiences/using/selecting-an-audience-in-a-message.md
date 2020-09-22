@@ -12,11 +12,11 @@ discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
 context-tags: deliveryCreation,wizard;delivery,audience,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e725ef966bcd6df84ed0c82e17fad65f289fd013
+workflow-type: tm+mt
+source-wordcount: '364'
+ht-degree: 83%
 
 ---
 
@@ -39,6 +39,7 @@ Doelgroepen kunnen worden gedefinieerd bij het maken van het bericht via de wiza
 
    * Target
    * Test profiles
+
    ![](assets/delivery_audience_definition_2.png)
 
 1. Definieer het belangrijkste **[!UICONTROL Target]** van de e-mail. Dit is de gebruikelijke doelgroep van de e-mail.
@@ -54,6 +55,10 @@ Doelgroepen kunnen worden gedefinieerd bij het maken van het bericht via de wiza
 1. Definieer de **[!UICONTROL Test profiles]** die u voor de e-mail wilt gebruiken. De testprofielen ontvangen de proeven die u vooraf kunt verzenden om de e-mail te testen voordat u deze naar het hoofddoel verzendt.
 
    Raadpleeg de sectie [Testprofielen](../../audiences/using/managing-test-profiles.md) voor meer informatie over het configureren van testprofielen.
+
+1. Indien nodig, kunt u een controlegroep bepalen gebruikend het overeenkomstige lusje. Hierdoor kunt u bepaalde profielen van uw doel verwijderen zodat deze het bericht niet ontvangen. For more on this, see [Adding a control group](../../sending/using/control-group.md).
+
+1. U kunt ook substitutieadressen gebruiken om een nauwkeurige vertegenwoordiging van het bericht te krijgen dat het profiel zal ontvangen.  Zie [E-mailberichten testen met doelprofielen](../../sending/using/testing-messages-using-target.md) voor meer informatie.
 
 Het blok Audience wordt vervolgens bijgewerkt en geeft weer dat een doel en testprofielen zijn geselecteerd voor de e-mail in kwestie.
 
