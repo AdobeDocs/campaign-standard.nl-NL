@@ -13,9 +13,9 @@ context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,m
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '235'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 # Uitsplitsing naar domeinen{#breakdown-by-domains}
 
-Dit rapport bevat de prestatiegegevens voor elk domein dat in het publiek voor een e-maillevering wordt vertegenwoordigd. Als het een campagne- of programmarapport is, zijn de prestatiegegevens beschikbaar voor meerdere doelgroepen. Met deze gegevens kunt u het gedrag van elk domein analyseren in reactie op specifieke gebeurtenissen. Bijvoorbeeld de weergave van koppelingen, de op de lijst met ongewenste personen staan URL, enzovoort.
+Dit rapport bevat de prestatiegegevens voor elk domein dat in het publiek voor een e-maillevering wordt vertegenwoordigd. Als het een campagne- of programmarapport is, zijn de prestatiegegevens beschikbaar voor meerdere doelgroepen. Met deze gegevens kunt u het gedrag van elk domein analyseren in reactie op specifieke gebeurtenissen. Bijvoorbeeld, verbindingsvertoning, URL op lijst van afgewezen personen, enz.
 
 ![](assets/delivery_reports_6.png)
 
@@ -42,5 +42,5 @@ De tweede lijst, het **Volgen statistieken**, bevat de beschikbare gegevens voor
 * **Klik**: Het aantal keren dat op inhoud is geklikt in een levering.
 * **Abonnement opgezegd**: Het aantal klikken op de abonnementkoppeling.
 * **Pagina** spiegelen: Het aantal klikken op de koppeling van de spiegelpagina.
-* **Toegevoegd op lijst van gewenste personen**: Het aantal ontvangers dat een e-mail heeft gedeclareerd als spam of junk. [Meer informatie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* **Bij lijst van afgewezen personen**: Het aantal ontvangers dat een e-mail heeft gedeclareerd als spam of junk. [Meer informatie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
