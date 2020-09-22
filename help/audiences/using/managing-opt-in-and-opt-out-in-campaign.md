@@ -12,7 +12,7 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 6%
@@ -26,7 +26,7 @@ ht-degree: 6%
 
 Gebruikers kunnen door een operator rechtstreeks vanuit het **[!UICONTROL General]** tabblad Profiel in- of uitschakelen.
 
-In de **[!UICONTROL No longer contact (denylisted)]** sectie komen de geselecteerde selectievakjes overeen met de kanalen waarvan de gebruiker de optie Weigeren heeft gekozen. Selecteer de kanalen op basis van de behoeften van de gebruiker.
+In de **[!UICONTROL No longer contact (on denylist)]** sectie komen de geselecteerde selectievakjes overeen met de kanalen waarvan de gebruiker de optie Weigeren heeft gekozen. Selecteer de kanalen op basis van de behoeften van de gebruiker.
 
 ![](assets/optin_landingpage_3.png)
 
