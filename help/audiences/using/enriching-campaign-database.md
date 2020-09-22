@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 # De database verrijken{#enriching-the-database}
 
-De Standaard van de campagne biedt verscheidene hulpmiddelen aan om u te helpen uw marketing gegevensbestand kweken. In deze sectie worden de verschillende methoden beschreven die u kunt gebruiken om gegevens in campagne te injecteren, met verwijzingen naar de desbetreffende documenten.
+Campaign Standard biedt verschillende hulpmiddelen aan om u te helpen uw marketing gegevensbestand kweken. In deze sectie worden de verschillende methoden beschreven die u kunt gebruiken om gegevens in campagne te injecteren, met verwijzingen naar de desbetreffende documenten.
 
 ## Gegevens importeren via workflows {#importing-data-through-workflows}
 
-Met workflows kunt u gegevens verzamelen en importeren in de Campagne-database via het gebruik van [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) activiteiten.
+Met workflows kunt u gegevens verzamelen en importeren in de Campagne-database via het gebruik van [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md) activiteiten.
 
 Algemene informatie en aanbevolen procedures bij het importeren van gegevens via workflows vindt u in [deze sectie](../../automating/using/about-data-import-and-export.md).
 
@@ -52,25 +52,25 @@ Het beginsel is als volgt:
 * Wijs elk invoerveld toe aan het corresponderende veld in de database.
 * Maak de openingspagina online beschikbaar via een website of via een directe koppeling naar een bericht.
 
-Raadpleeg de [desbetreffende documentatie](../../channels/using/getting-started-with-landing-pages.md)voor meer informatie over bestemmingspagina&#39;s.
+For more on landing pages, refer to the [dedicated documentation](../../channels/using/getting-started-with-landing-pages.md).
 
 ## Profielen synchroniseren vanuit Microsoft Dynamics 365
 
-De standaardintegratie van de campagne met de Dynamica 365 van Microsoft staat u toe om contactgegevens van de Dynamica 365 van Microsoft tot het gegevensbestand van de Campagne over te gaan.
+De integratie van Campaign Standard met de Dynamica 365 van Microsoft staat u toe om contactgegevens van de Dynamica 365 van Microsoft tot het gegevensbestand van de Campagne over te gaan.
 Deze contacten zijn dan zichtbaar in de lijst van Profielen en kunnen in marketing campagnes worden gericht.
 
-Raadpleeg de [desbetreffende documentatie](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)voor meer informatie over deze integratie.
+For more on this integration, refer to the [dedicated documentation](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 >[!NOTE]
 >
->Houd er rekening mee dat de connector Standaard-Microsoft Dynamics 365 voor Campagne momenteel in Beperkte Beschikbaarheid is en dat er verschillende beperkingen op van toepassing zijn, die in de documentatie worden beschreven.
+>Houd er rekening mee dat de Campaign Standard-Microsoft Dynamics 365-connector momenteel in Beperkte beschikbaarheid beschikbaar is en dat er verschillende beperkingen op van toepassing zijn, die in de documentatie worden beschreven.
 
 ## Gegevens importeren via API-aanroepen
 
-Met API&#39;s van de campagnestandaard kunt u bewerkingen uitvoeren om de database bij te werken, zoals het maken, bijwerken of verwijderen van profielen of services.
+Met Campaign Standard-API&#39;s kunt u bewerkingen uitvoeren om de database bij te werken, zoals het maken, bijwerken of verwijderen van profielen of services.
 
 Raadpleeg de [specifieke documentatie](../../api/using/get-started-apis.md)voor meer informatie over het gebruik van de API&#39;s.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Controleer voordat u profielen massaal maakt of bijwerkt via API-aanroepen de schaalbeperkingen die overeenkomen met uw licentieovereenkomst. For more on this, refer to [this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
