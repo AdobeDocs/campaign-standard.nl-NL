@@ -13,7 +13,7 @@ context-tags: sms,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 16afc307df6902584624d6457954a472b11c5129
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 100%
@@ -29,11 +29,10 @@ ht-degree: 100%
 
 ![](assets/recurrentsms.png)
 
-Met de activiteit **[!UICONTROL SMS delivery]** kunt u het verzenden van een sms in een workflow configureren. Dit kan **het eenmalig verzenden van één sms** zijn of het kan een **terugkerende sms** zijn.
+Met de activiteit **[!UICONTROL SMS delivery]** kunt u het verzenden van een sms in een workflow configureren. Dit kan het eenmalig verzenden van één sms zijn of het kan een terugkerende sms zijn.
 
-Sms-berichten voor eenmalige verzending zijn standaard sms-berichten die één keer worden verzonden.
-
-Met terugkerende sms-berichten kunt u dezelfde sms meerdere keren naar verschillende doelen verzenden over een bepaalde periode. U kunt de leveringen per periode samenvoegen om rapporten te krijgen die voldoen aan uw behoeften.
+* **Sms-berichten voor eenmalige verzending zijn standaard sms-berichten die één keer worden verzonden.**
+* **Met terugkerende sms-berichten kunt u dezelfde sms meerdere keren naar verschillende doelen verzenden over een bepaalde periode.** U kunt de leveringen per periode samenvoegen om rapporten te krijgen die voldoen aan uw behoeften.
 
 ## Gebruikscontext {#context-of-use}
 
