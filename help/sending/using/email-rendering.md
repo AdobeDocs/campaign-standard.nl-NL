@@ -12,10 +12,10 @@ discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b43e6be265ff2d8ce357ef44672a755028e2e5af
+source-git-commit: 3af649cfaae195ae5e75406ca3a0743b9b1f65d2
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '511'
+ht-degree: 85%
 
 ---
 
@@ -78,6 +78,13 @@ In dit rapport ziet u de e-mailweergave zoals de ontvanger deze te zien krijgt. 
 >[!NOTE]
 >
 >Het aantal beschikbare weergaven vindt u terug in uw licentieovereenkomst. Bij elke levering waarvoor **Email rendering** is ingeschakeld, neemt uw aantal beschikbare weergaven (ook wel tokens genoemd) af met één.
+>
+>Tokens maken voor elke afzonderlijke rendering en niet voor het hele e-mailrenderrapport. Dit houdt in dat:
+>
+>**Telkens als** het Inbox teruggevende rapport wordt geproduceerd, wordt één teken per overseinencliënt afgetrokken: één token voor de rendering van Outlook 2000, één token voor de rendering van Outlook, één token voor de rendering van Apple Mail, enzovoort.
+>
+>**Als u voor dezelfde levering** de rendering via e-mail opnieuw genereert, wordt het aantal beschikbare tokens opnieuw verminderd met het aantal gegenereerde renderingen.
+
 
 Het rapportoverzicht toont het aantal ontvangen berichten, ongewenste berichten (spam), niet ontvangen berichten of berichten die nog niet zijn bezorgd.
 
