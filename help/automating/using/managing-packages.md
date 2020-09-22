@@ -12,9 +12,9 @@ discoiquuid: c3015cdc-8432-4e57-8ac0-43ae7827e3b0
 context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 100%
 
@@ -43,9 +43,11 @@ Als u de content van een element wilt weergeven en wijzigen, klikt u op het elem
 
 ![](assets/packages_14.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Het exporteren van pakketten is niet toegestaan als de geëxporteerde resources standaard-id’s hebben. De id’s van resources die kunnen worden geëxporteerd, moeten daarom worden veranderd in een naam die afwijkt van de sjablonen die standaard worden geleverd door Adobe Campaign Standard. Voor het exporteren van testprofielen mag bijvoorbeeld niet een id met de waarde ‘SDM’ of ‘sdm’ worden gebruikt. Wanneer u probeert pakketten met standaard-id’s te exporteren, kunt u te maken krijgen met fouten zoals: “Het type entiteit ‘Merken (branding)’ gebruikt een standaard-id (BRD1)”. Dergelijke fouten kunnen bij het importeren van het pakket een conflict veroorzaken. Wijzig deze naam en herhaal de bewerking.”
+>Het exporteren van pakketten is niet toegestaan als de geëxporteerde resources standaard-id’s hebben. De id’s van resources die kunnen worden geëxporteerd, moeten daarom worden veranderd in een naam die afwijkt van de sjablonen die standaard worden geleverd door Adobe Campaign Standard. Voor het exporteren van testprofielen mag bijvoorbeeld niet een id met de waarde ‘SDM’ of ‘sdm’ worden gebruikt.
+>
+>Wanneer u probeert pakketten met standaard-id’s te exporteren, kunt u te maken krijgen met fouten zoals: “Het type entiteit ‘Merken (branding)’ gebruikt een standaard-id (BRD1)”. Dergelijke fouten kunnen bij het importeren van het pakket een conflict veroorzaken. Wijzig deze naam en herhaal de bewerking.”
 
 De stappen voor het exporteren van het pakket worden beschreven in de sectie [Een pakket exporteren](#exporting-a-package).
 
