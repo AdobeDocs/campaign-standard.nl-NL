@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: b80197491b45cff46273e1a41e3dfb7a939f96c5
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 15%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +53,7 @@ Meer informatie [in deze sectie](../../sending/using/email-rendering.md).
 
 Door proefdrukken te verzenden, kunt u de koppeling om te weigeren controleren, de pagina spiegelen en andere koppelingen controleren, het bericht valideren, controleren of afbeeldingen worden weergegeven, mogelijke fouten opsporen, enz. Mogelijk wilt u ook uw ontwerp en rendering op verschillende apparaten controleren.
 
-Meer informatie [[in deze sectie](../../sending/using/sending-proofs.md)].
+Meer informatie [in deze sectie](../../sending/using/sending-proofs.md).
 
 ## A/B-testleveringen instellen {#a-b-testing-deliveries}
 
