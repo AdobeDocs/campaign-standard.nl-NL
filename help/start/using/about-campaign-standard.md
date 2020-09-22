@@ -12,19 +12,19 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d7846c33f0bc3730fc63a8659c8afc1c868064e0
+source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Aan de slag met Campaign Standard {#about-campaign-standard}
+# Get Started with Campaign Standard {#about-campaign-standard}
 
 Adobe Campaign Standard is een krachtig hulpprogramma voor het beheer van campagnes over meerdere kanalen waarmee u uw online- en offlinestrategieën kunt uitlijnen om persoonlijke ervaringen van klanten te creëren.
 
-Het volledige proces van het creëren, uitvoeren, en het volgen van kanaalcampagnes, evenals berichten verzenden die volgens het profiel, het gedrag, de voorkeur, en de behoeften van de cliënten worden gepersonaliseerd. U kunt het volledige marketingproces eenvoudig ordenen, wissen en automatiseren en integreren met andere Adobe-oplossingen.
+Het volledige proces van het creëren, uitvoeren, en het volgen van kanaalcampagnes, evenals berichten verzenden die volgens het profiel, het gedrag, de voorkeur, en de behoeften van de cliënten worden gepersonaliseerd. U kunt het hele marketingproces eenvoudig ordenen, wissen en automatiseren en integreren met andere Adobe-oplossingen.
 
 ## Vergroot uw marketingdatabase {#grow-database}
 
@@ -38,7 +38,7 @@ Het volledige proces van het creëren, uitvoeren, en het volgen van kanaalcampag
 
 **Verrijk uw database** met meerdere functies: workflows, openingspagina&#39;s of API&#39;s of Microsoft Dynamics 365.
 
-[Aan de slag met profielen en publiek](../../audiences/using/get-started-profiles-and-audiences.md)
+[Aan de slag met profielen en doelgroepen](../../audiences/using/get-started-profiles-and-audiences.md)
 
 ## Kanaaloverschrijdende marketingcampagnes ordenen {#orchestrate-campaigns}
 
@@ -66,25 +66,25 @@ Ontwerp en verzend berichten op online en off-line communicatiekanalen, met inbe
 
 <img width="60px" alt="voorwaarden" src="assets/icon_report.svg"/>
 
-Nadat marketingcampagnes zijn uitgevoerd en de verschillende berichten zijn verzonden, kunt u deze in Campaign Standard controleren om de impact en het gedrag van de ontvangers te volgen.
+Nadat marketingcampagnes zijn uitgevoerd en de verschillende berichten zijn verzonden, kunt u met Campaign Standard de campagnes volgen om de gevolgen en het gedrag van de ontvangers te volgen.
 
 **Controleer de leveringen** nadat deze zijn verzonden. Raadpleeg gedetailleerde logboeken en exporteer deze over uw leveringen. Haal informatie over hun status voor elke ontvanger op, de berichten die van het doel zijn uitgesloten en nog veel meer metriek.
 Gebruik de functie voor leveringswaarschuwingen om de successen of mislukkingen van de levering via e-mailberichten bij te houden. Meer informatie? [Aan de slag met berichten die worden gecontroleerd](../../sending/using/monitoring-a-delivery.md)
 
-**Volg het gedrag van de ontvangers** van de levering. Gebruik sessies en permanente cookies om trackinggegevens op te halen voor elk van uw contactpersonen in uw database. Volg de informatie over leveringen (aangeklikte URL&#39;s, foutopsporingspagina&#39;s, geopende berichten...) via speciale logbestanden en rapporten. [Aan de slag met het bijhouden van berichten](../../sending/using/tracking-messages.md)
+**Volg het gedrag van de ontvangers** van de levering. Gebruik sessies en permanente cookies om trackinggegevens op te halen voor elk van uw contactpersonen in uw database. Volg informatie over leveringen (aangeklikte URL&#39;s, spiegelpagina&#39;s, geopende berichten...) via speciale logboeken en rapporten. [Aan de slag met het bijhouden van berichten](../../sending/using/tracking-messages.md)
 
-**Gebruik dynamische rapporten** om specifieke metriek met betrekking tot uw bericht of campagne te schetsen. Dynamische rapportage biedt volledig aanpasbare en real-time rapporten die toegang tot profielgegevens toevoegen, waardoor demografische analyse mogelijk wordt op basis van profieldimensies zoals geslacht, stad en leeftijd, en naast functionele e-mailcampagnecampagne, zoals open en kliks. Met de belemmering-en-dalingsinterface, kunt u gegevens onderzoeken, bepalen hoe uw e-mailcampagnes tegen uw belangrijkste klantensegmenten werden uitgevoerd en hun effect op ontvangers meten. [Aan de slag met dynamische rapportage](../../reporting/using/about-dynamic-reports.md)
+**Gebruik dynamische rapporten** om specifieke metriek met betrekking tot uw bericht of campagne te schetsen. Dynamische rapportage biedt volledig aanpasbare en real-time rapporten die toegang tot profielgegevens toevoegen, waardoor demografische analyse mogelijk wordt op basis van profieldimensies zoals geslacht, stad en leeftijd, en naast functionele e-mailcampagnecampagne, zoals geopend en geklikt. Met de belemmering-en-dalingsinterface, kunt u gegevens onderzoeken, bepalen hoe uw e-mailcampagnes tegen uw belangrijkste klantensegmenten werden uitgevoerd en hun effect op ontvangers meten. [Aan de slag met dynamische rapportage](../../reporting/using/about-dynamic-reports.md)
 
 ## Beheer uw platform en breid het gegevensmodel uit {#datamodel-apis}
 
 <img width="60px" alt="voorwaarden" src="assets/icon_admin.svg"/>
 
-**Breid Campaign Standard gegevensmodel** met uw eigen gebieden en middelen uit, en controleer alle veranderingen van het gegevensmodel in één enkele mening. [Aan de slag met het Campaign Standard-gegevensmodel](../../developing/using/get-started-data-model.md)
+**Breid Campaign Standard gegevensmodel** met uw eigen gebieden en middelen uit, en controleer alle veranderingen van het gegevensmodel in één enkele mening. [Aan de slag met het Campaign Standard-datamodel](../../developing/using/get-started-data-model.md)
 
-**Gebruik REST API&#39;s** om verschillende bewerkingen uit te voeren en Campaign Standard te integreren met uw eigen ecosysteem. [Aan de slag met Campaign Standard REST API&#39;s](../../api/using/get-started-apis.md)
+**Gebruik REST APIs** om diverse verrichtingen uit te voeren en Campaign Standard met uw eigen ecosysteem te integreren. [Aan de slag met Campaign Standard REST API&#39;s](../../api/using/get-started-apis.md)
 
-**Campagne** beheren vanuit één weergave: om uw exemplaar te controleren, de toestemmingen van gebruikers te beheren. De externe servers van de opstelling om met uw instantie te verbinden, en parameters voor uw communicatiekanalen te vormen. [Aan de slag met de Campaign Standard-administratie](../../administration/using/get-started-campaign-administration.md)
+**Campagne** beheren vanuit één weergave: om uw exemplaar te controleren, de toestemmingen van gebruikers te beheren. De externe servers van de opstelling om met uw instantie te verbinden, en parameters voor uw communicatiekanalen te vormen. [Aan de slag met Campaign Standard-beheer](../../administration/using/get-started-campaign-administration.md)
 
-**Met de Campaign Standard-mogelijkheden voor gegevensbeheer kunt u eenvoudig gegevens** importeren en exporteren. [Aan de slag met processen en gegevensbeheer](../../automating/using/get-started-workflows.md)
+**U kunt gegevens** eenvoudig importeren en exporteren met de Campaign Standard-functies voor gegevensbeheer. [Aan de slag met processen en gegevensbeheer](../../automating/using/get-started-workflows.md)
 
 **Combineer de mogelijkheden van de Campagne met andere oplossingen** om u te helpen optimale marketing campagnes bouwen. [Aan de slag met Campaign Standard-integratie](../../integrating/using/get-started-campaign-integrations.md)
