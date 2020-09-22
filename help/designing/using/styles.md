@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
+source-git-commit: 796490350855213578808651cd18df24b1d3f2d1
+workflow-type: tm+mt
+source-wordcount: '1028'
+ht-degree: 2%
 
 ---
 
@@ -101,7 +104,12 @@ Voor zowel **[!UICONTROL Padding]** als **[!UICONTROL Margin]**, klik het slotpi
 
 ## Achtergronden instellen {#about-backgrounds}
 
-Adobe raadt het volgende aan als u achtergronden wilt instellen met de e-mailontwerper:
+>[!CONTEXTUALHELP]
+>id="ac_edition_backgroundimage"
+>title="Achtergrondinstellingen"
+>abstract="Met de e-mailontwerper kunt u de achtergrondkleur of achtergrondafbeelding voor uw inhoud aanpassen."
+
+Als het gaat om het instellen van achtergronden met de e-mailontwerper, raadt Adobe het volgende aan:
 
 1. Pas een achtergrondkleur toe op de tekst van uw e-mail, indien dat door uw ontwerp wordt vereist.
 1. In de meeste gevallen stelt u achtergrondkleuren in op kolomniveau.
@@ -129,7 +137,7 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
 
    >[!NOTE]
    >
-   >Sommige e-mailprogramma&#39;s ondersteunen achtergrondafbeeldingen niet. Selecteer de gewenste achtergrondkleur voor fallback als de afbeelding niet kan worden weergegeven.
+   >Sommige e-mailprogramma&#39;s ondersteunen achtergrondafbeeldingen niet. Als deze optie niet wordt ondersteund, wordt in plaats daarvan de achtergrondkleur van de rij gebruikt. Selecteer de gewenste achtergrondkleur voor fallback als de afbeelding niet kan worden weergegeven.
 
 * Stel een achtergrondkleur in op kolomniveau.
 
@@ -137,13 +145,13 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
 
    >[!NOTE]
    >
-   >Dit is het meest gebruikte geval. Adobe raadt u aan achtergrondkleuren in te stellen op kolomniveau, omdat dit meer flexibiliteit biedt bij het bewerken van de volledige e-mailinhoud.
+   >Dit is het meest gebruikte geval. Adobe raadt aan achtergrondkleuren in te stellen op kolomniveau, omdat dit meer flexibiliteit biedt bij het bewerken van de volledige e-mailinhoud.
 
    U kunt ook een achtergrondafbeelding instellen op kolomniveau, maar dit wordt zelden gebruikt.
 
 ### Voorbeeld: verticale uitlijning en opvulling aanpassen {#example--adjusting-vertical-alignment-and-padding}
 
-U wilt de opvulling en de verticale uitlijning aanpassen binnen een structuurcomponent die uit drie kolommen bestaat. Hiervoor voert u de volgende stappen uit:
+U wilt de opvulling en de verticale uitlijning aanpassen binnen een structuurcomponent die uit drie kolommen bestaat. Volg de onderstaande stappen om dit te doen:
 
 1. Selecteer de structuurcomponent rechtstreeks in de e-mail of met gebruik van de boomstructuur die beschikbaar is in het linker **palet**.
 1. Klik op de **contextafhankelijke werkbalk****[!UICONTROL Select a column]** en kies de werkbalk die u wilt bewerken. U kunt deze ook selecteren in de boomstructuur.
