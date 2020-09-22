@@ -12,9 +12,9 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 3161226c9ab28f8d519f55a408022284919954f6
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1283'
 ht-degree: 7%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 7%
 
 # Een mobiele applicatie configureren{#configuring-a-mobile-application}
 
-## Een mobiele toepassing configureren met Adobe Experience Platform SDK&#39;s {#using-adobe-experience-platform-sdk}
+## Configuring a mobile application using Adobe Experience Platform SDKs {#using-adobe-experience-platform-sdk}
 
 >[!IMPORTANT]
 >
@@ -58,8 +58,8 @@ Met deze stap kan de gebruiker zich aanmelden bij het Experience Platform Launch
 1. Klik in het Experience Platform Launch op het **[!UICONTROL Extensions]** tabblad, ga naar **[!UICONTROL Catalog]** en zoek naar de **[!UICONTROL Adobe Campaign Standard]** extensie. Zie [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)voor meer informatie.
 
 1. Installeer de **[!UICONTROL Places]** **[!UICONTROL Places Monitor]** extensie en de extensie om gevallen van locatiegebruik in Campaign Standard te ondersteunen.
-   * Installeer de **[!UICONTROL Places]** extensie in Experience Platform Launch. Zie deze [pagina](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
-   * Installeer de **[!UICONTROL Places Monitor]** extensie in Experience Platform Launch. Zie deze [pagina](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
+   * Installeer de **[!UICONTROL Places]** extensie in Experience Platform Launch. Refer to this [page](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   * Installeer de **[!UICONTROL Places Monitor]** extensie in Experience Platform Launch. Refer to this [page](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
 
 1. Configureer in Adobe Campaign Standaard de mobiele eigenschap die u in Experience Platform Launch hebt gemaakt. Zie [Adobe Experience Platform Launch-toepassingen instellen in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
@@ -70,10 +70,6 @@ Zie [Kanaalspecifieke applicatieconfiguratie in Adobe Campaign](../../administra
 Zie Uw Experience Platform Launch-toepassing [](../../administration/using/configuring-a-mobile-application.md#delete-app)verwijderen voor meer informatie.
 
 ## Mobiele app synchroniseren met AEPSDK vanuit technische workflow starten {#aepsdk-workflow}
-
->[!IMPORTANT]
->
->Deze functie is een bètafunctie in Adobe Campaign vanaf release 20.3. U zult een kaartje aan de Zorg van de Klant van Adobe moeten voorleggen (of direct of door uw contact van de Adobe) om de **[!UICONTROL sync Mobile app AEPSDK from Launch]** technische werkschema te hebben toegelaten in uw instantie van Adobe Campaign.
 
 Nadat u de mobiele eigenschap hebt gemaakt en geconfigureerd in Experience Platform Launch, worden de in Adobe Campaign Standard geïmporteerde eigenschappen voor het starten van Adobe nu gesynchroniseerd met de **[!UICONTROL Sync Mobile app AEPSDK from Launch]** technische workflow.
 
@@ -96,9 +92,9 @@ De Adobe Launch mobile-eigenschappen die in Adobe Campaign Standard zijn geïmpo
 
 Om een Experience Platform Launch mobiel bezit in Campagne te gebruiken, moet u dit bezit in Adobe Campaign ook vormen. In Adobe Campaign moet u ervoor zorgen dat de IMS-gebruiker deel uitmaakt van de standaardprofielen voor gebruikers- en beheerproducten.
 
-Voor gebruikers die de markering Functie voor technische werkstroom starten hebben ingeschakeld in de app Sync Mobile AEPSDK, moet u wachten tot de technische workflow is uitgevoerd en moet u de eigenschap Mobiele site starten synchroniseren met Adobe Campaign. U kunt de configuratie vervolgens configureren in Adobe Campaign.
+U moet wachten tot de technische workflow wordt uitgevoerd en de eigenschap Mobiele site starten moet worden gesynchroniseerd met Adobe Campaign. U kunt de configuratie vervolgens configureren in Adobe Campaign.
 
-Raadpleeg deze [sectie](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)voor meer informatie over het synchroniseren van de functiemarkering voor mobiele app AEPSDK vanuit de functiemarkering voor technische workflows starten.
+Raadpleeg deze [sectie](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)voor meer informatie over het synchroniseren van mobiele app AEPSDK vanuit de technische workflow van Starten.
 
 >[!NOTE]
 >
