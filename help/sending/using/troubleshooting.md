@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 331769e7f1c1c30e3b7ff340252052c5aaa2eac9
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '459'
 ht-degree: 1%
 
 ---
@@ -38,30 +38,30 @@ Als het probleem zich blijft voordoen, neemt u contact op met de services voor c
 
 ## Lijst van afgewezen personen versus quarantaine {#denylist-versus-quarantine}
 
-* **Wat is het verschil tussen een op de lijst met ongewenste personen staan e-mailadres en een quarantined e-mailadres?**
+* **Wat is het verschil tussen een e-mailadres op lijst van afgewezen personen en een quarantined e-mailadres?**
 
-   * De status **[!UICONTROL Denylisted]** is een resultaat van een feedbacklus (wanneer een persoon een bericht rapporteert als spam).
+   * De status **[!UICONTROL On denylist]** is een resultaat van een feedbacklus (wanneer een persoon een bericht rapporteert als spam).
 
    * De status **[!UICONTROL Quarantined]** is het resultaat van een zachte of harde stuit.
-   Zie [deze sectie](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list) voor meer informatie.
+   Zie [deze sectie](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist) voor meer informatie.
 
 * **Wat betekenen de verschillende redenen voor quarantainefouten?**
 
-   Hier volgen tien mogelijke redenen: niet bepaald, gebruiker onbekend, ongeldig domein, toegevoegd op lijst van gewenste personen adres, geweigerd, fout genegeerd, onbereikbaar, rekening gehandicapt, brievenbus volledig, niet verbonden.
+   Hier volgen tien mogelijke redenen: niet bepaald, gebruiker onbekend, ongeldig domein, adres op lijst van afgewezen personen, geweigerd, fout genegeerd, onbereikbaar, rekening gehandicapt, brievenbus volledig, niet verbonden.
 
    For more on this, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
 
 ## Verwijderen uit lijst van afgewezen personen {#removing-from-denylist}
 
-* **Een van mijn ontvangers werd per ongeluk toegevoegd op lijst van gewenste personen. Hoe verwijder ik hen uit de lijst van afgewezen personen zodat ik kan beginnen hen berichten opnieuw te verzenden?**
+* **Een van mijn ontvangers is per ongeluk aan de lijst van afgewezen personen toegevoegd. Hoe verwijder ik hen uit de lijst van afgewezen personen zodat ik kan beginnen hen berichten opnieuw te verzenden?**
 
    * Ga naar **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * Stel in de details van de corresponderende record de waarde van het **[!UICONTROL Status]** veld in op **[!UICONTROL Valid]**.
    * Sla de record op.
 
-* **Hoe kan ik te weten komen of één van mijn IPs wordt toegevoegd op lijst van gewenste personen? Hoe verwijder ik mijn IP(s) uit een lijst van afgewezen personen?**
+* **Hoe kan ik te weten komen of één van mijn IPs op lijst van afgewezen personen is? Hoe verwijder ik mijn IP(s) uit een lijst van afgewezen personen?**
 
-   Om te controleren of uw IP adres wordt toegevoegd op lijst van gewenste personen, kunt u diverse websites gebruiken om het te verifiëren, zoals:
+   Om te controleren of uw IP adres op lijst van afgewezen personen is, kunt u diverse websites gebruiken om het te verifiëren, zoals:
    * [MX-gereedschapset](https://mxtoolbox.com/)
    * [Wat is mijn IP adres](https://whatismyipaddress.com)
 
