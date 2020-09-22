@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 2%
@@ -67,4 +67,4 @@ U kunt overvullingen gebruiken bij het verzenden van transactieberichten. In dit
 
 >[!NOTE]
 >
->Wanneer u een testprofiel als overvulling gebruikt, worden voor alle verrijkte velden in een bericht de bijbehorende aanvullende gegevens willekeurig gekozen uit een echt doelprofiel en toegewezen aan het testprofiel voor overvulling. Zie [dit voorbeeld](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file)voor meer informatie over verrijking.
+>Wanneer u een testprofiel als overvulling gebruikt, worden voor alle verrijkte velden in een bericht de bijbehorende aanvullende gegevens willekeurig gekozen uit een echt doelprofiel en toegewezen aan het testprofiel voor overvulling. Zie [dit voorbeeld](../../automating/using/enriching-profile-data-file.md)voor meer informatie over verrijking.
