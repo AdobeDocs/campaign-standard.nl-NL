@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 9ab3cc5a23b9b31b463bc3557b8164307d367d25
+workflow-type: tm+mt
+source-wordcount: '929'
+ht-degree: 3%
 
 ---
 
@@ -67,7 +70,7 @@ Toegang tot meer algemene opties en instellingen op de hoofdwerkbalk **** (4).
 
 ![](assets/email_designer_toolbar.png)
 
-De **contextuele toolbar** van de redacteursinterface biedt diverse functionaliteit afhankelijk van de geselecteerde streek aan. Het bevat actieknoppen en knoppen waarmee u de stijl van de tekst kunt wijzigen. De uitgevoerde wijzigingen gelden altijd voor de geselecteerde zone.
+De **contextuele toolbar** van de redacteursinterface biedt diverse functionaliteit afhankelijk van de geselecteerde streek aan. Het bevat actieknoppen en knoppen waarmee u de stijl van de tekst kunt wijzigen. De uitgevoerde wijzigingen zijn altijd van toepassing op de geselecteerde zone.
 
 ### Terminologie {#terminology}
 
@@ -95,16 +98,20 @@ Als u de e-mailontwerper correct wilt gebruiken en de beste e-mails zo eenvoudig
 
 * Tijdens het bewerken van **e-mailinhoud**:
 
-   Bekijk uw berichten voordat u ze verzendt. Met Adobe Campaign kunt u het renderen van e-mailberichten testen met gebruik van Litmus. Zie [E-mailrendering](../../sending/using/email-rendering.md)voor meer informatie.
+   Bekijk uw berichten voordat u ze verzendt. Adobe Campaign biedt een manier om het renderen van e-mail te testen met Litmus. Zie [E-mailrendering](../../sending/using/email-rendering.md)voor meer informatie.
 
-De volgende stapsgewijze handleiding voor Adobe Campagne bevat meer ontwerp en algemene tips en trucs voor berichten: Aanbevolen werkwijzen voor [levering met Adobe Campaign](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html).
+Meer ontwerp en algemene beste praktijken betreffende berichten worden voorgesteld in de volgende sectie: [Best practices voor levering](../../sending/using/delivery-best-practices.md)
 
 ### Beperkingen van e-mailDesigner {#email-designer-limitations}
 
-* U kunt geen verpersoonlijkingsgebieden in een fragment gebruiken. Zie [deze sectie](../../designing/using/using-reusable-content.md#about-fragments)voor meer informatie over fragmenten.
+* U kunt geen verpersoonlijkingsgebieden in een fragment gebruiken. For more on fragments, see [this section](../../designing/using/using-reusable-content.md#about-fragments).
+
 <!--* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).-->
 * Bij het bewerken van stijlen zijn alleen weblettertypen beschikbaar die officieel door de meeste e-mailclients worden ondersteund.
-* Stijlen kunnen niet worden opgeslagen als thema voor toekomstig hergebruik. De CSS-stijl kan echter worden opgeslagen in een inhoudssjabloon of in een e-mail. Zie [deze sectie](../../designing/using/styles.md)voor meer informatie over stijlen.
+* Stijlen kunnen niet worden opgeslagen als thema voor toekomstig hergebruik. De CSS-stijl kan echter worden opgeslagen in een inhoudssjabloon of in een e-mail. For more on styles, see [this section](../../designing/using/styles.md).
+* De meta-tag Referrer wordt niet ondersteund in de e-mailontwerper.
+* Surrogaatparen, tekens die niet in het meertalig basisvlak van de Unicode-tekenset staan, kunnen niet in 2 bytes (16 bits) worden opgeslagen en moeten in 2 UTF-16-tekens worden gecodeerd. Deze tekens zijn enkele CJK-ideografieën, de meeste emojis en sommige talen.
+Deze tekens kunnen onverenigbaarheidsproblemen veroorzaken in dynamische tekst. U moet sterke tests uitvoeren alvorens uw berichten te verzenden.
 
 ### Fragmenten bijwerken {#email-designer-updates}
 
