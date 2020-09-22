@@ -13,7 +13,7 @@ context-tags: directMail,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 99%
@@ -29,11 +29,10 @@ ht-degree: 99%
 
 ![](assets/recurrentpaper.png)
 
-Met de activiteit **[!UICONTROL Direct mail delivery]** kunt u een bestand configureren en voorbereiden met profieldata die u wilt gebruiken voor een direct-mailcampagne. Dit kan een direct mail zijn die slechts eenmaal wordt gebruikt, of het kan een **terugkerende** direct mail zijn.
+Met de activiteit **[!UICONTROL Direct mail delivery]** kunt u een bestand configureren en voorbereiden met profieldata die u wilt gebruiken voor een direct-mailcampagne. Dit kan een direct mail zijn die slechts eenmaal wordt gebruikt, of het kan een terugkerende direct mail zijn.
 
-Standaard direct mails worden één keer verzonden.
-
-Met terugkerende mails kunt u dezelfde direct mail meerdere malen naar verschillende targets sturen gedurende een bepaalde periode. U kunt de leveringen per periode samenvoegen om rapporten te verkrijgen die aan uw behoeften voldoen.
+* **Standaard direct mails worden één keer verzonden.**
+* **Met terugkerende mails kunt u dezelfde direct mail meerdere malen naar verschillende targets sturen gedurende een bepaalde periode.** U kunt de leveringen per periode samenvoegen om rapporten te krijgen die voldoen aan uw behoeften.
 
 ## Gebruikscontext {#context-of-use}
 
