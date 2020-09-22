@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8f8755acdc0b778b74e2bfcd4dc898ceff82b90
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '2492'
 ht-degree: 93%
@@ -84,7 +84,7 @@ Volg onderstaande stappen om een transactiebericht te personaliseren:
 
    ![](assets/message-center_9.png)
 
-   U kunt controleren of de personalisatievelden overeenkomen met de data die in het testprofiel zijn ingevoerd. Zie [Een testprofiel definiëren in een transactiebericht](#defining-a-test-profile-in-a-transactional-message) voor meer informatie hierover.
+   U kunt controleren of de personalisatievelden overeenkomen met de data die in het testprofiel zijn ingevoerd. Zie [Een testprofiel definiëren in een transactiebericht](../../channels/using/event-transactional-messages.md#defining-specific-test-profile) voor meer informatie hierover.
 
 ## Productvermeldingen gebruiken in een transactiebericht {#using-product-listings-in-a-transactional-message}
 
@@ -204,7 +204,7 @@ Zie [Dataverzamelingen definiëren](../../administration/using/configuring-trans
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   Ga voor meer informatie over het definiëren van een testprofiel in een transactiebericht naar [deze sectie](#defining-a-test-profile-in-a-transactional-message).
+   Ga voor meer informatie over het definiëren van een testprofiel in een transactiebericht naar [deze sectie](../../channels/using/event-transactional-messages.md#defining-specific-test-profile).
 
 ## Een transactiebericht testen {#testing-a-transactional-message}
 
