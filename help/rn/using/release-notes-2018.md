@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '5398'
+source-wordcount: '5400'
 ht-degree: 6%
 
 ---
@@ -89,7 +89,7 @@ Bekijk de nieuwste [documentatieupdates](../../rn/using/documentation-updates.md
 * Probleem verholpen waarbij foto&#39;s die vanaf een camera zijn geüpload en die in de staande modus zijn genomen, werden weergegeven op een ongewenste geroteerde positie.
 * Probleem verholpen waarbij onduidelijke selectiegegevens werden weergegeven wanneer de interface voor de query-editor in Creative Designer werd gebruikt.
 * Probleem verholpen waarbij een element niet correct kon worden gedupliceerd wanneer de interface voor de query-editor in Creative Designer werd gebruikt.
-* Probleem verholpen waarbij SMS-berichten werden geleverd aan ontvangers die niet op de lijst stonden, ook al waren ze niet geabonneerd via een automatisch antwoord. (CAMP-27128)
+* Probleem verholpen waarbij SMS-berichten aan ontvangers in de lijst van afgewezen personen bleven leveren, ook al waren ze via een automatisch antwoord niet meer geabonneerd. (CAMP-27128)
 * Probleem verholpen waarbij de fouten die ervoor zorgden dat de workflow voor het opschonen van **databases** mislukte, niet konden worden weergegeven. (CAMP-26876)
 * Probleem verholpen waarbij het verwijderen van aangepaste velden in een definitie van een pushmelding werd voorkomen. (CAMP-25588)
 
