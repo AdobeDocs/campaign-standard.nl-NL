@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 23e3b1c3105fd99ec0cd67cb4a3ca5e565604449
+source-git-commit: 5eab422b797e1d486fded57cb64f94fb709d6681
 workflow-type: tm+mt
-source-wordcount: '6228'
-ht-degree: 93%
+source-wordcount: '6215'
+ht-degree: 92%
 
 ---
 
@@ -39,6 +39,8 @@ Reis AI-integratie - [Lees meer](../../sending/using/predictive.md)
 De sectie over het aanroepen van een workflow met externe parameters is verrijkt met nieuwe functies die beschikbaar zijn in de Expressieeditor. [Meer informatie](../../automating/using/customizing-workflow-external-parameters.md)
 
 Er is een aanbeveling toegevoegd aan de best practices voor workflows over het aantal activiteiten dat per workflow moet worden gebruikt. [Meer informatie](../../automating/using/best-practices-workflows.md#number-activities)
+
+Er is een nieuwe sectie over aanbevolen methoden voor levering toegevoegd. [Meer informatie](../../sending/using/delivery-best-practices.md)
 
 ## Documentatie-updates - september 2020 {#doc-updates-september-2020}
 
@@ -176,7 +178,7 @@ De documentatie over het configureren van een mobiele app en de bijbehorende pag
 
 De documentatie over de Adobe Experience Manager-integratie met Adobe Campaign Standard is bijgewerkt en verbeterd. [Meer informatie](../../integrating/using/configure-experience-manager.md)
 
-De documentatie over de Email Designer van Campaign en de bijbehorende pagina’s zijn bijgewerkt om de afschaffing van Adobe Creative SDK weer te geven. [Meer informatie](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [Meer informatie](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 Er is nu een nieuwe sectie beschikbaar die specifiek is gewijd aan best practices voor het Campaign Standard-datamodel. [Meer informatie](../../developing/using/data-model-best-practices.md)
 
@@ -248,9 +250,9 @@ De tabel voor de **berekening van indicatoren** is bijgewerkt. [Meer informatie]
 
 De set met documentatie over API’s is geïntegreerd in de documentatie van Campaign Standard.[Meer informatie](../../api/using/get-started-apis.md)
 
-De handleiding om aan de slag te gaan met het maken van gepersonaliseerde e-mail is verplaatst en bijgewerkt. [Meer informatie](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
+De sectie Een gepersonaliseerde e-mail maken om aan de slag te gaan is verplaatst en bijgewerkt. [Meer informatie](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
-De handleiding om aan de slag te gaan met best practices voor levering is bijgewerkt. [Meer informatie](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+De handleiding om aan de slag te gaan met best practices voor levering is bijgewerkt. [Meer informatie](../../sending/using/delivery-best-practices.md)
 
 Het datamodel is geïntegreerd in de documentatie van Campaign Standard. [Meer informatie](../../developing/using/datamodel-audience.md)
 
@@ -266,13 +268,13 @@ Microsoft Dynamics 365-integratie (GA) - [Meer informatie](../../integrating/usi
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
-De lijst met foutberichten voor Campaign Standard en Campaign Classic is bijgewerkt. [Meer informatie](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+De lijst met foutberichten voor Adobe Campaign is bijgewerkt. [Meer informatie](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-De handleiding om aan de slag te gaan met de AVG is verbeterd en verrijkt. Het is nu een documentatie over privacybeheer, waaronder AVG en CCPA. [Meer informatie](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
+De handleiding om aan de slag te gaan met de AVG is verbeterd en verrijkt. Het is nu een documentatie over privacybeheer, waaronder AVG en CCPA. [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html)
 
 Er is een nieuw diagram toegevoegd waarin het proces voor het publiceren van transactionele berichten wordt beschreven. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
-De handleiding om aan de slag te gaan met best practices voor levering is verplaatst en bijgewerkt. [Meer informatie](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+De handleiding om aan de slag te gaan met best practices voor levering is verplaatst en bijgewerkt. [Meer informatie](../../sending/using/delivery-best-practices.md)
 
 Er is een nieuwe sectie toegevoegd. Deze sectie biedt een overzicht van de verschillende methoden waarmee u de Campaign Standard-database kunt verrijken. [Meer informatie](../../audiences/using/enriching-campaign-database.md)
 
@@ -610,7 +612,7 @@ Er is informatie toegevoegd over de optie Licences in het menu Administration. [
 
 Er is informatie toegevoegd over het gebruik van aangepaste velden in een pushmelding. [Meer informatie](../../channels/using/customizing-a-push-notification.md#add-custom-fields)
 
-De stapsgewijze handleiding met best practices voor leveringen is bijgewerkt. [Meer informatie](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)
+De stapsgewijze handleiding met best practices voor leveringen is bijgewerkt. [Meer informatie](../../sending/using/delivery-best-practices.md)
 
 Er is informatie toegevoegd over het bijhouden van logboektypen. [Meer informatie](../../sending/using/tracking-messages.md#tracking-logs)
 
