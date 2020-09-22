@@ -12,10 +12,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: c4373c444ed51e03c16be05363e9e4128a6f4a58
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 98%
+source-wordcount: '1069'
+ht-degree: 93%
 
 ---
 
@@ -73,12 +73,15 @@ Raadpleeg [Workflows uitvoeren](../../automating/using/about-workflow-execution.
 
 Met de workfloweigenschappen kunt u een specifieke tijdzone definiëren die standaard wordt gebruikt voor alle activiteiten. Standaard is de tijdzone van de workflow de tijdzone die is gedefinieerd voor de huidige Campaign-operator.
 
-
 ## Activiteit{#activity}
+
+### Aantal activiteiten per workflow {#number-activities}
+
+We raden u aan maximaal 100 activiteiten in één workflow te gebruiken. Bij meer dan 100 activiteiten kunnen er prestatieproblemen optreden bij het ontwerpen en configureren van uw workflow.
 
 ### Workflowontwerp
 
-Om ervoor te zorgen dat de workflow correct wordt beëindigd, gebruikt u een **[!UICONTROL End activity]**. Laat de laatste overgang van een workflow niet alleen staan.
+Om ervoor te zorgen dat de workflow op de juiste wijze wordt beëindigd, moet u de laatste overgang van een workflow op zichzelf vermijden door een **[!UICONTROL End activity]** workflow te gebruiken.
 
 Als u toegang wilt tot de gedetailleerde weergave van de overgangen, schakelt u de optie **[!UICONTROL Keep interim results]** in de sectie Execution van de workfloweigenschappen in.
 
