@@ -1,6 +1,6 @@
 ---
 title: Een e-mail maken
-description: Ga als volgt te werk om een e-mailbericht voor één verzending te maken in Adobe Campaign.
+description: Voer de volgende stappen uit om een e-mailbericht voor één verzending te maken in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
 contentOwner: sauviat
@@ -12,28 +12,31 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: e1e092249a447039c0d845f143be532f845ca1dc
+workflow-type: tm+mt
+source-wordcount: '549'
+ht-degree: 18%
 
 ---
 
 
 # Een e-mail maken{#creating-an-email}
 
-U kunt een e-mailbericht maken vanuit een [campagne](../../start/using/marketing-activities.md#creating-a-marketing-activity), vanuit de [startpagina](../../start/using/interface-description.md#home-page)van Adobe Campagne of in de lijst met [](../../start/using/marketing-activities.md#about-marketing-activities)marketingactiviteiten. U kunt vanuit een workflow ook eenmalige en terugkerende e-mails maken.
+U kunt een e-mail van een [campagne](../../start/using/marketing-activities.md#creating-a-marketing-activity), van de [homepage](../../start/using/interface-description.md#home-page)van Adobe Campaign, of in de lijst van de [marketing activiteit tot stand brengen](../../start/using/marketing-activities.md#about-marketing-activities). U kunt vanuit een workflow ook eenmalige en terugkerende e-mails maken.
 
 1. Als u eenmaal een marketingactie voor e-mail hebt gestart, selecteert u de sjabloon die u wilt gebruiken.
 
-   Standaard kunt u kiezen uit verschillende sjablonen voor elke marketingactiviteit. Hierdoor kunt u bepaalde parameters vooraf configureren op basis van uw behoeften en ook een merk toewijzen aan uw levering. Zie [Sjablonen](../../start/using/marketing-activity-templates.md)beheren voor meer informatie.
+   Standaard kunt u kiezen uit verschillende sjablonen voor elke marketingactiviteit. Hierdoor kunt u bepaalde parameters vooraf configureren op basis van uw behoeften en ook een merk toewijzen aan uw levering. For more on this, see [Managing templates](../../start/using/marketing-activity-templates.md).
 
    ![](assets/email_creation_1.png)
 
    >[!NOTE]
    >
-   >Follow-up en A/B-testsjablonen zijn standaard verborgen. Schakel de selectievakjes links ( **[!UICONTROL Filter]** zijpaneel) in als u deze wilt weergeven.
+   >Follow-up- en A/B-testsjablonen zijn standaard verborgen. Schakel de selectievakjes links ( **[!UICONTROL Filter]** zijpaneel) in als u deze wilt weergeven.
 
-1. Voer de algemene eigenschappen van de e-mail in. U kunt een naam invoeren in het veld **Label** en de id bewerken. Zowel verschijnen de activiteitennaam als zijn identiteitskaart in de interface, maar zij zijn niet zichtbaar aan de berichtontvangers.
+1. Voer de algemene eigenschappen van de e-mail in. You can enter a name in the **Label** field and edit the ID. Zowel verschijnen de activiteitennaam als zijn identiteitskaart in de interface, maar zij zijn niet zichtbaar aan de berichtontvangers.
 
-   U kunt een beschrijving toevoegen die de gebruiker in de inhoud van de campagne kan zien.
+   U kunt een beschrijving toevoegen die de gebruiker in de content van de campagne kan zien.
 
    ![](assets/email_creation_2.png)
 
@@ -41,9 +44,9 @@ U kunt een e-mailbericht maken vanuit een [campagne](../../start/using/marketing
    >
    >U kunt uw e-mail binnen een oudercampagne van de homepage of de lijst van marketing activiteiten tot stand brengen. Selecteer een van de campagnes die al zijn gemaakt.
 
-1. Bepaal het doel van uw bericht dat op uw bedrijfscriteria wordt gebaseerd. Zie Profielen [](../../audiences/using/about-profiles.md)beheren.
+1. Bepaal het doel van uw bericht dat op uw bedrijfscriteria wordt gebaseerd. See [About profiles](../../audiences/using/about-profiles.md).
 
-   U kunt ook de testprofielen definiëren die het bericht valideren. Zie [Testprofielen](../../audiences/using/managing-test-profiles.md)beheren.
+   U kunt ook de testprofielen definiëren die het bericht valideren. Zie [Testprofielen beheren](../../audiences/using/managing-test-profiles.md).
 
    ![](assets/email_creation_3.png)
 
@@ -53,8 +56,8 @@ U kunt een e-mailbericht maken vanuit een [campagne](../../start/using/marketing
 
    U kunt uw bericht rechtstreeks ontwerpen met een vooraf gedefinieerde inhoudssjabloon of met Dreamweaver of Adobe Experience Manager. Als u zich niet als ontwerper voelt, kunt u een inhoud ook uploaden die voor u, is voorbereid of een bestaande inhoud van een URL invoeren. Zie [Bestaande inhoud](../../designing/using/using-existing-content.md)selecteren.
 
-1. Geef een voorvertoning van uw bericht weer. Zie [Berichten](../../sending/using/previewing-messages.md)voorvertonen.
-1. Bevestig dat u het e-mailbericht maakt.
+1. Geef een voorvertoning van uw bericht weer. Zie [Berichten voorvertonen](../../sending/using/previewing-messages.md).
+1. Bevestig het maken van de e-mail.
 
    >[!NOTE]
    >
@@ -66,19 +69,19 @@ U kunt een e-mailbericht maken vanuit een [campagne](../../start/using/marketing
 
    ![](assets/delivery_dashboard_2.png)
 
-1. Plan de verzending. Zie [Berichten](../../sending/using/about-scheduling-messages.md)plannen.
+1. Plan de verzending. Zie [Berichten plannen](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/delivery_planning.png)
 
-1. Bereid uw bericht voor om zijn doel te analyseren. Zie Het [verzenden](../../sending/using/confirming-the-send.md)voorbereiden.
+1. Bereid uw bericht voor om zijn doel te analyseren. See [Preparing the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/preparing_delivery_2.png)
 
    >[!NOTE]
    >
-   >U kunt algemene regels voor vermoeidheid tussen kanalen instellen die overgevulde profielen automatisch uitsluiten van campagnes. Zie [Vermoeidsregels](../../sending/using/fatigue-rules.md)voor meer informatie hierover.
+   >U kunt algemene moeheidsregels tussen kanalen instellen om overvraagde profielen automatisch uit te sluiten van campagnes. Zie [Vermoeidsregels](../../sending/using/fatigue-rules.md)voor meer informatie hierover.
 
-1. Proefdrukken verzenden om uw bericht te controleren en te valideren en de weergave in de Postbus te controleren. Zie Proef [verzenden](../../sending/using/sending-proofs.md).
+1. Verzend proeven om uw bericht te controleren en te valideren en de weergave ervan in inboxen te controleren. Zie Proef [verzenden](../../sending/using/sending-proofs.md).
 
    ![](assets/bat_select.png)
 
@@ -86,11 +89,11 @@ U kunt een e-mailbericht maken vanuit een [campagne](../../start/using/marketing
 
    ![](assets/confirm_delivery.png)
 
-1. Meet het effect van uw bericht met leveringsrapporten. Zie [deze sectie](../../reporting/using/about-dynamic-reports.md)voor meer informatie over rapportage.
+1. Meet het effect van uw bericht met leveringsrapporten. For more on reporting, see [this section](../../reporting/using/about-dynamic-reports.md).
 
 **Verwante onderwerpen**:
 
-* [Een e-mailvideo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html) maken
+* [Een e-mail maken](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html) video
 * [Een gepersonaliseerde e-mail](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html) stapsgewijze handleiding maken
-* [Video over integratie](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html) van Adobe Campagne en Dreamweaver
+* [Integratie](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html) -video Adobe Campaign en Dreamweaver
 * [Integreren met Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
