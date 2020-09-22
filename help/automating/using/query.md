@@ -13,10 +13,10 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 97%
+source-wordcount: '1708'
+ht-degree: 96%
 
 ---
 
@@ -71,9 +71,7 @@ De activiteit **[!UICONTROL Query]** kan voor diverse doeleinden worden gebruikt
 
 Met targetingdimensies en bronnen definieert u de elementen waarop een query wordt gebaseerd om de target van een levering te bepalen.
 
-Targetingdimensies worden gedefinieerd in targettoewijzingen. Raadpleeg [deze sectie](../../administration/using/target-mappings-in-campaign.md) voor meer informatie hierover.
-
-De targetingdimensie en bronnen worden gedefinieerd bij het maken van een workflow, op het tabblad **[!UICONTROL Properties]** van een queryactiviteit.
+Zij worden gevormd in [doelafbeeldingen](../../administration/using/target-mappings-in-campaign.md), en worden bepaald wanneer het creëren van een werkschema, op het **[!UICONTROL Properties]** lusje van een activiteit van de Vraag.
 
 >[!NOTE]
 >
