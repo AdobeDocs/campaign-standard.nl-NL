@@ -13,10 +13,10 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 97%
+source-wordcount: '552'
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ In de standaardbewerkingsmodus worden de regels in de volgende volgorde toegepas
 1. Controleregels, indien toegepast aan het begin van targeting.
 1. Filterregels:
 
-   * Native toepassingsregels voor adreskwalificatie: bepaald adres / niet-geverifieerd adres / op de lijst met ongewenste personen staan adres / quarantined adres / adreskwaliteit.
+   * Native toepassingsregels voor adreskwalificatie: bepaald adres / niet-geverifieerd adres / adres op lijst van afgewezen personen / quarantined adres / adreskwaliteit.
    * Filterregels die door de gebruiker zijn gedefinieerd.
 
 1. Controleregels, indien toegepast aan het einde van targeting.
