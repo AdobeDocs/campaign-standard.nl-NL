@@ -12,10 +12,10 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: d90de8255f7b08da2187bb8d1b16624d0d94bd80
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 0%
+source-wordcount: '580'
+ht-degree: 12%
 
 ---
 
@@ -39,7 +39,7 @@ Tot slot, hefboomwerking leverbaarheidsrichtlijnen en hulpmiddelen beschikbaar i
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-Bij de voorbereiding **van Campaign Standard-** berichten worden het doel, de personalisatie en de geldigheid van het bericht geanalyseerd. Fouten die tijdens deze stap zijn vastgesteld, moeten worden gecorrigeerd voordat u verder kunt gaan.
+Bij de voorbereiding **van** berichten in Campaign Standard worden het doel, de personalisatie en de geldigheid van het bericht geanalyseerd. Fouten die tijdens deze stap zijn vastgesteld, moeten worden gecorrigeerd voordat u verder kunt gaan.
 
 **U kunt uw berichten voorvertonen en testen** met behulp van verschillende mogelijkheden: Verzend proefdrukken naar testprofielen of speciale profielen, test de onderwerpregel van uw e-mail, en controleer de weergave van uw berichten om ervoor te zorgen dat het op een optimale manier op een verscheidenheid van Webcliënten, Webpost en apparaten zal tonen.
 
@@ -51,10 +51,10 @@ Meer informatie:
 
 * [De verzending voorbereiden](../../sending/using/preparing-the-send.md)
 * [Berichten voorvertonen](../../sending/using/previewing-messages.md)
-* [Proefdrukken verzenden](../../sending/using/sending-proofs.md)
-* [E-mailrendering](../../sending/using/email-rendering.md)
+* [Proeven verzenden](../../sending/using/sending-proofs.md)
+* [E-mailweergave](../../sending/using/email-rendering.md)
 * [Berichten plannen](../../sending/using/about-scheduling-messages.md)
-* [Informatie over typologieën en typologische regels](../../sending/using/about-typology-rules.md)
+* [Informatie over typologieën en typologieregels](../../sending/using/about-typology-rules.md)
 
 ## Verzenden, controleren en volgen {#send-track-messages}
 
@@ -69,11 +69,11 @@ Tot slot kunt u Adobe Campaign configureren om een kopie van de e-mails **die vi
 Meer informatie:
 
 * [De verzending bevestigen](../../sending/using/confirming-the-send.md)
-* [Berichten bijhouden](../../sending/using/tracking-messages.md)
-* [Archiveren met e-mail-BCC](../../sending/using/archiving.md)
-* [Toezicht op levering](../../sending/using/monitoring-a-delivery.md)
+* [Berichten traceren](../../sending/using/tracking-messages.md)
+* [Archiveren met Email BCC](../../sending/using/archiving.md)
+* [Een levering controleren](../../sending/using/monitoring-a-delivery.md)
 * [Leveringsfouten begrijpen](../../sending/using/understanding-delivery-failures.md)
-* [Werken met quarantainebeheer](../../sending/using/understanding-quarantine-management.md)
+* [Quarantainebeheer begrijpen](../../sending/using/understanding-quarantine-management.md)
 
 ## Richtlijnen voor aflevering {#improve-deliverability}
 
@@ -81,21 +81,21 @@ Meer informatie:
 
 De levering staat toe om het succes van uw campagnes te meten die uw ontvangers&#39; inbox bereiken zonder te stuiteren, of als spam worden gemerkt.
 
-Campaign Standard beschikt over verschillende **gereedschappen** waarmee u het aantal gelukte berichten kunt verbeteren: rapporten over de leveringsrekening, tijdoptimalisatie verzenden, voorvertoning van berichten, rendering van e-mail, quarantainebeheer, enz.
+Campaign Standard bevat verschillende **gereedschappen** voor de levering van gegevens waarmee u het aantal gelukte berichten kunt verbeteren: rapporten over de leveringsrekening, tijdoptimalisatie verzenden, voorvertoning van berichten, rendering van e-mail, quarantainebeheer, enz.
 
 Meer informatie:
 
-* [Over leverbaarbaarheid](../../sending/using/about-deliverability.md)
+* [Leverbaarheid](../../sending/using/about-deliverability.md)
 * [Leverbaarheid controleren](../../sending/using/monitor-deliverability.md)
 * [Uw reputatie verbeteren](../../sending/using/improving-reputation.md)
 * [Technische aanbevelingen](../../sending/using/technical-recommendations.md)
 * [De leveringsdoorvoer regelen](../../reporting/using/delivery-throughput.md)
 
-## Aanvullende bronnen
+## Aanvullende resources
 
 * [E-mails ontwerpen voor een A/B-test](../../channels/using/designing-an-a-b-test-email.md)
 * [Een test verzenden, een e-mail (video) voorbereiden en verzenden](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [Een e-maillevering en rapporten controleren (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Aan de slag met e-mails](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 * [Best practices voor levering](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
-* [Hoofdlettergebruik: Een controlegroep samenstellen](../../automating/using/workflow-control-group.md)
+* [Een besturingsgroep toevoegen](../../sending/using/control-group.md)
