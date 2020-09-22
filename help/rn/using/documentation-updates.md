@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
+source-git-commit: 23e3b1c3105fd99ec0cd67cb4a3ca5e565604449
 workflow-type: tm+mt
-source-wordcount: '6140'
-ht-degree: 94%
+source-wordcount: '6228'
+ht-degree: 93%
 
 ---
 
@@ -23,6 +23,22 @@ ht-degree: 94%
 # Documentatie-updates{#documentation-updates}
 
 Naast de [releaseopmerkingen](../../rn/using/release-notes.md) bij Adobe Campaign worden op deze pagina alle nieuwe updates in de documentatie van Adobe Campaign Standard weergegeven.
+
+## Release 20.4 - oktober 2020 {#release-20-4---october-2020}
+
+**Nieuwe mogelijkheden die in de release zijn opgenomen**
+
+Control groups - [Read More](../../sending/using/control-group.md)
+
+Externe API (OAuth-ondersteuning) - [Meer informatie](../../automating/using/external-api.md)
+
+Reis AI-integratie - [Lees meer](../../sending/using/predictive.md)
+
+**Overige documentatie-updates die bij de release worden geleverd**
+
+De sectie over het aanroepen van een workflow met externe parameters is verrijkt met nieuwe functies die beschikbaar zijn in de Expressieeditor. [Meer informatie](../../automating/using/customizing-workflow-external-parameters.md)
+
+Er is een aanbeveling toegevoegd aan de best practices voor workflows over het aantal activiteiten dat per workflow moet worden gebruikt. [Meer informatie](../../automating/using/best-practices-workflows.md#number-activities)
 
 ## Documentatie-updates - september 2020 {#doc-updates-september-2020}
 
@@ -33,6 +49,8 @@ Er is een voorzichtige opmerking toegevoegd om gebruikers te waarschuwen voor ma
 Er is een nieuwe sectie toegevoegd waarin het maken van een nieuw merk nader wordt beschreven. [Meer informatie](../../administration/using/branding.md#creating-a-brand)
 
 De nieuwe Campaign Standard - de Dynamica 365 van Microsoft integratie is nu beschikbaar. [Meer informatie](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
+Informatie is toegevoegd over anonieme bronnen in het rapport Actieve profielen. [Meer informatie](../../audiences/using/active-profiles.md)
 
 ## Documentatie-updates - augustus 2020 {#doc-updates-august-2020}
 
@@ -220,7 +238,7 @@ De handleiding om aan de slag te gaan met het exporteren en importeren van aange
 
 ## Documentatie-updates - november 2019 {#doc-updates-november-2019}
 
-Er is een nieuw gebruiksscenario toegevoegd waarin wordt beschreven hoe u een controlegroep maakt met behulp van een workflow in Campaign Standard. [Meer informatie](../../automating/using/workflow-control-group.md)
+Er is een nieuw gebruiksscenario toegevoegd waarin wordt beschreven hoe u een controlegroep maakt met behulp van een workflow in Campaign Standard.
 
 De informatie met betrekking tot de eigenschappen van landingspagina’s is verplaatst naar een specifieke sectie. [Meer informatie](../../channels/using/configuring-landing-page.md)
 
@@ -276,7 +294,7 @@ Het hoofdstuk over landingspagina’s is gereorganiseerd. Het is ook uitgebreid 
 
 Er is een nieuwe sectie toegevoegd aan de sectie over pushmeldingen met informatie over het maken en bijwerken van profieldata op basis van abonnementsdata voor mobiele apps. [Meer informatie](../../channels/using/updating-profile-with-mobile-app-data.md)
 
-Er is een nieuw voorbeeld toegevoegd waarin wordt getoond hoe u een e-mail verzendt met aanvullende data die zijn opgehaald uit een activiteit voor het laden van een bestand. [Meer informatie](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+Er is een nieuw voorbeeld toegevoegd waarin wordt getoond hoe u een e-mail verzendt met aanvullende data die zijn opgehaald uit een activiteit voor het laden van een bestand. [Meer informatie](../../automating/using/sending-email-enriched-fields.md)
 
 Er is een nieuwe sectie toegevoegd over het gebruik van overvullingen. [Meer informatie](../../sending/using/using-traps.md).
 
@@ -466,7 +484,7 @@ Er is informatie toegevoegd over de optie waarmee u de afwijzingen in een bestan
 
 Er is een nieuwe sectie toegevoegd over het dupliceren van workflowactiviteiten via kopiëren en plakken. [Meer informatie](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
 
-Er is informatie toegevoegd over de nieuwe optie in de activiteiten Query ([Meer informatie](../../automating/using/query.md)) en Segmentatie ([Meer informatie](../../automating/using/segmentation.md)) waarmee u een uitgaande overgang na de activiteit kunt toevoegen als er geen data worden opgehaald.
+Er is informatie toegevoegd over de nieuwe optie in de activiteiten Query ([Meer informatie](../../automating/using/query-samples.md)) en Segmentatie ([Meer informatie](../../automating/using/segmentation.md)) waarmee u een uitgaande overgang na de activiteit kunt toevoegen als er geen data worden opgehaald.
 
 Er is informatie toegevoegd in de sectie over de activiteit Data bijwerken voor het nieuwe veld Batch size waarmee u de maximale batchgrootte kunt definiëren voor de data die moeten worden geüpload. [Meer informatie](../../automating/using/update-data.md#configuration)
 
@@ -568,7 +586,7 @@ De documentatie over het werken met Campaign en Audience Manager of de People-ke
 
 De roldefinitie voor het voorbereiden van leveringen is bijgewerkt. [Meer informatie](../../administration/using/list-of-roles.md)
 
-Er is een voorbeeld toegevoegd in de sectie over de activiteit Query voor het targeten van profielen die op een specifieke koppeling in een levering hebben geklikt. [Meer informatie](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
+Er is een voorbeeld toegevoegd in de sectie over de activiteit Query voor het targeten van profielen die op een specifieke koppeling in een levering hebben geklikt. [Meer informatie](../../automating/using/query-samples.md#targeting-profiles-who-clicked-a-specific-link-)
 
 Er is een sectie in de API-documentatie toegevoegd betreffende **aangepaste filters**. [Meer informatie](../../api/using/filtering.md)
 
@@ -622,7 +640,7 @@ Gebruik van aangepaste resources in transactionele berichten - [Meer informatie]
 
 De API voor de AVG groepeert functies die de automatische verwerking van AVG-verzoeken toestaan. [Meer informatie](../../api/using/creating-a-privacy-request.md)
 
-Extra informatie over hoe u bestemmingspagina&#39;s kunt instellen om uw ontvangers de mogelijkheid te geven om te worden toegevoegd op lijst van gewenste personen. [Meer informatie](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+Toegevoegde informatie over hoe u bestemmingspagina&#39;s kunt instellen om uw ontvangers de mogelijkheid te geven om op lijst van afgewezen personen te zijn. [Meer informatie](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 De sectie over het [configureren van transactionele berichten](../../administration/using/configuring-transactional-messaging.md) is gereorganiseerd en er is een [stapsgewijs gebruiksscenario](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) toegevoegd.
 
@@ -658,7 +676,7 @@ De releaseopmerkingen zijn opnieuw ingedeeld over meerdere pagina’s, zodat u e
 
 De sectie **[!UICONTROL Working with typologies]** is bijgewerkt voor een verbeterde zichtbaarheid. [Meer informatie](../../sending/using/about-typology-rules.md)
 
-Er is een nieuwe optie beschikbaar waarmee u betere prestaties kunt behalen bij het definiëren van veel aanvullende data in een **[!UICONTROL Query]**. [Meer informatie](../../automating/using/query.md)
+Er is een nieuwe optie beschikbaar waarmee u betere prestaties kunt behalen bij het definiëren van veel aanvullende data in een **[!UICONTROL Query]**. [Meer informatie](../../automating/using/query-samples.md)
 
 Het voorbeeld voor het importeren van profielen is bijgewerkt en bevat nu een aantal tips zodat uw profielen direct mails kunnen ontvangen. [Meer informatie](../../automating/using/about-data-import-and-export.md)
 
@@ -672,7 +690,7 @@ De sectie met de lijst met autorisaties is verwijderd. [Meer informatie](https:/
 
 Er is een stapsgewijs gebruiksscenario toegevoegd voor het gebruiken van automatische antwoorden voor sms’en. [Meer informatie](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
-Er is informatie toegevoegd over hoe u een levering in een terugkerende workflow kunt verzenden afhankelijk van de tijdzones van de gebruikers. [Meer informatie](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
+Er is informatie toegevoegd over hoe u een levering in een terugkerende workflow kunt verzenden afhankelijk van de tijdzones van de gebruikers. [Meer informatie](../../automating/using/recurring-push-notifications.md)
 
 De sectie **[!UICONTROL Customizing a push notification]** is opnieuw ingedeeld met stapsgewijze gebruiksscenario’s. [Meer informatie](../../channels/using/customizing-a-push-notification.md)
 
