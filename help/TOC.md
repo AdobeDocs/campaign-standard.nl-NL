@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Help bij Adobe Campaign Standard
 breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
+source-git-commit: f83259801fee2709aad48d364d16b4affe041a6d
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 85%
+source-wordcount: '1651'
+ht-degree: 84%
 
 ---
 
@@ -73,6 +73,14 @@ ht-degree: 85%
       + [Berichten openen](channels/using/accessing-messages.md)
       + [Berichtdashboard](channels/using/message-dashboard.md)
       + [Sjablonen voor meertalige berichten](channels/using/multilingual-messages-template.md)
+   + Best practices voor levering {#delivery-bestpractices}
+      + [Tips en trucs leren](sending/using/delivery-best-practices.md)
+      + [Levering optimaliseren](sending/using/optimize-delivery.md)
+      + [Sjablonen gebruiken](sending/using/use-templates.md)
+      + [Aangepaste inhoud maken](sending/using/design-and-personalize.md)
+      + [Het juiste publiek definiëren](sending/using/define-the-right-audience.md)
+      + [Controleren vóór verzending](sending/using/check-before-sending.md)
+      + [Track en monitor](sending/using/track-and-monitor.md)
    + E-mailberichten {#email-messages}
       + [Informatie over e-mails](channels/using/about-emails.md)
       + [Een e-mail maken](channels/using/creating-an-email.md)
