@@ -12,10 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb83fb3b24af0102dc3745517e8604fdac82ee19
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -43,12 +43,12 @@ Met dit gebruiksgeval kunt u een E-mailDesigner-sjabloon maken door een HTML-e-m
 ## Uw e-mailstructuur maken
 
 1. Open het dialoogvenster **[!UICONTROL Email Designer]** om een lege e-mailinhoud te maken.
-1. Stel de kenmerken voor het hoofdtekstniveau in: achtergrondkleuren, breedte, enz. Zie E-mailstijlen [](../../designing/using/styles.md)bewerken voor meer informatie.
-1. Voeg zoveel structuurcomponenten toe als secties. Zie [De e-mailstructuur](../../designing/using/designing-from-scratch.md#defining-the-email-structure)bewerken voor meer informatie.
+1. Stel de kenmerken voor het hoofdtekstniveau in: achtergrondkleuren, breedte, enz. Ga voor meer informatie naar [E-mailstijlen bewerken](../../designing/using/styles.md).
+1. Voeg zoveel structuurcomponenten toe als secties. Ga voor meer informatie naar [De e-mailstructuur bewerken](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 ## HTML-inhoud toevoegen
 
-1. Voeg een HTML-component toe aan elke structuurcomponent. Zie Fragmenten en componenten [](../../designing/using/designing-from-scratch.md#defining-the-email-structure)toevoegen voor meer informatie.
+1. Voeg een HTML-component toe aan elke structuurcomponent. Ga voor meer informatie naar [Fragmenten en componenten toevoegen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Kopieer en plak de HTML in elke component.
 
 ## De stijl van uw e-mail beheren {#manage-the-style-of-your-email}
@@ -85,7 +85,7 @@ Met dit gebruiksgeval kunt u een E-mailDesigner-sjabloon maken door een HTML-e-m
 
 Laten we proberen deze e-mail die in de verouderde editor is gemaakt, om te zetten in een **[!UICONTROL Email Designer]** sjabloon.
 
-## Het gedeelte van uw e-mail identificeren
+### Het gedeelte van uw e-mail identificeren
 
 We kunnen elf secties in deze e-mail identificeren.
 
