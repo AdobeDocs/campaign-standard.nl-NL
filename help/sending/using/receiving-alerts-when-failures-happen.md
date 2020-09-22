@@ -12,9 +12,9 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '2031'
 ht-degree: 2%
 
 ---
@@ -261,7 +261,7 @@ Hier volgen enkele mogelijke redenen om waarschuwingsberichten te ontvangen op b
 
    De mogelijke oorzaken voor een **[!UICONTROL Delivery with bad error ratio for hard bounces]** alarm kunnen zijn:
 
-   * De ontvanger is toegevoegd op lijst van gewenste personen, wat betekent dat hij niet langer contact met hem wil opnemen.
+   * De ontvanger wordt toegevoegd aan de lijst van afgewezen personen, wat betekent dat hij niet langer contact met hem wil opnemen.
    * Het e-mailadres van de ontvanger bestaat niet.
    * Het domein van de ontvanger bestaat niet.
    * De server van de ontvanger blokkeert de levering.
