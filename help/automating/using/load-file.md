@@ -13,7 +13,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 93%
@@ -37,14 +37,14 @@ Met de activiteit **[!UICONTROL Load file]** kunt u data in één gestructureerd
 
 De manier waarop de data worden geëxtraheerd, wordt gedefinieerd wanneer de activiteit wordt geconfigureerd. Het te laden bestand kan bijvoorbeeld een lijst met contactpersonen zijn.
 
->[!CAUTION]
->
->Alleen bestanden met een platte structuur worden in aanmerking genomen, bijvoorbeeld txt- en csv-bestanden.
-
 U kunt:
 
 * De bestandsstructuur gebruiken om deze toe te passen op de data van een ander bestand (hersteld met behulp van de activiteit **[!UICONTROL Transfer file]**) of
 * De structuur en de data uit het bestand gebruiken om het bestand te importeren in Adobe Campaign.
+
+>[!IMPORTANT]
+>
+>Alleen bestanden met een platte structuur worden in aanmerking genomen, bijvoorbeeld txt- en csv-bestanden.
 
 **Verwante onderwerpen:**
 
