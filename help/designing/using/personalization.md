@@ -1,5 +1,5 @@
 ---
-title: E-mailinhoud aanpassen
+title: E-mailcontent personaliseren
 description: Ontdek hoe u een e-mail kunt aanpassen in de e-mailontwerper.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -12,23 +12,23 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
 workflow-type: tm+mt
-source-wordcount: '2536'
-ht-degree: 0%
+source-wordcount: '2570'
+ht-degree: 3%
 
 ---
 
 
-# E-mailinhoud aanpassen {#personalization}
+# E-mailcontent personaliseren {#personalization}
 
 De inhoud en weergave van berichten die door Adobe Campaign worden geleverd, kunnen op verschillende manieren worden gepersonaliseerd. Deze methoden kunnen worden gecombineerd op basis van criteria die afhankelijk zijn van de profielen. In het algemeen kunt u met Adobe Campaign:
 
-* Voeg dynamische verpersoonlijkingsgebieden in. Zie Een verpersoonlijkingsveld [invoegen](#inserting-a-personalization-field).
-* Vooraf gedefinieerde aanpassingsblokken invoegen. Zie [Een inhoudsblok](#adding-a-content-block)toevoegen.
+* Dynamische personalisatievelden invoegen. Zie [Een personalisatieveld invoegen](#inserting-a-personalization-field).
+* Vooraf gedefinieerde personalisatieblokken invoegen. Zie [Een contentblok](#adding-a-content-block) toevoegen.
 * Pas de afzender van een e-mail aan. Zie [De afzender](#personalizing-the-sender)personaliseren.
-* Pas het onderwerp van een e-mail aan. Zie [De onderwerpregel van een e-mail](../../designing/using/subject-line.md#subject-line)aanpassen.
-* Voorwaardelijke inhoud maken. Zie Dynamische inhoud [definiëren in een e-mail](#defining-dynamic-content-in-an-email).
+* Pas het onderwerp van een e-mail aan. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#subject-line).
+* Voorwaardelijke content maken. Zie Dynamische inhoud [definiëren in een e-mail](#defining-dynamic-content-in-an-email).
 
 ## De afzender aanpassen {#personalizing-the-sender}
 
@@ -46,7 +46,7 @@ U kunt dit veld aanpassen. Hiervoor kunt u aanpassingsvelden, inhoudsblokken en 
 
 Met Adobe Campaign kunt u een of meer URL&#39;s in uw bericht aanpassen door personalisatievelden, inhoudsblokken of dynamische inhoud aan de URL&#39;s toe te voegen. Dit doet u als volgt:
 
-1. Voeg een externe URL in en geef de parameters ervan op. Zie Een koppeling [invoegen](../../designing/using/links.md#inserting-a-link).
+1. Voeg een externe URL in en geef de parameters ervan op. See [Inserting a link](../../designing/using/links.md#inserting-a-link).
 1. Als deze optie niet wordt weergegeven, klikt u op het potlood naast de geselecteerde URL in het deelvenster Instellingen voor toegang tot de verpersoonlijkingsopties.
 1. Voeg de verpersoonlijkingsgebieden, inhoudsblokken, en dynamische inhoud toe die u wilt gebruiken.
 
@@ -58,7 +58,7 @@ Met Adobe Campaign kunt u een of meer URL&#39;s in uw bericht aanpassen door per
 >
 >Het aanpassen van URL&#39;s kan niet worden toegepast op de domeinnaam of op de URL-extensie. Een foutenmelding zal tijdens berichtanalyse worden getoond als de verpersoonlijking onjuist is. Wanneer u een inhoudsblok selecteert, kunt u geen elementen selecteren, zoals **Koppelen naar spiegel**. Dit type blokken is niet toegestaan binnen een koppeling.
 
-## Een aanpassingsveld invoegen{#inserting-a-personalization-field}
+## Een personalisatieveld invoegen{#inserting-a-personalization-field}
 
 Met Adobe Campaign kunt u een veld uit de database in uw pagina invoegen, zoals de voornaam van het profiel.
 
@@ -88,7 +88,7 @@ Als personalisatie is gegenereerd (bijvoorbeeld bij het voorvertonen en voorbere
 >
 >Als de e-mail wordt gemaakt op basis van een workflow, zijn de aanvullende gegevens die in de workflow zijn berekend, ook beschikbaar in de velden voor personalisatie. Raadpleeg de sectie [Verrijkende gegevens](../../automating/using/about-targeting-activities.md#enriching-data) voor meer informatie over het toevoegen van aanvullende gegevens uit een workflow.
 
-## Een inhoudsblok toevoegen{#adding-a-content-block}
+## Adding a content block{#adding-a-content-block}
 
 Adobe Campaign biedt een lijst met vooraf geconfigureerde inhoudsblokken. Deze inhoudsblokken zijn dynamisch, gepersonaliseerd en hebben een specifieke rendering. U kunt bijvoorbeeld een begroeting of een koppeling naar de spiegelpagina toevoegen.
 
@@ -137,7 +137,7 @@ U kunt nieuwe inhoudsblokken definiëren die in een bericht- of landingspagina w
 Ga als volgt te werk om een inhoudsblok te maken:
 
 1. Klik in **[!UICONTROL Resources > Content blocks]** het menu Geavanceerd om de lijst met inhoudsblokken te openen.
-1. Klik op de **[!UICONTROL Create]** knop of dupliceer een bestaand inhoudsblok.
+1. Klik op de **[!UICONTROL Create]** knop of dupliceer een reeds bestaand inhoudsblok.
 
    ![](assets/content_bloc_01.png)
 
@@ -147,6 +147,7 @@ Ga als volgt te werk om een inhoudsblok te maken:
    * **[!UICONTROL Shared]**: Het inhoudsblok kan in een levering of een landingspagina worden gebruikt.
    * **[!UICONTROL Delivery]**: Het inhoudsblok kan alleen worden gebruikt in een levering.
    * **[!UICONTROL Landing page]**: Het inhoudsblok kan alleen worden gebruikt op een openingspagina.
+
    ![](assets/content_bloc_02.png)
 
 1. U kunt een **[!UICONTROL Targeting dimension]** selectie maken. Zie [Informatie over dimensie](#about-targeting-dimension)opgeven voor meer informatie.
@@ -165,7 +166,7 @@ U kunt het inhoudsblok nu gebruiken in de inhoudseditor van een bericht of een o
 >
 >Wanneer u de inhoud van een blok bewerkt, moet u ervoor zorgen dat er geen extra witruimten zijn tussen het begin en het einde van de *if* -instructies. In HTML worden de witruimten op het scherm weergegeven en hebben ze daarom invloed op de lay-out van de inhoud.
 
-### Dimensie activeren {#about-targeting-dimension}
+### Dimensie opgeven {#about-targeting-dimension}
 
 De het richten afmeting laat u toe om te bepalen in welk type van bericht u het inhoudsblok kunt gebruiken. Hiermee wordt voorkomen dat onjuiste blokken in een bericht worden gebruikt, wat tot fouten kan leiden.
 
@@ -175,11 +176,11 @@ De doeldimensie van het **[!UICONTROL Unsubscription link]** blok is bijvoorbeel
 
 Als u dit veld leeg laat, is het inhoudsblok compatibel met alle berichten, ongeacht de doeldimensie. Als u een het richten dimensie plaatst, zal dat blok slechts met berichten compatibel zijn die de zelfde het richten dimensie hebben.
 
-Raadpleeg [Doeldimensies en bronnen](../../automating/using/query.md#targeting-dimensions-and-resources)voor meer informatie hierover.
+Raadpleeg [Targetingdimensies en resources](../../automating/using/query.md#targeting-dimensions-and-resources) voor meer informatie.
 
 **Verwante onderwerpen:**
 
-* [Een aanpassingsveld invoegen](#inserting-a-personalization-field)
+* [Een personalisatieveld invoegen](#inserting-a-personalization-field)
 * [Een inhoudsblok toevoegen](#adding-a-content-block)
 * [Dynamische inhoud in een e-mail definiëren](#defining-dynamic-content-in-an-email)
 
@@ -205,7 +206,7 @@ Met Adobe Campaign kunt u een of meer afbeeldingen in uw bericht aanpassen aan e
 
 1. Bevestig uw wijzigingen.
 
-## Voorwaardelijke inhoud {#conditional-content}
+## Voorwaardelijke content {#conditional-content}
 
 ### Een zichtbaarheidsvoorwaarde definiëren{#defining-a-visibility-condition}
 
@@ -226,6 +227,11 @@ Voor deze voorwaarden wordt de syntaxis van de XTK-expressie gebruikt (bijvoorbe
 >Een voorwaarde kan niet worden gedefinieerd voor een blok dat al een subelement bevat met een dynamische inhoud of een blok dat al een dynamische inhoud vormt. Niet-zichtbare dynamische blokken, zoals vervolgkeuzelijsten, kunnen niet worden bewerkt.
 
 ### Dynamische inhoud in een e-mail definiëren{#defining-dynamic-content-in-an-email}
+
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_content"
+>title="Dynamische inhoud definiëren"
+>abstract="Definieer verschillende inhoud voor de ontvangers volgens regels die zijn gedefinieerd via de expressieeditor."
 
 In een e-mail kunt u verschillende inhoud definiëren die dynamisch aan de ontvangers wordt weergegeven volgens de voorwaarden die via de expressieeditor zijn gedefinieerd. U kunt er bijvoorbeeld voor zorgen dat elk profiel via hetzelfde e-mailbericht een ander bericht ontvangt op basis van het leeftijdsbereik.
 
@@ -286,7 +292,7 @@ Dynamische inhoud definiëren verschilt van het [definiëren van zichtbaarheidsv
 
 **Verwante onderwerpen:**
 
-* [Proefdrukken verzenden](../../sending/using/sending-proofs.md)
+* [Proeven verzenden](../../sending/using/sending-proofs.md)
 * [Geavanceerde expressies bewerken](../../automating/using/editing-queries.md#about-query-editor)
 
 ### Prioriteitsvolgorde {#order-of-priority}
@@ -328,6 +334,11 @@ Het e-mailbericht wordt als volgt gemaakt:
    Het toevoegen van en het vormen van de verpersoonlijkingsgebieden is gedetailleerd in het [Invoegen van een sectie van het verpersoonlijkingsgebied](#inserting-a-personalization-field) .
 
 ### Afbeeldingen configureren {#configuring-images}
+
+>[!CONTEXTUALHELP]
+>id="ac_dynamic_image"
+>title="Dynamische afbeeldingen beheren"
+>abstract="Geef uw e-mail een persoonlijk tintje met dynamische afbeeldingen volgens de regels die in de expressieeditor zijn gedefinieerd."
 
 In dit voorbeeld wordt de dynamische inhoud die op de afbeeldingen wordt toegepast, als volgt geconfigureerd:
 
@@ -419,6 +430,6 @@ De afbeelding is veranderd dankzij de dynamische inhoud en de slogan die wordt w
 
 **Verwante onderwerpen:**
 
-* [Soorten publiek maken](../../audiences/using/creating-audiences.md)
+* [Doelgroepen maken](../../audiences/using/creating-audiences.md)
 * [De verzending voorbereiden](../../sending/using/preparing-the-send.md)
 
