@@ -1,5 +1,5 @@
 ---
-title: 'Nieuwe e-mails ontwerpen '
+title: 'Geheel nieuwe e-mails ontwerpen '
 description: Ontdek hoe u e-mailberichten kunt ontwerpen op basis van nieuwe e-mailinhoud in de e-mailontwerper.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -12,16 +12,17 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 023159c1c2d3334fd79e9ed9bf628758d84111eb
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+workflow-type: tm+mt
+source-wordcount: '1185'
+ht-degree: 2%
 
 ---
 
 
-# Nieuwe e-mails ontwerpen {#designing-an-email-content-from-scratch}
+# Geheel nieuwe e-mails ontwerpen {#designing-an-email-content-from-scratch}
 
-Leer hoe u e-mailinhoud kunt vervaardigen. Met E-mailontwerper kunt u e-mails en sjablonen maken die beginnen met of zonder uw eigen vooraf gedefinieerde inhoud.
-
-## Belangrijke stappen voor het maken van uw e-mail {#key-steps-to-create-your-email}
+Leer hoe u e-mailinhoud kunt master. Met E-mailontwerper kunt u e-mails en sjablonen maken die beginnen met of zonder uw eigen vooraf gedefinieerde inhoud.
 
 Hier volgen de belangrijkste stappen voor het maken en ontwerpen van een geheel nieuwe e-mailinhoud met de e-mailontwerper:
 
@@ -30,7 +31,7 @@ Hier volgen de belangrijkste stappen voor het maken en ontwerpen van een geheel 
 1. Voeg inhoudscomponenten en fragmenten in de structuurcomponenten in. Zie [Fragmenten en inhoudscomponenten](#defining-the-email-structure)toevoegen.
 1. Voeg afbeeldingen toe en bewerk de tekst van de e-mail. Zie [Afbeeldingen](../../designing/using/images.md#inserting-images)invoegen.
 1. Pas uw e-mail aan door personaliseringsgebieden, verbindingen, etc. toe te voegen. Zie Een aanpassingsveld [](../../designing/using/personalization.md#inserting-a-personalization-field)invoegen, een koppeling [](../../designing/using/links.md#inserting-a-link) invoegen en dynamische inhoud in een e-mail [](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)definiëren.
-1. Bepaal de onderwerpregel van uw e-mail. Zie [De onderwerpregel van een e-mail](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email)aanpassen.
+1. Bepaal de onderwerpregel van uw e-mail. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 1. Bekijk uw e-mail.
 1. Sla de inhoud op en voer het bericht verder nadat u hebt bepaald dat u een publiek hebt gedefinieerd en het verzenden op de juiste wijze hebt gepland.
 
@@ -40,7 +41,17 @@ U kunt deze [introductievideo](https://video.tv.adobe.com/v/22771/?autoplay=true
 >
 >U kunt het ontwerpen van nieuwe e-mailinhoud voorkomen door sjablonen voor inhoud buiten de verpakking te gebruiken. Zie [Inhoudssjablonen](../../designing/using/using-reusable-content.md#content-templates)voor meer informatie.
 
-### E-mailstructuur definiëren {#defining-the-email-structure}
+## E-mailstructuur definiëren {#defining-the-email-structure}
+
+>[!CONTEXTUALHELP]
+>id="ac_structure_components"
+>title="Informatie over de componenten Structuur"
+>abstract="Structurele elementen die de lay-out van de e-mail bepalen."
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_columns"
+>title="E-mailkolommen definiëren"
+>abstract="Met de E-mailontwerper kunt u de kolomstructuur van uw e-mail eenvoudig definiëren."
 
 Met de e-mailontwerper kunt u de structuur van uw e-mail eenvoudig definiëren. Door structuurelementen toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van uw e-mail binnen seconden ontwerpen.
 
@@ -59,6 +70,8 @@ De structuur van een e-mail bewerken:
 
    >[!NOTE]
    >
+   >Kolommen zijn niet compatibel met alle e-mailprogramma&#39;s. Kolommen worden niet gestapeld als deze functie niet wordt ondersteund.
+   >
    >Nadat u de onderdelen in de e-mail hebt geplaatst, kunt u deze alleen verplaatsen of verwijderen als er al een inhoudscomponent of een fragment in de e-mail is geplaatst.
 
 1. Er zijn verschillende structuurcomponenten beschikbaar die uit een of meer kolommen zijn samengesteld.
@@ -73,7 +86,32 @@ De structuur van een e-mail bewerken:
 
 Nadat de structuur is gedefinieerd, kunt u inhoudsfragmenten en -componenten aan uw e-mail toevoegen.
 
-### Inhoudscomponenten gebruiken {#about-content-components}
+## Een preheader gebruiken {#preheader}
+
+>[!CONTEXTUALHELP]
+>id="ac_edition_preheader"
+>title="Een preheader gebruiken"
+>abstract="Met de preheader kunt u een korte samenvattingstekst configureren die een hogere open snelheid voor uw e-mail biedt."
+
+Een preheader is een korte samenvattingstekst die op de onderwerpregel volgt wanneer een e-mail van uw Postvak IN wordt weergegeven. De preheader biedt een hogere open snelheid.
+
+Selecteer het **[!UICONTROL Preheader]** bewerkingsvak en vul de inhoud in.
+
+![](assets/email_designer_preheader.png)
+
+U kunt een **[!UICONTROL Content block]**, een **[!UICONTROL Dynamic content]** of een item toevoegen **[!UICONTROL Personalization fields]** in de inhoud van de voorkop.
+
+>[!NOTE]
+>
+>De preheader is niet compatibel met alle e-mailprogramma&#39;s. Voorheader wordt niet weergegeven als dit niet wordt ondersteund.
+
+
+## Inhoudscomponenten gebruiken {#about-content-components}
+
+>[!CONTEXTUALHELP]
+>id="ac_content_components"
+>title="Informatie over inhoudscomponenten"
+>abstract="Inhoudscomponenten zijn onbewerkte, lege componenten die u kunt bewerken wanneer u ze eenmaal in een e-mail hebt geplaatst."
 
 Inhoudscomponenten zijn onbewerkte, lege componenten die u kunt bewerken wanneer u ze eenmaal in een e-mail hebt geplaatst.
 
@@ -81,82 +119,96 @@ U kunt zoveel inhoudscomponenten toevoegen als u wilt in een structuurcomponent.
 
 Hier volgt een lijst met de beschikbare onderdelen in E-mailontwerper:
 
-- **[!UICONTROL Button]**
+### **[!UICONTROL Button]**
 
-   Als u meerdere knoppen moet gebruiken in plaats van elke knop helemaal opnieuw te bewerken, kunt u de **[!UICONTROL Button]** component dupliceren met de contextafhankelijke werkbalk.
+Als u meerdere knoppen moet gebruiken in plaats van elke knop helemaal opnieuw te bewerken, kunt u de **[!UICONTROL Button]** component dupliceren met de contextafhankelijke werkbalk.
 
-   U kunt knoppen ook opslaan in fragmenten die opnieuw kunnen worden gebruikt. Zie [Een inhoudsfragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment) maken en inhoud [opslaan als fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)voor meer informatie.
+U kunt knoppen ook opslaan in fragmenten die opnieuw kunnen worden gebruikt. Zie [Een inhoudsfragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment) maken en inhoud [opslaan als fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)voor meer informatie.
 
 Selecteer deze optie **[!UICONTROL Fallback view]** om de fallback-afbeelding weer te geven in de e-mailontwerper.
 
-- **[!UICONTROL Text]**
+### **[!UICONTROL Text]**
 
-   Gebruik deze component om tekst in te voegen in uw e-mail. U kunt de kleur, stijl en grootte van de tekst in aanpassen **[!UICONTROL Component Settings]**.
+    Gebruik deze component om tekst in te voegen in uw e-mail. U kunt de kleur, stijl en grootte van de tekst aanpassen in **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL Divider]**
+### **[!UICONTROL Divider]**
 
-   Gebruik deze component om een scheidingslijn in te voegen in uw e-mail. U kunt de kleur, de stijl en de grootte van de regel voor afbreking selecteren **[!UICONTROL Component Settings]**.
+    Gebruik deze component om een scheidingslijn in te voegen in uw e-mail. U kunt de kleur, stijl en grootte van de breuklijn selecteren in **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL Html]**
+### **[!UICONTROL Html]**
 
-   Met deze component kunt u de verschillende onderdelen van de bestaande HTML kopiëren en plakken. Hierdoor kunt u gratis modulaire HTML-componenten maken.
+Met deze component kunt u de verschillende onderdelen van de bestaande HTML kopiëren en plakken. Hierdoor kunt u gratis modulaire HTML-componenten maken.
 
-   >[!NOTE]
-   >
-   >Een gratis HTML-component is bewerkbaar met beperkte opties. Als niet alle stijlen zijn gealigneerd, zorg ervoor om juiste CSS in de **hoofd** sectie van de code van HTML toe te voegen, anders zal e-mail niet ontvankelijk zijn. Gebruik de **[!UICONTROL Preview]** knop om de reactiesnelheid van uw inhoud te testen (zie [Berichten](../../sending/using/previewing-messages.md)voorvertonen).
+>[!NOTE]
+>
+>Een gratis HTML-component is bewerkbaar met beperkte opties. Als niet alle stijlen zijn gealigneerd, zorg ervoor om juiste CSS in de **hoofd** sectie van de code van HTML toe te voegen, anders zal e-mail niet ontvankelijk zijn. Gebruik de **[!UICONTROL Preview]** knop om de reactiesnelheid van uw inhoud te testen (zie [Berichten](../../sending/using/previewing-messages.md)voorvertonen).
 
-   Om een externe inhoud eenvoudig compatibel te maken met de e-mailontwerper, raadt Adobe u aan een geheel nieuw bericht te maken en de inhoud van uw bestaande e-mail te kopiëren naar fragmenten en componenten.
+Om een externe inhoud eenvoudig compatibel te maken met de e-mailontwerper, raadt Adobe u aan een geheel nieuw bericht te maken en de inhoud van uw bestaande e-mail te kopiëren naar fragmenten en componenten.
 
-   Als u inhoud hebt die niet opnieuw kan worden gemaakt, kunt u de HTML-code uit de oorspronkelijke e-mail kopiëren en plakken met de **[!UICONTROL Html]** inhoudcomponent. Zorg ervoor dat u bekend bent met HTML voordat u verdergaat.
+Als u inhoud hebt die niet opnieuw kan worden gemaakt, kunt u de HTML-code uit de oorspronkelijke e-mail kopiëren en plakken met de **[!UICONTROL Html]** inhoudcomponent. Zorg ervoor dat u bekend bent met HTML voordat u verdergaat.
 
-   <!-- A full example is presented below. -->
+<!-- A full example is presented below. -->
 
-   >[!NOTE]
-   >
-   >De nieuwe inhoud is niet de exacte kopie van uw oorspronkelijke e-mail, maar de onderstaande stappen begeleiden u bij het maken van een bericht dat zo dicht mogelijk bij u ligt.
+>[!NOTE]
+>
+>De nieuwe inhoud is niet de exacte kopie van uw oorspronkelijke e-mail, maar de onderstaande stappen begeleiden u bij het maken van een bericht dat zo dicht mogelijk bij u ligt.
 
-   **Voordat u de inhoud kopieert**
+    **Voordat u de inhoud kopieert**
+    
+    1. In uw originele e-mail, identificeer de herbruikbare secties van de secties die aan elke e-mail uniek zullen zijn die u zult verzenden.
+    1. Sla alle afbeeldingen en elementen op die u wilt gebruiken.
+    1. Als u bekend bent met HTML, splitst u de originele HTML-inhoud in verschillende onderdelen.
 
-   1. In uw originele e-mail, identificeer de herbruikbare secties van de secties die aan elke e-mail uniek zullen zijn die u zult verzenden.
-   1. Sla alle afbeeldingen en elementen op die u wilt gebruiken.
-   1. Als u bekend bent met HTML, splitst u de originele HTML-inhoud in verschillende onderdelen.
+### Video {#video-settings}
 
-- **[!UICONTROL Video]**
+>[!CONTEXTUALHELP]
+>id="ac_edition_video"
+>title="Video-instellingen"
+>abstract="Gebruik deze component om een video in te voegen in uw e-mail."
 
-   Gebruik deze component om een video in te voegen in uw e-mail.
+Plaats de videocomponent in een structuurelement van uw e-mail en voer de videokoppeling in de **[!UICONTROL Component Settings]** e-mail in.
 
-   Plaats de videocomponent in een structuurelement van uw e-mail en voer de videokoppeling in de **[!UICONTROL Component Settings]** e-mail in.
+>[!NOTE]
+>
+>Video is niet compatibel met alle e-mailprogramma&#39;s. Als dit niet wordt ondersteund, wordt fallback weergegeven.
 
-- **[!UICONTROL Image]**
+### Afbeelding
 
-   Gebruik deze component om een afbeelding in te voegen in uw e-mail.
+Gebruik deze component om een afbeelding in te voegen in uw e-mail.
 
-   Voeg de afbeeldingscomponent in een structuurcomponent in en klik op Bladeren om een afbeeldingsbestand van uw computer te uploaden.
+Voeg de afbeeldingscomponent in een structuurcomponent in en klik op Bladeren om een afbeeldingsbestand van uw computer te uploaden.
 
-- **[!UICONTROL Social]**
+### **[!UICONTROL Social]**
 
-   Gebruik deze component om koppelingen naar pagina&#39;s met sociale media in uw e-mail in te voegen. U kunt selecteren welke koppelingen u wilt weergeven en de grootte van het bijbehorende pictogram in **[!UICONTROL Component Settings]**.
+Gebruik deze component om koppelingen naar pagina&#39;s met sociale media in uw e-mail in te voegen. U kunt selecteren welke koppelingen u wilt weergeven en de grootte van het bijbehorende pictogram in **[!UICONTROL Component Settings]**.
 
-- **[!UICONTROL Carousel]**
+### Carousel {#carousel-settings}
 
-   1. Sleep de **[!UICONTROL Carousel]** component naar een structuurcomponent.
-   1. Blader naar de gewenste afbeeldingen op uw computer.
+>[!CONTEXTUALHELP]
+>id="ac_edition_carousel"
+>title="Carrouselinstellingen"
+>abstract="Leer hoe u een carrousel invoegt en configureert in uw inhoud."
+
+1. Sleep de **[!UICONTROL Carousel]** component naar een structuurcomponent.
+1. Blader naar de gewenste afbeeldingen op uw computer.
+
    ![](assets/des_carousel_browse.png)
 
-   1. Stel in het **[!UICONTROL Settings]** deelvenster het gewenste aantal miniaturen in de carrousel in.
-   1. Selecteer een fallback-afbeelding op uw computer.
+1. Stel in het **[!UICONTROL Settings]** deelvenster het gewenste aantal miniaturen in de carrousel in.
+1. Selecteer een fallback-afbeelding op uw computer.
+
    ![](assets/des_carousel_fallback.png)
 
-   De carrouselcomponent is niet compatibel met alle e-mailprogramma&#39;s. Upload een fallback om een afbeelding weer te geven wanneer de carrousel niet in de e-mail wordt ondersteund.
+De carrouselcomponent is niet compatibel met alle e-mailprogramma&#39;s. Upload een fallback om een afbeelding weer te geven wanneer de carrousel niet in de e-mail wordt ondersteund.
 
-   >[!NOTE]
-   >
-   >De carrouselcomponent is compatibel met de volgende e-mailplatforms: Apple Mail 7, Apple Mail 8, Outlook 2011 voor Mac, Outlook 2016 voor Mac, Mozilla Thunderird, iPad en iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox en Safari).
+>[!NOTE]
+>
+>De carrouselcomponent is compatibel met de volgende e-mailplatforms: Apple Mail 7, Apple Mail 8, Outlook 2011 voor Mac, Outlook 2016 voor Mac, Mozilla Thunderird, iPad en iPad mini iOS, iPhone iOS, Android, AOL (Chrome, Firefox en Safari).
 
 **Verwante onderwerpen**:
 
 - [Een e-mail maken](../../channels/using/creating-an-email.md)
-- [Een publiek in een bericht selecteren](../../audiences/using/selecting-an-audience-in-a-message.md)
+- [Een doelgroep in een bericht selecteren](../../audiences/using/selecting-an-audience-in-a-message.md)
 - [Berichten plannen](../../sending/using/about-scheduling-messages.md)
 - [Berichten voorvertonen](../../sending/using/previewing-messages.md)
-- [E-mailrendering](../../sending/using/email-rendering.md)
+- [E-mailweergave](../../sending/using/email-rendering.md)
