@@ -1,6 +1,6 @@
 ---
-title: 'E-mails ontwerpen via Adobe Campagne-integratie '
-description: Ontdek hoe u e-mails kunt ontwerpen via de integratie van Adobe Campagne in de e-mailontwerper.
+title: 'E-mails ontwerpen via Adobe Campaign-integratie '
+description: Ontdek hoe u e-mails kunt ontwerpen via Adobe Campaign-integratie in de e-mailontwerper.
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -12,46 +12,58 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
+workflow-type: tm+mt
+source-wordcount: '708'
+ht-degree: 5%
 
 ---
 
 
 # E-mailontwerp met meerdere oplossingen {#multi-solution-email-design}
 
-Adobe Campaign biedt verschillende opties voor het schrijven van e-mails. U kunt oplossingen zoals Dreamweaver gebruiken om uw e-mailinhoud te bewerken en responsieve berichten te maken in de e-mailontwerper. U kunt inhoud ook via e-mail verzenden met Adobe Experience Manager en deze gebruiken in uw e-mails in Adobe Campagne Standard.
+Adobe Campaign biedt verschillende opties voor het schrijven van e-mailberichten. U kunt oplossingen zoals Dreamweaver gebruiken om uw e-mailinhoud te bewerken en responsieve berichten te maken in de e-mailontwerper. U kunt ook inhoud via e-mail verzenden naar Adobe Experience Manager en deze gebruiken in uw e-mails in Adobe Campaign Standard.
 
 ## Inhoud bewerken in Dreamweaver {#editing-content-in-dreamweaver}
 
-Met de integratie van Adobe Campaign Standard met Dreamweaver kunt u de inhoud van een e-mailbericht bewerken in de Dreamweaver-interface. U hebt toegang tot de krachtige interface van Dreamweaver om responsieve e-mailinhoud te ontwerpen en te ontwikkelen.
+Dankzij de Adobe Campaign Standard-integratie met Dreamweaver kunt u de inhoud van een e-mail bewerken in de Dreamweaver-interface. U hebt toegang tot de krachtige interface van Dreamweaver om responsieve e-mailinhoud te ontwerpen en te ontwikkelen.
 
 * **Bidirectionele synchronisatie**
 
-   Wanneer een bewerking in het ene product wordt uitgevoerd, wordt deze in real-time in het andere product bijgewerkt. Als u de kleur van tekst in Dreamweaver wilt wijzigen, wordt de kleur van de tekst live weergegeven in Campagne zodra u die bewerking uitvoert. Wanneer u bovendien code selecteert in Dreamweaver of Campagne, aangezien de lijnaantallen het zelfde zijn, blijft de selectie tussen de twee producten, wat zeer nuttig is wanneer het zoeken naar iets specifiek in de code.
+   Wanneer een bewerking in het ene product wordt uitgevoerd, wordt deze in real-time in het andere product bijgewerkt. Als u de kleur van tekst in Dreamweaver wilt wijzigen, wordt de kleur van de tekst live weergegeven in Campagne. Wanneer u bovendien code selecteert in Dreamweaver of Campagne, aangezien de lijnaantallen het zelfde zijn, blijft de selectie tussen de twee producten, wat zeer nuttig is wanneer het zoeken naar iets specifiek in de code.
 
-* **Lokale afbeeldingen uploaden naar Adobe-campagne via Dreamweaver**
+* **Lokale afbeeldingen uploaden naar Adobe Campaign via Dreamweaver**
 
-   Wanneer u een e-mailbericht maakt of bewerkt in Dreamweaver, kunt u gewoon een afbeelding selecteren op uw bureaublad of op uw lokale computer. Hoewel u dit altijd hebt toegestaan in Dreamweaver, wordt het lokale bestand direct geüpload naar de Adobe Campagneserver wanneer Dreamweaver en Campagne worden verbonden: hoeven afbeeldingen niet handmatig te uploaden wanneer de inhoud verandert. Bovendien zorgt het ervoor dat de recentste beelden altijd in Campagne leven.
+   Wanneer u een e-mailbericht maakt of bewerkt in Dreamweaver, kunt u gewoon een afbeelding op uw bureaublad of op uw lokale computer selecteren. Hoewel Dreamweaver u altijd heeft toegestaan dit te doen, wordt het lokale bestand onmiddellijk geüpload naar de Adobe Campaign-server wanneer Dreamweaver en Campagne zijn aangesloten: hoeven afbeeldingen niet handmatig te uploaden wanneer de inhoud verandert. Bovendien zorgt het ervoor dat de recentste beelden altijd in Campagne leven.
 
-* **Aanpassing campagne toevoegen in Dreamweaver**
+* **Aanpassing campagne toevoegen aan Dreamweaver**
 
    Voor de e-mailontwikkelaar is het niet langer nodig om tekst als `[[FIRSTNAME_PLACEHOLDER]]` of de syntaxis van de tabellen van uw gegevensmodel toe te voegen. De werkbalk Campagne in Dreamweaver maakt rechtstreeks verbinding met het gegevensmodel van uw Campagne-instantie. Dat betekent u in om het even welke gegevens kunt trekken u voor verpersoonlijking van iets als Voornaam aan Adres wilt. Als u inhoudsblokken hebt gemaakt in de campagne, kunt u deze ook rechtstreeks naar Dreamweaver trekken.
 
-Deze mogelijkheid wordt beschreven in de Dreamweaver-documentatie die [hier](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html)kan worden geraadpleegd. Er is ook een [demonstratievideo](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html) beschikbaar.
+Deze mogelijkheid wordt beschreven in de Dreamweaver-documentatie die [hier](https://helpx.adobe.com/nl/dreamweaver/using/working-with-dreamweaver-and-campaign.html)toegankelijk is. Er is ook een [demonstratievideo](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html) beschikbaar.
 
 ## Inhoud bewerken in Experience Manager {#editing-content-in-experience-manager}
 
-E-mailinhoud kan worden bewerkt in Experience Manager en vervolgens worden gebruikt voor een of meerdere e-mailberichten in Adobe Campagne Standard. Raadpleeg [dit document](../../integrating/using/integrating-with-experience-manager.md).
+E-mailinhoud kan in Experience Manager worden bewerkt en vervolgens worden gebruikt voor een of meerdere e-mailberichten in Adobe Campaign Standard. Refer to [this document](../../integrating/using/integrating-with-experience-manager.md).
+
+## Productaanbiedingen {#product-listing}
+
+>[!CONTEXTUALHELP]
+>id="ac_product_listing"
+>title="Productaanbiedingen gebruiken"
+>abstract="In de productaanbiedingen kunt u verwijzen naar een of meer gegevensverzamelingen in de e-mailinhoud."
+
+In de productaanbiedingen kunt u verwijzen naar een of meer gegevensverzamelingen in de e-mailinhoud. Deze aanbiedingen zijn beschikbaar voor transactie-e-mails. Een specifieke sectie voor deze functie is [hier](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)beschikbaar.
 
 ## Vergelijking van e-mailontwerpopties {#email-design-options-comparison}
 
-Adobe Campaign biedt verschillende opties voor het schrijven van e-mails. In de onderstaande tabel staan de belangrijkste mogelijkheden, voordelen en beperkingen voor elk van deze twee.
+Adobe Campaign biedt verschillende opties voor het schrijven van e-mailberichten. In de onderstaande tabel staan de belangrijkste mogelijkheden, voordelen en beperkingen voor elk van deze twee.
 
 <table> 
  <thead> 
   <tr> 
    <th> </th> 
-   <th> E-mailontwerper<br /> </th> 
+   <th> Email Designer<br /> </th> 
    <th> Experience Manager<br /> </th> 
    <th> Dreamweaver<br /> </th> 
   </tr> 
@@ -90,7 +102,7 @@ Adobe Campaign biedt verschillende opties voor het schrijven van e-mails. In de 
   <tr> 
    <td> <strong>Proef/voorvertoning</strong><br /> </td> 
    <td> Ondersteund<br /> </td> 
-   <td> Voorvertonen in AEM<br /> -proefdruk in campagne<br /> </td> 
+   <td> Voorvertonen in AEM<br /> proef in campagne<br /> </td> 
    <td> Voorvertonen en proefdrukken in campagne<br /> </td> 
   </tr> 
   <tr> 
@@ -108,38 +120,38 @@ Adobe Campaign biedt verschillende opties voor het schrijven van e-mails. In de 
   </td> 
    <td> 
      <p>- Elementen van website opnieuw gebruiken in e-mails</p>
-     <p>- De kracht van Experience Manager benutten voor e-mailinhoud</p>
+     <p>- De kracht van Experience Manager in e-mailinhoud benutten</p>
     </td> 
    <td> 
     <p>- Mogelijkheid voor een ontwikkelaar om een e-mail rechtstreeks te coderen</p>
     <p>- Bi-directionele synchronisatie</p>
     <p>- Offline bewerken in Dreamweaver en later synchroniseren</p>
-    <p>- Afbeeldingen uploaden naar Adobe Campagne via Dreamweaver</p>
+    <p>- Afbeeldingen uploaden naar Adobe Campaign via Dreamweaver</p>
   </td> 
   </tr> 
   <tr> 
    <td> <strong>Beperkingen</strong><br /> </td> 
    <td> 
      <p>- Geen voorwaardelijke inhoud in fragmenten</p>
-     <p>- Het gebruik van fragmenten in Experience Manager is niet mogelijk</p>
+     <p>- Het gebruik van fragmenten uit de Experience Manager is niet mogelijk</p>
   </td> 
    <td> 
      <p>- Geavanceerde personalisatie is moeilijk te implementeren</p>
-     <p>- Moet tests verzenden in Adobe Campaign</p>
+     <p>- Noodzaak tests te verzenden in Adobe Campaign</p>
   </td> 
    <td> Dynamische inhoud wordt niet ondersteund<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Publiek</strong><br /> </td> 
+   <td> <strong>Doelgroep</strong><br /> </td> 
    <td> Marketers die de flexibiliteit willen behouden om HTML-componenten te gebruiken in combinatie met functies voor slepen en neerzetten<br /> </td> 
-   <td> Marketers die de functie Experience Manager al gebruiken en die standaard e-mailsjablonen willen gebruiken met weinig personalisatie<br /> </td> 
-   <td> Ontwikkelaars die e-mailinhoud willen coderen en deze rechtstreeks willen integreren met Adobe Campagne<br /> </td> 
+   <td> Marketers die al Experience Manager gebruiken en die standaard e-mailsjablonen willen gebruiken met weinig personalisatie<br /> </td> 
+   <td> Ontwikkelaars die e-mailinhoud willen coderen en deze rechtstreeks willen integreren met Adobe Campaign<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Meer informatie</strong><br /> </td> 
    <td> Zie <a href="../../designing/using/designing-content-in-adobe-campaign.md">Informatie over de e-mailontwerper</a>.<br /> </td> 
    <td> Zie <a href="../../integrating/using/integrating-with-experience-manager.md">Integreren met Experience Manager</a>.<br /> </td> 
-   <td> Zie <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver en Campagne</a> en bekijk deze <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>.<br /> </td> 
+   <td> Zie <a href="https://helpx.adobe.com/nl/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver en Campagne</a> en bekijk deze <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
