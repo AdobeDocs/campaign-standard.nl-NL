@@ -12,10 +12,10 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
-workflow-type: ht
-source-wordcount: '929'
+translation-type: tm+mt
+source-git-commit: bbb059c2094558ec02661cb6f41d50a91038d58b
+workflow-type: tm+mt
+source-wordcount: '958'
 ht-degree: 100%
 
 ---
@@ -34,6 +34,10 @@ Het type data dat tussen activiteiten wordt uitgewisseld, kan van invloed zijn o
 U kunt activiteiten openen om parameters te controleren of te bewerken voor of na het uitvoeren van de workflow.
 
 U kunt overgangen openen om te controleren of de verzonden data correct zijn tijdens of na het uitvoeren van de workflow. Voor toegang tot de gedetailleerde weergave van de overgangen moet u de optie **[!UICONTROL Keep interim results]** in de sectie **[!UICONTROL Execution]** van de workfloweigenschappen selecteren.
+
+>[!CAUTION]
+>
+>Deze optie verbruikt veel schijfruimte en is ontworpen om u te helpen een workflow te maken en een correcte configuratie en functionaliteit te garanderen. Laat deze optie uitgeschakeld op productie-instanties.
 
 ![](assets/workflow_overview.png)
 
@@ -96,7 +100,7 @@ Het diagram maken:
 
 1. Voeg een activiteit toe door het uit het palet te slepen en het neer te zetten in het diagram.
 
-   Voeg bijvoorbeeld een activiteit **[Start](../../automating/using/start-and-end.md)**en vervolgens een activiteit**[ E-maillevering](../../automating/using/email-delivery.md)** toe aan het diagram.
+   Voeg bijvoorbeeld een activiteit **[Start](../../automating/using/start-and-end.md)** en vervolgens een activiteit **[E-maillevering](../../automating/using/email-delivery.md)** toe aan het diagram.
 
 1. Koppel de activiteiten door de activiteitovergang **Start** te slepen en neer te zetten op de activiteit **E-maillevering**.
 
