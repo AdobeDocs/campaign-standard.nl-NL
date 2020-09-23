@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1241'
 ht-degree: 2%
 
 ---
@@ -46,12 +46,12 @@ U kunt deze [introductievideo](https://video.tv.adobe.com/v/22771/?autoplay=true
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
 >title="Informatie over de componenten Structuur"
->abstract="Structurele elementen die de lay-out van de e-mail bepalen."
+>abstract="Structuurelementen definiëren de indeling van de e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="E-mailkolommen definiëren"
->abstract="Met de E-mailontwerper kunt u de kolomstructuur van uw e-mail eenvoudig definiëren."
+>abstract="Met de E-mailontwerper kunt u de indeling van uw e-mail eenvoudig definiëren door de kolomstructuur te definiëren."
 
 Met de e-mailontwerper kunt u de structuur van uw e-mail eenvoudig definiëren. Door structuurelementen toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van uw e-mail binnen seconden ontwerpen.
 
@@ -111,7 +111,7 @@ U kunt een **[!UICONTROL Content block]**, een **[!UICONTROL Dynamic content]** 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
 >title="Informatie over inhoudscomponenten"
->abstract="Inhoudscomponenten zijn onbewerkte, lege componenten die u kunt bewerken wanneer u ze eenmaal in een e-mail hebt geplaatst."
+>abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt bewerken om een e-mail te maken."
 
 Inhoudscomponenten zijn onbewerkte, lege componenten die u kunt bewerken wanneer u ze eenmaal in een e-mail hebt geplaatst.
 
@@ -164,7 +164,9 @@ Als u inhoud hebt die niet opnieuw kan worden gemaakt, kunt u de HTML-code uit d
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="Video-instellingen"
->abstract="Gebruik deze component om een video in te voegen in uw e-mail."
+>abstract="Gebruik deze component om een video in te voegen in uw e-mail. Video&#39;s werken niet voor alle e-mailclients. We raden u aan een fallback-afbeelding in te stellen."
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Aanvullende informatie"
+
 
 Plaats de videocomponent in een structuurelement van uw e-mail en voer de videokoppeling in de **[!UICONTROL Component Settings]** e-mail in.
 
@@ -187,7 +189,7 @@ Gebruik deze component om koppelingen naar pagina&#39;s met sociale media in uw 
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Carrouselinstellingen"
->abstract="Leer hoe u een carrousel invoegt en configureert in uw inhoud."
+>abstract="Leer hoe u een carrousel invoegt en configureert in uw inhoud.carrousel werkt niet op alle e-mailclients en er wordt een fallback-afbeelding weergegeven als dit niet wordt ondersteund."
 
 1. Sleep de **[!UICONTROL Carousel]** component naar een structuurcomponent.
 1. Blader naar de gewenste afbeeldingen op uw computer.
