@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2573'
 ht-degree: 3%
 
 ---
@@ -231,7 +231,7 @@ Voor deze voorwaarden wordt de syntaxis van de XTK-expressie gebruikt (bijvoorbe
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_content"
 >title="Dynamische inhoud definiëren"
->abstract="Definieer verschillende inhoud voor de ontvangers volgens regels die zijn gedefinieerd via de expressieeditor."
+>abstract="Definieer verschillende inhoud die voor bepaalde profielen alleen wordt weergegeven op basis van voorwaarden die u definieert."
 
 In een e-mail kunt u verschillende inhoud definiëren die dynamisch aan de ontvangers wordt weergegeven volgens de voorwaarden die via de expressieeditor zijn gedefinieerd. U kunt er bijvoorbeeld voor zorgen dat elk profiel via hetzelfde e-mailbericht een ander bericht ontvangt op basis van het leeftijdsbereik.
 
@@ -338,7 +338,7 @@ Het e-mailbericht wordt als volgt gemaakt:
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
 >title="Dynamische afbeeldingen beheren"
->abstract="Geef uw e-mail een persoonlijk tintje met dynamische afbeeldingen volgens de regels die in de expressieeditor zijn gedefinieerd."
+>abstract="Geef uw e-mailadres een dynamisch beeld op basis van voorwaarden die u definieert."
 
 In dit voorbeeld wordt de dynamische inhoud die op de afbeeldingen wordt toegepast, als volgt geconfigureerd:
 
