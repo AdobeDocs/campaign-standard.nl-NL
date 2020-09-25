@@ -1,6 +1,6 @@
 ---
 title: Aan de slag met processen en gegevensbeheer
-description: Adobe Campaign biedt een uitgebreide grafische omgeving waarmee u processen kunt ontwerpen en automatiseren.
+description: Gebruik Adobe Campaign-workflowmogelijkheden om processen te automatiseren via een krachtige, uitgebreide grafische omgeving. Leer hoe u gegevens laadt, het publiek beheert, berichten verzendt, gegevensbeheercycli implementeert, technische processen automatiseert en nog veel meer.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a9fbf0479019dfbe2964c517a0370f015d0f380a
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 0%
+source-wordcount: '539'
+ht-degree: 8%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">Workflowactiviteiten</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">Gebruik hoofdletters</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">Gegevens filteren</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">Workflowactiviteiten</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">Gebruiksscenario’s</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">Gegevens filteren</a></p></td>
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">Gegevens importeren/exporteren</a></p></td></tr>
 </table>
 
@@ -47,7 +47,7 @@ Er zijn verschillende activiteiten beschikbaar om u te helpen uw workflows ontwe
 
 [Met doelgerichte activiteiten](../../automating/using/about-targeting-activities.md) kunt u een of meer doelen maken door sets te definiëren en deze sets te splitsen of te combineren met behulp van doorsnede-, samenvoegings- of uitsluitingsbewerkingen.
 
-Met [Uitvoeringsactiviteiten](../../automating/using/about-execution-activities.md)kunt u uw workflow en de activiteiten ervan coördineren, terwijl u met [Kanaalactiviteiten](../../automating/using/about-channel-activities.md) communicatiekanalen van Campaign Standard kunt combineren om kanaalworkflows te maken.
+Met [de activiteiten](../../automating/using/about-execution-activities.md)van de Uitvoering, coördineer uw werkschema en zijn activiteiten, terwijl de activiteiten [van het](../../automating/using/about-channel-activities.md) Kanaal u Campaign Standard communicatie kanalen laten combineren om kanaalwerkschema&#39;s tot stand te brengen.
 
 Tot slot staan de [gegevensbeheeractiviteiten](../../automating/using/about-data-management-activities.md) u toe om gegevens van uw gegevensbestand te manipuleren.
 
@@ -61,13 +61,13 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-Gebruik de **vraagredacteur** om gegevens van uw gegevensbestand te filtreren en een bevolking te bouwen om uw ontvangers beter te richten. De query-editor is beschikbaar voor het uitvoeren van verschillende handelingen in Campaign Standard: Maak het type van Vraag publiek, bepaal leveringsdoelstellingen, of populaties in werkschemaactiviteiten.
+Gebruik de **vraagredacteur** om gegevens van uw gegevensbestand te filtreren en een bevolking te bouwen om uw ontvangers beter te richten. De vraagredacteur is beschikbaar om verscheidene acties in Campaign Standard uit te voeren: Maak het type van Vraag publiek, bepaal leveringsdoelstellingen, of populaties in werkschemaactiviteiten.
 
 De vraagredacteur komt met **vooraf bepaalde filters en regels** voor snel en gemakkelijk het filtreren. U kunt echter ook gebruikmaken van de **geavanceerde bewerkingsmogelijkheden** voor expressies. Op deze manier kunt u handmatig voorwaarden invoeren en functies gebruiken om uw eigen regels op te stellen.
 
 Meer informatie:
 
-* [Bewerkquery&#39;s](../../automating/using/editing-queries.md)
+* [Query&#39;s bewerken](../../automating/using/editing-queries.md)
 * [Geavanceerde expressies bewerken](../../automating/using/advanced-expression-editing.md)
 * [Lijst met functies](../../automating/using/list-of-functions.md)
 
@@ -75,7 +75,7 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Campaign Standard beschikt over verschillende mogelijkheden **voor** gegevensbeheer voor het importeren en exporteren van gegevens.
+Campaign Standard wordt geleverd met verschillende mogelijkheden **voor** gegevensbeheer voor het importeren en exporteren van gegevens.
 
 [Met de activiteiten](../../automating/using/about-data-management-activities.md) voor gegevensbeheer van workflows kunt u gegevens importeren, massa-updates uitvoeren op velden, bestanden ontvangen of verzenden of niet-geïdentificeerde gegevens koppelen aan bestaande bronnen.
 
@@ -85,15 +85,15 @@ Met de malplaatjes [van de](../../automating/using/importing-data-with-import-te
 
 Gebruik [Pakketten](../../automating/using/managing-packages.md) van de hefboomwerking om middelen tussen verschillende campagneinstanties, bijvoorbeeld, te ruilen om de configuratie van een instantie te herhalen, of gegevens over te brengen van een server aan een andere met inbegrip van douanemiddelen.
 
-Tot slot kunt u met lijsten [voor](../../automating/using/exporting-lists.md) exporteren lijsten uit Campaign Standard exporteren, zoals bijvoorbeeld de lijst met testprofielen, de lijst met e-mailadressen voor quarantaines, enzovoort.
+Ten slotte kunt u met lijsten [voor](../../automating/using/exporting-lists.md) exporteren lijsten exporteren uit Campaign Standard, zoals bijvoorbeeld de lijst met testprofielen, de lijst met e-mailadressen voor quarantaines, enzovoort.
 
 Meer informatie:
 
-* [Gegevens importeren en exporteren](../../automating/using/about-data-import-and-export.md)
-* [Hoofdlettergebruik: Aangepaste bronnen exporteren/importeren](../../automating/using/exporting-importing-custom-resources.md)
+* [Data importeren en exporteren](../../automating/using/about-data-import-and-export.md)
+* [Gebruiksscenario: Aangepaste resources exporteren en importeren](../../automating/using/exporting-importing-custom-resources.md)
 
-## Aanvullende bronnen
+## Aanvullende resources
 
 * [Zelfstudievideo&#39;s over processen en gegevensbeheer](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
 * [Technische workflows](../../administration/using/technical-workflows.md)
-* [Aan de slag met het Campaign Standard-gegevensmodel](../../developing/using/get-started-data-model.md)
+* [Aan de slag met het Campaign Standard-datamodel](../../developing/using/get-started-data-model.md)
