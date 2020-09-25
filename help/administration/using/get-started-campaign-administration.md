@@ -1,6 +1,6 @@
 ---
 title: Aan de slag met Campaign Standard-beheer
-description: Adobe Campaign biedt u een volledige set beheertools. Leer hoe u uw gebruikers beheert en uw kanalen configureert.
+description: Ontdek hoe u gebruikers kunt beheren, rollen kunt definiëren en machtigingen kunt verlenen. Leer controlerichtlijnen, kanaal-specifieke configuraties en toepassingsmontages zoals doelafbeeldingen, technische werkschema's, branding, gegevensbehoud, en meer.
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 12674de42a9c6f4439a485b67a9aa0fecd32ba25
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '666'
 ht-degree: 14%
 
 ---
@@ -44,8 +44,8 @@ De verschillende Adobe Campaign-beheerbewerkingen worden uitgevoerd via het **[!
 De verschillende beschikbare menu&#39;s zijn:
 
 * [Gebruikers en beveiliging](../../administration/using/about-access-management.md): Met dit menu kunt u de toegang tot het platform (gebruikers, rollen, beveiligingsgroepen, eenheden) beheren.
-* [Kanalen](../../administration/using/about-channel-configuration.md): In dit menu worden de technische parameters gegroepeerd die zijn gekoppeld aan de verschillende platformkanalen (e-mail, SMS) en het typologie- en quarantainebeheer.
-* [Toepassingsinstellingen](../../administration/using/external-accounts.md): In dit menu kunt u verschillende toepassingselementen configureren (externe accounts, opties, technische workflows).
+* [Kanalen](../../administration/using/about-channel-configuration.md): In dit menu worden de technische parameters gegroepeerd die zijn gekoppeld aan de verschillende platformkanalen (e-mail, mobiel) en het typologie- en quarantainebeheer.
+* [Toepassingsinstellingen](../../administration/using/external-accounts.md): Met dit menu kunt u verschillende toepassingselementen configureren (externe accounts, opties, technische workflows).
 * [Ontwikkeling](../../developing/using/data-model-concepts.md): Met dit menu kunt u uw aangepaste bronnen beheren en toegang krijgen tot diagnostische gereedschappen.
 * [Instellingen](../../administration/using/branding.md)voor instanties: In dit menu definieert u de verschillende merken en configureert u de instellingen (logo, beheer, bijhouden, URL-domein voor toegang tot de bestemmingspagina&#39;s, enz.).
 * [Implementatie](../../automating/using/managing-packages.md): In dit menu worden de import- en exportopties voor het pakket opnieuw gegroepeerd.
@@ -106,7 +106,7 @@ Meer informatie:
 * [Merkpositionering](../../administration/using/branding.md)
 * [Interne meldingen verzenden](../../administration/using/sending-internal-notifications.md)
 
-## Aanvullende bronnen
+## Aanvullende resources
 
 * [Toegangsrechten van gebruikers beheren (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
 * [Configuratiescherm-documentatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/control-panel-home.html)
