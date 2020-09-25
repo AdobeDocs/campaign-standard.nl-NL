@@ -1,6 +1,6 @@
 ---
 title: Aan de slag met communicatiekanalen
-description: Leer hoe u gepersonaliseerde berichten op verschillende kanalen kunt verzenden en campagnes kunt maken die geschikt zijn voor meerdere kanalen om uw ontvangers beter te richten.
+description: Leer hoe u persoonlijke berichten kunt maken op verschillende kanalen (e-mail, pushberichten, inApp, SMS en direct mail). Ontdek hoe u sjablonen kunt gebruiken, landingspagina's kunt maken en best practices voor levering kunt controleren.
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 16%
+source-wordcount: '532'
+ht-degree: 15%
 
 ---
 
