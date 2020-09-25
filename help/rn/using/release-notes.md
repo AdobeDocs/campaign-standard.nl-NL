@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 893cd3a07063f8349dfeeae0f3274a6f54bf04f7
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 4%
@@ -116,7 +116,7 @@ ht-degree: 4%
 * Wanneer u een aangepaste bron publiceert, wordt na de voorbereiding een bevestigingspop-up weergegeven.
 * Het pop-upbericht dat wordt weergegeven wanneer een aangepaste bron mislukt, is verbeterd voor meer duidelijkheid.
 * De expressie-editor in workflows is verbeterd om uitvoeringsfouten te voorkomen. [Er zijn nieuwe functies](../../automating/using/customizing-workflow-external-parameters.md) beschikbaar: ze kunnen worden gebruikt in alle activiteiten waarmee u gebeurtenisvariabelen kunt gebruiken nadat u een workflow met externe parameters hebt aangeroepen. Bovendien wordt knopinfo nu weergegeven in de expressie-editor met de functiebeschrijving.
-* Er zijn nieuwe filters toegevoegd aan de lijst met transactiegebeurtenissen. Hiermee kunt u de gebeurtenisconfiguraties filteren op basis van hun status en de laatste keer dat een gebeurtenis is ontvangen.
+* [Er zijn nieuwe filters](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) toegevoegd aan de lijst met transactiegebeurtenissen. Hiermee kunt u de gebeurtenisconfiguraties filteren op basis van hun status en de laatste keer dat een gebeurtenis is ontvangen.
 * De logboeken die worden weergegeven bij het exporteren van pakketten, zijn specifieker en gedetailleerder weergegeven over de fouten die zijn aangetroffen bij een fout.
 * Nadat u een bericht hebt verzonden, kunt u nu de lijst met [bijgehouden URL&#39;s zoeken, filteren en exporteren](../../sending/using/tracking-messages.md).
 * Automatische [synchronisatie tussen Starten en Campagne](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) is nu GA en standaard ingeschakeld.
