@@ -12,9 +12,9 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
-source-wordcount: '3059'
+source-wordcount: '3169'
 ht-degree: 7%
 
 ---
@@ -201,12 +201,6 @@ Zodra Adobe Campaign gebeurtenissen ontvangt die betrekking hebben op deze gebeu
 
 De gebeurtenissen (in JSON-indeling) worden weergegeven van de meest recente tot de oudste. Met deze lijst kunt u gegevens zoals de inhoud of de status van een gebeurtenis controleren voor controle en foutopsporing.
 
-### Publicatieproces voor transactieberichten {#transactional-messaging-pub-process}
-
-De grafiek hieronder illustreert het publicatieproces voor transactieberichten.
-
-![](assets/message-center_pub-process.png)
-
 ### Publicatie van een gebeurtenis ongedaan maken {#unpublishing-an-event}
 
 Met de **[!UICONTROL Unpublish]** knop kunt u de publicatie van de gebeurtenis annuleren. Hierdoor wordt de bron die overeenkomt met de gebeurtenis die u eerder hebt gemaakt, verwijderd uit de REST API. Zelfs als de gebeurtenis via uw website wordt geactiveerd, worden de bijbehorende berichten niet meer verzonden en niet opgeslagen in de database.
@@ -218,6 +212,14 @@ Met de **[!UICONTROL Unpublish]** knop kunt u de publicatie van de gebeurtenis a
 >Als u het overeenkomstige transactiemelding reeds hebt gepubliceerd, wordt de transactieberichtpublicatie ook geannuleerd. See [Unpublishing a transactional message](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
 
 Klik op de **[!UICONTROL Publish]** knop om een nieuwe REST API te genereren.
+
+### Publicatieproces voor transactieberichten {#transactional-messaging-pub-process}
+
+De grafiek hieronder illustreert het publicatieproces voor transactieberichten.
+
+![](assets/message-center_pub-process.png)
+
+Zie [deze sectie](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)voor meer informatie over het publiceren, pauzeren en verwijderen van transactiemeldingen.
 
 ### Een gebeurtenis verwijderen {#deleting-an-event}
 
@@ -240,13 +242,31 @@ Nadat een gebeurtenis niet gepubliceerd is of nog niet gepubliceerd is, kunt u d
 >
 >Als u een gebeurtenisconfiguratie verwijdert die is gepubliceerd en al wordt gebruikt, worden ook de bijbehorende transactiemeldingen en de bijbehorende verzendings- en trackinglogboeken verwijderd.
 
+## Transactiegebeurtenissen zoeken {#searching-transactional-events}
+
+Voer de onderstaande stappen uit om de reeds gemaakte transactiegebeurtenissen te openen en te doorzoeken.
+
+1. Klik in de linkerbovenhoek op het logo **[!UICONTROL Adobe Campaign]** en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Klik op de knop **[!UICONTROL Show search]**.
+
+   ![](assets/message-center_search-events.png)
+
+1. U kunt filteren op de **[!UICONTROL Publication status]**. Zo kunt u bijvoorbeeld alleen de gepubliceerde gebeurtenissen weergeven.
+1. U kunt de gebeurtenissen ook filteren met behulp van de **[!UICONTROL Last event received]**. Als u bijvoorbeeld 10 invoert, worden alleen de gebeurtenisconfiguraties met de laatste gebeurtenis die tien dagen geleden of later is ontvangen, weergegeven. Hierdoor kunt u weergeven welke gebeurtenissen gedurende een bepaalde periode inactief zijn geweest.
+
+   ![](assets/message-center_last-event-received.png)
+
+   >[!NOTE]
+   >
+   >De standaardwaarde is 0. Alle gebeurtenissen worden dan weergegeven.
+
 ## De activering van de gebeurtenis in een website integreren {#integrating-the-triggering-of-the-event-in-a-website}
 
 Nadat u een gebeurtenis hebt gemaakt, moet u de activering van deze gebeurtenis integreren in uw website.
 
 In het voorbeeld dat wordt beschreven in de sectie [Transaction messaging Operating Principle](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) , wilt u dat een gebeurtenis &quot;Cart-stopzetting&quot; wordt geactiveerd wanneer een van uw klanten uw website verlaat voordat ze de producten in hun winkelwagentje kopen. Hiervoor moet de webontwikkelaar van uw website de Adobe Campaign Standard REST API gebruiken.
 
-Zie de documentatie van de [REST API](../../api/using/managing-transactional-messages.md) .
+Zie de documentatie van de [REST API](../../api/using/managing-transactional-messages.md).
 
 ## Specifieke configuraties voor gebeurtenissen {#transactional-event-specific-configurations}
 
