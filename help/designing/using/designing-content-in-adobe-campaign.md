@@ -1,6 +1,6 @@
 ---
 title: Inhoud ontwerpen in Adobe Campaign
-description: Meer informatie over alle elementen die u in Adobe Campaign kunt definiëren.
+description: Met Campagne-e-mailontwerper kunt u fascinerende, individueel aangepaste e-mails maken via een interface voor slepen en neerzetten. Beginnend van een leeg leistal, of het gebruiken van bestaande inhoudsfragmenten of malplaatjes, ontwerp en verfijnen al inhoud voor elke e-mail
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+source-git-commit: 3859c91e4aa083d897c02769495113f62e071f3c
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1162'
 ht-degree: 4%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 4%
 
 Nadat u een e-mailbericht hebt gemaakt in Adobe Campaign, moet u de inhoud ervan definiëren.
 
-Met de e-mailontwerper kunt u fascinerende, individueel op maat gemaakte e-mails maken via een sleepinterface en dropinterface die wordt aangevuld door native Creative Cloud-integratie. Of u nu op een lege site begint of bestaande inhoudsfragmenten of sjablonen gebruikt, u ontwerpt en verfijnen alle inhoud voor elke e-mail, of het nu gaat om promotionele of transactionele taken.
+Met de e-mailontwerper kunt u fascinerende, individueel op maat gemaakte e-mails maken door middel van slepen en neerzetten. Of u nu op een lege site begint of bestaande inhoudsfragmenten of sjablonen gebruikt, u ontwerpt en verfijnen alle inhoud voor elke e-mail, of het nu gaat om promotionele of transactionele taken.
 
 De e-mailontwerper is ontworpen om HTML te leveren die is geoptimaliseerd voor responsief ontwerp en stelt u in staat om de zichtbaarheidsvoorwaarden en dynamische inhoud eenvoudig via de gebruikersinterface te definiëren en toe te passen op een e-mail, sjabloon of fragment. U kunt naadloos schakelen tussen de interface voor slepen en neerzetten en HTML-code als u op een knop klikt.
 
