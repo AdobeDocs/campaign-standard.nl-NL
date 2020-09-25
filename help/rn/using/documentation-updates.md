@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5eab422b797e1d486fded57cb64f94fb709d6681
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
-source-wordcount: '6215'
-ht-degree: 92%
+source-wordcount: '6247'
+ht-degree: 91%
 
 ---
 
@@ -41,6 +41,8 @@ De sectie over het aanroepen van een workflow met externe parameters is verrijkt
 Er is een aanbeveling toegevoegd aan de best practices voor workflows over het aantal activiteiten dat per workflow moet worden gebruikt. [Meer informatie](../../automating/using/best-practices-workflows.md#number-activities)
 
 Er is een nieuwe sectie over aanbevolen methoden voor levering toegevoegd. [Meer informatie](../../sending/using/delivery-best-practices.md)
+
+Er is een sectie toegevoegd waarin de nieuwe filters worden beschreven waarmee de gebeurtenisconfiguraties kunnen worden doorzocht op basis van hun status en de laatste keer dat een gebeurtenis werd ontvangen. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
 ## Documentatie-updates - september 2020 {#doc-updates-september-2020}
 
