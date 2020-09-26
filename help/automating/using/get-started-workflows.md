@@ -1,6 +1,6 @@
 ---
 title: Aan de slag met processen en gegevensbeheer
-description: Gebruik Adobe Campaign-workflowmogelijkheden om processen te automatiseren via een krachtige, uitgebreide grafische omgeving. Leer hoe u gegevens laadt, het publiek beheert, berichten verzendt, gegevensbeheercycli implementeert, technische processen automatiseert en nog veel meer.
+description: Automatiseer processen met workflows, laad gegevens, beheer het publiek, verzend berichten, implementeer gegevensbeheercycli, automatiseer technische processen en nog veel meer.
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '526'
 ht-degree: 8%
 
 ---
