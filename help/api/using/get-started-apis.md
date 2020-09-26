@@ -1,6 +1,6 @@
 ---
 title: Aan de slag met Campaign Standard-API's
-description: Campaign Standard API's zijn bedoeld om u in staat te stellen integratie te maken en uw eigen ecosysteem te bouwen door Campagne te koppelen aan het deelvenster met technologieën dat u gebruikt.
+description: Creëer integratie en bouw uw eigen ecosysteem door Campagne met een panel van technologieën in aanraking te brengen.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '233'
 ht-degree: 15%
 
 ---
