@@ -13,10 +13,10 @@ context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 99%
+source-wordcount: '487'
+ht-degree: 83%
 
 ---
 
@@ -47,14 +47,14 @@ Met de knop **[!UICONTROL Create]** kunt u een nieuwe activiteit maken. Raadplee
 
 In de hoofdzone heeft elk type activiteit in de lijst een pictogram:
 
-* ![](assets/marketing_program_icon.png): Programma
-* ![](assets/marketing_campaign_icon.png): Campagne
-* ![](assets/marketing_email_icon.png): E-mail
-* ![](assets/marketing_sms_icon.png) : Sms
-* ![](assets/marketing_push_icon.png): Pushmelding
-* ![](assets/marketing_lp_icon.png): In-app-bericht
-* ![](assets/marketing_lp_icon.png): Landingspagina
-* ![](assets/marketing_workflow_icon.png): Workflow
+* ![](assets/marketing_program_icon.png) Programma
+* ![](assets/marketing_campaign_icon.png) Campagne
+* ![](assets/marketing_email_icon.png) E-mail
+* ![](assets/marketing_sms_icon.png) Sms
+* ![](assets/marketing_push_icon.png) Pushmelding
+* ![](assets/marketing_lp_icon.png) Bericht in de app
+* ![](assets/marketing_lp_icon.png) Landingspagina
+* ![](assets/marketing_workflow_icon.png) Workflow
 
 Afhankelijk van de geldigheidsperiode en status van de activiteit geeft de kleur van dit pictogram de uitvoeringsstatus van de betreffende activiteit aan.
 
@@ -86,16 +86,16 @@ Programma’s en campagnes worden weergegeven in de sectie [Programma’s en cam
 
 Afhankelijk van de context kunt u:
 
-* [Een e-mail maken](../../channels/using/creating-an-email.md)
-* [Een sms maken](../../channels/using/creating-an-sms-message.md)
-* [Een pushmelding maken](../../channels/using/preparing-and-sending-a-push-notification.md)
-* [Een bericht in de app maken](../../channels/using/about-in-app-messaging.md)
-* [Een workflow maken](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [Een landingspagina maken](../../channels/using/getting-started-with-landing-pages.md)
-* [Een campagne maken](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* [Een programma maken](../../start/using/programs-and-campaigns.md#creating-a-program)
+* Een e-mail maken - Meer [informatie](../../channels/using/creating-an-email.md)
+* Een SMS-bericht maken - Meer [informatie](../../channels/using/creating-an-sms-message.md)
+* Een pushmelding maken - [Meer informatie](../../channels/using/preparing-and-sending-a-push-notification.md)
+* Een bericht in de app maken - [Meer informatie](../../channels/using/about-in-app-messaging.md)
+* Een workflow maken - [Meer informatie](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* Een openingspagina maken - [Meer informatie](../../channels/using/getting-started-with-landing-pages.md)
+* Een campagne maken - [Meer informatie](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* Een programma maken - Meer [informatie](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->U kunt ook een marketingactiviteit maken vanaf de lijst met marketingactiviteiten. In dit geval kunt u elk type activiteit maken. U kunt desgewenst de marketingactiviteit koppelen aan een bovenliggende campagne (of aan een bovenliggend programma als u een programma maakt) via de eigenschappen van de activiteit.
+>U kunt ook een marketingactiviteit maken vanaf de lijst met marketingactiviteiten. In dit geval kunt u elk type activiteit maken en ervoor kiezen de marketingactiviteit te koppelen aan een bovenliggende campagne (of aan een bovenliggend programma als u een programma maakt) via de eigenschappen van de activiteit.
 
