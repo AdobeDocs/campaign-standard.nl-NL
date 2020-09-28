@@ -12,11 +12,11 @@ discoiquuid: 53e3db10-5fed-4fc3-b41e-5226f1e05246
 context-tags: campaignCalendar,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '380'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,10 @@ Elk programma wordt weergegeven door een vak met de bijbehorende miniatuur en he
 
 De blauwe verticale lijn is een chronologische markering om de huidige datum te markeren. Standaard wordt deze in het midden van het scherm weergegeven. U kunt naar rechts of naar links schuiven in het scherm om de weergegeven periode te wijzigen.
 
-Met de knoppen ![](assets/timeline_zoom_in.png) en ![](assets/timeline_zoom_out.png) kunt u de perimeter vergroten of verkleinen. Met de knop ![](assets/timeline_zoom_in.png) vergroot u ook het detailniveau gedurende een kortere periode, totdat er dagen worden weergegeven en met de knop ![](assets/timeline_zoom_out.png) kunt u een langere periode weergeven.
+Gebruik de pictogrammen om;
+
+* ![](assets/timeline_zoom_in.png) de omtrek verkleinen of het detailniveau gedurende een beperktere periode verhogen, totdat dagen worden weergegeven
+* ![](assets/timeline_zoom_out.png) de omtrek vergroten of een groter tijdframe weergeven
 
 Klik op de pijl rechts van elke programmanaam om de bijbehorende content weer te geven. Een programma kan subprogramma&#39;s, campagnes en landingspagina&#39;s bevatten. Een campagne wordt op dezelfde manier als een programma geïmplementeerd en kan e-mails, sms&#39;en en landingspagina&#39;s bevatten.
 
@@ -49,12 +52,12 @@ Wanneer de content van een programma of campagne wordt weergegeven, wordt het ov
 
 Elk element heeft een pictogram dat overeenkomt met het type van het element:
 
-* ![](assets/timeline_program_icon.png) : Programma
-* ![](assets/timeline_campaign_icon.png) : Campagne
-* ![](assets/timeline_lp_icon.png) : Landingspagina
-* ![](assets/timeline_email_icon.png) : E-mail
-* ![](assets/timeline_sms_icon.png) : Sms
-* ![](assets/timeline_push_icon.png) : Pushmelding
+* ![](assets/timeline_program_icon.png) Programma
+* ![](assets/timeline_campaign_icon.png) Campagne
+* ![](assets/timeline_lp_icon.png) Landingspagina
+* ![](assets/timeline_email_icon.png) E-mail
+* ![](assets/timeline_sms_icon.png) Sms
+* ![](assets/timeline_push_icon.png) Pushmelding
 
 De gekleurde lijn aan de linkerrand van elk vak geeft de status van het desbetreffende element aan.
 
