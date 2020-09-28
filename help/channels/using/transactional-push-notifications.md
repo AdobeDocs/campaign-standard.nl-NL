@@ -12,7 +12,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 13%
@@ -72,6 +72,7 @@ Het bedrijf verzendt één transactioneel pushbericht per gebruiker (geïdentifi
    Zie Een pushmelding [maken](../../channels/using/preparing-and-sending-a-push-notification.md)voor meer informatie over het bewerken van inhoud van een pushmelding.
 
 1. Sla uw wijzigingen op en publiceer het bericht. Zie [Een transactioneel bericht publiceren](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+
 1. Verstuur met de Adobe Campaign Standard REST API een gebeurtenis naar een registratietoken (ABCDEF123456789) met één mobiele toepassing (WeFlight) op Android (gcm), die de instapgegevens bevat.
 
    ```
@@ -114,13 +115,9 @@ Een luchtvaartmaatschappij wil bijvoorbeeld een laatste instapoproep sturen naar
 
 1. Ga naar het transactionele bericht dat is gemaakt om het te bewerken. Zie [Transactieberichten voor gebeurtenissen](../../channels/using/event-transactional-messages.md).
 
-   <!--![](assets/message-center_push_message_profile.png)-->
-
 1. Click the **[!UICONTROL Content]** block to modify your message&#39;s title and body.
 
    In tegenstelling tot configuraties die op gebeurtenissen in real time worden gebaseerd, hebt u directe toegang tot alle profielinformatie om uw bericht te personaliseren. Zie [Een personalisatieveld invoegen](../../designing/using/personalization.md#inserting-a-personalization-field).
-
-   <!--![](assets/message-center_push_content_profile.png)-->
 
    Voor meer informatie over het bewerken van inhoud van een pushmelding. Zie [Een pushmelding](../../channels/using/preparing-and-sending-a-push-notification.md)maken.
 
@@ -142,4 +139,3 @@ Een luchtvaartmaatschappij wil bijvoorbeeld een laatste instapoproep sturen naar
    >[!NOTE]
    >
    >Er zijn geen registratietoken, toepassings- en pushplatformvelden. In dit voorbeeld wordt de afstemming uitgevoerd met het e-mailveld.
-
