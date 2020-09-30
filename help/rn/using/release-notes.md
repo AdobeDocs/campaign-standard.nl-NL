@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
+source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2442'
 ht-degree: 4%
 
 ---
@@ -120,7 +120,6 @@ ht-degree: 4%
 * De logboeken die worden weergegeven bij het exporteren van pakketten, zijn specifieker en gedetailleerder weergegeven over de fouten die zijn aangetroffen bij een fout.
 * Nadat u een bericht hebt verzonden, kunt u nu de lijst met [bijgehouden URL&#39;s zoeken, filteren en exporteren](../../sending/using/tracking-messages.md).
 * Automatische [synchronisatie tussen Starten en Campagne](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) is nu GA en standaard ingeschakeld.
-* Transactieberichten kunnen met hoge prioriteit worden verzonden zelfs in geval van significante bulkleveringswerkbelasting.
 * De grootte van workflowexportpakketten is geoptimaliseerd door de verzending van proefdrukexportpakketten te verwijderen.
 * Er is een nieuw bericht toegevoegd om de grootte van het gedownloade bestand weer te geven in de activiteit **Bestandsoverdracht** .
 * Foutberichten voor ongeldige sessietokens zijn verbeterd.
@@ -134,6 +133,7 @@ ht-degree: 4%
 **Patches**
 
 * Probleem verholpen waardoor u geen doelkoppeling voor pushberichten of In-App-berichten kon gebruiken wanneer reeksspatiëring was ingeschakeld.
+* Probleem verholpen waarbij hoge prioriteit in transactieberichten niet in acht werd genomen in geval van significante bulklevering.
 * Probleem verholpen waardoor u mogelijk geen merknamen kunt toewijzen aan een transactie-e-mail. Verschillende foutberichten kunnen tijdens de publicatiestap worden weergegeven. (CAMP-44988)
 * Probleem verholpen in de gebruikersinterface van de workflow waardoor gegevens niet konden worden opgeslagen in velden waarvoor numerieke waarden werden aangevraagd. (CAMP-44025)
 * Probleem verholpen waarbij een foutbericht kon worden weergegeven wanneer een **testactiviteit** werd gebruikt in een workflow van een importsjabloon. (CAMP-42910)
