@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: d425e4b96604133fbdfc66fde38e4ca5c84baccd
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 7%
@@ -54,21 +54,21 @@ Als u gegevensstromen van andere systemen met Adobe Campaign wilt integreren, be
    <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4, 6.5<br /> </td> 
    <td> Hiermee kunt u rechtstreeks in Adobe Experience Manager e-mailinhoud of formulieren maken die zijn toegewezen aan de Adobe Campaign-database.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Werk met Campagne en Experience Manager</a><br/>, <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">integreer Experience Manager en Campaign Standard</a> <br/>, <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">creeer een e-mail met Experience Manager en Campagne</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Werken met campagne en Experience Manager</a>, Experience Manager en Campaign Standard <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">integreren</a>, een e-mail <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">maken met Experience Manager en campagne</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Doel<br /> : Klassiek, standaard<br /> </td> 
    <td> Hiermee kunt u afbeeldingen invoegen die dynamisch door Adobe Target worden berekend wanneer een e-mailbericht wordt geopend dat door Adobe Campaign is gemaakt en verzonden.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Werk met Campagne en Doel</a> <br/>, <a href="https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html">integreer Campagne en Doel</a><br/>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">pas E-mailbeelden in Real-Time</a> video aan (stap 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Werk met Campagne en Doel</a>, <a href="https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html">integreer Campagne en Doel</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Personaliseer E-mailbeelden in Real-Time</a> video (stap 3)
     </td> 
   </tr> 
   <tr> 
    <td> Analytics<br /> Standard, Premium <br /> </td> 
    <td> Hiermee kunt u het succes van uw e-mailleveringen rechtstreeks in Adobe Analytics volgen.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Campagnegegevens delen met Analytics</a><br/>, KPI's <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">delen voor geïntegreerde Campagne die video rapporteert</a> (stap 1)
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Campagnegegevens delen met Analytics</a>, KPI's <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">delen voor geïntegreerde Campagne die video rapporteert</a> (stap 1)
     </td> 
   </tr> 
   <tr> 
@@ -90,14 +90,14 @@ Als u gegevensstromen van andere systemen met Adobe Campaign wilt integreren, be
    <td> Experience Cloud Triggers<br /> </td> 
    <td> Hiermee kunt u persoonlijke e-mails sturen naar uw klanten in Adobe Campaign als reactie op specifieke gedragingen die door Adobe Analytics op uw website worden bijgehouden.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">De Trekkers van de Experience Cloud van het gebruik in Campaign Standard</a><br/>, de <a href="../../integrating/using/abandonment-triggers-use-cases.md">Ontgroting Triggers-Campagne gebruiksgevallen</a><br/>, de Berichten van de <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Trigger die van de Opmerking</a> van de Berichten op de video van de Activiteit van de Plaats worden gebaseerd (stap 2)
+    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">De Trekkers van de Experience Cloud van het gebruik in Campaign Standard</a>, de <a href="../../integrating/using/abandonment-triggers-use-cases.md">Ontgroting Triggers-Campagne gebruiksgevallen</a>, de Berichten van de <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Trigger die van de Opmerking</a> van de Berichten op de video van de Activiteit van de Plaats worden gebaseerd (stap 2)
     </td> 
   </tr> 
   <tr> 
    <td> Dreamweaver<br /> </td> 
    <td> Hiermee kunt u e-mailinhoud uit Dreamweaver bewerken en synchroniseren met Adobe Campaign.<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">Maak persoonlijke e-mails met Dreamweaver</a> -video <br/>, <a href="https://helpx.adobe.com/nl/dreamweaver/using/working-with-dreamweaver-and-campaign.html">gebruik de extensie Campagne voor Dreamweaver</a> 
+    <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">Maak persoonlijke e-mails met Dreamweaver</a> -video, <a href="https://helpx.adobe.com/nl/dreamweaver/using/working-with-dreamweaver-and-campaign.html">gebruik de extensie Campagne voor Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
