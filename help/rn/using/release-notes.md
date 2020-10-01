@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
+source-git-commit: 7168162baa26c960475d8c9c613989d0338f95c2
 workflow-type: tm+mt
-source-wordcount: '2442'
+source-wordcount: '2387'
 ht-degree: 4%
 
 ---
@@ -89,7 +89,6 @@ ht-degree: 4%
 * **Verbeteringen** voor workflowuitvoering (bèta): in het kader van een wereldwijd initiatief inzake workflows zijn enkele belangrijke verbeteringen ontwikkeld om het geheugenbeheer te stabiliseren , de latentie te verminderen en het geheugen dat werkstromen tijdens de uitvoering verbruiken te optimaliseren . Deze verbeteringen zijn momenteel in bèta, en slechts beschikbaar aan een reeks klanten. De algemene beschikbaarheid is gepland voor begin 2021.
 * Voor een betere beveiliging gebruikt Campagne nu een **handtekeningmechanisme** voor het bijhouden van koppelingen in e-mails.
 * De configuratie van mobiele apps is verbeterd dankzij **duidelijkere foutmeldingen** tijdens het uploaden van iOS-certificaten of Android-sleutels.
-* Er is nu een **nieuwe leveringstoewijzing** (mapRtEventAppSubRcp) beschikbaar voor transactieberichten die zich richten op profielen. De leverings-, uitsluitings- en trackinglogboeken voor deze leveringen zijn nu beschikbaar in de tabellen wideLogAppSubRcp, excludeLogAppSubRcp en trackingLogAppSubRcp. Dit lost een kwestie op die leveringsanalyse om veroorzaakte te ontbreken wanneer het verzenden van een transactie duw bericht gebruikend de het doeldimensie van het **Profiel** .
 * **Het beheer van** SMS-fouten is verbeterd om te voorkomen dat te veel profielen worden toegevoegd aan de quarantainelijst. Door gebrek, worden de fouten van SMS nu gevormd als zachte fouten in plaats van harde fouten. Zie [deze pagina](https://helpx.adobe.com/nl/campaign/kb/sms-connector-protocol-and-settings.html).
 
 **Verbeteringen voor de Email Designer**
