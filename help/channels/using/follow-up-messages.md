@@ -12,7 +12,7 @@ discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 4%
@@ -129,4 +129,3 @@ Als de workflow eenmaal is gestart, ontvangt elke klant die drie dagen geleden u
 >[!NOTE]
 >
 >Als u bij het maken van de gebeurtenisconfiguratie de **[!UICONTROL Profile]** doeldimensie hebt geselecteerd, gebruikt het vervolgbericht ook de Adobe Campaign-marketingdatabase. Zie [Profieltransactieberichten](../../channels/using/profile-transactional-messages.md).
-
