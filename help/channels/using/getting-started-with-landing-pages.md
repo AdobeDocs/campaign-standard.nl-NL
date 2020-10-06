@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
+source-git-commit: 32f3b8ac0108bbce10e443c39f1f766ddf97db84
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 100%
@@ -95,9 +95,9 @@ Uit veiligheidsredenen en voor betere prestaties van het platform raden we u ten
 
    ![](assets/lp-steps3.png)
 
-   >[!NOTE]
-   >
-   >Uw wijzigingen gelden alleen voor de landingspagina die u hebt bewerkt. Als u deze wijzigingen ook op andere landingspagina&#39;s wilt toepassen, moet u ze in een specifieke sjabloon opnemen en vervolgens landingspagina&#39;s maken op basis van die sjabloon.
+>[!NOTE]
+>
+>Uw wijzigingen gelden alleen voor de landingspagina die u hebt bewerkt. Als u deze wijzigingen ook op andere landingspagina&#39;s wilt toepassen, moet u ze in een specifieke sjabloon opnemen en vervolgens landingspagina&#39;s maken op basis van die sjabloon.
 
 ## Stap 3 - De landingspagina ontwerpen {#design-the-landing-page}
 
