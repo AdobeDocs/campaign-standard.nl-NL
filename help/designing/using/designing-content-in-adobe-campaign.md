@@ -1,5 +1,5 @@
 ---
-title: Inhoud ontwerpen in Adobe Campaign
+title: Content ontwerpen in Adobe Campaign
 description: Maak vanaf het begin e-mailinhoud, importeer HTML of gebruik bestaande sjablonen.
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
@@ -15,145 +15,145 @@ translation-type: tm+mt
 source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 4%
+ht-degree: 90%
 
 ---
 
 
 # Email Designer in Campaign{#designing-content-in-adobe-campaign}
 
-Nadat u een e-mailbericht hebt gemaakt in Adobe Campaign, moet u de inhoud ervan definiëren.
+Nadat u in Adobe Campaign een e-mailbericht hebt gemaakt, moet u de content definiëren.
 
-Met de e-mailontwerper kunt u fascinerende, individueel op maat gemaakte e-mails maken door middel van slepen en neerzetten. Of u nu op een lege site begint of bestaande inhoudsfragmenten of sjablonen gebruikt, u ontwerpt en verfijnen alle inhoud voor elke e-mail, of het nu gaat om promotionele of transactionele taken.
+Met de e-mailontwerper kunt u fascinerende, individueel op maat gemaakte e-mails maken door middel van slepen en neerzetten. Of u nu vanaf nul begint of bestaande contentfragmenten of contentsjablonen gebruikt, u ontwerpt en verfijnt alle content voor elke e-mail, zowel promotionele als transactionele e-mails.
 
-De e-mailontwerper is ontworpen om HTML te leveren die is geoptimaliseerd voor responsief ontwerp en stelt u in staat om de zichtbaarheidsvoorwaarden en dynamische inhoud eenvoudig via de gebruikersinterface te definiëren en toe te passen op een e-mail, sjabloon of fragment. U kunt naadloos schakelen tussen de interface voor slepen en neerzetten en HTML-code als u op een knop klikt.
+Email Designer is ontworpen om HTML te leveren en is geoptimaliseerd voor responsief ontwerp. Zo kunt u rechtstreeks via de gebruikersinterface gemakkelijk dynamische content en zichtbaarheidsvoorwaarden definiëren en toepassen op e-mails, sjablonen of fragmenten. U kunt naadloos met een klik op een knop schakelen tussen de interface voor slepen en neerzetten en HTML-code.
 
-Met de e-mailontwerper kunt u e-mailinhoud en sjablonen voor e-mailinhoud maken. Het is compatibel met eenvoudige e-mails, transactionele e-mails, e-mails voor A/B-tests, meertalige e-mails en terugkerende e-mails.
+Met Email Designer kunt u e-mailcontent en e-mailcontentsjablonen maken. Email Designer is compatibel met eenvoudige e-mails, transactionele e-mails, e-mails voor A/B-tests, meertalige e-mails en terugkerende e-mails.
 
-Om aan de slag te gaan met de e-mailontwerper bekijkt u deze [set video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) &#39;s waarin de algemene functionaliteit van de e-mailontwerper wordt uitgelegd en wordt uitgelegd hoe u een e-mailbericht helemaal zelf kunt ontwerpen of sjablonen kunt gebruiken.
+Om aan de slag te gaan met Email Designer bekijkt u deze [video’s](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) waarin de algemene functionaliteit van Email Designer wordt uitgelegd en waarin wordt aangetoond hoe u een nieuw e-mailbericht kunt ontwerpen of sjablonen kunt gebruiken.
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-* Zie Aan de [slag met e-mailontwerper](../../designing/using/quick-start.md)voor informatie over het maken van e-mailinhoud.
-* Zie [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md)gebruiken voor een overzicht van de e-mailontwerper.
-* Voor meer informatie over het samenstellen van inhoud:
-   * Zie E-mails helemaal [ontwerpen](../../designing/using/designing-from-scratch.md)vanaf het begin.
-   * Zie [Ontwerpen met behulp van bestaande inhoud](../../designing/using/using-existing-content.md).
-   * Met Creative Cloud-integratie raadpleegt u het e-mailontwerp [van](../../designing/using/using-integrations.md)meerdere oplossingen.
-* Zie [Personalisatie](../../designing/using/personalization.md)voor meer informatie over personalisatie.
+* Zie [Aan de slag met Email Designer](../../designing/using/quick-start.md) voor informatie over het maken van e-mailcontent.
+* Zie [Email Designer gebruiken](../../designing/using/designing-content-in-adobe-campaign.md) voor een overzicht van Email Designer.
+* Voor meer informatie over het samenstellen van content:
+   * Nieuwe maken: zie [Nieuwe e-mails ontwerpen](../../designing/using/designing-from-scratch.md).
+   * Bestaande content gebruiken: zie [Ontwerpen aan de hand van bestaande content](../../designing/using/using-existing-content.md).
+   * Creative Cloud-integraties gebruiken: zie [E-mails ontwerpen met meerdere oplossingen](../../designing/using/using-integrations.md).
+* Voor meer informatie over personalisatie: zie [Personalisatie](../../designing/using/personalization.md).
 
-Wanneer u een e-mailbericht maakt, kunt u een vooraf gedefinieerde sjabloon gebruiken of bestaande inhoud uit een andere bron laden. Zie [Bestaande inhoud](../../designing/using/using-existing-content.md#selecting-an-existing-content)selecteren.
+Wanneer u een e-mailbericht maakt, kunt u een vooraf gedefinieerde sjabloon gebruiken of bestaande content uit een andere bron laden. Zie [Bestaande content selecteren](../../designing/using/using-existing-content.md#selecting-an-existing-content).
 
-Pas uw inhoud aan om de efficiëntie van uw marketingcampagnes te verhogen. Zie Een verpersoonlijkingsveld [](../../designing/using/personalization.md#inserting-a-personalization-field) invoegen en een inhoudsblok [](../../designing/using/personalization.md#adding-a-content-block)toevoegen.
+Pas uw content aan om de efficiëntie van uw marketingcampagnes te verhogen. Zie [Een personalisatieveld invoegen](../../designing/using/personalization.md#inserting-a-personalization-field) en [Een contentblok invoegen](../../designing/using/personalization.md#adding-a-content-block).
 
-U kunt ook dynamische inhoud definiëren die afhankelijk is van elk profiel. Zie [Dynamische inhoud definiëren in een e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) en Dynamische inhoud [definiëren in een openingspagina](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page).
+U kunt ook dynamische content definiëren die varieert per profiel. Zie [Dynamische content definiëren in een e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) en [Dynamische content definiëren in een landingspagina](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page).
 
-Verbeter uw berichten en bestemmingspagina&#39;s met verbindingen en beelden. Zie Een koppeling [](../../designing/using/links.md#inserting-a-link) invoegen en afbeeldingen [](../../designing/using/images.md#inserting-images)invoegen.
+Verbeter uw berichten en landingspagina’s met koppelingen en afbeeldingen. Zie [Een koppeling invoegen](../../designing/using/links.md#inserting-a-link) en [Afbeeldingen invoegen](../../designing/using/images.md#inserting-images).
 
-## E-mailDesigner-interface {#email-designer-interface}
+## E-mail Designer-interface {#email-designer-interface}
 
-De e-mailontwerper biedt een groot aantal opties waarmee u elk aspect van uw inhoud kunt maken, bewerken en aanpassen.
+Email Designer biedt een groot aantal opties waarmee u elk aspect van uw content kunt maken, bewerken en aanpassen.
 
-De interface bestaat uit verschillende gebieden die verschillende functies bieden:
+De interface bestaat uit verschillende gebieden met verschillende functies:
 
 ![](assets/email_designer_overview.png)
 
-Sleep vanuit de elementen in het **palet** (1) de structuurcomponenten en inhoudsfragmenten naar de hoofdwerkruimte **** (2). Selecteer een component of element in de **werkruimte** (2) en pas de hoofdstijlen en weergavekenmerken aan in het deelvenster **Instellingen** (3).
+Sleep vanuit de beschikbare elementen in het **palet** (1) structuuronderdelen en contentfragmenten en zet ze neer in de hoofd **werkruimte** (2). Selecteer een onderdeel of element in de **werkruimte** (2) en pas de hoofdstijlen en weergavekenmerken aan in het deelvenster met **instellingen** (3).
 
-Toegang tot meer algemene opties en instellingen op de hoofdwerkbalk **** (4).
+Ga naar meer algemene opties en instellingen op de hoofd **werkbalk** (4).
 
 >[!NOTE]
 >
->Het deelvenster **Instellingen** kan naar links worden verplaatst op basis van de schermresolutie en de weergave.
+>Het deelvenster met **instellingen** kan naar links worden verplaatst, afhankelijk van de schermresolutie en de weergave.
 
 ![](assets/email_designer_toolbar.png)
 
-De **contextuele toolbar** van de redacteursinterface biedt diverse functionaliteit afhankelijk van de geselecteerde streek aan. Het bevat actieknoppen en knoppen waarmee u de stijl van de tekst kunt wijzigen. De uitgevoerde wijzigingen zijn altijd van toepassing op de geselecteerde zone.
+De **contextuele werkbalk** van de editorinterface biedt verschillende functies, afhankelijk van de geselecteerde zone. U vindt er actieknoppen en knoppen waarmee u de stijl van de tekst kunt wijzigen. De uitgevoerde wijzigingen zijn altijd van toepassing op de geselecteerde zone.
 
-### Homepage van E-mail Designer {#email-designer-home-page}
+### Startpagina van E-mail Designer {#email-designer-home-page}
 
-Wanneer u een e-mail [](../../channels/using/creating-an-email.md)maakt, wordt de **[!UICONTROL Email Designer]** startpagina automatisch weergegeven wanneer u de e-mailinhoud selecteert.
+Wanneer u [een e-mail maakt](../../channels/using/creating-an-email.md), wordt de **[!UICONTROL Email Designer]**-startpagina automatisch weergegeven als u de e-mailcontent selecteert.
 
 ![](assets/email_designer_home_page.png)
 
-Op het **[!UICONTROL Properties]** tabblad kunt u de e-mailgegevens bewerken, zoals het label, het adres en de naam van de afzender of het e-mailonderwerp. U kunt dit tabblad ook openen door op het e-maillabel boven aan het scherm te klikken.
+Op het tabblad **[!UICONTROL Properties]** kunt u de e-mailgegevens bewerken zoals het label, het adres en de naam van de afzender of het e-mailonderwerp. U kunt dit tabblad ook openen door op het e-maillabel bovenaan het scherm te klikken.
 
 ![](assets/email_designer_home_properties.png)
 
-Op het **[!UICONTROL Templates]** tabblad kunt u kiezen uit de HTML-inhoud uit de doos of de sjablonen die u al hebt gemaakt om snel uw e-mail te gaan ontwerpen. Zie [Inhoudssjablonen](../../designing/using/using-reusable-content.md#content-templates).
+Op het tabblad **[!UICONTROL Templates]** kunt u kiezen uit kant-en-klare HTML-content of de sjablonen die u al hebt gemaakt, om snel te beginnen met het ontwerpen van uw e-mail. Zie [Contentsjablonen](../../designing/using/using-reusable-content.md#content-templates).
 
 ![](assets/email_designer_home_templates.png)
 
-Op het **[!UICONTROL Learn & support]** tabblad hebt u eenvoudig toegang tot de bijbehorende documentatie en zelfstudies.
+Op het tabblad **[!UICONTROL Learn & support]** hebt u eenvoudig toegang tot de bijbehorende documentatie en tutorials.
 
 ![](assets/email_designer_home_support.png)
 
-Als u geen sjabloon selecteert, kunt u op de introductiepagina E-mail Designer ook kiezen hoe u begint met het ontwerpen van uw inhoud:
+Als u geen sjabloon selecteert, kunt u op de startpagina van Email Designer ook kiezen hoe u wilt beginnen met het ontwerpen van uw content:
 
-* Klik op de **[!UICONTROL Create]** knop om een geheel nieuwe inhoud te starten. Zie Een geheel nieuwe e-mailinhoud [ontwerpen](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-* Klik op de **[!UICONTROL Upload]** knop om een bestand van uw computer te uploaden. Zie Inhoud [importeren uit een bestand](../../designing/using/using-existing-content.md#importing-content-from-a-file).
-* Klik op de **[!UICONTROL Import from URL]** knop om bestaande inhoud van een URL op te halen. Zie Inhoud [importeren via een URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
+* Klik op de knop **[!UICONTROL Create]** om geheel nieuwe content te schrijven. Zie [Nieuwe e-mailcontent ontwerpen](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+* Klik op de knop **[!UICONTROL Upload]** om een bestand van uw computer te uploaden. Zie [Content importeren vanuit een bestand](../../designing/using/using-existing-content.md#importing-content-from-a-file).
+* Klik op de knop **[!UICONTROL Import from URL]** om bestaande content op te halen via een URL. Zie [Content importeren via een URL](../../designing/using/using-existing-content.md#importing-content-from-a-url).
 
 ## Terminologie {#terminology}
 
-**Sjablonen**: Sjablonen zijn e-mailstructuren die u kunt samenstellen en hergebruiken voor verschillende leveringen.
+**Sjablonen**: Sjablonen zijn e-mailstructuren die u kunt maken en hergebruiken voor meerdere leveringen.
 
-**Fragmenten**: Een fragment is een herbruikbare component waarnaar in een of meer e-mails kan worden verwezen.
+**Fragmenten**: Een fragment is een herbruikbaar onderdeel waarnaar in een of meer e-mails kan worden verwezen.
 
-**Structuurcomponenten**: Structurele elementen die de lay-out van de e-mail bepalen.
+**Structuuronderdelen**: Structurele elementen die de lay-out van de e-mail bepalen.
 
-**Inhoudscomponenten**: Inhoudscomponenten zijn onbewerkte, lege componenten die u kunt bewerken wanneer u ze eenmaal in een e-mail hebt geplaatst.
+**Contentonderdelen**: Contentonderdelen zijn onbewerkte, lege onderdelen die u kunt bewerken zodra ze in een e-mail zijn geplaatst.
 
-## Aanbevolen werkwijzen voor het ontwerpen van inhoud {#content-design-best-practices}
+## Best practices voor het ontwerpen van content {#content-design-best-practices}
 
-Als u de e-mailontwerper correct wilt gebruiken en de beste e-mails zo eenvoudig mogelijk wilt maken, raden we u aan de volgende principes toe te passen:
+Als u Email Designer goed wilt gebruiken en op de eenvoudigste manier de beste e-mails wilt maken, raden we u aan de volgende principes toe te passen:
 
-* Gebruik inline opmaak in plaats van een afzonderlijke CSS en CSS in de sectie &lt;head> van de HTML. Met inline opmaak kunt u het opslaan en opnieuw gebruiken van inhoudsfragmenten optimaliseren.
+* Gebruik inline opmaak in plaats van een afzonderlijke CSS en een CSS in de &lt;head>-sectie van de HTML. Met inline opmaak kunt u het opslaan en opnieuw gebruiken van contentfragmenten optimaliseren.
 
-   Zie [Inline-opmaakkenmerken](../../designing/using/styles.md#adding-inline-styling-attributes)toevoegen.
+   Zie [Inline opmaakkenmerken toevoegen](../../designing/using/styles.md#adding-inline-styling-attributes).
 
-* Als u ZIP-bestanden importeert die uw HTML-inhoud bevatten, gebruikt u gewone CSS. SCSS-stijlpagina&#39;s worden niet ondersteund.
+* Als u ZIP-bestanden met uw HTML-content importeert, gebruikt u gewone CSS. SCSS-stijlpagina’s worden niet ondersteund.
 
-* U kunt uw branding eenvoudig regelen door inhoudsfragmenten te maken en opnieuw te gebruiken, zodat uw marketingcampagnes consistent blijven.
+* U kunt uw branding eenvoudig regelen door contentfragmenten te maken en opnieuw te gebruiken, zodat uw marketingcampagnes consistent blijven.
 
-   Zie [Een inhoudsfragment](../../designing/using/using-reusable-content.md#creating-a-content-fragment)maken.
+   Zie [Een contentfragment maken](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
-* Tijdens het bewerken van **e-mailinhoud**:
+* Tijdens het bewerken van **e-mailcontent**:
 
-   Bekijk uw berichten voordat u ze verzendt. Adobe Campaign biedt een manier om het renderen van e-mail te testen met Litmus. Zie [E-mailrendering](../../sending/using/email-rendering.md)voor meer informatie.
+   Bekijk uw berichten voordat u ze verzendt. Adobe Campaign biedt een manier om het renderen van e-mail te testen met Litmus. Zie [E-mail renderen](../../sending/using/email-rendering.md) voor meer informatie.
 
 Meer ontwerp en algemene beste praktijken betreffende berichten worden voorgesteld in de volgende sectie: [Aanbevolen procedures](../../sending/using/delivery-best-practices.md)voor levering.
 
 ### Fragmenten bijwerken {#email-designer-updates}
 
-De e-mailontwerper wordt voortdurend verbeterd. Als u een geheel nieuwe e-mailinhoud hebt gemaakt, op basis van een sjabloon buiten de box of als u fragmenten hebt gemaakt, ontvangt u mogelijk de volgende update wanneer u de inhoud de volgende keer opent:
+Email Designer wordt voortdurend verbeterd. Als u geheel nieuwe e-mailcontent hebt gemaakt, op basis van een meegeleverde sjabloon of met fragmenten die u hebt gemaakt, ontvangt u mogelijk het volgende updatebericht wanneer u de content de volgende keer opent:
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-Adobe raadt u aan uw inhoud bij te werken naar de meest recente versie om problemen zoals problemen met CSS-botsingen te voorkomen. Klik op **[!UICONTROL Update now]**.
+Adobe raadt u aan de content bij te werken naar de nieuwste versie om problemen zoals CSS-conflicten te voorkomen. Klik op **[!UICONTROL Update now]**.
 
-Als er een fout optreedt tijdens het bijwerken van de inhoud, controleert u de HTML en repareert u deze voordat u deze update opnieuw uitvoert.
+Als er een fout optreedt tijdens het bijwerken van de content, controleert en repareert u de HTML voordat u deze update opnieuw uitvoert.
 
-Wat fragmenten betreft, moet u het volgende opmerken:
+Let bij fragmenten op het volgende:
 
-* Als u een fragment aan een nieuwe e-mail of een malplaatje wilt toevoegen en als u dit bericht krijgt, moet u dit fragment eerst bijwerken.
+* Als u een fragment aan een nieuwe e-mail of sjabloon wilt toevoegen en dit bericht ontvangt, moet u het fragment eerst bijwerken.
 
-* Als u meerdere fragmenten hebt, moet u elk fragment bijwerken dat u in e-mailinhoud wilt gebruiken.
+* Als u meerdere fragmenten hebt, moet u elk fragment bijwerken dat u in e-mailcontent wilt gebruiken.
 
 * U kunt ervoor kiezen om bepaalde fragmenten niet bij te werken om te voorkomen dat dit gevolgen heeft voor de huidige e-mailberichten die nog niet zijn voorbereid.
 
-* U kunt nog steeds e-mailberichten verzenden waarin een fragment dat niet is bijgewerkt, al wordt gebruikt, maar dat fragment kan niet worden bewerkt.
+* U kunt nog steeds e-mailberichten verzenden waarin een fragment wordt gebruikt dat nog niet is bijgewerkt, maar dat fragment kan niet worden bewerkt.
 
 * Het bijwerken van fragmenten die worden gebruikt in e-mailberichten die al zijn voorbereid, heeft geen invloed op deze e-mails.
 
-## Beperkingen van e-mailDesigner {#email-designer-limitations}
+## Beperkingen van E-mail Designer {#email-designer-limitations}
 
-* U kunt geen verpersoonlijkingsgebieden in een fragment gebruiken. For more on fragments, see [this section](../../designing/using/using-reusable-content.md#about-fragments).
+* U kunt geen personalisatievelden gebruiken in een fragment. Zie [deze sectie](../../designing/using/using-reusable-content.md#about-fragments)voor meer informatie over fragmenten.
 
 <!--* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).-->
 
-* Bij het bewerken van stijlen zijn alleen weblettertypen beschikbaar die officieel door de meeste e-mailclients worden ondersteund.
-* Stijlen kunnen niet worden opgeslagen als thema voor toekomstig hergebruik. De CSS-stijl kan echter worden opgeslagen in een inhoudssjabloon of in een e-mail. For more on styles, see [this section](../../designing/using/styles.md).
+* Bij het bewerken van stijlen zijn alleen weblettertypen beschikbaar die door de meeste e-mailclients officieel worden ondersteund.
+* Stijlen kunnen niet worden opgeslagen als thema voor toekomstig hergebruik. De CSS-stijl kan echter worden opgeslagen in een contentsjabloon of in een e-mail. Zie [deze sectie](../../designing/using/styles.md)voor meer informatie over stijlen.
 * De meta-tag Referrer wordt niet ondersteund in de e-mailontwerper.
 * Surrogaatparen, tekens die niet in het meertalig basisvlak van de Unicode-tekenset staan, kunnen niet in 2 bytes (16 bits) worden opgeslagen en moeten in 2 UTF-16-tekens worden gecodeerd. Deze tekens zijn enkele CJK-ideografieën, de meeste emojis en sommige talen.<br>Deze tekens kunnen onverenigbaarheidsproblemen veroorzaken in dynamische tekst. U moet sterke tests uitvoeren alvorens uw berichten te verzenden.
 
