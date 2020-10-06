@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 73%
+ht-degree: 97%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 73%
 
 ## Nieuwe functies
 
-* **[Controlegroepen](sending/using/control-group.md)**<br/>Meet het effect van uw campagnes door een deel van hun publiek uit te sluiten
+* **[Controlegroepen](sending/using/control-group.md)**<br/>De invloed van uw campagnes meten door een deel van hun doelgroep uit te sluiten
 
-* **[E-mails](sending/using/predictive.md)**<br/>met AI optimaliseren Ontwerp en levering met e-mails met AI-mogelijkheden
+* **[E-mails met AI-mogelijkheden](sending/using/predictive.md)**<br/>Ontwerp en levering optimaliseren met e-mails met AI-mogelijkheden
 
-* **[Privacybeheer](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
+* **[Privacybeheer](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html)**<br/>
 
 Ontdek meer over de tools die Adobe Campaign biedt om u te helpen aan privacyvereisten te voldoen
 
-* **[Externe API](automating/using/external-api.md)**<br/>Gebruik de externe API-activiteit om gegevens van een extern systeem over te brengen naar de werkstroom
+* **[Externe API](automating/using/external-api.md)**<br/>De activiteit Externe API gebruiken om data van een extern systeem over te brengen naar de workflow
 
-* **[Ga aan de slag met mobiele leveringen](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/> Meer informatie over algemene richtlijnen voor mobiele leveringen (SMS, Push, In-App)
+* **[Aan de slag met mobiele leveringen](https://helpx.adobe.com/nl/campaign/kb/acs-mobile.html)**<br/> Meer informatie over algemene richtlijnen voor mobiele leveringen (sms, pushmeldingen, in-app)
 
 [Klik hier voor meer updates](rn/using/documentation-updates.md)
 
@@ -54,12 +54,12 @@ Ontdek meer over de tools die Adobe Campaign biedt om u te helpen aan privacyver
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>Een e-mail ontwerpen</strong></a>
     </div>
-    <em>Ontdek hoe u responsieve en gepersonaliseerde e-mails maakt met de Email Designer</em>
+    <em>Ontdek hoe u responsieve en gepersonaliseerde e-mails maakt met Email Designer</em>
     <br>
   </td>
   <td valign="top">
        <img alt="Ondersteuning" src="start/using/assets/do-not-localize/help.jpeg" />
-    <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
+    <div><a href="https://helpx.adobe.com/nl/campaign/kb/ac-support.html">
     <strong>Ondersteuning krijgen</strong></a>
     </div>
     <p><em>Krijg toegang tot veelgestelde vragen, best practices en Help-resources en neem contact op met de experts</em></p>
@@ -74,7 +74,7 @@ Ontdek meer over de tools die Adobe Campaign biedt om u te helpen aan privacyver
 |---|---|
 | [Release-opmerkingen](rn/using/release-notes.md) | [Experience Cloud-triggers](integrating/using/about-adobe-experience-cloud-triggers.md) |
 | [Configuratiescherm-documentatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/control-panel-home.html) | [Campaign-API&#39;s](api/using/get-started-apis.md) |
-| [Implementatiehandleiding](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) | [Lijst met foutberichten](https://docs.adobe.com/content/help/nl/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [Implementatiehandleiding](https://helpx.adobe.com/nl/campaign/kb/campaign-standard-implementation-guide.html) | [Lijst met foutberichten](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Releaseplanning](rn/using/release-planning.md) | [Campaign-datamodel](developing/using/datamodel-introduction.md) |
 | [Verouderde en verwijderde functies](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/deprecated-features.html) | [Handleiding voor meerdere oplossingen](integrating/using/get-started-campaign-integrations.md) |
-| [Aan de slag met Campaign Standard](start/using/about-campaign-standard.md) | [Technische opmerkingen](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
+| [Aan de slag met Campaign Standard](start/using/about-campaign-standard.md) | [Technische opmerkingen](https://helpx.adobe.com/nl/campaign/kb/acs-article-list.html) |
