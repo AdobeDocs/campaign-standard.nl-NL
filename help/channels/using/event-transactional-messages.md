@@ -13,10 +13,10 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '2492'
-ht-degree: 93%
+source-wordcount: '2480'
+ht-degree: 89%
 
 ---
 
@@ -52,7 +52,9 @@ Om tot het transactiebericht toegang te hebben dat u creeerde:
 
 ## Een transactiebericht aanpassen {#personalizing-a-transactional-message}
 
-Volg onderstaande stappen om een transactiebericht te personaliseren:
+In dit voorbeeld leert u hoe u een transactiemelding kunt personaliseren door drie velden toe te voegen die u hebt gedefinieerd toen u de gebeurtenis [](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)maakte: voornaam, laatst geraadpleegd product, totaal aantal karretjes.
+
+To do this, you will [insert a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) in the message content.
 
 1. Klik op het blok **[!UICONTROL Content]** om het onderwerp en de content van uw bericht te wijzigen. In dit voorbeeld selecteert u een sjabloon met afbeeldingen en tekst. Zie [Ontwerpen met sjablonen](../../designing/using/using-reusable-content.md#designing-templates) voor meer informatie over sjablonen voor e-mailcontent.
 
@@ -64,9 +66,7 @@ Volg onderstaande stappen om een transactiebericht te personaliseren:
    >
    >De koppeling naar de verlaten winkelwagen is een koppeling naar een externe URL die de persoon doorstuurt naar zijn/haar winkelwagen. Deze parameter wordt niet beheerd in Adobe Campaign.
 
-1. In dit voorbeeld wilt u drie velden toevoegen die u hebt gedefinieerd toen u [de gebeurtenis maakte](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message): voornaam, laatst geraadpleegde product, het totale bedrag in de winkelwagen. Neem hiervoor [een personalisatieveld](../../designing/using/personalization.md#inserting-a-personalization-field) op in de berichtcontent.
-
-1. Blader naar deze velden via **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. Blader door **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** om de personalisatievelden op te halen: voornaam, laatst geraadpleegd product, totaal aantal karretjes.
 
    ![](assets/message-center_7.png)
 
@@ -90,19 +90,17 @@ Volg onderstaande stappen om een transactiebericht te personaliseren:
 
 U kunt productvermeldingen maken die verwijzen naar een of meer dataverzamelingen in de content van een transactie-e-mail. Zo kunt u in een e-mailbericht over een achtergelaten winkelwagen een lijst opnemen met alle producten die zich in de winkelwagens bevonden toen de website werd afgesloten, met een afbeelding, de prijs en een koppeling naar elk product.
 
+Meer informatie vindt u in [deze video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html).
+
 >[!IMPORTANT]
 >
 >Productvermeldingen zijn alleen beschikbaar wanneer u transactie-e-mails bewerkt via de interface van [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
-
-Volg de onderstaande stappen om een lijst met achtergelaten producten toe te voegen aan een transactiebericht.
-
-U kunt ook een aantal video&#39;s bekijken waarin de stappen worden uitgelegd voor het configureren van productvermeldingen in een transactie-e-mail. Ga voor meer informatie naar [deze pagina](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html).
-
->[!NOTE]
 >
 >Adobe Campaign biedt geen ondersteuning voor geneste productvermeldingen. Dit betekent dat u geen productvermeldingen in een andere vermelding kunt opnemen.
 
-### Een productvermelding definiëren {#defining-a-product-listing}
+In het onderstaande voorbeeld leert u stappen om een lijst met verlaten producten toe te voegen in een transactiebericht.
+
+### Stap 1: Een productlijst definiëren {#defining-a-product-listing}
 
 Voordat u een productvermelding in een transactiebericht kunt gebruiken, moet u op gebeurtenisniveau de lijst met producten en de velden definiëren voor elk weer te geven product van de lijst. Ga voor meer informatie naar [Dataverzamelingen definiëren](../../administration/using/configuring-transactional-messaging.md#defining-data-collections).
 
@@ -144,7 +142,7 @@ Voordat u een productvermelding in een transactiebericht kunt gebruiken, moet u 
    >
    >Als u wilt dat de elementen van de lijst verticaal (**[!UICONTROL Column]**) worden weergegeven, dan wordt het maximumaantal items beperkt volgens de geselecteerde structuurcomponent (2, 3 of 4 kolommen). Zie [De e-mailstructuur bewerken](../../designing/using/designing-from-scratch.md#defining-the-email-structure) voor meer informatie over het selecteren van structuurcomponenten.
 
-### De productvermelding invullen {#populating-the-product-listing}
+### Stap 2: De productlijst invullen {#populating-the-product-listing}
 
 Volg onderstaande stappen om een productvermelding van de gebeurtenis die gekoppeld is aan de transactie-e-mail weer te geven.
 
