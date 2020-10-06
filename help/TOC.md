@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '1652'
-ht-degree: 84%
+ht-degree: 98%
 
 ---
 
@@ -112,9 +112,9 @@ ht-degree: 84%
       + [De doelgroep voor direct mail definiëren](channels/using/defining-the-direct-mail-audience.md)
       + [De content voor direct mail definiëren](channels/using/defining-the-direct-mail-content.md)
    + Transactionele berichten {#transactional-messaging}
-      + [Aan de slag met transactiemeldingen](channels/using/getting-started-with-transactional-msg.md)
-      + [Beperkingen voor transactieberichten](channels/using/transactional-messaging-limitations.md)
-      + [Transactieberichten voor gebeurtenissen](channels/using/event-transactional-messages.md)
+      + [Aan de slag met transactionele berichten](channels/using/getting-started-with-transactional-msg.md)
+      + [Beperkingen voor transactionele berichten](channels/using/transactional-messaging-limitations.md)
+      + [Transactionele berichten voor gebeurtenissen](channels/using/event-transactional-messages.md)
       + [Transactionele berichten voor profielen](channels/using/profile-transactional-messages.md)
       + [Transactionele pushmeldingen](channels/using/transactional-push-notifications.md)
       + [Vervolgberichten](channels/using/follow-up-messages.md)
@@ -151,7 +151,7 @@ ht-degree: 84%
       + [De onderwerpregel van een e-mail testen](sending/using/testing-subject-line-email.md)
       + [E-mails met AI-mogelijkheden](sending/using/predictive.md)
       + [E-mailweergave](sending/using/email-rendering.md)
-      + [Een besturingsgroep toevoegen](sending/using/control-group.md)
+      + [Een controlegroep toevoegen](sending/using/control-group.md)
       + [Traps gebruiken](sending/using/using-traps.md)
       + [De verzending voorbereiden](sending/using/preparing-the-send.md)
    + Berichten plannen {#scheduling-messages}
@@ -248,13 +248,13 @@ ht-degree: 84%
       + [Gebruiksscenario’s voor triggers bij afbrekingsacties](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign en Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Aan de slag met de integratie van Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-      + [Gegevens beheren tussen Campagne en Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+      + [Data beheren tussen Campagne en Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
       + [Integratie aanvragen](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
       + [Adobe I/O configureren](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [De integratie van Dynamics 365 voor Campaign configureren](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [Aangepaste bronnen voor campagne toewijzen en eigen entiteiten voor dynamiek 365](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Aangepaste bronnen van Campaign en aangepaste Dynamics 365-entiteiten toewijzen](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
       + [De integratie van Dynamics 365 gebruiken](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [Integratiegereedschappen](integrating/using/ms-dynamics-365-integration-guardrails.md)
+      + [Integratiebeveiligingen](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + Processen en data beheren {#managing-processes-and-data}
    + [Aan de slag met data- en procesbeheer](automating/using/get-started-workflows.md)
    + Algemene werking van workflows{#workflow-general-operation}
@@ -270,9 +270,9 @@ ht-degree: 84%
       + [Eigenschappen van activiteiten beheren](automating/using/activity-properties.md)
    + Een workflow aanroepen met externe parameters {#calling-workflow-external-parameters}
       + [Overzicht](automating/using/calling-a-workflow-with-external-parameters.md)
-      + [De parameters in de externe signaalactiviteit declareren](automating/using/declaring-parameters-external-signal.md)
-      + [Parameters definiëren wanneer de workflow wordt aangeroepen](automating/using/defining-parameters-calling-workflow.md)
-      + [Gebeurtenisvariabelen controleren](automating/using/monitoring-events-variables.md)
+      + [De parameters in de activiteit Extern signaal declareren](automating/using/declaring-parameters-external-signal.md)
+      + [Parameters definiëren bij het aanroepen van de workflow](automating/using/defining-parameters-calling-workflow.md)
+      + [Gebeurtenisvariabelen bewaken](automating/using/monitoring-events-variables.md)
       + [De workflow aanpassen met externe parameters](automating/using/customizing-workflow-external-parameters.md)
       + [Gebruiksscenario](automating/using/use-case-calling-workflow.md)
    + Targetingactiviteiten {#targeting-activities}
@@ -318,10 +318,10 @@ ht-degree: 84%
       + [Lijst met functies](automating/using/list-of-functions.md)
    + Data importeren en exporteren {#importing-and-exporting-data}
       + [Informatie over data importeren en exporteren](automating/using/about-data-import-and-export.md)
-      + [Beste werkwijzen importeren](automating/using/import-best-practices.md)
+      + [Best practices importeren](automating/using/import-best-practices.md)
       + [Data importeren met importsjablonen](automating/using/importing-data-with-import-templates.md)
-      + [Workflowsjablonen maken om gegevens te importeren](automating/using/creating-import-workflow-templates.md)
-      + [Gecodeerde gegevens beheren](automating/using/managing-encrypted-data.md)
+      + [Workflowsjablonen maken om data te importeren](automating/using/creating-import-workflow-templates.md)
+      + [Versleutelde data beheren](automating/using/managing-encrypted-data.md)
       + [Logboeken exporteren](automating/using/exporting-logs.md)
       + [Pakketten beheren](automating/using/managing-packages.md)
       + [Lijsten exporteren](automating/using/exporting-lists.md)
@@ -333,32 +333,32 @@ ht-degree: 84%
          + [Leveringen maken op de aanmaakdatum van profielen](automating/using/workflow-creation-date-query.md)
          + [Een wekelijkse levering maken](automating/using/workflow-weekly-offer.md)
          + [Een kanaaloverschrijdende levering maken](automating/using/workflow-cross-channel-delivery.md)
-         + [Duplicaten identificeren vóór levering](automating/using/identifying-duplicated-before-delivery.md)
-         + [Geboortedatum](automating/using/birthday-delivery.md)
-         + [Koppeling van e-mail- en direct-mailleveringen](automating/using/coupling-email-direct-mail.md)
-         + [Een e-mail verzenden met verrijkte velden](automating/using/sending-email-enriched-fields.md)
-         + [Een e-mail aanpassen met aanvullende gegevens](automating/using/personalizing-email-with-additional-data.md)
+         + [Duplicaten identificeren vóór een levering](automating/using/identifying-duplicated-before-delivery.md)
+         + [Verjaardagslevering](automating/using/birthday-delivery.md)
+         + [Leveringen van e-mail en direct mail koppelen](automating/using/coupling-email-direct-mail.md)
+         + [Een e-mail met verrijkte velden verzenden](automating/using/sending-email-enriched-fields.md)
+         + [Een e-mail personaliseren met aanvullende data](automating/using/personalizing-email-with-additional-data.md)
          + [Een terugkerende pushmelding verzenden](automating/using/recurring-push-notifications.md)
-      + Segmentering en doelgerichtheid {#segmentation-targeting}
-         + [Voorbeelden van query&#39;s](automating/using/query-samples.md)
-         + [Unie op twee verfijnde doelgroepen](automating/using/union-on-two-refined-audiences.md)
+      + Segmentering en targeting {#segmentation-targeting}
+         + [Voorbeelden van query’s](automating/using/query-samples.md)
+         + [Samenvoeging op twee verfijnde doelgroepen](automating/using/union-on-two-refined-audiences.md)
          + [Een segmentatie op locatie maken](automating/using/workflow-segmentation-location.md)
          + [Personen die een bericht niet openen doelgericht opnieuw benaderen](automating/using/workflow-cross-channel-retargeting.md)
          + [Incrementele query op abonnees van een service](automating/using/incremental-query-on-subscribers.md)
          + [Segmentering volgens leeftijdsgroepen](automating/using/segmentation-age-groups.md)
          + [Bronnen gebruiken die niet gelijk zijn aan targetingdimensies](automating/using/using-resources-different-from-targeting-dimensions.md)
       + Data management {#data-management}
-         + [Een bestandspubliek in overeenstemming brengen met de database](automating/using/reconcile-file-audience-with-database.md)
-         + [De gegevens uit een geïmporteerd bestand dedupliceren](automating/using/deduplicating-data-imported-file.md)
-         + [Profielgegevens verrijken met gegevens in een bestand](automating/using/enriching-profile-data-file.md)
-         + [Externe signaalactiviteit en gegevensinvoer](automating/using/external-signal-data-import.md)
-         + [De database bijwerken met externe gegevens](automating/using/update-database-file.md)
-         + [Gegevens bijwerken op basis van een automatische bestandsdownload](automating/using/update-data-automatic-download.md)
-         + [Afstemming van gegevens met behulp van relaties](automating/using/reconciliation-using-relations.md)
-         + [Gegevensupdate met afstemming](automating/using/data-update-reconciliation.md)
-         + [Profielen exporteren in een extern bestand](automating/using/exporting-profiles-in-file.md)
-         + [Meerdere abonnementstatussen bijwerken vanuit een bestand](automating/using/updating-subscriptions-from-file.md)
-         + [Profielen vanuit een bestand abonneren op een specifieke service](automating/using/subscribing-profiles-from-file.md)
+         + [Een doelgroep Bestand afstemmen op de database](automating/using/reconcile-file-audience-with-database.md)
+         + [De data uit een geïmporteerd bestand dedupliceren](automating/using/deduplicating-data-imported-file.md)
+         + [Profieldata verrijken met data in een bestand](automating/using/enriching-profile-data-file.md)
+         + [Externe signaalactiviteit en dataimport](automating/using/external-signal-data-import.md)
+         + [De database bijwerken met externe data](automating/using/update-database-file.md)
+         + [Data bijwerken op basis van een automatische bestandsdownload](automating/using/update-data-automatic-download.md)
+         + [Afstemming van data met behulp van relaties](automating/using/reconciliation-using-relations.md)
+         + [Data-update met afstemming](automating/using/data-update-reconciliation.md)
+         + [Profielen exporteren naar een extern bestand](automating/using/exporting-profiles-in-file.md)
+         + [Meerdere lidmaatschapsstatussen bijwerken vanuit een bestand](automating/using/updating-subscriptions-from-file.md)
+         + [Profielen vanuit een bestand aanmelden voor een specifieke service](automating/using/subscribing-profiles-from-file.md)
    + Werken met Adobe Experience Platform-doelgroepen {#working-with-aep-audiences}
       + [Adobe Experience Platform-doelgroepen doelgericht benaderen](automating/using/aep-targeting-audiences.md)
       + [Campagnes aanpassen met behulp van Adobe Experience Platform-kenmerken](automating/using/aep-personalizing-campaigns.md)
@@ -409,7 +409,7 @@ ht-degree: 84%
       + [Data-opname via API&#39;s activeren](developing/using/aep-triggering-data-ingestion.md)
 + Beheer {#administrating}
    + [Aan de slag met Campaign Standard-beheer](administration/using/get-started-campaign-administration.md)
-   + [Monitoringrichtsnoeren](administration/using/monitoring-guidelines.md)
+   + [Bewakingsrichtlijnen](administration/using/monitoring-guidelines.md)
    + [Configuratierichtlijnen](administration/using/about-configuration-guidelines.md)
    + Gebruikers en beveiliging {#users-and-security}
       + [Toegangsbeheer](administration/using/about-access-management.md)
@@ -427,12 +427,12 @@ ht-degree: 84%
       + [Transactionele berichten configureren](administration/using/configuring-transactional-messaging.md)
    + Mobiele kanalen configureren {#configuring-mobile}
       + [Pushtracking implementeren](administration/using/push-tracking.md)
-      + [Afbeeldingen en video&#39;s toevoegen iOS](administration/using/image-push-notification.md)
-      + [De payloadstructuur voor pushberichten begrijpen](administration/using/push-payload.md)
+      + [Afbeeldingen en video’s toevoegen in iOS](administration/using/image-push-notification.md)
+      + [De payloadstructuur voor pushmeldingen begrijpen](administration/using/push-payload.md)
       + [Lokale notificatietracking implementeren](administration/using/local-tracking.md)
-      + [Veelgestelde vragen over synchroniseren Adobe starten](administration/using/syncwithlaunch-faq.md)
-      + [Veelgestelde vragen over integratie van Experience Platform SDK](administration/using/aep-faq.md)
-      + [Regels voor starten configureren om Adobe Campaign Standard-gebruiksproblemen te ondersteunen](administration/using/configuring-rules-launch.md)
+      + [Veelgestelde vragen over de synchronisatie van Adobe Launch](administration/using/syncwithlaunch-faq.md)
+      + [Veelgestelde vragen over de integratie van Experience Platform SDK](administration/using/aep-faq.md)
+      + [Launch-regels configureren voor ondersteuning van Adobe Campaign Standard-gebruiksscenario’s](administration/using/configuring-rules-launch.md)
       + [Mobiele gebruiksscenario’s die worden ondersteund in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
    + Applicatie-instellingen {#application-settings}
       + [Informatie over Campaign Standard-instellingen](administration/using/about-campaign-standard-settings.md)
@@ -446,7 +446,7 @@ ht-degree: 84%
 + Werken met API&#39;s {#working-with-apis}
    + [Aan de slag met Campaign Standard-API&#39;s](api/using/get-started-apis.md)
    + Informatie over Campaign Standard-API&#39;s{#about-campaign-standard-apis}
-      + [Waarom Campaign Standard API&#39;s gebruiken](api/using/why-using-campaign-standard-apis.md)
+      + [Het nut van Campaign Standard-API’s](api/using/why-using-campaign-standard-apis.md)
       + [API-toegang instellen](api/using/setting-up-api-access.md)
    + Algemene concepten {#global-concepts}
       + [Verplichte lectuur](api/using/must-read.md)
