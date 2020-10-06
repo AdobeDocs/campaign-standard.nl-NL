@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 96%
@@ -25,11 +25,11 @@ ht-degree: 96%
 
 Het maken van een direct-maillevering lijkt veel op het maken van een gewone e-mail. In de volgende stappen wordt de configuratie beschreven die specifiek is voor dit kanaal. Zie [Een e-mail maken](../../channels/using/creating-an-email.md) voor meer informatie over andere opties.
 
-1. Maak een nieuwe direct-maillevering. U kunt deze maken op de [startpagina](../../start/using/interface-description.md#home-page) van Adobe Campaign, in een [campagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) of in een [lijst met marketingactiviteiten](../../start/using/programs-and-campaigns.md#creating-a-campaign).
+>[!NOTE]
+>
+>U kunt ook direct-mailactiviteiten toevoegen aan een workflow. Raadpleeg de handleiding [Workflows](../../automating/using/direct-mail-delivery.md) voor meer informatie.
 
-   >[!NOTE]
-   >
-   >U kunt ook direct-mailactiviteiten toevoegen aan een workflow. Raadpleeg de handleiding [Workflows](../../automating/using/direct-mail-delivery.md) voor meer informatie.
+1. Maak een nieuwe direct-maillevering. U kunt deze maken op de [startpagina](../../start/using/interface-description.md#home-page) van Adobe Campaign, in een [campagne](../../start/using/marketing-activities.md#creating-a-marketing-activity) of in een [lijst met marketingactiviteiten](../../start/using/programs-and-campaigns.md#creating-a-campaign).
 
    ![](assets/direct_mail_1.png)
 
