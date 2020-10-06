@@ -31,7 +31,7 @@ Met Adobe Campaign kunt u de machtigingen definiëren en beheren die aan verschi
 
 >[!IMPORTANT]
 >
->Merk op dat de ondersteuning voor geografische eenheden is afgeschaft. Raadpleeg [deze pagina](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) voor meer informatie.
+>Merk op dat de ondersteuning voor geografische eenheden is afgeschaft. Raadpleeg [deze pagina](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/deprecated-features.html) voor meer informatie.
 
 Rollen, groepen en organisatorische eenheden kunnen worden beheerd door de functionele beheerder van het platform, onder het menu **[!UICONTROL Administration > Users & Security]**.
 
