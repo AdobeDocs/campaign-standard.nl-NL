@@ -13,10 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1494'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -116,11 +116,7 @@ Als u een vervaldatum instelt voor uw pushmelding, stelt u een specifieke datum 
 
 Een vervaldatum toevoegen aan uw pushmelding:
 
-1. Schakel de optie **[!UICONTROL Expire message]** in.
-
-   >[!NOTE]
-   >
-   >Als u de optie **[!UICONTROL Expire message]** selecteert, wordt de duur automatisch ingesteld op 0. Als u de waarde niet wijzigt, proberen zowel APNS als FCM het bericht onmiddellijk te verzenden. Als het mislukt, wordt het bericht niet opnieuw verzonden.
+1. Check the **[!UICONTROL Expire message]** option: by selecting the **[!UICONTROL Expire message]** option, the duration is automatically set to 0. Als u de waarde niet wijzigt, proberen zowel APNS als FCM het bericht onmiddellijk te verzenden. Als het mislukt, wordt het bericht niet opnieuw verzonden.
 
 1. Selecteer in het veld **[!UICONTROL Duration]** de geldigheid van uw pushmelding.
 
@@ -191,4 +187,3 @@ Voor Android kunt u de URL van uw bestand invoeren in het veld **Rich media cont
 Met het selectievakje **[!UICONTROL High priority]** kunt u een hoge of normale prioriteit instellen voor uw pushmeldingen. Zie de [Google Developer-documentatie](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message) voor meer informatie over de prioriteit van berichten.
 
 ![](assets/push_notif_advanced_11.png)
-
