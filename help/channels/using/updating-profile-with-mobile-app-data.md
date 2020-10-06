@@ -1,5 +1,5 @@
 ---
-title: Profielgegevens maken en bijwerken op basis van gegevens van mobiele toepassingen
+title: Profieldata maken en bijwerken op basis van data van mobiele applicaties
 description: Leer hoe u profielgegevens maakt en bijwerkt op basis van gegevens van mobiele toepassingen.
 page-status-flag: never-activated
 uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
@@ -13,29 +13,32 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '1010'
+ht-degree: 4%
 
 ---
 
 
-# Profielgegevens maken en bijwerken op basis van gegevens van mobiele toepassingen
+# Profieldata maken en bijwerken op basis van data van mobiele applicaties
 
 ## Overzicht
 
 Op deze pagina worden de stappen beschreven voor het ontwikkelen van een workflow waarmee profielgegevens worden gemaakt/bijgewerkt nadat een mobiele toepassing PII-gegevens verzamelen op een geplande basis verzendt.
 
 * **PII** staat voor &quot;Persoonlijk identificeerbare informatie&quot;. Het kunnen om het even welke gegevens zijn, met inbegrip van informatie die niet in de lijst van het Profiel van uw gegevensbestand van de Campagne zoals, bijvoorbeeld, Analytics voor Mobiele [Punten van Interesse](../../integrating/using/about-campaign-points-of-interest-data-integration.md)verschijnt. PII wordt bepaald door de Mobiele Ontwikkelaar van de App, gewoonlijk met een Marketer.
-* **PII** verzamelen is een HTTP-POST-bewerking naar een rest-API in Adobe Campaign Standard van een mobiele app.
+* **PII** verzamelen is een HTTP-POST-bewerking naar een Rest-API in Adobe Campaign Standard vanuit een Mobile-app.
 
-Het doel van dit gebruiksgeval is om een profiel van de Norm van de Campagne tot stand te brengen of bij te werken, als de PII gegevens die door een Mobiele Toepassing worden teruggekeerd op profiel betrekking hebbende gegevens bevatten.
+Het doel van dit gebruiksgeval is het maken of bijwerken van een Campaign Standard-profiel als de PII-gegevens die door een mobiele toepassing worden geretourneerd, profielgerelateerde gegevens bevatten.
 
 ## Vereisten
 
-Er zijn verschillende configuratiestappen om pushmeldingen in te schakelen in Campagnestandaard voordat Profielen kunnen worden gemaakt of bijgewerkt op basis van de abonnementsgegevens voor de mobiele app:
+Er zijn verschillende configuratiestappen om pushmeldingen in te schakelen in Campaign Standard, voordat Profielen kunnen worden gemaakt of bijgewerkt op basis van de abonnementsgegevens voor de mobiele app:
 
 1. [Een mobiele toepassing maken](../../administration/using/configuring-a-mobile-application.md)
-1. [Integreer de Adobe Mobile SDK met uw mobiele toepassing](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html).
-1. [Configureer Adobe Campaign om pushmeldingen](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)te verzenden.
+1. [Integreer de Adobe Mobile SDK met uw mobiele toepassing](https://helpx.adobe.com/nl/campaign/kb/integrate-mobile-sdk.html).
+1. [Configureer Adobe Campaign om pushmeldingen](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html)te verzenden.
 
 ## Stap 1 - breid het middel van het Profiel voor de Berichten/Abonnementen van de Duw uit
 
@@ -55,12 +58,12 @@ De toewijzing voor de Gegevens van het Profiel terwijl het uitbreiden van het **
 
 **Verwante onderwerpen:**
 
-* [Het uitbreiden van de abonnementen tot een toepassingsmiddel](../../developing/using/extending-the-subscriptions-to-an-application-resource.md).
+* [De abonnementen uitbreiden naar een applicatieresource](../../developing/using/extending-the-subscriptions-to-an-application-resource.md).
 * [Een bestaande bron](../../developing/using/key-steps-to-add-a-resource.md)maken of uitbreiden.
 
 ## Stap 2 - De workflow maken
 
-Met behulp van een workflow in Campagnestandaard kan een beheerder gegevens op unieke wijze identificeren en synchroniseren tussen de AppSubscription-gegevens (Subscriber) en de Profile- of Recipient-gegevens. Hoewel een op werkstroom-gebaseerde update profielgegevens niet in echt - tijd synchroniseert, zou het geen onnodige gegevensbestandsloten of overheadkosten moeten veroorzaken.
+Met behulp van een workflow in Campaign Standard kan een beheerder gegevens op unieke wijze identificeren en synchroniseren tussen de AppSubscription-gegevens (Subscriber) en de Profile- of Recipient-gegevens. Hoewel een op werkstroom-gebaseerde update profielgegevens niet in echt - tijd synchroniseert, zou het geen onnodige gegevensbestandsloten of overheadkosten moeten veroorzaken.
 
 De belangrijkste stappen voor het samenstellen van de workflow zijn:
 
@@ -76,56 +79,60 @@ In deze workflow wordt uitgegaan van de volgende vereisten:
 * Om het even welk gebied van de lijst AppSubscription die leeg is zou niet in de Lijst van het Profiel moeten worden bijgewerkt.
 * Om het even welk verslag dat in de lijst AppSubscription is bijgewerkt zou in de volgende looppas van het Werkschema moeten worden omvat.
 
-Volg onderstaande stappen om de workflow te maken:
+U bouwt de workflow door de volgende activiteiten naar de werkruimte te slepen en ze aan elkaar te koppelen: **[!UICONTROL Start]**, **[!UICONTROL Scheduler]**, **[!UICONTROL Incremental query]**, **[!UICONTROL Update data]**.
 
-1. Sleep de volgende activiteiten naar de werkruimte en koppel ze aan elkaar:
-   1. **[!UICONTROL Start]**
-   1. **[!UICONTROL Scheduler]**
-   1. **[!UICONTROL Incremental query]**
-   1. **[!UICONTROL Update data]**
-   ![](assets/update_profile0.png)
+![](assets/update_profile0.png)
 
-1. Configureer de **[!UICONTROL Scheduler]** activiteit. In het **[!UICONTROL General]** lusje, plaats **[!UICONTROL Execution frequency]** (bijvoorbeeld, &quot;Dagelijks&quot;), **[!UICONTROL Time]** (bijvoorbeeld, &quot;1:00:00 AM&quot;), en **[!UICONTROL Start]** (bijvoorbeeld, de datum van vandaag).
+Voer vervolgens de onderstaande stappen uit om elke activiteit te configureren.
 
-   ![](assets/update_profile2.png)
+### De **[!UICONTROL Scheduler]** activiteit configureren
 
-1. Configureer de **[!UICONTROL Incremental query]** activiteit.
-   1. Klik op het **[!UICONTROL Properties]** tabblad op het **[!UICONTROL Select an element]** pictogram van het **[!UICONTROL Resource]** veld en selecteer vervolgens het **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** element.
+In het **[!UICONTROL General]** lusje, plaats **[!UICONTROL Execution frequency]** (bijvoorbeeld, &quot;Dagelijks&quot;), **[!UICONTROL Time]** (bijvoorbeeld, &quot;1:00:00 AM&quot;), en **[!UICONTROL Start]** (bijvoorbeeld, de datum van vandaag).
 
-      ![](assets/update_profile3.png)
+![](assets/update_profile2.png)
 
-   1. Sleep op het **[!UICONTROL Target]** tabblad het **[!UICONTROL Mobile application]** filter en selecteer vervolgens de naam van een mobiele toepassing.
+### Configureer de **[!UICONTROL Incremental query]** activiteit.
 
-      ![](assets/update_profile4.png)
+1. Klik op het **[!UICONTROL Properties]** tabblad op het **[!UICONTROL Select an element]** pictogram van het **[!UICONTROL Resource]** veld en selecteer vervolgens het **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** element.
 
-   1. Selecteer op het **[!UICONTROL Processed data]** tabblad de optie **[!UICONTROL Use a date field]** en voeg het **[!UICONTROL Last modified (lastModified)]** veld toe als **[!UICONTROL Path to the date field]**.
+   ![](assets/update_profile3.png)
 
-      ![](assets/update_profile5.png)
+1. Sleep op het **[!UICONTROL Target]** tabblad het **[!UICONTROL Mobile application]** filter en selecteer vervolgens de naam van een mobiele toepassing.
 
-1. Configureer de **[!UICONTROL Update data]** activiteit.
-   1. Controleer op het **[!UICONTROL Identification]** tabblad of het **[!UICONTROL Dimension to update]** veld is ingesteld op Profielen (profiel) en klik vervolgens op de **[!UICONTROL Create element]** knop om een veld toe te voegen als afstemmingscriteria.
+   ![](assets/update_profile4.png)
 
-      ![](assets/update_profile_createelement.png)
+1. Selecteer op het **[!UICONTROL Processed data]** tabblad de optie **[!UICONTROL Use a date field]** en voeg het **[!UICONTROL Last modified (lastModified)]** veld toe als **[!UICONTROL Path to the date field]**.
 
-   1. Selecteer in het **[!UICONTROL Source]** veld een veld in de tabel appSubscriptRcp als een afstemmingsveld. Dit kan de e-mail, crmId, marketingCloudId van het profiel enzovoort zijn. In dit voorbeeld gebruiken we het veld E-mail (cusEmail).
-   1. Selecteer in het **[!UICONTROL Destination]** veld een veld in de profielentabel om de gegevens in de tabel appSubscriptionRcp met elkaar in overeenstemming te brengen. Dit kan de e-mail van het profiel zijn of een uitgebreid veld zoals crmId, marketingCloudId, enz. In dit voorbeeld moeten we het veld E-mail (e-mail) selecteren om het toe te wijzen met het veld E-mail (cusEmail) in de tabel appSubscriptionRcp.
+   ![](assets/update_profile5.png)
 
-      ![](assets/update_profile7.png)
+### Configureer de **[!UICONTROL Update data]** activiteit.
 
-   1. Klik op het **[!UICONTROL Fields to update]** tabblad op de **[!UICONTROL Create element]** knop en wijs vervolgens de velden uit de tabel appSubscriptionRcp (**[!UICONTROL Source]** veld) toe aan de velden die u wilt bijwerken in de tabel Profiel (**[!UICONTROL Destination]** veld).
-   1. Voeg in het **[!UICONTROL Enabled if]** veld een expressie toe om ervoor te zorgen dat het corresponderende veld in de tabel Profiel alleen wordt bijgewerkt als het bronveld een waarde bevat. U doet dit door het veld in de lijst te selecteren en vervolgens het veld &quot;!=&#39;&#39; uitdrukking (als het Brongebied `[target/@cusEmail]` in de redacteur van de Uitdrukking is zeker om te typen `[target/@cusEmail] != ''"`).
+1. Controleer op het **[!UICONTROL Identification]** tabblad of het **[!UICONTROL Dimension to update]** veld is ingesteld op Profielen (profiel) en klik vervolgens op de **[!UICONTROL Create element]** knop om een veld toe te voegen als afstemmingscriteria.
 
-      ![](assets/update_profile8.png)
+   ![](assets/update_profile_createelement.png)
 
-      >[!NOTE]
-      >
-      >In dit geval, voert het Werkschema UPSERT uit maar aangezien het op een Incrementele gegevens van de Vraag gebaseerd is slechts opgenomen. Het wijzigen van de query kan invloed hebben op welke gegevens worden ingevoegd of bijgewerkt.
-      >Bovendien bepalen de instellingen op het tabblad Velden die moeten worden bijgewerkt welke velden onder specifieke omstandigheden worden ingevoegd of bijgewerkt. Deze instellingen kunnen uniek zijn voor elke toepassing of klant. Wees voorzichtig bij het configureren van deze instellingen, aangezien dit onbedoelde gevolgen kan hebben, aangezien het bijwerken van records in het profiel op basis van appSubscriptionRcp-gegevens de persoonlijke gegevens van gebruikers zonder validatie kan wijzigen.
+1. Selecteer in het **[!UICONTROL Source]** veld een veld in de tabel appSubscriptRcp als een afstemmingsveld. Dit kan de e-mail, crmId, marketingCloudId van het profiel enzovoort zijn. In dit voorbeeld gebruiken we het veld E-mail (cusEmail).
 
-   1. Wanneer alle velden die u wilt invoegen/bijwerken in profiel zijn toegevoegd, klikt u op **[!UICONTROL Confirm]**.
+1. Selecteer in het **[!UICONTROL Destination]** veld een veld in de profielentabel om de gegevens in de tabel appSubscriptionRcp met elkaar in overeenstemming te brengen. Dit kan de e-mail van het profiel zijn of een uitgebreid veld zoals crmId, marketingCloudId, enz. In dit voorbeeld moeten we het veld E-mail (e-mail) selecteren om het toe te wijzen met het veld E-mail (cusEmail) in de tabel appSubscriptionRcp.
 
-      ![](assets/update_profile9.png)
+   ![](assets/update_profile7.png)
 
-1. Sla de workflow op en klik vervolgens op Start om het workflowproces te starten.
+1. Klik op het **[!UICONTROL Fields to update]** tabblad op de **[!UICONTROL Create element]** knop en wijs vervolgens de velden uit de tabel appSubscriptionRcp (**[!UICONTROL Source]** veld) toe aan de velden die u wilt bijwerken in de tabel Profiel (**[!UICONTROL Destination]** veld).
 
-   ![](assets/update_profile10.png)
+1. Voeg in het **[!UICONTROL Enabled if]** veld een expressie toe om ervoor te zorgen dat het corresponderende veld in de tabel Profiel alleen wordt bijgewerkt als het bronveld een waarde bevat. Hiervoor selecteert u het veld in de lijst en voegt u vervolgens het veld &quot;!=&#39;&#39; uitdrukking (als het Brongebied `[target/@cusEmail]` in de redacteur van de Uitdrukking is zeker om te typen `[target/@cusEmail] != ''"`).
+
+   ![](assets/update_profile8.png)
+
+>[!NOTE]
+>
+>In dit geval, voert het Werkschema UPSERT uit maar aangezien het op een **[!UICONTROL Incremental query]** gegeven gebaseerd is wordt slechts opgenomen. Het wijzigen van de query kan invloed hebben op welke gegevens worden ingevoegd of bijgewerkt.
+>Bovendien bepalen de instellingen op het tabblad Velden die moeten worden bijgewerkt welke velden onder specifieke omstandigheden worden ingevoegd of bijgewerkt. Deze instellingen kunnen uniek zijn voor elke toepassing of klant.
+>Wees voorzichtig bij het configureren van deze instellingen, aangezien dit onbedoelde gevolgen kan hebben, aangezien het bijwerken van records in het profiel op basis van appSubscriptionRcp-gegevens de persoonlijke gegevens van gebruikers zonder validatie kan wijzigen.
+
+Wanneer alle velden die u wilt invoegen/bijwerken in profiel zijn toegevoegd, klikt u op **[!UICONTROL Confirm]**.
+
+![](assets/update_profile9.png)
+
+Sla de workflow op en klik vervolgens **[!UICONTROL Start]** om de workflow uit te voeren.
+
+![](assets/update_profile10.png)
