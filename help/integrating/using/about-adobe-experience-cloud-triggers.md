@@ -12,11 +12,11 @@ discoiquuid: e526b205-2d01-4a8b-9685-ba1d9a1f459f
 context-tags: trigger,overview;trigger,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e790f550f6eb84954f199caeda88a8fd90dfd85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ In het volgende diagram wordt beschreven hoe deze integratie werkt.
 
 **Verwante onderwerpen:**
 
-* Meer informatie over de verschillende typen triggers: [Adobe Experience Cloud-documentatie](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html).
+* Meer informatie over de verschillende typen triggers: [Adobe Experience Cloud-documentatie](https://docs.adobe.com/content/help/nl-NL/core-services/interface/activation/triggers.html).
 * Bekijk de video over [triggers voor remarketingberichten op basis van websiteactiviteiten](https://helpx.adobe.com/nl/marketing-cloud/how-to/email-marketing.html#step-two).
 * Verken onze twee [gebruiksscenario&#39;s voor triggers bij afbrekingsacties](../../integrating/using/abandonment-triggers-use-cases.md).
 
@@ -49,9 +49,9 @@ De belangrijkste stappen van het gebruikersproces in Adobe Campaign zijn:
 
 1. Maak een triggergebeurtenis die is gekoppeld aan een bestaande Adobe Experience Cloud-trigger.
 1. Publiceer de triggergebeurtenis.
-1. Definieer de content van de transactieberichtsjabloon.
+1. Definieer de content van de sjabloon voor het transationele bericht.
 1. Test de sjabloon (maak een testprofiel en verstuur een proefversie).
-1. Publiceer de transactieberichtsjabloon.
+1. Publiceer de sjabloon voor het transationele bericht.
 
 Voltooi de gebruiksscenario&#39;s die in [deze sectie](../../integrating/using/abandonment-triggers-use-cases.md) zijn beschreven.
 
