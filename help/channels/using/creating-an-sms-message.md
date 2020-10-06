@@ -12,9 +12,9 @@ discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
 delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 100%
 
@@ -84,4 +84,3 @@ Zodra het verzenden is voltooid, kunt u het effect van uw bericht beginnen meten
 * [Bewerken van content van sms-berichten en pushmeldingen](../../channels/using/about-sms-and-push-content-design.md)
 * [Sjablonen beheren](../../start/using/marketing-activity-templates.md)
 * Video over het [maken van een sms-levering](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/communication-channels/mobile/sms/sms-delivery.translate.html)
-
