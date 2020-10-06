@@ -11,9 +11,9 @@ topic-tags: managing-templates
 discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -41,6 +41,7 @@ Voer de volgende stappen uit om een sms- of e-mailsjabloon te maken:
    >U kunt ook een bestaande standaardsjabloon in een meertalige sjabloon wijzigen door op de knop **[!UICONTROL Initialize content variant]** in de sjablooneigenschappen te klikken.
 
 1. Wijzig de eigenschappen om label, tracking, enzovoort aan te passen.
+
 1. Wijzig het aantal gewenste varianten door op de tegel Varianten te klikken. Het venster Varianten wordt weergegeven.
 
    ![](assets/multi_template_variants.png)
@@ -54,6 +55,7 @@ Voer de volgende stappen uit om een sms- of e-mailsjabloon te maken:
    >Verwijder niet de variant ‘standaard’. Dit is namelijk de variant die wordt verzonden naar profielen waarvoor geen voorkeurstaalparameter is opgegeven.
 
 1. Pas indien nodig de labelvariant aan en klik op **[!UICONTROL Confirm]**.
+
 1. U kunt de content voor elke variant ook rechtstreeks toevoegen.
 
 U kunt nu een e-mail of een sms-bericht maken op basis van deze meertalige sjabloon.
