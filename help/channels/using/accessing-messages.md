@@ -13,7 +13,10 @@ context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +28,7 @@ U kunt tot een reeks geavanceerde functionaliteit, van het richten, het creëren
 Berichten zijn toegankelijk:
 
 * binnen een campagne
-* van de Adobe Campagne-startpagina
+* van de Adobe Campaign-startpagina
 * van de lijst van marketingactiviteiten
 
 ## Berichten openen in campagnes {#accessing-messages-in-campaigns}
@@ -70,4 +73,3 @@ De status van een bericht wordt weergegeven door een specifieke kleur in de lijs
    >[!NOTE]
    >
    >Een gele berichtbanner kan boven de kaart verschijnen wanneer een actie wordt vereist, bijvoorbeeld wanneer u het verzenden van een bericht moet bevestigen.
-
