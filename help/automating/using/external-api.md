@@ -9,11 +9,11 @@ topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9a8e3087ef6a0cf2f1d68cb145a67af3c05d27ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2269'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -38,33 +38,33 @@ De belangrijkste kenmerken van deze activiteit zijn:
 * Mogelijkheid om een JSON-antwoord terug te krijgen, het toe te wijzen aan uitvoertabellen en stroomafwaarts door te geven aan andere workflowactiviteiten.
 * Het beheer van mislukkingen met een specifieke uitgaande overgang
 
-### Berichten over achterwaartse compatibiliteit {#from-beta-to-ga}
+### Berichten over compatibiliteit met oudere versies {#from-beta-to-ga}
 
-Met de release van Campaign Standard 20.4 zijn de beperking voor de grootte van de http-responsgegevens en de time-outinstructies voor de reactie verkleind om deze af te stemmen op de best practices (zie de sectie &quot;Beperkingen en instructies&quot;). Deze guardrailwijzigingen worden niet van kracht op bestaande externe API-activiteiten; Daarom wordt u aangeraden bestaande externe API-activiteiten in alle workflows te vervangen door nieuwe versies.
+Met de release Campaign Standard 20.4 zijn de groottelimieten voor http-responsdata en de responstime-outbeveiligingen verlaagd in overeenstemming met best practices (zie de sectie Beperkingen en beveiligingen). Deze beveiligingswijzigingen gelden niet voor bestaande Externe API-activiteiten; daarom wordt u aangeraden bestaande Externe API-activiteiten in alle workflows te vervangen door nieuwe versies.
 
-Als u een upgrade uitvoert van Campaign Standard 20.2 (of eerder), moet u er rekening mee houden dat de externe API-functionaliteit in de release Campaign Standard 20.3 is verplaatst van bèta naar algemene beschikbaarheid.
+Als u een upgrade uitvoert van Campaign Standard 20.2 (of eerder), moet u er rekening mee houden dat de Externe API-functionaliteit in de release Campaign Standard 20.3 is verplaatst van bèta naar algemene beschikbaarheid.
 
-Daardoor moet u, als u bèta-activiteiten voor Externe API gebruikte, deze vervangen door GA-activiteiten voor Externe API in alle workflows.  Workflows die de bètaversie van de externe API gebruiken, werken niet vanaf de release Campaign Standard 20.3.
+Als u bèta-activiteiten voor Externe API gebruikte, dient u deze dus te vervangen door GA-activiteiten voor Externe API in alle workflows.  Workflows die de bètaversie van een Externe API gebruiken, werken niet vanaf de release Campaign Standard 20.3.
 
 Wanneer u activiteiten voor Externe API vervangt, voegt u de nieuwe activiteit Externe API toe aan de workflow, kopieert u handmatig de configuratiedetails en verwijdert u vervolgens de oude activiteit.
 
 >[!NOTE]
 >
->U kunt niet kopiëren over activiteitspecifieke koptekstwaarden omdat deze binnen de activiteit gemaskeerd zijn.
+>U kunt niet over activiteitspecifieke koptekstwaarden heen kopiëren omdat deze binnen de activiteit gemaskeerd zijn.
 
 Vervolgens configureert u opnieuw andere activiteiten in de workflow die verwijzen naar en/of gebruik maken van data uit de bèta-activiteit voor Externe API om in plaats daarvan te verwijzen naar en/of gebruik te maken van data uit de nieuwe activiteit Externe API. Voorbeelden van activiteiten: e-maillevering (personalisatievelden), verrijkingsactiviteit, enz.
 
 ### Beperkingen en beveiligingen {#guardrails}
 
-Op deze activiteit zijn de volgende instructies van toepassing:
+Op deze activiteit zijn de volgende beveiligingen van toepassing:
 
-* 5 MB http response data size limit (note: dit is een wijziging ten opzichte van de limiet van 50 MB in de vorige release)
-* De time-out van het verzoek is 1 minuut (opmerking: dit is een wijziging ten opzichte van de time-out van 10 minuten in de vorige release)
+* Groottelimiet van 5 MB voor http-responsdata (opmerking: dit is een wijziging ten opzichte van de limiet van 50 MB in de vorige release)
+* De time-out van de aanvraag is 1 minuut (opmerking: dit is een wijziging ten opzichte van de time-out van 10 minuten in de vorige release)
 * HTTP-omleidingen zijn niet toegestaan
 * Niet-HTTPS-URL&#39;s worden geweigerd
 * Aanvraagheader ‘Accept: application/json’ en antwoordheader ‘Content-Type: application/json’ zijn toegestaan
 
-Er zijn specifieke voorzorgsmaatregelen getroffen:
+Er zijn specifieke beveiligingen aangebracht:
 
 * **JSON Max Depth**: Beperk de maximumdiepte van een aangepaste geneste JSON die kan worden verwerkt tot 10 niveaus.
 * **JSON Max Key Length**: Beperk de maximumlengte van de gegenereerde interne sleutel tot 255. Deze sleutel is gekoppeld aan de kolom-id.
@@ -72,7 +72,7 @@ Er zijn specifieke voorzorgsmaatregelen getroffen:
 
 >[!CAUTION]
 >
->De externe API-activiteit is bedoeld voor het ophalen van gegevens voor de hele campagne (laatste reeks aanbiedingen, laatste scores, enz.), niet voor het ophalen van specifieke informatie voor elk profiel, omdat dit kan leiden tot de overdracht van grote hoeveelheden gegevens. Als het gebruiksscenario dit vereist, wordt aangeraden om de activiteit [Transfer File](../../automating/using/transfer-file.md) te gebruiken.
+>Houd er rekening mee dat de activiteit van de Externe API is bedoeld voor het ophalen van data voor de hele campagne (de nieuwste aanbiedingen, meest recente scores, enz.), niet voor het ophalen van specifieke informatie voor elk profiel, omdat dit kan leiden tot de overdracht van grote hoeveelheden data. Als het gebruiksscenario dit vereist, wordt aangeraden om de activiteit [Bestand overdragen](../../automating/using/transfer-file.md) te gebruiken.
 
 ## Configuratie {#configuration}
 
@@ -122,13 +122,13 @@ Als de **parsering wordt gevalideerd**, verschijnt er een bericht waarin u wordt
 
 ### Execution
 
-Op dit tabblad kunt u het eindpunt van de verbinding definiëren. Het **[!UICONTROL URL]** gebied staat u toe om het Eindpunt **te bepalen** HTTPS dat gegevens naar ACS zal verzenden.
+Op dit tabblad kunt u het eindpunt van de verbinding definiëren. Met het veld **[!UICONTROL URL]** kunt u het **HTTPS-eindpunt** definiëren waarmee data naar ACS worden verzonden.
 
-Indien nodig door het eindpunt, zijn twee types van authentificatiemethode beschikbaar:
+Er zijn twee soorten verificatiemethoden beschikbaar, mits vereist door het eindpunt:
 
-* Standaardverificatie: Voer in het **[!UICONTROL Request Header(s)]** veld uw gebruikersnaam-/wachtwoordgegevens in.
+* Basisverificatie: voer in het veld **[!UICONTROL Request Header(s)]** uw gebruikersnaam en wachtwoord in.
 
-* OAuth-verificatie: Als u op de knop klikt, **[!UICONTROL Use connection parameters defined in an external account]** kunt u een externe account selecteren waarin de OAuth-verificatie is gedefinieerd. For more information, refer to the [External accounts](../../administration/using/external-accounts.md) section.
+* OAuth-verificatie: als u op de knop **[!UICONTROL Use connection parameters defined in an external account]** klikt, kunt u een extern account selecteren waarin de OAuth-verificatie is gedefinieerd. Raadpleeg de sectie [Externe accounts](../../administration/using/external-accounts.md) voor meer informatie.
 
 ![](assets/externalAPI-execution.png)
 
@@ -184,32 +184,32 @@ Deze logboekberichten worden gebruikt om informatie over nuttige controlepunten 
    <td> <p>Invoking API URL 'https://example.com/api/v1/web-coupon?count=2'.</p></td> 
   </tr> 
   <tr> 
-   <td> API-URL '%s' wordt opnieuw uitgevoerd vanwege %s in %d ms, poging %d.</td> 
-   <td> <p>Opnieuw proberen van API URL 'https://example.com/api/v1/web-coupon?count=0' vanwege HTTP - 401 in 2364 ms, poging 2.</p></td>
+   <td> API-URL %s wordt opnieuw uitgevoerd vanwege %s in %d ms, poging %d.</td> 
+   <td> <p>API-URL https://example.com/api/v1/web-coupon?count=0 wordt opnieuw uitgevoerd vanwege HTTP - 401 in 2364 ms, poging 2.</p></td>
   </tr> 
   <tr> 
    <td> Transferring content from '%s' (%s / %s).</td> 
    <td> <p>Transferring content from 'https://example.com/api/v1/web-coupon?count=2' (1234 / 1234).</p></td> 
   </tr>
   <tr> 
-   <td> Via toegangstoken in cache voor provider-id '%s'.</td> 
-   <td> <p>Gebruikend caching toegangstoken voor leverancier identiteitskaart "EXT25". Opmerking:  EXT25 is de id (of naam) van de externe account. </p></td> 
+   <td> Toegangstoken in cache wordt gebruikt voor provider-ID %s.</td> 
+   <td> <p>Toegangstoken in cache wordt gebruikt voor provider-ID EXT25. Opmerking: EXT25 is de ID (of naam) van het externe account. </p></td> 
   </tr>
   <tr> 
-   <td> Toegangstoken via server gevonden voor provider-id '%s'.</td> 
-   <td> <p>Toegangstoken van server voor leverancier-id 'EXT25' gevonden. Opmerking: EXT25 is de id (of naam) van de externe account.</p></td> 
+   <td> Toegangstoken opgehaald van server voor provider-ID %s.</td> 
+   <td> <p>Toegangstoken opgehaald van server voor provider-ID EXT25. Opmerking: EXT25 is de ID (of naam) van het externe account.</p></td> 
   </tr>
   <tr> 
-   <td> OAuth-toegangstoken vernieuwen vanwege fout (HTTP: '%d').</td> 
-   <td> <p>OAuth-toegangstoken vernieuwen vanwege fout (HTTP: "401").</p></td> 
+   <td> OAuth-toegangstoken wordt vernieuwd vanwege fout (HTTP: %d).</td> 
+   <td> <p>OAuth-toegangstoken wordt vernieuwd vanwege fout (HTTP: 401).</p></td> 
   </tr>
   <tr> 
-   <td> Fout bij het vernieuwen van OAuth-toegangstoken (fout: '%d'). </td> 
-   <td> <p>Fout bij het vernieuwen van OAuth-toegangstoken (fout: "404").</p></td> 
+   <td> Fout bij het vernieuwen van OAuth-toegangstoken (fout: %d). </td> 
+   <td> <p>Fout bij het vernieuwen van OAuth-toegangstoken (fout: 404).</p></td> 
   </tr>
   <tr> 
-   <td> Kan het toegangstoken OAuth niet ophalen met het opgegeven externe account bij poging %d, opnieuw proberen in %d ms.</td> 
-   <td> <p>Kan het toegangstoken OAuth niet ophalen met de opgegeven externe account bij poging 1, opnieuw proberen in 1387 ms.</p></td> 
+   <td> Kan het OAuth-toegangstoken niet ophalen met het opgegeven externe account bij poging %d, nieuwe poging over %d ms.</td> 
+   <td> <p>Kan het OAuth-toegangstoken niet ophalen met het opgegeven externe account bij poging 1, nieuwe poging over 1387 ms.</p></td> 
   </tr>
  </tbody> 
 </table>
@@ -264,7 +264,7 @@ Deze logboekberichten worden gebruikt om informatie in een logboek te registrere
    <td> <p>HTTP header key is not allowed (header key: 'Accept').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - Een HTTP-headerwaarde is ongeldig (headerwaarde: '%s').</td> 
+   <td> WKF-560247 - A HTTP header value is bad (header value: %s).</td> 
    <td> <p>HTTP header value is bad (header value: '%s'). </p>
     <p>Opmerking: Deze fout wordt in een logboek geregistreerd wanneer de aangepaste koptekstwaarde niet kan worden gevalideerd volgens <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
@@ -284,36 +284,36 @@ Deze logboekberichten worden gebruikt om informatie in een logboek te registrere
         <p>When activity fails due to an invalid Content-Type header. - Activity failed (reason: 'Content-Type - application/html').</p></td> 
   </tr>
   <tr> 
-   <td> WKF-560278 - "Error initializing OAuth helper (error: '%d').</td> 
-   <td> <p>Deze fout wijst erop dat de activiteit niet de interne hulpfaciliteit OAuth2.0 kon initialiseren, wegens fout in het gebruiken van de attributen die in de externe rekening worden gevormd om helper te initialiseren.</p></td>
+   <td> WKF-560278 - Error initializing OAuth helper (error: '%d').</td> 
+   <td> <p>Deze fout geeft aan dat de activiteit de interne OAuth2.0-helperfaciliteit niet kan initialiseren wegens een fout bij het gebruiken van de kenmerken die in het externe account zijn geconfigureerd om de helper te initialiseren.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560279 - "De kopbalsleutel van HTTP wordt niet toegestaan (kopbalsleutel: '%s')."</td> 
-   <td> <p>Dit waarschuwingsbericht (geen fout) geeft aan dat de externe OAuth 2.0-account is geconfigureerd om een referentie toe te voegen als een HTTP-header, maar dat de gebruikte headersleutel niet is toegestaan omdat deze een gereserveerde headersleutel is.</p></td>
+   <td> WKF-560279 - HTTP header key is not allowed (header key: %s)</td> 
+   <td> <p>Deze waarschuwing (geen fout) geeft aan dat het externe OAuth 2.0-account is geconfigureerd om een referentie toe te voegen als een HTTP-header, maar dat de gebruikte headersleutel niet is toegestaan omdat het een gereserveerde headersleutel is.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560280 - Externe account van '%s'-id kan niet worden gevonden.</td> 
-   <td> <p>External account of 'EXT25' ID cannot be found.  Opmerking: Deze fout geeft aan dat de activiteit is geconfigureerd voor het gebruik van een externe account, die niet meer kan worden gevonden. Dit zal hoogstwaarschijnlijk gebeuren wanneer de rekening uit de OB is geschrapt, en als zodanig niet waarschijnlijk zal gebeuren in normale bedrijfsomstandigheden.</p></td>
+   <td> WKF-560280 - External account of '%s' ID cannot be found.</td> 
+   <td> <p>Extern account van EXT25-ID is niet gevonden.  Opmerking: Deze fout geeft aan dat de activiteit is geconfigureerd voor het gebruik van een extern account, dat niet meer kan worden gevonden. De kans hierop is het grootst wanneer het account uit de DB is verwijderd, en het zal dan ook niet vaak gebeuren in normale omstandigheden.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560281 - Externe account van '%s'-id is uitgeschakeld.</td> 
-   <td> <p>Extern account van 'EXT25'-id is uitgeschakeld. Opmerking: Deze fout geeft aan dat de activiteit is geconfigureerd voor het gebruik van een externe account, maar dat account is uitgeschakeld (of inactief is gemarkeerd).</p></td>
+   <td> WKF-560281 - External account of '%s' ID is disabled.</td> 
+   <td> <p>Extern account van EXT25-ID is uitgeschakeld. Opmerking: Deze fout geeft aan dat de activiteit is geconfigureerd voor het gebruik van een extern account, maar dat dit account is uitgeschakeld (of is gemarkeerd als inactief).</p></td>
   </tr>
   <tr> 
-   <td> WKF-560282 - Protocol niet gesteund.</td> 
-   <td> <p>Deze fout geeft aan dat de externe account die aan de activiteit is gekoppeld, geen externe OAuth2.0-account is. Als zodanig is het onwaarschijnlijk dat deze fout optreedt, tenzij er beschadigingen of handmatige wijzigingen in de activiteitenconfiguratie optreden.</p></td>
+   <td> WKF-560282 - Protocol not supported.</td> 
+   <td> <p>Deze fout geeft aan dat het externe account dat aan de activiteit is gekoppeld, geen extern OAuth2.0-account is. Deze fout komt dan ook niet vaak voor, tenzij er beschadigingen of handmatige wijzigingen in de activiteitenconfiguratie optreden.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560283 - Kon niet om het OAuth toegangstoken te halen.</td> 
-   <td> <p>De meest voorkomende oorzaak van deze fout is een verkeerde configuratie van de externe account (bijvoorbeeld de externe account gebruiken zonder te testen of de verbinding is gelukt). Het kan mogelijk zijn dat URL/referenties op de externe account worden gewijzigd.</p></td>
+   <td> WKF-560283 - Failed to fetch the OAuth access token.</td> 
+   <td> <p>De meest voorkomende oorzaak van deze fout is een verkeerde configuratie van het externe account (bijvoorbeeld gebruik van het externe account zonder te testen of de verbinding is gelukt). Het is mogelijk dat URL/referenties van het externe account zijn gewijzigd.</p></td>
   </tr>
   <tr> 
-   <td> CRL-290199 - Kan pagina niet bereiken op: %s.</td> 
-   <td> <p>Dit foutbericht wordt weergegeven in het scherm met de gebruikersinterface van externe accounts wanneer u het instelt voor OAuth. Dit betekent dat de URL voor de externe verificatieserver onjuist/gewijzigd/reactie van de server is. Pagina niet gevonden.</p></td>
+   <td> CRL-290199 - Cannot reach page at: %s.</td> 
+   <td> <p>Dit foutbericht wordt weergegeven in het scherm met de gebruikersinterface voor externe accounts wanneer u het instelt voor Oauth. Dit betekent dat de URL voor de externe verificatieserver onjuist of gewijzigd is of dat de server de reactie Pagina niet gevonden geeft.</p></td>
   </tr>
   <tr> 
-   <td> CRL-290200 - Onvolledige/onjuiste geloofsbrieven.</td> 
-   <td> <p>Dit foutbericht wordt weergegeven in het scherm met de gebruikersinterface van externe accounts wanneer u het instelt voor OAuth. Dit betekent dat de referenties onjuist zijn of dat er andere vereiste gegevens ontbreken om verbinding te maken met de verificatieserver.
+   <td> CRL-290200 - Incomplete/Incorrect credentials.</td> 
+   <td> <p>Dit foutbericht wordt weergegeven in het scherm met de gebruikersinterface voor externe accounts wanneer u het instelt voor Oauth. Dit betekent dat de referenties onjuist zijn of dat er andere vereiste referenties ontbreken voor verbinding met de verificatieserver.
 </p></td>
   </tr>
  </tbody> 
