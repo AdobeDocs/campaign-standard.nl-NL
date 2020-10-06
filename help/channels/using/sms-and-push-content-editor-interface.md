@@ -12,9 +12,9 @@ discoiquuid: 4e214eb9-d299-4095-b786-8d1de9b1c8a2
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
 
@@ -96,4 +96,3 @@ De editor voor sms- en pushcontent biedt de volgende functies:
 * Een contentblok toevoegen. Zie [Een contentblok toevoegen](../../designing/using/personalization.md#adding-a-content-block) voor meer informatie.
 * Dynamische tekst toevoegen. Zie [Dynamische tekst definiëren](../../channels/using/defining-dynamic-text.md) voor meer informatie.
 * De naam van de sms-afzender (alleen sms) aanpassen. Zie [Sms-configuratie ](../../administration/using/configuring-sms-channel.md#configuring-sms-properties) voor meer informatie.
-
