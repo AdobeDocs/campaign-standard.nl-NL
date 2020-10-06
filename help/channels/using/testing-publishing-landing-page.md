@@ -11,9 +11,9 @@ topic-tags: landing-pages
 discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 32f3b8ac0108bbce10e443c39f1f766ddf97db84
+workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Aangezien de landingspagina uw platform en data zal beïnvloeden, moet u de uitv
 
 1. Herhaal dit met verschillende profielen en data.
 
-   U kunt ook de miniatuur van de landingspagina genereren vanuit dit scherm.
+U kunt ook de miniatuur van de landingspagina genereren vanuit dit scherm.
 
 >[!NOTE]
 >
