@@ -11,11 +11,11 @@ topic-tags: campaign-standard-release-planning
 discoiquuid: null
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b0c98e54893f1de5f378c74cec5182b1132ca995
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -32,9 +32,9 @@ Alle releasedatums kunnen worden gewijzigd. We raden u aan deze pagina regelmati
 
 **NIEUW!** Abonneer u op [Campaign Standard-releasemeldingen](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) om details over aankomende releases rechtstreeks in uw inbox te krijgen.
 
-## Release 20.4 - Release oktober {#release-20-4-oct-release}
+## Release 20.4 - Release van oktober {#release-20-4-oct-release}
 
-Updates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. Gedetailleerde informatie over deze release is te vinden in de [Release-opmerkingen](../../rn/using/release-notes.md). Neem contact op met [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) als u nog vragen hebt.
+Updates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. Gedetailleerde informatie over deze release is te vinden in de [Release-opmerkingen](../../rn/using/release-notes.md). Neem contact op met [Adobe Client Care](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) als u nog vragen hebt.
 
 <table>
  <thead>
@@ -46,11 +46,11 @@ Updates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s.
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>21 sep. - 23, 2020<br /> </td>
+   <td>21-23 september 2020<br /> </td>
   </tr>
   <tr>
    <td> Productie<br /> </td>
-   <td>28 sep. - 5 okt. 2020<br /> </td>
+   <td>28 september - 5 oktober 2020<br /> </td>
   </tr>
  </tbody>
 </table>
