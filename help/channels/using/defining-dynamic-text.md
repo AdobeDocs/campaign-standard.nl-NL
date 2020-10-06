@@ -12,7 +12,7 @@ discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 564613ecc2879be87d1f85f9f15e675697690139
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 3%
@@ -52,4 +52,3 @@ In het onderstaande voorbeeld ziet u hoe u dynamische tekst in een SMS-bericht d
 Wanneer voor ten minste één variant een voorwaarde is gedefinieerd, wordt een paarse kader rond de dynamische tekst weergegeven.
 
 ![](assets/dynamic_text_sms_3.png)
-
