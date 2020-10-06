@@ -13,8 +13,8 @@ index: true
 translation-type: tm+mt
 source-git-commit: b80197491b45cff46273e1a41e3dfb7a939f96c5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '32'
+ht-degree: 100%
 
 ---
 
