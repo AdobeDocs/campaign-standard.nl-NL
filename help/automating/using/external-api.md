@@ -184,7 +184,7 @@ Deze logboekberichten worden gebruikt om informatie over nuttige controlepunten 
    <td> <p>Invoking API URL 'https://example.com/api/v1/web-coupon?count=2'.</p></td> 
   </tr> 
   <tr> 
-   <td> API-URL %s wordt opnieuw uitgevoerd vanwege %s in %d ms, poging %d.</td> 
+   <td> Retrying API URL '%s' due to %s in %d ms, attempt %d.</td> 
    <td> <p>API-URL https://example.com/api/v1/web-coupon?count=0 wordt opnieuw uitgevoerd vanwege HTTP - 401 in 2364 ms, poging 2.</p></td>
   </tr> 
   <tr> 
@@ -192,23 +192,23 @@ Deze logboekberichten worden gebruikt om informatie over nuttige controlepunten 
    <td> <p>Transferring content from 'https://example.com/api/v1/web-coupon?count=2' (1234 / 1234).</p></td> 
   </tr>
   <tr> 
-   <td> Toegangstoken in cache wordt gebruikt voor provider-ID %s.</td> 
+   <td> Using cached access token for provider ID '%s'.</td> 
    <td> <p>Toegangstoken in cache wordt gebruikt voor provider-ID EXT25. Opmerking: EXT25 is de ID (of naam) van het externe account. </p></td> 
   </tr>
   <tr> 
-   <td> Toegangstoken opgehaald van server voor provider-ID %s.</td> 
+   <td> Fetched access token from server for provider ID '%s'.</td> 
    <td> <p>Toegangstoken opgehaald van server voor provider-ID EXT25. Opmerking: EXT25 is de ID (of naam) van het externe account.</p></td> 
   </tr>
   <tr> 
-   <td> OAuth-toegangstoken wordt vernieuwd vanwege fout (HTTP: %d).</td> 
+   <td> Refreshing OAuth access token due to error (HTTP: '%d').</td> 
    <td> <p>OAuth-toegangstoken wordt vernieuwd vanwege fout (HTTP: 401).</p></td> 
   </tr>
   <tr> 
-   <td> Fout bij het vernieuwen van OAuth-toegangstoken (fout: %d). </td> 
+   <td> Error refreshing OAuth access token (error: '%d'). </td> 
    <td> <p>Fout bij het vernieuwen van OAuth-toegangstoken (fout: 404).</p></td> 
   </tr>
   <tr> 
-   <td> Kan het OAuth-toegangstoken niet ophalen met het opgegeven externe account bij poging %d, nieuwe poging over %d ms.</td> 
+   <td> Failed to fetch the OAuth access token using the specified external account on attempt %d, retrying in %d ms.</td> 
    <td> <p>Kan het OAuth-toegangstoken niet ophalen met het opgegeven externe account bij poging 1, nieuwe poging over 1387 ms.</p></td> 
   </tr>
  </tbody> 
@@ -264,7 +264,7 @@ Deze logboekberichten worden gebruikt om informatie in een logboek te registrere
    <td> <p>HTTP header key is not allowed (header key: 'Accept').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - A HTTP header value is bad (header value: %s).</td> 
+   <td> WKF-560247 -  A HTTP header value is bad (header value: '%s').</td> 
    <td> <p>HTTP header value is bad (header value: '%s'). </p>
     <p>Opmerking: Deze fout wordt in een logboek geregistreerd wanneer de aangepaste koptekstwaarde niet kan worden gevalideerd volgens <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
@@ -284,11 +284,11 @@ Deze logboekberichten worden gebruikt om informatie in een logboek te registrere
         <p>When activity fails due to an invalid Content-Type header. - Activity failed (reason: 'Content-Type - application/html').</p></td> 
   </tr>
   <tr> 
-   <td> WKF-560278 - Error initializing OAuth helper (error: '%d').</td> 
+   <td> WKF-560278 - "Error initializing OAuth helper (error: '%d')" .</td> 
    <td> <p>Deze fout geeft aan dat de activiteit de interne OAuth2.0-helperfaciliteit niet kan initialiseren wegens een fout bij het gebruiken van de kenmerken die in het externe account zijn geconfigureerd om de helper te initialiseren.</p></td>
   </tr>
   <tr> 
-   <td> WKF-560279 - HTTP header key is not allowed (header key: %s)</td> 
+   <td> WKF-560279 - "HTTP header key is not allowed (header key: '%s')."</td> 
    <td> <p>Deze waarschuwing (geen fout) geeft aan dat het externe OAuth 2.0-account is geconfigureerd om een referentie toe te voegen als een HTTP-header, maar dat de gebruikte headersleutel niet is toegestaan omdat het een gereserveerde headersleutel is.</p></td>
   </tr>
   <tr> 
