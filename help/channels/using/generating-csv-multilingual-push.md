@@ -12,7 +12,7 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 772393c135b96374cb510a3d96e3c781274e857e
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 0%
@@ -28,22 +28,20 @@ Het uploaden van een CSV-bestand om inhoud te genereren voor levering is een fun
 
 Meertalige push vereist 14 kolommen in het CSV-bestand:
 
-* titel
-* messageBody
-* geluid
-* badge
-* deplinkURI
-* categorie
-* iosMediaAttachmentURL
-* androidMediaAttachmentURL
-* isContentAvailable
-* isMutableContent
-* customFields
-* landinstelling
-* language
-* silentPush
-
-![](assets/multilingual_push_1.png)
+1. titel
+1. messageBody
+1. geluid
+1. adge
+1. deplinkURI
+1. categorie
+1. iosMediaAttachmentURL
+1. androidMediaAttachmentURL
+1. isContentAvailable
+1. isMutableContent
+1. customFields
+1. landinstelling
+1. language
+1. silentPush
 
 Controleer het CSV-voorbeeld door op de knop **[!UICONTROL Download a sample file]** in het **[!UICONTROL Manage Content Variants]** venster te klikken. For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
 
@@ -107,12 +105,12 @@ De volgende talen worden ondersteund:
 
 | landinstelling | language |
 |:-:|:-:|
-| Zuid | Afrikaans - Zuid-Afrika |
+| af_za | Afrikaans - Zuid-Afrika |
 | sq_al | Albanees - Albanië |
 | ar_dz | Arabisch - Algerije |
 | ar_bh | Arabisch - Bahrein |
 | ar_iq | Arabisch - Irak |
-| - ar_il | Arabisch - Israël |
+| ar_il | Arabisch - Israël |
 | ar_jo | Arabisch - Jordanië |
 | ar_kw | Arabisch - Koeweit |
 | ar_lb | Arabisch - Libanon |
@@ -134,12 +132,12 @@ De volgende talen worden ondersteund:
 | zh_sg | Chinees (vereenvoudigd) - Singapore |
 | zh_hk | Chinees (traditioneel) - SAR Hongkong van China |
 | zh_tw | Chinees (traditioneel) - Taiwan |
-| af_uur | Kroatisch - Kroatië |
+| hr_hr | Kroatisch - Kroatië |
 | cs_cz | Tsjechisch - Tsjechisch |
 | da_dk | Deens - Denemarken |
 | nl_be | Nederlands - België |
 | nl_nl | Nederlands - Nederland |
-| ar_au | Engels - Australië |
+| en_au | Engels - Australië |
 | en_bz | Engels - Belize |
 | en_ca | Engels - Canada |
 | en_in | Engels - India |
@@ -152,7 +150,7 @@ De volgende talen worden ondersteund:
 | en_gb | Engels - Verenigd Koninkrijk |
 | nl_nl | Engels - Verenigde Staten |
 | nl_zw | Engels - Zimbabwe |
-| et_ee | Ests - Estland |
+| Nederlands | Ests - Estland |
 | fi_fi | Fins - Finland |
 | fr_be | Frans - België |
 | fr_ca | Frans - Canada |
@@ -160,20 +158,20 @@ De volgende talen worden ondersteund:
 | fr_lu | Frans - Luxemburg |
 | fr_ch | Frans - Zwitserland |
 | de_at | Duits - Oostenrijk |
-| de_de | es - Duitsland |
+| de_de | Duits - Duitsland |
 | de_lu | Duits - Luxemburg |
-| es_ch | Duits - Zwitserland |
-| es_cy | Grieks - Cyprus |
-| el_gr | el - Griekenland |
+| de_ch | Duits - Zwitserland |
+| el_cy | Grieks - Cyprus |
+| el_gr | Grieks - Griekenland |
 | gu_in | Gujarati - India |
-| he_il | Hebreeuws - Israël |
+| de | Hebreeuws - Israël |
 | hi_in | Hindi - India |
 | hu_hu | Hongaars - Hongarije |
 | is_is | IJslands - IJsland |
-| fi_id | Indonesisch - Indonesië |
+| id_id | Indonesisch - Indonesië |
 | it_it | Italiaans - Italië |
-| it_ch | Spaans - Zwitserland |
-| ja_jp | es - Japan |
+| it_ch | Italiaans - Zwitserland |
+| ja_jp | ja - Japan |
 | kn_in | Kannada - India |
 | kk_kz | Kazachstan - Kazachstan |
 | ko_kr | Koreaans - Zuid-Korea |
@@ -205,24 +203,24 @@ De volgende talen worden ondersteund:
 | es_do | Spaans - Dominicaanse Republiek |
 | es_ec | Spaans - Ecuador |
 | es_sv | Spaans - El Salvador |
-| Spes_gt | Spaans - Guatemala |
-| ada | Spaans - Honduras |
-| es_mx | Grieks - Mexico |
-| - es_ni | Spaans - Nicaragua |
+| es_gt | Spaans - Guatemala |
+| es_hn | Spaans - Honduras |
+| es_mx | Spaans - Mexico |
+| es_ni | Spaans - Nicaragua |
 | es_pa | Spaans - Panama |
-| es_py | Spaans - Paraguay |
+| Spes_py | Spaans - Paraguay |
 | es_pe | Spaans - Peru |
 | es_pr | Spaans - Puerto Rico |
 | es_es | Spaans - Spanje |
-| es_uy | id Spaans - Uruguay |
-| _ve | Japans - Venezuela |
+| es_uy | Spaans - Uruguay |
+| es_ve | Spaans - Venezuela |
 | sw_ek | Swahili - Kenia |
 | sv_fi | Zweeds - Finland |
 | sv_se | Zweeds - Zweden |
 | ta_in | Tamil - India |
 | tt_ru | Tatar - Russisch |
-| th_in | Telugu - India |
-| Italiaans_de | Thai - Thailand |
+| te_inden | Telugu - India |
+| th_th | Thai - Thailand |
 | tr_cy | Turks - Cyprus |
 | tr_tr | Turks - Turkije |
 | uk_ua | Oekraïens - Oekraïne |
