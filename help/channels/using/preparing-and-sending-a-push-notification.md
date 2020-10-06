@@ -1,5 +1,5 @@
 ---
-title: Een pushmelding voorbereiden en verzenden
+title: Een pushmelding maken en verzenden
 description: Voer de volgende stappen uit om een pushmelding voor één verzending te maken in Adobe Campaign.
 page-status-flag: never-activated
 uuid: 01997725-ca0a-420c-9e81-5ea801652f87
@@ -13,10 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 9%
+source-wordcount: '856'
+ht-degree: 8%
 
 ---
 
@@ -67,7 +67,7 @@ De stappen voor het maken van een pushmelding met Adobe Campaign zijn:
 
    ![](assets/push_notif_content.png)
 
-   De inhoud en opties van de pushmelding die hier zijn geconfigureerd, worden doorgegeven aan uw mobiele app in de vorm van een payload. De gedetailleerde structuur van de lading wordt beschreven in het [Begrip van ACS-push berichten loonlaststructuur](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) .
+   De inhoud en opties van de pushmelding die hier zijn geconfigureerd, worden doorgegeven aan uw mobiele app in de vorm van een payload. De gedetailleerde structuur van de lading wordt beschreven in het [Begrip van ACS-push berichten loonlaststructuur](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/push-notifications/push-payload.html) .
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -86,7 +86,9 @@ De stappen voor het maken van een pushmelding met Adobe Campaign zijn:
 
    >[!CAUTION]
    >
-   >Als de ladingsgrootte 4KB grens overschrijdt, zal het bericht niet worden geleverd. De gegevens van de aanpassing beïnvloeden de grootte van bericht.
+   >Als de ladingsgrootte 4KB grens overschrijdt, zal het bericht niet worden geleverd.
+
+Merk op dat de verpersoonlijkingsgegevens de grootte van bericht beïnvloeden.
 
 ## De melding verzenden {#sending-the-notification}
 
@@ -131,4 +133,3 @@ U kunt nu de impact van uw pushmelding meten met dynamische rapporten.
 
 * [Pushmeldingenrapport](../../reporting/using/push-notification-report.md)
 * [Een pushmelding verzenden binnen een workflow](../../automating/using/push-notification-delivery.md)
-
