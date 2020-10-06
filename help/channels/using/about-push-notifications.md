@@ -13,10 +13,10 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9632e88b49c2280c76e709376cfb7a7a27abc1f
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 49%
+ht-degree: 50%
 
 ---
 
@@ -147,7 +147,7 @@ Mobiele App-ontwikkelaars moeten de ondersteuning voor mediabestanden in de app 
 
 ### Wat moet ik doen om pushmeldingen in Campagne mogelijk te maken? {#push-reporting-enable}
 
-Voer de onderstaande stappen uit:
+Volg de onderstaande stappen:
 
 * Configureer een postback voor het bijhouden van de push. Instructies vindt u [hier](../../administration/using/configuring-a-mobile-application.md).
 * TrackAction-API implementeren vanuit Mobile Core. Refer to this [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) for more information.
@@ -164,5 +164,5 @@ Zie deze [pagina](../../reporting/using/indicator-calculation.md#push-notificati
 
 Ja, deplinks worden ondersteund in pushberichten. Deeplinks moeten omvatten:
 
-* de taal die verklaart dat levering het volgen moet worden onbruikbaar gemaakt om de diepte te werken.
+* Taal die verklaart dat levering het volgen moet worden onbruikbaar gemaakt om de diepte te werken.
 * Appsflyer met Tak als partners die het zuiveren volgen kunnen doen. Raadpleeg deze [pagina](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)voor meer informatie over de integratie met Branch en Adobe Campaign Standard.
