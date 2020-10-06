@@ -13,9 +13,9 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '587'
 ht-degree: 4%
 
 ---
@@ -52,21 +52,11 @@ Afhankelijk van de ingestelde parameters en de geboekte vooruitgang zijn bepaald
 
    Zie Proefdrukken [verzenden voor meer informatie over proefdrukken](../../sending/using/sending-proofs.md).
 
-* **[!UICONTROL Send a test]**: Hiermee kunt u de goedkeuringsmodus selecteren die u wilt gebruiken: **[!UICONTROL Email rendering]**, **[!UICONTROL Proof]** of beide voor een e-mail. Zie Proefdrukken [verzenden voor meer informatie over testprofielen](../../sending/using/sending-proofs.md).
+* **[!UICONTROL Send a test]**: Hiermee kunt u de goedkeuringsmodus selecteren die u wilt gebruiken: **[!UICONTROL Email rendering]** (Alleen e-mail) **[!UICONTROL Proof]** of beide. Zie Proefdrukken [verzenden voor meer informatie over testprofielen](../../sending/using/sending-proofs.md). Deze knop wordt alleen ingeschakeld nadat u testprofielen hebt gemaakt.
 
-   Deze knop wordt alleen ingeschakeld als u testprofielen hebt ingesteld.
+* **[!UICONTROL Prepare send]**: begint de verzending voor te bereiden. Het **[!UICONTROL Deployment]** blok verschijnt en toont het resultaat van de voorbereiding. Deze knop wordt alleen weergegeven wanneer het doel is ingevoerd. U kunt de voorbereiding op elk gewenst moment stoppen met de bijbehorende knop. For more on message preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).
 
-   >[!NOTE]
-   >
-   >Voor een SMS-bericht is er geen andere keuze: het is automatisch een **[!UICONTROL Proof]**.
-
-* **[!UICONTROL Prepare send]**: begint de verzending voor te bereiden. Het **[!UICONTROL Deployment]** blok verschijnt en toont het resultaat van de voorbereiding. Deze knop wordt alleen weergegeven wanneer het doel is ingevoerd. U kunt de voorbereiding op elk gewenst moment stoppen met de bijbehorende knop.
-
-   Voor meer informatie over het voorbereiden van berichten, [het voorbereiden van verzenden](../../sending/using/preparing-the-send.md).
-
-* **[!UICONTROL Confirm send]**: bevestigt het verzenden van het bericht. De verzendende statistieken verschijnen in het **[!UICONTROL Deployment]** blok. Deze knop wordt alleen weergegeven nadat het verzenden is voorbereid. U kunt het verzenden op elk gewenst moment stoppen of pauzeren met de **knoppen Stoppen** en **[!UICONTROL Pause]** Stoppen.
-
-   Voor meer bij het bevestigen van het verzenden, zie het [Verzenden van berichten](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Confirm send]**: bevestigt het verzenden van het bericht. De verzendende statistieken verschijnen in het **[!UICONTROL Deployment]** blok. Deze knop wordt alleen weergegeven nadat het verzenden is voorbereid. U kunt het verzenden op elk gewenst moment stoppen of pauzeren met de **knoppen Stoppen** en **[!UICONTROL Pause]** Stoppen. Voor meer bij het bevestigen van het verzenden, verwijs naar het [Verzenden van berichten](../../sending/using/confirming-the-send.md).
 
 ## Blokken {#blocks}
 
