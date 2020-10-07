@@ -9,10 +9,11 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 02a87cc6-c40c-44fe-bb4e-b68870a4859b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '999'
+ht-degree: 1%
 
 ---
 
@@ -35,10 +36,10 @@ U kunt dit plannen met behulp van een workflow.
 
 ![](assets/send-time_opt_workflow1.png)
 
-1. Open de lijst met marketingactiviteiten en maak een nieuwe workflow. Zie [Een workflow](../../automating/using/building-a-workflow.md#creating-a-workflow)maken.
-1. Sleep een **query** -activiteit naar uw werkstroom en open deze. Zie de sectie [Query](../../automating/using/query.md) .
+1. Open de lijst met marketingactiviteiten en maak een nieuwe workflow. See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
+1. Drag and drop a **Query** activity into your workflow and open it. Zie de sectie [Query](../../automating/using/query.md) .
 1. Selecteer een publiek, bijvoorbeeld al uw Gold-klanten en klik **[!UICONTROL Confirm]** om de query op te slaan.
-1. Sleep een **segmentatie** -activiteit naar uw werkstroom en open deze. Zie de sectie [Segmentatie](../../automating/using/segmentation.md) .
+1. Drag and drop a **Segmentation** activity into your workflow and open it. Zie de sectie [Segmentatie](../../automating/using/segmentation.md) .
 1. Definieer vijf segmenten. Voor elk segment:
 
    * Vul het **[!UICONTROL Segment code]** veld in: Voer handmatig de gewenste datum en tijd in voor het verzenden van het bericht.
@@ -65,7 +66,7 @@ U kunt dit plannen met behulp van een workflow.
 
    ![](assets/send-time_opt_segment_dates.png)
 
-1. Sleep een **e-mailbezorgingsactiviteit** naar uw werkstroom en open deze. Zie de sectie [E-maillevering](../../automating/using/email-delivery.md) .
+1. Drag and drop an **Email delivery** activity into your workflow and open it. Zie de sectie [E-maillevering](../../automating/using/email-delivery.md) .
 1. Klik op de **[!UICONTROL Schedule]** sectie in het e-maildashboard en selecteer **[!UICONTROL Messages to be sent automatically on the date specified below]**.
 1. Definieer een contactdatum in het **[!UICONTROL Start sending from]** veld.
 1. Kies in het vervolgkeuzemenu Optimalisatie tijd verzenden de optie **[!UICONTROL Send at a custom date defined by a formula]**.
@@ -111,10 +112,10 @@ U kunt dit plannen met behulp van een workflow.
 
 ![](assets/send-time_opt_workflow2.png)
 
-1. Open de lijst met marketingactiviteiten en maak een nieuwe workflow. Zie [Een workflow](../../automating/using/building-a-workflow.md#creating-a-workflow)maken.
-1. Sleep een **query** -activiteit naar uw werkstroom en open deze. Zie de sectie [Query](../../automating/using/query.md) .
+1. Open de lijst met marketingactiviteiten en maak een nieuwe workflow. See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
+1. Drag and drop a **Query** activity into your workflow and open it. Zie de sectie [Query](../../automating/using/query.md) .
 1. Selecteer een publiek, bijvoorbeeld meer dan 35 profielen, en klik om de query **[!UICONTROL Confirm]** op te slaan.
-1. Sleep een **segmentatie** -activiteit naar uw werkstroom en open deze. Zie de sectie [Segmentatie](../../automating/using/segmentation.md) .
+1. Drag and drop a **Segmentation** activity into your workflow and open it. Zie de sectie [Segmentatie](../../automating/using/segmentation.md) .
 1. Definieer vier segmenten. Voor elk segment:
 
    * Definieer de segmentcodes als volgt:
@@ -123,6 +124,7 @@ U kunt dit plannen met behulp van een workflow.
       * 10:00 - 12:00 PM: **2**. Het bericht wordt om 10:00 uur naar het tweede kwartaal van de doelpopulatie gestuurd (contactdatum + 2 uur).
       * 14:00 - 16:00 **6**. Het vraagcentrum dat tussen 12:00 PM en 2:00 PM wordt gesloten, zal het bericht naar het derde kwartaal van de doelpopulatie worden verzonden om 2:00 PM (contactdatum + 6 uren).
       * 16:00 - 18:00 PM: **8**. Het bericht wordt verzonden naar het laatste kwartaal van de doelpopulatie om 16.00 uur (contactdatum + 8 uur).
+
       >[!NOTE]
       >
       >De contactdatum wordt later in de workflow gedefinieerd in de e-mailleveringsactiviteit.
@@ -135,7 +137,7 @@ U kunt dit plannen met behulp van een workflow.
 
    ![](assets/send-time_opt_segment.png)
 
-1. Sleep een **e-mailbezorgingsactiviteit** naar uw werkstroom en open deze. Zie de sectie [E-maillevering](../../automating/using/email-delivery.md) .
+1. Drag and drop an **Email delivery** activity into your workflow and open it. Zie de sectie [E-maillevering](../../automating/using/email-delivery.md) .
 1. Klik op de **[!UICONTROL Schedule]** sectie in het e-maildashboard.
 1. Selecteer **[!UICONTROL Messages to be sent automatically on the date specified below]**.
 1. Definieer een contactdatum in het **[!UICONTROL Start sending from]** veld.
