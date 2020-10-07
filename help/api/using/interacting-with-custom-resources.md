@@ -9,15 +9,16 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 3%
 
 ---
 
 
-# Interactie met aangepaste bronnen {#interacting-with-custom-resources}
+# Interactie met aangepaste resources {#interacting-with-custom-resources}
 
 Het **/customResources** eindpunt staat u toe om de ACS douanemiddelen in REST bloot te stellen. Op basis van deze API is er een integratie tussen aangepaste entiteiten en externe eindpunten beschikbaar.
 
@@ -38,7 +39,7 @@ Hier volgt een voorbeeld om de metagegevens op te halen uit een aangepaste bron:
 GET /customResources/resourceType/<customResourceName>
 ```
 
-Voor het maken, bijwerken of verwijderen worden GET, POST, PATCH, DELETE gebruikt.
+Voor het maken, bijwerken of verwijderen worden de GET, POST, PATCH, DELETE gebruikt.
 
 ```
 POST /customResources/<customResourceName>
