@@ -9,10 +9,8 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 14%
@@ -50,7 +48,7 @@ De verschillende beschikbare menu&#39;s zijn:
 * [Instellingen](../../administration/using/branding.md)voor instanties: In dit menu definieert u de verschillende merken en configureert u de instellingen (logo, beheer, bijhouden, URL-domein voor toegang tot de bestemmingspagina&#39;s, enz.).
 * [Implementatie](../../automating/using/managing-packages.md): In dit menu worden de import- en exportopties voor het pakket opnieuw gegroepeerd.
 * [Klantcijfers](../../audiences/using/active-profiles.md): Adobe Campaign geeft een rapport weer waarin het aantal actieve profielen wordt weergegeven. Dit rapport is slechts informatief, het heeft geen directe invloed op het factureren.
-* [Privacygereedschappen](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html): Met dit menu kunt u GDPR-toegang maken, aanvragen verwijderen en de evolutie ervan volgen.
+* [Privacygereedschappen](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html): Met dit menu kunt u GDPR-toegang maken, aanvragen verwijderen en de evolutie ervan volgen.
 
 ## Gebruikers en beveiliging {#users-security}
 
