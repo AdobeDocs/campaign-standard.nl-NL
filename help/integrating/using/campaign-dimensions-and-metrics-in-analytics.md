@@ -1,6 +1,6 @@
 ---
-title: Campagnedimensies en meetgegevens in Analytics
-description: Leer de verschillende afmetingen die u in Adobe Analytics kunt vinden beginnen uw e-mailleveringen van de Campagne van Adobe te volgen.
+title: Dimensies en metrische data van Campaign in Analytics
+description: Leer de verschillende afmetingen die je in Adobe Analytics kunt vinden om je e-mailleveringen van Adobe Campaign bij te houden.
 page-status-flag: never-activated
 uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
 contentOwner: sauviat
@@ -9,24 +9,25 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 3%
 
 ---
 
 
-# Campagnedimensies en meetgegevens in Analytics{#campaign-dimensions-and-metrics-in-analytics}
+# Dimensies en metrische data van Campaign in Analytics{#campaign-dimensions-and-metrics-in-analytics}
 
-Met de integratie van Adobe Campaign en Adobe Analytics kunt u het succes van uw e-mailleveringen rechtstreeks bijhouden in Adobe Analytics.
+Dankzij de integratie met Adobe Campaign en Adobe Analytics kunt u het succes van uw e-mailleveringen direct in Adobe Analytics volgen.
 
 Campagne **[!UICONTROL dimensions]** gevonden in Analytics wordt hieronder vermeld:
 
 <table> 
  <thead> 
   <tr> 
-   <th> Dimensie<br /> </th> 
+   <th> Dimension<br /> </th> 
    <th> Definitie<br /> </th> 
   </tr> 
  </thead> 
