@@ -1,5 +1,5 @@
 ---
-title: De bron maken of uitbreiden
+title: De resource maken of uitbreiden
 description: Ontdek hoe u een geheel nieuwe bron definieert.
 page-status-flag: never-activated
 uuid: 7c26b63d-9587-472b-804f-cde5c45dfb3c
@@ -9,15 +9,16 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 8dc45c37-6908-407e-8e41-4a4188cba2b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 11%
 
 ---
 
 
-# De bron maken of uitbreiden{#creating-or-extending-the-resource}
+# De resource maken of uitbreiden{#creating-or-extending-the-resource}
 
 Beheerders kunnen een geheel nieuwe bron maken of een uitbreiding van een bestaande bron maken als u gegevens nodig hebt die geen deel uitmaken van het ingebouwde gegevensmodel.
 
@@ -38,7 +39,7 @@ Een bron maken of uitbreiden:
 1. Klik op de **[!UICONTROL Administration]** knop van **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**> **[!UICONTROL Create]** .
 1. Kies de handeling die u wilt uitvoeren:
 
-   * **[!UICONTROL Create a new resource]**: Voer de **[!UICONTROL Label]** velden en de **[!UICONTROL ID]** velden in. Het **[!UICONTROL ID]** veld is verplicht. Als u het veld Label leeg laat, wordt dit automatisch ingevuld met de id.
+   * **[!UICONTROL Create a new resource]**: Voer de **[!UICONTROL Label]** velden en de **[!UICONTROL ID]** velden in. Het veld **[!UICONTROL ID]** is verplicht. Als u het veld Label leeg laat, wordt dit automatisch ingevuld met de id.
 
       ![](assets/schema_extension_2.png)
 
