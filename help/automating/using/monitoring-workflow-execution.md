@@ -1,5 +1,5 @@
 ---
-title: Uitvoering van controlewerkstroom
+title: Workflowuitvoering controleren
 description: Leer hoe u de uitvoering van een workflow kunt controleren.
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4cda0d3a3e65959091cd24bec8af434ab07519f6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Uitvoering van controlewerkstroom {#monitoring}
+# Workflowuitvoering controleren {#monitoring}
 
 ## Workflowlogboek en taken {#workflow-log-and-tasks}
 
@@ -33,7 +31,7 @@ Het **[!UICONTROL Log]** tabblad bevat de uitvoeringsgeschiedenis van alle activ
 
 ![](assets/wkf_execution_4.png)
 
-Het **[!UICONTROL Tasks]** tabblad bevat de volgorde van uitvoering van de activiteiten. Klik op een taak voor meer informatie.
+The **[!UICONTROL Tasks]** tab details the execution sequencing of the activities. Klik op een taak voor meer informatie.
 
 ![](assets/wkf_execution_5.png)
 
@@ -43,7 +41,7 @@ In deze twee lijsten:
 * Met de **[!UICONTROL Configure list]** knop kunt u de weergegeven informatie kiezen, de kolomvolgorde definiëren en de lijst sorteren.
 * Met filters kunt u sneller de informatie vinden die u nodig hebt. Gebruik het zoekveld om te zoeken naar een specifieke tekst in namen van workflowactiviteiten (bijvoorbeeld: &quot;query&quot;) en logbestanden.
 
-## Foutbeheer {#error-management}
+## Error management {#error-management}
 
 Wanneer een fout optreedt, wordt de werkstroom gepauzeerd en de activiteit die werd uitgevoerd toen de fout flitsrood werd aangetroffen.
 
