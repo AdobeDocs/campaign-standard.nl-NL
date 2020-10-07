@@ -1,5 +1,5 @@
 ---
-title: Kenmerken van een organisatie-eenheid bijwerken
+title: Kenmerken van een organisatorische eenheid bijwerken
 description: Leer hoe u kenmerken van een organisatie-eenheid kunt bijwerken
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,18 +9,19 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2a3b77c75931086f59ddb8717a1bfcfaf49d45d5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 11%
 
 ---
 
 
-# Kenmerken van een organisatie-eenheid bijwerken {#updating-organizational-unit-attributes}
+# Kenmerken van een organisatorische eenheid bijwerken {#updating-organizational-unit-attributes}
 
-1. Voer een GET verzoek op het **middel orgUnitBase** uit om de Organisatorische eenheid PKey terug te winnen.
-1. Voer een PATCH-verzoek uit op de Organizer-eenheid met de kenmerken die moeten worden bijgewerkt in de payload.
+1. Voer een verzoek van de GET op het **middel orgUnitBase** uit om de Organisatorische eenheid PKey terug te winnen.
+1. Voer een verzoek van de PATCH op de Organisatorische eenheid uit, met de attributen om in de lading bij te werken.
 
 <br/>
 
@@ -52,7 +53,7 @@ Alle organisatie-eenheden worden geretourneerd. Haal de sleutel van de gewenste 
 },
 ```
 
-Voer een PATCH-verzoek uit op de Organizer-eenheid met de kenmerken die moeten worden bijgewerkt in de payload.
+Voer een verzoek van de PATCH op de Organisatorische eenheid uit, met de attributen om in de lading bij te werken.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
