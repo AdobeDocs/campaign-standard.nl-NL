@@ -9,17 +9,18 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 80f6a384e99a7cebbe5c570f3273eceb393fd9b0
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 1%
 
 ---
 
 
 # Abonnementen controleren{#monitoring-subscriptions}
 
-Gebruik de interface van de Campagne van Adobe om uw abonnees te volgen en het succes van uw diensten te meten.
+Gebruik de Adobe Campaign-interface om uw abonnees te volgen en het succes van uw services te meten.
 
 U hebt verschillende opties voor het controleren van abonnementen op en het opzeggen van abonnementen:
 
@@ -32,7 +33,7 @@ U hebt verschillende opties voor het controleren van abonnementen op en het opze
 
 De lijst weergeven met personen die zijn geabonneerd op een service:
 
-1. Ga naar de lijst met services via het geavanceerde menu **Profielen en publiek** > **Services**, dat u kunt openen via het Adobe Campagne-logo.
+1. Ga naar de lijst met services via het geavanceerde menu **Profielen en publiek** > **Services**, dat u kunt openen via het Adobe Campaign-logo.
 1. Selecteer de service van uw keuze om het bijbehorende dashboard weer te geven.
 1. De lijst met personen die op de service zijn geabonneerd, vindt u op het tabblad **Abonnementen** .
 
@@ -42,7 +43,7 @@ De lijst weergeven met personen die zijn geabonneerd op een service:
 
 U kunt als volgt de abonnements- en abonnementsgeschiedenis raadplegen:
 
-1. Ga naar de lijst met services via het geavanceerde menu **Profielen en publiek** > **Services**, dat u kunt openen via het Adobe Campagne-logo.
+1. Ga naar de lijst met services via het geavanceerde menu **Profielen en publiek** > **Services**, dat u kunt openen via het Adobe Campaign-logo.
 1. Selecteer de service van uw keuze om het bijbehorende dashboard weer te geven.
 1. Selecteer het tabblad **Abonnementsgeschiedenis** om de datums weer te geven waarop elke persoon zich heeft geabonneerd en geabonneerd.
 
@@ -52,7 +53,7 @@ U kunt als volgt de abonnements- en abonnementsgeschiedenis raadplegen:
 
 Een rapport weergeven waarin de ontwikkeling van abonnementen en abonnementen wordt beschreven:
 
-1. Ga naar de lijst met services via het geavanceerde menu **Profielen en publiek** > **Services**, dat u kunt openen via het Adobe Campagne-logo.
+1. Ga naar de lijst met services via het geavanceerde menu **Profielen en publiek** > **Services**, dat u kunt openen via het Adobe Campaign-logo.
 1. Selecteer de service van uw keuze om het bijbehorende dashboard weer te geven.
 1. Klik op de knop **Rapporten** op de actiebalk en vervolgens **Abonnementscontrole** in het selectiescherm.
 
