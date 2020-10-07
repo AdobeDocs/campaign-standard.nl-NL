@@ -1,5 +1,5 @@
 ---
-title: De API uitbreiden
+title: Informatie over het uitbreiden van de API
 description: Leer hoe u uitgebreide velden voor aangepaste bronprofielen beschikbaar maakt in de API voor openbare profielen.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,18 +9,16 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '114'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
 
-# De API uitbreiden{#about-extending-the-api}
+# Informatie over het uitbreiden van de API{#about-extending-the-api}
 
 In dit geval wordt de beschrijving van uitgebreide velden voor de aangepaste bronprofielen in de API voor openbare profielen beschreven. Bijvoorbeeld, om het profiel van een klant met een bevorderingscode onmiddellijk bij te werken die van een factureringssysteem wordt geproduceerd.
 
@@ -36,5 +34,5 @@ De stappen voor het toegankelijk maken van uitgebreide velden in de openbare API
 
 **Verwante onderwerpen:**
 
-* [Informatie over aangepaste bronnen](../../developing/using/data-model-concepts.md)
+* [Informatie over aangepaste resources](../../developing/using/data-model-concepts.md)
 * [API-documentatie](../../api/using/get-started-apis.md)
