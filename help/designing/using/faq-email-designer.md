@@ -9,13 +9,11 @@ audience: designing
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c542859937ac60df9f76f5954a414575eac0e83d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -57,13 +55,13 @@ Zie Een volledig nieuw e-mailbericht [maken voor meer informatie](../../designin
 
 ## Waarom moet ik fragmenten bijwerken?
 
-De e-mailontwerper wordt voortdurend verbeterd. Als u een geheel nieuwe e-mailinhoud hebt gemaakt, op basis van een out-of-the-box sjabloon of als u fragmenten hebt gemaakt, moet u de inhoud mogelijk bijwerken naar de laatste versie om problemen zoals CSS-botsingsproblemen te voorkomen.
+Email Designer wordt voortdurend verbeterd. Als u een geheel nieuwe e-mailinhoud hebt gemaakt, op basis van een out-of-the-box sjabloon of als u fragmenten hebt gemaakt, moet u de inhoud mogelijk bijwerken naar de laatste versie om problemen zoals CSS-botsingsproblemen te voorkomen.
 
 Raadpleeg Fragmenten [bijwerken voor meer informatie](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 ## Kan ik stijlen in een thema opslaan?
 
-Stijlen kunnen niet worden opgeslagen als thema voor toekomstig hergebruik. De CSS-stijl kan echter worden opgeslagen in een inhoudssjabloon of in een e-mail.
+Stijlen kunnen niet worden opgeslagen als thema voor toekomstig hergebruik. De CSS-stijl kan echter worden opgeslagen in een contentsjabloon of in een e-mail.
 
 Raadpleeg [Stijlen voor meer informatie](../../designing/using/styles.md)
 
