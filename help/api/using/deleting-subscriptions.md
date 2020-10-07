@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 1%
 
 ---
 
@@ -24,8 +25,8 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 Dit is een procedure in drie stappen.
 
 1. Haal de abonnements-URL voor het gewenste profiel op.
-1. Voer een GET verzoek uit op de abonnements-URL.
-1. Voer een DELETE-verzoek uit op de gewenste service-URL.
+1. Voer een GET-aanvraag uit op de abonnements-URL.
+1. Voer een verzoek van de DELETE op de gewenste dienst URL uit.
 
 Als het verwijderingsverzoek is gelukt, is de status van het antwoord 204 Geen inhoud.
 
@@ -33,7 +34,7 @@ Als het verwijderingsverzoek is gelukt, is de status van het antwoord 204 Geen i
 
 ***Voorbeeldverzoek***
 
-In de onderstaande voorbeeldladingen ziet u hoe u een profiel van een service kunt afmelden. Voer eerst een GET aanvraag uit om het profiel op te halen.
+In de onderstaande voorbeeldladingen ziet u hoe u een profiel van een service kunt afmelden. Voer eerst een GET-aanvraag uit om het profiel op te halen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -56,7 +57,7 @@ De abonnements-URL voor het profiel wordt geretourneerd.
   }
 ```
 
-Voer een GET verzoek uit op de abonnements-URL.
+Voer een GET-aanvraag uit op de abonnements-URL.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -80,7 +81,7 @@ Het keert de lijst van abonnementen voor het geselecteerde profiel, met een URL 
 ...
 ```
 
-Voer een DELETE-verzoek uit op de gewenste service-URL.
+Voer een verzoek van de DELETE op de gewenste dienst URL uit.
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -97,7 +98,7 @@ Voer een DELETE-verzoek uit op de gewenste service-URL.
 Dit is een procedure in drie stappen.
 
 1. Haal de gewenste service en de abonnements-URL op.
-1. Voer een GET aanvraag uit op de abonnements-URL om alle abonnementen op profielen op te halen.
+1. Voer op de abonnements-URL een GET-aanvraag uit om alle abonnementen op profielen op te halen.
 1. Voer een DELETE-aanvraag uit op de gewenste profielabonnements-URL.
 
 Als het verwijderingsverzoek is gelukt, is de status van het antwoord 204 Geen inhoud.
@@ -133,7 +134,7 @@ De abonnements-URL voor de service wordt geretourneerd.
 },
 ```
 
-Voer een GET verzoek uit op de abonnements-URL.
+Voer een GET-aanvraag uit op de abonnements-URL.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
