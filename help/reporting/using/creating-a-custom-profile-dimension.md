@@ -9,10 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '813'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +37,7 @@ We moeten eerst het nieuwe profielveld **Loyalty-programma** maken dat het loyal
 >
 >De middelen van de douane kunnen slechts door een beheerder worden beheerd.
 
-Daartoe:
+Dit doet u als volgt:
 
 1. Selecteer in het menu Geavanceerd **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** vervolgens de **[!UICONTROL Profile (profile)]** aangepaste bron.
 
@@ -58,11 +59,11 @@ Daartoe:
 
    ![](assets/custom_profile_13.png)
 
-1. Voer de tekst in **[!UICONTROL Label]** en **[!UICONTROL Value]** klik op **[!UICONTROL Add]**. In dit voorbeeld moeten we de waarde goud, zilver en brons creëren. Klik **[!UICONTROL Confirm]** wanneer gereed.
+1. Voer de tekst in **[!UICONTROL Label]** en **[!UICONTROL Value]** klik op **[!UICONTROL Add]**. In dit voorbeeld moeten we de waarde goud, zilver en brons creëren. Click **[!UICONTROL Confirm]** when done.
 
    ![](assets/custom_profile_14.png)
 
-1. Selecteer het **[!UICONTROL Screen definition]** tabblad. Schakel in de **[!UICONTROL Detail screen configuration]** vervolgkeuzelijst de **[!UICONTROL Add personalized fields]** sectie in om een nieuwe sectie in ons profiel te maken.
+1. Selecteer het tabblad **[!UICONTROL Screen definition]**. Schakel in de **[!UICONTROL Detail screen configuration]** vervolgkeuzelijst de **[!UICONTROL Add personalized fields]** sectie in om een nieuwe sectie in ons profiel te maken.
 
    ![](assets/custom_profile_4.png)
 
@@ -89,7 +90,7 @@ Uw nieuwe profielveld kan nu worden gebruikt en geselecteerd door uw ontvangers.
 
 Nu uw profielgebied wordt gecreeerd, moeten wij de verzendende logboeken met ons profielgebied uitbreiden om de bijbehorende dimensie van het douaneprofiel in dynamische rapporten tot stand te brengen.
 
-Voordat u het logbestand uitbreidt met ons profielveld, controleert u of het PII-venster is geaccepteerd voor toegang tot het **[!UICONTROL Sending logs extension]** tabblad. Raadpleeg deze [pagina](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)voor meer informatie.
+Voordat u het logbestand uitbreidt met ons profielveld, controleert u of het PII-venster is geaccepteerd voor toegang tot het **[!UICONTROL Sending logs extension]** tabblad. Raadpleeg [deze pagina](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) voor meer informatie.
 
 >[!NOTE]
 >
@@ -97,16 +98,16 @@ Voordat u het logbestand uitbreidt met ons profielveld, controleert u of het PII
 
 1. Selecteer in het menu Geavanceerd **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** vervolgens de **[!UICONTROL Profile (profile)]** aangepaste bron.
 1. Open de **[!UICONTROL Sending logs extension]** vervolgkeuzelijst.
-1. Klik op de **[!UICONTROL Create element]** knop.
+1. Klik op de knop **[!UICONTROL Create element]**.
 
    ![](assets/custom_profile_9.png)
 
-1. Selecteer het veld dat u eerder hebt gemaakt en klik op **[!UICONTROL Confirm]**.
+1. Select your previously created field and click **[!UICONTROL Confirm]**.
 1. Schakel deze optie in **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** om uw aangepaste profielafmetingen te maken.
 
    ![](assets/custom_profile_10.png)
 
-   Deze optie is alleen beschikbaar als het PII-venster is geaccepteerd. Raadpleeg deze [pagina](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)voor meer informatie.
+   Deze optie is alleen beschikbaar als het PII-venster is geaccepteerd. Raadpleeg [deze pagina](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) voor meer informatie.
 
 1. Klik **[!UICONTROL Add]** dan sparen uw douanemiddel.
 1. Omdat de aangepaste bron is gewijzigd, moeten we deze publiceren om de nieuwe wijzigingen te implementeren.
@@ -125,7 +126,7 @@ Nu uw veld is gemaakt en het verzenden van logboeken is uitgebreid met dit profi
 
 Nadat u het profielveld hebt gepubliceerd, kunt u de levering starten. In dit voorbeeld, willen wij elke ontvanger richten die in het loyaliteitsprogramma wordt ingeschreven.
 
-1. Klik op het **[!UICONTROL Marketing activities]** tabblad **[!UICONTROL Create]** en selecteer **[!UICONTROL Email]**.
+1. Klik op het tabblad **[!UICONTROL Marketing activities]** op **[!UICONTROL Create]** en selecteer **[!UICONTROL Email]**.
 1. Kies een optie en voer de eigenschappen van uw e-mail in. **[!UICONTROL Email type]**
 1. Om ontvanger te richten die in het loyaliteitsprogramma wordt ingeschreven, sleep en laat vallen de **[!UICONTROL Profiles (attributes)]** activiteit.
 1. Selecteer het eerder gemaakte veld in de **[!UICONTROL Field]** vervolgkeuzelijst.
@@ -137,9 +138,9 @@ Nadat u het profielveld hebt gepubliceerd, kunt u de levering starten. In dit vo
    ![](assets/custom_profile_17.png)
 
 1. Klik **[!UICONTROL Confirm]** dan wanneer klaar het filtreren, klik **[!UICONTROL Next]**.
-1. Definieer de inhoud van het bericht, de naam van de afzender en het onderwerp en personaliseer deze. Raadpleeg deze [pagina](../../designing/using/designing-content-in-adobe-campaign.md)voor meer informatie over het maken van e-mailberichten.
+1. Definieer de inhoud van het bericht, de naam van de afzender en het onderwerp en personaliseer deze. For more information on email creation refer to this [page](../../designing/using/designing-content-in-adobe-campaign.md).
 
-   Klik vervolgens op **[!UICONTROL Create]**.
+   Then, click **[!UICONTROL Create]**.
 
 1. Als u klaar bent, kunt u een voorbeeld van uw bericht bekijken en uw bericht verzenden. Raadpleeg deze [pagina](../../sending/using/preparing-the-send.md)voor meer informatie over het voorbereiden en verzenden van uw bericht.
 
