@@ -9,10 +9,8 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 2%
@@ -203,7 +201,7 @@ U kunt een koppeling onderstrepen en de kleur en het doel ervan selecteren in de
 
 1. Sla uw wijzigingen op.
 
-## Inline-opmaakkenmerken toevoegen {#adding-inline-styling-attributes}
+## Adding inline styling attributes {#adding-inline-styling-attributes}
 
 Wanneer u in de interface E-mailontwerper een element selecteert en de instellingen van het element in het zijpaneel weergeeft, kunt u de inline-kenmerken en de bijbehorende waarde voor dat specifieke element aanpassen.
 
