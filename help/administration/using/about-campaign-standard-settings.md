@@ -1,6 +1,6 @@
 ---
-title: Informatie over standaardinstellingen voor campagnes
-description: Informatie over standaardinstellingen voor campagnes
+title: Informatie over Campaign Standard-instellingen
+description: Informatie over Campaign Standard-instellingen
 page-status-flag: never-activated
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
 contentOwner: sauviat
@@ -9,16 +9,17 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
-internal: n
-snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 9%
 
 ---
 
 
-# Informatie over standaardinstellingen voor campagnes{#about-campaign-standard-settings}
+# Informatie over Campaign Standard-instellingen{#about-campaign-standard-settings}
 
 [!DNL Campaign] De standaard wordt geleverd met verschillende toepassingselementen die kunnen worden geconfigureerd om aan uw behoeften te voldoen. U kunt bijvoorbeeld:
 
@@ -32,4 +33,4 @@ Daarnaast zijn er technische opties beschikbaar in het **[!UICONTROL Options]** 
 
 >[!IMPORTANT]
 >
->Deze opties zijn al geconfigureerd tijdens de installatie van Campagne en moeten alleen door gevorderde gebruikers worden gewijzigd. Neem contact op met uw Adobe-contactpersoon als u een vraag of verzoek hebt.
+>Deze opties zijn al geconfigureerd tijdens de installatie van Campagne en moeten alleen door gevorderde gebruikers worden gewijzigd. Neem contact op met uw Adobe als u een vraag of verzoek hebt.
