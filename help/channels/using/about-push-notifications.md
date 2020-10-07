@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1280'
 ht-degree: 50%
@@ -62,7 +60,8 @@ Raadpleeg als deskundig gebruiker de [technische toelichtingen](https://helpx.ad
 
 >[!NOTE]
 >Als u de functie voor pushmeldingen van Campaign wilt gebruiken, moet u een geldig pushcertificaat in pem-indeling opgeven zonder wachtwoorden.
-Als u een geldig p12-certificaat hebt, kunt u het gemakkelijk converteren naar een pem-bestand met online resources.
+>
+>Als u een geldig p12-certificaat hebt, kunt u het gemakkelijk converteren naar een pem-bestand met online resources.
 
 Voordat u pushmeldingen verzendt, moet u het volgende doen:
 
