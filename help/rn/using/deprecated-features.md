@@ -9,13 +9,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 discoiquuid: null
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '664'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -68,7 +66,7 @@ Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik 
  <tbody> 
   <tr> 
    <td> <p>Vanaf de release van Campagne 19.4 is het gebruik van de campagne-API en de interface voor toegangs- en verwijderingsverzoeken afgekeurd. De profielverwijdering in twee stappen is niet beschikbaar. Gebruik <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
-   <p>Zie ook <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">Privacy Management in Campaign Standard</a>.</p>
+   <p>Zie ook <a href="https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html">Privacy Management in Campaign Standard</a>.</p>
   <p> 
   <em>Doeldatum voor verwijdering: 2021</em></p>
    </td> 
