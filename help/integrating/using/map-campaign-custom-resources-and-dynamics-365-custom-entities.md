@@ -1,5 +1,5 @@
 ---
-title: Aangepaste bronnen voor campagne toewijzen en eigen entiteiten voor dynamiek 365
+title: Aangepaste bronnen van Campaign en aangepaste Dynamics 365-entiteiten toewijzen
 description: Leer hoe u bronnen en entiteiten in kaart brengt in de context van de integratie tussen Adobe Campaign Standard en Microsoft Dynamics 365.
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e11de4d4482400e62be2db076c88da5ae30d60cc
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -26,7 +24,7 @@ Leer hoe u aangepaste bronnen en aangepaste entiteiten in kaart brengt in het ka
 
 >[!CAUTION]
 >
->Deze mogelijkheid is niet beschikbaar buiten de verpakking als onderdeel van het product. Voor de implementatie moet Adobe Consulting worden ingeschakeld. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie.
+>Deze mogelijkheid is niet rechtstreeks beschikbaar als onderdeel van het product. Voor de implementatie moet Adobe Consulting worden ingeschakeld. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie.
 
 ## Vereisten
 
