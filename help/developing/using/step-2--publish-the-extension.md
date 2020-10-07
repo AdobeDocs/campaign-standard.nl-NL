@@ -9,18 +9,19 @@ audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
 discoiquuid: b57042e5-5073-4e79-a3e3-1eed824ac537
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 26%
 
 ---
 
 
 # Stap 2: De extensie publiceren{#step-publish-the-extension}
 
-1. Selecteer in het geavanceerde menu via het Adobe Campagne-logo **[!UICONTROL Administration]** > **[!UICONTROL Development]** en **[!UICONTROL Publication]**.
-1. Klik op de **[!UICONTROL Prepare Publication]** knop.
+1. Selecteer in het geavanceerde menu dat u opent via het Adobe Campaign-logo achtereenvolgens **[!UICONTROL Administration]** > **[!UICONTROL Development]** en **[!UICONTROL Publication]**.
+1. Klik op de knop **[!UICONTROL Prepare Publication]**.
 1. Selecteer de **[!UICONTROL Create the Profiles & Services Ext API]** optie.
 
    ![](assets/create-profile-and-services-api.png)
@@ -37,5 +38,5 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/extendpandsapi_diff.png)
 
-1. Klik op de **[!UICONTROL Publish]** knop.
+1. Klik op de knop **[!UICONTROL Publish]**.
 
