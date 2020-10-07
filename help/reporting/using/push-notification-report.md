@@ -1,5 +1,5 @@
 ---
-title: Pushmeldingsrapport
+title: Pushmeldingenrapport
 description: Met het Push- bericht uit-van-de-doos rapport, leer over het succes van uw dupberichten.
 page-status-flag: never-activated
 uuid: 5b121a37-1c09-4749-a409-6989978ddc4c
@@ -9,18 +9,16 @@ audience: reporting
 content-type: reference
 topic-tags: list-of-reports
 discoiquuid: a425cd59-edfd-42c5-a6bd-38773c353ff0
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Pushmeldingsrapport{#push-notification-report}
+# Pushmeldingenrapport{#push-notification-report}
 
 >[!CAUTION]
 >
@@ -38,7 +36,7 @@ De eerste **overzicht** van de Berichtenverbinding van de lijstPush is verdeeld 
 
 * **[!UICONTROL Processed/sent]**: Het totale aantal verzonden pushberichten.
 * **[!UICONTROL Delivered]**: Aantal verzonden pushmeldingen in verhouding tot het totale aantal verzonden pushmeldingen.
-* **[!UICONTROL Impressions]**: Het aantal keren dat een pushmelding aan het apparaat is afgeleverd en ongewijzigd is gelaten in het meldingscentrum. In de meeste gevallen zou het aantal indrukkingen gelijk moeten zijn aan het geleverde getal. Dit zorgt ervoor dat het apparaat het bericht kreeg en die informatie terug naar de server terugbracht.
+* **[!UICONTROL Impressions]**: Het aantal keren dat een pushmelding aan het apparaat is afgeleverd en ongewijzigd is gelaten in het meldingscentrum. In de meeste gevallen zou het aantal afdrukken gelijk moeten zijn aan het geleverde getal. Dit zorgt ervoor dat het apparaat het bericht kreeg en die informatie terug naar de server terugbracht.
 * **[!UICONTROL Unique impressions]**: Aantal indrukken door ontvanger.
 * **[!UICONTROL Click through rate]**: Percentage gebruikers die interactie hadden met de pushmelding.
 * **[!UICONTROL Open rate]**: Percentage geopende pushmeldingen.
