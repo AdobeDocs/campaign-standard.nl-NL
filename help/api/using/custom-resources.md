@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 5%
 
 ---
 
 
 # Aangepaste bronnen {#custom-resources}
 
-Adobe Campagne wordt geleverd met een vooraf gedefinieerd gegevensmodel, waarin gegevens via verschillende bronnen worden gedefinieerd. U kunt het gegevensmodel verrijken dat wordt verstrekt door de middelen uit te breiden om uw eigen douanevelden of douanetabellen, zoals aankoop of productlijsten toe te voegen.
+Adobe Campaign wordt geleverd met een vooraf gedefinieerd gegevensmodel, waarbij gegevens via verschillende bronnen worden gedefinieerd. U kunt het gegevensmodel verrijken dat wordt verstrekt door de middelen uit te breiden om uw eigen douanevelden of douanetabellen, zoals aankoop of productlijsten toe te voegen.
 
 De middelen van de douane zijn toegankelijk door APIs gebruikend het **/profileAndServicesExt** eindpunt, en de naam van het douanemiddel.
 
@@ -39,7 +40,7 @@ In dat geval zijn alle bronnen van de tabellen **Transactie**, **TransactieDetai
 
 ***Voorbeeldverzoek***
 
-De steekproef krijgt verzoek om tot het uitgebreide profileAndServicesExt middel toegang te hebben.
+Het verzoek van de GET van de steekproef om tot het uitgebreide profileAndServicesExt middel toegang te hebben.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\
@@ -76,6 +77,6 @@ Het keert de lijst van alle verbonden douanemiddelen terug. Vervolgens kunt u de
 
 Raadpleeg de documentatie bij Campagne voor meer informatie over de extensie van het gegevensmodel:
 
-* [Concepten van gegevensmodellen](../../developing/using/data-model-concepts.md)
+* [Concepten van datamodellen](../../developing/using/data-model-concepts.md)
 * [De API uitbreiden](../../developing/using/about-extending-the-api.md)
-* [Koppelingen met andere bronnen definiëren](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
+* [Koppelingen met andere resources definiëren](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
