@@ -9,13 +9,11 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '709'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -40,7 +38,7 @@ Dankzij de Adobe Campaign Standard-integratie met Dreamweaver kunt u de inhoud v
 
    Voor de e-mailontwikkelaar is het niet langer nodig om tekst als `[[FIRSTNAME_PLACEHOLDER]]` of de syntaxis van de tabellen van uw gegevensmodel toe te voegen. De werkbalk Campagne in Dreamweaver maakt rechtstreeks verbinding met het gegevensmodel van uw Campagne-instantie. Dat betekent u in om het even welke gegevens kunt trekken u voor verpersoonlijking van iets als Voornaam aan Adres wilt. Als u inhoudsblokken hebt gemaakt in de campagne, kunt u deze ook rechtstreeks naar Dreamweaver trekken.
 
-Deze mogelijkheid wordt beschreven in de Dreamweaver-documentatie die [hier](https://helpx.adobe.com/nl/dreamweaver/using/working-with-dreamweaver-and-campaign.html)toegankelijk is. Er is ook een [demonstratievideo](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html) beschikbaar.
+Deze mogelijkheid wordt beschreven in de Dreamweaver-documentatie die [hier](https://helpx.adobe.com/nl/dreamweaver/using/working-with-dreamweaver-and-campaign.html)toegankelijk is. Er is ook een [demonstratievideo](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html) beschikbaar.
 
 ## Inhoud bewerken in Experience Manager {#editing-content-in-experience-manager}
 
@@ -151,7 +149,7 @@ Adobe Campaign biedt verschillende opties voor het schrijven van e-mailberichten
    <td> <strong>Meer informatie</strong><br /> </td> 
    <td> Zie <a href="../../designing/using/designing-content-in-adobe-campaign.md">Informatie over de e-mailontwerper</a>.<br /> </td> 
    <td> Zie <a href="../../integrating/using/integrating-with-experience-manager.md">Integreren met Experience Manager</a>.<br /> </td> 
-   <td> Zie <a href="https://helpx.adobe.com/nl/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver en Campagne</a> en bekijk deze <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">video</a>.<br /> </td> 
+   <td> Zie <a href="https://helpx.adobe.com/nl/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver en Campagne</a> en bekijk deze <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
