@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2112f93fba368435850957e6e90b7c7c88ddf248
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '914'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Regels voor starten configureren om Adobe Campaign Standard-gebruiksproblemen te ondersteunen {#configuring-rules-launch}
+# Launch-regels configureren voor ondersteuning van Adobe Campaign Standard-gebruiksscenario’s {#configuring-rules-launch}
 
 In [!DNL Adobe Experience Platform Launch], moet u gegevenselementen en regels tot stand brengen om PII en andere gegevens van mobiele toepassingen naar te verzenden [!DNL Adobe Campaign Standard].
 
