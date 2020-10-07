@@ -1,6 +1,6 @@
 ---
-title: Wijzigingen in gegevensmodel controleren
-description: Leer hoe u het gegevensmodel van Adobe Campagne kunt diagnosticeren.
+title: Wijzigingen in een datamodel controleren
+description: Leer hoe u het Adobe Campaign-gegevensmodel kunt diagnosticeren.
 page-status-flag: never-activated
 uuid: 994f1e85-107d-4348-a197-87a95853fca6
 contentOwner: sauviat
@@ -9,15 +9,16 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 discoiquuid: c6375a92-339f-4123-bc69-b0da1deaf577
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 16%
 
 ---
 
 
-# Wijzigingen in gegevensmodel controleren{#monitoring-data-model-changes}
+# Wijzigingen in een datamodel controleren{#monitoring-data-model-changes}
 
 In het **[!UICONTROL Diagnosis]** menu kunt u de verschillende technische objecten raadplegen die door de toepassing worden gegenereerd, om deze te analyseren.
 
@@ -29,7 +30,7 @@ In het **[!UICONTROL Diagnosis]** menu kunt u de verschillende technische object
 
 U kunt de volgende typen objecten weergeven:
 
-* Gegevensschema&#39;s
+* Dataschema’s
 * Webpagina&#39;s
 * Filters
 * Navigatie
