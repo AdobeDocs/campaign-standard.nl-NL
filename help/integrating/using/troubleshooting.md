@@ -9,21 +9,22 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: c28e1d90-8074-4127-a6fc-ed39d69cdb19
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 1%
 
 ---
 
 
 # Problemen oplossen{#troubleshooting}
 
-Er kunnen fouten optreden tijdens het gebruik van de integratie met Audience Manager of de hoofdservice Personen.
+Er kunnen fouten optreden tijdens het gebruik van de integratie met Audience Manager of de hoofdservice van Personen.
 
 In dit geval, zorg ervoor dat de volgende elementen correct worden gevormd:
 
-* **Externe rekeningen**
+* **Externe accounts**
 
    Controleer in **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]** of de volgende externe S3-accounts correct zijn geconfigureerd. De vermelde S3 servers zouden tijdens levering moeten worden gevormd.
 
@@ -47,6 +48,7 @@ In dit geval, zorg ervoor dat de volgende elementen correct worden gevormd:
    * **Coderingssleutel** voor AES
    * **Codering IV** (initialisatievector) voor AES
    * **Kanaal** (e-mail/sms/overige): Met dit veld kunt u e-mailadressen en SMS-nummers rechtstreeks decoderen. Zorg ervoor dat de afstemmingssleutel overeenkomt met de instelling van het veld **Kanaal** . Als u &quot;Andere&quot;selecteert, zal deze specifieke decryptie niet gebeuren en de verzoeningssleutel zal worden gebruikt om de gegevens in overeenstemming te brengen.
+
    Experience Cloud-publiek wordt mogelijk niet gedeeld omdat de technische workflow is gestopt of gepauzeerd. U opent de **[!UICONTROL Import shared audience]** workflow door rechtstreeks op de **[!UICONTROL Show ImportShared Audience workflow]** optie in de gegevensbron te klikken.
 
-Het kan voorkomen dat sommige gegevens ontbreken wanneer het delen van een publiek via de de kerndienst van Mensen of wanneer het invoeren van een publiek. Alleen records waarvan de id (&#39;Bezoeker-id&#39; of &#39;Opgegeven ID&#39;) in overeenstemming kan worden gebracht met de profieldimensie, worden overgedragen. ID&#39;s uit de kernservicessegmenten van Personen die niet worden herkend door Adobe Campaign, worden niet geïmporteerd.
+Het kan voorkomen dat sommige gegevens ontbreken wanneer het delen van een publiek via de de kerndienst van Mensen of wanneer het invoeren van een publiek. Alleen records waarvan de id (&#39;Bezoeker-id&#39; of &#39;Opgegeven ID&#39;) in overeenstemming kan worden gebracht met de profieldimensie, worden overgedragen. IDs van de de kernde dienstsegmenten van Mensen die niet door Adobe Campaign worden erkend worden niet ingevoerd.
