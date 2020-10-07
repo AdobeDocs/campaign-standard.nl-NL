@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '227'
+ht-degree: 1%
 
 ---
 
 
 # Metagegevensmechanisme {#metadata-mechanism}
 
-U kunt de middelmeta-gegevens terugwinnen gebruikend **resourceType** in een GET verzoek:
+U kunt de middelmeta-gegevens terugwinnen gebruikend **resourceType** in een verzoek van de GET:
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
@@ -29,7 +30,7 @@ De reactie retourneert de hoofdmetagegevens van de bron (alle andere velden zijn
 
    * &quot;apiName&quot;: naam van het kenmerk dat in de API&#39;s wordt gebruikt.
    * &quot;type&quot;: Dit is de typedefinitie op hoog niveau (tekenreeks, nummer, koppeling, verzameling, opsomming...).
-   * &quot;dataPolicy&quot;: de waarde van het veld moet in overeenstemming zijn met de gegeven beleidsregels . Als de regel dataPolicy bijvoorbeeld is ingesteld op &#39;email&#39;, moet de waarde een geldige e-mail zijn. Tijdens PATCH of POST, kan dataPolicy de waarde controleren of de waarde wijzigen om (smartCase bijvoorbeeld) te transformeren.
+   * &quot;dataPolicy&quot;: de waarde van het veld moet in overeenstemming zijn met de gegeven beleidsregels . Als de regel dataPolicy bijvoorbeeld is ingesteld op &#39;email&#39;, moet de waarde een geldige e-mail zijn. Tijdens een PATCH of een POST, kan dataPolicy de waarde controleren of de te transformeren waarde wijzigen (smartCase bijvoorbeeld).
    * &quot;categorie&quot;: geeft de categorie van het gebied in de vraagredacteur.
    * &quot;resType&quot;: dit is het technische type.
 
@@ -47,7 +48,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 
 ***Voorbeeldverzoek***
 
-Voer een GET verzoek op het middel uit.
+Voer een verzoek van de GET op het middel uit.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
