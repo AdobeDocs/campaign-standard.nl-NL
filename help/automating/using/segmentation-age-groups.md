@@ -10,30 +10,28 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 0%
+ht-degree: 66%
 
 ---
 
 
 # Segmentering volgens leeftijdsgroepen {#segmentation-age-groups}
 
-In het volgende voorbeeld wordt een segmentatie van databaseprofielen weergegeven op basis van hun leeftijdsgroep.
+In het volgende voorbeeld wordt een segmentatie van databaseprofielen weergegeven op basis van de leeftijdsgroep.
 
-Het doel van de workflow is om voor elke leeftijdsgroep een specifieke e-mail te verzenden. Gezien het feit dat deze workflow deel uitmaakt van een testcampagne, kan elk segment slechts maximaal 100 profielen bevatten die willekeurig zijn geselecteerd om een beperkt en representatief publiek te gebruiken.
+Het doel van de workflow is om voor elke leeftijdsgroep een specifieke e-mail te verzenden. Aangezien deze workflow deel uitmaakt van een testcampagne, kan elk segment maximaal slechts 100 profielen bevatten die willekeurig zijn geselecteerd om een beperkte en representatieve doelgroep te gebruiken.
 
 ![](assets/wkf_segment_example_4.png)
 
 De workflow bestaat uit de volgende elementen:
 
-* Een [planneractiviteit](../../automating/using/segmentation.md) om de de uitvoeringsdatum van het werkschema te specificeren.
-* Een activiteit van de [Vraag](../../automating/using/query.md) aan doelprofielen van mensen van wie verjaardag en e-mailadres zijn ingegaan.
-* Een [Segmenteringsactiviteit](../../automating/using/segmentation.md) om 3 segmenten te creëren die in verschillende uitgaande overgangen worden verdeeld: 18-25 jaar oud, 26-32 jaar oud en profielen ouder dan 32 jaar. De segmenten worden gedefinieerd volgens de volgende parameters:
+* A [Scheduler activity](../../automating/using/segmentation.md) to specify the workflow&#39;s execution date.
+* A [Query](../../automating/using/query.md) activity to target profiles of people whose birthday and email address have been entered.
+* A [Segmentation](../../automating/using/segmentation.md) activity to create 3 segments divided into different outbound transitions: 18-25-year old, 26-32-year old and profiles that are over 32 years old. De segmenten worden gedefinieerd volgens de volgende parameters:
 
    ![](assets/wkf_segment_example_3.png)
 
@@ -41,7 +39,7 @@ De workflow bestaat uit de volgende elementen:
 
       ![](assets/wkf_segment_new_segment.png)
 
-   * Een **[!UICONTROL Random sampling]** typelimiet die is gekoppeld aan een **[!UICONTROL Maximum size]** limiet van 100
+   * De typelimiet **[!UICONTROL Random sampling]**, gekoppeld aan een **[!UICONTROL Maximum size]** van 100
 
       ![](assets/wkf_segment_example_1.png)
 
