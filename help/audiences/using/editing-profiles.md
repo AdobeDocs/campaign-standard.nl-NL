@@ -9,10 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 discoiquuid: 8d3ba7bf-90ae-4c6d-aaeb-a48572a69f2f
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '314'
+ht-degree: 11%
 
 ---
 
@@ -23,7 +24,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 Als u een bestaand profiel wilt bewerken en de bijbehorende gegevens wilt raadplegen of wijzigen, gaat u als volgt te werk:
 
-1. Klik op de **[!UICONTROL Customer profiles]** kaart of het **[!UICONTROL Profiles]** tabblad op de startpagina van Adobe Campagne.
+1. Klik op de Adobe Campaign-startpagina op de kaart **[!UICONTROL Customer profiles]** of het tabblad **[!UICONTROL Profiles]**.
 1. Selecteer een contactpersoon.
 1. Klik op het **[!UICONTROL Edit profile properties]** pictogram om de gedetailleerde informatie van het profiel te openen.
 
@@ -31,13 +32,13 @@ Als u een bestaand profiel wilt bewerken en de bijbehorende gegevens wilt raadpl
 
    Het eigenschappenvenster van het profiel bevat verschillende tabbladen die toegang geven tot alle profielgegevens.
 
-   Andere tabbladen kunnen ook worden weergegeven, afhankelijk van de aangepaste bronnen die zijn gemaakt of uitgebreid in Adobe Campagne. Zie [Informatie over aangepaste bronnen](../../developing/using/data-model-concepts.md)voor meer informatie over aangepaste bronnen.
+   Andere tabbladen kunnen ook worden weergegeven, afhankelijk van de aangepaste bronnen die in Adobe Campaign zijn gemaakt of uitgebreid. Zie [Informatie over aangepaste bronnen](../../developing/using/data-model-concepts.md)voor meer informatie over aangepaste bronnen.
 
    >[!NOTE]
    >
    >U kunt alleen de informatie op het **[!UICONTROL General]** tabblad wijzigen - behalve de **[!UICONTROL Traceability]** sectie.
 
-Profiles Edition is ook mogelijk met de Adobe Campagne Standard API. Raadpleeg de [desbetreffende documentatie](../../api/using/updating-profiles.md) voor meer informatie.
+Profiles Edition is ook mogelijk met de Adobe Campaign Standard API. Raadpleeg de [desbetreffende documentatie](../../api/using/updating-profiles.md) voor meer informatie.
 
 Verwant onderwerp:
 
@@ -55,7 +56,7 @@ Op het **[!UICONTROL General]** tabblad wordt de volgende informatie over het pr
 
 ![](assets/profile_creation4.png)
 
-## Logbestanden verzenden en bijhouden {#sending-and-tracking-logs}
+## Sending and tracking logs {#sending-and-tracking-logs}
 
 Met de tabbladen **[!UICONTROL Sending logs]** **[!UICONTROL Tracking logs]** en de tabbladen wordt de lijst met leveringen gegroepeerd die naar het profiel zijn verzonden, en worden alle bijbehorende volggegevens gegroepeerd.
 
