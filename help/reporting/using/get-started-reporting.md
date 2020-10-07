@@ -9,18 +9,16 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 
 
-# Get started with dynamic reporting {#get-started-reporting}
+# Aan de slag met dynamische rapportage {#get-started-reporting}
 
 <table>
 <tr>
@@ -35,7 +33,7 @@ De dynamische Rapportering verstrekt volledig klantgerichte en real-time rapport
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Met Dynamische rapportering **belemmering-en-dalingsinterface**, kunt u gegevens onderzoeken, bepalen hoe uw e-mailcampagnes tegen uw belangrijkste klantensegmenten werden uitgevoerd en hun effect op ontvangers van één enkele plaats meten.
+With Dynamic reporting **drag-and-drop interface**, you can explore data, determine how your email campaigns performed against your most important customer segments and measure their impact on recipients from one single place.
 
 **Beheer uw dynamische rapporten** dankzij verschillende functies: Vernieuw de gegevens in real time, druk uw rapporten, of voer hen als Csv- dossiers uit. U kunt uw rapporten ook delen met gebruikers van de Campaign Standard door middel van eenmalige of terugkerende e-mails.
 
