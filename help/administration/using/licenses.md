@@ -9,10 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 discoiquuid: b0056f83-610e-4fdc-95cd-bb5ed9f5c483
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 1%
 
 ---
 
@@ -25,7 +26,7 @@ In het **[!UICONTROL Licenses]** venster kunt u de geïnstalleerde licenties en 
 
 Met een nieuwe build of een nieuwe functie kunnen licentievoorwaarden veranderen en moeten deze worden geaccepteerd door een functionele beheerder van de instantie.
 
-Het volgende venster verschijnt voor standaardgebruikers na het aanmelden, er is geen actie van hun kant vereist. Ze kunnen nog steeds werken op Adobe Campaign door op de **[!UICONTROL OK]** knop te klikken.
+Het volgende venster verschijnt voor standaardgebruikers na het aanmelden, er is geen actie van hun kant vereist. Ze kunnen nog steeds op Adobe Campaign werken door op de **[!UICONTROL OK]** knop te klikken.
 
 ![](assets/license_2.png)
 
@@ -33,7 +34,7 @@ Een beheerder moet de nieuwe bepalingen van overeenkomst in de volgende 30 dagen
 
 ![](assets/license_3.png)
 
-Deze 30 dagen zijn goedgekeurd als de overeenkomst niet wordt geaccepteerd, kunnen geen gebruikers dit exemplaar gebruiken. De standaardgebruikers hebben geen toegang tot de functies van de Campagne van Adobe en zullen slechts het volgende bericht zien tot een functionele beheerder de voorwaarden van overeenkomst goedkeurt.
+Deze 30 dagen zijn goedgekeurd als de overeenkomst niet wordt geaccepteerd, kunnen geen gebruikers dit exemplaar gebruiken. De standaardgebruikers hebben geen toegang tot Adobe Campaign-functies en zien alleen het volgende bericht totdat een functionele beheerder de bepalingen van de overeenkomst accepteert.
 
 ![](assets/license_4.png)
 
