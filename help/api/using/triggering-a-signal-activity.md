@@ -9,19 +9,20 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f5c91f886335e43940caac4d3b18924c020a2d2b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '322'
+ht-degree: 2%
 
 ---
 
 
 # Een signaalactiviteit activeren {#triggering-a-signal-activity}
 
-In een werkstroom van de Standaard van de Campagne van Adobe, kunnen er één of meerdere **Externe signaalactiviteiten** zijn. Deze activiteiten zijn &#39;listeners&#39; die wachten op activering.
+In een Adobe Campaign Standard-workflow kunnen er een of meer **externe signaalactiviteiten** zijn. Deze activiteiten zijn &#39;listeners&#39; die wachten op activering.
 
-Met de API&#39;s van Campagnestandaard kunt u een **externe signaalactiviteit** activeren om een workflow aan te roepen. De API-aanroep kan parameters bevatten die worden opgenomen in de gebeurtenisvariabelen van de workflow (een doelnaam, een bestandsnaam die moet worden geïmporteerd, een deel van de berichtinhoud, enz.). Op deze manier kunt u uw campagneautomatisering eenvoudig integreren met uw externe systeem.
+Met Campaign Standard-API&#39;s kunt u een **externe signaalactiviteit** activeren om een workflow aan te roepen. De API-aanroep kan parameters bevatten die worden opgenomen in de gebeurtenisvariabelen van de workflow (een doelnaam, een bestandsnaam die moet worden geïmporteerd, een deel van de berichtinhoud, enz.). Op deze manier kunt u uw campagneautomatisering eenvoudig integreren met uw externe systeem.
 
 >[!NOTE]
 >
@@ -35,7 +36,7 @@ Volg onderstaande stappen om een workflow te activeren:
 
 1. Voer een **POST** verzoek op teruggekeerde URL uit om de signaalactiviteit, met de **&quot;bron&quot;** parameter in de nuttige lading teweeg te brengen. Dit kenmerk is verplicht, zodat u de activerende aanvraagbron kunt aangeven.
 
-Als u de workflow met parameters wilt aanroepen, voegt u deze toe aan de payload met het kenmerk **&quot;parameters&quot;** . De syntaxis bestaat uit de naam van de parameter gevolgd door de waarde (de volgende typen worden ondersteund: **tekenreeks**, **getal**, **Booleaanse waarde** en **datum/tijd**).
+Als u de workflow met parameters wilt aanroepen, voegt u deze toe aan de payload met het kenmerk **&quot;parameters&quot;** . De syntaxis bestaat uit de naam van de parameter gevolgd door de waarde (de volgende typen worden ondersteund: **tekenreeks**, **nummer**, **Booleaanse waarde** en **datum/tijd**).
 
 ```
   -X POST <TRIGGER_URL>
@@ -64,7 +65,7 @@ Als u de workflow met parameters wilt aanroepen, voegt u deze toe aan de payload
 
 ***Voorbeeldverzoek***
 
-Voer een GET verzoek op het werkschema uit.
+Voer een verzoek van de GET uit op het werkschema.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \
@@ -93,7 +94,7 @@ Het retourneert de activiteit van het workflowsignaal en de bijbehorende trigger
 }
 ```
 
-Om een signaalactiviteit teweeg te brengen, voer een verzoek van POST op de trekkerURL met &quot;bron&quot;uit. Voeg de kenmerken &quot;parameters&quot; toe als u de workflow met parameters wilt aanroepen.
+Om een signaalactiviteit teweeg te brengen, voer een verzoek van de POST op trekkerURL met &quot;bron&quot;uit. Voeg de kenmerken &quot;parameters&quot; toe als u de workflow met parameters wilt aanroepen.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
@@ -117,7 +118,7 @@ Om een signaalactiviteit teweeg te brengen, voer een verzoek van POST op de trek
 
 <!-- + réponse -->
 
-Als een van de parameters niet wordt gedeclareerd in de externe signaalactiviteit, retourneert de POST-aanvraag de onderstaande fout die aangeeft welke parameter ontbreekt.
+Als een van de parameters niet wordt gedeclareerd in de externe signaalactiviteit, retourneert de aanvraag van de POST de onderstaande fout die aangeeft welke parameter ontbreekt.
 
 ```
 RST-360011 An error has occurred - please contact your administrator.
