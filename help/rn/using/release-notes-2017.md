@@ -9,10 +9,8 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '4627'
 ht-degree: 8%
@@ -148,7 +146,7 @@ _E-mail, SMS-berichten en direct mail_
 * Wanneer een verpletterende externe rekening nu onbruikbaar wordt gemaakt, wordt een waarschuwing getoond in de beïnvloede leveringen (e-mail, SMS en duw) en de knoop van de **Voorproef** wordt verborgen in deze leveringen.
 * Probleem verholpen dat een fout veroorzaakte in de voorvertoning van een A/B-test op de e-mailinhoud toen dynamische tekst werd ingeschakeld op de onderwerpregel.
 
-_Transactieberichten_
+_Transactionele berichten_
 
 * Het is nu mogelijk om te bepalen wanneer u een vervolgbericht wilt verzenden, bijvoorbeeld 3 dagen nadat een transactiebericht is verzonden. Raadpleeg de [gedetailleerde documentatie](../../channels/using/follow-up-messages.md#sending-a-follow-up-message) voor meer informatie.
 * Het is nu mogelijk om de datum te bepalen vanaf wanneer de aan een gebeurtenis gekoppelde transactieberichten moeten worden verzonden.
@@ -332,7 +330,7 @@ _Pushmeldingen_
   </tr> 
   <tr> 
    <td> Dreamweaver-integratie live<br /> </td> 
-   <td> De integratie tussen Adobe Campaign en Dreamweaver is nu live. Het werkt nu met de officiële laatst vrijgegeven versie van Dreamweaver (17.0.2).<br /> Hiervoor is de installatie van de Adobe Campaign Integration-extensie vanaf hier vereist: <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> Raadpleeg deze <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">video</a>voor meer informatie.<br /> </td> 
+   <td> De integratie tussen Adobe Campaign en Dreamweaver is nu live. Het werkt nu met de officiële laatst vrijgegeven versie van Dreamweaver (17.0.2).<br /> Hiervoor is de installatie van de Adobe Campaign Integration-extensie vanaf hier vereist: <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> Raadpleeg deze <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -352,7 +350,7 @@ _E-mails en SMS-berichten_
 * Probleem verholpen dat tot een fout leidde bij de weergave van bijgehouden URL&#39;s van een levering zonder URL in de inhoud.
 * Probleem verholpen waarbij de groottekenmerken van een afbeelding niet correct werden toegepast in het verzonden bericht.
 
-_Transactieberichten_
+_Transactionele berichten_
 
 * Het veld rtEventHistoId wordt niet meer weergegeven als een personalisatieveld in een transactiemalplaatje.
 
@@ -405,10 +403,10 @@ _Pushmeldingen_
   </tr> 
   <tr> 
    <td> Dreamweaver-integratie (Labs)<br /> </td> 
-   <td> Dankzij de integratie met Adobe Campaign en Dreamweaver hebt u nu een geïntegreerd proces voor het maken van e-mailcampagnes met Adobe-oplossingen.<br /> U kunt Adobe Campaign-e-mailberichten bewerken in Dreamweaver en de inhoud naadloos laten synchroniseren tussen beide oplossingen.<br /> Voor de eerste release is de integratie beschikbaar als een 'Labs'-functie en werkt deze alleen met Dreamweaver Pre Release Beta. Neem contact op met AC-DW-integration@adobe.com als u dit wilt activeren.<br /> Raadpleeg deze <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">video</a>voor meer informatie.<br /> </td> 
+   <td> Dankzij de integratie met Adobe Campaign en Dreamweaver hebt u nu een geïntegreerd proces voor het maken van e-mailcampagnes met Adobe-oplossingen.<br /> U kunt Adobe Campaign-e-mailberichten bewerken in Dreamweaver en de inhoud naadloos laten synchroniseren tussen beide oplossingen.<br /> Voor de eerste release is de integratie beschikbaar als een 'Labs'-functie en werkt deze alleen met Dreamweaver Pre Release Beta. Neem contact op met AC-DW-integration@adobe.com als u dit wilt activeren.<br /> Raadpleeg deze <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tijdoptimalisatie voor handmatig verzenden<br /> </td> 
+   <td> Manual send time optimization<br /> </td> 
    <td> U kunt nu handmatig een aangepaste verzendtijd per ontvanger definiëren - op leveringsniveau of met behulp van een workflow. <br /> Er zijn twee nieuwe opties beschikbaar: <br /> 
     <ul> 
      <li> Alle ontvangers ontvangen het bericht met hun tijdzone in rekening gebracht. </li> 
