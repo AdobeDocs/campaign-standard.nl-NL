@@ -1,6 +1,6 @@
 ---
-title: Technische aanbevelingen voor de aflevering van Adobe Campagne Standard
-description: Lees meer over enkele technische aanbevelingen om de prestaties te verbeteren met Adobe Campagne Standard.
+title: Technische aanbevelingen voor leveringsmogelijkheden voor Adobe Campaign Standard
+description: Lees meer over enkele technische aanbevelingen om de leverbaarheid met Adobe Campaign Standard te verbeteren.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 41502fb6574879d3e69440f49a20fbc1c76ff26c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +23,7 @@ source-git-commit: 41502fb6574879d3e69440f49a20fbc1c76ff26c
 
 Hieronder vindt u een overzicht van verschillende technieken, configuraties en gereedschappen die u kunt gebruiken om de snelheid van de te leveren items te verbeteren. Hier volgen enkele definities van de belangrijkste technische termen.
 
-**DNS** omkeren: De Campagne van Adobe controleert of omgekeerde DNS voor een IP adres wordt gegeven en dat dit correct naar IP wijst.
+**DNS** omkeren: Adobe Campaign controleert of omgekeerde DNS voor een IP adres wordt gegeven en dat dit correct naar IP wijst.
 
 **MX de regels** worden gebruikt om de snelheid te controleren waarbij de Campagne MTA (de Agent van de Overdracht van het Bericht) e-mail naar elk individueel e-maildomein of ISP (b.v. hotmail.com, comcast.net) verzendt. Deze regels zijn typisch gebaseerd op grenzen die door ISPs worden gepubliceerd (bijvoorbeeld omvatten niet meer dan 20 berichten per elke verbinding SMTP).
 
@@ -40,4 +41,4 @@ DMARC kan de rapporten gebruiken die door 250ok worden geproduceerd.
 
 **SMTP** (Simple Mail Transfer Protocol) is een internetstandaard voor e-mailverzending.
 
-**Specifieke IP&#39;s**: Adobe biedt een speciale IP-strategie voor elke klant met een IP-bestand voor het maken van een upgrade om een reputatie op te bouwen en de prestaties van de levering te optimaliseren.
+**Specifieke IP&#39;s**: Adobe verstrekt een specifieke IP strategie voor elke klant van een oprijplaat-omhoog IP om een reputatie te bouwen en leveringsprestaties te optimaliseren.
