@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: in-app-messaging
 discoiquuid: a4168cfb-22bf-4ab3-b9d8-6e76e1bdc055
 context-tags: delivery,triggers,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4efc42fd6b656c7723ed52f704c801113f9b3817
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
@@ -33,7 +31,7 @@ Als u in-app-berichten wilt verzenden op mobiele toepassingen met behulp van de 
 
 1. Zorg ervoor dat u in Adobe Campaign toegang hebt tot het kanaal **[!UICONTROL In-App]**. Neem contact op met uw accountteam als u geen toegang hebt tot deze kanalen.
 
-1. Als u mobiele gebruiksscenario’s in Adobe Campaign Standard wilt gebruiken met een Experience Cloud SDK-applicatie, moet u een mobiele app maken in Adobe Experience Platform Launch en deze configureren in Adobe Campaign Standard. Raadpleeg deze [pagina](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html) voor de stapsgewijze handleiding.
+1. Als u mobiele gebruiksscenario’s in Adobe Campaign Standard wilt gebruiken met een Experience Cloud SDK-applicatie, moet u een mobiele app maken in Adobe Experience Platform Launch en deze configureren in Adobe Campaign Standard. Raadpleeg deze [pagina](https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdk.html) voor de stapsgewijze handleiding.
 
 1. Zodra de configuratie is voltooid, kunt u uw in-app-bericht voorbereiden. Raadpleeg [deze pagina](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message) voor meer informatie.
 
