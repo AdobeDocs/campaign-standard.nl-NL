@@ -1,5 +1,5 @@
 ---
-title: Een bestandspubliek in overeenstemming brengen met de database
+title: Een doelgroep Bestand afstemmen op de database
 description: In dit voorbeeld ziet u hoe u de publieksactiviteit Lezen gebruikt om een publiek te combineren dat rechtstreeks is gemaakt op basis van een geïmporteerd bestand.
 page-status-flag: never-activated
 uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
@@ -10,28 +10,26 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 0%
+ht-degree: 87%
 
 ---
 
 
-# Een bestandspubliek in overeenstemming brengen met de database {#example--reconcile-a-file-audience-with-the-database}
+# Een doelgroep Bestand afstemmen op de database {#example--reconcile-a-file-audience-with-the-database}
 
-In dit voorbeeld wordt getoond hoe u de **[!UICONTROL Read audience]** activiteit kunt gebruiken om een publiek te verzoenen dat rechtstreeks is gemaakt van het importeren van een bestand.
+In dit voorbeeld wordt getoond hoe u de activiteit **[!UICONTROL Read audience]** kunt gebruiken om een doelgroep af te stemmen die rechtstreeks vanaf een bestandsimport is gemaakt.
 
-Wanneer u een bestand importeert, kunt u de inhoud rechtstreeks in een publiek opslaan. Dit publiek is een publiek van het Dossier en zijn gegevens zijn niet verbonden met om het even welke gegevensbestandmiddelen.
+Wanneer u een bestand importeert, kunt u de content ervan rechtstreeks in een doelgroep opslaan. Deze doelgroep is een doelgroep File en de data ervan zijn niet gekoppeld aan databaseresources.
 
 De importworkflow is als volgt ontworpen:
 
 ![](assets/readaudience_activity_example3.png)
 
-* Een [activiteit van het Laad dossier](../../automating/using/load-file.md) uploadt een dossier dat profielgegevens bevat die uit een extern hulpmiddel werden gehaald.
+* Met een activiteit [Bestand laden](../../automating/using/load-file.md) uploadt u een bestand met profieldata die uit een extern hulpprogramma zijn geëxtraheerd.
 
    Bijvoorbeeld:
 
@@ -49,12 +47,12 @@ De importworkflow is als volgt ontworpen:
    Ross;Timothy;04/07/1986;timross@example.com;157643
    ```
 
-* Met de publieksactiviteit [Opslaan](../../automating/using/save-audience.md) worden de binnenkomende gegevens als een publiek opgeslagen. Aangezien de gegevens nog niet met elkaar in overeenstemming zijn gebracht, is het publiek een bestandspubliek en worden de gegevens ervan nog niet herkend als profielgegevens.
+* Met de activiteit [Doelgroep opslaan](../../automating/using/save-audience.md) worden de binnenkomende data als een doelgroep opgeslagen. Aangezien de data nog niet zijn afgestemd, is de doelgroep een doelgroep File en worden de data ervan nog niet herkend als profieldata.
 
 De afstemmingsworkflow is als volgt ontworpen:
 
 ![](assets/readaudience_activity_example2.png)
 
-* Een [Lees publiek](../../automating/using/read-audience.md) activiteit uploadt het publiek van het Dossier dat in het de invoerwerkschema wordt gecreeerd. De publieksgegevens zijn nog niet in overeenstemming met de Adobe Campaign-database.
-* Met een [afstemmingsactiviteit](../../automating/using/reconciliation.md) worden de inkomende gegevens via het **[!UICONTROL Identification]** tabblad aangeduid als profielen. Bijvoorbeeld door het veld **E-mail** te gebruiken als afstemmingscriteria.
-* Een [updategegevensactiviteit](../../automating/using/update-data.md) neemt en werkt het profielmiddel van het gegevensbestand met de inkomende gegevens op. Aangezien de gegevens al als profielen worden geïdentificeerd, kunt u de **[!UICONTROL Directly using the targeting dimension]** optie selecteren en **[!UICONTROL Profiles]** op het **[!UICONTROL Identification]** tabblad van de activiteit selecteren. Vervolgens hoeft u alleen maar de lijst met velden toe te voegen die op het tabblad Afhankelijk moeten worden bijgewerkt.
+* A [Read audience](../../automating/using/read-audience.md) activity uploads the File audience created in the import workflow. De doelgroepsdata zijn nog niet afgestemd op de Adobe Campaign-database.
+* Met een activiteit [Afstemming](../../automating/using/reconciliation.md) worden de binnenkomende data via het tabblad **[!UICONTROL Identification]** aangeduid als profielen. Bijvoorbeeld door het veld **email** te gebruiken als afstemmingscriteria.
+* Met een activiteit [Data bijwerken](../../automating/using/update-data.md) wordt de resource met de profielen van de database ingevoegd en bijgewerkt met de binnenkomende data. Aangezien de data al als profielen zijn geïdentificeerd, kunt u de optie **[!UICONTROL Directly using the targeting dimension]** selecteren en **[!UICONTROL Profiles]** selecteren op het tabblad **[!UICONTROL Identification]** van de activiteit. Vervolgens hoeft u alleen maar de lijst met velden toe te voegen die op het overeenkomstige tabblad moeten worden bijgewerkt.
