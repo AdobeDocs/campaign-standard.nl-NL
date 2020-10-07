@@ -1,5 +1,5 @@
 ---
-title: Gecodeerde gegevens beheren
+title: Versleutelde data beheren
 description: Leer hoe u gecodeerde gegevens beheert.
 page-status-flag: never-activated
 uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
@@ -9,18 +9,16 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bd48bb03e6f02a65e6f82cd9cb3131f153e19875
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '938'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
 
-# Gecodeerde gegevens beheren {#managing-encrypted-data}
+# Versleutelde data beheren {#managing-encrypted-data}
 
 ## Voorbereidende verwerkingsfasen {#about-preprocessing-stages}
 
