@@ -9,13 +9,11 @@ audience: sending
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -32,7 +30,7 @@ Deze functie is standaard uitgeschakeld. Deze optie wordt ingeschakeld wanneer h
 >
 >Deze functie is beschikbaar voor e-mailberichten en voor databases die alleen Engelse inhoud bevatten. Het getrainde model is inconsistent en leidt tot onjuiste resultaten als uw exemplaar e-mails in andere talen bevat. De optie waarmee u een onderwerp kunt testen, is alleen zichtbaar als er al een model beschikbaar is in uw exemplaar.
 
-Zie deze [sectie](#importing-models)voor meer informatie over het importeren van modellen.
+For more on importing models, see this [section](#importing-models).
 
 ## De onderwerpregel testen {#testing-subject-line}
 
@@ -40,8 +38,8 @@ Volg onderstaande stappen om de onderwerpregel te testen:
 
 1. Maak of open uw e-mail.
 1. Open de inhoud en voer het onderwerp van de e-mail in het desbetreffende invoerveld in.
-1. Klik op de **[!UICONTROL Test subject]** knop om het **[!UICONTROL Test your subject line]** venster te openen. U kunt het onderwerp nog steeds bewerken vanuit dit venster.
-1. Selecteer het juiste model waarmee rekening moet worden gehouden voor de voorspelling van de open snelheid. Er zijn verschillende modellen beschikbaar, elk voor een specifieke bedrijfstak. Zie deze [sectie](#importing-models)voor meer informatie over het gebruik van modellen.
+1. Click the **[!UICONTROL Test subject]** button to access the **[!UICONTROL Test your subject line]** window. U kunt het onderwerp nog steeds bewerken vanuit dit venster.
+1. Selecteer het juiste model waarmee rekening moet worden gehouden voor de voorspelling van de open snelheid. Er zijn verschillende modellen beschikbaar, elk voor een specifieke bedrijfstak. For more on using models, see this [section](#importing-models).
 1. Klik op **[!UICONTROL Test]**.
 
 Uw onderwerp wordt vervolgens geanalyseerd.
@@ -54,7 +52,7 @@ Verschillende indicatoren worden berekend en er wordt een set gereedschappen wee
 
 * **Voorspelde open snelheid**: Deze grafiek geeft u een idee van het open tarief u voor e-mail met zijn huidig onderwerp kunt verwachten.
 * **Lengte** onderwerp: Met deze indicator kunt u zien of de huidige lengte van het onderwerp correct is of dat deze langer of korter moet zijn.
-* **Kleurwoorden**: Bij het testen van het onderwerp zijn groen gemarkeerde woorden de woorden die het meest bijdragen aan het verhogen van de open-snelheidsvoorspelling. Woorden die rood worden gemarkeerd, zijn de woorden die het minst bijdragen aan het vergroten van de voorspelbaarheid van de open snelheid. Als u woorden aan het onderwerp toevoegt of eruit verwijdert, veranderen de gemarkeerde woorden.
+* **Kleurwoorden**: Bij het testen van het onderwerp zijn groen gemarkeerde woorden de woorden die het meest bijdragen aan het verhogen van de open-snelheidsvoorspelling. Woorden die rood worden gemarkeerd, zijn de woorden die het minst bijdragen aan het vergroten van de voorspellingen van de open snelheid. Als u woorden aan het onderwerp toevoegt of eruit verwijdert, veranderen de gemarkeerde woorden.
 * **Categorieën en suggesties** voor woorden: In het onderste gedeelte van het venster wordt een aantal relevante categorieën voor het geselecteerde model weergegeven. Deze categorieën worden gesorteerd op volgorde van belangrijkheid en u kunt zien of uw onderwerp woorden bevat die eraan gekoppeld zijn via een vinkje. Elke categorie bevat een aantal voorgestelde woorden die in uw onderwerp kunnen worden gebruikt om het relevanter te maken en het open tarief te verhogen. Deze woorden worden het meest gebruikt in een bepaalde categorie.
 
 >[!NOTE]
@@ -73,24 +71,24 @@ Er wordt standaard geen model uitgevoerd op uw Adobe Campaign-server. Er zijn tw
 ### Een lokaal model trainen {#training-local-model}
 
 * Als u Adobe Campaign al gebruikt, wordt het lokale model automatisch opgeleid voor de berichten die u al hebt verzonden.
-* Als Adobe Campagne nieuw voor u is, kunt u een CSV-bestand van uw vorige systeem/ESP extraheren dat vier kolommen bevat: datum, onderwerp, wordt geopend, verzonden. Ga hiertoe naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Subject Line Import]** en volg de instructies op de volgende schermen. Importeer een lokaal model zoals hieronder beschreven wanneer het uploaden van het onderwerp is voltooid. Het lokale model wordt automatisch getraind met de gegevens u uploadde.
-* Als u nog geen ervaring hebt met Adobe Campaign en geen CSV-bestand kunt krijgen zoals hierboven beschreven, kunt u een [vooraf opgeleid model](#pre-trained-models) gebruiken of wachten tot u voldoende leveringsgegevens op uw systeem hebt om een lokaal model op te leiden. Het systeem zal automatisch bepalen of uw huidige gegevensreeks genoeg gegevens bevat om patronen te erkennen en het model op te leiden.
+* Als u nog geen ervaring hebt met Adobe Campaign, kunt u een CSV-bestand van uw vorige systeem/ESP extraheren dat vier kolommen bevat: datum, onderwerp, wordt geopend, verzonden. Ga hiertoe naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Subject Line Import]** en volg de instructies op de volgende schermen. Importeer een lokaal model zoals hieronder beschreven wanneer het uploaden van het onderwerp is voltooid. Het lokale model wordt automatisch getraind met de gegevens u uploadde.
+* Als u nog geen ervaring hebt met Adobe Campaign en geen CSV-bestand kunt krijgen zoals hierboven beschreven, kunt u een [vooraf opgeleid model](#pre-trained-models) gebruiken of wachten tot u voldoende leveringsgegevens in uw systeem hebt om een lokaal model op te leiden. Het systeem zal automatisch bepalen of uw huidige gegevensreeks genoeg gegevens bevat om patronen te erkennen en het model op te leiden.
 
 >[!NOTE]
 >
->Er is geen gedefinieerd aantal onderwerpregel nodig om uw eigen model te trainen. Zie [Problemen oplossen](#troubleshooting)voor meer informatie.
+>Er is geen gedefinieerd aantal onderwerpregel nodig om uw eigen model te trainen. For more on this, see [Troubleshooting](#troubleshooting).
 >
 >U kunt slechts één getraind model op uw exemplaar hebben.
 
 Een lokaal model trainen:
-1. Download subjectLineTraining.xml van [hier](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) en gebruik de functie [package import](../../automating/using/managing-packages.md) om deze naar uw Adobe Campagne-instantie te uploaden. De training wordt automatisch uitgevoerd via een technische workflow.
+1. Download subjectLineTraining.xml van [hier](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) en gebruik de functie [package import](../../automating/using/managing-packages.md) om deze naar uw Adobe Campaign-instantie te uploaden. De training wordt automatisch uitgevoerd via een technische workflow.
 1. De eerste keer dat u een model wilt trainen, kan een beheerder dwingen om te beginnen van **[!UICONTROL SubjectLine Training workflow]** > **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** **[!UICONTROL Workflows]** menu.
 1. Nadat een model is geüpload en opgeleid, wordt de functie automatisch geactiveerd en wordt een nieuwe optie weergegeven naast het veld voor de onderwerpregel van uw berichten.
 1. De technische workflow zal dan automatisch elke week uw model trainen.
 
 ### Voorgeschoolde modellen importeren {#pre-trained-models}
 
-Klik [hier](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)om deze modellen te openen. Gebruik de functie voor het importeren van [pakketten](../../automating/using/managing-packages.md) om een model te uploaden naar uw Adobe Campagne-instantie.
+Klik [hier](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)om deze modellen te openen. Gebruik de functie voor het importeren van [pakketten](../../automating/using/managing-packages.md) om een model te uploaden naar uw Adobe Campaign-instantie.
 
 De modellen die voor gebruik beschikbaar zijn zijn:
 
@@ -113,7 +111,7 @@ Een voorspellende onderwerpregel is een automatisch leerproces waarin alle onder
 
 Om uw eigen model te kunnen trainen, moeten de onderwerpreeksen worden gevarieerd en mogen geen duplicaten hebben, ongeacht het aantal onderwerpreeksen dat wordt gebruikt om uw model op te leiden.
 
-De kwaliteit van de onderwerpregel is essentieel. Als er onvoldoende kwaliteitsgegevens zijn om te verwerken of als alle vorige onderwerpregel te veel op elkaar lijken, kan het systeem het model niet trainen en krijgt u mogelijk een foutbericht. Het betekent dat uw bestaande set records geen betrouwbare voorspellende suggestie biedt.
+De kwaliteit van de onderwerpregel is essentieel. Als er onvoldoende kwaliteitsgegevens zijn om te verwerken of als alle vorige onderwerpregel te veel op elkaar lijken, kan het systeem het model niet trainen en krijgt u mogelijk een foutbericht. Dit betekent dat uw bestaande set records geen betrouwbare voorspellende suggestie biedt.
 
 In dit geval moet u de gegevens die u uploadt controleren en ervoor zorgen dat de onderwerpregel zo gevarieerd is dat het model efficiënt wordt opgeleid.
 
