@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 5%
 
 ---
 
@@ -34,7 +35,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>amMappingId</td>
-                  <td>Toewijzings-id van Auditiebeheer</td>
+                  <td>Toewijzing-id Audience Manager</td>
                   <td>tekenreeks (100)</td>
                   <td> </td>
                </tr>
@@ -69,7 +70,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                   <td> </td>
                </tr>
                <tr>
-                  <td>aantal</td>
+                  <td>count</td>
                   <td>Aantal</td>
                   <td>integer </td>
                   <td> </td>
@@ -172,7 +173,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>name</td>
-                  <td>ID</td>
+                  <td>Id</td>
                   <td>tekenreeks (64)</td>
                   <td> </td>
                </tr>
@@ -208,7 +209,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>titel</td>
-                  <td>Publiek</td>
+                  <td>Doelgroep</td>
                   <td>tekenreeks (255)</td>
                   <td> </td>
                </tr>
