@@ -1,5 +1,5 @@
 ---
-title: De Organizer-eenheid van een profiel bijwerken
+title: De organisatorische eenheid van een profiel bijwerken
 description: Leer hoe u de Organizer-eenheid van een profiel kunt bijwerken met API's.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,18 +9,19 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 10%
 
 ---
 
 
-# De Organizer-eenheid van een profiel bijwerken {#managing-organizational-units}
+# De organisatorische eenheid van een profiel bijwerken {#managing-organizational-units}
 
-1. Voer een GET verzoek op het **orgUnitBase** middel uit om de Organisatorische eenheid PKey terug te winnen
-1. Voer een PATCH-verzoek uit op het profiel PKey met de gewenste PKey-organisatie in de payload.
+1. Voer een verzoek van de GET op het **orgUnitBase** middel uit om de Organisatorische eenheid PKey terug te winnen
+1. Voer een verzoek van PATCH op het profiel PKey, met de gewenste Organisatorische eenheid PKey in de lading uit.
 
 <br/>
 
@@ -52,7 +53,7 @@ Alle organisatie-eenheden worden geretourneerd. Haal de sleutel van de eenheid o
 },
 ```
 
-Voer een PATCH-verzoek uit op het profiel met de PKey van de gewenste organisatie-eenheid in de payload.
+Voer een verzoek van de PATCH op het profiel, met PKey van de gewenste Organisatorische eenheid in de lading uit.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \
