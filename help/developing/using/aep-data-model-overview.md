@@ -1,6 +1,6 @@
 ---
 title: Overzicht van het ervaringsgegevensmodel
-description: Experience Data Model (XDM) is een standaardset gegevensschema's waarin gegevens kunnen worden opgenomen voor gebruik met Adobe Experience Platform-oplossingen en -producten.
+description: Het Model van Gegevens van de ervaring (XDM) is een standaardreeks gegevensschema's waarin de gegevens voor gebruik met de oplossingen en de producten van Adobe Experience Platform zouden kunnen worden opgenomen.
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
 contentOwner: sauviat
@@ -9,10 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 7%
 
 ---
 
@@ -21,9 +22,9 @@ source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector is momenteel in bèta, die vaak zonder kennisgeving kan worden bijgewerkt. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
+>Adobe Experience Platform Data Connector bevindt zich momenteel in bèta, die vaak zonder voorafgaande kennisgeving kan worden bijgewerkt. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 
-Experience Data Model (XDM) is een standaardset gegevensschema&#39;s waarin gegevens kunnen worden opgenomen voor gebruik met Adobe Experience Platform-oplossingen en -producten.
+Het Model van Gegevens van de ervaring (XDM) is een standaardreeks gegevensschema&#39;s waarin de gegevens voor gebruik met de oplossingen en de producten van Adobe Experience Platform zouden kunnen worden opgenomen.
 
 Het maken en beheren van XDM-schema&#39;s is beschikbaar met een specifieke API of met de XDM-gebruikersinterface.
 
@@ -31,9 +32,9 @@ Het maken en beheren van XDM-schema&#39;s is beschikbaar met een specifieke API 
 
 XDM Workspace biedt de mogelijkheid om gegevensschema&#39;s weer te geven, te maken en uit te breiden.
 
-Open het Adobe Experience Platform voor toegang tot de XDM-gebruikersinterface. Navigeer naar het venster Gegevensmodel om een XDM-schema te maken of uit te breiden.
+Open Adobe Experience Platform om de XDM-gebruikersinterface te openen. Navigeer naar het venster Gegevensmodel om een XDM-schema te maken of uit te breiden.
 
-Raadpleeg de volledige [XDM Workspace documentatie](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
+Raadpleeg de volledige [XDM Workspace documentatie](https://docs.adobe.com/content/help/nl-NL/experience-platform/xdm/api/getting-started.html).
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -48,4 +49,4 @@ U kunt de volgende handelingen uitvoeren via de XDM Schema-API:
 * Schema-beschrijvingen weergeven
 * Schema-descriptors maken, bijwerken en verwijderen
 
-Alle details om API vraag te manipuleren zijn beschikbaar in de Gids [van de](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)Ontwikkelaar.
+Alle details om API vraag te manipuleren zijn beschikbaar in de Gids [van de](https://docs.adobe.com/content/help/nl-NL/experience-platform/xdm/api/getting-started.html)Ontwikkelaar.
