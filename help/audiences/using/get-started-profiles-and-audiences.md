@@ -9,13 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 8%
+ht-degree: 18%
 
 ---
 
@@ -29,11 +27,11 @@ ht-degree: 8%
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">Privacynaleving</a></p></td></tr>
 </table>
 
-De campagne geïntegreerde klantenprofielen staat u toe om elke interactie met klanten over alle kanalen binnen één enkele mening te volgen, toestaand u om relevante en gepersonaliseerde berichten aan uw klanten te leveren.
+Met Campaign-geïntegreerde klantprofielen kunt u alle interacties met klanten via alle kanalen volgen binnen één weergave, waardoor u relevante en gepersonaliseerde berichten aan uw klanten kunt leveren.
 
-Segmenteer uw database in publiek om het doel van uw marketingcampagnes te optimaliseren.
+Segmenteer uw database in doelgroepen om de target van uw marketingcampagnes te optimaliseren.
 
-Beheer de machtigingen en toestemming van klanten met behulp van services en bestemmingspagina&#39;s voor eenvoudige opt-in- en opt-out-mechanismen.
+Beheer machtigingen en toestemming van klanten door met behulp van services en landingspagina’s eenvoudige opt-in- en opt-out-mechanismen in te stellen.
 
 ## Segmentering en doelgerichtheid {#segmenting-targeting}
 
@@ -57,7 +55,7 @@ Meer informatie:
 * [De Campaign-database verrijken](../../audiences/using/enriching-campaign-database.md)
 * [Informatie over doelgroepen](../../audiences/using/about-audiences.md)
 * [Een doelgroep in een bericht selecteren](../../audiences/using/selecting-an-audience-in-a-message.md)
-* [Een besturingsgroep toevoegen](../../sending/using/control-group.md)
+* [Een controlegroep toevoegen](../../sending/using/control-group.md)
 
 ## Toestemming en toestemming {#permission}
 
