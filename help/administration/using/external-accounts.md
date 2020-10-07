@@ -9,14 +9,12 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
-internal: n
-snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 9ba56ca09a1ae948b6d4b1945085f59db1ade973
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1774'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -87,14 +85,15 @@ Om dergelijke problemen te voorkomen, wordt u aangeraden de onderstaande best pr
 * Meld u af en toe aan bij de SFTP om de content rechtstreeks te controleren.
 * Vergeet niet dat SFTP-schijfbeheer in de eerste plaats uw verantwoordelijkheid is.
 
-Ook, merk op dat openbare IPs waarvan u probeert om de verbinding in werking te stellen SFTP aan de lijst van gewenste personen op de instantie van de Campagne moet worden toegevoegd. Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
+Ook, merk op dat openbare IPs waarvan u probeert om de verbinding in werking te stellen SFTP aan de lijst van gewenste personen op de instantie van de Campagne moet worden toegevoegd. Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
 
 SFTP-servers kunnen worden beheerd via het Configuratiescherm. Zie de [Configuratiescherm-documentatie](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html) voor meer informatie.
 
 >[!NOTE]
 >
 >Het Configuratiescherm is alleen beschikbaar voor Admin-gebruikers van klanten die op AWS worden gehost.
-Controleer [hier](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id) of uw instantie op AWS wordt gehost.
+>
+>Controleer [hier](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id) of uw instantie op AWS wordt gehost.
 
 ## OAuth 2.0-account {#oauth-account}
 
