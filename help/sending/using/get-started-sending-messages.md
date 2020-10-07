@@ -9,13 +9,11 @@ audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
 discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -96,6 +94,6 @@ Meer informatie:
 * [E-mails ontwerpen voor een A/B-test](../../channels/using/designing-an-a-b-test-email.md)
 * [Een test verzenden, een e-mail (video) voorbereiden en verzenden](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [Een e-maillevering en rapporten controleren (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
-* [Aan de slag met e-mails](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
+* [Aan de slag met e-mails](https://helpx.adobe.com/nl/campaign/kb/acs-get-started-with-emails.html)
 * [Best practices voor levering](../../sending/using/delivery-best-practices.md)
-* [Een besturingsgroep toevoegen](../../sending/using/control-group.md)
+* [Een controlegroep toevoegen](../../sending/using/control-group.md)
