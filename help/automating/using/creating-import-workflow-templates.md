@@ -1,5 +1,5 @@
 ---
-title: Workflowsjablonen maken om gegevens te importeren
+title: Workflowsjablonen maken om data te importeren
 description: Leer hoe u werkstroomsjablonen maakt om gegevens te importeren.
 page-status-flag: never-activated
 uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
@@ -9,22 +9,20 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1172'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Workflowsjablonen maken om gegevens te importeren {#import-workflow-template}
+# Workflowsjablonen maken om data te importeren {#import-workflow-template}
 
 Het gebruik van een importsjabloon is de beste manier als u regelmatig bestanden met dezelfde structuur moet importeren.
 
-In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebruikt voor het importeren van profielen die afkomstig zijn van een CRM in de Adobe Campagne-database.
+In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebruikt voor het importeren van profielen die afkomstig zijn van een CRM in de Adobe Campaign-database.
 
 1. Een nieuw werkstroomsjabloon maken op basis van **[!UICONTROL Resources > Templates > Workflow templates]**.
 1. Voeg de volgende activiteiten toe:
@@ -39,6 +37,7 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
    * **[!UICONTROL Segmentation]**: Maak filters om records op een andere manier te verwerken, afhankelijk van de vraag of ze met elkaar in overeenstemming kunnen worden gebracht.
    * **[!UICONTROL Deduplication]**: Dupliceer de gegevens uit het binnenkomende bestand voordat deze in de database worden ingevoegd.
    * **[!UICONTROL Update data]**: Werk de database bij met de geïmporteerde profielen.
+
    ![](assets/import_template_example0.png)
 
 1. Configureer de **[!UICONTROL Load file]** activiteit:
@@ -62,6 +61,7 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
 
    * Selecteer **[!UICONTROL Relations]** en definieer op het **[!UICONTROL Create element]** tabblad een koppeling tussen de geïmporteerde gegevens en de ontvangers voor dimensie (zie [Doelafmetingen en -bronnen](../../automating/using/query.md#targeting-dimensions-and-resources)). In dit voorbeeld, wordt het de douaneveld van identiteitskaart van **CRM** gebruikt om te creëren toetreedt voorwaarde. Gebruik het veld of de combinatie van velden die u nodig hebt, zolang u unieke records kunt identificeren.
    * Laat op het **[!UICONTROL Identification]** tabblad de **[!UICONTROL Identify the document from the working data]** optie uitgeschakeld.
+
    ![](assets/import_template_example2.png)
 
 1. Configureer de **[!UICONTROL Segmentation]** activiteit om onderling afgestemde ontvangers in één overgang en ontvangers op te halen die niet in overeenstemming konden worden gebracht maar die voldoende gegevens in een tweede overgang hebben.
@@ -105,6 +105,7 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
 
    * In dit voorbeeld wordt het e-mailveld gebruikt om unieke profielen te zoeken. U kunt elk veld gebruiken waarvan u zeker weet dat het is ingevuld en deel uitmaakt van een unieke combinatie.
    * Kies een **[!UICONTROL Deduplication method]**. In dit geval bepaalt de toepassing automatisch welke records worden bijgehouden in het geval van duplicaten.
+
    ![](assets/import_template_example7.png)
 
 1. Vorm de **[!UICONTROL Update data]** activiteit die na de eerder gevormde **[!UICONTROL Deduplication]** activiteit wordt gevestigd.
