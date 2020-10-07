@@ -1,5 +1,5 @@
 ---
-title: Privacy-gegevensbestanden ophalen
+title: Bestanden met privacygegevens ophalen
 description: Leer hoe u privacygegevensbestanden ophaalt met API's
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,19 +9,20 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '199'
+ht-degree: 6%
 
 ---
 
 
-# Privacy-gegevensbestanden ophalen {#retrieving-privacy-data-files}
+# Bestanden met privacygegevens ophalen {#retrieving-privacy-data-files}
 
 >[!CAUTION]
 >
->De integratie van de Dienst [van de Dienst van de](https://adobe.io/apis/cloudplatform/gdpr.html) Privacy is de methode u voor alle toegang zou moeten gebruiken en verzoeken schrapt. Vanaf 19.4 is het gebruik van de campagne-API en de interface voor toegangs- en verwijderingsverzoeken afgekeurd. Raadpleeg [deze pagina](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)voor meer informatie over afgekeurde en verwijderde functies van de campagnestandaard.
+>De integratie van de Dienst [van de Dienst van de](https://adobe.io/apis/cloudplatform/gdpr.html) Privacy is de methode u voor alle toegang zou moeten gebruiken en verzoeken schrapt. Vanaf 19.4 is het gebruik van de campagne-API en de interface voor toegangs- en verwijderingsverzoeken afgekeurd. Raadpleeg [deze pagina](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/deprecated-features.html)voor meer informatie over afgekeurde en verwijderde functies van Campaign Standard.
 
 Om het dossier terug te winnen dat alle informatie verbonden aan een aansluitingswaarde bevat, volg deze drie stappen procedure:
 
@@ -29,7 +30,7 @@ Om het dossier terug te winnen dat alle informatie verbonden aan een aansluiting
 
 1. Voer een **GET** verzoek uit om informatie over het verzoek terug te winnen.
 
-1. Haal het gegevensbestand door een **POST** - verzoek op teruggekeerde **privacyRequestData** URL uit te voeren, met de interne naam van het privacyverzoek binnen de lading. Bijvoorbeeld: {&quot;name&quot;:&quot;PT17&quot;}.
+1. Haal het gegevensbestand door een **POST** verzoek op teruggekeerde **privacyRequestData** URL uit te voeren, met de interne naam van het privacyverzoek binnen de lading. Bijvoorbeeld: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 
@@ -56,7 +57,7 @@ Maak een privacyaanvraag met het kenmerk type=&quot;access&quot;.
 
 <!-- + réponse -->
 
-Voer een GET verzoek uit om informatie over het verzoek terug te winnen.
+Voer een verzoek van de GET uit om informatie over het verzoek terug te winnen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -87,7 +88,7 @@ Het keert het privacyRequestData attribuut met een bijbehorende URL terug.
 },
 ```
 
-Voer een POST- verzoek op privacyRequestData URL, met de verzoek interne naam binnen de lading uit.
+Voer een verzoek van de POST op privacyRequestData URL, met de verzoek interne naam binnen de lading uit.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool/<PKEY>/privacyRequestData \
