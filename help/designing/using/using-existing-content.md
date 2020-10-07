@@ -9,18 +9,19 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '1210'
+ht-degree: 4%
 
 ---
 
 # Ontwerpen met bestaande inhoud {#designing-using-existing-content}
 
-## Bestaande inhoud selecteren{#selecting-an-existing-content}
+## Selecting an existing content{#selecting-an-existing-content}
 
-Adobe Campagne wordt geleverd met een set vooraf gedefinieerde inhoud om u te helpen aan de slag te gaan. U kunt een van deze opties gebruiken. Als de inhoud van het bericht dat u wilt verzenden, buiten Adobe Campagne wordt voorbereid, kunt u het vanuit uw computer of een URL importeren.
+Adobe Campaign wordt geleverd met een set vooraf gedefinieerde inhoud die u helpt aan de slag te gaan. U kunt een van deze opties gebruiken. Als de inhoud van het bericht dat u wilt verzenden, buiten Adobe Campaign wordt voorbereid, kunt u het vanuit uw computer of een URL importeren.
 
 Wanneer u een e-mail- of landingspagina maakt, kunt u desgewenst bestaande inhoud uit een andere bron laden.
 
@@ -39,6 +40,7 @@ Wanneer u een e-mail- of landingspagina maakt, kunt u desgewenst bestaande inhou
    * [Inhoud helemaal vanaf](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)het begin tot vers: Klik op de **[!UICONTROL Create]** knop.
    * [Inhoud van uw computer als een ZIP- of HTML-bestand](#importing-content-from-a-file): Klik op de **[!UICONTROL Upload]** knop.
    * [Inhoud van een bestaande URL](#importing-content-from-a-url) (alleen voor e-mails): Klik op de **[!UICONTROL Import from URL]** knop.
+
    ![](assets/des_loading_2.png)
 
 1. Laad de inhoud. De geselecteerde inhoud vervangt de huidige inhoud.
@@ -64,7 +66,7 @@ Als u een bestaande externe inhoud volledig bewerkbaar wilt maken in de e-mailon
 
 ## Bestaande e-mailinhoud importeren {#importing}
 
-### Inhoud uit een bestand importeren {#importing-content-from-a-file}
+### Importing content from a file {#importing-content-from-a-file}
 
 Klik op de introductiepagina E-mail Designer op de **[!UICONTROL Upload]** knop om een bestand van uw computer te uploaden en bevestig het vervolgens.
 
@@ -79,7 +81,7 @@ De volgende indelingen worden ondersteund voor importeren:
 >
 >Voor e-mailinhoud raden we u aan om afzonderlijke HTML-bestanden met een opgenomen stijlpagina te importeren.
 
-#### Inhoud van een URL importeren {#importing-content-from-a-url}
+#### Importing content from a URL {#importing-content-from-a-url}
 
 Voordat u inhoud van een URL importeert, moet u controleren of aan de onderstaande vereisten wordt voldaan:
 
@@ -126,7 +128,7 @@ Volg onderstaande stappen om inhoud op te halen tijdens het voorbereiden:
 
 1. Als u een voorvertoning wilt weergeven van de URL-inhoud die is opgehaald, opent u het bericht nadat u het hebt gemaakt en klikt u op de **[!UICONTROL Preview]** knop.
 
-Het is mogelijk om de externe URL te personaliseren waarvan de inhoud wordt opgehaald. Hiervoor voert u de volgende stappen uit:
+Het is mogelijk om de externe URL te personaliseren waarvan de inhoud wordt opgehaald. Volg de onderstaande stappen om dit te doen:
 
 1. Klik op het e-maillabel boven aan het scherm om het **[!UICONTROL Properties]** tabblad E-mailontwerper te openen.
 1. Zoek het **[!UICONTROL Remote URL]** veld.
@@ -207,9 +209,9 @@ Als dit niet het geval is, snijd de verschillende blokken van uw HTML uit. Bijvo
 Herhaal de volgende procedure voor elk gedeelte van uw bestaande e-mailbericht nadat u al uw blokken hebt geïdentificeerd:
 
 1. Open de E-mailontwerper om een lege e-mailinhoud te maken.
-1. Stel de kenmerken voor het hoofdtekstniveau in: achtergrondkleuren, breedte, enz. Zie E-mailstijlen [](../../designing/using/styles.md)bewerken voor meer informatie.
-1. Voeg een structuurcomponent toe. Zie [De e-mailstructuur](../../designing/using/designing-from-scratch.md#defining-the-email-structure)bewerken voor meer informatie.
-1. Voeg een HTML-component toe. Zie Fragmenten en componenten [](../../designing/using/designing-from-scratch.md#defining-the-email-structure)toevoegen voor meer informatie.
+1. Stel de kenmerken voor het hoofdtekstniveau in: achtergrondkleuren, breedte, enz. Ga voor meer informatie naar [E-mailstijlen bewerken](../../designing/using/styles.md).
+1. Voeg een structuurcomponent toe. Ga voor meer informatie naar [De e-mailstructuur bewerken](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
+1. Voeg een HTML-component toe. Ga voor meer informatie naar [Fragmenten en componenten toevoegen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Kopieer en plak de HTML in die component.
 1. Schakel over naar de mobiele weergave. Zie [deze sectie](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)voor meer informatie.
 
