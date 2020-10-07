@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 356d4d4f-3d5a-468c-bff8-96767cd8fff6
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 10339aa3a5d16bb995a763b6d846e234c5f1325a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 99%
@@ -333,7 +331,7 @@ De specifieke parameters voor het verzenden van sms-berichten worden opnieuw geg
 
 ![](assets/sms_options.png)
 
-In het **[!UICONTROL Advanced parameters]** gedeelte:
+From the **[!UICONTROL Advanced parameters]** section:
 
 * Met de optie **[!UICONTROL From]** kunt u de naam van de afzender van het sms-bericht aanpassen met een reeks tekens. Dit is de naam die wordt weergegeven als de afzender van het sms-bericht op de mobiele telefoon van de ontvanger.
 
