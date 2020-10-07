@@ -1,5 +1,5 @@
 ---
-title: Over opt-in en opt-out in campagne
+title: Informatie over opt-in en opt-out in Campaign
 description: Uitschakelen heeft tot gevolg dat een profiel niet langer wordt gericht op levering of op leveringen van een specifiek kanaal.
 page-status-flag: never-activated
 uuid: 501d9485-976b-4de7-b242-6886f2814c6c
@@ -9,18 +9,16 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 2f26ec22-0809-4541-b2a1-e84ff868ba6e
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
 
-# Over opt-in en opt-out in campagne{#about-opt-in-and-opt-out-in-campaign}
+# Informatie over opt-in en opt-out in Campaign{#about-opt-in-and-opt-out-in-campaign}
 
 Uitschakelen heeft tot gevolg dat een profiel niet langer wordt gericht op levering of op leveringen van een specifiek kanaal.
 
@@ -32,6 +30,6 @@ Opt-outprofielen worden automatisch uitgesloten tijdens de leveringsanalyse om l
 
 >[!NOTE]
 >
->Uitschakelen is van toepassing op **profielen** in tegenstelling tot quarantaine die is gekoppeld aan een **e-mailadres** of **telefoonnummer**. Als u een profiel uitschakelt, worden dus alle adressen waaraan het profiel is gekoppeld, van de levering uitgesloten. Als een gebruiker twee profielen in het gegevensbestand heeft, zal hij nog door leveringen worden gericht aangezien slechts één van zijn profielen opt-out is. Om ervoor te zorgen al zijn adressen worden uitgesloten, voeg hen aan de quarantines adressen toe. For more on this, refer to [this page](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform).
+>Uitschakelen is van toepassing op **profielen** in tegenstelling tot quarantaine die is gekoppeld aan een **e-mailadres** of **telefoonnummer**. Als u een profiel uitschakelt, worden dus alle adressen waaraan het profiel is gekoppeld, van de levering uitgesloten. Als een gebruiker twee profielen in het gegevensbestand heeft, zal hij nog door leveringen worden gericht aangezien slechts één van zijn profielen opt-out is. Om ervoor te zorgen al zijn adressen worden uitgesloten, voeg hen aan de quarantines adressen toe. Raadpleeg [deze pagina](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform) voor meer informatie.
 
-Raadpleeg [deze pagina](../../audiences/using/about-subscriptions.md)voor meer informatie over abonnementen op services.
+For more on services subscriptions, refer to [this page](../../audiences/using/about-subscriptions.md).
