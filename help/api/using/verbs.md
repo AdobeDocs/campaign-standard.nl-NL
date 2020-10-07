@@ -1,6 +1,6 @@
 ---
-title: GET / POST / PATCH / DELETE werkwoorden
-description: Meer informatie over de werkwoorden die worden gebruikt in standaard-API's voor campagnes.
+title: GET/POST/PATCH/DELETE werkwoorden
+description: Meer informatie over de werkwoorden die worden gebruikt in Campaign Standard API's.
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -9,15 +9,16 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '129'
+ht-degree: 0%
 
 ---
 
 
-# GET / POST / PATCH / DELETE werkwoorden {#verbs}
+# GET/POST/PATCH/DELETE werkwoorden {#verbs}
 
 Beschikbare werkwoorden voor het uitvoeren van bewerkingen op de bronnen zijn:
 
@@ -32,7 +33,7 @@ Beschikbare werkwoorden voor het uitvoeren van bewerkingen op de bronnen zijn:
 
 ***Voorbeeldverzoeken***
 
-* Voorbeeld ophalen verzoek op de profielverzameling.
+* Voorbeeld-GET-verzoek voor de profielverzameling.
 
 
    ```
@@ -68,7 +69,7 @@ Beschikbare werkwoorden voor het uitvoeren van bewerkingen op de bronnen zijn:
    }
    ```
 
-* Voorbeeld: verzoek ophalen voor een specifiek profiel.
+* Voorbeeld van GET-verzoek voor een specifiek profiel.
 
 
    ```
@@ -94,7 +95,7 @@ Beschikbare werkwoorden voor het uitvoeren van bewerkingen op de bronnen zijn:
    }
    ```
 
-* Voorbeeld van een POST-aanvraag om een profiel te maken.
+* Voorbeeld van POST-verzoek om een profiel te maken.
 
 
    ```
@@ -118,7 +119,7 @@ Beschikbare werkwoorden voor het uitvoeren van bewerkingen op de bronnen zijn:
    }
    ```
 
-* Voorbeeld van PATCH-aanvraag om een profiel bij te werken.
+* Voorbeeld-PATCH-verzoek om een profiel bij te werken.
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -138,7 +139,7 @@ Beschikbare werkwoorden voor het uitvoeren van bewerkingen op de bronnen zijn:
    }
    ```
 
-* Voorbeeld van aanvraag VERWIJDEREN om een profiel te verwijderen.
+* Voorbeeld van DELETE-verzoek om een profiel te verwijderen.
 
    ```
    -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
