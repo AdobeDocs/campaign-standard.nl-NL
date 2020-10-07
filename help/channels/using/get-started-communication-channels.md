@@ -9,13 +9,11 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '517'
-ht-degree: 16%
+ht-degree: 19%
 
 ---
 
@@ -26,7 +24,7 @@ ht-degree: 16%
 <tr>
 <td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><p><a href="#global-concepts">Algemene concepten</a></p></td>
 <td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#available-communication-channels">Communicatiekanalen</a></p></td>
-<td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><p><a href="#transactional-messages">Transactieberichten</a></p></td>
+<td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><p><a href="#transactional-messages">Transactionele berichten</a></p></td>
 <td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">Landingspagina's</a></p></td></tr>
 </table>
 
@@ -67,7 +65,7 @@ Meer informatie:
 * [In-app-berichten maken](../../channels/using/about-in-app-messaging.md)
 * [Direct-mailleveringen maken](../../channels/using/about-direct-mail.md)
 
-## Transactieberichten {#transactional-messages}
+## Transactionele berichten {#transactional-messages}
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
@@ -78,8 +76,8 @@ Transactieberichten zijn afhankelijk van uw opties beschikbaar voor de kanalen v
 Meer informatie:
 
 * [Transactionele berichten](../../channels/using/getting-started-with-transactional-msg.md)
-* [Aan de slag met transactiemeldingen](../../channels/using/getting-started-with-transactional-msg.md)
-* [Transactieberichten voor gebeurtenissen](../../channels/using/event-transactional-messages.md)
+* [Aan de slag met transactionele berichten](../../channels/using/getting-started-with-transactional-msg.md)
+* [Transactionele berichten voor gebeurtenissen](../../channels/using/event-transactional-messages.md)
 * [Transactionele berichten voor profielen](../../channels/using/profile-transactional-messages.md)
 * [Transactionele pushmeldingen](../../channels/using/transactional-push-notifications.md)
 * [Vervolgberichten](../../channels/using/follow-up-messages.md)
@@ -106,5 +104,5 @@ Meer informatie:
 * [E-mailinhoud ontwerpen](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Een AEM-inhoud importeren](../../integrating/using/creating-email-experience-manager.md)
 * [Berichten verzenden met workflows](../../automating/using/about-channel-activities.md)
-* [Zelfstudievideo&#39;s over communicatiekanalen](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [Zelfstudievideo&#39;s over communicatiekanalen](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
 * [Hoofdlettergebruik: Een levering tussen kanalen maken](../../automating/using/workflow-cross-channel-delivery.md)
