@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +22,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ## Methode 1: Een profiel abonneren op een service
 
-Voer een GET aanvraag uit om het profiel op te halen.
+Voer een verzoek van de GET uit om het profiel terug te winnen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -45,7 +46,7 @@ De abonnements-URL voor het profiel wordt geretourneerd.
   }
 ```
 
-Voer een POST- verzoek op abonnementen URL met de gewenste dienst Primaire Sleutel binnen de lading uit.
+Voer een verzoek van de POST op abonnementen URL met de gewenste dienst Primaire Sleutel binnen de lading uit.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -74,7 +75,7 @@ Het keert het bijgewerkte profiel met de voltooide de dienstknoop terug.
 
 ## Methode 2: Een profiel toevoegen aan abonnees van een service
 
-Voer een GET verzoek uit om de dienst terug te winnen.
+Voer een verzoek van de GET uit om de dienst terug te winnen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -98,7 +99,7 @@ De abonnements-URL voor de service wordt geretourneerd.
   },
 ```
 
-Voer een POST-aanvraag in op de abonnements-URL met het gewenste profiel Primaire sleutel in de payload.
+Breng een verzoek van de POST op abonnementen URL met de gewenste profiel Primaire Sleutel binnen de lading.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \
