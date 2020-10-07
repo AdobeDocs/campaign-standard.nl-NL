@@ -1,6 +1,6 @@
 ---
-title: Gegevensupdate met afstemming
-description: In het volgende voorbeeld ziet u een workflow die een publiek van profielen rechtstreeks maakt vanuit een geïmporteerd bestand dat nieuwe clients bevat.
+title: Data-update met afstemming
+description: In het volgende voorbeeld ziet u een workflow die een doelgroep van profielen rechtstreeks maakt op basis van een geïmporteerd bestand dat nieuwe klanten bevat.
 page-status-flag: never-activated
 uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
 contentOwner: sauviat
@@ -10,24 +10,22 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
 context-tags: reconciliation,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
 
-# Gegevensupdate met afstemming {#data-update-reconciliation}
+# Data-update met afstemming {#data-update-reconciliation}
 
-In het volgende voorbeeld ziet u een workflow die een publiek van profielen rechtstreeks maakt vanuit een geïmporteerd bestand dat nieuwe clients bevat. Het bestaat uit de volgende activiteiten:
+In het volgende voorbeeld ziet u een workflow die een doelgroep van profielen rechtstreeks maakt op basis van een geïmporteerd bestand dat nieuwe klanten bevat. De workflow bestaat uit de volgende activiteiten:
 
 ![](assets/identification_example2.png)
 
-* Een [activiteit van het Dossier](../../automating/using/load-file.md) van de Lading, die haar gegevens van het te importeren dossier laadt en ontdekt. Het geïmporteerde bestand bevat de volgende gegevens:
+* A [Load file](../../automating/using/load-file.md) activity, which loads and detects tshe data of the file to import. Het geïmporteerde bestand bevat de volgende data:
 
    ```
    lastname;firstname;email;dateofbirth
@@ -42,10 +40,10 @@ In het volgende voorbeeld ziet u een workflow die een publiek van profielen rech
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* Een [afstemmingsactiviteit](../../automating/using/reconciliation.md) die elke kolom van het geladen bestand koppelt aan een kolom met profielafmetingen. De bestandsrecords die niet kunnen worden geïdentificeerd (ontbrekende gegevens, incompatibel gegevenstype, enz.) worden genegeerd om de integriteit van de uiteindelijke publieksgegevens te behouden.
+* A [Reconciliation](../../automating/using/reconciliation.md) activity, which links each column of the loaded file to a profile dimension column. De bestandsrecords die niet kunnen worden geïdentificeerd (wegens ontbrekende data, incompatibel datatype, enz.), worden genegeerd om de integriteit van de uiteindelijke doelgroepsdata te handhaven.
 
    ![](assets/identification_example1.png)
 
-* Een publieksactiviteit [Opslaan](../../automating/using/save-audience.md) waarmee het publiek van profielen wordt opgeslagen.
+* A [Save audience](../../automating/using/save-audience.md) activity, which saves the audience of profiles.
 
    ![](assets/identification_example3.png)
