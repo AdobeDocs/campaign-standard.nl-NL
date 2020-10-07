@@ -9,13 +9,11 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '2948'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -44,7 +42,7 @@ ht-degree: 95%
 <li>Recht op toegang en recht op verwijdering: we maken gebruik van de functies die voor de AVG (GDPR) en CCPA zijn toegevoegd. <a href="https://helpx.adobe.com/content/help/nl/campaign/kb/acs-privacy.html#righttoaccess">Meer informatie</a> </li>
 <li><p>Als u een verzoek om toegang tot persoonsgegevens wilt maken, is het PDPA-wetgevingstype toegevoegd in de Privacy-kernservice. Dit is de enige methode die u moet gebruiken voor alle verzoeken voor toegang en verwijderen. Het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken is verouderd. Zie het artikel <a href="../../rn/using/deprecated-features.md">Vervangen en verwijderde functies</a>.</p></li>
 </ul>
-<p>Bekijk ook de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">Hoe kan ik-video</a>.</p>
+<p>Bekijk ook de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/privacy/privacy-overview.html">Hoe kan ik-video</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -65,16 +63,16 @@ ht-degree: 95%
 <li>Een array-object van een JSON selecteren zonder de objectdata te benoemen, en zonder dat deze data op het hoogste niveau moeten staan.</li>
 </ul>
 <p><strong>Let op:</strong> Klanten moeten <strong>alle External API-activiteiten van de bètaversie in hun workflows vervangen door</strong> External API-activiteiten van de GA-versie. Workflows die de bètaversie van de External API gebruiken, werken niet meer in 20.3.</p>
-<p>Raadpleeg voor meer informatie de <a href="../../automating/using/external-api.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">Hoe kan ik-video</a>.</p>
+<p>Raadpleeg voor meer informatie de <a href="../../automating/using/external-api.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">Hoe kan ik-video</a>.</p>
 </td> 
 </tr> 
 </tbody> 
 </table>
 
-**Aanvullende capaciteiten** (vanaf 13 juli)
+**Aanvullende mogelijkheden** (vanaf 13 juli)
 
-* **Dankzij de AI-technologie kunt u tijd optimaliseren en profielen scoren** . U kunt nu het ontwerp en de levering van klantritten optimaliseren om de voorkeur van elk individu voor de service te voorspellen. Adobe Campaign wordt aangedreven door Journey AI en kan de open tarieven, optimale verzendtijden en waarschijnlijke kosten analyseren en voorspellen op basis van historische betrokkenheidsmaatstaven. [Meer informatie](../../sending/using/predictive.md)
-* **De nieuwe privacyverordening** van Brazilië - Naast de privacy-mogelijkheden die al beschikbaar zijn in Campaign, helpt Adobe u uw bereidheid voor de Lei Geral de Proteçao de Datos (LGPD) van Brazilië te vergemakkelijken. Bij het maken van een privacyverzoek is de LGPD-verordening toegevoegd aan de Adobe Privacy Core Service. [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy-overview.html)
+* **AI-aangestuurde optimalisering van verzendingstijd en profielscore** - U kunt nu het ontwerp en de levering van klantjourneys optimaliseren om de betrokkenheidsvoorkeur van elke persoon te voorspellen. Adobe Campaign wordt aangestuurd door Journey AI en kan openingsfrequenties, optimale verzendtijden en waarschijnlijk verloop analyseren en voorspellen op basis van historische betrokkenheidscijfers. [Meer informatie](../../sending/using/predictive.md)
+* **De nieuwe Braziliaanse privacyverordening** - Naast de privacymogelijkheden die in Campaign al beschikbaar zijn, helpt Adobe u met de voorbereiding voor de Lei Geral de Proteçao de Dados (LGPD) van Brazilië. Bij het maken van een verzoek om toegang tot persoonsgegevens is het LGPD-wetgevingstype toegevoegd in de Adobe Privacy-kernservice. [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy-overview.html)
 
 **Verbeteringen**
 
@@ -84,9 +82,9 @@ ht-degree: 95%
 
    U moet een ticket indienen bij de klantenservice van Adobe (rechtstreeks of via uw Adobe-contactpersoon) om de technische workflow syncWithLaunch in uw Campaign-instantie te activeren. (CAMP-40082)
 
-**Verbeteringen voor de Email Designer**
+**Verbeteringen voor Email Designer**
 
-* De Email Designer verwerkt nu een flexibelere HTML-indeling dan strikte W3C. (CAMP-42529)
+* Email Designer verwerkt nu een flexibelere HTML-indeling dan strikte W3C. (CAMP-42529)
 * Probleem verholpen met [klikbare afbeeldingen](../../designing/using/links.md#inserting-a-link) om te voorkomen dat koppelingen naast de afbeelding in contentblokken worden weergegeven. (CAMP-41586)
 * Probleem verholpen waarbij het doorsturen naar een landingspagina niet mogelijk is wanneer een categorie voor de [gevolgde URL](../../designing/using/links.md#about-tracked-urls) is toegevoegd in de sjabloon. (CAMP-41537)
 * Probleem verholpen met opvulling van knoppen in Outlook.
@@ -128,7 +126,7 @@ ht-degree: 95%
 * Probleem verholpen waardoor gebruikers geen wijzigingen konden aanbrengen in rapporten. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Het nieuwe Controlebord kan met certificaatvernieuwing voor subdomeinen CNAME vrijgeven** . [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nieuw configuratiescherm in de release van mei** met certificaatverlenging voor CNAME-subdomeinen. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html).
 
 ## Release 20.2 - april 2020 {#release-20-2---april-2020}
 
@@ -158,7 +156,7 @@ ht-degree: 95%
  <tbody> 
   <tr> 
    <td> <p>Naast testprofielen kunt u nu uw e-mails testen op echte doelprofielen. Zo krijgt u een exacte weergave van het bericht dat het profiel ontvangt: aangepaste velden, dynamische en gepersonaliseerde informatie, inclusief aanvullende data van workflows, enz. </p>
-    <p>Raadpleeg de <a href="../../sending/using/testing-messages-using-target.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">videotutorial</a>voor meer informatie. </p>
+    <p>Raadpleeg de <a href="../../sending/using/testing-messages-using-target.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">videotutorial</a>voor meer informatie. </p>
    </td> 
   </tr> 
  </tbody> 
@@ -174,14 +172,14 @@ ht-degree: 95%
 * U kunt nu in Campaign Standard proeven naar testprofielen verzenden met behulp van aanvullende data uit workflows.
 * Beveiligingen voor de activiteit Externe API zijn bijgewerkt. [Meer informatie](../../automating/using/external-api.md)
 
-**Verbeteringen voor de Email Designer**
+**Verbeteringen voor Email Designer**
 
 * Probleem verholpen dat invloed had op escape-tekens wanneer meerdere keren op een gepersonaliseerde afbeelding werd geklikt.
 * Probleem verholpen bij het dupliceren van dynamische tekstcomponenten waarbij de verkeerde regel werd gedupliceerd. (CAMP-41249)
 * Probleem met opvulling in Outlook verholpen bij het definiëren van opvulling op tabelniveau in plaats van op div-niveau.
 * Probleem verholpen waarbij de breedte van een afbeelding werd gewijzigd wanneer naar de HTML-modus werd overgeschakeld. (CAMP-41116)
 * Probleem verholpen waarbij de sociale-mediacomponent niet toegankelijk was wanneer alternatieve tekst voor de pictogrammen werd opgegeven. (CAMP-41345)
-* Probleem verholpen waarbij zichtbare `<br>`-tags werden weergegeven bij gebruik van kopiëren en plakken in de Email Designer.
+* Probleem verholpen waarbij zichtbare `<br>`-tags werden weergegeven bij gebruik van kopiëren en plakken in Email Designer.
 * Probleem verholpen waarbij HTML-tags in de e-mail werden weergegeven nadat er van HTML-content naar tekst zonder opmaak werd overgeschakeld. (CAMP-41138)
 * Probleem verholpen waarbij het weergeven van knoppen met slechts één gedefinieerde rand werd voorkomen.
 * Probleem verholpen in HTML-inspringing waardoor de voettekst van e-mails in Microsoft Outlook naar links werd verplaatst. (CAMP-40987)
@@ -225,7 +223,7 @@ ht-degree: 95%
 
 ## Release 20.1.2 - februari 2020 {#release-20-1-2---february-2020}
 
-**Verbeteringen voor de Email Designer**
+**Verbeteringen voor Email Designer**
 
 * Probleem verholpen waarbij een HTML-code-element in een verouderd fragment werd toegevoegd bij het toevoegen van patches aan het element en het opslaan van de content. (CAMP-40685)
 * Probleem verholpen waarbij een spatie werd toegevoegd bij het gebruik van dynamische content. (CAMP-40605)
@@ -244,8 +242,8 @@ ht-degree: 95%
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>De Adobe Experience Platform-gegevensconnector is nu geïntegreerd met Adobe Campaign Standard. U kunt uw Campaign-data ter beschikking stellen op het Adobe Experience Platform door de XTK-data (data die in Campaign worden opgenomen) toe te wijzen aan het Adobe Experience Platform-gegevensmodel (XDM). </p>
-    <p>Deze mogelijkheid is alleen beschikbaar voor klanten die in Azure worden gehost. Raadpleeg de <a href="../../developing/using/aep-about-data-connector.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">video met instructies</a> voor meer informatie over deze mogelijkheid en de voorwaarden om deze te activeren.</p>
+   <td> <p>De Adobe Experience Platform-gegevensconnector is nu geïntegreerd met Adobe Campaign Standard. U kunt uw Campaign-data ter beschikking stellen op het Adobe Experience Platform door de XTK-data (data die in Campaign worden opgenomen) toe te wijzen aan het Adobe Experience Platform-datamodel (XDM). </p>
+    <p>Deze mogelijkheid is alleen beschikbaar voor klanten die in Azure worden gehost. Raadpleeg de <a href="../../developing/using/aep-about-data-connector.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">video met instructies</a> voor meer informatie over deze mogelijkheid en de voorwaarden om deze te activeren.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -260,7 +258,7 @@ ht-degree: 95%
  <tbody> 
   <tr> 
    <td> <p>Met Audience Destinations kunt u segmenten van het Adobe Experience Platform delen met Adobe Campaign.</p>
-    <p>Deze mogelijkheid is alleen beschikbaar voor klanten die in Azure worden gehost. Raadpleeg de <a href="../../audiences/using/aep-about-audience-destinations-service.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">video met instructies</a> voor meer informatie over deze mogelijkheid en de voorwaarden om deze te activeren. </p>
+    <p>Deze mogelijkheid is alleen beschikbaar voor klanten die in Azure worden gehost. Raadpleeg de <a href="../../audiences/using/aep-about-audience-destinations-service.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">video met instructies</a> voor meer informatie over deze mogelijkheid en de voorwaarden om deze te activeren. </p>
    </td> 
   </tr> 
  </tbody> 
@@ -268,7 +266,7 @@ ht-degree: 95%
 
 **Verbeteringen**
 
-* Algemene beschikbaarheid van de verbeterde MTA: berichten (inclusief transactionele berichten) worden nu verzonden door de Adobe Campaign Enhanced MTA, die een geüpgrade verzendinfrastructuur biedt die verbeterde leverbaarheid, doorvoer en afhandeling van niet-bezorgde berichten mogelijk maakt. [Meer informatie](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+* Algemene beschikbaarheid van de verbeterde MTA: berichten (inclusief transactionele berichten) worden nu verzonden door de Adobe Campaign Enhanced MTA, die een geüpgrade verzendinfrastructuur biedt die verbeterde leverbaarheid, doorvoer en afhandeling van niet-bezorgde berichten mogelijk maakt. [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/campaign-enhanced-mta.html)
 
 * Tijdzonebeheer is verbeterd. U kunt nu een [specifieke tijdzone](../../automating/using/building-a-workflow.md) definiëren voor een volledige workflow. De geselecteerde tijdzone is van toepassing op alle activiteiten van de workflow. De informatie over de tijdzone die voor de operator of de server is geconfigureerd, wordt nu weergegeven in de interface (in logboeken, en na het selecteren van een tijdzone). (CAMP-37672)
 
@@ -276,7 +274,7 @@ ht-degree: 95%
 
 * De id van het leveringslogboek (een unieke identificatie voor elk logboek) is nu beschikbaar in de resources Leveringslogboeken en Trackinglogboeken voor alle targetingdimensies. Hierdoor kunnen verzend- of trackinglogboeken bijvoorbeeld tijdens het exporteren worden geïdentificeerd. [Meer informatie](../../automating/using/exporting-logs.md)
 
-**Verbeteringen voor de Email Designer**
+**Verbeteringen voor Email Designer**
 
 * Ontbrekende verplichte tekstinstructies toegevoegd bij het maken van een doelgroep.
 * Probleem verholpen bij het klikken op de knop **Change content** in de wizard van de verouderde e-maileditor.
@@ -310,7 +308,7 @@ ht-degree: 95%
 * Problemen met de prestaties verholpen die konden optreden bij het selecteren en bijwerken van testprofielen. (CAMP-37976)
 * Probleem verholpen waarbij foutpagina&#39;s konden worden weergegeven bij het inschrijven of uitschrijven via landingspagina&#39;s. (CAMP-37771)
 * Probleem verholpen dat optrad bij het uploaden van content in zip-indeling, waarbij in de HTML naar PNG-bestanden werd verwezen met de extensie ervan in hoofdletters. (CAMP-37913)
-* Probleem verholpen waardoor berichten in de app niet konden worden verzonden tijdens het toevoegen van een testprofiel aan de levering.
+* Er is een probleem verholpen waardoor in-app-berichten niet konden worden verzonden wanneer een testprofiel aan de levering was toegevoegd.
 * Probleem verholpen met de workflowactiviteit Externe API die mislukte wanneer deze was gekoppeld aan verrijkingsactiviteiten.
 * Probleem verholpen waarbij de status van sms-berichten onjuist kon worden weergegeven.
 * Probleem verholpen met aangepaste resources die ervoor zorgden dat dubbele vermeldingen onder verschillende API-eindpunten werden weergegeven.
