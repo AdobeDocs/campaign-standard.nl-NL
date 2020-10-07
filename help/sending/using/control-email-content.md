@@ -1,6 +1,6 @@
 ---
-title: E-mailinhoud beheren in Adobe Campagne Standard
-description: Leer hoe u de leesbaarheid in Adobe Campagne Standard kunt verbeteren wanneer u uw e-mailinhoud bewerkt.
+title: E-mailinhoud beheren in Adobe Campaign Standard
+description: Leer hoe u de leesbaarheid in Adobe Campaign Standard kunt verbeteren tijdens het bewerken van uw e-mailinhoud.
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -10,15 +10,16 @@ content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '741'
+ht-degree: 7%
 
 ---
 
 
-# E-mailinhoud beheren{#control-email-content}
+# E-mailcontent beheren{#control-email-content}
 
 Om de e-mailleverbaarheid te verbeteren en ervoor te zorgen dat de e-mails bij de ontvangers terechtkomen, moet het e-mailbericht aan een aantal regels voldoen.
 
@@ -27,7 +28,7 @@ Om de e-mailleverbaarheid te verbeteren en ervoor te zorgen dat de e-mails bij d
 * **Personaliseer uw e-mail**: Als je de e-mail personaliseert, wordt de kans groter dat je bericht wordt geopend.
 * **Afbeeldingen en tekst**: Een goede verhouding tussen tekst en afbeelding respecteren (bijvoorbeeld 60% tekst en 40% afbeeldingen).
 * **Koppeling en openingspagina** voor abonnement opzeggen: De koppeling om uw abonnement op te zeggen is essentieel. Het formulier moet zichtbaar en geldig zijn en moet functioneel zijn.
-* **Gebruik de gereedschappen** van Adobe Campagne om de inhoud van uw e-mail te optimaliseren (leveringsanalyse, anti-spamanalyse).
+* **Gebruik de tools** die Adobe Campaign aanbiedt om de inhoud van uw e-mail te optimaliseren (leveringsanalyse, anti-spamanalyse).
 
 Raadpleeg voor meer informatie over het bewerken van e-mailinhoud het overzicht [van de](../../designing/using/designing-content-in-adobe-campaign.md) e-mailontwerper en de aanbevolen procedures [voor het ontwerpen van](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)berichten.
 
@@ -47,9 +48,9 @@ Wanneer u een e-mailbericht bewerkt, kunt u verschillende onderwerpregel uitprob
 
 Zie [deze sectie](../../designing/using/subject-line.md)voor meer informatie over het definiëren van de onderwerpregel van een e-mail.
 
-## Tijdoptimalisatie verzenden {#send-time-optimization}
+## Send time optimization {#send-time-optimization}
 
-Om het succestarief van uw berichten te verbeteren, kunt u een verzendende tijd per ontvanger manueel bepalen. Elk profiel ontvangt het bericht op de opgegeven datum en tijd, indien mogelijk.
+Om het succestarief van uw berichten te verbeteren, kunt u een verzendende tijd per ontvanger manueel bepalen. Elk profiel ontvangt het bericht dan op de opgegeven datum en tijd, indien mogelijk.
 
 Voor meer op dit, zie het [Optimaliseren van de verzendende tijd](../../sending/using/optimizing-the-sending-time.md).
 
@@ -65,7 +66,7 @@ Als algemene regel geldt dat u ontvangers die zich willen afmelden, niet in de w
 
 ## Anti-spamanalyse {#anti-spam-analysis}
 
-De berichtredacteur van de Campagne van Adobe integreert een analyse **** anti-anti-spam die u toestaat om e-mails te noteren om te bepalen of een bericht het risico loopt om als spam door de anti-anti-spamhulpmiddelen worden beschouwd die op ontvangstbewijs worden gebruikt. Zie [Berichten](../../sending/using/previewing-messages.md)voorvertonen voor meer informatie.
+De het berichtredacteur van Adobe Campaign integreert een **anti-spamanalyse** die u toestaat om e-mail te scoren om te bepalen of een bericht het risico loopt om als spam door de anti-anti-spamhulpmiddelen worden beschouwd die op ontvangstbewijs worden gebruikt. For more on this, see [Previewing messages](../../sending/using/previewing-messages.md).
 
 Klik in de berichtinhoudseditor op **[!UICONTROL Preview]**. Een bericht waarschuwt u als de anti-anti-spamcontrole een hoog risico voor dit bericht heeft ontdekt. Klik **[!UICONTROL Anti-spam analysis]** om details weer te geven.
 
@@ -75,8 +76,8 @@ Klik in de berichtinhoudseditor op **[!UICONTROL Preview]**. Een bericht waarsch
 
 Voordat u uw bericht verzendt, kunt u controleren hoe uw bericht eruitziet op verschillende apparaten. Dit is om ervoor te zorgen dat het op een optimale manier op een verscheidenheid van Webcliënten, Webpost en apparaten zal worden getoond.
 
-Om dit toe te staan, vangt de Campagne van Adobe de teruggave en stelt het ter beschikking in een specifiek rapport. Op deze manier kunt u het verzonden bericht voorvertonen in de verschillende contexten waarin het kan worden ontvangen.
+Om dit mogelijk te maken, legt Adobe Campaign de weergave vast en stelt deze beschikbaar in een specifiek rapport. Op deze manier kunt u het voorbeeld van het verzonden bericht bekijken in de verschillende contexten waarin het bericht mogelijk wordt ontvangen.
 
-Zie [E-mailrendering](../../sending/using/email-rendering.md)voor meer informatie.
+Zie [E-mail renderen](../../sending/using/email-rendering.md) voor meer informatie.
 
 ![](assets/inbox_rendering_report_3.png)
