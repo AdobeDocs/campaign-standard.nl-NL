@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 11%
 
 ---
 
@@ -21,13 +22,13 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 Sorteren is beschikbaar in oplopende of aflopende volgorde. Hiervoor gebruikt u de parameter **%20desc** of **%20asc** op uw verzoek.
 
-Als u wilt weten of een veld kan worden gesorteerd, controleert u de parameter &quot;sortable&quot; in de metagegevens van de bron. For more on this, refer to [this section](../../api/using/metadata-mechanism.md).
+Als u wilt weten of een veld kan worden gesorteerd, controleert u de parameter &quot;sortable&quot; in de metagegevens van de bron. Raadpleeg [deze sectie](../../api/using/metadata-mechanism.md) voor meer informatie.
 
 <br/>
 
 ***Voorbeeldverzoeken***
 
-* De steekproef krijgt verzoek om e-mails in het gegevensbestand terug te winnen alfabetisch bevolen.
+* Voorbeeld van een GET-aanvraag om e-mailberichten op te halen in de database in alfabetische volgorde.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email/email?_order=email \
@@ -52,7 +53,7 @@ Als u wilt weten of een veld kan worden gesorteerd, controleert u de parameter &
    }
    ```
 
-* Steekproef krijgt verzoek om e-mail in het gegevensbestand in een dalende alpha- orde terug te winnen.
+* Voorbeeld van een GET-aanvraag om de e-mail in de database op te halen in aflopende alfavolgorde.
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
