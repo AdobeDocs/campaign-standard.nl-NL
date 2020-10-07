@@ -1,5 +1,5 @@
 ---
-title: Optieprofielen voor levering identificeren
+title: Opt-outprofielen voor een levering identificeren
 description: Ontdek hoe u profielen voor niet-deelname voor een levering kunt identificeren.
 page-status-flag: never-activated
 uuid: ad09a4d3-7ad6-47b8-9c56-73bbaba6fa60
@@ -9,18 +9,16 @@ audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 896859da-a230-4f13-9b1f-cbff34b3c0e0
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 0%
+ht-degree: 41%
 
 ---
 
 
-# Optieprofielen voor levering identificeren{#identifying-opt-out-profiles-for-a-delivery}
+# Opt-outprofielen voor een levering identificeren{#identifying-opt-out-profiles-for-a-delivery}
 
 Opt-outprofielen voor een specifieke levering worden vermeld na de voorbereidingsfase, op het **[!UICONTROL Exclusion logs]** tabblad van het leveringsdashboard.
 
@@ -28,6 +26,6 @@ Opt-outprofielen voor een specifieke levering worden vermeld na de voorbereiding
 
 **Verwante onderwerpen:**
 
-* [Toezicht op de levering](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
-* [De verzending](../../sending/using/preparing-the-send.md)voorbereiden.
+* [Een levering controleren](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
+* [De verzending voorbereiden](../../sending/using/preparing-the-send.md).
 
