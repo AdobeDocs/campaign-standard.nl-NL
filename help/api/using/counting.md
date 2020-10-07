@@ -9,23 +9,24 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 2%
 
 ---
 
 
 # Tellen
 
-De Adobe Campagne REST API kan het aantal verslagen in een verzoek tellen. Hiervoor gebruikt u de URL die in het **telknooppunt** wordt geretourneerd.
+De Adobe Campaign REST API kan het aantal records in een aanvraag tellen. Hiervoor gebruikt u de URL die in het **telknooppunt** wordt geretourneerd.
 
 <br/>
 
 ***Voorbeeldverzoek***
 
-Om alle diensten te tellen die een **messageType** waarde hebben die aan &quot;sms&quot;evenaart, doe een GET verzoek met de **filter byChannel** .
+Om alle diensten te tellen die een **messageType** waarde hebben die aan &quot;sms&quot;evenaart, voer een verzoek van de GET met de **filter byChannel** uit.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
@@ -56,7 +57,7 @@ Het keert de diensten terug die aan de filter beantwoorden.
 }
 ```
 
-Voer een GET verzoek op URL van de **tellingsknoop** uit om het aantal resultaten terug te winnen.
+Voer een verzoek van de GET op URL van de **tellingsknoop** uit om het aantal resultaten terug te winnen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \
