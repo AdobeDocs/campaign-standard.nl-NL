@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +25,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 Dit is een procedure in twee stappen.
 
 1. Haal de abonnements-URL voor de gewenste service op.
-1. Voer een GET verzoek uit op de abonnements-URL. Het keert de lijst van abonnementen voor de dienst, met elk bijbehorend profiel terug.
+1. Voer een GET-aanvraag uit op de abonnements-URL. Het keert de lijst van abonnementen voor de dienst, met elk bijbehorend profiel terug.
 
 >[!CAUTION]
 >
@@ -34,7 +35,7 @@ Dit is een procedure in twee stappen.
 
 ***Voorbeeldverzoek***
 
-Voer een GET verzoek uit om de dienst terug te winnen.
+Voer een verzoek van de GET uit om de dienst terug te winnen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -58,7 +59,7 @@ De abonnements-URL voor de service wordt geretourneerd.
   },
 ```
 
-Voer een GET verzoek uit op de abonnements-URL.
+Voer een GET-aanvraag uit op de abonnements-URL.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -90,13 +91,13 @@ De lijst met abonnementen voor de service wordt weergegeven met elk gekoppeld pr
 Dit is een procedure in twee stappen.
 
 1. Hiermee wordt de abonnements-URL voor een bepaald profiel opgehaald.
-1. Voer een GET verzoek op URL uit. Het keert de lijst van abonnementen voor het profiel, met elke bijbehorende dienst terug.
+1. Voer een verzoek van de GET op URL uit. Het keert de lijst van abonnementen voor het profiel, met elke bijbehorende dienst terug.
 
 <br/>
 
 ***Voorbeeldverzoek***
 
-Voer een GET aanvraag uit om het profiel op te halen.
+Voer een verzoek van de GET uit om het profiel terug te winnen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -120,7 +121,7 @@ De abonnements-URL voor het profiel wordt geretourneerd.
   }
 ```
 
-Voer een GET verzoek uit op de abonnements-URL.
+Voer een GET-aanvraag uit op de abonnements-URL.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
