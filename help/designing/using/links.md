@@ -9,17 +9,18 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7642ae3d027351abe1c44e173d3db50b9568bfcd
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 1%
 
 ---
 
 
 # Koppelingen toevoegen {#links}
 
-## Een koppeling invoegen {#inserting-a-link}
+## Inserting a link {#inserting-a-link}
 
 Met de editor kunt u een e-mail- of landingspagina aanpassen door koppelingen in te voegen in de HTML-inhoudselementen.
 
@@ -39,9 +40,9 @@ U kunt een koppeling invoegen in elk pagina-element: afbeelding, woord, groep wo
 
       U kunt personalisatie voor uw URLs bepalen. Zie URL&#39;s [aanpassen](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
-   * **Openingspagina**: geeft toegang tot een bestemmingspagina van de Campagne van Adobe.
-   * **Koppeling** met abonnement: voeg een koppeling in om u te abonneren op een Adobe Campagne-service.
-   * **Koppeling** voor abonnement opzeggen: voeg een koppeling in om uw abonnement op een Adobe Campagne-service op te zeggen.
+   * **Openingspagina**: toegang geven tot een Adobe Campaign-landingspagina.
+   * **Koppeling** met abonnement: voeg een koppeling in om u te abonneren op een Adobe Campaign-service.
+   * **Koppeling** voor abonnement opzeggen: voeg een koppeling in om uw abonnement op een Adobe Campaign-service op te zeggen.
    * **Koppeling die een handeling** definieert: definieert een actie wanneer op een element in de landingspagina wordt geklikt.
 
       >[!NOTE]
@@ -71,13 +72,13 @@ Wanneer u een e-mailbericht bewerkt met de [e-mailontwerper](../../designing/usi
 
 **Verwante onderwerpen**:
 
-* [Een aanpassingsveld invoegen](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Een personalisatieveld invoegen](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Inhoudsblokken toevoegen](../../designing/using/personalization.md#adding-a-content-block)
 * [Dynamische inhoud definiëren](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
 ## Bijgehouden URL&#39;s {#about-tracked-urls}
 
-Met Adobe Campaign kunt u het gedrag van de ontvangers bijhouden wanneer ze op een URL in een e-mail klikken. Zie [deze sectie](../../sending/using/tracking-messages.md#about-tracking)voor meer informatie over bijhouden.
+Met Adobe Campaign kunt u het gedrag van ontvangers bijhouden wanneer ze op een URL in een e-mail klikken. For more on tracking, see [this section](../../sending/using/tracking-messages.md#about-tracking).
 
 Het **[!UICONTROL Links]** pictogram op de actiebalk geeft automatisch de lijst weer van alle URL&#39;s van de inhoud die wordt bijgehouden.
 
@@ -85,7 +86,7 @@ Het **[!UICONTROL Links]** pictogram op de actiebalk geeft automatisch de lijst 
 
 >[!NOTE]
 >
->Tekstspatiëring wordt standaard geactiveerd. Deze functionaliteit is alleen beschikbaar voor e-mailberichten als tracering is geactiveerd in Adobe Campagne. Raadpleeg [deze sectie](../../administration/using/configuring-email-channel.md#tracking-parameters)voor meer informatie over de parameters voor reeksspatiëring.
+>Tekstspatiëring wordt standaard geactiveerd. Deze functionaliteit is alleen beschikbaar voor e-mailberichten als tracering is geactiveerd in Adobe Campaign. For more on the tracking parameters, refer to [this section](../../administration/using/configuring-email-channel.md#tracking-parameters).
 
 Het URL-, categorie-, label- en tracatietype van elke koppeling kan in deze lijst worden gewijzigd. Als u een koppeling wilt bewerken, klikt u op het bijbehorende potloodpictogram.
 
@@ -104,7 +105,7 @@ U kunt het bijhouden van wijzigingen ook uitschakelen of activeren voor elke URL
 
 >[!NOTE]
 >
->Standaard worden in Adobe Campagne alle inhoud-URL&#39;s bijgehouden, behalve de URL **van de pagina** Mirror en de koppeling **Unsubscription** .
+>Standaard worden in Adobe Campaign alle inhoud-URL&#39;s bijgehouden, behalve de URL **van de** Mirror-pagina en de koppeling **Unsubscription** .
 
 U kunt uw URL&#39;s opnieuw groeperen door het **[!UICONTROL Category]** veld te bewerken, afhankelijk van de URL&#39;s die in het bericht worden gebruikt. Deze categorieën kunnen rapporten, zoals bijvoorbeeld in [URLs worden getoond en stromen](../../reporting/using/urls-and-click-streams.md)klikken.
 
