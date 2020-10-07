@@ -9,10 +9,8 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '3169'
 ht-degree: 7%
@@ -34,7 +32,7 @@ Nadat de gebeurtenis is gepubliceerd:
 
 * De API die door uw websiteontwikkelaar wordt gebruikt, wordt opgesteld en de transactionele gebeurtenissen kunnen nu worden verzonden. Zie Het activeren van de gebeurtenis [integreren in een website](#integrating-the-triggering-of-the-event-in-a-website).
 
-* Het overeenkomstige transactiemelding wordt automatisch gecreeerd. Zie [Aan de slag met transactieberichten](../../channels/using/getting-started-with-transactional-msg.md).
+* Het overeenkomstige transactiemelding wordt automatisch gecreeerd. See [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).
 
 ## Een gebeurtenis maken {#creating-an-event}
 
@@ -312,14 +310,14 @@ Als u een op een profiel gebaseerd transactiebericht wilt verzenden, moet u eers
 
 ### Op gebeurtenissen gebaseerde pushmeldingen voor transacties {#event-based-transactional-push-notifications}
 
-Als u pushmeldingen over transacties wilt verzenden, moet u Adobe Campaign dienovereenkomstig configureren. Zie [Push-configuratie](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.translate.htmll).
+Als u pushmeldingen over transacties wilt verzenden, moet u Adobe Campaign dienovereenkomstig configureren. Zie [Push-configuratie](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.htmll).
 
 Als u een anonieme pushmelding over een transactie wilt verzenden naar alle gebruikers die zich hebben aangemeld voor het ontvangen van berichten van uw mobiele toepassing, moet u eerst een gebeurtenis maken en configureren die gericht is op de gegevens in de gebeurtenis zelf. De bijbehorende stappen worden hieronder weergegeven.
 
 De gebeurtenis moet de volgende drie elementen bevatten:
 
 * Een **registratietoken**, de gebruikers-id voor één mobiele toepassing en één apparaat. Deze komt mogelijk niet overeen met enig profiel uit de Adobe Campaign-database.
-* Een **mobiele toepassingsnaam** (één voor alle apparaten - Android en iOS). Dit is de id van de mobiele toepassing die in Adobe Campaign is geconfigureerd en die wordt gebruikt voor het ontvangen van pushberichten op de apparaten van de gebruiker. Raadpleeg [deze pagina](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.translate.html) voor meer informatie
+* Een **mobiele toepassingsnaam** (één voor alle apparaten - Android en iOS). Dit is de id van de mobiele toepassing die in Adobe Campaign is geconfigureerd en die wordt gebruikt voor het ontvangen van pushberichten op de apparaten van de gebruiker. Raadpleeg [deze pagina](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html) voor meer informatie
 * Een **pushplatform** (&quot;gcm&quot; voor Android of &quot;apns&quot; voor iOS).
 
 1. Wanneer u de gebeurtenisconfiguratie maakt, selecteert u het **[!UICONTROL Mobile application]** kanaal en de **[!UICONTROL Real-time event]** doeldimensie (zie [Een gebeurtenis](#creating-an-event)maken).
