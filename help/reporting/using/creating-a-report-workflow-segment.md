@@ -9,13 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '617'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -31,13 +29,13 @@ Om deze segmenten in uw rapporten te richten:
 
 >[!CAUTION]
 >De dynamische gebruiksovereenkomst voor rapportage moet worden geaccepteerd om te beginnen met het verzamelen van deze gegevens.
->Raadpleeg deze [pagina](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)voor meer informatie over deze overeenkomst.
+>For more on this agreement, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
 ## Stap 1: Profielen bijwerken, aangepaste bron met segmenten{#step-1--update-profiles-custom-resource-segments}
 
 Alvorens op uw segmentcode te melden, moet u uw **[!UICONTROL Profiles]** douanemiddel voor uw segmentcodes bijwerken die moeten worden opgeslagen.
 
-1. Selecteer in het geavanceerde menu via het Adobe Campagne-logo **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** en selecteer vervolgens de **[!UICONTROL Profile (profile)]** bron.
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**, then select the **[!UICONTROL Profile (profile)]** resource.
 1. In het **[!UICONTROL Sending logs extension]** menu van het **[!UICONTROL Data structure]** lusje, controleer **[!UICONTROL Add segment code]** om opslag van uw segmentcodes toe te staan van het richten van werkschema&#39;s en het te verzenden naar dynamische rapportering.
 
    Het **[!UICONTROL Segment code]** zal dan in de **[!UICONTROL Profile]** afmetingssectie van uw rapport beschikbaar zijn.
@@ -51,7 +49,7 @@ Selecteer in het menu Geavanceerd **[!UICONTROL Administration]** > **[!UICONTRO
 
    ![](assets/custom_profile_7.png)
 
-1. Klik **[!UICONTROL Prepare publication]** vervolgens op de **[!UICONTROL Publish]** knop wanneer de voorbereiding is voltooid. Raadpleeg deze [pagina](../../developing/using/updating-the-database-structure.md)voor meer informatie over aangepaste bronnen.
+1. Klik **[!UICONTROL Prepare publication]** vervolgens op de **[!UICONTROL Publish]** knop wanneer de voorbereiding is voltooid. For more information on custom resource, refer to this [page](../../developing/using/updating-the-database-structure.md).
 
 U kunt nu uw workflow maken met segmentcodes.
 
@@ -64,15 +62,15 @@ Merk op dat de segmentcodes zullen worden verzameld zodra u de segmentcode in **
 
 Eerst moet u een workflow maken met verschillende doelgroepen. Hier, willen wij een e-mail verzenden die afhankelijk van de leeftijd van ons publiek zal worden gepersonaliseerd: één levering voor profielen van 20 tot 30 jaar oud en een andere voor profielen van 30 tot 40 jaar oud.
 
-1. Maak uw workflow. Raadpleeg deze [pagina](../../automating/using/building-a-workflow.md)voor meer informatie over het maken van uw workflow.
+1. Maak uw workflow. For more details on how to create your workflow, refer to this [page](../../automating/using/building-a-workflow.md).
 
-1. Voeg een **[!UICONTROL Query]** activiteit toe door deze vanuit het palet te slepen en neer te zetten in de werkruimte.
+1. Add a **[!UICONTROL Query]** activity by dragging it from the palette and dropping it in the workspace.
 
 1. Doelprofielen van 20 tot 40 jaar oud om ze later in meer doelgroepen te segmenteren.
 
    ![](assets/report_segment_1.png)
 
-1. Voeg een **[!UICONTROL Segmentation]** activiteit toe om uw vraagresultaten in twee gerichte populaties te verdelen. Raadpleeg deze [pagina](../../automating/using/segmentation.md)voor meer informatie over segmentatie.
+1. Voeg een **[!UICONTROL Segmentation]** activiteit toe om uw vraagresultaten in twee gerichte populaties te verdelen. For more on segmentation, refer to this [page](../../automating/using/segmentation.md).
 
 1. Dubbelklik op de **[!UICONTROL Segmentation]** activiteit om deze te configureren. Bewerk het eerste segment door op **[!UICONTROL Edit properties]** te klikken.
 
@@ -91,11 +89,11 @@ Eerst moet u een workflow maken met verschillende doelgroepen. Hier, willen wij 
 
    ![](assets/report_segment_9.png)
 
-1. Sleep een **[!UICONTROL Email delivery]** activiteit na de segmenten.
+1. Drag and drop an **[!UICONTROL Email delivery]** activity after your segments.
 
    ![](assets/report_segment_3.png)
 
-1. Pas uw leveringen aan, afhankelijk van de verschillende doelgroepen. Raadpleeg deze [pagina](../../designing/using/designing-content-in-adobe-campaign.md)voor meer informatie over het maken van e-mail.
+1. Pas uw leveringen aan, afhankelijk van de verschillende doelgroepen. For more on email creation, refer to this [page](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. Sla de workflow op.
 
