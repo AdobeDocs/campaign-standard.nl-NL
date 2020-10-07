@@ -9,18 +9,19 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 12%
 
 ---
 
 
 # De geografische eenheid van een profiel ophalen {#retrieving-geographical-unit}
 
-1. Voer een GET verzoek uit op het profiel PKey om de **geoUnit** URL terug te winnen.
-1. Voer een GET verzoek op URL uit om meer details over de Geografische eenheid terug te winnen.
+1. Voer een verzoek van de GET op het profiel PKey uit om **geoUnit** URL terug te winnen.
+1. Voer een verzoek van de GET op URL uit om meer details over de Geografische eenheid terug te winnen.
 
 <br/>
 
@@ -50,7 +51,7 @@ De geoUnit URL voor het profiel wordt geretourneerd.
 }
 ```
 
-Voer een GET verzoek op URL uit om meer informatie terug te winnen.
+Voer een verzoek van de GET op URL uit om meer informatie terug te winnen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/<PKEY> \
