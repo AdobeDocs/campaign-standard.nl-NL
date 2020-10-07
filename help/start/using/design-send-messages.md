@@ -9,18 +9,16 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Ontwerpen en verzenden van berichten
+# Berichten ontwerpen en verzenden
 
 <table>
 <tr>
@@ -75,12 +73,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 <img width="60px" alt="voorwaarden" src="assets/icon_profile.svg"/>
 
-Houd de aandacht van uw klanten op en verbeter de responssnelheid door inhoud en kopteksten te gebruiken die zijn aangepast aan hun profielen, voorkeuren en activiteiten. Alle clientgegevens zijn gecentraliseerd in Adobe Campaign en u kunt via verschillende kanalen berichten met aangepaste inhoud aanbieden.
+Neem de aandacht van uw klanten op en verbeter uw reactiesnelheid door inhoud en kopteksten te gebruiken die zijn aangepast aan hun profielen, voorkeuren en activiteiten. Alle clientgegevens zijn gecentraliseerd in Adobe Campaign en u kunt via verschillende kanalen berichten met aangepaste inhoud aanbieden.
 
 Persoonlijke berichten zijn essentieel voor het verzenden van relevante inhoud, het bieden van persoonlijke ervaringen en het verhogen van de open en conversiesnelheden. Kanaaloverschrijdende berichten die door Adobe Campaign worden geleverd, kunnen op verschillende manieren worden gepersonaliseerd. Deze manieren kunnen met criteria afhankelijk van de profielen worden gecombineerd. U kunt:
 
 * Voeg [dynamische verpersoonlijkingsgebieden](../../designing/using/personalization.md#inserting-a-personalization-field) in uw berichten op
-* Vooraf [gedefinieerde aanpassingsblokken invoegen](../../designing/using/personalization.md#adding-a-content-block)
+* Insert [predefined personalization blocks](../../designing/using/personalization.md#adding-a-content-block)
 * [De afzender](../../designing/using/subject-line.md) van een e-mail of een SMS-bericht aanpassen
 * [Pas de onderwerpregel](../../designing/using/subject-line.md) van een e-mail aan uw wensen aan of gebruik de mogelijkheden van de [prediklijn](../../designing/using/subject-line.md#subject-line) om dit te optimaliseren
 * [Voorwaardelijke inhoud maken in een e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) of [op een bestemmingspagina](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
@@ -112,8 +110,8 @@ Met Adobe Campaign kunt u elke levering afzonderlijk controleren en bijhouden. H
 **Meer informatie**
 
 * [Toegang tot rapporten](../../reporting/using/about-dynamic-reports.md)
-* [Toezicht op levering](../../sending/using/monitoring-a-delivery.md)
-* [Berichten bijhouden](../../sending/using/tracking-messages.md)
+* [Een levering controleren](../../sending/using/monitoring-a-delivery.md)
+* [Berichten traceren](../../sending/using/tracking-messages.md)
 
 ## Installatierapporten
 
