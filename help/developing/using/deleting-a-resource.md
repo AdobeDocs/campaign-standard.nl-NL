@@ -1,5 +1,5 @@
 ---
-title: Een bron verwijderen
+title: Een resource verwijderen
 description: 'Leer hoe u een bron verwijdert '
 page-status-flag: never-activated
 uuid: 5de27589-6fa5-412c-8e5a-a4976de05715
@@ -9,15 +9,16 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 0130733d-4e3f-40cd-b959-56381f2c8f44
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 14%
 
 ---
 
 
-# Een bron verwijderen{#deleting-a-resource}
+# Een resource verwijderen{#deleting-a-resource}
 
 Als u een bron wilt verwijderen, moet de bron in kwestie een **[!UICONTROL Draft]**. De resource is in **[!UICONTROL Draft]** status als:
 
@@ -31,7 +32,7 @@ Als u een bron wilt verwijderen, moet de bron in kwestie een **[!UICONTROL Draft
 Een gepubliceerde bron opnieuw samenstellen en verwijderen:
 
 1. Selecteer de bron die u opnieuw wilt samenstellen.
-1. Klik op de **[!UICONTROL Re-draft]** knop op de actiebalk.
+1. Klik op de knop **[!UICONTROL Re-draft]** op de actiebalk.
 
    ![](assets/schema_extension_uc26.png)
 
@@ -59,5 +60,5 @@ Uw bron wordt verwijderd uit het gegevensmodel.
 
 >[!NOTE]
 >
->Als een gebied van een douanemiddel dat op een gebeurtenis wordt gebruikt wordt gewijzigd of geschrapt, zal de overeenkomstige gebeurtenis automatisch unpublished. Zie [Transactieoverseinen](../../administration/using/configuring-transactional-messaging.md)configureren.
+>Als een veld van een aangepaste bron die wordt gebruikt voor een gebeurtenis, wordt aangepast of verwijderd, wordt de publicatie van de overeenkomstige gebeurtenis automatisch ongedaan gemaakt. See [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md).
 
