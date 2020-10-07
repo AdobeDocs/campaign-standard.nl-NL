@@ -9,13 +9,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '788'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -60,7 +58,7 @@ Adobe Campaign-profielen vertegenwoordigen alle contactpersonen die in de databa
 
 <img width="60px" alt="voorwaarden" src="assets/icon_populate.svg"/>
 
-Campaign Standard biedt verschillende tools om u te helpen uw marketingdatabase uit te breiden. In deze sectie worden de verschillende methoden beschreven die u kunt gebruiken om gegevens in campagne te injecteren, met verwijzingen naar de desbetreffende documenten.
+Campaign Standard biedt verschillende hulpmiddelen aan om u te helpen uw marketing gegevensbestand kweken. In deze sectie worden de verschillende methoden beschreven die u kunt gebruiken om gegevens in campagne te injecteren, met verwijzingen naar de desbetreffende documenten.
 
 ### Gegevens importeren via workflows {#importing-data-through-workflows}
 
@@ -80,7 +78,7 @@ Openingspagina&#39;s zijn webformulieren die kunnen worden gebruikt om gegevens 
 * Wijs elk invoerveld toe aan het corresponderende veld in de database.
 * Maak de openingspagina online beschikbaar via een website of via een directe koppeling naar een bericht.
 
-Raadpleeg de [desbetreffende documentatie](../../channels/using/getting-started-with-landing-pages.md)voor meer informatie over bestemmingspagina&#39;s.
+For more on landing pages, refer to the [dedicated documentation](../../channels/using/getting-started-with-landing-pages.md).
 
 **Meer informatie**
 
@@ -89,12 +87,12 @@ Raadpleeg de [desbetreffende documentatie](../../channels/using/getting-started-
 
 ### Profielen synchroniseren vanuit Microsoft Dynamics 365
 
-Dankzij de Campaign Standard-integratie met Microsoft Dynamics 365 kunt u contactgegevens van Microsoft Dynamics 365 doorgeven aan de Campagne-database.
-Deze contacten zijn dan zichtbaar in de lijst van Profielen en kunnen in marketing campagnes worden gericht. Raadpleeg de [desbetreffende documentatie](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)voor meer informatie over deze integratie.
+De integratie van Campaign Standard met de Dynamica 365 van Microsoft staat u toe om contactgegevens van de Dynamica 365 van Microsoft tot het gegevensbestand van de Campagne over te gaan.
+Deze contacten zijn dan zichtbaar in de lijst van Profielen en kunnen in marketing campagnes worden gericht. For more on this integration, refer to the [dedicated documentation](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 >[!NOTE]
 >
->Houd er rekening mee dat de Campaign Standard-Microsoft Dynamics 365-connector momenteel in Beperkte beschikbaarheid is en dat hiervoor verschillende beperkingen gelden, die in de documentatie worden beschreven.
+>Houd er rekening mee dat de Campaign Standard-Microsoft Dynamics 365-connector momenteel in Beperkte beschikbaarheid beschikbaar is en dat er verschillende beperkingen op van toepassing zijn, die in de documentatie worden beschreven.
 
 **Meer informatie**
 
@@ -103,12 +101,11 @@ Deze contacten zijn dan zichtbaar in de lijst van Profielen en kunnen in marketi
 
 ### Gegevens importeren via API-aanroepen
 
-Met Campaign Standard API&#39;s kunt u bewerkingen uitvoeren om de database bij te werken, zoals het maken, bijwerken of verwijderen van profielen of services. Raadpleeg de [specifieke documentatie](../../api/using/get-started-apis.md)voor meer informatie over het gebruik van de API&#39;s.
+Met Campaign Standard-API&#39;s kunt u bewerkingen uitvoeren om de database bij te werken, zoals het maken, bijwerken of verwijderen van profielen of services. Raadpleeg de [specifieke documentatie](../../api/using/get-started-apis.md)voor meer informatie over het gebruik van de API&#39;s.
 
 >[!CAUTION]
 >
->Controleer voordat u profielen massaal maakt of bijwerkt via API-aanroepen de schaalbeperkingen die overeenkomen met uw licentieovereenkomst. For more on this, refer to
-[this page](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Controleer voordat u profielen massaal maakt of bijwerkt via API-aanroepen de schaalbeperkingen die overeenkomen met uw licentieovereenkomst. Raadpleeg [deze pagina](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers) voor meer informatie.
 
 **Meer informatie**
 
@@ -125,16 +122,16 @@ Dankzij de workflows en de query-editor kunt u een publiek maken dat de verschil
 
 **Meer informatie**
 
-* [Informatie over publiek](../../audiences/using/about-audiences.md)
-* [Soorten publiek maken](../../audiences/using/creating-audiences.md)
+* [Informatie over doelgroepen](../../audiences/using/about-audiences.md)
+* [Doelgroepen maken](../../audiences/using/creating-audiences.md)
 
 ## Privacybeheer {#privacy-management}
 
 <img width="60px" alt="voorwaarden" src="assets/icon_privacy.svg"/>
 
-GDPR is de nieuwe privacywet van de Europese Unie (EU) die de vereisten inzake gegevensbescherming harmoniseert en moderniseert. GDPR is van toepassing op Adobe Campaign-klanten die gegevens aanhouden voor in de EU verblijvende gegevenssubjecten. Naast de privacymogelijkheden die al beschikbaar zijn in Adobe Campaign (waaronder beheer van toestemming, instellingen voor gegevensbewaring en gebruikersrollen), maken we van deze gelegenheid gebruik in onze rol als gegevensverwerker om extra mogelijkheden op te nemen, zodat u gemakkelijker klaar bent als Data Controller voor bepaalde GDPR-verzoeken.
+GDPR is de nieuwe privacywet van de Europese Unie (EU) die de vereisten inzake gegevensbescherming harmoniseert en moderniseert. AVG is van toepassing op Adobe Campaign-klanten die data bewaren voor in de EU wonende betrokken personen. Naast de privacymogelijkheden die al beschikbaar zijn in Adobe Campaign (waaronder beheer van toestemming, instellingen voor gegevensbewaring en gebruikersrollen), maken we van deze gelegenheid gebruik in onze rol als gegevensverwerker om extra mogelijkheden op te nemen, zodat u gemakkelijker klaar bent als Data Controller voor bepaalde GDPR-verzoeken.
 
-Raadpleeg deze [handleiding](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) voor meer informatie over de tools en functies die Adobe Campaign biedt om u te helpen aan de GDPR-standaard te voldoen.
+Raadpleeg deze [handleiding](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html) voor meer informatie over de tools en functies die Adobe Campaign biedt om u te helpen aan de GDPR-standaard te voldoen.
 
 **Meer informatie**
 
