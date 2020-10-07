@@ -1,5 +1,5 @@
 ---
-title: Overzicht van levering
+title: Leveringsoverzicht
 description: Met het overzichtsrapport van de Levering, leer over uw leveringsstatistieken, zoals aantal verzendt, stuitert en opent.
 page-status-flag: never-activated
 uuid: 9f64a430-8fee-4c4c-96e6-2913f4d6b831
@@ -10,15 +10,16 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 536067df-d16d-472a-850a-5fb7c609d60a
 context-tags: deliveryCirculationReport,main;campaignCirculationReport,main;programCirculationReport,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 1%
 
 ---
 
 
-# Overzicht van levering{#delivery-summary}
+# Leveringsoverzicht{#delivery-summary}
 
 Het **[!UICONTROL Delivery summary]** rapport bevat de belangrijkste informatie met betrekking tot een e-mail of meerdere e-mails.
 
