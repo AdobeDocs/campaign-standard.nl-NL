@@ -1,5 +1,5 @@
 ---
-title: E-mailberichten testen met doelprofielen
+title: E-mailberichten testen met behulp van doelprofielen
 description: Leer hoe u berichten kunt testen met behulp van doelprofielen en vervangende adressen.
 page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
@@ -10,15 +10,16 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b44e4e7e6b48ebc5c618b014eacfc9909bc2661e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '1502'
+ht-degree: 4%
 
 ---
 
 
-# E-mailberichten testen met doelprofielen {#testing-message-profiles}
+# E-mailberichten testen met behulp van doelprofielen {#testing-message-profiles}
 
 ## Overzicht {#overview}
 
@@ -37,11 +38,11 @@ De belangrijkste stappen zijn:
 1. **Geef in de e-mailontwerper een voorbeeld** weer van hoe het bericht voor de profielen wordt weergegeven.
 1. Verzend de proefdrukken.
 
-Voor meer informatie over het globale proces, verwijs naar de tutorial video beschikbaar [hier](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html).
+Voor meer informatie over het globale proces, verwijs naar de tutorial video beschikbaar [hier](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html).
 
 >[!IMPORTANT]
 >
->Met deze functie kunt u persoonlijke profielgegevens naar externe e-mailadressen verzenden. Houd er rekening mee dat het uitvoeren van privacyverzoeken (GDPR en CCPA) in Campagnestandaard dat verzoek niet extern zal uitvoeren.
+>Met deze functie kunt u persoonlijke profielgegevens naar externe e-mailadressen verzenden. Houd er rekening mee dat door het uitvoeren van privacyaanvragen (GDPR en CCPA) in Campaign Standard deze aanvraag NIET extern wordt uitgevoerd.
 
 ## Profielen en vervangingsadressen selecteren {#selecting-profiles}
 
@@ -91,7 +92,7 @@ Als u doelprofielen wilt gebruiken voor tests, moet u deze eerst selecteren en v
 
 1. Wanneer alle profielen en vervangingsadressen zijn gedefinieerd, kunt u een proefdruk verzenden om het bericht te testen. Klik hiertoe op de **[!UICONTROL Test]** knop en selecteer het type test dat u wilt uitvoeren.
 
-   Als er geen testprofiel is toegevoegd aan het doel van het bericht, zijn de opties **[!UICONTROL Email rendering]** en **[!UICONTROL Proof + Email rendering]** opties niet beschikbaar.  Raadpleeg [deze sectie](../../sending/using/sending-proofs.md)voor meer informatie over het verzenden van proefdrukken.
+   Als er geen testprofiel is toegevoegd aan het doel van het bericht, zijn de opties **[!UICONTROL Email rendering]** en **[!UICONTROL Proof + Email rendering]** opties niet beschikbaar.  For more information on proofs sending, refer to [this section](../../sending/using/sending-proofs.md).
 
    ![](assets/substitution_send_test.png)
 
@@ -101,7 +102,7 @@ Als u doelprofielen wilt gebruiken voor tests, moet u deze eerst selecteren en v
 
 ### Profielen van een publiek importeren {#importing-from-audience}
 
-Met de campagnestandaard kunt u een publiek met profielen importeren dat u kunt gebruiken voor tests. Zo kunt u bijvoorbeeld een hele reeks berichten voor verschillende profielen naar een uniek e-mailadres verzenden.
+Met Campaign Standard kunt u een publiek met profielen importeren dat u kunt gebruiken voor tests. Zo kunt u bijvoorbeeld een hele reeks berichten voor verschillende profielen naar een uniek e-mailadres verzenden.
 
 Bovendien als uw publiek reeds met de adres en prefixkolommen wordt gevormd, zult u deze informatie in het **[!UICONTROL Profile substitutions]** lusje kunnen invoeren. In [deze sectie](#use-case)wordt een voorbeeld gegeven van het importeren van doelgroepen met vervangende adressen.
 
@@ -115,7 +116,7 @@ Voer de volgende stappen uit om profielen te importeren die u wilt gebruiken voo
 
    ![](assets/substitution_preparation.png)
 
-1. In the **[!UICONTROL Profile substitutions]** tab, click **[!UICONTROL Import from an audience]**.
+1. Klik op het tabblad **[!UICONTROL Profile substitutions]** op **[!UICONTROL Import from an audience]**.
 
    ![](assets/substitution_audience_import.png)
 
@@ -131,7 +132,7 @@ Voer de volgende stappen uit om profielen te importeren die u wilt gebruiken voo
 
    ![](assets/substitution_fromaudience.png)
 
-1. Klik op de **[!UICONTROL Import]** knop. De profielen van het publiek die aan het berichtdoel beantwoorden worden toegevoegd aan het **[!UICONTROL Profile substitution]** lusje, evenals de bijbehorende substitutieadressen en prefixen.
+1. Klik op de knop **[!UICONTROL Import]**. De profielen van het publiek die aan het berichtdoel beantwoorden worden toegevoegd aan het **[!UICONTROL Profile substitution]** lusje, evenals de bijbehorende substitutieadressen en prefixen.
 
 ![](assets/substitution_audience_imported.png)
 
@@ -155,7 +156,7 @@ Voer de volgende stappen uit om berichten voor te vertonen met behulp van profie
 
    ![](assets/substitution_preview_access.png)
 
-1. Selecteer het **[!UICONTROL Preview]** tabblad en klik op **[!UICONTROL Change profile]**.
+1. Select the **[!UICONTROL Preview]** tab, then click **[!UICONTROL Change profile]**.
 
    ![](assets/substitution_preview_changeprofile.png)
 
@@ -169,7 +170,7 @@ Voer de volgende stappen uit om berichten voor te vertonen met behulp van profie
 
    ![](assets/substitution_preview.png)
 
-## Hoofdletters gebruiken {#use-case}
+## Gebruiksscenario {#use-case}
 
 In dit geval willen we een gepersonaliseerde e-mailnieuwsbrief sturen naar een set specifieke profielen. Voordat u de nieuwsbrief verzendt, wilt u deze met een aantal van de beoogde profielen bekijken en proefdrukken verzenden naar interne e-mailadressen die in een extern bestand zijn gedefinieerd.
 
@@ -179,7 +180,7 @@ De belangrijkste stappen voor dit gebruik zijn als volgt:
 1. Een workflow maken om profielen als doel in te stellen en de nieuwsbrief te verzenden.
 1. Configureer de vervangende profielen van het bericht.
 1. Geef een voorvertoning van het bericht weer met behulp van de beoogde profielen.
-1. Proefdrukken verzenden.
+1. Verzend proeven.
 
 ### Stap 1: Het publiek maken dat moet worden gebruikt voor tests
 
@@ -194,6 +195,7 @@ De belangrijkste stappen voor dit gebruik zijn als volgt:
    * **[!UICONTROL Load file]** activiteit: Hiermee importeert u het CSV-bestand (raadpleeg [deze sectie](../../automating/using/load-file.md)voor meer informatie over deze activiteit).
    * **[!UICONTROL Reconciliation]** activiteit: Koppelt informatie uit het bestand aan informatie uit de database. In dit voorbeeld gebruiken we het e-mailadres van het profiel als verzoeningsveld (voor meer informatie over deze activiteit, zie [deze sectie](../../automating/using/reconciliation.md)).
    * **[!UICONTROL Save audience]** activiteit: Hiermee maakt u een publiek op basis van het geïmporteerde bestand (raadpleeg [deze sectie](../../automating/using/save-audience.md)voor meer informatie over deze activiteit).
+
    ![](assets/substitution_uc2.png)
 
 1. Voer de workflow uit en ga naar het **[!UICONTROL Audiences]** tabblad om te controleren of het publiek met de gewenste informatie is gemaakt.
@@ -212,11 +214,11 @@ De belangrijkste stappen voor dit gebruik zijn als volgt:
 
 ### Stap 3: Het tabblad Profielvervanging van het bericht configureren
 
-1. Open de **[!UICONTROL Email delivery]** activiteit. Klik op het **[!UICONTROL Audience]** blok in het berichtdashboard.
+1. Open de **[!UICONTROL Email delivery]** activiteit. In the message dashboard, click the **[!UICONTROL Audience]** block.
 
    ![](assets/substitution_uc5.png)
 
-1. Selecteer het **[!UICONTROL Profile substitutions]** tabblad en klik op **[!UICONTROL Import from an audience]**.
+1. Select the **[!UICONTROL Profile substitutions]** tab, then click **[!UICONTROL Import from an audience]**.
 
    ![](assets/substitution_uc6.png)
 
@@ -230,7 +232,7 @@ De belangrijkste stappen voor dit gebruik zijn als volgt:
 
    ![](assets/substitution_uc8.png)
 
-1. Klik op de **[!UICONTROL Import]** knop. Profielen van het publiek worden aan de lijst toegevoegd met de bijbehorende vervangende adressen en voorvoegsels van onderwerpregel.
+1. Klik op de knop **[!UICONTROL Import]**. Profielen van het publiek worden aan de lijst toegevoegd met de bijbehorende vervangende adressen en voorvoegsels van onderwerpregel.
 
    ![](assets/substitution_uc9.png)
 
@@ -244,7 +246,7 @@ De belangrijkste stappen voor dit gebruik zijn als volgt:
 
    ![](assets/substitution_uc10.png)
 
-1. Selecteer het **[!UICONTROL Preview]** tabblad en klik op **[!UICONTROL Change profile]**.
+1. Select the **[!UICONTROL Preview]** tab, then click **[!UICONTROL Change profile]**.
 
    ![](assets/substitution_uc_preview.png)
 
@@ -260,7 +262,7 @@ De belangrijkste stappen voor dit gebruik zijn als volgt:
 
 ### Stap 5: Proefdrukken verzenden
 
-1. Klik in het berichtendashboard op de **[!UICONTROL Test]** knop en bevestig vervolgens het bericht.
+1. In the message dashboard, click the **[!UICONTROL Test]** button, then confirm.
 
    ![](assets/substitution_uc_sendproof.png)
 
