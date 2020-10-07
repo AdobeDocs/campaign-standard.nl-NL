@@ -9,10 +9,8 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 2%
@@ -32,7 +30,7 @@ Hier volgen de belangrijkste stappen voor het maken en ontwerpen van een geheel 
 1. Voeg afbeeldingen toe en bewerk de tekst van de e-mail. Zie [Afbeeldingen](../../designing/using/images.md#inserting-images)invoegen.
 1. Pas uw e-mail aan door personaliseringsgebieden, verbindingen, etc. toe te voegen. Zie Een aanpassingsveld [](../../designing/using/personalization.md#inserting-a-personalization-field)invoegen, een koppeling [](../../designing/using/links.md#inserting-a-link) invoegen en dynamische inhoud in een e-mail [](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)definiëren.
 1. Bepaal de onderwerpregel van uw e-mail. See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. Bekijk uw e-mail.
+1. Een voorvertoning van uw e-mail bekijken.
 1. Sla de inhoud op en voer het bericht verder nadat u hebt bepaald dat u een publiek hebt gedefinieerd en het verzenden op de juiste wijze hebt gepland.
 
 U kunt deze [introductievideo](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=dut)ook uitchecken.
