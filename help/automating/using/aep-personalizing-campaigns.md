@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 7%
+ht-degree: 8%
 
 ---
 
@@ -26,7 +24,7 @@ ht-degree: 7%
 >
 >De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 >
->**Push** - en **In-App** -kanalen zijn nog niet beschikbaar voor personalisatie met gebruik van contextuele gegevens uit Adobe Experience Platform.
+>**Push** - en **In-App** -kanalen zijn nog niet beschikbaar voor personalisatie met gebruik van contextafhankelijke gegevens uit Adobe Experience Platform.
 
 Zodra uw werkschema met een publiek [van](../../audiences/using/aep-about-audience-destinations-service.md)Adobe Experience Platform wordt gevormd, kunt u berichten met profielattributen personaliseren die uitsluitend in het Model van de Gegevens van de Ervaring (XDM) bestaan.
 
@@ -62,4 +60,4 @@ Raadpleeg de documentatie bij Campaign Standard voor meer informatie over het ma
 
 * [Communicatiekanalen detecteren](../../channels/using/get-started-communication-channels.md)
 * [Informatie over kanaalactiviteiten](../../automating/using/about-channel-activities.md)
-* [Leveringen aanpassen](../../designing/using/personalization.md)
+* [Leveringen personaliseren](../../designing/using/personalization.md)
