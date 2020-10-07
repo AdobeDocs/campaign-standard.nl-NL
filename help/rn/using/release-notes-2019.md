@@ -9,10 +9,8 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '7624'
 ht-degree: 8%
@@ -41,9 +39,9 @@ ht-degree: 8%
    <ul>
     <li>Recht op toegang en recht op verwijdering: We benutten de capaciteiten die voor GDPR zijn toegevoegd. <a href="https://helpx.adobe.com/content/help/nl/campaign/kb/acs-privacy.html#righttoaccess">Meer informatie</a> </li>
     <li><p>Bij het maken van een privacyverzoek is het regulatietype (GDPR of CCPA) toegevoegd aan de Privacy Core Service. Dit is de enige methode die u moet gebruiken voor alle verzoeken voor toegang en verwijderen. Het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken is verouderd. Zie het artikel <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/deprecated-features.html">Vervangen en verwijderde functies</a>.</p></li>
-    <li>Er is een <strong>Opt-Out</strong> -veld CCPA toegevoegd aan de profielbron zodat Adobe Campaign-gebruikers kunnen controleren of een consument heeft gekozen voor de verkoop van persoonlijke gegevens. <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">Meer informatie</a>.</li>
+    <li>Er is een <strong>Opt-Out</strong> -veld CCPA toegevoegd aan de profielbron zodat Adobe Campaign-gebruikers kunnen controleren of een consument heeft gekozen voor de verkoop van persoonlijke gegevens. <a href="https://helpx.adobe.com/content/help/nl/campaign/kb/acs-privacy.html#ccpa">Meer informatie</a>.</li>
   </ul>
-    <p>Bekijk ook de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">Hoe kan ik-video</a>.</p>
+    <p>Bekijk ook de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/privacy/privacy-overview.html">Hoe kan ik-video</a>.</p>
 </td> 
   </tr> 
  </tbody> 
@@ -81,7 +79,7 @@ ht-degree: 8%
 * De beveiliging is verbeterd voor bescherming tegen injecties in e-mailkoppen.
 * De veiligheid is verbeterd voor bescherming tegen aanvallen SSRF waar de uitdrukkingen van xtk kunnen worden gebruikt (e-mail HTML, tekstinhoud en onderwerp, sms en duw berichtinhoud).
 
-**Verbeteringen voor de Email Designer**
+**Verbeteringen voor Email Designer**
 
 * Probleem verholpen waardoor koppelingen naar abonnements-, abonnements- en landingspagina&#39;s niet konden worden bijgehouden wanneer deze in een e-mail werden ingevoegd. (CAMP-37809)
 * Probleem verholpen dat tot fouten kon leiden bij het maken van een nieuwe e-mail en het selecteren van een sjabloon. (CAMP-38000)
@@ -164,7 +162,7 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> Externe API-activiteit (openbare bètaversie)<br /> </td> 
-   <td> <p>Voor een diepere verpersoonlijking, staat de Externe API Activiteit u toe om gegevens van externe systemen in een werkschema via een REST API vraag te brengen. De REST-eindpunten kunnen een klantbeheersysteem, Adobe I/O Runtime- of Adobe Experience Cloud REST-eindpunt zijn (bijvoorbeeld Platform van gegevens, Doel, Analytics, Campagne).</p><p>Deze mogelijkheid is momenteel beschikbaar in een openbare bètaversie.</p><p>Raadpleeg voor meer informatie de <a href="../../automating/using/external-api.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">Hoe kan ik-video</a>.</p></td> 
+   <td> <p>Voor een diepere verpersoonlijking, staat de Externe API Activiteit u toe om gegevens van externe systemen in een werkschema via een REST API vraag te brengen. De REST-eindpunten kunnen een klantbeheersysteem, Adobe I/O Runtime- of Adobe Experience Cloud REST-eindpunt zijn (bijvoorbeeld Platform van gegevens, Doel, Analytics, Campagne).</p><p>Deze mogelijkheid is momenteel beschikbaar in een openbare bètaversie.</p><p>Raadpleeg voor meer informatie de <a href="../../automating/using/external-api.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">Hoe kan ik-video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Rapport over workflowsegment<br /> </td> 
@@ -177,7 +175,7 @@ ht-degree: 8%
 
 * Oplossing voor een beveiligingsprobleem om te voorkomen dat DoS-aanvallen (Denial of Service) worden uitgevoerd op ongeldige aanvragen om afbeeldingen op te halen. (CAMP-33454)
 
-**Verbeteringen voor de Email Designer**
+**Verbeteringen voor Email Designer**
 
 * Probleem verholpen waarbij telkens wanneer een component werd toegevoegd, extra HTML-stijltags aan een HTML-sjabloon werden toegevoegd, waardoor de grootte van de sjabloon aanzienlijk zou kunnen toenemen. (CAMP-34694)
 * Probleem verholpen waarbij sommige opties in het bovenste werkbalkmenu niet beschikbaar waren. (CAMP-34577)
@@ -330,7 +328,7 @@ Introduceerde een reeks verbeteringen en correcties om fragmenten te optimaliser
 
 * Oplossing voor een mogelijk probleem met de clickjackingbeveiliging in de rapportwerkruimte.
 
-**Verbeteringen voor de Email Designer**
+**Verbeteringen voor Email Designer**
 
 * Oplossing voor een probleem dat optrad bij het dupliceren van fragmenten en het proberen deze te gebruiken in de e-mailontwerper. (CAMP-33193)
 * Probleem verholpen waarbij ongewenste spaties werden gemaakt bij gebruik van inline-elementen in de e-mailDesigner-interface. (CAMP-32163)
@@ -364,7 +362,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 
 **Overige wijzigingen**
 
-* Er is een nieuwe optie toegevoegd aan de externe SMS-account. Het laat toe om het maximumaantal MTA processen te beperken die SMS verzenden om het aantal parallelle verbindingen beter te controleren. Raadpleeg het [SMS-connectorprotocol en het instellingentechnologie](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) voor meer informatie.
+* Er is een nieuwe optie toegevoegd aan de externe SMS-account. Het laat toe om het maximumaantal MTA processen te beperken die SMS verzenden om het aantal parallelle verbindingen beter te controleren. Raadpleeg het [SMS-connectorprotocol en het instellingentechnologie](https://helpx.adobe.com/nl/campaign/kb/sms-connector-protocol-and-settings.html) voor meer informatie.
 * Als een bron met API-extensie wordt gepubliceerd en de API al is gepubliceerd, wordt deze nu automatisch bijgewerkt wanneer deze opnieuw wordt gepubliceerd. Eerder was deze handeling handmatig en als de API niet werd bijgewerkt, kon het profiel of de servicebron van deze API worden verbroken. For more on this, refer to the [detailed documentation](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * De dimensie van de code van het postcode is verwijderd uit Dynamische Rapportering. We raden je aan in plaats daarvan de afmetingen Plaats, Land en Staat te gebruiken.
 * De gebeurtenisactivering &#39;First Launch&#39; van de levenscyclus van In-App-berichten is verwijderd.
@@ -401,7 +399,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 
 ## Release 19.1.3 - maart 2019 {#release-19-1-3---march-2019}
 
-**Verbeteringen voor de Email Designer**
+**Verbeteringen voor Email Designer**
 
 * Probleem verholpen waardoor een sjabloon niet kon worden gewijzigd nadat deze was opgeslagen.
 * Verschillende problemen verholpen bij het gebruik van een eerder gemaakte sjabloon in een e-mail.
@@ -431,7 +429,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
   </tr> 
   <tr> 
    <td> Integratie starten voor mobiele toepassing<br /> </td> 
-   <td> <p>Deze release bevat de integratie van Adobe Campaign met de GA-versies van Android en iOS-extensies voor Adobe Campaign Standard in Adobe Experience Platform Launch en Mobile SDK's. Deze extensies ondersteunen pushberichten, berichten in de app en updates van het profiel voor mobiele apps.</p><p> Raadpleeg de <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">gedetailleerde documentatie</a> voor meer informatie.</p> </td> 
+   <td> <p>Deze release bevat de integratie van Adobe Campaign met de GA-versies van Android en iOS-extensies voor Adobe Campaign Standard in Adobe Experience Platform Launch en Mobile SDK's. Deze extensies ondersteunen pushberichten, berichten in de app en updates van het profiel voor mobiele apps.</p><p> Raadpleeg de <a href="https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdk.html">gedetailleerde documentatie</a> voor meer informatie.</p> </td> 
   </tr> 
   <tr> 
    <td> Mobiele berichten in de app<br /> </td> 
@@ -453,7 +451,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 
 * De gegenereerde HTML-code van de bestemmingspagina is bijgewerkt om indexering van zoekprogramma&#39;s te voorkomen.
 
-**Verbeteringen voor de Email Designer**
+**Verbeteringen voor Email Designer**
 
 * Er is nu een set van vier best-in-class responsieve e-mailsjablonen die door Behance-artiesten zijn ontworpen.
 
@@ -493,7 +491,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 
 **Overige wijzigingen**
 
-* Adobe Campaign en Adobe Experience Cloud zullen vanaf het voorjaar van 2019 de ondersteuning voor Microsoft Internet Explorer 11 en de release van Campaign Standard 19.2 stopzetten. Schakel over naar Microsoft Edge of een andere ondersteunde browser. See [Deprecated and removed features](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) page.
+* Adobe Campaign en Adobe Experience Cloud zullen vanaf het voorjaar van 2019 de ondersteuning voor Microsoft Internet Explorer 11 en de release van Campaign Standard 19.2 stopzetten. Schakel over naar Microsoft Edge of een andere ondersteunde browser. See [Deprecated and removed features](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/deprecated-features.html) page.
 * Het veld **Landcode** van de profielbron is hernoemd naar de code **** Land/regio.
 
 **Patches**
@@ -540,7 +538,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
      <li> De mogelijkheid om inhoud automatisch tijdens de voorbereiding van een URL op te <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">halen</a> </li> 
      <li> Volledig compatibele sjablonen voor inhoud <a href="../../designing/using/using-reusable-content.md#content-templates">buiten het vak</a>. </li> 
     </ul> 
-    <p>Raadpleeg voor meer informatie de <a href="../../designing/using/designing-content-in-adobe-campaign.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">Hoe kan ik-video</a>. Hieronder vindt u verbeteringen en correcties.</p><p>Als gevolg hiervan is de oude e-mailinhoudeditor nu afgekeurd. For more information, refer to this <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/deprecated-features.html">page</a>.</p> </td> 
+    <p>Raadpleeg voor meer informatie de <a href="../../designing/using/designing-content-in-adobe-campaign.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html">Hoe kan ik-video</a>. Hieronder vindt u verbeteringen en correcties.</p><p>Als gevolg hiervan is de oude e-mailinhoudeditor nu afgekeurd. For more information, refer to this <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/deprecated-features.html">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Product Listings in Transactional Emails<br /> </td> 
