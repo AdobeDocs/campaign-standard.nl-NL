@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,segmentation,delivery
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 83%
+ht-degree: 86%
 
 ---
 
@@ -31,7 +29,7 @@ U kunt een e-mail sturen naar klanten met aanbiedingen in hun lokale winkels.
 
 ## Ontvangers selecteren met wie via e-mail{#selecting-recipients-contactable-via-email}contact kan worden opgenomen
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, sleep en laat vallen een activiteit van de [Vraag](../../automating/using/query.md) ![](assets/query.png).
+1. Sleep in **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** een [Query](../../automating/using/query.md)-activiteit en zet deze neer ![](assets/query.png).
 1. Dubbelklik op de activiteit.
 1. In **[!UICONTROL Shortcuts]** sleept u het veld **[!UICONTROL Profiles]** en selecteert u het veld **[!UICONTROL email]** met de operator **[!UICONTROL is not empty]**.
 1. In **[!UICONTROL Shortcuts]** sleept u het veld **[!UICONTROL Profiles]** en selecteert u het veld **[!UICONTROL no longer contact by email]** met de waarde **[!UICONTROL no]**.
