@@ -1,6 +1,6 @@
 ---
 title: Lijsten aanpassen
-description: '"Leer hoe u de weergave kunt aanpassen en kunt werken op lijstschermen in Adobe Campagne Standard:elementen sorteren, filteren, verwijderen of dupliceren. De schermen van lijsten tonen elementen van één of verscheidene bepaalde middelen."'
+description: '"Leer hoe u de weergave kunt aanpassen en hoe u kunt werken op lijstschermen in Adobe Campaign Standard:elementen sorteren, filteren, verwijderen of dupliceren. De schermen van lijsten tonen elementen van één of verscheidene bepaalde middelen."'
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -9,10 +9,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +22,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 **Met lijstschermen** kunt u elementen van een of meer opgegeven bronnen weergeven.
 
-Adobe Campagne heeft twee soorten lijsten:
+Adobe Campaign heeft twee typen lijsten:
 
 * Een **homogene** lijst, namelijk wanneer het één enkel type van middel bevat. De profiellijst bevat bijvoorbeeld alleen profielen.
 * Een **heterogene** lijst, namelijk wanneer het verscheidene types van middelen bevat. De lijst met marketingactiviteiten bevat bijvoorbeeld landingspagina&#39;s, werkstromen, e-mails, SMS, enzovoort.
