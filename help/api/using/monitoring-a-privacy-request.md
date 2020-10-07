@@ -1,5 +1,5 @@
 ---
-title: Een privacyverzoek controleren
+title: Een privacyaanvraag opvolgen
 description: Leer hoe u een privacyaanvraag kunt controleren met API's
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,19 +9,20 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 25%
 
 ---
 
 
-# Een privacyverzoek controleren {#monitoring-a-privacy-request}
+# Een privacyaanvraag opvolgen {#monitoring-a-privacy-request}
 
-U kunt informatie over een gecreeerd privacyverzoek controleren gebruikend een **GET** verzoek.
+U kunt de informatie over een gemaakte privacyaanvraag controleren met een **GET** -aanvraag.
 
-De beschrijving van de statuslijst is beschikbaar in de documentatie [van het](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)privacybeheer.
+De beschrijving van de statuslijst is beschikbaar in de documentatie [van het](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)privacybeheer.
 
 <br/>
 
@@ -35,7 +36,7 @@ De beschrijving van de statuslijst is beschikbaar in de documentatie [van het](h
 -H 'Content-Type: application/json;charset=utf-8'
 ```
 
-Antwoord op het GET verzoek.
+Antwoord op het verzoek van de GET.
 
 ```
 {
