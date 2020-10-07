@@ -1,5 +1,5 @@
 ---
-title: Beheersactiviteiten
+title: Eigenschappen van activiteiten beheren
 description: Leer hoe u de eigenschappen van workflowactiviteiten beheert.
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 0%
@@ -21,7 +19,7 @@ ht-degree: 0%
 ---
 
 
-# Beheersactiviteiten {#activity-properties}
+# Eigenschappen van activiteiten beheren {#activity-properties}
 
 ## Algemene eigenschappen van een activiteit {#global-properties-of-an-activity}
 
@@ -41,7 +39,7 @@ Afhankelijk van de activiteiten kunt u verschillende typen uitgaande overgangen 
 
 * **Standaardovergang**: populatie berekend door de activiteit
 * **Overgang zonder populatie**: dit type uitgaande overgang kan worden toegevoegd om de werkstroom voort te zetten en bevat geen populatie om geen onnodige ruimte op het systeem te verbruiken.
-* **verwerpt**: de bevolking werd afgewezen. Bijvoorbeeld, als de binnenkomende gegevens van de activiteit niet konden worden verwerkt omdat het onjuist of onvolledig was.
+* **verwerpt**: de bevolking werd verworpen. Bijvoorbeeld, als de binnenkomende gegevens van de activiteit niet konden worden verwerkt omdat het onjuist of onvolledig was.
 * **Complementeren**: populatie die overblijft na uitvoering van de activiteit. Bijvoorbeeld, als een segmentatieactiviteit wordt gevormd om slechts een percentage van de binnenkomende bevolking te bewaren.
 
 Geef, indien van toepassing, een **[!UICONTROL Segment code]** voor de uitgaande overgang van de activiteit. Deze segmentcode zal u toestaan om te identificeren waar de ondergroepen van de doelbevolking van komen, en kan, later, voor de doeleinden van de berichtverpersoonlijking dienen.
@@ -74,7 +72,7 @@ In het **[!UICONTROL Max. execution duration]** veld kunt u een duur opgeven, zo
 
 In het **[!UICONTROL Affinity]** veld kunt u een workflow of een werkstroomactiviteit op een bepaalde computer uitvoeren. Hiervoor moet u een of meer affiniteiten opgeven voor de workflow of activiteit in kwestie.
 
-In het **[!UICONTROL Time zone]** veld kunt u de tijdzone van de activiteit selecteren. Met Adobe Campaign kunt u de tijdverschillen tussen meerdere landen op hetzelfde moment beheren. De toegepaste instelling wordt geconfigureerd wanneer de instantie wordt gemaakt.
+In het **[!UICONTROL Time zone]** veld kunt u de tijdzone van de activiteit selecteren. Met Adobe Campaign kunt u de tijdsverschillen tussen meerdere landen op hetzelfde moment beheren. De toegepaste instelling wordt geconfigureerd wanneer de instantie wordt gemaakt.
 
 >[!NOTE]
 >
