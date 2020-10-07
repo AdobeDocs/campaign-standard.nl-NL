@@ -10,24 +10,22 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 0%
+ht-degree: 79%
 
 ---
 
 
-# Invoer van externe signalen en gegevens {#external-signal-data-import}
+# External signal and data import {#external-signal-data-import}
 
-Het volgende voorbeeld illustreert de **[!UICONTROL External signal]** activiteit in een typisch gebruiksgeval. Er worden gegevens geïmporteerd in een bronwerkstroom. Nadat het importeren is voltooid en de database is bijgewerkt, wordt een tweede workflow geactiveerd. Deze tweede workflow wordt gebruikt om een aggregaat van de geïmporteerde gegevens bij te werken.
+Het volgende voorbeeld illustreert de activiteit **[!UICONTROL External signal]** in een typisch gebruiksscenario. Er worden data geïmporteerd in een bronworkflow. Nadat het importeren is voltooid en de database is bijgewerkt, wordt een tweede workflow geactiveerd. Deze tweede workflow wordt gebruikt om een aggregaat van de geïmporteerde data bij te werken.
 
 De bronworkflow wordt als volgt weergegeven:
 
-* Een [activiteit van het Laad dossier](../../automating/using/load-file.md) uploadt een dossier dat nieuwe aankoopgegevens bevat. Merk op dat het [gegevensbestand dienovereenkomstig is uitgebreid](../../developing/using/data-model-concepts.md) aangezien de aankoopgegevens niet door gebrek in datamart aanwezig zijn.
+* Een activiteit [Bestand laden](../../automating/using/load-file.md) uploadt een bestand met nieuwe aankoopdata. Merk op dat de [database dienovereenkomstig is uitgebreid](../../developing/using/data-model-concepts.md) aangezien aankoopdata niet standaard aanwezig zijn in de datamart.
 
    Bijvoorbeeld:
 
@@ -41,16 +39,16 @@ De bronworkflow wordt als volgt weergegeven:
    aze128;04/03/2016;clara.smith@example.com;A8;149
    ```
 
-* Bij een [afstemmingsactiviteit](../../automating/using/reconciliation.md) worden de koppelingen tussen de geïmporteerde gegevens en de database tot stand gebracht, zodat de transactiegegevens correct zijn gekoppeld aan profielen en producten.
-* Een de gegevensactiviteit van de [Update](../../automating/using/update-data.md) neemt en werkt het middel van Transacties van het gegevensbestand met de inkomende gegevens op.
-* Een activiteit van het [Eind](../../automating/using/start-and-end.md) teweegbrengt het bestemmingswerkschema teweeg, dat wordt gebruikt om aggregaten bij te werken.
+* Bij een activiteit [Afstemming](../../automating/using/reconciliation.md) worden de koppelingen tussen de geïmporteerde data en de database tot stand gebracht, zodat de transactiedata correct aan profielen en producten worden gekoppeld.
+* Bij een activiteit [Data bijwerken](../../automating/using/update-data.md) wordt de resource Transacties van de database ingevoegd en bijgewerkt met de binnenkomende data.
+* An [End](../../automating/using/start-and-end.md) activity triggers the destination workflow, which is used to update aggregates.
 
 ![](assets/signal_example_source1.png)
 
-De doelworkflow wordt als volgt weergegeven:
+De bestemmingsworkflow wordt als volgt weergegeven:
 
-* Een [Externe signaalactiviteit](../../automating/using/external-signal.md) wacht op een succesvolle bronwerkstroom.
-* Een activiteit van de [Vraag](../../automating/using/query.md#enriching-data) richt profielen en verrijkt hen met een inzameling die wordt geplaatst om de laatste aankoopdatum terug te winnen.
-* Met een [updategegevensactiviteit](../../automating/using/update-data.md) worden de aanvullende gegevens opgeslagen in een speciaal aangepast veld. Let op: de profielbron is uitgebreid om het veld **Laatste aankoopdatum** toe te voegen.
+* An [External signal](../../automating/using/external-signal.md) activity waits for the source workflow to be successfully finished.
+* Een activiteit [Query](../../automating/using/query.md#enriching-data) benadert doelgericht profielen en verrijkt deze met een verzamelingsreeks om de laatste aankoopdatum op te halen.
+* Met een activiteit [Data bijwerken](../../automating/using/update-data.md) worden de aanvullende data opgeslagen in een speciaal aangepast veld. Merk op dat de profielresource is uitgebreid om het veld **Last purchase date** toe te voegen.
 
 ![](assets/signal_example_source2.png)
