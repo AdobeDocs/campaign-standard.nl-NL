@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,wait,delivery
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -54,7 +52,7 @@ U hebt toegang tot de interface van een workflow zodra deze is gemaakt.
 
 Voeg een queryactiviteit aan uw workflow toe om doelgericht de profielen te benaderen die uw leveringen zullen ontvangen.
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, sleep en laat vallen een activiteit van de [Vraag](../../automating/using/query.md) .
+1. Sleep in **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** een [Query](../../automating/using/query.md)-activiteit en zet deze neer.
 1. Dubbelklik op de activiteit.
 1. Blader in het **[!UICONTROL Target]** tabblad door de sneltoetsen en selecteer een van uw [doelgroepen](../../audiences/using/about-audiences.md).
 1. Sleep de sneltoets naar de bewerkingszone. Afhankelijk van het geselecteerde type sneltoets wordt een venster weergegeven.
