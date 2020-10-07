@@ -1,5 +1,5 @@
 ---
-title: Meerdere abonnementstatussen bijwerken vanuit een bestand
+title: Meerdere lidmaatschapsstatussen bijwerken vanuit een bestand
 description: Met deze gebruiksaanwijzing kunt u zien hoe u een bestand met profielen importeert en uw abonnement bijwerkt naar verschillende services die in het bestand zijn opgegeven.
 page-status-flag: never-activated
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
@@ -10,28 +10,26 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 0%
+ht-degree: 76%
 
 ---
 
 
-# Meerdere abonnementstatussen bijwerken vanuit een bestand {#updating-multiple-subscription-statuses-from-a-file}
+# Meerdere lidmaatschapsstatussen bijwerken vanuit een bestand {#updating-multiple-subscription-statuses-from-a-file}
 
-In dit voorbeeld wordt getoond hoe u een bestand met profielen kunt importeren en hun abonnement kunt bijwerken naar verschillende services die in het bestand zijn opgegeven. Na het importeren van het bestand moet een afstemming plaatsvinden, zodat de geïmporteerde gegevens kunnen worden geïdentificeerd als profielen met een koppeling naar services. Om ervoor te zorgen dat het bestand geen duplicaten bevat, wordt een deduplicatieactiviteit uitgevoerd op de gegevens.
+In dit voorbeeld wordt getoond hoe u een bestand met profielen kunt importeren en hun inschrijving op verschillende services die in het bestand zijn opgegeven, kunt bijwerken. Nadat het bestand is geïmporteerd, moet een afstemming worden uitgevoerd, zodat de geïmporteerde data kunnen worden geïdentificeerd als profielen met een koppeling naar services. Om ervoor te zorgen dat het bestand geen duplicaten bevat, wordt een ontdubbelingsactiviteit uitgevoerd op de data.
 
 De workflow wordt als volgt weergegeven:
 
 ![](assets/subscription_activity_example1.png)
 
-* Een [activiteit van het Dossier](../../automating/using/load-file.md) van de Lading laadt het profieldossier en bepaalt de structuur van de ingevoerde kolommen.
+* A [Load file](../../automating/using/load-file.md) activity loads the profile file and defines the structure of the imported columns.
 
-   In dit voorbeeld heeft het geladen bestand de .csv-indeling en bevat het de volgende gegevens:
+   In dit voorbeeld heeft het geladen bestand de csv-indeling en bevat het de volgende data:
 
    ```
    lastname;firstname;email;birthdate;service;operation
@@ -48,26 +46,26 @@ De workflow wordt als volgt weergegeven:
 
    ![](assets/subscription_example_load_file.png)
 
-   Zoals u misschien hebt opgemerkt, wordt de bewerking in het bestand opgegeven als &quot;sub&quot; of &quot;unsub&quot;. Het systeem verwacht dat een **Booleaanse** of **gehele** waarde de bewerking herkent die moet worden uitgevoerd: &quot;0&quot; voor afmelden en &quot;1&quot; voor abonneren. Om aan dit vereiste te voldoen, wordt een nieuwe toewijzing van waarden uitgevoerd in het detail van de &quot;verrichting&quot;kolom.
+   Zoals u misschien hebt opgemerkt, wordt de bewerking in het bestand opgegeven als ‘sub’ of ‘unsub’. Het systeem verwacht dat een waarde **Boolean** of **Integer** de bewerking herkent die moet worden uitgevoerd: 0 voor uitschrijven en 1 voor inschrijven. Om aan deze vereiste te voldoen, wordt een nieuwe toewijzing van waarden uitgevoerd in de details van de kolom Operation.
 
    ![](assets/subscription_example_remapping.png)
 
-   Als in uw bestand al &quot;0&quot; en &quot;1&quot; worden gebruikt om de bewerking te identificeren, hoeft u deze waarden niet opnieuw toe te wijzen. Zorg alleen dat de kolom op het **tabblad als een** Booleaanse **of** gehele kolom **[!UICONTROL Column definition]** wordt verwerkt.
+   Als in uw bestand al 0 en 1 worden gebruikt om de bewerking te identificeren, hoeft u deze waarden niet opnieuw toe te wijzen. Zorg alleen dat de kolom op het tabblad **[!UICONTROL Column definition]** wordt verwerkt als een **Boolean** of **Integer**.
 
-* Bij een [afstemmingsactiviteit](../../automating/using/reconciliation.md) worden de gegevens uit het bestand geïdentificeerd als behorend tot de profieldimensie van de Adobe Campaign-database. Via het **[!UICONTROL Identification]** tabblad komt het veld **E-mail** van het bestand overeen met het veld **E-mail** van de profielbron.
+* A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. Via het tabblad **[!UICONTROL Identification]** wordt het veld **Email** van het bestand afgestemd op het veld **Email** van de profielresource.
 
    ![](assets/subscription_activity_example3.png)
 
-   Op het **[!UICONTROL Relations]** lusje, wordt een verbinding gecreeerd met het de dienstmiddel om het de **dienstgebied** van het dossier toe te laten om worden erkend. In dit voorbeeld, passen de waarden het **naamgebied** van het de dienstmiddel aan.
+   Op het tabblad **[!UICONTROL Relations]** wordt een koppeling met de serviceresource gemaakt zodat het veld **service** van het bestand kan worden herkend. In dit voorbeeld komen de waarden overeen met het veld **name** van de serviceresource.
 
    ![](assets/subscription_example_service_relation.png)
 
-* Bij een [deduplicatie](../../automating/using/deduplication.md) op basis van het **e-mailveld** van de tijdelijke bron (die het resultaat is van de afstemming) worden dubbele gegevens geïdentificeerd. Het is belangrijk om dubbele gegevens te elimineren aangezien het abonnement aan de dienst voor alle gegevens in het geval van duplicaten zal ontbreken.
+* A [Deduplication](../../automating/using/deduplication.md) based on the **email** field of the temporary resource (resulting from the reconciliation) identifies duplicates. Het is belangrijk om duplicaten te verwijderen aangezien het abonnement op de service voor alle data zal mislukken als er duplicaten zijn.
 
    ![](assets/subscription_activity_example5.png)
 
-* Een [activiteit van de Diensten](../../automating/using/subscription-services.md) van het Abonnement identificeert de diensten om als voortkomend uit de overgang, door de verbinding bij te werken die in de **[!UICONTROL Reconciliation]** activiteit wordt gecreeerd.
+* A [Subscription Services](../../automating/using/subscription-services.md) activity identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
 
-   Het **[!UICONTROL Operation type]** wordt geïdentificeerd als afkomstig van het **bewerkingsveld** van het bestand. U kunt hier alleen Booleaanse of gehele getallen selecteren. Als de kolom van het bestand dat de uit te voeren bewerking bevat, niet in de lijst voorkomt, moet u de kolomindeling correct instellen in de **[!UICONTROL Load file]** activiteit, zoals eerder in dit voorbeeld wordt uitgelegd.
+   Het **[!UICONTROL Operation type]** wordt geïdentificeerd als afkomstig van het veld **operation** van het bestand. U kunt hier alleen de velden Boolean of Integer selecteren. Als de kolom van het bestand dat de uit te voeren bewerking bevat, niet in de lijst voorkomt, moet u controleren of u de kolomindeling in de activiteit **[!UICONTROL Load file]** correct hebt ingesteld, zoals eerder in dit voorbeeld wordt uitgelegd.
 
    ![](assets/subscription_activity_example_from_file.png)
