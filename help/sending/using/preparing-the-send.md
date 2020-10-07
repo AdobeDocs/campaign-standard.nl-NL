@@ -9,10 +9,11 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 discoiquuid: 003abc83-7f07-471f-ab2f-1d352d22c26f
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +38,7 @@ De voorbereiding komt overeen met de stap voor het berekenen van de doelpopulati
 
    ![](assets/preparing_delivery_6.png)
 
-1. Uw bericht wordt automatisch opgeslagen tijdens de voorbereiding voor de leveringsfase. Als u wijzigingen in het schema van uw bericht na de voorbereidingsstap moet aanbrengen, moet u ervoor zorgen dat u nogmaals op de **[!UICONTROL Prepare]** knop klikt om met deze wijzigingen rekening te houden. Voor meer informatie over hoe te om een bericht te plannen, verwijs naar deze [pagina](../../sending/using/about-scheduling-messages.md).
+1. Uw bericht wordt automatisch opgeslagen tijdens de voorbereiding voor de leveringsfase. Als u wijzigingen in het schema van uw bericht na de voorbereidingsstap moet aanbrengen, moet u ervoor zorgen dat u nogmaals op de **[!UICONTROL Prepare]** knop klikt om met deze wijzigingen rekening te houden. For more information on how to schedule a message, refer to this [page](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/preparing_delivery_5.png)
 
@@ -57,7 +58,7 @@ Zodra de voorbereiding is voltooid, is uw bericht klaar om te worden verzonden. 
 
 **Typologieregels**
 
-De Campagne van Adobe komt met een reeks ingebouwde typologieregels die tijdens de berichtvoorbereiding worden toegepast. Ze worden gebruikt om te controleren of een bericht geldig is en aan uw kwaliteitscriteria voldoet. Zie [Typologieën](../../sending/using/about-typology-rules.md). U kunt bijvoorbeeld uw eigen typologieregels definiëren. Met deze regels kunt u bijvoorbeeld algemene regels voor vermoeidheid tussen kanalen instellen die overbelaste profielen automatisch uitsluiten van campagnes. Zie [Vermoeidheidsregels](../../sending/using/fatigue-rules.md).
+Adobe Campaign wordt geleverd met een reeks ingebouwde typologische regels die worden toegepast tijdens de voorbereiding van berichten. Ze worden gebruikt om te controleren of een bericht geldig is en aan uw kwaliteitscriteria voldoet. Zie [Typologieën](../../sending/using/about-typology-rules.md). U kunt bijvoorbeeld uw eigen typologieregels definiëren. Met deze regels kunt u bijvoorbeeld algemene regels voor vermoeidheid tussen kanalen instellen die overbelaste profielen automatisch uitsluiten van campagnes. Zie [Moeheidsregels](../../sending/using/fatigue-rules.md).
 
 **SMS-berichtcontrole**
 
