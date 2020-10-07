@@ -1,5 +1,5 @@
 ---
-title: Meertalige pushmeldingen maken
+title: Een meertalige pushmelding maken
 description: Meertalige pushmeldingen maken om gebruikers in hun voorkeurstalen en -regio's te laten kiezen.
 page-status-flag: never-activated
 uuid: d4aff741-e969-47c6-bae8-787c6c673191
@@ -9,15 +9,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '920'
+ht-degree: 3%
 
 ---
 
 
-# Meertalige pushmeldingen maken{#creating-a-multilingual-push-notification}
+# Een meertalige pushmelding maken{#creating-a-multilingual-push-notification}
 
 ## Meertalige pushmelding {#about-multilingual-push-notification}
 
@@ -42,13 +43,13 @@ Voordat u uw meertalige pushmelding kunt aanpassen, moeten we eerst de varianten
 >U kunt deze stap ook overslaan als u een variant handmatig voor elke taalvariant wilt maken.
 
 1. Klik in het **[!UICONTROL Marketing activities]** dialoogvenster op de **[!UICONTROL Create]** knop en selecteer **[!UICONTROL Push notification]**.
-1. Selecteer de sjabloon **[!UICONTROL Send multilingual push to Campaign profiles]** als u de Adobe Campagne-profielen wilt activeren die zijn geabonneerd op uw mobiele toepassing of de sjabloon **[!UICONTROL Send multilingual push to app subscriber]** om een pushmelding te verzenden naar alle gebruikers die zich hebben aangemeld om meldingen van uw mobiele toepassing te ontvangen.
+1. Selecteer de sjabloon **[!UICONTROL Send multilingual push to Campaign profiles]** als u de Adobe Campaign-profielen die zijn geabonneerd op uw mobiele toepassing of de sjabloon wilt gebruiken om een pushmelding te verzenden **[!UICONTROL Send multilingual push to app subscriber]** naar alle gebruikers die zich hebben aangemeld om berichten van uw mobiele toepassing te ontvangen.
 
    ![](assets/multivariant_push_2.png)
 
-1. Voer de eigenschappen van uw pushmelding in en selecteer uw mobiele app in het **[!UICONTROL Associate a Mobile App to a delivery]** veld.
+1. Enter your push notification properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
 
-   In het vervolgkeuzemenu worden SDK V4- en Adobe Experience Platform SDK&#39;s-toepassingen weergegeven.
+   In het vervolgkeuzemenu worden zowel SDK V4- als Adobe Experience Platform SDK-toepassingen weergegeven.
 
 1. In de **[!UICONTROL Audiences]** vensters, belemmering en dalingsvragen om uw publiek te verfijnen.
 
@@ -61,7 +62,7 @@ Voordat u uw meertalige pushmelding kunt aanpassen, moeten we eerst de varianten
 
 1. Sleep het bestand in het **[!UICONTROL Manage Content Variants]** venster en zet het neer of selecteer een bestand van de computer.
 
-   Het bestand moet UTF8-gecodeerd zijn en moet een specifieke indeling hebben die u kunt vinden door op de **[!UICONTROL Download the sample file]** optie te klikken. U moet ook de juiste syntaxis gebruiken voor waarden van landinstellingen. Raadpleeg dit [technische artikel voor meer informatie over de bestandsindeling en de ondersteunde landinstellingen](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
+   Het bestand moet UTF8-gecodeerd zijn en moet een specifieke indeling hebben die u kunt vinden door op de **[!UICONTROL Download the sample file]** optie te klikken. U moet ook de juiste syntaxis gebruiken voor waarden van landinstellingen. Raadpleeg dit [technische artikel voor meer informatie over de bestandsindeling en de ondersteunde landinstellingen](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push.html).
 
    ![](assets/multivariant_push_4.png)
 
@@ -98,7 +99,7 @@ Het is ook mogelijk om meer varianten te maken en te bewerken naast de varianten
 
 1. U kunt ook op een inhoudvariant klikken om deze verder aan te passen, bijvoorbeeld met verpersoonlijkingsvelden.
 
-   Raadpleeg deze [sectie](../../channels/using/customizing-a-push-notification.md)voor meer informatie over het aanpassen van uw pushmelding.
+   For more information on how to customize your push notification, refer to this [section](../../channels/using/customizing-a-push-notification.md).
 
    ![](assets/multivariant_push_9.png)
 
@@ -132,6 +133,6 @@ U kunt nu de impact van uw meertalige pushmelding op uw ontvangers meten.
 
 **Verwante onderwerpen:**
 
-* [Pushmeldingsrapport](../../reporting/using/push-notification-report.md)
+* [Pushmeldingenrapport](../../reporting/using/push-notification-report.md)
 * [Een pushmelding verzenden binnen een workflow](../../automating/using/push-notification-delivery.md)
 * [Meertalig publiek bereiken met één workflow](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
