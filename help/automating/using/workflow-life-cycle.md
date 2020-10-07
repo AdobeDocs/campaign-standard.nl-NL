@@ -1,5 +1,5 @@
 ---
-title: Levenscyclus van werkstroom
+title: Levenscyclus van workflow
 description: Meer informatie over de levenscyclus van een workflow
 page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '200'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# Levenscyclus van werkstroom {#life-cycle}
+# Levenscyclus van workflow {#life-cycle}
 
 De levenscyclus van een werkstroom omvat drie hoofdstappen en elke stap is gekoppeld aan een status en een kleur:
 
@@ -41,12 +39,12 @@ Als de workflow eenmaal is gestart, kan deze ook twee andere statussen hebben:
 
 * **Waarschuwing** (geel)
 
-   De werkstroom kon niet worden voltooid of was gepauzeerd met de ![](assets/pause_darkgrey-24px.png) knoppen of de ![](assets/check_pause_darkgrey-24px.png) knoppen.
+   De werkstroom kon niet worden voltooid of werd gepauzeerd met de ![](assets/pause_darkgrey-24px.png) knoppen of ![](assets/check_pause_darkgrey-24px.png) knoppen.
 
 * **Onjuist** (rood)
 
    Er is een fout opgetreden bij het uitvoeren van een workflow. De werkstroom is gestopt en de gebruiker moet een actie uitvoeren. Als u meer wilt weten over deze fout, gebruikt u de ![](assets/printpreview_darkgrey-24px.png) knop om het workflowlogboek te openen (zie [Controle](../../automating/using/monitoring-workflow-execution.md)).
 
-In de lijst met marketingactiviteiten kunt u alle workflows en de bijbehorende statussen weergeven. Zie [Marketing activities](../../start/using/marketing-activities.md#about-marketing-activities)beheren voor meer informatie.
+In de lijst met marketingactiviteiten kunt u alle workflows en de bijbehorende statussen weergeven. For more on this, see [Managing marketing activities](../../start/using/marketing-activities.md#about-marketing-activities).
 
 ![](assets/wkf_execution_3.png)
