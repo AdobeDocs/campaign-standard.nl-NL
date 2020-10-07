@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e60ec7790da46d234b66baf4c3db23815056b9fb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 10%
 
 ---
 
@@ -20,17 +21,17 @@ source-git-commit: e60ec7790da46d234b66baf4c3db23815056b9fb
 # Interactie met de marketinggeschiedenis {#interacting-with-marketing-history}
 
 Het **** geschiedeniseindpunt laat u met de marketing geschiedenis van een profiel in wisselwerking staan.
-Op deze manier kunt u bijvoorbeeld gemakkelijk de spiegelpagina ophalen voor een levering die naar een profiel is verzonden. Hiervoor voert u de volgende stappen uit:
+Op deze manier kunt u bijvoorbeeld gemakkelijk de spiegelpagina ophalen voor een levering die naar een profiel is verzonden. Volg de onderstaande stappen om dit te doen:
 
-1. Voer GET met het **geschiedeniseindpunt** en de primaire sleutel van het profiel uit.
-1. Voer een GET verzoek uit op de teruggekeerde **gebeurtenissen** href.
+1. Voer een GET met het **geschiedeniseindpunt** en de primaire sleutel van het profiel uit.
+1. Voer een verzoek van de GET uit op de teruggekeerde **gebeurtenissen** href.
 1. Het keert de lijst van gebeurtenissen voor het profiel met verbindingen aan spiegelpagina&#39;s in de **mirrorPage** knoop terug.
 
 <br/>
 
 ***Voorbeeldverzoek***
 
-Haal de marketinggeschiedenis van het profiel op met een GET aanvraag.
+Haal de marketinggeschiedenis van het profiel op met een GET-aanvraag.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/"<PKEY>" \
@@ -55,7 +56,7 @@ Het knooppunt &quot;events&quot; retourneert de URL die u toegang geeft tot de g
 }
 ```
 
-Voer een GET verzoek uit op de gebeurtenissen die href heeft geretourneerd.
+Voer een verzoek van de GET uit op de gebeurtenissen die href heeft geretourneerd.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/<PKEY>/events \
