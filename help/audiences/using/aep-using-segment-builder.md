@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: managing-audiences
 discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -27,7 +25,7 @@ ht-degree: 0%
 >
 >De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 
-De Bouwer van het Segment staat u toe om publiek te bouwen door regels te bepalen die op gegevens worden gebaseerd die uit het [Real-time Profiel](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)van de Klant komen.
+De Bouwer van het Segment staat u toe om publiek te bouwen door regels te bepalen die op gegevens worden gebaseerd die uit het [Real-time Profiel](https://docs.adobe.com/content/help/nl-NL/experience-platform/profile/home.html)van de Klant komen.
 
 In deze sectie worden algemene concepten beschreven wanneer u een segment maakt. Voor gedetailleerde informatie over de Bouwer van het Segment zelf, verwijs naar de de gebruikersgids [van de Bouwer van het](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)Segment.
 
@@ -43,7 +41,7 @@ De interface van de Bouwer van het Segment wordt samengesteld als volgt:
 
 Voer de volgende stappen uit om een segment te maken:
 
-De Segment Builder moet nu in uw werkruimte worden weergegeven. Het staat u toe om een segment te bouwen gebruikend gegevens van Adobe Experience Platform die uiteindelijk zullen worden gebruikt om uw publiek tot stand te brengen.
+De Segment Builder moet nu in uw werkruimte worden weergegeven. Hiermee kunt u een segment maken met gegevens uit Adobe Experience Platform die uiteindelijk worden gebruikt om uw publiek te maken.
 
 1. Geef het segment een naam en voer vervolgens een beschrijving in (optioneel).
 
@@ -63,21 +61,21 @@ De Segment Builder moet nu in uw werkruimte worden weergegeven. Het staat u toe 
 
    ![](assets/aep_audiences_configure_rules.png)
 
-1. Klik op de **[!UICONTROL Create segment]** knop.
+1. Klik op de knop **[!UICONTROL Create segment]**.
 
 ## De juiste velden voor een segment zoeken
 
 In het linkerdeelvenster worden alle kenmerken, gebeurtenissen en doelgroepen weergegeven die u kunt gebruiken om regels samen te stellen.
 
-De vermelde velden zijn kenmerken die door uw bedrijf zijn vastgelegd en die beschikbaar zijn gesteld via het XDM-systeem ( [Experience Data Model)](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html).
+De vermelde velden zijn kenmerken die door uw bedrijf zijn vastgelegd en die beschikbaar zijn gesteld via het XDM-systeem ( [Experience Data Model)](https://docs.adobe.com/content/help/nl-NL/experience-platform/xdm/home.html).
 
 Velden zijn ingedeeld in tabbladen:
 
-* **[!UICONTROL Attributes]**: Kenmerken voor bestaande profielen die kunnen ontstaan uit uw Adobe Campaign-database en/of -Adobe Experience Platform. Zij verwijzen naar statische informatie die bij een profiel is gevoegd (bijv. e-mailadres, land van verblijf, status van loyaliteitsprogramma, enz.).
+* **[!UICONTROL Attributes]**: Kenmerken van bestaande profielen die kunnen ontstaan uit uw Adobe Campaign-database en/of Adobe Experience Platform. Zij verwijzen naar statische informatie die bij een profiel is gevoegd (bijv. e-mailadres, land van verblijf, status van loyaliteitsprogramma, enz.).
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**: Activiteiten die consumenten identificeren die enige interactie hebben gehad met de klantenaanraakpunten van uw bedrijf, zoals &quot;iedereen die tweemaal in twee weken bestelde&quot;. Dit kan van Adobe Analytics worden gestreamd, of direct in het Adobe Experience Platform worden opgenomen gebruikend derdehulpmiddelen ETL.
+* **[!UICONTROL Events]**: Activiteiten die consumenten identificeren die enige interactie hebben gehad met de klantenaanraakpunten van uw bedrijf, zoals &quot;iedereen die tweemaal in twee weken bestelde&quot;. Dit kan van Adobe Analytics worden gestroomd, of direct in Adobe Experience Platform worden opgenomen gebruikend derdehulpmiddelen ETL.
 
    ![](assets/aep_audiences_eventstab.png)
 
@@ -85,7 +83,7 @@ Velden zijn ingedeeld in tabbladen:
 >
 >**Met segmentatie** over meerdere entiteiten kunt u de profielgegevens uitbreiden met aanvullende gegevens op basis van producten, opslagruimten of andere klassen zonder profiel. Zodra verbonden, worden de gegevens van extra klassen beschikbaar alsof zij aan het schema van het Profiel inheems waren.
 >
->Raadpleeg de [desbetreffende documentatie](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html)voor meer informatie hierover.
+>Raadpleeg de [desbetreffende documentatie](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html) voor meer informatie.
 
 Door gebrek, toont de Bouwer van het Segment gebieden waarin de gegevens reeds aanwezig zijn. Als u het volledige schema wilt weergeven, inclusief de velden waarvoor geen gegevens aanwezig zijn, schakelt u de **[!UICONTROL Show full XDM schema]** optie van de instellingen in.
 
