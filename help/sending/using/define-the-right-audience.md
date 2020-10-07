@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -58,7 +56,7 @@ Zorg ervoor dat u de juiste ontvangers voor het bewijs selecteert, omdat deze he
 
 Meer informatie over testprofielen vindt u [in deze sectie](../../audiences/using/managing-test-profiles.md).
 
-U kunt [Controlegroepen](../../sending/using/control-group.md) gebruiken om het effect van uw campagnes te meten door een deel van hun publiek uit te sluiten. Vervolgens kunt u het gedrag van de doelgroep die de boodschap heeft ontvangen, vergelijken met het gedrag van contacten die niet als doelgroep werden beschouwd. Gebaseerd op de verzendende logboeken, kunt u een controlegroep in toekomstige campagnes ook richten.
+You can use [Control groups](../../sending/using/control-group.md) to measure the impact of your campaigns by excluding a portion of their audience. Vervolgens kunt u de gedragingen van de doelgroep die het bericht heeft ontvangen, vergelijken met de gedragingen van contactpersonen die niet zijn getarget. Op basis van de verzendlogboeken kunt u in toekomstige campagnes ook een controlegroep targeten.
 
 ## Gedupliceerde adressen {#deduplicate-addresses}
 
