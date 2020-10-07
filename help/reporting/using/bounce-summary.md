@@ -1,5 +1,5 @@
 ---
-title: Overzicht van stuit
+title: Overzicht van niet-bezorging
 description: Met het overzicht van de Stuiteren uit-van-de-doos rapport, leer over de status van uw verzonden campagnes en fouten zij kunnen hebben ontmoet.
 page-status-flag: never-activated
 uuid: 90087311-4236-4df9-ae7d-4a15c00c70ab
@@ -10,17 +10,18 @@ content-type: reference
 topic-tags: list-of-reports
 discoiquuid: 5ae561b4-03cf-4541-87ff-47f1027d53b8
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bee7ea0f1728da2a96c1f225b91b13a7903be660
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 8%
 
 ---
 
 
-# Overzicht van stuit{#bounce-summary}
+# Overzicht van niet-bezorging{#bounce-summary}
 
-In dit rapport worden de algemene harde en zachte fouten beschreven die tijdens de leveringen zijn opgetreden, alsmede de automatische verwerking van steunbedragen.
+In dit rapport worden de algemene permanente en tijdelijke fouten beschreven die tijdens de leveringen zijn opgetreden, alsmede de automatische verwerking van niet-bezorgde berichten.
 
 ![](assets/campaign_reports_bounces.png)
 
