@@ -1,5 +1,5 @@
 ---
-title: Begrijpen met de Payload Structuur van Campaign Standard Push-berichten
+title: Begrijpen met de Payload Structuur van Campaign Standard-pushberichten
 description: Dit document is bedoeld om de structuur van de lading te beschrijven die in mobiele toepassingen wordt ontvangen.
 page-status-flag: never-activated
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 
-# De payloadstructuur voor pushberichten begrijpen {#push-payload}
+# De payloadstructuur voor pushmeldingen begrijpen {#push-payload}
 
 Met Adobe Campaign kunt u op iOS en Android mobiele apparaten gepersonaliseerde en gesegmenteerde pushmeldingen verzenden naar mobiele toepassingen (mobiele app).
 
@@ -39,7 +37,7 @@ In dit document wordt de structuur beschreven van de payload die in een mobiele 
 
 Deze sectie beschrijft een structuur van een steekproeflading voor diverse mobiele platforms en beschrijft belangrijke attributen die in het bevat zijn. Dit is de structuur van de payload die in de code voor de mobiele app in de gebeurtenishandler wordt ontvangen, die aangeeft dat een pushmelding is ontvangen.
 
-De attributen en hun waarden van de nuttige lading zullen variëren gebaseerd op de configuraties die in de Geavanceerde opties van het pushbericht worden verstrekt. Deze sectie verstrekt ook een afbeelding tussen deze configuraties in Campaign Standard UI en de attributen in de lading om te verduidelijken hoe de lading bij het vormen van een optie in Campaign Standard zal veranderen.
+De attributen en hun waarden van de nuttige lading zullen variëren gebaseerd op de configuraties die in de Geavanceerde opties van het pushbericht worden verstrekt. Deze sectie verstrekt ook een afbeelding tussen deze configuraties in Campaign Standard UI en de attributen in de nuttige lading om te verduidelijken hoe de nuttige lading bij het vormen van een optie in Campaign Standard zal veranderen.
 
 ### Voor iOS Mobile-toepassing {#payload-structure-ios}
 
@@ -214,7 +212,7 @@ Om aspecten van een android nuttige lading te begrijpen verwijs naar de Concepte
 | Berichttitel <br>Bericht | signalering → <br> titelwaarschuwing → orgaan | titel <br>body | Deze gegevens bevatten specifieke gegevens van het waarschuwingsbericht.<br>De titel en de lichaamstoetsen verstrekken de inhoud van de alarm. |
 | Geluid afspelen | geluid | geluid | Een aangepast geluid dat met de waarschuwing moet worden afgespeeld. |
 | Waarde van de badge | badge | badge | Een geheel-getalwaarde die moet worden gebruikt om het pictogram van de app aan te geven. |
-| Een diepkoppeling toevoegen | uri | NA | Met een deplink kunt u de gebruikers rechtstreeks naar inhoud in de toepassing brengen (in plaats van een webbrowserpagina te openen). |
+| Een deeplink toevoegen | uri | NA | Met een deeplink kunt u gebruikers rechtstreeks naar de content in de applicatie brengen (in plaats van een webbrowserpagina te openen). |
 | Categorie | categorie | categorie | Aangepaste handelingen weergeven met een extern bericht. <br>Met de categorietoets kan het systeem de handelingen voor die categorie weergeven als knoppen in de waarschuwingsinterface. |
 | Aangepaste velden | custom_field1, custom_field2.. | custom_field1, custom_field2.. | Alle aangepaste gegevens die u naar uw app wilt verzenden. |
 | URL met rijke media-inhoud (afbeeldings-, gif-, audio- en videobestanden)<br>(alleen van toepassing op iOS 10 of hoger) | media-gehechtheid-url | NA | URL van uw mediabestanden om rijke inhoud aan uw melding toe te voegen. <br>Wanneer u een waarde voor deze URL opgeeft, wordt de markering voor gemuteerde inhoud automatisch naar de payload verzonden. <br> (Alleen van toepassing voor iOS 10 of hoger) |
