@@ -9,10 +9,8 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 0%
@@ -150,7 +148,7 @@ De volgende talen worden ondersteund:
 | en_gb | Engels - Verenigd Koninkrijk |
 | nl_nl | Engels - Verenigde Staten |
 | nl_zw | Engels - Zimbabwe |
-| Nederlands | Ests - Estland |
+| et_ee | Ests - Estland |
 | fi_fi | Fins - Finland |
 | fr_be | Frans - België |
 | fr_ca | Frans - Canada |
@@ -164,14 +162,14 @@ De volgende talen worden ondersteund:
 | el_cy | Grieks - Cyprus |
 | el_gr | Grieks - Griekenland |
 | gu_in | Gujarati - India |
-| de | Hebreeuws - Israël |
+| he_il | Hebreeuws - Israël |
 | hi_in | Hindi - India |
 | hu_hu | Hongaars - Hongarije |
 | is_is | IJslands - IJsland |
 | id_id | Indonesisch - Indonesië |
 | it_it | Italiaans - Italië |
 | it_ch | Italiaans - Zwitserland |
-| ja_jp | ja - Japan |
+| ja_jp | Japans - Japan |
 | kn_in | Kannada - India |
 | kk_kz | Kazachstan - Kazachstan |
 | ko_kr | Koreaans - Zuid-Korea |
@@ -208,7 +206,7 @@ De volgende talen worden ondersteund:
 | es_mx | Spaans - Mexico |
 | es_ni | Spaans - Nicaragua |
 | es_pa | Spaans - Panama |
-| Spes_py | Spaans - Paraguay |
+| es_py | Spaans - Paraguay |
 | es_pe | Spaans - Peru |
 | es_pr | Spaans - Puerto Rico |
 | es_es | Spaans - Spanje |
