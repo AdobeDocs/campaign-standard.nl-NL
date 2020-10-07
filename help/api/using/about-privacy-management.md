@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 4%
 
 ---
 
 
 # Over privacybeheer {#about-privacy-management}
 
-De standaard APIs van de campagne verstrekt eigenschappen die het automatische proces van verzoeken met betrekking tot privacyverordeningen zoals GDPR en CCPA toestaan.
+Campaign Standard API&#39;s bieden functies die het mogelijk maken verzoeken die verband houden met privacyregels zoals GDPR en CCPA, automatisch af te handelen.
 
 U kunt de volgende acties uitvoeren:
 
@@ -32,4 +33,4 @@ Het API-eindpunt voor privacy is **/privacy/privacyTool**. De het middelbeschrij
 
 De opt-out CCPA wordt beheerd gebruikend het **ccpaOptOut** profielattribuut.
 
-Raadpleeg de [desbetreffende documentatie](https://helpx.adobe.com/campaign/kb/acs-privacy.html)voor meer informatie over de Adobe Campagne Standard en privacycompatibiliteit.
+Raadpleeg de [desbetreffende documentatie](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html)voor meer informatie over Adobe Campaign Standard en privacynaleving.
