@@ -1,5 +1,5 @@
 ---
-title: Bewaren van gegevens
+title: Dataretentie
 description: null
 page-status-flag: never-activated
 uuid: d90852b4-e9f3-4187-bbea-e748d16d1590
@@ -9,19 +9,20 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: b791562b-6c51-447d-9e5b-bb77136f3dd8
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
 
-# Bewaren van gegevens{#data-retention}
+# Dataretentie{#data-retention}
 
 De standaard logboeklijsten in Campaign hebben vooraf vastgestelde bewaartermijnen op hen, die over het algemeen hun gegevensopslag tot 6 maanden of minder beperken.
 
-Hier volgen de standaardwaarden voor het behoud van standaardtabellen. Houd er rekening mee dat de bewaarconfiguratie door technische beheerders van Adobe tijdens de implementatie is ingesteld en dat de waarden voor elke implementatie kunnen variëren, afhankelijk van de vereisten van de klant.
+Hier volgen de standaardwaarden voor het behoud van standaardtabellen. Houd er rekening mee dat de bewaarconfiguratie tijdens de implementatie door technische beheerders van Adobe is ingesteld en dat de waarden voor elke implementatie kunnen variëren op basis van de vereisten van de klant.
 
 * **Geconsolideerde reeksspatiëring**: 6 maanden
 * **Leveringslogboeken**: 6 maanden
@@ -36,4 +37,4 @@ Hier volgen de standaardwaarden voor het behoud van standaardtabellen. Houd er r
 
 Met de standaardworkflowfunctionaliteit is het mogelijk retentieperiodes in te stellen voor elke aangepaste tabel.
 
-Neem contact op met de Adobe-consultants of technische beheerders voor meer informatie over retentie of over het instellen van retentie voor aangepaste tabellen.
+Neem contact op met de consultants of technische Adobe-beheerders voor meer informatie over retentie of als u retentie wilt instellen voor aangepaste tabellen.
