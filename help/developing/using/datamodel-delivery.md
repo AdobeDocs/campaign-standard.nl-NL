@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 6%
 
 ---
 
@@ -58,7 +59,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>aemContents</td>
-                  <td>Inhoud van Adobe Experience Manager</td>
+                  <td>Adobe Experience Manager-inhoud</td>
                   <td>collectie </td>
                   <td> </td>
                </tr>
@@ -100,7 +101,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>campagne (campagneBase)</td>
-                  <td>Campagne</td>
+                  <td>Campaign</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -128,8 +129,8 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                   <td>opsomming (byte) </td>
                   <td>
                      <ul>
-                        <li>Adobe Experience Manager - aem - 1</li>
-                        <li>Adobe-campagne - campagne - 0</li>
+                        <li>Adobe Experience Manager - em - 1</li>
+                        <li>Adobe Campaign - campagne - 0</li>
                         <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
@@ -192,7 +193,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>uitsluitingen</td>
-                  <td>Uitsluiting veroorzaakt</td>
+                  <td>Uitsluitingsoorzaken</td>
                   <td>collectie </td>
                   <td> </td>
                </tr>
@@ -343,13 +344,13 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>master (deliveryBase)</td>
-                  <td>Hoofdexemplaar</td>
+                  <td>Master instantie</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>masterKpis</td>
-                  <td>Hoofdindicatoren</td>
+                  <td>Master indicatoren</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -378,7 +379,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>name</td>
-                  <td>ID</td>
+                  <td>Id</td>
                   <td>tekenreeks (64)</td>
                   <td> </td>
                </tr>
@@ -414,7 +415,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>programma (programBase)</td>
-                  <td> Programma</td>
+                  <td>Programma</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -526,13 +527,13 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
                </tr>
                <tr>
                   <td>titel</td>
-                  <td>Aflevering</td>
+                  <td>Levering</td>
                   <td>tekenreeks (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>bijhouden</td>
-                  <td>Parameters bijhouden</td>
+                  <td>Parameters voor tracking</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -585,7 +586,7 @@ source-git-commit: 13ad7e616b51ae0fa0804db02f15120a636b7603
 
 ## Filters
 
-Op kanaaltype (doorKanaal)
+Op kanaaltype (byChannel)
 
 <table>
     <tr>
