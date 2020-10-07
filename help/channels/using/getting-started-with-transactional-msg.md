@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: landing-pages
 discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 27%
+ht-degree: 28%
 
 ---
 
 
-# Aan de slag met transactiemeldingen {#getting-started-with-transactional-messaging}
+# Aan de slag met transactionele berichten {#getting-started-with-transactional-messaging}
 
 ## Overzicht
 
@@ -168,7 +166,7 @@ Zie [Site-integratie](../../administration/using/configuring-transactional-messa
 
 ## Belangrijkste stappen {#key-steps}
 
-De belangrijkste stappen bij het maken en beheren van persoonlijke transactiemeldingen in Adobe Campaign worden hieronder samengevat.
+De belangrijkste stappen bij het maken en beheren van persoonlijke transactiemeldingen in Adobe Campaign worden in de onderstaande tabel samengevat.
 
 ![](assets/message-center-overview.png)
 
