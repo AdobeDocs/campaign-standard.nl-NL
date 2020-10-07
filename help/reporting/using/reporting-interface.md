@@ -1,5 +1,5 @@
 ---
-title: Rapportageinterface
+title: Rapportage-interface
 description: Leer meer over de Dynamische basis van de rapportinterface en hoe te door de verschillende lusjes en de menu's te navigeren.
 page-status-flag: never-activated
 uuid: da6bcf7a-1d57-4d00-a3ba-d84214592417
@@ -9,15 +9,16 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 discoiquuid: 14d86b4f-2782-48ec-8968-393a6de4f853
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '731'
+ht-degree: 3%
 
 ---
 
 
-# Rapportageinterface{#reporting-interface}
+# Rapportage-interface{#reporting-interface}
 
 Op de bovenste werkbalk kunt u bijvoorbeeld uw rapport wijzigen, opslaan of afdrukken.
 
@@ -109,7 +110,7 @@ Op het tabblad **Invoegen** kunt u uw rapporten aanpassen door grafieken en tabe
 
 ![](assets/tab_share_1.png)
 
-Op het **[!UICONTROL Share]** tabblad kunt u uw rapporten verzenden met gebruikers van Adobe Campagne via een eenmalig of terugkerend e-mailbericht. De doelgebruikers ontvangen vervolgens een e-mail met het bijbehorende rapport.
+Op het **[!UICONTROL Share]** tabblad kunt u uw rapporten met Adobe Campaign-gebruikers verzenden via een eenmalige of terugkerende e-mail. De doelgebruikers ontvangen vervolgens een e-mail met het bijbehorende rapport.
 
 * **[!UICONTROL Send report now]**: Verzend uw rapport naar een lijst met gekozen ontvangers via een e-mail met één opname.
 
