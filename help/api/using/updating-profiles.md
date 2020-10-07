@@ -9,31 +9,32 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 4%
 
 ---
 
 
 # Profielen bijwerken {#updating-profiles}
 
-Het bijwerken van profielen wordt uitgevoerd met een **PATCH** -aanvraag.
+Het bijwerken van profielen wordt uitgevoerd met een **PATCH** -verzoek.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
 1. De eerste stap is het **terugwinnen van het profiel**.
 
-1. In een tweede verzoek, zullen wij een **PATCH verzoek** op het profiel met de voltooide informatie in de lading uitvoeren.
+1. In een tweede verzoek, zullen wij een verzoek **van** PATCH op het profiel met de voltooide informatie in de lading uitvoeren.
 
-1. Om te controleren of het PATCH-verzoek het profiel heeft bijgewerkt, kunnen we een definitieve GET aanvraag uitvoeren.
+1. Om te controleren of het PATCH verzoek het profiel heeft bijgewerkt, kunnen wij een definitieve GET verzoek uitvoeren.
 
 <br/>
 
 ***Voorbeeldverzoek***
 
-Voorbeeld ophalen van aanvraag om een profiel op te halen.
+Voorbeeld van GET-aanvraag om een profiel op te halen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
