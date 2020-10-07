@@ -9,13 +9,11 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e1e092249a447039c0d845f143be532f845ca1dc
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -54,7 +52,7 @@ U kunt een e-mail van een [campagne](../../start/using/marketing-activities.md#c
 
    ![](assets/email_creation_4.png)
 
-   U kunt uw bericht rechtstreeks ontwerpen met een vooraf gedefinieerde inhoudssjabloon of met Dreamweaver of Adobe Experience Manager. Als u zich niet als ontwerper voelt, kunt u een inhoud ook uploaden die voor u, is voorbereid of een bestaande inhoud van een URL invoeren. Zie [Bestaande inhoud](../../designing/using/using-existing-content.md)selecteren.
+   U kunt uw bericht rechtstreeks ontwerpen met een vooraf gedefinieerde inhoudssjabloon of met Dreamweaver of Adobe Experience Manager. Als u zich niet als ontwerper voelt, kunt u een inhoud ook uploaden die voor u, is voorbereid of een bestaande inhoud van een URL invoeren. Zie [Bestaande content selecteren](../../designing/using/using-existing-content.md).
 
 1. Geef een voorvertoning van uw bericht weer. Zie [Berichten voorvertonen](../../sending/using/previewing-messages.md).
 1. Bevestig het maken van de e-mail.
@@ -94,6 +92,6 @@ U kunt een e-mail van een [campagne](../../start/using/marketing-activities.md#c
 **Verwante onderwerpen**:
 
 * [Een e-mail maken](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html) video
-* [Een gepersonaliseerde e-mail](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html) stapsgewijze handleiding maken
-* [Integratie](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html) -video Adobe Campaign en Dreamweaver
+* [Een gepersonaliseerde e-mail](https://helpx.adobe.com/nl/campaign/kb/acs-get-started-with-emails.html) stapsgewijze handleiding maken
+* [Integratie](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html) -video Adobe Campaign en Dreamweaver
 * [Integreren met Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
