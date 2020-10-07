@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 6%
 
 ---
 
@@ -148,7 +149,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>name</td>
-                  <td>ID</td>
+                  <td>Id</td>
                   <td>tekenreeks (64)</td>
                   <td> </td>
                </tr>
@@ -263,7 +264,7 @@ Beschikbaar tijdens de opgegeven periode (perPlanning)
     </tr>
 </table>
 
-Op kanaaltype (doorKanaal)
+Op kanaaltype (byChannel)
 
 <table>
 <tr>
