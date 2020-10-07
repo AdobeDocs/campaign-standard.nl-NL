@@ -9,18 +9,19 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 10%
 
 ---
 
 
 # De geografische eenheid van een profiel bijwerken {#updating-a-geographical-unit}
 
-1. Voer een GET verzoek op het **geoUnitBase** middel uit om de Geografische eenheid PKey terug te winnen.
-1. Voer een PATCH verzoek op het profiel PKey, met de gewenste Geografische eenheid PKey in de lading uit.
+1. Voer een verzoek van de GET op het **geoUnitBase** middel uit om de Geografische eenheid PKey terug te winnen.
+1. Voer een verzoek van PATCH op het profiel PKey, met de gewenste Geografische eenheid PKey in de lading uit.
 
 <br/>
 
@@ -52,7 +53,7 @@ Alle geografische eenheden worden geretourneerd. Haal de sleutel van de eenheid 
 },
 ```
 
-Voer een PATCH-verzoek uit op het profiel met de PKey van de gewenste geografische eenheid in de lading.
+Voer een verzoek van PATCH op het profiel, met PKey van de gewenste Geografische eenheid in de lading uit.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \
