@@ -9,10 +9,8 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '5400'
 ht-degree: 6%
@@ -46,7 +44,7 @@ Bekijk de nieuwste [documentatieupdates](../../rn/using/documentation-updates.md
   </tr> 
   <tr> 
    <td> Adobe Launch integration for mobile apps (beta)<br /> </td> 
-   <td> Adobe De integratie van de Lancering met Adobe Campaign vereenvoudigt en automatiseert nu het proces van de Activering van het Bezit van de Mobiele App in Campagne gebruikend Mobile SDK V5.<br /> Raadpleeg de <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Adobe De integratie van de Lancering met Adobe Campaign vereenvoudigt en automatiseert nu het proces van de Activering van het Bezit van de Mobiele App in Campagne gebruikend Mobile SDK V5.<br /> Raadpleeg de <a href="https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdk.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +58,7 @@ Bekijk de nieuwste [documentatieupdates](../../rn/using/documentation-updates.md
 * In de uitzendingen, is er nu een onderscheid tussen het maximumaantal verbindingen en het maximumaantal berichten per uur. Wanneer de grenzen worden bereikt, is het dan mogelijk te weten waarom de productie beperkt is. Eerder was hetzelfde bericht (&quot;met quotum bereikt&quot;) van toepassing op beide gevallen.
 * Wanneer u een mobiele toepassing configureert in Campagne, kan de gebruiker nu weten of het iOS-certificaat en de Android-serversleutel zijn geüpload en of de vervaldatum van de toepassing geldig zijn.
 
-   Raadpleeg voor meer informatie de gedetailleerde documentatie over het configureren van een mobiele toepassing met [SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) en [SDK V5](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+   Raadpleeg voor meer informatie de gedetailleerde documentatie over het configureren van een mobiele toepassing met [SDK V4](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html) en [SDK V5](https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdk.html).
 
 * Doelgebruikers voor een specifieke mobiele toepassing door een mobiele toepassing te selecteren terwijl de campagneeigenschappen worden gedefinieerd. Deze functie is bedoeld voor zowel Push- als In-App Messaging-kanalen.
 
@@ -208,7 +206,7 @@ Bekijk de nieuwste [documentatieupdates](../../rn/using/documentation-updates.md
  <tbody> 
   <tr> 
    <td> GDPR: Core Service Integration<br /> </td> 
-   <td> De Integratie van de Dienst van de Kern van de privacy staat u toe om uw verzoeken GDPR in een multi-oplossingscontext door één enkele vraag van JSON API te automatiseren. <br /> GDPR-aanvragen die van de Privacy Core Service naar alle Experience Cloud-oplossingen worden geduwd, worden nu automatisch door de Campagne afgehandeld. <br /> Raadpleeg de <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> De Integratie van de Dienst van de Kern van de privacy staat u toe om uw verzoeken GDPR in een multi-oplossingscontext door één enkele vraag van JSON API te automatiseren. <br /> GDPR-aanvragen die van de Privacy Core Service naar alle Experience Cloud-oplossingen worden geduwd, worden nu automatisch door de Campagne afgehandeld. <br /> Raadpleeg de <a href="https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Push-verbeteringen - gedetailleerde feedback voor levering<br /> </td> 
@@ -310,7 +308,7 @@ _Aangepaste resources_
     <ul> 
      <li> Recht op toegang: staat de betrokkene toe een kopie te ontvangen van zijn/haar persoonsgegevens die door de gegevensverwerkingsverantwoordelijken zijn vastgelegd, met inbegrip van gegevens die in Adobe Campaign zijn opgeslagen. </li> 
      <li> Rechts om te verwijderen: geeft de betrokkene het recht om zijn/haar persoonsgegevens die door gegevensverwerkingsverantwoordelijken zijn vastgelegd, te laten wissen, eventueel met inbegrip van gegevens die in Adobe Campaign zijn opgeslagen. </li> 
-    </ul> Raadpleeg de <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+    </ul> Raadpleeg de <a href="https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer voor e-mail (bèta)<br /> </td> 
@@ -377,7 +375,7 @@ _Integraties_
 * Van een gegevensbrondetail, kunt u tot zijn verwante werkschema nu direct toegang hebben om de staat van het werkschema te controleren.
 * U kunt het triggerschema nu rechtstreeks bijwerken wanneer u een triggergebeurtenis definieert of bewerkt. Door deze wijziging hoeft u de publicatie van de trigger niet meer ongedaan te maken en een andere trigger te maken.
 
-_Transactieberichten_
+_Transactionele berichten_
 
 * Oplossing voor een fout met een transactiemalplaatje van het bericht toen de leveringsbron werd uitgebreid.
 * Het is nu mogelijk om transactieberichten te verwijderen.
@@ -474,7 +472,7 @@ Sommige problemen kunnen zich voordoen bij het gebruik van contextafhankelijke H
      <li> afbeeldingen of andere mediabestanden downloaden en toevoegen als bijlagen aan een melding </li> 
      <li> de tekst van de hoofdtekst of titel van een kennisgeving wijzigen </li> 
      <li> voeg een draadherkenningsteken aan een bericht toe </li> 
-    </ul> Raadpleeg de <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">gedetailleerde documentatie</a>voor meer informatie over Beschikbare inhoud en Mutable Content.<br /> <strong>Waarschuwing:</strong> deze updates van pushberichten vereisen dat klanten hun mobiele toepassingen upgraden . Refer to <a href="https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">this technote</a> for more information.<br /> </td> 
+    </ul> Raadpleeg de <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">gedetailleerde documentatie</a>voor meer informatie over Beschikbare inhoud en Mutable Content.<br /> <strong>Waarschuwing:</strong> deze updates van pushberichten vereisen dat klanten hun mobiele toepassingen upgraden . Refer to <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/push-notifications/push-payload.html">this technote</a> for more information.<br /> </td> 
   </tr> 
   <tr> 
    <td> Geoptimaliseerde leveringen in tijdzone<br /> </td> 
