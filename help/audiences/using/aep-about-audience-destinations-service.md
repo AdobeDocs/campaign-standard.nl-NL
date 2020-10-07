@@ -1,5 +1,5 @@
 ---
-title: Informatie over de service Bestemmingen publiek
+title: Informatie over de service Audiences Destinations
 description: Meer informatie over de service Doelen voor doelgroepen.
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
@@ -10,35 +10,33 @@ content-type: reference
 topic-tags: managing-audiences
 discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '384'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
 
-# Informatie over de service Bestemmingen publiek {#about-audiences}
+# Informatie over de service Audiences Destinations {#about-audiences}
 
 >[!IMPORTANT]
 >
 >De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 
-Verbeter uw ervaringen van de consument door het [Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/landing/home.html) te gebruiken om een zeer gericht publiek op te bouwen dat op grote, complexe datasets wordt gebaseerd. Het Adobe Experience Platform consolideert profielen, gedragingen en gegevens van meerdere entiteiten in online en offline bronnen, waaronder Adobe Analytics, om u te helpen een 360-gradenweergave van uw klant te maken, zodat u uw ervaringen met klanten effectief kunt beheren.
+Verbeter uw ervaringen met de consument door de [Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/landing/home.html) te gebruiken om een doelgericht publiek op te bouwen op basis van grote, complexe datasets. De Adobe Experience Platform consolideert profielen, gedragingen en gegevens van meerdere entiteiten op online en offline bronnen, waaronder Adobe Analytics, om u te helpen een 360-gradenweergave van uw klant te maken, zodat u uw ervaringen met klanten effectief kunt beheren.
 
 Adobe Campaign Standard zal dan de dienst van de Doelen **van het** Publiek gebruiken om een inzameling van profielen, die als **Publiek** wordt bekend, van Adobe Experience Platform voor multi-step en/of dwars-kanaalcampagneprogramma&#39;s terug te winnen.
 
 **Het publiek** wordt gecreeerd door eerste bouwend **segmenten**, die hoofdzakelijk een reeks regels zijn die op vrijwel om het even welke variabele (b.v., profiel, gebeurtenis, multi-entiteitgegevens) binnen een klantenprofiel van Adobe Experience Platform worden gebaseerd om een multidimensionaal doel tot stand te brengen. In de volgende speciale documenten wordt verwezen naar algemene concepten voor Profiel en Segmentatieservices van klanten in realtime:
 
-* [Overzicht van het realtime klantprofiel](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
+* [Overzicht van het realtime klantprofiel](https://docs.adobe.com/content/help/nl-NL/experience-platform/profile/home.html)
 * [Overzicht van segmentatieservice](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)
 
-Nadat u een segment hebt gemaakt, kunt u dit activeren als publiek voor levering in [Campaign Standard-workflows](../../automating/using/aep-targeting-audiences.md). Bovendien kunt u contextuele gegevens van het Adobe Experience Platform gebruiken om dynamische inhoud aan uw campagnes te [personaliseren](../../automating/using/aep-personalizing-campaigns.md) en toe te voegen.
+Zodra een segment is gecreeerd, kunt u het als publiek voor een levering in [Campaign Standard werkschema](../../automating/using/aep-targeting-audiences.md)dan activeren. Bovendien kunt u contextafhankelijke gegevens van de Adobe Experience Platform gebruiken om dynamische inhoud aan uw campagnes aan te [passen](../../automating/using/aep-personalizing-campaigns.md) en toe te voegen.
 
-Hoe kan ik-video&#39;s zijn ook beschikbaar in [deze sectie](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
+Hoe kan ik-video&#39;s zijn ook beschikbaar in [deze sectie](https://docs.adobe.com/content/help/nl-NL/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
 
 In deze secties gebruikte termen:
 
