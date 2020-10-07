@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 3%
 
 ---
 
@@ -21,9 +22,11 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 >[!CAUTION]
 >
->De functie Geografische eenheid is vervangen door de release Campagne Standard 18.7.
-Als gevolg hiervan kunnen nieuwe instanties van de Campagnestandaard en bestaande instanties zonder gemaakte geografische eenheden deze functie niet implementeren vanaf de release 18.7.
-Raadpleeg voor meer informatie de pagina <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">Verouderde functies</a> .
+>De functie Geografische eenheid is vervangen door de release Campaign Standard 18.7.
+>
+>Als gevolg hiervan kunnen nieuwe Campaign Standard-exemplaren en bestaande exemplaren zonder gemaakte geografische eenheden deze functie niet implementeren vanaf de release 18.7.
+>
+>Raadpleeg voor meer informatie de pagina <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/deprecated-features.html">Verouderde functies</a> .
 
 Het **geoUnitBase** eindpunt laat u met Geografische eenheden in wisselwerking staan, toelatend u, bijvoorbeeld, om hun attributen bij te werken of de eenheid van een profiel bij te werken.
 
