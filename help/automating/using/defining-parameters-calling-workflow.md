@@ -9,18 +9,16 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 8%
+ht-degree: 12%
 
 ---
 
 
-# Parameters definiëren wanneer de workflow wordt aangeroepen {#defining-the-parameters-when-calling-the-workflow}
+# Parameters definiëren bij het aanroepen van de workflow {#defining-the-parameters-when-calling-the-workflow}
 
 In deze sectie wordt beschreven hoe u parameters definieert wanneer u een workflow oproept. Raadpleeg de documentatie [van de](../../api/using/triggering-a-signal-activity.md)REST API&#39;s voor meer informatie over het uitvoeren van deze bewerking vanuit een API-aanroep.
 
