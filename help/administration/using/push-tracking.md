@@ -1,5 +1,5 @@
 ---
-title: Push tracking implementeren
+title: Pushtracking implementeren
 description: In dit document kunt u controleren of pushmeldingen correct zijn geïmplementeerd op iOS en Android.
 page-status-flag: never-activated
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '819'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Push tracking implementeren {#push-tracking}
+# Pushtracking implementeren {#push-tracking}
 
 ## Over het bijhouden van push {#about-push-tracking}
 
@@ -35,11 +33,11 @@ De functie Push Tracking bestaat uit drie typen:
 
 * **Push Impressions** - Wanneer een pushmelding is afgeleverd aan het apparaat en op het meldingscentrum zit, maar helemaal niet is aangeraakt.  Dit wordt als een indruk beschouwd.  In de meeste gevallen zouden de indrukkingsaantallen gelijkaardig moeten zijn als niet het zelfde als het geleverde aantal. Het zorgt ervoor dat het apparaat het bericht kreeg en die informatie terug naar de server terugbracht.
 
-* **Push Click** - Wanneer een pushmelding aan het apparaat is afgeleverd en de gebruiker op het apparaat heeft geklikt.  De gebruiker wilde de melding bekijken (die op zijn beurt weer naar Open Push-tracking gaat) of het bericht negeren.
+* **Push Click** - Wanneer een pushmelding aan het apparaat is afgeleverd en de gebruiker op het apparaat heeft geklikt.  De gebruiker wilde de melding bekijken (die op zijn beurt naar Open Push-tracking gaat) of het bericht negeren.
 
 * **Push Open** - Wanneer een pushmelding aan het apparaat is geleverd en de gebruiker op het bericht heeft geklikt dat de app moet worden geopend.  Dit is gelijkaardig aan de Duw klikt behalve zal een Duw Open niet teweeggebracht worden als het bericht werd verworpen.
 
-Voor het implementeren van tracering voor Campaign Standard moet de mobiele app de Mobile SDK bevatten. Deze SDK is beschikbaar op Adobe Mobile Services. For more on this, refer to this [page](../../administration/using/configuring-a-mobile-application.md).
+Voor het implementeren van tracering voor Campaign Standard moet de mobiele app de Mobile SDK bevatten. Deze SDK is beschikbaar op Adobe Mobile Services. Raadpleeg [deze pagina](../../administration/using/configuring-a-mobile-application.md) voor meer informatie.
 
 Om het volgen informatie te verzenden zijn er drie variabelen die moeten worden verzonden. Twee die deel van de gegevens uitmaken die van Campaign Standard en een actievariabele worden ontvangen die of het een **Indrukking**, **Klik** of **Open** dicteert.
 
