@@ -1,6 +1,6 @@
 ---
-title: Profielgegevens verrijken met gegevens in een bestand
-description: In dit voorbeeld wordt getoond hoe u profielgegevens verrijkt met aankoopgegevens in een bestand.
+title: Profieldata verrijken met data in een bestand
+description: In dit voorbeeld wordt getoond hoe u profieldata kunt verrijken met aankoopdata in een bestand.
 page-status-flag: never-activated
 uuid: 8c1693ef-1312-422c-b05d-263553113f8f
 contentOwner: sauviat
@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: f67c1caf-3284-4c34-a5b0-8654a95640ae
 context-tags: enrichment,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '528'
-ht-degree: 0%
+ht-degree: 78%
 
 ---
 
 
-# Profielgegevens verrijken met gegevens in een bestand {#enriching-profile-data-with-data-contained-in-a-file}
+# Profieldata verrijken met data in een bestand {#enriching-profile-data-with-data-contained-in-a-file}
 
 In dit voorbeeld ziet u hoe u profielgegevens verrijkt met aankoopgegevens in een bestand. De aankoopgegevens worden hier opgeslagen in een systeem van derden. Voor elk profiel kunnen meerdere aankopen in het bestand worden opgeslagen. Het uiteindelijke doel van de workflow is een e-mail te sturen naar de doelprofielen die ten minste twee items hebben aangeschaft om ze te bedanken voor hun loyaliteit.
 
@@ -29,8 +27,8 @@ De workflow is als volgt geconfigureerd:
 
 ![](assets/enrichment_example_workflow.png)
 
-* Een activiteit van de [Vraag](../../automating/using/query.md) die de profielen richt die het bericht zullen ontvangen.
-* Een [activiteit van het Dossier](../../automating/using/load-file.md) van de Lading die de aankoopgegevens laadt. Bijvoorbeeld:
+* A [Query](../../automating/using/query.md) activity that targets the profiles who will receive the message.
+* A [Load file](../../automating/using/load-file.md) activity that loads the purchase data. Bijvoorbeeld:
 
    ```
    tcode;tdate;customer;product;tamount
@@ -42,25 +40,25 @@ De workflow is als volgt geconfigureerd:
    aze128;04/03/2017;clara.smith@example.com;Phone;149
    ```
 
-   Met dit voorbeeldbestand gebruiken we het e-mailadres om de gegevens in overeenstemming te brengen met de databaseprofielen. U kunt ook unieke id&#39;s inschakelen, zoals beschreven in [dit document](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
+   In dit voorbeeldbestand gebruiken we het e-mailadres om de data af te stemmen op de databaseprofielen. U kunt ook unieke id’s inschakelen, zoals beschreven in [dit document](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
-* Een [verrijkingsactiviteit](../../automating/using/enrichment.md) die tot een verbinding tussen de transactiegegevens leidt die van het dossier worden geladen en de profielen in **[!UICONTROL Query]**. De koppeling wordt gedefinieerd op het **[!UICONTROL Advanced relations]** tabblad van de activiteit. De koppeling is gebaseerd op de overgang die uit de **[!UICONTROL Load file]** activiteit komt. Het veld E-mail van de profielbron en de kolom &quot;klant&quot; van het geïmporteerde bestand worden gebruikt als afstemmingscriteria.
+* An [Enrichment](../../automating/using/enrichment.md) activity that creates a link between the transaction data loaded from the file and the profiles selected in the **[!UICONTROL Query]**. De koppeling wordt gedefinieerd op het tabblad **[!UICONTROL Advanced relations]** van de activiteit. De koppeling is gebaseerd op de overgang die uit de activiteit **[!UICONTROL Load file]** komt. Het veld met de e-mail van de profielresource en de kolom met de klant van het geïmporteerde bestand worden gebruikt als afstemmingscriteria.
 
    ![](assets/enrichment_example_workflow2.png)
 
    Nadat de koppeling is gemaakt, worden twee sets **[!UICONTROL Additional data]** toegevoegd:
 
-   * Een verzameling van twee regels die overeenkomen met de twee laatste transacties van elk profiel. Voor deze verzameling worden de productnaam, de transactiedatum en de prijs van het product toegevoegd als aanvullende gegevens. Op de gegevens wordt een aflopende sortering toegepast. Als u de verzameling wilt maken, klikt u op het **[!UICONTROL Additional data]** tabblad:
+   * Een verzameling van twee regels die overeenkomen met de twee laatste transacties van elk profiel. Voor deze verzameling worden de productnaam, de transactiedatum en de prijs van het product toegevoegd als aanvullende data. Op de data wordt een aflopende sortering toegepast. Als u de verzameling wilt maken, klikt u op het tabblad **[!UICONTROL Additional data]**:
 
-      Selecteer de koppeling die eerder is gedefinieerd op het **[!UICONTROL Advanced relations]** tabblad van de activiteit.
+      Selecteer de koppeling die eerder is gedefinieerd op het tabblad **[!UICONTROL Advanced relations]** van de activiteit.
 
       ![](assets/enrichment_example_workflow3.png)
 
-      Controleer **[!UICONTROL Collection]** en geef het aantal regels op dat moet worden opgehaald (2 in dit voorbeeld). In dit scherm, kunt u de **[!UICONTROL Alias]** en de **[!UICONTROL Label]** van de inzameling aanpassen. Deze waarden zijn zichtbaar in de volgende activiteiten van de workflow wanneer wordt verwezen naar deze verzameling.
+      Schakel **[!UICONTROL Collection]** in en geef het aantal regels op dat moet worden opgehaald (2 in dit voorbeeld). Op dit scherm kunt u de **[!UICONTROL Alias]** en het **[!UICONTROL Label]** van de verzameling aanpassen. Deze waarden zijn zichtbaar in de volgende activiteiten van de workflow wanneer naar deze verzameling wordt verwezen.
 
       ![](assets/enrichment_example_workflow4.png)
 
-      Als u voor de verzameling wilt bewaren, selecteert u de kolommen die in de uiteindelijke levering worden gebruikt. **[!UICONTROL Data]**
+      Selecteer de kolommen die in de uiteindelijke levering zullen worden gebruikt als de **[!UICONTROL Data]** die voor de verzameling moeten worden behouden.
 
       ![](assets/enrichment_example_workflow6.png)
 
@@ -68,9 +66,9 @@ De workflow is als volgt geconfigureerd:
 
       ![](assets/enrichment_example_workflow7.png)
 
-   * Een geaggregeerd getal waarbij het totale aantal transacties voor elk profiel wordt geteld. Dit aggregaat wordt later gebruikt om profielen te filteren waarvoor ten minste twee transacties zijn opgenomen. Om het aggregaat tot stand te brengen, van het **[!UICONTROL Additional data]** lusje:
+   * Een aggregaat met het totale aantal transacties voor elk profiel. Dit aggregaat wordt later gebruikt om profielen te filteren waarvoor ten minste twee transacties zijn vastgelegd. Voer de volgende stappen uit vanaf het tabblad **[!UICONTROL Additional data]** om het aggregaat te maken:
 
-      Selecteer de koppeling die eerder is gedefinieerd op het **[!UICONTROL Advanced relations]** tabblad van de activiteit.
+      Selecteer de koppeling die eerder is gedefinieerd op het tabblad **[!UICONTROL Advanced relations]** van de activiteit.
 
       ![](assets/enrichment_example_workflow3.png)
 
@@ -78,18 +76,18 @@ De workflow is als volgt geconfigureerd:
 
       ![](assets/enrichment_example_workflow8.png)
 
-      Definieer een aggregaat **[!UICONTROL Data]** Alles **** tellen als u wilt behouden. Geef desgewenst een aangepaste alias op om deze sneller te vinden in de volgende activiteiten.
+      Definieer een aggregaat **Count All** als **[!UICONTROL Data]** die u wilt behouden. Geef desgewenst een aangepaste alias op om deze sneller te vinden in de volgende activiteiten.
 
       ![](assets/enrichment_example_workflow9.png)
 
-* Een [Segmenteringsactiviteit](../../automating/using/segmentation.md) met slechts één segment, die profielen van het aanvankelijke doel terugwint die minstens twee geregistreerde transacties hebben. Profielen met slechts één transactie worden uitgesloten. Om dat te doen, wordt de vraag van de segmentatie gemaakt op het eerder bepaalde aggregaat.
+* A [Segmentation](../../automating/using/segmentation.md) activity with only one segment, that retrieves profiles of the initial target that have at least two transactions recorded. Profielen met slechts één transactie worden uitgesloten. Hiervoor wordt de query van de segmentatie gemaakt op het eerder gedefinieerde aggregaat.
 
    ![](assets/enrichment_example_workflow5.png)
 
-* An [Email delivery](../../automating/using/email-delivery.md) activity that uses the additional data defined in the **[!UICONTROL Enrichment]** to dynamisch retrieve the two last purchase by the profile. De extra gegevens kunnen in de **Extra knoop van Gegevens (TargetData)** worden gevonden wanneer het toevoegen van een verpersoonlijkingsgebied.
+* An [Email delivery](../../automating/using/email-delivery.md) activity that uses the additional data defined in the **[!UICONTROL Enrichment]** to dynamically retrieve the two last purchases made by the profile. De aanvullende data bevinden zich in het knooppunt **Additional data (TargetData)** bij het toevoegen van een personalisatieveld.
 
    ![](assets/enrichment_example_workflow10.png)
 
 **Verwant onderwerp:**
 
-* [Klantenprofielen verrijken met externe gegevens](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
+* [Klantprofielen verrijken met externe data](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
