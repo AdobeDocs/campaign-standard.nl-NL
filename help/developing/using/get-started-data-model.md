@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 16%
+ht-degree: 24%
 
 ---
 
@@ -25,10 +23,10 @@ ht-degree: 16%
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_datamodel.svg" width="60px"><p><a href="#data-model">Datamodel</a></p></td>
-<td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">Aangepaste resources</a></p></td><td><img src="assets/do-not-localize/icon_api.svg" width="60px"><p><a href="#custom-resources">Werken met API's</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">Aangepaste bronnen</a></p></td><td><img src="assets/do-not-localize/icon_api.svg" width="60px"><p><a href="#custom-resources">Werken met API's</a></p></td></tr>
 </table>
 
-Breid Campaign Standard gegevensmodel met uw eigen gebieden en middelen uit, en controleer alle veranderingen van het gegevensmodel in één enkele mening.
+Breid het Campaign Standard-datamodel uit met uw eigen velden en bronnen, en controleer alle veranderingen in datamodellen in één weergave.
 
 ## Datamodel {#data-model}
 
@@ -45,7 +43,7 @@ Meer informatie:
 * [Beschrijving van het datamodel](../../developing/using/datamodel-introduction.md)
 * [Wijzigingen in een datamodel controleren](../../developing/using/monitoring-data-model-changes.md)
 
-## Aangepaste resources {#custom-resources}
+## Aangepaste bronnen {#custom-resources}
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
@@ -64,7 +62,7 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Met Campaign Standard APIs, creeer integraties voor Adobe Campaign Standard en bouw uw eigen ecosysteem door Campagne met het paneel van technologieën te verbinden die u gebruikt. [Aan de slag met Campaign Standard REST API&#39;s](../../api/using/get-started-apis.md)
+Met Campaign Standard APIs, creeer integraties voor Adobe Campaign Standard en bouw uw eigen ecosysteem door Campagne met het paneel van technologieën te verbinden die u gebruikt. [Aan de slag met Campaign Standard REST-API’s](../../api/using/get-started-apis.md)
 
 ## Aanvullende resources
 
