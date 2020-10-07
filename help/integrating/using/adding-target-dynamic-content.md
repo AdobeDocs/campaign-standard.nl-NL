@@ -1,5 +1,5 @@
 ---
-title: Dynamische Target-inhoud toevoegen
+title: Dynamische Target-content toevoegen
 description: Leer hoe u dynamische Adobe Target-inhoud toevoegt aan een van uw Adobe Campaign-leveringen.
 page-status-flag: never-activated
 uuid: b3cc045f-7924-480e-8c61-8246510f3adb
@@ -9,18 +9,16 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
 
-# Dynamische Target-inhoud toevoegen{#adding-target-dynamic-content}
+# Dynamische Target-content toevoegen{#adding-target-dynamic-content}
 
 Dankzij de Adobe Target-integratie kunnen dynamische afbeeldingen aan een levering worden toegevoegd om uw inhoud aan uw wensen aan te passen.
 
@@ -43,7 +41,7 @@ Voordat u de afbeelding opent in Adobe Campaign, moet u eerst de volgende taken 
    De integratie ondersteunt alleen statische afbeeldingen. De rest van de inhoud kan niet worden aangepast.
 
 1. Voer de naam in van het tekstvak dat in Adobe Target is opgegeven.
-1. Als u Enterprise-machtigingen gebruikt in uw instellingen in Adobe Target, voegt u de bijbehorende eigenschap toe in dit veld. Meer informatie over Target Enterprise-machtigingen vindt u op [deze pagina](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html). Dit veld is optioneel en niet vereist als u in Target geen Enterprise-machtigingen gebruikt.
+1. Als u Enterprise-machtigingen gebruikt in uw instellingen in Adobe Target, voegt u de bijbehorende eigenschap toe in dit veld. Meer informatie over de rechten van Target Enterprise vindt u op [deze pagina](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html). Dit veld is optioneel en niet vereist als u de Enterprise-machtigingen in Target niet gebruikt.
 1. Geef in **[!UICONTROL Additional decision parameters]** dat geval de toewijzing op tussen de velden die zijn gedefinieerd in de Adobe Target-segmenten en de Adobe Campaign-velden.
 
    De Adobe Campaign-velden die worden gebruikt, moeten zijn opgegeven in de keuzelijst. Hier zullen we verschillende ervaringen definiëren afhankelijk van het geslacht van de ontvanger.
@@ -56,7 +54,7 @@ De levering met de dynamische afbeelding kan nu worden verzonden. De resultaten 
 
 **Verwante onderwerpen:**
 
-* [Adobe Target Portal](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
+* [Adobe Target Portal](https://docs.adobe.com/content/help/nl-NL/target/using/integrate/campaign-and-target.html)
 * [Over het ontwerpen van e-mailinhoud](../../designing/using/designing-content-in-adobe-campaign.md)
 * [E-mailafbeeldingen aanpassen in realtime](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) video
 
