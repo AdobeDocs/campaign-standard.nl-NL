@@ -1,5 +1,5 @@
 ---
-title: Profielen vanuit een bestand abonneren op een specifieke service
+title: Profielen vanuit een bestand aanmelden voor een specifieke service
 description: Met deze gebruiksaanwijzing kunt u zien hoe u een bestand met profielen importeert en deze abonneert op een bestaande service.
 page-status-flag: never-activated
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
@@ -10,28 +10,26 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 0%
+ht-degree: 53%
 
 ---
 
 
-# Profielen na het importeren van een bestand abonneren op een specifieke service {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
+# Subscribing profiles to a specific service after importing a file {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
-In dit voorbeeld ziet u hoe u een bestand met profielen importeert en deze abonneert op een bestaande service. Na het importeren van het bestand moet een afstemming plaatsvinden, zodat de geïmporteerde gegevens kunnen worden geïdentificeerd als profielen. Om ervoor te zorgen dat het bestand geen duplicaten bevat, wordt een deduplicatieactiviteit uitgevoerd op de gegevens.
+In dit voorbeeld ziet u hoe u een bestand met profielen importeert en deze abonneert op een bestaande service. Nadat het bestand is geïmporteerd, moet een afstemming worden uitgevoerd, zodat de geïmporteerde data kunnen worden geïdentificeerd als profielen. Om ervoor te zorgen dat het bestand geen duplicaten bevat, wordt een ontdubbelingsactiviteit uitgevoerd op de data.
 
 De workflow wordt als volgt weergegeven:
 
 ![](assets/subscription_activity_example1.png)
 
-* Een [activiteit van het Dossier](../../automating/using/load-file.md) van de Lading laadt het profieldossier en bepaalt de structuur van de ingevoerde kolommen.
+* A [Load file](../../automating/using/load-file.md) activity loads the profile file and defines the structure of the imported columns.
 
-   In dit voorbeeld heeft het geladen bestand de .csv-indeling en bevat het de volgende gegevens:
+   In dit voorbeeld heeft het geladen bestand de csv-indeling en bevat het de volgende data:
 
    ```
    lastname;firstname;email;birthdate;subdate
@@ -48,14 +46,14 @@ De workflow wordt als volgt weergegeven:
 
    ![](assets/subscription_activity_example2.png)
 
-* Bij een [afstemmingsactiviteit](../../automating/using/reconciliation.md) worden de gegevens uit het bestand geïdentificeerd als behorend tot de profieldimensie van de Adobe Campaign-database. Alleen het **[!UICONTROL Identification]** tabblad is geconfigureerd. De bestandsgegevens worden geïdentificeerd aan de hand van de e-mailadressen van de profielen.
+* A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. Alleen het tabblad **[!UICONTROL Identification]** is geconfigureerd. De bestandsdata worden geïdentificeerd aan de hand van de e-mailadressen van de profielen.
 
    ![](assets/subscription_activity_example3.png)
 
-* Bij een [deduplicatie](../../automating/using/deduplication.md) op basis van het **e-mailveld** van de tijdelijke bron (die het resultaat is van de afstemming) worden eventuele duplicaten geïdentificeerd. Als de gegevens die uit het bestand zijn geïmporteerd, duplicaten bevatten, mislukt het abonnement op een service voor alle gegevens.
+* A [Deduplication](../../automating/using/deduplication.md) based on the **email** field of the temporary resource (resulting from the reconciliation) identifies any duplicates. Als de data die uit het bestand zijn geïmporteerd, duplicaten bevatten, mislukt de inschrijving op een service voor alle data.
 
    ![](assets/subscription_activity_example5.png)
 
-* Met [Subscription Services](../../automating/using/subscription-services.md) kunt u de service selecteren waarop u een abonnement moet nemen op de profielen, het veld dat overeenkomt met de abonnementsdatum en de oorsprong van het abonnement.
+* A [Subscription Services](../../automating/using/subscription-services.md) activity lets you select the service to which the profiles must be subscribed, the field corresponding to the subscription date, and the origin of the subscription.
 
    ![](assets/subscription_activity_example4.png)
