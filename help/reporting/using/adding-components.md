@@ -9,10 +9,11 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 discoiquuid: a773b7a8-c290-4c81-bb52-48acc14fc89f
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 4%
 
 ---
 
@@ -29,7 +30,7 @@ Componenten helpen u bij het aanpassen van rapporten met verschillende afmetinge
 
    De tabel met componenten bestaat uit vier categorieën:
 
-   * **Afmetingen**: Krijg details van het leveringslogboek, zoals browser of domein van de ontvanger, of het succes van een levering.
+   * **Dimension**: Krijg details van het leveringslogboek, zoals browser of domein van de ontvanger, of het succes van een levering.
    * **Metrisch**: Meer informatie over de status van een bericht. Als bijvoorbeeld een bericht is verzonden en de gebruiker het heeft geopend.
    * **[!UICONTROL Segments]**: Gegevens filteren op basis van het leeftijdsbereik van de ontvanger. **[!UICONTROL Segments]** U kunt rechtstreeks slepen en neerzetten in een vrije-vormtabel of in de bovenste balk van het deelvenster. Standaard is het **[!UICONTROL Exclude proof]** segment al geselecteerd, maar kan het zo nodig worden gewijzigd.
 
@@ -44,5 +45,5 @@ U kunt zoveel componenten slepen en neerzetten als u nodig hebt en deze met elka
 **Verwante onderwerpen:**
 
 * [Lijst met componenten](../../reporting/using/list-of-components-.md)
-* [Lijst van verslagen](../../reporting/using/defining-the-report-period.md)
+* [Lijst met rapporten](../../reporting/using/defining-the-report-period.md)
 
