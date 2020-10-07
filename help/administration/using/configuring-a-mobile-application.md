@@ -9,10 +9,8 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3161226c9ab28f8d519f55a408022284919954f6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 7%
@@ -110,7 +108,8 @@ Het **[!UICONTROL Property Status]** moet zijn **[!UICONTROL Ready to configure]
    >[!NOTE]
    >
    >Standaard gebruikt Campaign Standard om de lijst met mobiele toepassingen op te halen die zijn gemaakt in Adobe Launch de waarde die is gedefinieerd in de optie NmsServer_URL om te zoeken naar overeenkomende eigenschappen.
-In sommige gevallen, kan het eindpunt van de Campagne voor een mobiele toepassing van die in NmsServer_URL worden bepaald verschillend zijn. Definieer in dat geval het eindpunt in de optie Launch_URL_Campaign. De campagne zal de waarde van deze optie gebruiken om passende eigenschappen in de Lancering van de Adobe te zoeken.
+   >
+   >In sommige gevallen, kan het eindpunt van de Campagne voor een mobiele toepassing van die in NmsServer_URL worden bepaald verschillend zijn. Definieer in dat geval het eindpunt in de optie Launch_URL_Campaign. De campagne zal de waarde van deze optie gebruiken om passende eigenschappen in de Lancering van de Adobe te zoeken.
 
    ![](assets/launch_4.png)
 
