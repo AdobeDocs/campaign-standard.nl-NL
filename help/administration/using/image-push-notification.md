@@ -1,5 +1,5 @@
 ---
-title: Een afbeelding weergeven op basis van een Adobe Campaign Standard-pushmelding
+title: Een afbeelding weergeven vanuit een Adobe Campaign Standard-pushmelding
 description: Leer hier hoe u een afbeelding kunt weergeven via een Adobe Campaign-pushmelding op een iOS-apparaat.
 page-status-flag: never-activated
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: cf43edcacbab9f1f33ce29e23c0957d8bfa64e7d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 0%
+ht-degree: 20%
 
 ---
 
 
-# Afbeeldingen en video&#39;s toevoegen iOS {#image-push}
+# Afbeeldingen en video’s toevoegen in iOS {#image-push}
 
 >[!NOTE]
 >
@@ -33,22 +31,22 @@ Leer in dit document hoe u een afbeelding weergeeft via een Adobe Campaign Stand
 
 Pushmelding wordt ondersteund door Experience Platform-SDK&#39;s.
 
-De mobiele toepassingen die pushmeldingen ontvangen, moeten door een beheerder in de Adobe Campaign-interface zijn geconfigureerd.
+De mobiele toepassingen die pushberichten ontvangen, moeten door een beheerder in de Adobe Campaign-interface worden geconfigureerd.
 
-Door zowel Adobe Campaign als Adobe Mobile Services te configureren, kunt u de gegevens van uw mobiele toepassing gebruiken voor uw campagnes. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+Door zowel Adobe Campaign als Adobe Mobile Services te configureren, kunt u de gegevens van uw mobiele toepassing gebruiken voor uw campagnes. Raadpleeg [deze pagina](https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdk.html) voor meer informatie.
 
-Als u pushmeldingen wilt verzenden met een Experience Cloud SDK-toepassing, moet u een mobiele app instellen in Adobe Experience Platform Launch en configureren in Adobe Campaign. For more on this, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+Als u pushberichten wilt verzenden met een Experience Cloud SDK-toepassing, moet een mobiele app worden ingesteld in Adobe Experience Platform Launch en worden geconfigureerd in Adobe Campaign. Raadpleeg [deze pagina](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign) voor meer informatie.
 
 ## Stap 2: Je pushmelding aanpassen in Adobe Campaign {#customize-push}
 
-Als u uw pushmelding wilt verfijnen, kunt u in Adobe Campaign toegang krijgen tot een set geavanceerde opties terwijl u een pushmelding ontwerpt.
+Als u uw pushmelding wilt verfijnen, kunt u in Adobe Campaign een aantal geavanceerde opties gebruiken tijdens het ontwerpen van de melding.
 
-1. Maak een pushmelding. For more on this, refer to this [page](../../channels/using/preparing-and-sending-a-push-notification.md).
+1. Een pushmelding maken. Raadpleeg [deze pagina](../../channels/using/preparing-and-sending-a-push-notification.md) voor meer informatie.
 
 1. Open de **[!UICONTROL Advanced options]** sectie vanaf de pagina met inhoud voor pushmeldingen.
 
 1. Voer in het **[!UICONTROL Rich media content URL]** veld de URL van het bestand in.
-Voor iOS 10 of hoger kunt u afbeeldings-, gif-, audio- en videobestanden invoegen.
+Voor iOS 10 of hoger kunt u afbeeldings-, GIF-, audio- en videobestanden invoegen.
 
    ![](assets/push_notif_advanced_6.png)
 
