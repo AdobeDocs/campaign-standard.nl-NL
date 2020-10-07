@@ -1,5 +1,5 @@
 ---
-title: Beste werkwijzen importeren
+title: Best practices importeren
 description: Leer meer over de beste praktijken om te volgen wanneer het invoeren van gegevens in het gegevensbestand.
 page-status-flag: never-activated
 uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
@@ -9,22 +9,20 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# Beste werkwijzen importeren {#import-best-practices}
+# Best practices importeren {#import-best-practices}
 
 >[!CAUTION]
 >
->Houd bij het gebruik van deze functionaliteit rekening met de beperkingen voor SFTP-opslag, DB-opslag en actieve profielen die gelden voor uw AdobeCampagne-contract.
+>Houd bij het gebruik van deze functionaliteit rekening met de beperkingen voor SFTP-opslag, DB-opslag en actieve profielen die gelden voor uw Adobe Campaign-contract.
 
 Voorzichtig zijn en het volgen van de weinige hieronder gedetailleerde eenvoudige regels zullen veel helpen om gegevensconsistentie binnen het gegevensbestand te verzekeren en gemeenschappelijke fouten tijdens gegevensbestandupdate of gegevensuitvoer te vermijden.
 
@@ -48,7 +46,7 @@ Een voorbeeld van een generiek werkschemamalplaatje dat voor het invoeren van ge
 
 * [Bestandsactiviteit laden](../../automating/using/load-file.md)
 * [Afstemmingsactiviteit](../../automating/using/reconciliation.md)
-* [Segmenteringsactiviteit](../../automating/using/segmentation.md)
+* [Segmentatie-activiteit](../../automating/using/segmentation.md)
 * [Deduplicatieactiviteit](../../automating/using/deduplication.md)
 * [Gegevensactiviteit bijwerken](../../automating/using/update-data.md)
 
