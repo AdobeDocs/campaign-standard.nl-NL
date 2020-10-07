@@ -1,6 +1,6 @@
 ---
-title: Afstemming van gegevens met behulp van relaties
-description: In het volgende voorbeeld ziet u een workflow die de database bijwerkt met de aankoopgegevens in een bestand.
+title: Afstemming van data met behulp van relaties
+description: In het volgende voorbeeld ziet u een workflow die de database bijwerkt met de aankoopdata in een bestand.
 page-status-flag: never-activated
 uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
 contentOwner: sauviat
@@ -10,33 +10,31 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
 context-tags: reconciliation,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 0%
+ht-degree: 86%
 
 ---
 
 
-# Afstemming van gegevens met behulp van relaties {#reconciliation-relations}
+# Afstemming van data met behulp van relaties {#reconciliation-relations}
 
-In het volgende voorbeeld ziet u een workflow die de database bijwerkt met de aankoopgegevens in een bestand. De aankoopgegevens bevatten gegevens die verwijzen naar elementen van andere dimensies, zoals de e-mails van de klant en productcodes.
+In het volgende voorbeeld ziet u een workflow die de database bijwerkt met de aankoopdata in een bestand. De aankoopdata bevatten data die verwijzen naar elementen van andere dimensies, zoals de e-mails en productcodes van de klant.
 
 >[!NOTE]
 >
->De **Transacties** en de middelen van **Producten** die in dit voorbeeld worden gebruikt bestaan niet door gebrek in het gegevensbestand van Adobe Campaign. Ze zijn daarom vooraf gemaakt met behulp van de functie [Aangepaste bronnen](../../developing/using/data-model-concepts.md) . De profielen die overeenkomen met de e-mailadressen in het geïmporteerde bestand en de producten zijn vooraf in de database geladen.
+>De resources **Transactions** en **Products** die in dit voorbeeld worden gebruikt, bestaan standaard niet in de Adobe Campaign-database. Ze zijn daarom vooraf gemaakt met behulp van de functie [Aangepaste resources](../../developing/using/data-model-concepts.md). De profielen die overeenkomen met de e-mailadressen in het geïmporteerde bestand zijn evenals de producten vooraf in de database geladen.
 
 De workflow bestaat uit de volgende activiteiten:
 
 ![](assets/reconciliation_example1.png)
 
-* Een [activiteit van het Dossier](../../automating/using/load-file.md) van de Lading, die de gegevens van het in te voeren dossier laadt en ontdekt. Het geïmporteerde bestand bevat de volgende gegevens:
+* A [Load file](../../automating/using/load-file.md) activity, which loads and detects the data of the file to import. Het geïmporteerde bestand bevat de volgende data:
 
    * Transactiedatum
-   * E-mailadres client
+   * E-mailadres van klant
    * Code van het aangekochte product
 
    ```
@@ -52,17 +50,18 @@ De workflow bestaat uit de volgende activiteiten:
    2015-05-19 09:06:00;mail9@email.com;ZZ6
    ```
 
-* Een [afstemmingsactiviteit](../../automating/using/reconciliation.md) om het kopen van gegevens aan gegevensbestandprofielen evenals producten te binden. Daarom moet een verband worden gedefinieerd tussen de bestandsgegevens en de profielentabel en de producttabel. Deze configuratie wordt uitgevoerd op het **[!UICONTROL Relations]** tabblad van de activiteit:
+* A [Reconciliation](../../automating/using/reconciliation.md) activity to bind purchasing data to database profiles as well as products. Daarom moet een relatie worden gedefinieerd tussen de bestandsdata enerzijds en de profieltabel en producttabel anderzijds. Deze configuratie wordt uitgevoerd op het tabblad **[!UICONTROL Relations]** van de activiteit:
 
-   * Relatie met de **profielen**: De **clientkolom** van het bestand is gekoppeld aan het **e-mailveld** van de **profieldimensie** .
-   * Verhouding tot de **producten**: De **productkolom** van het bestand is gekoppeld aan het veld **productCode** van de **profieldimensie** .
-   Kolommen worden toegevoegd aan de binnenkomende gegevens om te verwijzen naar de externe sleutels van de gekoppelde afmetingen.
+   * Relatie met de **profielen**: de kolom **client** van het bestand is gekoppeld aan het veld **email** van de dimensie **Profiles**.
+   * Relatie met de **producten**: de kolom **product** van het bestand is gekoppeld aan het veld **productCode** van de dimensie **Profiles**.
+
+   Kolommen worden toegevoegd aan de binnenkomende data om te verwijzen naar de externe sleutels van de gekoppelde dimensies.
 
    ![](assets/reconciliation_example3.png)
 
-* Met een [updategegevensactiviteit](../../automating/using/update-data.md) kunt u de databasevelden definiëren die u wilt bijwerken met behulp van de geïmporteerde gegevens. Aangezien de gegevens reeds als deel van de dimensie van **Transacties** in de vorige activiteit werden geïdentificeerd, kunt u de **[!UICONTROL Directly using the targeting dimension]** identificatieoptie gebruiken.
+* An [Update data](../../automating/using/update-data.md) activity allows you to define the database fields to update using the imported data. Aangezien de data in de vorige activiteit reeds zijn geïdentificeerd als behorend tot de dimensie **Transactions**, kunt u de identificatieoptie **[!UICONTROL Directly using the targeting dimension]** gebruiken.
 
-   Als u de optie gebruikt waarmee automatisch velden worden gedetecteerd die moeten worden bijgewerkt, worden de koppelingen die in de vorige activiteit zijn geconfigureerd (naar profielen en producten) toegevoegd aan de lijst met **[!UICONTROL Fields to update]**. U moet er ook voor zorgen dat het veld dat overeenkomt met de transactiedatum correct wordt toegevoegd aan deze lijst.
+   Als u gebruikmaakt van de optie waarmee automatisch velden worden gedetecteerd die moeten worden bijgewerkt, worden de koppelingen die in de vorige activiteit zijn geconfigureerd (naar profielen en producten), toegevoegd aan de lijst **[!UICONTROL Fields to update]**. U moet ook controleren of het veld dat overeenkomt met de transactiedatum, correct is toegevoegd aan deze lijst.
 
    ![](assets/reconciliation_example5.png)
 
