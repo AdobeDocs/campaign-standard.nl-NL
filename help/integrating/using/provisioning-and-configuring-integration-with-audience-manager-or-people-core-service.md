@@ -1,6 +1,6 @@
 ---
-title: De levering en het vormen integratie met Audience Manager of de kerndienst van Mensen
-description: 'Leer hoe u de integratie van de Audience Manager/People-kernservice configureert om publiek of segmenten te delen met de verschillende Adobe Experience Cloud-oplossingen. '
+title: De integratie met Audience Manager of de People-kernservice inrichten en configureren
+description: 'Leer hoe te om de de dienstintegratie van de Audience Manager/van de Kern van Mensen te vormen beginnen publiek of segmenten met de verschillende oplossingen van Adobe Experience Cloud te delen. '
 page-status-flag: never-activated
 uuid: e7329644-0033-4729-b4a7-61bef137f4b5
 contentOwner: sauviat
@@ -9,20 +9,18 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
 
-# De levering en het vormen integratie met Audience Manager of de kerndienst van Mensen{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
+# De integratie met Audience Manager of de People-kernservice inrichten en configureren{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
-De levering en de configuratie van Audience Manager en de kern van Mensen in Adobe Campaign nemen twee stappen: [Het indienen van een aanvraag bij Adobe](#submitting-request-to-adobe) en het [configureren van de integratie in Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
+De levering en de configuratie van Audience Manager en de kern van Mensen in Adobe Campaign nemen twee stappen: [Het voorleggen van verzoek aan Adobe](#submitting-request-to-adobe) dan het [Vormen van de integratie in Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
 
 ## Aanvraag indienen bij Adobe {#submitting-request-to-adobe}
 
@@ -34,7 +32,7 @@ Deze integratie moet eerst worden geconfigureerd. Als u inrichting van deze inte
  <tbody> 
   <tr> 
    <td> <strong>Type aanvraag:</strong><br /> </td> 
-   <td> AAM/de kern van Mensen dienst-Campagne Integratie vormen </td> 
+   <td> AAM/de kern van de Mensen dienst-Campagne Integratie vormen </td> 
   </tr> 
   <tr> 
    <td> <strong>Naam organisatie:</strong><br /> </td> 
@@ -49,8 +47,8 @@ Deze integratie moet eerst worden geconfigureerd. Als u inrichting van deze inte
    <td> Voorbeeld: Productie </td> 
   </tr> 
   <tr> 
-   <td> <strong>AAM of Personenservice</strong><br /> </td> 
-   <td> Voorbeeld: Adobe Audience Manager. Vergeet niet om aan het provisioningteam mee te delen of u al dan niet een Audience Manager-licentie hebt.</td> 
+   <td> <strong>AAM of Persdienst</strong><br /> </td> 
+   <td> Voorbeeld: Adobe Audience Manager. Vergeet niet om aan het inrichtingsteam te vermelden of u al dan niet een Audience Manager-licentie hebt.</td> 
   </tr> 
   <tr> 
    <td> <strong>Opgegeven ID of bezoeker-ID</strong><br /> </td> 
@@ -65,7 +63,7 @@ Deze integratie moet eerst worden geconfigureerd. Als u inrichting van deze inte
 
 ## Integratie in Adobe Campaign configureren {#configuring-the-integration-in-adobe-campaign}
 
-Nadat u dit verzoek hebt verzonden, gaat Adobe door met de levering van de integratie voor u. Neem contact op met u voor meer informatie en informatie die u nodig hebt om de configuratie te voltooien:
+Na het voorleggen van dit verzoek, zal Adobe aan de levering van de integratie voor u te werk gaan en u contacteren om details en informatie te verstrekken die u de configuratie moet voltooien:
 
 * [Stap 1: Externe accounts in Adobe Campaign configureren of controleren](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
 * [Stap 2: Vorm de Gegevensbronnen](#step-2--configure-the-data-sources)
@@ -74,9 +72,9 @@ Nadat u dit verzoek hebt verzonden, gaat Adobe door met de levering van de integ
 
 ### Stap 1: Externe accounts in Adobe Campaign configureren of controleren {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
-We moeten eerst de externe accounts in Adobe Campaign configureren of controleren. Deze accounts zouden door Adobe moeten zijn geconfigureerd en de benodigde informatie zou aan u moeten zijn doorgegeven.
+We moeten eerst de externe accounts in Adobe Campaign configureren of controleren. Deze rekeningen hadden door Adobe moeten worden gevormd en de noodzakelijke informatie zou aan u moeten worden meegedeeld.
 
-Daartoe:
+Dit doet u als volgt:
 
 1. Kies in het menu Geavanceerd de optie **Beheer > Toepassingsinstellingen > Externe accounts**.
 
@@ -104,8 +102,8 @@ De **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]** gegevensbron con
 
    ![](assets/integration_aam_2.png)
 
-1. Kies deze optie **[!UICONTROL Adobe Campaign]** in de **[!UICONTROL Data Source/ Alias]** vervolgkeuzelijst.
-1. Voer de gegevens in die door Adobe zijn **[!UICONTROL AAM Destination ID]** verstrekt.
+1. Choose **[!UICONTROL Adobe Campaign]** in the **[!UICONTROL Data Source/ Alias]** drop-down.
+1. Voer de **[!UICONTROL AAM Destination ID]** opgegeven waarde in door Adobe.
 
    ![](assets/integration_aam_3.png)
 
@@ -117,7 +115,7 @@ De **[!UICONTROL Declared ID]** gegevensbron maken:
 1. Klik in **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]** op de **[!UICONTROL Create]** knop.
 1. Bewerk de **[!UICONTROL Label]** gegevensbron.
 1. Kies in het **[!UICONTROL Data Source/ Alias]** keuzemenu de gegevensbron die overeenkomt met de **[!UICONTROL DeclaredID]** gegevensbron van Audience Manager.
-1. Configureer uw gegevensbron door de gegevens in te voeren **[!UICONTROL Data Source / Alias]** en door Adobe te **[!UICONTROL AAM Destination ID]** leveren.
+1. Vorm uw gegevensbron door in te gaan **[!UICONTROL Data Source / Alias]** en door Adobe **[!UICONTROL AAM Destination ID]** verstrekt.
 1. Stel de **[!UICONTROL Reconciliation process]** gewenste waarden in.
 1. Klik op **[!UICONTROL Save]**.
 
