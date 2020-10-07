@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 8%
 
 ---
 
 
 # Een service maken {#creating-a-service}
 
-De verwezenlijking van de diensten wordt uitgevoerd met een **POST** - verzoek op het de dienstmiddel.
+De verwezenlijking van de diensten wordt uitgevoerd met een verzoek van de **POST** op het de dienstmiddel.
 
 Als u de dienst met specifieke attributen wilt tot stand brengen, voeg hen in de lading toe. Anders, zal de nieuwe dienst met standaarddegenen worden gecreeerd.
 
@@ -27,7 +28,7 @@ Als u de dienst met specifieke attributen wilt tot stand brengen, voeg hen in de
 
 ***Voorbeeldverzoek***
 
-Voorbeeld van POST-aanvraag om een service met specifieke kenmerken te maken.
+De vraag van de POST van de steekproef om de dienst met specifieke attributen tot stand te brengen.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \
