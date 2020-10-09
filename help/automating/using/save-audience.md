@@ -67,6 +67,7 @@ De activiteit **[!UICONTROL Save audience]** wordt hoofdzakelijk gebruikt om ber
       >[!NOTE]
       >
       >Deze optie is alleen beschikbaar als de functionaliteit voor gedeelde doelgroepen met Adobe Experience Cloud door uw beheerder is geconfigureerd. Voor meer informatie raadpleegt u [Werken met Campaign en de kernservice People](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
+
    Het type doelgroepen dat tijdens een update wordt opgeslagen of beschikbaar is, is afhankelijk van de activiteiten die stroomopwaarts in de workflow worden geplaatst.
 
    Als de doeldimensie van de doelgroep onbekend is wanneer deze wordt opgeslagen (bijvoorbeeld als deze afkomstig is van een geïmporteerd bestand), wordt de doelgroep gemaakt of bijgewerkt als een doelgroep van het type **[!UICONTROL File]**.

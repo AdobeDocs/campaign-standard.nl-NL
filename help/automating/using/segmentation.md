@@ -91,6 +91,7 @@ De activiteit **[!UICONTROL Segmentation]** wordt over het algemeen na targeting
       >[!NOTE]
       >
       >U kunt verschillende beperkingen voor elke waarde gebruiken. U kunt bijvoorbeeld een groepering voor het veld **[!UICONTROL Gender]** opgeven en de populatie met leden van het **[!UICONTROL Male]** geslacht beperken tot 10, en de populatie met leden van het **[!UICONTROL Female]** geslacht tot 30 personen. Als u meerdere velden voor datagroepering gebruikt, moeten alle groeperingen dezelfde grootte hebben.
+
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Bevestig de configuratie van uw segment.
