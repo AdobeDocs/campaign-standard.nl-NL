@@ -11,9 +11,9 @@ topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '444'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ Het beginnen van een platform gebeurt vaak wanneer het gebruiken van een lijst v
 * Als, allen het zelfde, u wenst om de ongeldige adressen opnieuw te kwalificeren, is het verreweg verkieslijk om dit te doen zodra de reputatie van het platform en beetje door beetje wordt gevestigd om het gebruik van slechte adressen in tijd &quot;te &quot;verwateren&quot;.
 
 Een overzicht geven van de beginselen die bij het opstarten moeten worden gevolgd:
-* **Wijs een specifiek subdomein** naar Adobe toe dat specifiek is voor e-mailcampagnes die vanuit Adobe worden verzonden.
+* **Vorm specifieke subdomain** om met Campagne te werken die voor e-mailcampagnes specifiek is die van Adobe worden verzonden.
 * **Importeer ongeldige/inactieve adressen in de quarantainetabel** (als u deze informatie hebt).
 * **Beperk het tarief van de leveringsproductie** (technische het plaatsen: beperking van het aantal tapijten).
 * **De verzonden** volumes progressief verhogen: richt niet het volledige gegevensbestand vanaf zeer begin, maar voegt eerder een extra fractie van de lijst toe telkens als u verzendt. Dit zou u moeten toelaten om het volume bij elke stap te verhogen terwijl het verminderen van het algemene tarief van ongeldige adressen.
