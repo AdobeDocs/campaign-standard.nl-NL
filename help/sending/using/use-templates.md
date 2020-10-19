@@ -11,9 +11,9 @@ topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '802'
 ht-degree: 9%
 
 ---
@@ -49,7 +49,7 @@ In het **[!UICONTROL Advanced parameters]** gedeelte van de eigenschappen van ee
 
 ![](assets/template-parameters.png)
 
-Het adresdomein moet hetzelfde zijn als het subdomein dat u aan Adobe hebt gedelegeerd.
+Het adresdomein moet het zelfde als subdomein zijn dat u vormde.
 
 De **[!UICONTROL Reply to]** velden komen overeen met het e-mailadres en de naam die worden gebruikt voor reacties.
 
