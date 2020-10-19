@@ -11,9 +11,9 @@ topic-tags: application-settings
 discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1250'
 ht-degree: 80%
 
 ---
@@ -92,13 +92,13 @@ Een **merk** wordt gedefinieerd door de volgende kenmerken:
 
 U kunt nieuwe entiteiten van uw organisatie toevoegen in Campagne, of een nieuw type van e-mail tot stand brengen dat u onder een verschillend subdomain moet verzenden. Volg onderstaande stappen om dit te doen:
 
-1. **Een nieuw subdomein** delegeren - Voor elk nieuw subdomein dat door Adobe moet worden gebruikt, is de eerste stap het delegeren van het subdomein. U kunt dit uitvoeren door het Controlebord [van de](https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/subdomains-branding.html) Campagne of uit te reiken aan uw Adobe technisch contact. Meer informatie over subdomeindelegatie vindt u [in dit artikel](https://helpx.adobe.com/nl/campaign/kb/domain-name-delegation.html).
+1. **Vorm een nieuw subdomain** - voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap het vormen zijn. U kunt dit uitvoeren door het Controlebord [van de](https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/subdomains-branding.html) Campagne of uit te reiken aan uw Adobe technisch contact. Meer informatie over subdomeinconfiguratie [in dit artikel](https://helpx.adobe.com/nl/campaign/kb/domain-name-delegation.html).
 
-1. **Creeer een kaartje** - Zodra subdomain wordt gedelegeerd, zal Adobe het in uw productiemilieu moeten opstelling. Om dit te verzoeken, [creeer een kaartje aan de Zorg](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) van de Cliënt met de volgende informatie:
+1. **Creeer een kaartje** - Zodra subdomain wordt gevormd, zal Adobe het in het uw productiemilieu moeten opstelling. Om dit te verzoeken, [creeer een kaartje aan de Zorg](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) van de Cliënt met de volgende informatie:
 
    * Betreft: ACS Nieuw merk ingesteld
 
-   * Inhoud: Er is een nieuw domein gedelegeerd aan Adobe en wij willen dat dit wordt opgezet in ons campagneplatform
+   * Inhoud: Er is een nieuw domein geconfigureerd en we willen dat dit wordt ingesteld in ons campagneplatform
 
    * Domein: XXX
 
