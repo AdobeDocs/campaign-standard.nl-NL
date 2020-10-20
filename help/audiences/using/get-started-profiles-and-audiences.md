@@ -86,7 +86,7 @@ Lees meer in dit [artikel](https://helpx.adobe.com/nl/campaign/kb/campaign-priva
 
 De privacy en de Toestemming in Campagne en hoe te om hen te beheren worden voorgesteld in [deze sectie](../../start/using/privacy.md). U zult ook beste praktijken vinden, om u met uw naleving van de Privacy te helpen wanneer het gebruiken van onze dienst.
 
-## Aanvullende resources
+## Aanvullende bronnen
 
 * [Werken met de service Doelen voor het publiek](../../audiences/using/aep-about-audience-destinations-service.md)
 * [Werken met Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
