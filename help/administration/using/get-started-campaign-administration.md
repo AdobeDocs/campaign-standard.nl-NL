@@ -104,7 +104,7 @@ Meer informatie:
 * [Merkpositionering](../../administration/using/branding.md)
 * [Interne meldingen verzenden](../../administration/using/sending-internal-notifications.md)
 
-## Aanvullende resources
+## Aanvullende bronnen
 
 * [Toegangsrechten van gebruikers beheren (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)
 * [Configuratiescherm-documentatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/control-panel-home.html)
