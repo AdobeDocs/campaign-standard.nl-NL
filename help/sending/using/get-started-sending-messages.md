@@ -89,7 +89,7 @@ Meer informatie:
 * [Technische aanbevelingen](../../sending/using/technical-recommendations.md)
 * [De leveringsdoorvoer regelen](../../reporting/using/delivery-throughput.md)
 
-## Aanvullende resources
+## Aanvullende bronnen
 
 * [E-mails ontwerpen voor een A/B-test](../../channels/using/designing-an-a-b-test-email.md)
 * [Een test verzenden, een e-mail (video) voorbereiden en verzenden](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
