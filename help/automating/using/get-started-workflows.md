@@ -90,7 +90,7 @@ Meer informatie:
 * [Data importeren en exporteren](../../automating/using/about-data-import-and-export.md)
 * [Gebruiksscenario: Aangepaste resources exporteren en importeren](../../automating/using/exporting-importing-custom-resources.md)
 
-## Aanvullende resources
+## Aanvullende bronnen
 
 * [Zelfstudievideo&#39;s over processen en gegevensbeheer](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
 * [Technische workflows](../../administration/using/technical-workflows.md)
