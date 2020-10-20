@@ -74,7 +74,7 @@ Meer informatie:
 * [Een aangepaste profieldimensie maken](../../reporting/using/creating-a-custom-profile-dimension.md)
 * [Een rapport maken op basis van workflowsegmenten](../../reporting/using/creating-a-report-workflow-segment.md)
 
-## Aanvullende resources
+## Aanvullende bronnen
 
 * [Video&#39;s over dynamische rapporten](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/reporting/exploring-reports.html)
 * [Logboeken exporteren](../../automating/using/exporting-logs.md)
