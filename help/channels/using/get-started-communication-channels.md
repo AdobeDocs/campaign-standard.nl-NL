@@ -97,7 +97,7 @@ Meer informatie:
 * [Formulierdata voor landingspagina&#39;s beheren](../../channels/using/managing-landing-page-form-data.md)
 * [Een dubbele opt-inprocedure instellen](../../channels/using/setting-up-a-double-opt-in-process.md)
 
-## Aanvullende resources
+## Aanvullende bronnen
 
 * [Uw prestaties optimaliseren](../../sending/using/about-deliverability.md)
 * [Best practices voor levering](../../sending/using/delivery-best-practices.md)
