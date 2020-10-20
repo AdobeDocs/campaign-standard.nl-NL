@@ -64,7 +64,7 @@ Meer informatie:
 
 Met Campaign Standard APIs, creeer integraties voor Adobe Campaign Standard en bouw uw eigen ecosysteem door Campagne met het paneel van technologieën te verbinden die u gebruikt. [Aan de slag met Campaign Standard REST-API’s](../../api/using/get-started-apis.md)
 
-## Aanvullende resources
+## Aanvullende bronnen
 
 * [Informatie over de Adobe Experience Platform-gegevensconnector](../../developing/using/aep-about-data-connector.md)
 * [Aangepaste bronnen maken (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/developing/custom-resources-develop/creating-custom-resources.html)
