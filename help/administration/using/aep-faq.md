@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 8eaece864ca0f3795cd36ea0cc7a01737822d9e8
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 4%
+source-wordcount: '914'
+ht-degree: 3%
 
 ---
 
@@ -105,3 +105,11 @@ Ontdek de onderstaande bronnen:
 * Aan de slag met de [documentatie van de SDK van Starten en Experience Platforms](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
 * Bijwerken naar SDK- [documentatie voor Experience Platform](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
 * Github Experience Platform SDK- [documentatie](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
+
+## Ik krijg fout &quot;u hebt geen schrijftoegang bij levering&quot;terwijl het creëren van een levering van het dupbericht. {#write-access-error}
+
+Controleer het volgende:
+
+* De mobiele app moet worden toegewezen aan de organisatie-eenheid van de gebruiker die push-items moet maken en verzenden. De gebruiker van een onderliggende organisatie kan geen push-levering maken met een app die is toegewezen aan de bovenliggende organisatie-eenheid.
+
+* De campagne of het programma waarin de levering van de duw wordt gecreeerd zouden aan de organisatorische eenheid van de gebruiker moeten worden in kaart gebracht die tot dupleveringen moet leiden en verzenden. Gebruiker van de onderliggende organisatie kan geen pushlevering maken in een campagne of programma dat is toegewezen aan de bovenliggende organisatie-eenheid.
