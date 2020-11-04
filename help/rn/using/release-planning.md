@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: campaign-standard-release-planning
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: e57fb3ad898be580828fbe031faf0bc3664246eb
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Alle releasedatums kunnen worden gewijzigd. We raden u aan deze pagina regelmati
 
 **NIEUW!** Abonneer u op [Campaign Standard-releasemeldingen](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) om details over aankomende releases rechtstreeks in uw inbox te krijgen.
 
-## Release 20.4 - Release van oktober {#release-20-4-oct-release}
+## Release 21.1 - Release januari {#release-21-1-release}
 
 Updates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. Gedetailleerde informatie over deze release is te vinden in de [Release-opmerkingen](../../rn/using/release-notes.md). Neem contact op met [Adobe Client Care](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) als u nog vragen hebt.
 
@@ -44,16 +44,14 @@ Updates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s.
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>21-23 september 2020<br /> </td>
+   <td>11 jan. 12 januari 2021<br /> </td>
   </tr>
   <tr>
    <td> Productie<br /> </td>
-   <td>28 september - 5 oktober 2020<br /> </td>
+   <td>18 jan. 25 januari 2021<br /> </td>
   </tr>
  </tbody>
 </table>
-
-
 
 ## Vragen en antwoorden {#questions-and-answers}
 
