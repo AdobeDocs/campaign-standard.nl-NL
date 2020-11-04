@@ -5,7 +5,7 @@ title: Adobe Campaign Standard-productdocumentatie
 description: Bladeren door productdocumentatie van Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 932e703ccb20ea3eefe82d7a695513076d4f4d19
+source-git-commit: 8da8c469fad3cab24046cd531ae036a79a053d75
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 91%
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 ## Nieuwe functies
 
-* **[Bijgewerkte release planning](rn/using/release-planning.md)**<br/>De volgende releasedatums van januari zijn toegevoegd aan de releaseplanning
+* **[De bijgewerkte versie planning](rn/using/release-planning.md)**<br/>van de release De komende releasedatums van februari 2021 zijn toegevoegd aan de releaseplanning
 
 * **[Controlegroepen](sending/using/control-group.md)**<br/>
 De invloed van uw campagnes meten door een deel van hun doelgroep uit te sluiten
