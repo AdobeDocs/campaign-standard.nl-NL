@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 4e338fb9399f85127e1d8e5f7f178a8d3d0a47cc
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 3%
@@ -61,8 +61,6 @@ De volgende stappen worden uitgevoerd:
 
 1. In het externe systeem gebruikt u de openbare sleutel die u van het Configuratiescherm hebt gedownload om de gegevens te coderen die u naar Campaign Standard wilt importeren.
 
-   ![](assets/do-not-localize/gpg_external.png)
-
 1. In Campaign Standard, bouwt een werkschema om de gecodeerde gegevens in te voeren en het te decrypteren gebruikend de privé sleutel die via het Controlebord is geïnstalleerd. Hiervoor maken we als volgt een workflow:
 
    ![](assets/gpg_workflow.png)
@@ -102,7 +100,7 @@ De volgende stappen worden uitgevoerd:
 
    ![](assets/gpg_install.png)
 
-1. In Campaign Standard, bouwt een werkschema om de gegevens uit te voeren en het uit te voeren gebruikend de privé sleutel die via het Controlebord is geïnstalleerd. Hiervoor maken we als volgt een workflow:
+1. In Campaign Standard, bouwt een werkschema om de gegevens uit te voeren en het te coderen gebruikend de privé sleutel die via het Controlebord is geïnstalleerd. Hiervoor maken we als volgt een workflow:
 
    ![](assets/gpg-workflow-export.png)
 
@@ -127,5 +125,3 @@ De volgende stappen worden uitgevoerd:
    ![](assets/gpg-transfer-encrypt.png)
 
 1. U kunt de workflow nu uitvoeren. Zodra het wordt uitgevoerd, zal het gegevensdoel door de vraag naar de server SFTP in een gecodeerd.gpg- dossier worden uitgevoerd.
-
-   ![](assets/do-not-localize/gpg-sftp-encrypt.png)
