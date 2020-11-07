@@ -5,10 +5,10 @@ title: Adobe Campaign Standard-productdocumentatie
 description: Bladeren door productdocumentatie van Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8da8c469fad3cab24046cd531ae036a79a053d75
+source-git-commit: 1b2c4e2105a75f31b0b895bee2de9a9a79850910
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 91%
+source-wordcount: '221'
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 ## Nieuwe functies
 
-* **[De bijgewerkte versie planning](rn/using/release-planning.md)**<br/>van de release De komende releasedatums van februari 2021 zijn toegevoegd aan de releaseplanning
+* **[De bijgewerkte versie planning](rn/using/release-planning.md)**<br/> van de release De komende releasedatums van februari 2021 zijn toegevoegd aan de releaseplanning
 
 * **[Controlegroepen](sending/using/control-group.md)**<br/>
 De invloed van uw campagnes meten door een deel van hun doelgroep uit te sluiten
@@ -32,7 +32,7 @@ De activiteit Externe API gebruiken om data van een extern systeem over te breng
 
 * **[Aan de slag met mobiele leveringen](https://helpx.adobe.com/nl/campaign/kb/acs-mobile.html)**<br/> Meer informatie over algemene richtlijnen voor mobiele leveringen (sms, pushmeldingen, in-app)
 
-[Klik hier voor meer updates](rn/using/documentation-updates.md)
+[Meer updates](rn/using/documentation-updates.md)
 
 ## Meest bezochte pagina&#39;s
 
