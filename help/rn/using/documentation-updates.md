@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 1b2c4e2105a75f31b0b895bee2de9a9a79850910
 workflow-type: tm+mt
-source-wordcount: '6247'
+source-wordcount: '6220'
 ht-degree: 98%
 
 ---
@@ -42,7 +42,7 @@ Er is een nieuwe sectie over aanbevolen methoden voor levering toegevoegd. [Meer
 
 Er is een sectie toegevoegd waarin de nieuwe filters worden beschreven waarmee de gebeurtenisconfiguraties kunnen worden doorzocht op basis van hun status en de laatste keer dat een gebeurtenis werd ontvangen. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
-## Documentatie-updates - september 2020 {#doc-updates-september-2020}
+## September 2020 {#doc-updates-september-2020}
 
 De sectie over transactionele berichten voor gebeurtenissen is opnieuw ingedeeld en verhelderd. [Meer informatie](../../channels/using/event-transactional-messages.md)
 
@@ -54,7 +54,7 @@ De nieuwe Campaign Standard-Microsoft Dynamics 365-integratie is nu beschikbaar.
 
 Er is informatie toegevoegd over anonieme bronnen in het rapport Actieve profielen. [Meer informatie](../../audiences/using/active-profiles.md)
 
-## Documentatie-updates - augustus 2020 {#doc-updates-august-2020}
+## Augustus 2020 {#doc-updates-august-2020}
 
 Er is een bijgewerkte sectie over het leren werken met transactionele berichten beschikbaar. [Meer informatie](../../channels/using/getting-started-with-transactional-msg.md)
 
@@ -62,7 +62,7 @@ De sectie **Beperkingen voor transactionele berichten** is [hierheen](../../chan
 
 De sectie **De verzending voorbereiden** is [hierheen](../../sending/using/preparing-the-send.md) verplaatst
 
-## Documentatie-updates - juli 2020 {#doc-updates-july-2020}
+## Juli 2020 {#doc-updates-july-2020}
 
 Er is een nieuwe sectie toegevoegd met richtlijnen voor Campaign Standard-bewaking. [Meer informatie](../../administration/using/monitoring-guidelines.md)
 
@@ -76,7 +76,7 @@ De pagina Privacybeheer in Campaign Standard is bijgewerkt, onder andere met een
 
 Nieuwe AI-mogelijkheden voor e-mails: verzendingstijd optimaliseren en profielscores. [Meer informatie](../../sending/using/predictive.md)
 
-## Documentatie-updates - juni 2020 {#doc-updates-june-2020}
+## Juni 2020 {#doc-updates-june-2020}
 
 Gebruiksscenario’s voor workflows zijn bijgewerkt en opnieuw ingedeeld in thematische secties. [Meer informatie](../../automating/using/about-workflow-use-cases.md)
 
@@ -88,7 +88,7 @@ Aangepaste Litmus-accountconfiguratie is verwijderd uit de Inbox-rendermogelijkh
 
 Campaign Standard - Integratie met Microsoft Dynamics 365 is momenteel niet beschikbaar. Er wordt een nieuwe connector ontwikkeld die in de toekomst beschikbaar zal zijn. De desbetreffende Help-pagina’s zijn verwijderd. [Meer informatie](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
-## Documentatie-updates - mei 2020 {#doc-updates-may-2020}
+## Mei 2020 {#doc-updates-may-2020}
 
 De overzichtspagina van Campaign Standard is uitgebreid en opnieuw ingedeeld volgens thematische onderwerpen. [Meer informatie](../../start/using/about-campaign-standard.md)
 
@@ -116,7 +116,7 @@ Er is een gebruiksscenario toegevoegd waarmee u e-mailberichten van de oude edit
 
 Er is een sectie met vaak gestelde vragen over Email Designer toegevoegd. [Meer informatie](../../designing/using/faq-email-designer.md)
 
-## Documentatie-updates - april 2020 {#doc-updates-april-2020}
+## April 2020 {#doc-updates-april-2020}
 
 De documentatie over de integratie van Microsoft Dynamics 365 met Adobe Campaign Standard is nu beschikbaar in de kerndocumentatie. [Meer informatie](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
@@ -168,7 +168,7 @@ De secties over transactionele berichten zijn bijgewerkt om kleine updates en ve
 
 De informatie over externe API-activiteitsbeveiliging is bijgewerkt. [Meer informatie](../../automating/using/external-api.md)
 
-## Documentatie-updates - maart 2020 {#doc-updates-march-2020}
+## Maart 2020 {#doc-updates-march-2020}
 
 Er is meer gedetailleerde informatie over de Enhanced MTA toegevoegd aan de kerndocumentatie, in het bijzonder betreffende de regels voor e-mailverwerking en de kwalificatieregels voor niet-bezorging. [Meer informatie](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
@@ -214,7 +214,7 @@ Er zijn notities toegevoegd om aan te geven dat de URL’s van de applicatieserv
 
 De sectie voor het exporteren van logboeken is bijgewerkt om de beschikbaarheid van de id van het leveringslogboek in de resources voor leveringslogboeken en traceringslogboeken weer te geven zodat voor elk logboek een unieke id kan worden geëxporteerd. [Meer informatie](../../automating/using/exporting-logs.md)
 
-## Documentatie-updates - januari 2020 {#doc-updates-january-2020}
+## Januari 2020 {#doc-updates-january-2020}
 
 De documentatie over leverbaarheid is bijgewerkt met een nieuwe sectie over IP-certificering. [Meer informatie](../../sending/using/ip-certification.md)
 
@@ -228,7 +228,7 @@ De documentatie over het werken met Campaign en Experience Manager is bijgewerkt
 
 De startpagina met documentatie over API’s is verbeterd en bevat nu omleidingen naar de verschillende onderwerpen. [Meer informatie](../../api/using/get-started-apis.md)
 
-## Documentatie-updates - december 2019 {#doc-updates-december-2019}
+## nov. - dec. 2019 {#doc-updates-december-2019}
 
 De documentatie over het configureren van externe S3-accounts is bijgewerkt. [Meer informatie](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -237,8 +237,6 @@ De sectie over het ontwerpen van e-mailcontent is opnieuw ingedeeld. [Meer infor
 De handleiding om aan de slag te gaan met leverbaarheid is in de kerndocumentatie geïntegreerd en bijgewerkt. [Meer informatie](../../sending/using/about-deliverability.md)
 
 De handleiding om aan de slag te gaan met het exporteren en importeren van aangepaste resources is in de kerndocumentatie geïntegreerd. [Meer informatie](../../automating/using/exporting-importing-custom-resources.md)
-
-## Documentatie-updates - november 2019 {#doc-updates-november-2019}
 
 Er is een nieuw gebruiksscenario toegevoegd waarin wordt beschreven hoe u een controlegroep maakt met behulp van een workflow in Campaign Standard.
 
@@ -282,7 +280,7 @@ Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u koppelingen met
 
 Er is informatie over privacy toegevoegd aan de API-documentatie. [Klik hier](../../api/using/creating-a-privacy-request.md)
 
-## Documentatie-updates - oktober 2019 {#doc-updates-october-2019}
+## Sept. - Oct. 2019 {#doc-updates-october-2019}
 
 Er is een nieuwe sectie toegevoegd met betrekking tot Campaign Standard-instellingen. [Meer informatie](../../administration/using/about-campaign-standard-settings.md)
 
@@ -291,8 +289,6 @@ Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u een automatisch
 De sectie over transactionele berichten is gewijzigd en bevat nu de meest recente gebruikersinterface-updates, waaronder het bewerken van content met Email Designer. [Meer informatie](../../channels/using/event-transactional-messages.md)
 
 Het hoofdstuk over landingspagina’s is gereorganiseerd. Het is ook uitgebreid met een nieuwe sectie waarin de stappen over het instellen van een landingspagina worden beschreven. [Meer informatie](../../channels/using/getting-started-with-landing-pages.md)
-
-## Documentatie-updates - september 2019 {#doc-updates-september-2019}
 
 Er is een nieuwe sectie toegevoegd aan de sectie over pushmeldingen met informatie over het maken en bijwerken van profieldata op basis van abonnementsdata voor mobiele apps. [Meer informatie](../../channels/using/updating-profile-with-mobile-app-data.md)
 
@@ -304,7 +300,7 @@ Er is een opmerking toegevoegd over de optie **Launch_URL_Campaign** op de pagin
 
 De handleiding over Email Designer is opnieuw ingedeeld. [Meer informatie](../../designing/using/designing-content-in-adobe-campaign.md)
 
-## Documentatie-updates - augustus 2019 {#doc-updates-august-2019}
+## Augustus 2019 {#doc-updates-august-2019}
 
 Er is een nieuwe sectie toegevoegd met gebruiksscenario’s voor workflows waarin de nadruk ligt op query’s. [Meer informatie](../../automating/using/workflow-created-query-with-complement.md)
 
@@ -356,7 +352,7 @@ De lijst met foutberichten voor Campaign Standard en Classic is bijgewerkt. [Mee
 
 Er is een waarschuwing toegevoegd in de documentatie over aangepaste resources. We raden u aan maximaal 30 tekens te gebruiken voor aangepaste resource-id’s. Dit geldt ook voor aangepaste resourcevelden, sleutels, indexen en koppelingen. [Meer informatie](../../developing/using/creating-or-extending-the-resource.md)
 
-## Documentatie-updates - juli 2019 {#doc-updates-2019}
+## Juni - juli 2019 {#doc-updates-2019}
 
 Er is een nieuwe pagina toegevoegd over de beperkingen voor landingspagina’s. [Meer informatie](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
@@ -943,4 +939,3 @@ URL wijzigen: Assets-kernservice - [Meer informatie](../../integrating/using/wor
 URL wijzigen: People-kernservice - [Meer informatie](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 De handleiding betreffende profielen en doelgroepen is gereorganiseerd. [Meer informatie](../../audiences/using/get-started-profiles-and-audiences.md)
-
