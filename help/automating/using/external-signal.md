@@ -11,10 +11,10 @@ topic-tags: execution-activities
 discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -54,7 +54,7 @@ Bij het configureren van een extern signaal is het belangrijk om eerst de activi
 1. Selecteer de activiteit en open deze met de knop ![](assets/edit_darkgrey-24px.png) vanuit de snelle acties die verschijnen.
 1. Bewerk het label van de activiteit. Dit label is nodig bij het configureren van de bronworkflow die het **[!UICONTROL External signal]** activeert.
 
-   Als u de workflow wilt aanroepen met parameters, gebruikt u het gebied **[!UICONTROL Parameters]** om deze te declareren. For more on this, refer to this section: [](../../automating/using/declaring-parameters-external-signal.md).
+   Als u de workflow wilt aanroepen met parameters, gebruikt u het gebied **[!UICONTROL Parameters]** om deze te declareren. Raadpleeg [deze pagina](../../automating/using/declaring-parameters-external-signal.md) voor meer informatie.
 
    ![](assets/external_signal_configuration.png)
 
@@ -76,7 +76,7 @@ Bij het configureren van een extern signaal is het belangrijk om eerst de activi
 
    Wanneer u een activiteit **[!UICONTROL End]** instelt om een andere workflow te activeren, wordt het pictogram ervan bijgewerkt met een aanvullend signaalsymbool.
 
-   Als u de workflow wilt aanroepen met parameters, gebruikt u het gebied **[!UICONTROL Parameters and values]**. For more on this, refer to this section: [](../../automating/using/defining-parameters-calling-workflow.md).
+   Als u de workflow wilt aanroepen met parameters, gebruikt u het gebied **[!UICONTROL Parameters and values]**. Raadpleeg [deze pagina](../../automating/using/defining-parameters-calling-workflow.md) voor meer informatie.
 
    ![](assets/external_signal_end.png)
 
