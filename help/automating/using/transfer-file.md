@@ -11,10 +11,10 @@ topic-tags: data-management-activities
 discoiquuid: 752f2aed-f897-485e-b329-f3cc1756ee8e
 context-tags: fileTransfer,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
 source-wordcount: '1043'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -136,7 +136,7 @@ Het protocol **[!UICONTROL File(s) present on the Adobe Campaign server]** komt 
 Metatekens of jokertekens (bijvoorbeeld * of ?) kunnen worden gebruikt om bestanden te filteren.
 
 Kies **[!UICONTROL Define a file path]** of **[!UICONTROL Use a dynamic file path]**.
-Met de optie **[!UICONTROL Use a dynamic file path]** kunt u een standaardexpressie en gebeurtenisvariabelen gebruiken om de naam van het over te dragen bestand te personaliseren. For more on this, refer to this section: [](../../automating/using/customizing-workflow-external-parameters.md).
+Met de optie **[!UICONTROL Use a dynamic file path]** kunt u een standaardexpressie en gebeurtenisvariabelen gebruiken om de naam van het over te dragen bestand te personaliseren. Raadpleeg [deze pagina](../../automating/using/customizing-workflow-external-parameters.md) voor meer informatie.
 
 Houd er rekening mee dat het pad relatief moet zijn ten opzichte van de map met de opslagruimte van de Adobe Campaign-server. De bestanden bevinden zich in de map **sftp&lt;yourinstancename>/**. U kunt ook niet door de mappen boven de opslagruimte bladeren. Bijvoorbeeld:
 
