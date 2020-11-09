@@ -11,9 +11,9 @@ topic-tags: targeting-activities
 discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '851'
 ht-degree: 92%
 
 ---
@@ -64,7 +64,7 @@ De activiteit **[!UICONTROL Segmentation]** wordt over het algemeen na targeting
    * **[!UICONTROL Limit segment population]**: Hiermee kunt u de segmentgrootte beperken.
    * **[!UICONTROL Filter and limit segment population]**: Hiermee kunt u de segmentpopulatie filteren en de grootte ervan beperken.
    * **[!UICONTROL Label]**: segmentlabel.
-   * **[!UICONTROL Segment code]**: code toegewezen aan de segmentpopulatie.De segmentcode kan worden gepersonaliseerd met behulp van een standaardexpressie en gebeurtenisvariabelen (zie [](../../automating/using/customizing-workflow-external-parameters.md)).
+   * **[!UICONTROL Segment code]**: code toegewezen aan de segmentpopulatie.De segmentcode kan worden gepersonaliseerd met behulp van een standaardexpressie en gebeurtenisvariabelen (zie [deze pagina](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Exclude segment from population]**: Hiermee sluit u het opgegeven segment uit van de uitgaande populatie van de activiteit. Deze optie kan alleen worden gebruikt als de optie **[!UICONTROL Generate all segments in the same transition]** is geselecteerd.
 
    ![](assets/wkf_segment_new_segment.png)
@@ -91,7 +91,6 @@ De activiteit **[!UICONTROL Segmentation]** wordt over het algemeen na targeting
       >[!NOTE]
       >
       >U kunt verschillende beperkingen voor elke waarde gebruiken. U kunt bijvoorbeeld een groepering voor het veld **[!UICONTROL Gender]** opgeven en de populatie met leden van het **[!UICONTROL Male]** geslacht beperken tot 10, en de populatie met leden van het **[!UICONTROL Female]** geslacht tot 30 personen. Als u meerdere velden voor datagroepering gebruikt, moeten alle groeperingen dezelfde grootte hebben.
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Bevestig de configuratie van uw segment.
