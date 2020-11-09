@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '803'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 Nadat de workflow is geactiveerd, worden de parameters opgenomen in de gebeurtenisvariabelen en kunnen deze worden gebruikt om de activiteiten van de workflow aan te passen.
 
-Ze kunnen bijvoorbeeld worden gebruikt om te definiëren welk publiek in de **[!UICONTROL Read audience]** activiteit moet worden gelezen, welke naam van het bestand in de **[!UICONTROL Transfer file]** activiteit moet worden overgebracht, enzovoort. (see [](../../automating/using/customizing-workflow-external-parameters.md)).
+Ze kunnen bijvoorbeeld worden gebruikt om te definiëren welk publiek in de **[!UICONTROL Read audience]** activiteit moet worden gelezen, welke naam van het bestand in de **[!UICONTROL Transfer file]** activiteit moet worden overgebracht, enzovoort. (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
 
 ## Gebeurtenisvariabelen gebruiken {#using-events-variables}
 
@@ -49,13 +49,13 @@ Wanneer het gebruiken van een variabele in een activiteit, verstrekt de interfac
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png): bewerkingsexpressies waarin variabelen en functies worden gecombineerd (zie [](../../automating/using/advanced-expression-editing.md)).
+* ![](assets/extsignal_expression_editor.png): bewerkingsexpressies waarin variabelen en functies worden gecombineerd (zie [deze pagina](../../automating/using/advanced-expression-editing.md)).
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
    Deze lijst verstrekt functies die u toestaan om het complexe filtreren uit te voeren. Deze functies worden beschreven in [deze sectie](../../automating/using/list-of-functions.md).
 
-   Bovendien kunt u de functies hieronder gebruiken, die in alle activiteiten beschikbaar zijn die u toestaan om gebeurtenisvariabelen te gebruiken na het roepen van een werkschema met externe parameters (zie [](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
+   Bovendien kunt u de functies hieronder gebruiken, die in alle activiteiten beschikbaar zijn die u toestaan om gebeurtenisvariabelen te gebruiken na het roepen van een werkschema met externe parameters (zie [deze sectie](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
    | Naam | Beschrijving | Syntaxis |
    ---------|----------|---------
