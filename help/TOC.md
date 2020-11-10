@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Help bij Adobe Campaign Standard Midden
 breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+source-git-commit: 424123972ae189d15a2282b6065190dac4a89d5d
 workflow-type: tm+mt
-source-wordcount: '1655'
-ht-degree: 98%
+source-wordcount: '1658'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,9 @@ ht-degree: 98%
    + [Verouderde functies](rn/using/deprecated-features.md)
 + Aan de slag {#getting-started}
    + [Informatie over Adobe Campaign Standard](start/using/about-campaign-standard.md)
-   + [Privacy en instemming](start/using/privacy.md)
+   + Privacy {#privacy}
+      + [Privacy en instemming](start/using/privacy.md)
+      + [Privacybeheer](start/using/privacy-management.md)
    + Kennismaken met de interface {#discovering-the-interface}
       + [Informatie over de interface](start/using/about-the-interface.md)
       + [Beschrijving van de interface](start/using/interface-description.md)
@@ -77,10 +79,10 @@ ht-degree: 98%
       + [Tips en trucs leren](sending/using/delivery-best-practices.md)
       + [Levering optimaliseren](sending/using/optimize-delivery.md)
       + [Sjablonen gebruiken](sending/using/use-templates.md)
-      + [Aangepaste inhoud maken](sending/using/design-and-personalize.md)
-      + [Het juiste publiek definiëren](sending/using/define-the-right-audience.md)
+      + [Gepersonaliseerde content maken](sending/using/design-and-personalize.md)
+      + [De juiste doelgroep definiëren](sending/using/define-the-right-audience.md)
       + [Controleren vóór verzending](sending/using/check-before-sending.md)
-      + [Track en monitor](sending/using/track-and-monitor.md)
+      + [Bijhouden en bewaken](sending/using/track-and-monitor.md)
    + E-mailberichten {#email-messages}
       + [Informatie over e-mails](channels/using/about-emails.md)
       + [Een e-mail maken](channels/using/creating-an-email.md)
