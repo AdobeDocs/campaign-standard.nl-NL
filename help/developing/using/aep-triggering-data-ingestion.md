@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 66417375168a9e4cbecdba71b1dcd94e844589c2
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 5%
@@ -57,8 +57,11 @@ De directe opname van een afbeelding XDM in Adobe Experience Platform wordt tewe
 >
 >Om ingest POST API vraag uit te voeren, moet de gebruiker een rol van de **SQL uitvoering** van de functie hebben, die door een beheerder van Campaign Standard door onder JS Manuscript kan worden verstrekt uit te voeren:
 >
->`var sqlRoleObj = REST.head.roleBase.sql.get();
-REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);`
+>
+```
+>var sqlRoleObj = REST.head.roleBase.sql.get();
+>REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
+>```
 
 De verrichting van de POST keert informatie betreffende de gecreeerde verzoekstatus terug:
 
@@ -105,7 +108,8 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 ```
 
 >[!NOTE]
-Gedetailleerde informatie over de status van de XDM-toewijzingsaanvraag en de bijbehorende taken is beschikbaar in de Campaign Standard-interface, in het **[!UICONTROL Status of data export to platform]** menu (zie [Toewijzing activeren](../../developing/using/aep-mapping-activation.md)).
+>
+>Gedetailleerde informatie over de status van de XDM-toewijzingsaanvraag en de bijbehorende taken is beschikbaar in de Campaign Standard-interface, in het **[!UICONTROL Status of data export to platform]** menu (zie [Toewijzing activeren](../../developing/using/aep-mapping-activation.md)).
 
 De bewerking GET retourneert de volgende informatie:
 
