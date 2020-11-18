@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 translation-type: tm+mt
-source-git-commit: 5667b18dfc9bceb52765d98d3c842d9aad1bc004
+source-git-commit: 18cd7a2956a16972b41a797e580cc68ac76abdc8
 workflow-type: tm+mt
-source-wordcount: '6235'
+source-wordcount: '6239'
 ht-degree: 98%
 
 ---
@@ -24,7 +24,7 @@ Naast de [release-opmerkingen](../../rn/using/release-notes.md) bij Adobe Campai
 
 ## November 2020 {#doc-updates-november-2020}
 
-De sectie Privacy is verplaatst en verrijkt met een nieuwe pagina: [Privacybeheer](../../start/using/privacy-management.md).
+De sectie Privacy is verplaatst en verrijkt met twee nieuwe pagina&#39;s: [Privacybeheer](../../start/using/privacy-management.md) en [Beheren privacyverzoeken](../../start/using/privacy-requests.md).
 
 ## Release 20.4 - oktober 2020 {#release-20-4---october-2020}
 
