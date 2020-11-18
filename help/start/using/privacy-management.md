@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 7f0af4deeaf641e2aded9278b97eb498edd85d08
+source-git-commit: 2dc4ac62e3b10753f7b8681d86cfe7f3b3a30a20
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 1%
+source-wordcount: '928'
+ht-degree: 0%
 
 ---
 
@@ -49,7 +49,7 @@ Om u te helpen uw privacy-gereedheid te vergemakkelijken, kunt u met Adobe Campa
 
 * Ook bekend als Data Erasure, geeft het **recht om te worden vergeten** (schrappingsverzoek) de betrokkene het recht om de verantwoordelijke voor de verwerking van de gegevens zijn/haar persoonsgegevens te laten wissen, de verdere verspreiding van de gegevens te beëindigen en mogelijk derden te laten stoppen met de verwerking van de gegevens.
 
-Raadpleeg de **implementatiestappen** voor meer informatie over het maken van **aanvragen voor toegang** en [verwijderen](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html)en hoe Adobe Campaign deze verwerkt.
+Raadpleeg de **implementatiestappen** voor meer informatie over het maken van **aanvragen voor toegang** en [verwijderen](../../start/using/privacy-requests.md#about-privacy-requests)en hoe Adobe Campaign deze verwerkt.
 
 Tutorials over privacybeheer in Campaign Standard zijn ook [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en#privacy)beschikbaar.
 
@@ -71,7 +71,7 @@ Adobe Campaign kent sinds het begin van zijn goedkeuring de kenmerken die het mo
 
 Zie [Informatie over abonnementen](../../audiences/using/about-subscriptions.md) en [Aan de slag met bestemmingspagina](../../channels/using/getting-started-with-landing-pages.md)voor meer informatie over het beheer van toestemming.
 
-Naast de hulpprogramma&#39;s voor het beheer van toestemming die Adobe Campaign biedt, kunt u nagaan of een consument heeft gekozen voor de verkoop van persoonlijke gegevens. Zie [deze sectie](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ccpa).
+Naast de hulpprogramma&#39;s voor het beheer van toestemmingen die Adobe Campaign biedt, kunt u nagaan of een consument heeft gekozen voor de verkoop van persoonlijke gegevens. Zie [deze sectie](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 ### Dataretentie {#data-retention}
 
