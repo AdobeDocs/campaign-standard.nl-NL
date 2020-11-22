@@ -1,25 +1,21 @@
 ---
-title: Aangepaste inhoud maken
-seo-title: Aangepaste inhoud maken
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
+solution: Campaign Standard
+product: campaign
+title: Gepersonaliseerde content maken
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 7%
+source-wordcount: '905'
+ht-degree: 8%
 
 ---
 
 
-# Aangepaste inhoud maken {#build-personalized-content}
+# Gepersonaliseerde content maken {#build-personalized-content}
 
 Probeer bij het ontwerpen van de inhoud van uw bericht algemene problemen te vermijden die ertoe kunnen leiden dat u de levering niet kunt uitvoeren. Meestal hebben mogelijke fouten te maken met [personalisatie](../../designing/using/personalization.md), opmaak bij [gebruik van bestaande inhoud](../../designing/using/using-existing-content.md) - en [conversie van HTML-inhoud](../../designing/using/using-existing-content.md#converting-an-html-content) - en [afbeeldingen](../../designing/using/images.md).
 
@@ -140,4 +136,4 @@ Om van buitenaf toegankelijk te zijn, moeten de beelden die in e-mail en openbar
 
 Adobe raadt u aan een voorbeeld van uw bericht te bekijken om na te gaan wat de personalisatie is en hoe de ontvangers uw bericht zullen bekijken.
 
-In de e-mailontwerper kunt u met de **[!UICONTROL Preview]** knop de rendering van elke inhoud voor een ontvanger weergeven. De verpersoonlijkingsgebieden en de voorwaardelijke elementen van inhoud worden vervangen met de overeenkomstige informatie voor het geselecteerde profiel. [Meer informatie](../../sending/using/previewing-messages.md)
+In de e-mailontwerper kunt u met de **[!UICONTROL Preview]** knop de rendering van elke inhoud voor een ontvanger bekijken. De verpersoonlijkingsgebieden en de voorwaardelijke elementen van inhoud worden vervangen met de overeenkomstige informatie voor het geselecteerde profiel. [Meer informatie](../../sending/using/previewing-messages.md)
