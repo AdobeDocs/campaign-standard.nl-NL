@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Doelgroep opslaan
 description: Met de activiteit Doelgroep opslaan kunt u een bestaande doelgroep bijwerken of een nieuwe doelgroep maken op basis van de populatie die stroomopwaarts in een workflow is berekend.
-page-status-flag: never-activated
-uuid: 8babb173-fa59-44a7-a2a5-49f45ba6bf99
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
 context-tags: saveAudience,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 100%
@@ -67,7 +64,6 @@ De activiteit **[!UICONTROL Save audience]** wordt hoofdzakelijk gebruikt om ber
       >[!NOTE]
       >
       >Deze optie is alleen beschikbaar als de functionaliteit voor gedeelde doelgroepen met Adobe Experience Cloud door uw beheerder is geconfigureerd. Voor meer informatie raadpleegt u [Werken met Campaign en de kernservice People](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
-
    Het type doelgroepen dat tijdens een update wordt opgeslagen of beschikbaar is, is afhankelijk van de activiteiten die stroomopwaarts in de workflow worden geplaatst.
 
    Als de doeldimensie van de doelgroep onbekend is wanneer deze wordt opgeslagen (bijvoorbeeld als deze afkomstig is van een geïmporteerd bestand), wordt de doelgroep gemaakt of bijgewerkt als een doelgroep van het type **[!UICONTROL File]**.
