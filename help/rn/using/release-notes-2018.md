@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Opmerkingen bij de releases in 2018
 description: Deze pagina bevat een overzicht van alle releases van Adobe Campaign Standard in 2018.
-page-status-flag: never-activated
-uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '5400'
 ht-degree: 6%
@@ -280,7 +277,7 @@ _Workflows_
 
 * Verbeterd geheugenbeheer en geoptimaliseerde prestaties in workflows.
 
-_Rapportage_
+_Rapporten_
 
 * De workflow voor het delen van een PKI haalt nu leveringswaarden op voor de laatste twee maanden in plaats van de laatste zes maanden. Probleem verholpen waarbij voor KPI-delen externe account afgebroken datums werden weergegeven.
 * Probleem verholpen waarbij bepaalde berichten niet in aanmerking werden genomen bij **verzending**, **levering** en **** prijsstelling.
