@@ -1,19 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Berichtlevering optimaliseren
-seo-title: Berichtlevering optimaliseren
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '732'
 ht-degree: 6%
 
 ---
@@ -29,7 +25,7 @@ In de volgende sectie worden aanbevolen procedures en aanbevolen procedures voor
 
 Verschillende factoren kunnen de serverprestaties rechtstreeks beïnvloeden en het platform vertragen:
 
-* Het aantal en het type van verpersoonlijkingselementen: personalisatie in e-mailberichten haalt gegevens uit de database voor elke ontvanger. Als er vele verpersoonlijkingselementen zijn, verhoogt dat de hoeveelheid gegevens nodig om de levering voor te bereiden.  Meer informatie over e-mailpersonalisatie vindt u in [deze sectie](../../designing/using/personalization.md)
+* Het aantal en het type van verpersoonlijkingselementen: personalisatie in e-mailberichten haalt gegevens uit de database voor elke ontvanger. Als er vele verpersoonlijkingselementen zijn, verhoogt dat de hoeveelheid gegevens nodig om de levering voor te bereiden.  Learn more about email personalization in [this section](../../designing/using/personalization.md)
 
 * De server wordt geladen: als Campagne vele verschillende taken tezelfdertijd behandelt, kan het prestaties vertragen. De server moet alle inkomende en uitgaande gegevens voor alle leveringen coördineren om ervoor te zorgen dat de gegevens correct en op tijd zijn.
 
