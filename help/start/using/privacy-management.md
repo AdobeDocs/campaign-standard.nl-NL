@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Privacybeheer in Adobe Campaign Standard
 description: Meer weten over de Adobe Campaign Standard-functies voor het beheer van privacy?
-page-status-flag: never-activated
-uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 2dc4ac62e3b10753f7b8681d86cfe7f3b3a30a20
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 0%
@@ -71,7 +68,7 @@ Adobe Campaign kent sinds het begin van zijn goedkeuring de kenmerken die het mo
 
 Zie [Informatie over abonnementen](../../audiences/using/about-subscriptions.md) en [Aan de slag met bestemmingspagina](../../channels/using/getting-started-with-landing-pages.md)voor meer informatie over het beheer van toestemming.
 
-Naast de hulpprogramma&#39;s voor het beheer van toestemmingen die Adobe Campaign biedt, kunt u nagaan of een consument heeft gekozen voor de verkoop van persoonlijke gegevens. Zie [deze sectie](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
+Naast de hulpprogramma&#39;s voor het beheer van toestemming die Adobe Campaign biedt, kunt u nagaan of een consument heeft gekozen voor de verkoop van persoonlijke gegevens. Zie [deze sectie](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 ### Dataretentie {#data-retention}
 
