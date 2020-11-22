@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Aan de slag met dynamische rapporten
 description: Met dynamische rapporten, sleep en laat vallen variabelen en dimensies in uw vrije vormmilieu en analyseer het succes van uw campagnes.
-page-status-flag: never-activated
-uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 5%
@@ -73,7 +70,7 @@ In de onderstaande tabel ziet u wat er gebeurt als deze overeenkomst wordt gewei
 | Regio | Dynamische rapportage | Microsoft Dynamics 365-connector |
 |---|---|---|
 | Amerika en APAC (Azië-Stille Oceaan) | **Functie beschikbaar**. <br> Geen informatie over out-of-the-box &amp; aangepaste profielen die naar het rapportcentrum van de V.S. wordt geduwd met uitzondering van ExternalID. | **Functie beschikbaar**. <br>Er worden geen buiten-de-box of aangepaste profielvelden verzonden naar het Amerikaanse datacenter, met uitzondering van de externe id en de ontvanger-id. <br>Alle Adobe Campaign Standard-gebeurtenisvelden die worden verwerkt in het Amerikaanse datacenter, met uitzondering van de ID van de spiegel. <br>Voor meer informatie over de integratie van de Dynamiek 365 van Microsoft, verwijs naar deze [pagina](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
-| EMEA (Europa, Midden-Oosten en Afrika) | **Functie beschikbaar**. <br>Geen informatie over out-of-the-box en aangepaste profielen doorgegeven aan het EMEA-rapportagecentrum, met uitzondering van ExternalID. | **Functie beschikbaar.** <br>Geen velden met een out-of-the-box- of aangepast profiel die naar het EMEA-datacenter worden verzonden, met uitzondering van de externe id en de ontvanger-id. <br>Alle Adobe Campaign Standard-gebeurtenissenvelden die in het EMEA-datacenter worden verwerkt, met uitzondering van de mirror page ID.  <br>**[!UICONTROL Control data]**die Adobe I/O-registratiegegevens en id&#39;s van gebruikersgebeurtenissen voor eindgebruikers van de klant bevat die in het Amerikaanse datacenter worden verzonden en opgeslagen.<br>Voor meer informatie over de integratie van de Dynamiek 365 van Microsoft, verwijs naar deze[pagina](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
+| EMEA (Europa, Midden-Oosten en Afrika) | **Functie beschikbaar**. <br>Geen informatie over out-of-the-box en aangepaste profielen doorgegeven aan het EMEA-rapportagecentrum, met uitzondering van ExternalID. | **Functie beschikbaar.** <br>Geen velden met een out-of-the-box- of aangepast profiel die naar het EMEA-datacenter worden verzonden, met uitzondering van de externe id en de ontvanger-id. <br>Alle Adobe Campaign Standard-gebeurtenissenvelden die in het EMEA-datacenter worden verwerkt, met uitzondering van de mirror page ID.  <br>**[!UICONTROL Control data]**die Adobe I/O-registratiegegevens en id&#39;s van gebruikersgebeurtenissen voor eindgebruikers van de klant bevat die in het Amerikaanse datacenter worden verzonden en opgeslagen.<br>Voor meer informatie over de integratie van de Dynamiek 365 van Microsoft, verwijs naar deze [pagina](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md). |
 
 Deze optie is niet definitief. U kunt deze altijd wijzigen door **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** in **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]** te selecteren.
 
