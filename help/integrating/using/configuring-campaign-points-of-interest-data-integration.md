@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: De integratie van Campaign en Point of Interest-data configureren
 description: Leer hoe u de functie Punten met interessegegevens in Adobe Campaign configureert om persoonlijke berichten te verzenden op basis van de locatie van uw abonnees.
-page-status-flag: never-activated
-uuid: 0689a06c-cc1a-442f-95b8-a07fcec85d79
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-discoiquuid: a967c6cc-c53b-41b4-866b-90860d78f463
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1340'
 ht-degree: 3%
@@ -180,7 +177,7 @@ U definieert de interessepunten die worden gebruikt om locatiegegevens te verzam
 1. Ga naar de Adobe Mobile Services interface.
 1. Voeg uw toepassing toe.
 
-   Raadpleeg de documentatie bij [Mobiele](https://docs.adobe.com/content/help/en/mobile-services/using/manage-apps-ug/t-new-app.html)Adobe-services voor meer informatie over het beheer van toepassingen in Mobile Services.
+   Raadpleeg de documentatie bij [Mobiele services van](https://docs.adobe.com/content/help/en/mobile-services/using/manage-apps-ug/t-new-app.html)Adobe voor meer informatie over het beheer van toepassingen in Mobile Services.
 
 1. Definieer de interessepunten.
 
