@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Informatie over abonnementen
 description: Ontdek meer over services en abonnementen in Campaign Standard.
-page-status-flag: never-activated
-uuid: b0263e40-f910-49f2-a138-0a1302aeeec6
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 53%
@@ -41,7 +38,7 @@ Voer de onderstaande stappen uit om een abonnementsmechanisme te maken:
 1. **Abonnementen** controleren - ontdek verscheidene manieren om abonnementen op uw dienst [in deze sectie te controleren](../../audiences/using/monitoring-subscriptions.md)
 1. **Abonnementen** bevestigen - volg [deze zelfstudie](../../audiences/using/confirming-subscription-to-a-service.md) om een bevestigingsbericht voor een abonnement te verzenden
 
-## Aanvullende resources
+## Aanvullende bronnen
 
 * [Hoofdlettergebruik: Incrementele query op abonnees van een service](../../automating/using/incremental-query-on-subscribers.md)
 * [Hoofdlettergebruik: Meerdere abonnementstatussen bijwerken vanuit een bestand](../../automating/using/updating-subscriptions-from-file.md)
