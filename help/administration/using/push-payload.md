@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Begrijpen met de Payload Structuur van Campaign Standard-pushberichten
 description: Dit document is bedoeld om de structuur van de lading te beschrijven die in mobiele toepassingen wordt ontvangen.
-page-status-flag: never-activated
-uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 3%
@@ -81,7 +78,7 @@ De attributen en hun waarden van de nuttige lading zullen variëren gebaseerd op
     "_mId":"h138a"} 
 ```
 
-**JSON-voorbeeldlading voor gebruik met[iOS APNS Tester](https://pushtry.com/)**
+**JSON-voorbeeldlading voor gebruik met [iOS APNS Tester](https://pushtry.com/)**
 
 ```
 {
@@ -155,7 +152,7 @@ In de documenten voor ontwikkelaars van Apple vindt u gedetailleerde informatie 
 }
 ```
 
-**JSON-voorbeeldlading voor gebruik van[Google FCM-tester](https://pushtry.com/)**
+**JSON-voorbeeldlading voor gebruik van [Google FCM-tester](https://pushtry.com/)**
 
 ```
 {
