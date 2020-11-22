@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Privacy en toestemming in Adobe Campaign Standard
 description: In dit gedeelte wordt een overzicht gegeven van privacy, persoonsgegevens en toestemmingsbeheer in Adobe Campaign Standard en van de instrumenten die beschikbaar zijn om deze te verwerken.
-page-status-flag: never-activated
-uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 7f0af4deeaf641e2aded9278b97eb498edd85d08
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1456'
 ht-degree: 3%
@@ -91,7 +88,7 @@ Wanneer het integreren van Campagne met andere oplossingen van Experience Cloud 
 
 Met Adobe Campaign kunt u gegevens verzamelen, waaronder persoonlijke en vertrouwelijke informatie. Het is daarom van essentieel belang dat u de toestemming van uw ontvangers ontvangt en controleert.
 
-* Heb altijd ontvangers overeenkomen om mededelingen te ontvangen. Om dit te doen, moet u zo snel mogelijk aan de &quot;opt-out&quot;-verzoeken blijven voldoen en moet u de toestemming controleren via een &quot;double opt-in&quot;-proces. Zie Optie- en [opt-out beheren in Campagne](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md) en een dubbel opt-in-proces [](../../channels/using/setting-up-a-double-opt-in-process.md)instellen voor meer informatie hierover.
+* Heb altijd ontvangers overeenkomen om mededelingen te ontvangen. Om dit te doen, moet u zo snel mogelijk aan de &quot;opt-out&quot;-verzoeken blijven voldoen en moet u de instemming controleren via een &quot;double opt-in&quot;-proces. Zie Optie- en [opt-out beheren in Campagne](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md) en een dubbel opt-in-proces [](../../channels/using/setting-up-a-double-opt-in-process.md)instellen voor meer informatie hierover.
 * Importeer geen frauduleuze lijsten en gebruik geen overvullingen om te controleren of uw clientbestand niet frauduleus wordt gebruikt. Zie [Overvullen](../../sending/using/using-traps.md)gebruiken voor meer informatie.
 * Via toestemmings- en rechtenbeheer kunt u de voorkeuren van uw ontvangers bijhouden en beheren wie binnen uw organisatie toegang heeft tot welke gegevens. Zie [deze sectie](#consent)voor meer informatie.
 * De privacyverzoeken van uw ontvangers faciliteren en beheren. Zie [deze sectie](#privacy-requests)voor meer informatie.
