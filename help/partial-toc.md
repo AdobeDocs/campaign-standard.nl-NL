@@ -1,24 +1,15 @@
 ---
-cloud: experience-cloud
-product: adobe-campaign-standard
-audience: all
-user-guide-title: Handboek Campaign Standard
-user-guide-url: https://www.adobe.com
-solution-title: Campaign Standard
-solution-hub-url: https://helpx.adobe.com/nl/support/campaign/standard.html
-solution-image: assets/experience-cloud-logo-24.png
-getting-started-title: Aan de slag
-getting-started-url: https://helpx.adobe.com/campaign/standard/start/user-guide.html
-tutorials-title: Tutorials23
-tutorials-url: https://helpx.adobe.com/nl/campaign/tutorials.html
-other-title: Tutorials2
-other-url: https://helpx.adobe.com/campaign/tutorials.html
-git-repo: https://git.corp.adobe.com/AdobeDocs/campaign-standard.nl-NL
+keywords: Campaign Standard;home;popular topics
+solution: Campaign Standard
+product: campaign
+title: Adobe Campaign Standard-productdocumentatie
+description: Bladeren door productdocumentatie van Campaign Standard
+topic: Premium
 translation-type: tm+mt
-source-git-commit: b80197491b45cff46273e1a41e3dfb7a939f96c5
+source-git-commit: 189cd93d12dfd7838dae87dd4c8de19c10926ce6
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 100%
+source-wordcount: '30'
+ht-degree: 83%
 
 ---
 
