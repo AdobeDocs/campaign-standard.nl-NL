@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Een e-mail met A/B-testfunctie ontwerpen
 description: Ontdek de A/B-testfunctionaliteit en voer de volgende stappen uit om een e-mail op te stellen op basis van een A/B-testsjabloon in Adobe Campaign.
-page-status-flag: never-activated
-uuid: 104f6973-68a7-4692-a90a-a5570a980ec7
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 100%
