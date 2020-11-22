@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Aangepaste bronnen van Campaign en aangepaste Dynamics 365-entiteiten toewijzen
 description: Leer hoe u bronnen en entiteiten in kaart brengt in de context van de integratie tussen Adobe Campaign Standard en Microsoft Dynamics 365.
-page-status-flag: never-activated
-uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 9%
@@ -50,6 +47,6 @@ Wanneer het vormen van de gegevensstromen van de douaneentiteit, is het belangri
 
 * (Ervan uitgaande dat **1 cardinaliteit een eenvoudige koppeling** is in Campagne) Als de onderliggende record wordt bijgewerkt of verwijderd in Dynamics 365 en die wijziging wordt geschreven naar Campagne voordat de bovenliggende record wordt weergegeven in Campaign (niet waarschijnlijk, maar een externe mogelijkheid), wordt die update of verwijdering niet verwerkt in Campagne en wordt een fout gegenereerd. In het geval van een update moet de betreffende record opnieuw worden bijgewerkt in Dynamics 365 om de bijgewerkte record te synchroniseren. In geval van schrapping moet de betrokken record afzonderlijk aan de campagnezijde worden vermeld, aangezien er geen record meer is in Dynamics 365 om te verwijderen of bij te werken.
 
-* Als u in een situatie terechtkomt waarin u denkt dat u kindverslagen hebt verborgen en geen manier om tot hen toegang te hebben, kunt u het type van kardinale verbinding in **0 of 1 kardinaliteit eenvoudige verbinding** tijdelijk veranderen om tot die verslagen toegang te hebben.
+* Als u in een situatie terechtkomt waarin u denkt dat u kindverslagen hebt verborgen en geen manier om tot hen toegang te hebben, kunt u het type van de kardinaalverbinding tijdelijk veranderen in **0 of 1 kardinaliteit eenvoudige verbinding** om tot die verslagen toegang te hebben.
 
 Een uitgebreider overzicht van aangepaste campagnebronnen vindt u [in deze sectie](../../developing/using/key-steps-to-add-a-resource.md).
