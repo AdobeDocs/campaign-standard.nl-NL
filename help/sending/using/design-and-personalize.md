@@ -136,4 +136,4 @@ Om van buitenaf toegankelijk te zijn, moeten de beelden die in e-mail en openbar
 
 Adobe raadt u aan een voorbeeld van uw bericht te bekijken om na te gaan wat de personalisatie is en hoe de ontvangers uw bericht zullen bekijken.
 
-In de e-mailontwerper kunt u met de **[!UICONTROL Preview]** knop de rendering van elke inhoud voor een ontvanger bekijken. De verpersoonlijkingsgebieden en de voorwaardelijke elementen van inhoud worden vervangen met de overeenkomstige informatie voor het geselecteerde profiel. [Meer informatie](../../sending/using/previewing-messages.md)
+In de e-mailontwerper kunt u met de **[!UICONTROL Preview]** knop de rendering van elke inhoud voor een ontvanger weergeven. De verpersoonlijkingsgebieden en de voorwaardelijke elementen van inhoud worden vervangen met de overeenkomstige informatie voor het geselecteerde profiel. [Meer informatie](../../sending/using/previewing-messages.md)
