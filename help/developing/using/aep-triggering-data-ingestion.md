@@ -54,8 +54,7 @@ De directe opname van een afbeelding XDM in Adobe Experience Platform wordt tewe
 >
 >Om ingest POST API vraag uit te voeren, moet de gebruiker een rol van de **SQL uitvoering** van de functie hebben, die door een beheerder van Campaign Standard door onder JS Manuscript kan worden verstrekt uit te voeren:
 >
->
-```
+>```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
