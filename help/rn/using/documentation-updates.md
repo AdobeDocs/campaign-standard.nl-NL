@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
 workflow-type: tm+mt
-source-wordcount: '6239'
-ht-degree: 98%
+source-wordcount: '6311'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,12 @@ Naast de [release-opmerkingen](../../rn/using/release-notes.md) bij Adobe Campai
 ## November 2020 {#doc-updates-november-2020}
 
 De sectie Privacy is verplaatst en verrijkt met twee nieuwe pagina&#39;s: [Privacybeheer](../../start/using/privacy-management.md) en [Beheren privacyverzoeken](../../start/using/privacy-requests.md).
+
+Er is informatie toegevoegd aan de sectie Adobe Experience Platform Data Connector over de validatiefout voor gegevenstoewijzing die betrekking heeft op privacybeheer en hoe u problemen kunt oplossen. [Meer informatie](../../developing/using/aep-mapping-activation.md)
+
+De sectie Persoonlijke Gegevens en Persona&#39;s is bijgewerkt met een gebruiksscenario om te illustreren hoe de verschillende personen interactie hebben wanneer het over Privacy aankomt. [Meer informatie](../../start/using/privacy.md#use-case-scenario)
+
+Er is een nieuwe sectie toegevoegd met veelgestelde vragen over privacy. [Meer informatie](../../start/using/privacy-faq.md)
 
 ## Release 20.4 - oktober 2020 {#release-20-4---october-2020}
 
