@@ -1,21 +1,21 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Privacy en toestemming in Adobe Campaign Standard
-description: In dit gedeelte wordt een overzicht gegeven van privacy, persoonsgegevens en toestemmingsbeheer in Adobe Campaign Standard en van de instrumenten die beschikbaar zijn om deze te verwerken.
+title: Privacy en instemming
+description: Meer informatie over privacy, persoonsgegevens en toestemmingsbeheer in Adobe Campaign Standard
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: c76f4b6e3bc0feb50e5776836552fdceaff61ea7
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 3%
+source-wordcount: '1657'
+ht-degree: 2%
 
 ---
 
 
-# Privacy and Consent{#privacy-and-consent}
+# Privacy and Consent {#privacy-and-consent}
 
 ## Algemene aanbevelingen {#general-recommendations}
 
@@ -37,7 +37,7 @@ Werken binnen de wetgeving die van toepassing is op de regio(s) waar u actief be
 
 >[!NOTE]
 >
->Zie [deze sectie](../../start/using/privacy-management.md#privacy-management-regulations)voor meer informatie over hoe GDPR, CCPA en PDPA van toepassing zijn op Adobe Campaign.
+>Zie [deze sectie](../../start/using/privacy-management.md#privacy-management-regulations)voor meer informatie over hoe GDPR, CCPA, PDPA en LGPD van toepassing zijn op Adobe Campaign.
 
 ### Adobe Experience Cloud privacy {#experience-cloud-privacy}
 
@@ -75,6 +75,8 @@ Bij het beheren van Privacy, is het belangrijk om te bepalen welke gegevens met 
 * **Persoonsgegevens** zijn informatie die direct of indirect een levende persoon kan identificeren.
 * **Gevoelige persoonsgegevens** zijn gegevens over ras, politieke opvattingen, godsdienstige overtuiging, criminele achtergrond, genetische informatie, gezondheidsgegevens, seksuele voorkeur, biometrische informatie en lidmaatschap van een vakvereniging.
 
+Wanneer het integreren van Campagne met andere oplossingen van Experience Cloud waar het publiek van één systeem aan een andere, zoals de dienst [van de Doelen van het](../../audiences/using/aep-about-audience-destinations-service.md)Publiek, [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), de [Audience Manager of de kerndienst](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)van het Mensen, of met andere oplossingen zoals de Dynamica 365 [van](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)Microsoft kan worden overgebracht, moet u extra zorg aan persoonlijke gegevensbescherming betalen.
+
 De [belangrijkste verordeningen](#privacy-regulations) verwijzen naar de verschillende entiteiten die gegevens beheren als volgt:
 * Een **gegevenscontroller** is de instantie die de middelen en het doel van het verzamelen, gebruiken en delen van persoonsgegevens bepaalt.
 * Een **gegevensprocessor** is een persoon of partij die persoonlijke gegevens verzamelt, gebruikt of deelt op de wijze die door de gegevenscontroller wordt aangegeven.
@@ -82,13 +84,37 @@ De [belangrijkste verordeningen](#privacy-regulations) verwijzen naar de verschi
 
 Als bedrijf dat persoonlijke gegevens verzamelt en deelt, bent u dus de Data Controller, zijn uw klanten de Data Subjects en Adobe Campaign fungeert als een Data Processor bij het verwerken van hun persoonlijke gegevens op de door u aangegeven wijze. Merk op dat het uw verantwoordelijkheid als Controlemechanisme van Gegevens is om de verhouding met de Onderwerpen van Gegevens te behandelen zoals wanneer het beheren van [privacyverzoeken](#privacy-requests).
 
-Wanneer het integreren van Campagne met andere oplossingen van Experience Cloud waar het publiek van één systeem aan een andere, zoals de dienst [van de Doelen van het](../../audiences/using/aep-about-audience-destinations-service.md)Publiek, [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), de [Audience Manager of de kerndienst](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)van het Mensen, of met andere oplossingen zoals de Dynamica 365 [van](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)Microsoft kan worden overgebracht, moet u extra zorg aan persoonlijke gegevensbescherming betalen.
+### Hoofdscenario gebruiken {#use-case-scenario}
+
+Om te illustreren hoe de verschillende personen met elkaar communiceren, is dit een voorbeeld van een GDPR-gebruiksgeval op hoog niveau.
+
+In dit voorbeeld is een luchtvaartmaatschappij de klant van Adobe Campaign. Dit bedrijf is de **Data Controller** en alle klanten van het luchtvaartbedrijf zijn **Data Subjects**. Laura is in dit specifieke geval een klant van de luchtvaartmaatschappij.
+
+Hier volgen de verschillende personen die in dit voorbeeld worden gebruikt:
+
+* **Laura** is het **onderwerp** Data. Zij is de ontvanger die berichten van de luchtvaartmaatschappij ontvangt. Laura kan vaak vliegen, maar kan op een gegeven moment besluiten dat ze geen gepersonaliseerde reclame- of marketingberichten van de luchtvaartmaatschappij wil. Ze zal de luchtvaartmaatschappij (op basis van hun proces) vragen haar frequent flyer nummer te verwijderen.
+
+* **Anne** is de **Data Controller** bij de luchtvaartmaatschappij. Ze ontvangt het verzoek van Laura, haalt nuttige id&#39;s op die zijn gevraagd om het onderwerp te identificeren en verzendt het verzoek in Adobe Campaign.
+
+* **Adobe Campaign** is de **Data Processor**.
+
+![](assets/privacy-gdpr-flow.png)
+
+Hier volgt de algemene stroom voor dit geval van gebruik:
+
+1. Het **Gegevenssubject** (Laura) verzendt een GDPR-verzoek naar de **Data Controller**, via e-mail, klantenservice of een webportaal.
+
+1. De **Datacontrole** (Bijlage) duwt het GDPR- verzoek aan Campagne via de interface of het gebruiken van API.
+
+1. Zodra de **Gegevensverwerker** (Adobe Campaign) de informatie ontvangt, neemt het actie op het GDPR- verzoek en verzendt een antwoord of erkenning naar de **Datacontrole** (Bijlage).
+
+1. Het **Controlemechanisme** van Gegevens (Anne) herziet dan de informatie en verzendt het terug naar het **Onderwerp** van Gegevens (Laura).
 
 ## Gegevensverwerving {#data-acquisition}
 
 Met Adobe Campaign kunt u gegevens verzamelen, waaronder persoonlijke en vertrouwelijke informatie. Het is daarom van essentieel belang dat u de toestemming van uw ontvangers ontvangt en controleert.
 
-* Heb altijd ontvangers overeenkomen om mededelingen te ontvangen. Om dit te doen, moet u zo snel mogelijk aan de &quot;opt-out&quot;-verzoeken blijven voldoen en moet u de instemming controleren via een &quot;double opt-in&quot;-proces. Zie Optie- en [opt-out beheren in Campagne](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md) en een dubbel opt-in-proces [](../../channels/using/setting-up-a-double-opt-in-process.md)instellen voor meer informatie hierover.
+* Heb altijd ontvangers overeenkomen om mededelingen te ontvangen. Om dit te doen, moet u zo snel mogelijk aan de &quot;opt-out&quot;-verzoeken blijven voldoen en moet u de toestemming controleren via een &quot;double opt-in&quot;-proces. Zie Optie- en [opt-out beheren in Campagne](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md) en een dubbel opt-in-proces [](../../channels/using/setting-up-a-double-opt-in-process.md)instellen voor meer informatie hierover.
 * Importeer geen frauduleuze lijsten en gebruik geen overvullingen om te controleren of uw clientbestand niet frauduleus wordt gebruikt. Zie [Overvullen](../../sending/using/using-traps.md)gebruiken voor meer informatie.
 * Via toestemmings- en rechtenbeheer kunt u de voorkeuren van uw ontvangers bijhouden en beheren wie binnen uw organisatie toegang heeft tot welke gegevens. Zie [deze sectie](#consent)voor meer informatie.
 * De privacyverzoeken van uw ontvangers faciliteren en beheren. Zie [deze sectie](#privacy-requests)voor meer informatie.
@@ -123,17 +149,9 @@ Adobe Campaign biedt extra mogelijkheden om u te helpen uw bereidheid als Data C
 
 * Het **recht om te worden vergeten** (schrappingsverzoek) geeft de betrokkene het recht om zijn/haar persoonlijke gegevens te laten wissen door de verantwoordelijke voor de verwerking.
 
->[!NOTE]
->
->Deze reeks hulpmiddelen is hier om u met uw privacynaleving voor GDPR, CCPA, en PDPA te helpen. Zie [deze sectie](../../start/using/privacy-management.md#privacy-management-regulations)voor meer informatie over deze verschillende verordeningen.
+De verzoeken **om toegang** en **schrapping** worden voorgesteld in [deze sectie](../../start/using/privacy-management.md#right-access-forgotten).
 
-<!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
-
-* **CCPA** (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
-
-* **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
-
-De **verzoeken om toegang** en **om verwijderen** worden weergegeven op [deze pagina](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess). De implementatiestappen voor het maken van deze aanvragen worden gedetailleerd weergegeven op [deze pagina](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). Tutorials zijn ook [hier](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html)beschikbaar.
+De implementatiestappen voor het maken van deze aanvragen worden in [deze sectie](../../start/using/privacy-requests.md)beschreven. Tutorials zijn ook [hier](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html)beschikbaar.
 
 ## Traceermogelijkheden {#tracking-capabilities}
 
