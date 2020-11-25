@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3a4e8628b916291244d142d9cc4a6a84b799502b
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 1%
+source-wordcount: '478'
+ht-degree: 0%
 
 ---
 
@@ -39,9 +39,29 @@ Als u alle taken voor het exporteren van gegevens wilt controleren, gaat u naar 
 
 ![](assets/aep_statusmapping.png)
 
-Status van gegevensinvoer:
+De statussen van gegevensinvoer zijn:
 
 * **[!UICONTROL Created]**: Er wordt een gegevensinnametaak gemaakt en er worden gegevens ingevoerd.
 * **[!UICONTROL Failed]**: Een gegevensinvoertaak is mislukt. Het redengebied beschrijft de reden voor de mislukking. Een fout kan tijdelijk of permanent zijn. In het geval van voorbijgaande mislukkingen, wordt een nieuwe innametaak gecreeerd na een gevormd interval. Als eerste stap aan het oplossen van problemen, kan de gebruiker het redengebied van de mislukking controleren. Als de reden een gebruiker aan Adobe Experience Platform UI opnieuw richt, kan de gebruiker login aan Adobe Experience Platform en de partijstatus in de dataset controleren om nauwkeurige mislukkingsreden te bepalen.
 * **[!UICONTROL Uploaded]**: Er wordt eerst een batch gemaakt in Adobe Experience Platform en vervolgens worden gegevens aan de batch toegevoegd. In het veld Batch-id wordt de batch-id voor de batch weergegeven in Adobe Experience Platform. Adobe Experience Platform voert ook een postvalidatie uit op de batch. De batch wordt eerst gemarkeerd als geüpload totdat Adobe Experience Platform de stap voor na de validatie voltooit. Een baan houdt Adobe Experience Platform voor de status van de partij na het uploaden te pollen. Een batch kan worden uitgevoerd in Mislukt of in Successtatus na validatie in Adobe Experience Platform.
 * **[!UICONTROL Success]**: Nadat een batch naar Adobe Experience Platform is geüpload, wordt de status van de taak (na validatie op het platform) gecontroleerd na een geconfigureerd interval. Een status &quot;Success&quot; stelde vast dat gegevens met succes werden ingevoerd in Adobe Experience Platform.
+
+In sommige gevallen krijgt u de onderstaande validatiefout bij het publiceren van uw toewijzing.
+
+![](assets/aep_datamapping_ccpa.png)
+
+Dit gebeurt wanneer het XDM-schema dat u gebruikt, niet is bijgewerkt met het nieuwste XDM-veld voor privacybeheer en nog steeds het vervangen XDM-veld &quot;ccpa&quot; bevat.
+
+Ga als volgt te werk om het XDM-schema bij te werken:
+
+1. Ga naar de dataset op Adobe Experience Platform gebruikend de verbinding aanwezig op de XDM toewijzingspagina.
+
+1. Navigeer naar uw XDM-schema.
+
+1. Voeg de mix ‘Provile Privacy’ toe aan het schema.
+
+   ![](assets/aep_datamapping_privacyfield.png)
+
+1. Sla het schema op en publiceer de toewijzing opnieuw. De publicatie moet nu overgaan.
+
+   ![](assets/aep_save_mapping.png)
