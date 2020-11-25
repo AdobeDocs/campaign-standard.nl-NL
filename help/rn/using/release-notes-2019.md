@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3523a067e4fc4b1d22159fc93171fd1e0b32f05c
 workflow-type: tm+mt
-source-wordcount: '7624'
+source-wordcount: '7622'
 ht-degree: 8%
 
 ---
@@ -304,7 +304,7 @@ Introduceerde een reeks verbeteringen en correcties om fragmenten te optimaliser
  <tbody> 
   <tr> 
    <td> Configuratiescherm<br /> </td> 
-   <td> <p>Om uw werk als Admin-gebruiker efficiënter te maken, kunt u eenvoudig de capaciteit controleren en de instellingen van uw instanties beheren (te beginnen met SFTP-serverbeheer).</p><p>Raadpleeg voor meer informatie de <a href="https://docs.adobe.com/content/help/nl-NL/control-panel/using/control-panel-home.html">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/control-panel/control-panel-overview.html">Hoe kan ik-video</a>.</p></td> 
+   <td> <p>Om uw werk als Admin-gebruiker efficiënter te maken, kunt u eenvoudig de capaciteit controleren en de instellingen van uw instanties beheren (te beginnen met SFTP-serverbeheer).</p><p>Raadpleeg voor meer informatie de <a href="https://docs.adobe.com/content/help/nl-NL/control-panel/using/control-panel-home.html">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">Hoe kan ik-video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Lokale meldingen<br /> </td> 
