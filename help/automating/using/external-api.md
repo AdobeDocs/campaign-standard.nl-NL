@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
 workflow-type: tm+mt
-source-wordcount: '2269'
-ht-degree: 100%
+source-wordcount: '2156'
+ht-degree: 98%
 
 ---
 
@@ -38,19 +38,13 @@ De belangrijkste kenmerken van deze activiteit zijn:
 
 ### Berichten over compatibiliteit met oudere versies {#from-beta-to-ga}
 
-Met de release Campaign Standard 20.4 zijn de groottelimieten voor http-responsdata en de responstime-outbeveiligingen verlaagd in overeenstemming met best practices (zie de sectie Beperkingen en beveiligingen). Deze beveiligingswijzigingen gelden niet voor bestaande Externe API-activiteiten; daarom wordt u aangeraden bestaande Externe API-activiteiten in alle workflows te vervangen door nieuwe versies.
-
-Als u een upgrade uitvoert van Campaign Standard 20.2 (of eerder), moet u er rekening mee houden dat de Externe API-functionaliteit in de release Campaign Standard 20.3 is verplaatst van bèta naar algemene beschikbaarheid.
-
-Als u bèta-activiteiten voor Externe API gebruikte, dient u deze dus te vervangen door GA-activiteiten voor Externe API in alle workflows.  Workflows die de bètaversie van een Externe API gebruiken, werken niet vanaf de release Campaign Standard 20.3.
+With the Campaign Standard 20.4 release, the http response data size limit and response timeout guardrails have been lowered to align with best practices - see [Limitations and guardrails](#guardrails). Deze beveiligingswijzigingen gelden niet voor bestaande Externe API-activiteiten; daarom wordt u aangeraden bestaande Externe API-activiteiten in alle workflows te vervangen door nieuwe versies.
 
 Wanneer u activiteiten voor Externe API vervangt, voegt u de nieuwe activiteit Externe API toe aan de workflow, kopieert u handmatig de configuratiedetails en verwijdert u vervolgens de oude activiteit.
 
 >[!NOTE]
 >
 >U kunt niet over activiteitspecifieke koptekstwaarden heen kopiëren omdat deze binnen de activiteit gemaskeerd zijn.
-
-Vervolgens configureert u opnieuw andere activiteiten in de workflow die verwijzen naar en/of gebruik maken van data uit de bèta-activiteit voor Externe API om in plaats daarvan te verwijzen naar en/of gebruik te maken van data uit de nieuwe activiteit Externe API. Voorbeelden van activiteiten: e-maillevering (personalisatievelden), verrijkingsactiviteit, enz.
 
 ### Beperkingen en beveiligingen {#guardrails}
 
