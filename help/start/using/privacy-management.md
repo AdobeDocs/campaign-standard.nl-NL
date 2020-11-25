@@ -7,9 +7,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,39 @@ ht-degree: 0%
 
 # Privacybeheer {#privacy-management}
 
-Adobe Campaign biedt een reeks hulpmiddelen aan om u te helpen aan de verordeningen van de Privacy (met inbegrip van GDPR, CCPA, PDPA, LGPD) voldoen.
+Adobe Campaign offers a set of tools to help you comply with [Privacy regulations](#privacy-management-regulations) (including GDPR, CCPA, PDPA, LGPD).
 
-* In dit gedeelte wordt algemene informatie gegeven over wat het privacybeheer is en over de functies die Adobe Campaign biedt om het [recht op toegang en het recht om te worden vergeten](#right-access-forgotten)te beheren.
+Hier volgen de vijf belangrijkste mogelijkheden die Adobe Campaign biedt om ervoor te zorgen dat de GDPR en andere privacyregels klaar zijn:
 
-* Het bevat ook informatie over belangrijke functies voor het beheer van privacy ([toestemming, gegevensbewaring en gebruikersrollen](#consent-retention-roles)), en tips en trucs om u te helpen bij het naleven van uw privacyregels wanneer u Adobe Campaign gebruikt.
+![](assets/privacy-gdpr-use-cases.png)
+
+* **Recht op toegang**
+
+* **Rechts om te verwijderen**
+
+Zie [Recht op toegang en Recht op vergeten](#right-access-forgotten)voor meer informatie.
+
+* **Toegangsbeheer**
+
+* **Dataretentie**
+
+* **Rechtenbeheer**
+
+Zie [Toestemming, Behoud en Rollen](#consent-retention-roles)voor meer informatie.
+
+<!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
+
+It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
 
 ## Regels inzake privacybeheer {#privacy-management-regulations}
 
 Met Adobe Campaign-mogelijkheden kunt u voldoen aan de volgende regels:
 
-* **GDPR** ([algemene gegevensbeschermingsverordening](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) is de privacywet van de Europese Unie die de gegevensbeschermingsvereisten voor de landen van de EU harmoniseert en moderniseert.
+* **GDPR** ([algemene gegevensbeschermingsverordening](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) is de privacywet van de Europese Unie die de gegevensbeschermingsvereisten voor de landen van de EU harmoniseert en moderniseert. Volg de onderstaande koppelingen voor algemene informatie over GDPR:
+
+   * https://www.adobe.com/privacy/general-data-protection-regulation.html
+   * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
+
 * **CCPA** ([California Consumer Privacy Act](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;titel=1.81.5.&amp;part=4.&amp;hoofdstuk=&amp;artikel=)) biedt inwoners van Californië nieuwe rechten met betrekking tot hun persoonlijke gegevens en legt verantwoordelijkheden op het gebied van gegevensbescherming op aan bepaalde entiteiten die zaken in Californië doen.
 * **PDPA** ([Personal Data Protection Act](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)) is de nieuwe privacywet die de vereisten inzake gegevensbescherming voor Thailand harmoniseert en moderniseert.
 * **De LGPD** ([Lei Geral de Proteção de Dados](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)) zal begin 2021 van kracht worden voor alle bedrijven die in Brazilië persoonsgegevens verzamelen of verwerken.
@@ -49,6 +71,10 @@ Om u te helpen uw privacy-gereedheid te vergemakkelijken, kunt u met Adobe Campa
 Raadpleeg de **implementatiestappen** voor meer informatie over het maken van **aanvragen voor toegang** en [verwijderen](../../start/using/privacy-requests.md#about-privacy-requests)en hoe Adobe Campaign deze verwerkt.
 
 Tutorials over privacybeheer in Campaign Standard zijn ook [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en#privacy)beschikbaar.
+
+>[!NOTE]
+>
+>Voor meer informatie over persoonsgegevens en over de verschillende entiteiten die gegevens beheren (Data Controller, Data Processor en Data Subject), zie [Persoonsgegevens en Persoonlijke personen](../../start/using/privacy.md#personal-data).
 
 ## Toestemming, bewaring en rollen {#consent-retention-roles}
 
