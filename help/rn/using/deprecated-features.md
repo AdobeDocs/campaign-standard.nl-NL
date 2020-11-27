@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: c4c6c854b749ff937ac0dea482db92c57c7a3683
+source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 16%
@@ -49,7 +49,7 @@ Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik 
    <td> <p> Vanaf release 20.1 is SDK v4 afgekeurd. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Meer informatie</a>.</p><br/>
    <p>De <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (voorheen v5 genoemd) biedt uitsluitend ondersteuning voor toekomstige Adobe Experience Cloud-functies en -functionaliteit.</p></br>
      <p>
-     <em>Doeldatum verwijdering: 30 september 2020</em></p>
+     <em>Doeldatum verwijdering: 31 augustus 2021</em></p>
      </td> 
   </tr> 
  </tbody> 
