@@ -1,8 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Campaign Standard Verouderde en verwijderde functies
-description: Deze pagina bevat een lijst met vervangen en verwijderde functies van Adobe Campaign Standard.
+title: Afgeschafte en verwijderde functies van Campaign Standard
+description: Deze pagina bevat de afgeschafte en verwijderde functies van Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
@@ -10,33 +10,33 @@ translation-type: tm+mt
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 16%
+ht-degree: 90%
 
 ---
 
 
-# Vervangen en verwijderde functies {#deprecated-and-removed-features}
+# Afgeschafte en verwijderde functies {#deprecated-and-removed-features}
 
 Adobe evalueert voortdurend de productmogelijkheden om oudere functies te identificeren die door modernere alternatieven zouden moeten worden vervangen om de algehele klantwaarde te verbeteren. Hierbij wordt altijd zorgvuldig rekening gehouden met achterwaartse compatibiliteit.
 
-Om de dreigende verwijdering/vervanging van de mogelijkheden van Campaign Standard mee te delen, zijn de volgende regels van toepassing:
+Voor het meedelen van de aanstaande verwijdering/vervanging van mogelijkheden van Campaign Standard gelden de volgende regels:
 
-* De aankondiging van de afschaffing komt eerst. Hoewel verouderde mogelijkheden nog steeds beschikbaar kunnen zijn voor bestaande gebruikers, worden ze niet verder uitgebreid of gedocumenteerd.
+* De aankondiging van de afschaffing komt eerst. Hoewel afgeschafte mogelijkheden nog steeds beschikbaar kunnen zijn voor bestaande gebruikers, worden ze niet verder uitgebreid of gedocumenteerd.
 * Verouderde functies worden op zijn vroegst uit de volgende release verwijderd. De werkelijke doeldatum voor verwijdering wordt op deze pagina aangekondigd.
 
 Dit proces biedt klanten minstens één releasecyclus om hun implementatie aan een nieuwe versie of opvolger van een vervangen mogelijkheid aan te passen vóór de daadwerkelijke verwijdering.
 
 >[!NOTE]
->Adobe Campaign Standard-releases en nieuwe mogelijkheden worden vermeld in de [Opmerkingen bij de release](../../rn/using/release-notes.md).
+>Adobe Campaign-releases en nieuwe mogelijkheden worden vermeld in de [release-opmerkingen](../../rn/using/release-notes.md).
 
 
-## Verouderde functies {#deprecated-features}
+## Afgeschafte functies {#deprecated-features}
 
-Deze sectie maakt een lijst van eigenschappen en mogelijkheden die als verouderd met recentste versies van Campaign Standard zijn gemerkt.
+Deze sectie bevat een lijst met functies en mogelijkheden die zijn gemarkeerd als afgeschaft in de nieuwste Campaign Standard-releases.
 
-In het algemeen worden functies die in een toekomstige versie moeten worden verwijderd, eerst vervangen door een alternatief. Deze eigenschappen en mogelijkheden zijn of niet meer beschikbaar voor nieuwe klanten van Campaign Standard, of zouden niet voor om het even welke nieuwe implementatie moeten worden gebruikt. Ze worden ook verwijderd uit de productdocumentatie.
+In het algemeen worden functies die in een toekomstige versie moeten worden verwijderd, eerst ingesteld op afgeschaft, waarbij een alternatief wordt aangeboden. Deze functies en mogelijkheden zijn niet meer beschikbaar voor nieuwe Campaign Standard-klanten, of ze mogen niet worden gebruikt voor nieuwe implementaties. Ze worden ook verwijderd uit de productdocumentatie.
 
-Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik maken van de functie/mogelijkheid en plannen te maken om hun implementatie te wijzigen en het geboden alternatief te gebruiken. Raadpleeg de versie voor doelverwijdering om uw omgeving en projectupdates dienovereenkomstig te plannen.
+Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikmaken van de functie of mogelijkheid en om plannen te maken voor een wijziging in hun implementatie zodat het alternatief wordt gebruikt. Bekijk in welke versie de verwijdering plaatsvindt om uw omgeving en projectupdates dienovereenkomstig te plannen.
 
 <table> 
  <thead> 
@@ -46,8 +46,8 @@ Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Vanaf release 20.1 is SDK v4 afgekeurd. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Meer informatie</a>.</p><br/>
-   <p>De <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (voorheen v5 genoemd) biedt uitsluitend ondersteuning voor de komende Adobe Experience Cloud-functies en -functionaliteit.</p></br>
+   <td> <p> Vanaf release 20.1 is SDK v4 afgeschaft. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Meer informatie</a>.</p><br/>
+   <p>De <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (vroeger v5 genoemd) ondersteunt uitsluitend nieuwe Adobe Experience Cloud-functies.</p></br>
      <p>
      <em>Doeldatum verwijdering: 31 augustus 2021</em></p>
      </td> 
@@ -57,13 +57,13 @@ Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Privacy-aanvragen - Campagne-API en -interface</strong><br /> </th> 
+   <th> <strong>Privacyverzoeken - Campaign-API en -interface</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Vanaf de release van Campagne 19.4 is het gebruik van de campagne-API en de interface voor toegangs- en verwijderingsverzoeken afgekeurd. De profielverwijdering in twee stappen is niet beschikbaar. Gebruik <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
-   <p>Zie ook <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Privacy-aanvragen beheren</a>.</p>
+   <td> <p>Sinds Campaign 19.4 is het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken afgeschaft. De profielverwijdering in twee stappen is niet beschikbaar. Gebruik de <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy-kernservice</a>.</p></br>
+   <p>Zie ook <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Verzoeken om toegang tot persoonsgegevens beheren</a>.</p>
   <p> 
   <em>Doeldatum voor verwijdering: 2021</em></p>
    </td> 
@@ -79,8 +79,8 @@ Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Vanaf de release Campagne 19.0 is de oude e-maileditor afgekeurd. Met <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campagne voor e-mailontwerpen</a> kunt u uw e-mailinhoud maken en aanpassen. </p></br>
-   <p>Lees <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">deze sectie</a> om te leren hoe te om uw e-mailmalplaatjes voor de nieuwe redacteur aan te passen.</p></br>
+   <td> <p>Vanaf Campaign 19.0 is de verouderde e-maileditor afgeschaft. Met <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campagne voor e-mailontwerpen</a> kunt u uw e-mailinhoud maken en aanpassen. </p></br>
+   <p>Lees <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">deze sectie</a> om te ontdekken hoe u uw e-mailsjablonen voor de nieuwe editor kunt aanpassen.</p></br>
   <p> 
   <em>Doeldatum verwijdering: eind 2021</em></p>
    </td> 
@@ -96,7 +96,7 @@ Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Vanaf release 18.7 zijn geografische eenheden afgekeurd. Organisatorische en geografische eenheden zijn identieke constructies in Campaign. Gebruikers moeten alleen Organizationele eenheden gebruiken om hun gebruikerstoestemming/gegevenstoegangshiërarchie samen te stellen. <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html">Meer informatie</a>. Houd er rekening mee dat deze functie niet kan worden geïmplementeerd vanaf de release 18.7 voor nieuwe Campaign Standard-exemplaren en bestaande exemplaren zonder gemaakte geografische eenheden.</p>
+   <td> <p>Vanaf release 18.7 zijn geografische eenheden afgeschaft. Organisatie-eenheden en geografische eenheden zijn in Campaign identieke constructies. Gebruikers moeten uitsluitend organisatie-eenheden gebruiken om hun gebruikerstoestemming/gegevenstoegangshiërarchie samen te stellen. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=nl#administrating">Meer informatie</a>. Houd er rekening mee dat vanaf release 18.7 deze functie niet meer kan worden geïmplementeerd voor nieuwe Campaign Standard-instanties of voor bestaande instanties waarin geen geografische eenheden zijn gemaakt.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -109,12 +109,12 @@ Deze sectie bevat een lijst met functies en mogelijkheden die uit Campaign Stand
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Propensatiescore met Experience Cloud-triggers</strong><br /> </th> 
+   <th> <strong>Propensiteitscore bij Experience Cloud-triggers</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>De <b>Propensiteitsscore</b> is gedeactiveerd uit Adobe Experience Cloud-triggers. Deze optie is daarom uit Adobe Campaign Standard verwijderd. Om om het even welke verouderde waarden van de score van de Volheid in de schema's van de Verrijking te vermijden, adviseren wij het bijwerken van schema's om de recentste veranderingen terug te winnen en bestaande Trekkers opnieuw te publiceren. Raadpleeg <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html"> Een trigger publiceren in Campagne </a> voor meer informatie.
+   <td> <p>De <b>propensiteitscore</b> is uit de Adobe Experience Cloud-triggers verwijderd. Deze optie is daarom ook uit Adobe Campaign Standard verwijderd. Om verouderde waarden van de propensiteitscore in de verrijkingsschema's te vermijden, raden we u aan de schema's bij te werken voor het ophalen van de nieuwste wijzigingen en het opnieuw publiceren van bestaande triggers. Raadpleeg <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html"> Trigger publiceren in Campaign</a> voor meer informatie.
 </p></br>
    </td> 
   </tr> 
@@ -129,7 +129,7 @@ Deze sectie bevat een lijst met functies en mogelijkheden die uit Campaign Stand
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK] is uit bedrijf genomen. Als gevolg hiervan is de afbeeldingseditie met de functie [!DNL Creative SDK] in e-mails met Campaign Standard niet meer beschikbaar vanaf de release van Campagne 20.2.</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] is uit bedrijf genomen. Daardoor is de afbeeldingseditie die werd aangestuurd door [!DNL Creative SDK] in Campaign Standard-e-mails niet meer beschikbaar vanaf Campaign-versie 20.2.</p></br>
    </td> 
   </tr> 
  </tbody> 
@@ -145,7 +145,7 @@ Deze sectie bevat een lijst met functies en mogelijkheden die uit Campaign Stand
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Campaign en Adobe Experience Cloud hebben de ondersteuning voor Microsoft Internet Explorer 11 vanaf het voorjaar van 2019 en de release Campagne 19.2 ingetrokken. Schakel over naar Microsoft Edge of een andere ondersteunde browser. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html">Meer informatie</a>.</p>
+   <td> <p>Adobe Campaign en Adobe Experience Cloud bieden sinds het voorjaar van 2019 en Campaign-versie 19.2 geen ondersteuning meer voor Microsoft Internet Explorer 11. Schakel over naar Microsoft Edge of een andere ondersteunde browser. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html">Meer informatie</a>.</p>
    </td> 
   </tr> 
  </tbody> 
