@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Alle releasedatums kunnen worden gewijzigd. We raden u aan deze pagina regelmati
 
 **NIEUW!** Abonneer u op [Campaign Standard-releasemeldingen](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) om details over aankomende releases rechtstreeks in uw inbox te krijgen.
 
-## Release 21.1 - Release {#release-21-1-release} februari
+## Release 21.1 - Release van februari {#release-21-1-release}
 
 Updates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. Gedetailleerde informatie over deze release is te vinden in de [Release-opmerkingen](../../rn/using/release-notes.md). Neem contact op met [Adobe Client Care](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) als u nog vragen hebt.
 
@@ -45,7 +45,7 @@ Updates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s.
   </tr>
   <tr>
    <td> Productie<br /> </td>
-   <td>1 feb - 8, 2021<br /> </td>
+   <td>1 - 8 februari 2021<br /> </td>
   </tr>
  </tbody>
 </table>
