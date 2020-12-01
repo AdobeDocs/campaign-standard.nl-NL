@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '452'
 ht-degree: 98%
 
 ---
@@ -27,7 +27,7 @@ Alle releasedatums kunnen worden gewijzigd. We raden u aan deze pagina regelmati
 
 **NIEUW!** Abonneer u op [Campaign Standard-releasemeldingen](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) om details over aankomende releases rechtstreeks in uw inbox te krijgen.
 
-## Release 21.1 - Release van februari {#release-21-1-release}
+## Release 21.1 - Release {#release-21-1-release} februari
 
 Updates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. Gedetailleerde informatie over deze release is te vinden in de [Release-opmerkingen](../../rn/using/release-notes.md). Neem contact op met [Adobe Client Care](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) als u nog vragen hebt.
 
@@ -41,11 +41,11 @@ Updates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s.
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>25 jan. 27 januari 2021<br /> </td>
+   <td>25 - 27 januari 2021<br /> </td>
   </tr>
   <tr>
    <td> Productie<br /> </td>
-   <td>1 feb. - 8 feb. 2021<br /> </td>
+   <td>1 feb - 8, 2021<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -54,7 +54,7 @@ Updates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s.
 
 **V: Wat is de impact?**
 
-A: Wijzigingen worden vermeld in de [Release-opmerkingen](../../rn/using/release-notes.md), waaronder koppelingen naar gerelateerde documentatie. Adobe raadt ook aan de pagina [Verouderde en verwijderde functies](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/deprecated-features.html) te raadplegen. Deze pagina&#39;s zijn op de upgradedatum van de Stage-omgeving beschikbaar voor de nieuwe release.
+A: Wijzigingen worden vermeld in de [Release-opmerkingen](../../rn/using/release-notes.md), waaronder koppelingen naar gerelateerde documentatie. Adobe raadt ook aan de pagina [Verouderde en verwijderde functies](../../rn/using/deprecated-features.md) te raadplegen. Deze pagina&#39;s zijn op de upgradedatum van de Stage-omgeving beschikbaar voor de nieuwe release.
 
 **V: Wat is het validatieproces?**
 
