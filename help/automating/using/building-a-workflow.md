@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 100%
+source-wordcount: '983'
+ht-degree: 96%
 
 ---
 
@@ -36,10 +36,11 @@ U kunt overgangen openen om te controleren of de verzonden data correct zijn tij
 
 ![](assets/workflow_overview.png)
 
-
 ## Een workflow maken {#creating-a-workflow}
 
 U kunt een workflow maken op basis van een programma, een campagne of de lijst met marketingactiviteiten.
+
+![](assets/do-not-localize/how-to-video.png) [Ontdek hoe u een workflow kunt maken in video](#video)
 
 Het maken van een marketingactiviteit wordt gedetailleerd beschreven in de sectie [Marketingactiviteiten maken](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
@@ -67,14 +68,13 @@ Het maken van een marketingactiviteit wordt gedetailleerd beschreven in de secti
 
 1. Bevestig het maken van de activiteit. Het dashboard voor die activiteit wordt dan weergegeven. Raadpleeg de sectie [Workflowinterface](../../automating/using/workflow-interface.md) voor meer informatie.
 
-1. Zodra de workflow klaar is om te worden geconfigureerd, kunt u toegang krijgen tot extra opties door op de knop **[!UICONTROL Edit properties]** te klikken. U kunt bijvoorbeeld een specifieke tijdzone definiëren die standaard in alle activiteiten van de workflow moet worden gebruikt. Standaard is de tijdzone van de workflow de tijdzone die is gedefinieerd voor de huidige Campaign-operator.
+1. Zodra de workflow klaar is om te worden geconfigureerd, kunt u toegang krijgen tot extra opties door op de knop **[!UICONTROL Edit properties]** te klikken.
+
+   U kunt bijvoorbeeld een specifieke tijdzone definiëren die standaard in alle activiteiten van de workflow moet worden gebruikt. Standaard is de tijdzone van de workflow de tijdzone die is gedefinieerd voor de huidige Campaign-operator.
+
+   Raadpleeg [deze pagina](../../automating/using/managing-execution-options.md) voor meer informatie over de eigenschappen van workflows.
 
    ![](assets/workflow_properties.png)
-
-**Verwant onderwerp:**
-
-* Video [Een workflow maken](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)
-* [Workfloweigenschappen](../../automating/using/managing-execution-options.md)
 
 ## Activiteiten toevoegen en koppelen {#adding-and-linking-activities}
 
@@ -130,3 +130,11 @@ Standaard zijn de activiteiten niet ingesteld en worden de data niet correct ver
 1. Definieer alle verschillende opties die u nodig hebt om de data te verwerken. Raadpleeg de specifieke sectie over de activiteit in deze documentatie voor meer informatie over de mogelijke opties voor elke activiteit.
 1. Sla de activiteit op en herhaal deze bewerkingen voor elke activiteit van de workflow.
 1. Sla de workflow op.
+
+## Video over zelfstudie {#video}
+
+In deze video wordt getoond hoe u een workflow kunt maken.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+Er zijn [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl) extra Campaign Standard hoe kan ik-video&#39;s beschikbaar.
