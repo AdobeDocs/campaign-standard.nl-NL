@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 96%
+source-wordcount: '1216'
+ht-degree: 95%
 
 ---
 
@@ -24,6 +24,8 @@ Met Adobe Campaign kunt u een set rollen toewijzen aan uw gebruikers om te bepal
 De specifieke rollen en de bijbehorende machtigingen worden in de volgende secties nader beschreven: [inzicht in rollen](../../administration/using/list-of-roles.md) en [machtigingen](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
 Beheerders kunnen gebruikers beheren via Admin Console. Gebruikers worden dan automatisch gesynchroniseerd met Adobe Campaign. Raadpleeg de documentatie bij de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/users.html) voor meer informatie.
+
+![](assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#video)
 
 Als u gebruikers in Adobe Campaign wilt weergeven, klikt u op het **[!UICONTROL Adobe Campaign]**-logo in de linkerbovenhoek en selecteert u **[!UICONTROL Administration > Users & Security > Users]**.
 
@@ -59,7 +61,7 @@ Functionele beheerders zijn gebruikers die toegang hebben tot de meest technisch
 
 >[!CAUTION]
 >
->Alleen functionele beheerders met **[!UICONTROL Administration]** rol en toegang tot **alle** eenheden hebben toegang tot verzendende logboeken, berichtlogboeken, trackinglogboeken, uitsluitingslogboeken, propositielogboeken en abonnementlogboeken. Een gebruiker zonder beheerdersrechten kan zich richten op deze logbestanden, maar begint met een gekoppelde tabel (profielen, levering).
+>Alleen functionele beheerders met **[!UICONTROL Administration]** rol en toegang tot **Alle** eenheden hebben toegang tot verzendende logboeken, berichtlogboeken, trackinglogboeken, uitsluitingslogboeken, propositielogboeken en abonnementlogboeken. Een gebruiker zonder beheerdersrechten kan zich richten op deze logbestanden, maar begint met een gekoppelde tabel (profielen, levering).
 
 Functionele beheerders zijn de enige gebruikers die toegang hebben tot het menu **[!UICONTROL Administration]** in de Adobe Campaign-interface. Aangezien deze gebruikers toegang nodig hebben tot de technische bronnen, kunt u de meer geavanceerde rollen aan hen toewijzen, zoals de kant-en-klare rollen **[!UICONTROL Administration]** en **[!UICONTROL Datamodel]**. Deze rollen worden gecombineerd in de **[!UICONTROL Administrators]** kant-en-klare beveiligingsgroep. Raadpleeg [deze sectie](../../administration/using/list-of-roles.md) voor meer informatie hierover.
 
@@ -151,3 +153,11 @@ Vervolgens kunt u controleren of de gebruiker correct is gesynchroniseerd met Ad
 1. Klik op **[!UICONTROL Save]**.
 
 Uw gebruiker kan nu aan de slag met Adobe Campaign Standard.
+
+## Zelfstudie-video (#video)
+
+In deze video ziet u hoe u toegangsrechten voor gebruikers beheert.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
+
+Er zijn [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl) extra Campaign Standard hoe kan ik-video&#39;s beschikbaar.
