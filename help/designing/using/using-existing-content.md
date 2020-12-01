@@ -7,16 +7,16 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 4%
+source-wordcount: '1212'
+ht-degree: 5%
 
 ---
 
 # Ontwerpen met bestaande inhoud {#designing-using-existing-content}
 
-## Selecting an existing content{#selecting-an-existing-content}
+## Bestaande inhoud selecteren{#selecting-an-existing-content}
 
 Adobe Campaign wordt geleverd met een set vooraf gedefinieerde inhoud die u helpt aan de slag te gaan. U kunt een van deze opties gebruiken. Als de inhoud van het bericht dat u wilt verzenden, buiten Adobe Campaign wordt voorbereid, kunt u het vanuit uw computer of een URL importeren.
 
@@ -24,19 +24,19 @@ Wanneer u een e-mail- of landingspagina maakt, kunt u desgewenst bestaande inhou
 
 >[!NOTE]
 >
->In de onderstaande afbeeldingen ziet u hoe u bestaande inhoud laadt met de [e-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md).
+>In de onderstaande afbeeldingen ziet u hoe u bestaande inhoud kunt laden met de [e-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. Open na het maken van de e-mail- of landingspagina de inhoud ervan.
-1. Klik op het pictogram Home om de **[!UICONTROL Email Designer]** startpagina te openen.
+1. Klik op het pictogram Home om de startpagina van **[!UICONTROL Email Designer]** te openen.
 
    ![](assets/des_loading_1.png)
 
 1. Selecteer de bron van de inhoud die u wilt laden:
 
-   * [Inhoudssjablonen](../../designing/using/using-reusable-content.md#content-templates): Klik op het **[!UICONTROL Templates]** tabblad.
-   * [Inhoud helemaal vanaf](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)het begin tot vers: Klik op de **[!UICONTROL Create]** knop.
-   * [Inhoud van uw computer als een ZIP- of HTML-bestand](#importing-content-from-a-file): Klik op de **[!UICONTROL Upload]** knop.
-   * [Inhoud van een bestaande URL](#importing-content-from-a-url) (alleen voor e-mails): Klik op de **[!UICONTROL Import from URL]** knop.
+   * [Inhoudssjablonen](../../designing/using/using-reusable-content.md#content-templates): Klik op het  **[!UICONTROL Templates]** tabblad.
+   * [Inhoud helemaal vanaf](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch) het begin tot vers: Klik op de  **[!UICONTROL Create]** knop.
+   * [Inhoud van uw computer als een ZIP- of HTML-bestand](#importing-content-from-a-file): Klik op de  **[!UICONTROL Upload]** knop.
+   * [Inhoud van een bestaande URL](#importing-content-from-a-url)  (alleen voor e-mails): Klik op de  **[!UICONTROL Import from URL]** knop.
 
    ![](assets/des_loading_2.png)
 
@@ -46,7 +46,7 @@ Wanneer u een e-mail- of landingspagina maakt, kunt u desgewenst bestaande inhou
 
    >[!NOTE]
    >
-   >In de [e-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md) wordt specifieke codering gebruikt. Standaard HTML-inhoud die naar Campagne is geüpload, moet overeenkomen met de verwachte codering om volledig compatibel te zijn met en te kunnen worden bewerkt vanuit de e-mailontwerper. Als de inhoud niet overeenkomt, wordt de inhoud geüpload in de [compatibiliteitsmodus](#compatibility-mode). Zie [deze sectie](#editing-existing-contents-with-the-email-designer)als u bestaande inhoud compatibel wilt maken.
+   >In de [e-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md) wordt specifieke codering gebruikt. Standaard HTML-inhoud die naar Campagne is geüpload, moet overeenkomen met de verwachte codering om volledig compatibel te zijn met en te kunnen worden bewerkt vanuit de e-mailontwerper. Als de inhoud niet overeenkomt, wordt de inhoud geüpload in [compatibiliteitsmodus](#compatibility-mode). Zie [deze sectie](#editing-existing-contents-with-the-email-designer) om bestaande inhoud compatibel te maken.
 
 **Verwante onderwerpen:**
 
@@ -55,17 +55,17 @@ Wanneer u een e-mail- of landingspagina maakt, kunt u desgewenst bestaande inhou
 
 ## Bestaande inhoud bewerken met de e-mailontwerper{#editing-existing-contents-with-the-email-designer}
 
-Als u de versiemogelijkheden van de [e-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md)volledig wilt benutten, moet de geüploade HTML specifieke tags bevatten die ervoor zorgen dat deze compatibel is met de WYSIWYG-editor.
+Als u de versiemogelijkheden van de [e-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md) volledig wilt benutten, moet uw geüploade HTML specifieke codering bevatten die ervoor zorgt dat deze compatibel is met de WYSIWYG-editor.
 
-Als de HTML deze codering geheel of gedeeltelijk niet heeft, wordt de inhoud geladen in de [compatibiliteitsmodus](#compatibility-mode).
+Als de HTML deze codering niet geheel of gedeeltelijk heeft, wordt de inhoud geladen in &#39; [compatibiliteitsmodus](#compatibility-mode)&#39;.
 
-Als u een bestaande externe inhoud volledig bewerkbaar wilt maken in de e-mailontwerper, raadpleegt u de sectie Een e-mail [ontwerpen met bestaande inhoud](../../designing/using/using-existing-content.md) .
+Als u een bestaande externe inhoud volledig bewerkbaar wilt maken in de E-mailontwerper, raadpleegt u de sectie [Een e-mail ontwerpen met bestaande inhoud](../../designing/using/using-existing-content.md).
 
-## Bestaande e-mailinhoud importeren {#importing}
+## Bestaande e-mailinhoud {#importing} importeren
 
-### Importing content from a file {#importing-content-from-a-file}
+### Inhoud importeren uit een bestand {#importing-content-from-a-file}
 
-Klik op de introductiepagina E-mail Designer op de **[!UICONTROL Upload]** knop om een bestand van uw computer te uploaden en bevestig het vervolgens.
+Klik op de introductiepagina E-mail Designer op de knop **[!UICONTROL Upload]** om een bestand van uw computer te uploaden en bevestig het vervolgens.
 
 Er zijn geen beperkingen op de ZIP-bestandsstructuur. Verwijzen naar HTML-bestanden moet echter relatief zijn en de boomstructuur van de ZIP-map respecteren.
 
@@ -78,12 +78,12 @@ De volgende indelingen worden ondersteund voor importeren:
 >
 >Voor e-mailinhoud raden we u aan om afzonderlijke HTML-bestanden met een opgenomen stijlpagina te importeren.
 
-#### Importing content from a URL {#importing-content-from-a-url}
+#### Inhoud importeren van een URL {#importing-content-from-a-url}
 
 Voordat u inhoud van een URL importeert, moet u controleren of aan de onderstaande vereisten wordt voldaan:
 
 * De inhoud moet openbaar zijn via deze URL.
-* Om veiligheidsredenen zijn alleen URL&#39;s toegestaan die beginnen met **[!UICONTROL https]** .
+* Om veiligheidsredenen zijn alleen URL&#39;s toegestaan die beginnen met **[!UICONTROL https]**.
 * Zorg ervoor dat alle bronnen (afbeeldingen, CSS) zijn ingesteld in absolute koppelingen en in HTTPS. Anders wordt de spiegel na het verzenden van de e-mail weergegeven zonder de bijbehorende bronnen. Hier volgt een voorbeeld van een absolute koppelingsdefinitie:
 
    ```
@@ -96,16 +96,18 @@ Voordat u inhoud van een URL importeert, moet u controleren of aan de onderstaan
 
 Ga als volgt te werk om bestaande inhoud van een URL op te halen:
 
-1. Selecteer de **[!UICONTROL Import from URL]** knop op de introductiepagina E-mail Designer.
+1. Selecteer op de introductiepagina E-mail Designer de knop **[!UICONTROL Import from URL]**.
 
    ![](assets/email_designer_importfromurl.png)
 
 1. Definieer de URL waarvan de inhoud wordt opgehaald.
 1. Klik op **[!UICONTROL Confirm]**.
 
-**Verwant onderwerp:**
+Ontdek deze functie in video.
 
-[Inhoud importeren vanuit een URL](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#Workingwithexistingcontent) -video
+>[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
+
+Er zijn [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl) extra Campaign Standard hoe kan ik-video&#39;s beschikbaar.
 
 ### Inhoud automatisch ophalen van een URL tijdens het voorbereiden {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
@@ -113,7 +115,7 @@ Wanneer u inhoud importeert vanaf een URL tijdens het voorbereiden van berichten
 
 Volg onderstaande stappen om inhoud op te halen tijdens het voorbereiden:
 
-1. Selecteer de **[!UICONTROL Content imported during preparation]** optie.
+1. Selecteer de optie **[!UICONTROL Content imported during preparation]**.
 
    ![](assets/email_designer_importfromurl2.png)
 
@@ -123,22 +125,22 @@ Volg onderstaande stappen om inhoud op te halen tijdens het voorbereiden:
    >
    >Bij deze stap moet geen rekening worden gehouden met de HTML-weergave in de inhoudseditor. Het zal in de voorbereidingsfase worden opgehaald.
 
-1. Als u een voorvertoning wilt weergeven van de URL-inhoud die is opgehaald, opent u het bericht nadat u het hebt gemaakt en klikt u op de **[!UICONTROL Preview]** knop.
+1. Als u een voorvertoning wilt weergeven van de URL-inhoud die is opgehaald, opent u het bericht nadat het is gemaakt en klikt u op de knop **[!UICONTROL Preview]**.
 
 Het is mogelijk om de externe URL te personaliseren waarvan de inhoud wordt opgehaald. Volg de onderstaande stappen om dit te doen:
 
-1. Klik op het e-maillabel boven aan het scherm om het **[!UICONTROL Properties]** tabblad E-mailontwerper te openen.
-1. Zoek het **[!UICONTROL Remote URL]** veld.
+1. Klik op het e-maillabel boven op het scherm om het tabblad E-mailontwerper **[!UICONTROL Properties]** te openen.
+1. Het veld **[!UICONTROL Remote URL]** zoeken.
 
    ![](assets/email_designer_importfromurl4.png)
 
 1. Voeg het gewenste verpersoonlijkingsveld, inhoudsblok of dynamische tekst in.
 
-   Met het **[!UICONTROL Current date - YYYYMMDD]** inhoudsblok kunt u bijvoorbeeld de datum van de dag invoegen.
+   Met het inhoudsblok **[!UICONTROL Current date - YYYYMMDD]** kunt u bijvoorbeeld de datum van de dag invoegen.
 
    >[!NOTE]
    >
-   >De beschikbare verpersoonlijkingsvelden zijn alleen gekoppeld aan **leveringskenmerken** (aanmaakdatum van e-mail, status, campagnelabel...).
+   >De beschikbare verpersoonlijkingsvelden zijn alleen gekoppeld aan **Delivery**-kenmerken (aanmaakdatum, status, campagnelabel..).
 
 ### Compatibiliteitsmodus {#compatibility-mode}
 
@@ -157,15 +159,15 @@ Wanneer inhoud wordt geladen in de compatibiliteitsmodus, kunt u nog steeds de v
 
 Andere wijzigingen, zoals het toevoegen van nieuwe secties aan uw e-mail of geavanceerde opmaak, moeten rechtstreeks in de broncode van de e-mail worden uitgevoerd via de HTML-modus.
 
-Zie [deze sectie](../../designing/using/using-existing-content.md)voor meer informatie over het converteren van een bestaande e-mail naar een e-mail die compatibel is met e-mail die compatibel is met e-mail met Designer.
+Zie [deze sectie](../../designing/using/using-existing-content.md) voor meer informatie over het converteren van een bestaande e-mail naar een e-mail die compatibel is met e-mail die compatibel is met e-mailprogramma&#39;s.
 
 **Verwant onderwerp**:
 
 * [Een e-mail maken](../../channels/using/creating-an-email.md)
-* [Introductievideo over e-mailontwerper](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=dut)
+* [Introductievideo over e-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Een geheel nieuwe e-mailinhoud ontwerpen](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## HTML-inhoud converteren {#converting-an-html-content}
+## HTML-inhoud {#converting-an-html-content} omzetten
 
 Als u een raamwerk van modulaire sjablonen en fragmenten wilt maken die u kunt combineren voor hergebruik in meerdere e-mails, kunt u uw e-mailHTML converteren naar een sjabloon voor e-mailontwerpen.
 
