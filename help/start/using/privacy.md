@@ -10,155 +10,155 @@ translation-type: tm+mt
 source-git-commit: c76f4b6e3bc0feb50e5776836552fdceaff61ea7
 workflow-type: tm+mt
 source-wordcount: '1657'
-ht-degree: 2%
+ht-degree: 81%
 
 ---
 
 
-# Privacy and Consent {#privacy-and-consent}
+# Privacy en toestemming {#privacy-and-consent}
 
 ## Algemene aanbevelingen {#general-recommendations}
 
-Adobe Campaign is een krachtig instrument voor het verzamelen en verwerken van zeer grote hoeveelheden gegevens, waaronder persoonlijke informatie en gevoelige gegevens. Daarom moet de privacy zorgvuldig worden beheerd.
+Adobe Campaign is een krachtige tool voor het verzamelen en verwerken van zeer grote hoeveelheden gegevens, waaronder persoonlijke informatie en gevoelige gegevens. Daarom moet privacy zorgvuldig worden beheerd.
 
-* Altijd verantwoordelijk en ethisch gebruik maken van persoonlijke informatie.
+* Ga altijd op verantwoordelijke en ethische wijze te werk bij het gebruik van persoonsgegevens.
 
-* Stuur geen ongewenste e-mail, pushberichten en SMS-berichten (&quot;spam&quot;). Adobe gelooft sterk in de beginselen van toestemmings marketing in het bevorderen van de waarde en loyaliteit van het klantenleven, en verbiedt daarom strikt het gebruik van Adobe Campaign in het verzenden van ongevraagde berichten.
+* Stuur geen ongewenste e-mails, pushberichten en sms-berichten (&quot;spam&quot;). Adobe gelooft sterk in de principes van permission marketing, in het bevorderen van customer lifetime value en in de loyaliteit van klanten, en verbiedt daarom strikt het gebruik van Adobe Campaign voor het verzenden van ongevraagde berichten.
 
-### Privacyregels {#privacy-regulations}
+### Privacywetgeving{#privacy-regulations}
 
-Werken binnen de wetgeving die van toepassing is op de regio(s) waar u actief bent, om de privacy correct te behandelen en persoonsgegevens te beheren. Deze verordeningen omvatten:
-* [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en) (Europese algemene gegevensbeschermingsverordening)
-* [DPA](https://www.gov.uk/data-protection) (tenuitvoerlegging door het Verenigd Koninkrijk van de GDPR)
+Werk binnen de wetgeving die geldt voor de regio(’s) waar u actief bent om privacy en persoonsgegevens correct te behandelen en te beheren. Het gaat bijvoorbeeld om de volgende wetgevingen:
+* [AVG](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en) (Algemene verordening gegevensbescherming)
+* [DPA](https://www.gov.uk/data-protection) (Britse implementatie van de AVG)
 * [Europese richtlijn betreffende privacy en elektronische communicatie](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219)
-* [CAN-SPAM Act](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business) (Amerikaanse wet tot vaststelling van de regels en vereisten voor commerciële e-mail)
-* [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;titel=1.81.5.&amp;part=4.&amp;hoofdstuk=&amp;artikel=) (California Consumer Privacy Act)
-* [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (Thailand Personal Data Protection Act)
+* [CAN-SPAM Act](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business) (Amerikaanse wetgeving over regels en vereisten voor commerciële e-mail)
+* [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=) (California Consumer Privacy Act)
+* [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/) (Thaise wet inzake de bescherming van persoonsgegevens)
 
 >[!NOTE]
 >
->Zie [deze sectie](../../start/using/privacy-management.md#privacy-management-regulations)voor meer informatie over hoe GDPR, CCPA, PDPA en LGPD van toepassing zijn op Adobe Campaign.
+>Zie [deze sectie](../../start/using/privacy-management.md#privacy-management-regulations) voor meer informatie over hoe GDPR, CCPA, PDPA en LGPD van toepassing zijn op Adobe Campaign.
 
-### Adobe Experience Cloud privacy {#experience-cloud-privacy}
+### Adobe Experience Cloud-privacy {#experience-cloud-privacy}
 
-Adobe Campaign maakt deel uit van de Adobe Experience Cloud-oplossingen. De manier waarop in Campaign met privacy wordt omgegaan, is in overeenstemming met de algemene Adobe Experience Cloud-beginselen, zoals:
+Adobe Campaign maakt deel uit van de Adobe Experience Cloud-oplossingen. De manier waarop in Campaign met privacy wordt omgegaan, volgt de algemene Adobe Experience Cloud-beginselen:
 
-* **Welke informatie wordt verzameld bij gebruik van Adobe Experience Cloud**
+* **Welke informatie wanneer wordt verzameld bij het gebruik van Adobe Experience Cloud**
 
-   Als bedrijf dat Adobe Experience Cloud-oplossingen gebruikt, kiest u welke gegevens u wilt verzamelen en naar uw Adobe Experience Cloud-account verzenden. Voorbeelden van de soorten informatie die kunnen worden verzameld zijn onder andere webbrowseractiviteiten, IP-adressen, locatiegegevens van mobiele apparaten, succespercentages van campagnes, items die zijn aangeschaft of in een winkelwagentje zijn geplaatst, enz.
+   Als bedrijf dat Adobe Experience Cloud-oplossingen gebruikt, bepaalt u welke gegevens u verzamelt en naar uw Adobe Experience Cloud-account verzendt. Voorbeelden van soorten informatie die mogelijk worden verzameld, zijn webbrowseractiviteiten, IP-adressen, locatiegegevens van mobiele apparaten, succespercentages van campagnes, items die zijn aangeschaft of in een winkelwagentje zijn geplaatst, enz.
 
    >[!NOTE]
    >
-   >Net als voor alle Adobe-producten verzamelt Campagne informatie over gebruikers van apps en websites. Zie het [Adobe-privacybeleid](https://www.adobe.com/privacy/policy.html)voor meer informatie.
+   >Net als alle andere Adobe-producten verzamelt Campaign informatie over gebruikers van apps en websites. Zie het [Adobe-privacybeleid](https://www.adobe.com/privacy/policy.html) voor meer informatie.
 
 * **Hoe Adobe Experience Cloud wordt gebruikt om informatie te verzamelen**
 
-   * Adobe Experience Cloud-oplossingen gebruiken cookies en vergelijkbare technologieën, zoals webbakens (ook wel tags of pixels genoemd), om u in staat te stellen informatie te verzamelen. Zie [deze sectie](#tracking-capabilities)voor meer informatie over cookies en trackingmogelijkheden met Adobe Campaign.
-   * U kunt ook Adobe Experience Cloud-technologieën gebruiken in uw mobiele apps. Zie [deze pagina](https://helpx.adobe.com/nl/campaign/kb/acs-mobile.html)voor meer informatie over het verzenden van mobiele leveringen met Campagne.
+   * Adobe Experience Cloud-oplossingen gebruiken cookies en vergelijkbare technologieën zoals webbakens (ook wel tags of pixels genoemd), waarmee u informatie kunt verzamelen. Zie [deze sectie](#tracking-capabilities) voor meer informatie over cookies en trackingmogelijkheden met Adobe Campaign.
+   * U kunt in uw mobiele apps ook Adobe Experience Cloud-technologieën gebruiken. Zie [deze pagina](https://helpx.adobe.com/nl/campaign/kb/acs-mobile.html) voor meer informatie over het verzenden van mobiele leveringen met Campaign.
 
-* **De privacyopties van uw gebruikers met betrekking tot uw gebruik van Adobe Experience Cloud**
+* **De privacyopties van uw gebruikers voor uw gebruik van Adobe Experience Cloud**
 
-   Adobe vraagt u om het privacybeleid van uw klanten te beschrijven:
+   Adobe vraagt u om uw klanten een privacybeleid te verstrekken waarin het volgende wordt beschreven:
 
-   * Je privacy-praktijken in verband met Adobe Experience Cloud
+   * Uw privacymethoden in verband met Adobe Experience Cloud
    * Hoe gebruikers hun voorkeuren kunnen instellen voor het verzamelen of gebruiken van hun gegevens in verband met Adobe Experience Cloud
 
    >[!NOTE]
    >
-   >Net als voor alle Adobe-producten kunnen Campagnegebruikers weigeren om informatie over hen te delen via apps en websites. Raadpleeg de veelgestelde vragen over [Adobe Experience Cloud-gebruiksgegevens voor meer informatie](https://www.adobe.com/privacy/experience-cloud-usage-info-faq.html).
+   >Net als bij alle Adobe-producten kunnen Campaign-gebruikers weigeren om verzamelde informatie over hen te delen via apps en websites. Raadpleeg de [Veelgestelde vragen over Adobe Experience Cloud-gebruiksgegevens](https://www.adobe.com/privacy/experience-cloud-usage-info-faq.html) voor meer informatie daarover.
 
-Zie [deze pagina](https://www.adobe.com/privacy/marketing-cloud.html)voor meer informatie over de Adobe Experience Cloud-privacy.
+Zie [deze pagina](https://www.adobe.com/privacy/marketing-cloud.html) voor meer informatie over de Adobe Experience Cloud-privacy.
 
-## Persoonlijke gegevens en personen {#personal-data}
+## Persoonsgegevens en persona&#39;s {#personal-data}
 
-Bij het beheren van Privacy, is het belangrijk om te bepalen welke gegevens met zorg en door wie moeten worden behandeld.
-* **Persoonsgegevens** zijn informatie die direct of indirect een levende persoon kan identificeren.
-* **Gevoelige persoonsgegevens** zijn gegevens over ras, politieke opvattingen, godsdienstige overtuiging, criminele achtergrond, genetische informatie, gezondheidsgegevens, seksuele voorkeur, biometrische informatie en lidmaatschap van een vakvereniging.
+Bij privacybeheer is het belangrijk om te bepalen welke gegevens met zorg moeten worden behandeld en door wie.
+* **Persoonsgegevens** omvatten informatie aan de hand waarvan een levende persoon direct of indirect kan worden geïdentificeerd.
+* **Gevoelige persoonsgegevens** zijn gegevens over etnische afkomst, politieke opvattingen, godsdienstige overtuiging, criminele achtergrond, genetische informatie, gezondheidsgegevens, seksuele voorkeur, biometrische informatie en lidmaatschap van een vakbond.
 
-Wanneer het integreren van Campagne met andere oplossingen van Experience Cloud waar het publiek van één systeem aan een andere, zoals de dienst [van de Doelen van het](../../audiences/using/aep-about-audience-destinations-service.md)Publiek, [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), de [Audience Manager of de kerndienst](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)van het Mensen, of met andere oplossingen zoals de Dynamica 365 [van](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)Microsoft kan worden overgebracht, moet u extra zorg aan persoonlijke gegevensbescherming betalen.
+Bij de integratie van Campaign met andere Experience Cloud-oplossingen waarbij doelgroepen kunnen worden overgezet van het ene systeem naar het andere zoals de [Audience Destinations-service](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager of de People-kernservice](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), of met andere oplossingen zoals [Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md), moet u extra aandacht besteden aan de bescherming van persoonsgegevens.
 
-De [belangrijkste verordeningen](#privacy-regulations) verwijzen naar de verschillende entiteiten die gegevens beheren als volgt:
+De [belangrijkste verordeningen](#privacy-regulations) betreffen de verschillende entiteiten die gegevens als volgt beheren:
 * Een **gegevenscontroller** is de instantie die de middelen en het doel van het verzamelen, gebruiken en delen van persoonsgegevens bepaalt.
-* Een **gegevensprocessor** is een persoon of partij die persoonlijke gegevens verzamelt, gebruikt of deelt op de wijze die door de gegevenscontroller wordt aangegeven.
-* Een **betrokkene** is een levende persoon wiens persoonsgegevens worden verzameld, gebruikt of gedeeld en die direct of indirect kan worden geïdentificeerd aan de hand van die persoonsgegevens.
+* Een **gegevensprocessor** is een persoon of partij die persoonsgegevens verzamelt, gebruikt of deelt op de manier die door de gegevenscontroller wordt aangegeven.
+* Een **betrokkene** is een levende persoon wiens persoonsgegevens worden verzameld, gebruikt of gedeeld en die aan de hand van deze persoonsgegevens direct of indirect kan worden geïdentificeerd.
 
-Als bedrijf dat persoonlijke gegevens verzamelt en deelt, bent u dus de Data Controller, zijn uw klanten de Data Subjects en Adobe Campaign fungeert als een Data Processor bij het verwerken van hun persoonlijke gegevens op de door u aangegeven wijze. Merk op dat het uw verantwoordelijkheid als Controlemechanisme van Gegevens is om de verhouding met de Onderwerpen van Gegevens te behandelen zoals wanneer het beheren van [privacyverzoeken](#privacy-requests).
+Als bedrijf dat persoonsgegevens verzamelt en deelt, bent u dus de gegevenscontroller, zijn uw klanten de betrokkenen en fungeert Adobe Campaign als gegevensprocessor bij het verwerken van deze persoonsgegevens op uw aanwijzingen. Als gegevenscontroller bent u verantwoordelijk voor de relatie met de betrokkenen, bijvoorbeeld bij het beheren van [verzoeken om toegang tot persoonsgegevens](#privacy-requests).
 
-### Hoofdscenario gebruiken {#use-case-scenario}
+### Hoofdscenario {#use-case-scenario} gebruiken
 
 Om te illustreren hoe de verschillende personen met elkaar communiceren, is dit een voorbeeld van een GDPR-gebruiksgeval op hoog niveau.
 
-In dit voorbeeld is een luchtvaartmaatschappij de klant van Adobe Campaign. Dit bedrijf is de **Data Controller** en alle klanten van het luchtvaartbedrijf zijn **Data Subjects**. Laura is in dit specifieke geval een klant van de luchtvaartmaatschappij.
+In dit voorbeeld is een luchtvaartmaatschappij de klant van Adobe Campaign. Dit bedrijf is de **Data Controller** en alle clients van het luchtvaartbedrijf zijn **Data Subjects**. Laura is in dit specifieke geval een klant van de luchtvaartmaatschappij.
 
 Hier volgen de verschillende personen die in dit voorbeeld worden gebruikt:
 
-* **Laura** is het **onderwerp** Data. Zij is de ontvanger die berichten van de luchtvaartmaatschappij ontvangt. Laura kan vaak vliegen, maar kan op een gegeven moment besluiten dat ze geen gepersonaliseerde reclame- of marketingberichten van de luchtvaartmaatschappij wil. Ze zal de luchtvaartmaatschappij (op basis van hun proces) vragen haar frequent flyer nummer te verwijderen.
+* **** Laurais is het  **onderwerp** Data. Zij is de ontvanger die berichten van de luchtvaartmaatschappij ontvangt. Laura kan vaak vliegen, maar kan op een gegeven moment besluiten dat ze geen gepersonaliseerde reclame- of marketingberichten van de luchtvaartmaatschappij wil. Ze zal de luchtvaartmaatschappij (op basis van hun proces) vragen haar frequent flyer nummer te verwijderen.
 
-* **Anne** is de **Data Controller** bij de luchtvaartmaatschappij. Ze ontvangt het verzoek van Laura, haalt nuttige id&#39;s op die zijn gevraagd om het onderwerp te identificeren en verzendt het verzoek in Adobe Campaign.
+* **** Anneis de  **Data** Control bij de luchtvaartmaatschappij. Ze ontvangt het verzoek van Laura, haalt nuttige id&#39;s op die zijn gevraagd om het onderwerp te identificeren en verzendt het verzoek in Adobe Campaign.
 
-* **Adobe Campaign** is de **Data Processor**.
+* **Adobe** Campaignis de  **Gegevensprocessor**.
 
 ![](assets/privacy-gdpr-flow.png)
 
 Hier volgt de algemene stroom voor dit geval van gebruik:
 
-1. Het **Gegevenssubject** (Laura) verzendt een GDPR-verzoek naar de **Data Controller**, via e-mail, klantenservice of een webportaal.
+1. Het **Gegevensonderwerp** (Laura) verzendt een GDPR-verzoek naar **Gegevenscontroller** via e-mail, klantenservice of een webportal.
 
-1. De **Datacontrole** (Bijlage) duwt het GDPR- verzoek aan Campagne via de interface of het gebruiken van API.
+1. Met **Gegevenscontroller** (bijlage) wordt het GDPR-verzoek via de interface of via een API naar Campagne gestuurd.
 
-1. Zodra de **Gegevensverwerker** (Adobe Campaign) de informatie ontvangt, neemt het actie op het GDPR- verzoek en verzendt een antwoord of erkenning naar de **Datacontrole** (Bijlage).
+1. Zodra de **Gegevensprocessor** (Adobe Campaign) de informatie ontvangt, neemt het actie op het GDPR-verzoek en verzendt een reactie of erkenning naar **Data Controller** (Bijlage).
 
-1. Het **Controlemechanisme** van Gegevens (Anne) herziet dan de informatie en verzendt het terug naar het **Onderwerp** van Gegevens (Laura).
+1. De **Gegevenscontroller** (Bijlage) controleert de informatie en stuurt deze terug naar **Gegevenssubject** (Laura).
 
-## Gegevensverwerving {#data-acquisition}
+## Gegevensacquisitie {#data-acquisition}
 
-Met Adobe Campaign kunt u gegevens verzamelen, waaronder persoonlijke en vertrouwelijke informatie. Het is daarom van essentieel belang dat u de toestemming van uw ontvangers ontvangt en controleert.
+Met Adobe Campaign kunt u gegevens verzamelen, waaronder persoonlijke en gevoelige informatie. Het is daarom van essentieel belang dat u de toestemming van uw ontvangers ontvangt en controleert.
 
-* Heb altijd ontvangers overeenkomen om mededelingen te ontvangen. Om dit te doen, moet u zo snel mogelijk aan de &quot;opt-out&quot;-verzoeken blijven voldoen en moet u de toestemming controleren via een &quot;double opt-in&quot;-proces. Zie Optie- en [opt-out beheren in Campagne](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md) en een dubbel opt-in-proces [](../../channels/using/setting-up-a-double-opt-in-process.md)instellen voor meer informatie hierover.
-* Importeer geen frauduleuze lijsten en gebruik geen overvullingen om te controleren of uw clientbestand niet frauduleus wordt gebruikt. Zie [Overvullen](../../sending/using/using-traps.md)gebruiken voor meer informatie.
+* Zorg ervoor dat ontvangers altijd toestemming geven voor het ontvangen van communicatie. Daarvoor moet u opt-outverzoeken altijd zo snel mogelijk verwerken en moet u toestemming controleren via een dubbele opt-inprocedure. Zie [Opt-in en opt-out beheren in Campaign](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md) en [Een dubbele opt-inprocedure instellen](../../channels/using/setting-up-a-double-opt-in-process.md) voor meer informatie.
+* Importeer geen frauduleuze lijsten en gebruik traps om te controleren of uw clientbestand niet onrechtmatig wordt gebruikt. Zie [Traps gebruiken](../../sending/using/using-traps.md) voor meer informatie.
 * Via toestemmings- en rechtenbeheer kunt u de voorkeuren van uw ontvangers bijhouden en beheren wie binnen uw organisatie toegang heeft tot welke gegevens. Zie [deze sectie](#consent)voor meer informatie.
-* De privacyverzoeken van uw ontvangers faciliteren en beheren. Zie [deze sectie](#privacy-requests)voor meer informatie.
+* Faciliteer en beheer de verzoeken om toegang tot persoonsgegevens van uw ontvangers. Zie [deze sectie](#privacy-requests)voor meer informatie.
 
 ## Privacybeheer {#privacy-management}
 
-Het beheer van de privacy verwijst naar alle processen en hulpmiddelen die u kunnen helpen aan de verordeningen van de Privacy (GDPR, CCPA, enz.) voldoen. Bekijk een overzicht van het privacybeheer op [deze pagina](../../start/using/privacy-management.md).
+Privacybeheer verwijst naar alle processen en tools die u kunnen helpen te voldoen aan de privacywetgeving (AVG, CCPA, enz.). Bekijk een overzicht van privacybeheer op [deze pagina](../../start/using/privacy-management.md).
 
-Adobe Campaign biedt u verschillende functies voor privacybeheer:
-* Goedkeuringsbeheer, gegevensbewaring en gebruikersrollen. Zie [deze sectie](#consent).
-* Privacyverzoeken (recht op toegang en recht om te worden vergeten). Zie [deze sectie](#privacy-requests).
-* Opt-out voor de Verkoop van Persoonlijke Informatie (specifiek CCPA). Zie [deze sectie](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ccpa).
+Adobe Campaign biedt u verschillende functiesets voor privacybeheer:
+* toestemmingsbeheer, dataretentie en gebruikersrollen. Zie [deze sectie](#consent).
+* Verzoeken om toegang tot persoonsgegevens (toegangsrecht en recht om te worden vergeten). Zie [deze sectie](#privacy-requests).
+* Opt-out voor de verkoop van persoonsgegevens (CCPA-specifiek). Zie [deze sectie](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ccpa).
 
-De belangrijkste mogelijkheden van de Privacy in Campagne en een voorbeeld van de betrokken personen worden voorgesteld in [deze sectie](https://helpx.adobe.com/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow).
+De belangrijkste privacymogelijkheden in Campaign en een voorbeeld van de betrokken persona’s worden weergegeven in [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-faq.html?lang=nl#getting-started).
 
 
-### Toestemming, bewaring en rollen {#consent}
+### Toestemming, retentie en rollen {#consent}
 
 Oorspronkelijk biedt Adobe Campaign belangrijke functies die essentieel zijn voor privacy:
 
-* **Toegangsbeheer**: Via het abonnementsbeheerproces kunt u de voorkeuren van uw ontvangers beheren en bijhouden welke ontvangers hebben gekozen voor welk type abonnement. Zie [Abonnementen](../../audiences/using/about-subscriptions.md) en pagina&#39;s [Landing voor meer informatie](../../channels/using/getting-started-with-landing-pages.md).
-* **Bewaren** van gegevens: Alle ingebouwde standaardlogtabellen hebben vooraf ingestelde retentieperioden, waarbij de gegevensopslag doorgaans tot 6 maanden of minder wordt beperkt. Er kunnen extra retentieperiodes worden ingesteld met workflows. Neem hiervoor contact op met de consultants van de Adobe of met technische beheerders.
-* **Rechtenbeheer**: Adobe Campaign biedt u de mogelijkheid om de rechten te beheren die aan de verschillende campagneoperatoren zijn toegewezen via verschillende vooraf gebouwde of aangepaste rollen. Hierdoor kunt u bepalen wie binnen uw bedrijf toegang heeft tot verschillende typen gegevens, deze kan wijzigen of exporteren. Zie [Informatie over toegangsbeheer](../../administration/using/about-access-management.md)voor meer informatie hierover.
+* **Toestemmingsbeheer**: via de procedure van abonnementsbeheer kunt u de voorkeuren van uw ontvangers beheren en bijhouden welke ontvangers zich hebben aangemeld voor welke soorten abonnementen. Zie [Abonnementen](../../audiences/using/about-subscriptions.md) en [Landingspagina’s](../../channels/using/getting-started-with-landing-pages.md) voor meer informatie.
+* **Dataretentie**: alle ingebouwde standaard logtabellen bevatten vooraf ingestelde retentieperioden, waarbij de gegevensopslag over het algemeen is beperkt tot 6 maanden of korter. Er kunnen extra retentieperioden worden ingesteld met workflows. Neem hiervoor contact op met de adviseurs van Adobe of met technische beheerders.
+* **Rights Management**: Adobe Campaign biedt u de mogelijkheid om via verschillende standaard of aangepaste rollen de rechten te beheren die aan de verschillende Campaign-operators zijn toegewezen. Hierdoor kunt u bepalen wie binnen uw bedrijf toegang heeft tot verschillende typen gegevens en deze kan wijzigen of exporteren. Zie [Toegangscontrole](../../administration/using/about-access-management.md) voor meer informatie.
 
-Zie [deze sectie](../../start/using/privacy-management.md#consent-retention-roles)voor meer informatie over deze functies en hoe u ze in Adobe Campaign kunt beheren.
+Zie [deze sectie](../../start/using/privacy-management.md#consent-retention-roles) voor meer informatie over deze functies en hoe u ze kunt beheren in Adobe Campaign.
 
-### Privacyverzoeken {#privacy-requests}
+### Verzoeken om toegang tot persoonsgegevens {#privacy-requests}
 
-Adobe Campaign biedt extra mogelijkheden om u te helpen uw bereidheid als Data Controller voor bepaalde privacyverzoeken te vergemakkelijken:
+Adobe Campaign biedt extra mogelijkheden om uw taak als gegevenscontroller voor bepaalde verzoeken om toegang tot persoonsgegevens te vergemakkelijken:
 
-* Het **recht op toegang** is het recht van de betrokkene om van de verantwoordelijke voor de verwerking bevestiging te krijgen dat al dan niet persoonsgegevens worden verwerkt, waar en waarom.
+* Het **toegangsrecht** is het recht van de betrokkene om van de gegevenscontroller bevestiging te krijgen of er persoonsgegevens van de betrokkene worden verwerkt, waar en voor welk doel.
 
-* Het **recht om te worden vergeten** (schrappingsverzoek) geeft de betrokkene het recht om zijn/haar persoonlijke gegevens te laten wissen door de verantwoordelijke voor de verwerking.
+* Het **recht om te worden vergeten** (verwijderingsverzoek) geeft de betrokkene het recht om zijn/haar persoonsgegevens door de gegevenscontroller te laten wissen.
 
-De verzoeken **om toegang** en **schrapping** worden voorgesteld in [deze sectie](../../start/using/privacy-management.md#right-access-forgotten).
+De **Access** en **Delete** verzoeken worden voorgesteld in [deze sectie](../../start/using/privacy-management.md#right-access-forgotten).
 
-De implementatiestappen voor het maken van deze aanvragen worden in [deze sectie](../../start/using/privacy-requests.md)beschreven. Tutorials zijn ook [hier](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html)beschikbaar.
+De implementatiestappen om deze verzoeken tot stand te brengen zijn gedetailleerd in [deze sectie](../../start/using/privacy-requests.md). [Hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=nl#privacy) zijn ook tutorials beschikbaar.
 
-## Traceermogelijkheden {#tracking-capabilities}
+## Trackingmogelijkheden {#tracking-capabilities}
 
-Dankzij de trackingfuncties van Adobe Campaign kunt u het gedrag van de ontvangers bijhouden met sessiecookies en permanente cookies. For more on tracking, see [this section](../../sending/using/tracking-messages.md).
+Dankzij de trackingfuncties van Adobe Campaign kunt u het gedrag van ontvangers van uw leveringen bijhouden met sessiecookies en permanente cookies. Zie [deze sectie](../../sending/using/tracking-messages.md)voor meer informatie over tracking.
 
 >[!NOTE]
 >
->In verordeningen zoals de algemene gegevensbeschermingsverordening (GDPR) wordt bepaald dat bedrijven de toestemming van webgebruikers eisen voordat ze cookies installeren. U moet gebruikers via een vergunningsaanvraag laten weten dat uw sites zijn uitgerust met webtraceringsprogramma&#39;s.
+>In verordeningen zoals de Algemene verordening gegevensbescherming (AVG) wordt bepaald dat bedrijven de toestemming van webgebruikers nodig hebben voordat ze cookies mogen installeren. U moet gebruikers via een autorisatieverzoek laten weten dat uw sites webtraceringsprogramma&#39;s bevatten.
 
-U kunt ook [bijgehouden koppelingen](../../designing/using/links.md#about-tracked-urls) in uw berichten toevoegen om de impact van uw levering en het gedrag van de ontvanger in het ingebouwde rapport van ingebouwde [volgindicatoren](../../reporting/using/tracking-indicators.md) te meten, of uw eigen [specifieke rapporten](../../reporting/using/about-dynamic-reports.md)creëren.
+U kunt ook [getraceerde koppelingen](../../designing/using/links.md#about-tracked-urls) in uw berichten toevoegen om de invloed van uw levering en het gedrag van ontvangers te meten in het ingebouwde rapport [Trackingsindicatoren](../../reporting/using/tracking-indicators.md), of zelf [speciale rapporten](../../reporting/using/about-dynamic-reports.md) maken.
