@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 13%
+source-wordcount: '589'
+ht-degree: 14%
 
 ---
 
@@ -30,17 +30,19 @@ Nadat marketingcampagnes zijn uitgevoerd en de verschillende berichten zijn verz
 
 Tot slot, hefboomwerking leverbaarheidsrichtlijnen en hulpmiddelen beschikbaar in Campaign Standard om het aantal geleverde berichten te verbeteren en succesvolle marketing campagnes te verzekeren.
 
-## Voorbereiden en testen {#prepare-test-send}
+![](assets/do-not-localize/how-to-video.png) [Ontdek hoe u een test-e-mail kunt verzenden, een e-maillevering kunt voorbereiden en verzenden in video](#video)
+
+## {#prepare-test-send} voorbereiden en testen
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
-Bij de voorbereiding **van** berichten in Campaign Standard worden het doel, de personalisatie en de geldigheid van het bericht geanalyseerd. Fouten die tijdens deze stap zijn vastgesteld, moeten worden gecorrigeerd voordat u verder kunt gaan.
+Campaign Standard **berichtvoorbereiding** analyseert het doel, de verpersoonlijking en de geldigheid van het bericht. Fouten die tijdens deze stap zijn vastgesteld, moeten worden gecorrigeerd voordat u verder kunt gaan.
 
-**U kunt uw berichten voorvertonen en testen** met behulp van verschillende mogelijkheden: Verzend proefdrukken naar testprofielen of speciale profielen, test de onderwerpregel van uw e-mail, en controleer de weergave van uw berichten om ervoor te zorgen dat het op een optimale manier op een verscheidenheid van Webcliënten, Webpost en apparaten zal tonen.
+**U kunt uw berichten voorvertonen en** testen met behulp van verschillende mogelijkheden: Verzend proefdrukken naar testprofielen of speciale profielen, test de onderwerpregel van uw e-mail, en controleer de weergave van uw berichten om ervoor te zorgen dat het op een optimale manier op een verscheidenheid van Webcliënten, Webpost en apparaten zal tonen.
 
 Gebruik de planningsmogelijkheden van de Campagne van de hefboomwerking om te bepalen wanneer uw berichten zullen worden verzonden. U kunt bijvoorbeeld het verzenden aanpassen in de tijdzone van de ontvanger, de verzendtijd optimaliseren of de verzenddatum berekenen.
 
-Gebruik **typologieën** om tijdens de voorbereiding te controleren of uw bericht geldig is en aan uw kwaliteitscriteria door vermoeidheid, controle en het richten regels voldoet. Als u bijvoorbeeld wilt controleren of uw e-mails altijd een onderwerpregel bevatten of als u abonnees wilt uitsluiten van de ontvangers van het bericht.
+Gebruik **typologies** om tijdens de voorbereiding te controleren of uw bericht geldig is en aan uw kwaliteitscriteria door moeheid, controle en het richten regels voldoet. Als u bijvoorbeeld wilt controleren of uw e-mails altijd een onderwerpregel bevatten of als u abonnees wilt uitsluiten van de ontvangers van het bericht.
 
 Meer informatie:
 
@@ -51,15 +53,15 @@ Meer informatie:
 * [Berichten plannen](../../sending/using/about-scheduling-messages.md)
 * [Informatie over typologieën en typologieregels](../../sending/using/about-typology-rules.md)
 
-## Verzenden, controleren en volgen {#send-track-messages}
+## {#send-track-messages} verzenden, controleren en volgen
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-Zodra uw bericht klaar is, kunt u de verzendende en toegangslogboeken en rapporten bevestigen om de levering **te** controleren en het succes van uw campagne te meten. Adobe Campaign beschikt ook over een e-mailwaarschuwingssysteem waarmee u het succes of de mislukking van de levering en de mogelijkheden voor quarantainebeheer kunt bijhouden.
+Zodra uw bericht klaar is, kunt u de verzendende en toegangslogboeken en de rapporten aan **controleren levering** bevestigen en het succes van uw campagne meten. Adobe Campaign beschikt ook over een e-mailwaarschuwingssysteem waarmee u het succes of de mislukking van de levering en de mogelijkheden voor quarantainebeheer kunt bijhouden.
 
-**Volg het gedrag** van de berichtontvangers door zitting en permanente koekjes te gebruiken om het volgen informatie (klikte URLs, spiegelpagina&#39;s, geopende berichten terug te winnen..).
+**Volg het** gedrag van de berichtontvangers door zitting en permanente koekjes te gebruiken om het volgen informatie (klikte URLs, spiegelpagina&#39;s, geopende berichten terug te winnen..).
 
-Tot slot kunt u Adobe Campaign configureren om een kopie van de e-mails **die via e-mail BCC van uw platform worden verzonden,** bij te houden. Met name als uw organisatie alle uitgaande e-mailberichten moet archiveren voor naleving, kunt u deze mogelijkheid inschakelen.
+Tot slot kunt u Adobe Campaign zodanig configureren dat **een kopie van e-mails** die via e-mail BCC van uw platform worden verzonden, wordt bewaard. Met name als uw organisatie alle uitgaande e-mailberichten moet archiveren voor naleving, kunt u deze mogelijkheid inschakelen.
 
 Meer informatie:
 
@@ -70,13 +72,13 @@ Meer informatie:
 * [Leveringsfouten begrijpen](../../sending/using/understanding-delivery-failures.md)
 * [Quarantainebeheer begrijpen](../../sending/using/understanding-quarantine-management.md)
 
-## Richtlijnen voor aflevering {#improve-deliverability}
+## Richtlijnen {#improve-deliverability} voor aflevering
 
 <img src="assets/do-not-localize/icon_deliverability.svg"  width="60px">
 
 De levering staat toe om het succes van uw campagnes te meten die uw ontvangers&#39; inbox bereiken zonder te stuiteren, of als spam worden gemerkt.
 
-Campaign Standard bevat verschillende **gereedschappen** voor de levering van gegevens waarmee u het aantal gelukte berichten kunt verbeteren: rapporten over de leveringsrekening, tijdoptimalisatie verzenden, voorvertoning van berichten, rendering van e-mail, quarantainebeheer, enz.
+Campaign Standard biedt verschillende **leverbaargereedschappen** om u te helpen het aantal succesvol afgeleverde berichten te verbeteren: rapporten over de leveringsrekening, tijdoptimalisatie verzenden, voorvertoning van berichten, rendering van e-mail, quarantainebeheer, enz.
 
 Meer informatie:
 
@@ -89,8 +91,14 @@ Meer informatie:
 ## Aanvullende bronnen
 
 * [E-mails ontwerpen voor een A/B-test](../../channels/using/designing-an-a-b-test-email.md)
-* [Een test verzenden, een e-mail (video) voorbereiden en verzenden](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
-* [Een e-maillevering en rapporten controleren (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [Aan de slag met e-mails](https://helpx.adobe.com/nl/campaign/kb/acs-get-started-with-emails.html)
 * [Best practices voor levering](../../sending/using/delivery-best-practices.md)
 * [Een controlegroep toevoegen](../../sending/using/control-group.md)
+
+## Video over zelfstudie {#video}
+
+In deze video ziet u hoe u een teste-mail verzendt, voorbereidt en verzendt u vervolgens een e-maillevering in Campaign Standard.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24013/)
+
+Er zijn [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl) extra Campaign Standard hoe kan ik-video&#39;s beschikbaar.
