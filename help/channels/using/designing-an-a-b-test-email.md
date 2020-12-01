@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: email-messages
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '817'
 ht-degree: 100%
 
 ---
@@ -83,10 +83,6 @@ In de specifieke context van een A/B-test gaat dit als volgt:
    >Als er meerdere varianten in aanmerking komen, moet de winnende variant handmatig worden geselecteerd. U kunt de personen die de e-mail maken en wijzigen ervan op de hoogte brengen dat een variant is gekozen of moet worden geselecteerd. Zie [Adobe Campaign-meldingen](../../administration/using/sending-internal-notifications.md).
 
 Uw e-mail is nu gedefinieerd en verzonden. U kunt de logboeken en rapporten van de e-mail openen om het succes van uw campagne te meten.
-
-**Verwant onderwerp**:
-
-Video over [Een e-mail maken](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)
 
 ## Informatie over A/B-testindicatoren {#about-a-b-test-indicators}
 
