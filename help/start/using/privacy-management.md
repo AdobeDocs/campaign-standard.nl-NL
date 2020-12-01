@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Privacybeheer in Adobe Campaign Standard
-description: Meer weten over de Adobe Campaign Standard-functies voor het beheer van privacy?
+description: Ontdek meer over de Adobe Campaign Standard-functies voor het beheer van privacy.
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -10,14 +10,14 @@ translation-type: tm+mt
 source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
 workflow-type: tm+mt
 source-wordcount: '964'
-ht-degree: 0%
+ht-degree: 90%
 
 ---
 
 
 # Privacybeheer {#privacy-management}
 
-Adobe Campaign offers a set of tools to help you comply with [Privacy regulations](#privacy-management-regulations) (including GDPR, CCPA, PDPA, LGPD).
+Adobe Campaign biedt een reeks hulpmiddelen aan om u te helpen aan [Privacyverordeningen ](#privacy-management-regulations) (met inbegrip van GDPR, CCPA, PDPA, LGPD) voldoen.
 
 Hier volgen de vijf belangrijkste mogelijkheden die Adobe Campaign biedt om ervoor te zorgen dat de GDPR en andere privacyregels klaar zijn:
 
@@ -27,15 +27,15 @@ Hier volgen de vijf belangrijkste mogelijkheden die Adobe Campaign biedt om ervo
 
 * **Rechts om te verwijderen**
 
-Zie [Recht op toegang en Recht op vergeten](#right-access-forgotten)voor meer informatie.
+Voor meer op dit, zie [Recht op Toegang en Recht om worden vergeten](#right-access-forgotten).
 
-* **Toegangsbeheer**
+* **Toestemmingsbeheer**
 
 * **Dataretentie**
 
-* **Rechtenbeheer**
+* **Rights Management**
 
-Zie [Toestemming, Behoud en Rollen](#consent-retention-roles)voor meer informatie.
+Zie [Goedkeuring, Behoud en Rollen](#consent-retention-roles) voor meer informatie.
 
 <!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 
@@ -43,88 +43,88 @@ It also contains information on important features to manage Privacy ([consent, 
 
 ## Regels inzake privacybeheer {#privacy-management-regulations}
 
-Met Adobe Campaign-mogelijkheden kunt u voldoen aan de volgende regels:
+Met de opties van Adobe Campaign kunt u voldoen aan de volgende regels:
 
-* **GDPR** ([algemene gegevensbeschermingsverordening](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) is de privacywet van de Europese Unie die de gegevensbeschermingsvereisten voor de landen van de EU harmoniseert en moderniseert. Volg de onderstaande koppelingen voor algemene informatie over GDPR:
+* **De AVG** ([Algemene Verordening Gegevensbescherming](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) is de privacyverordening van de Europese Unie (EU) die de vereisten inzake gegevensbescherming voor Europese landen harmoniseert en moderniseert. Volg de onderstaande koppelingen voor algemene informatie over GDPR:
 
    * https://www.adobe.com/privacy/general-data-protection-regulation.html
    * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
 
-* **CCPA** ([California Consumer Privacy Act](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;titel=1.81.5.&amp;part=4.&amp;hoofdstuk=&amp;artikel=)) biedt inwoners van Californië nieuwe rechten met betrekking tot hun persoonlijke gegevens en legt verantwoordelijkheden op het gebied van gegevensbescherming op aan bepaalde entiteiten die zaken in Californië doen.
-* **PDPA** ([Personal Data Protection Act](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)) is de nieuwe privacywet die de vereisten inzake gegevensbescherming voor Thailand harmoniseert en moderniseert.
-* **De LGPD** ([Lei Geral de Proteção de Dados](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)) zal begin 2021 van kracht worden voor alle bedrijven die in Brazilië persoonsgegevens verzamelen of verwerken.
+* **De CCPA** ([California Consumer Privacy Act](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)) biedt inwoners van Californië nieuwe rechten met betrekking tot hun persoonsgegevens en legt verantwoordelijkheden op het gebied van gegevensbescherming op aan bepaalde entiteiten die zaken doen in Californië.
+* **De PDPA** ([Thaise wet inzake de bescherming van persoonsgegevens](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)) is de nieuwe privacywet die de vereisten inzake gegevensbescherming voor Thailand harmoniseert en moderniseert.
+* **De LGPD** ([Lei Geral de Proteção de Dados](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)) wordt begin 2021 van kracht voor alle bedrijven die in Brazilië persoonsgegevens verzamelen of verwerken.
 
-Al deze voorschriften zijn van toepassing op Adobe Campaign-klanten die beschikken over gegevens voor gegevenssubjecten die in de bovengenoemde regio&#39;s of landen (EU, Californië, Thailand, Brazilië) verblijven.
-
->[!NOTE]
->
->Voor meer informatie over persoonsgegevens en over de verschillende entiteiten die gegevens beheren (Data Controller, Data Processor en Data Subject), zie [Persoonsgegevens en Persoonlijke personen](../../start/using/privacy.md#personal-data).
-
-## Recht op toegang en recht om te worden vergeten {#right-access-forgotten}
-
-Om u te helpen uw privacy-gereedheid te vergemakkelijken, kunt u met Adobe Campaign aanvragen voor **toegang** en **verwijdering** afhandelen.
-
-* Het **recht op toegang** is het recht van de betrokkene om van de verantwoordelijke voor de verwerking bevestiging te krijgen of er al dan niet persoonsgegevens worden verwerkt, waar en voor welk doel. De gegevensverwerkingsverantwoordelijke verstrekt kosteloos een kopie van de persoonsgegevens in elektronische vorm.
-
-* Ook bekend als Data Erasure, geeft het **recht om te worden vergeten** (schrappingsverzoek) de betrokkene het recht om de verantwoordelijke voor de verwerking van de gegevens zijn/haar persoonsgegevens te laten wissen, de verdere verspreiding van de gegevens te beëindigen en mogelijk derden te laten stoppen met de verwerking van de gegevens.
-
-Raadpleeg de **implementatiestappen** voor meer informatie over het maken van **aanvragen voor toegang** en [verwijderen](../../start/using/privacy-requests.md#about-privacy-requests)en hoe Adobe Campaign deze verwerkt.
-
-Tutorials over privacybeheer in Campaign Standard zijn ook [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en#privacy)beschikbaar.
+Al deze voorschriften zijn van toepassing op Adobe Campaign-klanten die beschikken over gegevens van betrokkenen die in de bovengenoemde regio’s of landen wonen (EU, Californië, Thailand en Brazilië).
 
 >[!NOTE]
 >
->Voor meer informatie over persoonsgegevens en over de verschillende entiteiten die gegevens beheren (Data Controller, Data Processor en Data Subject), zie [Persoonsgegevens en Persoonlijke personen](../../start/using/privacy.md#personal-data).
+>Voor meer informatie over persoonsgegevens en over de verschillende entiteiten die gegevens beheren (gegevenscontroller, gegevensprocessor en betrokkene) raadpleegt u [Persoonsgegevens en persona&#39;s](../../start/using/privacy.md#personal-data).
 
-## Toestemming, bewaring en rollen {#consent-retention-roles}
+## Toegangsrecht en recht om te worden vergeten {#right-access-forgotten}
 
-Naast het meest recente **recht op toegang** en **recht op vergeten** mogelijkheden, biedt Adobe Campaign andere belangrijke functies die essentieel zijn voor privacy:
+U kunt in Adobe Campaign verzoeken voor **Toegang** en **Verwijderen** afhandelen, zodat u zich gemakkelijker kunt voorbereiden op de privacyregels.
 
-* [Toegangsbeheer](#consent-management): abonnementsfunctionaliteit voor voorkeursbeheer
-* [Bewaren](#data-retention)van gegevens: de periodes van het gegevensbehoud op alle standaardlogboeklijsten, extra bewaartermijnen kunnen opstelling met werkschema&#39;s
-* [Rechtenbeheer](#rights-management): gegevenstoegang die door genoemde recht wordt beheerd
+* Het **toegangsrecht** is het recht van de betrokkene om van de gegevenscontroller bevestiging te krijgen of er persoonsgegevens van de betrokkene worden verwerkt, waar en voor welk doel. De gegevenscontroller verstrekt kosteloos een kopie van de persoonsgegevens in elektronische vorm.
 
-### Toegangsbeheer {#consent-management}
+* Het **recht om te worden vergeten** (verwijderingsverzoek) geeft de betrokkene het recht om de gegevenscontroller zijn/haar persoonsgegevens te laten wissen, verdere verspreiding van de gegevens stop te zetten en eventueel de verwerking van de gegevens door derden te laten stopzetten.
 
-Toestemming betekent instemming van de betrokkene met de verwerking van persoonsgegevens betreffende een betrokkene. De gegevensverwerkingsverantwoordelijke is verantwoordelijk voor het verkrijgen van de nodige toestemming voor die verwerking. Hoewel Adobe Campaign bepaalde functies kan bieden om een klant te helpen bij het beheren van de toestemming voor de service, is Adobe niet verantwoordelijk voor de toestemming. Klanten dienen met hun eigen juridische afdelingen samen te werken om hun eigen processen en praktijken vast te stellen voor de benodigde toestemming.
+Als u wilt weten hoe u verzoeken om **toegang** en **verwijdering** kunt maken en hoe Adobe Campaign deze verwerkt, raadpleegt u de [implementatiestappen](../../start/using/privacy-requests.md#about-privacy-requests).
 
-Adobe Campaign kent sinds het begin van zijn goedkeuring de kenmerken die het mogelijk maken bepaalde aspecten ervan te beheren. Via het abonnementsbeheerproces kunnen klanten bijhouden welke ontvangers hebben gekozen voor welk type abonnement ze kiezen, of het nu nieuwsbrieven, dagelijkse of wekelijkse promoties of een ander type marketingprogramma zijn.
+Tutorials over privacybeheer in Campaign Standard zijn ook [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=nl#privacy) te vinden.
+
+>[!NOTE]
+>
+>Voor meer informatie over persoonsgegevens en over de verschillende entiteiten die gegevens beheren (gegevenscontroller, gegevensprocessor en betrokkene) raadpleegt u [Persoonsgegevens en persona&#39;s](../../start/using/privacy.md#personal-data).
+
+## Toestemming, retentie en rollen {#consent-retention-roles}
+
+Naast de meest recente mogelijkheden voor **toegangsrecht** en **recht om te worden vergeten** biedt Adobe Campaign andere belangrijke functies die essentieel zijn voor privacy:
+
+* [Toestemmingsbeheer](#consent-management): abonnementsfuncties voor voorkeurenbeheer
+* [Dataretentie](#data-retention): dataretentieperioden in alle standaard logtabellen, er kunnen extra retentieperioden worden ingesteld met workflows
+* [Rights Management](#rights-management): gegevenstoegang beheerd volgens opgegeven recht
+
+### Toestemmingsbeheer {#consent-management}
+
+Toestemming betekent instemming van een betrokkene om de persoonsgegevens betreffende de betrokkene te verwerken. De gegevenscontroller is verantwoordelijk voor het verkrijgen van de vereiste toestemming voor deze verwerking. Hoewel Adobe Campaign bepaalde functies kan bieden om een klant te helpen bij het beheren van de toestemming voor de service, is Adobe niet verantwoordelijk voor de toestemming. Klanten dienen samen met hun eigen juridische afdelingen hun eigen processen en praktijken vast te stellen voor de benodigde toestemming.
+
+Vanaf het begin hebben in Adobe Campaign functies voor het helpen beheren van bepaalde aspecten van toestemming centraal gestaan. Via het abonnementsbeheerproces kunnen klanten bijhouden welke ontvangers hebben gekozen voor welk type abonnement, zoals nieuwsbrieven, dagelijkse of wekelijkse aanbiedingen of een ander type marketingprogramma.
 
 ![](assets/privacy-consent-management.png)
 
-Zie [Informatie over abonnementen](../../audiences/using/about-subscriptions.md) en [Aan de slag met bestemmingspagina](../../channels/using/getting-started-with-landing-pages.md)voor meer informatie over het beheer van toestemming.
+Zie [Abonnementen](../../audiences/using/about-subscriptions.md) en [Aan de slag met landingspagina’s ](../../channels/using/getting-started-with-landing-pages.md) voor meer informatie over toestemmingsbeheer.
 
-Naast de hulpprogramma&#39;s voor het beheer van toestemming die Adobe Campaign biedt, kunt u nagaan of een consument heeft gekozen voor de verkoop van persoonlijke gegevens. Zie [deze sectie](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
+Naast de tools voor toestemmingsbeheer van Adobe Campaign kunt u ook nagaan of een consument ervoor heeft gekozen om zich af te melden voor de verkoop van persoonsgegevens. Zie [deze sectie](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 ### Dataretentie {#data-retention}
 
-Wat het behoud betreft, hebben de ingebouwde logboeklijsten in Campaign vooraf vastgestelde bewaartermijnen op hen, over het algemeen beperkt hun gegevensopslag tot zes maanden of minder.
+Voor retentie bevatten de ingebouwde logtabellen in Campaign vooraf ingestelde retentieperioden, waarbij de gegevensopslag over het algemeen is beperkt tot zes maanden of korter.
 
-Hieronder volgen de standaardwaarden voor behoud van ingebouwde tabellen. Houd er rekening mee dat de bewaarconfiguratie tijdens de implementatie door technische beheerders van Adobe is ingesteld en dat de waarden voor elke implementatie kunnen variëren op basis van de vereisten van de klant.
+Hieronder volgen de standaardwaarden voor retentie in de ingebouwde tabellen. Houd er rekening mee dat de retentieconfiguratie tijdens de implementatie door technische beheerders van Adobe wordt ingesteld, en dat de waarden per implementatie kunnen verschillen op basis van de vereisten van de klant.
 
-* **Geconsolideerde reeksspatiëring**: 6 maanden
-* **Leveringslogboeken**: 6 maanden
-* **Logboeken** bijhouden: 6 maanden
+* **Samengevoegde tracking**: 6 maanden
+* **Verzendingslogs**: 6 maanden
+* **Trackinglogs**: 6 maanden
 * **Gebeurtenissen**: 1 maand
 * **Statistieken van gebeurtenisverwerking**: 6 maanden
 * **Gearchiveerde gebeurtenissen**: 6 maanden
 * **Tijdelijke entiteiten**: 7 dagen
-* **Genegeerde pijpleidinggebeurtenissen**: 1 maand
-* **Afleveringswaarschuwingen**: 1 maand
-* **Uitvoercontrole**: 6 maanden
+* **Genegeerde pipelinegebeurtenissen**: 1 maand
+* **Leveringsmeldingen**: 1 maand
+* **Exportaudit**: 6 maanden
 
-En net als bij het verwijderen met de standaardworkflowfunctionaliteit is het mogelijk om retentieperioden in te stellen voor elke aangepaste tabel.
+Net als bij verwijderen is het met de functionaliteit van de standaardworkflow mogelijk om retentieperioden in te stellen voor elke aangepaste tabel.
 
-Neem contact op met de consultants of technische Adobe-beheerders voor meer informatie over retentie of als u retentie wilt instellen voor aangepaste tabellen.
+Neem contact op met de consultants of technische beheerders van Adobe voor meer informatie over retentie, of als u retentie wilt instellen voor aangepaste tabellen.
 
-### Rechtenbeheer {#rights-management}
+### Rights Management {#rights-management}
 
-Adobe Campaign biedt u de mogelijkheid om de rechten te beheren die aan de verschillende campagneoperatoren zijn toegewezen via verschillende vooraf gebouwde of aangepaste rollen.
+Adobe Campaign biedt u de mogelijkheid om via verschillende standaard of aangepaste rollen de rechten te beheren die aan de verschillende Campaign-operators zijn toegewezen.
 
-Eén voordeel is dat u zo kunt bepalen wie binnen uw bedrijf toegang heeft tot verschillende typen gegevens. U hebt bijvoorbeeld verschillende marketers voor verschillende geo&#39;s en elke markator heeft alleen toegang tot gegevens van zijn geo.
+Eén voordeel is dat u zo kunt bepalen wie binnen uw bedrijf toegang heeft tot verschillende typen gegevens. Als u bijvoorbeeld verschillende marketeers voor verschillende regio’s hebt, kunt u ervoor zorgen dat elke marketeer alleen toegang heeft tot de gegevens van zijn of haar regio.
 
-Op dezelfde manier staat deze functionaliteit u ook toe om verschillende mogelijkheden voor elke gebruiker te vormen, zoals het beperken van wie leveringen kan verzenden, of meer relevant voor het beheer van de Privacy, die gegevens kan wijzigen of uitvoeren.
+Zo kunt u met deze functionaliteit ook verschillende mogelijkheden voor elke gebruiker configureren, zoals beperken wie leveringen kan verzenden, of relevanter voor privacy: wie gegevens kan wijzigen of exporteren.
 
 ![](assets/privacy-user-management.png)
 
-For more on access management, see [this section](../../administration/using/about-access-management.md).
+Zie [deze sectie](../../administration/using/about-access-management.md) voor meer informatie over toegangscontrole.
