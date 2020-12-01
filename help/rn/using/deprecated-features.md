@@ -7,15 +7,15 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '658'
 ht-degree: 16%
 
 ---
 
 
-# Deprecated and Removed Features {#deprecated-and-removed-features}
+# Vervangen en verwijderde functies {#deprecated-and-removed-features}
 
 Adobe evalueert voortdurend de productmogelijkheden om oudere functies te identificeren die door modernere alternatieven zouden moeten worden vervangen om de algehele klantwaarde te verbeteren. Hierbij wordt altijd zorgvuldig rekening gehouden met achterwaartse compatibiliteit.
 
@@ -27,7 +27,7 @@ Om de dreigende verwijdering/vervanging van de mogelijkheden van Campaign Standa
 Dit proces biedt klanten minstens één releasecyclus om hun implementatie aan een nieuwe versie of opvolger van een vervangen mogelijkheid aan te passen vóór de daadwerkelijke verwijdering.
 
 >[!NOTE]
->Adobe Campaign Standard releases and new capabilities are listed in the [Release Notes](../../rn/using/release-notes.md).
+>Adobe Campaign Standard-releases en nieuwe mogelijkheden worden vermeld in de [Opmerkingen bij de release](../../rn/using/release-notes.md).
 
 
 ## Verouderde functies {#deprecated-features}
@@ -47,7 +47,7 @@ Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik 
  <tbody> 
   <tr> 
    <td> <p> Vanaf release 20.1 is SDK v4 afgekeurd. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Meer informatie</a>.</p><br/>
-   <p>De <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (voorheen v5 genoemd) biedt uitsluitend ondersteuning voor toekomstige Adobe Experience Cloud-functies en -functionaliteit.</p></br>
+   <p>De <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (voorheen v5 genoemd) biedt uitsluitend ondersteuning voor de komende Adobe Experience Cloud-functies en -functionaliteit.</p></br>
      <p>
      <em>Doeldatum verwijdering: 31 augustus 2021</em></p>
      </td> 
@@ -63,7 +63,7 @@ Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik 
  <tbody> 
   <tr> 
    <td> <p>Vanaf de release van Campagne 19.4 is het gebruik van de campagne-API en de interface voor toegangs- en verwijderingsverzoeken afgekeurd. De profielverwijdering in twee stappen is niet beschikbaar. Gebruik <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a>.</p></br>
-   <p>Zie ook <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Privacyverzoeken</a>beheren.</p>
+   <p>Zie ook <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Privacy-aanvragen beheren</a>.</p>
   <p> 
   <em>Doeldatum voor verwijdering: 2021</em></p>
    </td> 
@@ -79,10 +79,10 @@ Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Vanaf de release Campagne 19.0 is de oude e-maileditor afgekeurd. Met <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">de nieuwe e-mailontwerper</a> kunt u uw e-mailinhoud maken en aanpassen. </p></br>
-   <p>Lees <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">deze sectie</a> om te leren hoe u uw e-mailsjablonen voor de nieuwe editor kunt aanpassen.</p></br>
+   <td> <p>Vanaf de release Campagne 19.0 is de oude e-maileditor afgekeurd. Met <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campagne voor e-mailontwerpen</a> kunt u uw e-mailinhoud maken en aanpassen. </p></br>
+   <p>Lees <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">deze sectie</a> om te leren hoe te om uw e-mailmalplaatjes voor de nieuwe redacteur aan te passen.</p></br>
   <p> 
-  <em>Doeldatum voor verwijdering: 2021</em></p>
+  <em>Doeldatum verwijdering: eind 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -102,7 +102,7 @@ Klanten wordt aangeraden na te gaan of zij in hun huidige implementatie gebruik 
  </tbody> 
 </table>
 
-## Removed Features {#removed-features}
+## Verwijderde functies {#removed-features}
 
 Deze sectie bevat een lijst met functies en mogelijkheden die uit Campaign Standard zijn verwijderd.
 
@@ -114,7 +114,7 @@ Deze sectie bevat een lijst met functies en mogelijkheden die uit Campaign Stand
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>De <b>Propensiteitsscore</b> is uit de Adobe Experience Cloud-triggers verwijderd. Deze optie is daarom uit Adobe Campaign Standard verwijderd. Om om het even welke verouderde waarden van de score van de Volheid in de schema's van de Verrijking te vermijden, adviseren wij het bijwerken van schema's om de recentste veranderingen terug te winnen en bestaande Trekkers opnieuw te publiceren. Raadpleeg Een trigger <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html#publishing-trigger-in-campaign"> publiceren in Campagne voor meer informatie </a>.
+   <td> <p>De <b>Propensiteitsscore</b> is gedeactiveerd uit Adobe Experience Cloud-triggers. Deze optie is daarom uit Adobe Campaign Standard verwijderd. Om om het even welke verouderde waarden van de score van de Volheid in de schema's van de Verrijking te vermijden, adviseren wij het bijwerken van schema's om de recentste veranderingen terug te winnen en bestaande Trekkers opnieuw te publiceren. Raadpleeg <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/using-triggers-in-campaign.html"> Een trigger publiceren in Campagne </a> voor meer informatie.
 </p></br>
    </td> 
   </tr> 
@@ -145,7 +145,7 @@ Deze sectie bevat een lijst met functies en mogelijkheden die uit Campaign Stand
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Campaign en Adobe Experience Cloud hebben de ondersteuning voor Microsoft Internet Explorer 11 vanaf het voorjaar van 2019 en de release Campagne 19.2 ingetrokken. Schakel over naar Microsoft Edge of een andere ondersteunde browser. <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/about-configuration-guidelines.html#compatible-browsers">Meer informatie</a>.</p>
+   <td> <p>Adobe Campaign en Adobe Experience Cloud hebben de ondersteuning voor Microsoft Internet Explorer 11 vanaf het voorjaar van 2019 en de release Campagne 19.2 ingetrokken. Schakel over naar Microsoft Edge of een andere ondersteunde browser. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/about-configuration-guidelines.html">Meer informatie</a>.</p>
    </td> 
   </tr> 
  </tbody> 
