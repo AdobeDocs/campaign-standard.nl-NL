@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 0690765f26398391b4604136b203541a109e203b
 workflow-type: tm+mt
 source-wordcount: '6305'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ De sectie Persoonlijke Gegevens en Persona&#39;s is bijgewerkt met een gebruikss
 
 Er is een nieuwe sectie toegevoegd met veelgestelde vragen over privacy. [Meer informatie](../../start/using/privacy-faq.md)
 
-De sectie Privacy is verplaatst en verrijkt met twee nieuwe pagina&#39;s: [Privacybeheer](../../start/using/privacy-management.md) en [Privacyverzoeken beheren](../../start/using/privacy-requests.md).
+De sectie Privacy is verplaatst en aangevuld met twee nieuwe pagina&#39;s: [Privacybeheer](../../start/using/privacy-management.md) en [Verzoeken om toegang tot persoonsgegevens beheren](../../start/using/privacy-requests.md).
 
 Er is informatie toegevoegd aan de sectie Adobe Experience Platform Data Connector over de validatiefout voor gegevenstoewijzing die betrekking heeft op privacybeheer en hoe u problemen kunt oplossen. [Meer informatie](../../developing/using/aep-mapping-activation.md)
 
@@ -49,9 +49,9 @@ De sectie over het aanroepen van een workflow met externe parameters is verrijkt
 
 Er is een aanbeveling toegevoegd aan de best practices voor workflows over het aantal te gebruiken activiteiten per workflow. [Meer informatie](../../automating/using/best-practices-workflows.md#number-activities)
 
-Er is een nieuwe sectie over aanbevolen methoden voor levering toegevoegd. [Meer informatie](../../sending/using/delivery-best-practices.md)
+Er is een nieuwe sectie toegevoegd over best practices voor levering. [Meer informatie](../../sending/using/delivery-best-practices.md)
 
-Er is een sectie toegevoegd waarin de nieuwe filters worden beschreven waarmee de gebeurtenisconfiguraties kunnen worden doorzocht op basis van hun status en de laatste keer dat een gebeurtenis werd ontvangen. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
+Er is een sectie toegevoegd waarin de nieuwe filters worden beschreven waarmee de gebeurtenisconfiguraties kunnen worden doorzocht op basis van hun status en de laatste keer dat een gebeurtenis is ontvangen. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
 ## September 2020 {#doc-updates-september-2020}
 
@@ -189,7 +189,7 @@ De documentatie over het configureren van een mobiele app en de bijbehorende pag
 
 De documentatie over de Adobe Experience Manager-integratie met Adobe Campaign Standard is bijgewerkt en verbeterd. [Meer informatie](../../integrating/using/configure-experience-manager.md)
 
-De documentatie bij Campagne-e-mailontwerper en verwante pagina&#39;s zijn bijgewerkt met de depreciatie van [!DNL Adobe Creative SDK]. [Meer informatie](../../rn/using/deprecated-features.md)
+De documentatie over de Email Designer van Campaign en de bijbehorende pagina’s zijn bijgewerkt om de afschaffing van [!DNL Adobe Creative SDK] weer te geven. [Meer informatie](../../rn/using/deprecated-features.md)
 
 Er is nu een nieuwe sectie beschikbaar die specifiek is gewijd aan best practices voor het Campaign Standard-datamodel. [Meer informatie](../../developing/using/data-model-best-practices.md)
 
@@ -239,7 +239,7 @@ De documentatie over het werken met Campaign en Experience Manager is bijgewerkt
 
 De startpagina met documentatie over API’s is verbeterd en bevat nu omleidingen naar de verschillende onderwerpen. [Meer informatie](../../api/using/get-started-apis.md)
 
-## nov. - dec. 2019 {#doc-updates-december-2019}
+## November - december 2019 {#doc-updates-december-2019}
 
 De documentatie over het configureren van externe S3-accounts is bijgewerkt. [Meer informatie](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -259,7 +259,7 @@ De tabel voor de **berekening van indicatoren** is bijgewerkt. [Meer informatie]
 
 De set met documentatie over API’s is geïntegreerd in de documentatie van Campaign Standard.[Meer informatie](../../api/using/get-started-apis.md)
 
-De sectie Een gepersonaliseerde e-mail maken om aan de slag te gaan is verplaatst en bijgewerkt. [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/acs-get-started-with-emails.html)
+De sectie om aan de slag te gaan met het maken van gepersonaliseerde e-mail is verplaatst en bijgewerkt. [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/acs-get-started-with-emails.html)
 
 De handleiding om aan de slag te gaan met best practices voor levering is bijgewerkt. [Meer informatie](../../sending/using/delivery-best-practices.md)
 
@@ -291,7 +291,7 @@ Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u koppelingen met
 
 Er is informatie over privacy toegevoegd aan de API-documentatie. [Klik hier](../../api/using/creating-a-privacy-request.md)
 
-## september - oktober 2019 {#doc-updates-october-2019}
+## September - oktober 2019 {#doc-updates-october-2019}
 
 Er is een nieuwe sectie toegevoegd met betrekking tot Campaign Standard-instellingen. [Meer informatie](../../administration/using/about-campaign-standard-settings.md)
 
