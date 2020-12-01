@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Aan de slag met Campaign Standard
-description: Belangrijke mogelijkheden, gebruikersinterface en globale richtlijnen ontdekken.
+description: Leer meer over belangrijke functies, de gebruikersinterface en algemene richtlijnen.
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
