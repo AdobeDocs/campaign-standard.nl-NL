@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '2412'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 [Releaseplanning](../../rn/using/release-planning.md) | [Releases van het Configuratiescherm](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html) | [Updates van documentatie](../../rn/using/documentation-updates.md) | [Opmerkingen bij eerdere releases](../../rn/using/release-notes-2020.md) | [Verouderde functies](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **De nieuwe versie** van oktober van het Controlebord met domeinconfiguratie die CNAMEs en nieuwe gegevensbestand controlemogelijkheden gebruikt. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Release van nieuw Configuratiescherm in oktober** met domeinconfiguratie met CNAME-records en nieuwe mogelijkheden voor databasecontrole. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html).
 
 ## Release 20.4 - oktober 2020 {#release-20-4---october-2020}
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 <tr> 
   <td> <p>U kunt nu <strong>Controlegroepen</strong> gebruiken om de invloed van uw campagnes te meten door een deel van hun doelgroep uit te sluiten. Vervolgens kunt u de gedragingen van de doelgroep die het bericht heeft ontvangen, vergelijken met de gedragingen van contactpersonen die niet zijn getarget. Op basis van de verzendlogboeken kunt u in toekomstige campagnes ook een controlegroep targeten.
 </p>
-<p>Raadpleeg de <a href="../../sending/using/control-group.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">instructievideo</a> voor meer informatie.
+<p>Raadpleeg de <a href="../../sending/using/control-group.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=nl#communication-channels">instructievideo</a> voor meer informatie.
 </p>
 </td> 
 </tr> 
@@ -112,7 +112,7 @@ ht-degree: 98%
 * Bij het publiceren van een aangepaste bron wordt nu na de voorbereiding ter bevestiging een pop-upvenster weergegeven.
 * Het pop-upbericht dat wordt weergegeven wanneer een aangepaste bron mislukt, verschaft nu meer duidelijkheid.
 * De expressie-editor in workflows is verbeterd om uitvoeringsfouten te voorkomen. Er zijn [nieuwe functies](../../automating/using/customizing-workflow-external-parameters.md) beschikbaar: deze kunnen worden gebruikt in alle activiteiten waarmee u gebeurtenisvariabelen kunt gebruiken na het aanroepen van een workflow met externe parameters. Bovendien wordt in de expressie-editor nu knopinfo weergegeven met de functiebeschrijving.
-* [Er zijn nieuwe filters toegevoegd aan de lijst met transactiegebeurtenissen. ](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) Hiermee kunt u de gebeurtenisconfiguraties filteren op basis van hun status en de laatste keer dat een gebeurtenis is ontvangen.
+* Er zijn [nieuwe filters](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) toegevoegd aan de lijst met transactiegebeurtenissen. Hiermee kunt u de gebeurtenisconfiguraties filteren op basis van hun status en de laatste keer dat een gebeurtenis is ontvangen.
 * De logboeken die worden weergegeven bij het exporteren van pakketten bevatten nu meer specifieke en gedetailleerde informatie over de fouten die zijn aangetroffen bij een mislukking.
 * Na verzending van een bericht kunt u nu de lijst met [bijgehouden URL’s](../../sending/using/tracking-messages.md) doorzoeken, filteren en exporteren.
 * Automatische [synchronisatie tussen Launch en Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) is nu algemeen verkrijgbaar en standaard ingeschakeld.
@@ -129,7 +129,7 @@ ht-degree: 98%
 **Patches**
 
 * Er is een probleem opgelost waardoor u geen bestemmingskoppeling voor pushmeldingen of in-app-berichten kon gebruiken wanneer tracking was ingeschakeld.
-* Probleem verholpen waarbij hoge prioriteit in transactieberichten niet in acht werd genomen in geval van significante bulklevering.
+* Er is een probleem verholpen waarbij hoge prioriteit in transactieberichten niet in acht werd genomen bij grote bulkleveringen.
 * Er is een probleem opgelost waardoor u mogelijk geen merken kon toewijzen aan een transactionele e-mail. Tijdens de publicatiestap werden verschillende foutberichten weergegeven. (CAMP-44988)
 * Er is een probleem opgelost in de gebruikersinterface van de workflow waardoor data mogelijk niet konden worden opgeslagen in velden waarvoor numerieke waarden vereist waren. (CAMP-44025)
 * Er is een probleem opgelost waardoor mogelijk een foutbericht werd weergegeven wanneer een **test** activiteit werd gebruikt in een workflow van een importsjabloon. (CAMP-42910)
