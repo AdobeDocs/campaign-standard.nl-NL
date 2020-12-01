@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
+source-git-commit: 0690765f26398391b4604136b203541a109e203b
 workflow-type: tm+mt
-source-wordcount: '6311'
+source-wordcount: '6305'
 ht-degree: 97%
 
 ---
@@ -19,15 +19,19 @@ ht-degree: 97%
 
 Naast de [release-opmerkingen](../../rn/using/release-notes.md) bij Adobe Campaign worden op deze pagina alle nieuwe updates in de documentatie van Adobe Campaign Standard weergegeven.
 
+## December 2020 {#doc-updates-december-2020}
+
+De sectie Privacy is verplaatst. [Meer informatie](../../start/using/privacy.md)
+
 ## November 2020 {#doc-updates-november-2020}
-
-De sectie Privacy is verplaatst en verrijkt met twee nieuwe pagina&#39;s: [Privacybeheer](../../start/using/privacy-management.md) en [Beheren privacyverzoeken](../../start/using/privacy-requests.md).
-
-Er is informatie toegevoegd aan de sectie Adobe Experience Platform Data Connector over de validatiefout voor gegevenstoewijzing die betrekking heeft op privacybeheer en hoe u problemen kunt oplossen. [Meer informatie](../../developing/using/aep-mapping-activation.md)
 
 De sectie Persoonlijke Gegevens en Persona&#39;s is bijgewerkt met een gebruiksscenario om te illustreren hoe de verschillende personen interactie hebben wanneer het over Privacy aankomt. [Meer informatie](../../start/using/privacy.md#use-case-scenario)
 
 Er is een nieuwe sectie toegevoegd met veelgestelde vragen over privacy. [Meer informatie](../../start/using/privacy-faq.md)
+
+De sectie Privacy is verplaatst en verrijkt met twee nieuwe pagina&#39;s: [Privacybeheer](../../start/using/privacy-management.md) en [Privacyverzoeken beheren](../../start/using/privacy-requests.md).
+
+Er is informatie toegevoegd aan de sectie Adobe Experience Platform Data Connector over de validatiefout voor gegevenstoewijzing die betrekking heeft op privacybeheer en hoe u problemen kunt oplossen. [Meer informatie](../../developing/using/aep-mapping-activation.md)
 
 ## Release 20.4 - oktober 2020 {#release-20-4---october-2020}
 
@@ -185,7 +189,7 @@ De documentatie over het configureren van een mobiele app en de bijbehorende pag
 
 De documentatie over de Adobe Experience Manager-integratie met Adobe Campaign Standard is bijgewerkt en verbeterd. [Meer informatie](../../integrating/using/configure-experience-manager.md)
 
-The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/deprecated-features.html)
+De documentatie bij Campagne-e-mailontwerper en verwante pagina&#39;s zijn bijgewerkt met de depreciatie van [!DNL Adobe Creative SDK]. [Meer informatie](../../rn/using/deprecated-features.md)
 
 Er is nu een nieuwe sectie beschikbaar die specifiek is gewijd aan best practices voor het Campaign Standard-datamodel. [Meer informatie](../../developing/using/data-model-best-practices.md)
 
@@ -287,7 +291,7 @@ Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u koppelingen met
 
 Er is informatie over privacy toegevoegd aan de API-documentatie. [Klik hier](../../api/using/creating-a-privacy-request.md)
 
-## Sept. - Oct. 2019 {#doc-updates-october-2019}
+## september - oktober 2019 {#doc-updates-october-2019}
 
 Er is een nieuwe sectie toegevoegd met betrekking tot Campaign Standard-instellingen. [Meer informatie](../../administration/using/about-campaign-standard-settings.md)
 
@@ -435,7 +439,7 @@ Het Knowledge Base-artikel over [het protocol en de instellingen van de sms-conn
 
 De handleiding Aan de slag is uitgebreid en opnieuw ingedeeld. [Meer informatie](../../start/using/about-campaign-standard.md)
 
-De pagina met afgeschafte en verwijderde functies is bijgewerkt. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/deprecated-features.html)
+De pagina met afgeschafte en verwijderde functies is bijgewerkt. [Meer informatie](../../rn/using/deprecated-features.md)
 
 De sectie over integratie met Dreamweaver is bijgewerkt en verbeterd. [Meer informatie](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 
@@ -573,7 +577,7 @@ De lijst met HTML-kenmerken voor volledige compatibiliteit met de Creative Desig
 
 Er is informatie toegevoegd over de standaardtaal voor meertalige sjablonen. [Meer informatie](../../channels/using/multilingual-messages-template.md)
 
-De gebruikershandleiding en de beveiligingsgids zijn bijgewerkt om de afschaffing van de ondersteuning voor geografische eenheden voor nieuwe Campaign Standard-instanties en voor bestaande instanties zonder geografische eenheden vanaf de release 18.7 weer te geven. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/deprecated-features.html)
+De gebruikershandleiding en de beveiligingsgids zijn bijgewerkt om de afschaffing van de ondersteuning voor geografische eenheden voor nieuwe Campaign Standard-instanties en voor bestaande instanties zonder geografische eenheden vanaf de release 18.7 weer te geven. [Meer informatie](../../rn/using/deprecated-features.md)
 
 ## Release 18.6 - juni 2018 {#release-18-6---june-2018}
 
