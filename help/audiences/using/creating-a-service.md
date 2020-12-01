@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 # Een service maken{#creating-a-service}
 
 Om abonnementen te kunnen beheren, moet u eerst een service maken en configureren. Als u een nieuwe service configureert, kunt u de e-mailbevestigingen opgeven die de profielen ontvangen wanneer zij zich voor de service in- of uitschrijven. U definieert ook de landingspagina&#39;s voor in- en uitschrijven, die aan de service zijn gekoppeld. Een koppeling voor service-inschrijving die in een e-mail is ingevoegd, leidt het profiel bijvoorbeeld automatisch naar de landingspagina voor inschrijving die in de service is opgegeven.
+
+![](assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#video)
 
 Een service configureren:
 
@@ -55,7 +57,14 @@ Zodra de service is gemaakt, kunt u deze gaan promoten.
 
 **Verwante onderwerpen:**
 
-* Video [Een service en abonnementen beheren](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/services-and-subscriptions.html)
 * [Een service promoten](../../audiences/using/promoting-a-service.md)
 * [Een doelgroep van abonnees maken](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [Een landingspagina koppelen aan een service](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
+
+## Video over zelfstudie {#video}
+
+In deze video ziet u hoe u een service kunt maken en de abonnementen ervan kunt beheren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+
+Er zijn [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl) extra Campaign Standard hoe kan ik-video&#39;s beschikbaar.
