@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 100%
+source-wordcount: '1027'
+ht-degree: 97%
 
 ---
 
@@ -24,9 +24,10 @@ De belangrijkste stappen bij het instellen van landingspagina&#39;s zijn als vol
 
 Op deze pagina vindt u informatie over elk van deze stappen en verwijzingen naar des desbetreffende documentatie voor meer informatie.
 
+![](assets/do-not-localize/how-to-video.png) [Ontdek hoe u bestemmingspagina&#39;s in video kunt maken](#video)
+
 **Verwante onderwerpen:**
 
-* [Tutorial voor het maken van landingspagina&#39;s](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html) (
 * [Een service maken](../../audiences/using/creating-a-service.md)
 * [Een dubbele opt-inprocedure instellen](setting-up-a-double-opt-in-process.md)
 
@@ -131,3 +132,11 @@ Na publicatie kan de landingspagina online worden bekeken. U kunt de landingspag
 Na publicatie is de landingspagina klaar voor gebruik. Op dit punt kunt u verschillende methoden instellen waarmee u toegang krijgt tot de pagina. Zo kunt u nieuwe profielen opnemen in uw database, of aanvullende informatie over bestaande profielen verkrijgen.
 
 Raadpleeg [deze sectie](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page) voor meer informatie over het publiceren van een landingspagina.
+
+## Video over zelfstudie {#video}
+
+In deze video wordt getoond hoe u een openingspagina kunt maken en bewerken.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
+
+Er zijn [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl) extra Campaign Standard hoe kan ik-video&#39;s beschikbaar.
