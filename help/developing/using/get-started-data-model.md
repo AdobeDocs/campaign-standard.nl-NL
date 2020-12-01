@@ -7,10 +7,10 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 24%
+source-wordcount: '336'
+ht-degree: 25%
 
 ---
 
@@ -29,9 +29,9 @@ Breid het Campaign Standard-datamodel uit met uw eigen velden en bronnen, en con
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-De gegevens die door Campagne worden gebruikt worden bepaald door verschillende middelen die in een **vooraf bepaald gegevensmodel** worden bepaald. Het gegevensmodel toont een uit-van-de-doosSQL structuur voor een reeks marketing-verwante middelen: levering, publiek, openingspagina&#39;s, profiel, enz. Elk middel komt met bijbehorende filters, die u toestaan om door de middelen te navigeren.
+De gegevens die door Campagne worden gebruikt worden bepaald door verschillende middelen die in **vooraf bepaald gegevensmodel** worden bepaald. Het gegevensmodel toont een uit-van-de-doosSQL structuur voor een reeks marketing-verwante middelen: levering, publiek, openingspagina&#39;s, profiel, enz. Elk middel komt met bijbehorende filters, die u toestaan om door de middelen te navigeren.
 
-In het menu **Diagnose** kunt u de technische objecten weergeven die door Campaign Standard worden gegenereerd: gegevensschema&#39;s, webpagina&#39;s, filters, enz., waarmee u het gegevensmodel en eventuele wijzigingen kunt controleren.
+Met het menu **Diagnose** kunt u de technische objecten weergeven die door Campaign Standard worden gegenereerd: gegevensschema&#39;s, webpagina&#39;s, filters, enz., waarmee u het gegevensmodel en eventuele wijzigingen kunt controleren.
 
 Meer informatie:
 
@@ -44,9 +44,9 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Met Campaign Standard kunt u het vooraf gedefinieerde gegevensmodel **** verrijken om uw eigen bronnen te maken (bijvoorbeeld om inkooptabellen of producttabellen toe te voegen) of om bestaande bronnen uit te breiden met nieuwe velden. U kunt de schermen van de Campagne ook vormen om de navigatie door de nieuwe middelen en de gebieden te optimaliseren die zijn gecreeerd.
+Met Campaign Standard kunt u **Het vooraf gedefinieerde gegevensmodel verrijken** om uw eigen bronnen te maken (bijvoorbeeld om tabellen met aankopen of producten toe te voegen) of om bestaande bronnen uit te breiden met nieuwe velden. U kunt de schermen van de Campagne ook vormen om de navigatie door de nieuwe middelen en de gebieden te optimaliseren die zijn gecreeerd.
 
-Daarnaast kunt u de REST API&#39;s **van Campaign Standard** uitbreiden om deze beschikbaar te maken in de uitgebreide API&#39;s voor de aangepaste bronnenprofielen. Zo kunt u bijvoorbeeld het profiel van een klant bijwerken met een promotiecode die is gegenereerd op basis van een factureringssysteem.
+Bovendien kunt u **Campaign Standard REST APIs** uitbreiden om in de APIs uitgebreide gebieden voor de Profielen van douanemiddelen bloot te stellen. Zo kunt u bijvoorbeeld het profiel van een klant bijwerken met een promotiecode die is gegenereerd op basis van een factureringssysteem.
 
 Meer informatie:
 
@@ -64,5 +64,4 @@ Met Campaign Standard APIs, creeer integraties voor Adobe Campaign Standard en b
 ## Aanvullende bronnen
 
 * [Informatie over de Adobe Experience Platform-gegevensconnector](../../developing/using/aep-about-data-connector.md)
-* [Aangepaste bronnen maken (video)](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/developing/custom-resources-develop/creating-custom-resources.html)
 * [Aangepaste resources exporteren en importeren](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
