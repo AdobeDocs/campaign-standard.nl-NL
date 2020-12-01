@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '781'
 ht-degree: 82%
 
 ---
@@ -31,15 +31,15 @@ Sommige internetproviders beschouwen e-mails automatisch als spam als het aantal
 
 Bovendien zijn de verzendkosten voor sms-berichten lager doordat onjuiste telefoonnummers van de levering worden uitgesloten.
 
-Raadpleeg [deze pagina](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html) voor meer informatie over de best practices voor het beveiligen en optimaliseren van uw leveringen.
+Raadpleeg [deze pagina](../../sending/using/delivery-best-practices.md) voor meer informatie over de best practices voor het beveiligen en optimaliseren van uw leveringen.
 
-### Quarantine versus Lijst van afgewezen personen {#quarantine-vs-denylist}
+### Quarantaine versus Lijst van afgewezen personen {#quarantine-vs-denylist}
 
 **Quarantaine** is alleen van toepassing op een adres, niet op het profiel zelf. Wanneer twee profielen hetzelfde e-mailadres hebben, worden ze dus allebei beïnvloed als het adres in quarantaine wordt geplaatst.
 
 Op dezelfde manier kan een profiel waarvan het e-mailadres in quarantaine is geplaatst, zijn profiel bijwerken en een nieuw adres invoeren. Dit profiel kan dan opnieuw worden getarget door leveringsacties.
 
-Being on the **Denylist**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out). Voor meer informatie over het proces van de lijst van afgewezen personen, verwijs naar [over opt-in en opt-out in Campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Als u op de **Lijst van afgewezen personen** staat, wordt het profiel echter niet meer gericht op levering, bijvoorbeeld na een abonnement (opt-out). Raadpleeg [Informatie over opt-in en opt-out in Campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) voor meer informatie over de lijst van afgewezen personen.
 
 >[!NOTE]
 >
@@ -86,8 +86,7 @@ Adobe Campaign beheert quarantaine op basis van leveringsfouten en de reden die 
 Als een gebruiker een e-mail kwalificeert als spam (**Feedbacklus**), wordt het bericht automatisch doorgestuurd naar een technisch postvak dat door Campaign wordt beheerd. Het e-mailadres van de gebruiker wordt vervolgens automatisch in quarantaine geplaatst met de status **[!UICONTROL On denylist]**. Deze status verwijst alleen naar het adres, het profiel staat niet op de lijst van afgewezen personen, zodat de gebruiker SMS-berichten en pushberichten blijft ontvangen.
 
 >[!NOTE]
->
->Quarantaine in Adobe Campaign is hoofdlettergevoelig. Zorg dat u de e-mailadressen in kleine letters importeert, zodat ze later niet opnieuw worden getarget.
+Quarantaine in Adobe Campaign is hoofdlettergevoelig. Zorg dat u de e-mailadressen in kleine letters importeert, zodat ze later niet opnieuw worden getarget.
 
 In de lijst met adressen in quarantaine (zie [In quarantaine geplaatste adressen voor het volledige platform identificeren](#identifying-quarantined-addresses-for-the-entire-platform)) geeft het veld **[!UICONTROL Error reason]** aan waarom het geselecteerde adres in quarantaine werd geplaatst.
 
