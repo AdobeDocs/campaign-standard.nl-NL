@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '226'
 ht-degree: 100%
 
 ---
@@ -22,11 +22,11 @@ Met Adobe Campaign kunt u de machtigingen definiëren en beheren die aan verschi
 * **Organisatorische eenheden**: Hiermee kunt u een hiërarchie van machtigingen definiëren voor de verschillende objecten van het platform (e-mails, workflows, sjablonen, gebruikers, profielen, enzovoort). Raadpleeg de sectie [Organisatorische eenheden](../../administration/using/organizational-units.md) .
 * **Rollen**: een reeks eenheidsrechten waarmee u de autorisaties kunt definiëren die aan gebruikers en gebruikersgroepen zijn toegewezen. Raadpleeg de sectie [Lijst met rollen](../../administration/using/list-of-roles.md).
 
-   In combinatie met bedrijfseenheden geven rollen gebruikers een gefilterde weergave van de interface en bepalen deze de toegang van gebruikers tot de verschillende functies. Raadpleeg de [Tabel met autorisaties](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf) voor meer informatie.
+   In combinatie met bedrijfseenheden geven rollen gebruikers een gefilterde weergave van de interface en bepalen deze de toegang van gebruikers tot de verschillende functies. Raadpleeg de [Tabel met autorisaties](../../administration/using/list-of-roles.md) voor meer informatie.
 
 >[!IMPORTANT]
 >
->Merk op dat de ondersteuning voor geografische eenheden is afgeschaft. Raadpleeg [deze pagina](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/deprecated-features.html) voor meer informatie.
+>Merk op dat de ondersteuning voor geografische eenheden is afgeschaft. Raadpleeg [deze pagina](../../rn/using/deprecated-features.md) voor meer informatie.
 
 Rollen, groepen en organisatorische eenheden kunnen worden beheerd door de functionele beheerder van het platform, onder het menu **[!UICONTROL Administration > Users & Security]**.
 
