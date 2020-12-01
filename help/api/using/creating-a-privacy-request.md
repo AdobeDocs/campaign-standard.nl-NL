@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 8%
+source-wordcount: '210'
+ht-degree: 6%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 8%
 
 >[!CAUTION]
 >
->De integratie van de Dienst [van de Dienst van de](https://adobe.io/apis/cloudplatform/gdpr.html) Privacy is de methode u voor alle toegang zou moeten gebruiken en verzoeken schrapt. Vanaf 19.4 is het gebruik van de campagne-API en de interface voor toegangs- en verwijderingsverzoeken afgekeurd. Raadpleeg [deze pagina](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/deprecated-features.html)voor meer informatie over afgekeurde en verwijderde functies van Campaign Standard.
+>De [Integratie van de Kern van de Privacy](https://adobe.io/apis/cloudplatform/gdpr.html) is de methode u voor alle toegang zou moeten gebruiken en verzoeken schrapt. Vanaf 19.4 is het gebruik van de campagne-API en de interface voor toegangs- en verwijderingsverzoeken afgekeurd. Raadpleeg [deze pagina](../../rn/using/deprecated-features.md) voor meer informatie over afgekeurde en verwijderde functies van Campaign Standard.
 
-De verzoeken van de privacy worden gecreeerd gebruikend een verzoek van de **POST** .
+De verzoeken van de privacy worden gecreeerd gebruikend een **POST** verzoek.
 
-Voordat u aanvragen maakt, moet u de naamruimte definiëren die u wilt gebruiken. Raadpleeg de documentatie [over](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)privacybeheer voor meer informatie.
+Voordat u aanvragen maakt, moet u de naamruimte definiëren die u wilt gebruiken. Raadpleeg de [documentatie over privacybeheer](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) voor meer informatie.
 
 De lading moet de volgende parameters bevatten:
 
@@ -32,7 +32,7 @@ De lading moet de volgende parameters bevatten:
 * **reconciliatiewaarde**: de afstemmingswaarde gebaseerd op de afstemmingssleutel die is gedefinieerd in de naamruimte
 * **label**: het aanvraaglabel
 * **type**: het type aanvraag. Accepteerde waarden zijn &quot;access&quot; of &quot;delete&quot;.
-* **verordening**: het type regelgeving. Voorbeeld: &quot;GDPR&quot;, &quot;CCPA&quot;. Deze parameter is verplicht en is beschikbaar vanaf Campaign Standard 19.4. Als u zich op een oudere build bevindt, hoeft u deze niet toe te voegen aan uw lading.
+* **verordening** : het type regelgeving. Voorbeeld: &quot;GDPR&quot;, &quot;CCPA&quot;. Deze parameter is verplicht en is beschikbaar vanaf Campaign Standard 19.4. Als u zich op een oudere build bevindt, hoeft u deze niet toe te voegen aan uw lading.
 
 <br/>
 
