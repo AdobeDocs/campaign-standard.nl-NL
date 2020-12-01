@@ -1,8 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Privacyverzoeken
-description: Meer informatie over het beheren van privacyverzoeken in Adobe Campaign Standard
+title: Verzoeken om toegang tot persoonsgegevens
+description: Meer informatie over het beheer van verzoeken om toegang tot persoonsgegevens in Adobe Campaign Standard
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -10,50 +10,50 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1711'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Privacyverzoeken beheren {#privacy-requests}
+# Beheer van verzoeken om toegang tot persoonsgegevens {#privacy-requests}
 
-Raadpleeg [deze sectie](../../start/using/privacy-management.md)voor een algemene presentatie over privacybeheer.
+Raadpleeg [deze sectie](../../start/using/privacy-management.md) voor een algemene uitleg van privacybeheer.
 
-Deze informatie is van toepassing op GDPR, CCPA, PDPA en LGPD. For more on these regulations, see [this section](../../start/using/privacy-management.md#privacy-management-regulations).
+Deze informatie geldt voor AVG, CCPA, PDPA en LGPD. Zie [deze sectie](../../start/using/privacy-management.md#privacy-management-regulations) voor meer informatie over deze regelgeving.
 
-De opt-out voor de verkoop van persoonsgegevens, die specifiek is voor de CCPA, wordt in [dit deel](#sale-of-personal-information-ccpa)toegelicht.
+De opt-out voor de verkoop van persoonsgegevens, die specifiek is voor de CCPA, wordt in [deze sectie](#sale-of-personal-information-ccpa) toegelicht.
 
 >[!IMPORTANT]
 >
->Vanaf 19.4 is het gebruik van de campagne-API en de interface voor verzoeken om toegang en verwijdering afgekeurd. Voor om het even welke GDPR, CCPA, PDPA, of verzoeken van de Toegang LGPD en van de Schrapping, moet u de de integratiemethode van de Dienst [van de Kern van de](#create-privacy-request) Privacy gebruiken.
+>Sinds 19.4 is het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken afgeschaft. Voor alle AVG-, CCPA-, PDPA- of LGPD-verzoeken om toegang en verwijdering moet u de [Privacy-kernservice](#create-privacy-request)-integratiemethode gebruiken.
 
-## Over privacyverzoeken {#about-privacy-requests}
+## Verzoeken om toegang tot persoonsgegevens {#about-privacy-requests}
 
-Om u te helpen uw privacy-gereedheid te vergemakkelijken, kunt u met Adobe Campaign aanvragen voor toegang en verwijdering afhandelen. Het **recht op toegang** en het **recht om te worden vergeten** (schrappingsverzoek) worden beschreven in [deze sectie](../../start/using/privacy-management.md#right-access-forgotten).
+Doordat u in Adobe Campaign verzoeken voor toegang en verwijdering kunt afhandelen, kunt u zich gemakkelijker houden aan de privacyregels. Het **toegangsrecht** en het **recht om te worden vergeten** (verwijderingsverzoek) worden in [deze sectie](../../start/using/privacy-management.md#right-access-forgotten) beschreven.
 
-Om die verzoeken uit te voeren, moet u de integratie van de Dienst **van de Kern van de** Privacy gebruiken. De verzoeken van de privacy die van de Dienst van de Kern van de Privacy aan alle oplossingen van de Experience Cloud worden geduwd worden automatisch behandeld door Campagne via een specifieke werkschema.
+Voor het uitvoeren van deze verzoeken moet u de **Privacy-kernservice**-integratie gebruiken. Verzoeken om toegang tot persoonsgegevens die van de Privacy-kernservice naar alle Experience Cloud-oplossingen worden gepusht, worden door Campaign automatisch behandeld via een speciale workflow.
 
 ### Vereisten {#prerequesites}
 
-Adobe Campaign beschikt over gegevensbesturingselementen waarmee u privacyverzoeken voor in Adobe Campaign opgeslagen gegevens kunt maken en verwerken. Het is echter de verantwoordelijkheid van de gegevenscontroller om de relatie met het gegevensonderwerp (e-mail, klantenservice of een webportal) af te handelen.
+Adobe Campaign biedt tools voor gegevenscontrollers waarmee u verzoeken om toegang tot opgeslagen persoonsgegevens in Adobe Campaign kunt maken en verwerken. Het is echter de verantwoordelijkheid van de gegevenscontroller om de relatie met de betrokkene (e-mail, klantenservice of een webportal) af te handelen.
 
-Daarom is het uw verantwoordelijkheid als Data Controller om de identiteit te bevestigen van de betrokkene die het verzoek indient en om te bevestigen dat de gegevens die aan de aanvrager worden teruggegeven over het onderwerp van Gegevens gaan.
+Daarom is het uw verantwoordelijkheid als gegevenscontroller om de identiteit te bevestigen van de betrokkene die het verzoek indient, en om te bevestigen dat de gegevens die naar de aanvrager worden teruggestuurd, over de betrokkene gaan.
 
 >[!NOTE]
 >
->Voor meer informatie over persoonsgegevens en over de verschillende entiteiten die gegevens beheren (Data Controller, Data Processor en Data Subject), zie [Persoonsgegevens en Persoonlijke personen](../../start/using/privacy.md#personal-data).
+>Voor meer informatie over persoonsgegevens en over de verschillende entiteiten die gegevens beheren (gegevenscontroller, gegevensprocessor en betrokkene) raadpleegt u [Persoonsgegevens en persona&#39;s](../../start/using/privacy.md#personal-data).
 
 ### Naamruimten {#namesspaces}
 
-Voordat u privacyverzoeken maakt, moet u de naamruimte definiëren die u wilt gebruiken. De naamruimte is de sleutel die wordt gebruikt om het gegevensonderwerp in de Adobe Campaign-database te identificeren. Er zijn twee naamruimten beschikbaar die zich buiten het vak bevinden: e-mail en mobiele telefoon. Voer de volgende stappen uit als u een andere naamruimte nodig hebt (bijvoorbeeld een aangepast profielveld).
+Voordat u verzoeken om toegang tot persoonsgegevens maakt, moet u de naamruimte definiëren die u wilt gebruiken. De naamruimte is de sleutel die wordt gebruikt om de betrokkene in de Adobe Campaign-database te identificeren. Er zijn twee ingebouwde naamruimten beschikbaar: e-mail en mobiele telefoon. Voer de volgende stappen uit als u een andere naamruimte nodig hebt (bijvoorbeeld een aangepast profielveld).
 
-Raadpleeg ook deze [zelfstudie](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=en#privacy) over het maken van een naamruimte.
+Raadpleeg ook deze [tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=nl#privacy) over het maken van een naamruimte.
 
 >[!NOTE]
 >
->Als u meerdere naamruimten gebruikt, moet u één privacyverzoek per naamruimte maken.
+>Als u meerdere naamruimten gebruikt, moet u één verzoek om toegang tot persoonsgegevens per naamruimte maken.
 
-1. Click the Adobe Campaign logo in the top left corner, then select **[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**.
+1. Klik op het Adobe Campaign-logo in de linkerbovenhoek en selecteer **[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**.
 
    ![](assets/privacy-namespaces.png)
 
@@ -61,186 +61,186 @@ Raadpleeg ook deze [zelfstudie](https://experienceleague.adobe.com/docs/campaign
 
    ![](assets/privacy-namespace-create.png)
 
-1. Voer een **[!UICONTROL Label]** waarde in.
+1. Voer een **[!UICONTROL Label]** in.
 
    ![](assets/privacy-namespace-label.png)
 
-1. Als u een bestaande naamruimte voor identiteitsservice wilt gebruiken, kiest **[!UICONTROL Map from Identity Namespace Service]** en selecteert u een naamruimte in de **[!UICONTROL Identity Service Namespaces]** lijst.
+1. Als u een bestaande naamruimte voor een identiteitsservice wilt gebruiken, kiest u **[!UICONTROL Map from Identity Namespace Service]** en selecteert u een naamruimte in de lijst **[!UICONTROL Identity Service Namespaces]**.
 
    ![](assets/privacy-map-from-namespace.png)
 
-   Als u een nieuwe naamruimte wilt maken in **[!UICONTROL Identity Service]** en deze wilt toewijzen in Campagne, selecteert u **[!UICONTROL Create new]** en voert u een naam in het **[!UICONTROL Identity namespace name]** veld in.
+   Als u een nieuwe naamruimte wilt maken in **[!UICONTROL Identity Service]** en deze wilt toewijzen in Campaign, selecteert u **[!UICONTROL Create new]** en voert u een naam in het veld **[!UICONTROL Identity namespace name]** in.
 
    ![](assets/privacy-create-new-namespace.png)
 
-   Raadpleeg de documentatie bij het [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=en) voor meer informatie over naamruimten.
+   Raadpleeg de documentatie bij [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=nl) voor meer informatie over naamruimten.
 
-1. Één Namespace van de Dienst van de Identiteit wordt in kaart gebracht aan één namespace in Campagne. U moet opgeven hoe de naamruimte in Campagne moet worden afgestemd.
+1. In Campaign wordt één INS (Identity Service Namespace) toegewezen aan één naamruimte. U moet opgeven hoe de naamruimte in Campaign wordt afgestemd.
 
    Selecteer een doeltoewijzing (**[!UICONTROL Recipients]**, **[!UICONTROL Real-time event]** of **[!UICONTROL Subscriptions to an application]**). Als u verschillende doeltoewijzingen wilt gebruiken, moet u één naamruimte per doeltoewijzing maken.
 
    ![](assets/privacy-namespace-target-mapping.png)
 
-1. Kies de **[!UICONTROL Reconciliation key]**. Dit is het gebied dat zal worden gebruikt om het Onderwerp van Gegevens in het gegevensbestand van Adobe Campaign te identificeren.
+1. Kies de **[!UICONTROL Reconciliation key]**. Dit is het veld dat wordt gebruikt om de betrokkene in de Adobe Campaign-database te identificeren.
 
    ![](assets/privacy-namespace-reconciliation-key.png)
 
-1. Klik op **[!UICONTROL Create]**. U kunt nu privacyverzoeken maken op basis van uw nieuwe naamruimte. Als u meerdere naamruimten gebruikt, moet u één privacyverzoek per naamruimte maken.
+1. Klik op **[!UICONTROL Create]**. U kunt nu verzoeken om toegang tot persoonsgegevens maken op basis van uw nieuwe naamruimte. Als u meerdere naamruimten gebruikt, moet u één verzoek om toegang tot persoonsgegevens per naamruimte maken.
 
-### Creating a Privacy request {#create-privacy-request}
+### Een privacyverzoek maken {#create-privacy-request}
 
 >[!IMPORTANT]
 >
->De integratie van de Dienst **van de Kern van de** Privacy is de methode u voor alle verzoeken van de Toegang en van de Schrapping zou moeten gebruiken.
+>De integratie van de **Privacy-kernservice** is de methode die u moet gebruiken voor alle verzoeken om toegang en verwijdering.
 >
->Vanaf 19.4 is het gebruik van de campagne-API en de interface voor verzoeken om toegang en verwijdering afgekeurd. Gebruik de Privacy Service van de Kern voor om het even welke GDPR, CCPA, PDPA, of verzoeken van de Toegang LGPD en van de Schrapping.
+>Sinds 19.4 is het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken afgeschaft. Gebruik de Privacy-kernservice voor elk AVG-, CCPA-, PDPA- of LGPD-verzoek om toegang of verwijdering.
 
-De integratie van de Dienst van de Kern van de Privacy staat u toe om uw verzoeken van de Privacy in een multi-oplossingscontext door één enkele vraag van JSON API te automatiseren. De verzoeken van de privacy die van de Dienst van de Kern van de Privacy aan alle oplossingen van de Experience Cloud worden geduwd worden automatisch behandeld door Campagne via een specifieke werkschema.
+Dankzij de integratie van de Privacy-kernservice kunt u uw verzoeken om toegang tot persoonsgegevens automatiseren in een context met meerdere oplossingen via één JSON API-aanroep. Verzoeken om toegang tot persoonsgegevens die van de Privacy-kernservice naar alle Experience Cloud-oplossingen worden gepusht, worden door Campaign automatisch behandeld via een speciale workflow.
 
-Raadpleeg de documentatie bij de Privacy Service [van het](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en) Experience Platform voor meer informatie over het maken van privacyverzoeken van de Privacy Core Service.
+Raadpleeg de documentatie bij de [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl) om te ontdekken hoe u verzoeken om toegang tot persoonsgegevens kunt maken vanuit de Privacy-kernservice.
 
-Elke de kernde dienstbaan van de Privacy wordt verdeeld in veelvoudige verzoeken van de Privacy in Campagne die op hoeveel namespaces wordt gebaseerd, één verzoek beantwoordt aan één namespace. Bovendien kan één taak op meerdere instanties worden uitgevoerd. Daarom worden er meerdere bestanden gemaakt voor één taak. Als een aanvraag bijvoorbeeld twee naamruimten heeft en op drie instanties wordt uitgevoerd, worden in totaal zes bestanden verzonden. Eén bestand per naamruimte en instantie.
+Elke Privacy-kernservicetaak in Campaign is gesplitst in meerdere verzoeken om toegang tot persoonsgegevens op basis van het aantal gebruikte naamruimten, waarbij één verzoek correspondeert met één naamruimte. Bovendien kan één taak op meerdere instanties worden uitgevoerd. Daarom worden er meerdere bestanden gemaakt voor één taak. Als een verzoek bijvoorbeeld twee naamruimten bevat en op drie instanties wordt uitgevoerd, worden in totaal zes bestanden verzonden. Eén bestand per naamruimte en instantie.
 
 Het patroon voor een bestandsnaam is: `<InstanceName>-<NamespaceId>-<ReconciliationKey>.xml`
 
-* **InstanceName**: Instantienaam campagne
-* **NamespaceId**: Identiteitsservice-naamruimte-id van de gebruikte naamruimte
-* **Afstemmingssleutel**: Gecodeerde afstemmingssleutel
+* **InstanceName**: Campaign-instantienaam
+* **NamespaceId**: naamruimte-ID identiteitsservice van de gebruikte naamruimte
+* **Afstemmingssleutel**: gecodeerde afstemmingssleutel
 
 ### Lijst met bronnen {#list-of-resources}
 
-Wanneer het uitvoeren van een verzoek van de Privacy van de Schrapping of van de Toegang, zoekt Adobe Campaign alle gegevens van het Onderwerp die op de waarde van de **Verzoening** worden gebaseerd in alle middelen die een verbinding aan het profielmiddel (eigen type) hebben.
+Bij het uitvoeren van een verzoek om verwijdering of toegang tot persoonsgegevens zoekt Adobe Campaign alle gegevens van de betrokkene op basis van de waarde voor **Afstemming** in alle bronnen die een koppeling bevatten naar de profielbron (eigen type).
 
-Hier is de lijst van uit-van-de-doos middelen die in aanmerking worden genomen wanneer het uitvoeren van de verzoeken van de Privacy:
+Hier volgt de lijst van ingebouwde bronnen waarmee rekening wordt gehouden bij het uitvoeren van verzoeken om toegang tot persoonsgegevens:
 
 * Profielen (ontvanger)
-* Logbestanden voor profiellevering (wideLogRcp)
-* Logbestanden voor het bijhouden van profielen (trackingLogRcp)
-* Leveringslogboeken (abonnementen op een toepassing) (wideLogAppSubRcp)
-* Logbestanden bijhouden (abonnementen op een toepassing) (trackingLogAppSubRcp)
-* Abonnementen op een toepassing (appSubscriptionRcp)
+* Profielverzendingslogs (broadLogRcp)
+* Profieltrackinglogs (trackingLogRcp)
+* Verzendingslogs (abonnementen op een applicatie) (broadLogAppSubRcp)
+* Trackinglogs (abonnementen op een applicatie) (trackingLogAppSubRcp)
+* Abonnementen op een applicatie (appSubscriptionRcp)
 * Abonnementsgeschiedenis van profielen (subHistoRcp)
 * Profielabonnementen (subscriptionRcp)
-* Bezoekers (bezoeker)
+* Bezoekers (visitor)
 
-Als u douanemiddelen creeerde die een verbinding aan het profielmiddel (eigen type) hebben, zullen zij ook in aanmerking worden genomen. Bijvoorbeeld, als u een transactiemiddel verbonden aan het profielmiddel en een middel van de transactiedetails verbonden aan het transactiemiddel hebt, zullen zij allebei in aanmerking worden genomen.
+Als u aangepaste bronnen hebt gemaakt met een koppeling naar de profielbron (eigen type), wordt hiermee ook rekening gehouden. Als u bijvoorbeeld een transactiebron hebt met een koppeling naar de profielbron en een transactiedetailbron met een koppeling naar de transactiebron, wordt met beide rekening gehouden.
 
-Raadpleeg ook [deze zelfstudie](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=en#privacy) over het wijzigen van aangepaste bronnen.
+Raadpleeg ook [deze tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=nl#privacy) over het wijzigen van aangepaste bronnen.
 
-Dit werkt alleen als u de **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** optie selecteert in de aangepaste bron:
+Dit werkt alleen als u in de aangepaste bron de optie **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** selecteert:
 
-1. Click the Adobe Campaign logo in the top left corner, then select **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**.
+1. Klik op het Adobe Campaign-logo in de linkerbovenhoek en selecteer **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**.
 
-1. Selecteer een douanemiddel dat een verbinding aan het profielmiddel (eigen type) heeft.
+1. Selecteer een aangepaste bron met een koppeling naar de profielbron (eigen type).
 
-1. Klik op de **[!UICONTROL Links]** sectie.
+1. Klik op de sectie **[!UICONTROL Links]**.
 
 1. Klik voor elke koppeling op het potloodpictogram (**[!UICONTROL Edit properties]**).
 
-1. In the **[!UICONTROL Behavior if deleted/duplicated]** section, select the **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** option.
+1. Selecteer in de sectie **[!UICONTROL Behavior if deleted/duplicated]** de optie **[!UICONTROL Deleting the target record implies deleting records referenced by the link]**.
 
    ![](assets/privacy-cus-resource-option.png)
 
-### Status van privacyverzoek {#privacy-request-statuses}
+### Status van verzoeken om toegang tot persoonsgegevens {#privacy-request-statuses}
 
-Hier volgen de verschillende statussen voor privacyverzoeken:
+Dit zijn de verschillende statussen voor verzoeken om toegang tot persoonsgegevens:
 
-* **[!UICONTROL New]** / **[!UICONTROL Retry pending]**: de workflow heeft de aanvraag nog niet verwerkt.
-* **[!UICONTROL Processing]** / **[!UICONTROL Retry in progress]**: de workflow verwerkt de aanvraag.
-* **[!UICONTROL Delete pending]**: in de workflow zijn alle te verwijderen gegevens voor ontvangers geïdentificeerd.
+* **[!UICONTROL New]**/**[!UICONTROL Retry pending]**: in uitvoering, de workflow heeft het verzoek nog niet verwerkt.
+* **[!UICONTROL Processing]**/**[!UICONTROL Retry in progress]**: de workflow verwerkt het verzoek.
+* **[!UICONTROL Delete pending]**: in de workflow zijn alle te verwijderen gegevens van ontvangers geïdentificeerd.
 * **[!UICONTROL Delete in progress]**: de workflow verwerkt de verwijdering.
    <!--**[!UICONTROL Delete Confirmation Pending]** (Delete request in 2-steps process mode): the workflow has processed the Access request. Manual confirmation is requested to perform the deletion. The button is available for 15 days.-->
-* **[!UICONTROL Complete]**: de verwerking van de aanvraag is zonder fout voltooid.
-* **[!UICONTROL Error]**: er is een fout opgetreden in de workflow. De reden wordt getoond in de lijst van de verzoeken van de Privacy in de **[!UICONTROL Request status]** kolom. Bijvoorbeeld, **[!UICONTROL Error data not found]** betekent dat geen ontvankelijke gegevens die de Onderwerp van Gegevens aanpassen in het gegevensbestand **[!UICONTROL Reconciliation value]** zijn gevonden.
+* **[!UICONTROL Complete]**: de verwerking van het verzoek is zonder fout voltooid.
+* **[!UICONTROL Error]**: er is een fout opgetreden in de workflow. De reden wordt weergegeven in de kolom **[!UICONTROL Request status]** in de lijst met verzoeken om toegang tot persoonsgegevens. **[!UICONTROL Error data not found]** betekent bijvoorbeeld dat er in de database geen ontvangersgegevens zijn gevonden die overeenkomen met de **[!UICONTROL Reconciliation value]** van de betrokkene.
 
-### Het proces in twee stappen uitschakelen {#disabling-two-step-process}
+### Het tweestapsproces uitschakelen {#disabling-two-step-process}
 
-De Core-Privacy Service ondersteunt het proces in twee stappen niet.
+De Privacy-kernservice ondersteunt het tweestapsproces niet.
 
 >[!IMPORTANT]
 >
->Alvorens de integratie van de Privacy Service van de Kern te gebruiken om uw verzoeken van de Privacy te beheren, moet u het proces van twee stappen voor verzoeken van de Schrapping van de interface van de Campaign Standard onbruikbaar maken.
+>Voordat u de Privacy-kernservice-integratie gebruikt om uw verzoeken om toegang tot persoonsgegevens te beheren, moet u het tweestapsproces voor verzoeken om verwijdering van persoonsgegevens in de Campaign Standard-interface uitschakelen.
 
-Als deze optie niet is uitgeschakeld, blijven alle verwijderverzoeken die met de Privacy Core Service worden beheerd in behandeling en worden deze niet voltooid.
+Als deze optie niet wordt uitgeschakeld, blijven alle verwijderingsverzoeken die met de Privacy-kernservice worden beheerd, in de status van behandeling en worden niet voltooid.
 
-Standaard wordt het proces in twee stappen geactiveerd.
+Het tweestapsproces is standaard geactiveerd.
 
-Als u deze modus wilt wijzigen, klikt u **[!UICONTROL Edit properties]** in de rechterbovenhoek van het **[!UICONTROL Privacy Requests]** scherm en schakelt u de **[!UICONTROL Activate the 2-step process]** optie uit.
+Als u deze modus wilt wijzigen, klikt u op **[!UICONTROL Edit properties]** in de rechterbovenhoek van het scherm **[!UICONTROL Privacy Requests]** en schakelt u de optie **[!UICONTROL Activate the 2-step process]** uit.
 
 ![](assets/privacy-disable-2-step-process.png)
 
-## Opt-out voor de verkoop van persoonlijke gegevens (CCPA) {#sale-of-personal-information-ccpa}
+## Opt-out voor de verkoop van persoonsgegevens (CCPA) {#sale-of-personal-information-ccpa}
 
-The **California Consumer Privacy Act** (CCPA) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
+De **California Consumer Privacy Act** (CCPA) biedt inwoners van Californië nieuwe rechten met betrekking tot hun persoonsgegevens en legt verantwoordelijkheden op het gebied van gegevensbescherming op aan bepaalde entiteiten die zaken doen in Californië.
 
-De configuratie en het gebruik van verzoeken van de Toegang en van de Schrapping zijn gemeenschappelijk voor zowel GDPR als CCPA. In dit deel wordt de opt-out voor de verkoop van persoonsgegevens beschreven, die specifiek is voor de CCPA.
+De configuratie en het gebruik van verzoeken om toegang en verwijdering zijn hetzelfde voor de AVG en CCPA. In deze sectie wordt de opt-out voor de verkoop van persoonsgegevens beschreven, dit geldt specifiek voor de CCPA.
 
-Naast de [instrumenten voor het beheer](../../start/using/privacy-management.md#consent-management) van toestemming die Adobe Campaign biedt, kunt u nagaan of een consument heeft gekozen voor de verkoop van persoonlijke informatie.
+Naast de tools voor [toestemmingsbeheer](../../start/using/privacy-management.md#consent-management) die Adobe Campaign biedt, kunt u ook nagaan of een consument ervoor heeft gekozen om zich af te melden voor de verkoop van persoonsgegevens.
 
-Een consument besluit via uw systeem dat hij/zij niet toestaat dat zijn/haar persoonlijke gegevens aan derden worden verkocht. In Adobe Campaign kun je deze gegevens opslaan en volgen.
+Een consument besluit via uw systeem om niet toe te staan dat zijn/haar persoonsgegevens aan derden worden verkocht. In Adobe Campaign kunt u deze gegevens opslaan en volgen.
 
 >[!NOTE]
 >
->U kunt de opt-out gebruiken voor de verkoop van persoonlijke gegevens via de Campagne-interface en via de API. U kunt dit niet gebruiken via de Privacy Core Service.
+>U kunt de opt-out gebruiken voor de verkoop van persoonsgegevens via de Campaign-interface en via de API. U kunt de optie niet gebruiken via de Privacy-kernservice.
 
 >[!IMPORTANT]
 >
->Het is uw verantwoordelijkheid als de verantwoordelijke voor de gegevens om het verzoek van de betrokkene te ontvangen en de aanvraagdata voor de CCPA bij te houden. Als technologieleverancier bieden we alleen een manier om te weigeren. Voor meer op uw rol als Controlemechanisme van Gegevens, zie [Persoonlijke gegevens en Personas](../../start/using/privacy.md#personal-data).
+>Het is uw verantwoordelijkheid als gegevenscontroller om het verzoek van de betrokkene te ontvangen en de verzoekdatums voor de CCPA bij te houden. Als technologieleverancier bieden wij alleen een methode voor opt-out. Raadpleeg [Persoonsgegevens en persona&#39;s](../../start/using/privacy.md#personal-data) voor meer informatie over uw rol als gegevenscontroller.
 
 ### Vereiste voor aangepaste tabellen {#ccpa-prerequisite}
 
-Vanaf 19.4 wordt het **[!UICONTROL CCPA Opt-Out]** veld in de Campagne-interface en de API buiten de box geplaatst. Het veld is standaard beschikbaar voor de standaardbron. **[!UICONTROL Profile]**
+Vanaf versie 19.4 is het veld **[!UICONTROL CCPA Opt-Out]** ingebouwd in de Campaign-interface en -API. Het veld is standaard beschikbaar voor de standaard **[!UICONTROL Profile]**-bron.
 
-Als u een middel van het douaneprofiel gebruikt, moet u het middel uitbreiden en het gebied toevoegen. Wij adviseren dat u een verschillende naam dan het uit-van-de-doos gebied gebruikt, bijvoorbeeld:  **[!UICONTROL Opt-Out for CCPA]** (optoutcpa). Wanneer een nieuw veld wordt gemaakt, wordt dit automatisch ondersteund door de campagne-API.
+Als u een aangepaste profielbron gebruikt, moet u de bron uitbreiden en het veld toevoegen. We adviseren u om een andere naam te gebruiken dan het ingebouwde veld, zoals: **[!UICONTROL Opt-Out for CCPA]** (optoutccpa). Wanneer een nieuw veld wordt gemaakt, wordt dit automatisch ondersteund door de Campaign-API.
 
-Zie [deze sectie](../../developing/using/extending-the-profile-resource-with-a-new-field.md)voor meer informatie over het uitbreiden van de profielbron.
+Zie [deze sectie](../../developing/using/extending-the-profile-resource-with-a-new-field.md) voor meer informatie over het uitbreiden van de profielbron.
 
 >[!NOTE]
 >
->Het wijzigen van middelen is een gevoelige verrichting die door deskundige slechts gebruikers moet worden uitgevoerd.
+>Het aanpassen van bronnen is een gevoelige bewerking die uitsluitend door deskundige gebruikers mag worden uitgevoerd.
 
-1. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**. Klik op de aangepaste profielbron. Zie [deze sectie](../../developing/using/creating-or-extending-the-resource.md)voor meer informatie over het uitbreiden van een bron.
+1. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**. Klik op de aangepaste profielbron. Zie [deze sectie](../../developing/using/creating-or-extending-the-resource.md) voor meer informatie over het uitbreiden van een bron.
 
    ![](assets/privacy-ccpa-extend-cus.png)
 
-1. Klik **[!UICONTROL Add field]** of **[!UICONTROL Create Element]**, voeg het etiket, identiteitskaart toe en kies het **[!UICONTROL Boolean]** type. Voor de naam, gebruik **Opt-out voor CCPA**. Gebruik voor de id: **optOutCcpa**.
+1. Klik op **[!UICONTROL Add field]** of **[!UICONTROL Create Element]**, voeg de label en de ID toe en kies het type **[!UICONTROL Boolean]**. Gebruik voor de naam de optie **Opt-out voor CCPA**. Gebruik voor de ID: **optOutCcpa**.
 
    ![](assets/privacy-ccpa-extend-field.png)
 
-1. Voeg op het **[!UICONTROL Screen definition]** tabblad onder **[!UICONTROL Detail screen configuration]** het veld toe en selecteer **[!UICONTROL Input field]**. Hiermee wordt het veld beschikbaar gesteld in de lijst met profielen en de details.  Zie [deze sectie](../../developing/using/configuring-the-screen-definition.md)voor meer informatie over het configureren van de schermdefinitie.
+1. Voeg op het tabblad **[!UICONTROL Screen definition]** onder **[!UICONTROL Detail screen configuration]** het veld toe en selecteer **[!UICONTROL Input field]**. Hiermee wordt het veld beschikbaar in de lijst met profielen en details.  Zie [deze sectie](../../developing/using/configuring-the-screen-definition.md) voor meer informatie over het configureren van de schermdefinitie.
 
    ![](assets/privacy-ccpa-extend-screen.png)
 
-1. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]**, bereidt de publicatie voor en publiceer de wijzigingen. Zie [deze sectie](../../developing/using/updating-the-database-structure.md)voor meer informatie over het publiceren van een bron.
+1. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]**, bereid de publicatie voor en publiceer de wijzigingen. Zie [deze sectie](../../developing/using/updating-the-database-structure.md) voor meer informatie over het publiceren van een bron.
 
    ![](assets/privacy-ccpa-extend-pub.png)
 
-1. Controleer of het veld beschikbaar is op de details van een profiel. Zie [deze sectie](#usage)voor meer informatie.
+1. Controleer of het veld beschikbaar is in de details van een profiel. Zie [deze sectie](#usage)voor meer informatie.
 
 ### Gebruik {#usage}
 
-Het is de verantwoordelijkheid van de gegevensverwerker om de waarde van het veld te vullen en de CCPA-richtsnoeren en -regels inzake gegevensverkoop te volgen.
+Het is de verantwoordelijkheid van de gegevenscontroller om de waarde in het veld in te vullen en de CCPA-richtlijnen en -regels voor gegevensverkoop te volgen.
 
-U kunt verschillende methoden gebruiken om de waarden te vullen:
+U kunt verschillende methoden gebruiken om de waarden in te vullen:
 
-* De interface van de campagne gebruiken door de details van de ontvanger te bewerken (zie hieronder)
-* De API voor campagneprivacy gebruiken (zie de [API-documentatie](../../api/using/managing-ccpa-opt-out.md))
+* De Campaign-interface gebruiken door de details van de ontvanger te bewerken (zie verderop)
+* De Campaign-privacy-API gebruiken (zie de [API-documentatie](../../api/using/managing-ccpa-opt-out.md))
 * Via een workflow voor het importeren van gegevens
 
-Vervolgens moet u ervoor zorgen dat u nooit de persoonlijke gegevens van profielen die u hebt afgewezen aan derden verkoopt.
+Vervolgens moet u ervoor zorgen dat u de persoonsgegevens van profielen die zich hebben afgemeld nooit aan derden verkoopt.
 
-1. Bewerk in de interface van de campagne een profiel om de status van de optie Weigeren te wijzigen.
+1. Bewerk een profiel in de Campaign-interface om de status voor opt-out te wijzigen.
 
    ![](assets/privacy-ccpa-profile-opt-out.png)
 
-1. Wanneer de waarde van het veld is **[!UICONTROL True]**, wordt de informatie weergegeven in de details van het profiel.
+1. Wanneer de waarde van het veld **[!UICONTROL True]** is, wordt de informatie weergegeven in de details van het profiel.
 
    ![](assets/privacy-ccpa-profile-opt-out-true.png)
 
-1. U kunt de profielenlijst vormen om de op-uit kolom te tonen. Leren hoe te om lijsten te vormen, zie [deze sectie](../../start/using/customizing-lists.md).
+1. U kunt de profielenlijst configureren om de opt-outkolom weer te geven. Als u wilt weten hoe u lijsten kunt configureren, raadpleegt u [deze sectie](../../start/using/customizing-lists.md).
 
    ![](assets/privacy-ccpa-profile-configure-list.png)
 
-1. U kunt op de kolom klikken om ontvangers te sorteren op basis van de gegevens voor niet-deelname.
+1. U kunt op de kolom klikken om ontvangers te sorteren op basis van de opt-outgegevens.
 
    ![](assets/privacy-ccpa-profile-sorting.png)
