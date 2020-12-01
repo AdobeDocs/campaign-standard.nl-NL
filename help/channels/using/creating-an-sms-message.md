@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 96%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 Het maken van een sms-verzending lijkt sterk op het maken van een standaard e-mail. In de volgende stappen wordt de configuratie beschreven die specifiek is voor dit kanaal. Zie [Een e-mail maken](../../channels/using/creating-an-email.md) voor meer informatie over andere opties.
 
 De geavanceerde sms-parameters worden beschreven in de sectie [Sms-configuratie](../../administration/using/configuring-sms-channel.md).
+
+![](assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#video)
 
 Als u sms-berichten wilt maken en naar een mobiele telefoon verzenden, hebt u het volgende nodig:
 
@@ -78,4 +80,11 @@ Zodra het verzenden is voltooid, kunt u het effect van uw bericht beginnen meten
 
 * [Bewerken van content van sms-berichten en pushmeldingen](../../channels/using/about-sms-and-push-content-design.md)
 * [Sjablonen beheren](../../start/using/marketing-activity-templates.md)
-* Video over het [maken van een sms-levering](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/communication-channels/mobile/sms/sms-delivery.translate.html)
+
+## Video over zelfstudie {#video}
+
+In deze video wordt getoond hoe u een SMS-levering kunt maken.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
+
+Er zijn [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl) extra Campaign Standard hoe kan ik-video&#39;s beschikbaar.
