@@ -7,10 +7,10 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 97%
+source-wordcount: '380'
+ht-degree: 89%
 
 ---
 
@@ -22,6 +22,8 @@ In Adobe Campaign worden profielen standaard gebruikt om het hoofddoel van beric
 >[!NOTE]
 >
 >Het is ook mogelijk om profielen te maken met de Adobe Campaign Standard API. Raadpleeg de [desbetreffende documentatie](../../api/using/creating-profiles.md)voor meer informatie.
+
+![](assets/do-not-localize/how-to-video.png) [Ontdek hoe u profielen kunt importeren met een workflow in video](#video)
 
 Als u een profiel wilt maken of bijwerken in Campaign, kunt u:
 
@@ -50,7 +52,7 @@ Voer bijvoorbeeld de volgende stappen uit om een nieuw profiel rechtstreeks in d
    * In de categorie **[!UICONTROL Channels]**, die het e-mailadres, het mobiele telefoonnummer en informatie over uitschrijvingen bevat, kunt u zien via welk kanaal het profiel kan worden bereikt.
    * De categorie **[!UICONTROL No longer contact]** wordt bijgewerkt zodra het profiel zich uitschrijft bij een kanaal.
    * De categorie **[!UICONTROL Address]** bevat het postadres dat moet worden ingevuld en de optie **[!UICONTROL Address specified]** om [direct mail](../../channels/using/about-direct-mail.md) naar dit profiel te verzenden. Als de optie **[!UICONTROL Address specified]** niet is ingeschakeld, wordt dit profiel uitgesloten van elke direct-maillevering.
-   * The **[!UICONTROL Access authorization]** category indicates the profile&#39;s organizational units to [manage permissions](../../administration/using/about-access-management.md). Raadpleeg de sectie [Partitioneringsprofielen](../../administration/using/organizational-units.md#partitioning-profiles) voor informatie over het toevoegen van organisatorische velden aan uw profielen.
+   * De categorie **[!UICONTROL Access authorization]** geeft de organisatie-eenheden van het profiel aan [rechten beheren](../../administration/using/about-access-management.md). Raadpleeg de sectie [Partitioneringsprofielen](../../administration/using/organizational-units.md#partitioning-profiles) voor informatie over het toevoegen van organisatorische velden aan uw profielen.
    * De categorie **[!UICONTROL Traceability]** wordt automatisch bijgewerkt met informatie over de gebruiker die het profiel heeft gemaakt of gewijzigd.
 
 1. Klik op **[!UICONTROL Create]** om het profiel op te slaan.
@@ -60,7 +62,10 @@ Het profiel wordt nu in de lijst weergegeven.
 >[!NOTE]
 >Het veld voor de voorkeurstaal wordt gebruikt om de taal te selecteren bij het verzenden van meertalige berichten. Raadpleeg deze [pagina](../../channels/using/creating-a-multilingual-email.md) voor meer informatie over de meertalige berichten.
 
-**Verwante onderwerpen:**
+## Video over zelfstudie {#video}
 
-* Stapsgewijze handleiding over [Landingspagina’s](../../channels/using/getting-started-with-landing-pages.md)
-* Video over het [importeren van profielen](https://video.tv.adobe.com/v/24993?captions=dut)
+In deze video ziet u hoe u profielen importeert met een workflow.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
+
+Er zijn [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl) extra Campaign Standard hoe kan ik-video&#39;s beschikbaar.
