@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '449'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 ## Testprofielen {#about-test-profiles}
 
 Met testprofielen kunt u aanvullende ontvangers die niet voldoen aan de gedefinieerde targetingcriteria doelgericht benaderen. Deze profielen worden toegevoegd aan de doelgroep van een bericht om frauduleus gebruik van uw database met ontvangers op te sporen of om ervoor te zorgen dat de e-mails in de inboxen aankomen.
+
+![](assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#video)
 
 U kunt uw testprofielen beheren via het geavanceerde menu **[!UICONTROL Profiles & audiences > Test profiles]**.
 
@@ -65,10 +67,6 @@ Een testprofiel bevat fictieve contactinformatie, of contactinformatie die door 
 
 Het testprofiel wordt vervolgens toegevoegd aan de lijst met profielen.
 
-**Verwant onderwerp:**
-
-Video over [Een testprofiel maken](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/profiles-and-audiences/test-profiles.html)
-
 ## Testprofielen bewerken {#editing-test-profiles}
 
 U kunt als volgt een testprofiel bewerken en de bijbehorende data raadplegen of het profiel wijzigen:
@@ -79,3 +77,11 @@ U kunt als volgt een testprofiel bewerken en de bijbehorende data raadplegen of 
    ![](assets/test_profile_edit.png)
 
 1. Klik op **[!UICONTROL Save]** als u de wijzigingen hebt ingevoerd of selecteer de naam van het testprofiel en vervolgens **[!UICONTROL Test profiles]** in de sectie bovenaan het scherm om terug te gaan naar het dashboard voor testprofielen.
+
+## Video over zelfstudie {#video}
+
+In deze video wordt getoond hoe u een testprofiel kunt maken.
+
+>[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
+
+Er zijn [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl) extra Campaign Standard hoe kan ik-video&#39;s beschikbaar.
