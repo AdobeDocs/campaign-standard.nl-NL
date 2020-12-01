@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
+source-git-commit: 817eebd4fe9ed33bdb2820912556cfda25ef66a5
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1664'
 ht-degree: 99%
 
 ---
@@ -29,20 +29,21 @@ ht-degree: 99%
    + [Verouderde functies](rn/using/deprecated-features.md)
 + Aan de slag {#getting-started}
    + [Informatie over Adobe Campaign Standard](start/using/about-campaign-standard.md)
-   + Privacy {#privacy}
-      + [Privacy en instemming](start/using/privacy.md)
-      + [Privacybeheer](start/using/privacy-management.md)
-      + [Privacyverzoeken](start/using/privacy-requests.md)
-      + [Veelgestelde vragen over privacy](start/using/privacy-faq.md)
    + Kennismaken met de interface {#discovering-the-interface}
       + [Informatie over de interface](start/using/about-the-interface.md)
       + [Beschrijving van de interface](start/using/interface-description.md)
       + [Lijsten aanpassen](start/using/customizing-lists.md)
+      + [Toegankelijkheid](start/using/accessibility.md)
    + Werken met marketingactiviteiten {#marketing-plans}
       + [Programma&#39;s en campagnes](start/using/programs-and-campaigns.md)
       + [Marketingactiviteiten](start/using/marketing-activities.md)
       + [Sjablonen voor marketingactiviteiten](start/using/marketing-activity-templates.md)
       + [Tijdlijn](start/using/timeline.md)
+   + Privacy {#privacy}
+      + [Privacy en toestemming](start/using/privacy.md)
+      + [Privacybeheer](start/using/privacy-management.md)
+      + [Verzoeken om toegang tot persoonsgegevens](start/using/privacy-requests.md)
+      + [Veelgestelde vragen over privacy](start/using/privacy-faq.md)
 + Profielen en doelgroepen {#profiles-and-audiences}
    + [Aan de slag met profielen en doelgroepen](audiences/using/get-started-profiles-and-audiences.md)
    + Profielen beheren {#managing-profiles}
