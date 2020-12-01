@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '583'
 ht-degree: 100%
 
 ---
@@ -103,7 +103,7 @@ Als u het nummer van de proef wilt verbergen, activeert u de optie **[!UICONTROL
 
 **Verwant onderwerp:**
 
-* Video over het [verzenden van een test en het voorbereiden en verzenden van een e-mail](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)
+* Video over het [verzenden van een test en het voorbereiden en verzenden van een e-mail](../../sending/using/get-started-sending-messages.md#video)
 * [E-mailberichten testen aan de hand van doelprofielen](../../sending/using/testing-messages-using-target.md)
 * [Testprofielen beheren](../../audiences/using/managing-test-profiles.md)
 * [Berichten voorvertonen](../../sending/using/previewing-messages.md)
