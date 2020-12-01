@@ -7,75 +7,76 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 0%
+source-wordcount: '1819'
+ht-degree: 1%
 
 ---
 
-# Herbruikbare inhoud maken en gebruiken {#using-reusable-content}
+# Herbruikbare inhoud maken {#using-reusable-content}
 
 Leer hoe u e-mailinhoud kunt master. Met E-mailontwerper kunt u sjablonen en fragmenten maken met uw eigen vooraf gedefinieerde inhoud en deze opnieuw gebruiken voor de volgende leveringen.
 
-## E-mailberichten ontwerpen met behulp van sjablonen {#designing-templates}
+## E-mailberichten ontwerpen met sjablonen {#designing-templates}
 
 >[!NOTE]
 >
-> In Adobe Campaign Standard kunt u verschillende typen sjablonen maken die u kunt openen via het menu **Bronnen** > **Sjablonen** . De sjablonen die worden gebruikt in de e-mailontwerper zijn inhoudssjablonen. Zie [Over sjablonen](../../start/using/marketing-activity-templates.md)voor meer informatie.
+> In Adobe Campaign Standard kunt u verschillende typen sjablonen maken die toegankelijk zijn via het menu **Bronnen** > **Sjablonen**. De sjablonen die worden gebruikt in de e-mailontwerper zijn inhoudssjablonen. Zie [Informatie over sjablonen](../../start/using/marketing-activity-templates.md) voor meer informatie.
 
-### Over inhoudssjablonen {#content-templates}
+![](assets/do-not-localize/how-to-video.png) [Ontdek hoe u sjablonen kunt maken in video](#video)
 
-U kunt HTML-inhoud beheren die wordt aangeboden op het **[!UICONTROL Templates]** tabblad van de [introductiepagina van E-](../../designing/using/designing-content-in-adobe-campaign.md) mailontwerper.
+### Informatie over inhoudssjablonen {#content-templates}
+
+U kunt HTML-inhoud beheren die wordt aangeboden op het tabblad **[!UICONTROL Templates]** van de startpagina [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md).
 
 De sjablonen voor e-mailinhoud die niet in de verpakking staan, bevatten achttien voor mobiele apparaten geoptimaliseerde lay-outs en vier best-in-class responsieve sjablonen die door Behance-artiesten zijn ontworpen. Ze komen overeen met de meest recente toepassingen, zoals welkomstberichten van klanten, nieuwsbrieven en e-mails over opnieuw contact. Ze kunnen eenvoudig worden aangepast met de inhoud van uw merk, zodat u gemakkelijk geheel nieuwe e-mails kunt ontwerpen.
 
 ![](assets/template_content.png)
 
-De HTML-inhoudssjablonen zijn toegankelijk via het scherm **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** van het menu [](../../start/using/interface-description.md#advanced-menu)Geavanceerd. Vanaf dat punt kunt u sjablonen voor het plaatsen van pagina-inhoud, sjablonen voor e-mailinhoud en ook fragmenten beheren.
+De HTML-inhoudssjablonen zijn toegankelijk via het scherm **[!UICONTROL Resources]** **[!UICONTROL Content templates & fragments]** van het menu [Geavanceerd](../../start/using/interface-description.md#advanced-menu). Vanaf dat punt kunt u sjablonen voor het plaatsen van pagina-inhoud, sjablonen voor e-mailinhoud en ook fragmenten beheren.
 
 ![](assets/content_templates_list.png)
 
 De out-of-the-box inhoudssjablonen zijn alleen-lezen. Als u een van deze sjablonen wilt bewerken, moet u eerst de gewenste sjabloon dupliceren.
 
-U kunt nieuwe sjablonen of fragmenten maken en uw eigen inhoud definiëren. Zie Een inhoudssjabloon [](#creating-a-content-template) maken en een inhoudsfragment [](#creating-a-content-fragment)maken voor meer informatie.
+U kunt nieuwe sjablonen of fragmenten maken en uw eigen inhoud definiëren. Zie [Een inhoudssjabloon maken](#creating-a-content-template) en [Een inhoudsfragment maken](#creating-a-content-fragment) voor meer informatie.
 
-Wanneer u inhoud bewerkt met de e-mailontwerper, kunt u ook inhoudssjablonen maken door de inhoud op te slaan als fragment of sjabloon. Zie Inhoud [opslaan als sjabloon](#saving-content-as-template) en Inhoud [opslaan als fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)voor meer informatie.
+Wanneer u inhoud bewerkt met de e-mailontwerper, kunt u ook inhoudssjablonen maken door de inhoud op te slaan als fragment of sjabloon. Zie [Inhoud opslaan als sjabloon](#saving-content-as-template) en [Inhoud opslaan als fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment) voor meer informatie.
 
 **Verwante onderwerpen:**
 
-* Leer hoe u inhoudssjablonen kunt aanpassen [in deze video](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-content-templates.html).
-* Zie [Informatie over ontwerpen](../../designing/using/designing-content-in-adobe-campaign.md)van e-mailinhoud voor meer informatie over het bewerken van inhoud.
+* Zie [Informatie over ontwerpen van e-mailinhoud](../../designing/using/designing-content-in-adobe-campaign.md) voor meer informatie over het bewerken van inhoud.
 
-### Creating a content template {#creating-a-content-template}
+### Een inhoudssjabloon maken {#creating-a-content-template}
 
 U kunt uw eigen inhoudssjablonen maken en deze zo vaak als nodig is gebruiken.
 
 In het volgende voorbeeld ziet u hoe u een sjabloon voor e-mailinhoud maakt.
 
 1. Ga naar **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** en klik **[!UICONTROL Create]**.
-1. Klik op het e-maillabel voor toegang tot het **[!UICONTROL Properties]** tabblad van e-mailontwerper.
+1. Klik op het e-maillabel voor toegang tot het tabblad **[!UICONTROL Properties]** van E-mailontwerper.
 1. Geef een herkenbaar label op en selecteer de volgende parameters om deze sjabloon in e-mails te kunnen gebruiken:
 
-   * Selecteer **[!UICONTROL Shared]** of **[!UICONTROL Delivery]** uit de **[!UICONTROL Content type]** vervolgkeuzelijst.
-   * Selecteer een optie **[!UICONTROL Template]** in de **[!UICONTROL HTML type]** vervolgkeuzelijst.
+   * Selecteer **[!UICONTROL Shared]** of **[!UICONTROL Delivery]** in de vervolgkeuzelijst **[!UICONTROL Content type]**.
+   * Selecteer **[!UICONTROL Template]** in de vervolgkeuzelijst **[!UICONTROL HTML type]**.
 
    ![](assets/email_designer_create-template.png)
 
-1. Indien nodig kunt u een afbeelding instellen die als miniatuur voor de sjabloon wordt gebruikt. Selecteer dit op het **[!UICONTROL Thumbnail]** tabblad van de sjablooneigenschappen.
+1. Indien nodig kunt u een afbeelding instellen die als miniatuur voor de sjabloon wordt gebruikt. Selecteer dit op het tabblad **[!UICONTROL Thumbnail]** van de sjablooneigenschappen.
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   Deze miniatuur wordt weergegeven op het **[!UICONTROL Templates]** tabblad van de startpagina van [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md) .
+   Deze miniatuur wordt weergegeven op het tabblad **[!UICONTROL Templates]** van de startpagina van [E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md).
 
-1. Sluit het **[!UICONTROL Properties]** tabblad om terug te keren naar de hoofdwerkruimte.
+1. Sluit **[!UICONTROL Properties]** lusje om aan de belangrijkste werkruimte terug te keren.
 1. Voeg structuurcomponenten en inhoudscomponenten toe die u naar wens kunt aanpassen.
    >[!NOTE]
    >
    > U kunt geen verpersoonlijkingsgebieden of voorwaardelijke inhoud binnen een inhoudsmalplaatje opnemen.
 1. Sla de sjabloon op nadat u deze hebt bewerkt.
 
-Deze sjabloon kan nu worden gebruikt in elke e-mail die is gemaakt met de e-mailontwerper. Selecteer deze op het **[!UICONTROL Templates]** tabblad van de [introductiepagina E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md) .
+Deze sjabloon kan nu worden gebruikt in elke e-mail die is gemaakt met de e-mailontwerper. Selecteer deze op het tabblad **[!UICONTROL Templates]** van de startpagina [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md).
 
 ![](assets/content_template_new.png)
 
@@ -87,7 +88,7 @@ Als u een e-mailbericht bewerkt met de e-mailontwerper, kunt u de inhoud van dat
 >
 >You cannot save as template a structure containing personalization fields or dynamic content.-->
 
-1. Selecteer een optie **[!UICONTROL Save as template]** op de hoofdwerkbalk van E-mailontwerper.
+1. Selecteer **[!UICONTROL Save as template]** op de hoofdwerkbalk van E-mailontwerper.
 
    ![](assets/email_designer_save-as-template.png)
 
@@ -95,9 +96,9 @@ Als u een e-mailbericht bewerkt met de e-mailontwerper, kunt u de inhoud van dat
 
    ![](assets/email_designer_save-as-template_creation.png)
 
-1. Ga naar **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
+1. Als u de zojuist gemaakte sjabloon wilt zoeken, gaat u naar **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
 
-1. Als u de nieuwe sjabloon wilt gebruiken, selecteert u deze op het **[!UICONTROL Templates]** tabblad van de [introductiepagina van E-](../../designing/using/designing-content-in-adobe-campaign.md) mailontwerper.
+1. Als u de nieuwe sjabloon wilt gebruiken, selecteert u deze op het tabblad **[!UICONTROL Templates]** van de startpagina [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md).
 
    ![](assets/content_template_new.png)
 
@@ -105,23 +106,23 @@ Als u een e-mailbericht bewerkt met de e-mailontwerper, kunt u de inhoud van dat
 
 U kunt nu een e-mailsjabloon maken met de e-mailontwerper. Gebruik inhoudcomponenten om de verschillende gedeelten van uw e-mail te weerspiegelen en pas de instellingen aan om deze zo dicht mogelijk bij uw oorspronkelijke nieuwsbrief te plaatsen. Voeg tot slot de fragmenten in die u net hebt gemaakt.
 
-1. Maak een sjabloon met de e-mailontwerper. Zie [Inhoudssjablonen](#content-templates)voor meer informatie.
-1. Voeg verschillende structuurcomponenten in uw sjabloon in, die overeenkomen met de kop-, voettekst- en hoofdtekst van uw e-mail. Zie De e-mailstructuur [bewerken met E-mailontwerper](../../designing/using/designing-from-scratch.md#defining-the-email-structure)voor meer informatie over het toevoegen van structuurcomponenten.
+1. Maak een sjabloon met de e-mailontwerper. Zie [Inhoudssjablonen](#content-templates) voor meer informatie.
+1. Voeg verschillende structuurcomponenten in uw sjabloon in, die overeenkomen met de kop-, voettekst- en hoofdtekst van uw e-mail. Zie [De e-mailstructuur bewerken met de e-mailontwerper](../../designing/using/designing-from-scratch.md#defining-the-email-structure) voor meer informatie over het toevoegen van structuurcomponenten.
 1. Voeg zoveel inhoudscomponenten in als nodig zijn om de hoofdtekst van uw nieuwsbrief te maken. Dit is de bewerkbare inhoud van uw e-mail die u elke maand bijwerkt.
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   Als u bekend bent met HTML-code, raadt Adobe u aan **[!UICONTROL Html]** componenten te gebruiken waarin u de complexere elementen van de originele e-mail kunt kopiëren en plakken. Gebruik andere componenten, zoals **[!UICONTROL Button]****[!UICONTROL Image]** of **[!UICONTROL Text]** voor de rest van de inhoud. Zie [Informatie over inhoudscomponenten](../../designing/using/designing-from-scratch.md#about-content-components)voor meer informatie.
+   Als u bekend bent met HTML-code, raadt Adobe aan **[!UICONTROL Html]**-componenten te gebruiken, zodat u de complexere elementen van de originele e-mail kunt kopiëren en plakken. Gebruik andere componenten zoals **[!UICONTROL Button]**, **[!UICONTROL Image]** of **[!UICONTROL Text]** voor de rest van de inhoud. Zie [Informatie over inhoudscomponenten](../../designing/using/designing-from-scratch.md#about-content-components) voor meer informatie.
 
    >[!NOTE]
    >
-   >Als u de **[!UICONTROL Html]** component gebruikt, worden componenten gemaakt die met beperkte opties kunnen worden bewerkt. Zorg ervoor dat u weet hoe u HTML-code moet verwerken voordat u deze component selecteert.
+   >Als u de component **[!UICONTROL Html]** gebruikt, maakt u componenten die met beperkte opties kunnen worden bewerkt. Zorg ervoor dat u weet hoe u HTML-code moet verwerken voordat u deze component selecteert.
 
 1. Pas de inhoudcomponenten zo veel mogelijk aan uw originele e-mail aan.
 
    ![](assets/des_loading_compatible_fragment_6.png)
 
-   Zie E-mailstijlen [](../../designing/using/styles.md)bewerken voor meer informatie over het beheren van stijlinstellingen en inline-kenmerken.
+   Zie [E-mailstijlen bewerken](../../designing/using/styles.md) voor meer informatie over het beheren van stijlinstellingen en inline-kenmerken.
 
 1. Voeg de twee fragmenten (kop- en voettekst) die u eerder hebt gemaakt in de gewenste structuurcomponenten in.
 
@@ -136,8 +137,16 @@ Maak een e-mail en selecteer de inhoudssjabloon die u zojuist hebt gemaakt om de
 **Verwant onderwerp**:
 
 * [Een e-mail maken](../../channels/using/creating-an-email.md)
-* [Introductievideo over e-mailontwerper](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=dut)
+* [Introductievideo over e-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Een geheel nieuwe e-mailinhoud ontwerpen](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
+
+### Video over zelfstudie {#video}
+
+In deze video&#39;s wordt getoond hoe u uw eigen sjabloon kunt maken.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
+
+Er zijn [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl) extra Campaign Standard hoe kan ik-video&#39;s beschikbaar.
 
 ## Informatie over fragmenten {#about-fragments}
 
@@ -147,12 +156,12 @@ Maak een e-mail en selecteer de inhoudssjabloon die u zojuist hebt gemaakt om de
 >abstract="Een fragment is een herbruikbaar inhoudsblok waarnaar in een of meer e-mails kan worden verwezen."
 
 Een fragment is een herbruikbare component waarnaar in een of meer e-mails kan worden verwezen.
-Deze vindt u in de interface onder **Bronnen** > **Inhoudsfragmenten en -sjablonen**.
+Zij kunnen in de interface onder **Middelen** > **Inhoudsfragmenten en malplaatjes** worden gevonden.
 
 Zo kunt u optimaal gebruikmaken van fragmenten in de e-mailontwerper:
 
-* Maak uw eigen fragmenten. Zie [Een inhoudsfragment](#creating-a-content-fragment) maken en inhoud [opslaan als fragment](#saving-content-as-a-fragment).
-* Gebruik ze zo vaak als nodig is in je e-mails. Zie Elementen [invoegen in een e-mail](#inserting-elements-into-an-email).
+* Maak uw eigen fragmenten. Zie [Een inhoudsfragment maken](#creating-a-content-fragment) en [Inhoud opslaan als een fragment](#saving-content-as-a-fragment).
+* Gebruik ze zo vaak als nodig is in je e-mails. Zie [Elementen invoegen in een e-mail](#inserting-elements-into-an-email).
 * Wanneer u een fragment bewerkt, worden de wijzigingen gesynchroniseerd: ze worden automatisch doorgegeven aan alle e-mails (mits ze nog niet zijn voorbereid of verzonden) die dat fragment bevatten.
 
 Wanneer fragmenten aan een e-mailbericht worden toegevoegd, worden ze standaard vergrendeld. Als u een fragment voor een specifieke e-mail wilt wijzigen, kunt u de synchronisatie met het oorspronkelijke fragment verbreken door het te ontgrendelen in de e-mail waar het wordt gebruikt. De wijzigingen worden niet meer gesynchroniseerd.
@@ -163,11 +172,11 @@ Als u een fragment in een e-mailbericht wilt ontgrendelen, selecteert u het en k
 
 Dat fragment wordt een zelfstandige component die niet meer aan het oorspronkelijke fragment is gekoppeld. Deze kan vervolgens worden bewerkt als elke andere inhoudscomponent. Zie [Informatie over inhoudscomponenten](../../designing/using/designing-from-scratch.md#about-content-components).
 
-### Fragmenten in een e-mail invoegen {#inserting-elements-into-an-email}
+### Fragmenten invoegen in een e-mail {#inserting-elements-into-an-email}
 
-Als u de inhoud van uw e-mail wilt definiëren, kunt u inhoudselementen toevoegen aan de structuurcomponenten die u vooraf hebt geplaatst. Zie De [e-mailstructuur](../../designing/using/designing-from-scratch.md#defining-the-email-structure)bewerken.
+Als u de inhoud van uw e-mail wilt definiëren, kunt u inhoudselementen toevoegen aan de structuurcomponenten die u vooraf hebt geplaatst. Zie [De e-mailstructuur bewerken](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-1. U opent de inhoudselementen door het pictogram **+** links te selecteren. Selecteer [Fragmenten](#about-fragments) of [Inhoudscomponenten](../../designing/using/designing-from-scratch.md#about-content-components).
+1. U opent de inhoudselementen door het pictogram **+** links te selecteren. Selecteer [Fragments](#about-fragments) of [Inhoudscomponenten](../../designing/using/designing-from-scratch.md#about-content-components).
 1. Als u het label of een deel van het label van het fragment dat u wilt toevoegen al kent, kunt u ernaar zoeken.
 
    ![](assets/email_designer_fragmentsearch.png)
@@ -189,32 +198,32 @@ Als u de inhoud van uw e-mail wilt definiëren, kunt u inhoudselementen toevoege
 1. Herhaal deze procedure voor alle elementen die u aan uw e-mail moet toevoegen.
 1. Sla uw e-mail op.
 
-Nu de e-mailstructuur is gevuld, kunt u de stijl van elk inhoudselement bewerken. Zie Een element [](../../designing/using/styles.md)bewerken.
+Nu de e-mailstructuur is gevuld, kunt u de stijl van elk inhoudselement bewerken. Zie [Een element bewerken](../../designing/using/styles.md).
 
 >[!NOTE]
 >
->Als een fragment wordt gewijzigd, worden de wijzigingen automatisch doorgegeven in de e-mails waar het wordt gebruikt. Zie [Informatie over fragmenten](#about-fragments)voor meer informatie.
+>Als een fragment wordt gewijzigd, worden de wijzigingen automatisch doorgegeven in de e-mails waar het wordt gebruikt. Zie [Informatie over fragmenten](#about-fragments) voor meer informatie.
 
-### Creating a content fragment {#creating-a-content-fragment}
+### Een inhoudsfragment {#creating-a-content-fragment} maken
 
 U kunt uw eigen inhoudsfragmenten maken en deze zo nodig in een of meer e-mails gebruiken.
 
 1. Ga naar **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** en klik **[!UICONTROL Create]**.
-1. Klik op het e-maillabel voor toegang tot het **[!UICONTROL Properties]** tabblad van e-mailontwerper.
+1. Klik op het e-maillabel voor toegang tot het tabblad **[!UICONTROL Properties]** van E-mailontwerper.
 1. Geef een herkenbaar label op en selecteer de volgende parameters om het fragment te zoeken bij het bewerken van e-mailinhoud:
 
-   * Omdat fragmenten alleen compatibel zijn met e-mailberichten, selecteert u deze in de **[!UICONTROL Delivery]** **[!UICONTROL Content type]** vervolgkeuzelijst.
-   * Selecteer deze inhoud **[!UICONTROL Fragment]** in de **[!UICONTROL HTML type]** vervolgkeuzelijst als een fragment.
+   * Omdat fragmenten alleen compatibel zijn met e-mails, selecteert u **[!UICONTROL Delivery]** in de vervolgkeuzelijst **[!UICONTROL Content type]**.
+   * Selecteer **[!UICONTROL Fragment]** in de vervolgkeuzelijst **[!UICONTROL HTML type]** om deze inhoud als een fragment te kunnen gebruiken.
 
    ![](assets/email_designer_createfragment.png)
 
-1. Indien nodig kunt u een afbeelding instellen die als miniatuur voor het fragment wordt gebruikt. Selecteer dit op het **[!UICONTROL Thumbnail]** tabblad van de sjablooneigenschappen.
+1. Indien nodig kunt u een afbeelding instellen die als miniatuur voor het fragment wordt gebruikt. Selecteer dit op het tabblad **[!UICONTROL Thumbnail]** van de sjablooneigenschappen.
 
    ![](assets/email_designer_createfragment_thumbnail.png)
 
    Deze miniatuur wordt weergegeven naast het label van het fragment wanneer u een e-mail bewerkt.
 
-1. Sluit het **[!UICONTROL Properties]** tabblad om terug te keren naar de hoofdwerkruimte.
+1. Sluit **[!UICONTROL Properties]** lusje om aan de belangrijkste werkruimte terug te keren.
 1. Voeg structuurcomponenten en inhoudscomponenten toe die u naar wens kunt aanpassen.
 
    >[!CAUTION]
@@ -227,7 +236,7 @@ U kunt uw eigen inhoudsfragmenten maken en deze zo nodig in een of meer e-mails 
 
 1. Sla het fragment op nadat u het hebt bewerkt.
 
-Dit fragment kan nu worden gebruikt in elke e-mail die is gemaakt met de e-mailontwerper. Deze wordt weergegeven onder het **[!UICONTROL Fragments]** gedeelte van het palet.
+Dit fragment kan nu worden gebruikt in elke e-mail die is gemaakt met de e-mailontwerper. Deze wordt weergegeven onder de sectie **[!UICONTROL Fragments]** van het palet.
 
 >[!NOTE]
 >
@@ -241,7 +250,7 @@ Als u een e-mailbericht bewerkt met de e-mailontwerper, kunt u een deel van dat 
 * U kunt alleen structuren selecteren die aan elkaar grenzen.
 <!-- - You cannot select an empty structure.-->
 
-1. Als u een e-mailbericht bewerkt in de e-mailontwerper, selecteert u een optie op de hoofdwerkbalk. **[!UICONTROL Save as fragment]**
+1. Als u een e-mailbericht bewerkt in de e-mailDesigner, selecteert u **[!UICONTROL Save as fragment]** op de hoofdwerkbalk.
 
    ![](assets/email_designer_save-as-fragment.png)
 
@@ -260,7 +269,7 @@ Als u een e-mailbericht bewerkt met de e-mailontwerper, kunt u een deel van dat 
 
    ![](assets/email_designer_save-as-fragment_popup.png)
 
-1. Ga naar **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
+1. Als u het fragment wilt zoeken dat u net hebt gemaakt, gaat u naar **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**.
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
@@ -293,7 +302,7 @@ Maak met de e-mailontwerper een fragment voor elke herbruikbare sectie. In dit v
 
 Volg de onderstaande stappen om dit te doen:
 
-1. Ga in Adobe Campaign naar **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** en maak een fragment voor de koptekst. Zie [Een inhoudsfragment](#creating-a-content-fragment)maken voor meer informatie.
+1. Ga in Adobe Campaign naar **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** en maak een fragment voor de koptekst. Zie [Een inhoudsfragment maken](#creating-a-content-fragment) voor meer informatie.
 1. Voeg zoveel structuurcomponenten aan het fragment toe als u nodig hebt.
 
    ![](assets/des_loading_compatible_fragment_1.png)
