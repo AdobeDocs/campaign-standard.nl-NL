@@ -7,28 +7,30 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 5%
+source-wordcount: '444'
+ht-degree: 6%
 
 ---
 
 
 # Lijsten exporteren{#exporting-lists}
 
-Met Adobe Campaign kunt u uw lijsten rechtstreeks in een bestand exporteren voor toekomstig gebruik. Wanneer u een lijst in een bestand exporteert, wordt een logbestandvermelding in het **[!UICONTROL Export audits]** menu gegenereerd. Raadpleeg de sectie [Audits uitvoeren op exportlogboeken](../../administration/using/auditing-export-logs.md) voor meer informatie over exportaudits.
+Met Adobe Campaign kunt u uw lijsten rechtstreeks in een bestand exporteren voor toekomstig gebruik. Wanneer u een lijst in een bestand exporteert, wordt een logbestandvermelding in het menu **[!UICONTROL Export audits]** gegenereerd. Raadpleeg de sectie [Audits uitvoeren op exportlogboeken](../../administration/using/auditing-export-logs.md) voor meer informatie over exportaudits.
 
-The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit** option. This option can be managed by the functional administrator, under the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
+![](assets/do-not-localize/how-to-video.png) [Ontdek hoe u een lijst in video kunt configureren](#video)
 
-De lijst van de uitvoer is beschikbaar in alle schermen die een de wijzemening van de **Lijst** , voor gebruikers met de **[!UICONTROL EXPORT (export)]** rol hebben.
+Met de optie voor de exportlijst kunt u standaard maximaal 100.000 regels exporteren. Deze regel wordt gedefinieerd door de optie **Nms_ExportListLimit**. Deze optie kan door de functionele beheerder, onder **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu worden beheerd.
 
-1. Ga naar het gekozen **lijstscherm** . Bijvoorbeeld het scherm met het testprofiel ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
-1. Controleer of het scherm in de **lijstmodus** staat.
+De lijst van de uitvoer is beschikbaar in alle schermen die een **Lijstmening**, voor gebruikers met de **[!UICONTROL EXPORT (export)]** rol hebben.
+
+1. Ga naar het door u gekozen **scherm List**. Bijvoorbeeld het overzichtsscherm van het testprofiel ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**).
+1. Controleer of het scherm zich in de modus **List** bevindt.
 
    ![](assets/export_list_mode_switch.png)
 
-1. Organiseer de kolommen in de lijst in de volgorde waarin u ze wilt exporteren met de **[!UICONTROL Configure list]** knop in de rechterbovenhoek. Naast gevormde kolommen, zal de primaire sleutel van het middel ook worden uitgevoerd.
+1. Organiseer de kolommen in de lijst in de volgorde waarin u ze wilt exporteren met de knop **[!UICONTROL Configure list]**, in de rechterbovenhoek. Naast gevormde kolommen, zal de primaire sleutel van het middel ook worden uitgevoerd.
 1. U kunt desgewenst een filter toepassen. Klik hiertoe op de knop in de linkerbovenhoek om het zoekvenster weer te geven.
 
    Als u een export uitvoert vanuit een lijst die verschillende bronnen bevat, moet u uw filters toepassen zodat er slechts één type bron in de lijst wordt weergegeven.
@@ -42,7 +44,7 @@ Het bestand wordt gegenereerd in CSV-indeling met de extensie .TXT. Deze naam is
 
 De numerieke waarden en datums houden rekening met de lokale tijd (landinstelling) van de gebruiker die het exporteren uitvoert. Bijvoorbeeld: DD-MM-JJJJ of DD-MM-JJJJ.
 
-Als u een exportbewerking wilt uitvoeren die groter is dan deze, moet u een specifieke workflow maken. Raadpleeg de sectie Bestand [](../../automating/using/extract-file.md) uitpakken.
+Als u een exportbewerking wilt uitvoeren die groter is dan deze, moet u een specifieke workflow maken. Raadpleeg de sectie [Bestand uitpakken](../../automating/using/extract-file.md).
 
 **Voorbeeld**
 
@@ -73,4 +75,11 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 * [Rollen](../../administration/using/list-of-roles.md)
 * [Lijsten aanpassen](../../start/using/customizing-lists.md)
-* [Lijstvideo configureren](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/configure-a-list.html)
+
+## Video over zelfstudie {#video}
+
+Deze video laat zien hoe u lijsten kunt configureren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
+
+Er zijn [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl) extra Campaign Standard hoe kan ik-video&#39;s beschikbaar.
