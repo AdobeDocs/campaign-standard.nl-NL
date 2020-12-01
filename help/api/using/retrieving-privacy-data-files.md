@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 6%
+source-wordcount: '194'
+ht-degree: 4%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 6%
 
 >[!CAUTION]
 >
->De integratie van de Dienst [van de Dienst van de](https://adobe.io/apis/cloudplatform/gdpr.html) Privacy is de methode u voor alle toegang zou moeten gebruiken en verzoeken schrapt. Vanaf 19.4 is het gebruik van de campagne-API en de interface voor toegangs- en verwijderingsverzoeken afgekeurd. Raadpleeg [deze pagina](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/deprecated-features.html)voor meer informatie over afgekeurde en verwijderde functies van Campaign Standard.
+>De [Integratie van de Kern van de Privacy](https://adobe.io/apis/cloudplatform/gdpr.html) is de methode u voor alle toegang zou moeten gebruiken en verzoeken schrapt. Vanaf 19.4 is het gebruik van de campagne-API en de interface voor toegangs- en verwijderingsverzoeken afgekeurd. Raadpleeg [deze pagina](../../rn/using/deprecated-features.md) voor meer informatie over afgekeurde en verwijderde functies van Campaign Standard.
 
 Om het dossier terug te winnen dat alle informatie verbonden aan een aansluitingswaarde bevat, volg deze drie stappen procedure:
 
-1. Voer een **POST** verzoek uit om een nieuw verzoek met het attribuut **type=&quot;toegang&quot;** tot stand te brengen, zie [het Creëren van een nieuw privacyverzoek](../../api/using/creating-a-privacy-request.md).
+1. Voer een **POST** verzoek uit om een nieuw verzoek met het attribuut **type=&quot;access&quot;** tot stand te brengen, zie [Een nieuw privacyverzoek](../../api/using/creating-a-privacy-request.md) creëren.
 
-1. Voer een **GET** verzoek uit om informatie over het verzoek terug te winnen.
+1. Voer **GET** verzoek uit om informatie over het verzoek terug te winnen.
 
 1. Haal het gegevensbestand door een **POST** verzoek op teruggekeerde **privacyRequestData** URL uit te voeren, met de interne naam van het privacyverzoek binnen de lading. Bijvoorbeeld: {&quot;name&quot;:&quot;PT17&quot;}.
 
