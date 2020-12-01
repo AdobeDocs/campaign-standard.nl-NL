@@ -4,7 +4,7 @@ product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
-title: Campaign Standard Guide
+title: 'Campaign Standard-handleiding '
 translation-type: tm+mt
 source-git-commit: 817eebd4fe9ed33bdb2820912556cfda25ef66a5
 workflow-type: tm+mt
@@ -40,7 +40,7 @@ ht-degree: 99%
       + [Sjablonen voor marketingactiviteiten](start/using/marketing-activity-templates.md)
       + [Tijdlijn](start/using/timeline.md)
    + Privacy {#privacy}
-      + [Privacy en toestemming](start/using/privacy.md)
+      + [Privacy en instemming](start/using/privacy.md)
       + [Privacybeheer](start/using/privacy-management.md)
       + [Verzoeken om toegang tot persoonsgegevens](start/using/privacy-requests.md)
       + [Veelgestelde vragen over privacy](start/using/privacy-faq.md)
