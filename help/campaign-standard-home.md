@@ -6,9 +6,9 @@ title: Adobe Campaign Standard-productdocumentatie
 description: Bladeren door productdocumentatie van Campaign Standard
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '216'
 ht-degree: 90%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 ## Nieuwe functies
 
-* **[De bijgewerkte versie planning](rn/using/release-planning.md)**<br/> van de release De komende releasedatums van februari 2021 zijn toegevoegd aan de releaseplanning
+* **[Bijgewerkte release ](rn/using/release-planning.md)**<br/> planningDe komende releasedatums van februari 2021 zijn toegevoegd aan de releaseplanning
 
 * **[Controlegroepen](sending/using/control-group.md)**<br/>
 De invloed van uw campagnes meten door een deel van hun doelgroep uit te sluiten
@@ -78,5 +78,5 @@ De activiteit Externe API gebruiken om data van een extern systeem over te breng
 | [Configuratiescherm-documentatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/control-panel-home.html) | [Campaign-API&#39;s](api/using/get-started-apis.md) |
 | [Implementatiehandleiding](https://helpx.adobe.com/nl/campaign/kb/campaign-standard-implementation-guide.html) | [Lijst met foutberichten](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Releaseplanning](rn/using/release-planning.md) | [Campaign-datamodel](developing/using/datamodel-introduction.md) |
-| [Verouderde en verwijderde functies](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/deprecated-features.html) | [Handleiding voor meerdere oplossingen](integrating/using/get-started-campaign-integrations.md) |
+| [Verouderde en verwijderde functies](rn/using/deprecated-features.md)) | [Handleiding voor meerdere oplossingen](integrating/using/get-started-campaign-integrations.md) |
 | [Aan de slag met Campaign Standard](start/using/about-campaign-standard.md) | [Technische opmerkingen](https://helpx.adobe.com/nl/campaign/kb/acs-article-list.html) |
