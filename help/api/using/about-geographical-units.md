@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 3%
+source-wordcount: '138'
+ht-degree: 0%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 3%
 >
 >Als gevolg hiervan kunnen nieuwe Campaign Standard-exemplaren en bestaande exemplaren zonder gemaakte geografische eenheden deze functie niet implementeren vanaf de release 18.7.
 >
->Raadpleeg voor meer informatie de pagina <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/deprecated-features.html">Verouderde functies</a> .
+>Raadpleeg voor meer informatie de pagina <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Afgekeurde functies</a>.
 
 Het **geoUnitBase** eindpunt laat u met Geografische eenheden in wisselwerking staan, toelatend u, bijvoorbeeld, om hun attributen bij te werken of de eenheid van een profiel bij te werken.
 
-Het veld **Geografische eenheid** wordt aan een profiel toegevoegd wanneer de profielbron wordt uitgebreid. Dientengevolge, herinner eraan om het **profielAndServicesExt** eindpunt altijd te gebruiken om met Geografische eenheden in wisselwerking te staan. Raadpleeg de documentatie bij de [campagne voor meer informatie over de bronextensie van het profiel](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).
+Het veld **Geografische eenheid** wordt toegevoegd aan een profiel wanneer de profielbron wordt uitgebreid. Daarom moet u niet vergeten om altijd het **profileAndServicesExt**-eindpunt te gebruiken voor interactie met geografische eenheden. Raadpleeg de [Campagne-documentatie](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles) voor meer informatie over de bronextensie van het profiel.
