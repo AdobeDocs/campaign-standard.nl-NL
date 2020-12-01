@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 90%
+source-wordcount: '1225'
+ht-degree: 89%
 
 ---
 
@@ -19,15 +19,16 @@ ht-degree: 90%
 
 Nadat u in Adobe Campaign een e-mailbericht hebt gemaakt, moet u de content definiëren.
 
-Met de e-mailontwerper kunt u fascinerende, individueel op maat gemaakte e-mails maken door middel van slepen en neerzetten. Of u nu vanaf nul begint of bestaande contentfragmenten of contentsjablonen gebruikt, u ontwerpt en verfijnt alle content voor elke e-mail, zowel promotionele als transactionele e-mails.
+Met de e-mailontwerper kunt u fascinerende, individueel aangepaste e-mails maken door slepen en neerzetten
+interface. Of u nu vanaf nul begint of bestaande contentfragmenten of contentsjablonen gebruikt, u ontwerpt en verfijnt alle content voor elke e-mail, zowel promotionele als transactionele e-mails.
 
 Email Designer is ontworpen om HTML te leveren en is geoptimaliseerd voor responsief ontwerp. Zo kunt u rechtstreeks via de gebruikersinterface gemakkelijk dynamische content en zichtbaarheidsvoorwaarden definiëren en toepassen op e-mails, sjablonen of fragmenten. U kunt naadloos met een klik op een knop schakelen tussen de interface voor slepen en neerzetten en HTML-code.
 
 Met Email Designer kunt u e-mailcontent en e-mailcontentsjablonen maken. Email Designer is compatibel met eenvoudige e-mails, transactionele e-mails, e-mails voor A/B-tests, meertalige e-mails en terugkerende e-mails.
 
-Om aan de slag te gaan met Email Designer bekijkt u deze [video’s](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) waarin de algemene functionaliteit van Email Designer wordt uitgelegd en waarin wordt aangetoond hoe u een nieuw e-mailbericht kunt ontwerpen of sjablonen kunt gebruiken.
-
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
+
+![](assets/do-not-localize/how-to-video.png) [Ontdek de e-mailontwerper in video](#video)
 
 * Zie [Aan de slag met Email Designer](../../designing/using/quick-start.md) voor informatie over het maken van e-mailcontent.
 * Zie [Email Designer gebruiken](../../designing/using/designing-content-in-adobe-campaign.md) voor een overzicht van Email Designer.
@@ -117,7 +118,7 @@ Als u Email Designer goed wilt gebruiken en op de eenvoudigste manier de beste e
 
    Bekijk uw berichten voordat u ze verzendt. Adobe Campaign biedt een manier om het renderen van e-mail te testen met Litmus. Zie [E-mail renderen](../../sending/using/email-rendering.md) voor meer informatie.
 
-Meer ontwerp en algemene beste praktijken betreffende berichten worden voorgesteld in de volgende sectie: [Aanbevolen procedures](../../sending/using/delivery-best-practices.md)voor levering.
+Meer ontwerp en algemene beste praktijken betreffende berichten worden voorgesteld in de volgende sectie: [Beste werkwijzen leveren](../../sending/using/delivery-best-practices.md).
 
 ### Fragmenten bijwerken {#email-designer-updates}
 
@@ -158,3 +159,11 @@ Let bij fragmenten op het volgende:
 * [Een landingspagina ontwerpen](../../channels/using/designing-a-landing-page.md)
 * [Een sms-bericht maken](../../channels/using/creating-an-sms-message.md)
 * [Een pushbericht maken en verzenden](../../channels/using/preparing-and-sending-a-push-notification.md)
+
+## Video over zelfstudie {#video}
+
+Deze video biedt een overzicht van de e-mailontwerper.
+
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+
+Om aan de slag te gaan met Email Designer bekijkt u deze [video’s](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) waarin de algemene functionaliteit van Email Designer wordt uitgelegd en waarin wordt aangetoond hoe u een nieuw e-mailbericht kunt ontwerpen of sjablonen kunt gebruiken
