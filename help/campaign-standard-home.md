@@ -3,13 +3,13 @@ keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
 product: campaign
 title: Adobe Campaign Standard-productdocumentatie
-description: Bladeren door productdocumentatie van Campaign Standard
+description: Bladeren door de Campaign Standard-productdocumentatie
 topic: Premium
 translation-type: tm+mt
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
 source-wordcount: '216'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 ## Nieuwe functies
 
-* **[Bijgewerkte release ](rn/using/release-planning.md)**<br/> planningDe komende releasedatums van februari 2021 zijn toegevoegd aan de releaseplanning
+* **[Bijgewerkte releaseplanning](rn/using/release-planning.md)**<br/> Aan de releaseplanning zijn releasedatums voor februari 2021 toegevoegd
 
 * **[Controlegroepen](sending/using/control-group.md)**<br/>
 De invloed van uw campagnes meten door een deel van hun doelgroep uit te sluiten
@@ -29,7 +29,7 @@ De invloed van uw campagnes meten door een deel van hun doelgroep uit te sluiten
 Ontwerp en levering optimaliseren met e-mails met AI-mogelijkheden
 
 * **[Externe API](automating/using/external-api.md)**<br/>
-De activiteit Externe API gebruiken om data van een extern systeem over te brengen naar de workflow
+De activiteit Externe API gebruiken om gegevens van een extern systeem over te brengen naar de workflow
 
 * **[Aan de slag met mobiele leveringen](https://helpx.adobe.com/nl/campaign/kb/acs-mobile.html)**<br/> Meer informatie over algemene richtlijnen voor mobiele leveringen (sms, pushmeldingen, in-app)
 
