@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 87%
+source-wordcount: '727'
+ht-degree: 85%
 
 ---
 
@@ -45,21 +45,21 @@ Voer daartoe de volgende stappen uit:
 
    ![](assets/remarketing_4.png)
 
-1. U kunt nu de triggers publiceren. Raadpleeg Een trigger [publiceren in Campagne](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)voor meer informatie hierover.
+1. U kunt nu de triggers publiceren. Raadpleeg [Een trigger publiceren in Campagne](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign) voor meer informatie hierover.
 
 ## Een trigger publiceren in Campagne {#publishing-trigger-in-campaign}
 
 Nadat u een triggergebeurtenis in Adobe Campaign hebt gemaakt op basis van een bestaande Adobe Experience Cloud-trigger, moet u deze nu publiceren.
 
-1. Klik vanaf de eerder gemaakte trigger op de **[!UICONTROL Publish]** knop om de triggergebeurtenis te publiceren.
+1. Klik vanaf de eerder gemaakte trigger op de knop **[!UICONTROL Publish]** om de triggergebeurtenis te publiceren.
 
    ![](assets/trigger_publish_1.png)
 
-1. U kunt de voortgang van de triggerpublicatie onder **[!UICONTROL Publication]** controleren.
+1. U kunt de voortgang van de triggerpublicatie controleren onder **[!UICONTROL Publication]**.
 
    ![](assets/trigger_publish_2.png)
 
-1. Wanneer de publicatie is voltooid, wordt het volgende bericht weergegeven onder **[!UICONTROL Publication]**.
+1. Wanneer de publicatie wordt gedaan, zal het volgende bericht onder **[!UICONTROL Publication]** verschijnen.
 
    ![](assets/trigger_publish_3.png)
 
@@ -69,7 +69,7 @@ Nadat u een triggergebeurtenis in Adobe Campaign hebt gemaakt op basis van een b
 
    ![](assets/trigger_publish_4.png)
 
-1. Click **[!UICONTROL Show Trigger in Experience Cloud]** button allows you to view the trigger definition in Adobe Experience Cloud.
+1. Klik op de knop **[!UICONTROL Show Trigger in Experience Cloud]** om de triggerdefinitie in Adobe Experience Cloud weer te geven.
 
 Na het publiceren van de gebeurtenis wordt er automatisch een transactiesjabloon gemaakt die aan de nieuwe gebeurtenis is gekoppeld. Wijzig en publiceer vervolgens de zojuist gemaakte sjabloon. Raadpleeg de sectie [De sjabloon bewerken](../../start/using/marketing-activity-templates.md) voor meer informatie.
 
@@ -77,7 +77,7 @@ Na het publiceren van de gebeurtenis wordt er automatisch een transactiesjabloon
 
 Na het maken en publiceren van de triggergebeurtenis, wordt de bijbehorende transactiesjabloon automatisch gemaakt. Raadpleeg de sectie [Een toegewezen trigger maken in Campaign](#creating-a-mapped-trigger-in-campaign) voor meer informatie.
 
-Als u wilt dat de gebeurtenis het verzenden van een transactiemelding activeert, moet u de sjabloon personaliseren, en dan testen en publiceren. Deze stappen zijn hetzelfde als voor een standaard transactiebericht. Raadpleeg de sectie [Transactiesjabloon](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message) voor meer informatie.
+Als u wilt dat de gebeurtenis het verzenden van een transactiemelding activeert, moet u de sjabloon personaliseren, en dan testen en publiceren. Deze stappen zijn hetzelfde als voor een standaard transactiebericht. Voor meer op dit, verwijs naar [het Uitgeven van een transactiebericht](../../channels/using/editing-transactional-message.md) sectie.
 
 >[!NOTE]
 >
