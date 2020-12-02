@@ -7,10 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 19%
+source-wordcount: '524'
+ht-degree: 18%
 
 ---
 
@@ -32,7 +32,7 @@ Het is niet onmogelijk om al uw afzetkanalen te harmoniseren. Met behulp van Ado
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**Het berichtdashboard** van de Campagne van de hefboomwerking om uw berichten van één enkele plaats te vormen en te verzenden, evenals tot verschillende functionaliteit zoals het plannen, meertalig overseinen toegang te hebben...
+**Het** dashboard van het Bericht van de Campagne van de hefboomwerking om uw berichten van één enkele plaats te vormen en te verzenden, evenals toegang tot diverse functionaliteit zoals het plannen, meertalig overseinen...
 
 **Beheer malplaatjes** om berichteigenschappen te vormen en u toe te staan om tijd en consistentie over uw overseinenstrategie te bereiken. Voor e-mails kan de functionele beheerder die verantwoordelijk is voor het configureren van de sjablonen bijvoorbeeld de standaardparameters van een e-mail definiëren, zoals het publiek, de planning of de inhoud, de geavanceerde parameters met betrekking tot verzending, geldigheid, reeksspatiëring, enz., of de parameters die vooraf zijn geconfigureerd voor het aanwijzen en personaliseren (context die als doel heeft).
 
@@ -48,11 +48,11 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**In Adobe Campaign zijn vijf communicatiekanalen** beschikbaar: E-mail, SMS-bericht, pushmelding, In-App-bericht en Direct-maillevering.
+**In Adobe Campaign zijn vijf** communicatiekanalen beschikbaar: E-mail, SMS-bericht, pushmelding, In-App-bericht en Direct-maillevering.
 
 Voor elk kanaal zijn specifieke functies beschikbaar. Met het e-mailkanaal kunt u bijvoorbeeld A/B-tests uitvoeren om maximaal drie versies van een e-mailbericht te testen. Met het SMS-kanaal beheert u SMS-berichten van STOP en slaat u inkomende SMS van de ontvangers op in uw database.
 
-Bovendien kunt u gebruikmaken van **personalisatie van Campaign Standard en dynamische inhoudmogelijkheden** om de interesse van uw publiek weer te geven.
+Bovendien kunt u Campaign Standard **personalisatie en dynamische inhoudmogelijkheden** gebruiken om de interesse van uw publiek vast te leggen.
 
 Meer informatie:
 
@@ -66,16 +66,17 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**Verzend individuele en unieke berichten** aan uw klanten in real time: welkomstberichten, bevestiging van bestellingen voor verzending, wijziging van wachtwoord, enz.
+**Verzend afzonderlijke en unieke** berichten naar uw klanten in real time: welkomstberichten, bevestiging van bestellingen voor verzending, wijziging van wachtwoord, enz.
 
-Transactieberichten zijn afhankelijk van uw opties beschikbaar voor de kanalen voor e-mail, SMS en pushmeldingen. Er zijn twee typen berichten: **Transactieberichten** van gebeurtenissen die gebeurtenissen zonder profielinformatie richten, en **profieltransactieberichten** richten zich op profielen van uw gegevensbestand.
+Transactieberichten zijn afhankelijk van uw opties beschikbaar voor de kanalen voor e-mail, SMS en pushmeldingen. Er zijn twee typen berichten: **Transactieberichten voor gebeurtenissen** die gebeurtenissen zonder profielinformatie richten, en **profiel transactionele berichten** richtend profielen van uw gegevensbestand.
 
 Meer informatie:
 
-* [Transactionele berichten](../../channels/using/getting-started-with-transactional-msg.md)
 * [Aan de slag met transactionele berichten](../../channels/using/getting-started-with-transactional-msg.md)
-* [Transactionele berichten voor gebeurtenissen](../../channels/using/event-transactional-messages.md)
-* [Transactionele berichten voor profielen](../../channels/using/profile-transactional-messages.md)
+* [Een transactiegebeurtenis configureren](../../channels/using/configuring-transactional-event.md)
+* [Transactiegebeurtenissen publiceren](../../channels/using/publishing-transactional-event.md)
+* [Een transactiebericht bewerken](../../channels/using/editing-transactional-message.md)
+* [Transactiebericht publiceren](../../channels/using/publishing-transactional-message.md)
 * [Transactionele pushmeldingen](../../channels/using/transactional-push-notifications.md)
 * [Vervolgberichten](../../channels/using/follow-up-messages.md)
 
@@ -83,9 +84,9 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
-De campagne komt met het landen pagina&#39;s die Webvormen zijn die kunnen worden gebruikt om informatie over uw publiek **te** vangen, abonnementen aan de dienst aan te bieden, gegevens te tonen en uw gegevensbestand te kweken.
+Campagne wordt geleverd met landingspagina&#39;s die webformulieren zijn die kunnen worden gebruikt om **informatie over uw publiek vast te leggen**, abonnementen op een service aan te bieden, gegevens weer te geven en uw database uit te breiden.
 
-Landingspagina&#39;s kunnen ook worden gebruikt voor het **aanschaffen of bijwerken van bestaande profielen** en voor het instellen van een dubbele aanmeldingsprocedure, waarmee u het platform kunt beschermen tegen onjuiste of ongeldige e-mailadressen of spambots.
+Openingspagina&#39;s kunnen ook worden gebruikt voor het **ophalen of bijwerken van bestaande profielen** en voor het instellen van een mechanisme voor dubbele aanmelding, waarmee u het platform kunt beschermen tegen onjuiste of ongeldige e-mailadressen of spambots.
 
 Meer informatie:
 
