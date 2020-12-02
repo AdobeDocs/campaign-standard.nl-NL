@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 3%
@@ -167,7 +167,7 @@ De het richten afmeting laat u toe om te bepalen in welk type van bericht u het 
 
 Wanneer u een bericht bewerkt, kunt u alleen inhoudsblokken selecteren met een doeldimensie die compatibel is met de doeldimensie van dat bericht.
 
-De doeldimensie van het **[!UICONTROL Unsubscription link]**-blok is bijvoorbeeld **[!UICONTROL Profiles]** omdat het aanpassingsvelden bevat die specifiek zijn voor de **[!UICONTROL Profiles]**-bron. Daarom kunt u geen **[!UICONTROL Unsubscription link]** blok in een [gebeurtenistransactioneel bericht](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) gebruiken, omdat de het richten dimensie van dat type van bericht **[!UICONTROL Real-time events]** is. U kunt echter het **Unsubscription-blok** in een [profile transactioneel bericht](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) gebruiken, omdat de doeldimensie van dat type bericht **Profiles** is. Tot slot heeft het **[!UICONTROL Link to mirror page]** blok geen het richten dimensie, zodat kunt u het in om het even welk bericht gebruiken.
+De doeldimensie van het **[!UICONTROL Unsubscription link]**-blok is bijvoorbeeld **[!UICONTROL Profiles]** omdat het aanpassingsvelden bevat die specifiek zijn voor de **[!UICONTROL Profiles]**-bron. Daarom kunt u geen **[!UICONTROL Unsubscription link]** blok in een [gebeurtenistransactioneel bericht](../../channels/using/event-transactional-messages.md) gebruiken, omdat de het richten dimensie van dat type van bericht **[!UICONTROL Real-time events]** is. U kunt echter het **Unsubscription-blok** in een [profile transactioneel bericht](../../channels/using/profile-transactional-messages.md) gebruiken, omdat de doeldimensie van dat type bericht **Profiles** is. Tot slot heeft het **[!UICONTROL Link to mirror page]** blok geen het richten dimensie, zodat kunt u het in om het even welk bericht gebruiken.
 
 Als u dit veld leeg laat, is het inhoudsblok compatibel met alle berichten, ongeacht de doeldimensie. Als u een het richten dimensie plaatst, zal dat blok slechts met berichten compatibel zijn die de zelfde het richten dimensie hebben.
 
