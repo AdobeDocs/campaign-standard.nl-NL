@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: adding-or-extending-a-resource
 context-tags: deploy,main;eventCusResource,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 100%
+source-wordcount: '735'
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ De database moet worden bijgewerkt om de wijzigingen toe te passen die in de bro
 
 >[!NOTE]
 >
->Als een veld van een aangepaste bron die wordt gebruikt voor een gebeurtenis, wordt aangepast of verwijderd, wordt de publicatie van de overeenkomstige gebeurtenis automatisch ongedaan gemaakt. Zie de sectie [Transactieberichten configureren](../../administration/using/configuring-transactional-messaging.md).
+>Als een veld van een aangepaste bron die wordt gebruikt voor een gebeurtenis, wordt aangepast of verwijderd, wordt de publicatie van de overeenkomstige gebeurtenis automatisch ongedaan gemaakt. Zie [Publicatie van een transactiegebeurtenis opheffen](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
 1. Selecteer in het geavanceerde menu dat u opent via het Adobe Campaign-logo achtereenvolgens **[!UICONTROL Administration]** > **[!UICONTROL Development]** en **[!UICONTROL Publishing]**.
 1. De optie **[!UICONTROL Determine modifications since the last publication]** is standaard ingeschakeld, wat betekent dat alleen de wijzigingen worden toegepast die zijn uitgevoerd sinds de laatste update.
