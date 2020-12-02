@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '4627'
 ht-degree: 8%
@@ -155,7 +155,7 @@ _Transactionele berichten_
 _Rapporten_
 
 * Het **Hot click**-rapport is verbeterd. Ook, is het nu mogelijk om heet kliks volgens elke voorwaardelijke inhoud te tonen die in een levering werd bepaald en hete kliks voor elke uitvoering van terugkomende leveringen of transactionele berichten te tonen. Raadpleeg de [gedetailleerde documentatie](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion) voor meer informatie.
-* Probleem verholpen waarbij de quarantaineminimetrische gegevens niet werden opgehaald.
+* Probleem verholpen waarbij de quarantaineminimetrie geen correcte gegevens kon ophalen.
 * Er is een nieuw vooraf ingesteld tijdframe toegevoegd aan de kalenderwidget.
 * De [dynamische rapportmetriek](../../reporting/using/indicator-calculation.md) en [campagnes&#39; KPIs](../../sending/using/confirming-the-send.md) (getoond op het dashboard van verzonden berichten) zijn gericht voor meer coherentie.
 * Probleem verholpen waarbij een pijpleiding ertoe kon leiden dat er een crash optrad bij debian 7.
@@ -493,7 +493,7 @@ _Workflows_
      <li> De koppeling voor het opzeggen van abonnementen in de berichten opnemen. </li> 
      <li> De transactionele berichten aan de globale leveringsrapportage toevoegen. </li> 
      <li> De transactionele berichten in het klanttraject gebruiken. </li> 
-    </ul> Raadpleeg de <a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+    </ul> Raadpleeg de <a href="../../channels/using/profile-transactional-messages.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Transactieberichten-API<br /> </td> 
