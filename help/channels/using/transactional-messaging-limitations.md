@@ -8,35 +8,35 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 840795064021688e25f8c9ae3c7150bcc1f085b1
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 89%
+source-wordcount: '637'
+ht-degree: 79%
 
 ---
 
 
-# Beperkingen voor transactieberichten {#transactional-messaging-limitations}
+# Aanbevolen werkwijzen en beperkingen {#transactional-messaging-limitations} voor transactiemeldingen
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-In de onderstaande sectie worden de beperkingen weergegeven die u moet kennen voordat u transactiemeldingen gaat maken.
+In de onderstaande sectie worden de aanbevolen procedures en beperkingen weergegeven die u moet kennen voordat u transactiemeldingen gaat maken.
 
-Voor meer op transactionele berichten, met inbegrip van op hoe te om hen te vormen en tot stand te brengen, zie [Begonnen het worden met transactioneel overseinen](../../channels/using/getting-started-with-transactional-msg.md).
+<!--For more on transactional messages, including on how to configure and create them, see [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).-->
 
 >[!IMPORTANT]
 >
->Voor toegang tot de transactieberichten moet u beheerrechten hebben.
+>Om tot transactieberichten toegang te hebben, moet u [beleid](../../administration/using/users-management.md#functional-administrators) rechten hebben.
 
-## Ontwerp en publicatie {#design-and-publication}
+## Configuratie en publicatie van gebeurtenissen {#design-and-publication}
 
-Tijdens het ontwerpen en publiceren van transactieberichten kunnen sommige stappen die u moet uitvoeren, niet worden teruggedraaid. U dient op de hoogte te zijn van de volgende beperkingen:
+Terwijl u transactionele gebeurtenissen configureert en publiceert, kunnen sommige stappen die u moet uitvoeren niet worden teruggezet. U dient op de hoogte te zijn van de volgende beperkingen:
 
-* Voor elke gebeurtenisconfiguratie kan slechts één kanaal worden gebruikt. Zie [Een gebeurtenis maken](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
+* Voor elke gebeurtenisconfiguratie kan slechts één kanaal worden gebruikt. Zie [Een gebeurtenis maken](../../channels/using/configuring-transactional-event.md#creating-an-event).
 * Nadat de gebeurtenis is gemaakt, kunt u het kanaal niet meer wijzigen. Als een bericht niet succesvol wordt verzonden, moet u een mechanisme ontwerpen waardoor het bericht door middel van een workflow via een ander kanaal wordt verzonden. Zie [Workflowdata en processen](../../automating/using/get-started-workflows.md).
-* U kunt de doeldimensie (**[!UICONTROL Real-time event]** of **[!UICONTROL Profile]**) niet wijzigen nadat de gebeurtenis is gemaakt. Zie [Een gebeurtenis maken](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
-* U kunt een publicatie niet terugdraaien, maar u kunt de publicatie van een gebeurtenis wel ongedaan maken, zodat de gebeurtenis en het bijbehorende transactiebericht ontoegankelijk worden. Zie [Publicatie van een gebeurtenis ongedaan maken](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
-* Het enige transactiebericht dat met een gebeurtenis kan worden geassocieerd, is het bericht dat automatisch wordt gemaakt tijdens het publiceren van die gebeurtenis. Zie [Een voorvertoning weergeven en de gebeurtenis publiceren](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
+* U kunt de doeldimensie (**[!UICONTROL Real-time event]** of **[!UICONTROL Profile]**) niet wijzigen nadat de gebeurtenis is gemaakt. Zie [Een gebeurtenis maken](../../channels/using/configuring-transactional-event.md#creating-an-event).
+* U kunt een publicatie niet terugdraaien, maar u kunt de publicatie van een gebeurtenis wel ongedaan maken, zodat de gebeurtenis en het bijbehorende transactiebericht ontoegankelijk worden. Zie [Publicatie van een gebeurtenis ongedaan maken](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+* Het enige transactiebericht dat met een gebeurtenis kan worden geassocieerd, is het bericht dat automatisch wordt gemaakt tijdens het publiceren van die gebeurtenis. Zie [Een voorvertoning weergeven en de gebeurtenis publiceren](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
 ## Personalisatie {#personalization}
 
@@ -44,18 +44,20 @@ De manier waarop u berichtcontent kunt personaliseren hangt af van het type tran
 
 ### Transactieberichten op basis van gebeurtenissen
 
-* De persoonlijke informatie komt uit data van de gebeurtenis zelf. Zie [Transactieberichten voor gebeurtenissen](../../channels/using/event-transactional-messages.md).
-* You **cannot** use **[!UICONTROL Unsubscription link]** content blocks in an event transactional message.
-* Het gebeurtenistransactiebericht wordt verondersteld om alleen de data in de verzendgebeurtenis zelf te gebruiken bij het bepalen van de ontvanger en de personalisatie van de berichtcontent. U kunt de content van het transactiebericht echter wel verrijken met data uit de Adobe Campaign-database. Zie [De content van het transactiebericht verrijken](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
-* Aangezien de transactieberichten voor gebeurtenissen geen profielinformatie bevatten, zijn ze niet compatibel met &#39;moeheidsregels&#39;, zelfs in het geval van een verrijking met profielen. Zie [Moeheidsregels](../../sending/using/fatigue-rules.md).
+* De persoonlijke informatie komt uit data van de gebeurtenis zelf. Zie [Transactieberichtconfiguratie op basis van gebeurtenissen](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
+* U **kunt niet** gebruiken **[!UICONTROL Unsubscription link]** inhoudsblokken in een bericht van de gebeurtenistransactie.
+* Het gebeurtenistransactiebericht wordt verondersteld om alleen de data in de verzendgebeurtenis zelf te gebruiken bij het bepalen van de ontvanger en de personalisatie van de berichtcontent. U kunt de content van het transactiebericht echter wel verrijken met data uit de Adobe Campaign-database. Zie [Een gebeurtenis verrijken](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) en [Een transactiebericht aanpassen](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+* Aangezien de transactieberichten voor gebeurtenissen geen profielinformatie bevatten, zijn ze niet compatibel met &#39;moeheidsregels&#39;, zelfs in het geval van een verrijking met profielen.
 
 ### Transactieberichten op basis van profiel
 
-* De personalisatiegegevens kunnen afkomstig zijn van de data in de gebeurtenis of van de afgestemde profielrecord. Zie [Profieltransactieberichten](../../channels/using/profile-transactional-messages.md).
-* You **can** use **[!UICONTROL Unsubscription link]** content blocks in a profile transactional message. Zie [Een contentblok](../../designing/using/personalization.md#adding-a-content-block) toevoegen.
+* De personalisatiegegevens kunnen afkomstig zijn van de data in de gebeurtenis of van de afgestemde profielrecord. Zie [Transactieberichtconfiguratie op basis van profiel](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) en [Specificaties van op profiel gebaseerde transactiemeldingen](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
+* U **kan** gebruiken **[!UICONTROL Unsubscription link]** inhoudsblokken in een bericht van de profieltransactie. Zie [Een contentblok](../../designing/using/personalization.md#adding-a-content-block) toevoegen.
 * De moeheidsregels zijn compatibel met transactieberichten voor profielen. Zie [Moeheidsregels](../../sending/using/fatigue-rules.md).
 
-Productaanbiedingen zijn alleen beschikbaar in transactionele e-mailberichten. Zie [Productaanbiedingen gebruiken in een transactiebericht](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
+### Productaanbiedingen
+
+Merk op dat de productaanbiedingen in transactie **e-mailberichten** slechts beschikbaar zijn. Zie [Productaanbiedingen gebruiken in een transactiebericht](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
 
 ## Toestemmingen en branding{#permissions-and-branding}
 
@@ -74,4 +76,4 @@ Als u multi-branding daarom binnen de context van transactieberichten wilt gebru
 ## Transactieberichten exporteren en importeren {#exporting-and-importing-transactional-messages}
 
 * Als u een transactiebericht wilt exporteren, moet u de bijbehorende gebeurtenisconfiguratie opnemen wanneer u [het pakket voor exporteren maakt](../../automating/using/managing-packages.md#creating-a-package).
-* Als het transactiebericht eenmaal via een pakket [is geïmporteerd](../../automating/using/managing-packages.md#importing-a-package), wordt het niet weergegeven in de lijst met transactieberichten. U moet de gebeurtenisconfiguratie [publiceren](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event) om het bijbehorende transactiebericht beschikbaar te maken.
+* Als het transactiebericht eenmaal via een pakket [is geïmporteerd](../../automating/using/managing-packages.md#importing-a-package), wordt het niet weergegeven in de lijst met transactieberichten. U moet de gebeurtenisconfiguratie [publiceren](../../channels/using/publishing-transactional-event.md) om het bijbehorende transactiebericht beschikbaar te maken.
