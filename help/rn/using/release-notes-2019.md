@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '7623'
 ht-degree: 8%
@@ -203,9 +203,9 @@ ht-degree: 8%
 
 * Dankzij de integratie met Adobe Experience Platform Location Services is Adobe Campaign nu compatibel met het versturen van op locatie gebaseerde marketingberichten naar de abonnees van uw mobiele toepassing via de SDK van het Experience Platform. Raadpleeg de [gedetailleerde documentatie](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md) voor meer informatie.
 * De rapportfunctie is verbeterd voor een betere ervaring. Om deze eigenschap te gebruiken, moet u de Dynamische Overeenkomst van het Gebruik van de Rapportering goedkeuren. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
-* In workflows is een nieuwe optie toegevoegd om een voorvertoning te bekijken van de volgende tien uitvoeringen van een workflow. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
-* In de activiteit van de Planner, staat een nieuwe optie u toe om een specifieke dag van een specifieke week voor maandelijkse leveringen te selecteren. For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
-* Wanneer u terugkerende leveringen maakt zonder aggregatieperiode, kunt u op het dashboard voor de levering nu een bevestiging aanvragen voordat de levering wordt verzonden. For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
+* In workflows is een nieuwe optie toegevoegd om een voorvertoning te bekijken van de volgende tien uitvoeringen van een workflow. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../automating/using/scheduler.md).
+* In de activiteit van de Planner, staat een nieuwe optie u toe om een specifieke dag van een specifieke week voor maandelijkse leveringen te selecteren. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../automating/using/scheduler.md).
+* Wanneer u terugkerende leveringen maakt zonder aggregatieperiode, kunt u op het dashboard voor de levering nu een bevestiging aanvragen voordat de levering wordt verzonden. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../sending/using/confirming-the-send.md).
 * U kunt het label van een levering nu personaliseren met gebeurtenisvariabelen die zijn gedeclareerd in de externe signaalactiviteit van de workflow. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * De GDPR-verwijderquery is verbeterd ten behoeve van betere prestaties. (CAMP-33504)
 * De optie &quot;ftp&quot; is verwijderd uit de interface voor externe accountconfiguratie. (CAMP-34472)
@@ -273,7 +273,7 @@ ht-degree: 8%
 
 ## Release 19.2.3 - juni 2019 {#release-19-2-3---june-2019}
 
-**Email Designer**
+**E-mailontwerper**
 
 Introduceerde een reeks verbeteringen en correcties om fragmenten te optimaliseren in de release 19.2. Nieuw gemaakte fragmenten werken naadloos. Fragmenten die eerder zijn gemaakt, zijn grijs weergegeven en moeten naar de nieuwe indeling worden gemigreerd. Klik hiertoe op elk fragment en valideer de migratie ervan naar de nieuwe indeling. We raden u aan enkele fragmenten te testen voordat u ze allemaal migreert.
 
@@ -539,7 +539,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
   </tr> 
   <tr> 
    <td> Productaanbiedingen in Transactiee-mails<br /> </td> 
-   <td> <p>U kunt nu verwijzen naar een of meer productverzamelingen in een transactie-e-mailbericht. U kunt bijvoorbeeld automatisch een e-mailbericht met een winkelwagentje verzenden waarin alle producten worden vermeld die zich in de winkelwagentje van de gebruiker bevonden met een afbeelding, prijs en koppeling naar elk product.</p><p>Raadpleeg voor meer informatie de <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">Hoe kan ik-video</a>.</p> </td> 
+   <td> <p>U kunt nu verwijzen naar een of meer productverzamelingen in een transactie-e-mailbericht. U kunt bijvoorbeeld automatisch een e-mailbericht met een winkelwagentje verzenden waarin alle producten worden vermeld die zich in de winkelwagentje van de gebruiker bevonden met een afbeelding, prijs en koppeling naar elk product.</p><p>Raadpleeg voor meer informatie de <a href="../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">Hoe kan ik-video</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mobiele weergave in de e-mailontwerper<br /> </td> 
@@ -568,7 +568,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 * De lijst met landen die beschikbaar zijn wanneer het adres van een profiel wordt gedefinieerd, is verrijkt. (CAMP-26707)
 * Er wordt nu een foutbericht weergegeven wanneer u een ingebouwde workflow probeert te importeren.
 
-**Email Designer**
+**E-mailontwerper**
 
 * Probleem verholpen waarbij de geografische eenheid kon worden gebruikt voor een e-mailsjabloon of een inhoudsfragment dat met de e-mailontwerper is gemaakt, ook al was deze functie uitgeschakeld in Adobe Campaign, waardoor de sjabloon of het fragment niet beschikbaar was toen u opnieuw probeerde toegang te krijgen tot de sjabloon. (CAMP-28174)
 * Probleem verholpen waardoor dynamische inhoudsvoorwaarden niet konden worden opgeslagen tijdens het bewerken van inhoud met de e-mailontwerper. (CAMP-27905)
