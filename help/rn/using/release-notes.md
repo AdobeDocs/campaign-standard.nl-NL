@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '2412'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -112,7 +112,7 @@ ht-degree: 100%
 * Bij het publiceren van een aangepaste bron wordt nu na de voorbereiding ter bevestiging een pop-upvenster weergegeven.
 * Het pop-upbericht dat wordt weergegeven wanneer een aangepaste bron mislukt, verschaft nu meer duidelijkheid.
 * De expressie-editor in workflows is verbeterd om uitvoeringsfouten te voorkomen. Er zijn [nieuwe functies](../../automating/using/customizing-workflow-external-parameters.md) beschikbaar: deze kunnen worden gebruikt in alle activiteiten waarmee u gebeurtenisvariabelen kunt gebruiken na het aanroepen van een workflow met externe parameters. Bovendien wordt in de expressie-editor nu knopinfo weergegeven met de functiebeschrijving.
-* Er zijn [nieuwe filters](../../channels/using/configuring-transactional-event.md#searching-transactional-events) toegevoegd aan de lijst met transactiegebeurtenissen. Hiermee kunt u de gebeurtenisconfiguraties filteren op basis van hun status en de laatste keer dat een gebeurtenis is ontvangen.
+* Er zijn [nieuwe filters](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) toegevoegd aan de lijst met transactiegebeurtenissen. Hiermee kunt u de gebeurtenisconfiguraties filteren op basis van hun status en de laatste keer dat een gebeurtenis is ontvangen.
 * De logboeken die worden weergegeven bij het exporteren van pakketten bevatten nu meer specifieke en gedetailleerde informatie over de fouten die zijn aangetroffen bij een mislukking.
 * Na verzending van een bericht kunt u nu de lijst met [bijgehouden URL’s](../../sending/using/tracking-messages.md) doorzoeken, filteren en exporteren.
 * Automatische [synchronisatie tussen Launch en Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) is nu algemeen verkrijgbaar en standaard ingeschakeld.
