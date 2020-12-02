@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: 'Campaign Standard-handleiding '
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '1681'
-ht-degree: 98%
+source-wordcount: '1664'
+ht-degree: 99%
 
 ---
 
@@ -119,16 +119,11 @@ ht-degree: 98%
       + [De content voor direct mail definiëren](channels/using/defining-the-direct-mail-content.md)
    + Transactionele berichten {#transactional-messaging}
       + [Aan de slag met transactionele berichten](channels/using/getting-started-with-transactional-msg.md)
-      + [Aanbevolen werkwijzen voor Transactieberichten](channels/using/transactional-messaging-limitations.md)
-      + Gebeurtenisconfiguratie {#event-configuration}
-         + [Een transactiegebeurtenis configureren](channels/using/configuring-transactional-event.md)
-         + [Transactiegebeurtenissen publiceren](channels/using/publishing-transactional-event.md)
-      + Transactiebericht {#transactional-message-edition}
-         + [Een transactiebericht bewerken](channels/using/editing-transactional-message.md)
-         + [Transactiebericht publiceren](channels/using/publishing-transactional-message.md)
+      + [Beperkingen voor transactionele berichten](channels/using/transactional-messaging-limitations.md)
+      + [Transactionele berichten voor gebeurtenissen](channels/using/event-transactional-messages.md)
+      + [Transactionele berichten voor profielen](channels/using/profile-transactional-messages.md)
       + [Transactionele pushmeldingen](channels/using/transactional-push-notifications.md)
       + [Vervolgberichten](channels/using/follow-up-messages.md)
-      + [Transactieproblemen bij het gebruik van berichten](channels/using/transactional-messaging-use-case.md)
    + Landingspagina&#39;s {#landing-pages}
       + [Aan de slag met landingspagina&#39;s](channels/using/getting-started-with-landing-pages.md)
       + [Informatie over sjablonen voor landingspagina&#39;s](channels/using/landing-page-templates.md)
@@ -435,6 +430,7 @@ ht-degree: 98%
       + [E-mailkanaal configureren](administration/using/configuring-email-channel.md)
       + [Een sms-kanaal configureren](administration/using/configuring-sms-channel.md)
       + [Een mobiele applicatie configureren](administration/using/configuring-a-mobile-application.md)
+      + [Transactionele berichten configureren](administration/using/configuring-transactional-messaging.md)
    + Mobiele kanalen configureren {#configuring-mobile}
       + [Pushtracking implementeren](administration/using/push-tracking.md)
       + [Afbeeldingen en video’s toevoegen in iOS](administration/using/image-push-notification.md)
