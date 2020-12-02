@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '2945'
 ht-degree: 99%
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 [Releaseplanning](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/release-planning.html) | [Releases van het Configuratiescherm](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html) | [Updates van documentatie](../../rn/using/documentation-updates.md) | [Opmerkingen bij eerdere releases](../../rn/using/release-notes-2019.md) | [Verouderde functies](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
 
-![](assets/do-not-localize/cp-icon.png) **Release van nieuw configuratiescherm in juni** met controle van actieve profielen, controle van de leverbaarheid van subdomeinen en beheer van GPG-sleutels. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Release van nieuw configuratiescherm in juni** met controle van actieve profielen, controle van de leverbaarheid van subdomeinen en beheer van GPG-sleutels. [Meer informatie](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## Release 20.3 - Mei 2020 {#release-20-3---may-2020}
 
@@ -123,7 +123,7 @@ ht-degree: 99%
 * Probleem verholpen waardoor gebruikers geen wijzigingen konden aanbrengen in rapporten. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Nieuw configuratiescherm in de release van mei** met certificaatverlenging voor CNAME-subdomeinen. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nieuw configuratiescherm in de release van mei** met certificaatverlenging voor CNAME-subdomeinen. [Meer informatie](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## Release 20.2 - april 2020 {#release-20-2---april-2020}
 
@@ -161,7 +161,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Nieuwe mogelijkheden worden in april beschikbaar gesteld in het Configuratiescherm van Campaign, waaronder Google TXT-recordbeheer, bewaking van de databaseruimte en e-mailwaarschuwingen. Raadpleeg de [Opmerking bij de release van het Configuratiescherm](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html) voor meer informatie over deze functies.
+>Nieuwe mogelijkheden worden in april beschikbaar gesteld in het Configuratiescherm van Campaign, waaronder Google TXT-recordbeheer, bewaking van de databaseruimte en e-mailwaarschuwingen. Raadpleeg de [Opmerking bij de release van het Configuratiescherm](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) voor meer informatie over deze functies.
 
 **Verbeteringen**
 
@@ -203,7 +203,7 @@ ht-degree: 99%
 
 * Probleem verholpen met de workflowactiviteit **Verrijking** dat kon optreden wanneer spaties werden toegevoegd in het veld **Alias** en waarbij vervolgens een nieuw rij-item werd gemaakt. (CAMP-39229)
 * Probleem verholpen waarbij elk testprofiel als doel kon worden ingesteld bij het verzenden van een proefbericht.
-* Probleem verholpen dat optrad na het ongedaan maken van de publicatie van een gebeurtenisconfiguratie en het verwijderen ervan. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* Probleem verholpen dat optrad na het ongedaan maken van de publicatie van een gebeurtenisconfiguratie en het verwijderen ervan. [Meer informatie](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 * Probleem verholpen waarbij de knop **Opslaan** verdween bij het aanbrengen van wijzigingen in workflows.
 * Probleem verholpen bij het handmatig verwijderen van een privacyaanvraag in Campaign nadat deze was verwerkt. Hierdoor konden data die aan de aanvraag waren gekoppeld, niet worden verwijderd, zelfs niet na opschoning.
 * Probleem verholpen dat kon optreden tijdens het voorvertonen of verzenden van berichten met speciale tekens uit Adobe Experience Manager.
@@ -291,7 +291,7 @@ ht-degree: 99%
 * De organisatorische eenheid van de beveiligingsgroep Beheerders kan niet meer worden veranderd.
 * Wanneer u een profiel maakt, moet u het veld Organisatorische eenheid nu invullen.
 * Een Experience Cloud Trigger kan nu alleen worden verwijderd als zowel de gebeurtenis als de transactionele sjabloon die eraan gekoppeld is, worden verwijderd.
-* [!DNL Adobe Creative SDK] is ontmanteld. Deze kan niet meer worden gebruikt in Campaign Standard. Zie de pagina [Verouderde en verwijderde functies](../../rn/using/deprecated-features.md).
+* [!DNL Adobe Creative SDK] is buiten gebruik gesteld. Deze kan niet meer worden gebruikt in Campaign Standard. Zie de pagina [Verouderde en verwijderde functies](../../rn/using/deprecated-features.md).
 
 
 **Patches**
