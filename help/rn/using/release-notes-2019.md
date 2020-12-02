@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '7623'
 ht-degree: 8%
@@ -286,7 +286,7 @@ Introduceerde een reeks verbeteringen en correcties om fragmenten te optimaliser
 * Probleem opgelost waarbij SMPP-verbindingen konden worden gesloten wanneer TLS was ingeschakeld.
 * Probleem opgelost waarbij SMPP-verbindingen konden worden gesloten wanneer TLS was ingeschakeld.
 * De optie &quot;Launch_URL_Campaign&quot; is toegevoegd in Campagne voor het beheer van eigenschappen van mobiele toepassingen die zijn gemaakt met Adobe Experience Platform Mobile SDK.
-* Correctie van een fout die ertoe leidde dat de de milieuoptie van de Sandbox na het uploaden van het certificaat van een nieuw gecreeerd mobiel bezit en het weggaan van de mobiele pagina van het toepassingsbezit werd ongecontroleerd.
+* Correctie van een fout die ertoe leidde dat de de milieuoptie van Sandbox na het uploaden van het certificaat van een nieuw gecreeerd mobiel bezit en het weggaan van de mobiele pagina van het toepassingsbezit werd ongecontroleerd.
 * Probleem verholpen waardoor u een transactiemelding voor berichtinhoud niet kon verrijken met informatie uit het servicemiddel. (CAMP-33707)
 * Probleem verholpen in de openingspagina&#39;s van de lijst van afgewezen personen die optraden toen werd geprobeerd om profielen van de dienst af te schrijven.
 
@@ -539,7 +539,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
   </tr> 
   <tr> 
    <td> Productaanbiedingen in Transactiee-mails<br /> </td> 
-   <td> <p>U kunt nu verwijzen naar een of meer productverzamelingen in een transactie-e-mailbericht. U kunt bijvoorbeeld automatisch een e-mailbericht met een winkelwagentje verzenden waarin alle producten worden vermeld die zich in de winkelwagentje van de gebruiker bevonden met een afbeelding, prijs en koppeling naar elk product.</p><p>Raadpleeg voor meer informatie de <a href="../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">Hoe kan ik-video</a>.</p> </td> 
+   <td> <p>U kunt nu verwijzen naar een of meer productverzamelingen in een transactie-e-mailbericht. U kunt bijvoorbeeld automatisch een e-mailbericht met een winkelwagentje verzenden waarin alle producten worden vermeld die zich in de winkelwagentje van de gebruiker bevonden met een afbeelding, prijs en koppeling naar elk product.</p><p>Raadpleeg voor meer informatie de <a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">Hoe kan ik-video</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mobiele weergave in de e-mailontwerper<br /> </td> 
