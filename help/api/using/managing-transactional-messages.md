@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 1%
+source-wordcount: '678'
+ht-degree: 3%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 1%
 
 ## Informatie over transactieberichten
 
-Nadat u een gebeurtenis hebt gemaakt, moet u de activering van deze gebeurtenis integreren in uw website.
+Nadat u een transactiegebeurtenis hebt gemaakt en gepubliceerd, moet u het activeren van deze gebeurtenis integreren in uw website.
 
 >[!NOTE]
 >
->Het creëren van en het publiceren van een gebeurtenis worden voorgesteld in [de documentatie](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)van de Campagne.
+>Het vormen van een gebeurtenis wordt voorgesteld in [deze sectie](../../channels/using/configuring-transactional-event.md).
 
 U wilt bijvoorbeeld dat de gebeurtenis &#39;Afkappen met winkelwagentje&#39; wordt geactiveerd wanneer een van uw klanten uw website verlaat voordat ze de producten in hun winkelwagentje kopen. Hiervoor moet uw webontwikkelaar de REST Transaction Messages API gebruiken.
 
-1. De ontwikkelaar verzendt een verzoek volgens de methode van de POST, die het [verzenden van de transactiegebeurtenis](#sending-a-transactional-event)teweegbrengt.
-1. Het antwoord op het verzoek van de POST bevat een Primaire Sleutel, die de ontwikkelaar toestaat om één of veelvoudige verzoeken door een GET verzoek te verzenden. Op deze manier kan hij de [gebeurtenisstatus](#transactional-event-status)verkrijgen.
+1. De ontwikkelaar verzendt een verzoek volgens de methode van de POST, die [het verzenden van de transactiegebeurtenis ](#sending-a-transactional-event) teweegbrengt.
+1. Het antwoord op het verzoek van de POST bevat een Primaire Sleutel, die de ontwikkelaar toestaat om één of veelvoudige verzoeken door een GET verzoek te verzenden. Op deze manier kan hij de [gebeurtenisstatus](#transactional-event-status) verkrijgen.
 
 ## Een transactiegebeurtenis verzenden {#sending-a-transactional-event}
 
@@ -38,9 +38,9 @@ De transactionele gebeurtenis wordt verzonden door een verzoek van de POST met d
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;ORGANISATIE>**: uw persoonlijke ORGANISATIE-ID. Zie [deze sectie](../../api/using/must-read.md).
+* **&lt;organization>**: uw persoonlijke ORGANISATIE-ID. Zie [deze sectie](../../api/using/must-read.md).
 
-* **&lt;transactieAPI>**: de Transactional Berichten API endPoints.
+* **&lt;transactionalapi>**: de Transactional Berichten API endPoints.
 
    De naam van het Transactionele eindpunt van Berichten API hangt van uw instantieconfiguratie af. Deze komt overeen met de waarde &quot;mc&quot; gevolgd door uw persoonlijke organisatie-id. Laten we het voorbeeld van het Geometrixx-bedrijf nemen, met &#39;geometrixx&#39; als organisatie-id. In dat geval zou het verzoek om POST als volgt zijn:
 
@@ -48,7 +48,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    (Het API-eindpunt voor transactionele berichten is ook zichtbaar tijdens de API-voorvertoning.)
 
-* **&lt;eventID>**: het type gebeurtenis dat u wilt verzenden. Deze id wordt gegenereerd wanneer de gebeurtenisdefinitie wordt gemaakt. Raadpleeg de [documentatie](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)van de campagne.
+* **&lt;eventid>**: het type gebeurtenis dat u wilt verzenden. Deze id wordt gegenereerd wanneer de gebeurtenisconfiguratie wordt gemaakt (zie [deze sectie](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
 ### POST request header
 
@@ -67,12 +67,12 @@ U moet een tekenset toevoegen, bijvoorbeeld **utf-8**. Deze waarde is afhankelij
 
 ### POST aanvraaginstantie
 
-De gebeurtenisgegevens bevinden zich in de hoofdtekst van de JSON-POST. De gebeurtenisstructuur is afhankelijk van de definitie ervan. De API voorproefknoop in het scherm van de middeldefinitie verstrekt een verzoeksteekproef. Raadpleeg de [documentatie](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)van de campagne.
+De gebeurtenisgegevens bevinden zich in de hoofdtekst van de JSON-POST. De gebeurtenisstructuur is afhankelijk van de definitie ervan. De API voorproefknoop in het scherm van de middeldefinitie verstrekt een verzoeksteekproef. Zie [deze sectie](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
 De volgende optionele parameters kunnen aan de inhoud van de gebeurtenis worden toegevoegd om het verzenden van aan de gebeurtenis gekoppelde transactieberichten te beheren:
 
-* **Vervaldatum** (optioneel): na deze datum wordt het verzenden van de transactiegebeurtenis geannuleerd.
-* **Gepland** (optioneel): vanaf deze datum wordt de transactie - gebeurtenis verwerkt en wordt het transactiemelding verzonden .
+* **Vervaldatum**  (optioneel): na deze datum wordt het verzenden van de transactiegebeurtenis geannuleerd.
+* **Gepland**  (optioneel): vanaf deze datum wordt de transactie - gebeurtenis verwerkt en wordt het transactiemelding verzonden .
 
 >[!NOTE]
 >
@@ -132,13 +132,13 @@ Antwoord op het verzoek van de POST.
 }
 ```
 
-### Status van een transactiegebeurtenis {#transactional-event-status}
+### Status van transactie-gebeurtenis {#transactional-event-status}
 
 In het antwoord kunt u met het veld status weten of de gebeurtenis is verwerkt:
 
 * **in behandeling**: de gebeurtenis is in behandeling - de gebeurtenis neemt deze status over wanneer deze zojuist is geactiveerd.
 * **verwerking**: de gebeurtenis is in afwachting van levering - het wordt omgezet in een bericht en het bericht wordt verzonden.
-* **gepauzeerd**: het gebeurtenisproces wordt gepauzeerd. Het wordt niet meer verwerkt, maar in een rij in het gegevensbestand van Adobe Campaign bewaard. For more on this, refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message).
+* **gepauzeerd**: het gebeurtenisproces wordt gepauzeerd. Het wordt niet meer verwerkt, maar in een rij in het gegevensbestand van Adobe Campaign bewaard. Raadpleeg [deze sectie](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication) voor meer informatie.
 * **verwerkt**: de gebeurtenis is verwerkt en het bericht is verzonden.
 * **genegeerd**: de gebeurtenis werd genegeerd door de levering, typisch wanneer een adres in quarantaine is.
 * **deliveryFailed**: Er is een leveringsfout opgetreden tijdens de verwerking van de gebeurtenis.
