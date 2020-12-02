@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
 source-wordcount: '2412'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 [Releaseplanning](../../rn/using/release-planning.md) | [Releases van het Configuratiescherm](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html) | [Updates van documentatie](../../rn/using/documentation-updates.md) | [Opmerkingen bij eerdere releases](../../rn/using/release-notes-2020.md) | [Verouderde functies](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **Release van nieuw Configuratiescherm in oktober** met domeinconfiguratie met CNAME-records en nieuwe mogelijkheden voor databasecontrole. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Release van nieuw Configuratiescherm in oktober** met domeinconfiguratie met CNAME-records en nieuwe mogelijkheden voor databasecontrole. [Meer informatie](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html).
 
 ## Release 20.4 - oktober 2020 {#release-20-4---october-2020}
 
@@ -112,7 +112,7 @@ ht-degree: 100%
 * Bij het publiceren van een aangepaste bron wordt nu na de voorbereiding ter bevestiging een pop-upvenster weergegeven.
 * Het pop-upbericht dat wordt weergegeven wanneer een aangepaste bron mislukt, verschaft nu meer duidelijkheid.
 * De expressie-editor in workflows is verbeterd om uitvoeringsfouten te voorkomen. Er zijn [nieuwe functies](../../automating/using/customizing-workflow-external-parameters.md) beschikbaar: deze kunnen worden gebruikt in alle activiteiten waarmee u gebeurtenisvariabelen kunt gebruiken na het aanroepen van een workflow met externe parameters. Bovendien wordt in de expressie-editor nu knopinfo weergegeven met de functiebeschrijving.
-* Er zijn [nieuwe filters](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) toegevoegd aan de lijst met transactiegebeurtenissen. Hiermee kunt u de gebeurtenisconfiguraties filteren op basis van hun status en de laatste keer dat een gebeurtenis is ontvangen.
+* Er zijn [nieuwe filters](../../channels/using/configuring-transactional-event.md#searching-transactional-events) toegevoegd aan de lijst met transactiegebeurtenissen. Hiermee kunt u de gebeurtenisconfiguraties filteren op basis van hun status en de laatste keer dat een gebeurtenis is ontvangen.
 * De logboeken die worden weergegeven bij het exporteren van pakketten bevatten nu meer specifieke en gedetailleerde informatie over de fouten die zijn aangetroffen bij een mislukking.
 * Na verzending van een bericht kunt u nu de lijst met [bijgehouden URL’s](../../sending/using/tracking-messages.md) doorzoeken, filteren en exporteren.
 * Automatische [synchronisatie tussen Launch en Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) is nu algemeen verkrijgbaar en standaard ingeschakeld.
