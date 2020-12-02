@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 3%
 
 ## Informatie over transactieberichten
 
-Nadat u een transactiegebeurtenis hebt gemaakt en gepubliceerd, moet u het activeren van deze gebeurtenis integreren in uw website.
+Nadat u een gebeurtenis hebt gemaakt, moet u de activering van deze gebeurtenis integreren in uw website.
 
 >[!NOTE]
 >
->Het vormen van een gebeurtenis wordt voorgesteld in [deze sectie](../../channels/using/configuring-transactional-event.md).
+>Het creëren van en het publiceren van een gebeurtenis worden voorgesteld in [de documentatie van de Campagne](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 U wilt bijvoorbeeld dat de gebeurtenis &#39;Afkappen met winkelwagentje&#39; wordt geactiveerd wanneer een van uw klanten uw website verlaat voordat ze de producten in hun winkelwagentje kopen. Hiervoor moet uw webontwikkelaar de REST Transaction Messages API gebruiken.
 
@@ -48,7 +48,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    (Het API-eindpunt voor transactionele berichten is ook zichtbaar tijdens de API-voorvertoning.)
 
-* **&lt;eventid>**: het type gebeurtenis dat u wilt verzenden. Deze id wordt gegenereerd wanneer de gebeurtenisconfiguratie wordt gemaakt (zie [deze sectie](../../channels/using/configuring-transactional-event.md#creating-an-event)).
+* **&lt;eventid>**: het type gebeurtenis dat u wilt verzenden. Deze id wordt gegenereerd wanneer de gebeurtenisdefinitie wordt gemaakt. Raadpleeg de [Campagnedocumentatie](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 ### POST request header
 
@@ -67,7 +67,7 @@ U moet een tekenset toevoegen, bijvoorbeeld **utf-8**. Deze waarde is afhankelij
 
 ### POST aanvraaginstantie
 
-De gebeurtenisgegevens bevinden zich in de hoofdtekst van de JSON-POST. De gebeurtenisstructuur is afhankelijk van de definitie ervan. De API voorproefknoop in het scherm van de middeldefinitie verstrekt een verzoeksteekproef. Zie [deze sectie](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+De gebeurtenisgegevens bevinden zich in de hoofdtekst van de JSON-POST. De gebeurtenisstructuur is afhankelijk van de definitie ervan. De API voorproefknoop in het scherm van de middeldefinitie verstrekt een verzoeksteekproef. Raadpleeg de [Campagnedocumentatie](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 De volgende optionele parameters kunnen aan de inhoud van de gebeurtenis worden toegevoegd om het verzenden van aan de gebeurtenis gekoppelde transactieberichten te beheren:
 
@@ -138,7 +138,7 @@ In het antwoord kunt u met het veld status weten of de gebeurtenis is verwerkt:
 
 * **in behandeling**: de gebeurtenis is in behandeling - de gebeurtenis neemt deze status over wanneer deze zojuist is geactiveerd.
 * **verwerking**: de gebeurtenis is in afwachting van levering - het wordt omgezet in een bericht en het bericht wordt verzonden.
-* **gepauzeerd**: het gebeurtenisproces wordt gepauzeerd. Het wordt niet meer verwerkt, maar in een rij in het gegevensbestand van Adobe Campaign bewaard. Raadpleeg [deze sectie](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication) voor meer informatie.
+* **gepauzeerd**: het gebeurtenisproces wordt gepauzeerd. Het wordt niet meer verwerkt, maar in een rij in het gegevensbestand van Adobe Campaign bewaard. Raadpleeg voor meer informatie de [Campagne-documentatie](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message).
 * **verwerkt**: de gebeurtenis is verwerkt en het bericht is verzonden.
 * **genegeerd**: de gebeurtenis werd genegeerd door de levering, typisch wanneer een adres in quarantaine is.
 * **deliveryFailed**: Er is een leveringsfout opgetreden tijdens de verwerking van de gebeurtenis.
