@@ -6,12 +6,11 @@ description: Meer informatie over het maken en publiceren van een pushbericht vo
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-context-tags: null
 translation-type: tm+mt
-source-git-commit: 9ad23468d3d1cf386d9558e6cd2344ea2316fc82
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '1397'
-ht-degree: 8%
+source-wordcount: '740'
+ht-degree: 13%
 
 ---
 
@@ -24,70 +23,40 @@ Met Adobe Campaign kunt u pushmeldingen over transacties verzenden op mobiele ap
 >
 >Het drukkanaal is optioneel. Controleer hiervoor uw licentieovereenkomst. Zie [Pushmeldingen](../../channels/using/about-push-notifications.md) voor meer informatie over standaardpushmeldingen.
 
-Als u pushmeldingen over transacties wilt verzenden, moet u Adobe Campaign dienovereenkomstig configureren. Zie [Een mobiele toepassing configureren](../../administration/using/configuring-a-mobile-application.md).
-
 U kunt twee typen pushmeldingen voor transacties verzenden:
 
-* [Transactionele pushmeldingen voor een gebeurtenis](#transactional-push-notifications-targeting-an-event)
-* [Transactionele pushmeldingen die gericht zijn op ](#transactional-push-notifications-targeting-a-profile) profielen uit de Adobe Campaign-database
+* Transactionele pushmeldingen die gericht zijn op een gebeurtenis.
+* Transactionele pushberichten die verwijzen naar profielen uit de Adobe Campaign-database.
+
+Nadat u een gebeurtenis hebt gemaakt en gepubliceerd (de startprocedure voor het winkelen van winkelwagentjes wordt beschreven in [deze sectie](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)), wordt de bijbehorende pushmelding voor transacties automatisch gemaakt.
+
+De configuratiestappen worden voorgesteld in [Vormend een gebeurtenis om een transactie pushbericht](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) sectie te verzenden.
+
+Om ervoor te zorgen dat de gebeurtenis het verzenden van een transactioneel bericht activeert, moet u het bericht personaliseren en het vervolgens testen en publiceren.
 
 >[!NOTE]
 >
->Om toegang te hebben tot transactionele berichten moet u deel uitmaken van de beveiligingsgroep **[!UICONTROL Administrators (all units)]**. Zie [Gebruikersbeheer](../../administration/using/users-management.md#functional-administrators) voor meer informatie.
+>Om toegang te hebben tot transactionele berichten moet u deel uitmaken van de beveiligingsgroep **[!UICONTROL Administrators (all units)]**.
 
 ## Transactiepushmeldingen voor een gebeurtenis {#transactional-push-notifications-targeting-an-event}
 
-Met Adobe Campaign kunt u **anonieme pushberichten over transacties verzenden naar alle gebruikers** die zich hebben aangemeld om berichten van uw mobiele toepassing te ontvangen.
+U kunt een anoniem pushbericht over een transactie verzenden naar alle gebruikers die zich hebben aangemeld om berichten van uw mobiele toepassing te ontvangen.
 
-In dit geval worden alleen **de gegevens in de gebeurtenis zelf gebruikt om het leveringsdoel te definiëren**. Er worden geen gegevens van de Adobe Campaign Integrated Profile Database gebruikt.
+In dit geval worden alleen de gegevens in de gebeurtenis zelf gebruikt om het leveringsdoel te definiëren. Er worden geen gegevens van de Adobe Campaign Integrated Profile Database gebruikt.
 
-### Een op een gebeurtenis gebaseerde pushmelding voor transacties configureren {#configuring-event-based-transactional-push-notification}
-
-Als u een pushmelding over een transactie wilt verzenden aan alle gebruikers die zich hebben aangemeld voor het ontvangen van meldingen van uw mobiele toepassing, moet u eerst een gebeurtenis maken en configureren die gericht is op de gegevens in de gebeurtenis zelf.
-
->[!NOTE]
->
->U kunt de inhoud van een op een gebeurtenis gebaseerd transactioneel pushbericht nog aanpassen met de gebeurteniskenmerken [a1/> (gegevens van de gebeurtenis) en [event enrichment](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) (gegevens van de Campagne-database). ](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes) Zie [het onderstaande voorbeeld](#sending-event-based-transactional-push-notification).
-
-De gebeurtenis moet de volgende drie elementen bevatten:
-
-* A **registration token**, de gebruikersnaam voor één mobiele toepassing en één apparaat. Deze komt mogelijk niet overeen met enig profiel uit de Adobe Campaign-database.
-* A **naam mobiele toepassing** (één voor alle apparaten - Android en iOS). Dit is de id van de mobiele toepassing die in Adobe Campaign is geconfigureerd en die wordt gebruikt voor het ontvangen van pushberichten op de apparaten van de gebruiker. Raadpleeg [Een mobiele toepassing configureren](../../administration/using/configuring-a-mobile-application.md) voor meer informatie.
-* A **push-platform** (&quot;gcm&quot; voor Android of &quot;apns&quot; voor iOS).
-
-Volg onderstaande stappen om de gebeurtenis te configureren:
-
-1. Wanneer u de gebeurtenisconfiguratie maakt, selecteert u het **[!UICONTROL Mobile application]**-kanaal en de **[!UICONTROL Real-time event]**-doeldimensie (zie [Een gebeurtenis maken](../../channels/using/configuring-transactional-event.md#creating-an-event)).
-1. Voeg velden toe aan de gebeurtenis. Dit zal u toestaan om het transactionele bericht aan te passen (zie [Bepalend de gebeurtenisattributen](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)). In dit voorbeeld definieert u de velden &#39;gateNumber&#39;, &#39;lastname&#39; en &#39;firstname&#39;.
-1. Verrijk de inhoud van het transactiebericht als u extra informatie van het gegevensbestand van Adobe Campaign wilt gebruiken (zie [Verrijkend de gebeurtenis](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)).
-
-   >[!NOTE]
-   >
-   >Het gebeurtenistransactiebericht wordt verondersteld om alleen de data in de verzendgebeurtenis zelf te gebruiken bij het bepalen van de ontvanger en de personalisatie van de berichtcontent. U kunt de content van het transactiebericht echter wel verrijken met data uit de Adobe Campaign-database.
-
-1. [Bekijk een voorvertoning van de gebeurtenis](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event) en publiceer deze.
-
-   Wanneer u een voorvertoning van de gebeurtenis weergeeft, bevat de REST-API de kenmerken &quot;registrationToken&quot;, &quot;application&quot; en &quot;pushPlatform&quot; die worden gebruikt voor de levering.
-
-   ![](assets/message-center_push_api.png)
-
-   Nadat de gebeurtenis is gepubliceerd, wordt automatisch een transactioneel pushbericht gemaakt dat aan de nieuwe gebeurtenis is gekoppeld. U kunt nu het bericht wijzigen en publiceren dat net werd gecreeerd (zie [deze sectie](#sending-event-based-transactional-push-notification)).
-
-1. Integreer de gebeurtenis in uw website (zie gebeurtenis die teweegbrengt (../../channels/using/getting-started-with-transactional-msg.md#integration-event-trigger) integreren).
-
-### Een op een gebeurtenis gebaseerde pushmelding voor transacties verzenden {#sending-event-based-transactional-push-notification}
+### Een transactioneel pushbericht verzenden voor een gebeurtenis {#sending-a-transactional-push-notification-targeting-an-----------event}
 
 Een luchtvaartmaatschappij wil bijvoorbeeld haar gebruikers van mobiele toepassingen uitnodigen om naar de relevante poort voor instapweigering te gaan.
 
 Het bedrijf verzendt één transactioneel pushbericht per gebruiker (geïdentificeerd met een registratietoken), gebruikend één mobiele toepassing, door één enkel apparaat.
 
-1. Ga naar het transactionele bericht dat is gemaakt om het te bewerken. Zie [Transactieberichten benaderen](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
+1. Ga naar het transactionele bericht dat is gemaakt om het te bewerken. Zie [Transactieberichten voor gebeurtenissen](../../channels/using/event-transactional-messages.md).
 
    ![](assets/message-center_push_message.png)
 
 1. Klik op het blok **[!UICONTROL Content]** om de titel en de tekst van uw bericht te wijzigen.
 
-1. U kunt verpersoonlijkingsgebieden opnemen om elementen toe te voegen die u bepaalde toen u uw gebeurtenis creeerde (zie [Bepalend de gebeurtenisattributen](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)).
+   U kunt verpersoonlijkingsgebieden opnemen om elementen toe te voegen die u bepaalde toen u uw gebeurtenis creeerde.
 
    ![](assets/message-center_push_content.png)
 
@@ -95,13 +64,11 @@ Het bedrijf verzendt één transactioneel pushbericht per gebruiker (geïdentifi
 
    ![](assets/message-center_push_personalization.png)
 
-   Zie [Een pushmelding voorbereiden en verzenden](../../channels/using/preparing-and-sending-a-push-notification.md) voor meer informatie over het bewerken van de inhoud van een pushmelding.
+   Zie [Een pushmelding maken](../../channels/using/preparing-and-sending-a-push-notification.md) voor meer informatie over het bewerken van de inhoud van een pushmelding.
 
-1. U kunt ook de inhoud van het transactiemelding verrijken als u extra informatie van het gegevensbestand van Adobe Campaign wilt gebruiken (zie [Verrijkend de gebeurtenis](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)).
+1. Sla uw wijzigingen op en publiceer het bericht. Zie [Een transactioneel bericht publiceren](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
 
-1. Sla uw wijzigingen op en publiceer het bericht. Zie [Een transactioneel bericht publiceren](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
-
-1. Verstuur met de Adobe Campaign Standard REST API een gebeurtenis naar een registratietoken (ABCDEF123456789), met één mobiele toepassing (WeFlight), op Android (gcm), die de instapgegevens bevat:
+1. Verstuur met de Adobe Campaign Standard REST API een gebeurtenis naar een registratietoken (ABCDEF123456789) met één mobiele toepassing (WeFlight) op Android (gcm), die de instapgegevens bevat.
 
    ```
    {
@@ -117,17 +84,17 @@ Het bedrijf verzendt één transactioneel pushbericht per gebruiker (geïdentifi
    }
    ```
 
-   Voor meer bij het integreren van het teweegbrengen van een gebeurtenis in een extern systeem, zie gebeurtenis teweegbrengend (../../channels/using/getting-started-with-transactional-msg.md#integration-event-trigger) integreren.
+   Zie [Site-integratie](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website) voor meer informatie over het integreren van de activering van een gebeurtenis in een extern systeem.
 
 Als het registratietoken bestaat, ontvangt de overeenkomstige gebruiker een transactioneel pushbericht met de volgende inhoud:
 
-*&quot;Hallo Jane Green, het instappen is net begonnen! Ga verder met Gate B18.&quot;*
+&quot;Hallo Jane Green, het instappen is net begonnen! Ga verder met Gate B18.&quot;
 
 ## Transactiepushmeldingen voor een profiel {#transactional-push-notifications-targeting-a-profile}
 
-U kunt een transactioneel pushbericht **verzenden naar de Adobe Campaign-profielen die zijn geabonneerd op uw mobiele toepassing**. Deze levering kan [verpersoonlijkingsgebieden](../../designing/using/personalization.md#inserting-a-personalization-field), zoals de voornaam van de ontvanger, direct bevatten die van het gegevensbestand van Adobe Campaign wordt teruggewonnen.
+U kunt een pushbericht over een transactie verzenden naar de Adobe Campaign-profielen die zijn geabonneerd op uw mobiele toepassing. Deze levering kan [personalization](../../designing/using/personalization.md#inserting-a-personalization-field) gebieden, zoals de voornaam van de ontvanger bevatten.
 
-In dit geval moet de gebeurtenis enkele velden **bevatten waarmee kan worden vergeleken met een profiel uit de Adobe Campaign-database**.
+In dit geval moet de gebeurtenis enkele velden bevatten die het mogelijk maken om te schakelen met een profiel uit de Adobe Campaign-database.
 
 Bij het opgeven van profielen wordt per mobiele toepassing en per apparaat één transactioneel pushbericht verzonden. Als een Adobe Campaign-gebruiker bijvoorbeeld op twee toepassingen heeft geabonneerd, ontvangt deze gebruiker twee meldingen. Als een gebruiker zich op dezelfde toepassing heeft geabonneerd met twee verschillende apparaten, ontvangt deze gebruiker een melding op elk apparaat.
 
@@ -135,47 +102,22 @@ De mobiele toepassingen waarop een profiel is geabonneerd, worden weergegeven op
 
 ![](assets/push_notif_subscriptions.png)
 
-Zie [Informatie over profielen](../../audiences/using/about-profiles.md) voor meer informatie over het openen en bewerken van profielen.
+Zie [Profielen](../../audiences/using/creating-profiles.md) voor meer informatie over het openen en bewerken van profielen.
 
-### Een op een profiel gebaseerde pushmelding voor transacties configureren {#configuring-profile-based-transactional-push-notification}
-
-Als u een pushmelding over een transactie wilt verzenden naar de Adobe Campaign-profielen die zijn geabonneerd op uw mobiele toepassing, moet u eerst een gebeurtenis maken en configureren die gericht is op de Adobe Campaign-database.
-
-1. Wanneer u de gebeurtenisconfiguratie maakt, selecteert u het **[!UICONTROL Mobile application]**-kanaal en de **[!UICONTROL Profile]**-doeldimensie (zie [Een gebeurtenis maken](../../channels/using/configuring-transactional-event.md#creating-an-event)).
-
-   Standaard wordt de transactionele pushmelding verzonden naar alle mobiele toepassingen waarop de ontvangers zich hebben geabonneerd. Als u de pushmelding naar een specifieke mobiele toepassing wilt verzenden, selecteert u deze in de lijst. De andere mobiele toepassingen zullen door het bericht worden gericht maar van het verzenden worden uitgesloten.
-
-   ![](assets/message-center_push_appfilter.png)
-
-1. Voeg velden toe aan de gebeurtenis als u het transactiebericht wilt aanpassen (zie [Gebeurteniskenmerken definiëren](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)).
-
-   >[!NOTE]
-   >
-   >U moet ten minste één veld toevoegen om een verrijking te maken. U hoeft geen andere velden te maken, zoals **Voornaam** en **Achternaam**, omdat u verpersoonlijkingsvelden uit de Adobe Campaign-database kunt gebruiken.
-
-1. Maak een verrijking om de gebeurtenis te koppelen aan de **[!UICONTROL Profile]**-bron (zie [De gebeurtenis verrijken](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)). Het maken van een verrijking is verplicht wanneer u een **[!UICONTROL Profile]**-doeldimensie gebruikt.
-1. [Bekijk een voorvertoning van de gebeurtenis](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event) en publiceer deze.
-
-   Wanneer de voorvertoning van de gebeurtenis wordt weergegeven, bevat de REST API geen kenmerk dat het registratietoken, de toepassingsnaam en het pushplatform opgeeft zoals deze worden opgehaald uit de **[!UICONTROL Profile]**-bron.
-
-   Nadat de gebeurtenis is gepubliceerd, wordt automatisch een transactioneel pushbericht gemaakt dat aan de nieuwe gebeurtenis is gekoppeld. U kunt nu het bericht wijzigen en publiceren dat net werd gecreeerd (zie [deze sectie](#sending-profile-based-transactional-push-notification)).
-
-1. Integreer de gebeurtenis in uw website (zie gebeurtenis die teweegbrengt (../../channels/using/getting-started-with-transactional-msg.md#integration-event-trigger) integreren).
-
-### Een op een profiel gebaseerde pushmelding voor transacties verzenden {#sending-profile-based-transactional-push-notification}
+### Een transactioneel pushbericht verzenden voor een profiel {#sending-a-transactional-push-notification-targeting-a-----------profile}
 
 Een luchtvaartmaatschappij wil bijvoorbeeld een laatste instapoproep sturen naar alle Adobe Campaign-gebruikers die zich op de mobiele toepassing hebben geabonneerd.
 
-1. Ga naar het transactionele bericht dat is gemaakt om het te bewerken. Zie [Transactieberichten benaderen](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
+1. Ga naar het transactionele bericht dat is gemaakt om het te bewerken. Zie [Transactieberichten voor gebeurtenissen](../../channels/using/event-transactional-messages.md).
 
 1. Klik op het blok **[!UICONTROL Content]** om de titel en de tekst van uw bericht te wijzigen.
 
    In tegenstelling tot configuraties die op gebeurtenissen in real time worden gebaseerd, hebt u directe toegang tot alle profielinformatie om uw bericht te personaliseren. Zie [Een personalisatieveld invoegen](../../designing/using/personalization.md#inserting-a-personalization-field).
 
-   Zie [Een pushmelding voorbereiden en verzenden](../../channels/using/preparing-and-sending-a-push-notification.md) voor meer informatie over het bewerken van de inhoud van een pushmelding.
+   Voor meer informatie over het bewerken van inhoud van een pushmelding. Zie [Een pushmelding maken](../../channels/using/preparing-and-sending-a-push-notification.md).
 
-1. Sla uw wijzigingen op en publiceer het bericht. Zie [Een transactioneel bericht publiceren](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
-1. Stuur een gebeurtenis met de Adobe Campaign Standard REST-API naar een profiel:
+1. Sla uw wijzigingen op en publiceer het bericht. Zie [Een transactioneel bericht publiceren](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+1. Stuur een gebeurtenis met de Adobe Campaign Standard REST-API naar een profiel.
 
    ```
    {
@@ -187,10 +129,8 @@ Een luchtvaartmaatschappij wil bijvoorbeeld een laatste instapoproep sturen naar
    }
    ```
 
-Voor meer bij het integreren van het teweegbrengen van een gebeurtenis in een extern systeem, zie gebeurtenis teweegbrengend (../../channels/using/getting-started-with-transactional-msg.md#integration-event-trigger) integreren.
+   Zie [Site-integratie](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website) voor meer informatie over het integreren van de activering van een gebeurtenis in een extern systeem.
 
-De overeenkomstige gebruiker ontvangt een transactioneel pushbericht met daarin alle personalisatie-elementen die uit de Adobe Campaign-database zijn opgehaald.
-
->[!NOTE]
->
->Er zijn geen registratietoken, toepassings- en pushplatformvelden. In dit voorbeeld wordt de afstemming uitgevoerd met het e-mailveld.
+   >[!NOTE]
+   >
+   >Er zijn geen registratietoken, toepassings- en pushplatformvelden. In dit voorbeeld wordt de afstemming uitgevoerd met het e-mailveld.
