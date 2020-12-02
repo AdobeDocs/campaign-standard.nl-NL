@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -74,7 +74,7 @@ Alle communicatiekanalen in Adobe Campaign moeten correct zijn geconfigureerd om
 
 Configureer verschillende **e-mailparameters**: verwerkingsregels voor stuit, quarantines, e-maileigenschappen en routeparameters, typoly-regels. Bepaal het verpletteren van configuraties en eigenschappen voor het **SMS** kanaal, evenals het coderen van SMS en formaten.
 
-Stel **mobiele toepassingen** in om berichten in de app en pushmeldingen te kunnen verzenden met behulp van Adobe Experience Platform SDK&#39;s.
+Stel **mobiele toepassingen** in om berichten in de app en pushmeldingen te kunnen verzenden met behulp van Adobe Experience Platform SDK&#39;s en configureer **transactioneel messaging** door gebeurtenissen te maken en in te stellen.
 
 Meer informatie:
 
@@ -82,6 +82,7 @@ Meer informatie:
 * [E-mailkanaal configureren](../../administration/using/configuring-email-channel.md)
 * [Een sms-kanaal configureren](../../administration/using/configuring-sms-channel.md)
 * [Een mobiele applicatie configureren](../../administration/using/configuring-a-mobile-application.md)
+* [Transactionele berichten configureren](../../administration/using/configuring-transactional-messaging.md)
 
 ## Applicatie-instellingen {#application-settings}
 
