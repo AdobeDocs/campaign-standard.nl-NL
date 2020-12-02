@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 4%
@@ -50,7 +50,7 @@ E-mailinhoud kan in Experience Manager worden bewerkt en vervolgens worden gebru
 >title="Productaanbiedingen gebruiken"
 >abstract="In de productaanbiedingen kunt u verwijzen naar een gegevensverzameling en deze weergeven in de e-mailinhoud."
 
-In de productaanbiedingen kunt u verwijzen naar een of meer gegevensverzamelingen in de e-mailinhoud. Deze aanbiedingen zijn beschikbaar voor transactie-e-mails. Een specifieke sectie voor deze functie is [hier](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message) beschikbaar.
+In de productaanbiedingen kunt u verwijzen naar een of meer gegevensverzamelingen in de e-mailinhoud. Deze aanbiedingen zijn beschikbaar voor transactie-e-mails. Een specifieke sectie voor deze functie is [hier](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message) beschikbaar.
 
 ## Vergelijking van e-mailontwerpopties {#email-design-options-comparison}
 
@@ -148,7 +148,7 @@ Adobe Campaign biedt verschillende opties voor het schrijven van e-mailberichten
    <td> <strong>Meer informatie</strong><br /> </td> 
    <td> Zie <a href="../../designing/using/designing-content-in-adobe-campaign.md">Informatie over de e-mailontwerper</a>.<br /> </td> 
    <td> Zie <a href="../../integrating/using/integrating-with-experience-manager.md">Integreren met Experience Manager</a>.<br /> </td> 
-   <td> Zie <a href="https://helpx.adobe.com/nl/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver en Campagne</a> en bekijk deze <a href="#video">video</a>.<br /> </td> 
+   <td> Zie <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver en Campagne</a> en bekijk deze <a href="#video">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
