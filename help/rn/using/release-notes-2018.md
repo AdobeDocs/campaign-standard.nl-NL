@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '5402'
 ht-degree: 6%
@@ -41,7 +41,7 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
   </tr> 
   <tr> 
    <td> Integratie met Adobe starten voor mobiele apps (bèta)<br /> </td> 
-   <td> Adobe De integratie van de Lancering met Adobe Campaign vereenvoudigt en automatiseert nu het proces van de Activering van het Bezit van de Mobiele App in Campagne gebruikend Mobile SDK V5.<br /> Raadpleeg de <a href="https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdk.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Adobe De integratie van de Lancering met Adobe Campaign vereenvoudigt en automatiseert nu het proces van de Activering van het Bezit van de Mobiele App in Campagne gebruikend Mobile SDK V5.<br /> Raadpleeg de <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -131,7 +131,7 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
 **Overige wijzigingen**
 
 * De time-out voor het delen van rapporten is verhoogd van een tot vier minuten om een time-outfout te voorkomen.
-* Wanneer u de inhoud van een e-mailbericht bewerkt, wordt de nieuwe Creative Designer standaard geopend. Desgewenst kunt u na het opslaan van de wijzigingen desgewenst nog steeds terugkeren naar de standaardinhoudseditor. For more on this, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md).
+* Wanneer u de inhoud van een e-mailbericht bewerkt, wordt de nieuwe Creative Designer standaard geopend. Desgewenst kunt u na het opslaan van de wijzigingen desgewenst nog steeds terugkeren naar de standaardinhoudseditor. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../designing/using/designing-content-in-adobe-campaign.md).
 * In Creative Designer kunt u nu een nieuwe inhoudcomponent toevoegen aan een e-mailbericht: de carrousel. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../designing/using/designing-from-scratch.md#about-content-components).
 * In een transactioneel bericht heet klik rapport, wanneer u **Profiel van de Verandering** knoop klikt, nu slechts worden de testprofielen verbonden aan de gebeurtenis die u voor uw transactiebericht bepaalde.
 
@@ -305,7 +305,7 @@ _Aangepaste resources_
     <ul> 
      <li> Recht op toegang: staat de betrokkene toe een kopie te ontvangen van zijn/haar persoonsgegevens die door de gegevensverwerkingsverantwoordelijken zijn vastgelegd, met inbegrip van gegevens die in Adobe Campaign zijn opgeslagen. </li> 
      <li> Rechts om te verwijderen: geeft de betrokkene het recht om zijn/haar persoonsgegevens die door gegevensverwerkingsverantwoordelijken zijn vastgelegd, te laten wissen, eventueel met inbegrip van gegevens die in Adobe Campaign zijn opgeslagen. </li> 
-    </ul> Raadpleeg de <a href="https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+    </ul> Raadpleeg de <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer voor e-mail (bèta)<br /> </td> 
@@ -327,7 +327,7 @@ _Aangepaste resources_
     <ul> 
      <li> Aangepaste velden als afstemmingscriteria gebruiken om een transactiebericht aan een profiel aan te passen </li> 
      <li> Gebruik volledige profielen, de diensten en verbonden gegevens om transactieverslagen verder te personaliseren </li> 
-    </ul> Raadpleeg de <a href="../../administration/using/configuring-transactional-messaging.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+    </ul> Raadpleeg de <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
