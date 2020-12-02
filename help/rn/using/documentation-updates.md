@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 0690765f26398391b4604136b203541a109e203b
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
-source-wordcount: '6305'
+source-wordcount: '6303'
 ht-degree: 98%
 
 ---
@@ -51,11 +51,11 @@ Er is een aanbeveling toegevoegd aan de best practices voor workflows over het a
 
 Er is een nieuwe sectie toegevoegd over best practices voor levering. [Meer informatie](../../sending/using/delivery-best-practices.md)
 
-Er is een sectie toegevoegd waarin de nieuwe filters worden beschreven waarmee de gebeurtenisconfiguraties kunnen worden doorzocht op basis van hun status en de laatste keer dat een gebeurtenis is ontvangen. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
+Er is een sectie toegevoegd waarin de nieuwe filters worden beschreven waarmee de gebeurtenisconfiguraties kunnen worden doorzocht op basis van hun status en de laatste keer dat een gebeurtenis is ontvangen. [Meer informatie](../../channels/using/configuring-transactional-event.md#searching-transactional-events)
 
 ## September 2020 {#doc-updates-september-2020}
 
-De sectie over transactionele berichten voor gebeurtenissen is opnieuw ingedeeld en verhelderd. [Meer informatie](../../channels/using/event-transactional-messages.md)
+De sectie over transactionele berichten voor gebeurtenissen is opnieuw ingedeeld en verhelderd. [Meer informatie](../../channels/using/editing-transactional-message.md)
 
 Er is een opmerking toegevoegd om gebruikers te waarschuwen voor machtigingsbeperkingen wat de toegang tot logboeken betreft. [Meer informatie](../../administration/using/users-management.md)
 
@@ -135,7 +135,7 @@ Er zijn extra bronnen toegevoegd aan de startpagina van de documentatie. [Meer i
 
 Er is informatie over de Experience Cloud ID Service (ECID) toegevoegd aan de documentatie van de Adobe Experience Platform-gegevensconnector. [Meer informatie](../../developing/using/aep-about-data-connector.md#key-concepts)
 
-De sectie over het configureren van transactionele berichten beschikt over verbeterde informatie over het openen van de meest recente transactionele gebeurtenissen en bijgewerkte schermafbeeldingen. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
+De Transactionele overseinensectie is verbeterd met informatie over hoe te om tot de recentste transactionele gebeurtenissen en bijgewerkte screenshots toegang te hebben. [Meer informatie](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 De documentatie over typologieën en typologieregels is verbeterd en bijgewerkt met aanvullende informatie over ingebouwde typologieregels. [Meer informatie](../../sending/using/about-typology-rules.md)
 
@@ -143,15 +143,15 @@ Er is informatie toegevoegd over de actie **[!UICONTROL File listing]** van de a
 
 De documentatie over nieuwe pogingen na een tijdelijke leveringsfout is bijgewerkt met meer details over hoe nieuwe pogingen worden beheerd zodra is bijgewerkt naar de Enhanced MTA. [Meer informatie](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
-De sectie voer het verwijderen van een transactioneel bericht is verbeterd en verduidelijkt. [Meer informatie](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
+De sectie voer het verwijderen van een transactioneel bericht is verbeterd en verduidelijkt. [Meer informatie](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)
 
-De sectie **Voorbeelden van leveringen bekijken** is bijgewerkt met voorbeelden van mobiele leveringen.[Meer informatie](../../sending/using/previewing-messages.md)
+De sectie **Voorbeelden van leveringen bekijken** is bijgewerkt met voorbeelden van mobiele leveringen. [Meer informatie](../../sending/using/previewing-messages.md)
 
-Er is een best practice toegevoegd over transactionele berichten en het verwijderen van ongebruikte realtimegebeurtenissen. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
+Er is een best practice toegevoegd over transactionele berichten en het verwijderen van ongebruikte realtimegebeurtenissen. [Meer informatie](../../channels/using/configuring-transactional-event.md#creating-an-event)
 
 De sectie over het configureren van het e-mailkanaal is bijgewerkt met uitleg over alle e-mailinstellingen die nu worden beheerd door de Enhanced MTA van Adobe Campaign. [Meer informatie](../../administration/using/configuring-email-channel.md)
 
-De sectie over het configureren van transactionele berichten is bijgewerkt met verdere informatie over de rechten die nodig zijn om gebeurtenisconfiguraties te bewerken en over het verrijken van verzamelingen in transactionele berichten. [Meer informatie](../../administration/using/configuring-transactional-messaging.md).
+De Transactionele overseinensectie is bijgewerkt met verdere informatie over de rechten nodig om gebeurtenisconfiguraties uit te geven en op hoe te om inzamelingen in transactionele berichten te verrijken. [Meer informatie](../../channels/using/configuring-transactional-event.md).
 
 ## Release 20.2 - april 2020 {#release-20-2---april-2020}
 
@@ -171,7 +171,7 @@ De beperking is toegevoegd met MCPNS bij het configureren van een mobiele app. [
 
 Er is een nieuwe sectie met configuratierichtlijnen toegevoegd aan de beheerhandleiding. De sectie over compatibele browsers en besturingssystemen is verplaatst van de handleiding Aan de slag naar deze sectie. De technische opmerking over netwerkeindpunten van Campaign Standard is ook toegevoegd aan deze sectie. [Meer informatie](../../administration/using/about-configuration-guidelines.md)
 
-Er is nu een nieuwe sectie beschikbaar waarin wordt beschreven hoe u een gebeurtenisconfiguratie kunt verwijderen. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+Er is nu een nieuwe sectie beschikbaar waarin wordt beschreven hoe u een gebeurtenisconfiguratie kunt verwijderen. [Meer informatie](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 
 De pagina waarin wordt beschreven hoe u de onderwerpregel van een e-mail kunt testen om het aantal geopende e-mails te voorspellen, is bijgewerkt en verbeterd, inclusief een nieuwe sectie voor [probleemoplossing](../../sending/using/testing-subject-line-email.md#troubleshooting). [Meer informatie](../../sending/using/testing-subject-line-email.md)
 
@@ -207,7 +207,7 @@ Audience Destinations (bèta) - [Meer informatie](../../audiences/using/aep-abou
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
-De documentatie over privacybeheer is bijgewerkt met informatie over het maken van een veld voor uitschrijving bij CCPA voor aangepaste profielresources. [Meer informatie](https://helpx.adobe.com/content/help/nl/campaign/kb/acs-privacy.html)
+De documentatie over privacybeheer is bijgewerkt met informatie over het maken van een veld voor uitschrijving bij CCPA voor aangepaste profielresources. [Meer informatie](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
 
 De releaseopmerkingen zijn opnieuw ingedeeld en verbeterd. [Meer informatie](../../rn/using/release-notes.md)
 
@@ -281,7 +281,7 @@ De lijst met foutberichten voor Adobe Campaign is bijgewerkt. [Meer informatie](
 
 De handleiding om aan de slag te gaan met de AVG is verbeterd en verrijkt. Het is nu een documentatie over privacybeheer, waaronder AVG en CCPA. [Meer informatie](https://helpx.adobe.com/content/help/nl/campaign/kb/campaign-privacy.html)
 
-Er is een nieuw diagram toegevoegd waarin het proces voor het publiceren van transactionele berichten wordt beschreven. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
+Er is een nieuw diagram toegevoegd waarin het proces voor het publiceren van transactionele berichten wordt beschreven. [Meer informatie](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
 
 De handleiding om aan de slag te gaan met best practices voor levering is verplaatst en bijgewerkt. [Meer informatie](../../sending/using/delivery-best-practices.md)
 
@@ -297,7 +297,7 @@ Er is een nieuwe sectie toegevoegd met betrekking tot Campaign Standard-instelli
 
 Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe u een automatische aangepaste bevestigings-e-mail kunt verzenden naar profielen die geabonneerd zijn op een specifieke service. [Meer informatie](../../audiences/using/confirming-subscription-to-a-service.md)
 
-De sectie over transactionele berichten is gewijzigd en bevat nu de meest recente gebruikersinterface-updates, waaronder het bewerken van content met Email Designer. [Meer informatie](../../channels/using/event-transactional-messages.md)
+De sectie over transactionele berichten is gewijzigd en bevat nu de meest recente gebruikersinterface-updates, waaronder het bewerken van content met Email Designer. [Meer informatie](../../channels/using/editing-transactional-message.md)
 
 Het hoofdstuk over landingspagina’s is gereorganiseerd. Het is ook uitgebreid met een nieuwe sectie waarin de stappen over het instellen van een landingspagina worden beschreven. [Meer informatie](../../channels/using/getting-started-with-landing-pages.md)
 
@@ -307,7 +307,7 @@ Er is een nieuw voorbeeld toegevoegd waarin wordt getoond hoe u een e-mail verze
 
 Er is een nieuwe sectie toegevoegd over het gebruik van overvullingen. [Meer informatie](../../sending/using/using-traps.md).
 
-Er is een opmerking toegevoegd over de optie **Launch_URL_Campaign** op de pagina over het configureren van een mobiele app met behulp van Adobe Experience Platform SDK’s. [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdk.html)
+Er is een opmerking toegevoegd over de optie **Launch_URL_Campaign** op de pagina over het configureren van een mobiele app met behulp van Adobe Experience Platform SDK’s. [Meer informatie](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
 De handleiding over Email Designer is opnieuw ingedeeld. [Meer informatie](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -379,7 +379,7 @@ Er is een waarschuwing toegevoegd in de documentatie over aangepaste resources. 
 
 **Nieuwe mogelijkheden die in de release zijn opgenomen**
 
-Configuratiescherm - [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/control-panel-home.html)
+Configuratiescherm - [Meer informatie](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 Lokale meldingen - [Meer informatie](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -427,7 +427,7 @@ Er is een nieuwe sectie toegevoegd over het opslaan van e-mailcontent als een fr
 
 De sectie over het beheren van koppelingen is bijgewerkt met aanvullende informatie over het beheren van bijgehouden URL’s in Email Designer. [Meer informatie](../../designing/using/links.md#inserting-a-link)
 
-Er is een nieuwe sectie toegevoegd waarin het specifieke proces voor het opnieuw proberen van transactionele berichten wordt beschreven. [Meer informatie](../../channels/using/event-transactional-messages.md#transactional-message-retry-process)
+Er is een nieuwe sectie toegevoegd waarin het specifieke proces voor het opnieuw proberen van transactionele berichten wordt beschreven. [Meer informatie](../../channels/using/publishing-transactional-message.md#transactional-message-retry-process)
 
 De sectie over het publiceren van een resource met API-extensie is verduidelijkt en bijgewerkt met de meest recente wijzigingen in de gebruikersinterface. [Meer informatie](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
@@ -505,7 +505,7 @@ Er is informatie toegevoegd in de sectie over de activiteit Bestand extraheren v
 
 Algemene beschikbaarheid van Email Designer - [Meer informatie](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Productlijsten in transactionele e-mails - [Meer informatie](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
+Productlijsten in transactionele e-mails - [Meer informatie](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
 
 Mobiele weergave in Email Designer - [Meer informatie](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
@@ -533,9 +533,9 @@ Er is informatie toegevoegd over de nieuwe optie in de activiteit Bestand extrah
 
 De sectie over het configureren van een mobiele app met SDK V4 is [hier](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html) geplaatst.
 
-De sectie over het configureren van een mobiele app met Adobe Experience Platform SDK’s is [hier](https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdk.html) geplaatst.
+De sectie over het configureren van een mobiele app met Adobe Experience Platform SDK’s is [hier](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html) geplaatst.
 
-Video’s zijn bijgewerkt en [hier](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/overview.html) geplaatst.
+Video’s zijn bijgewerkt en [hier](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) geplaatst.
 
 De sectie over het type gebruikers is bijgewerkt. [Meer informatie](../../administration/using/users-management.md)
 
@@ -565,7 +565,7 @@ Geautomatiseerde content importeren van een URL tijdens het voorbereiden. [Meer 
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
-Er is een nieuwe technische opmerking toegevoegd over het protocol en de instellingen van de sms-connector. [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/sms-connector-protocol-and-settings.html)
+Er is een nieuwe technische opmerking toegevoegd over het protocol en de instellingen van de sms-connector. [Meer informatie](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
 De Experience Manager-integratie is bijgewerkt met de Adobe Campaign-documentatie. [Meer informatie](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -637,13 +637,13 @@ Sommige pagina’s van de documentatie over de contenteditor zijn samengevoegd v
 
 **Nieuwe mogelijkheden die in de release zijn opgenomen**
 
-Algemene EU-verordening inzake gegevensbescherming (AVG) - [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html)
+Algemene EU-verordening inzake gegevensbescherming (AVG) - [Meer informatie](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
 Creative Designer voor e-mail - [Meer informatie](../../designing/using/designing-content-in-adobe-campaign.md)
 
 Meertalige pushleveringen - [Meer informatie](../../channels/using/creating-a-multilingual-push-notification.md)
 
-Gebruik van aangepaste resources in transactionele berichten - [Meer informatie](../../administration/using/configuring-transactional-messaging.md)
+Gebruik van aangepaste resources in transactionele berichten - [Meer informatie](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
@@ -651,7 +651,7 @@ De API voor de AVG groepeert functies die de automatische verwerking van AVG-ver
 
 Er is informatie toegevoegd over het zodanig instellen van landingspagina’s dat uw ontvangers op de lijst met ongewenste adressen kunnen worden gezet. [Meer informatie](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
-De sectie over het [configureren van transactionele berichten](../../administration/using/configuring-transactional-messaging.md) is gereorganiseerd en er is een [stapsgewijs gebruiksscenario](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) toegevoegd.
+De sectie over het [configureren van transactionele berichten](../../channels/using/configuring-transactional-event.md) is gereorganiseerd en er is een [stapsgewijs gebruiksscenario](../../channels/using/transactional-messaging-use-case.md) toegevoegd.
 
 Er is een technische opmerking toegevoegd over het genereren van een meertalig CSV-bestand voor pushmeldingen. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push.html).
 
@@ -767,7 +767,7 @@ De [technische opmerking](https://helpx.adobe.com/nl/campaign/kb/integrate-mobil
 
 Er is een technische opmerking toegevoegd over de structuur van de payload die in een mobiele app is ontvangen. [Meer informatie.](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/push-notifications/push-payload.html)
 
-De [sectie](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html) over de configuratie van pushkanalen is bijgewerkt met nieuwe payloaddata over de versie van het besturingssysteem die moeten worden toegevoegd wanneer terugpostbewerkingen worden gedefinieerd in de Adobe Mobile Services-interface.
+De [sectie](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) over de configuratie van pushkanalen is bijgewerkt met nieuwe payloaddata over de versie van het besturingssysteem die moeten worden toegevoegd wanneer terugpostbewerkingen worden gedefinieerd in de Adobe Mobile Services-interface.
 
 De sms-documentatie is bijgewerkt en er is enige verduidelijking toegevoegd aan de sectie over [automatisch sms-antwoorden](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
@@ -863,7 +863,7 @@ De handleiding over leveringen is gereorganiseerd en de naam ervan is gewijzigd 
 
 Er zijn verschillende schermafbeeldingen bijgewerkt om wijzigingen in de interface te weerspiegelen.
 
-Er is een nieuwe technische opmerking beschikbaar over de integratie van de Adobe Mobile SDK met uw mobiele app. [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/integrate-mobile-sdk.html)
+Er is een nieuwe technische opmerking beschikbaar over de integratie van de Adobe Mobile SDK met uw mobiele app. [Meer informatie](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
 Er zijn instructies toegevoegd voor de configuratie van de People-kernservice of de Audience Manager-integratie met Adobe Campaign. [Meer informatie](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -893,9 +893,9 @@ De handleiding over workflows is opnieuw ingedeeld en uitgebreid. U kunt eenvoud
 
 De berekening van rapportindicatoren is nu beschikbaar voor dynamische rapporten, inclusief een volledige beschrijving en berekeningsformule. [Meer informatie](../../reporting/using/indicator-calculation.md)
 
-Er is een nieuwe, speciale sectie toegevoegd over de configuratie van Adobe Mobile Services voor het gebruik van pushmeldingen en data van het type Point of Interest in Adobe Campaign. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.htmll)
+Er is een nieuwe, speciale sectie toegevoegd over de configuratie van Adobe Mobile Services voor het gebruik van pushmeldingen en data van het type Point of Interest in Adobe Campaign. [Meer informatie](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
-De secties over de configuratie en implementatie van mobiele apps zijn bijgewerkt, en bevatten onder meer meer gedetailleerde stappen voor het instellen en verzenden van pushmeldingen. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html)
+De secties over de configuratie en implementatie van mobiele apps zijn bijgewerkt, en bevatten onder meer meer gedetailleerde stappen voor het instellen en verzenden van pushmeldingen. [Meer informatie](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
 De sectie over het werken met afbeeldingen in Campaign is bijgewerkt. [Meer informatie](../../designing/using/images.md#setting-up-image-properties)
 
@@ -907,7 +907,7 @@ De integratie met Adobe Analytics for Mobile (Point of Interest) is bijgewerkt, 
 
 Dynamische rapportage - [Meer informatie](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver-integratie (Labs) - [Meer informatie](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver-integratie (Labs) - [Meer informatie](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 Handmatige optimalisatie van de verzendtijd - [Meer informatie](../../sending/using/optimizing-the-sending-time.md)
 
@@ -937,7 +937,7 @@ Exporteren van logboeken voor externe rapportage - [Meer informatie](../../autom
 
 API voor transactionele berichten - [Meer informatie](../../api/using/get-started-apis.md)
 
-Marketingmogelijkheden voor transactionele berichten - [Meer informatie](../../channels/using/profile-transactional-messages.md)
+Marketingmogelijkheden voor transactieberichten - [Meer informatie](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
