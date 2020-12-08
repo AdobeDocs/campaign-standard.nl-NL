@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2945'
+ht-degree: 99%
 
 ---
 
@@ -203,7 +203,7 @@ ht-degree: 0%
 
 * Probleem verholpen met de workflowactiviteit **Verrijking** dat kon optreden wanneer spaties werden toegevoegd in het veld **Alias** en waarbij vervolgens een nieuw rij-item werd gemaakt. (CAMP-39229)
 * Probleem verholpen waarbij elk testprofiel als doel kon worden ingesteld bij het verzenden van een proefbericht.
-* Probleem verholpen dat optrad na het ongedaan maken van de publicatie van een gebeurtenisconfiguratie en het verwijderen ervan. [Meer informatie](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* Probleem verholpen dat optrad na het ongedaan maken van de publicatie van een gebeurtenisconfiguratie en het verwijderen ervan. [Meer informatie](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 * Probleem verholpen waarbij de knop **Opslaan** verdween bij het aanbrengen van wijzigingen in workflows.
 * Probleem verholpen bij het handmatig verwijderen van een privacyaanvraag in Campaign nadat deze was verwerkt. Hierdoor konden data die aan de aanvraag waren gekoppeld, niet worden verwijderd, zelfs niet na opschoning.
 * Probleem verholpen dat kon optreden tijdens het voorvertonen of verzenden van berichten met speciale tekens uit Adobe Experience Manager.
