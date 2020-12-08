@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '242'
+ht-degree: 14%
 
 ---
 
@@ -57,5 +57,4 @@ Uw bron wordt verwijderd uit het gegevensmodel.
 
 >[!NOTE]
 >
->Als een veld van een aangepaste bron die wordt gebruikt voor een gebeurtenis, wordt aangepast of verwijderd, wordt de publicatie van de overeenkomstige gebeurtenis automatisch ongedaan gemaakt. Zie [Transactieberichten configureren](../../administration/using/configuring-transactional-messaging.md).
-
+>Als een veld van een aangepaste bron die wordt gebruikt voor een gebeurtenis, wordt aangepast of verwijderd, wordt de publicatie van de overeenkomstige gebeurtenis automatisch ongedaan gemaakt. Zie [Publicatie van een transactiegebeurtenis opheffen](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
