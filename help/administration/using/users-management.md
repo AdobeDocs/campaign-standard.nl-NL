@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 95%
+source-wordcount: '1220'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 
 Met Adobe Campaign kunt u een set rollen toewijzen aan uw gebruikers om te bepalen tot welk deel van de interface ze toegang hebben.
 
-De specifieke rollen en de bijbehorende machtigingen worden in de volgende secties nader beschreven: [inzicht in rollen](../../administration/using/list-of-roles.md) en [machtigingen](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+De specifieke rollen en de bijbehorende machtigingen worden in de volgende secties nader beschreven: [inzicht in rollen](../../administration/using/list-of-roles.md) en [machtigingen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
 Beheerders kunnen gebruikers beheren via Admin Console. Gebruikers worden dan automatisch gesynchroniseerd met Adobe Campaign. Raadpleeg de documentatie bij de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/users.html) voor meer informatie.
 
@@ -37,7 +37,7 @@ Klik op **[!UICONTROL User administration]** voor toegang tot de gebruikersbehee
 
 * [Gebruikersmachtigingen beheren](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html) (video)
 * [Lijst met rollen](../../administration/using/list-of-roles.md)
-* [Lijst met machtigingen](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+* [Lijst met machtigingen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 ## Gebruikerstypen {#type-of-users}
 
@@ -59,7 +59,7 @@ We concentreren ons liever op de manier waarop verschillende taken in Adobe Camp
 
 Functionele beheerders zijn gebruikers die toegang hebben tot de meest technische onderdelen van de interface. Zij beschikken over de rol **[!UICONTROL Administration]** en zorgen ervoor dat het platform zo is opgezet dat marketeers zich puur kunnen richten op het leveren van hun campagnes.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Alleen functionele beheerders met **[!UICONTROL Administration]** rol en toegang tot **Alle** eenheden hebben toegang tot verzendende logboeken, berichtlogboeken, trackinglogboeken, uitsluitingslogboeken, propositielogboeken en abonnementlogboeken. Een gebruiker zonder beheerdersrechten kan zich richten op deze logbestanden, maar begint met een gekoppelde tabel (profielen, levering).
 
