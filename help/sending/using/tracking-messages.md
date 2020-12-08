@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 79e172d08557bfeebd088d8a0e8756c5965318cb
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '487'
 ht-degree: 20%
 
 ---
@@ -17,18 +17,18 @@ ht-degree: 20%
 
 # Berichten traceren{#tracking-messages}
 
-## Over bijhouden {#about-tracking}
+## Informatie over bijhouden {#about-tracking}
 
 Dankzij de trackingfuncties van Adobe Campaign kunt u het gedrag van de geadresseerden bijhouden. Hiervoor gebruikt Adobe Campaign sessiecookies en permanente cookies.
 
 U kunt gebruikers laten weten dat uw sites zijn uitgerust met webtraceringsprogramma&#39;s via een verzoek om toestemming (bijvoorbeeld via de pagina) met een selectievakje waarmee het gebruik van cookies wordt toegestaan, of u kunt een banner toevoegen boven aan de eerste pagina waarop ze landen, enzovoort. Pop-upvensters moeten worden vermeden omdat ze vaak worden geblokkeerd door browsers.
 
-Trackinggegevens zijn beschikbaar voor elk contact van uw database met **[!UICONTROL integrated customer profiles]**. Raadpleeg [deze sectie](../../audiences/using/integrated-customer-profile.md) voor meer informatie.
+Trackinggegevens zijn beschikbaar voor elk contact van uw database naar **[!UICONTROL integrated customer profiles]**. Raadpleeg [deze sectie](../../audiences/using/integrated-customer-profile.md) voor meer informatie.
 
 Adobe Campaign gebruikt twee soorten cookies:
 
 * Een sessiecookie (ongeldig). Dit bevat het herkenningsteken van e-mail die naar het contact (broadlogId) wordt verzonden en herkenningsteken van het berichtmalplaatje (deliveryId). Deze wordt toegevoegd wanneer de contactpersoon op een URL klikt die is opgenomen in een e-mail die door Adobe Campaign wordt verzonden. Hiermee kunt u het gedrag van de contactpersoon op het web volgen. Deze sessiecookie wordt automatisch gewist wanneer de browser wordt gesloten. De contactpersoon kan zijn browser configureren om cookies te weigeren.
-* Een cookie die wordt gedeeld tussen Adobe Experience Cloud-oplossingen. Hierdoor kunt u de gebruikers identificeren die met de Experience Cloud-oplossingen werken wanneer ze een website bezoeken. De beschrijving van deze cookie is [hier](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html)beschikbaar.
+* Een cookie die wordt gedeeld tussen Adobe Experience Cloud-oplossingen. Hierdoor kunt u de gebruikers identificeren die met de Experience Cloud-oplossingen werken wanneer ze een website bezoeken. De beschrijving van dit cookie is [hier](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-mc.html) beschikbaar.
 
 Als u opvolgt met de Adobe Campaign Standard, hebt u toegang tot de volgende functies:
 
@@ -59,23 +59,23 @@ Als u opvolgt met de Adobe Campaign Standard, hebt u toegang tot de volgende fun
 </tr>
 </table>
 
-## Tracking logs {#tracking-logs}
+## Logbestanden bijhouden {#tracking-logs}
 
-Op het **[!UICONTROL Tracking logs]** tabblad vindt u de volggeschiedenis voor deze levering. Op dit tabblad wordt de informatie over het bijhouden van de verzonden berichten weergegeven, zoals alle URL&#39;s die door Adobe Campaign zijn bijgehouden. De trackinggegevens op dit tabblad worden elke 10 minuten bijgewerkt.
+Op het tabblad **[!UICONTROL Tracking logs]** wordt de geschiedenis van het bijhouden van gegevens voor deze levering weergegeven. Op dit tabblad wordt de informatie over het bijhouden van de verzonden berichten weergegeven, zoals alle URL&#39;s die door Adobe Campaign zijn bijgehouden. De trackinggegevens op dit tabblad worden elke 10 minuten bijgewerkt.
 
 >[!NOTE]
 >
->Als &#39;tracking&#39; niet is ingeschakeld voor levering, wordt dit tabblad niet weergegeven. Logbestanden voor bijhouden zijn alleen beschikbaar voor **e-mail** - en **pushmeldingen** .
+>Als &#39;tracking&#39; niet is ingeschakeld voor levering, wordt dit tabblad niet weergegeven. Trackinglogboeken zijn alleen beschikbaar voor de **e-mail**- en **pushmeldingen**-kanalen.
 
 ![](assets/tracking_logs.png)
 
 In het bovenstaande voorbeeld:
 
 * Open het bericht.
+* Klik op de koppeling spiegel.
 * Klik op de aangepaste koppeling &quot;MEER INFORMATIE&quot;.
-* Klik op de koppeling Abonnement opzeggen en de spiegel.
 
-In de **[!UICONTROL Type]** kolom zijn de mogelijke waarden:
+In de kolom **[!UICONTROL Type]** zijn de mogelijke waarden:
 
 * **[!UICONTROL Email click]**: de ontvangers hebben op een aangepaste koppeling geklikt.
 * **[!UICONTROL Mirror page]**: de ontvanger klikte op een verbinding aan de spiegelpagina.
@@ -84,14 +84,16 @@ In de **[!UICONTROL Type]** kolom zijn de mogelijke waarden:
 
 >[!NOTE]
 >
->Voor het **pushmeldingskanaal** worden alleen de mobiele meldingen bijgehouden. In dat geval is de waarde **[!UICONTROL Click on mobile notification]**.
+>Voor het **pushbericht** kanaal, slechts worden de klikken op mobiele berichten gevolgd. In dat geval is de waarde **[!UICONTROL Click on mobile notification]**.
 
-Raadpleeg [deze pagina](../../designing/using/links.md#inserting-a-link)voor meer informatie over het invoegen van koppelingen voor reeksspatiëring.
+Raadpleeg [deze pagina](../../designing/using/links.md#inserting-a-link) voor meer informatie over het invoegen van koppelingen.
+
+Het **[!UICONTROL Tracking indicators]** rapport bevat de belangrijkste indicatoren voor het volgen van gedrag nadat de e-mailberichten worden ontvangen. Raadpleeg [deze pagina](../../reporting/using/tracking-indicators.md) voor meer informatie.
 
 ## Bijgehouden URL&#39;s {#tracked-urls}
 
-Op het **[!UICONTROL Tracked URLs]** tabblad worden de URL&#39;s in het verzonden bericht opnieuw gegroepeerd, inclusief hun URL-type en hun bron-URL.
+Het tabblad **[!UICONTROL Tracked URLs]** groepeert de URL&#39;s in het verzonden bericht, inclusief hun URL-type en hun bron-URL.
 
 ![](assets/sending_delivery6.png)
 
-For more on tracking links, refer to [this section](../../designing/using/links.md#about-tracked-urls).
+Raadpleeg [deze sectie](../../designing/using/links.md#about-tracked-urls) voor meer informatie over het bijhouden van koppelingen.
