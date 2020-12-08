@@ -9,23 +9,27 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 9ad23468d3d1cf386d9558e6cd2344ea2316fc82
+source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 69%
+source-wordcount: '1488'
+ht-degree: 60%
 
 ---
 
 
 # Een transactiebericht bewerken {#editing-transactional-message}
 
-Zodra u een gebeurtenis<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))--> hebt gecreeerd en gepubliceerd, wordt het overeenkomstige transactionele bericht automatisch gecreeerd. De stappen om de gebeurtenis te vormen en te publiceren worden voorgesteld in [het Vormen van een transactiegebeurtenis](../../channels/using/configuring-transactional-event.md) en [het Publiceren van een transactiegebeurtenis](../../channels/using/publishing-transactional-event.md) sectie.
+Zodra u een gebeurtenis<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))--> hebt gecreeerd en gepubliceerd, wordt het overeenkomstige transactionele bericht automatisch gecreeerd.
+
+De stappen om de gebeurtenis te vormen en te publiceren worden voorgesteld in [het Vormen van een transactiegebeurtenis](../../channels/using/configuring-transactional-event.md) en [het Publiceren van een transactiegebeurtenis](../../channels/using/publishing-transactional-event.md) sectie.
 
 De stappen voor het openen, bewerken en personaliseren van dit bericht worden hieronder beschreven.
 
-<!--Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../sending/using/fatigue-rules.md#choosing-the-channel).-->
+>[!IMPORTANT]
+>
+>Alleen gebruikers met de rol [Beheer](../../administration/using/users-management.md#functional-administrators) kunnen transactieberichten openen en bewerken.
 
-Zodra uw bericht klaar is, kan het worden getest en worden gepubliceerd. Zie [Transactioneel bericht lifecylce](../../channels/using/publishing-transactional-message.md).
+Zodra uw bericht klaar is, kan het worden getest en worden gepubliceerd. Zie [Een transactioneel bericht testen](../../channels/using/testing-transactional-message.md) en [Transactioneel bericht lifecylce](../../channels/using/publishing-transactional-message.md).
 
 ## Toegang tot transactieberichten {#accessing-transactional-messages}
 
@@ -38,19 +42,19 @@ Om tot het transactiebericht toegang te hebben dat u creeerde:
 
 1. Klik op het bericht van uw keuze om het te bewerken.
 
->[!IMPORTANT]
->
->Om toegang te hebben tot transactionele berichten moet u deel uitmaken van de beveiligingsgroep **[!UICONTROL Administrators (all units)]**. Zie [Gebruikersbeheer](../../administration/using/users-management.md#functional-administrators) voor meer informatie.
+   ![](assets/message-center_message-board.png)
+
+U kunt tot een transactioneel bericht door de verbinding ook direct toegang hebben die in de linkerkant van het overeenkomstige scherm van de gebeurtenisconfiguratie wordt gevestigd. Zie [Een gebeurtenis voorvertonen en publiceren](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 ## Een transactiebericht aanpassen {#personalizing-a-transactional-message}
 
-Volg onderstaande stappen om een transactiebericht te personaliseren.
+Voer de onderstaande stappen uit om een transactiebericht te bewerken en aan te passen.
 
 >[!NOTE]
 >
->Deze sectie beschrijft hoe te om een **op gebeurtenis-gebaseerd** transactioneel bericht te personaliseren.  De configuratiestappen om een op gebeurtenis-gebaseerd transactiebericht tot stand te brengen worden voorgesteld in [deze sectie](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
+>In deze sectie wordt beschreven hoe u een op een gebeurtenis gebaseerd **transactiebericht kunt bewerken.** De specifieke kenmerken van het **op profiel gebaseerde** transactionele bericht worden hieronder [gedetailleerd](#profile-transactional-message-specificities).
 >
->De specifieke kenmerken van het **op profiel gebaseerde** transactionele bericht worden hieronder [gedetailleerd](#profile-transactional-message-specificities).
+>De configuratiestappen om een op gebeurtenis-gebaseerd transactiebericht tot stand te brengen worden voorgesteld in [deze sectie](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 
 U wilt bijvoorbeeld een bericht sturen naar gebruikers van uw website die producten aan hun winkelwagentje hebben toegevoegd en de site verlaten zonder dat ze de producten hebben gekocht. Dit voorbeeld wordt voorgesteld in [Transactioneel overseinen werkend principe](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) sectie.
 
@@ -70,7 +74,7 @@ U wilt bijvoorbeeld een bericht sturen naar gebruikers van uw website die produc
 
    ![](assets/message-center_7.png)
 
-1. Als u de content van uw bericht wilt verrijken, voegt u velden toe door deze te selecteren in de tabel waaraan u de gebeurtenis hebt gekoppeld. In dit voorbeeld selecteert u het veld **[!UICONTROL Title (salutation)]** in de tabel **[!UICONTROL Profile]** via **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+1. U kunt de inhoud van uw bericht ook verrijken. Hiervoor voegt u velden uit de tabel toe die u aan uw gebeurtenisconfiguratie hebt gekoppeld (zie [De gebeurtenis verrijken](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)). In dit voorbeeld selecteert u het veld **[!UICONTROL Title (salutation)]** in de tabel **[!UICONTROL Profile]** via **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -84,15 +88,15 @@ U wilt bijvoorbeeld een bericht sturen naar gebruikers van uw website die produc
 
    ![](assets/message-center_9.png)
 
-   U kunt controleren of de personalisatievelden overeenkomen met de data die in het testprofiel zijn ingevoerd. Zie [Een specifiek testprofiel definiëren](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile) voor meer informatie.
+   U kunt controleren of de personalisatievelden overeenkomen met de data die in het testprofiel zijn ingevoerd. Zie [Een specifiek testprofiel definiëren](../../channels/using/testing-transactional-message.md#defining-specific-test-profile) voor meer informatie.
 
 ## Productvermeldingen gebruiken in een transactiebericht {#using-product-listings-in-a-transactional-message}
 
-U kunt productvermeldingen maken die verwijzen naar een of meer dataverzamelingen in de content van een transactie-e-mail. Zo kunt u in een e-mailbericht over een achtergelaten winkelwagen een lijst opnemen met alle producten die zich in de winkelwagens bevonden toen de website werd afgesloten, met een afbeelding, de prijs en een koppeling naar elk product.
+Wanneer u de inhoud van een transactie-e-mail bewerkt, kunt u productlijsten maken die verwijzen naar een of meer gegevensverzamelingen. In een e-mailbericht waarin de winkelwagen wordt verlaten, kunt u bijvoorbeeld een lijst opnemen met alle producten die zich in de winkelwagentjes bevonden toen ze uw website verlieten, met een afbeelding, de prijs en een koppeling naar elk product.
 
 >[!IMPORTANT]
 >
->Productvermeldingen zijn alleen beschikbaar wanneer u transactie-e-mails bewerkt via de interface van [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+>Productaanbiedingen zijn alleen beschikbaar voor het e-mailkanaal, wanneer u transactie-e-mailinhoud bewerkt via de interface [E-mail Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
 Volg de onderstaande stappen om een lijst met achtergelaten producten toe te voegen aan een transactiebericht.
 
@@ -204,7 +208,7 @@ Zie [Dataverzamelingen definiëren](../../channels/using/configuring-transaction
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   Ga voor meer informatie over het definiëren van een testprofiel in een transactiebericht naar [deze sectie](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile).
+   Ga voor meer informatie over het definiëren van een testprofiel in een transactiebericht naar [deze sectie](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 ## Specificaties van op profielen gebaseerde transactiemeldingen {#profile-transactional-message-specificities}
 
@@ -214,9 +218,9 @@ U kunt transactieberichten verzenden die op klant marketing profielen worden geb
 
 * De configuratiestappen om een op profiel-gebaseerd transactionbericht tot stand te brengen zijn gedetailleerd in [deze sectie](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
 
-### Een bericht voor een profieltransactie bewerken {#editing-profile-transactional-message}
+<!--### Editing a profile transactional message {#editing-profile-transactional-message}-->
 
-De stappen voor het maken, personaliseren en publiceren van een bericht voor een profieltransactie zijn meestal dezelfde als voor een bericht voor een gebeurtenistransactie.
+De stappen voor het maken, bewerken en aanpassen van een bericht voor een profieltransactie zijn meestal dezelfde als voor een bericht voor een gebeurtenistransactie.
 
 De verschillen worden hieronder vermeld.
 
@@ -235,29 +239,39 @@ De verschillen worden hieronder vermeld.
 
 1. Sla uw wijzigingen op voordat u het bericht publiceert. Zie [Een transactiebericht publiceren](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message) voor meer informatie hierover.
 
-### De levering van een transactioneel bericht voor een profiel controleren {#monitoring-a-profile-transactional-message-delivery}
+<!--### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
 
-Zodra het bericht is gepubliceerd en uw website-integratie is voltooid, kunt u de levering controleren.
+Once the message is published and your site integration is done, you can monitor the delivery.
 
-1. Klik op het pictogram rechtsonder in het blok **[!UICONTROL Deployment]** om het logboek voor de verzending van berichten weer te geven.
+1. To view the message delivery log, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
 
-   Voor meer informatie bij de toegang tot van de logboeken, zie [Controle een levering](../../sending/using/monitoring-a-delivery.md).
+1. Click the **[!UICONTROL Execution list]** tab.
 
-1. Selecteer het tabblad **[!UICONTROL Sending logs]**. In de kolom **[!UICONTROL Status]** geeft **[!UICONTROL Sent]** aan dat er een profiel is ingeschreven.
+   ![](assets/message-center_execution_tab.png)
+
+1. Select the latest execution delivery.
+
+   An **execution delivery** is a non-actionable and non-functional technical message created once a month for each transactional message, and each time a transactional message is edited and published again
+
+1. Select the **[!UICONTROL Sending logs]** tab. In the **[!UICONTROL Status]** column, **[!UICONTROL Sent]** indicates that a profile has opted in.
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Selecteer **[!UICONTROL Exclusions logs]** lusje om ontvangers te bekijken die van het berichtdoel, zoals adressen op lijst van afgewezen personen zijn uitgesloten.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on denylist.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-Voor elk profiel dat is uitgeschreven, is de typologieregel **[!UICONTROL Address on denylist]** niet van toepassing op de bijbehorende ontvanger.
+>[!NOTE]
+>
+>For more information on accessing and using the logs, see [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md).
 
-Deze regel maakt deel uit van een specifieke typologie die op alle transactionele berichten van toepassing is op basis van de tabel **[!UICONTROL Profile]**.
+For any profile that has opted out, the **[!UICONTROL Address on denylist]** typology rule excluded the corresponding recipient.
+
+This rule is part of a specific typology that applies to all transactional messages based on the **[!UICONTROL Profile]** table.
 
 ![](assets/message-center_marketing_typology.png)
 
-**Verwante onderwerpen**:
+**Related topics**:
 
-* Gebeurtenis activeren(../../channels/using/getting-started-with-transactional-msg.md#integration-event-trigger)
-* [Informatie over typologieën en typologieregels](../../sending/using/about-typology-rules.md)
+* [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+* [About typologies and typology rules](../../sending/using/about-typology-rules.md)-->
