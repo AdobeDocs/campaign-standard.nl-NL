@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 9ad23468d3d1cf386d9558e6cd2344ea2316fc82
+source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '600'
 ht-degree: 7%
 
 ---
@@ -22,27 +22,27 @@ Nadat [configuration](../../channels/using/configuring-transactional-event.md) i
 
 >[!IMPORTANT]
 >
->De configuratie en publicatie van gebeurtenissen moeten worden uitgevoerd door een [beheerder](../../administration/using/users-management.md#functional-administrators).
+>Alleen [Functionele beheerders](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->hebben de juiste rechten om gebeurtenisconfiguraties te publiceren.
 
 Een grafiek die het volledige transactieoverseinenpublicatieproces, met inbegrip van het publiceren en unpublishing van gebeurtenisconfiguraties illustreert, is beschikbaar in [deze sectie](../../channels/using/publishing-transactional-message.md).
 
 Zodra de publicatie is voltooid:
 * Het overeenkomstige transactiemelding wordt automatisch gecreeerd. Zie [Transactieberichten bewerken](../../channels/using/editing-transactional-message.md).
-* De API die door uw websiteontwikkelaar wordt gebruikt, wordt opgesteld en de transactionele gebeurtenissen kunnen nu worden verzonden. Zie Gebeurtenis integreren die teweegbrengt (../../channels/using/getting-started-with-transactional-msg.md#integration-event-trigger).
+* De API die door uw websiteontwikkelaar wordt gebruikt, wordt opgesteld en de transactionele gebeurtenissen kunnen nu worden verzonden. Zie [De gebeurtenis activeren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
-## De gebeurtenis voorvertonen en publiceren {#previewing-and-publishing-the-event}
+## Een gebeurtenis voorvertonen en publiceren {#previewing-and-publishing-the-event}
 
 Voordat u de gebeurtenis kunt gebruiken, moet u deze voorvertonen en publiceren.
 
 1. Klik op de knop **[!UICONTROL API preview]** om een simulatie van de REST API weer te geven die door uw websiteontwikkelaar wordt gebruikt voordat deze wordt gepubliceerd.
 
-   Nadat de gebeurtenis is gepubliceerd, kunt u met deze knop ook een voorvertoning van de API in productie zien. Zie Gebeurtenis integreren die teweegbrengt (../../channels/using/getting-started-with-transactional-msg.md#integration-event-trigger).
+   Nadat de gebeurtenis is gepubliceerd, kunt u met deze knop ook een voorvertoning van de API in productie zien. Zie [De gebeurtenis activeren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
    ![](assets/message-center_api_preview.png)
 
    >[!NOTE]
    >
-   >De REST API varieert afhankelijk van het geselecteerde kanaal en de geselecteerde doeldimensie. Raadpleeg [Transactionele specifieke configuraties van gebeurtenissen](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations) voor meer informatie over de verschillende configuraties.
+   >De REST API varieert afhankelijk van het geselecteerde kanaal en de geselecteerde doeldimensie. Raadpleeg [deze sectie](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations) voor meer informatie over de verschillende configuraties.
 
 1. Klik op **[!UICONTROL Publish]** om de publicatie te starten.
 
@@ -66,11 +66,7 @@ Voordat u de gebeurtenis kunt gebruiken, moet u deze voorvertonen en publiceren.
 
    >[!NOTE]
    >
-   >* Als de gebeurtenis het verzenden van een transactiemelding moet activeren, moet u het bericht wijzigen en publiceren dat net is gemaakt. Zie [Secties Bewerken](../../channels/using/editing-transactional-message.md) en [Een transactioneel bericht](../../channels/using/publishing-transactional-message.md) publiceren.
-      >
-      >
-   * U moet deze triggergebeurtenis [ook integreren in uw website.](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
-
+   >Als de gebeurtenis het verzenden van een transactiemelding moet activeren, moet u het bericht wijzigen en publiceren dat net is gemaakt. Zie [Secties Bewerken](../../channels/using/editing-transactional-message.md) en [Een transactioneel bericht](../../channels/using/publishing-transactional-message.md) publiceren. U moet deze triggergebeurtenis [ook integreren in uw website.](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
 1. Zodra Adobe Campaign gebeurtenissen ontvangt die betrekking hebben op deze gebeurtenisconfiguratie, kunt u op de **[!UICONTROL Latest transactional events]**-koppeling onder de sectie **[!UICONTROL History]** klikken om toegang te krijgen tot de meest recente gebeurtenissen die door uw externe service worden verzonden en door Adobe Campaign worden verwerkt.
 
