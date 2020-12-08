@@ -7,9 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: accessibility
 translation-type: tm+mt
-source-git-commit: c10633d1371cd6475a573a8c851c5f7e364baf62
+source-git-commit: 6632216ce4697892ea08b32641c9c026482ca713
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -66,10 +66,6 @@ Met Adobe Campaign Standard kunt u e-mails en pushmeldingen ontwerpen en testen 
 ![](assets/accessibility_6.png)
 
 ## Contextafhankelijke Help {#contextual-help}
-
->[!NOTE]
->
-> De contextafhankelijke Help is alleen beschikbaar wanneer u de e-mailontwerper gebruikt.
 
 De contextafhankelijke Help kan u helpen de verschillende aangevraagde velden en functies beter te begrijpen. Het begeleidt u ook door productdocumentatie om meer informatie over de geselecteerde eigenschap te leren.
 
