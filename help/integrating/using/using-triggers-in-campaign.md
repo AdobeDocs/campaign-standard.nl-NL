@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '751'
+ht-degree: 83%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 0%
 # Triggers gebruiken in Campaign{#using-triggers-in-campaign}
 
 ## Een gekoppelde trigger in Campaign maken {#creating-a-mapped-trigger-in-campaign}
+
+>[!NOTE]
+>
+>Als u Triggers wilt maken, hebt u de rol **[!UICONTROL Administration]** nodig of wilt u deel uitmaken van de beveiligingsgroep **[!UICONTROL Administrators]**. Raadpleeg deze [pagina](../../administration/using/list-of-roles.md) voor meer informatie hierover.
 
 Definieer eerst de gedragingen die u in Adobe Experience Cloud (**[!UICONTROL Triggers]**-kernservice) wilt bewaken. Kijk voor meer informatie in de [documentatie van Adobe Experience Cloud](https://docs.adobe.com/content/help/nl-NL/core-services/interface/activation/triggers.html). Let op dat u bij het definiëren van de trigger aliassen moet inschakelen. Voor elk gedrag (bladeren/verlaten van formulieren, toevoegen/verwijderen van producten, vervallen sessie, enz.) moet een nieuwe trigger worden toegevoegd in Adobe Experience Cloud.
 
@@ -77,7 +81,7 @@ Na het publiceren van de gebeurtenis wordt er automatisch een transactiesjabloon
 
 Na het maken en publiceren van de triggergebeurtenis, wordt de bijbehorende transactiesjabloon automatisch gemaakt. Raadpleeg de sectie [Een toegewezen trigger maken in Campaign](#creating-a-mapped-trigger-in-campaign) voor meer informatie.
 
-Als u wilt dat de gebeurtenis het verzenden van een transactiemelding activeert, moet u de sjabloon personaliseren, en dan testen en publiceren. Deze stappen zijn hetzelfde als voor een standaard transactiebericht. Raadpleeg de sectie [Transactiesjabloon](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message) voor meer informatie.
+Als u wilt dat de gebeurtenis het verzenden van een transactiemelding activeert, moet u de sjabloon personaliseren, en dan testen en publiceren. Deze stappen zijn hetzelfde als voor een standaard transactiebericht. Voor meer op dit, verwijs naar [het Uitgeven van een transactiebericht](../../channels/using/editing-transactional-message.md) sectie.
 
 >[!NOTE]
 >
