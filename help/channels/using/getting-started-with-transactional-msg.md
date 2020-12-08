@@ -5,184 +5,137 @@ title: Belangrijkste stappen voor het instellen van een transactiebericht
 description: Ontdek wat transactiemeldingen zijn en leer de belangrijkste stappen om een transactiemelding in Adobe Campaign Standard op te zetten.
 audience: channels
 content-type: reference
-topic-tags: landing-pages
-context-tags: landingPage,wizard;landingPage,overview;landingPage,main
+topic-tags: transactional-messaging
+context-tags: null
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: c276c468627208b584a0342414cdbe382e349f50
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 28%
+source-wordcount: '966'
+ht-degree: 8%
 
 ---
 
 
 # Aan de slag met transactionele berichten {#getting-started-with-transactional-messaging}
 
-## Overzicht
+## Overzicht {#overview}
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-Introductie van het concept van **transactioneel overseinen**
+Een transactiebericht is een individuele en unieke communicatie die in real time door een leverancier zoals een website wordt verzonden. Dit wordt vooral verwacht, omdat het belangrijke informatie bevat die de ontvanger wil controleren of bevestigen.
 
-Het transactieoverseinen laat u toe om individuele en unieke berichten naar uw klanten in real time te verzenden.
+* **Wanneer komt het?** Omdat dit bericht belangrijke informatie bevat, verwacht de gebruiker dat het in echt - tijd wordt verzonden. De vertraging tussen de gebeurtenis die wordt geactiveerd en het bericht dat aankomt, moet daarom zeer kort zijn.
 
-Dit kunnen welkomstberichten, bestellingen voor verzendbevestigingen, wachtwoordupdates, enzovoort zijn.
+* **Waarom is het belangrijk?** Over het algemeen zijn er voor een transactiebericht hoge open tarieven. Het moet daarom zorgvuldig worden ontworpen, omdat het een sterke invloed kan hebben op het gedrag van de klanten, aangezien het de relatie met de klant definieert.
+
+* **Bijvoorbeeld?** Het kan een welkomstbericht zijn na het maken van een account, een bevestiging dat een bestelling is verzonden, een factuur, een bericht waarin een wijziging van het wachtwoord wordt bevestigd, of een melding nadat een klant door uw website heeft gebladerd, enz.
+
 Met Adobe Campaign kunt u deze functionaliteit integreren met een informatiesysteem dat gebeurtenissen verzendt die moeten worden omgezet in aangepaste transactieberichten.
 
-Transactieberichten kunnen worden verzonden via e-mail, sms of pushmeldingen, afhankelijk van uw opties. Controleer hiervoor uw licentieovereenkomst.
-
-Adobe Campaign geeft voorrang aan het verwerken van transactieberichten boven elke andere levering.
-
-Transactieberichten zijn ook beschikbaar via de Adobe Campaign Standard-API. Raadpleeg de [desbetreffende documentatie](../../api/using/managing-transactional-messages.md)voor meer informatie hierover.
+Transactieberichten kunnen worden verzonden via e-mail, SMS of [pushmelding](../../channels/using/transactional-push-notifications.md), afhankelijk van uw opties. Controleer hiervoor uw licentieovereenkomst.
 
 >[!NOTE]
 >
->Alle transactieberichten worden nu verzonden met de verbeterde MTA van Adobe Campaign voor een betere levering en doorvoer, en voor de verwerking van berichten die niet bezorgbaar zijn. Alle effecten zijn hetzelfde als bij standaardmarketingberichten. Zie [deze sectie](../../administration/using/configuring-email-channel.md) voor meer informatie.
+>Adobe Campaign geeft voorrang aan het verwerken van transactieberichten boven elke andere levering.
 
-## Transactionele berichtendefinitie {#transactional-messaging-definition}
+<!--Guidelines to implement transactional messaging capabilities in your website are detailed in [this section](../../api/using/managing-transactional-messages.md).-->
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><br><p><b>Wat is een transactioneel bericht?</b></p></td>
-<td><p>Het is een individuele en unieke communicatie, die door een leverancier zoals een website wordt verzonden.</p></td>
-<td><p>Dit wordt vooral verwacht, omdat het belangrijke informatie bevat die de ontvanger wil controleren of bevestigen.</p></td>
-</tr>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>Wanneer komt het?</b></p></td>
-<td><p> Omdat dit bericht belangrijke informatie bevat, verwacht de gebruiker dat het in echt - tijd wordt verzonden.</p></td>
-<td><p>De vertraging tussen de gebeurtenis die wordt geactiveerd en het bericht dat aankomt, moet daarom zeer kort zijn.</p></td>
-</tr>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"><br><p><b>Waarom is het belangrijk?</b></p></td>
-<td><p>Over het algemeen zijn er voor een transactiebericht hoge open tarieven. Het moet daarom zorgvuldig worden ontworpen.</p></td>
-<td><p>Het kan namelijk een sterke invloed hebben op het gedrag van de klanten, aangezien het de relatie met de klant definieert.</p></td>
-</tr>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><p><b>Bijvoorbeeld?</b></p></td>
-<td><p>Het zou een welkomstbericht kunnen zijn na het maken van een account, een bevestiging dat een bestelling is verzonden, een factuur...</p></td>
-<td><p>Het kan ook een bericht zijn dat een wachtwoordwijziging bevestigt, of een bericht nadat een klant door uw website heeft gebladerd...</p></td>
-</tr>
-</table>
+<!--All transactional messages are now sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages. For more on this, see [this section](../../administration/using/configuring-email-channel.md).-->
 
-## Transactieberichttypen
-
-Er zijn twee typen transactieberichten beschikbaar in Adobe Campaign:
-
-<img src="assets/do-not-localize/icon_event.svg" width="60px">
-
-[Gebeurtenistransactieberichten](../../channels/using/event-transactional-messages.md) die zijn gericht op een gebeurtenis.
-
-* Transactieberichten van gebeurtenissen bevatten geen profielinformatie.
-
-* Zij zijn niet compatibel met [vermoeidheidsregels](../../sending/using/fatigue-rules.md) (zelfs in het geval van een verrijking met profielen).
-
-* Het leveringsdoel wordt bepaald door de gegevens in de gebeurtenis zelf.
-
-
-<img src="assets/do-not-localize/icon_profile.svg" width="60px">
-
-[Profieltransactieberichten](../../channels/using/profile-transactional-messages.md) die zijn gericht op profielen in de marketingdatabase van Campaign.
-
-Met profielen kunt u transactieberichten gebruiken:
-
-* [regels voor marketingtypologie toepassen](../../sending/using/managing-typology-rules.md) of [regels voor vermoeidheid](../../sending/using/fatigue-rules.md)
-
-* De koppeling voor het opzeggen van abonnementen in de berichten opnemen.
-
-* De transactionele berichten aan de globale leveringsrapportage toevoegen.
-
-* De transactionele berichten in het klanttraject gebruiken.
-
-Het berichttype wordt bepaald tijdens de configuratie van de gebeurtenis die in een transactiebericht wordt omgezet. Zie [Transactieberichten configureren](../../administration/using/configuring-transactional-messaging.md).
-
->[!IMPORTANT]
->
->Om tot alle transactionele berichten toegang te hebben, moet u deel van **[!UICONTROL Administrators (all units)]** veiligheidsgroep uitmaken.
+Alvorens met transactioneel overseinen te beginnen, zorg ervoor u de overeenkomstige [beste praktijken en beperkingen ](../../channels/using/transactional-messaging-limitations.md) leest.
 
 ## Werkingsprincipe voor transactieberichten {#transactional-messaging-operating-principle}
 
-Laten we het voorbeeld nemen van een bedrijf dat een website heeft en op deze website kunnen klanten producten kopen.
+Het algemene proces van het transactieoverseinen kan als volgt worden beschreven:
 
-Met Adobe Campaign kunt u een e-mailbericht naar sitegebruikers sturen die producten in hun winkelwagen hebben geplaatst: wanneer ze de site verlaten zonder een aankoop te doen, wordt er automatisch een e-mail naar ze gestuurd met de melding dat ze een winkelwagen met artikelen hebben achtergelaten.
+![](assets/message-center-process.png)
 
-De maatregelen om dit in te voeren zijn als volgt.
+Stel dat u een bedrijf bent met een website waar uw klanten producten kunnen kopen.
+
+Met Adobe Campaign kunt u een meldingsbericht verzenden naar klanten die producten aan hun winkelwagentje hebben toegevoegd. Wanneer een van hen uw website verlaat zonder door te gaan met hun aankopen (externe gebeurtenis die een Campagne-gebeurtenis activeert), wordt er automatisch een e-mailbericht over het verlaten van de winkelwagen naar hen verzonden (levering van transactiemeldingen).
+
+De belangrijkste stappen voor het plaatsen van dit in plaats zijn hieronder in [dit sectie](#key-steps) beschreven.
+
+## Transactietypen {#transactional-message-types}
+
+Er zijn twee typen transactieberichten beschikbaar in Adobe Campaign.
+
+**Transactieprogrammagegevens van** de gebeurtenis in de gebeurtenis zelf. Deze berichten:
+* Bevat geen profielgegevens en kan daarom geen abonnementkoppelingen bevatten.
+* zijn niet verenigbaar met vermoeidheidsvoorschriften (zelfs in geval van verrijking met profielen).
+* Hun leveringsdoel laten bepalen door de gegevens in de gebeurtenis zelf.
+
+U kunt een bericht van de gebeurtenistransactie naar een klant sturen die een vergeten wachtwoord moet terugwinnen bijvoorbeeld, of een orde bevestigen. U wilt namelijk niet dat de ontvanger zich afmeldt bij dit type communicatie en deze melding mag niet worden toegevoegd aan de teller van marketingberichten als onderdeel van een moeitelijn.
+
+**Profiel van de transactieberichten** in de marketingdatabase van Campagne. Met dit type berichten kunt u:
+* Gebruikmaken van gegevens in de Adobe Campaign-database.
+* Pas uw bericht met profielinformatie aan door [verrijking](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) aan de gebeurtenisconfiguratie toe te voegen.
+* Pas [marketingtypologische regels](../../sending/using/managing-typology-rules.md) of [vermoeidheidsregels](../../sending/using/fatigue-rules.md) toe.
+* De koppeling voor het opzeggen van abonnementen in de berichten opnemen.
+* De transactionele berichten aan de globale leveringsrapportage toevoegen.
+* De transactionele berichten in het klanttraject gebruiken.
+
+U kunt dit type berichten bijvoorbeeld gebruiken wanneer u contact opneemt met uw klanten nadat ze hun winkelwagentje op uw website hebben verlaten, om hen aan te moedigen verder te gaan met hun aankoop. Dit doet, kunt u uw bericht gemakkelijker personaliseren met directe toegang tot alle informatie van uw profielgegevensbestand, marketingregels toepassen en dit bericht aan de globale klantenreis en rapportering voor een betere mening over uw klantengedrag omvatten.
+
+Het berichttype wordt bepaald tijdens de configuratie van de gebeurtenis die in een transactiebericht wordt omgezet. Zie de [Transactieberichten op basis van gebeurtenissen](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages) en [Transactieberichten op basis van profielen](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) configuratiesecties.
+
+## Belangrijke stappen {#key-steps}
+
+De belangrijkste stappen bij het maken en beheren van persoonlijke transactiemeldingen in Adobe Campaign worden in het onderstaande schema samengevat.
+
+![](assets/message-center-overview.png)
+
+Elk van deze stappen wordt hieronder nader beschreven.
+
+>[!IMPORTANT]
+>
+>Alleen gebruikers met de rol [Administration](../../administration/using/users-management.md#functional-administrators) kunnen transactionele gebeurtenissen configureren en transactieberichten openen.
 
 ### Stap 1 - creeer en publiceer de gebeurtenisconfiguratie {#create-event-configuration}
 
 <img src="assets/do-not-localize/icon_config.svg" width="60px">
 
-**Transactionele gebeurtenisconfiguratie**:
+| Gebruiker | Handeling | Resultaat |
+|--- |--- |--- |
+| Deze stap moet worden uitgevoerd door een beheerder die [beheerrechten](../../administration/using/users-management.md#functional-administrators) bezit. | Configureer een gebeurtenis met de naam &quot;Afstand starten&quot; en publiceer deze gebeurtenisconfiguratie. | De API die wordt gebruikt door uw websiteontwikkelaar, wordt geïmplementeerd en er wordt automatisch een transactiemelding gemaakt. |
 
-* Configureer een gebeurtenis met de naam &quot;Afstand starten&quot; en publiceer deze gebeurtenisconfiguratie.
-
-* De API die wordt gebruikt door uw websiteontwikkelaar, wordt geïmplementeerd en er wordt automatisch een transactiemelding gemaakt.
-
-* Deze stap moet worden uitgevoerd door een gebruiker met [beheerrechten](../../administration/using/users-management.md#functional-administrators).
-
-Het maken en publiceren van een gebeurtenis wordt beschreven in de sectie [Een gebeurtenis configureren voor het sturen van een gebeurtenistransactiebericht](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message).
+Het creëren van en het publiceren van een gebeurtenis worden voorgesteld in [het Vormen van een transactiegebeurtenis](../../channels/using/configuring-transactional-event.md) en [het Publiceren van een transactiegebeurtenis](../../channels/using/publishing-transactional-event.md) secties.
 
 ### Stap 2 - geef en publiceer het transactiebericht {#create-transactional-message} uit
 
 <img src="assets/do-not-localize/icon_notification.svg" width="40px">
 
-**Transactievergadering**
+| Gebruiker | Handeling | Resultaat |
+|--- |--- |--- |
+| Deze stap kan worden uitgevoerd door een marketinggebruiker die [beheerrechten](../../administration/using/users-management.md#functional-administrators) heeft. | Bewerk het transactiebericht, test het en publiceer het. | Het transactiebericht is dan klaar om te worden verzonden. |
 
-* Bewerk het transactiebericht, test het en publiceer het.
-
-* Het transactiebericht is dan klaar om te worden verzonden.
-
-* Deze stap kan door om het even welke marketing gebruiker met [standaard gebruikerstoegangsrechten](../../administration/using/users-management.md#basic-users) worden uitgevoerd.
-
-Zie [Transactieberichten voor gebeurtenissen](../../channels/using/event-transactional-messages.md) voor meer informatie over het bewerken en publiceren van een transactiemelding.
+Zie [Transactieberichten bewerken](../../channels/using/editing-transactional-message.md) en [Levenscyclus van transactieberichten](../../channels/using/publishing-transactional-message.md) voor meer informatie over het bewerken en publiceren van een transactiebericht.
 
 ### Stap 3 - Integreer de gebeurtenis die {#integrate-event-trigger} teweegbrengt
 
 <img src="assets/do-not-localize/icon_api.svg" width="55px">
 
-**Gebeurtenis die integratie teweegbrengt**
+<!--**Event triggering integration**-->
 
-* Gebruik de REST Transaction Messages API om de gebeurtenis in uw website te integreren.&lt;>
+| Gebruiker | Handeling | Resultaat |
+|--- |--- |--- |
+| Deze stap wordt uitgevoerd door de ontwikkelaar van uw website. | Gebruik de REST Transaction Messages API om de gebeurtenis in uw website te integreren. | De gebeurtenis wordt geactiveerd wanneer een klant zijn winkelwagentje verlaat. |
 
-* De gebeurtenis wordt geactiveerd wanneer een klant zijn winkelwagentje verlaat.
+Nadat u een gebeurtenis hebt gemaakt, moet u het activeren van deze gebeurtenis integreren in uw website.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> Hiervoor moet de webontwikkelaar van uw website de  **Adobe Campaign Standard REST API** gebruiken.
 
-* Deze stap wordt uitgevoerd door de ontwikkelaar van uw website.
-
-Zie [Site-integratie](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website) voor meer informatie over het integreren van de gebeurtenis in uw website.
+Zie de [REST API-documentatie](../../api/using/managing-transactional-messages.md) voor meer informatie over het gebruik van de API voor campagne REST voor het beheer van transactieberichten.
 
 ### Stap 4 - Berichtlevering {#message-delivery}
 
 <img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
-**Externe gebeurtenis van uw website**
+Zodra al deze stappen zijn uitgevoerd, kan het bericht worden geleverd.
 
-* Zodra al deze stappen zijn uitgevoerd, kan het bericht worden geleverd.
-
-* Zodra een gebruiker de site verlaat zonder de producten in zijn winkelwagentje te bestellen, wordt de bijbehorende Campagne-gebeurtenis geactiveerd.
-
-* Vervolgens ontvangt de gebruiker automatisch een e-mailbericht.
-
-## Belangrijke stappen {#key-steps}
-
-De belangrijkste stappen bij het maken en beheren van persoonlijke transactiemeldingen in Adobe Campaign worden in de onderstaande tabel samengevat.
-
-![](assets/message-center-overview.png)
+Zodra een gebruiker de site verlaat zonder de producten in zijn winkelwagentje te bestellen, wordt de bijbehorende Campagne-gebeurtenis geactiveerd. De gebruiker ontvangt automatisch een e-mailbericht.
 
 ## Verwante onderwerpen
 
 * [Belangrijkste stappen om een bericht te verzenden](../../channels/using/key-steps-to-send-a-message.md)
 * [Aan de slag met communicatiekanalen](../../channels/using/get-started-communication-channels.md)
-
-<!--## Transactional messaging publication process {#transactional-messaging-pub-process}
-
-The chart below illustrates the whole transactional messaging publication process.
-
-![](assets/message-center_pub-process.png)
-
-For more on the event configuration steps, see [Transactional messaging configuration](../../administration/using/configuring-transactional-messaging.md).
-
-Read more:
-
-* [Event transactional messages](../../channels/using/event-transactional-messages.md)
-* [Profile transactional messages](../../channels/using/profile-transactional-messages.md)
-* [Transactional push notifications](../../channels/using/transactional-push-notifications.md)
-* [Follow-up messages](../../channels/using/follow-up-messages.md)-->
+* [Transactionele pushmeldingen](../../channels/using/transactional-push-notifications.md)
+* [Vervolgberichten](../../channels/using/follow-up-messages.md)
