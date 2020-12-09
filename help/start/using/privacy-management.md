@@ -6,28 +6,28 @@ description: Ontdek meer over de Adobe Campaign Standard-functies voor het behee
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
 # Privacybeheer {#privacy-management}
 
-Adobe Campaign biedt een reeks hulpmiddelen aan om u te helpen aan [Privacyverordeningen ](#privacy-management-regulations) (met inbegrip van GDPR, CCPA, PDPA, LGPD) voldoen.
+Adobe Campaign biedt een reeks tools om u te helpen voldoen aan de [privacyverordeningen](#privacy-management-regulations) (zoals AVG, CCPA, PDPA, LGPD).
 
-Hier volgen de vijf belangrijkste mogelijkheden die Adobe Campaign biedt om ervoor te zorgen dat de GDPR en andere privacyregels klaar zijn:
+Hier volgen de vijf voornaamste mogelijkheden die Adobe Campaign biedt om u gereed te maken voor de AVG en andere privacyregels:
 
 ![](assets/privacy-gdpr-use-cases.png)
 
 * **Recht op toegang**
 
-* **Rechts om te verwijderen**
+* **Recht op verwijdering**
 
-Voor meer op dit, zie [Recht op Toegang en Recht om worden vergeten](#right-access-forgotten).
+Zie [Recht op toegang en recht om te worden vergeten](#right-access-forgotten) voor meer informatie.
 
 * **Toestemmingsbeheer**
 
@@ -35,19 +35,19 @@ Voor meer op dit, zie [Recht op Toegang en Recht om worden vergeten](#right-acce
 
 * **Rights Management**
 
-Zie [Goedkeuring, Behoud en Rollen](#consent-retention-roles) voor meer informatie.
+Zie [Toestemming, retentie en rollen](#consent-retention-roles) voor meer informatie.
 
 <!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 
 It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
 
-## Regels inzake privacybeheer {#privacy-management-regulations}
+## Regels voor privacybeheer {#privacy-management-regulations}
 
 Met de opties van Adobe Campaign kunt u voldoen aan de volgende regels:
 
-* **De AVG** ([Algemene Verordening Gegevensbescherming](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) is de privacyverordening van de Europese Unie (EU) die de vereisten inzake gegevensbescherming voor Europese landen harmoniseert en moderniseert. Volg de onderstaande koppelingen voor algemene informatie over GDPR:
+* **De AVG** ([Algemene Verordening Gegevensbescherming](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)) is de privacyverordening van de Europese Unie (EU) die de vereisten inzake gegevensbescherming voor Europese landen harmoniseert en moderniseert. Volg de onderstaande koppelingen voor algemene informatie over de AVG:
 
-   * https://www.adobe.com/privacy/general-data-protection-regulation.html
+   * https://www.adobe.com/nl/privacy/general-data-protection-regulation.html
    * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
 
 * **De CCPA** ([California Consumer Privacy Act](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)) biedt inwoners van Californië nieuwe rechten met betrekking tot hun persoonsgegevens en legt verantwoordelijkheden op het gebied van gegevensbescherming op aan bepaalde entiteiten die zaken doen in Californië.
