@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Toegankelijkheid in Adobe Campaign Standard
-description: Meer informatie over toegankelijkheidsondersteuning in Adobe Campaign Standard Workspace.
+description: Ontdek meer over toegankelijkheidsondersteuning in Adobe Campaign Standard Workspace.
 audience: designing
 content-type: reference
 topic-tags: accessibility
@@ -10,30 +10,30 @@ translation-type: tm+mt
 source-git-commit: 6632216ce4697892ea08b32641c9c026482ca713
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 # Toegankelijkheid in Adobe Campaign Standard {#accessibility-acs}
 
-Meer informatie over toegankelijkheidsondersteuning in Adobe Campaign Standard Workspace.
+Ontdek meer over toegankelijkheidsondersteuning in Adobe Campaign Standard Workspace.
 
-Toegankelijkheid heeft betrekking op het bruikbaar maken van producten voor mensen met een visuele, auditieve, cognitieve, motorische en andere handicap. Voorbeelden van toegankelijkheidsfuncties voor softwareproducten zijn ondersteuning voor schermlezers, tekstequivalenten voor afbeeldingen, sneltoetsen, wijziging van weergavekleuren in hoog contrast, enzovoort.
+Toegankelijkheid betekent het bruikbaar maken van producten voor mensen met een visuele, auditieve, cognitieve, motorische of andere handicap. Voorbeelden van toegankelijkheidsfuncties voor softwareproducten zijn ondersteuning voor schermlezers, tekstequivalenten voor afbeeldingen, sneltoetsen, wijziging van weergavekleuren in hoog contrast, enzovoort.
 
-Adobe Campaign Standard biedt enkele gereedschappen die het programma toegankelijk maken voor gebruik, zoals contrast, toetsenbordnavigatie, contextafhankelijke Help en responsieve formaatwijziging.
+Adobe Campaign Standard biedt een aantal tools die het programma toegankelijk maken, zoals contrast, toetsenbordnavigatie, contextafhankelijke Help en responsieve formaatwijziging.
 
 ## Toegankelijkheidsfuncties {#accessibility-features}
 
 ### Contrast {#contrast}
 
-De gebruikersinterface van Adobe Campaign Standard streeft ernaar voldoende contrast in de toepassing te bieden voor een toegankelijke kijkervaring voor gebruikers met een laag gezichtsvermogen of een laag kleurfalen.
+De gebruikersinterface van Adobe Campaign Standard streeft ernaar in de applicatie voldoende contrast te bieden voor een toegankelijke kijkervaring voor gebruikers met een slecht gezichtsvermogen of verminderd kleurenzicht.
 
-* De pauze- en annulerpictogrammen van workflows zijn bijgewerkt om het contrast tussen achtergrond en voorgrond te verbeteren.
+* De pictogrammen voor pauzeren en annuleren van Workflow zijn bijgewerkt om het contrast tussen achtergrond en voorgrond te verbeteren.
 
    ![](assets/accessibility_1.png)
 
-* De tekst die wordt weergegeven wanneer een levering is gelukt, bevat grote groene tekst met een ontoereikend contrast tussen de achtergrond en de voorgrond. Het contrast is bijgewerkt met een minimale verhouding van 3:1.
+* De tekst die wordt weergegeven wanneer een levering is gelukt, bevatte grote groene tekst met onvoldoende contrast tussen de achtergrond en de voorgrond. Het contrast is bijgewerkt met een minimale verhouding van 3:1.
 
    ![](assets/accessibility_2.png)
 
@@ -41,91 +41,91 @@ De gebruikersinterface van Adobe Campaign Standard streeft ernaar voldoende cont
 
 ### Gebruikersinterface {#user-interface}
 
-In de Adobe Campaign Standard-gebruikersinterface is het voor gebruikers gemakkelijker om inhoud te zien en te horen, zoals het scheiden van voorgrond en achtergrond en het toevoegen van alternatieve teksten aan de verschillende beschikbare knoppen.
+In de Adobe Campaign Standard-gebruikersinterface is het voor gebruikers gemakkelijker om content te zien en te horen, bijvoorbeeld door het scheiden van voorgrond en achtergrond door toevoeging van alternatieve teksten aan de verschillende beschikbare knoppen.
 
-* Wanneer de gebruiker een vereist veld voor een id leeg laat, geeft een afbeelding visueel aan welk veld een foutbericht bevat.
+* Wanneer de gebruiker een vereist ID-veld leeg laat, geeft een afbeelding visueel aan welk veld een foutbericht bevat.
 
    ![](assets/accessibility_3.png)
 
-* Inhoud die boven of onder de focus wordt weergegeven, kan door de gebruiker worden genegeerd en verbergt andere inhoud niet.
+* Content die wordt weergegeven wanneer de muis ergens boven wordt gehouden of wanneer de focus wordt verplaatst, kan door de gebruiker worden genegeerd en verbergt andere content niet.
 
    ![](assets/accessibility_4.png)
 
-* Alternatieve teksten voor afbeeldingsknoppen zijn toegevoegd en kunnen worden gelezen in plaats van een illustratie te bekijken.
+* Er zijn alternatieve teksten voor afbeeldingsknoppen toegevoegd die kunnen worden gelezen in plaats van een illustratie te bekijken.
 
    ![](assets/accessibility_5.png)
 
-* De cellen van de kopballen van de gegevenslijst worden niet verlaten leeg in de hoek van lijst wanneer het gebruiken van lijsten.
+* De cellen van de koppen van gegevenstabellen worden tijdens het gebruik van lijsten niet leeg gelaten in de hoek.
 
 ### Responsieve formaatwijziging maken voor meerdere apparaten {#resize-devices}
 
-Bij het ontwerpen voor meerdere apparaten en platforms is het belangrijk een naadloze ervaring te creëren voor schermgrootten op verschillende mobiele en desktopresoluties.
+Tijdens het ontwerpen voor meerdere apparaten en platforms is het belangrijk om een naadloze ervaring te maken voor verschillende schermgrootten met verschillende mobiele en desktopresoluties.
 
-Met Adobe Campaign Standard kunt u e-mails en pushmeldingen ontwerpen en testen op verschillende apparaten, zoals: iPhone, Android-apparaten, iPad, Android-tablet en -bureaublad.
+Met Adobe Campaign Standard kunt u e-mails en pushberichten ontwerpen en testen op verschillende apparaten zoals iPhones, Android-apparaten, iPads, Android-tablets en desktops.
 
 ![](assets/accessibility_6.png)
 
 ## Contextafhankelijke Help {#contextual-help}
 
-De contextafhankelijke Help kan u helpen de verschillende aangevraagde velden en functies beter te begrijpen. Het begeleidt u ook door productdocumentatie om meer informatie over de geselecteerde eigenschap te leren.
+Met de contextafhankelijke Help kunt u de verschillende gevraagde velden en functies beter begrijpen. De Help begeleidt u ook door productdocumentatie om meer informatie te vinden over de geselecteerde functie.
 
-Bij het ontwerpen van een e-mail kunt u de cursor boven de informatieknop plaatsen. Er verschijnt knopinfo met beschrijvingen van functies en koppelingen naar de productdocumentatie.
+Bij het ontwerpen van een e-mail kunt u de cursor boven de informatieknop houden. Er verschijnt knopinfo met beschrijvingen van functies en koppelingen naar de productdocumentatie.
 
 ![](assets/accessibility_7.png)
 
-## Ondersteuning voor schermvergrotingen {#screen-magnifiers}
+## Ondersteuning voor schermvergroters {#screen-magnifiers}
 
-Een schermlezer leest tekst die op het computerscherm wordt weergegeven. De pagina leest ook niet-tekstuele informatie, zoals knoplabels of beschrijvingen van afbeeldingen in de toepassing, die in toegankelijkheidstags of -kenmerken wordt aangeboden.
+Een schermlezer leest tekst voor die op het computerscherm wordt weergegeven. De pagina leest ook niet-tekstuele informatie voor zoals knoplabels of beschrijvingen van afbeeldingen in de applicatie, die in toegankelijkheidstags of -kenmerken worden aangeboden.
 
-In Adobe Campaign Standard zijn inhoud en functionaliteit nog steeds beschikbaar, zelfs als de gebruiker de eigenschappen voor tekstspatiëring overschrijft.
+In Adobe Campaign Standard zijn content en functionaliteit nog steeds beschikbaar, ook als de gebruiker de eigenschappen voor tekstspatiëring overschrijft.
 
 ## Werken in uw voorkeurstaal {#languages}
 
 Adobe Campaign Standard is beschikbaar in verschillende talen: Engels, Frans en Duits.
 
-De taal wordt ingesteld bij de installatie en kan daarna niet worden gewijzigd.
+De taal wordt ingesteld bij de installatie en kan daarna niet worden meer gewijzigd.
 
 ## Sneltoetsen {#shortcuts}
 
-### Homepage {#homepage-shortcuts}
+### Startpagina {#homepage-shortcuts}
 
-| Sneltoets | Handeling |
+| Sneltoets | Actie |
 |:-:|:-:|
 | Tab | Navigeren door afzonderlijke elementen van de gebruikersinterface |
-| Enter of Space | Het geselecteerde item activeren |
+| Enter of spatiebalk | Het geselecteerde item activeren |
 
-### E-mailontwerper {#email-designer-shortcuts}
+### Email Designer {#email-designer-shortcuts}
 
-| Sneltoets | Handeling |
+| Sneltoets | Actie |
 |:-:|:-:|
-| CTRL + Z | Ongedaan maken |
-| CTRL + Y | Opnieuw |
+| Ctrl + Z | Ongedaan maken |
+| Ctrl + Y | Opnieuw |
 
 ### Dynamische rapporten {#report-shortcuts}
 
-| Sneltoets | Handeling |
+| Sneltoets | Actie |
 |:-:|:-:|
-| CTRL + O | Project openen |
-| CTRL + S | Opslaan |
-| Shift + CTRL + S | Opslaan als |
+| Ctrl + O | Project openen |
+| Ctrl + S | Opslaan |
+| Shift + Ctrl + S | Opslaan als |
 | Alt + R | Project vernieuwen |
-| Shift + CTRL + V | CSV downloaden |
+| Shift + Ctrl + V | CSV downloaden |
 | Alt + P | Afdrukken |
-| CTRL + Z | Ongedaan maken |
-| CTRL + Shift + Z | Opnieuw |
+| Ctrl + Z | Ongedaan maken |
+| Ctrl + Shift + Z | Opnieuw |
 | Alt + B | Nieuw leeg deelvenster |
 | Alt + A | Nieuwe vrije vorm |
 | Alt + 1 | Nieuwe vrije-vormlijst |
 | Alt + 2 | Nieuwe regel |
 | Alt + 3 | Nieuwe balk |
 | Alt + S | Rapport nu verzenden |
-| Shift + Alt + S | Rapport verzenden volgens schema |
+| Shift + Alt + S | Rapport verzenden volgens planning |
 | Shift = Alt + L | Geplande rapporten |
 
 ## Meer informatie {#further-reading}
 
 Adobe Campaign Standard streeft naar een steeds grotere mate van toegankelijkheid, waardoor het product voor iedereen gebruiksvriendelijk wordt.
 
-We raden u aan om het feedbackformulier [Adobe-toegankelijkheid](https://www.adobe.com/accessibility/feedback.html) te gebruiken om verbeteringssuggesties en toegankelijkheidsproblemen te verzenden die u tegenkomt.
+We raden u aan om het [feedbackformulier Adobe-toegankelijkheid](https://www.adobe.com/accessibility/feedback.html) te gebruiken om suggesties voor verbetering te sturen en om de toegankelijkheidsproblemen die u tegenkomt, te melden.
 
-U kunt ook naar [Opmerkingen bij de release van Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=en#release-notes) verwijzen om de meest recente verbeteringen en functies te volgen.
+U kunt ook naar [Release-opmerkingen van Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=nl#release-notes) verwijzen om de meest recente verbeteringen en functies te volgen.
