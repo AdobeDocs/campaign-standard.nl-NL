@@ -29,13 +29,13 @@ Er is een nieuwe pagina over toegankelijkheid toegevoegd voor meer informatie ov
 
 ## November 2020 {#doc-updates-november-2020}
 
-De sectie Persoonlijke gegevens en persona&#39;s is bijgewerkt met een gebruiksscenario om te laten zien hoe de verschillende persona&#39;s interactie hebben als het om privacy gaat. [Meer informatie](../../start/using/privacy.md#use-case-scenario)
+De sectie Persoonsgegevens en persona’s is bijgewerkt met een gebruiksscenario om te laten zien hoe de verschillende persona’s interactie hebben wat betreft privacy. [Meer informatie](../../start/using/privacy.md#use-case-scenario)
 
 Er is een nieuwe sectie toegevoegd met veelgestelde vragen over privacy. [Meer informatie](../../start/using/privacy-faq.md)
 
 De sectie Privacy is verplaatst en aangevuld met twee nieuwe pagina&#39;s: [Privacybeheer](../../start/using/privacy-management.md) en [Verzoeken om toegang tot persoonsgegevens beheren](../../start/using/privacy-requests.md).
 
-Er is informatie toegevoegd aan de sectie Adobe Experience Platform Data Connector over de validatiefout voor gegevenstoewijzing die betrekking heeft op privacybeheer en hoe u problemen kunt oplossen. [Meer informatie](../../developing/using/aep-mapping-activation.md)
+Er is informatie toegevoegd aan de sectie Adobe Experience Platform-gegevensconnector over de validatiefout bij gegevenstoewijzing in verband met privacybeheer en hoe u dit probleem kunt oplossen. [Meer informatie](../../developing/using/aep-mapping-activation.md)
 
 ## Release 20.4 - oktober 2020 {#release-20-4---october-2020}
 
