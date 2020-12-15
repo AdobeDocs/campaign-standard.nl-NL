@@ -7,9 +7,9 @@ user-guide-description: 'Het centrum van de hulp voor de belangrijkste eigenscha
 breadcrumb-title: Campaign Standard
 title: 'Campaign Standard-handleiding '
 translation-type: tm+mt
-source-git-commit: f4a42e6f6bfcc32f315f8a82f2b77b8169a56d95
+source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1696'
 ht-degree: 97%
 
 ---
@@ -162,7 +162,6 @@ ht-degree: 97%
       + [Voorbeelden van leveringen weergeven](sending/using/previewing-messages.md)
       + [Proeven verzenden](sending/using/sending-proofs.md)
       + [E-mailberichten testen aan de hand van doelprofielen](sending/using/testing-messages-using-target.md)
-      + [De onderwerpregel van een e-mail testen](sending/using/testing-subject-line-email.md)
       + [E-mails met AI-mogelijkheden](sending/using/predictive.md)
       + [E-mailweergave](sending/using/email-rendering.md)
       + [Een controlegroep toevoegen](sending/using/control-group.md)
