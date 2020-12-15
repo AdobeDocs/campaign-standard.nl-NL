@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '650'
 ht-degree: 5%
 
 ---
@@ -44,7 +44,6 @@ Hier volgt een lijst met de belangrijkste punten die moeten worden gecontroleerd
 Eerst raadpleegt u de documentatie over de leverbare gereedschappen die bij Campaign Standard worden geleverd:
 * [Best practices voor levering](../../sending/using/delivery-best-practices.md)
 * [De naam van de afzender aanpassen](../../designing/using/personalization.md#personalizing-the-sender)
-* [De onderwerpregel van een e-mail testen](../../sending/using/testing-subject-line-email.md)
 * [De verzendtijd optimaliseren](../../sending/using/optimizing-the-sending-time.md)
 * [Berichten voorvertonen](../../sending/using/previewing-messages.md)
 * [E-mailweergave](../../sending/using/email-rendering.md)
@@ -55,26 +54,26 @@ Eerst raadpleegt u de documentatie over de leverbare gereedschappen die bij Camp
 * [Quarantine versus lijst van afgewezen personen](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 * [Dynamische rapporten](../../reporting/using/about-dynamic-reports.md)
 
-## Netwerkconfiguratie controleren {#network-configuration}
+## Netwerkconfiguratie {#network-configuration} controleren
 
 Spammers proberen hun echte identiteit te verhullen en maken hun servers daardoor moeilijk te identificeren. Een wettige netwerkconfiguratie die niet probeert om de identiteit van de server te verbergen is essentieel voor het verzenden van e-mails in grote volumes.
 
-## Verzenden naar geldige adressen {#valid-addresses}
+## Naar geldige adressen {#valid-addresses} verzenden
 
 Spammers gebruiken vaak adresgeneratoren op basis van lijsten met frequente namen en voornamen; bovendien verwerken zij zelden technische kennisgevingen die door mailservers worden teruggestuurd . Een hoog tarief van ongeldige adressen wordt vaak geïnterpreteerd als teken van spam. Dubbele &quot;opt-in&quot;-mechanismen en een effectieve verwerking van technische &quot;bounce&quot;-berichten maken het mogelijk dit te voorkomen.
 
-## Het klachtenpercentage verlagen {#reduce-complaint-rate}
+## Reductie klachtensnelheid {#reduce-complaint-rate}
 
 ISPs heeft gewoonlijk een duidelijk middel om een ontvangen bericht als spam te melden. Hierdoor kunnen onbetrouwbare bronnen worden geïdentificeerd. Door opt-outverzoeken snel na te leven, regelmatig gebruik te maken van een bepaalde lijst, toestemming te controleren via een systeem met dubbele opt-in en terugkoppelingsmogelijkheden te implementeren, kunt u de klachtentarieven verlagen.
 
-## Verzenden naar honingpotadressen {#honeypot-addresses}
+## Naar honingsteunadressen {#honeypot-addresses} verzenden
 
 ISPs en andere organisaties (verwijs naar https://www.projecthoneypot.org/) maken gebruik van brievenbussen die niet aan fysieke personen beantwoorden maar eenvoudig worden gecreeerd om spammers te bedriegen. Deze zogenaamde &quot;honingpot&quot;-adressen worden op het web gepubliceerd om door spambots te worden verzameld en aldus illegale afzenders te vangen. Het gebruik van een dubbele opt-in-mechanisme sluit het toevoegen van dit adres aan een lijst uit. Wanneer u een lijst van derden gebruikt, moet u zeker zijn van de methoden die door de onderhoudsleider worden gebruikt.
 
-## Berichtinhoud aanpassen {#adapt-message-content}
+## Inhoud van berichten aanpassen {#adapt-message-content}
 
 In mindere mate kan de inhoud van bepaalde berichten ertoe leiden dat bepaalde filters de inhoud als spam detecteren. Het gebruik van bepaalde woorden, het gebruik van uitroeptekens in de onderwerpregel en in de berichten worden gelezen als verklikkersignalen van spam. Spammers kunnen ook tekst vervangen door afbeeldingen om te voorkomen dat onregelmatige tekst automatisch wordt geanalyseerd door anti-spamfilters. Als reactie hierop kan een bericht (in HTML-indeling) met een groot aantal afbeeldingen of afbeeldingen als bijlagen worden geblokkeerd.
 
-## Regelmatig verzenden {#regular-deliveries}
+## Regelmatig {#regular-deliveries} verzenden
 
 Spammers maken geprogrammeerde leveringen om hun reputatie in de loop der tijd te behouden. Soms moeten zij hun marketing plan aanpassen om aan de beste praktijken te voldoen die door ISPs worden opgelegd en zo, na een piek in reputatie (oprijving), vormen zij regelmatige leveringen.
