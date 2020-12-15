@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 7b1d74760a3c33e4c1c74fe5b4512392b550379b
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 90%
+source-wordcount: '707'
+ht-degree: 85%
 
 ---
 
@@ -40,6 +40,18 @@ Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikma
 
 <table> 
  <thead> 
+ <tr> 
+   <th> <strong>Voorspelende onderwerpregel</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> Vanaf 15 december 2020 is de mogelijkheid van een voorspellende onderwerpregel afgekeurd.</p><br/>
+   <p>We raden u aan e-mailmogelijkheden van AI te gebruiken om open tarieven, optimale verzendtijden en waarschijnlijke kosten te analyseren en te voorspellen op basis van historische betrokkenheidsmaatstaven. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Meer informatie</a></p></br>
+     <p>
+     <em>Doel verwijderen: April 2021</em></p>
+     </td> 
+  </tr> 
   <tr> 
    <th> <strong>Pushberichten met SDK v4</strong><br /> </th> 
   </tr> 
@@ -65,7 +77,7 @@ Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikma
    <td> <p>Sinds Campaign 19.4 is het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken afgeschaft. De profielverwijdering in twee stappen is niet beschikbaar. Gebruik de <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy-kernservice</a>.</p></br>
    <p>Zie ook <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Verzoeken om toegang tot persoonsgegevens beheren</a>.</p>
   <p> 
-  <em>Doeldatum voor verwijdering: 2021</em></p>
+  <em>Doeldatum voor verwijdering: april 2021</em></p>
    </td> 
   </tr> 
  </tbody> 
