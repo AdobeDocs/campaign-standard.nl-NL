@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Belangrijkste stappen voor het instellen van een transactiebericht
+title: Aan de slag met transactionele berichten
 description: Ontdek wat transactiemeldingen zijn en leer de belangrijkste stappen om een transactiemelding in Adobe Campaign Standard op te zetten.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 8%
+source-wordcount: '963'
+ht-degree: 9%
 
 ---
 
@@ -95,7 +95,7 @@ Elk van deze stappen wordt hieronder nader beschreven.
 
 <img src="assets/do-not-localize/icon_config.svg" width="60px">
 
-| Gebruiker | Handeling | Resultaat |
+| Gebruiker | Actie | Resultaat |
 |--- |--- |--- |
 | Deze stap moet worden uitgevoerd door een beheerder die [beheerrechten](../../administration/using/users-management.md#functional-administrators) bezit. | Configureer een gebeurtenis met de naam &quot;Afstand starten&quot; en publiceer deze gebeurtenisconfiguratie. | De API die wordt gebruikt door uw websiteontwikkelaar, wordt geïmplementeerd en er wordt automatisch een transactiemelding gemaakt. |
 
@@ -105,7 +105,7 @@ Het creëren van en het publiceren van een gebeurtenis worden voorgesteld in [he
 
 <img src="assets/do-not-localize/icon_notification.svg" width="40px">
 
-| Gebruiker | Handeling | Resultaat |
+| Gebruiker | Actie | Resultaat |
 |--- |--- |--- |
 | Deze stap kan worden uitgevoerd door een marketinggebruiker die [beheerrechten](../../administration/using/users-management.md#functional-administrators) heeft. | Bewerk het transactiebericht, test het en publiceer het. | Het transactiebericht is dan klaar om te worden verzonden. |
 
@@ -117,7 +117,7 @@ Zie [Transactieberichten bewerken](../../channels/using/editing-transactional-me
 
 <!--**Event triggering integration**-->
 
-| Gebruiker | Handeling | Resultaat |
+| Gebruiker | Actie | Resultaat |
 |--- |--- |--- |
 | Deze stap wordt uitgevoerd door de ontwikkelaar van uw website. | Gebruik de REST Transaction Messages API om de gebeurtenis in uw website te integreren. | De gebeurtenis wordt geactiveerd wanneer een klant zijn winkelwagentje verlaat. |
 
