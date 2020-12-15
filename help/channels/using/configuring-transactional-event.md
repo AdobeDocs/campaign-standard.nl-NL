@@ -1,16 +1,16 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Transactionele berichten configureren
-description: Leer hoe te om transactioneel overseinen te vormen.
-audience: administration
+title: Een transactiegebeurtenis configureren
+description: Leer hoe u transactiegebeurtenissen in Adobe Campaign configureert.
+audience: channels
 content-type: reference
-topic-tags: configuring-channels
+topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1672'
 ht-degree: 7%
 
 ---
@@ -28,7 +28,7 @@ De configuratie varieert afhankelijk van [type van transactioneel bericht](../..
 
 Nadat de configuratie is voltooid, moet de gebeurtenis worden gepubliceerd. Zie [Een transactiegebeurtenis publiceren](../../channels/using/publishing-transactional-event.md).
 
-## Een gebeurtenis {#creating-an-event} maken
+## Een gebeurtenis maken {#creating-an-event}
 
 Maak de gebeurtenis die aan uw behoeften voldoet om aan de slag te gaan.
 
@@ -50,7 +50,7 @@ Maak de gebeurtenis die aan uw behoeften voldoet om aan de slag te gaan.
 
 >[!NOTE]
 >
->Het aantal realtime gebeurtenissen kan van invloed zijn op uw platform. Voor optimale prestaties moet u ongebruikte real-time gebeurtenissen verwijderen. Zie [Een gebeurtenis verwijderen](../../channels/using/publishing-transactional-event.md#deleting-an-event).
+>Het aantal transnationale gebeurtenissen kan van invloed zijn op uw platform. Voor optimale prestaties moet u ongebruikte gebeurtenissen verwijderen. Zie [Een gebeurtenis verwijderen](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## Gebeurteniskenmerken definiëren {#defining-the-event-attributes}
 
