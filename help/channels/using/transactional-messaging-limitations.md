@@ -2,16 +2,16 @@
 solution: Campaign Standard
 product: campaign
 title: Beperkingen voor transactionele berichten
-description: Meer informatie over de belangrijkste beperkingen en aanbevelingen met betrekking tot transactieberichten in Adobe Campaign Standard.
+description: Meer informatie over de belangrijkste aanbevelingen en beperkingen met betrekking tot transactieberichten in Adobe Campaign Standard.
 audience: channels
 content-type: reference
-topic-tags: landing-pages
-context-tags: landingPage,wizard;landingPage,overview;landingPage,main
+topic-tags: transactional-messaging
+context-tags: null
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: 0092ad11314fab232663f558ca6635b8fcc03133
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 78%
+source-wordcount: '742'
+ht-degree: 68%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 78%
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-In de onderstaande sectie worden de aanbevolen procedures en beperkingen weergegeven die u moet kennen voordat u transactiemeldingen gaat maken.
+Deze sectie maakt een lijst van de beste praktijken en de beperkingen u zich van bewust zou moeten zijn alvorens transactionele berichten te beginnen creëren.
 
 <!--For more on transactional messages, including on how to configure and create them, see [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).-->
 
@@ -38,6 +38,12 @@ Terwijl u transactionele gebeurtenissen configureert en publiceert, kunnen sommi
 * U kunt de doeldimensie (**[!UICONTROL Real-time event]** of **[!UICONTROL Profile]**) niet wijzigen nadat de gebeurtenis is gemaakt. Zie [Een gebeurtenis maken](../../channels/using/configuring-transactional-event.md#creating-an-event).
 * U kunt een publicatie niet terugdraaien, maar u kunt de publicatie van een gebeurtenis wel ongedaan maken, zodat de gebeurtenis en het bijbehorende transactiebericht ontoegankelijk worden. Zie [Publicatie van een gebeurtenis ongedaan maken](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 * Het enige transactiebericht dat met een gebeurtenis kan worden geassocieerd, is het bericht dat automatisch wordt gemaakt tijdens het publiceren van die gebeurtenis. Zie [Een voorvertoning weergeven en de gebeurtenis publiceren](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+
+## Aantal transactieberichten {#transactional-message-number}
+
+Het aantal gepubliceerde transactieberichten kan een significante invloed op uw platform hebben. Voor optimale prestaties, zou het aantal gepubliceerde transactieberichten onder 100 moeten blijven. Om dit te verzekeren, unpublish of schrap om het even welke ongebruikte transactieberichten. Zie [Publicatie van een transactiebericht opheffen](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) en [Een transactioneel bericht verwijderen](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+
+Voor de beste prestaties kunt u ook het publiceren ongedaan maken of verwijderen van ongebruikte gebeurtenissen. Als u een gebeurtenis verwijdert of publiceert, worden de desbetreffende transactiemeldingen en de verzendings- en trackinglogboeken van die gebeurtenis ook verwijderd of gepubliceerd. Zie [Publicatie van een gebeurtenis opheffen](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) en [Een gebeurtenis verwijderen](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## Personalisatie {#personalization}
 
