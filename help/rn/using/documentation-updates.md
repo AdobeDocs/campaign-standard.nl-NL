@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
+source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
 workflow-type: tm+mt
-source-wordcount: '6359'
+source-wordcount: '6357'
 ht-degree: 97%
 
 ---
@@ -21,11 +21,13 @@ Naast de [release-opmerkingen](../../rn/using/release-notes.md) bij Adobe Campai
 
 ## December 2020 {#doc-updates-december-2020}
 
+De sectie Transactioneel overseinen is gereorganiseerd en verbeterd, met een duidelijk begonnen sectie met inbegrip van [verbeterde schema&#39;s](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle), en [het gebruiksgeval van begin tot eind](../../channels/using/transactional-messaging-use-case.md) om het volledige proces te illustreren. [Meer informatie](../../channels/using/getting-started-with-transactional-msg.md)
+
 De sectie Privacy is verplaatst. [Meer informatie](../../start/using/privacy.md)
 
-De sectie Transactioneel overseinen is gereorganiseerd en verbeterd, met een duidelijk begonnen sectie met [verbeterde grafieken](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle), en een [gebruiksgeval van begin tot eind](../../channels/using/transactional-messaging-use-case.md) om het volledige proces te illustreren. [Meer informatie](../../channels/using/getting-started-with-transactional-msg.md)
-
 Er is een nieuwe pagina over toegankelijkheid toegevoegd voor meer informatie over toegankelijkheidsondersteuning in de Adobe Campaign Standard-werkruimte. [Meer informatie](../../start/using/accessibility.md)
+
+Er is een nieuwe beperking toegevoegd aan de sectie Transactioneel berichtenverkeer, waarin staat dat voor optimale prestaties het aantal gepubliceerde transactieberichten onder de 100 moet blijven. [Meer informatie](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
 ## November 2020 {#doc-updates-november-2020}
 
@@ -176,8 +178,6 @@ De beperking is toegevoegd met MCPNS bij het configureren van een mobiele app. [
 Er is een nieuwe sectie met configuratierichtlijnen toegevoegd aan de beheerhandleiding. De sectie over compatibele browsers en besturingssystemen is verplaatst van de handleiding Aan de slag naar deze sectie. De technische opmerking over netwerkeindpunten van Campaign Standard is ook toegevoegd aan deze sectie. [Meer informatie](../../administration/using/about-configuration-guidelines.md)
 
 Er is nu een nieuwe sectie beschikbaar waarin wordt beschreven hoe u een gebeurtenisconfiguratie kunt verwijderen. [Meer informatie](../../channels/using/publishing-transactional-event.md#deleting-an-event)
-
-De pagina waarin wordt beschreven hoe u de onderwerpregel van een e-mail kunt testen om het aantal geopende e-mails te voorspellen, is bijgewerkt en verbeterd, inclusief een nieuwe sectie voor [probleemoplossing](../../sending/using/testing-subject-line-email.md#troubleshooting). [Meer informatie](../../sending/using/testing-subject-line-email.md)
 
 De secties over transactionele berichten zijn bijgewerkt om kleine updates en verbeteringen in de gebruikersinterface weer te geven. [Meer informatie](../../channels/using/getting-started-with-transactional-msg.md)
 
