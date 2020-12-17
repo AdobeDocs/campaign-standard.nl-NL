@@ -3,14 +3,14 @@ solution: Campaign Standard
 product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: 'Het centrum van de hulp voor de belangrijkste eigenschappen, de taken, de montages, en andere middelen die worden vereist om Campaign Standard te gebruiken. '
+user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken. '
 breadcrumb-title: Campaign Standard
 title: 'Campaign Standard-handleiding '
 translation-type: tm+mt
 source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -120,18 +120,18 @@ ht-degree: 97%
       + [De content voor direct mail definiëren](channels/using/defining-the-direct-mail-content.md)
    + Transactionele berichten {#transactional-messaging}
       + [Aan de slag met transactionele berichten](channels/using/getting-started-with-transactional-msg.md)
-      + [Aanbevolen werkwijzen en beperkingen](channels/using/transactional-messaging-limitations.md)
-      + Gebeurtenisconfiguratie {#event-configuration}
-         + [Een transactiegebeurtenis configureren](channels/using/configuring-transactional-event.md)
-         + [Transactiegebeurtenissen publiceren](channels/using/publishing-transactional-event.md)
-      + Transactiebericht {#transactional-message-edition}
-         + [Een transactiebericht bewerken](channels/using/editing-transactional-message.md)
-         + [Een transactiebericht testen](channels/using/testing-transactional-message.md)
+      + [Best practices en beperkingen](channels/using/transactional-messaging-limitations.md)
+      + Configuratie van gebeurtenissen {#event-configuration}
+         + [Een transactionele gebeurtenis configureren](channels/using/configuring-transactional-event.md)
+         + [Een transactionele gebeurtenis publiceren](channels/using/publishing-transactional-event.md)
+      + Bewerking van transactionele berichten {#transactional-message-edition}
+         + [Een transactioneel bericht bewerken](channels/using/editing-transactional-message.md)
+         + [Een transactioneel bericht testen](channels/using/testing-transactional-message.md)
          + [Levenscyclus van transactionele berichten](channels/using/publishing-transactional-message.md)
-         + [Uitvoering en toezicht](channels/using/transactional-message-execution.md)
+         + [Uitvoering en bewaking](channels/using/transactional-message-execution.md)
       + [Transactionele pushmeldingen](channels/using/transactional-push-notifications.md)
       + [Vervolgberichten](channels/using/follow-up-messages.md)
-      + [Transactieproblemen bij het gebruik van berichten](channels/using/transactional-messaging-use-case.md)
+      + [Gebruiksscenario voor transactionele berichten](channels/using/transactional-messaging-use-case.md)
    + Landingspagina&#39;s {#landing-pages}
       + [Aan de slag met landingspagina&#39;s](channels/using/getting-started-with-landing-pages.md)
       + [Informatie over sjablonen voor landingspagina&#39;s](channels/using/landing-page-templates.md)
