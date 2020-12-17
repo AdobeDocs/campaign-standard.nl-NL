@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
 workflow-type: tm+mt
 source-wordcount: '6357'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ De sectie Transactioneel overseinen is gereorganiseerd en verbeterd, met een dui
 
 De sectie Privacy is verplaatst. [Meer informatie](../../start/using/privacy.md)
 
-Er is een nieuwe pagina over toegankelijkheid toegevoegd voor meer informatie over toegankelijkheidsondersteuning in de Adobe Campaign Standard-werkruimte. [Meer informatie](../../start/using/accessibility.md)
+Er is een nieuwe pagina over toegankelijkheid toegevoegd met meer informatie over toegankelijkheidsondersteuning in de Adobe Campaign Standard-werkruimte. [Meer informatie](../../start/using/accessibility.md)
 
 Er is een nieuwe beperking toegevoegd aan de sectie Transactioneel berichtenverkeer, waarin staat dat voor optimale prestaties het aantal gepubliceerde transactieberichten onder de 100 moet blijven. [Meer informatie](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
@@ -141,7 +141,7 @@ Er zijn extra bronnen toegevoegd aan de startpagina van de documentatie. [Meer i
 
 Er is informatie over de Experience Cloud ID Service (ECID) toegevoegd aan de documentatie van de Adobe Experience Platform-gegevensconnector. [Meer informatie](../../developing/using/aep-about-data-connector.md#key-concepts)
 
-De Transactionele overseinensectie is verbeterd met informatie over hoe te om tot de recentste transactionele gebeurtenissen en bijgewerkte screenshots toegang te hebben. [Meer informatie](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+De sectie over transactionele berichten bevat verbeterde informatie over het openen van de meest recente transactionele gebeurtenissen en bijgewerkte schermafbeeldingen. [Meer informatie](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 De documentatie over typologieën en typologieregels is verbeterd en bijgewerkt met aanvullende informatie over ingebouwde typologieregels. [Meer informatie](../../sending/using/about-typology-rules.md)
 
@@ -151,13 +151,13 @@ De documentatie over nieuwe pogingen na een tijdelijke leveringsfout is bijgewer
 
 De sectie voer het verwijderen van een transactioneel bericht is verbeterd en verduidelijkt. [Meer informatie](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)
 
-De sectie **Voorbeelden van leveringen bekijken** is bijgewerkt met voorbeelden van mobiele leveringen. [Meer informatie](../../sending/using/previewing-messages.md)
+De sectie **Voorbeelden van leveringen weergeven** is bijgewerkt met voorbeelden van mobiele leveringen. [Meer informatie](../../sending/using/previewing-messages.md)
 
 Er is een best practice toegevoegd over transactionele berichten en het verwijderen van ongebruikte realtimegebeurtenissen. [Meer informatie](../../channels/using/configuring-transactional-event.md#creating-an-event)
 
 De sectie over het configureren van het e-mailkanaal is bijgewerkt met uitleg over alle e-mailinstellingen die nu worden beheerd door de Enhanced MTA van Adobe Campaign. [Meer informatie](../../administration/using/configuring-email-channel.md)
 
-De Transactionele overseinensectie is bijgewerkt met verdere informatie over de rechten nodig om gebeurtenisconfiguraties uit te geven en op hoe te om inzamelingen in transactionele berichten te verrijken. [Meer informatie](../../channels/using/configuring-transactional-event.md).
+De sectie over transactionele berichten is bijgewerkt met verdere informatie over de rechten die nodig zijn om gebeurtenisconfiguraties te bewerken en over het verrijken van verzamelingen in transactionele berichten. [Meer informatie](../../channels/using/configuring-transactional-event.md).
 
 ## Release 20.2 - april 2020 {#release-20-2---april-2020}
 
@@ -535,7 +535,7 @@ Microsoft Edge (de meest recente versie) is toegevoegd aan de lijst met compatib
 
 Er is informatie toegevoegd over de nieuwe optie in de activiteit Bestand extraheren die verhindert dat een bestand wordt gegenereerd als de binnenkomende overgang leeg is. [Meer informatie](../../automating/using/extract-file.md)
 
-De sectie over het configureren van een mobiele app met SDK V4 is [hier](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html) geplaatst.
+De sectie over het configureren van een mobiele app met SDK V4 is [hier](https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdkv4.html) geplaatst.
 
 De sectie over het configureren van een mobiele app met Adobe Experience Platform SDK’s is [hier](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html) geplaatst.
 
@@ -941,7 +941,7 @@ Exporteren van logboeken voor externe rapportage - [Meer informatie](../../autom
 
 API voor transactionele berichten - [Meer informatie](../../api/using/get-started-apis.md)
 
-Marketingmogelijkheden voor transactieberichten - [Meer informatie](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
+Marketingmogelijkheden voor transactionele berichten - [Meer informatie](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
