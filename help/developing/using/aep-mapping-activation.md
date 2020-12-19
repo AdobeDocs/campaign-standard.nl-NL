@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Adobe Experience Platform Data Connector bevindt zich momenteel in bèta, die vaak zonder voorafgaande kennisgeving kan worden bijgewerkt. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 
-Wanneer de toewijzingsdefinitie is voltooid, kunt u de toewijzing publiceren. Na de implementatiestap wordt de gegevensreplicatie tussen Campaign Standard en Adobe Experience Platform automatisch gestart. Op elk ogenblik, kunt u de replicatie tegenhouden door op de **[!UICONTROL Stop]** knoop te klikken.
+Wanneer de toewijzingsdefinitie is voltooid, kunt u de toewijzing publiceren. Na de implementatiestap wordt de gegevensreplicatie tussen Campaign Standard en Adobe Experience Platform automatisch gestart. Op elk ogenblik, kunt u de replicatie tegenhouden door op **[!UICONTROL Stop]** knoop te klikken.
 
 Afhankelijk van uw toewijzingswijzigingen kunt u ervoor kiezen al uw records opnieuw naar Adobe Experience Platform te sturen.
 
@@ -31,11 +31,11 @@ Van de plaatsingstegel, kunt u tot publicatielogboek en de uitvoerlogboeken toeg
 
 ![](assets/aep_publog.png)
 
-Op het **[!UICONTROL Export jobs]** tabblad kunt u de exporttaak voor de gepubliceerde toewijzing controleren.
+Op het tabblad **[!UICONTROL Export jobs]** kunt u de exporttaak voor de gepubliceerde toewijzing controleren.
 
 ![](assets/aep_jobstatus.png)
 
-Als u alle taken voor het exporteren van gegevens wilt controleren, gaat u naar **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** .
+Als u alle taken voor gegevensexport wilt controleren, gaat u naar **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
 
 ![](assets/aep_statusmapping.png)
 
