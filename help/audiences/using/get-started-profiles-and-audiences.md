@@ -30,7 +30,7 @@ Segmenteer uw database in doelgroepen om de target van uw marketingcampagnes te 
 
 Beheer machtigingen en toestemming van klanten door met behulp van services en landingspagina’s eenvoudige opt-in- en opt-out-mechanismen in te stellen.
 
-## Segmentering en doelgerichtheid {#segmenting-targeting}
+## {#segmenting-targeting} segmenteren en aanwijzen
 
 <img src="assets/do-not-localize/icon_segment.svg" width="60px">
 
@@ -40,9 +40,9 @@ Identificeer klanten effectiever over al uw kanalen gebruikend **geïntegreerde 
 
 Adobe Campaign bouwt rijke klantenprofielen in real time, toestaand u om relevantere en gepersonaliseerde aanbiedingen te leveren aangezien de voorkeur van uw klant verandert. Daarnaast integreert Adobe Campaign geavanceerde analyse-, gegevensbeheer- en doelfuncties om het publiek te stimuleren.
 
-**Profielen** zijn individuele contactpersonen die in de database zijn opgeslagen. Elk profiel komt overeen met één item in de database dat de nodige informatie bevat om dat profiel als doel, als gekwalificeerd en individueel te traceren profiel te hebben: Adobe Campaign kan elke interactie van zowel online als offline kanalen volgen en deze in één profiel samenvoegen.
+**** Profielen zijn individuele contacten die in het gegevensbestand worden opgeslagen. Elk profiel komt overeen met één item in de database dat de nodige informatie bevat om dat profiel als doel, als gekwalificeerd en individueel te traceren profiel te hebben: Adobe Campaign kan elke interactie van zowel online als offline kanalen volgen en deze in één profiel samenvoegen.
 
-**Het publiek** is lijsten van profielen die op een specifieke criteria, of reeks criteria worden voortgebouwd. Gebruikend werkschema&#39;s en de vraagredacteur, kunt u publiek construeren dat door uw marketing campagnes, afhankelijk van de informatie zal worden gericht die u op hen, hun activiteiten, en hun marketing geschiedenis hebt. Op deze manier kunt u geabonneerde profielen filteren, monsters nemen of doelsoorten maken op een onbeperkt aantal criteria.
+**De lijsten van het** publiek van profielen die op een specifieke criteria, of reeks criteria worden voortgebouwd. Gebruikend werkschema&#39;s en de vraagredacteur, kunt u publiek construeren dat door uw marketing campagnes, afhankelijk van de informatie zal worden gericht die u op hen, hun activiteiten, en hun marketing geschiedenis hebt. Op deze manier kunt u geabonneerde profielen filteren, monsters nemen of doelsoorten maken op een onbeperkt aantal criteria.
 
 Meer informatie:
 
@@ -60,13 +60,13 @@ Meer informatie:
 
 Voordat u begint met het verzenden van berichten naar een contactpersoon, moet u ervoor zorgen dat u de juiste machtigingen krijgt. Als dat niet het geval is, worden uw e-mails mogelijk gemarkeerd als spam. Dit is van invloed op de prestaties van uw platform. Om ervoor te zorgen dat een gezond profielgegevensbestand wordt gebouwd, veilig deze toestemming als eerste stap.
 
-Met Campagne, adviseren wij u om **gemakkelijke opt-in en opt-out mechanismen** door de [diensten](../../audiences/using/creating-a-service.md)te gebruiken, en pagina [&#39;s te](../../channels/using/getting-started-with-landing-pages.md) landen om uw contactinformatie bij te werken en uw gegevensbestand te kweken.
+Met Campagne, adviseren wij u om **gemakkelijke opt-in en opt-out mechanismen** door [diensten](../../audiences/using/creating-a-service.md), en [landende pagina&#39;s](../../channels/using/getting-started-with-landing-pages.md) te gebruiken om uw contactinformatie bij te werken en uw gegevensbestand te kweken.
 
-Als u links voor **abonnementen** opgeeft in uw berichten, kunnen profielen indien nodig worden toegevoegd aan de lijst van afgewezen personen. Hierdoor kunt u de prestaties van uw platform verbeteren. For more on denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Als u **abonnementkoppelingen** in uw berichten opgeeft, kunnen profielen indien nodig worden toegevoegd aan de lijst van afgewezen personen en kunt u dus de prestaties van uw platform verbeteren. Raadpleeg [Informatie over opt-in en opt-out in Campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) voor meer informatie over het beheer van lijst van afgewezen personen.
 
 >[!IMPORTANT]
 >
->Je moet het beleid [voor acceptabel gebruik van](https://www.adobe.com/legal/terms/aup.html)Adobe Campaign respecteren.
+>U moet het [acceptabele gebruiksbeleid van Adobe Campaign](https://www.adobe.com/legal/terms/aup.html) respecteren.
 
 Meer informatie:
 
@@ -77,7 +77,7 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-Adobe Campaign offers a set of tools to help you with your **Privacy Compliance** for GDPR, CCPA, and other privacy laws.
+Adobe Campaign biedt een set tools om u te helpen met uw **Privacy Compliance** voor GDPR, CCPA en andere privacywetten.
 
 Lees meer in dit [artikel](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html) over privacybeheer en de functies die we bieden voor het beheren van het recht op toegang, het recht om te worden vergeten, toestemming, gegevensbewaring en gebruikersrollen.
 
