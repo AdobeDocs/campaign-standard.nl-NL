@@ -95,7 +95,7 @@ In het geval van meerdere websites met verschillende domeinen ondersteunt Adobe 
 
 De **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**-gegevensbron configureren:
 
-1. In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**, select **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**.
+1. Selecteer **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]** in **[!UICONTROL Administration]** > **[!UICONTROL Shared Data Sources]**.**[!UICONTROL Application settings]**
 
    ![](assets/integration_aam_2.png)
 
