@@ -16,7 +16,7 @@ ht-degree: 86%
 ---
 
 
-# Segmentatie op locatie {#segmentation-on-location}
+# Segmentering op locatie {#segmentation-on-location}
 
 U kunt een e-mail sturen naar klanten met aanbiedingen in hun lokale winkels.
 
@@ -36,7 +36,7 @@ U kunt een e-mail sturen naar klanten met aanbiedingen in hun lokale winkels.
 
 ## Een segmentatie-activiteit maken{#creating-a-segmentation-activity}
 
-1. Drag and drop a [Segmentation](../../automating/using/segmentation.md) activity and double-click it.
+1. Sleep een [Segmentatie](../../automating/using/segmentation.md) activiteit en dubbelklik erop.
 1. Klik op het segment en open vervolgens de overgang met als target de mensen in de eerste stad. In dit geval Boston.
 1. Sleep **[!UICONTROL Location]** en selecteer **[!UICONTROL City]** met de operator **[!UICONTROL equals to]** en de waarde **[!UICONTROL Boston]**.
 Opmerking: om alle mensen die Boston zijn binnengekomen te bereiken, ongeacht hoofdlettergebruik, schakelt u de hoofdlettergevoelige optie uit.
@@ -48,7 +48,7 @@ Opmerking: om alle mensen die Boston zijn binnengekomen te bereiken, ongeacht ho
 
 ## Een e-maillevering maken{#creating-an-email-delivery}
 
-1. Sleep in **[!UICONTROL Activities]** > **[!UICONTROL Channels]** een activiteit voor het verzenden van [e-mail](../../automating/using/email-delivery.md) na elk segment.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, belemmering en laat vallen een [E-maillevering](../../automating/using/email-delivery.md) activiteit na elk segment.
 1. Klik op de activiteit en selecteer ![](assets/edit_darkgrey-24px.png) om te bewerken.
 1. Selecteer **[!UICONTROL Simple email]** en klik op **[!UICONTROL Next]**.
 1. Selecteer een e-mailsjabloon en klik op **[!UICONTROL Next]**.
