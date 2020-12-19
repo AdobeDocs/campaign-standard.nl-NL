@@ -17,17 +17,17 @@ ht-degree: 1%
 
 # Licenties{#licenses}
 
-In het **[!UICONTROL Licenses]** venster kunt u de geïnstalleerde licenties en andere informatie over uw exemplaar bekijken, zoals het buildnummer, de releaseversie of de voorwaarden van de overeenkomst die u hebt geaccepteerd en door wie.
+In het venster **[!UICONTROL Licenses]** kunt u de geïnstalleerde licenties op uw exemplaar bekijken en andere informatie over het exemplaar, zoals het buildnummer, de releaseversie of of de voorwaarden van de overeenkomst zijn geaccepteerd en door wie.
 
 ![](assets/license_1.png)
 
 Met een nieuwe build of een nieuwe functie kunnen licentievoorwaarden veranderen en moeten deze worden geaccepteerd door een functionele beheerder van de instantie.
 
-Het volgende venster verschijnt voor standaardgebruikers na het aanmelden, er is geen actie van hun kant vereist. Ze kunnen nog steeds op Adobe Campaign werken door op de **[!UICONTROL OK]** knop te klikken.
+Het volgende venster verschijnt voor standaardgebruikers na het aanmelden, er is geen actie van hun kant vereist. Ze kunnen nog steeds op Adobe Campaign werken door op de knop **[!UICONTROL OK]** te klikken.
 
 ![](assets/license_2.png)
 
-Een beheerder moet de nieuwe bepalingen van overeenkomst in de volgende 30 dagen van de bouwstijlinstallatie lezen en bevestigen door te controleren **[!UICONTROL I accept the terms from the license agreement]** en te klikken **[!UICONTROL Confirm]**.
+Een beheerder moet de nieuwe bepalingen van overeenkomst in de volgende 30 dagen van de bouwstijlinstallatie lezen en bevestigen door **[!UICONTROL I accept the terms from the license agreement]** te controleren en **[!UICONTROL Confirm]** te klikken.
 
 ![](assets/license_3.png)
 
