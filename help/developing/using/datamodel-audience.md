@@ -206,7 +206,7 @@ ht-degree: 5%
                   <td> </td>
                </tr>
                <tr>
-                  <td>titel</td>
+                  <td>title</td>
                   <td>Doelgroep</td>
                   <td>tekenreeks (255)</td>
                   <td> </td>
