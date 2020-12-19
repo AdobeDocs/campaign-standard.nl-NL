@@ -25,7 +25,7 @@ Leer hoe u aangepaste bronnen en aangepaste entiteiten in kaart brengt in het ka
 
 ## Vereisten
 
-De integratie [van de Dynamica 365-Adobe Campaign Standard van](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) Microsoft steunt douaneentiteiten, toelatend douaneentiteiten in Dynamiek 365 om aan overeenkomstige douanemiddelen in Campagne worden gesynchroniseerd.
+De integratie [Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) steunt douaneentiteiten, toelatend douaneentiteiten in Dynamiek 365 om aan overeenkomstige douanemiddelen in Campagne worden gesynchroniseerd.
 
 De nieuwe gegevens in de douanemiddelen kunnen voor verscheidene doeleinden, met inbegrip van segmentatie en verpersoonlijking worden gebruikt.
 
@@ -43,10 +43,10 @@ Wanneer het vormen van de gegevensstromen van de douaneentiteit, is het belangri
 * Voor de stromen van de gegevens van de douaneentiteit, verandering het volgen binnen Dynamiek 365 voor gesynchroniseerde douaneentiteiten moet worden toegelaten.
 * Als een ouder en verbonden kindverslag dicht bij de zelfde tijd in Dynamiek 365, wegens de parallelle verwerking van de integratie worden gecreeerd, is er een lichte kans dat een nieuw kindverslag aan Campaign vóór zijn ouderverslag zou kunnen worden geschreven.
 
-* Als het bovenliggende en onderliggende item aan de Campagnezijde zijn gekoppeld met de optie **1 cardinaliteit (eenvoudige koppeling** ), blijft de onderliggende record verborgen en ontoegankelijk (via UI of API) totdat de bovenliggende record in Campaign wordt ontvangen.
+* Als het bovenliggende element en het onderliggende element aan de Campagnezijde zijn gekoppeld met de optie **1 cardinaliteit simple link**, blijft de onderliggende record verborgen en ontoegankelijk (via UI of API) totdat de bovenliggende record in Campaign arriveert.
 
-* (Ervan uitgaande dat **1 cardinaliteit een eenvoudige koppeling** is in Campagne) Als de onderliggende record wordt bijgewerkt of verwijderd in Dynamics 365 en die wijziging wordt geschreven naar Campagne voordat de bovenliggende record wordt weergegeven in Campaign (niet waarschijnlijk, maar een externe mogelijkheid), wordt die update of verwijdering niet verwerkt in Campagne en wordt een fout gegenereerd. In het geval van een update moet de betreffende record opnieuw worden bijgewerkt in Dynamics 365 om de bijgewerkte record te synchroniseren. In geval van schrapping moet de betrokken record afzonderlijk aan de campagnezijde worden vermeld, aangezien er geen record meer is in Dynamics 365 om te verwijderen of bij te werken.
+* (Veronderstellend **1 kardinaliteit eenvoudige verbinding** in Campaign) als het kindverslag in Dynamiek 365 wordt bijgewerkt of geschrapt, en die verandering wordt geschreven aan Campaign alvorens het ouderverslag in Campaign (niet waarschijnlijk, maar een verre mogelijkheid) verschijnt, zal die update of schrapping niet in Campaign worden verwerkt en een fout zal worden geworpen. In het geval van een update moet de betreffende record opnieuw worden bijgewerkt in Dynamics 365 om de bijgewerkte record te synchroniseren. In geval van schrapping moet de betrokken record afzonderlijk aan de campagnezijde worden vermeld, aangezien er geen record meer is in Dynamics 365 om te verwijderen of bij te werken.
 
-* Als u in een situatie terechtkomt waarin u denkt dat u kindverslagen hebt verborgen en geen manier om tot hen toegang te hebben, kunt u het type van de kardinaalverbinding tijdelijk veranderen in **0 of 1 kardinaliteit eenvoudige verbinding** om tot die verslagen toegang te hebben.
+* Als u in een situatie terechtkomt waarin u denkt dat u kindverslagen hebt verborgen en geen manier om tot hen toegang te hebben, kunt u het type van de kardinaliteitsverbinding tijdelijk veranderen in **0 of 1 kardinaliteit eenvoudige verbinding** om tot die verslagen toegang te hebben.
 
 Een uitgebreider overzicht van aangepaste campagnebronnen vindt u [in deze sectie](../../developing/using/key-steps-to-add-a-resource.md).
