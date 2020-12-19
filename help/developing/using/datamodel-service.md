@@ -212,7 +212,7 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>titel</td>
+                  <td>title</td>
                   <td>Service</td>
                   <td>tekenreeks (255)</td>
                   <td> </td>
