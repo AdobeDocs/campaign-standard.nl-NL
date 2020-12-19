@@ -76,7 +76,7 @@ In dit rapport ziet u de e-mailweergave zoals de ontvanger deze te zien krijgt. 
 >
 >Tokens maken voor elke afzonderlijke rendering en niet voor het hele e-mailrenderrapport. Dit houdt in dat:
 >
->**Telkens als** het Inbox teruggevende rapport wordt geproduceerd, wordt één teken per overseinencliënt afgetrokken: één token voor de rendering van Outlook 2000, één token voor de rendering van Outlook, één token voor de rendering van Apple Mail, enzovoort.
+>**Elke** keer dat het Inbox-renderingrapport wordt gegenereerd, wordt één token per messaging-client afgetrokken: één token voor de rendering van Outlook 2000, één token voor de rendering van Outlook, één token voor de rendering van Apple Mail, enzovoort.
 >
 >**Als u voor dezelfde levering** de rendering via e-mail opnieuw genereert, wordt het aantal beschikbare tokens opnieuw verminderd met het aantal gegenereerde renderingen.
 
