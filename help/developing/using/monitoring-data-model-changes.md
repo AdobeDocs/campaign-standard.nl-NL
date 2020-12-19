@@ -17,7 +17,7 @@ ht-degree: 16%
 
 # Wijzigingen in een datamodel controleren{#monitoring-data-model-changes}
 
-In het **[!UICONTROL Diagnosis]** menu kunt u de verschillende technische objecten raadplegen die door de toepassing worden gegenereerd, om deze te analyseren.
+Met het menu **[!UICONTROL Diagnosis]** kunt u de verschillende technische objecten raadplegen die door de toepassing worden gegenereerd, om deze te analyseren.
 
 >[!NOTE]
 >
