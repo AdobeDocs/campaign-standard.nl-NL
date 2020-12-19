@@ -18,7 +18,7 @@ ht-degree: 86%
 
 # Een e-mail personaliseren met aanvullende data {#example--personalizing-an-email-with-additional-data}
 
-Het volgende voorbeeld toont hoe u verschillende typen aanvullende data toevoegt aan een query en hoe u deze data gebruikt voor een personalisatieveld in een e-mailbericht. Zie **[!UICONTROL Query]** deze sectie [voor meer informatie over het verrijken van de gegevens waarop een](../../automating/using/query.md#enriching-data)activiteit is gericht.
+Het volgende voorbeeld toont hoe u verschillende typen aanvullende data toevoegt aan een query en hoe u deze data gebruikt voor een personalisatieveld in een e-mailbericht. Raadpleeg [deze sectie](../../automating/using/query.md#enriching-data) voor meer informatie over het verrijken van de gegevens waarop een **[!UICONTROL Query]**-activiteit is gericht.
 
 In dit voorbeeld worden [aangepaste bronnen](../../developing/using/data-model-concepts.md) gebruikt:
 
@@ -32,7 +32,7 @@ De workflow wordt als volgt weergegeven:
 
 ![](assets/enrichment_example1.png)
 
-1. Add a [Query](../../automating/using/query.md) activity, which allows you to target the profiles that have carried out at least one transaction.
+1. Voeg een [Vraag](../../automating/using/query.md) activiteit toe, die u toestaat om de profielen te richten die minstens één transactie hebben uitgevoerd.
 
    ![](assets/enrichment_example2.png)
 
@@ -53,7 +53,7 @@ De workflow wordt als volgt weergegeven:
 
    ![](assets/enrichment_example5.png)
 
-1. Voeg een [e-mailleveringsactiviteit](../../automating/using/email-delivery.md) toe. Voeg de personalisatievelden toe aan de e-mail die overeenkomen met de data die in de query zijn berekend. Deze zijn beschikbaar via de koppeling **[!UICONTROL Additional data (targetData)]** van de verkennertool voor personalisatievelden.
+1. Voeg een [e-maillevering](../../automating/using/email-delivery.md) activiteit toe. Voeg de personalisatievelden toe aan de e-mail die overeenkomen met de data die in de query zijn berekend. Deze zijn beschikbaar via de koppeling **[!UICONTROL Additional data (targetData)]** van de verkennertool voor personalisatievelden.
 
    ![](assets/enrichment_example3.png)
 
