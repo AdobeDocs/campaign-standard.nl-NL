@@ -51,7 +51,7 @@ De specifieke data-extractiemethode wordt gedefinieerd bij het configureren van 
 
 1. Indien gewenst, kunt u het uitvoerbestand comprimeren door de optie **[!UICONTROL Compression]** in het veld **[!UICONTROL Add a pre-processing step]** te selecteren. Het uitvoerbestand wordt gecomprimeerd naar een GZIP-bestand (.gz).
 
-   In het **[!UICONTROL Add a pre-processing step]** veld kunt u een bestand ook versleutelen voordat u het uitpakt. Raadpleeg [deze sectie voor meer informatie over het werken met gecodeerde bestanden](../../automating/using/managing-encrypted-data.md)
+   Met het veld **[!UICONTROL Add a pre-processing step]** kunt u een bestand versleutelen voordat u het extraheert. Raadpleeg [deze sectie](../../automating/using/managing-encrypted-data.md) voor meer informatie over het werken met gecodeerde bestanden.
 
 1. Klik op de knop ![](assets/add_darkgrey-24px.png) of **[!UICONTROL Add an element]** om een uitvoerkolom toe te voegen.
 
