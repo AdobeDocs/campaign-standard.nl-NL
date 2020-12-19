@@ -23,9 +23,9 @@ Dit document bevat belangrijke aanbevelingen bij het ontwerpen van uw Adobe Camp
 
 >[!NOTE]
 >
->Raadpleeg [deze sectie](../../developing/using/key-steps-to-add-a-resource.md)als u bronnen wilt maken en wijzigen om het vooraf gedefinieerde Adobe Campaign-gegevensmodel uit te breiden.
+>Als u bronnen wilt maken en wijzigen om het vooraf gedefinieerde Adobe Campaign-gegevensmodel uit te breiden, raadpleegt u [deze sectie](../../developing/using/key-steps-to-add-a-resource.md).
 >
->U vindt een representatie van de ingebouwde bronnen in [deze pagina](../../developing/using/datamodel-introduction.md)in het gegevensmodel.
+>U kunt een vertegenwoordiging van het gegevensmodel van de ingebouwde middelen in [deze pagina](../../developing/using/datamodel-introduction.md) vinden.
 
 ## Overzicht {#overview}
 
@@ -33,19 +33,19 @@ Het Adobe Campaign-systeem is uiterst flexibel en kan verder worden uitgebreid d
 
 Dit document biedt veelgebruikte gebruiksscenario&#39;s en aanbevolen procedures voor het leren hoe u Adobe Campaign op de juiste wijze kunt ontwerpen.
 
-## Gegevensmodelarchitectuur {#data-model-architecture}
+## Architectuur van gegevensmodellen {#data-model-architecture}
 
 Adobe Campaign Standard is een krachtig campagnebeheersysteem voor meerdere kanalen waarmee u uw online- en offlinestrategieën kunt uitlijnen en persoonlijke ervaringen voor klanten kunt creëren.
 
-### klantgerichte benadering {#customer-centric-approach}
+### Klantgerichte benadering {#customer-centric-approach}
 
 Hoewel de meeste e-mailserviceproviders via een lijstgerichte aanpak communiceren met klanten, vertrouwt Adobe Campaign op een relationele database om een bredere visie op de klanten en hun kenmerken te kunnen gebruiken.
 
-Deze klantgerichte benadering wordt getoond in de grafiek hieronder. De grijze **profielbron** vertegenwoordigt de belangrijkste klantentabel waaromheen alles wordt gebouwd:
+Deze klantgerichte benadering wordt getoond in de grafiek hieronder. De grijze **Profile**-bron vertegenwoordigt de belangrijkste klantentabel waarop alles wordt gebouwd:
 
 ![](assets/customer-centric-data-model.png)
 
-Het standaardgegevensmodel van Adobe Campaign wordt in deze [sectie](../../developing/using/datamodel-introduction.md)weergegeven.
+Het standaard gegevensmodel van Adobe Campaign wordt voorgesteld in dit [sectie](../../developing/using/datamodel-introduction.md).
 
 <!--You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).-->
 
@@ -66,9 +66,9 @@ Welke gegevens moeten naar Adobe Campaign worden verzonden? Het is van essentiee
 >Adobe Campaign is geen data-entrepot. Probeer daarom niet alle mogelijke klanten en hun bijbehorende informatie in Adobe Campaign in te voeren.
 
 Om te beslissen of een attribuut al dan niet nodig zou zijn in Adobe Campaign, moet u bepalen of het onder een van deze categorieën zou vallen:
-* Kenmerk dat wordt gebruikt voor **segmentatie**
-* Kenmerk dat wordt gebruikt voor **gegevensbeheerprocessen** (bijvoorbeeld geaggregeerde berekening)
-* Kenmerk dat wordt gebruikt voor **personalisatie**
+* Kenmerk gebruikt voor **segmentatie**
+* Kenmerk dat wordt gebruikt voor **gegevensbeheerprocessen** (geaggregeerde berekening bijvoorbeeld)
+* Kenmerk gebruikt voor **personalisatie**
 * Kenmerk dat wordt gebruikt voor **rapportage** (rapporten kunnen worden gemaakt op basis van aangepaste profielgegevens)
 
 Als er niet in een van deze elementen valt, hebt u deze eigenschap waarschijnlijk niet nodig in Adobe Campaign.
@@ -79,9 +79,9 @@ Volg onderstaande aanbevolen procedures om gegevens in te stellen in Adobe Campa
 * De lengte voor een tekenreeksveld moet altijd met de kolom worden gedefinieerd. Standaard is de maximumlengte in Adobe Campaign 255 tekens, maar Adobe raadt u aan het veld korter te houden als u al weet dat de grootte een kortere lengte niet overschrijdt.
 * Het is acceptabel om in Adobe Campaign een veld te hebben dat korter is dan in het bronsysteem als u er zeker van bent dat de grootte in het bronsysteem is overschat en niet zou worden bereikt. Dit kan een kortere tekenreeks of een kleiner geheel getal in Adobe Campaign betekenen.
 
-## Gegevensstructuur configureren {#configuring-data-structure}
+## Gegevensstructuur {#configuring-data-structure} configureren
 
-Deze sectie schetst beste praktijken wanneer het [vormen van de gegevensstructuur](../../developing/using/configuring-the-resource-s-data-structure.md)van een middel.
+Deze sectie schetst beste praktijken wanneer [het vormen van de gegevensstructuur van een middel](../../developing/using/configuring-the-resource-s-data-structure.md).
 
 ### Id&#39;s {#identifiers}
 
@@ -95,14 +95,14 @@ In de volgende tabel worden deze id&#39;s en hun doel beschreven.
 
 | Weergavenaam | Technische naam | Beschrijving | Best practices |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>De PKey is de fysieke primaire sleutel van een Adobe Campaign lijst.</li><li>Deze id is gewoonlijk uniek voor een specifieke Adobe Campaign-instantie.</li><li>In Adobe Campaign Standard is deze waarde niet zichtbaar voor de eindgebruiker (behalve in URL&#39;s).</li></ul> | <ul><li>Via het [API-systeem](../../api/using/get-started-apis.md)is het mogelijk een PKey-waarde op te halen (dit is een gegenereerde/gehashte waarde, niet de fysieke sleutel).</li><li>Het wordt afgeraden dit te gebruiken voor iets anders dan het ophalen, bijwerken of verwijderen van records via de API.</li></ul> |
+|  | PKey | <ul><li>De PKey is de fysieke primaire sleutel van een Adobe Campaign lijst.</li><li>Deze id is gewoonlijk uniek voor een specifieke Adobe Campaign-instantie.</li><li>In Adobe Campaign Standard is deze waarde niet zichtbaar voor de eindgebruiker (behalve in URL&#39;s).</li></ul> | <ul><li>Via het [API systeem](../../api/using/get-started-apis.md), is het mogelijk om een waarde PKey (die een geproduceerde/gehakte waarde, niet de fysieke sleutel is) terug te winnen.</li><li>Het wordt afgeraden dit te gebruiken voor iets anders dan het ophalen, bijwerken of verwijderen van records via de API.</li></ul> |
 | Id | name or internalName | <ul><li>Deze informatie is een unieke id van een record in een tabel. Deze waarde kan handmatig worden bijgewerkt.</li><li>Deze id behoudt de waarde wanneer deze wordt geïmplementeerd in een andere instantie van Adobe Campaign. De naam moet anders zijn dan de gegenereerde waarde om via een pakket te kunnen worden geëxporteerd.</li><li>Dit is niet de werkelijke primaire sleutel van de tabel.</li></ul> | <ul><li>Gebruik geen speciale tekens zoals spatie &quot;&quot;, puntkolom &quot;:&quot; of afbreekstreepje &quot;-&quot;.</li><li>Al deze tekens worden vervangen door een onderstrepingsteken &quot;_&quot; (toegestaan teken). &quot;abc-def&quot; en &quot;abc:def&quot; worden bijvoorbeeld opgeslagen als &quot;abc_def&quot; en worden elkaar overschreven.</li></ul> |
 | Label | label | <ul><li>Het label is de bedrijfsidentificatie van een object of record in Adobe Campaign.</li><li>Voor dit object zijn spaties en speciale tekens toegestaan.</li><li>Het garandeert niet dat een record uniek is.</li></ul> | <ul><li>Het wordt aanbevolen een structuur voor de objectlabels te bepalen.</li><li>Dit is de meest gebruikersvriendelijke oplossing om een record of object voor een Adobe Campaign-gebruiker te identificeren.</li></ul> |
-| ACS-id | acsId | <ul><li>Er kan een extra id worden gegenereerd: de [ACS-ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Aangezien de PKey niet in het gebruikersinterface van Adobe Campaign kan worden gebruikt, is dit een oplossing om een unieke waarde te verkrijgen die tijdens de toevoeging van een profielverslag wordt geproduceerd.</li><li>De waarde kan alleen automatisch worden gegenereerd als de optie is ingeschakeld in de bron voordat een record in Adobe Campaign wordt ingevoegd.</li></ul> | <ul><li>Deze UUID kan worden gebruikt als een verzoeningssleutel.</li><li>Een automatisch gegenereerde ACS-id kan niet worden gebruikt als referentie in een workflow of in een pakketdefinitie.</li><li>Deze waarde is specifiek voor een Adobe Campaign-instantie.</li></ul> |
+| ACS-id | acsId | <ul><li>Er kan een extra id worden gegenereerd: de [ACS ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Aangezien de PKey niet in het gebruikersinterface van Adobe Campaign kan worden gebruikt, is dit een oplossing om een unieke waarde te verkrijgen die tijdens de toevoeging van een profielverslag wordt geproduceerd.</li><li>De waarde kan alleen automatisch worden gegenereerd als de optie is ingeschakeld in de bron voordat een record in Adobe Campaign wordt ingevoegd.</li></ul> | <ul><li>Deze UUID kan worden gebruikt als een verzoeningssleutel.</li><li>Een automatisch gegenereerde ACS-id kan niet worden gebruikt als referentie in een workflow of in een pakketdefinitie.</li><li>Deze waarde is specifiek voor een Adobe Campaign-instantie.</li></ul> |
 
 ### Identificatiesleutels {#keys}
 
-Elke bron die in Adobe Campaign wordt gemaakt, moet ten minste één unieke [identificatietoets](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)hebben.
+Elke bron die in Adobe Campaign wordt gemaakt, moet minstens één unieke [id-sleutel](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys) hebben.
 
 <!--Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
 
@@ -121,7 +121,7 @@ Identificatietoetsen mogen niet worden gebruikt als referentie in workflows.
 
 ### Indexen {#indexes}
 
-Adobe Campaign voegt automatisch een [index](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes) toe aan alle primaire en interne sleutels die in een bron zijn gedefinieerd.
+Adobe Campaign voegt automatisch een [index](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes) aan alle primaire en interne sleutels toe die in een middel worden bepaald.
 
 * Adobe raadt aan aanvullende indexen te definiëren, omdat dit de prestaties ten goede kan komen.
 * Voeg echter niet te veel indexen toe omdat deze ruimte in de database gebruiken. Veel indexen kunnen ook een negatief effect hebben op de prestaties.
@@ -133,7 +133,7 @@ When you are performing an initial import with very high volumes of data insert 
 
 ### Koppelingen {#links}
 
-Het definiëren van koppelingen met andere bronnen wordt in [deze sectie](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)weergegeven.
+Het bepalen van verbindingen met andere middelen wordt voorgesteld in [deze sectie](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).
 
 * Hoewel het mogelijk is om zich bij om het even welke lijst in een werkschema aan te sluiten, adviseert Adobe het bepalen van gemeenschappelijke verbindingen tussen middelen direct in de definitie van de gegevensstructuur.
 * De verbinding zou in groepering met de daadwerkelijke gegevens in uw lijsten moeten worden bepaald. Een verkeerde definitie kan van invloed zijn op gegevens die via koppelingen zijn opgehaald, bijvoorbeeld gegevens die onverwacht worden gedupliceerd.
