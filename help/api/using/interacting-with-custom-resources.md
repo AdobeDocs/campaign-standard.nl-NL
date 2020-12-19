@@ -44,5 +44,5 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >Het API-eindpunt en de workflows voor privacy (of privacy/privacyTool) beheren niet de aangepaste bronnen die niet aan de profielentiteit zijn gekoppeld.
->U bent verantwoordelijk voor het beheren en opschonen van alle PII&#39;s voor deze aangepaste bronnen. Klik [hier](../../api/using/creating-a-privacy-request.md)voor meer informatie over het privacygereedschap.
+>U bent verantwoordelijk voor het beheren en opschonen van alle PII&#39;s voor deze aangepaste bronnen. [Klik hier ](../../api/using/creating-a-privacy-request.md) voor meer informatie over het privacygereedschap.
 
