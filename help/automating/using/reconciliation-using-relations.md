@@ -28,7 +28,7 @@ De workflow bestaat uit de volgende activiteiten:
 
 ![](assets/reconciliation_example1.png)
 
-* A [Load file](../../automating/using/load-file.md) activity, which loads and detects the data of the file to import. Het geïmporteerde bestand bevat de volgende data:
+* A [Load file](../../automating/using/load-file.md) activity, which load and Detts the data of the file to import. Het geïmporteerde bestand bevat de volgende data:
 
    * Transactiedatum
    * E-mailadres van klant
@@ -47,7 +47,7 @@ De workflow bestaat uit de volgende activiteiten:
    2015-05-19 09:06:00;mail9@email.com;ZZ6
    ```
 
-* A [Reconciliation](../../automating/using/reconciliation.md) activity to bind purchasing data to database profiles as well as products. Daarom moet een relatie worden gedefinieerd tussen de bestandsdata enerzijds en de profieltabel en producttabel anderzijds. Deze configuratie wordt uitgevoerd op het tabblad **[!UICONTROL Relations]** van de activiteit:
+* A [Afstemming](../../automating/using/reconciliation.md) activiteit om het kopen van gegevens aan gegevensbestandprofielen evenals producten te binden. Daarom moet een relatie worden gedefinieerd tussen de bestandsdata enerzijds en de profieltabel en producttabel anderzijds. Deze configuratie wordt uitgevoerd op het tabblad **[!UICONTROL Relations]** van de activiteit:
 
    * Relatie met de **profielen**: de kolom **client** van het bestand is gekoppeld aan het veld **email** van de dimensie **Profiles**.
    * Relatie met de **producten**: de kolom **product** van het bestand is gekoppeld aan het veld **productCode** van de dimensie **Profiles**.
@@ -56,7 +56,7 @@ De workflow bestaat uit de volgende activiteiten:
 
    ![](assets/reconciliation_example3.png)
 
-* An [Update data](../../automating/using/update-data.md) activity allows you to define the database fields to update using the imported data. Aangezien de data in de vorige activiteit reeds zijn geïdentificeerd als behorend tot de dimensie **Transactions**, kunt u de identificatieoptie **[!UICONTROL Directly using the targeting dimension]** gebruiken.
+* Met een [Activiteit Gegevens bijwerken](../../automating/using/update-data.md) kunt u de databasevelden definiëren die u wilt bijwerken met behulp van de geïmporteerde gegevens. Aangezien de data in de vorige activiteit reeds zijn geïdentificeerd als behorend tot de dimensie **Transactions**, kunt u de identificatieoptie **[!UICONTROL Directly using the targeting dimension]** gebruiken.
 
    Als u gebruikmaakt van de optie waarmee automatisch velden worden gedetecteerd die moeten worden bijgewerkt, worden de koppelingen die in de vorige activiteit zijn geconfigureerd (naar profielen en producten), toegevoegd aan de lijst **[!UICONTROL Fields to update]**. U moet ook controleren of het veld dat overeenkomt met de transactiedatum, correct is toegevoegd aan deze lijst.
 
