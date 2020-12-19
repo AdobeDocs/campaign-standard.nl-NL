@@ -24,9 +24,9 @@ ht-degree: 9%
 * Vorm doeltoewijzingen om technische montages te beheren die worden vereist om leveringen te verzenden,
 * Stel interne meldingen in de toepassing in, enz.
 
-Deze instellingen zijn beschikbaar via het menu **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** .
+Deze instellingen zijn beschikbaar in het menu **[!UICONTROL Administration]** / **[!UICONTROL Application settings]**.
 
-Daarnaast zijn er technische opties beschikbaar in het **[!UICONTROL Options]** menu, zodat u de toepassing specifieker kunt configureren. Sommige zijn ingebouwd bij het installeren van Campagne, en andere kunnen manueel worden toegevoegd wanneer nodig (beschikbare opties variëren al naargelang de pakketten die met uw instantie worden geïnstalleerd).
+Daarnaast zijn er technische opties beschikbaar in het menu **[!UICONTROL Options]**, zodat u de toepassing specifieker kunt configureren. Sommige zijn ingebouwd bij het installeren van Campagne, en andere kunnen manueel worden toegevoegd wanneer nodig (beschikbare opties variëren al naargelang de pakketten die met uw instantie worden geïnstalleerd).
 
 >[!IMPORTANT]
 >
