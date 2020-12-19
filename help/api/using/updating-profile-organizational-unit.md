@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # De organisatorische eenheid van een profiel bijwerken {#managing-organizational-units}
 
-1. Voer een verzoek van de GET op het **orgUnitBase** middel uit om de Organisatorische eenheid PKey terug te winnen
+1. Voer een verzoek van de GET op **orgUnitBase** middel uit om de Organisatorische eenheid PKey terug te winnen
 1. Voer een verzoek van PATCH op het profiel PKey, met de gewenste Organisatorische eenheid PKey in de lading uit.
 
 <br/>
