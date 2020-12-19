@@ -17,7 +17,7 @@ ht-degree: 93%
 
 # Belangrijkste stappen voor verzending van een bericht{#key-steps-to-send-a-message}
 
-To learn the delivery best practices, consult the [Delivery best practices](../../sending/using/delivery-best-practices.md) section.
+Raadpleeg de sectie [Best practices voor levering](../../sending/using/delivery-best-practices.md) voor meer informatie over de best practices voor levering.
 
 U kunt als volgt berichten maken en verzenden:
 
