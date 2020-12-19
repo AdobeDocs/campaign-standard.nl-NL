@@ -24,7 +24,7 @@ Momenteel bieden twee leveranciers IP Certificatie aan: Return Path en Certified
 
 Gecertificeerde afzenders zijn in de lijst van gewenste personen die door wereldwijde postbusproviders en e-mailbeveiligingsbedrijven worden gebruikt. Deze commerciële lijsten van gewenste personen zijn gebaseerd op een systeem dat de afzender toestaat om antispamfilters volledig te mijden of stijgende punten worden toegewezen aangezien zij het systeem ingaan.
 
-Het [programma voor de certificering](https://www.validity.com/products/returnpath/certification/) van retourpaden biedt een aantal voordelen, waaronder:
+Het [Return Path Certification](https://www.validity.com/products/returnpath/certification/)-programma biedt een aantal voordelen, waaronder de volgende:
 * Een meetbare toename van plaatsing in postvakken op de belangrijkste leveranciers van postvakken, zoals Microsoft, AOL, Yahoo, Gmail, Comcast, Orange, Mail.ru en meer
 * Favoriete reputatie en behandeling bij kritieke filters zoals Cloudmark, SpamAssassin, en Cisco Ironport
 * Een nalevingsteam dat aan 24/7 controle wordt gewijd, die van veiligheidsalarm voorziet en met u door het oplossen van om het even welke compromissen werkt
