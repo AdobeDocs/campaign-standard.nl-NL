@@ -17,12 +17,12 @@ ht-degree: 10%
 
 # Interactie met de marketinggeschiedenis {#interacting-with-marketing-history}
 
-Het **** geschiedeniseindpunt laat u met de marketing geschiedenis van een profiel in wisselwerking staan.
+Het **history** eindpunt laat u met de marketing geschiedenis van een profiel in wisselwerking staan.
 Op deze manier kunt u bijvoorbeeld gemakkelijk de spiegelpagina ophalen voor een levering die naar een profiel is verzonden. Volg de onderstaande stappen om dit te doen:
 
-1. Voer een GET met het **geschiedeniseindpunt** en de primaire sleutel van het profiel uit.
-1. Voer een verzoek van de GET uit op de teruggekeerde **gebeurtenissen** href.
-1. Het keert de lijst van gebeurtenissen voor het profiel met verbindingen aan spiegelpagina&#39;s in de **mirrorPage** knoop terug.
+1. Voer een GET met het **history** eindpunt en de primaire sleutel van het profiel uit.
+1. Voer een verzoek van de GET op **gebeurtenissen** href teruggekeerd uit.
+1. Het keert de lijst van gebeurtenissen voor het profiel met verbindingen aan spiegelpagina&#39;s in **mirrorPage** knoop terug.
 
 <br/>
 
