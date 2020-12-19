@@ -18,7 +18,7 @@ ht-degree: 13%
 
 # Uitvoeringsopties beheren {#managing-execution-options}
 
-Als u de uitvoeringsopties van een workflow wilt wijzigen, gebruikt u de ![](assets/edit_darkgrey-24px.png) knop om de workfloweigenschappen te openen en selecteert u de **[!UICONTROL Execution]** sectie.
+Als u de uitvoeringsopties van een workflow wilt wijzigen, gebruikt u de knop ![](assets/edit_darkgrey-24px.png) om de workfloweigenschappen te openen en selecteert u de sectie **[!UICONTROL Execution]**.
 
 ![](assets/wkf_execution_6.png)
 
@@ -26,13 +26,13 @@ Mogelijke opties zijn:
 
 * **[!UICONTROL Default affinity]**: in dit veld kunt u ervoor zorgen dat een workflow of een werkstroomactiviteit op een bepaalde computer wordt uitgevoerd.
 
-* **[!UICONTROL History in days]**: geeft het aantal dagen aan waarna de historie moet worden gewist. De geschiedenis bevat elementen die gerelateerd zijn aan de workflow: logbestanden, taken, gebeurtenissen (technische objecten die zijn gekoppeld aan de workflowbewerking), en bestanden die door de **[!UICONTROL Transfer file]** activiteit zijn gedownload. De standaardwaarde is 30 dagen voor workflowsjablonen buiten de box.
+* **[!UICONTROL History in days]**: geeft het aantal dagen aan waarna de historie moet worden gewist. De geschiedenis bevat elementen die gerelateerd zijn aan de workflow: logbestanden, taken, gebeurtenissen (technische objecten die zijn gekoppeld aan de workflowbewerking), evenals bestanden die zijn gedownload door de activiteit **[!UICONTROL Transfer file]**. De standaardwaarde is 30 dagen voor workflowsjablonen buiten de box.
 
-   De geschiedenis wordt gewist door het technische werkschema van de Opschoonmaakbeurt van het Gegevensbestand, dat door gebrek dagelijks wordt uitgevoerd (zie [Lijst van technische werkschema](../../administration/using/technical-workflows.md).)
+   De geschiedenis wordt gewist door de technische workflow voor het opschonen van databases, die dagelijks standaard wordt uitgevoerd (zie [Lijst met technische workflows](../../administration/using/technical-workflows.md).)
 
    >[!IMPORTANT]
    >
-   >Als het **[!UICONTROL History in days]** veld leeg blijft, wordt de waarde ervan beschouwd als &quot;1&quot;, wat betekent dat de historie na 1 dag wordt gewist.
+   >Als het veld **[!UICONTROL History in days]** leeg blijft, wordt de waarde ervan beschouwd als &quot;1&quot;, wat betekent dat de historie na 1 dag wordt gewist.
 
 * **[!UICONTROL Save SQL queries in the log]**: Hiermee kunt u de SQL-query&#39;s uit de workflow opslaan in de logbestanden.
 
@@ -46,4 +46,4 @@ Mogelijke opties zijn:
 
 * **[!UICONTROL Severity]**: kunt u een prioriteitsniveau opgeven voor het uitvoeren van workflows in uw Adobe Campaign-instantie. Dit veld wordt alleen voor monitoringdoeleinden gebruikt door Adobe-teams.
 
-Het **[!UICONTROL Error management]** gedeelte bevat aanvullende opties waarmee u kunt bepalen hoe workflows zich gedragen bij fouten. Deze opties worden beschreven in de sectie [Foutbeheer](../../automating/using/monitoring-workflow-execution.md#error-management) .
+De sectie **[!UICONTROL Error management]** biedt extra opties waarmee u kunt beheren hoe workflows zich gedragen in het geval van fouten. Deze opties worden beschreven in de sectie [Foutbeheer](../../automating/using/monitoring-workflow-execution.md#error-management).
