@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # Sorteren
 
-Sorteren is beschikbaar in oplopende of aflopende volgorde. Hiervoor gebruikt u de parameter **%20desc** of **%20asc** op uw verzoek.
+Sorteren is beschikbaar in oplopende of aflopende volgorde. Hiervoor gebruikt u de parameter **%20desc** of **%20asc** aan uw verzoek.
 
 Als u wilt weten of een veld kan worden gesorteerd, controleert u de parameter &quot;sortable&quot; in de metagegevens van de bron. Raadpleeg [deze sectie](../../api/using/metadata-mechanism.md) voor meer informatie.
 
