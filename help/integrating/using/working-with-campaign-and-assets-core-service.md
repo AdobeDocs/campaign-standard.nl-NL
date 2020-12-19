@@ -21,7 +21,7 @@ Als u de kernservice of middelen op aanvraag integreert (afhankelijk van de conf
 
 Bronnen die door Adobe Experience Cloud worden gedeeld, kunnen in uw e-mails en landingspagina&#39;s worden gebruikt.
 
-1. Wanneer u de inhoud van een e-mail- of landingspagina bewerkt, gaat u naar een afbeeldingsblok en selecteert u deze vervolgens **[!UICONTROL Image shared from Adobe Experience Cloud]** via het contextmenu.
+1. Wanneer u de inhoud van een e-mail- of landingspagina bewerkt, gaat u naar een afbeeldingsblok en selecteert u **[!UICONTROL Image shared from Adobe Experience Cloud]** via het contextmenu.
 
    ![](assets/dam_insert_image_dce.png)
 
