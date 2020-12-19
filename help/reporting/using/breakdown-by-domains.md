@@ -22,7 +22,7 @@ Dit rapport bevat de prestatiegegevens voor elk domein dat in het publiek voor e
 
 ![](assets/delivery_reports_6.png)
 
-De statistieken **van de** Uitzending van de lijst bevatten de beschikbare gegevens voor mogelijke fouten die met elk domein, zoals worden ontmoet:
+De lijst **Cijfers van de Uitzending** bevat de beschikbare gegevens voor mogelijke fouten die met elk domein worden ontmoet, zoals:
 
 * **Verwerkt/verzonden**: Het aantal verzonden e-mailberichten.
 * **Afgeleverd**: Het aantal geleverde e-mails.
@@ -30,7 +30,7 @@ De statistieken **van de** Uitzending van de lijst bevatten de beschikbare gegev
 * **Hard stuiteren**: Het totale aantal permanente fouten, zoals een onjuist e-mailadres.
 * **Zacht stuiteren**: Het totale aantal tijdelijke fouten, zoals een volledig postvak.
 
-De tweede lijst, het **Volgen statistieken**, bevat de beschikbare gegevens voor ontvankelijke reactiviteit aan levering, zoals:
+De tweede lijst, **Tracking statistics**, bevat de beschikbare gegevens voor ontvankelijke reactiviteit aan levering, zoals:
 
 * **Afgeleverd**: Het aantal geleverde e-mails
 * **Openen**: Het aantal keren dat een bericht in een levering werd geopend.
