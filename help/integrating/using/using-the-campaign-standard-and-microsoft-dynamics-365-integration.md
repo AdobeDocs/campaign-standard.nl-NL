@@ -21,7 +21,7 @@ Deze integratie biedt verschillende functies:
 
 * **Ingress**:
 
-   * Breng in **contacten** van Dynamiek 365 in Campagne
+   * Breng **contacten** van Dynamiek 365 in Campagne binnen
 
    * **Aangepaste entiteiten**: Breng douanetabellen van Dynamiek 365 aan Campagne in. Meer informatie [in deze sectie](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md).
 
@@ -97,7 +97,7 @@ Hieronder volgt een lijst met kenmerken en een beschrijving:
 
 >[!NOTE]
 >
->De vervalperiode van de pagina van de e-mailspiegel kan in het configuratiescherm van de overeenkomstige activiteit van het e-mailkanaal van de Campagne worden gewijzigd (zie de parameters [van de](../../administration/using/configuring-email-channel.md#validity-period-parameters)Geldigheidsperiode).
+>De verloopperiode van de pagina van de e-mailspiegel kan in het configuratiescherm van de overeenkomstige activiteit van het e-mailkanaal van de Campagne worden gewijzigd (zie [Parameters van de Geldigheidsperiode](../../administration/using/configuring-email-channel.md#validity-period-parameters)).
 
 >[!NOTE]
 >
