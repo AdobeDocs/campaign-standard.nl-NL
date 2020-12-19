@@ -22,7 +22,7 @@ In het volgende voorbeeld ziet u een workflow die een doelgroep van profielen re
 
 ![](assets/identification_example2.png)
 
-* A [Load file](../../automating/using/load-file.md) activity, which loads and detects tshe data of the file to import. Het geïmporteerde bestand bevat de volgende data:
+* A [Load file](../../automating/using/load-file.md) activity, which laadt and detects data of the file to import. Het geïmporteerde bestand bevat de volgende data:
 
    ```
    lastname;firstname;email;dateofbirth
@@ -37,10 +37,10 @@ In het volgende voorbeeld ziet u een workflow die een doelgroep van profielen re
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* A [Reconciliation](../../automating/using/reconciliation.md) activity, which links each column of the loaded file to a profile dimension column. De bestandsrecords die niet kunnen worden geïdentificeerd (wegens ontbrekende data, incompatibel datatype, enz.), worden genegeerd om de integriteit van de uiteindelijke doelgroepsdata te handhaven.
+* Een [Afstemming](../../automating/using/reconciliation.md) activiteit, die elke kolom van het geladen dossier met een kolom van de profieldimensie verbindt. De bestandsrecords die niet kunnen worden geïdentificeerd (wegens ontbrekende data, incompatibel datatype, enz.), worden genegeerd om de integriteit van de uiteindelijke doelgroepsdata te handhaven.
 
    ![](assets/identification_example1.png)
 
-* A [Save audience](../../automating/using/save-audience.md) activity, which saves the audience of profiles.
+* A [Save publiek](../../automating/using/save-audience.md) activity, which save the publiek of profiles.
 
    ![](assets/identification_example3.png)
