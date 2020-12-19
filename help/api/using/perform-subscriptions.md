@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Abonnementen uitvoeren {#performing-subscriptions}
+# Abonnementen {#performing-subscriptions} uitvoeren
 
 ## Methode 1: Een profiel abonneren op een service
 
