@@ -18,7 +18,7 @@ ht-degree: 90%
 
 # Voorbeelden van query&#39;s {#query-samples}
 
-In deze sectie wordt het gebruik van hoofdletters en kleine letters beschreven bij het gebruik van een **[!UICONTROL Query]** activiteit. For more on how to use a **[!UICONTROL Query]** activity, refer to [this section](../../automating/using/query.md).
+In deze sectie wordt gebruikscase beschreven bij het gebruik van een **[!UICONTROL Query]**-activiteit. Raadpleeg [deze sectie](../../automating/using/query.md) voor meer informatie over het gebruik van een **[!UICONTROL Query]**-activiteit.
 
 ## Targeting op basis van eenvoudige profielkenmerken {#targeting-on-simple-profile-attributes}
 
