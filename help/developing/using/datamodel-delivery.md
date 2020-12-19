@@ -524,7 +524,7 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>titel</td>
+                  <td>title</td>
                   <td>Levering</td>
                   <td>tekenreeks (255)</td>
                   <td> </td>
