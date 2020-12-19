@@ -16,7 +16,7 @@ ht-degree: 81%
 ---
 
 
-# Elke dinsdag een e-maillevering maken{#creating-email-every-tuesday}
+# Een e-maillevering maken elke dinsdag{#creating-email-every-tuesday}
 
 U kunt elke dinsdag een e-mail naar alle klanten sturen voor speciale aanbiedingen.
 
@@ -26,7 +26,7 @@ U kunt elke dinsdag een e-mail naar alle klanten sturen voor speciale aanbieding
 
 ## Een activiteit Planner maken{#creating-a-scheduler-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a [Scheduler](../../automating/using/scheduler.md) activity.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, belemmering en laat vallen een [Planner](../../automating/using/scheduler.md) activiteit.
 1. Dubbelklik op de activiteit.
 1. Configureer de uitvoering van uw levering.
 1. In **[!UICONTROL Execution frequency]** selecteert u **[!UICONTROL Weekly]**.
@@ -43,7 +43,7 @@ U kunt elke dinsdag een e-mail naar alle klanten sturen voor speciale aanbieding
 
 ## Een queryactiviteit maken{#creating-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, to select recipients, drag and drop a [Query](../../automating/using/query.md) activity and double-click it.
+1. Als u in **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** ontvangers wilt selecteren, sleept u een [Query](../../automating/using/query.md)-activiteit en dubbelklikt u erop.
 1. Sleep en zet een **[!UICONTROL Email]** neer in **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]**.
 1. Selecteer **[!UICONTROL is not empty]** als een operator.
 1. Voeg in **[!UICONTROL Shortcuts]** > **[!UICONTROL General]** profielen toe en selecteer **[!UICONTROL no longer contact by email]** met de waarde **[!UICONTROL No]**.
@@ -53,7 +53,7 @@ U kunt elke dinsdag een e-mail naar alle klanten sturen voor speciale aanbieding
 
 ## Een e-maillevering maken{#creating-an-email-delivery}
 
-1. Sleep in **[!UICONTROL Activities]** > **[!UICONTROL Channels]** een activiteit voor het verzenden van [e-mail](../../automating/using/email-delivery.md) en zet deze neer.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]** sleept u een [e-mailbezorging](../../automating/using/email-delivery.md) activiteit en zet u deze neer.
 1. Klik op de activiteit en selecteer ![](assets/edit_darkgrey-24px.png) om te bewerken.
 1. Selecteer **[!UICONTROL Recurring email]** en klik op **[!UICONTROL Next]**.
 1. Selecteer een e-mailsjabloon en klik op **[!UICONTROL Next]**.
