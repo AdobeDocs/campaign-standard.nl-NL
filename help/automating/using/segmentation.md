@@ -44,7 +44,7 @@ De activiteit **[!UICONTROL Segmentation]** wordt over het algemeen na targeting
 
 1. Sleep een activiteit **[!UICONTROL Segmentation]** en zet deze neer in uw workflow.
 1. Selecteer de activiteit en open deze met de knop ![](assets/edit_darkgrey-24px.png) vanuit de snelle acties die verschijnen.
-1. In the **[!UICONTROL General]** tab, select the **[!UICONTROL Resource type]** on which the segmentation has to be carried out:
+1. Selecteer op het tabblad **[!UICONTROL General]** de **[!UICONTROL Resource type]** waarop de segmentatie moet worden uitgevoerd:
 
    * **[!UICONTROL Database resource]** als de segmentatie wordt uitgevoerd op data die al in de database aanwezig zijn. Selecteer de **[!UICONTROL Filtering dimension]** afhankelijk van de data die u wilt segmenteren. Segmentatie wordt standaard uitgevoerd op de **profielen**.
    * **[!UICONTROL Temporary resource]** indien de segmentatie wordt uitgevoerd op de tijdelijke data van de workflow: selecteer de **[!UICONTROL Targeted set]** met de data die u wilt segmenteren. Deze gebruikssituatie kan optreden na het importeren van een bestand of als de data in de database verrijkt zijn.
@@ -61,7 +61,7 @@ De activiteit **[!UICONTROL Segmentation]** wordt over het algemeen na targeting
    * **[!UICONTROL Limit segment population]**: Hiermee kunt u de segmentgrootte beperken.
    * **[!UICONTROL Filter and limit segment population]**: Hiermee kunt u de segmentpopulatie filteren en de grootte ervan beperken.
    * **[!UICONTROL Label]**: segmentlabel.
-   * **[!UICONTROL Segment code]**: code toegewezen aan de segmentpopulatie.De segmentcode kan worden gepersonaliseerd met behulp van een standaardexpressie en gebeurtenisvariabelen (zie [deze pagina](../../automating/using/customizing-workflow-external-parameters.md)).
+   * **[!UICONTROL Segment code]**: code toegewezen aan de segmentpopulatie.De segmentcode kan worden gepersonaliseerd met behulp van een standaardexpressie en gebeurtenisvariabelen (zie  [deze pagina](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Exclude segment from population]**: Hiermee sluit u het opgegeven segment uit van de uitgaande populatie van de activiteit. Deze optie kan alleen worden gebruikt als de optie **[!UICONTROL Generate all segments in the same transition]** is geselecteerd.
 
    ![](assets/wkf_segment_new_segment.png)
@@ -96,6 +96,6 @@ De activiteit **[!UICONTROL Segmentation]** wordt over het algemeen na targeting
 
    * Schakel de optie **[!UICONTROL Enable overlapping of outbound populations]** in als u wilt dat een lid van de binnenkomende populatie tot verscheidene segmenten tegelijk behoort. De uitgaande populatie van de activiteit kan groter zijn dan de binnenkomende populatie.
    * Schakel de optie **[!UICONTROL Concatenate the code of each segment]** in als aan de binnenkomende populatie reeds een segmentcode is toegewezen die u wilt houden. De segmentcode die in de activiteit wordt opgegeven, wordt toegevoegd aan de oorspronkelijke segmentcode.
-   * Schakel de optie **[!UICONTROL Generate complement]** in als u de resterende populatie wilt benutten. See [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md).
+   * Schakel de optie **[!UICONTROL Generate complement]** in als u de resterende populatie wilt benutten. Zie [Hoofdlettergebruik: Leveringen maken met een complement](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Bevestig de configuratie van uw activiteit en sla de workflow op.
