@@ -24,18 +24,18 @@ De workflow bestaat uit de volgende elementen:
 
 ![](assets/incremental_query_example1.png)
 
-* A [Scheduler](../../automating/using/scheduler.md) activity, to execute the workflow every Monday at 6 am.
+* A [Scheduler](../../automating/using/scheduler.md) activiteit, om de werkstroom elke Maandag om 6 uur uit te voeren.
 
    ![](assets/incremental_query_example2.png)
 
-* An [Incremental query](../../automating/using/incremental-query.md) activity, which targets all of the current subscribers during the first execution, then only the new subscribers of that week during the following executions.
+* Een [Incrementele vraag](../../automating/using/incremental-query.md) activiteit, die alle huidige abonnees tijdens de eerste uitvoering richt, dan slechts de nieuwe abonnees van die week tijdens de volgende uitvoeringen.
 
    ![](assets/incremental_query_example3.png)
 
-* Een [e-mailleveringsactiviteit](../../automating/using/email-delivery.md) . De workflow wordt één keer per week uitgevoerd, maar u kunt de verzonden e-mails en de resultaten per maand samenvoegen, om bijvoorbeeld rapporten te genereren over een periode van een hele maand en niet slechts één week.
+* An [Email delivery](../../automating/using/email-delivery.md) activity. De workflow wordt één keer per week uitgevoerd, maar u kunt de verzonden e-mails en de resultaten per maand samenvoegen, om bijvoorbeeld rapporten te genereren over een periode van een hele maand en niet slechts één week.
 
    U doet dit door een **[!UICONTROL Recurring email]** **[!UICONTROL By month]** te maken om de e-mails en de resultaten te hergroeperen.
 
-   Definieer de content van uw e-mail en voer de promocode in. Raadpleeg de secties [E-mailinhoud](../../designing/using/personalization.md) definiëren voor meer informatie.
+   Definieer de content van uw e-mail en voer de promocode in. Raadpleeg de secties [E-mailinhoud definiëren](../../designing/using/personalization.md) voor meer informatie.
 
 Start vervolgens de workflowuitvoering. Elke week ontvangen nieuwe abonnees het welkomstbericht met de promocode.
