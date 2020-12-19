@@ -29,30 +29,30 @@ Om uw levering succesvol te maken, wilt u de meest relevante gepersonaliseerde i
 
 ## Doeltoewijzingen {#target-mappings}
 
-Standaard zijn leveringssjablonen gericht op **profielen**. Adobe Campaign biedt andere doeltoewijzingen voor uw leveringen die u op basis van uw behoeften kunt wijzigen.
+Standaard richten leveringssjablonen **Profielen**. Adobe Campaign biedt andere doeltoewijzingen voor uw leveringen die u op basis van uw behoeften kunt wijzigen.
 
-Deze toewijzingen worden weergegeven [in deze sectie](../../automating/using/query.md#targeting-dimensions-and-resources).
+Deze toewijzingen worden [in deze sectie](../../automating/using/query.md#targeting-dimensions-and-resources) voorgesteld.
 
 U kunt ook een aangepaste doeltoewijzing maken en gebruiken. Raadpleeg [deze sectie](../../administration/using/target-mappings-in-campaign.md) voor meer informatie.
 
 ## Externe gegevens {#external-data}
 
-U kunt leveren aan ontvangers die in een extern dossier eerder dan opgeslagen in het gegevensbestand worden opgeslagen. Hiertoe ontwerpt u een workflow om gegevens uit een bestand in uw database te laden en een bijbehorend publiek te maken.  Klik hier als je meer wilt weten [over deze kwestie](../../automating/using/use-case-calling-workflow.md). Zie ook [Een workflow met parameters](../../automating/using/calling-a-workflow-with-external-parameters.md)aanroepen.
+U kunt leveren aan ontvangers die in een extern dossier eerder dan opgeslagen in het gegevensbestand worden opgeslagen. Hiertoe ontwerpt u een workflow om gegevens uit een bestand in uw database te laden en een bijbehorend publiek te maken.  Lees meer [in dit gebruiksgeval](../../automating/using/use-case-calling-workflow.md). Zie ook [Een workflow aanroepen met parameters](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
-## Verzenden naar uw abonnees {#send-to-subscribers}
+## Verzend naar uw abonnees {#send-to-subscribers}
 
 Om berichten naar de abonnees van een nieuwsbrief te verzenden, kunt u de abonnees aan de overeenkomstige informatiedienst direct richten. Meer informatie [in deze sectie](../../audiences/using/about-subscriptions.md).
 
-**Tip** - U kunt een publiek van de Lijst tot stand brengen dat de abonnees aan uw nieuwsbrief richt gebruikend een werkschema. U kunt dit publiek vervolgens in een levering selecteren. Zie [Lijstpubliek](../../audiences/using/creating-audiences.md#creating-list-audiences)maken voor meer informatie hierover.
+**Tip**  - U kunt een publiek van de Lijst tot stand brengen dat de abonnees aan uw nieuwsbrief richt gebruikend een werkschema. U kunt dit publiek vervolgens in een levering selecteren. Voor meer op dit, zie [Creërend lijstpubliek](../../audiences/using/creating-audiences.md#creating-list-audiences).
 
 ## Proefdrukken, testprofielen en controlegroepen {#proofs-test-control-groups}
 
 Om uw levering te testen, gebruik proef alvorens naar het belangrijkste doel te verzenden.
-Zorg ervoor dat u de juiste ontvangers voor het bewijs selecteert, omdat deze het formulier en de inhoud van het bericht valideren. De stappen voor het verzenden van proefdrukken worden voorgesteld [in deze sectie](../../sending/using/sending-proofs.md).
+Zorg ervoor dat u de juiste ontvangers voor het bewijs selecteert, omdat deze het formulier en de inhoud van het bericht valideren. De stappen voor het verzenden van proefdrukken worden [in deze sectie](../../sending/using/sending-proofs.md) voorgesteld.
 
-Meer informatie over testprofielen vindt u [in deze sectie](../../audiences/using/managing-test-profiles.md).
+Meer informatie over testprofielen [in deze sectie](../../audiences/using/managing-test-profiles.md).
 
-You can use [Control groups](../../sending/using/control-group.md) to measure the impact of your campaigns by excluding a portion of their audience. Vervolgens kunt u de gedragingen van de doelgroep die het bericht heeft ontvangen, vergelijken met de gedragingen van contactpersonen die niet zijn getarget. Op basis van de verzendlogboeken kunt u in toekomstige campagnes ook een controlegroep targeten.
+U kunt [Controlegroepen](../../sending/using/control-group.md) gebruiken om het effect van uw campagnes te meten door een deel van hun publiek uit te sluiten. Vervolgens kunt u de gedragingen van de doelgroep die het bericht heeft ontvangen, vergelijken met de gedragingen van contactpersonen die niet zijn getarget. Op basis van de verzendlogboeken kunt u in toekomstige campagnes ook een controlegroep targeten.
 
 ## Gedupliceerde adressen {#deduplicate-addresses}
 
@@ -64,4 +64,4 @@ Het is belangrijk om dubbele e-mailadressen te vermijden, omdat dit van invloed 
 
 Deduplicating adressen beschermt uw verzendende reputatie en verzekert goed quarantainebeheer.
 
-Klik hier als je meer wilt weten [over deze kwestie](../../automating/using/deduplicating-data-imported-file.md).
+Lees meer [in dit gebruiksgeval](../../automating/using/deduplicating-data-imported-file.md).
