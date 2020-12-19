@@ -215,7 +215,7 @@ De belangrijkste stappen voor dit gebruik zijn als volgt:
 
    ![](assets/substitution_uc5.png)
 
-1. Select the **[!UICONTROL Profile substitutions]** tab, then click **[!UICONTROL Import from an audience]**.
+1. Selecteer de tab **[!UICONTROL Profile substitutions]** en klik vervolgens op **[!UICONTROL Import from an audience]**.
 
    ![](assets/substitution_uc6.png)
 
