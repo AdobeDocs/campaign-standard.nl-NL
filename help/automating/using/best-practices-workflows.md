@@ -77,7 +77,7 @@ We raden u aan maximaal 100 activiteiten in één workflow te gebruiken. Bij mee
 
 ### Workflowontwerp
 
-Om ervoor te zorgen dat de workflow op de juiste wijze wordt beëindigd, moet u de laatste overgang van een workflow op zichzelf vermijden door een **[!UICONTROL End activity]** workflow te gebruiken.
+Om ervoor te zorgen dat de werkstroom behoorlijk eindigt, vermijd het verlaten van de laatste overgang van een werkschema op zich door **[!UICONTROL End activity]** te gebruiken.
 
 Als u toegang wilt tot de gedetailleerde weergave van de overgangen, schakelt u de optie **[!UICONTROL Keep interim results]** in de sectie Execution van de workfloweigenschappen in.
 
@@ -108,7 +108,7 @@ Raadpleeg de [activiteit Planner](../../automating/using/scheduler.md) voor meer
 
 ## Een workflow met parameters aanroepen{#workflow-with-parameters}
 
-Zorg ervoor dat de naam en het aantal parameters gelijk zijn aan wat er is gedefinieerd bij het aanroepen van de workflow (zie [deze pagina](../../automating/using/defining-parameters-calling-workflow.md). De parametertypen moeten ook consistent zijn met de waarden die worden verwacht.
+Zorg ervoor dat de naam en het aantal parameters identiek zijn aan wat wordt bepaald wanneer het roepen van het werkschema (zie [deze pagina](../../automating/using/defining-parameters-calling-workflow.md). De parametertypen moeten ook consistent zijn met de waarden die worden verwacht.
 
 Zorg ervoor dat alle parameters zijn gedeclareerd in de **[!UICONTROL External signal activity]**. Anders treedt er een fout op wanneer de activiteit wordt uitgevoerd.
 
