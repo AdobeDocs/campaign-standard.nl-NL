@@ -111,7 +111,7 @@ Als u een vervaldatum instelt voor uw pushmelding, stelt u een specifieke datum 
 
 Een vervaldatum toevoegen aan uw pushmelding:
 
-1. Check the **[!UICONTROL Expire message]** option: by selecting the **[!UICONTROL Expire message]** option, the duration is automatically set to 0. Als u de waarde niet wijzigt, proberen zowel APNS als FCM het bericht onmiddellijk te verzenden. Als het mislukt, wordt het bericht niet opnieuw verzonden.
+1. Schakel de optie **[!UICONTROL Expire message]** in: door de optie **[!UICONTROL Expire message]** te selecteren, wordt de duur automatisch ingesteld op 0. Als u de waarde niet wijzigt, proberen zowel APNS als FCM het bericht onmiddellijk te verzenden. Als het mislukt, wordt het bericht niet opnieuw verzonden.
 
 1. Selecteer in het veld **[!UICONTROL Duration]** de geldigheid van uw pushmelding.
 
