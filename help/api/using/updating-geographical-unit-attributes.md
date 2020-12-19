@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # Kenmerken van een geografische eenheid bijwerken {#managing-geographical-units}
 
-1. Voer een verzoek van de GET op het **geoUnitBase** middel uit om de Geografische eenheid PKey terug te winnen.
+1. Voer een verzoek van de GET op **geoUnitBase** middel uit om de Geografische eenheid PKey terug te winnen.
 1. Voer een verzoek van de PATCH op de Geografische eenheid uit, met de attributen in de lading bij te werken.
 
 <br/>
