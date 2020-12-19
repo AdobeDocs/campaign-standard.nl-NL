@@ -33,30 +33,30 @@ Toegang krijgen tot de lijst met marketingactiviteiten van een campagne:
 1. Ga naar **[!UICONTROL Marketing activities]** vanaf de bovenste navigatiebalk.
 1. Selecteer **[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**.
 
-   U kunt ook rechtstreeks op de **[!UICONTROL Programs & Campaigns]** kaart van de startpagina klikken. Raadpleeg de sectie [Programma&#39;s en campagnes](../../start/using/programs-and-campaigns.md) voor meer informatie over campagnes.
+   U kunt ook rechtstreeks op de **[!UICONTROL Programs & Campaigns]**-kaart van de startpagina klikken. Raadpleeg de sectie [Programma&#39;s en campagnes](../../start/using/programs-and-campaigns.md) voor meer informatie over campagnes.
 
 1. Selecteer een programma, dan een campagne.
 
    ![](assets/delivery_list_1.png)
 
-1. Klik op de **[!UICONTROL Summary]** vervolgkeuzelijst.
-1. Klik **[!UICONTROL Search]** om te filteren hoe berichten (op naam, datum of status) worden weergegeven.
+1. Klik op de vervolgkeuzelijst **[!UICONTROL Summary]**.
+1. Klik op **[!UICONTROL Search]** om te filteren hoe berichten worden weergegeven (op naam, datum of status).
 
    Als u terugkerende berichten wilt filteren, schakelt u het desbetreffende selectievakje in.
 
-## De berichtenlijst openen {#accessing-the-message-list}
+## Toegang tot de berichtenlijst {#accessing-the-message-list}
 
 De volledige lijst met marketingactiviteiten van alle gecombineerde campagnes openen:
 
-1. Selecteer deze optie **[!UICONTROL Marketing activities]** in de bovenste navigatiebalk.
+1. Selecteer **[!UICONTROL Marketing activities]** in de bovenste navigatiebalk.
 
-   U kunt het van de **[!UICONTROL Marketing activities]** kaart op de homepage ook toegang hebben. Raadpleeg de sectie [Marketing activities](../../start/using/marketing-activities.md#creating-a-marketing-activity) beheren voor meer informatie over de lijst met marketingactiviteiten.
+   U kunt het van de **[!UICONTROL Marketing activities]** kaart op de homepage ook toegang hebben. Raadpleeg de sectie [Marketing activities beheren](../../start/using/marketing-activities.md#creating-a-marketing-activity) voor meer informatie over de lijst met marketingactiviteiten.
 
-1. Als u de marketingactiviteiten wilt filteren (op naam, datum, status of type activiteit), gebruikt u de velden links van de lijst met marketingactiviteiten. **[!UICONTROL Search]**
+1. Als u de marketingactiviteiten wilt filteren (op naam, datum, status of type activiteit), gebruikt u de velden **[!UICONTROL Search]** links van de lijst met marketingactiviteiten.
 
 ![](assets/delivery_list_2.png)
 
-## Levenscyclus van berichten {#message-life-cycle}
+## Levenscyclus van bericht {#message-life-cycle}
 
 De status van een bericht wordt weergegeven door een specifieke kleur in de lijsten. De mogelijke statussen zijn:
 
