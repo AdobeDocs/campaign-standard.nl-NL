@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # Triggers configureren in Experience Cloud{#configuring-triggers-in-experience-cloud}
 
-## De functionaliteit activeren {#activating-the-functionality}
+## De functionaliteit {#activating-the-functionality} activeren
 
 De functionaliteit moet in Adobe Campaign door Adobe worden geactiveerd. Neem contact op met uw Adobe-accountmanager of professionele servicepartner.
 
@@ -53,9 +53,9 @@ U hebt ook een werkende website nodig.
 >
 >Subdomeinconfiguratie is een sleutelelement voor de beschikbaarheid. Zorg ervoor dat de e-mails van Adobe Campaign worden verzonden vanuit hetzelfde domein als dat van de website.
 
-U moet [Experience Cloud DTM Core-service](#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core-service](#configuring-experience-cloud-people-core-service) en - [campagne](#configuring-triggers-and-aliases-in-campaign) configureren om deze gebruiksgevallen uit te voeren.
+U moet [Experience Cloud DTM Core Service](#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core Service](#configuring-experience-cloud-people-core-service) en [Campagne](#configuring-triggers-and-aliases-in-campaign) configureren om deze gebruiksgevallen uit te voeren.
 
-### Configuring Experience Cloud DTM Core Service {#configuring-experience-cloud-dtm-core-service}
+### Experience Cloud DTM Core-service {#configuring-experience-cloud-dtm-core-service} configureren
 
 1. Activeer in Experience Cloud DTM Core-service (Dynamic Tag Management) de Experience Cloud-id en Adobe Analytics voor uw websitepagina&#39;s.
 
@@ -65,7 +65,7 @@ U moet [Experience Cloud DTM Core-service](#configuring-experience-cloud-dtm-cor
 
    ![](assets/trigger_uc_conf_2.png)
 
-### De Experience Cloud People Core-service configureren {#configuring-experience-cloud-people-core-service}
+### De Experience Cloud People Core-service {#configuring-experience-cloud-people-core-service} configureren
 
 De alias waarnaar eerder in DTM wordt verwezen, moet via een kenmerk van de klant worden gemaakt in de Experience Cloud People Core Service. Zorg ervoor dat u een nieuwe maakt en dat u in de integratiecode naar dezelfde DTM-alias verwijst (bijvoorbeeld &quot;bezoeker&quot;).
 
@@ -77,27 +77,27 @@ De alias waarnaar eerder in DTM wordt verwezen, moet via een kenmerk van de klan
 
 ### Triggers en aliassen configureren in campagne {#configuring-triggers-and-aliases-in-campaign}
 
-1. Zorg ervoor dat je een Adobe Campaign Standard-exemplaar ziet. **[!UICONTROL Experience Cloud triggers]** Als u dat niet doet, neemt u contact op met de Adobe Campaign-beheerders.
+1. Zorg ervoor dat **[!UICONTROL Experience Cloud triggers]** zichtbaar is op uw Adobe Campaign Standard-exemplaar. Als u dat niet doet, neemt u contact op met de Adobe Campaign-beheerders.
 
    ![](assets/remarketing_1.png)
 
-1. Met aliassen kan een contactpersoon in Analytics worden afgestemd op een profiel in Campagne. U moet de aliassen aanpassen die in de dienst van identiteitskaart van de Experience Cloud met Gedeelde Gegevensbron in Campagne worden bepaald. U moet de aliasresolutie in Adobe Campaign configureren via een gegevensbron ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Zorg ervoor u de correcte gegevensbron in het **[!UICONTROL Data Source/Alias]** drop-down menu kiest, dat met de zelfde die gegevensbron van Attributen van de Klant in vorige stap wordt gecreeerd in kaart wordt gebracht.
+1. Met aliassen kan een contactpersoon in Analytics worden afgestemd op een profiel in Campagne. U moet de aliassen aanpassen die in de dienst van identiteitskaart van de Experience Cloud met Gedeelde Gegevensbron in Campagne worden bepaald. U moet de aliasresolutie in Adobe Campaign configureren via een gegevensbron ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Zorg ervoor u de correcte gegevensbron in **[!UICONTROL Data Source/Alias]** drop-down menu kiest, dat met de zelfde gegevensbron van Kenmerk van de Klant in vorige stap in kaart wordt gebracht die.
 
    ![](assets/trigger_uc_conf_5.png)
 
    >[!NOTE]
    >
-   >U kunt uw triggers afstemmen voor zowel anonieme als aangemelde gebruikers. Voor anonieme gebruikers moet het profiel bestaan in Adobe Campaign en is een e-mail verzonden naar de gebruiker eerder. Hiervoor is de configuratie van bezoekersidentiteitskaart voldoende. Nochtans, als u trekkers voor het programma geopende gebruikers wilt in overeenstemming brengen, moet u de Gedeclareerde Gegevensbron van identiteitskaart plaatsen. Voor meer op dit, verwijs naar de configuratie [van de](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources)Gegevensbron.
+   >U kunt uw triggers afstemmen voor zowel anonieme als aangemelde gebruikers. Voor anonieme gebruikers moet het profiel bestaan in Adobe Campaign en is een e-mail verzonden naar de gebruiker eerder. Hiervoor is de configuratie van bezoekersidentiteitskaart voldoende. Nochtans, als u trekkers voor het programma geopende gebruikers wilt in overeenstemming brengen, moet u de Gedeclareerde Gegevensbron van identiteitskaart plaatsen. Voor meer op dit, verwijs naar [Configuratie van de Gegevensbron](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
-## Een trigger maken in de interface Experience Cloud {#creating-a-trigger-in-the-experience-cloud-interface}
+## Een trigger maken in de Experience Cloud-interface {#creating-a-trigger-in-the-experience-cloud-interface}
 
 Er moet een Adobe Experience Cloud-trigger worden gemaakt, zodat u deze kunt gebruiken in Campagne.
 
 Maak een nieuwe trigger in Experience Cloud en selecteer de rapportsuite die op uw website wordt gebruikt. Zorg ervoor dat u de juiste afmeting kiest, zodat de trigger wordt geactiveerd.
 
-Raadpleeg de documentatie [bij](https://docs.adobe.com/content/help/nl-NL/core-services/interface/activation/triggers.html) Adobe Experience Cloud en bekijk deze [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+Raadpleeg de [Adobe Experience Cloud-documentatie](https://docs.adobe.com/content/help/nl-NL/core-services/interface/activation/triggers.html) en bekijk deze [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 
-## Triggert beste praktijken en beperkingen {#triggers-best-practices-and-limitations}
+## Triggert best practices en beperkingen {#triggers-best-practices-and-limitations}
 
 Hier volgt een lijst met beste praktijken en beperkingen voor het gebruik van de campagne - Triggers-integratie:
 
