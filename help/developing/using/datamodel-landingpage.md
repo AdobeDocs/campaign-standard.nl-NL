@@ -606,7 +606,7 @@ ht-degree: 1%
          </td>
       </tr>
       <tr>
-         <td>titel</td>
+         <td>title</td>
          <td>Landingspagina</td>
          <td>tekenreeks (255)</td>
          <td> </td>
