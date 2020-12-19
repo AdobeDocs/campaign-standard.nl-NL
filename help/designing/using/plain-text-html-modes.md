@@ -15,13 +15,13 @@ ht-degree: 0%
 ---
 
 
-# Onbewerkte tekst, HTML- en mobiele e-mailindelingen bewerken {#plain-text-and-html-modes}
+# Onbewerkte tekst, HTML- en mobiele e-mailindelingen {#plain-text-and-html-modes} bewerken
 
 Met de e-mailontwerper kunt u verschillende rendering van uw e-mails bewerken. U kunt een tekstversie van uw e-mail genereren, de HTML-bron van een e-mail bewerken en e-mails ontwerpen voor de mobiele weergave.
 
 ## Een tekstversie van de e-mail genereren {#generating-a-text-version-of-the-email}
 
-Standaard wordt de **[!UICONTROL Plain text]** versie van uw e-mailbericht automatisch gegenereerd en gesynchroniseerd met de **[!UICONTROL Edit]** versie.
+Standaard wordt de **[!UICONTROL Plain text]**-versie van uw e-mail automatisch gegenereerd en gesynchroniseerd met de **[!UICONTROL Edit]**-versie.
 
 De gebieden van de aanpassing en inhoudsblokken die aan de versie van HTML worden toegevoegd worden ook gesynchroniseerd met de gewone tekstversie.
 
@@ -29,7 +29,7 @@ De gebieden van de aanpassing en inhoudsblokken die aan de versie van HTML worde
 >
 >Als u inhoudsblokken in de versie zonder opmaak wilt gebruiken, moet u ervoor zorgen dat ze geen HTML-code bevatten.
 
-Als u een andere versie voor normale tekst wilt gebruiken dan de HTML-versie, kunt u deze synchronisatie uitschakelen door op de **[!UICONTROL Sync with HTML]** switch in de **[!UICONTROL Plain text]** weergave van de e-mail te klikken.
+Als u een versie met normale tekst wilt hebben die afwijkt van de HTML-versie, kunt u deze synchronisatie uitschakelen door te klikken op de **[!UICONTROL Sync with HTML]**-schakelaar in de weergave **[!UICONTROL Plain text]** van uw e-mail.
 
 ![](assets/email_designer_textversion.png)
 
@@ -37,7 +37,7 @@ Vervolgens kunt u de versie zonder tekst naar wens bewerken.
 
 >[!NOTE]
 >
->Als u de **[!UICONTROL Plain text]** versie bewerkt terwijl synchronisatie is uitgeschakeld, worden de wijzigingen die u in de versie zonder opmaak hebt aangebracht, vervangen door de HTML-versie wanneer u de **[!UICONTROL Sync with HTML]** optie weer inschakelt. De in **[!UICONTROL Plain text]** weergave aangebrachte wijzigingen kunnen niet in de **[!UICONTROL HTML]** weergave worden weergegeven.
+>Als u de **[!UICONTROL Plain text]**-versie bewerkt terwijl synchronisatie is uitgeschakeld, worden alle wijzigingen die u hebt aangebracht in de versie zonder opmaak vervangen door de HTML-versie wanneer u de optie **[!UICONTROL Sync with HTML]** weer inschakelt. De wijzigingen die zijn aangebracht in de weergave **[!UICONTROL Plain text]** kunnen niet worden weerspiegeld in de weergave **[!UICONTROL HTML]**.
 
 ## Een e-mailinhoudsbron bewerken in HTML {#editing-an-email-content-source-in-html}
 
@@ -49,13 +49,13 @@ U kunt de HTML-versie van de e-mail op twee manieren bewerken:
 
    ![](assets/email_designer_html1.png)
 
-* Selecteer een element in de WYSIWYG-interface en klik op het **[!UICONTROL Source code]** pictogram.
+* Van de interface WYSIWYG, selecteer een element en klik **[!UICONTROL Source code]** pictogram.
 
-   Alleen de bron van het geselecteerde element wordt weergegeven. U kunt de broncode bewerken als het geselecteerde element een **[!UICONTROL HTML]** inhoudscomponent is. Andere componenten bevinden zich in de modus Alleen-lezen, maar kunnen nog steeds worden bewerkt in de volledige HTML-versie van de e-mail.
+   Alleen de bron van het geselecteerde element wordt weergegeven. U kunt de broncode bewerken als het geselecteerde element een inhoudscomponent **[!UICONTROL HTML]** is. Andere componenten bevinden zich in de modus Alleen-lezen, maar kunnen nog steeds worden bewerkt in de volledige HTML-versie van de e-mail.
 
    ![](assets/email_designer_html2.png)
 
-Als u de HTML-code wijzigt, kan de reactiesnelheid van de e-mail worden verbroken. Controleer dit met de **[!UICONTROL Preview]** knop. Zie [Berichten voorvertonen](../../sending/using/previewing-messages.md).
+Als u de HTML-code wijzigt, kan de reactiesnelheid van de e-mail worden verbroken. Zorg ervoor dat u het bestand test met de knop **[!UICONTROL Preview]**. Zie [Berichten voorvertonen](../../sending/using/previewing-messages.md).
 
 ## E-mails ontwerpen voor mobiele rendering {#switching-to-mobile-view}
 
@@ -63,8 +63,8 @@ U kunt het responsieve ontwerp van een e-mail perfectioneren door alle stijlopti
 
 Alle stijlopties zijn beschikbaar in de mobiele weergave. De e-mailDesigner-stijlinstellingen worden eerder op deze pagina weergegeven.
 
-1. Maak een e-mail en begin met het bewerken van de inhoud. Zie Een geheel nieuwe e-mailinhoud [ontwerpen voor meer informatie](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
-1. Selecteer de **[!UICONTROL Switch to mobile view]** knop voor toegang tot de toegewezen mobiele weergave.
+1. Maak een e-mail en begin met het bewerken van de inhoud. Zie [Een geheel nieuwe e-mailinhoud ontwerpen](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch) voor meer informatie.
+1. Als u de toegewezen mobiele weergave wilt openen, selecteert u de knop **[!UICONTROL Switch to mobile view]**.
 
    ![](assets/email_designer_mobile_view_switch.png)
 
@@ -80,9 +80,9 @@ Alle stijlopties zijn beschikbaar in de mobiele weergave. De e-mailDesigner-stij
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. U kunt een component verbergen wanneer deze op een mobiel apparaat wordt weergegeven. U doet dit door een keuze te maken **[!UICONTROL Show only on desktop devices]** in het **[!UICONTROL Display options]** menu.
+1. U kunt een component verbergen wanneer deze op een mobiel apparaat wordt weergegeven. Selecteer **[!UICONTROL Show only on desktop devices]** in **[!UICONTROL Display options]** om dit te doen.
 
-   U kunt deze component ook verbergen op bureaubladapparaten, wat betekent dat deze alleen op mobiele apparaten wordt weergegeven. Selecteer **[!UICONTROL Show only on mobile devices]** deze optie.
+   U kunt deze component ook verbergen op bureaubladapparaten, wat betekent dat deze alleen op mobiele apparaten wordt weergegeven. Selecteer **[!UICONTROL Show only on mobile devices]** om dit te doen.
 
    Met deze optie kunt u bijvoorbeeld een specifieke afbeelding op mobiele apparaten en een andere afbeelding op desktopapparaten weergeven.
 
@@ -90,13 +90,13 @@ Alle stijlopties zijn beschikbaar in de mobiele weergave. De e-mailDesigner-stij
 
    ![](assets/email_designer_mobile_hide.png)
 
-1. Klik nogmaals op de **[!UICONTROL Switch to mobile view]** knop om terug te gaan naar de standaardweergave op het bureaublad. De wijzigingen die u zojuist hebt aangebracht in de stijl worden niet doorgevoerd.
+1. Klik nogmaals op de knop **[!UICONTROL Switch to mobile view]** om terug te gaan naar de standaardweergave op het bureaublad. De wijzigingen die u zojuist hebt aangebracht in de stijl worden niet doorgevoerd.
 
    ![](assets/email_designer_mobile_view_desktop_no-change.png)
 
    >[!NOTE]
    >
-   >De enige uitzondering zijn de **[!UICONTROL Style inline]** instellingen. Elke wijziging in de inline-instelling van de stijl wordt ook toegepast op de standaardweergave op het bureaublad.
+   >De enige uitzondering hierop zijn de **[!UICONTROL Style inline]**-instellingen. Elke wijziging in de inline-instelling van de stijl wordt ook toegepast op de standaardweergave op het bureaublad.
 
 1. Eventuele andere wijzigingen in de structuur of de inhoud van de e-mail, zoals tekstbewerkingen, het uploaden van een nieuwe afbeelding, het toevoegen van een nieuwe component, enz. wordt ook toegepast op de standaardweergave.
 
@@ -104,7 +104,7 @@ Alle stijlopties zijn beschikbaar in de mobiele weergave. De e-mailDesigner-stij
 
    ![](assets/email_designer_mobile_view_change_content.png)
 
-1. Klik nogmaals op de **[!UICONTROL Switch to mobile view]** knop om terug te gaan naar de standaardweergave op het bureaublad. De wijzigingen worden weerspiegeld.
+1. Klik nogmaals op de knop **[!UICONTROL Switch to mobile view]** om terug te gaan naar de standaardweergave op het bureaublad. De wijzigingen worden weerspiegeld.
 
    ![](assets/email_designer_mobile_view_desktop_content-change.png)
 
@@ -118,13 +118,13 @@ Alle stijlopties zijn beschikbaar in de mobiele weergave. De e-mailDesigner-stij
 
    ![](assets/email_designer_mobile_view_background_desktop.png)
 
-1. Schakel opnieuw over naar de mobiele weergave en schakel de **[!UICONTROL Background color]** instelling uit.
+1. Schakel opnieuw over naar de mobiele weergave en schakel nu de instelling **[!UICONTROL Background color]** uit.
 
    ![](assets/email_designer_mobile_view_background_mobile_disabled.png)
 
    De achtergrondkleur die is gedefinieerd in de bureaubladweergave wordt nu toegepast: wordt grijs (niet leeg).
 
-   De enige uitzondering is de **[!UICONTROL Border color]** instelling. Wanneer deze optie is uitgeschakeld in de mobiele weergave, wordt er geen rand meer toegepast, zelfs niet wanneer een randkleur is gedefinieerd in de desktopweergave.
+   De enige uitzondering is de instelling **[!UICONTROL Border color]**. Wanneer deze optie is uitgeschakeld in de mobiele weergave, wordt er geen rand meer toegepast, zelfs niet wanneer een randkleur is gedefinieerd in de desktopweergave.
 
 >[!NOTE]
 >
