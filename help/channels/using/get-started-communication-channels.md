@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -73,9 +73,9 @@ Transactieberichten zijn afhankelijk van uw opties beschikbaar voor de kanalen v
 Meer informatie:
 
 * [Aan de slag met transactionele berichten](../../channels/using/getting-started-with-transactional-msg.md)
-* [Een transactiegebeurtenis configureren](../../channels/using/configuring-transactional-event.md)
-* [Transactiegebeurtenissen publiceren](../../channels/using/publishing-transactional-event.md)
-* [Een transactiebericht bewerken](../../channels/using/editing-transactional-message.md)
+* [Een transactionele gebeurtenis configureren](../../channels/using/configuring-transactional-event.md)
+* [Een transactionele gebeurtenis publiceren](../../channels/using/publishing-transactional-event.md)
+* [Een transactioneel bericht bewerken](../../channels/using/editing-transactional-message.md)
 * [Transactiebericht publiceren](../../channels/using/publishing-transactional-message.md)
 * [Transactionele pushmeldingen](../../channels/using/transactional-push-notifications.md)
 * [Vervolgberichten](../../channels/using/follow-up-messages.md)
