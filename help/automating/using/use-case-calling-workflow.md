@@ -23,9 +23,9 @@ Het doel is een workflow te activeren vanaf een API-aanroep met externe paramete
 
 Voor dit gebruik moet u de volgende handelingen uitvoeren:
 
-1. **Maak een API vraag** om Werkschema 1 met externe parameters teweeg te brengen. Zie [stap 1: De API-aanroep](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call)configureren.
-1. **Workflow 1** samenstellen: de workflow zal een bestand overbrengen en in de database laden . Vervolgens wordt getest of de gegevens leeg zijn of niet en worden de profielen uiteindelijk in een publiek opgeslagen. Tot slot zal het Werkschema 2 teweegbrengen. Zie [stap 2: Workflow 1](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1)configureren.
-1. **Workflow 2** samenstellen: De workflow leest het publiek dat in Workflow 1 is gemaakt en stuurt vervolgens een gepersonaliseerd bericht naar de profielen, met een segmentcode die met de parameters is aangepast. Zie [stap 3: Workflow 2](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2)configureren.
+1. **Maak een API** callto trekker Werkschema 1 met externe parameters. Zie [Stap 1: Het vormen van API vraag](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call).
+1. **Workflow 1** samenstellen: de workflow zal een bestand overbrengen en in de database laden . Vervolgens wordt getest of de gegevens leeg zijn of niet en worden de profielen uiteindelijk in een publiek opgeslagen. Tot slot zal het Werkschema 2 teweegbrengen. Zie [Stap 2: Workflow 1](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1) configureren.
+1. **Workflow 2** samenstellen: De workflow leest het publiek dat in Workflow 1 is gemaakt en stuurt vervolgens een gepersonaliseerd bericht naar de profielen, met een segmentcode die met de parameters is aangepast. Zie [Stap 3: Workflow 2 configureren](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
 
 ![](assets/extsignal_uc_process.png)
 
@@ -33,9 +33,9 @@ Voor dit gebruik moet u de volgende handelingen uitvoeren:
 
 Alvorens de werkschema&#39;s te vormen, moet u Werkschema 1 en 2 met een **[!UICONTROL External signal]** activiteit in elk van hen tot stand brengen. Deze manier, zult u deze signaalactiviteiten kunnen richten wanneer het roepen van de werkschema&#39;s.
 
-## Stap 1: De API-aanroep configureren {#step-1--configuring-the-api-call}
+## Stap 1: De API-aanroep {#step-1--configuring-the-api-call} configureren
 
-Maak een API vraag om Werkstroom 1 met parameters teweeg te brengen. Raadpleeg de documentatie [van de API&#39;s van](../../api/using/triggering-a-signal-activity.md)Campaign Standard REST voor meer informatie over de API-aanroepsyntaxis.
+Maak een API vraag om Werkstroom 1 met parameters teweeg te brengen. Raadpleeg de documentatie [Campaign Standard REST API&#39;s](../../api/using/triggering-a-signal-activity.md) voor meer informatie over de API-aanroepsyntaxis.
 
 In ons geval willen we de workflow met de volgende parameters bellen:
 
@@ -58,7 +58,7 @@ In ons geval willen we de workflow met de volgende parameters bellen:
 -d } 
 ```
 
-## Stap 2: Workflow 1 configureren {#step-2--configuring-workflow-1}
+## Stap 2: Workflow 1 {#step-2--configuring-workflow-1} configureren
 
 Workflow 1 wordt als volgt samengesteld:
 
@@ -74,12 +74,12 @@ Workflow 1 wordt als volgt samengesteld:
 
 Voer de onderstaande stappen uit om de workflow te configureren:
 
-1. Declareer de parameters die in de API vraag zijn bepaald. Hiervoor opent u de **[!UICONTROL External signal]** activiteit en voegt u de namen en typen van de parameters toe.
+1. Declareer de parameters die in de API vraag zijn bepaald. Om dit te doen, open **[!UICONTROL External signal]** activiteit, dan voeg de namen en de types van parameters toe.
 
    ![](assets/extsignal_uc1.png)
 
-1. Voeg een **[!UICONTROL Transfer file]** activiteit toe om gegevens in het gegevensbestand in te voeren. Om dit te doen, sleep en laat vallen de activiteit, open het, dan selecteer het **[!UICONTROL Protocol]** lusje.
-1. Selecteer de **[!UICONTROL Use a dynamic file path]** optie en gebruik vervolgens de parameter **fileToTarget** als het over te dragen bestand:
+1. Voeg een **[!UICONTROL Transfer file]** activiteit toe om gegevens in het gegevensbestand in te voeren. Om dit te doen, sleep en laat vallen de activiteit, open het, dan selecteer **[!UICONTROL Protocol]** tabel.
+1. Selecteer de optie **[!UICONTROL Use a dynamic file path]** en gebruik vervolgens de parameter **fileToTarget** als het over te brengen bestand:
 
    ```
    $(vars/@fileToTarget)
@@ -93,15 +93,15 @@ Voer de onderstaande stappen uit om de workflow te configureren:
 
 1. De database invoegen en bijwerken met gegevens uit het geïmporteerde bestand.
 
-   U doet dit door een **[!UICONTROL Update data]** activiteit te slepen en neer te zetten en vervolgens het **[!UICONTROL Identification]** tabblad te selecteren om verzoeningscriteria toe te voegen (in ons geval het veld **E-mail** ).
+   Hiervoor sleept u een **[!UICONTROL Update data]**-activiteit en selecteert u het tabblad **[!UICONTROL Identification]** om een afstemmingscriterium toe te voegen (in ons geval het veld **email**).
 
    ![](assets/extsignal_uc3.png)
 
-1. Selecteer het **[!UICONTROL Fields to update]** tabblad en geef vervolgens de velden op die u wilt bijwerken in de database (in ons geval de velden **firstname** en **email** ).
+1. Selecteer het tabblad **[!UICONTROL Fields to update]** en geef vervolgens de velden op die in de database moeten worden bijgewerkt (in ons geval de velden **firstname** en **email**).
 
    ![](assets/extsignal_uc4.png)
 
-1. Controleer of gegevens uit het bestand zijn opgehaald. U doet dit door een **[!UICONTROL Test]** activiteit naar de werkstroom te slepen en vervolgens op de **[!UICONTROL Add an element]** knop te klikken om een voorwaarde toe te voegen.
+1. Controleer of gegevens uit het bestand zijn opgehaald. Hiervoor sleept u een **[!UICONTROL Test]**-activiteit naar de workflow en klikt u op de knop **[!UICONTROL Add an element]** om een voorwaarde toe te voegen.
 1. Geef de voorwaarde een naam en definieer deze. In ons geval, willen wij testen of bevat de uitgaande overgang gegevens met de syntaxis hieronder:
 
    ```
@@ -110,8 +110,8 @@ Voer de onderstaande stappen uit om de workflow te configureren:
 
    ![](assets/extsignal_uc5.png)
 
-1. Als gegevens worden opgehaald, slaat u deze op in een publiek. Hiervoor voegt u een **[!UICONTROL Save audience]** activiteit toe aan het **doel en maakt u de overgang niet leeg** . Open vervolgens de bewerking.
-1. Selecteer de **[!UICONTROL Use a dynamic label]** optie en gebruik vervolgens de parameter **fileToTarget** als label van het publiek:
+1. Als gegevens worden opgehaald, slaat u deze op in een publiek. Hiervoor voegt u een **[!UICONTROL Save audience]**-activiteit toe aan de overgang **Doel niet leeg** en opent u deze.
+1. Selecteer de optie **[!UICONTROL Use a dynamic label]** en gebruik vervolgens de parameter **fileToTarget** als label van het publiek:
 
    ```
    $(vars/@fileToTarget)
@@ -119,11 +119,11 @@ Voer de onderstaande stappen uit om de workflow te configureren:
 
    ![](assets/extsignal_uc6.png)
 
-1. Sleep en zet een **[!UICONTROL End]** activiteit neer die Werkschema 2 met parameters zal roepen, dan het openen.
-1. Selecteer het **[!UICONTROL External signal]** tabblad en geef vervolgens de workflow op die u wilt activeren en de bijbehorende signaalactiviteit.
+1. De belemmering en laat vallen een **[!UICONTROL End]** activiteit die Werkschema 2 met parameters zal roepen, dan opent het.
+1. Selecteer het tabblad **[!UICONTROL External signal]** en geef vervolgens de workflow op die moet worden geactiveerd en de bijbehorende signaalactiviteit.
 1. Bepaal de parameters die u binnen Werkschema 2 en hun bijbehorende waarden wilt gebruiken.
 
-   In ons geval, willen wij de parameters die oorspronkelijk in de API vraag (**fileToTarget** en **discontoDesc**) werden bepaald, en een extra **segmentCode** parameter met een constante waarde (&quot;20% korting&quot;) overgaan.
+   In ons geval, willen wij de parameters overgaan die oorspronkelijk in de API vraag (**fileToTarget** en **discontoDesc**) werden bepaald, en een extra **segmentCode** parameter met een constante waarde (&quot;20% korting&quot;).
 
    ![](assets/extsignal_uc7.png)
 
@@ -143,12 +143,12 @@ Voer de onderstaande stappen uit om de workflow te configureren:
 
 1. Declareer de parameters die in Werkschema 1 zijn bepaald.
 
-   Om dit te doen, open de **[!UICONTROL External signal]** activiteit, dan voeg de naam en het type van elke parameter toe die in de **[!UICONTROL End]** activiteit van Werkschema 1 wordt bepaald.
+   Om dit te doen, open **[!UICONTROL External signal]** activiteit, dan voeg de naam en het type van elke parameter toe die in **[!UICONTROL End]** activiteit van Workflow 1 wordt bepaald.
 
    ![](assets/extsignal_uc8.png)
 
-1. Gebruik het publiek dat in Werkstroom 1 is opgeslagen. U doet dit door een **[!UICONTROL Read audience]** activiteit naar de werkstroom te slepen en vervolgens te openen.
-1. Selecteer de **[!UICONTROL Use a dynamic audience]** optie en gebruik vervolgens de parameter **fileToTarget** als de naam van het publiek dat u wilt lezen:
+1. Gebruik het publiek dat in Werkstroom 1 is opgeslagen. Hiervoor sleept u een **[!UICONTROL Read audience]**-activiteit naar de workflow en opent u deze.
+1. Selecteer de optie **[!UICONTROL Use a dynamic audience]** en gebruik vervolgens de parameter **fileToTarget** als de naam van het publiek dat u wilt lezen:
 
    ```
    $(vars/@fileToTarget)
@@ -156,9 +156,9 @@ Voer de onderstaande stappen uit om de workflow te configureren:
 
    ![](assets/extsignal_uc9.png)
 
-1. Noem de uitgaande overgang volgens de **segmentCode** parameter.
+1. Geef de uitgaande overgang een naam volgens de parameter **segmentCode**.
 
-   To do this, select the **[!UICONTROL Transition]** tab, then the **[!UICONTROL Use a dynamic segment code]** option.
+   Om dit te doen, selecteer **[!UICONTROL Transition]** tabel, dan **[!UICONTROL Use a dynamic segment code]** optie.
 
 1. Gebruik de **segmentCode** parameter als naam van de uitgaande overgang:
 
@@ -169,16 +169,16 @@ Voer de onderstaande stappen uit om de workflow te configureren:
    ![](assets/extsignal_uc10.png)
 
 1. Sleep een **[!UICONTROL Email delivery]** activiteit om een bericht naar het publiek te verzenden.
-1. Identificeer de parameters in het bericht te gebruiken om het met de parameter **discontoDesc** te personaliseren. Hiervoor opent u de geavanceerde opties van de activiteit en voegt u vervolgens de parameternaam en -waarde toe.
+1. Identificeer de parameters in het bericht te gebruiken om het met de **discontoDesc** parameter te personaliseren. Hiervoor opent u de geavanceerde opties van de activiteit en voegt u vervolgens de parameternaam en -waarde toe.
 
    ![](assets/extsignal_uc10b.png)
 
-1. U kunt het bericht nu vormen. Open de activiteit en selecteer vervolgens **[!UICONTROL Recurring email]**.
+1. U kunt het bericht nu vormen. Open de activiteit en selecteer **[!UICONTROL Recurring email]**.
 
    ![](assets/extsignal_uc11.png)
 
 1. Selecteer de sjabloon die u wilt gebruiken en definieer de e-maileigenschappen naar wens.
-1. Gebruik de parameter **kortingDesc** als verpersoonlijkingsgebied. Selecteer dit in de lijst met personalisatievelden.
+1. Gebruik de **discontoDesc** parameter als verpersoonlijkingsgebied. Selecteer dit in de lijst met personalisatievelden.
 
    ![](assets/extsignal_uc13.png)
 
@@ -186,6 +186,6 @@ Voer de onderstaande stappen uit om de workflow te configureren:
 
    ![](assets/extsignal_uc14.png)
 
-## Workflows uitvoeren {#executing-the-workflows}
+## De workflows uitvoeren {#executing-the-workflows}
 
 Nadat de workflows zijn samengesteld, kunt u deze uitvoeren. Zorg ervoor dat de twee workflows zijn gestart voordat u de API-aanroep uitvoert.
