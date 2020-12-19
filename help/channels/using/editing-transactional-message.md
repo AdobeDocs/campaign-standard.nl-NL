@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Een transactiebericht bewerken
+title: Een transactioneel bericht bewerken
 description: Leer hoe u een transactiemelding kunt openen, bewerken en personaliseren.
 audience: channels
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 59%
 ---
 
 
-# Een transactiebericht bewerken {#editing-transactional-message}
+# Een transactioneel bericht bewerken {#editing-transactional-message}
 
 Zodra u een gebeurtenis<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))--> hebt gecreeerd en gepubliceerd, wordt het overeenkomstige transactionele bericht automatisch gecreeerd.
 
