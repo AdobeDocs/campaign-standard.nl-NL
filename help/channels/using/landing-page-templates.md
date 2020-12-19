@@ -23,7 +23,7 @@ Campaign wordt geleverd met een aantal kant-en-klare sjablonen voor landingspagi
 * **[!UICONTROL Acquisition]**: dit is de standaardsjabloon voor landingspagina&#39;s waarmee u data in de Campaign-database kunt vastleggen en bijwerken.
 * **[!UICONTROL Subscription]**: deze sjabloon moet worden gebruikt om abonnementen op een service aan te bieden.
 * **[!UICONTROL Unsubscription]**: deze sjabloon kan worden gekoppeld via een e-mail die naar abonnees van een service wordt verzonden, zodat zij hun abonnement op deze service kunnen opzeggen.
-* **[!UICONTROL Denylist]**: deze sjabloon moet worden gebruikt wanneer een profiel niet langer wenst te worden gecontacteerd via Campaign. For more about denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **[!UICONTROL Denylist]**: deze sjabloon moet worden gebruikt wanneer een profiel niet langer wenst te worden gecontacteerd via Campaign. Raadpleeg [Informatie over opt-in en opt-out in Campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) voor meer informatie over het beheer van lijst van afgewezen personen.
 
 Deze sjablonen worden standaard voorgesteld bij het maken van een nieuwe landingspagina.
 
