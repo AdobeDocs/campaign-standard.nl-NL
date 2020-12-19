@@ -17,18 +17,18 @@ ht-degree: 4%
 
 # CCPA-opt-out beheren {#managing-ccpa-optout}
 
-De optiestatus van een profiel voor CCPA-bestanden kan worden gecontroleerd en beheerd met behulp van het **profiel ccpaOptOut** en de waarden &quot;true&quot; of &quot;false&quot;:
+De optiestatus van een profiel voor CCPA-bestanden kan worden gecontroleerd en beheerd met het profielkenmerk **ccpaOptOut** en de waarden &quot;true&quot; of &quot;false&quot;:
 
 `"ccpaOptOut": <value>`
 
-* **true**:  verbiedt de verkoop van persoonlijke informatie.
+* **true**: verbiedt de verkoop van persoonlijke informatie.
 * **false**: de verkoop van persoonlijke gegevens toestaat.
 
 >[!CAUTION]
 >
 >Het kenmerk &quot;Opt-Out CCPA&quot; is alleen beschikbaar vanaf 19.4. Voor 19.3-omgevingen moet u de profielbron uitbreiden en een Booleaans veld toevoegen. Dit veld wordt met het gekozen label toegevoegd aan de API. Wij adviseren u &quot;Opt-Out voor CCPA&quot;gebruikt.
 >
->Raadpleeg voor meer informatie de documentatie bij [het](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)beheren van privacyverzoeken.
+>Raadpleeg voor meer informatie de [documentatie over het beheren van privacyverzoeken](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
 <br/>
 
