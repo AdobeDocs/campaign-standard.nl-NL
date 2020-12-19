@@ -26,12 +26,12 @@ Het **[!UICONTROL Tracking indicators]** rapport bevat de belangrijkste indicato
 
 ![](assets/delivery_reports_2.png)
 
-De **[!UICONTROL Tracking indicators]** tabel en **Top 5 leveringen** bevatten de beschikbare gegevens voor e-mailtracking, zoals:
+De **[!UICONTROL Tracking indicators]** tabel en **Top 5 leveringen** grafiek bevatten de beschikbare gegevens voor e-mailtracking, zoals:
 
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden. Er wordt rekening gehouden met de geconstateerde fouten. er wordt echter geen rekening gehouden met klachten ( spamverklaringen ) en wegberichten zoals &quot; out of office &quot; .
 * **Openen**: Het aantal keren dat een bericht in een levering werd geopend.
 * **Klik**: Het aantal keren dat op inhoud is geklikt in een levering.
 * **Abonnement opgezegd**: Het aantal klikken op de abonnementkoppeling.
-* **Spam:** Het aantal ontvangers dat een e-mail heeft gedeclareerd als spam.
+* **Spam:** Het aantal ontvangers dat een e-mail als spam heeft gedeclareerd.
 * **Pagina** spiegelen: Het aantal klikken op de koppeling van de spiegelpagina.
 
