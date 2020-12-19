@@ -27,7 +27,7 @@ Het principe is om een e-mail te verzenden om de instemming van bezoekers te bev
 
 Hiervoor gaat u als volgt te werk:
 
-1. Maak en publiceer een landingspagina zodat de bezoekers zich kunnen registreren en inschrijven. Deze landingspagina is beschikbaar vanaf een website. Visitors who fill in and submit this landing page will be stored in the database but added to the denylist, in order not to receive any communication before the final validation (see [Denylist management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Maak en publiceer een landingspagina zodat de bezoekers zich kunnen registreren en inschrijven. Deze landingspagina is beschikbaar vanaf een website. Bezoekers die deze landingspagina invullen en verzenden, worden in de database opgeslagen maar aan de lijst van afgewezen personen toegevoegd om geen communicatie te ontvangen vóór de laatste validatie (zie [Beheer van Lijst van afgewezen personen in Campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Maak en verzend automatisch de opt-in e-mail met een bevestigingskoppeling. Deze e-mail is bedoeld voor de populatie die de landingspagina heeft ingediend. De mail is gebaseerd op een e-mailsjabloon die het mogelijk maakt opt-outprofielen doelgericht te benaderen.
 1. Stuur bezoekers door naar een landingspagina voor bevestiging. Op deze laatste landingspagina wordt een bevestigingsknop voorgesteld waarop de bezoekers moeten klikken. U kunt een welkomst-e-mail ontwerpen die wordt verzonden wanneer de bevestiging is voltooid en bijvoorbeeld een speciale aanbieding voor nieuwe ontvangers aan de e-mail toevoegen.
 
@@ -101,7 +101,7 @@ U moet een specifieke [typologie](../../sending/using/about-typology-rules.md) m
 1. Selecteer vanaf het Adobe Campaign-logo de optie **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** en klik op **[!UICONTROL Typologies]**.
 1. Dupliceer de kant-en-klare typologie **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Zodra de duplicatie is bevestigd, bewerkt u de nieuwe typologie en voert u het label **TYPOLOGY_PROFILE** in.
-1. Verwijder het **Adres op de regel van de lijst van afgewezen personen** .
+1. Verwijder **Adres op lijst van afgewezen personen** regel.
 1. Klik op **[!UICONTROL Save]**.
 
 Deze typologie kan nu worden gekoppeld aan de bevestigings-e-mail.
