@@ -27,7 +27,7 @@ Indien gewenst, kan de integratie worden gevormd om profiel uit te geven schrapt
 
 Een profielverwijdering is echter anders dan een privacyverwijdering. Een privacyschrapping in Campagne zal het het profielverslag van de Campagne en bijbehorende logboekingangen verwijderen; overwegende dat een regelmatige profielschrapping slechts het ACS profielverslag zal schrappen, verlatend resten in de logboeken van de Campagne.
 
-Als de functie voor het verwijderen van profielen is ingeschakeld in de integratie, moeten aanvullende stappen worden uitgevoerd om privacyverzoeken van betrokkenen correct te verwerken. Raadpleeg de stappen in de [onderstaande](#manage-privacy-requests)sectie.
+Als de functie voor het verwijderen van profielen is ingeschakeld in de integratie, moeten aanvullende stappen worden uitgevoerd om privacyverzoeken van betrokkenen correct te verwerken. Verwijs naar de stappen in [sectie hieronder](#manage-privacy-requests).
 
 ## Privacy
 
@@ -39,7 +39,7 @@ De integratie geeft geen privacy van de betrokkene weer (bv. GDPR) en schrapt of
 
 Als u de integratie hebt gevormd om regelmatige profiel uit te geven schrapt vraag aan Campagne wanneer een contact in Dynamiek 365 wordt geschrapt, zouden de stappen hieronder moeten worden gevolgd. Zorg ervoor dat de record in kwestie tijdens dit proces niet wordt bijgewerkt.
 
-1. Aanvraag voor privacyverwijdering aan [Adobe Experience Platform Privacy Service afgeven](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+1. Verzoek om privacyverwijdering verzenden naar [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 
 1. Verzoek van de monitor tot het met succes is voltooid
 
@@ -60,7 +60,7 @@ Hieronder vindt u koppelingen die u helpen bij het implementeren van verzoeken o
 
 Als om het even welk dossier van de Bron douane van de Campagne persoonlijke informatie bevat, toepasselijk op het gebruik van een klant van Campagne, zou zulk verslag aan een overeenkomstig het profielverslag van de Campagne (of direct of door een andere douanemiddel) moeten worden verbonden zodat een privacy verwante schrapping in het profielverslag het verbonden douanemiddelverslag met persoonlijke informatie kan ook schrappen; de koppelings- en verwijderingsopties tussen de entiteiten moeten zo zijn geconfigureerd dat deze trapsgewijze verwijdering van de gekoppelde records mogelijk is. Persoonlijke gegevens moeten niet worden ingevoerd in een aangepaste bron die niet aan het profiel is gekoppeld.
 
-Leer hoe u campagnebronnen en Dynamics 365-entiteiten [in deze sectie](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)in kaart brengt.
+Leer hoe te om de middelen van de Campagne en Dynamiek 365 entiteiten [in deze sectie ](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md) in kaart te brengen.
 
 ## Uitschakelen
 
@@ -99,7 +99,7 @@ De integratie in de onderstaande gebruiksgevallen zal uw opslag van de Campagne 
 
 Deze integratie zal contacten en douaneentiteiten van Dynamiek 365 aan Campagne synchroniseren. Campagnerecords die buiten de integratie worden gemaakt (d.w.z. die niet door de synchronisatietaak worden gemaakt), worden niet door de integratie gewijzigd, inclusief Campagne-records die op het moment van de integratieconfiguratie bestaan.
 
-Omdat deze integratie het **[!UICONTROL externalId]** gebied in Campagne gebruikt om het profielverslagen van de Campagne met Dynamiek 365 contactverslagen te synchroniseren, moet dit gebied van de Campagne (**[!UICONTROL externalId]** ) met Dynamiek 365 **[!UICONTROL contactId]** voor de verslagen worden bevolkt u van Dynamiek 365 wenst te worden gesynchroniseerd.  De entiteiten van de douane worden ook gesynchroniseerd gebruikend een Dynamica 365 unieke identiteitskaart. De aangepaste entiteit Campagne moet dit id-kenmerk opnemen als tabelkolom. De kolom externalId kan worden gebruikt om deze attributenwaarde op te slaan, maar het wordt niet vereist voor de douane van de Campagne entiteiten.
+Omdat deze integratie het **[!UICONTROL externalId]** gebied in Campagne gebruikt om het profielverslagen van de Campagne met Dynamiek 365 contactverslagen te synchroniseren, moet dit gebied van de Campagne (**[!UICONTROL externalId]**) met Dynamica 365 **[!UICONTROL contactId]** voor de verslagen worden bevolkt u van Dynamiek 365 wenst te worden gesynchroniseerd.  De entiteiten van de douane worden ook gesynchroniseerd gebruikend een Dynamica 365 unieke identiteitskaart. De aangepaste entiteit Campagne moet dit id-kenmerk opnemen als tabelkolom. De kolom externalId kan worden gebruikt om deze attributenwaarde op te slaan, maar het wordt niet vereist voor de douane van de Campagne entiteiten.
 
 Onthoud, dat de Dynamiek 365 nog de bron van waarheid is, en dat de het profielgegevens van de Campagne kunnen worden beschreven aangezien de integratie updates aan de Dynamica 365 kant ontdekt.  Afhankelijk van uw bestaande implementatie kunnen er ook andere stappen vereist zijn om de integratie in te schakelen. daarom wordt aanbevolen nauw samen te werken met uw technische Adobe-contactpersoon.
 
