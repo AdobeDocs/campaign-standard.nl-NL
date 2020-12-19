@@ -48,19 +48,19 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Lijst van afgewezen personen<br /> </td> 
+   <td> Lijst van afgewezen personen snelheid<br /> </td> 
    <td> @rateBlacklist<br /> </td> 
    <td> @blacklist/@sent<br /> </td> 
-   <td> De noemer voor de berekening van de rente is gebaseerd op het aantal verzonden (Geleverd + Bounces).<br /> </td> 
+   <td> De noemer voor het berekenen van het tarief is gebaseerd op Verzonden telling (Geleverd + Stemmen).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounces + fouten<br /> </td> 
+   <td> Stuiterwaarden + fouten<br /> </td> 
    <td> @bounces<br /> </td> 
    <td> count(@status=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Stuiteren + foutenfrequentie<br /> </td> 
+   <td> Bounce + foutenfrequentie<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> @bounces/@sent<br /> </td> 
    <td> </td> 
@@ -72,34 +72,34 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Klikken tot snelheid<br /> </td> 
+   <td> Klikken door frequentie<br /> </td> 
    <td> @clickthrough<br /> </td> 
-   <td> @uniqueclicks/@bezorgd<br /> </td> 
-   <td> De noemer voor de berekening van het tarief is gebaseerd op slechts Geleverd.<br /> </td> 
+   <td> @uniqueclicks/@delivery<br /> </td> 
+   <td> De noemer voor tariefberekening is gebaseerd op slechts Geleverd.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Geleverd<br /> </td> 
-   <td> @loaded<br /> </td> 
+   <td> Afgeleverd<br /> </td> 
+   <td> @levering<br /> </td> 
    <td> count(@status=1)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Afgeleverde rente<br /> </td> 
+   <td> Afgeleverde snelheid<br /> </td> 
    <td> @rateDelivered<br /> </td> 
-   <td> @delivery/@sent<br /> </td> 
-   <td> De noemer voor de berekening van de rente is gebaseerd op het aantal verzonden (Geleverd + Bounces).<br /> </td> 
+   <td> @levering/@sent<br /> </td> 
+   <td> De noemer voor het berekenen van het tarief is gebaseerd op Verzonden telling (Geleverd + Stemmen).<br /> </td> 
   </tr> 
   <tr> 
-   <td> Harde vlekken<br /> </td> 
+   <td> Harde grenzen<br /> </td> 
    <td> @hardBounces<br /> </td> 
    <td> count(@failureType=2 EN @failureReason=8)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Fel-stallatiesnelheid<br /> </td> 
+   <td> Harde-stuiteringsfrequentie<br /> </td> 
    <td> @rateHardBounces<br /> </td> 
    <td> @hardBounces/@sent<br /> </td> 
-   <td> De noemer voor de berekening van de rente is gebaseerd op het aantal verzonden (Geleverd + Bounces).<br /> </td> 
+   <td> De noemer voor het berekenen van het tarief is gebaseerd op Verzonden telling (Geleverd + Stemmen).<br /> </td> 
   </tr> 
   <tr> 
    <td> Ongeldig domein<br /> </td> 
@@ -108,7 +108,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Postbus vol<br /> </td> 
+   <td> Mailbox full<br /> </td> 
    <td> @mailBoxFull<br /> </td> 
    <td> count(@failureReason=5)<br /> </td> 
    <td> </td> 
@@ -117,12 +117,12 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> Pagina spiegelen<br /> </td> 
    <td> @mirrorPage<br /> </td> 
    <td> count(@trackingUrlType=6)<br /> </td> 
-   <td> De noemer voor de berekening van het tarief is gebaseerd op slechts Geleverd.<br /> </td> 
+   <td> De noemer voor tariefberekening is gebaseerd op slechts Geleverd.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Paginasnelheid spiegelen<br /> </td> 
+   <td> Bezig met spiegelen van paginasnelheid<br /> </td> 
    <td> @rateMirrorPage<br /> </td> 
-   <td> @mirrorPage/@loaded<br /> </td> 
+   <td> @mirrorPage/@delivery<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -134,14 +134,14 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   <tr> 
    <td> Open<br /> </td> 
    <td> @uniqueOpens<br /> </td> 
-   <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2)<br /> </td> 
+   <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2))<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> Open rate<br /> </td> 
    <td> @rateOpens<br /> </td> 
-   <td> @open/@loaded<br /> </td> 
-   <td> De noemer voor de berekening van het tarief is gebaseerd op slechts Geleverd.<br /> </td> 
+   <td> @Opent/@bezorgd<br /> </td> 
+   <td> De noemer voor tariefberekening is gebaseerd op slechts Geleverd.<br /> </td> 
   </tr> 
   <tr> 
    <td> Quarantine<br /> </td> 
@@ -150,22 +150,22 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Quarantaine<br /> </td> 
+   <td> Quarantaine rate<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
-   <td> @quarantaine/@verzonden<br /> </td> 
-   <td> De noemer voor de berekening van de rente is gebaseerd op het aantal verzonden (Geleverd + Bounces).<br /> </td> 
+   <td> @quarantaine/@sent<br /> </td> 
+   <td> De noemer voor het berekenen van het tarief is gebaseerd op Verzonden telling (Geleverd + Stemmen).<br /> </td> 
   </tr>
   <tr> 
-   <td> Geweigerd<br /> </td> 
-   <td> @geweigerd<br /> </td> 
+   <td> Afgewezen<br /> </td> 
+   <td> @removed<br /> </td> 
    <td> count(@failureReason=20, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Geweigerde snelheid<br /> </td> 
+   <td> Afgewezen snelheid<br /> </td> 
    <td> @rateRejected<br /> </td> 
-   <td> @geweigerd/@verzonden<br /> </td> 
-   <td> De noemer voor de berekening van de rente is gebaseerd op het aantal verzonden (Geleverd + Bounces).<br /> </td> 
+   <td> @geweigerd/@sent<br /> </td> 
+   <td> De noemer voor het berekenen van het tarief is gebaseerd op Verzonden telling (Geleverd + Stemmen).<br /> </td> 
   </tr> 
   <tr> 
    <td> Verwerkt/verzonden<br /> </td> 
@@ -183,23 +183,23 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> Zachte stuitsnelheid<br /> </td> 
    <td> @rateSoftBounces<br /> </td> 
    <td> @softBounces/@sent<br /> </td> 
-   <td> De noemer voor de berekening van de rente is gebaseerd op het aantal verzonden (Geleverd + Bounces).<br /> </td> 
+   <td> De noemer voor het berekenen van het tarief is gebaseerd op Verzonden telling (Geleverd + Stemmen).<br /> </td> 
   </tr> 
   <tr> 
    <td> Unieke klikken<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
+   <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. Voor meer op dit, verwijs naar dit <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unieke openingen<br /> </td> 
-   <td> @uniqueOpenen<br /> </td> 
+   <td> Uniek wordt geopend<br /> </td> 
+   <td> @uniqueopened<br /> </td> 
    <td> unique(@trackingUrlType=1,2,3,6,10,11)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> Onbereikbaar <br /> </td> 
-   <td> @onbereikbaar<br /> </td> 
+   <td> @unbereikable<br /> </td> 
    <td> count(@failureReason=3)<br /> </td> 
    <td> </td> 
   </tr> 
@@ -212,8 +212,8 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   <tr> 
    <td> Abonnement opzeggen<br /> </td> 
    <td> @rateUnsubscribes<br /> </td> 
-   <td> @unsubscribes/@loaded<br /> </td> 
-   <td> De noemer voor de berekening van het tarief is gebaseerd op slechts Geleverd.<br /> </td> 
+   <td> @unsubscribes/@delivery<br /> </td> 
+   <td> De noemer voor tariefberekening is gebaseerd op slechts Geleverd.<br /> </td> 
   </tr> 
   <tr> 
    <td> Gebruiker onbekend<br /> </td> 
@@ -241,23 +241,23 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> @count(status=sent)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Geleverd<br /> </td> 
-   <td> @loaded<br /> </td> 
+   <td> Afgeleverd<br /> </td> 
+   <td> @levering<br /> </td> 
    <td> @count(status=bezorgd)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Afgeleverde rente<br /> </td> 
+   <td> Afgeleverde snelheid<br /> </td> 
    <td> @rateDelivered<br /> </td> 
-   <td> (@bezorgd/@verzonden)*100<br /> </td> 
+   <td> (@delivery/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Stuiteren + foutenfrequentie<br /> </td> 
+   <td> Bounce + foutenfrequentie<br /> </td> 
    <td> @rateBounces<br /> </td> 
-   <td> (@bezorgd/@verzonden)*100<br /> </td> 
+   <td> (@delivery/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
    <td> Open<br /> </td> 
-   <td> @opens<br /> </td> 
+   <td> @open<br /> </td> 
    <td> @count(status=open)<br /> </td> 
   </tr> 
   <tr> 
@@ -266,9 +266,9 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> (@opent/@bezorgd)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unieke openingen<br /> </td> 
-   <td> @uniqueOpenen<br /> </td> 
-   <td> Unieke opent wordt berekend gebruikend de concepten van Schets van unieke RecipientIds. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
+   <td> Uniek wordt geopend<br /> </td> 
+   <td> @uniqueopened<br /> </td> 
+   <td> Unieke opent wordt berekend gebruikend de concepten van Schets van unieke RecipientIds. Voor meer op dit, verwijs naar dit <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressies<br /> </td> 
@@ -278,7 +278,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   <tr> 
    <td> Unieke afbeeldingen<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
-   <td> @unique(@count(status=view)<br /> </td> 
+   <td> @unique(@count(status=view))<br /> </td> 
   </tr> 
   <tr> 
    <td> Klik op<br /> </td> 
@@ -288,10 +288,10 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   <tr> 
    <td> Unieke klikken<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
+   <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. Voor meer op dit, verwijs naar dit <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Klikken tot snelheid<br /> </td> 
+   <td> Klikken door frequentie<br /> </td> 
    <td> @clickthrough<br /> </td> 
    <td> (@interact/@bezorgd)*100<br /> </td> 
   </tr> 
@@ -317,43 +317,43 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> sent=delivery<br /> </td> 
   </tr> 
   <tr> 
-   <td> Geleverd<br /> </td> 
-   <td> @loaded<br /> </td> 
+   <td> Afgeleverd<br /> </td> 
+   <td> @levering<br /> </td> 
    <td> @count(status=bezorgd)<br /> </td> 
-   <td> delivery=sent<br /> </td> 
+   <td> bezorgd=sent<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressies<br /> </td> 
    <td> @impressions<br /> </td> 
-   <td> @count(status=view) of @count(status=knop 1 klik + knop 2 klik + ontslag)<br /> </td> 
+   <td> @count(status=view) of @count(status=button 1 klik + knoop 2 klik + ontslagmiddelen)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> Unieke afbeeldingen<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
-   <td> @unique(@count(status=view)<br /> </td> 
-   <td> Voor <span class="uicontrol">doelgebruikers die zijn gebaseerd op hun sjabloon Campagneprofiel (inAppProfile)</span> , is gebruiker = Ontvangersidentiteitskaart<br /> Voor <span class="uicontrol">Doel: alle gebruikers van een mobiele app (inAppBroadcast)</span> en <span class="uicontrol">doelgebruikers op basis van hun sjablonen voor hun mobiele profiel (inApp)</span> . Dit is de gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
+   <td> @unique(@count(status=view))<br /> </td> 
+   <td> Voor <span class="uicontrol">Doelgebruikers die op hun profiel van de Campagne (inAppProfile)</span> malplaatje worden gebaseerd, gebruiker = Ontvangersidentiteitskaart<br /> Voor  <span class="uicontrol">Doel: alle gebruikers van een mobiele app (inAppBroadcast)</span> en  <span class="uicontrol">doelgebruikers op basis van hun mobiele-profielsjablonen (inApp)</span> voor de gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-app klikken <br /> </td> 
+   <td> In-app klikt <br /> </td> 
    <td> @inappclicks<br /> </td> 
-   <td> @count (status=klikken)<br /> </td> 
+   <td> @count (status=click)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unieke muisklikken in de app<br /> </td> 
+   <td> Unieke klik in de app<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
-   <td> @unique(@count (status=click)<br /> </td> 
-   <td> Voor <span class="uicontrol">doelgebruikers die zijn gebaseerd op hun sjabloon Campagneprofiel (inAppProfile)</span> , is gebruiker = Ontvangersidentiteitskaart<br /> Voor <span class="uicontrol">Doel: alle gebruikers van een mobiele app (inAppBroadcast)</span> en <span class="uicontrol">doelgebruikers op basis van hun sjablonen voor hun mobiele profiel (inApp)</span> . Dit is de gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
+   <td> @unique(@count (status=click))<br /> </td> 
+   <td> Voor <span class="uicontrol">Doelgebruikers die op hun profiel van de Campagne (inAppProfile)</span> malplaatje worden gebaseerd, gebruiker = Ontvangersidentiteitskaart<br /> Voor  <span class="uicontrol">Doel: alle gebruikers van een mobiele app (inAppBroadcast)</span> en  <span class="uicontrol">doelgebruikers op basis van hun mobiele-profielsjablonen (inApp)</span> voor de gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-app klikfrequentie<br /> </td> 
+   <td> In-app klik door tarief<br /> </td> 
    <td> @inappclickthrough<br /> </td> 
-   <td> De totale kliks op Knoop 1 of Knoop 2/totale beelden*100<br /> </td> 
+   <td> Het totaal klikt op Knoop 1 of Knoop 2/totale drukken*100<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Ontslag in de app<br /> </td> 
+   <td> In-app ontslag<br /> </td> 
    <td> @dismission<br /> </td> 
    <td> @count (status=close)<br /> </td> 
    <td> </td> 
@@ -361,8 +361,8 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   <tr> 
    <td> Unieke ontslagen in de app<br /> </td> 
    <td> @uniquedismission<br /> </td> 
-   <td> @unique(@count (status=close)<br /> </td> 
-   <td> Voor <span class="uicontrol">doelgebruikers die zijn gebaseerd op hun sjabloon Campagneprofiel (inAppProfile)</span> , is gebruiker = Ontvangersidentiteitskaart<br /> Voor <span class="uicontrol">Doel: alle gebruikers van een mobiele app (inAppBroadcast)</span> en <span class="uicontrol">doelgebruikers op basis van hun sjablonen voor hun mobiele profiel (inApp)</span> . Dit is de gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
+   <td> @unique(@count (status=close))<br /> </td> 
+   <td> Voor <span class="uicontrol">Doelgebruikers die op hun profiel van de Campagne (inAppProfile)</span> malplaatje worden gebaseerd, gebruiker = Ontvangersidentiteitskaart<br /> Voor  <span class="uicontrol">Doel: alle gebruikers van een mobiele app (inAppBroadcast)</span> en  <span class="uicontrol">doelgebruikers op basis van hun mobiele-profielsjablonen (inApp)</span> voor de gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
   </tr> 
   <tr> 
    <td> Ontslagfrequentie in de app<br /> </td> 
