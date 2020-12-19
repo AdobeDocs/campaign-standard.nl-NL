@@ -32,7 +32,7 @@ Er zijn vier uitvoeringsopdrachten beschikbaar om een workflow te besturen:
 * Hervatten
 * Stoppen
 
-Raadpleeg de documentatie bij [Campagne voor meer informatie over de uitvoeringsopdrachten](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
+Raadpleeg de [Campagne-documentatie](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html) voor meer informatie over de uitvoeringsopdrachten.
 
 <br/>
 
