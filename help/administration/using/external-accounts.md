@@ -30,7 +30,7 @@ U kunt de volgende typen externe accounts instellen:
 * Adobe Analytics. Zie [deze sectie](../../integrating/using/configure-campaign-analytics-integration.md) voor meer informatie.
 * Google reCAPTCHA. Zie [deze sectie](#google-recaptcha-external-account) voor meer informatie.
 * Microsoft Azure Blob-opslag. Zie [deze sectie](#microsoft-azure-external-account) voor meer informatie.
-* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
+* OAuth 2.0. Raadpleeg [deze sectie](#oauth-account) voor meer informatie hierover.
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Om dergelijke problemen te voorkomen, wordt u aangeraden de onderstaande best pr
 * Meld u af en toe aan bij de SFTP om de content rechtstreeks te controleren.
 * Vergeet niet dat SFTP-schijfbeheer in de eerste plaats uw verantwoordelijkheid is.
 
-Ook, merk op dat openbare IPs waarvan u probeert om de verbinding in werking te stellen SFTP aan de lijst van gewenste personen op de instantie van de Campagne moet worden toegevoegd. Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
+Ook, merk op dat openbare IPs waarvan u probeert om de verbinding in werking te stellen SFTP aan de lijst van gewenste personen op de instantie van de Campagne moet worden toegevoegd. Het toevoegen van IP adressen aan de lijst van gewenste personen kan via een [steunkaartje ](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html), samen met het verstrekken van de openbare sleutel aan gebruik voor authentificatie worden gevraagd.
 
 SFTP-servers kunnen worden beheerd via het Configuratiescherm. Zie de [Configuratiescherm-documentatie](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html) voor meer informatie.
 
@@ -96,12 +96,12 @@ SFTP-servers kunnen worden beheerd via het Configuratiescherm. Zie de [Configura
 
 Geef voor een externe OAuth 2.0-rekening de volgende gegevens:
 
-* Een **subsidietype**: alleen **clientreferenties** worden ondersteund.
-* Een URL voor de **beveiligde API**: Voer het eindpunt van de vergunning in.
+* A **Grant type**: alleen **clientreferenties** wordt ondersteund.
+* A **Secure API URL**: Voer het eindpunt van de vergunning in.
 * **OAuth 2.0 gevoelige geloofsbrieven**: Deze sectie is bedoeld voor geloofsbrieven die van nature gevoelig zijn. Referentiewaarden worden op het scherm gemaskeerd nadat ze zijn toegevoegd. op dat moment zijn ze niet leesbaar of bewerkbaar . Als voor het eindpunt van de autorisatie een bepaalde referentie moet worden ingevoegd in de HTTP-autorisatieheader in plaats van in de hoofdtekst van de POST, kunt u de optie Opnemen in koptekst voor die referentie selecteren.
 * **OAuth 2.0 niet-gevoelige geloofsbrieven**: Deze sectie is bedoeld voor geloofsbrieven die in aard niet gevoelig zijn. De referentie-waarden zijn zichtbaar op het scherm nadat ze zijn toegevoegd. zij zullen ook bewerkbaar zijn .  Als voor het eindpunt van de autorisatie een bepaalde referentie moet worden ingevoegd in de HTTP-autorisatieheader in plaats van in de hoofdtekst van de POST, kunt u de optie Opnemen in koptekst voor die referentie selecteren.
 
-Wanneer het eind van de configuratie, klik op schakelaar **van de** Test om te verifiëren dat de externe rekening opstelling correct is.
+Wanneer het eind van de configuratie, klik op **Test schakelaar** om te verifiëren dat de externe rekening correct opstelling is.
 
 ![](assets/external_accounts_OAuth.png)
 
