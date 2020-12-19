@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Must-Read {#must-read}
+# {#must-read} moet worden gelezen
 
 ## Technische voorschriften
 
@@ -31,7 +31,7 @@ Alle API-bronnen zijn beschikbaar in **JSON** met een URL-extensie of in een HTT
 
 >[!NOTE]
 >
->Zonder extensie in de URL is de **json-indeling de standaardindeling** voor het inhoudstype.
+>Zonder extensie in de URL is de **json-indeling de standaardopmaak één** voor het inhoudstype.
 
 <br/>
 
@@ -61,7 +61,7 @@ Als de profielbron is uitgebreid met een veld met een aangepaste sleutel, kunt u
 
 Aangepaste toetsen kunnen niet worden gewijzigd met een PATCH-bewerking als de sleutelwaarde afwijkt van de oorspronkelijke sleutel of als u uw eigen zakelijke sleutel gebruikt als URI in plaats van de sleutel die door Adobe wordt verschaft.
 
-Gebruik een aangepaste sleutel alleen voor profielbronnen **op het** hoogste niveau. URL&#39;s worden geretourneerd door de API en mogen nooit door uzelf worden gemaakt.
+Gebruik een aangepaste sleutel alleen voor **profielbronnen op hoofdniveau**. URL&#39;s worden geretourneerd door de API en mogen nooit door uzelf worden gemaakt.
 
 <br/>
 
