@@ -26,7 +26,7 @@ De beschikbare acties zijn als volgt:
 
 **Starten**
 
-Met de ![](assets/play_darkgrey-24px.png) knop wordt een workflow uitgevoerd die vervolgens de status **In uitvoering** (blauw) krijgt. Als de werkstroom is gepauzeerd, wordt deze hervat, anders wordt deze gestart en worden de initiële activiteiten geactiveerd.
+Met de knop ![](assets/play_darkgrey-24px.png) wordt een workflow uitgevoerd die vervolgens de status **In progress** (blauw) krijgt. Als de werkstroom is gepauzeerd, wordt deze hervat, anders wordt deze gestart en worden de initiële activiteiten geactiveerd.
 
 >[!NOTE]
 >
@@ -34,33 +34,33 @@ Met de ![](assets/play_darkgrey-24px.png) knop wordt een workflow uitgevoerd die
 
 **Pauzeren**
 
-De ![](assets/pause_darkgrey-24px.png) knop pauzeert de uitvoering. De workflow neemt de status **Waarschuwing** (geel) over. Er zullen geen nieuwe activiteiten worden geactiveerd totdat de activiteiten worden hervat, maar de lopende activiteiten worden niet opgeschort.
+Met de knop ![](assets/pause_darkgrey-24px.png) wordt de uitvoering gepauzeerd. De workflow neemt de status **Waarschuwing** (geel) over. Er zullen geen nieuwe activiteiten worden geactiveerd totdat de activiteiten worden hervat, maar de lopende activiteiten worden niet opgeschort.
 
 **Stoppen**
 
-Met de ![](assets/stop_darkgrey-24px.png) knop wordt een workflow gestopt die wordt uitgevoerd en die vervolgens de status **Voltooid** (groen) krijgt. De bewerkingen die worden uitgevoerd, worden indien mogelijk onderbroken en de import of SQL-query&#39;s die worden uitgevoerd, worden onmiddellijk geannuleerd. U kunt de workflow niet hervatten vanaf de plaats waar deze is gestopt.
+De ![](assets/stop_darkgrey-24px.png) knoop houdt een werkschema tegen dat wordt uitgevoerd, die dan **voltooide** (groene) status zal nemen. De bewerkingen die worden uitgevoerd, worden indien mogelijk onderbroken en de import of SQL-query&#39;s die worden uitgevoerd, worden onmiddellijk geannuleerd. U kunt de workflow niet hervatten vanaf de plaats waar deze is gestopt.
 
 **Opnieuw starten**
 
-De ![](assets/pauseplay_darkgrey-24px.png) knop bestaat uit stoppen en een workflow opnieuw starten. In de meeste gevallen kunt u de toepassing sneller opnieuw starten. Het kan ook handig zijn om opnieuw starten te automatiseren wanneer het stoppen een bepaalde hoeveelheid tijd in beslag neemt, omdat de ![](assets/play_darkgrey-24px.png) knop alleen beschikbaar is wanneer de stop effectief is.
+De ![](assets/pauseplay_darkgrey-24px.png) knoop impliceert het tegenhouden, dan het opnieuw beginnen van een werkschema. In de meeste gevallen kunt u de toepassing sneller opnieuw starten. Het kan ook nuttig zijn om opnieuw beginnen te automatiseren zodra het tegenhouden een bepaalde hoeveelheid tijd vergt, omdat ![](assets/play_darkgrey-24px.png) knoop slechts beschikbaar is wanneer de stop effectief is.
 
 Wanneer een of meerdere activiteiten in een workflow zijn geselecteerd, kunt u andere handelingen uitvoeren, zoals:
 
 **Onmiddellijke uitvoering**
 
-Met de ![](assets/pending_darkgrey-24px.png) knop worden alle lopende activiteiten zo snel mogelijk gestart.
+Met de knop ![](assets/pending_darkgrey-24px.png) worden eventuele lopende activiteiten die zijn geselecteerd zo snel mogelijk gestart.
 
 **Normale uitvoering**
 
-Met de ![](assets/check_darkgrey-24px.png) knop activeert u gepauzeerde of gedeactiveerde activiteiten.
+Met de knop ![](assets/check_darkgrey-24px.png) activeert u gepauzeerde of gedeactiveerde activiteiten.
 
 **Uitvoering opgeschort**
 
-Met de ![](assets/check_pause_darkgrey-24px.png) knop wordt de workflow bij de geselecteerde activiteit onderbroken: deze taak en alle taken die erop volgen (in dezelfde vertakking) worden niet uitgevoerd.
+Met de knop ![](assets/check_pause_darkgrey-24px.png) wordt de workflow bij de geselecteerde activiteit gepauzeerd: deze taak en alle taken die erop volgen (in dezelfde vertakking) worden niet uitgevoerd.
 
 **Geen uitvoering**
 
-Met de ![](assets/checkdisable.png) knop worden geselecteerde activiteiten gedeactiveerd.
+Met de knop ![](assets/checkdisable.png) worden geselecteerde activiteiten gedeactiveerd.
 
 >[!NOTE]
 >
