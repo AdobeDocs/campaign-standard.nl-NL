@@ -35,7 +35,7 @@ Afhankelijk van de gewenste resultaten en de typen bewerkbare data zijn er versc
 
 >[!NOTE]
 >
->Aanvullende functies zijn beschikbaar in alle activiteiten waarmee u gebeurtenisvariabelen kunt gebruiken nadat u een workflow met externe parameters hebt aangeroepen. Deze worden in [deze sectie](../../automating/using/customizing-workflow-external-parameters.md)beschreven.
+>Aanvullende functies zijn beschikbaar in alle activiteiten waarmee u gebeurtenisvariabelen kunt gebruiken nadat u een workflow met externe parameters hebt aangeroepen. Deze worden beschreven in [deze sectie](../../automating/using/customizing-workflow-external-parameters.md).
 
 ## Datums {#dates}
 
