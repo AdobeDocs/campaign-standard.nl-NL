@@ -58,7 +58,7 @@ De activiteit **[!UICONTROL Query]** kan voor diverse doeleinden worden gebruikt
 
 1. Op het tabblad **[!UICONTROL Transition]** kunt u met de optie **[!UICONTROL Enable an outbound transition]** een uitgaande overgang toevoegen na de queryactiviteit, zelfs als hierbij geen data worden opgehaald.
 
-   The outbound transition&#39;s segment code can be personalized using a standard expression and events variables (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
+   De het segmentcode van de uitgaande overgang kan worden gepersonaliseerd gebruikend een standaarduitdrukking en gebeurtenisvariabelen (zie [deze pagina](../../automating/using/customizing-workflow-external-parameters.md)).
 
 1. Bevestig de configuratie van uw activiteit en sla de workflow op.
 
@@ -66,7 +66,7 @@ De activiteit **[!UICONTROL Query]** kan voor diverse doeleinden worden gebruikt
 
 Met targetingdimensies en bronnen definieert u de elementen waarop een query wordt gebaseerd om de target van een levering te bepalen.
 
-Zij worden gevormd in [doelafbeeldingen](../../administration/using/target-mappings-in-campaign.md), en worden bepaald wanneer het creëren van een werkschema, op het **[!UICONTROL Properties]** lusje van een activiteit van de Vraag.
+Zij worden gevormd in [doelafbeeldingen](../../administration/using/target-mappings-in-campaign.md), en worden bepaald wanneer het creëren van een werkschema, op **[!UICONTROL Properties]** lusje van een activiteit van de Vraag.
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ Voorbeeld van beschikbare filters voor de bron **[!UICONTROL Deliveries (deliver
 
 Standaard worden de targetingdimensie en bron ingesteld om profielen te targetten. Maar soms is het handig om een andere bron te gebruiken dan de targetingdimensie als u wilt zoeken naar een specifieke record in een verafgelegen tabel.
 
-Raadpleeg het volgende gebruiksgeval voor meer informatie: [Bronnen gebruiken die verschillen van doelgerichte dimensies](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+Raadpleeg het volgende gebruiksgeval voor meer informatie: [Andere bronnen gebruiken dan voor doeldimensies](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## Data verrijken {#enriching-data}
 
@@ -118,7 +118,7 @@ Nadat u aanvullende data hebt toegevoegd, kunt u een extra filterniveau toepasse
 >
 >Standaard is de optie **[!UICONTROL Remove duplicate rows (DISTINCT)]** ingeschakeld op het tabblad **[!UICONTROL Advanced options]** van de **[!UICONTROL Additional data]** query. Als de activiteit **[!UICONTROL Query]** veel (vanaf 100) extra gedefinieerde data bevat, kunt u deze optie het beste uitschakelen omdat anders het systeem erg traag kan worden. Houd er rekening mee dat u door deze optie uit te schakelen, mogelijk ook duplicaten ophaalt. Dit is afhankelijk van de data in de query.
 
-In [deze sectie](../../automating/using/personalizing-email-with-additional-data.md)wordt een gebruiksscenario weergegeven voor het aanpassen van e-mails met aanvullende gegevens.
+Een gebruiksgeval op hoe te om een e-mail met extra gegevens te personaliseren wordt voorgesteld in [deze sectie](../../automating/using/personalizing-email-with-additional-data.md).
 
 ### Een eenvoudig veld toevoegen {#adding-a-simple-field}
 
