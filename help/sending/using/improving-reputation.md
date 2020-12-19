@@ -22,7 +22,7 @@ Verwijder dubbele e-mailadressen van uw doel om te voorkomen dat de ontvangers u
 
 Hieronder vindt u meer informatie over duplicaat- en quarantainebeheer.
 
-## Duplicaten {#duplicates}
+## Dupliceert {#duplicates}
 
 Het hebben van dubbele e-mailadressen kan veelvoudige gevolgen hebben:
 * Hetzelfde bericht wordt meerdere keren verzonden. Zelfs als Campagne standaard een deduplicatieprocedure uitvoert voordat het wordt verzonden, is er niets om te voorkomen dat hetzelfde bericht wordt verzonden door verschillende handelingen met dezelfde inhoud wanneer een doel wordt gesplitst.
@@ -44,4 +44,4 @@ Adobe Campaign beheert een lijst met in quarantaine geplaatste adressen. De ontv
 
 Het quarantainebeheer wordt beschreven in [deze sectie](../../sending/using/understanding-quarantine-management.md).
 
-Een e-mailadres kan in quarantaine worden geplaatst bijvoorbeeld wanneer inbox volledig is of als het adres niet bestaat. In alle gevallen, beantwoordt quarantining aan de specifieke regels die in [deze sectie](../../sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)worden voorgesteld.
+Een e-mailadres kan in quarantaine worden geplaatst bijvoorbeeld wanneer inbox volledig is of als het adres niet bestaat. In alle gevallen, beantwoordt quarantining aan de specifieke regels die in [deze sectie](../../sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine) worden voorgesteld.
