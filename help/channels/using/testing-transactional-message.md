@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Een transactiebericht testen
+title: Een transactioneel bericht testen
 description: Leer hoe je een transactiebericht test in Adobe Campaign.
 audience: channels
 content-type: reference
