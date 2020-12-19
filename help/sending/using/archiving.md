@@ -21,7 +21,7 @@ U kunt Adobe Campaign zo configureren dat een kopie van de e-mails die via e-mai
 
 Met name als uw organisatie alle uitgaande e-mailberichten moet archiveren voor naleving, kunt u deze mogelijkheid inschakelen. Hiermee kunt u een exacte verborgen kopie van de bijbehorende verzonden berichten verzenden naar een BCC-e-mailadres (onzichtbaar voor de ontvangers van de zending) dat u moet opgeven.
 
-Als deze optie eenmaal is ingeschakeld, moet u de e-mail BCC activeren via de **[!UICONTROL Archive emails]** optie in de sjabloon voor het verzenden van e-mail.
+Als deze optie eenmaal is ingeschakeld, moet u de optie BCC via e-mail activeren via de optie **[!UICONTROL Archive emails]** in de sjabloon voor het verzenden van e-mail.
 
 >[!NOTE]
 >
@@ -40,19 +40,19 @@ Als deze optie eenmaal is ingeschakeld, moet u de e-mail BCC activeren via de **
 >
 >De gearchiveerde e-mails kunnen momenteel niet worden verzonden met de verbeterde MTA van Adobe Campaign, zelfs niet als u al bent geüpgraded naar de verbeterde MTA.
 
-## E-mailarchivering activeren {#activating-email-archiving}
+## E-mailarchivering {#activating-email-archiving} activeren
 
-Nadat e-mail-BCC is ingeschakeld, wordt deze geactiveerd in de [e-mailsjabloon](../../start/using/marketing-activity-templates.md)via een speciale optie:
+Nadat e-mail BCC is ingeschakeld, wordt deze geactiveerd in de [e-mailsjabloon](../../start/using/marketing-activity-templates.md) via een speciale optie:
 
 1. Ga naar **Bronnen** > **Sjablonen** > **Leveringssjablonen**.
-1. Dupliceer de out-of-box **[!UICONTROL Send via email]** sjabloon.
+1. Dupliceer de uit-van-doos **[!UICONTROL Send via email]** malplaatje.
 1. Selecteer de gedupliceerde sjabloon.
-1. Click the **[!UICONTROL Edit properties]** button to edit the template&#39;s properties.
+1. Klik op de knop **[!UICONTROL Edit properties]** om de eigenschappen van de sjabloon te bewerken.
 1. Vouw de sectie **[!UICONTROL Send]** uit.
-1. Schakel het **[!UICONTROL Archive emails]** selectievakje in om een kopie van alle verzonden berichten te bewaren voor elke levering die op deze sjabloon is gebaseerd.
+1. Schakel het selectievakje **[!UICONTROL Archive emails]** in om een kopie van alle verzonden berichten te bewaren voor elke levering die op deze sjabloon is gebaseerd.
 
    ![](assets/email_archiving.png)
 
 >[!NOTE]
 >
->Als de e-mails die naar het BCC-adres worden verzonden worden geopend en doorgeklikt, wordt hiermee rekening gehouden in de analyse **[!UICONTROL Total opens]** en **[!UICONTROL Clicks]** de verzendanalyse, wat tot onjuiste berekeningen kan leiden.
+>Als de e-mails die naar het BCC-adres worden verzonden, worden geopend en doorgeklikt, wordt hiermee rekening gehouden in de **[!UICONTROL Total opens]** en **[!UICONTROL Clicks]** van de verzendanalyse, wat tot onjuiste berekeningen kan leiden.
