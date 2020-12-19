@@ -27,4 +27,4 @@ U kunt verschillende typen e-mailberichten verzenden:
 * E-mails voor A/B-tests: test maximaal drie versies van een e-mailbericht.
 * Transactiee-mails: Eenvoudige e-mailberichten die worden geactiveerd op basis van het gedrag van uw klanten.
 
-Raadpleeg de sectie Aanbevolen procedures voor [levering voor meer informatie over de beste praktijken](../../sending/using/delivery-best-practices.md) bij het maken en verzenden van e-mails.
+Raadpleeg de sectie [Aanbevolen werkwijzen](../../sending/using/delivery-best-practices.md) voor informatie over de beste werkwijzen bij het maken en verzenden van e-mails.
