@@ -21,11 +21,11 @@ De volgende tips voor het oplossen van problemen helpen u de meest voorkomende p
 
 **Is de functionaliteit geactiveerd?**
 
-Als u wilt controleren of de integratie Triggers - campagne is geactiveerd, klikt u op het Adobe Campaign-logo in de linkerbovenhoek en selecteert u **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. Je moet het **[!UICONTROL Experience Cloud Triggers]** object zien.
+Als u wilt controleren of de integratie Triggers - campagne is geactiveerd, klikt u op het Adobe Campaign-logo in de linkerbovenhoek en selecteert u **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. U zou het **[!UICONTROL Experience Cloud Triggers]** punt moeten zien.
 
 Ga naar de volgende stap als u deze ziet.
 
-Als dat niet het geval is, neemt u contact op met de Adobe-accountmanager of de professionele servicepartner. Zie De functionaliteit [activeren](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
+Als dat niet het geval is, neemt u contact op met de Adobe-accountmanager of de professionele servicepartner. Zie [De functionaliteit activeren](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
 
 **Probeer een trigger te maken**
 
@@ -45,7 +45,7 @@ Als de publicatie is gelukt, gaat u verder naar de volgende stap. Als dat niet h
 
 **De trigger van de website genereren**
 
-Voer de stappen uit die worden beschreven in het [bewerken van de transactiemalplaatje](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) om de transactiesjabloon te bewerken en te publiceren. Test vervolgens het genereren van de trigger van de website.
+Volg de stappen in [Het uitgeven van het transactionele berichtmalplaatje](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) worden beschreven om het transactiesjabloon uit te geven en te publiceren. Test vervolgens het genereren van de trigger van de website.
 
 Als de trigger wordt ontvangen door Analytics, gaat u naar de volgende stap. Indien niet, controleer de volgende punten:
 
