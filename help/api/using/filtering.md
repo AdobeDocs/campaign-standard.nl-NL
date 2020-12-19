@@ -19,7 +19,7 @@ ht-degree: 1%
 
 ## Metagegevens van filters ophalen
 
-Filters zijn beschikbaar voor elke bron. Om de filters te identificeren verbonden aan een middel, moet u een verzoek van de GET op de middelmeta-gegevens uitvoeren. Dit verzoek retourneert de URL waar alle filters zijn gedefinieerd voor een bepaalde bron. For more on metadata, refer to [this section](../../api/using/metadata-mechanism.md).
+Filters zijn beschikbaar voor elke bron. Om de filters te identificeren verbonden aan een middel, moet u een verzoek van de GET op de middelmeta-gegevens uitvoeren. Dit verzoek retourneert de URL waar alle filters zijn gedefinieerd voor een bepaalde bron. Raadpleeg [deze sectie](../../api/using/metadata-mechanism.md) voor meer informatie over metagegevens.
 
 Om de meta-gegevens van een filter te identificeren en te bepalen hoe te om het te gebruiken, moet u een verzoek van de GET op eerder teruggekeerde URL uitvoeren.
 
@@ -67,9 +67,9 @@ Voer een verzoek van de GET op URL uit. De lijst met filters voor de profielbron
 Voor elk filter is dezelfde metagegevensstructuur beschikbaar:
 
 * De velden **@formType** en **@webPage** zijn technische velden.
-* Het **gegevensveld** geeft een voorbeeld van het gebruik van het filter.
-* In het **knooppunt metadata** worden de filterparameters beschreven.
-* Het **voorwaardenknooppunt** beschrijft wat het filter moet doen. De filterparameters die in het metagegevensknooppunt worden beschreven, worden gebruikt om filtervoorwaarden te maken. Voor elke filtervoorwaarde, als **enabledIf** waar is, zal **expr** worden toegepast.
+* In het veld **data** wordt een voorbeeld gegeven van het gebruik van het filter.
+* De **metadata** knoop beschrijft de filterparameters.
+* De **condition** knoop beschrijft wat de filter bedoeld is te doen. De filterparameters die in het metagegevensknooppunt worden beschreven, worden gebruikt om filtervoorwaarden te maken. Voor elke filtervoorwaarde, als **enabledIf** waar is, **expr** zal worden toegepast.
 
 <br/>
 
@@ -133,7 +133,8 @@ Het is mogelijk meerdere filters te combineren in één aanvraag:
    }
    ```
 
-* Voorbeeld van een GET-aanvraag om de &quot;profiel&quot;-bronnen op te halen die &quot;Doe&quot; bevatten in de velden voor e-mail- of achternaam (het filter byText zoekt naar zowel de velden voor e-mail als achternaam).
+* Voorbeeld van een GET-verzoek om de &quot;profiel&quot;-bronnen met &quot;Doe&quot; op te halen in
+de velden voor de e-mail- of achternaam (het filter ByText zoekt naar zowel de velden voor de e-mail als de achternaam).
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
