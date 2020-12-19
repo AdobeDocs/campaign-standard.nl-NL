@@ -15,7 +15,7 @@ ht-degree: 8%
 ---
 
 
-# E-mailinhoud van verouderde editor converteren {#converting-an-html-content}
+# E-mailinhoud {#converting-an-html-content} van verouderde editor converteren
 
 Werk met de e-mailontwerper en maak herbruikbare sjablonen en fragmenten op van uw e-mailHTML die u hebt gemaakt in de Verouderde editor.
 
@@ -37,7 +37,7 @@ Met dit gebruiksgeval kunt u een E-mailDesigner-sjabloon maken door een HTML-e-m
 
 ## Uw e-mailstructuur maken
 
-1. Open het dialoogvenster **[!UICONTROL Email Designer]** om een lege e-mailinhoud te maken.
+1. Open **[!UICONTROL Email Designer]** om een lege e-mailinhoud tot stand te brengen.
 1. Stel de kenmerken voor het hoofdtekstniveau in: achtergrondkleuren, breedte, enz. Ga voor meer informatie naar [E-mailstijlen bewerken](../../designing/using/styles.md).
 1. Voeg zoveel structuurcomponenten toe als secties. Ga voor meer informatie naar [De e-mailstructuur bewerken](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
@@ -78,7 +78,7 @@ Met dit gebruiksgeval kunt u een E-mailDesigner-sjabloon maken door een HTML-e-m
 
 ## Gebruiksscenario
 
-Laten we proberen deze e-mail die in de verouderde editor is gemaakt, om te zetten in een **[!UICONTROL Email Designer]** sjabloon.
+Laten we proberen deze e-mail, gemaakt in de verouderde editor, om te zetten in een **[!UICONTROL Email Designer]**-sjabloon.
 
 ### Het gedeelte van uw e-mail identificeren
 
@@ -94,7 +94,7 @@ Klik op **[!UICONTROL Show source]** om de HTML-versie van de e-mail weer te gev
 
 ### De e-mailsjabloon en de structuur ervan maken
 
-1. Sleep en zet de lay-out van onze e-mail **[!UICONTROL Structure components]** in beeld.
+1. Sleep **[!UICONTROL Structure components]** om de lay-out van onze e-mail te weerspiegelen.
 
 1. Herhaal dit zo vaak als nodig is. We moeten elf structuurcomponenten maken.
 
@@ -102,11 +102,11 @@ Klik op **[!UICONTROL Show source]** om de HTML-versie van de e-mail weer te gev
 
 ### HTML-inhoudscomponenten invoegen
 
-1. Voeg een **[!UICONTROL HTML component]** insteekmodule in **[!UICONTROL Structure component]** .
+1. Voeg een **[!UICONTROL HTML component]** in elke **[!UICONTROL Structure component]** in.
 
    ![](assets/html-components.png)
 
-1. Klik voor elke sectie op **[!UICONTROL Show source code]** .
+1. Klik voor elke sectie op **[!UICONTROL Show source code]**.
 
    ![](assets/show-source-code.png)
 
@@ -124,6 +124,6 @@ U kunt nu de weergave van uw e-mail controleren.
 
 1. Schakel over naar broncode en kopieer en plak de stijlsectie in een nieuwe stijlsectie.
 
-Raadpleeg [De stijl van uw e-mail](#manage-the-style-of-your-email)beheren voor meer informatie hierover.
+Raadpleeg [De stijl van uw e-mail beheren](#manage-the-style-of-your-email) voor meer informatie.
 
 Uw verouderde e-mail is nu beschikbaar in de e-mailontwerper.
