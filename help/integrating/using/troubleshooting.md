@@ -42,10 +42,10 @@ In dit geval, zorg ervoor dat de volgende elementen correct worden gevormd:
 
    Als het AES-versleutelingsalgoritme is geselecteerd, moeten de volgende aanvullende velden correct worden ingesteld:
 
-   * **Coderingssleutel** voor AES
-   * **Codering IV** (initialisatievector) voor AES
-   * **Kanaal** (e-mail/sms/overige): Met dit veld kunt u e-mailadressen en SMS-nummers rechtstreeks decoderen. Zorg ervoor dat de afstemmingssleutel overeenkomt met de instelling van het veld **Kanaal** . Als u &quot;Andere&quot;selecteert, zal deze specifieke decryptie niet gebeuren en de verzoeningssleutel zal worden gebruikt om de gegevens in overeenstemming te brengen.
+   * **Coderingstoetsen** voor AES
+   * **Codering IV**  (initialisatievector) voor AES
+   * **Kanaal**  (e-mail/SMS/Overige): Met dit veld kunt u e-mailadressen en SMS-nummers rechtstreeks decoderen. Zorg ervoor dat de verzoeningssleutel het plaatsen van **Kanaal** gebied aanpast. Als u &quot;Andere&quot;selecteert, zal deze specifieke decryptie niet gebeuren en de verzoeningssleutel zal worden gebruikt om de gegevens in overeenstemming te brengen.
 
-   Experience Cloud-publiek wordt mogelijk niet gedeeld omdat de technische workflow is gestopt of gepauzeerd. U opent de **[!UICONTROL Import shared audience]** workflow door rechtstreeks op de **[!UICONTROL Show ImportShared Audience workflow]** optie in de gegevensbron te klikken.
+   Experience Cloud-publiek wordt mogelijk niet gedeeld omdat de technische workflow is gestopt of gepauzeerd. U opent de **[!UICONTROL Import shared audience]**-workflow door rechtstreeks op de optie **[!UICONTROL Show ImportShared Audience workflow]** in de gegevensbron te klikken.
 
 Het kan voorkomen dat sommige gegevens ontbreken wanneer het delen van een publiek via de de kerndienst van Mensen of wanneer het invoeren van een publiek. Alleen records waarvan de id (&#39;Bezoeker-id&#39; of &#39;Opgegeven ID&#39;) in overeenstemming kan worden gebracht met de profieldimensie, worden overgedragen. IDs van de de kernde dienstsegmenten van Mensen die niet door Adobe Campaign worden erkend worden niet ingevoerd.
