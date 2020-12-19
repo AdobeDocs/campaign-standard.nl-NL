@@ -55,7 +55,7 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
 * In de uitzendingen, is er nu een onderscheid tussen het maximumaantal verbindingen en het maximumaantal berichten per uur. Wanneer de grenzen worden bereikt, is het dan mogelijk te weten waarom de productie beperkt is. Eerder was hetzelfde bericht (&quot;met quotum bereikt&quot;) van toepassing op beide gevallen.
 * Wanneer u een mobiele toepassing configureert in Campagne, kan de gebruiker nu weten of het iOS-certificaat en de Android-serversleutel zijn geüpload en of de vervaldatum van de toepassing geldig zijn.
 
-   Raadpleeg voor meer informatie de gedetailleerde documentatie over het configureren van een mobiele toepassing met [SDK V4](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html) en [SDK V5](https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdk.html).
+   Raadpleeg voor meer informatie de gedetailleerde documentatie over het configureren van een mobiele toepassing met [SDK V4](https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdkv4.html) en [SDK V5](https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdk.html).
 
 * Doelgebruikers voor een specifieke mobiele toepassing door een mobiele toepassing te selecteren terwijl de campagneeigenschappen worden gedefinieerd. Deze functie is bedoeld voor zowel Push- als In-App Messaging-kanalen.
 
@@ -118,7 +118,7 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
   </tr> 
   <tr> 
    <td> Gebruikersbeheer<br /> </td> 
-   <td> De mogelijkheid van een geografische eenheid is nu niet meer beschikbaar voor nieuwe Campaign Standard-exemplaren en voor bestaande exemplaren zonder dat er geografische eenheden zijn gemaakt, vanaf de release 18.7.<br /> Raadpleeg deze  <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">pagina</a> voor meer informatie.<br /> </td> 
+   <td> De mogelijkheid van een geografische eenheid is nu niet meer beschikbaar voor nieuwe Campaign Standard-exemplaren en voor bestaande exemplaren zonder dat er geografische eenheden zijn gemaakt, vanaf de release 18.7.<br /> Raadpleeg deze  <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=nl#release-notes">pagina</a> voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
