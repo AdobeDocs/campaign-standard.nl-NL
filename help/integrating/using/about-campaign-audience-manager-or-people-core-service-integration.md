@@ -21,10 +21,10 @@ ht-degree: 5%
 >
 >Afhankelijk van de uitgewisselde gegevens kunnen er wettelijke beperkingen gelden voor het invoerende publiek in Adobe Campaign.
 
-Met Adobe Campaign kunt u soorten publiek/segmenten uitwisselen en delen met verschillende Adobe Experience Cloud-toepassingen. Dankzij de integratie van **Adobe Campaign** met de basisservice **** Mensen (ook wel de kernservice **** Profielen en Soorten publiek genoemd) of Adobe Audience Manager kunt u:
+Met Adobe Campaign kunt u soorten publiek/segmenten uitwisselen en delen met verschillende Adobe Experience Cloud-toepassingen. Door **Adobe Campaign** te integreren met **Personenkernservice** (ook wel **Profiles &amp; Audiences core service** genoemd) of door Adobe Audience Manager kunt u:
 
-* Importeer soorten publiek/segmenten van verschillende Adobe Experience Cloud-oplossingen naar Adobe Campaign. Soorten publiek kunnen worden geïmporteerd vanuit het **[!UICONTROL Audiences]** menu in Adobe Campaign.
-* Exporteer soorten publiek als gedeeld publiek/segmenten. Deze doelgroepen kunnen worden gebruikt in de verschillende Adobe Experience Cloud-oplossingen die u gebruikt. Soorten publiek kunnen worden geëxporteerd nadat activiteiten in een workflow als doel zijn opgegeven. Hierbij wordt de **[!UICONTROL Save audience]** activiteit gebruikt.
+* Importeer soorten publiek/segmenten van verschillende Adobe Experience Cloud-oplossingen naar Adobe Campaign. Soorten publiek kunnen worden geïmporteerd vanuit het menu **[!UICONTROL Audiences]** in Adobe Campaign.
+* Exporteer soorten publiek als gedeeld publiek/segmenten. Deze doelgroepen kunnen worden gebruikt in de verschillende Adobe Experience Cloud-oplossingen die u gebruikt. Soorten publiek kunnen worden geëxporteerd nadat activiteiten in een werkstroom als doel zijn ingesteld, met behulp van de **[!UICONTROL Save audience]**-activiteit.
 
 Integratie ondersteunt twee typen Adobe Experience Cloud-id&#39;s:
 
