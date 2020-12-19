@@ -25,13 +25,13 @@ Volg hieronder het stroomschema en de stroomdiagramdetails om de integratie aan 
 
 Stroomdiagramdetails (afbeeldingen tot bovenstaande stappen):
 
-* **Stap 1** - Men veronderstelt dat u reeds hebt, of in de aanschaf bent van, een vergunning voor de Dynamiek van Microsoft 365 voor Verkoop en voor Adobe Campaign Standard.
+* **Stap 1**  - Men veronderstelt dat u reeds hebt, of bezig bent om, een vergunning voor de Dynamica 365 van Microsoft voor Verkoop en voor Adobe Campaign Standard te kopen.
 
-* **Stap 2** - het standaard integratieaanbod is gratis aan alle klanten; Afhankelijk van uw vereisten kunnen er echter extra kosten van toepassing zijn (zie [Integratiegaranties en grenzen](../../integrating/using/ms-dynamics-365-integration-guardrails.md). Er moet een nieuwe verkooporder worden ondertekend om van de integratie te kunnen profiteren.
+* **Stap 2**  - het standaard integratieaanbod is gratis aan alle klanten; Afhankelijk van uw vereisten kunnen er echter extra kosten van toepassing zijn (zie  [Integratiegaranties en grenzen](../../integrating/using/ms-dynamics-365-integration-guardrails.md). Er moet een nieuwe verkooporder worden ondertekend om van de integratie te kunnen profiteren.
 
-* **Stap 3** - Voltooi pre-integratiestappen voor Dynamiek 365 en Campagne. Zie Deze integratie [configureren](#configure-this-integration).
+* **Stap 3**  - Voltooi pre-integratiestappen voor Dynamiek 365 en Campagne. Zie [Deze integratie configureren](#configure-this-integration).
 
-* **Stappen 4-7** - Het Adobe onboarding team zal met u door het onboarding proces werken.
+* **Stappen 4-7**  - Het Adobe onboarding team zal met u door het onboarding proces werken.
 
 ## Deze integratie configureren {#configure-this-integration}
 
@@ -43,7 +43,7 @@ Voor deze integratie moeten drie systemen worden ingericht en geconfigureerd: Ad
 >
 >De stappen in de onderstaande artikelen begeleiden u bij het maken van integraties/registraties die het toewijzen van machtigingen en/of beheerderstoegang inhouden.  Het is uw verantwoordelijkheid om ervoor te zorgen dat deze stappen voldoen aan uw bedrijfsbeleid alvorens uit te voeren, en hen zorgvuldig uit te voeren.
 
-In ADOBE CAMPAIGN moet u API-toegang instellen en een nieuwe integratie configureren voor het integratieprogramma. Raadpleeg [dit artikel](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)om dit te bereiken.
+In ADOBE CAMPAIGN moet u API-toegang instellen en een nieuwe integratie configureren voor het integratieprogramma. Om dit te bereiken, verwijs naar [dit artikel](../../integrating/using/configure-adobe-io-for-ms-dynamic.md).
 
 In MICROSOFT DYNAMICS 365, moet u een nieuwe toepassingsregistratie tot stand brengen en een toepassingsgebruiker toelaten om de integratie te gebruiken.  Om de Dynamiek 365 van Microsoft voor deze integratie te vormen, verwijs naar [dit artikel](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md).
 
