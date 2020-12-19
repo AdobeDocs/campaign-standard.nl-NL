@@ -328,7 +328,7 @@ De specifieke parameters voor het verzenden van sms-berichten worden opnieuw geg
 
 ![](assets/sms_options.png)
 
-From the **[!UICONTROL Advanced parameters]** section:
+In de sectie **[!UICONTROL Advanced parameters]**:
 
 * Met de optie **[!UICONTROL From]** kunt u de naam van de afzender van het sms-bericht aanpassen met een reeks tekens. Dit is de naam die wordt weergegeven als de afzender van het sms-bericht op de mobiele telefoon van de ontvanger.
 
@@ -340,7 +340,7 @@ From the **[!UICONTROL Advanced parameters]** section:
    >
    >Controleer de wetgeving in uw land met betrekking tot het wijzigen van het adres van de afzender. Neem ook contact op met uw sms-serviceprovider om te controleren of deze deze functionaliteit aanbiedt.
 
-Uit het **[!UICONTROL Send]** gedeelte van een SMS-sjabloon:
+Van de **[!UICONTROL Send]** sectie van een malplaatje van SMS:
 
 * Met de optie **[!UICONTROL Maximum number of SMS per message]** kunt u het aantal sms-berichten definiëren dat moet worden gebruikt om een bericht te verzenden. Als dit aantal wordt overschreden, wordt het bericht niet verzonden.
 
