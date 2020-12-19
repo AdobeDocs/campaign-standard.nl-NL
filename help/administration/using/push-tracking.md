@@ -28,15 +28,15 @@ Hierbij wordt ervan uitgegaan dat u de eerste onderdelen van de implementatie va
 
 De functie Push Tracking bestaat uit drie typen:
 
-* **Push Impressions** - Wanneer een pushmelding is afgeleverd aan het apparaat en op het meldingscentrum zit, maar helemaal niet is aangeraakt.  Dit wordt als een indruk beschouwd.  In de meeste gevallen zouden de indrukkingsaantallen gelijkaardig moeten zijn als niet het zelfde als het geleverde aantal. Het zorgt ervoor dat het apparaat het bericht kreeg en die informatie terug naar de server terugbracht.
+* **Push Impressions**  - Wanneer een pushmelding aan het apparaat is afgeleverd en op het meldingscentrum zit, maar helemaal niet is aangeraakt.  Dit wordt als een indruk beschouwd.  In de meeste gevallen zouden de indrukkingsaantallen gelijkaardig moeten zijn als niet het zelfde als het geleverde aantal. Het zorgt ervoor dat het apparaat het bericht kreeg en die informatie terug naar de server terugbracht.
 
-* **Push Click** - Wanneer een pushmelding aan het apparaat is afgeleverd en de gebruiker op het apparaat heeft geklikt.  De gebruiker wilde de melding bekijken (die op zijn beurt naar Open Push-tracking gaat) of het bericht negeren.
+* **Druk op Klikken**  - wanneer een pushmelding aan het apparaat is bezorgd en de gebruiker op het apparaat heeft geklikt.  De gebruiker wilde de melding bekijken (die op zijn beurt naar Open Push-tracking gaat) of het bericht negeren.
 
-* **Push Open** - Wanneer een pushmelding aan het apparaat is geleverd en de gebruiker op het bericht heeft geklikt dat de app moet worden geopend.  Dit is gelijkaardig aan de Duw klikt behalve zal een Duw Open niet teweeggebracht worden als het bericht werd verworpen.
+* **Push Open**  - Als een pushmelding aan het apparaat is afgeleverd en de gebruiker op het bericht heeft geklikt dat de app moet worden geopend.  Dit is gelijkaardig aan de Duw klikt behalve zal een Duw Open niet teweeggebracht worden als het bericht werd verworpen.
 
 Voor het implementeren van tracering voor Campaign Standard moet de mobiele app de Mobile SDK bevatten. Deze SDK is beschikbaar op Adobe Mobile Services. Raadpleeg [deze pagina](../../administration/using/configuring-a-mobile-application.md) voor meer informatie.
 
-Om het volgen informatie te verzenden zijn er drie variabelen die moeten worden verzonden. Twee die deel van de gegevens uitmaken die van Campaign Standard en een actievariabele worden ontvangen die of het een **Indrukking**, **Klik** of **Open** dicteert.
+Om het volgen informatie te verzenden zijn er drie variabelen die moeten worden verzonden. Twee die deel van de gegevens uitmaken die van Campaign Standard en een actievariabele worden ontvangen die of het **Indrukking**, **Click** of **Open** dicteren.
 
 | Variabele | Waarde |
 |:-:|:-:|
@@ -46,9 +46,9 @@ Om het volgen informatie te verzenden zijn er drie variabelen die moeten worden 
 
 ## Implementatie voor Android {#implementation-android}
 
-### Hoe u push-tracking implementeert {#push-impression-tracking-android}
+### Hoe u het bijhouden van pushberichten implementeert {#push-impression-tracking-android}
 
-Voor het bijhouden van de indruk moet u de waarde 7 voor actie verzenden wanneer u **[!UICONTROL trackAction()]** functie aanroept.
+Voor het volgen van de indruk, zult u waarde &quot;7&quot;voor actie moeten verzenden wanneer het roepen van **[!UICONTROL trackAction()]** functie.
 
 ```
 @Override
@@ -68,9 +68,9 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 }
 ```
 
-### Klikspatiëring implementeren {#push-click-tracking-android}
+### Klikspatiëring {#push-click-tracking-android} implementeren
 
-Als u klikt op bijhouden, moet u waarde 2 verzenden voor actie wanneer u **[!UICONTROL trackAction()]** functie aanroept.
+Voor klik het volgen, zult u waarde &quot;2&quot;voor actie moeten verzenden wanneer het roepen van **[!UICONTROL trackAction()]** functie.
 
 Om te volgen klik, moeten twee scenario&#39;s worden behandeld:
 
@@ -108,7 +108,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-Als u wilt dat de toepassing **[!UICONTROL BroadcastReceiver]** kan werken, moet u deze registreren bij de **[!UICONTROL AndroidManifest.xml]**
+Als u de **[!UICONTROL BroadcastReceiver]** wilt laten werken, moet u deze registreren bij **[!UICONTROL AndroidManifest.xml]**
 
 ```
 <manifest>
@@ -143,13 +143,13 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
 }
 ```
 
-### Openbare tracering implementeren {#push-open-tracking-android}
+### Hoe te om open het volgen {#push-open-tracking-android} uit te voeren
 
 U moet &quot;1&quot; en &quot;2&quot; verzenden omdat de gebruiker op een melding moet klikken om de app te openen. Als de app niet wordt gestart/geopend via pushberichten, vinden er geen gebeurtenissen voor het bijhouden van de app plaats.
 
 Als u het openen wilt bijhouden, moet u Intent maken. Met Intentobjecten kan Android OS de methode aanroepen wanneer bepaalde handelingen zijn uitgevoerd. Klik in dit geval op het bericht om de app te openen.
 
-Deze code is gebaseerd op de implementatie van het bijhouden van de klikindruk. Met **[!UICONTROL Intent]** deze set moet u nu trackinggegevens terugsturen naar Adobe Campaign Standard. In dit geval moet u instellen **[!UICONTROL Open Intent]** dat de gebeurtenis wordt geopend voor een bepaalde weergave in uw app. Hierbij wordt de methode onResume aangeroepen met de berichtgegevens in de **[!UICONTROL Intent Object]** app.
+Deze code is gebaseerd op de implementatie van het bijhouden van de klikindruk. Als **[!UICONTROL Intent]** is ingesteld, moet u nu trackinggegevens terugsturen naar Adobe Campaign Standard. In dit geval moet u **[!UICONTROL Open Intent]** instellen om te worden geopend voor een bepaalde weergave in uw app. Hierbij wordt de methode onResume aangeroepen met de meldingsgegevens in **[!UICONTROL Intent Object]**.
 
 ```
 @Override
@@ -189,9 +189,9 @@ private void handleTracking() {
 
 ## Implementatie voor iOS {#implementation-iOS}
 
-### Hoe u push-tracking implementeert {#push-impression-tracking-iOS}
+### Hoe u het bijhouden van pushberichten implementeert {#push-impression-tracking-iOS}
 
-Voor het bijhouden van de indruk moet u de waarde 7 voor actie verzenden wanneer u **[!UICONTROL trackAction()]** functie aanroept.
+Voor het volgen van de indruk, zult u waarde &quot;7&quot;voor actie moeten verzenden wanneer het roepen van **[!UICONTROL trackAction()]** functie.
 
 Als u wilt weten hoe iOS-meldingen werken, moeten de drie statussen van een app gedetailleerd zijn:
 
@@ -201,7 +201,7 @@ Als u wilt weten hoe iOS-meldingen werken, moeten de drie statussen van een app 
 
 Als een app wordt gesloten, roept Apple de app pas aan nadat de app opnieuw is gestart. Dit betekent dat u niet kunt weten wanneer de melding is ontvangen op iOS.
 
-Om de **[!UICONTROL Impression]** tracering nog steeds te laten werken terwijl de app op de achtergrond is, moeten we **[!UICONTROL Content-Available]** de app verzenden om de app te laten weten dat deze moet worden bijgehouden.
+Als u **[!UICONTROL Impression]** wilt bijhouden terwijl de app op de achtergrond wordt uitgevoerd, moeten we **[!UICONTROL Content-Available]** verzenden om de app te laten weten dat een tracering moet worden uitgevoerd.
 
 >[!CAUTION]
 >
@@ -245,9 +245,9 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
     }
 ```
 
-### Klikspatiëring implementeren {#push-click-tracking-iOS}
+### Klikspatiëring {#push-click-tracking-iOS} implementeren
 
-Als u klikt op bijhouden, moet u waarde 2 verzenden voor actie wanneer u **[!UICONTROL trackAction()]** functie aanroept.
+Voor klik het volgen, zult u waarde &quot;2&quot;voor actie moeten verzenden wanneer het roepen van **[!UICONTROL trackAction()]** functie.
 
 ```
 // AppDelegate.swift
@@ -288,7 +288,7 @@ Wanneer u pushberichten verzendt, moet u nu een categorie toevoegen. In dit geva
 
 ![](assets/tracking_push.png)
 
-Vervolgens moet u het volgende toevoegen om de trackinggegevens te verwerken **[!UICONTROL Dismiss]** en te verzenden:
+Dan om **[!UICONTROL Dismiss]** te behandelen en een het volgen info te verzenden moet u het volgende toevoegen:
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
@@ -308,7 +308,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
     }
 ```
 
-### Openbare tracering implementeren {#push-open-tracking-iOS}
+### Hoe te om open het volgen {#push-open-tracking-iOS} uit te voeren
 
 U moet &quot;1&quot; en &quot;2&quot; verzenden omdat de gebruiker op een melding moet klikken om de app te openen. Als de app niet wordt gestart/geopend via pushberichten, vinden er geen gebeurtenissen voor het bijhouden van de app plaats.
 
