@@ -22,9 +22,9 @@ ht-degree: 4%
 >
 >De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 
-De Bouwer van het Segment staat u toe om publiek te bouwen door regels te bepalen die op gegevens worden gebaseerd die uit het [Real-time Profiel](https://docs.adobe.com/content/help/nl-NL/experience-platform/profile/home.html)van de Klant komen.
+De Bouwer van het Segment staat u toe om publiek te bouwen door regels te bepalen die op gegevens worden gebaseerd die uit [Real-time Profiel van de Klant ](https://docs.adobe.com/content/help/nl-NL/experience-platform/profile/home.html) komen.
 
-In deze sectie worden algemene concepten beschreven wanneer u een segment maakt. Voor gedetailleerde informatie over de Bouwer van het Segment zelf, verwijs naar de de gebruikersgids [van de Bouwer van het](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)Segment.
+In deze sectie worden algemene concepten beschreven wanneer u een segment maakt. Voor gedetailleerde informatie over de Bouwer van het Segment zelf, verwijs naar [de gebruikersgids van de Bouwer van het Segment](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
 De interface van de Bouwer van het Segment wordt samengesteld als volgt:
 
@@ -46,7 +46,7 @@ De Segment Builder moet nu in uw werkruimte worden weergegeven. Hiermee kunt u e
 
 1. Controleer of het gewenste samenvoegbeleid is geselecteerd in het instellingenvenster.
 
-   Voor meer informatie over fusiebeleid, verwijs naar de specifieke sectie van de de gebruikersgids [van de Bouwer van het](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)Segment.
+   Voor meer informatie over fusiebeleid, verwijs naar de specifieke sectie van [de gebruikersgids van de Bouwer van het Segment](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -64,7 +64,7 @@ De Segment Builder moet nu in uw werkruimte worden weergegeven. Hiermee kunt u e
 
 In het linkerdeelvenster worden alle kenmerken, gebeurtenissen en doelgroepen weergegeven die u kunt gebruiken om regels samen te stellen.
 
-De vermelde velden zijn kenmerken die door uw bedrijf zijn vastgelegd en die beschikbaar zijn gesteld via het XDM-systeem ( [Experience Data Model)](https://docs.adobe.com/content/help/nl-NL/experience-platform/xdm/home.html).
+De vermelde velden zijn kenmerken die door uw bedrijf zijn vastgelegd en die beschikbaar zijn gesteld via het [Experience Data Model (XDM) System](https://docs.adobe.com/content/help/nl-NL/experience-platform/xdm/home.html).
 
 Velden zijn ingedeeld in tabbladen:
 
@@ -78,11 +78,11 @@ Velden zijn ingedeeld in tabbladen:
 
 >[!NOTE]
 >
->**Met segmentatie** over meerdere entiteiten kunt u de profielgegevens uitbreiden met aanvullende gegevens op basis van producten, opslagruimten of andere klassen zonder profiel. Zodra verbonden, worden de gegevens van extra klassen beschikbaar alsof zij aan het schema van het Profiel inheems waren.
+>**Met** segmentatie met meerdere entiteiten kunt u de profielgegevens uitbreiden met aanvullende gegevens op basis van producten, opslagruimten of andere niet-profielklassen. Zodra verbonden, worden de gegevens van extra klassen beschikbaar alsof zij aan het schema van het Profiel inheems waren.
 >
 >Raadpleeg de [desbetreffende documentatie](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html) voor meer informatie.
 
-Door gebrek, toont de Bouwer van het Segment gebieden waarin de gegevens reeds aanwezig zijn. Als u het volledige schema wilt weergeven, inclusief de velden waarvoor geen gegevens aanwezig zijn, schakelt u de **[!UICONTROL Show full XDM schema]** optie van de instellingen in.
+Door gebrek, toont de Bouwer van het Segment gebieden waarin de gegevens reeds aanwezig zijn. Als u het volledige schema wilt weergeven, inclusief de velden waarvoor geen gegevens aanwezig zijn, schakelt u de optie **[!UICONTROL Show full XDM schema]** uit de instellingen in.
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -94,7 +94,7 @@ Het symbool aan het eind van elk gebied verstrekt extra informatie over de attri
 
 >[!NOTE]
 >
->In de onderstaande sectie vindt u algemene informatie over de definitie van regels. Raadpleeg voor meer informatie de gebruikershandleiding [van](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)Segment Builder.
+>In de onderstaande sectie vindt u algemene informatie over de definitie van regels. Voor meer op dit, verwijs naar [de gebruikersgids van de Bouwer van het Segment](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
 
 Voer de volgende stappen uit om een regel te maken:
 
@@ -106,7 +106,7 @@ Voer de volgende stappen uit om een regel te maken:
 
    ![](assets/aep_audiences_malegender.png)
 
-   De geschatte populatie die overeenkomt met het segment wordt automatisch opnieuw berekend in de **[!UICONTROL Segment Properties]** sectie.
+   De geschatte populatie die overeenkomt met het segment wordt automatisch opnieuw berekend in de sectie **[!UICONTROL Segment Properties]**.
 
 1. De **[!UICONTROL View Profiles]** knoop geeft u een voorproef van de eerste 20 verslagen die aan de regel beantwoorden, toelatend u om het segment snel te bevestigen.
 
@@ -132,7 +132,7 @@ Ga als volgt te werk om dit te doen:
 
 1. Selecteer het tweede veld (bijvoorbeeld de postcode van het werkadres) dat met het eerste veld wordt vergeleken.
 
-   Sleep het naar de werkruimte in het midden, in dezelfde container als het eerste veld, in het **[!UICONTROL Drop here to compare operands]** vak.
+   Sleep het naar de werkruimte in het midden, in dezelfde container als het eerste veld, in het vak **[!UICONTROL Drop here to compare operands]**.
 
    ![](assets/aep_audiences_comparing_2.png)
 
