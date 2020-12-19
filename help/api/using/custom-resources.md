@@ -25,13 +25,13 @@ De middelen van de douane zijn toegankelijk door APIs gebruikend het **/profileA
 
 >[!NOTE]
 >
->Voor middelen die niet uit-van-de-doos zijn, gebruik altijd de <b>&quot;focus&quot;</b> prefix vóór de naam van het middel.
+>Voor middelen die niet uit-van-de-doos zijn, gebruik altijd <b>&quot;cus&quot;</b> prefix vóór de naam van het middel.
 
 U kunt elke gewenste bewerking uitvoeren met aangepaste bronnen, mits deze zijn gekoppeld aan de tabel Profiel. Neem bijvoorbeeld de onderstaande tabelstructuur:
 
 ![alt-tekst](assets/cusresources.png)
 
-In dat geval zijn alle bronnen van de tabellen **Transactie**, **TransactieDetails** en **Product** beschikbaar zolang deze zijn gekoppeld aan de tabel **Profiel** .
+In dat geval zijn alle bronnen van de tabellen **Transaction**, **TransactionDetails** en **Product** beschikbaar zolang deze zijn gekoppeld aan de tabel **Profile**.
 
 <br/>
 
