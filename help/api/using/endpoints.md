@@ -20,17 +20,17 @@ ht-degree: 10%
 De beschikbare eindpunten voor de Adobe Campaign REST API:
 
 * **/profileAndServices**: communiceren met velden buiten het vak. Uitgebreide velden zijn niet toegankelijk met dit eindpunt.
-* **/profileAndServicesExt**: interactie met douanevelden die tijdens de uitbreiding van het Profiel of van de Douane van de Diensten worden toegevoegd. For more on custom resources, refer to [this section](../../api/using/custom-resources.md).
-* **/&lt;transactieAPI>**: wisselt met de transactie berichten API (de naam van het transactie berichten API eindpunt hangt van uw instantieconfiguratie af). Raadpleeg [deze sectie](../../api/using/managing-transactional-messages.md) voor meer informatie.
+* **/profileAndServicesExt**: interactie met douanevelden die tijdens de uitbreiding van het Profiel of van de Douane van de Diensten worden toegevoegd. Raadpleeg [deze sectie](../../api/using/custom-resources.md) voor meer informatie over aangepaste bronnen.
+* **/&lt;transactionalapi>**: wisselt met de transactie berichten API (de naam van het transactie berichten API eindpunt hangt van uw instantieconfiguratie af). Raadpleeg [deze sectie](../../api/using/managing-transactional-messages.md) voor meer informatie.
 * **/workflow/uitvoering**: werken met workflows. Raadpleeg [deze sectie](../../api/using/controlling-a-workflow.md) voor meer informatie.
 * **/privacy/privacyTool**: communiceren met de privacy-API zodat het automatische proces van privacyverzoeken mogelijk is. Raadpleeg [deze sectie](../../api/using/creating-a-privacy-request.md) voor meer informatie.
-* **/geschiedenis**: de marketinggeschiedenis van de profielen ophalen. Raadpleeg de [documentatie](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html)bij Campagne voor meer informatie over geïntegreerde klantprofielen in Campagne.
+* **/geschiedenis**: de marketinggeschiedenis van de profielen ophalen. Raadpleeg de [Campagne-documentatie](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html) voor meer informatie over geïntegreerde klantprofielen in Campagne.
 
-Standaard zijn de belangrijkste bronnen beschikbaar voor de API&#39;s **profileAndServices** en **profileAndServicesExt** :
+Standaard zijn de belangrijkste bronnen die beschikbaar zijn voor de API&#39;s **profileAndServices** en **profileAndServicesExt**:
 
-* **/profiel**: communiceren met profielen uit de Campagne-database. Om profielen aan de dienst toe te voegen, gebruik het **/de diensteindpunt** . Raadpleeg de documentatie bij [Campagne voor meer informatie over profielen in Campagne](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html).
-* **/service**: abonnementsservices beheren. Raadpleeg de documentatie bij [Campagne voor meer informatie over services in Campagne](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html).
+* **/profiel**: communiceren met profielen uit de Campagne-database. Als u profielen wilt toevoegen aan een service, gebruikt u het **/service**-eindpunt. Raadpleeg de [Campagne-documentatie](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html) voor meer informatie over profielen in campagne.
+* **/service**: abonnementsservices beheren. Raadpleeg de [Campagne-documentatie](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html) voor meer informatie over services in Campagne.
 
 >[!NOTE]
 >
->Alle andere bronnen die zijn uitgebreid of gemaakt, zijn alleen beschikbaar via de **ProfileAndServicesExt** -API. Ze moeten gekoppeld zijn aan de **profielbron** om toegankelijk te zijn.
+>Alle andere bronnen die zijn uitgebreid of gemaakt, zijn alleen beschikbaar via de **ProfileAndServicesExt**-API. Ze moeten gekoppeld zijn aan de **Profile**-bron om toegankelijk te zijn.
