@@ -22,10 +22,10 @@ U kunt workflows maken om volledige processen in uw campagnes en programma&#39;s
 
 Het werkstroombewerkingsscherm bestaat uit de volgende elementen:
 
-* Het [palet](#palette), waarin wordt verwezen naar de beschikbare activiteiten.
-* De [werkruimte](#workspace)waarin de activiteiten zijn geconfigureerd en georganiseerd.
-* De [actiebalk](#action-bar)bestaat uit knoppen waarmee u kunt communiceren met de workflow en/of de componenten ervan.
-* Met de [snelle acties](#quick-actions), die rond een geselecteerde activiteit verschijnen, kunt u ermee werken.
+* Het [Palet](#palette), dat naar de beschikbare activiteiten verwijst.
+* De [Werkruimte](#workspace), waarin de activiteiten worden gevormd en georganiseerd.
+* De [actiebalk](#action-bar), die bestaat uit knoppen waarmee u kunt communiceren met de workflow en/of de componenten ervan.
+* Met de [Snelle acties](#quick-actions), die rond een geselecteerde activiteit verschijnen, kunt u ermee werken.
 
 ![](assets/wkf_overview.png)
 
@@ -50,20 +50,20 @@ De werkruimte is de centrale zone in de werkstroomeditor. Het is in deze streek 
 
 Als u twee activiteiten wilt koppelen, verplaatst u het einde van de pijl van de eerste activiteit naar de volgende activiteit totdat ze verbinding maken. U kunt de activiteit naar het punt van de pijl achter het bewegen om het aan de voorafgaande activiteit te verbinden. Als u een van de activiteiten verplaatst, blijven deze gekoppeld.
 
-Overgangen na activiteiten die gegevens verwerken, bevatten de intermediaire populaties. U kunt ze openen door de **[!UICONTROL Keep interim results]** optie in het **[!UICONTROL Execution]** gedeelte van de workfloweigenschappen te selecteren.
+Overgangen na activiteiten die gegevens verwerken, bevatten de intermediaire populaties. U hebt toegang tot deze bestanden als u de optie **[!UICONTROL Keep interim results]** in de sectie **[!UICONTROL Execution]** van de workfloweigenschappen selecteert.
 
 >[!CAUTION]
 >
 >Deze optie verbruikt veel schijfruimte en is ontworpen om u te helpen een workflow te maken en een correcte configuratie en functionaliteit te garanderen. Laat deze optie uitgeschakeld op productie-instanties.
 
 
-Wanneer een activiteit wordt geselecteerd, verschijnen de snelle acties rond de activiteit, toestaand u om met het in wisselwerking te staan. Als u bijvoorbeeld een activiteit wilt configureren, selecteert u deze en opent u deze vervolgens met de ![](assets/edit_darkgrey-24px_table.png) knop in de snelle handelingen.
+Wanneer een activiteit wordt geselecteerd, verschijnen de snelle acties rond de activiteit, toestaand u om met het in wisselwerking te staan. Als u bijvoorbeeld een activiteit wilt configureren, selecteert u deze en opent u deze vervolgens met de knop ![](assets/edit_darkgrey-24px_table.png) in de snelle handelingen.
 
 Bepaalde functies zijn alleen beschikbaar in de werkruimte:
 
 * Selecteer verschillende activiteiten en overgangen door er een zone omheen te tekenen.
-* Druk op **Ctrl** en klik met de linkermuisknop om meerdere handelingen en/of overgangen te selecteren.
-* Druk op **Enter** om de details van de geselecteerde activiteit of overgang weer te geven.
+* Druk op **Ctrl** + klik met de linkermuisknop om verschillende activiteiten en/of overgangen te selecteren.
+* Druk op **Enter** om de details van de momenteel geselecteerde activiteit of overgang weer te geven.
 * Druk op **Delete** om de geselecteerde activiteit te verwijderen.
 * Druk op **Ctrl + C** om de geselecteerde activiteiten te kopiëren en op **Ctrl + V** om deze in de werkruimte te plakken.
 
@@ -103,7 +103,7 @@ Afhankelijk van de elementen die zijn geselecteerd in de werkruimte of de uitvoe
 
 <img height="21px" src="assets/paste_24px.png" /> **[!UICONTROL Paste]**<br/>Hiermee plakt u de gekopieerde activiteiten.
 
-## Snelle acties {#quick-actions}
+## Snelle handelingen {#quick-actions}
 
 Wanneer een activiteit wordt geselecteerd, verschijnen de snelle actieknopen rond de activiteit, die u toestaat om met het in wisselwerking te staan.
 
@@ -119,11 +119,11 @@ Wanneer een activiteit wordt geselecteerd, verschijnen de snelle actieknopen ron
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>Hiermee wordt de activiteit uitgeschakeld.
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>Hiermee wordt de selectie onmiddellijk verwerkt. Deze knoop is slechts beschikbaar voor de <span class="uicontrol">Planner</span> en <span class="uicontrol">Wacht</span> activiteiten.
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>Hiermee wordt de selectie onmiddellijk verwerkt. Deze knoop is slechts beschikbaar voor <span class="uicontrol">Planner</span> en <span class="uicontrol">Wacht</span> activiteiten.
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>Hiermee verwijdert u de geselecteerde activiteiten.
 
-## Dubbele werkstroomactiviteiten {#duplicating-workflow-activities}
+## Dubbele workflowactiviteiten {#duplicating-workflow-activities}
 
 Met de werkruimte kunt u workflowactiviteiten dupliceren door deze naar dezelfde workflow te kopiëren en te plakken, of naar een andere workflow vanuit dezelfde Campagne-instantie.
 
@@ -135,13 +135,13 @@ Zodra een activiteit wordt gedupliceerd, wordt zijn volledige configuratie gehou
 
 Voer de volgende stappen uit om een activiteit te dupliceren:
 
-1. Selecteer de activiteit, dan klik de **[!UICONTROL Copy selection]** knoop van de snelle acties.
+1. Selecteer de activiteit, dan klik **[!UICONTROL Copy selection]** knoop van de snelle acties.
 
    U kunt ook de sneltoets **Ctrl + C** gebruiken.
 
    ![](assets/wkf_copypaste1.png)
 
-1. Klik met de rechtermuisknop in de werkruimte van de doelworkflow en klik vervolgens op de **[!UICONTROL Paste]** knop.
+1. Klik met de rechtermuisknop in de werkruimte van de doelworkflow en klik vervolgens op de knop **[!UICONTROL Paste]**.
 
    U kunt ook de sneltoets **CTRL + V** gebruiken.
 
@@ -151,7 +151,7 @@ Voer de volgende stappen uit om een activiteit te dupliceren:
 
 Het is ook mogelijk om meerdere activiteiten te kopiëren en te plakken, zodat u een volledige werkstroom kunt dupliceren.
 
-U doet dit door de activiteiten te selecteren door er een zone omheen te tekenen. Klik vervolgens op de **[!UICONTROL Copy selection]** knop op de actiebalk (of druk op **Ctrl + C**). U kunt ze vervolgens op de gewenste locatie plakken.
+U doet dit door de activiteiten te selecteren door er een zone omheen te tekenen. Klik vervolgens op de knop **[!UICONTROL Copy selection]** op de actiebalk (of druk op **Ctrl + C**). U kunt ze vervolgens op de gewenste locatie plakken.
 
 ![](assets/wkf_copypaste3.png)
 
