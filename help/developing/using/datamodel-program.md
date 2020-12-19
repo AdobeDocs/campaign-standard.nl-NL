@@ -174,7 +174,7 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>titel</td>
+                  <td>title</td>
                   <td>Programma</td>
                   <td>tekenreeks (255)</td>
                   <td> </td>
