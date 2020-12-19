@@ -18,7 +18,7 @@ ht-degree: 8%
 
 # Informatie over workflowuitvoering {#about-workflow-execution}
 
-Een workflow wordt altijd handmatig gestart. Nochtans, zodra begonnen, kan het inactief blijven, afhankelijk van de informatie die in een activiteit van de [Planner](../../automating/using/scheduler.md) wordt gespecificeerd.
+Een workflow wordt altijd handmatig gestart. Nochtans, zodra begonnen, kan het inactief blijven, afhankelijk van de informatie die in een [Planner](../../automating/using/scheduler.md) activiteit wordt gespecificeerd.
 
 >[!CAUTION]
 >
@@ -42,12 +42,12 @@ Nadat een activiteit is uitgevoerd, wordt boven de overgang het aantal records w
 
 U kunt overgangen openen om te controleren of de verzonden data correct zijn tijdens of na het uitvoeren van de workflow. U kunt de gegevens en de gegevensstructuur weergeven.
 
-Standaard zijn alleen de details van de laatste overgang van de workflow toegankelijk. Als u toegang wilt tot de resultaten van de voorgaande activiteiten, moet u de **[!UICONTROL Keep interim results]** optie in het **[!UICONTROL Execution]** gedeelte van de workfloweigenschappen controleren voordat u de workflow start.
+Standaard zijn alleen de details van de laatste overgang van de workflow toegankelijk. Als u toegang wilt tot de resultaten van de voorgaande activiteiten, moet u de optie **[!UICONTROL Keep interim results]** in de sectie **[!UICONTROL Execution]** van de workfloweigenschappen controleren voordat u de workflow start.
 
 >[!NOTE]
 >
 >Deze optie verbruikt veel geheugen en is ontworpen om een workflow te helpen construeren en ervoor te zorgen dat deze correct is geconfigureerd en gedraagt. Laat deze optie uitgeschakeld op productie-instanties.
 
-Wanneer een overgang is geopend, kunt u de overgang bewerken **[!UICONTROL Label]** of er een koppeling **[!UICONTROL Segment code]** aan maken. Hiervoor bewerkt u de desbetreffende velden en bevestigt u uw wijzigingen.
+Wanneer een overgang open is, kunt u zijn **[!UICONTROL Label]** uitgeven of **[!UICONTROL Segment code]** aan het verbinden. Hiervoor bewerkt u de desbetreffende velden en bevestigt u uw wijzigingen.
 
-Met Campaign Standard REST API&#39;s kunt u een workflow **starten**, **pauzeren**, **hervatten** en **stoppen** . Meer details en voorbeelden van REST-aanroepen vindt u in de [API-documentatie.](../../api/using/controlling-a-workflow.md)
+Met Campaign Standard REST API&#39;s kunt u **start**, **pause**, **resume** en **stop** een workflow gebruiken. Meer details en voorbeelden van REST-aanroepen vindt u in de [API-documentatie.](../../api/using/controlling-a-workflow.md)
