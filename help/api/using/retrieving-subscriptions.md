@@ -26,7 +26,7 @@ Dit is een procedure in twee stappen.
 
 >[!CAUTION]
 >
->De REST-API retourneert de eigenschap &quot;href&quot;, die de te gebruiken URL bevat. <b>Gebruik altijd de URL in het antwoord om de volgende API-aanvraag</b>uit te voeren.
+>De REST-API retourneert de eigenschap &quot;href&quot;, die de te gebruiken URL bevat. <b>Gebruik altijd de URL in het antwoord om de volgende API-aanvraag</b> uit te voeren.
 
 <br/>
 
