@@ -24,9 +24,9 @@ In dit rapport worden de algemene permanente en tijdelijke fouten beschreven die
 
 Elke tabel wordt aangegeven met een overzichtsnummer en een overzicht van de diagrammen. U kunt wijzigen hoe de details worden weergegeven in de respectievelijke visualisatie-instellingen.
 
-**Vloeiende 5 verdeling** maakt een lijst van de vijf leveringen met het hoogste aantal quarantines:
+**Flop 5** repartitioneert de vijf leveringen met het hoogste aantal quarantines:
 
-De tabel met **stuitredenen** bevat de beschikbare gegevens voor de typen fouten die stuitingen voor elke levering hebben veroorzaakt:
+De **Bounce reason**-tabel bevat de beschikbare gegevens voor de typen fouten die stuitingen hebben veroorzaakt voor elke levering:
 
 * **[!UICONTROL User unknown]**: Het type fout dat wordt gegenereerd wanneer een levering naar een ongeldig e-mailadres wordt verzonden.
 * **[!UICONTROL Invalid domain]**: Het type fout dat wordt gegenereerd wanneer een levering wordt verzonden naar een e-mailadres waarvan het domein onjuist is of niet meer bestaat.
@@ -41,4 +41,4 @@ De tabel met **stuitredenen** bevat de beschikbare gegevens voor de typen fouten
 
 * **[!UICONTROL Refused]**: Het type van fout produceerde wanneer een adres door de dienstverlener van Internet (ISP) wordt geweigerd. Bijvoorbeeld, wanneer een veiligheidsregel door anti-Spam software is toegepast.
 
-De **lijst van de Verdeling** van het Domein toont de algemene problemen die tijdens de leveringen volgens het ontvankelijke domein worden ontmoet.
+In de tabel **Domeinrepartitie** worden de algemene problemen weergegeven die tijdens de leveringen zijn ondervonden, afhankelijk van het ontvangende domein.
