@@ -17,27 +17,28 @@ ht-degree: 0%
 
 # Veelgestelde vragen over de synchronisatie van Adobe Launch {#syncwithlaunch-faq}
 
-U kunt Adobe Launch mobiele eigenschappen importeren naar Adobe Campaign Standard via de **[!UICONTROL Sync with Launch]** toegewijde technische workflow. For more information, refer to this [page](../../administration/using/technical-workflows.md)
+U kunt Adobe Launch mobile-eigenschappen importeren naar Adobe Campaign Standard via de toegewezen technische workflow **[!UICONTROL Sync with Launch]**. Voor meer informatie, verwijs naar deze [pagina](../../administration/using/technical-workflows.md)
 
 In de onderstaande sectie worden veelgestelde vragen over deze synchronisatie weergegeven.
 
 ## Ik heb een eigenschap gemaakt in [!DNL Launch] (niet-admin van Org-unit ALL). Mijn toepassing is klaar om staat in Adobe Campaign te vormen maar ik kan het niet openen/vormen. {#configuring-property}
 
-Alleen de beheerder van de organisatie ALL kan mobiele toepassingen configureren in Adobe Campaign Standard. Zodra gevormd, slechts kunnen de gebruikers van de toegewezen organisatorische eenheid de toepassing uitgeven. For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
+Alleen de beheerder van de organisatie ALL kan mobiele toepassingen configureren in Adobe Campaign Standard. Zodra gevormd, slechts kunnen de gebruikers van de toegewezen organisatorische eenheid uitgeven
+toepassing. Raadpleeg deze [pagina](../../administration/using/organizational-units.md) voor meer informatie over de organisatie-eenheid.
 
 ## Ik kan een geconfigureerde mobiele toepassing niet bewerken in Adobe Campaign Standard en mobiele toepassingen zijn alleen-lezen. {#read-mode-mobile-app}
 
-Controleer de organisatorische eenheid van de mobiele toepassing in de **[!UICONTROL Access Authorization ]** sectie. Alleen gebruikers van de toegewezen organisatie kunnen de mobiele toepassing bewerken.
+Controleer de organisatorische eenheid van de mobiele toepassing in **[!UICONTROL Access Authorization ]** sectie. Alleen gebruikers van de toegewezen organisatie kunnen de mobiele toepassing bewerken.
 
-For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
+Raadpleeg deze [pagina](../../administration/using/organizational-units.md) voor meer informatie over de organisatie-eenheid.
 
 ## Ik ben een beheerder met organisatie eenheid ALL in Adobe Campaign Standard maar ik kan mobiele toepassing niet vormen. {#org-unit-mobile}
 
-Een beheerder met organisatie die aan ALLE wordt geplaatst zou rechten op alle mobiele eigenschappen moeten hebben binnen [!DNL Launch] om de mobiele toepassing te vormen.
+Een beheerder met de organisatie die eenheid aan ALLE wordt geplaatst zou rechten op alle mobiele eigenschappen in [!DNL Launch] moeten hebben om de mobiele toepassing te vormen.
 
-For more information on organizational unit, refer to this [page](../../administration/using/organizational-units.md).
+Raadpleeg deze [pagina](../../administration/using/organizational-units.md) voor meer informatie over de organisatie-eenheid.
 
-## Ik heb een eigenschap voor mobiele apparaten gemaakt in [!DNL Launch] maar mijn eigenschap is niet zichtbaar in Adobe Campaign Standard. {#visibility-mobile-property}
+## Ik heb een eigenschap mobile gemaakt in [!DNL Launch], maar mijn eigenschap is niet zichtbaar in Adobe Campaign Standard. {#visibility-mobile-property}
 
 1. Controleer of de extensie Adobe Campaign Standard is geïnstalleerd in de eigenschap mobile in [!DNL Launch].
 
@@ -45,11 +46,11 @@ For more information on organizational unit, refer to this [page](../../administ
 
 1. Controleer of &#39;Launch_URL_Campaign&#39; of &#39;NmsServer_URL&#39; correct zijn.
 
-1. Controleer vervolgens of de synchronisatie tussen [!DNL Launch] en Adobe Campaign is voltooid met de **[!UICONTROL syncWithLaunch]** technische workflow.
+1. Controleer vervolgens of de synchronisatie tussen [!DNL Launch] en Adobe Campaign is voltooid met de technische workflow **[!UICONTROL syncWithLaunch]**.
 
 ## Hoe controleert u of de synchronisatie tussen Adobe Campaign en Launch is voltooid? {#sync-campaign-launch}
 
-1. Kies in Adobe Campaign Standard in het menu Geavanceerd **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
+1. Selecteer in Adobe Campaign Standard **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** in het geavanceerde menu.
 
 1. Open de **[!UICONTROL syncWithLaunch]** workflow.
 
@@ -71,14 +72,14 @@ For more information on organizational unit, refer to this [page](../../administ
 
 1. Sla het bestand op en laat de workflow opnieuw synchroniseren.
 
-1. Alleen dan wordt de eigenschap in **[!UICONTROL Ready to Configure]** status weergegeven in Adobe Campaign en kan deze nu worden geconfigureerd.
+1. Slechts dan zal het bezit in **[!UICONTROL Ready to Configure]** staat in Adobe Campaign verschijnen en kan nu worden gevormd.
 
 ## Ik wil een eigenschap voor mobiele apparaten configureren in Adobe Campaign. Moet ik wachten tot de technische workflow synchroniseert tussen Adobe Launch en Adobe Campaign?
 
 U kunt de workflow direct uitvoeren:
 
-1. Kies in Adobe Campaign Standard in het menu Geavanceerd **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
+1. Selecteer in Adobe Campaign Standard **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** in het geavanceerde menu.
 
 1. Open de **[!UICONTROL syncWithLaunch]** workflow.
 
-1. Click on the **[!UICONTROL Scheduler]** activity and select **[!UICONTROL Immediate execution]**.
+1. Klik op **[!UICONTROL Scheduler]** activiteit en selecteer **[!UICONTROL Immediate execution]**.
