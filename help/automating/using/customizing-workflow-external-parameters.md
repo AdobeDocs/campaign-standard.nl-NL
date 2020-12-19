@@ -15,23 +15,23 @@ ht-degree: 1%
 ---
 
 
-# Customizing a workflow with external parameters {#customizing-a-workflow-with-external-parameters}
+# Een workflow aanpassen met externe parameters {#customizing-a-workflow-with-external-parameters}
 
 Nadat de workflow is geactiveerd, worden de parameters opgenomen in de gebeurtenisvariabelen en kunnen deze worden gebruikt om de activiteiten van de workflow aan te passen.
 
-Ze kunnen bijvoorbeeld worden gebruikt om te definiëren welk publiek in de **[!UICONTROL Read audience]** activiteit moet worden gelezen, welke naam van het bestand in de **[!UICONTROL Transfer file]** activiteit moet worden overgebracht, enzovoort. (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
+Ze kunnen bijvoorbeeld worden gebruikt om te definiëren welk publiek moet worden gelezen in de **[!UICONTROL Read audience]**-activiteit, de naam van het bestand dat moet worden overgebracht in de **[!UICONTROL Transfer file]**-activiteit, enz. (zie [deze pagina](../../automating/using/customizing-workflow-external-parameters.md)).
 
 ## Gebeurtenisvariabelen gebruiken {#using-events-variables}
 
-Gebeurtenisvariabelen worden gebruikt binnen een expressie die de [standaardsyntaxis](../../automating/using/advanced-expression-editing.md#standard-syntax)moet gebruiken.
+Gebeurtenisvariabelen worden gebruikt binnen een expressie die de [Standaardsyntaxis](../../automating/using/advanced-expression-editing.md#standard-syntax) moet respecteren.
 
-De syntaxis voor het gebruik van gebeurtenisvariabelen moet de onderstaande indeling volgen en de naam van de parameter gebruiken die in de **[!UICONTROL External signal]** activiteit is gedefinieerd (zie [Parameters declareren in de externe signaalactiviteit](../../automating/using/declaring-parameters-external-signal.md)):
+De syntaxis om gebeurtenisvariabelen te gebruiken moet het hieronder formaat volgen, en de naam van de parameter gebruiken die in **[!UICONTROL External signal]** activiteit is bepaald (zie [Verklarend de parameters in de Externe signaalactiviteit](../../automating/using/declaring-parameters-external-signal.md)):
 
 ```
 $(vars/@parameterName)
 ```
 
-In deze syntaxis retourneert de functie **$** het gegevenstype van de **tekenreeks** . Als u een ander type gegevens wilt opgeven, gebruikt u de volgende functies:
+In deze syntaxis retourneert de functie **$** **string** gegevenstype. Als u een ander type gegevens wilt opgeven, gebruikt u de volgende functies:
 
 * **$long**: geheel getal.
 * **$float**: decimaal getal.
@@ -46,7 +46,7 @@ Wanneer het gebruiken van een variabele in een activiteit, verstrekt de interfac
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png): bewerkingsexpressies waarin variabelen en functies worden gecombineerd (zie [deze pagina](../../automating/using/advanced-expression-editing.md)).
+* ![](assets/extsignal_expression_editor.png): bewerkingsexpressies waarin variabelen en functies worden gecombineerd (zie  [deze pagina](../../automating/using/advanced-expression-editing.md)).
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
@@ -70,21 +70,21 @@ Wanneer het gebruiken van een variabele in een activiteit, verstrekt de interfac
 
 Gebeurtenisvariabelen kunnen worden gebruikt om verschillende activiteiten aan te passen die in de onderstaande sectie worden vermeld. Voor meer op hoe te om een variabele van een activiteit te roepen, verwijs naar [deze sectie](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables).
 
-**[!UICONTROL Read audience]** activiteit: het publiek bepalen om te richten op basis van gebeurtenisvariabelen. Raadpleeg [deze sectie](../../automating/using/read-audience.md)voor meer informatie over het gebruik van de activiteit.
+**[!UICONTROL Read audience]** activiteit: het publiek bepalen om te richten op basis van gebeurtenisvariabelen. Raadpleeg [deze sectie](../../automating/using/read-audience.md) voor meer informatie over het gebruik van de activiteit.
 
 ![](assets/extsignal_activities_audience.png)
 
-**[!UICONTROL Test]** activiteit: voorwaarden bouwen die op gebeurtenisvariabelen worden gebaseerd. Raadpleeg [deze sectie](../../automating/using/test.md)voor meer informatie over het gebruik van de activiteit.
+**[!UICONTROL Test]** activiteit: voorwaarden bouwen die op gebeurtenisvariabelen worden gebaseerd. Raadpleeg [deze sectie](../../automating/using/test.md) voor meer informatie over het gebruik van de activiteit.
 
 ![](assets/extsignal_activities_test.png)
 
-**[!UICONTROL Transfer file]** activiteit: Pas het bestand aan dat u wilt overbrengen op basis van gebeurtenisvariabelen. Raadpleeg [deze sectie](../../automating/using/transfer-file.md)voor meer informatie over het gebruik van de activiteit.
+**[!UICONTROL Transfer file]** activiteit: Pas het bestand aan dat u wilt overbrengen op basis van gebeurtenisvariabelen. Raadpleeg [deze sectie](../../automating/using/transfer-file.md) voor meer informatie over het gebruik van de activiteit.
 
 ![](assets/extsignal_activities_transfer.png)
 
-**[!UICONTROL Query]** activiteit: In een query kan naar parameters worden verwezen door expressies te gebruiken die gebeurtenisvariabelen en -functies combineren. Hiervoor voegt u een regel toe en klikt u op de **[!UICONTROL Advanced mode]** koppeling om het venster voor het bewerken van expressies te openen (zie [Geavanceerde bewerking](../../automating/using/advanced-expression-editing.md)van expressies).
+**[!UICONTROL Query]** activiteit: In een query kan naar parameters worden verwezen door expressies te gebruiken die gebeurtenisvariabelen en -functies combineren. Hiervoor voegt u een regel toe en klikt u op de koppeling **[!UICONTROL Advanced mode]** om het venster voor het bewerken van expressies te openen (zie [Geavanceerde expressies bewerken](../../automating/using/advanced-expression-editing.md)).
 
-Raadpleeg [deze sectie](../../automating/using/query.md)voor meer informatie over het gebruik van de activiteit.
+Raadpleeg [deze sectie](../../automating/using/query.md) voor meer informatie over het gebruik van de activiteit.
 
 ![](assets/extsignal_activities_query.png)
 
@@ -94,14 +94,14 @@ Raadpleeg [deze sectie](../../automating/using/query.md)voor meer informatie ove
 >
 >De waarden van de leveringsparameters worden teruggewonnen telkens als de levering wordt voorbereid.
 >
->De voorbereiding van de terugkerende leveringen is gebaseerd op de **aggregatieperiode** van de levering. Als de samenvoegingsperiode bijvoorbeeld &quot;op dag&quot; is, wordt de levering slechts eenmaal per dag opnieuw voorbereid. Als de waarde van een leveringsparameter tijdens de dag wordt gewijzigd, zal het niet in de levering worden bijgewerkt, aangezien het reeds eens is voorbereid.
+>De voorbereiding van de terugkerende leveringen is gebaseerd op de aflevering **aggregatieperiode**. Als de samenvoegingsperiode bijvoorbeeld &quot;op dag&quot; is, wordt de levering slechts eenmaal per dag opnieuw voorbereid. Als de waarde van een leveringsparameter tijdens de dag wordt gewijzigd, zal het niet in de levering worden bijgewerkt, aangezien het reeds eens is voorbereid.
 >
->Als u de workflow meerdere keren per dag wilt aanroepen, gebruikt u de [!UICONTROL No aggregation] optie, zodat de leveringsparameters elke keer worden bijgewerkt. Voor meer bij terugkomende leveringsconfiguratie, verwijs naar [deze sectie](/help/automating/using/email-delivery.md#configuration).
+>Als u de workflow meerdere keren per dag wilt aanroepen, gebruikt u de optie [!UICONTROL No aggregation], zodat de leveringsparameters elke keer worden bijgewerkt. Voor meer bij terugkomende leveringsconfiguratie, verwijs naar [deze sectie](/help/automating/using/email-delivery.md#configuration).
 
 Om een levering te personaliseren die op gebeurtenisvariabelen wordt gebaseerd, moet u eerst in de leveringsactiviteit de variabelen verklaren die u wilt gebruiken:
 
-1. Selecteer de activiteit, dan klik de ![](assets/dlv_activity_params-24px.png) knoop om tot de montages toegang te hebben.
-1. Selecteer het **[!UICONTROL General]** tabblad en voeg vervolgens de gebeurtenisvariabelen toe die beschikbaar zijn als aanpassingsvelden in de levering.
+1. Selecteer de activiteit, dan klik ![](assets/dlv_activity_params-24px.png) knoop om tot de montages toegang te hebben.
+1. Selecteer het tabblad **[!UICONTROL General]** en voeg vervolgens de gebeurtenisvariabelen toe die beschikbaar zullen zijn als verpersoonlijkingsvelden in de levering.
 
    ![](assets/extsignal_activities_delivery.png)
 
@@ -117,7 +117,7 @@ De gedeclareerde gebeurtenisvariabelen zijn nu beschikbaar in de lijst met verpe
 
    ![](assets/extsignal_activities_template.png)
 
-* De levering personaliseren: wanneer het selecteren van een verpersoonlijkingsgebied om een levering te vormen, zijn de gebeurtenisvariabelen beschikbaar in het **[!UICONTROL Workflow parameters]** element. U kunt ze als een willekeurig verpersoonlijkingsveld gebruiken, bijvoorbeeld om het leveringsonderwerp, de afzender enzovoort te definiëren.
+* De levering personaliseren: wanneer het selecteren van een verpersoonlijkingsgebied om een levering te vormen, zijn de gebeurtenisvariabelen beschikbaar in **[!UICONTROL Workflow parameters]** element. U kunt ze als een willekeurig verpersoonlijkingsveld gebruiken, bijvoorbeeld om het leveringsonderwerp, de afzender enzovoort te definiëren.
 
    De personalisatie van de levering wordt gedetailleerd in [deze sectie](../../designing/using/personalization.md).
 
