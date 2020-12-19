@@ -21,7 +21,7 @@ Activeer uw CRM-gegevens voor kanaalcommunicatie: leert stappen tijdens pre-inte
 
 ## Overzicht
 
-De integratie Adobe Campaign Standard - Microsoft Dynamics 365 wordt beschreven in [deze pagina](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+Adobe Campaign Standard - Microsoft Dynamics 365-integratie wordt beschreven in [deze pagina](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
 
 Alvorens de pre-integratieopstelling in dit artikel uit te voeren, wordt verondersteld dat u reeds provisioned bent en beheerdertoegang tot de instantie van de Campaign Standard van uw organisatie hebt.  Als dit niet is gebeurd, moet u contact opnemen met de klantenservice van Adobe om de levering van de campagne te voltooien.
 
@@ -37,9 +37,9 @@ U zult een nieuw project van Adobe IO moeten creëren en het voor de integratie 
 
 Hiervoor volgt u de onderstaande procedure:
 
-1. Navigeer naar [Adobe IO Console](https://console.adobe.io/home#) en selecteer uw Adobe IMS Organisatie-id van het drop-down menu bij het hoogste recht van het scherm.
+1. Navigeer naar [Adobe IO Console](https://console.adobe.io/home#) en selecteer uw Adobe IMS Organisatie-id in het keuzemenu rechtsboven in het scherm.
 
-1. Klik vervolgens **[!UICONTROL Create new project]** onder **[!UICONTROL Quick Start]**.
+1. Klik vervolgens onder **[!UICONTROL Create new project]** onder **[!UICONTROL Quick Start]**.
 
    ![](assets/adobeIO1.png)
 
@@ -47,11 +47,11 @@ Hiervoor volgt u de onderstaande procedure:
 
    ![](assets/adobeIO2.png)
 
-1. Selecteer de Adobe Campaign API (u moet mogelijk naar de onderkant schuiven) en klik **[!UICONTROL Next]**.
+1. Selecteer de Adobe Campaign API (mogelijk moet u naar de onderkant schuiven) en klik op **[!UICONTROL Next]**.
 
    ![](assets/adobeIO3.png)
 
-1. Op het volgende scherm kunt u uw eigen openbare sleutel uploaden of Adobe IO de sleutel laten genereren voor u. Deze instructies volgen de laatste optie. Als u besluit Adobe IO te laten het zeer belangrijke paar produceren, klik op optie 1; klikt u op de **[!UICONTROL Generate keypair]** knop.
+1. Op het volgende scherm kunt u uw eigen openbare sleutel uploaden of Adobe IO de sleutel laten genereren voor u. Deze instructies volgen de laatste optie. Als u besluit Adobe IO te laten het zeer belangrijke paar produceren, klik op optie 1; Klik vervolgens op de knop **[!UICONTROL Generate keypair]**.
 
    ![](assets/adobeIO4.png)
 
@@ -63,7 +63,9 @@ Nadat u het bestand hebt gedownload, kunt u het uitpakken om de openbare en pers
 
    ![](assets/adobeIO5.png)
 
-1. In het volgende scherm selecteert u productprofielen die u aan dit project wilt koppelen. Selecteer het productprofiel dat de oplossing bevat: Campagnestandaard product: campagnetitel: De huurder-id van uw campagneexemplaar - [!UICONTROL Administrators]
+1. In het volgende scherm selecteert u productprofielen die u aan dit project wilt koppelen. Selecteer het productprofiel dat de oplossing bevat: Campaign Standard
+product: campagne
+titel: De huurder-id van uw Campagne-instantie - [!UICONTROL Administrators]
 
    Voorbeeld: Campaign Standard - uw campagne-huurderID - Beheerders
 
@@ -71,21 +73,21 @@ Nadat u het bestand hebt gedownload, kunt u het uitpakken om de openbare en pers
 
    ![](assets/adobeIO6.png)
 
-1. Op het volgende scherm zult u de details van uw nieuw Adobe IO project zien. Klik **[!UICONTROL Add to Project]** bij de bovenkant verlaten van het scherm en selecteer **API** van het drop down.
+1. Op het volgende scherm zult u de details van uw nieuw Adobe IO project zien. Klik op **[!UICONTROL Add to Project]** linksboven in het scherm en selecteer **API** in de vervolgkeuzelijst.
 
    ![](assets/adobeIO7.png)
 
 1. In het volgende scherm moet u de API voor I/O-gebeurtenissen selecteren en vervolgens op **[!UICONTROL Next]** klikken.
 
-1. Klik op het volgende scherm **[!UICONTROL Save the configured API]**.  U wordt teruggebracht naar het scherm met projectdetails.
+1. Klik op **[!UICONTROL Save the configured API]** in het volgende scherm.  U wordt teruggebracht naar het scherm met projectdetails.
 
-1. Klik nu **[!UICONTROL Add to Project]** bij de bovenkant verlaten van het scherm en selecteer **API** van de drop-down daling, zoals u eerder deed.
+1. Klik nu **[!UICONTROL Add to Project]** bij de bovenkant verlaten van het scherm en selecteer **API** van de drop-down, aangezien u eerder deed.
 
-1. In het volgende scherm moet u de API voor I/O-beheer selecteren en op deze knop klikken **[!UICONTROL Next]**.
+1. In het volgende scherm moet u de API voor I/O-beheer selecteren en op **[!UICONTROL Next]** klikken.
 
-1. Klik op het volgende scherm **[!UICONTROL Save the configured API]**.
+1. Klik op **[!UICONTROL Save the configured API]** in het volgende scherm.
 
-Installatie vóór integratie in campagne is nu voltooid.  Ga aan volledige [pre-integratieopstelling voor de Dynamica 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)van Microsoft te werk.
+Installatie vóór integratie in campagne is nu voltooid.  Ga aan volledige [pre-integratieopstelling voor de Dynamica 365 van Microsoft](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md) te werk.
 
 **Verwante onderwerpen**
 
