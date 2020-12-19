@@ -17,11 +17,11 @@ ht-degree: 5%
 
 # Sms-rapport{#sms-report}
 
-Het **SMS** -rapport bevat informatie over SMS-leveringen, zoals de geleverde en stuitende snelheid.
+Het **SMS** rapport verstrekt details over de leveringen van SMS, zoals geleverde en stuitende tarieven.
 
 ![](assets/dynamic_report_sms.png)
 
-De **SMS-overzichtstabel** , grafieken en samenvattingsnummers bevatten beschikbare gegevens voor SMS-leveringen die zijn verzonden.
+De **SMS summary** tabel, grafieken en samenvattingsnummers bevatten beschikbare gegevens voor SMS-leveringen die zijn verzonden.
 
 * **Verwerkt/verzonden**: Het aantal verzonden SMS.
 * **Afgeleverd**: Het aantal geleverde SMS.
