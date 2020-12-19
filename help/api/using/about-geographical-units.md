@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >Als gevolg hiervan kunnen nieuwe Campaign Standard-exemplaren en bestaande exemplaren zonder gemaakte geografische eenheden deze functie niet implementeren vanaf de release 18.7.
 >
->Raadpleeg voor meer informatie de pagina <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Afgekeurde functies</a>.
+>Raadpleeg voor meer informatie de pagina <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=nl#release-notes">Afgekeurde functies</a>.
 
 Het **geoUnitBase** eindpunt laat u met Geografische eenheden in wisselwerking staan, toelatend u, bijvoorbeeld, om hun attributen bij te werken of de eenheid van een profiel bij te werken.
 
