@@ -24,7 +24,7 @@ ht-degree: 20%
 
 Leer in dit document hoe u een afbeelding weergeeft via een Adobe Campaign Standard iOS-pushmelding.
 
-## Stap 1: Pushmelding instellen {#set-up-push}
+## Stap 1: Pushmelding {#set-up-push} instellen
 
 Pushmelding wordt ondersteund door Experience Platform-SDK&#39;s.
 
@@ -34,40 +34,40 @@ Door zowel Adobe Campaign als Adobe Mobile Services te configureren, kunt u de g
 
 Als u pushberichten wilt verzenden met een Experience Cloud SDK-toepassing, moet een mobiele app worden ingesteld in Adobe Experience Platform Launch en worden geconfigureerd in Adobe Campaign. Raadpleeg [deze pagina](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign) voor meer informatie.
 
-## Stap 2: Je pushmelding aanpassen in Adobe Campaign {#customize-push}
+## Stap 2: Uw pushmelding aanpassen in Adobe Campaign {#customize-push}
 
 Als u uw pushmelding wilt verfijnen, kunt u in Adobe Campaign een aantal geavanceerde opties gebruiken tijdens het ontwerpen van de melding.
 
 1. Een pushmelding maken. Raadpleeg [deze pagina](../../channels/using/preparing-and-sending-a-push-notification.md) voor meer informatie.
 
-1. Open de **[!UICONTROL Advanced options]** sectie vanaf de pagina met inhoud voor pushmeldingen.
+1. Open de **[!UICONTROL Advanced options]**-sectie vanaf de pagina met inhoud voor pushberichten.
 
-1. Voer in het **[!UICONTROL Rich media content URL]** veld de URL van het bestand in.
+1. Voer in het veld **[!UICONTROL Rich media content URL]** de URL van het bestand in.
 Voor iOS 10 of hoger kunt u afbeeldings-, GIF-, audio- en videobestanden invoegen.
 
    ![](assets/push_notif_advanced_6.png)
 
 1. Bekijk een voorbeeld van uw pushmelding en sla deze op.
 
-## Stap 3: De mobiele toepassingscode aanpassen {#mobile-app-code}
+## Stap 3: De mobiele toepassingscode {#mobile-app-code} aanpassen
 
 Nadat u uw pushmelding in Adobe Campaign hebt aangepast, moet u uw mobiele toepassing configureren om de afbeelding op apparaten weer te geven.
 
 >[!NOTE]
 >
->Als uw toepassing in doelstelling-C is, verwijs naar de volgende [documentatie](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
+>Als uw toepassing in doelstelling-C is, verwijs naar het volgende [documentatie](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
 
-Voer de volgende stappen uit als uw app is ingeschakeld [!DNL Swift]:
+Als uw toepassing zich in [!DNL Swift] bevindt, voert u de onderstaande stappen uit:
 
 1. Open uw [!DNL Xcode] project.
 
-1. Selecteer in uw [!DNL Xcode] project **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
+1. Selecteer [!DNL Xcode] > **[!UICONTROL New]** > **[!UICONTROL Target]** in uw &lt;a0/>-project.**[!UICONTROL File]**
 
 1. Selecteer **[!UICONTROL Notification Service Extension]**.
 
    ![](assets/push_notif_advanced_12.png)
 
-1. Controleer of de **bestandsklasse NotificationService.swift** is gemaakt.
+1. Controleer of de bestandsklasse **NotificationService.swift** is gemaakt.
 
 1. Bewerk deze klasse en vervang de standaardinhoud door het volgende.
 Hierdoor kan de toepassing de binnenkomende parameter afhandelen met de afbeeldings-URL, deze parseren, lokaal kopiëren en vervolgens uit het pushbericht weergeven.
@@ -154,7 +154,7 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 
 ## Stap 4: Test het verzenden van de push {#test-send-push}
 
-U kunt nu testen hoe u uw toepassing bouwt en hoe u de levering hebt gemaakt die u in stap 2 hierboven hebt gemaakt. Raadpleeg deze [pagina](../../channels/using/preparing-and-sending-a-push-notification.md)voor meer informatie over het voorbereiden en verzenden van uw pushmelding.
+U kunt nu testen hoe u uw toepassing bouwt en hoe u de levering hebt gemaakt die u in stap 2 hierboven hebt gemaakt. Raadpleeg deze [pagina](../../channels/using/preparing-and-sending-a-push-notification.md) voor meer informatie over het voorbereiden en verzenden van uw pushmelding.
 
 ![](assets/push_notif_advanced_34.png)
 
