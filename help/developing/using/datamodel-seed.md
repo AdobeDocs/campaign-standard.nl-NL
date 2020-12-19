@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 9%
                </tr>
                <tr>
                   <td>email</td>
-                  <td>Email</td>
+                  <td>E-mail</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -200,7 +200,7 @@ ht-degree: 9%
                   <td> </td>
                </tr>
                <tr>
-                  <td>titel</td>
+                  <td>title</td>
                   <td>Testprofiel</td>
                   <td>tekenreeks (255)</td>
                   <td> </td>
