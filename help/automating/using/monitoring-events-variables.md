@@ -19,8 +19,8 @@ ht-degree: 19%
 
 Het is mogelijk om de gebeurtenisvariabelen te controleren die in het werkschema, met inbegrip van de gedeclareerde externe parameters beschikbaar zijn. Volg de onderstaande stappen om dit te doen:
 
-1. Selecteer de activiteit die de **[!UICONTROL External signal]** activiteit volgt, dan klik de **[!UICONTROL Log and tasks]** knoop.
-1. In the **[!UICONTROL Tasks]** tab, click ![](assets/edit_darkgrey-24px.png) button.
+1. Selecteer de activiteit die de **[!UICONTROL External signal]** activiteit volgt, dan klik **[!UICONTROL Log and tasks]** knoop.
+1. Klik op het tabblad **[!UICONTROL Tasks]** op ![](assets/edit_darkgrey-24px.png).
 
    ![](assets/extsignal_monitoring_2.png)
 
