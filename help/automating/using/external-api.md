@@ -38,7 +38,7 @@ De belangrijkste kenmerken van deze activiteit zijn:
 
 ### Berichten over compatibiliteit met oudere versies {#from-beta-to-ga}
 
-With the Campaign Standard 20.4 release, the http response data size limit and response timeout guardrails have been lowered to align with best practices - see [Limitations and guardrails](#guardrails). Deze beveiligingswijzigingen gelden niet voor bestaande Externe API-activiteiten; daarom wordt u aangeraden bestaande Externe API-activiteiten in alle workflows te vervangen door nieuwe versies.
+Met de release van Campaign Standard 20.4 zijn de beperking voor de grootte van de http-responsgegevens en de time-outinstructies voor de reactie verkleind om deze af te stemmen op de best practices. Zie [Beperkingen en instructies](#guardrails). Deze beveiligingswijzigingen gelden niet voor bestaande Externe API-activiteiten; daarom wordt u aangeraden bestaande Externe API-activiteiten in alle workflows te vervangen door nieuwe versies.
 
 Wanneer u activiteiten voor Externe API vervangt, voegt u de nieuwe activiteit Externe API toe aan de workflow, kopieert u handmatig de configuratiedetails en verwijdert u vervolgens de oude activiteit.
 
