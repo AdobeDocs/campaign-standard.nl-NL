@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Een transactiegebeurtenis configureren
+title: Een transactionele gebeurtenis configureren
 description: Leer hoe u transactiegebeurtenissen in Adobe Campaign configureert.
 audience: channels
 content-type: reference
@@ -16,7 +16,7 @@ ht-degree: 7%
 ---
 
 
-# Een transactionele gebeurtenis {#configuring-transactional-event} configureren
+# Een transactionele gebeurtenis configureren {#configuring-transactional-event}
 
 Als u een transactiebericht met Adobe Campaign wilt verzenden, moet u eerst de structuur van de gebeurtenisgegevens beschrijven door een gebeurtenis te maken en te configureren.
 
