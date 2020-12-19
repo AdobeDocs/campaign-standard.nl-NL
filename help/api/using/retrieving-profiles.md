@@ -17,9 +17,9 @@ ht-degree: 4%
 
 # Profielen ophalen {#retrieving-profiles}
 
-Het ophalen van profielen wordt uitgevoerd met een **GET** -aanvraag.
+Het terugwinnen van profielen wordt uitgevoerd met een **verzoek GET**.
 
-Vervolgens kunt u de zoekopdracht verfijnen door filters, volgorde en paginering te gebruiken. For more on this, refer to the [Additional operations](../../api/using/sorting.md) section.
+Vervolgens kunt u de zoekopdracht verfijnen door filters, volgorde en paginering te gebruiken. Raadpleeg voor meer informatie de sectie [Aanvullende bewerkingen](../../api/using/sorting.md).
 
 <br/>
 
