@@ -23,7 +23,7 @@ ht-degree: 5%
 
 Met Adobe Campaign Standard kunt u de directe invoer van gegevenstoewijzingen via API&#39;s activeren en de status van uw innameverzoeken ophalen.
 
-Op deze pagina wordt beschreven hoe u de ingangsstatus van uw gegevenstoewijzingen kunt activeren en ophalen. Zie [deze sectie](../../api/using/get-started-apis.md)voor algemene informatie over Campaign Standard-API&#39;s.
+Op deze pagina wordt beschreven hoe u de ingangsstatus van uw gegevenstoewijzingen kunt activeren en ophalen. Zie [deze sectie](../../api/using/get-started-apis.md) voor algemene informatie over Campaign Standard API&#39;s.
 
 ## Vereisten {#prerequisites}
 
@@ -36,7 +36,7 @@ Als de gegevenstoewijzing is gemaakt, moet u de bewerking stoppen zodat u deze o
 
 1. Ga in Campaign Standard naar **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
 
-1. Dubbelklik op de gegevenstoewijzing om deze te openen en klik vervolgens op de **[!UICONTROL Stop]** knop.
+1. Dubbelklik op de gegevenstoewijzing om deze te openen en klik vervolgens op de knop **[!UICONTROL Stop]**.
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -44,7 +44,7 @@ Als de gegevenstoewijzing is gemaakt, moet u de bewerking stoppen zodat u deze o
 
 De uitvoering van de gegevenstoewijzing wordt nu gestopt. U kunt Campaign Standard API&#39;s gebruiken om de API&#39;s handmatig te activeren.
 
-## De onmiddellijke inname van gegevenstoewijzing starten {#starting-immediate-ingestion}
+## De onmiddellijke invoer van gegevenstoewijzing {#starting-immediate-ingestion} starten
 
 De directe opname van een afbeelding XDM in Adobe Experience Platform wordt teweeggebracht met een POST verrichting:
 
@@ -52,9 +52,10 @@ De directe opname van een afbeelding XDM in Adobe Experience Platform wordt tewe
 
 >[!NOTE]
 >
->Om ingest POST API vraag uit te voeren, moet de gebruiker een rol van de **SQL uitvoering** van de functie hebben, die door een beheerder van Campaign Standard door onder JS Manuscript kan worden verstrekt uit te voeren:
+>Om ingest POST API vraag uit te voeren, moet de gebruiker **SQL functie uitvoeren** rol hebben, die door een beheerder van Campaign Standard door onder JS Manuscript kan worden verstrekt uit te voeren:
 >
->```
+>
+```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
@@ -94,7 +95,7 @@ De verrichting van de POST keert informatie betreffende de gecreeerde verzoeksta
 }
 ```
 
-## De status van een innameverzoek ophalen {#retrieving-status}
+## De status van een innameverzoek {#retrieving-status} ophalen
 
 De status van een innameverzoek kan met een verrichting van de GET en gewenste verzoekidentiteitskaart in de parameters worden teruggewonnen:
 
@@ -105,7 +106,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Gedetailleerde informatie over de status van de XDM-toewijzingsaanvraag en de bijbehorende taken is beschikbaar in de Campaign Standard-interface, in het **[!UICONTROL Status of data export to platform]** menu (zie [Toewijzing activeren](../../developing/using/aep-mapping-activation.md)).
+>Gedetailleerde informatie over de status van de XDM-toewijzingsaanvraag en de bijbehorende taken is beschikbaar in de Campaign Standard-interface, in het menu **[!UICONTROL Status of data export to platform]** (zie [Activering toewijzen](../../developing/using/aep-mapping-activation.md)).
 
 De bewerking GET retourneert de volgende informatie:
 
