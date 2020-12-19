@@ -15,7 +15,7 @@ ht-degree: 7%
 ---
 
 
-# Overzicht van het ervaringsgegevensmodel {#experience-data-model-overview}
+# Overzicht van het gegevensmodel van de ervaring {#experience-data-model-overview}
 
 >[!IMPORTANT]
 >
@@ -46,4 +46,4 @@ U kunt de volgende handelingen uitvoeren via de XDM Schema-API:
 * Schema-beschrijvingen weergeven
 * Schema-descriptors maken, bijwerken en verwijderen
 
-Alle details om API vraag te manipuleren zijn beschikbaar in de Gids [van de](https://docs.adobe.com/content/help/nl-NL/experience-platform/xdm/api/getting-started.html)Ontwikkelaar.
+Alle details om API vraag te manipuleren zijn beschikbaar in [de Gids van de Ontwikkelaar](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
