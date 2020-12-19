@@ -21,7 +21,7 @@ ht-degree: 89%
 Er zijn verschillende manieren om een levering te controleren en de impact ervan te meten. Als functionele beheerder, kunt u berichtlogboeken en leveringslogboeken toegang hebben.
 >[!CAUTION]
 >
->Alleen functionele [beheerders](../../administration/using/users-management.md#functional-administrators)met **[!UICONTROL Administration]** rol en toegang tot **alle** eenheden hebben toegang tot verzendende logboeken, berichtlogbestanden, trackinglogboeken, uitsluitings- of abonnementlogbestanden. Een gebruiker zonder beheerdersrechten kan zich richten op deze logbestanden, maar begint met een gekoppelde tabel (profielen, levering).
+>Alleen functionele [beheerders](../../administration/using/users-management.md#functional-administrators), met **[!UICONTROL Administration]** rol en toegang tot **Alle** eenheden hebben toegang tot verzendende logboeken, berichtlogboeken, trackinglogboeken, uitsluitings- of abonnementlogboeken. Een gebruiker zonder beheerdersrechten kan zich richten op deze logbestanden, maar begint met een gekoppelde tabel (profielen, levering).
 
 * **Berichtenlogbestanden**: Deze logboeken kunnen direct vanuit het berichtdashboard worden geopend. Zij tonen de details van de verzending, welk doel is uitgesloten en waarom, evenals de tracking-informatie zoals aantal geopend en aantal klikken.
 
