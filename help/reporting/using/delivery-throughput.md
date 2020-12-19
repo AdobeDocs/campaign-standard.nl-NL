@@ -21,10 +21,10 @@ ht-degree: 5%
 Dit rapport bevat gegevens met betrekking tot de leveringsproductie van een verzend, of verscheidene verzendt. Het voorziet in:
 
 * Het aantal verwerkte berichten per uur
-* De **[!UICONTROL Top 5 deliveries]** tabel en de aanvullende samenvattingsnummers die de vijf leveringen met de beste winst in nieuwe pogingen weergeven.
+* De tabel **[!UICONTROL Top 5 deliveries]** en aanvullende samenvattingsnummers die de vijf leveringen met de beste winst in pogingen weergeven.
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->De **[!UICONTROL Delivery throughput]** pagina toont de productiesnelheid voor het doorgeven van uw berichten van Campagne over aan Adobe Campaign Verbeterde MTA.
+>De **[!UICONTROL Delivery throughput]** pagina toont de productiesnelheid voor het doorgeven van uw berichten van Campaign over aan Adobe Campaign Verbeterde MTA.
