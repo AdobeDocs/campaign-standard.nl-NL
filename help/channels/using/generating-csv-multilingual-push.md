@@ -23,7 +23,7 @@ Het uploaden van een CSV-bestand om inhoud te genereren voor levering is een fun
 
 Meertalige push vereist 14 kolommen in het CSV-bestand:
 
-1. titel
+1. title
 1. messageBody
 1. geluid
 1. adge
@@ -38,17 +38,17 @@ Meertalige push vereist 14 kolommen in het CSV-bestand:
 1. language
 1. silentPush
 
-Controleer het CSV-voorbeeld door op de knop **[!UICONTROL Download a sample file]** in het **[!UICONTROL Manage Content Variants]** venster te klikken. For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
+Controleer het CSV-voorbeeld door op **[!UICONTROL Download a sample file]** in het venster **[!UICONTROL Manage Content Variants]** te klikken. Voor meer op dit, verwijs naar dit [sectie](../../channels/using/creating-a-multilingual-push-notification.md).
 
 * **title, messageBody, sound, badge, deplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**: regelmatig de inhoud van de pushlading. U moet deze informatie op dezelfde manier verstrekken als wanneer het creëren van dupleveringen.
-* **Aangepaste velden**:  Gebruik de JSON-indeling voor aangepaste velden, bijvoorbeeld `{"key1":"value1","key2":"value2"}`. Raadpleeg het voorbeeldbestand hierboven voor een voorbeeld van aangepaste velden.
+* **Aangepaste velden**: Gebruik de JSON-indeling voor aangepaste velden, bijvoorbeeld  `{"key1":"value1","key2":"value2"}`. Raadpleeg het voorbeeldbestand hierboven voor een voorbeeld van aangepaste velden.
 * **isContentAvailable**: markering voor controle van beschikbare inhoud, waarde 1 impliceert waar, waarde 0 impliceert vals. De standaardwaarde is 0. Als u deze kolom leeg laat, wordt de waarde als 0 beschouwd.
 * **isMutableContent**: markering voor Mutable Content, waarde 1 impliceert true, waarde 0 betekent false. De standaardwaarde is 0. Als u deze kolom leeg laat, wordt de waarde als 0 beschouwd.
 * **landinstelling**: landinstelling is het veld voor taalvarianten, bijvoorbeeld &quot;en_us&quot; voor Amerikaans-Engels en &quot;fr_fr&quot; voor Frankrijk-Frans.
 * **taal**: naam van de taal die aan de landinstelling is gekoppeld. Als de landinstelling bijvoorbeeld &#39;en_us&#39; is, moet de naam van de taal &#39;English-United States&#39; zijn.
 * **silentPush**: markering voor het type pushmelding. Als het een regelmatig pushbericht is, moet de waarde 0 zijn. Als het een stille push is, moet de waarde 1 zijn. De standaardwaarde is 0. Als u deze kolom leeg laat, wordt de waarde als 0 beschouwd.
 
-## Restricties en richtlijnen voor het maken van CSV-bestanden {#constraints-guideline-csv}
+## Restricties en richtlijnen voor het maken van het CSV-bestand {#constraints-guideline-csv}
 
 **De naam van elke kolom is vast**.
 Neem de naam van elke kolom op in het CSV-bestand. Als u geen kolommen gebruikt voor de inhoud, laat u deze leeg.
@@ -66,7 +66,7 @@ Een lege waarde voor deze kolom resulteert in een fout bij het uploaden van het 
 
 **Variant komt niet overeen.** Als u inhoudsblok en doelpubliek met specifieke talen gebruikt, moet u elke beoogde taal in uw CSV-bestand vermelden, anders krijgt u een foutbericht bij het verzenden van de levering.
 
-## Invoeging van het aanpassingsveld in het CSV-bestand {#personalization-field-csv}
+## Invoeging van het verpersoonlijkingsgebied in het csv- dossier {#personalization-field-csv}
 
 Als u verpersoonlijkingsgebieden wilt gebruiken, zou u <span> markering in het dossier moeten omvatten.
 
@@ -86,7 +86,7 @@ In het bereik zijn twee verplichte kenmerken:
 
 * De ene is een klasse die statisch is. Welk verpersoonlijkingsgebied u van plan bent te gebruiken, zal het altijd class=&quot;nl-dce-field nl-dce-done&quot;zijn.
 
-* Een andere is data-nl-expr die de weg van verpersoonlijkingsgebied is. Als u bijvoorbeeld het verpersoonlijkingsveld &quot;firstName&quot; invoegt vanuit de gebruikersinterface, is het navigatiepad **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (zoals in de onderstaande afbeelding wordt getoond). In dit geval wordt het pad
+* Een andere is data-nl-expr die de weg van verpersoonlijkingsgebied is. Als u bijvoorbeeld het verpersoonlijkingsveld &quot;firstName&quot; vanuit de gebruikersinterface invoegt, is het navigatiepad **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (zoals in de onderstaande afbeelding wordt getoond). In dit geval wordt het pad
 
    ```
    /context/profile/firstName. data-nl-expr="/context/profile/firstName".
@@ -98,7 +98,7 @@ In het bereik zijn twee verplichte kenmerken:
 
 De volgende talen worden ondersteund:
 
-| landinstelling | language |
+| landinstelling | taal |
 |:-:|:-:|
 | af_za | Afrikaans - Zuid-Afrika |
 | sq_al | Albanees - Albanië |
