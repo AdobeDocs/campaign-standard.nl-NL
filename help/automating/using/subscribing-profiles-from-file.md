@@ -16,7 +16,7 @@ ht-degree: 53%
 ---
 
 
-# Subscribing profiles to a specific service after importing a file {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
+# Profielen abonneren op een specifieke service na het importeren van een bestand {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 In dit voorbeeld ziet u hoe u een bestand met profielen importeert en deze abonneert op een bestaande service. Nadat het bestand is geïmporteerd, moet een afstemming worden uitgevoerd, zodat de geïmporteerde data kunnen worden geïdentificeerd als profielen. Om ervoor te zorgen dat het bestand geen duplicaten bevat, wordt een ontdubbelingsactiviteit uitgevoerd op de data.
 
@@ -24,7 +24,7 @@ De workflow wordt als volgt weergegeven:
 
 ![](assets/subscription_activity_example1.png)
 
-* A [Load file](../../automating/using/load-file.md) activity loads the profile file and defines the structure of the imported columns.
+* Met een activiteit [Bestand laden](../../automating/using/load-file.md) wordt het profielbestand geladen en wordt de structuur van de geïmporteerde kolommen gedefinieerd.
 
    In dit voorbeeld heeft het geladen bestand de csv-indeling en bevat het de volgende data:
 
@@ -43,14 +43,14 @@ De workflow wordt als volgt weergegeven:
 
    ![](assets/subscription_activity_example2.png)
 
-* A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. Alleen het tabblad **[!UICONTROL Identification]** is geconfigureerd. De bestandsdata worden geïdentificeerd aan de hand van de e-mailadressen van de profielen.
+* Een [Afstemming](../../automating/using/reconciliation.md)-activiteit identificeert de gegevens uit het bestand als behorend tot de profieldimensie van de Adobe Campaign-database. Alleen het tabblad **[!UICONTROL Identification]** is geconfigureerd. De bestandsdata worden geïdentificeerd aan de hand van de e-mailadressen van de profielen.
 
    ![](assets/subscription_activity_example3.png)
 
-* A [Deduplication](../../automating/using/deduplication.md) based on the **email** field of the temporary resource (resulting from the reconciliation) identifies any duplicates. Als de data die uit het bestand zijn geïmporteerd, duplicaten bevatten, mislukt de inschrijving op een service voor alle data.
+* Een [Deduplicatie](../../automating/using/deduplication.md) gebaseerd op het **email** veld van de tijdelijke bron (resulterend uit de afstemming) identificeert eventuele duplicaten. Als de data die uit het bestand zijn geïmporteerd, duplicaten bevatten, mislukt de inschrijving op een service voor alle data.
 
    ![](assets/subscription_activity_example5.png)
 
-* A [Subscription Services](../../automating/using/subscription-services.md) activity lets you select the service to which the profiles must be subscribed, the field corresponding to the subscription date, and the origin of the subscription.
+* Met de activiteit [Subscription Services](../../automating/using/subscription-services.md) kunt u de service selecteren waarop u een abonnement wilt nemen op de profielen, het veld dat overeenkomt met de abonnementsdatum en de oorsprong van het abonnement.
 
    ![](assets/subscription_activity_example4.png)
