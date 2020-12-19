@@ -28,7 +28,7 @@ Adobe Campaign Standard gebruikt vervolgens de service **Poortdoelen** om een ve
 
 **Het** publiek wordt gecreeerd door eerste bouwende  **segmenten**, die hoofdzakelijk een reeks regels zijn die op vrijwel om het even welke variabele (b.v., profiel, gebeurtenis, multi-entiteitgegevens) binnen een klantenprofiel van Adobe Experience Platform worden gebaseerd om een multidimensionaal doel tot stand te brengen. In de volgende speciale documenten wordt verwezen naar algemene concepten voor Profiel en Segmentatieservices van klanten in realtime:
 
-* [Overzicht van het realtime klantprofiel](https://docs.adobe.com/content/help/nl-NL/experience-platform/profile/home.html)
+* [Overzicht van het realtime klantprofiel](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
 * [Overzicht van segmentatieservice](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)
 
 Zodra een segment is gecreeerd, kunt u het als publiek voor een levering in [de werkschema&#39;s van Campaign Standard dan activeren ](../../automating/using/aep-targeting-audiences.md). Daarnaast kunt u contextuele gegevens van de Adobe Experience Platform gebruiken om [personalize](../../automating/using/aep-personalizing-campaigns.md) te verpersoonlijken en dynamische inhoud aan uw campagnes toe te voegen.
