@@ -19,7 +19,7 @@ ht-degree: 10%
 
 Activeer uw CRM-gegevens voor kanaalcommunicatie: Leer hoe te om contacten van de Dynamiek 365 van Microsoft aan Adobe Campaign over te gaan, en gegevens van campagneprestaties (verzendt, opent, klikt, en stuitingen) terug van Adobe Campaign naar de Dynamica 365 van Microsoft te delen.
 
-Ondersteunde versies worden weergegeven [in deze sectie](#support-software-versions).
+Ondersteunde versies worden [in deze sectie](#support-software-versions) vermeld.
 
 >[!CAUTION]
 >
@@ -58,7 +58,7 @@ Als contactgegevens zijn gesynchroniseerd met Adobe Campaign, kunnen communicati
 >
 >Voor contact en de synchronisatie van de douaneentiteit, beschouwt deze integratie Dynamiek 365 als bron van waarheid.  Om het even welke veranderingen in gesynchroniseerde attributen zouden in Dynamiek 365, niet in Campagne moeten worden gedaan.  Als er wijzigingen worden aangebracht in Campagne, kunnen deze tijdens de synchronisatie worden overschreven.
 
-## Softwareversies ondersteunen {#support-software-versions}
+## Softwareversies {#support-software-versions} ondersteunen
 
 Voor deze integratie zijn de volgende softwareversies vereist:
 
