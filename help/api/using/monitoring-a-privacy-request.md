@@ -17,9 +17,9 @@ ht-degree: 25%
 
 # Een privacyaanvraag opvolgen {#monitoring-a-privacy-request}
 
-U kunt de informatie over een gemaakte privacyaanvraag controleren met een **GET** -aanvraag.
+U kunt informatie over een gecreeerd privacyverzoek controleren gebruikend een **GET** verzoek.
 
-De beschrijving van de statuslijst is beschikbaar in de documentatie [van het](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)privacybeheer.
+De beschrijving van de statuslijst is beschikbaar in de [Privacy management documentatie](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 <br/>
 
