@@ -27,7 +27,7 @@ Het berichtdashboard is een werkruimte die uit verschillende pictogrammen - in e
 De grijze balk groepeert verschillende pictogrammen die aan uw bericht zijn gekoppeld.
 
 * **[!UICONTROL Summary]**: toont/verbergt de belangrijkste informatie betreffende het bericht.
-* **[!UICONTROL Edit properties]**: Hiermee kunt u de [geavanceerde parameters](../../administration/using/configuring-email-channel.md#list-of-email-properties)van het bericht bewerken.
+* **[!UICONTROL Edit properties]**: Hiermee kunt u de  [geavanceerde parameters](../../administration/using/configuring-email-channel.md#list-of-email-properties) van het bericht bewerken.
 * **[!UICONTROL Reports]**: geeft u toegang tot de rapporten met betrekking tot het bericht.
 
 **Verwante onderwerpen:**
@@ -45,13 +45,13 @@ Afhankelijk van de ingestelde parameters en de geboekte vooruitgang zijn bepaald
 
 * **[!UICONTROL Show proofs]**: toont/verbergt de lijst van bewijzen die zijn verzonden, als zij bestaan. Deze knop wordt alleen ingeschakeld nadat u proefdrukken hebt verzonden.
 
-   Zie Proefdrukken [verzenden voor meer informatie over proefdrukken](../../sending/using/sending-proofs.md).
+   Zie [Proefdrukken verzenden](../../sending/using/sending-proofs.md) voor meer informatie over proefdrukken.
 
-* **[!UICONTROL Send a test]**: Hiermee kunt u de goedkeuringsmodus selecteren die u wilt gebruiken: **[!UICONTROL Email rendering]** (Alleen e-mail) **[!UICONTROL Proof]** of beide. Zie Proefdrukken [verzenden voor meer informatie over testprofielen](../../sending/using/sending-proofs.md). Deze knop wordt alleen ingeschakeld nadat u testprofielen hebt gemaakt.
+* **[!UICONTROL Send a test]**: Hiermee kunt u de goedkeuringsmodus selecteren die u wilt gebruiken:  **[!UICONTROL Email rendering]** (Alleen e-mail)  **[!UICONTROL Proof]** of beide. Zie [Proefdrukken verzenden](../../sending/using/sending-proofs.md) voor meer informatie over testprofielen. Deze knop wordt alleen ingeschakeld nadat u testprofielen hebt gemaakt.
 
-* **[!UICONTROL Prepare send]**: begint de verzending voor te bereiden. Het **[!UICONTROL Deployment]** blok verschijnt en toont het resultaat van de voorbereiding. Deze knop wordt alleen weergegeven wanneer het doel is ingevoerd. U kunt de voorbereiding op elk gewenst moment stoppen met de bijbehorende knop. For more on message preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).
+* **[!UICONTROL Prepare send]**: begint de verzending voor te bereiden. Het **[!UICONTROL Deployment]** blok verschijnt en toont het resultaat van de voorbereiding. Deze knop wordt alleen weergegeven wanneer het doel is ingevoerd. U kunt de voorbereiding op elk gewenst moment stoppen met de bijbehorende knop. Voor meer bij berichtvoorbereiding, verwijs naar [Voorbereidend verzend ](../../sending/using/preparing-the-send.md).
 
-* **[!UICONTROL Confirm send]**: bevestigt het verzenden van het bericht. De verzendende statistieken verschijnen in het **[!UICONTROL Deployment]** blok. Deze knop wordt alleen weergegeven nadat het verzenden is voorbereid. U kunt het verzenden op elk gewenst moment stoppen of pauzeren met de **knoppen Stoppen** en **[!UICONTROL Pause]** Stoppen. Voor meer bij het bevestigen van het verzenden, verwijs naar het [Verzenden van berichten](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Confirm send]**: bevestigt het verzenden van het bericht. De verzendende statistieken verschijnen in het **[!UICONTROL Deployment]** blok. Deze knop wordt alleen weergegeven nadat het verzenden is voorbereid. U kunt het verzenden op elk moment stoppen of pauzeren met de knoppen **Stoppen met verzenden** en **[!UICONTROL Pause]**. Raadpleeg [Berichten verzenden](../../sending/using/confirming-the-send.md) voor meer informatie over het bevestigen van het verzenden.
 
 ## Blokken {#blocks}
 
@@ -59,10 +59,10 @@ Het hoofdscherm bestaat uit verschillende blokken. Klik in een blok om het bijbe
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Deployment]**: Hiermee kunt u de voortgang van het voorbereiden of verzenden van berichten volgen. Klik op de knop in de rechterbenedensectie van dit blok voor toegang tot de logboeken voor verzenden en analyse. Dit blok verschijnt slechts zodra het verzenden is voorbereid. Meer hierover. See [Confirming send](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Deployment]**: Hiermee kunt u de voortgang van het voorbereiden of verzenden van berichten volgen. Klik op de knop in de rechterbenedensectie van dit blok voor toegang tot de logboeken voor verzenden en analyse. Dit blok verschijnt slechts zodra het verzenden is voorbereid. Meer hierover. Zie [Verzenden bevestigen](../../sending/using/confirming-the-send.md).
 * **[!UICONTROL Audience]**: Hiermee kunt u zowel het hoofddoel van het bericht als de testprofielen vaststellen. Zie [Doelgroepen maken](../../audiences/using/creating-audiences.md).
 * **[!UICONTROL Schedule]**: kunt u opgeven op welke datum uw bericht wordt verzonden. Zie [Planning](../../sending/using/about-scheduling-messages.md).
-* **[!UICONTROL Content]**: Hiermee kunt u de inhoud van het bericht definiëren en er een voorvertoning van weergeven. See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
+* **[!UICONTROL Content]**: Hiermee kunt u de inhoud van het bericht definiëren en er een voorvertoning van weergeven. Zie [Belangrijke stappen om een bericht te verzenden](../../channels/using/key-steps-to-send-a-message.md).
 
 ## Waarschuwingen {#warnings}
 
@@ -78,7 +78,7 @@ Hieronder volgt een lijst met de berichten die kunnen worden weergegeven:
 
 * *&quot;Het verpletteren van externe rekening is onbruikbaar gemaakt.&quot;*
 
-   Zie [Externe rekeningen](../../administration/using/external-accounts.md)voor meer informatie.
+   Zie [Externe accounts](../../administration/using/external-accounts.md) voor meer informatie.
 
 * *&quot;De berichten kunnen niet worden verzonden omdat de huidige IP affiniteit niet door om het even welk verzendend proces wordt behandeld.&quot;*
 
@@ -88,6 +88,6 @@ Hieronder volgt een lijst met de berichten die kunnen worden weergegeven:
 
    Sommige van deze uit-van-de-doos transactionele berichtmalplaatjes zijn ingebouwde het landen paginasjablonen. Zie [deze sectie](../../channels/using/landing-page-templates.md)voor meer informatie.
 
-* *&quot;Dit bericht is een sjabloon voor technische transactieberichten. U kunt deze niet wijzigen of publiceren.&quot;*
+* *&quot;Dit bericht is een sjabloon voor technische transactieberichten. U kunt het niet wijzigen of publiceren.&quot;*
 
-   Deze waarschuwing wordt weergegeven in lege transactiemalplaatjes die niet bewerkbaar zijn. For more on transactional messages, see [this section](../../channels/using/getting-started-with-transactional-msg.md).
+   Deze waarschuwing wordt weergegeven in lege transactiemalplaatjes die niet bewerkbaar zijn. Zie [deze sectie](../../channels/using/getting-started-with-transactional-msg.md) voor meer informatie over transactieberichten.
