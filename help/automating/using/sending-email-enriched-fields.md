@@ -28,15 +28,15 @@ In het onderstaande voorbeeld ziet u hoe u een e-mail verzendt met behulp van aa
 
 Voer de volgende stappen uit om de workflow te maken:
 
-1. Drag and drop a [Query](../../automating/using/query.md) activity into your workflow and open it to define the main target.
+1. Sleep een [Query](../../automating/using/query.md)-activiteit naar uw werkstroom en open deze om het hoofddoel te definiëren.
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. Drag and drop a [Load file](../../automating/using/load-file.md) activity to assign some data to a profile. In dit voorbeeld laadt u een bestand met accountnummers die overeenkomen met bepaalde profielen van de database.
+1. Sleep een [Bestandsactiviteit laden](../../automating/using/load-file.md) om gegevens aan een profiel toe te wijzen. In dit voorbeeld laadt u een bestand met accountnummers die overeenkomen met bepaalde profielen van de database.
 
    ![](assets/load_file_activity.png)
 
-1. Drag and drop an [Enrichment](../../automating/using/enrichment.md) activity into your workflow and link the load file and query activities to it.
+1. Sleep een [Verrijking](../../automating/using/enrichment.md) activiteit in uw werkschema en verbind het ladingsdossier en vraagactiviteiten met het.
 
 1. Selecteer op het tabblad **[!UICONTROL Advanced relations]** van de activiteit voor het verrijken de optie **[!UICONTROL 0 or 1 cardinality simple link]** en definieer de velden die moeten worden gebruikt voor afstemming. Hier gebruiken we de achternaam om de data af te stemmen op de databaseprofielen.
 
@@ -50,13 +50,13 @@ Voer de volgende stappen uit om de workflow te maken:
 
    Zie de sectie [Verrijking](../../automating/using/enrichment.md) voor meer informatie.
 
-1. Drag and drop a [Segmentation](../../automating/using/segmentation.md) activity into your workflow and open it to refine the main target.
+1. Sleep een [Segmentatie](../../automating/using/segmentation.md) activiteit in uw werkschema en open het om het belangrijkste doel te verfijnen.
 
    ![](assets/load_file_segmentation.png)
 
    Zie de sectie [Segmentatie](../../automating/using/segmentation.md) voor meer informatie.
 
-1. Drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity into your workflow and open it.
+1. Sleep een [e-maillevering](../../automating/using/email-delivery.md) activiteit naar uw werkstroom en open deze.
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 
