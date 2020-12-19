@@ -25,7 +25,7 @@ Opdat deze functionaliteit werkt, omvat het direct-mail standaardleveringsmalpla
 
 ![](assets/direct_mail_return_sender_1.png)
 
-Een importsjabloon is beschikbaar onder **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**. Dupliceer deze sjabloon om uw eigen sjabloon te maken. Raadpleeg Importsjablonen [gebruiken voor meer informatie over het gebruik van importsjablonen](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates).
+Een importsjabloon is beschikbaar onder **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**. Dupliceer deze sjabloon om uw eigen sjabloon te maken. Raadpleeg [Importsjablonen gebruiken](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates) voor meer informatie over het gebruik van importsjablonen.
 
 ![](assets/direct_mail_return_sender_2.png)
 
