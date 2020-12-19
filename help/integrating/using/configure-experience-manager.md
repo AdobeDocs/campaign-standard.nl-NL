@@ -25,8 +25,8 @@ Met dit gebruiksgeval leert u hoe u e-mailinhoud maakt en beheert in Adobe Exper
 
 Zorg ervoor dat u de volgende elementen vooraf hebt:
 
-* Een Adobe Experience Manager- **ontwerpinstantie**
-* Een Adobe Experience Manager- **publicatie** -instantie
+* Een Adobe Experience Manager **authoring**-instantie
+* Een Adobe Experience Manager **publishing**-instantie
 * Een Adobe Campaign-instantie
 
 ## Configuratie in Adobe Campaign Standard {#config-acs}
@@ -36,13 +36,13 @@ Adobe Campaign configureren:
 
 1. U moet eerst de **[!UICONTROL Adobe Experience Manager instance]** externe account configureren onder **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts menu]**.
 
-1. Configureer het externe Adobe Experience Manager-account met uw **[!UICONTROL Server]** URL **[!UICONTROL Account]** en **[!UICONTROL Password]**.
+1. Configureer de externe Adobe Experience Manager-account met uw **[!UICONTROL Server]** URL, **[!UICONTROL Account]** en **[!UICONTROL Password]**.
 
    ![](assets/aem_1.png)
 
-1. Controleer of de **[!UICONTROL AEMResourceTypeFilter]** optie correct is geconfigureerd. Open het **[!UICONTROL Options]** menu via **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** .
+1. Controleer of de optie **[!UICONTROL AEMResourceTypeFilter]** correct is geconfigureerd. Open het menu **[!UICONTROL Options]** onder **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu.
 
-1. Controleer in het **[!UICONTROL Value (text)]** veld of de volgende syntaxis correct is:
+1. Controleer in het veld **[!UICONTROL Value (text)]** of de volgende syntaxis correct is:
 
    ```
    mcm/campaign/components/newsletter,mcm/campaign/components/campaign_newsletterpage,mcm/neolane/components/newsletter
@@ -50,15 +50,15 @@ Adobe Campaign configureren:
 
    ![](assets/aem_2.png)
 
-1. Vervolgens dupliceert u in het menu Geavanceerd onder **[!UICONTROL Resources]** > **[!UICONTROL Templates]** **[!UICONTROL Delivery templates]**> een van de bestaande sjabloon om een e-mailsjabloon te maken die specifiek is voor Adobe Experience Manager.
+1. Vervolgens dupliceert u in het geavanceerde menu onder **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** een van de bestaande sjabloon om een specifieke e-mailsjabloon voor Adobe Experience Manager te maken.
 
    ![](assets/aem_3.png)
 
-1. Klik op het **[!UICONTROL Edit properties]** pictogram.
+1. Klik op het pictogram **[!UICONTROL Edit properties]**.
 
    ![](assets/aem_4.png)
 
-1. Selecteer onder de **[!UICONTROL Content]** vervolgkeuzelijst **[!UICONTROL Adobe Experience Manager]** in het **[!UICONTROL Content source]** veld uw eerder gemaakte externe account in de **[!UICONTROL Adobe Experience Manager account]**.
+1. Selecteer **[!UICONTROL Adobe Experience Manager]** in het veld **[!UICONTROL Content source]** onder de vervolgkeuzelijst **[!UICONTROL Content]** en selecteer vervolgens uw eerder gemaakte externe account in **[!UICONTROL Adobe Experience Manager account]**.
 
 U moet nu de integratie configureren in Adobe Experience Manager.
 
@@ -66,9 +66,9 @@ U moet nu de integratie configureren in Adobe Experience Manager.
 
 Voer de volgende stappen uit om Adobe Experience Manager te configureren met Adobe Campaign Standard:
 
-1. Eerst moet u de replicatie tussen de Adobe Experience Manager-instanties voor schrijven en publiceren configureren. Refer to this [section](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager).
+1. Eerst moet u de replicatie tussen de Adobe Experience Manager-instanties voor schrijven en publiceren configureren. Zie deze [sectie](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager).
 
-1. Sluit vervolgens Adobe Experience Manager aan op Adobe Campaign door een speciale **[!UICONTROL Cloud Service]** configuratie te configureren. Refer to this [section](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign).
+1. Sluit vervolgens Adobe Experience Manager aan op Adobe Campaign door een speciale **[!UICONTROL Cloud Service]** te configureren. Zie deze [sectie](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign).
 
-1. U moet nu de externalizer in Adobe Experience Manager op uw auteurinstantie vormen. Refer to this [section](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer).
+1. U moet nu de externalizer in Adobe Experience Manager op uw auteurinstantie vormen. Zie deze [sectie](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer).
 
