@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '651'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
 
-# Levenscyclus van transactieberichten {#publishing-transactional-message}
+# Levenscyclus van transactionele berichten {#publishing-transactional-message}
 
 Wanneer het [transactioneel bericht](../../channels/using/editing-transactional-message.md) klaar is om te worden verzonden, kan het worden gepubliceerd.
 
@@ -99,8 +99,8 @@ Klik op de knop **[!UICONTROL Reports]** voor toegang tot rapporten over uw tran
 ![](assets/message-center_13.png)
 
 **Verwante onderwerpen**:
-* [Een transactiebericht bewerken](../../channels/using/editing-transactional-message.md)
-* [Een transactiebericht testen](../../channels/using/testing-transactional-message.md)
+* [Een transactioneel bericht bewerken](../../channels/using/editing-transactional-message.md)
+* [Een transactioneel bericht testen](../../channels/using/testing-transactional-message.md)
 * [De gebeurtenis die leidt tot integratie](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
 ## Opschorting van de publicatie van een transactiebericht {#suspending-a-transactional-message-publication}
