@@ -106,8 +106,7 @@ JavaScript-expressies bestaan uit een of meer voorwaarden en gebruiken de volgen
    * **&lt;value2>** een veld, een functie of een waarde is die handmatig wordt ingevoerd.
 
    >[!NOTE]
-   >
-   >De typegegevens voor **&lt;context>** en **&lt;value2>** moeten identiek zijn. Als **&lt;context>** bijvoorbeeld een datum is, moet **&lt;value2>** ook een datum zijn.
+   De typegegevens voor **&lt;context>** en **&lt;value2>** moeten identiek zijn. Als **&lt;context>** bijvoorbeeld een datum is, moet **&lt;value2>** ook een datum zijn.
 
 * Als u meerdere voorwaarden wilt gebruiken, kunt u deze combineren met logische operatoren.
 
@@ -156,7 +155,7 @@ De voorwaarden moeten aan waarden zijn gekoppeld aan de hand van een van de volg
   <tr> 
    <td> <span class="uicontrol">Less than</span> <br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> &lt;<br /> </td> 
+   <td> &lt;&gt;<br /> </td> 
    <td> De eerste waarde moet categorisch kleiner zijn dan de tweede waarde.<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong> haalt alle profielen op die minder dan 100 dagen geleden in de database zijn gemaakt.<br /> </td> 
   </tr> 
@@ -170,7 +169,7 @@ De voorwaarden moeten aan waarden zijn gekoppeld aan de hand van een van de volg
   <tr> 
    <td> <span class="uicontrol">Less than or equal to</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> &lt;=<br /> </td> 
+   <td> &lt;&gt;<br /> </td> 
    <td> De eerste waarde moet kleiner zijn dan of gelijk zijn aan de tweede waarde.<br /> </td> 
    <td> <strong>@age &lt;= 60</strong> haalt profielen van 60 jaar of jonger op.<br /> </td> 
   </tr> 
