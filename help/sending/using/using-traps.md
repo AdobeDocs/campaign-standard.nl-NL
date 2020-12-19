@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # Traps gebruiken {#using-traps}
 
-Wanneer u overvullingen gebruikt, wordt het bericht naar het [testprofiel](../../audiences/using/managing-test-profiles.md) verzonden, net zoals het naar het hoofddoel wordt verzonden, om te bepalen of uw clientbestand op frauduleuze wijze wordt gebruikt.
+Wanneer u overvullingen gebruikt, wordt het bericht naar het [testprofiel](../../audiences/using/managing-test-profiles.md) verzonden, net zoals het naar het hoofddoel wordt verzonden, als middel om te bepalen of uw cliëntdossier frauduleus wordt gebruikt.
 
 De overvullingen waren oorspronkelijk ontworpen voor direct-mailleveringen. U kunt hiermee:
 
@@ -27,7 +27,7 @@ De overvullingen waren oorspronkelijk ontworpen voor direct-mailleveringen. U ku
 * Een exacte kopie bewaren van de verzonden e-mail.
 * Controleer of uw clientlijst niet wordt misbruikt door uw directe-mailprovider. Als er andere communicatie naar het adres van uw testprofiel wordt verzonden, is het mogelijk dat uw clientbestand zonder uw medeweten is gebruikt. Daarom mag het adres van het testprofiel alleen voor dit doel worden gebruikt.
 
-Zie Testen- en overvulprofielen [](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)toevoegen voor meer informatie over het toevoegen van overvullingen aan het publiek van een directe e-mail.
+Zie [Testen en overvullen toevoegen](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles) voor meer informatie over het toevoegen van overvullingen aan het publiek van een directe e-mail.
 
 Voor de andere communicatiekanalen kunt u testprofielen voor overvulling toevoegen aan het hoofddoel:
 
@@ -43,11 +43,11 @@ Als u een testprofiel als een overvulling wilt gebruiken, moet dit deel uitmaken
 
 Bij het definiëren van het publiek van een bericht:
 
-1. Selecteer op het **[!UICONTROL Test profiles]** tabblad een testprofiel. Zorg ervoor dat dit het **[!UICONTROL Trap]** gewenste gebruik heeft.
+1. Selecteer een testprofiel op het tabblad **[!UICONTROL Test profiles]**. Zorg ervoor dat het **[!UICONTROL Trap]** als voorgenomen gebruik heeft.
 
    ![](assets/trap_select.png)
 
-1. Klik op de **[!UICONTROL Prepare]** knop als de inhoud van het bericht gereed is. See [Preparing the send](../../sending/using/preparing-the-send.md).
+1. Wanneer de inhoud van het bericht gereed is, klikt u op de knop **[!UICONTROL Prepare]**. Zie [De send](../../sending/using/preparing-the-send.md) voorbereiden.
    >[!NOTE]
    >
    >Controleer of u een hoofddoel hebt geselecteerd. Anders kan uw bericht niet worden verzonden.
@@ -58,8 +58,8 @@ Bij het definiëren van het publiek van een bericht:
 
 Het bericht wordt naar het hoofddoel en naar het testprofiel verzonden.
 
-U kunt overvullingen gebruiken bij het verzenden van transactieberichten. In dit geval ontvangt het testprofiel één bericht per gebeurtenisconfiguratie. For more on transactional messaging, see this [section](../../channels/using/getting-started-with-transactional-msg.md).
+U kunt overvullingen gebruiken bij het verzenden van transactieberichten. In dit geval ontvangt het testprofiel één bericht per gebeurtenisconfiguratie. Voor meer op transactioneel overseinen, zie dit [sectie](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
->Wanneer u een testprofiel als overvulling gebruikt, worden voor alle verrijkte velden in een bericht de bijbehorende aanvullende gegevens willekeurig gekozen uit een echt doelprofiel en toegewezen aan het testprofiel voor overvulling. Zie [dit voorbeeld](../../automating/using/enriching-profile-data-file.md)voor meer informatie over verrijking.
+>Wanneer u een testprofiel als overvulling gebruikt, worden voor alle verrijkte velden in een bericht de bijbehorende aanvullende gegevens willekeurig gekozen uit een echt doelprofiel en toegewezen aan het testprofiel voor overvulling. Zie [dit voorbeeld](../../automating/using/enriching-profile-data-file.md) voor meer informatie over verrijking.
