@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Transactieproblemen bij het gebruik van berichten
+title: Gebruiksscenario voor transactionele berichten
 description: Ontdek een end-to-end voorbeeld van de Adobe Campaign functionaliteit voor transactioneel overseinen.
 audience: channels
 content-type: reference
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# Transactioneel overseinengebruiksgeval {#transactional-messaging-use-case}
+# Gebruiksscenario voor transactionele berichten {#transactional-messaging-use-case}
 
 In dit voorbeeld wilt u de Adobe Campaign-functionaliteit voor transactiemeldingen gebruiken om een bevestigingsbericht te verzenden na elke aankoop op uw website, waarbij u uw klanten kunt identificeren via hun CRM-id.
 
