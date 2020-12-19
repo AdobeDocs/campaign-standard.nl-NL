@@ -9,15 +9,15 @@ topic-tags: campaign-standard-releases
 translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '7623'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Opmerkingen bij de releases in 2019{#release-notes-2019}
 
-[Release-planning](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/release-planning.html) |  [Configuratiescherm](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html) |  [Documentatie-updates](../../rn/using/documentation-updates.md) |  [Nieuwste releaseopmerkingen](../../rn/using/release-notes.md) |  [Verouderde functies](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
+[Release-planning](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/release-planning.html) |  [Configuratiescherm](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html) |  [Documentatie-updates](../../rn/using/documentation-updates.md) |  [Nieuwste releaseopmerkingen](../../rn/using/release-notes.md) |  [Verouderde functies](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=nl#release-notes)
 
 ## Release 19.4 - december 2019 {#release-19-4---october-2019}
 
