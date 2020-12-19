@@ -33,10 +33,10 @@ Abonnementen kunnen ook worden beheerd met de Adobe Campaign Standard API. Raadp
 
 Voer de onderstaande stappen uit om een abonnementsmechanisme te maken:
 
-1. **Een service** maken: volg de stappen [in deze sectie](../../audiences/using/creating-a-service.md) om een abonnementenservice te maken
-1. **Deel de koppeling** - leer hoe u uw service kunt promoten en delen [op deze pagina](../../audiences/using/promoting-a-service.md)
-1. **Abonnementen** controleren - ontdek verscheidene manieren om abonnementen op uw dienst [in deze sectie te controleren](../../audiences/using/monitoring-subscriptions.md)
-1. **Abonnementen** bevestigen - volg [deze zelfstudie](../../audiences/using/confirming-subscription-to-a-service.md) om een bevestigingsbericht voor een abonnement te verzenden
+1. **Een service**  maken: volg de stappen  [in deze ](../../audiences/using/creating-a-service.md) sectie om een abonnementenservice te maken
+1. **Deel de koppeling** : leer hoe u uw service kunt promoten en delen  [op deze pagina](../../audiences/using/promoting-a-service.md)
+1. **Abonnementen**  controleren - ontdek verscheidene manieren om abonnementen op uw dienst  [in deze sectie te controleren](../../audiences/using/monitoring-subscriptions.md)
+1. **Abonnementen**  bevestigen - volg  [deze ](../../audiences/using/confirming-subscription-to-a-service.md) zelfstudie om een bevestigingsbericht voor een abonnement te verzenden
 
 ## Aanvullende bronnen
 
