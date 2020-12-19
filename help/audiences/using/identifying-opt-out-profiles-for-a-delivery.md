@@ -17,7 +17,7 @@ ht-degree: 41%
 
 # Opt-outprofielen voor een levering identificeren{#identifying-opt-out-profiles-for-a-delivery}
 
-Opt-outprofielen voor een specifieke levering worden vermeld na de voorbereidingsfase, op het **[!UICONTROL Exclusion logs]** tabblad van het leveringsdashboard.
+Opt-outprofielen voor een specifieke levering worden vermeld na de voorbereidingsfase, op het tabblad **[!UICONTROL Exclusion logs]** van het leveringsdashboard.
 
 ![](assets/exclusion_blocklisting.png)
 
