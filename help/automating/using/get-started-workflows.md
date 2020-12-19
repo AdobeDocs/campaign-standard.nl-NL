@@ -40,11 +40,11 @@ Workflows kunnen in verschillende contexten worden gebruikt, zoals:
 
 Er zijn verschillende activiteiten beschikbaar om u te helpen uw workflows ontwerpen.
 
-[Met doelgerichte activiteiten](../../automating/using/about-targeting-activities.md) kunt u een of meer doelen maken door sets te definiëren en deze sets te splitsen of te combineren met behulp van doorsnede-, samenvoegings- of uitsluitingsbewerkingen.
+[Met doelgerichte ](../../automating/using/about-targeting-activities.md) activiteiten kunt u een of meer doelen maken door sets te definiëren en deze sets te splitsen of te combineren met gebruik van doorsnede-, samenvoegings- of uitsluitingsbewerkingen.
 
-Met [de activiteiten](../../automating/using/about-execution-activities.md)van de Uitvoering, coördineer uw werkschema en zijn activiteiten, terwijl de activiteiten [van het](../../automating/using/about-channel-activities.md) Kanaal u Campaign Standard communicatie kanalen laten combineren om kanaalwerkschema&#39;s tot stand te brengen.
+Met [Uitvoeringsactiviteiten](../../automating/using/about-execution-activities.md), coördineer uw werkschema en zijn activiteiten, terwijl [Kanaalactiviteiten](../../automating/using/about-channel-activities.md) u Campaign Standard communicatiekanalen laten combineren om kanaalwerkschema&#39;s tot stand te brengen.
 
-Tot slot staan de [gegevensbeheeractiviteiten](../../automating/using/about-data-management-activities.md) u toe om gegevens van uw gegevensbestand te manipuleren.
+Tot slot [Met gegevensbeheeractiviteiten](../../automating/using/about-data-management-activities.md) kunt u gegevens uit uw database manipuleren.
 
 Meer informatie:
 
@@ -56,9 +56,9 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-Gebruik de **vraagredacteur** om gegevens van uw gegevensbestand te filtreren en een bevolking te bouwen om uw ontvangers beter te richten. De vraagredacteur is beschikbaar om verscheidene acties in Campaign Standard uit te voeren: Maak het type van Vraag publiek, bepaal leveringsdoelstellingen, of populaties in werkschemaactiviteiten.
+Gebruik **query redacteur** aan filtergegevens van uw gegevensbestand en bouwt een bevolking om uw ontvangers beter te richten. De vraagredacteur is beschikbaar om verscheidene acties in Campaign Standard uit te voeren: Maak het type van Vraag publiek, bepaal leveringsdoelstellingen, of populaties in werkschemaactiviteiten.
 
-De vraagredacteur komt met **vooraf bepaalde filters en regels** voor snel en gemakkelijk het filtreren. U kunt echter ook gebruikmaken van de **geavanceerde bewerkingsmogelijkheden** voor expressies. Op deze manier kunt u handmatig voorwaarden invoeren en functies gebruiken om uw eigen regels op te stellen.
+De vraagredacteur komt met **vooraf bepaalde filters en regels** voor snel en gemakkelijk het filtreren. U kunt echter ook **geavanceerde expressies bewerken**-mogelijkheden gebruiken. Op deze manier kunt u handmatig voorwaarden invoeren en functies gebruiken om uw eigen regels op te stellen.
 
 Meer informatie:
 
@@ -66,21 +66,21 @@ Meer informatie:
 * [Geavanceerde expressies bewerken](../../automating/using/advanced-expression-editing.md)
 * [Lijst met functies](../../automating/using/list-of-functions.md)
 
-## Gegevens importeren/exporteren {#import-export-data}
+## Gegevens {#import-export-data} importeren/exporteren
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Campaign Standard wordt geleverd met verschillende mogelijkheden **voor** gegevensbeheer voor het importeren en exporteren van gegevens.
+Campaign Standard wordt geleverd met verschillende **mogelijkheden voor gegevensbeheer** voor het importeren en exporteren van gegevens.
 
-[Met de activiteiten](../../automating/using/about-data-management-activities.md) voor gegevensbeheer van workflows kunt u gegevens importeren, massa-updates uitvoeren op velden, bestanden ontvangen of verzenden of niet-geïdentificeerde gegevens koppelen aan bestaande bronnen.
+[Met ](../../automating/using/about-data-management-activities.md) activiteiten voor gegevensbeheer in workflows kunt u gegevens importeren, massaupdates uitvoeren op velden, bestanden ontvangen of verzenden of niet-geïdentificeerde gegevens koppelen aan bestaande bronnen.
 
-Met de malplaatjes [van de](../../automating/using/importing-data-with-import-templates.md)Invoer, beheer bepaalde types van invoer die door beheerders door vereenvoudigde de invoerfuncties worden bepaald.
+Met [Sjablonen importeren](../../automating/using/importing-data-with-import-templates.md) kunt u bepaalde typen importeren beheren die door beheerders zijn gedefinieerd via vereenvoudigde importfuncties.
 
-[Door logbestanden](../../automating/using/exporting-logs.md) te exporteren kunt u loggegevens via een eenvoudige workflow exporteren, zodat u de resultaten van uw marketingcampagnes kunt analyseren in uw eigen rapportage- of BI-programma&#39;s.
+[Bij het exporteren van ](../../automating/using/exporting-logs.md) logbestanden exporteert u loggegevens via een eenvoudige workflow, zodat u de resultaten van uw marketingcampagnes kunt analyseren in uw eigen rapportage- of BI-programma&#39;s.
 
-Gebruik [Pakketten](../../automating/using/managing-packages.md) van de hefboomwerking om middelen tussen verschillende campagneinstanties, bijvoorbeeld, te ruilen om de configuratie van een instantie te herhalen, of gegevens over te brengen van een server aan een andere met inbegrip van douanemiddelen.
+Gebruik [Pakketten](../../automating/using/managing-packages.md) aan uitwisselingsmiddelen tussen verschillende campagneinstanties, bijvoorbeeld, om de configuratie van een instantie te herhalen, of gegevens over te brengen van een server aan een andere met inbegrip van douanemiddelen.
 
-Ten slotte kunt u met lijsten [voor](../../automating/using/exporting-lists.md) exporteren lijsten exporteren uit Campaign Standard, zoals bijvoorbeeld de lijst met testprofielen, de lijst met e-mailadressen voor quarantaines, enzovoort.
+Tot slot [Met het exporteren van lijsten](../../automating/using/exporting-lists.md) kunt u elke lijst uit Campaign Standard exporteren, zoals bijvoorbeeld de lijst met testprofielen, de lijst met e-mailadressen in quarantaine, enzovoort.
 
 Meer informatie:
 
