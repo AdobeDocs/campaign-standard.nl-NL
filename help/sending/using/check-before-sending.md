@@ -15,19 +15,19 @@ ht-degree: 16%
 ---
 
 
-# Alle controles uitvoeren voordat ze worden verzonden {#perform-all-checks}
+# Alle controles uitvoeren voordat {#perform-all-checks} wordt verzonden
 
 Zodra uw bericht klaar is, zorg ervoor zijn inhoud correct, op alle apparaten wordt getoond, en bevat geen fouten zoals verkeerde verpersoonlijking of gebroken verbindingen.
 
 Alvorens uw bericht te verzenden, zorg ook dat de parameters en de configuratie met de levering verenigbaar zijn.
 
-## Waarom validatie de sleutel is {#validation-is-key}
+## Waarom validatie belangrijk is {#validation-is-key}
 
 Alvorens een levering te verzenden, moet u ervoor zorgen dat uw ontvangers het bericht zullen ontvangen dat u echt hen wilt verzenden. Hiervoor moet u de inhoud en de leveringsparameters van het bericht valideren.
 
 Met deze stap kunt u mogelijke fouten detecteren en corrigeren voordat u deze aan uw hoofddoel kunt leveren.
 
-De stappen voor het valideren van een levering worden weergegeven [in deze sectie](../../sending/using/get-started-sending-messages.md#prepare-test-send).
+De stappen voor het valideren van een levering worden [weergegeven in deze sectie](../../sending/using/get-started-sending-messages.md#prepare-test-send).
 
 ## E-mailweergave {#email-rendering}
 
