@@ -16,7 +16,7 @@ ht-degree: 79%
 ---
 
 
-# External signal and data import {#external-signal-data-import}
+# Extern signaal- en gegevensimporteren {#external-signal-data-import}
 
 Het volgende voorbeeld illustreert de activiteit **[!UICONTROL External signal]** in een typisch gebruiksscenario. Er worden data geïmporteerd in een bronworkflow. Nadat het importeren is voltooid en de database is bijgewerkt, wordt een tweede workflow geactiveerd. Deze tweede workflow wordt gebruikt om een aggregaat van de geïmporteerde data bij te werken.
 
@@ -38,13 +38,13 @@ De bronworkflow wordt als volgt weergegeven:
 
 * Bij een activiteit [Afstemming](../../automating/using/reconciliation.md) worden de koppelingen tussen de geïmporteerde data en de database tot stand gebracht, zodat de transactiedata correct aan profielen en producten worden gekoppeld.
 * Bij een activiteit [Data bijwerken](../../automating/using/update-data.md) wordt de resource Transacties van de database ingevoegd en bijgewerkt met de binnenkomende data.
-* An [End](../../automating/using/start-and-end.md) activity triggers the destination workflow, which is used to update aggregates.
+* Een [End](../../automating/using/start-and-end.md) activiteit teweegbrengt het bestemmingswerkschema teweeg, dat wordt gebruikt om aggregaten bij te werken.
 
 ![](assets/signal_example_source1.png)
 
 De bestemmingsworkflow wordt als volgt weergegeven:
 
-* An [External signal](../../automating/using/external-signal.md) activity waits for the source workflow to be successfully finished.
+* Een [Externe signaal](../../automating/using/external-signal.md) activiteit wacht op een succesvolle bronwerkstroom.
 * Een activiteit [Query](../../automating/using/query.md#enriching-data) benadert doelgericht profielen en verrijkt deze met een verzamelingsreeks om de laatste aankoopdatum op te halen.
 * Met een activiteit [Data bijwerken](../../automating/using/update-data.md) worden de aanvullende data opgeslagen in een speciaal aangepast veld. Merk op dat de profielresource is uitgebreid om het veld **Last purchase date** toe te voegen.
 
