@@ -17,21 +17,21 @@ ht-degree: 8%
 
 # Gepersonaliseerde content maken {#build-personalized-content}
 
-Probeer bij het ontwerpen van de inhoud van uw bericht algemene problemen te vermijden die ertoe kunnen leiden dat u de levering niet kunt uitvoeren. Meestal hebben mogelijke fouten te maken met [personalisatie](../../designing/using/personalization.md), opmaak bij [gebruik van bestaande inhoud](../../designing/using/using-existing-content.md) - en [conversie van HTML-inhoud](../../designing/using/using-existing-content.md#converting-an-html-content) - en [afbeeldingen](../../designing/using/images.md).
+Probeer bij het ontwerpen van de inhoud van uw bericht algemene problemen te vermijden die ertoe kunnen leiden dat u de levering niet kunt uitvoeren. Meestal zijn mogelijke fouten gerelateerd aan [personalisatie](../../designing/using/personalization.md), opmaak wanneer [bestaande inhoud](../../designing/using/using-existing-content.md) - en [converting an HTML content](../../designing/using/using-existing-content.md#converting-an-html-content) - en [images](../../designing/using/images.md) wordt gebruikt.
 
 ## Aanpassing optimaliseren {#optimize-personalization}
 
 Om veelvoorkomende problemen te voorkomen die ertoe kunnen leiden dat u uw levering niet kunt uitvoeren en om de ervaring van uw ontvangers te verbeteren, kunt u uw berichten aan uw persoonlijke voorkeur aanpassen.
 
 U kunt de gegevens van ontvangers gebruiken die in de Adobe Campaign-database zijn opgeslagen, of die worden verzameld via tracking, landing pages, subscriptions, etc.
-De grondbeginselen van de Personalisatie worden voorgesteld in [deze sectie](../../designing/using/personalization.md).
+De grondbeginselen van de aanpassing worden voorgesteld in [deze sectie](../../designing/using/personalization.md).
 
 Zorg ervoor dat de inhoud van uw bericht goed is ontworpen om fouten te voorkomen die over het algemeen te maken hebben met personalisatie.
 
 Dynamische inhoud kan handmatig worden toegevoegd om verschillende inhoud weer te geven aan de ontvangers volgens de voorwaarden die zijn gedefinieerd in de expressie-editor. Wanneer u dynamische inhoud toevoegt, moet u altijd een standaardvariant laten voor ontvangers die niet aan de geselecteerde voorwaarden voldoen.
-Raadpleeg de [sectie](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)voor meer informatie over dynamische inhoud.
+Zie [deze sectie](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) voor meer informatie over dynamische inhoud.
 
-**Tips** - Geef een voorvertoning van uw e-mail weer met verschillende testprofielen om te controleren of de dynamische inhoud correct is geconfigureerd.
+**Tips** : bekijk een voorbeeld van uw e-mail met verschillende testprofielen om te controleren of de dynamische inhoud correct is geconfigureerd.
 
 ## Geoptimaliseerde inhoud maken {#optimize-content}
 
@@ -49,7 +49,7 @@ Houd rekening met de onderstaande algemene tips bij het samenstellen van e-mails
 
 ### Onderwerpregel
 
-Werk aan de [onderwerpregel](../../designing/using/subject-line.md) om de open tarieven te verbeteren:
+Werk aan [onderwerpregel](../../designing/using/subject-line.md) om open snelheden te verbeteren:
 
 * Vermijd personen die te lang zijn. Gebruik maximaal 50 tekens
 
@@ -63,17 +63,17 @@ Neem altijd een koppeling naar een spiegelpagina op. De voorkeurspositie boven a
 
 ### Unsubscription link
 
-De koppeling om uw abonnement op te zeggen is essentieel. Het formulier moet zichtbaar en geldig zijn en moet functioneel zijn. Leer richtlijnen voor het opzeggen van abonnementen [in deze sectie](../../designing/using/personalization.md#about-targeting-dimension).
+De koppeling om uw abonnement op te zeggen is essentieel. Het formulier moet zichtbaar en geldig zijn en moet functioneel zijn. Leer richtlijnen [voor unsubscription-koppelingen in deze sectie](../../designing/using/personalization.md#about-targeting-dimension).
 
-Door gebrek, wanneer het bericht wordt geanalyseerd, controleert een controle [typologieregel](../../sending/using/control-rules.md) of een opt-out verbinding is inbegrepen en produceert een waarschuwing als het mist.
+Door gebrek, wanneer het bericht wordt geanalyseerd, controleert een controle [typologieregel](../../sending/using/control-rules.md) of een opt-out verbinding is omvat en produceert een waarschuwing als het mist.
 
 **Tip**: Omdat menselijke fout altijd mogelijk is, controleer dat de opt-out verbinding correct vóór elke keer werkt u verzendt. Als u bijvoorbeeld de proefdruk verzendt, controleert u of de koppeling geldig is, of het formulier online is en of het veld Geen contact meer opnemen met deze ontvanger is gewijzigd in Ja.
 
-Leer hoe u een koppeling om te weigeren [in deze sectie](../../designing/using/personalization.md#adding-a-content-block)invoegt.
+Leer hoe te om een opt-out verbinding [in deze sectie ](../../designing/using/personalization.md#adding-a-content-block) op te nemen.
 
 ### E-mailformaat
 
-Om problemen met prestaties of leverbaarheid te voorkomen, is de aanbevolen maximale grootte van een e-mailbericht ongeveer **35 kB**.
+Om problemen met prestaties of leverbaarheid te voorkomen, is de aanbevolen maximale grootte van een e-mailbericht ongeveer **35KB**.
 
 Houd rekening met het volgende om uw e-mailadres onder de limiet te houden:
 
@@ -89,7 +89,7 @@ Zorg ervoor dat u wijzigingen test voordat u de definitieve verzending uitvoert
 
 Standaard voldoet het aantal tekens in een sms aan de gsm-standaarden (Global System for Mobile Communications). Sms-berichten met gsm-codering mogen maximaal 160 tekens bevatten of 153 tekens per sms voor berichten die in meerdere delen worden verzonden.
 
-Transliteratie houdt in dat een teken van een sms door een ander teken wordt vervangen wanneer dat teken niet in aanmerking wordt genomen door de gsm-standaard. Als u personalisatievelden in de inhoud van uw SMS-bericht invoegt, kunnen er tekens worden ingevoerd waarmee de GSM-codering geen rekening houdt. U kunt tekentransliteratie autoriseren door het corresponderende vak te selecteren op het tabblad met SMPP-kanaalinstellingen van het corresponderende **[!UICONTROL External account]**.
+Transliteratie houdt in dat een teken van een sms door een ander teken wordt vervangen wanneer dat teken niet in aanmerking wordt genomen door de gsm-standaard. Als u personalisatievelden in de inhoud van uw SMS-bericht invoegt, kunnen er tekens worden ingevoerd waarmee de GSM-codering geen rekening houdt. U kunt tekentransliteratie toestaan door het corresponderende vak te selecteren op het tabblad met SMPP-kanaalinstellingen van het corresponderende **[!UICONTROL External account]**.
 Meer informatie [in deze sectie](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration).
 
 **Tips**:
@@ -106,7 +106,7 @@ Het responsieve ontwerp zorgt ervoor dat een e-mail optimaal wordt weergegeven v
 
 * Responsieve HTML-e-mail gebruiken in plaats van HTML-webpagina
 
-* Gebruik de voorvertoningsmodus en verzend proefdrukken om de rendering op zoveel mogelijk apparaten te testen. Leer hoe u een [voorvertoning van het bericht](../../sending/using/previewing-messages.md) kunt weergeven voordat u het verzendt.
+* Gebruik de voorvertoningsmodus en verzend proefdrukken om de rendering op zoveel mogelijk apparaten te testen. Leer hoe te [voorproefbericht](../../sending/using/previewing-messages.md) alvorens te verzenden.
 
 * Campagne-e-mailontwerper wordt geleverd met responsieve ontwerpsjablonen voor mobiele apparaten. Meer informatie [op deze pagina](../../designing/using/using-reusable-content.md#content-templates).
 
@@ -132,8 +132,8 @@ Probeer afbeeldingen responsief te maken en de grootte ervan te wijzigen. Merk o
 
 Om van buitenaf toegankelijk te zijn, moeten de beelden die in e-mail en openbare middelen verbonden aan campagnes worden gebruikt op een extern toegankelijke server aanwezig zijn.
 
-## Een voorbeeld van uw bericht bekijken {#preview-msg}
+## Een voorbeeld bekijken van uw bericht {#preview-msg}
 
 Adobe raadt u aan een voorbeeld van uw bericht te bekijken om na te gaan wat de personalisatie is en hoe de ontvangers uw bericht zullen bekijken.
 
-In de e-mailontwerper kunt u met de **[!UICONTROL Preview]** knop de rendering van elke inhoud voor een ontvanger weergeven. De verpersoonlijkingsgebieden en de voorwaardelijke elementen van inhoud worden vervangen met de overeenkomstige informatie voor het geselecteerde profiel. [Meer informatie](../../sending/using/previewing-messages.md)
+Met de knop **[!UICONTROL Preview]** in de e-mailontwerper kunt u de rendering van elke inhoud voor een ontvanger weergeven. De verpersoonlijkingsgebieden en de voorwaardelijke elementen van inhoud worden vervangen met de overeenkomstige informatie voor het geselecteerde profiel. [Meer informatie](../../sending/using/previewing-messages.md)
