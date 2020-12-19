@@ -17,23 +17,23 @@ ht-degree: 15%
 
 # Voorbeelden van leveringen weergeven {#previewing-messages}
 
-## E-mailberichten voorvertonen {#previewing-emails}
+## E-mails voorvertonen {#previewing-emails}
 
 Met Campaign Standard kunt u berichten voorvertonen voordat ze worden verzonden, zodat u kunt controleren of de berichten zijn aangepast en hoe de ontvangers deze zullen zien.
 
-De voorproef van berichten wordt uitgevoerd gebruikend de profielen **van de** Test die u aan het doel van het bericht toevoegt.
+De voorproef van berichten wordt uitgevoerd gebruikend **de profielen van de Test** die u aan het doel van het bericht toevoegt.
 
-Voor **e-mailberichten** kunt u met Campaign Standard berichten voorvertonen met behulp van de beoogde profielen in plaats van testprofielen. Op deze manier kunt u een exacte weergave krijgen van het bericht dat een specifiek profiel ontvangt. Zie [E-mailberichten testen met doelprofielen](../../sending/using/testing-messages-using-target.md) voor meer informatie.
+Voor **e-mailberichten** kunt u met Campaign Standard berichten voorvertonen met behulp van doelprofielen in plaats van testprofielen. Op deze manier kunt u een exacte weergave krijgen van het bericht dat een specifiek profiel ontvangt. Zie [E-mailberichten testen met doelprofielen](../../sending/using/testing-messages-using-target.md) voor meer informatie.
 
 Voer de volgende stappen uit om een bericht weer te geven met testprofielen:
 
-1. Klik in [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md)op de **[!UICONTROL Preview]** knop.
+1. Klik in [E-mailDesigner](../../designing/using/designing-content-in-adobe-campaign.md) op de knop **[!UICONTROL Preview]**.
 
    ![](assets/sending_preview.png)
 
    Een desktopweergave en een responsieve mobiele weergave van uw e-mailbericht worden naast elkaar weergegeven.
 
-1. Tijdens elke voorvertoning wordt een automatische controle op anti-spam uitgevoerd. Klik op de **[!UICONTROL Anti-spam analysis]** knop voor meer informatie over de waarschuwing.
+1. Tijdens elke voorvertoning wordt een automatische controle op anti-spam uitgevoerd. Klik op de knop **[!UICONTROL Anti-spam analysis]** voor meer informatie over de waarschuwing.
 
    ![](assets/sending_anti-spam_analysis.png)
 
@@ -41,7 +41,7 @@ Voer de volgende stappen uit om een bericht weer te geven met testprofielen:
 
    ![](assets/sending_test-profile.png)
 
-1. Als u de **[!UICONTROL Preview]** modus wilt afsluiten, klikt u op de **[!UICONTROL Edit]** knop linksboven in het scherm.
+1. Als u de modus **[!UICONTROL Preview]** wilt afsluiten, klikt u op de knop **[!UICONTROL Edit]** linksboven in het scherm.
 
    ![](assets/sending_preview_edit.png)
 
@@ -51,27 +51,27 @@ Voer de volgende stappen uit om een bericht weer te geven met testprofielen:
 * [E-mailberichten testen aan de hand van doelprofielen](../../sending/using/testing-messages-using-target.md)
 * [Proeven verzenden](../../sending/using/sending-proofs.md)
 
-## SMS-berichten voorvertonen {#previewing-sms}
+## Een voorbeeld van SMS-berichten bekijken {#previewing-sms}
 
-Voor **SMS** -berichten kunt u met Campaign Standard berichten voorvertonen met testprofielen. Op deze manier kunt u een exacte weergave krijgen van het bericht dat een specifiek profiel ontvangt. Zie [Testprofielen beheren](../../audiences/using/managing-test-profiles.md) voor meer informatie.
+Bij SMS **SMS**-berichten kunt u met Campaign Standard berichten voorvertonen met behulp van testprofielen. Op deze manier kunt u een exacte weergave krijgen van het bericht dat een specifiek profiel ontvangt. Zie [Testprofielen beheren](../../audiences/using/managing-test-profiles.md) voor meer informatie.
 
 Voer de volgende stappen uit om een SMS-bericht weer te geven met testprofielen:
 
-1. Zodra je het SMS-bericht hebt ingevuld en je publiek hebt geselecteerd, kun je je levering aanpassen. **[!UICONTROL Properties]** For more information, refer to [section](../../channels/using/personalizing-sms-messages.md).
+1. Zodra u **[!UICONTROL Properties]** van uw SMS-bericht hebt ingevuld en uw publiek hebt geselecteerd, kunt u uw levering personaliseren. Raadpleeg [sectie](../../channels/using/personalizing-sms-messages.md) voor meer informatie.
 
    ![](assets/sms_preview.png)
 
-1. Nadat u de inhoud hebt aangepast, klikt u **[!UICONTROL Create]** om het **[!UICONTROL Summary]** venster te openen.
+1. Nadat u de inhoud hebt aangepast, klikt u op **[!UICONTROL Create]** om het venster **[!UICONTROL Summary]** te openen.
 
-1. Klik in het **[!UICONTROL Summary]** venster **[!UICONTROL Content]** om een voorvertoning van uw levering weer te geven.
+1. Klik in het venster **[!UICONTROL Summary]** op **[!UICONTROL Content]** om een voorvertoning van uw levering weer te geven.
 
    ![](assets/sms_preview_2.png)
 
-1. Klik op **[!UICONTROL Preview]** de werkbalk.
+1. Klik op **[!UICONTROL Preview]** op de werkbalk.
 
    ![](assets/sms_preview_3.png)
 
-1. Klik **[!UICONTROL Change profile]** om uw testprofiel te selecteren dan **[!UICONTROL Confirm]**.
+1. Klik **[!UICONTROL Change profile]** om uw testprofiel dan **[!UICONTROL Confirm]** te selecteren.
 
    ![](assets/sms_preview_4.png)
 
@@ -83,19 +83,19 @@ U kunt nu de exacte weergave van uw bericht bekijken, afhankelijk van de geselec
 * [Een sms-bericht maken](../../channels/using/creating-an-sms-message.md)
 * [Sms-berichten personaliseren](../../channels/using/personalizing-sms-messages.md)
 
-## Voorvertoning van pushmeldingen weergeven {#previewing-push}
+## Voorvertoning van pushmeldingen {#previewing-push}
 
-Voor **pushmeldingen** kunt u met Campaign Standard berichten voorvertonen met testprofielen. Op deze manier kunt u een exacte weergave krijgen van het bericht dat een specifiek profiel ontvangt. Zie [Testprofielen beheren](../../audiences/using/managing-test-profiles.md) voor meer informatie.
+Voor **Push notification**, staat Campaign Standard u toe om berichten te voorproef gebruikend testprofielen. Op deze manier kunt u een exacte weergave krijgen van het bericht dat een specifiek profiel ontvangt. Zie [Testprofielen beheren](../../audiences/using/managing-test-profiles.md) voor meer informatie.
 
 Voer de volgende stappen uit om een voorbeeld van een pushmelding weer te geven met testprofielen:
 
-1. Nadat u de gegevens **[!UICONTROL Properties]** van uw pushmelding hebt ingevuld en uw publiek hebt geselecteerd, kunt u de levering aanpassen. Zie Een pushmelding [aanpassen voor meer informatie](../../channels/using/customizing-a-push-notification.md).
+1. Nadat u **[!UICONTROL Properties]** van uw pushmelding hebt ingevuld en uw publiek hebt geselecteerd, kunt u de levering aan uw wensen aanpassen. Raadpleeg [Een pushmelding aanpassen](../../channels/using/customizing-a-push-notification.md) voor meer informatie.
 
 1. Nadat u de inhoud hebt aangepast, kunt u de rendering van uw pushmeldingen rechtstreeks controleren, afhankelijk van de apparaten en het besturingssysteem in het voorvertoningsvenster.
 
    ![](assets/push_preview.png)
 
-1. Klik op **[!UICONTROL Preview with test profile]** Testen om een voorbeeld van uw pushmelding weer te geven met testprofielen.
+1. Klik op **[!UICONTROL Preview with test profile]** om een voorbeeld van uw pushmelding weer te geven met testprofielen.
 
    ![](assets/push_preview_2.png)
 
@@ -111,19 +111,19 @@ U kunt nu de exacte weergave van uw bericht bekijken, afhankelijk van de geselec
 * [Een pushmelding voorbereiden en verzenden](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Een pushmelding aanpassen](../../channels/using/customizing-a-push-notification.md)
 
-## In-app-berichten voorvertonen {#previewing-in-app}
+## In-app berichten voorvertonen {#previewing-in-app}
 
-Voor **In-App** kunt u met Campaign Standard berichten voorvertonen met testprofielen. Op deze manier kunt u een exacte weergave krijgen van het bericht dat een specifiek profiel ontvangt. Zie [Testprofielen beheren](../../audiences/using/managing-test-profiles.md) voor meer informatie.
+Voor **In-app** kunt u met Campaign Standard berichten voorvertonen met behulp van testprofielen. Op deze manier kunt u een exacte weergave krijgen van het bericht dat een specifiek profiel ontvangt. Zie [Testprofielen beheren](../../audiences/using/managing-test-profiles.md) voor meer informatie.
 
 Voer de volgende stappen uit om een voorvertoning van een bericht in de app weer te geven met testprofielen:
 
-1. Nadat u het bericht **[!UICONTROL Properties]** van uw In-App-bericht hebt ingevuld, hebt u uw publiek geselecteerd en uw **[!UICONTROL Triggers]** weergave ingesteld, kunt u de levering aanpassen. Raadpleeg [Een bericht](../../channels/using/customizing-an-in-app-message.md)in de app aanpassen voor meer informatie.
+1. Nadat u **[!UICONTROL Properties]** van uw In-App-bericht hebt ingevuld, hebt u uw publiek geselecteerd en **[!UICONTROL Triggers]** hebt ingesteld, kunt u uw levering aanpassen. Raadpleeg [Een bericht in de app aanpassen](../../channels/using/customizing-an-in-app-message.md) voor meer informatie.
 
 1. Nadat u de inhoud hebt aangepast, kunt u de rendering van uw In-App-bericht rechtstreeks controleren, afhankelijk van de apparaten en het besturingssysteem in het voorvertoningsvenster.
 
    ![](assets/in_app_preview.png)
 
-1. Als u een voorbeeld van uw bericht in de app wilt weergeven met testprofielen, klikt u op **[!UICONTROL Preview]**.
+1. Klik op **[!UICONTROL Preview]** om een voorbeeld van uw bericht in de app weer te geven met testprofielen.
 
    ![](assets/in_app_preview_2.png)
 
