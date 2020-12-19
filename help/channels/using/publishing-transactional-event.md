@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Transactiegebeurtenissen publiceren
+title: Een transactionele gebeurtenis publiceren
 description: Leer hoe u een transactionele gebeurtenisconfiguratie kunt voorvertonen, publiceren, publiceren en verwijderen.
 audience: channels
 content-type: reference
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '607'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
 
-# Een transactionele gebeurtenis {#publishing-transactional-event} publiceren
+# Een transactionele gebeurtenis publiceren {#publishing-transactional-event}
 
 Nadat [configuration](../../channels/using/configuring-transactional-event.md) is voltooid, kan de gebeurtenis worden gepubliceerd. De stappen voor het voorvertonen, publiceren, publiceren en verwijderen van een gebeurtenis worden hieronder beschreven.
 
