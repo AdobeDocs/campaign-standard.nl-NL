@@ -42,7 +42,7 @@ Een importbewerking kan worden gefilterd op basis van de sjabloon vanwaar deze w
 
 De details van de uitvoering van de importbewerking zijn nu beschikbaar. Zowel het bestand dat is geïmporteerd als het bestand met de geweigerde data (data die niet zijn geïmporteerd) kunnen naar de computer worden gedownload.
 
-## Importsjablonen instellen {#setting-up-import-templates}
+## Importsjablonen {#setting-up-import-templates} instellen
 
 Met importsjablonen kan de beheerder een bepaald aantal technische importconfiguraties vooraf definiëren. Deze sjablonen kunnen vervolgens ter beschikking worden gesteld aan standaardgebruikers voor het uitvoeren en uploaden van bestanden.
 
