@@ -19,31 +19,31 @@ ht-degree: 10%
 
 In Adobe Campaign kunt u de interessepunten die zijn verzameld bij de abonnees van uw mobiele toepassing gebruiken om persoonlijke marketingberichten, zoals een e-mail, te verzenden.
 
-U kunt alleen reageren op Point of Interest-gegevens met standaardleveringen. [Transactieberichten](../../channels/using/getting-started-with-transactional-msg.md) kunnen geen locatiegegevens gebruiken.
+U kunt alleen reageren op Point of Interest-gegevens met standaardleveringen. [Transactioneel ](../../channels/using/getting-started-with-transactional-msg.md) bericht kan geen locatiegegevens gebruiken.
 
 De vroegste reactie is ongeveer 10 minuten.
 
 In dit geval besluit u een e-mail te sturen naar alle abonnees die uw winkel in Boston in de afgelopen twee weken hebben bezocht.
 
 1. Maak een e-mailmarketingactiviteit.
-1. Wanneer u het publiek van de levering definieert, sleept u het **[!UICONTROL Subscriptions to an application]** element naar de werkruimte.
+1. Wanneer het bepalen van het publiek van de levering, sleep en laat vallen het **[!UICONTROL Subscriptions to an application]** element in de werkruimte.
 
    ![](assets/poi_subscriptions_app.png)
 
-   Het beheren van het publiek wordt gedetailleerd beschreven in de sectie [Het publiek](../../audiences/using/creating-audiences.md) definiëren.
+   Het beheren van het publiek wordt gedetailleerd beschreven in de [sectie Het publiek definiëren](../../audiences/using/creating-audiences.md).
 
-1. In the **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** window, drag and drop the **[!UICONTROL POI Location Subscription]** element into the workspace.
+1. Sleep in het venster **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** het element **[!UICONTROL POI Location Subscription]** naar de werkruimte.
 
    ![](assets/poi_add_rule_profile_subscription.png)
 
-1. Voer in het **[!UICONTROL Add a rule - POI Location Subscription]** venster het label in van het Point of Interest dat u wilt gebruiken.
+1. Voer in het venster **[!UICONTROL Add a rule - POI Location Subscription]** het label in van het Point of Interest dat u wilt gebruiken.
 
    ![](assets/poi_location_subscription.png)
 
 1. Selecteer in het veld **[!UICONTROL Filter type]** de optie **[!UICONTROL Relative]**.
-1. Schakel de **[!UICONTROL Preceding days]** optie in en typ **[!UICONTROL 15]** het desbetreffende veld.
+1. Controleer de optie **[!UICONTROL Preceding days]** en voer **[!UICONTROL 15]** in het corresponderende veld in.
 1. Bepaal het aantal tijden de gebruiker het Punt van Interesse moet hebben bezocht.
-1. Click **[!UICONTROL Confirm]** to save your audience.
+1. Klik **[!UICONTROL Confirm]** om uw publiek op te slaan.
 
    ![](assets/poi_subscriptions_app_audience_defined.png)
 
