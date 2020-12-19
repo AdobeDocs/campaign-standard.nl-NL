@@ -11,7 +11,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -25,7 +25,7 @@ Ondervindt u een probleem met de leesbaarheid? U kunt hier de oplossing vinden.
 **Waarom krijg ik altijd het zelfde foutenbericht voor bepaalde ISP?**
 
 Als u altijd het zelfde foutenbericht voor ISP krijgt, kan uw e-mail of IP als gebrek door ISP worden ontdekt. Voer de volgende aanbevelingen uit:
-* Controleer of u een groot percentage mislukkingen ontvangt die zijn gekoppeld aan onbestaande e-mailadressen (**Onbekende** fouten van gebruiker).
+* Controleer of u een groot percentage fouten ontvangt die zijn gekoppeld aan onbestaande e-mailadressen (**Onbekende gebruiker** fouten).
 * Werk uw abonnementsformulieren bij om fouten in de ingevoerde domeinnamen op te sporen (bijvoorbeeld: gmaul.com of yaho.com).
 * Als u fouten opmerkt die verklaren dat uw berichten als spam worden verklaard, of dat uw berichten constant worden geblokkeerd, probeer exclusief de ontvangers die niet in één van uw berichten in de laatste 12 maanden van het doel hebben geopend of geklikt.
 
@@ -44,14 +44,14 @@ Als het probleem zich blijft voordoen, neemt u contact op met de services voor c
 
    Hier volgen tien mogelijke redenen: niet bepaald, gebruiker onbekend, ongeldig domein, adres op lijst van afgewezen personen, geweigerd, fout genegeerd, onbereikbaar, rekening gehandicapt, brievenbus volledig, niet verbonden.
 
-   For more on this, see [Understanding quarantine management](../../sending/using/understanding-quarantine-management.md).
+   Voor meer op dit, zie [Het begrip quarantainebeheer](../../sending/using/understanding-quarantine-management.md).
 
 ## Verwijderen uit lijst van afgewezen personen {#removing-from-denylist}
 
 * **Een van mijn ontvangers is per ongeluk aan de lijst van afgewezen personen toegevoegd. Hoe verwijder ik hen uit de lijst van afgewezen personen zodat ik kan beginnen hen berichten opnieuw te verzenden?**
 
    * Ga naar **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
-   * Stel in de details van de corresponderende record de waarde van het **[!UICONTROL Status]** veld in op **[!UICONTROL Valid]**.
+   * Stel in de details van de corresponderende record de waarde van het veld **[!UICONTROL Status]** in op **[!UICONTROL Valid]**.
    * Sla de record op.
 
 * **Hoe kan ik te weten komen of één van mijn IPs op lijst van afgewezen personen is? Hoe verwijder ik mijn IP(s) uit een lijst van afgewezen personen?**
