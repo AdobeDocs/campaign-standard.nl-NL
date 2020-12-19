@@ -51,7 +51,7 @@ Doelgroepen kunnen worden gedefinieerd bij het maken van het bericht via de wiza
 
    Raadpleeg de sectie [Testprofielen](../../audiences/using/managing-test-profiles.md) voor meer informatie over het configureren van testprofielen.
 
-1. Indien nodig, kunt u een controlegroep bepalen gebruikend het overeenkomstige lusje. Hierdoor kunt u bepaalde profielen van uw doel verwijderen zodat deze het bericht niet ontvangen. For more on this, see [Adding a control group](../../sending/using/control-group.md).
+1. Indien nodig, kunt u een controlegroep bepalen gebruikend het overeenkomstige lusje. Hierdoor kunt u bepaalde profielen van uw doel verwijderen zodat deze het bericht niet ontvangen. Voor meer op dit, zie [Toevoegend een controlegroep](../../sending/using/control-group.md).
 
 1. U kunt ook substitutieadressen gebruiken om een nauwkeurige vertegenwoordiging van het bericht te krijgen dat het profiel zal ontvangen.  Zie [E-mailberichten testen met doelprofielen](../../sending/using/testing-messages-using-target.md) voor meer informatie.
 
