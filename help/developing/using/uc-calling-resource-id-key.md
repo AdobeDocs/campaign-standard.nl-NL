@@ -16,7 +16,7 @@ ht-degree: 7%
 
 In sommige gevallen moet u voor een resource mogelijk een id-sleutel definiëren die uit twee velden bestaat. Zodra de identificatiesleutel wordt gevormd, moet u een filterdefinitie vormen om het middel met deze identificatiesleutel, of van de interface van Campaign Standard of APIs te kunnen roepen.
 
-In dit geval is de **profielbron** uitgebreid met aangepaste velden **&quot;CRM-id&quot;** en **&quot;categorie&quot;** . We maken een identificatiesleutel voor de profielbron, die uit deze twee velden zal bestaan. Vervolgens configureren we een filterdefinitie, zodat we toegang hebben tot de profielbron met de id-toets.
+In dit geval is de **Profile**-bron uitgebreid met aangepaste **&quot;CRM-id&quot;** en **&quot;categorie&quot;** velden. We maken een identificatiesleutel voor de profielbron, die uit deze twee velden zal bestaan. Vervolgens configureren we een filterdefinitie, zodat we toegang hebben tot de profielbron met de id-toets.
 
 De belangrijkste stappen voor dit gebruiksgeval zijn:
 
@@ -30,36 +30,36 @@ Verwante onderwerpen:
 * [Identificatiesleutels definiëren](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [Campaign Standard REST API&#39;s](../../api/using/get-started-apis.md)
 
-## Stap 1: De id-toets configureren{#step-1-configure-the-identification-key}
+## Stap 1: De identificatiesleutel{#step-1-configure-the-identification-key} configureren
 
 >[!NOTE]
-> Algemene concepten bij het configureren van identificatietoetsen worden in [deze sectie](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)nader beschreven.
+> Algemene concepten bij het configureren van identificatietoetsen worden beschreven in [deze sectie](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
 1. Voordat u de identificatiesleutel configureert, moet u controleren of de bron is uitgebreid met de gewenste velden en of deze is gepubliceerd. Raadpleeg [deze sectie](../../developing/using/creating-or-extending-the-resource.md) voor meer informatie.
 
-1. Ga naar het **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** menu en open de **[!UICONTROL Profile]** bron.
+1. Ga naar **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** menu, dan open **[!UICONTROL Profile]** middel.
 
    ![](assets/uc_idkey1.png)
 
-1. In the **[!UICONTROL Identification keys]** section, click the **[!UICONTROL Create element]** button.
+1. Klik in de sectie **[!UICONTROL Identification keys]** op de knop **[!UICONTROL Create element]**.
 
    ![](assets/uc_idkey2.png)
 
-1. Voeg de twee aangepaste velden CRM-id en Categorie toe en klik vervolgens op **[!UICONTROL Confirm]**.
+1. Voeg de twee aangepaste velden CRM-id en Categorie toe en klik op **[!UICONTROL Confirm]**.
 
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > Als u de twee aangepaste velden in de interface van het profiel wilt weergeven, configureert u het **[!UICONTROL Screen definition]** tabblad. Raadpleeg [deze sectie](../../developing/using/configuring-the-screen-definition.md) voor meer informatie.
+   > Als u de twee douanevelden in de interface van het profiel wilt tonen, vorm **[!UICONTROL Screen definition]** tabel. Raadpleeg [deze sectie](../../developing/using/configuring-the-screen-definition.md) voor meer informatie.
 
 1. U kunt de filterdefinitie nu configureren om de bron aan te roepen met behulp van de id-sleutel.
 
 ## Stap 2: De filterdefinitie configureren{#step-2-configure-the-filter-definition}
 
 >[!NOTE]
-> Algemene concepten bij het configureren van filterdefinities worden in [deze sectie](../../developing/using/configuring-filter-definition.md)nader beschreven.
+> Algemene concepten bij het configureren van filterdefinities worden beschreven in [deze sectie](../../developing/using/configuring-filter-definition.md).
 
-1. Klik op het **[!UICONTROL Filter definition]** tabblad **[!UICONTROL Add an element]** en voer vervolgens het label en de id van de filterdefinitie in.
+1. Klik op **[!UICONTROL Filter definition]** op het tabblad **[!UICONTROL Add an element]** en voer vervolgens het label en de id van de filterdefinitie in.
 
 1. Bewerk de eigenschappen van de filterdefinitie om de regels ervan te configureren.
 
@@ -69,11 +69,11 @@ Verwante onderwerpen:
 
    ![](assets/uc_idkey5.png)
 
-1. Selecteer het eerste veld dat wordt gebruikt in de identificatietoets (&quot;CRM-id&quot;) en activeer vervolgens de **[!UICONTROL Switch to parameters]** optie.
+1. Selecteer het eerste veld dat wordt gebruikt in de identificatietoets (&quot;CRM-id&quot;) en activeer vervolgens de optie **[!UICONTROL Switch to parameters]**.
 
    ![](assets/uc_idkey6.png)
 
-1. Houd in de **[!UICONTROL Filter conditions]** sectie de **[!UICONTROL Equal]** operator, definieer vervolgens de naam van de parameter en klik op het plusteken om deze te maken.
+1. Houd in de sectie **[!UICONTROL Filter conditions]** de operator **[!UICONTROL Equal]**, definieer vervolgens de naam van de parameter en klik op het plusteken om deze te maken.
 
    ![](assets/uc_idkey7.png)
 
@@ -86,11 +86,11 @@ Verwante onderwerpen:
 
 1. De filterdefinitie is nu geconfigureerd. U kunt de bron publiceren zodat het filter beschikbaar is.
 
-## Stap 3: Roep de bron aan op basis van de identificatiesleutel{#step-3-call-the-resource-based-on-its-identification-key}
+## Stap 3: Roep de bron aan op basis van zijn identificatiesleutel{#step-3-call-the-resource-based-on-its-identification-key}
 
 Zodra de identificatiesleutel en zijn filterdefinitie worden gevormd, kunt u hen gebruiken om het middel, of van de standaardinterface van de Campagne of REST APIs te roepen.
 
-Als u de filterdefinitie van de interface wilt gebruiken, gebruikt u een **[!UICONTROL Query]** activiteit in een workflow (zie [deze sectie](../../automating/using/query.md)). Het filter is vervolgens beschikbaar in het linkerdeelvenster.
+Om de filterdefinitie van de interface te gebruiken, gebruik **[!UICONTROL Query]** activiteit in een werkschema (zie [deze sectie](../../automating/using/query.md)). Het filter is vervolgens beschikbaar in het linkerdeelvenster.
 
 ![](assets/uc_idkey9.png)
 
@@ -109,4 +109,4 @@ In ons geval zou de syntaxis om een profiel op te halen uit de categorie &quot;s
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-Raadpleeg de documentatie [van de REST API&#39;s van](../../api/using/filtering.md)Campaign Standard voor meer informatie.
+Raadpleeg de documentatie van [Campaign Standard REST API&#39;s](../../api/using/filtering.md) voor meer informatie.
