@@ -41,26 +41,26 @@ U kunt nu opvulling toevoegen aan dit element.
 
 U kunt uw eigen HTML-inhoud uploaden naar de e-mailontwerper. Als het niet is gemaakt met e-mailontwerper, wordt het geladen in de compatibiliteitsmodus die is ontworpen om uw oorspronkelijke HTML te behouden, maar die bepaalde mogelijkheden voor edities beperkt via de gebruikersinterface.
 
-Raadpleeg de modus [Compatibiliteit voor meer informatie](../../designing/using/using-existing-content.md#compatibility-mode)
+Raadpleeg [Compatibiliteitsmodus](../../designing/using/using-existing-content.md#compatibility-mode) voor meer informatie
 
 ## Hoe maak ik mijn eerste e-mailinhoud?
 
 Maak eerst een e-mail van de homepage.
 Als u vervolgens inhoud aan een e-mail wilt toevoegen, moet u een structuurelement toevoegen en een inhoudscomponent in het e-mailbericht invoegen.
 
-Zie Een volledig nieuw e-mailbericht [maken voor meer informatie](../../designing/using/quick-start.md#from-scratch-email)
+Raadpleeg [Een volledig nieuw e-mailbericht maken](../../designing/using/quick-start.md#from-scratch-email) voor meer informatie
 
 ## Waarom moet ik fragmenten bijwerken?
 
 Email Designer wordt voortdurend verbeterd. Als u een geheel nieuwe e-mailinhoud hebt gemaakt, op basis van een out-of-the-box sjabloon of als u fragmenten hebt gemaakt, moet u de inhoud mogelijk bijwerken naar de laatste versie om problemen zoals CSS-botsingsproblemen te voorkomen.
 
-Raadpleeg Fragmenten [bijwerken voor meer informatie](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
+Raadpleeg [Fragmenten bijwerken](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates) voor meer informatie
 
 ## Kan ik stijlen in een thema opslaan?
 
 Stijlen kunnen niet worden opgeslagen als thema voor toekomstig hergebruik. De CSS-stijl kan echter worden opgeslagen in een contentsjabloon of in een e-mail.
 
-Raadpleeg [Stijlen voor meer informatie](../../designing/using/styles.md)
+Raadpleeg [Stijlen](../../designing/using/styles.md) voor meer informatie
 
 ## Welke lettertypen zijn beschikbaar?
 
