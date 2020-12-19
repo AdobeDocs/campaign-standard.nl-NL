@@ -17,24 +17,24 @@ ht-degree: 3%
 
 # Werken met afbeeldingen {#images}
 
-## Inserting images{#inserting-images}
+## Afbeeldingen invoegen{#inserting-images}
 
 U kunt afbeeldingen invoegen in uw e-mails en bestemmingspagina&#39;s.
 
 Afhankelijk van uw configuratie zijn de volgende typen afbeeldingen beschikbaar:
 
 * Lokale afbeeldingen
-* Afbeeldingen gedeeld vanuit Adobe Experience Cloud - raadpleeg [Werken met Campagne en Assets Core Service](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Assets On Demand
+* Afbeeldingen die vanuit Adobe Experience Cloud worden gedeeld - raadpleeg [Werken met Campagne en Assets Core Service](../../integrating/using/working-with-campaign-and-assets-core-service.md) / Assets On Demand
 * Dynamische afbeeldingen uit Adobe Target - raadpleeg [Werken met campagne en doel](../../integrating/using/about-campaign-target-integration.md)
 
 >[!CAUTION]
 >
->Als u een afbeelding rechtstreeks wilt toevoegen door de HTML-versie van de e-mail te bewerken, moet u geen **externe bestanden oproepen in een &lt;script>-tag** van de HTML-pagina. Deze bestanden worden niet geïmporteerd op de Adobe Campaign-server.
+>Als u ervoor kiest om een afbeelding rechtstreeks toe te voegen door de HTML-versie van de e-mail te bewerken, moet u **externe bestanden niet opvragen in een &lt;script>-tag** van de HTML-pagina. Deze bestanden worden niet geïmporteerd op de Adobe Campaign-server.
 
-### Afbeeldingen in een e-mail invoegen {#inserting-images-in-an-email}
+### Afbeeldingen invoegen in een e-mail {#inserting-images-in-an-email}
 
 1. Voeg een structuurcomponent toe. Ga voor meer informatie naar [De e-mailstructuur bewerken](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
-1. Voeg binnen deze structuurcomponent een **[!UICONTROL Image]** inhoudscomponent toe.
+1. Voeg binnen deze structuurcomponent een inhoudscomponent **[!UICONTROL Image]** toe.
 
    ![](assets/des_insert_images_1.png)
 
@@ -51,13 +51,13 @@ Afhankelijk van uw configuratie zijn de volgende typen afbeeldingen beschikbaar:
 
 Wanneer u een blok selecteert dat een afbeelding bevat, worden de volgende eigenschappen in het palet aangeboden:
 
-* **Met personalisatie** kunt u de afbeeldingsbron aanpassen. Zie [Een afbeeldingsbron](../../designing/using/personalization.md#personalizing-an-image-source)aanpassen.
-* **Met Afbeeldingstitel** kunt u een titel voor de afbeelding definiëren.
-* **Met Alt-tekst** (e-mail) of **Bijschrift** (bestemmingspagina) kunt u het bijschrift definiëren dat is gekoppeld aan de afbeelding (komt overeen met het kenmerk **alt** HTML).
+* **Met** personalisatie kunt u de afbeeldingsbron aanpassen. Zie [Een afbeeldingsbron aanpassen](../../designing/using/personalization.md#personalizing-an-image-source).
+* **Met** afbeeldingstitels kunt u een titel voor de afbeelding definiëren.
+* **Met Alt-tekst**  (e-mail) of  **Bijschrift**  (bestemmingspagina) kunt u het bijschrift definiëren dat is gekoppeld aan de afbeelding (komt overeen met het kenmerk  **** altHTML).
 * Als u een e-mailbericht bewerkt, kunt u met **Stijl** de afbeeldingsgrootte, achtergrond en rand opgeven.
-* Wanneer u een openingspagina bewerkt, kunt u met **Dimension** de afbeeldingsgrootte in pixels opgeven.
+* Als u een openingspagina bewerkt, kunt u met **Dimension** de afbeeldingsgrootte in pixels opgeven.
 
-Met de editor kunt u werken met **alle afbeeldingstypen** waarvan de indelingen compatibel zijn met browsers. Om compatibel te zijn met de editor, moeten animaties **van het type** &quot;Flash&quot; als volgt in een HTML-pagina worden ingevoegd:
+Met de editor kunt u met **alle afbeeldingstypen** werken waarvan de indelingen compatibel zijn met browsers. Om compatibel te zijn met de redacteur, moet het **&quot;Flash&quot;type animaties** in een HTML- pagina als volgt worden opgenomen:
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">
