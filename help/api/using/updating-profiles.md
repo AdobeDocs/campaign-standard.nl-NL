@@ -17,13 +17,13 @@ ht-degree: 4%
 
 # Profielen bijwerken {#updating-profiles}
 
-Het bijwerken van profielen wordt uitgevoerd met een **PATCH** -verzoek.
+Het bijwerken van profielen wordt uitgevoerd met een **PATCH** verzoek.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. De eerste stap is het **terugwinnen van het profiel**.
+1. De eerste stap is het **ophalen van het profiel**.
 
-1. In een tweede verzoek, zullen wij een verzoek **van** PATCH op het profiel met de voltooide informatie in de lading uitvoeren.
+1. In een tweede verzoek, zullen wij **PATCH verzoek** op het profiel met de voltooide informatie in de nuttige lading uitvoeren.
 
 1. Om te controleren of het PATCH verzoek het profiel heeft bijgewerkt, kunnen wij een definitieve GET verzoek uitvoeren.
 
