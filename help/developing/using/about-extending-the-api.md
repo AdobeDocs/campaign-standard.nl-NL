@@ -21,7 +21,7 @@ In dit geval wordt de beschrijving van uitgebreide velden voor de aangepaste bro
 
 >[!NOTE]
 >
->Als u de API wilt publiceren, moet u ervoor zorgen dat u de **[!UICONTROL Datamodel]** rol hebt.
+>Als u de API wilt publiceren, moet u de rol **[!UICONTROL Datamodel]** hebben.
 
 De stappen voor het toegankelijk maken van uitgebreide velden in de openbare API zijn als volgt:
 
