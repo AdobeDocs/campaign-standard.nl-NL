@@ -141,7 +141,7 @@ ht-degree: 1%
                </tr>
                <tr>
                   <td>email</td>
-                  <td>Email</td>
+                  <td>E-mail</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
