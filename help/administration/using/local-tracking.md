@@ -16,19 +16,19 @@ ht-degree: 0%
 ---
 
 
-# Lokale tracering implementeren {#local-tracking}
+# Lokaal bijhouden implementeren {#local-tracking}
 
-## Lokale tracering {#about-local-tracking}
+## Informatie over lokaal bijhouden {#about-local-tracking}
 
 Leer op deze pagina hoe u ervoor kunt zorgen dat het bijhouden van lokale meldingen correct is geïmplementeerd. Merk op dat dit impliceert dat het lokale bericht reeds is gevormd.
 
 Het bijhouden van lokale meldingen kan in drie typen worden gesplitst:
 
-* **Lokale indrukken** - Wanneer een lokale melding aan het apparaat is afgeleverd en op het kennisgevingscentrum zit, maar helemaal niet is aangeraakt. In de meeste gevallen zou het aantal indrukkingen gelijk moeten zijn, zo niet het zelfde als het geleverde aantal. Het zorgt ervoor dat het apparaat het bericht kreeg en dat de informatie terug naar de server.
+* **Lokale indrukken**  - Wanneer een lokale melding aan het apparaat is afgeleverd en op het kennisgevingscentrum zit, maar helemaal niet is aangeraakt. In de meeste gevallen zou het aantal indrukkingen gelijk moeten zijn, zo niet het zelfde als het geleverde aantal. Het zorgt ervoor dat het apparaat het bericht kreeg en dat de informatie terug naar de server.
 
-* **Lokale klik** - wanneer een lokaal bericht aan het apparaat is geleverd en de gebruiker op het apparaat heeft geklikt. De gebruiker wilde het bericht bekijken (dat op zijn beurt naar het lokale open volgen zal bewegen) of het bericht sluiten.
+* **Plaatselijke klik**  - wanneer een lokaal bericht aan het apparaat is geleverd en de gebruiker op het apparaat heeft geklikt. De gebruiker wilde het bericht bekijken (dat op zijn beurt naar het lokale open volgen zal bewegen) of het bericht sluiten.
 
-* **Lokale open** - wanneer een lokaal bericht aan het apparaat is geleverd en de gebruiker op het bericht heeft geklikt dat de toepassing de open veroorzaakt. Dit is vergelijkbaar met de lokale klik, maar een lokaal geopend bericht wordt niet geactiveerd als het bericht is gesloten.
+* **Lokale open**  - wanneer een lokaal bericht aan het apparaat is geleverd en de gebruiker op het bericht heeft geklikt dat de toepassing de open veroorzaakt. Dit is vergelijkbaar met de lokale klik, maar een lokaal geopend bericht wordt niet geactiveerd als het bericht is gesloten.
 
 Voor het implementeren van tracering voor Adobe Campaign Standard moet de mobiele toepassing de Mobile SDK opnemen in de toepassing. Deze SDK&#39;s zijn beschikbaar in [!DNL Adobe Mobile Services].
 
@@ -40,7 +40,7 @@ Voor het verzenden van trackinggegevens zijn er drie variabelen die moeten worde
 | broadlogId | &quot;broadlogId&quot; van binnenkomende gegevens (vergelijkbaar met &#39;push tracking&#39; wanneer &#39;_mld&#39; wordt gebruikt) |
 | action | &quot;1&quot; voor Openen, &quot;2&quot; voor Klikken en &quot;7&quot; voor Impressie |
 
-## Lokale interimtracering implementeren {#implement-local-impression-tracking}
+## Lokale imitatie bijhouden {#implement-local-impression-tracking} implementeren
 
 Voor het bijhouden van de indruk moet u waarde &quot;7&quot; voor actie verzenden wanneer u de functies collectMessageInfo() of trackAction() aanroept.
 
@@ -66,7 +66,7 @@ De Adobe Experience Platform Mobile SDK start de imitatie bijhouden voor lokale 
 >
 >iOS-impressietracering is niet correct en moet niet betrouwbaar worden bekeken.
 
-## Klikken bijhouden implementeren {#implementing-click-tracking}
+## Het uitvoeren van klik het volgen {#implementing-click-tracking}
 
 Voor het volgen van klik, moet u waarde &quot;2&quot;voor actie verzenden wanneer het roepen van collectMessageInfo () of trackAction () functies.
 
@@ -140,7 +140,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
     }
 ```
 
-## Openbare tracering implementeren {#implement-open-tracking}
+## Open tracking {#implement-open-tracking} implementeren
 
 U moet &quot;1&quot; en &quot;2&quot; verzenden omdat de gebruiker op het bericht moet klikken om de toepassing te openen. Als de toepassing niet via een lokale melding wordt gestart/geopend, vinden er geen gebeurtenissen tracking plaats.
 
@@ -148,7 +148,7 @@ U moet &quot;1&quot; en &quot;2&quot; verzenden omdat de gebruiker op het berich
 
 Om open te volgen, moeten wij intent creëren. Met intentieobjecten kan het Android-besturingssysteem de methode aanroepen wanneer bepaalde handelingen zijn uitgevoerd. Klik in dit geval op het bericht om de toepassing te openen.
 
-Deze code is gebaseerd op de implementatie van het bijhouden van de klikindruk. Als de intentie is ingesteld, moet u nu trackinggegevens terugsturen naar Adobe Campaign. In dit geval wordt Android View([!DNL Activity]) die de melding heeft geactiveerd, geopend of op voorgrond geplaatst als gevolg van de klik door de gebruiker. Het intent-object in [!DNL Activity] bevat de berichtgegevens die kunnen worden gebruikt om het openen bij te houden.
+Deze code is gebaseerd op de implementatie van het bijhouden van de klikindruk. Als de intentie is ingesteld, moet u nu trackinggegevens terugsturen naar Adobe Campaign. In dit geval wordt Android View ([!DNL Activity]) die de melding heeft geactiveerd, geopend of op de voorgrond geplaatst als gevolg van de klik door de gebruiker. Het intent-object in [!DNL Activity] bevat de berichtgegevens die kunnen worden gebruikt om het openen bij te houden.
 
 MainActivity.java (extends [!DNL Activity])
 
