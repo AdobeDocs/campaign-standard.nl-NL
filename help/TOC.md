@@ -7,10 +7,10 @@ user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken,
 breadcrumb-title: Campaign Standard
 title: 'Campaign Standard-handleiding '
 translation-type: tm+mt
-source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
+source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 100%
+source-wordcount: '1710'
+ht-degree: 99%
 
 ---
 
@@ -152,6 +152,7 @@ ht-degree: 100%
       + [E-mails met tekst zonder opmaak, e-mails met HTML-content en e-mails voor mobiele applicaties bewerken](designing/using/plain-text-html-modes.md)
       + [E-mails van de verouderde editor omzetten naar Email Designer](designing/using/converting-emails-from-legacy-editor.md)
    + [E-mailcontent personaliseren](designing/using/personalization.md)
+   + [Productaanbiedingen gebruiken](designing/using/using-product-listings.md)
    + [E-mailstijlen beheren](designing/using/styles.md)
    + [Koppelingen beheren](designing/using/links.md)
    + [Afbeeldingen beheren](designing/using/images.md)
@@ -435,7 +436,6 @@ ht-degree: 100%
    + Kanalen configureren {#configuring-channels}
       + [Informatie over kanaalconfiguratie](administration/using/about-channel-configuration.md)
       + [E-mailkanaal configureren](administration/using/configuring-email-channel.md)
-      + [Een sms-kanaal configureren](administration/using/configuring-sms-channel.md)
       + [Een mobiele applicatie configureren](administration/using/configuring-a-mobile-application.md)
    + Mobiele kanalen configureren {#configuring-mobile}
       + [Pushtracking implementeren](administration/using/push-tracking.md)
@@ -446,6 +446,10 @@ ht-degree: 100%
       + [Veelgestelde vragen over de integratie van Experience Platform SDK](administration/using/aep-faq.md)
       + [Launch-regels configureren voor ondersteuning van Adobe Campaign Standard-gebruiksscenario’s](administration/using/configuring-rules-launch.md)
       + [Mobiele gebruiksscenario’s die worden ondersteund in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
+   + Een sms-kanaal configureren {#configuring-sms}
+      + [Implementatie van het SMS-kanaal](administration/using/configuring-sms-channel.md)
+      + [Protocol en instellingen voor SMS-aansluiting](administration/using/sms-protocol.md)
+      + [Problemen met SMS oplossen](administration/using/troubleshooting-sms.md)
    + Applicatie-instellingen {#application-settings}
       + [Informatie over Campaign Standard-instellingen](administration/using/about-campaign-standard-settings.md)
       + [Externe accounts](administration/using/external-accounts.md)
