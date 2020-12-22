@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 100%
+source-wordcount: '1064'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign Standard biedt twee nieuwe modellen voor machine learning: **opti
 >[!CAUTION]
 >Deze mogelijkheid is niet rechtstreeks beschikbaar als onderdeel van het product. Voor de implementatie moet Adobe Consulting worden ingeschakeld. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie.
 >
->De functie vereist het gebruik van een Azure-opslaglocatie die door de klant moet worden geleverd.
+>De functie vereist het gebruik van een Azure- of Amazon S3-opslag die door de klant moet worden geleverd.
 
 ## Optimalisatie van voorspellende verzendtijd{#predictive-send-time}
 
