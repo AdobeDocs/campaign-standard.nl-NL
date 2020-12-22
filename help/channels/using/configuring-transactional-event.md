@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '1672'
 ht-degree: 7%
@@ -68,7 +68,7 @@ De stappen voor het toevoegen en wijzigen van gebieden zijn het zelfde als voor 
 
 U kunt aan de inhoud van de gebeurtenis een inzameling van elementen toevoegen, elk element zelf met verscheidene attributen.
 
-Deze verzameling kan worden gebruikt in een transactie-e-mail om [productaanbiedingen](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message) aan de inhoud van het bericht toe te voegen, bijvoorbeeld een lijst met producten - met de prijs, het referentienummer, het aantal, enz. voor elk product in de lijst.
+Deze verzameling kan worden gebruikt in een transactie-e-mail om [productaanbiedingen](../../designing/using/using-product-listings.md) aan de inhoud van het bericht toe te voegen, bijvoorbeeld een lijst met producten - met de prijs, het referentienummer, het aantal, enz. voor elk product in de lijst.
 
 1. Klik in de sectie **[!UICONTROL Collections]** op de knop **[!UICONTROL Create element]**.
 
@@ -96,7 +96,7 @@ Hier volgt de API-voorvertoning voor dit voorbeeld:
 **Verwante onderwerpen:**
 
 * [De gebeurtenis voorvertonen en publiceren](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [Productvermeldingen gebruiken in een transactiebericht](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+* [Productvermeldingen gebruiken in een transactiebericht](../../designing/using/using-product-listings.md)
 * [Transactiebericht publiceren](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## De gebeurtenis {#enriching-the-transactional-message-content} verrijken
