@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
+source-git-commit: 77abbdf824be705b0a3409442e45d28dc0abaa2f
 workflow-type: tm+mt
-source-wordcount: '6357'
-ht-degree: 99%
+source-wordcount: '6372'
+ht-degree: 98%
 
 ---
 
@@ -21,13 +21,19 @@ Naast de [release-opmerkingen](../../rn/using/release-notes.md) bij Adobe Campai
 
 ## December 2020 {#doc-updates-december-2020}
 
-De sectie Transactioneel overseinen is gereorganiseerd en verbeterd, met een duidelijk begonnen sectie met inbegrip van [verbeterde schema&#39;s](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle), en [het gebruiksgeval van begin tot eind](../../channels/using/transactional-messaging-use-case.md) om het volledige proces te illustreren. [Meer informatie](../../channels/using/getting-started-with-transactional-msg.md)
+**De** linecapability van het Voorwerp is nu verouderd. [Meer informatie](../../rn/using/deprecated-features.md)
 
-De sectie Privacy is verplaatst. [Meer informatie](../../start/using/privacy.md)
+De **Transactioneel overseinen** begonnen sectie omvat nu [verbeterde schema&#39;s](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle), en [het gebruiksgeval van begin tot eind](../../channels/using/transactional-messaging-use-case.md) om het implementatieproces te illustreren. [Meer informatie](../../channels/using/getting-started-with-transactional-msg.md)
 
-Er is een nieuwe pagina over toegankelijkheid toegevoegd met meer informatie over toegankelijkheidsondersteuning in de Adobe Campaign Standard-werkruimte. [Meer informatie](../../start/using/accessibility.md)
+De **Privacy** sectie is verplaatst [hier](../../start/using/privacy.md).
 
-Er is een nieuwe beperking toegevoegd aan de sectie Transactioneel berichtenverkeer, waarin staat dat voor optimale prestaties het aantal gepubliceerde transactieberichten onder de 100 moet blijven. [Meer informatie](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+Er is een nieuwe pagina **Toegankelijkheid** beschikbaar: wordt toegankelijkheidsondersteuning in de Adobe Campaign Standard-werkruimte beschreven. [Meer informatie](../../start/using/accessibility.md)
+
+Er is een voorzichtige opmerking toegevoegd waarin staat dat het aantal gepubliceerde transactieberichten voor optimale prestaties onder de 100 moet blijven. [Meer informatie](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+
+Het de schakelaarprotocol en montagespagina van SMS zijn verplaatst [hier](../../administration/using/sms-protocol.md).
+
+De sectie **Productlijsten gebruiken in een transactiebericht** is [hier](../../designing/using/using-product-listings.md) verplaatst.
 
 ## November 2020 {#doc-updates-november-2020}
 
@@ -509,7 +515,7 @@ Er is informatie toegevoegd in de sectie over de activiteit Bestand extraheren v
 
 Algemene beschikbaarheid van Email Designer - [Meer informatie](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Productlijsten in transactionele e-mails - [Meer informatie](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+Productlijsten in transactionele e-mails - [Meer informatie](../../designing/using/using-product-listings.md)
 
 Mobiele weergave in Email Designer - [Meer informatie](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
