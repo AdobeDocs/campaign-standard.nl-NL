@@ -5,11 +5,11 @@ product: campaign
 title: Adobe Campaign Standard-productdocumentatie
 description: Bladeren door de Campaign Standard-productdocumentatie
 topic: Premium
-translation-type: ht
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: ht
-source-wordcount: '216'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 74645dbd3ae24be49475be7ec50d0d3464823ec2
+workflow-type: tm+mt
+source-wordcount: '234'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 100%
 
 ## Nieuwe functies
 
-* **[Bijgewerkte releaseplanning](rn/using/release-planning.md)**<br/> Aan de releaseplanning zijn releasedatums voor februari 2021 toegevoegd
+* **[Onjuiste harde ](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> grenzen bijwerkenLeer hoe u onjuiste harde grenzen kunt bijwerken na Gmail-uitgang
+
+* **[Release-](rn/using/release-planning.md)**<br/> planningDe volgende releasedatums van februari 2021 zijn toegevoegd aan de releaseplanning
 
 * **[Controlegroepen](sending/using/control-group.md)**<br/>
 De invloed van uw campagnes meten door een deel van hun doelgroep uit te sluiten
@@ -78,5 +80,5 @@ De activiteit Externe API gebruiken om gegevens van een extern systeem over te b
 | [Configuratiescherm-documentatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/control-panel-home.html) | [Campaign-API&#39;s](api/using/get-started-apis.md) |
 | [Implementatiehandleiding](https://helpx.adobe.com/nl/campaign/kb/campaign-standard-implementation-guide.html) | [Lijst met foutberichten](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Releaseplanning](rn/using/release-planning.md) | [Campaign-datamodel](developing/using/datamodel-introduction.md) |
-| [Verouderde en verwijderde functies](rn/using/deprecated-features.md)) | [Handleiding voor meerdere oplossingen](integrating/using/get-started-campaign-integrations.md) |
+| [Verouderde en verwijderde functies](rn/using/deprecated-features.md) | [Handleiding voor meerdere oplossingen](integrating/using/get-started-campaign-integrations.md) |
 | [Aan de slag met Campaign Standard](start/using/about-campaign-standard.md) | [Technische opmerkingen](https://helpx.adobe.com/nl/campaign/kb/acs-article-list.html) |
