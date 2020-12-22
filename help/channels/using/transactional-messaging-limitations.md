@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 0092ad11314fab232663f558ca6635b8fcc03133
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 68%
@@ -64,7 +64,7 @@ De manier waarop u berichtcontent kunt personaliseren hangt af van het type tran
 
 ### Productaanbiedingen
 
-Merk op dat de productaanbiedingen in transactie **e-mailberichten** slechts beschikbaar zijn. Zie [Productaanbiedingen gebruiken in een transactiebericht](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message).
+Merk op dat de productaanbiedingen in transactie **e-mailberichten** slechts beschikbaar zijn. Zie [Productaanbiedingen gebruiken in een transactiebericht](../../designing/using/using-product-listings.md).
 
 ## Merkpositionering {#permissions-and-branding}
 
