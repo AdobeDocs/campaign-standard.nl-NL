@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 4%
@@ -50,7 +50,7 @@ E-mailinhoud kan in Experience Manager worden bewerkt en vervolgens worden gebru
 >title="Productaanbiedingen gebruiken"
 >abstract="In de productaanbiedingen kunt u verwijzen naar een gegevensverzameling en deze weergeven in de e-mailinhoud."
 
-In de productaanbiedingen kunt u verwijzen naar een of meer gegevensverzamelingen in de e-mailinhoud. Deze aanbiedingen zijn beschikbaar voor transactie-e-mails. Een specifieke sectie voor deze functie is [hier](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message) beschikbaar.
+In de productaanbiedingen kunt u verwijzen naar een of meer gegevensverzamelingen in de e-mailinhoud. Deze aanbiedingen zijn beschikbaar voor transactie-e-mails. Een specifieke sectie voor deze functie is [hier](../../designing/using/using-product-listings.md) beschikbaar.
 
 ## Vergelijking van e-mailontwerpopties {#email-design-options-comparison}
 
