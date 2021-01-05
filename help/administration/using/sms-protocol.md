@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 0722d8e9c32cc2929a157827dc8e7aeb2b2a454e
+source-git-commit: 6ac2a2d5b2a0924847e54068145d6def22f8023f
 workflow-type: tm+mt
-source-wordcount: '8357'
+source-wordcount: '8382'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # Protocol en instellingen voor SMS-aansluiting {#sms-connector-protocol}
 
 >[!NOTE]
+>
+>Het **SMS-connectorprotocol en de instellingen** voor Adobe Campaign Classic vindt u op deze [pagina](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.htmln#sending-messages).
 >
 >In dit document verwijzen alle verwijzingen naar details over het protocol, veldnamen en waarden naar de [SMPP 3.4-specificatie](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
@@ -297,7 +299,7 @@ In dit voorbeeld wordt het geval van een implementatie weergegeven volgens de aa
 id:1234567890 sub:001 dlvrd:001 submit date:1608011415 done date:1608011417 stat:DELIVRD err:000 Text:Hello Adobe world
 ```
 
-Eerst, wordt `id extraction` regex toegepast om identiteitskaart te halen en het met overeenkomstige MT te verzoenen.
+Eerst, wordt `id extraction` regex toegepast om identiteitskaart te halen en het met overeenkomstige MT in overeenstemming te brengen.
 
 Vervolgens worden de `status extraction` regex en `error code extraction` regex toegepast om deze velden te extraheren en worden deze aan de tekenreeks toegevoegd.
 
