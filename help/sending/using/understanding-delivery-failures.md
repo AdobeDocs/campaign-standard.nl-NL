@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 46bcdeec3731a7da12997cb195195fecfa2f84e5
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 82%
+source-wordcount: '1299'
+ht-degree: 81%
 
 ---
 
@@ -77,6 +77,7 @@ De mogelijke redenen van een leveringsfout zijn:
 Als een bericht mislukt wegens een tijdelijke fout van het type **Ignored**, zullen nieuwe pogingen worden uitgevoerd tijdens de leveringsduur. Raadpleeg [Typen leveringsfouten en redenen](#delivery-failure-types-and-reasons) voor meer informatie over de typen fouten.
 
 Het aantal nieuwe pogingen (hoeveel nieuwe pogingen moeten worden uitgevoerd de dag nadat het verzenden is begonnen) en de minimumvertraging tussen nieuwe pogingen worden nu beheerd door de Enhanced MTA van Adobe Campaign, gebaseerd op hoe goed een IP zowel in het heden als in het verleden presteert op een bepaald domein. De instellingen voor **Retries** in Campaign worden genegeerd.
+Houd er rekening mee dat Adobe Campaign Enhanced MTA niet beschikbaar is voor het pushkanaal.
 
 Om de duur van een levering te wijzigen, gaat u naar de geavanceerde parameters van de levering of de leveringssjabloon en bewerkt u het veld **[!UICONTROL Delivery duration]** in de sectie [Validity period](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
