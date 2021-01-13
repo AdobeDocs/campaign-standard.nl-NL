@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 6ac2a2d5b2a0924847e54068145d6def22f8023f
+source-git-commit: 458517259c6668e08a25f8c3cd3f193f27e536fb
 workflow-type: tm+mt
 source-wordcount: '8382'
 ht-degree: 0%
@@ -104,7 +104,7 @@ In gescheiden **Transmitter+receiver** wijze, hangt de gebruikte verbinding van 
 
 Bijvoorbeeld, wanneer het verzenden van MT, wordt de transmissieverbinding gebruikt en `RESP` die erkent wordt MT ook verzonden door het transmissiekanaal. Wanneer u een MO (of een SR) ontvangt, wordt de ontvangerverbinding gebruikt om MO te ontvangen en `RESP` te verzenden die MO erkent.
 
-![](assets/sms_protocol_1.png)
+![](assets/do-not-localize/sms_protocol_1.png)
 
 In Adobe Campaign Standard is de verzoening tussen MT en SR eigen aan de MTA, dus is er geen speciaal SMS-proces.
 
@@ -299,7 +299,7 @@ In dit voorbeeld wordt het geval van een implementatie weergegeven volgens de aa
 id:1234567890 sub:001 dlvrd:001 submit date:1608011415 done date:1608011417 stat:DELIVRD err:000 Text:Hello Adobe world
 ```
 
-Eerst, wordt `id extraction` regex toegepast om identiteitskaart te halen en het met overeenkomstige MT in overeenstemming te brengen.
+Eerst, wordt `id extraction` regex toegepast om identiteitskaart te halen en het met overeenkomstige MT te verzoenen.
 
 Vervolgens worden de `status extraction` regex en `error code extraction` regex toegepast om deze velden te extraheren en worden deze aan de tekenreeks toegevoegd.
 
@@ -500,7 +500,7 @@ Het venster is het aantal `SUBMIT_SM PDU`s dat kan worden verzonden zonder te wa
 
 Voorbeeld van een transmissie met een maximum venster van 4:
 
-![](assets/sms_protocol_2.png)
+![](assets/do-not-localize/sms_protocol_2.png)
 
 De vensterhulp verhoogt de productie wanneer de netwerkverbinding een hoge latentie heeft.  De waarde van het venster moet minstens het aantal SMS/s zijn die met de latentie van de verbinding in seconden wordt vermenigvuldigd zodat de schakelaar nooit op `SUBMIT_SM_RESP` alvorens het volgende bericht wacht te verzenden.
 Als het venster te groot is, kunt u meer dubbele berichten verzenden in het geval van verbindingsproblemen. Bovendien hebben de meeste providers een zeer strikte limiet voor het venster en weigeren berichten die de limiet overschrijden.
@@ -758,7 +758,7 @@ De geldigheidsperiode wordt doorgegeven in het veld `validity_period` van `SUBMI
 
 ## SMPP-aansluiting {#ACS-SMPP-connector}
 
-![](assets/sms_protocol_3.png)
+![](assets/do-not-localize/sms_protocol_3.png)
 
 Pijlen geven de gegevensstroom aan.
 
