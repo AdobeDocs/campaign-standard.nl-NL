@@ -5,11 +5,11 @@ product: campaign
 title: Adobe Campaign Standard-productdocumentatie
 description: Bladeren door de Campaign Standard-productdocumentatie
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 74645dbd3ae24be49475be7ec50d0d3464823ec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '234'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 86%
 
 ## Nieuwe functies
 
-* **[Onjuiste harde ](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> grenzen bijwerkenLeer hoe u onjuiste harde grenzen kunt bijwerken na Gmail-uitgang
+* **[Onjuiste hard bounces bijwerken](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Leren hoe u onjuiste hard bounces kunt bijwerken na Gmail-uitval
 
-* **[Release-](rn/using/release-planning.md)**<br/> planningDe volgende releasedatums van februari 2021 zijn toegevoegd aan de releaseplanning
+* **[Releaseplanning](rn/using/release-planning.md)**<br/> Aan de releaseplanning zijn releasedatums voor februari 2021 toegevoegd
 
 * **[Controlegroepen](sending/using/control-group.md)**<br/>
 De invloed van uw campagnes meten door een deel van hun doelgroep uit te sluiten
