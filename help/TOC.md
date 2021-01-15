@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken. '
 breadcrumb-title: Campaign Standard
 title: 'Campaign Standard-handleiding '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -152,7 +152,7 @@ ht-degree: 99%
       + [E-mails met tekst zonder opmaak, e-mails met HTML-content en e-mails voor mobiele applicaties bewerken](designing/using/plain-text-html-modes.md)
       + [E-mails van de verouderde editor omzetten naar Email Designer](designing/using/converting-emails-from-legacy-editor.md)
    + [E-mailcontent personaliseren](designing/using/personalization.md)
-   + [Productaanbiedingen gebruiken](designing/using/using-product-listings.md)
+   + [Productlijsten gebruiken](designing/using/using-product-listings.md)
    + [E-mailstijlen beheren](designing/using/styles.md)
    + [Koppelingen beheren](designing/using/links.md)
    + [Afbeeldingen beheren](designing/using/images.md)
@@ -447,9 +447,9 @@ ht-degree: 99%
       + [Launch-regels configureren voor ondersteuning van Adobe Campaign Standard-gebruiksscenario’s](administration/using/configuring-rules-launch.md)
       + [Mobiele gebruiksscenario’s die worden ondersteund in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
    + Een sms-kanaal configureren {#configuring-sms}
-      + [Implementatie van het SMS-kanaal](administration/using/configuring-sms-channel.md)
-      + [Protocol en instellingen voor SMS-aansluiting](administration/using/sms-protocol.md)
-      + [Problemen met SMS oplossen](administration/using/troubleshooting-sms.md)
+      + [Het sms-kanaal implementeren](administration/using/configuring-sms-channel.md)
+      + [Protocol en instellingen voor sms-connector](administration/using/sms-protocol.md)
+      + [Problemen met sms oplossen](administration/using/troubleshooting-sms.md)
    + Applicatie-instellingen {#application-settings}
       + [Informatie over Campaign Standard-instellingen](administration/using/about-campaign-standard-settings.md)
       + [Externe accounts](administration/using/external-accounts.md)
