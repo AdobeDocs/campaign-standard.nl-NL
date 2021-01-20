@@ -6,9 +6,9 @@ description: Ontdek meer over alle nieuwste updates voor de documentatie van Ado
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: ht
-source-git-commit: 77abbdf824be705b0a3409442e45d28dc0abaa2f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+workflow-type: tm+mt
 source-wordcount: '6372'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ Er is een opmerking toegevoegd om gebruikers te waarschuwen voor machtigingsbepe
 
 Er is een nieuwe sectie toegevoegd waarin het proces van het maken van een nieuw merk nader wordt beschreven. [Meer informatie](../../administration/using/branding.md#creating-a-brand)
 
-De nieuwe Campaign Standard-Microsoft Dynamics 365-integratie is nu beschikbaar. [Meer informatie](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+De nieuwe Campaign Standard-Microsoft Dynamics 365-integratie is nu beschikbaar. [Meer informatie](../../integrating/using/d365-acs-get-started.md)
 
 Er is informatie toegevoegd over anonieme bronnen in het rapport Actieve profielen. [Meer informatie](../../audiences/using/active-profiles.md)
 
@@ -109,7 +109,7 @@ Verwijzingen naar de oude ondersteuningswebsite zijn vervangen door de nieuwe UR
 
 Aangepaste Litmus-accountconfiguratie is verwijderd uit de Inbox-rendermogelijkheden. [Meer informatie](../../sending/using/email-rendering.md)
 
-Campaign Standard - Integratie met Microsoft Dynamics 365 is momenteel niet beschikbaar. Er wordt een nieuwe connector ontwikkeld die in de toekomst beschikbaar zal zijn. De desbetreffende Help-pagina’s zijn verwijderd. [Meer informatie](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Campaign Standard - Integratie met Microsoft Dynamics 365 is momenteel niet beschikbaar. Er wordt een nieuwe connector ontwikkeld die in de toekomst beschikbaar zal zijn. De desbetreffende Help-pagina’s zijn verwijderd. [Meer informatie](../../integrating/using/d365-acs-get-started.md)
 
 ## Mei 2020 {#doc-updates-may-2020}
 
@@ -141,7 +141,7 @@ Er is een sectie met vaak gestelde vragen over Email Designer toegevoegd. [Meer 
 
 ## April 2020 {#doc-updates-april-2020}
 
-De documentatie over de integratie van Microsoft Dynamics 365 met Adobe Campaign Standard is nu beschikbaar in de kerndocumentatie. [Meer informatie](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+De documentatie over de integratie van Microsoft Dynamics 365 met Adobe Campaign Standard is nu beschikbaar in de kerndocumentatie. [Meer informatie](../../integrating/using/d365-acs-get-started.md)
 
 Er zijn extra bronnen toegevoegd aan de startpagina van de documentatie. [Meer informatie](../../campaign-standard-home.md)
 
@@ -217,7 +217,7 @@ Audience Destinations (bèta) - [Meer informatie](../../audiences/using/aep-abou
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
-De documentatie over privacybeheer is bijgewerkt met informatie over het maken van een veld voor uitschrijving bij CCPA voor aangepaste profielresources. [Meer informatie](https://helpx.adobe.com/content/help/nl/campaign/kb/acs-privacy.html)
+De documentatie over privacybeheer is bijgewerkt met informatie over het maken van een veld voor uitschrijving bij CCPA voor aangepaste profielresources. [Meer informatie](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
 
 De releaseopmerkingen zijn opnieuw ingedeeld en verbeterd. [Meer informatie](../../rn/using/release-notes.md)
 
@@ -283,7 +283,7 @@ Het nieuwe API-eindpunt **/customResources** is aan de API-documentatie toegevoe
 
 California Consumer Privacy Act (CCPA) - [Meer informatie](https://helpx.adobe.com/content/help/nl/campaign/kb/acs-privacy.html#ccpa)
 
-Microsoft Dynamics 365-integratie (GA) - [Meer informatie](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Microsoft Dynamics 365-integratie (GA) - [Meer informatie](../../integrating/using/d365-acs-get-started.md)
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
@@ -317,7 +317,7 @@ Er is een nieuw voorbeeld toegevoegd waarin wordt getoond hoe u een e-mail verze
 
 Er is een nieuwe sectie toegevoegd over het gebruik van overvullingen. [Meer informatie](../../sending/using/using-traps.md).
 
-Er is een opmerking toegevoegd over de optie **Launch_URL_Campaign** op de pagina over het configureren van een mobiele app met behulp van Adobe Experience Platform SDK’s. [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdk.html)
+Er is een opmerking toegevoegd over de optie **Launch_URL_Campaign** op de pagina over het configureren van een mobiele app met behulp van Adobe Experience Platform SDK’s. [Meer informatie](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
 De handleiding over Email Designer is opnieuw ingedeeld. [Meer informatie](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -345,7 +345,7 @@ Rapport over workflowsegmenten - [Meer informatie](../../reporting/using/creatin
 
 De handleiding over de implementatie van Campaign Standard is nu live.[Meer informatie](https://helpx.adobe.com/nl/campaign/kb/campaign-standard-implementation-guide.html)
 
-Er is een reeks nieuwe Help-artikelen gemaakt over de implementatie en het gebruik van de Microsoft Dynamics 365-connector. Merk op dat deze eigenschap momenteel beperkt beschikbaar is.[Meer informatie](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Er is een reeks nieuwe Help-artikelen gemaakt over de implementatie en het gebruik van de Microsoft Dynamics 365-connector. Merk op dat deze eigenschap momenteel beperkt beschikbaar is.[Meer informatie](../../integrating/using/d365-acs-get-started.md)
 
 Er is een opmerking toegevoegd aan de sectie over het [aanroepen van een workflow met parameters](../../automating/using/calling-a-workflow-with-external-parameters.md) betreffende de voorbereiding van de levering en de bijbehorende aggregatieperiode.
 
@@ -389,7 +389,7 @@ Er is een waarschuwing toegevoegd in de documentatie over aangepaste resources. 
 
 **Nieuwe mogelijkheden die in de release zijn opgenomen**
 
-Configuratiescherm - [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/control-panel-home.html)
+Configuratiescherm - [Meer informatie](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 Lokale meldingen - [Meer informatie](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -543,9 +543,9 @@ Er is informatie toegevoegd over de nieuwe optie in de activiteit Bestand extrah
 
 De sectie over het configureren van een mobiele app met SDK V4 is [hier](https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdkv4.html) geplaatst.
 
-De sectie over het configureren van een mobiele app met Adobe Experience Platform SDK’s is [hier](https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdk.html) geplaatst.
+De sectie over het configureren van een mobiele app met Adobe Experience Platform SDK’s is [hier](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html) geplaatst.
 
-Video’s zijn bijgewerkt en [hier](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/overview.html) geplaatst.
+Video’s zijn bijgewerkt en [hier](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) geplaatst.
 
 De sectie over het type gebruikers is bijgewerkt. [Meer informatie](../../administration/using/users-management.md)
 
@@ -575,7 +575,7 @@ Geautomatiseerde content importeren van een URL tijdens het voorbereiden. [Meer 
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
-Er is een nieuwe technische opmerking toegevoegd over het protocol en de instellingen van de sms-connector. [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/sms-connector-protocol-and-settings.html)
+Er is een nieuwe technische opmerking toegevoegd over het protocol en de instellingen van de sms-connector. [Meer informatie](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
 De Experience Manager-integratie is bijgewerkt met de Adobe Campaign-documentatie. [Meer informatie](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -647,7 +647,7 @@ Sommige pagina’s van de documentatie over de contenteditor zijn samengevoegd v
 
 **Nieuwe mogelijkheden die in de release zijn opgenomen**
 
-Algemene EU-verordening inzake gegevensbescherming (AVG) - [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html)
+Algemene EU-verordening inzake gegevensbescherming (AVG) - [Meer informatie](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
 Creative Designer voor e-mail - [Meer informatie](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -777,7 +777,7 @@ De [technische opmerking](https://helpx.adobe.com/nl/campaign/kb/integrate-mobil
 
 Er is een technische opmerking toegevoegd over de structuur van de payload die in een mobiele app is ontvangen. [Meer informatie.](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/push-notifications/push-payload.html)
 
-De [sectie](https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdkv4.html) over de configuratie van pushkanalen is bijgewerkt met nieuwe payloaddata over de versie van het besturingssysteem die moeten worden toegevoegd wanneer terugpostbewerkingen worden gedefinieerd in de Adobe Mobile Services-interface.
+De [sectie](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) over de configuratie van pushkanalen is bijgewerkt met nieuwe payloaddata over de versie van het besturingssysteem die moeten worden toegevoegd wanneer terugpostbewerkingen worden gedefinieerd in de Adobe Mobile Services-interface.
 
 De sms-documentatie is bijgewerkt en er is enige verduidelijking toegevoegd aan de sectie over [automatisch sms-antwoorden](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
@@ -873,7 +873,7 @@ De handleiding over leveringen is gereorganiseerd en de naam ervan is gewijzigd 
 
 Er zijn verschillende schermafbeeldingen bijgewerkt om wijzigingen in de interface te weerspiegelen.
 
-Er is een nieuwe technische opmerking beschikbaar over de integratie van de Adobe Mobile SDK met uw mobiele app. [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/integrate-mobile-sdk.html)
+Er is een nieuwe technische opmerking beschikbaar over de integratie van de Adobe Mobile SDK met uw mobiele app. [Meer informatie](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
 Er zijn instructies toegevoegd voor de configuratie van de People-kernservice of de Audience Manager-integratie met Adobe Campaign. [Meer informatie](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -903,9 +903,9 @@ De handleiding over workflows is opnieuw ingedeeld en uitgebreid. U kunt eenvoud
 
 De berekening van rapportindicatoren is nu beschikbaar voor dynamische rapporten, inclusief een volledige beschrijving en berekeningsformule. [Meer informatie](../../reporting/using/indicator-calculation.md)
 
-Er is een nieuwe, speciale sectie toegevoegd over de configuratie van Adobe Mobile Services voor het gebruik van pushmeldingen en data van het type Point of Interest in Adobe Campaign. [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdkv4.html)
+Er is een nieuwe, speciale sectie toegevoegd over de configuratie van Adobe Mobile Services voor het gebruik van pushmeldingen en data van het type Point of Interest in Adobe Campaign. [Meer informatie](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
-De secties over de configuratie en implementatie van mobiele apps zijn bijgewerkt, en bevatten onder meer meer gedetailleerde stappen voor het instellen en verzenden van pushmeldingen. [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdkv4.html)
+De secties over de configuratie en implementatie van mobiele apps zijn bijgewerkt, en bevatten onder meer meer gedetailleerde stappen voor het instellen en verzenden van pushmeldingen. [Meer informatie](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
 De sectie over het werken met afbeeldingen in Campaign is bijgewerkt. [Meer informatie](../../designing/using/images.md#setting-up-image-properties)
 
@@ -917,7 +917,7 @@ De integratie met Adobe Analytics for Mobile (Point of Interest) is bijgewerkt, 
 
 Dynamische rapportage - [Meer informatie](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver-integratie (Labs) - [Meer informatie](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver-integratie (Labs) - [Meer informatie](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 Handmatige optimalisatie van de verzendtijd - [Meer informatie](../../sending/using/optimizing-the-sending-time.md)
 
