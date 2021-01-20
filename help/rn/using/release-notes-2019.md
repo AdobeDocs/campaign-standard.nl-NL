@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
+source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
 workflow-type: tm+mt
-source-wordcount: '7623'
+source-wordcount: '7607'
 ht-degree: 8%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 8%
    <ul>
     <li>Recht op toegang en recht op verwijdering: We benutten de capaciteiten die voor GDPR zijn toegevoegd. <a href="https://helpx.adobe.com/content/help/nl/campaign/kb/acs-privacy.html#righttoaccess">Meer informatie</a> </li>
     <li><p>Bij het maken van een privacyverzoek is het regulatietype (GDPR of CCPA) toegevoegd aan de Privacy Core Service. Dit is de enige methode die u moet gebruiken voor alle verzoeken voor toegang en verwijderen. Het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken is verouderd. Zie het artikel <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Vervangen en verwijderde functies</a>.</p></li>
-    <li>Het veld Opt-Out<strong> van de CCPA is toegevoegd aan de profielbron zodat Adobe Campaign-gebruikers kunnen controleren of een consument heeft gekozen voor de verkoop van persoonlijke gegevens. </strong> <a href="https://helpx.adobe.com/content/help/nl/campaign/kb/acs-privacy.html#ccpa">Meer informatie</a>.</li>
+    <li>Het veld Opt-Out</strong> van de CCPA is toegevoegd aan de profielbron zodat Adobe Campaign-gebruikers kunnen controleren of een consument heeft gekozen voor de verkoop van persoonlijke gegevens. <strong> <a href="https://helpx.adobe.com/content/help/nl/campaign/kb/acs-privacy.html#ccpa">Meer informatie</a>.</strong></li>
   </ul>
     <p>Bekijk ook de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/privacy/privacy-overview.html">Hoe kan ik-video</a>.</p>
 </td> 
@@ -54,7 +54,7 @@ ht-degree: 8%
   <tr> 
    <td> 
     <p>De integratie tussen Adobe Campaign Standard en Microsoft Dynamics 365 is nu beschikbaar. U kunt uw contact- en aangepaste entiteitsrecords van Dynamics 365 naar Campagne overbrengen en e-mailgebeurtenisgegevens terugkrijgen van Campagne naar Dynamics 365 voor een betere uitlijning van verkoop/marketing.</p>
-    <p>Raadpleeg de <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">gedetailleerde documentatie</a> om deze integratie in te stellen en de <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/campaign-and-microsoft-dynamics-365/working-with-campaign-standard-and-microsoft-dynamics-365.html">Hoe kan ik-video</a> weer te geven.</p>
+    <p>Raadpleeg de <a href="../../integrating/using/d365-acs-get-started.md">gedetailleerde documentatie</a> om deze integratie in te stellen.</p>
   </td>
   </tr> 
  </tbody> 
@@ -532,7 +532,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
    <td> <p>De nieuwe intuïtieve e-mailontwerper (voorheen Creative Designer genoemd) is verplaatst naar GA. De klasse biedt nu ondersteuning voor alle functies van de verouderde inhoudeditor, waaronder:</p> 
     <ul> 
      <li> Het gebruik van <a href="../../integrating/using/adding-target-dynamic-content.md">dynamische afbeeldingen van Adobe Target</a> </li> 
-     <li> De mogelijkheid om inhoud van een URL automatisch op te halen tijdens de voorbereidingstijd<a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time"></a> </li> 
+     <li> De mogelijkheid om inhoud van een URL automatisch op te halen tijdens de voorbereidingstijd</a><a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time"> </a></li> 
      <li> Volledig conform <a href="../../designing/using/using-reusable-content.md#content-templates">out-of-the box inhoudssjablonen</a>. </li> 
     </ul> 
     <p>Raadpleeg voor meer informatie de <a href="../../designing/using/designing-content-in-adobe-campaign.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html">Hoe kan ik-video</a>. Hieronder vindt u verbeteringen en correcties.</p><p>Als gevolg hiervan is de oude e-mailinhoudeditor nu afgekeurd. Raadpleeg deze <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">pagina</a> voor meer informatie.</p> </td> 
