@@ -7,7 +7,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 89%
@@ -30,7 +30,7 @@ Als u een profiel wilt maken of bijwerken in Campaign, kunt u:
 * een profiellijst importeren vanuit een bestand via een [workflow](../../automating/using/creating-import-workflow-templates.md)
 * data online verzamelen via [landingspagina’s](../../channels/using/getting-started-with-landing-pages.md)
 * bulk maken via [REST API](../../api/using/get-started-apis.md)
-* profielen synchroniseren met [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* profielen synchroniseren met [Microsoft Dynamics](../../integrating/using/d365-acs-get-started.md)
 * data invoeren met de grafische interfaceschermen, zoals hieronder wordt uitgelegd
 
 Voer bijvoorbeeld de volgende stappen uit om een nieuw profiel rechtstreeks in de gebruikersinterface te maken:
