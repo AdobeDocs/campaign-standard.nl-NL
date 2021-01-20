@@ -7,7 +7,7 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 89%
@@ -33,7 +33,7 @@ Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, le
 
 >[!NOTE]
 >
->Adobe Campaign Standard kan ook verbinding maken met Microsoft Dynamics 365: dankzij deze integratie kunnen alle beschikbare contactgegevens in het CRM-systeem worden gesynchroniseerd, zodat alle relevante contactgegevens beschikbaar zijn voor campagneactiviteiten. Zie [Werken met Campaign en Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) voor meer informatie over deze integratie.
+>Adobe Campaign Standard kan ook verbinding maken met Microsoft Dynamics 365: dankzij deze integratie kunnen alle beschikbare contactgegevens in het CRM-systeem worden gesynchroniseerd, zodat alle relevante contactgegevens beschikbaar zijn voor campagneactiviteiten. Zie [Werken met Campaign en Dynamics 365](../../integrating/using/d365-acs-get-started.md) voor meer informatie over deze integratie.
 
 
 <table> 
