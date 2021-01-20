@@ -7,7 +7,7 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 434edb8e1c3396ad29edd9ee60866c93e82a2c1b
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 9%
@@ -85,7 +85,7 @@ Raadpleeg de [specifieke documentatie](../../channels/using/getting-started-with
 ### Profielen synchroniseren vanuit Microsoft Dynamics 365
 
 De integratie van Campaign Standard met de Dynamica 365 van Microsoft staat u toe om contactgegevens van de Dynamica 365 van Microsoft tot het gegevensbestand van de Campagne over te gaan.
-Deze contacten zijn dan zichtbaar in de lijst van Profielen en kunnen in marketing campagnes worden gericht. Raadpleeg de [specifieke documentatie](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) voor meer informatie over deze integratie.
+Deze contacten zijn dan zichtbaar in de lijst van Profielen en kunnen in marketing campagnes worden gericht. Raadpleeg de [specifieke documentatie](../../integrating/using/d365-acs-get-started.md) voor meer informatie over deze integratie.
 
 >[!NOTE]
 >
