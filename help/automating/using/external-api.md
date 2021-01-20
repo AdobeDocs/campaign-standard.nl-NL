@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
 source-wordcount: '2156'
 ht-degree: 98%
@@ -114,7 +114,7 @@ Als de **parsering wordt gevalideerd**, verschijnt er een bericht waarin u wordt
 
 ### Execution
 
-Op dit tabblad kunt u het eindpunt van de verbinding definiëren. Met het veld **[!UICONTROL URL]** kunt u het **HTTPS-eindpunt** definiëren waarmee data naar ACS worden verzonden.
+Op dit tabblad kunt u het eindpunt van de verbinding definiëren. Met het veld **[!UICONTROL URL]** kunt u het **HTTPS-eindpunt** definiëren waarmee gegevens naar Campagne worden verzonden.
 
 Er zijn twee soorten verificatiemethoden beschikbaar, mits vereist door het eindpunt:
 
