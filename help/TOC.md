@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken. '
 breadcrumb-title: Campaign Standard
 title: 'Campaign Standard-handleiding '
-translation-type: ht
-source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
-workflow-type: ht
-source-wordcount: '1710'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+workflow-type: tm+mt
+source-wordcount: '1728'
+ht-degree: 97%
 
 ---
 
@@ -261,14 +261,17 @@ ht-degree: 100%
       + [Uw triggers testen](integrating/using/testing-your-triggers.md)
       + [Gebruiksscenario’s voor triggers bij afbrekingsacties](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign en Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Aan de slag met de integratie van Dynamics 365](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-      + [Data beheren tussen Campagne en Dynamics 365](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-      + [Integratie aanvragen](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-      + [Adobe I/O configureren](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [De integratie van Dynamics 365 voor Campaign configureren](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [Aangepaste bronnen van Campaign en aangepaste Dynamics 365-entiteiten toewijzen](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
-      + [De integratie van Dynamics 365 gebruiken](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [Integratiebeveiligingen](integrating/using/ms-dynamics-365-integration-guardrails.md)
+      + [Aan de slag met de integratie van Microsoft Dynamics 365](integrating/using/d365-acs-get-started.md)
+      + [Best practices en beperkingen](integrating/using/d365-acs-notices-and-recommendations.md)
+      + [Microsoft Dynamics 365 configureren](integrating/using/d365-acs-configure-d365.md)
+      + [Campagne en Adobe I/O configureren](integrating/using/d365-acs-configure-adobe-io.md)
+      + Integratie-app {#configure-integration-tool} configureren
+         + [Aan de slag met de integratie-app](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
+         + [Toegang tot de integratie-app](integrating/using/d365-acs-self-service-app-control-access.md)
+         + [Systemen verbinden met de integratie-app](integrating/using/d365-acs-self-service-app-settings.md)
+         + [Synchronisatieworkflows beheren](integrating/using/d365-acs-self-service-app-workflows.md)
+         + [Gegevens toewijzen tussen Microsoft Dynamics 365 en Campagne](integrating/using/d365-acs-self-service-app-data-sync.md)
+      + [De integratie van Microsoft Dynamics 365 gebruiken](integrating/using/d365-acs-using-the-integration.md)
 + Processen en data beheren {#managing-processes-and-data}
    + [Aan de slag met data- en procesbeheer](automating/using/get-started-workflows.md)
    + Algemene werking van workflows{#workflow-general-operation}
