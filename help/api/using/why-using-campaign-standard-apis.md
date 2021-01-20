@@ -7,7 +7,7 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Waarom Campaign Standard-API&#39;s gebruiken {#why-using-campaign-standard-apis}
 
-Adobe Campaign Standard biedt API&#39;s waarmee bestaande systemen kunnen integreren met het ACS-platform om real-world problemen in real-time op te lossen.
+Adobe Campaign Standard biedt API&#39;s waarmee bestaande systemen kunnen integreren met het Campagneplatform om problemen in real-time op te lossen.
 
 Openbare websites, zoals de aanmeldings- of uitschakelpagina, moeten verbinding maken met back-endsystemen om profielgegevens op te slaan. Ondersteunende systemen zoals Adobe Campaign hebben de flexibiliteit en kracht om profielgegevens in te voeren en er aangepaste bewerkingen op uit te voeren.
 
