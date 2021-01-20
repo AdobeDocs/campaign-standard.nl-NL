@@ -7,7 +7,7 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 3%
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Interactie met aangepaste resources {#interacting-with-custom-resources}
 
-Het **/customResources** eindpunt staat u toe om de ACS douanemiddelen in REST bloot te stellen. Op basis van deze API is er een integratie tussen aangepaste entiteiten en externe eindpunten beschikbaar.
+Het **/customResources** eindpunt staat u toe om de de douanemiddelen van de Campagne in REST bloot te stellen. Op basis van deze API is er een integratie tussen aangepaste entiteiten en externe eindpunten beschikbaar.
 
 Het /customResources eindpunt heeft precies het zelfde gedrag zoals /profileAndServices eindpunt.
 
