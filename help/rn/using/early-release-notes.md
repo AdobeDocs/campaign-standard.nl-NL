@@ -9,10 +9,10 @@ topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: a1a670f32201ba6b8fa4488a5ab3dd881aece097
+source-git-commit: 26b401e18629f794ab3c1a836a28369d2f8f9605
 workflow-type: tm+mt
-source-wordcount: '2618'
-ht-degree: 4%
+source-wordcount: '2599'
+ht-degree: 3%
 
 ---
 
@@ -41,12 +41,13 @@ Op deze pagina worden nieuwe functies, verbeteringen en oplossingen beschreven d
 <tbody> 
 <tr> 
 <td>
-<p>De E-mailFeedbackDienst (EFS) is een scalable dienst die terugkoppelt van Verbeterde MTA direct vangen, zodat verbeterend rapporteringsnauwkeurigheid. Deze mogelijkheid wordt vrijgegeven als een persoonlijke bètaversie en zal in toekomstige versies geleidelijk beschikbaar zijn voor alle klanten.</p>
+<p>De E-mailfeedbackservice (EFS) is een schaalbare service die de rapportnauwkeurigheid verbetert door de e-mailfeedback rechtstreeks van de Enhanced MTA vast te leggen.</p>
 <ul>
-<li>Alle categorieën gebeurtenissen worden vastgelegd: Vertragingen, afgeleverd, verzonden, opgezegd (koppeling, lijst), feedback (spam-klachten, Async-gebeurtenissen).</li>
+<li>Alle categorieën gebeurtenissen worden vastgelegd: Vertragingen, afgeleverd, te verzenden, af te schrijven (Verbinding, Lijst), Terugkoppeling (Spam- klachten, asynchrone gebeurtenissen).</li>
 <li>De berekening van de verzonden/geleverde indicatoren is nu gebaseerd op real-time feedback van de verbeterde MTA voor verbeterde nauwkeurigheid en reactiviteit.</li>
 <li>EFS lost het probleem van synchrone grenzen meldend vertragingen op en neemt 80% van lading van het inMail proces weg.</li>
 </ul>
+<p>Deze mogelijkheid wordt vrijgegeven als een <strong>persoonlijke bèta</strong> en zal in toekomstige versies geleidelijk beschikbaar zijn voor alle klanten.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -61,7 +62,8 @@ Op deze pagina worden nieuwe functies, verbeteringen en oplossingen beschreven d
 <tbody> 
 <tr> 
 <td>
-<p>De integratie met Adobe Experience Manager is verbeterd: u kunt meertalige inhoud nu gemakkelijker importeren vanuit Adobe Experience Manager. Adobe Campaign Standard detecteert nu automatisch taalvarianten van Adobe Experience Manager-inhoud en maakt het mogelijk om grote varianten te importeren en te maken. Hierdoor wordt het aantal stappen vereenvoudigd dat een arts moet doorlopen om een meertalige campagne te maken op basis van Adobe Experience Manager-inhoud.
+<p>De integratie van de campagne met Adobe Experience Manager is verbeterd: u kunt meertalige inhoud nu gemakkelijker importeren vanuit Adobe Experience Manager. <p>
+<p>Adobe Campaign Standard detecteert nu automatisch taalvarianten van Adobe Experience Manager-inhoud en maakt het mogelijk om grote varianten te importeren en te maken. Hierdoor wordt het aantal stappen vereenvoudigd dat een arts moet doorlopen om een meertalige campagne te maken op basis van Adobe Experience Manager-inhoud.</p>
 </p>
 </td> 
 </tr> 
@@ -90,27 +92,21 @@ Op deze pagina worden nieuwe functies, verbeteringen en oplossingen beschreven d
 
 **Verbeteringen**
 
-* De integratie van de Dynamica 365 van Microsoft is verbeterd met een specifieke zelfbedienings integratie app en een verbeterd implementatieproces. [Meer informatie](../../integrating/using/d365-acs-get-started.md)
+* **De** integratie van de Dynamica 365 van Microsoft is verbeterd met een specifieke zelfbedienings integratieapp en een verbeterd implementatieproces. [Meer informatie](../../integrating/using/d365-acs-get-started.md)
 
-* Probleem verholpen waarbij leveringen zeer traag verliepen als gevolg van bepaalde processen. Dit is te wijten aan onjuiste eenheden die zijn gedefinieerd voor verschillende parameters (bijvoorbeeld milliseconden in plaats van seconden).
+* Er is een verbetering aangebracht om het oplossen van problemen bij het oplossen van problemen met het **Transactioneel overseinenproces** te vergemakkelijken. De technische beheerders van Adobe kunnen het vinden op om het even welk proces nu gebruiken zonder het opnieuw te beginnen.
 
-* Probleem verholpen waarbij de Mobile SDK een open traceringsverzoek heeft verzonden op basis van de voorwaarde dat deliveryId/MessageID niet null is. Dit zou resulteren in 404 fouten voor leveringen met tracking uitgeschakeld. Een extra variabele (acsDeliveryTracking) met informatie over het volgen status van de levering wordt nu verzonden in de lading. Deze variabele kan twee waarden in- of uitschakelen, afhankelijk van de status voor het bijhouden van de set.
+* Met de lijst **Profielen** kunt u nu zoeken naar records die op een van deze velden zijn gebaseerd: e-mail, voornaam, achternaam of aangepaste velden die zijn toegevoegd bij geavanceerd filteren tijdens het uitbreiden van de profielbron. Deze functie is ook beschikbaar in Campaign Standard API&#39;s die de parameter filterType gebruiken.
 
-* Er is een verbetering aangebracht om het oplossen van problemen bij het oplossen van problemen met het Transactionele overseinenproces te vergemakkelijken. De technische beheerders van Adobe kunnen het vinden op om het even welk proces nu gebruiken zonder het opnieuw te beginnen.
+* Een parameter is aangepast aan het aantal containers die **Transactioneel overseinen** gegevensbestand het groeperen proces in werking stellen. Hierdoor kan de belasting gelijkmatig over alle gebruikte containers worden verdeeld en worden de optimale prestaties bereikt.
 
-* In de lijst Profielen kunt u nu zoeken naar records die op een van de volgende velden zijn gebaseerd: e-mail, voornaam, achternaam of aangepaste velden die zijn toegevoegd bij geavanceerd filteren tijdens het uitbreiden van de profielbron. Deze functie is ook beschikbaar in Campaign Standard API&#39;s die de parameter filterType gebruiken.
+* Een nieuwe functie **GetOption** is nu beschikbaar in activiteiten die gebeurtenisvariabelen gebruiken na het roepen van een werkschema met externe parameters. Hiermee kunt u de waarde van een opgegeven functie retourneren.
 
-* Een parameter is aangepast aan het aantal containers die het Transactionele communicatie gegevensbestand het groeperen proces in werking stellen. Hierdoor kan de belasting gelijkmatig over alle gebruikte containers worden verdeeld en worden de optimale prestaties bereikt.
-
-* Een nieuwe functie (GetOption) is nu beschikbaar in activiteiten die gebeurtenisvariabelen gebruiken na het roepen van een werkschema met externe parameters. Hiermee kunt u de waarde van een opgegeven functie retourneren.
-
-* Er is een nieuwe technische optie toegevoegd. Hiermee kan Campaign Standard controleren of er voldoende fysiek geheugen beschikbaar is op uw systeem voordat een workflow wordt gestart. Als de hoeveelheid geheugen te laag is, wordt de uitvoering van de workflow uitgesteld totdat het systeemgeheugen deze drempel bereikt. Dit wordt gedaan om verdere verslechtering van prestaties te vermijden en het risico van een stroomonderbreking te verlichten. Probeer deze workflow opnieuw te plannen tot minder activiteit en probeer het opnieuw. De workflow wordt automatisch hervat wanneer de serverstress wordt verminderd. Deze optie is alleen-lezen en kan niet worden gewijzigd.
+* Met een nieuwe optie kan Campaign Standard tot **fysieke geheugen** op uw systeem controleren voordat een workflow wordt gestart. Als de hoeveelheid geheugen te laag is, wordt de uitvoering van de workflow uitgesteld totdat het systeemgeheugen deze drempel bereikt. Dit voorkomt verdere verslechtering van de prestaties en beperkt het risico van een stroomstoring. De workflow wordt automatisch hervat wanneer de serverstress wordt verminderd.  Als de uitvoering van de workflow wordt vertraagd, probeert u deze workflow opnieuw te plannen tot minder activiteit en probeert u het opnieuw. Deze optie is alleen-lezen en kan niet worden gewijzigd.
 
 **Overige wijzigingen**
 
 * Er is een fout gewijzigd in een waarschuwing tijdens de voorbereiding van berichten wanneer de limiet van 100 downloaduren van inhoud per roluur is bereikt. Er wordt nu een waarschuwing weergegeven wanneer de limiet is bereikt, zodat u verder kunt gaan met de levering.
-
-* Er is nu een nieuwe leveringstoewijzing (mapRtEventAppSubRcp) beschikbaar voor transactionele pushberichten die op profielen zijn getarget. De leverings-, uitsluitings- en trackinglogboeken voor deze leveringen zijn nu beschikbaar in de broadLogAppSubRcp-, excludeLogAppSubRcp- en trackingLogAppSubRcp-tabellen. Hiermee wordt een probleem opgelost waardoor leveringsanalyse mislukte bij het verzenden van een transactioneel pushbericht met gebruikmaking van de targetdimensie Profiel.
 
 * Wanneer het verrijken van een inhoud van een transactiebericht, worden de verbindingen niet meer teruggewonnen wanneer het halen van gegevens van de lijst van het Profiel, die latentie tijdens berichtvoorbereiding vermindert en lege profielgegevens vermijdt toe te schrijven aan een onjuiste verhouding die met de profiellijst wordt bepaald.
 
@@ -120,15 +116,13 @@ Op deze pagina worden nieuwe functies, verbeteringen en oplossingen beschreven d
 
 * De activiteit **Transfer file** produceert nu een extra variabele (filesCount) die het aantal geüploade of gedownloade dossiers bevat. (CAMP-45842)
 
-* De schakelaar van SMS kan veelvoudige facultatieve parameters met elk bericht nu verzenden.
+* De **sms-connector** kan nu meerdere optionele parameters verzenden met elk bericht.
 
-* Probleem verholpen waardoor gebruikers met de rol DATA MODEL geen logboekextensies voor leveringen konden publiceren. Deze bewerking is nu beschikbaar voor de rol GEGEVENSMODEL. (CAMP-46604)
-
-* Probleem verholpen in workflows die konden optreden wanneer een **deduplicatie**-activiteit die eenmaal was uitgevoerd, werd gekopieerd en waarbij een tijdelijke bron werd gebruikt. Nadat de bron van de activiteit is gedupliceerd, wordt deze automatisch ingesteld op leeg, wat leidt tot problemen in andere activiteiten van de workflow. Nadat de bron van de activiteit is geplakt, blijft de bron van de activiteit nu gelijk, zodat de fout zo snel mogelijk en niet later in de workflow wordt geactiveerd. (CAMP-46903)
+* Gebruikers met de rol DATAMODEL kunnen nu extensies voor het leveringslogboek publiceren. (CAMP-46604)
 
 * Het foutbericht dat werd weergegeven toen u een resource probeerde te publiceren die een aangepaste bron had die niet meer bestaat, is duidelijker geworden. (CAMP-46893)
 
-* De volgende talen zijn toegevoegd aan de lijst Voorkeurstaal: Indonesisch - Indonesië (in-id), Engels - Zweden (en-se), Engels - Azië Pacific (en-ap), Engels - Japan (en-jp), Spaans - Latijns-Amerika (es-la). (CAMP-46351)
+* De volgende talen zijn toegevoegd aan de lijst **Voorkeurstaal**: Indonesisch - Indonesië (in-id), Engels - Zweden (en-se), Engels - Azië Pacific (en-ap), Engels - Japan (en-jp), Spaans - Latijns-Amerika (es-la). (CAMP-46351)
 
 * De kiezer voor het selecteren van profielen tijdens het testen van een bestemmingspagina gebruikt nu de ProfileBase-bron in plaats van het profiel om time-out te voorkomen.
 
@@ -138,19 +132,23 @@ Op deze pagina worden nieuwe functies, verbeteringen en oplossingen beschreven d
 
 * Verbeterde waarschuwings- of foutberichten in leveringsvoorbereidingslogboeken.
 
-* Verbeterde foutlogboeken bij het maken van verbinding met IMS.
+* Verbeterde foutlogboeken bij poging verbinding te maken met Adobe Identity Management Service (IMS).
 
-* U kunt de afmetingen van de Aflevering en van de Campagne nu verder filtreren gebruikend de onderzoeksbar in Dynamische rapportering.
+* U kunt de afmetingen van de Aflevering en van de Campagne nu verder filtreren gebruikend de onderzoeksbar in **Dynamische rapportering**.
 
-* De transactionele datum van de berichtgeldigheid van SMS kan nu door de waarde worden bepaald die voor de vervalparameter in de Transactionele Berichten API wordt geplaatst. (CAMP-36600)
+* De transactionele datum van de berichtgeldigheid van SMS kan nu door de waarde worden bepaald die voor de vervalparameter in **Transactionele Berichten API** wordt geplaatst. (CAMP-36600)
 
 * In Dynamische rapportering, toonde het **Overzicht van de Levering** ingebouwde rapport onjuiste gegevens voor de unsubscribed tarief metrisch. Er is een nieuwe metrische waarde met de naam **Unique unsubscription** toegevoegd om dit te herstellen. (CAMP-46445)
 
 **Patches**
 
+* Probleem verholpen waarbij leveringen zeer traag verliepen als gevolg van bepaalde processen. Dit is te wijten aan onjuiste eenheden die zijn gedefinieerd voor verschillende parameters (bijvoorbeeld milliseconden in plaats van seconden).
+* Probleem verholpen in workflows die konden optreden wanneer een **deduplicatie**-activiteit die eenmaal was uitgevoerd, werd gekopieerd en waarbij een tijdelijke bron werd gebruikt. Nadat de bron van de activiteit is gedupliceerd, wordt deze automatisch ingesteld op leeg, wat leidt tot problemen in andere activiteiten van de workflow. Nadat de bron van de activiteit is geplakt, blijft de bron van de activiteit nu gelijk, zodat de fout zo snel mogelijk en niet later in de workflow wordt geactiveerd. (CAMP-46903)
+* Probleem verholpen waarbij de Mobile SDK een open traceringsverzoek heeft verzonden op basis van de voorwaarde dat deliveryID/MessageID niet null is. Dit zou resulteren in 404 fouten voor leveringen met tracking uitgeschakeld. Een extra variabele (acsDeliveryTracking) met informatie over het volgen status van de levering wordt nu verzonden in de lading. Deze variabele kan twee waarden in- of uitschakelen, afhankelijk van de status voor het bijhouden van de set.
 * Probleem verholpen waardoor leveringsrapporten niet konden worden uitgevoerd wanneer 5000 rijen werden weergegeven.
 * Probleem verholpen met A/B-tests waarbij de inhoud van variant B niet kon worden bijgewerkt nadat de leveringstemplate was gewijzigd. (CAMP-45235)
 * Oplossing van een kwestie die het Transactionele overseinenproces veroorzaakte vast te komen, verhinderend berichten worden verzonden.
+* Probleem opgelost waarbij de leveringsanalyse mislukte bij het verzenden van een transactioneel pushbericht met de profieldoeldimensie. Er is nu een nieuwe leveringstoewijzing (mapRtEventAppSubRcp) beschikbaar voor transactionele pushberichten die op profielen zijn getarget. De leverings-, uitsluitings- en trackinglogboeken voor deze leveringen zijn nu beschikbaar in de broadLogAppSubRcp-, excludeLogAppSubRcp- en trackingLogAppSubRcp-tabellen.
 * Probleem verholpen dat tot navigatieproblemen kan leiden nadat op een interne koppeling is geklikt (bijvoorbeeld wanneer de bovenliggende levering wordt geopend via een overzichtsscherm met proefdrukken).
 * Probleem verholpen waarbij alle beschikbare sjablonen voor inhoud van de Experience Manager niet konden worden weergegeven bij het maken van een levering. (CAMP-45990)
 * Probleem verholpen in workflows die kunnen voorkomen dat foutberichten worden weergegeven in de leveringslogboeken nadat de kolom **Reden** aan het tabblad Extra gegevens is toegevoegd. (CAMP-45139)
