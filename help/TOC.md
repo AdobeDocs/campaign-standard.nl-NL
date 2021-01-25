@@ -7,9 +7,9 @@ user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken,
 breadcrumb-title: Campaign Standard
 title: 'Campaign Standard-handleiding '
 translation-type: tm+mt
-source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+source-git-commit: 77fe514d4862fafcc6201d0cec9045469bb2643d
 workflow-type: tm+mt
-source-wordcount: '1728'
+source-wordcount: '1731'
 ht-degree: 97%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 97%
 + [Laatste updates](rn/using/documentation-updates.md)
 + Release-opmerkingen{#release-notes}
    + [Laatste release](rn/using/release-notes.md)
+   + [Opmerkingen bij de eerste release](rn/using/early-release-notes.md)
    + Eerdere releases {#previous-releases}
       + [Opmerkingen bij de releases in 2020](rn/using/release-notes-2020.md)
       + [Opmerkingen bij de releases in 2019](rn/using/release-notes-2019.md)
