@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: campaign-standard-releases
 hide: true
 translation-type: tm+mt
-source-git-commit: d2c35a1d5a7739fbb3b0db779cdc204809facf36
+source-git-commit: 16e353005e58ee2a997c05bdfe0f951e36a6ab06
 workflow-type: tm+mt
 source-wordcount: '2618'
 ht-degree: 4%
@@ -16,7 +16,7 @@ ht-degree: 4%
 ---
 
 
-# Laatste release{#latest-release}
+# Nieuwe release {#new-release}
 
 [Release-planning](../../rn/using/release-planning.md) |  [Configuratiescherm](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html) |  [Documentatie-updates](../../rn/using/documentation-updates.md) |  [Nieuwste releaseopmerkingen](../../rn/using/release-notes.md) |  [Verouderde functies](../../rn/using/deprecated-features.md)
 
