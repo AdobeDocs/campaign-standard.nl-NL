@@ -9,9 +9,9 @@ topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 26b401e18629f794ab3c1a836a28369d2f8f9605
+source-git-commit: 1bf35c654b9c526330a70f7647ec7d9fd87e2335
 workflow-type: tm+mt
-source-wordcount: '2599'
+source-wordcount: '2586'
 ht-degree: 3%
 
 ---
@@ -102,7 +102,8 @@ Op deze pagina worden nieuwe functies, verbeteringen en oplossingen beschreven d
 
 * Een nieuwe functie **GetOption** is nu beschikbaar in activiteiten die gebeurtenisvariabelen gebruiken na het roepen van een werkschema met externe parameters. Hiermee kunt u de waarde van een opgegeven functie retourneren.
 
-* Met een nieuwe optie kan Campaign Standard tot **fysieke geheugen** op uw systeem controleren voordat een workflow wordt gestart. Als de hoeveelheid geheugen te laag is, wordt de uitvoering van de workflow uitgesteld totdat het systeemgeheugen deze drempel bereikt. Dit voorkomt verdere verslechtering van de prestaties en beperkt het risico van een stroomstoring. De workflow wordt automatisch hervat wanneer de serverstress wordt verminderd.  Als de uitvoering van de workflow wordt vertraagd, probeert u deze workflow opnieuw te plannen tot minder activiteit en probeert u het opnieuw. Deze optie is alleen-lezen en kan niet worden gewijzigd.
+* Met een nieuwe optie kan Campaign Standard tot **fysieke geheugen** op uw systeem controleren voordat een workflow wordt gestart. Als de hoeveelheid geheugen te laag is, wordt de uitvoering van de workflow uitgesteld totdat het systeemgeheugen deze drempel bereikt. Dit voorkomt verdere verslechtering van de prestaties en beperkt het risico van een stroomstoring. De workflow wordt automatisch hervat zodra het laden op de server is mislukt en het geheugen is vergroot. Deze optie is alleen-lezen en kan niet worden gewijzigd.
+
 
 **Overige wijzigingen**
 
