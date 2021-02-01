@@ -7,7 +7,7 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 25%
@@ -29,7 +29,7 @@ Breid het Campaign Standard-datamodel uit met uw eigen velden en bronnen, en con
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-De gegevens die door Campagne worden gebruikt worden bepaald door verschillende middelen die in **vooraf bepaald gegevensmodel** worden bepaald. Het gegevensmodel toont een uit-van-de-doosSQL structuur voor een reeks marketing-verwante middelen: levering, publiek, openingspagina&#39;s, profiel, enz. Elk middel komt met bijbehorende filters, die u toestaan om door de middelen te navigeren.
+De gegevens die door Campagne worden gebruikt worden bepaald door verschillende middelen die in **vooraf bepaald gegevensmodel** worden bepaald. Het gegevensmodel toont een uit-van-de-doosSQL structuur voor een reeks marketing-verwante middelen: levering, publiek, openingspagina&#39;s, profiel, enz. Elke bron wordt geleverd met gekoppelde filters, zodat u door de bronnen kunt navigeren.
 
 Met het menu **Diagnose** kunt u de technische objecten weergeven die door Campaign Standard worden gegenereerd: gegevensschema&#39;s, webpagina&#39;s, filters, enz., waarmee u het gegevensmodel en eventuele wijzigingen kunt controleren.
 
