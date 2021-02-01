@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 85%
+source-wordcount: '513'
+ht-degree: 83%
 
 ---
 
@@ -23,7 +23,7 @@ Om dit mogelijk te maken, legt Adobe Campaign de weergave vast en stelt deze bes
 
 De clients voor mobiele apparaten, berichten en webmail die beschikbaar zijn voor **e-mailweergave** in Adobe Campaign, worden vermeld op de Litmus-[website](https://litmus.com/email-testing) (klik op **View all email clients**).
 
-## Het rapport E-mailweergave controleren {#checking-the-email-rendering-report}
+## E-mailrendering genereren {#checking-the-email-rendering-report}
 
 Voer onderstaande stappen uit als u de e-maillevering hebt gemaakt en de content en de doelpopulatie ervan hebt bepaald.
 
@@ -66,20 +66,21 @@ Het speciale rapport voor het weergeven van e-mail wordt getoond. Zie [Beschrijv
 * [Proeven verzenden](../../sending/using/sending-proofs.md)
 * [Query-editor](../../automating/using/editing-queries.md#about-query-editor)
 
-## Beschrijving van rapport voor e-mailweergave {#email-rendering-report-description}
+## E-mailrenderrapport {#email-rendering-report-description}
 
 In dit rapport ziet u de e-mailweergave zoals de ontvanger deze te zien krijgt. E-mailweergaven kunnen verschillen, afhankelijk van de manier waarop de ontvanger de e-maillevering opent: in een browser, op een mobiel apparaat of via een e-mailapplicatie.
 
->[!NOTE]
->
->Het aantal beschikbare weergaven vindt u terug in uw licentieovereenkomst. Bij elke levering waarvoor **Email rendering** is ingeschakeld, neemt uw aantal beschikbare weergaven (ook wel tokens genoemd) af met één.
->
->Tokens maken voor elke afzonderlijke rendering en niet voor het hele e-mailrenderrapport. Dit houdt in dat:
->
->**Elke** keer dat het Inbox-renderingrapport wordt gegenereerd, wordt één token per messaging-client afgetrokken: één token voor de rendering van Outlook 2000, één token voor de rendering van Outlook, één token voor de rendering van Apple Mail, enzovoort.
->
->**Als u voor dezelfde levering** de rendering via e-mail opnieuw genereert, wordt het aantal beschikbare tokens opnieuw verminderd met het aantal gegenereerde renderingen.
+### E-mailrenderingtokens
 
+Het aantal beschikbare weergaven vindt u terug in uw licentieovereenkomst. Bij elke levering waarvoor **Email rendering** is ingeschakeld, neemt uw aantal beschikbare weergaven (ook wel tokens genoemd) af met één.
+
+Tokens maken voor elke afzonderlijke rendering en niet voor het hele e-mailrenderrapport. Dit houdt in dat:
+
+* **Elke** keer dat het rapport E-mail renderen wordt gegenereerd, wordt één token per berichtclient afgetrokken: één token voor de rendering van Outlook 2000, één token voor de rendering van Outlook, één token voor de rendering van Apple Mail, enzovoort.
+
+* **Als u voor dezelfde levering** de rendering via e-mail opnieuw genereert, wordt het aantal beschikbare tokens opnieuw verminderd met het aantal gegenereerde renderingen.
+
+### Overzicht van rapport
 
 Het rapportoverzicht toont het aantal ontvangen berichten, ongewenste berichten (spam), niet ontvangen berichten of berichten die nog niet zijn bezorgd.
 
