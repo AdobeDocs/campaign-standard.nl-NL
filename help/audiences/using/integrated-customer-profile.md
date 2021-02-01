@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 48%
 
 ---
 
@@ -22,18 +22,32 @@ Er is een geïntegreerd klantprofiel beschikbaar voor elke contactpersoon van uw
 
 Voer de volgende stappen uit om toegang te krijgen tot het geïntegreerde klantprofiel:
 
-1. Klik op de Adobe Campaign-startpagina op de kaart **[!UICONTROL Customer profiles]** of het tabblad **Profiles**.
-1. Selecteer een contactpersoon.
+1. Klik op de startpagina van Adobe Campaign op de **[!UICONTROL Customer profiles]**-kaart of op het tabblad **Profielen** om de lijst met profielen weer te geven.
+
+1. Als u een profiel wilt zoeken dat is gebaseerd op een specifiek veld, opent u het zoekvenster en selecteert u het veld waarop u de zoekopdracht wilt uitvoeren.
+
+
+   ![](assets/profile-search.png)
+
+1. Geef de waarde op die u wilt zoeken en druk op Enter.
+
+   >[!NOTE]
+   >
+   >U kunt zoekopdrachten uitvoeren op basis van de velden voor e-mail, voornaam en achternaam en aangepaste velden die zijn toegevoegd bij het uitbreiden van de bron.
+   >
+   >Zoekopdrachten zijn hoofdlettergevoelig en worden alleen op voorvoegsels uitgevoerd. U kunt bijvoorbeeld niet zoeken naar een profiel met de laatste letters van zijn achternaam.
+
+1. Selecteer een contactpersoon om het bijbehorende profiel te openen.
 
    ![](assets/mkt_hist_access.png)
 
 U hebt nu toegang tot de **marketinghistorie** van deze contactpersoon.
 
-![](assets/mkt_hist_view.png)
-
 De belangrijkste informatie over het profiel, evenals de lijst met gebeurtenissen, wordt verzameld op deze pagina.
 
-Klik op een gebeurtenis in de lijst om deze te openen: u hebt toegang tot het bericht dat is verzonden of de service waarop het profiel geabonneerd is.
+Klik op een gebeurtenis in de lijst om deze te openen: u hebt toegang tot de berichten die zijn verzonden of tot de services waarop het profiel is geabonneerd.
+
+![](assets/mkt_hist_view.png)
 
 >[!NOTE]
 >
