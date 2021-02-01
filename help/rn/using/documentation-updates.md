@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+source-git-commit: a039818cb5d4169ae921df39e9ea9bc9230fceb0
 workflow-type: tm+mt
-source-wordcount: '6372'
-ht-degree: 100%
+source-wordcount: '6511'
+ht-degree: 98%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 100%
 # Documentatie-updates{#documentation-updates}
 
 Naast de [release-opmerkingen](../../rn/using/release-notes.md) bij Adobe Campaign worden op deze pagina alle nieuwe updates in de documentatie van Adobe Campaign Standard weergegeven.
+
+## Release 21.1 - februari 2021 {#release-21-1---february-2021}
+
+**Nieuwe mogelijkheden die in de release zijn opgenomen**
+
+E-mailfeedbackservice - [Meer informatie](../../sending/using/confirming-the-send.md#email-feedback-service)
+
+Verbeteringen voor Adobe Experience Manager-integratie - [Meer informatie](../../integrating/using/creating-multilingual-email-aem.md)
+
+Unified Experience Cloud interface - [Meer informatie](../../start/using/interface-description.md#top-bar)
+
+**Overige documentatie-updates die bij de release worden geleverd**
+
+Er is informatie toegevoegd over het zoeken naar een profiel op basis van de e-mail, voornaam, achternaam of een aangepast veld. [Meer informatie](../../audiences/using/integrated-customer-profile.md)
+
+Er is informatie toegevoegd aan de nieuwe functie GetOption, waarmee u de waarde van een opgegeven functie kunt retourneren wanneer u een workflow met externe parameters aanroept. [Meer informatie](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+
+Er is informatie toegevoegd over de nieuwe uitvoervariabele **[!UICONTROL filesCount]** die beschikbaar is na het gebruik van een **[!UICONTROL Transfer file]**-activiteit. [Meer informatie](../../automating/using/transfer-file.md#output-variables)
+
+De sectie **Het configureren van e-mailkanaal** is bijgewerkt om te verduidelijken wat de meest recente toepasselijke e-mailinstellingen zijn. Enkele oudere parameters die nog worden gebruikt voor bepaalde klanten, worden onder aan deze pagina weergegeven. [Meer informatie](../../administration/using/configuring-email-channel.md)
 
 ## December 2020 {#doc-updates-december-2020}
 
