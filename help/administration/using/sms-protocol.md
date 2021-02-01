@@ -1,21 +1,21 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Protocol en instellingen voor SMS-aansluiting
+title: Protocol en instellingen voor sms-connector
 description: Leer meer op de schakelaar van SMS en hoe te om het te vormen.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 458517259c6668e08a25f8c3cd3f193f27e536fb
+source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
 workflow-type: tm+mt
-source-wordcount: '8382'
+source-wordcount: '8666'
 ht-degree: 0%
 
 ---
 
 
-# Protocol en instellingen voor SMS-aansluiting {#sms-connector-protocol}
+# Protocol en instellingen voor sms-connector {#sms-connector-protocol}
 
 >[!NOTE]
 >
@@ -356,7 +356,7 @@ De maximumgrootte van een bericht hangt van zijn codering af. In deze tabel word
 | Codering | Gebruikelijke gegevens_codering | Berichtgrootte (tekens) | Onderdeelformaat voor SMS met meerdere onderdelen | Beschikbare tekens |
 |:-:|:-:|:-:|:-:|:-:|
 | GSM7 | 0 | 160 | 152 | GSM7 basis tekenset + extensie (uitgebreide tekens nemen 2 tekens in beslag) |
-| Latin-1 | 3 | 140 | 134 | ISO-8859-1 |
+| Latin-1 | 1 | 140 | 134 | ISO-8859-1 |
 | UCS-2 <br>UTF-16 | 8 | 70 | 67 | Unicode (verschilt per telefoon) |
 
 ## SMPP-parameters voor externe account {#SMPP-parameters-external}
@@ -521,7 +521,7 @@ Om de totale productielimiet te kennen, vermenigvuldig dit aantal met het totale
 
 0 betekent geen limiet, de MTA zal MT zo snel mogelijk verzenden.
 
-Over het algemeen wordt aanbevolen deze instelling onder de 1000 te houden, aangezien het onmogelijk is een exacte doorvoer boven dit aantal te garanderen, tenzij deze op de uiteindelijke architectuur is gebaseerd en specifiek om een SMPP-leverancier is verzocht. Het kan beter zijn om het aantal verbindingen te verhogen om boven 1000 MT/s te gaan.
+Het wordt over het algemeen aanbevolen deze instelling onder de 1000 te houden, aangezien het onmogelijk is een exacte doorvoer boven dit aantal te garanderen, tenzij deze op de uiteindelijke architectuur is gebaseerd. Neem contact op met uw provider als u een doorvoer van meer dan 1000 nodig hebt. Het kan beter zijn om het aantal verbindingen te verhogen om boven 1000 MT/s te gaan.
 
 #### Tijd voor opnieuw verbinden {#time-reconnection}
 
@@ -698,6 +698,10 @@ Hiermee kunt u een aangepast TLV-bestand toevoegen. In dit veld wordt het tagged
 
 Met deze instelling kunt u slechts één TLV-optie per bericht toevoegen.
 
+>[!NOTE]
+>
+>Vanaf de release 21.1 is het nu mogelijk meer dan één optionele parameter toe te voegen. Raadpleeg deze [sectie](../../administration/using/sms-protocol.md#automatic-reply-tlv) voor meer informatie.
+
 ### Automatisch antwoord verzonden naar het MO-bericht {#automatic-reply}
 
 Met deze functie kunt u snel tekst op de MO beantwoorden en per korte code naar de lijst van afgewezen personen verzenden.
@@ -715,6 +719,12 @@ De **Aanvullende actie** kolom verstrekt een extra actie wanneer zowel **Trefwoo
 >De instelling voor het verzenden van het volledige telefoonnummer heeft invloed op het gedrag van het quarantainemechanisme voor automatische antwoorden: als het verzenden van het volledige telefoonaantal niet wordt gecontroleerd, zal het telefoonaantal dat in quarantaine wordt geplaatst door een plusteken (&quot;+&quot;) worden vooraf bepaald om het met het internationale formaat van het telefoonaantal compatibel te maken.
 
 Alle items in de tabel worden in de opgegeven volgorde verwerkt, totdat één regel overeenkomt. Als de veelvoudige regels een MO aanpassen, slechts zal de hoogste regel worden toegepast.
+
+### Optionele parameters voor automatisch antwoord (TLV) {#automatic-reply-tlv}
+
+Vanaf release 21.1 kunt u optionele parameters toevoegen aan automatische reactie MT. Ze worden als optionele TLV-parameters toegevoegd aan de `SUBMIT_SM PDU` van de reactie, zoals beschreven in sectie 5.3 van de [SMPP-specificatie](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(pagina 131).
+
+Voor meer informatie over facultatieve parameters, verwijs naar dit [sectie](../../administration/using/sms-protocol.md#smpp-optional-parameters).
 
 ## Sjabloonparameters voor SMS-verzending {#sms-delivery-template-parameters}
 
@@ -754,7 +764,19 @@ Deze instelling wordt verzonden in het optionele veld `dest_addr_subunit` in `SU
 
 #### Geldigheidsperiode {#validity-period}
 
-De geldigheidsperiode wordt doorgegeven in het veld `validity_period` van `SUBMIT_SM PDU`. De datum wordt altijd opgemaakt als een absolute UTC-tijdnotatie. Het datumveld eindigt met &quot;00+&quot;.
+De geldigheidsperiode wordt doorgegeven in het veld `validity_period` van `SUBMIT_SM PDU`. De datum wordt altijd opgemaakt als een absolute UTC-tijdnotatie (het datumveld eindigt met &quot;00+&quot;).
+
+#### Optionele SMPP-parameters (TLV) {#smpp-optional-parameters}
+
+Vanaf versie 21.1 kunt u meerdere optionele parameters toevoegen aan elke MT die voor deze levering wordt verzonden. Deze optionele parameters worden toegevoegd aan de `SUBMIT_SM PDU` van de reactie, zoals beschreven in sectie 5.3 van de [SMPP-specificatie](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)(pagina 131).
+
+Elke rij in de tabel vertegenwoordigt een optionele parameter:
+
+* **Parameter**: Beschrijving van de parameter. Niet verzonden naar de provider.
+* **Tag-id**: Tag van de optionele parameter. Moet geldig hexadecimaal zijn, gebruikend formaat 0x1234. Ongeldige waarden leiden tot een voorbereidingsfout voor de levering.
+* **Waarde**: Waarde van het optionele veld. Gecodeerd als UTF-8 wanneer het aan de leverancier wordt overgebracht. Coderingsindeling kan niet worden gewijzigd, het is niet mogelijk binaire waarden te verzenden of verschillende coderingen te gebruiken, zoals UTF-16 of GSM7.
+
+Als een optionele parameter dezelfde **Tag-id** heeft als de **Service-tag-id** die in de externe account is gedefinieerd, heeft de waarde die in deze tabel is gedefinieerd, voorrang.
 
 ## SMPP-aansluiting {#ACS-SMPP-connector}
 
@@ -799,7 +821,9 @@ Deze checklist bevat een lijst met dingen die u moet controleren voordat u live 
 
 Controleer of je geen oude externe SMS-accounts hebt. Als u de testaccount uitschakelt, loopt u het risico dat deze weer wordt ingeschakeld in het productiesysteem en dat er potentiële conflicten ontstaan.
 
-Als u meerdere accounts op dezelfde Adobe Campaign-instantie hebt die verbinding maken met dezelfde provider, neemt u contact op met de provider om ervoor te zorgen dat ze daadwerkelijk een onderscheid maken tussen deze accounts. Voor meerdere accounts met dezelfde aanmelding is een extra configuratie vereist.
+Controleer of er geen andere instantie verbinding maakt met dit account. Controleer met name of de werkgebiedomgeving geen verbinding maakt met de account. Sommige providers ondersteunen dit, maar hiervoor is een zeer specifieke configuratie nodig, zowel aan Adobe Campaign als op het platform van de provider.
+
+Als u meerdere accounts op dezelfde Adobe Campaign-instantie nodig hebt die verbinding maken met dezelfde provider, neemt u contact op met de provider om ervoor te zorgen dat er een onderscheid wordt gemaakt tussen deze accounts. Voor meerdere accounts met dezelfde aanmelding is een extra configuratie vereist.
 
 ### Brede SMPP-sporen inschakelen tijdens controles {#enable-verbose}
 
