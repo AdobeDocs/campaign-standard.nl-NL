@@ -6,10 +6,10 @@ title: Adobe Campaign Standard-productdocumentatie
 description: Bladeren door de Campaign Standard-productdocumentatie
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 540d14231cb08fa86067be9223160ae6cc4eefda
+source-git-commit: 658e1916e39cb3deec15a87891d07e3e9172dc78
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 95%
+source-wordcount: '233'
+ht-degree: 94%
 
 ---
 
@@ -23,8 +23,6 @@ ht-degree: 95%
 * **[Campagne van 21.1 februari wordt live uitgezonden!](rn/using/release-notes.md)**<br/> Ontdek nieuwe functies, nieuwste updates en oplossingen
 
 * **[Onjuiste hard bounces bijwerken](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Leren hoe u onjuiste hard bounces kunt bijwerken na Gmail-uitval
-
-* **[Releaseplanning](rn/using/release-planning.md)**<br/> Aan de releaseplanning zijn releasedatums voor februari 2021 toegevoegd
 
 * **[Controlegroepen](sending/using/control-group.md)**<br/>
 De invloed van uw campagnes meten door een deel van hun doelgroep uit te sluiten
