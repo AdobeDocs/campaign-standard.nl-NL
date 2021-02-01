@@ -7,7 +7,7 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 translation-type: tm+mt
-source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 98%
@@ -29,7 +29,7 @@ Adobe Campaign Standard biedt twee nieuwe modellen voor machine learning: **opti
 
 * **Voorspellende betrokkenheidsscore**: Met de voorspellende betrokkenheidsscore wordt voorspeld hoe waarschijnlijk het is dat een ontvanger iets doet met een bericht evenals de kans dat de klant zich binnen 7 dagen na de volgende e-mailverzending afmeldt. De waarschijnlijkheden worden verder onderverdeeld in buckets op basis van het specifieke risico van terugtrekking, middelgroot of laag. Op deze manier geeft het model ook het risicopercentiel aan voor de klanten om te begrijpen welke positie een bepaalde klant inneemt ten opzichte van andere klanten.
 
->[!CAUTION]
+>[!IMPORTANT]
 >Deze mogelijkheid is niet rechtstreeks beschikbaar als onderdeel van het product. Voor de implementatie moet Adobe Consulting worden ingeschakeld. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie.
 >
 >De functie vereist het gebruik van een Azure- of Amazon S3-opslag die door de klant moet worden geleverd.
