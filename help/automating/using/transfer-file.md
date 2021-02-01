@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 99%
+source-wordcount: '1095'
+ht-degree: 92%
 
 ---
 
@@ -135,13 +135,15 @@ Metatekens of jokertekens (bijvoorbeeld * of ?) kunnen worden gebruikt om bestan
 Kies **[!UICONTROL Define a file path]** of **[!UICONTROL Use a dynamic file path]**.
 Met de optie **[!UICONTROL Use a dynamic file path]** kunt u een standaardexpressie en gebeurtenisvariabelen gebruiken om de naam van het over te dragen bestand te personaliseren. Raadpleeg [deze pagina](../../automating/using/customizing-workflow-external-parameters.md) voor meer informatie.
 
-Houd er rekening mee dat het pad relatief moet zijn ten opzichte van de map met de opslagruimte van de Adobe Campaign-server. De bestanden bevinden zich in de map **sftp&lt;yourinstancename>/**. U kunt ook niet door de mappen boven de opslagruimte bladeren. Bijvoorbeeld:
+Houd er rekening mee dat het pad relatief moet zijn ten opzichte van de map met de opslagruimte van de Adobe Campaign-server. De bestanden bevinden zich in de map **sftp&lt;yourinstancename>/**. U kunt ook niet door de mappen boven de opslagruimte bladeren.
 
-    >**user&amp;lt;yourinstancename>/my_recipients.csv** is correct.
-    >
-    >**../hello/my_recipients.csv** is onjuist.
-    >
-    >**//myserver/hello/myrecipients.csv** is onjuist.
+Bijvoorbeeld:
+
+`user&lt;yourinstancename>/my_recipients.csv` is correct.
+
+`../hello/my_recipients.csv` is onjuist.
+
+`//myserver/hello/myrecipients.csv` is onjuist.
 
 ## Instellingen genereren van historische data {#historization-settings}
 
@@ -160,3 +162,16 @@ Telkens wanneer de activiteit wordt uitgevoerd, wordt de map als volgt gecontrol
 >[!NOTE]
 >
 >Als de activiteit niet opnieuw wordt uitgevoerd, wordt de map niet gecontroleerd en ook niet leeggemaakt. Houd hier rekening mee bij het overdragen van grote bestanden.
+
+## Uitvoervariabelen {#output-variables}
+
+De **[!UICONTROL Transfer file]** activiteit produceert gebeurtenisvariabelen als output, die u in andere activiteiten kunt hefboomwerking, bijvoorbeeld om het aantal gedownloade dossiers te controleren gebruikend een [Test](../../automating/using/test.md) activiteit.
+
+Gebeurtenisvariabelen kunnen ook worden doorgegeven aan een andere workflow met behulp van een extern signaal (zie [Een workflow aanpassen met externe parameters](../../automating/using/customizing-workflow-external-parameters.md)).
+
+Beschikbare uitvoervariabelen zijn:
+
+* **[!UICONTROL fileName]**: naam van de overgedragen bestanden.
+* **[!UICONTROL filesCount]**: aantal overgedragen bestanden.
+
+
