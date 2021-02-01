@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 3a4e8628b916291244d142d9cc4a6a84b799502b
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Ga als volgt te werk om het XDM-schema bij te werken:
 
 1. Navigeer naar uw XDM-schema.
 
-1. Voeg de mix ‘Provile Privacy’ toe aan het schema.
+1. Voeg de **[!UICONTROL Profile Privacy]** mix aan het schema toe.
 
    ![](assets/aep_datamapping_privacyfield.png)
 
