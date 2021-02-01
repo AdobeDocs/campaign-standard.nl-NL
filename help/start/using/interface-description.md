@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 64eb4fd9bf50cf4a4fb16c1bf8ee29f3f2f583c2
+source-git-commit: c981bd524400e49929d9557aab730ce1ec615551
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 81%
+source-wordcount: '1257'
+ht-degree: 80%
 
 ---
 
@@ -64,11 +64,11 @@ De navigatieprincipes:
 
 ### Help {#help}
 
-Het **Help** pictogram brengt Adobe Experience League in het product.
+In de rechterbovenhoek brengt het pictogram **Help** Adobe Experience League in het product.
 
 ![](assets/ux_help.png)
 
-* **[!UICONTROL Search]** veld: zoekresultaten zijn onder andere documentatie en Help-artikelen , resultaten van communityforums en meer video-inhoud , waardoor u gemakkelijker toegang hebt tot meer inhoud om optimaal gebruik te maken van de toepassing .
+Gebruik het veld **[!UICONTROL Search]** voor hulp. Zoekresultaten zijn onder andere documentatie en Help-artikelen, resultaten van communityforums en video-inhoud, waardoor u gemakkelijker toegang hebt tot meer inhoud om optimaal gebruik te maken van de toepassing.
 
 Met drie tabbladen kunt u hulp en hulp zoeken:
 
