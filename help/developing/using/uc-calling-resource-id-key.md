@@ -4,7 +4,7 @@ product: campaign
 title: Een resource aanroepen met een samengestelde identificatiesleutel
 description: Leer hoe u een bron aanroept met een samengestelde id-toets
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 7%
@@ -37,7 +37,7 @@ Verwante onderwerpen:
 
 1. Voordat u de identificatiesleutel configureert, moet u controleren of de bron is uitgebreid met de gewenste velden en of deze is gepubliceerd. Raadpleeg [deze sectie](../../developing/using/creating-or-extending-the-resource.md) voor meer informatie.
 
-1. Ga naar **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** menu, dan open **[!UICONTROL Profile]** middel.
+1. Ga naar **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Custom resources]** menu, dan open **[!UICONTROL Profile]** middel.
 
    ![](assets/uc_idkey1.png)
 
