@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: 32aba66dd8987414cf90df1e7bfb9c419c5f68ff
+source-git-commit: becaf20fefb6fce05db0824baa69670f810966dc
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 85%
+source-wordcount: '734'
+ht-degree: 80%
 
 ---
 
@@ -62,8 +62,9 @@ Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikma
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Vanaf release 20.1 is SDK v4 afgeschaft. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Meer informatie</a>.</p><br/>
-   <p>De <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (vroeger v5 genoemd) ondersteunt uitsluitend nieuwe Adobe Experience Cloud-functies.</p></br>
+   <td> <p> Vanaf de release van Campagne 20.1 is SDK v4 afgekeurd. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Meer informatie</a>.</p><br/>
+   <p>De <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (vroeger v5 genoemd) ondersteunt uitsluitend nieuwe Adobe Experience Cloud-functies.</p>
+   <p>Leer hoe u op deze pagina </a> van SDK v4 naar Adobe Experience Platform Mobile SDK kunt migreren.<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html"></a></p></br>
      <p>
      <em>Doeldatum verwijdering: 31 augustus 2021</em></p>
      </td> 
@@ -112,7 +113,7 @@ Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikma
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Vanaf release 18.7 zijn geografische eenheden afgeschaft. Organisatie-eenheden en geografische eenheden zijn in Campaign identieke constructies. Gebruikers moeten uitsluitend organisatie-eenheden gebruiken om hun gebruikerstoestemming/gegevenstoegangshiërarchie samen te stellen. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=nl#administrating">Meer informatie</a>. Houd er rekening mee dat vanaf release 18.7 deze functie niet meer kan worden geïmplementeerd voor nieuwe Campaign Standard-instanties of voor bestaande instanties waarin geen geografische eenheden zijn gemaakt.</p>
+   <td> <p>Vanaf de startversie van Campagne 18.7 zijn geografische eenheden afgekeurd. Organisatie-eenheden en geografische eenheden zijn in Campaign identieke constructies. Gebruikers moeten uitsluitend organisatie-eenheden gebruiken om hun gebruikerstoestemming/gegevenstoegangshiërarchie samen te stellen. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=nl#administrating">Meer informatie</a>. Houd er rekening mee dat vanaf release 18.7 deze functie niet meer kan worden geïmplementeerd voor nieuwe Campaign Standard-instanties of voor bestaande instanties waarin geen geografische eenheden zijn gemaakt.</p>
    </td> 
   </tr> 
  </tbody> 
