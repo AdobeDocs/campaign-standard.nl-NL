@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 05b6a9caebdd65f20357070af8bd44cb8ba146c7
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -63,6 +63,7 @@ Wanneer het gebruiken van een variabele in een activiteit, verstrekt de interfac
    | DateFormat | Maakt een datum op in de notatie die is opgegeven in de tweede parameter (voorbeeld:  &#39;%4Y%2M%2D&#39;) | DateFormat(&lt;Date>,&lt;Format>) |
    | FileName | Retourneert de naam van een bestandspad. | FileName(&lt;String>) |
    | FileExt | Retourneert de extensie van een bestandspad. | FileExt(&lt;String>) |
+   | GetOption | Retourneert de waarde van de opgegeven functie. | GetOption(&lt;optionName> |
    | IsNull | Geeft aan of een tekenreeks of datum null is. | IsNull(&lt;String/date>) |
    | UrlUtf8Encode | Codeert een URL in UTF8. | UrlUtf8Encode(&lt;String>) |
 
