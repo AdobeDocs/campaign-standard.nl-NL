@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 46bcdeec3731a7da12997cb195195fecfa2f84e5
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 81%
+source-wordcount: '1256'
+ht-degree: 70%
 
 ---
 
@@ -76,20 +76,23 @@ De mogelijke redenen van een leveringsfout zijn:
 
 Als een bericht mislukt wegens een tijdelijke fout van het type **Ignored**, zullen nieuwe pogingen worden uitgevoerd tijdens de leveringsduur. Raadpleeg [Typen leveringsfouten en redenen](#delivery-failure-types-and-reasons) voor meer informatie over de typen fouten.
 
-Het aantal nieuwe pogingen (hoeveel nieuwe pogingen moeten worden uitgevoerd de dag nadat het verzenden is begonnen) en de minimumvertraging tussen nieuwe pogingen worden nu beheerd door de Enhanced MTA van Adobe Campaign, gebaseerd op hoe goed een IP zowel in het heden als in het verleden presteert op een bepaald domein. De instellingen voor **Retries** in Campaign worden genegeerd.
-Houd er rekening mee dat Adobe Campaign Enhanced MTA niet beschikbaar is voor het pushkanaal.
+Het aantal pogingen (hoeveel opnieuw zou moeten worden uitgevoerd de dag nadat verzenden is begonnen) en de minimumvertraging tussen opnieuw probeert is nu<!--managed by the Adobe Campaign Enhanced MTA,--> gebaseerd op hoe goed IP zowel historisch als momenteel bij een bepaald domein uitvoert. De instellingen voor **Retries** in Campaign worden genegeerd.
+
+<!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
 Om de duur van een levering te wijzigen, gaat u naar de geavanceerde parameters van de levering of de leveringssjabloon en bewerkt u het veld **[!UICONTROL Delivery duration]** in de sectie [Validity period](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
 >[!IMPORTANT]
 >
->**De parameter **[!UICONTROL Delivery duration]**in uw Campaign-leveringen wordt nu alleen gebruikt als deze is ingesteld op 3,5 dagen of minder.** Als u een waarde definieert die hoger is dan 3,5 dagen, wordt er geen rekening mee gehouden omdat deze waarde nu wordt beheerd door de Enhanced MTA van Adobe Campaign.
+>**De parameter **[!UICONTROL Delivery duration]**in uw Campaign-leveringen wordt nu alleen gebruikt als deze is ingesteld op 3,5 dagen of minder.** Als u een waarde definieert die hoger is dan 3,5 dagen, wordt hiermee geen rekening gehouden.
 
-Als u bijvoorbeeld wilt dat nieuwe pogingen voor een levering na één dag worden gestaakt, kunt u de leveringsduur instellen op **1d**, en de Enhanced MTA zal deze instelling respecteren door berichten in de wachtrij voor nieuwe pogingen na één dag te verwijderen.
+Als u bijvoorbeeld opnieuw wilt proberen om een levering na één dag te stoppen, kunt u de leveringsduur instellen op **1d** en worden de berichten in de wachtrij na één dag verwijderd.
+
+<!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
 
 >[!NOTE]
 >
->Wanneer een bericht gedurende 3,5 dagen in de wachtrij van de Enhanced MTA heeft gestaan en niet is geleverd, treedt er een time-out op en zal de status van het bericht worden bijgewerkt van **[!UICONTROL Sent]** naar **[!UICONTROL Failed]** in de [leveringslogboeken](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+>Als een bericht maximaal 3,5 dagen in de wachtrij voor opnieuw proberen is geweest en niet is geleverd, wordt de time-out van het bericht vergroot en wordt de status ervan bijgewerkt<!--from **[!UICONTROL Sent]**--> tot **[!UICONTROL Failed]** in de [leveringslogs](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
 <!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
@@ -102,13 +105,13 @@ Een levering kan onmiddellijk mislukken (synchrone fout), of later nadat het is 
 
 ## Kwalificatie van niet-bezorgde e-mails {#bounce-mail-qualification}
 
-Voor foutberichten over synchrone leveringsfouten bepaalt de Enhanced MTA het type en de kwalificatie van de niet-bezorging en stuurt deze informatie terug naar Campaign.
-
-Asynchrone niet-bezorgingen worden nog steeds gekwalificeerd door het inMail-proces aan de hand van de regels voor **[!UICONTROL Inbound email]**. U opent deze regels door te klikken op het logo **[!UICONTROL Adobe Campaign]** in de linkerbovenhoek en achtereenvolgens **[!UICONTROL Administration > Channels > Email > Email processing rules]** en **[!UICONTROL Bounce mails]** te selecteren. Raadpleeg deze [sectie](../../administration/using/configuring-email-channel.md#email-processing-rules) voor meer informatie over deze regel.
+Voor de synchrone foutenmeldingen van de leveringsmislukking, bepaalt Adobe Campaign Verbeterde MTA (de Agent van de Overdracht van het Bericht) het stuittype en de kwalificatie, en stuurt die informatie terug naar Campagne.
 
 >[!NOTE]
 >
->De kwalificatie van niet-bezorgde e-mails wordt nu beheerd door de Enhanced MTA van Adobe Campaign. De kwalificaties voor niet-bezorging in de tabel **[!UICONTROL Message qualification]** van Campaign worden niet meer gebruikt.
+>De kwalificaties voor niet-bezorging in de tabel **[!UICONTROL Message qualification]** van Campaign worden niet meer gebruikt.
+
+Asynchrone niet-bezorgingen worden nog steeds gekwalificeerd door het inMail-proces aan de hand van de regels voor **[!UICONTROL Inbound email]**. U opent deze regels door te klikken op het logo **[!UICONTROL Adobe Campaign]** in de linkerbovenhoek en achtereenvolgens **[!UICONTROL Administration > Channels > Email > Email processing rules]** en **[!UICONTROL Bounce mails]** te selecteren. Raadpleeg deze [sectie](../../administration/using/configuring-email-channel.md#email-processing-rules) voor meer informatie over deze regel.
 
 <!--Bounces can have the following qualification statuses:
 
@@ -120,7 +123,7 @@ To list the various bounces and their associated error types et reasons, click t
 
 ![](assets/qualification.png)-->
 
-## De leverbaarheid van e-mails optimaliseren met het dubbele opt-inmechanisme {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
+## E-mailleverbaarheid optimaliseren met dubbele aanmeldingsprocedure {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 
 Het dubbele opt-inmechanisme is een best practice voor de verzending van e-mails. Het beveiligt het platform tegen onjuiste of ongeldige e-mailadressen en spambots en voorkomt mogelijke spamklachten.
 
