@@ -5,7 +5,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 2%
@@ -23,7 +23,7 @@ Met het scherm **[!UICONTROL Settings]** kunt u de referenties voor Microsoft Dy
 
 De Dynamica 365 van Microsoft Referentials geeft de toestemming van de integratietoepassing om uw gegevens van de Dynamica 365 van Microsoft te trekken.  U moet eerst de stappen op het scherm [Vorm de Dynamica 365 van Microsoft voor de integratie van de Campagne ](../../integrating/using/d365-acs-configure-d365.md) om de waarden te produceren die in dit scherm zullen worden gekleefd. De hieronder beschreven ingangen verwijzen naar dit scherm.
 
-![](assets/d365-to-acs-ui-page-workflows-settings-d365.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
 * **[!UICONTROL Client ID]**: Leer hoe u in  [deze sectie kunt verwijzen naar uw client-id](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)
 
@@ -39,7 +39,7 @@ De Adobe Campaign-referenties worden gegenereerd met [Adobe I/O](https://www.ado
 
 In de volgende afbeelding wordt de toewijzing tussen Adobe I/O en de invoer van het instellingenscherm uitgebreid uitgelegd.
 
-![](assets/d365-to-acs-ui-page-workflows-settings-adobeio.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
 * *Persoonlijke sleutel*: het proces om dit te bepalen begint door &quot;te klikken produceert openbare/privé sleutelpaar&quot;knoop. Hiermee maakt u een ZIP-bestand dat u moet downloaden. Als u het bestand hebt gedownload, decomprimeert u het bestand. Dit resulteert in twee bestanden met de naam certificate_pub.crt en private.key. Zorg ervoor dat u private.key op een veilige plaats plaatst en deze niet deelt. Open het bestand private.key in een teksteditor. Kopieer de gehele waarde in de teksteditor (ctrl-A en ctrl-C op een pc, of cmd-A en vervolgens cmd-C op een Mac). Dit moet de regels omvatten met &quot;BEGIN PRIVATE KEY&quot; en &quot;END PRIVATE KEY&quot; in hun geheel. Plak deze volledige tekst met meerdere regels in de invoer Persoonlijke sleutel in het scherm Instellingen.
 
@@ -58,7 +58,7 @@ De andere reden om de SFTP-server in te stellen is als u de workflow voor het in
 
 Om de montages van SFTP van de Campagne voor de Integratie van de Dynamica 365 van Microsoft te bepalen, heb toegang tot de volgende sectie:
 
-![](assets/d365-to-acs-ui-page-workflows-settings-sftp.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-sftp.png)
 
 U moet het volgende opgeven:
 
