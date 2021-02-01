@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '1662'
 ht-degree: 100%
@@ -106,7 +106,7 @@ De **werkbalk** is een contextafhankelijk element van de editorinterface dat ver
 
 ![](assets/delivery_content_17.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Met bepaalde werkbalkfuncties kunt u de HTML-content opmaken. Als de pagina echter een CSS-opmaakmodel bevat, kunnen de **instructies** uit het opmaakmodel **voorrang** krijgen op de instructies die via de werkbalk zijn opgegeven.
 
