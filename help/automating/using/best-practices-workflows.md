@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 431ab4e83b9d0944cd7b990c3af0e38950dd0272
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 93%
+source-wordcount: '1120'
+ht-degree: 89%
 
 ---
 
@@ -49,6 +49,10 @@ U kunt workflows dupliceren. Houd in de **[!UICONTROL Marketing Activities]** de
 
 Standaard raden we u aan niet meer dan 20 actieve workflows tegelijk uit te voeren. Nadat deze limiet is bereikt, worden workflows in de wachtrij geplaatst om de prestaties niet te beïnvloeden. Op dezelfde manier raadt Adobe u aan uw workflowuitvoering in de tijd te spreiden.
 Het is mogelijk dat u onder specifieke omstandigheden meer dan 20 workflows moet uitvoeren. Dit is niet van toepassing op workflows die wachten op een geplande uitvoering. Als dit het geval is, moet u de gebruiksscenario’s controleren met een Campaign-expert en contact opnemen met de klantenservice van Adobe om de limiet te verhogen.
+
+>[!NOTE]
+>
+>Voordat u een workflow start, controleert [!DNL Campaign Standard] of er voldoende fysiek systeemgeheugen is om de workflow uit te voeren. Als er onvoldoende geheugen beschikbaar is, wordt u gewaarschuwd dat de uitvoering van de workflow wordt vertraagd tot het laden op de server uitvalt en het systeemgeheugen toeneemt.
 
 ### Frequentie
 
