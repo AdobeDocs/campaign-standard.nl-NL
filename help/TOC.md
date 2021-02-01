@@ -7,10 +7,10 @@ user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken,
 breadcrumb-title: Campaign Standard
 title: 'Campaign Standard-handleiding '
 translation-type: tm+mt
-source-git-commit: 77fe514d4862fafcc6201d0cec9045469bb2643d
+source-git-commit: 36efc64f9be3863e5e16381aaba445d2f13eac4d
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 97%
+source-wordcount: '1755'
+ht-degree: 95%
 
 ---
 
@@ -237,6 +237,7 @@ ht-degree: 97%
       + [De integratie van Campaign en Experience Manager configureren](integrating/using/configure-experience-manager.md)
       + [E-mailcontent maken in Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
       + [Een Campaign-formulier maken in Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Een meertalige e-mail maken met de Adobe Experience Manager-integratie](integrating/using/creating-multilingual-email-aem.md)
    + Campaign en Target {#working-with-campaign-and-target}
       + [Informatie over de integratie van Campaign en Target](integrating/using/about-campaign-target-integration.md)
       + [De integratie van Campaign en Target configureren](integrating/using/configuring-the-campaign-target-integration.md)
@@ -450,6 +451,7 @@ ht-degree: 97%
       + [Veelgestelde vragen over de integratie van Experience Platform SDK](administration/using/aep-faq.md)
       + [Launch-regels configureren voor ondersteuning van Adobe Campaign Standard-gebruiksscenario’s](administration/using/configuring-rules-launch.md)
       + [Mobiele gebruiksscenario’s die worden ondersteund in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
+      + [Uw mobiele toepassing migreren van SDK v4 naar Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
    + Een sms-kanaal configureren {#configuring-sms}
       + [Het sms-kanaal implementeren](administration/using/configuring-sms-channel.md)
       + [Protocol en instellingen voor sms-connector](administration/using/sms-protocol.md)
