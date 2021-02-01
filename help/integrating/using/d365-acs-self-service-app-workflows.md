@@ -5,7 +5,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Op de pagina **[!UICONTROL Workflows]** staan de technische workflows en hun sta
 
 De integratietoepassing wordt geleverd met drie workflows:
 
-![](assets/d365-to-acs-ui-page-workflows.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows.png)
 
 **Microsoft Dynamics 365 to Campaign**
 * Verzend *contacten* van de Dynamica 365 van Microsoft naar Adobe Campaign
@@ -71,4 +71,4 @@ Wanneer u een workflow bewerkt, worden uw updates NIET direct opgenomen in de re
 
 Er wordt een waarschuwingsbericht toegevoegd aan de knop **Stop** om u te laten weten wanneer u (a) updates hebt aangebracht aan de workflow, maar (b) deze workflow niet hebt gestopt/gestart.
 
-![](assets/d365-to-acs-icon-stop-with-changes.png)
+![](assets/do-not-localize/d365-to-acs-icon-stop-with-changes.png)
