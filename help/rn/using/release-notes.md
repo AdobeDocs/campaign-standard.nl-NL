@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 87b17e36af2e4bc15a93291e340843060ba18d7b
+source-git-commit: 41f2280c72a2f6bee3e4e972fab17a7ac94b966c
 workflow-type: tm+mt
 source-wordcount: '2610'
 ht-degree: 4%
@@ -97,7 +97,7 @@ ht-degree: 4%
 
 * Een nieuwe functie **GetOption** is nu beschikbaar in activiteiten die gebeurtenisvariabelen gebruiken na het roepen van een werkschema met externe parameters. Hiermee kunt u de waarde van een opgegeven functie retourneren. [Meer informatie](../../automating/using/customizing-workflow-external-parameters.md)
 
-* Met een nieuwe optie kan Campaign Standard tot **fysieke geheugen** op uw systeem controleren voordat een workflow wordt gestart. Als de hoeveelheid geheugen te laag is, wordt de uitvoering van de workflow uitgesteld totdat het systeemgeheugen deze drempel bereikt. Dit voorkomt verdere verslechtering van de prestaties en beperkt het risico van een stroomstoring. De workflow wordt automatisch hervat zodra het laden op de server is mislukt en het geheugen is vergroot. Deze optie is alleen-lezen en kan niet worden gewijzigd. [Meer informatie](../../automating/using/best-practices-workflows.md#execution)
+* Met een nieuwe optie kunt u de beschikbaarheid van Campaign Standard tot **controleren op fysiek geheugen** voordat u een workflow start. Als de hoeveelheid geheugen te laag is, wordt de uitvoering van de workflow uitgesteld totdat het systeemgeheugen deze drempel bereikt. Dit voorkomt verdere verslechtering van de prestaties en beperkt het risico van een stroomstoring. De workflow wordt automatisch hervat zodra het laden op de server is mislukt en het geheugen is vergroot. Deze optie is alleen-lezen en kan niet worden gewijzigd. [Meer informatie](../../automating/using/best-practices-workflows.md#execution)
 
 * Er is een nieuw proces beschikbaar in Adobe Campaign Standard waarmee u eenvoudiger kunt migreren van de oudere SDK v4 mobiele toepassing naar **Adobe Experience Platform Mobile SDK**. Zie [deze pagina](../../administration/using/sdkv4-migration.md).
 
