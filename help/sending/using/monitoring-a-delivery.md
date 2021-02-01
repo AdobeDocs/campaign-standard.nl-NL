@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 89%
@@ -19,7 +19,8 @@ ht-degree: 89%
 # Een levering controleren{#monitoring-a-delivery}
 
 Er zijn verschillende manieren om een levering te controleren en de impact ervan te meten. Als functionele beheerder, kunt u berichtlogboeken en leveringslogboeken toegang hebben.
->[!CAUTION]
+
+>[!IMPORTANT]
 >
 >Alleen functionele [beheerders](../../administration/using/users-management.md#functional-administrators), met **[!UICONTROL Administration]** rol en toegang tot **Alle** eenheden hebben toegang tot verzendende logboeken, berichtlogboeken, trackinglogboeken, uitsluitings- of abonnementlogboeken. Een gebruiker zonder beheerdersrechten kan zich richten op deze logbestanden, maar begint met een gekoppelde tabel (profielen, levering).
 
