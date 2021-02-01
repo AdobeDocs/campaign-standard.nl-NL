@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
@@ -34,7 +34,7 @@ Het scherm voor de definitie van **[!UICONTROL Content]** is specifiek voor het 
 
 1. Klik op de knop **[!UICONTROL +]** of de knop **[!UICONTROL Add an element]** om een uitvoerkolom toe te voegen. Met de **[!UICONTROL Output columns]** kunt u de profielinformatie (kolommen) definiëren die naar het uitvoerbestand moeten worden geëxporteerd.
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Zorg ervoor dat uw profielen een postadres bevatten aangezien deze informatie essentieel is voor direct-mailproviders. Controleer ook of u het selectievakje **[!UICONTROL Address specified]** in de profieldata hebt ingeschakeld. Zie [Aanbevelingen](../../channels/using/about-direct-mail.md#recommendations).
 
