@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: da0aa6c111f3e44bb502c1e5c4ad7feff9108d81
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 4%
+source-wordcount: '229'
+ht-degree: 5%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 4%
 Het terugwinnen van profielen wordt uitgevoerd met een **verzoek GET**.
 
 Vervolgens kunt u de zoekopdracht verfijnen door filters, volgorde en paginering te gebruiken. Raadpleeg voor meer informatie de sectie [Aanvullende bewerkingen](../../api/using/sorting.md).
+
+Bovendien kunt u met Campaign Standard-API&#39;s zoeken naar profielen op basis van een van de volgende velden: e-mail, voornaam, achternaam of een aangepast veld. Raadpleeg [deze sectie](#searching-field) voor meer informatie.
 
 <br/>
 
@@ -82,4 +84,54 @@ Vervolgens kunt u de zoekopdracht verfijnen door filters, volgorde en paginering
        lineStart=@Qy2MRJCS67PFf8soTf4BzF7BXsq1Gbkp_e5lLj1TbE7HJKqc"
    }
    }
+   ```
+
+## Zoeken naar profielen op basis van een veld {#searching-field}
+
+Met de parameter **[!UICONTROL filterType]** kunt u profielen ophalen op basis van een van de volgende velden: e-mail, voornaam, achternaam of een aangepast veld dat is toegevoegd bij Geavanceerd filteren tijdens het uitbreiden van de profielbron.
+
+>[!NOTE]
+>
+>Zoekopdrachten zijn hoofdlettergevoelig en worden alleen op voorvoegsels uitgevoerd. U kunt bijvoorbeeld niet zoeken naar een profiel met de laatste letters van zijn achternaam.
+
+***Voorbeeldverzoeken***
+
+* Voorbeeldverzoek om profielen te filteren op basis van voornaam.
+
+   ```
+   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
+   -H 'Content-Type: application/json' \
+   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+   -H 'Cache-Control: no-cache' \
+   -H 'X-Api-Key: <API_KEY>'
+   ```
+
+* Voorbeeldverzoek om profielen te filteren op basis van achternaam.
+
+   ```
+   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Miller&filterType=lastName \
+   -H 'Content-Type: application/json' \
+   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+   -H 'Cache-Control: no-cache' \
+   -H 'X-Api-Key: <API_KEY>'
+   ```
+
+* Voorbeeldverzoek om profielen te filteren op basis van e-mail.
+
+   ```
+   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John%40gmail.com&filterType=email \
+   -H 'Content-Type: application/json' \
+   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+   -H 'Cache-Control: no-cache' \
+   -H 'X-Api-Key: <API_KEY>'
+   ```
+
+* Voorbeeldverzoek om profielen te filteren op basis van het aangepaste veld &quot;Hobby&quot;.
+
+   ```
+   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \
+   -H 'Content-Type: application/json' \
+   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+   -H 'Cache-Control: no-cache' \
+   -H 'X-Api-Key: <API_KEY>'
    ```
