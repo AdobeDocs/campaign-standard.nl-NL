@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: a8730046710445022f6df1e7af407bb078a3edf9
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -28,7 +28,7 @@ toepassing. Raadpleeg deze [pagina](../../administration/using/organizational-un
 
 ## Ik kan een geconfigureerde mobiele toepassing niet bewerken in Adobe Campaign Standard en mobiele toepassingen zijn alleen-lezen. {#read-mode-mobile-app}
 
-Controleer de organisatorische eenheid van de mobiele toepassing in **[!UICONTROL Access Authorization ]** sectie. Alleen gebruikers van de toegewezen organisatie kunnen de mobiele toepassing bewerken.
+Controleer de organisatorische eenheid van de mobiele toepassing in **[!UICONTROL Access Authorization]** sectie. Alleen gebruikers van de toegewezen organisatie kunnen de mobiele toepassing bewerken.
 
 Raadpleeg deze [pagina](../../administration/using/organizational-units.md) voor meer informatie over de organisatie-eenheid.
 
