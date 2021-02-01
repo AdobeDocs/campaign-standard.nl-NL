@@ -7,9 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 translation-type: tm+mt
-source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
+source-git-commit: 300ffd374d7542817ffb7f37614e67804549cc3d
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1250'
 ht-degree: 89%
 
 ---
@@ -118,7 +118,9 @@ Als u Email Designer goed wilt gebruiken en op de eenvoudigste manier de beste e
 
    Bekijk uw berichten voordat u ze verzendt. Adobe Campaign biedt een manier om het renderen van e-mail te testen met Litmus. Zie [E-mail renderen](../../sending/using/email-rendering.md) voor meer informatie.
 
-Meer ontwerp en algemene beste praktijken betreffende berichten worden voorgesteld in de volgende sectie: [Beste werkwijzen leveren](../../sending/using/delivery-best-practices.md).
+* De meta-tag Referrer wordt niet ondersteund in de e-mailontwerper.
+
+Meer best practices voor algemeen gebruik en ontwerp vindt u in de volgende stapsgewijze Adobe Campaign-handleiding: [Best practices voor levering met Adobe Campaign](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html).
 
 ### Fragmenten bijwerken {#email-designer-updates}
 
