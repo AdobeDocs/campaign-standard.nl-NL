@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1773'
 ht-degree: 85%
 
 ---
@@ -101,7 +101,7 @@ Geef voor een externe OAuth 2.0-rekening de volgende gegevens:
 * **OAuth 2.0 gevoelige geloofsbrieven**: Deze sectie is bedoeld voor geloofsbrieven die van nature gevoelig zijn. Referentiewaarden worden op het scherm gemaskeerd nadat ze zijn toegevoegd. op dat moment zijn ze niet leesbaar of bewerkbaar . Als voor het eindpunt van de autorisatie een bepaalde referentie moet worden ingevoegd in de HTTP-autorisatieheader in plaats van in de hoofdtekst van de POST, kunt u de optie Opnemen in koptekst voor die referentie selecteren.
 * **OAuth 2.0 niet-gevoelige geloofsbrieven**: Deze sectie is bedoeld voor geloofsbrieven die in aard niet gevoelig zijn. De referentie-waarden zijn zichtbaar op het scherm nadat ze zijn toegevoegd. zij zullen ook bewerkbaar zijn .  Als voor het eindpunt van de autorisatie een bepaalde referentie moet worden ingevoegd in de HTTP-autorisatieheader in plaats van in de hoofdtekst van de POST, kunt u de optie Opnemen in koptekst voor die referentie selecteren.
 
-Wanneer het eind van de configuratie, klik op **Test schakelaar** om te verifiëren dat de externe rekening correct opstelling is.
+Nadat u de accountgegevens hebt ingevoerd, klikt u op **Verbinding testen** om te controleren of de externe account correct is geconfigureerd.
 
 ![](assets/external_accounts_OAuth.png)
 
