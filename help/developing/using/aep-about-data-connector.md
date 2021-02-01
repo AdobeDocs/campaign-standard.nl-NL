@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '783'
 ht-degree: 5%
 
 ---
@@ -44,7 +44,7 @@ In de volgende secties worden de belangrijkste stappen beschreven voor het uitvo
 
 * Uit de functie voor het toewijzen van vakken is alleen beschikbaar voor velden die standaard in Campaign Standard zijn opgegeven. Voor het opnemen van alle douanegebieden en middelen, moet elke klant zijn eigen afbeelding bepalen.
 
-* Adobe Experience Platform Data Connector zorgt ervoor dat profielgegevens regelmatig via het platform worden doorgegeven. &#x200B; De intervalduur is 15 mn. Deze waarde kan worden gewijzigd met behulp van [Adobe Experience Platform API&#39;s](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html).
+* Adobe Experience Platform Data Connector zorgt ervoor dat profielgegevens regelmatig via het platform worden doorgegeven. &#x200B; De intervalduur is 15 minuten. Deze waarde kan worden gewijzigd met behulp van [Adobe Experience Platform API&#39;s](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html).
 
 * Gegevenstechnicus kan de toewijzing publiceren, wijzigen en pauzeren van Campagne naar Adobe Experience Platform.
 
@@ -80,6 +80,6 @@ In de volgende secties worden de belangrijkste stappen beschreven voor het uitvo
 
 Deze video biedt een overzicht over de Adobe Experience Platform Data Connector.
 
-https://video.tv.adobe.com/v/27304?quality=12&amp;captions=dut
+>[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
 Extra video&#39;s over de Adobe Experience Platform Data Connector zijn [hier](https://docs.adobe.com/content/help/nl-NL/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html) beschikbaar.
