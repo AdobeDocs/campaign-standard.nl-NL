@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # Informatie over het plannen van berichten{#about-scheduling-messages}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Wanneer u wijzigingen aanbrengt in de planning van een levering, moet u de levering opnieuw voorbereiden door op de knop **Voorbereiden** te klikken voordat u op **Bevestigen** klikt.
 
@@ -42,7 +42,7 @@ Met de **[!UICONTROL Schedule]**-eigenschappen kunt u verzendopties instellen vo
 
    ![](assets/delivery_planning.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Bij het dupliceren van een levering worden alle planningsinstellingen verwijderd. Tenzij u een nieuwe contactdatum plant, wordt de gedupliceerde levering verzonden zodra het verzenden wordt bevestigd.
 
