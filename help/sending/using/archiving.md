@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '357'
 ht-degree: 6%
 
 ---
@@ -38,7 +38,7 @@ Als deze optie eenmaal is ingeschakeld, moet u de optie BCC via e-mail activeren
 
 >[!NOTE]
 >
->De gearchiveerde e-mails kunnen momenteel niet worden verzonden met de verbeterde MTA van Adobe Campaign, zelfs niet als u al bent geüpgraded naar de verbeterde MTA.
+>De gearchiveerde e-mails kunnen momenteel niet worden verzonden met de verbeterde MTA van Adobe Campaign.
 
 ## E-mailarchivering {#activating-email-archiving} activeren
 
