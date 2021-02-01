@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4a039670745810de40fe3622d21d7830d6e33d2c
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 96%
+source-wordcount: '1244'
+ht-degree: 81%
 
 ---
 
@@ -47,7 +47,7 @@ De startpagina bestaat uit een set kaarten waarmee u snel toegang hebt tot de be
 
 ## Bovenste balk {#top-bar}
 
-De bovenste balk is zichtbaar op elk scherm en biedt u de mogelijkheid om door de Adobe Campaign-functies te navigeren en toegang te krijgen tot het verbonden Adobe-profiel, de meldingen, andere Adobe Experience Cloud-services en -oplossingen en tot de documentatie.
+De bovenste balk is zichtbaar op elk scherm en biedt u de mogelijkheid door Adobe Campaign-functies te navigeren en toegang te krijgen tot het profiel Adobe dat is verbonden, meldingen, Adobe Experience Cloud-services en -oplossingen en de documentatie.
 
 De navigatieprincipes:
 
@@ -57,13 +57,25 @@ De navigatieprincipes:
 
 * Met de koppeling **[!UICONTROL Home]** kunt u de startpagina van Adobe Campaign weergeven.
 * Met de koppelingen **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** en **[!UICONTROL Reports]** hebt u toegang tot de weergaven die aan deze functies zijn gekoppeld.
-* Met de knop **[!UICONTROL Help]** hebt u toegang tot de productdocumentatie en de contextafhankelijke Help, release-opmerkingen, versienummers, juridische kennisgevingen en de koppelingen naar de Adobe Experience Cloud-community en de klantenservice.
+* Met het pictogram **Oplossingsschakelaar** kunt u schakelen tussen uw organisaties of naar een andere toepassing.
+* Met de knop **[!UICONTROL Help]** hebt u toegang tot documentatie, video&#39;s, opmerkingen bij de release en planning van de release, en tot de koppelingen naar de Adobe Experience Cloud-community en de klantenservice.
+* De organisatieknop
+* Het pictogram **Notifications** geeft de meest recente waarschuwingen of informatie weer.
+* Met het pictogram **User** kunt u aan uw profiel gekoppelde informatie weergeven. Het geeft toegang tot **[!UICONTROL Sign out]** knoop, en het **[!UICONTROL About]** scherm.
+
+### Help {#help}
+
+* **[!UICONTROL Search]** brengt Adobe Experience League in het product: zoekresultaten zijn onder andere documentatie en Help-artikelen , resultaten van communityforums en meer video-inhoud , waardoor u gemakkelijker toegang hebt tot meer inhoud om optimaal gebruik te maken van de toepassing .
+* **[!UICONTROL Help]** tab
+   * Via koppelingen hebt u snel toegang tot documentatie, video&#39;s en opmerkingen bij de release van Adobe Campaign Standard.
+   * **[!UICONTROL Learning]** Met deze koppeling hebt u toegang tot de Adobe Campaign-inhoudsbibliotheek.
+   * **[!UICONTROL Community]** Deze verbinding staat u toe toegang tot het forum gewijd aan uw vragen over ACS.
+
+* **[!UICONTROL Support]** kunt u een ondersteuningskwestie openen en telefonisch of via Twitter contact met ons opnemen.
+
+* **[!UICONTROL Feedback]**  maakt het gemakkelijker om kwesties te melden of uw ideeën te delen.
 
    ![](assets/ux_help.png)
-
-* Met het pictogram **Select solution** kunt u overschakelen naar een andere Adobe Experience Cloud-oplossing en naar de profielinstellingen.
-* Het pictogram **Notifications** geeft de meest recente waarschuwingen of informatie weer.
-* Met het pictogram **User** kunt u aan uw profiel gekoppelde informatie weergeven. U krijgt dan toegang tot de knop **[!UICONTROL Sign out]**.
 
 ## Het menu Advanced {#advanced-menu}
 
