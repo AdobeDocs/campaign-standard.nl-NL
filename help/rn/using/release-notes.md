@@ -6,36 +6,39 @@ description: Op deze pagina vindt u content van de nieuwste release van Campaign
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: ht
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: ht
-source-wordcount: '2412'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 87b17e36af2e4bc15a93291e340843060ba18d7b
+workflow-type: tm+mt
+source-wordcount: '2610'
+ht-degree: 4%
 
 ---
 
 
 # Laatste release{#latest-release}
 
-[Releaseplanning](../../rn/using/release-planning.md) | [Releases van het Configuratiescherm](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html) | [Updates van documentatie](../../rn/using/documentation-updates.md) | [Opmerkingen bij eerdere releases](../../rn/using/release-notes-2020.md) | [Verouderde functies](../../rn/using/deprecated-features.md)
+[Releaseplanning](../../rn/using/release-planning.md) | [Releases van het Configuratiescherm](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.translate.html) | [Updates van documentatie](../../rn/using/documentation-updates.md) | [Opmerkingen bij eerdere releases](../../rn/using/release-notes-2020.md) | [Verouderde functies](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **Release van nieuw Configuratiescherm in oktober** met domeinconfiguratie met CNAME-records en nieuwe mogelijkheden voor databasecontrole. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html).
-
-## Release 20.4 - oktober 2020 {#release-20-4---october-2020}
+## Release 21.1 - februari 2021 {#release-21-1---february-2021}
 
 **Nieuwe functies**
 
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Controlegroepen</strong><br /> </th> 
+<th> <strong>E-mailfeedbackservice</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>U kunt nu <strong>Controlegroepen</strong> gebruiken om de invloed van uw campagnes te meten door een deel van hun doelgroep uit te sluiten. Vervolgens kunt u de gedragingen van de doelgroep die het bericht heeft ontvangen, vergelijken met de gedragingen van contactpersonen die niet zijn getarget. Op basis van de verzendlogboeken kunt u in toekomstige campagnes ook een controlegroep targeten.
-</p>
-<p>Raadpleeg de <a href="../../sending/using/control-group.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=nl#communication-channels">instructievideo</a> voor meer informatie.
+<td>
+<p>De E-mailFeedbackDienst (EFS) is een scalable dienst die terugkoppelt van Verbeterde MTA direct vangen, zodat verbeterend rapporteringsnauwkeurigheid. Deze mogelijkheid wordt vrijgegeven als een persoonlijke bètaversie en zal in toekomstige versies geleidelijk beschikbaar zijn voor alle klanten.</p>
+<ul>
+<li>Alle categorieën feedback worden nu vastgelegd voor volledige en nauwkeurige rapportage.</li>
+<li>De berekening van de <b>Delivered</b>-indicator is nu gebaseerd op real-time feedback van de Enhanced MTA voor verbeterde nauwkeurigheid en reactiviteit.</li>
+<li>EFS lost het probleem van vertragingen met synchrone zachte boegrapport op.</li>
+</ul>
+<p>Raadpleeg de <a href="../../sending/using/confirming-the-send.md#email-feedback-service">gedetailleerde documentatie</a> voor meer informatie.
 </p>
 </td> 
 </tr> 
@@ -45,14 +48,15 @@ ht-degree: 100%
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Externe API - OAuth-ondersteuning</strong><br /> </th> 
+<th> <strong>Verbeteringen in Adobe Experience Manager-integratie</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Adobe Campaign ondersteunt nu OAuth voor verificatie in de <strong>Externe API</strong>-workflowactiviteit. Dankzij deze nieuwe mogelijkheid kan deze activiteit communiceren met systemen die OAuth-ondersteuning vereisen.
-</p>
-<p>Raadpleeg de <a href="../../automating/using/external-api.md">gedetailleerde documentatie</a> voor meer informatie.
+<td>
+<p>De integratie van de campagne met Adobe Experience Manager is verbeterd: u kunt meertalige inhoud nu gemakkelijker importeren vanuit Adobe Experience Manager. <p>
+<p>Adobe Campaign Standard detecteert nu automatisch taalvarianten van Adobe Experience Manager-inhoud en maakt het mogelijk om grote varianten te importeren en te maken. Hierdoor wordt het aantal stappen vereenvoudigd dat een arts moet doorlopen om een meertalige campagne te maken op basis van Adobe Experience Manager-inhoud.</p>
+<p>Raadpleeg de <a href="../../integrating/using/creating-multilingual-email-aem.md">gedetailleerde documentatie</a> voor meer informatie.
 </p>
 </td> 
 </tr> 
@@ -62,126 +66,158 @@ ht-degree: 100%
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Journey AI-integratie</strong><br /> </th> 
+<th> <strong>Unified Experience Cloud Interface</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Met veel plezier kondigen we Journey AI aan voor alle Adobe Campaign Standard-klanten.</p>
-  <p>Journey AI maakt gebruik van geavanceerde Machine Learning (ML) waarmee bedrijven het ontwerp en de levering van klantjourneys kunnen optimaliseren door de betrokkenheidsvoorkeur van elk individu te voorspellen.</p>
-  <P>Journey AI bestaat uit twee ML-kenmerken:</p>
-<ul> 
-     <li> <strong>Voorspellende betrokkenheidsscores</strong> - Intelligente identificatie van het geprefereerde betrokkenheidsniveau van klanten om berichten beter te kunnen targeten en personaliseren voor meer conversies en retentie. Bekijk de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">instructievideo</a>.</li> 
-     <li> <strong>Voorspellende optimalisatie van verzendtijd</strong> - Voorspelt voor elk individu het beste tijdstip om in een campagne e-mails te verzenden voor maximale betrokkenheid en een beter rendement van de e-mailcampagne. Bekijk de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">instructievideo</a>.</li>
-    </ul>
-  <p>Als u wilt weten hoe u aan de slag kunt met Journey AI, raadpleegt u de <a href="../../sending/using/predictive.md">gedetailleerde documentatie</a> en neemt u contact op met uw accountmanager. Hoewel Journey AI gratis beschikbaar is voor bestaande Campaign-klanten, zijn er implementatiekosten van ongeveer 50 uur.</p>
-    </td> 
+<td>
+<p>De kopbalbar van Adobe Campaign is veranderd om uw ervaring over alle producten en de diensten van de Experience Cloud te verenigen en te verbeteren. Deze wijzigingen zijn ontworpen om uw leven eenvoudiger te maken, zoals:</p>
+<ul>
+<li>Eenvoudiger overschakelen tussen uw organisaties of op een andere toepassing.</li>
+<li>Verbeterde gebruikershulp - De Experience League in het product opnemen, de zoekresultaten omvatten ook resultaten van communityforums en meer video-inhoud, zodat u gemakkelijker toegang hebt tot meer inhoud om optimaal te profiteren van de toepassing. We hebben ook een feedbackmechanisme toegevoegd in het menu Help, waardoor het gemakkelijker wordt om problemen te melden of uw ideeën te delen.</li>
+<li>Verbeterde meldingen - De vervolgkeuzelijst Meldingen bevat nu twee tabbladen: één voor uw eigen productberichten, en één voor meer globale productaankondigingen.</li>
+</ul>
+<p>Raadpleeg de <a href="../../start/using/interface-description.md#top-bar">gedetailleerde documentatie</a> voor meer informatie.
+</p>
+</td> 
 </tr> 
 </tbody> 
 </table>
 
 **Verbeteringen**
 
-* **Privacybeheer**: Het veld **CCPA-opt-out**, dat beschikbaar was via de Campaign-interface en -API, wordt nu ook ondersteund door de Privacy-kernservice. In dit veld kunnen Adobe Campaign-gebruikers bijhouden of een consument zich heeft afgemeld voor de verkoop van persoonlijke gegevens. [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ccpa)
-* **Verbeteringen voor workflowuitvoering** (bèta): in het kader van een wereldwijd initiatief inzake workflows zijn een paar belangrijke verbeteringen ontwikkeld om het geheugenbeheer te stabiliseren, latentie te verminderen en het geheugen dat door workflows tijdens de uitvoering wordt verbruikt te optimaliseren. Deze verbeteringen zijn momenteel in bètaversie beschikbaar en alleen voor een beperkt aantal klanten. Algemene beschikbaarheid staat gepland voor begin 2021.
-* Voor een betere beveiliging gebruikt Campaign nu een **handtekeningmechanisme** voor het bijhouden van koppelingen in e-mails.
-* De configuratie van mobiele apps is verbeterd dankzij **duidelijkere foutmeldingen** tijdens het uploaden van iOS-certificaten of Android-sleutels.
-* **Sms-foutbeheer** is verbeterd om te voorkomen dat te veel profielen worden toegevoegd aan de quarantainelijst. Sms-fouten worden nu standaard geconfigureerd als ‘zachte’ fouten in plaats van ‘harde’ fouten. Zie [deze pagina](https://helpx.adobe.com/nl/campaign/kb/sms-connector-protocol-and-settings.html).
+* **De** integratie van de Dynamica 365 van Microsoft is verbeterd met een specifieke zelfbedienings integratieapp en een verbeterd implementatieproces. [Meer informatie](../../integrating/using/d365-acs-get-started.md)
 
-**Verbeteringen voor Email Designer**
+* Er is een verbetering aangebracht om het oplossen van problemen bij het oplossen van problemen met het Transactionele overseinenproces te vergemakkelijken. De technische beheerders van Adobe kunnen het vinden op om het even welk proces nu gebruiken zonder het opnieuw te beginnen.
 
-* We hebben de gebruikerservaring in Email Designer verbeterd met de **nieuwe dynamische contextafhankelijke Help**, die de gebruikersinterface en documentatie volledig met elkaar verbindt en eenvoudig toegang biedt tot de nieuwste Help-content.
-* Er is een probleem opgelost waardoor regeleinden in een bericht werden verwijderd tijdens het bewerken van de tekstversie. (CAMP-44483)
-* Er is een probleem opgelost waardoor de gewone tekstversie van een HTML-sjabloon niet automatisch kon worden gegenereerd en gesynchroniseerd. (CAMP-44195)
-* Er is een probleem opgelost dat kon optreden bij het wijzigen van de grootte van afbeeldingen. Nadat de berichten waren verzonden, werden de afbeeldingen in Microsoft Outlook niet correct weergegeven. (CAMP-44656)
-* Er is een probleem opgelost dat optrad als er een knop werd ingevoegd waarvan de breedte werd ingesteld op ‘auto’. Nadat het bericht was verzonden, werd de inhoud van de knop niet volledig weergegeven. (CAMP-44560)
-* Er is een probleem opgelost dat optrad bij het uploaden van content vanuit een gekoppeld HTML-bestand. Nadat het bericht naar een Gmail-adres was verzonden, werd de CSS niet toegepast, waardoor een renderingprobleem ontstond. (CAMP-44085)
-* Er is een probleem opgelost waardoor contentfragmenten die eerder in een bericht werden gebruikt, niet konden worden bijgewerkt als ze rechtstreeks in de contentsjabloon waren gewijzigd. (CAMP-43973)
-* Er is een probleem opgelost met de zoekbalk **Fragmenten**. Bij het zoeken naar een bestaand fragment toonde de zoekbalk geen resultaat. (CAMP-44223)
-* Er is een probleem opgelost met de zoekbalken **Contentblokken** en **Fragmenten**. Bij gebruik van een van de zoekbalken werden de resultaten alleen weergegeven als u klikte op **Meer resultaten tonen**. (CAMP-44205)
-* Er is een probleem opgelost waardoor opvulling tussen tekst en afbeeldingen in Microsoft Outlook niet kon worden toegepast. (CAMP-45370)
-* Er is een probleem opgelost bij het dupliceren van een fragment. Na de duplicatie van het fragment ontbraken er HTML-regels in het oorspronkelijke fragment. (CAMP-45207)
-* Er is een fout opgelost die weergaveproblemen in Microsoft Outlook veroorzaakte. (CAMP-44749)
-* Er is een fout opgelost die optrad bij het wijzigen van de opvulling van het **structuuronderdeel** in een leveringssjabloon. CSS-tags hebben de wijzigingen die zijn aangebracht in de opvulling niet overgenomen, wat een renderingprobleem veroorzaakt. (CAMP-45381)
-* Er is een probleem opgelost bij het uploaden van een afbeelding. De hoogte van de afbeelding werd automatisch ingesteld op 0, waardoor een renderingprobleem ontstond. (CAMP-45366)
+* Met de lijst **Profielen** kunt u nu zoeken naar records die op een van deze velden zijn gebaseerd: e-mail, voornaam, achternaam of aangepaste velden die zijn toegevoegd bij geavanceerd filteren tijdens het uitbreiden van de profielbron. Deze functie is ook beschikbaar in Campaign Standard API&#39;s die de parameter filterType gebruiken. [Meer informatie](../../audiences/using/integrated-customer-profile.md)
+
+* Een parameter is aangepast aan het aantal containers die het Transactionele communicatie gegevensbestand het groeperen proces in werking stellen. Hierdoor kan de belasting gelijkmatig over alle gebruikte containers worden verdeeld en worden de optimale prestaties bereikt.
+
+* Een nieuwe functie **GetOption** is nu beschikbaar in activiteiten die gebeurtenisvariabelen gebruiken na het roepen van een werkschema met externe parameters. Hiermee kunt u de waarde van een opgegeven functie retourneren. [Meer informatie](../../automating/using/customizing-workflow-external-parameters.md)
+
+* Met een nieuwe optie kan Campaign Standard tot **fysieke geheugen** op uw systeem controleren voordat een workflow wordt gestart. Als de hoeveelheid geheugen te laag is, wordt de uitvoering van de workflow uitgesteld totdat het systeemgeheugen deze drempel bereikt. Dit voorkomt verdere verslechtering van de prestaties en beperkt het risico van een stroomstoring. De workflow wordt automatisch hervat zodra het laden op de server is mislukt en het geheugen is vergroot. Deze optie is alleen-lezen en kan niet worden gewijzigd. [Meer informatie](../../automating/using/best-practices-workflows.md#execution)
+
+* Er is een nieuw proces beschikbaar in Adobe Campaign Standard waarmee u eenvoudiger kunt migreren van de oudere SDK v4 mobiele toepassing naar **Adobe Experience Platform Mobile SDK**. Zie [deze pagina](../../administration/using/sdkv4-migration.md).
 
 **Overige wijzigingen**
 
-* Er zijn mechanismen toegevoegd voor een nieuwe poging voor het geval een fout optreedt tijdens het importeren van een Experience Platform-doelgroep met een **Doelgroep lezen**-activiteit. (CAMP-43947, CAMP-43366)
-* Organisatie-eenheden worden nu automatisch zo ingesteld dat ze overeenkomen met de organisatie-eenheid van de gebruiker die het profiel of de entiteit maakt. Organisatie-eenheden kunnen niet meer worden verwijderd en leeg blijven.
-* Bij het publiceren van een aangepaste bron wordt nu na de voorbereiding ter bevestiging een pop-upvenster weergegeven.
-* Het pop-upbericht dat wordt weergegeven wanneer een aangepaste bron mislukt, verschaft nu meer duidelijkheid.
-* De expressie-editor in workflows is verbeterd om uitvoeringsfouten te voorkomen. Er zijn [nieuwe functies](../../automating/using/customizing-workflow-external-parameters.md) beschikbaar: deze kunnen worden gebruikt in alle activiteiten waarmee u gebeurtenisvariabelen kunt gebruiken na het aanroepen van een workflow met externe parameters. Bovendien wordt in de expressie-editor nu knopinfo weergegeven met de functiebeschrijving.
-* Er zijn [nieuwe filters](../../channels/using/configuring-transactional-event.md#searching-transactional-events) toegevoegd aan de lijst met transactiegebeurtenissen. Hiermee kunt u de gebeurtenisconfiguraties filteren op basis van hun status en de laatste keer dat een gebeurtenis is ontvangen.
-* De logboeken die worden weergegeven bij het exporteren van pakketten bevatten nu meer specifieke en gedetailleerde informatie over de fouten die zijn aangetroffen bij een mislukking.
-* Na verzending van een bericht kunt u nu de lijst met [bijgehouden URL’s](../../sending/using/tracking-messages.md) doorzoeken, filteren en exporteren.
-* Automatische [synchronisatie tussen Launch en Campaign](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) is nu algemeen verkrijgbaar en standaard ingeschakeld.
-* De grootte van workflowexportpakketten is geoptimaliseerd door de verzending van proefexportpakketten te verwijderen.
-* Er is een nieuw bericht toegevoegd om de grootte van het gedownloade bestand in de activiteit **Bestandsoverdracht** weer te geven.
-* Foutberichten voor ongeldige sessietokens zijn verbeterd.
-* Er is nu een nieuw mechanisme dat voorkomt dat trackinggebeurtenissen van proxy’s worden toegevoegd aan trackinglogboeken en rapporten.
-* Er is een nieuw waarschuwingsbericht toegevoegd om te helpen bij het opsporen van fouten in databeheeractiviteiten die zijn verbonden met een leveringsactiviteit.
-* De labels in de rapportagewerkruimte zijn verbeterd.
-* Er is een nieuwe validatiestap toegevoegd om te voorkomen dat technische objecten in transactionele berichten worden verwijderd.
-* Er is een nieuw filter voor de leveringsstatus toegevoegd aan het tabblad **Uitvoeringslijst** van een transactioneel bericht om het oplossen van problemen te verbeteren.
-* Voor het verbeteren van de prestaties en het optimaliseren van de uitvoeringstijd zijn ongebruikte indexen verwijderd, op basis van gebruiksstatistieken van tabellen die in voorlopige analyses van meer dan 350 klanten zijn geïdentificeerd. De betreffende tabellen zijn: nmsaddressStatus, nmscampaign, nmsdelivery, nmslandingpage, nmsprogram, nmsrecipient, nmsseedmember, nmsservice, nmssubhistorcp, nmsaudience en xtkworkflow
+* Er is een fout gewijzigd in een waarschuwing tijdens de voorbereiding van berichten wanneer de limiet van 100 downloaduren van inhoud per roluur is bereikt. Er wordt nu een waarschuwing weergegeven wanneer de limiet is bereikt, zodat u verder kunt gaan met de levering.
+
+* Wanneer het verrijken van een inhoud van een transactiebericht, worden de verbindingen niet meer teruggewonnen wanneer het halen van gegevens van de lijst van het Profiel, die latentie tijdens berichtvoorbereiding vermindert en lege profielgegevens vermijdt toe te schrijven aan een onjuiste verhouding die met de profiellijst wordt bepaald.
+
+* De technische configuratie van de instantie is geoptimaliseerd om stabiliteit te verzekeren. (CAMP-45681)
+
+* Sessiebeheer is verbeterd om geheugen te optimaliseren. (CAMP-45901, CAMP-46767)
+
+* De activiteit **Transfer file** produceert nu een extra variabele (filesCount) die het aantal geüploade of gedownloade dossiers bevat. (CAMP-45842) [Meer informatie](../../automating/using/transfer-file.md#output-variables)
+
+* De schakelaar van SMS kan veelvoudige facultatieve parameters met elk bericht nu verzenden. [Meer informatie](../../administration/using/sms-protocol.md)
+
+* Gebruikers met de rol DATAMODEL kunnen nu extensies voor het leveringslogboek publiceren. (CAMP-46604)
+
+* Het foutbericht dat werd weergegeven toen u een resource probeerde te publiceren die een aangepaste bron had die niet meer bestaat, is duidelijker geworden. (CAMP-46893)
+
+* De volgende talen zijn toegevoegd aan de lijst **Voorkeurstaal**: Indonesisch - Indonesië (in-id), Engels - Zweden (en-se), Engels - Azië Pacific (en-ap), Engels - Japan (en-jp), Spaans - Latijns-Amerika (es-la). (CAMP-46351)
+
+* De kiezer voor het selecteren van profielen tijdens het testen van een bestemmingspagina gebruikt nu de ProfileBase-bron in plaats van het profiel om time-out te voorkomen.
+
+* De indeling van het SMPP-logbestand is verbeterd.
+
+* Optionele parameters voor cryptString- en decryptString JS-functies zijn toegevoegd aan Adobe Campaign Classic API&#39;s.
+
+* Verbeterde waarschuwings- of foutberichten in leveringsvoorbereidingslogboeken.
+
+* Verbeterde foutlogboeken bij poging verbinding te maken met Adobe Identity Management Service (IMS).
+
+* U kunt nu de **Delivery** en **Campagne** dimensies verder filteren met de zoekbalk in Dynamische rapportage.
+
+* De transactionele datum van de berichtgeldigheid van SMS kan nu door de waarde worden bepaald die voor de vervalparameter in de Transactionele Berichten API wordt geplaatst. (CAMP-36600)
+
+* In Dynamische rapportering, toonde het **Overzicht van de Levering** ingebouwde rapport onjuiste gegevens voor de unsubscribed tarief metrisch. Er is een nieuwe metrische waarde met de naam **Unique unsubscription** toegevoegd om dit te herstellen. (CAMP-46445)
 
 **Patches**
 
-* Er is een probleem opgelost waardoor u geen bestemmingskoppeling voor pushmeldingen of in-app-berichten kon gebruiken wanneer tracking was ingeschakeld.
-* Er is een probleem verholpen waarbij hoge prioriteit in transactieberichten niet in acht werd genomen bij grote bulkleveringen.
-* Er is een probleem opgelost waardoor u mogelijk geen merken kon toewijzen aan een transactionele e-mail. Tijdens de publicatiestap werden verschillende foutberichten weergegeven. (CAMP-44988)
-* Er is een probleem opgelost in de gebruikersinterface van de workflow waardoor data mogelijk niet konden worden opgeslagen in velden waarvoor numerieke waarden vereist waren. (CAMP-44025)
-* Er is een probleem opgelost waardoor mogelijk een foutbericht werd weergegeven wanneer een **test** activiteit werd gebruikt in een workflow van een importsjabloon. (CAMP-42910)
-* Er is een probleem opgelost dat optrad bij het gebruik van een **Doelgroep lezen**-activiteit die een opsommingsveld bevatte en verbonden was met activiteiten voor **Samenvoeging** of **Verrijking**. (CAMP-42795)
-* Er is een probleem opgelost in dynamische rapporten bij het gebruik van kant-en-klare segmenten om data in rapporten te filteren. (CAMP-42627)
-* Er is een probleem opgelost waardoor u een **Planner**-activiteit niet kon instellen op 12.00 uur. (CAMP-42674)
-* Er is een probleem opgelost waardoor het verzenden van sms-berichten kon worden onderbroken wanneer de SMPP-verbinding instabiel was. (CAMP-42789)
-* Er is een probleem opgelost waardoor de knop **Stoppen met voorbereiden** niet werd weergegeven na het vernieuwen van de pagina. (CAMP-42721)
-* Er is een probleem opgelost waardoor via een hot-klik geen percentages konden worden weergegeven wanneer content uit een URL werd geïmporteerd. (CAMP-44468)
-* Er is een probleem opgelost waardoor mogelijk een time-outfout werd weergegeven bij het selecteren van een profiel voor gebruik in de context van profielvervanging. (CAMP-44746)
-* Er is een probleem opgelost waardoor instanties mogelijk niet werkten nadat aangepaste bronnen met onjuiste koppelingsdefinities waren geïmplementeerd. (CAMP-44406)
-* Er is een probleem opgelost waardoor lege gekoppelde entiteiten werden gemaakt (typologieën, merken, enz.) na het kopiëren en plakken van een levering in een campagnesjabloon. (CAMP-44765)
-* Er is een probleem opgelost waardoor proeven niet konden worden verzonden vanwege een onjuiste verwerking van de tabellen voor leveringsvoorbereiding in het geval van een vastlopende database of een eenvoudige herstart van de database in Azure.
-* Er is een probleem opgelost waardoor koppelingen met Experience Manager-content in een levering die was geconfigureerd met meertalige content niet konden worden verwijderd. (CAMP-44029)
-* Er is een probleem opgelost in dynamische rapporten die een foutbericht konden weergeven wanneer werd geprobeerd op dimensies te filteren.  (CAMP-43097)
-* Er is een probleem opgelost waardoor mogelijk een leeg scherm werd weergegeven wanneer werd geprobeerd toegang te krijgen tot profielen op een instantie die was geconfigureerd met aangepaste bronnen die specifieke koppelingsdefinities bevatten. (CAMP-41009)
-* Er is een probleem opgelost in workflows dat kon optreden wanneer een **Verrijking**-activiteit werd gebruikt met twee invoeractiviteiten waarvan beide targetbronnen aan elkaar waren gekoppeld. (CAMP-42133)
-* Er is een probleem opgelost waardoor workflows voor importeren werden herhaald bij gebruik van een **Bestandsoverdracht**-activiteit. (CAMP-43754)
-* Er is een probleem opgelost waardoor duplicaten niet in aanmerking werden genomen bij het maken van een profiel met geëxporteerde logboeken. (CAMP-45031)
-* Er is een probleem opgelost waardoor gegevensdiscrepantie optrad tussen rapporten in Adobe Campaign en rapporten die werden geëxporteerd in PDF-bestanden. (CAMP-43010)
-* Er is een fout opgelost waardoor de workflow voor levering van direct mail mislukte wanneer bestaande gegevensvelden in functies werden gebruikt. (CAMP-42737)
-* Er is een probleem opgelost bij het importeren van pakketten, waaronder transactiegebeurtenissen en berichtsjablonen. Het importproces stopte bij 5%. (CAMP-42544)
-* Er is een probleem opgelost waarbij een fout (Uncaught TypeError) werd veroorzaakt na het wijzigen van de **Verrijking**-activiteit en het toevoegen van aanvullende data in een workflow. (CAMP-41877)
-* Er is een probleem opgelost waardoor het verwijderen van de workflow werd verhinderd. Er moesten logbestanden worden gewist om de workflow te verwijderen. (CAMP-44144)
-* Er is een probleem opgelost bij het maken van een landingspagina met HTML-code. Verplichte selectievakjes werden in Campaign niet herkend en waren niet beschikbaar op de gepubliceerde landingspagina. (CAMP-44181)
-* Er is een probleem opgelost waardoor workflows werden herhaald tijdens het gebruik van de **Wachten**-activiteit. (CAMP-43981)
-* Er is een probleem opgelost bij het verzenden van transactionele berichten waardoor meerdere e-mailadressen in dezelfde levering meerdere keren als target werden gekozen. (CAMP-44202)
-* Er is een fout opgelost bij het gebruik van profielvervanging met targetData-personalisatie. (CAMP-44996)
-* Er is een probleem opgelost waardoor de voorvertoning van de levering mislukte bij het exporteren van een leveringssjabloon in een pakket. (CAMP-44084)
-* Er is een probleem opgelost waardoor proeven niet naar testprofielen konden worden verzonden bij gebruik van aangepaste targettoewijzingen. (CAMP-43701)
-* Er is een fout opgelost die optrad in workflows bij het gebruik van de **Doelgroep lezen**-activiteit en bij het targeten van een doelgroep die was geconfigureerd met een andere targetingdimensie dan **Profiel**.  (CAMP-41885)
-* Er is een probleem opgelost dat tot fouten leidde wanneer de technische workflow **updateEventsStatus** te veel tijd nodig had om de gebeurtenisgeschiedenis op te halen (als de workflow was gestopt). Het ongebruikte aggregaatveld ‘sumQueueTime’ is uit de workflow verwijderd om het probleem op te lossen. (CAMP-43920)
-* Er is een geheugenprobleem opgelost bij de implementatie van aangepaste bronnen. (CAMP-42909)
-* Er is een probleem opgelost voor transactionele berichten waarbij kenmerken in verzamelingen ontbraken. Alle ontbrekende kenmerken worden nu gedefinieerd met een standaardwaarde en opgenomen in de payload. (CAMP-42882)
-* Er is een probleem opgelost dat van invloed kon zijn op de prestaties bij het opvragen van leveringslogboeken van realtimegebeurtenissen. (CAMP-42759)
-* Er is een fout opgelost die optrad bij het gebruik van bestandsextensies met hoofdletters bij Gedeelde assets. (CAMP-44159)
-* Er is een probleem opgelost waardoor een foutbericht werd weergegeven tijdens het testen van de verbinding met een extern account voordat dit was gemaakt. De knop **Verbinding testen** wordt nu pas weergegeven nadat het externe account is gemaakt.
-* Er is een probleem opgelost waardoor berichten werden achtergelaten als in behandeling nadat de verbeterde MTA opnieuw was gestart op instanties die voor sharding waren geconfigureerd.
-* Er is een probleem opgelost waardoor het aantal actieve profielen kon leiden tot een onjuiste telling van het effectieve aantal verzonden leveringen.
-* Er is een probleem opgelost dat tot latentie kon leiden bij het zoeken naar bronnen in de query-editor in een workflow.
-* Er is een probleem opgelost bij het selecteren van de optie **Velden opgeven waarmee rekening moet worden gehouden bij het zoeken van tekst** in een aangepaste bron. Als de veldlijst werd leeggelaten, mislukte de publicatie van de aangepaste bron.
-* Er is een prestatieprobleem opgelost bij het weergeven van het overzicht van aangepaste bronnen met een hoog datavolume.
-* Er is een probleem opgelost waardoor een levering niet kon worden geïmporteerd met gebruik van vervangende profielen.
-* Er is een probleem opgelost met het gebruik van profielvervanging waardoor proeven niet meteen konden worden verzonden als de levering was gepland.
-* Er is een probleem opgelost dat optrad bij het uploaden van een Android-sleutel voor een mobiele applicatie. Het bericht dat werd weergegeven nadat de sleutel was geüpload, gaf de waarde van de vorige sleutel weer.
-* Er is een probleem opgelost waardoor geen testprofielen konden worden gemaakt van transactionele berichten nadat een gebeurtenisconfiguratie was gemaakt met een verzameling zonder kenmerk.
-* Er is een probleem opgelost waardoor u geen aangepaste bronnen kon publiceren nadat u een nieuw filter met een aggregaat had gemaakt.
-* Er is een probleem opgelost waardoor een fout optrad bij het bijhouden van het aantal keren openen voor Gmail-ontvangers, die werd veroorzaakt door de Gmail-afbeeldingsproxy.
-* Er is een probleem opgelost dat tijdens het importeren van een pakket fouten met betrekking tot onvoldoende geheugen veroorzaakte.
-* Er is een probleem opgelost waardoor de ontkoppelactie van Experience Manager mislukte wanneer de content van Experience Manager een pad met het teken ‘%20’ bevatte.
-* Er is een fout opgelost op labels tijdens het dupliceren van workflowactiviteiten.
-* Er is een probleem opgelost met de kiezer voor transactionele berichten op een landingspagina wanneer de optie **Berichtverzending starten** was geselecteerd.
-* Er is een probleem opgelost met transactionele berichten of terugkerende leveringen waardoor de leveringsstatus niet met de juiste standaardwaarde kon worden geïnitialiseerd. Foutlogboeken zijn eveneens verbeterd.
-* Er is een probleem opgelost bij het uitbreiden van de **Aanmelding bij een applicatie**-planning (appSubscriptionRcp) met een profielkoppeling die gebruikmaakte van een aangepast veld. De index werd niet automatisch gemaakt, wat invloed kon hebben op de verzendtijd van de pushmelding. (CAMP-41120)
+* Probleem verholpen waarbij leveringen zeer traag verliepen als gevolg van bepaalde processen. Dit is te wijten aan onjuiste eenheden die zijn gedefinieerd voor verschillende parameters (bijvoorbeeld milliseconden in plaats van seconden).
 
+* Probleem verholpen waarbij de Mobile SDK een open traceringsverzoek heeft verzonden op basis van de voorwaarde dat deliveryId/MessageID niet null is. Dit zou resulteren in 404 fouten voor leveringen met tracking uitgeschakeld. Een extra variabele (acsDeliveryTracking) met informatie over het volgen status van de levering wordt nu verzonden in de lading. Deze variabele kan twee waarden in- of uitschakelen, afhankelijk van de status voor het bijhouden van de set. [Meer informatie](../../administration/using/push-tracking.md).
+
+* Probleem verholpen in workflows die konden optreden wanneer een **deduplicatie**-activiteit die eenmaal was uitgevoerd, werd gekopieerd en waarbij een tijdelijke bron werd gebruikt. Nadat de bron van de activiteit is gedupliceerd, wordt deze automatisch ingesteld op leeg, wat leidt tot problemen in andere activiteiten van de workflow. Nadat de bron van de activiteit is geplakt, blijft de bron van de activiteit nu gelijk, zodat de fout zo snel mogelijk en niet later in de workflow wordt geactiveerd. (CAMP-46903)
+
+* Probleem verholpen waarbij de leveringsanalyse mislukte bij het verzenden van een transactioneel pushbericht gericht op profielen, door een nieuwe [target mapping](../../administration/using/target-mappings-in-campaign.md) in te voeren: **Profiel - Real-time gebeurtenis voor Push** (*mapRtEventAppSubRcp*). De leverings-, uitsluitings- en trackinglogboeken voor [pushmeldingen voor transacties die gericht zijn op een profiel](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) worden nu opgeslagen in de tabellen *wideLogAppSubRcp*, *excludeLogAppSubRcp* en *trackingLogAppSubRcp*.
+* Probleem verholpen waardoor leveringsrapporten niet konden worden uitgevoerd wanneer 5000 rijen werden weergegeven.
+* Probleem verholpen met A/B-tests waarbij de inhoud van variant B niet kon worden bijgewerkt nadat de leveringstemplate was gewijzigd. (CAMP-45235)
+* Oplossing van een kwestie die het Transactionele overseinenproces veroorzaakte vast te komen, verhinderend berichten worden verzonden.
+* Probleem verholpen dat tot navigatieproblemen kan leiden nadat op een interne koppeling is geklikt (bijvoorbeeld wanneer de bovenliggende levering wordt geopend via een overzichtsscherm met proefdrukken).
+* Probleem verholpen waarbij alle beschikbare sjablonen voor inhoud van de Experience Manager niet konden worden weergegeven bij het maken van een levering. (CAMP-45990)
+* Probleem verholpen in workflows die kunnen voorkomen dat foutberichten worden weergegeven in de leveringslogboeken nadat de kolom **Reden** aan het tabblad Extra gegevens is toegevoegd. (CAMP-45139)
+* Probleem verholpen die zich kon voordoen wanneer twee aanroepen met een app-abonnement dezelfde Marketing Cloud-id hadden (&#39;dubbele sleutelwaarde schendt unieke beperkingsfout&#39;).
+* Probleem verholpen dat trage problemen zou kunnen veroorzaken wanneer activiteiten naar een werkstroom worden gesleept die een grote hoeveelheid **Query** en **Leespubliek** activiteiten bevat. (CAMP-44511)
+* Oplossing voor een fout die aan het einde van de voorbereiding van het transactiebericht zou kunnen optreden, zodat gegevens voor omleiding niet naar de trackingservers kunnen worden geüpload.
+* Probleem verholpen waarbij foutberichten konden worden weergegeven wanneer werd geprobeerd importsjablonen of eerdere importtaken te openen nadat de werkstroombron was aangepast. (CAMP-46183)
+* Probleem verholpen waardoor een **Leespubliek** activiteit niet kon worden uitgevoerd als deze was geconfigureerd met een dynamische publieksnaam. (CAMP-46047)
+* Probleem verholpen waardoor de knop **Lijst exporteren** niet kon worden weergegeven
+* Probleem verholpen dat tot het mislukken van de **Workflow voor het rapporteren van aggregaten** zou kunnen leiden. (CAMP-45979)
+* Probleem verholpen bij het maken van een aangepaste bron met een aangepaste samengestelde sleutel (dynamische inhoud voor tekst/datum).
+* Probleem verholpen waarbij gegevens over queryovergangen niet konden worden weergegeven. (CAMP-45669)
+* Problemen met het geheugenverbruik met betrekking tot publicatie van aangepaste bronnen opgelost.
+* Probleem verholpen die optrad tijdens het configureren van een levering die op een bepaalde datum moet worden verzonden. Indien de levering onmiddellijk na bevestiging werd verzonden, is de bereiding van de levering mislukt en is de oorspronkelijk vastgestelde datum nog steeds in aanmerking genomen. (CAMP-44107)
+* Probleem verholpen waardoor transactiesjablonen niet konden worden geopend. (CAMP-47181)
+* Probleem verholpen tijdens het publicatieproces van transactionele berichten die tot dubbele typologieën en typologische regels met namen die de toegestane tekenreeksgrootte overschrijden, konden leiden. (CAMP-47104)
+* Probleem verholpen in de activiteit **External API** die optrad wanneer een invoerparameter een record retourneerde die niet bestond. (CAMP-47023)
+* Probleem verholpen waardoor de SMPP-aansluiting niet opnieuw kan worden aangesloten.
+* Probleem verholpen die optrad in de **Bestandsoverdracht** activiteit tijdens het downloaden van een bestand dat een punt in de naam bevatte. De tekens na de punt werden beschouwd als de bestandsextensie. (CAMP-46624)
+* Oplossing een kwestie die gegevensbestand het groeperen van werd uitgevoerd verhinderde, die transactionele berichten om in de routerrij veroorzaakte te worden geplakt.
+* Correctie van een fout waardoor de geannuleerde leveringslogs niet konden worden verzonden.
+* Probleem verholpen waarbij een workflow zou kunnen mislukken bij gebruik van een **AND-join**-activiteit. De activiteit veranderde automatisch de Primaire reeks aan de laatste overgang die aan het wordt getelegrafeerd, zelfs als het de eerste getelegrafeerde overgang visueel toonde. (CAMP-46900)
+* Probleem verholpen waarbij adressen die correct in quarantaine zijn geplaatst onjuist op Geldig werden ingesteld, waardoor ze uit quarantaine werden verwijderd.
+* Probleem verholpen waardoor gepersonaliseerde velden niet konden worden weergegeven als ze speciale tekens bevatten. (CAMP-46805)
+* Probleem verholpen waarbij een specifieke gedetailleerde weergave voor een profiel niet kon worden weergegeven. Dit kwam voor als de profielbron met douanevelden met **Add een gepersonaliseerde toegelaten gebiedssectie** optie was uitgebreid.
+* Probleem verholpen waarbij een foutcode 500 kon worden geretourneerd bij het verzenden van transactiegebeurtenissen. (CAMP-46811)
+* Probleem verholpen waardoor u geen geplande e-mailrapporten meer kunt ontvangen. (CAMP-46891)
+* Probleem verholpen die optrad wanneer een douanemiddel aan het profielmiddel met een 1 kardinaliteit eenvoudige verbinding werd verbonden. Wanneer u een profiel opent met het veld Aangepaste bron leeg, wordt nu een foutbericht weergegeven in plaats van een lege lijst.
+* Probleem verholpen bij het gebruik van profielvervanging in een werkstroom waarbij de pagina de leveringsprofielen niet kon laden bij het selecteren van het te vervangen profiel. (CAMP-46522)
+* Oplossing voor een regressie waarbij de technische workflow **Database Cleanup** probeerde verlopen werktabellen voor levering te laten vallen met als gevolg de volgende fouten: (CAMP-46536)
+
+```
+   PGS-220000 PostgreSQL error: ERROR: table ""wkdlv_24439460_data"" does not exist and WDB-200001 SQL statement 'DROP TABLE wkdlv_24448131_data' could not be executed.
+```
+
+* Oplossing voor de volgende fout die in sommige gevallen optrad bij het gebruik van een aangepast filter op aangepaste bronnen: (CAMP-46509)
+
+```
+   The 'profile/xxxx' field used in the filter 'xxxxx' does not exist in custom resource 'xxx'
+```
+
+* Probleem verholpen waarbij **Pushmeldingsvoorbereiding** te veel tijd kostte om te worden voltooid. Dit werd veroorzaakt door een ontbrekende index op de tijdelijke werktabellen.
+* Oplossing voor een fout die kan optreden wanneer de optie **Dimension wordt gebruikt om de combinatie van** in een **Afstemming**-activiteit in een werkstroom tot stand te brengen als er al een relatie is gedefinieerd tussen een aangepaste bron en een profielbron.
+* Oplossing voor een probleem dat optrad bij het toevoegen van koppelingen via een **Afstemming** of **Verrijking**-activiteit. Gekozen koppelingen werden niet weergegeven in de uitvoerovergang.
+* Probleem verholpen bij het gebruik van een **Segmentatie**-activiteit met terugkerende leveringen in een workflow die ertoe heeft geleid dat de levering naar het verkeerde publiek werd verzonden. (CAMP-46275, CAMP-46470)
+* Probleem verholpen waarbij publicatie van aangepaste bronnen is mislukt tijdens het uitbreiden van de profielbron om aangepaste profielafmetingen voor dynamische rapportage te maken. (CAMP-46266)
+* Oplossing voor een fout die optrad bij het toevoegen van een koppeling naar een tabel voor het importeren van bestanden. Na het toevoegen van **Verrijking** activiteit aan **de invoer van het Dossier** activiteit, de eerder gevormde verbinding verdween. (CAMP-46557)
+* Probleem verholpen bij het gebruik van aangepaste bronnen gekoppeld aan profielgegevens waarbij de weergavevolgorde in het configuratiescherm **Details** tijdens het opslaan is gewijzigd. (CAMP-46312)
+* Probleem verholpen waarbij gegevens niet konden worden weergegeven in dynamische rapportage vanwege leveringen op basis van een aangepaste leveringstoewijzing.
+* Oplossing van een fout die kon verhinderen dat u een inzameling met een onjuist middeldoel in een werkschema **Vraag** activiteit kon selecteren.
+* Probleem verholpen waarbij harde tegenstellingen onjuist konden worden gevalideerd tijdens het InMail-proces.
+* Oplossing voor een fout die optrad bij het openen van een profielscherm als gevolg van een koppelingsfout.
+* Probleem verholpen waarbij GDPR-gegevens niet konden worden verwijderd uit de opschoningsworkflow.
+* Oplossing voor een fout die optrad wanneer de planningsconfiguratie handmatig met het toetsenbord werd bijgewerkt in de parameters van het e-mailleveringsschema.
+* Probleem verholpen waardoor u een profiel niet kon bewerken vanwege onjuiste parameters in de Organizer-eenheid.
+* Probleem verholpen waarbij het veld **Service** met extensie leeg en onmogelijk in de **E-maileigenschappen** kan worden ingesteld, zelfs als dit in de leveringssjabloon is ingesteld.
+* Probleem verholpen waarbij proefdrukken langer duren om te worden verwerkt. (CAMP-45048)
+* Probleem verholpen waarbij u kolommen niet kon sorteren in een profieloverzichtsscherm.
+* Probleem verholpen waarbij een miniatuur werd gegenereerd dat in Azure kon voorkomen in e-mailvarianten met Chinese tekens. (CAMP-47152)
+* Oplossing voor een regressie die werd geïntroduceerd in campagne 20.4 die tot onjuiste open tarieven voor Gmail wegens het filtreren van het volgen gebeurtenissen kon leiden die van Gmail rekeningen worden ontvangen. (CAMP-46504)
+* Probleem verholpen waarbij HTML-inhoud niet kon worden geïmporteerd in een transactiemalplaatje voor berichten. (CAMP-47318)
+* Probleem verholpen waarbij de weergave van de renderingen in het **E-mailrenderrapport** kon worden vertraagd. (CAMP-46226)
+* Probleem verholpen waardoor u geen aangepaste bronnen kon publiceren die zijn geconfigureerd met een List-type element in de schermdefinitie. (CAMP-47217)
+* Probleem verholpen in de e-mailontwerper die ervoor zorgde dat regelscheidingen niet correct konden worden weergegeven in **Microsoft Outlook** wanneer ze boven aan de e-mailinhoud werden geplaatst. (CAMP-46294)
+* Probleem verholpen dat ertoe leidde dat de KPI&#39;s-combinatie met de technische workflow van **Adobe Analytics** vastliep. (CAMP-46576)
+* Probleem verholpen in **E-mailontwerper** dat ervoor zorgde dat fragmenten niet automatisch werden weergegeven in zoekvakken wanneer inhoudsblokken werden ingevoegd. (CAMP-44205)
+* Probleem verholpen in de **e-mailontwerper** die ertoe leidde dat ongewenste tekens in verzonden e-mailberichten werden weergegeven wanneer emojis in fragmenten werd gebruikt. (CAMP-46621)
+* Correctie van regressie die in 20.4 werd geïntroduceerd in **E-mailontwerper** en die invloed had op de component Divider. Dit resulteerde in extra lijnhoogten en afbeeldingsvervormingen in inhoud. (CAMP-46663)
+* Probleem verholpen dat de uit-van-de-doos knopen dwong om gecentreerd te blijven wanneer het bericht werd verzonden naar een brievenbus van Vooruitzichten, alhoewel deze knopen aan het recht of links in **E-mailOntwerper** werden gericht. (CAMP-46466)
+* Probleem verholpen waardoor de lijst met testprofielen niet kon worden vernieuwd tijdens het zoeken naar profielen in de voorvertoning **E-mailontwerper**. (CAMP-45265)
+* Probleem verholpen waarbij werd voorkomen dat aangepaste testprofielen in de lijst werden weergegeven bij het zoeken naar profielen in de **e-mailvoorvertoning van Designer**. (CAMP-45589)
+* Probleem verholpen waarbij onjuiste datums werden weergegeven wanneer trendafbeeldingen werden gegenereerd op basis van het **overzichtsrapport van levering**. (CAMP-45521)
