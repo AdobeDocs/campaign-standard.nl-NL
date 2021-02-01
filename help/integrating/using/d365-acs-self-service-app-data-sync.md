@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '1795'
 ht-degree: 0%
@@ -26,7 +26,7 @@ U kunt lijsten van de Dynamica 365 van Microsoft aan de marketing van de Campagn
 
 De **[!UICONTROL Microsoft Dynamics 365 to Campaign]** pagina toont een lijst van entiteiten in de Dynamica 365 van Microsoft en de douanemiddelen in Adobe Campaign zij zullen worden gesynchroniseerd met. U kunt nieuwe toewijzingen toevoegen, bestaande toewijzingen bewerken of verwijderen.
 
-![](assets/d365-to-acs-ui-page-ingress-top.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top.png)
 
 Hier volgt een beschrijving van elk van de kolommen in deze tabel:
 
@@ -67,7 +67,7 @@ Voer de volgende stappen uit om een nieuwe toewijzing te maken:
 1. Gebruik de drop-down lijsten om de Dynamica 365 van Microsoft en de lijsten van de Campagne te selecteren om in kaart te brengen.
 De meeste andere invoer op de pagina is afhankelijk van de tabellen die u kiest.
 
-   ![](assets/d365-to-acs-ui-page-ingress-choose-tables.png)
+   ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-choose-tables.png)
 
    >[!NOTE]
    >U kunt niet elke tabel meerdere keren toewijzen. Daarom zult u opmerken dat de dropdown selecties geen lijsten zullen omvatten die reeds in kaart zijn gebracht.
@@ -84,7 +84,7 @@ U kunt dan met de toewijzingsconfiguratie te werk gaan. [Meer informatie](#new-m
 
 Als u een bestaande afbeelding bewerkt, ziet u dat de tabelselecties niet bewerkbaar zijn.
 
-![](assets/d365-to-acs-ui-page-ingress-table-read-only.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-table-read-only.png)
 
 Dit gebeurt door ontwerp, omdat de invoer verderop op op de pagina is gebaseerd op de velden die aan deze tabellen zijn gekoppeld. Als u de tabellen wijzigt, worden alle velden die aan deze tabellen zijn gekoppeld, ongeldig.  Als u de tabel waarnaar u wilt toewijzen wilt wijzigen, gaat u terug naar de vorige pagina, verwijdert u de toewijzing die u wilt wijzigen en voegt u een nieuwe toewijzing toe.
 
@@ -106,7 +106,7 @@ U kunt de volgende instellingen definiëren:
 
 Wanneer het toevoegen van nieuwe Dynamica 365 van Microsoft aan de lijstafbeelding van de Campagne, moet u het gebied van identiteitskaart identificeren.
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-first-key.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 
 De primaire sleutel van de Dynamica 365 van Microsoft is read-only omdat de toepassing het zal ontdekken.
 
@@ -118,7 +118,7 @@ Voor Campagne, moet u selecteren welk gebied de unieke sleutel zal zijn. Het moe
 
 De primaire sleutels zullen altijd de eerste gebiedsnamen zijn die in **[!UICONTROL Field Mappings]** sectie worden vermeld. Ter herinnering wordt het volgende pictogram rechts weergegeven om u eraan te herinneren dat dit de primaire toetsen zijn.
 
-![](assets/d365-to-acs-icon-primary-key.png)
+![](assets/do-not-localize/d365-to-acs-icon-primary-key.png)
 
 #### Andere veldtoewijzingen toevoegen
 
@@ -126,14 +126,14 @@ Met de sectie **[!UICONTROL Field Mappings]** kunt u andere veldtoewijzingen toe
 
 Selecteer de gebieden van de Dynamiek 365 van Microsoft en van de Campagne in de lijsten:
 
-![](assets/d365-to-acs-ui-page-ingress-new-field-mapping.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-new-field-mapping.png)
 
 Deze lijsten bevatten de gebiedsnamen die met de Dynamica 365 van Microsoft en de lijsten van de Campagne worden geassocieerd u bij de bovenkant van de pagina hebt geselecteerd.
 
 Met de schakeloptie **[!UICONTROL Apply updates]** kunt u bepalen of updates voor dit veld worden doorgegeven van Microsoft Dynamics 365 naar Campagne:
-* Als ![](assets/d365-to-acs-icon-switch-on.png) wordt ingeschakeld, worden updates van de waarde(n) in Microsoft Dynamics 365 doorgegeven aan Adobe Campaign wanneer de updates plaatsvinden.
+* Als ![](assets/do-not-localize/d365-to-acs-icon-switch-on.png) wordt ingeschakeld, worden updates van de waarde(n) in Microsoft Dynamics 365 doorgegeven aan Adobe Campaign wanneer de updates plaatsvinden.
 
-* Als u ![](assets/d365-to-acs-icon-switch-off.png) uitschakelt, wordt de waarde doorgegeven wanneer gegevens voor het eerst worden geladen (of opnieuw worden afgespeeld), maar worden incrementele updates van het veld in Microsoft Dynamics 365 niet doorgegeven.
+* Als u ![](assets/do-not-localize/d365-to-acs-icon-switch-off.png) uitschakelt, wordt de waarde doorgegeven wanneer gegevens voor het eerst worden geladen (of opnieuw worden afgespeeld), maar worden incrementele updates van het veld in Microsoft Dynamics 365 niet doorgegeven.
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ Met de schakeloptie **[!UICONTROL Apply updates]** kunt u bepalen of updates voo
 
 Als u veldwaarden selecteert, wordt het gegevenstype weergegeven onder de vervolgkeuzemenu&#39;s.   Dit is iets waarmee u rekening moet houden wanneer u waarden van het ene veld naar het andere toewijst.
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
 
 >[!NOTE]
 >
@@ -194,7 +194,7 @@ Op de pagina **[!UICONTROL Campaign to Microsoft Dynamics 365]** kunt u zien wel
 
 De vier metriek die u kunt controleren zijn: **Verzendt**, **Klik**, **Opens**, en **Bounces**.
 
-![](assets/d365-to-acs-ui-page-workflows-egress.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-egress.png)
 
 Selecteer **Yes** om te bevestigen dat u gebeurtenissen van dat type aan de Dynamica 365 van Microsoft wilt stromen.
 
@@ -208,7 +208,7 @@ Meer informatie over Opt-out beheer in [deze sectie](../../integrating/using/d36
 
 Houd er rekening mee dat u op &quot;Opslaan&quot; moet klikken om uw selecties op te slaan. Herinner ook dat u **Campagne aan de Dynamica 365** van Microsoft moet ophouden werkschema en dan spel voor de integratie klikken om uw veranderingen op te nemen.
 
-![](assets/d365-to-acs-ui-page-workflows-optinout-disabled.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-optinout-disabled.png)
 
 ### Richting voor in- en uitsynchroniseren
 
