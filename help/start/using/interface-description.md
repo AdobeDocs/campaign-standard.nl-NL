@@ -7,9 +7,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 4a039670745810de40fe3622d21d7830d6e33d2c
+source-git-commit: 64eb4fd9bf50cf4a4fb16c1bf8ee29f3f2f583c2
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1249'
 ht-degree: 81%
 
 ---
@@ -47,7 +47,7 @@ De startpagina bestaat uit een set kaarten waarmee u snel toegang hebt tot de be
 
 ## Bovenste balk {#top-bar}
 
-De bovenste balk is zichtbaar op elk scherm en biedt u de mogelijkheid door Adobe Campaign-functies te navigeren en toegang te krijgen tot het profiel Adobe dat is verbonden, meldingen, Adobe Experience Cloud-services en -oplossingen en de documentatie.
+De bovenste balk is zichtbaar op elk scherm en biedt u de mogelijkheid om door Adobe Campaign-functies te navigeren en toegang te krijgen tot het profiel Adobe, meldingen, Adobe Experience Cloud-oplossingen en Campagne.
 
 De navigatieprincipes:
 
@@ -58,24 +58,27 @@ De navigatieprincipes:
 * Met de koppeling **[!UICONTROL Home]** kunt u de startpagina van Adobe Campaign weergeven.
 * Met de koppelingen **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** en **[!UICONTROL Reports]** hebt u toegang tot de weergaven die aan deze functies zijn gekoppeld.
 * Met het pictogram **Oplossingsschakelaar** kunt u schakelen tussen uw organisaties of naar een andere toepassing.
-* Met de knop **[!UICONTROL Help]** hebt u toegang tot documentatie, video&#39;s, opmerkingen bij de release en planning van de release, en tot de koppelingen naar de Adobe Experience Cloud-community en de klantenservice.
-* De organisatieknop
+* Het pictogram **[!UICONTROL Help]** wordt [onder](#help) beschreven.
 * Het pictogram **Notifications** geeft de meest recente waarschuwingen of informatie weer.
-* Met het pictogram **User** kunt u aan uw profiel gekoppelde informatie weergeven. Het geeft toegang tot **[!UICONTROL Sign out]** knoop, en het **[!UICONTROL About]** scherm.
+* Met het pictogram **User** kunt u aan uw profiel gekoppelde informatie weergeven. Gebruik dit pictogram als u **[!UICONTROL Sign out]** moet.
 
 ### Help {#help}
 
-* **[!UICONTROL Search]** brengt Adobe Experience League in het product: zoekresultaten zijn onder andere documentatie en Help-artikelen , resultaten van communityforums en meer video-inhoud , waardoor u gemakkelijker toegang hebt tot meer inhoud om optimaal gebruik te maken van de toepassing .
-* **[!UICONTROL Help]** tab
-   * Via koppelingen hebt u snel toegang tot documentatie, video&#39;s en opmerkingen bij de release van Adobe Campaign Standard.
-   * **[!UICONTROL Learning]** Met deze koppeling hebt u toegang tot de Adobe Campaign-inhoudsbibliotheek.
-   * **[!UICONTROL Community]** Deze verbinding staat u toe toegang tot het forum gewijd aan uw vragen over ACS.
+Het **Help** pictogram brengt Adobe Experience League in het product.
 
-* **[!UICONTROL Support]** kunt u een ondersteuningskwestie openen en telefonisch of via Twitter contact met ons opnemen.
+![](assets/ux_help.png)
 
-* **[!UICONTROL Feedback]**  maakt het gemakkelijker om kwesties te melden of uw ideeën te delen.
+* **[!UICONTROL Search]** veld: zoekresultaten zijn onder andere documentatie en Help-artikelen , resultaten van communityforums en meer video-inhoud , waardoor u gemakkelijker toegang hebt tot meer inhoud om optimaal gebruik te maken van de toepassing .
 
-   ![](assets/ux_help.png)
+Met drie tabbladen kunt u hulp en hulp zoeken:
+
+1. Het tabblad **[!UICONTROL Help]** bevat:
+   * een snelle toegang tot Adobe Campaign Standard-documentatie met contextafhankelijke koppelingen.
+   * een **[!UICONTROL Learning]**-koppeling waarmee u toegang krijgt tot de Adobe Campaign-cursusbibliotheek.
+   * a **[!UICONTROL Community]** verbinding om tot het forum toegang te hebben dat aan uw vragen over Campagne wordt gewijd.
+   * rechtstreekse toegang tot: Help Center, Customer Care, Experience Cloud product status, Developers connection, Release Notes, Release Planning en het **[!UICONTROL About]** scherm.
+1. Op het tabblad **[!UICONTROL Support]** kunt u een ondersteuningscase openen en telefonisch of via Twitter contact met ons opnemen.
+1. Met de tab **[!UICONTROL Feedback]** kunt u gemakkelijker problemen melden of uw ideeën delen.
 
 ## Het menu Advanced {#advanced-menu}
 
