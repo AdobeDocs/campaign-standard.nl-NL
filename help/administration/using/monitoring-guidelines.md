@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: introduction
 index: y
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -64,7 +64,7 @@ probleemoplossingVolg de best practices en richtlijnen voor het oplossen van pro
 [Meer informatie](../../automating/using/best-practices-workflows.md)
 
 **Logboeken en**
-takenControleren van workflows is een belangrijke stap om uw workflows te analyseren en ervoor te zorgen dat deze correct worden uitgevoerd.
+takenDe controle van de logboeken van het werkschema is een zeer belangrijke stap om uw werkschema&#39;s te analyseren en ervoor te zorgen zij behoorlijk lopen.
 [Meer informatie](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
 
 **Met**
@@ -76,7 +76,7 @@ NotificationsCampaign Standard kunt u meldingen verzenden naar supervisors om de
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 ****
-DeliverabilityCampaign Standard biedt verschillende hulpmiddelen om u te helpen het aantal succesvol afgeleverde berichten te verbeteren: rapporten over de leveringsrekening, tijdoptimalisatie verzenden, voorvertoning van berichten, rendering van e-mail, quarantainebeheer, enz.
+DeliverabilityCampaign Standard biedt verschillende hulpmiddelen om u te helpen het aantal succesvol afgeleverde berichten te verbeteren: rapporten over de leveringstijd, tijdoptimalisatie verzenden, voorvertoning van berichten, rendering van e-mail, quarantainebeheer, enz.
 [Meer informatie](../../sending/using/about-deliverability.md)
 
 ****
@@ -88,5 +88,5 @@ waarschuwingsfunctie voor levering kunt u waarschuwingen instellen die automatis
 [Meer informatie](../../sending/using/receiving-alerts-when-failures-happen.md)
 
 **Dynamische**
-rapporteringDynamische rapportering verstrekt diverse rapporten om u te helpen op de hoogte worden gehouden van hoe uw leveringen presteren: stormen, de meest bekeken leveringen per ontvanger, de omzet van de leveringen, enz.
+rapporteringDynamische rapportering verstrekt diverse rapporten om u te helpen op de hoogte worden gehouden van hoe uw leveringen presteren: schommelingen, de meest bekeken leveringen door de ontvangers, de omzet van de leveringen, enz.
 [Meer informatie](../../reporting/using/about-dynamic-reports.md)
