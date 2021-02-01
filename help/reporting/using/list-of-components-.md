@@ -7,9 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 translation-type: tm+mt
-source-git-commit: 6fffc6a3574c71c01f1e07ff4e6e6aa194479079
+source-git-commit: e129cde33b24831122433bd4b400204f38799b11
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1295'
 ht-degree: 1%
 
 ---
@@ -247,8 +247,12 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
    <td> Aantal ontvangers die de levering hebben geopend.<br /> </td> 
   </tr> 
   <tr> 
+   <td> Unieke abonnement<br /> </td> 
+   <td> Aantal ontvangers die op de unsubscription verbinding klikte.<br /> </td> 
+  </tr> 
+  <tr> 
    <td> Abonnement opzeggen<br /> </td> 
-   <td> Percentage afboekingen door ontvanger in vergelijking met de geleverde berichten.<br /> </td> 
+   <td> Aantal unieke uitschrijving vergeleken met de geleverde berichten.<br /> </td> 
   </tr> 
   <tr> 
    <td> Afgemeld<br /> </td> 
