@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 98%
+source-wordcount: '2180'
+ht-degree: 95%
 
 ---
 
@@ -114,13 +114,13 @@ Als de **parsering wordt gevalideerd**, verschijnt er een bericht waarin u wordt
 
 ### Execution
 
-Op dit tabblad kunt u het eindpunt van de verbinding definiëren. Met het veld **[!UICONTROL URL]** kunt u het **HTTPS-eindpunt** definiëren waarmee gegevens naar Campagne worden verzonden.
+Op dit tabblad kunt u het eindpunt van de verbinding definiëren. In het veld **[!UICONTROL URL]** kunt u het **HTTPS-eindpunt** definiëren waarmee de Campaign Standard zal communiceren.
 
 Er zijn twee soorten verificatiemethoden beschikbaar, mits vereist door het eindpunt:
 
-* Basisverificatie: voer in het veld **[!UICONTROL Request Header(s)]** uw gebruikersnaam en wachtwoord in.
+* Standaardverificatie: Voer uw gebruikersnaam-/wachtwoordgegevens in de sectie **[!UICONTROL Request Header(s)]** in.
 
-* OAuth-verificatie: als u op de knop **[!UICONTROL Use connection parameters defined in an external account]** klikt, kunt u een extern account selecteren waarin de OAuth-verificatie is gedefinieerd. Raadpleeg de sectie [Externe accounts](../../administration/using/external-accounts.md) voor meer informatie.
+* OAuth-verificatie: Door op **[!UICONTROL Use connection parameters defined in an external account]** in een externe rekening te klikken, kunt u een externe rekening selecteren waar de authentificatie OAuth wordt bepaald. Raadpleeg de sectie [Externe accounts](../../administration/using/external-accounts.md) voor meer informatie.
 
 ![](assets/externalAPI-execution.png)
 
@@ -155,6 +155,10 @@ Op dit tabblad kunt u de **uitgaande overgang** en het label ervan activeren. De
 Dit tabblad is beschikbaar voor de meeste workflowactiviteiten. Raadpleeg de sectie [Activiteitseigenschappen](../../automating/using/activity-properties.md) voor meer informatie.
 
 ![](assets/externalAPI-options.png)
+
+## Testen
+
+Als u de externe API-functionaliteit wilt testen met een eenvoudig testeindpunt, kunt u Postman Echo gebruiken: https://docs.postman-echo.com.
 
 ## Problemen oplossen
 
@@ -256,8 +260,8 @@ Deze logboekberichten worden gebruikt om informatie in een logboek te registrere
    <td> <p>HTTP header key is not allowed (header key: 'Accept').</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 -  A HTTP header value is bad (header value: '%s').</td> 
-   <td> <p>HTTP header value is bad (header value: '%s'). </p>
+   <td> WKF-560247 - Een HTTP-headerwaarde is ongeldig (headerwaarde: '%s').</td> 
+   <td> <p>HTTP-headerwaarde is ongeldig (headerwaarde: '%s'). </p>
     <p>Opmerking: Deze fout wordt in een logboek geregistreerd wanneer de aangepaste koptekstwaarde niet kan worden gevalideerd volgens <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 
