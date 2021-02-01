@@ -2,12 +2,12 @@
 solution: Campaign Standard
 product: campaign
 title: Overzicht
-description: In deze sectie wordt beschreven hoe een workflow met externe parameters wordt aangeroepen.
+description: In deze sectie wordt beschreven hoe u een workflow met externe parameters kunt aanroepen.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 05b6a9caebdd65f20357070af8bd44cb8ba146c7
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 4%
