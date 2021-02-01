@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 >
 >Adobe Experience Platform Data Connector bevindt zich momenteel in bèta, die vaak zonder voorafgaande kennisgeving kan worden bijgewerkt. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 
-In deze sectie, zult u ontdekken hoe te om een gebied van Campaign Standard met een gebied van de Gegevens van de Ervaring in kaart te brengen XDM (XDM).
+In deze sectie, zult u ontdekken hoe te om een gebied van Campaign Standard met een gebied van de Gegevens van de Ervaring in kaart te brengen van een Model (XDM).
 
 Om deze taak uit te voeren, zijn de eerste vereisten:
 
@@ -45,13 +45,13 @@ Om deze taak uit te voeren, zijn de eerste vereisten:
 >
 >Als de gegevensset die u selecteert al wordt gebruikt in een bestaande gegevenstoewijzing, wordt een waarschuwing weergegeven dat uw gegevens mogelijk worden overschreven op Adobe Experience Platform. Dit kan gebeuren wanneer er sommige gemeenschappelijke ontvangers in datamappings gebruikend een zelfde dataset zijn.
 
-Het volgende scherm stelt de **[!UICONTROL Field mappings]** sectie voor waar u een nieuwe afbeelding voor elk gebied in het schema van de Campaign Standard kunt tot stand brengen.
+In het volgende scherm wordt de sectie **[!UICONTROL Field mappings]** weergegeven waarin u een nieuwe toewijzing kunt maken voor elk veld in het schema Campaign Standard.
 
 ![](assets/aep_fieldmappings.png)
 
 Met de knop **[!UICONTROL Create new field mapping]** kunt u het veld Campaign Standard en de bijbehorende veldpadexpressie selecteren in het XDM-schema.
 
-Als u geen Campaign Standard-veld kunt vinden, kunt u het zoekveld gebruiken om naar het veld te zoeken. Op dit moment werkt alleen zoeken naar velden die zijn geopend in de hiërarchie.
+Als u geen Adobe Campaign Standard-veld kunt vinden, kunt u het zoekveld gebruiken om naar het veld te zoeken. Op dit moment werkt alleen zoeken naar velden die zijn geopend in de hiërarchie.
 
 ![](assets/aep_mapfield.png)
 
