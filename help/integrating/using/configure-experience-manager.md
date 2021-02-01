@@ -7,7 +7,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3672f0bc4ebc551c4eb34660a3a55d44fa726f1a
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 3%
@@ -50,7 +50,7 @@ Adobe Campaign configureren:
 
    ![](assets/aem_2.png)
 
-1. Vervolgens dupliceert u in het geavanceerde menu onder **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** een van de bestaande sjabloon om een specifieke e-mailsjabloon voor Adobe Experience Manager te maken.
+1. Vervolgens dupliceert u in het geavanceerde menu onder **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** een van de bestaande sjablonen om een specifieke e-mailsjabloon voor Adobe Experience Manager te maken.
 
    ![](assets/aem_3.png)
 
