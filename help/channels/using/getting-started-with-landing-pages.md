@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 97%
@@ -40,7 +40,7 @@ In de onderstaande sectie worden enkele beperkingen weergegeven die u moet kenne
 * Landingspagina&#39;s zijn alleen beschikbaar voor de bronnen **[!UICONTROL Profile]** en **[!UICONTROL Subscription]**. Een record kan worden opgeslagen en bijgewerkt vanuit **[!UICONTROL Profile]** en een abonnement of uitschrijving naar een **[!UICONTROL Service]**.
 Voor meer informatie over bronconfiguratie gaat u naar [De datastructuur van een bron configureren](../../developing/using/configuring-the-resource-s-data-structure.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Een landingspagina kan alleen data van de bronnen **[!UICONTROL Profile]** en **[!UICONTROL Subscription]** weergeven of bijwerken.
 
@@ -113,7 +113,7 @@ Als de landingspagina eenmaal is gedefinieerd, kunt u simuleren hoe deze online 
 
 ![](assets/lp-steps5.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >De testen voor de landingspagina kunnen alleen worden uitgevoerd met profielen, niet met testprofielen. Wanneer het formulier wordt verzonden, worden de data van het geselecteerde profiel ook in het echt bijgewerkt. Als u wilt voorkomen dat echte profielen worden gewijzigd, moet u een namaakprofiel voor de klant gebruiken.
 
