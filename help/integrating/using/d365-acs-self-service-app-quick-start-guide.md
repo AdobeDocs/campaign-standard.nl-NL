@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 1e05db3fecc87a026750f40acb0ff063706e3f38
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 2%
@@ -65,7 +65,7 @@ Meer informatie over uw privacyverantwoordelijkheden en over het beheren van pri
 
 Wanneer u voor het eerst naar de gebruikersinterface bladert, wordt een pagina met een koptekst weergegeven die er als volgt uitziet:
 
-![](assets/d365-to-acs-ui-header.png)
+![](assets/do-not-localize/d365-to-acs-ui-header.png)
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Controleer of de selecties &quot;ORG&quot; en &quot;INSTANTIE&quot; de selecties
 
 Als u over de juiste org en instantie beschikt, klikt u op het menu &quot;hamburger&quot; om een vervolgkeuzemenu weer te geven. Klik vervolgens op **[!UICONTROL Settings...]** in de keuzelijst om de pagina te bezoeken waarop u uw referenties voor Microsoft Dynamics 365 en Campagne (zie hieronder) invoert.
 
-![](assets/d365-to-acs-ui-page-workflows-menu-pointers.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
 Vul de volgende secties in op de pagina **[!UICONTROL Settings]**:
 
@@ -94,11 +94,11 @@ Ervan uitgaande dat u de bovenstaande voorwaarden hebt voltooid en dat u al uw r
 
 Klik op de pagina **[!UICONTROL Workflows]** op het potloodpictogram dat is gekoppeld aan de **[!UICONTROL Microsoft Dynamics 365 to Campaign]**-workflow om de configuratie ervan te bewerken.
 
-![](assets/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
 
 Op de **[!UICONTROL Microsoft Dynamics 365 to Campaign]** pagina, kunt u tot de lijst van de lijstafbeeldingen toegang hebben die u hebt gevormd.  U wordt standaard toegewezen aan een contact-/profieltoewijzing buiten het vak. Alle andere aangepaste entiteiten moeten afzonderlijk worden geconfigureerd.
 
-![](assets/d365-to-acs-ui-page-ingress-top-pointers.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
 Controleer op de pagina **[!UICONTROL Edit Table Mapping]** de sectie **[!UICONTROL Mappings]** om ervoor te zorgen dat de gebieden van de Dynamica 365 van Microsoft aan het correcte gebied in Campagne in kaart worden gebracht. Als u andere toewijzingen moet toevoegen, doet u dit nu, evenals om het even welke vervangingen of filters. [Meer informatie](../../integrating/using/d365-acs-self-service-app-data-sync.md).
 
@@ -108,10 +108,10 @@ Wanneer de configuratie juist is, klikt u op de **[!UICONTROL Play]** knop naast
 
 >[!IMPORTANT]
 >
->Wij **sterk** adviseren dat u dit eerst in uw milieu&#39;s van het Stadium of van het Dev in werking stelt alvorens in Productie in werking te stellen. Controleer of de instantie stage/dev is geselecteerd in de koptekst.
+>Wij **sterk** adviseren dat u dit eerst in uw milieu&#39;s van het Stadium of van het Dev in werking stelt alvorens in Productie in werking te stellen. Controleer of het werkgebied/de instantie dev is geselecteerd in de koptekst.
 
 
-![](assets/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
 Als deze eenmaal is gestart, kunt u testen door items toe te voegen of te wijzigen in Microsoft Dynamics 365 en deze wijzigingen binnen een paar minuten te observeren in Adobe Campaign. Als u dit proces op elk gewenst moment moet stoppen, drukt u gewoon op dezelfde knop om het te stoppen. [Meer informatie](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
@@ -124,9 +124,9 @@ Met de header in de zelfbedieningsapp kunt u definiëren welke org en instantie 
 
 Selecteer **ORG** en **INSTANTIE** u wilt bekijken/uitgeven. Deze velden worden alleen-lezen weergegeven, maar kunnen worden bewerkt wanneer u de muiscursor erop plaatst.
 
-Er wordt een vervolgkeuzemenu weergegeven wanneer u op de knop klikt met de drie horizontale lijnen ![](assets/d365-to-acs-icon-hamburger.png) rechts van de koptekst.
+Er wordt een vervolgkeuzemenu weergegeven wanneer u op de knop klikt met de drie horizontale lijnen ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) rechts van de koptekst.
 
-De items in het vervolgkeuzemenu zijn
+De items in het keuzemenu zijn:
 
 * **Instellingen**: Als u deze optie selecteert, wordt u naar een scherm gestuurd waarin u API-referenties kunt opgeven voor Microsoft Dynamics 365 en Adobe Campaign en andere algemene instellingen voor de toepassing.
 
@@ -146,14 +146,14 @@ Terwijl u door de app navigeert, worden er onder aan bepaalde schermen balken we
 
 Hieronder ziet u een voorbeeld van het scherm **[!UICONTROL Edit Table Mapping]** dat de broodkruimels en de paginatitel toont. In dit geval kunt u op **[!UICONTROL Workflows]** of **[!UICONTROL Microsoft Dynamics 365 to Campaign]** tekst klikken om naar één van de vorige schermen te gaan. **[!UICONTROL Edit Table Mapping]** in de breadcrumbs kan in dit geval niet worden geklikt omdat het het huidige scherm is.
 
-![](assets/d365-to-acs-breadcrumbs-ingress.png)
+![](assets/do-not-localize/d365-to-acs-breadcrumbs-ingress.png)
 
 ### Algemene knoppen {#app-buttons}
 
 De volgende pictogrammen worden gebruikt op meerdere pagina&#39;s in de zelfbedieningsapp.
 
-![](assets/d365-to-acs-icon-add.png) - Voeg een nieuw item toe aan een lijst.
+![](assets/do-not-localize/d365-to-acs-icon-add.png) - Voeg een nieuw item toe aan een lijst.
 
-![](assets/d365-to-acs-icon-edit.png) - Een bestaande bewerking bewerken
+![](assets/do-not-localize/d365-to-acs-icon-edit.png) - Een bestaande bewerking bewerken
 
-![](assets/d365-to-acs-icon-delete.png) - Een item uit een lijst met items verwijderen
+![](assets/do-not-localize/d365-to-acs-icon-delete.png) - Een item uit een lijst met items verwijderen
