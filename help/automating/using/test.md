@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: jstest,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4f62d2381403d7d88167334cee54071a19a7c3a8
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 90%
+source-wordcount: '190'
+ht-degree: 82%
 
 ---
 
@@ -47,7 +47,9 @@ Voorwaarden zijn gebaseerd op **functies** of op **variabelen**, zoals gebeurten
 
    Bij het bewerken van het veld **[!UICONTROL Condition]** krijgt u via twee knoppen hulp bij het aanroepen van gebeurtenisvariabelen en bij het bewerken van expressies waarin variabelen en functies worden gecombineerd:
 
-   * ![](assets/extsignal_picker.png): Selecteer de gebeurtenisvariabele onder alle variabelen die beschikbaar zijn in de workflow (zie  [deze pagina](../../automating/using/customizing-workflow-external-parameters.md))
+   * ![](assets/extsignal_picker.png): Selecteer de gebeurtenisvariabele onder alle variabelen die beschikbaar zijn in de workflow (zie  [deze pagina](../../automating/using/customizing-workflow-external-parameters.md)).
+
+      U kunt bijvoorbeeld het aantal gedownloade bestanden controleren na een [Bestandsoverdracht](../../automating/using/transfer-file.md)-activiteit met de variabele **[!UICONTROL filesCount]**.
 
       ![](assets/wkf_test_activity_variables.png)
 
