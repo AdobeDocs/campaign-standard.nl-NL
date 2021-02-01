@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: about-custom-resources
 context-tags: cusResource,overview;eventCusResource,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 84%
+ht-degree: 79%
 
 ---
 
@@ -34,7 +34,7 @@ Extensievelden krijgen een voorvoegsel, zodat ze nooit een conflict veroorzaken 
 
 >[!NOTE]
 >
->Op [deze pagina](../../developing/using/datamodel-introduction.md) ziet u een voorbeeld van een datamodel voor ingebouwde bronnen.
+>U kunt een datamodel vertegenwoordiging voor de ingebouwde middelen in [deze pagina](../../developing/using/datamodel-introduction.md) vinden.
 
 U kunt [de schermnavigatie ook configureren](configuring-the-screen-definition.md) op basis van de bron die u hebt gemaakt.
 
