@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: ac669a4dbb3b0f5f8f7352d1271460054913a1b4
+source-git-commit: fb16fc4e24a4345d73e0b2a0ad58a78771a93b8a
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 96%
+source-wordcount: '466'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,9 @@ Alle releasedatums kunnen worden gewijzigd. We raden u aan deze pagina regelmati
 
 ## Release 21.1 - Release van februari {#release-21-1-release}
 
-Updates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. Gedetailleerde informatie over deze release is beschikbaar in de [Opmerkingen bij de release](../../rn/using/release-notes.md) wanneer upgrades van werkgebiedomgeving starten. Neem contact op met [Adobe Client Care](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) als u nog vragen hebt.
+Updates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. Exacte datums worden per e-mail naar elke klant verzonden.
+
+Gedetailleerde informatie over deze release is beschikbaar in de [Opmerkingen bij de release](../../rn/using/release-notes.md) wanneer upgrades van werkgebiedomgeving starten.
 
 <table>
  <thead>
@@ -41,14 +43,16 @@ Updates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s.
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>1 - 2 februari 2021<br /> </td>
+   <td>1 - 10 februari 2021<br /> </td>
   </tr>
   <tr>
    <td> Productie<br /> </td>
-   <td>8 feb. - 15, 2021<br /> </td>
+   <td>8 feb. - 17, 2021<br /> </td>
   </tr>
  </tbody>
 </table>
+
+Neem contact op met [Adobe Client Care](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) als u nog vragen hebt.
 
 ## Vragen en antwoorden {#questions-and-answers}
 
