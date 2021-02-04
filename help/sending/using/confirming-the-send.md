@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
 translation-type: tm+mt
-source-git-commit: b48e246ee515d2f250d866ed72d5765bf1ccb326
+source-git-commit: 8c636ec7a35e9c34210bbb04b1b13aaa6a431345
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '913'
 ht-degree: 20%
 
 ---
@@ -94,17 +94,9 @@ Wanneer de soft-bouncing berichten terug van Verbeterde MTA worden gemeld, tonen
 
 * Anders verandert de status in **[!UICONTROL Failed]** en wordt het **[!UICONTROL Delivered]** percentage dienovereenkomstig verlaagd.
 
-<!--Soft-bouncing messages increment an error counter. When the error counter reaches the limit threshold or when the validity period is over, their status changes to **[!UICONTROL Failed]**.-->
-
-<!--For more on retries after a delivery temporary failure, see [this section](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).-->
-
 Daarom moet u wachten tot het einde van de geldigheidsperiode om het laatste **[!UICONTROL Delivered]**-percentage en het uiteindelijke aantal feitelijk **[!UICONTROL Sent]**- en **[!UICONTROL Failed]**-berichten weer te geven.
 
 ### E-mailfeedbackservice (bèta) {#email-feedback-service}
-
->[!NOTE]
->
->Deze sectie is alleen van toepassing op e-mailkanalen.
 
 Met de e-mailfeedbackservice (EFS) wordt de status van elke e-mail correct gerapporteerd, omdat feedback rechtstreeks wordt vastgelegd via de Enhanced MTA (Message Transfer Agent).
 
