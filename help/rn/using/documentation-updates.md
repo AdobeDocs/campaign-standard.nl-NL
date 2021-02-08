@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
 workflow-type: tm+mt
 source-wordcount: '6540'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -25,19 +25,19 @@ Naast de [release-opmerkingen](../../rn/using/release-notes.md) bij Adobe Campai
 
 E-mailfeedbackservice - [Meer informatie](../../sending/using/confirming-the-send.md#email-feedback-service)
 
-Verbeteringen voor Adobe Experience Manager-integratie - [Meer informatie](../../integrating/using/creating-multilingual-email-aem.md)
+Verbeteringen in de Adobe Experience Manager-integratie - [Meer informatie](../../integrating/using/creating-multilingual-email-aem.md)
 
-Unified Experience Cloud interface - [Meer informatie](../../start/using/interface-description.md#top-bar)
+Uniforme Experience Cloud-interface - [Meer informatie](../../start/using/interface-description.md#top-bar)
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
-Er is informatie toegevoegd over het zoeken naar een profiel op basis van de e-mail, voornaam, achternaam of een aangepast veld. [Meer informatie](../../audiences/using/integrated-customer-profile.md)
+Er is informatie toegevoegd over het zoeken naar een profiel op basis van het veld E-mail, Voornaam, Achternaam of een aangepast veld. [Meer informatie](../../audiences/using/integrated-customer-profile.md)
 
-Er is informatie toegevoegd aan de nieuwe functie GetOption, waarmee u de waarde van een opgegeven functie kunt retourneren wanneer u een workflow met externe parameters aanroept. [Meer informatie](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+Er is informatie toegevoegd over de nieuwe functie GetOption waarmee u de waarde van een opgegeven functie kunt retourneren wanneer u een workflow met externe parameters aanroept. [Meer informatie](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
 
 Er is informatie toegevoegd over de nieuwe uitvoervariabele **[!UICONTROL filesCount]** die beschikbaar is na het gebruik van een **[!UICONTROL Transfer file]**-activiteit. [Meer informatie](../../automating/using/transfer-file.md#output-variables)
 
-De sectie **Het configureren van e-mailkanaal** is bijgewerkt om te verduidelijken wat de meest recente toepasselijke e-mailinstellingen zijn. Enkele oudere parameters die nog worden gebruikt voor bepaalde klanten, worden onder aan de pagina weergegeven. [Meer informatie](../../administration/using/configuring-email-channel.md)
+De sectie **E-mailkanaal configureren** is bijgewerkt om te verduidelijken wat de meest recente toepasselijke e-mailinstellingen zijn. Enkele oudere parameters die nog worden gebruikt voor bepaalde klanten, worden onder aan de pagina weergegeven. [Meer informatie](../../administration/using/configuring-email-channel.md)
 
 ## December 2020 {#doc-updates-december-2020}
 
@@ -147,7 +147,7 @@ De hulp bij het configureren van een mobiele app met Adobe Experience Platform-S
 
 **Nieuwe mogelijkheden die in de release zijn opgenomen**
 
-Thaise wet op de bescherming van persoonlijke data (PDPA) - [Meer informatie](https://helpx.adobe.com/content/help/nl/campaign/kb/acs-privacy.html)
+Thaise wet op de bescherming van persoonlijke data (PDPA) - [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html)
 
 Externe API-activiteit (GA) - [Meer informatie](../../automating/using/external-api.md)
 
@@ -305,7 +305,7 @@ Het nieuwe API-eindpunt **/customResources** is aan de API-documentatie toegevoe
 
 **Nieuwe mogelijkheden die in de release zijn opgenomen**
 
-California Consumer Privacy Act (CCPA) - [Meer informatie](https://helpx.adobe.com/content/help/nl/campaign/kb/acs-privacy.html#ccpa)
+California Consumer Privacy Act (CCPA) - [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ccpa)
 
 Microsoft Dynamics 365-integratie (GA) - [Meer informatie](../../integrating/using/d365-acs-get-started.md)
 
@@ -711,7 +711,7 @@ De activiteit Verrijking - Data verrijken op basis van eerdere overgangen - [Mee
 
 De meeste URL’s voor de integratie van Campaign met andere Adobe-oplossingen zijn gewijzigd. Controleer uw bladwijzers. [Meer informatie](../../integrating/using/get-started-campaign-integrations.md)
 
-Het datamodel v1 is nu beschikbaar met de SQL-structuur voor ingebouwde resources - [Meer informatie](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/developing/datamodel/datamodel-audience.html)
+Het datamodel v1 is nu beschikbaar met de SQL-structuur voor ingebouwde resources - [Meer informatie](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/datamodel/datamodel-audience.html?lang=nl)
 
 Er is informatie toegevoegd over het voorbereiden van een bericht in een levering - [Meer informatie](../../sending/using/preparing-the-send.md)
 
@@ -839,7 +839,7 @@ Er is documentatie toegevoegd over rapporten met actieve profielen. [Meer inform
 
 De documentatie over [Leveringswaarschuwingen](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons) is bijgewerkt met een sectie over probleemoplossing waarin een aantal tips zijn opgenomen over de acties die u kunt uitvoeren wanneer u waarschuwingen ontvangt.
 
-Er is een nieuwe handleiding Aan de slag beschikbaar. Hierin vindt u enkele best practices die u kunt gebruiken voor Adobe Campaign, van het maken en targeten tot het verzenden en controleren. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html)
+Er is een nieuwe handleiding Aan de slag beschikbaar. Hierin vindt u enkele best practices die u kunt gebruiken voor Adobe Campaign, van het maken en targeten tot het verzenden en controleren. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html?lang=nl)
 
 De documentatie over vervolgberichten is bijgewerkt met een verbeterd gebruiksscenario. [Meer informatie](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 
