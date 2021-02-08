@@ -9,11 +9,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1479'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Werk binnen de wetgeving die geldt voor de regio(’s) waar u actief bent om pri
 
 >[!NOTE]
 >
->Zie [deze pagina](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy-overview.html#whatisgdpr) voor meer informatie over hoe GDPR, CCPA en PDPA van toepassing zijn op Adobe Campaign.
+>Zie [deze pagina](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy-overview.html#whatisgdpr) voor meer informatie over hoe de AVG, CCPA en PDPA van toepassing zijn op Adobe Campaign.
 
 ### Adobe Experience Cloud-privacy {#experience-cloud-privacy}
 
@@ -78,7 +78,7 @@ Bij privacybeheer is het belangrijk om te bepalen welke gegevens met zorg moeten
 * **Persoonsgegevens** omvatten informatie aan de hand waarvan een levende persoon direct of indirect kan worden geïdentificeerd.
 * **Gevoelige persoonsgegevens** zijn gegevens over etnische afkomst, politieke opvattingen, godsdienstige overtuiging, criminele achtergrond, genetische informatie, gezondheidsgegevens, seksuele voorkeur, biometrische informatie en lidmaatschap van een vakbond.
 
-De [hoofdwetten](#privacy-regulations) verwijzen als volgt naar de verschillende entiteiten die gegevens beheren:
+De [belangrijkste wetgevingen](#privacy-regulations) betreffen de verschillende entiteiten die gegevens als volgt beheren:
 * Een **gegevenscontroller** is de instantie die de middelen en het doel van het verzamelen, gebruiken en delen van persoonsgegevens bepaalt.
 * Een **gegevensprocessor** is een persoon of partij die persoonsgegevens verzamelt, gebruikt of deelt op de manier die door de gegevenscontroller wordt aangegeven.
 * Een **betrokkene** is een levende persoon wiens persoonsgegevens worden verzameld, gebruikt of gedeeld en die aan de hand van deze persoonsgegevens direct of indirect kan worden geïdentificeerd.
@@ -98,7 +98,7 @@ Met Adobe Campaign kunt u gegevens verzamelen, waaronder persoonlijke en gevoeli
 
 ## Privacybeheer {#privacy-management}
 
-Privacybeheer verwijst naar alle processen en tools die u kunnen helpen te voldoen aan de privacywetgeving (AVG, CCPA, enz.). Hiermee krijgt u een overzicht van het privacybeheer op [deze pagina](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy-overview.html).
+Privacybeheer verwijst naar alle processen en tools die u kunnen helpen te voldoen aan de privacywetgeving (AVG, CCPA, enz.). Bekijk een overzicht van privacybeheer op [deze pagina](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy-overview.html).
 
 Adobe Campaign biedt u verschillende functiesets voor privacybeheer:
 * toestemmingsbeheer, dataretentie en gebruikersrollen. Zie [deze sectie](#consent).
@@ -116,7 +116,7 @@ Oorspronkelijk biedt Adobe Campaign belangrijke functies die essentieel zijn voo
 * **Dataretentie**: alle ingebouwde standaard logtabellen bevatten vooraf ingestelde retentieperioden, waarbij de gegevensopslag over het algemeen is beperkt tot 6 maanden of korter. Er kunnen extra retentieperioden worden ingesteld met workflows. Neem hiervoor contact op met de adviseurs van Adobe of met technische beheerders.
 * **Rights Management**: Adobe Campaign biedt u de mogelijkheid om via verschillende standaard of aangepaste rollen de rechten te beheren die aan de verschillende Campaign-operators zijn toegewezen. Hierdoor kunt u bepalen wie binnen uw bedrijf toegang heeft tot verschillende typen gegevens en deze kan wijzigen of exporteren. Zie [Toegangscontrole](../../administration/using/about-access-management.md) voor meer informatie.
 
-Zie [deze pagina](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#consent) voor meer informatie over deze functies en hoe u deze kunt beheren in Adobe Campaign.
+Zie [deze pagina](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy-overview.html#consent) voor meer informatie over deze functies en hoe u ze kunt beheren in Adobe Campaign.
 
 ### Verzoeken om toegang tot persoonsgegevens {#privacy-requests}
 
@@ -128,7 +128,7 @@ Adobe Campaign biedt extra mogelijkheden om uw taak als gegevenscontroller voor 
 
 >[!NOTE]
 >
->Deze reeks tools is bedoeld om u te helpen bij uw privacynaleving voor de AVG, CCPA, en PDPA. Zie [deze pagina](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr) voor meer informatie over deze verschillende verordeningen.
+>Deze reeks tools is bedoeld om u te helpen bij uw privacynaleving voor de AVG, CCPA, en PDPA. Zie [deze pagina](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy-overview.html#whatisgdpr) voor meer informatie over deze verschillende verordeningen.
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -140,7 +140,7 @@ Verzoeken om **toegang** en **verwijdering** worden weergegeven op [deze pagina]
 
 ## Trackingmogelijkheden {#tracking-capabilities}
 
-Dankzij de trackingfuncties van Adobe Campaign kunt u het gedrag van ontvangers van uw leveringen bijhouden met sessiecookies en permanente cookies. Zie [deze pagina](../../sending/using/tracking-messages.md) voor meer informatie over bijhouden.
+Dankzij de trackingfuncties van Adobe Campaign kunt u het gedrag van ontvangers van uw leveringen bijhouden met sessiecookies en permanente cookies. Zie [deze pagina](../../sending/using/tracking-messages.md) voor meer informatie over tracking.
 
 >[!NOTE]
 >
