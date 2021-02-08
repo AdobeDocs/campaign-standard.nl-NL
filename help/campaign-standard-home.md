@@ -5,11 +5,11 @@ product: campaign
 title: Adobe Campaign Standard-productdocumentatie
 description: Bladeren door de Campaign Standard-productdocumentatie
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 658e1916e39cb3deec15a87891d07e3e9172dc78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 ## Nieuwe functies
 
-* **[Campagne van 21.1 februari wordt live uitgezonden!](rn/using/release-notes.md)**<br/> Ontdek nieuwe functies, nieuwste updates en oplossingen
+* **[Campaign 21.1, de release van februari, is nu live.](rn/using/release-notes.md)**<br/> Ontdek nieuwe functies, de laatste updates en oplossingen
 
 * **[Onjuiste hard bounces bijwerken](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Leren hoe u onjuiste hard bounces kunt bijwerken na Gmail-uitval
 
