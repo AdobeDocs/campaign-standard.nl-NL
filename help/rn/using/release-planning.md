@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: fb16fc4e24a4345d73e0b2a0ad58a78771a93b8a
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Alle releasedatums kunnen worden gewijzigd. We raden u aan deze pagina regelmati
 
 Updates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. Exacte datums worden per e-mail naar elke klant verzonden.
 
-Gedetailleerde informatie over deze release is beschikbaar in de [Opmerkingen bij de release](../../rn/using/release-notes.md) wanneer upgrades van werkgebiedomgeving starten.
+Gedetailleerde informatie over deze release is beschikbaar in de [Release-opmerkingen](../../rn/using/release-notes.md) wanneer upgrades van de staging omgeving van start gaan.
 
 <table>
  <thead>
@@ -47,7 +47,7 @@ Gedetailleerde informatie over deze release is beschikbaar in de [Opmerkingen bi
   </tr>
   <tr>
    <td> Productie<br /> </td>
-   <td>8 feb. - 17, 2021<br /> </td>
+   <td>8 - 17 februari 2021<br /> </td>
   </tr>
  </tbody>
 </table>
