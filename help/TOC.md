@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken. '
 breadcrumb-title: Campaign Standard
 title: 'Campaign Standard-handleiding '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 36efc64f9be3863e5e16381aaba445d2f13eac4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1755'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 + [Laatste updates](rn/using/documentation-updates.md)
 + Release-opmerkingen{#release-notes}
    + [Laatste release](rn/using/release-notes.md)
-   + [Opmerkingen bij de eerste release](rn/using/early-release-notes.md)
+   + [Vroege release-opmerkingen](rn/using/early-release-notes.md)
    + Eerdere releases {#previous-releases}
       + [Opmerkingen bij de releases in 2020](rn/using/release-notes-2020.md)
       + [Opmerkingen bij de releases in 2019](rn/using/release-notes-2019.md)
@@ -263,16 +263,16 @@ ht-degree: 95%
       + [Uw triggers testen](integrating/using/testing-your-triggers.md)
       + [Gebruiksscenario’s voor triggers bij afbrekingsacties](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign en Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Aan de slag met de integratie van Microsoft Dynamics 365](integrating/using/d365-acs-get-started.md)
+      + [Aan de slag met de Microsoft Dynamics 365-integratie ](integrating/using/d365-acs-get-started.md)
       + [Best practices en beperkingen](integrating/using/d365-acs-notices-and-recommendations.md)
       + [Microsoft Dynamics 365 configureren](integrating/using/d365-acs-configure-d365.md)
-      + [Campagne en Adobe I/O configureren](integrating/using/d365-acs-configure-adobe-io.md)
-      + Integratie-app {#configure-integration-tool} configureren
-         + [Aan de slag met de integratie-app](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
-         + [Toegang tot de integratie-app](integrating/using/d365-acs-self-service-app-control-access.md)
-         + [Systemen verbinden met de integratie-app](integrating/using/d365-acs-self-service-app-settings.md)
+      + [Campaign en Adobe I/O configureren](integrating/using/d365-acs-configure-adobe-io.md)
+      + De integratieapp configureren {#configure-integration-tool}
+         + [Aan de slag met de integratieapp](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
+         + [Toegang tot de integratieapp](integrating/using/d365-acs-self-service-app-control-access.md)
+         + [Systemen verbinden met de integratieapp](integrating/using/d365-acs-self-service-app-settings.md)
          + [Synchronisatieworkflows beheren](integrating/using/d365-acs-self-service-app-workflows.md)
-         + [Gegevens toewijzen tussen Microsoft Dynamics 365 en Campagne](integrating/using/d365-acs-self-service-app-data-sync.md)
+         + [Gegevens toewijzen tussen Microsoft Dynamics 365 en Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [De integratie van Microsoft Dynamics 365 gebruiken](integrating/using/d365-acs-using-the-integration.md)
 + Processen en data beheren {#managing-processes-and-data}
    + [Aan de slag met data- en procesbeheer](automating/using/get-started-workflows.md)
@@ -451,7 +451,7 @@ ht-degree: 95%
       + [Veelgestelde vragen over de integratie van Experience Platform SDK](administration/using/aep-faq.md)
       + [Launch-regels configureren voor ondersteuning van Adobe Campaign Standard-gebruiksscenario’s](administration/using/configuring-rules-launch.md)
       + [Mobiele gebruiksscenario’s die worden ondersteund in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
-      + [Uw mobiele toepassing migreren van SDK v4 naar Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
+      + [Uw mobiele applicatie migreren van SDK v4 naar Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
    + Een sms-kanaal configureren {#configuring-sms}
       + [Het sms-kanaal implementeren](administration/using/configuring-sms-channel.md)
       + [Protocol en instellingen voor sms-connector](administration/using/sms-protocol.md)
