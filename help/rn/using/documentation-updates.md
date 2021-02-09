@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
+source-git-commit: 87c43d3f97747da03e66634d7236d30a3ec733dc
 workflow-type: tm+mt
 source-wordcount: '6540'
 ht-degree: 97%
@@ -23,7 +23,7 @@ Naast de [release-opmerkingen](../../rn/using/release-notes.md) bij Adobe Campai
 
 **Nieuwe mogelijkheden die in de release zijn opgenomen**
 
-E-mailfeedbackservice - [Meer informatie](../../sending/using/confirming-the-send.md#email-feedback-service)
+E-mailfeedbackservice - [Meer informatie](../../sending/using/confirming-the-send.md#message-indicators)
 
 Verbeteringen in de Adobe Experience Manager-integratie - [Meer informatie](../../integrating/using/creating-multilingual-email-aem.md)
 
