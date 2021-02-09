@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: fb16fc4e24a4345d73e0b2a0ad58a78771a93b8a
+source-git-commit: 558f88a129264560851832ca70628509661cb208
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 98%
+source-wordcount: '467'
+ht-degree: 97%
 
 ---
 
@@ -43,11 +43,11 @@ Gedetailleerde informatie over deze release is beschikbaar in de [Release-opmerk
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>1 - 10 februari 2021<br /> </td>
+   <td>1 - 22 februari 2021<br /> </td>
   </tr>
   <tr>
    <td> Productie<br /> </td>
-   <td>8 - 17 februari 2021<br /> </td>
+   <td>8 feb. - 1 mrt. 2021<br /> </td>
   </tr>
  </tbody>
 </table>
