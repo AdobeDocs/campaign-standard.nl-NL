@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 41f2280c72a2f6bee3e4e972fab17a7ac94b966c
+source-git-commit: 46d864de0ffd5dce718a2a2c055c3194e45fcdd2
 workflow-type: tm+mt
 source-wordcount: '2610'
 ht-degree: 99%
@@ -38,7 +38,7 @@ ht-degree: 99%
 <li>De berekening van de <b>Geleverd</b>-indicator is nu gebaseerd op realtimefeedback van de Enhanced MTA voor verbeterde nauwkeurigheid en reactiviteit.</li>
 <li>EFS lost het probleem van vertragingen bij het rapporteren van synchrone soft bounces op.</li>
 </ul>
-<p>Raadpleeg de <a href="../../sending/using/confirming-the-send.md#email-feedback-service">gedetailleerde documentatie</a> voor meer informatie.
+<p>Raadpleeg de <a href="../../sending/using/confirming-the-send.md#message-indicators">gedetailleerde documentatie</a> voor meer informatie.
 </p>
 </td> 
 </tr> 
