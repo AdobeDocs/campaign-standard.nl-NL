@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: cce30fd5cd3d5d63563d1dab3bb1e7554c26fb3e
+source-git-commit: 974ae83a746c81b417e287fc2665dfa5982eff85
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%
@@ -34,11 +34,11 @@ In deze sectie leert u hoe u toegang kunt verlenen tot de Adobe Campaign Standar
 1. Blader naar https://experience.adobe.com/ en meld u aan bij de Adobe Experience Cloud.
 1. Open de **Admin Console**.
 
-   ![](assets/d365-to-acs-access-3.png)
+   ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
 1. Klik op **[!UICONTROL Products]** om toegang te krijgen tot uw Experience Cloud-oplossingen.
 
-   ![](assets/d365-to-acs-access-6.png)
+   ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
 
    >[!IMPORTANT]
@@ -47,11 +47,11 @@ In deze sectie leert u hoe u toegang kunt verlenen tot de Adobe Campaign Standar
 
 1. Klik op de eerste instantie die u wilt configureren.
 
-   ![](assets/d365-to-acs-access-6.png)
+   ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
    De instantiepagina moet er ongeveer als volgt uitzien:
 
-   ![](assets/d365-to-acs-access-8.png)
+   ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
 1. Klik op de knop **[!UICONTROL New Profile]** en voeg een nieuw item met de naam: **Campaign Standard - your-prod-instance-name - D365/ACS Integration**
 
@@ -63,11 +63,11 @@ In deze sectie leert u hoe u toegang kunt verlenen tot de Adobe Campaign Standar
 
 1. Als uw ingangen aan het volgende gelijkaardig kijken, dan klik **[!UICONTROL Done]** knoop.
 
-   ![](assets/d365-to-acs-access-14.png)
+   ![](assets/do-not-localize/d365-to-acs-access-14.png)
 
    Het nieuwe productprofiel is toegevoegd.
 
-   ![](assets/d365-to-acs-access-15.png)
+   ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
 ## Toegang verlenen aan gebruikers {#add-users-to-profile}
 
@@ -75,11 +75,11 @@ Selecteer op de pagina **[!UICONTROL Products]** de instantie Campagne en volg d
 
 1. Klik op het nieuwe profiel dat u eerder hebt gemaakt:  **Campaign Standard - your-prod-instance-name - D365/ACS Integration**
 
-   ![](assets/d365-to-acs-access-15.png)
+   ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
 1. Klik op het tabblad **[!UICONTROL Developers]**.
 
-   ![](assets/d365-to-acs-access-18.png)
+   ![](assets/do-not-localize/d365-to-acs-access-18.png)
 
 1. Klik op de knop **[!UICONTROL Add Developer]**
 
