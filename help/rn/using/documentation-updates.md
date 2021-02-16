@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 87c43d3f97747da03e66634d7236d30a3ec733dc
+source-git-commit: ea0755d22b34c4c961fd8715ecf4551ffcdcb58e
 workflow-type: tm+mt
-source-wordcount: '6540'
+source-wordcount: '6571'
 ht-degree: 97%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 97%
 # Documentatie-updates{#documentation-updates}
 
 Naast de [release-opmerkingen](../../rn/using/release-notes.md) bij Adobe Campaign worden op deze pagina alle nieuwe updates in de documentatie van Adobe Campaign Standard weergegeven.
+
+## Februari 2021 {#doc-updates-february-2021}
+
+Er is informatie toegevoegd over hoe u ervoor kunt zorgen dat een geplande workflow niet opnieuw wordt gepland totdat een of meer taken uit een vorige uitvoering nog in behandeling zijn. [Meer informatie](../../automating/using/scheduled-workflows-execution.md)
 
 ## Release 21.1 - februari 2021 {#release-21-1---february-2021}
 
