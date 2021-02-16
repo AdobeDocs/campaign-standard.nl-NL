@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
-source-git-commit: 431ab4e83b9d0944cd7b990c3af0e38950dd0272
+source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 89%
+source-wordcount: '1179'
+ht-degree: 85%
 
 ---
 
@@ -109,6 +109,8 @@ U kunt een voorbeeld bekijken van de volgende tien uitvoeringen van uw workflows
 ![](assets/preview_scheduler.png)
 
 Raadpleeg de [activiteit Planner](../../automating/using/scheduler.md) voor meer informatie.
+
+Wanneer u een geplande workflow ontwerpt die meerdere activiteiten bevat, moet u ervoor zorgen dat de workflow niet opnieuw wordt gepland totdat deze is voltooid. Hiervoor moet u uw workflow configureren om te voorkomen dat deze wordt uitgevoerd als een of meer taken uit een eerdere uitvoering nog in behandeling zijn. Raadpleeg [deze pagina](../../automating/using/scheduled-workflows-execution.md) voor meer informatie.
 
 ## Een workflow met parameters aanroepen{#workflow-with-parameters}
 
