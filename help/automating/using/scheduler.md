@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 97%
+source-wordcount: '614'
+ht-degree: 89%
 
 ---
 
@@ -33,6 +33,8 @@ Wanneer u een workflow samenstelt, kunt u slechts één **[!UICONTROL Scheduler]
 >[!CAUTION]
 >
 >De **[!UICONTROL Repetition frequency]** van de activiteit mag niet minder dan 10 minuten duren. Dit betekent dat een workflow niet automatisch meer dan eenmaal per 10 minuten kan worden uitgevoerd.
+
+Wanneer u een geplande workflow ontwerpt die meerdere activiteiten bevat, moet u ervoor zorgen dat de workflow niet opnieuw wordt gepland totdat deze is voltooid. Hiervoor moet u uw workflow configureren om te voorkomen dat deze wordt uitgevoerd als een of meer taken uit een eerdere uitvoering nog in behandeling zijn. Raadpleeg [deze pagina](../../automating/using/scheduled-workflows-execution.md) voor meer informatie.
 
 **Verwante onderwerpen:**
 
