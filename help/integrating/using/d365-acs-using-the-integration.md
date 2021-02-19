@@ -155,7 +155,7 @@ E-mailmarketinggebeurtenissen kunnen via het type worden in-/uitgeschakeld (verz
 
 ### Stroom {#opt-out-flow} uitschakelen
 
-De waarden voor &quot;Opt-out&quot; (bv. lijst van afgewezen personen) worden gesynchroniseerd tussen systemen; u kunt uit de volgende opties kiezen wanneer u aan boord gaat:
+De waarden voor &quot;Opt-out&quot; (bv. lijst van gewezen personen) worden gesynchroniseerd tussen systemen; u kunt uit de volgende opties kiezen wanneer u aan boord gaat:
 
 * **Unidirectioneel (Microsoft Dynamics 365 to Campaign)**: Dynamics 365 is een bron van waarheid voor opt-outs. De opt-uit attributen zullen in één richting van Dynamiek 365 aan Campaign Standard worden gesynchroniseerd&quot;
 * **Unidirectioneel (campagne voor Microsoft Dynamics 365)**: Campaign Standard is de bron van de waarheid voor opt-outs. De opt-uit attributen zullen in één richting van Campaign Standard aan Dynamica 365 worden gesynchroniseerd
@@ -172,7 +172,7 @@ Als u een afzonderlijk proces hebt voor het beheren van de synchronisatie met de
 
 De klant moet aangeven dat de toewijzing van de &quot;opt-out&quot;-stroom moet plaatsvinden, aangezien de zakelijke vereisten per onderneming kunnen verschillen. Aan de kant van de Campagne, slechts kunnen de OOTB opt-out attributen worden gebruikt voor opt-out afbeelding:
 
-* lijst van afgewezen personen
+* lijst van gewezen personen
 * denyListEmail
 * denyListFax
 * denyListMobile
