@@ -97,4 +97,4 @@ U kunt het extractiebestand nu naar uw direct-mailprovider verzenden. Hiervoor h
 * Verzend het via een gewone e-mail, met het bijgevoegde bestand
 * Verstuur het via Campaign: voer uw direct mail uit binnen een campagne[workflow](../../automating/using/direct-mail-delivery.md) en voeg een **[!UICONTROL Transfer file]** toe om het bestand bijvoorbeeld via FTP te versturen. Zie [Bestand overdragen](../../automating/using/transfer-file.md)
 
-De leverancier wint de lijst van onjuiste adressen terug en verzendt deze informatie naar Adobe Campaign die automatisch de onjuiste adressen toe_voegt op lijst van gewenste personen. Zie [Terug naar afzender](../../channels/using/return-to-sender.md).
+De leverancier wint de lijst van onjuiste adressen terug en verzendt deze informatie naar Adobe Campaign die automatisch de onjuiste adressen voegt op lijst van gewenste personen. Zie [Terug naar afzender](../../channels/using/return-to-sender.md).
