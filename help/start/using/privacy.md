@@ -9,9 +9,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 100%
 
@@ -128,7 +128,7 @@ Adobe Campaign biedt extra mogelijkheden om uw taak als gegevenscontroller voor 
 
 >[!NOTE]
 >
->Deze reeks tools is bedoeld om u te helpen bij uw privacynaleving voor de AVG, CCPA, en PDPA. Zie [deze pagina](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy-overview.html#whatisgdpr) voor meer informatie over deze verschillende verordeningen.
+>Deze reeks tools is bedoeld om u te helpen bij uw privacynaleving voor de AVG, CCPA, en PDPA. Zie [deze pagina](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr) voor meer informatie over deze verschillende verordeningen.
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
