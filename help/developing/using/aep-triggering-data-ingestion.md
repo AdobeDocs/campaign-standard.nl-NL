@@ -32,7 +32,7 @@ Alvorens APIs te gebruiken, moet de gegevenstoewijzing eerst binnen de interface
 * [Toewijzingsdefinitie](../../developing/using/aep-mapping-definition.md)
 * [Toewijzingsactivering](../../developing/using/aep-mapping-activation.md)
 
-Als de gegevenstoewijzing is gemaakt, moet u de bewerking stoppen zodat u deze op elk gewenst moment vanuit de API kunt activeren. Ga als volgt te werk om dit te doen:
+Nadat de gegevenstoewijzing is gemaakt, moet u de bewerking stoppen zodat u deze op elk gewenst moment vanuit de API kunt activeren. Ga als volgt te werk om dit te doen:
 
 1. Ga in Campaign Standard naar **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
 
