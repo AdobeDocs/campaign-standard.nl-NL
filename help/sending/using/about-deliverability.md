@@ -51,7 +51,7 @@ Eerst raadpleegt u de documentatie over de leverbare gereedschappen die bij Camp
 * [Waarschuwingen ontvangen wanneer fouten optreden](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Leveringsfouten begrijpen](../../sending/using/understanding-delivery-failures.md)
 * [Quarantainebeheer begrijpen](../../sending/using/understanding-quarantine-management.md)
-* [Quarantine versus lijst van afgewezen personen](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+* [Quarantine versus lijst van gewezen personen](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 * [Dynamische rapporten](../../reporting/using/about-dynamic-reports.md)
 
 ## Netwerkconfiguratie {#network-configuration} controleren
