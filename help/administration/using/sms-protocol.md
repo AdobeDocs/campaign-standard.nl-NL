@@ -299,7 +299,7 @@ In dit voorbeeld wordt het geval van een implementatie weergegeven volgens de aa
 id:1234567890 sub:001 dlvrd:001 submit date:1608011415 done date:1608011417 stat:DELIVRD err:000 Text:Hello Adobe world
 ```
 
-Eerst, wordt `id extraction` regex toegepast om identiteitskaart te halen en het met overeenkomstige MT te verzoenen.
+Eerst, wordt `id extraction` regex toegepast om identiteitskaart te halen en het met overeenkomstige MT in overeenstemming te brengen.
 
 Vervolgens worden de `status extraction` regex en `error code extraction` regex toegepast om deze velden te extraheren en worden deze aan de tekenreeks toegevoegd.
 
@@ -478,7 +478,7 @@ Het opgeven van korte code is handig voor twee functies:
 
 * In de voorvertoning wordt de korte code weergegeven als er geen bronnummer is opgegeven. Het zal het echte gedrag op de mobiele telefoon weerspiegelen.
 
-* De lijst van afgewezen personen die van de auto antwoordeigenschap plaatst verzendt slechts naar quarantaine de gebruiker voor een specifieke korte code.
+* De lijst van gewezen personen die van de auto antwoordeigenschap plaatst verzendt slechts naar quarantaine de gebruiker voor een specifieke korte code.
 
 #### Bron TON/NPI, bestemming TON/NPI {#ton-npi}
 
@@ -582,7 +582,7 @@ Als dit selectievakje niet is ingeschakeld, worden alleen cijfers van het telefo
 
 Als het selectievakje is ingeschakeld, wordt het telefoonnummer ongewijzigd verzonden, zonder voorbehandeling en mogelijke spaties, plus voorvoegsel- of hekje-/sterborden.
 
-Deze functie heeft ook een effect op het gedrag van de functie lijst van afgewezen personen voor automatisch reageren: wanneer checkbox niet wordt gecontroleerd, zal a + prefix aan telefoonaantallen worden toegevoegd die in de quarantainelijst worden opgenomen om te compenseren + prefix die van het telefoonaantal door het protocol SMPP zelf wordt verwijderd.
+Deze functie heeft ook een effect op het gedrag van de functie lijst van gewezen personen voor automatisch reageren: wanneer checkbox niet wordt gecontroleerd, zal a + prefix aan telefoonaantallen worden toegevoegd die in de quarantainelijst worden opgenomen om te compenseren + prefix die van het telefoonaantal door het protocol SMPP zelf wordt verwijderd.
 
 #### Controle van TLS-certificaat overslaan {#skip-tls}
 
@@ -704,7 +704,7 @@ Met deze instelling kunt u slechts één TLV-optie per bericht toevoegen.
 
 ### Automatisch antwoord verzonden naar het MO-bericht {#automatic-reply}
 
-Met deze functie kunt u snel tekst op de MO beantwoorden en per korte code naar de lijst van afgewezen personen verzenden.
+Met deze functie kunt u snel tekst op de MO beantwoorden en per korte code naar de lijst van gewezen personen verzenden.
 
 Met de kolommen **Trefwoord** en **Korte code** worden voorwaarden gedefinieerd om de automatische reactie te activeren. Als beide velden overeenkomen, wordt de MO verzonden en wordt de aanvullende actie geactiveerd. Als u een jokerteken wilt opgeven, laat u het veld leeg. Trefwoorden komen overeen met het eerste alfanumerieke woord in de MO-tekst, waarbij leestekens en voorloopruimten worden genegeerd. Het betekent dat het **Trefwoord** gebied geen ruimten kan bevatten en één enkel woord moet zijn.
 
