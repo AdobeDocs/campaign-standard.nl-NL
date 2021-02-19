@@ -54,7 +54,7 @@ U kunt dit plannen met behulp van een workflow.
       * **2017-06-05 10:00:00+01**
    * Selecteer de optie **[!UICONTROL Limit the population of this segment]**.
 
-      Selecteer **[!UICONTROL Limitation]** op het tabblad &lt;a0/> en voer het gewenste percentage voor elk segment in: 10 voor de eerste partij, 15 voor de tweede, enzovoort.**[!UICONTROL Random sampling]**
+      Selecteer **[!UICONTROL Limitation]** op het tabblad **[!UICONTROL Random sampling]** en voer het gewenste percentage voor elk segment in: 10 voor de eerste partij, 15 voor de tweede, enzovoort.
 
       ![](assets/send-time_opt_segment_limitation.png)
 
@@ -127,7 +127,7 @@ U kunt dit plannen met behulp van een workflow.
       >De contactdatum wordt later in de workflow gedefinieerd in de e-mailleveringsactiviteit.
 
    * Selecteer de optie **[!UICONTROL Limit the population of this segment]**.
-   * Selecteer **[!UICONTROL Limitation]** op het tabblad &lt;a0/> en voer het gewenste percentage voor elk segment in: **25**.**[!UICONTROL Random sampling]**
+   * Selecteer **[!UICONTROL Limitation]** op het tabblad **[!UICONTROL Random sampling]** en voer het gewenste percentage voor elk segment in: **25**.
 
 
 1. Wanneer alle segmenten zijn gedefinieerd, selecteert u **[!UICONTROL Generate all segments in the same transition]** en klikt u op **[!UICONTROL Confirm]**.
