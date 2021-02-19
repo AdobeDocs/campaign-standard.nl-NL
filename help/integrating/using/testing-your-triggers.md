@@ -72,7 +72,7 @@ Zo ja, volg deze richtsnoeren:
 Indien niet, ga naar de volgende stap. Zo ja, volg deze richtsnoeren:
 
 * Controleer of de transactiesjabloon is gepubliceerd.
-* Controleer of het profiel niet in lijst van afgewezen personen is.
+* Controleer of het profiel niet in lijst van gewezen personen is.
 * Controleer de toepassing van typologische regels.
 * Controleer de logboeken van het transactiemelding bericht.
 
