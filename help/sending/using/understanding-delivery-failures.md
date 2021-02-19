@@ -27,7 +27,7 @@ Wanneer een levering niet naar een profiel kan worden verzonden, verzendt de ext
 >
 >**Sms-foutberichten** (of ‘SR’ voor ‘Statusrapport’) worden gekwalificeerd door het MTA-proces.
 
-De berichten kunnen ook tijdens de leveringsvoorbereiding worden uitgesloten als een adres quarantined is of als een profiel op de lijst van afgewezen personen is. Uitgesloten berichten worden weergegeven op het tabblad **[!UICONTROL Exclusion logs]** van het leveringsdashboard (zie [deze sectie](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
+De berichten kunnen ook tijdens de leveringsvoorbereiding worden uitgesloten als een adres quarantined is of als een profiel op de lijst van gewezen personen is. Uitgesloten berichten worden weergegeven op het tabblad **[!UICONTROL Exclusion logs]** van het leveringsdashboard (zie [deze sectie](../../sending/using/monitoring-a-delivery.md#exclusion-logs)).
 
 ![](assets/exclusion_logs.png)
 
@@ -65,7 +65,7 @@ De mogelijke redenen van een leveringsfout zijn:
 | **[!UICONTROL Duplicate]** | Genegeerd | Het adres is reeds ontdekt in de segmentatie. |
 | **[!UICONTROL Not defined]** | Zacht | Het adres is in kwalificatie omdat de fouten nog niet zijn verhoogd. Dit type fout treedt op wanneer een nieuw foutbericht wordt verzonden door de server: het kan een geïsoleerde fout zijn, maar als deze opnieuw voorkomt, zal de foutenteller stijgen en worden de technische teams gewaarschuwd. |
 | **[!UICONTROL Error ignored]** | Genegeerd | Het adres staat op de lijst van gewenste personen en er zal in elk geval een e-mail naar worden gestuurd. |
-| **[!UICONTROL Address on denylist]** | Hard | Het adres werd toegevoegd aan de lijst van afgewezen personen toen het verzenden. |
+| **[!UICONTROL Address on denylist]** | Hard | Het adres werd toegevoegd aan de lijst van gewezen personen toen het verzenden. |
 | **[!UICONTROL Account disabled]** | Zacht/Hard | Wanneer de Internet Access Provider (IAP) een lange periode van inactiviteit ontdekt, kan het de rekening van de gebruiker sluiten: levering aan het adres van de gebruiker zal dan onmogelijk zijn. Het type Soft of Hard is afhankelijk van het type ontvangen fout: als het account tijdelijk is uitgeschakeld vanwege een inactiviteit van zes maanden en nog steeds kan worden geactiveerd, wordt de status **[!UICONTROL Erroneous]** toegewezen en wordt de levering opnieuw geprobeerd. Als de ontvangen fout aangeeft dat het account permanent is gedeactiveerd, wordt de levering rechtstreeks in quarantaine geplaatst. |
 | **[!UICONTROL Not connected]** | Genegeerd | De mobiele telefoon van het profiel is uitgeschakeld of heeft geen verbinding met het netwerk wanneer het bericht wordt verzonden. |
 | **[!UICONTROL Invalid domain]** | Zacht | Het domein van het e-mailadres is onjuist of bestaat niet meer. Dit profiel wordt opnieuw geactiveerd tot het aantal fouten 5 is. Hierna wordt de record ingesteld op de status Quarantaine en wordt de levering niet opnieuw geprobeerd. |
