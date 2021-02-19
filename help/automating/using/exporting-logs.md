@@ -68,7 +68,7 @@ De bewerking voor het exporteren van logbestanden kan worden uitgevoerd door sta
 
 1. Voeg een **[!UICONTROL Transfer file]** activiteit toe en vorm het om het nieuwe dossier van de server van Adobe Campaign naar een andere plaats over te brengen waar u tot het kunt toegang hebben, zoals een server SFTP.
 
-   * Selecteer **[!UICONTROL General]** op het tabblad &lt;a0/> als doel het bestand van Adobe Campaign naar een andere server te verzenden.**[!UICONTROL File upload]**
+   * Selecteer **[!UICONTROL General]** op het tabblad **[!UICONTROL File upload]** als doel het bestand van Adobe Campaign naar een andere server te verzenden.
    * Geef op het tabblad **[!UICONTROL Protocol]** de overdrachtsparameters op en selecteer de [externe account](../../administration/using/external-accounts.md#creating-an-external-account) die u wilt gebruiken.
 
 1. Voeg een **[!UICONTROL End]** activiteit toe om ervoor te zorgen het behoorlijk beëindigt en uw werkschema bewaart.
