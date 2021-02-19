@@ -214,7 +214,7 @@ Houd er rekening mee dat u op &quot;Opslaan&quot; moet klikken om uw selecties o
 
 Hieronder vindt u een lijst met beschikbare opties voor het synchroniseren van gegevens:
 
-* **[!UICONTROL Disabled]**: Als deze optie is geselecteerd, wordt er geen informatie over in- en uitschakelen verplaatst tussen Adobe Campaign en Microsoft Dynamics 365.
+* **[!UICONTROL Disabled]**: als deze optie is geselecteerd, wordt er geen informatie over in- en uitschakelen verplaatst tussen Adobe Campaign en Microsoft Dynamics 365.
 
 * **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]**: Deze optie wordt gebruikt om opt-in/uit van de Dynamiek 365 van Microsoft aan Adobe Campaign slechts te stromen. De integratietoepassing zal u niet de stroom in dit scherm laten vormen; Klik in plaats daarvan op **[!UICONTROL Save button]** en navigeer naar de **[!UICONTROL Microsoft Dynamics 365 to Campaign]**-workflow. In deze workflow kunt u de toewijzing van contactpersonen/profieltabellen bewerken om te bepalen hoe u wilt dat uw velden voor in- en uitschakelen worden toegewezen.
 
