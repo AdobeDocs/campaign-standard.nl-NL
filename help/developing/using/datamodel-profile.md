@@ -393,7 +393,7 @@ ht-degree: 1%
                         <li>(GMT+04:00) Greenwich Mean Time plus 4 uur - Gmt_p4 - Etc/GMT-4</li>
                         <li>(GMT+07:00) Greenwich Mean Time plus 7 uur - GMT_p7 - Etc/GMT-7</li>
                         <li>(GMT+06:00) Greenwich Mean Time plus 6 uur - Gmt_p6 - Etc/GMT-6</li>
-                        <li>(GMT+01:00) Greenwich Mean Time plus 1 uur - Gmt_p1 - Etc/GMT-1</li>
+                        <li>(GMT+01:00) Greenwich Mean Time plus 1 uur - Gmt_p1 - EC/GMT-1</li>
                         <li>(GMT-08:00) Pacific (Verenigde Staten en Canada) - America_Los_Angeles - America/Los_Angeles</li>
                         <li>(GMT+02:00) Greenwich Mean Time plus 2 uur - Gmt_p2 - Etc/GMT-2</li>
                         <li>(GMT+07:00) Krasnoïarsk - Azië_Krasnoyarsk - Azië/Krasnoyarsk</li>
