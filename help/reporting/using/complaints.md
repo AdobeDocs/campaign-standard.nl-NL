@@ -24,4 +24,4 @@ In het rapport **[!UICONTROL Complaints]** worden de leveringen die de meeste de
 
 De **Flop** lijst, die door ontvankelijk domein wordt gesorteerd, toont het aantal ontvangers die een e-mail of junk hebben verklaard. De resultaten van de tabel zijn ook beschikbaar in een diagram en een overzichtsnummer.
 
-De **Geleverde vs op Lijst van afgewezen personen** lijst maakt een lijst van het aantal ontvangers die een e-mail als spam of junk hebben verklaard. De tabel wordt gesorteerd op levering.
+De **Geleverde vs op Lijst van gewezen personen** lijst maakt een lijst van het aantal ontvangers die een e-mail als spam of junk hebben verklaard. De tabel wordt gesorteerd op levering.
