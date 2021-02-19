@@ -189,7 +189,7 @@ De belangrijkste stappen voor dit gebruik zijn als volgt:
 
 1. Bouw het werkschema om een publiek van het dossier tot stand te brengen. Hiervoor voegt u de volgende activiteiten toe en configureert u deze:
 
-   * **[!UICONTROL Load file]** activiteit: Hiermee importeert u het CSV-bestand (raadpleeg  [deze sectie](../../automating/using/load-file.md) voor meer informatie over deze activiteit).
+   * **[!UICONTROL Load file]** activiteit: Hiermee importeert u het CSV-bestand (zie  [deze sectie](../../automating/using/load-file.md) voor meer informatie over deze activiteit).
    * **[!UICONTROL Reconciliation]** activiteit: Koppelt informatie uit het bestand aan informatie uit de database. In dit voorbeeld gebruiken we het e-mailadres van het profiel als verzoeningsveld (voor meer informatie over deze activiteit verwijst u naar [deze sectie](../../automating/using/reconciliation.md)).
    * **[!UICONTROL Save audience]** activiteit: Hiermee maakt u een publiek op basis van het geïmporteerde bestand (raadpleeg  [deze sectie](../../automating/using/save-audience.md) voor meer informatie over deze activiteit).
 
