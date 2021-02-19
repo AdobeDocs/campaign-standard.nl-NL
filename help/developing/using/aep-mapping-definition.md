@@ -45,7 +45,7 @@ Om deze taak uit te voeren, zijn de eerste vereisten:
 >
 >Als de gegevensset die u selecteert al wordt gebruikt in een bestaande gegevenstoewijzing, wordt een waarschuwing weergegeven dat uw gegevens mogelijk worden overschreven op Adobe Experience Platform. Dit kan gebeuren wanneer er sommige gemeenschappelijke ontvangers in datamappings gebruikend een zelfde dataset zijn.
 
-In het volgende scherm wordt de sectie **[!UICONTROL Field mappings]** weergegeven waarin u een nieuwe toewijzing kunt maken voor elk veld in het schema Campaign Standard.
+Het volgende scherm stelt de **[!UICONTROL Field mappings]** sectie voor waar u een nieuwe afbeelding voor elk gebied in het schema van de Campaign Standard kunt tot stand brengen.
 
 ![](assets/aep_fieldmappings.png)
 
