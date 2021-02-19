@@ -13,7 +13,7 @@ ht-degree: 2%
 ---
 
 
-# Systemen verbinden met de integratie-app
+# Systemen verbinden met de integratieapp
 
 ## Referenties toevoegen aan de integratie-app
 
@@ -68,7 +68,7 @@ U moet het volgende opgeven:
 
 * **SFTP-sleutel**: Als u een SSH-sleutel hebt, voegt u deze hier toe. Verwijs anders naar [deze sectie](#ac-control-panel-settings).
 
-* De **IP-bereiken** moeten worden opgenomen in uw Adobe Campaign SFTP-configuratie. Deze zullen moeten worden toegevoegd op lijst van gewenste personen opdat de integratie van het eindpunt SFTP gebruik kan maken.
+* De **IP-bereiken** moeten worden opgenomen in uw Adobe Campaign SFTP-configuratie. Deze zullen moeten worden gevoegd op lijst van gewenste personen opdat de integratie van het eindpunt SFTP gebruik kan maken.
 
 * De **Wilt u logbestanden exporteren naar uw Adobe Campaign SFTP?** staat u toe om te bepalen als de integratie logboekinformatie aan het eindpunt van SFTP zal uitvoeren. Dit kan worden gebruikt om met het zuiveren te helpen als Adobe Campaign of de Dynamica 365 van Microsoft niet de informatie toont u verwacht.
 
