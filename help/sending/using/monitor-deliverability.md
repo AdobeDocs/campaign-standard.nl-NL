@@ -25,7 +25,7 @@ Hieronder vindt u meer informatie over het **[!UICONTROL Delivery throughput]**-
 * Controleer elke leveringsproductie om ervoor te zorgen dat het met de geldigheid van de leveringsinhoud (b.v. &#39;Flash-verkoop&#39; moet in minuten worden geleverd, niet in dagen).
 * Wanneer het gebruiken van golven, verifieer dat elke golf genoeg tijd heeft om te beëindigen alvorens volgende wordt teweeggebracht.
 * Controleer of het aantal fouten en nieuwe quarantines consistent zijn met andere leveringen.
-* Raadpleeg zorgvuldig de leveringslogboeken in detail om het soort fouten te controleren die worden benadrukt (lijsten van afgewezen personen, DNS kwesties, anti-spamregels, enz.).
+* Raadpleeg zorgvuldig de leveringslogboeken in detail om het soort fouten te controleren die worden benadrukt (lijsten van gewezen personen, DNS kwesties, anti-spamregels, enz.).
 
 ## Leveringsdoorvoer {#delivery-throughput}
 
@@ -63,6 +63,6 @@ Spam van het signaal verstrekt ook directe klachten dat het eind - gebruikers do
 
 ## 250ok {#solution-250ok}
 
-250ok is een controleoplossing die IP en domeinlijsten van afgewezen personen, evenals reputatie-indicatoren verstrekt.
+250ok is een controleoplossing die IP en domeinlijsten van gewezen personen, evenals reputatie-indicatoren verstrekt.
 
 De verstrekte informatie is real-time, wat een pro-actieve bijstand mogelijk maakt. 250ok is een aanvullende oplossing voor de interne instrumenten voor de Adobe-leverbaar.
