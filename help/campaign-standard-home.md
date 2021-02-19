@@ -1,15 +1,15 @@
 ---
-keywords: Campaign Standard;home;popular topics
+keywords: Campaign Standard;home;populaire onderwerpen
 solution: Campaign Standard
 product: campaign
 title: Adobe Campaign Standard-productdocumentatie
 description: Bladeren door de Campaign Standard-productdocumentatie
 topic: Premium
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 658e1916e39cb3deec15a87891d07e3e9172dc78
-workflow-type: ht
-source-wordcount: '233'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 97%
 
 ---
 
