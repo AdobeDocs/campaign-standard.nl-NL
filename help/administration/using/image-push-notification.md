@@ -61,7 +61,7 @@ Als uw toepassing zich in [!DNL Swift] bevindt, voert u de onderstaande stappen 
 
 1. Open uw [!DNL Xcode] project.
 
-1. Selecteer [!DNL Xcode] > **[!UICONTROL New]** > **[!UICONTROL Target]** in uw &lt;a0/>-project.**[!UICONTROL File]**
+1. Selecteer [!DNL Xcode] > **[!UICONTROL New]** > **[!UICONTROL Target]** in uw **[!UICONTROL File]**-project.
 
 1. Selecteer **[!UICONTROL Notification Service Extension]**.
 
