@@ -42,13 +42,13 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Op lijst van afgewezen personen<br /> </td> 
+   <td> Op lijst van gewezen personen<br /> </td> 
    <td> @blacklist<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Lijst van afgewezen personen snelheid<br /> </td> 
+   <td> Lijst van gewezen personen snelheid<br /> </td> 
    <td> @rateBlacklist<br /> </td> 
    <td> @blacklist/@sent<br /> </td> 
    <td> De noemer voor het berekenen van het tarief is gebaseerd op Verzonden telling (Geleverd + Stemmen).<br /> </td> 
