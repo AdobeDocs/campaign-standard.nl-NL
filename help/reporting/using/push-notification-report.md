@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Houd er rekening mee dat u de **[!UICONTROL Message type]** metriek naar uw tabellen moet slepen om de gegevens te splitsen op basis van uw leveringstypen, in dit geval de pushmeldingleveringen.
+>Houd er rekening mee dat u de **[!UICONTROL Message type]** metriek naar uw tabellen moet slepen om de gegevens te splitsen op basis van uw leveringstypen, in dit geval de levering van pushberichten.
 
 Het **Push-bericht**-rapport bevat details over de marketingprestaties van pushberichten in Adobe Campaign. Dit out-of-the-box rapport helpt u te begrijpen hoe de gebruikers met dupberichten, mobiele toepassingen en leveranties in wisselwerking staan.
 
