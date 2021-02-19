@@ -201,4 +201,4 @@ De integratie werd ontworpen om het algemene gebruiksgeval van gemeenschappelijk
 
 * Het samenstellen en activeren van campagne-e-mailcampagnes vanuit Dynamics 365 wordt niet ondersteund.
 
-* De integratie steunt **not** het remodeling van gegevens tussen de Dynamica 365 en de gegevensmodellen van Campaign Standard. Verwacht wordt dat de integratie één Dynamics 365 tabel synchroniseert met één campagneretabel.
+* De integratie steunt **not** het remodeling van gegevens tussen de Dynamica 365 en de gegevensmodellen van Campaign Standard. Naar verwachting zal de integratie één Dynamics 365-tabel synchroniseren met één campagneretabel.
