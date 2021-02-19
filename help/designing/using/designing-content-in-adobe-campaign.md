@@ -120,7 +120,7 @@ Als u Email Designer goed wilt gebruiken en op de eenvoudigste manier de beste e
 
 * De meta-tag Referrer wordt niet ondersteund in de e-mailontwerper.
 
-Meer best practices voor algemeen gebruik en ontwerp vindt u in de volgende stapsgewijze Adobe Campaign-handleiding: [Best practices voor levering met Adobe Campaign](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html).
+Meer best practices voor algemeen gebruik en ontwerp vindt u in de volgende stapsgewijze Adobe Campaign-handleiding: [Best practices voor levering met Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html?lang=nl).
 
 ### Fragmenten bijwerken {#email-designer-updates}
 
