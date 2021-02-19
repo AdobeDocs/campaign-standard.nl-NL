@@ -96,7 +96,7 @@ Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikma
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Vanaf Campaign 19.0 is de verouderde e-maileditor afgeschaft. Met <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campagne voor e-mailontwerpen</a> kunt u uw e-mailinhoud maken en aanpassen. </p></br>
+   <td> <p>Vanaf Campaign 19.0 is de verouderde e-maileditor afgeschaft. Gebruik <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campagne e-mailDesigner</a> om uw e-mailinhoud te maken en aan te passen. </p></br>
    <p>Lees <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">deze sectie</a> om te ontdekken hoe u uw e-mailsjablonen voor de nieuwe editor kunt aanpassen.</p></br>
   <p> 
   <em>Doeldatum verwijdering: eind 2021</em></p>
