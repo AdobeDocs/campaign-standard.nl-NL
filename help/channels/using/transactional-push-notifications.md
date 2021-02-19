@@ -163,7 +163,7 @@ Als u een pushmelding over een transactie wilt verzenden naar de Adobe Campaign-
 
 ### Een op een profiel gebaseerde pushmelding voor transacties verzenden {#sending-profile-based-transactional-push-notification}
 
-Een luchtvaartmaatschappij wil bijvoorbeeld een laatste instapoproep sturen naar alle Adobe Campaign-gebruikers die zich op de mobiele toepassing hebben geabonneerd.
+Een luchtvaartmaatschappij wil bijvoorbeeld een laatste oproep tot instapweigering sturen naar alle Adobe Campaign-gebruikers die zich op de mobiele toepassing hebben geabonneerd.
 
 1. Ga naar het transactionele bericht dat is gemaakt om het te bewerken. Zie [Transactieberichten benaderen](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
 
