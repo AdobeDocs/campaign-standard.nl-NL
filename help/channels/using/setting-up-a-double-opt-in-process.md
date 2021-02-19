@@ -27,7 +27,7 @@ Het principe is om een e-mail te verzenden om de instemming van bezoekers te bev
 
 Hiervoor gaat u als volgt te werk:
 
-1. Maak en publiceer een landingspagina zodat de bezoekers zich kunnen registreren en inschrijven. Deze landingspagina is beschikbaar vanaf een website. Bezoekers die deze landingspagina invullen en verzenden, worden in de database opgeslagen maar aan de lijst van afgewezen personen toegevoegd om geen communicatie te ontvangen vóór de laatste validatie (zie [Beheer van Lijst van afgewezen personen in Campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. Maak en publiceer een landingspagina zodat de bezoekers zich kunnen registreren en inschrijven. Deze landingspagina is beschikbaar vanaf een website. Bezoekers die deze landingspagina invullen en verzenden, worden in de database opgeslagen maar aan de lijst van gewezen personen toegevoegd om geen communicatie te ontvangen vóór de laatste validatie (zie [Beheer van Lijst van gewezen personen in Campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. Maak en verzend automatisch de opt-in e-mail met een bevestigingskoppeling. Deze e-mail is bedoeld voor de populatie die de landingspagina heeft ingediend. De mail is gebaseerd op een e-mailsjabloon die het mogelijk maakt opt-outprofielen doelgericht te benaderen.
 1. Stuur bezoekers door naar een landingspagina voor bevestiging. Op deze laatste landingspagina wordt een bevestigingsknop voorgesteld waarop de bezoekers moeten klikken. U kunt een welkomst-e-mail ontwerpen die wordt verzonden wanneer de bevestiging is voltooid en bijvoorbeeld een speciale aanbieding voor nieuwe ontvangers aan de e-mail toevoegen.
 
@@ -55,7 +55,7 @@ Ga als volgt te werk om deze landingspagina te maken en te configureren:
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   In deze context wordt het veld &#39;Op lijst van afgewezen personen&#39; verwijderd, zodat e-mailberichten kunnen worden verzonden. Later zullen we zien dat op de eerste landingspagina dit veld vóór de bevestiging was ingesteld op **true** om te voorkomen dat e-mails naar niet-bevestigde profielen worden verzonden. Zie [Stap 3: De landingspagina voor acquisitie maken](#step-3--create-the-acquisition-landing-page) voor meer informatie.
+   Deze context verwijdert het veld &#39;Op lijst van gewezen personen&#39; om e-mails te kunnen verzenden. Later zullen we zien dat op de eerste landingspagina dit veld vóór de bevestiging was ingesteld op **true** om te voorkomen dat e-mails naar niet-bevestigde profielen worden verzonden. Zie [Stap 3: De landingspagina voor acquisitie maken](#step-3--create-the-acquisition-landing-page) voor meer informatie.
 
 1. Pas de content van de landingspagina aan. U kunt bijvoorbeeld gepersonaliseerde data weergeven en het label van de bevestigingsknop wijzigen in ‘Click here to confirm my subscription’.
 
@@ -96,12 +96,12 @@ De gebeurtenis is gereed. U kunt nu de e-mailsjabloon ontwerpen. Deze sjabloon m
 
 ### De typologie maken {#create-the-typology-rule}
 
-U moet een specifieke [typologie](../../sending/using/about-typology-rules.md) maken door een kant-en-klare typologie te dupliceren. De typologie maakt het mogelijk berichten te verzenden naar profielen die hun instemming nog niet hebben bevestigd en die nog in de lijst van afgewezen personen zijn. Standaard sluiten typologieën de profielen opt-out (d.w.z. op lijst van afgewezen personen) uit. Voer de volgende stappen uit om deze typologie te maken:
+U moet een specifieke [typologie](../../sending/using/about-typology-rules.md) maken door een kant-en-klare typologie te dupliceren. De typologie maakt het mogelijk berichten te verzenden naar profielen die hun instemming nog niet hebben bevestigd en die nog in de lijst van gewezen personen zijn. Standaard sluiten typologieën de profielen opt-out (d.w.z. op lijst van gewezen personen) uit. Voer de volgende stappen uit om deze typologie te maken:
 
 1. Selecteer vanaf het Adobe Campaign-logo de optie **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** en klik op **[!UICONTROL Typologies]**.
 1. Dupliceer de kant-en-klare typologie **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Zodra de duplicatie is bevestigd, bewerkt u de nieuwe typologie en voert u het label **TYPOLOGY_PROFILE** in.
-1. Verwijder **Adres op lijst van afgewezen personen** regel.
+1. Verwijder **Adres op lijst van gewezen personen** regel.
 1. Klik op **[!UICONTROL Save]**.
 
 Deze typologie kan nu worden gekoppeld aan de bevestigings-e-mail.
@@ -132,7 +132,7 @@ Ga als volgt te werk om deze landingspagina te maken en te configureren:
 
    en stel de waarde in op **true**.
 
-   Dit is verplicht om het toevoegen van lijst van afgewezen personen te forceren en te voorkomen dat bezoekers berichten ontvangen die hun instemming niet hebben bevestigd. Door validatie van de landingspagina CONFIRMATION wordt dit veld ingesteld op **false** na de bevestiging. Zie [Stap 1: De landingspagina voor bevestiging maken](#step-1--create-the-confirmation-landing-page) voor meer informatie.
+   Dit is verplicht om het toevoegen van lijst van gewezen personen te forceren en te voorkomen dat bezoekers berichten ontvangen die hun instemming niet hebben bevestigd. Door validatie van de landingspagina CONFIRMATION wordt dit veld ingesteld op **false** na de bevestiging. Zie [Stap 1: De landingspagina voor bevestiging maken](#step-1--create-the-confirmation-landing-page) voor meer informatie.
 
 1. Selecteer in de sectie **[!UICONTROL Job]** > **[!UICONTROL Specific actions]** de optie **[!UICONTROL Start sending messages]**.
 1. Kies in de gekoppelde vervolgkeuzelijst de door u gemaakte transactionele berichtsjabloon **CONFIRM**.
