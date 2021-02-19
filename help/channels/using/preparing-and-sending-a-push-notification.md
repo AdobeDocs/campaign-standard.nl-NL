@@ -99,7 +99,7 @@ U kunt pushmeldingen naar een geselecteerd publiek in Adobe Campaign verzenden d
 
 1. Op het tabblad **[!UICONTROL Exclusion logs]** vindt u de lijst met alle berichten die zijn uitgesloten van het verzonden doel en de reden voor deze uitsluiting.
 
-   Hier kunnen we zien dat een van onze abonnees van mobiele apps is uitgesloten, omdat het adres zich op de lijst van afgewezen personen bevond en de andere abonnees omdat het profiel een duplicaat was.
+   Hier kunnen we zien dat een van onze abonnees van mobiele apps is uitgesloten, omdat het adres zich op de lijst van gewezen personen bevond en de andere abonnees omdat het profiel een duplicaat was.
 
    ![](assets/push_send_5.png)
 
@@ -114,7 +114,7 @@ U kunt pushmeldingen naar een geselecteerd publiek in Adobe Campaign verzenden d
 
    ![](assets/push_send_4.png)
 
-1. Klik in het venster **[!UICONTROL Deployment]** op het tabblad **[!UICONTROL Sending logs]** voor toegang tot de lijst met verzonden pushberichten en hun status. Voor deze levering is een pushmelding verzonden, terwijl het andere is mislukt als gevolg van een ongeldige apparaattoken. Deze abonnee zal dan aan de lijst van afgewezen personen van verdere leveringen worden toegevoegd.
+1. Klik in het venster **[!UICONTROL Deployment]** op het tabblad **[!UICONTROL Sending logs]** voor toegang tot de lijst met verzonden pushberichten en hun status. Voor deze levering is een pushmelding verzonden, terwijl het andere is mislukt als gevolg van een ongeldige apparaattoken. Deze abonnee zal dan aan de lijst van gewezen personen van verdere leveringen worden toegevoegd.
 
    >[!NOTE]
    >
