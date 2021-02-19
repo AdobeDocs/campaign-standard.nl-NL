@@ -32,7 +32,7 @@ De integratietoepassing wordt geleverd met drie workflows:
 
 **In-/uitschakelen**
 
-De opt-uit statussen (b.v., lijst van afgewezen personen) kunnen van de Dynamica 365 van Microsoft aan Adobe Campaign of van Adobe Campaign aan de Dynamica 365 van Microsoft worden gesynchroniseerd. De gegevens kunnen ook in twee richtingen worden gesynchroniseerd (dat wil zeggen gegevensstromen in beide richtingen). [Meer informatie](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
+De opt-uit statussen (b.v., lijst van gewezen personen) kunnen van de Dynamica 365 van Microsoft aan Adobe Campaign of van Adobe Campaign aan de Dynamica 365 van Microsoft worden gesynchroniseerd. De gegevens kunnen ook in twee richtingen worden gesynchroniseerd (dat wil zeggen gegevensstromen in beide richtingen). [Meer informatie](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 
 >[!IMPORTANT]
 >
