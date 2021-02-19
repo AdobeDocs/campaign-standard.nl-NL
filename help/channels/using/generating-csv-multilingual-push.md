@@ -38,7 +38,7 @@ Meertalige push vereist 14 kolommen in het CSV-bestand:
 1. language
 1. silentPush
 
-Controleer het CSV-voorbeeld door op **[!UICONTROL Download a sample file]** in het venster **[!UICONTROL Manage Content Variants]** te klikken. Voor meer op dit, verwijs naar dit [sectie](../../channels/using/creating-a-multilingual-push-notification.md).
+Controleer het CSV-voorbeeld door op **[!UICONTROL Download a sample file]** in het **[!UICONTROL Manage Content Variants]**-venster te klikken. Voor meer op dit, verwijs naar dit [sectie](../../channels/using/creating-a-multilingual-push-notification.md).
 
 * **title, messageBody, sound, badge, deplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**: regelmatig de inhoud van de pushlading. U moet deze informatie op dezelfde manier verstrekken als wanneer het creëren van dupleveringen.
 * **Aangepaste velden**: Gebruik de JSON-indeling voor aangepaste velden, bijvoorbeeld  `{"key1":"value1","key2":"value2"}`. Raadpleeg het voorbeeldbestand hierboven voor een voorbeeld van aangepaste velden.
