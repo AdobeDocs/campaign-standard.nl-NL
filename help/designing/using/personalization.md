@@ -59,7 +59,7 @@ Met Adobe Campaign kunt u een veld uit de database in uw pagina invoegen, zoals 
 
 >[!NOTE]
 >
->In de onderstaande afbeeldingen ziet u hoe u een aanpassingsveld invoegt met de [e-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md) voor een e-mail.
+>In de onderstaande afbeeldingen ziet u hoe u een verpersoonlijkingsveld invoegt met de [e-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md) voor een e-mail.
 
 Een verpersoonlijkingsveld toevoegen aan de inhoud:
 
