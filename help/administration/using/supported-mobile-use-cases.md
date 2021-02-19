@@ -253,7 +253,7 @@ public void onResume() {
  }
 ```
 
-## Gebruikersinteractie bijhouden met pushberichten {#track-user-push}
+## Gebruikersinteractie bijhouden met pushmeldingen {#track-user-push}
 
 U moet regels maken voor het bijhouden van teruggestuurde pushberichten. Voor meer informatie, zie [Push berichten die postback](../../administration/using/configuring-rules-launch.md#push-tracking-postback) volgen.
 
