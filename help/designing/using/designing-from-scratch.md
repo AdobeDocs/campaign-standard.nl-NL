@@ -30,7 +30,7 @@ Hier volgen de belangrijkste stappen voor het maken en ontwerpen van een geheel 
 1. Een voorvertoning van uw e-mail bekijken.
 1. Sla de inhoud op en voer het bericht verder nadat u hebt bepaald dat u een publiek hebt gedefinieerd en het verzenden op de juiste wijze hebt gepland.
 
-U kunt deze [introductievideo](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=dut) ook uitchecken.
+U kunt deze [introductievideo](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true) ook uitchecken.
 
 >[!NOTE]
 >
