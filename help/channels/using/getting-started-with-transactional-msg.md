@@ -28,7 +28,7 @@ Een transactiebericht is een individuele en unieke communicatie die in real time
 
 * **Waarom is het belangrijk?** Over het algemeen zijn er voor een transactiebericht hoge open tarieven. Het moet daarom zorgvuldig worden ontworpen, omdat het een sterke invloed kan hebben op het gedrag van de klanten, aangezien het de relatie met de klant definieert.
 
-* **Bijvoorbeeld?** Het kan een welkomstbericht zijn na het maken van een account, een bevestiging dat een bestelling is verzonden, een factuur, een bericht waarin een wijziging van het wachtwoord wordt bevestigd, of een melding nadat een klant door uw website heeft gebladerd, enz.
+* **Bijvoorbeeld?** Het zou een welkomstbericht kunnen zijn na het maken van een account, een bevestiging dat een bestelling is verzonden, een factuur, een bericht waarin een wijziging van het wachtwoord wordt bevestigd, of een bericht nadat een klant door uw website heeft gebladerd, enz.
 
 Met Adobe Campaign kunt u deze functionaliteit integreren met een informatiesysteem dat gebeurtenissen verzendt die moeten worden omgezet in aangepaste transactieberichten.
 
