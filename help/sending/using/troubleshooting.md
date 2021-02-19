@@ -31,9 +31,9 @@ Als u altijd het zelfde foutenbericht voor ISP krijgt, kan uw e-mail of IP als g
 
 Als het probleem zich blijft voordoen, neemt u contact op met de services voor commercieel gebruik of voor levering, of met de Adobe Campaign-ondersteuning.
 
-## Lijst van afgewezen personen versus quarantaine {#denylist-versus-quarantine}
+## Lijst van gewezen personen versus quarantaine {#denylist-versus-quarantine}
 
-* **Wat is het verschil tussen een e-mailadres op lijst van afgewezen personen en een quarantined e-mailadres?**
+* **Wat is het verschil tussen een e-mailadres op lijst van gewezen personen en een quarantined e-mailadres?**
 
    * De status **[!UICONTROL On denylist]** is een resultaat van een feedbacklus (wanneer een persoon een bericht rapporteert als spam).
 
@@ -42,29 +42,29 @@ Als het probleem zich blijft voordoen, neemt u contact op met de services voor c
 
 * **Wat betekenen de verschillende redenen voor quarantainefouten?**
 
-   Hier volgen tien mogelijke redenen: niet bepaald, gebruiker onbekend, ongeldig domein, adres op lijst van afgewezen personen, geweigerd, fout genegeerd, onbereikbaar, rekening gehandicapt, brievenbus volledig, niet verbonden.
+   Hier volgen tien mogelijke redenen: niet bepaald, gebruiker onbekend, ongeldig domein, adres op lijst van gewezen personen, geweigerd, fout genegeerd, onbereikbaar, rekening gehandicapt, brievenbus volledig, niet verbonden.
 
    Voor meer op dit, zie [Het begrip quarantainebeheer](../../sending/using/understanding-quarantine-management.md).
 
-## Verwijderen uit lijst van afgewezen personen {#removing-from-denylist}
+## Verwijderen uit lijst van gewezen personen {#removing-from-denylist}
 
-* **Een van mijn ontvangers is per ongeluk aan de lijst van afgewezen personen toegevoegd. Hoe verwijder ik hen uit de lijst van afgewezen personen zodat ik kan beginnen hen berichten opnieuw te verzenden?**
+* **Een van mijn ontvangers is per ongeluk aan de lijst van gewezen personen toegevoegd. Hoe verwijder ik hen uit de lijst van gewezen personen zodat ik kan beginnen hen berichten opnieuw te verzenden?**
 
    * Ga naar **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * Stel in de details van de corresponderende record de waarde van het veld **[!UICONTROL Status]** in op **[!UICONTROL Valid]**.
    * Sla de record op.
 
-* **Hoe kan ik te weten komen of één van mijn IPs op lijst van afgewezen personen is? Hoe verwijder ik mijn IP(s) uit een lijst van afgewezen personen?**
+* **Hoe kan ik te weten komen of één van mijn IPs op lijst van gewezen personen is? Hoe verwijder ik mijn IP(s) uit een lijst van gewezen personen?**
 
-   Om te controleren of uw IP adres op lijst van afgewezen personen is, kunt u diverse websites gebruiken om het te verifiëren, zoals:
+   Om te controleren of uw IP adres op lijst van gewezen personen is, kunt u diverse websites gebruiken om het te verifiëren, zoals:
    * [MX-gereedschapset](https://mxtoolbox.com/)
    * [Wat is mijn IP adres](https://whatismyipaddress.com)
 
-   Over het algemeen, zal het resultaat van de IP adrescontrole een lijst terugkeren die details van de lijst van afgewezen personen en ook de naam van de website bevat die het IP adres blokkeerde.
+   Over het algemeen, zal het resultaat van de IP adrescontrole een lijst terugkeren die details van de lijst van gewezen personen en ook de naam van de website bevat die het IP adres blokkeerde.
 
    Als u op de desbetreffende koppeling klikt, hebt u toegang tot de gegevens van de website.
 
-   Vervolgens kunt u vragen dat uw website wordt verwijderd van de website die het IP-adres aan de lijst van afgewezen personen heeft toegevoegd.
+   Vervolgens kunt u vragen dat uw website wordt verwijderd van de website die het IP-adres aan de lijst van gewezen personen heeft toegevoegd.
 
    >[!NOTE]
    >
