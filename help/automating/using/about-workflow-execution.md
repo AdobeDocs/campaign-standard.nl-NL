@@ -22,7 +22,7 @@ Een workflow wordt altijd handmatig gestart. Nochtans, zodra begonnen, kan het i
 
 >[!CAUTION]
 >
-> Adobe raadt klanten aan prioriteit te geven aan workflowuitvoering en maximaal 20 gelijktijdige workflowuitvoering uit te voeren om consistent maximale prestaties te behalen voor de hele instantie. Er kunnen meer dan twintig gelijktijdige workflowuitvoeringen worden gepland en deze worden standaard opeenvolgend uitgevoerd. U kunt de standaardinstellingen voor het maximale aantal gelijktijdige workflowuitvoering aanpassen door een ticket naar de klantenservice in te dienen.
+> Adobe raadt klanten aan prioriteit te geven aan workflowuitvoering en maximaal 20 gelijktijdige workflowuitvoering uit te voeren om consistent maximale prestaties te behalen voor uw hele exemplaar. Er kunnen meer dan twintig gelijktijdige workflowuitvoeringen worden gepland en deze worden standaard opeenvolgend uitgevoerd. U kunt de standaardinstellingen voor het maximale aantal gelijktijdige workflowuitvoering aanpassen door een ticket naar de klantenservice in te dienen.
 
 Aan uitvoering gerelateerde handelingen (starten, stoppen, pauzeren, enz.) zijn **asynchrone** processen: de opdracht wordt opgeslagen en wordt van kracht zodra de server beschikbaar is om deze toe te passen.
 
