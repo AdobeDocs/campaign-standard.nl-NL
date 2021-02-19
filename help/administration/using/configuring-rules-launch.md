@@ -192,7 +192,7 @@ Gebruik de trackAction-API om de handelingen van de app bij te houden. Zie [Toep
 
 1. Selecteer **[!UICONTROL Mobile Core]** in de vervolgkeuzelijst **[!UICONTROL Extension]**. Vervolgens **[!UICONTROL Track Action]** in de vervolgkeuzelijst **[!UICONTROL Event type]**.
 
-1. Selecteer **[!UICONTROL Action]** in de vervolgkeuzelijst &lt;a0/>, selecteer **[!UICONTROL equals]** en typ **tracking**.**[!UICONTROL Action]**
+1. Selecteer **[!UICONTROL Action]** in de vervolgkeuzelijst **[!UICONTROL Action]**, selecteer **[!UICONTROL equals]** en typ **tracking**.
 
 1. Klik op **[!UICONTROL Keep changes]**. Klik vervolgens in de sectie **[!UICONTROL Actions]** op **[!UICONTROL Add]**.
 
@@ -220,7 +220,7 @@ Gebruik de trackAction-API om de handelingen van de app bij te houden. Zie [Toep
 
 1. Klik in de sectie **[!UICONTROL Events]** op **[!UICONTROL Add]**.
 
-1. Maak een gebeurtenis, bijvoorbeeld, Enter POI of Exit POI. Selecteer **[!UICONTROL Extension]** Plaatsen - Bèta **in de vervolgkeuzelijst &lt;a0/>.** Vervolgens **Voer POI** of **Sluit POI** in de vervolgkeuzelijst **[!UICONTROL Event type]** in.
+1. Maak een gebeurtenis, bijvoorbeeld, Enter POI of Exit POI. Selecteer **[!UICONTROL Extension]** Plaatsen - Bèta **in de vervolgkeuzelijst**. Vervolgens **Voer POI** of **Sluit POI** in de vervolgkeuzelijst **[!UICONTROL Event type]** in.
 
 1. Voer een naam in, bijvoorbeeld **Plaatsen - Bèta - Enter POI** of **Sluit POI**.
 
