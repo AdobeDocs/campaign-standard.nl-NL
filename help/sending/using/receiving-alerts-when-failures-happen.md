@@ -256,7 +256,7 @@ Hier volgen enkele mogelijke redenen om waarschuwingsberichten te ontvangen op b
 
    De mogelijke oorzaken voor een **[!UICONTROL Delivery with bad error ratio for hard bounces]** alarm kunnen zijn:
 
-   * De ontvanger wordt toegevoegd aan de lijst van afgewezen personen, wat betekent dat hij niet langer contact met hem wil opnemen.
+   * De ontvanger wordt toegevoegd aan de lijst van gewezen personen, wat betekent dat hij niet langer contact met hem wil opnemen.
    * Het e-mailadres van de ontvanger bestaat niet.
    * Het domein van de ontvanger bestaat niet.
    * De server van de ontvanger blokkeert de levering.
