@@ -84,7 +84,7 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
 * Probleem verholpen waarbij foto&#39;s die vanaf een camera zijn geüpload en die in de staande modus zijn genomen, werden weergegeven op een ongewenste geroteerde positie.
 * Probleem verholpen waarbij onduidelijke selectiegegevens werden weergegeven wanneer de interface voor de query-editor in Creative Designer werd gebruikt.
 * Probleem verholpen waarbij een element niet correct kon worden gedupliceerd wanneer de interface voor de query-editor in Creative Designer werd gebruikt.
-* Probleem verholpen waarbij SMS-berichten aan ontvangers in de lijst van afgewezen personen bleven leveren, ook al waren ze via een automatisch antwoord niet meer geabonneerd. (CAMP-27128)
+* Probleem verholpen waarbij SMS-berichten aan ontvangers in de lijst van gewezen personen bleven leveren, ook al waren ze via een automatisch antwoord niet meer geabonneerd. (CAMP-27128)
 * Probleem verholpen waarbij het weergeven van de fouten die ertoe leidden dat de **Database opschonen**-workflow mislukte, werd voorkomen. (CAMP-26876)
 * Probleem verholpen waarbij het verwijderen van aangepaste velden in een definitie van een pushmelding werd voorkomen. (CAMP-25588)
 
