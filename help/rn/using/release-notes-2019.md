@@ -36,7 +36,7 @@ ht-degree: 8%
    <ul>
     <li>Recht op toegang en recht op verwijdering: We benutten de capaciteiten die voor GDPR zijn toegevoegd. <a href="https://helpx.adobe.com/content/help/nl/campaign/kb/acs-privacy.html#righttoaccess">Meer informatie</a> </li>
     <li><p>Bij het maken van een privacyverzoek is het regulatietype (GDPR of CCPA) toegevoegd aan de Privacy Core Service. Dit is de enige methode die u moet gebruiken voor alle verzoeken voor toegang en verwijderen. Het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken is verouderd. Zie het artikel <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Vervangen en verwijderde functies</a>.</p></li>
-    <li>Het veld Opt-Out</strong> van de CCPA is toegevoegd aan de profielbron zodat Adobe Campaign-gebruikers kunnen controleren of een consument heeft gekozen voor de verkoop van persoonlijke gegevens. <strong> <a href="https://helpx.adobe.com/content/help/nl/campaign/kb/acs-privacy.html#ccpa">Meer informatie</a>.</strong></li>
+    <li>Het veld Opt-Out</strong> van de CCPA is toegevoegd aan de profielbron zodat Adobe Campaign-gebruikers kunnen controleren of een consument heeft gekozen voor de verkoop van persoonlijke gegevens. <strong> <a href="https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ccpa">Meer informatie</a>.</strong></li>
   </ul>
     <p>Bekijk ook de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/privacy/privacy-overview.html">Hoe kan ik-video</a>.</p>
 </td> 
@@ -177,7 +177,7 @@ ht-degree: 8%
 * Probleem verholpen waarbij telkens wanneer een component werd toegevoegd, extra HTML-stijltags aan een HTML-sjabloon werden toegevoegd, waardoor de grootte van de sjabloon aanzienlijk zou kunnen toenemen. (CAMP-34694)
 * Probleem verholpen waarbij sommige opties in het bovenste werkbalkmenu niet beschikbaar waren. (CAMP-34577)
 * Probleem verholpen die optrad wanneer het URL-inhoudsblok van de pagina Mirror was ingevoegd in een e-mailinhoud. (CAMP-34779)
-* Probleem verholpen dat optrad bij het gebruik van JSPP-code in een e-mailbericht, waardoor het moeilijk werd de inhoud te bewerken. (CAMP-34574)
+* Probleem verholpen dat optrad bij het gebruik van JSPP-code in een e-mail, waardoor het moeilijk werd de inhoud te bewerken. (CAMP-34574)
 * Probleem verholpen waarbij afbeeldingen bovenaan werden afgekapt wanneer er een hyperlink aan werd toegevoegd. (CAMP-34382)
 * Probleem met weergave verholpen bij gebruik van e-mailontwerper met Firefox. (CAMP-34364)
 * Verschillende problemen met de modus Geavanceerd bij het definiëren van dynamische inhoud in een e-mail zijn opgelost. (CAMP-34351, CAMP-34333, CAMP-34331)
@@ -205,7 +205,7 @@ ht-degree: 8%
 * De rapportfunctie is verbeterd voor een betere ervaring. Om deze eigenschap te gebruiken, moet u de Dynamische Overeenkomst van het Gebruik van de Rapportering goedkeuren. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 * In workflows is een nieuwe optie toegevoegd om een voorvertoning te bekijken van de volgende tien uitvoeringen van een workflow. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../automating/using/scheduler.md).
 * In de activiteit van de Planner, staat een nieuwe optie u toe om een specifieke dag van een specifieke week voor maandelijkse leveringen te selecteren. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../automating/using/scheduler.md).
-* Wanneer u terugkerende leveringen maakt zonder aggregatieperiode, kunt u op het dashboard voor de levering nu een bevestiging aanvragen voordat de levering wordt verzonden. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../sending/using/confirming-the-send.md).
+* Bij het maken van terugkerende leveringen zonder aggregatieperiode kunt u op het dashboard voor de levering nu een bevestiging aanvragen voordat de levering wordt verzonden. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../sending/using/confirming-the-send.md).
 * U kunt het label van een levering nu personaliseren met gebeurtenisvariabelen die zijn gedeclareerd in de externe signaalactiviteit van de workflow. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * De GDPR-verwijderquery is verbeterd ten behoeve van betere prestaties. (CAMP-33504)
 * De optie &quot;ftp&quot; is verwijderd uit de interface voor externe accountconfiguratie. (CAMP-34472)
@@ -286,9 +286,9 @@ Introduceerde een reeks verbeteringen en correcties om fragmenten te optimaliser
 * Probleem opgelost waarbij SMPP-verbindingen konden worden gesloten wanneer TLS was ingeschakeld.
 * Probleem opgelost waarbij SMPP-verbindingen konden worden gesloten wanneer TLS was ingeschakeld.
 * De optie &quot;Launch_URL_Campaign&quot; is toegevoegd in Campagne voor het beheer van eigenschappen van mobiele toepassingen die zijn gemaakt met Adobe Experience Platform Mobile SDK.
-* Correctie van een fout die ertoe leidde dat de de milieuoptie van Sandbox na het uploaden van het certificaat van een nieuw gecreeerd mobiel bezit en het weggaan van de mobiele pagina van het toepassingsbezit werd ongecontroleerd.
+* Correctie van een fout die ertoe leidde dat de de milieuoptie van de Sandbox na het uploaden van het certificaat van een nieuw gecreeerd mobiel bezit en het weggaan van de mobiele pagina van het toepassingsbezit werd ongecontroleerd.
 * Probleem verholpen waardoor u een transactiemelding voor berichtinhoud niet kon verrijken met informatie uit het servicemiddel. (CAMP-33707)
-* Probleem verholpen in de openingspagina&#39;s van de lijst van afgewezen personen die optraden toen werd geprobeerd om profielen van de dienst af te schrijven.
+* Probleem verholpen in de openingspagina&#39;s van de lijst van gewezen personen die optraden toen werd geprobeerd om profielen van de dienst af te schrijven.
 
 ## Release 19.2 - mei 2019 {#release-19-2---may-2019}
 
@@ -612,7 +612,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 * Oplossing voor een probleem in de queryeditor met de voorwaarde voor samenvoeging tussen log en trackinglogbestand voor rtEvent. (CAMP-28780)
 * Probleem verholpen waardoor wijzigingen in de landingspagina van &quot;Specifieke actie&quot; niet konden worden opgeslagen. (CAMP-29422)
 * Probleem verholpen waarbij het laden van een gebeurtenislading in een werkstroom werd verhinderd. (CAMP-29029)
-* Probleem verholpen waarbij SMS-nummers op de lijst van afgewezen personen niet in een SMS-bericht werden uitgesloten. (CAMP-28898)
+* Probleem verholpen waarbij SMS-nummers op de lijst van gewezen personen niet in een SMS-bericht werden uitgesloten. (CAMP-28898)
 * Probleem verholpen waardoor SMPP-providers niet op de hoogte konden worden gesteld van een fout tijdens de verwerking van binnenkomende berichten. (CAMP-29804)
 * Probleem verholpen waarbij externe accounts met bijbehorende leveringen konden worden verwijderd. (CAMP-29738)
 * De verzendende doorvoer is verbeterd en gestabiliseerd voor SMS-berichten.
