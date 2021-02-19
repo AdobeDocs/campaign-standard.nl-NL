@@ -30,7 +30,7 @@ De functie Push Tracking bestaat uit drie typen:
 
 * **Push Impressions**  - Wanneer een pushmelding aan het apparaat is afgeleverd en op het meldingscentrum zit, maar helemaal niet is aangeraakt.  Dit wordt als een indruk beschouwd.  In de meeste gevallen zouden de indrukkingsaantallen gelijkaardig moeten zijn als niet het zelfde als het geleverde aantal. Het zorgt ervoor dat het apparaat het bericht kreeg en die informatie terug naar de server terugbracht.
 
-* **Druk op Klikken**  - wanneer een pushmelding aan het apparaat is bezorgd en de gebruiker op het apparaat heeft geklikt.  De gebruiker wilde de melding bekijken (die op zijn beurt naar Open Push-tracking gaat) of het bericht negeren.
+* **Druk op Klikken**  - wanneer een pushmelding aan het apparaat is bezorgd en de gebruiker op het apparaat heeft geklikt.  De gebruiker wilde de melding bekijken (die op zijn beurt weer naar Open Push-tracking gaat) of het bericht negeren.
 
 * **Push Open**  - Als een pushmelding aan het apparaat is afgeleverd en de gebruiker op het bericht heeft geklikt dat de app moet worden geopend.  Dit is gelijkaardig aan de Duw klikt behalve zal een Duw Open niet teweeggebracht worden als het bericht werd verworpen.
 
