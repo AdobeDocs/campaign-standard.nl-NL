@@ -56,7 +56,7 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
 
 1. Configureer de **[!UICONTROL Reconciliation]**-activiteit. Het doel van deze activiteit in dit verband is de identificatie van de binnenkomende gegevens.
 
-   * Selecteer **[!UICONTROL Relations]** op het tabblad &lt;a0/> en definieer een koppeling tussen de geïmporteerde gegevens en de ontvangers voor dimensie (zie [Doelafmetingen en bronnen](../../automating/using/query.md#targeting-dimensions-and-resources)). **[!UICONTROL Create element]** In dit voorbeeld wordt het aangepaste veld **CRM ID** gebruikt om de verbindingsvoorwaarde te maken. Gebruik het veld of de combinatie van velden die u nodig hebt, zolang u unieke records kunt identificeren.
+   * Selecteer **[!UICONTROL Relations]** op het tabblad **[!UICONTROL Create element]** en definieer een koppeling tussen de geïmporteerde gegevens en de ontvangers voor dimensie (zie [Doelafmetingen en bronnen](../../automating/using/query.md#targeting-dimensions-and-resources)). In dit voorbeeld wordt het aangepaste veld **CRM ID** gebruikt om de verbindingsvoorwaarde te maken. Gebruik het veld of de combinatie van velden die u nodig hebt, zolang u unieke records kunt identificeren.
    * Laat op het tabblad **[!UICONTROL Identification]** de optie **[!UICONTROL Identify the document from the working data]** uitgeschakeld.
 
    ![](assets/import_template_example2.png)
@@ -82,7 +82,7 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
 1. Vorm de **[!UICONTROL Update data]** activiteit die na de eerste uitgaande overgang van de **[!UICONTROL Segmentation]** eerder gevormde activiteit wordt gevestigd.
 
    * Selecteer **[!UICONTROL Update]** als **[!UICONTROL Operation type]** omdat de binnenkomende overgang alleen ontvangers bevat die al in de database aanwezig zijn.
-   * Selecteer **[!UICONTROL Identification]** op het tabblad &lt;a0/> en definieer een sleutel tussen **[!UICONTROL Dimension to update]** - In dit geval Profielen - en de koppeling die wordt gemaakt in de **[!UICONTROL Reconciliation]**-activiteit. **[!UICONTROL Using reconciliation criteria]** In dit voorbeeld wordt het aangepaste veld **CRM ID** gebruikt.
+   * Selecteer **[!UICONTROL Identification]** op het tabblad **[!UICONTROL Using reconciliation criteria]** en definieer een sleutel tussen **[!UICONTROL Dimension to update]** - In dit geval Profielen - en de koppeling die wordt gemaakt in de **[!UICONTROL Reconciliation]**-activiteit. In dit voorbeeld wordt het aangepaste veld **CRM ID** gebruikt.
 
       ![](assets/import_template_example6.png)
 
@@ -108,7 +108,7 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
 1. Vorm **[!UICONTROL Update data]** activiteit die na **[!UICONTROL Deduplication]** eerder gevormde activiteit wordt gevestigd.
 
    * Selecteer **[!UICONTROL Insert only]** als **[!UICONTROL Operation type]** aangezien de binnenkomende overgang slechts profielen bevat die niet in het gegevensbestand aanwezig zijn.
-   * Selecteer **[!UICONTROL Identification]** op het tabblad &lt;a0/> en definieer een sleutel tussen **[!UICONTROL Dimension to update]** - In dit geval Profielen - en de koppeling die wordt gemaakt in de **[!UICONTROL Reconciliation]**-activiteit. **[!UICONTROL Using reconciliation criteria]** In dit voorbeeld wordt het aangepaste veld **CRM ID** gebruikt.
+   * Selecteer **[!UICONTROL Identification]** op het tabblad **[!UICONTROL Using reconciliation criteria]** en definieer een sleutel tussen **[!UICONTROL Dimension to update]** - In dit geval Profielen - en de koppeling die wordt gemaakt in de **[!UICONTROL Reconciliation]**-activiteit. In dit voorbeeld wordt het aangepaste veld **CRM ID** gebruikt.
 
       ![](assets/import_template_example6.png)
 
