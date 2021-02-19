@@ -62,7 +62,7 @@ Voordat u begint met het verzenden van berichten naar een contactpersoon, moet u
 
 Met Campagne, adviseren wij u om **gemakkelijke opt-in en opt-out mechanismen** door [diensten](../../audiences/using/creating-a-service.md), en [landende pagina&#39;s](../../channels/using/getting-started-with-landing-pages.md) te gebruiken om uw contactinformatie bij te werken en uw gegevensbestand te kweken.
 
-Als u **abonnementkoppelingen** in uw berichten opgeeft, kunnen profielen indien nodig worden toegevoegd aan de lijst van afgewezen personen en kunt u dus de prestaties van uw platform verbeteren. Raadpleeg [Informatie over opt-in en opt-out in Campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) voor meer informatie over het beheer van lijst van afgewezen personen.
+Als u **abonnementkoppelingen** in uw berichten opgeeft, kunnen profielen indien nodig worden toegevoegd aan de lijst van gewezen personen en kunt u dus de prestaties van uw platform verbeteren. Raadpleeg [Informatie over opt-in en opt-out in Campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) voor meer informatie over het beheer van lijst van gewezen personen.
 
 >[!IMPORTANT]
 >
