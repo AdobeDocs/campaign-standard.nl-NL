@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -47,7 +47,7 @@ E-mailinhoud kan in Experience Manager worden bewerkt en vervolgens worden gebru
 
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
->title="Productaanbiedingen gebruiken"
+>title="Productlijsten gebruiken"
 >abstract="In de productaanbiedingen kunt u verwijzen naar een gegevensverzameling en deze weergeven in de e-mailinhoud."
 
 In de productaanbiedingen kunt u verwijzen naar een of meer gegevensverzamelingen in de e-mailinhoud. Deze aanbiedingen zijn beschikbaar voor transactie-e-mails. Een specifieke sectie voor deze functie is [hier](../../designing/using/using-product-listings.md) beschikbaar.
