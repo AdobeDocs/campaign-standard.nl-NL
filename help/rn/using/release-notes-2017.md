@@ -9,8 +9,8 @@ topic-tags: campaign-standard-releases
 translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4627'
+ht-degree: 8%
 
 ---
 
@@ -75,7 +75,7 @@ _Pushmeldingen_
 _Rapporten_
 
 * Probleem verholpen waardoor de percentages voor klikken met hot in de e-mailinhoud niet konden worden weergegeven.
-* Probleem verholpen met de lijst van afgewezen personen metrisch die als harde stuit in plaats van stuit werd geteld.
+* Probleem verholpen met de lijst van gewezen personen metrisch die als harde stuit in plaats van stuit werd geteld.
 * Probleem verholpen waarbij negatieve tellingen werden weergegeven in samenvattingsgegevens.
 * Probleem verholpen waarbij profielen in het verkeerde leeftijdssegment werden geteld.
 * De zachte en harde berekeningsformules zijn veranderd.
@@ -315,7 +315,7 @@ _Pushmeldingen_
   </tr> 
   <tr> 
    <td> Transactionele pushmeldingen<br /> </td> 
-   <td> Het mobiele toepassingskanaal is toegevoegd aan de mogelijkheden voor transactiemeldingen van Adobe Campaign. Er worden nu drie kanalen ondersteund voor transactieberichten: e-mail-, SMS- en pushberichten.<br /> Raadpleeg de <a href="../../channels/using/transactional-push-notifications.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Het Mobile-toepassingskanaal is toegevoegd aan de mogelijkheden voor transactiemeldingen van Adobe Campaign. Er worden nu drie kanalen ondersteund voor transactieberichten: e-mail-, SMS- en pushberichten.<br /> Raadpleeg de <a href="../../channels/using/transactional-push-notifications.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Pushmeldingen herstellen<br /> </td> 
@@ -489,7 +489,7 @@ _Workflows_
    <td> Marketingmogelijkheden voor transactieberichten<br /> </td> 
    <td> Marktdeelnemers kunnen nu transactieberichten verzenden op basis van marketingprofielen van klanten. Hierdoor kunnen ze:<br /> 
     <ul> 
-     <li> Pas marketing typologieregels zoals <span class="uicontrol">Adres op lijst van afgewezen personen </span> toe. </li> 
+     <li> Pas marketing typologieregels zoals <span class="uicontrol">Adres op lijst van gewezen personen </span> toe. </li> 
      <li> De koppeling voor het opzeggen van abonnementen in de berichten opnemen. </li> 
      <li> De transactionele berichten aan de globale leveringsrapportage toevoegen. </li> 
      <li> De transactionele berichten in het klanttraject gebruiken. </li> 
@@ -500,7 +500,7 @@ _Workflows_
    <td> De API voor transactief berichtenverkeer is nu beschikbaar via <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>, waardoor het gemakkelijker wordt om te gebruiken en te controleren:<br /> 
     <ul> 
      <li> U kunt profiteren van de rapportage- en monitoringfuncties van het platform adobe.io. </li> 
-     <li> De verificatie wordt nu uitgevoerd met de op adobe.io-token gebaseerde verificatie in plaats van IP-toevoegende op lijst van gewenste personen, waardoor het beveiligingsproces eenvoudiger wordt. </li> 
+     <li> De verificatie wordt nu uitgevoerd met de op adobe.io-token gebaseerde verificatie in plaats van IP-voegende op lijst van gewenste personen, waardoor het beveiligingsproces eenvoudiger wordt. </li> 
      <li> Alle API's zijn nu geïntegreerd op één platform, waardoor het eenvoudiger dan ooit is om transactionele communicatiemogelijkheden toe te voegen aan uw integratie als u de profiel- en services-API al ondersteunt. </li> 
     </ul> </td> 
   </tr> 
@@ -525,7 +525,7 @@ _Pushmeldingen_
 * Probleem verholpen waarbij het terugsturen van een toepassing naar de Adobe Campaign-server mogelijk is voorkomen.
 * Probleem verholpen waarbij **[!UICONTROL Play a sound]** en **[!UICONTROL Custom fields]** niet in aanmerking konden worden genomen voor Android.
 * Probleem verholpen waarbij een extra escapeteken zijn toegevoegd aan Unicode-tekens die voor Emojis worden gebruikt.
-* Wanneer de registratietoken van een abonnee aan de lijst van afgewezen personen wordt toegevoegd, wordt de overeenkomstige status nu onmiddellijk bijgewerkt in de lijst van abonnees van de toepassing in Adobe Campaign.
+* Wanneer de registratietoken van een abonnee aan de lijst van gewezen personen wordt toegevoegd, wordt de overeenkomstige status nu onmiddellijk bijgewerkt in de lijst van abonnees van de toepassing in Adobe Campaign.
 
 _Workflows_
 
