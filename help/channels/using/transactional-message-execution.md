@@ -99,7 +99,7 @@ Selecteer het tabblad **[!UICONTROL Sending logs]**. In de kolom **[!UICONTROL S
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-Selecteer **[!UICONTROL Exclusions logs]** lusje om ontvangers te bekijken die van het berichtdoel, zoals adressen op lijst van afgewezen personen zijn uitgesloten.
+Selecteer **[!UICONTROL Exclusions logs]** lusje om ontvangers te bekijken die van het berichtdoel, zoals adressen op lijst van gewezen personen zijn uitgesloten.
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 
