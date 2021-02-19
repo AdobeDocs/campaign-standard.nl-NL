@@ -133,7 +133,7 @@ U kunt ook naar deze [koppeling](https://appsource.microsoft.com/en-us/product/d
 1. Na geïnstalleerd, navigeer aan uw instantie van de Dynamiek 365 en teken binnen als beheerder.
 1. Klik op het tandwielpictogram in de rechterbovenhoek en klik op **[!UICONTROL Advanced Settings]**. Klik in de bovenste banner op de vervolgkeuzelijst naast **[!UICONTROL Settings]** en klik op **[!UICONTROL Processes]** onder **[!UICONTROL Process Center]**.
 1. Zoek naar **[!UICONTROL Adobe Campaign Email Bounce]** taak en klik het.
-1. Wijzig op het tabblad **[!UICONTROL Administration]** de eigenaar in de eerder gemaakte gebruiker van de Adobe API-toepassing door in het bovenste lint op **[!UICONTROL Actions]** te klikken en selecteer vervolgens **[!UICONTROL Assign to another User]** in het vervolgkeuzemenu **[!UICONTROL Adobe API application user]** om toe te wijzen.
+1. Wijzig op het tabblad **[!UICONTROL Administration]** de eigenaar in de eerder gemaakte gebruiker van de Adobe API-toepassing door in het bovenste lint op **[!UICONTROL Actions]** te klikken. Selecteer vervolgens **[!UICONTROL Assign to another User]** in het vervolgkeuzemenu **[!UICONTROL Adobe API application user]** om toe te wijzen.
 1. Activeer het proces opnieuw.
 1. Doe het zelfde voor de **[!UICONTROL Adobe Campaign Email Click]** taak.
 
