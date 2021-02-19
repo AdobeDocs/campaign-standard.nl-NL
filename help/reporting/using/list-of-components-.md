@@ -147,12 +147,12 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
  </thead> 
  <tbody> 
   <tr> 
-   <td> Op lijst van afgewezen personen<br /> </td> 
+   <td> Op lijst van gewezen personen<br /> </td> 
    <td> Aantal ontvangers die een e-mail als spam of junk hebben verklaard.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Lijst van afgewezen personen snelheid<br /> </td> 
-   <td> Percentage leveringen gemarkeerd op lijst van afgewezen personen.<br /> </td> 
+   <td> Lijst van gewezen personen snelheid<br /> </td> 
+   <td> Percentage leveringen gemarkeerd op lijst van gewezen personen.<br /> </td> 
   </tr> 
   <tr> 
    <td> Stuiterwaarden + fouten<br /> </td> 
