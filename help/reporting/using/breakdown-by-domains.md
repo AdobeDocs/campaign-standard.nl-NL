@@ -18,7 +18,7 @@ ht-degree: 3%
 
 # Uitsplitsing naar domeinen{#breakdown-by-domains}
 
-Dit rapport bevat de prestatiegegevens voor elk domein dat in het publiek voor een e-maillevering wordt vertegenwoordigd. Als het een campagne- of programmarapport is, zijn de prestatiegegevens beschikbaar voor meerdere doelgroepen. Met deze gegevens kunt u het gedrag van elk domein analyseren in reactie op specifieke gebeurtenissen. Bijvoorbeeld, verbindingsvertoning, URL op lijst van afgewezen personen, enz.
+Dit rapport bevat de prestatiegegevens voor elk domein dat in het publiek voor een e-maillevering wordt vertegenwoordigd. Als het een campagne- of programmarapport is, zijn de prestatiegegevens beschikbaar voor meerdere doelgroepen. Met deze gegevens kunt u het gedrag van elk domein analyseren in reactie op specifieke gebeurtenissen. Bijvoorbeeld, verbindingsvertoning, URL op lijst van gewezen personen, enz.
 
 ![](assets/delivery_reports_6.png)
 
@@ -37,5 +37,5 @@ De tweede lijst, **Tracking statistics**, bevat de beschikbare gegevens voor ont
 * **Klik**: Het aantal keren dat op inhoud is geklikt in een levering.
 * **Abonnement opgezegd**: Het aantal klikken op de abonnementkoppeling.
 * **Pagina** spiegelen: Het aantal klikken op de koppeling van de spiegelpagina.
-* **Bij lijst van afgewezen personen**: Het aantal ontvangers dat een e-mail heeft gedeclareerd als spam of junk. [Meer informatie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* **Bij lijst van gewezen personen**: Het aantal ontvangers dat een e-mail heeft gedeclareerd als spam of junk. [Meer informatie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
