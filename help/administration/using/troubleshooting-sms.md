@@ -1,8 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Problemen met SMS oplossen
-description: Problemen met SMS oplossen
+title: Problemen met sms oplossen
+description: Problemen met sms oplossen
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
@@ -15,7 +15,7 @@ ht-degree: 0%
 ---
 
 
-# Problemen met SMS oplossen {#sms-troubleshooting}
+# Problemen met sms oplossen {#sms-troubleshooting}
 
 ## Conflict tussen verschillende externe rekeningen {#external-account-conflict}
 
@@ -167,7 +167,7 @@ Als u alles hebt gecorrigeerd, maar een aantal ongeldige SR nog steeds in de buf
 
 * Als de MO (`DELIVER_SM PDU`) niet in de sporen verschijnt, is het probleem op de leverancierskant. Zij zullen het oplossen van problemen op hun platform moeten doen.
 
-* Als `DELIVER_SM PDU` verschijnt, controleer dat het door Adobe Campaign met succes `DELIVER_SM_RESP PDU` (code 0) wordt erkend. Dit RESP garandeert dat alle verwerkingslogica is toegepast door Adobe Campaign (automatisch antwoord en allow/lijst van afgewezen personen). Als het niet het geval is, zoek naar een foutenmelding in de logboeken MTA.
+* Als `DELIVER_SM PDU` verschijnt, controleer dat het door Adobe Campaign met succes `DELIVER_SM_RESP PDU` (code 0) wordt erkend. Dit RESP garandeert dat alle verwerkingslogica is toegepast door Adobe Campaign (automatisch antwoord en allow/lijst van gewezen personen). Als het niet het geval is, zoek naar een foutenmelding in de logboeken MTA.
 
 * Als automatische reacties zijn ingeschakeld, controleert u of `SUBMIT_SM` naar de provider is verzonden. Als niet, is het gegarandeerd om een foutenmelding in de logboeken te vinden MTA.
 
