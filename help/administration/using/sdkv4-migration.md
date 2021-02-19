@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: 6c171d45d655e4055d4a3c7927f1dd8e0913eeaa
 workflow-type: tm+mt
 source-wordcount: '1202'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Uw mobiele toepassing migreren van SDK v4 naar Adobe Experience Platform SDK {#sdkv4-migration}
+# Uw mobiele applicatie migreren van SDK v4 naar Adobe Experience Platform SDK {#sdkv4-migration}
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ Nadat u de SDK-versie van Adobe van v4 naar Adobe Experience Platform hebt bijge
 | De naam van de mobiele toepassing blijft ongewijzigd. |
 | De platforminstellingen voor iOS en Android blijven behouden. |
 | Alle abonnees van de toepassing en hun gegevens zullen worden bewaard. |
-| De bestaande mobiele SDK v4-toepassing zal gegevens (PII-gegevens, Abonnee &amp; token-gegevens) naar Adobe Campaign Standard blijven verzenden. |
+| De bestaande mobiele SDK v4-toepassing zal gegevens (PII-gegevens, Abonnees en token-gegevens) naar Adobe Campaign Standard blijven verzenden. |
 | De **[!UICONTROL Organizational unit]** van de mobiele toepassing blijft ongewijzigd. |
 
 | Wat verandert er na de migratie |
