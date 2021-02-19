@@ -34,7 +34,7 @@ Voor het implementeren van tracering voor Adobe Campaign Standard moet de mobiel
 
 Voor het verzenden van trackinggegevens zijn er drie variabelen die moeten worden verzonden: twee maken deel uit van de gegevens die van Adobe Campaign worden ontvangen, en de andere is een handelingsvariabele die bepaalt of het een indruk, een klik of een open is.
 
-| Variabele | Waarde |
+| Variabele | Value |
 | :-: | :-: |
 | deliveryId | &quot;deliveryId&quot; uit binnenkomende gegevens (vergelijkbaar met &#39;push tracking&#39; waar&#39;_dld&#39; wordt gebruikt) |
 | broadlogId | &quot;broadlogId&quot; van binnenkomende gegevens (vergelijkbaar met &#39;push tracking&#39; wanneer &#39;_mld&#39; wordt gebruikt) |
