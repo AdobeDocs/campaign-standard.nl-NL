@@ -44,7 +44,7 @@ Nadat de gegevenstoewijzing is gemaakt, moet u de bewerking stoppen zodat u deze
 
 De uitvoering van de gegevenstoewijzing wordt nu gestopt. U kunt Campaign Standard API&#39;s gebruiken om de API&#39;s handmatig te activeren.
 
-## De onmiddellijke invoer van gegevenstoewijzing {#starting-immediate-ingestion} starten
+## De onmiddellijke invoer van gegevenstoewijzingstarten {#starting-immediate-ingestion}
 
 De directe opname van een afbeelding XDM in Adobe Experience Platform wordt teweeggebracht met een POST verrichting:
 
@@ -54,8 +54,7 @@ De directe opname van een afbeelding XDM in Adobe Experience Platform wordt tewe
 >
 >Om ingest POST API vraag uit te voeren, moet de gebruiker **SQL functie uitvoeren** rol hebben, die door een beheerder van Campaign Standard door onder JS Manuscript kan worden verstrekt uit te voeren:
 >
->
-```
+>```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
@@ -95,7 +94,7 @@ De verrichting van de POST keert informatie betreffende de gecreeerde verzoeksta
 }
 ```
 
-## De status van een innameverzoek {#retrieving-status} ophalen
+## De status van een innameverzoekophalen {#retrieving-status}
 
 De status van een innameverzoek kan met een verrichting van de GET en gewenste verzoekidentiteitskaart in de parameters worden teruggewonnen:
 

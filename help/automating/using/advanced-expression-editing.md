@@ -106,7 +106,8 @@ JavaScript-expressies bestaan uit een of meer voorwaarden en gebruiken de volgen
    * **&lt;value2>** een veld, een functie of een waarde is die handmatig wordt ingevoerd.
 
    >[!NOTE]
-   De typegegevens voor **&lt;context>** en **&lt;value2>** moeten identiek zijn. Als **&lt;context>** bijvoorbeeld een datum is, moet **&lt;value2>** ook een datum zijn.
+   >
+   >De typegegevens voor **&lt;context>** en **&lt;value2>** moeten identiek zijn. Als **&lt;context>** bijvoorbeeld een datum is, moet **&lt;value2>** ook een datum zijn.
 
 * Als u meerdere voorwaarden wilt gebruiken, kunt u deze combineren met logische operatoren.
 
