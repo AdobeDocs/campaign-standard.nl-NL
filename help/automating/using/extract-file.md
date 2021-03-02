@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: c29eff0d241cd561a7e609ab44222700e2a8868d
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 91%
+source-wordcount: '402'
+ht-degree: 89%
 
 ---
 
@@ -49,11 +49,11 @@ De specifieke data-extractiemethode wordt gedefinieerd bij het configureren van 
    >
    >Met de functie **[!UICONTROL formatDate]** in dit veld kunt u de bestandsnaam opgeven.
 
-1. Indien gewenst, kunt u het uitvoerbestand comprimeren door de optie **[!UICONTROL Compression]** in het veld **[!UICONTROL Add a pre-processing step]** te selecteren. Het uitvoerbestand wordt gecomprimeerd naar een GZIP-bestand (.gz).
+1. Indien gewenst, kunt u het uitvoerbestand comprimeren door de optie **[!UICONTROL Compression]** in het veld **[!UICONTROL Add a post-processing stage]** te selecteren. Het uitvoerbestand wordt gecomprimeerd naar een GZIP-bestand (.gz).
 
-   Met het veld **[!UICONTROL Add a pre-processing step]** kunt u een bestand versleutelen voordat u het extraheert. Raadpleeg [deze sectie](../../automating/using/managing-encrypted-data.md) voor meer informatie over het werken met gecodeerde bestanden.
+   Met het veld **[!UICONTROL Add a post-processing stage]** kunt u een bestand versleutelen voordat u het extraheert. Raadpleeg [deze sectie](../../automating/using/managing-encrypted-data.md) voor meer informatie over het werken met gecodeerde bestanden.
 
-1. Klik op de knop ![](assets/add_darkgrey-24px.png) of **[!UICONTROL Add an element]** om een uitvoerkolom toe te voegen.
+1. Klik op de knop **[!UICONTROL Create element]** om een uitvoerkolom toe te voegen.
 
    ![](assets/wkf_data_export2.png)
 
