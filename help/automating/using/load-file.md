@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: c29eff0d241cd561a7e609ab44222700e2a8868d
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 93%
@@ -103,9 +103,9 @@ De activiteitconfiguratie omvat twee stappen. Eerst moet u de verwachte bestands
 
       ![](assets/wkf_file_loading1.png)
 
-1. Als het bestand waarvan u de data wilt laden, is gecomprimeerd tot een gzip-bestand (.gz), selecteert u de optie **[!UICONTROL Decompression]** in het veld **[!UICONTROL Add a pre-processing step]**. Hierdoor kunt u het bestand uitpakken voordat u de data laadt. Deze optie is alleen beschikbaar als het bestand afkomstig is van de binnenkomende overgang van de activiteit.
+1. Als het bestand waarvan u de data wilt laden, is gecomprimeerd tot een gzip-bestand (.gz), selecteert u de optie **[!UICONTROL Decompression]** in het veld **[!UICONTROL Add a pre-processing stage]**. Hierdoor kunt u het bestand uitpakken voordat u de data laadt. Deze optie is alleen beschikbaar als het bestand afkomstig is van de binnenkomende overgang van de activiteit.
 
-   Met het veld **[!UICONTROL Add a pre-processing step]** kunt u een bestand decoderen voordat u het in de database importeert. Raadpleeg [deze sectie](../../automating/using/managing-encrypted-data.md) voor meer informatie over het werken met gecodeerde bestanden.
+   Met het veld **[!UICONTROL Add a pre-processing stage]** kunt u een bestand decoderen voordat u het in de database importeert. Raadpleeg [deze sectie](../../automating/using/managing-encrypted-data.md) voor meer informatie over het werken met gecodeerde bestanden.
 
 1. Met de optie **[!UICONTROL Keep the rejects in a file]** kunt u een bestand downloaden dat fouten bevat die tijdens het importeren zijn opgetreden en het vervolgens toepassen in een naverwerkingsfase. Wanneer de optie wordt geactiveerd, wordt de naam van de uitgaande overgang gewijzigd in ‘Rejects’.
 
