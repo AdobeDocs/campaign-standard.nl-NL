@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: 558f88a129264560851832ca70628509661cb208
+source-git-commit: 1b971fbf7b5d36283434db0389534a3dda2ebb45
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '466'
 ht-degree: 97%
 
 ---
@@ -25,9 +25,7 @@ Upgrades worden in twee fasen geïmplementeerd. Eerst worden Stage-instanties bi
 
 Alle releasedatums kunnen worden gewijzigd. We raden u aan deze pagina regelmatig te bezoeken om te kijken of er updates zijn.
 
-**NIEUW!** Abonneer u op [Campaign Standard-releasemeldingen](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) om details over aankomende releases rechtstreeks in uw inbox te krijgen.
-
-## Release 21.1 - Release van februari {#release-21-1-release}
+## Release 21.2 - Release van mei {#release-21-2-release}
 
 Updates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. Exacte datums worden per e-mail naar elke klant verzonden.
 
@@ -43,16 +41,18 @@ Gedetailleerde informatie over deze release is beschikbaar in de [Release-opmerk
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>1 - 22 februari 2021<br /> </td>
+   <td>19 april - 20 april 2021<br /> </td>
   </tr>
   <tr>
    <td> Productie<br /> </td>
-   <td>8 feb. - 1 mrt. 2021<br /> </td>
+   <td>26 april - 3 mei 2021<br /> </td>
   </tr>
  </tbody>
 </table>
 
 Neem contact op met [Adobe Client Care](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) als u nog vragen hebt.
+
+Abonneer u op [Campaign Standard-releasemeldingen](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) om details over aankomende releases rechtstreeks in uw inbox te krijgen.
 
 ## Vragen en antwoorden {#questions-and-answers}
 
