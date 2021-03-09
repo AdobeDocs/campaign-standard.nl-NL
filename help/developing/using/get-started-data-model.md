@@ -7,7 +7,7 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 translation-type: tm+mt
-source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 25%
@@ -63,5 +63,5 @@ Met Campaign Standard APIs, creeer integraties voor Adobe Campaign Standard en b
 
 ## Aanvullende bronnen
 
-* [Informatie over de Adobe Experience Platform-gegevensconnector](../../developing/using/aep-about-data-connector.md)
+* [Informatie over de Adobe Experience Platform-gegevensconnector](../../integrating/using/aep-about-data-connector.md)
 * [Aangepaste resources exporteren en importeren](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
