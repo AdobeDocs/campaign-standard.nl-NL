@@ -6,9 +6,9 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: fe5d40235abc33c0ea7e929cd2e69b7030cea0b1
+source-git-commit: 93e4310c606cb39a1071b8e20d88978839007765
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '842'
 ht-degree: 5%
 
 ---
@@ -96,7 +96,7 @@ Voor deze integratie moeten drie systemen worden ingericht en geconfigureerd:
 
 De kaartjes van de steun kunnen met de Zorg van de Klant van Adobe worden geregistreerd.
 
-Voor om het even welke kwesties met de stromen van integratiegegevens, zorg ervoor om de rapportreeks als deel van de vraagbeschrijving evenals de volgende informatie te omvatten:
+Voor alle problemen met integratiegegevensstromen moet u de volgende informatie opnemen:
 
 * **Proceeigenaar**: Engineering-architecten
 * **ES-verwerkings-id**: Wordt verstrekt tijdens het instapproces
