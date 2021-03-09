@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 36e0f6be4dc8c1a6e4b0d8878d190f2abce99fcd
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '5323'
 ht-degree: 100%
@@ -268,7 +268,7 @@ ht-degree: 100%
 
 **Experience Platform-integraties**
 
-* De activering van [Adobe Experience Platform-doelgroepen](../../automating/using/aep-targeting-audiences.md) van de activiteit **Read audience** verloopt nu beter en stabieler. Bovendien zijn de logbestanden van workflows nu overzichtelijker en gedetailleerder ten aanzien van activeringstaken, met als resultaat eenvoudigere monitoring en probleemoplossing bij het lezen van Adobe Experience Platform-doelgroepen.
+* De activering van [Adobe Experience Platform-doelgroepen](../../integrating/using/aep-targeting-audiences.md) van de activiteit **Read audience** verloopt nu beter en stabieler. Bovendien zijn de logbestanden van workflows nu overzichtelijker en gedetailleerder ten aanzien van activeringstaken, met als resultaat eenvoudigere monitoring en probleemoplossing bij het lezen van Adobe Experience Platform-doelgroepen.
 
 **Patches**
 
@@ -361,7 +361,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->De functies van het Adobe Experience Platform in de Campaign Standard worden momenteel in bèta weergegeven en kunnen vaak en zonder kennisgeving worden bijgewerkt. Raadpleeg de gedetailleerde documentatie: [Experience Platform-gegevensconnector](../../developing/using/aep-about-data-connector.md), [Audience Destinations](../../audiences/using/aep-about-audience-destinations-service.md)
+>De functies van het Adobe Experience Platform in de Campaign Standard worden momenteel in bèta weergegeven en kunnen vaak en zonder kennisgeving worden bijgewerkt. Raadpleeg de gedetailleerde documentatie: [Experience Platform-gegevensconnector](../../integrating/using/aep-about-data-connector.md), [Audience Destinations](../../integrating/using/aep-about-audience-destinations-service.md)
 
 * In workflowlogboeken wordt om de 10 minuten het aantal records weergegeven dat al is verwerkt door de taak die momenteel wordt uitgevoerd in Campaign.
 * Probleem verholpen dat kon optreden bij het importeren van een Adobe Experience Platform-profiel dat uit de database was verwijderd.
@@ -408,7 +408,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>De Adobe Experience Platform-gegevensconnector is nu geïntegreerd met Adobe Campaign Standard. U kunt uw Campaign-data ter beschikking stellen op het Adobe Experience Platform door de XTK-data (data die in Campaign worden opgenomen) toe te wijzen aan het Adobe Experience Platform-datamodel (XDM). </p>
-    <p>Deze mogelijkheid is alleen beschikbaar voor klanten die in Azure worden gehost. Raadpleeg de <a href="../../developing/using/aep-about-data-connector.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">video met instructies</a> voor meer informatie over deze mogelijkheid en de voorwaarden om deze te activeren.</p>
+    <p>Deze mogelijkheid is alleen beschikbaar voor klanten die in Azure worden gehost. Raadpleeg de <a href="../../integrating/using/aep-about-data-connector.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">video met instructies</a> voor meer informatie over deze mogelijkheid en de voorwaarden om deze te activeren.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -423,7 +423,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Met Audience Destinations kunt u segmenten van het Adobe Experience Platform delen met Adobe Campaign.</p>
-    <p>Deze mogelijkheid is alleen beschikbaar voor klanten die in Azure worden gehost. Raadpleeg de <a href="../../audiences/using/aep-about-audience-destinations-service.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">video met instructies</a> voor meer informatie over deze mogelijkheid en de voorwaarden om deze te activeren. </p>
+    <p>Deze mogelijkheid is alleen beschikbaar voor klanten die in Azure worden gehost. Raadpleeg de <a href="../../integrating/using/aep-about-audience-destinations-service.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">video met instructies</a> voor meer informatie over deze mogelijkheid en de voorwaarden om deze te activeren. </p>
    </td> 
   </tr> 
  </tbody> 
