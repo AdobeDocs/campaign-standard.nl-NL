@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
+source-git-commit: 93e4310c606cb39a1071b8e20d88978839007765
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 2%
@@ -52,9 +52,9 @@ U kunt dan met het integratiehulpmiddel beginnen. Voer de volgende stappen uit:
 
 Open een browser en blader aan de schakelaar verbonden aan uw gebied:
 
-* [Azië, Stille Oceaan](http://d365-acs-ap.ea.adobe.com/)
-* [Europa, Midden-Oosten of Afrika (EMEA)](http://d365-acs-em.ea.adobe.com/)
-* [Amerika](http://d365-acs-na.ea.adobe.com/)
+* [Azië, Stille Oceaan](https://d365-acs-ap.ea.adobe.com/)
+* [Europa, Midden-Oosten of Afrika (EMEA)](https://d365-acs-em.ea.adobe.com/)
+* [Amerika](https://d365-acs-am.ea.adobe.com/)
 
 ## Bevestiging van privacyverzoek {#self-service-app-acknowledgement}
 
