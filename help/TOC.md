@@ -7,9 +7,9 @@ user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken,
 breadcrumb-title: Help Center
 title: 'Campaign Standard-handleiding '
 translation-type: tm+mt
-source-git-commit: b6fe1491e3ff519f50e1492abcac7b79dc0e64e6
+source-git-commit: c9db89a98d8b246217add34ce09e6405ce3d5cde
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1756'
 ht-degree: 99%
 
 ---
@@ -70,10 +70,6 @@ ht-degree: 99%
       + [Informatie over opt-in en opt-out in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Opt-in en opt-out beheren in Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [Opt-outprofielen voor een levering identificeren](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
-   + Werken met Adobe Experience Platform {#working-with-adobe-experience-platform}
-      + [Informatie over de service Audiences Destinations](audiences/using/aep-about-audience-destinations-service.md)
-      + [Adobe Experience Platform-doelgroepen beheren](audiences/using/aep-managing-audiences.md)
-      + [De Segment Builder gebruiken](audiences/using/aep-using-segment-builder.md)
 + Communicatiekanalen {#communication-channels}
    + [Aan de slag met communicatiekanalen](channels/using/get-started-communication-channels.md)
    + Informatie over communicatiekanalen {#about-communication-channels}
@@ -274,6 +270,19 @@ ht-degree: 99%
          + [Synchronisatieworkflows beheren](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Gegevens toewijzen tussen Microsoft Dynamics 365 en Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [De integratie van Microsoft Dynamics 365 gebruiken](integrating/using/d365-acs-using-the-integration.md)
+   + Campagne en Adobe Experience Platform {#adobe-experience-platform}
+      + Service voor doelpubliek {#audience-destinations}
+         + [Informatie over de service Audiences Destinations](integrating/using/aep-about-audience-destinations-service.md)
+         + [Adobe Experience Platform-doelgroepen beheren](integrating/using/aep-managing-audiences.md)
+         + [De Segment Builder gebruiken](integrating/using/aep-using-segment-builder.md)
+         + [Adobe Experience Platform-doelgroepen doelgericht benaderen](integrating/using/aep-targeting-audiences.md)
+         + [Campagnes aanpassen met behulp van Adobe Experience Platform-kenmerken](integrating/using/aep-personalizing-campaigns.md)
+      + Adobe Experience Platform-gegevensconnector {#data-connector}
+         + [Informatie over de Adobe Experience Platform-gegevensconnector](integrating/using/aep-about-data-connector.md)
+         + [Overzicht van het Experience Platform-datamodel](integrating/using/aep-data-model-overview.md)
+         + [Toewijzingsdefinitie](integrating/using/aep-mapping-definition.md)
+         + [Toewijzingsactivering](integrating/using/aep-mapping-activation.md)
+         + [Data-opname via API&#39;s activeren](integrating/using/aep-triggering-data-ingestion.md)
 + Processen en data beheren {#managing-processes-and-data}
    + [Aan de slag met data- en procesbeheer](automating/using/get-started-workflows.md)
    + Algemene werking van workflows{#workflow-general-operation}
@@ -379,9 +388,6 @@ ht-degree: 99%
          + [Profielen exporteren naar een extern bestand](automating/using/exporting-profiles-in-file.md)
          + [Meerdere lidmaatschapsstatussen bijwerken vanuit een bestand](automating/using/updating-subscriptions-from-file.md)
          + [Profielen vanuit een bestand aanmelden voor een specifieke service](automating/using/subscribing-profiles-from-file.md)
-   + Werken met Adobe Experience Platform-doelgroepen {#working-with-aep-audiences}
-      + [Adobe Experience Platform-doelgroepen doelgericht benaderen](automating/using/aep-targeting-audiences.md)
-      + [Campagnes aanpassen met behulp van Adobe Experience Platform-kenmerken](automating/using/aep-personalizing-campaigns.md)
 + Ontwikkelen {#developing}
    + [Aan de slag met het Campaign Standard-datamodel](developing/using/get-started-data-model.md)
    + Informatie over aangepaste resources {#about-custom-resources}
@@ -421,12 +427,6 @@ ht-degree: 99%
       + [Trackinglogboeken](developing/using/datamodel-tracking.md)
       + [Uitschrijvingsgebeurtenis](developing/using/datamodel-unsubscription.md)
       + [Bezoeker](developing/using/datamodel-visitor.md)
-   + Adobe Experience Platform-gegevensconnector {#mapping-campaign-and-aep-data}
-      + [Informatie over de Adobe Experience Platform-gegevensconnector](developing/using/aep-about-data-connector.md)
-      + [Overzicht van het Experience Platform-datamodel](developing/using/aep-data-model-overview.md)
-      + [Toewijzingsdefinitie](developing/using/aep-mapping-definition.md)
-      + [Toewijzingsactivering](developing/using/aep-mapping-activation.md)
-      + [Data-opname via API&#39;s activeren](developing/using/aep-triggering-data-ingestion.md)
 + Beheer {#administrating}
    + [Aan de slag met Campaign Standard-beheer](administration/using/get-started-campaign-administration.md)
    + [Bewakingsrichtlijnen](administration/using/monitoring-guidelines.md)
