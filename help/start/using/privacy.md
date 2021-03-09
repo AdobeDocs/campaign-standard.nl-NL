@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 100%
@@ -85,7 +85,7 @@ De [belangrijkste wetgevingen](#privacy-regulations) betreffen de verschillende 
 
 Als bedrijf dat persoonsgegevens verzamelt en deelt, bent u dus de gegevenscontroller, zijn uw klanten de betrokkenen en fungeert Adobe Campaign als gegevensprocessor bij het verwerken van deze persoonsgegevens op uw aanwijzingen. Als gegevenscontroller bent u verantwoordelijk voor de relatie met de betrokkenen, bijvoorbeeld bij het beheren van [verzoeken om toegang tot persoonsgegevens](#privacy-requests).
 
-Bij de integratie van Campaign met andere Experience Cloud-oplossingen waarbij doelgroepen kunnen worden overgezet van het ene systeem naar het andere zoals de [Audience Destinations-service](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager of de People-kernservice](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), of met andere oplossingen zoals [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), moet u extra aandacht besteden aan de bescherming van persoonsgegevens.
+Bij de integratie van Campaign met andere Experience Cloud-oplossingen waarbij doelgroepen kunnen worden overgezet van het ene systeem naar het andere zoals de [Audience Destinations-service](../../integrating/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager of de People-kernservice](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), of met andere oplossingen zoals [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), moet u extra aandacht besteden aan de bescherming van persoonsgegevens.
 
 ## Gegevensacquisitie {#data-acquisition}
 
