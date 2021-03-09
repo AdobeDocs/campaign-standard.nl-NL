@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: bdeb3e0c81cf729436a722bfd349a39d5dcad351
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 95%
+source-wordcount: '1757'
+ht-degree: 93%
 
 ---
 
@@ -50,6 +50,11 @@ De activiteit **[!UICONTROL Query]** kan voor diverse doeleinden worden gebruikt
    Raadpleeg [Doeldimensies en bronnen](#targeting-dimensions-and-resources) voor meer informatie hierover.
 
 1. Voer op het tabblad **[!UICONTROL Target]** uw query uit door regels te definiëren en te combineren.
+
+   >[!NOTE]
+   >
+   >Wanneer het richten van een publiek, merk op dat de definitie van het publiek niet van verwijzingen wordt voorzien maar **gekopieerd** in de vraag. Als u om het even welke verandering in het publiek aanbrengt nadat het in een vraag is gericht, zorg ervoor u de vraag opnieuw vormt om de nieuwe definitie in rekening te brengen.
+
 1. Via een toegewezen tabblad kunt u **[!UICONTROL Additional data]** voor de doelpopulatie definiëren. Deze data worden in extra kolommen opgeslagen en kunnen alleen worden gebruikt voor de actieve workflow. U kunt met name data toevoegen uit de Adobe Campaign-databasetabellen die zijn gekoppeld aan de doeldimensie van de query. Raadpleeg de sectie [Data verrijken](#enriching-data).
 
    >[!NOTE]
