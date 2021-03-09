@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ea0755d22b34c4c961fd8715ecf4551ffcdcb58e
+source-git-commit: 6dd54dc72fdaf3261d13ca972f1258bcbb3c1e3a
 workflow-type: tm+mt
-source-wordcount: '6571'
-ht-degree: 97%
+source-wordcount: '6616'
+ht-degree: 96%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 97%
 
 Naast de [release-opmerkingen](../../rn/using/release-notes.md) bij Adobe Campaign worden op deze pagina alle nieuwe updates in de documentatie van Adobe Campaign Standard weergegeven.
 
-## Februari 2021 {#doc-updates-february-2021}
+## Maart 2021 {#doc-updates-march-2021}
 
-Er is informatie toegevoegd over hoe u ervoor kunt zorgen dat een geplande workflow niet opnieuw wordt gepland totdat een of meer taken uit een vorige uitvoering nog in behandeling zijn. [Meer informatie](../../automating/using/scheduled-workflows-execution.md)
+De informatie is toegevoegd om te specificeren dat, wanneer het selecteren van au publiek in een vraag, zijn definitie wordt gekopieerd en niet van verwijzingen wordt voorzien. [Meer informatie](../../audiences/using/selecting-an-audience-in-a-message.md)
+
+De informatie met betrekking tot de Dienst van de Doelen van het Publiek en de Verbinding van Gegevens van Adobe Experience Platform is hergroepeerd in een nieuwe sectie. [Meer informatie](../../integrating/using/aep-about-audience-destinations-service.md)
 
 ## Release 21.1 - februari 2021 {#release-21-1---february-2021}
 
@@ -42,6 +44,8 @@ Er is informatie toegevoegd over de nieuwe functie GetOption waarmee u de waarde
 Er is informatie toegevoegd over de nieuwe uitvoervariabele **[!UICONTROL filesCount]** die beschikbaar is na het gebruik van een **[!UICONTROL Transfer file]**-activiteit. [Meer informatie](../../automating/using/transfer-file.md#output-variables)
 
 De sectie **E-mailkanaal configureren** is bijgewerkt om te verduidelijken wat de meest recente toepasselijke e-mailinstellingen zijn. Enkele oudere parameters die nog worden gebruikt voor bepaalde klanten, worden onder aan de pagina weergegeven. [Meer informatie](../../administration/using/configuring-email-channel.md)
+
+Er is informatie toegevoegd over hoe u ervoor kunt zorgen dat een geplande workflow niet opnieuw wordt gepland totdat een of meer taken uit een vorige uitvoering nog in behandeling zijn. [Meer informatie](../../automating/using/scheduled-workflows-execution.md)
 
 ## December 2020 {#doc-updates-december-2020}
 
@@ -71,7 +75,7 @@ De sectie **Privacy** is verplaatst en verrijkt met twee nieuwe pagina&#39;s: [P
 
 De sectie **Transactioneel overseinen** is gereorganiseerd en in één plaats verzameld voor betere navigatie. [Meer informatie](../../channels/using/getting-started-with-transactional-msg.md)
 
-Er is informatie toegevoegd aan de sectie Adobe Experience Platform-gegevensconnector over de validatiefout bij gegevenstoewijzing in verband met privacybeheer en hoe u dit probleem kunt oplossen. [Meer informatie](../../developing/using/aep-mapping-activation.md)
+Er is informatie toegevoegd aan de sectie Adobe Experience Platform-gegevensconnector over de validatiefout bij gegevenstoewijzing in verband met privacybeheer en hoe u dit probleem kunt oplossen. [Meer informatie](../../integrating/using/aep-mapping-activation.md)
 
 ## Release 20.4 - oktober 2020 {#release-20-4---october-2020}
 
@@ -173,7 +177,7 @@ De documentatie over de integratie van Microsoft Dynamics 365 met Adobe Campaign
 
 Er zijn extra bronnen toegevoegd aan de startpagina van de documentatie. [Meer informatie](../../campaign-standard-home.md)
 
-Er is informatie over de Experience Cloud ID Service (ECID) toegevoegd aan de documentatie van de Adobe Experience Platform-gegevensconnector. [Meer informatie](../../developing/using/aep-about-data-connector.md#key-concepts)
+Er is informatie over de Experience Cloud ID Service (ECID) toegevoegd aan de documentatie van de Adobe Experience Platform-gegevensconnector. [Meer informatie](../../integrating/using/aep-about-data-connector.md#key-concepts)
 
 De sectie over transactionele berichten bevat verbeterde informatie over het openen van de meest recente transactionele gebeurtenissen en bijgewerkte schermafbeeldingen. [Meer informatie](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
@@ -239,9 +243,9 @@ Er is informatie toegevoegd over het **[!UICONTROL History in days field]** dat 
 
 **Nieuwe mogelijkheden die in de release zijn opgenomen**
 
-Adobe Experience Platform-gegevensconnector (bèta) - [Meer informatie](../../developing/using/aep-about-data-connector.md)
+Adobe Experience Platform-gegevensconnector (bèta) - [Meer informatie](../../integrating/using/aep-about-data-connector.md)
 
-Audience Destinations (bèta) - [Meer informatie](../../audiences/using/aep-about-audience-destinations-service.md)
+Audience Destinations (bèta) - [Meer informatie](../../integrating/using/aep-about-audience-destinations-service.md)
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
