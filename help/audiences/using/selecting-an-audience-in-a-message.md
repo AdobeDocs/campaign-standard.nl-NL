@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: deliveryCreation,wizard;delivery,audience,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: bdeb3e0c81cf729436a722bfd349a39d5dcad351
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 83%
+source-wordcount: '411'
+ht-degree: 74%
 
 ---
 
@@ -39,13 +39,15 @@ Doelgroepen kunnen worden gedefinieerd bij het maken van het bericht via de wiza
 
 1. Definieer het belangrijkste **[!UICONTROL Target]** van de e-mail. Dit is de gebruikelijke doelgroep van de e-mail.
 
-   Het doel wordt gedefinieerd op het tabblad **[!UICONTROL Target]** en bestaat uit geïdentificeerde profielen uit uw database.
-
-   U kunt het hoofddoel instellen met de functies van de [query-editor](../../automating/using/editing-queries.md#creating-queries).
+   Het doel wordt gedefinieerd op het tabblad **[!UICONTROL Target]** en bestaat uit geïdentificeerde profielen uit uw database. U kunt het hoofddoel instellen met de functies van de [query-editor](../../automating/using/editing-queries.md#creating-queries).
 
    Op dit tabblad bevat het palet **[!UICONTROL Shortcuts]** alleen vooraf gedefinieerde filters en de doelgroepen die in de geïdentificeerde profielen zijn gedefinieerd. Op het tabblad **[!UICONTROL Explorer]** hebt u toegang tot aanvullende configuraties.
 
    U kunt dus bestaande doelgroepen hergebruiken en combineren, er aanvullende filters op toepassen, enzovoort.
+
+   >[!NOTE]
+   >
+   >Wanneer het richten van een publiek, merk op dat de definitie van het publiek niet van verwijzingen wordt voorzien maar **gekopieerd** in de vraag. Als u om het even welke verandering in het publiek aanbrengt nadat het in een vraag is gericht, zorg ervoor u de vraag opnieuw vormt om de nieuwe definitie in rekening te brengen.
 
 1. Definieer de **[!UICONTROL Test profiles]** die u voor de e-mail wilt gebruiken. De testprofielen ontvangen de proeven die u vooraf kunt verzenden om de e-mail te testen voordat u deze naar het hoofddoel verzendt.
 
