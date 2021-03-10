@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 1b971fbf7b5d36283434db0389534a3dda2ebb45
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -27,9 +27,9 @@ Alle releasedatums kunnen worden gewijzigd. We raden u aan deze pagina regelmati
 
 ## Release 21.2 - Release van mei {#release-21-2-release}
 
-Updates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. Exacte datums worden per e-mail naar elke klant verzonden.
+Updates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. De exacte datums worden per e-mail naar elke klant verzonden.
 
-Gedetailleerde informatie over deze release is beschikbaar in de [Release-opmerkingen](../../rn/using/release-notes.md) wanneer upgrades van de staging omgeving van start gaan.
+Gedetailleerde informatie over deze release is beschikbaar in de [Aanvullende informatie](../../rn/using/release-notes.md) wanneer upgrades van de staging omgeving van start gaan.
 
 <table>
  <thead>
