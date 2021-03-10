@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 6dd54dc72fdaf3261d13ca972f1258bcbb3c1e3a
 workflow-type: tm+mt
 source-wordcount: '6616'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -43,17 +43,17 @@ Er is informatie toegevoegd over de nieuwe functie GetOption waarmee u de waarde
 
 Er is informatie toegevoegd over de nieuwe uitvoervariabele **[!UICONTROL filesCount]** die beschikbaar is na het gebruik van een **[!UICONTROL Transfer file]**-activiteit. [Meer informatie](../../automating/using/transfer-file.md#output-variables)
 
-De sectie **E-mailkanaal configureren** is bijgewerkt om te verduidelijken wat de meest recente toepasselijke e-mailinstellingen zijn. Enkele oudere parameters die nog worden gebruikt voor bepaalde klanten, worden onder aan de pagina weergegeven. [Meer informatie](../../administration/using/configuring-email-channel.md)
+De sectie **E-mailkanaal configureren** is bijgewerkt om te verduidelijken wat de meest recente toepasselijke e-mailinstellingen zijn. Enkele oudere parameters die nog worden gebruikt voor bepaalde klanten, worden onder aan deze pagina weergegeven. [Meer informatie](../../administration/using/configuring-email-channel.md)
 
-Er is informatie toegevoegd over hoe u ervoor kunt zorgen dat een geplande workflow niet opnieuw wordt gepland totdat een of meer taken uit een vorige uitvoering nog in behandeling zijn. [Meer informatie](../../automating/using/scheduled-workflows-execution.md)
+Er is informatie toegevoegd over hoe u ervoor kunt zorgen dat een geplande workflow niet opnieuw wordt gepland als er nog een of meer taken uit een vorige uitvoering in behandeling zijn. [Meer informatie](../../automating/using/scheduled-workflows-execution.md)
 
 ## December 2020 {#doc-updates-december-2020}
 
 De functie voor **voorspellende onderwerpregels** is nu verouderd. [Meer informatie](../../rn/using/deprecated-features.md)
 
-De **Aan de slag met transactioneel overseinen** sectie omvat nu [verbeterde schema&#39;s](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) voor een beter inzicht in het proces.
+De sectie **Aan de slag met transactionele berichten** omvat nu [verbeterde schema&#39;s](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) voor een beter inzicht in het proces.
 
-Een gebruiksgeval van begin tot eind om het proces van de transactionele overseinenimplementatie te illustreren is nu beschikbaar. [Meer informatie](../../channels/using/transactional-messaging-use-case.md)
+Er is nu een volledig gebruiksscenario beschikbaar om het implementatieproces voor transactionele berichten te illustreren. [Meer informatie](../../channels/using/transactional-messaging-use-case.md)
 
 De sectie **Privacy** is [hierheen](../../start/using/privacy.md) verplaatst.
 
@@ -67,13 +67,13 @@ De sectie **Productlijsten gebruiken in een transactioneel bericht** is [hierhee
 
 ## November 2020 {#doc-updates-november-2020}
 
-De **Persoonlijke Gegevens en Persona** sectie is bijgewerkt met een gebruikscase om te illustreren hoe de verschillende personen interactie hebben wanneer het op Privacy aankomt. [Meer informatie](../../start/using/privacy.md#use-case-scenario)
+De sectie **Persoonsgegevens en persona’s** is bijgewerkt met een gebruiksscenario om te laten zien hoe de verschillende persona’s interactie hebben wat betreft privacy. [Meer informatie](../../start/using/privacy.md#use-case-scenario)
 
 Er is een nieuwe sectie toegevoegd met veelgestelde vragen over privacy. [Meer informatie](../../start/using/privacy-faq.md)
 
-De sectie **Privacy** is verplaatst en verrijkt met twee nieuwe pagina&#39;s: [Privacybeheer](../../start/using/privacy-management.md) en [Privacyverzoeken beheren](../../start/using/privacy-requests.md).
+De sectie **Privacy** is verplaatst en aangevuld met twee nieuwe pagina&#39;s: [Privacybeheer](../../start/using/privacy-management.md) en [Verzoeken om toegang tot persoonsgegevens](../../start/using/privacy-requests.md).
 
-De sectie **Transactioneel overseinen** is gereorganiseerd en in één plaats verzameld voor betere navigatie. [Meer informatie](../../channels/using/getting-started-with-transactional-msg.md)
+De sectie **Transactionele berichten** heeft een nieuwe indeling en staat nu op één plaats voor betere navigatie. [Meer informatie](../../channels/using/getting-started-with-transactional-msg.md)
 
 Er is informatie toegevoegd aan de sectie Adobe Experience Platform-gegevensconnector over de validatiefout bij gegevenstoewijzing in verband met privacybeheer en hoe u dit probleem kunt oplossen. [Meer informatie](../../integrating/using/aep-mapping-activation.md)
 
@@ -99,7 +99,7 @@ Er is een sectie toegevoegd waarin de nieuwe filters worden beschreven waarmee d
 
 ## September 2020 {#doc-updates-september-2020}
 
-De sectie **Transactieberichten voor gebeurtenissen** is gereorganiseerd en verduidelijkt. [Meer informatie](../../channels/using/editing-transactional-message.md)
+De sectie over **transactionele berichten voor gebeurtenissen** is opnieuw ingedeeld en verhelderd. [Meer informatie](../../channels/using/editing-transactional-message.md)
 
 Er is een opmerking toegevoegd om gebruikers te waarschuwen voor machtigingsbeperkingen wat de toegang tot logboeken betreft. [Meer informatie](../../administration/using/users-management.md)
 
@@ -115,7 +115,7 @@ Er is een bijgewerkte sectie over het leren werken met transactionele berichten 
 
 De sectie **Beperkingen voor transactionele berichten** is [hierheen](../../channels/using/transactional-messaging-limitations.md) verplaatst.
 
-De **sectie Voorbereiden van de send** sectie is [hier](../../sending/using/preparing-the-send.md) verplaatst.
+De sectie **De verzending voorbereiden** is [hierheen](../../sending/using/preparing-the-send.md) verplaatst.
 
 ## Juli 2020 {#doc-updates-july-2020}
 
