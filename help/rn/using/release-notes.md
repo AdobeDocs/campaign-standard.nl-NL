@@ -6,11 +6,11 @@ description: Op deze pagina vindt u content van de nieuwste release van Campaign
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d4f689084974c18e5b2836ec0f2867ebdc137a4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2478'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 99%
 
 * Er is nu een nieuwe **GetOption**-functie beschikbaar in activiteiten die gebruikmaken van gebeurtenisvariabelen na het aanroepen van een workflow met externe parameters. Hiermee kunt u de waarde van een opgegeven functie retourneren. [Meer informatie](../../automating/using/customizing-workflow-external-parameters.md)
 
-* Met een nieuwe optie kunt u de beschikbaarheid van Campaign Standard tot **controleren op fysiek geheugen** voordat u een workflow start. Als de hoeveelheid geheugen te klein is, wordt de uitvoering van de workflow uitgesteld totdat het systeemgeheugen het minimum bereikt. Dit voorkomt verdere verslechtering van de prestaties en beperkt het risico van een storing. De workflow wordt automatisch voortgezet zodra de serverbelasting is gereduceerd en er meer geheugen beschikbaar is. Deze optie is alleen-lezen en kan niet worden gewijzigd. [Meer informatie](../../automating/using/best-practices-workflows.md#execution)
+* Met een nieuwe optie kan Campaign Standard de beschikbaarheid van **fysiek geheugen op uw systeem controleren** voordat een workflow wordt gestart. Als de hoeveelheid geheugen te klein is, wordt de uitvoering van de workflow uitgesteld totdat het systeemgeheugen het minimum bereikt. Dit voorkomt verdere verslechtering van de prestaties en beperkt het risico van een storing. De workflow wordt automatisch voortgezet zodra de serverbelasting is gereduceerd en er meer geheugen beschikbaar is. Deze optie is alleen-lezen en kan niet worden gewijzigd. [Meer informatie](../../automating/using/best-practices-workflows.md#execution)
 
 * Er is een nieuw proces beschikbaar in Adobe Campaign Standard, waarmee u eenvoudiger kunt migreren van de verouderde mobiele applicatie SDK v4 naar **Adobe Experience Platform Mobile SDK**. Zie [deze pagina](../../administration/using/sdkv4-migration.md).
 
