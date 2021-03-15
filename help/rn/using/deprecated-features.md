@@ -6,11 +6,14 @@ description: Deze pagina bevat de afgeschafte en verwijderde functies van Adobe 
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
+feature: Overzicht
+role: Zakelijke praktiserer
+level: Begin
 translation-type: tm+mt
-source-git-commit: becaf20fefb6fce05db0824baa69670f810966dc
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 80%
+source-wordcount: '738'
+ht-degree: 79%
 
 ---
 
