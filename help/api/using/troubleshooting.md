@@ -6,10 +6,13 @@ description: Meer informatie over algemene problemen met betrekking tot Campaign
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
+feature: API
+role: Gegevensengineer
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
@@ -17,7 +20,7 @@ ht-degree: 0%
 
 # Problemen oplossen {#troubleshooting}
 
-* **Wanneer u naar de Adobe.io-console gaat, treedt de volgende fout op: &quot;De Adobe I/O-console is alleen beschikbaar voor het selecteren van leden van bedrijfsaccounts. Als u van mening bent dat u toegang zou moeten hebben, gelieve uw Beheerder van het Systeem te contacteren.&quot;**
+* **Wanneer u naar de Adobe.io-console gaat, treedt de volgende fout op: &quot;De console van de Adobe I/O is slechts beschikbaar om leden van ondernemingsrekeningen te selecteren. Als u van mening bent dat u toegang zou moeten hebben, gelieve uw Beheerder van het Systeem te contacteren.&quot;**
 
 U kunt alleen API-sleutels maken voor de IMS-organisaties waarvan u de beheerder bent. Als dit bericht wordt weergegeven en u API-sleutels wilt maken, vraagt u een van de beheerders van de IMS-organisatie.
 
