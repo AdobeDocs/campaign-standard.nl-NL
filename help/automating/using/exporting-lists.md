@@ -6,10 +6,13 @@ description: 'Met Adobe Campaign kunt u de gegevens die worden weergegeven als l
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
+feature: Workflows
+role: Gegevensarchitect
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '448'
 ht-degree: 6%
 
 ---
