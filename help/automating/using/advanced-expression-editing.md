@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
+feature: Workflows
+role: Gegevensarchitect
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1096'
 ht-degree: 98%
 
 ---
@@ -106,8 +109,7 @@ JavaScript-expressies bestaan uit een of meer voorwaarden en gebruiken de volgen
    * **&lt;value2>** een veld, een functie of een waarde is die handmatig wordt ingevoerd.
 
    >[!NOTE]
-   >
-   >De typegegevens voor **&lt;context>** en **&lt;value2>** moeten identiek zijn. Als **&lt;context>** bijvoorbeeld een datum is, moet **&lt;value2>** ook een datum zijn.
+   De typegegevens voor **&lt;context>** en **&lt;value2>** moeten identiek zijn. Als **&lt;context>** bijvoorbeeld een datum is, moet **&lt;value2>** ook een datum zijn.
 
 * Als u meerdere voorwaarden wilt gebruiken, kunt u deze combineren met logische operatoren.
 
