@@ -6,10 +6,13 @@ description: Leer hoe u het gedrag van de ontvangers van de levering kunt bijhou
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
+feature: Prestatiebewaking
+role: Zakelijke praktiserer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 79e172d08557bfeebd088d8a0e8756c5965318cb
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '492'
 ht-degree: 20%
 
 ---
