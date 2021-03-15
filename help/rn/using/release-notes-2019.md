@@ -6,10 +6,13 @@ description: Deze pagina bevat een overzicht van alle releases van Adobe Campaig
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
+feature: Overzicht
+role: Zakelijke praktiserer
+level: Begin
 translation-type: tm+mt
-source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '7607'
+source-wordcount: '7611'
 ht-degree: 8%
 
 ---
