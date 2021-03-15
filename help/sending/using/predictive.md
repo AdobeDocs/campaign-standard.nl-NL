@@ -6,11 +6,14 @@ description: Leer hoe u voorspellende verzendtijd en betrokkenheidsscores kunt g
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
+feature: Tijdoptimalisatie verzenden
+role: Zakelijke praktiserer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 98%
+source-wordcount: '1070'
+ht-degree: 97%
 
 ---
 
