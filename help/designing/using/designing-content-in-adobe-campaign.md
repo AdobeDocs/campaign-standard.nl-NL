@@ -6,10 +6,13 @@ description: Maak vanaf het begin e-mailinhoud, importeer HTML of gebruik bestaa
 audience: designing
 content-type: reference
 topic-tags: about-content-design
+feature: E-mailontwerp
+role: Zakelijke praktiserer
+level: Begin
 translation-type: tm+mt
-source-git-commit: 300ffd374d7542817ffb7f37614e67804549cc3d
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1255'
 ht-degree: 89%
 
 ---
