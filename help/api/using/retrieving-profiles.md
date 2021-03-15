@@ -6,10 +6,13 @@ description: Meer informatie over het ophalen van profielen met API's.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: Gegevensengineer
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: da0aa6c111f3e44bb502c1e5c4ad7feff9108d81
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '233'
 ht-degree: 5%
 
 ---
