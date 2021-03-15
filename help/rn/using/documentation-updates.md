@@ -6,10 +6,13 @@ description: Ontdek meer over alle nieuwste updates voor de documentatie van Ado
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
+feature: Overzicht
+role: Zakelijke praktiserer
+level: Begin
 translation-type: tm+mt
-source-git-commit: 6dd54dc72fdaf3261d13ca972f1258bcbb3c1e3a
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '6616'
+source-wordcount: '6620'
 ht-degree: 99%
 
 ---
