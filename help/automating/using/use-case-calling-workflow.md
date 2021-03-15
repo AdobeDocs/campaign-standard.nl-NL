@@ -6,10 +6,13 @@ description: In deze sectie wordt beschreven hoe een workflow met externe parame
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
+feature: Workflows
+role: Gegevensarchitect
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '981'
 ht-degree: 1%
 
 ---
@@ -37,7 +40,7 @@ Alvorens de werkschema&#39;s te vormen, moet u Werkschema 1 en 2 met een **[!UIC
 
 Maak een API vraag om Werkstroom 1 met parameters teweeg te brengen. Raadpleeg de documentatie [Campaign Standard REST API&#39;s](../../api/using/triggering-a-signal-activity.md) voor meer informatie over de API-aanroepsyntaxis.
 
-In ons geval willen we de workflow met de volgende parameters bellen:
+In ons geval willen we de workflow met de volgende parameters oproepen:
 
 * **fileToTarget**: de naam van het bestand dat we in de database willen importeren.
 * **kortingDesc**: de beschrijving die wij in de levering voor de korting willen tonen.
