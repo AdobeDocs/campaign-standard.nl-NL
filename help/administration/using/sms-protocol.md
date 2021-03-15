@@ -6,10 +6,13 @@ description: Leer meer op de schakelaar van SMS en hoe te om het te vormen.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
+feature: Instantie-instellingen
+role: Beheerder
+level: Ervaren
 translation-type: tm+mt
-source-git-commit: 160eb4f23d9d683695457c1a1f35be1c300b7793
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '8665'
+source-wordcount: '8669'
 ht-degree: 0%
 
 ---
