@@ -6,10 +6,13 @@ description: Leer hoe u de functie Punten met interessegegevens in Adobe Campaig
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
+feature: Doelgroepen
+role: Gegevensarchitect
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1344'
 ht-degree: 3%
 
 ---
@@ -42,7 +45,7 @@ Om Adobe Experience Platform Location Services met mobiele toepassingen te kunne
 
 De mobiele toepassingen die worden gebruikt om locatiegegevens te verzamelen moeten door een **beheerder** in de interface van Adobe Campaign worden gevormd.
 
-Om de de gegevenseigenschap van het Punt van Interesse met mobiele toepassingen te gebruiken die met SDK V4 worden gevormd, moet u:
+Om de de gegevenseigenschap van het Punt van de Gegevens met mobiele toepassingen te gebruiken die met SDK V4 worden gevormd, moet u:
 
 1. Toegang tot Adobe Analytics for Mobile. Controleer uw licentieovereenkomst of neem contact op met de manager van uw Adobe-account voor meer informatie.
 1. Stel uw mobiele toepassing in Adobe Campaign in. Zie [Een mobiele app instellen in Campagne](#setting-up-a-mobile-app-in-campaign).
