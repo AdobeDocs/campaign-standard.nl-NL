@@ -6,10 +6,14 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: Leer hoe u de inhoud van uw bericht ontwerpt en probeer algemene problemen te vermijden die ertoe kunnen leiden dat u de levering niet kunt uitvoeren. 
+feature: Bezorging
+role: Zakelijke praktiserer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '930'
 ht-degree: 8%
 
 ---
