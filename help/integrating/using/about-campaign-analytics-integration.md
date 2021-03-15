@@ -6,10 +6,13 @@ description: Door de KPI-gegevens van Adobe Campaign Standard te verzamelen, kun
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
+feature: Triggers
+role: Gegevensarchitect
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '214'
 ht-degree: 6%
 
 ---
