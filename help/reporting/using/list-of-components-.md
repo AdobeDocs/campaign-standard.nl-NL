@@ -6,11 +6,14 @@ description: Hier vindt u de lijst met alle componenten die beschikbaar zijn in 
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
+feature: Rapporten
+role: Leader
+level: Begin
 translation-type: tm+mt
-source-git-commit: e129cde33b24831122433bd4b400204f38799b11
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 1%
+source-wordcount: '1298'
+ht-degree: 2%
 
 ---
 
