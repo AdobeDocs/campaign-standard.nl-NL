@@ -4,10 +4,13 @@ description: Leer hoe u de integratie-app Campagne-dynamiek configureert
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
+feature: Microsoft CRM-integratie
+role: Gegevensarchitect
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---
@@ -35,9 +38,9 @@ De Dynamica 365 van Microsoft Referentials geeft de toestemming van de integrati
 
 ### Adobe API-referenties
 
-De Adobe Campaign-referenties worden gegenereerd met [Adobe I/O](https://www.adobe.io/). U moet het scherm [Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) configureren en de instructies daar volgen voordat u de invoer in deze sectie kunt invullen.
+De Adobe Campaign-referenties worden gegenereerd met [Adobe I/O](https://www.adobe.io/). U zult het scherm [Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) moeten bezoeken en de instructies daar volgen alvorens u de input in deze sectie zult kunnen invullen.
 
-In de volgende afbeelding wordt de toewijzing tussen Adobe I/O en de invoer van het instellingenscherm uitgebreid uitgelegd.
+In de volgende afbeelding wordt de koppeling tussen de invoer van het Adobe I/O- en het instellingenscherm uitgebreid uitgelegd.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
