@@ -6,11 +6,14 @@ description: Ontdek hoe u profielen maakt en data verzamelt op uw contactpersone
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
+feature: Profielen
+role: Zakelijke praktiserer
+level: Begin
 translation-type: tm+mt
-source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 89%
+source-wordcount: '384'
+ht-degree: 88%
 
 ---
 
