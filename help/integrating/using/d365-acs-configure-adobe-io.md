@@ -4,18 +4,21 @@ description: Leer hoe te om Adobe IO voor de Integratie van de Dynamica 365 van 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
+feature: Microsoft CRM-integratie
+role: Gegevensarchitect
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: fe5d40235abc33c0ea7e929cd2e69b7030cea0b1
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '634'
 ht-degree: 2%
 
 ---
 
 
-# Adobe Campaign Standard en Adobe I/O Configuration for the Microsoft Dynamics 365 integration
+# Adobe Campaign Standard en de Configuratie van de Adobe I/O voor de Integratie van de Dynamica 365 van Microsoft
 
-In dit artikel wordt uitgelegd hoe u Adobe Campaign Standard en Adobe I/O configureert om de integratietoepassing toegang te geven tot de gegevens.
+Dit artikel zal verklaren hoe te om Adobe Campaign Standard en Adobe I/O te vormen om de integratietoepassing toegang tot de gegevens te geven.
 
 ## Adobe Campaign Standard {#campaign-standard} configureren
 
@@ -29,7 +32,7 @@ Schakel &quot;profielextensies&quot; in Adobe Campaign Standard in.   Dit is nod
 
 ## Adobe I/O configureren {#adobe-io}
 
-Met Adobe I/O kunt u API-toegang tot Adobe Campaign Standard en andere Adobe-producten inschakelen.   In dit artikel wordt gedetailleerd beschreven hoe u Adobe I/O configureert om de Adobe Campaign Standard-integratie met Microsoft Dynamics 365 toegang te geven om de gegevens te synchroniseren.
+Met Adobe I/O kunt u API-toegang tot Adobe Campaign Standard en andere Adobe-producten inschakelen.   Dit artikel zal in detail hoe te om Adobe I/O te vormen om de integratie van Adobe Campaign Standard met de Dynamica 365 van Microsoft toegang te geven om de gegevens te synchroniseren.
 
 ### Overzicht
 
