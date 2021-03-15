@@ -6,10 +6,13 @@ description: Begin met het ontwikkelen van herbruikbare e-mailinhoud met de e-ma
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: E-mailontwerp
+role: Zakelijke praktiserer
+level: Intermediair
 translation-type: tm+mt
-source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1824'
 ht-degree: 1%
 
 ---
