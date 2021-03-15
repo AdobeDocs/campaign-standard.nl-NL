@@ -6,10 +6,13 @@ description: Deze pagina bevat een overzicht van alle releases van Adobe Campaig
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
+feature: Overzicht
+role: Zakelijke praktiserer
+level: Begin
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '4627'
+source-wordcount: '4631'
 ht-degree: 8%
 
 ---
@@ -155,7 +158,7 @@ _Transactionele berichten_
 _Rapporten_
 
 * Het **Hot click**-rapport is verbeterd. Ook, is het nu mogelijk om heet kliks volgens elke voorwaardelijke inhoud te tonen die in een levering werd bepaald en hete kliks voor elke uitvoering van terugkomende leveringen of transactionele berichten te tonen. Raadpleeg de [gedetailleerde documentatie](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion) voor meer informatie.
-* Probleem verholpen waarbij de quarantaineminimetrie geen correcte gegevens kon ophalen.
+* Probleem verholpen waarbij de quarantaineminimetrische gegevens niet werden opgehaald.
 * Er is een nieuw vooraf ingesteld tijdframe toegevoegd aan de kalenderwidget.
 * De [dynamische rapportmetriek](../../reporting/using/indicator-calculation.md) en [campagnes&#39; KPIs](../../sending/using/confirming-the-send.md) (getoond op het dashboard van verzonden berichten) zijn gericht voor meer coherentie.
 * Probleem verholpen waarbij een pijpleiding ertoe kon leiden dat er een crash optrad bij debian 7.
