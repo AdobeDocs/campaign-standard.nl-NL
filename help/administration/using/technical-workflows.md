@@ -10,9 +10,9 @@ feature: Instantie-instellingen
 role: Beheerder
 level: Ervaren
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '658'
 ht-degree: 99%
 
 ---
@@ -77,11 +77,6 @@ Technische workflows worden gebruikt om door uzelf geactiveerde achtergrond- en 
    <td> <span class="uicontrol">KPI-afstemming met Adobe Analytics</span> <br /> </td> 
    <td> <span class="uicontrol">kpiReconciliation</span> <br /> </td> 
    <td> Deze workflow haalt KPI’s eenmaal per dag op uit de Reporting-service en stemt deze af op de data van Adobe Analytics. Het verschil wordt vervolgens gepusht als dat nodig is. Standaard wordt de workflow elke dag om 4.20 uur gestart.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NMAC-opt-outs beheren</span> <br /> </td> 
-   <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> Deze workflow werkt uitschrijvingen op meldingen op mobiele apparaten bij. Standaard wordt de workflow om de 6 uur tussen 1.00 uur en middernacht gestart.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Lokale archivering in Berichtencentrum</span> <br /> </td> 
