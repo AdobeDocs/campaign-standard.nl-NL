@@ -7,9 +7,9 @@ user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken,
 title: 'Campaign Standard-handleiding '
 breadcrumb-title: Help Center
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '1751'
+source-wordcount: '1754'
 ht-degree: 99%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 99%
       + [Privacybeheer](start/using/privacy-management.md)
       + [Verzoeken om toegang tot persoonsgegevens](start/using/privacy-requests.md)
       + [Veelgestelde vragen over privacy](start/using/privacy-faq.md)
+   + [Help- en ondersteuningsopties](support.md)
 + Profielen en doelgroepen {#profiles-and-audiences}
    + [Aan de slag met profielen en doelgroepen](audiences/using/get-started-profiles-and-audiences.md)
    + Profielen beheren {#managing-profiles}
