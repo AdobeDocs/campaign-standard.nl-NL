@@ -271,8 +271,8 @@ ht-degree: 99%
          + [Synchronisatieworkflows beheren](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Gegevens toewijzen tussen Microsoft Dynamics 365 en Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [De integratie van Microsoft Dynamics 365 gebruiken](integrating/using/d365-acs-using-the-integration.md)
-   + Campagne en Adobe Experience Platform {#adobe-experience-platform}
-      + Service voor doelpubliek {#audience-destinations}
+   + Campaign en Adobe Experience Platform {#adobe-experience-platform}
+      + De service Doelgroepbestemmingen {#audience-destinations}
          + [Informatie over de service Audiences Destinations](integrating/using/aep-about-audience-destinations-service.md)
          + [Adobe Experience Platform-doelgroepen beheren](integrating/using/aep-managing-audiences.md)
          + [De Segment Builder gebruiken](integrating/using/aep-using-segment-builder.md)
