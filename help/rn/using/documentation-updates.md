@@ -26,9 +26,9 @@ Naast de [release-opmerkingen](../../rn/using/release-notes.md) bij Adobe Campai
 
 De sectie met de belangrijkste stappen voor het verzenden van een bericht is uitgebreid met aanvullende informatie en verwijzingen. [Meer informatie](../../channels/using/key-steps-to-send-a-message.md)
 
-De informatie is toegevoegd om te specificeren dat, wanneer het selecteren van au publiek in een vraag, zijn definitie wordt gekopieerd en niet van verwijzingen wordt voorzien. [Meer informatie](../../audiences/using/selecting-an-audience-in-a-message.md)
+Er is informatie toegevoegd om aan te geven dat bij het selecteren van een doelgroep in een query de definitie ervan wordt gekopieerd, en dat er niet naar wordt verwezen. [Meer informatie](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-De informatie met betrekking tot de Dienst van de Doelen van het Publiek en de Verbinding van Gegevens van Adobe Experience Platform is hergroepeerd in een nieuwe sectie. [Meer informatie](../../integrating/using/aep-about-audience-destinations-service.md)
+De informatie over de service Doelgroepbestemmingen en de Adobe Experience Platform-gegevensconnector is gehergroepeerd tot een nieuwe sectie. [Meer informatie](../../integrating/using/aep-about-audience-destinations-service.md)
 
 ## Release 21.1 - februari 2021 {#release-21-1---february-2021}
 
