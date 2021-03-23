@@ -8,12 +8,12 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 feature: Bezorging
-role: Zakelijke praktiserer
+role: Business Practitioner
 level: Intermediair
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '471'
 ht-degree: 2%
 
 ---
@@ -38,7 +38,7 @@ Als het probleem zich blijft voordoen, neemt u contact op met de services voor c
 
 * **Wat is het verschil tussen een e-mailadres op lijst van gewezen personen en een quarantined e-mailadres?**
 
-   * De status **[!UICONTROL On denylist]** is een resultaat van een feedbacklus (wanneer een persoon een bericht rapporteert als spam).
+   * De status **[!UICONTROL On denylist]** is een resultaat van een [terugkoppelt lijn](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (wanneer een persoon een bericht als spam meldt).
 
    * De status **[!UICONTROL Quarantined]** is het resultaat van een zachte of harde stuit.
    Zie [deze sectie](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist) voor meer informatie.
