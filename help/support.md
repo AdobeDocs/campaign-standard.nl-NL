@@ -8,12 +8,12 @@ content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: true
 feature: Help- en ondersteuningsopties
-role: Zakelijke praktiserer
-level: Begin
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
-source-git-commit: a632087e69a952ff71b828670a1df19ead3dc2c8
+source-git-commit: 9cb375656d57f6ff19ff24b72ccbf83dee54b6a1
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '568'
 ht-degree: 5%
 
 ---
@@ -37,42 +37,50 @@ Support via onze veelgestelde vragen, best practices, online bronnen en onderste
 
 <img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
-### Onderwerpen
-
-Lees uit een reeks specifieke vragen en antwoorden door onderwerpen:
-
-* [Bezorging](sending/using/monitor-deliverability.md)
-* [InApp- en pushmeldingen](administration/using/aep-faq.md)
-* [Email Designer](designing/using/faq-email-designer.md)
-
-### Algemene kwesties
-
-* [Foutbeheer in workflows](automating/using/monitoring-workflow-execution.md#error-management)
-* [Problemen met workflowuitvoering](automating/using/best-practices-workflows.md)
-* [API-problemen](api/using/troubleshooting.md)
-* [Uitvoeren van fouten begrijpen](sending/using/understanding-delivery-failures.md)
-
-### Best practices
-
-* [Best practices voor workflows](automating/using/best-practices-workflows.md)
-* [Workflowbewaking](automating/using/about-workflow-execution.md)
-* [Beheer van bijhouden begrijpen](sending/using/tracking-messages.md)
-* [Aanbevolen werkwijzen voor leveringsbaarheid](sending/using/about-deliverability.md)
-* [Gegevens importeren met workflows](automating/using/creating-import-workflow-templates.md)
-* [Tijdzonebeheer](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
-* [Een melding ontvangen wanneer een fout optreedt](sending/using/receiving-alerts-when-failures-happen.md)
-* [E-mailinhoud importeren of converteren](designing/using/using-existing-content.md)
-* [Best practices voor levering](sending/using/delivery-best-practices.md)
-
-### Hoe kan ik
-
-* [Upgrade naar een nieuwe versie](rn/using/release-planning.md)
-* [Een levering controleren](sending/using/monitoring-a-delivery.md)
-* [quarantainebeheer begrijpen](sending/using/understanding-quarantine-management.md)
-* [Privacy- en toestemmingsbeheer](start/using/privacy-management.md)
-* [Een query ontwerpen](automating/using/query.md)
-* [Query-voorbeelden](automating/using/query-samples.md)
-* [Mobiele kanalen configureren](https://helpx.adobe.com/campaiacs-mobile.html)
+<table>
+    <tr><td><strong>Onderwerpen</strong></td><td><strong>Algemene kwesties</strong></td><td><strong>Best practices</strong></td><td><strong>Hoe kan ik</strong></td></tr>
+    <tr>
+    <td valign="top">
+        <ul>
+        <li><a href="sending/using/monitor-deliverability.md">Bezorging</a></li>
+        <li><a href="administration/using/aep-faq.md">InApp- en pushmeldingen</a></li>
+        <li><a href="designing/using/faq-email-designer.md">Email Designer</a></li>
+        </ul>
+    </td>
+    <td valign="top">
+        <ul>
+        <li><a href="automating/using/monitoring-workflow-execution.md#error-management">Foutbeheer in workflows</a></li>
+        <li><a href="automating/using/best-practices-workflows.md">Problemen met werkstroomuitvoering oplossen</a></li>
+        <li><a href="api/using/troubleshooting.md">API-problemen oplossen</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">Uitvoeren van fouten begrijpen</a></li>
+        </ul>
+    </td>
+   <td valign="top">
+        <ul>
+        <li><a href="automating/using/best-practices-workflows.md">Best practices voor workflows</a></li>
+        <li><a href="automating/using/about-workflow-execution.md">Workflowbewaking</a></li>
+        <li><a href="sending/using/tracking-messages.md">Beheer van bijhouden begrijpen</a></li>
+        <li><a href="sending/using/about-deliverability.md">Aanbevolen werkwijzen voor leveringsbaarheid</a></li>
+        <li><a href="automating/using/creating-import-workflow-templates.md">Gegevens importeren met workflows</a></li>
+        <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">Tijdzonebeheer</a></li>
+        <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Een melding ontvangen wanneer een fout optreedt</a></li>
+        <li><a href="designing/using/using-existing-content.md">E-mailinhoud importeren of converteren</a></li>
+        <li><a href="sending/using/delivery-best-practices.md">Best practices voor levering</a></li>
+        </ul>
+    </td>
+    <td valign="top">
+        <ul>
+        <li><a href="rn/using/release-planning.md">Upgrade naar een nieuwe versie</a></li>
+        <li><a href="sending/using/monitoring-a-delivery.md">Een levering controleren</a></li>
+        <li><a href="sending/using/understanding-quarantine-management.md">quarantainebeheer begrijpen</a></li>
+        <li><a href="start/using/privacy-management.md">Privacy- en toestemmingsbeheer</a></li>
+        <li><a href="automating/using/query.md">Een query ontwerpen</a></li>
+        <li><a href="automating/using/query-samples.md">Query-voorbeelden</a></li>
+        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">Mobiele kanalen configureren</a></li>
+        </ul>
+    </td>
+    </tr>
+</table>
 
 ## Campaign-configuratiescherm
 
@@ -107,7 +115,7 @@ U kunt de subdomeinen en de bijbehorende certificaten controleren. Meer informat
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-Het nieuwe ticketing-systeem is echter [Adobe Admin Console](https://adminconsole.adobe.com/overview) geweest. Het nieuwe systeem vereist nieuwe individuele rekeningen voor elke gebruiker, met correcte toestemmingen. Als u vindt dat u zich niet kunt aanmelden bij uw Adobe ID, kunt u toegang aanvragen via de Experience League. Het zorgteam van de klant stelt u zo snel mogelijk in. [Meer informatie](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+Het nieuwe ticketing systeem is door [Adobe Admin Console](https://adminconsole.adobe.com/overview) geweest. Het nieuwe systeem vereist nieuwe individuele rekeningen voor elke gebruiker, met correcte toestemmingen. Als u vindt dat u zich niet kunt aanmelden bij uw Adobe ID, kunt u toegang aanvragen via de Experience League. Het zorgteam van de klant stelt u zo snel mogelijk in. [Meer informatie](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### Vraag het de experts!
 
@@ -115,9 +123,7 @@ Gemeenschappelijke Campaign Classic-Gemeenschap: zoek naar antwoorden in bestaan
 
 ### Een ticket maken of een chat starten
 
-Door een case te maken, kunt u contact opnemen met het Adobe Customer Support Team voor alle problemen die u tegenkomt bij uw Adobe-producten.
-
-Om u te helpen uw problemen op te lossen of problemen op te lossen, kunt u met de Adobe Admin Console chatten met de klantenondersteuning van Adobe.
+Door een case te maken, kunt u contact opnemen met het Adobe Customer Support Team voor alle problemen die u tegenkomt bij uw Adobe-producten. Om u te helpen uw problemen op te lossen of problemen op te lossen, kunt u met de Adobe Admin Console chatten met de klantenondersteuning van Adobe.
 
 Als u een uitgave wilt registreren of een chatsessie wilt starten in dat nieuwe systeem, maakt u verbinding met [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
