@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 feature: Bezorging
-role: Zakelijke praktiserer
+role: Business Practitioner
 level: Intermediair
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 7%
+source-wordcount: '310'
+ht-degree: 10%
 
 ---
 
@@ -26,7 +26,6 @@ Hieronder vindt u meer informatie over het **[!UICONTROL Delivery throughput]**-
 * Controleer of het opnieuw proberen correct is ingesteld (30 minuten voor herbestellingsperiode en meer dan 20 pogingen) in leveringssjablonen.
 * Verifieer regelmatig dat de stuiterende brievenbus toegankelijk is en dat de rekening niet op het punt staat te verlopen.
 * Controleer elke leveringsproductie om ervoor te zorgen dat het met de geldigheid van de leveringsinhoud (b.v. &#39;Flash-verkoop&#39; moet in minuten worden geleverd, niet in dagen).
-* Wanneer het gebruiken van golven, verifieer dat elke golf genoeg tijd heeft om te beëindigen alvorens volgende wordt teweeggebracht.
 * Controleer of het aantal fouten en nieuwe quarantines consistent zijn met andere leveringen.
 * Raadpleeg zorgvuldig de leveringslogboeken in detail om het soort fouten te controleren die worden benadrukt (lijsten van gewezen personen, DNS kwesties, anti-spamregels, enz.).
 
@@ -56,16 +55,18 @@ De functie **[!UICONTROL Delivery alerting]** is een waarschuwingssysteem waarme
 
 Zie [Waarschuwingen ontvangen wanneer fouten optreden](../../sending/using/receiving-alerts-when-failures-happen.md) voor meer informatie.
 
-## Spam {#signal-spam}
+<!--## External tools (#external-tools)
 
-Spam van het signaal is de Franse dienst die anonymized terugkoppel meldt voor Franse ISPs (Orange, SFR).
+### Signal Spam {#signal-spam}
 
-Deze dienst staat u toe om de reputatie van Franse ISPs te volgen en de activiteitenevolutie van klanten te volgen.
+Signal Spam is a French service which offers anonymized feedback loop reporting for French ISPs (Orange, SFR).
 
-Spam van het signaal verstrekt ook directe klachten dat het eind - gebruikers door een specifieke interface registreren. Die klachten worden dan in quarantaine geplaatst van het e-mailadresgegevensbestand.
+This service allows you to follow the reputation of the French ISPs and track customers' activity evolution.
 
-## 250ok {#solution-250ok}
+Signal Spam also provides direct complaints that end users log through a dedicated interface. Those complaints are then quarantined from the email address database.
 
-250ok is een controleoplossing die IP en domeinlijsten van gewezen personen, evenals reputatie-indicatoren verstrekt.
+### 250ok {#solution-250ok}
 
-De verstrekte informatie is real-time, wat een pro-actieve bijstand mogelijk maakt. 250ok is een aanvullende oplossing voor de interne instrumenten voor de Adobe-leverbaar.
+250ok is a monitoring solution which provides IP and domain denylists, as well as reputation indicators.
+
+The information provided is real-time, which allows for a pro-active assistance. 250ok a complementary solution to the Adobe deliverability internal tools.-->
