@@ -7,13 +7,13 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 feature: Bezorging
-role: Zakelijke praktiserer
+role: Business Practitioner
 level: Intermediair
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 70%
+source-wordcount: '1310'
+ht-degree: 67%
 
 ---
 
@@ -38,6 +38,7 @@ De berichten kunnen ook tijdens de leveringsvoorbereiding worden uitgesloten als
 
 * [Werken met quarantainebeheer](../../sending/using/understanding-quarantine-management.md)
 * [Informatie over opt-in en opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Bounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## Leveringsfouten identificeren voor een bericht {#identifying-delivery-failures-for-a-message}
 
@@ -75,6 +76,11 @@ De mogelijke redenen van een leveringsfout zijn:
 | **[!UICONTROL Text too long]** | Genegeerd | Het aantal tekens in het SMS-bericht overschrijdt de limiet. Zie [Sms-codering, -lengte en -transliteratie](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) voor meer informatie. |
 | **[!UICONTROL Character not supported by encoding]** | Genegeerd | Het SMS-bericht bevat een of meer tekens die niet door de codering worden ondersteund. &amp;Zie [Tabel met tekens - gsm-standaard](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard) voor meer informatie. |
 
+
+**Verwante onderwerpen:**
+* [Harde vlekken](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [Zachte golven](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+
 ## Nieuwe pogingen na een tijdelijke leveringsfout {#retries-after-a-delivery-temporary-failure}
 
 Als een bericht mislukt wegens een tijdelijke fout van het type **Ignored**, zullen nieuwe pogingen worden uitgevoerd tijdens de leveringsduur. Raadpleeg [Typen leveringsfouten en redenen](#delivery-failure-types-and-reasons) voor meer informatie over de typen fouten.
@@ -91,13 +97,12 @@ Om de duur van een levering te wijzigen, gaat u naar de geavanceerde parameters 
 
 Als u bijvoorbeeld opnieuw wilt proberen om een levering na één dag te stoppen, kunt u de leveringsduur instellen op **1d** en worden de berichten in de wachtrij na één dag verwijderd.
 
-<!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
-
 >[!NOTE]
 >
 >Als een bericht maximaal 3,5 dagen in de wachtrij voor opnieuw proberen is geweest en niet is geleverd, wordt de time-out van het bericht vergroot en wordt de status ervan bijgewerkt<!--from **[!UICONTROL Sent]**--> tot **[!UICONTROL Failed]** in de [leveringslogs](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
-<!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
+<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
 ## Synchrone en asynchrone fouten {#synchronous-and-asynchronous-errors}
 
@@ -114,9 +119,13 @@ Voor de synchrone foutenmeldingen van de leveringsmislukking, bepaalt Adobe Camp
 >
 >De kwalificaties voor niet-bezorging in de tabel **[!UICONTROL Message qualification]** van Campaign worden niet meer gebruikt.
 
-Asynchrone niet-bezorgingen worden nog steeds gekwalificeerd door het inMail-proces aan de hand van de regels voor **[!UICONTROL Inbound email]**. U opent deze regels door te klikken op het logo **[!UICONTROL Adobe Campaign]** in de linkerbovenhoek en achtereenvolgens **[!UICONTROL Administration > Channels > Email > Email processing rules]** en **[!UICONTROL Bounce mails]** te selecteren. Raadpleeg deze [sectie](../../administration/using/configuring-email-channel.md#email-processing-rules) voor meer informatie over deze regel.
+Asynchrone niet-bezorgingen worden nog steeds gekwalificeerd door het inMail-proces aan de hand van de regels voor **[!UICONTROL Inbound email]**. U opent deze regels door te klikken op het logo **[!UICONTROL Adobe Campaign]** in de linkerbovenhoek en achtereenvolgens **[!UICONTROL Administration > Channels > Email > Email processing rules]** en **[!UICONTROL Bounce mails]** te selecteren. Voor meer op deze regel, zie [deze sectie](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-<!--Bounces can have the following qualification statuses:
+Zie [deze sectie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability) voor meer informatie over grenzen en de verschillende soorten grenzen.
+
+<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+
+Bounces can have the following qualification statuses:
 
 * **[!UICONTROL To qualify]**: the bounce mail needs to be qualified. Qualification must be done by the Deliverability team to ensure that the platform deliverability functions correctly. As long as it is not qualified, the bounce mail is not used to enrich the list of email processing rules.
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
@@ -132,4 +141,4 @@ Het dubbele opt-inmechanisme is een best practice voor de verzending van e-mails
 
 Het principe is om een e-mail te verzenden om de instemming van bezoekers te bevestigen voordat u deze als profielen in uw Campaign-database opslaat. De bezoeker vult een online landingspagina in, ontvangt een e-mail en moet op de bevestigingskoppeling klikken om zijn inschrijving te voltooien.
 
-Raadpleeg [deze sectie](../../channels/using/setting-up-a-double-opt-in-process.md) voor meer informatie.
+Zie [deze sectie](../../channels/using/setting-up-a-double-opt-in-process.md)voor meer informatie.
