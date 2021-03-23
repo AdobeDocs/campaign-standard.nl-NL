@@ -8,13 +8,13 @@ topic-tags: deliveries-best-practices
 index: y
 description: Leer beste praktijken met betrekking tot leveringsontwerp en verzendend met Adobe Campaign.
 feature: Bezorging
-role: Zakelijke praktiserer
+role: Business Practitioner
 level: Intermediair
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -33,7 +33,7 @@ Leer beste praktijken met betrekking tot leveringsontwerp en verzendend met Adob
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[Inhoud](optimize-delivery.md)**  aanpassen - Correcte instellingen toepassen
+**[Inhoud](design-and-personalize.md)**  aanpassen - Correcte instellingen toepassen
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
