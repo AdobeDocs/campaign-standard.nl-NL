@@ -7,9 +7,9 @@ user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken,
 title: 'Campaign Standard-handleiding '
 breadcrumb-title: Help Center
 translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1743'
 ht-degree: 99%
 
 ---
@@ -182,11 +182,7 @@ ht-degree: 99%
       + [Werken met quarantainebeheer](sending/using/understanding-quarantine-management.md)
    + Leverbaarheid beheren {#managing-deliverability}
       + [Informatie over leverbaarheid](sending/using/about-deliverability.md)
-      + [Een nieuw platform starten](sending/using/starting-new-platform.md)
       + [E-mailcontent beheren](sending/using/control-email-content.md)
-      + [Uw reputatie verbeteren](sending/using/improving-reputation.md)
-      + [IP-certificering](sending/using/ip-certification.md)
-      + [Technische aanbevelingen](sending/using/technical-recommendations.md)
       + [Leverbaarheid opvolgen](sending/using/monitor-deliverability.md)
       + [Problemen oplossen](sending/using/troubleshooting.md)
    + Werken met typologieregels {#working-with-typology-rules}
