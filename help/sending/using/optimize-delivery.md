@@ -8,12 +8,12 @@ topic-tags: deliveries-best-practices
 index: y
 description: Leer hoe u het verzendproces upstream kunt beveiligen en optimaliseren.
 feature: Bezorging
-role: Zakelijke praktiserer
+role: Business Practitioner
 level: Intermediair
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '754'
 ht-degree: 6%
 
 ---
@@ -55,7 +55,7 @@ Om uw ontvangers&#39; te bereiken inbox zonder te stuiteren of als spam worden g
 
    * Wanneer u uw e-mail controleert op leverbaarheid, wilt u zich op vier hoofdcategorieën concentreren: gegevenskwaliteit, bericht en inhoud, verzendende infrastructuur, en reputatie. Raadpleeg [deze sectie](../../sending/using/about-deliverability.md) voor een dieper overzicht van dit onderwerp.
 
-* Pas bij het starten van een nieuw platform de aanbevelingen toe die [in deze pagina](../../sending/using/starting-new-platform.md) worden beschreven.
+* Pas bij het starten van een nieuw platform de aanbevelingen toe die worden beschreven op [deze pagina](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
 * Neem contact op met uw Adobe-vertegenwoordiger voor hulp.
 
