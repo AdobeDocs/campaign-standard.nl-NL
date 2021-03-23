@@ -10,10 +10,10 @@ feature: Triggers
 role: Gegevensarchitect
 level: Intermediair
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a6272db76fbfca7b9ebcc3734368f7c032b234af
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 5%
+source-wordcount: '522'
+ht-degree: 4%
 
 ---
 
@@ -41,9 +41,12 @@ Integratie ondersteunt twee typen Adobe Experience Cloud-id&#39;s:
 * **Opgegeven ID**: Met dit type id kunt u elk type gegevens combineren met elementen uit de Adobe Campaign-database. Het wordt in Adobe Campaign vertegenwoordigd als een vooraf gedefinieerde afstemmingssleutel. Bij het uitwisselen van gegevens worden de Adobe Campaign-database-id&#39;s gehashed. Deze hashed-id&#39;s worden vervolgens vergeleken met de hashed-id&#39;s van het Adobe Marketing Cloud-publiek dat betrokken is bij het importeren of exporteren.
    <br>Deze integratie ondersteunt reguliere gedeclareerde id&#39;s, gehashte gedeclareerde id&#39;s en gecodeerde gedeclareerde id&#39;s.
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >Opgegeven id werkt alleen met Adobe Audience Manager. Opgegeven id werkt niet zonder id.
+   >De verklaarde gegevensbron van identiteitskaart kan nu ook met de dienstintegratie van de Kern van Mensen worden gebruikt.
+   >
+   >Als u de de dienstintegratie van de Kern van Mensen gebruikt en de integratie van de Audience Manager wilt toevoegen, zult u de hulp van een consultant van Adobe Audience Manager nodig hebben om te vermijden verlies van alle verzamelde syncs van identiteitskaart wanneer het overgaan aan het gebruiken van deze Gedeclareerde gegevensbron van identiteitskaart in een context van Adobe Audience Manager.
+
 
    Met codering kunt u gecodeerde gegevens delen in gegevensbronnen (bijvoorbeeld PII) met de gedeclareerde id door het versleutelingsalgoritme op te geven.
 
