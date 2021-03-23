@@ -7,13 +7,13 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Overzicht
-role: Zakelijke praktiserer
-level: Begin
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
-source-git-commit: a632087e69a952ff71b828670a1df19ead3dc2c8
+source-git-commit: dd71d843436220c0313d08d76c17633306301456
 workflow-type: tm+mt
-source-wordcount: '6639'
-ht-degree: 99%
+source-wordcount: '6736'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,12 @@ De sectie met de belangrijkste stappen voor het verzenden van een bericht is uit
 Er is informatie toegevoegd om aan te geven dat bij het selecteren van een doelgroep in een query de definitie ervan wordt gekopieerd, en dat er niet naar wordt verwezen. [Meer informatie](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 De informatie over de service Doelgroepbestemmingen en de Adobe Experience Platform-gegevensconnector is gehergroepeerd tot een nieuwe sectie. [Meer informatie](../../integrating/using/aep-about-audience-destinations-service.md)
+
+**De verklaarde** gegevensbron IDdata kan nu ook met de de dienstintegratie van de Kern van Mensen worden gebruikt. De informatie is toegevoegd in de de dienstintegratiedocumentatie van de Audience Manager van de Campagne of van de Kern van Mensen. [Meer informatie](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+
+Er is informatie toegevoegd over het implementeren van lokale tracering voor mobiele toepassingen. [Meer informatie](../../administration/using/local-tracking.md)
+
+De sectie [Leverbaarheid](../../sending/using/about-deliverability.md) is bijgewerkt en bevat nu koppelingen naar de nieuwe [Handleiding voor beste praktijken voor Adobe-levering](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html). Alle generieke informatie met betrekking tot leverbaarheid die op diverse oplossingen van Adobe kan van toepassing zijn is verplaatst naar [Aanhangsel van de gids van Beste praktijken](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
 
 ## Release 21.1 - februari 2021 {#release-21-1---february-2021}
 
@@ -274,7 +280,7 @@ De sectie voor het exporteren van logboeken is bijgewerkt om de beschikbaarheid 
 
 ## Januari 2020 {#doc-updates-january-2020}
 
-De documentatie over leverbaarheid is bijgewerkt met een nieuwe sectie over IP-certificering. [Meer informatie](../../sending/using/ip-certification.md)
+De documentatie over leverbaarheid is bijgewerkt met een nieuwe sectie over IP-certificering. <!--[Read more](../../sending/using/ip-certification.md)-->
 
 Er is een nieuwe sectie beschikbaar waarin wordt beschreven hoe u een workflow voor levering tussen kanalen kunt maken. [Meer informatie](../../automating/using/workflow-cross-channel-delivery.md)
 
