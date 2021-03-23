@@ -8,75 +8,120 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 feature: Bezorging
-role: Zakelijke praktiserer
+role: Business Practitioner
 level: Intermediair
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 5%
+source-wordcount: '749'
+ht-degree: 6%
 
 ---
 
 
-# Leverbaarheid{#about-deliverability}
+# Wat is leverbaar{#about-deliverability}
 
-De levering staat toe om het succes van uw campagnes te meten die uw ontvangers&#39; inbox bereiken zonder te stuiteren, of als spam worden gemerkt.
+De levering staat toe om het succes van uw campagnes te meten die uw ontvangers&#39; inbox bereiken zonder te stuiteren, of als spam worden gemerkt. [Leer waarom leverbaarheid van belang](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters) is.
 
-Het percentage te leveren producten hangt af van een groot aantal factoren, met name:
+Meer bepaald, verwijst de e-maillevering naar de reeks eigenschappen die de capaciteit van een bericht bepalen om zijn bestemming, via een persoonlijk e-mailadres, binnen een korte tijd, en met de verwachte kwaliteit in termen van inhoud en formaat te bereiken. <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
-* Correcte configuratie van uw instanties
-* Uw IP adresreputatie
-* Kwaliteit van de beoogde adressen
-* Lage klachten en harde stuitcijfers
-* Uw berichtinhoud
-* Berichtverificatie (SPF, DKIM, DMARC)
-* Afzender
+Raadpleeg de [Handleiding best practice](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html) voor een dieper inzicht in wat de leverbaarbaarheid is en voor meer informatie over de belangrijkste leverbare termen, concepten en benaderingen.
 
-## Belangrijkste punten om te controleren {#deliverability-key-points}
+## Hoe te om leverbaarheid {#deliverability-key-points} te verbeteren
 
-We raden u aan de onderstaande aanbevolen procedures te gebruiken om de leverbaarheid van je Adobe Campaign-e-mails te optimaliseren. De leveringsproblemen houden over het algemeen verband met maatregelen ter bescherming tegen spam die worden uitgevoerd door internetserviceproviders en postserverbeheerders.
+De leveringsproblemen houden gewoonlijk verband met maatregelen van bescherming tegen spam die door Internet dienstverleners en de beheerders van de postserver worden uitgevoerd.
 
-De e-mailleverbaarheid verwijst naar de reeks kenmerken die bepalen of een bericht zijn bestemming, via een persoonlijk e-mailadres, binnen een korte tijd, en met de verwachte kwaliteit in termen van inhoud en formaat kan bereiken. Deze kenmerken vallen in vier hoofdcategorieën: gegevenskwaliteit, bericht en inhoud, verzendende infrastructuur, en reputatie. Samen vormen ze de basis voor een succesvol e-mailprogramma.
+* Raadpleeg [Deliverability strategy and definition](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html) voor algemene aanbevelingen over het ontwerpen van geslaagde e-mailmarketingcampagnes.
 
-Het percentage te leveren items is het aantal verzonden e-mailberichten dat is bezorgd aan de ontvangers.
-Hier volgt een lijst met de belangrijkste punten die moeten worden gecontroleerd om te zorgen voor goede prestaties.
+* Voor specifiekere aanbevelingen voor het optimaliseren van de leverbaarbaarheid van je Adobe Campaign-e-mails raden we u aan de beste praktijken in deze sectie te gebruiken.
 
-## Leveringsgereedschappen {#deliverability-tools}
+>[!NOTE]
+>
+>Omdat ISPs verplicht is voortdurend nieuwe verfijnde het filtreren technieken te ontwikkelen om hun klanten tegen spammers te beschermen, wordt de e-maillevering gekenmerkt door voortdurend veranderende criteria en regels. Zorg ervoor u naar [Gids van de Beste praktijken van de Levering van de Adobe verwijst ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html) die regelmatig wordt bijgewerkt.
 
-Eerst raadpleegt u de documentatie over de leverbare gereedschappen die bij Campaign Standard worden geleverd:
+### Leverbaarheidsgraad
+
+Het leverbaarheidspercentage is het aantal berichten dat de inboxes van de ontvangers bereikte in vergelijking met het aantal berichten dat werd geleverd. Om de leverbaarheid te verbeteren, kunt u aan verhoging dit tarief werken.
+
+Bij Adobe Campaign hangt het leverbrengingscijfer af van een groot aantal factoren, met name:
+
+* Correcte configuratie van uw instanties: Neem contact op met uw Adobe-vertegenwoordiger voor hulp.
+* Legitieme netwerkconfiguratie: zie [deze sectie](../../sending/using/optimize-delivery.md#network-config) en [Domeininstelling en -strategie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#domain-setup-and-strategy).
+* Uw IP adresreputatie: zie [IP strategie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#ip-strategy).
+* Kwaliteit van de beoogde adressen: zie [Quarantainebeheer](../../sending/using/optimize-delivery.md#quarantine-management).
+* Lage [aantal klachten](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/complaints.html) en [harde stuit](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces).
+* Uw berichtinhoud: zie [E-mailinhoud beheren](../../sending/using/control-email-content.md).
+* Berichtverificatie (SPF, DKIM, DMARC): zie [deze sectie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
+* Afkorting van afzender: om te leren hoe de belangrijkste ISPs een afzenderreputatie evalueert, zie [deze sectie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html).
+
+## Gereedschappen voor het leveren van campagnes {#deliverability-tools}
+
+Adobe Campaign biedt een aantal tools om de prestaties van uw platform te volgen en te verbeteren. Op deze pagina worden ook de belangrijkste beginselen gemarkeerd die u in gedachten moet houden om de prestaties te optimaliseren wanneer u campagne gebruikt.
+
+### Uw bericht zorgvuldig samenstellen
+
+Wanneer het vormen van, het ontwerpen van en het testen van uw bericht, zorg ervoor u de beste praktijken volgt die in de hieronder vermelde secties worden vermeld. Door gebruik te maken van alle functies die Adobe Campaign biedt, kunt u de leverbaarheid verbeteren.
+
 * [Best practices voor levering](../../sending/using/delivery-best-practices.md)
-* [De naam van de afzender aanpassen](../../designing/using/personalization.md#personalizing-the-sender)
-* [De verzendtijd optimaliseren](../../sending/using/optimizing-the-sending-time.md)
+* [E-mailcontent beheren](../../sending/using/control-email-content.md)
 * [Berichten voorvertonen](../../sending/using/previewing-messages.md)
-* [E-mailweergave](../../sending/using/email-rendering.md)
-* [Een levering controleren](../../sending/using/monitoring-a-delivery.md)
-* [Waarschuwingen ontvangen wanneer fouten optreden](../../sending/using/receiving-alerts-when-failures-happen.md)
+* [Proeven verzenden](../../sending/using/sending-proofs.md)
+
+### Verifieer toestemming door dubbele opt-in {#double-opt-in}
+
+Om het verzenden van berichten naar ongeldige adressen te vermijden, onjuiste mededelingen te beperken en afzenderreputatie te verbeteren, adviseert Adobe het uitvoeren van een dubbel opt-in mechanisme. Op deze manier kunt u ervoor zorgen dat de ontvangers zich bewust hebben geabonneerd.
+
+Zie [Informatie over opt-in en opt-out in Campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) voor meer informatie.
+
+Raadpleeg de [Handleiding best practices voor Adobe-levering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html#data-quality-and-hygiene) voor meer informatie over de beste praktijken bij het verzamelen van gegevens van uw klanten.
+
+### Gebruik quarantainebeheer
+
+Adobe Campaign beheert een lijst met spamklachten, harde stuitingen en zachte stuitingen die consistent voorkomen.
+
+Om uw leverbaarheid te beschermen, worden de ontvangers van wie adressen op die lijst zijn uitgesloten door gebrek van alle toekomstige leveringen, omdat het verzenden naar deze contacten uw verzendende reputatie zou kunnen schaden.
+
+Sommige internetproviders beschouwen e-mails automatisch als spam als het aantal ongeldige adressen te hoog is. Met quarantaine kunt u dus voorkomen dat u door deze providers aan de lijst van gewezen personen wordt toegevoegd.
+
+Raadpleeg de volgende secties voor meer informatie hierover:
+
 * [Leveringsfouten begrijpen](../../sending/using/understanding-delivery-failures.md)
 * [Quarantainebeheer begrijpen](../../sending/using/understanding-quarantine-management.md)
 * [Quarantine versus lijst van gewezen personen](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+
+### Gereedschappen voor bewaking en rapportage gebruiken
+
+Gebruik de functies die Adobe Campaign biedt om de prestaties te controleren.
+
+Met Adobe Campaign kunt u controleren hoe uw leveringen presteren aan de hand van een set ingebouwde realtime-indicatoren. <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->U kunt ook volledig aanpasbare en real-time rapporten maken voor een beter inzicht in uw leveringen.
+
+Raadpleeg de volgende secties voor meer informatie hierover:
+
+* [Leverbaarheid controleren](../../sending/using/monitor-deliverability.md)
+
+   <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
+* [Waarschuwingen ontvangen wanneer fouten optreden](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [Dynamische rapporten](../../reporting/using/about-dynamic-reports.md)
 
-## Netwerkconfiguratie {#network-configuration} controleren
+<!--## General recommendations
 
-Spammers proberen hun echte identiteit te verhullen en maken hun servers daardoor moeilijk te identificeren. Een wettige netwerkconfiguratie die niet probeert om de identiteit van de server te verbergen is essentieel voor het verzenden van e-mails in grote volumes.
+NOT SURE TO KEEP
 
-## Naar geldige adressen {#valid-addresses} verzenden
+Here are a few additional recommendations when it comes to deliverability.
 
-Spammers gebruiken vaak adresgeneratoren op basis van lijsten met frequente namen en voornamen; bovendien verwerken zij zelden technische kennisgevingen die door mailservers worden teruggestuurd . Een hoog tarief van ongeldige adressen wordt vaak geïnterpreteerd als teken van spam. Dubbele &quot;opt-in&quot;-mechanismen en een effectieve verwerking van technische &quot;bounce&quot;-berichten maken het mogelijk dit te voorkomen.
+### Send to valid addresses {#valid-addresses}
 
-## Reductie klachtensnelheid {#reduce-complaint-rate}
+Spammers often use address generators based on lists of frequent names and first names; in addition, they rarely process technical notifications sent back by mail servers. A high rate of invalid addresses is often interpreted as a sign of spam.
 
-ISPs heeft gewoonlijk een duidelijk middel om een ontvangen bericht als spam te melden. Hierdoor kunnen onbetrouwbare bronnen worden geïdentificeerd. Door opt-outverzoeken snel na te leven, regelmatig gebruik te maken van een bepaalde lijst, toestemming te controleren via een systeem met dubbele opt-in en terugkoppelingsmogelijkheden te implementeren, kunt u de klachtentarieven verlagen.
+Double opt-in mechanisms and effective handling of technical bounce messages make it possible to avoid this.
 
-## Naar honingsteunadressen {#honeypot-addresses} verzenden
+### Reduce complaint rate {#reduce-complaint-rate}
 
-ISPs en andere organisaties (verwijs naar https://www.projecthoneypot.org/) maken gebruik van brievenbussen die niet aan fysieke personen beantwoorden maar eenvoudig worden gecreeerd om spammers te bedriegen. Deze zogenaamde &quot;honingpot&quot;-adressen worden op het web gepubliceerd om door spambots te worden verzameld en aldus illegale afzenders te vangen. Het gebruik van een dubbele opt-in-mechanisme sluit het toevoegen van dit adres aan een lijst uit. Wanneer u een lijst van derden gebruikt, moet u zeker zijn van de methoden die door de onderhoudsleider worden gebruikt.
+ISPs usually have a prominent means of reporting a received message as spam. This makes it possible to identify unreliable sources. By rapidly honoring opt-out requests, making regular use of a given list, verifying consent through a double opt-in system, and implementing feedback loops, you can reduce complaint rates.
 
-## Inhoud van berichten aanpassen {#adapt-message-content}
+<!--Sending to honeypot addresses {#honeypot-addresses}
+ISPs and other organizations (refer to https://www.projecthoneypot.org/) make use of mailboxes that do not correspond to physical persons but are created simply to trick spammers. These so-called "honey pot" addresses are published on the Web in order to be collected by spambots and thus catch illegitimate senders. The use of a double opt-in mechanism precludes this sort of address being added to a list. When using a third-party list, you must be sure of the methods employed by its maintainer.-->
 
-In mindere mate kan de inhoud van bepaalde berichten ertoe leiden dat bepaalde filters de inhoud als spam detecteren. Het gebruik van bepaalde woorden, het gebruik van uitroeptekens in de onderwerpregel en in de berichten worden gelezen als verklikkersignalen van spam. Spammers kunnen ook tekst vervangen door afbeeldingen om te voorkomen dat onregelmatige tekst automatisch wordt geanalyseerd door anti-spamfilters. Als reactie hierop kan een bericht (in HTML-indeling) met een groot aantal afbeeldingen of afbeeldingen als bijlagen worden geblokkeerd.
+<!--## Sending on a regular basis {#regular-deliveries}
 
-## Regelmatig {#regular-deliveries} verzenden
-
-Spammers maken geprogrammeerde leveringen om hun reputatie in de loop der tijd te behouden. Soms moeten zij hun marketing plan aanpassen om aan de beste praktijken te voldoen die door ISPs worden opgelegd en zo, na een piek in reputatie (oprijving), vormen zij regelmatige leveringen.
+Spammers make programmed deliveries to maintain their reputation over time. They sometimes need to adapt their marketing plan to meet the best practices imposed by the ISPs and so, after a peak in reputation (ramp-up), they configure regular deliveries.-->
