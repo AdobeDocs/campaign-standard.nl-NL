@@ -6,13 +6,13 @@ description: Bereid, test, programma, verzend en controleer uw berichten.
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-role: Zakelijke praktiserer
+role: Business Practitioner
 level: Intermediair
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 14%
+source-wordcount: '598'
+ht-degree: 13%
 
 ---
 
@@ -86,9 +86,8 @@ Meer informatie:
 
 * [Leverbaarheid](../../sending/using/about-deliverability.md)
 * [Leverbaarheid controleren](../../sending/using/monitor-deliverability.md)
-* [Uw reputatie verbeteren](../../sending/using/improving-reputation.md)
-* [Technische aanbevelingen](../../sending/using/technical-recommendations.md)
-* [De leveringsdoorvoer regelen](../../reporting/using/delivery-throughput.md)
+* [Adobe Handleiding voor beste praktijken voor aflevering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)
+* [Productie beheren](../../reporting/using/delivery-throughput.md)
 
 ## Aanvullende bronnen
 
