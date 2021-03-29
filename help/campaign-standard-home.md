@@ -5,13 +5,13 @@ product: campaign
 title: Adobe Campaign Standard-productdocumentatie
 description: Bladeren door de Campaign Standard-productdocumentatie
 feature: Overzicht
-role: Zakelijke praktiserer
-level: Begin
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e9de904801c0cf49c1dad415a30e75e9b49e4b1d
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ De activiteit Externe API gebruiken om gegevens van een extern systeem over te b
 
 ## Meest bezochte pagina&#39;s
 
-<table>
+<table style="table-layout:fixed">
 <tr>
   <td valign="top">
     <a href="administration/using/about-access-management.md">
