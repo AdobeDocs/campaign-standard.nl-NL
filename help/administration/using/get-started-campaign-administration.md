@@ -10,9 +10,9 @@ feature: Toegangsbeheer
 role: Beheerder
 level: Ervaren
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '641'
 ht-degree: 12%
 
 ---
@@ -33,7 +33,7 @@ Als cloudgebaseerde oplossing biedt Adobe Campaign beheerders verschillende mani
 >
 >Als u vragen of verzoeken over implementatie en configuratiekwesties hebt, contacteer uw Adobe rekeningsmanager.
 
-Houd er rekening mee dat als uw instantie wordt gehost op AWS, Admin-gebruikers ook het Configuratiescherm kunnen gebruiken voor het beheren van instellingen en het bijhouden van gebruik voor elk van uw instanties. Raadpleeg de [desbetreffende documentatie](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) voor meer informatie.
+Houd er rekening mee dat Admin-gebruikers ook het Configuratiescherm van de Campagne kunnen gebruiken voor het beheren van instellingen en het bijhouden van het gebruik voor elk van uw instanties. Raadpleeg de [desbetreffende documentatie](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) voor meer informatie.
 
 ## Menu Beheer {#administration-menu}
 
