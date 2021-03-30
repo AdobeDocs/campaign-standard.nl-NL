@@ -7,13 +7,13 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 feature: Profielen
-role: Zakelijke praktiserer
+role: Business Practitioner
 level: Intermediair
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 1%
+source-wordcount: '310'
+ht-degree: 2%
 
 ---
 
@@ -26,10 +26,9 @@ Adobe Campaign geeft een rapport weer waarin het aantal actieve profielen wordt 
 
 >[!NOTE]
 >
->Als u op AWS wordt ontvangen en Campaign Standard van bouwstijl 10368 gebruikt, kunt u het aantal actieve profielen ook controleren die op uw instanties direct van het Controlebord worden gebruikt. Raadpleeg de [documentatie van het Configuratiescherm](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html) voor meer informatie.
+>Als u Campaign Standard uit build 10368 gebruikt, kunt u het aantal actieve profielen dat op uw instanties wordt gebruikt, ook rechtstreeks vanuit het Configuratiescherm controleren. Raadpleeg de [documentatie van het Configuratiescherm](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html) voor meer informatie.
 >
 >Merk op dat de metrische waarde van de Actieve profielen voor **Instanties van de Marketing** slechts beschikbaar en relevant is. Het is niet van toepassing noch beschikbaar voor uitvoeringsinstanties, die instanties MID (mid sourcing) en RT (Message Center/Real-time messaging) betekent.
-
 
 Er wordt geen rekening gehouden met de profielen die tijdens de voorbereiding van de levering zijn uitgesloten (typologische regels, quarantaine, controlegroepen). Een profiel dat voor meerdere leveringen is bestemd, wordt slechts eenmaal meegeteld. Onder aan het rapport vindt u de lijst met actieve profielen voor elke doeldimensie.
 
