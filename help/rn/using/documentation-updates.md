@@ -10,9 +10,9 @@ feature: Overzicht
 role: Business Practitioner
 level: Beginner
 translation-type: tm+mt
-source-git-commit: dd71d843436220c0313d08d76c17633306301456
+source-git-commit: 7bea3b75467d52cb4ffed77416df7c0baf5480e2
 workflow-type: tm+mt
-source-wordcount: '6736'
+source-wordcount: '6748'
 ht-degree: 98%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 98%
 Naast de [release-opmerkingen](../../rn/using/release-notes.md) bij Adobe Campaign worden op deze pagina alle nieuwe updates in de documentatie van Adobe Campaign Standard weergegeven.
 
 ## Maart 2021 {#doc-updates-march-2021}
+
+De pagina &quot;Help en ondersteuningsopties&quot; voor Campaign Standard is geïntegreerd in de kerndocumentatie. [Meer informatie](../../support.md)
 
 De sectie met de belangrijkste stappen voor het verzenden van een bericht is uitgebreid met aanvullende informatie en verwijzingen. [Meer informatie](../../channels/using/key-steps-to-send-a-message.md)
 
@@ -148,7 +150,7 @@ Gebruiksscenario’s voor workflows zijn bijgewerkt en opnieuw ingedeeld in them
 
 Er zijn gebruiksscenario’s toegevoegd voor het [versleutelen](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) en [ontsleutelen](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) van data met workflows voor Configuratiescherm en Campaign.
 
-Verwijzingen naar de oude ondersteuningswebsite zijn vervangen door de nieuwe URL. [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/ac-support.html)
+Verwijzingen naar de oude ondersteuningswebsite zijn vervangen door de nieuwe URL. [Meer informatie](../../support.md)
 
 Aangepaste Litmus-accountconfiguratie is verwijderd uit de Inbox-rendermogelijkheden. [Meer informatie](../../sending/using/email-rendering.md)
 
