@@ -8,9 +8,9 @@ feature: Overzicht
 role: Business Practitioner
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 8d47cc5546a392283e90914e3b6c9d7e70aaa218
+source-git-commit: 89f2557865ea943405cec1ac53ea20f08ca32aaa
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '237'
 ht-degree: 97%
 
 ---
@@ -65,7 +65,7 @@ De activiteit Externe API gebruiken om gegevens van een extern systeem over te b
   </td>
   <td valign="top">
        <img alt="Ondersteuning" src="start/using/assets/do-not-localize/help.jpeg" />
-    <div><a href="https://helpx.adobe.com/nl/campaign/kb/ac-support.html">
+    <div><a href="support.md">
     <strong>Ondersteuning krijgen</strong></a>
     </div>
     <p><em>Krijg toegang tot veelgestelde vragen, best practices en Help-resources en neem contact op met de experts</em></p>
