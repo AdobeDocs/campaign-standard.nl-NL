@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Overzicht
-role: Zakelijke praktiserer
-level: Begin
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
 workflow-type: tm+mt
 source-wordcount: '4631'
 ht-degree: 8%
@@ -44,7 +44,7 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
   </tr> 
   <tr> 
    <td> Inhoud maken: Importeren uit een URL<br /> </td> 
-   <td> Importeren vanaf een URL biedt u de mogelijkheid om uw creatieve inhoud snel van een website op te halen en e-mails samen te stellen voor elke levering. Bovendien kunt u uw creatieve proces stroomlijnen door derden in staat te stellen inhoud rechtstreeks via een URL te delen. Geïmporteerde inhoud kan op flexibele wijze worden gebruikt als onderdeel van één levering of op sjabloonniveau, zodat alle gerelateerde campagnes, ongeacht of het workflowberichten of transactiemeldingen betreft, consistent blijven en A/B- of multivariate tests bevatten. Importeren van een URL converteert en volgt automatisch alle koppelingen om de e-mailprestaties te controleren via Dynamic Reporting.<br /> Raadpleeg de <a href="../../designing/using/using-existing-content.md#importing-content-from-a-url">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Importeren vanaf een URL biedt u de mogelijkheid om uw creatieve inhoud snel van een website op te halen en e-mails samen te stellen voor elke levering. Bovendien kunt u uw creatieve proces stroomlijnen door derden in staat te stellen inhoud rechtstreeks via een URL te delen. Geïmporteerde inhoud kan op flexibele wijze worden gebruikt als onderdeel van één levering of op sjabloonniveau, zodat alle gerelateerde campagnes, ongeacht of het workflowberichten of transactiemeldingen betreft, consistent blijven en A/B- of multivariate tests bevatten. Importeren van een URL converteert en volgt automatisch alle koppelingen om de e-mailprestaties te controleren via Dynamic Reporting.<br /> Raadpleeg de <a href="../../designing/using/using-existing-content.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -158,7 +158,7 @@ _Transactionele berichten_
 _Rapporten_
 
 * Het **Hot click**-rapport is verbeterd. Ook, is het nu mogelijk om heet kliks volgens elke voorwaardelijke inhoud te tonen die in een levering werd bepaald en hete kliks voor elke uitvoering van terugkomende leveringen of transactionele berichten te tonen. Raadpleeg de [gedetailleerde documentatie](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion) voor meer informatie.
-* Probleem verholpen waarbij de quarantaineminimetrische gegevens niet werden opgehaald.
+* Probleem verholpen waarbij de quarantaineminimetrie geen correcte gegevens kon ophalen.
 * Er is een nieuw vooraf ingesteld tijdframe toegevoegd aan de kalenderwidget.
 * De [dynamische rapportmetriek](../../reporting/using/indicator-calculation.md) en [campagnes&#39; KPIs](../../sending/using/confirming-the-send.md) (getoond op het dashboard van verzonden berichten) zijn gericht voor meer coherentie.
 * Probleem verholpen waarbij een pijpleiding ertoe kon leiden dat er een crash optrad bij debian 7.
