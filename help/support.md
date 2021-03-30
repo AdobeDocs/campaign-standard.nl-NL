@@ -11,9 +11,9 @@ feature: Help- en ondersteuningsopties
 role: Business Practitioner
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 9cb375656d57f6ff19ff24b72ccbf83dee54b6a1
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '593'
 ht-degree: 5%
 
 ---
@@ -91,9 +91,13 @@ Support via onze veelgestelde vragen, best practices, online bronnen en onderste
 Met het Configuratiescherm kunt u de efficiëntie van uw werk als productbeheerder van Campaign Standard verhogen, doordat u instellingen kunt beheren en het gebruik van elk van uw instanties kunt bijhouden.
 [Klik ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=en#discover-control-panel) hier voor meer informatie.
 
+>[!NOTE]
+>
+>Het Configuratiescherm is toegankelijk voor alle beheergebruikers. De stappen om Admin toegang tot een gebruiker te verlenen zijn gedetailleerd in [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+
 ### Toegang tot Configuratiescherm?
 
-Het Configuratiescherm is rechtstreeks beschikbaar in Adobe Experience Cloud. Het is alleen toegankelijk voor Admin-gebruikers. [Klik ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) hier voor meer informatie.
+Het Configuratiescherm is rechtstreeks beschikbaar in Adobe Experience Cloud. [Klik ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) hier voor meer informatie.
 
 ### Veelgestelde vragen over Configuratiescherm
 
