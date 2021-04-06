@@ -10,14 +10,14 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 feature: Instantie-instellingen
 role: Beheerder
 level: Ervaren
+exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: b899d1926526fccb2fe1fa42db7a4e4317ddb1cb
 workflow-type: tm+mt
-source-wordcount: '2568'
-ht-degree: 77%
+source-wordcount: '2602'
+ht-degree: 76%
 
 ---
-
 
 # E-mailkanaal configureren{#configuring-email-channel}
 
@@ -311,7 +311,7 @@ De sectie **[!UICONTROL Access authorization]** bevat de volgende parameters:
 
 ## Oudere instellingen {#legacy-settings}
 
-Als u **niet** in werking stelt de recentste versie van Campagne, zijn de hieronder beschreven parameters en secties UI nog op u van toepassing.
+Als u **NOT** in werking stelt de recentste versie van Campagne, zijn de hieronder beschreven parameters en secties UI nog op u van toepassing.
 
 ### Hernieuwde pogingen {#legacy-retries}
 
@@ -340,6 +340,10 @@ Stuiterwaarden kunnen de volgende kwalificatiestatus hebben:
 * **[!UICONTROL To qualify]**: de stuiterende post moet worden gekwalificeerd. De kwalificatie moet door het leveringsteam worden gedaan om ervoor te zorgen dat de platformleverbaarheid correct functioneert. Zolang het niet wordt gekwalificeerd, wordt de stuiterende post niet gebruikt om de lijst van e-mailverwerkingsregels te verrijken.
 * **[!UICONTROL Keep]**: de stuiterende post werd gekwalificeerd en zal door de  **Update voor** leveringsworkflow worden gebruikt om met bestaande e-mailverwerkingsregels te worden vergeleken en de lijst te verrijken.
 * **[!UICONTROL Ignore]**: de stuiterende post werd gekwalificeerd maar zal niet door de  **Update voor** leveringswerkschema worden gebruikt. Het wordt dus niet naar de clientinstanties verzonden.
+
+>[!NOTE]
+>
+>In het geval van een stroomonderbreking van ISP, zullen de e-mails die door Campaign worden verzonden verkeerd als stegels worden gemerkt. U moet de stuiterkwalificatie bijwerken om dit te corrigeren. Ga voor meer informatie naar [deze pagina](../../administration/using/update-bounce-qualification.md).
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
