@@ -7,10 +7,10 @@ user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken,
 title: 'Campaign Standard-handleiding '
 breadcrumb-title: Help Center
 translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+source-git-commit: 918e73c66cd372a84c87f1f686ce67026858c849
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 100%
+source-wordcount: '1750'
+ht-degree: 99%
 
 ---
 
@@ -439,6 +439,7 @@ ht-degree: 100%
    + Kanalen configureren {#configuring-channels}
       + [Informatie over kanaalconfiguratie](administration/using/about-channel-configuration.md)
       + [E-mailkanaal configureren](administration/using/configuring-email-channel.md)
+      + [Bounce-kwalificatie bijwerken na een ISP-uitgang](administration/using/update-bounce-qualification.md)
       + [Een mobiele applicatie configureren](administration/using/configuring-a-mobile-application.md)
    + Mobiele kanalen configureren {#configuring-mobile}
       + [Pushtracking implementeren](administration/using/push-tracking.md)
