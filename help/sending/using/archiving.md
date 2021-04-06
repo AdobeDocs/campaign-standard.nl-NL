@@ -7,16 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 feature: Prestatiebewaking
-role: Zakelijke praktiserer
-level: Intermediair
+role: Business Practitioner
+level: Gemiddeld
+exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: f7d77f524a6c141066056e53fc8616f35189fc39
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 6%
+source-wordcount: '367'
+ht-degree: 7%
 
 ---
-
 
 # Archiveren met Email BCC{#archiving-emails}
 
@@ -41,7 +41,7 @@ Als deze optie eenmaal is ingeschakeld, moet u de optie BCC via e-mail activeren
 
 >[!NOTE]
 >
->De gearchiveerde e-mails kunnen momenteel niet worden verzonden met de verbeterde MTA van Adobe Campaign.
+>Momenteel worden de gearchiveerde e-mails nog verzonden door de oude archiveringsmodule die een eenvoudig SMTP-relais gebruikt.
 
 ## E-mailarchivering {#activating-email-archiving} activeren
 
