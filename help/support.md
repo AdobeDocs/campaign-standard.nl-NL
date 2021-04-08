@@ -10,11 +10,11 @@ hidefromtoc: true
 feature: Help- en ondersteuningsopties
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Krijg ondersteuning via onze veelgestelde vragen, best practices, online hulpbro
     <tr>
     <td valign="top">
         <ul>
-        <li><a href="sending/using/monitor-deliverability.md">Aflevering</a></li>
+        <li><a href="sending/using/monitor-deliverability.md">Afleverbaarheid</a></li>
         <li><a href="administration/using/aep-faq.md">In-app- en pushmeldingen</a></li>
         <li><a href="designing/using/faq-email-designer.md">Email Designer</a></li>
         </ul>
@@ -50,9 +50,9 @@ Krijg ondersteuning via onze veelgestelde vragen, best practices, online hulpbro
     <td valign="top">
         <ul>
         <li><a href="automating/using/monitoring-workflow-execution.md#error-management">Foutbeheer in workflows</a></li>
-        <li><a href="automating/using/best-practices-workflows.md">Problemen met werkstroomuitvoering oplossen</a></li>
+        <li><a href="automating/using/best-practices-workflows.md">Problemen met het uitvoeren van workflows oplossen</a></li>
         <li><a href="api/using/troubleshooting.md">API-problemen oplossen</a></li>
-        <li><a href="sending/using/understanding-delivery-failures.md">Uitvoeren van fouten begrijpen</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">Problemen met verzendingen begrijpen</a></li>
         </ul>
     </td>
    <td valign="top">
@@ -60,7 +60,7 @@ Krijg ondersteuning via onze veelgestelde vragen, best practices, online hulpbro
         <li><a href="automating/using/best-practices-workflows.md">Best practices voor workflows</a></li>
         <li><a href="automating/using/about-workflow-execution.md">Workflowbewaking</a></li>
         <li><a href="sending/using/tracking-messages.md">Trackingbeheer begrijpen</a></li>
-        <li><a href="sending/using/about-deliverability.md">Best practices voor aflevering</a></li>
+        <li><a href="sending/using/about-deliverability.md">Best practices voor afleverbaarheid</a></li>
         <li><a href="automating/using/creating-import-workflow-templates.md">Gegevens importeren met workflows</a></li>
         <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">Tijdzonebeheer</a></li>
         <li><a href="sending/using/receiving-alerts-when-failures-happen.md">Een melding ontvangen wanneer een fout optreedt</a></li>
@@ -93,11 +93,11 @@ Met het configuratiescherm kunt u uw werk als productbeheerder van Campaign Stan
 
 >[!NOTE]
 >
->Het Configuratiescherm is toegankelijk voor alle beheergebruikers. De stappen om Admin toegang tot een gebruiker te verlenen zijn gedetailleerd in [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Het configuratiescherm is toegankelijk voor alle gebruikers met beheerdersrechten. De stappen om toegang met beheerdersrechten aan een gebruiker te verlenen worden gedetailleerd beschreven op [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
 
 ### Hoe kan ik het configuratiescherm openen?
 
-U kunt het configuratiescherm rechtstreeks openen vanuit Adobe Experience Cloud. [Klik hier](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel) voor meer informatie.
+U kunt het configuratiescherm rechtstreeks openen vanuit Adobe Experience Cloud. [Klik hier](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=nl#discover-control-panel) voor meer informatie.
 
 ### Veelgestelde vragen over configuratiescherm
 
@@ -119,7 +119,7 @@ U kunt de subdomeinen en de bijbehorende certificaten controleren. Meer informat
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-Het nieuwe ticketing systeem is door [Adobe Admin Console](https://adminconsole.adobe.com/overview) geweest. Voor het nieuwe systeem zijn nieuwe individuele accounts nodig voor elke gebruiker, met de juiste toestemmingen. Als u zich niet kunt aanmelden met uw Adobe ID, kunt u om toegang vragen via de Experience League. De klantenservice helpt u dan zo snel mogelijk. [Meer informatie](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+Het nieuwe ticketingsysteem loopt via de [Adobe Admin Console](https://adminconsole.adobe.com/overview). Voor het nieuwe systeem zijn nieuwe individuele accounts nodig voor elke gebruiker, met de juiste toestemmingen. Als u zich niet kunt aanmelden met uw Adobe ID, kunt u om toegang vragen via de Experience League. De klantenservice helpt u dan zo snel mogelijk. [Meer informatie](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### Vraag het de experts.
 
@@ -131,4 +131,4 @@ U kunt een ticket maken om contact op te nemen met de Adobe-klantenondersteuning
 
 Als u een probleem wilt melden of een chatsessie wilt starten in dat nieuwe systeem, maakt u verbinding met de [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Volg de gedetailleerde procedure die op [deze pagina](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) wordt beschreven.
+Volg de gedetailleerde procedure die op [deze pagina](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) wordt beschreven.
