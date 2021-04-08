@@ -1,5 +1,5 @@
 ---
-keywords: Campaign Standard;home;populaire onderwerpen
+keywords: Campaign Standard;startpagina;populaire onderwerpen
 solution: Campaign Standard
 product: campaign
 title: Adobe Campaign Standard-productdocumentatie
@@ -7,11 +7,11 @@ description: Bladeren door de Campaign Standard-productdocumentatie
 feature: Overzicht
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 89f2557865ea943405cec1ac53ea20f08ca32aaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '237'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 97%
 
 * **[Campaign 21.1, de release van februari, is nu live.](rn/using/release-notes.md)**<br/> Ontdek nieuwe functies, de laatste updates en oplossingen
 
-* **[Onjuiste hard bounces bijwerken](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> Leren hoe u onjuiste hard bounces kunt bijwerken na Gmail-uitval
+* **[Onjuiste hard bounces bijwerken](https://helpx.adobe.com/nl/campaign/kb/update-bounce-qualification.html)**<br/> Leren hoe u onjuiste hard bounces kunt bijwerken na Gmail-uitval
 
 * **[Controlegroepen](sending/using/control-group.md)**<br/>
 De invloed van uw campagnes meten door een deel van hun doelgroep uit te sluiten
