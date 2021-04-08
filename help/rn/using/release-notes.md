@@ -9,9 +9,9 @@ topic-tags: campaign-standard-releases
 feature: Overzicht
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2482'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 # Laatste release{#latest-release}
 
-[Releaseplanning](../../rn/using/release-planning.md) | [Releases van het Configuratiescherm](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.translate.html) | [Updates van documentatie](../../rn/using/documentation-updates.md) | [Opmerkingen bij eerdere releases](../../rn/using/release-notes-2020.md) | [Verouderde functies](../../rn/using/deprecated-features.md)
+[Releaseplanning](../../rn/using/release-planning.md) | [Releases van het Configuratiescherm](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html) | [Updates van documentatie](../../rn/using/documentation-updates.md) | [Opmerkingen bij eerdere releases](../../rn/using/release-notes-2020.md) | [Verouderde functies](../../rn/using/deprecated-features.md)
 
 ## Release 21.1 - februari 2021 {#release-21-1---february-2021}
 
