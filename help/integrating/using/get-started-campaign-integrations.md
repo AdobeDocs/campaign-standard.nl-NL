@@ -7,16 +7,16 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 feature: Triggers
-role: Gegevensarchitect
-level: Intermediair
+role: Data Architect
+level: Intermediate
+exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 3f0c24baf489c516a7a3f665e8c23cec0ed2c3bf
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 88%
+source-wordcount: '669'
+ht-degree: 84%
 
 ---
-
 
 # Campaign-integraties{#get-started-campaign-integrations}
 
@@ -74,6 +74,11 @@ Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, le
    <td> Hiermee kunt u doelgroepen uitwisselen met de verschillende applicaties van Adobe Experience Cloud die u gebruikt.<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People-kernservice (profielen en doelgroepen)</a><br /> </td> 
   </tr> 
+    <tr> 
+   <td>Adobe Real-time Customer Data Platform (RTCDP)<br /> </td> 
+   <td> Dankzij de integratie tussen Adobe Campaign en Adobe Real-time Customer Data Platform (RTCDP) kunt u gegevens over segmenten delen en een publiek importeren naar Adobe Campaign.</td>
+   <td><a href="../../integrating/using/get-started-sources-destinations.md">Ga aan de slag met Bronnen en Doelen</a></td>
+  </tr> 
   <tr> 
    <td> Asset-kernservice en Assets on demand<br /> </td> 
    <td> Hiermee kunt u assets uit uw Adobe Experience Cloud-bibliotheek invoegen in e-mails en landingspagina’s die in Adobe Campaign zijn gemaakt.<br /> </td> 
@@ -105,4 +110,3 @@ Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, le
   </tr> 
  </tbody> 
 </table>
-
