@@ -6,17 +6,17 @@ description: Hier vindt u veelgestelde vragen over dynamische rapportage.
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: Rapporten
+feature: Rapportage
 role: Leader
-level: Intermediair
+level: Intermediate
+exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
 translation-type: tm+mt
-source-git-commit: d32bc25fe4e74605ac5cb78c162e242f790bdad5
+source-git-commit: 6a2ddd03b327beabc6055448aa2fa53de12f0b6f
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '668'
 ht-degree: 5%
 
 ---
-
 
 # Problemen oplossen{#troubleshooting}
 
@@ -76,7 +76,6 @@ Dit resulteert in de volgende tabel:
    <td align="center"> <strong> 6  </strong><br /> </td> 
    <td align="center"> <strong> 2</strong><br /> </td>
   </tr> 
-  <tr>
   <tr> 
    <td align="center"> Dag 1<br /> </td> 
    <td align="center"> 3<br /> </td> 
@@ -129,11 +128,11 @@ Rapporten moeten er als volgt uitzien:
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> <strong>R1<br/> </td> 
-   <td align="center"> <strong>100<br/> </td> 
-   <td align="center"> <strong>90<br/> </td> 
-   <td align="center"> <strong>10<br/> </td> 
-   <td align="center"> <strong>3<br/> </td> 
+   <td align="center"> <strong>R1</strong><br/> </td> 
+   <td align="center"> <strong>100</strong><br/> </td> 
+   <td align="center"> <strong>90</strong><br/> </td> 
+   <td align="center"> <strong>10</strong><br/> </td> 
+   <td align="center"> <strong>1</strong><br/> </td> 
   </tr> 
   <tr> 
    <td align="center"> RC1<br/> </td> 
