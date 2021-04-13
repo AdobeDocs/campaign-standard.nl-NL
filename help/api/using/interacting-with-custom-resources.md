@@ -7,16 +7,16 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Gegevensengineer
-level: Ervaren
+role: Data Engineer
+level: Experienced
+exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 01e4eb027b55815c3680b26691e61cbe5b63ee8c
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: '191'
 ht-degree: 3%
 
 ---
-
 
 # Interactie met aangepaste resources {#interacting-with-custom-resources}
 
@@ -26,12 +26,13 @@ Het /customResources eindpunt heeft precies het zelfde gedrag zoals /profileAndS
 
 De aangepaste bronnen die worden weergegeven in deze API zijn:
 
-* alle entiteiten die aan de profielentiteit zijn gekoppeld
-* alle entiteiten die zijn gekoppeld aan de onderliggende items van de profielentiteit
+* alle entiteiten die niet onder /profileAndServicesExt worden blootgesteld
 * alle entiteiten die niet aan een profiel zijn gekoppeld en, voor deze entiteiten, hun kinderen en kleinkinderen.
+* standaard alle entiteiten die niet aan iets zijn gekoppeld, en hun kinderen en kleinkinderen.
 
 >[!NOTE]
 >De douanemiddelen die onder /profileAndServicesExt beschikbaar zijn worden niet blootgesteld in /customResources API.
+
 
 Hier volgt een voorbeeld om de metagegevens op te halen uit een aangepaste bron:
 
@@ -48,4 +49,3 @@ POST /customResources/<customResourceName>
 >[!NOTE]
 >Het API-eindpunt en de workflows voor privacy (of privacy/privacyTool) beheren niet de aangepaste bronnen die niet aan de profielentiteit zijn gekoppeld.
 >U bent verantwoordelijk voor het beheren en opschonen van alle PII&#39;s voor deze aangepaste bronnen. [Klik hier ](../../api/using/creating-a-privacy-request.md) voor meer informatie over het privacygereedschap.
-
