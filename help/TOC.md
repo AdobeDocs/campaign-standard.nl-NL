@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken. '
 title: 'Campaign Standard-handleiding '
 breadcrumb-title: Help Center
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 918e73c66cd372a84c87f1f686ce67026858c849
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1750'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -439,7 +439,7 @@ ht-degree: 99%
    + Kanalen configureren {#configuring-channels}
       + [Informatie over kanaalconfiguratie](administration/using/about-channel-configuration.md)
       + [E-mailkanaal configureren](administration/using/configuring-email-channel.md)
-      + [Bounce-kwalificatie bijwerken na een ISP-uitgang](administration/using/update-bounce-qualification.md)
+      + [Bouncekwalificatie bijwerken na een ISP-uitval](administration/using/update-bounce-qualification.md)
       + [Een mobiele applicatie configureren](administration/using/configuring-a-mobile-application.md)
    + Mobiele kanalen configureren {#configuring-mobile}
       + [Pushtracking implementeren](administration/using/push-tracking.md)
