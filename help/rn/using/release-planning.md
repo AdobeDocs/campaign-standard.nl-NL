@@ -6,7 +6,7 @@ description: Deze pagina bevat een overzicht van de komende versies van Adobe Ca
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-feature: Overzicht
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1

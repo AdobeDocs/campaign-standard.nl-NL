@@ -6,9 +6,9 @@ description: Leer meer over de Dynamische basis van de rapportinterface en hoe t
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Rapporten
+feature: Reporting
 role: Leader
-level: Begin
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

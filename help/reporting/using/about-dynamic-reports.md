@@ -6,7 +6,7 @@ description: Met dynamische rapporten, sleep en laat vallen variabelen en dimens
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Rapporten
+feature: Reporting
 role: Leader
 level: Beginner
 translation-type: tm+mt

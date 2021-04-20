@@ -6,9 +6,9 @@ description: Leer hoe u meertalige e-mail- en sms-leveringen definieert en uitvo
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Meertalige berichten
-role: Zakelijke praktiserer
-level: Intermediair
+feature: Multilingual Messages
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

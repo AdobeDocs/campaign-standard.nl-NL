@@ -6,9 +6,9 @@ description: Voer de volgende stappen uit om berichten te maken en te verzenden 
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Overzicht
-role: Zakelijke praktiserer
-level: Begin
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt

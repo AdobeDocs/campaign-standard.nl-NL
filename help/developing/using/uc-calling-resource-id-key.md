@@ -3,9 +3,9 @@ solution: Campaign Standard
 product: campaign
 title: Een resource aanroepen met een samengestelde identificatiesleutel
 description: Leer hoe u een bron aanroept met een samengestelde id-toets
-feature: Gegevensmodel
-role: Ontwikkelaar
-level: Ervaren
+feature: Data Model
+role: Developer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

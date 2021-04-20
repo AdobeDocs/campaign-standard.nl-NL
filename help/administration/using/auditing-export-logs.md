@@ -6,9 +6,9 @@ description: Beheerders kunnen de export van Adobe Campaign volgen.
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Toegangsbeheer
-role: Beheerder
-level: Ervaren
+feature: Access Management
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

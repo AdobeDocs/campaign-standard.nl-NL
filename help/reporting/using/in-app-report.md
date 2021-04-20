@@ -6,9 +6,9 @@ description: Leer met het rapport In-App out-of-the-box over het succes van uw I
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-feature: Rapporten
+feature: Reporting
 role: Leader
-level: Intermediair
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

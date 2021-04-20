@@ -6,9 +6,9 @@ description: Maak moeheidsregels om overcommunicatie met profielen te beheren.
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Typologieregels
-role: Zakelijke praktiserer
-level: Intermediair
+feature: Typology Rules
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

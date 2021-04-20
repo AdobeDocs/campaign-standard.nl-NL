@@ -6,9 +6,9 @@ description: Veelgestelde vragen over Adobe Experience Platform SDK en Adobe Cam
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instantie-instellingen
-role: Beheerder
-level: Ervaren
+feature: Instance Settings
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

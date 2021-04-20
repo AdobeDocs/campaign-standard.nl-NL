@@ -6,9 +6,9 @@ description: Leer hoe u bestaande profielen kunt bewerken en toegang kunt krijge
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profielen
-role: Zakelijke praktiserer
-level: Intermediair
+feature: Profiles
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

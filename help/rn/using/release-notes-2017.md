@@ -6,7 +6,7 @@ description: Deze pagina bevat een overzicht van alle releases van Adobe Campaig
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overzicht
+feature: Overview
 role: Business Practitioner
 level: Beginner
 translation-type: tm+mt

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Gegevensarchitect
+role: Data Architect
 level: Beginner
 translation-type: tm+mt
 source-git-commit: b82335a0c0bf1abc7b9645beee83ac659c4d6b83

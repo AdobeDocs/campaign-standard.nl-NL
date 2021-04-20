@@ -5,7 +5,7 @@ title: Ga aan de slag met Bronnen en Doelen
 description: Meer weten over Adobe Experience Platform-bronnen en -doelen?
 audience: integrating
 content-type: reference
-feature: Bronnen en bestemmingen
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

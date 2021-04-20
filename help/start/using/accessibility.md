@@ -6,7 +6,7 @@ description: Ontdek meer over toegankelijkheidsondersteuning in Adobe Campaign S
 audience: designing
 content-type: reference
 topic-tags: accessibility
-feature: Campagnes
+feature: Campaigns
 role: Business Practitioner
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e

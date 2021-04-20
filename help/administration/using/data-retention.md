@@ -5,9 +5,9 @@ title: Dataretentie
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instantie-instellingen
-role: Beheerder
-level: Ervaren
+feature: Instance Settings
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

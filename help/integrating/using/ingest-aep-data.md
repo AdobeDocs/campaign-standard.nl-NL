@@ -5,7 +5,7 @@ title: Adobe Experience Platform-publiek verfraaien in campagne
 description: Leer hoe u Adobe Experience Platform-publiek inneemt in Campaign Standard.
 audience: integrating
 content-type: reference
-feature: Bronnen en bestemmingen
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

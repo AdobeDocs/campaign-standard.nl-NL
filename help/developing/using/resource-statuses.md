@@ -6,9 +6,9 @@ description: Ontdek de verschillende bronstatussen volgens hun publicatiestatus.
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
-feature: Gegevensmodel
-role: Ontwikkelaar
-level: Ervaren
+feature: Data Model
+role: Developer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

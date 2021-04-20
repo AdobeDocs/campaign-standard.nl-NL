@@ -6,9 +6,9 @@ description: Leer hoe u e-mailberichten met Adobe Campaign Standard kunt archive
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: Prestatiebewaking
+feature: Performance Monitoring
 role: Business Practitioner
-level: Gemiddeld
+level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
 translation-type: tm+mt
 source-git-commit: f7d77f524a6c141066056e53fc8616f35189fc39

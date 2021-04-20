@@ -6,9 +6,9 @@ description: Leer hoe u het abonnement kunt uitbreiden naar een bron van een toe
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
-feature: Gegevensmodel
-role: Ontwikkelaar
-level: Ervaren
+feature: Data Model
+role: Developer
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
