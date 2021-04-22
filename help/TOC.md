@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken. '
 title: 'Campaign Standard-handleiding '
 breadcrumb-title: Help Center
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 479819df78953e7703738f31e3ef8bd9146416d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1779'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -268,11 +268,11 @@ ht-degree: 98%
          + [Gegevens toewijzen tussen Microsoft Dynamics 365 en Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [De integratie van Microsoft Dynamics 365 gebruiken](integrating/using/d365-acs-using-the-integration.md)
    + Campaign en Adobe Experience Platform {#adobe-experience-platform}
-      + Adobe Experience Platform Bronnen en doelen {#aep-sources-destinations}
-         + [Ga aan de slag met Bronnen en Doelen](integrating/using/get-started-sources-destinations.md)
-         + [Adobe Experience Platform-publiek verfraaien in campagne](integrating/using/ingest-aep-data.md)
-         + [Gegevens exporteren van campagne naar Adobe Experience Platform](integrating/using/export-campaign-data.md)
-      + Service doelbestemmingen (bèta) {#audience-destinations}
+      + Bronnen en bestemmingen van het Adobe Experience Platform {#aep-sources-destinations}
+         + [Aan de slag met bronnen en bestemmingen](integrating/using/get-started-sources-destinations.md)
+         + [Adobe Experience Platform-doelgroepen opnemen in Campaign](integrating/using/ingest-aep-data.md)
+         + [Gegevens exporteren van Campaign naar Adobe Experience Platform](integrating/using/export-campaign-data.md)
+      + De service Doelgroepbestemmingen (bèta) {#audience-destinations}
          + [Informatie over de service Audiences Destinations](integrating/using/aep-about-audience-destinations-service.md)
          + [Adobe Experience Platform-doelgroepen beheren](integrating/using/aep-managing-audiences.md)
          + [De Segment Builder gebruiken](integrating/using/aep-using-segment-builder.md)
