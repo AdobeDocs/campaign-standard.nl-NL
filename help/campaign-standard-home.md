@@ -4,15 +4,15 @@ solution: Campaign Standard
 product: campaign
 title: Adobe Campaign Standard-productdocumentatie
 description: Bladeren door de Campaign Standard-productdocumentatie
-feature: Overview
+feature: Overzicht
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c2d3217156bd942ec0948e65d48c65be3b89e71e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '238'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 93%
 
 ## Nieuwe functies
 
-* **[Campagne - RTCDP-](integrating/using/get-started-sources-destinations.md)**<br/> integratieLeer hoe u gegevens kunt delen tussen Campagne en Real-time Customer Data Platform (RTCDP)
+* **[Campaign-RTCDP-integratie](integrating/using/get-started-sources-destinations.md)**<br/> Leer hoe u gegevens kunt delen tussen Campaign en het Real-time Customer Data Platform (RTCDP)
 
 * **[Onjuiste hard bounces bijwerken](https://helpx.adobe.com/nl/campaign/kb/update-bounce-qualification.html)**<br/> Leren hoe u onjuiste hard bounces kunt bijwerken na Gmail-uitval
 
