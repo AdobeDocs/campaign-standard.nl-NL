@@ -1,31 +1,31 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Gegevens exporteren van campagne naar Adobe Experience Platform
+title: Gegevens exporteren van Campaign naar Adobe Experience Platform
 description: Leer hoe u gegevens exporteert van Campaign Standard naar Adobe Experience Platform.
 audience: integrating
 content-type: reference
-feature: Sources and Destinations
+feature: Bronnen en bestemmingen
 role: Data Architect
 level: Intermediate
+exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
 translation-type: tm+mt
-source-git-commit: bf442b12506ef71cc76aa7fffb0e4c8bb2ce70da
+source-git-commit: 4855585539653a0bb496d210b001765b5b557570
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 1%
+source-wordcount: '529'
+ht-degree: 4%
 
 ---
 
+# Gegevens exporteren van Campaign naar Adobe Experience Platform {#sources}
 
-# Gegevens exporteren van campagne naar Adobe Experience Platform {#sources}
-
-Als u Campaign Standard-gegevens wilt exporteren naar het RTCDP-Platform (Adobe Real-Time Customer Data ), moet u eerst een workflow in Campaign Standard maken om de gegevens die u wilt delen naar de opslaglocatie van uw S3- of Azure-blok te exporteren.
+Als u Campaign Standard-gegevens wilt exporteren naar het RTCDP-Platform (Adobe Real-Time Customer Data ), moet u eerst een workflow in Campaign Standard maken om de gegevens die u wilt delen naar uw Amazon Storage Service (S3) of Azure Blob-opslaglocatie te exporteren.
 
 Nadat de workflow is geconfigureerd en de gegevens naar de opslaglocatie zijn verzonden, moet u de opslaglocatie van uw S3- of Azure-blok aansluiten als een **Source** in het Platform Adobe Experience.
 
 >[!NOTE]
-
-Houd er rekening mee dat we alleen het exporteren van door campagne gegenereerde gegevens aanbevelen (bijvoorbeeld verzenden, openen, klikken enz.) naar Adobe Experience Platform. Gegevens die van een bron van derden (zoals uw CRM) worden ontvangen, moeten rechtstreeks in Adobe Experience Platform worden geïmporteerd.
+>
+>Houd er rekening mee dat we alleen het exporteren van door campagne gegenereerde gegevens aanbevelen (bijvoorbeeld verzenden, openen, klikken enz.) naar Adobe Experience Platform. Gegevens die van een bron van derden (zoals uw CRM) worden ontvangen, moeten rechtstreeks in Adobe Experience Platform worden geïmporteerd.
 
 ## Een exportworkflow maken in Campaign Standard
 
@@ -55,7 +55,7 @@ Verwante onderwerpen:
 
 ## De opslaglocatie aansluiten als bron
 
-De belangrijkste stappen om uw opslagplaats van S3 of van de Azure blob als **Bron** in het Platform van de Ervaring van Adobe aan te sluiten zijn hieronder vermeld. Gedetailleerde informatie over elk van deze stappen is beschikbaar in de [documentatie van de bronschakelaars](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html).
+De belangrijkste stappen om uw opslagplaats van Amazon Storage Service (S3) of Azure Blob als **Bron** in het Platform van de Ervaring van Adobe aan te sluiten zijn hieronder vermeld. Gedetailleerde informatie over elk van deze stappen is beschikbaar in de [documentatie van de bronschakelaars](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html).
 
 1. Maak in het menu van het Adobe Experience-platform een verbinding met uw opslaglocatie:**[!UICONTROL Sources]**
 
