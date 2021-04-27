@@ -9,14 +9,14 @@ topic-tags: filtering-data
 feature: Workflows
 role: Data Architect
 level: Experienced
+exl-id: d1575626-55bb-4303-a796-ad323a399330
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 33cba2254bb90951880126cd9978f1890ee72e9c
 workflow-type: tm+mt
-source-wordcount: '1944'
-ht-degree: 98%
+source-wordcount: '1941'
+ht-degree: 97%
 
 ---
-
 
 # Lijst met functies{#list-of-functions}
 
@@ -660,7 +660,7 @@ De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> Codeert met AES-algoritme (CBC-blokmodus) een tekenreeks met tekens (eerste parameter) met een sleutel (tweede parameter) en een initialisatievector (derde parameter). De sleutel en de initialisatievector moeten worden opgegeven in een hexadecimale representatie (te beginnen met <strong>\x</strong>). Het resultaat staat in de hexadecimale indeling zonder de <strong>\x</strong>.<br /> Houd er rekening mee dat de sleutellengte 128 bits, 192 bits, 256 bits (16, 24, 32 hexadecimale tekens) kan zijn, maar we raden u aan 256 bits en een gerandomiseerde IV met dezelfde lengte als de sleutel te gebruiken.<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;Tekenreeks&gt;, &lt;Tekenreeks&gt;, &lt;Tekenreeks&gt;)<br /> Bijvoorbeeld: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> Bijvoorbeeld: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456 789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -749,4 +749,3 @@ De representatiefuncties worden gebruikt om waarden te bestellen.
   </tr> 
  </tbody> 
 </table>
-
