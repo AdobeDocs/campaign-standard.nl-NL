@@ -10,11 +10,11 @@ feature: Overzicht
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8b8f41917349800327b2bddc820e677f913cdaf7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Upgrades worden in twee fasen geïmplementeerd. Eerst worden Stage-instanties bi
 
 Alle releasedatums kunnen worden gewijzigd. We raden u aan deze pagina regelmatig te bezoeken om te kijken of er updates zijn.
 
-## Release 21.2 - Juni 2021 Release {#release-21-2-release}
+## Release 21.2 - release van juni 2021 {#release-21-2-release}
 
 Omgevingsupdates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. De exacte datums worden per e-mail naar elke klant verzonden.
 
@@ -65,7 +65,7 @@ A: Wijzigingen worden vermeld in de [Release-opmerkingen](../../rn/using/release
 
 **V: Wat is het validatieproces?**
 
-A: Als de upgrade van uw stage-instantie is uitgevoerd, raadt Adobe u aan te valideren of uw processen en gebruiksscenario&#39;s correct werken met deze nieuwe versie en om eventuele problemen aan [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) te melden.
+A: Als de upgrade van uw stage-instantie is uitgevoerd, raadt Adobe u aan te valideren of uw processen en gebruiksscenario&#39;s correct werken met deze nieuwe versie en om eventuele problemen aan [Adobe Client Care](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) te melden.
 
 **V: Heb ik tijdens het upgradeproces toegang tot de instantie?**
 
@@ -87,4 +87,4 @@ A: Ja, deze blijven werken. Er kunnen geen nieuwe e-mailberichten worden verzond
 
 A: Bij het inloggen bij Campaign wordt een pop-upmelding met de laatste versie weergegeven.
 
-Neem voor alle andere vragen contact op met [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+Neem voor alle andere vragen contact op met [Adobe Client Care](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html).
