@@ -1,45 +1,49 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Actieve profielen
-description: U kunt tot een specifiek rapport over klantenmetriek toegang hebben en actieve profielen in uw gegevensbestand van de Campagne visualiseren.
-audience: audiences
-content-type: reference
-topic-tags: managing-profiles
-feature: Profiles
+title: Actieve profielen voor campagnes
+description: Leer hoe u toegang krijgt tot maatgegevens van klanten en actieve profielen
+feature: Profielen
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 22516348-7695-4579-99eb-480e5b723ccc
+source-git-commit: d2fcf2ca22bb5fe3632280f922dfed0972f6eb09
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 2%
+source-wordcount: '290'
+ht-degree: 1%
 
 ---
 
+# Metingen van klanten {#customer-metrics}
 
-# Actieve profielen{#active-profiles}
-
-Adobe Campaign geeft een rapport weer waarin het aantal actieve profielen wordt weergegeven. Dit rapport is slechts informatief, het heeft geen directe invloed op het factureren. Alleen beheerders hebben toegang tot dit rapport onder **[!UICONTROL Administration > Customer metrics]**.
+Functionele beheerders van campagnes hebben toegang tot het **[!UICONTROL Customer metrics]**-rapport van **[!UICONTROL Administration > Customer metrics]**.
 
 ![](assets/audience_active_profiles1.png)
 
+Dit rapport wordt weergegeven:
+
+* de Experience Cloud-id
+* IMS-organisatie-id
+* het aantal **actieve profielen**
+* de lijst van doelmaten die in de zaak beschikbaar zijn
+
+Dit rapport wordt elke maand geproduceerd door de **[!UICONTROL Billing]** technische werkschema.
+
+## Actieve profielen{#active-profiles}
+
+Volgens uw contract wordt elk van uw campagneexemplaren voorzien van een specifiek aantal actieve profielen. Raadpleeg de licentieovereenkomst voor informatie over het aantal aangeschafte actieve profielen.
+
 >[!NOTE]
 >
->Als u Campaign Standard uit build 10368 gebruikt, kunt u het aantal actieve profielen dat op uw instanties wordt gebruikt, ook rechtstreeks vanuit het Configuratiescherm controleren. Raadpleeg de [documentatie van het Configuratiescherm](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html) voor meer informatie.
->
->Merk op dat de metrische waarde van de Actieve profielen voor **Instanties van de Marketing** slechts beschikbaar en relevant is. Het is niet van toepassing noch beschikbaar voor uitvoeringsinstanties, die instanties MID (mid sourcing) en RT (Message Center/Real-time messaging) betekent.
+>Als Admin-gebruiker kunt u het aantal actieve profielen dat op uw instanties wordt gebruikt, ook rechtstreeks vanuit het Configuratiescherm controleren. Raadpleeg de [documentatie van het Configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html) voor meer informatie.
 
-Er wordt geen rekening gehouden met de profielen die tijdens de voorbereiding van de levering zijn uitgesloten (typologische regels, quarantaine, controlegroepen). Een profiel dat voor meerdere leveringen is bestemd, wordt slechts eenmaal meegeteld. Onder aan het rapport vindt u de lijst met actieve profielen voor elke doeldimensie.
 
-Dit rapport wordt elke maand geproduceerd door de **[!UICONTROL Billing]** technische werkschema. Het bevat het aantal actieve profielen die tijdens de laatste 12 maanden rolperiode werden gericht.
-
-Er wordt geen rekening gehouden met de profielen die tijdens de voorbereiding van de levering zijn uitgesloten (typologische regels, quarantaine). Bovendien wordt een profiel dat voor meerdere leveringen is bestemd, slechts eenmaal meegeteld.
+Een &quot;Profiel&quot;is een verslag van informatie die een eindklant, vooruitzicht, of lood vertegenwoordigt. Profielen worden als **actief** beschouwd als zij door een levering van de Campagne binnen de afgelopen 12 maanden via om het even welk kanaal zijn gericht. Er wordt geen rekening gehouden met de profielen die tijdens de bereiding van de levering zijn uitgesloten (bijvoorbeeld naar typologische regels of quarantainemechanisme). Een profiel dat voor meerdere leveringen is bestemd, wordt slechts eenmaal meegeteld. Dit rapport is slechts informatief, het heeft geen directe invloed op het factureren.
 
 ![](assets/audience_active_profiles2.png)
 
-Onder aan het rapport ziet u de lijst met actieve profielen die zijn verwerkt door de factureringsworkflow:
+Onder aan het rapport vindt u de lijst met actieve profielen voor elke doeldimensie. Het toont het aantal actieve profielen die tijdens de laatste 12 maanden rolperiode werden gericht.
 
-* De bron **[!UICONTROL NmsRecipient]** omvat alle klanten die met informatie van hun profiel van de Campaign Standard werden gecontacteerd.
+* De bron **[!UICONTROL NmsRecipient]** bevat alle profielen waarmee contact is opgenomen via informatie uit het profiel Campaign Standard.
 
-* Klanten die alleen op basis van specifieke informatie (e-mailadres, telefoonnummer) zijn aangewezen, en die geen relatie hebben met hun campagneprofiel, vallen onder de **[!UICONTROL anonymous]**-bron.
+* De klant **[!UICONTROL anonymous]**-bron geeft het aantal profielen weer dat als doel is ingesteld met alleen een bepaald gegeven (e-mailadres, telefoonnummer), zonder dat dit verband houdt met het campagneprofiel.
