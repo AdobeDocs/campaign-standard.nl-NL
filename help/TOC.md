@@ -6,56 +6,55 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken. '
 title: 'Campaign Standard-handleiding '
 breadcrumb-title: Help Center
-translation-type: ht
-source-git-commit: 830c003e36cec41e5cf480f66812900312609e9f
-workflow-type: ht
-source-wordcount: '1783'
-ht-degree: 100%
+source-git-commit: c656aba6c9db769208a8af120d492f6a8a2a944e
+workflow-type: tm+mt
+source-wordcount: '1785'
+ht-degree: 99%
 
 ---
 
 
-# Help bij Adobe Campaign Standard {#using}
+# Help bij Adobe Campaign Standard      {#using}
 
 + [Productdocumentatie](campaign-standard-home.md)
 + [Laatste updates](rn/using/documentation-updates.md)
-+ Release-opmerkingen{#release-notes}
++ Release-opmerkingen {#release-notes}
    + [Laatste release](rn/using/release-notes.md)
    + [Vroege release-opmerkingen](rn/using/early-release-notes.md)
    + Eerdere releases {#previous-releases}
       + [Opmerkingen bij de releases in 2020](rn/using/release-notes-2020.md)
-      + [Opmerkingen bij de releases in 2019](rn/using/release-notes-2019.md)
-      + [Opmerkingen bij de releases in 2018](rn/using/release-notes-2018.md)
-      + [Opmerkingen bij de releases in 2017](rn/using/release-notes-2017.md)
+      + [Opmerkingen bij de release 2019](rn/using/release-notes-2019.md)
+      + [Opmerkingen bij de release 2018](rn/using/release-notes-2018.md)
+      + [Opmerkingen bij de release 2017](rn/using/release-notes-2017.md)
    + [Releaseplanning](rn/using/release-planning.md)
-   + [Verouderde functies](rn/using/deprecated-features.md)
+   + [Afgeschafte functies](rn/using/deprecated-features.md)
    + [Probleem met handtekening van bijgehouden URL&#39;s](rn/using/tracked-urls.md)
 + Aan de slag {#getting-started}
    + [Informatie over Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + Kennismaken met de interface {#discovering-the-interface}
-      + [Informatie over de interface](start/using/about-the-interface.md)
+      + [Over de interface](start/using/about-the-interface.md)
       + [Beschrijving van de interface](start/using/interface-description.md)
       + [Lijsten aanpassen](start/using/customizing-lists.md)
       + [Toegankelijkheid](start/using/accessibility.md)
    + Werken met marketingactiviteiten {#marketing-plans}
-      + [Programma&#39;s en campagnes](start/using/programs-and-campaigns.md)
+      + [Programma’s en campagnes](start/using/programs-and-campaigns.md)
       + [Marketingactiviteiten](start/using/marketing-activities.md)
       + [Sjablonen voor marketingactiviteiten](start/using/marketing-activity-templates.md)
       + [Tijdlijn](start/using/timeline.md)
    + Privacy {#privacy}
-      + [Privacy en instemming](start/using/privacy.md)
+      + [Privacy en toestemming](start/using/privacy.md)
       + [Privacybeheer](start/using/privacy-management.md)
       + [Verzoeken om toegang tot persoonsgegevens](start/using/privacy-requests.md)
       + [Veelgestelde vragen over privacy](start/using/privacy-faq.md)
    + [Help- en ondersteuningsopties](support.md)
-+ Profielen en doelgroepen {#profiles-and-audiences}
++ Profielen en doelgroepen{#profiles-and-audiences}
    + [Aan de slag met profielen en doelgroepen](audiences/using/get-started-profiles-and-audiences.md)
    + Profielen beheren {#managing-profiles}
       + [Informatie over profielen](audiences/using/about-profiles.md)
       + [Profielen maken](audiences/using/creating-profiles.md)
       + [Profielen bewerken](audiences/using/editing-profiles.md)
       + [Geïntegreerd klantprofiel](audiences/using/integrated-customer-profile.md)
-      + [Actieve profielen](audiences/using/active-profiles.md)
+      + [Metriek en actieve profielen](audiences/using/active-profiles.md)
       + [Testprofielen beheren](audiences/using/managing-test-profiles.md)
       + [De Campaign-database verrijken](audiences/using/enriching-campaign-database.md)
    + Doelgroepen beheren {#managing-audiences}
@@ -75,7 +74,7 @@ ht-degree: 100%
 + Communicatiekanalen {#communication-channels}
    + [Aan de slag met communicatiekanalen](channels/using/get-started-communication-channels.md)
    + Informatie over communicatiekanalen {#about-communication-channels}
-      + [Belangrijkste stappen om een bericht te verzenden](channels/using/key-steps-to-send-a-message.md)
+      + [Belangrijkste stappen voor verzending van een bericht](channels/using/key-steps-to-send-a-message.md)
       + [Berichten openen](channels/using/accessing-messages.md)
       + [Berichtdashboard](channels/using/message-dashboard.md)
       + [Sjablonen voor meertalige berichten](channels/using/multilingual-messages-template.md)
@@ -131,12 +130,12 @@ ht-degree: 100%
       + [Transactionele pushmeldingen](channels/using/transactional-push-notifications.md)
       + [Vervolgberichten](channels/using/follow-up-messages.md)
       + [Gebruiksscenario voor transactionele berichten](channels/using/transactional-messaging-use-case.md)
-   + Landingspagina&#39;s {#landing-pages}
+   + Landingspagina’s {#landing-pages}
       + [Aan de slag met landingspagina&#39;s](channels/using/getting-started-with-landing-pages.md)
       + [Informatie over sjablonen voor landingspagina&#39;s](channels/using/landing-page-templates.md)
       + [Een landingspagina configureren](channels/using/configuring-landing-page.md)
       + [Een landingspagina ontwerpen](channels/using/designing-a-landing-page.md)
-      + [Formulierdata voor landingspagina&#39;s beheren](channels/using/managing-landing-page-form-data.md)
+      + [Formulierdata voor landingspagina beheren](channels/using/managing-landing-page-form-data.md)
       + [Een landingspagina testen en publiceren](channels/using/testing-publishing-landing-page.md)
       + [Een dubbele opt-inprocedure instellen](channels/using/setting-up-a-double-opt-in-process.md)
 + E-mailcontent ontwerpen {#designing-content}
@@ -161,7 +160,7 @@ ht-degree: 100%
    + Berichten voorbereiden en testen {#preparing-and-testing-messages}
       + [Voorbeelden van leveringen weergeven](sending/using/previewing-messages.md)
       + [Proeven verzenden](sending/using/sending-proofs.md)
-      + [E-mailberichten testen aan de hand van doelprofielen](sending/using/testing-messages-using-target.md)
+      + [E-mailberichten testen met behulp van doelprofielen](sending/using/testing-messages-using-target.md)
       + [E-mails met AI-mogelijkheden](sending/using/predictive.md)
       + [E-mailweergave](sending/using/email-rendering.md)
       + [Een controlegroep toevoegen](sending/using/control-group.md)
@@ -182,9 +181,9 @@ ht-degree: 100%
       + [Leveringsfouten begrijpen](sending/using/understanding-delivery-failures.md)
       + [Werken met quarantainebeheer](sending/using/understanding-quarantine-management.md)
    + Leverbaarheid beheren {#managing-deliverability}
-      + [Informatie over leverbaarheid](sending/using/about-deliverability.md)
+      + [Leverbaarheid](sending/using/about-deliverability.md)
       + [E-mailcontent beheren](sending/using/control-email-content.md)
-      + [Leverbaarheid opvolgen](sending/using/monitor-deliverability.md)
+      + [Leverbaarheid controleren](sending/using/monitor-deliverability.md)
       + [Problemen oplossen](sending/using/troubleshooting.md)
    + Werken met typologieregels {#working-with-typology-rules}
       + [Informatie over typologieën en typologieregels](sending/using/about-typology-rules.md)
@@ -192,14 +191,14 @@ ht-degree: 100%
       + [Typologieregels beheren](sending/using/managing-typology-rules.md)
       + [Filterregels](sending/using/filtering-rules.md)
       + [Moeheidsregels](sending/using/fatigue-rules.md)
-      + [Beheerregels](sending/using/control-rules.md)
+      + [Controleregels](sending/using/control-rules.md)
 + Rapportage {#reporting}
    + [Aan de slag met dynamische rapporten](reporting/using/get-started-reporting.md)
    + Informatie over rapportage {#about-reporting}
       + [Informatie over dynamische rapporten](reporting/using/about-dynamic-reports.md)
       + [Rapportage-interface](reporting/using/reporting-interface.md)
       + [Lijst met componenten](reporting/using/list-of-components-.md)
-      + [Berekening van indicatoren](reporting/using/indicator-calculation.md)
+      + [Indicatoren berekenen](reporting/using/indicator-calculation.md)
       + [Problemen oplossen](reporting/using/troubleshooting.md)
    + Lijst met rapporten {#list-of-reports}
       + [De rapportperiode definiëren](reporting/using/defining-the-report-period.md)
@@ -285,7 +284,7 @@ ht-degree: 100%
          + [Toewijzingsdefinitie](integrating/using/aep-mapping-definition.md)
          + [Toewijzingsactivering](integrating/using/aep-mapping-activation.md)
          + [Data-opname via API&#39;s activeren](integrating/using/aep-triggering-data-ingestion.md)
-+ Processen en data beheren {#managing-processes-and-data}
++ Processen en gegevens beheren {#managing-processes-and-data}
    + [Aan de slag met data- en procesbeheer](automating/using/get-started-workflows.md)
    + Algemene werking van workflows{#workflow-general-operation}
       + [Workflowinterface](automating/using/workflow-interface.md)
@@ -293,9 +292,9 @@ ht-degree: 100%
       + [Best practices voor workflows](automating/using/best-practices-workflows.md)
    + Een workflow uitvoeren {#executing-a-workflow}
       + [Informatie over workflowuitvoering](automating/using/about-workflow-execution.md)
-      + [Levenscyclus van workflows](automating/using/workflow-life-cycle.md)
+      + [Levenscyclus van workflow](automating/using/workflow-life-cycle.md)
       + [Uitvoeringsopdrachten](automating/using/execution-commands.md)
-      + [Workflowuitvoering opvolgen](automating/using/monitoring-workflow-execution.md)
+      + [Workflowuitvoering controleren](automating/using/monitoring-workflow-execution.md)
       + [Uitvoeringsopties beheren](automating/using/managing-execution-options.md)
       + [Eigenschappen van activiteiten beheren](automating/using/activity-properties.md)
       + [Overlappende uitvoering van geplande workflows](automating/using/scheduled-workflows-execution.md)
@@ -308,9 +307,9 @@ ht-degree: 100%
       + [Gebruiksscenario](automating/using/use-case-calling-workflow.md)
    + Targetingactiviteiten {#targeting-activities}
       + [Targetingactiviteiten](automating/using/about-targeting-activities.md)
-      + [Query](automating/using/query.md)
+      + [Queryactiviteit](automating/using/query.md)
       + [Incrementele query](automating/using/incremental-query.md)
-      + [Samenvoeging](automating/using/union.md)
+      + [Samenvoegen](automating/using/union.md)
       + [Doorsnede](automating/using/intersection.md)
       + [Uitsluiting](automating/using/exclusion.md)
       + [Segmentatie](automating/using/segmentation.md)
@@ -321,18 +320,18 @@ ht-degree: 100%
    + Uitvoeringsactiviteiten {#execution-activities}
       + [Informatie over uitvoeringsactiviteiten](automating/using/about-execution-activities.md)
       + [Start- en Einde-activiteiten](automating/using/start-and-end.md)
-      + [Vork](automating/using/fork.md)
-      + [AND-samenvoeging](automating/using/and-join.md)
-      + [Planner](automating/using/scheduler.md)
-      + [Wachten](automating/using/wait.md)
+      + [Vertakking](automating/using/fork.md)
+      + [AND-join](automating/using/and-join.md)
+      + [De activiteit Planner](automating/using/scheduler.md)
+      + [De activiteit Wachten](automating/using/wait.md)
       + [Extern signaal](automating/using/external-signal.md)
       + [Test](automating/using/test.md)
    + Kanaalactiviteiten {#channel-activities}
       + [Informatie over kanaalactiviteiten](automating/using/about-channel-activities.md)
       + [E-maillevering](automating/using/email-delivery.md)
-      + [Levering via sms](automating/using/sms-delivery.md)
+      + [Sms-levering](automating/using/sms-delivery.md)
       + [Levering via pushmelding](automating/using/push-notification-delivery.md)
-      + [Levering via direct-mail](automating/using/direct-mail-delivery.md)
+      + [Direct-maillevering](automating/using/direct-mail-delivery.md)
       + [Levering in de app](automating/using/in-app-delivery.md)
    + Databeheeractiviteiten {#data-management-activities}
       + [Informatie over databeheeractiviteiten](automating/using/about-data-management-activities.md)
@@ -340,7 +339,7 @@ ht-degree: 100%
       + [Bestand laden](automating/using/load-file.md)
       + [Bestand overdragen](automating/using/transfer-file.md)
       + [Afstemming](automating/using/reconciliation.md)
-      + [Bestand extraheren](automating/using/extract-file.md)
+      + [De activiteit Bestand extraheren](automating/using/extract-file.md)
       + [Abonnementsservices](automating/using/subscription-services.md)
       + [Externe API](automating/using/external-api.md)
    + Data filteren {#filtering-data}
@@ -378,7 +377,7 @@ ht-degree: 100%
          + [Incrementele query op abonnees van een service](automating/using/incremental-query-on-subscribers.md)
          + [Segmentering volgens leeftijdsgroepen](automating/using/segmentation-age-groups.md)
          + [Bronnen gebruiken die niet gelijk zijn aan targetingdimensies](automating/using/using-resources-different-from-targeting-dimensions.md)
-      + Data management {#data-management}
+      + Gegevensbeheer {#data-management}
          + [Een doelgroep Bestand afstemmen op de database](automating/using/reconcile-file-audience-with-database.md)
          + [De data uit een geïmporteerd bestand dedupliceren](automating/using/deduplicating-data-imported-file.md)
          + [Profieldata verrijken met data in een bestand](automating/using/enriching-profile-data-file.md)
@@ -417,7 +416,7 @@ ht-degree: 100%
    + Datamodel {#datamodel}
       + [Inleiding](developing/using/datamodel-introduction.md)
       + [Doelgroep](developing/using/datamodel-audience.md)
-      + [Campagne](developing/using/datamodel-campaign.md)
+      + [Campaign](developing/using/datamodel-campaign.md)
       + [Levering](developing/using/datamodel-delivery.md)
       + [Landingspagina&#39;s](developing/using/datamodel-landingpage.md)
       + [Marketinggeschiedenis](developing/using/datamodel-history.md)
@@ -470,12 +469,12 @@ ht-degree: 100%
       + [Dataretentie](administration/using/data-retention.md)
       + [Updates en onderhoudswerkzaamheden](administration/using/updates-and-maintenance-operations.md)
 + Werken met API&#39;s {#working-with-apis}
-   + [Aan de slag met Campaign Standard-API&#39;s](api/using/get-started-apis.md)
+   + [Aan de slag met Campaign Standard-API’s](api/using/get-started-apis.md)
    + Informatie over Campaign Standard-API&#39;s{#about-campaign-standard-apis}
       + [Het nut van Campaign Standard-API’s](api/using/why-using-campaign-standard-apis.md)
       + [API-toegang instellen](api/using/setting-up-api-access.md)
    + Algemene concepten {#global-concepts}
-      + [Verplichte lectuur](api/using/must-read.md)
+      + [Lees hier meer](api/using/must-read.md)
       + [Eindpunten](api/using/endpoints.md)
       + [Metagegevensmechanisme](api/using/metadata-mechanism.md)
       + [Bewerkingen](api/using/verbs.md)
@@ -484,7 +483,7 @@ ht-degree: 100%
          + [Filteren](api/using/filtering.md)
          + [Tellen](api/using/counting.md)
          + [Paginering](api/using/pagination.md)
-      + [Aangepaste resources](api/using/custom-resources.md)
+      + [Aangepaste bronnen](api/using/custom-resources.md)
    + [Interactie met aangepaste resources](api/using/interacting-with-custom-resources.md)
    + Profielen beheren {#managing-profiles}
       + [Profielen ophalen](api/using/retrieving-profiles.md)
