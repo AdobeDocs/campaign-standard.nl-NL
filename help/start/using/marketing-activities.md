@@ -7,17 +7,16 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
-feature: Campaigns
+feature: Campagnes
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c75471aa-b947-4488-a569-5412d3825c64
+source-git-commit: 6ca6fabc42f63791f4c2b0f1d2d6bd8ea5e27f7a
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 82%
+source-wordcount: '488'
+ht-degree: 83%
 
 ---
-
 
 # Marketingactiviteiten{#marketing-activities}
 
@@ -33,7 +32,7 @@ Kies de koppeling **[!UICONTROL Marketing activities]** in de bovenste balk om n
 >
 >U kunt de marketingactiviteiten ook openen door de kaart **[!UICONTROL Marketing activities]** te selecteren op de startpagina.
 
-![](assets/marketing_activities_1.png)
+![](assets/marketing_activities.png)
 
 In het deelvenster **[!UICONTROL Search]** kunt u elementen filteren op basis van verschillende criteria: naam (label en id), datum, status of type activiteit. Standaard zijn alle typen activiteiten geselecteerd, behalve programma’s.
 
@@ -96,4 +95,3 @@ Afhankelijk van de context kunt u:
 >[!NOTE]
 >
 >U kunt ook een marketingactiviteit maken vanaf de lijst met marketingactiviteiten. In dit geval kunt u elk type activiteit maken en ervoor kiezen de marketingactiviteit te koppelen aan een bovenliggende campagne (of aan een bovenliggend programma als u een programma maakt) via de eigenschappen van de activiteit.
-
