@@ -8,11 +8,10 @@ feature: Overzicht
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-translation-type: ht
-source-git-commit: c2d3217156bd942ec0948e65d48c65be3b89e71e
-workflow-type: ht
-source-wordcount: '238'
-ht-degree: 100%
+source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 100%
 
 * **[Campaign-RTCDP-integratie](integrating/using/get-started-sources-destinations.md)**<br/> Leer hoe u gegevens kunt delen tussen Campaign en het Real-time Customer Data Platform (RTCDP)
 
-* **[Onjuiste hard bounces bijwerken](https://helpx.adobe.com/nl/campaign/kb/update-bounce-qualification.html)**<br/> Leren hoe u onjuiste hard bounces kunt bijwerken na Gmail-uitval
+* **[Onjuiste vaste ](https://helpx.adobe.com/nl/campaign/kb/update-bounce-qualification.html)**<br/> grenzen bijwerkenLeer hoe u onjuiste harde grenzen na een e-mailstoring kunt bijwerken
 
 * **[Controlegroepen](sending/using/control-group.md)**<br/>
 De invloed van uw campagnes meten door een deel van hun doelgroep uit te sluiten
