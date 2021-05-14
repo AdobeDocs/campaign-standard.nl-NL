@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken. '
 title: 'Campaign Standard-handleiding '
 breadcrumb-title: Help Center
-source-git-commit: c656aba6c9db769208a8af120d492f6a8a2a944e
+source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: '1783'
 ht-degree: 99%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 99%
       + [Profielen maken](audiences/using/creating-profiles.md)
       + [Profielen bewerken](audiences/using/editing-profiles.md)
       + [Geïntegreerd klantprofiel](audiences/using/integrated-customer-profile.md)
-      + [Metriek en actieve profielen](audiences/using/active-profiles.md)
+      + [Actieve profielen](audiences/using/active-profiles.md)
       + [Testprofielen beheren](audiences/using/managing-test-profiles.md)
       + [De Campaign-database verrijken](audiences/using/enriching-campaign-database.md)
    + Doelgroepen beheren {#managing-audiences}
