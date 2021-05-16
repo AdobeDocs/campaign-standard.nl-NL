@@ -10,10 +10,9 @@ feature: Overzicht
 role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-translation-type: tm+mt
-source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
+source-git-commit: d1bd8cce4dd45c2fca032c5f02309dfc8c56c25d
 workflow-type: tm+mt
-source-wordcount: '6777'
+source-wordcount: '6790'
 ht-degree: 99%
 
 ---
@@ -22,13 +21,20 @@ ht-degree: 99%
 
 Naast de [release-opmerkingen](../../rn/using/release-notes.md) bij Adobe Campaign worden op deze pagina alle nieuwe updates in de documentatie van Adobe Campaign Standard weergegeven.
 
+## Mei 2021 {#doc-updates-may-2021}
+
+De **Active profiles** rapportsectie is bijgewerkt. [Meer informatie](../../audiences/using/active-profiles.md)
+
+De pagina **Release planning** is bijgewerkt met nieuwe datums. [Meer informatie](../../rn/using/release-planning.md)
+
+
 ## April 2021 {#doc-updates-april-2021}
 
 Er is een nieuwe sectie toegevoegd over hoe u bronnen en bestemmingen van het Adobe Experience Platform kunt gebruiken om gegevens te delen tussen Campaign Standard en het Adobe Real-time Customer Data Platform (RTCDP). [Meer informatie](../../integrating/using/get-started-sources-destinations.md)
 
 ## Maart 2021 {#doc-updates-march-2021}
 
-De pagina Help en ondersteuningsopties voor Campaign Standard is geïntegreerd in de belangrijkste documentatie. [Meer informatie](../../support.md)
+Nieuwe **Help- en ondersteuningsopties** pagina. [Meer informatie](../../support.md)
 
 De sectie met de belangrijkste stappen voor het verzenden van een bericht is uitgebreid met aanvullende informatie en verwijzingen. [Meer informatie](../../channels/using/key-steps-to-send-a-message.md)
 
