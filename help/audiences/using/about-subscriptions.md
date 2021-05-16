@@ -3,24 +3,20 @@ solution: Campaign Standard
 product: campaign
 title: Informatie over abonnementen
 description: Ontdek meer over services en abonnementen in Campaign Standard.
-audience: audiences
-content-type: reference
-topic-tags: managing-subscriptions
-feature: Audiences
+feature: Doelgroepen
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 177f0115-d269-44e8-94e0-123360ea6299
+source-git-commit: 326683683c1564dc4c828d1ed34a3c13bae3a46e
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 52%
+source-wordcount: '221'
+ht-degree: 40%
 
 ---
 
-
 # Informatie over abonnementen{#about-subscriptions}
 
-Met Adobe Campaign kunt u via een reeks **services** nieuwsbrieven en communicatie tussen kanalen maken en beheren: berichten kunnen alleen worden verzonden naar profielen die geabonneerd zijn op de service (opt-in). Deze profielen worden geïdentificeerd met een speciaal filter wanneer u een bericht maakt.
+Gebruik Adobe Campaign om nieuwsbrieven en communicatie tussen kanalen te creëren en te beheren, door een reeks van **services**: berichten worden alleen verzonden naar profielen die zijn geabonneerd op de service (opt-in). Deze profielen worden geïdentificeerd met een speciaal filter wanneer u een bericht maakt.
 
 Abonnementmechanismen kunnen worden ingesteld om uw klanten de mogelijkheid te bieden zich voor deze services in te schrijven, met name via **e-mails** en **landingspagina’s**.
 
