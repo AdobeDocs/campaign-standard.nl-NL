@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing Pages
+feature: Landingspagina's
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
+source-git-commit: 2cf8b960789ccf32b4782faa337654986e3fddbf
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 99%
+source-wordcount: '659'
+ht-degree: 97%
 
 ---
-
 
 # Een landingspagina configureren {#configuring-landing-page}
 
@@ -70,12 +69,11 @@ In het geval van geïdentificeerde bezoekers kunt u hun data vooraf in de landin
 
    Als een bezoeker van de pagina overeenkomt met een profiel in de database, worden de data van de bezoeker weergegeven in de velden van het formulier die zijn gekoppeld aan de databasedata en worden de personalisatie-elementen van de landingspagina in aanmerking genomen.
 
-   ![](assets/lp_parameters_3.png)
+   ![](assets/lp_parameters_3_temp.png)
 
-U kunt ook het volgende doen:
+U kunt ook elke bezoeker toegang geven tot de bestemmingspagina met de optie **[!UICONTROL Authorize unidentified visitors]**.
 
-* De URL-parameters gebruiken om de bezoekers te identificeren met behulp van de optie **[!UICONTROL Authorize visitor identification via URL parameters]**. Vervolgens moet u de laadsleutel kiezen en de filterparameters toewijzen met de parameters van de overeenkomstige URL.
-* Een bezoeker toegang verlenen tot de landingspagina met de optie **[!UICONTROL Authorize unidentified visitors]**.
+<!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
 Landingspagina’s kunnen ook aan een organisatorische eenheid worden gekoppeld. Hiermee definieert u de toegang van gebruikers tot de verschillende landingspagina’s. U kunt als volgt een organisatorische eenheid toewijzen:
 
@@ -111,7 +109,7 @@ Zodra uw externe Google reCAPTCHA V3-account is ingesteld, kunt u dit toevoegen 
 1. Schakel de optie **[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]** in.
 1. Selecteer uw eerder gemaakte externe Google reCAPTCHA-account.
 
-   ![](assets/lp_parameters_google.png)
+   ![](assets/lp_parameters_google_temp.png)
 
 1. Klik op **[!UICONTROL Confirm]**.
 
