@@ -13,7 +13,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: d1bd8cce4dd45c2fca032c5f02309dfc8c56c25d
 workflow-type: tm+mt
 source-wordcount: '6790'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Naast de [release-opmerkingen](../../rn/using/release-notes.md) bij Adobe Campai
 
 ## Mei 2021 {#doc-updates-may-2021}
 
-De **Active profiles** rapportsectie is bijgewerkt. [Meer informatie](../../audiences/using/active-profiles.md)
+De rapportsectie **Actieve profielen** is bijgewerkt. [Meer informatie](../../audiences/using/active-profiles.md)
 
-De pagina **Release planning** is bijgewerkt met nieuwe datums. [Meer informatie](../../rn/using/release-planning.md)
+De pagina **Releaseplanning** is bijgewerkt met nieuwe datums. [Meer informatie](../../rn/using/release-planning.md)
 
 
 ## April 2021 {#doc-updates-april-2021}
@@ -34,7 +34,7 @@ Er is een nieuwe sectie toegevoegd over hoe u bronnen en bestemmingen van het Ad
 
 ## Maart 2021 {#doc-updates-march-2021}
 
-Nieuwe **Help- en ondersteuningsopties** pagina. [Meer informatie](../../support.md)
+De pagina **Help- en ondersteuningsopties** is vernieuwd. [Meer informatie](../../support.md)
 
 De sectie met de belangrijkste stappen voor het verzenden van een bericht is uitgebreid met aanvullende informatie en verwijzingen. [Meer informatie](../../channels/using/key-steps-to-send-a-message.md)
 
@@ -46,7 +46,7 @@ De gegevensbron **Declared ID** kan nu ook worden gebruikt met de integratie van
 
 Er is informatie toegevoegd over het implementeren van lokale tracking voor mobiele applicaties. [Meer informatie](../../administration/using/local-tracking.md)
 
-Het gedeelte [Afleverbaarheid](../../sending/using/about-deliverability.md) is bijgewerkt en bevat nu koppelingen naar de nieuwe [gids met best practices voor afleverbaarheid van Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl). Alle generieke informatie over afleverbaarheid die op diverse oplossingen van Adobe van toepassing kan zijn, is verplaatst naar de [bijlage van de gids met best practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources).
+Het gedeelte [Afleverbaarheid](../../sending/using/about-deliverability.md) is bijgewerkt en bevat nu koppelingen naar de nieuwe [gids met best practices voor afleverbaarheid van Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl). Alle generieke informatie over afleverbaarheid die op diverse oplossingen van Adobe van toepassing kan zijn, is verplaatst naar de [bijlage van de gids met best practices](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=nl#additional-resources).
 
 ## Release 21.1 - februari 2021 {#release-21-1---february-2021}
 
