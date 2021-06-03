@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+source-git-commit: 7eb12fbb89f677eb7184cb5ff200d3f8a466d3c8
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1032'
 ht-degree: 3%
 
 ---
@@ -53,6 +53,9 @@ Op deze pagina worden nieuwe functies, verbeteringen en oplossingen beschreven d
 * De integratie van de Asset Core-service met de e-mailontwerper kan nu worden gebruikt door standaardgebruikers.
 
 * Er is een nieuw bericht toegevoegd ter bevestiging van een geslaagde migratie van een v4-pushtoepassing naar een v5-pushtoepassing.
+
+* Tijdens het creëren van Tokens JSONWeb om aan Campaign Standard API voor authentiek te verklaren, zijn de productprofielen nu **overwogen**. Dit betekent dat de organisatorische eenheden en rollen die zijn toegewezen aan de beveiligingsgroep (die overeenkomt met het productprofiel op AdobeIO) worden toegepast op de technische IMS-account die nodig is voor aanroepen van de Campaign Standard Rest API. (CAMP-47479)
+
 
 **Patches**
 
@@ -111,5 +114,3 @@ Op deze pagina worden nieuwe functies, verbeteringen en oplossingen beschreven d
 * Probleem verholpen in de e-mailontwerper waarbij de integratie van de Asset Core-service bleef mislukken bij het selecteren van middelen. (CAMP-47446)
 
 * Probleem verholpen waarbij sommige Journey Orchestration-leveringen werden geblokkeerd vanwege campagne die geen tijdstempels met een exacte waarde ondersteunt (dat wil zeggen eindigend met 00) die door gebeurtenissen van Journey Orchestration werden verzonden.
-
-* De technische workflow voor updateDeliveryIndicators is geoptimaliseerd. Leverings-id&#39;s die hetzelfde schema voor het bijhouden/bijhouden van het logbestand hebben, worden nu gegroepeerd. Hierdoor wordt het aantal query&#39;s beperkt, waardoor de prestaties verbeteren.
