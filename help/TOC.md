@@ -6,7 +6,7 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken. '
 title: 'Campaign Standard-handleiding '
 breadcrumb-title: Help Center
-source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
+source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
 workflow-type: tm+mt
 source-wordcount: '1783'
 ht-degree: 99%
@@ -18,9 +18,9 @@ ht-degree: 99%
 
 + [Productdocumentatie](campaign-standard-home.md)
 + [Laatste updates](rn/using/documentation-updates.md)
-+ Release-opmerkingen {#release-notes}
++ Aanvullende informatie {#release-notes}
    + [Laatste release](rn/using/release-notes.md)
-   + [Vroege release-opmerkingen](rn/using/early-release-notes.md)
+   + [Vroege release-opmerkingen](rn/using/e-release-notes.md)
    + Eerdere releases {#previous-releases}
       + [Opmerkingen bij de releases in 2020](rn/using/release-notes-2020.md)
       + [Opmerkingen bij de release 2019](rn/using/release-notes-2019.md)
@@ -50,7 +50,7 @@ ht-degree: 99%
 + Profielen en doelgroepen{#profiles-and-audiences}
    + [Aan de slag met profielen en doelgroepen](audiences/using/get-started-profiles-and-audiences.md)
    + Profielen beheren {#managing-profiles}
-      + [Informatie over profielen](audiences/using/about-profiles.md)
+      + [Profielen](audiences/using/about-profiles.md)
       + [Profielen maken](audiences/using/creating-profiles.md)
       + [Profielen bewerken](audiences/using/editing-profiles.md)
       + [Geïntegreerd klantprofiel](audiences/using/integrated-customer-profile.md)
@@ -78,7 +78,7 @@ ht-degree: 99%
       + [Berichten openen](channels/using/accessing-messages.md)
       + [Berichtdashboard](channels/using/message-dashboard.md)
       + [Sjablonen voor meertalige berichten](channels/using/multilingual-messages-template.md)
-   + Best practices voor levering {#delivery-bestpractices}
+   + Best practices voor leveringen {#delivery-bestpractices}
       + [Tips en trucs leren](sending/using/delivery-best-practices.md)
       + [Levering optimaliseren](sending/using/optimize-delivery.md)
       + [Sjablonen gebruiken](sending/using/use-templates.md)
@@ -183,7 +183,7 @@ ht-degree: 99%
    + Leverbaarheid beheren {#managing-deliverability}
       + [Leverbaarheid](sending/using/about-deliverability.md)
       + [E-mailcontent beheren](sending/using/control-email-content.md)
-      + [Leverbaarheid controleren](sending/using/monitor-deliverability.md)
+      + [Afleverbaarheid controleren](sending/using/monitor-deliverability.md)
       + [Problemen oplossen](sending/using/troubleshooting.md)
    + Werken met typologieregels {#working-with-typology-rules}
       + [Informatie over typologieën en typologieregels](sending/using/about-typology-rules.md)
@@ -307,7 +307,7 @@ ht-degree: 99%
       + [Gebruiksscenario](automating/using/use-case-calling-workflow.md)
    + Targetingactiviteiten {#targeting-activities}
       + [Targetingactiviteiten](automating/using/about-targeting-activities.md)
-      + [Queryactiviteit](automating/using/query.md)
+      + [Query](automating/using/query.md)
       + [Incrementele query](automating/using/incremental-query.md)
       + [Samenvoegen](automating/using/union.md)
       + [Doorsnede](automating/using/intersection.md)
@@ -319,11 +319,11 @@ ht-degree: 99%
       + [Verrijking](automating/using/enrichment.md)
    + Uitvoeringsactiviteiten {#execution-activities}
       + [Informatie over uitvoeringsactiviteiten](automating/using/about-execution-activities.md)
-      + [Start- en Einde-activiteiten](automating/using/start-and-end.md)
+      + [Start en einde](automating/using/start-and-end.md)
       + [Vertakking](automating/using/fork.md)
       + [AND-join](automating/using/and-join.md)
-      + [De activiteit Planner](automating/using/scheduler.md)
-      + [De activiteit Wachten](automating/using/wait.md)
+      + [Planner](automating/using/scheduler.md)
+      + [Wachten](automating/using/wait.md)
       + [Extern signaal](automating/using/external-signal.md)
       + [Test](automating/using/test.md)
    + Kanaalactiviteiten {#channel-activities}
@@ -335,12 +335,12 @@ ht-degree: 99%
       + [Levering in de app](automating/using/in-app-delivery.md)
    + Databeheeractiviteiten {#data-management-activities}
       + [Informatie over databeheeractiviteiten](automating/using/about-data-management-activities.md)
-      + [Data bijwerken](automating/using/update-data.md)
+      + [Gegevens bijwerken](automating/using/update-data.md)
       + [Bestand laden](automating/using/load-file.md)
       + [Bestand overdragen](automating/using/transfer-file.md)
       + [Afstemming](automating/using/reconciliation.md)
       + [De activiteit Bestand extraheren](automating/using/extract-file.md)
-      + [Abonnementsservices](automating/using/subscription-services.md)
+      + [Lidmaatschapsservices](automating/using/subscription-services.md)
       + [Externe API](automating/using/external-api.md)
    + Data filteren {#filtering-data}
       + [Query&#39;s bewerken](automating/using/editing-queries.md)
@@ -377,7 +377,7 @@ ht-degree: 99%
          + [Incrementele query op abonnees van een service](automating/using/incremental-query-on-subscribers.md)
          + [Segmentering volgens leeftijdsgroepen](automating/using/segmentation-age-groups.md)
          + [Bronnen gebruiken die niet gelijk zijn aan targetingdimensies](automating/using/using-resources-different-from-targeting-dimensions.md)
-      + Gegevensbeheer {#data-management}
+      + Data management {#data-management}
          + [Een doelgroep Bestand afstemmen op de database](automating/using/reconcile-file-audience-with-database.md)
          + [De data uit een geïmporteerd bestand dedupliceren](automating/using/deduplicating-data-imported-file.md)
          + [Profieldata verrijken met data in een bestand](automating/using/enriching-profile-data-file.md)
