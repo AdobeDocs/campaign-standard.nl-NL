@@ -6,17 +6,16 @@ description: Leer hoe Campaign Standard en de Dynamica 365 van Microsoft gemeens
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Microsoft CRM Integration
+feature: Microsoft CRM-integratie
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
+source-git-commit: f28aab2ac295d8a45598f5d76a86e594deeece4a
 workflow-type: tm+mt
-source-wordcount: '2473'
+source-wordcount: '2510'
 ht-degree: 1%
 
 ---
-
 
 # Best practices en beperkingen {#acs-msdyn-best-practices}
 
@@ -170,19 +169,19 @@ Bij het gebruik van deze integratie moet rekening worden gehouden met de volgend
 
    Bij het schatten van het totale volume van de de vraagvraag van de motor van de Campagne, is het belangrijk om in andere bronnen van motorvraag, met inbegrip van het landen van pagina&#39;s, WebApps, JSSP, APIs, mobiele toepassingsregistraties, enz. rekening te houden.
 
-   Informatie over het pakket Campagne hier weergeven: https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html
+   Hier vindt u informatie over het Adobe Campaign Standard-pakket: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html)
 
-* De integratie ondersteunt maximaal 30 miljoen contacten.
+* De integratie steunt een maximum van 15 miljoen totale verslagen voor de aanvankelijke synchronisatie aan middelen in Campagne. Incrementele synchronisatie wordt beperkt door het Adobe Campaign Standard-pakket.
 
-* De standaard integratie biedt ondersteuning voor maximaal vijf aangepaste entiteiten, elk met een maximale grootte van 50 kolommen.
+* Het standaard integratieaanbod omvat ondersteuning voor maximaal twintig aangepaste entiteiten, elk met een maximale grootte van 50 kolommen.
 
 * U moet uw aangepaste bronnen maken en publiceren voordat u de integratie kunt implementeren.
 
 * De maximale tabeldiepte bij het koppelen van tabellen is twee (tabel1->table2->table3)
 
-* Er is beperkte ondersteuning voor Microsoft Dynamic 365-gegevenstypen. Als uw gegevensmodel een gegevenstype buiten eenvoudige gegevenstypes (b.v., koorden, gehelen, decimalen, enz.) bevat, kunt u uw gegevensmodel moeten bijwerken alvorens de integratie te gebruiken.
+* De integratie steunt tot 5 verbonden kolommen per douanemiddel. Het koppelen van meerdere kolommen tussen aangepaste bronnen kan dramatische gevolgen hebben voor de prestaties. **0 of 1 kardinaliteit eenvoudige** verbinding heeft de voorkeur boven  **1 cardinaliteit eenvoudige koppeling**.
 
-* Als u ervoor kiest bestaande gegevens te behouden in aangepaste entiteiten voor campagne, moet u de gegevens voorbereiden voor de integratie.
+* De integratie ondersteunt transformatie tussen primitieve gegevenstypen van Microsoft Dynamics 365 (Boolean, Integer, Decimaal, Double, String, DateTime, Date) en Adobe Campaign Standard (integer, boolean, float, double, date, datetime, string). Geavanceerde gegevenstypen worden geïnterpreteerd als tekenreeksen en worden ongewijzigd gesynchroniseerd.
 
 * Onderhoudsvensters aan boord moeten mogelijk tussen Adobe en de klant worden vastgesteld.
 
