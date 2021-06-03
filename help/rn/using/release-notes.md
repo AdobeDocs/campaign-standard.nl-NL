@@ -10,16 +10,21 @@ feature: Overzicht
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: e996a5c6722c211c931427ff59f8d219d493aca7
-workflow-type: ht
-source-wordcount: '2479'
-ht-degree: 100%
+source-git-commit: 3206835d231378f40ed468286384a56cb38f0059
+workflow-type: tm+mt
+source-wordcount: '2500'
+ht-degree: 99%
 
 ---
 
 # Laatste release{#latest-release}
 
 [Releaseplanning](../../rn/using/release-planning.md) | [Releases van het Configuratiescherm](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html) | [Updates van documentatie](../../rn/using/documentation-updates.md) | [Opmerkingen bij eerdere releases](../../rn/using/release-notes-2020.md) | [Verouderde functies](../../rn/using/deprecated-features.md)
+
+
+## Release 21.2 - juni 2021 {#release-21-2}
+
+Nieuwe functies, verbeteringen en oplossingen die zijn opgenomen in de volgende release van Campaign Standard worden vermeld in de [Opmerkingen bij de eerste release](e-release-notes.md).
 
 ## Release 21.1 - februari 2021 {#release-21-1---february-2021}
 
