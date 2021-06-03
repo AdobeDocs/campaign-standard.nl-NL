@@ -7,9 +7,9 @@ feature: Profielen
 role: Business Practitioner
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: d30ce292ca07b9eb0b6965e47e12ddd4e24041ad
+source-git-commit: f66a4e35e1f42a3d7630556d020ce76adfea5891
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '228'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,17 @@ Volgens uw contract wordt elk van uw campagneexemplaren voorzien van een specifi
 
 ![](assets/audience_active_profiles_list.png)
 
-Er wordt geen rekening gehouden met de profielen die tijdens de bereiding van de levering zijn uitgesloten (bijvoorbeeld naar typologische regels of quarantainemechanisme). Een profiel dat voor meerdere leveringen is bestemd, wordt slechts eenmaal meegeteld. Dit rapport is slechts informatief, het heeft geen directe invloed op het factureren.
+
+
+* Er wordt geen rekening gehouden met de profielen die tijdens de bereiding van de levering zijn uitgesloten (bijvoorbeeld naar typologische regels of quarantainemechanisme).
+
+* De ontvangers van Transactieberichten worden geteld in Actieve Profielen.
+
+* Een profiel dat voor meerdere leveringen is bestemd, wordt slechts eenmaal meegeteld.
+
+* Dit rapport is slechts informatief, het heeft geen directe invloed op het factureren.
+
+Onder aan de pagina worden de doeldimensies weergegeven met het aantal profielen voor elke pagina. Ontvangers van Transactionele berichten worden geassocieerd met de **Anoniem** dimensie.
 
 >[!NOTE]
 >
