@@ -6,23 +6,26 @@ description: Gebruik alle bronnen die in Adobe Experience Cloud worden gedeeld i
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
-feature: People Core Service Integration
+feature: Integratie van de People Core-service
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
+source-git-commit: ef3480d3da9c5c0597af90c89a73a1aff0a87809
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '173'
 ht-degree: 9%
 
 ---
-
 
 # Werken met Campaign en de Assets-kernservice{#working-with-campaign-and-assets-core-service}
 
 Als u de kernservice of middelen op aanvraag integreert (afhankelijk van de configuratie van uw Adobe Experience Cloud-omgeving) met Adobe Campaign, kunt u alle middelen gebruiken die in Adobe Experience Cloud worden gedeeld op uw Adobe Campaign-e-mails en -landingspagina&#39;s.
 
-Bronnen die door Adobe Experience Cloud worden gedeeld, kunnen in uw e-mails en landingspagina&#39;s worden gebruikt.
+>[!CAUTION]
+>
+> Integratie met Assets Core Service is beperkt tot [Functionele beheerders](../../administration/using/users-management.md#functional-administrators).
+
+Bronnen die door Adobe Experience Cloud worden gedeeld, kunnen als volgt worden gebruikt in uw e-mails en landingspagina&#39;s:
 
 1. Wanneer u de inhoud van een e-mail- of landingspagina bewerkt, gaat u naar een afbeeldingsblok en selecteert u **[!UICONTROL Image shared from Adobe Experience Cloud]** via het contextmenu.
 
@@ -38,4 +41,3 @@ De afbeelding wordt vervolgens ingevoegd. De levering kan nu naar wens worden ge
 
 * [Middelen en delen](https://docs.adobe.com/content/help/en/core-services/interface/assets/experience-cloud-assets.html)
 * [Inhoudseditor](../../designing/using/personalization.md#example-email-personalization)
-
