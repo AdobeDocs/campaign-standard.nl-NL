@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: delivery,smsContent,back
-feature: SMS
+feature: Sms
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '621'
 ht-degree: 7%
 
 ---
-
 
 # Binnenkomende sms&#39;en beheren{#managing-incoming-sms}
 
@@ -59,6 +58,10 @@ Dit doet u als volgt:
    Bijvoorbeeld, in de configuratie hieronder, als de ontvangers het sleutelwoord &quot;STOP&quot;verzenden, zullen zij automatisch een unsubscription bevestiging ontvangen en hun telefoonaantal zal naar quarantaine met de status **[!UICONTROL On denylist]** worden verzonden. Deze status verwijst alleen naar het telefoonnummer. Het profiel is zodanig dat de gebruiker e-mailberichten blijft ontvangen.
 
    ![](assets/sms_mo.png)
+
+1. Klik op **[!UICONTROL Save]**.
+
+1. Van **[!UICONTROL Advanced parameters]** van uw levering van SMS **[!UICONTROL Properties]**, kunt u specifieke **[!UICONTROL Short code]** plaatsen om automatisch ontvangers uit te sluiten die - uit verkozen. Raadpleeg [deze sectie](../../administration/using/configuring-sms-channel.md#configuring-sms-properties) voor meer informatie hierover.
 
 De ontvangers kunnen nu automatisch het abonnement op uw berichten opzeggen en naar quarantaine worden verzonden met dit automatische antwoord. De in quarantaine geplaatste ontvangers worden vermeld in de **[!UICONTROL Addresses]**-tabel die beschikbaar is via het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]**. Voor meer informatie over quarantines, verwijs naar dit [sectie](../../sending/using/understanding-quarantine-management.md).
 
