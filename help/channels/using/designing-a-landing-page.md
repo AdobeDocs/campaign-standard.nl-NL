@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing Pages
+feature: Landingspagina's
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
+source-git-commit: c9d2edbc0731734967af033dc318f5f60ea5cc8d
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 99%
+source-wordcount: '1668'
+ht-degree: 96%
 
 ---
-
 
 # Een landingspagina ontwerpen{#designing-a-landing-page}
 
@@ -27,19 +26,19 @@ Landingspagina’s worden gemaakt als een willekeurige [marketingactiviteit](../
 
 Wanneer u een landingspagina ontwerpt, moet u de content van de pagina zelf, de bevestigingspagina en de foutpagina definiëren. Gebruik de schakelaar onder de actiebalk om elk van deze pagina’s weer te geven en te configureren.
 
-De content van landingspagina’s wordt ontworpen met de Campaign-contenteditor.
+De inhoud van bestemmingspagina&#39;s wordt ontworpen door de de inhoudredacteur van de Campagne.
 
 >[!NOTE]
 >
->Als uw instantie vóór de release van Adobe Campaign Standard 19.0 is geïnstalleerd, hebt u nog steeds toegang tot de verouderde editor voor e-mailcontent. De interface, gebruiksprincipes en configuratie zijn meestal dezelfde als hieronder beschreven voor landingspagina’s. Het is echter mogelijk dat niet alle functies beschikbaar zijn of onderhouden worden in de verouderde editor voor e-mailcontent, die vanaf de release 19.0 is afgeschaft. Met de [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) kunt u uw e-mailcontent snel bewerken via een interface voor slepen en neerzetten met uitgebreide functies.
+>Als uw exemplaar voor de Adobe Campaign Standard 19.0-release is geïnstalleerd, hebt u voor het ontwerpen van e-mailberichten nog steeds toegang tot de oude e-mailinhoudeditor. De interface, gebruiksprincipes en configuratie zijn meestal dezelfde als hieronder beschreven voor landingspagina’s. Het is echter mogelijk dat niet alle functies beschikbaar zijn of onderhouden worden in de verouderde editor voor e-mailcontent, die vanaf de release 19.0 is afgeschaft. Met de [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md) kunt u uw e-mailcontent snel bewerken via een interface voor slepen en neerzetten met uitgebreide functies.
 
 Op deze pagina worden de specifieke kenmerken van de contenteditor voor landingspagina’s beschreven. Raadpleeg de volgende secties in de handleiding over het **ontwerpen van e-mailcontent** voor meer informatie over de acties die een of meer marketingactiviteiten gemeenschappelijk hebben:
 
 * [Een personalisatieveld invoegen](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [Een contentblok toevoegen](../../designing/using/personalization.md#adding-a-content-block)
+* [Een inhoudsblok toevoegen](../../designing/using/personalization.md#adding-a-content-block)
 * [Een koppeling invoegen](../../designing/using/links.md#inserting-a-link)
 * [Afbeeldingen invoegen](../../designing/using/images.md)
-* [Algemene best practices voor het ontwerpen van content](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
+* [Algemene tips en trucs voor het ontwerpen van inhoud](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)
 
 >[!NOTE]
 >Als u een landingspagina hebt die al vooraf in HTML-indeling is gedefinieerd, kunt u deze rechtstreeks importeren met de knop **[!UICONTROL Change content]**.
