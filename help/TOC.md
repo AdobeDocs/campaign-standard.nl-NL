@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken. '
 title: 'Campaign Standard-handleiding '
 breadcrumb-title: Help Center
-source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+source-git-commit: 633992a3120eeef4aacd1dadeb4e0b47dbbcb999
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1785'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 99%
    + [Laatste release](rn/using/release-notes.md)
    + [Vroege release-opmerkingen](rn/using/e-release-notes.md)
    + Eerdere releases {#previous-releases}
+      + [Opmerkingen bij de release 2021](rn/using/release-notes-2021.md)
       + [Opmerkingen bij de releases in 2020](rn/using/release-notes-2020.md)
       + [Opmerkingen bij de release 2019](rn/using/release-notes-2019.md)
       + [Opmerkingen bij de release 2018](rn/using/release-notes-2018.md)
