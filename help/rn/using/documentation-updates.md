@@ -10,16 +10,28 @@ feature: Overzicht
 role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: d1bd8cce4dd45c2fca032c5f02309dfc8c56c25d
+source-git-commit: ec0dc31e39424a540ca71ff15355814c0e79a283
 workflow-type: tm+mt
-source-wordcount: '6790'
-ht-degree: 100%
+source-wordcount: '6866'
+ht-degree: 99%
 
 ---
 
 # Documentatie-updates{#documentation-updates}
 
 Naast de [release-opmerkingen](../../rn/using/release-notes.md) bij Adobe Campaign worden op deze pagina alle nieuwe updates in de documentatie van Adobe Campaign Standard weergegeven.
+
+## Release 21.2 - juni 2021 {#release-21-2---june-2021}
+
+**Nieuwe mogelijkheden die in de release zijn opgenomen**
+
+Validatie van bestemmingspagina&#39;s - U kunt nu een verplichte overeenkomstoptie aan uw landingspagina&#39;s toevoegen. [Meer informatie](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
+
+De sectie **E-mailgrootte** is bijgewerkt met informatie over de maximale grootte van een e-mailbericht, die nu standaard is ingesteld op 100 MB. [Meer informatie](../../sending/using/design-and-personalize.md#email-size)
+
+**Overige documentatie-updates die bij de release worden geleverd**
+
+Er is informatie toegevoegd over het wijzigen van de doeltoewijzing in een transactioneel pushbericht. [Meer informatie](../../channels/using/transactional-push-notifications.md#change-target-mapping)
 
 ## Mei 2021 {#doc-updates-may-2021}
 
