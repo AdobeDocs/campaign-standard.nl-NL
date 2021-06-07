@@ -6,14 +6,13 @@ description: Hier vindt u veelgestelde vragen over dynamische rapportage.
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: Reporting
+feature: Rapportage
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-translation-type: tm+mt
-source-git-commit: 6a2ddd03b327beabc6055448aa2fa53de12f0b6f
+source-git-commit: 81ffe6a7e59a745a6f61941dff69be85edf4fe45
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '704'
 ht-degree: 5%
 
 ---
@@ -176,8 +175,11 @@ Hier stellen we bijvoorbeeld **[!UICONTROL Upper limit]** in op 500 en **[!UICON
 
 ![](assets/troubleshooting_3.png)
 
-De waarde **N/A** kan soms in uw dynamische rapporten verschijnen. Dit kan om twee redenen worden getoond:
+De waarde **N/A** kan soms in uw dynamische rapporten verschijnen. Dit kan om drie redenen worden getoond:
 
 * De levering is verwijderd en wordt hier weergegeven als **N/A** om geen discrepantie in de resultaten te veroorzaken.
-* Wanneer u de **[!UICONTROL Transactional Delivery]**-dimensie naar uw rapporten sleept, wordt mogelijk de waarde **N/A** weergegeven. Dit gebeurt omdat het Dynamische rapport elke levering haalt zelfs als zij geen transactie zijn.
-Dit kan ook gebeuren wanneer u de **[!UICONTROL Delivery]**-dimensie naar uw rapport sleept en neerzet, maar in dit geval zal de waarde **N/A** transactionele leveringen vertegenwoordigen.
+* Wanneer u de **[!UICONTROL Transactional Delivery]**-dimensie naar uw rapporten sleept, wordt mogelijk de waarde **N/A** weergegeven. Dit gebeurt omdat het Dynamische rapport elke levering haalt zelfs als zij geen transactie zijn. Dit kan ook gebeuren wanneer u de **[!UICONTROL Delivery]**-dimensie naar uw rapport sleept en neerzet, maar in dit geval zal de waarde **N/A** transactionele leveringen vertegenwoordigen.
+* Wanneer een afmeting met metrisch wordt gebruikt die niet met de afmeting verwant is. In het onderstaande voorbeeld wordt een uitsplitsing toegevoegd met de **[!UICONTROL Tracking URL]**-dimensie, ook al wordt de **[!UICONTROL Click]**-telling in deze levering op 0 ingesteld.
+
+   ![](assets/troubleshooting_4.png)
+
