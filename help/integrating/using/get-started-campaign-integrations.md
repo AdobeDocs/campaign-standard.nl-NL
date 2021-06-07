@@ -10,11 +10,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-translation-type: tm+mt
-source-git-commit: 3f0c24baf489c516a7a3f665e8c23cec0ed2c3bf
+source-git-commit: bc2a4af29e7ed9e9e7b338b7aa7d8bb30628f0b6
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 84%
+source-wordcount: '720'
+ht-degree: 77%
 
 ---
 
@@ -49,21 +48,21 @@ Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, le
  </thead> 
  <tbody> 
   <tr> 
-   <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4, 6.5<br /> </td> 
+   <td> Adobe Experience Manager<br /> </td> 
    <td> Hiermee kunt u rechtstreeks in Adobe Experience Manager e-mailcontent of formulieren maken die worden toegewezen aan de Adobe Campaign-database.<br /> </td> 
    <td> 
      <a href="../../integrating/using/integrating-with-experience-manager.md">Werken met campagne en Experience Manager</a>, Experience Manager en Campaign Standard  <a href="https://helpx.adobe.com/nl/experience-manager/6-4/sites/administering/using/campaignstandard.html">integreren</a>, een e-mail  <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">maken met Experience Manager en campagne</a> 
     </td> 
   </tr> 
   <tr> 
-   <td> Target<br /> Classic, Standard<br /> </td> 
+   <td> Adobe Target<br /> </td> 
    <td> Hiermee kunt u afbeeldingen invoegen die door Adobe Target dynamisch worden berekend wanneer een e-mailbericht wordt geopend dat door Adobe Campaign is gemaakt en verzonden.<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-campaign-target-integration.md">Werk met Campagne en Doel</a>,  <a href="https://docs.adobe.com/content/help/nl-NL/target/using/integrate/campaign-and-target.html">integreer Campagne en Doel</a>,  <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Personaliseer E-mailbeelden in Real-</a> Time video (stap 3)
     </td> 
   </tr> 
   <tr> 
-   <td> Analytics<br /> Standard, Premium <br /> </td> 
+   <td> Adobe Analytics<br /> </td> 
    <td> Hiermee kunt u het succes van uw e-mailleveringen rechtstreeks in Adobe Analytics volgen.<br /> </td> 
    <td> 
     Video <a href="../../integrating/using/about-campaign-analytics-integration.md">Campaign-data delen met Analytics</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">KPI’s delen voor geïntegreerde Campaign-rapportage</a> (stap 1)
@@ -74,13 +73,13 @@ Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, le
    <td> Hiermee kunt u doelgroepen uitwisselen met de verschillende applicaties van Adobe Experience Cloud die u gebruikt.<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People-kernservice (profielen en doelgroepen)</a><br /> </td> 
   </tr> 
-    <tr> 
-   <td>Adobe Real-time Customer Data Platform (RTCDP)<br /> </td> 
+   <tr> 
+   <td> Adobe Real-time Customer Data Platform (RTCDP)<br /> </td> 
    <td> Dankzij de integratie tussen Adobe Campaign en Adobe Real-time Customer Data Platform (RTCDP) kunt u gegevens over segmenten delen en een publiek importeren naar Adobe Campaign.</td>
-   <td><a href="../../integrating/using/get-started-sources-destinations.md">Ga aan de slag met Bronnen en Doelen</a></td>
+   <td><a href="../../integrating/using/get-started-sources-destinations.md">Aan de slag met bronnen en bestemmingen</a></td>
   </tr> 
   <tr> 
-   <td> Asset-kernservice en Assets on demand<br /> </td> 
+   <td> Adobe Asset Core-service en bedrijfsmiddelen op aanvraag<br /> </td> 
    <td> Hiermee kunt u assets uit uw Adobe Experience Cloud-bibliotheek invoegen in e-mails en landingspagina’s die in Adobe Campaign zijn gemaakt.<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Assets-kernservice</a> of Assets on demand<br /> </td> 
   </tr> 
@@ -90,21 +89,26 @@ Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, le
    <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">Op locatie gebaseerde marketingberichten verzenden met data van Campaign en Points of Interest</a> (Analytics for Mobile)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Experience Cloud Triggers<br /> </td> 
+   <td> Adobe Experience Cloud-triggers<br /> </td> 
    <td> Hiermee kunt u persoonlijke e-mails verzenden naar uw klanten in Adobe Campaign als reactie op specifieke gedragingen die door Adobe Analytics op uw website worden bijgehouden.<br /> </td> 
    <td> 
     Video <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud Triggers gebruiken in Campaign Standard</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">Gebruiksscenario’s voor afbreking in Triggers en Campaign</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Remarketingberichten activeren op basis van siteactiviteit</a> (stap 2)
     </td> 
   </tr> 
+    <tr> 
+   <td> Adobe Journey Orchestration<br /> </td> 
+   <td> Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van de Adobe Campaign Standard voor Transactioneel Overseinen in de context van Adobe Journey Orchestration, via een actie 'out-of-the-box'.<br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=en">Werken met Adobe Journey Orchestration en Adobe Campaign Standard</a><br /> </td> 
+  </tr> 
   <tr> 
-   <td> Dreamweaver<br /> </td> 
+   <td> Adobe Dreamweaver<br /> </td> 
    <td> Hiermee kunt u e-mailcontent uit Dreamweaver bewerken en met Adobe Campaign synchroniseren.<br /> </td> 
    <td> 
     <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">Maak persoonlijke e-mails met </a> DreamweaverWeavervideo,  <a href="https://helpx.adobe.com/nl/dreamweaver/using/working-with-dreamweaver-and-campaign.html">gebruik de extensie Campagne voor Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
-   <td> Experience Platform-SDK’s<br /> </td> 
+   <td> Adobe Experience Platform SDK's<br /> </td> 
    <td> Hiermee is automatisering mogelijk van het activeringsproces van de eigenschap Mobile App in Adobe Campaign met de Experience Platform-SDK’s.<br /> </td> 
    <td> <a href="https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdk.html">Een mobiele applicatie configureren met Experience Platform SDK’s</a><br /> </td> 
   </tr> 
