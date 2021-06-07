@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
+feature: Instantie-instellingen
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
+source-git-commit: fba2ecddb2ebbf600be28724c8658d6d61eb9ecd
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '956'
 ht-degree: 1%
 
 ---
-
 
 # Launch-regels configureren voor ondersteuning van Adobe Campaign Standard-gebruiksscenario’s {#configuring-rules-launch}
 
@@ -147,6 +146,10 @@ Uw gebruikersgegevens zijn nu geconfigureerd om naar Campagne te worden verzonde
 
 ### Postback &#39;In-app tracering {#inapp-tracking-postback}
 
+>[!NOTE]
+>
+>Als u Android ACPCore v1.4.0 of later/ iOS ACPCore v2.3.0 of later gebruikt, is het configureren van teruggestuurde back-ups niet vereist.
+
 Als u volggegevens naar [!DNL Adobe Campaign Standard] wilt verzenden voor rapportage over hoe uw gebruikers in uw mobiele toepassing communiceren met In-App-berichten, maakt u de volgende regel in [!DNL Experience Platform Launch]:
 
 1. Selecteer in [!DNL Experience Platform Launch] op het dashboard voor mobiele toepassingen de tab **[!UICONTROL Rules]** en klik op **[!UICONTROL Add Rule]**.
@@ -180,6 +183,10 @@ Als u volggegevens naar [!DNL Adobe Campaign Standard] wilt verzenden voor rappo
    ![](assets/do-not-localize/rules_3.png)
 
 ### Postback van pushmeldingen {#push-tracking-postback}
+
+>[!NOTE]
+>
+>Als u Android ACPCore v1.4.0 of later/ iOS ACPCore v2.3.0 of later gebruikt, is het configureren van teruggestuurde back-ups niet vereist.
 
 Als u volggegevens wilt verzenden naar [!DNL Adobe Campaign Standard], waarmee u uw pushmeldingleveringen en de interactie van uw gebruikers met uw mobiele toepassing kunt bijhouden, moet u een regel maken in [!DNL Experience Platform Launch].
 
