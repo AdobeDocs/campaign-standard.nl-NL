@@ -6,17 +6,16 @@ description: Deze pagina bevat de afgeschafte en verwijderde functies van Adobe 
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-feature: Overview
+feature: Overzicht
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
+source-git-commit: a68adf4de790e30ab9dd1f79e5daeb7feb45c83b
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 79%
+source-wordcount: '728'
+ht-degree: 80%
 
 ---
-
 
 # Afgeschafte en verwijderde functies {#deprecated-and-removed-features}
 
@@ -43,22 +42,6 @@ Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikma
 
 <table> 
  <thead> 
- <tr> 
-   <th> <strong>Voorspelende onderwerpregel</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> Vanaf 15 december 2020 is de mogelijkheid van een voorspellende onderwerpregel afgekeurd.</p><br/>
-   <p>We raden u aan e-mailmogelijkheden van AI te gebruiken om open tarieven, optimale verzendtijden en waarschijnlijke kosten te analyseren en te voorspellen op basis van historische betrokkenheidsmaatstaven. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Meer informatie</a></p></br>
-     <p>
-     <em>Doel verwijderen: April 2021</em></p>
-     </td> 
-  </tr> 
-  </tbody> 
-</table>
-<table> 
- <thead> 
   <tr> 
    <th> <strong>Pushberichten met SDK v4</strong><br /> </th> 
   </tr> 
@@ -71,22 +54,6 @@ Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikma
      <p>
      <em>Doeldatum verwijdering: 31 augustus 2021</em></p>
      </td> 
-  </tr> 
- </tbody> 
-</table>
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Privacyverzoeken - Campaign-API en -interface</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Sinds Campaign 19.4 is het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken afgeschaft. De profielverwijdering in twee stappen is niet beschikbaar. Gebruik de <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy-kernservice</a>.</p></br>
-   <p>Zie ook <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Verzoeken om toegang tot persoonsgegevens beheren</a>.</p>
-  <p> 
-  <em>Doeldatum voor verwijdering: april 2021</em></p>
-   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -125,6 +92,37 @@ Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikma
 ## Verwijderde functies {#removed-features}
 
 Deze sectie bevat een lijst met functies en mogelijkheden die uit Campaign Standard zijn verwijderd.
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Privacyverzoeken - Campaign-API en -interface</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Sinds Campaign 21.2 is het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken afgeschaft. De profielverwijdering in twee stappen is niet beschikbaar. Gebruik de <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy-kernservice</a>.</p></br>
+   <p>Zie ook <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Verzoeken om toegang tot persoonsgegevens beheren</a>.</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+ <tr> 
+   <th> <strong>Voorspelende onderwerpregel</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> Vanaf april 2021 wordt de voorspellende onderwerpregel uit bedrijf genomen.</p><br/>
+   <p>We raden u aan e-mailmogelijkheden van AI te gebruiken om open tarieven, optimale verzendtijden en waarschijnlijke kosten te analyseren en te voorspellen op basis van historische betrokkenheidsmaatstaven. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">Meer informatie</a></p></br>
+     </td> 
+  </tr> 
+  </tbody> 
+</table>
 
 <table> 
  <thead> 
