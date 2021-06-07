@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
+feature: Transactionele berichten
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
+source-git-commit: 33d3dc43a64b9670666844a3266e2aa2458a1c40
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1453'
 ht-degree: 4%
 
 ---
-
 
 # Transactionele pushmeldingen{#transactional-push-notifications}
 
@@ -196,3 +195,37 @@ De overeenkomstige gebruiker ontvangt een transactioneel pushbericht met daarin 
 >[!NOTE]
 >
 >Er zijn geen registratietoken, toepassings- en pushplatformvelden. In dit voorbeeld wordt de afstemming uitgevoerd met het e-mailveld.
+
+## De doeltoewijzing wijzigen in een transactioneel pushbericht {#change-target-mapping}
+
+Transactionele pushberichten gebruiken een specifieke [doeltoewijzing](../../administration/using/target-mappings-in-campaign.md) die de technische instellingen bevat die nodig zijn om dit type leveringen te verzenden.
+
+Volg onderstaande stappen om deze doeltoewijzing te wijzigen:
+
+1. Selecteer een pushmelding in de lijst Transactiebericht.
+
+1. Klik in het berichtdashboard op de knop **[!UICONTROL Edit properties]**.
+
+   ![](assets/message-center_push_edit.png)
+
+1. Vouw de sectie **[!UICONTROL Advanced parameters]** uit.
+
+1. Klik op **[!UICONTROL Select a 'Target mapping' element]**.
+
+   ![](assets/message-center_push_target-mapping.png)
+
+1. Selecteer een doelafbeelding in de lijst.
+
+   >[!NOTE]
+   >
+   >Voor optimale voorbereidingstijd en prestaties bij het verzenden van **op profiel gebaseerde** transactionele pushmeldingen gebruikt u de **[!UICONTROL Profile - Real-time event for Push (mapRtEventAppSubRcp)]**-doeltoewijzing.
+
+   ![](assets/message-center_push_target-mapping_change.png)
+
+1. Bevestig uw wijziging en publiceer het bericht. Zie [Een transactioneel bericht publiceren](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
+
+   >[!IMPORTANT]
+   >
+   >U moet het bericht opnieuw publiceren om de verandering effectief te zijn, anders zal de vorige doelafbeelding nog worden gebruikt.
+
+
