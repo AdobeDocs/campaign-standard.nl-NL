@@ -7,17 +7,16 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Leer hoe u de inhoud van uw bericht ontwerpt en probeer algemene problemen te vermijden die ertoe kunnen leiden dat u de levering niet kunt uitvoeren. 
-feature: Deliverability
+feature: Afleverbaarheid
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
+source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 8%
+source-wordcount: '1034'
+ht-degree: 7%
 
 ---
-
 
 # Gepersonaliseerde content maken {#build-personalized-content}
 
@@ -75,7 +74,7 @@ Door gebrek, wanneer het bericht wordt geanalyseerd, controleert een controle [t
 
 Leer hoe te om een opt-out verbinding [in deze sectie ](../../designing/using/personalization.md#adding-a-content-block) op te nemen.
 
-### E-mailformaat
+### E-mailgrootte {#email-size}
 
 Om problemen met prestaties of leverbaarheid te voorkomen, is de aanbevolen maximale grootte van een e-mailbericht ongeveer **35KB**.
 
@@ -83,11 +82,21 @@ Houd rekening met het volgende om uw e-mailadres onder de limiet te houden:
 
 * Overbodige of ongebruikte stijlen verwijderen
 
-* Een deel van de e-mailinhoud naar een openingspagina verplaatsen
+* Enkele e-mailinhoud verplaatsen naar een [bestemmingspagina](../../channels/using/getting-started-with-landing-pages.md)
 
 * Miniatuur uw code
 
-Zorg ervoor dat u wijzigingen test voordat u de definitieve verzending uitvoert
+Zorg ervoor om het even welke veranderingen vóór de definitieve verzending te testen.
+
+In Adobe Campaign is de standaardmaximumgrootte van een e-mailbericht ingesteld op **100MB**. <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
+
+Als de limiet is bereikt, mislukt het bericht dat de limiet overschrijdt en wordt een foutbericht weergegeven in de leveringslogboeken. De andere berichten van dezelfde levering worden niet beïnvloed. In dat geval moet u het dynamische gedeelte van de e-mailsjabloon of de inhoudsfragmenten die door de levering worden gebruikt, aanpassen. <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
+
+Adobe raadt aan de standaardwaarde voor de maximale berichtgrootte te behouden. Deze waarde kan echter worden gewijzigd in de optie **[!UICONTROL Maximum message size]** via het menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**, alleen door [functionele beheerders](../../administration/using/users-management.md#functional-administrators).
+
+>[!IMPORTANT]
+>
+>Als u deze waarde op nul instelt, wordt er geen limiet toegepast.
 
 ### Sms-lengte
 
