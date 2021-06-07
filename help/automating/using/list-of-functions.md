@@ -10,11 +10,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-translation-type: tm+mt
-source-git-commit: 33cba2254bb90951880126cd9978f1890ee72e9c
+source-git-commit: 2672d2f58a2d46394454a88e63f8d09ea7e96148
 workflow-type: tm+mt
-source-wordcount: '1941'
-ht-degree: 97%
+source-wordcount: '1971'
+ht-degree: 96%
 
 ---
 
@@ -481,7 +480,7 @@ Deze tabel bevat de resterende beschikbare functies.
  </tbody> 
 </table>
 
-## Tekenreeks{#string}
+## Tekenreeks {#string}
 
 De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
 
@@ -707,8 +706,16 @@ De aggregatiefuncties worden gebruikt voor het uitvoeren van berekeningen op een
    <td> <strong>Min</strong>, Min<br /> </td> 
    <td> Retourneert de minimumwaarde in een numerieke kolom en in een tekenreeks- of datumkolom.<br /> </td> 
    <td> Min(&lt;waarde&gt;)<br /> </td> 
-  </tr> 
+  </tr>
   <tr> 
+   <td> <strong>StringAgg</strong>, String aggregaat<br /> </td> 
+   <td> Retourneert de aaneenschakeling van de waarden van een kolom met tekenreekstype, gescheiden door het teken in het tweede argument (standaardscheidingsteken is komma).<br /> </td> 
+   <td> StringAgg(&lt;string values&gt;,&lt;separator&gt;)
+  </tr>
+
+
+
+<tr> 
    <td> <strong>Sum</strong>, Sum<br /> </td> 
    <td> Retourneert de som van de waarden in een numerieke kolom.<br /> </td> 
    <td> Sum(&lt;waarde&gt;)<br /> </td> 
