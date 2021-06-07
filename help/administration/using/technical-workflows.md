@@ -6,17 +6,16 @@ description: Technische workflows zijn kant-en-klare workflows die zijn ontworpe
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instance Settings
+feature: Instantie-instellingen
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
+source-git-commit: 6d25a618b2520c867393bf0ef795567de4c57e98
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 99%
+source-wordcount: '695'
+ht-degree: 95%
 
 ---
-
 
 # Technische workflows{#technical-workflows}
 
@@ -100,9 +99,14 @@ Technische workflows worden gebruikt om door uzelf geactiveerde achtergrond- en 
    <td> Deze workflow synchroniseert de mobiele eigenschappen in Adobe Launch die zijn geïmporteerd in Adobe Campaign Standard. De workflow wordt elke 15 minuten gestart.<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">Uitvoering van levering bijwerken</span> <br /> </td> 
-   <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br /> </td> 
-   <td> Deze workflow werkt de tracking van de levering bij. Standaard wordt deze workflow elke 10 minuten gestart.<br /> </td> 
+   <td> <span class="uicontrol">Herstel van logbestanden bijhouden</span> <br /> </td> 
+   <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
+   <td> Deze workflow synchroniseert de mobiele eigenschappen in Adobe Launch die zijn geïmporteerd in Adobe Campaign Standard. De workflow wordt elke 15 minuten gestart.<br /> </td> 
+  </tr>
+  <tr> 
+   <td> <span class="uicontrol">Logboeken voor bijhouden herstellen</span> <br /> </td> 
+   <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
+   <td> Met deze workflow worden verloren logbestanden voor bijhouden hersteld. Deze technische workflow wordt in specifieke situaties gebruikt en beperkt tot Adobe voor intern gebruik. <br> Standaard wordt deze workflow elke 10 minuten gestart.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Leveringsindicatoren bijwerken</span> <br /> </td> 
@@ -121,4 +125,3 @@ Technische workflows worden gebruikt om door uzelf geactiveerde achtergrond- en 
   </tr> 
  </tbody> 
 </table>
-
