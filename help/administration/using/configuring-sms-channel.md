@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-feature: Instance Settings
+feature: Instantie-instellingen
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 99%
+source-wordcount: '1567'
+ht-degree: 95%
 
 ---
-
 
 # Een sms-kanaal configureren{#configuring-sms-channel}
 
@@ -333,15 +332,11 @@ De specifieke parameters voor het verzenden van sms-berichten worden opnieuw geg
 
 In de sectie **[!UICONTROL Advanced parameters]**:
 
-* Met de optie **[!UICONTROL From]** kunt u de naam van de afzender van het sms-bericht aanpassen met een reeks tekens. Dit is de naam die wordt weergegeven als de afzender van het sms-bericht op de mobiele telefoon van de ontvanger.
+* Met **[!UICONTROL Short code]** kunt u een specifieke korte code toevoegen aan uw levering. Ontvangers die hebben gekozen voor deze specifieke korte code worden automatisch uitgesloten tijdens de voorbereiding van het bericht. Voor meer informatie over hoe te om korte code te vormen, verwijs naar [deze sectie](../../channels/using/managing-incoming-sms.md).
 
-   Als dit veld leeg is, wordt het bronnummer gebruikt dat in het externe account is opgegeven. Als er geen bronnummer is opgegeven, wordt de korte code gebruikt. Het externe account specifiek voor sms-levering wordt in de sectie [Een sms-routering bepalen](#defining-an-sms-routing) opgegeven.
-
-   ![](assets/sms_smpp_2.png)
-
-   >[!IMPORTANT]
+   >[!NOTE]
    >
-   >Controleer de wetgeving in uw land met betrekking tot het wijzigen van het adres van de afzender. Neem ook contact op met uw sms-serviceprovider om te controleren of deze deze functionaliteit aanbiedt.
+   >Als het veld **[!UICONTROL Short code]** leeg blijft, wordt de waarde van het veld **[!UICONTROL Short code]** in de externe account gebruikt.
 
 Van de **[!UICONTROL Send]** sectie van een malplaatje van SMS:
 
