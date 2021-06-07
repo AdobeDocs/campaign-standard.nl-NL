@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,smsContent,back
-feature: SMS
+feature: Sms
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 99%
+source-wordcount: '432'
+ht-degree: 100%
 
 ---
-
 
 # Sms-berichten personaliseren{#personalizing-sms-messages}
 
@@ -39,4 +38,15 @@ Hier bespreken we een voorbeeld van een sms-bericht met personalisatievelden dat
 
 ## Sms-afzender {#sms-sender}
 
-U kunt de naam van de afzender van de sms personaliseren. Zie de sectie [Sms-configuratie](../../administration/using/configuring-sms-channel.md#configuring-sms-properties) voor meer informatie hierover.
+>[!IMPORTANT]
+>
+>Controleer de wetgeving in uw land met betrekking tot het wijzigen van het adres van de afzender. Neem ook contact op met uw sms-serviceprovider om te controleren of deze deze functionaliteit aanbiedt.
+
+Met de optie **[!UICONTROL From]** kunt u de naam van de afzender van het sms-bericht aanpassen met een reeks tekens. Dit is de naam die wordt weergegeven als de afzender van het sms-bericht op de mobiele telefoon van de ontvanger.
+
+Als dit veld leeg is, wordt het bronnummer gebruikt dat in het externe account is opgegeven. Als er geen bronnummer is opgegeven, wordt de korte code gebruikt. Het externe account specifiek voor sms-levering wordt in de sectie [Een sms-routering bepalen](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) opgegeven.
+
+![](assets/sms_creation_8.png)
+
+
+
