@@ -9,14 +9,13 @@ topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ff94f69b-3036-4103-a841-6b85feb0eb7e
+source-git-commit: f6e94cf98662e708730be672149d836ef0e56522
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '632'
 ht-degree: 1%
 
 ---
-
 
 # Informatie over de integratie van Campaign en Experience Manager{#integrating-with-experience-manager}
 
@@ -24,7 +23,7 @@ Dankzij deze integratie tussen Adobe Campaign Standard en Adobe Experience Manag
 
 U kunt dus optimaal gebruikmaken van de Adobe Experience Manager-functies voor het bewerken van inhoud en van Adobe Campaign-functionaliteit voor levering en gegevensbeheer. U kunt geen A/B-tests uitvoeren voor inhoud die is geïmporteerd uit Adobe Experience Manager.
 
-Adobe Campaign Standard is compatibel met Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 en 6.5. In de volgende secties wordt een overzicht gegeven van de handelingen die u kunt uitvoeren. Voor meer informatie, verwijs naar de secties gewijd aan [configuratie](https://docs.adobe.com/content/help/en/experience-manager-65/administering/integration/campaignstandard.html) en [gebruik](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/campaign.html) van de integratie.
+Adobe Campaign Standard is compatibel met Adobe Experience Manager 6.1, 6.2, 6.3, 6.4 en 6.5. In de volgende secties wordt een overzicht gegeven van de handelingen die u kunt uitvoeren. Voor meer informatie, verwijs naar de secties gewijd aan [configuratie](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html) en [gebruik](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html) van de integratie.
 
 >[!NOTE]
 >
@@ -36,19 +35,19 @@ Adobe Campaign Standard is compatibel met Adobe Experience Manager 6.1, 6.2, 6.3
 
    Aangezien e-mailsjablonen bewerkbaar zijn in Adobe Experience Manager, is het misschien gemakkelijker om een sjabloon te bewerken in Adobe Experience Manager. Bepaalde sjablonen zijn echter niet gemakkelijk te verwerken. Afzonderlijke sjablonen die specifiek zijn voor één klant worden niet aanbevolen voor deze integratie en moeten rechtstreeks in Adobe Campaign Standard worden bewerkt.
 
-   Raadpleeg deze [pagina](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html) voor meer informatie over sjablonen.
+   Raadpleeg deze [pagina](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html) voor meer informatie over sjablonen.
 
 * **Zorg ervoor dat Externalzer tijdens de implementatie is geconfigureerd**
 
    Wanneer u de Externalzer configureert terwijl u Experience Manager voor Adobe Campaign Standard implementeert, kunt u een bronnenpad transformeren in een URL. Hierdoor kunt u uw afbeeldingen zichtbaar maken op de pagina. Als de ExternalAlizer niet correct is geconfigureerd, bevatten uw e-mails beschadigde afbeeldingen.
 
-   Meer informatie over het configureren van de Externalzer vindt u in deze [pagina](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/externalizer.html).
+   Meer informatie over het configureren van de Externalzer vindt u in deze [pagina](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/externalizer.html).
 
 * **Organiseer uw e-mailsjablonen om misbruik te voorkomen.**
 
    Door sjablonen te organiseren zorgt u ervoor dat de juiste sjablonen zich in de juiste mappen bevinden en dat de verkeerde sjablonen niet per ongeluk worden gekozen. Tijdens implementatie, zouden de wegen moeten worden gecreeerd om malplaatjes in de juiste plaatsen op te slaan.
 
-   Raadpleeg deze [pagina](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/templates.html#template-availability) voor meer informatie over sjablonen.
+   Raadpleeg deze [pagina](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html#template-availability) voor meer informatie over sjablonen.
 
 * **Ga snel aan de slag met onderdelen die niet meer in de verpakking staan.**
 
@@ -75,6 +74,6 @@ Als u dit wilt voorkomen, kunt u de sjabloon ontkoppelen en opnieuw gebruiken na
 * **Met Adobe Experience Manager kunt u verschillende e-mails voor Adobe Campaign Standard maken.**
 
    Dankzij deze integratie kunt u eenvoudig één e-mail omzetten in verschillende versies met de segmentatie.
-Raadpleeg deze [pagina](https://docs.adobe.com/help/en/experience-manager-65/authoring/aem-adobe-campaign/target-adobe-campaign.html#setting-up-segmentation-in-aem) voor meer informatie over het instellen van segmentatie in Adobe Experience Manager en over het maken van e-mail met gerichte inhoud.
+Raadpleeg deze [pagina](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/target-adobe-campaign.html#setting-up-segmentation-in-aem) voor meer informatie over het instellen van segmentatie in Adobe Experience Manager en over het maken van e-mail met gerichte inhoud.
 
 * **Voor een succesvolle synchronisatie, moet de segmentnaam in Experience Manager de segmentnaam in nauwkeurig Campagne aanpassen.**
