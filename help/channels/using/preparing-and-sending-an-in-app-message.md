@@ -7,16 +7,15 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back;deliveryCreation,wizard
-feature: In App
+feature: In app
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
+source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1272'
 ht-degree: 98%
 
 ---
-
 
 # Een in-app-bericht voorbereiden en verzenden{#preparing-and-sending-an-in-app-message}
 
@@ -99,7 +98,7 @@ De stappen voor het maken van een zelfstandig in-app-bericht met Adobe Campaign 
 
    * **[!UICONTROL Life Cycle events]**: Kant-en-klare levenscyclusgebeurtenissen die worden ondersteund door Adobe Mobile SDK.
 
-      Raadpleeg deze [pagina](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)voor meer informatie over levenscyclusgebeurtenissen.
+      Raadpleeg deze [pagina](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html)voor meer informatie over levenscyclusgebeurtenissen.
 
    * **[!UICONTROL Analytics Events]**: De volgende drie categorieën worden ondersteund, afhankelijk van wat er is opgebouwd in uw mobiele app: Adobe Analytics, Context data of View state.
 
@@ -118,7 +117,7 @@ De stappen voor het maken van een zelfstandig in-app-bericht met Adobe Campaign 
 
 1. Als u een trigger **[!UICONTROL Places]** gebruikt, worden Places context data, Places custom metadata of Places event type automatisch ingevuld op basis van alle Libraries en hun Points of Interest die zijn gemaakt in Adobe Places.
 
-   Deze trigger wordt alleen op het apparaat toegepast voor de Points of Interest uit de Libraries die in de extensie Places in Experience Platform Launch zijn geselecteerd. Raadpleeg deze [documentatie](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html) voor meer informatie over de extensie Places en over het installeren ervan.
+   Deze trigger wordt alleen op het apparaat toegepast voor de Points of Interest uit de Libraries die in de extensie Places in Experience Platform Launch zijn geselecteerd. Raadpleeg deze [documentatie](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html) voor meer informatie over de extensie Places en over het installeren ervan.
 
 1. Kies op het tabblad **[!UICONTROL Frequency & duration]** de frequentie voor de trigger, de begin- en einddatum, de dag van de week en het tijdstip van de dag waarop het in-app-bericht actief wordt.
 
