@@ -6,17 +6,16 @@ description: Beheer XDM-schema's om uw Campaign Standard-gegevens beschikbaar te
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM Integration
+feature: Microsoft CRM-integratie
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 5%
+source-wordcount: '774'
+ht-degree: 4%
 
 ---
-
 
 # Informatie over de Adobe Experience Platform-gegevensconnector {#about-aep-data-connector}
 
@@ -39,15 +38,15 @@ In de volgende secties worden de belangrijkste stappen beschreven voor het uitvo
 >
 >Dit kan worden uitgevoerd via de API&#39;s of de Adobe Experience Platform-interface. Raadpleeg de desbetreffende documentatie voor meer informatie:
 >
->* [Een gegevensset inschakelen voor realtime klantprofiel](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/datasets/dataset.html)
->* [Een gegevensset configureren voor realtime profiel en identiteitsservice van klanten met behulp van API&#39;s](https://docs.adobe.com/content/help/en/experience-platform/catalog/api/getting-started.html)
+>* [Een gegevensset inschakelen voor realtime klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
+>* [Een gegevensset configureren voor realtime profiel en identiteitsservice van klanten met behulp van API&#39;s](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
 
 
 ## Belangrijkste concepten {#key-concepts}
 
 * Uit de functie voor het toewijzen van vakken is alleen beschikbaar voor velden die standaard in Campaign Standard zijn opgegeven. Voor het opnemen van alle douanegebieden en middelen, moet elke klant zijn eigen afbeelding bepalen.
 
-* Adobe Experience Platform Data Connector zorgt ervoor dat profielgegevens regelmatig via het platform worden doorgegeven. &#x200B; De intervalduur is 15 minuten. Deze waarde kan worden gewijzigd met behulp van [Adobe Experience Platform API&#39;s](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html).
+* Adobe Experience Platform Data Connector zorgt ervoor dat profielgegevens regelmatig via het platform worden doorgegeven. &#x200B; De intervalduur is 15 minuten. Deze waarde kan worden gewijzigd met behulp van [Adobe Experience Platform API&#39;s](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html).
 
 * Gegevenstechnicus kan de toewijzing publiceren, wijzigen en pauzeren van Campagne naar Adobe Experience Platform.
 
@@ -61,7 +60,7 @@ In de volgende secties worden de belangrijkste stappen beschreven voor het uitvo
 
 * Experience Cloud ID Service (ECID) is een apparaat-id die standaard wordt verzonden met Experience Events.
 
-   Het is een unieke en permanente id die aan een bezoeker is toegewezen en die door de identiteitsdienst van het Platform kan worden gebruikt om dezelfde bezoeker en hun gegevens in verschillende Experience Cloud-oplossingen te identificeren. Raadpleeg voor meer informatie de [Experience Cloud Identity Service Help](https://docs.adobe.com/content/help/en/id-service/using/home.html).
+   Het is een unieke en permanente id die aan een bezoeker is toegewezen en die door de identiteitsdienst van het Platform kan worden gebruikt om dezelfde bezoeker en hun gegevens in verschillende Experience Cloud-oplossingen te identificeren. Raadpleeg voor meer informatie de [Experience Cloud Identity Service Help](https://experienceleague.adobe.com/docs/id-service/using/home.html).
 
    >[!NOTE]
    >
@@ -71,7 +70,7 @@ In de volgende secties worden de belangrijkste stappen beschreven voor het uitvo
 
 * De overdracht van abonnementsgebeurtenissen buiten de box wordt niet ondersteund. Om abonnementsgebeurtenissen over te brengen, kunt u overeenkomstige XDM en dataset op Adobe Experience Platform tot stand brengen, dan een afbeelding van douanegegevens voor deze gegevens vormen.
 
-* Met betrekking tot privacyverzoeken (zowel Access- als Delete-acties) moeten klanten afzonderlijke aanvragen indienen via de [Privacy Core Service](https://docs.adobe.com/content/help/en/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): één voor Campagne en één voor Adobe Experience Platform. Zie [Informatie over privacyverzoeken](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=nl#getting-started) en [Privacy-verzoeken beheren](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) in Campagne voor meer informatie.
+* Met betrekking tot privacyverzoeken (zowel Access- als Delete-acties) moeten klanten afzonderlijke aanvragen indienen via de [Privacy Core Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): één voor Campagne en één voor Adobe Experience Platform. Zie [Informatie over privacyverzoeken](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=nl#getting-started) en [Privacy-verzoeken beheren](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) in Campagne voor meer informatie.
 
 * Voor elk XDM gebied, moet het DULE etiketteren in Adobe Experience Platform worden gedaan. Dit is de verantwoordelijkheid van de klant om DULE-labels toe te passen.
 
@@ -85,4 +84,4 @@ Deze video biedt een overzicht over de Adobe Experience Platform Data Connector.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
-Extra video&#39;s over de Adobe Experience Platform Data Connector zijn [hier](https://docs.adobe.com/content/help/nl-NL/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html) beschikbaar.
+Extra video&#39;s over de Adobe Experience Platform Data Connector zijn [hier](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html) beschikbaar.
