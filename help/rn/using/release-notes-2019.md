@@ -1,26 +1,25 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Opmerkingen bij de releases in 2019
+title: Opmerkingen bij de release 2019
 description: Deze pagina bevat een overzicht van alle releases van Adobe Campaign Standard in 2019.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: Overzicht
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
+source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
 workflow-type: tm+mt
-source-wordcount: '7611'
+source-wordcount: '7590'
 ht-degree: 8%
 
 ---
 
+# Opmerkingen bij de release 2019{#release-notes-2019}
 
-# Opmerkingen bij de releases in 2019{#release-notes-2019}
-
-[Release-planning](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/release-planning.html) |  [Configuratiescherm](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html) |  [Documentatie-updates](../../rn/using/documentation-updates.md) |  [Nieuwste releaseopmerkingen](../../rn/using/release-notes.md) |  [Verouderde functies](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=nl#release-notes)
+[Release-planning](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/release-planning.html) |  [Configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl) |  [Documentatie-updates](../../rn/using/documentation-updates.md) |  [Nieuwste releaseopmerkingen](../../rn/using/release-notes.md) |  [Verouderde functies](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=nl#release-notes)
 
 ## Release 19.4 - december 2019 {#release-19-4---october-2019}
 
@@ -41,7 +40,7 @@ ht-degree: 8%
     <li><p>Bij het maken van een privacyverzoek is het regulatietype (GDPR of CCPA) toegevoegd aan de Privacy Core Service. Dit is de enige methode die u moet gebruiken voor alle verzoeken voor toegang en verwijderen. Het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken is verouderd. Zie het artikel <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Vervangen en verwijderde functies</a>.</p></li>
     <li>Het veld Opt-Out</strong> van de CCPA is toegevoegd aan de profielbron zodat Adobe Campaign-gebruikers kunnen controleren of een consument heeft gekozen voor de verkoop van persoonlijke gegevens. <strong> <a href="https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ccpa">Meer informatie</a>.</strong></li>
   </ul>
-    <p>Bekijk ook de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/privacy/privacy-overview.html">Hoe kan ik-video</a>.</p>
+    <p>Bekijk ook de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">Hoe kan ik-video</a>.</p>
 </td> 
   </tr> 
  </tbody> 
@@ -162,11 +161,11 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> Externe API-activiteit (openbare bètaversie)<br /> </td> 
-   <td> <p>Voor een diepere verpersoonlijking, staat de Externe API Activiteit u toe om gegevens van externe systemen in een werkschema via een REST API vraag te brengen. De REST-eindpunten kunnen een klantbeheersysteem, Adobe I/O Runtime- of Adobe Experience Cloud REST-eindpunt zijn (bijvoorbeeld Platform van gegevens, Doel, Analytics, Campagne).</p><p>Deze mogelijkheid is momenteel beschikbaar in een openbare bètaversie.</p><p>Raadpleeg voor meer informatie de <a href="../../automating/using/external-api.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">Hoe kan ik-video</a>.</p></td> 
+   <td> <p>Voor een diepere verpersoonlijking, staat de Externe API Activiteit u toe om gegevens van externe systemen in een werkschema via een REST API vraag te brengen. De REST-eindpunten kunnen een klantbeheersysteem, Adobe I/O Runtime- of Adobe Experience Cloud REST-eindpunt zijn (bijvoorbeeld Platform van gegevens, Doel, Analytics, Campagne).</p><p>Deze mogelijkheid is momenteel beschikbaar in een openbare bètaversie.</p><p>Raadpleeg voor meer informatie de <a href="../../automating/using/external-api.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">Hoe kan ik-video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Rapport over workflowsegment<br /> </td> 
-   <td> <p>Met deze functie kunnen marketers hun leveringsprestaties opsplitsen per segmentcode. Wanneer u een werkschema creeert en een segmentatieactiviteit gebruikt om segmenten aan de leveringspopulatie toe te wijzen, kunnen deze segmenten nu in de zelfde levering gaan. Dit staat u toe om te tonen opent/klikt statistieken die op veelvoudige segmenten binnen één enkele levering worden gebaseerd.</p><p>Raadpleeg voor meer informatie de <a href="../../reporting/using/creating-a-report-workflow-segment.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">Hoe kan ik-video</a>.</p></td>
+   <td> <p>Met deze functie kunnen marketers hun leveringsprestaties opsplitsen per segmentcode. Wanneer u een werkschema creeert en een segmentatieactiviteit gebruikt om segmenten aan de leveringspopulatie toe te wijzen, kunnen deze segmenten nu in de zelfde levering gaan. Dit staat u toe om te tonen opent/klikt statistieken die op veelvoudige segmenten binnen één enkele levering worden gebaseerd.</p><p>Raadpleeg voor meer informatie de <a href="../../reporting/using/creating-a-report-workflow-segment.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">Hoe kan ik-video</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -307,7 +306,7 @@ Introduceerde een reeks verbeteringen en correcties om fragmenten te optimaliser
  <tbody> 
   <tr> 
    <td> Configuratiescherm<br /> </td> 
-   <td> <p>Om uw werk als Admin-gebruiker efficiënter te maken, kunt u eenvoudig de capaciteit controleren en de instellingen van uw instanties beheren (te beginnen met SFTP-serverbeheer).</p><p>Raadpleeg voor meer informatie de <a href="https://docs.adobe.com/content/help/nl-NL/control-panel/using/control-panel-home.html">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">Hoe kan ik-video</a>.</p></td> 
+   <td> <p>Om uw werk als Admin-gebruiker efficiënter te maken, kunt u eenvoudig de capaciteit controleren en de instellingen van uw instanties beheren (te beginnen met SFTP-serverbeheer).</p><p>Raadpleeg voor meer informatie de <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">Hoe kan ik-video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Lokale meldingen<br /> </td> 
@@ -315,7 +314,7 @@ Introduceerde een reeks verbeteringen en correcties om fragmenten te optimaliser
   </tr> 
   <tr> 
    <td> Workflowverbetering - Een lading toevoegen aan externe signaalactiviteit<br /> </td> 
-   <td> <p>Start een workflow met een payload als aan bepaalde voorwaarden is voldaan vanuit een andere workflow of een REST API-aanroep om te integreren met uw externe systemen. Dit omvat ook een nieuwe <strong>test</strong> activiteit waar u tests op deze functionaliteit kunt in werking stellen.</p><p>Raadpleeg voor meer informatie de <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">Hoe kan ik-video</a>.</p></td> 
+   <td> <p>Start een workflow met een payload als aan bepaalde voorwaarden is voldaan vanuit een andere workflow of een REST API-aanroep om te integreren met uw externe systemen. Dit omvat ook een nieuwe <strong>test</strong> activiteit waar u tests op deze functionaliteit kunt in werking stellen.</p><p>Raadpleeg voor meer informatie de <a href="../../automating/using/calling-a-workflow-with-external-parameters.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">Hoe kan ik-video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Verbetering van bestemmingspagina's - Google reCAPTCHA<br /> </td> 
@@ -433,7 +432,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
   </tr> 
   <tr> 
    <td> Mobiel in-app-bericht<br /> </td> 
-   <td> <p>Deze release bevat de GA-versie van In-App-kanaal in Campaign. Vanuit functioneel oogpunt zijn de meest opvallende toevoegingen aan de bètaversie Dynamische rapporten voor het kanaal in de app en veilige handshake tussen Mobile SDK en MCIAS (Marketing Cloud In-App Messaging Service die de regels in de app aan de SDK aanbiedt). De veilige handshake zorgt ervoor dat de PII-gegevens van uw gebruikers niet in kwaadwillige handen vallen en stelt u in staat de privacy van gebruikers op een gedeeld apparaat te handhaven door berichtcache uit te wissen telkens als de gebruiker zich afmeldt.</p><p>Raadpleeg voor meer informatie de <a href="../../channels/using/about-in-app-messaging.md">gedetailleerde documentatie</a> en de specifieke <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">In-App zelfstudie</a>.</p> </td> 
+   <td> <p>Deze release bevat de GA-versie van In-App-kanaal in Campaign. Vanuit functioneel oogpunt zijn de meest opvallende toevoegingen aan de bètaversie Dynamische rapporten voor het kanaal in de app en veilige handshake tussen Mobile SDK en MCIAS (Marketing Cloud In-App Messaging Service die de regels in de app aan de SDK aanbiedt). De veilige handshake zorgt ervoor dat de PII-gegevens van uw gebruikers niet in kwaadwillige handen vallen en stelt u in staat de privacy van gebruikers op een gedeeld apparaat te handhaven door berichtcache uit te wissen telkens als de gebruiker zich afmeldt.</p><p>Raadpleeg voor meer informatie de <a href="../../channels/using/about-in-app-messaging.md">gedetailleerde documentatie</a> en de specifieke <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">In-App zelfstudie</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Workflowverbeteringen<br /> </td> 
@@ -538,11 +537,11 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
      <li> De mogelijkheid om inhoud van een URL automatisch op te halen tijdens de voorbereidingstijd</a><a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time"> </a></li> 
      <li> Volledig conform <a href="../../designing/using/using-reusable-content.md#content-templates">out-of-the box inhoudssjablonen</a>. </li> 
     </ul> 
-    <p>Raadpleeg voor meer informatie de <a href="../../designing/using/designing-content-in-adobe-campaign.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/email-designer-overview.html">Hoe kan ik-video</a>. Hieronder vindt u verbeteringen en correcties.</p><p>Als gevolg hiervan is de oude e-mailinhoudeditor nu afgekeurd. Raadpleeg deze <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">pagina</a> voor meer informatie.</p> </td> 
+    <p>Raadpleeg voor meer informatie de <a href="../../designing/using/designing-content-in-adobe-campaign.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">Hoe kan ik-video</a>. Hieronder vindt u verbeteringen en correcties.</p><p>Als gevolg hiervan is de oude e-mailinhoudeditor nu afgekeurd. Raadpleeg deze <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">pagina</a> voor meer informatie.</p> </td> 
   </tr> 
   <tr> 
    <td> Productaanbiedingen in Transactiee-mails<br /> </td> 
-   <td> <p>U kunt nu verwijzen naar een of meer productverzamelingen in een transactie-e-mailbericht. U kunt bijvoorbeeld automatisch een e-mailbericht met een winkelwagentje verzenden waarin alle producten worden vermeld die zich in de winkelwagentje van de gebruiker bevonden met een afbeelding, prijs en koppeling naar elk product.</p><p>Raadpleeg voor meer informatie de <a href="../../designing/using/using-product-listings.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">Hoe kan ik-video</a>.</p> </td> 
+   <td> <p>U kunt nu verwijzen naar een of meer productverzamelingen in een transactie-e-mailbericht. U kunt bijvoorbeeld automatisch een e-mailbericht met een winkelwagentje verzenden waarin alle producten worden vermeld die zich in de winkelwagentje van de gebruiker bevonden met een afbeelding, prijs en koppeling naar elk product.</p><p>Raadpleeg voor meer informatie de <a href="../../designing/using/using-product-listings.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">Hoe kan ik-video</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Mobiele weergave in de e-mailontwerper<br /> </td> 
@@ -621,4 +620,3 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 * De verzendende doorvoer is verbeterd en gestabiliseerd voor SMS-berichten.
 * Probleem verholpen waardoor het teken &#39;~&#39; niet in een SMS-bericht kon worden gebruikt. (CAMP-29172)
 * Probleem verholpen in leveringen met de optie Tijd verzenden. (CAMP-29231)
-
