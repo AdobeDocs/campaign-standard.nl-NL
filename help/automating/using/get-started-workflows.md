@@ -9,14 +9,13 @@ topic-tags: about-workflows-and-data-management
 feature: Workflows
 role: Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 26be942a-c252-458f-a590-eb235567ca67
+source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 11%
+source-wordcount: '518'
+ht-degree: 13%
 
 ---
-
 
 # Aan de slag met processen en data management {#get-started-processes-data-management}
 
@@ -92,6 +91,6 @@ Meer informatie:
 
 ## Aanvullende bronnen
 
-* [Zelfstudievideo&#39;s over processen en gegevensbeheer](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
+* [Zelfstudievideo&#39;s over processen en gegevensbeheer](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=nl)
 * [Technische workflows](../../administration/using/technical-workflows.md)
 * [Aan de slag met het Campaign Standard-datamodel](../../developing/using/get-started-data-model.md)
