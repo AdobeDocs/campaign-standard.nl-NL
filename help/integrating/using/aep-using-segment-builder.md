@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Microsoft CRM Integration
+feature: Microsoft CRM-integratie
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 4%
+source-wordcount: '869'
+ht-degree: 2%
 
 ---
-
 
 # De Segment Builder gebruiken {#using-the-segment-builder}
 
@@ -25,9 +24,9 @@ ht-degree: 4%
 >
 >De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 
-De Bouwer van het Segment staat u toe om publiek te bouwen door regels te bepalen die op gegevens worden gebaseerd die uit [Real-time Profiel van de Klant ](https://docs.adobe.com/content/help/nl-NL/experience-platform/profile/home.html) komen.
+De Bouwer van het Segment staat u toe om publiek te bouwen door regels te bepalen die op gegevens worden gebaseerd die uit [Real-time Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html) komen.
 
-In deze sectie worden algemene concepten beschreven wanneer u een segment maakt. Voor gedetailleerde informatie over de Bouwer van het Segment zelf, verwijs naar [de gebruikersgids van de Bouwer van het Segment](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+In deze sectie worden algemene concepten beschreven wanneer u een segment maakt. Voor gedetailleerde informatie over de Bouwer van het Segment zelf, verwijs naar [de gebruikersgids van de Bouwer van het Segment](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 De interface van de Bouwer van het Segment wordt samengesteld als volgt:
 
@@ -49,7 +48,7 @@ De Segment Builder moet nu in uw werkruimte worden weergegeven. Hiermee kunt u e
 
 1. Controleer of het gewenste samenvoegbeleid is geselecteerd in het instellingenvenster.
 
-   Voor meer informatie over fusiebeleid, verwijs naar de specifieke sectie van [de gebruikersgids van de Bouwer van het Segment](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+   Voor meer informatie over fusiebeleid, verwijs naar de specifieke sectie van [de gebruikersgids van de Bouwer van het Segment](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -67,7 +66,7 @@ De Segment Builder moet nu in uw werkruimte worden weergegeven. Hiermee kunt u e
 
 In het linkerdeelvenster worden alle kenmerken, gebeurtenissen en doelgroepen weergegeven die u kunt gebruiken om regels samen te stellen.
 
-De vermelde velden zijn kenmerken die door uw bedrijf zijn vastgelegd en die beschikbaar zijn gesteld via het [Experience Data Model (XDM) System](https://docs.adobe.com/content/help/nl-NL/experience-platform/xdm/home.html).
+De vermelde velden zijn kenmerken die door uw bedrijf zijn vastgelegd en die beschikbaar zijn gesteld via het [Experience Data Model (XDM) System](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html).
 
 Velden zijn ingedeeld in tabbladen:
 
@@ -83,7 +82,7 @@ Velden zijn ingedeeld in tabbladen:
 >
 >**Met** segmentatie met meerdere entiteiten kunt u de profielgegevens uitbreiden met aanvullende gegevens op basis van producten, opslagruimten of andere niet-profielklassen. Zodra verbonden, worden de gegevens van extra klassen beschikbaar alsof zij aan het schema van het Profiel inheems waren.
 >
->Raadpleeg de [desbetreffende documentatie](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html) voor meer informatie.
+>Raadpleeg de [desbetreffende documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html) voor meer informatie.
 
 Door gebrek, toont de Bouwer van het Segment gebieden waarin de gegevens reeds aanwezig zijn. Als u het volledige schema wilt weergeven, inclusief de velden waarvoor geen gegevens aanwezig zijn, schakelt u de optie **[!UICONTROL Show full XDM schema]** uit de instellingen in.
 
@@ -97,7 +96,7 @@ Het symbool aan het eind van elk gebied verstrekt extra informatie over de attri
 
 >[!NOTE]
 >
->In de onderstaande sectie vindt u algemene informatie over de definitie van regels. Voor meer op dit, verwijs naar [de gebruikersgids van de Bouwer van het Segment](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html).
+>In de onderstaande sectie vindt u algemene informatie over de definitie van regels. Voor meer op dit, verwijs naar [de gebruikersgids van de Bouwer van het Segment](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 Voer de volgende stappen uit om een regel te maken:
 
