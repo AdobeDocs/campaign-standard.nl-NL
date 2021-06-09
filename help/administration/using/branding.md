@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
-feature: Instance Settings
+feature: Instantie-instellingen
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '1286'
-ht-degree: 78%
+source-wordcount: '1282'
+ht-degree: 80%
 
 ---
-
 
 # Merkpositionering{#branding}
 
@@ -92,11 +91,11 @@ Een **merk** wordt gedefinieerd door de volgende kenmerken:
 
 U kunt nieuwe entiteiten van uw organisatie toevoegen in Campagne, of een nieuw type van e-mail tot stand brengen dat u onder een verschillend subdomain moet verzenden. Volg onderstaande stappen om dit te doen:
 
-1. **Vorm een nieuw subdomain**  - voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap zijn het te vormen. U kunt dit uitvoeren door [Campagne Controlebord](https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/subdomains-branding.html) of bereiken aan uw Adobe technisch contact. Meer informatie over subdomeinconfiguratie [in dit artikel](https://helpx.adobe.com/nl/campaign/kb/domain-name-delegation.html).
+1. **Vorm een nieuw subdomain**  - voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap zijn het te vormen. U kunt dit uitvoeren door [Campagne Controlebord](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html) of bereiken aan uw Adobe technisch contact. Meer informatie over subdomeinconfiguratie [in dit artikel](https://helpx.adobe.com/nl/campaign/kb/domain-name-delegation.html).
 
    >[!NOTE]
    >
-   >Het Configuratiescherm is toegankelijk voor alle beheergebruikers. De stappen om Admin toegang tot een gebruiker te verlenen zijn gedetailleerd in [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+   >Het configuratiescherm is toegankelijk voor alle gebruikers met beheerdersrechten. De stappen om toegang met beheerdersrechten aan een gebruiker te verlenen worden gedetailleerd beschreven op [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
 
 1. **Creeer een kaartje**  - Zodra subdomain wordt gevormd, zal Adobe het in het uw productiemilieu moeten plaatsen. Om dit te verzoeken, [creeer een kaartje aan de Zorg van de Cliënt](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) met de volgende informatie:
 
@@ -200,4 +199,3 @@ Voer de onderstaande stappen uit om een e-mail te maken die aan een merk is geko
 1. Uw e-mail is al geconfigureerd. U kunt de informatie controleren voordat u deze test met behulp van de testprofielen en de e-mail vervolgens naar de doelgroep verzenden.
 
    ![](assets/branding_16.png)
-
