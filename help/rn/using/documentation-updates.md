@@ -10,10 +10,10 @@ feature: Overzicht
 role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: ec0dc31e39424a540ca71ff15355814c0e79a283
+source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
-source-wordcount: '6866'
-ht-degree: 99%
+source-wordcount: '6852'
+ht-degree: 98%
 
 ---
 
@@ -330,7 +330,7 @@ Er is een nieuw gebruiksscenario toegevoegd waarin wordt beschreven hoe u een co
 
 De informatie met betrekking tot de eigenschappen van landingspagina’s is verplaatst naar een specifieke sectie. [Meer informatie](../../channels/using/configuring-landing-page.md)
 
-De documentatie voor het Configuratiescherm is geïntegreerd in de nieuwe collaboratieve documentatieset. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/control-panel-home.html)
+De documentatie voor het Configuratiescherm is geïntegreerd in de nieuwe collaboratieve documentatieset. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl)
 
 De tabel voor de **berekening van indicatoren** is bijgewerkt. [Meer informatie](../../reporting/using/indicator-calculation.md)
 
@@ -394,7 +394,7 @@ Er is een nieuwe sectie toegevoegd met gebruiksscenario’s voor workflows waari
 
 Er is een procedure toegevoegd aan de sectie voor het oplossen van workflowproblemen over het weergeven van SQL-query’s op het tabblad Logboek. [Meer informatie](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-Er is een nieuw Help-artikel toegevoegd met informatie over subdomeinen en certificaatbeheer in het Configuratiescherm. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+Er is een nieuw Help-artikel toegevoegd met informatie over subdomeinen en certificaatbeheer in het Configuratiescherm. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 De sectie waarin de contentsjablonen en fragmenten worden beschreven, is bijgewerkt. [Meer informatie](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -456,7 +456,7 @@ Er is een waarschuwing toegevoegd in de documentatie over aangepaste resources. 
 
 **Nieuwe mogelijkheden die in de release zijn opgenomen**
 
-Configuratiescherm - [Meer informatie](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+Configuratiescherm - [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 Lokale meldingen - [Meer informatie](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -472,7 +472,7 @@ Er is een nieuw artikel gepubliceerd over de planning van releases om toekomstig
 
 De contextafhankelijke Help-koppelingen die rechtstreeks beschikbaar zijn in Adobe Campaign, zijn bijgewerkt.
 
-De volgende [pagina](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/overview.html) wordt de officiële pagina met video’s voor Adobe Campaign Standard.
+De volgende [pagina](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html) wordt de officiële pagina met video’s voor Adobe Campaign Standard.
 
 Er is een sectie toegevoegd over dataretentie, inclusief de standaardretentiewaarden voor standaardtabellen. [Meer informatie](../../administration/using/data-retention.md)
 
@@ -612,7 +612,7 @@ De sectie over het configureren van een mobiele app met SDK V4 is [hier](https:/
 
 De sectie over het configureren van een mobiele app met Adobe Experience Platform SDK’s is [hier](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html) geplaatst.
 
-Video’s zijn bijgewerkt en [hier](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) geplaatst.
+Video’s zijn bijgewerkt en [hier](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html) geplaatst.
 
 De sectie over het type gebruikers is bijgewerkt. [Meer informatie](../../administration/using/users-management.md)
 
@@ -960,7 +960,7 @@ Terugkerende pushmeldingen - [Meer informatie](../../automating/using/push-notif
 
 Amazon Simple Storage Service (S3)-connector - [Meer informatie](../../administration/using/external-accounts.md)
 
-Video over Dreamweaver-integratie - [Meer informatie](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Video over Dreamweaver-integratie - [Meer informatie](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
@@ -984,7 +984,7 @@ De integratie met Adobe Analytics for Mobile (Point of Interest) is bijgewerkt, 
 
 Dynamische rapportage - [Meer informatie](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver-integratie (Labs) - [Meer informatie](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver-integratie (Labs) - [Meer informatie](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 Handmatige optimalisatie van de verzendtijd - [Meer informatie](../../sending/using/optimizing-the-sending-time.md)
 
