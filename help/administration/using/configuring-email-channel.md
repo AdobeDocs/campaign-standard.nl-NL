@@ -7,14 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
-feature: Instance Settings
+feature: Instantie-instellingen
 role: Administrator
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-translation-type: tm+mt
-source-git-commit: b899d1926526fccb2fe1fa42db7a4e4317ddb1cb
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2598'
 ht-degree: 76%
 
 ---
@@ -34,7 +33,7 @@ In het configuratiescherm voor e-mail kunt u de parameters voor het e-mailkanaal
    In de sectie **[!UICONTROL Header parameters of sent emails]** worden de geautoriseerde e-mailadressen vermeld die u kunt gebruiken om e-mails naar uw ontvangers te verzenden (het adres van de afzender) en om hen in staat te stellen geautomatiseerde antwoorden zoals asynchrone onbezorgbare mails, out-of-office antwoorden, enz. terug te sturen. (foutadres).  Adobe Campaign controleert tijdens de voorbereiding van berichten of de ingevoerde adressen geldig zijn. Deze werkwijze zorgt ervoor dat geen adressen worden gebruikt die problemen kunnen veroorzaken.
    * Zowel het adres van de afzender als het foutadres worden door Adobe ingesteld. Deze velden mogen niet leeg zijn.
    * U kunt deze velden niet bewerken. Als u een adres wilt bijwerken, neemt u contact op met de Klantenservice van Adobe.
-   * Als u nog een adres wilt toevoegen, gebruikt u het [Configuratiescherm](https://docs.adobe.com/content/help/nl/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) om een nieuw subdomein in te stellen of neemt u contact op met de Klantenservice van Adobe. Als u meerdere maskers gebruikt, worden deze door komma&#39;s van elkaar gescheiden.
+   * Als u nog een adres wilt toevoegen, gebruikt u het [Configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) om een nieuw subdomein in te stellen of neemt u contact op met de Klantenservice van Adobe. Als u meerdere maskers gebruikt, worden deze door komma&#39;s van elkaar gescheiden.
    * Het is aan te raden adressen in te stellen met een ster zoals *@yourdomain.com: dan kunt u elk adres gebruiken dat eindigt met uw subdomeinnaam.
 
 * **Bezorging**
