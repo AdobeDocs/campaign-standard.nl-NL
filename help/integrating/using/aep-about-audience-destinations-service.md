@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Microsoft CRM Integration
+feature: Microsoft CRM-integratie
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 7%
+source-wordcount: '379'
+ht-degree: 2%
 
 ---
-
 
 # Informatie over de service Audiences Destinations {#about-audiences}
 
@@ -25,18 +24,18 @@ ht-degree: 7%
 >
 >De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 
-Verbeter uw ervaringen van de consument door de [Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/landing/home.html) te gebruiken om hoogst gericht publiek te bouwen dat op grote, complexe datasets wordt gebaseerd. De Adobe Experience Platform consolideert profielen, gedragingen en gegevens van meerdere entiteiten op online en offline bronnen, waaronder Adobe Analytics, om u te helpen een 360-gradenweergave van uw klant te maken, zodat u uw ervaringen met klanten effectief kunt beheren.
+Verbeter uw ervaringen van de consument door de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) te gebruiken om hoogst gericht publiek te bouwen dat op grote, complexe datasets wordt gebaseerd. De Adobe Experience Platform consolideert profielen, gedragingen en gegevens van meerdere entiteiten op online en offline bronnen, waaronder Adobe Analytics, om u te helpen een 360-gradenweergave van uw klant te maken, zodat u uw ervaringen met klanten effectief kunt beheren.
 
 Adobe Campaign Standard gebruikt vervolgens de service **Poortdoelen** om een verzameling profielen, die bekend staan als **Soorten publiek**, op te halen uit Adobe Experience Platform voor meerfasencampagneprogramma&#39;s en/of programma&#39;s voor meerdere kanalen.
 
 **Het** publiek wordt gecreeerd door eerste bouwende  **segmenten**, die hoofdzakelijk een reeks regels zijn die op vrijwel om het even welke variabele (b.v., profiel, gebeurtenis, multi-entiteitgegevens) binnen een klantenprofiel van Adobe Experience Platform worden gebaseerd om een multidimensionaal doel tot stand te brengen. In de volgende speciale documenten wordt verwezen naar algemene concepten voor Profiel en Segmentatieservices van klanten in realtime:
 
-* [Overzicht van het realtime klantprofiel](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
-* [Overzicht van segmentatieservice](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)
+* [Overzicht van het realtime klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [Overzicht van segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
 
 Zodra een segment is gecreeerd, kunt u het als publiek voor een levering in [de werkschema&#39;s van Campaign Standard dan activeren ](../../integrating/using/aep-targeting-audiences.md). Daarnaast kunt u contextuele gegevens van de Adobe Experience Platform gebruiken om [personalize](../../integrating/using/aep-personalizing-campaigns.md) te verpersoonlijken en dynamische inhoud aan uw campagnes toe te voegen.
 
-![](assets/do-not-localize/how-to-video.png) Hoe kan ik-video&#39;s zijn ook beschikbaar in  [deze sectie](https://docs.adobe.com/content/help/nl-NL/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
+![](assets/do-not-localize/how-to-video.png) Hoe kan ik-video&#39;s zijn ook beschikbaar in  [deze sectie](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
 
 In deze secties gebruikte termen:
 
