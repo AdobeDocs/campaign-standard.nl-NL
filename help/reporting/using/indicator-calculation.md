@@ -6,17 +6,16 @@ description: Begrijp de resultaten van uw rapporten met een lijst van elke metri
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Reporting
+feature: Rapportage
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
+source-git-commit: a9a91df349b107b06f229db33812a27addfb5c27
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '727'
 ht-degree: 2%
 
 ---
-
 
 # Indicatoren berekenen{#indicator-calculation}
 
@@ -191,7 +190,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   <tr> 
    <td> Unieke klikken<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. Voor meer op dit, verwijs naar dit <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
+   <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. Voor meer op dit, verwijs naar dit <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -271,7 +270,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   <tr> 
    <td> Uniek wordt geopend<br /> </td> 
    <td> @uniqueopened<br /> </td> 
-   <td> Unieke opent wordt berekend gebruikend de concepten van Schets van unieke RecipientIds. Voor meer op dit, verwijs naar dit <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
+   <td> Unieke opent wordt berekend gebruikend de concepten van Schets van unieke RecipientIds. Voor meer op dit, verwijs naar dit <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressies<br /> </td> 
@@ -291,7 +290,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   <tr> 
    <td> Unieke klikken<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. Voor meer op dit, verwijs naar dit <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
+   <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. Voor meer op dit, verwijs naar dit <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Klikken door frequentie<br /> </td> 
@@ -375,4 +374,3 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   </tr> 
  </tbody> 
 </table>
-
