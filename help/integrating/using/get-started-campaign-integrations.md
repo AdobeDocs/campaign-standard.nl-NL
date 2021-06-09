@@ -10,10 +10,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: bc2a4af29e7ed9e9e7b338b7aa7d8bb30628f0b6
+source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 77%
+source-wordcount: '714'
+ht-degree: 74%
 
 ---
 
@@ -29,7 +29,7 @@ Met de verschillende hieronder vermelde integraties kunt u de functies voor leve
 
 Afhankelijk van uw omgeving kunnen andere oplossingen ook aan Adobe Experience Cloud worden gekoppeld. Ze zijn gekoppeld als organisaties (ook wel tenants genoemd).
 
-Een organisatie is de entiteit waarmee een beheerder groepen en gebruikers kan configureren en eenmalig aanmelden in de Experience Cloud kan beheren. De organisatie functioneert als een aanmeldingsbedrijf dat alle producten en oplossingen van Experience Cloud omvat. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter vele organisaties hebben. Het gebruikers- en organisatiebeheer wordt gedetailleerd beschreven in de [Adobe Experience Cloud Help-portal](https://docs.adobe.com/content/help/nl-NL/core-services/interface/manage-users-and-products/organizations.html).
+Een organisatie is de entiteit waarmee een beheerder groepen en gebruikers kan configureren en eenmalig aanmelden in de Experience Cloud kan beheren. De organisatie functioneert als een aanmeldingsbedrijf dat alle producten en oplossingen van Experience Cloud omvat. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter vele organisaties hebben. Het gebruikers- en organisatiebeheer wordt gedetailleerd beschreven in de [Adobe Experience Cloud Help-portal](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html).
 
 Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, lees dan onze [API-documentatie](../../api/using/get-started-apis.md).
 
@@ -58,7 +58,7 @@ Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, le
    <td> Adobe Target<br /> </td> 
    <td> Hiermee kunt u afbeeldingen invoegen die door Adobe Target dynamisch worden berekend wanneer een e-mailbericht wordt geopend dat door Adobe Campaign is gemaakt en verzonden.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Werk met Campagne en Doel</a>,  <a href="https://docs.adobe.com/content/help/nl-NL/target/using/integrate/campaign-and-target.html">integreer Campagne en Doel</a>,  <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Personaliseer E-mailbeelden in Real-</a> Time video (stap 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Werk met Campagne en Doel</a>,  <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">integreer Campagne en Doel</a>,  <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Personaliseer E-mailbeelden in Real-</a> Time video (stap 3)
     </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, le
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Hiermee kunt u e-mailcontent uit Dreamweaver bewerken en met Adobe Campaign synchroniseren.<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">Maak persoonlijke e-mails met </a> DreamweaverWeavervideo,  <a href="https://helpx.adobe.com/nl/dreamweaver/using/working-with-dreamweaver-and-campaign.html">gebruik de extensie Campagne voor Dreamweaver</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Maak persoonlijke e-mails met </a> DreamweaverWeavervideo,  <a href="https://helpx.adobe.com/nl/dreamweaver/using/working-with-dreamweaver-and-campaign.html">gebruik de extensie Campagne voor Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 
