@@ -7,17 +7,16 @@ audience: production
 content-type: reference
 topic-tags: introduction
 index: y
-feature: Access Management
+feature: Toegangsbeheer
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 14%
+source-wordcount: '507'
+ht-degree: 20%
 
 ---
-
 
 # Bewakingsrichtlijnen {#monitoring-guidelines}
 
@@ -44,11 +43,11 @@ Technische workflows zijn bewerkingen of taken die regelmatig en volgens een pla
 
 **Configuratiescherm**
 
-In het Configuratiescherm kunt u verschillende instellingen van uw exemplaar beheren: URL-machtigingen, controleer de instantiedetails zoals de buildversies van uw servers, controleer het gebruik van actieve profielen, enz. Hiermee kunt u ook de beschikbare ruimte op de SFTP-servers controleren die met uw instantie zijn verbonden. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/control-panel-home.html).
+In het Configuratiescherm kunt u verschillende instellingen van uw exemplaar beheren: URL-machtigingen, controleer de instantiedetails zoals de buildversies van uw servers, controleer het gebruik van actieve profielen, enz. Hiermee kunt u ook de beschikbare ruimte op de SFTP-servers controleren die met uw instantie zijn verbonden. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl).
 
 >[!NOTE]
 >
->Het Configuratiescherm is toegankelijk voor alle beheergebruikers. De stappen om Admin toegang tot een gebruiker te verlenen zijn gedetailleerd in [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Het configuratiescherm is toegankelijk voor alle gebruikers met beheerdersrechten. De stappen om toegang met beheerdersrechten aan een gebruiker te verlenen worden gedetailleerd beschreven op [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
 
 **Technische objecten**
 
@@ -87,7 +86,7 @@ Met Campaign Standard kunt u meldingen verzenden naar supervisors om te controle
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
-**Bezorging**
+**Aflevering**
 
 Campaign Standard biedt verschillende gereedschappen voor het leveren van informatie waarmee u het aantal gelukte berichten kunt verbeteren: rapporten over de leveringstijd, tijdoptimalisatie verzenden, voorvertoning van berichten, rendering van e-mail, quarantainebeheer, enz.
 [Meer informatie](../../sending/using/about-deliverability.md)
