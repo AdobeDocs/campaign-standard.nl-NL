@@ -6,17 +6,16 @@ description: Maak gepersonaliseerde berichten op verschillende kanalen, gebruik 
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Overview
+feature: Overzicht
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
+source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 21%
+source-wordcount: '523'
+ht-degree: 20%
 
 ---
-
 
 # Aan de slag met communicatiekanalen {#discovering-communication-channels}
 
@@ -41,7 +40,7 @@ Het is niet onmogelijk om al uw afzetkanalen te harmoniseren. Met behulp van Ado
 
 Meer informatie:
 
-* [Belangrijkste stappen om een bericht te verzenden](../../channels/using/key-steps-to-send-a-message.md)
+* [Belangrijkste stappen voor verzending van een bericht](../../channels/using/key-steps-to-send-a-message.md)
 * [Berichten openen](../../channels/using/accessing-messages.md)
 * [Berichtdashboard](../../channels/using/message-dashboard.md)
 * [Sjablonen voor meertalige berichten](../../channels/using/multilingual-messages-template.md)
@@ -83,7 +82,7 @@ Meer informatie:
 * [Transactionele pushmeldingen](../../channels/using/transactional-push-notifications.md)
 * [Vervolgberichten](../../channels/using/follow-up-messages.md)
 
-## Landingspagina&#39;s {#landing-pages}
+## Landingspagina’s {#landing-pages}
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
@@ -95,15 +94,15 @@ Meer informatie:
 
 * [Aan de slag met landingspagina&#39;s](../../channels/using/getting-started-with-landing-pages.md)
 * [Sjablonen voor landingspagina&#39;s](../../channels/using/landing-page-templates.md)
-* [Formulierdata voor landingspagina&#39;s beheren](../../channels/using/managing-landing-page-form-data.md)
+* [Formulierdata voor landingspagina beheren](../../channels/using/managing-landing-page-form-data.md)
 * [Een dubbele opt-inprocedure instellen](../../channels/using/setting-up-a-double-opt-in-process.md)
 
 ## Aanvullende bronnen
 
 * [Uw prestaties optimaliseren](../../sending/using/about-deliverability.md)
-* [Best practices voor levering](../../sending/using/delivery-best-practices.md)
+* [Best practices voor verzending](../../sending/using/delivery-best-practices.md)
 * [E-mailinhoud ontwerpen](../../designing/using/designing-content-in-adobe-campaign.md)
 * [Een AEM-inhoud importeren](../../integrating/using/creating-email-experience-manager.md)
 * [Berichten verzenden met workflows](../../automating/using/about-channel-activities.md)
-* [Zelfstudievideo&#39;s over communicatiekanalen](https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [Zelfstudievideo&#39;s over communicatiekanalen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=nl)
 * [Hoofdlettergebruik: Een levering tussen kanalen maken](../../automating/using/workflow-cross-channel-delivery.md)
