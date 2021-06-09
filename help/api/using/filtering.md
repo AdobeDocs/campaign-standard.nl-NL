@@ -9,14 +9,13 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
+source-git-commit: f946a7565c30a3e53b2bd6876e880100fa8a0be2
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '433'
 ht-degree: 1%
 
 ---
-
 
 # Filteren {#filtering}
 
@@ -206,7 +205,7 @@ Als u een aangepast filter wilt gebruiken, moet u het maken en aanpassen in de A
 Raadpleeg de documentatie bij Campaign Standard voor meer informatie hierover:
 
 * [De filterdefinitie configureren](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Hoofdlettergebruik: Een bron aanroepen met een samengestelde identificatiesleutel](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
+* [Hoofdlettergebruik: Een bron aanroepen met een samengestelde identificatiesleutel](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
