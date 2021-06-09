@@ -9,14 +9,13 @@ topic-tags: working-with-campaign-and-analytics
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ada1a5d1-879b-49cd-b4ef-43d7a40bafdb
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 6%
+source-wordcount: '207'
+ht-degree: 7%
 
 ---
-
 
 # Informatie over de integratie van Campaign en Analytics{#about-campaign-analytics-integration}
 
@@ -35,6 +34,6 @@ Er is ook een integratie tussen de kernservice **Triggers** en Adobe Campaign. H
 
 **Verwante onderwerpen:**
 
-* [Overzicht van de integratie van Campaign Standard naar Analytics](https://docs.adobe.com/content/help/en/analytics/integration/adobe-campaign.html)
-* [De Campaign Standard-integratie configureren](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Overzicht van de integratie van Campaign Standard naar Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
+* [De Campaign Standard-integratie configureren](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Dimensies en metrische data van Campaign in Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
