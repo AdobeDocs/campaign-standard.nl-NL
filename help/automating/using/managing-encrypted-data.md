@@ -9,14 +9,13 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
+source-git-commit: 05e7de6d59420f532e0095ddb1fd7f158519518b
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 5%
+source-wordcount: '925'
+ht-degree: 4%
 
 ---
-
 
 # Versleutelde data beheren {#managing-encrypted-data}
 
@@ -24,7 +23,7 @@ ht-degree: 5%
 
 In sommige gevallen moeten de gegevens die u wilt importeren, mogelijk worden gecodeerd, bijvoorbeeld als deze PII-gegevens bevatten.
 
-Om uitgaande gegevens te kunnen coderen of inkomende gegevens te decoderen, moet u GPG sleutels beheren gebruikend [Controlebord](https://docs.adobe.com/content/help/nl-NL/control-panel/using/instances-settings/gpg-keys-management.html).
+Om uitgaande gegevens te kunnen coderen of inkomende gegevens te decoderen, moet u GPG sleutels beheren gebruikend [Controlebord](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html).
 
 >[!NOTE]
 >
@@ -42,7 +41,7 @@ Zodra het verzoek wordt verwerkt, zullen de encryptie/decryptiebevelen op **[!UI
 **Verwante onderwerpen:**
 
 * [Bestand laden](../../automating/using/load-file.md)
-* [Bestand extraheren](../../automating/using/extract-file.md)
+* [De activiteit Bestand extraheren](../../automating/using/extract-file.md)
 
 ## Hoofdlettergebruik: Gegevens importeren die zijn versleuteld met een toets die is gegenereerd door Configuratiescherm {#use-case-gpg-decrypt}
 
@@ -52,7 +51,7 @@ In dit geval, zullen wij een werkschema bouwen om gegevens in te voeren die in e
 
 De volgende stappen worden uitgevoerd:
 
-1. Gebruik het Configuratiescherm om een sleutelpaar (openbaar/privé) te genereren. Gedetailleerde stappen zijn beschikbaar in [documentatie van het Configuratiescherm](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
+1. Gebruik het Configuratiescherm om een sleutelpaar (openbaar/privé) te genereren. Gedetailleerde stappen zijn beschikbaar in [documentatie van het Configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
    * De openbare sleutel zal met het externe systeem worden gedeeld, dat het zal gebruiken om de gegevens te coderen om naar Campagne te verzenden.
    * De persoonlijke sleutel wordt door Campagne gebruikt om de inkomende gecodeerde gegevens te decoderen.
@@ -96,7 +95,7 @@ In dit geval, zullen wij een werkschema bouwen om gegevens te coderen en uit te 
 
 De volgende stappen worden uitgevoerd:
 
-1. Genereer een sleutelpaar van GPG (openbaar/privé) gebruikend een nut van GPG, dan installeer de openbare sleutel op Controlebord. Gedetailleerde stappen zijn beschikbaar in [documentatie van het Configuratiescherm](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
+1. Genereer een sleutelpaar van GPG (openbaar/privé) gebruikend een nut van GPG, dan installeer de openbare sleutel op Controlebord. Gedetailleerde stappen zijn beschikbaar in [documentatie van het Configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
    ![](assets/gpg_install.png)
 
