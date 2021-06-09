@@ -9,14 +9,13 @@ topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 61683639-3f71-4652-a138-acfc0e91e868
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 11%
+source-wordcount: '182'
+ht-degree: 12%
 
 ---
-
 
 # Een Campaign-formulier maken in Experience Manager {#creating-a-campaign-form-in-experience-manager}
 
@@ -41,4 +40,4 @@ Een Adobe Campaign-formulier maken op uw AEM-site:
 1. Bewerk de inhoud van het formulier door verschillende velden en componenten toe te voegen die u kunt toewijzen aan de Adobe Campaign-databasevelden.
 1. Test en publiceer het formulier om het toegankelijk te maken op uw AEM.
 
-Raadpleeg de [gedetailleerde documentatie](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html) voor meer informatie.
+Raadpleeg de [gedetailleerde documentatie](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html) voor meer informatie.
