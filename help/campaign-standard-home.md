@@ -8,9 +8,9 @@ feature: Overzicht
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
+source-git-commit: 92860772ba1ef7ff1503831f05c69d540851258f
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -78,7 +78,7 @@ De activiteit Externe API gebruiken om gegevens van een extern systeem over te b
 | Nuttige pagina’s | Resources voor ontwikkelaars |
 |---|---|
 | [Release-opmerkingen](rn/using/release-notes.md) | [Experience Cloud-triggers](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [Configuratiescherm-documentatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/control-panel-home.html) | [Campaign-API&#39;s](api/using/get-started-apis.md) |
+| [Configuratiescherm-documentatie](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) | [Campaign-API&#39;s](api/using/get-started-apis.md) |
 | [Implementatiehandleiding](https://helpx.adobe.com/nl/campaign/kb/campaign-standard-implementation-guide.html) | [Lijst met foutberichten](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [Releaseplanning](rn/using/release-planning.md) | [Campaign-datamodel](developing/using/datamodel-introduction.md) |
 | [Verouderde en verwijderde functies](rn/using/deprecated-features.md) | [Handleiding voor meerdere oplossingen](integrating/using/get-started-campaign-integrations.md) |
