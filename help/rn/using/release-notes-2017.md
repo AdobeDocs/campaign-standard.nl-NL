@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Opmerkingen bij de releases in 2017
+title: Opmerkingen bij de release 2017
 description: Deze pagina bevat een overzicht van alle releases van Adobe Campaign Standard in 2017.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: Overzicht
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
+exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
+source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
 workflow-type: tm+mt
-source-wordcount: '4631'
+source-wordcount: '4624'
 ht-degree: 8%
 
 ---
 
-
-# Opmerkingen bij de releases in 2017{#release-notes}
+# Opmerkingen bij de release 2017{#release-notes}
 
 Op zoek naar een specifieke release van Adobe Campaign Standard in 2017?
 
@@ -330,7 +329,7 @@ _Pushmeldingen_
   </tr> 
   <tr> 
    <td> Dreamweaver-integratie live<br /> </td> 
-   <td> De integratie tussen Adobe Campaign en Dreamweaver is nu live. Het werkt nu met de officiële laatst vrijgegeven versie van Dreamweaver (17.0.2).<br /> Hiervoor is de installatie van de Adobe Campaign Integration-extensie vanaf hier vereist:  <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_</a><br /> addonRaadpleeg deze  <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a> voor meer informatie.<br /> </td> 
+   <td> De integratie tussen Adobe Campaign en Dreamweaver is nu live. Het werkt nu met de officiële laatst vrijgegeven versie van Dreamweaver (17.0.2).<br /> Hiervoor is de installatie van de Adobe Campaign Integration-extensie vanaf hier vereist:  <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_</a><br /> addonRaadpleeg deze  <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a> voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -403,7 +402,7 @@ _Pushmeldingen_
   </tr> 
   <tr> 
    <td> Dreamweaver-integratie (Labs)<br /> </td> 
-   <td> Dankzij de integratie met Adobe Campaign en Dreamweaver hebt u nu een geïntegreerd proces voor het maken van e-mailcampagnes met Adobe-oplossingen.<br /> U kunt Adobe Campaign-e-mailberichten bewerken in Dreamweaver en de inhoud naadloos laten synchroniseren tussen beide oplossingen.<br /> Voor de eerste release is de integratie beschikbaar als een 'Labs'-functie en werkt deze alleen met Dreamweaver Pre Release Beta. Neem contact op met AC-DW-integration@adobe.com als u dit wilt activeren.<br /> Raadpleeg deze  <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a> voor meer informatie.<br /> </td> 
+   <td> Dankzij de integratie met Adobe Campaign en Dreamweaver hebt u nu een geïntegreerd proces voor het maken van e-mailcampagnes met Adobe-oplossingen.<br /> U kunt Adobe Campaign-e-mailberichten bewerken in Dreamweaver en de inhoud naadloos laten synchroniseren tussen beide oplossingen.<br /> Voor de eerste release is de integratie beschikbaar als een 'Labs'-functie en werkt deze alleen met Dreamweaver Pre Release Beta. Neem contact op met AC-DW-integration@adobe.com als u dit wilt activeren.<br /> Raadpleeg deze  <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Handmatig tijd optimaliseren<br /> </td> 
@@ -543,4 +542,3 @@ _Integraties_
 * Probleem verholpen dat een fout kan veroorzaken bij het implementeren van een gebeurtenistrigger in Adobe Campaign. Deze fout trad op wanneer de metagegevens &quot;Waarschijnlijkheid om in 30 dagen terug te keren&quot; waren toegevoegd aan de trigger voor afschrijving in Adobe Marketing Cloud.
 * Probleem verholpen waardoor het veld Doel Dimension tijdens het importeren van soorten publiek uit de kernservice van Personen mogelijk werd gewist door de technische workflow. De volgende vragen konden niet het ingevoerde publiek terugwinnen.
 * Probleem verholpen waarbij de **[!UICONTROL Save audience]**-activiteit van een workflow mogelijk is mislukt wanneer de optie **[!UICONTROL Share in Adobe Marketing Cloud]** is ingeschakeld.
-
