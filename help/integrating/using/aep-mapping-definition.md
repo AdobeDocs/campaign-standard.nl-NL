@@ -6,17 +6,16 @@ description: Leer hoe u een Campaign Standard-veld toewijst met een XDM-veld (Ex
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM Integration
+feature: Microsoft CRM-integratie
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 2%
+source-wordcount: '498'
+ht-degree: 0%
 
 ---
-
 
 # Toewijzingsdefinitie {#mapping-definition}
 
@@ -44,7 +43,7 @@ Om deze taak uit te voeren, zijn de eerste vereisten:
 
 >[!NOTE]
 >
->Als een partij in het Profiel van de Klant in real time of de Dienst van de Identiteit moet worden opgenomen, moet de dataset [toegelaten voor het Profiel van de Klant in real time](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/intro/get-started.html) zijn.
+>Als een partij in het Profiel van de Klant in real time of de Dienst van de Identiteit moet worden opgenomen, moet de dataset [toegelaten voor het Profiel van de Klant in real time](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html) zijn.
 >
 >Als de gegevensset die u selecteert al wordt gebruikt in een bestaande gegevenstoewijzing, wordt een waarschuwing weergegeven dat uw gegevens mogelijk worden overschreven op Adobe Experience Platform. Dit kan gebeuren wanneer er sommige gemeenschappelijke ontvangers in datamappings gebruikend een zelfde dataset zijn.
 
@@ -64,7 +63,7 @@ De uitgebreide bronnen die zijn gedefinieerd in Campaign Standard, worden toegew
 
 U kunt de XDM-extensie aanpassen via de API en uw eigen extensie definiëren, zodat u een betere controle hebt over de toewijzing.
 
-Zie [Zelfstudie voor schema-registratie-API](https://docs.adobe.com/content/help/nl-NL/experience-platform/xdm/api/getting-started.html) voor meer informatie over XDM API.
+Zie [Zelfstudie voor schema-registratie-API](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) voor meer informatie over XDM API.
 
 Als u een opsommingsveld wilt toewijzen, moet u de expressie-editor gebruiken om elke opsommingswaarde te definiëren die overeenkomt met de XDM-waarde. Het postadressfield moet bijvoorbeeld als volgt worden gedefinieerd:
 
