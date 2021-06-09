@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Opmerkingen bij de releases in 2018
+title: Opmerkingen bij de release 2018
 description: Deze pagina bevat een overzicht van alle releases van Adobe Campaign Standard in 2018.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: Overzicht
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
+source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
 workflow-type: tm+mt
-source-wordcount: '5406'
+source-wordcount: '5401'
 ht-degree: 6%
 
 ---
 
-
-# Opmerkingen bij de releases in 2018{#release-notes}
+# Opmerkingen bij de release 2018{#release-notes}
 
 Op zoek naar een specifieke release van Adobe Campaign Standard in 2018?
 
@@ -128,7 +127,7 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
 
 **Verbeteringen**
 
-* Dankzij de integratie tussen Adobe Campaign en Adobe Target kunt u nu de functie [Machtigingen](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) van Target gebruiken. Wanneer u een dynamische afbeelding van Adobe Target in een e-mail opneemt, kunt u nu een eigenschap Doel opgeven (at_property-code).
+* Dankzij de integratie tussen Adobe Campaign en Adobe Target kunt u nu de functie [Machtigingen](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html) van Target gebruiken. Wanneer u een dynamische afbeelding van Adobe Target in een e-mail opneemt, kunt u nu een eigenschap Doel opgeven (at_property-code).
 * Aangepaste bronnen met een eigen koppeling naar de profielbron worden nu in aanmerking genomen door verzoeken om toegang tot of verwijdering van GDPR-privacy. Voor 1 kardinaliteit eenvoudige verbindingen en de verbindingen van de kardinaliteitsinzameling van N, moet u &quot;het Schrappen/het Dupliceren van het doelverslag impliceren schrappend/het dupliceren van de verslagen van verwijzingen voorzien door de verbinding&quot;in het douanemiddel selecteren. Voor eenvoudige 0- of 1-cardinaliteit-koppelingen selecteert u &quot;Verwijderen/dupliceren van de record houdt in dat de doelrecord waarnaar door de koppeling wordt verwezen, wordt verwijderd/gedupliceerd&quot;.
 
 **Overige wijzigingen**
@@ -280,7 +279,7 @@ _Workflows_
 
 * Verbeterd geheugenbeheer en geoptimaliseerde prestaties in workflows.
 
-_Rapporten_
+_Rapportage_
 
 * De workflow voor het delen van een PKI haalt nu leveringswaarden op voor de laatste twee maanden in plaats van de laatste zes maanden. Probleem verholpen waarbij voor KPI-delen externe account afgebroken datums werden weergegeven.
 * Probleem verholpen waarbij bepaalde berichten niet in aanmerking werden genomen in **Verzonden**, **Geleverd** en **Bounce** metriek.
@@ -526,4 +525,3 @@ _Profielen en doelgroepen_
 * Knopinfo toegevoegd met het exacte resultaatnummer na het tellen van de populatie van een query.
 * Probleem verholpen waardoor een gebruiker geen publiek kon selecteren of het venster van de publiekskiezer kon sluiten.
 * De lijst met beschikbare functies in de expressieeditor is bijgewerkt. De functies **FormatCurrency** en **ConvertCurrency** zijn verwijderd.
-
