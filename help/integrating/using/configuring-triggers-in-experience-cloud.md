@@ -9,14 +9,13 @@ topic-tags: working-with-campaign-and-triggers
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 8%
+source-wordcount: '859'
+ht-degree: 7%
 
 ---
-
 
 # Triggers configureren in Experience Cloud{#configuring-triggers-in-experience-cloud}
 
@@ -98,7 +97,7 @@ Er moet een Adobe Experience Cloud-trigger worden gemaakt, zodat u deze kunt geb
 
 Maak een nieuwe trigger in Experience Cloud en selecteer de rapportsuite die op uw website wordt gebruikt. Zorg ervoor dat u de juiste afmeting kiest, zodat de trigger wordt geactiveerd.
 
-Raadpleeg de [Adobe Experience Cloud-documentatie](https://docs.adobe.com/content/help/nl-NL/core-services/interface/activation/triggers.html) en bekijk deze [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+Raadpleeg de [Adobe Experience Cloud-documentatie](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) en bekijk deze [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 
 ## Triggert best practices en beperkingen {#triggers-best-practices-and-limitations}
 
@@ -115,4 +114,3 @@ Hier volgt een lijst met beste praktijken en beperkingen voor het gebruik van de
 >[!CAUTION]
 >
 >Uw website moet in hetzelfde domein worden uitgevoerd als de Adobe Campaign-server. Als dat niet het geval is, kunt u de bezoeker-id niet gebruiken om gebruikers die anoniem de website bezoeken, te verzoenen en te bereiken.
-
