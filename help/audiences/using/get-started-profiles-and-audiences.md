@@ -6,15 +6,14 @@ description: Definieer doelgroepen, selecteer doelgroepen, filterontvangers, ver
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
-feature: Profiles
+feature: Profielen
 role: Business Practitioner
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
-translation-type: tm+mt
-source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
+source-git-commit: bc55ccea9691d904bbc1b64d93d0a7b8486940e5
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 18%
+source-wordcount: '605'
+ht-degree: 20%
 
 ---
 
@@ -88,8 +87,8 @@ De privacy en de Toestemming in Campagne en hoe te om hen te beheren worden voor
 
 ## Aanvullende bronnen
 
-* [Adobe Experience Platform-publiek verfraaien in campagne](../../integrating/using/ingest-aep-data.md)
+* [Adobe Experience Platform-doelgroepen opnemen in Campaign](../../integrating/using/ingest-aep-data.md)
 * [Werken met Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Adobe Gedeeld publiek](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Workflows gebruiken om profielen te importeren](../../automating/using/creating-import-workflow-templates.md)
-* [Video&#39;s over profielen en soorten publiek](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [Video&#39;s over profielen en soorten publiek](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
