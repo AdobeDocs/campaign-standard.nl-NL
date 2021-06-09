@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
-feature: Instance Settings
+feature: Instantie-instellingen
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '1778'
-ht-degree: 83%
+source-wordcount: '1774'
+ht-degree: 84%
 
 ---
-
 
 # Externe accounts{#external-accounts}
 
@@ -87,11 +86,11 @@ Om dergelijke problemen te voorkomen, wordt u aangeraden de onderstaande best pr
 
 Ook, merk op dat openbare IPs waarvan u probeert om de verbinding in werking te stellen SFTP aan de lijst van gewenste personen op de instantie van de Campagne moet worden toegevoegd. Het toevoegen van IP adressen aan de lijst van gewenste personen kan via een [steunkaartje ](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html), samen met het verstrekken van de openbare sleutel aan gebruik voor authentificatie worden gevraagd.
 
-SFTP-servers kunnen worden beheerd via het Configuratiescherm. Zie de [Configuratiescherm-documentatie](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html) voor meer informatie.
+SFTP-servers kunnen worden beheerd via het Configuratiescherm. Zie de [Configuratiescherm-documentatie](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html) voor meer informatie.
 
 >[!NOTE]
 >
->Het Configuratiescherm is toegankelijk voor alle beheergebruikers. De stappen om Admin toegang tot een gebruiker te verlenen zijn gedetailleerd in [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>Het configuratiescherm is toegankelijk voor alle gebruikers met beheerdersrechten. De stappen om toegang met beheerdersrechten aan een gebruiker te verlenen worden gedetailleerd beschreven op [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
 
 ## OAuth 2.0-account {#oauth-account}
 
