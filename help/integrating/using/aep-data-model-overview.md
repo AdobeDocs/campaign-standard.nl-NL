@@ -6,17 +6,16 @@ description: Het Model van Gegevens van de ervaring (XDM) is een standaardreeks 
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM Integration
+feature: Microsoft CRM-integratie
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 7%
+source-wordcount: '248'
+ht-degree: 0%
 
 ---
-
 
 # Overzicht van het gegevensmodel van de ervaring {#experience-data-model-overview}
 
@@ -34,7 +33,7 @@ XDM Workspace biedt de mogelijkheid om gegevensschema&#39;s weer te geven, te ma
 
 Open Adobe Experience Platform om de XDM-gebruikersinterface te openen. Navigeer naar het venster Gegevensmodel om een XDM-schema te maken of uit te breiden.
 
-Raadpleeg de volledige [XDM Workspace documentatie](https://docs.adobe.com/content/help/nl-NL/experience-platform/xdm/api/getting-started.html).
+Raadpleeg de volledige [XDM Workspace documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -49,4 +48,4 @@ U kunt de volgende handelingen uitvoeren via de XDM Schema-API:
 * Schema-beschrijvingen weergeven
 * Schema-descriptors maken, bijwerken en verwijderen
 
-Alle details om API vraag te manipuleren zijn beschikbaar in [de Gids van de Ontwikkelaar](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html).
+Alle details om API vraag te manipuleren zijn beschikbaar in [de Gids van de Ontwikkelaar](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
