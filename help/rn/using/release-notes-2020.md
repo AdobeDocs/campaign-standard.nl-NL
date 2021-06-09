@@ -6,25 +6,24 @@ description: Deze pagina bevat een overzicht van alle releases van Adobe Campaig
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: Overzicht
 role: Business Practitioner
 level: Beginner
-translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: ht
-source-wordcount: '5327'
-ht-degree: 100%
+exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
+source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+workflow-type: tm+mt
+source-wordcount: '5298'
+ht-degree: 98%
 
 ---
 
-
 # Opmerkingen bij de releases in 2020{#release-notes-2020}
 
-[Releaseplanning](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/release-planning.html) | [Releases van het Configuratiescherm](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html) | [Updates van documentatie](../../rn/using/documentation-updates.md) | [Opmerkingen bij eerdere releases](../../rn/using/release-notes-2019.md) | [Verouderde functies](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=nl#release-notes)
+[Releaseplanning](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/release-planning.html) | [Releases van het Configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl) | [Updates van documentatie](../../rn/using/documentation-updates.md) | [Opmerkingen bij eerdere releases](../../rn/using/release-notes-2019.md) | [Verouderde functies](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=nl#release-notes)
 
-![](assets/do-not-localize/cp-icon.png) **Release van nieuw configuratiescherm in juni** met controle van actieve profielen, controle van de leverbaarheid van subdomeinen en beheer van GPG-sleutels. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Release van nieuw configuratiescherm in juni** met controle van actieve profielen, controle van de leverbaarheid van subdomeinen en beheer van GPG-sleutels. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
-![](assets/do-not-localize/cp-icon.png) **Release van nieuw Configuratiescherm in oktober** met domeinconfiguratie met CNAME-records en nieuwe mogelijkheden voor databasecontrole. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Release van nieuw Configuratiescherm in oktober** met domeinconfiguratie met CNAME-records en nieuwe mogelijkheden voor databasecontrole. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 ## Release 20.4 - oktober 2020 {#release-20-4---october-2020}
 
@@ -40,7 +39,7 @@ ht-degree: 100%
 <tr> 
   <td> <p>U kunt nu <strong>Controlegroepen</strong> gebruiken om de invloed van uw campagnes te meten door een deel van hun doelgroep uit te sluiten. Vervolgens kunt u de gedragingen van de doelgroep die het bericht heeft ontvangen, vergelijken met de gedragingen van contactpersonen die niet zijn getarget. Op basis van de verzendlogboeken kunt u in toekomstige campagnes ook een controlegroep targeten.
 </p>
-<p>Raadpleeg de <a href="../../sending/using/control-group.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=nl#communication-channels">instructievideo</a> voor meer informatie.
+<p>Raadpleeg de <a href="../../sending/using/control-group.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">instructievideo</a> voor meer informatie.
 </p>
 </td> 
 </tr> 
@@ -76,8 +75,8 @@ ht-degree: 100%
   <p>Journey AI maakt gebruik van geavanceerde Machine Learning (ML) waarmee bedrijven het ontwerp en de levering van klantjourneys kunnen optimaliseren door de betrokkenheidsvoorkeur van elk individu te voorspellen.</p>
   <P>Journey AI bestaat uit twee ML-kenmerken:</p>
 <ul> 
-     <li> <strong>Voorspellende betrokkenheidsscores</strong> - Intelligente identificatie van het geprefereerde betrokkenheidsniveau van klanten om berichten beter te kunnen targeten en personaliseren voor meer conversies en retentie. Bekijk de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">instructievideo</a>.</li> 
-     <li> <strong>Voorspellende optimalisatie van verzendtijd</strong> - Voorspelt voor elk individu het beste tijdstip om in een campagne e-mails te verzenden voor maximale betrokkenheid en een beter rendement van de e-mailcampagne. Bekijk de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">instructievideo</a>.</li>
+     <li> <strong>Voorspellende betrokkenheidsscores</strong> - Intelligente identificatie van het geprefereerde betrokkenheidsniveau van klanten om berichten beter te kunnen targeten en personaliseren voor meer conversies en retentie. Bekijk de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">instructievideo</a>.</li> 
+     <li> <strong>Voorspellende optimalisatie van verzendtijd</strong> - Voorspelt voor elk individu het beste tijdstip om in een campagne e-mails te verzenden voor maximale betrokkenheid en een beter rendement van de e-mailcampagne. Bekijk de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">instructievideo</a>.</li>
     </ul>
   <p>Als u wilt weten hoe u aan de slag kunt met Journey AI, raadpleegt u de <a href="../../sending/using/predictive.md">gedetailleerde documentatie</a> en neemt u contact op met uw accountmanager. Hoewel Journey AI gratis beschikbaar is voor bestaande Campaign-klanten, zijn er implementatiekosten van ongeveer 50 uur.</p>
     </td> 
@@ -210,7 +209,7 @@ ht-degree: 100%
 <li>Recht op toegang en recht op verwijdering: we maken gebruik van de functies die voor de AVG (GDPR) en CCPA zijn toegevoegd. <a href="https://helpx.adobe.com/content/help/nl/campaign/kb/acs-privacy.html#righttoaccess">Meer informatie</a> </li>
 <li><p>Als u een verzoek om toegang tot persoonsgegevens wilt maken, is het PDPA-wetgevingstype toegevoegd in de Privacy-kernservice. Dit is de enige methode die u moet gebruiken voor alle verzoeken voor toegang en verwijderen. Het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken is verouderd. Zie het artikel <a href="../../rn/using/deprecated-features.md">Vervangen en verwijderde functies</a>.</p></li>
 </ul>
-<p>Bekijk ook de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/privacy/privacy-overview.html">Hoe kan ik-video</a>.</p>
+<p>Bekijk ook de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">Hoe kan ik-video</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -231,7 +230,7 @@ ht-degree: 100%
 <li>Een array-object van een JSON selecteren zonder de objectdata te benoemen, en zonder dat deze data op het hoogste niveau moeten staan.</li>
 </ul>
 <p><strong>Let op:</strong> Klanten moeten <strong>alle External API-activiteiten van de bètaversie in hun workflows vervangen door</strong> External API-activiteiten van de GA-versie. Workflows die de bètaversie van de External API gebruiken, werken niet meer in 20.3.</p>
-<p>Raadpleeg voor meer informatie de <a href="../../automating/using/external-api.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">Hoe kan ik-video</a>.</p>
+<p>Raadpleeg voor meer informatie de <a href="../../automating/using/external-api.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">Hoe kan ik-video</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -294,7 +293,7 @@ ht-degree: 100%
 * Probleem verholpen waardoor gebruikers geen wijzigingen konden aanbrengen in rapporten. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Nieuw configuratiescherm in de release van mei** met certificaatverlenging voor CNAME-subdomeinen. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nieuw configuratiescherm in de release van mei** met certificaatverlenging voor CNAME-subdomeinen. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 
 ## Release 20.2 - april 2020 {#release-20-2---april-2020}
 
@@ -324,7 +323,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Naast testprofielen kunt u nu uw e-mails testen op echte doelprofielen. Zo krijgt u een exacte weergave van het bericht dat het profiel ontvangt: aangepaste velden, dynamische en gepersonaliseerde informatie, inclusief aanvullende data van workflows, enz. </p>
-    <p>Raadpleeg de <a href="../../sending/using/testing-messages-using-target.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">videotutorial</a>voor meer informatie. </p>
+    <p>Raadpleeg de <a href="../../sending/using/testing-messages-using-target.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">videotutorial</a>voor meer informatie. </p>
    </td> 
   </tr> 
  </tbody> 
@@ -332,7 +331,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Nieuwe mogelijkheden worden in april beschikbaar gesteld in het Configuratiescherm van Campaign, waaronder Google TXT-recordbeheer, bewaking van de databaseruimte en e-mailwaarschuwingen. Raadpleeg de [Opmerking bij de release van het Configuratiescherm](https://docs.adobe.com/content/help/nl-NL/control-panel/using/release-notes.html) voor meer informatie over deze functies.
+>Nieuwe mogelijkheden worden in april beschikbaar gesteld in het Configuratiescherm van Campaign, waaronder Google TXT-recordbeheer, bewaking van de databaseruimte en e-mailwaarschuwingen. Raadpleeg de [Opmerking bij de release van het Configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html) voor meer informatie over deze functies.
 
 **Verbeteringen**
 
@@ -411,7 +410,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>De Adobe Experience Platform-gegevensconnector is nu geïntegreerd met Adobe Campaign Standard. U kunt uw Campaign-data ter beschikking stellen op het Adobe Experience Platform door de XTK-data (data die in Campaign worden opgenomen) toe te wijzen aan het Adobe Experience Platform-datamodel (XDM). </p>
-    <p>Deze mogelijkheid is alleen beschikbaar voor klanten die in Azure worden gehost. Raadpleeg de <a href="../../integrating/using/aep-about-data-connector.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">video met instructies</a> voor meer informatie over deze mogelijkheid en de voorwaarden om deze te activeren.</p>
+    <p>Deze mogelijkheid is alleen beschikbaar voor klanten die in Azure worden gehost. Raadpleeg de <a href="../../integrating/using/aep-about-data-connector.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">video met instructies</a> voor meer informatie over deze mogelijkheid en de voorwaarden om deze te activeren.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -426,7 +425,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Met Audience Destinations kunt u segmenten van het Adobe Experience Platform delen met Adobe Campaign.</p>
-    <p>Deze mogelijkheid is alleen beschikbaar voor klanten die in Azure worden gehost. Raadpleeg de <a href="../../integrating/using/aep-about-audience-destinations-service.md">gedetailleerde documentatie</a> en de <a href="https://docs.adobe.com/content/help/nl-NL/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">video met instructies</a> voor meer informatie over deze mogelijkheid en de voorwaarden om deze te activeren. </p>
+    <p>Deze mogelijkheid is alleen beschikbaar voor klanten die in Azure worden gehost. Raadpleeg de <a href="../../integrating/using/aep-about-audience-destinations-service.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">video met instructies</a> voor meer informatie over deze mogelijkheid en de voorwaarden om deze te activeren. </p>
    </td> 
   </tr> 
  </tbody> 
