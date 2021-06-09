@@ -6,17 +6,16 @@ description: 'Leer hoe te om de de dienstintegratie van de Audience Manager/van 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: People Core Service Integration
+feature: Integratie van de People Core-service
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '721'
 ht-degree: 9%
 
 ---
-
 
 # De integratie met Audience Manager of de People-kernservice inrichten en configureren{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
@@ -131,6 +130,6 @@ Hier, moet u ervoor zorgen de het Volgen van de Campagne Server op het domein (C
 
 ### Stap 4: De Bezoeker-id-service {#step-4--configure-the-visitor-id-service} configureren
 
-Als uw bezoeker-id-service nooit is geconfigureerd op uw wegeigenschappen of websites, raadpleegt u het volgende [document](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-aam-analytics.html) om te leren hoe u uw service of de volgende [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) kunt configureren.
+Als uw bezoeker-id-service nooit is geconfigureerd op uw wegeigenschappen of websites, raadpleegt u het volgende [document](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) om te leren hoe u uw service of de volgende [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) kunt configureren.
 
 Uw configuratie en levering worden voltooid, kan de integratie nu worden gebruikt om publiek of segmenten in te voeren en uit te voeren.
