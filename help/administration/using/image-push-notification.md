@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
+feature: Instantie-instellingen
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '428'
 ht-degree: 20%
 
 ---
-
 
 # Afbeeldingen en video’s toevoegen in iOS {#image-push}
 
@@ -58,7 +57,7 @@ Nadat u uw pushmelding in Adobe Campaign hebt aangepast, moet u uw mobiele toepa
 
 >[!NOTE]
 >
->Als uw toepassing in doelstelling-C is, verwijs naar het volgende [documentatie](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
+>Als uw toepassing in doelstelling-C is, verwijs naar het volgende [documentatie](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
 
 Als uw toepassing zich in [!DNL Swift] bevindt, voert u de onderstaande stappen uit:
 
@@ -160,4 +159,3 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 U kunt nu testen hoe u uw toepassing bouwt en hoe u de levering hebt gemaakt die u in stap 2 hierboven hebt gemaakt. Raadpleeg deze [pagina](../../channels/using/preparing-and-sending-a-push-notification.md) voor meer informatie over het voorbereiden en verzenden van uw pushmelding.
 
 ![](assets/push_notif_advanced_34.png)
-
