@@ -7,17 +7,16 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Leer hoe u het verzendproces upstream kunt beveiligen en optimaliseren.
-feature: Deliverability
+feature: Afleverbaarheid
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
+source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '747'
 ht-degree: 6%
 
 ---
-
 
 # Levering optimaliseren {#optimize-delivery}
 
@@ -37,7 +36,7 @@ Verschillende factoren kunnen de serverprestaties rechtstreeks beïnvloeden en h
 
 * De [workflowuitvoering](../../automating/using/about-workflow-execution.md): het controleren van uw workflows is essentieel om problemen met de prestaties van het platform te voorkomen. Volg de richtlijnen [op deze pagina](../../automating/using/monitoring-workflow-execution.md). Meer informatie vindt u in de sectie [best practices voor workflows](../../automating/using/best-practices-workflows.md).
 
-* U kunt [Mogelijkheden van het Configuratiescherm van de Campagne gebruiken](https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/key-features.html) om uw platform te controleren, gebruikend [prestaties controle](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/about-performance-monitoring.html) functionaliteiten.
+* U kunt [Mogelijkheden van het Configuratiescherm van de Campagne gebruiken](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) om uw platform te controleren, gebruikend [prestaties controle](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html) functionaliteiten.
 
 ## Netwerkconfiguratie {#network-config} controleren
 
@@ -45,7 +44,7 @@ Om levering te optimaliseren wanneer het behandelen van e-mails in grote volumes
 
 **Tip**: Gebruik een transparant verzendadres dat overeenkomt met de website van uw merk. Het bedrijf TravelAgency beheert bijvoorbeeld de hotelketen Valentino. Zijn bezit het domein valentino.com voor zijn website. Om het hotel Valentino in Parijs te promoten, gebruikt het subdomein paris.valentino.com. Daarom kan een relevant afzenderadres hotel@paris.valentino.com zijn.
 
-## Leverbaarheidsbeheer {#deliverability-management}
+## Afleverbaarheidsbeheer {#deliverability-management}
 
 Om uw ontvangers&#39; te bereiken inbox zonder te stuiteren of als spam worden gemerkt, moet u het leverbaarheidstarief van uw berichten verbeteren.
 
