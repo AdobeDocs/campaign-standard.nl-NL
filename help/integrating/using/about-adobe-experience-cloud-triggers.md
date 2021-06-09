@@ -10,14 +10,13 @@ context-tags: trigger,overview;trigger,main
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 99%
+source-wordcount: '474'
+ht-degree: 98%
 
 ---
-
 
 # Informatie over Adobe Experience Cloud-triggers{#about-adobe-experience-cloud-triggers}
 
@@ -33,7 +32,7 @@ In het volgende diagram wordt beschreven hoe deze integratie werkt.
 
 **Verwante onderwerpen:**
 
-* Meer informatie over de verschillende typen triggers: [Adobe Experience Cloud-documentatie](https://docs.adobe.com/content/help/nl-NL/core-services/interface/activation/triggers.html).
+* Meer informatie over de verschillende typen triggers: [Adobe Experience Cloud-documentatie](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html).
 * Bekijk de video over [triggers voor remarketingberichten op basis van websiteactiviteiten](https://helpx.adobe.com/nl/marketing-cloud/how-to/email-marketing.html#step-two).
 * Verken onze twee [gebruiksscenario&#39;s voor triggers bij afbrekingsacties](../../integrating/using/abandonment-triggers-use-cases.md).
 
@@ -65,4 +64,3 @@ Hier volgen enkele belangrijke punten waarmee u rekening moet houden voordat u d
 >[!NOTE]
 >
 >Raadpleeg [Best practices en beperkingen voor triggers](../../integrating/using/configuring-triggers-in-experience-cloud.md#triggers-best-practices-and-limitations) voor meer informatie over aanbevolen procedures en technische beperkingen.
-
