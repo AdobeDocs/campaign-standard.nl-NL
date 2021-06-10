@@ -10,10 +10,10 @@ feature: Overzicht
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: d5bea4a96576dc13aa06939876ef6549115a2b75
+source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,8 +39,6 @@ De nieuwe functies, verbeteringen en oplossingen die zijn opgenomen in de volgen
 * Bij leveringen met meerdere varianten kunnen gebruikers niet langer taalkopieën maken als de standaardvariant is verwijderd. Er wordt nu een bericht weergegeven tijdens het maken van een taalkopie. (CAMP-48235)
 
 * Het proces voor het verwijderen van profielen in twee stappen (verouderde versie van Campagne 19.4) is nu standaard uitgeschakeld. Eerder moest het manueel van de interface van de Campagne worden onbruikbaar gemaakt alvorens de Dienst van de Kern van de Privacy te gebruiken. Als u dit niet doet, blijven aanvragen voor verwijderen in behandeling zonder ze te voltooien.
-
-* Er is een nieuwe statistische functie &#39;StringAgg&#39; geïntroduceerd om de waarden van een kolom met het type tekenreeks samen te voegen. (CAMP-47077) [Meer informatie](../../automating/using/list-of-functions.md#aggregates)
 
 * In Dynamische rapporten, is het **segment van het Bewijs van de Uitsluiting** verwijderd. (CAMP-46161)
 
