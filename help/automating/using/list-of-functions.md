@@ -10,10 +10,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 2672d2f58a2d46394454a88e63f8d09ea7e96148
+source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
 workflow-type: tm+mt
-source-wordcount: '1971'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -707,11 +707,7 @@ De aggregatiefuncties worden gebruikt voor het uitvoeren van berekeningen op een
    <td> Retourneert de minimumwaarde in een numerieke kolom en in een tekenreeks- of datumkolom.<br /> </td> 
    <td> Min(&lt;waarde&gt;)<br /> </td> 
   </tr>
-  <tr> 
-   <td> <strong>StringAgg</strong>, String aggregaat<br /> </td> 
-   <td> Retourneert de aaneenschakeling van de waarden van een kolom met tekenreekstype, gescheiden door het teken in het tweede argument (standaardscheidingsteken is komma).<br /> </td> 
-   <td> StringAgg(&lt;string values&gt;,&lt;separator&gt;)
-  </tr>
+
 
 
 
