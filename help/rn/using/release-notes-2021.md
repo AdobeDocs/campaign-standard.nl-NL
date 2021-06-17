@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Opmerkingen bij de release 2021
+title: Aanvullende informatie 2021
 description: Deze pagina bevat een overzicht van alle releases van Adobe Campaign Standard in 2021.
 audience: rn
 content-type: reference
@@ -13,13 +13,13 @@ exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 source-git-commit: 4a8dfc0b8f321447e0ebc23a9f5bbef337454d9f
 workflow-type: tm+mt
 source-wordcount: '2535'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Opmerkingen bij de release 2021{#release-notes-2021}
+# Aanvullende informatie 2021{#release-notes-2021}
 
-[Releaseplanning](../../rn/using/release-planning.md) | [Releases van het Configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl) | [Updates van documentatie](../../rn/using/documentation-updates.md) | [Opmerkingen bij eerdere releases](../../rn/using/release-notes-2020.md) | [Verouderde functies](../../rn/using/deprecated-features.md)
+[Releaseplanning](../../rn/using/release-planning.md) | [Releases van het configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl) | [Updates van documentatie](../../rn/using/documentation-updates.md) | [Opmerkingen bij eerdere releases](../../rn/using/release-notes-2020.md) | [Verouderde functies](../../rn/using/deprecated-features.md)
 
 ## Release 21.1 - februari 2021 {#release-21-1---february-2021}
 
@@ -151,11 +151,11 @@ ht-degree: 95%
 
 * Oplossing van een probleem in workflows bij het kopiëren en plakken van een **deduplicatie**-activiteit die eenmaal was uitgevoerd en die gebruikmaakte van een tijdelijke resource. Na duplicatie werd de resource van de activiteit automatisch ingesteld op leeg, wat leidde tot problemen in andere activiteiten van de workflow. Na het plakken blijft de resource van de activiteit nu gelijk, zodat de fout zo snel mogelijk en niet later in de workflow wordt geactiveerd. (CAMP-46903)
 
-* Oplossing van problemen die ertoe leidden dat de leveringsanalyse mislukte wanneer een transactie-pushmelding richtingsprofielen verzendt, door een nieuwe [target mapping](../../administration/using/target-mappings-in-campaign.md) in te voeren: **Profiel - Real-time gebeurtenis voor Push** (*mapRtEventAppSubRcp*). De leverings-, uitsluitings- en trackinglogboeken voor [op profielen gebaseerde pushmeldingen voor transacties](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile) worden nu opgeslagen in de tabellen *wideLogAppSubRcp*, *excludeLogAppSubRcp* en *trackingLogAppSubRcp*.
+* Probleem verholpen waarbij de leveringsanalyse mislukte bij het verzenden van een transactioneel pushbericht gericht op profielen. Het probleem is opgelost door een nieuwe [doeltoewijzing](../../administration/using/target-mappings-in-campaign.md) te introduceren: **Profiel - realtimegebeurtenis voor Push** (*mapRtEventAppSubRcp*). De leverings-, uitsluitings- en trackinglogboeken voor [transactionele pushmeldingen die gericht zijn op een profiel](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile), worden nu opgeslagen in de tabellen *broadLogAppSubRcp*, *excludeLogAppSubRcp* and *trackingLogAppSubRcp*.
 
    >[!IMPORTANT]
    >
-   >Als u daarom een bestaand, op profielen gebaseerd pushbericht gebruikt (gemaakt vóór de upgrade naar Adobe Campaign 21.1), wordt u aangeraden de doeltoewijzing bij te werken naar de nieuwe en het bericht opnieuw te publiceren. Zie de stappen [hier](../../channels/using/transactional-push-notifications.md#change-target-mapping) worden beschreven. Als u de vorige doeltoewijzing **Profiel - Real-time gebeurtenis** (*mapRtEventRcp*) gebruikt, kan dit leiden tot langere voorbereidingstijden voor de levering en een verslechtering van de prestaties.
+   >Als u daarom een bestaand, op profielen gebaseerde pushmelding gebruikt (gemaakt vóór de upgrade naar Adobe Campaign 21.1), wordt u wegens deze verandering aangeraden de doeltoewijzing bij te werken naar de nieuwe en het bericht opnieuw te publiceren. Raadpleeg de gedetailleerde stappen [hier](../../channels/using/transactional-push-notifications.md#change-target-mapping). Als u de vorige doeltoewijzing **Profiel - Realtimegebeurtenis** (*mapRtEventRcp*) gebruikt, kan dit leiden tot langere voorbereidingstijden van de levering en een verslechtering van de prestaties.
 
 * Probleem verholpen waardoor leveringsrapporten niet konden worden uitgevoerd wanneer 5000 rijen werden weergegeven.
 * Probleem verholpen met A/B-tests waarbij de content van variant B niet kon worden bijgewerkt nadat de leveringssjabloon was gewijzigd. (CAMP-45235)
