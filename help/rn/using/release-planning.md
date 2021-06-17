@@ -11,7 +11,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 2daf09071482ab858c73bc8f4f287495e9f8be4b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Alle releasedatums kunnen worden gewijzigd. We raden u aan deze pagina regelmati
 
 Omgevingsupdates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. De exacte datums worden per e-mail naar elke klant verzonden.
 
-Gedetailleerde informatie over deze release is te vinden in de [Release-opmerkingen](../../rn/using/release-notes.md).
+Gedetailleerde informatie over deze release is te vinden in de [Aanvullende informatie](../../rn/using/release-notes.md).
 
 <table>
  <thead>
@@ -64,7 +64,7 @@ A: Wijzigingen worden vermeld in de [Release-opmerkingen](../../rn/using/release
 
 **V: Wat is het validatieproces?**
 
-A: Als de upgrade van uw stage-instantie is uitgevoerd, raadt Adobe u aan te valideren of uw processen en gebruiksscenario&#39;s correct werken met deze nieuwe versie en om eventuele problemen aan [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) te melden.
+A: Als de upgrade van uw stage-instantie is uitgevoerd, raadt Adobe u aan te valideren of uw processen en gebruiksscenario&#39;s correct werken met deze nieuwe versie en om eventuele problemen aan [Adobe Client Care](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) te melden.
 
 **V: Heb ik tijdens het upgradeproces toegang tot de instantie?**
 
@@ -86,4 +86,4 @@ A: Ja, deze blijven werken. Er kunnen geen nieuwe e-mailberichten worden verzond
 
 A: Bij het inloggen bij Campaign wordt een pop-upmelding met de laatste versie weergegeven.
 
-Neem voor alle andere vragen contact op met [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+Neem voor alle andere vragen contact op met [Adobe Client Care](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html).
