@@ -13,7 +13,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
 source-wordcount: '6852'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -25,13 +25,13 @@ Naast de [release-opmerkingen](../../rn/using/release-notes.md) bij Adobe Campai
 
 **Nieuwe mogelijkheden die in de release zijn opgenomen**
 
-Validatie van bestemmingspagina&#39;s - U kunt nu een verplichte overeenkomstoptie aan uw landingspagina&#39;s toevoegen. [Meer informatie](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
+Validatie van landingspagina&#39;s - U kunt nu een verplichte overeenkomstoptie aan uw landingspagina&#39;s toevoegen. [Meer informatie](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
 
 De sectie **E-mailgrootte** is bijgewerkt met informatie over de maximale grootte van een e-mailbericht, die nu standaard is ingesteld op 100 MB. [Meer informatie](../../sending/using/design-and-personalize.md#email-size)
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
-Er is informatie toegevoegd over het wijzigen van de doeltoewijzing in een transactioneel pushbericht. [Meer informatie](../../channels/using/transactional-push-notifications.md#change-target-mapping)
+Er is informatie toegevoegd over het wijzigen van de doeltoewijzing in een transactionele pushmelding. [Meer informatie](../../channels/using/transactional-push-notifications.md#change-target-mapping)
 
 ## Mei 2021 {#doc-updates-may-2021}
 
