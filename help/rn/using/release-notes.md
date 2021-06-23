@@ -11,9 +11,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '990'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 ## Release 21.2 - juni 2021 {#release-21-2---june-2021}
 
-De nieuwe functies, verbeteringen en oplossingen die zijn opgenomen in de volgende release van Campaign Standard worden hieronder weergegeven. De nieuwe functies, verbeteringen en oplossingen die zijn opgenomen in deze release van Campaign Standard, worden hieronder weergegeven.
+De nieuwe functies, verbeteringen en oplossingen die zijn opgenomen in de volgende release van Campaign Standard, worden hieronder weergegeven. De nieuwe functies, verbeteringen en oplossingen die zijn opgenomen in deze release van Campaign Standard, worden hieronder weergegeven.
 
 **Verbeteringen**
 
