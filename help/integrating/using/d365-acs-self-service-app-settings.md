@@ -4,17 +4,16 @@ description: Leer hoe u de integratie-app Campagne-dynamiek configureert
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
-feature: Microsoft CRM Integration
+feature: Microsoft CRM-integratie
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 184bc656-2107-4380-9b35-148cb4380547
+source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 2%
+source-wordcount: '795'
+ht-degree: 4%
 
 ---
-
 
 # Systemen verbinden met de integratieapp
 
@@ -34,7 +33,7 @@ De Dynamica 365 van Microsoft Referentials geeft de toestemming van de integrati
 
 * **[!UICONTROL Tenant]**: Meer informatie over het zoeken naar je huurder-id in  [deze sectie](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id)
 
-* **[!UICONTROL URL]**: De URL heeft de notatie https://&lt;servername>.api.crm.dynamics.com/
+* **[!UICONTROL URL]**: De URL heeft de notatie  `https://&lt;servername&gt;.api.crm.dynamics.com/`
 
 ### Adobe API-referenties
 
@@ -79,7 +78,7 @@ U moet het volgende opgeven:
 
 Ontdek beheer SFTP met [Campagne Controlebord](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) in deze secties:
 
-* [SFTP-beheer](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=en#sftp-management)
+* [SFTP-beheer](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=nl#sftp-management)
 
 * [SFTP-opslagbeheer](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=en#installing-ssh-key)
 
