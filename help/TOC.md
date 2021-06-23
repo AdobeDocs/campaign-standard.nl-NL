@@ -5,18 +5,18 @@ audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken. '
 title: 'Campaign Standard-handleiding '
-breadcrumb-title: Adobe Campaign Standard-documentatie
+breadcrumb-title: Documentatie voor Adobe Campaign Standard
 source-git-commit: 49b9e97c1eb53b99c8118e08e5ba1ca94bc59c65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1788'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 
 # Help bij Adobe Campaign Standard      {#using}
 
-+ [Campaign Standard-documentatie](campaign-standard-home.md)
++ [Documentatie voor Campaign Standard](campaign-standard-home.md)
 + [Laatste updates](rn/using/documentation-updates.md)
 + Aanvullende informatie {#release-notes}
    + [Laatste release](rn/using/release-notes.md)
