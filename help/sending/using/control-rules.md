@@ -10,7 +10,7 @@ feature: Typologieregels
 role: Business Practitioner
 level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
-source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
+source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 4%
@@ -30,7 +30,7 @@ Met de besturingsregels kunt u de geldigheid en kwaliteit van de berichten contr
 Een reeks standaardregels verzekert de standaardcontroles. De lijst hieronder verstrekt informatie over deze regels, evenals hun verwant kanaal en [uitvoeringsfasen](#control-rules-execution-phases).
 
 | Label | Kanaal | Uitvoeringsfase | Beschrijving |
-|---------|----------|---------|---------
+|---------|----------|---------|---------|
 | **[!UICONTROL A/B Test]** | Email | Aan het begin van personalisatie | Extraheert de testpopulatie voor een levering met een A/B-test. |
 | **[!UICONTROL Check delivery size]** | Alles | Na doelframes | Controleert de grootte van de berichten. |
 | **[!UICONTROL Check email content is not empty]** | E-mail | Na doelframes | Genereert een fout als de inhoud van het bericht leeg is. |
