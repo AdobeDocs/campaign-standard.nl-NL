@@ -10,11 +10,10 @@ feature: Afleverbaarheid
 role: Business Practitioner
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-translation-type: tm+mt
-source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
 workflow-type: tm+mt
 source-wordcount: '1307'
-ht-degree: 67%
+ht-degree: 66%
 
 ---
 
@@ -59,7 +58,7 @@ Er zijn drie typen fouten wanneer een levering mislukt:
 De mogelijke redenen van een leveringsfout zijn:
 
 | Foutlabel | Fouttype | Beschrijving |
----------|----------|---------
+| ---------|----------|---------|
 | **[!UICONTROL User unknown]** | Hard | Het adres bestaat niet. Voor dit profiel worden geen verdere leveringen uitgevoerd. |
 | **[!UICONTROL Quarantined address]** | Hard | Het adres is in quarantaine geplaatst. |
 | **[!UICONTROL Unreachable]** | Zacht/Hard | Er is een fout opgetreden in de berichtleveringsketen (bijvoorbeeld een tijdelijk onbereikbaar domein). Afhankelijk van de fout die door de provider is geretourneerd, wordt het adres rechtstreeks naar quarantaine verzonden of wordt de levering opnieuw geprobeerd totdat Campaign een fout ontvangt die de quarantainestatus rechtvaardigt of tot het aantal fouten 5 bereikt. |
@@ -67,7 +66,7 @@ De mogelijke redenen van een leveringsfout zijn:
 | **[!UICONTROL Mailbox full]** | Zacht | De brievenbus van deze gebruiker is volledig en kan niet meer berichten goedkeuren. Dit adres kan uit de quarantainelijst worden verwijderd om een nieuwe poging te doen. Het wordt automatisch na 30 dagen verwijderd. Om het adres automatisch uit de lijst met in quarantaine geplaatste adressen te verwijderen, moet de technische workflow voor **[!UICONTROL Database cleanup]** worden gestart. |
 | **[!UICONTROL Refused]** | Zacht/Hard | Het adres is in quarantaine geplaatst toe te schrijven aan een veiligheid terugkoppelt als spamrapport. Afhankelijk van de fout die door de provider is geretourneerd, wordt het adres rechtstreeks naar quarantaine verzonden of wordt de levering opnieuw geprobeerd totdat Campaign een fout ontvangt die de quarantainestatus rechtvaardigt of tot het aantal fouten 5 bereikt. |
 | **[!UICONTROL Duplicate]** | Genegeerd | Het adres is reeds ontdekt in de segmentatie. |
-| **[!UICONTROL Not defined]** | Zacht | Het adres is in kwalificatie omdat de fouten nog niet zijn verhoogd. Dit type fout treedt op wanneer een nieuw foutbericht wordt verzonden door de server: het kan een geïsoleerde fout zijn, maar als deze opnieuw voorkomt, zal de foutenteller stijgen en worden de technische teams gewaarschuwd. |
+| **[!UICONTROL Not defined]** | Zacht | het adres is in kwalificatie omdat de fouten niet zijn verhoogd. | toch. Dit type fout treedt op wanneer een nieuw foutbericht wordt verzonden door de server: het kan een geïsoleerde fout zijn, maar als deze opnieuw voorkomt, zal de foutenteller stijgen en worden de technische teams gewaarschuwd. |
 | **[!UICONTROL Error ignored]** | Genegeerd | Het adres staat op de lijst van gewenste personen en er zal in elk geval een e-mail naar worden gestuurd. |
 | **[!UICONTROL Address on denylist]** | Hard | Het adres werd toegevoegd aan de lijst van gewezen personen toen het verzenden. |
 | **[!UICONTROL Account disabled]** | Zacht/Hard | Wanneer de Internet Access Provider (IAP) een lange periode van inactiviteit ontdekt, kan het de rekening van de gebruiker sluiten: levering aan het adres van de gebruiker zal dan onmogelijk zijn. Het type Soft of Hard is afhankelijk van het type ontvangen fout: als het account tijdelijk is uitgeschakeld vanwege een inactiviteit van zes maanden en nog steeds kan worden geactiveerd, wordt de status **[!UICONTROL Erroneous]** toegewezen en wordt de levering opnieuw geprobeerd. Als de ontvangen fout aangeeft dat het account permanent is gedeactiveerd, wordt de levering rechtstreeks in quarantaine geplaatst. |
