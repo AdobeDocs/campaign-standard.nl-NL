@@ -6,19 +6,18 @@ description: Gebruik filterregels om het publiek van uw berichten te verfijnen.
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Typology Rules
+feature: Typologieregels
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 43e97f3c-ed82-4fcc-ac0d-fcee6a22da35
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '655'
 ht-degree: 3%
 
 ---
 
-
-# Regels voor filteren {#filtering-rules}
+# Filterregels {#filtering-rules}
 
 Met filterregels kunt u een deel van het berichtdoel uitsluiten volgens criteria die in een query zijn gedefinieerd, zoals quarantineprofielen of profielen die al een bepaald aantal e-mailberichten hebben ontvangen.
 
@@ -27,7 +26,7 @@ Met filterregels kunt u een deel van het berichtdoel uitsluiten volgens criteria
 De lijst hieronder verstrekt informatie over uit-van-de-doos het filtreren regels, evenals hun verwante kanalen.
 
 | Label | Kanaal | Beschrijving |
----------|----------|---------
+| ---------|----------|---------|
 | **[!UICONTROL Address not specified]** | Alles | Hiermee sluit u de doelpopulatie zonder opgegeven adres (e-mail, postadres, enz.) uit. volgens het geselecteerde kanaal). |
 | **[!UICONTROL Address on denylist]** | Alles | Sluit adressen uit die op de lijst van gewezen personen zijn. |
 | **[!UICONTROL Duplicate]** | Alles | Hiermee sluit u duplicaten op basis van het veld **[!UICONTROL Address]** van de doelpopulatie uit. |
@@ -83,7 +82,7 @@ Voer de volgende stappen uit om een filtreertypologieregel te maken:
 
 Wanneer deze regel in een bericht wordt gebruikt, worden abonnees die als minderjarigen worden beschouwd, automatisch uitgesloten.
 
-## Het vormen het filtreren regels&#39; richtend context {#configuring-filtering-rules-targeting-context}
+## Het vormen van het filtreren regels richten context {#configuring-filtering-rules-targeting-context}
 
 Met Campaign Standard kunt u de **Targeting** en **Filtering**-afmetingen configureren voor gebruik, afhankelijk van de gegevens die u als doel wilt gebruiken.
 
@@ -93,7 +92,7 @@ Door gebrek, wordt het filtreren uitgevoerd op **[!UICONTROL Profiles]**. Als de
 
 ![](assets/typology_rule-order_2.png)
 
-## De toepasbaarheid van een filterregel {#restricting-the-applicability-of-a-filtering-rule} beperken
+## De toepasbaarheid van een filterregel beperken {#restricting-the-applicability-of-a-filtering-rule}
 
 U kunt de toepasbaarheid van een het filtreren regel volgens het te verzenden bericht beperken.
 
