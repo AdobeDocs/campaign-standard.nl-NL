@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Een workflow aanroepen met externe parameters
+title: Een workflow oproepen met externe parameters
 description: In deze sectie wordt beschreven hoe een workflow met externe parameters wordt aangeroepen.
 audience: automating
 content-type: reference
@@ -9,14 +9,13 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '814'
 ht-degree: 1%
 
 ---
-
 
 # Een workflow aanpassen met externe parameters {#customizing-a-workflow-with-external-parameters}
 
@@ -58,7 +57,7 @@ Wanneer het gebruiken van een variabele in een activiteit, verstrekt de interfac
    Bovendien kunt u de functies hieronder gebruiken, die in alle activiteiten beschikbaar zijn die u toestaan om gebeurtenisvariabelen te gebruiken na het roepen van een werkschema met externe parameters (zie [deze sectie](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)):
 
    | Naam | Beschrijving | Syntaxis |
-   ---------|----------|---------
+   | ---------|----------|---------|
    | EndWith | Geeft aan of een tekenreeks (eerste parameter) eindigt met een specifieke tekenreeks (tweede parameter). | EndWith(&lt;String>,&lt;String>) |
    | startWith | Geeft aan of een tekenreeks (eerste parameter) begint met een specifieke tekenreeks (tweede parameter). | startWith(&lt;String>,&lt;String>) |
    | Extraheren | Retourneert de eerste tekens van een tekenreeks met een scheidingsteken. | Extraheren(&lt;String>,&lt;Separator>) |
