@@ -6,17 +6,16 @@ description: Leer hoe te om de kwaliteitscontrole van uw berichten met controler
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Typology Rules
+feature: Typologieregels
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6461c128-1e42-4685-88f8-507244147e6f
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '442'
 ht-degree: 4%
 
 ---
-
 
 # Controleregels {#control-rules}
 
@@ -31,7 +30,7 @@ Met de besturingsregels kunt u de geldigheid en kwaliteit van de berichten contr
 Een reeks standaardregels verzekert de standaardcontroles. De lijst hieronder verstrekt informatie over deze regels, evenals hun verwant kanaal en [uitvoeringsfasen](#control-rules-execution-phases).
 
 | Label | Kanaal | Uitvoeringsfase | Beschrijving |
----------|----------|---------|---------
+|---------|----------|---------|---------
 | **[!UICONTROL A/B Test]** | Email | Aan het begin van personalisatie | Extraheert de testpopulatie voor een levering met een A/B-test. |
 | **[!UICONTROL Check delivery size]** | Alles | Na doelframes | Controleert de grootte van de berichten. |
 | **[!UICONTROL Check email content is not empty]** | E-mail | Na doelframes | Genereert een fout als de inhoud van het bericht leeg is. |
@@ -45,7 +44,7 @@ Een reeks standaardregels verzekert de standaardcontroles. De lijst hieronder ve
 | **[!UICONTROL Check URL labels]** | E-mail | Aan het begin van personalisatie | Controleert dat elke volgende URL een etiket heeft. |
 | **[!UICONTROL Check URLs]** | E-mail | Aan het begin van personalisatie | Controleert URLs het volgen (aanwezigheid van &quot;&amp;&quot;karakter). |
 
-## Uitvoeringsfasen van de regeluitvoering {#control-rules-execution-phases}
+## Uitvoeringsfasen van regelregels {#control-rules-execution-phases}
 
 Regels voor controle kunnen worden toegepast in verschillende fasen van de levenscyclus van de levering:
 
