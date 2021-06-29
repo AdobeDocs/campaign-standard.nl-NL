@@ -6,19 +6,21 @@ description: Leer hoe te om het succes van uw levering afhankelijk van de segmen
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Reporting
+feature: Rapportage
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
+source-git-commit: c001aaba50bdce8d949acc6daf74f3c7738bd117
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '625'
 ht-degree: 2%
 
 ---
 
-
 # Een rapport maken op basis van workflowsegmenten{#creating-a-report-workflow-segment}
+
+>[!CAUTION]
+> **[!UICONTROL Segment code]**kan alleen e-mail- en SMS-leveringen als doel hebben.
 
 Nadat u een workflow hebt gemaakt en uw populatie hebt gefilterd in verschillende doelgroepen, kunt u de efficiëntie van uw marketingcampagnes meten op basis van segmenten die zijn gedefinieerd in deze doelworkflow.
 Om deze segmenten in uw rapporten te richten:
@@ -29,6 +31,7 @@ Om deze segmenten in uw rapporten te richten:
 
 >[!CAUTION]
 >De dynamische gebruiksovereenkomst voor rapportage moet worden geaccepteerd om te beginnen met het verzamelen van deze gegevens.
+>
 >Raadpleeg deze [pagina](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) voor meer informatie over deze overeenkomst.
 
 ## Stap 1: Profielen bijwerken, aangepaste bron met segmenten{#step-1--update-profiles-custom-resource-segments}
@@ -55,7 +58,7 @@ U kunt nu uw workflow maken met segmentcodes.
 
 Merk op dat de segmentcodes zullen worden verzameld zodra u de segmentcode in **[!UICONTROL Sending logs extension]** toelaat.
 
-## Stap 2: Een workflow maken met segmenten {#step-2--create-a-workflow-segments}
+## Stap 2: Een workflow met segmenten maken {#step-2--create-a-workflow-segments}
 
 >[!NOTE]
 >Als de invoerovergang van de e-maillevering leeg is, wordt de segmentcode van de vorige overgang standaard toegevoegd.
@@ -101,7 +104,7 @@ Eerst moet u een workflow maken met verschillende doelgroepen. Hier, willen wij 
 
 U kunt tot uw rapporten nu toegang hebben om uw segmentcodes te volgen.
 
-## Stap 3: Een dynamisch rapport maken om segmenten {#step-3--create-a-dynamic-report-filter-segments} te filteren
+## Stap 3: Een dynamisch rapport maken om segmenten te filteren {#step-3--create-a-dynamic-report-filter-segments}
 
 Nadat u leveringen met uw workflow hebt verzonden, kunt u rapporten splitsen aan de hand van uw segmentcodes uit uw workflow.
 
