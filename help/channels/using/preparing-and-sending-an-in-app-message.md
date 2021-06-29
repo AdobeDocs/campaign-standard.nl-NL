@@ -10,18 +10,14 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In app
 role: Business Practitioner
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1173'
 ht-degree: 98%
 
 ---
 
 # Een in-app-bericht voorbereiden en verzenden{#preparing-and-sending-an-in-app-message}
-
->[!NOTE]
->
->In-app-personalisatie is afhankelijk van een koppelingsveld dat doorgaans een CRM-id en/of een aanmeldings-id voor een mobiele app is. U bent als enige verantwoordelijk voor het beveiligen van dit koppelingsveld wanneer dit wordt gebruikt in combinatie met Adobe Campaign. Als u uw koppelingsveld(en) niet veilig houdt, kan uw persoonlijke bericht kwetsbaar zijn. Adobe is niet aansprakelijk voor schade die voortvloeit uit ongeoorloofde toegang tot of gebruik van profieldata als u de compositie, het beheer en de beveiligingspraktijken voor veilige koppelingsvelden niet opvolgt.
 
 Er zijn drie typen in-app-berichten beschikbaar in Adobe Campaign:
 
@@ -32,29 +28,15 @@ Er zijn drie typen in-app-berichten beschikbaar in Adobe Campaign:
 * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: Met dit berichttype kunt u berichten verzenden naar alle (huidige of toekomstige) gebruikers van uw mobiele applicatie, zelfs als ze geen bestaand profiel hebben in Adobe Campaign. Personalisatie is dus niet mogelijk wanneer u de berichten aanpast, omdat het gebruikersprofiel mogelijk niet eens bestaat in Adobe Campaign.
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**: Met dit berichttype kunt u zich richten op alle bekende of anonieme gebruikers van een mobiele app met een mobiel profiel in Adobe Campaign. Dit berichttype kan worden gepersonaliseerd met alleen niet-persoonlijke en niet-gevoelige kenmerken en vereist geen veilige handshake tussen Mobile SDK en de in-app-berichtenservice van Adobe Campaign.
 
-   Zie [Mobiele profielvelden met persoonlijke en vertrouwelijke gegevens verwerken](#handling-mobile-profile-fields-with-personal-and-sensitive-data) voor meer informatie over hoe u met persoonlijke en vertrouwelijke gegevens kunt omgaan.
+   Zie [Mobiele profielvelden met persoonlijke en vertrouwelijke gegevens verwerken](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data) voor meer informatie over hoe u met persoonlijke en vertrouwelijke gegevens kunt omgaan.
 
 ![](assets/diagram_inapp.png)
 
-## Mobiele profielvelden met persoonlijke en vertrouwelijke gegevens verwerken{#handling-mobile-profile-fields-with-personal-and-sensitive-data}
-
-In Adobe Campaign worden data van mobiele profielkenmerken die vanaf een mobiel apparaat worden verzonden, opgeslagen in de resource **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** waardoor u de data die u van de abonnees van uw applicaties wilt verzamelen, kunt definiëren.
-
-Deze resource moet worden uitgebreid om data te verzamelen die u van het mobiele apparaat naar Adobe Campaign wilt verzenden. Raadpleeg deze [pagina](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) voor de gedetailleerde stappen als u dit wilt doen.
-
-Om personalisatie van uw in-app-berichten veiliger te maken moeten de mobiele profielvelden van deze resource dienovereenkomstig worden geconfigureerd. Wanneer u uw nieuwe mobiele profielvelden maakt, schakelt u in uw **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** de optie **[!UICONTROL Personal and Sensitive]** om deze onbeschikbaar te maken tijdens personalisatie van in-app-berichten.
-
->[!NOTE]
->
->Als u een bestaande implementatie hebt met een extensie voor aangepaste resources in deze tabel, raden we u aan de velden op de juiste wijze te labelen voordat u ze gebruikt voor de personalisatie van in-app-berichten.
-
-![](assets/in_app_personal_data_2.png)
-
-Zodra uw aangepaste resource voor **[!UICONTROL Subscriptions to an application]** is geconfigureerd en gepubliceerd, kunt u beginnen met de voorbereiding van uw in-app-levering met behulp van de sjabloon **[!UICONTROL Target users based on their Mobile profile (inApp)]**. Alleen niet-persoonlijke en niet-gevoelige velden zijn beschikbaar voor personalisatie vanuit de resource **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**.
-
-Als u personalisatie met **persoonlijke en gevoelige** velden nodig hebt, raden wij u aan de sjabloon **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** te gebruiken die over een extra veiligheidsmechanisme beschikt om ervoor te zorgen dat de PII-data van uw gebruikers veilig blijven.
-
 ## Uw in-app-bericht voorbereiden {#preparing-your-in-app-message}
+
+>[!CAUTION]
+>
+>In-app-personalisatie is afhankelijk van een koppelingsveld dat doorgaans een CRM-id en/of een aanmeldings-id voor een mobiele app is. U bent als enige verantwoordelijk voor het beveiligen van dit koppelingsveld wanneer dit wordt gebruikt in combinatie met Adobe Campaign. Als u uw koppelingsveld(en) niet veilig houdt, kan uw persoonlijke bericht kwetsbaar zijn. Adobe is niet aansprakelijk voor schade die voortvloeit uit ongeoorloofde toegang tot of gebruik van profieldata als u de compositie, het beheer en de beveiligingspraktijken voor veilige koppelingsvelden niet opvolgt.
 
 De stappen voor het maken van een zelfstandig in-app-bericht met Adobe Campaign zijn de volgende:
 
@@ -136,6 +118,21 @@ Uw in-app-bericht is nu klaar om naar de beoogde doelgroep te worden verzonden.
 * [Een in-app-bericht aanpassen](../../channels/using/customizing-an-in-app-message.md)
 * [In-app-rapport](../../reporting/using/in-app-report.md)
 * [Een in-app-bericht verzenden binnen een workflow](../../automating/using/in-app-delivery.md)
+
+## Voorbeeld van het in-app-bericht bekijken {#previewing-the-in-app-message}
+
+Voordat u uw in-app-bericht verzendt, kunt u het testen met uw testprofielen om te controleren wat uw doelgroep ziet wanneer deze uw levering ontvangt.
+
+1. Klik op de knop **[!UICONTROL Preview]**.
+
+   ![](assets/inapp_sending_2.png)
+
+1. Klik op de knop **[!UICONTROL Select a test profile]** en selecteer een van uw testprofielen om een voorbeeld van de levering te bekijken. Zie deze [sectie](../../audiences/using/managing-test-profiles.md) voor meer informatie over testprofielen.
+1. Controleer uw bericht op verschillende apparaten, zoals een Android- of iPhone-telefoon of zelfs tablets. U kunt ook controleren of uw personalisatievelden de juiste data ophalen.
+
+   ![](assets/inapp_sending_3.png)
+
+1. U kunt nu uw bericht verzenden en de impact ervan meten met leveringsrapporten.
 
 ## Uw in-app-bericht verzenden {#sending-your-in-app-message}
 
