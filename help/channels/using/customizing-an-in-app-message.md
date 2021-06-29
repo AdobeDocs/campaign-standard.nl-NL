@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,inAppContent,back
-feature: In App
+feature: In app
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '977'
 ht-degree: 99%
 
 ---
-
 
 # Een in-app-bericht aanpassen{#customizing-an-in-app-message}
 
@@ -128,7 +127,7 @@ U kunt maximaal twee knoppen toevoegen aan uw in-app-bericht.
 1. Voer in het veld **[!UICONTROL Destination URL]** uw URL of deeplink in als u hebt gekozen voor de actie **[!UICONTROL Redirect]**.
 1. Controleer de berichtcontent in het voorbeeldvenster of klik op de knop Preview.
 
-   Raadpleeg de pagina [Voorbeeld van het in-app-bericht bekijken](#previewing-the-in-app-message).
+   Raadpleeg de pagina [Voorbeeld van het in-app-bericht bekijken](../../channels/using/preparing-and-sending-an-in-app-message.md#previewing-the-in-app-message).
 
    ![](assets/inapp_customize_11.png)
 
@@ -141,7 +140,7 @@ U kunt maximaal twee knoppen toevoegen aan uw in-app-bericht.
 
    ![](assets/inapp_customize_7.png)
 
-## Berichten van het type lokale meldingen aanpassen{#customizing-a-local-notification-message-type}
+## Berichten van het type lokale meldingen aanpassen {#customizing-a-local-notification-message-type}
 
 Lokale meldingen kunnen alleen op een bepaald tijdstip en afhankelijk van een gebeurtenis door een app worden geactiveerd. Ze waarschuwen gebruikers dat er iets gebeurt in hun app, zelfs zonder internettoegang.
 Zie deze [pagina](../../administration/using/local-tracking.md) voor meer informatie over het bijhouden van lokale meldingen.
@@ -190,18 +189,3 @@ Er is ook een lijst met aangepaste HTML-voorwaarden voor een geslaagde import in
 ![](assets/inapp_customize_3.png)
 
 Na het importeren van de HTML kunt u in het voorbeeldvenster een voorbeeld van het bestand op verschillende apparaten bekijken.
-
-## Voorbeeld van het in-app-bericht bekijken {#previewing-the-in-app-message}
-
-Voordat u uw in-app-bericht verzendt, kunt u het testen met uw testprofielen om te controleren wat uw doelgroep ziet wanneer deze uw levering ontvangt.
-
-1. Klik op de knop **[!UICONTROL Preview]**.
-
-   ![](assets/inapp_sending_2.png)
-
-1. Klik op de knop **[!UICONTROL Select a test profile]** en selecteer een van uw testprofielen om een voorbeeld van de levering te bekijken. Zie deze [sectie](../../audiences/using/managing-test-profiles.md) voor meer informatie over testprofielen.
-1. Controleer uw bericht op verschillende apparaten, zoals een Android- of iPhone-telefoon of zelfs tablets. U kunt ook controleren of uw personalisatievelden de juiste data ophalen.
-
-   ![](assets/inapp_sending_3.png)
-
-1. U kunt nu uw bericht verzenden en de impact ervan meten met leveringsrapporten. Raadpleeg [deze sectie](../../reporting/using/in-app-report.md) voor meer informatie over rapporten.
