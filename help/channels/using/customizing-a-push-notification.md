@@ -10,14 +10,13 @@ context-tags: delivery,mobileAppContent,back
 feature: Push
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3fe3495b-e360-4169-b295-86ad93753468
+source-git-commit: f19b2d618828cb4d83aa3acbc6fbb3ffb4d3af20
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 98%
+source-wordcount: '1511'
+ht-degree: 97%
 
 ---
-
 
 # Een pushmelding aanpassen{#customizing-a-push-notification}
 
@@ -45,7 +44,9 @@ Met een geluid worden gebruikers gewaarschuwd dat er een pushmelding is, zodat d
 
    ![](assets/push_notif_advanced_7.png)
 
-1. Het geluidsbestand wordt afgespeeld bij het verzenden van de melding als het bestand is gedefinieerd in het pakket van de mobiele applicatie. Anders wordt het standaardgeluid van het apparaat afgespeeld.
+1. Het geluidsbestand wordt afgespeeld bij het verzenden van de melding als het bestand is gedefinieerd in het pakket van de mobiele applicatie. U kunt het aan **default** plaatsen om het standaardgeluid van het apparaat te spelen.
+
+   Als het veld **[!UICONTROL Play a sound]** leeg blijft, wordt er geen geluid afgespeeld.
 
 De gebruiker ontvangt dan de pushmelding en het geluid alleen als zijn telefoon niet gedempt is.
 
