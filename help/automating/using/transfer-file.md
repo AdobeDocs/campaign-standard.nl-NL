@@ -10,14 +10,13 @@ context-tags: fileTransfer,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
+source-git-commit: 643b8cb973a95155e64fed7df04e15aa2332a22d
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 92%
+source-wordcount: '1116'
+ht-degree: 91%
 
 ---
-
 
 # Bestand overdragen{#transfer-file}
 
@@ -54,7 +53,7 @@ U kunt deze activiteit gebruiken om data te herstellen die vervolgens met de act
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
    * [Amazon S3](#S3-configuration-wf)
-   * [Microsoft Azure Blob Storage](#azure-blob-configuration-wf)
+   * [Microsoft Azure Blob-opslag](#azure-blob-configuration-wf)
    * [Bestand(en) aanwezig op de Adobe Campaign-server](#files-server-configuration-wf)
 
 1. In de sectie **[!UICONTROL Additional options]**, die afhankelijk is van het geselecteerde protocol, kunt u parameters toevoegen aan uw protocol. U kunt het volgende doen:
@@ -105,6 +104,12 @@ Met het Amazon S3-protocol kunt u beginnen met het downloaden van een bestand va
 3. Geef het pad op van het bestand dat u wilt downloaden.
 
    ![](assets/wkf_file_transfer_08.png)
+
+   >[!CAUTION]
+   >
+   > Jokertekens worden niet ondersteund in Amazon S3.
+   >
+   > Als u meerdere bestanden als `my_file_02` en `my _file_3433` als doel wilt instellen, kunt u de volgende syntaxis gebruiken: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
 
 4. Als u de bronbestanden wilt verwijderen wanneer de overdracht is voltooid, selecteert u **[!UICONTROL Delete the source files after transfer]**.
 
@@ -176,5 +181,3 @@ Beschikbare uitvoervariabelen zijn:
 
 * **[!UICONTROL fileName]**: naam van de overgedragen bestanden.
 * **[!UICONTROL filesCount]**: aantal overgedragen bestanden.
-
-
