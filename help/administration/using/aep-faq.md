@@ -6,17 +6,16 @@ description: Veelgestelde vragen over Adobe Experience Platform SDK en Adobe Cam
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
+feature: Instantie-instellingen
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '916'
 ht-degree: 4%
 
 ---
-
 
 # Veelgestelde vragen over de integratie van Experience Platform SDK {#aep-faq}
 
@@ -27,10 +26,10 @@ In de onderstaande sectie worden veelgestelde vragen over deze synchronisatie we
 Raadpleeg de volgende veelgestelde vragen voor meer informatie over Push of In-App:
 
 * [Veelgestelde vragen over pushmeldingen](../../channels/using/about-push-notifications.md#push-faq)
-* [Veelgestelde vragen in de app](../../channels/using/about-in-app-messaging.md#in-app-faq)
+* [Veelgestelde vragen in de app](../../channels/using/in-app-faq.md)
 * [Synchroniseren met veelgestelde vragen over technische workflow starten](../../administration/using/syncwithlaunch-faq.md)
 
-## Nuttige bronnen voordat {#resource-mobile-property} wordt gestart
+## Nuttige bronnen voordat u begint {#resource-mobile-property}
 
 Raadpleeg de onderstaande bronnen voor meer informatie over de Adobe Experience Platform SDK en de integratie van Campaign Standard:
 
@@ -97,7 +96,7 @@ De frequentie en het ontwerp van vraag CollectPII zouden door bedrijfsbehoeften 
 
 Dit is een bekend probleem en gebeurt als het token vervalt. Meld u af en weer aan.
 
-## Wat zouden enkele nuttige middelaanbevelingen zijn om meer over SDK van Adobe Experience Platform (vroeger genoemd geworden SDK V5) te leren?{#resource-aep}
+## Wat zouden enkele nuttige middelaanbevelingen zijn om meer over Adobe Experience Platform SDK (vroeger genoemd geworden SDK V5) te leren?{#resource-aep}
 
 Ontdek de onderstaande bronnen:
 
