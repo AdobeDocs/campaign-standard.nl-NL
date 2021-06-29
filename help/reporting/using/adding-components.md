@@ -6,17 +6,16 @@ description: De belemmering en laat vallen componenten aan uw vrije vormlijst be
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Reporting
+feature: Rapportage
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
+source-git-commit: cc464da0e455ae9c95fc3fe3f00bb3e1c6ff22ae
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 5%
+source-wordcount: '293'
+ht-degree: 4%
 
 ---
-
 
 # Componenten toevoegen{#adding-components}
 
@@ -40,10 +39,19 @@ Componenten helpen u bij het aanpassen van rapporten met verschillende afmetinge
 
 1. Sleep componenten in een deelvenster om de gegevens te filteren.
 
+   ![](assets/dynamic_report_components_2.png)
+
+1. Nadat u de component hebt gesleept en neergezet, kunt u de tabel verder configureren met de optie **[!UICONTROL Row settings]**.
+
+   ![](assets/dynamic_report_components_3.png)
+
+1. U kunt uw lijst ook verder filtreren door **het pictogram van het Onderzoek** te klikken. Met deze zoekopdracht kunt u naar specifieke resultaten zoeken, zoals een bepaalde levering of browser.
+
+   ![](assets/dynamic_report_components_4.png)
+
 U kunt zoveel componenten slepen en neerzetten als u nodig hebt en deze met elkaar vergelijken.
 
 **Verwante onderwerpen:**
 
 * [Lijst met componenten](../../reporting/using/list-of-components-.md)
 * [Lijst met rapporten](../../reporting/using/defining-the-report-period.md)
-
