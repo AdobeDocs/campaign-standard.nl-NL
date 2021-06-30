@@ -9,9 +9,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: c0362e6b440f19dcbce965910d9594a1bc3991ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 90%
 
 ## Nieuwe functies
 
-* **[Veelgestelde vragen over de bescherming van Apple Mail Privacy ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> Veelgestelde vragenAanvankelijke instructies zoeken in reactie op de aankondiging van Apple met betrekking tot iOS 15
+* **[Veelgestelde vragen over Apple Mail Privacy Protection](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=nl)**<br/> Vind de eerste richtlijnen in reactie op de aankondiging van Apple met betrekking tot iOS 15
 
-* **[Campaign-RTCDP-integratie](integrating/using/get-started-sources-destinations.md)**<br/> Leer hoe u gegevens kunt delen tussen Campaign en het Real-time Customer Data Platform (RTCDP)
+* **[Campaign - RTCDP-integratie](integrating/using/get-started-sources-destinations.md)**<br/> Leer hoe u gegevens kunt delen tussen Campaign en het Real-time Customer Data Platform (RTCDP)
 
 * **[Controlegroepen](sending/using/control-group.md)**<br/>
 De invloed van uw campagnes meten door een deel van hun doelgroep uit te sluiten
