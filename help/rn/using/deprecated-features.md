@@ -10,10 +10,10 @@ feature: Overzicht
 role: Business Practitioner
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: a68adf4de790e30ab9dd1f79e5daeb7feb45c83b
+source-git-commit: e86cc930f9b6b3f3990f3b16b3d8fd2d19e126b7
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 80%
+source-wordcount: '773'
+ht-degree: 76%
 
 ---
 
@@ -39,6 +39,22 @@ Deze sectie bevat een lijst met functies en mogelijkheden die zijn gemarkeerd al
 In het algemeen worden functies die in een toekomstige versie moeten worden verwijderd, eerst ingesteld op afgeschaft, waarbij een alternatief wordt aangeboden. Deze functies en mogelijkheden zijn niet meer beschikbaar voor nieuwe Campaign Standard-klanten, of ze mogen niet worden gebruikt voor nieuwe implementaties. Ze worden ook verwijderd uit de productdocumentatie.
 
 Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikmaken van de functie of mogelijkheid en om plannen te maken voor een wijziging in hun implementatie zodat het alternatief wordt gebruikt. Bekijk in welke versie de verwijdering plaatsvindt om uw omgeving en projectupdates dienovereenkomstig te plannen.
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Experience Cloud Assets-integratie</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> Vanaf juli 2021 is Activa nu een oude kerndienst, onder toezicht. <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/assets/experience-cloud-assets.html?lang=en">Meer info</a>.</p>
+   <p>Voor nieuwe implementatie kunt u Experience Cloud Assets niet meer integreren met Adobe Campaign Standard.</p>
+     <em>Streefdatum voor verwijdering: 2022</em></p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <table> 
  <thead> 
