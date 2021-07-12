@@ -6,19 +6,18 @@ description: Ontdek hoe u e-mailberichten kunt gebruiken die zijn gemaakt in de 
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-mailontwerp
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '440'
 ht-degree: 8%
 
 ---
 
-
-# E-mailinhoud {#converting-an-html-content} van verouderde editor converteren
+# E-mailinhoud van verouderde editor converteren {#converting-an-html-content}
 
 Werk met de e-mailontwerper en maak herbruikbare sjablonen en fragmenten op van uw e-mailHTML die u hebt gemaakt in de Verouderde editor.
 
