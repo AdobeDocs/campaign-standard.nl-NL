@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
-feature: Access Management
-role: Administrator
+feature: Toegangsbeheer
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '942'
 ht-degree: 88%
 
 ---
-
 
 # Groepen en gebruikers beheren{#managing-groups-and-users}
 
@@ -150,4 +149,3 @@ Uw gebruikers zijn nu toegewezen aan een beveiligingsgroep en kunnen verbinding 
 >[!IMPORTANT]
 >
 >Als gebruikers uit een beveiligingsgroep in de beheerconsole worden verwijderd, blijven ze deel uitmaken van de Adobe Campaign-beveiligingsgroep en kunnen ze zich niet meer aanmelden bij Adobe Campaign. Verwijder in dat geval de e-mailadressen van de gebruikers in de Admin Console om te voorkomen dat ze vertrouwelijke informatie ontvangen.
-
