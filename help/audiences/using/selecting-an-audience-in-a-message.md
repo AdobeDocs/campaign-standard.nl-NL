@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: deliveryCreation,wizard;delivery,audience,back
-feature: Audiences
-role: Business Practitioner
+feature: Doelgroepen
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 73%
+source-wordcount: '412'
+ht-degree: 74%
 
 ---
-
 
 # Een doelgroep in een bericht selecteren{#selecting-an-audience-in-a-message}
 
@@ -63,4 +62,3 @@ Doelgroepen kunnen worden gedefinieerd bij het maken van het bericht via de wiza
 Het blok Audience wordt vervolgens bijgewerkt en geeft weer dat een doel en testprofielen zijn geselecteerd voor de e-mail in kwestie.
 
 ![](assets/delivery_audience_definition_3.png)
-
