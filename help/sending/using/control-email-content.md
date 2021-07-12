@@ -7,19 +7,18 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Afleverbaarheid
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '791'
 ht-degree: 8%
 
 ---
 
-
-# E-mailcontent beheren{#control-email-content}
+# E-mailcontent controleren{#control-email-content}
 
 <!--TO KEEP because specific to Campaign-->
 
@@ -51,13 +50,13 @@ U moet ervoor zorgen dat een correct adres op instantieniveau of in de het vaaks
 
 Zie [De e-mailafzender van een e-mailbericht definiëren](../../designing/using/subject-line.md#email-sender) voor meer informatie.
 
-## De aanpassing van de aanpassing en verzendt tijdoptimalisering {#perso-send-time-optimization}
+## Personalisatie en tijdoptimalisatie {#perso-send-time-optimization}
 
 Om de ervaring van uw ontvangers te verbeteren en hen open uw e-mail te maken, laat Adobe Campaign u toe om uw berichten aan te passen. Zie [deze sectie](../../designing/using/personalization.md)voor meer informatie.
 
 Om het openingstarief van uw berichten te verhogen, kunt u een verzendende tijd per ontvanger ook manueel bepalen. Elk profiel ontvangt het bericht dan op de opgegeven datum en tijd, indien mogelijk. Zie [De verzendtijd optimaliseren](../../sending/using/optimizing-the-sending-time.md) voor meer informatie.
 
-## Koppeling en formulier {#opt-out} uitschakelen
+## Koppeling en formulier uitschakelen {#opt-out}
 
 Wanneer het bericht wordt geanalyseerd, controleert standaard een typologische regel of een opt-out-koppeling is opgenomen en wordt een waarschuwing gegenereerd als deze ontbreekt. Zie [deze sectie](../../designing/using/links.md) voor meer informatie over het beheren van koppelingen.
 
