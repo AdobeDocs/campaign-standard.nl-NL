@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Instantie-instellingen
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '951'
 ht-degree: 1%
 
 ---
-
 
 # Pushtracking implementeren {#push-tracking}
 
@@ -41,7 +40,7 @@ Voor het implementeren van tracering voor Campaign Standard moet de mobiele app 
 
 Om het volgen informatie te verzenden zijn er drie variabelen die moeten worden verzonden. Twee die deel van de gegevens uitmaken die van Campaign Standard en een actievariabele worden ontvangen die of het **Indrukking**, **Click** of **Open** dicteren.
 
-| Variabele | Value |
+| Variabele | Waarde |
 |:-:|:-:|
 | broadlogId | _mId van gegevens |
 | deliveryId | _dId van gegevens |
@@ -49,7 +48,7 @@ Om het volgen informatie te verzenden zijn er drie variabelen die moeten worden 
 
 ## Implementatie voor Android {#implementation-android}
 
-### Hoe u het bijhouden van pushberichten implementeert {#push-impression-tracking-android}
+### Hoe u push-tracking implementeert {#push-impression-tracking-android}
 
 Voor het volgen van de indruk, zult u waarde &quot;7&quot;voor actie moeten verzenden wanneer het roepen van **[!UICONTROL trackAction()]** functie.
 
@@ -83,7 +82,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 }
 ```
 
-### Klikspatiëring {#push-click-tracking-android} implementeren
+### Klikspatiëring implementeren {#push-click-tracking-android}
 
 Voor klik het volgen, zult u waarde &quot;2&quot;voor actie moeten verzenden wanneer het roepen van **[!UICONTROL trackAction()]** functie.
 
@@ -169,7 +168,7 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
 }
 ```
 
-### Hoe te om open het volgen {#push-open-tracking-android} uit te voeren
+### Openbare tracering implementeren {#push-open-tracking-android}
 
 U moet &quot;1&quot; en &quot;2&quot; verzenden omdat de gebruiker op een melding moet klikken om de app te openen. Als de app niet wordt gestart/geopend via pushberichten, vinden er geen gebeurtenissen voor het bijhouden van de app plaats.
 
@@ -225,7 +224,7 @@ private void handleTracking() {
 
 ## Implementatie voor iOS {#implementation-iOS}
 
-### Hoe u het bijhouden van pushberichten implementeert {#push-impression-tracking-iOS}
+### Hoe u push-tracking implementeert {#push-impression-tracking-iOS}
 
 Voor het volgen van de indruk, zult u waarde &quot;7&quot;voor actie moeten verzenden wanneer het roepen van **[!UICONTROL trackAction()]** functie.
 
@@ -297,7 +296,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
     }
 ```
 
-### Klikspatiëring {#push-click-tracking-iOS} implementeren
+### Klikspatiëring implementeren {#push-click-tracking-iOS}
 
 Voor klik het volgen, zult u waarde &quot;2&quot;voor actie moeten verzenden wanneer het roepen van **[!UICONTROL trackAction()]** functie.
 Voor leveringen die zijn gemaakt vóór 21.1-release of leveringen met een aangepaste sjabloon, raadpleegt u deze [sectie](../../administration/using/push-tracking.md#about-push-tracking).
@@ -368,7 +367,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
     }
 ```
 
-### Hoe te om open het volgen {#push-open-tracking-iOS} uit te voeren
+### Openbare tracering implementeren {#push-open-tracking-iOS}
 
 U moet &quot;1&quot; en &quot;2&quot; verzenden omdat de gebruiker op een melding moet klikken om de app te openen. Als de app niet wordt gestart/geopend via pushberichten, vinden er geen gebeurtenissen voor het bijhouden van de app plaats.
 
