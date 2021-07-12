@@ -4,12 +4,13 @@ product: campaign
 title: Vroege aanvullende informatie
 description: Vroege aanvullende informatie
 feature: Overzicht
-role: Business Practitioner
+role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 7eb12fbb89f677eb7184cb5ff200d3f8a466d3c8
-workflow-type: ht
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 100%
 
@@ -54,7 +55,7 @@ Op deze pagina worden nieuwe functies, verbeteringen en oplossingen beschreven d
 
 * Er is een nieuw bericht toegevoegd ter bevestiging van een geslaagde migratie van een v4-pushapplicatie naar een v5-pushapplicatie.
 
-* Tijdens het maken van JSONWeb-tokens om te verifiëren bij Campaign Standard-API zijn nu de productprofielen **overwogen**. Dit betekent dat de organisatorische eenheden en rollen die zijn toegewezen aan de beveiligingsgroep (die overeenkomt met het productprofiel op AdobeIO), worden toegepast op de technische IMS-account die nodig is voor oproepen van de Campaign Standard Rest-API. (CAMP-47479)
+* Tijdens het maken van JSONWeb-tokens om te verifiëren bij de Campaign Standard-API voor authentiek te verklaren, zijn nu de productprofielen **overwogen**. Dit betekent dat de organisatorische eenheden en rollen die zijn toegewezen aan de beveiligingsgroep (die overeenkomt met het productprofiel op AdobeIO), worden toegepast op de technische IMS-account die nodig is voor oproepen van de Campaign Standard Rest-API. (CAMP-47479)
 
 
 **Patches**
