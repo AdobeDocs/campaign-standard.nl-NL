@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
-feature: SMS
-role: Business Practitioner
+feature: Sms
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '270'
 ht-degree: 23%
 
 ---
-
 
 # Informatie over sms-berichten{#about-sms-messages}
 
@@ -45,7 +44,7 @@ Als u SMS-berichten naar een mobiele telefoon wilt verzenden, hebt u het volgend
 * [Sms-rapport](../../reporting/using/sms-report.md)
 * [Campaign Standard - gids voor mobiel gebruik](https://helpx.adobe.com/nl/campaign/kb/acs-mobile.html)
 
-## Sjabloon voor SMS-verzending {#sms-delivery-template}
+## Sjabloon voor verzending via SMS {#sms-delivery-template}
 
 Adobe Campaign biedt een leveringssjabloon voor mobiele apparaten. Deze sjabloon moet correct zijn gekoppeld aan de externe account die wordt gebruikt voor het kanaal **[!UICONTROL Mobile (SMS)]**. Om tot het toegang te hebben en het te wijzigen:
 
