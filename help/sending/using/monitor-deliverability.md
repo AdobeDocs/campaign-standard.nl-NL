@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Afleverbaarheid
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '307'
 ht-degree: 10%
 
 ---
-
 
 # Leverbaarheid controleren{#monitor-deliverability}
 
@@ -41,7 +40,7 @@ U kunt de weergegeven waarden configureren door de tijdschaal te wijzigen.
 
 Andere rapporten zijn beschikbaar, zoals **[!UICONTROL Delivery summary]** of **[!UICONTROL Non-deliverables and bounces]**. Zie [Dynamische rapporten](../../reporting/using/about-dynamic-reports.md) voor meer informatie.
 
-## Leveringen controleren{#monitoring-deliveries}
+## Leveringen controleren {#monitoring-deliveries}
 
 Het berichtdashboard geeft u toegang tot de leveringslogboeken: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** en **[!UICONTROL Tracked URLs]**. Zij tonen de details van de verzending, welk doel is uitgesloten en waarom, evenals de tracking-informatie zoals aantal geopend en aantal klikken.
 
@@ -49,7 +48,7 @@ Zie [Een levering controleren](../../sending/using/monitoring-a-delivery.md) voo
 
 ![](assets/sending_delivery1.png)
 
-## Bezig met ontvangen van waarschuwingen {#receiving-alerts}
+## Ontvangen van waarschuwingen {#receiving-alerts}
 
 De functie **[!UICONTROL Delivery alerting]** is een waarschuwingssysteem waarmee een groep gebruikers automatisch meldingen kan ontvangen die informatie bevatten over de uitvoering van hun leveringen.
 
