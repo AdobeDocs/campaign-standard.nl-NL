@@ -6,19 +6,18 @@ description: Beheer uw Adobe Campaign-operatoren met behulp van rollen, groepen 
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
-role: Administrator
+feature: Toegangsbeheer
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 98%
+source-wordcount: '228'
+ht-degree: 99%
 
 ---
 
-
-# Toegangsbeheer{#about-access-management}
+# Informatie over toegangsbeheer{#about-access-management}
 
 Met Adobe Campaign kunt u de machtigingen definiëren en beheren die aan verschillende gebruikers zijn toegewezen. Machtigingen zijn een reeks rechten en beperkingen die toegang tot bepaalde functies of objecten in de interface toestaan of weigeren. Deze toestemmingen zijn gebaseerd op twee concepten:
 
@@ -48,4 +47,3 @@ Gebruikers worden beheerd in de beheerconsole (raadpleeg de sectie [Groepen en g
 * [Organisatorische eenheden](../../administration/using/organizational-units.md)
 * [Lijst met rollen](../../administration/using/list-of-roles.md)
 * [Groepen en gebruikers beheren](../../administration/using/managing-groups-and-users.md)
-
