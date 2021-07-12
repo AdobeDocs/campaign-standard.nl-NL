@@ -7,12 +7,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 feature: Privacy
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 100%
 
@@ -44,7 +43,7 @@ Zie [Toestemming, retentie en rollen](#consent-retention-roles) voor meer inform
 
 It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
 
-## Regels voor privacybeheer {#privacy-management-regulations}
+## Voorschriften voor privacybeheer {#privacy-management-regulations}
 
 Met de opties van Adobe Campaign kunt u voldoen aan de volgende regels:
 
@@ -99,7 +98,7 @@ Zie [Abonnementen](../../audiences/using/about-subscriptions.md) en [Aan de slag
 
 Naast de tools voor toestemmingsbeheer van Adobe Campaign kunt u ook nagaan of een consument ervoor heeft gekozen om zich af te melden voor de verkoop van persoonsgegevens. Zie [deze sectie](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
-### Dataretentie {#data-retention}
+### Gegevensretentie {#data-retention}
 
 Voor retentie bevatten de ingebouwde logtabellen in Campaign vooraf ingestelde retentieperioden, waarbij de gegevensopslag over het algemeen is beperkt tot zes maanden of korter.
 
