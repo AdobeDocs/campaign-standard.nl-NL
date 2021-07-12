@@ -8,10 +8,10 @@ topic-tags: deliveries-best-practices
 index: y
 description: Leer hoe u het verzendproces upstream kunt beveiligen en optimaliseren.
 feature: Afleverbaarheid
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 6%
@@ -38,7 +38,7 @@ Verschillende factoren kunnen de serverprestaties rechtstreeks beïnvloeden en h
 
 * U kunt [Mogelijkheden van het Configuratiescherm van de Campagne gebruiken](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) om uw platform te controleren, gebruikend [prestaties controle](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html) functionaliteiten.
 
-## Netwerkconfiguratie {#network-config} controleren
+## Netwerkconfiguratie controleren {#network-config}
 
 Om levering te optimaliseren wanneer het behandelen van e-mails in grote volumes en vermijd wordt verward voor spammer, zorg ervoor dat u een wettige netwerkconfiguratie hebt die niet probeert om de identiteit van de server te verbergen.
 
@@ -74,7 +74,7 @@ Wanneer u e-mailberichten op een nieuw platform gaat verzenden, kunt u een lijst
 
 * Het beheer van quarantaines zal ook de verzendkosten van SMS helpen verminderen door onjuiste telefoonnummers uit te sluiten van leveringen.
 
-## Dubbele opt-in mechanisme {#double-opt-in}
+## Dubbele opt-in-regeling {#double-opt-in}
 
 Om te voorkomen dat berichten naar ongeldige adressen worden verzonden, onjuiste communicatie wordt beperkt en de reputatie van de afzender wordt verbeterd, raadt Adobe aan een dubbele opt-in-mechanisme in te voeren voor bevestiging na abonnement. Zo weet u zeker dat een ontvanger met opzet is geabonneerd.
 
