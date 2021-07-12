@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
 feature: Instantie-instellingen
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 80%
 
 ---
 
-# Merkpositionering{#branding}
+# Branding{#branding}
 
 ## Merkidentiteit {#about-brand-identity}
 
@@ -91,7 +91,7 @@ Een **merk** wordt gedefinieerd door de volgende kenmerken:
 
 U kunt nieuwe entiteiten van uw organisatie toevoegen in Campagne, of een nieuw type van e-mail tot stand brengen dat u onder een verschillend subdomain moet verzenden. Volg onderstaande stappen om dit te doen:
 
-1. **Vorm een nieuw subdomain**  - voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap zijn het te vormen. U kunt dit uitvoeren door [Campagne Controlebord](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html) of bereiken aan uw Adobe technisch contact. Meer informatie over subdomeinconfiguratie [in dit artikel](https://helpx.adobe.com/nl/campaign/kb/domain-name-delegation.html).
+1. **Vorm een nieuw subdomain**  - voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap zijn het te vormen. U kunt dit uitvoeren door [Campagne Controlebord](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl) of bereiken aan uw Adobe technisch contact. Meer informatie over subdomeinconfiguratie [in dit artikel](https://helpx.adobe.com/nl/campaign/kb/domain-name-delegation.html).
 
    >[!NOTE]
    >
@@ -107,7 +107,7 @@ U kunt nieuwe entiteiten van uw organisatie toevoegen in Campagne, of een nieuw 
 
    * Productie-URL: XXX.campagne.adobe.com
 
-1. **Een leveringssjabloon**  maken - Als het nieuwe merk beschikbaar is, kunt u het beste ten minste één nieuwe lege leveringssjabloon maken die naar dit nieuwe merk verwijzen. [Meer informatie](#linking-a-brand-to-a-template).
+1. **Een leveringssjabloon**  maken - Als het nieuwe merk beschikbaar is, kunt u het beste ten minste één nieuwe lege leveringssjabloon maken die naar dit nieuwe merk verwijzen. [Meer info](#linking-a-brand-to-a-template).
 
 1. **Richtlijnen voor**  de leverbaarheid van de controle - Alvorens te beginnen het gebruiken van het nieuwe domein, zou de strategie met het team van de Leverbaarheid van de Adobe moeten worden besproken. Zij zullen helpen om de beste praktijken te bepalen, als een nieuwe affiniteit zou moeten worden gecreeerd om IPs tussen domeinen bijvoorbeeld te verdelen, en/of als een platforminplan zou moeten worden bepaald. Meer informatie over de beste werkwijzen voor de aflevering [in deze sectie](../../sending/using/about-deliverability.md).
 
