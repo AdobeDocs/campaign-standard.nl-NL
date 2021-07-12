@@ -7,19 +7,18 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: recipient,overview
-feature: Profiles
-role: Business Practitioner
+feature: Profielen
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 65310e00-567f-4fae-89bc-b1d5591fca77
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 98%
+source-wordcount: '156'
+ht-degree: 100%
 
 ---
 
-
-# Informatie over profielen{#about-profiles}
+# Over profielen{#about-profiles}
 
 Met Adobe Campaign kunt u contacten gedurende de volledige levenscyclus beheren: u kunt contacten maken, importeren, doelgericht benaderen, bijwerken, de acties van uw contacten opvolgen, enzovoort. Contacten worden opgeslagen in de database als profielen die de informatie bevatten die eraan zijn gekoppeld: achternaam, voornaam, adres, abonnementen, leveringen, enzovoort.
 
