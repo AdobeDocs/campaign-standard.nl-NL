@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 feature: Prestatiebewaking
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
-source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 24%
@@ -19,7 +19,7 @@ ht-degree: 24%
 
 # Berichten traceren{#tracking-messages}
 
-## Informatie over bijhouden {#about-tracking}
+## Over bijhouden {#about-tracking}
 
 Dankzij de trackingfuncties van Adobe Campaign kunt u het gedrag van de geadresseerden bijhouden. Hiervoor gebruikt Adobe Campaign sessiecookies en permanente cookies.
 
@@ -61,7 +61,7 @@ Als u opvolgt met de Adobe Campaign Standard, hebt u toegang tot de volgende fun
 </tr>
 </table>
 
-## Logbestanden bijhouden {#tracking-logs}
+## Logboeken bijhouden {#tracking-logs}
 
 Op het tabblad **[!UICONTROL Tracking logs]** wordt de geschiedenis van het bijhouden van gegevens voor deze levering weergegeven. Op dit tabblad wordt de informatie over het bijhouden van de verzonden berichten weergegeven, zoals alle URL&#39;s die door Adobe Campaign zijn bijgehouden. De trackinggegevens op dit tabblad worden elke 10 minuten bijgewerkt.
 
