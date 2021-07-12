@@ -6,22 +6,22 @@ description: Begin met het ontwikkelen van herbruikbare e-mailinhoud met de e-ma
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-mailontwerp
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1824'
+source-wordcount: '1821'
 ht-degree: 1%
 
 ---
 
-# Herbruikbare inhoud maken {#using-reusable-content}
+# Herbruikbare inhoud maken en gebruiken {#using-reusable-content}
 
 Leer hoe u e-mailinhoud kunt master. Met E-mailontwerper kunt u sjablonen en fragmenten maken met uw eigen vooraf gedefinieerde inhoud en deze opnieuw gebruiken voor de volgende leveringen.
 
-## E-mailberichten ontwerpen met sjablonen {#designing-templates}
+## E-mailberichten ontwerpen met behulp van sjablonen {#designing-templates}
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Leer hoe u e-mailinhoud kunt master. Met E-mailontwerper kunt u sjablonen en fra
 
 ![](assets/do-not-localize/how-to-video.png) [Ontdek hoe u sjablonen kunt maken in video](#video)
 
-### Informatie over inhoudssjablonen {#content-templates}
+### Over inhoudssjablonen {#content-templates}
 
 U kunt HTML-inhoud beheren die wordt aangeboden op het tabblad **[!UICONTROL Templates]** van de startpagina [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md).
 
@@ -175,7 +175,7 @@ Als u een fragment in een e-mailbericht wilt ontgrendelen, selecteert u het en k
 
 Dat fragment wordt een zelfstandige component die niet meer aan het oorspronkelijke fragment is gekoppeld. Deze kan vervolgens worden bewerkt als elke andere inhoudscomponent. Zie [Informatie over inhoudscomponenten](../../designing/using/designing-from-scratch.md#about-content-components).
 
-### Fragmenten invoegen in een e-mail {#inserting-elements-into-an-email}
+### Fragmenten in een e-mail invoegen {#inserting-elements-into-an-email}
 
 Als u de inhoud van uw e-mail wilt definiëren, kunt u inhoudselementen toevoegen aan de structuurcomponenten die u vooraf hebt geplaatst. Zie [De e-mailstructuur bewerken](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
@@ -207,7 +207,7 @@ Nu de e-mailstructuur is gevuld, kunt u de stijl van elk inhoudselement bewerken
 >
 >Als een fragment wordt gewijzigd, worden de wijzigingen automatisch doorgegeven in de e-mails waar het wordt gebruikt. Zie [Informatie over fragmenten](#about-fragments) voor meer informatie.
 
-### Een inhoudsfragment {#creating-a-content-fragment} maken
+### Een inhoudsfragment maken {#creating-a-content-fragment}
 
 U kunt uw eigen inhoudsfragmenten maken en deze zo nodig in een of meer e-mails gebruiken.
 
