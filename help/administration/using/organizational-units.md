@@ -7,21 +7,20 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
-feature: Access Management
-role: Administrator
+feature: Toegangsbeheer
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '844'
 ht-degree: 4%
 
 ---
 
-
 # Organisatorische eenheden{#organizational-units}
 
-## Informatie over eenheden {#about-units}
+## Eenheden {#about-units}
 
 Elk object en elke gebruiker van het platform is gekoppeld aan een organisatorische eenheid. Met deze eenheid kan een hiërarchische structuur worden gedefinieerd om gebruikers een gefilterde weergave te geven. De eenheid van een gebruiker bepaalt hun toegangsniveau voor verschillende platformvoorwerpen.
 
@@ -96,7 +95,7 @@ Terwijl de profielen bij de organisatie van de Geometrixx alleen-lezen zijn, wor
 
 ![](assets/manage_units_10.png)
 
-## Profielen {#partitioning-profiles} partitioneren
+## Profielen partitioneren {#partitioning-profiles}
 
 >[!IMPORTANT]
 >
@@ -124,5 +123,4 @@ Het veld Organisatorische eenheid wordt toegevoegd aan uw profielen in de sectie
 **Verwante onderwerpen**:
 
 * [Eenheden](../../administration/using/organizational-units.md#about-units)
-* [Toegangsbeheer](../../administration/using/about-access-management.md)
-
+* [Informatie over toegangsbeheer](../../administration/using/about-access-management.md)
