@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: delivery,smsContent,back
 feature: Sms
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 7%
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 # Binnenkomende sms&#39;en beheren{#managing-incoming-sms}
 
-## STOP-SMS beheren {#managing-stop-sms}
+## STOP SMS beheren {#managing-stop-sms}
 
 Wanneer een profiel een sms-bericht beantwoordt dat via Campaign is verzonden, kunt u berichten configureren die automatisch naar het profiel worden teruggestuurd, evenals de actie die moet worden uitgevoerd.
 
@@ -67,7 +67,7 @@ De ontvangers kunnen nu automatisch het abonnement op uw berichten opzeggen en n
 
 Deze inkomende SMS kan indien nodig worden opgeslagen. Raadpleeg voor meer informatie hierover deze [sectie](#storing-incoming-sms).
 
-## Binnenkomende SMS {#storing-incoming-sms} opslaan
+## Binnenkomende SMS opslaan {#storing-incoming-sms}
 
 In **[!UICONTROL SMS routing via SMPP]** externe rekening, kunt u verkiezen om inkomende berichten op te slaan, bijvoorbeeld wanneer een abonnee &quot;STOP&quot;aan een SMS- bericht antwoordt om van uw ontvankelijke lijsten te worden verwijderd.
 
