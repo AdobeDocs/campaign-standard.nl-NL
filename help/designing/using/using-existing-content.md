@@ -6,13 +6,13 @@ description: Ontdek hoe u e-mailberichten kunt ontwerpen met bestaande inhoud en
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-mailontwerp
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1214'
 ht-degree: 5%
 
 ---
@@ -64,9 +64,9 @@ Als de HTML deze codering niet geheel of gedeeltelijk heeft, wordt de inhoud gel
 
 Als u een bestaande externe inhoud volledig bewerkbaar wilt maken in de E-mailontwerper, raadpleegt u de sectie [Een e-mail ontwerpen met bestaande inhoud](../../designing/using/using-existing-content.md).
 
-## Bestaande e-mailinhoud {#importing} importeren
+## Bestaande e-mailinhoud importeren {#importing}
 
-### Inhoud importeren uit een bestand {#importing-content-from-a-file}
+### Inhoud uit een bestand importeren {#importing-content-from-a-file}
 
 Klik op de introductiepagina E-mail Designer op de knop **[!UICONTROL Upload]** om een bestand van uw computer te uploaden en bevestig het vervolgens.
 
@@ -81,7 +81,7 @@ De volgende indelingen worden ondersteund voor importeren:
 >
 >Voor e-mailinhoud raden we u aan om afzonderlijke HTML-bestanden met een opgenomen stijlpagina te importeren.
 
-#### Inhoud importeren van een URL {#importing-content-from-a-url}
+#### Inhoud van een URL importeren {#importing-content-from-a-url}
 
 Voordat u inhoud van een URL importeert, moet u controleren of aan de onderstaande vereisten wordt voldaan:
 
@@ -170,7 +170,7 @@ Zie [deze sectie](../../designing/using/using-existing-content.md) voor meer inf
 * [Introductievideo over e-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Een geheel nieuwe e-mailinhoud ontwerpen](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## HTML-inhoud {#converting-an-html-content} omzetten
+## HTML-inhoud converteren {#converting-an-html-content}
 
 Als u een raamwerk van modulaire sjablonen en fragmenten wilt maken die u kunt combineren voor hergebruik in meerdere e-mails, kunt u uw e-mailHTML converteren naar een sjabloon voor e-mailontwerpen.
 
