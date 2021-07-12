@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 feature: Instantie-instellingen
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '2598'
 ht-degree: 76%
@@ -157,7 +157,7 @@ U kunt ook een **[!UICONTROL Description]** toevoegen in het desbetreffende veld
 
 De sectie **[!UICONTROL Send]** is alleen beschikbaar voor e-mailsjablonen. Deze bevat de volgende parameters:
 
-#### Parameters voor hernieuwde pogingen{#retries-parameters}
+#### Parameters voor hernieuwde pogingen {#retries-parameters}
 
 Voor tijdelijk niet bezorgde berichten wordt automatisch een nieuwe poging uitgevoerd. Zie [Hernieuwde pogingen na een tijdelijke leveringsfout](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)voor meer informatie.
 
@@ -296,7 +296,7 @@ De sectie **[!UICONTROL SMTP]** bevat de volgende parameters:
    >
    >Het toevoegen van een script voor het opnemen van extra SMTP-kopteksten is gereserveerd voor gevorderde gebruikers. De syntaxis van dit script moet voldoen aan de vereisten van dit type content: geen ongebruikte ruimte, geen lege regel, enz.
 
-### Lijst van parameters voor toegang{#list-of-access-authorization-parameters}
+### Lijst van parameters voor toegang {#list-of-access-authorization-parameters}
 
 De sectie **[!UICONTROL Access authorization]** bevat de volgende parameters:
 
@@ -346,7 +346,7 @@ Stuiterwaarden kunnen de volgende kwalificatiestatus hebben:
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
-### Rapportage van geleverde indicator {#legacy-delivered-status-report}
+### Rapportage van geleverde indicatoren {#legacy-delivered-status-report}
 
 In de **[!UICONTROL Summary]** mening van elk bericht, zal het **[!UICONTROL Delivered]** percentage progressief stijgen door de geldigheidsperiode van de levering, aangezien de zachte en harde grenzen worden gemeld.
 
