@@ -8,16 +8,15 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 feature: Transactional Messaging
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '609'
 ht-degree: 8%
 
 ---
-
 
 # Een transactionele gebeurtenis publiceren {#publishing-transactional-event}
 
@@ -77,7 +76,7 @@ Voordat u de gebeurtenis kunt gebruiken, moet u deze voorvertonen en publiceren.
 
 De gebeurtenissen (in JSON-indeling) worden weergegeven van de meest recente tot de oudste. Met deze lijst kunt u gegevens zoals de inhoud of de status van een gebeurtenis controleren voor controle en foutopsporing.
 
-## Publiceren van een gebeurtenis {#unpublishing-an-event} ongedaan maken
+## Publicatie van een gebeurtenis ongedaan maken {#unpublishing-an-event}
 
 Met de knop **[!UICONTROL Unpublish]** kunt u de publicatie van de gebeurtenis annuleren. Hierdoor wordt de bron die overeenkomt met de gebeurtenis die u eerder hebt gemaakt, verwijderd uit de REST API.
 
@@ -99,7 +98,7 @@ The chart below illustrates the transactional messaging publication process.
 
 For more on publishing, pausing and unpublishing a transactional message, see [this section](../../channels/using/publishing-transactional-message.md).-->
 
-## Een gebeurtenis {#deleting-an-event} verwijderen
+## Een gebeurtenis verwijderen {#deleting-an-event}
 
 Nadat een gebeurtenis niet gepubliceerd is of nog niet gepubliceerd is, kunt u deze verwijderen uit de lijst met gebeurtenisconfiguraties. Dit doet u als volgt:
 
