@@ -6,21 +6,20 @@ description: Begrijp hoe opt-in en opt-out in Adobe Campaign worden beheerd.
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: Audiences
-role: Business Practitioner
+feature: Doelgroepen
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4aeb90c5-f5b5-4cfe-93fb-2fd01fb8d70e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 8%
+source-wordcount: '310'
+ht-degree: 9%
 
 ---
 
-
 # Opt-in en opt-out beheren in Campaign{#managing-opt-in-and-opt-out-in-campaign}
 
-## Optie-in en opt-out beheren vanuit een profiel {#managing-opt-in-and-opt-out-from-a-profile}
+## Optie en opt-out beheren voor een profiel {#managing-opt-in-and-opt-out-from-a-profile}
 
 Gebruikers kunnen door een operator rechtstreeks vanuit het tabblad Profiel worden in- of uitgeschakeld.**[!UICONTROL General]**
 
@@ -52,11 +51,10 @@ U kunt ook een **[!UICONTROL Denylist]**-bestemmingspagina instellen waarmee geb
 
    ![](assets/optin_landingpage_3.png)
 
-### Een openingspagina instellen om af te zien van alle leveringen {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
+### Een landingspagina instellen om af te zien van alle leveringen {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
 Als u gebruikers de mogelijkheid wilt geven om af te zien van alle leveringen, moet u een **[!UICONTROL Denylist]**-bestemmingspagina maken en publiceren. Raadpleeg [deze pagina](../../channels/using/getting-started-with-landing-pages.md) voor meer informatie over het maken van bestemmingspagina&#39;s.
 
 Wanneer een gebruiker op de koppeling naar de bestemmingspagina klikt, wordt de optie **[!UICONTROL No longer contact (by any channel)]** in het profiel automatisch geselecteerd.
 
 ![](assets/blocklisting_allchannels.png)
-
