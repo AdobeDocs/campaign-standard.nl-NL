@@ -7,16 +7,15 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 feature: Push
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 0%
+source-wordcount: '1128'
+ht-degree: 1%
 
 ---
-
 
 # Een CSV-bestand genereren voor meertalige pushmeldingen{#generating-csv-multilingual-push}
 
@@ -51,7 +50,7 @@ Controleer het CSV-voorbeeld door op **[!UICONTROL Download a sample file]** in 
 * **taal**: naam van de taal die aan de landinstelling is gekoppeld. Als de landinstelling bijvoorbeeld &#39;en_us&#39; is, moet de naam van de taal &#39;English-United States&#39; zijn.
 * **silentPush**: markering voor het type pushmelding. Als het een regelmatig pushbericht is, moet de waarde 0 zijn. Als het een stille push is, moet de waarde 1 zijn. De standaardwaarde is 0. Als u deze kolom leeg laat, wordt de waarde als 0 beschouwd.
 
-## Restricties en richtlijnen voor het maken van het CSV-bestand {#constraints-guideline-csv}
+## Restricties en richtlijnen voor het maken van CSV-bestanden {#constraints-guideline-csv}
 
 **De naam van elke kolom is vast**.
 Neem de naam van elke kolom op in het CSV-bestand. Als u geen kolommen gebruikt voor de inhoud, laat u deze leeg.
@@ -69,7 +68,7 @@ Een lege waarde voor deze kolom resulteert in een fout bij het uploaden van het 
 
 **Variant komt niet overeen.** Als u inhoudsblok en doelpubliek met specifieke talen gebruikt, moet u elke beoogde taal in uw CSV-bestand vermelden, anders krijgt u een foutbericht bij het verzenden van de levering.
 
-## Invoeging van het verpersoonlijkingsgebied in het csv- dossier {#personalization-field-csv}
+## Invoeging van het aanpassingsveld in het CSV-bestand {#personalization-field-csv}
 
 Als u verpersoonlijkingsgebieden wilt gebruiken, zou u <span> markering in het dossier moeten omvatten.
 
