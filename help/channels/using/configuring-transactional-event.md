@@ -8,16 +8,15 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 feature: Transactional Messaging
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1677'
+source-wordcount: '1674'
 ht-degree: 7%
 
 ---
-
 
 # Een transactionele gebeurtenis configureren {#configuring-transactional-event}
 
@@ -67,7 +66,7 @@ De stappen voor het toevoegen en wijzigen van gebieden zijn het zelfde als voor 
 >
 >Als u een meertalig transactiebericht wilt creëren, bepaal een extra gebeurtenisattribuut met **[!UICONTROL AC_language]** identiteitskaart Dit is alleen van toepassing op transactieberichten voor gebeurtenissen. Nadat de gebeurtenis is gepubliceerd, zijn de stappen voor het bewerken van de inhoud van een meertalig transactiebericht gelijk aan die voor een meertalig standaard-e-mailbericht. Zie [Een meertalige e-mail maken](../../channels/using/creating-a-multilingual-email.md).
 
-## Gegevensverzamelingen {#defining-data-collections} definiëren
+## Gegevensverzamelingen definiëren {#defining-data-collections}
 
 U kunt aan de inhoud van de gebeurtenis een inzameling van elementen toevoegen, elk element zelf met verscheidene attributen.
 
@@ -102,7 +101,7 @@ Hier volgt de API-voorvertoning voor dit voorbeeld:
 * [Productvermeldingen gebruiken in een transactiebericht](../../designing/using/using-product-listings.md)
 * [Transactiebericht publiceren](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
-## De gebeurtenis {#enriching-the-transactional-message-content} verrijken
+## De gebeurtenis verrijken {#enriching-the-transactional-message-content}
 
 U kunt de inhoud van het transactiebericht verrijken met informatie uit de Adobe Campaign-database om uw berichten aan te passen. Van achternaam of identiteitskaart van CRM van elk van uw ontvangers, bijvoorbeeld, kunt u gegevens zoals hun adres of geboortedatum of een ander douanegebied terugkrijgen dat in de lijst van het Profiel wordt toegevoegd, om de informatie te personaliseren die naar hen wordt verzonden.
 
