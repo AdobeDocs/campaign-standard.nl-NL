@@ -1,24 +1,24 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Bewakingsrichtlijnen
+title: Controlerichtlijnen
 description: In deze paragraaf worden algemene richtsnoeren voor de monitoring van Campaign Standard uiteengezet.
 audience: production
 content-type: reference
 topic-tags: introduction
 index: y
 feature: Toegangsbeheer
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 20%
 
 ---
 
-# Bewakingsrichtlijnen {#monitoring-guidelines}
+# Controlerichtlijnen {#monitoring-guidelines}
 
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-system">Toezicht op het systeem</a></p></td>
@@ -28,7 +28,7 @@ ht-degree: 20%
 
 Campaign Standard biedt verschillende manieren om uw instanties te controleren om ervoor te zorgen dat uw systeem gezond is en uiteindelijk problemen op te lossen die kunnen optreden bij het instellen van workflows, het verzenden van leveringen, enz.
 
-## Bewaking van het systeem {#monitoring-system}
+## Toezicht op het systeem {#monitoring-system}
 
 <img src="assets/do-not-localize/icon_system.svg" width="60px">
 
@@ -82,7 +82,7 @@ Controle van workflowlogbestanden is een belangrijke stap om uw workflows te ana
 Met Campaign Standard kunt u meldingen verzenden naar supervisors om te controleren of de workflows worden uitgevoerd en of er een fout is die uw aandacht vereist.
 [Meer informatie](../../automating/using/monitoring-workflow-execution.md#error-management)
 
-## Leveringen controleren{#monitoring-deliveries}
+## Leveringen controleren {#monitoring-deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
