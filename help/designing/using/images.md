@@ -6,17 +6,16 @@ description: Ontdek hoe u afbeeldingen in e-mailberichten kunt beheren met de e-
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-mailontwerp
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b58a378d-18da-4c0f-b4e7-5d0a02aab4c2
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '305'
 ht-degree: 3%
 
 ---
-
 
 # Werken met afbeeldingen {#images}
 
@@ -34,7 +33,7 @@ Afhankelijk van uw configuratie zijn de volgende typen afbeeldingen beschikbaar:
 >
 >Als u ervoor kiest om een afbeelding rechtstreeks toe te voegen door de HTML-versie van de e-mail te bewerken, moet u **externe bestanden niet opvragen in een &lt;script>-tag** van de HTML-pagina. Deze bestanden worden niet geïmporteerd op de Adobe Campaign-server.
 
-### Afbeeldingen invoegen in een e-mail {#inserting-images-in-an-email}
+### Afbeeldingen in een e-mail invoegen {#inserting-images-in-an-email}
 
 1. Voeg een structuurcomponent toe. Ga voor meer informatie naar [De e-mailstructuur bewerken](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Voeg binnen deze structuurcomponent een inhoudscomponent **[!UICONTROL Image]** toe.
