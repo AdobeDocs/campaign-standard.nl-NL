@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Instantie-instellingen
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 7%
@@ -66,7 +66,7 @@ Zie [Kanaalspecifieke applicatieconfiguratie in Adobe Campaign](../../administra
 1. Indien nodig kunt u de eigenschap Experience Platform Launch verwijderen.
 Zie [Uw Experience Platform Launch-toepassing verwijderen](../../administration/using/configuring-a-mobile-application.md#delete-app) voor meer informatie.
 
-## Mobiele app AEPSDK synchroniseren vanuit technische workflow {#aepsdk-workflow} starten
+## Mobiele app synchroniseren met AEPSDK vanuit technische workflow starten {#aepsdk-workflow}
 
 Nadat u uw mobiele eigenschap in Experience Platform Launch hebt gemaakt en geconfigureerd, wordt met de technische workflow **[!UICONTROL Sync Mobile app AEPSDK from Launch]** de in Adobe Campaign Standard geïmporteerde mobiele eigenschappen voor het starten van Adobe nu gesynchroniseerd.
 
@@ -85,7 +85,7 @@ Standaard begint de technische werkstroom elke 15 minuten. Indien nodig kan de t
 
 De Adobe Launch mobile-eigenschappen die in Adobe Campaign Standard zijn geïmporteerd, worden nu opnieuw opgestart en gesynchroniseerd.
 
-## Adobe Experience Platform Launch-toepassingen instellen in Adobe Campaign {#set-up-campaign}
+## Een Adobe Experience Platform Launch-toepassing instellen in Adobe Campaign {#set-up-campaign}
 
 Om een Experience Platform Launch mobiel bezit in Campagne te gebruiken, moet u dit bezit in Adobe Campaign ook vormen. In Adobe Campaign moet u ervoor zorgen dat de IMS-gebruiker deel uitmaakt van de standaardprofielen voor gebruikers- en beheerproducten.
 
@@ -164,7 +164,7 @@ Uw mobiele toepassing kan nu worden gebruikt in Campagne voor pushberichten of i
 
 1. Klik op het tabblad **[!UICONTROL Mobile application subscribers]** om een lijst met abonnees en andere informatie over deze abonnees weer te geven, bijvoorbeeld of ze uw meldingen hebben verlaten.
 
-## Uw Adobe Experience Platform Launch-toepassing {#delete-app} verwijderen
+## Adobe Experience Platform Launch-toepassing verwijderen {#delete-app}
 
 Het verwijderen van uw Experience Platform Launch kan niet ongedaan worden gemaakt.
 
