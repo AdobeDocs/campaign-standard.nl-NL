@@ -6,17 +6,16 @@ description: Leer hoe u bestaande profielen kunt bewerken en toegang kunt krijge
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profiles
-role: Business Practitioner
+feature: Profielen
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 11%
+source-wordcount: '315'
+ht-degree: 12%
 
 ---
-
 
 # Profielen bewerken{#editing-profiles}
 
@@ -62,7 +61,7 @@ Met de tabbladen **[!UICONTROL Sending logs]** en **[!UICONTROL Tracking logs]**
 
 Voor meer bij het verzenden van en het volgen van logboeken, verwijs naar [leveringslogboeken](../../sending/using/monitoring-a-delivery.md#delivery-logs) en [volgende berichten](../../sending/using/tracking-messages.md) secties.
 
-## Abonnementen {#subscriptions}
+## Lidmaatschappen {#subscriptions}
 
 De abonnementen van de contactpersoon worden vermeld op het overeenkomstige tabblad. Raadpleeg [deze sectie](../../audiences/using/about-subscriptions.md) voor meer informatie over het abonneren op een service.
 
