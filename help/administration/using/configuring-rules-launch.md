@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: Instantie-instellingen
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: fba2ecddb2ebbf600be28724c8658d6d61eb9ecd
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Ga als volgt te werk om regels te maken in [!DNL Experience Platform Launch]:
    * [Postback-up van pushberichten](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
    * [Locatie na terugzetten](../../administration/using/configuring-rules-launch.md#location-postback)
 
-## Gegevenselementen {#create-data-elements} maken
+## Gegevenselementen maken {#create-data-elements}
 
 Hier zijn de gegevenselementen wij adviseren dat u in [!DNL Experience Platform Launch] creeert.
 U kunt naar wens aanvullende gegevenselementen maken.
@@ -66,7 +66,7 @@ U kunt als volgt deze gegevenselementen maken:
 
 1. Selecteer **[!UICONTROL Adobe Campaign Standard]** in de vervolgkeuzelijst **[!UICONTROL Extension]**. Vervolgens **[!UICONTROL Campaign Server]** in de vervolgkeuzelijst **[!UICONTROL Data element]** typen.
 
-## Regels {#creating-rules} maken
+## Regels maken {#creating-rules}
 
 U moet regels maken voor het volgende:
 
@@ -144,7 +144,7 @@ Als u PII-gegevens naar [!DNL Adobe Campaign Standard] wilt verzenden, maakt u e
 
 Uw gebruikersgegevens zijn nu geconfigureerd om naar Campagne te worden verzonden.
 
-### Postback &#39;In-app tracering {#inapp-tracking-postback}
+### Postback bijhouden in de app {#inapp-tracking-postback}
 
 >[!NOTE]
 >
@@ -182,7 +182,7 @@ Als u volggegevens naar [!DNL Adobe Campaign Standard] wilt verzenden voor rappo
 
    ![](assets/do-not-localize/rules_3.png)
 
-### Postback van pushmeldingen {#push-tracking-postback}
+### Postback-up van pushberichten {#push-tracking-postback}
 
 >[!NOTE]
 >
@@ -222,7 +222,7 @@ Gebruik de trackAction-API om de handelingen van de app bij te houden. Zie [Toep
 
 1. Selecteer 0 in **[!UICONTROL Timeout]**.
 
-### Locatie na {#location-postback}
+### Locatie na terugzetten {#location-postback}
 
 1. Klik in [!DNL Experience Platform Launch] op het tabblad **[!UICONTROL Rules]** van het dashboard voor mobiele toepassingen en klik op **[!UICONTROL Add Rule]**.
 
