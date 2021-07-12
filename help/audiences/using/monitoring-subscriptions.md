@@ -1,24 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Abonnementen controleren
+title: Lidmaatschappen controleren
 description: Leer hoe u uw abonnees kunt volgen en het succes van uw services kunt meten aan de hand van dashboards en rapporten.
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: Audiences
-role: Business Practitioner
+feature: Doelgroepen
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ad380122-6791-4580-b0eb-fce75b1ec863
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '358'
 ht-degree: 1%
 
 ---
 
-
-# Abonnementen controleren{#monitoring-subscriptions}
+# Lidmaatschappen controleren{#monitoring-subscriptions}
 
 Gebruik de Adobe Campaign-interface om uw abonnees te volgen en het succes van uw services te meten.
 
@@ -63,9 +62,8 @@ Een rapport weergeven waarin de ontwikkeling van abonnementen en abonnementen wo
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
-## Geschiedenis van gebeurtenissen die zijn gekoppeld aan een profiel {#history-of-events-linked-to-a-profile}
+## Historie van gebeurtenissen die aan een profiel zijn gekoppeld {#history-of-events-linked-to-a-profile}
 
 Als u de lijst wilt raadplegen met services waarop een contactpersoon zich heeft geabonneerd, kunt u de marketinggeschiedenis raadplegen. Raadpleeg voor meer informatie de sectie [Geïntegreerd klantprofiel](../../audiences/using/integrated-customer-profile.md).
 
 ![](assets/lp_monitoring_subscriptions_5.png)
-
