@@ -7,11 +7,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 feature: Privacy
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: 664274abc26925044625a31489b10e5339a2ef7b
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Daarom is het uw verantwoordelijkheid als gegevenscontroller om de identiteit te
 
 ### Naamruimten {#namesspaces}
 
-Voordat u verzoeken om toegang tot persoonsgegevens maakt, moet u de naamruimte definiëren die u wilt gebruiken. De naamruimte is de sleutel die wordt gebruikt om de betrokkene in de Adobe Campaign-database te identificeren. Er zijn twee ingebouwde naamruimten beschikbaar: e-mail en mobiele telefoon. Voer de volgende stappen uit als u een andere naamruimte nodig hebt (bijvoorbeeld een aangepast profielveld).
+Voordat u privacyverzoeken maakt, moet u de naamruimte definiëren die u wilt gebruiken. De naamruimte is de sleutel die wordt gebruikt om de betrokkene in de Adobe Campaign-database te identificeren. Er zijn twee ingebouwde naamruimten beschikbaar: e-mail en mobiele telefoon. Voer de volgende stappen uit als u een andere naamruimte nodig hebt (bijvoorbeeld een aangepast profielveld).
 
 Raadpleeg ook deze [tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=nl#privacy) over het maken van een naamruimte.
 
@@ -89,7 +89,7 @@ Raadpleeg ook deze [tutorial](https://experienceleague.adobe.com/docs/campaign-s
 
 1. Klik op **[!UICONTROL Create]**. U kunt nu verzoeken om toegang tot persoonsgegevens maken op basis van uw nieuwe naamruimte. Als u meerdere naamruimten gebruikt, moet u één verzoek om toegang tot persoonsgegevens per naamruimte maken.
 
-### Een privacyverzoek maken {#create-privacy-request}
+### Een verzoek om toegang tot persoonsgegevens maken {#create-privacy-request}
 
 >[!IMPORTANT]
 >
