@@ -6,21 +6,20 @@ description: Ontdek hoe u de onderwerpregel en de afzender van een e-mailbericht
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-mailontwerp
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 22112517-40f7-4966-84bf-40794e5d0f79
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '340'
 ht-degree: 2%
 
 ---
 
+# De onderwerpregel en de afzender van een e-mail definiëren{#defining-the-subject-line-of-an-email}
 
-# De onderwerpregel en de afzender van een e-mailbericht definiëren{#defining-the-subject-line-of-an-email}
-
-## De onderwerpregel van een e-mailbericht {#subject-line} definiëren
+## De onderwerpregel van een e-mailbericht definiëren {#subject-line}
 
 Het bericht is verplicht om het bericht voor te bereiden en te verzenden.
 
