@@ -8,22 +8,21 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 feature: Transactional Messaging
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 39%
+source-wordcount: '280'
+ht-degree: 40%
 
 ---
 
-
-# Een transactiebericht testen {#testing-a-transactional-message}
+# Een transactioneel bericht testen {#testing-a-transactional-message}
 
 Voordat u uw transactiebericht publiceert, kunt u een specifiek testprofiel maken waarmee u het bericht correct kunt controleren.
 
-## Een specifiek testprofiel {#defining-specific-test-profile} definiëren
+## Een specifiek testprofiel definiëren {#defining-specific-test-profile}
 
 Definieer een testprofiel dat aan uw gebeurtenis wordt gekoppeld. Hiermee kunt u een voorbeeld van uw bericht bekijken en een relevante proefdruk verzenden.
 
@@ -59,7 +58,7 @@ U kunt ook een nieuw testprofiel maken of een profiel gebruiken dat al in het me
 * [Testprofielen beheren](../../audiences/using/managing-test-profiles.md)
 * [Doelgroepen maken](../../audiences/using/creating-audiences.md)
 
-## De proefdruk {#sending-proof} verzenden
+## De proefdruk verzenden {#sending-proof}
 
 Nadat u een of meer specifieke testprofielen hebt gemaakt en uw transactiebericht hebt opgeslagen, kunt u een proefdruk verzenden om dit te testen.
 
