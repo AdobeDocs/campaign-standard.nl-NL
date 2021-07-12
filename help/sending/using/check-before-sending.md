@@ -7,25 +7,24 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Als uw bericht klaar is, leert u hoe u alle controles kunt uitvoeren voordat u het verzendt"'
-feature: Deliverability
-role: Business Practitioner
+feature: Afleverbaarheid
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dfc5fc00-87aa-4d22-ad7c-cc0ba1ee21be
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 15%
+source-wordcount: '411'
+ht-degree: 16%
 
 ---
 
-
-# Alle controles uitvoeren voordat {#perform-all-checks} wordt verzonden
+# Alle controles uitvoeren voordat ze worden verzonden {#perform-all-checks}
 
 Zodra uw bericht klaar is, zorg ervoor zijn inhoud correct, op alle apparaten wordt getoond, en bevat geen fouten zoals verkeerde verpersoonlijking of gebroken verbindingen.
 
 Alvorens uw bericht te verzenden, zorg ook dat de parameters en de configuratie met de levering verenigbaar zijn.
 
-## Waarom validatie belangrijk is {#validation-is-key}
+## Waarom validatie de sleutel is {#validation-is-key}
 
 Alvorens een levering te verzenden, moet u ervoor zorgen dat uw ontvangers het bericht zullen ontvangen dat u echt hen wilt verzenden. Hiervoor moet u de inhoud en de leveringsparameters van het bericht valideren.
 
@@ -64,4 +63,3 @@ Als u meerdere inhoud voor een e-maillevering hebt, kunt u A/B-tests gebruiken o
 * Selecteer het bestand met de hoogste successnelheid en stuur het naar de rest van het doel
 
 Meer informatie [in deze sectie](../../channels/using/designing-an-a-b-test-email.md).
-
