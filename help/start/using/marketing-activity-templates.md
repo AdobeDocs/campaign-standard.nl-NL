@@ -6,17 +6,16 @@ description: '"Met Adobe Campaign-sjablonen kunt u parameters vooraf configurere
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Campaigns
-role: Business Practitioner
+feature: Campagnes
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 99%
+source-wordcount: '403'
+ht-degree: 100%
 
 ---
-
 
 # Sjablonen voor marketingactiviteiten {#marketing-activity-templates}
 
