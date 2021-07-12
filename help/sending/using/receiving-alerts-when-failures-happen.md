@@ -6,21 +6,20 @@ description: Leer hoe u het systeem voor waarschuwingsbeheer kunt gebruiken.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Proofs
-role: Business Practitioner
+feature: Proefdrukken
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '2035'
+source-wordcount: '2032'
 ht-degree: 2%
 
 ---
 
-
 # Waarschuwingen ontvangen wanneer fouten optreden{#receiving-alerts-when-failures-happen}
 
-## Informatie over leveringswaarschuwing {#about-delivery-alerting}
+## Informatie over leveringswaarschuwingen {#about-delivery-alerting}
 
 De functie **Leveringswaarschuwing** is een waarschuwingssysteem waarmee een groep gebruikers automatisch meldingen kan ontvangen die informatie bevatten over de uitvoering van hun leveringen.
 
@@ -93,9 +92,9 @@ Als u meldingen op basis van specifieke criteria wilt verzenden naar verschillen
 
 Telkens wanneer een levering voldoet aan de criteria die u in dit dashboard hebt gedefinieerd, wordt een waarschuwingsbericht verzonden naar de opgegeven groep gebruikers.
 
-## Afleveringsalarmeringscriteria {#delivery-alerting-criteria}
+## Beoordelingscriteria voor aflevering {#delivery-alerting-criteria}
 
-### Informatie over waarschuwingscriteria {#about-alerting-criteria}
+### Waarschuwingscriteria {#about-alerting-criteria}
 
 Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]** en selecteer **[!UICONTROL Delivery alerting criteria]** om de waarschuwingscriteria voor levering te openen.
 
@@ -139,7 +138,7 @@ Voor elk criterium kunt u de volgende instellingen definiëren:
 * [Waarschuwingsfrequentie](#alerting-frequency)
 * [Pictogrammen en statussen van marketingactiviteiten](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
-### Een waarschuwingscriterium voor levering maken {#creating-a-delivery-alerting-criterion}
+### Een leveringswaarschuwingscriterium maken {#creating-a-delivery-alerting-criterion}
 
 U kunt nieuwe waarschuwingscriteria voor levering maken die beter aansluiten bij uw behoeften.
 
@@ -181,11 +180,11 @@ Als deze criteria eenmaal zijn gemaakt, kunnen ze worden toegevoegd aan een waar
 
 **Verwant onderwerp:**
 
-[Een resource toevoegen of uitbreiden](../../developing/using/key-steps-to-add-a-resource.md)
+[Een bron toevoegen of uitbreiden](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Waarschuwing over levering {#delivery-alerting-parameters}
+## Waarschuwing bij aflevering {#delivery-alerting-parameters}
 
-### Criteria parameters {#criteria-parameters}
+### Criteria {#criteria-parameters}
 
 Op het **[!UICONTROL Criteria parameters]** lusje van [levering alarmerend dashboard](#creating-a-delivery-alerting-dashboard), kunt u de montages bepalen die op de criteria van dit dashboard van toepassing zijn.
 
@@ -281,6 +280,5 @@ Hier volgen enkele mogelijke redenen om waarschuwingsberichten te ontvangen op b
 **Verwante onderwerpen:**
 
 * [Leveringsfouten begrijpen](../../sending/using/understanding-delivery-failures.md)
-* [Quarantainebeheer begrijpen](../../sending/using/understanding-quarantine-management.md)
+* [Werken met quarantainebeheer](../../sending/using/understanding-quarantine-management.md)
 * [Informatie over opt-in en opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-
