@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
-feature: Access Management
-role: Administrator
+feature: Toegangsbeheer
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '237'
 ht-degree: 83%
 
 ---
-
 
 # Lijst met rollen{#list-of-roles}
 
@@ -47,5 +46,5 @@ Raadpleeg voor meer informatie de tabel [Rollen en machtigingen](/help/administr
 
 **Verwante onderwerpen:**
 
-* [Toegangsbeheer](../../administration/using/about-access-management.md)
+* [Informatie over toegangsbeheer](../../administration/using/about-access-management.md)
 * [Groepen en gebruikers beheren](../../administration/using/managing-groups-and-users.md)
