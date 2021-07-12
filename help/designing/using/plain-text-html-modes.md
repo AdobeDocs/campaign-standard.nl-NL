@@ -6,19 +6,18 @@ description: De modi Onbewerkte tekst en HTML detecteren
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-mailontwerp
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 760c3c30-c899-4cf4-ba59-fb2fade9fc5e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
 
-
-# Onbewerkte tekst, HTML- en mobiele e-mailindelingen {#plain-text-and-html-modes} bewerken
+# Onbewerkte tekst, HTML- en mobiele e-mailindelingen bewerken {#plain-text-and-html-modes}
 
 Met de e-mailontwerper kunt u verschillende rendering van uw e-mails bewerken. U kunt een tekstversie van uw e-mail genereren, de HTML-bron van een e-mail bewerken en e-mails ontwerpen voor de mobiele weergave.
 
