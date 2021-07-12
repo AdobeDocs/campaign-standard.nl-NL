@@ -6,13 +6,13 @@ description: E-mailinhoud samenstellen met de e-mailontwerper.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-mailontwerp
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 47f53290-2190-4181-bcd5-e60287189c41
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '926'
 ht-degree: 5%
 
 ---
@@ -37,20 +37,20 @@ U kunt ook een e-mailbericht [met bestaande inhoud](#with-existing-content) make
 | [Een volledig nieuw e-mailbericht maken](#from-scratch-email) | [Bestaande HTML-inhoud converteren](#converting-an-html-content) |
 | [Inhoud samenstellen op basis van een out-of-the-box-sjabloon](#building-content-from-an-out-of-the-box-template) | [Bestaande HTML importeren](#compatibility-mode) |
 
-## E-mailberichten ontwerpen met de editor {#without-existing-content}
+## E-mails ontwerpen met de editor {#without-existing-content}
 
 >[!NOTE]
 >
 >In beide aanmaakstrategieën is het van cruciaal belang dat u de onderwerpregel invult voordat u uw e-mail verzendt. Leer hoe te [voeg een onderwerpregel](#add-a-subject-line) toe.
 
-### Een geheel nieuwe e-mail maken {#from-scratch-email}
+### Een volledig nieuw e-mailbericht maken {#from-scratch-email}
 
 U kunt eenvoudig een e-mail maken, componenten toevoegen en de inhoud aanpassen om snel een levering te verzenden. U kunt de opmaakopties desgewenst aanpassen aan uw inhoud. Zie [E-mailstijlen bewerken](../../designing/using/styles.md) voor meer informatie over het beheren van stijlinstellingen en inline-kenmerken.
 
 1. Een e-mail maken.
 1. Sluit homepage.
 
-### Een onderwerpregel {#add-a-subject-line} toevoegen
+### Een onderwerpregel toevoegen {#add-a-subject-line}
 
 Onderwerpregels zijn verplicht bij het verzenden van een e-mail. Zie [De onderwerpregel van een e-mail definiëren](../../designing/using/subject-line.md) voor meer informatie.
 
@@ -58,7 +58,7 @@ Onderwerpregels zijn verplicht bij het verzenden van een e-mail. Zie [De onderwe
 
 ![](assets/subject-line-quick-start.png)
 
-### Structuurcomponenten {#add-structure-components} toevoegen
+### Structuurcomponenten toevoegen {#add-structure-components}
 
 Structuurelementen bepalen de indeling van uw e-mail. Zie [De structuur van een e-mail definiëren](../../designing/using/designing-from-scratch.md#defining-the-email-structure) voor meer informatie.
 
@@ -70,7 +70,7 @@ In de componenten van de Structuur, belemmering en dalingscomponenten voor de la
 
 ![](assets/structure-components-quick-start.png)
 
-### Inhoudscomponenten {#add-content-components} toevoegen
+### Inhoudscomponenten toevoegen {#add-content-components}
 
 U kunt meerdere inhoudscomponenten aan uw e-mail toevoegen, zoals afbeeldingen, tekst en knoppen. Zie [Inhoudscomponenten](../../designing/using/designing-from-scratch.md#about-content-components) voor meer informatie.
 
@@ -118,7 +118,7 @@ U kunt de e-mailopmaak aanpassen, bijvoorbeeld door de opvulling van een compone
 
 U kunt uw e-mail nu opslaan en verzenden.
 
-### Inhoud maken op basis van een out-of-the-box sjabloon {#building-content-from-an-out-of-the-box-template}
+### Inhoud samenstellen op basis van een out-of-the-box-sjabloon {#building-content-from-an-out-of-the-box-template}
 
 U kunt een e-mailbericht maken van kant-en-klare sjablonen, zoals de welkomstberichten van klanten, nieuwsbrieven en e-mails voor opnieuw contact, en deze personaliseren.
 
@@ -134,11 +134,11 @@ De verschillende sjablonen bevatten verschillende combinaties van verschillende 
 1. Pas de inhoud van elk element aan uw wensen aan: afbeeldingen, tekst en koppelingen.
 1. Pas de opmaakopties indien nodig aan de inhoud aan. Ga voor meer informatie naar [E-mailstijlen bewerken](../../designing/using/styles.md).
 
-## Bestaande e-mailinhoud {#with-existing-content} gebruiken
+## Bestaande e-mailinhoud gebruiken {#with-existing-content}
 
 Als u een raamwerk van modulaire sjablonen en fragmenten wilt maken die u kunt combineren voor hergebruik in meerdere e-mails, kunt u uw e-mailHTML converteren naar een sjabloon voor e-mailontwerpen.
 
-### HTML-inhoud {#converting-an-html-content} omzetten
+### HTML-inhoud converteren {#converting-an-html-content}
 
 Met deze kwestie kunt u HTML-e-mail snel converteren naar onderdelen van E-mailontwerper. Zie [HTML-inhoud omzetten](../../designing/using/using-existing-content.md#converting-an-html-content) voor meer informatie over dit onderwerp.
 
@@ -151,7 +151,7 @@ Met deze kwestie kunt u HTML-e-mail snel converteren naar onderdelen van E-mailo
 >Net als in de compatibiliteitsmodus kan een HTML-component met beperkte opties worden bewerkt: u kunt alleen op plaats een editie uitvoeren.
 
 
-### Een HTML-e-mail {#compatibility-mode} importeren en bewerken
+### Een HTML-e-mail importeren en bewerken {#compatibility-mode}
 
 Wanneer u inhoud uploadt, moet deze specifieke codering bevatten om volledig compatibel te zijn met en te kunnen worden bewerkt met de WYSIWYG-editor van de e-mailontwerper.
 
