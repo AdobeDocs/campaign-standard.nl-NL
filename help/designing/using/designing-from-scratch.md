@@ -6,17 +6,16 @@ description: Ontdek hoe u e-mailberichten kunt ontwerpen op basis van nieuwe e-m
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-mailontwerp
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1241'
 ht-degree: 2%
 
 ---
-
 
 # Geheel nieuwe e-mails ontwerpen {#designing-an-email-content-from-scratch}
 
@@ -39,7 +38,7 @@ U kunt deze [introductievideo](https://video.tv.adobe.com/v/22771/?autoplay=true
 >
 >U kunt het ontwerpen van nieuwe e-mailinhoud voorkomen door sjablonen voor inhoud buiten de verpakking te gebruiken. Zie [Inhoudssjablonen](../../designing/using/using-reusable-content.md#content-templates) voor meer informatie.
 
-## E-mailstructuur {#defining-the-email-structure} definiëren
+## E-mailstructuur definiëren {#defining-the-email-structure}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
@@ -84,7 +83,7 @@ De structuur van een e-mail bewerken:
 
 Nadat de structuur is gedefinieerd, kunt u inhoudsfragmenten en -componenten aan uw e-mail toevoegen.
 
-## Een preheader {#preheader} gebruiken
+## Een preheader gebruiken {#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
@@ -103,7 +102,7 @@ U kunt een **[!UICONTROL Content block]**, een **[!UICONTROL Dynamic content]** 
 >
 >De preheader is niet compatibel met alle e-mailprogramma&#39;s. Voorheader wordt niet weergegeven als dit niet wordt ondersteund.
 
-## Inhoudscomponenten {#about-content-components} gebruiken
+## Inhoudscomponenten gebruiken {#about-content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
