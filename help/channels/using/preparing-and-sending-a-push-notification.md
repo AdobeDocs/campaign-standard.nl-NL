@@ -8,20 +8,19 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
 feature: Push
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 8%
+source-wordcount: '858'
+ht-degree: 9%
 
 ---
 
-
 # Een pushmelding voorbereiden en verzenden{#preparing-and-sending-a-push-notification}
 
-## Melding {#preparing-the-notification} voorbereiden
+## De melding voorbereiden {#preparing-the-notification}
 
 De stappen voor het maken van een pushmelding met Adobe Campaign zijn:
 
@@ -88,7 +87,7 @@ De stappen voor het maken van een pushmelding met Adobe Campaign zijn:
 
 Merk op dat de verpersoonlijkingsgegevens de grootte van bericht beïnvloeden.
 
-## Melding verzenden {#sending-the-notification}
+## De melding verzenden {#sending-the-notification}
 
 U kunt pushmeldingen naar een geselecteerd publiek in Adobe Campaign verzenden door de criteria voor het publiek te definiëren. In het onderstaande voorbeeld bestaat ons geselecteerde publiek uit vier beoogde abonnees van mobiele apps.
 
