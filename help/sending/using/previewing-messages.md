@@ -6,21 +6,20 @@ description: Leer hoe u een voorvertoning van een bericht weergeeft in de inhoud
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Seed Address
-role: Business Practitioner
+feature: Zaadadres
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 14%
+source-wordcount: '626'
+ht-degree: 15%
 
 ---
 
-
 # Voorbeelden van leveringen weergeven {#previewing-messages}
 
-## E-mails voorvertonen {#previewing-emails}
+## E-mailberichten voorvertonen {#previewing-emails}
 
 Met Campaign Standard kunt u berichten voorvertonen voordat ze worden verzonden, zodat u kunt controleren of de berichten zijn aangepast en hoe de ontvangers deze zullen zien.
 
@@ -51,10 +50,10 @@ Voer de volgende stappen uit om een bericht weer te geven met testprofielen:
 **Verwante onderwerpen**
 
 * [Testprofielen beheren](../../audiences/using/managing-test-profiles.md)
-* [E-mailberichten testen aan de hand van doelprofielen](../../sending/using/testing-messages-using-target.md)
+* [E-mailberichten testen met doelprofielen](../../sending/using/testing-messages-using-target.md)
 * [Proeven verzenden](../../sending/using/sending-proofs.md)
 
-## Een voorbeeld van SMS-berichten bekijken {#previewing-sms}
+## SMS-berichten voorvertonen {#previewing-sms}
 
 Bij SMS **SMS**-berichten kunt u met Campaign Standard berichten voorvertonen met behulp van testprofielen. Op deze manier kunt u een exacte weergave krijgen van het bericht dat een specifiek profiel ontvangt. Zie [Testprofielen beheren](../../audiences/using/managing-test-profiles.md) voor meer informatie.
 
@@ -86,7 +85,7 @@ U kunt nu de exacte weergave van uw bericht bekijken, afhankelijk van de geselec
 * [Een sms-bericht maken](../../channels/using/creating-an-sms-message.md)
 * [Sms-berichten personaliseren](../../channels/using/personalizing-sms-messages.md)
 
-## Voorvertoning van pushmeldingen {#previewing-push}
+## Voorvertoning van pushmeldingen weergeven {#previewing-push}
 
 Voor **Push notification**, staat Campaign Standard u toe om berichten te voorproef gebruikend testprofielen. Op deze manier kunt u een exacte weergave krijgen van het bericht dat een specifiek profiel ontvangt. Zie [Testprofielen beheren](../../audiences/using/managing-test-profiles.md) voor meer informatie.
 
@@ -114,7 +113,7 @@ U kunt nu de exacte weergave van uw bericht bekijken, afhankelijk van de geselec
 * [Een pushmelding voorbereiden en verzenden](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Een pushmelding aanpassen](../../channels/using/customizing-a-push-notification.md)
 
-## In-app berichten voorvertonen {#previewing-in-app}
+## In-app-berichten voorvertonen {#previewing-in-app}
 
 Voor **In-app** kunt u met Campaign Standard berichten voorvertonen met behulp van testprofielen. Op deze manier kunt u een exacte weergave krijgen van het bericht dat een specifiek profiel ontvangt. Zie [Testprofielen beheren](../../audiences/using/managing-test-profiles.md) voor meer informatie.
 
@@ -138,6 +137,6 @@ U kunt nu de exacte weergave van uw bericht bekijken, afhankelijk van de geselec
 
 **Verwante onderwerpen**
 
-* [In-app-berichten](../../channels/using/about-in-app-messaging.md)
+* [Informatie over in-app-berichten](../../channels/using/about-in-app-messaging.md)
 * [Een in-app-bericht voorbereiden en verzenden](../../channels/using/preparing-and-sending-an-in-app-message.md)
 * [Een in-app-bericht aanpassen](../../channels/using/customizing-an-in-app-message.md)
