@@ -8,16 +8,15 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 feature: Transactional Messaging
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 62%
+source-wordcount: '742'
+ht-degree: 63%
 
 ---
-
 
 # Transactieberichten uitvoeren en controleren {#transactional-messaging-execution}
 
@@ -60,7 +59,7 @@ Zodra de gebeurtenis aan een uitvoeringslevering is toegewezen, kan het transact
 >
 >Pas wanneer een gebeurtenis aan een uitvoeringslevering wordt toegewezen, verschijnt het in de verzendingslogboeken van deze uitvoeringslevering. De mislukte leveringen worden weergegeven op het tabblad **[!UICONTROL Execution list]** van het transactionele bericht dat logbestanden verzendt.
 
-### Procesbeperkingen {#limitations} opnieuw proberen
+### Procesbeperkingen opnieuw proberen {#limitations}
 
 **Verzendingslogboeken bijwerken**
 
@@ -72,7 +71,7 @@ U kunt een uitvoeringslevering niet stoppen. Als de huidige uitvoeringslevering 
 
 Als sommige gebeurtenissen die reeds aan een uitvoeringslevering zijn toegewezen als deel van het hertestproces zijn uitgesteld en als die uitvoeringslevering ontbreekt, wijst het hertestsysteem niet de uitgestelde gebeurtenissen aan de nieuwe uitvoeringslevering toe, wat betekent dat deze gebeurtenissen worden verloren. Controleer [leveringslogboeken](#monitoring-transactional-message-delivery) om de ontvangers te zien die kunnen zijn beïnvloed.
 
-## Transactieberichten {#monitoring-transactional-message-delivery} controleren
+## Transactieberichten controleren {#monitoring-transactional-message-delivery}
 
 Om een transactiebericht te controleren, moet u tot de overeenkomstige [uitvoerleveringen](#transactional-message-execution-delivery) toegang hebben.
 
@@ -94,7 +93,7 @@ Om een transactiebericht te controleren, moet u tot de overeenkomstige [uitvoerl
 
    Voor elke uitvoeringslevering, kunt u de leveringslogboeken raadplegen zoals u voor een standaardlevering zou doen. Voor meer bij de toegang tot van en het gebruiken van de logboeken, zie [Controle een levering](../../sending/using/monitoring-a-delivery.md).
 
-### Specificaties van op profielen gebaseerde transactiemeldingen {#profile-transactional-message-monitoring}
+### Specifieke kenmerken van op profielen gebaseerde transactiemeldingen {#profile-transactional-message-monitoring}
 
 Voor op profielen gebaseerde transactiemeldingen kunt u de volgende profielgegevens controleren.
 
