@@ -6,17 +6,16 @@ description: Leer hoe te om van een onjuist adres op de hoogte te worden gebrach
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-feature: Direct Mail
-role: Business Practitioner
+feature: Direct mail
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6783aa68-7fd7-4f53-86bf-853c0fea5899
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 2%
+source-wordcount: '216'
+ht-degree: 3%
 
 ---
-
 
 # Terug naar afzender{#return-to-sender}
 
