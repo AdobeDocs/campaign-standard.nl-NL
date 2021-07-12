@@ -10,12 +10,11 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 feature: Privacy
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -31,7 +30,7 @@ Dit zijn een paar veelgestelde vragen over privacy en toestemming bij het gebrui
 
 De onderstaande items zijn gekoppeld aan de belangrijkste termen en begrippen in verband met privacy en toestemming in Adobe Campaign:
 
-* [Regels voor privacybeheer](../../start/using/privacy-management.md#privacy-management-regulations)
+* [Voorschriften voor privacybeheer](../../start/using/privacy-management.md#privacy-management-regulations)
 * [Persoonsgegevens en persona&#39;s](../../start/using/privacy.md#personal-data)
 * [Toegangsrecht en recht om te worden vergeten](../../start/using/privacy-management.md#right-access-forgotten)
 * [Toestemming, retentie en rollen](../../start/using/privacy-management.md#consent-retention-roles)
