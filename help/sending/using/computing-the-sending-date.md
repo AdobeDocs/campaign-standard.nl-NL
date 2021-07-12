@@ -6,23 +6,22 @@ description: Ontdek hoe u een bericht op een bepaalde datum en tijd kunt verzend
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Performance Monitoring
-role: Business Practitioner
+feature: Prestatiebewaking
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1000'
 ht-degree: 1%
 
 ---
-
 
 # De verzenddatum berekenen{#computing-the-sending-date}
 
 U kunt een formule bepalen om het bericht naar elke ontvanger op een specifieke datum en een tijd te verzenden.
 
-## Datumformule {#customizing-date-formula} aanpassen
+## Datumformule aanpassen {#customizing-date-formula}
 
 U kunt bijvoorbeeld de functie voor tijdoptimalisatie tijdens het oploopproces gebruiken.
 
@@ -102,7 +101,7 @@ De levering wordt gedurende vijf dagen geleidelijk aan alle beoogde ontvangers v
 >
 >Zorg ervoor dat alle datums in de toekomst zijn wanneer u de verzending bevestigt. Anders wordt het bericht verzonden zodra het verzenden is bevestigd.
 
-## Expressie {#using-an-expression} gebruiken
+## Expressies gebruiken {#using-an-expression}
 
 Verstuur tijdoptimalisering is ook nuttig voor campagnes die een vraagcentrum impliceren. U kunt ervoor zorgen dat niet alle berichten tezelfdertijd worden ontvangen. Dit laat uw organisatie toe om het aantal vraag volgens zijn capaciteit te verwerken.
 
@@ -178,4 +177,3 @@ U kunt dit plannen met behulp van een workflow.
 * Het tweede segment ontvangt het bericht twee uur later (25 mei om 10:00 uur).
 * Het derde segment ontvangt het bericht zes uur later (25 mei om 23:00 uur).
 * Het vierde segment ontvangt het bericht acht uur later (25 mei om 16.00 uur).
-
