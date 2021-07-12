@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
 feature: In app
-role: Business Practitioner
+role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 2%
@@ -36,7 +36,7 @@ Aangezien de berichten in-app door SDK van Campagne worden getrokken, willen wij
 * Als zodanig gemarkeerde velden kunnen alleen worden gebruikt in de profielsjabloon (niet in de appSubscriber-sjabloon of de Broadcast-sjabloon) waarvoor een extra beveiligingsmechanisme is ingebouwd.
 * Berichten die zijn gemaakt met de profielsjabloon kunnen alleen worden gediend wanneer de gebruiker zich heeft aangemeld bij de app.
 * Om deze veilige handshake te vergemakkelijken, moeten ontwikkelaars van mobiele apps aanvullende verificatiegegevens doorgeven met de setLinkageField-API. Let op: het koppelingsveld is het veld dat wordt geïdentificeerd als de koppeling tussen Mobiel profiel en CRM-profiel tijdens het uitbreiden van de tabel appSubscriberRcp.
-* Ze moeten de in-app-berichten die op het apparaat zijn opgeslagen en resetLinkagefields verwijderen wanneer de gebruiker zich afmeldt bij de App met resetLinkageField. Dit zorgt ervoor dat als een andere gebruiker zich aanmeldt bij de app, deze de berichten die voor de vorige gebruiker worden bedoeld, niet ziet.
+* Ze moeten de in-app-berichten die op het apparaat zijn opgeslagen en resetLinkagefields verwijderen wanneer de gebruiker zich afmeldt bij de App met resetLinkageField. Dit zorgt ervoor dat als een andere gebruiker zich aanmeldt bij de app, deze de berichten die voor de vorige gebruiker zijn bedoeld, niet ziet.
 * Raadpleeg [Mobiele SDK API&#39;s](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) om dit beveiligingsmechanisme te implementeren op de client.
 
 ## Wat moet ik doen om In-App rapportering in Campaign toe te laten? {#enable-inapp-reporting}
