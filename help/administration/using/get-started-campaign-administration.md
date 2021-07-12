@@ -6,17 +6,16 @@ description: Ontdek gebruikers en toestemmingenbeheer, controlerichtlijnen, kana
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Access Management
-role: Administrator
+feature: Toegangsbeheer
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 12%
+source-wordcount: '639'
+ht-degree: 13%
 
 ---
-
 
 # Aan de slag met Campaign Standard-beheer {#about-administrating-adobe-campaign}
 
@@ -33,7 +32,7 @@ Als cloudgebaseerde oplossing biedt Adobe Campaign beheerders verschillende mani
 >
 >Als u vragen of verzoeken over implementatie en configuratiekwesties hebt, contacteer uw Adobe rekeningsmanager.
 
-Houd er rekening mee dat Admin-gebruikers ook het Configuratiescherm van de Campagne kunnen gebruiken voor het beheren van instellingen en het bijhouden van het gebruik voor elk van uw instanties. Raadpleeg de [desbetreffende documentatie](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html) voor meer informatie.
+Houd er rekening mee dat Admin-gebruikers ook het Configuratiescherm van de Campagne kunnen gebruiken voor het beheren van instellingen en het bijhouden van het gebruik voor elk van uw instanties. Raadpleeg de [desbetreffende documentatie](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) voor meer informatie.
 
 ## Menu Beheer {#administration-menu}
 
@@ -66,10 +65,10 @@ Meer informatie:
 * [Organisatorische eenheden](../../administration/using/organizational-units.md)
 * [Lijst met rollen](../../administration/using/list-of-roles.md)
 * [Groepen en gebruikers beheren](../../administration/using/managing-groups-and-users.md)
-* [Audits uitvoeren op exportlogboeken](../../administration/using/auditing-export-logs.md)
+* [Controles uitvoeren op exportlogboeken](../../administration/using/auditing-export-logs.md)
 * [Licenties](../../administration/using/licenses.md)
 
-## Configuratie van kanalen {#channels-configuration}
+## Kanaalconfiguratie {#channels-configuration}
 
 <img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
@@ -102,5 +101,5 @@ Meer informatie:
 * [Externe accounts](../../administration/using/external-accounts.md)
 * [Doeltoewijzingen in Campaign](../../administration/using/target-mappings-in-campaign.md)
 * [Technische workflows](../../administration/using/technical-workflows.md)
-* [Merkpositionering](../../administration/using/branding.md)
+* [Branding](../../administration/using/branding.md)
 * [Interne meldingen verzenden](../../administration/using/sending-internal-notifications.md)
