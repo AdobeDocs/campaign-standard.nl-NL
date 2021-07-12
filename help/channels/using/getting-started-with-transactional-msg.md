@@ -8,16 +8,15 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 feature: Transactional Messaging
-role: Business Practitioner
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 9%
+source-wordcount: '965'
+ht-degree: 10%
 
 ---
-
 
 # Aan de slag met transactionele berichten {#getting-started-with-transactional-messaging}
 
@@ -57,7 +56,7 @@ Met Adobe Campaign kunt u een meldingsbericht verzenden naar klanten die product
 
 De belangrijkste stappen voor het plaatsen van dit in plaats zijn hieronder in [dit sectie](#key-steps) beschreven.
 
-## Transactietypen {#transactional-message-types}
+## Transactieberichttypen {#transactional-message-types}
 
 Er zijn twee typen transactieberichten beschikbaar in Adobe Campaign.
 
@@ -80,7 +79,7 @@ U kunt dit type berichten bijvoorbeeld gebruiken wanneer u contact opneemt met u
 
 Het berichttype wordt bepaald tijdens de configuratie van de gebeurtenis die in een transactiebericht wordt omgezet. Zie de [Transactieberichten op basis van gebeurtenissen](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages) en [Transactieberichten op basis van profielen](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) configuratiesecties.
 
-## Belangrijke stappen {#key-steps}
+## Belangrijkste stappen {#key-steps}
 
 De belangrijkste stappen bij het maken en beheren van persoonlijke transactiemeldingen in Adobe Campaign worden in het onderstaande schema samengevat.
 
@@ -102,7 +101,7 @@ Elk van deze stappen wordt hieronder nader beschreven.
 
 Het creëren van en het publiceren van een gebeurtenis worden voorgesteld in [het Vormen van een transactiegebeurtenis](../../channels/using/configuring-transactional-event.md) en [het Publiceren van een transactiegebeurtenis](../../channels/using/publishing-transactional-event.md) secties.
 
-### Stap 2 - geef en publiceer het transactiebericht {#create-transactional-message} uit
+### Stap 2 - geef en publiceer het transactiebericht uit {#create-transactional-message}
 
 <img src="assets/do-not-localize/icon_notification.svg" width="40px">
 
@@ -112,7 +111,7 @@ Het creëren van en het publiceren van een gebeurtenis worden voorgesteld in [he
 
 Zie [Transactieberichten bewerken](../../channels/using/editing-transactional-message.md) en [Levenscyclus van transactieberichten](../../channels/using/publishing-transactional-message.md) voor meer informatie over het bewerken en publiceren van een transactiebericht.
 
-### Stap 3 - Integreer de gebeurtenis die {#integrate-event-trigger} teweegbrengt
+### Stap 3 - Integreer de gebeurtenis die teweegbrengt {#integrate-event-trigger}
 
 <img src="assets/do-not-localize/icon_api.svg" width="55px">
 
@@ -136,7 +135,7 @@ Zodra een gebruiker de site verlaat zonder de producten in zijn winkelwagentje t
 
 ## Verwante onderwerpen
 
-* [Belangrijkste stappen om een bericht te verzenden](../../channels/using/key-steps-to-send-a-message.md)
+* [Belangrijkste stappen voor verzending van een bericht](../../channels/using/key-steps-to-send-a-message.md)
 * [Aan de slag met communicatiekanalen](../../channels/using/get-started-communication-channels.md)
 * [Transactionele pushmeldingen](../../channels/using/transactional-push-notifications.md)
 * [Vervolgberichten](../../channels/using/follow-up-messages.md)
