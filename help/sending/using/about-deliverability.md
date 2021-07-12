@@ -7,27 +7,26 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Afleverbaarheid
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 5e523519-7192-4031-9d96-559af23074d9
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 6%
+source-wordcount: '746'
+ht-degree: 8%
 
 ---
 
-
-# Wat is leverbaar{#about-deliverability}
+# Wat is afleverbaarheid?{#about-deliverability}
 
 De levering staat toe om het succes van uw campagnes te meten die uw ontvangers&#39; inbox bereiken zonder te stuiteren, of als spam worden gemerkt. [Leer waarom leverbaarheid van belang](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html#why-deliverability-matters) is.
 
 Meer bepaald, verwijst de e-maillevering naar de reeks eigenschappen die de capaciteit van een bericht bepalen om zijn bestemming, via een persoonlijk e-mailadres, binnen een korte tijd, en met de verwachte kwaliteit in termen van inhoud en formaat te bereiken. <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
-Raadpleeg de [Handleiding best practice](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html) voor een dieper inzicht in wat de leverbaarbaarheid is en voor meer informatie over de belangrijkste leverbare termen, concepten en benaderingen.
+Raadpleeg de [Handleiding best practice](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl) voor een dieper inzicht in wat de leverbaarbaarheid is en voor meer informatie over de belangrijkste leverbare termen, concepten en benaderingen.
 
-## Hoe te om leverbaarheid {#deliverability-key-points} te verbeteren
+## Hoe te om leverbaarheid te verbeteren {#deliverability-key-points}
 
 De leveringsproblemen houden gewoonlijk verband met maatregelen van bescherming tegen spam die door Internet dienstverleners en de beheerders van de postserver worden uitgevoerd.
 
@@ -54,7 +53,7 @@ Bij Adobe Campaign hangt het leverbrengingscijfer af van een groot aantal factor
 * Berichtverificatie (SPF, DKIM, DMARC): zie [deze sectie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).
 * Afkorting van afzender: om te leren hoe de belangrijkste ISPs een afzenderreputatie evalueert, zie [deze sectie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/internet-service-provider-specifics/overview.html).
 
-## Gereedschappen voor het leveren van campagnes {#deliverability-tools}
+## Hulpprogramma&#39;s voor het leveren van campagnes {#deliverability-tools}
 
 Adobe Campaign biedt een aantal tools om de prestaties van uw platform te volgen en te verbeteren. Op deze pagina worden ook de belangrijkste beginselen gemarkeerd die u in gedachten moet houden om de prestaties te optimaliseren wanneer u campagne gebruikt.
 
@@ -62,8 +61,8 @@ Adobe Campaign biedt een aantal tools om de prestaties van uw platform te volgen
 
 Wanneer het vormen van, het ontwerpen van en het testen van uw bericht, zorg ervoor u de beste praktijken volgt die in de hieronder vermelde secties worden vermeld. Door gebruik te maken van alle functies die Adobe Campaign biedt, kunt u de leverbaarheid verbeteren.
 
-* [Best practices voor levering](../../sending/using/delivery-best-practices.md)
-* [E-mailcontent beheren](../../sending/using/control-email-content.md)
+* [Best practices voor verzending](../../sending/using/delivery-best-practices.md)
+* [E-mailcontent controleren](../../sending/using/control-email-content.md)
 * [Berichten voorvertonen](../../sending/using/previewing-messages.md)
 * [Proeven verzenden](../../sending/using/sending-proofs.md)
 
@@ -86,7 +85,7 @@ Sommige internetproviders beschouwen e-mails automatisch als spam als het aantal
 Raadpleeg de volgende secties voor meer informatie hierover:
 
 * [Leveringsfouten begrijpen](../../sending/using/understanding-delivery-failures.md)
-* [Quarantainebeheer begrijpen](../../sending/using/understanding-quarantine-management.md)
+* [Werken met quarantainebeheer](../../sending/using/understanding-quarantine-management.md)
 * [Quarantine versus lijst van gewezen personen](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 
 ### Gereedschappen voor bewaking en rapportage gebruiken
