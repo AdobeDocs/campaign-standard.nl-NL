@@ -6,19 +6,18 @@ description: Ontdek hoe u e-mails kunt ontwerpen via Adobe Campaign-integratie i
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-mailontwerp
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '723'
 ht-degree: 5%
 
 ---
 
-
-# E-mailontwerp voor meerdere oplossingen {#multi-solution-email-design}
+# E-mailontwerp met meerdere oplossingen {#multi-solution-email-design}
 
 Adobe Campaign biedt verschillende opties voor het schrijven van e-mailberichten. U kunt oplossingen zoals Dreamweaver gebruiken om uw e-mailinhoud te bewerken en responsieve berichten te maken in de e-mailontwerper. U kunt ook inhoud via e-mail verzenden naar Adobe Experience Manager en deze gebruiken in uw e-mails in Adobe Campaign Standard.
 
