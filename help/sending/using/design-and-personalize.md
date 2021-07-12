@@ -8,10 +8,10 @@ topic-tags: deliveries-best-practices
 index: y
 description: Leer hoe u de inhoud van uw bericht ontwerpt en probeer algemene problemen te vermijden die ertoe kunnen leiden dat u de levering niet kunt uitvoeren. 
 feature: Afleverbaarheid
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 7%
@@ -74,7 +74,7 @@ Door gebrek, wanneer het bericht wordt geanalyseerd, controleert een controle [t
 
 Leer hoe te om een opt-out verbinding [in deze sectie ](../../designing/using/personalization.md#adding-a-content-block) op te nemen.
 
-### E-mailgrootte {#email-size}
+### E-mailformaat {#email-size}
 
 Om problemen met prestaties of leverbaarheid te voorkomen, is de aanbevolen maximale grootte van een e-mailbericht ongeveer **35KB**.
 
@@ -121,7 +121,7 @@ Het responsieve ontwerp zorgt ervoor dat een e-mail optimaal wordt weergegeven v
 
 * Gebruik de voorvertoningsmodus en verzend proefdrukken om de rendering op zoveel mogelijk apparaten te testen. Leer hoe te [voorproefbericht](../../sending/using/previewing-messages.md) alvorens te verzenden.
 
-* Campagne-e-mailontwerper wordt geleverd met responsieve ontwerpsjablonen voor mobiele apparaten. Meer informatie [op deze pagina](../../designing/using/using-reusable-content.md#content-templates).
+* Campagne-e-mailontwerper wordt geleverd met responsieve ontwerpsjablonen voor mobiele apparaten. Meer informatie vindt u [op deze pagina](../../designing/using/using-reusable-content.md#content-templates).
 
 ## Afbeeldingen beheren {#manage-images}
 
@@ -145,7 +145,7 @@ Probeer afbeeldingen responsief te maken en de grootte ervan te wijzigen. Merk o
 
 Om van buitenaf toegankelijk te zijn, moeten de beelden die in e-mail en openbare middelen verbonden aan campagnes worden gebruikt op een extern toegankelijke server aanwezig zijn.
 
-## Een voorbeeld bekijken van uw bericht {#preview-msg}
+## Een voorbeeld van uw bericht bekijken {#preview-msg}
 
 Adobe raadt u aan een voorbeeld van uw bericht te bekijken om na te gaan wat de personalisatie is en hoe de ontvangers uw bericht zullen bekijken.
 
