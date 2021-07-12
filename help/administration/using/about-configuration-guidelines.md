@@ -6,17 +6,16 @@ description: Leer over de configuratierichtlijnen van Campaign Standard.
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Access Management
-role: Administrator
+feature: Toegangsbeheer
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 88684ed6-6d8d-4691-987f-812e7e1d834c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 4%
+source-wordcount: '119'
+ht-degree: 5%
 
 ---
-
 
 # Configuratierichtlijnen {#about-configuration-guidelines}
 
@@ -40,7 +39,7 @@ Hier volgt een lijst met browsers die compatibel zijn met Adobe Campaign Standar
 * iOS (versie 7 en hoger)
 * Android (versie 4.4 en hoger)
 
-## Campaign Standard-netwerkeindpunten {#campaign-standard-network-endpoints}
+## Campaign Standard netwerk eindpunten {#campaign-standard-network-endpoints}
 
 Hier volgen de verschillende eindpunten die worden gebruikt in Campaign Standard.
 
