@@ -6,17 +6,16 @@ description: Leer hoe u leveringen kunt optimaliseren met quarantainebeheer.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Deliverability
-role: Business Practitioner
+feature: Afleverbaarheid
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '782'
 ht-degree: 82%
 
 ---
-
 
 # Werken met quarantainebeheer{#understanding-quarantine-management}
 
@@ -36,7 +35,7 @@ Bovendien zijn de verzendkosten voor sms-berichten lager doordat onjuiste telefo
 
 Raadpleeg [deze pagina](../../sending/using/delivery-best-practices.md) voor meer informatie over de best practices voor het beveiligen en optimaliseren van uw leveringen.
 
-### Quarantaine versus Lijst van gewezen personen {#quarantine-vs-denylist}
+### Quarantine versus Lijst van gewezen personen {#quarantine-vs-denylist}
 
 **Quarantaine** is alleen van toepassing op een adres, niet op het profiel zelf. Wanneer twee profielen hetzelfde e-mailadres hebben, worden ze dus allebei beïnvloed als het adres in quarantaine wordt geplaatst.
 
@@ -46,7 +45,7 @@ Als u op de **Lijst van gewezen personen** staat, wordt het profiel echter niet 
 
 >[!NOTE]
 >
->Wanneer een gebruiker op een SMS-bericht reageert met een trefwoord zoals &quot;STOP&quot; om zich af te melden voor SMS-leveringen, wordt dit profiel niet op lijst van gewezen personen gezet, zoals in het e-mailuitschakelproces. Het profieltelefoonnummer wordt in quarantaine geplaatst met de status **[!UICONTROL On denylist]**. Deze status verwijst alleen naar het telefoonnummer, het profiel bevindt zich niet op de lijst van gewezen personen, zodat de gebruiker e-mailberichten blijft ontvangen. Raadpleeg [deze sectie](../../channels/using/managing-incoming-sms.md#managing-stop-sms) voor meer informatie hierover.
+>Wanneer een gebruiker op een SMS-bericht reageert met een trefwoord zoals &quot;STOP&quot; om zich af te melden voor SMS-leveringen, wordt dit profiel niet op lijst van gewezen personen gezet, zoals in het e-mailuitschakelproces. Het profieltelefoonnummer wordt in quarantaine geplaatst met de status **[!UICONTROL On denylist]**. Deze status verwijst alleen naar het telefoonnummer, het profiel bevindt zich niet op de lijst van gewezen personen, zodat de gebruiker e-mailberichten blijft ontvangen. Raadpleeg [deze sectie](../../channels/using/managing-incoming-sms.md#managing-stop-sms) voor meer informatie.
 
 ## In quarantaine geplaatste adressen identificeren {#identifying-quarantined-addresses}
 
@@ -94,4 +93,3 @@ Quarantaine in Adobe Campaign is hoofdlettergevoelig. Zorg dat u de e-mailadress
 In de lijst met adressen in quarantaine (zie [In quarantaine geplaatste adressen voor het volledige platform identificeren](#identifying-quarantined-addresses-for-the-entire-platform)) geeft het veld **[!UICONTROL Error reason]** aan waarom het geselecteerde adres in quarantaine werd geplaatst.
 
 ![](assets/quarantines2.png)
-
