@@ -8,16 +8,15 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 feature: Transactional Messaging
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '655'
 ht-degree: 30%
 
 ---
-
 
 # Een transactioneel bericht bewerken {#editing-transactional-message}
 
@@ -212,7 +211,7 @@ For more on creating a collection and related fields when configuring the event,
 
    For more on defining a test profile in a transactional message, see [this section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).-->
 
-## Specificaties van op profielen gebaseerde transactiemeldingen {#profile-transactional-message-specificities}
+## Specifieke kenmerken van op profielen gebaseerde transactiemeldingen {#profile-transactional-message-specificities}
 
 U kunt transactieberichten verzenden die op klant marketing profielen worden gebaseerd, die u toestaat om alle profielinformatie te gebruiken om de berichtinhoud te personaliseren, de unsubscription verbinding te gebruiken, en marketing typologische regels zoals [moeheidsregels](../../sending/using/fatigue-rules.md) toe te passen.
 
