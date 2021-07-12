@@ -7,18 +7,17 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Send Time Optimization
-role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+feature: Tijdoptimalisatie verzenden
+role: User
+exl-id: 6b26615b-4aa6-401d-a12d-25cef4cd0524
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '271'
 ht-degree: 98%
 
 ---
 
-
-# Informatie over het plannen van berichten{#about-scheduling-messages}
+# Informatie over berichten plannen{#about-scheduling-messages}
 
 >[!IMPORTANT]
 >
@@ -53,4 +52,3 @@ Met de **[!UICONTROL Schedule]**-eigenschappen kunt u verzendopties instellen vo
 * [De verzendtijd optimaliseren](../../sending/using/optimizing-the-sending-time.md)
 * [Berichten verzenden in de tijdzone van de ontvanger](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)
 * [De verzenddatum berekenen](../../sending/using/computing-the-sending-date.md)
-
