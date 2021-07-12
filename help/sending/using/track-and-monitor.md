@@ -7,23 +7,22 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Leer hoe u met Adobe Campaign de verzonden berichten kunt volgen en kunt ontdekken hoe de ontvangers op uw levering reageren
-feature: Deliverability
-role: Business Practitioner
+feature: Afleverbaarheid
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '433'
 ht-degree: 4%
 
 ---
-
 
 # Bijhouden en bewaken {#track-and-monitor}
 
 Hebt u op de knop Verzenden geklikt? Laten we eens kijken wat er gebeurt. Zodra de levering wordt verzonden, laat Adobe Campaign u toe om spoor van de verzonden berichten te houden en te ontdekken hoe uw ontvangers op uw levering reageren. Op deze manier kunt u uw volgende campagnes beter verzenden en optimaliseren.
 
-## Leveringen controleren{#monitoring-deliveries}
+## Leveringen controleren {#monitoring-deliveries}
 
 Om uw campagnes te controleren, moet u ervoor zorgen dat het bericht inderdaad aan uw ontvangers is geleverd.
 
