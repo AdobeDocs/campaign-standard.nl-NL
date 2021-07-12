@@ -6,19 +6,18 @@ description: Leer hoe u e-mailberichten met Adobe Campaign Standard kunt archive
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: Performance Monitoring
-role: Business Practitioner
+feature: Prestatiebewaking
+role: User
 level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
-translation-type: tm+mt
-source-git-commit: f7d77f524a6c141066056e53fc8616f35189fc39
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 7%
+source-wordcount: '364'
+ht-degree: 6%
 
 ---
 
-# Archiveren met Email BCC{#archiving-emails}
+# Archiveren met BCC-e-mails{#archiving-emails}
 
 U kunt Adobe Campaign zo configureren dat een kopie van de e-mails die via e-mail BCC van uw platform worden verzonden, bewaard blijft.
 
@@ -43,7 +42,7 @@ Als deze optie eenmaal is ingeschakeld, moet u de optie BCC via e-mail activeren
 >
 >Momenteel worden de gearchiveerde e-mails nog verzonden door de oude archiveringsmodule die een eenvoudig SMTP-relais gebruikt.
 
-## E-mailarchivering {#activating-email-archiving} activeren
+## E-mailarchivering activeren {#activating-email-archiving}
 
 Nadat e-mail BCC is ingeschakeld, wordt deze geactiveerd in de [e-mailsjabloon](../../start/using/marketing-activity-templates.md) via een speciale optie:
 
