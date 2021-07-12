@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Instantie-instellingen
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1150'
 ht-degree: 3%
 
 ---
-
 
 # De payloadstructuur voor pushmeldingen begrijpen {#push-payload}
 
@@ -33,7 +32,7 @@ In dit document wordt de structuur beschreven van de payload die in een mobiele 
 >
 >De payload-structuur is afhankelijk van het type mobiele app (iOS-app, Android-app met FCM).
 
-## Push payloadstructuur {#push-payload-structure}
+## Push-laadstructuur {#push-payload-structure}
 
 Deze sectie beschrijft een structuur van een steekproeflading voor diverse mobiele platforms en beschrijft belangrijke attributen die in het bevat zijn. Dit is de structuur van de payload die in de code voor de mobiele app in de gebeurtenishandler wordt ontvangen, die aangeeft dat een pushmelding is ontvangen.
 
@@ -221,7 +220,7 @@ Om aspecten van een android nuttige lading te begrijpen verwijs naar [De Concept
 | URL met rijke media-inhoud (afbeeldingsbestanden)<br>(Alleen van toepassing voor Android) | NA | media-gehechtheid-url | URL van de afbeeldingsbestanden om rijke inhoud aan uw melding toe te voegen. |
 | NA | _mId<br>_dId | _mId <br>_dId | Waarden van broadlogId en deliveryId.<br>Deze kenmerken zijn vereist als uw app een trackingpostback wil aanroepen om bij te houden wanneer op de pushmelding is geklikt of deze is geopend. Deze informatie wordt berekend en intern verzonden door de toepassingsserver zonder tussenkomst van de gebruiker.<br>Informatie over postbacks vindt u op deze  [pagina](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback). |
 
-### Informatie over het ophalen van de payload in mobiele toepassingscode {#payload-information}
+### Informatie over de payload ophalen in mobiele app-code {#payload-information}
 
 De payload-informatie die door de toepassingsserver wordt verzonden, wordt ontvangen door de mobiele toepassingscode in een gebeurtenishandler die aangeeft dat een pushmelding is ontvangen. Deze gebeurtenis varieert op basis van het mobiele platform waaraan wordt gewerkt en ook op basis van het feit of de app op de voor- of achtergrond wordt uitgevoerd. De volgende documentatie zal u helpen de gebeurtenismanager identificeren u wenst om te behandelen gebaseerd op uw gebruiksgeval.
 
