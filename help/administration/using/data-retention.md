@@ -1,23 +1,22 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Dataretentie
+title: Gegevensretentie
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instance Settings
-role: Administrator
+feature: Instantie-instellingen
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 62%
+source-wordcount: '133'
+ht-degree: 63%
 
 ---
 
-
-# Dataretentie{#data-retention}
+# Gegevensretentie{#data-retention}
 
 De standaard logboeklijsten in Campaign hebben vooraf vastgestelde bewaartermijnen op hen, die over het algemeen hun gegevensopslag tot 6 maanden of minder beperken.
 
