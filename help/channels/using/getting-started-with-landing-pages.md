@@ -7,16 +7,15 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-feature: Landing Pages
-role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+feature: Landingspagina's
+role: User
+exl-id: 8015c555-9521-478c-8669-66b9cc145887
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 96%
+source-wordcount: '1029'
+ht-degree: 97%
 
 ---
-
 
 # Aan de slag met landingspagina&#39;s {#getting-started-with-landing-pages}
 
@@ -109,7 +108,7 @@ U kunt ook configureren hoe de knop voor bevestiging werkt als een profiel erop 
 
 Raadpleeg [deze sectie](../../channels/using/designing-a-landing-page.md) voor meer informatie over het ontwerp van landingspagina&#39;s.
 
-## Stap 4 - De landingspagina testen{#test-the-landing-page}
+## Stap 4 - De landingspagina testen {#test-the-landing-page}
 
 Als de landingspagina eenmaal is gedefinieerd, kunt u simuleren hoe deze online wordt uitgevoerd en zich gedraagt.
 
@@ -123,7 +122,7 @@ Als u tevreden bent met de manier waarop de landingspagina functioneert, publice
 
 Raadpleeg [deze sectie](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-) voor meer informatie over het testen van een landingspagina.
 
-## Stap 5 - De landingspagina publiceren{#publish-the-landing-page}
+## Stap 5 - De landingspagina publiceren {#publish-the-landing-page}
 
 Als de testen met succes zijn voltooid, publiceert u de landingspagina. Druk hiervoor op de knop **[!UICONTROL Publish]** op de actiebalk in het dashboard. Een controleblok geeft de voortgang en status van de publicatie aan.
 
