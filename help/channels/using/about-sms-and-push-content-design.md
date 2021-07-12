@@ -7,19 +7,18 @@ audience: designing
 content-type: reference
 topic-tags: editing-sms-and-push-content
 context-tags: delivery,smsContent,back
-feature: SMS
-role: Business Practitioner
+feature: Sms
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1c918d20-b549-424f-a97c-3895b4e1b3b2
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 98%
+source-wordcount: '166'
+ht-degree: 100%
 
 ---
 
-
-# Sms- en pushcontent ontwerpen{#about-sms-and-push-content-design}
+# Informatie over sms- en pushcontent ontwerpen{#about-sms-and-push-content-design}
 
 Gebruik de contenteditor om de content van sms-berichten en pushmeldingen in Adobe Campaign te definiëren, aan te passen en te personaliseren.
 
