@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: Afleverbaarheid
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 0470b986-c00a-4441-8621-82c7112a9953
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '468'
 ht-degree: 2%
 
 ---
-
 
 # Problemen oplossen{#troubleshooting}
 
