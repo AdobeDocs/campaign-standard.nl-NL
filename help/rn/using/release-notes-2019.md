@@ -1,23 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Opmerkingen bij de release 2019
+title: Aanvullende informatie 2019
 description: Deze pagina bevat een overzicht van alle releases van Adobe Campaign Standard in 2019.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Overzicht
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '7590'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
-# Opmerkingen bij de release 2019{#release-notes-2019}
+# Aanvullende informatie 2019{#release-notes-2019}
 
 [Release-planning](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/release-planning.html) |  [Configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl) |  [Documentatie-updates](../../rn/using/documentation-updates.md) |  [Nieuwste releaseopmerkingen](../../rn/using/release-notes.md) |  [Verouderde functies](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=nl#release-notes)
 
@@ -38,7 +38,7 @@ ht-degree: 8%
    <ul>
     <li>Recht op toegang en recht op verwijdering: We benutten de capaciteiten die voor GDPR zijn toegevoegd. <a href="https://helpx.adobe.com/content/help/nl/campaign/kb/acs-privacy.html#righttoaccess">Meer informatie</a> </li>
     <li><p>Bij het maken van een privacyverzoek is het regulatietype (GDPR of CCPA) toegevoegd aan de Privacy Core Service. Dit is de enige methode die u moet gebruiken voor alle verzoeken voor toegang en verwijderen. Het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken is verouderd. Zie het artikel <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Vervangen en verwijderde functies</a>.</p></li>
-    <li>Het veld Opt-Out</strong> van de CCPA is toegevoegd aan de profielbron zodat Adobe Campaign-gebruikers kunnen controleren of een consument heeft gekozen voor de verkoop van persoonlijke gegevens. <strong> <a href="https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ccpa">Meer informatie</a>.</strong></li>
+    <li>Het veld Opt-Out</strong> van de CCPA is toegevoegd aan de profielbron zodat Adobe Campaign-gebruikers kunnen controleren of een consument heeft gekozen voor de verkoop van persoonlijke gegevens. <strong> <a href="https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ccpa">Meer info</a>.</strong></li>
   </ul>
     <p>Bekijk ook de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">Hoe kan ik-video</a>.</p>
 </td> 
@@ -105,7 +105,7 @@ ht-degree: 8%
 * Probleem verholpen met de grootte van knoppen in sjablonen en fragmenten.
 * Probleem verholpen met de grootte van afbeeldingen wanneer deze in een knopcomponent worden ingevoegd.
 
-**Overige wijzigingen**
+**Andere wijzigingen**
 
 * De standaardtijdwaaier waarvoor de gegevens op de levering KPI pagina&#39;s en op de Dynamische Rapporterende pagina worden getoond is gericht om discrepantie in het melden van resultaten te verhinderen. (CAMP-35148)
 * Er is een foutbericht toegevoegd aan logboeken wanneer het toepassingscertificaat verlopen is.
@@ -213,7 +213,7 @@ ht-degree: 8%
 * De optie &quot;ftp&quot; is verwijderd uit de interface voor externe accountconfiguratie. (CAMP-34472)
 * U kunt de optie van de SMTP testwijze voor elk e-mailbericht nu toelaten en onbruikbaar maken. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
 
-**Overige wijzigingen**
+**Andere wijzigingen**
 
 * Er is een waarschuwing toegevoegd aan de interface met leveringseigenschappen. Hiermee geeft u op dat leveringen worden voorbereid op basis van hun aggregatieperiode en ontdooid om de workflow meerdere keren per dag aan te roepen. Zorg ervoor dat ze geen periode hebben. (CAMP-34393)
 * Een waarschuwing is toegevoegd in de schermen van de douaneconfiguratie van het middel. We raden u aan maximaal 30 tekens te gebruiken voor aangepaste resource-id’s. Dit geldt ook voor aangepaste resourcevelden, sleutels, indexen en koppelingen.
@@ -359,7 +359,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 * Probleem verholpen die optrad bij het importeren van een pakket met een gebeurtenisconfiguratie en het bijbehorende transactiemelding. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages).
 * Probleem verholpen waarbij de verzamelingsgegevens werden verwijderd uit de testprofielen die zijn gemaakt voor een transactiebericht met productaanbiedingen.
 
-**Overige wijzigingen**
+**Andere wijzigingen**
 
 * Er is een nieuwe optie toegevoegd aan de externe SMS-account. Het laat toe om het maximumaantal MTA processen te beperken die SMS verzenden om het aantal parallelle verbindingen beter te controleren. Raadpleeg het [SMS-connectorprotocol en de instellingen](https://helpx.adobe.com/nl/campaign/kb/sms-connector-protocol-and-settings.html)-technologie voor meer informatie.
 * Als een bron met API-extensie wordt gepubliceerd en de API al is gepubliceerd, wordt deze nu automatisch bijgewerkt wanneer deze opnieuw wordt gepubliceerd. Eerder was deze handeling handmatig en als de API niet werd bijgewerkt, kon het profiel of de servicebron van deze API worden verbroken. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
@@ -488,7 +488,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 
    Raadpleeg de [gedetailleerde documentatie](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration) voor meer informatie.
 
-**Overige wijzigingen**
+**Andere wijzigingen**
 
 * Adobe Campaign en Adobe Experience Cloud zullen vanaf het voorjaar van 2019 de ondersteuning voor Microsoft Internet Explorer 11 en de release van Campaign Standard 19.2 stopzetten. Schakel over naar Microsoft Edge of een andere ondersteunde browser. Zie [Vervangen en verwijderde functies](../../rn/using/deprecated-features.md) pagina.
 * Het veld **Landcode** van de profielbron is hernoemd naar **Code land/regio**.
