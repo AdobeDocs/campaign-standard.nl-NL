@@ -4,10 +4,10 @@ product: campaign
 title: Actieve profielen voor campagnes
 description: Leer hoe u toegang krijgt tot maatgegevens van klanten en actieve profielen
 feature: Profielen
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: f66a4e35e1f42a3d7630556d020ce76adfea5891
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 1%
