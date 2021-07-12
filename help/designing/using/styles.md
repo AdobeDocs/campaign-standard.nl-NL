@@ -6,24 +6,23 @@ description: Ontdek hoe u e-mailstijlen kunt beheren in de e-mailontwerper.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-mailontwerp
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1054'
 ht-degree: 2%
 
 ---
-
 
 # E-mailstijlen beheren {#managing-styles}
 
 
 Als u in het venster E-mailontwerp een element selecteert, worden in het deelvenster **[!UICONTROL Settings]** verschillende opties weergegeven die specifiek zijn voor het type geselecteerde inhoud. U kunt deze opties gebruiken om de stijl van uw e-mail gemakkelijk te veranderen.
 
-## Element {#selecting-an-element} selecteren
+## Een element selecteren {#selecting-an-element}
 
 Als u een element wilt selecteren in de interface E-mailontwerper, kunt u:
 
@@ -148,7 +147,7 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
 
    U kunt ook een achtergrondafbeelding instellen op kolomniveau, maar dit wordt zelden gebruikt.
 
-### Voorbeeld: aanpassen, verticale uitlijning en opvulling {#example--adjusting-vertical-alignment-and-padding}
+### Voorbeeld: verticale uitlijning en opvulling aanpassen {#example--adjusting-vertical-alignment-and-padding}
 
 U wilt de opvulling en de verticale uitlijning aanpassen binnen een structuurcomponent die uit drie kolommen bestaat. Volg de onderstaande stappen om dit te doen:
 
