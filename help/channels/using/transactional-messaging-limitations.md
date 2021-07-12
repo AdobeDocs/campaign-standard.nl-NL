@@ -8,18 +8,17 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 feature: Transactional Messaging
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '744'
 ht-degree: 68%
 
 ---
 
-
-# Aanbevolen werkwijzen en beperkingen {#transactional-messaging-limitations} voor transactiemeldingen
+# Beste praktijken en beperkingen van het Transactionele overseinen {#transactional-messaging-limitations}
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
@@ -69,7 +68,7 @@ De manier waarop u berichtcontent kunt personaliseren hangt af van het type tran
 
 Merk op dat de productaanbiedingen in transactie **e-mailberichten** slechts beschikbaar zijn. Zie [Productaanbiedingen gebruiken in een transactiebericht](../../designing/using/using-product-listings.md).
 
-## Merkpositionering {#permissions-and-branding}
+## Branding {#permissions-and-branding}
 
 Wanneer het om het beheer van [branding](../../administration/using/branding.md) gaat, biedt transactionele messaging minder flexibiliteit dan standaard messaging. Adobe raadt u aan alle merken die in transactieberichten worden gebruikt, te koppelen aan de **[!UICONTROL All]** organisatorische eenheid[](../../administration/using/organizational-units.md). Lees de gedetailleerde uitleg hieronder voor meer informatie.
 
