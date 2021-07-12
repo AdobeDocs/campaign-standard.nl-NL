@@ -1,25 +1,24 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: E-mailberichten testen met behulp van doelprofielen
+title: E-mailberichten testen met doelprofielen
 description: Leer hoe u berichten kunt testen met behulp van doelprofielen en vervangende adressen.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Control Groups
-role: Business Practitioner
+feature: Controlegroepen
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1516'
 ht-degree: 4%
 
 ---
 
-
-# E-mailberichten testen met behulp van doelprofielen {#testing-message-profiles}
+# E-mailberichten testen met doelprofielen {#testing-message-profiles}
 
 ## Overzicht {#overview}
 
@@ -100,7 +99,7 @@ Als u doelprofielen wilt gebruiken voor tests, moet u deze eerst selecteren en v
 >
 >Als u een wijziging aanbrengt in uw bericht, moet u de voorbereiding van het bericht opnieuw starten. Anders worden de wijzigingen niet doorgevoerd in de proefdruk.
 
-### Profielen importeren uit een publiek {#importing-from-audience}
+### Profielen van een publiek importeren {#importing-from-audience}
 
 Met Campaign Standard kunt u een publiek met profielen importeren dat u kunt gebruiken voor tests. Zo kunt u bijvoorbeeld een hele reeks berichten voor verschillende profielen naar een uniek e-mailadres verzenden.
 
