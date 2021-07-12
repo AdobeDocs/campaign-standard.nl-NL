@@ -6,17 +6,16 @@ description: Meer informatie over licenties die op uw exemplaar zijn geïnstalle
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
-role: Administrator
+feature: Toegangsbeheer
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '171'
 ht-degree: 1%
 
 ---
-
 
 # Licenties{#licenses}
 
@@ -37,4 +36,3 @@ Een beheerder moet de nieuwe bepalingen van overeenkomst in de volgende 30 dagen
 Deze 30 dagen zijn goedgekeurd als de overeenkomst niet wordt geaccepteerd, kunnen geen gebruikers dit exemplaar gebruiken. De standaardgebruikers hebben geen toegang tot Adobe Campaign-functies en zien alleen het volgende bericht totdat een functionele beheerder de bepalingen van de overeenkomst accepteert.
 
 ![](assets/license_4.png)
-
