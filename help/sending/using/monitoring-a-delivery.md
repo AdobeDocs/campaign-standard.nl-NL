@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
-feature: Performance Monitoring
-role: Business Practitioner
+feature: Prestatiebewaking
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ddc92077-df73-411d-a161-3263581e6945
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '463'
 ht-degree: 88%
 
 ---
-
 
 # Een levering controleren{#monitoring-a-delivery}
 
@@ -78,7 +77,7 @@ Op het tabblad **[!UICONTROL Exclusion logs]** worden alle berichten weergegeven
 
 ![](assets/sending_delivery4.png)
 
-### Oorzaken van uitsluiting {#exclusion-causes}
+### Uitsluitingsoorzaken {#exclusion-causes}
 
 Het tabblad **[!UICONTROL Exclusion causes]** toont het aantal berichten dat van de verzending is uitgesloten.
 
