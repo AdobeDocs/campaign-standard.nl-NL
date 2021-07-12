@@ -7,16 +7,15 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 feature: Transactional Messaging
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '775'
 ht-degree: 3%
 
 ---
-
 
 # Vervolgberichten {#follow-up-messages}
 
@@ -39,7 +38,7 @@ Om een follow-upbericht te verzenden, moet u eerst dienovereenkomstig de gebeurt
 
 Nadat de gebeurtenis is gepubliceerd, worden automatisch een transactiemelding en een leveringssjabloon voor de follow-up gemaakt die aan de nieuwe gebeurtenis zijn gekoppeld. De stappen om het follow-upbericht te verzenden worden beschreven in [deze sectie](#sending-a-follow-up-message).
 
-## Toegang tot de vervolgberichten {#accessing-the-follow-up-messages}
+## De follow-upberichten openen {#accessing-the-follow-up-messages}
 
 Voor het afhandelen van een gebeurtenis in een workflow is een leveringssjabloon vereist. Nochtans, wanneer het publiceren van de gebeurtenis, [transactioneel bericht](../../channels/using/editing-transactional-message.md) dat wordt gecreeerd kan niet als malplaatje worden gebruikt. Daarom moet u een specifieke follow-up leveringsmalplaatje creëren dat wordt ontworpen om dit gebeurtenistype te steunen en als malplaatje in een werkschema te gebruiken.
 
