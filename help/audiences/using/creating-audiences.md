@@ -7,17 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: readAudience,main;audience,overview;delivery,audience,back
-feature: Audiences
-role: Business Practitioner
+feature: Doelgroepen
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 99%
+source-wordcount: '970'
+ht-degree: 100%
 
 ---
-
 
 # Doelgroepen maken{#creating-audiences}
 
@@ -147,4 +146,3 @@ De vervaldatum is nu geconfigureerd. Wanneer deze datum wordt bereikt, wordt uw 
 U kunt doelgroepen ook verwijderen door ze te selecteren en op de knop **[!UICONTROL Delete element]** te klikken.
 
 ![](assets/audience_delete_1.png)
-
