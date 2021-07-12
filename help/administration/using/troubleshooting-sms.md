@@ -6,17 +6,16 @@ description: Problemen met sms oplossen
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
-role: Administrator
+feature: Instantie-instellingen
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2698'
 ht-degree: 0%
 
 ---
-
 
 # Problemen met sms oplossen {#sms-troubleshooting}
 
@@ -144,7 +143,7 @@ Het verminderen van de hoeveelheid duplicaten wanneer er opnieuw wordt geprobeer
 
 * Verlaag het verzendende venster. Het verzendende venster zou groot genoeg moeten zijn om voor `SUBMIT_SM_RESP` latentie te behandelen. De waarde ervan vertegenwoordigt het maximum aantal berichten dat kan worden gedupliceerd als een fout optreedt terwijl het venster vol is.
 
-## Probleem bij verwerking SR (ontvangstbewijzen) {#issue-process-SR}
+## Uitgave bij verwerking van SR (ontvangstbewijzen) {#issue-process-SR}
 
 * U hebt SMPP-sporen nodig die zijn ingeschakeld voor het uitvoeren van elk type SR-probleemoplossing.
 
@@ -162,7 +161,7 @@ Als `DELIVER_SM PDU` niet met succes wordt erkend, dan zou u het volgende moeten
 
 Als u alles hebt gecorrigeerd, maar een aantal ongeldige SR nog steeds in de buffers van de provider staan, kunt u deze overslaan met de optie **Ongeldige id bevestigt aantal**. Dit dient met voorzichtigheid te worden gebruikt en zo snel mogelijk na het schoonmaken van de buffers op 0 te worden ingesteld.
 
-## Probleem bij verwerking MO (en zwarte lijst/automatische reactie){#issue-process-MO}
+## Probleem bij verwerking MO (en zwarte lijst/automatisch antwoord){#issue-process-MO}
 
 * SMPP-sporen inschakelen tijdens tests. Als u TLS niet toelaat, zou u een netwerk moeten doen vangt wanneer het oplossen van problemenMO om te controleren dat PDUs de correcte informatie bevatten en behoorlijk geformatteerd zijn.
 
@@ -176,7 +175,7 @@ Als u alles hebt gecorrigeerd, maar een aantal ongeldige SR nog steeds in de buf
 
 * Als de `SUBMIT_SM MT PDU` met het antwoord in de sporen wordt gevonden maar SMS niet aan de mobiele telefoon aankomt, zult u voor hulp bij het oplossen van problemen contact met de leverancier moeten opnemen.
 
-## Uitgave tijdens de voorbereiding van de levering zonder uitzondering van in quarantaine geplaatste ontvangers (in quarantaine geplaatst door de functie voor automatische reactie) {#issue-delivery-preparation}
+## Uitgave tijdens de voorbereiding van de levering, exclusief in quarantaine geplaatste ontvangers (in quarantaine geplaatst door de functie voor automatisch antwoord) {#issue-delivery-preparation}
 
 * Controleer dat het formaat van het telefoonaantal precies het zelfde in de quarantainelijst en in het leveringslogboek is.  Als het niet is, verwijs naar dit [sectie](../../administration/using/sms-protocol.md#automatic-reply) als u kwesties met het plus voorvoegsel van het internationale formaat van het telefoonaantal hebt.
 
@@ -212,7 +211,7 @@ U zult zuivert output van de schakelaar nodig hebben om precies te zien welke by
 
 Verschillende soorten speciale tekens verzenden tijdens het testen. GSM7-codering bevat bijvoorbeeld uitgebreide tekens die sterk van elkaar verschillen in hun hexadecimale vorm. Ze zijn gemakkelijk te vinden omdat ze niet in andere codering worden weergegeven.
 
-## Elementen die moeten worden opgenomen wanneer wordt gecommuniceerd over een SMS-probleem {#element-include}
+## Elementen die moeten worden opgenomen bij communicatie over een SMS-probleem {#element-include}
 
 Wanneer u om hulp over een kwestie van SMS, of het een steunkaartje aan Adobe Campaign, aan de leverancier van SMS, of om het even welk soort mededeling over de kwestie opent, zult u de volgende informatie moeten omvatten om ervoor te zorgen dat het behoorlijk gekwalificeerd zal zijn. Goed gekwalificeerde problemen zijn essentieel om problemen sneller op te lossen.
 
@@ -236,7 +235,7 @@ Wanneer u om hulp over een kwestie van SMS, of het een steunkaartje aan Adobe Ca
 
 * Omvat om het even welke verandering of tweaks die op het platform worden aangebracht. Neem ook alle wijzigingen op die de provider aan hun zijde heeft aangebracht.
 
-### Netwerkopname {#network-capture}
+### Netwerkvastlegging {#network-capture}
 
 Een netwerk vangt is niet altijd nodig, gewoonlijk zijn de uitgebreide SMPP- berichten genoeg. Hier zijn sommige richtlijnen die u zullen helpen bepalen als een netwerk vangt nodig is:
 
@@ -266,7 +265,7 @@ In sommige gevallen is het vastleggen van netwerkverkeer niet nodig. Hier volgen
 
 * Fouten waarbij geen daadwerkelijk SMPP-verkeer is betrokken: Voorbereiding van levering, problemen met de Berichtencentrum-API, workflowproblemen, enz.
 
-## SMPP-sporen inschakelen {#enabling-smpp-traces}
+## SMP-sporen inschakelen {#enabling-smpp-traces}
 
 De nieuwe schakelaar steunt uitgebreide het registreren door sporen: SMPP. De sporen zijn output in het MTA logboek, niet op de standaardoutput.
 
@@ -298,7 +297,7 @@ Stel in het bestand `config-instance.xml` de volgende parameters in:
 <mta args="-tracefilter:SMPP"/>
 ```
 
-## Het aantal open verbindingen op een container {#open-connections} controleren
+## Het aantal open verbindingen op een container controleren {#open-connections}
 
 Als u het aantal open verbindingen op een container wilt controleren, kunt u de volgende opdracht gebruiken:
 
