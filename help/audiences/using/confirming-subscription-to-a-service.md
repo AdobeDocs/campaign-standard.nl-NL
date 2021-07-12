@@ -6,19 +6,18 @@ description: Voer de volgende stappen uit om een bevestigingsbericht in te stell
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: Audiences
-role: Business Practitioner
+feature: Doelgroepen
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1322'
 ht-degree: 96%
 
 ---
 
-
-# Een abonnement op een service bevestigen{#confirming-subscription-to-a-service}
+# Een lidmaatschap op een service bevestigen{#confirming-subscription-to-a-service}
 
 ## Abonnementsbevestiging verzenden {#sending-subscription-confirmation}
 
@@ -125,7 +124,7 @@ Telkens wanneer een profiel zich inschrijft voor deze service, ontvangt dit nu h
 >
 >Er wordt alleen een bericht verzonden wanneer de gebruiker zich voor de eerste keer inschrijft.
 
-## Een bevestigingsbericht configureren vanaf een landingspagina{#configuring-confirmation-message-from-landing-page}
+## Een bevestigingsbericht configureren vanaf een landingspagina {#configuring-confirmation-message-from-landing-page}
 
 U kunt ook naar het bevestigingsbericht verwijzen vanaf de landingspagina van een abonnement door de optie **[!UICONTROL Start sending messages]** van de sectie **[!UICONTROL Job]** van de landingspagina te gebruiken.
 
