@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Proofs
-role: Business Practitioner
+feature: Proefdrukken
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '584'
 ht-degree: 99%
 
 ---
-
 
 # Proeven verzenden {#sending-proofs}
 
@@ -107,7 +106,7 @@ Als u het nummer van de proef wilt verbergen, activeert u de optie **[!UICONTROL
 **Verwant onderwerp:**
 
 * Video over het [verzenden van een test en het voorbereiden en verzenden van een e-mail](../../sending/using/get-started-sending-messages.md#video)
-* [E-mailberichten testen aan de hand van doelprofielen](../../sending/using/testing-messages-using-target.md)
+* [E-mailberichten testen met doelprofielen](../../sending/using/testing-messages-using-target.md)
 * [Testprofielen beheren](../../audiences/using/managing-test-profiles.md)
 * [Berichten voorvertonen](../../sending/using/previewing-messages.md)
 * [E-mailkanaal configureren](../../administration/using/configuring-email-channel.md)
