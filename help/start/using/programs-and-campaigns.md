@@ -7,17 +7,16 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaign,overview;campaignExplorer,main
-feature: Campaigns
-role: Business Practitioner
+feature: Campagnes
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 99%
+source-wordcount: '642'
+ht-degree: 100%
 
 ---
-
 
 # Programma’s en campagnes{#programs-and-campaigns}
 
@@ -103,4 +102,3 @@ Alle programma’s en campagnes in de lijst hebben een visueel symbool en een pi
 * Groen: het programma of de campagne is voltooid - status **[!UICONTROL Finished]**. Standaard wordt de huidige datum automatisch weergegeven als de begindatum van de geldigheid en de einddatum wordt berekend op basis van de begindatum (**D+186 dagen**). U kunt deze datums wijzigen in de eigenschappen van het programma of de campagne.
 
 ![](assets/programs_and_campaigns.png)
-
