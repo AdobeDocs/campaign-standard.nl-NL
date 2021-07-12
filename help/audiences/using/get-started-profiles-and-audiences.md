@@ -7,10 +7,10 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 feature: Profielen
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
-source-git-commit: bc55ccea9691d904bbc1b64d93d0a7b8486940e5
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 20%
@@ -32,7 +32,7 @@ Segmenteer uw database in doelgroepen om de target van uw marketingcampagnes te 
 
 Beheer machtigingen en toestemming van klanten door met behulp van services en landingspagina’s eenvoudige opt-in- en opt-out-mechanismen in te stellen.
 
-## {#segmenting-targeting} segmenteren en aanwijzen
+## Segmentering en doelgerichtheid {#segmenting-targeting}
 
 <img src="assets/do-not-localize/icon_segment.svg" width="60px">
 
@@ -48,7 +48,7 @@ Adobe Campaign bouwt rijke klantenprofielen in real time, toestaand u om relevan
 
 Meer informatie:
 
-* [Profielen](../../audiences/using/about-profiles.md)
+* [Over profielen](../../audiences/using/about-profiles.md)
 * [Actieve profielen](../../audiences/using/active-profiles.md)
 * [Testprofielen beheren](../../audiences/using/managing-test-profiles.md)
 * [De Campaign-database verrijken](../../audiences/using/enriching-campaign-database.md)
@@ -72,7 +72,7 @@ Als u **abonnementkoppelingen** in uw berichten opgeeft, kunnen profielen indien
 
 Meer informatie:
 
-* [Informatie over abonnementen](../../audiences/using/about-subscriptions.md)
+* [Informatie over lidmaatschappen](../../audiences/using/about-subscriptions.md)
 * [Informatie over opt-in en opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## Privacynaleving {#privacy}
