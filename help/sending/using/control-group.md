@@ -7,17 +7,16 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery
-feature: Control Groups
-role: Business Practitioner
+feature: Controlegroepen
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 553897d4-2652-453f-960e-bb2993889f37
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 99%
+source-wordcount: '1334'
+ht-degree: 100%
 
 ---
-
 
 # Een controlegroep toevoegen {#adding-control-group}
 
@@ -39,7 +38,7 @@ Voor het definiëren van een controlegroep kunt u beide methoden gebruiken.
 
 Alle profielen die deel uitmaken van de controlegroep bij de voorbereidingsstap voor levering worden uit de hoofdtarget verwijderd. Ze zullen het bericht niet meer ontvangen als het eenmaal is verzonden.
 
-## Extraheren uit de targetpopulatie{#extraction-target-population}
+## Extraheren uit de targetpopulatie {#extraction-target-population}
 
 Als u een controlegroep wilt definiëren, kunt u kiezen of u op willekeurige wijze of op basis van een sortering een percentage of een vast aantal profielen uit de targetpopulatie wilt extraheren.
 
