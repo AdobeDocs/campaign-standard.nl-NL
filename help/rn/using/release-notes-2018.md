@@ -1,23 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Opmerkingen bij de release 2018
+title: Aanvullende informatie 2018
 description: Deze pagina bevat een overzicht van alle releases van Adobe Campaign Standard in 2018.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: Overzicht
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '5401'
-ht-degree: 6%
+ht-degree: 3%
 
 ---
 
-# Opmerkingen bij de release 2018{#release-notes}
+# Aanvullende informatie 2018{#release-notes}
 
 Op zoek naar een specifieke release van Adobe Campaign Standard in 2018?
 
@@ -39,11 +39,11 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
  <tbody> 
   <tr> 
    <td> In-app overseinen (bèta)<br /> </td> 
-   <td> Met In-App-berichten kunt u gebruikers van Mobile App effectiever inschakelen door contextuele interactie te bieden en u in staat te stellen gebruikers te bereiken die mogelijk uit pushberichten hebben gekozen. Gebruik in-app berichten in combinatie met pushmeldingen om een zeer persoonlijke en relevante ervaring te creëren. Dit leidt tot betere conversie en behoud van uw App-gebruikers.<br /> Raadpleeg de <a href="../../channels/using/about-in-app-messaging.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Met In-App-berichten kunt u gebruikers van Mobile App effectiever inschakelen door contextuele interactie te bieden en u in staat te stellen gebruikers te bereiken die mogelijk uit pushberichten hebben gekozen. Gebruik in-app berichten in combinatie met pushmeldingen om een zeer persoonlijke en relevante ervaring te creëren. Dit leidt tot betere conversie en behoud van uw App-gebruikers.<br /> Raadpleeg de  <a href="../../channels/using/about-in-app-messaging.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Integratie met Adobe starten voor mobiele apps (bèta)<br /> </td> 
-   <td> Adobe De integratie van de Lancering met Adobe Campaign vereenvoudigt en automatiseert nu het proces van de Activering van het Bezit van de Mobiele App in Campagne gebruikend Mobile SDK V5.<br /> Raadpleeg de <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Adobe De integratie van de Lancering met Adobe Campaign vereenvoudigt en automatiseert nu het proces van de Activering van het Bezit van de Mobiele App in Campagne gebruikend Mobile SDK V5.<br /> Raadpleeg de  <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,7 +52,7 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
 
 * Adobe Campaign Standard ondersteunt nu versie 4 van de Amazon S3 API.
 
-**Overige wijzigingen**
+**Andere wijzigingen**
 
 * In de uitzendingen, is er nu een onderscheid tussen het maximumaantal verbindingen en het maximumaantal berichten per uur. Wanneer de grenzen worden bereikt, is het dan mogelijk te weten waarom de productie beperkt is. Eerder was hetzelfde bericht (&quot;met quotum bereikt&quot;) van toepassing op beide gevallen.
 * Wanneer u een mobiele toepassing configureert in Campagne, kan de gebruiker nu weten of het iOS-certificaat en de Android-serversleutel zijn geüpload en of de vervaldatum van de toepassing geldig zijn.
@@ -104,15 +104,15 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
  <tbody> 
   <tr> 
    <td> Markering voor hoge prioriteit voor Android-pushmeldingen<br /> </td> 
-   <td> Markering met hoge prioriteit voor Android: hiermee kunt u een pushmelding met hoge prioriteit maken voor Android-toepassingen. Hierdoor wordt het slaapapparaat wakker en wordt de verwerking beperkt. De standaardprioriteit is Normal, waardoor de levering van het bericht kan worden vertraagd om de batterij op te slaan. <br /> Raadpleeg de <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Markering met hoge prioriteit voor Android: hiermee kunt u een pushmelding met hoge prioriteit maken voor Android-toepassingen. Hierdoor wordt het slaapapparaat wakker en wordt de verwerking beperkt. De standaardprioriteit is Normal, waardoor de levering van het bericht kan worden vertraagd om de batterij op te slaan. <br /> Raadpleeg de  <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Typologisch filter voor mobiele app-abonnees<br /> </td> 
-   <td> Ondersteuningsabonnementen in typologiefilter - Wanneer u de filtercriteria voor een typologieregel opgeeft, kunnen de abonnementen van de toepassing worden geselecteerd als de filterings- en doelafmetingen, zodat u op kenmerken kunt filteren voor gebruikers met of zonder profiel. <br /> Raadpleeg de <a href="../../sending/using/about-typology-rules.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Ondersteuningsabonnementen in typologiefilter - Wanneer u de filtercriteria voor een typologieregel opgeeft, kunnen de abonnementen van de toepassing worden geselecteerd als de filterings- en doelafmetingen, zodat u op kenmerken kunt filteren voor gebruikers met of zonder profiel. <br /> Raadpleeg de  <a href="../../sending/using/about-typology-rules.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Geautomatiseerde inhoud importeren van een URL tijdens berichtvoorbereiding<br /> </td> 
-   <td> Het is nu mogelijk om e-mailinhoud te importeren vanaf een URL tijdens de voorbereidingsfase. Voor terugkerende e-mailleveringen wordt de meest recente HTML-inhoud opgehaald telkens wanneer het bericht wordt voorbereid, zodat de inhoud altijd up-to-date is op het moment dat de e-mail wordt verzonden. Met deze functie kunt u ook een geplande levering maken met inhoud van een URL, zelfs als de inhoud nog niet gereed is.<br /> Raadpleeg de <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Het is nu mogelijk om e-mailinhoud te importeren vanaf een URL tijdens de voorbereidingsfase. Voor terugkerende e-mailleveringen wordt de meest recente HTML-inhoud opgehaald telkens wanneer het bericht wordt voorbereid, zodat de inhoud altijd up-to-date is op het moment dat de e-mail wordt verzonden. Met deze functie kunt u ook een geplande levering maken met inhoud van een URL, zelfs als de inhoud nog niet gereed is.<br /> Raadpleeg de  <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Meldingsbericht campagne<br /> </td> 
@@ -130,7 +130,7 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
 * Dankzij de integratie tussen Adobe Campaign en Adobe Target kunt u nu de functie [Machtigingen](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html) van Target gebruiken. Wanneer u een dynamische afbeelding van Adobe Target in een e-mail opneemt, kunt u nu een eigenschap Doel opgeven (at_property-code).
 * Aangepaste bronnen met een eigen koppeling naar de profielbron worden nu in aanmerking genomen door verzoeken om toegang tot of verwijdering van GDPR-privacy. Voor 1 kardinaliteit eenvoudige verbindingen en de verbindingen van de kardinaliteitsinzameling van N, moet u &quot;het Schrappen/het Dupliceren van het doelverslag impliceren schrappend/het dupliceren van de verslagen van verwijzingen voorzien door de verbinding&quot;in het douanemiddel selecteren. Voor eenvoudige 0- of 1-cardinaliteit-koppelingen selecteert u &quot;Verwijderen/dupliceren van de record houdt in dat de doelrecord waarnaar door de koppeling wordt verwezen, wordt verwijderd/gedupliceerd&quot;.
 
-**Overige wijzigingen**
+**Andere wijzigingen**
 
 * De time-out voor het delen van rapporten is verhoogd van een tot vier minuten om een time-outfout te voorkomen.
 * Wanneer u de inhoud van een e-mailbericht bewerkt, wordt de nieuwe Creative Designer standaard geopend. Desgewenst kunt u na het opslaan van de wijzigingen desgewenst nog steeds terugkeren naar de standaardinhoudseditor. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../designing/using/designing-content-in-adobe-campaign.md).
@@ -161,7 +161,7 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
 * De technische workflow van **[!UICONTROL Database cleanup]** is geoptimaliseerd voor betere prestaties voor back-ups van databases.
 * De Creative Designer voor e-mail is nu ook beschikbaar in het Frans en Duits.
 
-**Overige wijzigingen**
+**Andere wijzigingen**
 
 * Er is een knop **[!UICONTROL Compute stats]** toegevoegd in het venster **[!UICONTROL Deployment]** van verzonden leveringen. Het staat u toe om recentste KPIs terug te winnen, bijvoorbeeld als de resultaten van het verzenden te lang om duren bij te werken of niet in aanmerking genomen. Raadpleeg deze [sectie](../../sending/using/confirming-the-send.md) voor meer informatie.
 * In **Update for delivery** out-of-the-box technische workflow, kunnen de functionele beheerders nu het aantal opeenvolgende fouten definiëren die moeten worden genegeerd in de **Update rules** javascript-activiteit. De veldwaarde wordt standaard ingesteld op 0, wat betekent dat alle fouten worden genegeerd.
@@ -205,11 +205,11 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
  <tbody> 
   <tr> 
    <td> GDPR: Core Service Integration<br /> </td> 
-   <td> De Integratie van de Dienst van de Kern van de privacy staat u toe om uw verzoeken GDPR in een multi-oplossingscontext door één enkele vraag van JSON API te automatiseren. <br /> GDPR-aanvragen die van de Privacy Core Service naar alle Experience Cloud-oplossingen worden geduwd, worden nu automatisch door de Campagne afgehandeld. <br /> Raadpleeg de <a href="https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> De Integratie van de Dienst van de Kern van de privacy staat u toe om uw verzoeken GDPR in een multi-oplossingscontext door één enkele vraag van JSON API te automatiseren. <br /> GDPR-aanvragen die van de Privacy Core Service naar alle Experience Cloud-oplossingen worden geduwd, worden nu automatisch door de Campagne afgehandeld. <br /> Raadpleeg de  <a href="https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Verbeteringen voor pushtechnologie - gedetailleerde leveringsfeedback<br /> </td> 
-   <td> Adobe Campaign biedt nu de mogelijkheid om gedetailleerde feedback (het verzenden van logboeken en uitsluitingslogboeken) te ontvangen over pushberichten van APNS/GCM via MCPNS.<br /> Raadpleeg de <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Adobe Campaign biedt nu de mogelijkheid om gedetailleerde feedback (het verzenden van logboeken en uitsluitingslogboeken) te ontvangen over pushberichten van APNS/GCM via MCPNS.<br /> Raadpleeg de  <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Extensie voor leveringslogs<br /> </td> 
@@ -217,11 +217,11 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
     <ul> 
      <li> Uitgebreide uitzendingen met "bevroren"gegevens uitvoeren: Als markeerteken wil ik alle profielen exporteren waarvoor segmentcode gelijk is aan "A" (afkomstig van de workflow-engine). </li> 
      <li> Segmentering van "bevroren" gegevens: Als markator, zou ik <strong>retarget</strong> alle profielen willen die 1000 loyaliteitspunten sinds het laatste verzenden hebben gewonnen of waar de segmentcode aan "A"gelijk was. </li> 
-    </ul> Raadpleeg de <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+    </ul> Raadpleeg de <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">gedetailleerde documentatie</a>.<br /> voor meer informatie. </td> 
   </tr> 
   <tr> 
    <td> Dynamische rapportage met aangepaste profielgegevens<br /> </td> 
-   <td> Met deze functie kunt u rapporten maken en beheren op basis van aangepaste profielgegevens die zijn gemaakt tijdens de bestandsextensie. U kunt rapporten onderverdelen door profielattributen zoals loyaliteitsprogramma, aangewezen kanaal, etc.<br /> Raadpleeg de <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Met deze functie kunt u rapporten maken en beheren op basis van aangepaste profielgegevens die zijn gemaakt tijdens de bestandsextensie. U kunt rapporten onderverdelen door profielattributen zoals loyaliteitsprogramma, aangewezen kanaal, etc.<br /> Raadpleeg de  <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -230,7 +230,7 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
 
 * Het totale geheugen en CPU-gebruik van de toepassing is verbeterd
 
-**Overige wijzigingen**
+**Andere wijzigingen**
 
 * De activiteit van de workflow Publiek lezen kan nu Experience Cloud-publiek lezen. Eerder kon deze activiteit alleen het publiek Query en List lezen. Raadpleeg de [gedetailleerde documentatie](../../automating/using/read-audience.md). (CAMP-23623)
 * De id van de standaard gezamenlijke gegevensbron bevindt zich nu in de modus Alleen-lezen en kan niet meer worden gewijzigd. Als u deze id wijzigt, kunnen er problemen optreden bij het delen van het publiek met de Experience Cloud.
@@ -307,7 +307,7 @@ _Aangepaste resources_
     <ul> 
      <li> Recht op toegang: staat de betrokkene toe een kopie te ontvangen van zijn/haar persoonsgegevens die door de gegevensverwerkingsverantwoordelijken zijn vastgelegd, met inbegrip van gegevens die in Adobe Campaign zijn opgeslagen. </li> 
      <li> Rechts om te verwijderen: geeft de betrokkene het recht om zijn/haar persoonsgegevens die door gegevensverwerkingsverantwoordelijken zijn vastgelegd, te laten wissen, eventueel met inbegrip van gegevens die in Adobe Campaign zijn opgeslagen. </li> 
-    </ul> Raadpleeg de <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+    </ul> Raadpleeg de <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">gedetailleerde documentatie</a>.<br /> voor meer informatie. </td> 
   </tr> 
   <tr> 
    <td> Creative Designer voor e-mail (bèta)<br /> </td> 
@@ -321,7 +321,7 @@ _Aangepaste resources_
   </tr> 
   <tr> 
    <td> Meertalige pushleveringen<br /> </td> 
-   <td> Dezelfde eenvoudige meertalige interface, die al bestaat op de e-mail- en sms-kanalen, is toegevoegd aan het pushkanaal, zodat u klanten kunt bereiken, ongeacht hun voorkeurstaal.<br /> Dit vermogen biedt een scalable en automatische oplossing voor klanten die Push campagnes leiden die veelvoudige gebieden overspannen en gebruikers in hun aangewezen taal willen richten. Hiermee kunt u alle taalvarianten via een sjabloonspreadsheet uploaden naar één pushbericht, met één klik. Adobe Campaign voert vervolgens een automatische segmentatie uit op basis van de taalvoorkeur van de gebruiker, waardoor de redundantie wordt verminderd door workflows en rapportering te vereenvoudigen.<br /> Raadpleeg de <a href="../../channels/using/creating-a-multilingual-push-notification.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Dezelfde eenvoudige meertalige interface, die al bestaat op de e-mail- en sms-kanalen, is toegevoegd aan het pushkanaal, zodat u klanten kunt bereiken, ongeacht hun voorkeurstaal.<br /> Dit vermogen biedt een scalable en automatische oplossing voor klanten die Push campagnes leiden die veelvoudige gebieden overspannen en gebruikers in hun aangewezen taal willen richten. Hiermee kunt u alle taalvarianten via een sjabloonspreadsheet uploaden naar één pushbericht, met één klik. Adobe Campaign voert vervolgens een automatische segmentatie uit op basis van de taalvoorkeur van de gebruiker, waardoor de redundantie wordt verminderd door workflows en rapportering te vereenvoudigen.<br /> Raadpleeg de  <a href="../../channels/using/creating-a-multilingual-push-notification.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Gebruik van de Middelen van de Douane in Transactionaal Overseinen<br /> </td> 
@@ -329,7 +329,7 @@ _Aangepaste resources_
     <ul> 
      <li> Aangepaste velden als afstemmingscriteria gebruiken om een transactiebericht aan een profiel aan te passen </li> 
      <li> Gebruik volledige profielen, de diensten en verbonden gegevens om transactieverslagen verder te personaliseren </li> 
-    </ul> Raadpleeg de <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+    </ul> Raadpleeg de <a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">gedetailleerde documentatie</a>.<br /> voor meer informatie. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -393,11 +393,11 @@ _Transactionele berichten_
  <tbody> 
   <tr> 
    <td> Abonnement - abonneren of een abonnement nemen op een lijst met profielen voor meerdere services<br /> </td> 
-   <td> Met de <strong>Subscription Services</strong>-workflowactiviteit kunt u zich nu abonneren op of een abonnement nemen op een lijst met profielen voor meerdere services. Importeer in uw workflow een bestand met de profielen en voor elk profiel, het bewerkingstype en de service. Met de activiteit <strong>Subscription Services</strong> kunt u deze informatie gebruiken en alle abonnementen en abonnementen voor profielen tegelijk dynamisch verwerken.<br /> Raadpleeg de <a href="../../automating/using/subscription-services.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Met de <strong>Subscription Services</strong>-workflowactiviteit kunt u zich nu abonneren op of een abonnement nemen op een lijst met profielen voor meerdere services. Importeer in uw workflow een bestand met de profielen en voor elk profiel, het bewerkingstype en de service. Met de activiteit <strong>Subscription Services</strong> kunt u deze informatie gebruiken en alle abonnementen en abonnementen voor profielen tegelijk dynamisch verwerken.<br /> Raadpleeg de  <a href="../../automating/using/subscription-services.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Verrijkingsactiviteit - verrijkt gegevens op basis van vorige overgangen<br /> </td> 
-   <td> Met de nieuwe <span class="uicontrol">Verrijking</span>-workflowactiviteit kunt u de binnenkomende overgangen benutten en de uitvoerovergang voltooien met aanvullende gegevens. Als u profielen als doel instelt, kunt u met de verrijkingsactiviteit de profielgegevens verrijken met aanvullende gegevens die niet in de database zijn opgeslagen (bijvoorbeeld afkomstig uit een geïmporteerd bestand).<br /> Raadpleeg de <a href="../../automating/using/enrichment.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Met de nieuwe <span class="uicontrol">Verrijking</span>-workflowactiviteit kunt u de binnenkomende overgangen benutten en de uitvoerovergang voltooien met aanvullende gegevens. Als u profielen als doel instelt, kunt u met de verrijkingsactiviteit de profielgegevens verrijken met aanvullende gegevens die niet in de database zijn opgeslagen (bijvoorbeeld afkomstig uit een geïmporteerd bestand).<br /> Raadpleeg de  <a href="../../automating/using/enrichment.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -457,15 +457,15 @@ Sommige problemen kunnen zich voordoen bij het gebruik van contextafhankelijke H
  <tbody> 
   <tr> 
    <td> Rapportage voor vermoeidheidsbeheer<br /> </td> 
-   <td> De rapportering voor het Beheer van de Vermoeidheid is een specifiek, configureerbaar rapport dat de gevolgen de regels van de Vermoeidheid op leveringen over e-mail, Duw, SMS, en de Directe kanalen van de Post binnen een gespecificeerde datumwaaier toont alvorens te verzenden. Met het toegevoegde inzicht om alle conflicterende campagnes in één enkele mening snel te kunnen zien, kunnen de marketers marketing campagnes volgens de vastgestelde vermoeidheidsregels effectiever plannen, en mededelingen prioriteren.<br /> Raadpleeg de <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> De rapportering voor het Beheer van de Vermoeidheid is een specifiek, configureerbaar rapport dat de gevolgen de regels van de Vermoeidheid op leveringen over e-mail, Duw, SMS, en de Directe kanalen van de Post binnen een gespecificeerde datumwaaier toont alvorens te verzenden. Met het toegevoegde inzicht om alle conflicterende campagnes in één enkele mening snel te kunnen zien, kunnen de marketers marketing campagnes volgens de vastgestelde vermoeidheidsregels effectiever plannen, en mededelingen prioriteren.<br /> Raadpleeg de  <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Rapport delen<br /> </td> 
-   <td> Met gedeelde rapporten kunt u uw rapporten delen met Adobe Campaign-gebruikers als e-mailbijlage, inclusief op een geautomatiseerde terugkerende basis. Gebruikers die terugkerende rapporten ontvangen, kunnen hun abonnement op deze berichten opzeggen via een speciale koppeling in elke e-mail.<br /> Raadpleeg de <a href="../../reporting/using/reporting-interface.md#share-tab">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Met gedeelde rapporten kunt u uw rapporten delen met Adobe Campaign-gebruikers als e-mailbijlage, inclusief op een geautomatiseerde terugkerende basis. Gebruikers die terugkerende rapporten ontvangen, kunnen zich afmelden voor deze communicatie via een speciale koppeling in elke e-mail.<br /> Raadpleeg de  <a href="../../reporting/using/reporting-interface.md#share-tab">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Nieuwe mogelijkheden duwen<br /> </td> 
-   <td> Push Message Preview - Voorvertoning van pushberichten weergeven op iOS- en Android-apparaten vanuit de inhoud-editor voor pushberichten om precies te zien wat de ontvangers zullen zien voordat ze de levering testen of uitvoeren.<br /> Raadpleeg de <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">gedetailleerde documentatie</a> voor meer informatie.<br /> Inhoud beschikbaar - Als apps niet gedurende langere perioden worden geopend, kunnen hun gegevens verouderd raken. Dit betekent dat de gegevens moeten worden bijgewerkt of vervangen op het moment dat een gebruiker de app eindelijk opent, wat kan leiden tot vertragingen bij het gebruik van de app. Met de extra ondersteuning voor Beschikbare inhoud kunnen Adobe Campaign-gebruikers hun app wakker maken om de gegevens op de achtergrond te vernieuwen bij het verzenden van een pushmelding, waardoor ze consistenter kunnen zijn en meer controle kunnen krijgen over de ervaringen in de app van een gebruiker.<br /> Mutable Content - Met de toegevoegde ondersteuning van Mutable Content kunnen Adobe Campaign-gebruikers hun mobiele app-extensies nu gebruiken om de inhoud of presentatie van aankomende pushberichten die vanuit Adobe Campaign worden verzonden, verder te wijzigen. Gebruikers kunnen bijvoorbeeld Mutable Content gebruiken voor: <br /> 
+   <td> Push Message Preview - Voorvertoning van pushberichten weergeven op iOS- en Android-apparaten vanuit de inhoud-editor voor pushberichten om precies te zien wat de ontvangers zullen zien voordat ze de levering testen of uitvoeren.<br /> Raadpleeg de  <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">gedetailleerde documentatie</a> voor meer informatie.<br /> Inhoud beschikbaar - Als apps niet gedurende langere perioden worden geopend, kunnen hun gegevens verouderd raken. Dit betekent dat de gegevens moeten worden bijgewerkt of vervangen op het moment dat een gebruiker de app eindelijk opent, wat kan leiden tot vertragingen bij het gebruik van de app. Met de extra ondersteuning voor Beschikbare inhoud kunnen Adobe Campaign-gebruikers hun app wakker maken om de gegevens op de achtergrond te vernieuwen bij het verzenden van een pushmelding, waardoor ze consistenter kunnen zijn en meer controle kunnen krijgen over de ervaringen in de app van een gebruiker.<br /> Mutable Content - Met de toegevoegde ondersteuning van Mutable Content kunnen Adobe Campaign-gebruikers hun mobiele app-extensies nu gebruiken om de inhoud of presentatie van aankomende pushberichten die vanuit Adobe Campaign worden verzonden, verder te wijzigen. Gebruikers kunnen bijvoorbeeld Mutable Content gebruiken voor: <br /> 
     <ul> 
      <li> gegevens decoderen die in een gecodeerde indeling zijn geleverd </li> 
      <li> afbeeldingen of andere mediabestanden downloaden en toevoegen als bijlagen aan een melding </li> 
@@ -475,7 +475,7 @@ Sommige problemen kunnen zich voordoen bij het gebruik van contextafhankelijke H
   </tr> 
   <tr> 
    <td> Geoptimaliseerde leveringen voor tijdzone<br /> </td> 
-   <td> Plan terugkerende e-mail-, SMS- en pushberichten die op een bepaalde dag/tijd in de tijdzone van elke ontvanger moeten worden bezorgd, zodat uw berichten op het juiste moment worden afgeleverd zonder dat u meerdere leveringen hoeft in te stellen. <br /> Raadpleeg de <a href="../../automating/using/scheduler.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Plan terugkerende e-mail-, SMS- en pushberichten die op een bepaalde dag/tijd in de tijdzone van elke ontvanger moeten worden bezorgd, zodat uw berichten op het juiste moment worden afgeleverd zonder dat u meerdere leveringen hoeft in te stellen. <br /> Raadpleeg de  <a href="../../automating/using/scheduler.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> API Signaalactiviteit activeren<br /> </td> 
