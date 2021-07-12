@@ -7,17 +7,16 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: '"Wanneer u uw inhoud klaar hebt, leer hoe u zorgvuldig bepaalt wie uw bericht zal ontvangen."'
-feature: Deliverability
-role: Business Practitioner
+feature: Afleverbaarheid
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '517'
 ht-degree: 11%
 
 ---
-
 
 # De juiste doelgroep definiëren {#define-the-right-audience}
 
@@ -43,7 +42,7 @@ U kunt ook een aangepaste doeltoewijzing maken en gebruiken. Raadpleeg [deze sec
 
 U kunt leveren aan ontvangers die in een extern dossier eerder dan opgeslagen in het gegevensbestand worden opgeslagen. Hiertoe ontwerpt u een workflow om gegevens uit een bestand in uw database te laden en een bijbehorend publiek te maken.  Lees meer [in dit gebruiksgeval](../../automating/using/use-case-calling-workflow.md). Zie ook [Een workflow aanroepen met parameters](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
-## Verzend naar uw abonnees {#send-to-subscribers}
+## Verzenden naar uw abonnees {#send-to-subscribers}
 
 Om berichten naar de abonnees van een nieuwsbrief te verzenden, kunt u de abonnees aan de overeenkomstige informatiedienst direct richten. Meer informatie [in deze sectie](../../audiences/using/about-subscriptions.md).
 
