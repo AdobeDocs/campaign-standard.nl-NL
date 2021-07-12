@@ -6,17 +6,16 @@ description: Ontdek hoe u een e-mail kunt aanpassen in de e-mailontwerper.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-mailontwerp
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2575'
 ht-degree: 3%
 
 ---
-
 
 # E-mailcontent personaliseren {#personalization}
 
@@ -128,7 +127,7 @@ De uit-van-de-doos inhoudsblokken zijn:
 * **[!UICONTROL Brand logo (BrandingLogo)]**
 * **[!UICONTROL Notification style (notificationStyle)]**
 
-### Aangepaste inhoudblokken maken {#creating-custom-content-blocks}
+### Aangepaste inhoudsblokken maken {#creating-custom-content-blocks}
 
 U kunt nieuwe inhoudsblokken definiëren die in een bericht- of landingspagina worden ingevoegd.
 
@@ -164,7 +163,7 @@ U kunt het inhoudsblok nu gebruiken in de inhoudseditor van een bericht of een o
 >
 >Wanneer het uitgeven van de inhoud van een blok, zorg ervoor er geen extra witte ruimten tussen het begin en het eind van uw *if* verklaringen zijn. In HTML worden de witruimten op het scherm weergegeven en hebben ze daarom invloed op de lay-out van de inhoud.
 
-### Informatie over doeldimensie {#about-targeting-dimension}
+### Dimensie opgeven {#about-targeting-dimension}
 
 De het richten afmeting laat u toe om te bepalen in welk type van bericht u het inhoudsblok kunt gebruiken. Hiermee wordt voorkomen dat onjuiste blokken in een bericht worden gebruikt, wat tot fouten kan leiden.
 
@@ -224,7 +223,7 @@ Deze voorwaarden nemen de XTK-expressiesyntaxis over (bijvoorbeeld **context.pro
 >
 >Een voorwaarde kan niet worden gedefinieerd voor een blok dat al een subelement bevat met een dynamische inhoud of een blok dat al een dynamische inhoud vormt. Niet-zichtbare dynamische blokken, zoals vervolgkeuzelijsten, kunnen niet worden bewerkt.
 
-### Dynamische inhoud definiëren in een e-mail{#defining-dynamic-content-in-an-email}
+### Dynamische inhoud in een e-mail definiëren{#defining-dynamic-content-in-an-email}
 
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_content"
@@ -293,7 +292,7 @@ Het definiëren van dynamische inhoud verschilt van [het definiëren van zichtba
 * [Proeven verzenden](../../sending/using/sending-proofs.md)
 * [Geavanceerde expressies bewerken](../../automating/using/editing-queries.md#about-query-editor)
 
-### Volgorde van prioriteit {#order-of-priority}
+### Prioriteitsvolgorde {#order-of-priority}
 
 Wanneer u in de expressieeditor een dynamische inhoud definieert, is de volgorde van prioriteit als volgt.
 
@@ -331,7 +330,7 @@ Het e-mailbericht wordt als volgt gemaakt:
 
    Het toevoegen en het vormen van de verpersoonlijkingsgebieden is gedetailleerd in [Het opnemen van een verpersoonlijkingsgebied](#inserting-a-personalization-field) sectie.
 
-### Afbeeldingen {#configuring-images} configureren
+### Afbeeldingen configureren {#configuring-images}
 
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
@@ -374,7 +373,7 @@ In dit voorbeeld wordt de dynamische inhoud die op de afbeeldingen wordt toegepa
 
 De dynamische inhoud is op de juiste wijze geconfigureerd.
 
-### Tekst {#configuring-text} configureren
+### Tekst configureren {#configuring-text}
 
 In dit voorbeeld wordt de dynamische inhoud die op de teksten wordt toegepast, als volgt geconfigureerd:
 
@@ -404,7 +403,7 @@ In dit voorbeeld wordt de dynamische inhoud die op de teksten wordt toegepast, a
 
 Uw verpersoonlijkingsgebieden zouden nu perfect in de gekozen dynamische inhoud moeten worden opgenomen.
 
-### E-mails voorvertonen {#previewing-emails}
+### E-mailberichten voorvertonen {#previewing-emails}
 
 Door een voorbeeld te bekijken, kunt u controleren of de verpersoonlijkingsvelden en de dynamische inhoud correct zijn geconfigureerd voordat u **[!UICONTROL Proofs]** verzendt. Tijdens de voorvertoning kunt u verschillende testprofielen selecteren die overeenkomen met de e-maildoelen.
 
@@ -430,4 +429,3 @@ De afbeelding is veranderd dankzij de dynamische inhoud en de slogan die wordt w
 
 * [Doelgroepen maken](../../audiences/using/creating-audiences.md)
 * [De verzending voorbereiden](../../sending/using/preparing-the-send.md)
-
