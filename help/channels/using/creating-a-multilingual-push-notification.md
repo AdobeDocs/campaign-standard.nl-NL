@@ -7,20 +7,19 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 feature: Push
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '921'
 ht-degree: 3%
 
 ---
 
-
 # Een meertalige pushmelding maken{#creating-a-multilingual-push-notification}
 
-## Informatie over meertalige pushmelding {#about-multilingual-push-notification}
+## Meertalige pushmelding {#about-multilingual-push-notification}
 
 Pas de inhoud van uw pushmelding aan door berichten te verzenden die zijn gebaseerd op de voorkeurstalen en -regio&#39;s van uw gebruikers. U kunt inhoudsvarianten voor meertalige pushmeldingen rechtstreeks importeren in de inhoudeditor en een meertalig pushbericht verzenden in één levering.
 
@@ -34,7 +33,7 @@ Voer de volgende stappen uit als u meertalige inhoudvarianten wilt gebruiken voo
 * [Stap 2: Een pushmelding voorvertonen en voltooien met meertalige inhoudsvarianten](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
 * [Stap 3: Meertalige pushmeldingen verzenden en analyseren](#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
-## Stap 1: Variant {#step-1--upload-multilingual-content-variant} voor meertalige inhoud uploaden
+## Stap 1: Variant voor meertalige inhoud uploaden {#step-1--upload-multilingual-content-variant}
 
 Voordat u uw meertalige pushmelding kunt aanpassen, moeten we eerst de varianten in de inhoud uploaden in een meertalige leveringssjabloon en de levering maken.
 
@@ -111,7 +110,7 @@ Het is ook mogelijk om meer varianten te maken en te bewerken naast de varianten
 
 Uw meertalige pushmelding kan nu worden verzonden.
 
-## Stap 3: Meertalig pushbericht verzenden en analyseren {#step-3--send-and-analyze-multilingual-push-notification-delivery}
+## Stap 3: Meertalige pushmeldingen verzenden en analyseren {#step-3--send-and-analyze-multilingual-push-notification-delivery}
 
 Uw meertalige contentvariantpushberichten kunnen nu naar uw gebruikers worden verzonden.
 
