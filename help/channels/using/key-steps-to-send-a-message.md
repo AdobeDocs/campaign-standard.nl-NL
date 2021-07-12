@@ -6,17 +6,16 @@ description: Voer de volgende stappen uit om berichten te maken en te verzenden 
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Overview
-role: Business Practitioner
+feature: Overzicht
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 12%
+source-wordcount: '369'
+ht-degree: 14%
 
 ---
-
 
 # Belangrijkste stappen voor verzending van een bericht{#key-steps-to-send-a-message}
 
@@ -42,7 +41,7 @@ Berichten kunnen worden gemaakt op basis van de lijst met marketingactiviteiten 
 
 ![](assets/steps-channel.png)
 
-## Het publiek definiëren
+## De doelgroep definiëren
 
 Bepaal de ontvangers van uw bericht. Om dit te doen, gebruik [vraagredacteur](../../automating/using/editing-queries.md) van de linkerruit aan filtergegevens in uw gegevensbestand en bouwt regels om uw publiek te richten.
 
@@ -53,7 +52,7 @@ Er zijn verschillende soorten publiek beschikbaar:
 
 ![](assets/steps-audience.png)
 
-## Inhoud ontwerpen en aanpassen
+## Content ontwerpen en aanpassen
 
 In het **[!UICONTROL Content]** blok, ontwerp en verpersonaliseer de inhoud van uw bericht gebruikend gebieden van uw gegevensbestand. Raadpleeg de secties boven aan deze pagina voor meer informatie over het ontwerpen van inhoud voor een specifiek kanaal.
 
