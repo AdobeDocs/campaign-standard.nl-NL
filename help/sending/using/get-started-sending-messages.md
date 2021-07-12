@@ -6,16 +6,15 @@ description: Bereid, test, programma, verzend en controleer uw berichten.
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 13%
+source-wordcount: '595'
+ht-degree: 14%
 
 ---
-
 
 # Aan de slag met testen en verzenden {#about-sending-messages-with-campaign}
 
@@ -34,7 +33,7 @@ Tot slot, hefboomwerking leverbaarheidsrichtlijnen en hulpmiddelen beschikbaar i
 
 ![](assets/do-not-localize/how-to-video.png) [Ontdek hoe u een test-e-mail kunt verzenden, een e-maillevering kunt voorbereiden en verzenden in video](#video)
 
-## {#prepare-test-send} voorbereiden en testen
+## Voorbereiden en testen {#prepare-test-send}
 
 <img src="assets/do-not-localize/icon_prepare.svg" width="60px">
 
@@ -55,7 +54,7 @@ Meer informatie:
 * [Berichten plannen](../../sending/using/about-scheduling-messages.md)
 * [Informatie over typologieën en typologieregels](../../sending/using/about-typology-rules.md)
 
-## {#send-track-messages} verzenden, controleren en volgen
+## Verzenden, controleren en volgen {#send-track-messages}
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
@@ -69,12 +68,12 @@ Meer informatie:
 
 * [De verzending bevestigen](../../sending/using/confirming-the-send.md)
 * [Berichten traceren](../../sending/using/tracking-messages.md)
-* [Archiveren met Email BCC](../../sending/using/archiving.md)
+* [Archiveren met BCC-e-mails](../../sending/using/archiving.md)
 * [Een levering controleren](../../sending/using/monitoring-a-delivery.md)
 * [Leveringsfouten begrijpen](../../sending/using/understanding-delivery-failures.md)
-* [Quarantainebeheer begrijpen](../../sending/using/understanding-quarantine-management.md)
+* [Werken met quarantainebeheer](../../sending/using/understanding-quarantine-management.md)
 
-## Richtlijnen {#improve-deliverability} voor aflevering
+## Richtlijnen voor aflevering {#improve-deliverability}
 
 <img src="assets/do-not-localize/icon_deliverability.svg"  width="60px">
 
@@ -84,16 +83,16 @@ Campaign Standard biedt verschillende **leverbaargereedschappen** om u te helpen
 
 Meer informatie:
 
-* [Leverbaarheid](../../sending/using/about-deliverability.md)
+* [Informatie over leverbaarheid](../../sending/using/about-deliverability.md)
 * [Leverbaarheid controleren](../../sending/using/monitor-deliverability.md)
-* [Adobe Handleiding voor beste praktijken voor aflevering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)
+* [Adobe Handleiding voor beste praktijken voor aflevering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl)
 * [Productie beheren](../../reporting/using/delivery-throughput.md)
 
 ## Aanvullende bronnen
 
 * [E-mails ontwerpen voor een A/B-test](../../channels/using/designing-an-a-b-test-email.md)
 * [Aan de slag met e-mails](https://helpx.adobe.com/nl/campaign/kb/acs-get-started-with-emails.html)
-* [Best practices voor levering](../../sending/using/delivery-best-practices.md)
+* [Best practices voor verzending](../../sending/using/delivery-best-practices.md)
 * [Een controlegroep toevoegen](../../sending/using/control-group.md)
 
 ## Video over zelfstudie {#video}
