@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: Push
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1279'
 ht-degree: 50%
@@ -139,7 +139,7 @@ Een app moet ook een geldig pushcertificaat hebben geüpload voordat het beschik
 
 Open een ticket voor de klantenservice.
 
-### Push-berichten worden geleverd vanuit Campagne, maar het mediabestand wordt niet weergegeven.{#media-file-unavailable}
+### Pushmeldingen worden geleverd via Campagne, maar het mediabestand wordt niet weergegeven.{#media-file-unavailable}
 
 Mobiele App-ontwikkelaars moeten de ondersteuning voor mediabestanden in de app afhandelen. Soms voorkomt netwerkbandbreedte ook dat een mediabestand wordt gerenderd. Raadpleeg deze [pagina](../../administration/using/image-push-notification.md) voor extra aanwijzers.
 
