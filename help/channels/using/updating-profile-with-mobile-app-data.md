@@ -1,25 +1,24 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Profieldata maken en bijwerken op basis van data van mobiele applicaties
+title: Profieldata maken en bijwerken op basis van data van de mobiele applicatie
 description: Leer hoe u profielgegevens maakt en bijwerkt op basis van gegevens van mobiele toepassingen.
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
 feature: Push
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1011'
 ht-degree: 4%
 
 ---
 
-
-# Profieldata maken en bijwerken op basis van data van mobiele applicaties
+# Profieldata maken en bijwerken op basis van data van de mobiele applicatie
 
 ## Overzicht
 
@@ -85,7 +84,7 @@ Voer vervolgens de onderstaande stappen uit om elke activiteit te configureren.
 
 ### De **[!UICONTROL Scheduler]**-activiteit configureren
 
-Stel op het tabblad **[!UICONTROL General]** de **[!UICONTROL Execution frequency]** (bijvoorbeeld &quot;Dagelijks&quot;), **[!UICONTROL Time]** (bijvoorbeeld &quot;1:00:00 AM&quot;) en **[!UICONTROL Start]** (bijvoorbeeld de datum van vandaag) in.
+Stel op het tabblad **[!UICONTROL General]** **[!UICONTROL Execution frequency]** (bijvoorbeeld &quot;Dagelijks&quot;), **[!UICONTROL Time]** (bijvoorbeeld &quot;1:00:00 AM&quot;) en **[!UICONTROL Start]** (bijvoorbeeld de datum van vandaag) in.
 
 ![](assets/update_profile2.png)
 
