@@ -7,21 +7,20 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: Instantie-instellingen
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
 
+# Lokale tracering implementeren {#local-tracking}
 
-# Lokaal bijhouden implementeren {#local-tracking}
-
-## Informatie over lokaal bijhouden {#about-local-tracking}
+## Lokale tracering {#about-local-tracking}
 
 Leer op deze pagina hoe u ervoor kunt zorgen dat het bijhouden van lokale meldingen correct is geïmplementeerd. Merk op dat dit impliceert dat het lokale bericht reeds is gevormd.
 
@@ -37,7 +36,7 @@ Voor het implementeren van tracering voor Adobe Campaign Standard moet de mobiel
 
 Voor het verzenden van trackinggegevens zijn er drie variabelen die moeten worden verzonden: twee maken deel uit van de gegevens die van Adobe Campaign worden ontvangen, en de andere is een handelingsvariabele die bepaalt of het een indruk, een klik of een open is.
 
-| Variabele | Value |
+| Variabele | Waarde |
 | :-: | :-: |
 | deliveryId | `deliveryId` van binnenkomende gegevens (vergelijkbaar met &#39;push tracking&#39; wanneer deze  `_dld` worden gebruikt) |
 | broadlogId | `broadlogId` van binnenkomende gegevens (vergelijkbaar met &#39;push tracking&#39; wanneer deze  `_mld` worden gebruikt) |
@@ -47,7 +46,7 @@ Voor het verzenden van trackinggegevens zijn er drie variabelen die moeten worde
 
 De Adobe Experience Platform Mobile SDK verzendt automatisch de impeilingsgebeurtenis voor zowel Android als iOS zonder aanvullende configuratie.
 
-## Klikken bijhouden toepassen {#implementing-click-tracking}
+## Klikken bijhouden implementeren {#implementing-click-tracking}
 
 Voor klik het volgen, moet u waarde &quot;2&quot;voor actie verzenden wanneer het roepen van `collectMessageInfo()` of `trackAction()` functies.
 
@@ -102,7 +101,7 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
 }
 ```
 
-## Open tracking {#implement-open-tracking} implementeren
+## Openstaande tracering implementeren {#implement-open-tracking}
 
 U moet &quot;1&quot; en &quot;2&quot; verzenden omdat de gebruiker op het bericht moet klikken om de toepassing te openen. Als de toepassing niet via een lokale melding wordt gestart/geopend, vinden er geen gebeurtenissen tracking plaats.
 
