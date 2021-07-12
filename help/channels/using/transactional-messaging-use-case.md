@@ -8,16 +8,15 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 feature: Transactional Messaging
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ee1a9705-4c21-4d46-a178-fde2e059f443
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '506'
 ht-degree: 4%
 
 ---
-
 
 # Gebruiksscenario voor transactionele berichten {#transactional-messaging-use-case}
 
@@ -67,7 +66,7 @@ De belangrijkste stappen voor de implementatie van dit gebruiksgeval worden hier
 
 1. Bekijk een voorvertoning van de gebeurtenis en publiceer deze. Zie [Een voorvertoning weergeven en de gebeurtenis publiceren](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
 
-## Stap 2 - geef en publiceer het transactiebericht {#create-transactional-message} uit
+## Stap 2 - geef en publiceer het transactiebericht uit {#create-transactional-message}
 
 1. Ga naar het transactiebericht dat automatisch werd gecreeerd bij het publiceren van de gebeurtenis. Zie [Transactieberichten benaderen](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
 
@@ -87,7 +86,7 @@ De belangrijkste stappen voor de implementatie van dit gebruiksgeval worden hier
 
 1. Wanneer de inhoud gereed is, slaat u de wijzigingen op en publiceert u het bericht. Zie [Een transactioneel bericht publiceren](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
-## Stap 3 - Integreer de gebeurtenis die {#integrate-event-trigger} teweegbrengt
+## Stap 3 - Integreer de gebeurtenis die teweegbrengt {#integrate-event-trigger}
 
 Integreer de gebeurtenis in uw website. Zie [De gebeurtenis activeren](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
 
