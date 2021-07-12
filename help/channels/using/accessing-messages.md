@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: activity,overview
-feature: Overview
-role: Business Practitioner
+feature: Overzicht
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 830ca459-39c5-4761-a533-b6d345a326fc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 2%
 
 ---
-
 
 # Berichten openen{#accessing-messages}
 
@@ -47,7 +46,7 @@ Toegang krijgen tot de lijst met marketingactiviteiten van een campagne:
 
    Als u terugkerende berichten wilt filteren, schakelt u het desbetreffende selectievakje in.
 
-## Toegang tot de berichtenlijst {#accessing-the-message-list}
+## De berichtenlijst openen {#accessing-the-message-list}
 
 De volledige lijst met marketingactiviteiten van alle gecombineerde campagnes openen:
 
@@ -59,7 +58,7 @@ De volledige lijst met marketingactiviteiten van alle gecombineerde campagnes op
 
 ![](assets/delivery_list_2.png)
 
-## Levenscyclus van bericht {#message-life-cycle}
+## Levenscyclus van berichten {#message-life-cycle}
 
 De status van een bericht wordt weergegeven door een specifieke kleur in de lijsten. De mogelijke statussen zijn:
 
