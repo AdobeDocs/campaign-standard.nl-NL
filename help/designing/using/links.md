@@ -6,21 +6,20 @@ description: Ontdek hoe u koppelingen kunt beheren met de e-mailontwerper.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: E-mailontwerp
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d1714101-bad0-40c1-8d60-90469d033197
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '594'
 ht-degree: 2%
 
 ---
 
+# Koppelingen toevoegen {#links}
 
-# Koppelingen {#links} toevoegen
-
-## Een koppeling {#inserting-a-link} invoegen
+## Een koppeling invoegen {#inserting-a-link}
 
 Met de editor kunt u een e-mail- of landingspagina aanpassen door koppelingen in te voegen in de HTML-inhoudselementen.
 
@@ -76,7 +75,7 @@ Wanneer u een e-mailbericht bewerkt met de [e-mailontwerper](../../designing/usi
 * [Inhoudsblokken toevoegen](../../designing/using/personalization.md#adding-a-content-block)
 * [Dynamische inhoud definiëren](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
-## Informatie over bijgehouden URL&#39;s {#about-tracked-urls}
+## Bijgehouden URL&#39;s {#about-tracked-urls}
 
 Met Adobe Campaign kunt u het gedrag van ontvangers bijhouden wanneer ze op een URL in een e-mail klikken. Zie [deze sectie](../../sending/using/tracking-messages.md#about-tracking)voor meer informatie over tracking.
 
