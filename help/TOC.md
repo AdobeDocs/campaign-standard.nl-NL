@@ -7,9 +7,9 @@ user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken,
 title: 'Campaign Standard-handleiding '
 breadcrumb-title: Documentatie voor Adobe Campaign Standard
 source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1790'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 99%
       + [Informatie over in-app-berichten](channels/using/about-in-app-messaging.md)
       + [Een in-app-bericht voorbereiden en verzenden](channels/using/preparing-and-sending-an-in-app-message.md)
       + [Een in-app-bericht aanpassen](channels/using/customizing-an-in-app-message.md)
-      + [Veelgestelde vragen in de app](channels/using/in-app-faq.md)
+      + [Veelgestelde vragen In-App](channels/using/in-app-faq.md)
    + Direct mail {#direct-mail}
       + [Informatie over direct mail](channels/using/about-direct-mail.md)
       + [Terug naar afzender](channels/using/return-to-sender.md)
