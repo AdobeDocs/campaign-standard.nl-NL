@@ -10,16 +10,22 @@ feature: Overzicht
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: c56d0e0ab4496ae769dc504107f677ef6ea74068
 workflow-type: tm+mt
-source-wordcount: '6852'
-ht-degree: 100%
+source-wordcount: '6893'
+ht-degree: 99%
 
 ---
 
 # Documentatie-updates{#documentation-updates}
 
 Naast de [release-opmerkingen](../../rn/using/release-notes.md) bij Adobe Campaign worden op deze pagina alle nieuwe updates in de documentatie van Adobe Campaign Standard weergegeven.
+
+## juli 2021 {#doc-updates-july-2021}
+
+Er is een nieuwe sectie toegevoegd waarin wordt beschreven hoe gebruikers zich op één landingspagina kunnen abonneren of hun abonnement op meerdere services kunnen opzeggen. [Meer informatie](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
+
+De sectie **Landingspagina-formuliergegevens beheren** is bijgewerkt en verduidelijkt. [Meer informatie](../../channels/using/managing-landing-page-form-data.md)
 
 ## Release 21.2 - juni 2021 {#release-21-2---june-2021}
 
