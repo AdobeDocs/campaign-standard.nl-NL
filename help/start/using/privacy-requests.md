@@ -11,13 +11,13 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1624'
 ht-degree: 100%
 
 ---
 
-# Beheer van verzoeken om toegang tot persoonsgegevens {#privacy-requests}
+# Privacyverzoeken beheren {#privacy-requests}
 
 Raadpleeg [deze sectie](../../start/using/privacy-management.md) voor een algemene uitleg van privacybeheer.
 
@@ -29,7 +29,7 @@ De opt-out voor de verkoop van persoonsgegevens, die specifiek is voor de CCPA, 
 >
 >Sinds 19.4 is het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken afgeschaft. Voor alle AVG-, CCPA-, PDPA- of LGPD-verzoeken om toegang en verwijdering moet u de [Privacy-kernservice](#create-privacy-request)-integratiemethode gebruiken.
 
-## Verzoeken om toegang tot persoonsgegevens {#about-privacy-requests}
+## Privacyverzoeken {#about-privacy-requests}
 
 Doordat u in Adobe Campaign verzoeken voor toegang en verwijdering kunt afhandelen, kunt u zich gemakkelijker houden aan de privacyregels. Het **toegangsrecht** en het **recht om te worden vergeten** (verwijderingsverzoek) worden in [deze sectie](../../start/using/privacy-management.md#right-access-forgotten) beschreven.
 
@@ -89,7 +89,7 @@ Raadpleeg ook deze [tutorial](https://experienceleague.adobe.com/docs/campaign-s
 
 1. Klik op **[!UICONTROL Create]**. U kunt nu verzoeken om toegang tot persoonsgegevens maken op basis van uw nieuwe naamruimte. Als u meerdere naamruimten gebruikt, moet u één verzoek om toegang tot persoonsgegevens per naamruimte maken.
 
-### Een verzoek om toegang tot persoonsgegevens maken {#create-privacy-request}
+### Een privacyverzoek maken {#create-privacy-request}
 
 >[!IMPORTANT]
 >
@@ -143,7 +143,7 @@ Dit werkt alleen als u in de aangepaste bron de optie **[!UICONTROL Deleting the
 
    ![](assets/privacy-cus-resource-option.png)
 
-### Status van verzoeken om toegang tot persoonsgegevens {#privacy-request-statuses}
+### Statussen van privacyverzoeken {#privacy-request-statuses}
 
 Dit zijn de verschillende statussen voor verzoeken om toegang tot persoonsgegevens:
 
