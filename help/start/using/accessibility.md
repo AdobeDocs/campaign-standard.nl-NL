@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ Adobe Campaign Standard allows you to design and test emails and push notificati
 ![](assets/accessibility_6.png)
 -->
 
-## Contextafhankelijke Help {#contextual-help}
+## Contextuele hulp {#contextual-help}
 
 Met de contextafhankelijke Help kunt u de verschillende gevraagde velden en functies beter begrijpen. De Help begeleidt u ook door productdocumentatie om meer informatie te vinden over de geselecteerde functie.
 
@@ -75,7 +75,7 @@ Bij het ontwerpen van een e-mail kunt u knopinfo openen, met beschrijvingen van 
 
 ![](assets/accessibility_7.png)
 
-## Ondersteuning van ondersteunende technologie {#screen-magnifiers}
+## Ondersteuning voor ondersteunende technologie {#screen-magnifiers}
 
 We streven ernaar de Adobe Campaign Standard-applicatie zo bruikbaar mogelijk te maken met verschillende ondersteunende technologieën, zoals bijvoorbeeld aangepaste toetsenborden, schermvergrotingssoftware, schermlezers, spraakherkenningssoftware en andere hulpapparaten.
 
@@ -94,7 +94,7 @@ De taal wordt ingesteld bij de installatie en kan daarna niet worden meer gewijz
 | Tab | Navigeren door afzonderlijke elementen van de gebruikersinterface |
 | Enter of spatiebalk | Het geselecteerde item activeren |
 
-### Email Designer {#email-designer-shortcuts}
+### E-mailontwerper {#email-designer-shortcuts}
 
 | Sneltoets | Actie |
 |:-:|:-:|
