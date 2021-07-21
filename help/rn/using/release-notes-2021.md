@@ -11,7 +11,7 @@ role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2535'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 # Aanvullende informatie 2021{#release-notes-2021}
 
-[Releaseplanning](../../rn/using/release-planning.md) | [Releases van het configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl) | [Updates van documentatie](../../rn/using/documentation-updates.md) | [Opmerkingen bij eerdere releases](../../rn/using/release-notes-2020.md) | [Verouderde functies](../../rn/using/deprecated-features.md)
+[Releaseplanning](../../rn/using/release-planning.md) | [Releases van het configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl) | [Documentatie-updates](../../rn/using/documentation-updates.md) | [Eerdere aanvullende informatie](../../rn/using/release-notes-2020.md) | [Afgeschafte functies](../../rn/using/deprecated-features.md)
 
 ## Release 21.1 - februari 2021 {#release-21-1---february-2021}
 
