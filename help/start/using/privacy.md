@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1478'
 ht-degree: 100%
 
@@ -120,7 +120,7 @@ Oorspronkelijk biedt Adobe Campaign belangrijke functies die essentieel zijn voo
 
 Zie [deze pagina](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy-overview.html#consent) voor meer informatie over deze functies en hoe u ze kunt beheren in Adobe Campaign.
 
-### Verzoeken om toegang tot persoonsgegevens {#privacy-requests}
+### Privacyverzoeken {#privacy-requests}
 
 Adobe Campaign biedt extra mogelijkheden om uw taak als gegevenscontroller voor bepaalde verzoeken om toegang tot persoonsgegevens te vergemakkelijken:
 
@@ -130,7 +130,7 @@ Adobe Campaign biedt extra mogelijkheden om uw taak als gegevenscontroller voor 
 
 >[!NOTE]
 >
->Deze reeks tools is bedoeld om u te helpen bij uw privacynaleving voor de AVG, CCPA, en PDPA. Zie [deze pagina](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr) voor meer informatie over deze verschillende verordeningen.
+>Deze reeks tools is bedoeld om u te helpen bij uw privacynaleving voor de AVG, CCPA, en PDPA. Zie [deze pagina](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy-overview.html#whatisgdpr) voor meer informatie over deze verschillende verordeningen.
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -142,7 +142,7 @@ Verzoeken om **toegang** en **verwijdering** worden weergegeven op [deze pagina]
 
 ## Trackingmogelijkheden {#tracking-capabilities}
 
-Dankzij de trackingfuncties van Adobe Campaign kunt u het gedrag van ontvangers van uw leveringen bijhouden met sessiecookies en permanente cookies. Zie [deze pagina](../../sending/using/tracking-messages.md) voor meer informatie over tracking.
+Dankzij de trackingfunctionaliteiten kunt u met Adobe Campaign het gedrag van de ontvangers van uw bezorging volgen met behulp van sessiecookies en permanente cookies. Zie [deze pagina](../../sending/using/tracking-messages.md) voor meer informatie over tracking.
 
 >[!NOTE]
 >
