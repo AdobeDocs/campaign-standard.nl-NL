@@ -6,21 +6,20 @@ description: Met het dynamische rapport kunt u een deelvenster toevoegen om de g
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Reporting
+feature: Rapportage
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e48b9630-c5ce-4d5d-90e6-97b77fbe3d50
+source-git-commit: 8062995481a889d8865267e6134efa74648753f6
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '346'
 ht-degree: 1%
 
 ---
 
-
 # Deelvensters toevoegen{#adding-panels}
 
-## Een leeg venster toevoegen {#adding-a-blank-panel}
+## Een leeg deelvenster toevoegen {#adding-a-blank-panel}
 
 Om uw rapport te beginnen, kunt u een reeks panelen aan een uit doos of douanerapport toevoegen. Elk deelvenster bevat verschillende gegevenssets en bestaat uit vrije-vormtabellen en visualisaties.
 
@@ -36,31 +35,31 @@ In dit deelvenster kunt u uw rapporten naar wens samenstellen. U kunt zoveel dee
 
 U kunt nu een vrije-vormlijst aan uw paneel toevoegen beginnen richtend gegevens.
 
-## Een vrije-vormlijst {#adding-a-freeform-table} toevoegen
+## Een vrije-vormtabel toevoegen {#adding-a-freeform-table}
 
 Met de tabellen voor vrije vorm kunt u een tabel maken voor het analyseren van uw gegevens met behulp van de verschillende waarden en afmetingen die beschikbaar zijn in de tabel **Component**.
 
 Elke lijst en visualisatie is resizable en kan worden bewogen om uw rapport beter aan te passen.
 
-1. Klik op het pictogram **Deelvensters**.
+1. Klik op het pictogram **[!UICONTROL Panels]**.
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. Sleep het item **Freeform** naar het dashboard.
+1. Sleep het item **[!UICONTROL Freeform]** naar het dashboard.
 
-   U kunt een lijst ook toevoegen door **Tussenvoegsel** tabel te klikken en **Nieuwe Freeform** te selecteren of door **een vrije vormlijst** in een leeg paneel toe te voegen.
+   U kunt ook een tabel toevoegen door op de tab **[!UICONTROL Insert]** te klikken en **[!UICONTROL New Freeform]** te selecteren of door op **[!UICONTROL Add a freeform table]** in een leeg deelvenster te klikken.
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. Het segment **[!UICONTROL Exclude proof]** is standaard al geselecteerd. Indien nodig, kunt u het veranderen door één van **[!UICONTROL Segments]** van het **[!UICONTROL Components]** lusje in de hoogste bar te slepen.
+1. Voeg in het veld **[!UICONTROL Drop a segment here]** een **[!UICONTROL Segment]** van het tabblad **[!UICONTROL Components]** toe aan de bovenste balk.
 
    ![](assets/dynamic_report_panel_3.png)
 
-1. Sleep items van het tabblad **Componenten** naar de kolommen en rijen om uw tabel te maken.
+1. Sleep items van het tabblad **[!UICONTROL Components]** naar de kolommen en rijen om uw tabel samen te stellen.
 
    ![](assets/dynamic_report_freeform_3.png)
 
-1. Klik op het pictogram **Instellingen** om te wijzigen hoe de gegevens in uw kolommen worden weergegeven.
+1. Klik op het pictogram **[!UICONTROL Settings]** om te wijzigen hoe de gegevens in uw kolommen worden weergegeven.
 
    ![](assets/dynamic_report_freeform_4.png)
 
@@ -72,7 +71,7 @@ Elke lijst en visualisatie is resizable en kan worden bewogen om uw rapport bete
    * **[!UICONTROL Background]**: Hiermee kunt u de horizontale voortgangsbalk in cellen weergeven of verbergen.
    * **[!UICONTROL Include retries]**: Hiermee kunt u opnieuw proberen opnemen in het resultaat. Dit is alleen beschikbaar voor **[!UICONTROL Sent]** en **[!UICONTROL Bounces + Errors]**.
 
-1. Selecteer een of meerdere rijen en klik op het pictogram **Visualiseren**. Er wordt een visualisatie toegevoegd die de geselecteerde rijen weerspiegelt.
+1. Selecteer een of meerdere rijen en klik op het pictogram **[!UICONTROL Visualize]**. Er wordt een visualisatie toegevoegd die de geselecteerde rijen weerspiegelt.
 
    ![](assets/dynamic_report_freeform_5.png)
 
