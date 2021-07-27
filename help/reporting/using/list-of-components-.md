@@ -6,17 +6,16 @@ description: Hier vindt u de lijst met alle componenten die beschikbaar zijn in 
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: Reporting
+feature: Rapportage
 role: Leader
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
+source-git-commit: 8062995481a889d8865267e6134efa74648753f6
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1272'
 ht-degree: 2%
 
 ---
-
 
 # Lijst met componenten {#list-of-components}
 
@@ -329,7 +328,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
  </tbody> 
 </table>
 
-### Metrische waarden {#in-app-metrics} in de app
+### Metrische gegevens in de app {#in-app-metrics}
 
 <table> 
  <thead> 
@@ -383,10 +382,6 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
 </table>
 
 ## Segmenten {#segments}
-
->[!NOTE]
->
->Standaard is het segment **[!UICONTROL Exclude proof]** al geselecteerd om uw rapporten te filteren, maar kan het desgewenst worden gewijzigd.
 
 In de onderstaande tabel vindt u een lijst met segmenten die in rapporten en de bijbehorende definities worden gebruikt.
 
@@ -461,11 +456,6 @@ In de onderstaande tabel vindt u een lijst met segmenten die in rapporten en de 
   <tr> 
    <td> Alle bezoeken<br /> </td> 
    <td> Elke ontvanger<br /> </td> 
-  </tr> 
-    <tr> 
-   <td> Proef<br /> uitsluiten </td> 
-   <td> Proefdrukken uitsluiten van uw rapporten<br /> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
-
