@@ -10,9 +10,9 @@ feature: Rapportage
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
-source-git-commit: cc464da0e455ae9c95fc3fe3f00bb3e1c6ff22ae
+source-git-commit: 8062995481a889d8865267e6134efa74648753f6
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '280'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ Componenten helpen u bij het aanpassen van rapporten met verschillende afmetinge
 
    * **Dimension**: Krijg details van het leveringslogboek, zoals browser of domein van de ontvanger, of het succes van een levering.
    * **Metrisch**: Meer informatie over de status van een bericht. Als bijvoorbeeld een bericht is verzonden en de gebruiker het heeft geopend.
-   * **[!UICONTROL Segments]**: Gegevens filteren op basis van het leeftijdsbereik van de ontvanger. **[!UICONTROL Segments]** U kunt rechtstreeks slepen en neerzetten in een vrije-vormtabel of in de bovenste balk van het deelvenster. Standaard is het segment **[!UICONTROL Exclude proof]** al geselecteerd, maar kan het indien nodig worden gewijzigd.
+   * **[!UICONTROL Segments]**: Gegevens filteren op basis van het leeftijdsbereik van de ontvanger. **[!UICONTROL Segments]** U kunt rechtstreeks slepen en neerzetten in een vrije-vormtabel of in de bovenste balk van het deelvenster.
 
       Deze categorie is alleen beschikbaar als de beheerder de voorwaarden van de Dynamic Reporting Usage Agreement heeft goedgekeurd die op het scherm worden weergegeven. Als de beheerder de overeenkomst afwijst, zijn de segmenten niet zichtbaar op het tabblad **[!UICONTROL Components]** en worden er geen gegevens verzameld.
 
