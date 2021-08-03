@@ -10,10 +10,10 @@ feature: Instantie-instellingen
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 8204ed1118b5445420d99dbc0438752a4dc26846
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 95%
+source-wordcount: '719'
+ht-degree: 93%
 
 ---
 
@@ -107,7 +107,12 @@ Technische workflows worden gebruikt om door uzelf geactiveerde achtergrond- en 
    <td> <span class="uicontrol">Logboeken voor bijhouden herstellen</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
    <td> Met deze workflow worden verloren logbestanden voor bijhouden hersteld. Deze technische workflow wordt in specifieke situaties gebruikt en beperkt tot Adobe voor intern gebruik. <br> Standaard wordt deze workflow elke 10 minuten gestart.<br /> </td> 
-  </tr> 
+  </tr>
+  <tr> 
+   <td> <span class="uicontrol">Uitvoering van levering bijwerken</span> <br/> </td> 
+   <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br/> </td> 
+   <td> Deze workflow kopieert de logboeken voor de weblogs en tracering in de lokale database. Standaard wordt deze workflow elke 10 minuten gestart.<br/> </td> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">Leveringsindicatoren bijwerken</span> <br /> </td> 
    <td> <span class="uicontrol">updateDeliveryIndicators</span> <br /> </td> 
