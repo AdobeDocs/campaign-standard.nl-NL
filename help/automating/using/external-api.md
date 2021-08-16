@@ -2,6 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Externe API
+description: De externe API activiteit brengt gegevens in het werkschema van Campaign Standard van een extern systeem via een vraag van HTTP API.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -9,14 +10,13 @@ context-tags: externalAPI,workflow,main
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '2184'
-ht-degree: 95%
+source-wordcount: '2201'
+ht-degree: 94%
 
 ---
-
 
 # Externe API {#external-api}
 
