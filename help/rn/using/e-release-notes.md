@@ -9,10 +9,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1032'
-ht-degree: 100%
+source-git-commit: fc542488cb52c4ff4e0457025a8312d2f2814cea
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 45%
 
 ---
 
@@ -25,93 +25,84 @@ Op deze pagina worden nieuwe functies, verbeteringen en oplossingen beschreven d
 > Deze content kan zonder voorafgaande kennisgeving worden gewijzigd tot de upgradedatum van de werkgebiedomgevingen. Meer informatie vindt u op de [releaseplanningspagina](../../rn/using/release-planning.md).
 
 
-## Release 21.2 - juni 2021 {#release-21-2---june-2021}
+## Release 21.3 - september 2021 {#release-21-3---sept-2021}
+
+
+**Nieuwe functies**
+
+
+<table> 
+<thead> 
+<tr> 
+<th> <strong>Uniforme Experience Cloud-interface</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>
+<p>De kopbalk van Adobe Campaign is veranderd voor een uniforme, verbeterde ervaring voor alle Experience Cloud-producten en -services. Deze wijzigingen maken het u als volgt gemakkelijker:</p>
+<ul>
+<li>Eenvoudiger overschakelen tussen uw organisaties of naar een andere applicatie.</li>
+<li>Verbeterde Help voor gebruikers - De Experience League is in het product opgenomen, zodat de zoekresultaten ook resultaten van communityforums en meer videocontent omvatten; hierdoor krijgt u gemakkelijker toegang tot meer content om optimaal te profiteren van de applicatie. We hebben ook een feedbackmechanisme toegevoegd aan het menu Help, waardoor het gemakkelijker is om problemen te melden of uw ideeën te delen.</li>
+<li>Verbeterde meldingen - De vervolgkeuzelijst Meldingen bevat nu twee tabbladen: één voor uw eigen productmeldingen en één voor meer algemene productmeldingen.</li>
+</ul>
+<!--<p>For more information refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>.
+</p>-->
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead> 
+<tr> 
+<th> <strong>Audittrail</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>
+<p>De nieuwe mogelijkheden van het Audittrail vangen, in real time, een uitvoerige lijst van acties en gebeurtenissen op in Adobe Campaign. Het omvat een zelfbediende manier om tot een geschiedenis van gegevens toegang te hebben helpen vragen zoals beantwoorden:</p>
+<ul>
+<li>Wat is er gebeurd met deze workflow en wie heeft deze voor het laatst bijgewerkt?</li>
+<li>Wie heeft de laatste wijziging doorgevoerd?</li>
+<li>Wat was de vorige staat?</li>
+</ul>
+<p>Adobe Campaign controleert nu de acties voor het maken, publiceren en verwijderen van bestanden voor: workflows, opties, aangepaste bronnen. Wijzigingen van deze items worden ook bijgehouden.</p>
+<!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
+</p>-->
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+
+<table> 
+<thead> 
+<tr> 
+<th> <strong>Diagnostische modus voor workflows</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td>
+<p>U kunt de workflows van de Campagne nu uitvoeren in de diagnostische modus. In deze modus wordt informatie geregistreerd om problemen met de uitvoering van probleemoplossingen te helpen oplossen. Het volledige uitvoeringsplan wordt geregistreerd als een werkschemaquery, door gebrek, meer dan één minuut neemt.</p>
+<!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
+</p>-->
+</td> 
+</tr> 
+</tbody> 
+</table>
 
 **Verbeteringen**
 
-* Bij het ontwerpen van een landingspagina kunt u nu een verplicht selectievakje toevoegen dat profielen moeten selecteren voordat het formulier wordt verzonden.
-
-* Voor de integratie van Triggers is het foutbericht dat wordt weergegeven wanneer er geen afstemmingsgegevens in de lading van de trigger komen, verbeterd: &#39;Aliasgegevens ontbreken in de lading&#39;.
-
-* De prestaties voor het ophalen van pushmeldingen uit de wachtrij zijn verbeterd.
-
-**Overige wijzigingen**
-
-* Het URL-handtekeningmechanisme voor het bijhouden van koppelingen is uitgeschakeld om te voorkomen dat er een probleem optrad waardoor bepaalde geldige, ondertekende trackingskoppelingen ten onrechte werden geblokkeerd nadat deze waren gewijzigd door beveiligingstools van derden.
-
-* Bij leveringen met meerdere varianten kunnen gebruikers niet langer taalkopieën maken als de standaardvariant is verwijderd. Er wordt nu een bericht weergegeven tijdens het maken van een taalkopie. (CAMP-48235)
-
-* Het proces in twee stappen voor het verwijderen van profielen (verouderde versie van Campaign 19.4) is nu standaard uitgeschakeld. Eerder moest het handmatig in de interface van Campaign worden uitgeschakeld alvorens de Privacy Core-service te gebruiken. Als u dit niet deed, bleven aanvragen voor verwijderen in behandeling zonder ze te voltooien.
-
-* Er is een nieuwe samenvoegingsfunctie &#39;StringAgg&#39; geïntroduceerd om de waarden van een kolom met het type tekenreeks samen te voegen. (CAMP-47077)
-
-* In dynamische rapporten is het segment **Bewijs van uitsluiting** verwijderd. (CAMP-46161)
-
-* Er is een nieuw waarschuwingsbericht toegevoegd om de gebruiker te waarschuwen wanneer een iOS-certificaat zonder de waarde platformPrincipal in de Campaign-applicatie wordt geüpload.
-
-* De maximale grootte van een e-mailbericht is nu standaard ingesteld op 100 MB. Met deze limiet kunt u fouten voorkomen die een e-mailbericht oneindig groter kunnen maken, waardoor het systeem kan vastlopen. (CAMP-47445)
-
-* De integratie van de Asset Core-service met de e-mailontwerper kan nu worden gebruikt door standaardgebruikers.
-
-* Er is een nieuw bericht toegevoegd ter bevestiging van een geslaagde migratie van een v4-pushapplicatie naar een v5-pushapplicatie.
-
-* Tijdens het maken van JSONWeb-tokens om te verifiëren bij de Campaign Standard-API voor authentiek te verklaren, zijn nu de productprofielen **overwogen**. Dit betekent dat de organisatorische eenheden en rollen die zijn toegewezen aan de beveiligingsgroep (die overeenkomt met het productprofiel op AdobeIO), worden toegepast op de technische IMS-account die nodig is voor oproepen van de Campaign Standard Rest-API. (CAMP-47479)
-
+* Wanneer u een terugkerende levering maakt in een workflow die is gekoppeld aan Adobe Experience Manager-inhoud, wordt de status van de inhoudsgoedkeuring nu gecontroleerd voordat deze wordt verzonden.
+* De verbindingslimiet voor databases wordt nu uitgelijnd met het campagnepakket om verbindingsfouten te voorkomen.
+* Er is een consistentiecontrole toegevoegd tijdens het maken van indexen in aangepaste bronnen en de foutberichten is verbeterd.
 
 **Patches**
 
-* Probleem verholpen waardoor de verloopoptie voor de logtabel van het batchproces (**xtkjoblog**) niet kon worden toegepast. Hierdoor kon de tabel niet correct worden gewist.
-
-* Probleem verholpen waardoor u de volgorde van filters in een **Segmentatie**-workflowactiviteit niet kon wijzigen. (CAMP-48357)
-
-* Probleem verholpen waarbij een regressie van 20.4 resulteerde in een fout met de waarde null. (CAMP-48591)
-
-* Probleem verholpen waarbij u een rapport niet kon verzenden via de menu&#39;s **Delen** > **Rapport nu verzenden** of **Rapport volgens planning verzenden**. (CAMP-47798)
-
-* Probleem verholpen waarbij een regressie werd gecorrigeerd die kon leiden tot onjuiste openingspercentages voor Gmail wegens het filteren van trackinggebeurtenissen die van Gmail-accounts werden ontvangen. (CAMP-46504)
-
-* Verschillende problemen verholpen die leidde tot gegevensdiscrepanties tussen rapporten in Adobe Campaign Standard en rapporten in Adobe Analytics. (CAMP-47671, CAMP-47296)
-
-* Probleem verholpen waardoor u geen toegang meer kreeg tot de leveringslogboeken nadat de voorbereiding was mislukt. (CAMP-48296)
-
-* Probleem verholpen waarbij een foutbericht kon worden weergegeven wanneer werd geprobeerd een aangepast rapport te bewerken, te verwijderen of te verzenden. (CAMP-47789, CAMP-47798)
-
-* Probleem verholpen waarbij oproepen van API&#39;s mislukten wanneer een nieuwe aangepaste bron werd gemaakt en de optie **Niet synchroniseren** werd ingeschakeld. (CAMP-48014)
-
-* Probleem verholpen waarbij aangepaste bronnen met de ingeschakelde optie **Niet synchroniseren** konden verwijzen naar een schema dat opnieuw was geformuleerd of verwijderd. Dit probleem veroorzaakte een fout bij het publiceren van de aangepaste bronnen.
-
-* Probleem verholpen met een sms-opt-out bij het gebruik van meerdere korte codes op hetzelfde externe account.
-
-* Probleem verholpen waardoor u geen toegang kreeg tot een nieuw leveringswaarschuwingscriterium (&quot;de bron die u probeert te bereiken is onbereikbaar&quot;) na publicatie van de database. (CAMP-48221)
-
-* Probleem verholpen waarbij trackinglogboeken in sommige gevallen ontbraken. Er is een nieuwe technische workflow toegevoegd (**trackingLogRecovery**) om deze verloren trackinglogbestanden te herstellen. Deze workflow wordt alleen door Adobe intern gebruikt.
-
-* Probleem verholpen waarbij geen leveringsdata in dynamische rapporten werden weergegeven. De rapporten zijn ingesteld op 0. (CAMP-47480)
-
-* Probleem verholpen waardoor de Server JavaScript HTTP Client geen verbinding kon maken met externe URL.
-
-* Probleem verholpen waarbij een **Incrementele query**-activiteit werd hersteld nadat de interne naam van de workflow werd gewijzigd. Dit gebeurde wanneer een datumveld werd gebruikt als incrementele modus. (CAMP-47674)
-
-* Probleem verholpen waarbij de voorvertoningsminiatuur niet kon worden weergegeven in het leveringsoverzicht bij het maken van een meertalige e-mail met de integratie van Adobe Experience Manager. Dit probleem trad op bij het gebruik van de knop **Taalkopie maken** om de e-mailvarianten te maken. (CAMP-47810)
-
-* Probleem verholpen waardoor gebruikers geen toegang kregen tot de bovenliggende levering via onderliggende levering van e-mail of sms. (CAMP-47986)
-
-* Probleem verholpen waarbij het CPU- en geheugenverbruik te hoog zou kunnen zijn bij het verzenden van transactieberichten via de REST-API met een ontbrekende aangepaste gebeurtenis. (CAMP-47147)
-
-* Probleem verholpen met de API voor Transactieberichten waardoor realtimeberichten soms niet konden worden verzonden.
-
-* Probleem verholpen waarbij geen rapporten werden ontvangen na het gebruik van de optie **Rapport volgens planning verzenden**. (CAMP-48583)
-
-* Probleem verholpen waarbij rapporten die werden ontvangen na het gebruik van de optie **Rapport nu verzenden**, onvolledig waren en gegevens ontbraken. (CAMP-48583)
-
-* Probleem verholpen met de optie **Rapport volgens planning verzenden** in het Dynamics-rapport waarbij de ingebouwde workflow **Onmiddellijk rapport delen** (reportSendingNow) geen rapporten kon genereren. (CAMP-47786)
-
-* Probleem verholpen met de e-mailontwerper waarbij de afmetingen van een afbeelding tijdens het uploaden van een afbeelding werden verkleind. (CAMP-47017)
-
-* Probleem verholpen waarbij elke beschikbare sjabloon van Experience Manager niet kon worden weergegeven bij het maken van een levering. (CAMP-48132)
-
-* Probleem verholpen waardoor de koppeling Campaign in de overzichtspagina van een verzonden levering de gebruikers niet kon doorsturen naar de gerelateerde campagne. (CAMP-48012)
-
-* Probleem verholpen in de e-mailontwerper waarbij de integratie van de Asset Core-service bleef mislukken bij het selecteren van een asset. (CAMP-47446)
-
-* Probleem verholpen waarbij sommige Journey Orchestration-leveringen werden geblokkeerd doordat Campaign geen tijdstempels met een exacte waarde ondersteunde (dat wil zeggen eindigend met 00) die door gebeurtenissen van Journey Orchestration werden verzonden.
+* Probleem met time-out verholpen bij het importeren van e-mailinhoud van een URL. (CAMP-49054)
+* Correctie van een fout (-69) veroorzaakt door het einde van de sessie, bij het openen van een URL met bladwijzer of het vernieuwen van een pagina vanuit de browser. (CAMP-49003, CAMP-48930, CAMP-48894)
+* Probleem verholpen bij het synchroniseren van regels van de oudere, te leveren server naar de nieuwe, te leveren server. (CAMP-48923)
+* Probleem verholpen bij het laden van een e-mailsjabloon met HTML-tags in de e-mailontwerper. (CAMP-48243)
