@@ -5,14 +5,12 @@ title: Gegevens exporteren van Campaign naar Adobe Experience Platform
 description: Leer hoe u gegevens exporteert van Campaign Standard naar Adobe Experience Platform.
 audience: integrating
 content-type: reference
-feature: Bronnen en bestemmingen
 role: Data Architect
 level: Intermediate
 exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
-translation-type: tm+mt
-source-git-commit: 4855585539653a0bb496d210b001765b5b557570
+source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '526'
 ht-degree: 4%
 
 ---
@@ -49,8 +47,8 @@ De voorbeelden van werkschema&#39;s van het gegevensbeheer zijn beschikbaar in [
 
 Verwante onderwerpen:
 
-* [Databeheeractiviteiten](../../automating/using/about-data-management-activities.md)
-* [Informatie over data importeren en exporteren](../../automating/using/about-data-import-and-export.md)
+* [Data-managementactiviteiten](../../automating/using/about-data-management-activities.md)
+* [Informatie over gegevens importeren en exporteren](../../automating/using/about-data-import-and-export.md)
 
 
 ## De opslaglocatie aansluiten als bron
