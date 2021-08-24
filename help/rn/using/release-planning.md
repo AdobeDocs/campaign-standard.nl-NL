@@ -10,10 +10,10 @@ feature: Overzicht
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '461'
-ht-degree: 100%
+source-git-commit: 0137067de4528a5138a5fdc233fefe99b006eed3
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 96%
 
 ---
 
@@ -27,11 +27,11 @@ Upgrades worden in twee fasen geïmplementeerd. Eerst worden Stage-instanties bi
 
 Alle releasedatums kunnen worden gewijzigd. We raden u aan deze pagina regelmatig te bezoeken om te kijken of er updates zijn.
 
-## Release 21.3 - release van juni 2021 {#release-21-3-release}
+## Release 21.3 - september 2021 {#release-21-3-release}
 
 Omgevingsupdates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. De exacte datums worden per e-mail naar elke klant verzonden.
 
-Gedetailleerde informatie over deze release is te vinden in de [Aanvullende informatie](../../rn/using/release-notes.md).
+Gedetailleerde informatie over deze versie vindt u in de [Opmerkingen bij de eerste release](../../rn/using/e-release-notes.md).
 
 <table>
  <thead>
@@ -52,9 +52,7 @@ Gedetailleerde informatie over deze release is te vinden in de [Aanvullende info
  </tbody>
 </table>
 
-Neem contact op met [Adobe Client Care](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) als u nog vragen hebt.
-
-Word lid van [Campaign Standard-releasemeldingen](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) om details over aankomende releases rechtstreeks in uw inbox te krijgen.
+Neem contact op met [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) als u nog vragen hebt.
 
 ## Vragen en antwoorden {#questions-and-answers}
 
@@ -64,7 +62,7 @@ A: Wijzigingen worden vermeld in de [Release-opmerkingen](../../rn/using/release
 
 **V: Wat is het validatieproces?**
 
-A: Als de upgrade van uw stage-instantie is uitgevoerd, raadt Adobe u aan te valideren of uw processen en gebruiksscenario&#39;s correct werken met deze nieuwe versie en om eventuele problemen aan [Adobe Client Care](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) te melden.
+A: Als de upgrade van uw stage-instantie is uitgevoerd, raadt Adobe u aan te valideren of uw processen en gebruiksscenario&#39;s correct werken met deze nieuwe versie en om eventuele problemen aan [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) te melden.
 
 **V: Heb ik tijdens het upgradeproces toegang tot de instantie?**
 
@@ -86,4 +84,4 @@ A: Ja, deze blijven werken. Er kunnen geen nieuwe e-mailberichten worden verzond
 
 A: Bij het inloggen bij Campaign wordt een pop-upmelding met de laatste versie weergegeven.
 
-Neem voor alle andere vragen contact op met [Adobe Client Care](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html).
+Neem voor alle andere vragen contact op met [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
