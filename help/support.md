@@ -7,13 +7,12 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: true
-feature: Help- en ondersteuningsopties
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '590'
+source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
+workflow-type: tm+mt
+source-wordcount: '586'
 ht-degree: 100%
 
 ---
@@ -130,4 +129,4 @@ U kunt een ticket maken om contact op te nemen met de Adobe-klantenondersteuning
 
 Als u een probleem wilt melden of een chatsessie wilt starten in dat nieuwe systeem, maakt u verbinding met de [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Volg de gedetailleerde procedure die op [deze pagina](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) wordt beschreven.
+Volg de gedetailleerde procedure die op [deze pagina](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) wordt beschreven.
