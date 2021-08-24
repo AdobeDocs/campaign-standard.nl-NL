@@ -1,23 +1,21 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Adobe Experience Platform-publiek verfraaien in campagne
+title: Adobe Experience Platform-doelgroepen opnemen in Campaign
 description: Leer hoe u Adobe Experience Platform-publiek inneemt in Campaign Standard.
 audience: integrating
 content-type: reference
-feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 894d691f1df3a613bacc74e149e5fdf7f4531d92
+exl-id: 5c266c44-535b-4954-862d-74c83a6f6406
+source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 3%
+source-wordcount: '326'
+ht-degree: 7%
 
 ---
 
-
-# Adobe Experience Platform-publiek vertalen in campagne {#destinations}
+# Adobe Experience Platform-doelgroepen opnemen in Campaign {#destinations}
 
 Als u een Adobe Experience Platform-publiek wilt opnemen in Campagne en deze wilt gebruiken in uw workflows, moet u eerst Adobe Campaign verbinden als een Adobe Experience Platform **Doel** en deze configureren met het te exporteren segment.
 
@@ -51,5 +49,5 @@ De voorbeelden van werkschema&#39;s van het gegevensbeheer zijn beschikbaar in [
 
 Verwante onderwerpen:
 
-* [Databeheeractiviteiten](../../automating/using/about-data-management-activities.md)
-* [Informatie over data importeren en exporteren](../../automating/using/about-data-import-and-export.md)
+* [Data-managementactiviteiten](../../automating/using/about-data-management-activities.md)
+* [Informatie over gegevens importeren en exporteren](../../automating/using/about-data-import-and-export.md)
