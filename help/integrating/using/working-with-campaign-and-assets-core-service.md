@@ -6,22 +6,18 @@ description: Gebruik alle bronnen die in Adobe Experience Cloud worden gedeeld i
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
-feature: Integratie van de People Core-service
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
-source-git-commit: e86cc930f9b6b3f3990f3b16b3d8fd2d19e126b7
+source-git-commit: 92edfbc2b7bb035d311f107b5b4c39f2521b07f6
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 8%
+source-wordcount: '167'
+ht-degree: 9%
 
 ---
 
 # Werken met Campaign en de Assets core-service{#working-with-campaign-and-assets-core-service}
-
->[!CAUTION]
->
-> Experience Cloud Assets is nu buiten bedrijf gesteld. Voor nieuwe implementatie kunt u Experience Cloud Assets niet meer integreren met Adobe Campaign Standard.
 
 Als u de kernservice of middelen op aanvraag integreert (afhankelijk van de configuratie van uw Adobe Experience Cloud-omgeving) met Adobe Campaign, kunt u alle middelen gebruiken die in Adobe Experience Cloud worden gedeeld op uw Adobe Campaign-e-mails en -landingspagina&#39;s.
 
