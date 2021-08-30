@@ -6,14 +6,14 @@ description: Deze pagina bevat een overzicht van de komende versies van Adobe Ca
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-feature: Overzicht
+feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,11 +27,11 @@ Upgrades worden in twee fasen geïmplementeerd. Eerst worden Stage-instanties bi
 
 Alle releasedatums kunnen worden gewijzigd. We raden u aan deze pagina regelmatig te bezoeken om te kijken of er updates zijn.
 
-## Release 21.3 - september 2021 {#release-21-3-release}
+## Release 21.3 - release van september 2021 {#release-21-3-release}
 
 Omgevingsupdates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. De exacte datums worden per e-mail naar elke klant verzonden.
 
-Gedetailleerde informatie over deze versie vindt u in de [Opmerkingen bij de eerste release](../../rn/using/early-release-notes.md).
+Gedetailleerde informatie over deze release is te vinden in de [Vroege aanvullende informatie](../../rn/using/early-release-notes.md).
 
 <table>
  <thead>
@@ -52,7 +52,7 @@ Gedetailleerde informatie over deze versie vindt u in de [Opmerkingen bij de eer
  </tbody>
 </table>
 
-Neem contact op met [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) als u nog vragen hebt.
+Neem contact op met [Adobe Client Care](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) als u nog vragen hebt.
 
 ## Vragen en antwoorden {#questions-and-answers}
 
