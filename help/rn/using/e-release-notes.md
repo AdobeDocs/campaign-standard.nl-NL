@@ -1,28 +1,30 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Laatste release
-description: Op deze pagina vindt u content van de nieuwste release van Campaign Standard
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
+title: Vroege aanvullende informatie
+description: Vroege aanvullende informatie
 feature: Overview
 role: User
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 08d2e4552bcb5f5eef9f92e5a0293270b577f873
+hide: true
+hidefromtoc: true
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: ac129fd21382d1d89263acae2fdbe280709f5946
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 38%
+ht-degree: 42%
 
 ---
 
+# Vroege aanvullende informatie {#new-release}
 
-# Laatste release{#latest-release}
+Op deze pagina worden nieuwe functies, verbeteringen en oplossingen beschreven die in de volgende release van Campaign Standard zijn opgenomen.
+
+>[!CAUTION]
+>
+> Deze content kan zonder voorafgaande kennisgeving worden gewijzigd tot de upgradedatum van de werkgebiedomgevingen. Meer informatie vindt u op de [releaseplanningspagina](../../rn/using/release-planning.md).
 
 ## Release 21.3 - september 2021 {#release-21-3---sept-2021}
-
-De nieuwe functies, verbeteringen en oplossingen die zijn opgenomen in de nieuwste release van Campaign Standard worden hieronder weergegeven.
 
 **Nieuwe functies**
 
@@ -98,7 +100,7 @@ De nieuwe functies, verbeteringen en oplossingen die zijn opgenomen in de nieuws
 
 * Wanneer u een terugkerende levering maakt in een workflow die is gekoppeld aan inhoud van Adobe Experience Manager, wordt de goedkeuringsstatus van de inhoud nu gecontroleerd voordat deze wordt verzonden.
 * De verbindingslimiet voor databases wordt nu uitgelijnd met het Campaign-pakket om verbindingsfouten te voorkomen.
-* Een nieuwe consistentiecontrole in de publicatie van aangepaste bronnen voorkomt dat gebruikers dubbele indexen maken, waardoor de publicatie mislukt. In een verbeterd foutbericht wordt de gebruiker gevraagd de naam van de index indien nodig te wijzigen.
+* Er is een consistentiecontrole toegevoegd tijdens het maken van indexen in aangepaste bronnen en de foutberichten zijn verbeterd.
 
 **Andere wijzigingen**
 

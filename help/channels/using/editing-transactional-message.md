@@ -11,9 +11,9 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '654'
 ht-degree: 30%
 
 ---
@@ -36,7 +36,7 @@ Zodra uw bericht klaar is, kan het worden getest en worden gepubliceerd. Zie [Ee
 
 Om tot het transactiebericht toegang te hebben dat u creeerde:
 
-1. Klik op het **[!UICONTROL Adobe Campaign]**-logo in de linkerbovenhoek.
+1. Klik op het **Adobe**-logo in de linkerbovenhoek.
 1. Selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_4.png)

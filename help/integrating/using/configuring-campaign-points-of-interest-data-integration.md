@@ -1,25 +1,25 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: De integratie van Campaign en Point of Interest-data configureren
+title: De integratie van data van Campaign-Points of Interest configureren
 description: Leer hoe u de functie Punten met interessegegevens in Adobe Campaign configureert om persoonlijke berichten te verzenden op basis van de locatie van uw abonnees.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: Doelgroepen
+feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 3%
+source-wordcount: '1330'
+ht-degree: 2%
 
 ---
 
-# De integratie van Campaign en Point of Interest-data configureren{#configuring-campaign-points-of-interest-data-integration}
+# De integratie van data van Campaign-Points of Interest configureren{#configuring-campaign-points-of-interest-data-integration}
 
-## Integratie van Campagne-Punten van interessegegevens met Adobe Experience Platform SDK&#39;s {#configuring-campaign-poi-aep-sdk} configureren
+## Integratie van Campagne-Punten van de Gegevens van de Interesse met Adobe Experience Platform SDKs vormen {#configuring-campaign-poi-aep-sdk}
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Om Adobe Experience Platform Location Services met mobiele toepassingen te kunne
 
 1. Zorg ervoor dat u toegang hebt tot de mobiele toepassing en de verzamelde locatiegegevens in Adobe Campaign. Zie [Toegang tot mobiele apps die worden gebruikt om locatiegegevens te verzamelen](#accessing-mobile-apps-used-to-collect-location-data) en [Toegang tot verzamelde locatiegegevens](#accessing-collected-location-data).
 
-## Campagne-Punten van de gegevensintegratie van de Interesse vormen gebruikend SDK V4 {#configuring-campaign-poi-sdkv4}
+## Campagne-Punten van de gegevensintegratie van de Rente vormen gebruikend SDK V4 {#configuring-campaign-poi-sdkv4}
 
 De mobiele toepassingen die worden gebruikt om locatiegegevens te verzamelen moeten door een **beheerder** in de interface van Adobe Campaign worden gevormd.
 
@@ -58,11 +58,11 @@ Om de de gegevenseigenschap van het Punt van Interesse met mobiele toepassingen 
 1. Definieer de gegevens die u wilt verzamelen van de abonnees van uw mobiele toepassing. Zie [Gegevens van abonneepunten verzamelen](#collecting-subscribers--points-of-interest-data).
 1. Zorg ervoor dat u toegang hebt tot de mobiele toepassing en de verzamelde locatiegegevens in Adobe Campaign. Zie [Toegang tot mobiele apps die worden gebruikt om locatiegegevens te verzamelen](#accessing-mobile-apps-used-to-collect-location-data) en [Toegang tot verzamelde locatiegegevens](#accessing-collected-location-data).
 
-### Een mobiele toepassing instellen in Adobe Campaign met SDK V4 {#setting-up-a-mobile-app-in-campaign}
+### Een mobiele app instellen in Adobe Campaign met SDK V4 {#setting-up-a-mobile-app-in-campaign}
 
 Als u gegevens van punten van belang met Adobe Campaign wilt kunnen verzamelen, moet u de mobiele toepassing configureren waarvan Adobe Campaign gegevens ontvangt.
 
-1. Klik in de linkerbovenhoek op het logo **[!UICONTROL Adobe Campaign]** en selecteer **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
+1. Klik op het **Adobe**-logo in de linkerbovenhoek en selecteer **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app]**.
 1. Klik op **[!UICONTROL Create]** om een toepassing in te stellen.
 1. Typ een naam in het veld **[!UICONTROL Application name]** en klik op **[!UICONTROL Create]**.
 
@@ -172,7 +172,7 @@ De SDK (Software Development Kit) van de Mobile Core-service vergemakkelijkt de 
 
 Deze stap wordt beschreven in deze [pagina](https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdkv4.html).
 
-### Belangenpunten bij mobiele Adobe-services definiëren {#defining-points-of-interest-in-adobe-mobile-services}
+### Belangenpunten bij mobiele Adobe-diensten definiëren {#defining-points-of-interest-in-adobe-mobile-services}
 
 U definieert de interessepunten die worden gebruikt om locatiegegevens te verzamelen:
 
@@ -185,7 +185,7 @@ U definieert de interessepunten die worden gebruikt om locatiegegevens te verzam
 
    Raadpleeg de [documentatie voor mobiele services van Adobe voor meer informatie over het beheren van belangenpunten.](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html).
 
-### Gegevens {#collecting-subscribers--points-of-interest-data} van abonnees verzamelen
+### Gegevens over belangenpunten van abonnees verzamelen {#collecting-subscribers--points-of-interest-data}
 
 Een specifieke douanemiddel laat u toe om de gegevens te bepalen die u van de abonnees van uw toepassingen wilt verzamelen.
 
@@ -196,7 +196,7 @@ Deze stap wordt beschreven in [Een mobiele toepassing configureren met SDK V4](h
 
 Om tot de met succes gecreeerde toepassingen in Adobe Campaign toegang te hebben:
 
-1. Klik op het **[!UICONTROL Adobe Campaign]**-logo in de linkerbovenhoek.
+1. Klik op het **Adobe**-logo in de linkerbovenhoek.
 1. Selecteer **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK v4)]** of **[!UICONTROL Mobile app (AEP SDK)]** afhankelijk van de SDK.
 1. Selecteer een mobiele toepassing in de lijst om de eigenschappen ervan weer te geven.
 

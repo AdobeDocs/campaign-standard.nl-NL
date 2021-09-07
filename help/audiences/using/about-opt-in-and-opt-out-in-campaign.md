@@ -6,13 +6,13 @@ description: Uitschakelen heeft tot gevolg dat een profiel niet langer wordt ger
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: Doelgroepen
+feature: Audiences
 role: User
 level: Beginner
 exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 6b293db5bc8f299a3237aa83c003339f0e697c6f
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '222'
 ht-degree: 9%
 
 ---
@@ -29,6 +29,6 @@ Opt-outprofielen worden automatisch uitgesloten tijdens de leveringsanalyse om l
 
 >[!NOTE]
 >
->Uitschakelen is van toepassing op **Profielen**, in tegenstelling tot quarantaine die is gekoppeld aan een **e-mailadres** of **telefoonnummer**. Als u een profiel uitschakelt, worden dus alle adressen waaraan het profiel is gekoppeld, van de levering uitgesloten. Als een gebruiker twee profielen in het gegevensbestand heeft, zal hij nog door leveringen worden gericht aangezien slechts één van zijn profielen opt-out is. Om ervoor te zorgen al zijn adressen worden uitgesloten, voeg hen aan de quarantines adressen toe. Raadpleeg [deze pagina](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform) voor meer informatie.
+>Uitschakelen is van toepassing op **Profielen**, in tegenstelling tot quarantaine die is gekoppeld aan een **e-mailadres** of **telefoonnummer**. Als u een profiel uitschakelt, worden dus alle adressen waaraan het profiel is gekoppeld, van de levering uitgesloten. Als een gebruiker echter twee profielen in de database heeft, worden de leveringen nog steeds op hem gericht, omdat slechts een van zijn profielen is uitgeschakeld. Om ervoor te zorgen al zijn adressen worden uitgesloten, voeg hen aan de quarantined adressen toe. Raadpleeg [deze pagina](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform) voor meer informatie.
 
 Raadpleeg [deze pagina](../../audiences/using/about-subscriptions.md) voor meer informatie over abonnementen op services.

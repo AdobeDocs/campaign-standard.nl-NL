@@ -10,10 +10,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '425'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Alle releasedatums kunnen worden gewijzigd. We raden u aan deze pagina regelmati
 
 Omgevingsupdates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. De exacte datums worden per e-mail naar elke klant verzonden.
 
-Gedetailleerde informatie over deze release is te vinden in de [Vroege aanvullende informatie](../../rn/using/early-release-notes.md).
+Gedetailleerde informatie over deze release is te vinden in de [Aanvullende informatie](../../rn/using/release-notes.md).
 
 <table>
  <thead>

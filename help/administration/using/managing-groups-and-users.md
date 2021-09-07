@@ -7,14 +7,14 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
-feature: Toegangsbeheer
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 88%
+source-wordcount: '941'
+ht-degree: 87%
 
 ---
 
@@ -126,7 +126,7 @@ De nieuwe beveiligingsgroepen worden nu gemaakt in de Admin Console. Als u ze vo
 
 De gebruiker van het type Beheerder moet de reeks beveiligingsgroepen maken die worden gebruikt om organisatie-eenheden toe te wijzen: Geometrixx en Geometrixx Clothes. Zie [Eenheden maken en beheren](../../administration/using/organizational-units.md#creating-and-managing-units) voor informatie over het maken van organisatie-eenheden.
 
-1. Klik op het **[!UICONTROL Adobe Campaign]**-logo in de linkerbovenhoek en selecteer **[!UICONTROL Administration > Users & Security > Security groups]**.
+1. Klik op het **Adobe**-logo in de linkerbovenhoek en selecteer **[!UICONTROL Administration > Users & Security > Security groups]**.
 1. Maak uw nieuwe beveiligingsgroep en geef het **[!UICONTROL Label]** en de **[!UICONTROL ID]** van de groep op.
 
    De id moet overeenkomen met de id die u in de Admin Console hebt gekozen.

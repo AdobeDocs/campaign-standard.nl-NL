@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken. '
 title: 'Campaign Standard-handleiding '
 breadcrumb-title: Documentatie voor Adobe Campaign Standard
-source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
+source-git-commit: 3e62ae3fc6e69710edc8977286c655a6b2203a3a
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1792'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 + [Laatste updates](rn/using/documentation-updates.md)
 + Aanvullende informatie {#release-notes}
    + [Laatste release](rn/using/release-notes.md)
-   + [Vroege aanvullende informatie](rn/using/early-release-notes.md)
+   + [Vroege aanvullende informatie](rn/using/e-release-notes.md)
    + Eerdere releases {#previous-releases}
       + [Aanvullende informatie 2021](rn/using/release-notes-2021.md)
       + [Aanvullende informatie 2020](rn/using/release-notes-2020.md)
@@ -433,6 +433,7 @@ ht-degree: 100%
 + Beheren {#administrating}
    + [Aan de slag met Campaign Standard-beheer](administration/using/get-started-campaign-administration.md)
    + [Controlerichtlijnen](administration/using/monitoring-guidelines.md)
+   + [Audit Trail](administration/using/audit.md)
    + [Configuratierichtlijnen](administration/using/about-configuration-guidelines.md)
    + Gebruikers en beveiliging {#users-and-security}
       + [Informatie over toegangsbeheer](administration/using/about-access-management.md)

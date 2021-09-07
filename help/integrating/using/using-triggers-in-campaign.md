@@ -10,10 +10,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 80%
+ht-degree: 79%
 
 ---
 
@@ -33,7 +33,7 @@ Bekijk deze [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketi
 
 Voer daartoe de volgende stappen uit:
 
-1. Klik in de linkerbovenhoek op het logo **[!UICONTROL Adobe Campaign]** en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
+1. Klik op het **Adobe**-logo in de linkerbovenhoek en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
 
    ![](assets/remarketing_1.png)
 

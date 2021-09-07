@@ -6,13 +6,13 @@ description: Ontdek hoe u een e-mail kunt aanpassen in de e-mailontwerper.
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: E-mailontwerp
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 671fd9e7ff0551ae9ae5fec26cee0b4c4939ab2f
 workflow-type: tm+mt
-source-wordcount: '2575'
+source-wordcount: '2583'
 ht-degree: 3%
 
 ---
@@ -53,7 +53,9 @@ Met Adobe Campaign kunt u een of meer URL&#39;s in uw bericht aanpassen door per
 
 >[!NOTE]
 >
->Het aanpassen van URL&#39;s kan niet worden toegepast op de domeinnaam of op de URL-extensie. Een foutenmelding zal tijdens berichtanalyse worden getoond als de verpersoonlijking onjuist is. Wanneer u een inhoudsblok selecteert, kunt u geen elementen selecteren, zoals **Koppeling naar spiegel pagina**. Dit type blokken is niet toegestaan binnen een koppeling.
+>Wanneer het mechanisme voor URL-handtekeningen voor het bijhouden van koppelingen is uitgeschakeld, kunnen URL&#39;s die de gebruiker aanpassen niet worden toegepast op de domeinnaam of op de URL-extensie. Een foutenmelding zal tijdens berichtanalyse worden getoond als de verpersoonlijking onjuist is.
+>
+>Wanneer u een inhoudsblok selecteert, kunt u geen elementen selecteren, zoals **Koppeling naar spiegel pagina**. Dit type blokken is niet toegestaan binnen een koppeling.
 
 ## Een personalisatieveld invoegen{#inserting-a-personalization-field}
 

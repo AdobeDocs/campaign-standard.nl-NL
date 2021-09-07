@@ -11,10 +11,10 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 40%
+source-wordcount: '279'
+ht-degree: 36%
 
 ---
 
@@ -44,7 +44,7 @@ Definieer een testprofiel dat aan uw gebeurtenis wordt gekoppeld. Hiermee kunt u
 
 U kunt ook een nieuw testprofiel maken of een profiel gebruiken dat al in het menu **[!UICONTROL Test profiles]** staat. Dit doet u als volgt:
 
-1. Klik in de linkerbovenhoek op het logo **[!UICONTROL Adobe Campaign]** en selecteer **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. Klik op het **Adobe**-logo in de linkerbovenhoek en selecteer **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
 1. Selecteer in de sectie **[!UICONTROL Event]** de gebeurtenis die u zojuist hebt gemaakt. In dit voorbeeld selecteert u Cart abandonment (EVTcartAbandonment).
 1. Geef in het tekstvak **[!UICONTROL Event data]** de informatie op die u in de JSON-indeling wilt verzenden.
 

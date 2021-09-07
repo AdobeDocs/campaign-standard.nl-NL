@@ -6,14 +6,14 @@ description: Ontdek hoe u leveringsfouten kunt beheren met Campaign.
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Afleverbaarheid
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 7efdb8aa4f931268cf9a0899179819cbc1f86757
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 66%
+source-wordcount: '1303'
+ht-degree: 64%
 
 ---
 
@@ -82,7 +82,7 @@ De mogelijke redenen van een leveringsfout zijn:
 
 ## Nieuwe pogingen na een tijdelijke leveringsfout {#retries-after-a-delivery-temporary-failure}
 
-Als een bericht mislukt wegens een tijdelijke fout van het type **Ignored**, zullen nieuwe pogingen worden uitgevoerd tijdens de leveringsduur. Raadpleeg [Typen leveringsfouten en redenen](#delivery-failure-types-and-reasons) voor meer informatie over de typen fouten.
+Als een bericht mislukt als gevolg van een tijdelijke fout, worden de pogingen opnieuw uitgevoerd tijdens de leveringsduur. Raadpleeg [Typen leveringsfouten en redenen](#delivery-failure-types-and-reasons) voor meer informatie over de typen fouten.
 
 Het aantal pogingen (hoeveel opnieuw zou moeten worden uitgevoerd de dag nadat verzenden is begonnen) en de minimumvertraging tussen opnieuw probeert is nu<!--managed by the Adobe Campaign Enhanced MTA,--> gebaseerd op hoe goed IP zowel historisch als momenteel bij een bepaald domein uitvoert. De instellingen voor **Retries** in Campaign worden genegeerd.
 
@@ -118,7 +118,7 @@ Voor de synchrone foutenmeldingen van de leveringsmislukking, bepaalt Adobe Camp
 >
 >De kwalificaties voor niet-bezorging in de tabel **[!UICONTROL Message qualification]** van Campaign worden niet meer gebruikt.
 
-Asynchrone niet-bezorgingen worden nog steeds gekwalificeerd door het inMail-proces aan de hand van de regels voor **[!UICONTROL Inbound email]**. U opent deze regels door te klikken op het logo **[!UICONTROL Adobe Campaign]** in de linkerbovenhoek en achtereenvolgens **[!UICONTROL Administration > Channels > Email > Email processing rules]** en **[!UICONTROL Bounce mails]** te selecteren. Voor meer op deze regel, zie [deze sectie](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Asynchrone niet-bezorgingen worden nog steeds gekwalificeerd door het inMail-proces aan de hand van de regels voor **[!UICONTROL Inbound email]**. Als u deze regels wilt openen, klikt u op het **Adobe**-logo, linksboven, selecteert u **[!UICONTROL Administration > Channels > Email > Email processing rules]** en selecteert u **[!UICONTROL Bounce mails]**. Voor meer op deze regel, zie [deze sectie](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
 Zie [deze sectie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability) voor meer informatie over grenzen en de verschillende soorten grenzen.
 
@@ -130,7 +130,7 @@ Bounces can have the following qualification statuses:
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
 * **[!UICONTROL Ignore]**: the bounce mail was qualified but will not be used by the **Update for deliverability** workflow. So it will not be sent to the client instances.
 
-To list the various bounces and their associated error types et reasons, click the **[!UICONTROL Adobe Campaign]** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+To list the various bounces and their associated error types et reasons, click the **Adobe** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 ![](assets/qualification.png)-->
 

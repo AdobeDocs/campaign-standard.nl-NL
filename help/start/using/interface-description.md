@@ -6,14 +6,14 @@ description: 'Leer hoe u door de werkruimte van Adobe Campaign kunt navigeren en
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Overzicht
+feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 92%
+source-wordcount: '1258'
+ht-degree: 79%
 
 ---
 
@@ -53,7 +53,7 @@ De bovenste balk is zichtbaar op elk scherm en biedt u de mogelijkheid om door A
 
 De navigatieprincipes:
 
-* Met het logo **[!UICONTROL Adobe Campaign]** in de linkerbovenhoek van de pagina krijgt u toegang tot de geavanceerde mogelijkheden en configuraties. De menu&#39;s zijn afhankelijk van uw profiel en machtigingen.
+* Met het **Adobe**-logo in de linkerbovenhoek van de pagina hebt u toegang tot de geavanceerde mogelijkheden en configuraties. De menu&#39;s zijn afhankelijk van uw profiel en machtigingen.
 
    Het geavanceerde menu wordt beschreven in de sectie [Geavanceerd menu](#advanced-menu).
 
@@ -66,23 +66,21 @@ De navigatieprincipes:
 
 ### Help {#help}
 
-De bovenste balk is zichtbaar op elk scherm en biedt u de mogelijkheid om door de Adobe Campaign-functies te navigeren en toegang te krijgen tot het verbonden Adobe-profiel, de meldingen, andere Adobe Experience Cloud-services en -oplossingen en tot de documentatie.
+In de rechterbovenhoek brengt het pictogram **Help** Adobe Experience League in het product.
 
-De navigatieprincipes:
+![](assets/ux_help.png)
 
-* Met het logo **[!UICONTROL Adobe Campaign]** in de linkerbovenhoek van de pagina krijgt u toegang tot de geavanceerde mogelijkheden en configuraties. De menu&#39;s zijn afhankelijk van uw profiel en machtigingen.
+Gebruik het veld **[!UICONTROL Search]** voor hulp. Zoekresultaten zijn onder andere documentatie en Help-artikelen, resultaten van communityforums en video-inhoud, waardoor u gemakkelijker toegang hebt tot meer inhoud om optimaal gebruik te maken van de toepassing.
 
-   Het geavanceerde menu wordt beschreven in de sectie [Geavanceerd menu](#advanced-menu).
+Met drie tabbladen kunt u hulp en hulp zoeken:
 
-* Met de koppeling **[!UICONTROL Home]** kunt u de startpagina van Adobe Campaign weergeven.
-* Met de koppelingen **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** en **[!UICONTROL Reports]** hebt u toegang tot de weergaven die aan deze functies zijn gekoppeld.
-* Met de knop **[!UICONTROL Help]** hebt u toegang tot de productdocumentatie en de contextafhankelijke Help, release-opmerkingen, versienummers, juridische kennisgevingen en de koppelingen naar de Adobe Experience Cloud-community en de klantenservice.
-
-   ![](assets/ux_help.png)
-
-* Met het pictogram **Select solution** kunt u overschakelen naar een andere Adobe Experience Cloud-oplossing en naar de profielinstellingen.
-* Het pictogram **Notifications** geeft de meest recente waarschuwingen of informatie weer.
-* Met het pictogram **User** kunt u aan uw profiel gekoppelde informatie weergeven. U krijgt dan toegang tot de knop **[!UICONTROL Sign out]**.
+1. Het tabblad **[!UICONTROL Help]** bevat:
+   * een snelle toegang tot Adobe Campaign Standard-documentatie met contextafhankelijke koppelingen.
+   * een **[!UICONTROL Learning]**-koppeling waarmee u toegang krijgt tot de Adobe Campaign-cursusbibliotheek.
+   * a **[!UICONTROL Community]** verbinding om tot het forum toegang te hebben dat aan uw vragen over Campagne wordt gewijd.
+   * rechtstreekse toegang tot: Help Center, Customer Care, Experience Cloud product status, Developers connection, Release Notes, Release Planning en het **[!UICONTROL About]** scherm.
+1. Op het tabblad **[!UICONTROL Support]** kunt u een ondersteuningscase openen en telefonisch of Twitter contact met ons opnemen.
+1. Met de tab **[!UICONTROL Feedback]** kunt u gemakkelijker problemen melden of uw ideeën delen.
 
 ## Het menu Advanced {#advanced-menu}
 

@@ -11,10 +11,10 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 76%
+source-wordcount: '652'
+ht-degree: 74%
 
 ---
 
@@ -66,7 +66,7 @@ Define a test profile that will be linked to your event, which will allow you to
 
 You can also create a new test profile or use one that already exists in the **[!UICONTROL Test profiles]** menu. To do this:
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. Click the **Adobe** logo, in the top left corner, then select **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
 1. In the **[!UICONTROL Event]** section, select the event that you have just created. In this example, select "Cart abandonment (EVTcartAbandonment)".
 1. Specify the information to send in JSON format in the **[!UICONTROL Event data]** text box.
 
@@ -137,7 +137,7 @@ De workflow **[!UICONTROL Database cleanup]**, die elke dag om 4.00 uur wordt ui
 
 Als de publicatie van een transactiebericht ongedaan is gemaakt, of als een transactiebericht nog niet is gepubliceerd, kunt u het transactiebericht uit de lijst met transactieberichten verwijderen. Dit doet u als volgt:
 
-1. Klik in de linkerbovenhoek op het logo **[!UICONTROL Adobe Campaign]** en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Klik op het **Adobe**-logo in de linkerbovenhoek en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 1. Houd de muis boven het gewenste bericht.
 1. Klik op de knop **[!UICONTROL Delete element]**.
 

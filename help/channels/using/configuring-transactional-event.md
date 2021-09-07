@@ -11,10 +11,10 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
 source-wordcount: '1674'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,7 @@ Nadat de configuratie is voltooid, moet de gebeurtenis worden gepubliceerd. Zie 
 
 Maak de gebeurtenis die aan uw behoeften voldoet om aan de slag te gaan.
 
-1. Klik in de linkerbovenhoek op het logo **[!UICONTROL Adobe Campaign]** en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Klik op het **Adobe**-logo in de linkerbovenhoek en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Klik op de knop **[!UICONTROL Create]**.
 1. Voer een **[!UICONTROL Label]** en een **[!UICONTROL ID]** voor de gebeurtenis in. Het veld **[!UICONTROL ID]** is verplicht en moet beginnen met het voorvoegsel &quot;EVT&quot;. Als u dit voorvoegsel niet gebruikt, wordt het automatisch toegevoegd zodra u **[!UICONTROL Create]** klikt.
 
@@ -151,7 +151,7 @@ Zodra de gebeurtenis en het bericht worden gepubliceerd, zal deze verbinding u t
 
 Voer de onderstaande stappen uit om de reeds gemaakte transactiegebeurtenissen te openen en te doorzoeken.
 
-1. Klik in de linkerbovenhoek op het logo **[!UICONTROL Adobe Campaign]** en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Klik op het **Adobe**-logo in de linkerbovenhoek en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. Klik op de knop **[!UICONTROL Show search]**.
 
    ![](assets/message-center_search-events.png)

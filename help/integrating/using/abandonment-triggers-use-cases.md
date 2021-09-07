@@ -9,14 +9,13 @@ topic-tags: working-with-campaign-and-triggers
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 99%
+source-wordcount: '994'
+ht-degree: 98%
 
 ---
-
 
 # Gebruiksscenario’s voor triggers bij afbrekingsacties{#abandonment-triggers-use-cases}
 
@@ -67,7 +66,7 @@ Nu we een Experience Cloud Trigger hebben gemaakt, gebruiken we deze in Adobe Ca
 
 In Adobe Campaign moet u een trigger maken die gekoppeld is aan de trigger die u in Experience Cloud hebt gemaakt.
 
-1. Als u de trigger in Adobe Campaign wilt maken, klikt u op het **[!UICONTROL Adobe Campaign]**-logo in de linkerbovenhoek en selecteert u **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. Als u de trigger in Adobe Campaign wilt maken, klikt u op het **Adobe**-logo in de linkerbovenhoek en selecteert u **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -164,4 +163,3 @@ In de sectie **[!UICONTROL Include Meta Data]** kunt u alle data die zijn verzam
 1. Een paar ogenblikken later ontvangt dezelfde bezoeker/ontvanger een remarketingbericht. Het bericht omvat de onlangs gezochte bestemming.
 
    ![](assets/trigger_uc_search_7.png)
-

@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Een meertalige e-mail maken met de Adobe Experience Manager-integratie.
+title: Een meertalige e-mail maken met de integratie van Adobe Experience Manager.
 description: Met de Adobe Experience Manager-integratie kunt u inhoud rechtstreeks in AEM maken en later in Adobe Campaign gebruiken.
 audience: integrating
 content-type: reference
@@ -9,16 +9,15 @@ topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
+source-git-commit: b0b1c2978fea84c736f2c7c0fdeb91ab0bd1ac8c
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '617'
 ht-degree: 5%
 
 ---
 
-
-# Een meertalige e-mail maken met de Adobe Experience Manager-integratie {#creating-multilingual-email-aem}
+# Een meertalige e-mail maken met de integratie van Adobe Experience Manager {#creating-multilingual-email-aem}
 
 Met dit document leert u hoe u een meertalige e-mail kunt maken met Adobe Experience Manager-inhoud en -taalkopieën.
 
@@ -127,5 +126,9 @@ Uw taalexemplaren worden nu gecreeerd, kunt u uw inhoud nu uitgeven afhankelijk 
 1. Als uw inhoud of varianten in Adobe Experience Manager worden bijgewerkt, kunt u deze in Adobe Campaign Standard rechtstreeks synchroniseren met de knop **[!UICONTROL Refresh AEM contents]**.
 
 1. Uw e-mail kan nu worden verzonden. Raadpleeg deze [pagina](../../sending/using/get-started-sending-messages.md) voor meer informatie hierover.
+
+   >[!NOTE]
+   >
+   >U kunt geen e-mail verzenden in Adobe Campaign als er AEM inhoud wordt gebruikt die niet is goedgekeurd.
 
 Uw publiek ontvangt uw e-mail afhankelijk van **[!UICONTROL Preferred languages]** die in **[!UICONTROL Profiles]** wordt geplaatst. Raadpleeg deze [pagina](../../audiences/using/editing-profiles.md) voor meer informatie over het bewerken van profielen en voorkeurstalen.

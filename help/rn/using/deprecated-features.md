@@ -10,10 +10,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 92edfbc2b7bb035d311f107b5b4c39f2521b07f6
+source-git-commit: bb964907851b11f8cc247425024f6e7c828aed5d
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 80%
+source-wordcount: '871'
+ht-degree: 66%
 
 ---
 
@@ -43,20 +43,35 @@ Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikma
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Pushberichten met SDK v4</strong><br /> </th> 
+   <th> <strong>Integratie met de dienst van de Doelen van het Publiek</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Vanaf de release van Campagne 20.1 is SDK v4 afgekeurd. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Meer informatie</a>.</p><br/>
-   <p>De <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (vroeger v5 genoemd) ondersteunt uitsluitend nieuwe Adobe Experience Cloud-functies.</p>
-   <p>Leer hoe u op deze pagina </a> van SDK v4 naar Adobe Experience Platform Mobile SDK kunt migreren.<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html"></a></p></br>
-     <p>
-     <em>Doeldatum verwijdering: 31 augustus 2021</em></p>
+   <td> <p> De aanvang van Campaign Standard 21.3 versie, integratie met de dienst van de Doelen van het Publiek wordt afgekeurd. </p>
+   <p>Voor nieuwe implementatie, kunt u de dienst van de Doelen van het Publiek niet meer met Adobe Campaign Standard integreren. U kunt Campagne en Adobe Experience Platform echter integreren via Bronnen en Doelen. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Meer info</a>.</p>
+     <em>Streefdatum voor verwijdering: 2022</em></p>
      </td> 
   </tr> 
  </tbody> 
 </table>
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Integratie met Adobe Experience Platform Data Connector</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> Vanaf de Campaign Standard 21.3-release is de integratie met de Adobe Experience Platform Data Connector verouderd. </p>
+   <p>Voor nieuwe implementatie kunt u de Adobe Experience Platform Data Connector niet meer integreren met Adobe Campaign Standard. U kunt Campagne en Adobe Experience Platform echter integreren via Bronnen en Doelen. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Meer info</a>.</p>
+     <em>Streefdatum voor verwijdering: 2022</em></p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 
 <table> 
  <thead> 
@@ -69,7 +84,7 @@ Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikma
    <td> <p>Vanaf Campaign 19.0 is de verouderde e-maileditor afgeschaft. Gebruik <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campagne e-mailDesigner</a> om uw e-mailinhoud te maken en aan te passen. </p></br>
    <p>Lees <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">deze sectie</a> om te ontdekken hoe u uw e-mailsjablonen voor de nieuwe editor kunt aanpassen.</p></br>
   <p> 
-  <em>Doeldatum verwijdering: eind 2021</em></p>
+  <em>Streefdatum voor verwijdering: 2022</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -93,6 +108,24 @@ Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikma
 
 Deze sectie bevat een lijst met functies en mogelijkheden die uit Campaign Standard zijn verwijderd.
 
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Pushberichten met SDK v4</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> Vanaf de release van Campagne 20.1 is SDK v4 afgekeurd. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Meer informatie</a>.</p><br/>
+   <p>De <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (voorheen v5 genoemd) biedt nu exclusief ondersteuning voor toekomstige Adobe Experience Cloud-functies en -functionaliteit.</p>
+   <p>Na 31 augustus kunnen 2021 klanten de versie 4 SDK's blijven downloaden en gebruiken, maar er is geen ondersteuning voor de klantenservice of toegang tot forums.</p>
+   <p>Leer hoe u op deze pagina </a> van SDK v4 naar Adobe Experience Platform Mobile SDK kunt migreren.<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html"></a></p></br>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <table> 
  <thead> 
