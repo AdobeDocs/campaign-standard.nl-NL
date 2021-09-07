@@ -10,7 +10,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 084838ff5ff369aaaa7715f5bec87a5133093750
+source-git-commit: c37437678a669f7ce90082ee17a7896cddec9284
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 30%
@@ -41,7 +41,7 @@ Quarantaine en lijst van gewezen personen zijn niet van toepassing op hetzelfde 
 
 * **** Quarantineis slechts op een  **adres**  (of telefoonaantal, enz.), niet op het profiel zelf van toepassing. Een profiel waarvan het e-mailadres in quarantaine is geplaatst, kan bijvoorbeeld zijn profiel bijwerken en een nieuw adres invoeren. Dit profiel kan dan opnieuw worden geactiveerd door leveringsacties. Eveneens, als twee profielen gebeuren om het zelfde telefoonaantal te hebben, zullen zij allebei worden beïnvloed als het aantal quarantined is.
 
-   De quarantined adressen of telefoonaantallen worden getoond in [uitsluitingslogboeken](identifying-quarantined-addresses-for-a-delivery) (voor een levering) of in [quarantainelijst](#identifying-quarantined-addresses-for-the-entire-platform) (voor het volledige platform).
+   De quarantined adressen of telefoonaantallen worden getoond in [uitsluitingslogboeken](#identifying-quarantined-addresses-for-a-delivery) (voor een levering) of in [quarantainelijst](#identifying-quarantined-addresses-for-the-entire-platform) (voor het volledige platform).
 
 * Als u daarentegen op de **lijst van gewezen personen** staat, wordt het **profiel** niet meer gericht op de levering, bijvoorbeeld na een abonnement (opt-out), voor een bepaald kanaal. Als een profiel op de lijst van gewezen personen voor het e-mailkanaal bijvoorbeeld twee e-mailadressen heeft, worden beide adressen van levering uitgesloten. Raadpleeg [Informatie over opt-in en opt-out in Campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) voor meer informatie over de lijst van gewezen personen.
 
