@@ -10,9 +10,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 08d2e4552bcb5f5eef9f92e5a0293270b577f873
+source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1074'
 ht-degree: 38%
 
 ---
@@ -104,7 +104,7 @@ De nieuwe functies, verbeteringen en oplossingen die zijn opgenomen in de nieuws
 
 * De dienst van de Doelen van de Gegevens van Adobe Experience Platform en van het Publiek zijn nu verouderd met Campaign Standard. Als u deze mogelijkheden gebruikt, moet u zich aan de Bronnen en Doelen van Adobe bewegen en uw implementatie aanpassen. [Meer informatie](../../integrating/using/get-started-sources-destinations.md)
 * Vervangen en verwijderde functies worden weergegeven op [deze pagina](deprecated-features.md).
-* Er is een nieuwe samenvoegingsfunctie &#39;StringAgg&#39; geïntroduceerd om de waarden van een kolom met het type tekenreeks samen te voegen. (CAMP-47077)
+* Er is een nieuwe samenvoegingsfunctie &#39;StringAgg&#39; geïntroduceerd om de waarden van een kolom met het type tekenreeks samen te voegen. (CAMP-47077) [Meer informatie](../../automating/using/list-of-functions.md#aggregates)
 * De technische workflow **Leveringsindicatoren bijwerken** (updateDeliveryIndicators) is verbeterd en biedt nu betere prestaties.
 * Sjablonen voor berichten in de app zijn nu beschikbaar voor alle talen die worden ondersteund in Campaign Standard.
 * De de voorbereidingstijd van de levering is geoptimaliseerd voor transactionele berichten door het aantal vraag aan de volgende server tijdens leveringsanalyse te verminderen.

@@ -10,10 +10,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
+source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1970'
+ht-degree: 96%
 
 ---
 
@@ -222,7 +222,7 @@ De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> Zet een tekenreeks om in datum + tijdzone.<br /> Voorbeeld: ToDateTimeWithTimezone ('’2019-02-19 08:09:00'’, '’Azië/Teheran'’)<br /> </td> 
+   <td> Zet een tekenreeks om in datum + tijdzone.<br /> Voorbeeld: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Asia/Teheran")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;tekenreeks&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -707,11 +707,12 @@ De aggregatiefuncties worden gebruikt voor het uitvoeren van berekeningen op een
    <td> Retourneert de minimumwaarde in een numerieke kolom en in een tekenreeks- of datumkolom.<br /> </td> 
    <td> Min(&lt;waarde&gt;)<br /> </td> 
   </tr>
-
-
-
-
-<tr> 
+  <tr>
+   <td> <strong>StringAgg</strong>, String aggregaat<br /> </td>
+   <td> Retourneert de aaneenschakeling van de waarden van een kolom met tekenreekstype, gescheiden door het teken in het tweede argument (standaardscheidingsteken is komma).<br /> </td>
+   <td> StringAgg(&lt;string values&gt;,&lt;separator&gt;)
+  </tr>
+  <tr> 
    <td> <strong>Sum</strong>, Sum<br /> </td> 
    <td> Retourneert de som van de waarden in een numerieke kolom.<br /> </td> 
    <td> Sum(&lt;waarde&gt;)<br /> </td> 
