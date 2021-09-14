@@ -1,25 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campagne en het gegevensbeheer van de Dynamica 365 van Microsoft
 description: Leer hoe Campaign Standard en de Dynamica 365 van Microsoft gemeenschappelijke gegevens beheren
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Microsoft CRM-integratie
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: f28aab2ac295d8a45598f5d76a86e594deeece4a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2507'
 ht-degree: 1%
 
 ---
 
 # Best practices en beperkingen {#acs-msdyn-best-practices}
 
-## Gegevens {#acs-msdyn-manage-data} beheren
+## Gegevens beheren {#acs-msdyn-manage-data}
 
 Voor contact en de synchronisatie van de douaneentiteit, behandelt deze integratie **de Dynamica 365 van Microsoft als bron van waarheid**.  Wijzigingen in gesynchroniseerde kenmerken moeten worden doorgevoerd in Dynamics 365 en niet in Adobe Campaign Standard).  Als er wijzigingen worden aangebracht in Campagne, kunnen deze tijdens de synchronisatie worden overschreven in Campagne, omdat de synchronisatie in één richting plaatsvindt.
 
@@ -103,7 +101,7 @@ De integratie in de onderstaande gebruiksgevallen zal uw opslag van de Campagne 
 
 >[!IMPORTANT]
 >
->U bent verantwoordelijk voor de informatie die u opent en downloadt van de omslagen SFTP. Als de informatie persoonlijke gegevens bevat, moet u zich aan de toepasselijke privacywetten en -regels houden. [Meer informatie](#acs-msdyn-manage-privacy).
+>U bent verantwoordelijk voor de informatie die u opent en downloadt van de omslagen SFTP. Als de informatie persoonlijke gegevens bevat, moet u zich aan de toepasselijke privacywetten en -regels houden. [Meer info](#acs-msdyn-manage-privacy).
 
 ## Data management
 

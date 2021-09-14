@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Personen die een bericht niet openen doelgericht opnieuw benaderen
+title: Personen die een bericht niet openen, doelgericht opnieuw benaderen
 description: Dit gebruiksgeval laat zien hoe u niet-openers opnieuw kunt richten.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '308'
 ht-degree: 38%
 
 ---
 
-
-# Opnieuw toewijzen van workflow voor het verzenden van een nieuwe levering aan niet-openers{#retargeting-delivery-to-non-openers}
+# Werkstroom opnieuw toewijzen om een nieuwe levering naar niet-openers te verzenden{#retargeting-delivery-to-non-openers}
 
 U kunt een e-mail naar klanten en dan een sms naar hen verzenden die niet de post hebben geopend.
 
@@ -27,7 +24,7 @@ U kunt een e-mail naar klanten en dan een sms naar hen verzenden die niet de pos
 1. Selecteer **[!UICONTROL New Workflow]** als workflowtype en klik op **[!UICONTROL Next]**.
 1. Voer de eigenschappen van de workflow in en klik op **[!UICONTROL Create]**.
 
-## Het creëren van een vraagactiviteit{#creating-a-query-activity}
+## Query-activiteiten maken{#creating-a-query-activity}
 
 1. Sleep in **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** een [Query](../../automating/using/query.md)-activiteit en zet deze neer.
 1. Dubbelklik op de activiteit.

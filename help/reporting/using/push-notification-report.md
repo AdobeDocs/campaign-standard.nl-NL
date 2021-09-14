@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Pushmeldingenrapport
 description: Met het Push- bericht uit-van-de-doos rapport, leer over het succes van uw dupberichten.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: list-of-reports
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: acfe0b9c-77a4-46ad-8151-7bf9c21fa4b0
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
-
 
 # Pushmeldingenrapport{#push-notification-report}
 
@@ -51,4 +48,3 @@ De tweede tabel **Push notification Clicks &amp; open** is gesplitst in drie cat
 * **[!UICONTROL Unique clicks]**: Aantal keren dat een unieke gebruiker communiceert met de pushmelding, bijvoorbeeld wanneer hij op de melding of knop klikt.
 * **[!UICONTROL Open]**: Het totale aantal pushberichten dat aan het apparaat is geleverd en waarop gebruikers hebben geklikt om de app te openen. Dit is gelijkaardig aan de Duw klikt behalve zal een Duw Open niet teweeggebracht worden als het bericht werd verworpen.
 * **[!UICONTROL Unique Opens]**: Aantal ontvangers dat de levering heeft geopend.
-

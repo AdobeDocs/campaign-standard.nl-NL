@@ -1,22 +1,19 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Bounce-kwalificatie bijwerken na een ISP-uitgang
+title: Kwalificatie van niet-bezorging bijwerken na een ISP-uitval
 description: Leer hoe te om stuitkwalificatie na een ISP stroomonderbreking bij te werken.
 audience: delivery
 content-type: reference
 topic-tags: monitoring-deliveries
 hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-translation-type: tm+mt
-source-git-commit: f58a6d067a562e5e157e249e6b97c02669caf3a5
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# Bounce-kwalificatie bijwerken na een ISP-uitgang {#update-bounce-qualification.md}
+# Kwalificatie van niet-bezorging bijwerken na een ISP-uitval {#update-bounce-qualification.md}
 
 Als u NIET de recentste versie van Campagne in werking stelt, kan deze sectie op u van toepassing zijn. Neem contact op met uw Adobe Campaign-vertegenwoordiger.
 

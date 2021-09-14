@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: In-app-rapport
 description: Leer met het rapport In-App out-of-the-box over het succes van uw In-App-berichten.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: list-of-reports
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b2ac9b82-fbe2-4a19-848c-94597b6141f0
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 2%
+source-wordcount: '242'
+ht-degree: 1%
 
 ---
-
 
 # In-app-rapport{#in-app-report}
 
@@ -47,4 +44,3 @@ De tweede tabel **In-app klikken en ontslagen** is gesplitst in drie categorieë
 * **[!UICONTROL Unique In-App clicks]**: Aantal keren dat ontvangers op Knoop 1 of Knoop 2 klikten.
 * **[!UICONTROL In-App dismissal]**: Het totale aantal berichten dat de ontvangers of door de dichte knoop of auto-dismiss ontvingen te klikken ontvingen.
 * **[!UICONTROL Unique In-App dismissal]**: Aantal tijdontvangers hebben een bericht in de app afgewezen.
-

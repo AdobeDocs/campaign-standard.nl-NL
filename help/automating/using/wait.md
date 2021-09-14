@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: De activiteit Wachten
 description: Met de activiteit Wachten wordt de uitvoering van een deel van de workflow tijdelijk opgeschort.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: wait,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 99%
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
 
-
-# Wait{#wait}
+# Wachten{#wait}
 
 ## Beschrijving {#description}
 
@@ -56,4 +53,3 @@ De workflow wordt als volgt weergegeven:
 * Een **[!UICONTROL Wait]**-activiteit van 24 uur plaatst een pauze tussen het tijdstip waarop de uitnodiging is verzonden en de rest van de workflow.
 * Een tweede **[!UICONTROL Query]** is gericht op de profielen die het eerste e-mailbericht wel hebben ontvangen, maar niet op de koppeling met de uitnodiging hebben geklikt.
 * Een tweede **[!UICONTROL Email delivery]** stuurt een herinnering naar de geselecteerde personen.
-

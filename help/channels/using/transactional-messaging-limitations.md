@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Beperkingen voor transactionele berichten
 description: Meer informatie over de belangrijkste aanbevelingen en beperkingen met betrekking tot transactieberichten in Adobe Campaign Standard.
 audience: channels
@@ -11,9 +9,9 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '742'
 ht-degree: 68%
 
 ---

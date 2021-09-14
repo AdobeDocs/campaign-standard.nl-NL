@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Informatie over Adobe Experience Cloud-triggers
 description: Door specifiek gedrag van klanten te volgen met Adobe Analytics, kunt u nu gepersonaliseerde e-mails naar uw klanten in Adobe Campaign verzenden.
 audience: integrating
@@ -11,9 +9,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '473'
 ht-degree: 98%
 
 ---

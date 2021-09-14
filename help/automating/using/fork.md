@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Vertakking
 description: Met de activiteit Vertakking kunt u uitgaande overgangen maken om verschillende activiteiten tegelijk te starten.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: fork,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1a5e1ecd-b3f1-4dbe-a816-12d27a3bc0f7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 98%
+source-wordcount: '210'
+ht-degree: 100%
 
 ---
-
 
 # Vertakking{#fork}
 
@@ -44,4 +41,3 @@ Met de activiteit **[!UICONTROL Fork]** kunt u verschillende activiteiten onafha
 In het volgende voorbeeld ziet u een doorsnede van twee queryactiviteiten die zich richten op profielen uit de Adobe Campaign-database, in dit geval vrouwen die in Parijs wonen. Met de activiteit Vertakking kunt u dus verschillende activiteiten tegelijk gebruiken: één activiteit die de doelgroep opslaat om de berekende populatie bij te houden, en een andere activiteit die de populatie segmenteert om twee verschillende e-mails met getargete content voor elk segment te verzenden. De eerste e-mail wordt verzonden naar Parijse vrouwen in de leeftijd tussen 18 en 40 jaar en een andere e-mail wordt verzonden naar Parijse vrouwen die ouder zijn dan 40 jaar.
 
 ![](assets/wkf_fork_example.png)
-

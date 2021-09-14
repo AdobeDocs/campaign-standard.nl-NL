@@ -1,20 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Berichten openen
 description: '"Leer hoe u toegang krijgt tot berichten en hun geavanceerde functies: creëren, richten, personalisatie, uitvoering en rapportering."'
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: activity,overview
-feature: Overzicht
+feature: Overview
 role: User
 level: Intermediate
 exl-id: 830ca459-39c5-4761-a533-b6d345a326fc
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 2%
+source-wordcount: '289'
+ht-degree: 1%
 
 ---
 

@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Een workflow aanroepen met externe parameters
+title: Een workflow oproepen met externe parameters
 description: In deze sectie wordt beschreven hoe een workflow met externe parameters wordt aangeroepen.
 audience: automating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e6148b40-f608-4aab-81f6-756608c6828e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 6%
+source-wordcount: '108'
+ht-degree: 5%
 
 ---
 
-
-# De parameters in de externe signaalactiviteit {#declaring-the-parameters-in-the-external-signal-activity} declareren
+# De parameters in de externe signaalactiviteit declareren {#declaring-the-parameters-in-the-external-signal-activity}
 
 De eerste stap om een werkschema met parameters te roepen is hen in een **[!UICONTROL External signal]** activiteit te verklaren.
 

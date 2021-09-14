@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Abonnementen ophalen
+title: Lidmaatschappen ophalen
 description: Leer hoe u abonnementen ophaalt met API's.
 audience: developing
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '196'
 ht-degree: 2%
 
 ---
 
-
-# Abonnementen ophalen {#retrieving-subscriptions}
+# Lidmaatschappen ophalen {#retrieving-subscriptions}
 
 ## De profielen ophalen die zijn geabonneerd op een service
 

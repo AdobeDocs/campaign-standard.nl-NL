@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Uitsplitsing naar domeinen
 description: Met de Onderverdeling door domeinen uit-van-de-doos rapport, leer over de prestatiesgegevens van uw leveringen afhankelijk van elk van het domein van uw klant.
 audience: reporting
@@ -10,14 +8,13 @@ context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,m
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 513d74ae-10c0-4d41-a7d1-8ed655e1a2d1
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 3%
 
 ---
-
 
 # Uitsplitsing naar domeinen{#breakdown-by-domains}
 
@@ -41,4 +38,3 @@ De tweede lijst, **Tracking statistics**, bevat de beschikbare gegevens voor ont
 * **Abonnement opgezegd**: Het aantal klikken op de abonnementkoppeling.
 * **Pagina** spiegelen: Het aantal klikken op de koppeling van de spiegelpagina.
 * **Bij lijst van gewezen personen**: Het aantal ontvangers dat een e-mail heeft gedeclareerd als spam of junk. [Meer informatie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-

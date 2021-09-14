@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Aanvullende informatie 2018
 description: Deze pagina bevat een overzicht van alle releases van Adobe Campaign Standard in 2018.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overzicht
+feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '5401'
+source-wordcount: '5400'
 ht-degree: 3%
 
 ---

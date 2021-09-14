@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Aan de slag met Campaign-integraties
 description: Gebruik andere Adobe-oplossingen en combineer hun verschillende mogelijkheden met Campagne.
 audience: integrating
@@ -10,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 74%
+source-wordcount: '713'
+ht-degree: 75%
 
 ---
 
@@ -104,7 +102,7 @@ Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, le
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Hiermee kunt u e-mailcontent uit Dreamweaver bewerken en met Adobe Campaign synchroniseren.<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Maak persoonlijke e-mails met </a> DreamweaverWeavervideo,  <a href="https://helpx.adobe.com/nl/dreamweaver/using/working-with-dreamweaver-and-campaign.html">gebruik de extensie Campagne voor Dreamweaver</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=nl">Maak persoonlijke e-mails met </a> DreamweaverWeavervideo,  <a href="https://helpx.adobe.com/nl/dreamweaver/using/working-with-dreamweaver-and-campaign.html">gebruik de extensie Campagne voor Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 

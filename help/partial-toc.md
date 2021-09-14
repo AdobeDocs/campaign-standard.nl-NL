@@ -1,15 +1,12 @@
 ---
-keywords: Campaign Standard;home;populaire onderwerpen
-solution: Campaign Standard
-product: campaign
+keywords: Campaign Standard;startpagina;populaire onderwerpen
 title: Adobe Campaign Standard-productdocumentatie
 description: Bladeren door de Campaign Standard-productdocumentatie
 topic: Premium
-translation-type: tm+mt
-source-git-commit: 189cd93d12dfd7838dae87dd4c8de19c10926ce6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '35'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -21,6 +18,6 @@ ht-degree: 85%
    + [Typologieregels](sending/using/about-typology-rules.md)
    + [Typologieregels - Lijst](sending/using/about-typology-rules.md#typology-rules)
    + [E-mailkanaal configureren](administration/using/configuring-email-channel.md)
-   + [Regels voor filteren](sending/using/filtering-rules.md)
+   + [Filterregels](sending/using/filtering-rules.md)
 + Starten{#starting}
    + [Over de interface](start/using/about-the-interface.md)

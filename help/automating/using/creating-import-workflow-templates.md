@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Workflowsjablonen maken om data te importeren
+title: Workflowsjablonen maken om gegevens te importeren
 description: Leer hoe u werkstroomsjablonen maakt om gegevens te importeren.
 audience: automating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5974a52c-8721-4575-b452-2982d6497235
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1172'
 ht-degree: 1%
 
 ---
 
-
-# Workflowsjablonen maken om data te importeren {#import-workflow-template}
+# Workflowsjablonen maken om gegevens te importeren {#import-workflow-template}
 
 Het gebruik van een importsjabloon is de beste manier als u regelmatig bestanden met dezelfde structuur moet importeren.
 

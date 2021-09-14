@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Versleutelde data beheren
+title: Versleutelde data gegevens beheren
 description: Leer hoe u gecodeerde gegevens beheert.
 audience: automating
 content-type: reference
@@ -10,20 +8,20 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: 05e7de6d59420f532e0095ddb1fd7f158519518b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 4%
+source-wordcount: '924'
+ht-degree: 5%
 
 ---
 
-# Versleutelde data beheren {#managing-encrypted-data}
+# Versleutelde data gegevens beheren {#managing-encrypted-data}
 
-## Voorverwerkingsstadia {#about-preprocessing-stages}
+## Voorbereidende verwerkingsfasen {#about-preprocessing-stages}
 
 In sommige gevallen moeten de gegevens die u wilt importeren, mogelijk worden gecodeerd, bijvoorbeeld als deze PII-gegevens bevatten.
 
-Om uitgaande gegevens te kunnen coderen of inkomende gegevens te decoderen, moet u GPG sleutels beheren gebruikend [Controlebord](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html).
+Om uitgaande gegevens te kunnen coderen of inkomende gegevens te decoderen, moet u GPG sleutels beheren gebruikend [Controlebord](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=nl).
 
 >[!NOTE]
 >
@@ -41,9 +39,9 @@ Zodra het verzoek wordt verwerkt, zullen de encryptie/decryptiebevelen op **[!UI
 **Verwante onderwerpen:**
 
 * [Bestand laden](../../automating/using/load-file.md)
-* [De activiteit Bestand extraheren](../../automating/using/extract-file.md)
+* [Bestand extraheren](../../automating/using/extract-file.md)
 
-## Hoofdlettergebruik: Gegevens importeren die zijn versleuteld met een toets die is gegenereerd door Configuratiescherm {#use-case-gpg-decrypt}
+## Hoofdlettergebruik: Gegevens importeren die zijn versleuteld met een toets die is gegenereerd door het Configuratiescherm {#use-case-gpg-decrypt}
 
 In dit geval, zullen wij een werkschema bouwen om gegevens in te voeren die in een extern systeem zijn gecodeerd, gebruikend een sleutel die in het Controlebord wordt geproduceerd.
 
@@ -87,7 +85,7 @@ De volgende stappen worden uitgevoerd:
 
 1. U kunt de workflow nu uitvoeren.
 
-## Hoofdlettergebruik: Gegevens coderen en exporteren met behulp van een sleutel die is geïnstalleerd in het Configuratiescherm {#use-case-gpg-encrypt}
+## Hoofdlettergebruik: Gegevens coderen en exporteren met een sleutel die is geïnstalleerd in het Configuratiescherm {#use-case-gpg-encrypt}
 
 In dit geval, zullen wij een werkschema bouwen om gegevens te coderen en uit te voeren gebruikend een sleutel die op Controlebord wordt geïnstalleerd.
 

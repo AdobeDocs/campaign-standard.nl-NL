@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Segmentatie op locatie"
 description: Dit gebruiksgeval toont hoe te om segmentatie op plaats uit te voeren.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: workflow,use-case,query,segmentation,delivery
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 85%
+source-wordcount: '268'
+ht-degree: 86%
 
 ---
 
-
-# Segmentering op locatie {#segmentation-on-location}
+# Segmentatie op locatie {#segmentation-on-location}
 
 U kunt een e-mail sturen naar klanten met aanbiedingen in hun lokale winkels.
 
@@ -27,7 +24,7 @@ U kunt een e-mail sturen naar klanten met aanbiedingen in hun lokale winkels.
 1. Selecteer **[!UICONTROL New Workflow]** als workflowtype en klik op **[!UICONTROL Next]**.
 1. Voer de eigenschappen van de workflow in en klik op **[!UICONTROL Create]**.
 
-## Ontvangers selecteren met wie via e-mail{#selecting-recipients-contactable-via-email}contact kan worden opgenomen
+## Ontvangers selecteren met wie via e-mailcontact kan worden opgenomen{#selecting-recipients-contactable-via-email}
 
 1. Sleep in **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** een [Query](../../automating/using/query.md)-activiteit en zet deze neer ![](assets/query.png).
 1. Dubbelklik op de activiteit.
@@ -66,4 +63,3 @@ Opmerking: om alle mensen die Boston zijn binnengekomen te bereiken, ongeacht ho
 1. Klik op **[!UICONTROL Save]**.
 
 ![](assets/wf-segmentation-location.png)
-

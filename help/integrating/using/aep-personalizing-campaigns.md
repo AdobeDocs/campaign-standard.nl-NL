@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Campagnes aanpassen met behulp van Adobe Experience Platform-kenmerken
+title: Campagnes aanpassen met Adobe Experience Platform-kenmerken
 description: Leer hoe u uw campagnes kunt personaliseren met de kenmerken van het Adobe-Platform.
 audience: automating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: channel-activities
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4d4e7e58-e161-4e5a-898a-b5c29ffb20e0
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 7%
+source-wordcount: '271'
+ht-degree: 8%
 
 ---
 
-
-# Campagnes aanpassen met behulp van Adobe Experience Platform-kenmerken {#personalizing-campaigns-using-aep-attributes}
+# Campagnes aanpassen met Adobe Experience Platform-kenmerken {#personalizing-campaigns-using-aep-attributes}
 
 >[!IMPORTANT]
 >

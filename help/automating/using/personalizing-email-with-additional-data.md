@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Een e-mail personaliseren met aanvullende data
+title: Een e-mail met aanvullende gegevens personaliseren
 description: Dit gebruiksgeval stelt voor hoe te om verschillende soorten extra gegevens aan een vraag toe te voegen en het als verpersoonlijkingsgebied in een e-mail te gebruiken.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 85%
+source-wordcount: '479'
+ht-degree: 86%
 
 ---
 
-
-# Een e-mail personaliseren met aanvullende data {#example--personalizing-an-email-with-additional-data}
+# Een e-mail met aanvullende gegevens personaliseren {#example--personalizing-an-email-with-additional-data}
 
 Het volgende voorbeeld toont hoe u verschillende typen aanvullende data toevoegt aan een query en hoe u deze data gebruikt voor een personalisatieveld in een e-mailbericht. Raadpleeg [deze sectie](../../automating/using/query.md#enriching-data) voor meer informatie over het verrijken van de gegevens waarop een **[!UICONTROL Query]**-activiteit is gericht.
 

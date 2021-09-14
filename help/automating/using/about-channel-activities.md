@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Informatie over kanaalactiviteiten
 description: Kanaalactiviteiten zijn beschikbaar vanaf de linkerkant van het scherm.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: channel-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 67d56f3d-5e73-4541-8f1c-af2ef23ce5d5
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 95%
+source-wordcount: '65'
+ht-degree: 100%
 
 ---
-
 
 # Informatie over kanaalactiviteiten{#about-channel-activities}
 
@@ -28,9 +25,8 @@ Deze activiteiten staan voor de verschillende beschikbare communicatiekanalen. U
 
 De sectie **[!UICONTROL Channels]** bevat de volgende activiteiten:
 
-* [Levering via e-mail](../../automating/using/email-delivery.md)
-* [Levering via sms](../../automating/using/sms-delivery.md)
-* [Levering via pushmelding](../../automating/using/push-notification-delivery.md)
-* [Levering via direct-mail](../../automating/using/direct-mail-delivery.md)
-* [Levering in de app](../../automating/using/in-app-delivery.md)
-
+* [E-maillevering](../../automating/using/email-delivery.md)
+* [Sms-levering](../../automating/using/sms-delivery.md)
+* [Levering van pushmeldingen](../../automating/using/push-notification-delivery.md)
+* [Levering direct mail](../../automating/using/direct-mail-delivery.md)
+* [In-app-levering](../../automating/using/in-app-delivery.md)

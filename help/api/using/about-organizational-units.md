@@ -1,13 +1,10 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Informatie over organisatorische eenheden
 description: Meer informatie over organisatorische eenheden en API's.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-translation-type: tm+mt
-source-git-commit: 01e4eb027b55815c3680b26691e61cbe5b63ee8c
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%

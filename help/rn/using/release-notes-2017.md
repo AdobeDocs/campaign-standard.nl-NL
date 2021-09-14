@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Aanvullende informatie 2017
 description: Deze pagina bevat een overzicht van alle releases van Adobe Campaign Standard in 2017.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overzicht
+feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '4624'
+source-wordcount: '4623'
 ht-degree: 4%
 
 ---
@@ -157,7 +155,7 @@ _Transactionele berichten_
 _Rapporten_
 
 * Het **Hot click**-rapport is verbeterd. Ook, is het nu mogelijk om heet kliks volgens elke voorwaardelijke inhoud te tonen die in een levering werd bepaald en hete kliks voor elke uitvoering van terugkomende leveringen of transactionele berichten te tonen. Raadpleeg de [gedetailleerde documentatie](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion) voor meer informatie.
-* Probleem verholpen waarbij de quarantaineminimetrische gegevens niet werden opgehaald.
+* Probleem verholpen waarbij de quarantaineminimetrie geen correcte gegevens kon ophalen.
 * Er is een nieuw vooraf ingesteld tijdframe toegevoegd aan de kalenderwidget.
 * De [dynamische rapportmetriek](../../reporting/using/indicator-calculation.md) en [campagnes&#39; KPIs](../../sending/using/confirming-the-send.md) (getoond op het dashboard van verzonden berichten) zijn gericht voor meer coherentie.
 * Probleem verholpen waarbij een pijpleiding ertoe kon leiden dat er een crash optrad bij debian 7.

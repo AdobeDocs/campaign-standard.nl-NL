@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Gebruiksscenario’s voor workflows
 description: Lees meer over gebruiksgevallen die u kunt uitvoeren met Campaign Standard-workflows.
 audience: automating
@@ -8,14 +6,13 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
 role: Data Architect
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '234'
 ht-degree: 71%
 
 ---
-
 
 # Gebruiksscenario’s voor workflows {#about-workflow-use-cases}
 
@@ -28,40 +25,40 @@ Ze helpen u de verschillende contexten te ontdekken waarin workflows kunnen word
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
 * [Leveringen maken met een aanvulling](../../automating/using/workflow-created-query-with-complement.md)
-* [Leveringen maken op de aanmaakdatum van profielen](../../automating/using/workflow-creation-date-query.md)
+* [Leveringen maken op de maakdatum van profielen](../../automating/using/workflow-creation-date-query.md)
 * [Een wekelijkse levering maken](../../automating/using/workflow-weekly-offer.md)
 * [Een kanaaloverschrijdende levering maken](../../automating/using/workflow-cross-channel-delivery.md)
 * [Duplicaten identificeren vóór een levering](../../automating/using/identifying-duplicated-before-delivery.md)
 * [Verjaardagslevering](../../automating/using/birthday-delivery.md)
 * [Leveringen van e-mail en direct mail koppelen](../../automating/using/coupling-email-direct-mail.md)
 * [Een e-mail met verrijkte velden verzenden](../../automating/using/sending-email-enriched-fields.md)
-* [Een e-mail personaliseren met aanvullende data](../../automating/using/personalizing-email-with-additional-data.md)
+* [Een e-mail met aanvullende gegevens personaliseren](../../automating/using/personalizing-email-with-additional-data.md)
 * [Een terugkerende pushmelding verzenden](../../automating/using/recurring-push-notifications.md)
 
-## Segmentering en targeting {#segmentation-and-targeting}
+## Segmentatie en targeting {#segmentation-and-targeting}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
 * [Voorbeelden van query’s](../../automating/using/query-samples.md)
 * [Samenvoeging op twee verfijnde doelgroepen](../../automating/using/union-on-two-refined-audiences.md)
 * [Een segmentatie op locatie maken](../../automating/using/workflow-segmentation-location.md)
-* [Personen die een bericht niet openen doelgericht opnieuw benaderen](../../automating/using/workflow-cross-channel-retargeting.md)
-* [Incrementele query op abonnees van een service](../../automating/using/incremental-query-on-subscribers.md)
-* [Segmentering volgens leeftijdsgroepen](../../automating/using/segmentation-age-groups.md)
+* [Personen die een bericht niet openen, doelgericht opnieuw benaderen](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Incrementele query op leden van een service](../../automating/using/incremental-query-on-subscribers.md)
+* [Segmentatie volgens leeftijdsgroepen](../../automating/using/segmentation-age-groups.md)
 * [Bronnen gebruiken die niet gelijk zijn aan targetingdimensies](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## Data management {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-* [Een doelgroep Bestand afstemmen op de database](../../automating/using/reconcile-file-audience-with-database.md)
-* [De data uit een geïmporteerd bestand dedupliceren](../../automating/using/deduplicating-data-imported-file.md)
-* [Profieldata verrijken met data in een bestand](../../automating/using/enriching-profile-data-file.md)
-* [Externe signaalactiviteit en dataimport](../../automating/using/external-signal-data-import.md)
-* [De database bijwerken met externe data](../../automating/using/update-database-file.md)
-* [Data bijwerken op basis van een automatische bestandsdownload](../../automating/using/update-data-automatic-download.md)
-* [Afstemming van data met behulp van relaties](../../automating/using/reconciliation-using-relations.md)
-* [Data-update met afstemming](../../automating/using/data-update-reconciliation.md)
+* [Een bestandsdoelgroep afstemmen op de database](../../automating/using/reconcile-file-audience-with-database.md)
+* [De gegevens uit een geïmporteerd bestand dedupliceren](../../automating/using/deduplicating-data-imported-file.md)
+* [Profielgegevens verrijken met gegevens in een bestand](../../automating/using/enriching-profile-data-file.md)
+* [Externe signaalactiviteit en gegevensimport](../../automating/using/external-signal-data-import.md)
+* [De database bijwerken met externe gegevens](../../automating/using/update-database-file.md)
+* [Gegevens bijwerken op basis van een automatische bestandsdownload](../../automating/using/update-data-automatic-download.md)
+* [Afstemming van gegevens met relaties](../../automating/using/reconciliation-using-relations.md)
+* [Gegevensupdate met afstemming](../../automating/using/data-update-reconciliation.md)
 * [Profielen exporteren naar een extern bestand](../../automating/using/exporting-profiles-in-file.md)
 * [Meerdere lidmaatschapsstatussen bijwerken vanuit een bestand](../../automating/using/updating-subscriptions-from-file.md)
 * [Profielen vanuit een bestand aanmelden voor een specifieke service](../../automating/using/subscribing-profiles-from-file.md)

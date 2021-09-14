@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Een doelgroep Bestand afstemmen op de database
+title: Een bestandsdoelgroep afstemmen op de database
 description: In dit voorbeeld ziet u hoe u de publieksactiviteit Lezen gebruikt om een publiek te combineren dat rechtstreeks is gemaakt op basis van een geïmporteerd bestand.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: readAudience,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6a59907d-850e-4d61-b1f7-8fc8b915580e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 86%
+source-wordcount: '254'
+ht-degree: 87%
 
 ---
 
-
-# Een doelgroep Bestand afstemmen op de database {#example--reconcile-a-file-audience-with-the-database}
+# Een bestandsdoelgroep afstemmen op de database {#example--reconcile-a-file-audience-with-the-database}
 
 In dit voorbeeld wordt getoond hoe u de activiteit **[!UICONTROL Read audience]** kunt gebruiken om een doelgroep af te stemmen die rechtstreeks vanaf een bestandsimport is gemaakt.
 

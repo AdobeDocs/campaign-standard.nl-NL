@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Campaign-berichten personaliseren met Point of Interest-data
+title: Campaign-berichten personaliseren met gegevens van Point of Interest
 description: Leer hoe te om een gepersonaliseerd bericht tot stand te brengen dat op de plaats van uw abonnees met de de gegevensintegratie van het Punt van Interesse wordt gebaseerd.
 audience: integrating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: working-with-campaign-and-analytics-for-mobile
 feature: Audiences
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fcc79829-902d-4547-87c5-8a213e1257b7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '260'
 ht-degree: 10%
 
 ---
 
-
-# Campaign-berichten personaliseren met Point of Interest-data{#personalizing-campaign-messages-with-point-of-interest-data}
+# Campaign-berichten personaliseren met gegevens van Point of Interest{#personalizing-campaign-messages-with-point-of-interest-data}
 
 In Adobe Campaign kunt u de interessepunten die zijn verzameld bij de abonnees van uw mobiele toepassing gebruiken om persoonlijke marketingberichten, zoals een e-mail, te verzenden.
 
@@ -67,4 +64,3 @@ De e-mail met de korting van 10% wordt verzonden naar abonnees die:
 * [Een e-mail maken](../../channels/using/creating-an-email.md)
 * [Inhoud definiëren](../../designing/using/personalization.md#example-email-personalization)
 * [Berichten verzenden](../../sending/using/confirming-the-send.md)
-

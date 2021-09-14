@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Aangepaste bronnen
 description: Meer informatie over het beheer van aangepaste bronnen met API's/
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d7b2231d-46ff-4966-9ea7-27a775e5236b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 6%
+source-wordcount: '204'
+ht-degree: 5%
 
 ---
-
 
 # Aangepaste bronnen {#custom-resources}
 
@@ -77,6 +74,6 @@ Het keert de lijst van alle verbonden douanemiddelen terug. Vervolgens kunt u de
 
 Raadpleeg de documentatie bij Campagne voor meer informatie over de extensie van het gegevensmodel:
 
-* [Concepten van datamodellen](../../developing/using/data-model-concepts.md)
+* [Concepten van gegevensmodellen](../../developing/using/data-model-concepts.md)
 * [De API uitbreiden](../../developing/using/about-extending-the-api.md)
 * [Koppelingen met andere resources definiëren](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)

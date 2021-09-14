@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Een workflow aanroepen met externe parameters
+title: Een workflow oproepen met externe parameters
 description: In deze sectie wordt beschreven hoe een workflow met externe parameters wordt aangeroepen.
 audience: automating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f7de0186-4136-4603-8f80-9f58c641cd9d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '188'
 ht-degree: 13%
 
 ---
 
-
-# Parameters definiëren bij het aanroepen van de workflow {#defining-the-parameters-when-calling-the-workflow}
+# Parameters definiëren bij het oproepen van de workflow {#defining-the-parameters-when-calling-the-workflow}
 
 In deze sectie wordt beschreven hoe u parameters definieert wanneer u een workflow oproept. Raadpleeg de documentatie [REST API&#39;s](../../api/using/triggering-a-signal-activity.md) voor meer informatie over het uitvoeren van deze bewerking vanuit een API-aanroep.
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Informatie over uitvoeringsactiviteiten
 description: De activiteiten van de uitvoering zijn beschikbaar bij de linkerkant van het scherm.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: execution-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e2841f26-6f87-4bc4-baf7-c3c29dd69eae
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 52%
+source-wordcount: '65'
+ht-degree: 53%
 
 ---
-
 
 # Informatie over uitvoeringsactiviteiten{#about-execution-activities}
 
@@ -28,11 +25,10 @@ De volgende activiteiten zijn specifiek voor het organiseren en uitvoeren van wo
 
 De sectie **[!UICONTROL Execution]** bevat de volgende activiteiten:
 
-* [Begin en einde](../../automating/using/start-and-end.md)
-* [Vork](../../automating/using/fork.md)
-* [AND-samenvoeging](../../automating/using/and-join.md)
+* [Start en einde](../../automating/using/start-and-end.md)
+* [Vertakking](../../automating/using/fork.md)
+* [AND-join](../../automating/using/and-join.md)
 * [Planner](../../automating/using/scheduler.md)
 * [Wachten](../../automating/using/wait.md)
 * [Extern signaal](../../automating/using/external-signal.md)
-* [Test](../../automating/using/test.md)
-
+* [Testen](../../automating/using/test.md)

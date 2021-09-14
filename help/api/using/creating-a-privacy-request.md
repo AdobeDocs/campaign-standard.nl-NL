@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Een privacyaanvraag maken
+title: Een privacyverzoek maken
 description: Leer hoe u een privacyaanvraag maakt met API's
 audience: developing
 content-type: reference
@@ -9,20 +7,19 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 06ad2e13-922b-4f35-8726-007427125c63
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 7%
+source-wordcount: '210'
+ht-degree: 22%
 
 ---
 
-
-# Een privacyaanvraag maken {#creating-a-privacy-request}
+# Een privacyverzoek maken {#creating-a-privacy-request}
 
 >[!CAUTION]
 >
->De [Integratie van de Kern van de Privacy](https://adobe.io/apis/cloudplatform/gdpr.html) is de methode u voor alle toegang zou moeten gebruiken en verzoeken schrapt. Vanaf 19.4 is het gebruik van de campagne-API en de interface voor toegangs- en verwijderingsverzoeken afgekeurd. Raadpleeg [deze pagina](../../rn/using/deprecated-features.md) voor meer informatie over afgekeurde en verwijderde functies van Campaign Standard.
+>De [Integratie van de Kern van de Privacy](https://adobe.io/apis/cloudplatform/gdpr.html) is de methode u voor alle toegang zou moeten gebruiken en verzoeken schrapt. Met ingang van versie 19.4 is het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken afgeschaft. Raadpleeg [deze pagina](../../rn/using/deprecated-features.md) voor meer informatie over Campaign Standard-functies die zijn afgeschaft en verwijderd.
 
 De verzoeken van de privacy worden gecreeerd gebruikend een **POST** verzoek.
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Rapportage-interface
 description: Leer meer over de Dynamische basis van de rapportinterface en hoe te door de verschillende lusjes en de menu's te navigeren.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: about-reporting
 feature: Reporting
 role: Leader
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '731'
 ht-degree: 3%
 
 ---
-
 
 # Rapportage-interface{#reporting-interface}
 
@@ -74,7 +71,7 @@ De werkbalk bevindt zich boven de werkruimte. Het wordt samengesteld uit verschi
 * [Visualisaties toevoegen](../../reporting/using/adding-visualizations.md)
 * [Componenten toevoegen](../../reporting/using/adding-components.md)
 
-### Tabblad Project {#project-tab}
+### Het tabblad Project {#project-tab}
 
 ![](assets/tab_project.png)
 
@@ -86,7 +83,7 @@ Gebruik de **tab Project** om:
 * **CSV** downloaden: Exporteert uw rapporten naar een CSV-bestand.
 * **[!UICONTROL Print]**: Druk uw rapport af.
 
-### Tabblad {#edit-tab} bewerken
+### Tabblad Bewerken {#edit-tab}
 
 ![](assets/tab_edit.png)
 
@@ -95,7 +92,7 @@ Met het tabblad **Bewerken** kunt u:
 * **Ongedaan maken**: Hiermee annuleert u de laatste handeling op het dashboard.
 * **Alles** wissen: Hiermee verwijdert u elk deelvenster op het dashboard.
 
-### Tabblad {#insert-tab} invoegen
+### Tabblad Invoegen {#insert-tab}
 
 ![](assets/tab_insert.png)
 

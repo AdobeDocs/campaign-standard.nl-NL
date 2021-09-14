@@ -1,24 +1,22 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Veelgestelde vragen in de app
+title: Veelgestelde vragen In-App
 description: Veelgestelde vragen over In-App-berichten
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
-feature: In app
+feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '674'
 ht-degree: 2%
 
 ---
 
 
-# Veelgestelde vragen in de app {#in-app-faq}
+# Veelgestelde vragen In-App {#in-app-faq}
 
 ## Wat zouden enkele nuttige hulpbronnenaanbevelingen zijn om meer te weten te komen over het In-App-kanaal in Adobe Campaign Standard? {#resources-inapp}
 

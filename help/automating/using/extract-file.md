@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: De activiteit Bestand extraheren
 description: Met de activiteit Bestand extraheren kunt u data uit Adobe Campaign exporteren naar een extern bestand.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: fileExport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 89%
+source-wordcount: '402'
+ht-degree: 86%
 
 ---
-
 
 # Bestand extraheren{#extract-file}
 
@@ -46,7 +43,7 @@ De specifieke data-extractiemethode wordt gedefinieerd bij het configureren van 
    ![](assets/wkf_data_export1.png)
 
 1. Selecteer de activiteit en open deze met de knop ![](assets/edit_darkgrey-24px.png) vanuit de snelle acties die verschijnen.
-1. Voer het label van het **uitvoerbestand** in. Het bestandslabel wordt automatisch aangevuld met de datum en tijd waarop het is gemaakt. Dit label is dus uniek. Bijvoorbeeld: ontvangers_20150815_081532.txt voor een bestand dat op 15 augustus 2015 om 08:15:32 uur is gemaakt.
+1. Voer het label van het **uitvoerbestand** in. Het bestandslabel wordt automatisch aangevuld met de datum en tijd waarop het is gemaakt. Dit label is dus uniek. Bijvoorbeeld: receiving_20150815_081532.txt for a file generated the 15th of August 2015 at 08:15:32.
 
    >[!NOTE]
    >

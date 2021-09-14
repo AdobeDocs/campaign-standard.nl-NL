@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Best practices importeren
 description: Leer meer over de beste praktijken om te volgen wanneer het invoeren van gegevens in het gegevensbestand.
 audience: automating
@@ -8,14 +6,13 @@ content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '568'
 ht-degree: 2%
 
 ---
-
 
 # Best practices importeren {#import-best-practices}
 
@@ -25,7 +22,7 @@ ht-degree: 2%
 
 Voorzichtig zijn en het volgen van de weinige hieronder gedetailleerde eenvoudige regels zullen veel helpen om gegevensconsistentie binnen het gegevensbestand te verzekeren en gemeenschappelijke fouten tijdens gegevensbestandupdate of gegevensuitvoer te vermijden.
 
-## Importsjablonen {#using-import-templates} gebruiken
+## Importsjablonen gebruiken {#using-import-templates}
 
 De meeste importworkflows moeten de volgende activiteiten bevatten: **[!UICONTROL Load file]**, **[!UICONTROL Reconciliation]**, **[!UICONTROL Segmentation]**, **[!UICONTROL Deduplication]**, **[!UICONTROL Update data]**.
 
@@ -49,7 +46,7 @@ Een voorbeeld van een generiek werkschemamalplaatje dat voor het invoeren van ge
 * [Deduplicatieactiviteit](../../automating/using/deduplication.md)
 * [Gegevensactiviteit bijwerken](../../automating/using/update-data.md)
 
-## Vlakke bestandsindelingen {#using-flat-file-formats} gebruiken
+## Vlakke bestandsindelingen gebruiken {#using-flat-file-formats}
 
 De meest efficiënte indeling voor importeren is platte bestanden. Vlakke bestanden kunnen in de bulkmodus op databaseniveau worden geïmporteerd.
 
@@ -70,7 +67,7 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
-## Compressie {#using-compression} gebruiken
+## Compressie gebruiken {#using-compression}
 
 Gebruik indien mogelijk gecomprimeerde bestanden voor importeren en exporteren. GZIP wordt standaard ondersteund. U kunt voorbewerking toevoegen bij het importeren van bestanden of naverwerking bij het extraheren van gegevens, respectievelijk in de **[!UICONTROL Load file]**- en **[!UICONTROL Extract file]**-workflowactiviteiten.
 
@@ -79,13 +76,13 @@ Gebruik indien mogelijk gecomprimeerde bestanden voor importeren en exporteren. 
 * [Bestandsactiviteit laden](../../automating/using/load-file.md)
 * [Bestandsactiviteit extraheren](../../automating/using/extract-file.md)
 
-## Importeren in Deltamodus {#importing-in-delta-mode}
+## Importeren in de Delta-modus {#importing-in-delta-mode}
 
 Regelmatige invoer moet plaatsvinden in de deltamodus. Dit betekent dat alleen gewijzigde of nieuwe gegevens telkens naar Adobe Campaign worden verzonden in plaats van naar de hele tabel.
 
 Volledige invoer mag alleen voor eerste lading worden gebruikt.
 
-## Consistentie {#maintaining-consistency} behouden
+## Behoud van consistentie {#maintaining-consistency}
 
 Om de consistentie van de gegevens in de Adobe Campaign-database te waarborgen, volgt u de volgende beginselen:
 

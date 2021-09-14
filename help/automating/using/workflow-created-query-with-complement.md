@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Leveringen maken met een aanvulling
 description: In dit gebruiksgeval ziet u hoe u leveringen met een complement maakt.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,use-case,segmentation
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5cd71e07-f955-4c15-bdfb-14b0daccec1a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 40%
+source-wordcount: '239'
+ht-degree: 41%
 
 ---
-
 
 # Leveringen maken met een aanvulling {#deliveries-with-complement}
 
@@ -27,7 +24,7 @@ U kunt een e-mail naar klanten sturen: een voor klanten die minder dan een jaar 
 1. Selecteer **[!UICONTROL New Workflow]** als workflowtype en klik op **[!UICONTROL Next]**.
 1. Voer eigenschappen van de workflow in en klik op **[!UICONTROL Create]**.
 
-## Creeer een activiteit van de Vraag {#create-a-query-activity}
+## Een query-activiteit maken {#create-a-query-activity}
 
 1. Sleep in **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** een [Query](../../automating/using/query.md)-activiteit en zet deze neer.
 1. Dubbelklik op de activiteit.
@@ -37,7 +34,7 @@ U kunt een e-mail naar klanten sturen: een voor klanten die minder dan een jaar 
 
 ![](assets/wf-complement-query.png)
 
-## Een segmentatieactiviteit {#create-a-segmentation-activity} maken
+## Een segmentatieactiviteit maken {#create-a-segmentation-activity}
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, belemmering en laat vallen een [Segmentatie](../../automating/using/segmentation.md) activiteit en klik het tweemaal.
 1. Houd de muisaanwijzer boven het segment en klik op ![](assets/edit_darkgrey-24px.png) om klanten aan te wijzen die dit jaar in de database zijn toegevoegd.

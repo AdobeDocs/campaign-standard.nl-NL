@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Aan de slag met processen en data management
 description: Automatiseer processen met workflows, beheer gegevens en publiek, verzend berichten, en meer.
 audience: automating
@@ -10,9 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '517'
 ht-degree: 13%
 
 ---
@@ -68,7 +66,7 @@ Meer informatie:
 * [Geavanceerde expressies bewerken](../../automating/using/advanced-expression-editing.md)
 * [Lijst met functies](../../automating/using/list-of-functions.md)
 
-## Gegevens {#import-export-data} importeren/exporteren
+## Gegevens importeren/exporteren {#import-export-data}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
@@ -86,11 +84,11 @@ Tot slot [Met het exporteren van lijsten](../../automating/using/exporting-lists
 
 Meer informatie:
 
-* [Data importeren en exporteren](../../automating/using/about-data-import-and-export.md)
-* [Gebruiksscenario: Aangepaste resources exporteren en importeren](../../automating/using/exporting-importing-custom-resources.md)
+* [Gegevens importeren en exporteren](../../automating/using/about-data-import-and-export.md)
+* [Gebruiksscenario: aangepaste bronnen exporteren en importeren](../../automating/using/exporting-importing-custom-resources.md)
 
 ## Aanvullende bronnen
 
 * [Zelfstudievideo&#39;s over processen en gegevensbeheer](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=nl)
 * [Technische workflows](../../administration/using/technical-workflows.md)
-* [Aan de slag met het Campaign Standard-datamodel](../../developing/using/get-started-data-model.md)
+* [Aan de slag met het Campaign Standard-gegevensmodel](../../developing/using/get-started-data-model.md)

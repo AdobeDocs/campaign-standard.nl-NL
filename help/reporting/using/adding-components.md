@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Componenten toevoegen
 description: De belemmering en laat vallen componenten aan uw vrije vormlijst beginnen uw gegevens te filtreren en uw rapport te bouwen.
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-feature: Rapportage
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
-source-git-commit: 8062995481a889d8865267e6134efa74648753f6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '279'
 ht-degree: 4%
 
 ---

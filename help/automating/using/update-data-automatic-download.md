@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Data bijwerken op basis van een automatische bestandsdownload
+title: Gegevens bijwerken op basis van een automatische bestandsdownload
 description: 'In het volgende voorbeeld wordt het resultaat getoond van een automatisch gedownloade activiteit voor het laden van een bestand via een activiteit voor het overdragen van een bestand, gevolgd door een activiteit voor het bijwerken van data. '
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: fileImport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2b21cf45-1c40-4e0e-ae2c-28c9f73e1964
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 78%
+source-wordcount: '279'
+ht-degree: 79%
 
 ---
 
-
-# Data bijwerken op basis van een automatische bestandsdownload {#updating-data-automatic-file-download}
+# Gegevens bijwerken op basis van een automatische bestandsdownload {#updating-data-automatic-file-download}
 
 De activiteit voor het laden van een bestand structureert hoofdzakelijk de data van een activiteit voor het overdragen van een bestand om het in de bestaande data te integreren.
 

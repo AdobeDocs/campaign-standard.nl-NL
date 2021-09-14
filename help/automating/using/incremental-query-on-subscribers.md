@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Incrementele query op abonnees van een service
+title: Incrementele query op leden van een service
 description: Het volgende voorbeeld stelt voor hoe te om een Incrementele vraagactiviteit te vormen om abonnees aan de dienst te filtreren.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: incremental,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c80ed1f6-ad8a-4448-a6df-b9881327228a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 66%
+source-wordcount: '211'
+ht-degree: 67%
 
 ---
 
-
-# Incrementele query op abonnees van een service {#example--incremental-query-on-subscribers-to-a-service}
+# Incrementele query op leden van een service {#example--incremental-query-on-subscribers-to-a-service}
 
 In het volgende voorbeeld wordt de configuratie getoond van een activiteit **[!UICONTROL Incremental query]** die de profielen in de Adobe Campaign-database filtert die zijn geabonneerd op de dienst **Running Newsletter**, om hen een welkomstbericht met een aanbieding te sturen.
 

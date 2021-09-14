@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Niet-leverbare items en niet-bezorgingen
 description: 'Met het niet-Te leveren en stuitert uit-van-de-doos rapport, leer over de fouten die aan uw levering kunnen voorkwamen. '
 audience: reporting
@@ -10,14 +8,13 @@ context-tags: deliveryNonDeliverablesBouncesReport,main;campaignNonDeliverablesB
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c527e890-2b49-4422-a866-e55a6468c54b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '117'
 ht-degree: 5%
 
 ---
-
 
 # Niet-leverbare items en niet-bezorgingen{#non-deliverables-and-bounces}
 

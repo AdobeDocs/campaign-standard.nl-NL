@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: '"Stap 3: De extensie verifiëren"'
+title: '"Stap 3: de extensie verifiëren"'
 description: Leer hoe u toegang krijgt tot het uitgebreide veld met de rest-API.
 audience: developing
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: use-case--extending-the-api
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 34cb416c-ee3d-4b7c-a75b-640432db320d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 12%
+source-wordcount: '59'
+ht-degree: 13%
 
 ---
 
-
-# Stap 3: De extensie verifiëren{#step-verify-the-extension}
+# Stap 3: de extensie verifiëren{#step-verify-the-extension}
 
 1. Voer een bewerking in GET uit op de metagegevens van de API voor profielen en services om te controleren of het veld dat is toegevoegd in de aangepaste bron Profielen nu beschikbaar is.
 
@@ -31,4 +28,3 @@ ht-degree: 12%
    ![](assets/extendpandsapiview.png)
 
    Het veld is nu beschikbaar voor verdere ontwikkelingen en integratie.
-

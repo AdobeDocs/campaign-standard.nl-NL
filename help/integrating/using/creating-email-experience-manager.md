@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: E-mailcontent maken in Adobe Experience Manager.
 description: Met de Adobe Experience Manager-integratie kunt u inhoud rechtstreeks in AEM maken en later in Adobe Campaign gebruiken.
 audience: integrating
@@ -9,14 +7,13 @@ topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '414'
 ht-degree: 2%
 
 ---
-
 
 # Adobe Experience Manager-inhoud importeren in een Adobe Campaign-e-mail {#creating-email-aem}
 
@@ -56,7 +53,7 @@ Standaard kunt u met twee vooraf gedefinieerde sjablonen e-mailinhoud voor Adobe
 
    >[!VIDEO](https://video.tv.adobe.com/v/29999)
 
-## Een e-mail {#editing-email-aem} bewerken en verzenden
+## Een e-mail bewerken en verzenden {#editing-email-aem}
 
 U kunt de e-mailinhoud bewerken door componenten en elementen toe te voegen. De gebieden van de verpersoonlijking kunnen worden gebruikt om een relevanter bericht te leveren dat op de gegevens van de ontvangers in Adobe Campaign wordt gebaseerd.
 

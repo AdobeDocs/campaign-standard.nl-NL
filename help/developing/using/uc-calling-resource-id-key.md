@@ -1,21 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Een resource aanroepen met een samengestelde identificatiesleutel
+title: Een bron oproepen met een samengestelde identificatiesleutel
 description: Leer hoe u een bron aanroept met een samengestelde id-toets
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '588'
 ht-degree: 7%
 
 ---
 
-
-# Een resource aanroepen met een samengestelde identificatiesleutel{#calling-a-resource-using-a-composite-identification-key}
+# Een bron oproepen met een samengestelde identificatiesleutel{#calling-a-resource-using-a-composite-identification-key}
 
 In sommige gevallen moet u voor een resource mogelijk een id-sleutel definiëren die uit twee velden bestaat. Zodra de identificatiesleutel wordt gevormd, moet u een filterdefinitie vormen om het middel met deze identificatiesleutel, of van de interface van Campaign Standard of APIs te kunnen roepen.
 
@@ -29,11 +26,11 @@ De belangrijkste stappen voor dit gebruiksgeval zijn:
 
 Verwante onderwerpen:
 
-* [De resource maken of uitbreiden](../../developing/using/creating-or-extending-the-resource.md)
+* [De bron maken of uitbreiden](../../developing/using/creating-or-extending-the-resource.md)
 * [Identificatiesleutels definiëren](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [Campaign Standard REST API&#39;s](../../api/using/get-started-apis.md)
 
-## Stap 1: De identificatiesleutel{#step-1-configure-the-identification-key} configureren
+## Stap 1: De id-toets configureren{#step-1-configure-the-identification-key}
 
 >[!NOTE]
 > Algemene concepten bij het configureren van identificatietoetsen worden beschreven in [deze sectie](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
@@ -89,7 +86,7 @@ Verwante onderwerpen:
 
 1. De filterdefinitie is nu geconfigureerd. U kunt de bron publiceren zodat het filter beschikbaar is.
 
-## Stap 3: Roep de bron aan op basis van zijn identificatiesleutel{#step-3-call-the-resource-based-on-its-identification-key}
+## Stap 3: Roep de bron aan op basis van de identificatiesleutel{#step-3-call-the-resource-based-on-its-identification-key}
 
 Zodra de identificatiesleutel en zijn filterdefinitie worden gevormd, kunt u hen gebruiken om het middel, of van de standaardinterface van de Campagne of REST APIs te roepen.
 

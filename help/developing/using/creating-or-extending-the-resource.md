@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: De resource maken of uitbreiden
+title: De bron maken of uitbreiden
 description: Ontdek hoe u een geheel nieuwe bron definieert.
 audience: developing
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: adding-or-extending-a-resource
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b8731088-a675-4070-9036-bf2b5254e4e8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 10%
+source-wordcount: '153'
+ht-degree: 11%
 
 ---
 
-
-# De resource maken of uitbreiden{#creating-or-extending-the-resource}
+# De bron maken of uitbreiden{#creating-or-extending-the-resource}
 
 Beheerders kunnen een geheel nieuwe bron maken of een uitbreiding van een bestaande bron maken als u gegevens nodig hebt die geen deel uitmaken van het ingebouwde gegevensmodel.
 

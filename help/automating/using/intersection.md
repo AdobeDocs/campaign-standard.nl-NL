@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Doorsnede
 description: Met de activiteit Doorsnede kunt u alleen de elementen behouden die de verschillende binnenkomende populaties in de activiteit gemeenschappelijk hebben.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: targeting-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2a6a851c-df91-472b-a8a4-0b3876d51c1d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 98%
+source-wordcount: '285'
+ht-degree: 100%
 
 ---
-
 
 # Doorsnede{#intersection}
 
@@ -50,4 +47,3 @@ De activiteit **[!UICONTROL Intersection]** wordt over het algemeen gebruikt om 
 Het volgende voorbeeld toont de doorsnede tussen twee queryactiviteiten. Dit voorbeeld wordt hier gebruikt om de Adobe Campaign-database te bekijken en profielen op te halen die tussen 18 en 27 jaar oud zijn en profielen waarvan het e-mailadres is opgegeven.
 
 ![](assets/wkf_intersection_example.png)
-

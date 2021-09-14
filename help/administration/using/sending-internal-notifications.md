@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Interne meldingen verzenden
 description: Leer hoe u realtime systeemmeldingen naar Adobe Campaign-gebruikers kunt verzenden.
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instantie-instellingen
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7e04275a-5413-4f03-b18c-b64ab482d7d5
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '264'
 ht-degree: 2%
 
 ---

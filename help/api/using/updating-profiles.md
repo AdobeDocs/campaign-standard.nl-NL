@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Profielen bijwerken
 description: Meer informatie over het bijwerken van profielen met API's.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 5%
+source-wordcount: '96'
+ht-degree: 4%
 
 ---
-
 
 # Profielen bijwerken {#updating-profiles}
 

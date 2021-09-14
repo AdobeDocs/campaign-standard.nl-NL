@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Profielen ophalen
 description: Meer informatie over het ophalen van profielen met API's.
 audience: developing
@@ -9,14 +7,13 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '229'
 ht-degree: 5%
 
 ---
-
 
 # Profielen ophalen {#retrieving-profiles}
 

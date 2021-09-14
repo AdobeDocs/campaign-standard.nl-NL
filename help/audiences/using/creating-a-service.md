@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Een service maken
 description: Leer hoe u uw eerste service maakt en deze configureert om e-mailbevestigingen naar uw abonnees te verzenden.
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
-feature: Doelgroepen
+feature: Audiences
 role: User
 level: Beginner
 exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 95%
 
 ---

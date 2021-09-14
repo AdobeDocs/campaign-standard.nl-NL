@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: De data uit een geïmporteerd bestand dedupliceren
+title: De gegevens uit een geïmporteerd bestand dedupliceren
 description: In dit voorbeeld wordt getoond hoe u data uit een geïmporteerd bestand kunt dedupliceren voordat u de data in de database laadt.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: dedup,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 631eb661-a696-4352-aa58-9097b391723e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 88%
+source-wordcount: '328'
+ht-degree: 89%
 
 ---
 
-
-# De data uit een geïmporteerd bestand dedupliceren {#deduplicating-the-data-from-an-imported-file}
+# De gegevens uit een geïmporteerd bestand dedupliceren {#deduplicating-the-data-from-an-imported-file}
 
 In dit voorbeeld wordt getoond hoe u data uit een geïmporteerd bestand kunt dedupliceren voordat u de data in de database laadt. Deze procedure verbetert de kwaliteit van de data die in de database worden geladen.
 

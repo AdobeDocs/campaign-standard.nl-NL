@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Aan de slag met dynamische rapportage
 description: Analyseer het succes van uw campagnes in ingebouwde of aangepaste dynamische rapporten.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: about-reporting
 feature: Reporting
 role: Leader
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 16%
 
 ---
-
 
 # Aan de slag met dynamische rapportage {#get-started-reporting}
 
@@ -44,7 +41,7 @@ Meer informatie:
 * [Informatie over dynamische rapporten](../../reporting/using/about-dynamic-reports.md)
 * [Rapportage-interface](../../reporting/using/reporting-interface.md)
 
-## Uw rapporten {#build-reports} samenstellen
+## Uw rapporten samenstellen {#build-reports}
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
@@ -55,7 +52,7 @@ Campaign Standard wordt geleverd met een set van **gebruiksklare dynamische rapp
 Meer informatie:
 
 * [Lijst met componenten](../../reporting/using/list-of-components-.md)
-* [Berekening van indicatoren](../../reporting/using/indicator-calculation.md)
+* [Indicatoren berekenen](../../reporting/using/indicator-calculation.md)
 * [Lijst met rapporten](../../reporting/using/defining-the-report-period.md)
 
 ## Uw rapporten aanpassen {#customize-reports}
@@ -79,7 +76,7 @@ Meer informatie:
 ## Aanvullende bronnen
 
 * [Logboeken exporteren](../../automating/using/exporting-logs.md)
-* [Informatie over de integratie van Campaign en Analytics](../../integrating/using/about-campaign-analytics-integration.md)
+* [Informatie over de integratie van Campaign-Analytics](../../integrating/using/about-campaign-analytics-integration.md)
 
 ## Video over zelfstudie {#video}
 

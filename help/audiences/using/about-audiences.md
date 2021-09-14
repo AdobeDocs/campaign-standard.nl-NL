@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Informatie over doelgroepen
 description: Leer hoe u doelgroepen maakt op basis van een query, een lijst of een bestand en hoe u een doelgroep importeert uit Adobe Experience Cloud.
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Doelgroepen
+feature: Audiences
 role: User
 level: Beginner
 exl-id: f99987d8-b1bf-4ec7-885c-fb511f4168ac
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '249'
 ht-degree: 91%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Bronnen gebruiken die niet gelijk zijn aan targetingdimensies
 description: Leer hoe u een bron gebruikt die afwijkt van de doeldimensie.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5805bdfa-fb33-4a46-ba1e-7a10b067349b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '293'
 ht-degree: 81%
 
 ---
-
 
 # Bronnen gebruiken die niet gelijk zijn aan targetingdimensies {#using-resources-different-from-targeting-dimensions}
 

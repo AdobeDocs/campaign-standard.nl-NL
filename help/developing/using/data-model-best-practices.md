@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Beste werkwijzen in het gegevensmodel in Adobe Campaign Standard
 description: Leer meer over de beste werkwijzen bij het ontwerpen van uw Adobe Campaign Standard-gegevensmodel.
 audience: developing
@@ -10,16 +8,15 @@ context-tags: cusResource,overview;eventCusResource,overview
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 58d4e02f-3c9a-4e5d-a6aa-fdbcec0d8dda
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1556'
 ht-degree: 1%
 
 ---
 
-
-# Best practices voor het datamodel{#data-model-best-practices}
+# Best practices voor het gegevensmodel{#data-model-best-practices}
 
 Dit document bevat belangrijke aanbevelingen bij het ontwerpen van uw Adobe Campaign-gegevensmodel.
 
@@ -36,11 +33,11 @@ Het Adobe Campaign-systeem is uiterst flexibel en kan verder worden uitgebreid d
 
 Dit document biedt veelgebruikte gebruiksscenario&#39;s en aanbevolen procedures voor het leren hoe u Adobe Campaign op de juiste wijze kunt ontwerpen.
 
-## Architectuur van gegevensmodellen {#data-model-architecture}
+## Gegevensmodelarchitectuur {#data-model-architecture}
 
 Adobe Campaign Standard is een krachtig campagnebeheersysteem voor meerdere kanalen waarmee u uw online- en offlinestrategieën kunt uitlijnen en persoonlijke ervaringen voor klanten kunt creëren.
 
-### Klantgerichte benadering {#customer-centric-approach}
+### klantgerichte benadering {#customer-centric-approach}
 
 Hoewel de meeste e-mailserviceproviders via een lijstgerichte aanpak communiceren met klanten, vertrouwt Adobe Campaign op een relationele database om een bredere visie op de klanten en hun kenmerken te kunnen gebruiken.
 
@@ -82,7 +79,7 @@ Volg onderstaande aanbevolen procedures om gegevens in te stellen in Adobe Campa
 * De lengte voor een tekenreeksveld moet altijd met de kolom worden gedefinieerd. Standaard is de maximumlengte in Adobe Campaign 255 tekens, maar Adobe raadt u aan het veld korter te houden als u al weet dat de grootte een kortere lengte niet overschrijdt.
 * Het is acceptabel om in Adobe Campaign een veld te hebben dat korter is dan in het bronsysteem als u er zeker van bent dat de grootte in het bronsysteem is overschat en niet zou worden bereikt. Dit kan een kortere tekenreeks of een kleiner geheel getal in Adobe Campaign betekenen.
 
-## Gegevensstructuur {#configuring-data-structure} configureren
+## Gegevensstructuur configureren {#configuring-data-structure}
 
 Deze sectie schetst beste praktijken wanneer [het vormen van de gegevensstructuur van een middel](../../developing/using/configuring-the-resource-s-data-structure.md).
 

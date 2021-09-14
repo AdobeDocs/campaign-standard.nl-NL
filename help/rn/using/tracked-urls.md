@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Probleem met handtekening van bijgehouden URL's
 description: Probleem met handtekening van bijgehouden URL's
 hidefromtoc: true
 hide: true
-source-git-commit: 65c81f2f9e4fc80e7b2f7c0bdc0302e90f068b1e
-workflow-type: ht
+exl-id: 8c2725a8-2c3a-448a-8c04-c0c2a5950574
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 100%
 
 ---
 
-
-# Probleem met handtekening van bijgehouden URL&#39;s{#tracked-urls}
+# Probleem met handtekening van bijgehouden URL&#39;s {#tracked-urls}
 
 Na recente wijzigingen kunnen door Campaign verzonden bijgehouden URL&#39;s mislukken. De impact van het probleem verschilt per e-mailaccount. Sommige bedrijven hebben namelijk specifieke beveiligingstools die verbindingen kunnen beïnvloeden en het URL-handtekeningmechanisme kunnen veranderen.
 
@@ -38,4 +36,3 @@ Zodra de update is uitgevoerd, werken alle koppelingen weer naar behoren.
 >[!NOTE]
 >
 >Voor vragen over deze wijzigingen neemt u contact op met de [Adobe-klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
-

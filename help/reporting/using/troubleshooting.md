@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Problemen oplossen
 description: Hier vindt u veelgestelde vragen over dynamische rapportage.
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: Rapportage
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: 81ffe6a7e59a745a6f61941dff69be85edf4fe45
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '703'
 ht-degree: 5%
 
 ---
@@ -21,7 +19,7 @@ ht-degree: 5%
 
 In deze sectie vindt u algemene vragen met betrekking tot dynamische rapportage.
 
-## Voor Unieke open en Unieke kliks, komt de telling in de gezamenlijke rij niet degenen in individuele rijen {#unique-open-clicks-no-match} overeen
+## Voor Unieke open en Unieke kliks, komt de telling in de gezamenlijke rij niet degenen in individuele rijen overeen {#unique-open-clicks-no-match}
 
 Dit is een verwacht gedrag.
 We kunnen het volgende voorbeeld gebruiken om dit gedrag uit te leggen.
@@ -92,7 +90,7 @@ Dit resulteert in de volgende tabel:
 >
 >De unieke tellingen zijn gebaseerd op een op HLL-Gebaseerde schets, dit kan kleine onnauwkeurigheden in grote aantallen veroorzaken.
 
-## De open tellingen passen niet de telling van het Gegevensbestand {#open-counts-no-match-database} aan
+## Open aantallen komen niet overeen met het aantal databases {#open-counts-no-match-database}
 
 Dit kan zijn toe te schrijven aan het feit dat, heuristiek in Dynamische rapportering wordt gebruikt om te volgen opent zelfs wanneer wij niet de **[!UICONTROL Open]** actie kunnen volgen.
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Uitschrijvingen
 description: Met het Unsubscriptions uit-van-de-doos rapport, leer hoeveel tijden klanten zich aan uw leveringen afsloot.
 audience: reporting
@@ -10,14 +8,13 @@ context-tags: deliveryUnsubscriptionsReport,main;campaignUnsubscriptionsReport,m
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 02c24d66-f379-476d-9536-e652dc74bcf8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '64'
 ht-degree: 17%
 
 ---
-
 
 # Uitschrijvingen{#unsubscriptions}
 

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Marketingactiviteiten
 description: “Ontdek hoe u uw marketingactiviteiten zoals campagnes, e-mails, sms’en, pushmeldingen, landingspagina’s en workflows kunt maken en beheren. U kunt gemakkelijk een nieuwe activiteit ontwerpen, een bestaande activiteit bewerken en de status en geldigheid van uw activiteiten raadplegen.”
 audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
-feature: Campagnes
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: c75471aa-b947-4488-a569-5412d3825c64
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '487'
 ht-degree: 83%
 
 ---

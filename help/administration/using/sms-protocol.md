@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Protocol en instellingen voor sms-connector
 description: Leer meer op de schakelaar van SMS en hoe te om het te vormen.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instantie-instellingen
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '8666'
+source-wordcount: '8664'
 ht-degree: 0%
 
 ---
@@ -358,7 +356,7 @@ De maximumgrootte van een bericht hangt van zijn codering af. In deze tabel word
 | Codering | Gebruikelijke gegevens_codering | Berichtgrootte (tekens) | Onderdeelformaat voor SMS met meerdere onderdelen | Beschikbare tekens |
 |:-:|:-:|:-:|:-:|:-:|
 | GSM7 | 0 | 160 | 152 | GSM7 basis tekenset + extensie (uitgebreide tekens nemen 2 tekens in beslag) |
-| Latin-1 | 3 | 140 | 134 | ISO-8859-1 |
+| Latin-1 | 1 | 140 | 134 | ISO-8859-1 |
 | UCS-2 <br>UTF-16 | 8 | 70 | 67 | Unicode (verschilt per telefoon) |
 
 ## SMPP-parameters voor externe account {#SMPP-parameters-external}

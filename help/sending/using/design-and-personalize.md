@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Gepersonaliseerde content maken
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Leer hoe u de inhoud van uw bericht ontwerpt en probeer algemene problemen te vermijden die ertoe kunnen leiden dat u de levering niet kunt uitvoeren. 
-feature: Afleverbaarheid
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1033'
 ht-degree: 7%
 
 ---

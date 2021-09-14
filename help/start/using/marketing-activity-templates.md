@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sjablonen
 description: '"Met Adobe Campaign-sjablonen kunt u parameters vooraf configureren, afhankelijk van uw behoeften: sjablonen kunnen een volledige of gedeeltelijke configuratie van de marketingactiviteiten bevatten om het gebruik van Adobe Campaign voor niet-technische eindgebruikers te vereenvoudigen."'
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Campagnes
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '402'
 ht-degree: 100%
 
 ---

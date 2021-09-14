@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Een aangepaste profieldimensie maken
 description: Leer hoe u een aangepaste profieldimensie maakt op basis van aangepaste profielgegevens.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: customizing-reports
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 98516af1-d4dd-4c1f-b360-f19208c22f82
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '813'
 ht-degree: 5%
 
 ---
-
 
 # Een aangepaste profieldimensie maken{#creating-a-custom-profile-dimension}
 
@@ -59,7 +56,7 @@ Dit doet u als volgt:
 
    ![](assets/custom_profile_13.png)
 
-1. Voer **[!UICONTROL Label]** en **[!UICONTROL Value]** in en klik vervolgens **[!UICONTROL Add]**. In dit voorbeeld moeten we de waarde goud, zilver en brons creëren. Klik **[!UICONTROL Confirm]** wanneer gereed.
+1. Voer **[!UICONTROL Label]** en **[!UICONTROL Value]** in en klik vervolgens **[!UICONTROL Add]**. In dit voorbeeld moeten we de waarde goud, zilver en brons creëren. Klik op **[!UICONTROL Confirm]** wanneer u klaar bent met de configuratie.
 
    ![](assets/custom_profile_14.png)
 
@@ -146,7 +143,7 @@ Nadat u het profielveld hebt gepubliceerd, kunt u de levering starten. In dit vo
 
 Zodra uw e-mail correct naar de geselecteerde ontvangers wordt verzonden, kunt u beginnen uw gegevens te filteren en het succes van uw levering met rapporten te volgen.
 
-## Stap 4: Een dynamisch rapport maken om ontvangers met de aangepaste profieldimensie te filteren{#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
+## Stap 4: Maak een dynamisch rapport om ontvangers met de dimensie van het aangepaste profiel te filteren {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
 
 Nadat u de levering hebt verzonden, kunt u rapporten splitsen aan de hand van uw aangepaste profieldimensie in de tabel **[!UICONTROL Profile]**.
 

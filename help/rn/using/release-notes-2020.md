@@ -1,25 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Opmerkingen bij de releases in 2020
 description: Deze pagina bevat een overzicht van alle releases van Adobe Campaign Standard in 2020.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overzicht
+feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '5298'
+source-wordcount: '5297'
 ht-degree: 98%
 
 ---
 
 # Aanvullende informatie 2020{#release-notes-2020}
 
-[Releaseplanning](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/release-planning.html) | [Releases van het configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl) | [Updates van documentatie](../../rn/using/documentation-updates.md) | [Opmerkingen bij eerdere releases](../../rn/using/release-notes-2019.md) | [Verouderde functies](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=nl#release-notes)
+[Releaseplanning](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/release-notes/release-planning.html) | [Releases van het configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl) | [Documentatie-updates](../../rn/using/documentation-updates.md) | [Eerdere aanvullende informatie](../../rn/using/release-notes-2019.md) | [Afgeschafte functies](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=nl#release-notes)
 
 ![](assets/do-not-localize/cp-icon.png) **Release van nieuw configuratiescherm in juni** met controle van actieve profielen, controle van de leverbaarheid van subdomeinen en beheer van GPG-sleutels. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
 

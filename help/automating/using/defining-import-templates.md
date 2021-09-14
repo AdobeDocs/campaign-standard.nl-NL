@@ -1,13 +1,10 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Importsjablonen definiëren
 description: Met importsjablonen kunt u de benodigde instellingen reduceren en data sneller importeren.
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 100%
@@ -82,6 +79,6 @@ De importsjabloon is nu beschikbaar voor de gebruikers en kan worden gebruikt om
 **Verwante onderwerpen:**
 
 * [Workflows](../../automating/using/get-started-workflows.md)
-* [Data importeren en exporteren](../../automating/using/about-data-import-and-export.md)
+* [Gegevens importeren en exporteren](../../automating/using/about-data-import-and-export.md)
 * [Voorbeeld: Workflowsjabloon importeren](../../automating/using/creating-import-workflow-templates.md)
 

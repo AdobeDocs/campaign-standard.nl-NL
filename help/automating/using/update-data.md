@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Data bijwerken
 description: Met de activiteit Data bijwerken kunt u velden in de database groepsgewijs bijwerken.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: writer,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d362563f-5ab3-4f7f-ae9f-a42b6f0bb2b9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 97%
+source-wordcount: '472'
+ht-degree: 98%
 
 ---
 
-
-# Data bijwerken{#update-data}
+# Gegevens bijwerken{#update-data}
 
 ## Beschrijving {#description}
 
@@ -34,7 +31,7 @@ U kunt de activiteit **Data bijwerken** gebruiken nadat u een bestand hebt geïm
 **Verwante onderwerpen:**
 
 * [Hoofdlettergebruik: Gegevens bijwerken die zijn gebaseerd op een bestand](../../automating/using/update-database-file.md)
-* [Data bijwerken op basis van een automatische bestandsdownload](../../automating/using/update-data-automatic-download.md)
+* [Gegevens bijwerken op basis van een automatische bestandsdownload](../../automating/using/update-data-automatic-download.md)
 
 ## Configuratie {#configuration}
 

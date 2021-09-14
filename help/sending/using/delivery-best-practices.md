@@ -1,20 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Aanbevolen werkwijzen voor het leveren van campagnes
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Leer beste praktijken met betrekking tot leveringsontwerp en verzendend met Adobe Campaign.
-feature: Afleverbaarheid
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 10%
+source-wordcount: '95'
+ht-degree: 9%
 
 ---
 

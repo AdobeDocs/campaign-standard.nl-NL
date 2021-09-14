@@ -1,23 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: De integratie met Audience Manager of de People-kernservice inrichten en configureren
+title: De integratie met Audience Manager of de People core-service inrichten en configureren
 description: 'Leer hoe te om de de dienstintegratie van de Audience Manager/van de Kern van Mensen te vormen beginnen publiek of segmenten met de verschillende oplossingen van Adobe Experience Cloud te delen. '
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: Integratie van de People Core-service
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '717'
 ht-degree: 9%
 
 ---
 
-# De integratie met Audience Manager of de People-kernservice inrichten en configureren{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
+# De integratie met Audience Manager of de People core-service inrichten en configureren{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
 De levering en de configuratie van Audience Manager en de kern van Mensen in Adobe Campaign nemen twee stappen: [Aanvraag indienen bij Adobe](#submitting-request-to-adobe) dan [De integratie configureren in Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
 
@@ -60,7 +58,7 @@ Deze integratie moet eerst worden geconfigureerd. Als u inrichting van deze inte
  </tbody> 
 </table>
 
-## Integratie in Adobe Campaign {#configuring-the-integration-in-adobe-campaign} configureren
+## Integratie in Adobe Campaign configureren {#configuring-the-integration-in-adobe-campaign}
 
 Na het voorleggen van dit verzoek, zal Adobe aan de levering van de integratie voor u te werk gaan en u contacteren om details en informatie te verstrekken die u de configuratie moet voltooien:
 
@@ -69,7 +67,7 @@ Na het voorleggen van dit verzoek, zal Adobe aan de levering van de integratie v
 * [Stap 3: Campagne bijhouden-server configureren](#step-3--configure-campaign-tracking-server)
 * [Stap 4: De service voor de bezoekersidentiteitskaart configureren](#step-4--configure-the-visitor-id-service)
 
-### Stap 1: Externe accounts in Adobe Campaign configureren of controleren{#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
+### Stap 1: Externe accounts in Adobe Campaign configureren of controleren {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
 We moeten eerst de externe accounts in Adobe Campaign configureren of controleren. Deze rekeningen hadden door Adobe moeten worden gevormd en de noodzakelijke informatie zou aan u moeten worden meegedeeld.
 
@@ -86,7 +84,7 @@ Dit doet u als volgt:
 
 Uw externe accounts zijn nu geconfigureerd voor deze integratie.
 
-### Stap 2: Gegevensbronnen configureren {#step-2--configure-the-data-sources}
+### Stap 2: Vorm de Gegevensbronnen {#step-2--configure-the-data-sources}
 
 De twee volgende gegevensbronnen worden gecreeerd binnen de Manager van het Publiek: Adobe Campaign (MID) en Adobe Campaign (DeclaredId). Tegelijkertijd zijn deze twee gegevensbronnen beschikbaar in Adobe Campaign:
 
@@ -122,13 +120,13 @@ De **[!UICONTROL Declared ID]**-gegevensbron maken:
 >
 >Het **[!UICONTROL AAM Destination ID]** gebied wordt niet vereist als u de gedeelde gegevensbron voor [Campagne-Triggers integratie](../../integrating/using/configuring-triggers-in-experience-cloud.md) vormt. **[!UICONTROL Priority]** is alleen nodig bij het configureren van de integratie Triggers - Campagne. De prioriteit bepaalt welke gegevensbron eerst zal worden gevormd. Prioriteit kan elk nummer zijn, zoals 1 of 100. Hoe hoger de prioriteit, des te hoger de voorkeur tijdens verzoening.
 
-### Stap 3: Campagne bijhouden-server {#step-3--configure-campaign-tracking-server} configureren
+### Stap 3: Campagne bijhouden-server configureren {#step-3--configure-campaign-tracking-server}
 
 Voor de configuratie van de integratie met de dienst van de Kern van Mensen of de manager van het Publiek, moeten wij ook de server van het Volgen van de Campagne vormen.
 
 Hier, moet u ervoor zorgen de het Volgen van de Campagne Server op het domein (CNAME) wordt geregistreerd. U kunt meer informatie over de configuratie van de domeinnaam in [dit artikel](https://helpx.adobe.com/nl/campaign/kb/domain-name-delegation.html) vinden.
 
-### Stap 4: De Bezoeker-id-service {#step-4--configure-the-visitor-id-service} configureren
+### Stap 4: De service voor de bezoekersidentiteitskaart configureren {#step-4--configure-the-visitor-id-service}
 
 Als uw bezoeker-id-service nooit is geconfigureerd op uw wegeigenschappen of websites, raadpleegt u het volgende [document](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) om te leren hoe u uw service of de volgende [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) kunt configureren.
 

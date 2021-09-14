@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Aan de slag met dynamische rapporten
 description: Met dynamische rapporten, sleep en laat vallen variabelen en dimensies in uw vrije vormmilieu en analyseer het succes van uw campagnes.
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: about-reporting
 feature: Reporting
 role: Leader
 level: Beginner
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '791'
 ht-degree: 5%
 
 ---
-
 
 # Aan de slag met dynamische rapporten {#about-dynamic-reports}
 
@@ -26,7 +23,7 @@ De dynamische Rapportering verstrekt volledig klantgerichte en real-time rapport
 >
 >Alleen gebruikers met beheerrechten of met organisatorische eenheden ingesteld op **All** kunnen een nieuw rapport maken of opslaan. Raadpleeg deze [sectie](../../administration/using/users-management.md) voor meer informatie.
 
-## Toegang tot dynamische rapporten {#accessing-dynamic-reports}
+## Dynamische rapporten openen {#accessing-dynamic-reports}
 
 Rapporten zijn toegankelijk:
 

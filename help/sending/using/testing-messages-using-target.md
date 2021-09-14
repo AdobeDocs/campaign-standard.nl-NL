@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: E-mailberichten testen met doelprofielen
 description: Leer hoe u berichten kunt testen met behulp van doelprofielen en vervangende adressen.
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Controlegroepen
+feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1514'
 ht-degree: 4%
 
 ---
@@ -191,7 +189,7 @@ De belangrijkste stappen voor dit gebruik zijn als volgt:
 
 1. Bouw het werkschema om een publiek van het dossier tot stand te brengen. Hiervoor voegt u de volgende activiteiten toe en configureert u deze:
 
-   * **[!UICONTROL Load file]** activiteit: Hiermee importeert u het CSV-bestand (zie  [deze sectie](../../automating/using/load-file.md) voor meer informatie over deze activiteit).
+   * **[!UICONTROL Load file]** activiteit: Hiermee importeert u het CSV-bestand (raadpleeg  [deze sectie](../../automating/using/load-file.md) voor meer informatie over deze activiteit).
    * **[!UICONTROL Reconciliation]** activiteit: Koppelt informatie uit het bestand aan informatie uit de database. In dit voorbeeld gebruiken we het e-mailadres van het profiel als verzoeningsveld (voor meer informatie over deze activiteit verwijst u naar [deze sectie](../../automating/using/reconciliation.md)).
    * **[!UICONTROL Save audience]** activiteit: Hiermee maakt u een publiek op basis van het geïmporteerde bestand (raadpleeg  [deze sectie](../../automating/using/save-audience.md) voor meer informatie over deze activiteit).
 

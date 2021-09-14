@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Dynamische Target-content toevoegen
+title: Dynamische content Target toevoegen
 description: Leer hoe u dynamische Adobe Target-inhoud toevoegt aan een van uw Adobe Campaign-leveringen.
 audience: integrating
 content-type: reference
@@ -10,14 +8,14 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '444'
 ht-degree: 4%
 
 ---
 
-# Dynamische Target-content toevoegen{#adding-target-dynamic-content}
+# Dynamische content Target toevoegen{#adding-target-dynamic-content}
 
 Dankzij de Adobe Target-integratie kunnen dynamische afbeeldingen aan een levering worden toegevoegd om uw inhoud aan uw wensen aan te passen.
 

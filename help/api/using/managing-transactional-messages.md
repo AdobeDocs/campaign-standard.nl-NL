@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Transactionele berichten beheren
 description: Leer hoe u transactieberichten beheert met API's.
 audience: developing
@@ -9,18 +7,17 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '678'
 ht-degree: 3%
 
 ---
 
-
 # Transactionele berichten beheren {#managing-transactional-messages}
 
-## Informatie over transactieberichten
+## Transactionele berichten
 
 Nadat u een transactiegebeurtenis hebt gemaakt en gepubliceerd, moet u het activeren van deze gebeurtenis integreren in uw website.
 
@@ -135,7 +132,7 @@ Antwoord op het verzoek van de POST.
 }
 ```
 
-### Status van transactie-gebeurtenis {#transactional-event-status}
+### Status van een transactiegebeurtenis {#transactional-event-status}
 
 In het antwoord kunt u met het veld status weten of de gebeurtenis is verwerkt:
 

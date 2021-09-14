@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Informatie over de integratie van Campaign en Analytics
+title: Informatie over de integratie van Campaign-Analytics
 description: Door de KPI-gegevens van Adobe Campaign Standard te verzamelen, kunt u nu campagnegegevens delen met Adobe Analytics om de e-mailmarketinggegevens van Adobe Campaign te meten.
 audience: integrating
 content-type: reference
@@ -10,14 +8,14 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ada1a5d1-879b-49cd-b4ef-43d7a40bafdb
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 7%
+source-wordcount: '206'
+ht-degree: 6%
 
 ---
 
-# Informatie over de integratie van Campaign en Analytics{#about-campaign-analytics-integration}
+# Informatie over de integratie van Campaign-Analytics{#about-campaign-analytics-integration}
 
 Dankzij de Adobe Analytics-integratie in Adobe Campaign kunt u nu het succes van uw e-mailleveringen direct in Adobe Analytics volgen.
 
@@ -36,4 +34,4 @@ Er is ook een integratie tussen de kernservice **Triggers** en Adobe Campaign. H
 
 * [Overzicht van de integratie van Campaign Standard naar Analytics](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
 * [De Campaign Standard-integratie configureren](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
-* [Dimensies en metrische data van Campaign in Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
+* [Dimensies en metrische gegevens van Campaign in Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

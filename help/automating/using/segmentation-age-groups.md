@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Segmentering volgens leeftijdsgroepen
+title: Segmentatie volgens leeftijdsgroepen
 description: Deze pagina bevat een segmentatie van databaseprofielen volgens hun leeftijdsgroep. Het doel van de workflow is om voor elke leeftijdsgroep een specifieke e-mail te verzenden.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: segmentation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dab7ef86-4776-48f4-be9a-37de316e0dd9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 65%
+source-wordcount: '198'
+ht-degree: 66%
 
 ---
 
-
-# Segmentering volgens leeftijdsgroepen {#segmentation-age-groups}
+# Segmentatie volgens leeftijdsgroepen {#segmentation-age-groups}
 
 In het volgende voorbeeld wordt een segmentatie van databaseprofielen weergegeven op basis van de leeftijdsgroep.
 

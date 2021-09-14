@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Een workflow aanroepen met externe parameters
+title: Een workflow oproepen met externe parameters
 description: In deze sectie wordt beschreven hoe een workflow met externe parameters wordt aangeroepen.
 audience: automating
 content-type: reference
@@ -9,14 +7,13 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '977'
 ht-degree: 1%
 
 ---
-
 
 # Gebruiksscenario {#use-case}
 
@@ -36,7 +33,7 @@ Voor dit gebruik moet u de volgende handelingen uitvoeren:
 
 Alvorens de werkschema&#39;s te vormen, moet u Werkschema 1 en 2 met een **[!UICONTROL External signal]** activiteit in elk van hen tot stand brengen. Deze manier, zult u deze signaalactiviteiten kunnen richten wanneer het roepen van de werkschema&#39;s.
 
-## Stap 1: De API-aanroep {#step-1--configuring-the-api-call} configureren
+## Stap 1: De API-aanroep configureren {#step-1--configuring-the-api-call}
 
 Maak een API vraag om Werkstroom 1 met parameters teweeg te brengen. Raadpleeg de documentatie [Campaign Standard REST API&#39;s](../../api/using/triggering-a-signal-activity.md) voor meer informatie over de API-aanroepsyntaxis.
 
@@ -61,7 +58,7 @@ In ons geval willen we de workflow met de volgende parameters oproepen:
 -d } 
 ```
 
-## Stap 2: Workflow 1 {#step-2--configuring-workflow-1} configureren
+## Stap 2: Workflow 1 configureren {#step-2--configuring-workflow-1}
 
 Workflow 1 wordt als volgt samengesteld:
 
@@ -189,6 +186,6 @@ Voer de onderstaande stappen uit om de workflow te configureren:
 
    ![](assets/extsignal_uc14.png)
 
-## De workflows uitvoeren {#executing-the-workflows}
+## Workflows uitvoeren {#executing-the-workflows}
 
 Nadat de workflows zijn samengesteld, kunt u deze uitvoeren. Zorg ervoor dat de twee workflows zijn gestart voordat u de API-aanroep uitvoert.

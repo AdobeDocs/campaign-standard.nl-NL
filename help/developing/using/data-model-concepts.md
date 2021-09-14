@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Concepten van datamodellen
 description: Leer meer over het datamodel van Adobe Campaign en hoe u dit kunt wijzigen.
 audience: developing
@@ -10,16 +8,15 @@ context-tags: cusResource,overview;eventCusResource,overview
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6e9e016a-473b-4a51-8bd6-c23c7b3d3610
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 78%
+source-wordcount: '244'
+ht-degree: 79%
 
 ---
 
-
-# Concepten van datamodellen{#data-model-concepts}
+# Concepten van gegevensmodellen{#data-model-concepts}
 
 Adobe Campaign bevat een vooraf gedefinieerd datamodel. Dit datamodel kan worden gewijzigd door [beheerders](../../administration/using/users-management.md#functional-administrators) die nieuwe bronnen of uitbreidingen aan bestaande bronnen kunnen toevoegen.
 

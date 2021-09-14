@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Configuratierichtlijnen
 description: Leer over de configuratierichtlijnen van Campaign Standard.
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Toegangsbeheer
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 88684ed6-6d8d-4691-987f-812e7e1d834c
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '117'
 ht-degree: 5%
 
 ---
@@ -50,6 +48,6 @@ Hier volgen de verschillende eindpunten die worden gebruikt in Campaign Standard
 | Ervaar cloud | `https://experiencecloud.adobe.com` |
 | Tracking | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
 | Elementenintegratie | `https://*.marketing-assets.adobe.com` |
-| Interne Adobe | `https://*.adobe.io` |
+| Interne Adobe-services | `https://*.adobe.io` |
 | Enquêtes | `https://adobe.allegiancetech.com` |
 | Standaardbranding-URL (vóór clientconfiguratie) | `https://*.adobe-campaign.com` |

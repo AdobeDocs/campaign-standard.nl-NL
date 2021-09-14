@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Belangrijke stappen van het toevoegen van een resource
 description: Leer hier de belangrijkste stappen om een middel in het de gegevensmodel van Adobe Campaign toe te voegen.
 audience: developing
@@ -9,21 +7,20 @@ topic-tags: adding-or-extending-a-resource
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: bd9747df-cf2f-4837-8438-d12e695cda47
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 45%
+source-wordcount: '105'
+ht-degree: 47%
 
 ---
 
-
-# Belangrijkste stappen om een resource toe te voegen{#key-steps-to-add-a-resource}
+# Belangrijkste stappen om een bron toe te voegen{#key-steps-to-add-a-resource}
 
 Als u een nieuwe bron wilt maken of een bestaande bron wilt uitbreiden met nieuwe velden, moet u de volgende stappen uitvoeren:
 
-1. [De resource maken of uitbreiden](../../developing/using/creating-or-extending-the-resource.md)
-1. [De datastructuur van de resource configureren](../../developing/using/configuring-the-resource-s-data-structure.md)
+1. [De bron maken of uitbreiden](../../developing/using/creating-or-extending-the-resource.md)
+1. [De gegevensstructuur van de bron configureren](../../developing/using/configuring-the-resource-s-data-structure.md)
 1. [De schermdefinitie configureren](../../developing/using/configuring-the-screen-definition.md)
 1. [De filterdefinitie configureren](../../developing/using/configuring-filter-definition.md)
 1. [De databasestructuur bijwerken](../../developing/using/updating-the-database-structure.md)

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Veelgestelde vragen over Adobe Experience Platform SDK en Adobe Campaign-integratie
 description: Veelgestelde vragen over Adobe Experience Platform SDK en Adobe Campaign-integratie
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instantie-instellingen
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '914'
 ht-degree: 4%
 
 ---
@@ -26,7 +24,7 @@ In de onderstaande sectie worden veelgestelde vragen over deze synchronisatie we
 Raadpleeg de volgende veelgestelde vragen voor meer informatie over Push of In-App:
 
 * [Veelgestelde vragen over pushmeldingen](../../channels/using/about-push-notifications.md#push-faq)
-* [Veelgestelde vragen in de app](../../channels/using/in-app-faq.md)
+* [Veelgestelde vragen In-App](../../channels/using/in-app-faq.md)
 * [Synchroniseren met veelgestelde vragen over technische workflow starten](../../administration/using/syncwithlaunch-faq.md)
 
 ## Nuttige bronnen voordat u begint {#resource-mobile-property}

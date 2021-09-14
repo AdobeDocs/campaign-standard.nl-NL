@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Afgeschafte en verwijderde functies van Campaign Standard
 description: Deze pagina bevat de afgeschafte en verwijderde functies van Adobe Campaign Standard.
 audience: rn
@@ -10,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: bb964907851b11f8cc247425024f6e7c828aed5d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '871'
-ht-degree: 66%
+ht-degree: 67%
 
 ---
 
@@ -136,7 +134,7 @@ Deze sectie bevat een lijst met functies en mogelijkheden die uit Campaign Stand
  <tbody> 
   <tr> 
    <td> <p>Sinds Campaign 21.2 is het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken afgeschaft. De profielverwijdering in twee stappen is niet beschikbaar. Gebruik de <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy-kernservice</a>.</p></br>
-   <p>Zie ook <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">Verzoeken om toegang tot persoonsgegevens beheren</a>.</p>
+   <p>Zie ook <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=nl">Verzoeken om toegang tot persoonsgegevens beheren</a>.</p>
   </td> 
   </tr> 
  </tbody> 

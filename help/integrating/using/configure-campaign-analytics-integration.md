@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: De integratie van Campaign en Analytics configureren
+title: De integratie van Campaign-Analytics configureren
 description: Leer hoe u de integratie met Adobe Analytics configureert om het succes van uw e-mailleveringen te meten.
 audience: integrating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: working-with-campaign-and-analytics
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a6748b4b-36c5-4961-a599-ace73a8504cc
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '216'
 ht-degree: 9%
 
 ---
 
-
-# De integratie van Campaign en Analytics configureren{#configure-campaign-analytics-integration}
+# De integratie van Campaign-Analytics configureren{#configure-campaign-analytics-integration}
 
 Dankzij deze integratie kunt u uw gegevens in de prestatiekernindicator rechtstreeks van Adobe Campaign naar Adobe Analytics Standard of Premium delen.
 
@@ -55,4 +52,3 @@ Je gegevens zijn nu beschikbaar in Adobe Analytics.
 * [Externe accounts](../../administration/using/external-accounts.md)
 * [Technische workflows](../../administration/using/technical-workflows.md)
 * [KPI&#39;s delen voor geïntegreerde ](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) rapportage van campagnes
-

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sms-rapport
 description: 'Met het SMS out-of-the-box rapport, leer over het succes van uw levering van SMS. '
 audience: reporting
@@ -9,14 +7,13 @@ topic-tags: list-of-reports
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1d04bcd0-77f7-4bf0-a322-ec5cb5c1ce14
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 6%
+source-wordcount: '73'
+ht-degree: 5%
 
 ---
-
 
 # Sms-rapport{#sms-report}
 
@@ -29,4 +26,3 @@ De **SMS summary** tabel, grafieken en samenvattingsnummers bevatten beschikbare
 * **Verwerkt/verzonden**: Het aantal verzonden SMS.
 * **Afgeleverd**: Het aantal geleverde SMS.
 * **Stuiterwaarden + fouten**: Het aantal berichten dat niet kon worden geleverd.
-

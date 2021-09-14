@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Werken met Campaign en de Assets core-service
 description: Gebruik alle bronnen die in Adobe Experience Cloud worden gedeeld in uw Adobe Campaign-berichten en -bestemmingspagina's dankzij de integratie van de Assets Core-service.
 audience: integrating
@@ -10,7 +8,7 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
-source-git-commit: 92edfbc2b7bb035d311f107b5b4c39f2521b07f6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 9%

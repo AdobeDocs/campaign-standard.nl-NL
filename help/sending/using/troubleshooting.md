@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Problemen met de leverbaarheid van Adobe Campaign Standard oplossen
 description: Leer wat je moet doen als je problemen hebt met de levering van Adobe Campaign Standard.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Afleverbaarheid
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 0470b986-c00a-4441-8621-82c7112a9953
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '467'
 ht-degree: 2%
 
 ---

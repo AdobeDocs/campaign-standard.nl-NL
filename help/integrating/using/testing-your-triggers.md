@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Uw triggers testen
 description: Leer tips voor het oplossen van problemen waarmee u de meest voorkomende problemen kunt oplossen die u tegenkomt bij het gebruik van Triggers met Adobe Campaign.
 audience: integrating
@@ -10,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 2%
+source-wordcount: '463'
+ht-degree: 1%
 
 ---
 
@@ -36,7 +34,7 @@ Voer de stappen uit die worden beschreven in [Een toegewezen trigger maken in Ca
 Als de trigger is gemaakt, gaat u verder naar de volgende stap. Zo niet, dan betekent dit dat de verbinding met het eindpunt van de trigger is mislukt. Controleer of Triggers is ingericht in Experience Cloud (Activeringsservices). Als dit niet het geval is, neemt u contact op met de manager van uw Adobe-account of de professionele servicepartner. De volgende informatie is vereist:
 
 * Bedrijfsnaam Marketing Cloud
-* IMS-organisatie-id
+* IMS-organisatie-ID
 * Login van de Analyse Bedrijf (kan het zelfde zijn als de Naam van het Bedrijf van de Marketing Cloud)
 
 **Probeer de trigger te publiceren**

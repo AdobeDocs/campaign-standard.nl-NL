@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Profielen vanuit een bestand aanmelden voor een specifieke service
 description: Met deze gebruiksaanwijzing kunt u zien hoe u een bestand met profielen importeert en deze abonneert op een bestaande service.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 06ae4a5c-f112-4aac-b776-437ac35a8f02
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 52%
+source-wordcount: '238'
+ht-degree: 53%
 
 ---
 
-
-# Profielen abonneren op een specifieke service na het importeren van een bestand {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
+# Profielen na het importeren van een bestand abonneren op een specifieke service {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 In dit voorbeeld ziet u hoe u een bestand met profielen importeert en deze abonneert op een bestaande service. Nadat het bestand is geïmporteerd, moet een afstemming worden uitgevoerd, zodat de geïmporteerde data kunnen worden geïdentificeerd als profielen. Om ervoor te zorgen dat het bestand geen duplicaten bevat, wordt een ontdubbelingsactiviteit uitgevoerd op de data.
 

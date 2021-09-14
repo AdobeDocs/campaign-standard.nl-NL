@@ -1,16 +1,14 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Actieve profielen voor campagnes
 description: Leer hoe u toegang krijgt tot maatgegevens van klanten en actieve profielen
-feature: Profielen
+feature: Profiles
 role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 1%
+source-wordcount: '227'
+ht-degree: 0%
 
 ---
 
@@ -43,4 +41,3 @@ Onder aan de pagina worden de doeldimensies weergegeven met het aantal profielen
 >[!NOTE]
 >
 >Als Admin-gebruiker kunt u het aantal actieve profielen dat op uw instanties wordt gebruikt, ook rechtstreeks vanuit het Configuratiescherm controleren. Raadpleeg de [documentatie van het Configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html) voor meer informatie.
-

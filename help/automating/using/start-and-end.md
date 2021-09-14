@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Start- en Einde-activiteiten
 description: Met de activiteiten Start en Einde kunt u duidelijk markeren waar uw workflow begint en eindigt.
 audience: automating
@@ -9,16 +7,15 @@ topic-tags: execution-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1dfc547f-747d-403e-a5b7-a68f56191c71
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 98%
+source-wordcount: '274'
+ht-degree: 100%
 
 ---
 
-
-# Start- en Einde-activiteiten{#start-and-end}
+# Start en einde{#start-and-end}
 
 ## Beschrijving {#description}
 
@@ -51,4 +48,3 @@ Op het tabblad **[!UICONTROL External signal]** van een **[!UICONTROL End]**-act
 Het volgende voorbeeld toont hoe een complexe workflow wordt uitgevoerd met een **[!UICONTROL Start]**-activiteit en diverse **[!UICONTROL End]**-activiteiten. Het selectievakje **[!UICONTROL Stop all tasks in progress]** is ingeschakeld voor de eerste **[!UICONTROL End]**-activiteit. Zodra de overeenkomstige taak wordt beëindigd, wordt de volledige workflow gestopt: dit heeft hetzelfde effect als wanneer de knop ![](assets/stop_darkgrey-24px.png) was geselecteerd (zie de sectie [Actiebalk](../../automating/using/workflow-interface.md#action-bar)).
 
 ![](assets/wkf_start_end_example.png)
-

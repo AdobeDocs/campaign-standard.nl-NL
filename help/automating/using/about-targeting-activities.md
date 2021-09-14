@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Targetingactiviteiten
 description: De gerichte activiteiten kunnen van de linkerkant van het scherm worden betreden.
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: targeting-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '434'
 ht-degree: 48%
 
 ---
-
 
 # Targetingactiviteiten{#about-targeting-activities}
 
@@ -30,7 +27,7 @@ De sectie **[!UICONTROL Targeting]** bevat de volgende activiteiten:
 
 * [Query](../../automating/using/query.md)
 * [Incrementele query](../../automating/using/incremental-query.md)
-* [Samenvoeging](../../automating/using/union.md)
+* [Samenvoegen](../../automating/using/union.md)
 * [Doorsnede](../../automating/using/intersection.md)
 * [Uitsluiting](../../automating/using/exclusion.md)
 * [Segmentatie](../../automating/using/segmentation.md)
@@ -41,7 +38,7 @@ De sectie **[!UICONTROL Targeting]** bevat de volgende activiteiten:
 
 **[!UICONTROL Targeting]** Met activiteiten kunt u  **segmentcodes** voor hun uitgaande overgangen definiëren. Vervolgens kunt u rapporten maken op basis van deze segmentcodes om de efficiëntie van uw marketingcampagnes te meten. Raadpleeg [deze sectie](../../reporting/using/creating-a-report-workflow-segment.md) voor meer informatie.
 
-## Gegevens {#selecting-data} selecteren
+## Gegevens selecteren {#selecting-data}
 
 U kunt gegevens selecteren met de volgende activiteiten:
 

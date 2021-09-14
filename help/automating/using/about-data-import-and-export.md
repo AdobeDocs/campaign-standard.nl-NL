@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Informatie over data importeren en exporteren
+title: Informatie over gegevens importeren en exporteren
 description: In deze video ziet u de verschillende manieren waarop u gegevens kunt importeren en exporteren met Adobe Campaign.
 audience: automating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: importing-and-exporting-data
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 208e8629-c3e2-4f36-bae7-46ffc3f56a1b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '324'
 ht-degree: 24%
 
 ---
 
-
-# Informatie over data importeren en exporteren{#about-data-import-and-export}
+# Informatie over gegevens importeren en exporteren{#about-data-import-and-export}
 
 Afhankelijk van uw bedrijfsbehoeften kunt u gegevens op verschillende manieren importeren en exporteren met Adobe Campaign:
 
@@ -35,6 +32,6 @@ Adobe Campaign biedt ook een vereenvoudigde manier om reguliere importbewerkinge
 
 **Verwante onderwerpen**:
 
-* [Data importeren met importsjablonen](../../automating/using/importing-data-with-import-templates.md)
+* [Gegevens importeren met importsjablonen](../../automating/using/importing-data-with-import-templates.md)
 * [Importsjablonen definiëren](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 * [Pakketten beheren](../../automating/using/managing-packages.md)

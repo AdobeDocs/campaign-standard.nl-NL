@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Dynamische tekst definiëren
 description: Leer hoe u verschillende teksten dynamisch aan de gebruiker kunt weergeven volgens de voorwaarden die in Adobe Campaign zijn gedefinieerd.
 audience: designing
 content-type: reference
 topic-tags: defining-conditional-content
-feature: Sms
+feature: SMS
 role: User
 level: Beginner
 exl-id: 649e3428-a3bf-470f-923c-04d9a57a208f
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '213'
 ht-degree: 3%
 
 ---

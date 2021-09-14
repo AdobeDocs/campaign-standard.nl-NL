@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Profieldata verrijken met data in een bestand
+title: Profielgegevens verrijken met gegevens in een bestand
 description: In dit voorbeeld wordt getoond hoe u profieldata kunt verrijken met aankoopdata in een bestand.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: enrichment,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '528'
 ht-degree: 78%
 
 ---
 
-
-# Profieldata verrijken met data in een bestand {#enriching-profile-data-with-data-contained-in-a-file}
+# Profielgegevens verrijken met gegevens in een bestand {#enriching-profile-data-with-data-contained-in-a-file}
 
 In dit voorbeeld ziet u hoe u profielgegevens verrijkt met aankoopgegevens in een bestand. De aankoopgegevens worden hier opgeslagen in een systeem van derden. Voor elk profiel kunnen meerdere aankopen in het bestand worden opgeslagen. Het uiteindelijke doel van de workflow is een e-mail te sturen naar de doelprofielen die ten minste twee items hebben aangeschaft om ze te bedanken voor hun loyaliteit.
 

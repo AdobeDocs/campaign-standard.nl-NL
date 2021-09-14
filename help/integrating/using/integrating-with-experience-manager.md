@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Informatie over de integratie van Campaign en Experience Manager
+title: Informatie over de integratie van Campaign-Experience Manager
 description: Met de Adobe Experience Manager-integratie kunt u inhoud rechtstreeks in AEM maken en later in Adobe Campaign gebruiken.
 audience: integrating
 content-type: reference
@@ -10,14 +8,14 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ff94f69b-3036-4103-a841-6b85feb0eb7e
-source-git-commit: f6e94cf98662e708730be672149d836ef0e56522
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '631'
 ht-degree: 1%
 
 ---
 
-# Informatie over de integratie van Campaign en Experience Manager{#integrating-with-experience-manager}
+# Informatie over de integratie van Campaign-Experience Manager{#integrating-with-experience-manager}
 
 Dankzij deze integratie tussen Adobe Campaign Standard en Adobe Experience Manager kunt u inhoud die in Adobe Experience Manager is gemaakt, gebruiken in uw Adobe Campaign-e-mails.
 
@@ -29,7 +27,7 @@ Adobe Campaign Standard is compatibel met Adobe Experience Manager 6.1, 6.2, 6.3
 >
 > Adobe Campaign Standard-sjablonen zijn niet meer beschikbaar met Adobe Experience Manager 6.5.
 
-## Tips voor het gebruik van de integratie van Campagne-Experience Manager {#tips-aem}
+## Tips voor het gebruik van de integratie tussen Campagne en Experience Manager {#tips-aem}
 
 * **Weet welke sjabloon moet worden gebruikt voor de integratie**
 

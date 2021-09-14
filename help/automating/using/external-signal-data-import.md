@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Invoer van externe signalen en gegevens
 description: Het volgende voorbeeld illustreert de Externe signaalactiviteit die met de invoer van gegevens wordt gebruikt.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: signal,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e2997cf5-861b-4202-aeb7-3a47c4d55bef
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 78%
+source-wordcount: '229'
+ht-degree: 79%
 
 ---
 
-
-# Extern signaal- en gegevensimporteren {#external-signal-data-import}
+# Invoer van externe signalen en gegevens {#external-signal-data-import}
 
 Het volgende voorbeeld illustreert de activiteit **[!UICONTROL External signal]** in een typisch gebruiksscenario. Er worden data geïmporteerd in een bronworkflow. Nadat het importeren is voltooid en de database is bijgewerkt, wordt een tweede workflow geactiveerd. Deze tweede workflow wordt gebruikt om een aggregaat van de geïmporteerde data bij te werken.
 

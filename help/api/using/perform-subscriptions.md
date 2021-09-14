@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Abonnementen uitvoeren
 description: Leer hoe u abonnementen uitvoert met API's.
 audience: developing
@@ -9,16 +7,15 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 64f321a3-436a-4b7c-99d8-0c006203012e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
-
-# Abonnementen {#performing-subscriptions} uitvoeren
+# Abonnementen uitvoeren {#performing-subscriptions}
 
 ## Methode 1: Een profiel abonneren op een service
 

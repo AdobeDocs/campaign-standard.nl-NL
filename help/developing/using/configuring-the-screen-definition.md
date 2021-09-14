@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: De schermdefinitie configureren
 description: Ontdek hoe u nieuwe Adobe Campaign-schermen definieert op basis van de datastructuur van de resources.
 audience: developing
@@ -10,14 +8,13 @@ context-tags: cusResource,main
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dc45f487-7502-478d-a2b3-51669cc6b225
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 99%
+source-wordcount: '614'
+ht-degree: 100%
 
 ---
-
 
 # De schermdefinitie configureren{#configuring-the-screen-definition}
 

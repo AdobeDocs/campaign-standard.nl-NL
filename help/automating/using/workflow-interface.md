@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Workflowinterface
 description: Leer de interface en opties voor het maken, bewerken en uitvoeren van een workflow.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: workflow,main;workflow,overview
 feature: Workflows
 role: Data Architect
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '802'
 ht-degree: 4%
 
 ---
-
 
 # Workflowinterface{#workflow-interface}
 
@@ -106,7 +103,7 @@ Afhankelijk van de elementen die zijn geselecteerd in de werkruimte of de uitvoe
 
 <img height="21px" src="assets/paste_24px.png" /> **[!UICONTROL Paste]**<br/>Hiermee plakt u de gekopieerde activiteiten.
 
-## Snelle handelingen {#quick-actions}
+## Snelle acties {#quick-actions}
 
 Wanneer een activiteit wordt geselecteerd, verschijnen de snelle actieknopen rond de activiteit, die u toestaat om met het in wisselwerking te staan.
 
@@ -126,7 +123,7 @@ Wanneer een activiteit wordt geselecteerd, verschijnen de snelle actieknopen ron
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>Hiermee verwijdert u de geselecteerde activiteiten.
 
-## Dubbele workflowactiviteiten {#duplicating-workflow-activities}
+## Dubbele werkstroomactiviteiten {#duplicating-workflow-activities}
 
 Met de werkruimte kunt u workflowactiviteiten dupliceren door deze naar dezelfde workflow te kopiëren en te plakken, of naar een andere workflow vanuit dezelfde Campagne-instantie.
 
@@ -157,4 +154,3 @@ Het is ook mogelijk om meerdere activiteiten te kopiëren en te plakken, zodat u
 U doet dit door de activiteiten te selecteren door er een zone omheen te tekenen. Klik vervolgens op de knop **[!UICONTROL Copy selection]** op de actiebalk (of druk op **Ctrl + C**). U kunt ze vervolgens op de gewenste locatie plakken.
 
 ![](assets/wkf_copypaste3.png)
-

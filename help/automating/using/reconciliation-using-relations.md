@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Afstemming van data met behulp van relaties
+title: Afstemming van gegevens met relaties
 description: In het volgende voorbeeld ziet u een workflow die de database bijwerkt met de aankoopdata in een bestand.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: reconciliation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7d0e3f17-ef04-4890-b63b-6957fc6cd648
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 85%
+source-wordcount: '338'
+ht-degree: 86%
 
 ---
 
-
-# Afstemming van data met behulp van relaties {#reconciliation-relations}
+# Afstemming van gegevens met relaties {#reconciliation-relations}
 
 In het volgende voorbeeld ziet u een workflow die de database bijwerkt met de aankoopdata in een bestand. De aankoopdata bevatten data die verwijzen naar elementen van andere dimensies, zoals de e-mails en productcodes van de klant.
 

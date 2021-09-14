@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Aanvullende informatie 2019
 description: Deze pagina bevat een overzicht van alle releases van Adobe Campaign Standard in 2019.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overzicht
+feature: Overview
 role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '7590'
-ht-degree: 7%
+source-wordcount: '7589'
+ht-degree: 8%
 
 ---
 
@@ -306,7 +304,7 @@ Introduceerde een reeks verbeteringen en correcties om fragmenten te optimaliser
  <tbody> 
   <tr> 
    <td> Configuratiescherm<br /> </td> 
-   <td> <p>Om uw werk als Admin-gebruiker efficiënter te maken, kunt u eenvoudig de capaciteit controleren en de instellingen van uw instanties beheren (te beginnen met SFTP-serverbeheer).</p><p>Raadpleeg voor meer informatie de <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">Hoe kan ik-video</a>.</p></td> 
+   <td> <p>Om uw werk als Admin-gebruiker efficiënter te maken, kunt u eenvoudig de capaciteit controleren en de instellingen van uw instanties beheren (te beginnen met SFTP-serverbeheer).</p><p>Raadpleeg voor meer informatie de <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=nl">Hoe kan ik-video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Lokale meldingen<br /> </td> 

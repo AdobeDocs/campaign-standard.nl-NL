@@ -1,24 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Data-opname via API's activeren
+title: Gegevensopname via API's activeren
 description: Leer hoe u gegevensinvoer activeert via API's.
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM-integratie
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
-translation-type: tm+mt
-source-git-commit: a4e1edc23cf750e44026f388f7b0fff3a80ec663
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '464'
 ht-degree: 5%
 
 ---
 
-# Data-opname via API&#39;s activeren {#triggering-data-ingestion-apis}
+# Gegevensopname via API&#39;s activeren {#triggering-data-ingestion-apis}
 
 >[!IMPORTANT]
 >
@@ -47,7 +44,7 @@ Nadat de gegevenstoewijzing is gemaakt, moet u de bewerking stoppen zodat u deze
 
 De uitvoering van de gegevenstoewijzing wordt nu gestopt. U kunt Campaign Standard API&#39;s gebruiken om de API&#39;s handmatig te activeren.
 
-## De onmiddellijke invoer van gegevenstoewijzing {#starting-immediate-ingestion} starten
+## De onmiddellijke inname van gegevenstoewijzing starten {#starting-immediate-ingestion}
 
 De directe opname van een afbeelding XDM in Adobe Experience Platform wordt teweeggebracht met een POST verrichting:
 
@@ -98,7 +95,7 @@ De verrichting van de POST keert informatie betreffende de gecreeerde verzoeksta
 }
 ```
 
-## De status van een innameverzoek {#retrieving-status} ophalen
+## De status van een innameverzoek ophalen {#retrieving-status}
 
 De status van een innameverzoek kan met een verrichting van de GET en gewenste verzoekidentiteitskaart in de parameters worden teruggewonnen:
 

@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: De database bijwerken met externe data
+title: De database bijwerken met externe gegevens
 description: In dit geval wordt beschreven hoe u profielen aan de Adobe Campaign-database kunt toevoegen of bijwerken met de gegevens uit het bestand.
 audience: automating
 content-type: reference
@@ -10,16 +8,15 @@ context-tags: writer,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2df7fbed-b979-4706-bd56-83f712cc3070
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 32%
+source-wordcount: '106'
+ht-degree: 33%
 
 ---
 
-
-# De database bijwerken met externe data {#update-database-file}
+# De database bijwerken met externe gegevens {#update-database-file}
 
 Het volgende voorbeeld toont de configuratie van een **[!UICONTROL Update data]** activiteit na een **[!UICONTROL Load file]** activiteit. Het doel van deze workflow is om profielen aan de Adobe Campaign-database toe te voegen of bij te werken met de data uit het bestand.
 

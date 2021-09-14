@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Abonnementsservices
 description: Met de activiteit voor abonnementsservices kunt u profielen massaal in- of uitschrijven bij een service.
 audience: automating
@@ -10,16 +8,15 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 97%
+source-wordcount: '1110'
+ht-degree: 98%
 
 ---
 
-
-# Abonnementsservices {#subscription-services}
+# Lidmaatschapsservices {#subscription-services}
 
 ## Beschrijving {#description}
 
@@ -161,4 +158,3 @@ De workflow wordt als volgt weergegeven:
    Het **[!UICONTROL Operation type]** wordt geïdentificeerd als afkomstig van het veld **operation** van het bestand. U kunt hier alleen de velden Boolean of Integer selecteren. Als de kolom van het bestand dat de uit te voeren bewerking bevat, niet in de lijst voorkomt, moet u controleren of u de kolomindeling in de activiteit **[!UICONTROL Load file]** correct hebt ingesteld, zoals eerder in dit voorbeeld wordt uitgelegd.
 
    ![](assets/subscription_activity_example_from_file.png)
-

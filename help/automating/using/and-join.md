@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: AND-join
 description: Met de activiteit AND-join kunt u meerdere uitvoeringstakken van een workflow synchroniseren.
 audience: automating
@@ -10,14 +8,13 @@ context-tags: andjoin,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b03c6df3-0104-4900-9468-46824d62e0a6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 98%
+source-wordcount: '178'
+ht-degree: 100%
 
 ---
-
 
 # AND-join{#and-join}
 
@@ -45,4 +42,3 @@ De activiteit **[!UICONTROL AND-join]** start de uitgaande overgang pas wanneer 
 In het volgende voorbeeld ziet u workflowvertakkingen voordat ze aan de activiteit **[!UICONTROL AND-join]** zijn gekoppeld. Het extraheren van bestanden kan pas plaatsvinden wanneer de drie binnenkomende overgangen van de activiteit **[!UICONTROL AND-join]** zijn ingeschakeld.
 
 ![](assets/wkf_and-join_example.png)
-

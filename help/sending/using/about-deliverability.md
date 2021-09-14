@@ -1,20 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Informatie over leverbaarbaarheid in Adobe Campaign Standard
 description: Leer meer over de concepten en beste praktijken met betrekking tot leverbaarheid evenals de hulpmiddelen die door Adobe Campaign Standard worden aangeboden om het verzenden van uw leveringen te optimaliseren.
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Afleverbaarheid
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 8%
+source-wordcount: '745'
+ht-degree: 7%
 
 ---
 

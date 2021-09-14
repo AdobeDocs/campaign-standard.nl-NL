@@ -1,13 +1,10 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Lijsten aanpassen
 description: '"Leer hoe u de weergave kunt aanpassen en hoe u kunt werken op lijstschermen in Adobe Campaign Standard:elementen sorteren, filteren, verwijderen of dupliceren. De schermen van lijsten tonen elementen van één of verscheidene bepaalde middelen."'
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
-source-git-commit: 434edb8e1c3396ad29edd9ee60866c93e82a2c1b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 9%
@@ -48,10 +45,10 @@ Adobe Campaign-profielen vertegenwoordigen alle contactpersonen die in de databa
 
 **Meer informatie**
 
-* [Profielen](../../audiences/using/about-profiles.md)
+* [Over profielen](../../audiences/using/about-profiles.md)
 * [Het aantal actieve profielen in uw organisatie openen](../../audiences/using/active-profiles.md)
 
-## De database {#populating-database} verrijken
+## De database verrijken {#populating-database}
 
 <img width="60px" alt="voorwaarden" src="assets/icon_populate.svg"/>
 
@@ -67,7 +64,7 @@ Daarnaast kunt u sjablonen instellen voor het importeren van gegevens. Het gebru
 
 * **Gegevenssjablonen** importeren: dit zijn, net als workflowsjablonen, sjablonen die zijn gebaseerd op workflows, die zijn ingesteld om bestanden te uploaden om de database bij te werken. Zodra gevormd, worden zij ter beschikking gesteld aan gebruikers met een vereenvoudigde mening onder **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** menu. Raadpleeg de [specifieke documentatie](../../automating/using/importing-data-with-import-templates.md) voor meer informatie over sjablonen voor importgegevens.
 
-### Gegevens verzamelen van bestemmingspagina&#39;s {#collecting-data-from-landing-pages}
+### Gegevens van bestemmingspagina&#39;s verzamelen {#collecting-data-from-landing-pages}
 
 Openingspagina&#39;s zijn webformulieren die kunnen worden gebruikt om gegevens te verzamelen en bestaande gegevens in uw database te maken of bij te werken. Het beginsel is als volgt:
 
@@ -109,7 +106,7 @@ Met Campaign Standard-API&#39;s kunt u bewerkingen uitvoeren om de database bij 
 * xxxx
 * xxxx
 
-## Uw publiek ordenen {#organizing-audiences}
+## Uw publiek organiseren {#organizing-audiences}
 
 <img width="60px" alt="voorwaarden" src="assets/icon_audience.svg"/>
 

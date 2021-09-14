@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Een privacyaanvraag opvolgen
+title: Een privacyverzoek controleren
 description: Leer hoe u een privacyaanvraag kunt controleren met API's
 audience: developing
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 63864f0f-2c22-4a65-86ae-21897031f30a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '54'
 ht-degree: 25%
 
 ---
 
-
-# Een privacyaanvraag opvolgen {#monitoring-a-privacy-request}
+# Een privacyverzoek controleren {#monitoring-a-privacy-request}
 
 U kunt informatie over een gecreeerd privacyverzoek controleren gebruikend een **GET** verzoek.
 

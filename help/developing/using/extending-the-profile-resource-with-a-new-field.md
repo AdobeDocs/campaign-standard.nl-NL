@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: De profielresource uitbreiden met een nieuw veld
 description: Ontdek hoe u de profielresource kunt uitbreiden.
 audience: developing
@@ -9,16 +7,15 @@ topic-tags: use-cases--extending-resources
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 99%
+source-wordcount: '1022'
+ht-degree: 100%
 
 ---
 
-
-# De profielresource uitbreiden met een nieuw veld{#extending-the-profile-resource-with-a-new-field}
+# De profielbron uitbreiden met een nieuw veld{#extending-the-profile-resource-with-a-new-field}
 
 ## Profielen uitbreiden {#about-extending-profiles}
 
@@ -39,7 +36,7 @@ Het volgende veld wordt aan de profielen toegevoegd en kan in een levering doelg
 
 Verwante onderwerpen:
 
-* [Informatie over aangepaste resources](../../developing/using/data-model-concepts.md)
+* [Informatie over aangepaste bronnen](../../developing/using/data-model-concepts.md)
 * [Profielen beheren](../../audiences/using/about-profiles.md)
 * [Testprofielen beheren](../../audiences/using/managing-test-profiles.md)
 

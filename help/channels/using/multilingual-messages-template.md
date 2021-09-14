@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Sjablonen voor meertalige berichten
 description: Leer hoe u meertalige e-mail- en sms-leveringen definieert en uitvoert via één levering op basis van de voorkeurstaal van uw automatisch gesegmenteerde klanten. Rapporteer over de prestaties van elke levering, inclusief de taal en individuele niveaus.
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Meertalige berichten
+feature: Multilingual Messages
 role: User
 level: Intermediate
 exl-id: 3d869f31-7dfb-4546-aba5-80a2787e00be
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 99%
+source-wordcount: '294'
+ht-degree: 100%
 
 ---
 

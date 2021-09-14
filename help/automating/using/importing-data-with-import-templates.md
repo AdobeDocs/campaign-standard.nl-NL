@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Data importeren met importsjablonen
 description: Leer hoe u data kunt verzamelen om uw Campaign-database te voeden.
 audience: automating
@@ -9,16 +7,15 @@ topic-tags: importing-and-exporting-data
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1090'
 ht-degree: 99%
 
 ---
 
-
-# Data importeren met importsjablonen{#importing-data-with-import-templates}
+# Gegevens importeren met importsjablonen{#importing-data-with-import-templates}
 
 Door data te importeren, kunt u data verzamelen om uw Campaign-database te voeden.
 
@@ -45,7 +42,7 @@ Een importbewerking kan worden gefilterd op basis van de sjabloon vanwaar deze w
 
 De details van de uitvoering van de importbewerking zijn nu beschikbaar. Zowel het bestand dat is geïmporteerd als het bestand met de geweigerde data (data die niet zijn geïmporteerd) kunnen naar de computer worden gedownload.
 
-## Importsjablonen {#setting-up-import-templates} instellen
+## Importsjablonen instellen {#setting-up-import-templates}
 
 Met importsjablonen kan de beheerder een bepaald aantal technische importconfiguraties vooraf definiëren. Deze sjablonen kunnen vervolgens ter beschikking worden gesteld aan standaardgebruikers voor het uitvoeren en uploaden van bestanden.
 

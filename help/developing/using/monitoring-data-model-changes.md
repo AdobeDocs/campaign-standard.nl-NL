@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Wijzigingen in een datamodel controleren
+title: Wijzigingen in een gegevensmodel controleren
 description: Leer hoe u het Adobe Campaign-gegevensmodel kunt diagnosticeren.
 audience: developing
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: about-custom-resources
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ced9a897-47e9-4128-84fb-35660c553cd4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 15%
+source-wordcount: '59'
+ht-degree: 16%
 
 ---
 
-
-# Wijzigingen in een datamodel controleren{#monitoring-data-model-changes}
+# Wijzigingen in een gegevensmodel controleren{#monitoring-data-model-changes}
 
 Met het menu **[!UICONTROL Diagnosis]** kunt u de verschillende technische objecten raadplegen die door de toepassing worden gegenereerd, om deze te analyseren.
 
@@ -30,9 +27,8 @@ Met het menu **[!UICONTROL Diagnosis]** kunt u de verschillende technische objec
 
 U kunt de volgende typen objecten weergeven:
 
-* Dataschema’s
+* Gegevensschema’s
 * Webpagina&#39;s
 * Filters
 * Navigatie
 * Batchtaken
-

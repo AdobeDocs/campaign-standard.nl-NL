@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Aan de slag met het Campaign Standard-datamodel
+title: Aan de slag met het Campaign Standard-gegevensmodel
 description: Verrijk het gegevensmodel van Campaign Standard met douanegebieden en middelen, en breid REST APIs uit om uitgebreide gebieden bloot te stellen.
 audience: automating
 content-type: reference
@@ -10,15 +8,14 @@ feature: Data Model
 role: Developer
 level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
-translation-type: tm+mt
-source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 23%
+source-wordcount: '338'
+ht-degree: 25%
 
 ---
 
-# Aan de slag met het Campaign Standard-datamodel {#get-started-data-model}
+# Aan de slag met het Campaign Standard-gegevensmodel {#get-started-data-model}
 
 <table>
 <tr>
@@ -38,10 +35,10 @@ Met het menu **Diagnose** kunt u de technische objecten weergeven die door Campa
 
 Meer informatie:
 
-* [Concepten van datamodellen](../../developing/using/data-model-concepts.md)
-* [Best practices voor het datamodel](../../developing/using/data-model-best-practices.md)
+* [Concepten van gegevensmodellen](../../developing/using/data-model-concepts.md)
+* [Best practices voor het gegevensmodel](../../developing/using/data-model-best-practices.md)
 * [Beschrijving van het datamodel](../../developing/using/datamodel-introduction.md)
-* [Wijzigingen in een datamodel controleren](../../developing/using/monitoring-data-model-changes.md)
+* [Wijzigingen in een gegevensmodel controleren](../../developing/using/monitoring-data-model-changes.md)
 
 ## Aangepaste bronnen {#custom-resources}
 
@@ -53,7 +50,7 @@ Bovendien kunt u **Campaign Standard REST APIs** uitbreiden om in de APIs uitgeb
 
 Meer informatie:
 
-* [Een resource toevoegen of uitbreiden](../../developing/using/key-steps-to-add-a-resource.md)
+* [Een bron toevoegen of uitbreiden](../../developing/using/key-steps-to-add-a-resource.md)
 * [De API uitbreiden](../../developing/using/about-extending-the-api.md)
 * [Hoofdlettergebruik: De profielbron uitbreiden met een nieuw veld](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
 * [Hoofdlettergebruik: De abonnementen uitbreiden naar een toepassingsbron](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
@@ -67,4 +64,4 @@ Met Campaign Standard APIs, creeer integraties voor Adobe Campaign Standard en b
 ## Aanvullende bronnen
 
 * [Aangepaste resources exporteren en importeren](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
-* [Gegevens exporteren van campagne naar Adobe Experience Platform](../../integrating/using/export-campaign-data.md)
+* [Gegevens exporteren van Campaign naar Adobe Experience Platform](../../integrating/using/export-campaign-data.md)

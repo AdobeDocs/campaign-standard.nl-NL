@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: De integratie van Microsoft Dynamics 365 voor Campaign configureren
 description: Leer hoe te om de Dynamica 365 van Microsoft voor de integratie van de Campagne te vormen.
 audience: integrating
@@ -9,14 +7,13 @@ topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '911'
 ht-degree: 1%
 
 ---
-
 
 # Microsoft Dynamics 365 configureren voor integratie met Adobe Campaign Standard
 
@@ -44,7 +41,7 @@ De volgende video bevat een overzicht van de belangrijkste stappen:
 
 Volg de onderstaande stappen om het toegangstoken OAuth te genereren.
 
-### Nieuwe toepassing {#register-a-new-app} registreren
+### Nieuwe toepassing registreren {#register-a-new-app}
 
 1. Meld u aan bij portal.azure.com onder uw beheerdersaanmelding.
 
@@ -65,7 +62,7 @@ Raadpleeg [deze sectie](https://docs.microsoft.com/en-us/azure/active-directory/
 >
 >Microsoft Azure Directory wijst een unieke toepassings-id (client) toe aan uw app. U zult deze identiteitskaart later in het vormen van Dynamiek 365 nodig hebben, evenals wanneer u de opstelling van het integratiehulpmiddel uitvoert.
 
-### Klantgeheim {#generate-a-client-secret} genereren
+### Klantgeheim genereren {#generate-a-client-secret}
 
 1. Klik in het scherm met het overzicht van de app op **[!UICONTROL Certificates and Secrets > New client secret]** in het submenu links
 
@@ -122,7 +119,7 @@ Deze nieuwe gebruiker is een generieke gebruiker. Deze wordt door de toepassing 
 
 1. Klik op **[!UICONTROL OK]**.
 
-### huurder-id {#get-the-tenant-id} ophalen
+### De huurder-id ophalen {#get-the-tenant-id}
 
 Volg de instructies [op deze pagina](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id) om uw huurder te vinden identiteitskaart  U hebt deze id nodig tijdens de installatie vóór de integratie in het integratieprogramma.
 

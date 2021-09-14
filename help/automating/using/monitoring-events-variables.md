@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Een workflow aanroepen met externe parameters
+title: Een workflow oproepen met externe parameters
 description: In deze sectie wordt beschreven hoe een workflow met externe parameters wordt aangeroepen.
 audience: automating
 content-type: reference
@@ -9,16 +7,15 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 299a617c-0a38-45b5-922c-c23b0926b8c3
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '87'
 ht-degree: 19%
 
 ---
 
-
-# Gebeurtenisvariabelen bewaken {#monitoring-the-events-variables}
+# Gebeurtenisvariabelen controleren {#monitoring-the-events-variables}
 
 Het is mogelijk om de gebeurtenisvariabelen te controleren die in het werkschema, met inbegrip van de gedeclareerde externe parameters beschikbaar zijn. Volg de onderstaande stappen om dit te doen:
 
