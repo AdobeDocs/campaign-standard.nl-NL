@@ -11,7 +11,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '6954'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ Naast [aanvullende informatie](../../rn/using/release-notes.md) van Adobe Campai
 
 **Nieuwe mogelijkheden die in de release zijn opgenomen**
 
-Verbeterde verenigde interface van Experience Cloud - [Lees meer](../../start/using/interface-description.md#top-bar)
+Uniforme Experience Cloud-interface verbeterd - [Meer informatie](../../start/using/interface-description.md#top-bar)
 
-Nieuwe functie Audittrail - [Meer informatie](../../administration/using/audit.md)
+Nieuwe mogelijkheid audit trail - [Meer informatie](../../administration/using/audit.md)
 
-Workflowdiagnostische modus - [Meer informatie](../../automating/using/managing-execution-options.md)
+Diagnostische modus van de workflow - [Meer informatie](../../automating/using/managing-execution-options.md)
 
-**Overige documentatie-updates die bij de release worden geleverd**
+**Overige documentatie-updates van de release**
 
 Er is een nieuwe sectie toegevoegd voor het verwijderen van een adres uit de quarantainelijst. [Meer informatie](../../sending/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-De sectie **Quarantine versus Lijst van gewezen personen** is verduidelijkt. [Meer informatie](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+De sectie **Quarantainelijst versus lijst van afgewezen personen** is verduidelijkt. [Meer informatie](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 
 ## Juli 2021 {#doc-updates-july-2021}
 
@@ -62,7 +62,7 @@ De pagina **Releaseplanning** is bijgewerkt met nieuwe datums. [Meer informatie]
 
 ## April 2021 {#doc-updates-april-2021}
 
-Er is een nieuwe sectie toegevoegd over het werken met Adobe Experience Platform-bronnen en -doelen om gegevens te delen tussen RTCDP (Campaign Standard en Adobe Real-Time Customer Data Platform). [Meer informatie](../../integrating/using/get-started-sources-destinations.md)
+Er is een nieuwe sectie toegevoegd over het gebruik van bronnen en bestemmingen van het Adobe Experience Platform om gegevens te delen tussen Campaign Standard en Adobe Real-time Customer Data Platform (RTCDP). [Meer informatie](../../integrating/using/get-started-sources-destinations.md)
 
 ## Maart 2021 {#doc-updates-march-2021}
 

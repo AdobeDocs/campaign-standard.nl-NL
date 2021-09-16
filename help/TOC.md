@@ -431,7 +431,7 @@ ht-degree: 100%
 + Beheren {#administrating}
    + [Aan de slag met Campaign Standard-beheer](administration/using/get-started-campaign-administration.md)
    + [Controlerichtlijnen](administration/using/monitoring-guidelines.md)
-   + [Audit Trail](administration/using/audit.md)
+   + [Audit trail](administration/using/audit.md)
    + [Configuratierichtlijnen](administration/using/about-configuration-guidelines.md)
    + Gebruikers en beveiliging {#users-and-security}
       + [Informatie over toegangsbeheer](administration/using/about-access-management.md)
