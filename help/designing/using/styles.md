@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 2%
@@ -102,7 +102,7 @@ Voor zowel **[!UICONTROL Padding]** als **[!UICONTROL Margin]**, klik het slotpi
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Achtergrondinstellingen"
->abstract="Met de e-mailontwerper kunt u de achtergrondkleur of achtergrondafbeelding voor uw inhoud personaliseren. Achtergrondafbeelding wordt niet door alle e-mailclients ondersteund."
+>abstract="Met de e-mailontwerper kunt u de achtergrondkleur of achtergrondafbeelding voor uw inhoud aanpassen. Achtergrondafbeelding wordt niet door alle e-mailclients ondersteund."
 >additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="Aanvullende informatie"
 
 Als het gaat om het instellen van achtergronden met de e-mailontwerper, raadt Adobe het volgende aan:

@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1115'
-ht-degree: 91%
+ht-degree: 88%
 
 ---
 
@@ -72,7 +72,8 @@ U kunt deze activiteit gebruiken om data te herstellen die vervolgens met de act
 
 Met het HTTP-protocol kunt u beginnen met het downloaden van een bestand vanaf een extern account of van een URL.
 
-Met dit protocol kunt u de optie **[!UICONTROL Use connection parameters defined in an external account]** kiezen. Selecteer in dit geval het gewenste account en geef het pad op van het bestand dat u wilt downloaden.
+Met dit protocol, kunt u aan optie **[!UICONTROL Use connection parameters defined in an external account]** verkiezen. Selecteer in dit geval het gewenste account en geef het pad op van het bestand dat u wilt downloaden.
+
 ![](assets/wkf_file_transfer_03.png)
 
 U kunt ook de optie **[!UICONTROL Quick configuration]** kiezen. U hoeft de URL alleen in te voeren in het veld URL.
@@ -82,7 +83,7 @@ U kunt ook de optie **[!UICONTROL Quick configuration]** kiezen. U hoeft de URL 
 
 Met het SFTP-protocol kunt u beginnen met het downloaden van een bestand vanaf een URL of een extern account.
 
-Met dit protocol kunt u de optie **[!UICONTROL Use connection parameters defined in an external account]** kiezen, vervolgens het gewenste account selecteren en het pad opgeven van het bestand dat u wilt downloaden.
+Met dit protocol kunt u de optie **[!UICONTROL Use connection parameters defined in an external account]** kiezen, vervolgens de account selecteren die u wilt en het pad opgeven van het bestand dat u wilt downloaden.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]

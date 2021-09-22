@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '2583'
 ht-degree: 3%
@@ -335,7 +335,7 @@ Het e-mailbericht wordt als volgt gemaakt:
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
 >title="Dynamische afbeeldingen beheren"
->abstract="Geef uw e-mailadres een dynamisch beeld op basis van voorwaarden die u definieert."
+>abstract="Pas uw e-mail aan met dynamische afbeeldingen op basis van voorwaarden die u definieert."
 
 In dit voorbeeld wordt de dynamische inhoud die op de afbeeldingen wordt toegepast, als volgt geconfigureerd:
 

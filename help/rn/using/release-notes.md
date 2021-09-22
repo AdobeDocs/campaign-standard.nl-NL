@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1076'
 ht-degree: 100%
 
 ---
@@ -96,7 +96,7 @@ De nieuwe functies, verbeteringen en oplossingen die in de laatste release van C
 
 * Wanneer u een terugkerende levering maakt in een workflow die is gekoppeld aan inhoud van Adobe Experience Manager, wordt de goedkeuringsstatus van de inhoud nu gecontroleerd voordat deze wordt verzonden.
 * De verbindingslimiet voor databases wordt nu uitgelijnd met het Campaign-pakket om verbindingsfouten te voorkomen.
-* Een nieuwe consistentiecontrole in de publicatie van aangepaste bronnen voorkomt dat gebruikers dubbele indexen maken, waardoor de publicatie mislukt. Een verbeterd foutbericht vraagt de gebruiker de naam van de index indien nodig te wijzigen.
+* Een nieuwe consistentiecontrole in de publicatie van aangepaste bronnen voorkomt dat gebruikers dubbele indexen maken, waardoor de publicatie mislukt. Een verbeterd foutbericht vraagt de gebruiker de naam van de index indien nodig te wijzigen. [Meer informatie](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)
 
 **Andere wijzigingen**
 

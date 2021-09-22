@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 3%
@@ -68,7 +68,7 @@ In de onderstaande stappen wordt een stapsgewijze beschrijving van het gebruik b
 
    ![alt-tekst](assets/postman_uc2.png)
 
-1. Wanneer een object is gemaakt, wordt er een primaire sleutel (PKey) aan gekoppeld. Het is zowel zichtbaar in de reactie op het verzoek als in andere kenmerken.
+1. Wanneer een object is gemaakt, wordt er een primaire sleutel (PKey) aan gekoppeld. Het is zichtbaar in de verzoekreactie, evenals andere attributen.
 
    ![alt-tekst](assets/postman_uc3.png)
 

@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 13%
@@ -78,7 +78,7 @@ Met [Sjablonen importeren](../../automating/using/importing-data-with-import-tem
 
 [Bij het exporteren van ](../../automating/using/exporting-logs.md) logbestanden exporteert u loggegevens via een eenvoudige workflow, zodat u de resultaten van uw marketingcampagnes kunt analyseren in uw eigen rapportage- of BI-programma&#39;s.
 
-Gebruik [Pakketten](../../automating/using/managing-packages.md) aan uitwisselingsmiddelen tussen verschillende campagneinstanties, bijvoorbeeld, om de configuratie van een instantie te herhalen, of gegevens over te brengen van een server aan een andere met inbegrip van douanemiddelen.
+Gebruik [Pakketten](../../automating/using/managing-packages.md) om middelen tussen verschillende campagneinstanties, bijvoorbeeld, te ruilen om de configuratie van een instantie te herhalen, of gegevens over te brengen van een server aan een andere met inbegrip van douanemiddelen.
 
 Tot slot [Met het exporteren van lijsten](../../automating/using/exporting-lists.md) kunt u elke lijst uit Campaign Standard exporteren, zoals bijvoorbeeld de lijst met testprofielen, de lijst met e-mailadressen in quarantaine, enzovoort.
 

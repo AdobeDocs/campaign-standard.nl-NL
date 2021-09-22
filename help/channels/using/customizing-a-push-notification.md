@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1500'
 ht-degree: 97%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 Als u uw pushmelding wilt verfijnen, kunt u in Adobe Campaign een aantal geavanceerde opties gebruiken tijdens het ontwerpen van de melding.
 
-Deskundige gebruikers kunnen voor het configureren van mobiele applicaties in Adobe Campaign de volgende technote raadplegen: [Understanding Campaign Standard Push Notifications Payload Structure](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html).
+Deskundige gebruikers kunnen voor het configureren van mobiele applicaties in Adobe Campaign de volgende technote raadplegen: [Understanding Campaign Standard Push Notifications Payload Structure](../../administration/using/push-payload.md).
 
 ![](assets/push_notif_advanced.png)
 
@@ -150,7 +150,7 @@ Rich media opnemen in de pushmelding:
 1. Open de pushmelding en ga naar de sectie **[!UICONTROL Advanced options]**.
 1. Voer in het veld **[!UICONTROL Rich media content URL]** de URL van het bestand in voor elke indeling: iOS en Android.
 
-   Voor iOS 10 of hoger kunt u afbeeldings-, GIF-, audio- en videobestanden invoegen. Voor eerdere iOS-versies wordt de pushmelding weergegeven zonder rich content. Raadpleeg deze [pagina](https://helpx.adobe.com/campaign/kb/display-image-push.html) voor gedetailleerde stappen over het weergeven van een afbeelding vanuit een pushmelding voor Adobe Campaign op een iOS-apparaat.
+   Voor iOS 10 of hoger kunt u afbeeldings-, GIF-, audio- en videobestanden invoegen. Voor eerdere iOS-versies wordt de pushmelding weergegeven zonder rich content. Raadpleeg deze [pagina](../../administration/using/image-push-notification.md) voor gedetailleerde stappen over het weergeven van een afbeelding vanuit een pushmelding voor Adobe Campaign op een iOS-apparaat.
 
    Voor Android kunt u alleen afbeeldingen opnemen.
 

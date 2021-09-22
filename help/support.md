@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 87e91e169fedf962471f82754b1d40a14e5fc32a
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 100%
+source-wordcount: '585'
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ Krijg ondersteuning via onze veelgestelde vragen, best practices, online hulpbro
         <li><a href="automating/using/monitoring-workflow-execution.md#error-management">Foutbeheer in workflows</a></li>
         <li><a href="automating/using/best-practices-workflows.md">Problemen met het uitvoeren van workflows oplossen</a></li>
         <li><a href="api/using/troubleshooting.md">API-problemen oplossen</a></li>
-        <li><a href="sending/using/understanding-delivery-failures.md">Problemen met verzendingen begrijpen</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">Leveringsfouten begrijpen</a></li>
         </ul>
     </td>
    <td valign="top">
@@ -72,7 +72,7 @@ Krijg ondersteuning via onze veelgestelde vragen, best practices, online hulpbro
         <li><a href="start/using/privacy-management.md">Privacy- en toestemmingsbeheer</a></li>
         <li><a href="automating/using/query.md">Een query ontwerpen</a></li>
         <li><a href="automating/using/query-samples.md">Voorbeelden van query’s</a></li>
-        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">Mobiele kanalen configureren</a></li>
+        <li><a href="administration/using/push-tracking.md">Mobiele kanalen configureren</a></li>
         </ul>
     </td>
     </tr>
@@ -119,7 +119,7 @@ Het nieuwe ticketingsysteem loopt via de [Adobe Admin Console](https://admincons
 
 ### Vraag het de experts.
 
-Word lid van de Campaign Classic-community: zoek naar antwoorden in bestaande vragen of stel uw vraag aan de community. [Deelnemen aan het gesprek](https://experienceleaguecommunities.adobe.cadobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Word lid van de Campaign Classic-community: zoek naar antwoorden in bestaande vragen of stel uw vraag aan de community. [Deelnemen aan het gesprek](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Een ticket maken of een chat starten
 
@@ -127,4 +127,4 @@ U kunt een ticket maken om contact op te nemen met de Adobe-klantenondersteuning
 
 Als u een probleem wilt melden of een chatsessie wilt starten in dat nieuwe systeem, maakt u verbinding met de [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Volg de gedetailleerde procedure die op [deze pagina](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) wordt beschreven.
+Volg de gedetailleerde procedure die in [deze pagina](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) wordt beschreven.

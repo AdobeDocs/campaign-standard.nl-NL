@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '6954'
-ht-degree: 100%
+source-wordcount: '6933'
+ht-degree: 99%
 
 ---
 
@@ -204,7 +204,7 @@ De overzichtspagina van Campaign Standard is uitgebreid en opnieuw ingedeeld vol
 
 De sectie E-mailkanaalparameters is verder verduidelijkt met informatie over de toegestane maskervelden en de id van de leveringsrapporten. [Meer informatie](../../administration/using/configuring-email-channel.md)
 
-De hulp bij het configureren van een mobiele app met Adobe Experience Platform-SDK’s is nu beschikbaar in de kerndocumentatie en bevat meer informatie over de technische workflow voor het synchroniseren van de mobiele app AEPSDK in Launch. [Meer informatie](../../administration/using/configuring-a-mobile-application.md)
+Het configureren van een mobiele toepassing met Adobe Experience Platform SDK&#39;s is nu beschikbaar in de kerndocumentatie met meer informatie over de technische workflow voor het synchroniseren van mobiele app AEPSDK vanuit Launch. [Meer informatie](../../administration/using/configuring-a-mobile-application.md)
 
 ## Release 20.3 - mei 2020 {#release-20-3---may-2020}
 
@@ -572,9 +572,9 @@ Er is een gebruiksscenario toegevoegd over het uitbreiden van de aangepaste reso
 
 Er is informatie toegevoegd over het koppelen van aangepaste resources. [Meer informatie](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
-Er is een nieuwe technische opmerking toegevoegd over het weergeven van een afbeelding vanaf een pushmelding in Adobe Campaign Standard. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/push-notifications/image-push-notification.html)
+Er is een nieuwe technische opmerking toegevoegd over het weergeven van een afbeelding vanaf een pushmelding in Adobe Campaign Standard. [Meer informatie](../../administration/using/image-push-notification.md)
 
-Er is een nieuwe technische opmerking toegevoegd over de implementatie van historypushtracering. [Meer informatie](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/push-notifications/push-tracking.html)
+Er is een nieuwe technische opmerking toegevoegd over de implementatie van historypushtracering. [Meer informatie](../../administration/using/push-tracking.md)
 
 De lijst met foutberichten voor Campaign Standard en Classic is bijgewerkt. [Meer informatie](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
@@ -862,7 +862,7 @@ De sectie over aangepaste resources is verduidelijkt en bevat nu een meer gedeta
 
 De [technische opmerking](https://helpx.adobe.com/nl/campaign/kb/integrate-mobile-sdk.html) over de integratie van de Adobe Marketing Cloud Mobile SDK met een mobiele app om Adobe Campaign Standard-pushmeldingen te ontvangen, is bijgewerkt en verduidelijkt.
 
-Er is een technische opmerking toegevoegd over de structuur van de payload die in een mobiele app is ontvangen. [Meer informatie.](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/push-notifications/push-payload.html)
+Er is een technische opmerking toegevoegd over de structuur van de payload die in een mobiele app is ontvangen. [Meer informatie.](../../administration/using/push-payload.md)
 
 De [sectie](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) over de configuratie van pushkanalen is bijgewerkt met nieuwe payloaddata over de versie van het besturingssysteem die moeten worden toegevoegd wanneer terugpostbewerkingen worden gedefinieerd in de Adobe Mobile Services-interface.
 

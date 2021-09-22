@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '711'
 ht-degree: 75%
 
 ---
@@ -49,7 +49,7 @@ Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, le
    <td> Adobe Experience Manager<br /> </td> 
    <td> Hiermee kunt u rechtstreeks in Adobe Experience Manager e-mailcontent of formulieren maken die worden toegewezen aan de Adobe Campaign-database.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Werken met campagne en Experience Manager</a>, Experience Manager en Campaign Standard  <a href="https://helpx.adobe.com/nl/experience-manager/6-4/sites/administering/using/campaignstandard.html">integreren</a>, een e-mail  <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">maken met Experience Manager en campagne</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Werken met campagne en Experience Manager</a>, Experience Manager en Campaign Standard  <a href="https://helpx.adobe.com/nl/experience-manager/6-4/sites/administering/using/campaignstandard.html">integreren</a>, een e-mail  <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">maken met Experience Manager en campagne</a> 
     </td> 
   </tr> 
   <tr> 

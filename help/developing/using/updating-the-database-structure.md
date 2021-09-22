@@ -9,10 +9,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 99%
+source-wordcount: '779'
+ht-degree: 93%
 
 ---
 
@@ -46,6 +46,10 @@ De database moet worden bijgewerkt om de wijzigingen toe te passen die in de bro
    Zie [Een bron met API-extensie publiceren](#publishing-a-resource-with-api-extension) voor meer informatie over de op de Profiles &amp; Services-API uit te voeren actie.
 
    ![](assets/schema_extension_13.png)
+
+   >[!NOTE]
+   >
+   >Aangezien dubbele indexen publicatie om veroorzaken te ontbreken, controleert de voorbereidingsstap of de index die voor het middel wordt bepaald reeds met de zelfde naam voor een andere middel bestaat. Als dit gebeurt, wordt een foutenmelding getoond, vragend u om de index anders te noemen. Zie [Indexen definiëren](configuring-the-resource-s-data-structure.md#defining-indexes).
 
 1. Klik na het uitvoeren van de publicatie op de knop **[!UICONTROL Publish]** om de nieuwe configuraties toe te passen.
 1. Na publicatie toont het **[!UICONTROL Summary]** deelvenster van elke bron de actieve status **[!UICONTROL Published]** en de datum van de laatste publicatie.

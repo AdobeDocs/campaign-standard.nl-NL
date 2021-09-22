@@ -8,7 +8,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '2696'
 ht-degree: 0%
@@ -159,7 +159,7 @@ Als `DELIVER_SM PDU` niet met succes wordt erkend, dan zou u het volgende moeten
 
 Als u alles hebt gecorrigeerd, maar een aantal ongeldige SR nog steeds in de buffers van de provider staan, kunt u deze overslaan met de optie **Ongeldige id bevestigt aantal**. Dit dient met voorzichtigheid te worden gebruikt en zo snel mogelijk na het schoonmaken van de buffers op 0 te worden ingesteld.
 
-## Probleem bij verwerking MO (en zwarte lijst/automatisch antwoord){#issue-process-MO}
+## Probleem bij verwerking MO (en lijst van gewezen personen/automatisch antwoord){#issue-process-MO}
 
 * SMPP-sporen inschakelen tijdens tests. Als u TLS niet toelaat, zou u een netwerk moeten doen vangt wanneer het oplossen van problemenMO om te controleren dat PDUs de correcte informatie bevatten en behoorlijk geformatteerd zijn.
 

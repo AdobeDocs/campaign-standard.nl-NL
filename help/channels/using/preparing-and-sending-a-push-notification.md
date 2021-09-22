@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 9%
+source-wordcount: '852'
+ht-degree: 8%
 
 ---
 
@@ -62,7 +62,7 @@ De stappen voor het maken van een pushmelding met Adobe Campaign zijn:
 
    ![](assets/push_notif_content.png)
 
-   De inhoud en opties van de pushmelding die hier zijn geconfigureerd, worden doorgegeven aan uw mobiele app in de vorm van een payload. De gedetailleerde structuur van de lading wordt beschreven in [Het begrip van de structuur van de de duw- berichten van de Campaign Standard lading](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/push-notifications/push-payload.html) technologie.
+   De inhoud en opties van de pushmelding die hier zijn geconfigureerd, worden doorgegeven aan uw mobiele app in de vorm van een payload. De gedetailleerde structuur van de lading wordt beschreven in [Het begrip van de structuur van de de duw- berichten van de Campaign Standard lading](../../administration/using/push-payload.md) technologie.
 
 1. Klik op **[!UICONTROL Create]**.
 

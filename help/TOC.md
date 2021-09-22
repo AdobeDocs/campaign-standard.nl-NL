@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken. '
 title: 'Campaign Standard-handleiding '
 breadcrumb-title: Documentatie voor Adobe Campaign Standard
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 34270a2caff0932b56d00ccf721bdba87eb61f81
 workflow-type: tm+mt
-source-wordcount: '1792'
-ht-degree: 100%
+source-wordcount: '1797'
+ht-degree: 99%
 
 ---
 
@@ -77,6 +77,7 @@ ht-degree: 100%
       + [Berichten openen](channels/using/accessing-messages.md)
       + [Berichtdashboard](channels/using/message-dashboard.md)
       + [Sjablonen voor meertalige berichten](channels/using/multilingual-messages-template.md)
+      + [Aan de slag met mobiele kanalen](channels/using/mobile-guide.md)
    + Best practices voor leveringen {#delivery-bestpractices}
       + [Tips en trucs leren](sending/using/delivery-best-practices.md)
       + [Levering optimaliseren](sending/using/optimize-delivery.md)

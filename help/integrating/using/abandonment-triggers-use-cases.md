@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -81,7 +81,7 @@ In Adobe Campaign moet u een trigger maken die gekoppeld is aan de trigger die u
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. Als u de berichtsjabloon wilt weergeven, klikt u op de knop **[!UICONTROL More]** in de rechterbovenhoek en vervolgens klikt u op **[!UICONTROL Trigger Transactional Template]**.
+1. Als u de berichtsjabloon wilt weergeven, klikt u op de knop **[!UICONTROL More]** rechtsboven en vervolgens op **[!UICONTROL Trigger Transactional Template]**.
 
 1. Pas de content en de data van de afzender aan.
 

@@ -9,7 +9,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 6%
@@ -34,7 +34,7 @@ Verschillende factoren kunnen de serverprestaties rechtstreeks beïnvloeden en h
 
 * De [workflowuitvoering](../../automating/using/about-workflow-execution.md): het controleren van uw workflows is essentieel om problemen met de prestaties van het platform te voorkomen. Volg de richtlijnen [op deze pagina](../../automating/using/monitoring-workflow-execution.md). Meer informatie vindt u in de sectie [best practices voor workflows](../../automating/using/best-practices-workflows.md).
 
-* U kunt [Mogelijkheden van het Configuratiescherm van de Campagne gebruiken](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) om uw platform te controleren, gebruikend [prestaties controle](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html) functionaliteiten.
+* U kunt [Campagne de mogelijkheden van het Controlebord](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) gebruiken om uw platform te controleren, gebruikend [prestaties controle](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html) functionaliteit.
 
 ## Netwerkconfiguratie controleren {#network-config}
 

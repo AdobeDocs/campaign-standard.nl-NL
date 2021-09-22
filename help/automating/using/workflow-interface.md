@@ -9,7 +9,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 4%
@@ -149,7 +149,7 @@ Voer de volgende stappen uit om een activiteit te dupliceren:
 
 1. De activiteit wordt gedupliceerd, met alle montages die aanvankelijk zijn gevormd.
 
-Het is ook mogelijk om meerdere activiteiten te kopiëren en te plakken, zodat u een volledige werkstroom kunt dupliceren.
+Het is ook mogelijk om veelvoudige activiteiten te kopiëren-kleven, toelatend u om een volledige werkstroom te dupliceren.
 
 U doet dit door de activiteiten te selecteren door er een zone omheen te tekenen. Klik vervolgens op de knop **[!UICONTROL Copy selection]** op de actiebalk (of druk op **Ctrl + C**). U kunt ze vervolgens op de gewenste locatie plakken.
 

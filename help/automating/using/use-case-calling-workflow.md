@@ -1,6 +1,6 @@
 ---
 title: Een workflow oproepen met externe parameters
-description: In deze sectie wordt beschreven hoe een workflow met externe parameters wordt aangeroepen.
+description: In deze sectie wordt beschreven hoe u een workflow met externe parameters kunt aanroepen.
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 1%
@@ -37,7 +37,7 @@ Alvorens de werkschema&#39;s te vormen, moet u Werkschema 1 en 2 met een **[!UIC
 
 Maak een API vraag om Werkstroom 1 met parameters teweeg te brengen. Raadpleeg de documentatie [Campaign Standard REST API&#39;s](../../api/using/triggering-a-signal-activity.md) voor meer informatie over de API-aanroepsyntaxis.
 
-In ons geval willen we de workflow met de volgende parameters oproepen:
+In ons geval willen we de workflow met de volgende parameters bellen:
 
 * **fileToTarget**: de naam van het bestand dat we in de database willen importeren.
 * **kortingDesc**: de beschrijving die wij in de levering voor de korting willen tonen.

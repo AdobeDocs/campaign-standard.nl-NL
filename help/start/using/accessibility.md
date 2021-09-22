@@ -8,10 +8,10 @@ feature: Campaigns
 role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '650'
+ht-degree: 88%
 
 ---
 
@@ -87,38 +87,38 @@ De taal wordt ingesteld bij de installatie en kan daarna niet worden meer gewijz
 
 ### Startpagina {#homepage-shortcuts}
 
-| Sneltoets | Actie |
-|:-:|:-:|
-| Tab | Navigeren door afzonderlijke elementen van de gebruikersinterface |
-| Enter of spatiebalk | Het geselecteerde item activeren |
+| Actie | Sneltoets |
+| --- | --- |
+| Navigeren door afzonderlijke elementen van de gebruikersinterface | Tab |
+| Het geselecteerde item activeren | Enter of Spatiebalk |
 
 ### E-mailontwerper {#email-designer-shortcuts}
 
-| Sneltoets | Actie |
-|:-:|:-:|
-| Ctrl + Z | Ongedaan maken |
-| Ctrl + Y | Opnieuw |
+| Actie | Windows-sneltoets | macOS-sneltoets |
+| --- | --- | --- |
+| Ongedaan maken | Ctrl + Z | Command + Z |
+| Opnieuw | Ctrl + Y | Shift + Command + Z |
 
 ### Dynamische rapporten {#report-shortcuts}
 
-| Sneltoets | Actie |
-|:-:|:-:|
-| Ctrl + O | Project openen |
-| Ctrl + S | Opslaan |
-| Shift + Ctrl + S | Opslaan als |
-| Alt + R | Project vernieuwen |
-| Shift + Ctrl + V | CSV downloaden |
-| Alt + P | Afdrukken |
-| Ctrl + Z | Ongedaan maken |
-| Ctrl + Shift + Z | Opnieuw |
-| Alt + B | Nieuw leeg deelvenster |
-| Alt + A | Nieuwe vrije vorm |
-| Alt + 1 | Nieuwe vrije-vormlijst |
-| Alt + 2 | Nieuwe regel |
-| Alt + 3 | Nieuwe balk |
-| Alt + S | Rapport nu verzenden |
-| Shift + Alt + S | Rapport verzenden volgens planning |
-| Shift = Alt + L | Geplande rapporten |
+| Actie | Windows-sneltoets | macOS-sneltoets |
+| --- | --- | --- |
+| Een project openen | Ctrl + O | Command + O |
+| Opslaan | Ctrl + S | Command + S |
+| Opslaan als | Shift + Ctrl + S | Shift + Command + S |
+| Project vernieuwen | Alt + R | Command + R |
+| CSV-bestand downloaden | Shift + Ctrl + V | Shift + Command + V |
+| Afdrukken | Alt + P | Command + P |
+| Ongedaan maken | Ctrl + Z | Command + Z |
+| Opnieuw | Ctrl + Y | Shift + Command + Z |
+| Nieuw leeg deelvenster | Alt + B | Option + B |
+| Nieuwe vrije vorm | Alt + A | Option + A |
+| Nieuwe vrije-vormlijst | Alt + 1 | Option + 1 |
+| Nieuwe regel | Alt + 2 | Option + 2 |
+| Nieuwe balk | Alt + 3 | Option + 3 |
+| Rapport nu verzenden | Alt + S | Option + S |
+| Rapport verzenden volgens planning | Shift + Alt + S | Shift + Option + S |
+| Geplande rapporten | Shift + Alt + L | <!-- Should be 'Shift + Option + L ' but does not work on Mac --> |
 
 ## Meer informatie {#further-reading}
 
