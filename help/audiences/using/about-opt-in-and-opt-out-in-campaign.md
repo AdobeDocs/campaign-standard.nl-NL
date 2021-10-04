@@ -8,10 +8,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 9%
+source-wordcount: '223'
+ht-degree: 8%
 
 ---
 
@@ -27,6 +27,6 @@ Opt-outprofielen worden automatisch uitgesloten tijdens de leveringsanalyse om l
 
 >[!NOTE]
 >
->Uitschakelen is van toepassing op **Profielen**, in tegenstelling tot quarantaine die is gekoppeld aan een **e-mailadres** of **telefoonnummer**. Als u een profiel uitschakelt, worden dus alle adressen waaraan het profiel is gekoppeld, van de levering uitgesloten. Als een gebruiker echter twee profielen in de database heeft, worden de leveringen nog steeds op hem gericht, omdat slechts een van zijn profielen is uitgeschakeld. Om ervoor te zorgen al zijn adressen worden uitgesloten, voeg hen aan de quarantined adressen toe. Raadpleeg [deze pagina](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform) voor meer informatie.
+>Uitschakelen is van toepassing op **Profielen**, in tegenstelling tot quarantaine die is gekoppeld aan een **e-mailadres** of **telefoonnummer**. Als u een profiel uitschakelt, worden dus alle adressen waaraan het profiel is gekoppeld, van de levering uitgesloten. Als een gebruiker echter twee profielen in de database heeft, wordt deze gebruiker nog steeds geactiveerd door leveringen omdat slechts een van zijn profielen is uitgeschakeld. Om ervoor te zorgen al zijn adressen worden uitgesloten, voeg hen aan de quarantined adressen toe. Raadpleeg [deze pagina](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform) voor meer informatie.
 
 Raadpleeg [deze pagina](../../audiences/using/about-subscriptions.md) voor meer informatie over abonnementen op services.

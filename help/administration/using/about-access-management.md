@@ -8,10 +8,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ Rollen, groepen en organisatorische eenheden kunnen worden beheerd door de funct
 
 ![](assets/user_management_1.png)
 
-Gebruikers worden beheerd in de beheerconsole (raadpleeg de sectie [Groepen en gebruikers beheren](../../administration/using/managing-groups-and-users.md) of de [Documentatie bij de beheerconsole](https://helpx.adobe.com/enterprise/managing/user-guide.html)).
+Gebruikers worden beheerd in de Admin Console (raadpleeg de sectie [Groepen en gebruikers beheren](../../administration/using/managing-groups-and-users.md) of de documentatie [Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html)).
 
 ![](assets/user_management_6.png)
 

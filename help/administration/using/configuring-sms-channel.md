@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 95%
+source-wordcount: '1563'
+ht-degree: 93%
 
 ---
 
@@ -56,9 +56,9 @@ Als u het SMPP-protocol wilt gebruiken, kunt u ook een nieuw extern account make
 
    U kunt de maximale doorvoer van uitgaande berichten (‘MT’ of Mobile Terminated) in MT per seconde specificeren. Als u ‘0’ invoert in het overeenkomstige veld, is de doorvoer onbeperkt.
 
-   De waarden van alle velden die corresponderen met een tijdsduur, moeten in seconden worden ingevuld.
+   De waarden van alle velden die overeenkomen met de duur, moeten in seconden worden ingevuld.
 
-1. Definieer de specifieke parameters voor SMSC wanneer u een specifieke coderingstoewijzing moet definiëren. Raadpleeg de sectie met [SMSC-specificaties](#smsc-specifics) voor meer informatie.
+1. Definieer de specifieke parameters voor SMS-C voor het geval u een specifieke coderingstoewijzing moet definiëren. Raadpleeg de sectie met [SMSC-specificaties](#smsc-specifics) voor meer informatie.
 
    Schakel de optie **[!UICONTROL Send full phone number (send characters other than digits)]** in als u het SMPP-protocol niet wilt naleven en het voorvoegsel **[!UICONTROL +]** wilt overdragen naar de server van de sms-provider (SMSC).
 

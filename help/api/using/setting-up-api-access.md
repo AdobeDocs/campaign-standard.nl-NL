@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 1%
@@ -21,14 +21,14 @@ Adobe Campaign Standard API-toegang wordt ingesteld via de onderstaande stappen.
 
 >[!IMPORTANT]
 >
->Als u certificaten in Adobe IO wilt beheren, moet u <b>Systeembeheerder</b> rechten hebben op de organisatie of een [ontwikkelingsaccount](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a> in de beheerconsole.
+>Als u certificaten in Adobe IO wilt beheren, moet u <b>Systeembeheerder</b> rechten hebben op de organisatie of een [ontwikkelingsaccount](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a> in de Admin Console.
 
 1. **Controleer of u een digitaal certificaat** hebt of maak er zo nodig een. De openbare en persoonlijke sleutels die van het certificaat worden voorzien zijn vereist in de volgende stappen.
 1. **Creeer een nieuwe integratie aan de Dienst van Adobe Campaign** in Adobe IO en vorm het. Uw referenties worden vervolgens gegenereerd (API-sleutel, clientgeheim...).
 1. **Maak een JSON Web Token (JWT)** van de eerder gegenereerde referenties en onderteken deze met uw persoonlijke sleutel. De JWT codeert alle identiteits- en beveiligingsgegevens die Adobe nodig heeft om uw identiteit te verifiëren en u toegang tot de API te verlenen.
 1. **Wisselt uw JWT voor een** Tokenthrough van de Toegang door een verzoek van de POST. Dit toegangstoken moet worden gebruikt in elke header van uw API-aanvragen.
 
-Om een veilige dienst-aan-dienst Adobe I/O API zitting tot stand te brengen, moet elk verzoek aan de dienst van de Adobe in de kopbal van de Vergunning de informatie hieronder omvatten.
+Om een veilige service-to-service Adobe I/O API-sessie tot stand te brengen, moet elke aanvraag naar een Adobe-service de onderstaande informatie bevatten in de machtigingheader.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \

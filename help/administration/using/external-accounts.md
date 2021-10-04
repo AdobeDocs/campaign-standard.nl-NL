@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 84%
+source-wordcount: '1763'
+ht-degree: 81%
 
 ---
 
@@ -141,7 +141,7 @@ De externe accounts van Adobe Experience Manager worden gebruikt bij de integrat
 
 De processen en vereisten met betrekking tot deze integratie zijn beschikbaar in [dit document](../../integrating/using/get-started-campaign-integrations.md).
 
-Wanneer u dit nieuwe externe account instelt, moet u de volgende data opgeven:
+Wanneer u deze nieuwe externe account instelt, moet u de volgende gegevens opgeven:
 
 * Server: Voer de URL van de Adobe Experience Manager-server in. Bijvoorbeeld:
 
@@ -157,9 +157,9 @@ Wanneer u dit nieuwe externe account instelt, moet u de volgende data opgeven:
 >
 >Voor de Google reCAPTCHA-configuratie is een Google-account vereist.
 
-Met het Google reCAPTCHA-mechanisme kunt u uw landingspagina beschermen tegen spam en misbruik door bots. Dit is niet opdringerig voor uw klanten omdat het geen enkele interactie van hen vereist en gebaseerd is op interacties met uw site. Raadpleeg deze [pagina](https://www.google.com/recaptcha/admin/create) om uw site te registreren. Kies het type V3 reCAPTCHA.
+Met het Google reCAPTCHA-mechanisme kunt u uw landingspagina beschermen tegen spam en misbruik door bots. Dit is niet opdringerig voor uw klanten omdat het geen enkele interactie van hen vereist en gebaseerd is op interacties met uw site. Raadpleeg deze [pagina](https://www.google.com/recaptcha/admin/create) om uw site te registreren. U moet het type V3 reCAPTCHA kiezen.
 
-Om Google reCAPTCHA V3 aan uw landingspagina toe te voegen, moet u deze eerst in uw externe account configureren. Raadpleeg deze [sectie](../../channels/using/configuring-landing-page.md#setting-google-recaptcha) voor meer informatie over het toevoegen van reCAPTCHA V3 aan de landingspagina.
+Als u de aanvoerpagina van Google reCAPTCHA V3 aan u wilt toevoegen, configureert u deze in uw externe account. Raadpleeg deze [sectie](../../channels/using/configuring-landing-page.md#setting-google-recaptcha) voor meer informatie over het toevoegen van reCAPTCHA V3 aan de landingspagina.
 
 Geef voor een extern Google reCAPTCHA V3-account de volgende data op:
 
@@ -186,7 +186,7 @@ Geef de volgende data op voor een extern account voor Microsoft Azure Blob-opsla
 * **[!UICONTROL Type]**: Microsoft Azure Blob-opslag
 * Uw **[!UICONTROL Account name]** en **[!UICONTROL Account key]**. Als u wilt weten waar u de naam en sleutel van uw account vindt, raadpleeg dan deze [pagina](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
 * Uw **[!UICONTROL Endpoint suffix]**. Deze staat in de **[!UICONTROL Connection string]** van het menu **[!UICONTROL Access keys]** in de Azure Portal. Raadpleeg [deze pagina](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage) voor meer informatie.
-* Uw **[!UICONTROL Container]**-naam. Als u van plan bent om meer dan één container te gebruiken, moet u evenveel externe accounts aanmaken als containers.
+* Uw **[!UICONTROL Container]**-naam. Als u meerdere containers wilt gebruiken, maakt u zoveel externe accounts als containers.
 * Met de optie **[!UICONTROL Concurrency]** kunt u de snelheid van de bestandsoverdracht afstemmen.
 
 ![](assets/external_accounts_4.png)

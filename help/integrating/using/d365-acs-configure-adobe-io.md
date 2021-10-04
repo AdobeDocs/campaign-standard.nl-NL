@@ -7,20 +7,19 @@ topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ab21b694-d05c-4ba4-b828-936803651b82
+source-git-commit: 7c34df594d4f649f259fb7edd946477f7b8d92d7
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '626'
 ht-degree: 2%
 
 ---
-
 
 # Adobe Campaign Standard en de Configuratie van de Adobe I/O voor de Integratie van de Dynamica 365 van Microsoft
 
 Dit artikel zal verklaren hoe te om Adobe Campaign Standard en Adobe I/O te vormen om de integratietoepassing toegang tot de gegevens te geven.
 
-## Adobe Campaign Standard {#campaign-standard} configureren
+## Adobe Campaign Standard configureren {#campaign-standard}
 
 ### Profielextensies
 
@@ -50,7 +49,7 @@ U zult een nieuw project van Adobe IO moeten creëren en het voor de integratie 
 
 Hiervoor volgt u de onderstaande procedure:
 
-1. Navigeer naar [Adobe IO Console](https://console.adobe.io/home#) en selecteer uw Adobe IMS Organisatie-id in het keuzemenu rechtsboven in het scherm.
+1. Navigeer naar [Adobe IO Console](https://console.adobe.io/home#) en selecteer uw Adobe IMS Organisatie-id in het vervolgkeuzemenu rechtsboven in het scherm.
 
 1. Klik vervolgens onder **[!UICONTROL Create new project]** onder **[!UICONTROL Quick Start]**.
 
@@ -92,7 +91,7 @@ Nadat u het bestand hebt gedownload, kunt u het uitpakken om de openbare en pers
 
 1. Klik op **[!UICONTROL Save the configured API]** in het volgende scherm.  U wordt teruggebracht naar het scherm met projectdetails.
 
-1. Klik nu **[!UICONTROL Add to Project]** bij de bovenkant verlaten van het scherm en selecteer **API** van de drop-down, aangezien u eerder deed.
+1. Klik nu **[!UICONTROL Add to Project]** bij top-left van het scherm en selecteer **API** van de drop-down, zoals u eerder deed.
 
 1. In het volgende scherm moet u de API voor I/O-beheer selecteren en op **[!UICONTROL Next]** klikken.
 

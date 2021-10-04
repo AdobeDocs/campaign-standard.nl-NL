@@ -9,10 +9,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 84%
+source-wordcount: '231'
+ht-degree: 80%
 
 ---
 
@@ -30,10 +30,10 @@ Standaardrechten zijn:
 
    >[!NOTE]
    >
-   >Als u met de Triggers van de Experience Cloud moet werken, zult u **[!UICONTROL Administration]** recht nodig hebben om tot het menu van de Triggers van de Experience Cloud toegang te hebben. Raadpleeg deze [pagina](../../integrating/using/about-adobe-experience-cloud-triggers.md) voor meer informatie over Experience Cloud-triggers.
+   >Als u met de Triggers van de Experience Cloud werkt, hebt u **[!UICONTROL Administration]** recht nodig om tot het menu van de Triggers van de Experience Cloud toegang te hebben. Raadpleeg deze [pagina](../../integrating/using/about-adobe-experience-cloud-triggers.md) voor meer informatie over Experience Cloud-triggers.
 
 * **[!UICONTROL Datamodel]**: Recht om publicaties uit te voeren en aangepaste bronnen te maken.
-* **[!UICONTROL Generic import]**: Recht om een generieke import op data uit te voeren. Dit werkt alleen als u de rol **[!UICONTROL Generic import]** aan de rol **[!UICONTROL Workflow]** koppelt.
+* **[!UICONTROL Generic import]**: Recht om een generieke import op data uit te voeren. Dit werkt alleen als u de rol **[!UICONTROL Generic import]** koppelt aan de rol **[!UICONTROL Workflow]**.
 * **[!UICONTROL Prepare deliveries]**: Recht om leveringen te maken, te wijzigen, voor te bereiden en te verwijderen. Gebruikers met deze rol kunnen de levering voorbereiden, maar niet verzenden.
 * **[!UICONTROL Start deliveries]**: Recht om leveringen te maken, te wijzigen, voor te bereiden, te verzenden en te verwijderen.
 * **[!UICONTROL Workflow]**: Recht om de uitvoering van workflows te beheren (starten, stoppen, pauzeren, enz.). Gebruikers met deze rol kunnen zelfs in een workflow geen levering verzenden.

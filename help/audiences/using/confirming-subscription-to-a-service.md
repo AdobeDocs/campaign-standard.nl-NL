@@ -8,10 +8,10 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 96%
+source-wordcount: '1315'
+ht-degree: 90%
 
 ---
 
@@ -116,11 +116,11 @@ De bevestigings-e-mail is een transactioneel bericht gebaseerd op de gebeurtenis
 
 1. Klik op **[!UICONTROL Confirm]** en sla de service op.
 
-Telkens wanneer een profiel zich inschrijft voor deze service, ontvangt dit nu het transactionele bericht dat u hebt gedefinieerd, met gepersonaliseerde velden die aan de geselecteerde service zijn toegewezen.
+Wanneer profielen zich nu op deze service abonneren, ontvangen ze het transactiemelding dat u hebt gedefinieerd, met gepersonaliseerde velden die zijn toegewezen aan de geselecteerde service.
 
 >[!NOTE]
 >
->Er wordt alleen een bericht verzonden wanneer de gebruiker zich voor de eerste keer inschrijft.
+>Er wordt alleen een bericht verzonden wanneer de gebruiker zich voor de eerste keer abonneert.
 
 ## Een bevestigingsbericht configureren vanaf een landingspagina {#configuring-confirmation-message-from-landing-page}
 
@@ -190,8 +190,8 @@ Volg onderstaande stappen om deze landingspagina te maken en te configureren:
 
 1. [Test en publiceer](../../channels/using/testing-publishing-landing-page.md) de landingspagina.
 
-Telkens wanneer een profiel zich inschrijft voor uw nieuwsbrief door de landingspagina te verzenden, ontvangt deze het bevestigingsbericht dat u hebt gedefinieerd met gepersonaliseerde velden die aan de service zijn toegewezen.
+Wanneer profielen nu een abonnement nemen op uw nieuwsbrief door de bestemmingspagina in te dienen, ontvangen ze het bevestigingsbericht dat u hebt gedefinieerd met gepersonaliseerde velden die aan de service zijn toegewezen.
 
 >[!NOTE]
 >
->Elke keer dat de landingspagina wordt verzonden, wordt er een bericht verzonden, zelfs als het profiel al geabonneerd is.
+>Elke keer dat de landingspagina wordt verzonden, wordt een bericht verzonden, zelfs als het profiel al is geabonneerd.

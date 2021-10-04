@@ -8,9 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '916'
 ht-degree: 5%
 
 ---
@@ -43,7 +43,7 @@ Zodra het verzoek wordt verwerkt, zullen de encryptie/decryptiebevelen op **[!UI
 
 ## Hoofdlettergebruik: Gegevens importeren die zijn versleuteld met een toets die is gegenereerd door het Configuratiescherm {#use-case-gpg-decrypt}
 
-In dit geval, zullen wij een werkschema bouwen om gegevens in te voeren die in een extern systeem zijn gecodeerd, gebruikend een sleutel die in het Controlebord wordt geproduceerd.
+In dit geval kunt u een workflow maken om gegevens die in een extern systeem zijn versleuteld, te importeren met een sleutel die in het Configuratiescherm is gegenereerd.
 
 ![](assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#video)
 
@@ -58,7 +58,7 @@ De volgende stappen worden uitgevoerd:
 
 1. In het externe systeem gebruikt u de openbare sleutel die u van het Configuratiescherm hebt gedownload om de gegevens te coderen die u naar Campaign Standard wilt importeren.
 
-1. In Campaign Standard, bouwt een werkschema om de gecodeerde gegevens in te voeren en het te decrypteren gebruikend de privé sleutel die via het Controlebord is geïnstalleerd. Hiervoor maken we als volgt een workflow:
+1. In Campaign Standard, bouwt een werkschema om de gecodeerde gegevens in te voeren en het te decrypteren gebruikend de privé sleutel die via het Controlebord is geïnstalleerd. Hiervoor maakt u als volgt een workflow:
 
    ![](assets/gpg_workflow.png)
 
@@ -87,7 +87,7 @@ De volgende stappen worden uitgevoerd:
 
 ## Hoofdlettergebruik: Gegevens coderen en exporteren met een sleutel die is geïnstalleerd in het Configuratiescherm {#use-case-gpg-encrypt}
 
-In dit geval, zullen wij een werkschema bouwen om gegevens te coderen en uit te voeren gebruikend een sleutel die op Controlebord wordt geïnstalleerd.
+In dit geval, bouwt een werkschema om gegevens te coderen en uit te voeren gebruikend een sleutel die op Controlebord wordt geïnstalleerd.
 
 ![](assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#video)
 
@@ -97,7 +97,7 @@ De volgende stappen worden uitgevoerd:
 
    ![](assets/gpg_install.png)
 
-1. In Campaign Standard, bouwt een werkschema om de gegevens uit te voeren en het te coderen gebruikend de privé sleutel die via het Controlebord is geïnstalleerd. Hiervoor maken we als volgt een workflow:
+1. In Campaign Standard, bouwt een werkschema om de gegevens uit te voeren en het te coderen gebruikend de privé sleutel die via het Controlebord is geïnstalleerd. Hiervoor maakt u als volgt een workflow:
 
    ![](assets/gpg-workflow-export.png)
 

@@ -8,9 +8,9 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '168'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ In het venster **[!UICONTROL Licenses]** kunt u de geïnstalleerde licenties op 
 
 ![](assets/license_1.png)
 
-Met een nieuwe build of een nieuwe functie kunnen licentievoorwaarden veranderen en moeten deze worden geaccepteerd door een functionele beheerder van de instantie.
+Met een nieuwe build of een nieuwe functie kunnen de licentievoorwaarden worden gewijzigd en moeten deze worden geaccepteerd door een functionele beheerder van de instantie.
 
 Het volgende venster verschijnt voor standaardgebruikers na het aanmelden, er is geen actie van hun kant vereist. Ze kunnen nog steeds op Adobe Campaign werken door op de knop **[!UICONTROL OK]** te klikken.
 

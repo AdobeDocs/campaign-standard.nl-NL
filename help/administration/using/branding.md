@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 80%
+source-wordcount: '1279'
+ht-degree: 77%
 
 ---
 
@@ -95,7 +95,7 @@ U kunt nieuwe entiteiten van uw organisatie toevoegen in Campagne, of een nieuw 
    >
    >Het configuratiescherm is toegankelijk voor alle gebruikers met beheerdersrechten. De stappen om toegang met beheerdersrechten aan een gebruiker te verlenen worden gedetailleerd beschreven op [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
 
-1. **Creeer een kaartje**  - Zodra subdomain wordt gevormd, zal Adobe het in het uw productiemilieu moeten plaatsen. Om dit te verzoeken, [creeer een kaartje aan de Zorg van de Cliënt](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) met de volgende informatie:
+1. **Creeer een kaartje**  - Zodra subdomain wordt gevormd, zal Adobe het opstelling in het uw productiemilieu. Om dit te verzoeken, [creeer een kaartje aan de Zorg van de Cliënt](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) met de volgende informatie:
 
    * Betreft: ACS Nieuw merk ingesteld
 
@@ -145,13 +145,13 @@ Uw sjabloon wordt gekoppeld aan het merk. In de e-maileditor maken de elementen 
 
 In dit voorbeeld gaan we een nieuw aan reizen gerelateerd merk maken en dit in een e-mail gebruiken.
 
-#### Een nieuw merk configureren {#configure-a-new-brand}
+#### Stap 1: Een nieuw merk configureren {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
 >Merkconfiguratie wordt alleen door Adobe beheerd omdat hiervoor specifieke machtigingen en technische instellingen vereist zijn.
 
-1. De Adobe Campaign-beheerder maakt het merk in **[!UICONTROL Administration > Instance settings > Brand configuration]**. Hij voegt het element **Vacations in the Tropics** toe vanaf het geavanceerde menu en configureert de **[!UICONTROL ID]** en de **[!UICONTROL Header parameters of sent emails]** van het merk.
+1. De beheerder van Adobe Campaign leidt eerst tot het merk van **[!UICONTROL Administration > Instance settings > Brand configuration]** menu, en voegt **Vakantie in het element van Tropics** toe, en vormt **[!UICONTROL ID]** en **[!UICONTROL Header parameters of sent emails]** van het merk.
 
    ![](assets/branding_07.png)
 
@@ -163,7 +163,7 @@ In dit voorbeeld gaan we een nieuw aan reizen gerelateerd merk maken en dit in e
 
 Het merk wordt correct gemaakt en geconfigureerd. Het kan nu door de marketingteams worden gebruikt.
 
-#### Een nieuw merk implementeren {#implement-a-new-brand}
+#### Stap 2: Een nieuw merk implementeren {#implement-a-new-brand}
 
 Als leveringsbeheerder bent u verantwoordelijk voor het maken van de leveringssjablonen die het nieuwe merk gebruiken. Volg onderstaande stappen om dit te bereiken:
 
@@ -182,7 +182,7 @@ Als leveringsbeheerder bent u verantwoordelijk voor het maken van de leveringssj
 
    De leveringssjabloon kan nu worden gebruikt om e-mails te maken die naar een doelgroep worden verzonden.
 
-#### Het nieuwe merk in een levering gebruiken {#use-the-new-brand-in-a-delivery}
+#### Stap 3: Het nieuwe merk in een levering gebruiken {#use-the-new-brand-in-a-delivery}
 
 Voer de onderstaande stappen uit om een e-mail te maken die aan een merk is gekoppeld:
 

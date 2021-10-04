@@ -8,10 +8,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 93%
+source-wordcount: '1204'
+ht-degree: 82%
 
 ---
 
@@ -23,7 +23,7 @@ Met Adobe Campaign kunt u een set rollen toewijzen aan uw gebruikers om te bepal
 
 De specifieke rollen en de bijbehorende machtigingen worden in de volgende secties nader beschreven: [inzicht in rollen](../../administration/using/list-of-roles.md) en [machtigingen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
-Beheerders kunnen gebruikers beheren via Admin Console. Gebruikers worden dan automatisch gesynchroniseerd met Adobe Campaign. Raadpleeg de documentatie bij de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/users.html) voor meer informatie.
+Beheerders kunnen gebruikers beheren vanuit de Admin Console. Gebruikers worden dan automatisch gesynchroniseerd met Adobe Campaign. Raadpleeg de documentatie [Admin Console](https://helpx.adobe.com/nl/enterprise/using/users.html) voor meer informatie.
 
 ![](assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#video)
 
@@ -43,12 +43,12 @@ Klik op **[!UICONTROL User administration]** voor toegang tot de gebruikersbehee
 
 Deze gebruikerssegmentatie is niet verplicht, maar een afspiegeling van de meest voorkomende gebruikerstypen in Adobe Campaign.
 
-Deze sectie biedt u inzicht in de belangrijkste typen gebruikers van Adobe Campaign. We zullen hier niet ingaan op alle specifieke rollen die een gebruiker kan hebben (leveringen starten, uitvoeren, leveringen voorbereiden, enz.). Voor meer informatie over rollen gaat u naar de pagina [Lijst met rollen](../../administration/using/list-of-roles.md) of [Groepen en gebruikers beheren](../../administration/using/managing-groups-and-users.md).
+Deze sectie helpt u de belangrijkste types van gebruikers van Adobe Campaign te begrijpen. Raadpleeg [Lijst met rollen](../../administration/using/list-of-roles.md) en [Groepen en gebruikers beheren](../../administration/using/managing-groups-and-users.md) pagina&#39;s voor meer informatie over specifieke rollen die een gebruiker kan aanhouden (eerste leveringen, exporteren, leveringen voorbereiden, enz.).
 
 We concentreren ons liever op de manier waarop verschillende taken in Adobe Campaign worden verdeeld over de drie belangrijkste typen gebruikers:
 
 * [Functionele beheerders](#functional-administrators): dit zijn de meest technische gebruikers in uw organisatie.
-* [Geavanceerde gebruikers](#advanced-users): deze gebruikers verzorgen de instellingen van alle elementen die marketeers nodig hebben om hun leveringen te verzenden en te controleren.
+* [Geavanceerde gebruikers](#advanced-users): zij zetten alle elementen op die de marketeers nodig hebben om hun leveringen te verzenden en te controleren .
 * [Basisgebruikers](#basic-users): dit zijn de marketeers die hun campagnes personaliseren, leveren en controleren.
 
 >[!NOTE]
@@ -104,7 +104,7 @@ Hier zijn de belangrijkste taken die ze kunnen uitvoeren:
 
 ## Een gebruiker maken {#creating-a-user}
 
-Als u een gebruiker aan een instantie wilt toevoegen, moet u de gebruiker eerst aanmaken in Admin Console voordat u deze in Adobe Campaign Standard kunt beheren.
+Als u een gebruiker aan een instantie wilt toevoegen, moet u deze eerst in de Admin Console maken voordat u deze in Adobe Campaign Standard beheert.
 
 1. Ga naar het menu Geavanceerd, selecteer **[!UICONTROL Administration > Users & Security > Users]** en klik op **[!UICONTROL User administration]** om Admin Console te openen.
 
@@ -120,7 +120,7 @@ Als u een gebruiker aan een instantie wilt toevoegen, moet u de gebruiker eerst 
 
    ![](assets/create_user_3.png)
 
-1. Op het tabblad **[!UICONTROL Assign products]** kunt u een of meer beveiligingsgroepen toewijzen aan uw gebruiker. Raadpleeg deze [pagina](../../administration/using/managing-groups-and-users.md) voor meer informatie over beveiligingsgroepen.
+1. Wijs een of meer beveiligingsgroepen toe aan uw gebruiker op het tabblad **[!UICONTROL Assign products]**. Raadpleeg deze [pagina](../../administration/using/managing-groups-and-users.md) voor meer informatie over beveiligingsgroepen.
 
    Klik op **[!UICONTROL Save]** wanneer u klaar bent met de configuratie.
 
@@ -130,7 +130,7 @@ Wanneer de gebruiker is aangemaakt krijgt hij een e-mail waarmee hij wordt doorg
 
 ![](assets/create_user_5.png)
 
-Uw gebruiker wordt gesynchroniseerd met Adobe Campaign Standard zodra hij zich aanmeldt bij uw instantie.
+Wanneer u zich aanmeldt bij uw exemplaar, wordt deze gebruiker gesynchroniseerd met Adobe Campaign Standard.
 
 Vervolgens kunt u controleren of de gebruiker correct is gesynchroniseerd met Adobe Campaign:
 

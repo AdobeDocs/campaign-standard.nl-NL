@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1007'
 ht-degree: 4%
 
 ---
@@ -106,7 +106,7 @@ Stel op het tabblad **[!UICONTROL General]** **[!UICONTROL Execution frequency]*
 
    ![](assets/update_profile_createelement.png)
 
-1. Selecteer in het veld **[!UICONTROL Source]** een veld in de tabel appSubscriptRcp als een afstemmingsveld. Dit kan de e-mail, crmId, marketingCloudId van het profiel enzovoort zijn. In dit voorbeeld gebruiken we het veld E-mail (cusEmail).
+1. Selecteer in het veld **[!UICONTROL Source]** een veld in de tabel appSubscriptRcp als een afstemmingsveld. Dit kan de e-mail, crmId, marketingCloudId van het profiel enzovoort zijn. In dit voorbeeld gebruikt u het veld E-mail (cusEmail).
 
 1. Selecteer in het veld **[!UICONTROL Destination]** een veld in de profielentabel om de gegevens in de tabel appSubscriptionRcp met elkaar in overeenstemming te brengen. Dit kan de e-mail van het profiel zijn of een uitgebreid veld zoals crmId, marketingCloudId, enz. In dit voorbeeld moeten we het veld E-mail (e-mail) selecteren om het toe te wijzen met het veld E-mail (cusEmail) in de tabel appSubscriptionRcp.
 

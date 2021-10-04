@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 78%
+source-wordcount: '526'
+ht-degree: 75%
 
 ---
 
@@ -37,7 +37,7 @@ De workflow is als volgt geconfigureerd:
    aze128;04/03/2017;clara.smith@example.com;Phone;149
    ```
 
-   In dit voorbeeldbestand gebruiken we het e-mailadres om de data af te stemmen op de databaseprofielen. U kunt ook unieke id’s inschakelen, zoals beschreven in [dit document](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
+   In dit voorbeeldbestand gebruikt u het e-mailadres om de gegevens in overeenstemming te brengen met de databaseprofielen. U kunt ook unieke id’s inschakelen, zoals beschreven in [dit document](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
 * Een [Verrijking](../../automating/using/enrichment.md) activiteit die tot een verband tussen de transactiegegevens leidt die van het dossier worden geladen en de profielen die in **[!UICONTROL Query]** worden geselecteerd. De koppeling wordt gedefinieerd op het tabblad **[!UICONTROL Advanced relations]** van de activiteit. De koppeling is gebaseerd op de overgang die uit de activiteit **[!UICONTROL Load file]** komt. Het veld met de e-mail van de profielresource en de kolom met de klant van het geïmporteerde bestand worden gebruikt als afstemmingscriteria.
 

@@ -9,16 +9,16 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: 8c4e38a3fc66e4d819575fcd64616a822e0e1f82
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '946'
 ht-degree: 1%
 
 ---
 
 # Launch-regels configureren voor ondersteuning van Adobe Campaign Standard-gebruiksscenario’s {#configuring-rules-launch}
 
-In [!DNL Adobe Experience Platform Launch], moet u gegevenselementen en regels tot stand brengen om PII en andere gegevens van mobiele toepassingen naar [!DNL Adobe Campaign Standard] te verzenden.
+In [!DNL Adobe Experience Platform Launch], creeer gegevenselementen en regels om PII en andere gegevens van mobiele toepassingen naar [!DNL Adobe Campaign Standard] te verzenden.
 
 Om ervoor te zorgen dat alle configuratieveranderingen in [!DNL Adobe Experience Platform Launch] van kracht worden, moet u deze veranderingen publiceren. Zie [Publiceren](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration) voor meer informatie.
 
@@ -77,7 +77,7 @@ U moet regels maken voor het volgende:
 
 >[!NOTE]
 >
->Als u PII-informatie van een mobiele app naar Adobe Campaign wilt verzenden, moet u een SDK API implementeren. Ga voor meer informatie naar [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
+>Als u PII-gegevens van een mobiele app naar Adobe Campaign wilt verzenden, moet u een SDK-API implementeren. Ga voor meer informatie naar [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
 
 Als u PII-gegevens naar [!DNL Adobe Campaign Standard] wilt verzenden, maakt u een regel in [!DNL Experience Platform Launch]:
 
@@ -264,7 +264,7 @@ Gebruik de trackAction-API om de handelingen van de app bij te houden. Zie [Toep
 
    >[!NOTE]
    >
-   >In het bovenstaande voorbeeld moeten de gegevenselementen aan de rechterkant worden geconfigureerd in [!DNL Experience Platform Launch] door de stappen in [Gegevenselementen maken](../../administration/using/configuring-rules-launch.md#create-data-elements) te benutten. De gegevenselementen aan de linkerkant worden ondersteund in [!DNL Adobe Campaign Standard] en hoeven niet te worden geconfigureerd. Als u extra gegevens vereist, moet u de uitbreidingen van het douanemiddel in [!DNL Adobe Campaign Standard] uitvoeren.
+   >In het bovenstaande voorbeeld moeten de gegevenselementen aan de rechterkant worden geconfigureerd in [!DNL Experience Platform Launch] door de stappen in [Gegevenselementen maken](../../administration/using/configuring-rules-launch.md#create-data-elements) te benutten. De gegevenselementen aan de linkerkant worden ondersteund in [!DNL Adobe Campaign Standard] en hoeven niet te worden geconfigureerd. Als u aanvullende gegevens nodig hebt, moet u aangepaste bronextensies uitvoeren in [!DNL Adobe Campaign Standard].
 
 1. Typ **application/json** in **[!UICONTROL Content Type]**.
 

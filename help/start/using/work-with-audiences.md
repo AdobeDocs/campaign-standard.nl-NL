@@ -4,9 +4,9 @@ description: '"Leer hoe u de weergave kunt aanpassen en hoe u kunt werken op lij
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '785'
 ht-degree: 9%
 
 ---
@@ -58,7 +58,7 @@ Campaign Standard biedt verschillende hulpmiddelen aan om u te helpen uw marketi
 
 Met workflows kunt u gegevens verzamelen en importeren in de Campagne-database via [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md)-activiteiten. Algemene informatie en beste praktijken wanneer het invoeren van gegevens door werkschema&#39;s worden voorgesteld in [deze sectie](../../automating/using/about-data-import-and-export.md).
 
-Daarnaast kunt u sjablonen instellen voor het importeren van gegevens. Het gebruik van importsjablonen is de beste manier als u regelmatig bestanden met dezelfde structuur moet importeren. U kunt twee typen sjablonen instellen:
+Daarnaast kunt u sjablonen instellen voor het importeren van gegevens. Het gebruik van importsjablonen is het aanbevolen om regelmatig bestanden met dezelfde structuur te importeren. U kunt twee typen sjablonen instellen:
 
 * **Workflowsjablonen**: Dit zijn vooraf geconfigureerde workflows die u één keer kunt instellen op basis van uw behoeften en die u telkens opnieuw kunt gebruiken wanneer u gegevens wilt importeren en de database wilt bijwerken. Een voorbeeld van een werkstroomsjabloon voor het importeren van gegevens vindt u in [deze sectie](../../automating/using/creating-import-workflow-templates.md).
 

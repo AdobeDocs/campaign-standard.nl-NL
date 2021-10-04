@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Het bijhouden van lokale meldingen kan in drie typen worden gesplitst:
 
 Voor het implementeren van tracering voor Adobe Campaign Standard moet de mobiele toepassing de Mobile SDK opnemen in de toepassing. Deze SDK&#39;s zijn beschikbaar in [!DNL Adobe Mobile Services].
 
-Voor het verzenden van trackinggegevens zijn er drie variabelen die moeten worden verzonden: twee maken deel uit van de gegevens die van Adobe Campaign worden ontvangen, en de andere is een handelingsvariabele die bepaalt of het een indruk, een klik of een open is.
+Er zijn drie variabelen die moeten worden verzonden om trackinggegevens te verzenden: twee maken deel uit van de gegevens die van Adobe Campaign worden ontvangen, en de andere is een handelingsvariabele die bepaalt of het een indruk, een klik of een open is.
 
 | Variabele | Waarde |
 | :-: | :-: |
@@ -46,11 +46,11 @@ De Adobe Experience Platform Mobile SDK verzendt automatisch de impeilingsgebeur
 
 ## Klikken bijhouden implementeren {#implementing-click-tracking}
 
-Voor klik het volgen, moet u waarde &quot;2&quot;voor actie verzenden wanneer het roepen van `collectMessageInfo()` of `trackAction()` functies.
+Als u klikt op bijhouden, moet u waarde &quot;2&quot; voor een handeling verzenden wanneer u `collectMessageInfo()`- of `trackAction()`-functies aanroept.
 
 ### Voor Android {#implement-click-tracking-android}
 
-Om te volgen klik, moeten twee scenario&#39;s worden behandeld:
+Om kliks te volgen, moeten twee scenario&#39;s worden uitgevoerd:
 
 * De gebruiker ziet het bericht maar wist het.
 
@@ -105,9 +105,9 @@ U moet &quot;1&quot; en &quot;2&quot; verzenden omdat de gebruiker op het berich
 
 ### Voor Android {#implement-open-tracking-android}
 
-Om open te volgen, moeten wij intent creëren. Met intentieobjecten kan het Android-besturingssysteem de methode aanroepen wanneer bepaalde handelingen zijn uitgevoerd. Klik in dit geval op het bericht om de toepassing te openen.
+Om open te houden, moeten we intent creëren. Met intentieobjecten kan het Android-besturingssysteem de methode aanroepen wanneer bepaalde handelingen zijn uitgevoerd. Klik in dit geval op het bericht om de toepassing te openen.
 
-Deze code is gebaseerd op de implementatie van het bijhouden van de klikindruk. Als de intentie is ingesteld, moet u nu trackinggegevens terugsturen naar Adobe Campaign. In dit geval wordt Android View ([!DNL Activity]) die de melding heeft geactiveerd, geopend of op de voorgrond geplaatst als gevolg van de klik door de gebruiker. Het intent-object in [!DNL Activity] bevat de berichtgegevens die kunnen worden gebruikt om het openen bij te houden.
+Deze code is gebaseerd op de implementatie van het bijhouden van de klikindruk. Als de intentie is ingesteld, moet je nu trackinggegevens terugsturen naar Adobe Campaign. In dit geval wordt Android View ([!DNL Activity]) die de melding heeft geactiveerd, geopend of op de voorgrond geplaatst als gevolg van de klik door de gebruiker. Het intent-object in [!DNL Activity] bevat de berichtgegevens die kunnen worden gebruikt om het openen bij te houden.
 
 MainActivity.java (extends [!DNL Activity])
 
@@ -128,7 +128,7 @@ private void handleTracking() {
  
     if (data != null) {
 
-        //Opened based on the notification, you need to get the tracking that was passed on.
+        //Opened based on the notification, you must get the tracking that was passed on.
 
         Map<String, String> notificationData = (Map<String, Object>)data.getSerializableExtra("NOTIFICATION_USER_INFO");
         String deliveryId = (String)notificationData.get("deliveryId");

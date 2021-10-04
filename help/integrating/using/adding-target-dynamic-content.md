@@ -8,7 +8,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 4%
@@ -41,7 +41,7 @@ Voordat u de afbeelding opent in Adobe Campaign, moet u eerst de volgende taken 
 1. Als u Enterprise-machtigingen gebruikt in uw instellingen in Adobe Target, voegt u de bijbehorende eigenschap toe in dit veld. Meer informatie over de rechten van Target Enterprise vindt u op [deze pagina](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html). Dit veld is optioneel en niet vereist als u de Enterprise-machtigingen in Target niet gebruikt.
 1. Geef in **[!UICONTROL Additional decision parameters]** de toewijzing op tussen de velden die zijn gedefinieerd in de Adobe Target-segmenten en de Adobe Campaign-velden.
 
-   De Adobe Campaign-velden die worden gebruikt, moeten zijn opgegeven in de keuzelijst. Hier zullen we verschillende ervaringen definiëren afhankelijk van het geslacht van de ontvanger.
+   De Adobe Campaign-velden die worden gebruikt, moeten zijn opgegeven in de keuzelijst. In dit voorbeeld definieert u verschillende ervaringen afhankelijk van het geslacht van de ontvanger.
 
    ![](assets/tar_additional_decisionning_parameters.png)
 

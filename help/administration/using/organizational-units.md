@@ -9,9 +9,9 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '840'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ Elk object en elke gebruiker van het platform is gekoppeld aan een organisatoris
 >
 >Standaard wordt de organisatie-eenheid **[!UICONTROL All (all)]** toegewezen aan de beveiligingsgroep **[!UICONTROL Administrators]**. Deze is alleen-lezen en kan niet worden gewijzigd.
 
-Een gebruiker heeft alleen-lezen toegang tot alle objecten in de bovenliggende eenheden. Hij heeft toegang tot alle voorwerpen van zijn eenheid en kindeenheden gelezen en geschreven. Een gebruiker heeft geen toegang tot objecten in parallelle vertakkingen.
+Een gebruiker heeft alleen-lezen toegang tot alle objecten in de bovenliggende eenheden. Deze gebruiker heeft lees- en schrijftoegang tot alle objecten van zijn eenheid en onderliggende eenheden. Een gebruiker heeft geen toegang tot objecten in parallelle vertakkingen.
 
 Standaard zijn alleen de eenheden **[!UICONTROL All]** beschikbaar.
 
@@ -79,17 +79,17 @@ Om het effect van het toewijzen van verschillende eenheden aan verschillende vei
 
 1. Volg de zelfde procedures om het tweede malplaatje tot stand te brengen dat aan de eerder gecreeerde organisatorische eenheid van de Kleuren van de Geometrixx wordt toegewezen.
 
-De gebruiker die aan de StandaardGroepen van de Gebruiker en van de Kleuren van de Geometrixx wordt toegewezen zal beide malplaatjes kunnen zien. Wegens de hiërarchische structuur van de organisatorische eenheden, zal hij lees- en schrijftoegang tot het malplaatje hebben verbonden aan de eenheid van de Kleuren van de Geometrixx en slechts read-only toegang tot het malplaatje verbonden aan de eenheid van de Geometrixx.
+Gebruikers die zijn toegewezen aan de groepen **Standaard Gebruiker** en **Geometrixx Kleuren** kunnen beide sjablonen zien. Wegens de hiërarchische structuur van de organisatorische eenheden, zullen zij lees en schrijven toegang tot het malplaatje verbonden aan de eenheid van de Kleuren van de Geometrixx hebben en slechts read-only toegang tot het malplaatje verbonden aan de eenheid van de Geometrixx.
 
 ![](assets/manage_units_7.png)
 
-Aangezien de eenheid van de Geometrixx kleding een kindeenheid van Geometrixx is, verschijnt het volgende bericht wanneer de gebruiker probeert om het malplaatje van de Geometrixx te wijzigen:
+Aangezien de eenheid van de Kleuren van de Geometrixx een kindeenheid van Geometrixx is, verschijnt het volgende bericht wanneer de gebruikers proberen om het malplaatje van de Geometrixx te wijzigen:
 
 ![](assets/manage_units_8.png)
 
-Organisatorische eenheden kunnen de toegang tot verschillende functies, zoals profielen, beperken. Bijvoorbeeld, als onze Geometrixx Kleuren van de gebruiker tot **[!UICONTROL Profiles]** tabel toegang hebben, zal hij tot de profielen met de organisatorische eenheid van de Geometrixx Kleuren volledig toegang hebben en kunnen wijzigen.
+Organisatorische eenheden kunnen de toegang tot verschillende functies, zoals profielen, beperken. Bijvoorbeeld, als onze gebruikers van de Kleuren van Geometrixx tot **[!UICONTROL Profiles]** tabel toegang hebben, zullen zij tot en tot de profielen met de organisatorische eenheid van de Kleuren van de Geometrixx kunnen volledig toegang hebben.
 
-Terwijl de profielen bij de organisatie van de Geometrixx alleen-lezen zijn, wordt de volgende fout weergegeven als onze gebruiker één profiel probeert te wijzigen: **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
+Terwijl de profielen bij de organisatie van de Geometrixx alleen-lezen zijn, wordt de volgende fout weergegeven als gebruikers proberen één profiel te wijzigen: **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
 
 ![](assets/manage_units_10.png)
 

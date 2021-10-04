@@ -8,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '94'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ Het bijwerken van profielen wordt uitgevoerd met een **PATCH** verzoek.
 
 1. De eerste stap is het **ophalen van het profiel**.
 
-1. In een tweede verzoek, zullen wij **PATCH verzoek** op het profiel met de voltooide informatie in de nuttige lading uitvoeren.
+1. In een tweede verzoek, voer **PATCH verzoek** op het profiel met de voltooide informatie in de nuttige lading uit.
 
 1. Om te controleren of het PATCH verzoek het profiel heeft bijgewerkt, kunnen wij een definitieve GET verzoek uitvoeren.
 

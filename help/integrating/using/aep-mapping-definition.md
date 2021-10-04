@@ -8,7 +8,7 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 0%
@@ -63,7 +63,7 @@ U kunt de XDM-extensie aanpassen via de API en uw eigen extensie definiëren, zo
 
 Zie [Zelfstudie voor schema-registratie-API](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) voor meer informatie over XDM API.
 
-Als u een opsommingsveld wilt toewijzen, moet u de expressie-editor gebruiken om elke opsommingswaarde te definiëren die overeenkomt met de XDM-waarde. Het postadressfield moet bijvoorbeeld als volgt worden gedefinieerd:
+Als u een opsommingsveld wilt toewijzen, moet u de expressie-editor gebruiken om elke opsommingswaarde te definiëren die overeenkomt met de XDM-waarde. Het postaladdressfield moet bijvoorbeeld als volgt worden gedefinieerd:
 
 ![](assets/aep_enummapping.png)
 

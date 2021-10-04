@@ -8,10 +8,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ Om het nieuwe veld **Interest** voor de profielen te maken moet u eerst de kant-
 
 1. Klik op **[!UICONTROL Add an element]** en voeg vervolgens zoveel waarden toe als nodig is door een **[!UICONTROL Label]** en een **[!UICONTROL ID]** toe te voegen en op **[!UICONTROL Add]** te klikken.
 
-   Hier maken we de waarden Books, Exhibitions, Movies en N/A voor profielen zodat zij tussen deze opties kunnen kiezen.
+   In dit voorbeeld maakt u boeken, tentoonstellingen, films en N.v.t.-waarden voor profielen om te kiezen uit deze opties.
 
    ![](assets/schema_extension_uc11.png)
 

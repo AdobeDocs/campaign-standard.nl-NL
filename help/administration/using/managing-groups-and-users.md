@@ -9,10 +9,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 87%
+source-wordcount: '940'
+ht-degree: 77%
 
 ---
 
@@ -49,9 +49,9 @@ Als u de toegang van een gebruiker wilt beperken, voegt u de gebruiker niet toe 
 
 >[!IMPORTANT]
 >
->Houd er rekening mee dat beveiligingsgroepen in de Admin Console profielen worden genoemd.
+>Houd er rekening mee dat in de Admin Console beveiligingsgroepen profielen worden genoemd.
 
-U kunt uw eigen beveiligingsgroepen maken als de standaardgroepen niet genoeg zijn om uw gebruikers te beheren. Ze kunnen worden beheerd door beheerders die toegang hebben tot de Adobe Campaign-beheermenu’s en de Admin Console. Raadpleeg deze [documentatie](https://helpx.adobe.com/enterprise/managing/user-guide.html)voor meer informatie over de Admin Console.
+U kunt uw eigen beveiligingsgroepen maken als de standaardgroepen niet genoeg zijn om uw gebruikers te beheren. Zij kunnen door Beheerders worden geleid die toegang tot zowel de beleidsmenu&#39;s van Adobe Campaign als de Admin Console hebben. Raadpleeg de volgende [documentatie](https://helpx.adobe.com/enterprise/managing/user-guide.html) voor meer informatie over de Admin Console.
 
 Hier moeten we eerst de twee kant-en-klare groepen, Standaardgebruikers en Beheerders, aan onze gebruikers toewijzen. Deze beveiligingsgroepen beperken een aantal functies van Adobe Campaign: de standaardgebruiker heeft basistoegang tot Adobe Campaign terwijl de beheerder bijvoorbeeld toegang heeft tot de beheermenu’s.
 
@@ -63,7 +63,7 @@ Vervolgens gaan we een reeks beveiligingsgroepen maken, Geometrixx en Geometrixx
 
 U moet eerst een van de standaardbeveiligingsgroepen aan uw gebruikers toewijzen:
 
-1. Selecteer in de Admin Console uw instantie en vervolgens het tabblad **Gebruikers**.
+1. In de Admin Console, selecteer uw instantie toen **Users** tabel.
 
    ![](assets/manage_security_group_2.png)
 
@@ -78,7 +78,7 @@ U moet eerst een van de standaardbeveiligingsgroepen aan uw gebruikers toewijzen
 
 Zodra uw twee gebruikers zijn gekoppeld aan de standaardbeveiligingsgroepen **[!UICONTROL Administrators]** en **[!UICONTROL Standard users]**, die rollen aan de gebruikers toewijzen, kan de gebruiker van het type Beheerder de twee beveiligingsgroepen **Geometrixx** en **Geometrixx Clothes** maken, waardoor naast de standaardbeveiligingsgroepen organisatie-eenheden aan de gebruikers worden toegewezen.
 
-1. Selecteer in de Admin Console uw instantie en vervolgens het tabblad **Producten**.
+1. In de Admin Console, selecteer uw instantie toen **Producten** tabel.
 1. Klik op de knop **Nieuw profiel** om de beveiligingsgroep **Geometrixx** te maken.
 
    ![](assets/create_security_1.png)
@@ -120,14 +120,14 @@ Zodra uw twee gebruikers zijn gekoppeld aan de standaardbeveiligingsgroepen **[!
 
    ![](assets/manage_security_group_9.png)
 
-De nieuwe beveiligingsgroepen worden nu gemaakt in de Admin Console. Als u ze volledig wilt synchroniseren, moet u ze ook in Adobe Campaign maken.
+De nieuwe beveiligingsgroepen worden nu in de Admin Console gemaakt. Als u ze volledig wilt synchroniseren, moet u ze ook in Adobe Campaign maken.
 
 De gebruiker van het type Beheerder moet de reeks beveiligingsgroepen maken die worden gebruikt om organisatie-eenheden toe te wijzen: Geometrixx en Geometrixx Clothes. Zie [Eenheden maken en beheren](../../administration/using/organizational-units.md#creating-and-managing-units) voor informatie over het maken van organisatie-eenheden.
 
 1. Klik op het **Adobe**-logo in de linkerbovenhoek en selecteer **[!UICONTROL Administration > Users & Security > Security groups]**.
 1. Maak uw nieuwe beveiligingsgroep en geef het **[!UICONTROL Label]** en de **[!UICONTROL ID]** van de groep op.
 
-   De id moet overeenkomen met de id die u in de Admin Console hebt gekozen.
+   De id moet dezelfde zijn als de id die u in de Admin Console hebt gekozen.
 
 1. Wijs in het veld **[!UICONTROL User access]** een organisatie-eenheid toe. Hier wordt de organisatie-eenheid **[!UICONTROL All]** aan de beveiligingsgroep Geometrixx toegewezen.
 
@@ -146,4 +146,4 @@ Uw gebruikers zijn nu toegewezen aan een beveiligingsgroep en kunnen verbinding 
 
 >[!IMPORTANT]
 >
->Als gebruikers uit een beveiligingsgroep in de beheerconsole worden verwijderd, blijven ze deel uitmaken van de Adobe Campaign-beveiligingsgroep en kunnen ze zich niet meer aanmelden bij Adobe Campaign. Verwijder in dat geval de e-mailadressen van de gebruikers in de Admin Console om te voorkomen dat ze vertrouwelijke informatie ontvangen.
+>Als gebruikers worden verwijderd uit een beveiligingsgroep in de Admin Console, blijven ze deel uitmaken van de Adobe Campaign-beveiligingsgroep en kunnen ze zich niet meer aanmelden bij Adobe Campaign. Verwijder in dat geval de e-mailadressen van de gebruikers in de Admin Console om te voorkomen dat ze vertrouwelijke informatie ontvangen.

@@ -8,9 +8,9 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1328'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ Om Adobe Experience Platform Location Services met mobiele toepassingen te kunne
 
 De mobiele toepassingen die worden gebruikt om locatiegegevens te verzamelen moeten door een **beheerder** in de interface van Adobe Campaign worden gevormd.
 
-Om de de gegevenseigenschap van het Punt van de Gegevens met mobiele toepassingen te gebruiken die met SDK V4 worden gevormd, moet u:
+Om de de gegevenseigenschap van het Punt van Interesse met mobiele toepassingen te gebruiken die met SDK V4 worden gevormd, moet u:
 
 1. Toegang tot Adobe Analytics for Mobile. Controleer uw licentieovereenkomst of neem contact op met de manager van uw Adobe-account voor meer informatie.
 1. Stel uw mobiele toepassing in Adobe Campaign in. Zie [Een mobiele app instellen in Campagne](#setting-up-a-mobile-app-in-campaign).

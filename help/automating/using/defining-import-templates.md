@@ -4,10 +4,10 @@ description: Met importsjablonen kunt u de benodigde instellingen reduceren en d
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 100%
+source-wordcount: '786'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ Deze standaardsjablonen zijn alleen-lezen en zijn niet zichtbaar voor standaardg
 
 1. Ga naar het tabblad **[!UICONTROL Workflow]**. Van hieruit kunt u de workflow die standaard wordt aangeboden, verrijken door nieuwe activiteiten toe te voegen op basis van uw behoeften.
 
-   Raadpleeg het gebruiksscenario in de sectie [Voorbeeld: Workflowsjabloon importeren](../../automating/using/creating-import-workflow-templates.md) voor meer informatie over het configureren van de workflowactiviteiten. Dit gebruiksscenario helpt u bij het instellen van een workflow die opnieuw kan worden gebruikt voor het importeren van profielen die afkomstig zijn van een CRM in de Adobe Campaign-database.
+   Raadpleeg het gebruiksscenario in de sectie [Voorbeeld: Workflowsjabloon importeren](../../automating/using/creating-import-workflow-templates.md) voor meer informatie over het configureren van de workflowactiviteiten. Met dit gebruiksgeval kunt u een workflow instellen die opnieuw kan worden gebruikt voor het importeren van profielen die afkomstig zijn van een CRM in de Adobe Campaign-database.
 
 1. Sla de sjabloon op zodat de configuratie van de workflow correct in aanmerking wordt genomen.
 1. Upload een voorbeeldbestand vanaf het tabblad **[!UICONTROL Properties]**. Het geüploade bestand kan alleen kolommen bevatten die nodig zijn voor toekomstige importbewerkingen of voorbeelddata. Met de data in het voorbeeldbestand kunt u de vereenvoudigde importbewerking testen zodra de workflow is gedefinieerd.

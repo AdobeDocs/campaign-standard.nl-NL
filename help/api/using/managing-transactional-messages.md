@@ -8,27 +8,25 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '672'
 ht-degree: 3%
 
 ---
 
 # Transactionele berichten beheren {#managing-transactional-messages}
 
-## Transactionele berichten
-
 Nadat u een transactiegebeurtenis hebt gemaakt en gepubliceerd, moet u het activeren van deze gebeurtenis integreren in uw website.
 
 >[!NOTE]
 >
->Het vormen van een gebeurtenis wordt voorgesteld in [deze sectie](../../channels/using/configuring-transactional-event.md).
+>De gebeurtenisconfiguratie wordt gedetailleerd in [deze sectie](../../channels/using/configuring-transactional-event.md).
 
-U wilt bijvoorbeeld dat de gebeurtenis &#39;Afkappen met winkelwagentje&#39; wordt geactiveerd wanneer een van uw klanten uw website verlaat voordat ze de producten in hun winkelwagentje kopen. Hiervoor moet uw webontwikkelaar de REST Transaction Messages API gebruiken.
+U wilt bijvoorbeeld dat de gebeurtenis &#39;Afkappen met winkelwagentje&#39; wordt geactiveerd wanneer een van uw klanten uw website verlaat voordat ze de producten in hun winkelwagentje kopen. Om dit te doen, als Webontwikkelaar, moet u de REST Transactionele Berichten API gebruiken.
 
-1. De ontwikkelaar verzendt een verzoek volgens de methode van de POST, die [het verzenden van de transactiegebeurtenis ](#sending-a-transactional-event) teweegbrengt.
-1. Het antwoord op het verzoek van de POST bevat een Primaire Sleutel, die de ontwikkelaar toestaat om één of veelvoudige verzoeken door een GET verzoek te verzenden. Op deze manier kan hij de [gebeurtenisstatus](#transactional-event-status) verkrijgen.
+1. Verzend een verzoek volgens de methode van de POST, die [het verzenden van de transactiegebeurtenis ](#sending-a-transactional-event) teweegbrengt.
+1. Het antwoord op het verzoek van de POST bevat een Primaire Sleutel, die u toestaat om één of veelvoudige verzoeken door een verzoek van de GET te verzenden. U kunt dan de [gebeurtenisstatus](#transactional-event-status) verkrijgen.
 
 ## Een transactiegebeurtenis verzenden {#sending-a-transactional-event}
 
@@ -46,7 +44,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-   (Het API-eindpunt voor transactionele berichten is ook zichtbaar tijdens de API-voorvertoning.)
+   Het eindpunt van de API voor transactionele berichten is ook zichtbaar tijdens de API-voorvertoning.
 
 * **&lt;eventid>**: het type gebeurtenis dat u wilt verzenden. Deze id wordt gegenereerd wanneer de gebeurtenisconfiguratie wordt gemaakt (zie [deze sectie](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 

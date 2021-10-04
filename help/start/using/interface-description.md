@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 79%
+source-wordcount: '1256'
+ht-degree: 77%
 
 ---
 
@@ -82,7 +82,7 @@ Met drie tabbladen kunt u hulp en hulp zoeken:
 
 ## Het menu Advanced {#advanced-menu}
 
-Het geavanceerde menu wordt geopend door op het pictogram **Adobe Campaign** linksboven in elk scherm te klikken. Het geavanceerde menu kan variëren afhankelijk van uw contract en gebruikersmachtigingen.
+Het geavanceerde menu wordt weergegeven door op het pictogram **Adobe Campaign** te klikken, in de linkerbovenhoek van elk scherm. Het geavanceerde menu kan variëren afhankelijk van uw contract en gebruikersmachtigingen.
 
 In dit menu kunt u naar specifieke functies en instellingen navigeren.
 
