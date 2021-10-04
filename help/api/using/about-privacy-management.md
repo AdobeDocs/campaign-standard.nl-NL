@@ -4,10 +4,10 @@ description: Meer informatie over privacybeheer met API's
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 210289d44f0ad0ebf0b2654f6e9795adad7dd458
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 4%
+source-wordcount: '107'
+ht-degree: 0%
 
 ---
 
@@ -27,4 +27,4 @@ Het API-eindpunt voor privacy is **/privacy/privacyTool**. De het middelbeschrij
 
 De opt-out CCPA wordt beheerd gebruikend **ccpaOptOut** profielattributen.
 
-Raadpleeg de [speciale documentatie](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html) voor meer informatie over Adobe Campaign Standard en privacynaleving.
+Raadpleeg de [speciale documentatie](../../start/using/privacy-requests.md) voor meer informatie over Adobe Campaign Standard en privacynaleving.
