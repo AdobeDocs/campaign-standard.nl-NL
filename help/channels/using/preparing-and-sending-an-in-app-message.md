@@ -8,9 +8,9 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2ad76d55785f123b590e00c8d33552f4617c32e2
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1157'
 ht-degree: 98%
 
 ---
@@ -58,7 +58,7 @@ De stappen voor het maken van een zelfstandig in-app-bericht met Adobe Campaign 
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. Voer de eigenschappen voor het in-app-bericht in en selecteer de mobiele app in het veld **[!UICONTROL Associate a Mobile App to a delivery]**. Houd er rekening mee dat als u uw mobiele app niet hebt geconfigureerd met Adobe Campaign Standard, deze niet in de lijst wordt weergegeven. Raadpleeg deze [pagina](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign) voor meer informatie over de configuratie van mobiele applicaties.
+1. Voer de eigenschappen voor het in-app-bericht in en selecteer de mobiele app in het veld **[!UICONTROL Associate a Mobile App to a delivery]**. Houd er rekening mee dat als u uw mobiele app niet hebt geconfigureerd met Adobe Campaign Standard, deze niet in de lijst wordt weergegeven. Raadpleeg deze [pagina](../../administration/using/configuring-a-mobile-application.md#channel-specific-config) voor meer informatie over de configuratie van mobiele applicaties.
 
    ![](assets/inapp_creating_3.png)
 
@@ -74,7 +74,7 @@ De stappen voor het maken van een zelfstandig in-app-bericht met Adobe Campaign 
 
    * **[!UICONTROL Mobile Application events]**: Aangepaste gebeurtenissen die in uw mobiele applicatie zijn geïmplementeerd.
 
-      Raadpleeg deze [pagina](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)voor meer informatie over het maken van gebeurtenissen.
+      Raadpleeg deze [pagina](../../administration/using/configuring-a-mobile-application.md)voor meer informatie over het maken van gebeurtenissen.
 
    * **[!UICONTROL Life Cycle events]**: Kant-en-klare levenscyclusgebeurtenissen die worden ondersteund door Adobe Mobile SDK.
 
@@ -86,7 +86,7 @@ De stappen voor het maken van een zelfstandig in-app-bericht met Adobe Campaign 
 
    * **[!UICONTROL Places]**: De volgende drie categorieën maken gebruik van realtime locatiedata om contextueel relevante mobiele ervaringen te bieden: Places context data, Places custom metadata of Places event type.
 
-      Raadpleeg de [documentatie bij Places](https://placesdocs.com/) voor meer informatie over Adobe Places.
+      Raadpleeg de [documentatie bij Places](https://experienceleague.adobe.com/docs/places/using/home.html) voor meer informatie over Adobe Places.
    ![](assets/inapp_creating_4.png)
 
 1. Als u een **[!UICONTROL Analytics Events]** gebruikt, worden Adobe Analytics- en View state-gebeurtenissen automatisch ingevuld op basis van de rapportsuites die zijn geconfigureerd in de Analytics-extensie in Adobe Experience Platform Launch, terwijl Context data-gebeurtenissen handmatig moeten worden toegevoegd.
@@ -103,7 +103,7 @@ De stappen voor het maken van een zelfstandig in-app-bericht met Adobe Campaign 
 
    ![](assets/inapp_creating_5.png)
 
-1. Bewerk de content van uw bericht en definieer de geavanceerde opties. Zie [Een in-app-bericht aanpassen](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html).
+1. Bewerk de content van uw bericht en definieer de geavanceerde opties. Zie [Een in-app-bericht aanpassen](../../channels/using/customizing-an-in-app-message.md).
 
    ![](assets/inapp_creating_6.png)
 

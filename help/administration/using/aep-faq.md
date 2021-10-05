@@ -8,9 +8,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '907'
 ht-degree: 4%
 
 ---
@@ -76,7 +76,7 @@ Hiervoor voert u de volgende stappen uit:
 
 ## Wat moet ik doen om een mobiel profiel in Campagne te verrijken? {#enrich-mobile-profile}
 
-U moet een CollectPII postback (verwijs naar deze [pagina](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback)) vormen en CollectPII API van SDK uitvoeren (verwijs naar deze [pagina](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
+U moet een CollectPII postback (verwijs naar deze [pagina](../../administration/using/configuring-rules-launch.md#pii-postback)) vormen en CollectPII API van SDK uitvoeren (verwijs naar deze [pagina](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
 
 ## Hoe vaak zou een vraag moeten worden in brand gestoken CollectPII? {#collect-pii}
 

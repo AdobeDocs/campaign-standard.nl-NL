@@ -8,9 +8,9 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '443'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ Als u in-app-berichten wilt verzenden op mobiele toepassingen met behulp van de 
 
 1. Zorg ervoor dat u in Adobe Campaign toegang hebt tot het kanaal **[!UICONTROL In-App]**. Neem contact op met uw accountteam als u geen toegang hebt tot deze kanalen.
 
-1. Als u mobiele gebruiksscenario’s in Adobe Campaign Standard wilt gebruiken met een Experience Cloud SDK-applicatie, moet u een mobiele app maken in Adobe Experience Platform Launch en deze configureren in Adobe Campaign Standard. Raadpleeg deze [pagina](https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdk.html) voor de stapsgewijze handleiding.
+1. Als u mobiele gebruiksscenario’s in Adobe Campaign Standard wilt gebruiken met een Experience Cloud SDK-applicatie, moet u een mobiele app maken in Adobe Experience Platform Launch en deze configureren in Adobe Campaign Standard. Raadpleeg deze [pagina](../../administration/using/configuring-a-mobile-application.md) voor de stapsgewijze handleiding.
 
 1. Zodra de configuratie is voltooid, kunt u uw in-app-bericht voorbereiden. Raadpleeg [deze pagina](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message) voor meer informatie.
 
@@ -38,8 +38,8 @@ Als u in-app-berichten wilt verzenden op mobiele toepassingen met behulp van de 
 **Gerelateerde content:**
 
 * [In-app-rapport](../../reporting/using/in-app-report.md)
-* [Mobiele gebruiksscenario’s die worden ondersteund in Adobe Campaign Standard](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)
-* [Campaign Standard - gids voor mobiel gebruik](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+* [Mobiele gebruiksscenario’s die worden ondersteund in Adobe Campaign Standard](../../administration/using/configuring-rules-launch.md)
+* [Campaign Standard - gids voor mobiel gebruik](../../channels/using/get-started-communication-channels.md)
 
 ## Mobiele profielvelden met persoonlijke en vertrouwelijke gegevens verwerken {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 

@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 50%
+source-wordcount: '1237'
+ht-degree: 49%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 50%
 
 Met Adobe Campaign kunt u persoonlijke en gesegmenteerde pushmeldingen verzenden naar mobiele apparaten met iOS en Android.
 
-Deze berichten worden ontvangen in mobiele applicaties die u instelt in Adobe Campaign door gebruik te maken van de Experience Platform-SDK. Zie [Een mobiele applicatie configureren met Adobe Experience Platform-SDK’s](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html) voor meer informatie.
+Deze berichten worden ontvangen in mobiele applicaties die u instelt in Adobe Campaign door gebruik te maken van de Experience Platform-SDK. Zie [Een mobiele applicatie configureren met Adobe Experience Platform-SDK’s](../../administration/using/configuring-a-mobile-application.md) voor meer informatie.
 
 In Adobe Campaign worden data van mobiele profielkenmerken die vanaf een mobiel apparaat worden verzonden, opgeslagen in de resource **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** waardoor u de data die u van de abonnees van uw applicaties wilt verzamelen, kunt definiëren.
 
@@ -40,8 +40,6 @@ Er zijn twee typen pushmeldingen beschikbaar in Adobe Campaign:
 
 Er kunnen specifieke configuraties worden ingesteld om het gedrag van meldingen te definiëren. Raadpleeg [deze sectie](../../channels/using/customizing-a-push-notification.md) voor meer informatie hierover.
 
-Raadpleeg als deskundig gebruiker de [technische toelichtingen](https://helpx.adobe.com/campaign/kb/acs-article-list.html) bij de mobiele app om deze specifieke configuraties te definiëren.
-
 >[!NOTE]
 >
 >De wetgeving inzake privacy verschilt per land. Sommige landen schrijven voor dat u gebruikers informeert over de typen data die door mobiele applicaties worden verzameld. Controleer de wetten met betrekking tot mobiele applicaties in uw land. Zorg ervoor dat pushmeldingen die naar mobiele applicaties worden verzonden, voldoen aan de voorwaarden en vereisten die door Apple (Apple Push Notification Service) en Google (Google Cloud Messaging of Firebase Cloud Messaging) zijn opgegeven.
@@ -51,7 +49,7 @@ Raadpleeg als deskundig gebruiker de [technische toelichtingen](https://helpx.ad
 * [Een pushmelding voorbereiden en verzenden](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Een meertalige pushmelding maken](../../channels/using/creating-a-multilingual-push-notification.md)
 * [Pushmeldingenrapport](../../reporting/using/push-notification-report.md)
-* [Campaign Standard - gids voor mobiel gebruik](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+* [Campaign Standard - gids voor mobiel gebruik](../../channels/using/get-started-communication-channels.md)
 
 ## Vereisten {#prerequisites}
 
@@ -70,11 +68,11 @@ Voordat u pushmeldingen verzendt, moet u het volgende doen:
 
 1. Installeer de extensie **[!UICONTROL Adobe Campaign Standard]** in Experience Platform Launch.
 
-1. Configureer in Adobe Campaign Standaard de mobiele eigenschap die u in Experience Platform Launch hebt gemaakt. Zie [Uw Experience Platform Launch-applicatie instellen in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign) voor meer informatie.
+1. Configureer in Adobe Campaign Standaard de mobiele eigenschap die u in Experience Platform Launch hebt gemaakt. Zie [Uw Experience Platform Launch-applicatie instellen in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign) voor meer informatie.
 
 1. Voeg de kanaalspecifieke configuratie toe aan de configuratie van de mobiele applicatie. Zie [Kanaalspecifieke applicatieconfiguratie in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config) voor meer informatie.
 
-1. Raadpleeg de gedetailleerde instructies voor extensies, Experience Platform Launch-regels en de SDK-implementatie in [Mobiele gebruikssituaties die in Adobe Campaign Standard worden ondersteund door middel van de Adobe Experience Platform-SDK’s](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html) voor informatie over de ondersteuning van mobiele gebruikssituaties.
+1. Raadpleeg de gedetailleerde instructies voor extensies, Experience Platform Launch-regels en de SDK-implementatie in [Mobiele gebruikssituaties die in Adobe Campaign Standard worden ondersteund door middel van de Adobe Experience Platform-SDK’s](../../administration/using/configuring-rules-launch.md) voor informatie over de ondersteuning van mobiele gebruikssituaties.
 
 ## Veelgestelde vragen over pushmeldingen {#push-faq}
 

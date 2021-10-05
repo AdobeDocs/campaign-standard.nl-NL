@@ -8,10 +8,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 3%
+source-wordcount: '903'
+ht-degree: 2%
 
 ---
 
@@ -59,7 +59,7 @@ Voordat u uw meertalige pushmelding kunt aanpassen, moeten we eerst de varianten
 
 1. Sleep in het venster **[!UICONTROL Manage Content Variants]** het bestand en zet het neer of selecteer een bestand van uw computer.
 
-   Het bestand moet UTF8-gecodeerd zijn en moet een specifieke indeling hebben die u kunt vinden door op de optie **[!UICONTROL Download the sample file]** te klikken. U moet ook de juiste syntaxis gebruiken voor waarden van landinstellingen. Raadpleeg [technote](https://docs.adobe.com/content/help/nl-NL/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push.html) voor meer informatie over de bestandsindeling en de ondersteunde landinstellingen.
+   Het bestand moet UTF8-gecodeerd zijn en moet een specifieke indeling hebben die u kunt vinden door op de optie **[!UICONTROL Download the sample file]** te klikken. U moet ook de juiste syntaxis gebruiken voor waarden van landinstellingen. Raadpleeg deze [pagina](../../channels/using/generating-csv-multilingual-push.md) voor meer informatie over de bestandsindeling en de ondersteunde landinstellingen.
 
    ![](assets/multivariant_push_4.png)
 
@@ -132,4 +132,3 @@ U kunt nu de impact van uw meertalige pushmelding op uw ontvangers meten.
 
 * [Pushmeldingenrapport](../../reporting/using/push-notification-report.md)
 * [Een pushmelding verzenden binnen een workflow](../../automating/using/push-notification-delivery.md)
-* [Meertalig publiek bereiken met één workflow](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)

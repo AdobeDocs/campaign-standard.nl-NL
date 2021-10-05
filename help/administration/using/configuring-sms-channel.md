@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1566'
 ht-degree: 93%
 
 ---
@@ -26,7 +26,7 @@ De stappen voor het maken en wijzigen van een extern account worden beschreven i
 
 Het externe account **[!UICONTROL SMS routing via SMPP]** wordt standaard opgegeven, maar het kan nuttig zijn om andere accounts toe te voegen.
 
-Als u het SMPP-protocol wilt gebruiken, kunt u ook een nieuw extern account maken. Voor meer informatie over het protocol en instellingen van sms raadpleegt u deze [technische opmerking](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html).
+Als u het SMPP-protocol wilt gebruiken, kunt u ook een nieuw extern account maken. Voor meer informatie over het protocol en instellingen van sms raadpleegt u deze [technische opmerking](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
 
 1. Maak een nieuw extern account vanaf **[!UICONTROL Administration > Application settings > External accounts]**.
 1. Definieer het accounttype als **[!UICONTROL Routing]**, het kanaal als **[!UICONTROL Mobile (SMS)]** en de leveringsmodus als **[!UICONTROL Bulk delivery]**.

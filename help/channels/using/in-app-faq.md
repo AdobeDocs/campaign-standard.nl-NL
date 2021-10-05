@@ -8,9 +8,9 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '668'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Aangezien de berichten in-app door SDK van Campagne worden getrokken, willen wij
 
 ## Wat moet ik doen om In-App rapportering in Campaign toe te laten? {#enable-inapp-reporting}
 
-U moet in-app het volgen postback vormen. Instructies vindt u [hier](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#InApptrackingpostback).
+U moet in-app het volgen postback vormen. Instructies vindt u [hier](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
 
 Als u het bijhouden van lokale meldingen wilt implementeren, raadpleegt u deze [pagina](../../administration/using/local-tracking.md).
 

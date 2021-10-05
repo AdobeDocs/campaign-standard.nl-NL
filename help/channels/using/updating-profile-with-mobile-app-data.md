@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 4%
+source-wordcount: '996'
+ht-degree: 3%
 
 ---
 
@@ -32,8 +32,8 @@ Het doel van dit gebruiksgeval is het maken of bijwerken van een Campaign Standa
 Er zijn verschillende configuratiestappen om pushmeldingen in te schakelen in Campaign Standard, voordat Profielen kunnen worden gemaakt of bijgewerkt op basis van de abonnementsgegevens voor de mobiele app:
 
 1. [Een mobiele toepassing maken](../../administration/using/configuring-a-mobile-application.md)
-1. [Integreer de Adobe Mobile SDK met uw mobiele toepassing](https://helpx.adobe.com/nl/campaign/kb/integrate-mobile-sdk.html).
-1. [Configureer Adobe Campaign om pushmeldingen](https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdkv4.html) te verzenden.
+1. [Integreer de Adobe Mobile SDK met uw mobiele toepassing](../../administration/using/supported-mobile-use-cases.md).
+1. [Configureer Adobe Campaign om pushmeldingen](../../administration/using/configuring-a-mobile-application.md) te verzenden.
 
 ## Stap 1 - breid het middel van het Profiel voor de Berichten/Abonnementen van de Duw uit
 

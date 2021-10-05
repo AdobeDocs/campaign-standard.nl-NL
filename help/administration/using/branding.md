@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 77%
+source-wordcount: '1282'
+ht-degree: 76%
 
 ---
 
@@ -89,7 +89,7 @@ Een **merk** wordt gedefinieerd door de volgende kenmerken:
 
 U kunt nieuwe entiteiten van uw organisatie toevoegen in Campagne, of een nieuw type van e-mail tot stand brengen dat u onder een verschillend subdomain moet verzenden. Volg onderstaande stappen om dit te doen:
 
-1. **Vorm een nieuw subdomain**  - voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap zijn het te vormen. U kunt dit uitvoeren door [Campagne Controlebord](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl) of bereiken aan uw Adobe technisch contact. Meer informatie over subdomeinconfiguratie [in dit artikel](https://helpx.adobe.com/nl/campaign/kb/domain-name-delegation.html).
+1. **Vorm een nieuw subdomain**  - voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap zijn het te vormen. U kunt dit uitvoeren door [Campagne Controlebord](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl) of bereiken aan uw Adobe technisch contact. Meer informatie over subdomeinconfiguratie [in dit artikel](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
 
    >[!NOTE]
    >

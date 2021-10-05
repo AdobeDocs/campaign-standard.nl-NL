@@ -8,9 +8,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1248'
 ht-degree: 5%
 
 ---
@@ -25,11 +25,9 @@ ht-degree: 5%
 
 Als u pushberichten en In-App-berichten wilt verzenden met de SDK-toepassing van het Experience Platform, moet een mobiele toepassing worden ingesteld in het Adobe Experience Platform Experience Platform-Experience Platform Launch en worden geconfigureerd in Adobe Campaign.
 
-Raadpleeg deze [pagina](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4-deprecated.html) voor meer informatie over de vervangen functie Mobiele versie 4 SDK&#39;s.
-
 Zodra een mobiele toepassing is ingesteld, kunt u de verzamelde PII-gegevens ophalen om profielen te maken of bij te werken vanuit uw database. Raadpleeg voor meer informatie deze sectie: [Profielgegevens maken en bijwerken op basis van gegevens van mobiele toepassingen](../../channels/using/updating-profile-with-mobile-app-data.md).
 
-Raadpleeg deze [pagina](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html) voor meer informatie over de verschillende gevallen van mobiel gebruik die in Adobe Campaign Standard worden ondersteund door de SDK&#39;s van Adobe Experience Platform.
+Raadpleeg deze [pagina](../../administration/using/supported-mobile-use-cases.md) voor meer informatie over de verschillende gevallen van mobiel gebruik die in Adobe Campaign Standard worden ondersteund door de SDK&#39;s van Adobe Experience Platform.
 
 Voer de volgende stappen uit om de configuratie te voltooien:
 

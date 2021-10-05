@@ -8,10 +8,10 @@ feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 25%
+source-wordcount: '278'
+ht-degree: 24%
 
 ---
 
@@ -43,6 +43,3 @@ Het publiek is gebaseerd op profielen met een voltooide voorkeurstaal.
 1. Plan het verzenden met **[!UICONTROL Send after confirmation option]**.
 1. Zodra uw e-mail wordt verzonden, kunt u tot zijn logboeken en rapporten toegang hebben om het succes van uw campagne te meten. Raadpleeg [deze sectie](../../reporting/using/about-dynamic-reports.md) voor meer informatie over rapporten.
 
-**Verwant onderwerp:**
-
-* [Meertalig publiek bereiken met één workflow](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)

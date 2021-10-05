@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1141'
 ht-degree: 3%
 
 ---
@@ -216,7 +216,7 @@ Om aspecten van een android nuttige lading te begrijpen verwijs naar [De Concept
 | Mutable Content <br> (alleen van toepassing op iOS 10 of hoger) | muteerbaar | NA | De uitbreiding van de Dienst van het Bericht in uw app zal &quot;onderscheppen&quot;alle verre berichten met veranderbaar-inhoudssleutel en zal u toestaan om de inhoud van de verzoeklading te behandelen/te manipuleren, die dan kan worden gebruikt om het bericht aan te passen. De gevallen van deze functie omvatten het downloaden en weergeven van meerdere media, het decoderen van gecodeerde gegevens die aanwezig zijn in de pushlading. Meer informatie kan in [wijzigen de lading van een Verre Bericht](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html) worden gevonden. <br>(Alleen van toepassing voor iOS 10 of hoger) |
 | Inhoud beschikbaar | content-available | NA | Als u deze optie selecteert, kan een iOS-app in de achtergrond of stilgezet worden weergegeven. Het wakker worden impliceert dat de app op de achtergrond en de aangewezen gebeurtenismanager verantwoordelijk voor het ontvangen van de lading van de dupmelding gegevens een controle krijgt en de gegevens kan gebruiken om het even welke berekening te doen, met inbegrip van maar niet beperkt tot het bouwen van douanepijpbericht en het tonen van het zelfde. Meer informatie vindt u in [Wake up App with Notification delivery](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
 | URL met rijke media-inhoud (afbeeldingsbestanden)<br>(Alleen van toepassing voor Android) | NA | media-gehechtheid-url | URL van de afbeeldingsbestanden om rijke inhoud aan uw melding toe te voegen. |
-| NA | _mId<br>_dId | _mId <br>_dId | Waarden van broadlogId en deliveryId.<br>Deze kenmerken zijn vereist als uw app een trackingpostback wil aanroepen om bij te houden wanneer op de pushmelding is geklikt of deze is geopend. Deze informatie wordt berekend en intern verzonden door de toepassingsserver zonder tussenkomst van de gebruiker.<br>Informatie over postbacks vindt u op deze  [pagina](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback). |
+| NA | _mId<br>_dId | _mId <br>_dId | Waarden van broadlogId en deliveryId.<br>Deze kenmerken zijn vereist als uw app een trackingpostback wil aanroepen om bij te houden wanneer op de pushmelding is geklikt of deze is geopend. Deze informatie wordt berekend en intern verzonden door de toepassingsserver zonder tussenkomst van de gebruiker.<br>Informatie over postbacks vindt u op deze  [pagina](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
 
 ### Informatie over de payload ophalen in mobiele app-code {#payload-information}
 

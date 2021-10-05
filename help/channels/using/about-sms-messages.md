@@ -9,10 +9,10 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 23%
+source-wordcount: '264'
+ht-degree: 21%
 
 ---
 
@@ -40,7 +40,7 @@ Als u SMS-berichten naar een mobiele telefoon wilt verzenden, hebt u het volgend
 * [Sjablonen beheren](../../start/using/marketing-activity-templates.md)
 * [SMS-configuratie](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [Sms-rapport](../../reporting/using/sms-report.md)
-* [Campaign Standard - gids voor mobiel gebruik](https://helpx.adobe.com/nl/campaign/kb/acs-mobile.html)
+* [Campaign Standard - gids voor mobiel gebruik](../../channels/using/get-started-communication-channels.md)
 
 ## Sjabloon voor verzending via SMS {#sms-delivery-template}
 

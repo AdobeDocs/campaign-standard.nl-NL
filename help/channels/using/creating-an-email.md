@@ -8,9 +8,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '551'
 ht-degree: 17%
 
 ---
@@ -90,7 +90,7 @@ U kunt een e-mail van een [campagne](../../start/using/marketing-activities.md#c
 
 **Verwante onderwerpen**:
 
-* [Een gepersonaliseerde ](https://helpx.adobe.com/nl/campaign/kb/acs-get-started-with-emails.html) stapsgewijze handleiding voor e-mail maken
+* [Een gepersonaliseerde ](../../channels/using/key-steps-to-send-a-message.md) stapsgewijze handleiding voor e-mail maken
 * [Integratie van Adobe Campaign en Dreamweaver](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Integreren met Adobe Experience Manager](../../integrating/using/integrating-with-experience-manager.md)
 
