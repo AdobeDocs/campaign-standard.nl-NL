@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '650'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -89,19 +89,19 @@ De taal wordt ingesteld bij de installatie en kan daarna niet worden meer gewijz
 
 | Actie | Sneltoets |
 | --- | --- |
-| Navigeren door afzonderlijke elementen van de gebruikersinterface | Tab |
-| Het geselecteerde item activeren | Enter of Spatiebalk |
+| Door afzonderlijke elementen van de gebruikersinterface navigeren | Tabtoets |
+| Het geselecteerde item activeren | Enter of spatiebalk |
 
 ### E-mailontwerper {#email-designer-shortcuts}
 
-| Actie | Windows-sneltoets | macOS-sneltoets |
+| Actie | Windows-sneltoets | Mac OS-sneltoets |
 | --- | --- | --- |
 | Ongedaan maken | Ctrl + Z | Command + Z |
 | Opnieuw | Ctrl + Y | Shift + Command + Z |
 
 ### Dynamische rapporten {#report-shortcuts}
 
-| Actie | Windows-sneltoets | macOS-sneltoets |
+| Actie | Windows-sneltoets | Mac OS-sneltoets |
 | --- | --- | --- |
 | Een project openen | Ctrl + O | Command + O |
 | Opslaan | Ctrl + S | Command + S |
@@ -113,7 +113,7 @@ De taal wordt ingesteld bij de installatie en kan daarna niet worden meer gewijz
 | Opnieuw | Ctrl + Y | Shift + Command + Z |
 | Nieuw leeg deelvenster | Alt + B | Option + B |
 | Nieuwe vrije vorm | Alt + A | Option + A |
-| Nieuwe vrije-vormlijst | Alt + 1 | Option + 1 |
+| Nieuwe vrije-vormtabel | Alt + 1 | Option + 1 |
 | Nieuwe regel | Alt + 2 | Option + 2 |
 | Nieuwe balk | Alt + 3 | Option + 3 |
 | Rapport nu verzenden | Alt + S | Option + S |
