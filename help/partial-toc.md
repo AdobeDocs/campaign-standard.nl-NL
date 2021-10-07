@@ -4,14 +4,14 @@ title: Adobe Campaign Standard-productdocumentatie
 description: Bladeren door de Campaign Standard-productdocumentatie
 topic: Premium
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '35'
 ht-degree: 100%
 
 ---
 
 
-# Campagne-Standard - Inhoudsopgave {#campaign-standard-partial-ignore}
+# Campaign-Standard-TOC {#campaign-standard-partial-ignore}
 
 + Beheer{#administration}
    + [Moeheidsregels](sending/using/fatigue-rules.md)
@@ -20,4 +20,4 @@ ht-degree: 100%
    + [E-mailkanaal configureren](administration/using/configuring-email-channel.md)
    + [Filterregels](sending/using/filtering-rules.md)
 + Starten{#starting}
-   + [Over de interface](start/using/about-the-interface.md)
+   + [De interface](start/using/about-the-interface.md)
