@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1599'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Daarom is het uw verantwoordelijkheid als gegevenscontroller om de identiteit te
 
 ### Naamruimten {#namesspaces}
 
-Definieer de naamruimte die u wilt gebruiken voordat u de privacyverzoeken maakt. De naamruimte is de sleutel die wordt gebruikt om de betrokkene in de Adobe Campaign-database te identificeren. Er zijn twee ingebouwde naamruimten beschikbaar: e-mail en mobiele telefoon. Voer de volgende stappen uit als u een andere naamruimte nodig hebt (bijvoorbeeld een aangepast profielveld).
+Voordat u privacyverzoeken maakt, moet u de naamruimte definiëren die u wilt gebruiken. De naamruimte is de sleutel die wordt gebruikt om de betrokkene in de Adobe Campaign-database te identificeren. Er zijn twee ingebouwde naamruimten beschikbaar: e-mail en mobiele telefoon. Voer de volgende stappen uit als u een andere naamruimte nodig hebt (bijvoorbeeld een aangepast profielveld).
 
 Raadpleeg ook deze [tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=nl#privacy) over het maken van een naamruimte.
 
@@ -53,7 +53,7 @@ Raadpleeg ook deze [tutorial](https://experienceleague.adobe.com/docs/campaign-s
 >
 >Als u meerdere naamruimten gebruikt, maakt u één privacyverzoek per naamruimte.
 
-1. Klik in de linkerbovenhoek op het Adobe Campaign-logo en selecteer **[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**.
+1. Klik op het Adobe Campaign-logo in de linkerbovenhoek en selecteer **[!UICONTROL Administration]** > **[!UICONTROL Namespaces]**.
 
    ![](assets/privacy-namespaces.png)
 
@@ -75,9 +75,9 @@ Raadpleeg ook deze [tutorial](https://experienceleague.adobe.com/docs/campaign-s
 
    Raadpleeg de documentatie bij [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=nl) voor meer informatie over naamruimten.
 
-1. In Campaign wordt één INS (Identity Service Namespace) toegewezen aan één naamruimte. U moet opgeven hoe de naamruimte in Campagne moet worden afgestemd.
+1. In Campaign wordt één INS (Identity Service Namespace) toegewezen aan één naamruimte. U moet opgeven hoe de naamruimte in Campaign wordt afgestemd.
 
-   Selecteer een doeltoewijzing (**[!UICONTROL Recipients]**, **[!UICONTROL Real-time event]** of **[!UICONTROL Subscriptions to an application]**). Als u verschillende doeltoewijzingen wilt gebruiken, maakt u één naamruimte per doeltoewijzing.
+   Selecteer een doeltoewijzing (**[!UICONTROL Recipients]**, **[!UICONTROL Real-time event]** of **[!UICONTROL Subscriptions to an application]**). Als u verschillende doeltoewijzingen wilt gebruiken, moet u één naamruimte per doeltoewijzing maken.
 
    ![](assets/privacy-namespace-target-mapping.png)
 
@@ -127,9 +127,9 @@ Als u aangepaste bronnen hebt gemaakt met een koppeling naar de profielbron (eig
 
 Raadpleeg ook [deze tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=nl#privacy) over het wijzigen van aangepaste bronnen.
 
-Dit werkt alleen als u de optie **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** selecteert in de aangepaste bron:
+Dit werkt alleen als u in de aangepaste bron de optie **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** selecteert:
 
-1. Klik in de linkerbovenhoek op het Adobe Campaign-logo en selecteer **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**.
+1. Klik op het Adobe Campaign-logo in de linkerbovenhoek en selecteer **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**.
 
 1. Selecteer een aangepaste bron met een koppeling naar de profielbron (eigen type).
 
@@ -191,7 +191,7 @@ Wanneer gebruikers via uw systeem besluiten dat zij niet toestaan dat hun persoo
 
 Vanaf versie 19.4 is het veld **[!UICONTROL CCPA Opt-Out]** ingebouwd in de Campaign-interface en -API. Het veld is standaard beschikbaar voor de standaard **[!UICONTROL Profile]**-bron.
 
-Als u een middel van het douaneprofiel gebruikt, moet u het middel uitbreiden en het gebied toevoegen. We adviseren u om een andere naam te gebruiken dan het ingebouwde veld, zoals: **[!UICONTROL Opt-Out for CCPA]** (optoutccpa). Wanneer een nieuw veld wordt gemaakt, wordt dit automatisch ondersteund door de Campaign-API.
+Als u een aangepaste profielbron gebruikt, moet u de bron uitbreiden en het veld toevoegen. We adviseren u om een andere naam te gebruiken dan het ingebouwde veld, zoals: **[!UICONTROL Opt-Out for CCPA]** (optoutccpa). Wanneer een nieuw veld wordt gemaakt, wordt dit automatisch ondersteund door de Campaign-API.
 
 Zie [deze sectie](../../developing/using/extending-the-profile-resource-with-a-new-field.md) voor meer informatie over het uitbreiden van de profielbron.
 
