@@ -8,22 +8,22 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: ce3c7cf767a0b6f72f5ca35779b492271d025227
+source-git-commit: 85c42129e105999483d23865f2534c90406251e4
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 94%
+source-wordcount: '423'
+ht-degree: 74%
 
 ---
 
 # Releaseplanning {#release-planning}
 
-Adobe-oplossingen worden voortdurend verbeterd door het toevoegen van nieuwe functies, verbeteringen en correcties.
+Adobe verbetert voortdurend zijn oplossingen door nieuwe mogelijkheden, verhogingen, en moeilijke situaties toe te voegen.
 
 Alle Adobe Campaign Standard-instanties worden geüpgraded met elke nieuwe release. Er is geen actie vereist om een upgrade uit te voeren.
 
-Upgrades worden in twee fasen geïmplementeerd. Eerst worden Stage-instanties bijgewerkt zodat onze klanten nieuwe mogelijkheden kunnen testen en zo nodig hun configuratie kunnen aanpassen. Vervolgens worden productie-instanties bijgewerkt.
+Upgrades worden in twee fasen geïmplementeerd. Eerst worden Stage-instanties bijgewerkt, zodat u nieuwe mogelijkheden kunt testen en zo nodig uw configuratie kunt aanpassen. Productie-instanties worden vervolgens bijgewerkt.
 
-Alle releasedatums kunnen worden gewijzigd. We raden u aan deze pagina regelmatig te bezoeken om te kijken of er updates zijn.
+Alle releasedatums kunnen worden gewijzigd: bezoek deze pagina regelmatig om te controleren op updates.
 
 ## Release 22.1 - februari 2022 {#release-22-1-release}
 
@@ -45,7 +45,7 @@ Gedetailleerde informatie over deze release is beschikbaar in het dialoogvenster
   </tr>
   <tr>
    <td>Productie<br /> </td>
-   <td>15 - 22 februari 2021<br /> </td>
+   <td>15 feb. 22, 2022<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -68,11 +68,11 @@ A: Nee. Tijdens een upgrade van de database kan het zijn dat deze gedurende enke
 
 **V: Worden de berichten nog steeds verstuurd?**
 
-A: Nee. Berichten worden gedurende een paar minuten niet verzonden. Zodra de upgrade is voltooid, worden de processen automatisch opnieuw gestart.
+A: Nee. Berichten worden gedurende een paar minuten niet verzonden. Wanneer de upgrade is voltooid, worden de processen automatisch opnieuw gestart.
 
 **V: Blijven de workflows lopen en worden de leveringen verzonden?**
 
-A: Nee. Tijdens de upgrade worden de workflowserver en MTA allebei onderbroken. Dit betekent dat workflows niet worden uitgevoerd en dat de leveringen gedurende een paar minuten niet worden verzonden. U hoeft niets te doen, de workflows worden opnieuw gestart zodra de instantie is bijgewerkt.
+A: Nee. Tijdens de upgrade worden de workflowserver en MTA allebei onderbroken. Dit heeft tot gevolg dat workflows niet worden uitgevoerd en dat leveringen niet gedurende een paar minuten worden verzonden. U hoeft niets te doen, de workflows worden opnieuw gestart zodra de instantie is bijgewerkt.
 
 **V: Werkt de tracking van koppelingen in berichten nog tijdens de upgrade?**
 
