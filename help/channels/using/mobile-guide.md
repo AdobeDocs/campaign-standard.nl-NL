@@ -7,10 +7,11 @@ topic-tags: mobile-guide
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: e583ba4e93b16389be9d06c4b7fa8eebf4ee3cfc
+exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 23%
+ht-degree: 24%
 
 ---
 
@@ -18,12 +19,12 @@ ht-degree: 23%
 
 <table style="table-layout:fixed">
 <tr>
-<td><img src="assets/do-not-localize/config_push.png" width="60px"><p>Meer informatie over het configureren van uw mobiele toepassing voor pushberichten </br><a href="#configuration-push">Klik hier</a></p></td>
-<td><img src="assets/do-not-localize/config_inapp.png" width="60px"><p>Leer hoe u uw mobiele toepassing voor In-App-berichten kunt configureren </br><a href="#configuring-mobile-app">Klik hier</a></p></td>
+<td><img src="assets/do-not-localize/config_push.png" width="60px"><p>Leer hoe u uw mobiele toepassing configureert voor pushberichten </br><a href="#configuration-push">Klik hier</a></p></td>
+<td><img src="assets/do-not-localize/config_inapp.png" width="60px"><p>Leer hoe u uw mobiele toepassing voor InApp-berichten configureert </br><a href="#configuring-mobile-app">Klik hier</a></p></td>
 </tr>
 <tr>
 <td><img src="assets/do-not-localize/push2.png" width="60px"><p>Meer informatie over het maken van pushmeldingen </br><a href="#create-push">Klik hier</a></p></td>
-<td><img src="assets/do-not-localize/inapp.png" width="60px"><p>Leer hoe te om binnen-app berichten te creëren</br><a href="#create-inapp">Klik hier</a></p></td></tr>
+<td><img src="assets/do-not-localize/inapp.png" width="60px"><p>Leer hoe u in-app-berichten maakt</br><a href="#create-inapp">Klik hier</a></p></td></tr>
 </table>
 
 ## Informatie over mobiele levering {#about-mobile}
@@ -67,7 +68,7 @@ Met Adobe Campaign Standard kunt u mobiele leveringen via drie verschillende kan
     <div>
     <p><strong>Pushtracking implementeren</strong></p>
     </div>
-    <p>Leer hoe u ervoor kunt zorgen dat pushmeldingen correct zijn geïmplementeerd op iOS en Android.</br><a href="../../administration/using/push-tracking.md"><strong>Klik hier</strong></a> voor meer informatie.</p>
+    <p>Leer hoe u ervoor kunt zorgen dat pushberichten correct worden geïmplementeerd op iOS en Android.</br><a href="../../administration/using/push-tracking.md"><strong>Klik hier</strong></a> voor meer informatie.</p>
     <br>
   </td>
 </tr>
@@ -97,7 +98,7 @@ Met Adobe Campaign Standard kunt u mobiele leveringen via drie verschillende kan
     <div>
     <p><strong>Adobe Experience Platform Launch-regels configureren ter ondersteuning van Adobe Campaign Standard-gebruiksgevallen</strong></p>
     </div>
-    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Klik </strong></a> hier om gegevenselementen en regels te maken in Adobe Experience Platform Launch om PII's en andere gegevens van mobiele toepassingen naar Adobe Campaign Standard te verzenden.</p>
+    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Klik hier</strong></a> beginnen met het maken van gegevenselementen en -regels in Adobe Experience Platform Launch om PII's en andere gegevens van mobiele toepassingen naar Adobe Campaign Standard te verzenden.</p>
     <br>
   </td>
   <td>
@@ -118,7 +119,7 @@ Met Adobe Campaign Standard kunt u mobiele leveringen via drie verschillende kan
     <div>
     <p><strong>Een pushmelding voorbereiden en verzenden</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>Leer </strong></a> hier hoe u uw pushmelding voorbereidt en hoe u deze naar uw doelgroep verzendt.</p>
+    <p><a href="../../channels/using/preparing-and-sending-a-push-notification.md"><strong>Meer hier</strong></a> hoe u uw pushmelding voorbereidt en hoe u deze naar uw doelgroep verzendt.</p>
     <br>
   </td>
   <td>
@@ -141,7 +142,7 @@ Met Adobe Campaign Standard kunt u mobiele leveringen via drie verschillende kan
     <div>
     <p><strong>Een afbeelding weergeven vanuit een Adobe Campaign Standard-pushmelding</strong></p>
     </div>
-    <p><a href="../../administration/using/image-push-notification.md"><strong>Leer </strong></a> hier hoe u een afbeelding van een Adobe Campaign-pushmelding weergeeft op een iOS-apparaat.</p>
+    <p><a href="../../administration/using/image-push-notification.md"><strong>Meer hier</strong></a> hoe u een afbeelding weergeeft via een Adobe Campaign-pushmelding op een iOS-apparaat.</p>
     <br>
   </td>
 </tr>
@@ -155,7 +156,7 @@ Met Adobe Campaign Standard kunt u mobiele leveringen via drie verschillende kan
     <div>
     <p><strong>Een in-app-bericht voorbereiden en verzenden</strong></p>
     </div>
-    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>Leer </strong></a> hier hoe u uw In-App-berichten voorbereidt en hoe u deze naar uw doelgroep verzendt.</p>
+    <p><a href="../../channels/using/preparing-and-sending-an-in-app-message.md"><strong>Meer hier</strong></a> hoe te om uw in-app berichten voor te bereiden dan hoe te om het naar uw gericht publiek te verzenden.</p>
     <br>
   </td>
   <td>
@@ -192,7 +193,7 @@ Met Adobe Campaign Standard kunt u mobiele leveringen via drie verschillende kan
     <div>
     <p><strong>Een sms-bericht maken</strong></p>
     </div>
-    <p>Het maken van een sms-verzending lijkt sterk op het maken van een standaard e-mail. </br>De stappen  <a href="../../channels/using/creating-an-sms-message.md"><strong>gedetailleerd </strong></a> beschrijven de configuratie die voor dit kanaal specifiek is.</br></p>
+    <p>Het maken van een sms-verzending lijkt sterk op het maken van een standaard e-mail. </br>De stappen <a href="../../channels/using/creating-an-sms-message.md"><strong>gedetailleerd hier</strong></a> beschrijf de configuratie die voor dit kanaal specifiek is.</br></p>
     <br>
   </td>
   <td>
@@ -209,7 +210,7 @@ Met Adobe Campaign Standard kunt u mobiele leveringen via drie verschillende kan
     <div>
     <p><strong>Binnenkomende sms'en beheren</strong></p>
     </div>
-    <p>Wanneer een profiel op een bericht van SMS antwoordt dat via Campagne werd verzonden, kunt u berichten vormen die automatisch naar hem evenals de actie worden teruggestuurd om uit te voeren.Aanpassen van een lokaal berichtberichttype</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Klik hier voor meer informatie.</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
+    <p>Wanneer een profiel op een SMS-bericht antwoordt dat via Campagne is verzonden, kunt u berichten configureren die automatisch naar hen worden teruggestuurd, evenals de actie die moet worden uitgevoerd.Een lokaal berichttype aanpassen</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Klik hier voor meer informatie.</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
     <br>
   </td>
   <td>
@@ -248,5 +249,3 @@ De volgende pagina&#39;s helpen u de meest voorkomende problemen op te lossen di
   </td>
 </tr>
 </table>
-
-

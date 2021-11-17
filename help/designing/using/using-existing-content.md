@@ -8,9 +8,9 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0d645de54106d49452a846ee650335607dbf21d3
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1282'
 ht-degree: 5%
 
 ---
@@ -25,19 +25,19 @@ Wanneer u een e-mail- of landingspagina maakt, kunt u desgewenst bestaande inhou
 
 >[!NOTE]
 >
->In de onderstaande afbeeldingen ziet u hoe u bestaande inhoud kunt laden met de [e-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md).
+>In de onderstaande afbeeldingen ziet u hoe u bestaande inhoud laadt met de [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. Open na het maken van de e-mail- of landingspagina de inhoud ervan.
-1. Klik op het pictogram Home om de startpagina van **[!UICONTROL Email Designer]** te openen.
+1. Klik op het pictogram van de introductiepagina voor toegang tot de **[!UICONTROL Email Designer]** homepage.
 
    ![](assets/des_loading_1.png)
 
 1. Selecteer de bron van de inhoud die u wilt laden:
 
-   * [Inhoudssjablonen](../../designing/using/using-reusable-content.md#content-templates): Klik op het  **[!UICONTROL Templates]** tabblad.
-   * [Inhoud helemaal vanaf](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch) het begin tot vers: Klik op de  **[!UICONTROL Create]** knop.
-   * [Inhoud van uw computer als een ZIP- of HTML-bestand](#importing-content-from-a-file): Klik op de  **[!UICONTROL Upload]** knop.
-   * [Inhoud van een bestaande URL](#importing-content-from-a-url)  (alleen voor e-mails): Klik op de  **[!UICONTROL Import from URL]** knop.
+   * [Inhoudssjablonen](../../designing/using/using-reusable-content.md#content-templates): klik op **[!UICONTROL Templates]** tab.
+   * [Inhoud helemaal opnieuw](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), om vers te beginnen: klik op **[!UICONTROL Create]** knop.
+   * [Inhoud van uw computer als ZIP- of HTML-bestand](#importing-content-from-a-file): klik op **[!UICONTROL Upload]** knop.
+   * [Inhoud van een bestaande URL](#importing-content-from-a-url) (alleen voor e-mails): klik op **[!UICONTROL Import from URL]** knop.
 
    ![](assets/des_loading_2.png)
 
@@ -47,7 +47,7 @@ Wanneer u een e-mail- of landingspagina maakt, kunt u desgewenst bestaande inhou
 
    >[!NOTE]
    >
-   >In de [e-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md) wordt specifieke codering gebruikt. Standaard HTML-inhoud die naar Campagne is geüpload, moet overeenkomen met de verwachte codering om volledig compatibel te zijn met en te kunnen worden bewerkt vanuit de e-mailontwerper. Als de inhoud niet overeenkomt, wordt de inhoud geüpload in [compatibiliteitsmodus](#compatibility-mode). Zie [deze sectie](#editing-existing-contents-with-the-email-designer) om bestaande inhoud compatibel te maken.
+   >De [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md) gebruikt specifieke codering. Standaard HTML-inhoud die naar Campagne wordt geüpload, moet overeenkomen met de verwachte codering om volledig compatibel te zijn met en te kunnen worden bewerkt vanuit de e-mailontwerper. Als de inhoud niet overeenkomt, wordt de inhoud geüpload in [compatibiliteitsmodus](#compatibility-mode). Bestaande inhoud compatibel maken, raadpleegt u [deze sectie](#editing-existing-contents-with-the-email-designer).
 
 **Verwante onderwerpen:**
 
@@ -56,19 +56,19 @@ Wanneer u een e-mail- of landingspagina maakt, kunt u desgewenst bestaande inhou
 
 ## Bestaande inhoud bewerken met de e-mailontwerper{#editing-existing-contents-with-the-email-designer}
 
-Als u de versiemogelijkheden van de [e-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md) volledig wilt benutten, moet uw geüploade HTML specifieke codering bevatten die ervoor zorgt dat deze compatibel is met de WYSIWYG-editor.
+De mogelijkheden van de [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md), moet de geüploade HTML specifieke tags bevatten die ervoor zorgen dat deze voldoet aan de WYSIWYG-editor.
 
-Als de HTML deze codering niet geheel of gedeeltelijk heeft, wordt de inhoud geladen in &#39; [compatibiliteitsmodus](#compatibility-mode)&#39;.
+Als de HTML deze codering niet geheel of gedeeltelijk heeft, wordt de inhoud geladen in &#39; [compatibiliteitsmodus](#compatibility-mode)&quot;.
 
-Als u een bestaande externe inhoud volledig bewerkbaar wilt maken in de E-mailontwerper, raadpleegt u de sectie [Een e-mail ontwerpen met bestaande inhoud](../../designing/using/using-existing-content.md).
+Als u een bestaande externe inhoud volledig bewerkbaar wilt maken in de e-mailontwerper, raadpleegt u de [Een e-mail ontwerpen met bestaande inhoud](../../designing/using/using-existing-content.md) sectie.
 
 ## Bestaande e-mailinhoud importeren {#importing}
 
 ### Inhoud uit een bestand importeren {#importing-content-from-a-file}
 
-Klik op de introductiepagina E-mail Designer op de knop **[!UICONTROL Upload]** om een bestand van uw computer te uploaden en bevestig het vervolgens.
+Klik op de introductiepagina E-mail Designer op de knop **[!UICONTROL Upload]** om een bestand van uw computer te uploaden, bevestig vervolgens.
 
-Er zijn geen beperkingen op de ZIP-bestandsstructuur. Verwijzen naar HTML-bestanden moet echter relatief zijn en de boomstructuur van de ZIP-map respecteren.
+Er zijn geen beperkingen op de ZIP-bestandsstructuur. Het verwijzen naar HTML-bestanden moet echter relatief zijn en de boomstructuur van de ZIP-map respecteren.
 
 De volgende indelingen worden ondersteund voor importeren:
 
@@ -77,14 +77,14 @@ De volgende indelingen worden ondersteund voor importeren:
 
 >[!NOTE]
 >
->Voor e-mailinhoud raden we u aan om afzonderlijke HTML-bestanden met een opgenomen stijlpagina te importeren.
+>Voor e-mailinhoud raden we u aan enkele HTML-bestanden te importeren met een opgenomen stijlblad.
 
 #### Inhoud van een URL importeren {#importing-content-from-a-url}
 
 Voordat u inhoud van een URL importeert, moet u controleren of aan de onderstaande vereisten wordt voldaan:
 
 * De inhoud moet openbaar zijn via deze URL.
-* Om veiligheidsredenen zijn alleen URL&#39;s toegestaan die beginnen met **[!UICONTROL https]**.
+* Om beveiligingsredenen beginnen alleen URL&#39;s met **[!UICONTROL https]** zijn toegestaan.
 * Zorg ervoor dat alle bronnen (afbeeldingen, CSS) zijn ingesteld in absolute koppelingen en in HTTPS. Anders wordt de spiegel na het verzenden van de e-mail weergegeven zonder de bijbehorende bronnen. Hier volgt een voorbeeld van een absolute koppelingsdefinitie:
 
    ```
@@ -97,7 +97,7 @@ Voordat u inhoud van een URL importeert, moet u controleren of aan de onderstaan
 
 Ga als volgt te werk om bestaande inhoud van een URL op te halen:
 
-1. Selecteer op de introductiepagina E-mail Designer de knop **[!UICONTROL Import from URL]**.
+1. Selecteer op de introductiepagina E-mail Designer de optie **[!UICONTROL Import from URL]** knop.
 
    ![](assets/email_designer_importfromurl.png)
 
@@ -108,15 +108,15 @@ Ontdek deze functie in video.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
 
-Er zijn [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl) extra Campaign Standard hoe kan ik-video&#39;s beschikbaar.
+Er zijn aanvullende Campaign Standard-hoe-kan-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).
 
 ### Inhoud automatisch ophalen van een URL tijdens het voorbereiden {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
-Wanneer u inhoud importeert vanaf een URL tijdens het voorbereiden van berichten, kunt u telkens wanneer de e-mail wordt voorbereid, de meest recente HTML-inhoud ophalen. Op die manier is de inhoud van terugkerende e-mails altijd up-to-date op het moment van verzending. Met deze functie kunt u ook een bericht maken dat op een bepaalde datum is gepland, zelfs als de inhoud nog niet gereed is.
+Wanneer u inhoud importeert vanaf een URL tijdens de voorbereiding van berichten, kunt u telkens wanneer de e-mail wordt voorbereid, de meest recente HTML-inhoud ophalen. Op die manier is de inhoud van terugkerende e-mails altijd up-to-date op het moment van verzending. Met deze functie kunt u ook een bericht maken dat op een bepaalde datum is gepland, zelfs als de inhoud nog niet gereed is.
 
 Volg onderstaande stappen om inhoud op te halen tijdens het voorbereiden:
 
-1. Selecteer de optie **[!UICONTROL Content imported during preparation]**.
+1. Selecteer **[!UICONTROL Content imported during preparation]** optie.
 
    ![](assets/email_designer_importfromurl2.png)
 
@@ -124,30 +124,40 @@ Volg onderstaande stappen om inhoud op te halen tijdens het voorbereiden:
 
    >[!CAUTION]
    >
-   >Bij deze stap moet geen rekening worden gehouden met de HTML-weergave in de inhoudseditor. Het zal in de voorbereidingsfase worden opgehaald.
+   >Bij deze stap moet geen rekening worden gehouden met de weergave HTML in de inhoudseditor. Het zal in de voorbereidingsfase worden opgehaald.
 
-1. Als u een voorvertoning wilt weergeven van de URL-inhoud die is opgehaald, opent u het bericht nadat het is gemaakt en klikt u op de knop **[!UICONTROL Preview]**.
+1. Als u een voorvertoning wilt weergeven van de URL-inhoud die is opgehaald, opent u het bericht nadat u het hebt gemaakt en klikt u op de knop **[!UICONTROL Preview]** knop.
 
 Het is mogelijk om de externe URL te personaliseren waarvan de inhoud wordt opgehaald. Volg de onderstaande stappen om dit te doen:
 
-1. Klik op het e-maillabel boven op het scherm om het tabblad E-mailontwerper **[!UICONTROL Properties]** te openen.
-1. Het veld **[!UICONTROL Remote URL]** zoeken.
+1. Klik op het e-maillabel boven op het scherm om naar de e-mailontwerper te gaan **[!UICONTROL Properties]** tab.
+1. Zoek de **[!UICONTROL Remote URL]** veld.
 
    ![](assets/email_designer_importfromurl4.png)
 
 1. Voeg het gewenste verpersoonlijkingsveld, inhoudsblok of dynamische tekst in.
 
-   Met het inhoudsblok **[!UICONTROL Current date - YYYYMMDD]** kunt u bijvoorbeeld de datum van de dag invoegen.
+   De **[!UICONTROL Current date - YYYYMMDD]** Met inhoudsblok kunt u bijvoorbeeld de datum van de dag invoegen.
 
    >[!NOTE]
    >
-   >De beschikbare verpersoonlijkingsvelden zijn alleen gekoppeld aan **Delivery**-kenmerken (aanmaakdatum, status, campagnelabel..).
+   >De beschikbare verpersoonlijkingsvelden zijn gekoppeld aan **Aflevering** alleen kenmerken (aanmaakdatum, status, campagnelabel...).
+
+Als het downloaden van inhoud bij de eerste poging mislukt, kan deze twee keer opnieuw worden geprobeerd:
+
+1. De tweede poging start 50 ms na de eerste poging.
+1. De derde poging start 100 ms na de tweede poging.
+
+Deze pogingen zijn in deze gevallen nuttig:
+
+* Een kortstondige de dienstmislukking op een verre server
+* Een serverfout op een cluster, waarbij de pogingen waarschijnlijk meer zullen slagen dankzij taakverdeling op een werkende server
 
 ### Compatibiliteitsmodus {#compatibility-mode}
 
 Wanneer u inhoud uploadt, moet deze specifieke codering bevatten om volledig compatibel te zijn met en te kunnen worden bewerkt met de WYSIWYG-editor van de e-mailontwerper.
 
-Als de geüploade HTML geheel of gedeeltelijk niet voldoet aan de verwachte codering, wordt de inhoud vervolgens geladen in de &#39;compatibiliteitsmodus&#39;, die de versiemogelijkheden beperkt via de gebruikersinterface.
+Als de geüploade HTML geheel of gedeeltelijk niet voldoet aan de verwachte codering, wordt de inhoud vervolgens geladen in de &#39;compatibiliteitsmodus&#39;, die de weergavemogelijkheden via de gebruikersinterface beperkt.
 
 Wanneer inhoud wordt geladen in de compatibiliteitsmodus, kunt u nog steeds de volgende wijzigingen uitvoeren via de interface (niet-beschikbare acties worden verborgen):
 
@@ -158,9 +168,9 @@ Wanneer inhoud wordt geladen in de compatibiliteitsmodus, kunt u nog steeds de v
 
 ![](assets/email_designer_compatibility.png)
 
-Andere wijzigingen, zoals het toevoegen van nieuwe secties aan uw e-mail of geavanceerde opmaak, moeten rechtstreeks in de broncode van de e-mail worden uitgevoerd via de HTML-modus.
+Andere wijzigingen, zoals het toevoegen van nieuwe secties aan uw e-mail of geavanceerde opmaak, moeten rechtstreeks in de broncode van de e-mail worden uitgevoerd via de modus HTML.
 
-Zie [deze sectie](../../designing/using/using-existing-content.md) voor meer informatie over het converteren van een bestaande e-mail naar een e-mail die compatibel is met e-mail die compatibel is met e-mailprogramma&#39;s.
+Ga voor meer informatie over het converteren van een bestaande e-mail naar een e-mail die compatibel is met E-mail die compatibel is met E-mail met Designer naar [deze sectie](../../designing/using/using-existing-content.md).
 
 **Verwant onderwerp**:
 
@@ -168,11 +178,11 @@ Zie [deze sectie](../../designing/using/using-existing-content.md) voor meer inf
 * [Introductievideo over e-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [Een geheel nieuwe e-mailinhoud ontwerpen](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## HTML-inhoud converteren {#converting-an-html-content}
+## HTML-inhoud omzetten {#converting-an-html-content}
 
-Als u een raamwerk van modulaire sjablonen en fragmenten wilt maken die u kunt combineren voor hergebruik in meerdere e-mails, kunt u uw e-mailHTML converteren naar een sjabloon voor e-mailontwerpen.
+Als u een raamwerk van modulaire sjablonen en fragmenten wilt maken die u kunt combineren voor hergebruik in meerdere e-mails, kunt u uw e-mailsjabloon het beste converteren naar een E-mailDesigner-sjabloon.
 
-Met deze kwestie kunt u HTML-e-mail snel converteren naar onderdelen van E-mailontwerper.
+Met deze kwestie kunt u HTML-e-mailberichten snel converteren naar onderdelen van E-mailontwerper.
 
 >[!CAUTION]
 >
@@ -182,7 +192,7 @@ Met deze kwestie kunt u HTML-e-mail snel converteren naar onderdelen van E-mailo
 >
 >Net als in de compatibiliteitsmodus kan een HTML-component met beperkte opties worden bewerkt: u kunt alleen op plaats een editie uitvoeren.
 
-Buiten de e-mailontwerper, zorg ervoor originele HTML in herbruikbare secties wordt verdeeld.
+Buiten de e-mailontwerper, zorg ervoor de originele HTML in herbruikbare secties wordt verdeeld.
 
 Als dit niet het geval is, snijd de verschillende blokken van uw HTML uit. Bijvoorbeeld:
 

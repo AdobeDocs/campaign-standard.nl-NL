@@ -9,10 +9,10 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 7%
+ht-degree: 2%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 7%
 
 ## STOP SMS beheren {#managing-stop-sms}
 
-Wanneer een profiel een sms-bericht beantwoordt dat via Campaign is verzonden, kunt u berichten configureren die automatisch naar het profiel worden teruggestuurd, evenals de actie die moet worden uitgevoerd.
+Wanneer een profiel op een SMS-bericht reageert dat via Campagne is verzonden, kunt u berichten configureren die automatisch naar hen worden teruggestuurd, evenals de actie die moet worden uitgevoerd.
 
-Deze configuratie wordt bepaald in **[!UICONTROL Automatic reply sent to the MO]** sectie van [SMS die externe rekening ](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) verplettert. MO staat voor &#39;Mobiele oorsprong&#39;, wat betekent dat u een automatisch antwoord kunt configureren voor de mobiele gebruiker die het SMS heeft verzonden.
+Deze configuratie is gedefinieerd in het dialoogvenster **[!UICONTROL Automatic reply sent to the MO]** van de [SMS-routering externe account](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing). MO staat voor &#39;Mobiele oorsprong&#39;, wat betekent dat u een automatisch antwoord kunt configureren voor de mobiele gebruiker die het SMS heeft verzonden.
 
 Dit doet u als volgt:
 
-1. Selecteer **[!UICONTROL Administration > Application settings > External accounts]** in het geavanceerde menu via het Adobe Campaign-logo en vervolgens de externe account **[!UICONTROL SMS routing via SMPP]**.
-1. Klik onder de categorie **[!UICONTROL Automatic reply sent to the MO]** op **[!UICONTROL Create element]** om uw automatische reactie te configureren.
+1. Selecteer in het geavanceerde menu via het Adobe Campaign-logo de optie **[!UICONTROL Administration > Application settings > External accounts]** dan de **[!UICONTROL SMS routing via SMPP]** externe rekening.
+1. Onder de **[!UICONTROL Automatic reply sent to the MO]** categorie, klikt u op **[!UICONTROL Create element]** om te beginnen uw automatisch antwoord te vormen.
 
    ![](assets/sms_mo_1.png)
 
@@ -37,69 +37,69 @@ Dit doet u als volgt:
 
    ![](assets/sms_mo_2.png)
 
-1. Geef in het veld **[!UICONTROL Short code]** een getal op dat gewoonlijk wordt gebruikt om leveringen te verzenden en dat als naam van de afzender zal dienen. U kunt ook besluiten om de **[!UICONTROL Short code]** kolom leeg te verlaten, om het zelfde antwoord te verzenden ongeacht wat de korte code.
+1. In de **[!UICONTROL Short code]** Geef een nummer op dat gewoonlijk wordt gebruikt om leveringen te verzenden en dat als naam van de afzender zal fungeren. U kunt ook besluiten om de **[!UICONTROL Short code]** kolom leeg, om het zelfde antwoord te verzenden geen kwestie wat de korte code.
 
    ![](assets/sms_mo_4.png)
 
-1. Typ het antwoord dat u naar uw ontvangers wilt verzenden in het veld **[!UICONTROL Reply]**.
+1. Typ in het veld het antwoord dat u naar de ontvangers wilt verzenden **[!UICONTROL Reply]**.
 
-   Als u een actie wilt uitvoeren zonder een antwoord te verzenden, laat u de kolom **[!UICONTROL Reply]** leeg. Zo kunt u bijvoorbeeld het telefoonnummer van een gebruiker die met een ander bericht dan &quot;STOP&quot; reageert, uit quarantaine verwijderen.
+   Als u een actie wilt uitvoeren zonder een antwoord te verzenden, laat u de **[!UICONTROL Reply]** kolom leeg. Zo kunt u bijvoorbeeld het telefoonnummer van een gebruiker die met een ander bericht dan &quot;STOP&quot; reageert, uit quarantaine verwijderen.
 
    ![](assets/sms_mo_3.png)
 
-1. Koppel in het veld **[!UICONTROL Additional action]** een handeling aan uw automatische antwoord:
+1. In de **[!UICONTROL Additional action]** veld, een handeling koppelen aan uw automatische antwoord:
 
-   * De actie **[!UICONTROL Send to quarantine]** plaatst automatisch het aantal van de profieltelefoon in quarantines.
-   * De actie **[!UICONTROL Remove from quarantine]** verwijdert het aantal van de profieltelefoon uit quarantaine.
-   * Met de handeling **[!UICONTROL None]** kunt u alleen het bericht verzenden naar uw ontvangers zonder een handeling te hoeven uitvoeren.
+   * De **[!UICONTROL Send to quarantine]** De actie plaatst automatisch het aantal van de profieltelefoon in quarantines.
+   * De **[!UICONTROL Remove from quarantine]** de actie verwijdert het aantal van de profieltelefoon uit quarantaine.
+   * De **[!UICONTROL None]** kunt u het bericht alleen naar de ontvangers verzenden zonder een handeling uit te voeren.
 
-   Bijvoorbeeld, in de configuratie hieronder, als de ontvangers het sleutelwoord &quot;STOP&quot;verzenden, zullen zij automatisch een unsubscription bevestiging ontvangen en hun telefoonaantal zal naar quarantaine met de status **[!UICONTROL On denylist]** worden verzonden. Deze status verwijst alleen naar het telefoonnummer. Het profiel is zodanig dat de gebruiker e-mailberichten blijft ontvangen.
+   Als ontvangers in de onderstaande configuratie bijvoorbeeld het trefwoord STOP verzenden, ontvangen ze automatisch een bevestiging van het abonnement en wordt hun telefoonnummer verzonden naar quarantaine met de **[!UICONTROL On denylist]** status. Deze status verwijst alleen naar het telefoonnummer. Het profiel is zodanig dat de gebruiker e-mailberichten blijft ontvangen.
 
    ![](assets/sms_mo.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
-1. Van **[!UICONTROL Advanced parameters]** van uw levering van SMS **[!UICONTROL Properties]**, kunt u specifieke **[!UICONTROL Short code]** plaatsen om automatisch ontvangers uit te sluiten die - uit verkozen. Raadpleeg [deze sectie](../../administration/using/configuring-sms-channel.md#configuring-sms-properties) voor meer informatie hierover.
+1. Van de **[!UICONTROL Advanced parameters]** van je SMS-verzending **[!UICONTROL Properties]** kunt u een specifieke **[!UICONTROL Short code]** om automatisch ontvangers uit te sluiten die hebben gekozen. Raadpleeg voor meer informatie hierover [deze sectie](../../administration/using/configuring-sms-channel.md#configuring-sms-properties).
 
-De ontvangers kunnen nu automatisch het abonnement op uw berichten opzeggen en naar quarantaine worden verzonden met dit automatische antwoord. De in quarantaine geplaatste ontvangers worden vermeld in de **[!UICONTROL Addresses]**-tabel die beschikbaar is via het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]**. Voor meer informatie over quarantines, verwijs naar dit [sectie](../../sending/using/understanding-quarantine-management.md).
+De ontvangers kunnen nu automatisch het abonnement op uw berichten opzeggen en naar quarantaine worden verzonden met dit automatische antwoord. De in quarantaine geplaatste ontvangers worden vermeld in de **[!UICONTROL Addresses]** tabel beschikbaar via **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]** -menu. Voor meer informatie over quarantines, verwijs naar dit [sectie](../../sending/using/understanding-quarantine-management.md).
 
-Deze inkomende SMS kan indien nodig worden opgeslagen. Raadpleeg voor meer informatie hierover deze [sectie](#storing-incoming-sms).
+Deze inkomende SMS kan indien nodig worden opgeslagen. Raadpleeg voor meer informatie hierover [sectie](#storing-incoming-sms).
 
 ## Binnenkomende SMS opslaan {#storing-incoming-sms}
 
-In **[!UICONTROL SMS routing via SMPP]** externe rekening, kunt u verkiezen om inkomende berichten op te slaan, bijvoorbeeld wanneer een abonnee &quot;STOP&quot;aan een SMS- bericht antwoordt om van uw ontvankelijke lijsten te worden verwijderd.
+In de **[!UICONTROL SMS routing via SMPP]** externe account, kunt u ervoor kiezen inkomende berichten op te slaan, bijvoorbeeld wanneer een abonnee &quot;STOP&quot; antwoordt op een SMS-bericht om uit uw lijst met ontvangers te worden verwijderd.
 
 ![](assets/sms_config_mo_1.png)
 
-Door **[!UICONTROL Store incoming MO in the database]** in de **[!UICONTROL SMPP channel settings]** categorie te controleren, zal al SMS in de inSMS lijst worden opgeslagen en kan via een vraagactiviteit in een werkschema worden teruggewonnen.
+Door te controleren **[!UICONTROL Store incoming MO in the database]** in de **[!UICONTROL SMPP channel settings]** categorie, wordt al SMS opgeslagen in de inSMS-tabel en kan worden opgehaald via een queryactiviteit in een workflow.
 
 Dit doet u als volgt:
 
-1. Schakel **[!UICONTROL Store incoming MO in the database]** in het veld **[!UICONTROL SMPP channel settings]** in.
+1. In de **[!UICONTROL SMPP channel settings]** veld, controleren **[!UICONTROL Store incoming MO in the database]**.
 
    ![](assets/sms_config_mo_2.png)
 
-1. Klik op het tabblad **[!UICONTROL Marketing activities]** op **[!UICONTROL Create]** en selecteer **[!UICONTROL Workflow]**.
+1. In de **[!UICONTROL Marketing activities]** tabblad, klikt u op **[!UICONTROL Create]** Selecteer vervolgens **[!UICONTROL Workflow]**.
 
    ![](assets/sms_config_mo_3.png)
 
 1. Selecteer het type workflow.
-1. Bewerk de eigenschappen van de workflow en klik op **[!UICONTROL Create]**. Raadpleeg dit [gedeelte](../../automating/using/building-a-workflow.md) voor meer informatie over het maken van workflows.
-1. Sleep een **[!UICONTROL Query]**-activiteit en dubbelklik op de activiteit.
-1. Kies **[!UICONTROL Incoming SMS (inSMS)]** in het veld **[!UICONTROL Resource]** op het tabblad **[!UICONTROL Properties]** van de query.
+1. Bewerk de eigenschappen van de workflow en klik vervolgens op **[!UICONTROL Create]**. Raadpleeg de volgende secties voor meer informatie over het maken van workflows [sectie](../../automating/using/building-a-workflow.md).
+1. Sleep een **[!UICONTROL Query]** en dubbelklik op de activiteit.
+1. In de **[!UICONTROL Properties]** tabblad van de query, kiest u **[!UICONTROL Incoming SMS (inSMS)]** in de **[!UICONTROL Resource]** veld.
 
    ![](assets/sms_config_mo_4.png)
 
-1. Vervolgens sleept u de **[!UICONTROL Incoming SMS attributes]**-regel op de tab **[!UICONTROL Target]**.
+1. Dan, in **[!UICONTROL Target]** tabblad, slepen en neerzetten **[!UICONTROL Incoming SMS attributes]** regel.
 
    ![](assets/sms_config_mo_5.png)
 
-1. Hier, willen wij elk inkomend bericht van de dag daarvoor richten. Selecteer **[!UICONTROL Creation date (created)]** in de categorie **[!UICONTROL Field]**.
-1. Selecteer **[!UICONTROL Filter type]** en kies **[!UICONTROL Day]** in **[!UICONTROL Level of precision]**.**[!UICONTROL Relative]**
+1. Hier, willen wij elk inkomend bericht van de dag daarvoor richten. In de **[!UICONTROL Field]** categorie, selecteert u **[!UICONTROL Creation date (created)]**.
+1. In **[!UICONTROL Filter type]**, selecteert u **[!UICONTROL Relative]** dan in **[!UICONTROL Level of precision]** kiest u **[!UICONTROL Day]**.
 
    ![](assets/sms_config_mo_6.png)
 
-1. Vervolgens kunt u kiezen of u gegevens wilt ophalen van vandaag, de dag ervoor of de laatste dagen. Klik **[!UICONTROL Confirm]** wanneer uw vraag wordt gevormd.
+1. Vervolgens kunt u kiezen of u gegevens wilt ophalen van vandaag, de dag ervoor of de laatste dagen. Klikken **[!UICONTROL Confirm]** wanneer uw vraag wordt gevormd.
 
 Deze vraag zal elk die STOP bericht terugwinnen afhankelijk van de gekozen tijdwaaier wordt ontvangen.
 

@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '5403'
+source-wordcount: '5401'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ Op zoek naar een specifieke release van Adobe Campaign Standard in 2018?
 
 Elke release bevat nieuwe functies en patches. Klik op een release om de inhoud ervan weer te geven.
 
-Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.md) voor Adobe Campaign Standard. Als u een nieuwere versie zoekt, raadpleegt u deze [pagina](../../rn/using/release-notes.md).
+De nieuwste [documentatie-updates](../../rn/using/documentation-updates.md) voor Adobe Campaign Standard. Als u op zoek bent naar een nieuwere release, raadpleegt u deze [page](../../rn/using/release-notes.md).
 
 ## Release 18.9 - september 2018 {#release-18-9---september-2018}
 
@@ -36,7 +36,7 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
  </thead> 
  <tbody> 
   <tr> 
-   <td> In-app overseinen (bèta)<br /> </td> 
+   <td> In-app berichten (bèta)<br /> </td> 
    <td> Met In-App-berichten kunt u gebruikers van Mobile App effectiever inschakelen door contextuele interactie te bieden en u in staat te stellen gebruikers te bereiken die mogelijk uit pushberichten hebben gekozen. Gebruik in-app berichten in combinatie met pushmeldingen om een zeer persoonlijke en relevante ervaring te creëren. Dit leidt tot betere conversie en behoud van uw App-gebruikers.<br /> Raadpleeg de <a href="../../channels/using/about-in-app-messaging.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
 * Probleem verholpen waarbij onduidelijke selectiegegevens werden weergegeven wanneer de interface voor de query-editor in Creative Designer werd gebruikt.
 * Probleem verholpen waarbij een element niet correct kon worden gedupliceerd wanneer de interface voor de query-editor in Creative Designer werd gebruikt.
 * Probleem verholpen waarbij SMS-berichten aan ontvangers in de lijst van gewezen personen bleven leveren, ook al waren ze via een automatisch antwoord niet meer geabonneerd. (CAMP-27128)
-* Probleem verholpen waarbij het weergeven van de fouten die ertoe leidden dat de **Database opschonen**-workflow mislukte, werd voorkomen. (CAMP-26876)
+* Probleem verholpen waarbij de fouten die de **Database opschonen** workflow mislukt. (CAMP-26876)
 * Probleem verholpen waarbij het verwijderen van aangepaste velden in een definitie van een pushmelding werd voorkomen. (CAMP-25588)
 
 ## Release 18.7 - juli 2018 {#release-18-7---july-2018}
@@ -101,11 +101,11 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
  </thead> 
  <tbody> 
   <tr> 
-   <td> Markering voor hoge prioriteit voor Android-pushmeldingen<br /> </td> 
+   <td> Markering voor hoge prioriteit voor Android-pushberichten<br /> </td> 
    <td> Markering met hoge prioriteit voor Android: hiermee kunt u een pushmelding met hoge prioriteit maken voor Android-toepassingen. Hierdoor wordt het slaapapparaat wakker en wordt de verwerking beperkt. De standaardprioriteit is Normal, waardoor de levering van het bericht kan worden vertraagd om de batterij op te slaan. <br /> Raadpleeg de <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Typologisch filter voor mobiele app-abonnees<br /> </td> 
+   <td> Typologisch filter voor abonnees van mobiele apps<br /> </td> 
    <td> Ondersteuningsabonnementen in typologiefilter - Wanneer u de filtercriteria voor een typologieregel opgeeft, kunnen de abonnementen van de toepassing worden geselecteerd als de filterings- en doelafmetingen, zodat u op kenmerken kunt filteren voor gebruikers met of zonder profiel. <br /> Raadpleeg de <a href="../../sending/using/about-typology-rules.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
@@ -113,19 +113,19 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
    <td> Het is nu mogelijk om e-mailinhoud te importeren vanaf een URL tijdens de voorbereidingsfase. Voor terugkerende e-mailleveringen wordt de meest recente HTML-inhoud opgehaald telkens wanneer het bericht wordt voorbereid, zodat de inhoud altijd up-to-date is op het moment dat de e-mail wordt verzonden. Met deze functie kunt u ook een geplande levering maken met inhoud van een URL, zelfs als de inhoud nog niet gereed is.<br /> Raadpleeg de <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Meldingsbericht campagne<br /> </td> 
+   <td> Meldingsbericht Campagne<br /> </td> 
    <td> Er wordt nu een pop-upbericht weergegeven wanneer een gebruiker zich aanmeldt nadat de instantie is bijgewerkt naar een nieuwe versie. Het bericht geeft het versienummer aan en bevat een koppeling naar de opmerkingen bij de release. U kunt het bericht verbergen tot de volgende versie. <br /> </td> 
   </tr> 
   <tr> 
    <td> Gebruikersbeheer<br /> </td> 
-   <td> De mogelijkheid van een geografische eenheid is nu niet meer beschikbaar voor nieuwe Campaign Standard-exemplaren en voor bestaande exemplaren zonder dat er geografische eenheden zijn gemaakt, vanaf de release 18.7.<br /> Raadpleeg deze  <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=nl#release-notes">pagina</a> voor meer informatie.<br /> </td> 
+   <td> De mogelijkheid van een geografische eenheid is nu niet meer beschikbaar voor nieuwe Campaign Standard-exemplaren en voor bestaande exemplaren zonder dat er geografische eenheden zijn gemaakt, vanaf de release 18.7.<br /> Raadpleeg deze voor meer informatie <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=nl#release-notes">page</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Verbeteringen**
 
-* Dankzij de integratie tussen Adobe Campaign en Adobe Target kunt u nu de functie [Machtigingen](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html) van Target gebruiken. Wanneer u een dynamische afbeelding van Adobe Target in een e-mail opneemt, kunt u nu een eigenschap Doel opgeven (at_property-code).
+* Dankzij de integratie met Adobe Campaign en Adobe Target kunt u nu gebruikmaken van de [Machtigingen](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html) gebruiken. Wanneer u een dynamische afbeelding van Adobe Target in een e-mail opneemt, kunt u nu een eigenschap Doel opgeven (at_property-code).
 * Aangepaste bronnen met een eigen koppeling naar de profielbron worden nu in aanmerking genomen door verzoeken om toegang tot of verwijdering van GDPR-privacy. Voor 1 kardinaliteit eenvoudige verbindingen en de verbindingen van de kardinaliteitsinzameling van N, moet u &quot;het Schrappen/het Dupliceren van het doelverslag impliceren schrappend/het dupliceren van de verslagen van verwijzingen voorzien door de verbinding&quot;in het douanemiddel selecteren. Voor eenvoudige 0- of 1-cardinaliteit-koppelingen selecteert u &quot;Verwijderen/dupliceren van de record houdt in dat de doelrecord waarnaar door de koppeling wordt verwezen, wordt verwijderd/gedupliceerd&quot;.
 
 **Andere wijzigingen**
@@ -133,7 +133,7 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
 * De time-out voor het delen van rapporten is verhoogd van een tot vier minuten om een time-outfout te voorkomen.
 * Wanneer u de inhoud van een e-mailbericht bewerkt, wordt de nieuwe Creative Designer standaard geopend. Desgewenst kunt u na het opslaan van de wijzigingen desgewenst nog steeds terugkeren naar de standaardinhoudseditor. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../designing/using/designing-content-in-adobe-campaign.md).
 * In Creative Designer kunt u nu een nieuwe inhoudcomponent toevoegen aan een e-mailbericht: de carrousel. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../designing/using/designing-from-scratch.md#about-content-components).
-* In een transactioneel bericht heet klik rapport, wanneer u **Profiel van de Verandering** knoop klikt, nu slechts worden de testprofielen verbonden aan de gebeurtenis die u voor uw transactiebericht bepaalde.
+* Klik in een transactiemelding op het rapport wanneer u op de knop **Profiel wijzigen** nu worden alleen de testprofielen weergegeven die zijn gekoppeld aan de gebeurtenis die u voor uw transactiemelding hebt gedefinieerd.
 
 **Patches**
 
@@ -155,25 +155,25 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
 
 **Verbeteringen**
 
-* De **[!UICONTROL History]** API is toegevoegd aan Adobe.IO. Zo hebt u toegang tot informatie over de marketinggeschiedenis van een profiel: aantal aanraakpunten, verzonden leveringen, URL van spiegelpagina enz. Raadpleeg voor meer informatie de [speciale use case](../../api/using/interacting-with-marketing-history.md).
-* De technische workflow van **[!UICONTROL Database cleanup]** is geoptimaliseerd voor betere prestaties voor back-ups van databases.
+* De **[!UICONTROL History]** API is toegevoegd aan Adobe.IO. Zo hebt u toegang tot informatie over de marketinggeschiedenis van een profiel: aantal aanraakpunten, verzonden leveringen, URL van spiegelpagina enz. Raadpleeg voor meer informatie de [speciaal gebruik](../../api/using/interacting-with-marketing-history.md) .
+* De **[!UICONTROL Database cleanup]** de technische werkstroom is geoptimaliseerd om betere prestaties voor gegevensbestandsteun te verzekeren.
 * De Creative Designer voor e-mail is nu ook beschikbaar in het Frans en Duits.
 
 **Andere wijzigingen**
 
-* Er is een knop **[!UICONTROL Compute stats]** toegevoegd in het venster **[!UICONTROL Deployment]** van verzonden leveringen. Het staat u toe om recentste KPIs terug te winnen, bijvoorbeeld als de resultaten van het verzenden te lang om duren bij te werken of niet in aanmerking genomen. Raadpleeg deze [sectie](../../sending/using/confirming-the-send.md) voor meer informatie.
-* In **Update for delivery** out-of-the-box technische workflow, kunnen de functionele beheerders nu het aantal opeenvolgende fouten definiëren die moeten worden genegeerd in de **Update rules** javascript-activiteit. De veldwaarde wordt standaard ingesteld op 0, wat betekent dat alle fouten worden genegeerd.
+* A **[!UICONTROL Compute stats]** is toegevoegd in het dialoogvenster **[!UICONTROL Deployment]** venster met verzonden leveringen. Het staat u toe om recentste KPIs terug te winnen, bijvoorbeeld als de resultaten van het verzenden te lang om duren bij te werken of niet in aanmerking genomen. Raadpleeg deze [sectie](../../sending/using/confirming-the-send.md) voor meer informatie.
+* In de **Update voor leverbaarheid** uit-van-de-doos technische werkschema, kunnen de functionele beheerders het aantal opeenvolgende fouten nu bepalen om in te negeren **Regels bijwerken** javascript-activiteit. De veldwaarde wordt standaard ingesteld op 0, wat betekent dat alle fouten worden genegeerd.
 * De SQL die wordt gegenereerd wanneer de toegangsbeperkingsvoorwaarden voor eenheden worden beheerd, is geoptimaliseerd.
-* Met de activiteit **[!UICONTROL Update]** kunt u nu gegevens toevoegen, bijwerken of verwijderen die betrekking hebben op abonnementen (tabel nms:appSubscriptionRcp).
-* De technische workflow van **[!UICONTROL Update delivery execution]** is onderverdeeld in twee workflows om de prestaties te optimaliseren: - **[!UICONTROL Update delivery execution]**: werkt het volgen van de levering bij. Deze wordt standaard elke 10 minuten gestart. **[!UICONTROL Update delivery indicators]**: werkt KPI&#39;s van de levering bij, is het begonnen elk uur door gebrek. Voor meer over technische werkschema&#39;s, verwijs naar dit [sectie](../../administration/using/technical-workflows.md#list-of-technical-workflows).
-* Wanneer een levering berichten verzendt, kan de status in de **[!UICONTROL Deployment]** sectie twee waarden nu hebben: **[!UICONTROL Sending]**: de berichten worden verzonden. **[!UICONTROL Sending (retry)]**: er wordt opnieuw geprobeerd .
-* Gebruikers met de rol **[!UICONTROL Delivery preparation]** kunnen nu proefdrukken verzenden. (CAMP-24313)
-* De optie **TLS inschakelen via SMPP** is toegevoegd aan de **SMS-routering via SMPP** externe account. Voor meer op dit verwijs naar [sectie](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
+* De **[!UICONTROL Update]** Met activiteiten kunt u nu gegevens toevoegen, bijwerken of verwijderen die betrekking hebben op abonnementen (tabel nms:appSubscriptionRcp).
+* De **[!UICONTROL Update delivery execution]** de technische workflow is opgesplitst in twee workflows om de prestaties te optimaliseren : - **[!UICONTROL Update delivery execution]**: werkt het volgen van de levering bij. Deze wordt standaard elke 10 minuten gestart. **[!UICONTROL Update delivery indicators]**: werkt KPI&#39;s van de levering bij, is het begonnen elk uur door gebrek. Voor meer informatie over technische workflows raadpleegt u deze [sectie](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+* Wanneer een levering berichten verzendt, de status in **[!UICONTROL Deployment]** sectie kan nu twee waarden hebben: **[!UICONTROL Sending]**: de berichten worden verzonden. **[!UICONTROL Sending (retry)]**: er wordt opnieuw geprobeerd .
+* Gebruikers met de **[!UICONTROL Delivery preparation]** de rol kan nu proefdrukken verzenden . (CAMP-24313)
+* De **TLS inschakelen via SMPP** is toegevoegd aan de **SMS-routering via SMPP** externe rekening. Zie voor meer informatie deze [sectie](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 
 **Patches**
 
 * Probleem opgelost waarbij e-mailberichten niet konden worden verzonden wanneer een dynamische afbeelding uit Adobe Target werd opgenomen (CAMP-24848).
-* Probleem verholpen met de technische workflows van **[!UICONTROL Privacy Access/Delete Request]**, die niet werden voltooid als een van de aanvragen is mislukt.
+* Probleem verholpen met de **[!UICONTROL Privacy Access/Delete Request]** technische workflows, die niet zijn voltooid als een van de verzoeken is mislukt.
 * Probleem verholpen waardoor de Privacy Core-service geen updates van de aanvraagstatus kon ontvangen vanuit de campagne.
 * Probleem opgelost waarbij de technische workflow voor **[!UICONTROL Import shared audience]** niet goed kon werken (CAMP-25465).
 * Probleem verholpen waarbij werd voorkomen dat privacyverzoeken voor campagnes werden gemarkeerd als voltooid in de Core Privacy Service.
@@ -182,9 +182,9 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
 * Probleem verholpen bij het gebruik van de vermoeiingsregels voor pushmeldingen voor abonnees zonder profiel in de database. (CAMP-25344)
 * Probleem verholpen waarbij een foutbericht kon worden weergegeven wanneer toegang werd verkregen tot uitsluitingslogboeken voor leveringen. (CAMP-24724)
 * Probleem verholpen waarbij proefdrukken niet konden worden voorbereid in gevallen met uitgebreide verzendende logboeken.
-* Oplossing voor twee problemen die zich konden voordoen bij het publiceren van aangepaste bronnen met de extensie **[!UICONTROL Sending log]** geactiveerd.
+* Twee problemen verholpen die zich konden voordoen bij het publiceren van aangepaste bronnen met de **[!UICONTROL Sending log]** -extensie geactiveerd.
 * Probleem verholpen dat zich kon voordoen wanneer bij terugkerende leveringen geen rekening was gehouden met de leveringsduur.
-* Probleem verholpen die zich kon voordoen bij het sorteren van gegevens in het menu **[!UICONTROL Client data]**, voor aangepaste bronnen met meer dan 100K records. (CAMP-24308)
+* Probleem verholpen dat zich kon voordoen bij het sorteren van gegevens in het dialoogvenster **[!UICONTROL Client data]** voor aangepaste bronnen met meer dan 100 kB records. (CAMP-24308)
 * Probleem verholpen met aangepaste profielafmetingen waarmee geen rekening is gehouden bij het gebruik van de zoekfunctie in dynamische rapporten.
 * Probleem verholpen met de weergave van internationale gegevens voor accountniveaus in dynamische rapporten.
 * U kunt nu een service maken zonder een abonnement of een bevestigingsbericht zonder abonnement.
@@ -206,7 +206,7 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
    <td> De Integratie van de Dienst van de Kern van de privacy staat u toe om uw verzoeken GDPR in een multi-oplossingscontext door één enkele vraag van JSON API te automatiseren. <br /> GDPR-aanvragen die van de Privacy Core Service naar alle Experience Cloud-oplossingen worden geduwd, worden nu automatisch door de Campagne afgehandeld. <br /> Raadpleeg de <a href="https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Verbeteringen voor pushtechnologie - gedetailleerde leveringsfeedback<br /> </td> 
+   <td> Push-verbeteringen - gedetailleerde feedback voor levering<br /> </td> 
    <td> Adobe Campaign biedt nu de mogelijkheid om gedetailleerde feedback (het verzenden van logboeken en uitsluitingslogboeken) te ontvangen over pushberichten van APNS/GCM via MCPNS.<br /> Raadpleeg de <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
@@ -214,7 +214,7 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
    <td> Met de extensie Leveringslogbestanden kunt u het verzenden van logbestanden uitbreiden met profielgegevens en segmentcode die afkomstig zijn van workflows. Deze informatie kan dan in Dynamische Rapporten worden gebruikt, en laat u een momentopname van wat informatie bij de verzendende tijd van een levering houden.<br /> Er zijn nog twee gebruiksgevallen:<br /> 
     <ul> 
      <li> Uitgebreide uitzendingen met "bevroren"gegevens uitvoeren: Als markeerteken wil ik alle profielen exporteren waarvoor segmentcode gelijk is aan "A" (afkomstig van de workflow-engine). </li> 
-     <li> Segmentering van "bevroren" gegevens: Als markator, zou ik <strong>retarget</strong> alle profielen willen die 1000 loyaliteitspunten sinds het laatste verzenden hebben gewonnen of waar de segmentcode aan "A"gelijk was. </li> 
+     <li> Segmentering van "bevroren" gegevens: Als markator zou ik graag <strong>herrichten</strong> alle profielen die sinds de laatste verzending 1000 loyaliteitspunten hebben gewonnen of waar de segmentcode aan "A"gelijk was. </li> 
     </ul> Raadpleeg de <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
@@ -230,11 +230,11 @@ Bekijk de nieuwste [documentatie-updates](../../rn/using/documentation-updates.m
 
 **Andere wijzigingen**
 
-* De activiteit van de workflow Publiek lezen kan nu Experience Cloud-publiek lezen. Eerder kon deze activiteit alleen het publiek Query en List lezen. Raadpleeg de [gedetailleerde documentatie](../../automating/using/read-audience.md). (CAMP-23623)
+* De activiteit van de workflow Publiek lezen kan nu Experience Cloud-publiek lezen. Eerder kon deze activiteit alleen het publiek Query en List lezen. Zie de [gedetailleerde documentatie](../../automating/using/read-audience.md). (CAMP-23623)
 * De id van de standaard gezamenlijke gegevensbron bevindt zich nu in de modus Alleen-lezen en kan niet meer worden gewijzigd. Als u deze id wijzigt, kunnen er problemen optreden bij het delen van het publiek met de Experience Cloud.
 * Het importeren van soorten publiek uit Audience Manager werkt nu met gesplitste bestanden. Eerder werd alleen het laatste bestand van het segment geïmporteerd door de technische workflow van importSharedAudience.
-* De externe rekeningen van AWS S3 steunen nu gebieden en het versie 4 authentificatiemechanisme. Raadpleeg de [gedetailleerde documentatie](../../administration/using/external-accounts.md).
-* Het venster Asset Selecting moet nu sneller worden geladen en het mogelijk maken om een element te selecteren en vervolgens het venster zonder probleem te sluiten.
+* De externe rekeningen van AWS S3 steunen nu gebieden en het versie 4 authentificatiemechanisme. Zie de [gedetailleerde documentatie](../../administration/using/external-accounts.md).
+* Het venster Asset Selecting (Asset Selecteren) wordt nu sneller geladen en maakt het mogelijk om een element te selecteren en het venster vervolgens zonder problemen te sluiten.
 * De eigenschappen en structuur van technische werkstromen kunnen nu worden gewijzigd door gebruikers met beheerrechten die tot de &quot;Alle&quot; organisatorische en geografische eenheden behoren.
 * De verbeteringen zijn aangebracht in de de activiteiteninterface van de Segmentatie wanneer het creëren van nieuwe segmenten: Het tabblad Beperking wordt nu direct weergegeven nadat u een beperking hebt toegevoegd. Namen van nieuwe segmenten worden nu verhoogd (&quot;Segment 1&quot;, &quot;Segment 2&quot;, enz.).
 * Een &quot;nextProcessingDate&quot;gebied wordt toegevoegd aan het middel van het Werkschema. Dit veld is alleen zichtbaar via REST API-aanroepen. Hiermee kunt u workflows volgende verwerkingsdatums visualiseren.
@@ -280,8 +280,8 @@ _Workflows_
 _Rapportage_
 
 * De workflow voor het delen van een PKI haalt nu leveringswaarden op voor de laatste twee maanden in plaats van de laatste zes maanden. Probleem verholpen waarbij voor KPI-delen externe account afgebroken datums werden weergegeven.
-* Probleem verholpen waarbij bepaalde berichten niet in aanmerking werden genomen in **Verzonden**, **Geleverd** en **Bounce** metriek.
-* Oplossing voor een fout die optrad wanneer het gekozen tijdbereik in **Samenvattingsrapport van levering** te lang was.
+* Probleem verholpen waarbij bepaalde berichten niet in aanmerking werden genomen **Verzonden**, **Geleverd** en **Stuiteren** metriek.
+* Oplossing voor een fout die optrad wanneer het gekozen tijdbereik in het dialoogvenster **Overzichtsrapport van levering** was te lang.
 
 _Aangepaste resources_
 
@@ -300,11 +300,11 @@ _Aangepaste resources_
  </thead> 
  <tbody> 
   <tr> 
-   <td> EU-verordening inzake algemene gegevensbescherming (GDPR)<br /> </td> 
+   <td> Algemene EU-verordening inzake gegevensbescherming (GDPR)<br /> </td> 
    <td> GDPR is de nieuwe privacywet van de Europese Unie (EU) die de vereisten inzake gegevensbescherming harmoniseert en moderniseert en op 25 mei 2018 van kracht wordt. AVG is van toepassing op Adobe Campaign-klanten die data bewaren voor in de EU wonende betrokken personen.<br /> Naast de privacy mogelijkheden reeds beschikbaar in Adobe Campaign (met inbegrip van toestemmingsbeheer, montages van het gegevensbehoud, en gebruikersrollen), nemen wij deze kans in onze rol als Bewerker van Gegevens om extra mogelijkheden te omvatten, om uw bereidheid als Datacontrole voor bepaalde GDPR verzoeken te helpen vergemakkelijken:<br /> 
     <ul> 
-     <li> Recht op toegang: staat de betrokkene toe een kopie te ontvangen van zijn/haar persoonsgegevens die door de gegevensverwerkingsverantwoordelijken zijn vastgelegd, met inbegrip van gegevens die in Adobe Campaign zijn opgeslagen. </li> 
-     <li> Rechts om te verwijderen: geeft de betrokkene het recht om zijn/haar persoonsgegevens die door gegevensverwerkingsverantwoordelijken zijn vastgelegd, te laten wissen, eventueel met inbegrip van gegevens die in Adobe Campaign zijn opgeslagen. </li> 
+     <li> Recht op toegang: staat de betrokkene toe een kopie te ontvangen van zijn persoonsgegevens die door gegevensverwerkingsverantwoordelijken zijn vastgelegd, met inbegrip van gegevens die mogelijk in Adobe Campaign zijn opgeslagen. </li> 
+     <li> Rechts om te verwijderen: geeft de betrokkene het recht zijn persoonsgegevens te laten wissen door gegevensverwerkingsverantwoordelijken, eventueel met inbegrip van gegevens die in Adobe Campaign zijn opgeslagen. </li> 
     </ul> Raadpleeg de <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
@@ -314,15 +314,15 @@ _Aangepaste resources_
      <li> Ontwerp en maak visueel volledig persoonlijke, responsieve e-mails via een drag-and-drop interface, aangevuld met native Creative Cloud-integratie </li> 
      <li> Een sjabloon voor e-mailinhoud en opgeslagen sjablonen maken en opslaan om het maken van e-mail te helpen schalen </li> 
      <li> Inhoudsfragmenten maken en opslaan (zoals een kop-, voettekst-, artikel-, enz.) om het creëren van inhoud te stroomlijnen en merkconsistentie te verzekeren </li> 
-     <li> Naadloos schakelen tussen maken in de interface voor slepen en neerzetten en rechtstreeks HTML van een e-mail bewerken met één klik op een knop </li> 
-    </ul> De Creative Designer voor e-mail is alleen beschikbaar in het Engels.<br /> Raadpleeg de  <a href="../../designing/using/designing-content-in-adobe-campaign.md">gedetailleerde </a> documentatie voor meer informatie en bekijk deze  <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">video</a>.<br /> </td> 
+     <li> Naadloos schakelen tussen maken in de interface voor slepen en neerzetten en rechtstreeks HTML van een e-mailbericht bewerken met één klik op een knop </li> 
+    </ul> De Creative Designer voor e-mail is alleen beschikbaar in het Engels.<br /> Raadpleeg voor meer informatie de <a href="../../designing/using/designing-content-in-adobe-campaign.md">gedetailleerde documentatie</a> en bekijk dit <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Meertalige pushleveringen<br /> </td> 
    <td> Dezelfde eenvoudige meertalige interface, die al bestaat op de e-mail- en sms-kanalen, is toegevoegd aan het pushkanaal, zodat u klanten kunt bereiken, ongeacht hun voorkeurstaal.<br /> Dit vermogen biedt een scalable en automatische oplossing voor klanten die Push campagnes leiden die veelvoudige gebieden overspannen en gebruikers in hun aangewezen taal willen richten. Hiermee kunt u alle taalvarianten via een sjabloonspreadsheet uploaden naar één pushbericht, met één klik. Adobe Campaign voert vervolgens een automatische segmentatie uit op basis van de taalvoorkeur van de gebruiker, waardoor de redundantie wordt verminderd door workflows en rapportering te vereenvoudigen.<br /> Raadpleeg de <a href="../../channels/using/creating-a-multilingual-push-notification.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Gebruik van de Middelen van de Douane in Transactionaal Overseinen<br /> </td> 
+   <td> Gebruik van de Middelen van de Douane in Transactieoverseinen<br /> </td> 
    <td> Naast uit-van-de-doos gebieden, staat het transactieoverseinen u nu toe om douanemiddelen te gebruiken om de inhoud van uw berichten te verrijken.<br /> Bijvoorbeeld:<br /> 
     <ul> 
      <li> Aangepaste velden als afstemmingscriteria gebruiken om een transactiebericht aan een profiel aan te passen </li> 
@@ -342,27 +342,27 @@ _Platform_
 _E-mail, SMS-berichten en direct mail_
 
 * Probleem verholpen waarbij multipart-SMS werd afgebroken omdat de grootte van onderdelen werd berekend in tekens in plaats van bytes.
-* Er is een optie toegevoegd waarmee de KPI&#39;s **[!UICONTROL Delivered]** of **[!UICONTROL Bounces + Errors]** in real-time kunnen worden bijgewerkt na verzending van de levering. Zij worden direct opnieuw berekend van SR (het Rapport van de Status) die van de leverancier wordt ontvangen.
+* Er is een optie toegevoegd waarmee de **[!UICONTROL Delivered]** of **[!UICONTROL Bounces + Errors]** KPI&#39;s die in real-time moeten worden bijgewerkt nadat u de levering hebt verzonden. Zij worden direct opnieuw berekend van SR (het Rapport van de Status) die van de leverancier wordt ontvangen.
 * Probleem verholpen met de kalenderwidget in de leveringsplanner.
 * Oplossing voor een weergaveprobleem bij het voor een tweede keer openen van een doel in een verzonden levering.
 * Probleem verholpen dat leidde tot een foutbericht waarin een begindatum werd gevraagd bij het maken van een e-mailsjabloon met een vertraagde verzenddatum.
 * Probleem verholpen waarbij weergaveproblemen met afbeeldingen konden optreden tijdens het bewerken van de inhoud van een levering.
 * Probleem verholpen met proefdrukken tijdens het dupliceren van een campagne.
 * Probleem verholpen dat tot een foutbericht leidde bij het openen van een campagnemalplaatje via de navigatiebalk, nadat een levering aan de workflow was toegevoegd.
-* Probleem verholpen waardoor de winnaar van een e-mailtest voor A/B niet automatisch kon worden geselecteerd, waardoor het e-mailbericht niet werd verzonden. Dit gedrag kan optreden als de levering de status **[!UICONTROL retryInProgress]** heeft.
+* Probleem verholpen waardoor de winnaar van een e-mailtest voor A/B niet automatisch kon worden geselecteerd, waardoor het e-mailbericht niet werd verzonden. Dit gedrag kan optreden als de levering binnen **[!UICONTROL retryInProgress]** status.
 * Probleem verholpen waarbij een foutbericht werd weergegeven wanneer de parameters van een e-mail met een A/B-test opnieuw werden geopend.
 
 _Soorten publiek en vragen_
 
 * Probleem verholpen waarbij gegevens niet konden worden benaderd en query&#39;s werden ingesteld voor ontvangers die van Adobe Campaign Classic naar Standard zijn gerepliceerd.
-* Probleem verholpen die optrad bij het gebruik van een filtertekstveld in de query-editor, na het gebruik van de knoppen **Tellen** of **Voorvertoning**.
+* Probleem verholpen die optrad bij het gebruik van een veld met filtertypen in de query-editor nadat de opdracht **Aantal** of **Voorvertoning** knoppen.
 
 _Workflows_
 
-* De **Facturering** workflow is geoptimaliseerd om de vertraging bij de voorbereiding van de levering te verbeteren.
+* De **Facturering** de workflow is geoptimaliseerd om de voorbereidingstijd voor levering te verbeteren .
 * Probleem verholpen waardoor bevolkingsgegevens niet konden worden weergegeven in een uitgaande overgang bij het gebruik van een terugkerende leveringsactiviteit.
-* Probleem verholpen waarbij werd voorkomen dat records in een overgang werden weergegeven na een **Update data**-activiteit.
-* Probleem verholpen waarbij de technische workflow **leverbaarbaarheidUpdate** zou kunnen mislukken.
+* Probleem verholpen waarbij werd voorkomen dat records in een overgang werden weergegeven na een **Gegevens bijwerken** activiteit.
+* Probleem verholpen waarbij de oorzaak van de **leverabilityUpdate** technische workflow mislukt.
 
 _Integraties_
 
@@ -390,12 +390,12 @@ _Transactionele berichten_
  </thead> 
  <tbody> 
   <tr> 
-   <td> Abonnement - abonneren of een abonnement nemen op een lijst met profielen voor meerdere services<br /> </td> 
-   <td> Met de <strong>Subscription Services</strong>-workflowactiviteit kunt u zich nu abonneren op of een abonnement nemen op een lijst met profielen voor meerdere services. Importeer in uw workflow een bestand met de profielen en voor elk profiel, het bewerkingstype en de service. Met de activiteit <strong>Subscription Services</strong> kunt u deze informatie gebruiken en alle abonnementen en abonnementen voor profielen tegelijk dynamisch verwerken.<br /> Raadpleeg de <a href="../../automating/using/subscription-services.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Abonnement - abonneren op een lijst met profielen voor meerdere services of het abonnement opzeggen<br /> </td> 
+   <td> De <strong>Abonnementsservices</strong> met workflowactiviteit kunt u zich nu abonneren op of een abonnement nemen op een lijst met profielen voor meerdere services. Importeer in uw workflow een bestand met de profielen en voor elk profiel, het bewerkingstype en de service. De <strong>Abonnementsservices</strong> Deze gegevens kunnen door activiteit worden gebruikt en alle abonnementen en abonnementen op profielen tegelijk dynamisch worden verwerkt.<br /> Raadpleeg de <a href="../../automating/using/subscription-services.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Verrijkingsactiviteit - verrijkt gegevens op basis van vorige overgangen<br /> </td> 
-   <td> Met de nieuwe <span class="uicontrol">Verrijking</span>-workflowactiviteit kunt u de binnenkomende overgangen benutten en de uitvoerovergang voltooien met aanvullende gegevens. Als u profielen als doel instelt, kunt u met de verrijkingsactiviteit de profielgegevens verrijken met aanvullende gegevens die niet in de database zijn opgeslagen (bijvoorbeeld afkomstig uit een geïmporteerd bestand).<br /> Raadpleeg de <a href="../../automating/using/enrichment.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Verrijkingsactiviteit: verrijkt gegevens op basis van eerdere overgangen<br /> </td> 
+   <td> De nieuwe <span class="uicontrol">Verrijking</span> Met workflowactiviteit kunt u de binnenkomende overgangen benutten en de uitvoerovergang voltooien met extra gegevens. Als u profielen als doel instelt, kunt u met de verrijkingsactiviteit de profielgegevens verrijken met aanvullende gegevens die niet in de database zijn opgeslagen (bijvoorbeeld afkomstig uit een geïmporteerd bestand).<br /> Raadpleeg de <a href="../../automating/using/enrichment.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -405,7 +405,7 @@ _Transactionele berichten_
 _Platform_
 
 * De bovenste balk van de Adobe Campaign-interface is bijgewerkt met het nieuwe menu Experience Cloud.
-* Probleem verholpen waardoor de koppeling naar **[!UICONTROL Offers]** niet kon worden weergegeven in de vervolgkeuzelijst voor oplossingen.
+* Probleem verholpen waarbij koppeling naar **[!UICONTROL Offers]** in de vervolgkeuzelijst Oplossing worden weergegeven.
 
 _E-mail, SMS-berichten en direct mail_
 
@@ -415,25 +415,25 @@ _E-mail, SMS-berichten en direct mail_
 
 _Pushmeldingen_
 
-* Correctie van een fout die ervoor zorgde dat sommige verpersoonlijkingsvelden niet werkten in iOS-pushberichten.
+* Correctie van een fout waardoor sommige personalisatievelden niet werkten in pushberichten van iOS.
 * Probleem verholpen waarbij de klik en open frequenties werden weergegeven als 0% op het dashboard voor pushmeldingen.
 
 _Rapporten_
 
 * Probleem verholpen waarbij de rapportlijst in sommige browsers als leeg werd weergegeven.
-* Oplossing voor een fout die optrad in de technische workflow vlak voordat de vervallimiet was bereikt.**[!UICONTROL Report sharing]**
+* Oplossing voor een fout die is opgetreden in het dialoogvenster **[!UICONTROL Report sharing]** de technische workflow vlak voordat de vervallimiet is bereikt.
 
 _Workflows_
 
 * Probleem verholpen waarbij activiteiten niet toegankelijk mochten zijn na slepen en neerzetten.
-* Probleem verholpen waarbij de volgorde van uitvoerovergangen van een activiteit **[!UICONTROL Segmentation]** in sommige situaties kon veranderen.
+* Probleem verholpen waarbij de volgorde van uitvoerovergangen van een **[!UICONTROL Segmentation]** in sommige situaties te veranderen.
 * Oplossing voor een fout die optrad bij het lezen van een publiek dat een opsommingstype veld bevatte en dat eerder was opgeslagen via een workflow
-* Probleem verholpen waarbij de optie **[!UICONTROL Request confirmation before sending messages]** gecontroleerd bleef, zelfs nadat deze was uitgeschakeld bij het definiëren van de planningseigenschappen van een levering die in een workflow is gemaakt.
-* Automatische verwijdering van dubbele rijen (DISTINCT-component) kan nu worden uitgeschakeld in **[!UICONTROL Query]**-activiteiten via een nieuwe optie op het tabblad **[!UICONTROL Additional data]**. U wordt aangeraden deze optie uit te schakelen wanneer u veel (meer dan 100) extra elementen definieert, om redenen van prestaties.
+* Het probleem dat de oorzaak was van de **[!UICONTROL Request confirmation before sending messages]** optie om gecontroleerd te blijven zelfs nadat het unchecking wanneer het bepalen van de het plannen eigenschappen van een levering die in een werkschema wordt gecreeerd.
+* Automatisch verwijderen van dubbele rijen (DISTINCT-component) kan nu worden uitgeschakeld in **[!UICONTROL Query]** via een nieuwe optie in de **[!UICONTROL Additional data]** tab. U wordt aangeraden deze optie uit te schakelen wanneer u veel (meer dan 100) extra elementen definieert, om redenen van prestaties.
 
 _Integraties_
 
-* Er zijn enkele verbeteringen aangebracht in het configuratiescherm **[!UICONTROL Data sources]**.
+* Er zijn enkele verbeteringen aangebracht in de **[!UICONTROL Data sources]** configuratiescherm.
 
 _Bekende problemen_
 
@@ -458,26 +458,26 @@ Sommige problemen kunnen zich voordoen bij het gebruik van contextafhankelijke H
    <td> De rapportering voor het Beheer van de Vermoeidheid is een specifiek, configureerbaar rapport dat de gevolgen de regels van de Vermoeidheid op leveringen over e-mail, Duw, SMS, en de Directe kanalen van de Post binnen een gespecificeerde datumwaaier toont alvorens te verzenden. Met het toegevoegde inzicht om alle conflicterende campagnes in één enkele mening snel te kunnen zien, kunnen de marketers marketing campagnes volgens de vastgestelde vermoeidheidsregels effectiever plannen, en mededelingen prioriteren.<br /> Raadpleeg de <a href="../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rapport delen<br /> </td> 
-   <td> Met gedeelde rapporten kunt u uw rapporten delen met Adobe Campaign-gebruikers als e-mailbijlage, inclusief op een geautomatiseerde terugkerende basis. Gebruikers die terugkerende rapporten ontvangen, kunnen zich afmelden voor deze communicatie via een speciale koppeling in elke e-mail.<br /> Raadpleeg de <a href="../../reporting/using/reporting-interface.md#share-tab">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Delen van rapporten<br /> </td> 
+   <td> Met gedeelde rapporten kunt u uw rapporten delen met Adobe Campaign-gebruikers als e-mailbijlage, inclusief op een geautomatiseerde terugkerende basis. Gebruikers die terugkerende rapporten ontvangen, kunnen hun abonnement op deze berichten opzeggen via een speciale koppeling in elke e-mail.<br /> Raadpleeg de <a href="../../reporting/using/reporting-interface.md#share-tab">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Nieuwe mogelijkheden duwen<br /> </td> 
-   <td> Push Message Preview - Voorvertoning van pushberichten weergeven op iOS- en Android-apparaten vanuit de inhoud-editor voor pushberichten om precies te zien wat de ontvangers zullen zien voordat ze de levering testen of uitvoeren.<br /> Raadpleeg de <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">gedetailleerde documentatie</a> voor meer informatie.<br /> Inhoud beschikbaar - Als apps niet gedurende langere perioden worden geopend, kunnen hun gegevens verouderd raken. Dit betekent dat de gegevens moeten worden bijgewerkt of vervangen op het moment dat een gebruiker de app eindelijk opent, wat kan leiden tot vertragingen bij het gebruik van de app. Met de extra ondersteuning voor Beschikbare inhoud kunnen Adobe Campaign-gebruikers hun app wakker maken om de gegevens op de achtergrond te vernieuwen bij het verzenden van een pushmelding, waardoor ze consistenter kunnen zijn en meer controle kunnen krijgen over de ervaringen in de app van een gebruiker.<br /> Mutable Content - Met de toegevoegde ondersteuning van Mutable Content kunnen Adobe Campaign-gebruikers hun mobiele app-extensies nu gebruiken om de inhoud of presentatie van aankomende pushberichten die vanuit Adobe Campaign worden verzonden, verder te wijzigen. Gebruikers kunnen bijvoorbeeld Mutable Content gebruiken voor: <br /> 
+   <td> Push Message Preview - Voorvertoning van pushberichten weergeven op iOS- en Android-apparaten vanuit de inhoudeditor voor pushberichten om precies te zien wat de ontvangers zullen zien voordat ze de levering testen of uitvoeren.<br /> Raadpleeg de <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">gedetailleerde documentatie</a> voor meer informatie.<br /> Inhoud beschikbaar - Als apps niet gedurende langere perioden worden geopend, kunnen hun gegevens verouderd raken. Dit betekent dat de gegevens moeten worden bijgewerkt of vervangen op het moment dat een gebruiker de app eindelijk opent, wat kan leiden tot vertragingen bij het gebruik van de app. Met de extra ondersteuning voor Beschikbare inhoud kunnen Adobe Campaign-gebruikers hun app wakker maken om de gegevens op de achtergrond te vernieuwen bij het verzenden van een pushmelding, waardoor ze consistenter kunnen zijn en meer controle kunnen krijgen over de ervaringen in de app van een gebruiker.<br /> Mutable Content - Met de toegevoegde ondersteuning van Mutable Content kunnen Adobe Campaign-gebruikers hun mobiele app-extensies nu gebruiken om de inhoud of presentatie van aankomende pushberichten die vanuit Adobe Campaign worden verzonden, verder te wijzigen. Gebruikers kunnen bijvoorbeeld Mutable Content gebruiken voor: <br /> 
     <ul> 
      <li> gegevens decoderen die in een gecodeerde indeling zijn geleverd </li> 
      <li> afbeeldingen of andere mediabestanden downloaden en toevoegen als bijlagen aan een melding </li> 
      <li> de tekst van de hoofdtekst of titel van een kennisgeving wijzigen </li> 
      <li> voeg een draadherkenningsteken aan een bericht toe </li> 
-    </ul> Raadpleeg de <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">gedetailleerde documentatie</a> voor meer informatie over Beschikbare inhoud en Mabelinhoud.<br /> <strong>Waarschuwing:</strong> deze updates voor pushberichten vereisen dat klanten hun mobiele toepassingen upgraden. Raadpleeg <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">dit technische artikel</a> voor meer informatie.<br /> </td> 
+    </ul> Raadpleeg voor meer informatie over Beschikbare inhoud en Mabelinhoud de <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">gedetailleerde documentatie</a>.<br /> <strong>Waarschuwing:</strong> deze updates van pushberichten vereisen dat klanten hun mobiele toepassingen upgraden . Zie <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">dit technote</a> voor meer informatie .<br /> </td> 
   </tr> 
   <tr> 
-   <td> Geoptimaliseerde leveringen voor tijdzone<br /> </td> 
+   <td> Geoptimaliseerde leveringen in tijdzone<br /> </td> 
    <td> Plan terugkerende e-mail-, SMS- en pushberichten die op een bepaalde dag/tijd in de tijdzone van elke ontvanger moeten worden bezorgd, zodat uw berichten op het juiste moment worden afgeleverd zonder dat u meerdere leveringen hoeft in te stellen. <br /> Raadpleeg de <a href="../../automating/using/scheduler.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> API Signaalactiviteit activeren<br /> </td> 
-   <td> Het is nu mogelijk om een signaalactiviteit voor uw werkschema's direct van Adobe Campaign Standard API teweeg te brengen.<br /> Raadpleeg de  <a href="/help/api/using/triggering-a-signal-activity.md">gedetailleerde documentatie</a>  voor meer informatie.<br /> </td> 
+   <td> Het is nu mogelijk om een signaalactiviteit voor uw werkschema's direct van Adobe Campaign Standard API teweeg te brengen.<br /> Raadpleeg voor meer informatie de <a href="/help/api/using/triggering-a-signal-activity.md">gedetailleerde documentatie</a> .<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -494,7 +494,7 @@ _E-mail, SMS-berichten en direct mail_
 * Oplossing voor een weergaveprobleem dat optrad bij het invoegen van emoties in de inhoud van uw leveringen.
 * Probleem verholpen waarbij de gebruiker toegang kreeg tot verzendende logboeken terwijl de levering nog in de editie stond.
 * De **[!UICONTROL Scheduler]** activiteit staat u nu toe om uw leveringen afhankelijk van de tijdzone van de ontvanger te verzenden.
-* SMS: De optie **[!UICONTROL Store incoming MO]** in de database is toegevoegd aan externe accounts. Als deze optie is ingeschakeld, wordt alle inkomende SMS opgeslagen in de tabel **inSMS**.
+* SMS: De optie **[!UICONTROL Store incoming MO]** in de database is toegevoegd aan externe accounts. Als deze optie is ingeschakeld, worden alle inkomende SMS opgeslagen in de **inSMS** tabel.
 * SMS: De diensten zijn nu verbonden aan een gebeurtenis in plaats van een transactiesjabloon.
 * SMS: De standaard SMTP verbindingstijd is verminderd tot 30 seconden.
 
@@ -503,13 +503,13 @@ _Pushmeldingen_
 * Probleem verholpen waardoor levering van pushberichten niet kon worden gestopt.
 * Er is een optie toegevoegd in de geavanceerde opties voor pushmeldingen om de toepassing weer te geven met een pushmelding.
 * Er is een pauzeknop toegevoegd voor de voorvertoningsvideo voor pushmeldingen.
-* De voorvertoning van de pushmelding is nu beschikbaar voor verschillende apparaten, zoals iPhone en Android.
+* De voorvertoning van de pushmelding is nu beschikbaar voor verschillende apparaten, zoals iPhone, Android, tablets.
 
 _Rapporten_
 
 * Probleem verholpen waarbij frequenties van meer dan 100% werden weergegeven.
 * Probleem verholpen waardoor gebruikers geen rapporten konden downloaden in CSV.
-* Er is een nieuw **[!UICONTROL Report]**-item toegevoegd aan de startpagina.
+* Een nieuwe **[!UICONTROL Report]** item op de startpagina.
 
 _Workflows_
 
@@ -522,4 +522,4 @@ _Profielen en doelgroepen_
 * Oplossing voor een weergaveprobleem dat optrad bij het wijzigen van de afbeelding van een profiel.
 * Knopinfo toegevoegd met het exacte resultaatnummer na het tellen van de populatie van een query.
 * Probleem verholpen waardoor een gebruiker geen publiek kon selecteren of het venster van de publiekskiezer kon sluiten.
-* De lijst met beschikbare functies in de expressieeditor is bijgewerkt. De functies **FormatCurrency** en **ConvertCurrency** zijn verwijderd.
+* De lijst met beschikbare functies in de expressieeditor is bijgewerkt. De **FormatCurrency** en **ConvertCurrency** functies zijn verwijderd.

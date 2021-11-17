@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 5%
@@ -17,9 +17,9 @@ ht-degree: 5%
 
 # Profielen ophalen {#retrieving-profiles}
 
-Het terugwinnen van profielen wordt uitgevoerd met een **verzoek GET**.
+Het ophalen van profielen wordt uitgevoerd met een **GET** verzoek.
 
-Vervolgens kunt u de zoekopdracht verfijnen door filters, volgorde en paginering te gebruiken. Raadpleeg voor meer informatie de sectie [Aanvullende bewerkingen](../../api/using/sorting.md).
+Vervolgens kunt u de zoekopdracht verfijnen door filters, volgorde en paginering te gebruiken. Raadpleeg voor meer informatie de [Aanvullende bewerkingen](../../api/using/sorting.md) sectie.
 
 Bovendien kunt u met Campaign Standard-API&#39;s zoeken naar profielen op basis van een van de volgende velden: e-mail, voornaam, achternaam of een aangepast veld. Raadpleeg [deze sectie](#searching-field) voor meer informatie.
 
@@ -88,11 +88,11 @@ Bovendien kunt u met Campaign Standard-API&#39;s zoeken naar profielen op basis 
 
 ## Zoeken naar profielen op basis van een veld {#searching-field}
 
-Met de parameter **[!UICONTROL filterType]** kunt u profielen ophalen op basis van een van de volgende velden: e-mail, voornaam, achternaam of een aangepast veld dat is toegevoegd bij Geavanceerd filteren tijdens het uitbreiden van de profielbron.
+De **[!UICONTROL filterType]** kunt u profielen ophalen op basis van een van de volgende velden: e-mail, voornaam, achternaam of een aangepast veld dat is toegevoegd bij Geavanceerd filteren tijdens het uitbreiden van de profielbron.
 
 >[!NOTE]
 >
->Zoekopdrachten zijn hoofdlettergevoelig en worden alleen op voorvoegsels uitgevoerd. U kunt bijvoorbeeld niet zoeken naar een profiel met de laatste letters van zijn achternaam.
+>Zoekopdrachten zijn hoofdlettergevoelig en worden alleen op voorvoegsels uitgevoerd. U kunt bijvoorbeeld niet zoeken naar een profiel met de laatste letters van de achternaam.
 
 ***Voorbeeldverzoeken***
 

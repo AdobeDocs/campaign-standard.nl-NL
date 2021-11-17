@@ -13,10 +13,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1478'
-ht-degree: 100%
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
+source-wordcount: '1476'
+ht-degree: 98%
 
 ---
 
@@ -126,11 +126,11 @@ Adobe Campaign biedt extra mogelijkheden om uw taak als gegevenscontroller voor 
 
 * Het **toegangsrecht** is het recht van de betrokkene om van de gegevenscontroller bevestiging te krijgen of er persoonsgegevens van de betrokkene worden verwerkt, waar en voor welk doel.
 
-* Het **recht om te worden vergeten** (verwijderingsverzoek) geeft de betrokkene het recht om zijn/haar persoonsgegevens door de gegevenscontroller te laten wissen.
+* De **Recht op vergeten** (verzoek tot verwijdering) geeft de betrokkene het recht om de gegevensverwerker hun persoonsgegevens te laten wissen.
 
 >[!NOTE]
 >
->Deze reeks tools is bedoeld om u te helpen bij uw privacynaleving voor de AVG, CCPA, en PDPA. Zie [deze pagina](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy-overview.html#whatisgdpr) voor meer informatie over deze verschillende verordeningen.
+>Deze reeks tools is bedoeld om u te helpen bij uw privacynaleving voor de AVG, CCPA, en PDPA. Zie [deze pagina](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr) voor meer informatie over deze verschillende verordeningen.
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 

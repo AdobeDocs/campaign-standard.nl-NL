@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '2583'
 ht-degree: 3%
@@ -23,13 +23,13 @@ De inhoud en weergave van berichten die door Adobe Campaign worden geleverd, kun
 * Vooraf gedefinieerde personalisatieblokken invoegen. Zie [Een contentblok](#adding-a-content-block) toevoegen.
 * Pas de afzender van een e-mail aan. Zie [De afzender aanpassen](#personalizing-the-sender).
 * Pas het onderwerp van een e-mail aan. Zie [De onderwerpregel van een e-mail aanpassen](../../designing/using/subject-line.md#subject-line).
-* Voorwaardelijke content maken. Zie [Dynamische inhoud definiëren in een e-mail](#defining-dynamic-content-in-an-email).
+* Voorwaardelijke content maken. Zie [Dynamische inhoud in een e-mail definiëren](#defining-dynamic-content-in-an-email).
 
 ## De afzender aanpassen {#personalizing-the-sender}
 
-Als u de naam wilt definiëren van de afzender die wordt weergegeven in de koptekst van de verzonden berichten, gaat u naar het tabblad **[!UICONTROL Properties]** van de startpagina van E-mailontwerper (toegankelijk via het pictogram Home). Zie [De afzender van een e-mail definiëren](../../designing/using/subject-line.md#email-sender) voor meer informatie.
+Als u de naam wilt definiëren van de afzender die wordt weergegeven in de koptekst van de verzonden berichten, gaat u naar **[!UICONTROL Properties]** tabblad van de introductiepagina E-mail Designer (toegankelijk via het homepictogram). Zie voor meer informatie [De afzender van een e-mailbericht definiëren](../../designing/using/subject-line.md#email-sender).
 
-U kunt de afzendernaam wijzigen door op het blok **Naam afzender** te klikken. Het veld wordt bewerkbaar en u kunt de naam invoeren die u wilt gebruiken.
+U kunt de naam van de afzender wijzigen door op de knop **Naam afzender** blokkeren. Het veld wordt bewerkbaar en u kunt de naam invoeren die u wilt gebruiken.
 
 U kunt dit veld aanpassen. Hiervoor kunt u aanpassingsvelden, inhoudsblokken en dynamische inhoud toevoegen door op de pictogrammen onder de naam van de afzender te klikken.
 
@@ -53,7 +53,7 @@ Met Adobe Campaign kunt u een of meer URL&#39;s in uw bericht aanpassen door per
 >
 >Wanneer het mechanisme voor URL-handtekeningen voor het bijhouden van koppelingen is uitgeschakeld, kunnen URL&#39;s die de gebruiker aanpassen niet worden toegepast op de domeinnaam of op de URL-extensie. Een foutenmelding zal tijdens berichtanalyse worden getoond als de verpersoonlijking onjuist is.
 >
->Wanneer u een inhoudsblok selecteert, kunt u geen elementen selecteren, zoals **Koppeling naar spiegel pagina**. Dit type blokken is niet toegestaan binnen een koppeling.
+>Wanneer u een inhoudsblok selecteert, kunt u geen elementen selecteren, zoals **Koppelen aan spiegelpagina**. Dit type blokken is niet toegestaan binnen een koppeling.
 
 ## Een personalisatieveld invoegen{#inserting-a-personalization-field}
 
@@ -61,11 +61,11 @@ Met Adobe Campaign kunt u een veld uit de database in uw pagina invoegen, zoals 
 
 >[!NOTE]
 >
->In de onderstaande afbeeldingen ziet u hoe u een verpersoonlijkingsveld invoegt met de [e-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md) voor een e-mail.
+>In de onderstaande afbeeldingen ziet u hoe u een verpersoonlijkingsveld invoegt met de opdracht [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md) voor een e-mail.
 
 Een verpersoonlijkingsveld toevoegen aan de inhoud:
 
-1. Klik in een tekstblok, klik **[!UICONTROL Personalize]** pictogram van de contextafhankelijke toolbar en selecteer **[!UICONTROL Insert personalization field]**. Zie [deze sectie](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) voor meer informatie over de interface E-mailontwerper.
+1. Klik in een tekstblok en klik op de knop **[!UICONTROL Personalize]** pictogram in de contextafhankelijke werkbalk en selecteer **[!UICONTROL Insert personalization field]**. Ga voor meer informatie over de interface E-mailontwerper naar [deze sectie](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
    ![](assets/email_perso_field_1.png)
 
@@ -79,11 +79,11 @@ De veldnaam wordt weergegeven in de editor en wordt gemarkeerd.
 
 ![](assets/email_perso_field_3.png)
 
-Als personalisatie is gegenereerd (bijvoorbeeld bij het voorvertonen en voorbereiden van de e-mail), wordt dit veld vervangen door de waarde die overeenkomt met het doelprofiel.
+Zodra personalisatie wordt geproduceerd (wanneer het previewing en het voorbereiden van e-mail bijvoorbeeld), zal dit gebied door de waarde worden vervangen die aan het gerichte profiel beantwoordt.
 
 >[!NOTE]
 >
->Als de e-mail wordt gemaakt op basis van een workflow, zijn de aanvullende gegevens die in de workflow zijn berekend, ook beschikbaar in de velden voor personalisatie. Raadpleeg de sectie [Verrijkende gegevens](../../automating/using/about-targeting-activities.md#enriching-data) voor meer informatie over het toevoegen van aanvullende gegevens uit een workflow.
+>Als de e-mail wordt gemaakt op basis van een workflow, zijn de aanvullende gegevens die in de workflow zijn berekend, ook beschikbaar in de velden voor personalisatie. Raadpleeg voor meer informatie over het toevoegen van aanvullende gegevens uit een workflow de [Gegevens worden verrijkt](../../automating/using/about-targeting-activities.md#enriching-data) sectie.
 
 ## Een inhoudsblok toevoegen{#adding-a-content-block}
 
@@ -91,11 +91,11 @@ Adobe Campaign biedt een lijst met vooraf geconfigureerde inhoudsblokken. Deze i
 
 >[!NOTE]
 >
->In de onderstaande afbeeldingen ziet u hoe u een inhoudsblok invoegt met de [e-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md) voor een e-mail.
+>In de onderstaande afbeeldingen ziet u hoe u een inhoudsblok invoegt met de opdracht [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md) voor een e-mail.
 
 Een inhoudsblok toevoegen:
 
-1. Klik in een tekstblok, klik **[!UICONTROL Personalize]** pictogram van de contextafhankelijke toolbar en selecteer **[!UICONTROL Insert content block]**. Zie [deze sectie](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) voor meer informatie over de interface E-mailontwerper.
+1. Klik in een tekstblok en klik op de knop **[!UICONTROL Personalize]** pictogram in de contextafhankelijke werkbalk en selecteer **[!UICONTROL Insert content block]**. Ga voor meer informatie over de interface E-mailontwerper naar [deze sectie](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
 
    ![](assets/email_content_block_1.png)
 
@@ -111,17 +111,17 @@ De naam van het inhoudsblok wordt weergegeven in de editor en geel gemarkeerd. H
 
 De uit-van-de-doos inhoudsblokken zijn:
 
-* **[!UICONTROL Database URL in emails (EmailUrlBase)]**: Dit inhoudsblok kan alleen worden gebruikt in een  **levering**.
-* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**: Dit inhoudsblok kan alleen worden gebruikt in een  **levering**.
-* **[!UICONTROL Link to mirror page (MirrorPage)]**: Dit inhoudsblok kan alleen worden gebruikt in een  **levering**.
+* **[!UICONTROL Database URL in emails (EmailUrlBase)]**: Dit inhoudsblok kan alleen worden gebruikt in een **levering**.
+* **[!UICONTROL Mirror page URL (MirrorPageUrl)]**: Dit inhoudsblok kan alleen worden gebruikt in een **levering**.
+* **[!UICONTROL Link to mirror page (MirrorPage)]**: Dit inhoudsblok kan alleen worden gebruikt in een **levering**.
 * **[!UICONTROL Greetings (Greetings)]**
-* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**: Dit inhoudsblok kan alleen worden gebruikt in een  **levering**.
-* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**: Dit inhoudsblok kan alleen worden gebruikt op een  **openingspagina**.
-* **[!UICONTROL Default sender name (DefaultSenderName)]**: Dit inhoudsblok kan alleen worden gebruikt in een  **levering**.
-* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**: Dit inhoudsblok kan alleen worden gebruikt in een  **levering**.
-* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**: Dit inhoudsblok kan alleen worden gebruikt in een  **levering**.
-* **[!UICONTROL Default error email address (DefaultErrorAddress)]**: Dit inhoudsblok kan alleen worden gebruikt in een  **levering**.
-* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**: Dit inhoudsblok kan alleen worden gebruikt in een  **levering**.
+* **[!UICONTROL Unsubscription link (UnsubscriptionLink)]**: Dit inhoudsblok kan alleen worden gebruikt in een **levering**.
+* **[!UICONTROL Social network sharing links (LandingPageViralLinks)]**: Dit inhoudsblok kan alleen worden gebruikt in een **landingspagina**.
+* **[!UICONTROL Default sender name (DefaultSenderName)]**: Dit inhoudsblok kan alleen worden gebruikt in een **levering**.
+* **[!UICONTROL Name of default reply-to email address (DefaultReplyName)]**: Dit inhoudsblok kan alleen worden gebruikt in een **levering**.
+* **[!UICONTROL Email address of default sender (DefaultSenderAddress)]**: Dit inhoudsblok kan alleen worden gebruikt in een **levering**.
+* **[!UICONTROL Default error email address (DefaultErrorAddress)]**: Dit inhoudsblok kan alleen worden gebruikt in een **levering**.
+* **[!UICONTROL Default reply-to email address (DefaultReplyAddress)]**: Dit inhoudsblok kan alleen worden gebruikt in een **levering**.
 * **[!UICONTROL Brand name (BrandingUsualName)]**
 * **[!UICONTROL Link to the brand website (BrandingWebSiteLink)]**
 * **[!UICONTROL Brand logo (BrandingLogo)]**
@@ -133,13 +133,13 @@ U kunt nieuwe inhoudsblokken definiëren die in een bericht- of landingspagina w
 
 Ga als volgt te werk om een inhoudsblok te maken:
 
-1. Klik **[!UICONTROL Resources > Content blocks]** van het geavanceerde menu om tot de lijst van inhoudsblokken toegang te hebben.
-1. Klik op de knop **[!UICONTROL Create]** of dupliceer een bestaand inhoudsblok.
+1. Klikken **[!UICONTROL Resources > Content blocks]** in het menu Geavanceerd voor toegang tot de lijst met inhoudsblokken.
+1. Klik op de knop **[!UICONTROL Create]** of dupliceer een reeds bestaand inhoudsblok.
 
    ![](assets/content_bloc_01.png)
 
 1. Voer een label in.
-1. Selecteer **[!UICONTROL Content type]** van het blok. Er zijn drie opties beschikbaar:
+1. Selecteer de blokken **[!UICONTROL Content type]**. Er zijn drie opties beschikbaar:
 
    * **[!UICONTROL Shared]**: Het inhoudsblok kan in een levering of een landingspagina worden gebruikt.
    * **[!UICONTROL Delivery]**: Het inhoudsblok kan alleen worden gebruikt in een levering.
@@ -147,21 +147,21 @@ Ga als volgt te werk om een inhoudsblok te maken:
 
    ![](assets/content_bloc_02.png)
 
-1. U kunt een **[!UICONTROL Targeting dimension]** selecteren. Voor meer op dit, zie [Ongeveer richtend afmeting](#about-targeting-dimension).
+1. U kunt een **[!UICONTROL Targeting dimension]**. Zie voor meer informatie [Dimensie opgeven](#about-targeting-dimension).
 
    ![](assets/content_bloc_04.png)
 
-1. U kunt de optie **[!UICONTROL Depends on format]** selecteren om twee verschillende blokken te definiëren: één voor HTML-e-mails en één voor e-mails in tekstindeling. Er worden dan twee tabbladen weergegeven in de editor (HTML en Tekst) om de bijbehorende inhoud te definiëren.
+1. U kunt de **[!UICONTROL Depends on format]** optie voor het definiëren van twee verschillende blokken: één voor HTML e-mails en één voor e-mails in tekstindeling. Er worden dan twee tabbladen weergegeven in de editor (HTML en Tekst) om de bijbehorende inhoud te definiëren.
 
    ![](assets/content_bloc_03.png)
 
-1. Voer de inhoud van de inhoudsblokken in en klik op de knop **[!UICONTROL Create]**.
+1. Voer de inhoud van de inhoudsblokken in en klik op de knop **[!UICONTROL Create]** knop.
 
 U kunt het inhoudsblok nu gebruiken in de inhoudseditor van een bericht of een openingspagina.
 
 >[!CAUTION]
 >
->Wanneer het uitgeven van de inhoud van een blok, zorg ervoor er geen extra witte ruimten tussen het begin en het eind van uw *if* verklaringen zijn. In HTML worden de witruimten op het scherm weergegeven en hebben ze daarom invloed op de lay-out van de inhoud.
+>Wanneer u de inhoud van een blok bewerkt, dient u ervoor te zorgen dat er geen extra witruimten zijn tussen het begin en het einde van het blok *indien* instructies. In HTML worden de witruimten op het scherm weergegeven en hebben ze daarom invloed op de lay-out van de inhoud.
 
 ### Dimensie opgeven {#about-targeting-dimension}
 
@@ -169,7 +169,7 @@ De het richten afmeting laat u toe om te bepalen in welk type van bericht u het 
 
 Wanneer u een bericht bewerkt, kunt u alleen inhoudsblokken selecteren met een doeldimensie die compatibel is met de doeldimensie van dat bericht.
 
-De doeldimensie van het **[!UICONTROL Unsubscription link]**-blok is bijvoorbeeld **[!UICONTROL Profiles]** omdat het aanpassingsvelden bevat die specifiek zijn voor de **[!UICONTROL Profiles]**-bron. Daarom kunt u geen **[!UICONTROL Unsubscription link]** blok in een [gebeurtenistransactioneel bericht](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) gebruiken, omdat de het richten dimensie van dat type van bericht **[!UICONTROL Real-time events]** is. U kunt echter het **Unsubscription-blok** in een [profile transactioneel bericht](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) gebruiken, omdat de doeldimensie van dat type bericht **Profiles** is. Tot slot heeft het **[!UICONTROL Link to mirror page]** blok geen het richten dimensie, zodat kunt u het in om het even welk bericht gebruiken.
+De **[!UICONTROL Unsubscription link]** blok richt dimensie is **[!UICONTROL Profiles]** omdat het personaliseringsgebieden specifiek voor het bevat **[!UICONTROL Profiles]** resource. Daarom kunt u geen **[!UICONTROL Unsubscription link]** blokkeren in een [Transactiebericht voor gebeurtenis](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types), omdat de doeldimensie van dat type bericht **[!UICONTROL Real-time events]**. U kunt echter de opdracht **Koppeling met abonnement opheffen** blokkeren in een [profieltransactiebericht](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types), omdat de doeldimensie van dat type bericht **Profielen**. Tot slot **[!UICONTROL Link to mirror page]** blok heeft geen het richten dimensie, zodat kunt u het in om het even welk bericht gebruiken.
 
 Als u dit veld leeg laat, is het inhoudsblok compatibel met alle berichten, ongeacht de doeldimensie. Als u een het richten dimensie plaatst, zal dat blok slechts met berichten compatibel zijn die de zelfde het richten dimensie hebben.
 
@@ -186,20 +186,20 @@ Raadpleeg [Targetingdimensies en resources](../../automating/using/query.md#targ
 Met Adobe Campaign kunt u een of meer afbeeldingen in uw bericht aanpassen aan een bepaald criterium of de afbeeldingen bijhouden gebruiken. Dit wordt gedaan door verpersoonlijkingsgebieden, inhoudsblokken, of dynamische inhoud in de beeldbron op te nemen. Dit doet u als volgt:
 
 1. Voeg een afbeelding in in de inhoud van het bericht of selecteer een afbeelding die al aanwezig is.
-1. Schakel in het palet met afbeeldingseigenschappen de optie **[!UICONTROL Enable personalization]** in.
+1. Controleer in het palet met afbeeldingseigenschappen het palet **[!UICONTROL Enable personalization]** optie.
 
    ![](assets/des_personalize_images_1.png)
 
-   Het veld **[!UICONTROL Source]** wordt weergegeven en de geselecteerde afbeelding wordt in de editor weergegeven als **gepersonaliseerd**.
+   De **[!UICONTROL Source]** wordt weergegeven en wordt de geselecteerde afbeelding weergegeven als **gepersonaliseerd** in de editor.
 
-1. Klik op het potlood naast de veldknop **[!UICONTROL Source]** voor toegang tot de verpersoonlijkingsopties.
+1. Klik op het potlood naast de knop **[!UICONTROL Source]** de gebiedsknoop om tot de verpersoonlijkingsopties toegang te hebben.
 1. Nadat u de afbeeldingsbron hebt toegevoegd, voegt u de gewenste aanpassingsvelden, inhoudsblokken en dynamische inhoud toe.
 
    ![](assets/des_personalize_images_2.png)
 
    >[!NOTE]
    >
-   >De domeinnaam (http://mydomain.com) kan niet worden gepersonaliseerd, maar moet handmatig worden ingevoerd. De rest van de URL kan worden gepersonaliseerd. Bijvoorbeeld: http://mydomain.com/ `[Gender]`.jpg
+   >De domeinnaam (http://mydomain.com) kan niet worden gepersonaliseerd, maar moet handmatig worden ingevoerd. De rest van de URL kan worden gepersonaliseerd. Bijvoorbeeld: http://mydomain.com/ `[Gender]` .jpg
 
 1. Bevestig uw wijzigingen.
 
@@ -209,13 +209,13 @@ Met Adobe Campaign kunt u een of meer afbeeldingen in uw bericht aanpassen aan e
 
 U kunt een zichtbaarheidsvoorwaarde voor elk element opgeven. De voorwaarde is alleen zichtbaar als aan de voorwaarde wordt voldaan.
 
-Als u een zichtbaarheidsvoorwaarde wilt toevoegen, selecteert u een blok en voert u de voorwaarde in die moet worden nageleefd in het veld **[!UICONTROL Visibility condition]** van de instellingen.
+Als u een zichtbaarheidsvoorwaarde wilt toevoegen, selecteert u een blok en voert u de voorwaarde in die moet worden nageleefd in het dialoogvenster **[!UICONTROL Visibility condition]** van de instellingen.
 
 ![](assets/delivery_content_5.png)
 
 Deze optie is alleen beschikbaar voor de volgende elementen: ADRES, BLOCKQUOTE, CENTER, DIR, DIV, DL, FIELDSET, FORM, H1, H2, H3, H4, H5, H6, NOSCRIPT, OL, P, PRE, UL, TR, TD.
 
-De uitdrukkingsredacteur wordt voorgesteld in [Geavanceerde uitdrukkingshet uitgeven](../../automating/using/editing-queries.md#about-query-editor) sectie.
+De expressie-editor wordt weergegeven in het dialoogvenster [Geavanceerde expressies bewerken](../../automating/using/editing-queries.md#about-query-editor) sectie.
 
 Deze voorwaarden nemen de XTK-expressiesyntaxis over (bijvoorbeeld **context.profile.email!=&#39;&#39;** of **context.profile.status=&#39;0&#39;**). Standaard zijn alle velden zichtbaar.
 
@@ -232,14 +232,14 @@ Deze voorwaarden nemen de XTK-expressiesyntaxis over (bijvoorbeeld **context.pro
 
 In een e-mail kunt u verschillende inhoud definiëren die dynamisch aan de ontvangers wordt weergegeven volgens de voorwaarden die via de expressieeditor zijn gedefinieerd. U kunt er bijvoorbeeld voor zorgen dat elk profiel via hetzelfde e-mailbericht een ander bericht ontvangt op basis van het leeftijdsbereik.
 
-Het definiëren van dynamische inhoud verschilt van [het definiëren van zichtbaarheidsvoorwaarden](#defining-a-visibility-condition).
+Dynamische inhoud definiëren verschilt van [zichtbaarheidsvoorwaarden definiëren](#defining-a-visibility-condition).
 
 1. Selecteer een fragment, component of element. Selecteer in dit voorbeeld een afbeelding.
-1. Klik op het pictogram **[!UICONTROL Dynamic content]** op de contextafhankelijke werkbalk.
+1. Klik op de knop **[!UICONTROL Dynamic content]** van de contextafhankelijke werkbalk.
 
    ![](assets/dynamic_content_2.png)
 
-   De sectie **[!UICONTROL Dynamic content]** wordt weergegeven in het palet aan de linkerkant.
+   De **[!UICONTROL Dynamic content]** in het palet aan de linkerkant.
 
    ![](assets/dynamic_content_3.png)
 
@@ -253,7 +253,7 @@ Het definiëren van dynamische inhoud verschilt van [het definiëren van zichtba
 
    ![](assets/dynamic_content_4.png)
 
-1. Geef een label op en selecteer de velden die u als voorwaarden wilt instellen. Selecteer bijvoorbeeld in het knooppunt **[!UICONTROL General]** het veld **[!UICONTROL Age]**
+1. Geef een label op en selecteer de velden die u als voorwaarden wilt instellen. Bijvoorbeeld vanuit de **[!UICONTROL General]** knoop, selecteer **[!UICONTROL Age]** field
 
    ![](assets/dynamic_content_5.png)
 
@@ -265,7 +265,7 @@ Het definiëren van dynamische inhoud verschilt van [het definiëren van zichtba
 
    ![](assets/dynamic_content_7.png)
 
-   De inhoud wordt in het palet weergegeven in volgorde van prioriteit, van boven naar beneden. Raadpleeg [deze sectie](#defining-dynamic-content-in-an-email) voor meer informatie over prioriteiten.
+   De inhoud wordt in het palet weergegeven in volgorde van prioriteit, van boven naar beneden. Voor meer informatie over prioriteiten raadpleegt u [deze sectie](#defining-dynamic-content-in-an-email).
 
 1. Upload een nieuwe afbeelding voor de variant die u net hebt gedefinieerd.
 
@@ -275,7 +275,7 @@ Het definiëren van dynamische inhoud verschilt van [het definiëren van zichtba
 
    ![](assets/dynamic_content_10.png)
 
-1. Klik **[!UICONTROL Add a condition]** om nieuwe inhoud en zijn verbonden regel toe te voegen.
+1. Klikken **[!UICONTROL Add a condition]** om nieuwe inhoud en de bijbehorende gekoppelde regel toe te voegen.
 
    ![](assets/dynamic_content_9.png)
 
@@ -298,15 +298,15 @@ Wanneer u in de expressieeditor een dynamische inhoud definieert, is de volgorde
 
 1. U definieert twee verschillende dynamische inhoud met **twee verschillende voorwaarden**, bijvoorbeeld:
 
-   **Voorwaarde 1:** het geslacht van het profiel is mannelijk;
+   **Voorwaarde 1:** het geslacht van het profiel mannelijk is;
 
-   **Voorwaarde 2:** het profiel is tussen de 20 en 30 jaar oud.
+   **Voorwaarde 2:** het profiel is tussen de 20 en 30 jaar oud .
 
    ![](assets/delivery_content_61.png)
 
    Sommige profielen in uw database voldoen aan de twee voorwaarden, maar er kan slechts één e-mail met één dynamische inhoud worden verzonden.
 
-1. Daarom moet u de prioriteit voor de dynamische inhoud definiëren. Een voorwaarde met een prioriteitsvolgorde van **1** (en daarom de corresponderende dynamische inhoud) wordt naar een profiel verzonden, zelfs als dit profiel ook voldoet aan een andere voorwaarde waarvan de prioriteitsvolgorde **2** of **3** is.
+1. Daarom moet u de prioriteit voor de dynamische inhoud definiëren. Een voorwaarde met een volgorde van prioriteit van **1** (en dus de overeenkomstige dynamische inhoud) naar een profiel worden verzonden, zelfs als een andere voorwaarde waarvan de prioriteitsvolgorde **2** of **3** voldoet ook aan dit profiel.
 
    ![](assets/delivery_content_62.png)
 
@@ -314,7 +314,7 @@ U kunt slechts één prioriteitsvolgorde per dynamische inhoud definiëren.
 
 ## Voorbeeld: E-mailpersonalisatie{#example-email-personalization}
 
-In dit voorbeeld heeft een lid van het marketingserviceteam een e-mail gemaakt om sommige van zijn klanten te laten weten dat er een speciale aanbieding is die alleen voor hen geldt. Het teamlid heeft besloten de e-mail aan te passen aan de leeftijd van de klant. Clients tussen 18 en 27 jaar oud ontvangen een e-mail met een andere afbeelding en slogan voor de clients die ouder zijn dan 27 jaar.
+In dit voorbeeld heeft een lid van het marketingserviceteam een e-mail gemaakt om sommige van hun klanten te laten weten dat er alleen voor hen een speciale aanbieding is. Het teamlid heeft besloten de e-mail aan te passen aan de leeftijd van de klant. Clients tussen 18 en 27 jaar oud ontvangen een e-mail met een andere afbeelding en slogan voor de clients die ouder zijn dan 27 jaar.
 
 Het e-mailbericht wordt als volgt gemaakt:
 
@@ -322,13 +322,13 @@ Het e-mailbericht wordt als volgt gemaakt:
 
    ![](assets/delivery_content_43.png)
 
-   Het toevoegen en configureren van dynamische inhoud wordt beschreven in de sectie [Dynamische inhoud definiëren in een e-mail](#defining-dynamic-content-in-an-email).
+   Het toevoegen en configureren van dynamische inhoud wordt beschreven in het gedeelte [Dynamische inhoud in een e-mail definiëren](#defining-dynamic-content-in-an-email) sectie.
 
 * De gebieden van de aanpassing en de dynamische inhoud worden toegepast op de tekst. Afhankelijk van het leeftijdsbereik van het profiel, begint de e-mail met de voornaam van het profiel of de titel en achternaam van het profiel.
 
    ![](assets/delivery_content_44.png)
 
-   Het toevoegen en het vormen van de verpersoonlijkingsgebieden is gedetailleerd in [Het opnemen van een verpersoonlijkingsgebied](#inserting-a-personalization-field) sectie.
+   Het toevoegen en configureren van verpersoonlijkingsvelden wordt gedetailleerd beschreven in het gedeelte [Een aanpassingsveld invoegen](#inserting-a-personalization-field) sectie.
 
 ### Afbeeldingen configureren {#configuring-images}
 
@@ -341,21 +341,21 @@ In dit voorbeeld wordt de dynamische inhoud die op de afbeeldingen wordt toegepa
 
 **Om de leeftijd van 18-27 jaar te bereiken:**
 
-1. Selecteer de dynamische inhoud in het palet **[!UICONTROL Properties]** en klik op de knop **[!UICONTROL Edit]**.
+1. Selecteer de dynamische inhoud in het dialoogvenster **[!UICONTROL Properties]** en klikt u op **[!UICONTROL Edit]** knop.
 
    ![](assets/delivery_content_48.png)
 
-1. Bewerk het label en selecteer vervolgens het veld **[!UICONTROL Age]** in het knooppunt **[!UICONTROL Profile]**.
+1. Bewerk het label en selecteer vervolgens het **[!UICONTROL Age]** veld van **[!UICONTROL Profile]** knooppunt.
 
    ![](assets/delivery_content_49.png)
 
-1. Selecteer de **operator Groter dan of gelijk aan** en voer **18** in om de **oudere dan 18** expressie te maken.
+1. Selecteer **Groter dan of gelijk aan** operator en vervolgens **18** om de **ouder dan 18** expressie.
 
    ![](assets/delivery_content_50.png)
 
-1. Voeg een nieuwe **[!UICONTROL Age]** voorwaarde toe.
+1. Een nieuwe toevoegen **[!UICONTROL Age]** voorwaarde.
 
-   Selecteer de operator **Kleiner dan of gelijk aan** gevolgd door 27 in het waardeveld om de expressie **jonger dan 27** te maken.
+   Selecteer **Kleiner dan of gelijk aan** operator, gevolgd door 27 in het waardeveld, om de **jonger dan 27 jaar** expressie.
 
    ![](assets/delivery_content_51.png)
 
@@ -364,8 +364,8 @@ In dit voorbeeld wordt de dynamische inhoud die op de afbeeldingen wordt toegepa
 **Voor profielen van 27 jaar en ouder:**
 
 1. Selecteer de dynamische inhoud in het palet en bewerk deze.
-1. Bewerk het label en selecteer vervolgens het veld **[!UICONTROL Age]** in het knooppunt **[!UICONTROL Profile]**.
-1. Voeg de operator **Groter dan** toe, gevolgd door 27 in het waardeveld om de expressie **ouder dan 27** te maken.
+1. Bewerk het label en selecteer vervolgens het **[!UICONTROL Age]** veld van **[!UICONTROL Profile]** knooppunt.
+1. Voeg de **Groter dan** operator, gevolgd door 27 in het waardeveld, om de **ouder dan 27** expressie.
 
    ![](assets/delivery_content_52.png)
 
@@ -381,11 +381,11 @@ In dit voorbeeld wordt de dynamische inhoud die op de teksten wordt toegepast, a
 
 1. Selecteer de gewenste structuurcomponent en voeg een dynamische inhoud toe.
 1. Bewerk de dynamische inhoud en configureer de doelexpressies. Zie [Afbeeldingen configureren](#configuring-images).
-1. Klik in de structuurcomponent op de gewenste positie op het pictogram **[!UICONTROL Personalize]** op de contextafhankelijke werkbalk en selecteer **[!UICONTROL Insert personalization field]**.
+1. Klik in de structuurcomponent op de gewenste positie op de knop **[!UICONTROL Personalize]** pictogram in de contextafhankelijke werkbalk en selecteer **[!UICONTROL Insert personalization field]**.
 
    ![](assets/delivery_content_53.png)
 
-1. Selecteer in de lijst die wordt weergegeven het veld **[!UICONTROL First name]** en bevestig het.
+1. Selecteer in de lijst die wordt weergegeven de optie **[!UICONTROL First name]** veld en bevestiging.
 
    ![](assets/delivery_content_54.png)
 
@@ -395,9 +395,9 @@ In dit voorbeeld wordt de dynamische inhoud die op de teksten wordt toegepast, a
 
 1. Selecteer de gewenste structuurcomponent en voeg een dynamische inhoud toe.
 1. Bewerk de dynamische inhoud en configureer de doelexpressies. Zie [Afbeeldingen configureren](#configuring-images).
-1. Klik in de structuurcomponent op de gewenste positie op het pictogram **[!UICONTROL Personalize]** op de contextafhankelijke werkbalk en selecteer **[!UICONTROL Insert personalization field]**.
-1. Selecteer **[!UICONTROL Title]** in de vervolgkeuzelijst.
-1. Ga op dezelfde manier te werk om het veld **[!UICONTROL Last name]** toe te voegen.
+1. Klik in de structuurcomponent op de gewenste positie op de knop **[!UICONTROL Personalize]** pictogram in de contextafhankelijke werkbalk en selecteer **[!UICONTROL Insert personalization field]**.
+1. Selecteren **[!UICONTROL Title]** in de vervolgkeuzelijst.
+1. Ga op dezelfde manier verder om de **[!UICONTROL Last name]** veld.
 
    ![](assets/delivery_content_56.png)
 
@@ -405,7 +405,7 @@ Uw verpersoonlijkingsgebieden zouden nu perfect in de gekozen dynamische inhoud 
 
 ### E-mailberichten voorvertonen {#previewing-emails}
 
-Door een voorbeeld te bekijken, kunt u controleren of de verpersoonlijkingsvelden en de dynamische inhoud correct zijn geconfigureerd voordat u **[!UICONTROL Proofs]** verzendt. Tijdens de voorvertoning kunt u verschillende testprofielen selecteren die overeenkomen met de e-maildoelen.
+Als u een voorbeeld bekijkt, kunt u controleren of de verpersoonlijkingsvelden en de dynamische inhoud correct zijn geconfigureerd voordat u het dialoogvenster **[!UICONTROL Proofs]**. Tijdens de voorvertoning kunt u verschillende testprofielen selecteren die overeenkomen met de e-maildoelen.
 
 Zonder testprofielen wordt standaard de volgende e-mail weergegeven:
 

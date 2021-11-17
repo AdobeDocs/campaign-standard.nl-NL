@@ -9,10 +9,10 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 82%
+ht-degree: 79%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->Productaanbiedingen zijn alleen beschikbaar voor **transactie-e-mailberichten** via de [e-mailinterface van Designer](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface).
+>Productaanbiedingen zijn alleen beschikbaar voor **transactie-e-mailberichten** via de [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) interface.
 
 Wanneer u de inhoud van een transactie-e-mail bewerkt, kunt u productlijsten maken die verwijzen naar een of meer gegevensverzamelingen. In een e-mailbericht waarin de winkelwagen wordt verlaten, kunt u bijvoorbeeld een lijst opnemen met alle producten die zich in de winkelwagentjes bevonden toen ze uw website verlieten, met een afbeelding, de prijs en een koppeling naar elk product.
 
 Volg de onderstaande stappen om een lijst met achtergelaten producten toe te voegen aan een transactiebericht.
 
-U kunt [deze set video&#39;s ook bekijken](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) waarin de stappen worden uitgelegd die nodig zijn om productlijsten in een transactie-e-mail te configureren.
+U kunt ook [deze set video&#39;s](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) het uitleggen van de stappen die vereist zijn om productlijsten in een transactie-e-mail te vormen.
 
 >[!NOTE]
 >
@@ -37,9 +37,9 @@ U kunt [deze set video&#39;s ook bekijken](https://experienceleague.adobe.com/do
 Voordat u een productvermelding in een transactiebericht kunt gebruiken, moet u op gebeurtenisniveau de lijst met producten en de velden definiëren voor elk weer te geven product van de lijst. Ga voor meer informatie naar [Dataverzamelingen definiëren](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
 1. Klik in het transactiebericht op het blok **[!UICONTROL Content]** om de e-mailcontent te wijzigen.
-1. Sleep een structuurcomponent naar de werkruimte. Zie [De e-mailstructuur definiëren](../../designing/using/designing-from-scratch.md#defining-the-email-structure) voor meer informatie.
+1. Sleep een structuurcomponent naar de werkruimte. Zie voor meer informatie [De e-mailstructuur definiëren](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-   Selecteer bijvoorbeeld een structuurcomponent met één kolom en voeg een tekstcomponent, een afbeeldingscomponent en een knopcomponent toe. Zie [Inhoudscomponenten gebruiken](../../designing/using/designing-from-scratch.md#about-content-components) voor meer informatie.
+   Selecteer bijvoorbeeld een structuurcomponent met één kolom en voeg een tekstcomponent, een afbeeldingscomponent en een knopcomponent toe. Zie voor meer informatie [Inhoudscomponenten gebruiken](../../designing/using/designing-from-scratch.md#about-content-components).
 
 1. Selecteer de net gemaakte structuurcomponent en klik op het pictogram **[!UICONTROL Enable product listing]** op de contextgevoelige werkbalk.
 
@@ -56,7 +56,7 @@ Voordat u een productvermelding in een transactiebericht kunt gebruiken, moet u 
 
    >[!NOTE]
    >
-   >De optie **[!UICONTROL Column]** is alleen beschikbaar als u een structuurcomponent met meerdere kolommen gebruikt (**[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** en **[!UICONTROL 4:4 column]**). Vul bij het bewerken van de productvermelding alleen de eerste kolom in, want de andere kolommen worden buiten beschouwing gelaten. Zie [De e-mailstructuur definiëren](../../designing/using/designing-from-scratch.md#defining-the-email-structure) voor meer informatie over het selecteren van structuurcomponenten.
+   >De optie **[!UICONTROL Column]** is alleen beschikbaar als u een structuurcomponent met meerdere kolommen gebruikt (**[!UICONTROL 2:2 column]**, **[!UICONTROL 3:3 column]** en **[!UICONTROL 4:4 column]**). Vul bij het bewerken van de productvermelding alleen de eerste kolom in, want de andere kolommen worden buiten beschouwing gelaten. Zie voor meer informatie over het selecteren van structuurcomponenten [De e-mailstructuur definiëren](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. Selecteer de dataverzameling die u hebt gemaakt toen u de gebeurtenis die betrekking had op het transactiebericht configureerde. De code kunt u vinden onder de node **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
 
@@ -127,9 +127,9 @@ Zie [Dataverzamelingen definiëren](../../channels/using/configuring-transaction
 
    ![](assets/message-center_loop_fallback.png)
 
-   De fallback-content wordt weergegeven als de verzameling tijdens het activeren van de gebeurtenis leeg is, bijvoorbeeld als een klant niets in zijn winkelwagen heeft.
+   De fallback-inhoud wordt weergegeven als de verzameling leeg is wanneer de gebeurtenis wordt geactiveerd, bijvoorbeeld als een klant niets in zijn winkelwagentje heeft.
 
-1. Bewerk de stijlen voor de productvermelding in het deelvenster Instellingen. Zie [E-mailstijlen beheren](../../designing/using/styles.md) voor meer informatie.
+1. Bewerk de stijlen voor de productvermelding in het deelvenster Instellingen. Zie voor meer informatie [E-mailstijlen beheren](../../designing/using/styles.md).
 1. Toon een voorbeeld van de e-mail met een testprofiel dat is gekoppeld aan de relevante transactiegebeurtenis en waarvoor u verzamelingsdata hebt gedefinieerd. Voeg bijvoorbeeld de volgende informatie toe aan de sectie **[!UICONTROL Event data]** voor het testprofiel dat u wilt gebruiken:
 
    ![](assets/message-center_loop_test-profile_payload.png)

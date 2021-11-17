@@ -9,7 +9,7 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 48%
@@ -22,7 +22,7 @@ Er is een geïntegreerd klantprofiel beschikbaar voor elke contactpersoon van uw
 
 Voer de volgende stappen uit om toegang te krijgen tot het geïntegreerde klantprofiel:
 
-1. Klik op de startpagina van Adobe Campaign op de **[!UICONTROL Customer profiles]**-kaart of op het tabblad **Profielen** om de lijst met profielen weer te geven.
+1. Klik op de startpagina van Adobe Campaign op de knop **[!UICONTROL Customer profiles]** of de **Profielen** om de lijst met profielen weer te geven.
 
 1. Als u een profiel wilt zoeken dat is gebaseerd op een specifiek veld, opent u het zoekvenster en selecteert u het veld waarop u de zoekopdracht wilt uitvoeren.
 
@@ -35,7 +35,7 @@ Voer de volgende stappen uit om toegang te krijgen tot het geïntegreerde klantp
    >
    >U kunt zoekopdrachten uitvoeren op basis van de velden voor e-mail, voornaam en achternaam en aangepaste velden die zijn toegevoegd bij het uitbreiden van de bron.
    >
-   >Zoekopdrachten zijn hoofdlettergevoelig en worden alleen op voorvoegsels uitgevoerd. U kunt bijvoorbeeld niet zoeken naar een profiel met de laatste letters van zijn achternaam.
+   >Zoekopdrachten zijn hoofdlettergevoelig en worden alleen op voorvoegsels uitgevoerd. U kunt bijvoorbeeld niet zoeken naar een profiel met de laatste letters van de achternaam.
 
 1. Selecteer een contactpersoon om het bijbehorende profiel te openen.
 

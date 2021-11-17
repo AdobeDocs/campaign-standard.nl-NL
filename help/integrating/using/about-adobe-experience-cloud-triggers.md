@@ -9,10 +9,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 98%
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ Dankzij de integratie tussen de Experience Cloud Activation-kernservice **[!UICO
 
 In Adobe Experience Cloud kunt u verschillende &#39;triggers&#39; definiëren. Dat wil zeggen: het gedrag van de klant dat u wilt monitoren, zoals bijvoorbeeld alle klanten die uw website hebben verlaten of klanten die een zoekopdracht op uw website hebben uitgevoerd maar niets gekocht, en zelfs klanten van wie de sessie is verlopen. Wanneer u een trigger maakt, definieert u de voorwaarde van de trigger en de data die in de gebeurtenis(upload) naar Adobe Campaign worden verzonden.
 
-In Adobe Campaign selecteert u de trigger die eerder is gemaakt. U verrijkt u de gebeurtenisdata met datamart-data en u definieert een transactieberichtsjabloon die aan de trigger is gekoppeld. Wanneer een klant bijvoorbeeld uw website verlaat, wordt een gebeurtenis naar Adobe Campaign verzonden. Op basis van deze gebeurtenis stuurt Adobe Campaign binnen 15 minuten een e-mailbericht voor remarketing naar het clientapparaat van de klant.
+In Adobe Campaign selecteert u de trigger die eerder is gemaakt. U verrijkt u de gebeurtenisdata met datamart-data en u definieert een transactieberichtsjabloon die aan de trigger is gekoppeld. Wanneer een klant bijvoorbeeld zijn bezoek op uw website afsluit, wordt een gebeurtenis naar Adobe Campaign verzonden die deze gebeurtenis vervolgens kan benutten via een e-mailbericht voor opnieuw marketing dat binnen 15 minuten naar de client wordt verzonden.
 
 In het volgende diagram wordt beschreven hoe deze integratie werkt.
 

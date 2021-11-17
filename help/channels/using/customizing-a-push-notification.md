@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1500'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -42,11 +42,11 @@ Met een geluid worden gebruikers gewaarschuwd dat er een pushmelding is, zodat d
 
    ![](assets/push_notif_advanced_7.png)
 
-1. Het geluidsbestand wordt afgespeeld bij het verzenden van de melding als het bestand is gedefinieerd in het pakket van de mobiele applicatie. U kunt het aan **default** plaatsen om het standaardgeluid van het apparaat te spelen.
+1. Het geluidsbestand wordt afgespeeld bij het verzenden van de melding als het bestand is gedefinieerd in het pakket van de mobiele applicatie. U kunt instellen op **default** om het standaardgeluid van het apparaat af te spelen.
 
-   Als het veld **[!UICONTROL Play a sound]** leeg blijft, wordt er geen geluid afgespeeld.
+   Als de **[!UICONTROL Play a sound]** veld is leeg, er wordt geen geluid afgespeeld.
 
-De gebruiker ontvangt dan de pushmelding en het geluid alleen als zijn telefoon niet gedempt is.
+De gebruiker zal dan het dupbericht en het geluid ontvangen slechts als hun telefoon niet gedempt is.
 
 ## De badgewaarde vernieuwen {#refresh-the-badge-value}
 
@@ -113,7 +113,7 @@ Als u een vervaldatum instelt voor uw pushmelding, stelt u een specifieke datum 
 
 Een vervaldatum toevoegen aan uw pushmelding:
 
-1. Schakel de optie **[!UICONTROL Expire message]** in: door de optie **[!UICONTROL Expire message]** te selecteren, wordt de duur automatisch ingesteld op 0. Als u de waarde niet wijzigt, proberen zowel APNS als FCM het bericht onmiddellijk te verzenden. Als het mislukt, wordt het bericht niet opnieuw verzonden.
+1. Controleer de **[!UICONTROL Expire message]** optie: door **[!UICONTROL Expire message]** wordt de duur automatisch ingesteld op 0. Als u de waarde niet wijzigt, proberen zowel APNS als FCM het bericht onmiddellijk te verzenden. Als het mislukt, wordt het bericht niet opnieuw verzonden.
 
 1. Selecteer in het veld **[!UICONTROL Duration]** de geldigheid van uw pushmelding.
 

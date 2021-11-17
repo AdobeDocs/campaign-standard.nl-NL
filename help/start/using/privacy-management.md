@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '964'
-ht-degree: 100%
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
+source-wordcount: '963'
+ht-degree: 95%
 
 ---
 
@@ -66,7 +66,7 @@ U kunt in Adobe Campaign verzoeken voor **Toegang** en **Verwijderen** afhandele
 
 * Het **toegangsrecht** is het recht van de betrokkene om van de gegevenscontroller bevestiging te krijgen of er persoonsgegevens van de betrokkene worden verwerkt, waar en voor welk doel. De gegevenscontroller verstrekt kosteloos een kopie van de persoonsgegevens in elektronische vorm.
 
-* Het **recht om te worden vergeten** (verwijderingsverzoek) geeft de betrokkene het recht om de gegevenscontroller zijn/haar persoonsgegevens te laten wissen, verdere verspreiding van de gegevens stop te zetten en eventueel de verwerking van de gegevens door derden te laten stopzetten.
+* Wordt ook wel gegevensgummetje genoemd. **Recht op vergeten** (verzoek tot verwijdering) geeft de betrokkene het recht om de verantwoordelijke voor de verwerking van persoonsgegevens te laten wissen, de verdere verspreiding van de gegevens te beëindigen en derden mogelijk te laten stoppen met de verwerking van de gegevens.
 
 Als u wilt weten hoe u verzoeken om **toegang** en **verwijdering** kunt maken en hoe Adobe Campaign deze verwerkt, raadpleegt u de [implementatiestappen](../../start/using/privacy-requests.md#about-privacy-requests).
 

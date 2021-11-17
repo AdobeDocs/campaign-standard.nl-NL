@@ -8,7 +8,7 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 5%
@@ -53,9 +53,9 @@ Hier volgt een visuele weergave van de interactie van de profielen met de verzon
  </tbody> 
 </table>
 
-Om het algemene aantal unieke opent te begrijpen, moeten wij de rijtellingen van **[!UICONTROL Unique Opens]** samenvatten die ons de waarde 3 geeft. Maar aangezien de e-mail was gericht op slechts 2 profielen, zou het Open tarief 150% moeten tonen.
+Om het totale aantal unieke opent te begrijpen, moeten wij de rijtellingen van samenvatten **[!UICONTROL Unique Opens]** Dat geeft ons de waarde 3. Maar aangezien de e-mail was gericht op slechts 2 profielen, zou het Open tarief 150% moeten tonen.
 
-Om een percentage niet te verkrijgen hoger dan 100, wordt de definitie van **[!UICONTROL Unique Opens]** gehandhaafd om het aantal unieke uitzendingen te zijn die werden geopend. Zelfs als P1 het e-mailbericht op dag 1 en dag 2 heeft geopend, is dit nog steeds 1.
+Om een percentage van meer dan 100 te verkrijgen, wordt de definitie van **[!UICONTROL Unique Opens]** wordt gehandhaafd om het aantal unieke uitzendingen te zijn dat is geopend. Zelfs als P1 het e-mailbericht op dag 1 en dag 2 heeft geopend, is de unieke opening nog steeds 1.
 
 Dit resulteert in de volgende tabel:
 
@@ -70,7 +70,7 @@ Dit resulteert in de volgende tabel:
  <tbody> 
   <tr> 
    <td align="center"> <strong> Day </strong><br /> </td> 
-   <td align="center"> <strong> 6  </strong><br /> </td> 
+   <td align="center"> <strong> 6 </strong><br /> </td> 
    <td align="center"> <strong> 2</strong><br /> </td>
   </tr> 
   <tr> 
@@ -92,13 +92,13 @@ Dit resulteert in de volgende tabel:
 
 ## Open aantallen komen niet overeen met het aantal databases {#open-counts-no-match-database}
 
-Dit kan zijn toe te schrijven aan het feit dat, heuristiek in Dynamische rapportering wordt gebruikt om te volgen opent zelfs wanneer wij niet de **[!UICONTROL Open]** actie kunnen volgen.
+Dit kan te wijten zijn aan het feit dat heuristiek wordt gebruikt in Dynamische rapportering om te volgen opent zelfs wanneer wij niet kunnen volgen **[!UICONTROL Open]** handeling.
 
-Als een gebruiker bijvoorbeeld afbeeldingen op zijn client heeft uitgeschakeld en op een koppeling in de e-mail klikt, wordt **[!UICONTROL Open]** mogelijk niet bijgehouden door de database, maar **[!UICONTROL Click]** wel.
+Als een gebruiker bijvoorbeeld afbeeldingen op zijn client heeft uitgeschakeld en op een koppeling in de e-mail klikt, **[!UICONTROL Open]** mag niet door de database worden bijgehouden, maar **[!UICONTROL Click]** zal.
 
 Daarom **[!UICONTROL Open]** het volgen logboektellingen kunnen niet de zelfde telling in het gegevensbestand hebben.
 
-Dergelijke voorvallen worden toegevoegd als **&quot;een e-mailklik impliceert een e-mail open&quot;**.
+Dergelijke voorvallen worden toegevoegd als **&quot;Een e-mailklik betekent dat er een e-mailbericht is geopend&quot;**.
 
 >[!NOTE]
 >
@@ -107,8 +107,8 @@ Dergelijke voorvallen worden toegevoegd als **&quot;een e-mailklik impliceert ee
 ## Hoe worden tellingen voor terugkomende/transactionele leveringen berekend? {#counts-recurring-deliveries}
 
 Wanneer het werken met terugkomende en transactionele leveringen, zullen de tellingen aan zowel de ouder als kindleveringen worden toegeschreven.
-Wij kunnen het voorbeeld nemen van terugkomende levering genoemd **R1** die wordt geplaatst om elke dag op dag 1 (RC1), dag 2 (RC2) en dag 3 (RC3) te lopen.
-Laten we aannemen dat slechts één persoon alle onderliggende leveringen meerdere keren heeft geopend. In dit geval, zullen de individuele terugkomende kindleveringen **[!UICONTROL Open]** tellen als 1 voor elk tonen.
+We kunnen het voorbeeld nemen van een terugkerende levering met de naam **R1** die elke dag moet worden uitgevoerd op dag 1 (RC1), dag 2 (RC2) en dag 3 (RC3).
+Laten we aannemen dat slechts één persoon alle onderliggende leveringen meerdere keren heeft geopend. In dit geval worden op de individuele terugkerende onderliggende leveringen de volgende gegevens vermeld: **[!UICONTROL Open]** tel als 1 voor elk.
 Aangezien dezelfde persoon echter op alle leveringen heeft geklikt, heeft de bovenliggende terugkerende levering ook **[!UICONTROL Unique open]** als 1.
 
 Rapporten moeten er als volgt uitzien:
@@ -129,7 +129,7 @@ Rapporten moeten er als volgt uitzien:
    <td align="center"> <strong>100</strong><br/> </td> 
    <td align="center"> <strong>90</strong><br/> </td> 
    <td align="center"> <strong>10</strong><br/> </td> 
-   <td align="center"> <strong>1</strong><br/> </td> 
+   <td align="center"> <strong>3</strong><br/> </td> 
   </tr> 
   <tr> 
    <td align="center"> RC1<br/> </td> 
@@ -163,9 +163,9 @@ In het onderstaande voorbeeld heeft de cel dezelfde kleur omdat de waarde 100% i
 
 ![](assets/troubleshooting_1.png)
 
-Als u **[!UICONTROL Conditional formatting]** in douane verandert, wanneer de waarde de hogere grens bereikt zal de cel groener worden. Als het de ondergrens bereikt, wordt het rood.
+Als u de **[!UICONTROL Conditional formatting]** aan douane, wanneer de waarde de hogere grens bereikt zal de cel groener worden. Als het de ondergrens bereikt, wordt het rood.
 
-Hier stellen we bijvoorbeeld **[!UICONTROL Upper limit]** in op 500 en **[!UICONTROL Lower limit]** op 0.
+Hier stellen we bijvoorbeeld de **[!UICONTROL Upper limit]** tot en met 500 en **[!UICONTROL Lower limit]** tot 0.
 
 ![](assets/troubleshooting_2.png)
 
@@ -173,11 +173,11 @@ Hier stellen we bijvoorbeeld **[!UICONTROL Upper limit]** in op 500 en **[!UICON
 
 ![](assets/troubleshooting_3.png)
 
-De waarde **N/A** kan soms in uw dynamische rapporten verschijnen. Dit kan om drie redenen worden getoond:
+De waarde **N.v.t.** kan soms in uw dynamische rapporten verschijnen. Dit kan om drie redenen worden getoond:
 
-* De levering is verwijderd en wordt hier weergegeven als **N/A** om geen discrepantie in de resultaten te veroorzaken.
-* Wanneer u de **[!UICONTROL Transactional Delivery]**-dimensie naar uw rapporten sleept, wordt mogelijk de waarde **N/A** weergegeven. Dit gebeurt omdat het Dynamische rapport elke levering haalt zelfs als zij geen transactie zijn. Dit kan ook gebeuren wanneer u de **[!UICONTROL Delivery]**-dimensie naar uw rapport sleept en neerzet, maar in dit geval zal de waarde **N/A** transactionele leveringen vertegenwoordigen.
-* Wanneer een afmeting met metrisch wordt gebruikt die niet met de afmeting verwant is. In het onderstaande voorbeeld wordt een uitsplitsing toegevoegd met de **[!UICONTROL Tracking URL]**-dimensie, ook al wordt de **[!UICONTROL Click]**-telling in deze levering op 0 ingesteld.
+* De levering is verwijderd en wordt hier weergegeven als **N.v.t.** geen discrepantie in de resultaten veroorzaken.
+* Wanneer u het gereedschap **[!UICONTROL Transactional Delivery]** dimensie aan uw rapporten, de waarde **N.v.t.** kan hierdoor ontstaan. Dit gebeurt omdat het Dynamische rapport elke levering haalt zelfs als zij geen transactie zijn. Dit kan ook gebeuren wanneer u het gereedschap **[!UICONTROL Delivery]** de dimensie van uw verslag, maar in dit geval **N.v.t.** value zal transactionele leveringen vertegenwoordigen.
+* Wanneer een afmeting met metrisch wordt gebruikt die niet met de afmeting verwant is. In het onderstaande voorbeeld wordt een uitsplitsing toegevoegd met de **[!UICONTROL Tracking URL]** hoewel de **[!UICONTROL Click]** count is ingesteld op 0 in this delivery.
 
    ![](assets/troubleshooting_4.png)
 

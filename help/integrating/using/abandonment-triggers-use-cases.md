@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ Nu we een Experience Cloud Trigger hebben gemaakt, gebruiken we deze in Adobe Ca
 
 In Adobe Campaign moet u een trigger maken die gekoppeld is aan de trigger die u in Experience Cloud hebt gemaakt.
 
-1. Als u de trigger in Adobe Campaign wilt maken, klikt u op het **Adobe**-logo in de linkerbovenhoek en selecteert u **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. Als u de trigger in Adobe Campaign wilt maken, klikt u op de knop **Adobe** logo, in de linkerbovenhoek, en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -81,7 +81,7 @@ In Adobe Campaign moet u een trigger maken die gekoppeld is aan de trigger die u
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. Als u de berichtsjabloon wilt weergeven, klikt u op de knop **[!UICONTROL More]** rechtsboven en vervolgens op **[!UICONTROL Trigger Transactional Template]**.
+1. Klik op de knop **[!UICONTROL More]** klikt u rechtsboven op **[!UICONTROL Trigger Transactional Template]**.
 
 1. Pas de content en de data van de afzender aan.
 
@@ -101,11 +101,11 @@ In Adobe Campaign moet u een trigger maken die gekoppeld is aan de trigger die u
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. De ontvanger klikt op een koppeling die hem naar uw website brengt. In dit voorbeeld brengt de banner de ontvanger naar de startpagina van de boekingssite.
+1. De ontvanger klikt op een koppeling die deze naar uw website brengt. In dit voorbeeld brengt de banner de ontvanger naar de startpagina van de boekingssite.
 
    ![](assets/trigger_uc_browse_11.png)
 
-1. De ontvanger gaat naar de pagina met deals, maar opeens stopt zijn bezoek. Na een periode van 10 minuten activeert Adobe Campaign het verzenden van het transactionele bericht.
+1. De ontvanger gaat naar de pagina &quot;Deals&quot;maar houdt plotseling hun bezoek tegen. Na een periode van 10 minuten activeert Adobe Campaign het verzenden van het transactionele bericht.
 
    ![](assets/trigger_uc_browse_12.png)
 

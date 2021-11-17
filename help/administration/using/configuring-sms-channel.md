@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1566'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -316,7 +316,7 @@ Met de functionaliteit **[!UICONTROL Define a specific mapping of encodings]** k
 
 ### Automatisch antwoord verzonden naar het MO-bericht {#automatic-reply-sent-to-the-mo}
 
-Wanneer een profiel een sms-bericht beantwoordt dat via Campaign is verzonden, kunt u berichten configureren die automatisch naar het profiel worden teruggestuurd, evenals de actie die moet worden uitgevoerd.
+Wanneer een profiel op een SMS-bericht reageert dat via Campagne is verzonden, kunt u berichten configureren die automatisch naar hen worden teruggestuurd, evenals de actie die moet worden uitgevoerd.
 
 Raadpleeg [deze sectie](../../channels/using/managing-incoming-sms.md) voor meer informatie.
 
@@ -328,15 +328,15 @@ De specifieke parameters voor het verzenden van sms-berichten worden opnieuw geg
 
 ![](assets/sms_options.png)
 
-In de sectie **[!UICONTROL Advanced parameters]**:
+Van de **[!UICONTROL Advanced parameters]** sectie:
 
-* Met **[!UICONTROL Short code]** kunt u een specifieke korte code toevoegen aan uw levering. Ontvangers die hebben gekozen voor deze specifieke korte code worden automatisch uitgesloten tijdens de voorbereiding van het bericht. Voor meer informatie over hoe te om korte code te vormen, verwijs naar [deze sectie](../../channels/using/managing-incoming-sms.md).
+* De **[!UICONTROL Short code]** kunt u een specifieke korte code toevoegen aan uw levering. Ontvangers die hebben gekozen voor deze specifieke korte code worden automatisch uitgesloten tijdens de voorbereiding van het bericht. Voor meer informatie over hoe te om korte code te vormen, verwijs naar [deze sectie](../../channels/using/managing-incoming-sms.md).
 
    >[!NOTE]
    >
-   >Als het veld **[!UICONTROL Short code]** leeg blijft, wordt de waarde van het veld **[!UICONTROL Short code]** in de externe account gebruikt.
+   >Als de **[!UICONTROL Short code]** veld is leeg, de waarde van **[!UICONTROL Short code]** het veld dat in de externe account is ingesteld, wordt gebruikt.
 
-Van de **[!UICONTROL Send]** sectie van een malplaatje van SMS:
+Van de **[!UICONTROL Send]** sectie van een SMS-sjabloon:
 
 * Met de optie **[!UICONTROL Maximum number of SMS per message]** kunt u het aantal sms-berichten definiëren dat moet worden gebruikt om een bericht te verzenden. Als dit aantal wordt overschreden, wordt het bericht niet verzonden.
 
