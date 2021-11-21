@@ -18,13 +18,13 @@ ht-degree: 74%
 
 # Levenscyclus van transactionele berichten {#publishing-transactional-message}
 
-Wanneer het [transactioneel bericht](../../channels/using/editing-transactional-message.md) klaar is om te worden verzonden, kan het worden gepubliceerd.
+Wanneer de [transactiebericht](../../channels/using/editing-transactional-message.md) kan worden gepubliceerd.
 
 De stappen voor het publiceren, pauzeren, verwijderen en publiceren van een transactiebericht worden hieronder beschreven.
 
 >[!IMPORTANT]
 >
->Alleen gebruikers met de rol [Beheer](../../administration/using/users-management.md#functional-administrators) kunnen transactieberichten openen en publiceren.
+>Alleen gebruikers met de [Beheer](../../administration/using/users-management.md#functional-administrators) de rol kan tot transactieberichten toegang hebben en publiceren.
 
 ## Publicatieproces voor transactieberichten {#transactional-messaging-pub-process}
 
@@ -88,7 +88,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## Transactiebericht publiceren {#publishing-a-transactional-message}
 
-Nadat u het transactiebericht hebt bewerkt en getest, kunt u het publiceren. Klik gewoon op de knop **[!UICONTROL Publish]**.
+Nadat u het transactiebericht hebt bewerkt en getest, kunt u het publiceren. Klik op de knop **[!UICONTROL Publish]** knop.
 
 ![](assets/message-center_12.png)
 
@@ -123,7 +123,7 @@ Zelfs als de gebeurtenis via uw website wordt geactiveerd, worden de bijbehorend
 
 >[!NOTE]
 >
->Als u het bericht opnieuw wilt publiceren, moet u teruggaan naar de corresponderende gebeurtenisconfiguratie, [de gebeurtenis ](../../channels/using/publishing-transactional-event.md) publiceren en vervolgens [het bericht](#publishing-a-transactional-message) publiceren.
+>Als u het bericht opnieuw wilt publiceren, moet u teruggaan naar de bijbehorende gebeurtenisconfiguratie. [De gebeurtenis publiceren](../../channels/using/publishing-transactional-event.md)en vervolgens [het bericht publiceren](#publishing-a-transactional-message).
 
 Als u de publicatie van een gepauzeerd transactiebericht ongedaan maakt, moet u mogelijk tot 24 uur wachten voordat u het bericht opnieuw kunt publiceren. Zo kan de workflow **[!UICONTROL Database cleanup]** alle gebeurtenissen opschonen die naar de wachtrij zijn verzonden.
 
@@ -135,7 +135,7 @@ De workflow **[!UICONTROL Database cleanup]**, die elke dag om 4.00 uur wordt ui
 
 Als de publicatie van een transactiebericht ongedaan is gemaakt, of als een transactiebericht nog niet is gepubliceerd, kunt u het transactiebericht uit de lijst met transactieberichten verwijderen. Dit doet u als volgt:
 
-1. Klik op het **Adobe**-logo in de linkerbovenhoek en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Klik op de knop **Adobe** logo, in de linkerbovenhoek, en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 1. Houd de muis boven het gewenste bericht.
 1. Klik op de knop **[!UICONTROL Delete element]**.
 

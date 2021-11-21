@@ -38,15 +38,15 @@ Meertalige push vereist 14 kolommen in het CSV-bestand:
 1. language
 1. silentPush
 
-Controleer het CSV-voorbeeld door op **[!UICONTROL Download a sample file]** in het **[!UICONTROL Manage Content Variants]**-venster te klikken. Voor meer op dit, verwijs naar dit [sectie](../../channels/using/creating-a-multilingual-push-notification.md).
+Controleer het CSV-voorbeeld door op de knop **[!UICONTROL Download a sample file]** in de **[!UICONTROL Manage Content Variants]** venster. Raadpleeg de volgende secties voor meer informatie [sectie](../../channels/using/creating-a-multilingual-push-notification.md).
 
 * **title, messageBody, sound, badge, deplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**: regelmatig de inhoud van de pushlading. U moet deze informatie op dezelfde manier verstrekken als wanneer het creëren van dupleveringen.
-* **Aangepaste velden**: Gebruik de JSON-indeling voor aangepaste velden, bijvoorbeeld  `{"key1":"value1","key2":"value2"}`. Raadpleeg het voorbeeldbestand hierboven voor een voorbeeld van aangepaste velden.
-* **isContentAvailable**: markering voor controle van beschikbare inhoud, waarde 1 impliceert waar, waarde 0 impliceert vals. De standaardwaarde is 0. Als u deze kolom leeg laat, wordt de waarde als 0 beschouwd.
-* **isMutableContent**: markering voor Mutable Content, waarde 1 impliceert true, waarde 0 betekent false. De standaardwaarde is 0. Als u deze kolom leeg laat, wordt de waarde als 0 beschouwd.
+* **Aangepaste velden**: Gebruik de JSON-indeling voor aangepaste velden, bijvoorbeeld `{"key1":"value1","key2":"value2"}`. Raadpleeg het voorbeeldbestand hierboven voor een voorbeeld van aangepaste velden.
+* **isContentAvailable**: markering voor controle van beschikbare inhoud, waarde 1 impliceert waar, waarde 0 impliceert vals. De standaardwaarde is 0. Als u deze kolom leeg laat, zal de waarde als 0 worden beschouwd.
+* **isMutableContent**: markering voor Mutable Content, waarde 1 impliceert true, waarde 0 betekent false. De standaardwaarde is 0. Als u deze kolom leeg laat, zal de waarde als 0 worden beschouwd.
 * **landinstelling**: landinstelling is het veld voor taalvarianten, bijvoorbeeld &quot;en_us&quot; voor Amerikaans-Engels en &quot;fr_fr&quot; voor Frankrijk-Frans.
 * **taal**: naam van de taal die aan de landinstelling is gekoppeld. Als de landinstelling bijvoorbeeld &#39;en_us&#39; is, moet de naam van de taal &#39;English-United States&#39; zijn.
-* **silentPush**: markering voor het type pushmelding. Als het een regelmatig pushbericht is, moet de waarde 0 zijn. Als het een stille push is, moet de waarde 1 zijn. De standaardwaarde is 0. Als u deze kolom leeg laat, wordt de waarde als 0 beschouwd.
+* **silentPush**: markering voor het type pushmelding. Als het een regelmatig pushbericht is, moet de waarde 0 zijn. Als het een stille push is, moet de waarde 1 zijn. De standaardwaarde is 0. Als u deze kolom leeg laat, zal de waarde als 0 worden beschouwd.
 
 ## Restricties en richtlijnen voor het maken van CSV-bestanden {#constraints-guideline-csv}
 
@@ -56,9 +56,9 @@ Neem de naam van elke kolom op in het CSV-bestand. Als u geen kolommen gebruikt 
 **De kolommen &quot;locale&quot; en &quot;language&quot; zijn verplicht en de waarde is uniek voor elke rij.**
 Een lege waarde voor deze kolom resulteert in een fout bij het uploaden van het bestand.
 
-**Kolomvolgorde is van belang**. De volgorde van de kolommen in het geüploade bestand moet dezelfde indeling hebben als het voorbeeldbestand.
+**Volgorde van kolommen**. De volgorde van de kolommen in het geüploade bestand moet dezelfde indeling hebben als het voorbeeldbestand.
 
-**Inhoud** van prijskolom. Aangezien dit een CSV-bestand is (staat voor door komma&#39;s gescheiden waarden), moet alle kolominhoud met komma&#39;s (,) worden vermeld. Bijvoorbeeld: &quot;Hallo, Tom!&quot;
+**Kolom-inhoud aanhalingsteken**. Aangezien dit een CSV-bestand is (staat voor door komma&#39;s gescheiden waarden), moet alle kolominhoud met komma&#39;s (,) worden vermeld. Bijvoorbeeld: &quot;Hallo, Tom!&quot;
 
 **UTF-8-codering is vereist voor internationale tekens.**
 
@@ -68,7 +68,7 @@ Een lege waarde voor deze kolom resulteert in een fout bij het uploaden van het 
 
 ## Invoeging van het aanpassingsveld in het CSV-bestand {#personalization-field-csv}
 
-Als u verpersoonlijkingsgebieden wilt gebruiken, zou u <span> markering in het dossier moeten omvatten.
+Als u verpersoonlijkingsgebieden wilt gebruiken, zou u moeten omvatten <span> in het bestand.
 
 Om &quot;firstName&quot;verpersoonlijkingsgebied in messageBody op te nemen, moet het bericht zijn:
 
@@ -86,7 +86,7 @@ In het bereik zijn twee verplichte kenmerken:
 
 * De ene is een klasse die statisch is. Welk verpersoonlijkingsgebied u van plan bent te gebruiken, zal het altijd class=&quot;nl-dce-field nl-dce-done&quot;zijn.
 
-* Een andere is data-nl-expr die de weg van verpersoonlijkingsgebied is. Als u bijvoorbeeld het verpersoonlijkingsveld &quot;firstName&quot; vanuit de gebruikersinterface invoegt, is het navigatiepad **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (zoals in de onderstaande afbeelding wordt getoond). In dit geval wordt het pad
+* Een andere is data-nl-expr die de weg van verpersoonlijkingsgebied is. Als u bijvoorbeeld het verpersoonlijkingsveld &quot;firstName&quot; vanuit de gebruikersinterface invoegt, wordt het navigatiepad ingesteld op **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (zoals weergegeven in de onderstaande afbeelding). In dit geval wordt het pad
 
    ```
    /context/profile/firstName. data-nl-expr="/context/profile/firstName".

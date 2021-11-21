@@ -18,14 +18,14 @@ ht-degree: 1%
 
 # Launch-regels configureren voor ondersteuning van Adobe Campaign Standard-gebruiksscenario’s {#configuring-rules-launch}
 
-In [!DNL Adobe Experience Platform Launch], creeer gegevenselementen en regels om PII en andere gegevens van mobiele toepassingen naar [!DNL Adobe Campaign Standard] te verzenden.
+In [!DNL Adobe Experience Platform Launch], gegevenselementen en regels maken om PII en andere gegevens van mobiele toepassingen naar [!DNL Adobe Campaign Standard].
 
-Om ervoor te zorgen dat alle configuratieveranderingen in [!DNL Adobe Experience Platform Launch] van kracht worden, moet u deze veranderingen publiceren. Zie [Publiceren](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration) voor meer informatie.
+Om ervoor te zorgen dat alle configuratie in [!DNL Adobe Experience Platform Launch] Deze wijzigingen worden van kracht. Zie voor meer informatie [Publiceren](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
 
-Ga als volgt te werk om regels te maken in [!DNL Experience Platform Launch]:
+Om regels te maken in [!DNL Experience Platform Launch]Voer de volgende stappen uit:
 
 1. [Gegevenselementen maken](../../administration/using/configuring-rules-launch.md#create-data-elements)
-2. [Het creëren van ](../../administration/using/configuring-rules-launch.md#create-data-elements) regels voor gebruiksgevallen wilt u steunen:
+2. [Regels maken](../../administration/using/configuring-rules-launch.md#create-data-elements) voor gebruiksgevallen die u wilt ondersteunen:
    * [PII-postback](../../administration/using/configuring-rules-launch.md#pii-postback)
    * [Postback bijhouden in de app](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)
    * [Postback-up van pushberichten](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
@@ -33,7 +33,7 @@ Ga als volgt te werk om regels te maken in [!DNL Experience Platform Launch]:
 
 ## Gegevenselementen maken {#create-data-elements}
 
-Hier zijn de gegevenselementen wij adviseren dat u in [!DNL Experience Platform Launch] creeert.
+Hier zijn de gegevenselementen die u aanbeveelt [!DNL Experience Platform Launch].
 U kunt naar wens aanvullende gegevenselementen maken.
 
 * **[!UICONTROL Experience Cloud ID]**
@@ -42,27 +42,27 @@ U kunt naar wens aanvullende gegevenselementen maken.
 
 U kunt als volgt deze gegevenselementen maken:
 
-1. Klik in [!DNL Experience Platform Launch] op het tabblad **[!UICONTROL Data Elements]** van het dashboard voor mobiele toepassingen.
+1. In [!DNL Experience Platform Launch]klikt u op het dashboard voor mobiele toepassingen op **[!UICONTROL Data Elements]** tab.
 
-1. Als u het gegevenselement **[!UICONTROL Experience Cloud ID]** wilt maken, klikt u op **[!UICONTROL Create New Data Element]**.
+1. Als u de opdracht **[!UICONTROL Experience Cloud ID]** gegevenselement, klik **[!UICONTROL Create New Data Element]**.
 
-1. Typ in het veld **[!UICONTROL Name]** bijvoorbeeld **mcid**.
+1. In de **[!UICONTROL Name]** veld, bijvoorbeeld intypen **mcid**.
 
-1. Selecteer **[!UICONTROL Mobile Core]** in de vervolgkeuzelijst **[!UICONTROL Extension]**. Vervolgens **[!UICONTROL Experience Cloud ID]** in de vervolgkeuzelijst **[!UICONTROL Data element]** typen.
+1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Mobile Core]**. Vervolgens **[!UICONTROL Experience Cloud ID]** in de **[!UICONTROL Data element]** type drop-down.
 
    ![](assets/do-not-localize/rules_1.png)
 
-1. Klik op **[!UICONTROL Add data element]** om het Pkey-gegevenselement te maken.
+1. Klik op **[!UICONTROL Add data element]**.
 
-1. Typ in het veld **[!UICONTROL Name]** bijvoorbeeld **pkey**.
+1. In de **[!UICONTROL Name]** veld, bijvoorbeeld intypen **pkey**.
 
-1. Selecteer **[!UICONTROL Adobe Campaign Standard]** in de vervolgkeuzelijst **[!UICONTROL Extension]**. Vervolgens **[!UICONTROL pkey]** in de vervolgkeuzelijst **[!UICONTROL Data element]** typen.
+1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Adobe Campaign Standard]**. Vervolgens **[!UICONTROL pkey]** in de **[!UICONTROL Data element]** type drop-down.
 
-1. Klik op **[!UICONTROL Add data element]** om het gegevenselement Campagneserver te maken.
+1. Als u het gegevenselement Campagneserver wilt maken, klikt u op **[!UICONTROL Add data element]**.
 
-1. Typ in het veld **[!UICONTROL Name]** een naam, bijvoorbeeld **kampserver**.
+1. In de **[!UICONTROL Name]** veld, typ een naam, bijvoorbeeld **kampeerserver**.
 
-1. Selecteer **[!UICONTROL Adobe Campaign Standard]** in de vervolgkeuzelijst **[!UICONTROL Extension]**. Vervolgens **[!UICONTROL Campaign Server]** in de vervolgkeuzelijst **[!UICONTROL Data element]** typen.
+1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Adobe Campaign Standard]**. Vervolgens **[!UICONTROL Campaign Server]** in de **[!UICONTROL Data element]** type drop-down.
 
 ## Regels maken {#creating-rules}
 
@@ -79,31 +79,31 @@ U moet regels maken voor het volgende:
 >
 >Als u PII-gegevens van een mobiele app naar Adobe Campaign wilt verzenden, moet u een SDK-API implementeren. Ga voor meer informatie naar [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
 
-Als u PII-gegevens naar [!DNL Adobe Campaign Standard] wilt verzenden, maakt u een regel in [!DNL Experience Platform Launch]:
+PII-gegevens verzenden naar [!DNL Adobe Campaign Standard], maakt u een regel in [!DNL Experience Platform Launch]:
 
-1. Klik in [!DNL Experience Platform Launch] vanaf het dashboard voor mobiele toepassingen op het tabblad **[!UICONTROL Rules]** en **[!UICONTROL Create New Rule]**.
+1. In [!DNL Experience Platform Launch]klikt u op het dashboard voor mobiele toepassingen op **[!UICONTROL Rules]** dan op **[!UICONTROL Create New Rule]**.
 
-1. Typ een naam, bijvoorbeeld **Mobile Core - Collect PII**.
+1. Typ bijvoorbeeld een naam, **Mobile Core - Collect PII**.
 
-1. Klik in de sectie **[!UICONTROL Events]** op **[!UICONTROL Add]**.
+1. In de **[!UICONTROL Events]** sectie, klikt u op **[!UICONTROL Add]**.
 
-1. Selecteer **[!UICONTROL Mobile Core]** in de vervolgkeuzelijst **[!UICONTROL Extension]**. Vervolgens **[!UICONTROL Collect PII]** in de vervolgkeuzelijst **[!UICONTROL Event type]**.
+1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Mobile Core]**. Vervolgens **[!UICONTROL Collect PII]** in de **[!UICONTROL Event type]** vervolgkeuzelijst.
 
 1. Klik op **[!UICONTROL Keep changes]**.
 
-1. Klik in de sectie **[!UICONTROL Actions]** op **[!UICONTROL Add]**.
+1. In de **[!UICONTROL Actions]** sectie, klikt u op **[!UICONTROL Add]**.
 
-1. Selecteer **[!UICONTROL Mobile Core]** in de vervolgkeuzelijst **[!UICONTROL Extension]**. Vervolgens **[!UICONTROL Send PII]** in de vervolgkeuzelijst **[!UICONTROL Action type]**.
+1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Mobile Core]**. Vervolgens **[!UICONTROL Send PII]** in de **[!UICONTROL Action type]** vervolgkeuzelijst.
 
-1. Voer in **[!UICONTROL URL]** de volgende URL in:
+1. In **[!UICONTROL URL]** Voer de volgende URL in:
 
    ```
    https://{%%camp-server%%}/rest/head/mobileAppV5/{%%pkey%%}/subscriptions/{%%mcid%%}
    ```
 
-1. Schakel het selectievakje **[!UICONTROL Add Post Body]** in.
+1. Selecteer **[!UICONTROL Add Post Body]** selectievakje.
 
-1. Typ in **[!UICONTROL Post Body]** het volgende:
+1. In **[!UICONTROL Post Body]**, typt u het volgende:
 
    ```
    {
@@ -135,11 +135,11 @@ Als u PII-gegevens naar [!DNL Adobe Campaign Standard] wilt verzenden, maakt u e
    }
    ```
 
-   De gegevenselementen die in [!DNL Experience Platform Launch] worden gedefinieerd, moeten in dubbele percentages worden ingesloten, bijvoorbeeld %%mcid%%, en contextvariabelen van de app moeten in enkele percentages worden ingesloten, bijvoorbeeld %contextdata.email%.
+   De gegevenselementen die worden gedefinieerd in [!DNL Experience Platform Launch] moet worden ingesloten in dubbele percentages, bijvoorbeeld %%mcid%%, en contextvariabelen van de app moeten worden ingesloten in enkele percentages, bijvoorbeeld %contextdata.email%.
 
-1. Typ **application/json** in **[!UICONTROL Content Type]**.
+1. In **[!UICONTROL Content Type]**, type **application/json**.
 
-1. Selecteer 0 in **[!UICONTROL Timeout]**.
+1. In **[!UICONTROL Timeout]** selecteert u 0.
 
    ![](assets/do-not-localize/rules_2.png)
 
@@ -149,37 +149,37 @@ Uw gebruikersgegevens zijn nu geconfigureerd om naar Campagne te worden verzonde
 
 >[!NOTE]
 >
->Als u Android ACPCore v1.4.0 of later/ iOS ACPCore v2.3.0 of later gebruikt, is het configureren van teruggestuurde back-ups niet vereist.
+>Als u Android ACPCore v1.4.0 of later/ iOS ACPCore v2.3.0 of later gebruikt, is het niet nodig om trackingpostbacks te configureren.
 
-Als u volggegevens naar [!DNL Adobe Campaign Standard] wilt verzenden voor rapportage over hoe uw gebruikers in uw mobiele toepassing communiceren met In-App-berichten, maakt u de volgende regel in [!DNL Experience Platform Launch]:
+Trackinggegevens verzenden naar [!DNL Adobe Campaign Standard] voor het rapporteren over de interactie van uw gebruikers met InApp-berichten in uw mobiele toepassing, maakt u de volgende regel in [!DNL Experience Platform Launch]:
 
-1. Selecteer in [!DNL Experience Platform Launch] op het dashboard voor mobiele toepassingen de tab **[!UICONTROL Rules]** en klik op **[!UICONTROL Add Rule]**.
+1. In [!DNL Experience Platform Launch]Selecteer in het dashboard voor mobiele toepassingen de optie **[!UICONTROL Rules]** en klik op **[!UICONTROL Add Rule]**.
 
-1. Typ een naam, bijvoorbeeld **Adobe Campaign - In-app klik op tracking**.
+1. Typ bijvoorbeeld een naam, **Adobe Campaign - In-app klikken op bijhouden**.
 
-1. Klik in de sectie **[!UICONTROL Events]** op **[!UICONTROL Add]**.
+1. In de **[!UICONTROL Events]** sectie, klikt u op **[!UICONTROL Add]**.
 
-1. Selecteer **[!UICONTROL Adobe Campaign Standard]** in de vervolgkeuzelijst **[!UICONTROL Extension]**. Vervolgens **[!UICONTROL In-App click tracking]** in de vervolgkeuzelijst **[!UICONTROL Event type]**.
+1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Adobe Campaign Standard]**. Vervolgens **[!UICONTROL In-App click tracking]** in de **[!UICONTROL Event type]** vervolgkeuzelijst.
 
 1. Klik op **[!UICONTROL Keep changes]**.
 
-1. Klik in de sectie **[!UICONTROL Actions]** op **[!UICONTROL Add]**.
+1. In de **[!UICONTROL Actions]** sectie, klikt u op **[!UICONTROL Add]**.
 
-1. Selecteer **[!UICONTROL Mobile Core]** in de vervolgkeuzelijst **[!UICONTROL Extension]**. Vervolgens **[!UICONTROL Send postback]** in de vervolgkeuzelijst **[!UICONTROL Event type]**.
+1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Mobile Core]**. Vervolgens **[!UICONTROL Send postback]** in de **[!UICONTROL Event type]** vervolgkeuzelijst.
 
-1. Typ de volgende URL in **[!UICONTROL URL]**:
+1. In **[!UICONTROL URL]** Typ de volgende URL:
 
    ```
    https://{%%camp-server%%}/r/?id={%id%}&mcid={%%mcid%%}
    ```
 
-1. Schakel het selectievakje **[!UICONTROL Add post body]** in.
+1. Selecteer **[!UICONTROL Add post body]** selectievakje.
 
 1. In **[!UICONTROL Post Body]** typt u **{}**.
 
-1. Typ **application/json** in **[!UICONTROL Content Type]**.
+1. In **[!UICONTROL Content Type]**, type **application/json**.
 
-1. Selecteer 0 in **[!UICONTROL Timeout]**.
+1. In **[!UICONTROL Timeout]** selecteert u 0.
 
    ![](assets/do-not-localize/rules_3.png)
 
@@ -187,67 +187,67 @@ Als u volggegevens naar [!DNL Adobe Campaign Standard] wilt verzenden voor rappo
 
 >[!NOTE]
 >
->Als u Android ACPCore v1.4.0 of later/ iOS ACPCore v2.3.0 of later gebruikt, is het configureren van teruggestuurde back-ups niet vereist.
+>Als u Android ACPCore v1.4.0 of later/ iOS ACPCore v2.3.0 of later gebruikt, is het niet nodig om trackingpostbacks te configureren.
 
-Als u volggegevens wilt verzenden naar [!DNL Adobe Campaign Standard], waarmee u uw pushmeldingleveringen en de interactie van uw gebruikers met uw mobiele toepassing kunt bijhouden, moet u een regel maken in [!DNL Experience Platform Launch].
+Trackinggegevens verzenden naar [!DNL Adobe Campaign Standard], die helpt bij het bijhouden van uw pushberichten en de interactie van uw gebruikers met uw mobiele toepassing, moet u een regel maken in [!DNL Experience Platform Launch].
 
-Zie [Push Tracking](../../administration/using/push-tracking.md) voor meer informatie over push-tracking.
+Voor meer informatie over het bijhouden van push-berichten raadpleegt u [Push Tracking](../../administration/using/push-tracking.md).
 
-Gebruik de trackAction-API om de handelingen van de app bij te houden. Zie [Toepassingsacties bijhouden](https://app.gitbook.com/@aep-sdks/s/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions) voor meer informatie.
+Gebruik de trackAction-API om de handelingen van de app bij te houden. Zie voor meer informatie [Toepassingsacties bijhouden](https://app.gitbook.com/@aep-sdks/s/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
 
-1. Klik in [!DNL Experience Platform Launch] op het tabblad **[!UICONTROL Rules]** van het dashboard voor mobiele toepassingen en klik op **[!UICONTROL Add Rule]**.
+1. In [!DNL Experience Platform Launch]klikt u op het dashboard voor mobiele toepassingen op **[!UICONTROL Rules]** en klik op **[!UICONTROL Add Rule]**.
 
-1. Typ een naam, bijvoorbeeld **Adobe Campaign - duw klik het volgen**.
+1. Typ bijvoorbeeld een naam, **Adobe Campaign - bijhouden van klikken met push**.
 
-1. Klik in de sectie **[!UICONTROL Events]** op **[!UICONTROL Add]**.
+1. In de **[!UICONTROL Events]** sectie, klikt u op **[!UICONTROL Add]**.
 
-1. Selecteer **[!UICONTROL Mobile Core]** in de vervolgkeuzelijst **[!UICONTROL Extension]**. Vervolgens **[!UICONTROL Track Action]** in de vervolgkeuzelijst **[!UICONTROL Event type]**.
+1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Mobile Core]**. Vervolgens **[!UICONTROL Track Action]** in de **[!UICONTROL Event type]** vervolgkeuzelijst.
 
-1. Selecteer **[!UICONTROL Action]** in de vervolgkeuzelijst **[!UICONTROL Action]**, selecteer **[!UICONTROL equals]** en typ **tracking**.
+1. Van de **[!UICONTROL Action]** vervolgkeuzelijst, selecteert u **[!UICONTROL Action]**, selecteert u **[!UICONTROL equals]** en type **bijhouden**.
 
-1. Klik op **[!UICONTROL Keep changes]**. Klik vervolgens in de sectie **[!UICONTROL Actions]** op **[!UICONTROL Add]**.
+1. Klik op **[!UICONTROL Keep changes]**. Dan, in **[!UICONTROL Actions]** sectie, klikt u op **[!UICONTROL Add]**.
 
-1. Selecteer **[!UICONTROL Mobile Core]** in de vervolgkeuzelijst **[!UICONTROL Extension]**. Vervolgens **[!UICONTROL Send postback]** in de vervolgkeuzelijst **[!UICONTROL Action type]**.
+1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Mobile Core]**. Vervolgens **[!UICONTROL Send postback]** in de **[!UICONTROL Action type]** vervolgkeuzelijst.
 
-1. Voer in **[!UICONTROL URL]** de volgende URL in:
+1. In **[!UICONTROL URL]** Voer de volgende URL in:
 
    ```
    https://{%%camp-server%%}/r/?id={%contextdata.broadlogId%},{%contextdata.deliveryId%},{%contextdata.action%}&mcId={%%mcid%%}
    ```
 
-1. Schakel het selectievakje **[!UICONTROL Add post body]** in.
+1. Selecteer **[!UICONTROL Add post body]** selectievakje.
 
 1. Voeg je berichttekst toe, bijvoorbeeld { }.
 
-1. Typ **application/json** in **[!UICONTROL Content Type]**.
+1. In **[!UICONTROL Content Type]**, type **application/json**.
 
-1. Selecteer 0 in **[!UICONTROL Timeout]**.
+1. In **[!UICONTROL Timeout]** selecteert u 0.
 
 ### Locatie na terugzetten {#location-postback}
 
-1. Klik in [!DNL Experience Platform Launch] op het tabblad **[!UICONTROL Rules]** van het dashboard voor mobiele toepassingen en klik op **[!UICONTROL Add Rule]**.
+1. In [!DNL Experience Platform Launch]klikt u op het dashboard voor mobiele toepassingen op **[!UICONTROL Rules]** en klik op **[!UICONTROL Add Rule]**.
 
-1. Typ een naam, bijvoorbeeld **Locatiepostback**.
+1. Typ bijvoorbeeld een naam, **Locatie na terugzetten**.
 
-1. Klik in de sectie **[!UICONTROL Events]** op **[!UICONTROL Add]**.
+1. In de **[!UICONTROL Events]** sectie, klikt u op **[!UICONTROL Add]**.
 
-1. Maak een gebeurtenis, bijvoorbeeld, Enter POI of Exit POI. Selecteer **[!UICONTROL Extension]** Plaatsen - Bèta **in de vervolgkeuzelijst**. Vervolgens **Voer POI** of **Sluit POI** in de vervolgkeuzelijst **[!UICONTROL Event type]** in.
+1. Maak een gebeurtenis, bijvoorbeeld, Enter POI of Exit POI. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **Plaatsen - bèta**. Vervolgens **POI invoeren** of **POI afsluiten** in de **[!UICONTROL Event type]** vervolgkeuzelijst.
 
-1. Voer een naam in, bijvoorbeeld **Plaatsen - Bèta - Enter POI** of **Sluit POI**.
+1. Voer bijvoorbeeld een naam in **Plaatsen - bèta - ga POI in** of **POI afsluiten**.
 
-1. Klik in de sectie **[!UICONTROL Actions]** op **[!UICONTROL Add]**.
+1. In de **[!UICONTROL Actions]** sectie, klikt u op **[!UICONTROL Add]**.
 
-1. Selecteer **[!UICONTROL Mobile Core]** in de vervolgkeuzelijst **[!UICONTROL Extension]**. Dan, **[!UICONTROL Send postback]** van **[!UICONTROL Action type]** drop-down.
+1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Mobile Core]**. Vervolgens **[!UICONTROL Send postback]** van de **[!UICONTROL Action type]** vervolgkeuzelijst.
 
-1. Voer een naam in, bijvoorbeeld **Mobiele kern - Locatie achteraf verzenden**.
+1. Voer bijvoorbeeld een naam in **Mobiele kern - Locatiepostback verzenden**.
 
-1. Voer in **[!UICONTROL URL]** de volgende URL in:
+1. In **[!UICONTROL URL]** Voer de volgende URL in:
 
    ```
    https://{%%camp-server%%}/rest/head/mobileAppV5/{%%pkey%%}/locations/
    ```
 
-1. Schakel het selectievakje **[!UICONTROL Add post body]** in en voeg bijvoorbeeld de tekst voor de post toe:
+1. Selecteer **[!UICONTROL Add post body]** selectievakje en voeg je berichttekst toe, bijvoorbeeld:
 
    ```
    {
@@ -264,10 +264,10 @@ Gebruik de trackAction-API om de handelingen van de app bij te houden. Zie [Toep
 
    >[!NOTE]
    >
-   >In het bovenstaande voorbeeld moeten de gegevenselementen aan de rechterkant worden geconfigureerd in [!DNL Experience Platform Launch] door de stappen in [Gegevenselementen maken](../../administration/using/configuring-rules-launch.md#create-data-elements) te benutten. De gegevenselementen aan de linkerkant worden ondersteund in [!DNL Adobe Campaign Standard] en hoeven niet te worden geconfigureerd. Als u aanvullende gegevens nodig hebt, moet u aangepaste bronextensies uitvoeren in [!DNL Adobe Campaign Standard].
+   >In het bovenstaande voorbeeld moeten de gegevenselementen aan de rechterkant worden geconfigureerd in [!DNL Experience Platform Launch] door de stappen in [Gegevenselementen maken](../../administration/using/configuring-rules-launch.md#create-data-elements). De gegevenselementen aan de linkerkant worden ondersteund in [!DNL Adobe Campaign Standard] en hebt geen configuratie nodig. Als u aanvullende gegevens nodig hebt, moet u de uitbreidingen van aangepaste bronnen uitvoeren in [!DNL Adobe Campaign Standard].
 
-1. Typ **application/json** in **[!UICONTROL Content Type]**.
+1. In **[!UICONTROL Content Type]**, type **application/json**.
 
-1. Selecteer in **[!UICONTROL Timeout]** 5.
+1. In **[!UICONTROL Timeout]** selecteert u 5.
 
    ![](assets/do-not-localize/rules_4.png)

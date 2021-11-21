@@ -23,14 +23,14 @@ In dit geval, zorg ervoor dat de volgende elementen correct worden gevormd:
 
 * **Externe accounts**
 
-   Controleer in **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]** of de volgende externe S3-accounts correct zijn geconfigureerd. De vermelde S3 servers zouden tijdens levering moeten worden gevormd.
+   In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]**, zorg ervoor dat de volgende externe S3 rekeningen correct worden gevormd. De vermelde S3 servers zouden tijdens levering moeten worden gevormd.
 
    * **[!UICONTROL importSharedAudience]**: S3-account voor het importeren van publiek.
    * **[!UICONTROL exportSharedAudience]**: S3-account voor het exporteren van soorten publiek.
 
 * **Gedeelde gegevensbronnen**
 
-   Controleer in **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]** of de gedeelde gegevensbron juist is ingesteld.
+   In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]** controleert u of de gedeelde gegevensbron juist is ingesteld.
 
    **[!UICONTROL Priority]** wordt gebruikt wanneer u meerdere gegevensbronnen hebt gedefinieerd. Prioriteit bepaalt welke gegevensbron zal worden gebruikt om met alias aan te passen die in de bepaalde orde wordt ontvangen. **[!UICONTROL Priority]** is alleen nodig voor Triggers-implementatie.
 
@@ -38,14 +38,14 @@ In dit geval, zorg ervoor dat de volgende elementen correct worden gevormd:
 
    Als de gedeclareerde id wordt gehasht of versleuteld, controleert u of dezelfde parameters/versleutelingsalgoritmen op uw website worden gebruikt.
 
-   Er wordt slechts één versleutelingsalgoritme ondersteund: AES in CBC-modus met een sleutellengte van 128, 192 of 256 bits, met PKCS-opvulling.
+   Er wordt slechts één versleutelingsalgoritme ondersteund: AES in de wijze CBC met een zeer belangrijke grootte van 128, 192 of 256 beetjes, met opvulling PKCS.
 
    Als het AES-versleutelingsalgoritme is geselecteerd, moeten de volgende aanvullende velden correct worden ingesteld:
 
-   * **Coderingstoetsen** voor AES
-   * **Codering IV**  (initialisatievector) voor AES
-   * **Kanaal**  (e-mail/SMS/Overige): Met dit veld kunt u e-mailadressen en SMS-nummers rechtstreeks decoderen. Zorg ervoor dat de verzoeningssleutel het plaatsen van **Kanaal** gebied aanpast. Als u &quot;Andere&quot;selecteert, zal deze specifieke decryptie niet gebeuren en de verzoeningssleutel zal worden gebruikt om de gegevens in overeenstemming te brengen.
+   * **Coderingssleutel** voor AES
+   * **Codering IV** (Initialisatievector) voor AES
+   * **Kanaal** (E-mail/SMS/Overige): Met dit veld kunt u e-mailadressen en SMS-nummers rechtstreeks decoderen. Zorg ervoor dat de afstemmingssleutel overeenkomt met de instelling van het dialoogvenster **Kanaal** veld. Als u &quot;Andere&quot;selecteert, zal deze specifieke decryptie niet gebeuren en de verzoeningssleutel zal worden gebruikt om de gegevens in overeenstemming te brengen.
 
-   Experience Cloud-publiek wordt mogelijk niet gedeeld omdat de technische workflow is gestopt of gepauzeerd. U opent de **[!UICONTROL Import shared audience]**-workflow door rechtstreeks op de optie **[!UICONTROL Show ImportShared Audience workflow]** in de gegevensbron te klikken.
+   Experience Cloud-publiek wordt mogelijk niet gedeeld omdat de technische workflow is gestopt of gepauzeerd. Toegang krijgen tot **[!UICONTROL Import shared audience]** workflow door rechtstreeks op de knop **[!UICONTROL Show ImportShared Audience workflow]** in uw gegevensbron.
 
 Het kan voorkomen dat sommige gegevens ontbreken wanneer het delen van een publiek via de de kerndienst van Mensen of wanneer het invoeren van een publiek. Alleen records waarvan de id (&#39;Bezoeker-id&#39; of &#39;Opgegeven ID&#39;) in overeenstemming kan worden gebracht met de profieldimensie, worden overgedragen. IDs van de de kernde dienstsegmenten van Mensen die niet door Adobe Campaign worden erkend worden niet ingevoerd.

@@ -7,13 +7,13 @@ topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
 feature: In App
 role: User
-source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
+exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
+source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 2%
 
 ---
-
 
 # Veelgestelde vragen In-App {#in-app-faq}
 
@@ -33,20 +33,20 @@ Aangezien de berichten in-app door SDK van Campagne worden getrokken, willen wij
 * Als zodanig gemarkeerde velden kunnen alleen worden gebruikt in de profielsjabloon (niet in de appSubscriber-sjabloon of de Broadcast-sjabloon) waarvoor een extra beveiligingsmechanisme is ingebouwd.
 * Berichten die zijn gemaakt met de profielsjabloon kunnen alleen worden gediend wanneer de gebruiker zich heeft aangemeld bij de app.
 * Om deze veilige handshake te vergemakkelijken, moeten ontwikkelaars van mobiele apps aanvullende verificatiegegevens doorgeven met de setLinkageField-API. Let op: het koppelingsveld is het veld dat wordt geïdentificeerd als de koppeling tussen Mobiel profiel en CRM-profiel tijdens het uitbreiden van de tabel appSubscriberRcp.
-* Ze moeten de in-app-berichten die op het apparaat zijn opgeslagen en resetLinkagefields verwijderen wanneer de gebruiker zich afmeldt bij de App met resetLinkageField. Dit zorgt ervoor dat als een andere gebruiker zich aanmeldt bij de app, deze de berichten die voor de vorige gebruiker zijn bedoeld, niet ziet.
-* Raadpleeg [Mobiele SDK API&#39;s](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) om dit beveiligingsmechanisme te implementeren op de client.
+* Ze moeten de in-app-berichten die op het apparaat zijn opgeslagen en resetLinkagefields verwijderen wanneer de gebruiker zich afmeldt bij de App met resetLinkageField. Dit zorgt ervoor dat als een andere gebruiker zich aanmeldt bij de app, deze de berichten die voor de vorige gebruiker worden bedoeld, niet ziet.
+* Zie [Mobiele SDK-API&#39;s](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) om dit beveiligingsmechanisme te implementeren aan de clientzijde.
 
 ## Wat moet ik doen om In-App rapportering in Campaign toe te laten? {#enable-inapp-reporting}
 
-U moet in-app het volgen postback vormen. Instructies vindt u [hier](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
+U moet in-app het volgen postback vormen. Instructies zijn te vinden [hier](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback).
 
-Als u het bijhouden van lokale meldingen wilt implementeren, raadpleegt u deze [pagina](../../administration/using/local-tracking.md).
+Als u het bijhouden van lokale meldingen wilt implementeren, raadpleegt u deze [page](../../administration/using/local-tracking.md).
 
 ## Welke rapporten zijn beschikbaar voor het kanaal In-App? {#report-inapp}
 
-Een out-of-the-box rapport is beschikbaar in Adobe Campaign for In-App channel. Raadpleeg deze [documentatie](../../reporting/using/in-app-report.md).
+Een out-of-the-box rapport is beschikbaar in Adobe Campaign for In-App channel. Zie dit [documentatie](../../reporting/using/in-app-report.md).
 
-Zie deze [pagina](../../reporting/using/indicator-calculation.md#in-app-delivery) om te begrijpen hoe elke metriek in-app wordt berekend.
+Zie dit [page](../../reporting/using/indicator-calculation.md#in-app-delivery) om te begrijpen hoe elke metriek In-App wordt berekend.
 
 ## Biedt u ondersteuning voor meertalige inhoudvarianten voor In-App, vergelijkbaar met Push? {#multilingual-inapp}
 
@@ -73,7 +73,7 @@ Voor aangepast geluid op iOS moet u een bestandsnaam met extensie opgeven wannee
 Ja, deplinks worden ondersteund in In-App-berichten. Deeplinks moeten omvatten:
 
 * de taal die verklaart dat levering het volgen moet worden onbruikbaar gemaakt om de diepte te werken.
-* Appsflyer met Tak als partners die het zuiveren volgen kunnen doen. Voor meer informatie over de integratie van de Tak en van Adobe Campaign Standard, verwijs naar deze [pagina](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Appsflyer met Tak als partners die het zuiveren volgen kunnen doen. Voor meer informatie over de integratie van Branch en Adobe Campaign Standard raadpleegt u deze [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
 
 ## Kan een bericht in de app worden geactiveerd wanneer de gebruiker de app start via een pushmelding? {#inapp-push-trigger}
 

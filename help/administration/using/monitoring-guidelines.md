@@ -41,7 +41,7 @@ Technische workflows zijn bewerkingen of taken die regelmatig en volgens een pla
 
 **Configuratiescherm**
 
-In het Configuratiescherm kunt u verschillende instellingen van uw exemplaar beheren: URL-machtigingen, controleer de instantiedetails zoals de buildversies van uw servers, controleer het gebruik van actieve profielen, enz. Hiermee kunt u ook de beschikbare ruimte op de SFTP-servers controleren die met uw instantie zijn verbonden. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl).
+In het Configuratiescherm kunt u verschillende instellingen van uw exemplaar beheren: URL-machtigingen, controleer de instantiedetails zoals de buildversies van uw servers, controleer het gebruik van actieve profielen, enzovoort. Hiermee kunt u ook de beschikbare ruimte op de SFTP-servers controleren die met uw instantie zijn verbonden. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl).
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ In het Configuratiescherm kunt u verschillende instellingen van uw exemplaar beh
 
 **Technische objecten**
 
-Het menu **[!UICONTROL Diagnosis]** is een belangrijk hulpmiddel om de verschillende technische voorwerpen te controleren en te analyseren die door de toepassing worden geproduceerd: gegevensschema&#39;s, webpagina&#39;s, batchtaken, enz. [Meer informatie](../../developing/using/monitoring-data-model-changes.md)
+De **[!UICONTROL Diagnosis]** menu is een belangrijk hulpmiddel voor het bewaken en analyseren van de verschillende technische objecten die door de toepassing worden gegenereerd: gegevensschema&#39;s, webpagina&#39;s, batchtaken, enz. [Meer informatie](../../developing/using/monitoring-data-model-changes.md)
 
 **Exportcontroles**
 
@@ -58,7 +58,7 @@ Met exportcontroles kunt u de uitgevoerde exportbewerkingen op uw exemplaren con
 
 **Licenties**
 
-Met het **[!UICONTROL Licenses]** menu, monitorinformatie over uw instanties: geïnstalleerde licenties, build-versies en geaccepteerde termen.
+Met de **[!UICONTROL Licenses]** -menu, informatie over uw instanties controleren: geïnstalleerde licenties, build-versies en geaccepteerde termen.
 [Meer informatie](../../administration/using/licenses.md)
 
 ## Workflows controleren {#monitoring-workflows}

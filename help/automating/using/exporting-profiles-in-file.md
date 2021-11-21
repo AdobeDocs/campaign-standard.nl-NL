@@ -22,11 +22,11 @@ Het volgende voorbeeld toont hoe u een **[!UICONTROL Extract file]**-activiteit 
 
 Het doel van deze workflow is om een lijst met profielen te exporteren naar een extern bestand, zodat de data ook buiten Adobe Campaign kunnen worden gebruikt.
 
-1. Sleep een [Extraheer bestand](../../automating/using/extract-file.md) activiteit naar uw werkstroom en plaats deze na de [Query](../../automating/using/query.md) activiteit.
+1. Sleep een [Bestand uitpakken](../../automating/using/extract-file.md) activiteit in uw werkschema en plaats het na [Query](../../automating/using/query.md) activiteit.
 
    In dit voorbeeld wordt de query uitgevoerd op alle profielen met een leeftijd van 18 tot en met 30 jaar.
 
-1. Open de **[!UICONTROL Extract file]** activiteit om het uit te geven.
+1. Open de **[!UICONTROL Extract file]** activiteit om deze te bewerken.
 1. Geef een naam op voor het uitvoerbestand.
 1. Voer uitvoerkolommen toe.
 
@@ -45,7 +45,7 @@ Het doel van deze workflow is om een lijst met profielen te exporteren naar een 
       ![](assets/wkf_data_export9.png)
 
 1. Bevestig uw activiteit.
-1. Sleep een [Bestandsoverdracht](../../automating/using/transfer-file.md) activiteit na de activiteit **[!UICONTROL Extract file]** om het uittrekbestand op een externe account te herstellen.
+1. Sleep een [Bestand overbrengen](../../automating/using/transfer-file.md) activiteit na de **[!UICONTROL Extract file]** activiteit om het extractiedossier op een externe rekening terug te krijgen.
 1. Open de activiteit en kies de actie **[!UICONTROL File upload]**.
 
    ![](assets/wkf_data_export11.png)

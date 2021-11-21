@@ -36,7 +36,7 @@ Houd er rekening mee dat Admin-gebruikers ook het Configuratiescherm van de Camp
 
 <img src="assets/do-not-localize/icon_menu.svg" width="60px">
 
-De verschillende Adobe Campaign-beheerbewerkingen worden uitgevoerd via het menu **[!UICONTROL Administration]** dat toegankelijk is wanneer u in de linkerbovenhoek op het Adobe Campaign-logo klikt. Dit deel van de interface is alleen toegankelijk voor functionele beheerders van het platform.
+De verschillende Adobe Campaign-beheerbewerkingen worden uitgevoerd via de **[!UICONTROL Administration]** toegankelijk wanneer u in de linkerbovenhoek op het Adobe Campaign-logo klikt. Dit deel van de interface is alleen toegankelijk voor functionele beheerders van het platform.
 
 De verschillende beschikbare menu&#39;s zijn:
 
@@ -44,18 +44,18 @@ De verschillende beschikbare menu&#39;s zijn:
 * [Kanalen](../../administration/using/about-channel-configuration.md): In dit menu worden de technische parameters gegroepeerd die zijn gekoppeld aan de verschillende platformkanalen (e-mail, mobiel) en het typologie- en quarantainebeheer.
 * [Toepassingsinstellingen](../../administration/using/external-accounts.md): Met dit menu kunt u verschillende toepassingselementen configureren (externe accounts, opties, technische workflows).
 * [Ontwikkeling](../../developing/using/data-model-concepts.md): Met dit menu kunt u uw aangepaste bronnen beheren en toegang krijgen tot diagnostische gereedschappen.
-* [Instellingen](../../administration/using/branding.md) voor instanties: In dit menu definieert u de verschillende merken en configureert u de instellingen (logo, beheer, bijhouden, URL-domein voor toegang tot de bestemmingspagina&#39;s, enz.).
+* [Instantie-instellingen](../../administration/using/branding.md): In dit menu definieert u de verschillende merken en configureert u de instellingen (logo, beheer, bijhouden, URL-domein voor toegang tot de bestemmingspagina&#39;s, enz.).
 * [Implementatie](../../automating/using/managing-packages.md): In dit menu worden de import- en exportopties voor het pakket opnieuw gegroepeerd.
-* [Klantcijfers](../../audiences/using/active-profiles.md): Adobe Campaign geeft een rapport weer waarin het aantal actieve profielen wordt weergegeven. Dit rapport is slechts informatief, het heeft geen directe invloed op het factureren.
-* [Privacygereedschappen](../../start/using/privacy-management.md): Met dit menu kunt u GDPR-toegang maken, aanvragen verwijderen en de evolutie ervan volgen.
+* [Metingen van klanten](../../audiences/using/active-profiles.md): Adobe Campaign geeft een rapport weer waarin het aantal actieve profielen wordt weergegeven. Dit rapport is slechts informatief, het heeft geen directe invloed op het factureren.
+* [Privacy-gereedschappen](../../start/using/privacy-management.md): Met dit menu kunt u GDPR-toegang maken, aanvragen verwijderen en de evolutie ervan volgen.
 
 ## Gebruikers en beveiliging {#users-security}
 
 <img src="assets/do-not-localize/icon_users.svg"  width="60px">
 
-Nodig gebruikers uit om tot de toepassing toegang te hebben en **veiligheidsgroepen** te beheren, die reeksen gebruikers zijn die de zelfde rollen en de rechten binnen uw organisatie delen. Adobe Campaign biedt standaard een set rollen **rollen**, waarmee u eenheidsmachtigingen kunt definiëren die zijn toegewezen aan gebruikers en gebruikersgroepen. Gecombineerd met **organisatorische eenheden**, geven de rollen gebruikers een gefilterde mening van de interface en bepalen hun toegang tot de verschillende eigenschappen.
+Gebruikers uitnodigen om toegang te krijgen tot de toepassing en deze te beheren **veiligheidsgroepen**, dit zijn groepen gebruikers die dezelfde rollen en rechten binnen uw organisatie delen. Adobe Campaign biedt standaard een set **rollen** Hiermee kunt u eenheidsmachtigingen definiëren die zijn toegewezen aan gebruikers en gebruikersgroepen. Gecombineerd met **organisatorische eenheden**, geven de rollen gebruikers een gefilterde mening van de interface en bepalen hun toegang tot de verschillende eigenschappen.
 
-De standaard van de campagne staat u ook toe om op veiligheid betrekking hebbende informatie te controleren. U kunt informatie over gegevensexport ophalen die door gebruikers via het **[!UICONTROL Export audits]** scherm wordt uitgevoerd, en het **[!UICONTROL Licenses]** scherm gebruiken om alle geïnstalleerde campagnelicenties binnen uw organisatie te controleren, evenals andere informatie zoals het buildnummer, de releaseversie en de voorwaarden van overeenkomst.
+De norm van de campagne staat u ook toe om op veiligheid betrekking hebbende informatie te controleren. U kunt informatie over gegevensexport ophalen die door gebruikers via de **[!UICONTROL Export audits]** en de **[!UICONTROL Licenses]** -scherm om alle geïnstalleerde campagnelicenties binnen uw organisatie te controleren en om andere informatie op te vragen, zoals het nummer van de build, de releaseversie en de voorwaarden van de overeenkomst.
 
 Meer informatie:
 
@@ -70,11 +70,11 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
-Alle communicatiekanalen in Adobe Campaign moeten correct zijn geconfigureerd om berichten effectief te kunnen verzenden. In het menu **[!UICONTROL Channel]** kunt u de technische parameters beheren die aan de verschillende kanalen zijn gekoppeld.
+Alle communicatiekanalen in Adobe Campaign moeten correct zijn geconfigureerd om berichten effectief te kunnen verzenden.,De **[!UICONTROL Channel]**  kunt u de technische parameters beheren die aan de verschillende kanalen zijn gekoppeld.
 
-Configureer verschillende **e-mailparameters**: verwerkingsregels voor stuit, quarantines, e-maileigenschappen en routeparameters, typoly-regels. Bepaal het verpletteren van configuraties en eigenschappen voor het **SMS** kanaal, evenals het coderen van SMS en formaten.
+Diverse configureren **email** parameters: verwerkingsregels voor stuit, quarantines, e-maileigenschappen en routeparameters, typoly-regels. Bepaal het verpletteren van configuraties en eigenschappen voor **SMS** kanaal, evenals de codering en formaten van SMS.
 
-Stel **mobiele toepassingen** in om berichten in de app en pushmeldingen te kunnen verzenden met behulp van Adobe Experience Platform SDK&#39;s.
+Instellen **mobiele toepassingen** om in-app berichten en pushberichten te kunnen verzenden met Adobe Experience Platform SDK&#39;s.
 
 Meer informatie:
 
@@ -89,9 +89,9 @@ Meer informatie:
 
 Campaign Standard wordt geleverd met verschillende toepassingselementen die kunnen worden geconfigureerd om aan uw behoeften te voldoen.
 
-Stel **externe accounts** in die worden gebruikt om Adobe Campaign aan te sluiten op externe servers. Open Campaign Standard-doeltoewijzingen en controleer uw platform met behulp van **technische workflows**.
+Instellen **externe rekeningen**, die worden gebruikt om Adobe Campaign te verbinden met externe servers. Toegang krijgen tot Campaign Standard-doeltoewijzingen en uw platform bewaken met **technische werkstromen**.
 
-Definieer een of meerdere **brands** voor uw organisatie en configureer de verzending van **real-time meldingen** binnen de toepassing in het geval van belangrijke systeemactiviteiten.
+Een of meer definiëren **merken** voor uw organisatie, en vormen het verzenden van **real-time meldingen** in de toepassing in geval van belangrijke systeemactiviteiten.
 
 Meer informatie:
 

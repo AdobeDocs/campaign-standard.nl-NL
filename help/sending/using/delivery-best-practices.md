@@ -22,27 +22,27 @@ Leer beste praktijken met betrekking tot leveringsontwerp en verzendend met Adob
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
-**[Levering](optimize-delivery.md)**  optimaliseren - Het verzendproces beveiligen en optimaliseren
+**[Levering optimaliseren](optimize-delivery.md)** - Beveilig en optimaliseer het verzendingsproces
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[Sjablonen](use-templates.md)**  gebruiken - Nieuwe leveringen vereenvoudigen en versnellen
+**[Sjablonen gebruiken](use-templates.md)** - Nieuwe leveringen vergemakkelijken en versnellen
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[Inhoud](design-and-personalize.md)**  aanpassen - Correcte instellingen toepassen
+**[Inhoud personaliseren](design-and-personalize.md)** - Correcte instellingen toepassen
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
-**[Rechts publiek](define-the-right-audience.md)**  definiëren - Correcte instellingen toepassen
+**[Het juiste publiek definiëren](define-the-right-audience.md)** - Correcte instellingen toepassen
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 
-**[Controleren vóór verzending](check-before-sending.md)**  - Gebruikelijke fouten voorkomen
+**[Controleren vóór verzending](check-before-sending.md)** - Vermijd vaak voorkomende fouten
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 
-**[Het spoor en de monitor](track-and-monitor.md)**  - Controle die en problemen oplossen verzenden
+**[Track en monitor](track-and-monitor.md)** - Controle verzenden en problemen oplossen
 
 ## Gerelateerde content
 

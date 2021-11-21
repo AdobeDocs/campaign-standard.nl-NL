@@ -28,7 +28,7 @@ Dit werkt door eerst een externe account te maken die is gekoppeld aan Adobe Ana
 
 Deze integratie is alleen beschikbaar voor e-mailleveringen.
 
-Er is ook een integratie tussen de kernservice **Triggers** en Adobe Campaign. Hiermee kunt u persoonlijke e-mails naar uw klanten sturen als reactie op specifieke gedragingen die door Adobe Analytics (binnen 15 minuten) op uw website worden bijgehouden.
+Integratie tussen de kernservice van Adobe Analytics **Triggers** en Adobe Campaign is ook beschikbaar. Hiermee kunt u persoonlijke e-mails naar uw klanten sturen als reactie op specifieke gedragingen die door Adobe Analytics (binnen 15 minuten) op uw website worden bijgehouden.
 
 **Verwante onderwerpen:**
 

@@ -21,7 +21,7 @@ De volgende tips voor het oplossen van problemen helpen u de meest voorkomende p
 
 **Is de functionaliteit geactiveerd?**
 
-Als u wilt controleren of de integratie Triggers - campagne is geactiveerd, klikt u op het Adobe Campaign-logo in de linkerbovenhoek en selecteert u **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. U zou het **[!UICONTROL Experience Cloud Triggers]** punt moeten zien.
+Als u wilt controleren of de integratie Triggers - campagne is geactiveerd, klikt u op het Adobe Campaign-logo in de linkerbovenhoek en selecteert u **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. U moet de **[!UICONTROL Experience Cloud Triggers]** item.
 
 Ga naar de volgende stap als u deze ziet.
 
@@ -29,7 +29,7 @@ Als dat niet het geval is, neemt u contact op met de Adobe-accountmanager of de 
 
 **Probeer een trigger te maken**
 
-Voer de stappen uit die worden beschreven in [Een toegewezen trigger maken in Campagne](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) om een trigger te maken.
+Voer de in [Een toegewezen trigger maken in Campagne](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) om een trigger te maken.
 
 Als de trigger is gemaakt, gaat u verder naar de volgende stap. Zo niet, dan betekent dit dat de verbinding met het eindpunt van de trigger is mislukt. Controleer of Triggers is ingericht in Experience Cloud (Activeringsservices). Als dit niet het geval is, neemt u contact op met de manager van uw Adobe-account of de professionele servicepartner. De volgende informatie is vereist:
 
@@ -39,13 +39,13 @@ Als de trigger is gemaakt, gaat u verder naar de volgende stap. Zo niet, dan bet
 
 **Probeer de trigger te publiceren**
 
-Voer de stappen uit die worden beschreven in [Een toegewezen trigger maken in Campagne](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) om de trigger te publiceren.
+Voer de in [Een toegewezen trigger maken in Campagne](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) om de trigger te publiceren.
 
 Als de publicatie is gelukt, gaat u verder naar de volgende stap. Als dat niet het geval is, neemt u contact op met Adobe om de instantie opnieuw te starten en probeert u het opnieuw.
 
 **De trigger van de website genereren**
 
-Volg de stappen in [Het uitgeven van het transactionele berichtmalplaatje](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) worden beschreven om het transactiesjabloon uit te geven en te publiceren. Test vervolgens het genereren van de trigger van de website.
+Voer de in [De transactiemalplaatje van het bericht uitgeven](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) om de transactiesjabloon te bewerken en te publiceren. Test vervolgens het genereren van de trigger van de website.
 
 Als de trigger wordt ontvangen door Analytics, gaat u naar de volgende stap. Indien niet, controleer de volgende punten:
 

@@ -19,13 +19,13 @@ ht-degree: 1%
 
 Standaard worden 25 bronnen in een lijst geladen.
 
-Met de parameter **_lineCount** kunt u het aantal bronnen beperken dat in de reactie wordt vermeld.  U kunt de **next** knoop dan gebruiken om de volgende resultaten te tonen.
+De **_lineCount** Met deze parameter kunt u het aantal bronnen beperken dat in de reactie wordt vermeld.  U kunt dan de **next** knooppunt om de volgende resultaten weer te geven.
 
 >[!NOTE]
 >
->Gebruik altijd de waarde URL die in **next** knoop is teruggekeerd om een pagineringsverzoek uit te voeren.
+>Gebruik altijd de URL-waarde die wordt geretourneerd in het dialoogvenster **next** knooppunt om een pagineringsverzoek uit te voeren.
 >
->Het **_lineStart** verzoek wordt berekend en moet altijd binnen URL worden gebruikt die in **next** knoop is teruggekeerd.
+>De **_lineStart** request is berekend en moet altijd worden gebruikt binnen de URL die wordt geretourneerd in het dialoogvenster **next** knooppunt.
 
 <br/>
 
@@ -41,7 +41,7 @@ Voorbeeld van GET-verzoek om 1 record van de profielbron weer te geven.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Antwoord op het verzoek, met **next** knoop om paginering uit te voeren.
+Antwoord op het verzoek, met de **next** knooppunt om paginering uit te voeren.
 
 ```
 {
@@ -62,7 +62,7 @@ Antwoord op het verzoek, met **next** knoop om paginering uit te voeren.
 }
 ```
 
-Standaard is het knooppunt **next** niet beschikbaar bij interactie met tabellen met een grote hoeveelheid gegevens. Om paginering uit te kunnen voeren, moet u **_forcePagination=true** parameter aan uw vraag URL toevoegen.
+Standaard worden de **next** knooppunt is niet beschikbaar bij interactie met tabellen met een grote hoeveelheid gegevens. Als u paginering wilt kunnen uitvoeren, moet u de opdracht **_forcePagination=true** parameter aan uw vraag URL.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -74,4 +74,4 @@ Standaard is het knooppunt **next** niet beschikbaar bij interactie met tabellen
 
 >[!NOTE]
 >
->Het aantal records waarboven een tabel als groot wordt beschouwd, wordt gedefinieerd in de optie Campaign Standard **XtkBigTableThreshold**. De standaardwaarde is 100.000 records.
+>Het aantal records waarboven een tabel als groot wordt beschouwd, wordt gedefinieerd in Campaign Standard **XtkBigTableThreshold** optie. De standaardwaarde is 100.000 records.

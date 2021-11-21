@@ -28,7 +28,7 @@ Technische beheerders kunnen een of meer merken definiëren om de parameters voo
 
 Het belangrijkste principe voor het configureren en gebruiken van merken is het volgende:
 
-1. Maak en configureer het merk. Deze bewerking vereist specifieke machtigingen en wordt uitgevoerd door de technische beheerder van Adobe Campaign. De stappen om een nieuw merk in Campagne te krijgen zijn gedetailleerd [in deze sectie](#creating-a-brand).
+1. Maak en configureer het merk. Deze bewerking vereist specifieke machtigingen en wordt uitgevoerd door de technische beheerder van Adobe Campaign. De stappen voor een nieuw merk in Campagne zijn gedetailleerd [in deze sectie](#creating-a-brand).
 1. Maak een of meer sjablonen voor leveringen en landingspagina&#39;s voor dit merk. Raadpleeg de sectie [Een sjabloon maken](../../start/using/marketing-activity-templates.md).
 1. Maak berichten en landingspagina&#39;s op basis van deze sjabloon. Raadpleeg de secties [Een e-mail maken](../../channels/using/creating-an-email.md) en [Een landingspagina maken](../../channels/using/designing-a-landing-page.md).
 
@@ -89,13 +89,13 @@ Een **merk** wordt gedefinieerd door de volgende kenmerken:
 
 U kunt nieuwe entiteiten van uw organisatie toevoegen in Campagne, of een nieuw type van e-mail tot stand brengen dat u onder een verschillend subdomain moet verzenden. Volg onderstaande stappen om dit te doen:
 
-1. **Vorm een nieuw subdomain**  - voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap zijn het te vormen. U kunt dit uitvoeren door [Campagne Controlebord](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl) of bereiken aan uw Adobe technisch contact. Meer informatie over subdomeinconfiguratie [in dit artikel](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
+1. **Een nieuw subdomein configureren** - Voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap het vormen zijn. U kunt dit via [Campagne](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl) of neem contact op met uw technische Adobe-contactpersoon. Meer informatie over subdomeinconfiguratie [in dit artikel](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
 
    >[!NOTE]
    >
    >Het configuratiescherm is toegankelijk voor alle gebruikers met beheerdersrechten. De stappen om toegang met beheerdersrechten aan een gebruiker te verlenen worden gedetailleerd beschreven op [deze pagina](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=nl#discover-control-panel).
 
-1. **Creeer een kaartje**  - Zodra subdomain wordt gevormd, zal Adobe het opstelling in het uw productiemilieu. Om dit te verzoeken, [creeer een kaartje aan de Zorg van de Cliënt](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) met de volgende informatie:
+1. **Een ticket maken** - Zodra subdomain wordt gevormd, zal Adobe het opstelling in het uw productiemilieu. Om dit aan te vragen, [een ticket naar de klantenservice maken](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) met de volgende informatie:
 
    * Betreft: ACS Nieuw merk ingesteld
 
@@ -105,9 +105,9 @@ U kunt nieuwe entiteiten van uw organisatie toevoegen in Campagne, of een nieuw 
 
    * Productie-URL: XXX.campagne.adobe.com
 
-1. **Een leveringssjabloon**  maken - Als het nieuwe merk beschikbaar is, kunt u het beste ten minste één nieuwe lege leveringssjabloon maken die naar dit nieuwe merk verwijzen. [Meer info](#linking-a-brand-to-a-template).
+1. **Een leveringssjabloon maken** - Zodra het nieuwe merk beschikbaar is, is het de beste manier om ten minste één nieuwe lege leveringstemplate te maken die naar dit nieuwe merk verwijzen. [Meer info](#linking-a-brand-to-a-template).
 
-1. **Richtlijnen voor**  de leverbaarheid van de controle - Alvorens te beginnen het gebruiken van het nieuwe domein, zou de strategie met het team van de Leverbaarheid van de Adobe moeten worden besproken. Zij zullen helpen om de beste praktijken te bepalen, als een nieuwe affiniteit zou moeten worden gecreeerd om IPs tussen domeinen bijvoorbeeld te verdelen, en/of als een platforminplan zou moeten worden bepaald. Meer informatie over de beste werkwijzen voor de aflevering [in deze sectie](../../sending/using/about-deliverability.md).
+1. **Richtlijnen voor levering controleren** - Voordat u begint met het gebruik van het nieuwe domein, moet de strategie worden besproken met het Adobe-leveringsteam. Zij zullen helpen om de beste praktijken te bepalen, als een nieuwe affiniteit zou moeten worden gecreeerd om IPs tussen domeinen bijvoorbeeld te verdelen, en/of als een platforminplan zou moeten worden bepaald. Meer informatie over aanbevolen werkwijzen voor levering [in deze sectie](../../sending/using/about-deliverability.md).
 
 ## Een merk toewijzen aan een e-mail {#assigning-a-brand-to-an-email}
 
@@ -151,7 +151,7 @@ In dit voorbeeld gaan we een nieuw aan reizen gerelateerd merk maken en dit in e
 >
 >Merkconfiguratie wordt alleen door Adobe beheerd omdat hiervoor specifieke machtigingen en technische instellingen vereist zijn.
 
-1. De beheerder van Adobe Campaign leidt eerst tot het merk van **[!UICONTROL Administration > Instance settings > Brand configuration]** menu, en voegt **Vakantie in het element van Tropics** toe, en vormt **[!UICONTROL ID]** en **[!UICONTROL Header parameters of sent emails]** van het merk.
+1. De Adobe Campaign-beheerder maakt eerst het merk op van de **[!UICONTROL Administration > Instance settings > Brand configuration]** en voegt de **Vakantie in de tropen** en configureert het **[!UICONTROL ID]** en de **[!UICONTROL Header parameters of sent emails]** van het merk.
 
    ![](assets/branding_07.png)
 

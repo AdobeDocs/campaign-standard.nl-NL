@@ -27,7 +27,7 @@ Als u pushberichten en In-App-berichten wilt verzenden met de SDK-toepassing van
 
 Zodra een mobiele toepassing is ingesteld, kunt u de verzamelde PII-gegevens ophalen om profielen te maken of bij te werken vanuit uw database. Raadpleeg voor meer informatie deze sectie: [Profielgegevens maken en bijwerken op basis van gegevens van mobiele toepassingen](../../channels/using/updating-profile-with-mobile-app-data.md).
 
-Raadpleeg deze [pagina](../../administration/using/supported-mobile-use-cases.md) voor meer informatie over de verschillende gevallen van mobiel gebruik die in Adobe Campaign Standard worden ondersteund door de SDK&#39;s van Adobe Experience Platform.
+Als u meer wilt weten over de verschillende gevallen van mobiel gebruik die in Adobe Campaign Standard worden ondersteund met de SDK&#39;s van Adobe Experience Platform, raadpleegt u deze [page](../../administration/using/supported-mobile-use-cases.md).
 
 Voer de volgende stappen uit om de configuratie te voltooien:
 
@@ -46,34 +46,34 @@ Met deze stap kan de gebruiker zich aanmelden bij het Experience Platform Launch
 
    Als u aanvullende taken wilt uitvoeren, zoals het installeren van een extensie, het publiceren van een app, het configureren van omgevingen, enzovoort, moet u machtigingen instellen in het productprofiel.
 
-1. In Experience Platform Launch, creeer **[!UICONTROL Mobile property]**. Zie [Een mobiele eigenschap instellen](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property) voor meer informatie.
+1. Maak in Experience Platform Launch een **[!UICONTROL Mobile property]**. Zie [Een mobiele eigenschap instellen](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property) voor meer informatie.
 
-1. Klik in Experience Platform Launch op het tabblad **[!UICONTROL Extensions]**, ga naar **[!UICONTROL Catalog]** en zoek naar de extensie **[!UICONTROL Adobe Campaign Standard]**. Zie [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) voor meer informatie.
+1. Klik in het Experience Platform Launch op de knop **[!UICONTROL Extensions]** tab, ga naar **[!UICONTROL Catalog]** en zoek naar **[!UICONTROL Adobe Campaign Standard]** extensie. Zie voor meer informatie [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
-1. Installeer de extensie **[!UICONTROL Places]** en de extensie **[!UICONTROL Places Monitor]** om gevallen van locatiegebruik in Campaign Standard te ondersteunen.
-   * Installeer de extensie **[!UICONTROL Places]** in het Experience Platform Launch. Zie deze [pagina](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
-   * Installeer de extensie **[!UICONTROL Places Monitor]** in het Experience Platform Launch. Zie deze [pagina](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
+1. Installeer de **[!UICONTROL Places]** en de **[!UICONTROL Places Monitor]** extensie.
+   * Installeer de **[!UICONTROL Places]** in Experience Platform Launch. Zie dit [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+   * Installeer de **[!UICONTROL Places Monitor]** in Experience Platform Launch. Zie dit [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
 
-1. Configureer in Adobe Campaign Standaard de mobiele eigenschap die u in Experience Platform Launch hebt gemaakt. Raadpleeg [Adobe Experience Platform Launch-toepassingen instellen in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
+1. Configureer in Adobe Campaign Standaard de mobiele eigenschap die u in Experience Platform Launch hebt gemaakt. Zie [Een Adobe Experience Platform Launch-toepassing instellen in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. Voeg de kanaalspecifieke configuratie toe aan de configuratie van de mobiele applicatie.
 Zie [Kanaalspecifieke applicatieconfiguratie in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config) voor meer informatie.
 
 1. Indien nodig kunt u de eigenschap Experience Platform Launch verwijderen.
-Zie [Uw Experience Platform Launch-toepassing verwijderen](../../administration/using/configuring-a-mobile-application.md#delete-app) voor meer informatie.
+Zie voor meer informatie [De toepassing Experience Platform Launch verwijderen](../../administration/using/configuring-a-mobile-application.md#delete-app).
 
 ## Mobiele app synchroniseren met AEPSDK vanuit technische workflow starten {#aepsdk-workflow}
 
-Nadat u uw mobiele eigenschap in Experience Platform Launch hebt gemaakt en geconfigureerd, wordt met de technische workflow **[!UICONTROL Sync Mobile app AEPSDK from Launch]** de in Adobe Campaign Standard geïmporteerde mobiele eigenschappen voor het starten van Adobe nu gesynchroniseerd.
+Nadat u uw mobiele eigenschap in het Experience Platform Launch hebt gemaakt en geconfigureerd, kunt u **[!UICONTROL Sync Mobile app AEPSDK from Launch]** In de technische workflow worden nu de Adobe Launch mobile-eigenschappen gesynchroniseerd die in Adobe Campaign Standard zijn geïmporteerd.
 
 Standaard begint de technische werkstroom elke 15 minuten. Indien nodig kan de toepassing handmatig opnieuw worden gestart:
 
-1. Selecteer in Adobe Campaign Standard **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** in het geavanceerde menu.
+1. Selecteer in Adobe Campaign Standard in het menu Geavanceerd de optie **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]**.
 1. Open de **[!UICONTROL Sync Mobile app AEPSDK from Launch (syncWithLaunch)]** workflow.
 
    ![](assets/launch_10.png)
 
-1. Klik op **[!UICONTROL Scheduler]** activiteit.
+1. Klik op de knop **[!UICONTROL Scheduler]** activiteit.
 
 1. Selecteer **[!UICONTROL Immediate execution]**.
 
@@ -93,12 +93,12 @@ Raadpleeg voor meer informatie over het synchroniseren van mobiele app AEPSDK va
 >
 >Standaard kunnen beheerders met een organisatorische eenheid ingesteld op ALL de mobiele toepassing bewerken.
 
-1. Selecteer **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]** in het geavanceerde menu.
+1. Selecteer in het menu Geavanceerd de optie **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
    ![](assets/launch.png)
 
 1. Selecteer de mobiele toepassing die u in Experience Platform Launch hebt gemaakt.
-**[!UICONTROL Property Status]** moet **[!UICONTROL Ready to configure]** zijn.
+haar **[!UICONTROL Property Status]** moeten **[!UICONTROL Ready to configure]**.
 
    >[!NOTE]
    >
@@ -108,15 +108,15 @@ Raadpleeg voor meer informatie over het synchroniseren van mobiele app AEPSDK va
 
    ![](assets/launch_4.png)
 
-1. U kunt de organisatorische eenheid van uw mobiele toepassing onder **[!UICONTROL Access Authorization]** sectie veranderen om toegang tot deze mobiele toepassing tot specifieke organisatorische eenheden te beperken. Raadpleeg deze sectie voor meer informatie.
+1. U kunt de organisatorische eenheid van uw mobiele toepassing veranderen onder **[!UICONTROL Access Authorization]** om de toegang tot deze mobiele toepassing te beperken tot specifieke organisatie-eenheden. Raadpleeg deze sectie voor meer informatie.
 
    Hier, kan de beheerder suborganisatorische eenheden toewijzen door hen van drop-down te selecteren.
 
    ![](assets/launch_12.png)
 
-1. Als u de verbinding tussen Campagne en Experience Platform Launch wilt maken, klikt u op **[!UICONTROL Save]**.
+1. Als u een verbinding wilt maken tussen Campagne en Experience Platform Launch, klikt u op **[!UICONTROL Save]**.
 
-1. Controleer of de status van de mobiele app is gewijzigd van **[!UICONTROL Ready to Configure]** in **[!UICONTROL Configured]**.
+1. Controleer of de status van de mobiele app is gewijzigd van **[!UICONTROL Ready to Configure]** tot **[!UICONTROL Configured]**.
 
    Wanneer de uitbreiding van de Campagne van het Experience Platform Launch toont dat de sleutel opstelling met succes is geweest, kunt u ook verifiëren dat het bezit met succes opstelling in Campagne is geweest.
 
@@ -124,19 +124,19 @@ Raadpleeg voor meer informatie over het synchroniseren van mobiele app AEPSDK va
 
 1. Deze configuratie wordt pas van kracht als de wijzigingen in Experience Platform Launch worden gepubliceerd.
 
-   Zie [Configuratie publiceren](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration) voor meer informatie.
+   Zie voor meer informatie [Configuratie publiceren](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration).
 
 ## Kanaalspecifieke toepassingsconfiguratie in Adobe Campaign {#channel-specific-config}
 
 Uw mobiele toepassing kan nu worden gebruikt in Campagne voor pushberichten of in-app-leveringen. U kunt het nu verder configureren als dat nodig is om gebeurtenissen te maken die uw In-App-berichten activeren en/of pushcertificaten uploaden.
 
-1. Selecteer **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]** in het geavanceerde menu.
+1. Selecteer in het menu Geavanceerd de optie **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
 1. Selecteer de mobiele toepassing die u in Experience Platform Launch hebt gemaakt en geconfigureerd.
 
-1. Op het tabblad **[!UICONTROL Mobile application properties]** kunt u gebeurtenissen toevoegen die beschikbaar zijn in uw mobiele toepassing voor uw In-App-berichten.
+1. Op de **[!UICONTROL Mobile application properties]** kunt u gebeurtenissen toevoegen die beschikbaar zijn in uw mobiele toepassing voor uw In-App-berichten.
 
-1. Klik op **[!UICONTROL Create Element]** om uw gebeurtenissen te configureren.
+1. Om uw gebeurtenissen te vormen, klik **[!UICONTROL Create Element]**.
 
    ![](assets/launch_6.png)
 
@@ -146,9 +146,9 @@ Uw mobiele toepassing kan nu worden gebruikt in Campagne voor pushberichten of i
 
 1. Klik op **[!UICONTROL Add]**.
 
-   De gebeurtenis is nu beschikbaar op het tabblad Triggers wanneer u een bericht in de app maakt. Zie [Een bericht in de app voorbereiden en verzenden](../../channels/using/preparing-and-sending-an-in-app-message.md) voor meer informatie.
+   De gebeurtenis is nu beschikbaar op het tabblad Triggers wanneer u een bericht in de app maakt. Zie voor meer informatie [Een bericht in de app voorbereiden en verzenden](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
-1. Geef in de sectie **[!UICONTROL Device-specific settings]** van een dashboard voor mobiele toepassingen voor elk apparaat de toepassingsgegevens op, inclusief het certificaat voor iOS en de serversleutel voor Android.
+1. In de **[!UICONTROL Device-specific settings]** in een dashboard voor mobiele toepassingen voor elk apparaat de toepassingsgegevens opgeven, inclusief het certificaat voor iOS en de serversleutel voor Android.
 
    Nadat het certificaat is geüpload, verschijnt er een bericht met de melding dat het uploaden is voltooid en wordt de vervaldatum van het certificaat weergegeven.
 
@@ -158,7 +158,7 @@ Uw mobiele toepassing kan nu worden gebruikt in Campagne voor pushberichten of i
 
    ![](assets/launch_8.png)
 
-1. Klik op het tabblad **[!UICONTROL Mobile application subscribers]** om een lijst met abonnees en andere informatie over deze abonnees weer te geven, bijvoorbeeld of ze uw meldingen hebben verlaten.
+1. Klik op de knop **[!UICONTROL Mobile application subscribers]** om een lijst met abonnees en andere informatie over deze abonnees weer te geven, bijvoorbeeld of ze uw meldingen hebben verlaten.
 
 ## Adobe Experience Platform Launch-toepassing verwijderen {#delete-app}
 
@@ -168,7 +168,7 @@ Het verwijderen van uw Experience Platform Launch kan niet ongedaan worden gemaa
 >
 >Het verwijderen van uw Experience Platform Launch kan niet ongedaan worden gemaakt.
 
-Als u uw Experience Platform Launch-toepassing wilt verwijderen, voert u de stappen in [Mobiele eigenschappen verwijderen](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch) uit.
+Voer de volgende stappen uit om uw Experience Platform Launch-toepassing te verwijderen: [Mobiele eigenschappen verwijderen](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch).
 
 Nadat uw toepassing is verwijderd, controleert u in Adobe Campaign of de eigenschappenstatus van uw toepassing correct is bijgewerkt naar Verwijderd in Launch.
 

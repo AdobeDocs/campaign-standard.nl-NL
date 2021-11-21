@@ -56,13 +56,13 @@ Campaign Standard biedt verschillende hulpmiddelen aan om u te helpen uw marketi
 
 ### Gegevens importeren via workflows {#importing-data-through-workflows}
 
-Met workflows kunt u gegevens verzamelen en importeren in de Campagne-database via [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md)-activiteiten. Algemene informatie en beste praktijken wanneer het invoeren van gegevens door werkschema&#39;s worden voorgesteld in [deze sectie](../../automating/using/about-data-import-and-export.md).
+Met workflows kunt u gegevens verzamelen en importeren in de Campagne-database via [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) activiteiten. Algemene informatie en aanbevolen procedures bij het importeren van gegevens via workflows worden weergegeven in [deze sectie](../../automating/using/about-data-import-and-export.md).
 
 Daarnaast kunt u sjablonen instellen voor het importeren van gegevens. Het gebruik van importsjablonen is het aanbevolen om regelmatig bestanden met dezelfde structuur te importeren. U kunt twee typen sjablonen instellen:
 
 * **Workflowsjablonen**: Dit zijn vooraf geconfigureerde workflows die u één keer kunt instellen op basis van uw behoeften en die u telkens opnieuw kunt gebruiken wanneer u gegevens wilt importeren en de database wilt bijwerken. Een voorbeeld van een werkstroomsjabloon voor het importeren van gegevens vindt u in [deze sectie](../../automating/using/creating-import-workflow-templates.md).
 
-* **Gegevenssjablonen** importeren: dit zijn, net als workflowsjablonen, sjablonen die zijn gebaseerd op workflows, die zijn ingesteld om bestanden te uploaden om de database bij te werken. Zodra gevormd, worden zij ter beschikking gesteld aan gebruikers met een vereenvoudigde mening onder **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** menu. Raadpleeg de [specifieke documentatie](../../automating/using/importing-data-with-import-templates.md) voor meer informatie over sjablonen voor importgegevens.
+* **Gegevenssjablonen importeren**: dit zijn, net als workflowsjablonen, sjablonen die zijn gebaseerd op workflows, die zijn ingesteld om bestanden te uploaden om de database bij te werken. Zodra gevormd, worden zij ter beschikking gesteld aan gebruikers met een vereenvoudigde mening onder **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** -menu. Voor meer informatie over de malplaatjes van de invoergegevens, verwijs naar [speciale documentatie](../../automating/using/importing-data-with-import-templates.md).
 
 ### Gegevens van bestemmingspagina&#39;s verzamelen {#collecting-data-from-landing-pages}
 
@@ -72,7 +72,7 @@ Openingspagina&#39;s zijn webformulieren die kunnen worden gebruikt om gegevens 
 * Wijs elk invoerveld toe aan het corresponderende veld in de database.
 * Maak de openingspagina online beschikbaar via een website of via een directe koppeling naar een bericht.
 
-Raadpleeg de [specifieke documentatie](../../channels/using/getting-started-with-landing-pages.md) voor meer informatie over bestemmingspagina&#39;s.
+Raadpleeg voor meer informatie over bestemmingspagina&#39;s de [speciale documentatie](../../channels/using/getting-started-with-landing-pages.md).
 
 **Meer informatie**
 
@@ -81,8 +81,8 @@ Raadpleeg de [specifieke documentatie](../../channels/using/getting-started-with
 
 ### Profielen synchroniseren vanuit Microsoft Dynamics 365
 
-De integratie van Campaign Standard met de Dynamica 365 van Microsoft staat u toe om contactgegevens van de Dynamica 365 van Microsoft tot het gegevensbestand van de Campagne over te gaan.
-Deze contacten zijn dan zichtbaar in de lijst van Profielen en kunnen in marketing campagnes worden gericht. Raadpleeg de [specifieke documentatie](../../integrating/using/d365-acs-get-started.md) voor meer informatie over deze integratie.
+Dankzij de Campaign Standard-integratie met Microsoft Dynamics 365 kunt u contactgegevens van Microsoft Dynamics 365 doorgeven aan de Campagne-database.
+Deze contacten zijn dan zichtbaar in de lijst van Profielen en kunnen in marketing campagnes worden gericht. Raadpleeg voor meer informatie over deze integratie de [speciale documentatie](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ Deze contacten zijn dan zichtbaar in de lijst van Profielen en kunnen in marketi
 
 ### Gegevens importeren via API-aanroepen
 
-Met Campaign Standard-API&#39;s kunt u bewerkingen uitvoeren om de database bij te werken, zoals het maken, bijwerken of verwijderen van profielen of services. Raadpleeg de [specifieke documentatie](../../api/using/get-started-apis.md) voor meer informatie over het gebruik van de API&#39;s.
+Met Campaign Standard-API&#39;s kunt u bewerkingen uitvoeren om de database bij te werken, zoals het maken, bijwerken of verwijderen van profielen of services. Raadpleeg voor meer informatie over het gebruik van de API&#39;s de [speciale documentatie](../../api/using/get-started-apis.md).
 
 >[!CAUTION]
 >
@@ -125,7 +125,7 @@ Dankzij de workflows en de query-editor kunt u een publiek maken dat de verschil
 
 GDPR is de nieuwe privacywet van de Europese Unie (EU) die de vereisten inzake gegevensbescherming harmoniseert en moderniseert. AVG is van toepassing op Adobe Campaign-klanten die data bewaren voor in de EU wonende betrokken personen. Naast de privacymogelijkheden die al beschikbaar zijn in Adobe Campaign (waaronder beheer van toestemming, instellingen voor gegevensbewaring en gebruikersrollen), maken we van deze gelegenheid gebruik in onze rol als gegevensverwerker om extra mogelijkheden op te nemen, zodat u gemakkelijker klaar bent als Data Controller voor bepaalde GDPR-verzoeken.
 
-Raadpleeg deze [handleiding](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html) voor meer informatie over de tools en functies die Adobe Campaign biedt om u te helpen aan de GDPR-standaard te voldoen.
+Zie dit [hulplijn](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html) voor meer informatie over de tools en functies die Adobe Campaign biedt om u te helpen aan de GDPR-standaard te voldoen.
 
 **Meer informatie**
 

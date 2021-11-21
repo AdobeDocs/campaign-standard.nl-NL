@@ -23,9 +23,9 @@ Tijdens het bewerken van een e-mailbericht kunt u een dynamische afbeelding uit 
 
 Voordat u de afbeelding opent in Adobe Campaign, moet u eerst de volgende taken uitvoeren in Adobe Target:
 
-* Maak een of meer [redirect aanbiedingen](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html), waarin u de URL van de afbeelding moet opgeven die u wilt gebruiken.
-* Maak een of meer [soorten publiek](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) om het doel van uw activiteit te definiëren.
-* Maak een [Form-based ervaringscomposer](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html) activiteit, waarin u een box moet selecteren en verschillende ervaringen moet opgeven, afhankelijk van het aantal nieuwe aanbiedingen. Voor elke ervaring moet je een van de nieuwe aanbiedingen selecteren.
+* Een of meerdere maken [omleiding van aanbiedingen](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html), waarin u de URL moet opgeven van de afbeelding die u wilt gebruiken.
+* Een of meerdere maken [publiek](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html), om het doel van uw activiteit te definiëren.
+* Een [Formuliergebaseerde ervaringscomposer](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html) activiteit, waarin u een radibox moet selecteren en verscheidene ervaringen, afhankelijk van het aantal nieuwe aanbiedingen specificeren. Voor elke ervaring moet je een van de nieuwe aanbiedingen selecteren.
 * Maak segmenten met behulp van informatie uit Adobe Campaign om ervaringen op te geven. Als u gegevens van Adobe Campaign wilt gebruiken in de selectieregels van de aanbieding, moet u de gegevens opgeven in het tekstvak in Adobe Target.
 
 1. Een e-maillevering maken.
@@ -33,13 +33,13 @@ Voordat u de afbeelding opent in Adobe Campaign, moet u eerst de volgende taken 
 
    ![](assets/tar_insert_dynamic_image.png)
 
-1. Selecteer de afbeelding die standaard in de e-mail wordt weergegeven. U kunt de afbeeldings-URL rechtstreeks opgeven of een afbeelding selecteren die wordt gedeeld via [Middelen](../../integrating/using/working-with-campaign-and-assets-core-service.md).
+1. Selecteer de afbeelding die standaard in de e-mail wordt weergegeven. U kunt de afbeeldings-URL rechtstreeks opgeven of een afbeelding selecteren die via [Activa](../../integrating/using/working-with-campaign-and-assets-core-service.md).
 
    De integratie ondersteunt alleen statische afbeeldingen. De rest van de inhoud kan niet worden aangepast.
 
 1. Voer de naam in van het tekstvak dat in Adobe Target is opgegeven.
-1. Als u Enterprise-machtigingen gebruikt in uw instellingen in Adobe Target, voegt u de bijbehorende eigenschap toe in dit veld. Meer informatie over de rechten van Target Enterprise vindt u op [deze pagina](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html). Dit veld is optioneel en niet vereist als u de Enterprise-machtigingen in Target niet gebruikt.
-1. Geef in **[!UICONTROL Additional decision parameters]** de toewijzing op tussen de velden die zijn gedefinieerd in de Adobe Target-segmenten en de Adobe Campaign-velden.
+1. Als u Enterprise-machtigingen gebruikt in uw instellingen in Adobe Target, voegt u de bijbehorende eigenschap toe in dit veld. Meer informatie over Target Enterprise-machtigingen vindt u in [deze pagina](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html). Dit veld is optioneel en niet vereist als u de Enterprise-machtigingen in Target niet gebruikt.
+1. In **[!UICONTROL Additional decision parameters]** geeft u de toewijzing op tussen de velden die zijn gedefinieerd in de Adobe Target-segmenten en de Adobe Campaign-velden.
 
    De Adobe Campaign-velden die worden gebruikt, moeten zijn opgegeven in de keuzelijst. In dit voorbeeld definieert u verschillende ervaringen afhankelijk van het geslacht van de ontvanger.
 
@@ -53,4 +53,4 @@ De levering met de dynamische afbeelding kan nu worden verzonden. De resultaten 
 
 * [Adobe Target Portal](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html)
 * [Over het ontwerpen van e-mailinhoud](../../designing/using/designing-content-in-adobe-campaign.md)
-* [E-mailafbeeldingen aanpassen in Real-](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) Time video
+* [E-mailafbeeldingen in realtime aanpassen](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) video

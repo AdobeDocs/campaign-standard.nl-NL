@@ -33,10 +33,10 @@ Alleen de volgende ingebouwde bronnen kunnen worden uitgebreid:
 
 Een bron maken of uitbreiden:
 
-1. Klik **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]** op de knop **[!UICONTROL Create]**.
+1. Van **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]** klikt u op de knop **[!UICONTROL Create]** knop.
 1. Kies de handeling die u wilt uitvoeren:
 
-   * **[!UICONTROL Create a new resource]**: Voer de  **[!UICONTROL Label]** en de  **[!UICONTROL ID]** velden in. Het veld **[!UICONTROL ID]** is verplicht. Als u het veld Label leeg laat, wordt dit automatisch ingevuld met de id.
+   * **[!UICONTROL Create a new resource]**: Voer de **[!UICONTROL Label]** en **[!UICONTROL ID]** velden. Het veld **[!UICONTROL ID]** is verplicht. Als u het veld Label leeg laat, wordt dit automatisch ingevuld met de id.
 
       ![](assets/schema_extension_2.png)
 
@@ -48,6 +48,6 @@ Een bron maken of uitbreiden:
 
       ![](assets/schema_extension_10.png)
 
-1. Klik **[!UICONTROL Create]** om de bron te maken, die dan de status **[!UICONTROL Draft]** krijgt in het geval van een nieuwe bron of de status **[!UICONTROL Editing]** in het geval van een extensie.
+1. Klikken **[!UICONTROL Create]** om de bron te creëren, die dan de **[!UICONTROL Draft]** status in het geval van nieuwe middelen of **[!UICONTROL Editing]** status in geval van uitbreiding.
 
-Het nieuwe middel wordt gecreeerd en kan nu worden gevormd. Voor meer op middelconfiguratie, verwijs naar [Vormend de de gegevensstructuur van het middel](../../developing/using/configuring-the-resource-s-data-structure.md).
+Het nieuwe middel wordt gecreeerd en kan nu worden gevormd. Voor meer op middelconfiguratie, verwijs naar [De gegevensstructuur van de bron configureren](../../developing/using/configuring-the-resource-s-data-structure.md).

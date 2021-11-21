@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Interactie met aangepaste resources {#interacting-with-custom-resources}
 
-Het **/customResources** eindpunt staat u toe om de de douanemiddelen van de Campagne in REST bloot te stellen. Op basis van deze API is er een integratie tussen aangepaste entiteiten en externe eindpunten beschikbaar.
+De **/customResources** het eindpunt staat u toe om de de douanemiddelen van de Campagne in REST bloot te stellen. Op basis van deze API is er een integratie tussen aangepaste entiteiten en externe eindpunten beschikbaar.
 
 Het /customResources eindpunt heeft precies het zelfde gedrag zoals /profileAndServices eindpunt.
 
@@ -45,4 +45,4 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >Het API-eindpunt en de workflows voor privacy (of privacy/privacyTool) beheren niet de aangepaste bronnen die niet aan de profielentiteit zijn gekoppeld.
->U bent verantwoordelijk voor het beheren en opschonen van alle PII&#39;s voor deze aangepaste bronnen. [Klik hier ](../../api/using/creating-a-privacy-request.md) voor meer informatie over het privacygereedschap.
+>U bent verantwoordelijk voor het beheren en opschonen van alle PII&#39;s voor deze aangepaste bronnen. Voor meer informatie over het privacygereedschap, [klik hier](../../api/using/creating-a-privacy-request.md).

@@ -53,7 +53,7 @@ U hebt ook een werkende website nodig.
 >
 >Subdomeinconfiguratie is een sleutelelement voor de beschikbaarheid. Zorg ervoor dat de e-mails van Adobe Campaign worden verzonden vanuit hetzelfde domein als dat van de website.
 
-U moet [Experience Cloud DTM Core Service](#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core Service](#configuring-experience-cloud-people-core-service) en [Campagne](#configuring-triggers-and-aliases-in-campaign) configureren om deze gebruiksgevallen uit te voeren.
+U moet configureren [Experience Cloud DTM Core-service](#configuring-experience-cloud-dtm-core-service), [Experience Cloud People Core-service](#configuring-experience-cloud-people-core-service) en [Campagne](#configuring-triggers-and-aliases-in-campaign) om deze gebruiksgevallen uit te voeren.
 
 ### Experience Cloud DTM Core-service configureren {#configuring-experience-cloud-dtm-core-service}
 
@@ -77,17 +77,17 @@ De alias waarnaar eerder in DTM wordt verwezen, moet via een kenmerk van de klan
 
 ### Triggers en aliassen configureren in campagne {#configuring-triggers-and-aliases-in-campaign}
 
-1. Zorg ervoor dat **[!UICONTROL Experience Cloud triggers]** zichtbaar is op uw Adobe Campaign Standard-exemplaar. Als u dat niet doet, neemt u contact op met de Adobe Campaign-beheerders.
+1. Zorg ervoor dat u **[!UICONTROL Experience Cloud triggers]** zichtbaar op uw Adobe Campaign Standard-exemplaar. Als u dat niet doet, neemt u contact op met de Adobe Campaign-beheerders.
 
    ![](assets/remarketing_1.png)
 
-1. Met aliassen kan een contactpersoon in Analytics worden afgestemd op een profiel in Campagne. U moet de aliassen aanpassen die in de dienst van identiteitskaart van de Experience Cloud met Gedeelde Gegevensbron in Campagne worden bepaald. U moet de aliasresolutie in Adobe Campaign configureren via een gegevensbron ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Zorg ervoor u de correcte gegevensbron in **[!UICONTROL Data Source/Alias]** drop-down menu kiest, dat met de zelfde gegevensbron van Kenmerk van de Klant in vorige stap in kaart wordt gebracht die.
+1. Met aliassen kan een contactpersoon in Analytics worden afgestemd op een profiel in Campagne. U moet de aliassen aanpassen die in de dienst van identiteitskaart van de Experience Cloud met Gedeelde Gegevensbron in Campagne worden bepaald. U moet de aliasresolutie in Adobe Campaign configureren via een gegevensbron ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ). Zorg ervoor dat u de juiste gegevensbron kiest in het dialoogvenster **[!UICONTROL Data Source/Alias]** drop-down menu, dat met de zelfde gegevensbron van Attributen van de Klant in vorige stap wordt in kaart gebracht die.
 
    ![](assets/trigger_uc_conf_5.png)
 
    >[!NOTE]
    >
-   >U kunt uw triggers afstemmen voor zowel anonieme als aangemelde gebruikers. Voor anonieme gebruikers moet het profiel bestaan in Adobe Campaign en is een e-mail verzonden naar de gebruiker eerder. Hiervoor is de configuratie van bezoekersidentiteitskaart voldoende. Nochtans, als u trekkers voor het programma geopende gebruikers wilt in overeenstemming brengen, moet u de Gedeclareerde Gegevensbron van identiteitskaart plaatsen. Voor meer op dit, verwijs naar [Configuratie van de Gegevensbron](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >U kunt uw triggers afstemmen voor zowel anonieme als aangemelde gebruikers. Voor anonieme gebruikers moet het profiel bestaan in Adobe Campaign en is een e-mail verzonden naar de gebruiker eerder. Hiervoor is de configuratie van bezoekersidentiteitskaart voldoende. Nochtans, als u trekkers voor het programma geopende gebruikers wilt in overeenstemming brengen, moet u de Gedeclareerde Gegevensbron van identiteitskaart plaatsen. Raadpleeg voor meer informatie hierover [Configuratie gegevensbron](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
 ## Een trigger maken in de interface Experience Cloud {#creating-a-trigger-in-the-experience-cloud-interface}
 
@@ -95,7 +95,7 @@ Er moet een Adobe Experience Cloud-trigger worden gemaakt, zodat u deze kunt geb
 
 Maak een nieuwe trigger in Experience Cloud en selecteer de rapportsuite die op uw website wordt gebruikt. Zorg ervoor dat u de juiste afmeting kiest, zodat de trigger wordt geactiveerd.
 
-Raadpleeg de [Adobe Experience Cloud-documentatie](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) en bekijk deze [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+Zie de [Adobe Experience Cloud-documentatie](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) en bekijk dit [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 
 ## Triggert beste praktijken en beperkingen {#triggers-best-practices-and-limitations}
 
@@ -106,7 +106,7 @@ Hier volgt een lijst met beste praktijken en beperkingen voor het gebruik van de
 * Triggers zijn gebaseerd op transactieberichten. Transactieberichten worden gebruikt wanneer u een bericht zeer snel moet verzenden. U kunt geen transactiemeldingen in de wachtrij plaatsen en deze vervolgens in batch herhalen.
 * Triggers zijn niet deterministisch van aard. Wanneer een trigger wordt gegenereerd, verstuurt deze alle aliassen die aan het cookie zijn gekoppeld. In het geval van gedeelde browsers, zoals in winkelkiosken, bibliotheken, cybercafes of gedeelde apparaten thuis (echtgenoot en echtgenote die zich aanmelden vanaf hetzelfde apparaat), is het dus niet mogelijk om de juiste id toe te wijzen. Alle id&#39;s die worden gebruikt om u aan te melden bij de browser, worden verzonden naar Campagne die een bericht verzendt op basis van de eerste afstemming. Als er meerdere &#39;e-mail-id&#39;s&#39; zijn die in aanmerking komen voor afstemming, verzendt Campagne geen e-mail. Campagne kan niet weten wat de juiste e-mailadres is, tenzij deze wordt vastgelegd en verzonden door Analytics.
 * U kunt geen inhoud van lading in Campagne opslaan. Triggers kunnen niet worden gebruikt om de gegevens van een profiel bij te werken.
-* Kenmerken van klanten worden niet ondersteund in Triggers (er kunnen alleen gegevens van de rapportsuite worden gebruikt om de regels voor het starten van Triggers-activiteiten te definiëren).
+* Kenmerken van klanten worden niet ondersteund in Triggers (er kunnen alleen gegevens uit de rapportsuite worden gebruikt om de regels voor het starten van Triggers te definiëren).
 * Verzameling van verzamelingen wordt niet ondersteund in Campagne.
 
 >[!CAUTION]

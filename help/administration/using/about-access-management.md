@@ -32,7 +32,7 @@ Rollen, groepen en organisatorische eenheden kunnen worden beheerd door de funct
 
 ![](assets/user_management_1.png)
 
-Gebruikers worden beheerd in de Admin Console (raadpleeg de sectie [Groepen en gebruikers beheren](../../administration/using/managing-groups-and-users.md) of de documentatie [Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html)).
+De gebruikers worden beheerd in de Admin Console (verwijs naar [Groepen en gebruikers beheren](../../administration/using/managing-groups-and-users.md) de [Documentatie Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html)).
 
 ![](assets/user_management_6.png)
 

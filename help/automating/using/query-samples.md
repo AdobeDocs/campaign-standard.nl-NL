@@ -18,7 +18,7 @@ ht-degree: 90%
 
 # Voorbeelden van query’s {#query-samples}
 
-In deze sectie wordt gebruikscase beschreven bij het gebruik van een **[!UICONTROL Query]**-activiteit. Raadpleeg [deze sectie](../../automating/using/query.md) voor meer informatie over het gebruik van een **[!UICONTROL Query]**-activiteit.
+In deze sectie worden gebruiksscenario&#39;s beschreven bij het gebruik van een **[!UICONTROL Query]** activiteit. Voor meer informatie over het gebruik van een **[!UICONTROL Query]** activiteit, zie [deze sectie](../../automating/using/query.md).
 
 ## Targeting op basis van eenvoudige profielkenmerken {#targeting-on-simple-profile-attributes}
 

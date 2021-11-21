@@ -17,9 +17,9 @@ ht-degree: 5%
 
 # Controles uitvoeren op exportlogboeken{#auditing-export-logs}
 
-Vanuit **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]** kunnen beheerders een lijst weergeven met alle volgende exportbewerkingen, inclusief de datum en de gebruiker die het exporteren heeft uitgevoerd:
+Van **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]** kunnen beheerders een lijst weergeven met alle volgende exportbewerkingen, inclusief de datum en de gebruiker die het exporteren heeft uitgevoerd:
 
-* Het uploaden van het dossier van een **[!UICONTROL Transfer file]** activiteit in een werkschema.
+* Bestand uploaden van een **[!UICONTROL Transfer file]** activiteit in een werkstroom.
 * Exporteren vanuit een lijst of sublijst.
 * Bestand gedownload vanaf het bezorgdashboard van een Direct-mailbericht.
 
@@ -29,4 +29,4 @@ Vanuit **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[
 
 Vanuit het linkerdeelvenster kunt u de gewenste exportbewerkingen filteren.
 
-U kunt de lijst exporteren als een afzonderlijk bestand, zoals beschreven in de sectie [Lijsten exporteren](../../automating/using/exporting-lists.md).
+U kunt de lijst exporteren als een afzonderlijk bestand, zoals wordt beschreven in het dialoogvenster [Lijsten exporteren](../../automating/using/exporting-lists.md) sectie.

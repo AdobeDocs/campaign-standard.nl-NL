@@ -65,7 +65,7 @@ Gebruik de knop **[!UICONTROL Count]** om een schatting te bekijken van het aant
 
 Zodra uw doel door de queryactiviteit is geïdentificeerd, moet u een criterium selecteren om het doel in twee verschillende populaties te segmenteren: een gedeelte ontvangt een e-mail en het andere gedeelte ontvangt een sms.
 
-U moet [Segmentation](../../automating/using/segmentation.md) activiteit gebruiken om één of verscheidene segmenten van een bevolking tot stand te brengen die upstream in een vraag wordt berekend.
+U moet een [Segmentering](../../automating/using/segmentation.md) activiteit om één of verscheidene segmenten van een bevolking tot stand te brengen die stroomopwaarts in een vraag wordt berekend.
 
 ![](assets/wkf_segment_activity.png)
 
@@ -112,7 +112,7 @@ Uw tweede overgang is nu ook geconfigureerd.
 
 ## Leveringen maken {#creating-deliveries}
 
-Aangezien twee overgangen reeds werden gecreeerd, moet u twee soorten leveringen aan de uitgaande overgangen van de activiteit van de Segmentatie nu toevoegen: en [E-maillevering](../../automating/using/email-delivery.md) activiteit en een [SMS-levering](../../automating/using/sms-delivery.md) activiteit.
+Aangezien twee overgangen reeds werden gecreeerd, moet u twee soorten leveringen aan de uitgaande overgangen van de activiteit van de Segmentatie nu toevoegen: een [E-maillevering](../../automating/using/email-delivery.md) en [Levering via SMS](../../automating/using/sms-delivery.md) activiteit.
 
 Gebruik Adobe Campaign om leveringen aan een workflow toe te voegen. Om dit te kunnen doen, selecteert u een levering in de categorie **[!UICONTROL Channels]** van het activiteitenpalet van uw workflow.
 
@@ -133,11 +133,11 @@ Een e-maillevering maken:
 1. Voer de e-maileigenschappen in en klik op **[!UICONTROL Next]**.
 1. Selecteer **[!UICONTROL Use the Email Designer]** om de lay-out van uw e-mail te bepalen.
 1. Bewerk de content en sla deze op.
-1. Schakel in de sectie **[!UICONTROL Schedule]** van het berichtdashboard de optie **[!UICONTROL Request confirmation before sending messages]** uit.
+1. In de **[!UICONTROL Schedule]** van het berichtdashboard, unselect **[!UICONTROL Request confirmation before sending messages]** optie.
 
 Een sms-levering maken:
 
-1. Sleep een [SMS-levering](../../automating/using/sms-delivery.md)-activiteit na het andere segment.
+1. Sleep een [Levering via SMS](../../automating/using/sms-delivery.md) activiteit na het andere segment.
 1. Dubbelklik op de activiteit om deze te bewerken.
 1. Selecteer **[!UICONTROL SMS]** en klik op **[!UICONTROL Next]**.
 1. Selecteer een sms-sjabloon en klik op **[!UICONTROL Next]**.
@@ -150,7 +150,7 @@ U kunt de workflow starten zodra de leveringen zijn gemaakt en bewerkt.
 
 ## De workflow uitvoeren {#running-the-workflow}
 
-Wanneer de workflow is gestart, wordt de populatie waarop de activiteit **[!UICONTROL Query]** betrekking heeft, gesegmenteerd om een e-mail- of sms-levering te ontvangen.
+Als de workflow eenmaal is gestart, is de doelgroep voor de **[!UICONTROL Query]** activiteiten worden gesegmenteerd om een e-mail- of sms-levering te ontvangen.
 
 Klik op de knop **[!UICONTROL Start]** op de actiebalk om de workflow uit te voeren.
 

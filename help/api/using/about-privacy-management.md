@@ -23,8 +23,8 @@ U kunt de volgende acties uitvoeren:
 * Een bestand met privacygegevens ophalen,
 * De status van een profiel voor het uitschakelen van een CCPA-bestand beheren.
 
-Het API-eindpunt voor privacy is **/privacy/privacyTool**. De het middelbeschrijving van PrivacyTool en bijbehorende filters zijn beschikbaar in de middelmeta-gegevens. Zie [Metagegevensmechanisme](../../api/using/metadata-mechanism.md).
+Het API-eindpunt van de privacy is **/privacy/privacyTool**. De het middelbeschrijving van PrivacyTool en bijbehorende filters zijn beschikbaar in de middelmeta-gegevens. Zie [Metagegevensmechanisme](../../api/using/metadata-mechanism.md).
 
-De opt-out CCPA wordt beheerd gebruikend **ccpaOptOut** profielattributen.
+De opt-out CCPA wordt beheerd gebruikend **ccpaOptOut** profielkenmerk.
 
-Raadpleeg de [speciale documentatie](../../start/using/privacy-requests.md) voor meer informatie over Adobe Campaign Standard en privacynaleving.
+Raadpleeg voor meer informatie over Adobe Campaign Standard en privacynaleving de [speciale documentatie](../../start/using/privacy-requests.md).

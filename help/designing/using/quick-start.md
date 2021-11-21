@@ -19,46 +19,46 @@ ht-degree: 5%
 
 Met de e-mailontwerper kunt u op vier manieren e-mailberichten maken.
 
-U kunt een e-mailbericht [maken dat vers begint in de e-mailontwerper](#without-existing-content):
+U kunt een e-mail maken [beginnen in de e-mailontwerper](#without-existing-content):
 
-1. U kunt **een e-mailbericht maken van een leeg canvas** door eenvoudig structuur- en inhoudscomponenten toe te voegen en de inhoud aan te passen, zodat de levering snel verloopt. U kunt stijlelementen ook volledig beheren. Voor meer informatie, [begin snel](#from-scratch-email) of zie [volledige documentatie](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. U kunt **een e-mail maken van een leeg canvas** door eenvoudig structuur- en inhoudscomponenten toe te voegen en de inhoud aan te passen, zodat de levering snel verloopt. U kunt stijlelementen ook volledig beheren. Voor meer informatie, [snel aan de slag](#from-scratch-email) of zie [volledige documentatie](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 
-1. U kunt **een e-mail van een uit-van-de-doos malplaatje** tot stand brengen door een malplaatje te selecteren en uw nieuwe e-mailinhoud van hier te bouwen. [Meer informatie](#building-content-from-an-out-of-the-box-template)
+1. U kunt **een e-mailbericht maken van een out-of-box-sjabloon** door een sjabloon te selecteren en vanaf hier uw nieuwe e-mailinhoud te maken. [Meer informatie](#building-content-from-an-out-of-the-box-template)
 
-U kunt ook een e-mailbericht [met bestaande inhoud](#with-existing-content) maken:
+U kunt ook een e-mail maken [met bestaande inhoud](#with-existing-content):
 
-1. U kunt een bestaande HTML-inhoud **converteren** (extern gemaakt of in de verouderde editor). [Meer informatie](#converting-an-html-content)
-1. U kunt **bestaande HTML-inhoud** direct importeren in de compatibiliteitsmodus. [Meer informatie](#compatibility-mode)
+1. U kunt **bestaande HTML-inhoud converteren** (extern gemaakt of in de verouderde editor). [Meer informatie](#converting-an-html-content)
+1. U kunt **bestaande HTML-inhoud importeren** meteen in de compatibiliteitsmodus. [Meer informatie](#compatibility-mode)
 
 | Zonder inhoud | Met inhoud |
 |---|---|
-| [Een volledig nieuw e-mailbericht maken](#from-scratch-email) | [Bestaande HTML-inhoud converteren](#converting-an-html-content) |
-| [Inhoud samenstellen op basis van een out-of-the-box-sjabloon](#building-content-from-an-out-of-the-box-template) | [Bestaande HTML importeren](#compatibility-mode) |
+| [Een volledig nieuw e-mailbericht maken](#from-scratch-email) | [Bestaande HTML-inhoud omzetten](#converting-an-html-content) |
+| [Inhoud samenstellen op basis van een out-of-the-box-sjabloon](#building-content-from-an-out-of-the-box-template) | [Een bestaande HTML importeren](#compatibility-mode) |
 
 ## E-mails ontwerpen met de editor {#without-existing-content}
 
 >[!NOTE]
 >
->In beide aanmaakstrategieën is het van cruciaal belang dat u de onderwerpregel invult voordat u uw e-mail verzendt. Leer hoe te [voeg een onderwerpregel](#add-a-subject-line) toe.
+>In beide aanmaakstrategieën is het van cruciaal belang dat u de onderwerpregel invult voordat u uw e-mail verzendt. Leer hoe u [Een onderwerpregel toevoegen](#add-a-subject-line).
 
 ### Een volledig nieuw e-mailbericht maken {#from-scratch-email}
 
-U kunt eenvoudig een e-mail maken, componenten toevoegen en de inhoud aanpassen om snel een levering te verzenden. U kunt de opmaakopties desgewenst aanpassen aan uw inhoud. Zie [E-mailstijlen bewerken](../../designing/using/styles.md) voor meer informatie over het beheren van stijlinstellingen en inline-kenmerken.
+U kunt eenvoudig een e-mail maken, componenten toevoegen en de inhoud aanpassen om snel een levering te verzenden. U kunt de opmaakopties desgewenst aanpassen aan uw inhoud. Zie voor meer informatie over het beheren van stijlinstellingen en inline-kenmerken [E-mailstijlen bewerken](../../designing/using/styles.md).
 
 1. Een e-mail maken.
 1. Sluit homepage.
 
 ### Een onderwerpregel toevoegen {#add-a-subject-line}
 
-Onderwerpregels zijn verplicht bij het verzenden van een e-mail. Zie [De onderwerpregel van een e-mail definiëren](../../designing/using/subject-line.md) voor meer informatie.
+Onderwerpregels zijn verplicht bij het verzenden van een e-mail. Zie voor meer informatie [De onderwerpregel van een e-mailbericht definiëren](../../designing/using/subject-line.md).
 
-1. Ga **[!UICONTROL Properties]** lusje van de E-mailDesigner homepage (toegankelijk door het homepage) en vul **[!UICONTROL Subject]** sectie in.
+1. Ga naar de **[!UICONTROL Properties]** tabblad van de introductiepagina E-mail Designer (toegankelijk via het introductiepictogram) en vul de **[!UICONTROL Subject]** sectie.
 
 ![](assets/subject-line-quick-start.png)
 
 ### Structuurcomponenten toevoegen {#add-structure-components}
 
-Structuurelementen bepalen de indeling van uw e-mail. Zie [De structuur van een e-mail definiëren](../../designing/using/designing-from-scratch.md#defining-the-email-structure) voor meer informatie.
+Structuurelementen bepalen de indeling van uw e-mail. Zie voor meer informatie [De structuur van een e-mailbericht definiëren](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 In de componenten van de Structuur, belemmering en dalingscomponenten voor de lay-out u wilt gebruiken.
 
@@ -70,47 +70,47 @@ In de componenten van de Structuur, belemmering en dalingscomponenten voor de la
 
 ### Inhoudscomponenten toevoegen {#add-content-components}
 
-U kunt meerdere inhoudscomponenten aan uw e-mail toevoegen, zoals afbeeldingen, tekst en knoppen. Zie [Inhoudscomponenten](../../designing/using/designing-from-scratch.md#about-content-components) voor meer informatie.
+U kunt meerdere inhoudscomponenten aan uw e-mail toevoegen, zoals afbeeldingen, tekst en knoppen. Zie voor meer informatie [Inhoudscomponenten](../../designing/using/designing-from-scratch.md#about-content-components).
 
 * **Image**
 
-   1. Sleep de afbeelding in **Inhoudscomponenten** naar een van uw structuurcomponenten.
-   1. Klik **Bladeren**.
+   1. In **Inhoudscomponenten** Sleep de afbeelding naar een van de structuurcomponenten.
+   1. Klikken **Bladeren**.
    1. Selecteer het afbeeldingsbestand op uw computer.
 
    ![](assets/browse-image-quick-start.png)
 
 * **Tekst met personalisatie**
 
-   1. Sleep in **Inhoudscomponenten** tekst naar een van uw structuurcomponenten.
+   1. In **Inhoudscomponenten**, kunt u tekst naar een van de structuurcomponenten slepen.
    1. Klik op de component en voer de tekst in.
-   1. Om een verpersoonlijkingsgebied toe te voegen, klik **verpersoonlijkingsgebied van het Tussenvoegsel** in de toolbar.
+   1. Als u een verpersoonlijkingsveld wilt toevoegen, klikt u op **Persoonlijkingsveld invoegen** in de werkbalk.
    1. Selecteer het veld dat u nodig hebt, bijvoorbeeld Voornaam.
 
    ![](assets/edit-text-quick-start.png)
 
 * **HTML**
 
-   1. Sleep in **Inhoudscomponenten** HTML naar een van uw structuurcomponenten.
-   1. Klik **De broncode tonen**.
+   1. In **Inhoudscomponenten** Sleep HTML naar een van uw structuurcomponenten en zet deze neer.
+   1. Klikken **De broncode weergeven**.
    1. Voer uw HTML-inhoud in.
-   1. Klik **Opslaan**.
+   1. Klikken **Opslaan**.
 
    ![](assets/html-component-source-code.png)
 
-   Als u bekend bent met HTML, kunt u de HTML-code van de originele voettekst kopiëren en plakken met de inhoudscomponent **[!UICONTROL Html]**. Zie [Informatie over inhoudscomponenten](../../designing/using/designing-from-scratch.md#about-content-components) voor meer informatie.
+   Als u bekend bent met HTML, kunt u de HTML-code van de oorspronkelijke voettekst kopiëren en plakken met de **[!UICONTROL Html]** inhoudscomponent. Zie voor meer informatie [Over inhoudscomponenten](../../designing/using/designing-from-scratch.md#about-content-components).
 
    ![](assets/des_loading_compatible_fragment_9.png)
 
 ### Uw e-mailcomponent opmaken
 
-U kunt de e-mailopmaak aanpassen, bijvoorbeeld door de opvulling van een component te wijzigen. Zie [E-mailstijlen bewerken](../../designing/using/styles.md) voor meer informatie over het beheren van stijlinstellingen en inline-kenmerken.
+U kunt de e-mailopmaak aanpassen, bijvoorbeeld door de opvulling van een component te wijzigen. Zie voor meer informatie over het beheren van stijlinstellingen en inline-kenmerken [E-mailstijlen bewerken](../../designing/using/styles.md).
 
 1. Klik op uw **Tekstcomponent**.
 1. Ga rechts in het palet naar **Opvulling**.
 1. Klik op het vergrendelingspictogram om de synchronisatie tussen de parameters boven en onder of rechts en links te verbreken.
-1. Pas **Opvulling** aan zoals u nodig hebt.
-1. Klik **Opslaan**.
+1. Aanpassen **Opvulling** zoals u nodig hebt.
+1. Klikken **Opslaan**.
 
 ![](assets/padding-quick-start.png)
 
@@ -120,13 +120,13 @@ U kunt uw e-mail nu opslaan en verzenden.
 
 U kunt een e-mailbericht maken van kant-en-klare sjablonen, zoals de welkomstberichten van klanten, nieuwsbrieven en e-mails voor opnieuw contact, en deze personaliseren.
 
-1. Maak een e-mail en open de inhoud ervan. Zie [Een e-mail maken](../../channels/using/creating-an-email.md) voor meer informatie.
-1. Klik op het pictogram Home om de startpagina van **[!UICONTROL Email Designer]** te openen.
-1. Klik op het tabblad **[!UICONTROL Templates]**.
-1. Kies een HTML-sjabloon die buiten de doos valt.
-De verschillende sjablonen bevatten verschillende combinaties van verschillende typen elementen. Sjablonen voor &#39;Doezelaar&#39; hebben bijvoorbeeld marges, sjablonen voor &#39;Astro&#39; hebben geen marges. Zie [Inhoudssjablonen](../../designing/using/using-reusable-content.md#content-templates) voor meer informatie.
-1. Ga **[!UICONTROL Properties]** lusje van de E-mailDesigner homepage (toegankelijk door het homepage) en vul **[!UICONTROL Subject]** sectie in.
-1. U kunt deze elementen combineren om een aantal e-mailvarianten samen te stellen. U kunt bijvoorbeeld een e-mailsectie dupliceren door een structuurelement te selecteren en op **[!UICONTROL Duplicate]** te klikken op de contextafhankelijke werkbalk.
+1. Maak een e-mail en open de inhoud ervan. Zie voor meer informatie [Een e-mail maken](../../channels/using/creating-an-email.md).
+1. Klik op het pictogram van de introductiepagina voor toegang tot de **[!UICONTROL Email Designer]** homepage.
+1. Klik op de knop **[!UICONTROL Templates]** tab.
+1. Kies een uit-van-de-doos HTML malplaatje.
+De verschillende sjablonen bevatten verschillende combinaties van verschillende typen elementen. Sjablonen voor &#39;Doezelaar&#39; hebben bijvoorbeeld marges, sjablonen voor &#39;Astro&#39; hebben geen marges. Zie voor meer informatie [Inhoudssjablonen](../../designing/using/using-reusable-content.md#content-templates).
+1. Ga naar de **[!UICONTROL Properties]** tabblad van de introductiepagina E-mail Designer (toegankelijk via het introductiepictogram) en vul de **[!UICONTROL Subject]** sectie.
+1. U kunt deze elementen combineren om een aantal e-mailvarianten samen te stellen. U kunt bijvoorbeeld een e-mailsectie dupliceren door een structuurcomponent te selecteren en op **[!UICONTROL Duplicate]** in de contextuele werkbalk.
 1. U kunt de elementen verplaatsen met de blauwe pijl links om een structuurcomponent onder of boven een andere component te slepen. Ga voor meer informatie naar [De e-mailstructuur bewerken](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. U kunt ook componenten verplaatsen om de organisatie van elk structuurelement te wijzigen. Ga voor meer informatie naar [Fragmenten en componenten toevoegen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Pas de inhoud van elk element aan uw wensen aan: afbeeldingen, tekst en koppelingen.
@@ -134,15 +134,15 @@ De verschillende sjablonen bevatten verschillende combinaties van verschillende 
 
 ## Bestaande e-mailinhoud gebruiken {#with-existing-content}
 
-Als u een raamwerk van modulaire sjablonen en fragmenten wilt maken die u kunt combineren voor hergebruik in meerdere e-mails, kunt u uw e-mailHTML converteren naar een sjabloon voor e-mailontwerpen.
+Als u een raamwerk van modulaire sjablonen en fragmenten wilt maken die u kunt combineren voor hergebruik in meerdere e-mails, kunt u uw e-mailsjabloon het beste converteren naar een E-mailDesigner-sjabloon.
 
-### HTML-inhoud converteren {#converting-an-html-content}
+### HTML-inhoud omzetten {#converting-an-html-content}
 
-Met deze kwestie kunt u HTML-e-mail snel converteren naar onderdelen van E-mailontwerper. Zie [HTML-inhoud omzetten](../../designing/using/using-existing-content.md#converting-an-html-content) voor meer informatie over dit onderwerp.
+Met deze kwestie kunt u HTML-e-mailberichten snel converteren naar onderdelen van E-mailontwerper. Zie voor meer informatie over dit onderwerp [HTML-inhoud omzetten](../../designing/using/using-existing-content.md#converting-an-html-content).
 
 >[!CAUTION]
 >
->Deze sectie is bedoeld voor gebruikers die vertrouwd zijn met HTML-code.
+>Deze sectie is bedoeld voor gebruikers die bekend zijn met HTML-code.
 
 >[!NOTE]
 >
@@ -153,4 +153,4 @@ Met deze kwestie kunt u HTML-e-mail snel converteren naar onderdelen van E-mailo
 
 Wanneer u inhoud uploadt, moet deze specifieke codering bevatten om volledig compatibel te zijn met en te kunnen worden bewerkt met de WYSIWYG-editor van de e-mailontwerper.
 
-Zie [deze sectie](../../designing/using/using-existing-content.md#compatibility-mode) voor meer informatie over het converteren van een bestaande e-mail naar een e-mail die compatibel is met e-mail die compatibel is met e-mailprogramma&#39;s.
+Ga voor meer informatie over het converteren van een bestaande e-mail naar een e-mail die compatibel is met E-mail die compatibel is met E-mail met Designer naar [deze sectie](../../designing/using/using-existing-content.md#compatibility-mode).

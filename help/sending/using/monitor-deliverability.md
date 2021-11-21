@@ -18,7 +18,7 @@ ht-degree: 10%
 
 # Leverbaarheid controleren{#monitor-deliverability}
 
-Hieronder vindt u meer informatie over het **[!UICONTROL Delivery throughput]**-rapport en de verschillende door Adobe Campaign aangeboden monitoringtools. Hier volgen enkele aanvullende richtlijnen voor het controleren van de leverbaarheid:
+Hieronder vindt u meer informatie over de **[!UICONTROL Delivery throughput]** en de verschillende door Adobe Campaign aangeboden monitoringinstrumenten. Hier volgen enkele aanvullende richtlijnen voor het controleren van de leverbaarheid:
 * Controleer regelmatig de leveringsproductie voor het gehele platform om te verifiëren of het met de originele opstelling verenigbaar is.
 * Controleer of het opnieuw proberen correct is ingesteld (30 minuten voor herbestellingsperiode en meer dan 20 pogingen) in leveringssjablonen.
 * Verifieer regelmatig dat de stuiterende brievenbus toegankelijk is en dat de rekening niet op het punt staat te verlopen.
@@ -30,27 +30,27 @@ Hieronder vindt u meer informatie over het **[!UICONTROL Delivery throughput]**-
 
 Dit verslag bevat informatie over de leveringstijd van het gehele platform gedurende een bepaalde periode om de snelheid te meten waarop de berichten worden geleverd.
 
-Zie [Productie-doorvoer](../../reporting/using/delivery-throughput.md) voor meer informatie.
+Zie voor meer informatie [Leveringsdoorvoer](../../reporting/using/delivery-throughput.md).
 
 ![](assets/delivery_reports_1.png)
 
 U kunt de weergegeven waarden configureren door de tijdschaal te wijzigen.
 
-Andere rapporten zijn beschikbaar, zoals **[!UICONTROL Delivery summary]** of **[!UICONTROL Non-deliverables and bounces]**. Zie [Dynamische rapporten](../../reporting/using/about-dynamic-reports.md) voor meer informatie.
+Andere rapporten zijn beschikbaar, zoals **[!UICONTROL Delivery summary]** of **[!UICONTROL Non-deliverables and bounces]**. Zie voor meer informatie [Dynamische rapporten](../../reporting/using/about-dynamic-reports.md).
 
 ## Leveringen controleren {#monitoring-deliveries}
 
 Het berichtdashboard geeft u toegang tot de leveringslogboeken: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** en **[!UICONTROL Tracked URLs]**. Zij tonen de details van de verzending, welk doel is uitgesloten en waarom, evenals de tracking-informatie zoals aantal geopend en aantal klikken.
 
-Zie [Een levering controleren](../../sending/using/monitoring-a-delivery.md) voor meer informatie.
+Zie voor meer informatie [Toezicht op levering](../../sending/using/monitoring-a-delivery.md).
 
 ![](assets/sending_delivery1.png)
 
 ## Ontvangen van waarschuwingen {#receiving-alerts}
 
-De functie **[!UICONTROL Delivery alerting]** is een waarschuwingssysteem waarmee een groep gebruikers automatisch meldingen kan ontvangen die informatie bevatten over de uitvoering van hun leveringen.
+De **[!UICONTROL Delivery alerting]** deze functie is een systeem voor alarmbeheer waarmee een groep gebruikers automatisch meldingen kan ontvangen die informatie bevatten over de uitvoering van hun leveringen .
 
-Zie [Waarschuwingen ontvangen wanneer fouten optreden](../../sending/using/receiving-alerts-when-failures-happen.md) voor meer informatie.
+Zie voor meer informatie [Waarschuwingen ontvangen wanneer fouten optreden](../../sending/using/receiving-alerts-when-failures-happen.md).
 
 <!--## External tools (#external-tools)
 

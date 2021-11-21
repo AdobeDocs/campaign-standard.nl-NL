@@ -35,7 +35,7 @@ Afhankelijk van de gewenste resultaten en de typen bewerkbare data zijn er versc
 
 >[!NOTE]
 >
->Aanvullende functies zijn beschikbaar in alle activiteiten waarmee u gebeurtenisvariabelen kunt gebruiken nadat u een workflow met externe parameters hebt aangeroepen. Deze worden beschreven in [deze sectie](../../automating/using/customizing-workflow-external-parameters.md).
+>Aanvullende functies zijn beschikbaar in alle activiteiten waarmee u gebeurtenisvariabelen kunt gebruiken nadat u een workflow met externe parameters hebt aangeroepen. Deze worden in [deze sectie](../../automating/using/customizing-workflow-external-parameters.md).
 
 ## Datums {#dates}
 
@@ -220,7 +220,7 @@ De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> Zet een tekenreeks om in datum + tijdzone.<br /> Voorbeeld: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Asia/Teheran")<br /> </td> 
+   <td> Zet een tekenreeks om in datum + tijdzone.<br /> Voorbeeld: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Azië/Teheran")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;tekenreeks&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -657,7 +657,7 @@ De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> Codeert met AES-algoritme (CBC-blokmodus) een tekenreeks met tekens (eerste parameter) met een sleutel (tweede parameter) en een initialisatievector (derde parameter). De sleutel en de initialisatievector moeten worden opgegeven in een hexadecimale representatie (te beginnen met <strong>\x</strong>). Het resultaat staat in de hexadecimale indeling zonder de <strong>\x</strong>.<br /> Houd er rekening mee dat de sleutellengte 128 bits, 192 bits, 256 bits (16, 24, 32 hexadecimale tekens) kan zijn, maar we raden u aan 256 bits en een gerandomiseerde IV met dezelfde lengte als de sleutel te gebruiken.<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> Bijvoorbeeld: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456 789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt()&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> Bijvoorbeeld: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -707,8 +707,8 @@ De aggregatiefuncties worden gebruikt voor het uitvoeren van berekeningen op een
   </tr>
   <tr>
    <td> <strong>StringAgg</strong>, String aggregaat<br /> </td>
-   <td> Retourneert de aaneenschakeling van de waarden van een kolom met tekenreekstype, gescheiden door het teken in het tweede argument (standaardscheidingsteken is komma).<br /> </td>
-   <td> StringAgg(&lt;string values&gt;,&lt;separator&gt;)
+   <td> Retourneert de aaneenschakeling van de waarden van een kolom met het type tekenreeks, gescheiden door het teken in het tweede argument (standaardscheidingsteken is komma).<br /> </td>
+   <td> StringAgg()&lt;string values=""&gt;,&lt;separator&gt;)
   </tr>
   <tr> 
    <td> <strong>Sum</strong>, Sum<br /> </td> 

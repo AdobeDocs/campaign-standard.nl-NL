@@ -19,15 +19,15 @@ ht-degree: 21%
 
 >[!CAUTION]
 >
->De [Integratie van de Kern van de Privacy](https://adobe.io/apis/cloudplatform/gdpr.html) is de methode u voor alle toegang zou moeten gebruiken en verzoeken schrapt. Met ingang van versie 19.4 is het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken afgeschaft. Raadpleeg [deze pagina](../../rn/using/deprecated-features.md) voor meer informatie over Campaign Standard-functies die zijn afgeschaft en verwijderd.
+>De [Privacy Core-service](https://adobe.io/apis/cloudplatform/gdpr.html) De integratie is de methode u voor alle toegang en schrappingsverzoeken zou moeten gebruiken. Met ingang van versie 19.4 is het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken afgeschaft. Raadpleeg [deze pagina](../../rn/using/deprecated-features.md) voor meer informatie over Campaign Standard-functies die zijn afgeschaft en verwijderd.
 
 Om het dossier terug te winnen dat alle informatie verbonden aan een aansluitingswaarde bevat, volg deze drie stappen procedure:
 
-1. Voer een **POST** verzoek uit om een nieuw verzoek met het attribuut **type=&quot;access&quot;** tot stand te brengen, zie [Een nieuw privacyverzoek](../../api/using/creating-a-privacy-request.md) creëren.
+1. Een **POST** verzoek om een nieuw verzoek met het attribuut tot stand te brengen **type=&quot;access&quot;**, zie [Een nieuwe privacyaanvraag maken](../../api/using/creating-a-privacy-request.md).
 
-1. Voer **GET** verzoek uit om informatie over het verzoek terug te winnen.
+1. Een **GET** verzoek om informatie over het verzoek terug te winnen.
 
-1. Haal het gegevensbestand door een **POST** verzoek op teruggekeerde **privacyRequestData** URL uit te voeren, met de interne naam van het privacyverzoek binnen de lading. Bijvoorbeeld: {&quot;name&quot;:&quot;PT17&quot;}.
+1. Haal het gegevensbestand op door een **POST** verzoek op de teruggekeerde **privacyRequestData** URL, met de interne naam van de privacyaanvraag in de payload. Bijvoorbeeld: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 

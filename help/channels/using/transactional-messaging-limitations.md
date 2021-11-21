@@ -26,7 +26,7 @@ Deze sectie maakt een lijst van de beste praktijken en de beperkingen u zich van
 
 ## Machtigingen {#permissions}
 
-Alleen gebruikers met de rol [Administration](../../administration/using/users-management.md#functional-administrators) kunnen transactionele gebeurtenissen configureren en transactieberichten openen.
+Alleen gebruikers met de [Beheer](../../administration/using/users-management.md#functional-administrators) de rol kan transactionele gebeurtenissen vormen en tot transactionele berichten toegang hebben.
 
 ## Configuratie en publicatie van gebeurtenissen {#design-and-publication}
 
@@ -41,9 +41,9 @@ Terwijl u transactionele gebeurtenissen configureert en publiceert, kunnen sommi
 
 ## Aantal transactieberichten {#transactional-message-number}
 
-Het aantal gepubliceerde transactieberichten kan een significante invloed op uw platform hebben. Voor optimale prestaties, zou het aantal gepubliceerde transactieberichten onder 100 moeten blijven. Om dit te verzekeren, unpublish of schrap om het even welke ongebruikte transactieberichten. Zie [Publicatie van een transactiebericht opheffen](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) en [Een transactioneel bericht verwijderen](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+Het aantal gepubliceerde transactieberichten kan een significante invloed op uw platform hebben. Voor optimale prestaties, zou het aantal gepubliceerde transactieberichten onder 100 moeten blijven. Om dit te verzekeren, unpublish of schrap om het even welke ongebruikte transactieberichten. Zie [Het publiceren van een transactiemelding opheffen](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) en [Transactiebericht verwijderen](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
-Voor de beste prestaties kunt u ook het publiceren ongedaan maken of verwijderen van ongebruikte gebeurtenissen. Als u een gebeurtenis verwijdert of publiceert, worden de desbetreffende transactiemeldingen en de verzendings- en trackinglogboeken van die gebeurtenis ook verwijderd of gepubliceerd. Zie [Publicatie van een gebeurtenis opheffen](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) en [Een gebeurtenis verwijderen](../../channels/using/publishing-transactional-event.md#deleting-an-event).
+Voor de beste prestaties kunt u ook het publiceren ongedaan maken of verwijderen van ongebruikte gebeurtenissen. Als u een gebeurtenis verwijdert of publiceert, worden de desbetreffende transactiemeldingen en de verzendings- en trackinglogboeken van die gebeurtenis ook verwijderd of gepubliceerd. Zie [Publicatie van een gebeurtenis ongedaan maken](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) en [Een gebeurtenis verwijderen](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## Personalisatie {#personalization}
 
@@ -52,19 +52,19 @@ De manier waarop u berichtcontent kunt personaliseren hangt af van het type tran
 ### Transactieberichten op basis van gebeurtenissen
 
 * De persoonlijke informatie komt uit data van de gebeurtenis zelf. Zie [Transactieberichtconfiguratie op basis van gebeurtenissen](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
-* U **kunt niet** gebruiken **[!UICONTROL Unsubscription link]** inhoudsblokken in een bericht van de gebeurtenistransactie.
+* U **kan** gebruiken **[!UICONTROL Unsubscription link]** inhoud blokkeert in een bericht over een gebeurtenistransactie.
 * Het gebeurtenistransactiebericht wordt verondersteld om alleen de data in de verzendgebeurtenis zelf te gebruiken bij het bepalen van de ontvanger en de personalisatie van de berichtcontent. U kunt de content van het transactiebericht echter wel verrijken met data uit de Adobe Campaign-database. Zie [Een gebeurtenis verrijken](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) en [Een transactiebericht aanpassen](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 * Aangezien de transactieberichten voor gebeurtenissen geen profielinformatie bevatten, zijn ze niet compatibel met &#39;moeheidsregels&#39;, zelfs in het geval van een verrijking met profielen.
 
 ### Transactieberichten op basis van profiel
 
-* De personalisatiegegevens kunnen afkomstig zijn van de data in de gebeurtenis of van de afgestemde profielrecord. Zie [Transactieberichtconfiguratie op basis van profiel](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) en [Specificaties van op profiel gebaseerde transactiemeldingen](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
-* U **kan** gebruiken **[!UICONTROL Unsubscription link]** inhoudsblokken in een bericht van de profieltransactie. Zie [Een contentblok](../../designing/using/personalization.md#adding-a-content-block) toevoegen.
+* De personalisatiegegevens kunnen afkomstig zijn van de data in de gebeurtenis of van de afgestemde profielrecord. Zie [Configuratie van op profielen gebaseerde transactieberichten](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) en [Specifieke kenmerken van op profielen gebaseerde transactiemeldingen](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
+* U **kan** gebruiken **[!UICONTROL Unsubscription link]** in een bericht voor een profieltransactie. Zie [Een contentblok](../../designing/using/personalization.md#adding-a-content-block) toevoegen.
 * De moeheidsregels zijn compatibel met transactieberichten voor profielen. Zie [Moeheidsregels](../../sending/using/fatigue-rules.md).
 
 ### Productaanbiedingen
 
-Merk op dat de productaanbiedingen in transactie **e-mailberichten** slechts beschikbaar zijn. Zie [Productaanbiedingen gebruiken in een transactiebericht](../../designing/using/using-product-listings.md).
+Merk op dat productaanbiedingen beschikbaar zijn in transactie **e-mailberichten** alleen. Zie [Productaanbiedingen gebruiken in een transactiebericht](../../designing/using/using-product-listings.md).
 
 ## Branding {#permissions-and-branding}
 

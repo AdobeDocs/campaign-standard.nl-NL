@@ -52,7 +52,7 @@ Het is mogelijk dat u onder specifieke omstandigheden meer dan 20 workflows moet
 
 >[!NOTE]
 >
->Voordat u een workflow start, controleert [!DNL Campaign Standard] of er voldoende fysiek systeemgeheugen is om de workflow uit te voeren. Als er onvoldoende geheugen beschikbaar is, wordt u gewaarschuwd dat de uitvoering van de workflow wordt vertraagd tot het laden op de server uitvalt en het systeemgeheugen toeneemt.
+>Voordat u een workflow start, [!DNL Campaign Standard] controleert of er voldoende fysiek systeemgeheugen is om de workflow uit te voeren. Als er onvoldoende geheugen beschikbaar is, wordt u gewaarschuwd dat de uitvoering van de workflow wordt vertraagd tot het laden op de server uitvalt en het systeemgeheugen toeneemt.
 
 ### Frequentie
 
@@ -81,7 +81,7 @@ We raden u aan maximaal 100 activiteiten in één workflow te gebruiken. Bij mee
 
 ### Workflowontwerp
 
-Om ervoor te zorgen dat de werkstroom behoorlijk eindigt, vermijd het verlaten van de laatste overgang van een werkschema op zich door **[!UICONTROL End activity]** te gebruiken.
+Om ervoor te zorgen dat de workflow op de juiste wijze wordt beëindigd, moet u de laatste overgang van een workflow op zichzelf vermijden door een **[!UICONTROL End activity]**.
 
 Als u toegang wilt tot de gedetailleerde weergave van de overgangen, schakelt u de optie **[!UICONTROL Keep interim results]** in de sectie Execution van de workfloweigenschappen in.
 
@@ -114,7 +114,7 @@ Wanneer u een geplande workflow ontwerpt die meerdere activiteiten bevat, moet u
 
 ## Een workflow met parameters aanroepen{#workflow-with-parameters}
 
-Zorg ervoor dat de naam en het aantal parameters identiek zijn aan wat wordt bepaald wanneer het roepen van het werkschema (zie [deze pagina](../../automating/using/defining-parameters-calling-workflow.md). De parametertypen moeten ook consistent zijn met de waarden die worden verwacht.
+Zorg ervoor dat de naam en het aantal parameters gelijk zijn aan wat er is gedefinieerd bij het aanroepen van de workflow (zie [deze pagina](../../automating/using/defining-parameters-calling-workflow.md). De parametertypen moeten ook consistent zijn met de waarden die worden verwacht.
 
 Zorg ervoor dat alle parameters zijn gedeclareerd in de **[!UICONTROL External signal activity]**. Anders treedt er een fout op wanneer de activiteit wordt uitgevoerd.
 

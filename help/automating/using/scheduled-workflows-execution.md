@@ -30,11 +30,11 @@ Daarom moet u er bij het ontwerpen van een geplande workflow met meerdere activi
 
 ## De workflow configureren
 
-Om te controleren of een of meer taken uit een vorige werkstroomuitvoering nog in behandeling zijn, moet u een **[!UICONTROL Query]** en een **[!UICONTROL Test]** activiteit gebruiken.
+Als u wilt controleren of een of meer taken uit een vorige werkstroom nog niet zijn uitgevoerd, moet u een **[!UICONTROL Query]** en **[!UICONTROL Test]** activiteit.
 
-1. Voeg een **[!UICONTROL Query]** activiteit na **[!UICONTROL Scheduler]** activiteit toe, dan vorm het als volgt.
+1. Voeg een **[!UICONTROL Query]** activiteit na de **[!UICONTROL Scheduler]** activiteit, dan vorm het als volgt.
 
-1. Wijzig de bron van de activiteit in **[!UICONTROL WorkflowTaskDetail]**, wat betekent dat de huidige taken van de werkstroom erop gericht zullen zijn.
+1. De bron van de activiteit wijzigen in **[!UICONTROL WorkflowTaskDetail]**, wat betekent dat het zich richt op de huidige taken van de workflow.
 
    ![](assets/scheduled-wkf-resource.png)
 
@@ -46,11 +46,11 @@ Om te controleren of een of meer taken uit een vorige werkstroomuitvoering nog i
 
       >[!NOTE]
       >
-      >Wanneer een **[!UICONTROL Scheduler]** activiteit begint, voegt het onmiddellijk een andere planningtaak toe om bij de volgende geplande tijd te lopen en het werkschema te beginnen. Daarom is het belangrijk om zowel de vraag als planningstaken te filtreren wanneer het zoeken naar hangende taken van een vorige uitvoering.
+      >Wanneer een **[!UICONTROL Scheduler]** de activiteit begint, voegt het onmiddellijk een andere planningstaak toe om bij de volgende geplande tijd te lopen en het werkschema te beginnen. Daarom is het belangrijk om zowel de vraag als planningstaken te filtreren wanneer het zoeken naar hangende taken van een vorige uitvoering.
 
    * De tweede regel bepaalt of taken uit een vorige uitvoering van de workflow nog actief zijn (in behandeling), wat overeenkomt met de uitvoerstatus 0.
 
-1. Voeg een **[!UICONTROL Test]** activiteit toe om het aantal hangende taken te controleren die door **[!UICONTROL Query]** activiteit zijn teruggekeerd. Om dit te doen, vorm twee uitgaande overgangen.
+1. Voeg een **[!UICONTROL Test]** activiteit om te controleren op het aantal hangende taken die door de **[!UICONTROL Query]** activiteit. Om dit te doen, vorm twee uitgaande overgangen.
 
    ![](assets/scheduled-wkf-test.png)
 

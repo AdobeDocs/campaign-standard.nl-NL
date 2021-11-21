@@ -21,19 +21,19 @@ Op de bovenste werkbalk kunt u bijvoorbeeld uw rapport wijzigen, opslaan of afdr
 
 ![](assets/dynamic_report_toolbar.png)
 
-Gebruik de **tab Project** om:
+Gebruik de **Project** tab naar:
 
 * **Openen...**: Hiermee opent u een eerder gemaakt rapport of een sjabloon.
 * **Opslaan als...**: Hiermee dupliceert u sjablonen om deze te kunnen wijzigen.
-* **Project** vernieuwen: Werkt uw rapport bij dat op nieuwe gegevens en veranderingen in filters wordt gebaseerd.
-* **CSV** downloaden: Exporteert uw rapporten naar een CSV-bestand.
+* **Project vernieuwen**: Werkt uw rapport bij dat op nieuwe gegevens en veranderingen in filters wordt gebaseerd.
+* **CSV downloaden**: Exporteert uw rapporten naar een CSV-bestand.
 
-Met het tabblad **Bewerken** kunt u:
+De **Bewerken** kunt u:
 
 * **Ongedaan maken**: Hiermee annuleert u de laatste handeling op het dashboard.
-* **Alles** wissen: Hiermee verwijdert u elk deelvenster op het dashboard.
+* **Alles wissen**: Hiermee verwijdert u elk deelvenster op het dashboard.
 
-Met de tabel **Invoegen** kunt u uw rapporten aanpassen door grafieken en tabellen toe te voegen aan het dashboard:
+De **Invoegen** in de tabel kunt u uw rapporten aanpassen door grafieken en tabellen toe te voegen aan het dashboard:
 
 * **Nieuw leeg deelvenster**: Hiermee voegt u een nieuw leeg deelvenster toe aan het dashboard.
 * **Nieuwe vrije vorm**: Hiermee voegt u een nieuwe vrije-vormtabel toe aan het dashboard.
@@ -75,28 +75,28 @@ De werkbalk bevindt zich boven de werkruimte. Het wordt samengesteld uit verschi
 
 ![](assets/tab_project.png)
 
-Gebruik de **tab Project** om:
+Gebruik de **Project** tab naar:
 
 * **Openen...**: Hiermee opent u een eerder gemaakt rapport of een sjabloon.
 * **Opslaan als...**: Hiermee dupliceert u sjablonen om deze te kunnen wijzigen.
-* **Project** vernieuwen: Werkt uw rapport bij dat op nieuwe gegevens en veranderingen in filters wordt gebaseerd.
-* **CSV** downloaden: Exporteert uw rapporten naar een CSV-bestand.
+* **Project vernieuwen**: Werkt uw rapport bij dat op nieuwe gegevens en veranderingen in filters wordt gebaseerd.
+* **CSV downloaden**: Exporteert uw rapporten naar een CSV-bestand.
 * **[!UICONTROL Print]**: Druk uw rapport af.
 
 ### Tabblad Bewerken {#edit-tab}
 
 ![](assets/tab_edit.png)
 
-Met het tabblad **Bewerken** kunt u:
+De **Bewerken** kunt u:
 
 * **Ongedaan maken**: Hiermee annuleert u de laatste handeling op het dashboard.
-* **Alles** wissen: Hiermee verwijdert u elk deelvenster op het dashboard.
+* **Alles wissen**: Hiermee verwijdert u elk deelvenster op het dashboard.
 
 ### Tabblad Invoegen {#insert-tab}
 
 ![](assets/tab_insert.png)
 
-Met het tabblad **Invoegen** kunt u uw rapporten aanpassen door grafieken en tabellen toe te voegen aan het dashboard:
+De **Invoegen** kunt u uw rapporten aanpassen door grafieken en lijsten aan uw dashboard toe te voegen:
 
 * **Nieuw leeg deelvenster**: Hiermee voegt u een nieuw leeg deelvenster toe aan het dashboard.
 * **Nieuwe vrije vorm**: Hiermee voegt u een nieuwe vrije-vormtabel toe aan het dashboard.
@@ -107,41 +107,41 @@ Met het tabblad **Invoegen** kunt u uw rapporten aanpassen door grafieken en tab
 
 ![](assets/tab_share_1.png)
 
-Op het tabblad **[!UICONTROL Share]** kunt u uw rapporten verzenden met Adobe Campaign-gebruikers via één e-mail of terugkerende e-mails. De doelgebruikers ontvangen vervolgens een e-mail met het bijbehorende rapport.
+De **[!UICONTROL Share]** kunt u rapporten verzenden met Adobe Campaign-gebruikers via eenmalige of terugkerende e-mails. De doelgebruikers ontvangen vervolgens een e-mail met het bijbehorende rapport.
 
 * **[!UICONTROL Send report now]**: Verzend uw rapport naar een lijst met gekozen ontvangers via een e-mail met één opname.
 
-   1. Voeg desgewenst een beschrijving toe in het venster **[!UICONTROL Send report]**.
+   1. In de **[!UICONTROL Send report]** voegt u zo nodig een beschrijving toe.
 
       ![](assets/tab_share_4.png)
 
    1. Selecteer de ontvangers voor uw e-mail door op het veld te klikken en deze te selecteren in de vervolgkeuzelijst of door hun e-mailadres te typen.
-   1. Schakel **[!UICONTROL Show scheduling options]** in als u terugkerende e-mails wilt verzenden. Dit kan ook worden gedaan door **[!UICONTROL Send Report on schedule]** in **[!UICONTROL Share]** tabel te selecteren.
+   1. Controleren **[!UICONTROL Show scheduling options]** als u terugkerende e-mails wilt verzenden. Dit kan ook worden gedaan door **[!UICONTROL Send Report on schedule]** in de **[!UICONTROL Share]** tab.
    1. Klik op **[!UICONTROL Send now]**. De ontvangers ontvangen dan een e-mail met het bijbehorende rapport.
 
 * **[!UICONTROL Send report on schedule]**: Plan uw rapport en verzend terugkerende e-mails naar uw ontvangers.
 
-   1. Voeg desgewenst een beschrijving toe in het venster **[!UICONTROL Send report]**.
+   1. In de **[!UICONTROL Send report]** voegt u zo nodig een beschrijving toe.
    1. Selecteer de ontvangers voor uw e-mail door op het veld te klikken en deze te selecteren in de vervolgkeuzelijst of door hun e-mailadres te typen.
 
       ![](assets/tab_share_5.png)
 
-   1. Selecteer de begin- en einddatum om de geldigheid van de e-mail te configureren in de velden **[!UICONTROL Starting on]** en **[!UICONTROL Ending on]**.
+   1. Selecteer de begin- en einddatum waarop u uw e-mailgeldigheid wilt configureren in het dialoogvenster **[!UICONTROL Starting on]** en **[!UICONTROL Ending on]** velden.
    1. Kies in welke frequentie uw e-mail wordt verzonden.
 
       ![](assets/tab_share_2.png)
 
-   1. Klik **[!UICONTROL Send on schedule]**, zullen uw ontvangers uw terugkomende e-mail afhankelijk van de gekozen frequentie ontvangen.
+   1. Klikken **[!UICONTROL Send on schedule]**, ontvangen uw ontvangers uw terugkerende e-mail afhankelijk van de gekozen frequentie.
 
 * **[!UICONTROL Scheduled reports]**: Vind en vorm al uw gepland rapport.
 
-   1. Zoek in het venster **[!UICONTROL Scheduled reports]** alle terugkerende verzonden rapporten.
+   1. In de **[!UICONTROL Scheduled reports]** , zoekt u alle terugkerende verzonden rapporten.
 
       ![](assets/tab_share_3.png)
 
-   1. Als u één van uw gepland rapport moet schrappen, selecteer het geplande rapport u dan **[!UICONTROL Delete the section]** wilt schrappen.
+   1. Als u één van uw gepland rapport moet schrappen, selecteer het geplande rapport u dan wilt schrappen klikt **[!UICONTROL Delete the section]**.
    1. Om uw geplande rapporten te vormen of te controleren, klik direct op het rapport u moet veranderen.
-   1. Het venster **[!UICONTROL Edit scheduled report]** verschijnt, kunt u nu de ontvangers of de frequentie van uw e-mail indien nodig veranderen.
+   1. De **[!UICONTROL Edit scheduled report]** verschijnt, kunt u de ontvangers of frequentie van uw e-mail nu wijzigen als dat nodig is.
 
 De doelgebruikers ontvangen vervolgens een e-mail met het rapport dat u rechtstreeks in hun postvakken hebt toegevoegd. Gebruikers kunnen altijd beslissen geen terugkerende e-mailberichten meer te ontvangen via de koppeling om hun abonnement op te zeggen die beschikbaar is in elke terugkerende e-mail.
 

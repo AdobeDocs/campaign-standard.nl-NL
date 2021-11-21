@@ -22,7 +22,7 @@ In de inhoud van de bestemmingspagina worden de inputgebieden gebruikt om gegeve
 
 Hiertoe moeten deze velden worden toegewezen aan databasevelden.
 
-U kunt de toewijzing ervan definiëren en beheren via de sectie **[!UICONTROL Form data]** in het linkerpalet.
+U kunt hun toewijzing definiëren en beheren via de **[!UICONTROL Form data]** in het linkerpalet.
 
 ![](assets/lp_form-data.png)
 
@@ -38,29 +38,29 @@ Volg de onderstaande stappen om dit te doen:
    >
    >De standaardvelden van de ingebouwde landingspagina&#39;s zijn vooraf geconfigureerd. U kunt deze desgewenst wijzigen.
 
-1. Open de sectie **[!UICONTROL Form data]** in het linkerpalet.
+1. Toegang krijgen tot **[!UICONTROL Form data]** in het linkerpalet.
 
-1. Als u het veldtype wilt wijzigen, selecteert u een waarde in de vervolgkeuzelijst **[!UICONTROL HTML type of the field]**.
+1. Als u het veldtype wilt wijzigen, selecteert u een waarde in het menu **[!UICONTROL HTML type of the field]** vervolgkeuzelijst.
 
    ![](assets/lp_html-field-type.png)
 
    >[!NOTE]
    >
-   >Voor meer bij het gebruiken van het checkbox type in een het landen pagina, zie [veelvoudige de dienstabonnementen ](#multiple-subscriptions) en [checkbox van de Overeenkomst](#agreement-checkbox) secties bijwerken.
+   >Zie voor meer informatie over het gebruik van het type selectievakje op een bestemmingspagina de optie [Meerdere abonnementen op services bijwerken](#multiple-subscriptions) en [Selectievakje voor overeenkomst](#agreement-checkbox) secties.
 
-1. Als u een veldtype selecteert dat niet compatibel is met het databaseveld dat momenteel is geselecteerd in de zone **[!UICONTROL Field]**, wordt een waarschuwingsbericht weergegeven. Selecteer een geschikte waarde voor optimale toewijzing.
+1. Als u een veldtype selecteert dat niet compatibel is met het databaseveld dat momenteel is geselecteerd in het dialoogvenster **[!UICONTROL Field]** zone, zal een waarschuwingsbericht tonen. Selecteer een geschikte waarde voor optimale toewijzing.
 
    ![](assets/lp_field-type-warning.png)
 
-1. Gebruik de zone **[!UICONTROL Field]** om een databaseveld te selecteren dat wordt gekoppeld aan het formulierveld.
+1. Gebruik de **[!UICONTROL Field]** zone om een databaseveld te selecteren dat wordt gekoppeld aan het formulierveld.
 
    ![](assets/lp_select-database-field.png)
 
    >[!NOTE]
    >
-   >Landingspagina&#39;s kunnen alleen worden toegewezen met de **[!UICONTROL Profiles]**- of **[!UICONTROL Service]**-bronnen.
+   >Landingspagina&#39;s kunnen alleen worden toegewezen aan de **[!UICONTROL Profiles]** of **[!UICONTROL Service]** middelen.
 
-   In dit voorbeeld wijst u het veld **Naam** van de landingspagina toe aan het veld **[!UICONTROL Last name]** van de bron **[!UICONTROL Profiles]**.
+   Wijs in dit voorbeeld de **Naam** veld van de landingspagina naar de **[!UICONTROL Last name]** van het **[!UICONTROL Profiles]** resource.
 
    ![](assets/lp_database-field-example.png)
 
@@ -70,7 +70,7 @@ Volg de onderstaande stappen om dit te doen:
 
    Als een verplicht veld niet is ingevuld, wordt een foutbericht weergegeven wanneer de gebruiker de pagina verzendt.
 
-1. Klik **[!UICONTROL Confirm]** om uw veranderingen te bewaren.
+1. Klikken **[!UICONTROL Confirm]** om uw wijzigingen op te slaan.
 
 <!--If you choose a mandatory **[!UICONTROL Checkbox]**, make sure that it is of **[!UICONTROL Field]** type.-->
 
@@ -84,7 +84,7 @@ Dit doet u als volgt:
 
    ![](assets/lp_parameters_job.png)
 
-1. Selecteer **[!UICONTROL Reconciliation key]**: dit databaseveld wordt gebruikt om te bepalen of de bezoeker een profiel heeft dat al bekend is in de Adobe Campaign-database. Het kan bijvoorbeeld e-mail, voornaam, achternaam zijn. Met de reconciliatietoets kunt u een profiel bijwerken of maken, volgens de parameter **[!UICONTROL Update strategy]** die hieronder wordt gedefinieerd.
+1. Selecteer **[!UICONTROL Reconciliation key]**: dit databaseveld wordt gebruikt om te bepalen of de bezoeker een profiel heeft dat al bekend is in de Adobe Campaign-database. Het kan bijvoorbeeld e-mail, voornaam, achternaam zijn. Met de afstemmingssleutel kunt u een profiel bijwerken of maken, afhankelijk van de **[!UICONTROL Update strategy]** hieronder gedefinieerde parameter.
 
 1. Definieer **[!UICONTROL Form parameter mapping]**: in deze sectie kunt u de veldparameters van de landingspagina toewijzen, net als de parameters die in de afstemmingssleutel worden gebruikt.
 
@@ -100,11 +100,11 @@ Volg de onderstaande stappen om dit te doen:
 
 1. Bij het ontwerpen van de bestemmingspagina:
 
-   * Selecteer een blok, en van **[!UICONTROL Form data]** sectie, kies **[!UICONTROL Checkbox]** als gebiedstype.
+   * Selecteer een blok in het menu **[!UICONTROL Form data]** sectie, kiest u **[!UICONTROL Checkbox]** als het veldtype.
 
       ![](assets/lp_field-type-checkbox.png)
 
-   * Als u bekend bent met HTML, kunt u ook handmatig een selectievakje invoegen met de knop **[!UICONTROL Show source]**.
+   * Als u bekend bent met HTML, kunt u ook handmatig een selectievakje invoegen met de **[!UICONTROL Show source]** knop.
 
       ![](assets/lp_show_source.png)
 
@@ -112,19 +112,19 @@ Volg de onderstaande stappen om dit te doen:
 
       ![](assets/lp_manual-checkbox.png)
 
-1. Controleer of het selectievakje is ingeschakeld in de inhoud. De vervolgkeuzelijst **[!UICONTROL Type]** wordt weergegeven in de sectie **[!UICONTROL Form data]** van het linkerpalet. Selecteer **[!UICONTROL Service and subscription]** in de lijst.
+1. Controleer of het selectievakje is ingeschakeld in de inhoud. De **[!UICONTROL Type]** vervolgkeuzelijst wordt weergegeven in het dialoogvenster **[!UICONTROL Form data]** in het linkerpalet. Selecteren **[!UICONTROL Service and subscription]** in de lijst.
 
    ![](assets/lp_service-and-subscription.png)
 
-1. Kies een optie in de vervolgkeuzelijst **[!UICONTROL Behavior]**.
+1. Kies een optie in het menu **[!UICONTROL Behavior]** vervolgkeuzelijst.
 
    ![](assets/lp_checkbox-behavior.png)
 
-1. Selecteer een [service](../../audiences/using/creating-a-service.md) in de corresponderende lijst.
+1. Selecteer een [service](../../audiences/using/creating-a-service.md) in de overeenkomstige lijst.
 
    ![](assets/lp_checkbox-service.png)
 
-1. Controleer of de optie **[!UICONTROL Mandatory]** is uitgeschakeld. Anders hebben uw gebruikers geen keuze.
+1. Zorg ervoor dat de **[!UICONTROL Mandatory]** is uitgeschakeld. Anders hebben uw gebruikers geen keuze.
 
    ![](assets/lp_uncheck-mandatory.png)
 
@@ -148,11 +148,11 @@ Voer de volgende handelingen uit om dit selectievakje in te voegen en te configu
 
 1. Bij het ontwerpen van de bestemmingspagina:
 
-   * Selecteer een blok, en van **[!UICONTROL Form data]** sectie, kies **[!UICONTROL Checkbox]** als gebiedstype.
+   * Selecteer een blok in het menu **[!UICONTROL Form data]** sectie, kiest u **[!UICONTROL Checkbox]** als het veldtype.
 
       ![](assets/lp_field-type-checkbox.png)
 
-   * Als u bekend bent met HTML, kunt u ook handmatig een selectievakje invoegen met de knop **[!UICONTROL Show source]**.
+   * Als u bekend bent met HTML, kunt u ook handmatig een selectievakje invoegen met de **[!UICONTROL Show source]** knop.
 
       ![](assets/lp_show_source.png)
 
@@ -164,15 +164,15 @@ Voer de volgende handelingen uit om dit selectievakje in te voegen en te configu
 
    ![](assets/lp_select_checkbox.png)
 
-1. De vervolgkeuzelijst **[!UICONTROL Type]** wordt weergegeven in de sectie **[!UICONTROL Form data]** van het linkerpalet. Selecteer **[!UICONTROL Agreement]** in de lijst.
+1. De **[!UICONTROL Type]** vervolgkeuzelijst wordt weergegeven in het dialoogvenster **[!UICONTROL Form data]** in het linkerpalet. Selecteren **[!UICONTROL Agreement]** in de lijst.
 
    ![](assets/lp_form_data_drop-down.png)
 
    >[!NOTE]
    >
-   >Het **[!UICONTROL Agreement]** element wordt niet in kaart gebracht aan een gebied van het gegevensbestand van de Campagne.
+   >De **[!UICONTROL Agreement]** element wordt niet in kaart gebracht aan een gebied van het gegevensbestand van de Campagne.
 
-1. Klik op het pictogram ![](assets/lp-properties-icon.png) naast **[!UICONTROL Form data]** om de geavanceerde eigenschappen van het selectievakje te openen.
+1. Klik op de knop ![](assets/lp-properties-icon.png) pictogram naast **[!UICONTROL Form data]** om toegang te krijgen tot geavanceerde eigenschappen van het selectievakje.
 
 1. U kunt het bericht indien nodig bewerken.
 

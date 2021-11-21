@@ -21,15 +21,15 @@ U kunt &quot;formulieren&quot; maken op uw AEM en de velden in een formulier toe
 
 Een Adobe Campaign-formulier maken op uw AEM-site:
 
-1. Maak in uw AEM een nieuwe pagina op basis van de sjabloon **Adobe Campaign Profile**.
+1. Maak in uw AEM-site een nieuwe pagina op basis van de **Adobe Campaign-profiel** sjabloon.
 
    ![](assets/aem_content_forms.png)
 
-1. Selecteer in de pagina-eigenschappen de **[!UICONTROL Cloud Service]** die correspondeert met uw Adobe Campaign-instantie.
+1. Selecteer in de pagina-eigenschappen de optie **[!UICONTROL Cloud Service]** komt overeen met uw Adobe Campaign-exemplaar.
 
    ![](assets/aem_content_forms_2.png)
 
-1. Selecteer het formuliertype in de component **[!UICONTROL Form Start]**:
+1. Selecteer het formuliertype in het menu **[!UICONTROL Form Start]** component:
 
    * **Adobe Campaign: Profiel opslaan**
    * **Adobe Campaign: Abonneren op services**

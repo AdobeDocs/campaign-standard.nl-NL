@@ -26,6 +26,6 @@ De verschillende configuraties zijn als volgt:
 * Berichteigenschappen. Wanneer u een nieuw bericht maakt, kunt u de eigenschappen afstemmen op uw behoeften.
 * Sommige kanalen bieden extra configuraties aan die facultatief, zoals E-mail BCC zijn.
 
-In het menu **[!UICONTROL Channel]** worden de technische parameters gegroepeerd die zijn gekoppeld aan de verschillende toepassingskanalen (e-mail, sms) en het typologie- en quarantainebeheer.
+De **[!UICONTROL Channel]** worden de technische parameters gegroepeerd die zijn gekoppeld aan de verschillende toepassingskanalen (e-mail, sms) en het typologie- en quarantainebeheer.
 
-Beheerders hebben toegang tot deze configuraties in het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]**.
+Beheerders hebben toegang tot deze configuraties in het dialoogvenster **[!UICONTROL Administration]** > **[!UICONTROL Channels]** -menu.

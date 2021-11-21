@@ -65,7 +65,7 @@ De berichtvoorbereiding wordt geactiveerd op basis van de uitvoeringsparameters 
       Voor een terugkerende verjaardagsmail, die dagelijks wordt verstuurd, kunt u er bijvoorbeeld voor kiezen om de verzendingen per maand samen te voegen. Op deze manier kunt u maandelijks rapporten over uw levering ontvangen, hoewel de e-mail elke dag wordt verzonden.
    >[!NOTE]
    >
-   >Terugkerende leveringen worden voorbereid op basis van de **samenvoegingsperiode**. Als de samenvoegingsperiode bijvoorbeeld &quot;op dag&quot; is, wordt de levering slechts eenmaal per dag opnieuw voorbereid. Als u deze workflow meerdere keren per dag wilt aanroepen, gebruikt u [!UICONTROL No aggregation].
+   >Herhalende leveringen worden voorbereid op basis van de **samenvoegingsperiode**. Als de samenvoegingsperiode bijvoorbeeld &quot;op dag&quot; is, wordt de levering slechts eenmaal per dag opnieuw voorbereid. Als u deze workflow meerdere keren per dag wilt aanroepen, gebruikt u [!UICONTROL No aggregation].
 
 1. Selecteer een e-mailtype. De e-mailtypen zijn afkomstig van e-mailsjablonen die u hebt gedefinieerd in het menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Voer de algemene eigenschappen voor de e-mail in. U kunt deze ook koppelen aan een bestaande campagne. Het label van de leveringsactiviteit van de workflow wordt bijgewerkt met het e-maillabel.

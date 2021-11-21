@@ -47,13 +47,13 @@ Doelgroepen kunnen worden gedefinieerd bij het maken van het bericht via de wiza
 
    >[!NOTE]
    >
-   >Wanneer het richten van een publiek, merk op dat de definitie van het publiek niet van verwijzingen wordt voorzien maar **gekopieerd** in de vraag. Als u om het even welke verandering in het publiek aanbrengt nadat het in een vraag is gericht, zorg ervoor u de vraag opnieuw vormt om de nieuwe definitie in rekening te brengen.
+   >Wanneer het richten van een publiek, merk op dat de definitie van het publiek niet van verwijzingen wordt voorzien maar **gekopieerd** in de query. Als u om het even welke verandering in het publiek aanbrengt nadat het in een vraag is gericht, zorg ervoor u de vraag opnieuw vormt om de nieuwe definitie in rekening te brengen.
 
 1. Definieer de **[!UICONTROL Test profiles]** die u voor de e-mail wilt gebruiken. De testprofielen ontvangen de proeven die u vooraf kunt verzenden om de e-mail te testen voordat u deze naar het hoofddoel verzendt.
 
    Raadpleeg de sectie [Testprofielen](../../audiences/using/managing-test-profiles.md) voor meer informatie over het configureren van testprofielen.
 
-1. Indien nodig, kunt u een controlegroep bepalen gebruikend het overeenkomstige lusje. Hierdoor kunt u bepaalde profielen van uw doel verwijderen zodat deze het bericht niet ontvangen. Voor meer op dit, zie [Toevoegend een controlegroep](../../sending/using/control-group.md).
+1. Indien nodig, kunt u een controlegroep bepalen gebruikend het overeenkomstige lusje. Hierdoor kunt u bepaalde profielen van uw doel verwijderen zodat deze het bericht niet ontvangen. Zie voor meer informatie [Een besturingsgroep toevoegen](../../sending/using/control-group.md).
 
 1. U kunt ook substitutieadressen gebruiken om een nauwkeurige vertegenwoordiging van het bericht te krijgen dat het profiel zal ontvangen.  Zie [E-mailberichten testen met doelprofielen](../../sending/using/testing-messages-using-target.md) voor meer informatie.
 

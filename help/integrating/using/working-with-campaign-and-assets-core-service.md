@@ -19,7 +19,7 @@ ht-degree: 9%
 
 Als u de kernservice of middelen op aanvraag integreert (afhankelijk van de configuratie van uw Adobe Experience Cloud-omgeving) met Adobe Campaign, kunt u alle middelen gebruiken die in Adobe Experience Cloud worden gedeeld op uw Adobe Campaign-e-mails en -landingspagina&#39;s.
 
-Integratie met Assets Core Service is beperkt tot [Functionele beheerders](../../administration/using/users-management.md#functional-administrators).
+De integratie met de Dienst van de Kern van Activa wordt beperkt tot [Functionele beheerders](../../administration/using/users-management.md#functional-administrators).
 
 Bronnen die door Adobe Experience Cloud worden gedeeld, kunnen als volgt worden gebruikt in uw e-mails en landingspagina&#39;s:
 

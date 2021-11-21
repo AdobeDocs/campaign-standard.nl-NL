@@ -12,7 +12,7 @@ exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '746'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -30,11 +30,11 @@ Verschillende factoren kunnen de serverprestaties rechtstreeks beïnvloeden en h
 
 * De server wordt geladen: als Campagne vele verschillende taken tezelfdertijd behandelt, kan het prestaties vertragen. De server moet alle inkomende en uitgaande gegevens voor alle leveringen coördineren om ervoor te zorgen dat de gegevens correct en op tijd zijn.
 
-   **TIP**  - om dit te vermijden, coördineert het plannen van leveringen met de andere leden van uw team om de beste prestaties te verzekeren.
+   **TIP** - Om dit te voorkomen, coördineert u de planning van de leveringen met de andere leden van uw team om de beste prestaties te garanderen.
 
-* De [workflowuitvoering](../../automating/using/about-workflow-execution.md): het controleren van uw workflows is essentieel om problemen met de prestaties van het platform te voorkomen. Volg de richtlijnen [op deze pagina](../../automating/using/monitoring-workflow-execution.md). Meer informatie vindt u in de sectie [best practices voor workflows](../../automating/using/best-practices-workflows.md).
+* De [workflowuitvoering](../../automating/using/about-workflow-execution.md): het controleren van uw workflows is essentieel om problemen met de prestaties van het platform te voorkomen. Volg de vermelde richtlijnen [op deze pagina](../../automating/using/monitoring-workflow-execution.md). Meer informatie in het dialoogvenster [best practices voor workflows](../../automating/using/best-practices-workflows.md) sectie.
 
-* U kunt [Campagne de mogelijkheden van het Controlebord](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) gebruiken om uw platform te controleren, gebruikend [prestaties controle](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html) functionaliteit.
+* U kunt [Mogelijkheden van het bedieningspaneel voor campagnes](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) om uw platform te controleren, gebruiken [prestatiebewaking](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=nl) functies.
 
 ## Netwerkconfiguratie controleren {#network-config}
 
@@ -50,9 +50,9 @@ Om uw ontvangers&#39; te bereiken inbox zonder te stuiteren of als spam worden g
 
    * Het verwijst naar de factoren van een e-mail die zijn capaciteit bepalen om door de server van een ontvanger worden goedgekeurd. ISPs (de Dienstverleners van Internet) filter uit e-mails die zij als SPAM identificeren, of zij blokkeren beelden van het downloaden. Als ze vaststellen dat een bepaald domein te veel e-mails verzendt, stellen ze een limiet in voor het aantal e-mails dat ze van die afzender accepteren.
 
-   * Wanneer u uw e-mail controleert op leverbaarheid, wilt u zich op vier hoofdcategorieën concentreren: gegevenskwaliteit, bericht en inhoud, verzendende infrastructuur, en reputatie. Raadpleeg [deze sectie](../../sending/using/about-deliverability.md) voor een dieper overzicht van dit onderwerp.
+   * Wanneer u uw e-mail controleert op leverbaarheid, wilt u zich op vier hoofdcategorieën concentreren: gegevenskwaliteit, bericht en inhoud, verzendende infrastructuur, en reputatie. Voor een diepere bespreking van dit onderwerp, verwijs naar [deze sectie](../../sending/using/about-deliverability.md).
 
-* Pas bij het starten van een nieuw platform de aanbevelingen toe die worden beschreven op [deze pagina](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
+* Pas bij het starten van een nieuw platform de aanbevelingen toe die nader worden beschreven op [deze pagina](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
 * Neem contact op met uw Adobe-vertegenwoordiger voor hulp.
 
@@ -76,6 +76,6 @@ Wanneer u e-mailberichten op een nieuw platform gaat verzenden, kunt u een lijst
 
 Om te voorkomen dat berichten naar ongeldige adressen worden verzonden, onjuiste communicatie wordt beperkt en de reputatie van de afzender wordt verbeterd, raadt Adobe aan een dubbele opt-in-mechanisme in te voeren voor bevestiging na abonnement. Zo weet u zeker dat een ontvanger met opzet is geabonneerd.
 
-De details voor het uitvoeren van dit mechanisme worden geschetst in [dit sectie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+Nadere bijzonderheden over de toepassing van dit mechanisme worden uiteengezet in [deze sectie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-Meer informatie vindt u in [Aan de slag met profielen en soorten publiek](../../audiences/using/get-started-profiles-and-audiences.md).
+Meer informatie in [Aan de slag met profielen en publiek](../../audiences/using/get-started-profiles-and-audiences.md).

@@ -21,10 +21,10 @@ ht-degree: 7%
 >
 >Afhankelijk van de uitgewisselde gegevens kunnen er wettelijke beperkingen gelden voor het invoerende publiek in Adobe Campaign.
 
-Met Adobe Campaign kunt u soorten publiek/segmenten uitwisselen en delen met verschillende Adobe Experience Cloud-toepassingen. Door **Adobe Campaign** te integreren met **Personenkernservice** (ook wel **Profiles &amp; Audiences core service** genoemd) of door Adobe Audience Manager kunt u:
+Met Adobe Campaign kunt u soorten publiek/segmenten uitwisselen en delen met verschillende Adobe Experience Cloud-toepassingen. Integreren **Adobe Campaign** with **Personenkern** (ook bekend als **Profielen en publiek kernservice**) of Adobe Audience Manager biedt u de volgende mogelijkheden:
 
-* Importeer soorten publiek/segmenten van verschillende Adobe Experience Cloud-oplossingen naar Adobe Campaign. Soorten publiek kunnen worden geïmporteerd vanuit het menu **[!UICONTROL Audiences]** in Adobe Campaign.
-* Exporteer soorten publiek als gedeeld publiek/segmenten. Deze doelgroepen kunnen worden gebruikt in de verschillende Adobe Experience Cloud-oplossingen die u gebruikt. Soorten publiek kunnen worden geëxporteerd nadat activiteiten in een werkstroom als doel zijn ingesteld, met behulp van de **[!UICONTROL Save audience]**-activiteit.
+* Importeer soorten publiek/segmenten van verschillende Adobe Experience Cloud-oplossingen naar Adobe Campaign. Soorten publiek kan worden geïmporteerd uit het **[!UICONTROL Audiences]** in Adobe Campaign.
+* Exporteer soorten publiek als gedeeld publiek/segmenten. Deze doelgroepen kunnen worden gebruikt in de verschillende Adobe Experience Cloud-oplossingen die u gebruikt. Soorten publiek kunnen worden geëxporteerd nadat activiteiten in een werkstroom als doel zijn ingesteld, met behulp van de opdracht **[!UICONTROL Save audience]** activiteit.
 
 Integratie ondersteunt twee typen Adobe Experience Cloud-id&#39;s:
 
@@ -35,7 +35,7 @@ Integratie ondersteunt twee typen Adobe Experience Cloud-id&#39;s:
 
    De id wordt dan herkend door de andere Adobe Marketing Cloud-toepassingen met dezelfde CNAME.
 
-* **Opgegeven ID**: Met dit type id kunt u elk type gegevens combineren met elementen uit de Adobe Campaign-database. Het wordt in Adobe Campaign vertegenwoordigd als een vooraf gedefinieerde afstemmingssleutel. Bij het uitwisselen van gegevens worden de Adobe Campaign-database-id&#39;s gehashed. Deze hashed-id&#39;s worden vervolgens vergeleken met de hashed-id&#39;s van het Adobe Marketing Cloud-publiek dat betrokken is bij het importeren of exporteren.
+* **Opgegeven id**: Met dit type id kunt u elk type gegevens combineren met elementen uit de Adobe Campaign-database. Het wordt in Adobe Campaign vertegenwoordigd als een vooraf gedefinieerde afstemmingssleutel. Bij het uitwisselen van gegevens worden de Adobe Campaign-database-id&#39;s gehashed. Deze hashed-id&#39;s worden vervolgens vergeleken met de hashed-id&#39;s van het Adobe Marketing Cloud-publiek dat betrokken is bij het importeren of exporteren.
    <br>Deze integratie ondersteunt reguliere gedeclareerde id&#39;s, gehashte gedeclareerde id&#39;s en gecodeerde gedeclareerde id&#39;s.
 
    >[!NOTE]

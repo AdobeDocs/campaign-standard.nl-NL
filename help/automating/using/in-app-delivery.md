@@ -21,11 +21,11 @@ ht-degree: 47%
 
 ![](assets/wkf_in_app_1.png)
 
-Met de **In-App-levering**-activiteit kunt u het verzenden van een In-App-bericht binnen een workflow configureren. Met In-App-berichten kunt u een bericht weergeven wanneer de gebruiker actief is in de toepassing. Voor meer informatie over levering in-app, verwijs naar dit [sectie](../../channels/using/about-in-app-messaging.md).
+De **Levering in de app** U kunt het verzenden van een In-App-bericht binnen een workflow configureren. Met In-App-berichten kunt u een bericht weergeven wanneer de gebruiker actief is in de toepassing. Voor meer informatie over de levering in de app raadpleegt u deze [sectie](../../channels/using/about-in-app-messaging.md).
 
 ## Gebruikscontext {#context-of-use}
 
-De **[!UICONTROL In-App delivery]** activiteit wordt over het algemeen gebruikt om het verzenden van een bericht in-app aan een doelpubliek te automatiseren dat in het zelfde werkschema wordt berekend.
+De **[!UICONTROL In-App delivery]** activiteit wordt over het algemeen gebruikt om het verzenden van een bericht In-App aan een doelpubliek te automatiseren dat in het zelfde werkschema wordt berekend.
 
 De ontvangers worden vóór de activiteit in de zelfde werkschema gedefinieerd, via het richten van activiteiten zoals vragen, snijpunten, enz.
 
@@ -33,7 +33,7 @@ De voorbereiding van berichten wordt geactiveerd volgens de parameters voor work
 
 ## Configuratie {#configuration}
 
-1. Sleep een **[!UICONTROL Query]** activiteit aan uw werkschema en laat vallen. Houd er rekening mee dat de **[!UICONTROL Query]**-activiteit die gericht is op dimensie op het tabblad **[!UICONTROL Properties]** moet worden bijgewerkt volgens het in stap 4 gekozen sjabloon:
+1. Sleep een **[!UICONTROL Query]** activiteit aan uw werkschema. De **[!UICONTROL Query]** activiteiten gericht op **[!UICONTROL Properties]** moet worden bijgewerkt volgens het in stap 4 gekozen model:
 
    * Targetingdimensie moet worden ingesteld op **[!UICONTROL mobileApp (mobileAppV5)]** voor de sjabloon **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**.
    * Targetingdimensie moet worden ingesteld op **[!UICONTROL profile (profile)]** voor de sjabloon **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**.
@@ -48,7 +48,7 @@ De voorbereiding van berichten wordt geactiveerd volgens de parameters voor work
 
    ![](assets/wkf_in_app_3.png)
 
-1. Selecteer het berichttype in de app. Dit hangt van de gegevens af die in uw **[!UICONTROL Query]** activiteit worden gericht.
+1. Selecteer het berichttype in de app. Dit is afhankelijk van de gegevens waarop uw **[!UICONTROL Query]** activiteit.
 
    * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: Met dit berichttype kunt u zich richten op Adobe Campaign-profielen die zijn geabonneerd op uw mobiele toepassing en kunt u In-App-berichten personaliseren met profielkenmerken die beschikbaar zijn in Campagne.
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: Met dit berichttype kunt u een bericht verzenden naar alle gebruikers van uw mobiele toepassing, zelfs als zij geen bestaand profiel in Campagne hebben.
@@ -56,9 +56,9 @@ De voorbereiding van berichten wordt geactiveerd volgens de parameters voor work
 
    ![](assets/wkf_in_app_4.png)
 
-1. Voer de eigenschappen van uw In-App-bericht in en selecteer uw mobiele app in het veld **[!UICONTROL Associate a Mobile App to a delivery]**.
+1. Voer de berichteigenschappen van uw In-app in en selecteer uw mobiele app in het dialoogvenster **[!UICONTROL Associate a Mobile App to a delivery]** veld.
 1. Sleep op het tabblad **[!UICONTROL Triggers]** de gebeurtenis die het bericht activeert. Er zijn drie categorieën gebeurtenissen beschikbaar:
-1. Definieer uw inhoud in de app. Raadpleeg de sectie over [Aanpassing in app](../../channels/using/customizing-an-in-app-message.md).
+1. Definieer uw inhoud in de app. Zie het gedeelte over [Aanpassing in app](../../channels/using/customizing-an-in-app-message.md).
 1. Standaard bevat de activiteit **[!UICONTROL In-App delivery]** geen uitgaande overgangen. Als u een uitgaande overgang wilt toevoegen aan uw activiteit **[!UICONTROL In-App delivery]**, ga dan naar het tabblad **[!UICONTROL General]** van de geavanceerde opties voor activiteiten (de knop ![](assets/dlv_activity_params-24px.png) in de snelle acties van de activiteit) en vink een van de volgende opties aan:
 
    * **[!UICONTROL Add outbound transition without the population]**: Hiermee kunt u een uitgaande overgang genereren die exact dezelfde populatie als de binnenkomende overgang bevat.
@@ -76,4 +76,4 @@ Standaard wordt bij het starten van een leveringsworkflow alleen de berichtvoorb
 
 De leveringen die in een workflow zijn gemaakt, zijn toegankelijk in de lijst met marketingactiviteiten van de applicatie. U kunt de uitvoeringsstatus van de workflow bekijken via het dashboard. Via koppelingen in het overzichtsvenster voor pushmeldingen hebt u rechtstreeks toegang tot gekoppelde elementen (workflow, campagne, enz.).
 
-In de ouderleveringen, die van de marketing activiteitenlijst kunnen worden betreden, kunt u het totale aantal verzenden bekijken die zijn verwerkt (volgens de samenvoegingsperiode die wordt gespecificeerd toen **[!UICONTROL In-App delivery]** activiteit werd gevormd). U doet dit door de detailweergave van het blok **[!UICONTROL Deployment]** van de bovenliggende levering te openen door ![](assets/wkf_dlv_detail_button.png) te selecteren.
+In de bovenliggende items, die toegankelijk zijn vanuit de lijst met marketingactiviteiten, kunt u het totale aantal verzonden dat is verwerkt, weergeven (volgens de bij het **[!UICONTROL In-App delivery]** activiteit is geconfigureerd). U doet dit door de detailweergave van het blok **[!UICONTROL Deployment]** van de bovenliggende levering te openen door ![](assets/wkf_dlv_detail_button.png) te selecteren.

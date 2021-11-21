@@ -24,7 +24,7 @@ Voordat u uw transactiebericht publiceert, kunt u een specifiek testprofiel make
 
 Definieer een testprofiel dat aan uw gebeurtenis wordt gekoppeld. Hiermee kunt u een voorbeeld van uw bericht bekijken en een relevante proefdruk verzenden.
 
-1. Van [transactioneel berichtdashboard](../../channels/using/editing-transactional-message.md#accessing-transactional-messages), klik **[!UICONTROL Create test profile]** knoop.
+1. Van de [transactiemeldashboard](../../channels/using/editing-transactional-message.md#accessing-transactional-messages)klikt u op de knop **[!UICONTROL Create test profile]** knop.
 
    ![](assets/message-center_test-profile.png)
 
@@ -34,7 +34,7 @@ Definieer een testprofiel dat aan uw gebeurtenis wordt gekoppeld. Hiermee kunt u
 
    >[!NOTE]
    >
-   >Als u uw bericht hebt verrijkt, kunt u ook informatie invoeren die betrekking heeft op een andere tabel, zoals **[!UICONTROL Profile]**. Zie [De gebeurtenis verrijken](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) en [Een transactiebericht aanpassen](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+   >Als u het bericht hebt verrijkt, kunt u ook informatie invoeren die betrekking heeft op een andere tabel, zoals **[!UICONTROL Profile]**. Zie [De gebeurtenis verrijken](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) en [Een transactiebericht aanpassen](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
 1. Zodra gecreeerd, zal het testprofiel vooraf gespecificeerd in het transactiebericht zijn. Klik op het blok **[!UICONTROL Test profiles]** van het bericht om het doel van de proef te controleren.
 
@@ -42,14 +42,14 @@ Definieer een testprofiel dat aan uw gebeurtenis wordt gekoppeld. Hiermee kunt u
 
 U kunt ook een nieuw testprofiel maken of een profiel gebruiken dat al in het menu **[!UICONTROL Test profiles]** staat. Dit doet u als volgt:
 
-1. Klik op het **Adobe**-logo in de linkerbovenhoek en selecteer **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
-1. Selecteer in de sectie **[!UICONTROL Event]** de gebeurtenis die u zojuist hebt gemaakt. In dit voorbeeld selecteert u Cart abandonment (EVTcartAbandonment).
+1. Klik op de knop **Adobe** logo, in de linkerbovenhoek, en selecteer **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. In de **[!UICONTROL Event]** selecteert u de gebeurtenis die u zojuist hebt gemaakt. In dit voorbeeld selecteert u Cart abandonment (EVTcartAbandonment).
 1. Geef in het tekstvak **[!UICONTROL Event data]** de informatie op die u in de JSON-indeling wilt verzenden.
 
    ![](assets/message-center_3.png)
 
 1. Sla uw wijzigingen op.
-1. [Open het ](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) bericht dat u hebt gemaakt en selecteer het bijgewerkte testprofiel.
+1. [Open het bericht](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) dat u hebt gemaakt en het bijgewerkte testprofiel hebt geselecteerd.
 
 **Verwante onderwerpen:**
 
@@ -62,4 +62,4 @@ Nadat u een of meer specifieke testprofielen hebt gemaakt en uw transactieberich
 
 ![](assets/message-center_10.png)
 
-De stappen voor het verzenden van een proefdruk worden beschreven in de sectie [Proofs verzenden](../../sending/using/sending-proofs.md).
+De stappen voor het verzenden van een bewijs worden nader beschreven in het [Proefdrukken verzenden](../../sending/using/sending-proofs.md) sectie.

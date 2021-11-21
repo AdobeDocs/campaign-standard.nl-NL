@@ -22,4 +22,4 @@ Het rapport **[!UICONTROL Unsubscriptions]** identificeert de leveringen met de 
 
 ![](assets/delivery_reports_unsub.png)
 
-In de tabel **[!UICONTROL TOP 5 deliveries]** en de grafiek worden de vijf belangrijkste leveringen weergegeven met het hoogste aantal geleverde berichten en het aantal ontvangers dat zich niet heeft geabonneerd. De hier vermelde gegevens zijn gebaseerd op het aantal klikken op de verbinding van het bericht unsubscription.
+De **[!UICONTROL TOP 5 deliveries]** de lijst en de grafiek toont de hoogste vijf leveranties met het hoogste aantal geleverde berichten en het aantal ontvangers die hebben afgemeld. De hier vermelde gegevens zijn gebaseerd op het aantal klikken op de verbinding van het bericht unsubscription.

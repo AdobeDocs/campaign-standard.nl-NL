@@ -23,7 +23,7 @@ ht-degree: 6%
 
 Met Adobe Campaign Standard kunt u de directe invoer van gegevenstoewijzingen via API&#39;s activeren en de status van uw innameverzoeken ophalen.
 
-Op deze pagina wordt beschreven hoe u de ingangsstatus van uw gegevenstoewijzingen kunt activeren en ophalen. Zie [deze sectie](../../api/using/get-started-apis.md) voor algemene informatie over Campaign Standard API&#39;s.
+Op deze pagina wordt beschreven hoe u de ingangsstatus van uw gegevenstoewijzingen kunt activeren en ophalen. Voor algemene informatie over Campaign Standard API&#39;s raadpleegt u [deze sectie](../../api/using/get-started-apis.md).
 
 ## Vereisten {#prerequisites}
 
@@ -32,11 +32,11 @@ Alvorens APIs te gebruiken, moet de gegevenstoewijzing eerst binnen de interface
 * [Toewijzingsdefinitie](../../integrating/using/aep-mapping-definition.md)
 * [Toewijzingsactivering](../../integrating/using/aep-mapping-activation.md)
 
-Nadat de gegevenstoewijzing is gemaakt, moet u de bewerking stoppen zodat u deze op elk gewenst moment vanuit de API kunt activeren. Ga als volgt te werk om dit te doen:
+Als de gegevenstoewijzing is gemaakt, moet u de bewerking stoppen zodat u deze op elk gewenst moment vanuit de API kunt activeren. Ga als volgt te werk om dit te doen:
 
-1. Ga in Campaign Standard naar **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
+1. Ga in Campaign Standard naar de **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** -menu.
 
-1. Dubbelklik op de gegevenstoewijzing om deze te openen en klik vervolgens op de knop **[!UICONTROL Stop]**.
+1. Dubbelklik op de gegevenstoewijzing om deze te openen en klik vervolgens op de knop **[!UICONTROL Stop]** knop.
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -52,7 +52,7 @@ De directe opname van een afbeelding XDM in Adobe Experience Platform wordt tewe
 
 >[!NOTE]
 >
->Om ingest POST API vraag uit te voeren, moet de gebruiker **SQL functie uitvoeren** rol hebben, die door een beheerder van Campaign Standard door onder JS Manuscript kan worden verstrekt uit te voeren:
+>Voor het uitvoeren van de API-aanroep van ingest POST moet de gebruiker beschikken over een **SQL-functie uitvoeren** rol, die door een beheerder van Campaign Standard door onder Manuscript kan worden verstrekt uit te voeren JS:
 >
 >
 ```
@@ -106,7 +106,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Gedetailleerde informatie over de status van de XDM-toewijzingsaanvraag en de bijbehorende taken is beschikbaar in de Campaign Standard-interface, in het menu **[!UICONTROL Status of data export to platform]** (zie [Activering toewijzen](../../integrating/using/aep-mapping-activation.md)).
+>Gedetailleerde informatie over de status van de XDM-toewijzingsaanvraag en de bijbehorende taken is beschikbaar in de Campaign Standard-interface, in de **[!UICONTROL Status of data export to platform]** menu (zie [Toewijzingsactivering](../../integrating/using/aep-mapping-activation.md)).
 
 De bewerking GET retourneert de volgende informatie:
 

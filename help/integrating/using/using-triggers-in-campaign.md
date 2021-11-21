@@ -21,7 +21,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->Als u Triggers wilt maken, hebt u de rol **[!UICONTROL Administration]** nodig of wilt u deel uitmaken van de beveiligingsgroep **[!UICONTROL Administrators]**. Raadpleeg deze [pagina](../../administration/using/list-of-roles.md) voor meer informatie hierover.
+>Als u Triggers wilt maken, hebt u de opdracht **[!UICONTROL Administration]** of in de **[!UICONTROL Administrators]** beveiligingsgroep. Raadpleeg voor meer informatie hierover [page](../../administration/using/list-of-roles.md).
 
 Definieer eerst de gedragingen die u in Adobe Experience Cloud (**[!UICONTROL Triggers]**-kernservice) wilt bewaken. Kijk voor meer informatie in de [documentatie van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html). Let op dat u bij het definiëren van de trigger aliassen moet inschakelen. Voor elk gedrag (bladeren/verlaten van formulieren, toevoegen/verwijderen van producten, vervallen sessie, enz.) moet een nieuwe trigger worden toegevoegd in Adobe Experience Cloud.
 
@@ -31,7 +31,7 @@ Bekijk deze [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketi
 
 Voer daartoe de volgende stappen uit:
 
-1. Klik op het **Adobe**-logo in de linkerbovenhoek en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
+1. Klik op de knop **Adobe** logo, in de linkerbovenhoek, en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud Triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -49,13 +49,13 @@ Voer daartoe de volgende stappen uit:
 
    ![](assets/remarketing_4.png)
 
-1. U kunt nu de triggers publiceren. Raadpleeg [Een trigger publiceren in Campagne](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign) voor meer informatie hierover.
+1. U kunt nu de triggers publiceren. Raadpleeg voor meer informatie hierover [Een trigger publiceren in Campagne](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign).
 
 ## Een trigger publiceren in Campagne {#publishing-trigger-in-campaign}
 
 Nadat u een triggergebeurtenis in Adobe Campaign hebt gemaakt op basis van een bestaande Adobe Experience Cloud-trigger, moet u deze nu publiceren.
 
-1. Klik vanaf de eerder gemaakte trigger op de knop **[!UICONTROL Publish]** om de triggergebeurtenis te publiceren.
+1. Klik in de eerder gemaakte trigger op de knop **[!UICONTROL Publish]** om de triggergebeurtenis te publiceren.
 
    ![](assets/trigger_publish_1.png)
 
@@ -63,7 +63,7 @@ Nadat u een triggergebeurtenis in Adobe Campaign hebt gemaakt op basis van een b
 
    ![](assets/trigger_publish_2.png)
 
-1. Wanneer de publicatie wordt gedaan, zal het volgende bericht onder **[!UICONTROL Publication]** verschijnen.
+1. Wanneer de publicatie is voltooid, verschijnt het volgende bericht onder **[!UICONTROL Publication]**.
 
    ![](assets/trigger_publish_3.png)
 
@@ -73,7 +73,7 @@ Nadat u een triggergebeurtenis in Adobe Campaign hebt gemaakt op basis van een b
 
    ![](assets/trigger_publish_4.png)
 
-1. Klik op de knop **[!UICONTROL Show Trigger in Experience Cloud]** om de triggerdefinitie in Adobe Experience Cloud weer te geven.
+1. Klikken **[!UICONTROL Show Trigger in Experience Cloud]** kunt u de triggerdefinitie in Adobe Experience Cloud bekijken.
 
 Na het publiceren van de gebeurtenis wordt er automatisch een transactiesjabloon gemaakt die aan de nieuwe gebeurtenis is gekoppeld. Wijzig en publiceer vervolgens de zojuist gemaakte sjabloon. Raadpleeg de sectie [De sjabloon bewerken](../../start/using/marketing-activity-templates.md) voor meer informatie.
 
@@ -81,7 +81,7 @@ Na het publiceren van de gebeurtenis wordt er automatisch een transactiesjabloon
 
 Na het maken en publiceren van de triggergebeurtenis, wordt de bijbehorende transactiesjabloon automatisch gemaakt. Raadpleeg de sectie [Een toegewezen trigger maken in Campaign](#creating-a-mapped-trigger-in-campaign) voor meer informatie.
 
-Als u wilt dat de gebeurtenis het verzenden van een transactiemelding activeert, moet u de sjabloon personaliseren, en dan testen en publiceren. Deze stappen zijn hetzelfde als voor een standaard transactiebericht. Voor meer op dit, verwijs naar [het Uitgeven van een transactiebericht](../../channels/using/editing-transactional-message.md) sectie.
+Als u wilt dat de gebeurtenis het verzenden van een transactiemelding activeert, moet u de sjabloon personaliseren, en dan testen en publiceren. Deze stappen zijn hetzelfde als voor een standaard transactiebericht. Raadpleeg voor meer informatie de [Een transactiebericht bewerken](../../channels/using/editing-transactional-message.md) sectie.
 
 >[!NOTE]
 >

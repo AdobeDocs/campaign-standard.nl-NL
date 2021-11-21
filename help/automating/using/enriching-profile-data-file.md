@@ -25,7 +25,7 @@ De workflow is als volgt geconfigureerd:
 ![](assets/enrichment_example_workflow.png)
 
 * A [Query](../../automating/using/query.md) activiteit die de profielen richt die het bericht zullen ontvangen.
-* Een [Bestandsbelasting](../../automating/using/load-file.md)-activiteit die de aankoopgegevens laadt. Bijvoorbeeld:
+* A [Bestand laden](../../automating/using/load-file.md) activiteit die de aankoopgegevens laadt. Bijvoorbeeld:
 
    ```
    tcode;tdate;customer;product;tamount
@@ -39,7 +39,7 @@ De workflow is als volgt geconfigureerd:
 
    In dit voorbeeldbestand gebruikt u het e-mailadres om de gegevens in overeenstemming te brengen met de databaseprofielen. U kunt ook unieke id’s inschakelen, zoals beschreven in [dit document](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
-* Een [Verrijking](../../automating/using/enrichment.md) activiteit die tot een verband tussen de transactiegegevens leidt die van het dossier worden geladen en de profielen die in **[!UICONTROL Query]** worden geselecteerd. De koppeling wordt gedefinieerd op het tabblad **[!UICONTROL Advanced relations]** van de activiteit. De koppeling is gebaseerd op de overgang die uit de activiteit **[!UICONTROL Load file]** komt. Het veld met de e-mail van de profielresource en de kolom met de klant van het geïmporteerde bestand worden gebruikt als afstemmingscriteria.
+* An [Verrijking](../../automating/using/enrichment.md) activiteit die tot een verbinding tussen de transactiegegevens leidt die van het dossier worden geladen en de profielen in **[!UICONTROL Query]**. De koppeling wordt gedefinieerd op het tabblad **[!UICONTROL Advanced relations]** van de activiteit. De koppeling is gebaseerd op de overgang die uit de activiteit **[!UICONTROL Load file]** komt. Het veld met de e-mail van de profielresource en de kolom met de klant van het geïmporteerde bestand worden gebruikt als afstemmingscriteria.
 
    ![](assets/enrichment_example_workflow2.png)
 
@@ -77,11 +77,11 @@ De workflow is als volgt geconfigureerd:
 
       ![](assets/enrichment_example_workflow9.png)
 
-* Een [Segmentatie](../../automating/using/segmentation.md) activiteit met slechts één segment, die profielen van het aanvankelijke doel terugwint die minstens twee geregistreerde transacties hebben. Profielen met slechts één transactie worden uitgesloten. Hiervoor wordt de query van de segmentatie gemaakt op het eerder gedefinieerde aggregaat.
+* A [Segmentering](../../automating/using/segmentation.md) activiteit met slechts één segment, dat profielen van het aanvankelijke doel terugwint die minstens twee geregistreerde transacties hebben. Profielen met slechts één transactie worden uitgesloten. Hiervoor wordt de query van de segmentatie gemaakt op het eerder gedefinieerde aggregaat.
 
    ![](assets/enrichment_example_workflow5.png)
 
-* Een [e-maillevering](../../automating/using/email-delivery.md) activiteit die de extra gegevens gebruikt in **[!UICONTROL Enrichment]** worden bepaald om de twee laatste aankopen dynamisch terug te winnen die door het profiel worden gemaakt. De aanvullende data bevinden zich in het knooppunt **Additional data (TargetData)** bij het toevoegen van een personalisatieveld.
+* An [E-maillevering](../../automating/using/email-delivery.md) activiteit die de extra gegevens gebruikt die in **[!UICONTROL Enrichment]** om de twee laatste aankopen die door het profiel zijn gedaan dynamisch op te halen. De aanvullende data bevinden zich in het knooppunt **Additional data (TargetData)** bij het toevoegen van een personalisatieveld.
 
    ![](assets/enrichment_example_workflow10.png)
 

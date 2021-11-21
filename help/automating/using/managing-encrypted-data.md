@@ -21,18 +21,18 @@ ht-degree: 5%
 
 In sommige gevallen moeten de gegevens die u wilt importeren, mogelijk worden gecodeerd, bijvoorbeeld als deze PII-gegevens bevatten.
 
-Om uitgaande gegevens te kunnen coderen of inkomende gegevens te decoderen, moet u GPG sleutels beheren gebruikend [Controlebord](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=nl).
+Als u uitgaande gegevens wilt coderen of binnenkomende gegevens wilt decoderen, moet u de GPG-sleutels beheren met de [Deelvenster Beheer](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=nl).
 
 >[!NOTE]
 >
->Het Configuratiescherm is beschikbaar voor alle klanten die op AWS worden gehost (behalve voor klanten die hun marketinginstanties op locatie hosten).
+>Het Configuratiescherm is beschikbaar voor alle klanten die op AWS worden gehost (met uitzondering van klanten die hun marketinginstanties op locatie hosten).
 
 Als u niet verkiest om Controlebord te gebruiken, moet u de Zorg van de Klant van Adobe contacteren zodat zij uw instantie van de noodzakelijke encryptie/decryptiebevelen voorzien. Hiertoe dient u een verzoek in met de volgende gegevens:
 
-* Het **label** dat in de interface van de Campagne zal tonen om het bevel te gebruiken. Bijvoorbeeld &quot;Bestand versleutelen&quot;.
-* De **opdracht** om op uw instantie te installeren.
+* De **label** die in de interface van de Campagne zal tonen om het bevel te gebruiken. Bijvoorbeeld &quot;Bestand versleutelen&quot;.
+* De **command** om op uw exemplaar te installeren.
 
-Zodra het verzoek wordt verwerkt, zullen de encryptie/decryptiebevelen op **[!UICONTROL Pre-processing stage]** gebied van **[!UICONTROL Load file]** en **[!UICONTROL Extract file]** activiteiten beschikbaar zijn. U kunt deze gebruiken om de bestanden te decoderen of te coderen die u wilt importeren of exporteren.
+Zodra het verzoek wordt verwerkt, zullen de encryptie/decryptopdrachten in beschikbaar zijn **[!UICONTROL Pre-processing stage]** veld van **[!UICONTROL Load file]** en **[!UICONTROL Extract file]** activiteiten. U kunt deze gebruiken om de bestanden te decoderen of te coderen die u wilt importeren of exporteren.
 
 ![](assets/preprocessing-encryption.png)
 
@@ -49,7 +49,7 @@ In dit geval kunt u een workflow maken om gegevens die in een extern systeem zij
 
 De volgende stappen worden uitgevoerd:
 
-1. Gebruik het Configuratiescherm om een sleutelpaar (openbaar/privé) te genereren. Gedetailleerde stappen zijn beschikbaar in [documentatie van het Configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
+1. Gebruik het Configuratiescherm om een sleutelpaar (openbaar/privé) te genereren. Gedetailleerde stappen zijn beschikbaar in [Documentatie van het regelpaneel](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data).
 
    * De openbare sleutel zal met het externe systeem worden gedeeld, dat het zal gebruiken om de gegevens te coderen om naar Campagne te verzenden.
    * De persoonlijke sleutel wordt door Campagne gebruikt om de inkomende gecodeerde gegevens te decoderen.
@@ -65,15 +65,15 @@ De volgende stappen worden uitgevoerd:
    * **[!UICONTROL Transfer file]** activiteit: Hiermee wordt het bestand van een externe bron naar Campagne overgedragen. In dit voorbeeld willen we het bestand overbrengen van een SFTP-server.
    * **[!UICONTROL Load file]** activiteit: Laadt de gegevens van het dossier in het gegevensbestand en decrypteert het gebruikend de privé sleutel die in het Controlebord wordt geproduceerd.
 
-1. Open de **[!UICONTROL Transfer file]** activiteit dan vorm het op uw behoeften. De globale concepten op hoe te om de activiteit te vormen zijn beschikbaar in [deze sectie](../../automating/using/load-file.md).
+1. Open de **[!UICONTROL Transfer file]** activiteit vormt dan het op uw behoeften. Globale concepten over hoe te om de activiteit te vormen zijn beschikbaar in [deze sectie](../../automating/using/load-file.md).
 
-   Geef op het tabblad **[!UICONTROL Protocol]** details op over de sftp-server en het gecodeerde gpg-bestand dat u wilt overbrengen.
+   In de **[!UICONTROL Protocol]** , geeft u gegevens op over de sftp-server en het gecodeerde gpg-bestand dat u wilt overbrengen.
 
    ![](assets/gpg_transfer.png)
 
-1. Open de **[!UICONTROL Load file]** activiteit, dan vorm het op uw behoeften. De globale concepten op hoe te om de activiteit te vormen zijn beschikbaar in [deze sectie](../../automating/using/load-file.md).
+1. Open de **[!UICONTROL Load file]** activiteit, dan vorm het op uw behoeften. Globale concepten over hoe te om de activiteit te vormen zijn beschikbaar in [deze sectie](../../automating/using/load-file.md).
 
-   Voeg een voorbewerkingsstadium aan de activiteit toe, om de inkomende gegevens te decrypteren. Selecteer hiertoe de optie **[!UICONTROL Decryption GPG]** in de lijst.
+   Voeg een voorbewerkingsstadium aan de activiteit toe, om de inkomende gegevens te decrypteren. Selecteer hiervoor de optie **[!UICONTROL Decryption GPG]** in de lijst.
 
    >[!NOTE]
    >
@@ -81,7 +81,7 @@ De volgende stappen worden uitgevoerd:
 
    ![](assets/gpg_load.png)
 
-1. Klik **[!UICONTROL OK]** om de activiteitenconfiguratie te bevestigen.
+1. Klikken **[!UICONTROL OK]** om de activiteitenconfiguratie te bevestigen.
 
 1. U kunt de workflow nu uitvoeren.
 
@@ -93,7 +93,7 @@ In dit geval, bouwt een werkschema om gegevens te coderen en uit te voeren gebru
 
 De volgende stappen worden uitgevoerd:
 
-1. Genereer een sleutelpaar van GPG (openbaar/privé) gebruikend een nut van GPG, dan installeer de openbare sleutel op Controlebord. Gedetailleerde stappen zijn beschikbaar in [documentatie van het Configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
+1. Genereer een sleutelpaar van GPG (openbaar/privé) gebruikend een nut van GPG, dan installeer de openbare sleutel op Controlebord. Gedetailleerde stappen zijn beschikbaar in [Documentatie van het regelpaneel](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data).
 
    ![](assets/gpg_install.png)
 
@@ -105,9 +105,9 @@ De volgende stappen worden uitgevoerd:
    * **[!UICONTROL Extract file]** activiteit: De gegevens worden gecodeerd en uitgepakt in een bestand.
    * **[!UICONTROL Transfer file]** activiteit: Hiermee wordt het bestand met de gecodeerde gegevens overgebracht naar een SFTP-server.
 
-1. Vorm **[!UICONTROL Query]** activiteit om de gewenste gegevens van het gegevensbestand te richten. Raadpleeg [deze sectie](../../automating/using/query.md) voor meer informatie.
+1. Configureer de **[!UICONTROL Query]** activiteit om de gewenste gegevens van het gegevensbestand te richten. Raadpleeg [deze sectie](../../automating/using/query.md) voor meer informatie.
 
-1. Open de **[!UICONTROL Extract file]** activiteit en configureer deze op basis van uw behoeften (uitvoerbestand, kolommen, indeling, enz.). De globale concepten op hoe te om de activiteit te vormen zijn beschikbaar in [deze sectie](../../automating/using/extract-file.md).
+1. Open de **[!UICONTROL Extract file]** Deze activiteit configureert deze vervolgens naar wens (uitvoerbestand, kolommen, indeling, enz.). Globale concepten over hoe te om de activiteit te vormen zijn beschikbaar in [deze sectie](../../automating/using/extract-file.md).
 
    Voeg een voorbewerkingsstadium aan de activiteit toe, om de gegevens te coderen om te halen. Selecteer hiertoe de GPG-sleutel voor versleuteling die u wilt gebruiken om de gegevens te versleutelen.
 
@@ -115,9 +115,9 @@ De volgende stappen worden uitgevoerd:
 
    >[!NOTE]
    >
-   >De waarde tussen haakjes is de **opmerking** die u hebt gedefinieerd toen u het sleutelpaar genereerde met uw GPG-coderingsgereedschap. Zorg ervoor dat u de juiste overeenkomende sleutel selecteert, anders kan de ontvanger het bestand niet decoderen.
+   >De waarde tussen haakjes is de waarde **opmerking** die u hebt gedefinieerd toen u het sleutelpaar genereerde met uw GPG-coderingsgereedschap. Zorg ervoor dat u de juiste overeenkomende sleutel selecteert, anders kan de ontvanger het bestand niet decoderen.
 
-1. Open de **[!UICONTROL Transfer file]** activiteit, dan specificeer de server SFTP waarnaar u het dossier wilt verzenden. De globale concepten op hoe te om de activiteit te vormen zijn beschikbaar in [deze sectie](../../automating/using/transfer-file.md).
+1. Open de **[!UICONTROL Transfer file]** en geeft u vervolgens de SFTP-server op waarnaar u het bestand wilt verzenden. Globale concepten over hoe te om de activiteit te vormen zijn beschikbaar in [deze sectie](../../automating/using/transfer-file.md).
 
    ![](assets/gpg-transfer-encrypt.png)
 
@@ -133,4 +133,4 @@ In deze video ziet u hoe u een GPG-sleutel gebruikt om gegevens te coderen.
 
 >[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
 
-Er zijn [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl) extra Campaign Standard hoe kan ik-video&#39;s beschikbaar.
+Er zijn aanvullende Campaign Standard-hoe-kan-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).

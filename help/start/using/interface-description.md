@@ -38,7 +38,7 @@ De startpagina bestaat uit een set kaarten waarmee u snel toegang hebt tot de be
 * Met de kaart **[!UICONTROL Create an SMS]** gaat u naar de assistent voor het maken van sms-berichten. Met behulp van deze assistent kiest u een sms-type, selecteert u berichtontvangers en definieert u de content. Raadpleeg de sectie [Een sms maken](../../channels/using/creating-an-sms-message.md).
 * Met de kaart **[!UICONTROL Create a Direct mail]** gaat u naar de assistent voor het maken van direct mail. Raadpleeg de sectie [Direct mail](../../channels/using/creating-the-direct-mail.md) maken.
 * Met de kaart **[!UICONTROL Create a push notification]** opent u de assistent voor het maken van meldingen. Met behulp van deze assistent kiest u een type pushmelding, selecteert u berichtontvangers en definieert u de content. Raadpleeg de sectie [Een pushmelding maken](../../channels/using/preparing-and-sending-a-push-notification.md).
-* Met de **[!UICONTROL Create an In-App message]**-kaart gaat u naar de ontwerpassistent in de app. Met deze assistent kunt u het type In-App-bericht selecteren dat u wilt maken, de eigenschappen, het publiek en de inhoud ervan definiëren. Raadpleeg de sectie [Een bericht in de app maken](../../channels/using/about-in-app-messaging.md).
+* De **[!UICONTROL Create an In-App message]** met de kaart gaat u naar de ontwerpassistent in de app. Met deze assistent kunt u het type In-App-bericht selecteren dat u wilt maken, de eigenschappen, het publiek en de inhoud ervan definiëren. Zie de [Een bericht in de app maken](../../channels/using/about-in-app-messaging.md) sectie.
 * Met de kaart **[!UICONTROL Marketing activities]** opent u de volledige lijst met alle activiteiten, programma&#39;s en campagnes, in het bijzonder e-mails, sms-berichten, workflows en landingspagina&#39;s. Vanaf hier kunt u de elementen filteren door te zoeken op naam, datum, status of type activiteit. Raadpleeg de sectie [Lijst met marketingactiviteiten](../../start/using/marketing-activities.md#about-marketing-activities) voor meer informatie.
 * Met de kaart **[!UICONTROL Programs & campaigns]** gaat u naar de lijst met programma&#39;s waarin u campagnes kunt maken en beheren. Raadpleeg de [Programmalijst](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
 * Met de kaart **[!UICONTROL Timeline]** gaat u rechtstreeks naar een interactieve tijdlijn van uw marketingactiviteiten, zodat u de lopende programma&#39;s en hun content kunt raadplegen. Zie [Tijdlijn](../../start/using/timeline.md).
@@ -51,38 +51,38 @@ De bovenste balk is zichtbaar op elk scherm en biedt u de mogelijkheid om door A
 
 De navigatieprincipes:
 
-* Met het **Adobe**-logo in de linkerbovenhoek van de pagina hebt u toegang tot de geavanceerde mogelijkheden en configuraties. De menu&#39;s zijn afhankelijk van uw profiel en machtigingen.
+* De **Adobe** in de linkerbovenhoek van de pagina biedt u toegang tot de geavanceerde mogelijkheden en configuraties. De menu&#39;s zijn afhankelijk van uw profiel en machtigingen.
 
    Het geavanceerde menu wordt beschreven in de sectie [Geavanceerd menu](#advanced-menu).
 
 * Met de koppeling **[!UICONTROL Home]** kunt u de startpagina van Adobe Campaign weergeven.
 * Met de koppelingen **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** en **[!UICONTROL Reports]** hebt u toegang tot de weergaven die aan deze functies zijn gekoppeld.
-* Met het pictogram **Oplossingsschakelaar** kunt u schakelen tussen uw organisaties of naar een andere toepassing.
-* Het pictogram **[!UICONTROL Help]** wordt [onder](#help) beschreven.
+* De **Oplossingsschakelaar** kunt u schakelen tussen uw organisaties of naar een andere toepassing.
+* De **[!UICONTROL Help]** pictogram wordt beschreven [onder](#help).
 * Het pictogram **Notifications** geeft de meest recente waarschuwingen of informatie weer.
-* Met het pictogram **User** kunt u aan uw profiel gekoppelde informatie weergeven. Gebruik dit pictogram als u **[!UICONTROL Sign out]** moet.
+* Met het pictogram **User** kunt u aan uw profiel gekoppelde informatie weergeven. Gebruik dit pictogram als u **[!UICONTROL Sign out]**.
 
 ### Help {#help}
 
-In de rechterbovenhoek brengt het pictogram **Help** Adobe Experience League in het product.
+In de rechterbovenhoek **Help** -pictogram plaatst Adobe Experience League in het product.
 
 ![](assets/ux_help.png)
 
-Gebruik het veld **[!UICONTROL Search]** voor hulp. Zoekresultaten zijn onder andere documentatie en Help-artikelen, resultaten van communityforums en video-inhoud, waardoor u gemakkelijker toegang hebt tot meer inhoud om optimaal gebruik te maken van de toepassing.
+Gebruik de **[!UICONTROL Search]** voor hulp. Zoekresultaten zijn onder andere documentatie en Help-artikelen, resultaten van communityforums en video-inhoud, waardoor u gemakkelijker toegang hebt tot meer inhoud om optimaal gebruik te maken van de toepassing.
 
 Met drie tabbladen kunt u hulp en hulp zoeken:
 
-1. Het tabblad **[!UICONTROL Help]** bevat:
+1. De **[!UICONTROL Help]** bevat:
    * een snelle toegang tot Adobe Campaign Standard-documentatie met contextafhankelijke koppelingen.
-   * een **[!UICONTROL Learning]**-koppeling waarmee u toegang krijgt tot de Adobe Campaign-cursusbibliotheek.
-   * a **[!UICONTROL Community]** verbinding om tot het forum toegang te hebben dat aan uw vragen over Campagne wordt gewijd.
-   * rechtstreekse toegang tot: Help Center, Customer Care, Experience Cloud product status, Developers connection, Release Notes, Release Planning en het **[!UICONTROL About]** scherm.
-1. Op het tabblad **[!UICONTROL Support]** kunt u een ondersteuningscase openen en telefonisch of Twitter contact met ons opnemen.
-1. Met de tab **[!UICONTROL Feedback]** kunt u gemakkelijker problemen melden of uw ideeën delen.
+   * a **[!UICONTROL Learning]** koppeling waarmee u toegang kunt krijgen tot de Adobe Campaign-cursusbibliotheek.
+   * a **[!UICONTROL Community]** link naar het forum dat gewijd is aan uw vragen over Campagne.
+   * rechtstreekse toegang tot: Help Center, Customer Care, Experience Cloud product status, Developers Connection, Release Notes, Release Planning en de **[!UICONTROL About]** scherm.
+1. De **[!UICONTROL Support]** kunt u een ondersteuningskwestie openen en telefonisch contact met ons opnemen.
+1. De **[!UICONTROL Feedback]**  kunt u gemakkelijker problemen melden of uw ideeën delen.
 
 ## Het menu Advanced {#advanced-menu}
 
-Het geavanceerde menu wordt weergegeven door op het pictogram **Adobe Campaign** te klikken, in de linkerbovenhoek van elk scherm. Het geavanceerde menu kan variëren afhankelijk van uw contract en gebruikersmachtigingen.
+Het geavanceerde menu wordt weergegeven door op de knop **Adobe Campaign** in de linkerbovenhoek van elk scherm. Het geavanceerde menu kan variëren afhankelijk van uw contract en gebruikersmachtigingen.
 
 In dit menu kunt u naar specifieke functies en instellingen navigeren.
 

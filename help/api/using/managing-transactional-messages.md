@@ -21,12 +21,12 @@ Nadat u een transactiegebeurtenis hebt gemaakt en gepubliceerd, moet u het activ
 
 >[!NOTE]
 >
->De gebeurtenisconfiguratie wordt gedetailleerd in [deze sectie](../../channels/using/configuring-transactional-event.md).
+>De gebeurtenisconfiguratie wordt gedetailleerd weergegeven in [deze sectie](../../channels/using/configuring-transactional-event.md).
 
 U wilt bijvoorbeeld dat de gebeurtenis &#39;Afkappen met winkelwagentje&#39; wordt geactiveerd wanneer een van uw klanten uw website verlaat voordat ze de producten in hun winkelwagentje kopen. Om dit te doen, als Webontwikkelaar, moet u de REST Transactionele Berichten API gebruiken.
 
-1. Verzend een verzoek volgens de methode van de POST, die [het verzenden van de transactiegebeurtenis ](#sending-a-transactional-event) teweegbrengt.
-1. Het antwoord op het verzoek van de POST bevat een Primaire Sleutel, die u toestaat om één of veelvoudige verzoeken door een verzoek van de GET te verzenden. U kunt dan de [gebeurtenisstatus](#transactional-event-status) verkrijgen.
+1. Verzend een verzoek volgens de methode van de POST, die het [verzenden van de transactiegebeurtenis](#sending-a-transactional-event).
+1. Het antwoord op het verzoek van de POST bevat een Primaire Sleutel, die u toestaat om één of veelvoudige verzoeken door een verzoek van de GET te verzenden. U kunt dan de [status van gebeurtenis](#transactional-event-status).
 
 ## Een transactiegebeurtenis verzenden {#sending-a-transactional-event}
 
@@ -52,7 +52,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 Het verzoek moet een &quot;Content-Type: application/json&quot;.
 
-U moet een tekenset toevoegen, bijvoorbeeld **utf-8**. Deze waarde is afhankelijk van de REST-toepassing die u gebruikt.
+U moet bijvoorbeeld een tekenset toevoegen **utf-8**. Deze waarde is afhankelijk van de REST-toepassing die u gebruikt.
 
 ```
 -X POST \
@@ -69,8 +69,8 @@ De gebeurtenisgegevens bevinden zich in de hoofdtekst van de JSON-POST. De gebeu
 
 De volgende optionele parameters kunnen aan de inhoud van de gebeurtenis worden toegevoegd om het verzenden van aan de gebeurtenis gekoppelde transactieberichten te beheren:
 
-* **Vervaldatum**  (optioneel): na deze datum wordt het verzenden van de transactiegebeurtenis geannuleerd.
-* **Gepland**  (optioneel): vanaf deze datum wordt de transactie - gebeurtenis verwerkt en wordt het transactiemelding verzonden .
+* **vervaldatum** (optioneel): na deze datum wordt het verzenden van de transactiegebeurtenis geannuleerd.
+* **gepland** (optioneel): vanaf deze datum wordt de transactie - gebeurtenis verwerkt en wordt het transactiemelding verzonden .
 
 >[!NOTE]
 >
@@ -134,12 +134,12 @@ Antwoord op het verzoek van de POST.
 
 In het antwoord kunt u met het veld status weten of de gebeurtenis is verwerkt:
 
-* **in behandeling**: de gebeurtenis is in behandeling - de gebeurtenis neemt deze status over wanneer deze zojuist is geactiveerd.
+* **hangend**: de gebeurtenis is in behandeling - de gebeurtenis neemt deze status over wanneer deze zojuist is geactiveerd.
 * **verwerking**: de gebeurtenis is in afwachting van levering - het wordt omgezet in een bericht en het bericht wordt verzonden.
 * **gepauzeerd**: het gebeurtenisproces wordt gepauzeerd. Het wordt niet meer verwerkt, maar in een rij in het gegevensbestand van Adobe Campaign bewaard. Raadpleeg [deze sectie](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication) voor meer informatie.
 * **verwerkt**: de gebeurtenis is verwerkt en het bericht is verzonden.
 * **genegeerd**: de gebeurtenis werd genegeerd door de levering, typisch wanneer een adres in quarantaine is.
 * **deliveryFailed**: Er is een leveringsfout opgetreden tijdens de verwerking van de gebeurtenis.
 * **routingFailed**: de verpletterende mislukte fase - dit kan bijvoorbeeld voorkomen wanneer het gespecificeerde type van gebeurtenis niet kan worden gevonden.
-* **teOud**: de gebeurtenis is verlopen voordat deze kon worden verwerkt - dit kan om verschillende redenen gebeuren, bijvoorbeeld wanneer een verzending meerdere keren mislukt (dit leidt ertoe dat de gebeurtenis niet meer up-to-date is) of wanneer de server gebeurtenissen niet meer kan verwerken na het overladen.
-* **targetFailed**: Campaign Standard kon geen verbinding verrijken die voor bericht het richten wordt gebruikt.
+* **tooOld**: de gebeurtenis is verlopen voordat deze kon worden verwerkt - dit kan om verschillende redenen gebeuren, bijvoorbeeld wanneer een verzending meerdere keren mislukt (dit leidt ertoe dat de gebeurtenis niet meer up-to-date is) of wanneer de server gebeurtenissen niet meer kan verwerken na het overladen.
+* **targetingFailed**: Campaign Standard kon geen verbinding verrijken die voor bericht het richten wordt gebruikt.

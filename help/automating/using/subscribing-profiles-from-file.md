@@ -24,7 +24,7 @@ De workflow wordt als volgt weergegeven:
 
 ![](assets/subscription_activity_example1.png)
 
-* Met een activiteit [Bestand laden](../../automating/using/load-file.md) wordt het profielbestand geladen en wordt de structuur van de geïmporteerde kolommen gedefinieerd.
+* A [Bestand laden](../../automating/using/load-file.md) Deze activiteit laadt het profieldossier en bepaalt de structuur van de ingevoerde kolommen.
 
    In dit voorbeeld heeft het geladen bestand de csv-indeling en bevat het de volgende data:
 
@@ -43,14 +43,14 @@ De workflow wordt als volgt weergegeven:
 
    ![](assets/subscription_activity_example2.png)
 
-* Een [Afstemming](../../automating/using/reconciliation.md)-activiteit identificeert de gegevens uit het bestand als behorend tot de profieldimensie van de Adobe Campaign-database. Alleen het tabblad **[!UICONTROL Identification]** is geconfigureerd. De bestandsdata worden geïdentificeerd aan de hand van de e-mailadressen van de profielen.
+* A [Verzoening](../../automating/using/reconciliation.md) de activiteit identificeert de gegevens van het dossier als deel uitmakend van de profieldimensie van het gegevensbestand van Adobe Campaign. Alleen het tabblad **[!UICONTROL Identification]** is geconfigureerd. De bestandsdata worden geïdentificeerd aan de hand van de e-mailadressen van de profielen.
 
    ![](assets/subscription_activity_example3.png)
 
-* Een [Deduplicatie](../../automating/using/deduplication.md) gebaseerd op het **email** veld van de tijdelijke bron (resulterend uit de afstemming) identificeert eventuele duplicaten. Als de data die uit het bestand zijn geïmporteerd, duplicaten bevatten, mislukt de inschrijving op een service voor alle data.
+* A [Deduplicatie](../../automating/using/deduplication.md) op basis van de **email** in het veld van de tijdelijke bron (die voortvloeit uit de afstemming) worden eventuele duplicaten geïdentificeerd. Als de data die uit het bestand zijn geïmporteerd, duplicaten bevatten, mislukt de inschrijving op een service voor alle data.
 
    ![](assets/subscription_activity_example5.png)
 
-* Met de activiteit [Subscription Services](../../automating/using/subscription-services.md) kunt u de service selecteren waarop u een abonnement wilt nemen op de profielen, het veld dat overeenkomt met de abonnementsdatum en de oorsprong van het abonnement.
+* A [Abonnementsservices](../../automating/using/subscription-services.md) Met deze activiteit kunt u de service selecteren waarop de profielen moeten worden geabonneerd, het veld dat overeenkomt met de abonnementsdatum en de oorsprong van het abonnement.
 
    ![](assets/subscription_activity_example4.png)

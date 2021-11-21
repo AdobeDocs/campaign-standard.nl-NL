@@ -23,13 +23,13 @@ In dit voorbeeld wordt elke eerste dag van de maand om 21.00 uur een persoonlijk
 
 Voer de volgende stappen uit om de workflow te maken:
 
-1. Met de [Scheduler](../../automating/using/scheduler.md)-activiteit kunt u de workflowdagen voor het begin van de levering starten en het bericht naar elke abonnee om 20:00 uur in een bepaalde tijdzone verzenden:
+1. De [Planner](../../automating/using/scheduler.md) de activiteit staat u toe om de werkschemadagen vóór het begin van de levering te beginnen om het bericht aan elke abonnee te kunnen verzenden om 8 pm in om het even welke bepaalde tijdzone:
 
-   * Selecteer Maandelijks in het veld **[!UICONTROL Execution frequency]**.
-   * Selecteer 8 pm in het **[!UICONTROL Time]** gebied.
+   * In de **[!UICONTROL Execution frequency]** veld, selecteert u Maandelijks.
+   * Selecteer 8 pm in de **[!UICONTROL Time]** veld.
    * Kies op welke dag de levering elke maand wordt verzonden.
    * Selecteer een begindatum voor de workflow, ten minste één dag voor het begin van de levering. Anders, zouden sommige ontvangers het bericht een dag later kunnen ontvangen als de geselecteerde tijd reeds in hun tijdzones is overgegaan.
-   * Selecteer op het tabblad **[!UICONTROL Execution options]** in welk tijdzone uw workflow begint in het veld **[!UICONTROL Time zone]**. Hier begint de workflow bijvoorbeeld om 20.00 uur Stille-Oceaantijd, één week voor de eerste dag van de maand, zodat er enige tijd is om de leveringen voor alle toepasselijke tijdzones te maken.
+   * In de **[!UICONTROL Execution options]** -tabblad selecteert u in welke tijdzone uw workflow begint in het dialoogvenster **[!UICONTROL Time zone]** veld. Hier begint de workflow bijvoorbeeld om 20.00 uur Stille-Oceaantijd, één week voor de eerste dag van de maand, zodat er enige tijd is om de leveringen voor alle toepasselijke tijdzones te maken.
 
    >[!NOTE]
    >
@@ -37,21 +37,21 @@ Voer de volgende stappen uit om de workflow te maken:
 
    ![](assets/wkf_push_example_5.png)
 
-1. Met de activiteit [Query](../../automating/using/query.md) kunt u zich richten op uw VIP klanten tussen 20 en 30 jaar die zich hebben geabonneerd op uw mobiele toepassing en die de door u verzonden e-mail niet hebben geopend:
+1. De [Query](../../automating/using/query.md) Met activiteit kunt u zich richten op uw VIP klanten tussen de 20 en 30 jaar oud die zich op uw mobiele toepassing hebben geabonneerd en die het door u verzonden e-mailbericht niet hebben geopend:
 
    * Selecteer een publiek (uw VIP klanten) en filter op hun leeftijd.
-   * Sleep **Abonnementen aan een toepassing** element in de werkruimte. Selecteer **Bestaat** en selecteer de mobiele toepassing die u wilt gebruiken.
+   * Sleep de **Abonnementen op een toepassing** in de werkruimte. Selecteren **Exists** en selecteer de mobiele toepassing die u wilt gebruiken.
    * Selecteer het e-mailbericht dat u naar uw klanten hebt verzonden.
-   * Sleep het element **Leveringslogboeken (logs)** naar de werkruimte en selecteer **Bestaat** om alle klanten aan te wijzen die de e-mail hebben ontvangen.
-   * Sleep het element **Logbestanden bijhouden (bijhouden)** naar de werkruimte en selecteer **Bestaat niet?** om alle klanten aan te wijzen die het e-mailbericht niet hebben geopend.
+   * Sleep de **Leveringslogboeken (logboeken)** -element in de werkruimte en selecteer **Exists** om zich te richten op alle klanten die het e-mailbericht hebben ontvangen.
+   * Sleep de **Logbestanden bijhouden (bijhouden)** -element in de werkruimte en selecteer **Is niet bestaand** om zich te richten op alle klanten die het e-mailbericht niet hebben geopend.
 
       ![](assets/wkf_push_example_2.png)
 
-1. Met de activiteit [Push notification delivery](../../automating/using/push-notification-delivery.md) kunt u de inhoud van uw bericht invoeren en de velden voor personalisatie selecteren die u wilt gebruiken:
+1. De [Levering pushmelding](../../automating/using/push-notification-delivery.md) Met activiteit kunt u de inhoud van uw bericht invoeren en de velden voor personalisatie selecteren die u wilt gebruiken:
 
-   * Selecteer de optie **[!UICONTROL Recurring notification]**.
-   * Definieer de inhoud van het pushbericht. Raadpleeg deze [sectie](../../channels/using/preparing-and-sending-a-push-notification.md) voor meer informatie over de inhoud van pushberichten.
-   * Selecteer **[!UICONTROL Messages to be sent automatically on the time zone specified below]** in het blok **[!UICONTROL Schedule]**. Hier, kozen wij **[!UICONTROL Time zone of the contact date]** Stille Oceaan zoals in het werkschema **[!UICONTROL Scheduler]**.
+   * Selecteer **[!UICONTROL Recurring notification]** optie.
+   * Definieer de inhoud van het pushbericht. Raadpleeg deze voor meer informatie over inhoud van pushberichten [sectie](../../channels/using/preparing-and-sending-a-push-notification.md).
+   * In de **[!UICONTROL Schedule]** blok, selecteren **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. Hier hebben we de **[!UICONTROL Time zone of the contact date]** Stille Oceaan zoals in de workflow **[!UICONTROL Scheduler]**.
    * Selecteer in het veld **[!UICONTROL Optimize the sending time per recipient]** de optie **[!UICONTROL Send at the recipient's time zone]**.
 
       ![](assets/wkf_push_example_4.png)
@@ -60,4 +60,4 @@ Voer de volgende stappen uit om de workflow te maken:
 
    ![](assets/wkf_push_example_3.png)
 
-Uw workflow is nu actief. Het zal bij de gekozen begindatum van **[!UICONTROL Scheduler]** om 22:00 uur Pacific tijd beginnen, zal de terugkomende duw dan elke eerste dag van de maand om 20:00 uur afhankelijk van de klantentijdzone worden verzonden.
+Uw workflow is nu actief. Het begint op de gekozen begindatum van de **[!UICONTROL Scheduler]** om 22:00 uur Pacific time zal de terugkerende push vervolgens elke eerste dag van de maand om 23.00 uur worden verzonden, afhankelijk van de tijdzone van de klant.

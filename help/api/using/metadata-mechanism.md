@@ -17,13 +17,13 @@ ht-degree: 1%
 
 # Metadatamechanisme {#metadata-mechanism}
 
-U kunt de middelmeta-gegevens terugwinnen gebruikend **resourceType** in een verzoek van de GET:
+U kunt de metagegevens van de bronnen ophalen met **resourceType** in een GET-verzoek:
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
 De reactie retourneert de hoofdmetagegevens van de bron (alle andere velden zijn beschrijvend of intern):
 
-* Het knooppunt **Content** retourneert de velden van de bron. Voor elk gebied in **content** knoop, kunnen wij de volgende gebieden vinden:
+* De **Inhoud** de knoop keert de gebieden van het middel terug. Voor elk veld in het veld **content** knooppunten, kunnen wij de volgende gebieden vinden:
 
    * &quot;apiName&quot;: naam van het kenmerk dat in de API&#39;s wordt gebruikt.
    * &quot;type&quot;: Dit is de typedefinitie op hoog niveau (tekenreeks, nummer, koppeling, verzameling, opsomming...).
@@ -32,9 +32,9 @@ De reactie retourneert de hoofdmetagegevens van de bron (alle andere velden zijn
    * &quot;resType&quot;: dit is het technische type.
 
       Als &quot;type&quot;met de waarde &quot;verbinding&quot;of &quot;inzameling&quot;wordt voltooid, is de resTarget waarde de naam van het middel dat door de verbinding wordt gericht.
-Als &quot;type&quot;met de waarde &quot;opsomming&quot;wordt voltooid, wordt een gebied &quot;waarden&quot;toegevoegd en elke opsommingswaarde is gedetailleerd in **values** knoop.
+Als &quot;type&quot; is ingevuld met de waarde &quot;enumeration&quot;, wordt een veld &quot;values&quot; toegevoegd en wordt elke opsommingswaarde in het veld **waarden** knooppunt.
 
-* De **Filters** knoop keert URL terug om de bijbehorende filters terug te winnen. Zie [deze sectie](../../api/using/filtering.md) sectie voor meer informatie over filters.
+* De **Filters** de knoop keert URL terug om de bijbehorende filters terug te winnen. Zie voor meer informatie over filters [deze sectie](../../api/using/filtering.md) sectie.
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N

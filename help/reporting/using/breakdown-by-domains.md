@@ -22,19 +22,19 @@ Dit rapport bevat de prestatiegegevens voor elk domein dat in het publiek voor e
 
 ![](assets/delivery_reports_6.png)
 
-De lijst **Cijfers van de Uitzending** bevat de beschikbare gegevens voor mogelijke fouten die met elk domein worden ontmoet, zoals:
+De tabel **Uitzendstatistieken** bevat de beschikbare gegevens voor mogelijke fouten die met elk domein worden aangetroffen, zoals:
 
 * **Verwerkt/verzonden**: Het aantal verzonden e-mailberichten.
-* **Afgeleverd**: Het aantal geleverde e-mails.
-* **Stuiterwaarden + fouten**: Het aantal berichten dat niet kon worden geleverd.
+* **Geleverd**: Het aantal geleverde e-mails.
+* **Bounces + fouten**: Het aantal berichten dat niet kon worden geleverd.
 * **Hard stuiteren**: Het totale aantal permanente fouten, zoals een onjuist e-mailadres.
-* **Zacht stuiteren**: Het totale aantal tijdelijke fouten, zoals een volledig postvak.
+* **Zachte stuit**: Het totale aantal tijdelijke fouten, zoals een volledig postvak.
 
-De tweede lijst, **Tracking statistics**, bevat de beschikbare gegevens voor ontvankelijke reactiviteit aan levering, zoals:
+De tweede tabel, **Trackingstatistieken** bevat de beschikbare gegevens voor de reactiviteit van de ontvanger tot de levering, zoals:
 
-* **Afgeleverd**: Het aantal geleverde e-mails
+* **Geleverd**: Het aantal geleverde e-mails
 * **Openen**: Het aantal keren dat een bericht in een levering werd geopend.
-* **Klik**: Het aantal keren dat op inhoud is geklikt in een levering.
+* **Klikken**: Het aantal keren dat op inhoud is geklikt in een levering.
 * **Abonnement opgezegd**: Het aantal klikken op de abonnementkoppeling.
-* **Pagina** spiegelen: Het aantal klikken op de koppeling van de spiegelpagina.
-* **Bij lijst van gewezen personen**: Het aantal ontvangers dat een e-mail heeft gedeclareerd als spam of junk. [Meer informatie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* **Pagina spiegelen**: Het aantal klikken op de koppeling van de spiegelpagina.
+* **Op lijst van gewezen personen**: Het aantal ontvangers dat een e-mail heeft gedeclareerd als spam of junk. [Meer informatie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

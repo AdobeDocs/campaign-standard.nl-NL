@@ -17,9 +17,9 @@ ht-degree: 2%
 
 # Een signaalactiviteit activeren {#triggering-a-signal-activity}
 
-In een Adobe Campaign Standard-workflow kunnen een of meer **Externe signaalactiviteiten** plaatsvinden. Deze activiteiten zijn &#39;listeners&#39; die wachten op activering.
+In een Adobe Campaign Standard-workflow kunnen er een of meer **Extern signaal** activiteiten. Deze activiteiten zijn &#39;listeners&#39; die wachten op activering.
 
-Met Campaign Standard API&#39;s kunt u een **Externe signaalactiviteit** activeren om een workflow aan te roepen. De API-aanroep kan parameters bevatten die worden opgenomen in de gebeurtenisvariabelen van de workflow (een doelnaam, een bestandsnaam die moet worden geïmporteerd, een deel van de berichtinhoud, enz.). Op deze manier kunt u uw campagneautomatisering eenvoudig integreren met uw externe systeem.
+Met Campaign Standard-API&#39;s kunt u een **Extern signaal** activiteit om een werkschema te roepen. De API-aanroep kan parameters bevatten die worden opgenomen in de gebeurtenisvariabelen van de workflow (een doelnaam, een bestandsnaam die moet worden geïmporteerd, een deel van de berichtinhoud, enz.). Op deze manier kunt u uw campagneautomatisering eenvoudig integreren met uw externe systeem.
 
 >[!NOTE]
 >
@@ -27,13 +27,13 @@ Met Campaign Standard API&#39;s kunt u een **Externe signaalactiviteit** activer
 
 Volg onderstaande stappen om een workflow te activeren:
 
-1. Voer een **GET** verzoek op het werkschema uit om de Externe trekker URL van de signaalactiviteit terug te winnen.
+1. Een **GET** verzoek op het werkschema om de Externe trekker van de signaalactiviteit terug te winnen URL.
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. Voer een **POST** verzoek op teruggekeerde URL uit om de signaalactiviteit, met de **&quot;bron&quot;** parameter in de nuttige lading teweeg te brengen. Dit kenmerk is verplicht, zodat u de activerende aanvraagbron kunt aangeven.
+1. Een **POST** verzoek op teruggekeerde URL om de signaalactiviteit, met te teweegbrengen **&quot;bron&quot;** parameter in de payload. Dit kenmerk is verplicht, zodat u de activerende aanvraagbron kunt aangeven.
 
-Als u de werkstroom met parameters wilt roepen, voeg hen in de nuttige lading met **&quot;parameters&quot;** attributen toe. De syntaxis bestaat uit de naam van de parameter gevolgd door de waarde (de volgende typen worden ondersteund: **string**, **number**, **boolean** en **date/time**).
+Als u de workflow met parameters wilt aanroepen, voegt u deze samen met de **&quot;parameters&quot;** kenmerk. De syntaxis bestaat uit de naam van de parameter gevolgd door de waarde (de volgende typen worden ondersteund: **string**, **getal**, **boolean** en **datum/tijd**).
 
 ```
   -X POST <TRIGGER_URL>
@@ -56,7 +56,7 @@ Als u de werkstroom met parameters wilt roepen, voeg hen in de nuttige lading me
 
 >[!NOTE]
 >
->Wanneer u een parameter toevoegt aan de lading, moet u ervoor zorgen dat de waarden **name** en **type** consistent zijn met de gegevens die worden gedeclareerd in de activiteit Extern signaal. Bovendien mag de omvang van de lading niet groter zijn dan 64 Ko.
+>Wanneer u een parameter aan de lading toevoegt, moet u ervoor zorgen dat de parameter **name** en **type** De waarden zijn consistent met de informatie die in de externe signaalactiviteit wordt gedeclareerd. Bovendien mag de omvang van de lading niet groter zijn dan 64 Ko.
 
 <br/>
 

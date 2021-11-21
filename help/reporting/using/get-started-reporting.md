@@ -32,9 +32,9 @@ De dynamische Rapportering verstrekt volledig klantgerichte en real-time rapport
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Met Dynamische rapportering **belemmering-en-dalingsinterface**, kunt u gegevens onderzoeken, bepalen hoe uw e-mailcampagnes tegen uw belangrijkste klantensegmenten uitvoerden en hun effect op ontvangers van één enkele plaats meten.
+Met dynamische rapportage **interface voor slepen en neerzetten**, kunt u gegevens onderzoeken, bepalen hoe uw e-mailcampagnes tegen uw belangrijkste klantensegmenten werden uitgevoerd en hun effect op ontvangers van één enkele plaats meten.
 
-**Beheer uw dynamische** rapporten dankzij verschillende functies: Vernieuw de gegevens in real time, druk uw rapporten, of voer hen als Csv- dossiers uit. U kunt uw rapporten ook delen met gebruikers van de Campaign Standard door middel van eenmalige of terugkerende e-mails.
+**Dynamische rapporten beheren** dankzij verschillende functies : Vernieuw de gegevens in real time, druk uw rapporten, of voer hen als Csv- dossiers uit. U kunt uw rapporten ook delen met gebruikers van de Campaign Standard door middel van eenmalige of terugkerende e-mails.
 
 Meer informatie:
 
@@ -45,9 +45,9 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standard wordt geleverd met een set van **gebruiksklare dynamische rapporten** waarmee u meerdere aspecten van uw marketingcampagnes kunt meten: Stommen, leveringen die het meest als spam of junk zijn gedeclareerd, de meeste bekeken leveringen door ontvangers, zendergerelateerde rapporten, leveringstijd en trackingrapporten..
+Campaign Standard wordt geleverd met een set **gebruiksklare dynamische rapporten** waarmee u meerdere aspecten van uw marketingcampagnes kunt meten: Stommen, leveringen die het meest als spam of junk zijn gedeclareerd, de meeste bekeken leveringen door ontvangers, zendergerelateerde rapporten, leveringstijd en trackingrapporten..
 
-**Combineer verschillende componenten**  (dimensies, metriek en segmenten, tijdsperioden) om uw eigen rapporten te bouwen of verpersoonlijking out-of-the-box rapporten.
+**Verschillende componenten combineren** (afmetingen, metriek en segmenten, tijdsperiodes) om uw eigen rapporten te bouwen of out-of-the-box rapporten te personaliseren.
 
 Meer informatie:
 
@@ -59,11 +59,11 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**Pas uw** rapporten aan door de mogelijkheden voor dynamisch ontwerpen van rapporten te benutten: U kunt zoveel componenten toevoegen als u nodig hebt (deelvensters en vrije-vormtabellen) om uw gegevens te analyseren met de beschikbare metrische waarde en afmetingen.
+**Uw rapporten aanpassen** door mogelijkheden voor dynamische rapportering te benutten: U kunt zoveel componenten toevoegen als u nodig hebt (deelvensters en vrije-vormtabellen) om uw gegevens te analyseren met de beschikbare metrische waarde en afmetingen.
 
-Sleep **visualisatiepunten** om grafische vertegenwoordiging van uw gegevens in uw rapporten toe te voegen en hen te vormen volgens uw behoeften.
+Slepen en neerzetten **visualisatie-items** om grafische vertegenwoordiging van uw gegevens in uw rapporten toe te voegen en hen te vormen volgens uw behoeften.
 
-Maak rapporten op basis van **aangepaste profielgegevens** die zijn gemaakt tijdens de profielbronnenextensie en **rapporten op basis van segmenten** die zijn gedefinieerd voor workflows als doel.
+Rapporten maken op basis van **aangepaste profielgegevens** gemaakt tijdens de profielbronextensie, en **rapporten op basis van segmenten** gedefinieerd voor workflows die als doel zijn.
 
 Meer informatie:
 
@@ -84,4 +84,4 @@ Deze video biedt een overzicht van de rapportagemogelijkheden van Adobe Campaign
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
-Er zijn [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl) extra Campaign Standard hoe kan ik-video&#39;s beschikbaar.
+Er zijn aanvullende Campaign Standard-hoe-kan-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).

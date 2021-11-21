@@ -25,9 +25,9 @@ U kunt een koppeling invoegen in elk pagina-element: afbeelding, woord, groep wo
 
 >[!NOTE]
 >
->In de onderstaande afbeeldingen ziet u hoe u een koppeling invoegt met de [e-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md) in een e-mail.
+>In de onderstaande afbeeldingen ziet u hoe u een koppeling invoegt met de [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md) in een e-mail.
 
-1. Selecteer een element en klik **[!UICONTROL Insert link]** van de contextafhankelijke toolbar.
+1. Selecteer een element en klik op **[!UICONTROL Insert link]** in de contextuele werkbalk.
 
    ![](assets/des_insert_link.png)
 
@@ -38,9 +38,9 @@ U kunt een koppeling invoegen in elk pagina-element: afbeelding, woord, groep wo
       U kunt personalisatie voor uw URLs bepalen. Zie [URL&#39;s aanpassen](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
    * **Openingspagina**: toegang geven tot een Adobe Campaign-landingspagina.
-   * **Koppeling** met abonnement: voeg een koppeling in om u te abonneren op een Adobe Campaign-service.
-   * **Koppeling** voor abonnement opzeggen: voeg een koppeling in om uw abonnement op een Adobe Campaign-service op te zeggen.
-   * **Koppeling die een handeling** definieert: definieert een actie wanneer op een element in de landingspagina wordt geklikt.
+   * **Koppeling naar abonnement**: voeg een koppeling in om u te abonneren op een Adobe Campaign-service.
+   * **Koppeling met abonnement opheffen**: voeg een koppeling in om uw abonnement op een Adobe Campaign-service op te zeggen.
+   * **Koppeling die een handeling definieert**: definieert een actie wanneer op een element in de landingspagina wordt geklikt.
 
       >[!NOTE]
       >
@@ -59,13 +59,13 @@ Nadat de koppeling is gemaakt, kunt u deze nog steeds wijzigen in het deelvenste
 
 ![](assets/des_link_edit.png)
 
-Wanneer u een e-mailbericht bewerkt met de [e-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md), kunt u eenvoudig de koppelingen openen en wijzigen die u hebt gemaakt in de tabel met alle URL&#39;s die in het e-mailbericht zijn opgenomen. In deze lijst kunt u een gecentraliseerde weergave gebruiken en elke URL in de e-mailinhoud opzoeken. Zie [Informatie over bijgehouden URL&#39;s](#about-tracked-urls) voor toegang tot deze URL.
+Wanneer u een e-mailbericht bewerkt met de [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md)U kunt gemakkelijk de koppelingen openen en wijzigen die u hebt gemaakt in de tabel met alle URL&#39;s die in de e-mail zijn opgenomen. In deze lijst kunt u een gecentraliseerde weergave gebruiken en elke URL in de e-mailinhoud opzoeken. Ga voor toegang tot de pagina naar [Bijgehouden URL&#39;s](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
 >[!NOTE]
 >
->Persoonlijke URL&#39;s, zoals de koppeling **Pagina-URL spiegelen** of **Abonnement** kan niet worden gewijzigd in deze lijst. Alle andere koppelingen kunnen worden bewerkt.
+>Persoonlijke URL&#39;s, zoals **URL van pagina spiegelen** of **Abonnement opzeggen** koppeling kan niet in deze lijst worden gewijzigd. Alle andere koppelingen kunnen worden bewerkt.
 
 **Verwante onderwerpen**:
 
@@ -77,13 +77,13 @@ Wanneer u een e-mailbericht bewerkt met de [e-mailontwerper](../../designing/usi
 
 Met Adobe Campaign kunt u het gedrag van ontvangers bijhouden wanneer ze op een URL in een e-mail klikken. Zie [deze sectie](../../sending/using/tracking-messages.md#about-tracking)voor meer informatie over tracking.
 
-Het pictogram **[!UICONTROL Links]** in de actiebalk geeft automatisch de lijst weer van alle URL&#39;s van de inhoud die wordt bijgehouden.
+De **[!UICONTROL Links]** op de actiebalk wordt automatisch de lijst weergegeven met alle URL&#39;s van de inhoud die wordt bijgehouden.
 
 ![](assets/des_links.png)
 
 >[!NOTE]
 >
->Tekstspatiëring wordt standaard geactiveerd. Deze functionaliteit is alleen beschikbaar voor e-mailberichten als tracering is geactiveerd in Adobe Campaign. Raadpleeg [deze sectie](../../administration/using/configuring-email-channel.md#tracking-parameters) voor meer informatie over de volgende parameters.
+>Tekstspatiëring wordt standaard geactiveerd. Deze functionaliteit is alleen beschikbaar voor e-mailberichten als tracering is geactiveerd in Adobe Campaign. Raadpleeg voor meer informatie over de parameters tracking [deze sectie](../../administration/using/configuring-email-channel.md#tracking-parameters).
 
 Het URL-, categorie-, label- en tracatietype van elke koppeling kan in deze lijst worden gewijzigd. Als u een koppeling wilt bewerken, klikt u op het bijbehorende potloodpictogram.
 
@@ -92,7 +92,7 @@ Het URL-, categorie-, label- en tracatietype van elke koppeling kan in deze lijs
 Voor elke bijgehouden URL kunt u de modus Tekstspatiëring instellen op een van de volgende waarden:
 
 * **Bijgehouden**: activeert tracking op deze URL.
-* **Pagina** spiegelen: beschouwt deze URL als een URL van een spiegelpagina.
+* **Pagina spiegelen**: beschouwt deze URL als een URL van een spiegelpagina.
 * **Nooit**: activeert het bijhouden van deze URL nooit. Deze gegevens worden opgeslagen: als de URL in een toekomstig bericht opnieuw verschijnt, wordt het volgen automatisch gedeactiveerd.
 * **Uitschakelen**: beschouwt deze URL als een opt-out- of niet-abonnements-URL.
 
@@ -102,14 +102,14 @@ U kunt het bijhouden van wijzigingen ook uitschakelen of activeren voor elke URL
 
 >[!NOTE]
 >
->Standaard worden in Adobe Campaign alle inhoud-URL&#39;s bijgehouden, behalve de koppeling **Pagina-URL spiegelen** en **Unsubscription**.
+>Standaard worden in Adobe Campaign alle inhoud-URL&#39;s bijgehouden, behalve **URL van pagina spiegelen** en **Abonnement opzeggen** koppeling.
 
-U kunt uw URL&#39;s opnieuw groeperen door het veld **[!UICONTROL Category]** te bewerken, afhankelijk van de URL&#39;s die in het bericht worden gebruikt. Deze categorieën kunnen rapporten, zoals bijvoorbeeld in [URLs worden getoond en stromen](../../reporting/using/urls-and-click-streams.md) klikken.
+U kunt uw URL&#39;s opnieuw groeperen door de **[!UICONTROL Category]** afhankelijk van de URL&#39;s die in het bericht worden gebruikt. Deze categorieën kunnen rapporten weergeven, zoals bijvoorbeeld in [URL&#39;s en klik op streams](../../reporting/using/urls-and-click-streams.md).
 
 ![](assets/des_link_tracking_category.png)
 
-Wanneer het bouwen van een rapport, van **[!UICONTROL Components]** tabel, uitgezocht **[!UICONTROL Dimension]** en scroll onderaan de lijst om tot de volgende componenten toegang te hebben. Sleep bijvoorbeeld **[!UICONTROL Tracking URL Category]** naar de werkruimte om de resultaten weer te geven op basis van de categorie voor bijhouden van elke aangeklikte URL.
+Wanneer het opstellen van een rapport, van **[!UICONTROL Components]** tab, selecteert u **[!UICONTROL Dimension]** en schuif onderaan de lijst om tot de volgende componenten toegang te hebben. Bijvoorbeeld slepen en neerzetten **[!UICONTROL Tracking URL Category]** in de werkruimte om resultaten weer te geven op basis van de categorie tracking van elke aangeklikte URL.
 
 ![](assets/des_link_tracking_report.png)
 
-Zie [deze sectie](../../reporting/using/about-dynamic-reports.md) voor meer informatie over het samenstellen van aangepaste rapporten.
+Voor meer informatie over het samenstellen van aangepaste rapporten raadpleegt u [deze sectie](../../reporting/using/about-dynamic-reports.md).

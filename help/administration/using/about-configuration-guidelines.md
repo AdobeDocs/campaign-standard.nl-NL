@@ -43,7 +43,7 @@ Hier volgen de verschillende eindpunten die worden gebruikt in Campaign Standard
 
 | Context | URL |
 |--- |--- |
-| Campagne-instanties | `https://*.experiencecloud.adobe.com` (huurder-id * + clientdomein)<br>`https://*.campaign.adobe.com`  (Campagneontwikkelaar-huurder) |
+| Campagne-instanties | `https://*.experiencecloud.adobe.com` (huurder-id * + clientdomein)<br>`https://*.campaign.adobe.com` (Campagneontwikkelaar) |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Ervaar cloud | `https://experiencecloud.adobe.com` |
 | Tracking | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |

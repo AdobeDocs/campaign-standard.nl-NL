@@ -18,7 +18,7 @@ ht-degree: 3%
 
 # De payloadstructuur voor pushmeldingen begrijpen {#push-payload}
 
-Met Adobe Campaign kunt u op iOS en Android mobiele apparaten gepersonaliseerde en gesegmenteerde pushmeldingen verzenden naar mobiele toepassingen (mobiele app).
+Met Adobe Campaign kunt u persoonlijke en gesegmenteerde pushmeldingen op mobiele iOS- en Android-apparaten verzenden naar mobiele toepassingen (mobiele app).
 
 Elke pushmelding die op een mobiele app wordt ontvangen, bevat informatie die door de app wordt gebruikt om de pushmelding weer te geven als een waarschuwingsbericht wordt verzonden. De pushmelding werkt hoogstwaarschijnlijk ook verder, vooral als een pushmelding wordt verzonden.
 
@@ -28,7 +28,7 @@ In dit document wordt de structuur beschreven van de payload die in een mobiele 
 
 >[!NOTE]
 >
->De payload-structuur is afhankelijk van het type mobiele app (iOS-app, Android-app met FCM).
+>De payload-structuur is afhankelijk van het type mobiele app (bijvoorbeeld iOS-app, Android-app met FCM).
 
 ## Push-laadstructuur {#push-payload-structure}
 
@@ -78,7 +78,7 @@ De attributen en hun waarden van de nuttige lading zullen variëren gebaseerd op
     "_mId":"h138a"} 
 ```
 
-**JSON-voorbeeldlading voor gebruik met  [iOS APNS Tester](https://pushtry.com/)**
+**JSON-voorbeeldlading voor gebruik met [iOS APNS-tester](https://pushtry.com/)**
 
 ```
 {
@@ -106,9 +106,9 @@ De attributen en hun waarden van de nuttige lading zullen variëren gebaseerd op
 }
 ```
 
-Het belangrijkste gedeelte van de lading is het aps-woordenboek, dat door Apple gedefinieerde sleutels bevat en wordt gebruikt om te bepalen hoe het systeem dat de melding ontvangt de gebruiker moet waarschuwen, als dat überhaupt het geval is. Deze sectie bevat vooraf gedefinieerde toetsen die door de mobiele app worden gebruikt om het gedrag van de pushmelding te formuleren.
+Het belangrijkste gedeelte van de lading is het aps-woordenboek, dat Apple-bepaalde sleutels bevat en wordt gebruikt om te bepalen hoe het systeem dat het bericht ontvangt de gebruiker zou moeten waarschuwen, als bij allen. Deze sectie bevat vooraf gedefinieerde toetsen die door de mobiele app worden gebruikt om het gedrag van de pushmelding te formuleren.
 
-In de documenten voor ontwikkelaars van Apple vindt u gedetailleerde informatie over de kenmerken binnen de aps: [De Remote Notification Payload](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1) maken.
+Meer informatie over de kenmerken binnen de aps vindt u in de documenten voor Apple-ontwikkelaars: [De taakbelasting voor externe berichten maken](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1).
 
 ### Voor Android-toepassing {#payload-structure-android}
 
@@ -152,7 +152,7 @@ In de documenten voor ontwikkelaars van Apple vindt u gedetailleerde informatie 
 }
 ```
 
-**JSON-voorbeeldlading voor gebruik van  [Google FCM-tester](https://pushtry.com/)**
+**Te gebruiken JSON-voorbeeldlading [Google FCM tester](https://pushtry.com/)**
 
 ```
 {
@@ -194,9 +194,9 @@ In de documenten voor ontwikkelaars van Apple vindt u gedetailleerde informatie 
 }
 ```
 
-De payload bevat een gegevensbericht dat alle inhoud van het pushbericht bevat, inclusief de aangepaste sleutel/waarde-paren, en de client-app moet het bericht verwerken om pushmelding te maken en weer te geven, indien nodig of om andere bedrijfslogica toe te voegen.
+De payload bevat een gegevensbericht dat alle inhoud van het pushbericht bevat, inclusief de aangepaste sleutel-/waardeparen, en de client-app moet het bericht verwerken om pushmelding te maken en weer te geven, indien nodig of om andere bedrijfslogica toe te voegen.
 
-Om aspecten van een android nuttige lading te begrijpen verwijs naar [De Concepten en de Opties van het Overseinen (fcm)](https://firebase.google.com/docs/cloud-messaging/concept-options).
+Om aspecten van een android lading te begrijpen verwijs naar [Concepten en opties voor berichten (fcm)](https://firebase.google.com/docs/cloud-messaging/concept-options).
 
 >[!NOTE]
 >
@@ -206,23 +206,23 @@ Om aspecten van een android nuttige lading te begrijpen verwijs naar [De Concept
 
 | Campagneconfiguratie | Betrokken kenmerk in iOS | Betrokken kenmerk in Android | Beschrijving |
 |:-:|:-:|:-:|:-:|
-| Berichttitel <br>Bericht | waarschuwing → titel <br> waarschuwing → lichaam | titel <br>body | Deze gegevens bevatten specifieke gegevens van het waarschuwingsbericht.<br>De titel en de lichaamstoetsen verstrekken de inhoud van de alarm. |
+| Berichttitel <br>Bericht | alert → titel <br> waarschuwing → | titel <br>lichaam | Deze gegevens bevatten specifieke gegevens van het waarschuwingsbericht.<br>De titel en de lichaamstoetsen verstrekken de inhoud van de alarm. |
 | Geluid afspelen | geluid | geluid | Een aangepast geluid dat met de waarschuwing moet worden afgespeeld. |
 | Waarde van de badge | badge | badge | Een geheel-getalwaarde die moet worden gebruikt om het pictogram van de app aan te geven. |
 | Een deeplink toevoegen | uri | NA | Met een deeplink kunt u gebruikers rechtstreeks naar de content in de applicatie brengen (in plaats van een webbrowserpagina te openen). |
 | Categorie | categorie | categorie | Aangepaste handelingen weergeven met een extern bericht. <br>Met de categorietoets kan het systeem de handelingen voor die categorie weergeven als knoppen in de waarschuwingsinterface. |
 | Aangepaste velden | custom_field1, custom_field2.. | custom_field1, custom_field2.. | Alle aangepaste gegevens die u naar uw app wilt verzenden. |
 | URL met rijke media-inhoud (afbeeldings-, gif-, audio- en videobestanden)<br>(Alleen van toepassing voor iOS 10 of hoger) | media-gehechtheid-url | NA | URL van uw mediabestanden om rijke inhoud aan uw melding toe te voegen. <br>Wanneer u een waarde voor deze URL opgeeft, wordt de markering voor gemuteerde inhoud automatisch naar de payload verzonden. <br> (Alleen van toepassing voor iOS 10 of hoger) |
-| Mutable Content <br> (alleen van toepassing op iOS 10 of hoger) | muteerbaar | NA | De uitbreiding van de Dienst van het Bericht in uw app zal &quot;onderscheppen&quot;alle verre berichten met veranderbaar-inhoudssleutel en zal u toestaan om de inhoud van de verzoeklading te behandelen/te manipuleren, die dan kan worden gebruikt om het bericht aan te passen. De gevallen van deze functie omvatten het downloaden en weergeven van meerdere media, het decoderen van gecodeerde gegevens die aanwezig zijn in de pushlading. Meer informatie kan in [wijzigen de lading van een Verre Bericht](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html) worden gevonden. <br>(Alleen van toepassing voor iOS 10 of hoger) |
-| Inhoud beschikbaar | content-available | NA | Als u deze optie selecteert, kan een iOS-app in de achtergrond of stilgezet worden weergegeven. Het wakker worden impliceert dat de app op de achtergrond en de aangewezen gebeurtenismanager verantwoordelijk voor het ontvangen van de lading van de dupmelding gegevens een controle krijgt en de gegevens kan gebruiken om het even welke berekening te doen, met inbegrip van maar niet beperkt tot het bouwen van douanepijpbericht en het tonen van het zelfde. Meer informatie vindt u in [Wake up App with Notification delivery](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
-| URL met rijke media-inhoud (afbeeldingsbestanden)<br>(Alleen van toepassing voor Android) | NA | media-gehechtheid-url | URL van de afbeeldingsbestanden om rijke inhoud aan uw melding toe te voegen. |
-| NA | _mId<br>_dId | _mId <br>_dId | Waarden van broadlogId en deliveryId.<br>Deze kenmerken zijn vereist als uw app een trackingpostback wil aanroepen om bij te houden wanneer op de pushmelding is geklikt of deze is geopend. Deze informatie wordt berekend en intern verzonden door de toepassingsserver zonder tussenkomst van de gebruiker.<br>Informatie over postbacks vindt u op deze  [pagina](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
+| Mabelinhoud <br> (Alleen van toepassing voor iOS 10 of hoger) | muteerbaar | NA | De uitbreiding van de Dienst van het Bericht in uw app zal &quot;onderscheppen&quot;alle verre berichten met veranderbaar-inhoudssleutel en zal u toestaan om de inhoud van de verzoeklading te behandelen/te manipuleren, die dan kan worden gebruikt om het bericht aan te passen. De gevallen van deze functie omvatten het downloaden en weergeven van meerdere media, het decoderen van gecodeerde gegevens die aanwezig zijn in de pushlading. Meer informatie vindt u in [Wijzig de lading van een Verre Bericht](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(Alleen van toepassing voor iOS 10 of hoger) |
+| Inhoud beschikbaar | content-available | NA | Als u deze optie selecteert, kan een iOS-app in de achtergrond of stilgezet worden weergegeven. Het wakker worden impliceert dat de app op de achtergrond en de aangewezen gebeurtenismanager verantwoordelijk voor het ontvangen van de lading van de dupmelding gegevens een controle krijgt en de gegevens kan gebruiken om het even welke berekening te doen, met inbegrip van maar niet beperkt tot het bouwen van douanepijpbericht en het tonen van het zelfde. Meer informatie vindt u in [Wachten op app met levering van berichten](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
+| URL met rijke media-inhoud (afbeeldingsbestanden)<br>(Alleen van toepassing op Android) | NA | media-gehechtheid-url | URL van de afbeeldingsbestanden om rijke inhoud aan uw melding toe te voegen. |
+| NA | _mId<br>_dId | _mId <br>_dId | Waarden van broadlogId en deliveryId.<br>Deze kenmerken zijn vereist als uw app een trackingpostback wil aanroepen om bij te houden wanneer op de pushmelding is geklikt of deze is geopend. Deze informatie wordt berekend en intern verzonden door de toepassingsserver zonder tussenkomst van de gebruiker.<br>Informatie over postbacks vindt u in deze [page](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
 
 ### Informatie over de payload ophalen in mobiele app-code {#payload-information}
 
 De payload-informatie die door de toepassingsserver wordt verzonden, wordt ontvangen door de mobiele toepassingscode in een gebeurtenishandler die aangeeft dat een pushmelding is ontvangen. Deze gebeurtenis varieert op basis van het mobiele platform waaraan wordt gewerkt en ook op basis van het feit of de app op de voor- of achtergrond wordt uitgevoerd. De volgende documentatie helpt u de gebeurtenismanager identificeren u wenst om te behandelen gebaseerd op uw gebruiksgeval.
 
-* iOS-toepassingen: **Verre Meldingen verwerken** sectie in [Externe Meldingen](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
+* iOS-toepassingen: **Externe berichten verwerken** sectie in [Externe meldingen](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
 * Android-toepassingen: [Berichten ontvangen op een Android-clienttoepassing](https://firebase.google.com/docs/cloud-messaging/android/receive)
 
 **Voorbeeld voor iOS Mobile-app**

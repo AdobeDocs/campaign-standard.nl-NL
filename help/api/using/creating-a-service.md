@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # Een service maken {#creating-a-service}
 
-De verwezenlijking van de diensten wordt uitgevoerd met een **POST** verzoek op de de dienstmiddel.
+Services maken wordt uitgevoerd met een **POST** verzoek op het de dienstmiddel.
 
 Als u de dienst met specifieke attributen wilt tot stand brengen, voeg hen in de lading toe. Anders, zal de nieuwe dienst met standaarddegenen worden gecreeerd.
 

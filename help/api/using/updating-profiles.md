@@ -21,9 +21,9 @@ Het bijwerken van profielen wordt uitgevoerd met een **PATCH** verzoek.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. De eerste stap is het **ophalen van het profiel**.
+1. De eerste stap is: **het profiel ophalen**.
 
-1. In een tweede verzoek, voer **PATCH verzoek** op het profiel met de voltooide informatie in de nuttige lading uit.
+1. In een tweede verzoek voert u een **PATCH-verzoek** in het profiel met de voltooide informatie in de lading.
 
 1. Om te controleren of het PATCH verzoek het profiel heeft bijgewerkt, kunnen wij een definitieve GET verzoek uitvoeren.
 

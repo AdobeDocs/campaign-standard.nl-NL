@@ -18,14 +18,14 @@ ht-degree: 2%
 # E-mailstijlen beheren {#managing-styles}
 
 
-Als u in het venster E-mailontwerp een element selecteert, worden in het deelvenster **[!UICONTROL Settings]** verschillende opties weergegeven die specifiek zijn voor het type geselecteerde inhoud. U kunt deze opties gebruiken om de stijl van uw e-mail gemakkelijk te veranderen.
+Als u in de e-mailontwerper een element selecteert, worden in het dialoogvenster **[!UICONTROL Settings]** venster. U kunt deze opties gebruiken om de stijl van uw e-mail gemakkelijk te veranderen.
 
 ## Een element selecteren {#selecting-an-element}
 
 Als u een element wilt selecteren in de interface E-mailontwerper, kunt u:
 
 * klik rechtstreeks in de e-mail,
-* of blader de beschikbare boomstructuur van de opties in de linkerzijde **Palet**.
+* of door de beschikbare boomstructuur bladeren met de opties links **Palet**.
 
 ![](assets/des_tree_structure.png)
 
@@ -39,19 +39,19 @@ Door in de boomstructuur te bladeren, kunt u een nauwkeurigere selectie maken. U
 
 Als u een kolom wilt selecteren, kunt u ook het volgende doen:
 
-1. Selecteer een structuurcomponent (rechtstreeks in de e-mail of met gebruik van de boomstructuur die beschikbaar is in het linkerpalet **Palet**).
-1. Klik op **contextafhankelijke werkbalk** om de gewenste kolom te kiezen.**[!UICONTROL Select a column]**
+1. Selecteer een structuurcomponent (rechtstreeks in de e-mail of met de boomstructuur die beschikbaar is aan de linkerkant) **Palet**).
+1. Van de **contextafhankelijke werkbalk**, klikt u op **[!UICONTROL Select a column]** om de gewenste kolom te kiezen.
 
 Zie een voorbeeld in [deze sectie](#example--adjusting-vertical-alignment-and-padding).
 
 ## Stijlinstellingen aanpassen {#adjusting-style-settings}
 
-1. Selecteer een element in uw e-mail. Zie [Een element selecteren](#selecting-an-element) voor meer informatie.
+1. Selecteer een element in uw e-mail. Zie voor meer informatie [Een element selecteren](#selecting-an-element).
 1. Pas de instellingen naar wens aan. Elk geselecteerd element heeft een andere set instellingen.
 
-   U kunt achtergronden invoegen, grootten wijzigen, horizontale of verticale uitlijning wijzigen, kleuren beheren, [opvulling of marge](#selecting-an-element) toevoegen, enzovoort.
+   U kunt achtergronden invoegen, grootten wijzigen, horizontale of verticale uitlijning wijzigen, kleuren beheren, toevoegen [opvulling of marge](#selecting-an-element), enzovoort.
 
-   Hiervoor gebruikt u de opties in het deelvenster **[!UICONTROL Settings]** of [Voeg inline stijlkenmerken toe](#adding-inline-styling-attributes).
+   Hiervoor gebruikt u de opties in het dialoogvenster **[!UICONTROL Settings]** deelvenster of [inline-opmaakkenmerken toevoegen](#adding-inline-styling-attributes).
 
    ![](assets/des_settings_pane.png)
 
@@ -68,7 +68,7 @@ Met de e-mailDesigner-interface kunt u snel opvulling- en marge-instellingen aan
 Bijvoorbeeld:
 
 * Gebruik opvulling om marges in te stellen aan de linker- en rechterzijde van een afbeelding.
-* Gebruik opvulling boven en onder om meer ruimte toe te voegen aan een **[!UICONTROL Text]**- of **[!UICONTROL Divider]**-component.
+* Opvulling boven en onder gebruiken om meer ruimte aan een object toe te voegen **[!UICONTROL Text]** of **[!UICONTROL Divider]** component.
 * Als u randen tussen kolommen in een structuurelement wilt instellen, definieert u de opvulling voor elke kolom.
 
 **[!UICONTROL Margin]**: met deze instelling kunt u de ruimte tussen de rand van het element en het volgende element beheren.
@@ -77,9 +77,9 @@ Bijvoorbeeld:
 
 >[!NOTE]
 >
->Afhankelijk van uw selectie (structuurcomponent, kolom of inhoudscomponent), is het resultaat niet hetzelfde. Adobe raadt aan de parameters **[!UICONTROL Padding]** en **[!UICONTROL Margin]** op kolomniveau in te stellen.
+>Afhankelijk van uw selectie (structuurcomponent, kolom of inhoudscomponent), is het resultaat niet hetzelfde. Adobe raadt u aan het dialoogvenster **[!UICONTROL Padding]** en **[!UICONTROL Margin]** parameters op kolomniveau.
 
-Voor zowel **[!UICONTROL Padding]** als **[!UICONTROL Margin]**, klik het slotpictogram om synchronisatie tussen bovenkant en bodem of juist en linkerparameters te breken. Hierdoor kunt u elke parameter afzonderlijk aanpassen.
+Voor beide **[!UICONTROL Padding]** en **[!UICONTROL Margin]** Klik op het vergrendelingspictogram om de synchronisatie tussen de parameters boven en onder of rechts en links te verbreken. Hierdoor kunt u elke parameter afzonderlijk aanpassen.
 
 ![](assets/des_padding_lock_icon.png)
 
@@ -89,11 +89,11 @@ Voor zowel **[!UICONTROL Padding]** als **[!UICONTROL Margin]**, klik het slotpi
 
    ![](assets/des_text_alignment.png)
 
-* **Horizontale** uitlijning kan worden toegepast op tekst, afbeeldingen en knoppen, momenteel niet op de tekst  **[!UICONTROL Divider]** en  **[!UICONTROL Social]** componenten.
+* **Horizontale uitlijning** kan worden toegepast op tekst, afbeeldingen en knoppen - momenteel niet op de knop **[!UICONTROL Divider]** en **[!UICONTROL Social]** componenten.
 
    ![](assets/des_horizontal_alignment.png)
 
-* Als u **verticale uitlijning** wilt instellen, selecteert u een kolom in een structuurcomponent en kiest u een optie in het deelvenster Instellingen.
+* In te stellen **verticale uitlijning** selecteert u een kolom in een structuurcomponent en kiest u een optie in het deelvenster Instellingen.
 
    ![](assets/des_set_vertical_alignment.png)
 
@@ -113,11 +113,11 @@ Als het gaat om het instellen van achtergronden met de e-mailontwerper, raadt Ad
 
 Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
 
-* Stel een **[!UICONTROL Background color]** in voor de hele e-mail. Selecteer de instellingen voor de hoofdtekst in de boomstructuur die toegankelijk is in het linkerpalet.
+* Een **[!UICONTROL Background color]** voor de hele e-mail. Selecteer de instellingen voor de hoofdtekst in de boomstructuur die toegankelijk is in het linkerpalet.
 
    ![](assets/des_background_body.png)
 
-* Stel dezelfde achtergrondkleur in voor alle structuurcomponenten door **[!UICONTROL Viewport background color]** te selecteren. Met deze optie kunt u een andere instelling selecteren dan de achtergrondkleur.
+* Dezelfde achtergrondkleur voor alle structuurcomponenten instellen door **[!UICONTROL Viewport background color]**. Met deze optie kunt u een andere instelling selecteren dan de achtergrondkleur.
 
    ![](assets/des_background_viewport.png)
 
@@ -127,13 +127,13 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
 
    Zorg ervoor dat u geen achtergrondkleur voor de viewport instelt, omdat hierdoor de achtergrondkleuren van de structuur kunnen worden verborgen.
 
-* Stel een **[!UICONTROL Background image]** in voor de inhoud van een structuurcomponent.
+* Een **[!UICONTROL Background image]** voor de inhoud van een structuurcomponent.
 
    ![](assets/des_background_image.png)
 
    >[!NOTE]
    >
-   >Sommige e-mailprogramma&#39;s ondersteunen achtergrondafbeeldingen niet. Als deze optie niet wordt ondersteund, wordt in plaats daarvan de achtergrondkleur van de rij gebruikt. Selecteer de gewenste achtergrondkleur voor fallback als de afbeelding niet kan worden weergegeven.
+   >Sommige e-mailprogramma&#39;s ondersteunen achtergrondafbeeldingen niet. Als deze optie niet wordt ondersteund, wordt in plaats daarvan de achtergrondkleur van de rij gebruikt. Selecteer de gewenste achtergrondkleur voor fallback voor het geval de afbeelding niet kan worden weergegeven.
 
 * Stel een achtergrondkleur in op kolomniveau.
 
@@ -149,12 +149,12 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
 
 U wilt de opvulling en de verticale uitlijning aanpassen binnen een structuurcomponent die uit drie kolommen bestaat. Volg de onderstaande stappen om dit te doen:
 
-1. Selecteer de structuurcomponent rechtstreeks in de e-mail of met gebruik van de boomstructuur die beschikbaar is in het linkerpalet **Palet**.
-1. Klik op **contextafhankelijke werkbalk** en kies de werkbalk die u wilt bewerken. **[!UICONTROL Select a column]** U kunt deze ook selecteren in de boomstructuur.
+1. Selecteer de structuurcomponent rechtstreeks in de e-mail of met behulp van de boomstructuur die beschikbaar is aan de linkerkant **Palet**.
+1. Van de **contextafhankelijke werkbalk**, klikt u op **[!UICONTROL Select a column]** en kiest u het bestand dat u wilt bewerken. U kunt deze ook selecteren in de boomstructuur.
 
    ![](assets/des_selecting_column.png)
 
-   De bewerkbare parameters voor die kolom worden weergegeven in het **[!UICONTROL Settings]** deelvenster aan de rechterkant.
+   De bewerkbare parameters voor die kolom worden weergegeven in het dialoogvenster **[!UICONTROL Settings]** aan de rechterkant.
 
 1. Selecteer onder **[!UICONTROL Vertical alignment]** de optie **[!UICONTROL Up]**.
 
@@ -162,7 +162,7 @@ U wilt de opvulling en de verticale uitlijning aanpassen binnen een structuurcom
 
    De inhoudcomponent wordt vóór de kolom weergegeven.
 
-1. Definieer onder **[!UICONTROL Padding]** de opvulling boven in de kolom. Klik op het vergrendelingspictogram om de synchronisatie met de onderste opvulling te verbreken.
+1. Onder **[!UICONTROL Padding]** Definieer de opvulling boven in de kolom. Klik op het vergrendelingspictogram om de synchronisatie met de onderste opvulling te verbreken.
 
    Definieer de linker- en rechteropvulling voor die kolom.
 
@@ -180,11 +180,11 @@ U kunt een koppeling onderstrepen en de kleur en het doel ervan selecteren in de
 
 1. In een component waar een verbinding wordt opgenomen, selecteer de etikettekst van uw verbinding.
 
-1. In de componentenmontages, controleer **[!UICONTROL Underline link]** om de etikettekst van uw verbinding te onderstrepen.
+1. Controleer in de componentinstellingen **[!UICONTROL Underline link]** om de labeltekst van uw koppeling te onderstrepen.
 
    ![](assets/stylelinks-selecttext.png)
 
-1. Selecteer een **[!UICONTROL Target]** als u wilt selecteren in welke browsercontext de koppeling wordt geopend.
+1. Als u wilt selecteren in welke browsercontext de koppeling wordt geopend, selecteert u een **[!UICONTROL Target]**.
 
    ![](assets/stylelinks-target.png)
 
@@ -203,10 +203,10 @@ U kunt een koppeling onderstrepen en de kleur en het doel ervan selecteren in de
 Wanneer u in de interface E-mailontwerper een element selecteert en de instellingen van het element in het zijpaneel weergeeft, kunt u de inline-kenmerken en de bijbehorende waarde voor dat specifieke element aanpassen.
 
 1. Selecteer een element in de inhoud.
-1. Op het zijpaneel, zoek de **[!UICONTROL Styles Inline]** montages.
+1. Op het zijpaneel, zoek naar **[!UICONTROL Styles Inline]** instellingen.
 
    ![](assets/email_designer_inlineattributes.png)
 
-1. Wijzig de waarden van de bestaande kenmerken of voeg nieuwe kenmerken toe met de knop **+**. U kunt alle kenmerken en waarden toevoegen die CSS-compatibel zijn.
+1. Wijzig de waarden van de bestaande kenmerken of voeg nieuwe kenmerken toe met de **+** knop. U kunt alle kenmerken en waarden toevoegen die CSS-compatibel zijn.
 
 De stijl wordt vervolgens toegepast op het geselecteerde element. Als voor de onderliggende elementen geen specifieke stijlkenmerken zijn gedefinieerd, wordt de opmaak van het bovenliggende element overgeërfd.

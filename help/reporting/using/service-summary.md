@@ -18,11 +18,11 @@ ht-degree: 14%
 
 # Serviceoverzicht{#service-summary}
 
-In **[!UICONTROL Service summary]** wordt de ontwikkeling van abonnementen en abonnementen op uw service beschreven.
+De **[!UICONTROL Service summary]** geeft informatie over de ontwikkeling van abonnementen en abonnementen op uw service.
 Dit rapport is alleen toegankelijk vanaf uw servicepagina via het geavanceerde menu **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. Raadpleeg [deze pagina](../../audiences/using/monitoring-subscriptions.md#service-reports) voor meer informatie.
 
 ![](assets/service-summary.png)
 
-De **[!UICONTROL Subscription evolution curves]** visualisatie detailleert het aantal abonnementen en unsubscriptions afhankelijk van **[!UICONTROL Period]** die in de drop-down bar wordt gekozen.
+De **[!UICONTROL Subscription evolution curves]** visualisatie geeft het aantal abonnementen en abonnementen aan, afhankelijk van de **[!UICONTROL Period]** gekozen in de vervolgkeuzelijst.
 
-Met **[!UICONTROL Overall subscription evolution]** kunt u de ontwikkeling van uw abonnees gedurende verschillende perioden zien.
+De **[!UICONTROL Overall subscription evolution]** kunt u de evolutie van uw abonnees door verschillende periodes zien.

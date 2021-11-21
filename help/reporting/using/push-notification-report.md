@@ -19,28 +19,28 @@ ht-degree: 1%
 
 >[!CAUTION]
 >
->Houd er rekening mee dat u de **[!UICONTROL Message type]** metriek naar uw tabellen moet slepen om de gegevens te splitsen op basis van uw leveringstypen, in dit geval de levering van pushberichten.
+>Houd er rekening mee dat u de **[!UICONTROL Message type]** metriek aan uw lijsten om uw gegevens afhankelijk van uw leveringstypes, in dit geval te verdelen duw berichtleveringen.
 
-Het **Push-bericht**-rapport bevat details over de marketingprestaties van pushberichten in Adobe Campaign. Dit out-of-the-box rapport helpt u begrijpen hoe de gebruikers met dupberichten, mobiele toepassingen en leveranties in wisselwerking staan.
+De **Pushmelding** biedt informatie over de marketingprestaties van pushberichten in Adobe Campaign. Dit out-of-the-box rapport helpt u begrijpen hoe de gebruikers met dupberichten, mobiele toepassingen en leveranties in wisselwerking staan.
 
-Voor het implementeren van push-tracking is enige configuratie vereist in de mobiele toepassing. Raadpleeg deze [pagina](../../administration/using/push-tracking.md) voor de gedetailleerde stappen.
+Voor het implementeren van push-tracking is een bepaalde configuratie vereist in de mobiele toepassing. Raadpleeg deze [page](../../administration/using/push-tracking.md) voor de gedetailleerde stappen.
 
 ![](assets/dynamic_report_push.png)
 
 Elke tabel wordt aangegeven met een overzichtsnummer en een overzicht van de diagrammen. U kunt wijzigen hoe de details worden weergegeven in de respectievelijke visualisatie-instellingen.
 
-De eerste tabel **Push notification Engagement Summary** is opgedeeld in drie categorieën: per dag, per mobiele app en per levering. Het bevat de beschikbare gegevens voor ontvankelijke reactiviteit aan de levering:
+De eerste tabel **Overzicht van pushberichten** wordt in drie categorieën gesplitst: per dag, per mobiele app en per levering. Het bevat de beschikbare gegevens voor ontvankelijke reactiviteit aan de levering:
 
 * **[!UICONTROL Processed/sent]**: Het totale aantal verzonden pushberichten.
 * **[!UICONTROL Delivered]**: Aantal verzonden pushmeldingen in verhouding tot het totale aantal verzonden pushmeldingen.
-* **[!UICONTROL Impressions]**: Het aantal keren dat een pushmelding aan het apparaat is afgeleverd en ongewijzigd is gelaten in het meldingscentrum. In de meeste gevallen zou het aantal afdrukken gelijk moeten zijn aan het geleverde getal. Dit zorgt ervoor dat het apparaat het bericht kreeg en die informatie terug naar de server terugbracht.
+* **[!UICONTROL Impressions]**: Het aantal keren dat een pushmelding aan het apparaat is afgeleverd en ongewijzigd is gelaten in het meldingscentrum. In de meeste gevallen zou het aantal indrukkingen gelijk moeten zijn aan het geleverde getal. Dit zorgt ervoor dat het apparaat het bericht kreeg en die informatie terug naar de server terugbracht.
 * **[!UICONTROL Unique impressions]**: Aantal indrukken door ontvanger.
 * **[!UICONTROL Click through rate]**: Percentage gebruikers die interactie hadden met de pushmelding.
 * **[!UICONTROL Open rate]**: Percentage geopende pushmeldingen.
 
 ![](assets/dynamic_report_push_2.png)
 
-De tweede tabel **Push notification Clicks &amp; open** is gesplitst in drie categorieën: per dag, per mobiele app en per levering. Het bevat de beschikbare gegevens voor ontvankelijk gedrag per levering:
+De tweede tabel **Pushmelding Klikt en wordt geopend** wordt in drie categorieën gesplitst: per dag, per mobiele app en per levering. Het bevat de beschikbare gegevens voor ontvankelijk gedrag per levering:
 
 * **[!UICONTROL Impressions]**: Totaal aantal pushmeldingen gezien door ontvangers.
 * **[!UICONTROL Unique impressions]**: Aantal indrukken door ontvanger.

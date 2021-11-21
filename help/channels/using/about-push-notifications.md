@@ -113,17 +113,17 @@ Nee, toepassingen werken in de sandbox- of productiemodus en kunnen niet worden 
 
 Als u wilt overschakelen naar de productiemodus, moet u een andere app maken. Controleer ook niet het selectievakje van de sandbox en upload een productiecertificaat.
 
-### Kan ik tegelijkertijd zowel iOS- als Android-referenties uploaden? {#ios-android-credentials}
+### Kan ik zowel iOS- als Android-gebruikersgegevens tegelijk uploaden? {#ios-android-credentials}
 
 Ja, de Campagne steunt beide platforms tezelfdertijd en staat u toe om geloofsbrieven voor beide platforms te uploaden.
 
 ### Ik heb pushcertificaten geüpload, maar er worden geen pushberichten verzonden. {#push-certificates-upload}
 
-Controleer of uw pushcertificaten geldig zijn door ze [hier](https://pushtry.com/) te testen.
+Controleer of uw pushcertificaten geldig zijn door ze te testen [hier](https://pushtry.com/).
 
 ### Ik kan pushmeldingen verzenden vanaf push.com, maar niet via Campagne. {#push-not-sending}
 
-Zorg ervoor dat u de [hier](../../administration/using/push-payload.md) gegeven instructies voor pushlading volgt.
+Zorg ervoor dat u de instructies voor pushlading volgt [hier](../../administration/using/push-payload.md).
 
 Merk op dat voor Android de campagne alleen ondersteuning biedt voor gegevenslading en geen berichtlading.
 
@@ -137,26 +137,26 @@ Open een ticket voor de klantenservice.
 
 ### Pushmeldingen worden geleverd via Campagne, maar het mediabestand wordt niet weergegeven.{#media-file-unavailable}
 
-Mobiele App-ontwikkelaars moeten de ondersteuning voor mediabestanden in de app afhandelen. Soms voorkomt netwerkbandbreedte ook dat een mediabestand wordt gerenderd. Raadpleeg deze [pagina](../../administration/using/image-push-notification.md) voor extra aanwijzers.
+Mobiele App-ontwikkelaars moeten de ondersteuning voor mediabestanden in de app afhandelen. Soms voorkomt netwerkbandbreedte ook dat een mediabestand wordt gerenderd. Zie dit [page](../../administration/using/image-push-notification.md) voor extra aanwijzers.
 
 ### Wat moet ik doen om pushmeldingen in Campagne mogelijk te maken? {#push-reporting-enable}
 
 Volg de onderstaande stappen:
 
-* Configureer een postback voor het bijhouden van de push. Instructies vindt u [hier](../../administration/using/configuring-a-mobile-application.md).
-* TrackAction-API implementeren vanuit Mobile Core. Raadpleeg deze [pagina](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) voor meer informatie.
+* Configureer een postback voor het bijhouden van de push. Instructies zijn te vinden [hier](../../administration/using/configuring-a-mobile-application.md).
+* TrackAction-API implementeren vanuit Mobile Core. Zie dit [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) voor meer informatie .
 
-Meer gedetailleerde instructies vindt u op deze [pagina](../../administration/using/push-tracking.md).
+Meer gedetailleerde instructies vindt u in deze [page](../../administration/using/push-tracking.md).
 
 ### Welke rapporten zijn beschikbaar voor het Push kanaal? {#push-report-available}
 
-Er is een out-of-the-box-rapport beschikbaar in Adobe Campaign for Push channel. Raadpleeg deze [documentatie](../../reporting/using/push-notification-report.md).
+Er is een out-of-the-box-rapport beschikbaar in Adobe Campaign for Push channel. Zie dit [documentatie](../../reporting/using/push-notification-report.md).
 
-Zie deze [pagina](../../reporting/using/indicator-calculation.md#push-notification-delivery) om te begrijpen hoe elke dupmetriek wordt berekend.
+Zie dit [page](../../reporting/using/indicator-calculation.md#push-notification-delivery) om te begrijpen hoe elke push-metriek wordt berekend.
 
 ### Worden verdiepingen ondersteund in pushberichten en in-app-berichten? {#deeplink-push}
 
 Ja, deplinks worden ondersteund in pushberichten. Deeplinks moeten omvatten:
 
 * Taal die verklaart dat levering het volgen moet worden onbruikbaar gemaakt om de diepte te werken.
-* Appsflyer met Tak als partners die het zuiveren volgen kunnen doen. Voor meer informatie over de integratie van de Tak en van Adobe Campaign Standard, verwijs naar deze [pagina](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
+* Appsflyer met Tak als partners die het zuiveren volgen kunnen doen. Voor meer informatie over de integratie van Branch en Adobe Campaign Standard raadpleegt u deze [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).

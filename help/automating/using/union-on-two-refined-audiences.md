@@ -24,7 +24,7 @@ De workflow is als volgt ontworpen:
 
 ![](assets/readaudience_activity_example1.png)
 
-* Een eerste [Leespubliek](../../automating/using/read-audience.md) activiteit die het Gouden ledenpubliek terugwint en het door slechts profielen te selecteren verfijnt die tussen 18 en 30 jaar oud zijn.
+* Een eerste [Lees publiek](../../automating/using/read-audience.md) activiteit die het gouden ledenpubliek terugwint en het door slechts profielen te selecteren die tussen 18 en 30 jaar oud zijn verfijnt.
 * Een tweede activiteit **[!UICONTROL Read audience]** die de doelgroep met Silver-leden ophaalt en deze verfijnt door slechts profielen te selecteren die tussen 18 en 30 jaar oud zijn.
-* A [Union](../../automating/using/union.md) activiteit die populaties van beide **[!UICONTROL Read audiences]** activiteiten verenigt in één eindpopulatie.
-* Een [e-mailbezorging](../../automating/using/email-delivery.md) activiteit die de e-mail naar de populatie verzendt die uit de **[!UICONTROL Union]** activiteit komt.
+* A [Unie](../../automating/using/union.md) activiteit die populaties verenigt van beide **[!UICONTROL Read audiences]** activiteiten in één eindpopulatie.
+* An [E-maillevering](../../automating/using/email-delivery.md) activiteit die e-mail naar de bevolking verzendt die uit **[!UICONTROL Union]** activiteit.

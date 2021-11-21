@@ -72,7 +72,7 @@ Het maken van een marketingactiviteit wordt gedetailleerd beschreven in de secti
 
    U kunt bijvoorbeeld een specifieke tijdzone definiëren die standaard in alle activiteiten van de workflow moet worden gebruikt. Standaard is de tijdzone van de workflow de tijdzone die is gedefinieerd voor de huidige Campaign-operator.
 
-   Raadpleeg [deze pagina](../../automating/using/managing-execution-options.md) voor meer informatie over de eigenschappen van workflows.
+   Zie voor meer informatie over de eigenschappen van workflows [deze pagina](../../automating/using/managing-execution-options.md).
 
    ![](assets/workflow_properties.png)
 
@@ -137,4 +137,4 @@ In deze video wordt getoond hoe u een workflow kunt maken.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-Er zijn [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl) extra Campaign Standard hoe kan ik-video&#39;s beschikbaar.
+Er zijn aanvullende Campaign Standard-hoe-kan-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).

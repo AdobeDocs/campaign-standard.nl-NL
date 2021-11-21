@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Adobe Experience Platform Data Connector bevindt zich momenteel in bèta, die vaak zonder voorafgaande kennisgeving kan worden bijgewerkt. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 
-Wanneer de toewijzingsdefinitie is voltooid, kunt u de toewijzing publiceren. Na de implementatiestap wordt de gegevensreplicatie tussen Campaign Standard en Adobe Experience Platform automatisch gestart. Op elk ogenblik, kunt u de replicatie tegenhouden door op **[!UICONTROL Stop]** knoop te klikken.
+Wanneer de toewijzingsdefinitie is voltooid, kunt u de toewijzing publiceren. Na de implementatiestap wordt de gegevensreplicatie tussen Campaign Standard en Adobe Experience Platform automatisch gestart. U kunt de replicatie op elk gewenst moment stoppen door op de knop **[!UICONTROL Stop]** knop.
 
 Afhankelijk van uw toewijzingswijzigingen kunt u ervoor kiezen al uw records opnieuw naar Adobe Experience Platform te sturen.
 
@@ -31,11 +31,11 @@ Van de plaatsingstegel, kunt u tot publicatielogboek en de uitvoerlogboeken toeg
 
 ![](assets/aep_publog.png)
 
-Op het tabblad **[!UICONTROL Export jobs]** kunt u de exporttaak voor de gepubliceerde toewijzing controleren.
+In de **[!UICONTROL Export jobs]** kunt u de exporttaak voor de gepubliceerde toewijzing controleren.
 
 ![](assets/aep_jobstatus.png)
 
-Als u alle taken voor gegevensexport wilt controleren, gaat u naar **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** menu.
+Als u alle taken voor het exporteren van gegevens wilt controleren, gaat u naar **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** -menu.
 
 ![](assets/aep_statusmapping.png)
 
@@ -58,7 +58,7 @@ Ga als volgt te werk om het XDM-schema bij te werken:
 
 1. Navigeer naar uw XDM-schema.
 
-1. Voeg de **[!UICONTROL Profile Privacy]** mix aan het schema toe.
+1. Voeg de **[!UICONTROL Profile Privacy]** mengen in het schema.
 
    ![](assets/aep_datamapping_privacyfield.png)
 

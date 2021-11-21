@@ -36,13 +36,13 @@ Voer de volgende stappen uit om de workflow te maken:
    ![](assets/wkf_file_transfer_07.png)
 
 1. Bevestig uw activiteit.
-1. Sleep een [Load file](../../automating/using/load-file.md) activiteit in uw werkschema en plaats het na **[!UICONTROL Transfer file]** activiteit.
+1. Sleep een [Bestand laden](../../automating/using/load-file.md) activiteit in uw werkschema en plaats het na **[!UICONTROL Transfer file]** activiteit.
 1. Selecteer de activiteit en open deze met de knop ![](assets/edit_darkgrey-24px.png) vanuit de snelle acties die verschijnen.
 1. Schakel in de sectie **[!UICONTROL File to load]** van het tabblad **[!UICONTROL Execution]** de optie **[!UICONTROL Use the file specified in the inbound transition]** in.
 
    ![](assets/wkf_file_loading8.png)
 
 1. Configureer uw activiteit zoals eerder opgegeven.
-1. Sleep een [Update data](../../automating/using/update-data.md) activiteit in uw werkschema en plaats het na **[!UICONTROL Load file]** activiteit, dan vorm het.
+1. Sleep een [Gegevens bijwerken](../../automating/using/update-data.md) activiteit in uw werkschema en plaats het na **[!UICONTROL Load file]** activiteit, dan vorm het.
 
 Nadat de workflow is gestart, worden de data uit het geüploade bestand geëxtraheerd en vervolgens gebruikt om de Adobe Campaign-database te verrijken.

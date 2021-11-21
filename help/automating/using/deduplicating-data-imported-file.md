@@ -24,7 +24,7 @@ De workflow bestaat uit:
 
 ![](assets/deduplication_example2_workflow.png)
 
-* Een bestand dat een lijst met profielen bevat, wordt geïmporteerd met een activiteit [Bestand](../../automating/using/load-file.md) laden. In dit voorbeeld heeft het geïmporteerde bestand de csv-indeling en bevat het 10 profielen:
+* Een bestand dat een lijst met profielen bevat, wordt geïmporteerd met een [Bestand laden](../../automating/using/load-file.md) activiteit. In dit voorbeeld heeft het geïmporteerde bestand de csv-indeling en bevat het 10 profielen:
 
    ```
    lastname;firstname;dateofbirth;email
@@ -50,7 +50,7 @@ De workflow bestaat uit:
 
    ![](assets/deduplication_example2_dedup.png)
 
-* Met een [Activiteit Gegevens bijwerken](../../automating/using/update-data.md) kunt u de gegevens invoegen die van het deduplicatieproces worden bewaard in de database. Pas wanneer de data worden bijgewerkt, worden de geïmporteerde data geïdentificeerd als behorend tot de profieldimensie.
+* An [Gegevens bijwerken](../../automating/using/update-data.md) Met deze activiteit kunt u de gegevens die van het deduplicatieproces worden bewaard, in de database invoegen. Pas wanneer de data worden bijgewerkt, worden de geïmporteerde data geïdentificeerd als behorend tot de profieldimensie.
 
    Hier willen we **[!UICONTROL Insert only]** uitvoeren op de profielen die nog niet bestaan in de database. We gaan dit doen door de e-mailkolom van het bestand en het e-mailveld van de dimensie **Profile** te gebruiken als de afstemmingssleutel.
 

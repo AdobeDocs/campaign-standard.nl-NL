@@ -32,4 +32,4 @@ De sectie **[!UICONTROL Data management (ETL)]** bevat de volgende activiteiten:
 * [Bestand extraheren](../../automating/using/extract-file.md)
 * [Lidmaatschapsservices](../../automating/using/subscription-services.md)
 
-**[!UICONTROL Data management (ETL)]** Met activiteiten kunt u  **segmentcodes** voor hun uitgaande overgangen definiëren. Vervolgens kunt u rapporten maken op basis van deze segmentcodes om de efficiëntie van uw marketingcampagnes te meten. Raadpleeg [deze sectie](../../reporting/using/creating-a-report-workflow-segment.md) voor meer informatie.
+**[!UICONTROL Data management (ETL)]** activiteiten kunt u definiëren **segmentcodes** voor hun uitgaande overgangen. Vervolgens kunt u rapporten maken op basis van deze segmentcodes om de efficiëntie van uw marketingcampagnes te meten. Raadpleeg [deze sectie](../../reporting/using/creating-a-report-workflow-segment.md) voor meer informatie.

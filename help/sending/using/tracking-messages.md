@@ -23,12 +23,12 @@ Dankzij de trackingfuncties van Adobe Campaign kunt u het gedrag van de geadress
 
 U kunt gebruikers laten weten dat uw sites zijn uitgerust met webtraceringsprogramma&#39;s via een verzoek om toestemming (bijvoorbeeld via de pagina) met een selectievakje waarmee het gebruik van cookies wordt toegestaan, of u kunt een banner toevoegen boven aan de eerste pagina waarop ze landen, enzovoort. Pop-upvensters moeten worden vermeden omdat ze vaak worden geblokkeerd door browsers.
 
-Trackinggegevens zijn beschikbaar voor elk contact van uw database naar **[!UICONTROL integrated customer profiles]**. Raadpleeg [deze sectie](../../audiences/using/integrated-customer-profile.md) voor meer informatie.
+Trackinggegevens zijn beschikbaar voor elke contactpersoon van uw database naar **[!UICONTROL integrated customer profiles]**. Raadpleeg [deze sectie](../../audiences/using/integrated-customer-profile.md) voor meer informatie.
 
 Adobe Campaign gebruikt twee soorten cookies:
 
 * Een sessiecookie (ongeldig). Dit bevat het herkenningsteken van e-mail die naar het contact (broadlogId) wordt verzonden en herkenningsteken van het berichtmalplaatje (deliveryId). Deze wordt toegevoegd wanneer de contactpersoon op een URL klikt die is opgenomen in een e-mail die door Adobe Campaign wordt verzonden. Hiermee kunt u het gedrag van de contactpersoon op het web volgen. Deze sessiecookie wordt automatisch gewist wanneer de browser wordt gesloten. De contactpersoon kan zijn browser configureren om cookies te weigeren.
-* Een cookie die wordt gedeeld tussen Adobe Experience Cloud-oplossingen. Met dit kunt u de gebruikers identificeren die met de Experience Cloud-oplossingen werken wanneer ze een website bezoeken. De beschrijving van dit cookie is [hier](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html) beschikbaar.
+* Een cookie die wordt gedeeld tussen Adobe Experience Cloud-oplossingen. Met dit kunt u de gebruikers identificeren die met de Experience Cloud-oplossingen werken wanneer ze een website bezoeken. De beschrijving van deze cookie is beschikbaar [hier](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
 
 Als u opvolgt met de Adobe Campaign Standard, hebt u toegang tot de volgende functies:
 
@@ -61,11 +61,11 @@ Als u opvolgt met de Adobe Campaign Standard, hebt u toegang tot de volgende fun
 
 ## Logboeken bijhouden {#tracking-logs}
 
-Op het tabblad **[!UICONTROL Tracking logs]** wordt de geschiedenis van het bijhouden van gegevens voor deze levering weergegeven. Op dit tabblad wordt de informatie over het bijhouden van de verzonden berichten weergegeven, zoals alle URL&#39;s die door Adobe Campaign zijn bijgehouden. De trackinggegevens op dit tabblad worden elke 10 minuten bijgewerkt.
+De **[!UICONTROL Tracking logs]** wordt de volggeschiedenis voor deze levering weergegeven. Op dit tabblad wordt de informatie over het bijhouden van de verzonden berichten weergegeven, zoals alle URL&#39;s die door Adobe Campaign zijn bijgehouden. De trackinggegevens op dit tabblad worden elke 10 minuten bijgewerkt.
 
 >[!NOTE]
 >
->Als &#39;tracking&#39; niet is ingeschakeld voor levering, wordt dit tabblad niet weergegeven. Trackinglogboeken zijn alleen beschikbaar voor de **e-mail**- en **pushmeldingen**-kanalen.
+>Als &#39;tracking&#39; niet is ingeschakeld voor levering, wordt dit tabblad niet weergegeven. Logbestanden voor bijhouden zijn beschikbaar voor de **email** en **pushmelding** alleen kanalen.
 
 ![](assets/tracking_logs.png)
 
@@ -75,7 +75,7 @@ In het bovenstaande voorbeeld:
 * Klik op de koppeling spiegel.
 * Klik op de aangepaste koppeling &quot;MEER INFORMATIE&quot;.
 
-In de kolom **[!UICONTROL Type]** zijn de mogelijke waarden:
+In de **[!UICONTROL Type]** kolom, de mogelijke waarden zijn:
 
 * **[!UICONTROL Email click]**: de ontvangers hebben op een aangepaste koppeling geklikt.
 * **[!UICONTROL Mirror page]**: de ontvanger klikte op een verbinding aan de spiegelpagina.
@@ -84,16 +84,16 @@ In de kolom **[!UICONTROL Type]** zijn de mogelijke waarden:
 
 >[!NOTE]
 >
->Voor het **pushbericht** kanaal, slechts worden de klikken op mobiele berichten gevolgd. In dat geval is de waarde **[!UICONTROL Click on mobile notification]**.
+>Voor de **pushmelding** kanaal, worden alleen kliks op mobiele meldingen bijgehouden. In dat geval wordt de waarde **[!UICONTROL Click on mobile notification]**.
 
-Raadpleeg [deze pagina](../../designing/using/links.md#inserting-a-link) voor meer informatie over het invoegen van koppelingen.
+Raadpleeg voor meer informatie over het invoegen van koppelingen voor reeksspatiëring [deze pagina](../../designing/using/links.md#inserting-a-link).
 
-Het **[!UICONTROL Tracking indicators]** rapport bevat de belangrijkste indicatoren voor het volgen van gedrag nadat de e-mailberichten worden ontvangen. Raadpleeg [deze pagina](../../reporting/using/tracking-indicators.md) voor meer informatie.
+De **[!UICONTROL Tracking indicators]** het rapport bevat de belangrijkste indicatoren voor het volgen van gedrag nadat de e-mailberichten worden ontvangen. Raadpleeg [deze pagina](../../reporting/using/tracking-indicators.md) voor meer informatie.
 
 ## Bijgehouden URL&#39;s {#tracked-urls}
 
-Het tabblad **[!UICONTROL Tracked URLs]** groepeert de URL&#39;s in het verzonden bericht, inclusief hun URL-type en hun bron-URL.
+De **[!UICONTROL Tracked URLs]** wordt de URL&#39;s in het verzonden bericht opnieuw gegroepeerd, inclusief hun URL-type en hun bron-URL.
 
 ![](assets/sending_delivery6.png)
 
-Raadpleeg [deze sectie](../../designing/using/links.md#about-tracked-urls) voor meer informatie over het bijhouden van koppelingen.
+Raadpleeg voor meer informatie over het bijhouden van koppelingen [deze sectie](../../designing/using/links.md#about-tracked-urls).

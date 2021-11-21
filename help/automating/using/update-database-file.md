@@ -18,9 +18,9 @@ ht-degree: 33%
 
 # De database bijwerken met externe gegevens {#update-database-file}
 
-Het volgende voorbeeld toont de configuratie van een **[!UICONTROL Update data]** activiteit na een **[!UICONTROL Load file]** activiteit. Het doel van deze workflow is om profielen aan de Adobe Campaign-database toe te voegen of bij te werken met de data uit het bestand.
+In het volgende voorbeeld wordt de configuratie van een **[!UICONTROL Update data]** activiteit na een **[!UICONTROL Load file]** activiteit. Het doel van deze workflow is om profielen aan de Adobe Campaign-database toe te voegen of bij te werken met de data uit het bestand.
 
-In dit voorbeeld wordt de afstemmingssleutel gebruikt met het **e-mailadres**. Het bestand dat wordt geladen in de [Load file](../../automating/using/load-file.md) activiteit is een **.txt** formaat dossier dat de volgende voorbeeldgegevens bevat:
+In dit voorbeeld wordt de verzoeningssleutel gebruikt: **e-mailadres**. Het bestand dat in het dialoogvenster [Bestand laden](../../automating/using/load-file.md) activiteit is **.txt** opmaakbestand met de volgende voorbeeldgegevens:
 
 ```
 lastname;firstname;email;birthdate
@@ -35,7 +35,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-De [Update data](../../automating/using/update-data.md) activiteit wordt gevormd als volgt:
+De [Gegevens bijwerken](../../automating/using/update-data.md) activiteit is als volgt geconfigureerd:
 
 ![](assets/deduplication_example2_writer1.png)
 

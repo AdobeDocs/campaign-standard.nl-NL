@@ -18,16 +18,16 @@ ht-degree: 5%
 
 # Niet-leverbare items en niet-bezorgingen{#non-deliverables-and-bounces}
 
-Het **[!UICONTROL Non-deliverables and bounces]** rapport verstrekt details over alle fouten die tijdens een levering worden ontmoet.
+De **[!UICONTROL Non-deliverables and bounces]** bevat details over alle fouten die tijdens een levering zijn aangetroffen.
 
 ![](assets/delivery_reports_7.png)
 
-De tabel **[!UICONTROL Overview]** bevat de beschikbare gegevens met betrekking tot de mogelijke fouten die bij elke levering kunnen worden aangetroffen, zoals:
+De **[!UICONTROL Overview]** de tabel bevat de beschikbare gegevens over de mogelijke fouten die bij elke levering kunnen worden aangetroffen, zoals:
 
 * **Verwerkt/verzonden**: Het aantal verzonden e-mailberichten.
-* **Afgeleverd**: Het aantal geleverde e-mails.
-* **Zacht stuiteren**: Het totale aantal tijdelijke fouten, zoals een volledig postvak.
+* **Geleverd**: Het aantal geleverde e-mails.
+* **Zachte stuit**: Het totale aantal tijdelijke fouten, zoals een volledig postvak.
 * **Hard stuiteren**: Het totale aantal permanente fouten, zoals een onjuist e-mailadres.
-* **Stuiterwaarden + fouten**: Het aantal berichten dat niet kon worden geleverd.
+* **Bounces + fouten**: Het aantal berichten dat niet kon worden geleverd.
 
-In de tabel **Indeling per domein** worden de grenzen per domein van de ontvangers weergegeven.
+De **Uitsplitsing naar domein** de lijst maakt een lijst van de grenzen per ontvangers&#39; domeinen.

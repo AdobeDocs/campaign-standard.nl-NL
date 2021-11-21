@@ -50,6 +50,6 @@ De afstemmingsworkflow is als volgt ontworpen:
 
 ![](assets/readaudience_activity_example2.png)
 
-* Een [Leespubliek](../../automating/using/read-audience.md) activiteit uploadt het publiek van het Dossier dat in het de invoerwerkschema wordt gecreeerd. De doelgroepsdata zijn nog niet afgestemd op de Adobe Campaign-database.
+* A [Lees publiek](../../automating/using/read-audience.md) De activiteit uploadt het publiek van het Dossier dat in het de invoerwerkschema wordt gecreeerd. De doelgroepsdata zijn nog niet afgestemd op de Adobe Campaign-database.
 * Met een activiteit [Afstemming](../../automating/using/reconciliation.md) worden de binnenkomende data via het tabblad **[!UICONTROL Identification]** aangeduid als profielen. Bijvoorbeeld door het veld **email** te gebruiken als afstemmingscriteria.
 * Met een activiteit [Data bijwerken](../../automating/using/update-data.md) wordt de resource met de profielen van de database ingevoegd en bijgewerkt met de binnenkomende data. Aangezien de data al als profielen zijn geïdentificeerd, kunt u de optie **[!UICONTROL Directly using the targeting dimension]** selecteren en **[!UICONTROL Profiles]** selecteren op het tabblad **[!UICONTROL Identification]** van de activiteit. Vervolgens hoeft u alleen maar de lijst met velden toe te voegen die op het overeenkomstige tabblad moeten worden bijgewerkt.

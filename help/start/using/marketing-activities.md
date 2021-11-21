@@ -82,12 +82,12 @@ Programma’s en campagnes worden weergegeven in de sectie [Programma’s en cam
 Afhankelijk van de context kunt u:
 
 * Een e-mail maken - [Meer informatie](../../channels/using/creating-an-email.md)
-* Een SMS maken - [Meer informatie](../../channels/using/creating-an-sms-message.md)
+* Een SMS-bericht maken - [Meer informatie](../../channels/using/creating-an-sms-message.md)
 * Een pushmelding maken - [Meer informatie](../../channels/using/preparing-and-sending-a-push-notification.md)
 * Een bericht in de app maken - [Meer informatie](../../channels/using/about-in-app-messaging.md)
 * Een workflow maken - [Meer informatie](../../automating/using/building-a-workflow.md#creating-a-workflow)
 * Een openingspagina maken - [Meer informatie](../../channels/using/getting-started-with-landing-pages.md)
-* Een campagne maken - [Meer informatie](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* Maak een campagne - [Meer informatie](../../start/using/programs-and-campaigns.md#creating-a-campaign)
 * Een programma maken - [Meer informatie](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]

@@ -17,7 +17,7 @@ ht-degree: 9%
 
 # De integratie met Audience Manager of de People core-service inrichten en configureren{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
-De levering en de configuratie van Audience Manager en de kern van Mensen in Adobe Campaign nemen twee stappen: [Aanvraag indienen bij Adobe](#submitting-request-to-adobe) dan [De integratie configureren in Adobe Campaign](#configuring-the-integration-in-adobe-campaign).
+De levering en de configuratie van Audience Manager en de kern van Mensen in Adobe Campaign nemen twee stappen: [Aanvraag verzenden naar Adobe](#submitting-request-to-adobe) dan [Integratie in Adobe Campaign configureren](#configuring-the-integration-in-adobe-campaign).
 
 ## Aanvraag indienen bij Adobe {#submitting-request-to-adobe}
 
@@ -45,7 +45,7 @@ Deze integratie moet eerst worden geconfigureerd. Als u inrichting van deze inte
   </tr> 
   <tr> 
    <td> <strong>AAM of Persdienst</strong><br /> </td> 
-   <td> Voorbeeld: Adobe Audience Manager. Vergeet niet om aan het inrichtingsteam te vermelden of u al dan niet een Audience Manager-licentie hebt.</td> 
+   <td> Voorbeeld: Adobe Audience Manager. Vergeet niet om aan het provisioningteam mee te delen of u al dan niet een Audience Manager-licentie hebt.</td> 
   </tr> 
   <tr> 
    <td> <strong>Opgegeven ID of bezoeker-ID</strong><br /> </td> 
@@ -73,14 +73,14 @@ We moeten eerst de externe accounts in Adobe Campaign configureren of controlere
 
 Dit doet u als volgt:
 
-1. Selecteer **Beheer > Toepassingsinstellingen > Externe accounts** in het geavanceerde menu.
+1. Selecteer in het menu Geavanceerd de optie **Beheer > Toepassingsinstellingen > Externe accounts**.
 
    Selecteer een van de volgende externe accounts die beschikbaar zijn voor deze integratie:
 
    ![](assets/integration_aam_1.png)
 
-1. **[!UICONTROL Receiver server]** invoeren in de volgende notatie
-1. Voer **[!UICONTROL AWS Access Key ID]**, **[!UICONTROL Secret Access Key]** en **[!UICONTROL AWS Region]** in.
+1. Enter **[!UICONTROL Receiver server]** in de volgende notatie
+1. Voer de **[!UICONTROL AWS Access Key ID]**, **[!UICONTROL Secret Access Key]** en **[!UICONTROL AWS Region]**.
 
 Uw externe accounts zijn nu geconfigureerd voor deze integratie.
 
@@ -89,45 +89,45 @@ Uw externe accounts zijn nu geconfigureerd voor deze integratie.
 De twee volgende gegevensbronnen worden gecreeerd binnen de Manager van het Publiek: Adobe Campaign (MID) en Adobe Campaign (DeclaredId). Tegelijkertijd zijn deze twee gegevensbronnen beschikbaar in Adobe Campaign:
 
 * **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**: Dit is een uit-van-de-doos gegevensbron die door gebrek voor identiteitskaart van de Bezoeker wordt gevormd. Segmenten die zijn gemaakt op basis van campagne maken deel uit van deze gegevensbron.
-* **Gedeclareerde** IDdata-bron: Deze gegevensbron moet met de  **[!UICONTROL DeclaredId]** gegevensbrondefinitie van Audience Manager worden gecreeerd en in kaart gebracht.
+* **Opgegeven id** gegevensbron: Deze gegevensbron moet worden gemaakt en toegewezen met de **[!UICONTROL DeclaredId]** gegevensbrondefinitie van Audience Manager.
 
 In het geval van meerdere websites met verschillende domeinen ondersteunt Adobe Campaign geen afstemming op basis van ECID.
 
-De **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**-gegevensbron configureren:
+Om het **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]** gegevensbron:
 
-1. Selecteer **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]** in **[!UICONTROL Administration]** > **[!UICONTROL Shared Data Sources]**.**[!UICONTROL Application settings]**
+1. In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**, selecteert u **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**.
 
    ![](assets/integration_aam_2.png)
 
-1. Kies **[!UICONTROL Adobe Campaign]** in **[!UICONTROL Data Source/ Alias]** drop-down.
-1. Voer de **[!UICONTROL AAM Destination ID]** in die door Adobe wordt opgegeven.
+1. Kies **[!UICONTROL Adobe Campaign]** in de **[!UICONTROL Data Source/ Alias]** vervolgkeuzelijst.
+1. Voer de **[!UICONTROL AAM Destination ID]** verstrekt door Adobe.
 
    ![](assets/integration_aam_3.png)
 
-1. In de **[!UICONTROL Reconciliation process]** categorie adviseren wij u om de verzoeningscriteria niet te veranderen en altijd **[!UICONTROL Visitor ID]** te gebruiken.
+1. In de **[!UICONTROL Reconciliation process]** wij raden u aan de verzoeningscriteria niet te wijzigen en altijd de **[!UICONTROL Visitor ID]**.
 1. Klik op **[!UICONTROL Save]**.
 
-De **[!UICONTROL Declared ID]**-gegevensbron maken:
+Als u de opdracht **[!UICONTROL Declared ID]** gegevensbron:
 
-1. Klik in **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]** op de knop **[!UICONTROL Create]**.
-1. Bewerk de **[!UICONTROL Label]** van de gegevensbron.
-1. Kies in de vervolgkeuzelijst **[!UICONTROL Data Source/ Alias]** de gegevensbron die overeenkomt met de **[!UICONTROL DeclaredID]** gegevensbron uit Audience Manager.
-1. Vorm uw gegevensbron door **[!UICONTROL Data Source / Alias]** en **[!UICONTROL AAM Destination ID]** in te gaan die door Adobe wordt verstrekt.
-1. Stel de **[!UICONTROL Reconciliation process]** naar wens in.
+1. In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]** klikt u op de knop **[!UICONTROL Create]** knop.
+1. Bewerk de **[!UICONTROL Label]** van uw gegevensbron.
+1. In de **[!UICONTROL Data Source/ Alias]** keuzelijst, kies de Gegevensbron die overeenkomt met de **[!UICONTROL DeclaredID]** gegevensbron uit Audience Manager.
+1. Vorm uw gegevensbron door in te gaan **[!UICONTROL Data Source / Alias]** en **[!UICONTROL AAM Destination ID]** verstrekt door Adobe.
+1. Stel de **[!UICONTROL Reconciliation process]** indien nodig.
 1. Klik op **[!UICONTROL Save]**.
 
 >[!NOTE]
 >
->Het **[!UICONTROL AAM Destination ID]** gebied wordt niet vereist als u de gedeelde gegevensbron voor [Campagne-Triggers integratie](../../integrating/using/configuring-triggers-in-experience-cloud.md) vormt. **[!UICONTROL Priority]** is alleen nodig bij het configureren van de integratie Triggers - Campagne. De prioriteit bepaalt welke gegevensbron eerst zal worden gevormd. Prioriteit kan elk nummer zijn, zoals 1 of 100. Hoe hoger de prioriteit, des te hoger de voorkeur tijdens verzoening.
+>De **[!UICONTROL AAM Destination ID]** veld is niet vereist als u de gedeelde gegevensbron voor de [Integratie van campagne-Triggers](../../integrating/using/configuring-triggers-in-experience-cloud.md). **[!UICONTROL Priority]** is alleen nodig bij het configureren van de integratie Triggers - Campagne. De prioriteit bepaalt welke gegevensbron eerst zal worden gevormd. Prioriteit kan elk nummer zijn, zoals 1 of 100. Hoe hoger de prioriteit, des te hoger de voorkeur tijdens verzoening.
 
 ### Stap 3: Campagne bijhouden-server configureren {#step-3--configure-campaign-tracking-server}
 
 Voor de configuratie van de integratie met de dienst van de Kern van Mensen of de manager van het Publiek, moeten wij ook de server van het Volgen van de Campagne vormen.
 
-Hier, moet u ervoor zorgen de het Volgen van de Campagne Server op het domein (CNAME) wordt geregistreerd. U kunt meer informatie over de configuratie van de domeinnaam in [dit artikel](https://helpx.adobe.com/nl/campaign/kb/domain-name-delegation.html) vinden.
+Hier, moet u ervoor zorgen de het Volgen van de Campagne Server op het domein (CNAME) wordt geregistreerd. Meer informatie over domeinnaamconfiguratie vindt u in [dit artikel](https://helpx.adobe.com/nl/campaign/kb/domain-name-delegation.html).
 
 ### Stap 4: De service voor de bezoekersidentiteitskaart configureren {#step-4--configure-the-visitor-id-service}
 
-Als uw bezoeker-id-service nooit is geconfigureerd op uw wegeigenschappen of websites, raadpleegt u het volgende [document](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) om te leren hoe u uw service of de volgende [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) kunt configureren.
+Raadpleeg het volgende als uw bezoekersidentiteitsservice nog nooit is geconfigureerd op uw wegeigenschappen of websites [document](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) leren hoe te om uw dienst of het volgende te vormen [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
 
 Uw configuratie en levering worden voltooid, kan de integratie nu worden gebruikt om publiek of segmenten in te voeren en uit te voeren.

@@ -49,14 +49,14 @@ Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, le
    <td> Adobe Experience Manager<br /> </td> 
    <td> Hiermee kunt u rechtstreeks in Adobe Experience Manager e-mailcontent of formulieren maken die worden toegewezen aan de Adobe Campaign-database.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Werken met campagne en Experience Manager</a>, Experience Manager en Campaign Standard  <a href="https://helpx.adobe.com/nl/experience-manager/6-4/sites/administering/using/campaignstandard.html">integreren</a>, een e-mail  <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">maken met Experience Manager en campagne</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Werken met campagne en Experience Manager</a>, <a href="https://helpx.adobe.com/nl/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience Manager en Campaign Standard integreren</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Een e-mail maken met Experience Manager en campagne</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
    <td> Hiermee kunt u afbeeldingen invoegen die door Adobe Target dynamisch worden berekend wanneer een e-mailbericht wordt geopend dat door Adobe Campaign is gemaakt en verzonden.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Werk met Campagne en Doel</a>,  <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">integreer Campagne en Doel</a>,  <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Personaliseer E-mailbeelden in Real-</a> Time video (stap 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Werken met campagne en doel</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">Campagne en doel integreren</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">E-mailafbeeldingen in realtime aanpassen</a> video (stap 3)
     </td> 
   </tr> 
   <tr> 
@@ -73,7 +73,7 @@ Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, le
   </tr> 
    <tr> 
    <td> Adobe Real-time Customer Data Platform (RTCDP)<br /> </td> 
-   <td> Dankzij de integratie tussen Adobe Campaign en Adobe Real-time Customer Data Platform (RTCDP) kunt u gegevens over segmenten delen en een publiek importeren naar Adobe Campaign.</td>
+   <td> Dankzij de integratie tussen Adobe Campaign en Adobe Real-time Customer Data Platform (RTCDP) kunt u segmentgegevens delen en doelgroepen importeren naar Adobe Campaign.</td>
    <td><a href="../../integrating/using/get-started-sources-destinations.md">Aan de slag met bronnen en bestemmingen</a></td>
   </tr> 
   <tr> 
@@ -95,14 +95,14 @@ Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, le
   </tr> 
     <tr> 
    <td> Adobe Journey Orchestration<br /> </td> 
-   <td> Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden van de Adobe Campaign Standard voor Transactioneel Overseinen in de context van Adobe Journey Orchestration, via een actie 'out-of-the-box'.<br /> </td> 
+   <td> Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden voor Transactioneel berichtenverkeer van Adobe Campaign Standard in de context van Adobe Journey Orchestration, via een 'out-of-the-box'-actie.<br /> </td> 
    <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=en">Werken met Adobe Journey Orchestration en Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Hiermee kunt u e-mailcontent uit Dreamweaver bewerken en met Adobe Campaign synchroniseren.<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=nl">Maak persoonlijke e-mails met </a> DreamweaverWeavervideo,  <a href="https://helpx.adobe.com/nl/dreamweaver/using/working-with-dreamweaver-and-campaign.html">gebruik de extensie Campagne voor Dreamweaver</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=nl">Persoonlijke e-mails maken met Dreamweaver</a> video, <a href="https://helpx.adobe.com/nl/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Campagneextensie gebruiken voor Dreamweaver</a> 
   </td> 
   </tr> 
   <tr> 

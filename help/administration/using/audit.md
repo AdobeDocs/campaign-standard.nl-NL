@@ -7,7 +7,8 @@ topic-tags: users-and-security
 feature: Access Management
 role: Admin
 level: Experienced
-source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
+exl-id: bda6f8d5-3bcf-498c-a7c4-d3c2c79b9510
+source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 1%
@@ -16,7 +17,7 @@ ht-degree: 1%
 
 # Audit trail {#audit}
 
-Met **[!UICONTROL Audit trail]** hebt u toegang tot de volledige geschiedenis van wijzigingen die in uw instantie zijn aangebracht.
+De **[!UICONTROL Audit trail]** geeft u toegang tot de volledige geschiedenis van veranderingen die binnen uw instantie worden aangebracht.
 
 **[!UICONTROL Audit trail]** legt in real-time een uitgebreide lijst vast met acties en gebeurtenissen die plaatsvinden in uw Adobe Campaign Standard-instantie. Het omvat een zelfbediende manier om tot een geschiedenis van gegevens toegang te hebben helpen vragen zoals beantwoorden: wat er is gebeurd met uw workflows, aangepaste bronnen en opties, die deze voor het laatst hebben bijgewerkt of wat uw gebruikers in het geval hebben gedaan.
 
@@ -26,7 +27,7 @@ Met **[!UICONTROL Audit trail]** hebt u toegang tot de volledige geschiedenis va
 
 * **Actief bronnenaudittrail**: controleer de activiteit en laatste wijziging aan douanemiddelen wordt gedaan die.
 
-   Raadpleeg deze [pagina](../../developing/using/key-steps-to-add-a-resource.md) voor meer informatie over **[!UICONTROL Custom resources]**.
+   Voor meer informatie over **[!UICONTROL Custom resources]**, verwijzen naar [page](../../developing/using/key-steps-to-add-a-resource.md).
 
 * **Workflowaudittrail**: Controleer de activiteit en laatste wijziging aan werkschema&#39;s, en daarnaast, de staat van uw werkschema&#39;s zoals:
 
@@ -44,11 +45,11 @@ Met **[!UICONTROL Audit trail]** hebt u toegang tot de volledige geschiedenis va
    * Workflow opnieuw starten met dezelfde gebruiker
    * Opnieuw starten van werkstroom Onbekende opdracht
 
-   Raadpleeg deze [pagina](../../automating/using/get-started-workflows.md) voor meer informatie over **[!UICONTROL Workflows]**.
+   Voor meer informatie over **[!UICONTROL Workflows]**, verwijzen naar [page](../../automating/using/get-started-workflows.md).
 
 * **Optie-audittrail**: Controleer de activiteit en laatste wijziging aan opties.
 
-   Raadpleeg deze [pagina](../../administration/using/about-campaign-standard-settings.md) voor meer informatie over **[!UICONTROL Options]**.
+   Voor meer informatie over **[!UICONTROL Options]**, verwijzen naar [page](../../administration/using/about-campaign-standard-settings.md).
 
 De retentieperiode bedraagt standaard 30 dagen.
 
@@ -56,13 +57,13 @@ De retentieperiode bedraagt standaard 30 dagen.
 
 Ga als volgt te werk om het audittrail van uw instantie te openen:
 
-1. Selecteer in Adobe Campaign Standard **[!UICONTROL Administration]** > **[!UICONTROL Audit trail]** in het geavanceerde menu.
+1. Selecteer in Adobe Campaign Standard in het menu Geavanceerd de optie **[!UICONTROL Administration]** > **[!UICONTROL Audit trail]**.
 
    ![](assets/audit-trail.png)
 
-1. Het venster **[!UICONTROL Audit trail]** wordt geopend met de lijst van uw entiteiten. Adobe Campaign Standard controleert het maken, bewerken en verwijderen van acties voor workflows, opties en aangepaste bronnen.
+1. De **[!UICONTROL Audit trail]** wordt geopend met de lijst van uw entiteiten. Adobe Campaign Standard controleert het maken, bewerken en verwijderen van acties voor workflows, opties en aangepaste bronnen.
 
-   Vanuit het menu **[!UICONTROL Search]** kunt u de entiteit filteren op:
+   Van de **[!UICONTROL Search]** kunt u uw entiteit filteren op:
 
    * **[!UICONTROL Start date]**
    * **[!UICONTROL End date]**
@@ -91,7 +92,7 @@ Audittrail kan gemakkelijk worden geactiveerd of gedeactiveerd voor een specifie
 
 Dit doet u als volgt:
 
-1. Selecteer in Adobe Campaign Standard **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** in het geavanceerde menu.
+1. Selecteer in Adobe Campaign Standard in het menu Geavanceerd de optie **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 
    ![](assets/audit-trail_4.png)
 
@@ -104,10 +105,10 @@ Dit doet u als volgt:
 
       >[!NOTE]
       >
-      >Als de optie **[!UICONTROL XtkAudit_Enable_All]** is ingesteld op 0, wordt de functie **[!UICONTROL Audit trail]** volledig uitgeschakeld, ongeacht andere individuele optiewaarden.
+      >Als de **[!UICONTROL XtkAudit_Enable_All]** optie is ingesteld op 0, de **[!UICONTROL Audit trail]** Deze functie wordt volledig uitgeschakeld, ongeacht andere individuele optiewaarden.
    ![](assets/audit-trail_5.png)
 
-1. Stel **[!UICONTROL Value (integer)]** in op 0 op de pagina **[!UICONTROL Options]** als u **[!UICONTROL Audit trail]** of op 1 wilt uitschakelen om deze in te schakelen.
+1. Van uw **[!UICONTROL Options]** pagina instellen **[!UICONTROL Value (integer)]** tot 0 als u het **[!UICONTROL Audit trail]** of 1 om deze in te schakelen.
 
    ![](assets/audit-trail_6.png)
 

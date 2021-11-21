@@ -72,7 +72,7 @@ U kunt deze activiteit gebruiken om data te herstellen die vervolgens met de act
 
 Met het HTTP-protocol kunt u beginnen met het downloaden van een bestand vanaf een extern account of van een URL.
 
-Met dit protocol, kunt u aan optie **[!UICONTROL Use connection parameters defined in an external account]** verkiezen. Selecteer in dit geval het gewenste account en geef het pad op van het bestand dat u wilt downloaden.
+Met dit protocol kunt u ervoor kiezen **[!UICONTROL Use connection parameters defined in an external account]** optie. Selecteer in dit geval het gewenste account en geef het pad op van het bestand dat u wilt downloaden.
 
 ![](assets/wkf_file_transfer_03.png)
 
@@ -83,7 +83,7 @@ U kunt ook de optie **[!UICONTROL Quick configuration]** kiezen. U hoeft de URL 
 
 Met het SFTP-protocol kunt u beginnen met het downloaden van een bestand vanaf een URL of een extern account.
 
-Met dit protocol kunt u de optie **[!UICONTROL Use connection parameters defined in an external account]** kiezen, vervolgens de account selecteren die u wilt en het pad opgeven van het bestand dat u wilt downloaden.
+Met dit protocol kunt u ervoor kiezen **[!UICONTROL Use connection parameters defined in an external account]** selecteert u vervolgens het account dat u wilt gebruiken en geeft u het pad op van het bestand dat u wilt downloaden.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -108,7 +108,7 @@ Met het Amazon S3-protocol kunt u beginnen met het downloaden van een bestand va
    >
    > Jokertekens worden niet ondersteund in Amazon S3.
    >
-   > Als u meerdere bestanden als `my_file_02` en `my _file_3433` als doel wilt instellen, kunt u de volgende syntaxis gebruiken: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
+   > Meerdere bestanden als doel instellen `my_file_02` en `my _file_3433`kunt u de volgende syntaxis gebruiken: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
 
 4. Als u de bronbestanden wilt verwijderen wanneer de overdracht is voltooid, selecteert u **[!UICONTROL Delete the source files after transfer]**.
 
@@ -172,9 +172,9 @@ Telkens wanneer de activiteit wordt uitgevoerd, wordt de map als volgt gecontrol
 
 ## Uitvoervariabelen {#output-variables}
 
-De **[!UICONTROL Transfer file]** activiteit produceert gebeurtenisvariabelen als output, die u in andere activiteiten kunt hefboomwerking, bijvoorbeeld om het aantal gedownloade dossiers te controleren gebruikend een [Test](../../automating/using/test.md) activiteit.
+De **[!UICONTROL Transfer file]** activiteit genereert gebeurtenisvariabelen als output, die u in andere activiteiten kunt gebruiken, bijvoorbeeld om het aantal gedownloade dossiers te controleren gebruikend [Testen](../../automating/using/test.md) activiteit.
 
-Gebeurtenisvariabelen kunnen ook worden doorgegeven aan een andere workflow met behulp van een extern signaal (zie [Een workflow aanpassen met externe parameters](../../automating/using/customizing-workflow-external-parameters.md)).
+Gebeurtenisvariabelen kunnen ook aan een andere workflow worden doorgegeven via een extern signaal (zie [Een workflow aanpassen met externe parameters](../../automating/using/customizing-workflow-external-parameters.md)).
 
 Beschikbare uitvoervariabelen zijn:
 

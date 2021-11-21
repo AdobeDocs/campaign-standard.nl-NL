@@ -17,7 +17,7 @@ ht-degree: 14%
 
 # Een bron verwijderen{#deleting-a-resource}
 
-Als u een bron wilt verwijderen, moet de bron in kwestie een **[!UICONTROL Draft]** zijn. De resource heeft de status **[!UICONTROL Draft]** als:
+Als u een bron wilt verwijderen, moet de bron in kwestie een **[!UICONTROL Draft]**. De bron bevindt zich in **[!UICONTROL Draft]** status indien:
 
 * Het is zojuist opgericht en is nog niet gepubliceerd.
 * Als het al is gepubliceerd, moet de bron opnieuw worden opgesteld.
@@ -43,13 +43,13 @@ Een gepubliceerde bron opnieuw samenstellen en verwijderen:
 
    >[!NOTE]
    >
-   >Als u een uitbreiding van de uit-van-de-doos **Profielen (profiel)** middelen opnieuw ontwerpt, moet u om het even welke **uitbreiding van de Test (seedMember)** ook opnieuw ontwerpen u zou kunnen bepaald hebben. Zie [deze sectie](../../developing/using/extending-the-profile-resource-with-a-new-field.md) voor meer informatie over het uitbreiden van de profielbron.
+   >Als u een extensie van de box-out opnieuw ontwerpt **Profielen (profiel)** bron, moet u ook elk **Testprofiel (seedMember)** extensie die u hebt gedefinieerd. Zie voor meer informatie over het uitbreiden van de profielbron [deze sectie](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
-1. Publiceer de bron. Voor meer gedetailleerde stappen, verwijs naar [het Publiceren van een douanemiddel](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. Publiceer de bron. Voor meer gedetailleerde stappen raadpleegt u [Een aangepaste bron publiceren](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
-   De bron gaat dan naar de modus **Concept** en de activeringsstatus is **[!UICONTROL Inactive]**.
+   De bron gaat vervolgens in **Concept** modus en de activeringsstatus is **[!UICONTROL Inactive]**.
 
-1. Controleer in de modus **[!UICONTROL List]** de te verwijderen bron en klik op het pictogram ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]**.
+1. In **[!UICONTROL List]** modus, controleer de te verwijderen bron en klik op de knop ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** pictogram.
 
    ![](assets/schema_extension_uc28.png)
 

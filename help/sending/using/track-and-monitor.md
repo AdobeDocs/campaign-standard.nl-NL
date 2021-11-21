@@ -32,29 +32,29 @@ Om uw campagnes te controleren, moet u ervoor zorgen dat het bericht inderdaad a
 
 * Van het berichtdashboard, kunt u tot verscheidene rapporten voor dit specifieke bericht toegang hebben.
 
-Zie [Een levering controleren](../../sending/using/monitoring-a-delivery.md) voor meer informatie.
+Zie voor meer informatie [Toezicht op levering](../../sending/using/monitoring-a-delivery.md).
 
 ## Tracking {#tracking-deliveries}
 
-Om beter te weten wat het gedrag van uw doelprofielen is, kunt u bijhouden hoe zij op een levering reageren: ontvangen, openen, klikken op koppelingen, abonnementen enz. Raadpleeg het tabblad **Logbestanden bijhouden** van de levering.
+Om beter te weten wat het gedrag van uw doelprofielen is, kunt u bijhouden hoe zij op een levering reageren: ontvangen, openen, klikken op koppelingen, abonnementen enz. Zie de **Logboeken bijhouden** tabblad van de levering.
 
 **Tip**: Berichten bijhouden is standaard ingeschakeld. Als u URL&#39;s wilt configureren, selecteert u de optie URL&#39;s weergeven in de onderste sectie van de wizard voor levering. Voor elke URL van het bericht kunt u kiezen of u reeksspatiëring wilt activeren.
 
-Raadpleeg voor meer informatie de sectie [Tracking messages](../../sending/using/tracking-messages.md) en de beschrijving [Tracking indicators](../../reporting/using/tracking-indicators.md).
+Raadpleeg voor meer informatie de [Berichten bijhouden](../../sending/using/tracking-messages.md) en de [Traceringsindicatoren](../../reporting/using/tracking-indicators.md) beschrijving.
 
 ## Dynamische rapporten {#dyn-reports}
 
 Met dynamische rapporten kunt u volledig aanpasbare en real-time rapporten maken om uw campagnes te controleren. Met Dimension, meetgegevens en visualisaties kunt u de impact en het succes van uw campagnes op ontvangers meten.
 
-**Tip**  - De ingebouwde rapporten zijn beschikbaar voor u om uw campagnes te controleren maar deze rapporten kunnen ook worden aangepast door om het even welke metriek of dimensies aan uw rapport te slepen en te laten vallen.
+**Tip** - Ingebouwde rapporten zijn beschikbaar voor u om uw campagnes te controleren maar deze rapporten kunnen ook worden aangepast door om het even welke metriek of dimensies aan uw rapport te slepen en te laten vallen.
 
-Voor meer op dit, verwijs naar [Rapporterende gids](../../reporting/using/about-dynamic-reports.md).
+Raadpleeg voor meer informatie de [Rapportagehandleiding](../../reporting/using/about-dynamic-reports.md).
 
 ## Hot clicks
 
 In het rapport Hot click wordt de berichtinhoud (HTML en/of tekst) weergegeven met het percentage klikken op elke koppeling. Door het percentage van klikken op elke dynamische inhoud weer te geven, kunt u meten welke inhoud het meest geschikt is voor de ontvangers.
 
-Voor meer op dit, verwijs naar [Hete klik rapport](../../reporting/using/hot-clicks.md).
+Raadpleeg voor meer informatie de [Rapport Hot click](../../reporting/using/hot-clicks.md).
 
 ## Tips voor de prestaties van de levering {#performance-tips}
 

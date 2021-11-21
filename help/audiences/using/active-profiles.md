@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Actieve profielen{#active-profiles}
 
-Functionele beheerders van campagnes hebben toegang tot het **[!UICONTROL Customer metrics]**-rapport van **[!UICONTROL Administration > Customer metrics]**.
+Functionele beheerders van campagnes hebben toegang tot de **[!UICONTROL Customer metrics]** verslag van **[!UICONTROL Administration > Customer metrics]**.
 
 ![](assets/audience_customer_metrics.png)
 
-Dit rapport wordt elke maand geproduceerd door de **[!UICONTROL Billing]** technische werkschema en toont het aantal **actieve profielen**.
+Dit rapport wordt elke maand gegenereerd door de **[!UICONTROL Billing]** technische workflow en geeft het aantal **actieve profielen**.
 
-Een &quot;Profiel&quot;is een verslag van informatie die een eindklant, vooruitzicht, of lood vertegenwoordigt. Profielen worden als **actief** beschouwd als zij door een levering van de Campagne binnen de afgelopen 12 maanden via om het even welk kanaal zijn gericht.
+Een &quot;Profiel&quot;is een verslag van informatie die een eindklant, vooruitzicht, of lood vertegenwoordigt. Profielen worden in overweging genomen **actief** als zij in de afgelopen twaalf maanden via een kanaal het doelwit zijn geweest van een campagne.
 
 Volgens uw contract wordt elk van uw campagneexemplaren voorzien van een specifiek aantal actieve profielen. Raadpleeg de licentieovereenkomst voor informatie over het aantal aangeschafte actieve profielen.
 
@@ -36,8 +36,8 @@ Volgens uw contract wordt elk van uw campagneexemplaren voorzien van een specifi
 
 * Dit rapport is slechts informatief, het heeft geen directe invloed op het factureren.
 
-Onder aan de pagina worden de doeldimensies weergegeven met het aantal profielen voor elke pagina. Ontvangers van Transactionele berichten worden geassocieerd met de **Anoniem** dimensie.
+Onder aan de pagina worden de doeldimensies weergegeven met het aantal profielen voor elke pagina. Ontvangers van Transactionele berichten zijn gekoppeld aan de **Anoniem** dimensie.
 
 >[!NOTE]
 >
->Als Admin-gebruiker kunt u het aantal actieve profielen dat op uw instanties wordt gebruikt, ook rechtstreeks vanuit het Configuratiescherm controleren. Raadpleeg de [documentatie van het Configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html) voor meer informatie.
+>Als Admin-gebruiker kunt u het aantal actieve profielen dat op uw instanties wordt gebruikt, ook rechtstreeks vanuit het Configuratiescherm controleren. Raadpleeg voor meer informatie de [Documentatie van het regelpaneel](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).

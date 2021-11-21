@@ -30,7 +30,7 @@ U kunt de volgende typen externe accounts instellen:
 * Adobe Analytics. Zie [deze sectie](../../integrating/using/configure-campaign-analytics-integration.md) voor meer informatie.
 * Google reCAPTCHA. Zie [deze sectie](#google-recaptcha-external-account) voor meer informatie.
 * Microsoft Azure Blob-opslag. Zie [deze sectie](#microsoft-azure-external-account) voor meer informatie.
-* OAuth 2.0. Raadpleeg [deze sectie](#oauth-account) voor meer informatie hierover.
+* OAuth 2.0. Raadpleeg voor meer informatie hierover [deze sectie](#oauth-account).
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Om dergelijke problemen te voorkomen, wordt u aangeraden de onderstaande best pr
 * Meld u af en toe aan bij de SFTP om de content rechtstreeks te controleren.
 * Vergeet niet dat SFTP-schijfbeheer in de eerste plaats uw verantwoordelijkheid is.
 
-Ook, merk op dat openbare IPs waarvan u probeert om de verbinding in werking te stellen SFTP aan de lijst van gewenste personen op de instantie van de Campagne moet worden toegevoegd. Het toevoegen van IP adressen aan de lijst van gewenste personen kan via een [steunkaartje ](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html), samen met het verstrekken van de openbare sleutel aan gebruik voor authentificatie worden gevraagd.
+Ook, merk op dat openbare IPs waarvan u probeert om de verbinding in werking te stellen SFTP aan de lijst van gewenste personen op de instantie van de Campagne moet worden toegevoegd. Het toevoegen van IP adressen aan de lijst van gewenste personen kan via worden gevraagd [ondersteuningsticket](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html), samen met het verstrekken van de openbare sleutel voor authentificatie te gebruiken.
 
 SFTP-servers kunnen worden beheerd via het Configuratiescherm. Zie de [Configuratiescherm-documentatie](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html) voor meer informatie.
 
@@ -94,10 +94,10 @@ SFTP-servers kunnen worden beheerd via het Configuratiescherm. Zie de [Configura
 
 Geef voor een externe OAuth 2.0-rekening de volgende gegevens:
 
-* A **Grant type**: alleen **clientreferenties** wordt ondersteund.
-* A **Secure API URL**: Voer het eindpunt van de vergunning in.
+* A **Type subsidie**: alleen **clientgegevens** wordt ondersteund.
+* A **Beveiligde API-URL**: Voer het eindpunt van de vergunning in.
 * **OAuth 2.0 gevoelige geloofsbrieven**: Deze sectie is bedoeld voor geloofsbrieven die van nature gevoelig zijn. Referentiewaarden worden op het scherm gemaskeerd nadat ze zijn toegevoegd. op dat moment zijn ze niet leesbaar of bewerkbaar . Als voor het eindpunt van de autorisatie een bepaalde referentie moet worden ingevoegd in de HTTP-autorisatieheader in plaats van in de hoofdtekst van de POST, kunt u de optie Opnemen in koptekst voor die referentie selecteren.
-* **OAuth 2.0 niet-gevoelige geloofsbrieven**: Deze sectie is bedoeld voor geloofsbrieven die in aard niet gevoelig zijn. De referentie-waarden zijn zichtbaar op het scherm nadat ze zijn toegevoegd. zij zullen ook bewerkbaar zijn .  Als voor het eindpunt van de autorisatie een bepaalde referentie moet worden ingevoegd in de HTTP-autorisatieheader in plaats van in de hoofdtekst van de POST, kunt u de optie Opnemen in koptekst voor die referentie selecteren.
+* **Niet-gevoelige OAuth 2.0-gegevens**: Deze sectie is bedoeld voor geloofsbrieven die in aard niet gevoelig zijn. De referentie-waarden zijn zichtbaar op het scherm nadat ze zijn toegevoegd. zij zullen ook bewerkbaar zijn .  Als voor het eindpunt van de autorisatie een bepaalde referentie moet worden ingevoegd in de HTTP-autorisatieheader in plaats van in de hoofdtekst van de POST, kunt u de optie Opnemen in koptekst voor die referentie selecteren.
 
 Nadat u de accountgegevens hebt ingevoerd, klikt u op **Verbinding testen** om te controleren of de externe account correct is geconfigureerd.
 
@@ -159,7 +159,7 @@ Wanneer u deze nieuwe externe account instelt, moet u de volgende gegevens opgev
 
 Met het Google reCAPTCHA-mechanisme kunt u uw landingspagina beschermen tegen spam en misbruik door bots. Dit is niet opdringerig voor uw klanten omdat het geen enkele interactie van hen vereist en gebaseerd is op interacties met uw site. Raadpleeg deze [pagina](https://www.google.com/recaptcha/admin/create) om uw site te registreren. U moet het type V3 reCAPTCHA kiezen.
 
-Als u de aanvoerpagina van Google reCAPTCHA V3 aan u wilt toevoegen, configureert u deze in uw externe account. Raadpleeg deze [sectie](../../channels/using/configuring-landing-page.md#setting-google-recaptcha) voor meer informatie over het toevoegen van reCAPTCHA V3 aan de landingspagina.
+Als u de Google reCAPTCHA V3 aan u landingspagina wilt toevoegen, configureert u deze in uw externe account. Raadpleeg deze [sectie](../../channels/using/configuring-landing-page.md#setting-google-recaptcha) voor meer informatie over het toevoegen van reCAPTCHA V3 aan de landingspagina.
 
 Geef voor een extern Google reCAPTCHA V3-account de volgende data op:
 

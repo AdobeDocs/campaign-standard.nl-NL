@@ -52,19 +52,19 @@ In de onderstaande stappen wordt een stapsgewijze beschrijving van het gebruik b
 >
 >In ons voorbeeld wordt Postman gebruikt. U kunt echter uw favoriete REST-client gebruiken.
 
-1. Download de JSON-verzameling door [hier](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip) te klikken.
+1. Download de JSON-verzameling door op [hier](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
 
-1. Open Postman en selecteer vervolgens het menu **Bestand** / **Importeren**.
+1. Open Postman, dan selecteer **Bestand** / **Importeren** -menu.
 
 1. Sleep het gedownloade bestand naar het venster. Vooraf ontworpen API-aanvragen worden weergegeven en kunnen worden gebruikt.
 
    ![alt-tekst](assets/postman_collection.png)
 
-1. Selecteer **Creating a profile** verzoek, dan werk het verzoek van de POST en **Kopballen** lusje met uw eigen informatie (&lt;ORGANIZATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>) bij. Raadpleeg [deze sectie](../../api/using/setting-up-api-access.md) voor meer informatie.
+1. Selecteer **Een profiel maken** verzoek, dan update het verzoek van de POST en **Kopteksten** met uw eigen gegevens (&lt;organization>, &lt;api_key>, &lt;access_token>). Raadpleeg [deze sectie](../../api/using/setting-up-api-access.md) voor meer informatie.
 
    ![alt-tekst](assets/postman_uc1.png)
 
-1. Vul het **Body** lusje met de informatie in u aan het nieuwe profiel wilt toevoegen, dan klik **Send** knoop om het verzoek uit te voeren.
+1. Vul de **Lichaam** met de informatie die u aan het nieuwe profiel wilt toevoegen, klikt u op de knop **Verzenden** om de aanvraag uit te voeren.
 
    ![alt-tekst](assets/postman_uc2.png)
 

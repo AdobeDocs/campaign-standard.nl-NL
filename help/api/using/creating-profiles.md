@@ -17,13 +17,13 @@ ht-degree: 3%
 
 # Profielen maken {#creating-profiles}
 
-Het creëren van profielen wordt uitgevoerd met een **POST** verzoek op het profielmiddel.
+Profielen maken wordt uitgevoerd met een **POST** verzoek om de profielbron.
 
 >[!CAUTION]
 >
->Als u een <b>orgUnit</b> aan het gecreeerde profiel wilt associëren, moet u de profielmiddel met dit gebied uitbreiden en, na de publicatie van de uitbreiding, een verzoek van de POST op het <b>ProfileAndServicesExt</b> eindpunt uitvoeren.
+>Als u een <b>orgUnit</b> naar het gemaakte profiel, moet u de profielbron met dit gebied uitbreiden en, na de publicatie van de uitbreiding, een verzoek van de POST op uitvoeren <b>ProfileAndServicesExt</b> eindpunt.
 >
->Raadpleeg de <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campagne-documentatie</a> voor meer informatie over de bronextensie van het profiel.
+>Voor meer informatie over de het middeluitbreiding van het profiel, verwijs naar <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campagnedocumentatie</a>.
 
 <br/>
 

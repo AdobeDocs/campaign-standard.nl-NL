@@ -27,11 +27,11 @@ Voor deze procedure zijn de volgende elementen nodig:
 * Een Adobe Target-huurder
 * Een Adobe Target-vak opgegeven voor het tot stand brengen van de verbinding met Adobe Campaign
 
-1. Selecteer **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** in het geavanceerde menu via het Adobe Campaign-logo in de linkerbovenhoek.
+1. Selecteer in het geavanceerde menu via het Adobe Campaign-logo in de linkerbovenhoek de optie **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 1. Als u de server- en paderopties voor Adobe Target wilt configureren, vult u de volgende velden dienovereenkomstig in:
 
    * **[!UICONTROL TNT_TenantName]**: naam van de Adobe Target-huurder. Deze waarde komt overeen met de naam van de Adobe Target **[!UICONTROL Client]**.
-   * **[!UICONTROL TNT_EdgeServer]**: Adobe Target-server gebruikt voor integratie. Deze optie is al standaard beschikbaar. Deze waarde komt overeen met de Adobe Target **[!UICONTROL Server Domain]**, gevolgd door de waarde **/m2**. Bijvoorbeeld: **tt.omtrdc.net/m2**.
+   * **[!UICONTROL TNT_EdgeServer]**: Adobe Target-server gebruikt voor integratie. Deze optie is al standaard beschikbaar. Deze waarde komt overeen met de Adobe Target **[!UICONTROL Server Domain]**, gevolgd door de **/m2** waarde. Bijvoorbeeld: **tt.omtrdc.net/m2**.
 
    ![](assets/tar_options.png)
 

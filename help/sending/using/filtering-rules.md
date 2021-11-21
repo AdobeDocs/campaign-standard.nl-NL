@@ -27,7 +27,7 @@ De lijst hieronder verstrekt informatie over uit-van-de-doos het filtreren regel
 | ---------|----------|---------|
 | **[!UICONTROL Address not specified]** | Alles | Hiermee sluit u de doelpopulatie zonder opgegeven adres (e-mail, postadres, enz.) uit. volgens het geselecteerde kanaal). |
 | **[!UICONTROL Address on denylist]** | Alles | Sluit adressen uit die op de lijst van gewezen personen zijn. |
-| **[!UICONTROL Duplicate]** | Alles | Hiermee sluit u duplicaten op basis van het veld **[!UICONTROL Address]** van de doelpopulatie uit. |
+| **[!UICONTROL Duplicate]** | Alles | Omvat geen duplicaten op basis van de doelpopulatie **[!UICONTROL Address]** veld. |
 | **[!UICONTROL Exclude mobile applications]** | Mobiele toepassing | Hiermee sluit u app-abonnementen uit die niet overeenkomen met de mobiele toepassing die in het bericht is gedefinieerd. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | In app | Hiermee sluit u toepassingsabonnementen uit die niet overeenkomen met de mobiele toepassing die in het bericht is gedefinieerd (In-App-sjabloon). |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | In app | Hiermee sluit u toepassingsabonnementen uit die niet overeenkomen met de mobiele toepassing die in het bericht is gedefinieerd (In-App-uitzendsjabloon) |
@@ -54,23 +54,23 @@ U kunt uw eigen het filtreren regels op uw behoeften tot stand brengen. U kunt b
 
 Voer de volgende stappen uit om een filtreertypologieregel te maken:
 
-1. Maak een nieuwe typologieregel. De belangrijkste stappen om typologische regels tot stand te brengen zijn gedetailleerd in [deze sectie](../../sending/using/managing-typology-rules.md).
+1. Maak een nieuwe typologieregel. De belangrijkste stappen voor het opstellen van typologische regels zijn beschreven in [deze sectie](../../sending/using/managing-typology-rules.md).
 
-1. Selecteer het regeltype **[!UICONTROL Filtering]** en geef vervolgens het gewenste kanaal op.
+1. Selecteer **[!UICONTROL Filtering]** regeltype en geef vervolgens het gewenste kanaal op.
 
-1. Selecteer op het tabblad **[!UICONTROL Filtering criteria]** de abonnementen in de categorie **[!UICONTROL Subscription]**.
+1. In de **[!UICONTROL Filtering criteria]** tabblad selecteert u de abonnementen in het dialoogvenster **[!UICONTROL Subscription]** categorie.
 
    ![](assets/typology_create-rule-subscription.png)
 
-1. Op **[!UICONTROL Explorer]** lusje van de vraagredacteur, sleep en laat vallen **[!UICONTROL Subscriber]** knoop in het belangrijkste deel van het scherm.
+1. In de **[!UICONTROL Explorer]** tabblad van de query-editor, sleept u de **[!UICONTROL Subscriber]** in het hoofdgedeelte van het scherm.
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. Selecteer het **[!UICONTROL Age]** gebied en bepaal de het filtreren voorwaarden zodat de leeftijd van de abonnees 18 of hoger is.
+1. Selecteer **[!UICONTROL Age]** en de filtervoorwaarden zodanig definiëren dat de leeftijd van de abonnees 18 of hoger is.
 
    ![](assets/typology_create-rule-age.png)
 
-1. Koppel deze regel aan een typologie op het tabblad **[!UICONTROL Typologies]**.
+1. In de **[!UICONTROL Typologies]** tabblad, koppelt u deze regel aan een typologie.
 
    ![](assets/typology_create-rule-typology.png)
 
@@ -82,11 +82,11 @@ Wanneer deze regel in een bericht wordt gebruikt, worden abonnees die als minder
 
 ## Het vormen van het filtreren regels richten context {#configuring-filtering-rules-targeting-context}
 
-Met Campaign Standard kunt u de **Targeting** en **Filtering**-afmetingen configureren voor gebruik, afhankelijk van de gegevens die u als doel wilt gebruiken.
+Campaign Standard staat u toe om te vormen  **Doelstelling** en **Filteren** Welke afmetingen moeten worden gebruikt, is afhankelijk van de gegevens die u als doel wilt gebruiken.
 
 Om dit te doen, open de eigenschappen van de typologieregel, dan toegang tot **[!UICONTROL Advanced information]** sectie.
 
-Door gebrek, wordt het filtreren uitgevoerd op **[!UICONTROL Profiles]**. Als de regel bijvoorbeeld is gericht op een mobiele toepassing, kan **[!UICONTROL Filtering dimension]** worden gewijzigd in **[!UICONTROL Subscriptions to an application]**.
+Filteren wordt standaard uitgevoerd op de **[!UICONTROL Profiles]**. Als de regel bijvoorbeeld is gericht op een mobiele toepassing, wordt **[!UICONTROL Filtering dimension]** kan worden gewijzigd in **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
 
@@ -94,7 +94,7 @@ Door gebrek, wordt het filtreren uitgevoerd op **[!UICONTROL Profiles]**. Als de
 
 U kunt de toepasbaarheid van een het filtreren regel volgens het te verzenden bericht beperken.
 
-1. Schakel op het tabblad **[!UICONTROL Application criteria]** van de typologieregel de optie **[!UICONTROL Apply the rule on all deliveries]** uit, die standaard is ingeschakeld.
+1. In de typologieregel **[!UICONTROL Application criteria]** tabblad, uitschakelen **[!UICONTROL Apply the rule on all deliveries]** Deze optie is standaard ingeschakeld.
 
    ![](assets/typology_limit.png)
 

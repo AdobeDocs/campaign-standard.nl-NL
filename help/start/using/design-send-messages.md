@@ -67,22 +67,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 <img width="60px" alt="voorwaarden" src="assets/icon_profile.svg"/>
 
-Neem de aandacht van uw klanten op en verbeter uw reactiesnelheid door inhoud en kopteksten te gebruiken die zijn aangepast aan hun profielen, voorkeuren en activiteiten. Alle clientgegevens zijn gecentraliseerd in Adobe Campaign en u kunt via verschillende kanalen berichten met aangepaste inhoud aanbieden.
+Houd de aandacht van uw klanten op en verbeter de responssnelheid door inhoud en kopteksten te gebruiken die zijn aangepast aan hun profielen, voorkeuren en activiteiten. Alle clientgegevens zijn gecentraliseerd in Adobe Campaign en u kunt via verschillende kanalen berichten met aangepaste inhoud aanbieden.
 
 Persoonlijke berichten zijn essentieel voor het verzenden van relevante inhoud, het bieden van persoonlijke ervaringen en het verhogen van de open en conversiesnelheden. Kanaaloverschrijdende berichten die door Adobe Campaign worden geleverd, kunnen op verschillende manieren worden gepersonaliseerd. Deze manieren kunnen met criteria afhankelijk van de profielen worden gecombineerd. U kunt:
 
-* [dynamische verpersoonlijkingsgebieden](../../designing/using/personalization.md#inserting-a-personalization-field) in uw berichten opnemen
-* [vooraf gedefinieerde aanpassingsblokken](../../designing/using/personalization.md#adding-a-content-block) invoegen
-* [De ](../../designing/using/subject-line.md) afzender van een e-mail of een SMS-bericht aanpassen
-* [De onderwerpregel ](../../designing/using/subject-line.md) van een e-mail aanpassen
-* [voorwaardelijke inhoud maken in een e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) of [in een bestemmingspagina](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* [Dynamische tekst](../../channels/using/defining-dynamic-text.md) invoegen in een SMS-bericht of een pushmelding
+* Invoegen [dynamische verpersoonlijkingsvelden](../../designing/using/personalization.md#inserting-a-personalization-field) in uw berichten
+* Invoegen [vooraf gedefinieerde verpersoonlijkingsblokken](../../designing/using/personalization.md#adding-a-content-block)
+* [De afzender aanpassen](../../designing/using/subject-line.md) van een e-mail of sms
+* [De onderwerpregel aanpassen](../../designing/using/subject-line.md) van een e-mail
+* Maken [voorwaardelijke inhoud in een e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) of [op een landingspagina](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
+* Invoegen [Dynamische tekst](../../channels/using/defining-dynamic-text.md) in een SMS-bericht of een pushmelding
 
 ![](assets/delivery_content_43.png)
 
 **Meer informatie**
 
-* Ontdek de personalisatie van e-mail door een [voorbeeld van begin tot eind](../../designing/using/personalization.md#example-email-personalization)
+* Ontdek personalisatie van e-mail door [end-to-end sample](../../designing/using/personalization.md#example-email-personalization)
 * [URL&#39;s aanpassen](../../designing/using/personalization.md#personalizing-urls)
 * [Aanpassing van een afbeelding instellen](../../designing/using/personalization.md#personalizing-an-image-source)
 
@@ -92,7 +92,7 @@ Persoonlijke berichten zijn essentieel voor het verzenden van relevante inhoud, 
 
 Naast krachtige, out-of-the box rapporteringsmalplaatjes, kunt Adobe Campaign u douanerapporten op een levering, een campagne, een gebruiker, of een segmentniveau tot stand brengen. Houd uw berichten bij en begrijp het gedrag van uw klanten door hun profielgegevens progressief te verrijken. Met de gereedschappen voor rapporten en analyses kunt u van elke nieuwe campagne profiteren, uw marketingacties beter op de voorgrond plaatsen en de impact en het rendement van uw investering optimaliseren.
 
-De grafische interface biedt snelle, eenvoudige toegang tot de belangrijkste indicatoren en leveringsstatistieken.
+De grafische interface verleent snelle, gemakkelijke toegang tot de belangrijkste indicatoren en leveringsstatistieken.
 
 ![](assets/dynamic_report_intro.png)
 

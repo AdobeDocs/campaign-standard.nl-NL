@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # De organisatorische eenheid van een profiel ophalen {#retrieving-organizational-units}
 
-1. Voer een verzoek van de GET op het profiel PKey uit om **orgUnit** URL terug te winnen.
+1. Voer een verzoek van de GET op het profiel PKey uit om terug te winnen **orgUnit** URL.
 1. Voer een verzoek van de GET op URL uit om meer details over de Organisatorische eenheid terug te winnen.
 
 <br/>

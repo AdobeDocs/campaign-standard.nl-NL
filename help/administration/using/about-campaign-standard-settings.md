@@ -22,11 +22,11 @@ ht-degree: 9%
 
 * externe rekeningen instellen;
 * Vorm doeltoewijzingen om technische montages te beheren die worden vereist om leveringen te verzenden,
-* Stel interne meldingen in de toepassing in, enz.
+* Stel interne meldingen in de toepassing in, enzovoort.
 
-Deze instellingen zijn beschikbaar in het menu **[!UICONTROL Administration]** / **[!UICONTROL Application settings]**.
+Deze instellingen zijn beschikbaar via de **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** -menu.
 
-Daarnaast zijn er technische opties beschikbaar in het menu **[!UICONTROL Options]**, zodat u de toepassing specifieker kunt configureren. Sommige zijn ingebouwd bij het installeren van Campagne, en andere kunnen manueel worden toegevoegd wanneer nodig (beschikbare opties variëren al naargelang de pakketten die met uw instantie worden geïnstalleerd).
+Daarnaast zijn er technische opties beschikbaar in het dialoogvenster **[!UICONTROL Options]** , waarmee u de toepassing specifieker kunt configureren. Sommige zijn ingebouwd bij het installeren van Campagne, en andere kunnen manueel worden toegevoegd wanneer nodig (beschikbare opties variëren al naargelang de pakketten die met uw instantie worden geïnstalleerd).
 
 >[!IMPORTANT]
 >

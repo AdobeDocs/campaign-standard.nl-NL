@@ -20,28 +20,28 @@ ht-degree: 3%
 
 De levenscyclus van een werkstroom omvat drie hoofdstappen en elke stap is gekoppeld aan een status en een kleur:
 
-* **Bewerken**  (grijs)
+* **Bewerken** (grijs)
 
    Dit is de eerste ontwerpfase van een workflow (zie [Een workflow maken](../../automating/using/building-a-workflow.md#creating-a-workflow)). De workflow wordt nog niet door de server afgehandeld en kan zonder risico worden gewijzigd.
 
-* **Wordt uitgevoerd**  (blauw)
+* **In uitvoering** (blauw)
 
    Zodra de eerste ontwerpfase is voltooid, kan de workflow worden gestart en door de server worden afgehandeld.
 
-* **Voltooid**  (groen)
+* **Voltooid** (groen)
 
    Een werkstroom wordt voltooid wanneer er geen taken meer worden uitgevoerd of wanneer een operator de instantie expliciet heeft gestopt.
 
 Als de workflow eenmaal is gestart, kan deze ook twee andere statussen hebben:
 
-* **Waarschuwing**  (geel)
+* **Waarschuwing** (geel)
 
-   De workflow kon niet worden voltooid of werd gepauzeerd met de knoppen ![](assets/pause_darkgrey-24px.png) of ![](assets/check_pause_darkgrey-24px.png).
+   De werkstroom kon niet worden voltooid of is gepauzeerd met de functie ![](assets/pause_darkgrey-24px.png) of ![](assets/check_pause_darkgrey-24px.png) knoppen.
 
-* **Onjuist**  (rood)
+* **Onjuist** (rood)
 
-   Er is een fout opgetreden bij het uitvoeren van een workflow. De werkstroom is gestopt en de gebruiker moet een actie uitvoeren. Als u meer wilt weten over deze fout, gebruikt u de knop ![](assets/printpreview_darkgrey-24px.png) om toegang te krijgen tot het workflowlogboek (zie [Controle](../../automating/using/monitoring-workflow-execution.md)).
+   Er is een fout opgetreden bij het uitvoeren van een workflow. De werkstroom is gestopt en de gebruiker moet een actie uitvoeren. Als u meer wilt weten over deze fout, gebruikt u de opdracht ![](assets/printpreview_darkgrey-24px.png) om toegang te krijgen tot het workflowlogboek (zie [Toezicht](../../automating/using/monitoring-workflow-execution.md)).
 
-In de lijst met marketingactiviteiten kunt u alle workflows en de bijbehorende statussen weergeven. Zie [Commerciële activiteiten beheren](../../start/using/marketing-activities.md#about-marketing-activities) voor meer informatie.
+In de lijst met marketingactiviteiten kunt u alle workflows en de bijbehorende statussen weergeven. Zie voor meer informatie [Beheer van marketingactiviteiten](../../start/using/marketing-activities.md#about-marketing-activities).
 
 ![](assets/wkf_execution_3.png)

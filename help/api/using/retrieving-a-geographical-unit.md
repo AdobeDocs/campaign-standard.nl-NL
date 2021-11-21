@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # De geografische eenheid van een profiel ophalen {#retrieving-geographical-unit}
 
-1. Voer een verzoek van de GET op het profiel PKey uit om **geoUnit** URL terug te winnen.
+1. Voer een verzoek van de GET op het profiel PKey uit om terug te winnen **geoUnit** URL.
 1. Voer een verzoek van de GET op URL uit om meer details over de Geografische eenheid terug te winnen.
 
 <br/>

@@ -28,7 +28,7 @@ Alvorens een levering te verzenden, moet u ervoor zorgen dat uw ontvangers het b
 
 Met deze stap kunt u mogelijke fouten detecteren en corrigeren voordat u deze aan uw hoofddoel kunt leveren.
 
-De stappen voor het valideren van een levering worden [weergegeven in deze sectie](../../sending/using/get-started-sending-messages.md#prepare-test-send).
+De stappen voor het valideren van een levering worden weergegeven [in deze sectie](../../sending/using/get-started-sending-messages.md#prepare-test-send).
 
 ## E-mailweergave {#email-rendering}
 

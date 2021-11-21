@@ -30,10 +30,10 @@ Standaardrechten zijn:
 
    >[!NOTE]
    >
-   >Als u met de Triggers van de Experience Cloud werkt, hebt u **[!UICONTROL Administration]** recht nodig om tot het menu van de Triggers van de Experience Cloud toegang te hebben. Raadpleeg deze [pagina](../../integrating/using/about-adobe-experience-cloud-triggers.md) voor meer informatie over Experience Cloud-triggers.
+   >Als u met Experience Cloud Triggers werkt, hebt u de **[!UICONTROL Administration]** heeft toegang tot het menu Experience Cloud Triggers. Raadpleeg deze voor meer informatie over Experience Cloud-triggers [page](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**: Recht om publicaties uit te voeren en aangepaste bronnen te maken.
-* **[!UICONTROL Generic import]**: Recht om een generieke import op data uit te voeren. Dit werkt alleen als u de rol **[!UICONTROL Generic import]** koppelt aan de rol **[!UICONTROL Workflow]**.
+* **[!UICONTROL Generic import]**: Recht om een generieke import op data uit te voeren. Dit werkt alleen als u de **[!UICONTROL Generic import]** de rol van de **[!UICONTROL Workflow]** rol.
 * **[!UICONTROL Prepare deliveries]**: Recht om leveringen te maken, te wijzigen, voor te bereiden en te verwijderen. Gebruikers met deze rol kunnen de levering voorbereiden, maar niet verzenden.
 * **[!UICONTROL Start deliveries]**: Recht om leveringen te maken, te wijzigen, voor te bereiden, te verzenden en te verwijderen.
 * **[!UICONTROL Workflow]**: Recht om de uitvoering van workflows te beheren (starten, stoppen, pauzeren, enz.). Gebruikers met deze rol kunnen zelfs in een workflow geen levering verzenden.

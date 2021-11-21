@@ -54,7 +54,7 @@ Het maken van een direct-maillevering lijkt veel op het maken van een gewone e-m
 
 1. Als u testprofielen hebt toegevoegd (zie [Test- en trapprofielen toevoegen](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)), kunt u de levering testen voordat u het definitieve bestand voorbereidt. Hiermee kunt u een voorbeeldbestand maken dat alleen de geselecteerde testprofielen bevat.
 
-   Klik op **[!UICONTROL Test]** om het voorbeeldbestand te genereren. Klik op **[!UICONTROL Summary]** in de linkerbovenhoek en selecteer **[!UICONTROL Proofs]**. Selecteer de proef in het linkergedeelte van het scherm en klik op **[!UICONTROL Download file]**.
+   Klik op **[!UICONTROL Test]** om het voorbeeldbestand te genereren. Klikken op **[!UICONTROL Summary]** in de linkerbovenhoek selecteert u vervolgens **[!UICONTROL Proofs]**. Selecteer de proef in het linkergedeelte van het scherm en klik op **[!UICONTROL Download file]**.
 
    >[!NOTE]
    >

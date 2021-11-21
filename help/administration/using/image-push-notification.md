@@ -28,7 +28,7 @@ Leer in dit document hoe u een afbeelding weergeeft via een Adobe Campaign Stand
 
 Pushmelding wordt ondersteund door Experience Platform-SDK&#39;s.
 
-De mobiele toepassingen die pushberichten ontvangen, moeten door een beheerder in de Adobe Campaign-interface worden geconfigureerd.
+De mobiele toepassingen die pushmeldingen ontvangen, moeten door een beheerder in de Adobe Campaign-interface zijn geconfigureerd.
 
 Door zowel Adobe Campaign als Adobe Mobile Services te configureren, kunt u de gegevens van uw mobiele toepassing gebruiken voor uw campagnes. Raadpleeg [deze pagina](../../administration/using/configuring-a-mobile-application.md) voor meer informatie.
 
@@ -40,9 +40,9 @@ Als u uw pushmelding wilt verfijnen, kunt u in Adobe Campaign een aantal geavanc
 
 1. Een pushmelding maken. Raadpleeg [deze pagina](../../channels/using/preparing-and-sending-a-push-notification.md) voor meer informatie.
 
-1. Open de **[!UICONTROL Advanced options]**-sectie vanaf de pagina met inhoud voor pushberichten.
+1. Open vanaf de pagina met pushberichten de **[!UICONTROL Advanced options]** sectie.
 
-1. Voer in het veld **[!UICONTROL Rich media content URL]** de URL van het bestand in.
+1. Voer de URL van het bestand in het dialoogvenster **[!UICONTROL Rich media content URL]** veld.
 Voor iOS 10 of hoger kunt u afbeeldings-, GIF-, audio- en videobestanden invoegen.
 
    ![](assets/push_notif_advanced_6.png)
@@ -57,17 +57,17 @@ Nadat u uw pushmelding in Adobe Campaign hebt aangepast, moet u uw mobiele toepa
 >
 >Als uw toepassing in doelstelling-C is, verwijs naar het volgende [documentatie](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
 
-Als uw toepassing zich in [!DNL Swift] bevindt, voert u de onderstaande stappen uit:
+Als uw app in [!DNL Swift]volgt u de onderstaande stappen:
 
 1. Open uw [!DNL Xcode] project.
 
-1. Selecteer [!DNL Xcode] > **[!UICONTROL New]** > **[!UICONTROL Target]** in uw **[!UICONTROL File]**-project.
+1. In uw [!DNL Xcode] project selecteren **[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**.
 
 1. Selecteer **[!UICONTROL Notification Service Extension]**.
 
    ![](assets/push_notif_advanced_12.png)
 
-1. Controleer of de bestandsklasse **NotificationService.swift** is gemaakt.
+1. Controleer of de **NotificationService.swift** File-klasse wordt gemaakt.
 
 1. Bewerk deze klasse en vervang de standaardinhoud door het volgende.
 Hierdoor kan de toepassing de binnenkomende parameter afhandelen met de afbeeldings-URL, deze parseren, lokaal kopiëren en vervolgens uit het pushbericht weergeven.
@@ -154,6 +154,6 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 
 ## Stap 4: Test het verzenden van de push {#test-send-push}
 
-U kunt nu testen hoe u uw toepassing bouwt en hoe u de levering hebt gemaakt die u in stap 2 hierboven hebt gemaakt. Raadpleeg deze [pagina](../../channels/using/preparing-and-sending-a-push-notification.md) voor meer informatie over het voorbereiden en verzenden van uw pushmelding.
+U kunt nu testen hoe u uw toepassing bouwt en hoe u de levering hebt gemaakt die u in stap 2 hierboven hebt gemaakt. Voor meer informatie over het voorbereiden en verzenden van uw pushmelding raadpleegt u deze [page](../../channels/using/preparing-and-sending-a-push-notification.md).
 
 ![](assets/push_notif_advanced_34.png)

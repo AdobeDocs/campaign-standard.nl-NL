@@ -24,7 +24,7 @@ Meer informatie over leveringssjablonen vindt u in [deze sectie](../../start/usi
 
 ## Aan de slag met leveringssjablonen {#gs-templates}
 
-Met een [leveringssjabloon](../../start/using/marketing-activity-templates.md#creating-a-new-template) kunt u één keer een set technische en functionele eigenschappen definiëren die aan uw behoeften voldoen en die opnieuw kunnen worden gebruikt voor toekomstige leveringen. U kunt dan tijd besparen en leveringen standaardiseren wanneer dat nodig is.
+A [leveringssjabloon](../../start/using/marketing-activity-templates.md#creating-a-new-template) kunt u een reeks technische en functionele eigenschappen definiëren die aan uw behoeften voldoen en die opnieuw kunnen worden gebruikt voor toekomstige leveringen. U kunt dan tijd besparen en leveringen standaardiseren wanneer dat nodig is.
 
 Als u meerdere merken beheert in Adobe Campaign, raadt Adobe aan één subdomein per merk te hebben. Een bank kan bijvoorbeeld verschillende subdomeinen hebben die overeenkomen met elk van haar regionale agentschappen. Als een bank eigenaar is van het domein bluebank.com, kunnen de subdomeinen @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, enz. zijn. Als u één leveringssjabloon per subdomein hebt, kunt u altijd de juiste vooraf geconfigureerde parameters voor elk merk gebruiken. Hierdoor worden fouten voorkomen en bespaart u tijd.
 
@@ -42,47 +42,47 @@ Als u meerdere merken beheert in Adobe Campaign, raadt Adobe aan één subdomein
 
 * Adobe raadt u aan e-mailaccounts te maken die overeenkomen met de adressen die zijn opgegeven voor leveringen en antwoorden. Vraag de beheerder van het berichtensysteem om advies.
 
-In de **[!UICONTROL Advanced parameters]** sectie van de eigenschappen van een e-mailmalplaatje, beantwoordt het **[!UICONTROL From (email address)]** gebied aan het adres van de afzender.
+In de **[!UICONTROL Advanced parameters]** van de eigenschappen van een e-mailsjabloon, de **[!UICONTROL From (email address)]** komt overeen met het adres van de afzender.
 
 ![](assets/template-parameters.png)
 
 Het adresdomein moet het zelfde als subdomein zijn dat u vormde.
 
-De velden **[!UICONTROL Reply to]** komen overeen met het e-mailadres en de naam die worden gebruikt voor reacties.
+De **[!UICONTROL Reply to]** de velden komen overeen met het e-mailadres en de naam die voor reacties worden gebruikt.
 
-**Tip**  - Adobe raadt u aan een bestaand reëel adres te gebruiken, zoals de klantenservice van uw merk. In dit geval, als een ontvanger een antwoord verzendt, zal de klantenzorg het kunnen behandelen.
+**Tip** - Adobe raadt u aan een bestaand reëel adres te gebruiken, zoals de klantenservice van uw merk. In dit geval, als een ontvanger een antwoord verzendt, zal de klantenzorg het kunnen behandelen.
 
-Als u de naam wilt wijzigen van de afzender die wordt weergegeven in de koptekst van de verzonden berichten, gaat u naar het tabblad **[!UICONTROL Properties]** van de startpagina van E-mailontwerper (toegankelijk via het introductiepictogram) en klikt u op het blok **[!UICONTROL Default sender name]**.
+Als u de naam van de afzender wilt wijzigen die wordt weergegeven in de koptekst van de verzonden berichten, gaat u naar **[!UICONTROL Properties]**  tabblad van de introductiepagina E-mail Designer (toegankelijk via het introductiepictogram) en klik op de knop **[!UICONTROL Default sender name]** blokkeren.
 
 ![](assets/template-content.png)
 
 Om de openingssnelheid van uw leveringen te verhogen, raadt Adobe u aan een naam te gebruiken die gemakkelijk kan worden herkend door de ontvangers, zoals de naam van uw merk.
 
-**Tip**  - Als u de ervaring van de ontvanger verder wilt verbeteren, kunt u de naam van een persoon toevoegen, bijvoorbeeld &#39;Emma van Megastore&#39;.
+**Tip** - Om de ervaring van de ontvanger verder te verbeteren, kunt u de naam van een persoon toevoegen, bijvoorbeeld &quot;Emma van Megastore&quot;.
 
-Zie [E-mailafzender](../../designing/using/subject-line.md#email-sender) voor meer informatie over het aanpassen van de naam van de afzender.
+Voor meer bij het personaliseren van de afzendernaam, zie [E-mailafzender](../../designing/using/subject-line.md#email-sender).
 
 ## De naam van de SMS-afzender aanpassen
 
-In **Geavanceerde parameters** sectie van de eigenschappen van een malplaatje van SMS, staat **Van** optie u toe om de naam van de berichtafzender van SMS te personaliseren gebruikend een koord van karakters. Dit is de naam die wordt weergegeven als de afzender van het sms-bericht op de mobiele telefoon van de ontvanger.
+In de **Geavanceerde parameters** van de eigenschappen van een SMS-sjabloon, de **Van** kunt u de naam van de afzender van het SMS-bericht aanpassen met een reeks tekens. Dit is de naam die wordt weergegeven als de afzender van het sms-bericht op de mobiele telefoon van de ontvanger.
 
 Als dit veld leeg is, wordt het bronnummer gebruikt dat in het externe account is opgegeven. Als er geen bronnummer is opgegeven, wordt de korte code gebruikt. Zie [Sms-configuratie ](../../administration/using/configuring-sms-channel.md) voor meer informatie.
 
-**Tip**  - Controleer de wetgeving in uw land met betrekking tot het wijzigen van het adres van de afzender. Neem ook contact op met uw sms-serviceprovider om te controleren of deze deze functionaliteit aanbiedt.
+**Tip** - Controleer de wetgeving in uw land met betrekking tot het wijzigen van het adres van de afzender. Neem ook contact op met uw sms-serviceprovider om te controleren of deze deze functionaliteit aanbiedt.
 
 ## Een controlegroep instellen
 
-Nadat de levering is verzonden, kunt u het gedrag van de uitgesloten ontvangers vergelijken met de ontvangers die de levering wel hebben ontvangen. Vervolgens kunt u de efficiëntie van uw campagnes meten. Meer informatie over besturingsgroepen [deze sectie](../../sending/using/control-group.md).
+Nadat de levering is verzonden, kunt u het gedrag van de uitgesloten ontvangers vergelijken met de ontvangers die de levering wel hebben ontvangen. Vervolgens kunt u de efficiëntie van uw campagnes meten. Meer informatie over controlegroepen [deze sectie](../../sending/using/control-group.md).
 
 ## Typologieën gebruiken om filters of controleregels toe te passen
 
 Een typologie bevat controleregels die tijdens de analysefase worden toegepast, alvorens om het even welk bericht te verzenden.
 
-Wijzig in de sectie **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** van de eigenschappen van de sjabloon de standaardtypologie naar wens.
+In de **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** van de eigenschappen van de sjabloon, wijzigt u de standaardtypologie naar wens.
 
 Bijvoorbeeld, om het uitgaande verkeer beter te controleren, kunt u bepalen welke IP adressen kunnen worden gebruikt door één affiniteit per subdomein te bepalen en één typologie per affiniteit te creëren. De affiniteiten worden gedefinieerd in het configuratiebestand van de instantie. Neem contact op met uw Adobe Campaign-beheerder.
 
-Raadpleeg [deze sectie](../../sending/using/managing-typologies.md) voor meer informatie over typologieën.
+Raadpleeg voor meer informatie over typologieën [deze sectie](../../sending/using/managing-typologies.md).
 
 ## Een merk koppelen aan een sjabloon
 
@@ -94,6 +94,6 @@ Als u het merk wilt weergeven of wijzigen dat aan een leveringssjabloon is toege
 
 ![](assets/template-brand.png)
 
-Zie [Een merk toewijzen aan een e-mail](../../administration/using/branding.md#assigning-a-brand-to-an-email) voor meer informatie over het koppelen van een merk aan een sjabloon.
+Zie voor meer informatie over het koppelen van een merk aan een sjabloon [Een merk toewijzen aan een e-mail](../../administration/using/branding.md#assigning-a-brand-to-an-email).
 
-Leer hoe u een merk [in deze sectie](../../administration/using/branding.md#creating-a-brand) kunt maken en configureren.
+Leer hoe u een merk kunt maken en configureren [in deze sectie](../../administration/using/branding.md#creating-a-brand).

@@ -20,7 +20,7 @@ ht-degree: 11%
 
 Gerichte populatie is van essentieel belang: uw lijsten zorgvuldig samen te stellen, uw e-mailberichten te testen op populaire e-mailclients en mobiele apparaten en ervoor te zorgen dat uw e-maillijsten up-to-date zijn (zonder onbekende of verouderde adressen). U kunt ook proefdrukken verzenden waarmee u een volledige validatiecyclus kunt instellen.
 
-Meer informatie over doelpopulaties [in deze sectie](../../audiences/using/selecting-an-audience-in-a-message.md)
+Meer informatie over doelgroepen [in deze sectie](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 ## Doelgroep {#target-the-right-audience}
 
@@ -30,30 +30,30 @@ Om uw levering succesvol te maken, wilt u de meest relevante gepersonaliseerde i
 
 ## Doeltoewijzingen {#target-mappings}
 
-Standaard richten leveringssjablonen **Profielen**. Adobe Campaign biedt andere doeltoewijzingen voor uw leveringen die u op basis van uw behoeften kunt wijzigen.
+Standaard wordt voor leveringssjablonen het doel **Profielen**. Adobe Campaign biedt andere doeltoewijzingen voor uw leveringen die u op basis van uw behoeften kunt wijzigen.
 
-Deze toewijzingen worden [in deze sectie](../../automating/using/query.md#targeting-dimensions-and-resources) voorgesteld.
+Deze toewijzingen worden weergegeven [in deze sectie](../../automating/using/query.md#targeting-dimensions-and-resources).
 
 U kunt ook een aangepaste doeltoewijzing maken en gebruiken. Raadpleeg [deze sectie](../../administration/using/target-mappings-in-campaign.md) voor meer informatie.
 
 ## Externe gegevens {#external-data}
 
-U kunt leveren aan ontvangers die in een extern dossier eerder dan opgeslagen in het gegevensbestand worden opgeslagen. Hiertoe ontwerpt u een workflow om gegevens uit een bestand in uw database te laden en een bijbehorend publiek te maken.  Lees meer [in dit gebruiksgeval](../../automating/using/use-case-calling-workflow.md). Zie ook [Een workflow aanroepen met parameters](../../automating/using/calling-a-workflow-with-external-parameters.md).
+U kunt leveren aan ontvangers die in een extern dossier eerder dan opgeslagen in het gegevensbestand worden opgeslagen. Hiertoe ontwerpt u een workflow om gegevens uit een bestand in uw database te laden en een bijbehorend publiek te maken.  Meer informatie [in dit geval](../../automating/using/use-case-calling-workflow.md). Zie ook [Een workflow met parameters aanroepen](../../automating/using/calling-a-workflow-with-external-parameters.md).
 
 ## Verzenden naar uw abonnees {#send-to-subscribers}
 
 Om berichten naar de abonnees van een nieuwsbrief te verzenden, kunt u de abonnees aan de overeenkomstige informatiedienst direct richten. Meer informatie [in deze sectie](../../audiences/using/about-subscriptions.md).
 
-**Tip**  - U kunt een publiek van de Lijst tot stand brengen dat de abonnees aan uw nieuwsbrief richt gebruikend een werkschema. U kunt dit publiek vervolgens in een levering selecteren. Voor meer op dit, zie [Creërend lijstpubliek](../../audiences/using/creating-audiences.md#creating-list-audiences).
+**Tip** - U kunt een publiek van de Lijst tot stand brengen dat de abonnees aan uw nieuwsbrief richt gebruikend een werkschema. U kunt dit publiek vervolgens in een levering selecteren. Zie voor meer informatie [Lijstpubliek maken](../../audiences/using/creating-audiences.md#creating-list-audiences).
 
 ## Proefdrukken, testprofielen en controlegroepen {#proofs-test-control-groups}
 
 Om uw levering te testen, gebruik proef alvorens naar het belangrijkste doel te verzenden.
-Zorg ervoor dat u de juiste ontvangers voor het bewijs selecteert, omdat deze het formulier en de inhoud van het bericht valideren. De stappen voor het verzenden van proefdrukken worden [in deze sectie](../../sending/using/sending-proofs.md) voorgesteld.
+Zorg ervoor dat u de juiste ontvangers voor het bewijs selecteert, omdat deze het formulier en de inhoud van het bericht valideren. De stappen voor het verzenden van proefdrukken worden weergegeven [in deze sectie](../../sending/using/sending-proofs.md).
 
 Meer informatie over testprofielen [in deze sectie](../../audiences/using/managing-test-profiles.md).
 
-U kunt [Controlegroepen](../../sending/using/control-group.md) gebruiken om het effect van uw campagnes te meten door een deel van hun publiek uit te sluiten. Vervolgens kunt u de gedragingen van de doelgroep die het bericht heeft ontvangen, vergelijken met de gedragingen van contactpersonen die niet zijn getarget. Op basis van de verzendlogboeken kunt u in toekomstige campagnes ook een controlegroep targeten.
+U kunt [Controlegroepen](../../sending/using/control-group.md) om de impact van uw campagnes te meten door een deel van hun publiek uit te sluiten. Vervolgens kunt u de gedragingen van de doelgroep die het bericht heeft ontvangen, vergelijken met de gedragingen van contactpersonen die niet zijn getarget. Op basis van de verzendlogboeken kunt u in toekomstige campagnes ook een controlegroep targeten.
 
 ## Gedupliceerde adressen {#deduplicate-addresses}
 
@@ -65,4 +65,4 @@ Het is belangrijk om dubbele e-mailadressen te vermijden, omdat dit van invloed 
 
 Deduplicating adressen beschermt uw verzendende reputatie en verzekert goed quarantainebeheer.
 
-Lees meer [in dit gebruiksgeval](../../automating/using/deduplicating-data-imported-file.md).
+Meer informatie [in dit geval](../../automating/using/deduplicating-data-imported-file.md).

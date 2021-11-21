@@ -31,7 +31,7 @@ In het configuratiescherm voor e-mail kunt u de parameters voor het e-mailkanaal
    In de sectie **[!UICONTROL Header parameters of sent emails]** worden de geautoriseerde e-mailadressen vermeld die u kunt gebruiken om e-mails naar uw ontvangers te verzenden (het adres van de afzender) en om hen in staat te stellen geautomatiseerde antwoorden zoals asynchrone onbezorgbare mails, out-of-office antwoorden, enz. terug te sturen. (foutadres).  Adobe Campaign controleert tijdens de voorbereiding van berichten of de ingevoerde adressen geldig zijn. Deze werkwijze zorgt ervoor dat geen adressen worden gebruikt die problemen kunnen veroorzaken.
    * Zowel het adres van de afzender als het foutadres worden door Adobe ingesteld. Deze velden mogen niet leeg zijn.
    * U kunt deze velden niet bewerken. Als u een adres wilt bijwerken, neemt u contact op met de Klantenservice van Adobe.
-   * Als u nog een adres wilt toevoegen, gebruikt u het [Configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) om een nieuw subdomein in te stellen of neemt u contact op met de Klantenservice van Adobe. Als u meerdere maskers gebruikt, worden deze door komma&#39;s van elkaar gescheiden.
+   * Als u nog een adres wilt toevoegen, gebruikt u het [Configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl) om een nieuw subdomein in te stellen of neemt u contact op met de Klantenservice van Adobe. Als u meerdere maskers gebruikt, worden deze door komma&#39;s van elkaar gescheiden.
    * Het is aan te raden adressen in te stellen met een ster zoals *@yourdomain.com: dan kunt u elk adres gebruiken dat eindigt met uw subdomeinnaam.
 
 * **Bezorging**
@@ -57,7 +57,7 @@ In het configuratiescherm voor e-mail kunt u de parameters voor het e-mailkanaal
 
    >[!IMPORTANT]
    >
-   >Het maximumaantal uit te voeren pogingen en de minimumvertraging tussen opnieuw proberen zijn nu gebaseerd op hoe goed IP zowel historisch als momenteel bij een bepaald domein uitvoert. De **[!UICONTROL Retry period]** en **[!UICONTROL Number of retries]** montages in Campagne zullen worden genegeerd.
+   >Het maximumaantal uit te voeren pogingen en de minimumvertraging tussen opnieuw proberen zijn nu gebaseerd op hoe goed IP zowel historisch als momenteel bij een bepaald domein uitvoert. De **[!UICONTROL Retry period]** en **[!UICONTROL Number of retries]** instellingen in Campagne worden genegeerd.
 
    <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
@@ -88,9 +88,9 @@ Beheerders hebben toegang tot de **[!UICONTROL Email processing rules]** via het
 
 >[!IMPORTANT]
 >
->De e-maildomeinen en de MX-regels worden nu automatisch beheerd<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> en kunnen niet worden gewijzigd.
+>De e-maildomeinen en de MX-regels worden nu automatisch beheerd<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> en kan niet worden gewijzigd.
 
-* **DKIM (DomainKeys Identified Mail)** e-mailverificatie wordt ondertekend voor alle berichten met alle domeinen. Het ondertekent niet met **Afzender ID**, **Domeinsleutels**, of **S/MIME**.
+* **DKIM (DomainKeys Identified Mail)** Ondertekening van e-mailverificatie wordt uitgevoerd voor alle berichten met alle domeinen. Het wordt niet ondertekend met **Afzender-id**, **DomainKeys**, of **S/MIME**.
 * MX-regels passen uw doorvoer automatisch aan per domein op basis van uw eigen historische e-mailreputatie en de real-time feedback uit de domeinen waar u e-mails verzendt.
 
 <!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
@@ -161,7 +161,7 @@ Voor tijdelijk niet bezorgde berichten wordt automatisch een nieuwe poging uitge
 
 >[!IMPORTANT]
 >
->De minimale vertraging tussen pogingen en het maximumaantal uit te voeren pogingen zijn nu gebaseerd op hoe goed IP zowel historisch als momenteel bij een bepaald domein uitvoert. De **[!UICONTROL Retry period]** en **[!UICONTROL Max. number of retries]** montages in Campagne zullen worden genegeerd.
+>De minimale vertraging tussen pogingen en het maximumaantal uit te voeren pogingen zijn nu gebaseerd op hoe goed IP zowel historisch als momenteel bij een bepaald domein uitvoert. De **[!UICONTROL Retry period]** en **[!UICONTROL Max. number of retries]** instellingen in Campagne worden genegeerd.
 
 De **instelling voor de bezorgingsduur** (gedefinieerd in de sectie [Validity period parameters](#validity-period-parameters)) **die in Campaign is ingesteld, wordt gerespecteerd, maar slechts tot maximaal 3,5 dagen**. Op dat punt wordt elk bericht in de wachtrij Hernieuwde pogingen verwijderd uit deze wachtrij en teruggestuurd als onbezorgbaar. Raadpleeg deze [sectie](../../sending/using/understanding-delivery-failures.md#about-delivery-failures) voor meer informatie over bezorgingsfouten.
 
@@ -308,35 +308,35 @@ De sectie **[!UICONTROL Access authorization]** bevat de volgende parameters:
 
 ## Oudere instellingen {#legacy-settings}
 
-Als u **NOT** in werking stelt de recentste versie van Campagne, zijn de hieronder beschreven parameters en secties UI nog op u van toepassing.
+Als u **NOT** Als u de meest recente versie van Campagne uitvoert, zijn de hieronder beschreven parameters en UI-secties nog steeds op u van toepassing.
 
 ### Hernieuwde pogingen {#legacy-retries}
 
-De **[!UICONTROL Retries]** montages in [het menu van de Configuratie ](#email-channel-parameters) en in [Verzendende parameters](#retries-parameters) van de e-maileigenschappen wijzen op hoeveel herpogingen de dag na de verzending (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) en de minimumvertraging tussen herpogingen (**[!UICONTROL Retry period]**) zou moeten worden uitgevoerd.
+De **[!UICONTROL Retries]** in de [Menu Configuratie](#email-channel-parameters) en in de [Parameters verzenden](#retries-parameters) van de e-maileigenschappen geven aan hoeveel pogingen moeten worden uitgevoerd op de dag nadat de verzending is gestart (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) en de minimale vertraging tussen pogingen (**[!UICONTROL Retry period]**).
 
 Het aantal pogingen kan globaal worden veranderd (contacteer uw Adobe technische beheerder) of voor elke levering of leveringsmalplaatje.
 
-Door gebrek, zijn vijf herpogingen gepland voor de eerste dag met een minimuminterval van één uur, uitgespreid zich over de 24 uren van de dag. Eén retry per dag wordt na die datum geprogrammeerd tot de leveringsdeadline, die globaal is gedefinieerd in de sectie **[!UICONTROL Delivery parameters]** van het menu **[!UICONTROL Configuration]**, of in de sectie **[!UICONTROL Validity period]** op het leveringsniveau (zie de sectie [Leveringsduur](#legacy-delivery-duration) hieronder).
+Door gebrek, zijn vijf herpogingen gepland voor de eerste dag met een minimuminterval van één uur, uitgespreid zich over de 24 uren van de dag. Na die datum en tot de uiterste datum van levering, die globaal in het **[!UICONTROL Delivery parameters]** van de **[!UICONTROL Configuration]** of in het menu **[!UICONTROL Validity period]** op het niveau van de levering (zie de [Leveringsduur](#legacy-delivery-duration) hieronder).
 
 ### Leveringsduur {#legacy-delivery-duration}
 
-Met de parameter **[!UICONTROL Message delivery duration]** in het menu [Configuration](#email-channel-parameters) kunt u het tijdkader opgeven waarin elk bericht in de levering dat een tijdelijke fout of zachte stuit aantreft, opnieuw wordt geprobeerd.
+De **[!UICONTROL Message delivery duration]** in de [Menu Configuratie](#email-channel-parameters) staat u toe om het tijdkader te specificeren waarin om het even welk bericht in de levering die een tijdelijke fout of zachte stuit ontmoet opnieuw zal worden geprobeerd.
 
-Met de parameter **[!UICONTROL Delivery duration]** of **[!UICONTROL Validity limit for sending messages]** in de sectie [Validiteitsperiode parameters](#validity-period-parameters) kunt u opgeven gedurende welke periode de berichten kunnen worden verzonden.
+De **[!UICONTROL Delivery duration]** of **[!UICONTROL Validity limit for sending messages]** in de [Geldigheidsperiode](#validity-period-parameters) kunt u opgeven gedurende welke periode de berichten kunnen worden verzonden.
 
 ### Regels voor e-mailverwerking {#legacy-email-processing-rules}
 
-De **[!UICONTROL MX management]**-, **[!UICONTROL Bounce mails]**- en **[!UICONTROL Domain management]**-regels kunnen door beheerders worden benaderd en gewijzigd via het **[!UICONTROL Administration > Channels > Email > Email processing rules]** [menu](#email-processing-rules).
+De **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** en **[!UICONTROL Domain management]** de regels kunnen door beheerders door middel van worden betreden en worden gewijzigd **[!UICONTROL Administration > Channels > Email > Email processing rules]** [menu](#email-processing-rules).
 
 ### Kwalificatie van niet-bezorgde e-mails {#legacy-bounce-mail-qualification}
 
-Als u de verschillende grenzen en de bijbehorende fouttypen en redenen wilt weergeven, klikt u op het **Adobe**-logo in de linkerbovenhoek en selecteert u **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+Als u de verschillende grenzen en de bijbehorende fouttypen en redenen wilt weergeven, klikt u op de knop **Adobe** logo, in de linkerbovenhoek, selecteert u **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 Stuiterwaarden kunnen de volgende kwalificatiestatus hebben:
 
 * **[!UICONTROL To qualify]**: de stuiterende post moet worden gekwalificeerd. De kwalificatie moet door het leveringsteam worden gedaan om ervoor te zorgen dat de platformleverbaarheid correct functioneert. Zolang het niet wordt gekwalificeerd, wordt de stuiterende post niet gebruikt om de lijst van e-mailverwerkingsregels te verrijken.
-* **[!UICONTROL Keep]**: de stuiterende post werd gekwalificeerd en zal door de  **Update voor** leveringsworkflow worden gebruikt om met bestaande e-mailverwerkingsregels te worden vergeleken en de lijst te verrijken.
-* **[!UICONTROL Ignore]**: de stuiterende post werd gekwalificeerd maar zal niet door de  **Update voor** leveringswerkschema worden gebruikt. Het wordt dus niet naar de clientinstanties verzonden.
+* **[!UICONTROL Keep]**: de stuiterende post werd gekwalificeerd en zal door **Update voor leverbaarheid** te vergelijken met bestaande regels voor e-mailverwerking en de lijst te verrijken.
+* **[!UICONTROL Ignore]**: de stuiterende post werd gekwalificeerd maar zal niet door **Update voor leverbaarheid** workflow. Het wordt dus niet naar de clientinstanties verzonden.
 
 >[!NOTE]
 >
@@ -346,6 +346,6 @@ Stuiterwaarden kunnen de volgende kwalificatiestatus hebben:
 
 ### Rapportage van geleverde indicatoren {#legacy-delivered-status-report}
 
-In de **[!UICONTROL Summary]** mening van elk bericht, zal het **[!UICONTROL Delivered]** percentage progressief stijgen door de geldigheidsperiode van de levering, aangezien de zachte en harde grenzen worden gemeld.
+In de **[!UICONTROL Summary]** de weergave van elk bericht, **[!UICONTROL Delivered]** het percentage zal geleidelijk stijgen gedurende de gehele geldigheidsperiode van de levering , naarmate de zachte en harde schokken worden gemeld .
 
-Elektronische berichten worden weergegeven als **[!UICONTROL Failed]** na de eerste dag van de levering en worden opnieuw geprobeerd op elke volgende dag van de geldigheidsperiode voor de levering.
+Zachte berichten worden weergegeven als **[!UICONTROL Failed]** na de eerste dag van de levering, en zij zullen op elke volgende dag van de geldigheidsperiode voor de levering opnieuw worden beproefd.

@@ -21,14 +21,14 @@ Het gebruik van een importsjabloon is de beste manier als u regelmatig bestanden
 
 In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebruikt voor het importeren van profielen die afkomstig zijn van een CRM in de Adobe Campaign-database.
 
-1. Creeer een nieuw werkschemamalplaatje van **[!UICONTROL Resources > Templates > Workflow templates]**.
+1. Een nieuw werkstroomsjabloon maken op basis van **[!UICONTROL Resources > Templates > Workflow templates]**.
 1. Voeg de volgende activiteiten toe:
 
    * **[!UICONTROL Load file]**: Definieer de verwachte structuur van het bestand met de gegevens die u wilt importeren.
 
       >[!NOTE]
       >
-      >U kunt slechts gegevens uit één bestand importeren. Als de werkstroom meerdere **[!UICONTROL Load file]** activiteiten heeft, wordt steeds hetzelfde bestand gebruikt.
+      >U kunt slechts gegevens uit één bestand importeren. Als de workflow meerdere **[!UICONTROL Load file]** wordt telkens hetzelfde bestand gebruikt.
 
    * **[!UICONTROL Reconciliation]**: De geïmporteerde gegevens afstemmen op de databasegegevens.
    * **[!UICONTROL Segmentation]**: Maak filters om records op een andere manier te verwerken, afhankelijk van de vraag of ze met elkaar in overeenstemming kunnen worden gebracht.
@@ -37,7 +37,7 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
 
    ![](assets/import_template_example0.png)
 
-1. Configureer de **[!UICONTROL Load file]**-activiteit:
+1. Configureer de **[!UICONTROL Load file]** activiteit:
 
    * Definieer de verwachte structuur door een voorbeeldbestand te uploaden. Het voorbeeldbestand mag slechts een paar regels bevatten, maar alle kolommen die nodig zijn voor het importeren. Controleer en bewerk de bestandsindeling om te controleren of het type van elke kolom correct is ingesteld: tekst, datum, geheel getal, enz. Bijvoorbeeld:
 
@@ -46,30 +46,30 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
       Smith;Hayden;23/05/1989;hayden.smith@mailtest.com;123456
       ```
 
-   * Selecteer **[!UICONTROL Upload a new file from the local machine]** in de sectie **[!UICONTROL File to load]** en laat het veld leeg. Telkens wanneer een nieuwe werkstroom van dit malplaatje wordt gecreeerd, kunt u hier het dossier specificeren u wilt, zolang het aan de bepaalde structuur beantwoordt.
+   * In de **[!UICONTROL File to load]** sectie, selecteert u **[!UICONTROL Upload a new file from the local machine]** en laat het veld leeg. Telkens wanneer een nieuwe werkstroom van dit malplaatje wordt gecreeerd, kunt u hier het dossier specificeren u wilt, zolang het aan de bepaalde structuur beantwoordt.
 
-      U kunt alle opties gebruiken, maar u moet de sjabloon dienovereenkomstig aanpassen. Als u bijvoorbeeld **[!UICONTROL Use the file specified in the inbound transition]** selecteert, kunt u een **[!UICONTROL Transfer file]**-activiteit toevoegen voordat u het bestand ophaalt dat u wilt importeren vanaf een FTP-/SFTP-server.
+      U kunt alle opties gebruiken, maar u moet de sjabloon dienovereenkomstig aanpassen. Als u bijvoorbeeld **[!UICONTROL Use the file specified in the inbound transition]** kunt u een **[!UICONTROL Transfer file]** activiteit voor het ophalen van het bestand dat moet worden geïmporteerd van een FTP-/SFTP-server.
 
-      Als u wilt dat gebruikers een bestand kunnen downloaden dat fouten bevat die tijdens het importeren zijn opgetreden, schakelt u **[!UICONTROL Keep the rejects in a file]** in en geeft u **[!UICONTROL File name]** op.
+      Als u wilt dat gebruikers een bestand kunnen downloaden dat fouten bevat die tijdens het importeren zijn opgetreden, controleert u de knop **[!UICONTROL Keep the rejects in a file]** en geeft u de **[!UICONTROL File name]**.
 
       ![](assets/import_template_example1.png)
 
-1. Configureer de **[!UICONTROL Reconciliation]**-activiteit. Het doel van deze activiteit in dit verband is de identificatie van de binnenkomende gegevens.
+1. Configureer de **[!UICONTROL Reconciliation]** activiteit. Het doel van deze activiteit in dit verband is de identificatie van de binnenkomende gegevens.
 
-   * Selecteer **[!UICONTROL Relations]** op het tabblad **[!UICONTROL Create element]** en definieer een koppeling tussen de geïmporteerde gegevens en de ontvangers voor dimensie (zie [Doelafmetingen en bronnen](../../automating/using/query.md#targeting-dimensions-and-resources)). In dit voorbeeld wordt het aangepaste veld **CRM ID** gebruikt om de verbindingsvoorwaarde te maken. Gebruik het veld of de combinatie van velden die u nodig hebt, zolang u unieke records kunt identificeren.
-   * Laat op het tabblad **[!UICONTROL Identification]** de optie **[!UICONTROL Identify the document from the working data]** uitgeschakeld.
+   * In de **[!UICONTROL Relations]** tab, selecteert u **[!UICONTROL Create element]** en definieert u een koppeling tussen de geïmporteerde gegevens en de ontvangers voor dimensie (zie [Doeldimensies en bronnen](../../automating/using/query.md#targeting-dimensions-and-resources)). In dit voorbeeld wordt **CRM-id** Het aangepaste gebied wordt gebruikt om tot de te verbinden voorwaarde te leiden. Gebruik het veld of de combinatie van velden die u nodig hebt, zolang u unieke records kunt identificeren.
+   * In de **[!UICONTROL Identification]** tabblad, laat de **[!UICONTROL Identify the document from the working data]** optie uitgeschakeld.
 
    ![](assets/import_template_example2.png)
 
-1. Configureer de **[!UICONTROL Segmentation]**-activiteit om onderling afgestemde ontvangers in één overgang en ontvangers op te halen die niet in overeenstemming konden worden gebracht, maar die voldoende gegevens in een tweede overgang hebben.
+1. Configureer de **[!UICONTROL Segmentation]** activiteit om verenigde ontvangers in één overgang en ontvangers terug te winnen die niet in overeenstemming konden worden gebracht maar die genoeg gegevens in een tweede overgang hebben.
 
    De overgang met onderling verzochte ontvangers kan dan worden gebruikt om het gegevensbestand bij te werken. De overgang met onbekende ontvangers kan dan worden gebruikt om nieuwe ontvankelijke ingangen in het gegevensbestand tot stand te brengen als een minimumreeks informatie in het dossier beschikbaar is.
 
    Ontvangers die niet in overeenstemming kunnen worden gebracht en niet genoeg gegevens hebben, worden in een complementaire uitgaande overgang geselecteerd en kunnen in een afzonderlijk bestand worden geëxporteerd of eenvoudig worden genegeerd.
 
-   * Stel op het tabblad **[!UICONTROL General]** van de activiteit **[!UICONTROL Resource type]** in op **[!UICONTROL Temporary resource]** en selecteer **[!UICONTROL Reconciliation]** als doelset.
-   * Controleer op het tabblad **[!UICONTROL Advanced options]** de optie **[!UICONTROL Generate complement]** om te kunnen zien of een record niet in de database kan worden ingevoegd. Indien nodig kunt u de aanvullende gegevens verder verwerken: bestand exporteren, lijst bijwerken, enz.
-   * In het eerste segment van het **[!UICONTROL Segments]** lusje, voeg een het filtreren voorwaarde op de binnenkomende bevolking toe om slechts verslagen te selecteren waarvoor identiteitskaart van CRM van het profiel niet gelijk aan 0 is. Op deze manier worden gegevens uit het bestand die overeenkomen met profielen uit de database, geselecteerd in die subset.
+   * In de **[!UICONTROL General]** tabblad van de activiteit, stelt u de **[!UICONTROL Resource type]** tot **[!UICONTROL Temporary resource]** en selecteert u **[!UICONTROL Reconciliation]** als de beoogde set.
+   * In de **[!UICONTROL Advanced options]** tabblad, controleert u de **[!UICONTROL Generate complement]** om te kunnen zien of kan om het even welk verslag niet in het gegevensbestand worden opgenomen. Indien nodig kunt u de aanvullende gegevens verder verwerken: bestand exporteren, lijst bijwerken, enz.
+   * In het eerste segment van het **[!UICONTROL Segments]** tabblad, voegt u een filtervoorwaarde toe aan de binnenkomende populatie om alleen records te selecteren waarvoor de CRM-id van het profiel niet gelijk is aan 0. Op deze manier worden gegevens uit het bestand die overeenkomen met profielen uit de database, geselecteerd in die subset.
 
       ![](assets/import_template_example3.png)
 
@@ -77,26 +77,26 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
 
       ![](assets/import_template_example3_2.png)
 
-   * Alle verslagen die niet in de eerste twee subsets worden geselecteerd worden geselecteerd in **[!UICONTROL Complement]**.
+   * Alle records die niet in de eerste twee subsets zijn geselecteerd, worden geselecteerd in het dialoogvenster **[!UICONTROL Complement]**.
 
-1. Vorm de **[!UICONTROL Update data]** activiteit die na de eerste uitgaande overgang van de **[!UICONTROL Segmentation]** eerder gevormde activiteit wordt gevestigd.
+1. Configureer de **[!UICONTROL Update data]** activiteit die na de eerste uitgaande overgang van wordt gevestigd **[!UICONTROL Segmentation]** eerder geconfigureerde activiteit.
 
-   * Selecteer **[!UICONTROL Update]** als **[!UICONTROL Operation type]** omdat de binnenkomende overgang alleen ontvangers bevat die al in de database aanwezig zijn.
-   * Selecteer **[!UICONTROL Identification]** op het tabblad **[!UICONTROL Using reconciliation criteria]** en definieer een sleutel tussen **[!UICONTROL Dimension to update]** - In dit geval Profielen - en de koppeling die wordt gemaakt in de **[!UICONTROL Reconciliation]**-activiteit. In dit voorbeeld wordt het aangepaste veld **CRM ID** gebruikt.
+   * Selecteren **[!UICONTROL Update]** als **[!UICONTROL Operation type]** aangezien de binnenkomende overgang slechts ontvangers bevat die reeds in het gegevensbestand aanwezig zijn.
+   * In de **[!UICONTROL Identification]** tab, selecteert u **[!UICONTROL Using reconciliation criteria]** en definieert u een sleutel tussen de **[!UICONTROL Dimension to update]** - Profielen in dit geval - en de koppeling die in het dialoogvenster **[!UICONTROL Reconciliation]** activiteit. In dit voorbeeld wordt **CRM-id** aangepast veld wordt gebruikt.
 
       ![](assets/import_template_example6.png)
 
-   * Geef op het tabblad **[!UICONTROL Fields to update]** de velden in de profieldimensie op die moeten worden bijgewerkt met de waarde van de corresponderende kolom in het bestand. Als de namen van de bestandskolommen identiek of bijna identiek zijn aan de namen van de afmetingsvelden van de ontvangers, kunt u de toverknop gebruiken om de verschillende velden automatisch aan te passen.
+   * In de **[!UICONTROL Fields to update]** , geeft u de velden in de profieldimensie aan die u wilt bijwerken met de waarde van de corresponderende kolom in het bestand. Als de namen van de bestandskolommen identiek of bijna identiek zijn aan de namen van de afmetingsvelden van de ontvangers, kunt u de toverknop gebruiken om de verschillende velden automatisch aan te passen.
 
       ![](assets/import_template_example6_2.png)
 
       >[!NOTE]
       >
-      >Als u directe mails naar deze profielen wilt verzenden, moet u ook een postadres opgeven. Deze informatie is namelijk van wezenlijk belang voor de provider van de directe mail. Controleer ook of het vak **[!UICONTROL Address specified]** in de gegevens van uw profielen is ingeschakeld. Als u deze optie vanuit een workflow wilt bijwerken, voegt u eenvoudig een element toe aan de velden die u wilt bijwerken, geeft u **1** op als **[!UICONTROL Source]** en selecteert u het veld `postalAddress/@addrDefined` als **[!UICONTROL Destination]**. Zie [dit document](../../channels/using/about-direct-mail.md#recommendations) voor meer informatie over direct mail en het gebruik van de optie **[!UICONTROL Address specified]**.
+      >Als u directe mails naar deze profielen wilt verzenden, moet u ook een postadres opgeven. Deze informatie is namelijk van wezenlijk belang voor de provider van de directe mail. Zorg er ook voor dat de **[!UICONTROL Address specified]** in de gegevens van uw profielen is ingeschakeld. Als u deze optie vanuit een workflow wilt bijwerken, voegt u eenvoudig een element toe aan de bij te werken velden en geeft u **1** als **[!UICONTROL Source]** en selecteert u de `postalAddress/@addrDefined` veld als **[!UICONTROL Destination]**. Voor meer informatie over direct mail en het gebruik van **[!UICONTROL Address specified]** optie, zie [dit document](../../channels/using/about-direct-mail.md#recommendations).
 
-1. Configureer de **[!UICONTROL Deduplication]**-activiteit die zich na de overgang bevindt en die niet-compatibele profielen bevat:
+1. Configureer de **[!UICONTROL Deduplication]** activiteit die zich na de overgang bevindt die niet-compatibele profielen bevat:
 
-   * Stel op het tabblad **[!UICONTROL Properties]** de **[!UICONTROL Resource type]** in op de tijdelijke bron die wordt gegenereerd door de **[!UICONTROL Reconciliation]**-activiteit van de workflow.
+   * In de **[!UICONTROL Properties]** tabblad, stelt u de **[!UICONTROL Resource type]** aan de tijdelijke bron die door de **[!UICONTROL Reconciliation]** activiteit van de workflow.
 
       ![](assets/import_template_example4.png)
 
@@ -105,24 +105,24 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
 
    ![](assets/import_template_example7.png)
 
-1. Vorm **[!UICONTROL Update data]** activiteit die na **[!UICONTROL Deduplication]** eerder gevormde activiteit wordt gevestigd.
+1. Configureer de **[!UICONTROL Update data]** activiteit die zich na de **[!UICONTROL Deduplication]** eerder geconfigureerde activiteit.
 
-   * Selecteer **[!UICONTROL Insert only]** als **[!UICONTROL Operation type]** aangezien de binnenkomende overgang slechts profielen bevat die niet in het gegevensbestand aanwezig zijn.
-   * Selecteer **[!UICONTROL Identification]** op het tabblad **[!UICONTROL Using reconciliation criteria]** en definieer een sleutel tussen **[!UICONTROL Dimension to update]** - In dit geval Profielen - en de koppeling die wordt gemaakt in de **[!UICONTROL Reconciliation]**-activiteit. In dit voorbeeld wordt het aangepaste veld **CRM ID** gebruikt.
+   * Selecteren **[!UICONTROL Insert only]** als **[!UICONTROL Operation type]** omdat de inkomende overgang alleen profielen bevat die niet aanwezig zijn in de database.
+   * In de **[!UICONTROL Identification]** tab, selecteert u **[!UICONTROL Using reconciliation criteria]** en definieert u een sleutel tussen de **[!UICONTROL Dimension to update]** - Profielen in dit geval - en de koppeling die in het dialoogvenster **[!UICONTROL Reconciliation]** activiteit. In dit voorbeeld wordt **CRM-id** aangepast veld wordt gebruikt.
 
       ![](assets/import_template_example6.png)
 
-   * Geef op het tabblad **[!UICONTROL Fields to update]** de velden in de profieldimensie op die moeten worden bijgewerkt met de waarde van de corresponderende kolom in het bestand. Als de namen van de bestandskolommen identiek of bijna identiek zijn aan de namen van de afmetingsvelden van de ontvangers, kunt u de toverknop gebruiken om de verschillende velden automatisch aan te passen.
+   * In de **[!UICONTROL Fields to update]** , geeft u de velden in de profieldimensie aan die u wilt bijwerken met de waarde van de corresponderende kolom in het bestand. Als de namen van de bestandskolommen identiek of bijna identiek zijn aan de namen van de afmetingsvelden van de ontvangers, kunt u de toverknop gebruiken om de verschillende velden automatisch aan te passen.
 
       ![](assets/import_template_example6_2.png)
 
       >[!NOTE]
       >
-      >Als u directe mails naar deze profielen wilt verzenden, moet u ook een postadres opgeven. Deze informatie is namelijk van wezenlijk belang voor de provider van de directe mail. Controleer ook of het vak **[!UICONTROL Address specified]** in de gegevens van uw profielen is ingeschakeld. Als u deze optie vanuit een workflow wilt bijwerken, voegt u eenvoudig een element toe aan de velden die u wilt bijwerken, geeft u **1** op als **[!UICONTROL Source]** en selecteert u het veld **[postalAddress/@addrDefined]** als **[!UICONTROL Destination]**. Zie [dit document](../../channels/using/about-direct-mail.md#recommendations) voor meer informatie over direct mail en het gebruik van de optie **[!UICONTROL Address specified]**.
+      >Als u directe mails naar deze profielen wilt verzenden, moet u ook een postadres opgeven. Deze informatie is namelijk van wezenlijk belang voor de provider van de directe mail. Zorg er ook voor dat de **[!UICONTROL Address specified]** in de gegevens van uw profielen is ingeschakeld. Als u deze optie vanuit een workflow wilt bijwerken, voegt u eenvoudig een element toe aan de bij te werken velden en geeft u **1** als **[!UICONTROL Source]** en selecteert u de **[postalAddress/@addrDefined]** veld als **[!UICONTROL Destination]**. Voor meer informatie over direct mail en het gebruik van **[!UICONTROL Address specified]** optie, zie [dit document](../../channels/using/about-direct-mail.md#recommendations).
 
-1. Na de derde overgang van de **[!UICONTROL Segmentation]** activiteit, voeg **[!UICONTROL Extract file]** activiteit en **[!UICONTROL Transfer file]** activiteit toe als u spoor van gegevens wilt houden die niet in het gegevensbestand worden opgenomen. Configureer die activiteiten om de kolom die u nodig hebt te exporteren en om het bestand over te brengen naar een FTP- of SFTP-server waar u het bestand kunt ophalen.
-1. Voeg een **[!UICONTROL End]** activiteit toe en sla het werkschemamalplaatje op.
+1. Na de derde overgang van de **[!UICONTROL Segmentation]** activiteit, voeg een **[!UICONTROL Extract file]** en **[!UICONTROL Transfer file]** activiteit als u spoor van gegevens wilt houden die niet in het gegevensbestand worden opgenomen. Configureer die activiteiten om de kolom die u nodig hebt te exporteren en om het bestand over te brengen naar een FTP- of SFTP-server waar u het bestand kunt ophalen.
+1. Een **[!UICONTROL End]** en sla het werkstroomsjabloon op.
 
-De sjabloon kan nu worden gebruikt en is beschikbaar voor elke nieuwe workflow. Alles is dan nodig om het bestand op te geven dat de gegevens bevat die in de **[!UICONTROL Load file]**-activiteit moeten worden geïmporteerd.
+De sjabloon kan nu worden gebruikt en is beschikbaar voor elke nieuwe workflow. Het bestand met de gegevens die u wilt importeren in het dialoogvenster **[!UICONTROL Load file]** activiteit.
 
 ![](assets/import_template_example9.png)

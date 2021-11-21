@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Problemen oplossen {#troubleshooting}
 
-* **Wanneer u naar de Adobe.io-console gaat, treedt de volgende fout op: &quot;De console van de Adobe I/O is slechts beschikbaar om leden van ondernemingsrekeningen te selecteren. Als u van mening bent dat u toegang zou moeten hebben, gelieve uw Beheerder van het Systeem te contacteren.&quot;**
+* **Wanneer u naar de Adobe.io-console gaat, treedt de volgende fout op: &quot;De console van de Adobe I/O is slechts beschikbaar om leden van ondernemingsrekeningen te selecteren. Neem contact op met uw systeembeheerder als u van mening bent dat u toegang moet hebben.&quot;**
 
 U kunt alleen API-sleutels maken voor de IMS-organisaties waarvan u de beheerder bent. Als dit bericht wordt weergegeven en u API-sleutels wilt maken, vraagt u een van de beheerders van de IMS-organisatie.
 
@@ -87,7 +87,7 @@ Uw token is ongeldig (onjuiste IMS-aanroep die wordt gebruikt om een token te ge
 
 * **Ik zie mijn profiel niet na creatie**
 
-Afhankelijk van de instantieconfiguratie, moet het gecreeerde profiel aan **orgUnit** worden geassocieerd. Raadpleeg [deze sectie](../../api/using/creating-profiles.md) voor meer informatie over het toevoegen van dit veld in uw project.
+Afhankelijk van de instantieconfiguratie moet het gemaakte profiel worden gekoppeld aan een **orgUnit**. Als u wilt weten hoe u dit veld kunt toevoegen aan uw creatie, raadpleegt u [deze sectie](../../api/using/creating-profiles.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 

@@ -14,7 +14,7 @@ ht-degree: 40%
 
 # Informatie over lidmaatschappen{#about-subscriptions}
 
-Gebruik Adobe Campaign om nieuwsbrieven en communicatie tussen kanalen te creëren en te beheren, door een reeks van **services**: berichten worden alleen verzonden naar profielen die zijn geabonneerd op de service (opt-in). Deze profielen worden geïdentificeerd met een speciaal filter wanneer u een bericht maakt.
+Gebruik Adobe Campaign om nieuwsbrieven en communicatie tussen kanalen te creëren en te beheren, door een reeks van **diensten**: berichten worden alleen verzonden naar profielen die zijn geabonneerd op de service (opt-in). Deze profielen worden geïdentificeerd met een speciaal filter wanneer u een bericht maakt.
 
 Abonnementmechanismen kunnen worden ingesteld om uw klanten de mogelijkheid te bieden zich voor deze services in te schrijven, met name via **e-mails** en **landingspagina’s**.
 
@@ -30,10 +30,10 @@ Abonnementen kunnen ook worden beheerd met de Adobe Campaign Standard API. Raadp
 
 Voer de onderstaande stappen uit om een abonnementsmechanisme te maken:
 
-1. **Een service**  maken: volg de stappen die  [in deze ](../../audiences/using/creating-a-service.md) sectie worden beschreven om een abonnementenservice te maken
-1. **Deel de koppeling** : leer hoe u uw service kunt promoten en delen  [op deze pagina](../../audiences/using/promoting-a-service.md)
-1. **Abonnementen**  controleren - ontdek verscheidene manieren om abonnementen op uw dienst  [in deze sectie te controleren](../../audiences/using/monitoring-subscriptions.md)
-1. **Abonnementen**  bevestigen - volg  [deze ](../../audiences/using/confirming-subscription-to-a-service.md) zelfstudie om een bevestigingsbericht voor een abonnement te verzenden
+1. **Een service maken** - de beschreven stappen volgen [in deze sectie](../../audiences/using/creating-a-service.md) om een abonnementendienst tot stand te brengen
+1. **De koppeling delen** - leer hoe u uw service kunt promoten en delen [op deze pagina](../../audiences/using/promoting-a-service.md)
+1. **Abonnementen controleren** - ontdek verscheidene manieren om abonnementen op uw dienst te controleren [in deze sectie](../../audiences/using/monitoring-subscriptions.md)
+1. **Abonnementen bevestigen** - volgen [deze zelfstudie](../../audiences/using/confirming-subscription-to-a-service.md) om een bevestigingsbericht voor een abonnement te verzenden
 
 ## Aanvullende bronnen
 

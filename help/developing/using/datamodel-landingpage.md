@@ -392,7 +392,7 @@ ht-degree: 1%
       </tr>
       <tr>
          <td>connectionFilter (queryFilterBase)</td>
-         <td>Afstemmingssleutel</td>
+         <td>Verzoeningssleutel</td>
          <td>link </td>
          <td> </td>
       </tr>

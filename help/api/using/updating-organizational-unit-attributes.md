@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # Kenmerken van een organisatorische eenheid bijwerken {#updating-organizational-unit-attributes}
 
-1. Voer een verzoek van de GET op **orgUnitBase** middel uit om de Organisatorische eenheid PKey terug te winnen.
+1. Voer een verzoek van de GET uit op **orgUnitBase** bron voor het ophalen van de PKey-organisatie.
 1. Voer een verzoek van de PATCH op de Organisatorische eenheid uit, met de attributen om in de lading bij te werken.
 
 <br/>

@@ -34,7 +34,7 @@ Extensievelden krijgen een voorvoegsel, zodat ze nooit een conflict veroorzaken 
 
 >[!NOTE]
 >
->U kunt een datamodel vertegenwoordiging voor de ingebouwde middelen in [deze pagina](../../developing/using/datamodel-introduction.md) vinden.
+>U kunt een datamodel vertegenwoordiging voor de ingebouwde middelen in vinden [deze pagina](../../developing/using/datamodel-introduction.md).
 
 U kunt [de schermnavigatie ook configureren](configuring-the-screen-definition.md) op basis van de bron die u hebt gemaakt.
 
@@ -42,4 +42,4 @@ Zo kunt u aangepaste bronnen **exporteren en importeren**, bijvoorbeeld van een 
 
 >[!CAUTION]
 >
->Alleen functionele [beheerders](../../administration/using/users-management.md#functional-administrators), met **[!UICONTROL Administration]** rol en toegang tot **Alle** eenheden hebben toegang tot verzendende logboeken, berichtlogboeken, trackinglogboeken, uitsluitings- of abonnementlogboeken. Een gebruiker zonder beheerdersrechten kan zich richten op deze logbestanden, maar begint met een gekoppelde tabel (profielen, levering).
+>Alleen functioneel [beheerders](../../administration/using/users-management.md#functional-administrators), met **[!UICONTROL Administration]** rol en toegang tot **Alles** eenheden hebben toegang tot verzendende logboeken, berichtenlogboeken, trackinglogboeken, uitsluitings- of abonnementlogboeken. Een gebruiker zonder beheerdersrechten kan zich richten op deze logbestanden, maar begint met een gekoppelde tabel (profielen, levering).

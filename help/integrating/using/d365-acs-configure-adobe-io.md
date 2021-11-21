@@ -15,7 +15,7 @@ ht-degree: 2%
 
 ---
 
-# Adobe Campaign Standard en de Configuratie van de Adobe I/O voor de Integratie van de Dynamica 365 van Microsoft
+# Adobe Campaign Standard en Adobe I/O Configuration for the Microsoft Dynamics 365 integration
 
 Dit artikel zal verklaren hoe te om Adobe Campaign Standard en Adobe I/O te vormen om de integratietoepassing toegang tot de gegevens te geven.
 
@@ -23,7 +23,7 @@ Dit artikel zal verklaren hoe te om Adobe Campaign Standard en Adobe I/O te vorm
 
 ### Profielextensies
 
-Schakel &quot;profielextensies&quot; in Adobe Campaign Standard in.   Dit is nodig om douanevelden in het middel van het Profiel te synchroniseren van de Dynamica 365 van Microsoft.   De volgende stappen moeten worden uitgevoerd:
+Schakel &quot;profielextensies&quot; in Adobe Campaign Standard in.   Dit is nodig om aangepaste velden in de profielbron te synchroniseren vanuit Microsoft Dynamics 365.   De volgende stappen moeten worden uitgevoerd:
 
 1. Ga naar Instellingen -> Beheer -> Ontwikkeling -> Publiceren.
 1. Klik op Publicatie voorbereiden om een publicatie voor te bereiden.
@@ -49,21 +49,21 @@ U zult een nieuw project van Adobe IO moeten creëren en het voor de integratie 
 
 Hiervoor volgt u de onderstaande procedure:
 
-1. Navigeer naar [Adobe IO Console](https://console.adobe.io/home#) en selecteer uw Adobe IMS Organisatie-id in het vervolgkeuzemenu rechtsboven in het scherm.
+1. Navigeren naar [Adobe IO-console](https://console.adobe.io/home#) en selecteer uw Adobe IMS-organisatie-id in het keuzemenu rechtsboven in het scherm.
 
-1. Klik vervolgens onder **[!UICONTROL Create new project]** onder **[!UICONTROL Quick Start]**.
+1. Klik vervolgens op **[!UICONTROL Create new project]** krachtens **[!UICONTROL Quick Start]**.
 
    ![](assets/adobeIO1.png)
 
-1. Klik onder **[!UICONTROL Get started with your new project]** op **[!UICONTROL Add API]**.
+1. Onder **[!UICONTROL Get started with your new project]**, klikt u op **[!UICONTROL Add API]**.
 
    ![](assets/adobeIO2.png)
 
-1. Selecteer de Adobe Campaign API (mogelijk moet u naar de onderkant schuiven) en klik op **[!UICONTROL Next]**.
+1. Selecteer de Adobe Campaign API (u moet mogelijk naar de onderkant schuiven) en klik op **[!UICONTROL Next]**.
 
    ![](assets/adobeIO3.png)
 
-1. Op het volgende scherm kunt u uw eigen openbare sleutel uploaden of Adobe IO de sleutel laten genereren voor u. Deze instructies volgen de laatste optie. Als u besluit Adobe IO te laten het zeer belangrijke paar produceren, klik op optie 1; Klik vervolgens op de knop **[!UICONTROL Generate keypair]**.
+1. Op het volgende scherm kunt u uw eigen openbare sleutel uploaden of Adobe IO de sleutel laten genereren voor u. Deze instructies volgen de laatste optie. Als u besluit Adobe IO te laten het zeer belangrijke paar produceren, klik op optie 1; Klik vervolgens op de knop **[!UICONTROL Generate keypair]** knop.
 
    ![](assets/adobeIO4.png)
 
@@ -71,11 +71,11 @@ Hiervoor volgt u de onderstaande procedure:
 
 Nadat u het bestand hebt gedownload, kunt u het uitpakken om de openbare en persoonlijke sleutels weer te geven. Adobe IO heeft reeds de openbare sleutel op uw Adobe IO project toegepast. U moet uw persoonlijke sleutel voor later behouden; de persoonlijke sleutel wordt gebruikt tijdens de installatie vóór de integratie van het integratieprogramma.
 
-1. Klik **[!UICONTROL Next]** om door te gaan
+1. Klikken **[!UICONTROL Next]** blijven
 
    ![](assets/adobeIO5.png)
 
-1. In het volgende scherm selecteert u productprofielen die u aan dit project wilt koppelen. Selecteer het productprofiel in de titel: De huurder-id van uw Campagne-instantie - [!UICONTROL Administrators]
+1. In het volgende scherm selecteert u productprofielen die u aan dit project wilt koppelen. Selecteer het productprofiel in de titel: De huurder-id van uw campagneexemplaar - [!UICONTROL Administrators]
 
    Voorbeeld: Campaign Standard - uw campagne-huurderID - Beheerders
 
@@ -83,26 +83,26 @@ Nadat u het bestand hebt gedownload, kunt u het uitpakken om de openbare en pers
 
    ![](assets/adobeIO6.png)
 
-1. Op het volgende scherm zult u de details van uw nieuw Adobe IO project zien. Klik op **[!UICONTROL Add to Project]** linksboven in het scherm en selecteer **API** in de vervolgkeuzelijst.
+1. Op het volgende scherm zult u de details van uw nieuw Adobe IO project zien. Klikken **[!UICONTROL Add to Project]** links boven in het scherm en selecteert u **API** in de vervolgkeuzelijst.
 
    ![](assets/adobeIO7.png)
 
-1. In het volgende scherm moet u de API voor I/O-gebeurtenissen selecteren en vervolgens op **[!UICONTROL Next]** klikken.
+1. In het volgende scherm moet u de API voor I/O-gebeurtenissen selecteren en vervolgens op **[!UICONTROL Next]**.
 
-1. Klik op **[!UICONTROL Save the configured API]** in het volgende scherm.  U wordt teruggebracht naar het scherm met projectdetails.
+1. Klik op het volgende scherm op **[!UICONTROL Save the configured API]**.  U wordt teruggebracht naar het scherm met projectdetails.
 
-1. Klik nu **[!UICONTROL Add to Project]** bij top-left van het scherm en selecteer **API** van de drop-down, zoals u eerder deed.
+1. Klik nu op **[!UICONTROL Add to Project]** links boven in het scherm en selecteert u **API** in de vervolgkeuzelijst, zoals u eerder deed.
 
-1. In het volgende scherm moet u de API voor I/O-beheer selecteren en op **[!UICONTROL Next]** klikken.
+1. In het volgende scherm moet u de API voor I/O-beheer selecteren en op **[!UICONTROL Next]**.
 
-1. Klik op **[!UICONTROL Save the configured API]** in het volgende scherm.
+1. Klik op het volgende scherm op **[!UICONTROL Save the configured API]**.
 
 Installatie vóór integratie in campagne is nu voltooid.
 
 **Verwante onderwerpen**
 
-* [Adobe IO voor de Integratie van de Dynamica 365 van Microsoft vormen ](../../integrating/using/d365-acs-configure-adobe-io.md) is de volgende stap in vestiging de integratie
-* [Het overzicht van de Toepassing van de Zelfbediening van de integratie ](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) van de Toepassing bevat de volledige lijst van stappen om de integratie in werking te stellen.
+* [Adobe IO configureren voor integratie met Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) is de volgende stap bij het opzetten van de integratie
+* [Het overzicht van de toepassing van de Zelfbediening van de integratie](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) bevat de volledige lijst met stappen om de integratie op gang te brengen.
 
 
 * [Adobe IO - Integratie van serviceaccount](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)

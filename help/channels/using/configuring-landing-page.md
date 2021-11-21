@@ -69,7 +69,7 @@ In het geval van geïdentificeerde bezoekers kunt u hun data vooraf in de landin
 
    ![](assets/lp_parameters_3_temp.png)
 
-U kunt ook elke bezoeker toegang geven tot de bestemmingspagina met de optie **[!UICONTROL Authorize unidentified visitors]**.
+U kunt ook elke bezoeker toegang geven tot de bestemmingspagina met de opdracht **[!UICONTROL Authorize unidentified visitors]** optie.
 
 <!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 

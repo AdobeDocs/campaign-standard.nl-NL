@@ -19,20 +19,20 @@ ht-degree: 22%
 
 >[!CAUTION]
 >
->De [Integratie van de Kern van de Privacy](https://adobe.io/apis/cloudplatform/gdpr.html) is de methode u voor alle toegang zou moeten gebruiken en verzoeken schrapt. Met ingang van versie 19.4 is het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken afgeschaft. Raadpleeg [deze pagina](../../rn/using/deprecated-features.md) voor meer informatie over Campaign Standard-functies die zijn afgeschaft en verwijderd.
+>De [Privacy Core-service](https://adobe.io/apis/cloudplatform/gdpr.html) De integratie is de methode u voor alle toegang en schrappingsverzoeken zou moeten gebruiken. Met ingang van versie 19.4 is het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken afgeschaft. Raadpleeg [deze pagina](../../rn/using/deprecated-features.md) voor meer informatie over Campaign Standard-functies die zijn afgeschaft en verwijderd.
 
-De verzoeken van de privacy worden gecreeerd gebruikend een **POST** verzoek.
+De verzoeken van de privacy worden gecreeerd gebruikend **POST** verzoek.
 
-Voordat u aanvragen maakt, moet u de naamruimte definiëren die u wilt gebruiken. Raadpleeg de [documentatie over privacybeheer](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) voor meer informatie.
+Voordat u aanvragen maakt, moet u de naamruimte definiëren die u wilt gebruiken. Raadpleeg voor meer informatie de [Privacy Management-documentatie](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 De lading moet de volgende parameters bevatten:
 
-* **naam**: een unieke interne naam
-* **naamruimte**: de naamruimtenaam die is geconfigureerd in de Campaign Standard-interface
-* **reconciliatiewaarde**: de afstemmingswaarde gebaseerd op de afstemmingssleutel die is gedefinieerd in de naamruimte
+* **name**: een unieke interne naam
+* **namespace**: de naamruimtenaam die is geconfigureerd in de Campaign Standard-interface
+* **connectionValue**: de afstemmingswaarde gebaseerd op de afstemmingssleutel die is gedefinieerd in de naamruimte
 * **label**: het aanvraaglabel
 * **type**: het type aanvraag. Accepteerde waarden zijn &quot;access&quot; of &quot;delete&quot;.
-* **verordening** : het type regelgeving. Voorbeeld: &quot;GDPR&quot;, &quot;CCPA&quot;. Deze parameter is verplicht en is beschikbaar vanaf Campaign Standard 19.4. Als u zich op een oudere build bevindt, hoeft u deze niet toe te voegen aan uw lading.
+* **verordening**: het type regelgeving. Voorbeeld: &quot;GDPR&quot;, &quot;CCPA&quot;. Deze parameter is verplicht en is beschikbaar vanaf Campaign Standard 19.4. Als u zich op een oudere build bevindt, hoeft u deze niet toe te voegen aan uw lading.
 
 <br/>
 

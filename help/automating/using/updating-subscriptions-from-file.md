@@ -24,7 +24,7 @@ De workflow wordt als volgt weergegeven:
 
 ![](assets/subscription_activity_example1.png)
 
-* Met een activiteit [Bestand laden](../../automating/using/load-file.md) wordt het profielbestand geladen en wordt de structuur van de geïmporteerde kolommen gedefinieerd.
+* A [Bestand laden](../../automating/using/load-file.md) Deze activiteit laadt het profieldossier en bepaalt de structuur van de ingevoerde kolommen.
 
    In dit voorbeeld heeft het geladen bestand de csv-indeling en bevat het de volgende data:
 
@@ -49,7 +49,7 @@ De workflow wordt als volgt weergegeven:
 
    Als in uw bestand al 0 en 1 worden gebruikt om de bewerking te identificeren, hoeft u deze waarden niet opnieuw toe te wijzen. Zorg alleen dat de kolom op het tabblad **[!UICONTROL Column definition]** wordt verwerkt als een **Boolean** of **Integer**.
 
-* Een [Afstemming](../../automating/using/reconciliation.md)-activiteit identificeert de gegevens uit het bestand als behorend tot de profieldimensie van de Adobe Campaign-database. Via het tabblad **[!UICONTROL Identification]** wordt het veld **Email** van het bestand afgestemd op het veld **Email** van de profielresource.
+* A [Verzoening](../../automating/using/reconciliation.md) de activiteit identificeert de gegevens van het dossier als deel uitmakend van de profieldimensie van het gegevensbestand van Adobe Campaign. Via het tabblad **[!UICONTROL Identification]** wordt het veld **Email** van het bestand afgestemd op het veld **Email** van de profielresource.
 
    ![](assets/subscription_activity_example3.png)
 
@@ -57,11 +57,11 @@ De workflow wordt als volgt weergegeven:
 
    ![](assets/subscription_example_service_relation.png)
 
-* Een [Deduplicatie](../../automating/using/deduplication.md) gebaseerd op het **email** veld van de tijdelijke bron (resulterend uit de afstemming) identificeert duplicaten. Het is belangrijk om duplicaten te verwijderen aangezien het abonnement op de service voor alle data zal mislukken als er duplicaten zijn.
+* A [Deduplicatie](../../automating/using/deduplication.md) op basis van de **email** in het veld van de tijdelijke bron (als gevolg van de afstemming) worden dubbele gegevens geïdentificeerd. Het is belangrijk om duplicaten te verwijderen aangezien het abonnement op de service voor alle data zal mislukken als er duplicaten zijn.
 
    ![](assets/subscription_activity_example5.png)
 
-* Een [Subscription Services](../../automating/using/subscription-services.md) activiteit identificeert de services die moeten worden bijgewerkt als afkomstig van de overgang, via de koppeling die wordt gemaakt in de **[!UICONTROL Reconciliation]** activiteit.
+* A [Abonnementsservices](../../automating/using/subscription-services.md) de activiteit identificeert de diensten om als afkomstig van de overgang, door de verbinding bij te werken die in **[!UICONTROL Reconciliation]** activiteit.
 
    Het **[!UICONTROL Operation type]** wordt geïdentificeerd als afkomstig van het veld **operation** van het bestand. U kunt hier alleen de velden Boolean of Integer selecteren. Als de kolom van het bestand dat de uit te voeren bewerking bevat, niet in de lijst voorkomt, moet u controleren of u de kolomindeling in de activiteit **[!UICONTROL Load file]** correct hebt ingesteld, zoals eerder in dit voorbeeld wordt uitgelegd.
 

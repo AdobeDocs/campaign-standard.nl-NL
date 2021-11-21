@@ -24,7 +24,7 @@ Zodra het bericht wordt gepubliceerd en uw plaatsintegratie wordt gedaan, wannee
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-Een **uitvoeringslevering** is een niet-actionable en niet-functionele technische die bericht eens per maand voor elk transactioneel bericht wordt gecreeerd, en telkens als een transactioneel bericht wordt uitgegeven en opnieuw wordt gepubliceerd.
+An **uitvoering** is een niet-activeerbaar en niet-functioneel technisch bericht eens per maand voor elk transactioneel bericht wordt gecreeerd, en telkens als een transactioneel bericht wordt uitgegeven en opnieuw wordt gepubliceerd.
 
 **Verwante onderwerpen**:
 * [Transactiebericht publiceren](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
@@ -55,7 +55,7 @@ Zodra de gebeurtenis aan een uitvoeringslevering is toegewezen, kan het transact
 
 >[!NOTE]
 >
->Pas wanneer een gebeurtenis aan een uitvoeringslevering wordt toegewezen, verschijnt het in de verzendingslogboeken van deze uitvoeringslevering. De mislukte leveringen worden weergegeven op het tabblad **[!UICONTROL Execution list]** van het transactionele bericht dat logbestanden verzendt.
+>Pas wanneer een gebeurtenis aan een uitvoeringslevering wordt toegewezen, verschijnt het in de verzendingslogboeken van deze uitvoeringslevering. De mislukte leveringen worden weergegeven in het dialoogvenster **[!UICONTROL Execution list]** tabblad van het transactionele bericht dat logbestanden verzendt.
 
 ### Procesbeperkingen opnieuw proberen {#limitations}
 
@@ -67,17 +67,17 @@ Tijdens de hernieuwde pogingen worden de verzendingslogboeken van de nieuwe uitv
 
 U kunt een uitvoeringslevering niet stoppen. Als de huidige uitvoeringslevering echter mislukt, wordt er een nieuwe levering gemaakt zodra een nieuwe gebeurtenis wordt ontvangen en worden alle nieuwe gebeurtenissen door deze nieuwe uitvoeringslevering verwerkt. Er worden geen nieuwe gebeurtenissen door de mislukte uitvoeringslevering verwerkt.
 
-Als sommige gebeurtenissen die reeds aan een uitvoeringslevering zijn toegewezen als deel van het hertestproces zijn uitgesteld en als die uitvoeringslevering ontbreekt, wijst het hertestsysteem niet de uitgestelde gebeurtenissen aan de nieuwe uitvoeringslevering toe, wat betekent dat deze gebeurtenissen worden verloren. Controleer [leveringslogboeken](#monitoring-transactional-message-delivery) om de ontvangers te zien die kunnen zijn beïnvloed.
+Als sommige gebeurtenissen die reeds aan een uitvoeringslevering zijn toegewezen als deel van het hertestproces zijn uitgesteld en als die uitvoeringslevering ontbreekt, wijst het hertestsysteem niet de uitgestelde gebeurtenissen aan de nieuwe uitvoeringslevering toe, wat betekent dat deze gebeurtenissen worden verloren. Controleer de [leveringslogs](#monitoring-transactional-message-delivery) de ontvangers te zien die mogelijk zijn beïnvloed.
 
 ## Transactieberichten controleren {#monitoring-transactional-message-delivery}
 
-Om een transactiebericht te controleren, moet u tot de overeenkomstige [uitvoerleveringen](#transactional-message-execution-delivery) toegang hebben.
+Om een transactiebericht te controleren, moet u tot het overeenkomstige toegang hebben [uitvoering van leveringen](#transactional-message-execution-delivery).
 
 1. Klik op het pictogram rechtsonder in het blok **[!UICONTROL Deployment]** om het logboek voor de verzending van berichten weer te geven.
 
    ![](assets/message-center_access_logs.png)
 
-1. Klik op het tabblad **[!UICONTROL Execution list]**.
+1. Klik op de knop **[!UICONTROL Execution list]** tab.
 
    ![](assets/message-center_execution_tab.png)
 
@@ -85,11 +85,11 @@ Om een transactiebericht te controleren, moet u tot de overeenkomstige [uitvoerl
 
    ![](assets/message-center_execution_delivery.png)
 
-1. Klik nogmaals op het pictogram rechtsonder in het **[!UICONTROL Deployment]**-blok.
+1. Klik nogmaals op het pictogram rechtsonder in het dialoogvenster **[!UICONTROL Deployment]** blokkeren.
 
    ![](assets/message-center_execution_access_logs.png)
 
-   Voor elke uitvoeringslevering, kunt u de leveringslogboeken raadplegen zoals u voor een standaardlevering zou doen. Voor meer bij de toegang tot van en het gebruiken van de logboeken, zie [Controle een levering](../../sending/using/monitoring-a-delivery.md).
+   Voor elke uitvoeringslevering, kunt u de leveringslogboeken raadplegen zoals u voor een standaardlevering zou doen. Voor meer bij de toegang tot en het gebruiken van de logboeken, zie [Toezicht op levering](../../sending/using/monitoring-a-delivery.md).
 
 ### Specifieke kenmerken van op profielen gebaseerde transactiemeldingen {#profile-transactional-message-monitoring}
 
@@ -99,7 +99,7 @@ Selecteer het tabblad **[!UICONTROL Sending logs]**. In de kolom **[!UICONTROL S
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-Selecteer **[!UICONTROL Exclusions logs]** lusje om ontvangers te bekijken die van het berichtdoel, zoals adressen op lijst van gewezen personen zijn uitgesloten.
+Selecteer **[!UICONTROL Exclusions logs]** om ontvangers te bekijken die van het berichtdoel, zoals adressen op lijst van gewezen personen zijn uitgesloten.
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 

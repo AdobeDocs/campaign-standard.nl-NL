@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # De geografische eenheid van een profiel bijwerken {#updating-a-geographical-unit}
 
-1. Voer een verzoek van de GET op **geoUnitBase** middel uit om de Geografische eenheid PKey terug te winnen.
+1. Voer een verzoek van de GET uit op **geoUnitBase** bron voor het ophalen van de geografische eenheid PKey.
 1. Voer een verzoek van PATCH op het profiel PKey, met de gewenste Geografische eenheid PKey in de lading uit.
 
 <br/>

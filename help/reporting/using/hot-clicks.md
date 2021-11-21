@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Hot kliks{#hot-clicks}
 
-Dit rapport kan van **[!UICONTROL Reports]** knoop in elk levering of transactiebericht worden betreden.
+Dit rapport is toegankelijk via de **[!UICONTROL Reports]** in elk bezorgings- of transactiebericht.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
@@ -26,26 +26,26 @@ De inhoud van het bericht (HTML en/of tekst) wordt weergegeven met het percentag
 
 ![](assets/delivery_reports_10.png)
 
-Als u dynamische inhoud hebt gemaakt voor levering, kunt u de percentages bekijken voor elke voorwaarde die u hebt gedefinieerd. Zie [Dynamische inhoud definiëren](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) voor meer informatie over het invoegen van voorwaardelijke inhoud in een levering.
+Als u dynamische inhoud hebt gemaakt voor levering, kunt u de percentages bekijken voor elke voorwaarde die u hebt gedefinieerd. Voor meer informatie over het invoegen van voorwaardelijke inhoud in een levering raadpleegt u [Dynamische inhoud definiëren](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 Stel dat u een levering hebt gemaakt met de volgende voorwaarden:
 
 * Het verband op het belangrijkste beeld is verschillend als de ontvanger een man of een vrouw is.
 * Je hebt ook een link toegevoegd naar een speciale aanbieding die alleen zichtbaar is voor ontvangers ouder dan 25 jaar.
 
-Wanneer uw bericht is verzonden, selecteert u **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** in het dashboard voor de levering.
+Selecteer **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** van het leveringsdashboard.
 
 Standaard is er geen profiel geselecteerd. Alleen klikken voor ontvangers waarvan het geslacht onbekend is en voor ontvangers die jonger zijn dan 25 jaar of waarvan de leeftijd onbekend is, worden weergegeven.
 
 ![](assets/delivery_reports_hot-clicks_1.png)
 
-Als u kliks voor vrouwen wilt weergeven, klikt u op de knop **[!UICONTROL Change profile]** en selecteert u een vrouwelijk testprofiel. Als u klikken voor mannen wilt weergeven, gaat u op dezelfde manier te werk en selecteert u een mannelijk testprofiel.
+Klik op de knop **[!UICONTROL Change profile]** en selecteer een vrouwelijk testprofiel. Als u klikken voor mannen wilt weergeven, gaat u op dezelfde manier te werk en selecteert u een mannelijk testprofiel.
 
 ![](assets/delivery_reports_hot-clicks_2.png)
 
-Als u kliks voor ontvangers boven 25 wilt weergeven, klikt u op de knop **[!UICONTROL Change profile]** en selecteert u een testprofiel waarvan de geboortedatum overeenkomt met deze voorwaarde.
+Klik op de knop **[!UICONTROL Change profile]** en selecteer een testprofiel waarvan de geboortedatum overeenkomt met deze voorwaarde.
 
-Zie [Informatie over testprofielen](../../audiences/using/managing-test-profiles.md) voor meer informatie over testprofielen.
+Voor meer informatie over testprofielen raadpleegt u [Testprofielen](../../audiences/using/managing-test-profiles.md).
 
 >[!NOTE]
 >
@@ -59,19 +59,19 @@ Een uitvoering is een niet-activeerbaar en niet-functioneel technisch bericht da
 
    Als de workflow die deze levering beheert eenmaal per maand wordt uitgevoerd, is er bijvoorbeeld één levering per maand. Bovendien wordt telkens wanneer de inhoud van de levering wordt bijgewerkt, een extra levering voor de uitvoering gemaakt.
 
-   Zie [E-maillevering](../../automating/using/email-delivery.md) voor meer informatie over terugkerende e-mailleveringen.
+   Voor meer informatie over terugkerende e-mailleveringen raadpleegt u [E-maillevering](../../automating/using/email-delivery.md).
 
 * Door gebrek eens per maand voor transactionele berichten, en telkens als een transactiebericht wordt uitgegeven en opnieuw gepubliceerd.
 
-   Voor meer op transactionele berichten, zie [Aan de slag met transactioneel overseinen](../../channels/using/getting-started-with-transactional-msg.md).
+   Zie voor meer informatie over transactieberichten [Aan de slag met transactiemeldingen](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
 >Omdat de id&#39;s van de bijgehouden URL&#39;s voor elke uitvoering verschillend zijn, kunnen de &#39;hot click&#39;-gegevens niet worden geaggregeerd voor alle uitgevoerde leveringen van een bepaald bericht. Deze kan slechts voor één uitvoeringslevering tegelijk worden weergegeven.
 
-Wanneer uw bericht is verzonden, selecteert u **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** in het dashboard voor de levering.
+Selecteer **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** van het leveringsdashboard.
 
-Standaard is de laatste levering van de uitvoering geselecteerd. Klik op de knop **[!UICONTROL Change execution delivery]** om een andere knop te selecteren.
+Standaard is de laatste levering van de uitvoering geselecteerd. Klik op de knop **[!UICONTROL Change execution delivery]** om een andere te selecteren.
 
 ![](assets/delivery_reports_hot-clicks_3.png)
 

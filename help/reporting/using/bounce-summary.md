@@ -18,15 +18,15 @@ ht-degree: 1%
 
 # Overzicht van niet-bezorging{#bounce-summary}
 
-In dit rapport worden de algemene harde en zachte fouten beschreven die tijdens leveringen zijn aangetroffen, evenals de automatische verwerking van steunkleuren (zie [Inzicht in leveringsfouten](../../sending/using/understanding-delivery-failures.md)).
+In dit rapport worden de algemene harde en zachte fouten beschreven die tijdens de leveringen zijn aangetroffen, alsmede de automatische verwerking van steunbedragen (zie [Leveringsfouten begrijpen](../../sending/using/understanding-delivery-failures.md)).
 
 ![](assets/campaign_reports_bounces.png)
 
 Elke tabel wordt aangegeven met een overzichtsnummer en een overzicht van de diagrammen. U kunt wijzigen hoe de details worden weergegeven in de respectievelijke visualisatie-instellingen.
 
-**Flop 5** repartitioneert de vijf leveringen met het hoogste aantal quarantines:
+**Vloeiende 5 verdeling** geeft een lijst van de vijf leveringen met het hoogste aantal quarantines:
 
-De **Bounce reason**-tabel bevat de beschikbare gegevens voor de typen fouten die stuitingen hebben veroorzaakt voor elke levering:
+De **Stuitingsredenen** de tabel bevat de beschikbare gegevens voor de soorten fouten die stuitingen hebben veroorzaakt voor elke levering :
 
 * **[!UICONTROL User unknown]**: Het type fout dat wordt gegenereerd wanneer een levering naar een ongeldig e-mailadres wordt verzonden.
 * **[!UICONTROL Invalid domain]**: Het type fout dat wordt gegenereerd wanneer een levering wordt verzonden naar een e-mailadres waarvan het domein onjuist is of niet meer bestaat.
@@ -41,4 +41,4 @@ De **Bounce reason**-tabel bevat de beschikbare gegevens voor de typen fouten di
 
 * **[!UICONTROL Refused]**: Het type van fout produceerde wanneer een adres door de dienstverlener van Internet (ISP) wordt geweigerd. Bijvoorbeeld, wanneer een veiligheidsregel door anti-Spam software is toegepast.
 
-In de tabel **Domeinrepartitie** worden de algemene problemen weergegeven die tijdens de leveringen zijn ondervonden, afhankelijk van het ontvangende domein.
+De **Domeinherverdeling** de lijst toont de algemene problemen die tijdens de leveringen volgens het ontvankelijke domein worden ontmoet.

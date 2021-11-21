@@ -53,7 +53,7 @@ De activiteit **[!UICONTROL Query]** kan voor diverse doeleinden worden gebruikt
 
    >[!NOTE]
    >
-   >Wanneer het richten van een publiek, merk op dat de definitie van het publiek niet van verwijzingen wordt voorzien maar **gekopieerd** in de vraag. Als u om het even welke verandering in het publiek aanbrengt nadat het in een vraag is gericht, zorg ervoor u de vraag opnieuw vormt om de nieuwe definitie in rekening te brengen.
+   >Wanneer het richten van een publiek, merk op dat de definitie van het publiek niet van verwijzingen wordt voorzien maar **gekopieerd** in de query. Als u om het even welke verandering in het publiek aanbrengt nadat het in een vraag is gericht, zorg ervoor u de vraag opnieuw vormt om de nieuwe definitie in rekening te brengen.
 
 1. Via een toegewezen tabblad kunt u **[!UICONTROL Additional data]** voor de doelpopulatie definiëren. Deze data worden in extra kolommen opgeslagen en kunnen alleen worden gebruikt voor de actieve workflow. U kunt met name data toevoegen uit de Adobe Campaign-databasetabellen die zijn gekoppeld aan de doeldimensie van de query. Raadpleeg de sectie [Data verrijken](#enriching-data).
 
@@ -63,7 +63,7 @@ De activiteit **[!UICONTROL Query]** kan voor diverse doeleinden worden gebruikt
 
 1. Op het tabblad **[!UICONTROL Transition]** kunt u met de optie **[!UICONTROL Enable an outbound transition]** een uitgaande overgang toevoegen na de queryactiviteit, zelfs als hierbij geen data worden opgehaald.
 
-   De het segmentcode van de uitgaande overgang kan worden gepersonaliseerd gebruikend een standaarduitdrukking en gebeurtenisvariabelen (zie [deze pagina](../../automating/using/customizing-workflow-external-parameters.md)).
+   De uitgaande het segmentcode van de overgang kan worden gepersonaliseerd gebruikend een standaarduitdrukking en gebeurtenisvariabelen (zie [deze pagina](../../automating/using/customizing-workflow-external-parameters.md)).
 
 1. Bevestig de configuratie van uw activiteit en sla de workflow op.
 
@@ -71,7 +71,7 @@ De activiteit **[!UICONTROL Query]** kan voor diverse doeleinden worden gebruikt
 
 Met targetingdimensies en bronnen definieert u de elementen waarop een query wordt gebaseerd om de target van een levering te bepalen.
 
-Zij worden gevormd in [doelafbeeldingen](../../administration/using/target-mappings-in-campaign.md), en worden bepaald wanneer het creëren van een werkschema, op **[!UICONTROL Properties]** lusje van een activiteit van de Vraag.
+Zij worden gevormd in [doeltoewijzingen](../../administration/using/target-mappings-in-campaign.md)en worden gedefinieerd bij het maken van een workflow in het dialoogvenster **[!UICONTROL Properties]** tabblad van een Query-activiteit.
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ Voorbeeld van beschikbare filters voor de bron **[!UICONTROL Deliveries (deliver
 
 Standaard worden de targetingdimensie en bron ingesteld om profielen te targetten. Maar soms is het handig om een andere bron te gebruiken dan de targetingdimensie als u wilt zoeken naar een specifieke record in een verafgelegen tabel.
 
-Raadpleeg het volgende gebruiksgeval voor meer informatie: [Andere bronnen gebruiken dan voor doeldimensies](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+Raadpleeg het volgende gebruiksgeval voor meer informatie: [Bronnen gebruiken die verschillen van doelgerichte dimensies](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## Data verrijken {#enriching-data}
 
@@ -123,7 +123,7 @@ Nadat u aanvullende data hebt toegevoegd, kunt u een extra filterniveau toepasse
 >
 >Standaard is de optie **[!UICONTROL Remove duplicate rows (DISTINCT)]** ingeschakeld op het tabblad **[!UICONTROL Advanced options]** van de **[!UICONTROL Additional data]** query. Als de activiteit **[!UICONTROL Query]** veel (vanaf 100) extra gedefinieerde data bevat, kunt u deze optie het beste uitschakelen omdat anders het systeem erg traag kan worden. Houd er rekening mee dat u door deze optie uit te schakelen, mogelijk ook duplicaten ophaalt. Dit is afhankelijk van de data in de query.
 
-Een gebruiksgeval op hoe te om een e-mail met extra gegevens te personaliseren wordt voorgesteld in [deze sectie](../../automating/using/personalizing-email-with-additional-data.md).
+Een gebruiksscenario voor het aanpassen van een e-mailadres met aanvullende gegevens wordt weergegeven in [deze sectie](../../automating/using/personalizing-email-with-additional-data.md).
 
 ### Een eenvoudig veld toevoegen {#adding-a-simple-field}
 

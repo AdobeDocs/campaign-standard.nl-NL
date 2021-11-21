@@ -20,8 +20,8 @@ ht-degree: 5%
 >
 >Als gevolg hiervan kunnen nieuwe Campaign Standard-exemplaren en bestaande exemplaren zonder gemaakte geografische eenheden deze functie niet implementeren vanaf de release 18.7.
 >
->Raadpleeg voor meer informatie de pagina <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=nl#release-notes">Afgekeurde functies</a>.
+>Raadpleeg voor meer informatie de <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=nl#release-notes">Verouderde functies</a> pagina.
 
-Het **geoUnitBase** eindpunt laat u met Geografische eenheden in wisselwerking staan, toelatend u, bijvoorbeeld, om hun attributen bij te werken of de eenheid van een profiel bij te werken.
+De **geoUnitBase** Met het eindpunt kunt u communiceren met geografische eenheden, zodat u bijvoorbeeld hun kenmerken kunt bijwerken of de eenheid van een profiel kunt bijwerken.
 
-Het veld **Geografische eenheid** wordt toegevoegd aan een profiel wanneer de profielbron wordt uitgebreid. Daarom moet u niet vergeten om altijd het **profileAndServicesExt**-eindpunt te gebruiken voor interactie met geografische eenheden. Raadpleeg de [Campagne-documentatie](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles) voor meer informatie over de bronextensie van het profiel.
+De **Geografische eenheid** wordt toegevoegd aan een profiel wanneer u de profielbron uitbreidt. Vergeet daarom niet de opdracht **profileAndServicesExt** eindpunt voor interactie met geografische eenheden. Voor meer informatie over de het middeluitbreiding van het profiel, verwijs naar [Campagnedocumentatie](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).

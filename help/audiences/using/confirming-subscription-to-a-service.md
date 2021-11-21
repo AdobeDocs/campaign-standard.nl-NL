@@ -52,7 +52,7 @@ De bevestigings-e-mail is een transactioneel bericht omdat deze op een gebeurten
 1. Maak een gebeurtenis vanaf het menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**, dat u kunt openen via het Adobe Campaign-logo.
 1. Voer een label in, selecteer een doeldimensie en klik op **[!UICONTROL Create]**.
 
-   De configuratiestappen worden voorgesteld in [Het vormen van een transactiegebeurtenis](../../channels/using/configuring-transactional-event.md) sectie.
+   De configuratiestappen worden weergegeven in de [Een transactiegebeurtenis configureren](../../channels/using/configuring-transactional-event.md) sectie.
 
 1. Klik in de sectie **[!UICONTROL Fields]** op **[!UICONTROL Create element]** en voeg **[!UICONTROL publicLabel]** toe aan de datastructuur om de afstemming in te schakelen.
 
@@ -85,14 +85,14 @@ De bevestigings-e-mail is een transactioneel bericht gebaseerd op de gebeurtenis
 1. Selecteer vanaf het Adobe Campaign-logo de optie **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** en klik op **[!UICONTROL Transactional messages]**.
 1. Selecteer de transactionele e-mail die overeenkomt met de gebeurtenis die u zojuist hebt gepubliceerd.
 
-1. Klik op de sectie **[!UICONTROL Content]** en selecteer een e-mailsjabloon. Zie [Transactieberichten bewerken](../../channels/using/editing-transactional-message.md) voor meer informatie over het bewerken van de inhoud van een transactiebericht.
+1. Klik op de sectie **[!UICONTROL Content]** en selecteer een e-mailsjabloon. Voor meer informatie over het bewerken van de inhoud van een transactiemelding raadpleegt u [Transactieberichten bewerken](../../channels/using/editing-transactional-message.md).
 1. Aangezien u directe toegang hebt tot alle velden van de resource **[!UICONTROL Service]**, kunt u een willekeurig veld selecteren vanaf het knooppunt **[!UICONTROL Context]** > **[!UICONTROL Real-time event (rtEvent)]** > **[!UICONTROL Event context (ctx)]** >**[!UICONTROL Service]** om uw content te personaliseren.
 
    ![](assets/confirmation_personalization-service.png)
 
    Raadpleeg [deze sectie](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message) voor meer informatie over het personaliseren van een transactioneel bericht.
 
-1. Bekijk een voorbeeld van uw bericht met een testprofiel. Zie [Een specifiek testprofiel definiëren](../../channels/using/testing-transactional-message.md#defining-specific-test-profile) voor meer informatie.
+1. Bekijk een voorbeeld van uw bericht met een testprofiel. Zie voor meer informatie [Een specifiek testprofiel definiëren](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 1. Klik op **[!UICONTROL Save & close]** om de content op te slaan.
 1. Publiceer het transactionele bericht. Zie [Een transactioneel bericht publiceren](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
@@ -141,7 +141,7 @@ De bevestigings-e-mail is een [transactioneel bericht](../../channels/using/gett
 1. Maak een gebeurtenis vanaf het menu **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**, dat u kunt openen via het Adobe Campaign-logo.
 1. Voer een label in, selecteer een doeldimensie en klik op **[!UICONTROL Create]**.
 
-   De configuratiestappen worden voorgesteld in [Het vormen van een transactiegebeurtenis](../../channels/using/configuring-transactional-event.md) sectie.
+   De configuratiestappen worden weergegeven in de [Een transactiegebeurtenis configureren](../../channels/using/configuring-transactional-event.md) sectie.
 
 1. Klik in de sectie **[!UICONTROL Fields]** op **[!UICONTROL Create element]** en voeg **[!UICONTROL serviceName]** toe aan de datastructuur om de afstemming in te schakelen.
 

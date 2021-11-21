@@ -21,7 +21,7 @@ U kunt Adobe Campaign zo configureren dat een kopie van de e-mails die via e-mai
 
 Met name als uw organisatie alle uitgaande e-mailberichten moet archiveren voor naleving, kunt u deze mogelijkheid inschakelen. Hiermee kunt u een exacte verborgen kopie van de bijbehorende verzonden berichten verzenden naar een BCC-e-mailadres (onzichtbaar voor de ontvangers van de zending) dat u moet opgeven.
 
-Als deze optie eenmaal is ingeschakeld, moet u de optie BCC via e-mail activeren via de optie **[!UICONTROL Archive emails]** in de sjabloon voor het verzenden van e-mail.
+Als deze optie is ingeschakeld, moet u e-mail BCC activeren via de **[!UICONTROL Archive emails]** in de sjabloon voor e-maillevering.
 
 >[!NOTE]
 >
@@ -42,17 +42,17 @@ Als deze optie eenmaal is ingeschakeld, moet u de optie BCC via e-mail activeren
 
 ## E-mailarchivering activeren {#activating-email-archiving}
 
-Nadat e-mail BCC is ingeschakeld, wordt deze geactiveerd in de [e-mailsjabloon](../../start/using/marketing-activity-templates.md) via een speciale optie:
+Nadat e-mail-BCC is ingeschakeld, wordt deze geactiveerd in het dialoogvenster [e-mailsjabloon](../../start/using/marketing-activity-templates.md)door middel van een specifieke optie:
 
-1. Ga naar **Bronnen** > **Sjablonen** > **Leveringssjablonen**.
-1. Dupliceer de uit-van-doos **[!UICONTROL Send via email]** malplaatje.
+1. Ga naar **Bronnen** > **Sjablonen** > **Afleveringssjablonen**.
+1. De uit-van-de-doos dupliceren **[!UICONTROL Send via email]** sjabloon.
 1. Selecteer de gedupliceerde sjabloon.
 1. Klik op de knop **[!UICONTROL Edit properties]** om de eigenschappen van de sjabloon te bewerken.
 1. Vouw de sectie **[!UICONTROL Send]** uit.
-1. Schakel het selectievakje **[!UICONTROL Archive emails]** in om een kopie van alle verzonden berichten te bewaren voor elke levering die op deze sjabloon is gebaseerd.
+1. Controleer de **[!UICONTROL Archive emails]** doos om een exemplaar van alle verzonden berichten voor elke levering te houden die op dit malplaatje wordt gebaseerd.
 
    ![](assets/email_archiving.png)
 
 >[!NOTE]
 >
->Als de e-mails die naar het BCC-adres worden verzonden, worden geopend en doorgeklikt, wordt hiermee rekening gehouden in de **[!UICONTROL Total opens]** en **[!UICONTROL Clicks]** van de verzendanalyse, wat tot onjuiste berekeningen kan leiden.
+>Als de e-mails die naar het BCC-adres worden verzonden worden geopend en als hierop wordt geklikt, wordt hiermee rekening gehouden in het dialoogvenster **[!UICONTROL Total opens]** en **[!UICONTROL Clicks]** van de send analyse, die sommige misberekeningen zou kunnen veroorzaken.

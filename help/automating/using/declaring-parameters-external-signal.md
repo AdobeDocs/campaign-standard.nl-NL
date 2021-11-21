@@ -17,14 +17,14 @@ ht-degree: 5%
 
 # De parameters in de externe signaalactiviteit declareren {#declaring-the-parameters-in-the-external-signal-activity}
 
-De eerste stap om een werkschema met parameters te roepen is hen in een **[!UICONTROL External signal]** activiteit te verklaren.
+De eerste stap om een werkschema met parameters te roepen is hen in te verklaren **[!UICONTROL External signal]** activiteit.
 
-1. Open de **[!UICONTROL External signal]** activiteit, dan selecteer **[!UICONTROL Parameters]** tabel.
-1. Klik op de knop **[!UICONTROL Create element]** en geef vervolgens de naam en het type van elke parameter op.
+1. Open de **[!UICONTROL External signal]** activiteit, dan selecteer **[!UICONTROL Parameters]** tab.
+1. Klik op de knop **[!UICONTROL Create element]** en geeft u vervolgens de naam en het type van elke parameter op.
 
    >[!CAUTION]
    >
-   >Zorg ervoor dat de naam en het aantal parameters identiek zijn aan wat wordt bepaald wanneer het roepen van het werkschema (zie [deze pagina](../../automating/using/defining-parameters-calling-workflow.md)). Bovendien moeten de parametertypen consistent zijn met de waarden die worden verwacht.
+   >Zorg ervoor dat de naam en het aantal parameters gelijk zijn aan wat er is gedefinieerd bij het aanroepen van de workflow (zie [deze pagina](../../automating/using/defining-parameters-calling-workflow.md)). Bovendien moeten de parametertypen consistent zijn met de waarden die worden verwacht.
 
    ![](assets/extsignal_declaringparameters_1.png)
 

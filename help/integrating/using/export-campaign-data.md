@@ -9,15 +9,15 @@ exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
 # Gegevens exporteren van Campaign naar Adobe Experience Platform {#sources}
 
-Als u Campaign Standard-gegevens wilt exporteren naar het RTCDP-Platform (Adobe Real-Time Customer Data ), moet u eerst een workflow in Campaign Standard maken om de gegevens die u wilt delen naar uw Amazon Storage Service (S3) of Azure Blob-opslaglocatie te exporteren.
+Als u Campaign Standard-gegevens wilt exporteren naar Adobe Real-time Customer Data Platform (RTCDP), moet u eerst een workflow in Campaign Standard maken om de gegevens die u wilt delen, te exporteren naar uw Amazon Storage Service (S3) of Azure Blob-opslaglocatie.
 
-Nadat de workflow is geconfigureerd en de gegevens naar de opslaglocatie zijn verzonden, moet u de opslaglocatie van uw S3- of Azure-blok aansluiten als een **Source** in het Platform Adobe Experience.
+Nadat de workflow is geconfigureerd en de gegevens naar de opslaglocatie zijn verzonden, moet u de opslaglocatie van uw S3- of Azure-blob als een verbinding maken **Bron** Adobe ervaren Platform.
 
 >[!NOTE]
 >
@@ -29,11 +29,11 @@ Als u gegevens van Campaign Standard naar uw opslaglocatie van S3 of Azure Blob 
 
 Hiervoor kunt u toevoegen en configureren:
 
-* Een **[!UICONTROL Extract file]** activiteit om de gerichte gegevens in een Csv- dossier te halen. Raadpleeg [deze sectie](../../automating/using/extract-file.md) voor meer informatie over het configureren van deze activiteit.
+* A **[!UICONTROL Extract file]** activiteit om de gerichte gegevens in een Csv- dossier te halen. Voor meer op hoe te om deze activiteit te vormen, verwijs naar [deze sectie](../../automating/using/extract-file.md).
 
    ![](assets/rtcdp-extract-file.png)
 
-* Een **[!UICONTROL Transfer file]** activiteit om het CSV dossier naar uw opslagplaats over te brengen. Raadpleeg [deze sectie](../../automating/using/transfer-file.md) voor meer informatie over het configureren van deze activiteit.
+* A **[!UICONTROL Transfer file]** activiteit om het CSV-bestand naar uw opslaglocatie over te brengen. Voor meer op hoe te om deze activiteit te vormen, verwijs naar [deze sectie](../../automating/using/transfer-file.md).
 
    ![](assets/rtcdp-transfer-file.png)
 
@@ -41,7 +41,7 @@ In de onderstaande workflow worden logbestanden regelmatig uitgepakt in een CSV-
 
 ![](assets/aep-export.png)
 
-De voorbeelden van werkschema&#39;s van het gegevensbeheer zijn beschikbaar in [werkschema&#39;s gebruiken gevallen](../../automating/using/about-workflow-use-cases.md#management) sectie.
+Voorbeelden van werkstromen voor gegevensbeheer zijn beschikbaar in het gedeelte [werkstromen gebruiken hoofdletters](../../automating/using/about-workflow-use-cases.md#management) sectie.
 
 Verwante onderwerpen:
 
@@ -51,9 +51,9 @@ Verwante onderwerpen:
 
 ## De opslaglocatie aansluiten als bron
 
-De belangrijkste stappen om uw opslagplaats van Amazon Storage Service (S3) of Azure Blob als **Bron** in het Platform van de Ervaring van Adobe aan te sluiten zijn hieronder vermeld. Gedetailleerde informatie over elk van deze stappen is beschikbaar in de [documentatie van de bronschakelaars](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html).
+De belangrijkste stappen om uw opslaglocatie van Amazon Storage Service (S3) of Azure Blob als een **Bron** in Adobe experience wordt het Platform hieronder weergegeven. Gedetailleerde informatie over elk van deze stappen is beschikbaar in het dialoogvenster [Documentatie van bronconnectors](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=nl).
 
-1. Maak in het menu van het Adobe Experience-platform een verbinding met uw opslaglocatie:**[!UICONTROL Sources]**
+1. In het Adobe Experience-platform **[!UICONTROL Sources]** een verbinding maken met uw opslaglocatie:
 
    * [Een Amazon S3-bronverbinding maken](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html)
    * [Azure Blob-connector](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html)

@@ -21,9 +21,9 @@ Campaign Standard biedt verschillende hulpmiddelen aan om u te helpen uw marketi
 
 ## Gegevens importeren via workflows {#importing-data-through-workflows}
 
-Met workflows kunt u gegevens verzamelen en importeren in de Campagne-database via [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md)-activiteiten.
+Met workflows kunt u gegevens verzamelen en importeren in de Campagne-database via [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md) activiteiten.
 
-Algemene informatie en beste praktijken wanneer het invoeren van gegevens door werkschema&#39;s worden voorgesteld in [deze sectie](../../automating/using/about-data-import-and-export.md).
+Algemene informatie en aanbevolen procedures bij het importeren van gegevens via workflows worden weergegeven in [deze sectie](../../automating/using/about-data-import-and-export.md).
 
 Daarnaast kunt u sjablonen instellen voor het importeren van gegevens. Het gebruik van importsjablonen is de beste manier als u regelmatig bestanden met dezelfde structuur moet importeren.
 
@@ -33,9 +33,9 @@ U kunt twee typen sjablonen instellen:
 
    Een voorbeeld van een werkstroomsjabloon voor het importeren van gegevens vindt u in [deze sectie](../../automating/using/creating-import-workflow-templates.md).
 
-* **Gegevenssjablonen** importeren: dit zijn, net als workflowsjablonen, sjablonen die zijn gebaseerd op workflows, die zijn ingesteld om bestanden te uploaden om de database bij te werken. Zodra gevormd, worden zij ter beschikking gesteld aan gebruikers met een vereenvoudigde mening onder **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** menu.
+* **Gegevenssjablonen importeren**: dit zijn, net als workflowsjablonen, sjablonen die zijn gebaseerd op workflows, die zijn ingesteld om bestanden te uploaden om de database bij te werken. Zodra gevormd, worden zij ter beschikking gesteld aan gebruikers met een vereenvoudigde mening onder **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** -menu.
 
-   Raadpleeg de [specifieke documentatie](../../automating/using/importing-data-with-import-templates.md) voor meer informatie over sjablonen voor importgegevens.
+   Voor meer informatie over de malplaatjes van de invoergegevens, verwijs naar [speciale documentatie](../../automating/using/importing-data-with-import-templates.md).
 
 ## Gegevens van bestemmingspagina&#39;s verzamelen {#collecting-data-from-landing-pages}
 
@@ -47,14 +47,14 @@ Het beginsel is als volgt:
 * Wijs elk invoerveld toe aan het corresponderende veld in de database.
 * Maak de openingspagina online beschikbaar via een website of via een directe koppeling naar een bericht.
 
-Raadpleeg de [specifieke documentatie](../../channels/using/getting-started-with-landing-pages.md) voor meer informatie over bestemmingspagina&#39;s.
+Raadpleeg voor meer informatie over bestemmingspagina&#39;s de [speciale documentatie](../../channels/using/getting-started-with-landing-pages.md).
 
 ## Profielen synchroniseren vanuit Microsoft Dynamics 365
 
-De integratie van Campaign Standard met de Dynamica 365 van Microsoft staat u toe om contactgegevens van de Dynamica 365 van Microsoft tot het gegevensbestand van de Campagne over te gaan.
+Dankzij de Campaign Standard-integratie met Microsoft Dynamics 365 kunt u contactgegevens van Microsoft Dynamics 365 doorgeven aan de Campagne-database.
 Deze contacten zijn dan zichtbaar in de lijst van Profielen en kunnen in marketing campagnes worden gericht.
 
-Raadpleeg de [specifieke documentatie](../../integrating/using/d365-acs-get-started.md) voor meer informatie over deze integratie.
+Raadpleeg voor meer informatie over deze integratie de [speciale documentatie](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Raadpleeg de [specifieke documentatie](../../integrating/using/d365-acs-get-star
 
 Met Campaign Standard-API&#39;s kunt u bewerkingen uitvoeren om de database bij te werken, zoals het maken, bijwerken of verwijderen van profielen of services.
 
-Raadpleeg de [specifieke documentatie](../../api/using/get-started-apis.md) voor meer informatie over het gebruik van de API&#39;s.
+Raadpleeg voor meer informatie over het gebruik van de API&#39;s de [speciale documentatie](../../api/using/get-started-apis.md).
 
 >[!IMPORTANT]
 >

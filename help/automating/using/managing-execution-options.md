@@ -18,7 +18,7 @@ ht-degree: 6%
 
 # Uitvoeringsopties beheren {#managing-execution-options}
 
-Als u de uitvoeringsopties van een workflow wilt wijzigen, gebruikt u de knop ![](assets/edit_darkgrey-24px.png) om de workfloweigenschappen te openen en selecteert u de sectie **[!UICONTROL Execution]**.
+Als u de uitvoeringsopties van een werkstroom wilt wijzigen, gebruikt u de opdracht ![](assets/edit_darkgrey-24px.png) om toegang te krijgen tot de workfloweigenschappen en de **[!UICONTROL Execution]** sectie.
 
 ![](assets/wkf_execution_6.png)
 
@@ -26,19 +26,19 @@ Mogelijke opties zijn:
 
 * **[!UICONTROL Default affinity]**: in dit veld kunt u ervoor zorgen dat een workflow of een werkstroomactiviteit op een bepaalde computer wordt uitgevoerd.
 
-* **[!UICONTROL History in days]**: geeft het aantal dagen aan waarna de historie moet worden gewist. De geschiedenis bevat elementen die gerelateerd zijn aan de workflow: logbestanden, taken, gebeurtenissen (technische objecten die zijn gekoppeld aan de workflowbewerking), evenals bestanden die zijn gedownload door de activiteit **[!UICONTROL Transfer file]**. De standaardwaarde is 30 dagen voor workflowsjablonen buiten de box.
+* **[!UICONTROL History in days]**: geeft het aantal dagen aan waarna de historie moet worden gewist. De geschiedenis bevat elementen die gerelateerd zijn aan de workflow: logbestanden, taken, gebeurtenissen (technische objecten die zijn gekoppeld aan de workflowbewerking) en bestanden die zijn gedownload door de **[!UICONTROL Transfer file]** activiteit. De standaardwaarde is 30 dagen voor workflowsjablonen buiten de box.
 
-   De geschiedenis wordt gewist door de technische workflow voor het opschonen van databases, die dagelijks standaard wordt uitgevoerd (zie [Lijst met technische workflows](../../administration/using/technical-workflows.md).)
+   Het leegmaken van de geschiedenis wordt uitgevoerd door het technische werkschema van de Schoonmaak van het Gegevensbestand, dat door gebrek dagelijks wordt uitgevoerd (zie [Lijst van technische werkstromen](../../administration/using/technical-workflows.md).)
 
    >[!IMPORTANT]
    >
-   >Als het veld **[!UICONTROL History in days]** leeg blijft, wordt de waarde ervan beschouwd als &quot;1&quot;, wat betekent dat de historie na 1 dag wordt gewist.
+   >Als de **[!UICONTROL History in days]** veld blanco gelaten, wordt de waarde ervan beschouwd als &quot;1&quot;, wat betekent dat de geschiedenis na 1 dag wordt gewist.
 
 * **[!UICONTROL Save SQL queries in the log]**: Hiermee kunt u de SQL-query&#39;s uit de workflow opslaan in de logbestanden.
 
 * **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**: Schakel deze optie in als u het hele uitvoeringsplan wilt registreren. Deze optie is standaard uitgeschakeld.
 
-   Raadpleeg deze [sectie](#diagnostic-mode) voor meer informatie over deze optie.
+   Raadpleeg voor meer informatie over deze optie [sectie](#diagnostic-mode).
 
 * **[!UICONTROL Keep interim results]**: Schakel deze optie in als u de details van de overgangen wilt bekijken.
 
@@ -50,7 +50,7 @@ Mogelijke opties zijn:
 
 * **[!UICONTROL Severity]**: kunt u een prioriteitsniveau opgeven voor het uitvoeren van workflows in uw Adobe Campaign-instantie. Dit veld wordt alleen voor monitoringdoeleinden gebruikt door Adobe-teams.
 
-De sectie **[!UICONTROL Error management]** biedt extra opties waarmee u kunt beheren hoe workflows zich gedragen in het geval van fouten. Deze opties worden beschreven in de sectie [Foutbeheer](../../automating/using/monitoring-workflow-execution.md#error-management).
+De **[!UICONTROL Error management]** biedt extra opties waarmee u kunt beheren hoe workflows zich gedragen in geval van fouten. Deze opties worden beschreven in het dialoogvenster [Foutbeheer](../../automating/using/monitoring-workflow-execution.md#error-management) sectie.
 
 ## Diagnosemodus {#diagnostic-mode}
 
@@ -58,15 +58,15 @@ De sectie **[!UICONTROL Error management]** biedt extra opties waarmee u kunt be
 >
 >Deze optie kan de workflowprestaties aanzienlijk beïnvloeden en moet spaarzaam worden gebruikt.
 
-Wanneer toegelaten, **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]** optie in **[!UICONTROL Execution]** sectie van de werkschemaeigenschappen registreert het volledige uitvoeringsplan als een vraag meer dan één minuut neemt.
+Als deze optie is ingeschakeld, wordt **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]** in de **[!UICONTROL Execution]** in de workfloweigenschappen wordt het hele uitvoeringsplan geregistreerd als een query meer dan één minuut in beslag neemt.
 
 ![](assets/wkf_diagnostic.png)
 
 Nadat u deze optie hebt ingeschakeld en uw workflow hebt gestart, wordt het uitvoeringsplan geregistreerd als uw query meer dan één minuut duurt. U kunt uw uitvoeringsplan dan terugwinnen door EXPLAIN ANALYZE te gebruiken.
 
-Raadpleeg [PostSQL-documentatie](https://www.postgresql.org/docs/9.4/using-explain.html) voor meer informatie hierover.
+Raadpleeg voor meer informatie hierover [PostSQL-documentatie](https://www.postgresql.org/docs/9.4/using-explain.html).
 
-Als u een opeenvolgingsaftasten in deze vraag hebt, **[!UICONTROL Diagnostic mode]** zal ook aanbevelingen verstrekken om een index met behulp van een filteruitdrukking tot stand te brengen.
+Als deze query een reeks-scan bevat, wordt **[!UICONTROL Diagnostic mode]** zal ook aanbevelingen verstrekken om een index met behulp van een filteruitdrukking tot stand te brengen.
 
 >[!NOTE]
 >
@@ -80,12 +80,12 @@ Tijdens de uitvoering van de workflow moet aan de volgende twee voorwaarden word
 
 * De resulterende rijen na de opeenvolgingsaftasten zijn minder dan 1 % van de totale rijen aanwezig in de lijst.
 
-U kunt de optie vanuit het geavanceerde menu beheren door **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** te selecteren:
+U kunt de optie beheren vanuit het geavanceerde menu door **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**:
 
-* **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**: Vanuit het  **[!UICONTROL Value]** veld kunt u een nieuwe tijd voor de uitvoering van de query instellen. Als uw vraaguitvoering deze waarde overschrijdt, zal het uitvoeringsplan worden geregistreerd.
+* **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**: Van de **[!UICONTROL Value]** kunt u een nieuwe tijd voor de uitvoering van de query instellen. Als uw vraaguitvoering deze waarde overschrijdt, zal het uitvoeringsplan worden geregistreerd.
 
    ![](assets/wkf_diagnostic_2.png)
 
-* **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**: Van het  **[!UICONTROL Value]** gebied, kunt u het percentage van vraagtijd veranderen het opeenvolgingsaftasten voor de te produceren aanbeveling moet nemen.
+* **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**: Van de **[!UICONTROL Value]** veld, kunt u het percentage wijzigen van de querytijd die de reeks moet doornemen voordat de aanbeveling wordt gegenereerd.
 
    ![](assets/wkf_diagnostic_3.png)

@@ -31,12 +31,12 @@ Raadpleeg de volgende veelgestelde vragen voor meer informatie over Push of In-A
 
 Raadpleeg de onderstaande bronnen voor meer informatie over de Adobe Experience Platform SDK en de integratie van Campaign Standard:
 
-* Starten/Mobiel [Overzicht Video](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
-* Starten/Mobiele [Handleiding voor tips en trucs](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
+* Starten/Mobiel [Video overzicht](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
+* Starten/Mobiel [Handleiding voor tips en trucs](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Is de integratie van Adobe Experience Platform SDK beschikbaar voor zowel Adobe Campaign Standard als Adobe Campaign Classic? {#aep-validity}
 
-Ja, integratie [!DNL Adobe Experience Platform SDK] is beschikbaar voor zowel Adobe Campaign Standard als Adobe Campaign Classic. U moet de corresponderende **[!UICONTROL Extension]** via [!DNL Adobe Launch] installeren om de integratie in te schakelen.
+Ja, [!DNL Adobe Experience Platform SDK] de integratie is zowel voor Adobe Campaign Standard als voor Adobe Campaign Classic beschikbaar. U moet de bijbehorende **[!UICONTROL Extension]** via [!DNL Adobe Launch] de integratie mogelijk te maken.
 
 Raadpleeg [deze pagina](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) voor meer informatie.
 
@@ -48,14 +48,14 @@ Raadpleeg de onderstaande tabel voor meer informatie over deze mogelijkheden.
 
 >[!NOTE]
 >
->[!DNL Places] integratie omvat plaatsgebeurtenissen als trekkers voor In-App berichten (n.v.t. Pushberichten), het verrijken van profielen met  [!DNL Places] gegevens en lokale berichtsteun. Raadpleeg deze [pagina](../../channels/using/preparing-and-sending-an-in-app-message.md) voor meer informatie. <br>[!DNL Places] beperkte integratie omvat het verrijken van profielen met  [!DNL Places] gegevens.
+>[!DNL Places] integratie omvat plaatsgebeurtenissen als trekkers voor In-App berichten (n.v.t. pushberichten), het verrijken van profielen met [!DNL Places] ondersteuning voor gegevens en lokale meldingen. Zie dit [page](../../channels/using/preparing-and-sending-an-in-app-message.md) voor meer informatie . <br>[!DNL Places] beperkte integratie omvat verrijkende profielen met [!DNL Places] gegevens.
 
 ## Wat is het nut van de integratie van Adobe Experience Platform SDK in Adobe Campaign Standard? {#aep-use-cases}
 
 De volgende gebruiksgevallen worden ondersteund:
 
-* Een **[!UICONTROL Mobile Profile]** ophalen in campagne (aangeduid met ECID in **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]** > **[!UICONTROL Mobile Application subscribers]** tab)
-* Verrijk een **[!UICONTROL Mobile Profile]** in Adobe Campaign (vereist **[!UICONTROL Custom resource Extension]** van appSubscriberRcp-tabel)
+* Een **[!UICONTROL Mobile Profile]** in Campagne (geïdentificeerd door ECID in **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]** > **[!UICONTROL Mobile Application subscribers]** tab)
+* Een **[!UICONTROL Mobile Profile]** in Adobe Campaign (vereist **[!UICONTROL Custom resource Extension]** van appSubscriberRcp-tabel)
 * Een pushtoken ophalen voor het verzenden van pushberichten (vereist dat de gebruiker zich aanmeldt om pushberichten te ontvangen)
 * Push- en In-App-berichten verzenden
 * Houd de interactie van de gebruiker met de Berichten van de Duw en van de In-App en verstrek rapporten over dat
@@ -64,21 +64,21 @@ De volgende gebruiksgevallen worden ondersteund:
 
 Hiervoor voert u de volgende stappen uit:
 
-1. Configureer een **[!UICONTROL Mobile property]** in [!DNL Launch].
-1. Installeer Adobe Campaign Standard-extensie. Voor Adobe Campaign Standard-extensies **[!UICONTROL Mobile Core]**, **[!UICONTROL Profile]** en **[!UICONTROL Lifecycle]** zijn ook extensies nodig die standaard worden geïnstalleerd in [!DNL Launch].
-   * Gebruikers dienen een sessietime-out in de extensie **[!UICONTROL Mobile Core]** te configureren die invloed heeft op de frequentie van levenscyclusgebeurtenissen.
+1. Een **[!UICONTROL Mobile property]** in [!DNL Launch].
+1. Installeer Adobe Campaign Standard-extensie. Opmerking: Adobe Campaign Standard-extensie is ook vereist **[!UICONTROL Mobile Core]**, **[!UICONTROL Profile]** en **[!UICONTROL Lifecycle]** extensies die standaard worden geïnstalleerd in [!DNL Launch].
+   * Gebruikers dienen de sessietime-out te configureren in **[!UICONTROL Mobile Core]** uitbreiding die de frequentie van levenscyclusgebeurtenissen beïnvloedt.
    * Nadat de extensie is geconfigureerd, moeten gebruikers de juiste afhankelijkheden toevoegen in de mobiele app met Cocoapods voor iOS en Gradle for Android. Volg de aanwijzingen [hier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
    * Neem altijd de nieuwste versies van de bibliotheken.
-   * Registreer **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** en **[!UICONTROL Signal]** extensies. Volg de aanwijzingen [hier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#register-the-campaign-standard-extension-with-mobile-core).
+   * Registreren in Mobile App **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** en **[!UICONTROL Signal]** extensies. Volg de aanwijzingen [hier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#register-the-campaign-standard-extension-with-mobile-core).
    * Start ACPCore wanneer extensies zijn geregistreerd. Voor Android moet u setApplication onCreate() gebruiken. Volg de exacte instructies in de instructies bij Mobiele installatie voor uw mobiele eigenschap in Launch.
-   * De volgende SDK API&#39;s zijn ook vereist. Implementeer de begin- en pauze-API&#39;s van de levenscyclus zoals beschreven [hier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android) voor Android en hier voor iOS.
-1. Configureer een **[!UICONTROL Mobile Property]** in Adobe Campaign Standard. Volg de procedure [hier](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+   * De volgende SDK API&#39;s zijn ook vereist. API&#39;s voor het starten en pauzeren van de levenscyclus implementeren zoals beschreven [hier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android) voor Android en hier voor iOS.
+1. Een **[!UICONTROL Mobile Property]** in Adobe Campaign Standard. Volg de procedure [hier](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## Wat moet ik doen om een mobiel profiel in Campagne te verrijken? {#enrich-mobile-profile}
 
-U moet een CollectPII postback (verwijs naar deze [pagina](../../administration/using/configuring-rules-launch.md#pii-postback)) vormen en CollectPII API van SDK uitvoeren (verwijs naar deze [pagina](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
+U moet een CollectPII postback vormen (verwijs naar dit [page](../../administration/using/configuring-rules-launch.md#pii-postback)) en implementeert de CollectPII-API van SDK (raadpleeg deze [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)).
 
-## Hoe vaak zou een vraag moeten worden in brand gestoken CollectPII? {#collect-pii}
+## Hoe vaak zou een vraag CollectPII moeten worden in brand gestoken? {#collect-pii}
 
 Het doel van de vraag CollectPII is het Mobiele Profiel in Campagne te verrijken. Het zou moeten in brand worden gestoken wanneer er nieuwe betekenisvolle informatie is die de klanten aan het profiel afhankelijk van hun gebruiksgevallen en bedrijfsbehoeften willen toevoegen.
 
@@ -92,15 +92,15 @@ De frequentie en het ontwerp van vraag CollectPII zouden door bedrijfsbehoeften 
 
 ### Wanneer ik toegang probeer te krijgen tot Adobe Experience Platform Apps in Campaign of Launch, krijg ik soms een eigenschap die niet beschikbaar is. {#aep-error}
 
-Dit is een bekend probleem en gebeurt als het token vervalt. Meld u af en weer aan.
+Dit is een bekend probleem dat optreedt als een token vervalt. Meld u af en weer aan.
 
 ## Wat zouden enkele nuttige middelaanbevelingen zijn om meer over Adobe Experience Platform SDK (vroeger genoemd geworden SDK V5) te leren?{#resource-aep}
 
 Ontdek de onderstaande bronnen:
 
 * Experience Platform SDK [documentatie](https://aep-sdks.gitbook.io/docs/)
-* Aan de slag met Starten en Experience Platform SDK [documentatie](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
-* Bijwerken naar SDK van Experience Platform [documentatie](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
+* Aan de slag met de SDK voor Starten en Experience Platforms [documentatie](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
+* Upgrade uitvoeren naar Experience Platform SDK [documentatie](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
 * Github Experience Platform SDK [documentatie](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## Ik krijg fout &quot;u hebt geen schrijftoegang bij levering&quot;terwijl het creëren van een levering van het dupbericht. {#write-access-error}

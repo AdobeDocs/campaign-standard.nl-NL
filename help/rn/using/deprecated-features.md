@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 67%
+source-wordcount: '864'
+ht-degree: 65%
 
 ---
 
@@ -79,7 +79,7 @@ Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikma
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Vanaf Campaign 19.0 is de verouderde e-maileditor afgeschaft. Gebruik <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campagne e-mailDesigner</a> om uw e-mailinhoud te maken en aan te passen. </p></br>
+   <td> <p>Vanaf Campaign 19.0 is de verouderde e-maileditor afgeschaft. Gebruiken <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campagne voor e-mailontwerper</a> om uw e-mailinhoud te maken en aan te passen. </p></br>
    <p>Lees <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">deze sectie</a> om te ontdekken hoe u uw e-mailsjablonen voor de nieuwe editor kunt aanpassen.</p></br>
   <p> 
   <em>Streefdatum voor verwijdering: 2022</em></p>
@@ -119,7 +119,7 @@ Deze sectie bevat een lijst met functies en mogelijkheden die uit Campaign Stand
    <td> <p> Vanaf de release van Campagne 20.1 is SDK v4 afgekeurd. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Meer informatie</a>.</p><br/>
    <p>De <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (voorheen v5 genoemd) biedt nu exclusief ondersteuning voor toekomstige Adobe Experience Cloud-functies en -functionaliteit.</p>
    <p>Na 31 augustus kunnen 2021 klanten de versie 4 SDK's blijven downloaden en gebruiken, maar er is geen ondersteuning voor de klantenservice of toegang tot forums.</p>
-   <p>Leer hoe u op deze pagina </a> van SDK v4 naar Adobe Experience Platform Mobile SDK kunt migreren.<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html"></a></p></br>
+   <p>Leer hoe u van SDK v4 naar Adobe Experience Platform Mobile SDK kunt migreren <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">op deze pagina</a>.</p></br>
      </td> 
   </tr> 
  </tbody> 
@@ -178,7 +178,7 @@ Deze sectie bevat een lijst met functies en mogelijkheden die uit Campaign Stand
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK] is uit bedrijf genomen. Daardoor is de afbeeldingseditie die werd aangestuurd door [!DNL Creative SDK] in Campaign Standard-e-mails niet meer beschikbaar vanaf Campaign-versie 20.2.</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] is buiten gebruik gesteld. Dientengevolge, beelduitgave aangedreven door [!DNL Creative SDK] in Campaign Standard e-mailberichten zijn niet meer beschikbaar vanaf de release van Campagne 20.2.</p></br>
    </td> 
   </tr> 
  </tbody> 

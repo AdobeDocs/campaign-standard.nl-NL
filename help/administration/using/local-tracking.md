@@ -24,11 +24,11 @@ Leer op deze pagina hoe u ervoor kunt zorgen dat het bijhouden van lokale meldin
 
 Het bijhouden van lokale meldingen kan in drie typen worden gesplitst:
 
-* **Lokale indrukken**  - Wanneer een lokale melding aan het apparaat is afgeleverd en op het kennisgevingscentrum zit, maar helemaal niet is aangeraakt. In de meeste gevallen zou het aantal indrukkingen gelijk moeten zijn, zo niet het zelfde als het geleverde aantal. Het zorgt ervoor dat het apparaat het bericht kreeg en dat de informatie terug naar de server.
+* **Lokale indrukken** - Wanneer een lokale melding aan het apparaat is afgeleverd en in het meldingscentrum zit, maar helemaal niet is aangeraakt. In de meeste gevallen zou het aantal indrukkingen gelijk moeten zijn, zo niet het zelfde als het geleverde aantal. Het zorgt ervoor dat het apparaat het bericht kreeg en dat de informatie terug naar de server.
 
-* **Lokale klik**  - wanneer een lokaal bericht aan het apparaat is geleverd en de gebruiker op het bericht heeft geklikt. De gebruiker wilde het bericht bekijken (dat op zijn beurt naar het lokale open volgen zal bewegen) of het bericht sluiten.
+* **Lokale klik** - Wanneer een lokaal bericht aan het apparaat is afgeleverd en de gebruiker op het bericht heeft geklikt. De gebruiker wilde het bericht bekijken (dat op zijn beurt naar het lokale open volgen zal bewegen) of het bericht sluiten.
 
-* **Lokale open**  - wanneer een lokaal bericht aan het apparaat is geleverd en de gebruiker op het bericht heeft geklikt dat de toepassing de open veroorzaakt. Dit is vergelijkbaar met de lokale klik, maar een lokaal geopend bericht wordt niet geactiveerd als het bericht is gesloten.
+* **Lokale open** - Wanneer een lokaal bericht aan het apparaat is afgeleverd en de gebruiker op het bericht heeft geklikt dat de toepassing het openen veroorzaakt. Dit is vergelijkbaar met de lokale klik, maar een lokaal geopend bericht wordt niet geactiveerd als het bericht is gesloten.
 
 Voor het implementeren van tracering voor Adobe Campaign Standard moet de mobiele toepassing de Mobile SDK opnemen in de toepassing. Deze SDK&#39;s zijn beschikbaar in [!DNL Adobe Mobile Services].
 
@@ -36,17 +36,17 @@ Er zijn drie variabelen die moeten worden verzonden om trackinggegevens te verze
 
 | Variabele | Waarde |
 | :-: | :-: |
-| deliveryId | `deliveryId` van binnenkomende gegevens (vergelijkbaar met &#39;push tracking&#39; wanneer deze  `_dld` worden gebruikt) |
-| broadlogId | `broadlogId` van binnenkomende gegevens (vergelijkbaar met &#39;push tracking&#39; wanneer deze  `_mld` worden gebruikt) |
+| deliveryId | `deliveryId` van binnenkomende gegevens (vergelijkbaar met &#39;push tracking&#39; waar `_dld` wordt gebruikt) |
+| broadlogId | `broadlogId` van binnenkomende gegevens (vergelijkbaar met &#39;push tracking&#39; waar `_mld` wordt gebruikt) |
 | action | &quot;1&quot; voor Openen, &quot;2&quot; voor Klikken en &quot;7&quot; voor Impressie |
 
 ## Lokale imitatie bijhouden {#implement-local-impression-tracking}
 
-De Adobe Experience Platform Mobile SDK verzendt automatisch de impeilingsgebeurtenis voor zowel Android als iOS zonder aanvullende configuratie.
+De Adobe Experience Platform Mobile SDK verzendt automatisch de impeilingsgebeurtenis voor zowel Android als iOS zonder extra configuratie.
 
 ## Klikken bijhouden implementeren {#implementing-click-tracking}
 
-Als u klikt op bijhouden, moet u waarde &quot;2&quot; voor een handeling verzenden wanneer u `collectMessageInfo()`- of `trackAction()`-functies aanroept.
+Voor klik het volgen moet u waarde &quot;2&quot;voor actie verzenden wanneer het roepen `collectMessageInfo()` of `trackAction()` functies.
 
 ### Voor Android {#implement-click-tracking-android}
 
@@ -54,7 +54,7 @@ Om kliks te volgen, moeten twee scenario&#39;s worden uitgevoerd:
 
 * De gebruiker ziet het bericht maar wist het.
 
-   Om te volgen klik in het geval van ontslagscenario, voeg de uitzendingsontvanger `NotificationDismissalHandler` in het AndroidManifest dossier van uw toepassingsmodule toe.
+   Om te volgen klik in het geval van ontslagscenario, voeg de uitzendingsontvanger toe `NotificationDismissalHandler` in het AndroidManifest-bestand van uw toepassingsmodule.
 
    ```
    <receiver
@@ -64,7 +64,7 @@ Om kliks te volgen, moeten twee scenario&#39;s worden uitgevoerd:
 
 * De gebruiker ziet het bericht en klikt erop, dit zal aan open het volgen draaien.
 
-   Dit scenario zou een klik en een open moeten veroorzaken. Het volgen van deze klik zal een deel van de implementatie nodig zijn om open te volgen. Zie [Openen bijhouden implementeren](#implement-open-tracking).
+   Dit scenario zou een klik en een open moeten veroorzaken. Het volgen van deze klik zal een deel van de implementatie nodig zijn om open te volgen. Zie [Openbare tracering implementeren](#implement-open-tracking).
 
 ### Voor iOS {#implement-click-tracking-ios}
 
@@ -107,7 +107,7 @@ U moet &quot;1&quot; en &quot;2&quot; verzenden omdat de gebruiker op het berich
 
 Om open te houden, moeten we intent creëren. Met intentieobjecten kan het Android-besturingssysteem de methode aanroepen wanneer bepaalde handelingen zijn uitgevoerd. Klik in dit geval op het bericht om de toepassing te openen.
 
-Deze code is gebaseerd op de implementatie van het bijhouden van de klikindruk. Als de intentie is ingesteld, moet je nu trackinggegevens terugsturen naar Adobe Campaign. In dit geval wordt Android View ([!DNL Activity]) die de melding heeft geactiveerd, geopend of op de voorgrond geplaatst als gevolg van de klik door de gebruiker. Het intent-object in [!DNL Activity] bevat de berichtgegevens die kunnen worden gebruikt om het openen bij te houden.
+Deze code is gebaseerd op de implementatie van het bijhouden van de klikindruk. Als de intentie is ingesteld, moet je nu trackinggegevens terugsturen naar Adobe Campaign. In dit geval wordt Android View([!DNL Activity]) die de aanmelding heeft geactiveerd, wordt als gevolg van de klik door de gebruiker geopend of op voorgrond geplaatst. Het intentieobject in [!DNL Activity] bevat de berichtgegevens die kunnen worden gebruikt om open te volgen.
 
 MainActivity.java (extends [!DNL Activity])
 

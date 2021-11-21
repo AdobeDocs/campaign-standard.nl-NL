@@ -21,15 +21,15 @@ ht-degree: 8%
 >
 >De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 >
->**** Pushand  **in-** apps zijn nog niet beschikbaar voor personalisatie met gebruik van contextuele gegevens van Adobe Experience Platform.
+>**Push** en **In app** de kanalen zijn nog niet beschikbaar voor verpersoonlijking gebruikend contextuele gegevens van Adobe Experience Platform.
 
-Zodra uw werkschema met [Adobe Experience Platform publiek](../../integrating/using/aep-about-audience-destinations-service.md) wordt gevormd, kunt u berichten met profielattributen personaliseren die uitsluitend in het Model van de Gegevens van de Ervaring (XDM) bestaan.
+Zodra uw werkschema met wordt gevormd [Adobe Experience Platform-publiek](../../integrating/using/aep-about-audience-destinations-service.md), kunt u berichten met profielattributen personaliseren die uitsluitend in het Model van de Gegevens van de Ervaring (XDM) bestaan.
 
-Hiervoor moet u deze kenmerken toevoegen aan de **[!UICONTROL Read audience]**-activiteit:
+Hiervoor moet u deze kenmerken toevoegen aan de **[!UICONTROL Read audience]** activiteit:
 
-1. Open de **[!UICONTROL Read audience]** activiteit. Klik op het tabblad **[!UICONTROL Additional data]** op de knop **[!UICONTROL Create element]**.
+1. Open de **[!UICONTROL Read audience]** activiteit. In de **[!UICONTROL Additional data]** klikt u op de knop **[!UICONTROL Create element]** knop.
 
-   Het tabblad **[!UICONTROL Additional data]** is alleen beschikbaar nadat een Adobe Experience Platform-publiek is geselecteerd.
+   De **[!UICONTROL Additional data]** is alleen beschikbaar nadat een Adobe Experience Platform-publiek is geselecteerd.
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
@@ -49,9 +49,9 @@ Hiervoor moet u deze kenmerken toevoegen aan de **[!UICONTROL Read audience]**-a
 
    >[!NOTE]
    >
-   >U kunt maximaal 20 XDM gebieden in een **[!UICONTROL Read audience]** activiteit toevoegen.
+   >U kunt maximaal 20 XDM-velden toevoegen aan een **[!UICONTROL Read audience]** activiteit.
 
-1. Nadat alle velden zijn toegevoegd, klikt u op de knop **[!UICONTROL Confirm]** om de wijzigingen op te slaan. Ze zijn nu beschikbaar om uw leveringen aan te passen.
+1. Als alle velden zijn toegevoegd, klikt u op de knop **[!UICONTROL Confirm]** om uw wijzigingen op te slaan. Ze zijn nu beschikbaar om uw leveringen aan te passen.
 
 Raadpleeg de documentatie bij Campaign Standard voor meer informatie over het maken en personaliseren van leveringen:
 

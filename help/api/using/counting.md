@@ -17,13 +17,13 @@ ht-degree: 2%
 
 # Tellen
 
-De Adobe Campaign REST API kan het aantal records in een aanvraag tellen. Om dit te doen, gebruik URL die in **count** knoop is teruggekeerd.
+De Adobe Campaign REST API kan het aantal records in een aanvraag tellen. Hiervoor gebruikt u de URL die wordt geretourneerd in het dialoogvenster **aantal** knooppunt.
 
 <br/>
 
 ***Voorbeeldverzoek***
 
-Om alle diensten te tellen die een **messageType** waarde gelijk aan &quot;sms&quot;hebben, voer een verzoek van de GET met **byChannel** filter uit.
+Om alle diensten te tellen die een **messageType** waarde die gelijk is aan &quot;sms&quot;, een GET-verzoek uitvoeren met de **byChannel** filter.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
@@ -54,7 +54,7 @@ Het keert de diensten terug die aan de filter beantwoorden.
 }
 ```
 
-Voer een verzoek van de GET op **count** knoop URL uit om het aantal resultaten terug te winnen.
+Voer een verzoek van de GET uit op **aantal** URL van knooppunt om het aantal resultaten op te halen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \

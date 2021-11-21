@@ -8,18 +8,17 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1071'
 ht-degree: 2%
 
 ---
 
+# Aan de slag met de zelfbedieningsintegratie-app {#gs-self-service-app}
 
-# Aan de slag met de integratie-app {#gs-self-service-app} voor zelfbediening
-
-De integratie van Adobe Campaign Standard met de zelfbedieningstoepassing van de Integratie van de Dynamica 365 van Microsoft geeft u de capaciteit om gegevensstromen te vormen, te controleren of zij lopen, en waarin milieu. U moet echter een aantal voorwaarden voltooien voordat u de toepassing voor zelfintegratie gaat gebruiken.
+De integratie van Adobe Campaign Standard met Microsoft Dynamics 365 zelfbedieningstoepassing geeft u de capaciteit om gegevensstromen te vormen, te controleren of zij lopen, en waarin milieu. U moet echter een aantal voorwaarden voltooien voordat u de toepassing voor zelfintegratie gaat gebruiken.
 
 ## Concepten en beperkingen {#concepts-and-restrictions}
 
@@ -42,7 +41,7 @@ Meer informatie vindt u in deze secties:
 * [Adobe I/O configureren](../../integrating/using/d365-acs-configure-adobe-io.md)
 * [Aangepaste bronnen voor campagne toewijzen en aangepaste entiteiten voor Microsoft Dynamics 365](../../integrating/using/d365-acs-notices-and-recommendations.md)
 
-## Belangrijke stappen voor het configureren van de integratie-app {#self-service-app-configuration-steps} voor zelfbediening
+## Belangrijke stappen voor het configureren van de zelfbedieningsintegratie-app {#self-service-app-configuration-steps}
 
 U kunt dan met het integratiehulpmiddel beginnen. Voer de volgende stappen uit:
 
@@ -61,8 +60,8 @@ Open een browser en blader aan de schakelaar verbonden aan uw gebied:
 
 ## Bevestiging van privacyverzoek {#self-service-app-acknowledgement}
 
-Wanneer het doorbladeren aan zelfbediening UI voor het eerst, zult u met de privacyerkenning worden voorgesteld. U moet erkennen dat u uw rol in het uitvoeren van privacyverzoeken in Campagne en de Dynamica 365 van Microsoft afzonderlijk begrijpt alvorens u kunt verdergaan.
-Meer informatie over uw privacyverantwoordelijkheden en over het beheren van privacyverzoeken vindt u in [deze sectie](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
+Wanneer het doorbladeren aan zelfbediening UI voor het eerst, zult u met de privacyerkenning worden voorgesteld. U moet erkennen dat u uw rol in het afzonderlijk uitvoeren van privacyverzoeken in Campagne en de Dynamica 365 van Microsoft begrijpt alvorens u kunt verdergaan.
+Meer informatie over uw privacyverantwoordelijkheden en over het beheren van privacyverzoeken in [deze sectie](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
 
 ## Uw referenties instellen {#self-service-app-credentials}
 
@@ -72,47 +71,46 @@ Wanneer u voor het eerst naar de gebruikersinterface bladert, wordt een pagina m
 
 >[!NOTE]
 >
-> Het is normaal om alarm te krijgen die erop wijzen dat het &quot;niet&quot;met Adobe Campaign Standard of de Dynamica 365 van Microsoft kan verbinden als de toepassingsmontages nog niet zijn gevormd.
+> Het is normaal om waarschuwingen op te halen die aangeven dat het &quot;niet in staat is verbinding te maken&quot; met Adobe Campaign Standard of Microsoft Dynamics 365 als de app-instellingen nog niet zijn geconfigureerd.
 
 Controleer of de selecties &quot;ORG&quot; en &quot;INSTANTIE&quot; de selecties zijn die u wilt configureren.  Als dat niet het geval is, klikt u op de vervolgkeuzelijst en selecteert u de juiste org en variant.
 
 >[!IMPORTANT]
 >
-> Als u de connector voor het eerst configureert en/of als u nog niet vertrouwd bent met dit proces, wordt u aangeraden **strongly** te selecteren om de instantie &quot;stage&quot; of &quot;dev&quot; te selecteren. U zult ervoor willen zorgen om te verifiëren dat uw configuratie goed alvorens de opstelling in productie te proberen werkt.
+> Als u de connector voor het eerst configureert en/of als u nog niet vertrouwd bent met dit proces, dan zijn wij **krachtig** DRUK erop om de instantie &quot;stage&quot; of &quot;dev&quot; te selecteren. U zult ervoor willen zorgen om te verifiëren dat uw configuratie goed alvorens de opstelling in productie te proberen werkt.
 
-Als u over de juiste org en instantie beschikt, klikt u op het menu &quot;hamburger&quot; om een vervolgkeuzemenu weer te geven. Klik vervolgens op **[!UICONTROL Settings...]** in de keuzelijst om de pagina te bezoeken waarop u uw referenties voor Microsoft Dynamics 365 en Campagne (zie hieronder) invoert.
+Als u over de juiste org en instantie beschikt, klikt u op het menu &quot;hamburger&quot; om een vervolgkeuzemenu weer te geven. Klik vervolgens op **[!UICONTROL Settings...]** in het keuzemenu om naar de pagina te gaan waar u uw gegevens voor Microsoft Dynamics 365 en Campaign invoert (zie hieronder).
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
-Vul de volgende secties in op de pagina **[!UICONTROL Settings]**:
+In de **[!UICONTROL Settings]** pagina, vult de volgende secties in:
 
 * Microsoft Dynamics 365 Credentials
 * Adobe Credentials
 
-Ga [hier](../../integrating/using/d365-acs-self-service-app-settings.md) om gedetailleerdere informatie over te vinden waar te om de informatie voor elke input te vinden. Wanneer u wordt gedaan, klik **[!UICONTROL Save]** knoop bij de bodem.
+Ga [hier](../../integrating/using/d365-acs-self-service-app-settings.md) voor meer gedetailleerde informatie over waar de informatie voor elke invoer moet worden gevonden. Als u klaar bent, klikt u op de knop **[!UICONTROL Save]** aan de onderkant.
 
-## Controleer de eerste configuratie {#self-service-app-initial-config}
+## De eerste configuratie controleren {#self-service-app-initial-config}
 
-Ervan uitgaande dat u de bovenstaande voorwaarden hebt voltooid en dat u al uw referenties correct hebt toegevoegd, gaan we nu naar de pagina **[!UICONTROL Workflows]**. Meer informatie over de workflows van de integratie-app vindt u op [deze pagina](../../integrating/using/d365-acs-self-service-app-workflows.md).
+Ervan uitgaande dat u de bovenstaande voorwaarden hebt voltooid en dat u al uw referenties correct hebt toegevoegd, gaan we nu naar de **[!UICONTROL Workflows]** pagina. Meer informatie over de workflows van de integratie-app in [deze pagina](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
-Klik op de pagina **[!UICONTROL Workflows]** op het potloodpictogram dat is gekoppeld aan de **[!UICONTROL Microsoft Dynamics 365 to Campaign]**-workflow om de configuratie ervan te bewerken.
+In de  **[!UICONTROL Workflows]** pagina, klikt u op het potloodpictogram dat is gekoppeld aan het **[!UICONTROL Microsoft Dynamics 365 to Campaign]** workflow om de configuratie ervan te bewerken.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
 
-Op de **[!UICONTROL Microsoft Dynamics 365 to Campaign]** pagina, kunt u tot de lijst van de lijstafbeeldingen toegang hebben die u hebt gevormd.  U wordt standaard toegewezen aan een contact-/profieltoewijzing buiten het vak. Alle andere aangepaste entiteiten moeten afzonderlijk worden geconfigureerd.
+In de **[!UICONTROL Microsoft Dynamics 365 to Campaign]** pagina, kunt u tot de lijst van de lijstafbeeldingen toegang hebben die u hebt gevormd.  U wordt standaard toegewezen aan een contact-/profieltoewijzing buiten het vak. Alle andere aangepaste entiteiten moeten afzonderlijk worden geconfigureerd.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
-Controleer op de pagina **[!UICONTROL Edit Table Mapping]** de sectie **[!UICONTROL Mappings]** om ervoor te zorgen dat de gebieden van de Dynamica 365 van Microsoft aan het correcte gebied in Campagne in kaart worden gebracht. Als u andere toewijzingen moet toevoegen, doet u dit nu, evenals om het even welke vervangingen of filters. [Meer informatie](../../integrating/using/d365-acs-self-service-app-data-sync.md).
+In de **[!UICONTROL Edit Table Mapping]** pagina, controleer **[!UICONTROL Mappings]** om ervoor te zorgen dat velden van Microsoft Dynamics 365 worden toegewezen aan het juiste veld in Campagne. Als u andere toewijzingen moet toevoegen, doet u dit nu, evenals om het even welke vervangingen of filters. [Meer info](../../integrating/using/d365-acs-self-service-app-data-sync.md).
 
-Als u nieuwe afbeeldingen wilt toevoegen, raadpleegt u [deze sectie](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) voor meer informatie.
+Als u nieuwe toewijzingen wilt toevoegen, raadpleegt u [deze sectie](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) voor meer informatie .
 
-Wanneer de configuratie juist is, klikt u op de **[!UICONTROL Play]** knop naast de **[!UICONTROL Microsoft Dynamics 365 to Campaign]** workflow om de integratie en de gegevensstroom te starten.
+Zodra uw configuratie correct is, klik **[!UICONTROL Play]** naast de knop **[!UICONTROL Microsoft Dynamics 365 to Campaign]** om de integratie en de gegevensstroom te starten.
 
 >[!IMPORTANT]
 >
->Wij **sterk** adviseren dat u dit eerst in uw milieu&#39;s van het Stadium of van het Dev in werking stelt alvorens in Productie in werking te stellen. Controleer of het werkgebied/de instantie dev is geselecteerd in de koptekst.
-
+>Wij **krachtig** U wordt aangeraden dit eerst in uw Stage- of Dev-omgeving uit te voeren voordat u dit doet in Production. Controleer of het werkgebied/de instantie dev is geselecteerd in de koptekst.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
@@ -121,13 +119,13 @@ Als deze eenmaal is gestart, kunt u testen door items toe te voegen of te wijzig
 
 ## De werkruimte van de integratie-app {#self-service-app-workspace}
 
-### App-koptekst {#app-header}
+### App-header {#app-header}
 
 Met de header in de zelfbedieningsapp kunt u definiëren welke org en instantie u momenteel bekijkt en/of configureert.
 
-Selecteer **ORG** en **INSTANTIE** u wilt bekijken/uitgeven. Deze velden worden alleen-lezen weergegeven, maar kunnen worden bewerkt wanneer u de muiscursor erop plaatst.
+Selecteer **ORG** en de **INSTANTIE** wilt weergeven/bewerken. Deze velden worden alleen-lezen weergegeven, maar kunnen worden bewerkt wanneer u de muiscursor erop plaatst.
 
-Er wordt een vervolgkeuzemenu weergegeven wanneer u op de knop klikt met de drie horizontale lijnen ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) rechts van de koptekst.
+Er wordt een vervolgkeuzemenu weergegeven wanneer u op de knop klikt met de drie horizontale lijnen ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) aan de rechterkant van de koptekst.
 
 De items in het keuzemenu zijn:
 
@@ -139,7 +137,7 @@ De items in het keuzemenu zijn:
 
 * **Afmelden**: Hiermee meldt u zich af van de toepassing en kunt u zich weer aanmelden als een andere gebruiker.
 
-* **Informatie over**: Dit toont een dialoog die informatie over de toepassing, met inbegrip van auteursrechtinformatie bevat.
+* **Info**: Dit toont een dialoog die informatie over de toepassing, met inbegrip van auteursrechtinformatie bevat.
 
 ### Broodkruimels {#app-breadcrumbs}
 
@@ -147,7 +145,7 @@ Terwijl u door de app navigeert, worden er onder aan bepaalde schermen balken we
 
 **Voorbeeld:**
 
-Hieronder ziet u een voorbeeld van het scherm **[!UICONTROL Edit Table Mapping]** dat de broodkruimels en de paginatitel toont. In dit geval kunt u op **[!UICONTROL Workflows]** of **[!UICONTROL Microsoft Dynamics 365 to Campaign]** tekst klikken om naar één van de vorige schermen te gaan. **[!UICONTROL Edit Table Mapping]** in de breadcrumbs kan in dit geval niet worden geklikt omdat het het huidige scherm is.
+Hieronder ziet u een voorbeeld van het **[!UICONTROL Edit Table Mapping]** scherm dat de broodkruimels en de paginatitel toont. In dit geval kunt u op de knop **[!UICONTROL Workflows]** of **[!UICONTROL Microsoft Dynamics 365 to Campaign]** naar een van de vorige schermen te gaan. **[!UICONTROL Edit Table Mapping]** in de breadcrumbs kan in dit geval niet worden geklikt omdat het het huidige scherm is.
 
 ![](assets/do-not-localize/d365-to-acs-breadcrumbs-ingress.png)
 

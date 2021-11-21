@@ -19,23 +19,23 @@ ht-degree: 2%
 
 ## Een publiek importeren {#importing-an-audience}
 
-Dankzij de integratie met de basisservice van mensen kan een publiek rechtstreeks in Adobe Campaign worden geïmporteerd via een technische workflow om uw database te verrijken. Raadpleeg de volgende [documentatie](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html) voor meer informatie over het delen van het publiek in de hoofdservice Personen.
+Dankzij de integratie met de basisservice van mensen kan een publiek rechtstreeks in Adobe Campaign worden geïmporteerd via een technische workflow om uw database te verrijken. Voor meer informatie over publiek het delen in de de kerndienst van Mensen, verwijs naar dit [documentatie](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
-Het importeren van soorten publiek/segmenten van de People core-service in Adobe Campaign kan alleen via het menu **[!UICONTROL Audiences]** worden uitgevoerd door gebruikers die via IMS zijn verbonden (verificatie via Adobe ID).
+De invoer van publiek/segmenten van de de kerndienst van Mensen in Adobe Campaign kan van **[!UICONTROL Audiences]** alleen door gebruikers die via IMS zijn verbonden (verificatie via Adobe ID).
 
-1. Ga naar het **[!UICONTROL Audiences]** menu.
-1. Selecteer **[!UICONTROL Create]** in de actiebalk om naar het scherm te gaan om een publiek te maken.
+1. Ga naar de **[!UICONTROL Audiences]** -menu.
+1. Selecteer in de actiebalk de optie **[!UICONTROL Create]** naar het scherm worden gebracht om een publiek te maken.
 1. Geef het label van het nieuwe publiek op.
-1. Stel het publiek **[!UICONTROL Type]** in op **[!UICONTROL Experience Cloud]** om aan te geven dat het publiek dat wordt gemaakt een publiek is dat is geïmporteerd uit de kernservice Personen.
-1. Selecteer in het veld **[!UICONTROL Name of the shared audience]** het publiek dat u wilt importeren. Alleen segmenten kunnen worden geïmporteerd. De korrelige gegevens met inbegrip van zeer belangrijk-waardeparen, eigenschappen en regels worden niet gesteund.
+1. Het publiek instellen **[!UICONTROL Type]** tot **[!UICONTROL Experience Cloud]** om erop te wijzen dat het publiek dat wordt gecreeerd een publiek is dat van de de kerndienst van Mensen werd ingevoerd.
+1. Van de **[!UICONTROL Name of the shared audience]** selecteert u het publiek dat u wilt importeren. Alleen segmenten kunnen worden geïmporteerd. De korrelige gegevens met inbegrip van zeer belangrijk-waardeparen, eigenschappen en regels worden niet gesteund.
 
    ![](assets/aam_import_audience.png)
 
-1. Selecteer de corresponderende **[!UICONTROL Shared Data Source]**.
+1. Selecteer de bijbehorende **[!UICONTROL Shared Data Source]**.
 
-   Als de geselecteerde gegevensbron wordt gevormd om een encryptiealgoritme te gebruiken, biedt een extra optie u de mogelijkheid aan **[!UICONTROL Force reconciliation with a profile]**. Schakel deze optie in als het veld **[!UICONTROL Channel]** van de gegevensbron is ingesteld op E-mail of Mobiel (SMS) en als u profielgegevens wilt gebruiken.
+   Als de geselecteerde gegevensbron wordt gevormd om een encryptiealgoritme te gebruiken, biedt een extra optie u de mogelijkheid om **[!UICONTROL Force reconciliation with a profile]**. Schakel deze optie in als de optie **[!UICONTROL Channel]** wordt ingesteld op E-mail of Mobiel (SMS) en als u profielgegevens wilt gebruiken.
 
-   Als u **[!UICONTROL Force reconciliation with a profile]** niet selecteert en als **[!UICONTROL Channel]** in de gegevensbron van AMC aan E-mail of Mobiel (SMS) wordt geplaatst, dan worden alle gecodeerde verklaarde IDs gedecrypteerd. Een publiek van het type **File** met een lijst van alle e-mailadressen/mobiele telefoonaantallen wordt gecreeerd/bijgewerkt. Op deze manier gaat er geen e-mailadres of mobiele telefoonnummer verloren tijdens het importeren van een gedeeld publiek via deze integratie, zelfs als dat profiel niet bestaat in Campagne. Dit soort publiek kan niet rechtstreeks worden gebruikt, omdat het handmatig moet worden afgestemd met behulp van workflows.
+   Als u de optie **[!UICONTROL Force reconciliation with a profile]** en als **[!UICONTROL Channel]** wordt in de AMC-gegevensbron ingesteld op E-mail of Mobiel (SMS). Vervolgens worden alle gecodeerde gedeclareerde id&#39;s gedecodeerd. Een publiek van tekst **Bestand** met een lijst van alle e-mailadressen/mobiele telefoonnummers wordt gemaakt/bijgewerkt. Op deze manier gaat er geen e-mailadres of mobiele telefoonnummer verloren tijdens het importeren van een gedeeld publiek via deze integratie, zelfs als dat profiel niet bestaat in Campagne. Dit soort publiek kan niet rechtstreeks worden gebruikt, omdat het handmatig moet worden afgestemd met behulp van workflows.
 
 1. Bevestig om het publiek te maken.
 
@@ -45,7 +45,7 @@ Uw publiek wordt nu geïmporteerd in uw Adobe Campaign-database. Het importproce
 
 >[!NOTE]
 >
->Als u soorten publiek importeert van Adobe Analytics naar Adobe Campaign, moeten deze soorten publiek eerst worden gedeeld in People Core Service of Audience Manager. Dit proces duurt 12-24 uur en moet worden toegevoegd aan de synchronisatie van 24-36 uur met Campagne. In dat specifieke geval kan de tijd voor het delen van het publiek maximaal 60 uur bedragen. Raadpleeg de volgende [documentatie](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html) voor meer informatie over het delen van Adobe Analytics-publiek in People Core-service en Audience Manager.
+>Als u soorten publiek importeert van Adobe Analytics naar Adobe Campaign, moeten deze soorten publiek eerst worden gedeeld in People Core Service of Audience Manager. Dit proces duurt 12-24 uur en moet worden toegevoegd aan de synchronisatie van 24-36 uur met Campagne. In dat specifieke geval kan de tijd voor het delen van het publiek maximaal 60 uur bedragen. Raadpleeg voor meer informatie over het delen van Adobe Analytics-publiek in People Core-service en Audience Manager de volgende [documentatie](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html).
 
 ## Een publiek exporteren {#exporting-an-audience}
 
@@ -55,27 +55,27 @@ Het kan worden uitgevoerd in een nieuwe werkstroom en alleen door gebruikers die
 
 1. Maak een nieuwe workflow op basis van een programma, een campagne of de lijst met marketingactiviteiten.
 1. Wijs een reeks profielen aan met behulp van de verschillende beschikbare activiteiten.
-1. Na het richten, sleep en laat vallen een **[!UICONTROL Save audience]** activiteit in het werkschema, dan open het.
+1. Na het richten, sleep en laat vallen a **[!UICONTROL Save audience]** in de werkstroom te openen en vervolgens te openen.
 1. Selecteer **[!UICONTROL Share in Adobe Experience Cloud]**.
 
    ![](assets/aam_save_audience_activity.png)
 
-1. Geef het publiek op met het veld **[!UICONTROL Shared audience]**. In het venster dat wordt geopend, kunt u een bestaand publiek selecteren of een nieuw publiek maken:
+1. Geef het publiek op met de opdracht **[!UICONTROL Shared audience]** veld. In het venster dat wordt geopend, kunt u een bestaand publiek selecteren of een nieuw publiek maken:
 
    * Als u een bestaand publiek selecteert, worden alleen de nieuwe records aan het publiek toegevoegd.
-   * Als u uw profiellijst naar een nieuw publiek wilt exporteren, vult u het veld **[!UICONTROL Segment name]** in en klikt u op **[!UICONTROL Create]** voordat u het nieuwe publiek selecteert.
+   * Als u uw profiellijst naar een nieuw publiek wilt exporteren, voltooit u de opdracht **[!UICONTROL Segment name]** veld en klik vervolgens op **[!UICONTROL Create]** voordat u het nieuwe publiek selecteert.
 
    ![](assets/aam_save_audience_segment_picker.png)
 
    Om met elkaar in overeenstemming te kunnen worden gebracht en uitgewisseld, moeten de records een Adobe Experience Cloud-id (&#39;bezoeker-id&#39; of &#39;Opgegeven ID&#39;) hebben. Niet-compatibele records worden genegeerd bij het importeren en exporteren van soorten publiek.
 
 1. Klik op het vinkje rechtsboven in het scherm om te voltooien.
-1. Selecteer de corresponderende **[!UICONTROL Shared Data Source]**.
-1. Schakel desgewenst het selectievakje **[!UICONTROL Generate an outbound transition]** in om de profielen te gebruiken die zijn geëxporteerd. Alleen de profielen die met elkaar in overeenstemming kunnen worden gebracht, worden geëxporteerd.
+1. Selecteer de bijbehorende **[!UICONTROL Shared Data Source]**.
+1. Controleer desgewenst de **[!UICONTROL Generate an outbound transition]** gebruiken om de profielen te gebruiken die zijn geëxporteerd. Alleen de profielen die met elkaar in overeenstemming kunnen worden gebracht, worden geëxporteerd.
 1. Bevestig de configuratie van de activiteit en sla uw werkschema op.
 1. Start de workflow om uw publiek te exporteren. De synchronisatie tussen Adobe Campaign en de kerndienst van Mensen kan verscheidene uren vergen
 
-De synchronisatie tussen Adobe Campaign en de kerndienst van Mensen vergt 24-36 uur. Na deze periode, zult u uw nieuw publiek in de de kerndienst van Mensen kunnen vinden en het in andere oplossingen van Adobe Experience Cloud hergebruiken. Raadpleeg de volgende [documentatie](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html) voor meer informatie over het gebruik van een Adobe Campaign-gedeeld publiek in de kernservice Adobe Personen.
+De synchronisatie tussen Adobe Campaign en de kerndienst van Mensen vergt 24-36 uur. Na deze periode, zult u uw nieuw publiek in de de kerndienst van Mensen kunnen vinden en het in andere oplossingen van Adobe Experience Cloud hergebruiken. Voor meer informatie over het gebruiken van een Adobe Campaign gedeeld publiek in de de kerndienst van de Mensen van de Adobe, verwijs naar dit [documentatie](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html).
 
 **Verwante onderwerpen:**
 

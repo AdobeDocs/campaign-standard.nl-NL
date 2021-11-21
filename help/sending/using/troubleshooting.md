@@ -25,7 +25,7 @@ Ondervindt u een probleem met de leesbaarheid? U kunt hier de oplossing vinden.
 **Waarom krijg ik altijd het zelfde foutenbericht voor bepaalde ISP?**
 
 Als u altijd het zelfde foutenbericht voor ISP krijgt, kan uw e-mail of IP als gebrek door ISP worden ontdekt. Voer de volgende aanbevelingen uit:
-* Controleer of u een groot percentage fouten ontvangt die zijn gekoppeld aan onbestaande e-mailadressen (**Onbekende gebruiker** fouten).
+* Controleer of je een groot percentage mislukkingen ontvangt die gekoppeld zijn aan onbestaande e-mailadressen (**Gebruiker onbekend** fouten).
 * Werk uw abonnementsformulieren bij om fouten in de ingevoerde domeinnamen op te sporen (bijvoorbeeld: gmaul.com of yaho.com).
 * Als u fouten opmerkt die verklaren dat uw berichten als spam worden verklaard, of dat uw berichten constant worden geblokkeerd, probeer exclusief de ontvangers die niet in één van uw berichten in de laatste 12 maanden van het doel hebben geopend of geklikt.
 
@@ -35,7 +35,7 @@ Als het probleem zich blijft voordoen, neemt u contact op met de services voor c
 
 * **Wat is het verschil tussen een e-mailadres op lijst van gewezen personen en een quarantined e-mailadres?**
 
-   * De status **[!UICONTROL On denylist]** is een resultaat van een [terugkoppelt lijn](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (wanneer een persoon een bericht als spam meldt).
+   * De status **[!UICONTROL On denylist]** is het resultaat van een [feedbacklus](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (wanneer een persoon een bericht als spam meldt).
 
    * De status **[!UICONTROL Quarantined]** is het resultaat van een zachte of harde stuit.
    Zie [deze sectie](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist) voor meer informatie.
@@ -44,14 +44,14 @@ Als het probleem zich blijft voordoen, neemt u contact op met de services voor c
 
    Hier volgen tien mogelijke redenen: niet bepaald, gebruiker onbekend, ongeldig domein, adres op lijst van gewezen personen, geweigerd, fout genegeerd, onbereikbaar, rekening gehandicapt, brievenbus volledig, niet verbonden.
 
-   Voor meer op dit, zie [Het begrip quarantainebeheer](../../sending/using/understanding-quarantine-management.md).
+   Zie voor meer informatie [Werken met quarantainebeheer](../../sending/using/understanding-quarantine-management.md).
 
 ## Verwijderen uit lijst van gewezen personen {#removing-from-denylist}
 
 * **Een van mijn ontvangers is per ongeluk aan de lijst van gewezen personen toegevoegd. Hoe verwijder ik hen uit de lijst van gewezen personen zodat ik kan beginnen hen berichten opnieuw te verzenden?**
 
    * Ga naar **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
-   * Stel in de details van de corresponderende record de waarde van het veld **[!UICONTROL Status]** in op **[!UICONTROL Valid]**.
+   * Stel in de details van de corresponderende record de waarde van de **[!UICONTROL Status]** veld naar **[!UICONTROL Valid]**.
    * Sla de record op.
 
 * **Hoe kan ik te weten komen of één van mijn IPs op lijst van gewezen personen is? Hoe verwijder ik mijn IP(s) uit een lijst van gewezen personen?**

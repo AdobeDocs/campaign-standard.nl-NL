@@ -32,9 +32,9 @@ Het is niet onmogelijk om al uw afzetkanalen te harmoniseren. Met behulp van Ado
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**Het** dashboard van het Bericht van de Campagne van de hefboomwerking om uw berichten van één enkele plaats te vormen en te verzenden, evenals toegang tot diverse functionaliteit zoals het plannen, meertalig overseinen...
+**Het dashboard van het bericht van de Campagne van de hefboomwerking** om uw berichten van één enkele plaats te vormen en te verzenden, evenals toegang diverse functionaliteit zoals het plannen, meertalig overseinen...
 
-**Beheer malplaatjes** om berichteigenschappen te vormen en u toe te staan om tijd en consistentie over uw overseinenstrategie te bereiken. Voor e-mails kan de functionele beheerder die verantwoordelijk is voor het configureren van de sjablonen bijvoorbeeld de standaardparameters van een e-mail definiëren, zoals het publiek, de planning of de inhoud, de geavanceerde parameters met betrekking tot verzending, geldigheid, reeksspatiëring, enz., of de parameters die vooraf zijn geconfigureerd voor het aanwijzen en personaliseren (context die als doel heeft).
+**Sjablonen beheren** om berichteigenschappen te vormen en u toe te staan om tijd en consistentie over uw overseinenstrategie te bereiken. Voor e-mails kan de functionele beheerder die verantwoordelijk is voor het configureren van de sjablonen bijvoorbeeld de standaardparameters van een e-mail definiëren, zoals het publiek, de planning of de inhoud, de geavanceerde parameters met betrekking tot verzending, geldigheid, reeksspatiëring, enz., of de parameters die vooraf zijn geconfigureerd voor het aanwijzen en personaliseren (context die als doel heeft).
 
 Meer informatie:
 
@@ -48,11 +48,11 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**In Adobe Campaign zijn vijf** communicatiekanalen beschikbaar: E-mail, SMS-bericht, pushmelding, In-App-bericht en Direct-maillevering.
+**Vijf communicatiekanalen** zijn beschikbaar in Adobe Campaign: E-mail, SMS-bericht, pushmelding, In-App-bericht en Direct-maillevering.
 
 Voor elk kanaal zijn specifieke functies beschikbaar. Met het e-mailkanaal kunt u bijvoorbeeld A/B-tests uitvoeren om maximaal drie versies van een e-mailbericht te testen. Met het SMS-kanaal beheert u SMS-berichten van STOP en slaat u inkomende SMS van de ontvangers op in uw database.
 
-Bovendien kunt u Campaign Standard **personalisatie en dynamische inhoudmogelijkheden** gebruiken om de interesse van uw publiek vast te leggen.
+Bovendien, hefboomwerking Campaign Standard **personalisatie en dynamische inhoudmogelijkheden** om de interesse van uw publiek vast te leggen.
 
 Meer informatie:
 
@@ -66,9 +66,9 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**Verzend afzonderlijke en unieke** berichten naar uw klanten in real time: welkomstberichten, bevestiging van bestellingen voor verzending, wijziging van wachtwoord, enz.
+**Afzonderlijke en unieke berichten verzenden** aan uw klanten in real time: welkomstberichten, bevestiging van bestellingen voor verzending, wijziging van wachtwoord, enz.
 
-Transactieberichten zijn afhankelijk van uw opties beschikbaar voor de kanalen voor e-mail, SMS en pushmeldingen. Er zijn twee typen berichten: **Transactieberichten voor gebeurtenissen** die gebeurtenissen zonder profielinformatie richten, en **profiel transactionele berichten** richtend profielen van uw gegevensbestand.
+Transactieberichten zijn afhankelijk van uw opties beschikbaar voor de kanalen voor e-mail, SMS en pushmeldingen. Er zijn twee typen berichten: **Transactieberichten voor gebeurtenissen** het richten van gebeurtenissen zonder profielinformatie, en **profiel transactieberichten** het richten van profielen van uw gegevensbestand.
 
 Meer informatie:
 
@@ -84,9 +84,9 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
-Campagne wordt geleverd met landingspagina&#39;s die webformulieren zijn die kunnen worden gebruikt om **informatie over uw publiek vast te leggen**, abonnementen op een service aan te bieden, gegevens weer te geven en uw database uit te breiden.
+De campagne wordt geleverd met bestemmingspagina&#39;s die Webvormen zijn die kunnen worden gebruikt aan **informatie over uw publiek vastleggen**, biedt abonnementen op de service aan, geeft gegevens weer en laat uw database groeien.
 
-Openingspagina&#39;s kunnen ook worden gebruikt voor het **ophalen of bijwerken van bestaande profielen** en voor het instellen van een mechanisme voor dubbele aanmelding, waarmee u het platform kunt beschermen tegen onjuiste of ongeldige e-mailadressen of spambots.
+Openingspagina&#39;s kunnen ook worden gebruikt voor **het aanschaffen of bijwerken van bestaande profielen** en om een dubbele aanmeldingsprocedure in te stellen, waarmee u het platform kunt beschermen tegen onjuiste of ongeldige e-mailadressen of spambots.
 
 Meer informatie:
 

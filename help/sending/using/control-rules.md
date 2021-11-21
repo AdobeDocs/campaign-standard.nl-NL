@@ -25,7 +25,7 @@ Met de besturingsregels kunt u de geldigheid en kwaliteit van de berichten contr
 
 ## Standaardbesturingsregels {#default-control-rules}
 
-Een reeks standaardregels verzekert de standaardcontroles. De lijst hieronder verstrekt informatie over deze regels, evenals hun verwant kanaal en [uitvoeringsfasen](#control-rules-execution-phases).
+Een reeks standaardregels verzekert de standaardcontroles. De onderstaande tabel bevat informatie over deze regels en het bijbehorende kanaal en [uitvoeringsfasen](#control-rules-execution-phases).
 
 | Label | Kanaal | Uitvoeringsfase | Beschrijving |
 |---------|----------|---------|---------|
@@ -46,12 +46,12 @@ Een reeks standaardregels verzekert de standaardcontroles. De lijst hieronder ve
 
 Regels voor controle kunnen worden toegepast in verschillende fasen van de levenscyclus van de levering:
 
-* **Bij het begin van de doelgerichte** actie: De controleregel kan in deze fase worden toegepast zodat de verpersoonlijkingsstap niet in het geval van een fout wordt uitgevoerd.
+* **Aan het begin van de doelgerichte**: De controleregel kan in deze fase worden toegepast zodat de verpersoonlijkingsstap niet in het geval van een fout wordt uitgevoerd.
 
-* **Na aanwijzen**: Het uitvoeren na het richten staat u toe om het volume van het doel te kennen om de controleregel toe te passen.
+* **Na doelframes**: Het uitvoeren na het richten staat u toe om het volume van het doel te kennen om de controleregel toe te passen.
 
-   De besturingsregel **Proefdrukgrootte controleren** is bijvoorbeeld van toepassing na het doelwerkgebied: deze regel verhindert de voorbereiding van berichtverpersoonlijking als er teveel bewijsontvangers zijn.
+   De **Proefdrukgrootte controleren** de controleregel is van toepassing na de doelfase: deze regel verhindert de voorbereiding van berichtverpersoonlijking als er teveel bewijsontvangers zijn.
 
-* **Aan het begin van de personalisatie**: Is van toepassing wanneer de controle op de goedkeuring van de berichtverpersoonlijking betrekking heeft. De personalisatie van berichten wordt uitgevoerd tijdens de analysefase.
+* **Aan het begin van personalisatie**: Is van toepassing wanneer de controle op de goedkeuring van de berichtverpersoonlijking betrekking heeft. De personalisatie van berichten wordt uitgevoerd tijdens de analysefase.
 
 * **Aan het einde van de analyse**: Wanneer een controle berichtverpersoonlijking vereist om volledig te zijn.

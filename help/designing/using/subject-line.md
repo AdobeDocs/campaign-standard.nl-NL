@@ -26,26 +26,26 @@ Het bericht is verplicht om het bericht voor te bereiden en te verzenden.
 >Als de onderwerpregel leeg is, wordt een waarschuwing weergegeven op het berichtdashboard en in de e-mailontwerper.
 
 1. Een e-mail maken.
-1. Ga naar het tabblad **[!UICONTROL Properties]** van de introductiepagina E-mail Designer (toegankelijk via het introductiepictogram).
-1. Vul de sectie **[!UICONTROL Subject]** in.
+1. Ga naar de **[!UICONTROL Properties]** tabblad van de introductiepagina E-mail Designer (toegankelijk via het homepictogram).
+1. Vul de **[!UICONTROL Subject]** sectie.
 
    ![](assets/email_designer_subject.png)
 
-1. U kunt ook aanpassingsvelden, inhoudsblokken en dynamische inhoud toevoegen aan de onderwerpregel door op de corresponderende pictogrammen te klikken. Zie [Personalisatie](../../designing/using/personalization.md) voor meer informatie.
+1. U kunt ook aanpassingsvelden, inhoudsblokken en dynamische inhoud toevoegen aan de onderwerpregel door op de corresponderende pictogrammen te klikken. Zie voor meer informatie [Personalisatie](../../designing/using/personalization.md).
 
 ## De e-mailafzender van een e-mailbericht definiëren {#email-sender}
 
-Als u de naam wilt definiëren van de afzender die wordt weergegeven in de koptekst van de verzonden berichten, gaat u naar het tabblad **[!UICONTROL Properties]** van de startpagina van E-mailontwerper (toegankelijk via het pictogram Home).
+Als u de naam wilt definiëren van de afzender die wordt weergegeven in de koptekst van de verzonden berichten, gaat u naar **[!UICONTROL Properties]** tabblad van de introductiepagina E-mail Designer (toegankelijk via het homepictogram).
 
 ![](assets/delivery_content_edition16.png)
 
-* In het veld **[!UICONTROL From: name]** kunt u de naam van de afzender invoeren. Standaard wordt het standaardblok **Naam afzender** automatisch in het veld ingevoerd. Het standaard e-mailadres en de naam van de afzender worden gedefinieerd in **[!UICONTROL Brands]** toegankelijk via het Adobe Campaign-logo onder het geavanceerde menu **[!UICONTROL Administration > Instance settings > Brand configuration]**.
+* De **[!UICONTROL From: name]** kunt u de naam van de afzender invoeren. Standaard wordt de **Naam afzender** wordt automatisch in het veld ingevoerd. Het standaard e-mailadres en de naam van de afzender worden gedefinieerd in **[!UICONTROL Brands]** toegankelijk via het Adobe Campaign-logo in het geavanceerde menu **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
-   U kunt de afzendernaam wijzigen door op het blok **Naam afzender** te klikken. Het veld wordt bewerkbaar en u kunt de naam invoeren die u wilt gebruiken.
+   U kunt de naam van de afzender wijzigen door op de knop **Naam afzender** blokkeren. Het veld wordt bewerkbaar en u kunt de naam invoeren die u wilt gebruiken.
 
-   U kunt dit veld aanpassen. Hiervoor kunt u aanpassingsvelden, inhoudsblokken en dynamische inhoud toevoegen door op de pictogrammen onder de naam van de afzender te klikken. Zie [Personalisatie](../../designing/using/personalization.md) voor meer informatie.
+   U kunt dit veld aanpassen. Hiervoor kunt u aanpassingsvelden, inhoudsblokken en dynamische inhoud toevoegen door op de pictogrammen onder de naam van de afzender te klikken. Zie voor meer informatie [Personalisatie](../../designing/using/personalization.md).
 
-* Het veld **[!UICONTROL From: email address]** kan niet vanuit deze sectie worden bewerkt. U kunt dit wijzigen door de eigenschappen van de e-mail te bewerken vanaf het dashboard. Zie [Lijst met geavanceerde e-mailparameters](../../administration/using/configuring-email-channel.md#advanced-parameters) voor meer informatie.
+* De **[!UICONTROL From: email address]** kan niet vanuit deze sectie worden bewerkt. U kunt dit wijzigen door de eigenschappen van de e-mail te bewerken vanaf het dashboard. Zie voor meer informatie [Lijst met geavanceerde e-mailparameters](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >

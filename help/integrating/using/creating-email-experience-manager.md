@@ -42,12 +42,12 @@ Standaard kunt u met twee vooraf gedefinieerde sjablonen e-mailinhoud voor Adobe
 
 1. Maak in Adobe Experience Manager een nieuwe **[!UICONTROL Page]**.
 
-1. Selecteer de sjabloon **[!UICONTROL Adobe Campaign Email]**. Raadpleeg de volgende video voor de gedetailleerde stappen.
+1. Selecteer **[!UICONTROL Adobe Campaign Email]** sjabloon. Raadpleeg de volgende video voor de gedetailleerde stappen.
    >[!VIDEO](https://video.tv.adobe.com/v/29997)
 
 1. Open uw nieuwe e-mailinhoud.
 
-1. In **[!UICONTROL Page properties]**, plaats **[!UICONTROL Adobe Campaign]** als **[!UICONTROL Cloud Service Configuration]**. Hierdoor wordt communicatie mogelijk tussen uw inhoud en uw Adobe Campaign-instantie.
+1. In de **[!UICONTROL Page properties]**, set **[!UICONTROL Adobe Campaign]** als de **[!UICONTROL Cloud Service Configuration]**. Hierdoor wordt communicatie mogelijk tussen uw inhoud en uw Adobe Campaign-instantie.
 
    Bekijk de volgende video voor meer informatie:
 
@@ -59,14 +59,14 @@ U kunt de e-mailinhoud bewerken door componenten en elementen toe te voegen. De 
 
 Een e-mailinhoud maken in Adobe Experience Manager:
 
-1. Bewerk het onderwerp en de **[!UICONTROL Plain text]**-versie van uw e-mail door het tabblad **[!UICONTROL Page properties]** > **[!UICONTROL Email]** van het secundaire bureaublad te openen.
+1. Bewerk het onderwerp en de **[!UICONTROL Plain text]** versie van uw e-mail door de **[!UICONTROL Page properties]** > **[!UICONTROL Email]** van de hulpwerkplaats.
 
-1. Voeg **[!UICONTROL Personalization fields]** door de **[!UICONTROL Text & Personalization]** component toe. Elke component komt overeen met een specifiek gebruik: afbeeldingen invoegen, personalisatie toevoegen, enz.
+1. Toevoegen **[!UICONTROL Personalization fields]** via de **[!UICONTROL Text & Personalization]** component. Elke component komt overeen met een specifiek gebruik: afbeeldingen invoegen, personalisatie toevoegen, enz.
 
    Bekijk de volgende video voor meer informatie:
    >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
-1. Selecteer op het tabblad **[!UICONTROL Workflow]** de validatieworkflow **[!UICONTROL Approve for Adobe Campaign]**. U kunt geen e-mail verzenden in Adobe Campaign als er inhoud wordt gebruikt die niet is goedgekeurd.
+1. Van de **[!UICONTROL Workflow]** selecteert u de **[!UICONTROL Approve for Adobe Campaign]** validatieworkflow. U kunt geen e-mail verzenden in Adobe Campaign als er inhoud wordt gebruikt die niet is goedgekeurd.
 
 1. Zodra de parameters voor inhoud en verzending zijn gedefinieerd, kunt u doorgaan met het goedkeuren, voorbereiden en verzenden van de e-mail in Adobe Campaign Standard.
 

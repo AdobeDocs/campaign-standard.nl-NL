@@ -26,9 +26,9 @@ Het doel van de workflow is om voor elke leeftijdsgroep een specifieke e-mail te
 
 De workflow bestaat uit de volgende elementen:
 
-* A [Planneractiviteit](../../automating/using/segmentation.md) om de de uitvoeringsdatum van het werkschema te specificeren.
+* A [Planningsactiviteit](../../automating/using/segmentation.md) om de uitvoeringsdatum van de workflow te bepalen.
 * A [Query](../../automating/using/query.md) activiteit aan doelprofielen van mensen van wie verjaardag en e-mailadres zijn ingegaan.
-* Een [Segmentatie](../../automating/using/segmentation.md) activiteit om 3 segmenten te creëren die in verschillende uitgaande overgangen worden verdeeld: 18-25 jaar oud, 26-32 jaar oud en profielen ouder dan 32 jaar. De segmenten worden gedefinieerd volgens de volgende parameters:
+* A [Segmentering](../../automating/using/segmentation.md) activiteit om 3 segmenten te creëren die in verschillende uitgaande overgangen worden verdeeld: 18-25 jaar oud, 26-32 jaar oud en profielen ouder dan 32 jaar. De segmenten worden gedefinieerd volgens de volgende parameters:
 
    ![](assets/wkf_segment_example_3.png)
 
@@ -40,4 +40,4 @@ De workflow bestaat uit de volgende elementen:
 
       ![](assets/wkf_segment_example_1.png)
 
-* An [Email delivery](../../automating/using/email-delivery.md) activity per segment.
+* An [E-maillevering](../../automating/using/email-delivery.md) activiteit per segment.

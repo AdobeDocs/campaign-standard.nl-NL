@@ -19,10 +19,9 @@ ht-degree: 87%
 
 Nadat u in Adobe Campaign een e-mailbericht hebt gemaakt, moet u de content definiëren.
 
-Met de e-mailontwerper kunt u fascinerende, individueel aangepaste e-mails maken door slepen en neerzetten
-interface. Of u nu vanaf nul begint of bestaande contentfragmenten of contentsjablonen gebruikt, u ontwerpt en verfijnt alle content voor elke e-mail, zowel promotionele als transactionele e-mails.
+Met de e-mailontwerper kunt u fascinerende, individueel aangepaste e-mails maken via een interface voor slepen en neerzetten. Of u nu vanaf nul begint of bestaande contentfragmenten of contentsjablonen gebruikt, u ontwerpt en verfijnt alle content voor elke e-mail, zowel promotionele als transactionele e-mails.
 
-Email Designer is ontworpen om HTML te leveren en is geoptimaliseerd voor responsief ontwerp. Zo kunt u rechtstreeks via de gebruikersinterface gemakkelijk dynamische content en zichtbaarheidsvoorwaarden definiëren en toepassen op e-mails, sjablonen of fragmenten. U kunt naadloos schakelen tussen de interface voor slepen en neerzetten en HTML-code wanneer u op een knop klikt.
+Email Designer is ontworpen om HTML te leveren en is geoptimaliseerd voor responsief ontwerp. Zo kunt u rechtstreeks via de gebruikersinterface gemakkelijk dynamische content en zichtbaarheidsvoorwaarden definiëren en toepassen op e-mails, sjablonen of fragmenten. U kunt naadloos schakelen tussen de interface slepen en neerzetten en de code van de HTML bij de klik van een knoop.
 
 Met Email Designer kunt u e-mailcontent en e-mailcontentsjablonen maken. Email Designer is compatibel met eenvoudige e-mails, transactionele e-mails, e-mails voor A/B-tests, meertalige e-mails en terugkerende e-mails.
 
