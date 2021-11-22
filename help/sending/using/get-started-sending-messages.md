@@ -18,16 +18,16 @@ ht-degree: 14%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><p><a href="#prepare-test-send">Voorbereiden en testen</a></p></td>
+<td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><p><a href="#prepare-test-send">Prepare and test</a></p></td>
 <td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages">Verzenden, controleren en volgen</a></p></td>
 <td><img src="assets/do-not-localize/icon_deliverability.svg" width="60px"><p><a href="#improve-deliverability">Richtlijnen voor aflevering</a></p></td></tr>
 </table>
 
-Nadat u het doel hebt gedefinieerd en de inhoud van een bericht hebt gemaakt, moet u de inhoud, de personalisatie, de rendering en de configuratie van uw leveringen voorbereiden en testen. Hierdoor kunt u controleren of alles juist is voordat u het bericht naar het hoofddoel verzendt. Hiervoor zijn meerdere functies beschikbaar, zoals voorvertoning, proefdrukken, e-mailonderwerpregel testen of e-mailrendering.
+Once you have defined the target and created the content of a message, you need to prepare and test your deliveries&#39; content, personalization, rendering and configuration. This allows you to make sure that everything is correct before sending the message to the main target. To do this, multiple functionalities are available like preview, proofs, email subject line testing, or email rendering.
 
 Nadat marketingcampagnes zijn uitgevoerd en de verschillende berichten zijn verzonden, controleert u deze met behulp van logboeken om het succes van uw campagne te controleren en haalt u de trackinggegevens van de ontvangers op.
 
-Tot slot, hefboomwerking leverbaarheidsrichtlijnen en hulpmiddelen beschikbaar in Campaign Standard om het aantal geleverde berichten te verbeteren en succesvolle marketing campagnes te verzekeren.
+Finally, leverage deliverability guidelines and tools available in Campaign Standard to improve the number of delivered messages and ensure successful marketing campaigns.
 
 ![](assets/do-not-localize/how-to-video.png) [Ontdek hoe u een test-e-mail kunt verzenden, een e-maillevering kunt voorbereiden en verzenden in video](#video)
 
@@ -37,7 +37,7 @@ Tot slot, hefboomwerking leverbaarheidsrichtlijnen en hulpmiddelen beschikbaar i
 
 Campaign Standard **berichtenvoorbereiding** analyseert het doel, de personalisatie en de geldigheid van het bericht. Fouten die tijdens deze stap zijn vastgesteld, moeten worden gecorrigeerd voordat u verder kunt gaan.
 
-**Voorvertonen en testen** uw berichten gebruiken diverse mogelijkheden: Verzend proefdrukken naar testprofielen of speciale profielen, test de onderwerpregel van uw e-mail, en controleer de weergave van uw berichten om ervoor te zorgen dat het op een optimale manier op een verscheidenheid van Webcliënten, Webpost en apparaten zal tonen.
+**Preview and test** your messages using various capabilities: send proofs to test profiles or tageted profiles, test your emails&#39; subject line, and check the rendering of your messages to make sure that it will display in an optimal way on a variety of web clients, web mails and devices.
 
 Gebruik de planningsmogelijkheden van de Campagne van de hefboomwerking om te bepalen wanneer uw berichten zullen worden verzonden. U kunt bijvoorbeeld het verzenden aanpassen in de tijdzone van de ontvanger, de verzendtijd optimaliseren of de verzenddatum berekenen.
 
@@ -52,11 +52,11 @@ Meer informatie:
 * [Berichten plannen](../../sending/using/about-scheduling-messages.md)
 * [Informatie over typologieën en typologieregels](../../sending/using/about-typology-rules.md)
 
-## Verzenden, controleren en volgen {#send-track-messages}
+## Send, monitor and track {#send-track-messages}
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
-Zodra uw bericht klaar is, kunt u de verzendende en toegangs logboeken en rapporten bevestigen aan **de levering controleren** en meet het succes van uw campagne. Adobe Campaign beschikt ook over een e-mailwaarschuwingssysteem waarmee u het succes of de mislukking van de levering en de mogelijkheden voor quarantainebeheer kunt bijhouden.
+Once your message is ready, you can confirm the sending and access logs and reports to **monitor the delivery** and measure the success of your campaign. Adobe Campaign beschikt ook over een e-mailwaarschuwingssysteem waarmee u het succes of de mislukking van de levering en de mogelijkheden voor quarantainebeheer kunt bijhouden.
 
 **Het gedrag bijhouden** van de berichtontvangers door zitting en permanente koekjes te gebruiken om het volgen informatie (klikte URLs, spiegelpagina&#39;s, geopende berichten terug te winnen...).
 
@@ -77,7 +77,7 @@ Meer informatie:
 
 De levering staat toe om het succes van uw campagnes te meten die uw ontvangers&#39; inbox bereiken zonder te stuiteren, of als spam worden gemerkt.
 
-Campaign Standard biedt verschillende **leverbare gereedschappen** om u te helpen het aantal succesvol geleverde berichten verbeteren: rapporten over de leveringstijd, tijdoptimalisatie verzenden, voorvertoning van berichten, rendering van e-mail, quarantainebeheer, enz.
+Campaign Standard provides several **deliverability tools** to help you improve the number of successfully delivered messages: delivery throughput reports, sending time optimization, messages preview, email rendering, quarantine management, etc.
 
 Meer informatie:
 
@@ -89,14 +89,14 @@ Meer informatie:
 ## Aanvullende bronnen
 
 * [E-mails ontwerpen voor een A/B-test](../../channels/using/designing-an-a-b-test-email.md)
-* [Aan de slag met e-mails](https://helpx.adobe.com/nl/campaign/kb/acs-get-started-with-emails.html)
+* [Getting started with emails](https://helpx.adobe.com/nl/campaign/kb/acs-get-started-with-emails.html)
 * [Best practices voor verzending](../../sending/using/delivery-best-practices.md)
 * [Een controlegroep toevoegen](../../sending/using/control-group.md)
 
-## Video over zelfstudie {#video}
+## Tutorial video {#video}
 
-In deze video ziet u hoe u een teste-mail verzendt, voorbereidt en verzendt u vervolgens een e-maillevering in Campaign Standard.
+This video shows how to send a test email, prepare and then send an email delivery in Campaign Standard.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
-Er zijn aanvullende Campaign Standard-hoe-kan-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).
+Additional Campaign Standard how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).

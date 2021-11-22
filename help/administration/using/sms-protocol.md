@@ -46,11 +46,11 @@ SMPP-aanbieders kunnen soms afwijken van de officiële specificaties, maar de SM
 
 Wanneer u SMS-berichten verzendt via een SMS-provider, worden er drie verschillende soorten SMS-berichten weergegeven:
 
-* **SMS MT (mobiel beëindigd)**: een SMS dat door Adobe Campaign via de SMPP-provider naar mobiele telefoons wordt gezonden.
+* **SMS MT (Mobile Terminated)**: an SMS that is emitted by Adobe Campaign towards mobile phones through the SMPP provider.
 
-* **SMS MO (mobiele oorsprong)**: een SMS dat door een mobiele telefoon via de SMPP-provider naar Adobe Campaign wordt verzonden.
+* **SMS MO (Mobile Originated)**: an SMS that is sent by a mobile to Adobe Campaign through the SMPP provider.
 
-* **SMS SR (Statusrapport) of DR. of DLR (Ontvangstbewijs)**: een door de mobiele telefoon via de SMPP-provider aan Adobe Campaign verzonden ontvangstbewijs waaruit blijkt dat het SMS met succes is ontvangen. Adobe Campaign kan ook SR ontvangen om aan te geven dat het bericht niet kan worden verzonden, vaak met een beschrijving van de fout.
+* **SMS SR (Statusrapport) of DR. of DLR (Ontvangstbewijs)**: een door de mobiele telefoon via de SMPP-provider aan Adobe Campaign verzonden ontvangstbewijs waaruit blijkt dat het SMS met succes is ontvangen. Adobe Campaign may also receive SR indicating that the message could not be delivered, often with a description of the error.
 
 U moet tussen erkenningen (RESP PDU, een deel van het protocol SMPP) en SR onderscheiden: SR is een soort SMS dat door het netwerk van begin tot eind wordt verzonden, terwijl een erkenning slechts een bevestiging is dat één overdracht succesvol is geweest.
 
@@ -130,7 +130,7 @@ PDU&#39;s kunnen optionele velden hebben. Alleen de meest voorkomende velden wor
 
 Deze PDU wordt gebruikt om een verbinding met SMSC in werking te stellen. **Transmitter**, **Ontvanger** en **Transceiver** De wijzen veranderen slechts het soort SMS dat om over deze verbinding wordt toegestaan, specifiek:
 
-| Modus | Typen SMS toegestaan |
+| Modus | Kinds of SMS allowed |
 |:-:|:-:|
 | Transmitter | MT |
 | Ontvanger | MO + SR |
@@ -138,9 +138,9 @@ Deze PDU wordt gebruikt om een verbinding met SMSC in werking te stellen. **Tran
 
 Opvallende velden in een `BIND_* PDU`:
 
-* **system_id**: Aanmelding gebruikt voor verificatie. Instellen in de externe account.
+* **system_id**: Aanmelding gebruikt voor verificatie. Set in the external account.
 
-* **password**: Wachtwoord voor verificatie. Instellen in de externe account.
+* **password**: Wachtwoord voor verificatie. Set in the external account.
 
 * **system_type**: Vereist om voor sommige providers op een specifieke waarde te worden ingesteld. Instellen in de externe account, beschikbaar in alle versies. Vaak wordt onderscheid gemaakt tussen verschillende soorten contracten, kanalen, landen, enz.
 
@@ -212,7 +212,7 @@ De meeste velden hebben dezelfde betekenis als de meeste velden `SUBMIT_SM` tege
 
 * **esm_class**: gebruikt om te bepalen of PDU een MO of een SR is.
 
-* **short_message**: tekst van het bericht. Voor SR bevat dit de gegevens die worden beschreven in aanhangsel B van de specificatie van het SMPP-protocol. Zie [SR-foutbeheer](../../administration/using/sms-protocol.md#sr-error-management) voor meer informatie .
+* **short_message**: tekst van het bericht. Voor SR bevat dit de gegevens die worden beschreven in aanhangsel B van de specificatie van het SMPP-protocol. See [SR error management](../../administration/using/sms-protocol.md#sr-error-management) for more details.
 
 Adobe Campaign kan bericht-id lezen in het dialoogvenster `receipted_message_id` optioneel veld met enige configuratie-instelling.
 
@@ -224,13 +224,13 @@ Adobe Campaign Standard verzendt alleen een `DELIVER_SM_RESP` zodra alle verwerk
 
 #### INQUIRE_LINK {#enquire-links}
 
-Deze PDU wordt alleen gebruikt om te controleren of de verbinding live is. De frequentie moet worden vastgesteld op basis van de behoeften van de aanbieder.
+This PDU is only used to check that the connection is live. De frequentie moet worden vastgesteld op basis van de behoeften van de aanbieder.
 
-De standaardconfiguratie 60 seconden moet overeenkomen met de meeste configuraties die zijn ingesteld in de externe account.
+The default 60 seconds should match most configurations set in the external account.
 
 #### INQUIRE_LINK_RESP {#enquire-links-resp}
 
-Deze PDU erkent dat de verbinding levend is.
+This PDU acknowledges that the connection is alive.
 
 ### Multipart SMS (lang SMS) {#multipart}
 
@@ -327,15 +327,15 @@ Standaard worden alle fouten weergegeven als schermfouten. Dit betekent dat hard
 
 ### SMS-tekstcodering {#sms-text-encoding}
 
-U moet **altijd contact opnemen met de SMSC-provider in het geval van coderingsproblemen**. Alleen de SMSC-aanbieders beschikken over nauwkeurige kennis van de codering die zij ondersteunen en over speciale regels die van toepassing kunnen zijn vanwege beperkingen in hun technische platform.
+You should **always contact the SMSC provider in case of encoding problems**. Only the SMSC providers have precise knowledge of the encoding they support and special rules that may apply due to limitations in their technical platform.
 
 SMS-berichten gebruiken een speciale 7-bits codering, die vaak de GSM7-codering wordt genoemd.
 
-In het protocol SMPP, zal de tekst GSM7 tot 8 beetjes per karakter voor het gemakkelijkere oplossen van problemen worden uitgebreid. Het SMSC zal het in 7 beetjes per karakter verpakken alvorens het naar mobiel wordt verzonden. Dit betekent dat de `short_message` Het veld van het SMS mag maximaal 160 bytes lang zijn in het SMPP-frame, terwijl het beperkt is tot 140 bytes wanneer het wordt verzonden op het mobiele netwerk.
+In het protocol SMPP, zal de tekst GSM7 tot 8 beetjes per karakter voor het gemakkelijkere oplossen van problemen worden uitgebreid. The SMSC will pack it into 7 bits per character before it is sent to the mobile. Dit betekent dat de `short_message` Het veld van het SMS mag maximaal 160 bytes lang zijn in het SMPP-frame, terwijl het beperkt is tot 140 bytes wanneer het wordt verzonden op het mobiele netwerk.
 
 In het geval van coderingsproblemen moet u een aantal belangrijke zaken controleren:
 
-* Zorg ervoor dat u weet tot welke tekens codering behoort. GSM7 steunt niet volledig diakritische tekens (accenten). Vooral in het Frans, waar é en è deel uitmaken van GSM7, maar ê, â of ï niet. Hetzelfde geldt voor het Spaans.
+* Zorg ervoor dat u weet tot welke tekens codering behoort. GSM7 does not fully support diacritical marks (accents). Vooral in het Frans, waar é en è deel uitmaken van GSM7, maar ê, â of ï niet. The same applies to Spanish.
 
 * De C met cedilla (ç) is alleen in hoofdletters aanwezig in het GSM7 alfabet, maar sommige telefoons geven het in kleine letters of &quot;slimme&quot; gevallen terug. De algemene aanbeveling is om dit volledig te vermijden en het cedilla of de overschakeling op UCS-2 te verwijderen.
 
@@ -359,7 +359,7 @@ De maximumgrootte van een bericht hangt van zijn codering af. In deze tabel word
 | Latin-1 | 3 | 140 | 134 | ISO-8859-1 |
 | UCS-2 <br>UTF-16 | 8 | 70 | 67 | Unicode (verschilt per telefoon) |
 
-## SMPP-parameters voor externe accounts {#SMPP-parameters-external}
+## SMPP-parameters voor externe account {#SMPP-parameters-external}
 
 Elke implementatie van het protocol SMPP heeft vele variaties. Om de compatibiliteit en het aanpassingsvermogen te verbeteren, zijn er veel instellingen beschikbaar om het gedrag van de SMPP-connector te wijzigen. Deze sectie beschrijft elke parameter en zijn gevolgen op de schakelaar.
 
@@ -383,7 +383,7 @@ Hiermee wordt de verbinding ingesteld in **zendontvanger** modus of gescheiden *
 
 #### Naam SMSC-implementatie {#smsc-implementation-name}
 
-Hier geeft u de naam van de SMSC-implementatie op. U moet de naam van de provider instellen. Neem contact op met de beheerder of het leveringsteam om te weten wat u in dit veld wilt toevoegen. De rol van dit veld wordt beschreven in het gedeelte [SR-foutbeheer](../../administration/using/sms-protocol.md#sr-error-management) sectie.
+Hier geeft u de naam van de SMSC-implementatie op. U moet de naam van de provider instellen. Neem contact op met de beheerder of het leveringsteam om te weten wat u in dit veld wilt toevoegen. The role of this field is described in the [SR error management](../../administration/using/sms-protocol.md#sr-error-management) section.
 
 #### Server {#server}
 
@@ -391,7 +391,7 @@ De DNS-naam of het IP-adres van de server waarmee verbinding moet worden gemaakt
 
 #### Poort {#port}
 
-De TCP-poort waarmee verbinding moet worden gemaakt.
+The TCP port to connect to.
 
 #### Account {#account}
 
@@ -490,9 +490,9 @@ Ze worden ongewijzigd verzonden `source_addr_ton`, `source_addr_npi`, `dest_addr
 
 Dit veld wordt ongewijzigd verzonden in het dialoogvenster `service_type` van het `SUBMIT_SM PDU`. Stel dit in op de behoeften van de provider.
 
-### Doorvoer en time-outs {#throughput-timeouts}
+### Throughput and timeouts {#throughput-timeouts}
 
-Deze montages controleren alle timingsaspecten van het kanaal SMPP. Sommige leveranciers vereisen zeer nauwkeurige controle van het berichttarief, venster en retry timings. Deze instellingen moeten worden ingesteld op waarden die overeenkomen met de capaciteit van de aanbieder en de voorwaarden die in het contract zijn vermeld.
+These settings control all the timing aspects of the SMPP channel. Some providers require very precise control of the message rate, window and retry timings. These settings should be set to values that match the capacity of the provider and the conditions indicated in their contract.
 
 #### Venster verzenden {#sending-window}
 
@@ -502,8 +502,8 @@ Voorbeeld van een transmissie met een maximum venster van 4:
 
 ![](assets/do-not-localize/sms_protocol_2.png)
 
-De vensterhulp verhoogt de productie wanneer de netwerkverbinding een hoge latentie heeft.  De waarde van het venster moet minstens het aantal SMS/s zijn vermenigvuldigd met de latentie van de verbinding in seconden zodat de schakelaar nooit op een `SUBMIT_SM_RESP` voordat u het volgende bericht verzendt.
-Als het venster te groot is, kunt u meer dubbele berichten verzenden in het geval van verbindingsproblemen. Bovendien hebben de meeste providers een zeer strikte limiet voor het venster en weigeren berichten die de limiet overschrijden.
+The window helps increase the throughput when the network link has a high latency.  The value of the window must be at least the number of SMS/s multiplied by the latency of the link in seconds so the connector is never waiting for a `SUBMIT_SM_RESP` before sending the next message.
+Als het venster te groot is, kunt u meer dubbele berichten verzenden in het geval van verbindingsproblemen. Also, most providers have a very strict limit for the window and refuse messages that go over the limit.
 
 Hoe te om de optimale verzendende vensterformule te berekenen:
 
@@ -580,13 +580,13 @@ Als deze functie is ingeschakeld, kan Adobe Campaign de SMS-onderdelen niet afzo
 
 Wanneer dit selectievakje niet is ingeschakeld, worden alleen cijfers van het telefoonnummer verzonden naar de provider (`destination_addr` van het `SUBMIT_SM` veld). Dit is het standaardgedrag aangezien de internationale aantalindicator, gewoonlijk a + prefix, door TON en NPI gebieden in SMPP wordt vervangen.
 
-Als het selectievakje is ingeschakeld, wordt het telefoonnummer ongewijzigd verzonden, zonder voorbehandeling en mogelijke spaties, plus voorvoegsel- of hekje-/sterborden.
+When the checkbox is checked, the phone number is sent as-is, with no preprocessing and potential spaces, + prefix or pound/hash/star signs.
 
 Deze functie heeft ook een effect op het gedrag van de functie lijst van gewezen personen voor automatisch reageren: wanneer checkbox niet wordt gecontroleerd, zal a + prefix aan telefoonaantallen worden toegevoegd die in de quarantainelijst worden opgenomen om te compenseren + prefix die van het telefoonaantal door het protocol SMPP zelf wordt verwijderd.
 
 #### TLS-certificaatcontrole overslaan {#skip-tls}
 
-Wanneer TLS is ingeschakeld, slaat u alle certificaatcontroles over.
+When TLS is enabled, skip all certificate checks.
 
 Wanneer gecontroleerd, is de verbinding niet veilig meer, zou het niet in productie moeten worden toegelaten.
 
@@ -594,7 +594,7 @@ Het kan nuttig voor het zuiveren of testdoeleinden zijn.
 
 #### Binden TON/NPI {#bind-ton-npi}
 
-TON (type nummer) en NPI (indicator nummerplan) beschreven in punt 5.2.5 van het [SMPP 3.4-specificatie](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (bladzijde 117). Deze waarden moeten worden ingesteld op wat de provider nodig heeft.
+TON (Type Of Number) and NPI (Numbering Plan Indicator) described in section 5.2.5 of the [SMPP 3.4 specification](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) (page 117). Deze waarden moeten worden ingesteld op wat de provider nodig heeft.
 
 Ze worden ongewijzigd verzonden `addr_ton` en `addr_npi` velden van de PDU BIND.
 
@@ -782,11 +782,11 @@ Als een optionele parameter hetzelfde is **Tag-id** als de **Servicetag-id** De 
 
 ![](assets/do-not-localize/sms_protocol_3.png)
 
-Pijlen geven de gegevensstroom aan.
+Arrows represent data flow.
 
-Het belangrijkste ding om hier nota van te nemen is dat er veelvoudige SMPP schakelaardraden zijn. Deze draden zijn allen identiek en delen de zelfde configuratie. Daarom wordt het aantal verbindingen altijd vermenigvuldigd met het aantal draden.
+The most important thing to note here is that there are multiple SMPP connector threads. These threads are all identical and share the same configuration. Daarom wordt het aantal verbindingen altijd vermenigvuldigd met het aantal draden.
 
-Het aantal draden kan niet door de klant worden veranderd aangezien het veranderende configuratiedossiers vereist.
+The number of threads cannot be changed by the customer since it requires changing configuration files.
 
 ### Beschrijving van het gedrag van de SMPP-connector {#behavior-smpp-connector}
 
@@ -873,7 +873,7 @@ Met de `SUBMIT_SM PDU`:
 Met de `SUBMIT_SM_RESP PDU`:
 
 * Controleer of dit gelukt was, command_status = 0.
-* Controleer of de hoofdtekst een correct opgemaakte id bevat, gevolgd door de byte &#39;0&#39;.
+* Check that its body contains a properly formatted ID followed by a &#39;0&#39; byte.
 
 Met de `DELIVER_SM PDU`:
 

@@ -112,7 +112,7 @@ Uw tweede overgang is nu ook geconfigureerd.
 
 ## Leveringen maken {#creating-deliveries}
 
-Aangezien twee overgangen reeds werden gecreeerd, moet u twee soorten leveringen aan de uitgaande overgangen van de activiteit van de Segmentatie nu toevoegen: een [E-maillevering](../../automating/using/email-delivery.md) en [Levering via SMS](../../automating/using/sms-delivery.md) activiteit.
+As two transitions were already created, you must now add two types of deliveries to the outbound transitions of the Segmentation activity: an [Email delivery](../../automating/using/email-delivery.md) activity and an [SMS delivery](../../automating/using/sms-delivery.md) activity.
 
 Gebruik Adobe Campaign om leveringen aan een workflow toe te voegen. Om dit te kunnen doen, selecteert u een levering in de categorie **[!UICONTROL Channels]** van het activiteitenpalet van uw workflow.
 
@@ -137,7 +137,7 @@ Een e-maillevering maken:
 
 Een sms-levering maken:
 
-1. Sleep een [Levering via SMS](../../automating/using/sms-delivery.md) activiteit na het andere segment.
+1. Drag and drop an [SMS delivery](../../automating/using/sms-delivery.md) activity after the other segment.
 1. Dubbelklik op de activiteit om deze te bewerken.
 1. Selecteer **[!UICONTROL SMS]** en klik op **[!UICONTROL Next]**.
 1. Selecteer een sms-sjabloon en klik op **[!UICONTROL Next]**.

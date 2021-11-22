@@ -166,7 +166,7 @@ Als u een afzonderlijk proces hebt voor het beheren van de synchronisatie met de
 
 >[!NOTE]
 >
->In de UI van de integratietoepassing, **Unidirectioneel (Microsoft Dynamics 365 to Campaign)** en de **Bidirectioneel** De gevallen van het opt-out-gebruik worden geconfigureerd in een afzonderlijke opt-out-workflow. [Meer info](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
+>In de UI van de integratietoepassing, **Unidirectioneel (Microsoft Dynamics 365 to Campaign)** en de **Bidirectioneel** De gevallen van het opt-outgebruik worden gevormd in een afzonderlijke opt-outwerkschema. [Meer info](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 >
 >De **Unidirectioneel (campagne voor Microsoft Dynamics 365)** het geval van opt-out is een uitzondering; wordt geconfigureerd binnen de workflow voor toegang (Contactpersoon voor profiel).
 

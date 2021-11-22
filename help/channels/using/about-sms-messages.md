@@ -26,11 +26,11 @@ Met Adobe Campaign kunt u SMS-berichten (Short Message Service) verzenden.
 
 Voor SMS-berichten kunt u alleen in tekstindeling berichten maken, wijzigen en personaliseren. Je kunt ook een voorbeeld van je SMS-berichten bekijken voordat ze worden verzonden.
 
-De lengte van een SMS-bericht is beperkt tot 160 tekens als het in GSM-codering is en slechts 70 tekens als het in Unicode is. Bepaalde speciale tekens kunnen echter de lengte van het bericht beïnvloeden. For more on this, refer to the [SMS encoding](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) section.
+De lengte van een SMS-bericht is beperkt tot 160 tekens als het in GSM-codering is en slechts 70 tekens als het in Unicode is. Bepaalde speciale tekens kunnen echter de lengte van het bericht beïnvloeden. Raadpleeg voor meer informatie de [SMS-codering](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) sectie.
 
 SMS-berichten kunnen worden gemaakt op basis van de **[!UICONTROL Marketing activities]** vanuit een campagne, of in een workflow, raadpleegt u [Een SMS-bericht maken](../../channels/using/creating-an-sms-message.md).
 
-To deliver SMS messages to a mobile telephone you need:
+Als u SMS-berichten naar een mobiele telefoon wilt verzenden, hebt u het volgende nodig:
 
 * Een extern **[!UICONTROL Routing]**-account dat geconfigureerd is op het kanaal **[!UICONTROL Mobile (SMS)]** met de modus **[!UICONTROL Bulk delivery]**. Raadpleeg de sectie [Routering](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) voor meer informatie.
 * Een leveringssjabloon die correct aan dit externe account is gekoppeld.
@@ -42,12 +42,12 @@ To deliver SMS messages to a mobile telephone you need:
 * [Sms-rapport](../../reporting/using/sms-report.md)
 * [Campaign Standard - gids voor mobiel gebruik](../../channels/using/get-started-communication-channels.md)
 
-## SMS delivery template {#sms-delivery-template}
+## Sjabloon voor verzending via SMS {#sms-delivery-template}
 
-Adobe Campaign offers a delivery template for mobile devices. This template must be correctly linked to the external account used for the **[!UICONTROL Mobile (SMS)]** channel. To access and modify it:
+Adobe Campaign biedt een leveringssjabloon voor mobiele apparaten. Deze sjabloon moet correct zijn gekoppeld aan de externe account die wordt gebruikt voor de **[!UICONTROL Mobile (SMS)]** kanaal. Om tot het toegang te hebben en het te wijzigen:
 
-1. Select **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** from the advanced menu.
-1. Hover over the **[!UICONTROL Send via SMS]** template with the mouse and select the **Duplicate element** option.
+1. Selecteren **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** in het geavanceerde menu.
+1. Houd de aanwijzer boven de **[!UICONTROL Send via SMS]** sjabloon met de muis en selecteer de **Element dupliceren** optie.
 1. Selecteer de nieuwe sjabloon.
 1. Klik op de knop **[!UICONTROL Edit properties]**.
 1. In de **[!UICONTROL Advanced parameters]** van de sjablooneigenschappen, zorg er dan voor dat de sjabloon is gekoppeld aan de externe account die moet worden gebruikt voor het verzenden van SMS.
