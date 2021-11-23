@@ -16,7 +16,7 @@ exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1476'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ Adobe Campaign biedt extra mogelijkheden om uw taak als gegevenscontroller voor 
 
 * Het **toegangsrecht** is het recht van de betrokkene om van de gegevenscontroller bevestiging te krijgen of er persoonsgegevens van de betrokkene worden verwerkt, waar en voor welk doel.
 
-* De **Recht op vergeten** (verzoek tot verwijdering) geeft de betrokkene het recht om de gegevensverwerker hun persoonsgegevens te laten wissen.
+* Het **recht om te worden vergeten** (verwijderingsverzoek) geeft de betrokkene het recht om zijn of haar persoonsgegevens door de gegevensbeheerder te laten wissen.
 
 >[!NOTE]
 >

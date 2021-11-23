@@ -16,7 +16,7 @@ exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -115,6 +115,6 @@ Als datacontroller moet u ervoor zorgen dat u, wanneer u een verwijderingsverzoe
 
 **Kan een betrokkene van wie de gegevens uit Adobe Campaign zijn gewist, zich later opnieuw aanmelden?**
 
-Een betrokkene kan zich opnieuw aanmelden of als nieuwe ontvanger worden toegevoegd nadat zijn gegevens uit Adobe Campaign zijn gewist.
+Een betrokkene kan zich opnieuw aanmelden of als nieuwe ontvanger worden toegevoegd nadat zijn of haar gegevens uit Adobe Campaign zijn gewist.
 
-U kunt de audit trail gebruiken waarin wordt vermeld wanneer de eerdere verwijdering is uitgevoerd en wanneer de nieuwe ontvanger is gemaakt.
+U kunt de audit trail gebruiken die aangeeft wanneer de vorige verwijdering is uitgevoerd en wanneer de nieuwe ontvanger is gemaakt.

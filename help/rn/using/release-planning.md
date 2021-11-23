@@ -11,25 +11,25 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 85c42129e105999483d23865f2534c90406251e4
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 # Releaseplanning {#release-planning}
 
-Adobe verbetert voortdurend zijn oplossingen door nieuwe mogelijkheden, verhogingen, en moeilijke situaties toe te voegen.
+Adobe verbetert zijn oplossingen voortdurend door nieuwe mogelijkheden, verbeteringen en correcties toe te voegen.
 
 Alle Adobe Campaign Standard-instanties worden geüpgraded met elke nieuwe release. Er is geen actie vereist om een upgrade uit te voeren.
 
-Upgrades worden in twee fasen geïmplementeerd. Eerst worden Stage-instanties bijgewerkt, zodat u nieuwe mogelijkheden kunt testen en zo nodig uw configuratie kunt aanpassen. Productie-instanties worden vervolgens bijgewerkt.
+Upgrades worden in twee fasen geïmplementeerd. Eerst worden Stage-instanties bijgewerkt waardoor u nieuwe mogelijkheden kunt testen en zo nodig uw configuratie kunt aanpassen. Vervolgens worden productie-instanties bijgewerkt.
 
 Alle releasedatums kunnen worden gewijzigd: bezoek deze pagina regelmatig om te controleren op updates.
 
-## Release 22.1 - februari 2022 {#release-22-1-release}
+## Release 22.1 - Release van februari 2022 {#release-22-1-release}
 
 Omgevingsupdates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. De exacte datums worden per e-mail naar elke klant verzonden.
 
-Gedetailleerde informatie over deze release is beschikbaar in het dialoogvenster [Opmerkingen bij de release](../../rn/using/release-notes.md) op de upgradedatum van de Stage-omgeving.
+Gedetailleerde informatie over deze release is beschikbaar in de [Aanvullende informatie](../../rn/using/release-notes.md) op de datum van de upgrade van de stagingomgeving.
 
 <table>
  <thead>
@@ -41,11 +41,11 @@ Gedetailleerde informatie over deze release is beschikbaar in het dialoogvenster
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>8 feb. 9 feb. 2022<br /> </td>
+   <td>8 tot 9 februari 2022<br /> </td>
   </tr>
   <tr>
    <td>Productie<br /> </td>
-   <td>15 feb. 22, 2022<br /> </td>
+   <td>15 tot 22 februari 2022<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -72,7 +72,7 @@ A: Nee. Berichten worden gedurende een paar minuten niet verzonden. Wanneer de u
 
 **V: Blijven de workflows lopen en worden de leveringen verzonden?**
 
-A: Nee. Tijdens de upgrade worden de workflowserver en MTA allebei onderbroken. Dit heeft tot gevolg dat workflows niet worden uitgevoerd en dat leveringen niet gedurende een paar minuten worden verzonden. U hoeft niets te doen, de workflows worden opnieuw gestart zodra de instantie is bijgewerkt.
+A: Nee. Tijdens de upgrade worden de workflowserver en MTA allebei onderbroken. Als gevolg hiervan worden gedurende enkele minuten geen workflows uitgevoerd en geen leveringen verzonden. U hoeft niets te doen, de workflows worden opnieuw gestart zodra de instantie is bijgewerkt.
 
 **V: Werkt de tracking van koppelingen in berichten nog tijdens de upgrade?**
 
