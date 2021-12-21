@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 95d4b9fbb41f5204f387971be3710817a281a8c4
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---
@@ -232,13 +232,11 @@ Om te begrijpen hoe iOS-meldingen werken, moeten de drie statussen van een app g
 * **Achtergrond**: wanneer de app is niet op het scherm wordt weergegeven, maar het proces niet wordt gesloten. Wanneer u dubbelklikt op de knop Home, worden gewoonlijk alle apps op de achtergrond weergegeven.
 * **Uit/gesloten**: een app waarvan het proces is gedood.
 
-Als een app wordt gesloten, roept Apple de app pas aan nadat de app opnieuw is gestart. Dit betekent dat je niet weet wanneer de kennisgeving op iOS is ontvangen.
-
 Om nog **[!UICONTROL Impression]** tracering werkt terwijl de app op de achtergrond is die we moeten verzenden **[!UICONTROL Content-Available]** om de app te laten weten , moet een tracering worden uitgevoerd .
 
 >[!CAUTION]
 >
->Het volgen van iOS-impressies is niet correct en mag niet als betrouwbaar worden beschouwd.
+> Als een app wordt gesloten, roept Apple de app pas aan nadat de app opnieuw is gestart. Dit betekent dat je niet weet wanneer de kennisgeving op iOS is ontvangen. </br> Daarom is het mogelijk dat de impressiemethode van iOS niet correct is en niet als betrouwbaar moet worden beschouwd.
 
 Voor leveringen die zijn gemaakt vóór 21.1-release of leveringen met een aangepaste sjabloon, raadpleegt u deze [sectie](../../administration/using/push-tracking.md#about-push-tracking).
 
