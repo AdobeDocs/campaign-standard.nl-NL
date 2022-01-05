@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '353'
 ht-degree: 8%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 8%
 
 Een workflow wordt altijd handmatig gestart. Als de toepassing echter eenmaal is gestart, kan deze inactief blijven, afhankelijk van de informatie die in een [Planner](../../automating/using/scheduler.md) activiteit.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
-> Adobe raadt klanten aan prioriteit te geven aan workflowuitvoering en maximaal 20 gelijktijdige workflowuitvoering uit te voeren om consistent maximale prestaties te behalen voor uw hele exemplaar. Er kunnen meer dan twintig gelijktijdige workflowuitvoeringen worden gepland en deze worden standaard opeenvolgend uitgevoerd. U kunt de standaardinstellingen voor het maximale aantal gelijktijdige workflowuitvoering aanpassen door een ticket naar de klantenservice in te dienen.
+> Adobe raadt klanten aan niet meer dan 20 actieve workflows tegelijk uit te voeren en de uitvoering van de workflow in de loop der tijd te prioriteren en te verspreiden. Raadpleeg voor meer informatie de beste praktijken in [deze pagina](../../automating/using/best-practices-workflows.md).
 
 Aan uitvoering gerelateerde handelingen (starten, stoppen, pauzeren, enz.) zijn **asynchroon** processen: de opdracht wordt opgeslagen en wordt van kracht zodra de server beschikbaar is om deze toe te passen.
 

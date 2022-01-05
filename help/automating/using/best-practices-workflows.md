@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 84%
+source-wordcount: '1200'
+ht-degree: 80%
 
 ---
 
@@ -47,12 +47,15 @@ U kunt workflows dupliceren. Houd in de **[!UICONTROL Marketing Activities]** de
 
 ### Aantal workflows
 
-Standaard raden we u aan niet meer dan 20 actieve workflows tegelijk uit te voeren. Nadat deze limiet is bereikt, worden workflows in de wachtrij geplaatst om de prestaties niet te beïnvloeden. Op dezelfde manier raadt Adobe u aan om de uitvoering van de workflow in de loop van de tijd uit te spreiden.
-Het is mogelijk dat u onder specifieke omstandigheden meer dan 20 workflows moet uitvoeren. Dit is niet van toepassing op workflows die wachten op een geplande uitvoering. Als dit het geval is, moet u de gebruiksscenario’s controleren met een Campaign-expert en contact opnemen met de klantenservice van Adobe om de limiet te verhogen.
+Standaard raden we u aan **niet meer dan 20 actieve workflows tegelijk uitvoeren** (dit geldt niet voor workflows die wachten op een geplande uitvoering). Nadat deze limiet is bereikt, worden workflows in de wachtrij geplaatst om de prestaties niet te beïnvloeden.
 
->[!NOTE]
+Het is mogelijk dat u onder specifieke omstandigheden meer dan 20 workflows moet uitvoeren. Als dit het geval is, moet u de gebruiksscenario’s controleren met een Campaign-expert en contact opnemen met de klantenservice van Adobe om de limiet te verhogen.
+
+>[!IMPORTANT]
 >
->Voordat u een workflow start, [!DNL Campaign Standard] controleert of er voldoende fysiek systeemgeheugen is om de workflow uit te voeren. Als er onvoldoende geheugen beschikbaar is, wordt u gewaarschuwd dat de uitvoering van de workflow wordt vertraagd tot het laden op de server uitvalt en het systeemgeheugen toeneemt.
+>Zelfs als u de drempel van 20 werkstromen niet bereikt, adviseert Adobe u om **de uitvoering van de workflow in de loop der tijd verspreiden**. Door de uitvoering van uw workflows te versnellen, kunt u ervoor zorgen dat uw exemplaar beter presteert.
+
+Voordat u een workflow start, [!DNL Campaign Standard] controleert of er voldoende fysiek systeemgeheugen is om de workflow uit te voeren. Als er onvoldoende geheugen beschikbaar is, wordt u gewaarschuwd dat de uitvoering van de workflow wordt vertraagd tot het laden op de server uitvalt en het systeemgeheugen toeneemt.
 
 ### Frequentie
 

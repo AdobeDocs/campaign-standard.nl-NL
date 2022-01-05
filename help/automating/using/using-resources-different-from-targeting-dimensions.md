@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 5805bdfa-fb33-4a46-ba1e-7a10b067349b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 9c14fc3de60d8e0304f8a7ebd46e7be34d2e0499
 workflow-type: tm+mt
 source-wordcount: '293'
-ht-degree: 81%
+ht-degree: 76%
 
 ---
 
@@ -25,7 +25,7 @@ Raadpleeg voor meer informatie over doelgerichtheid en bronnen [deze sectie](../
 **Voorbeeld 1: profielen identificeren die door de levering worden getarget met het label &quot;Welkom terug!&quot;**.
 
 * In dit geval willen we profielen als doel instellen. We stellen de targetingdimensie in op **[!UICONTROL Profiles (profile)]**.
-* We willen de geselecteerde profielen filteren op basis van het leveringslabel. We stellen de bron daarom in op **[!UICONTROL Delivery logs]**. Op deze manier filteren we direct in de tabel van het leveringslogboek, wat betere prestaties biedt.
+* We willen de geselecteerde profielen filteren op basis van het leveringslabel. We stellen de bron daarom in op **[!UICONTROL Delivery logs]**. Op deze manier, filtreren wij direct in de lijst van het leveringslogboek, die betere prestaties zal aanbieden.
 
 ![](assets/targeting_dimension6.png)
 
