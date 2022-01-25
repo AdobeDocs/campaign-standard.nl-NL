@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8bc0b1186e177b6937c1ae72c1f8763c480b12a9
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 100%
+source-wordcount: '684'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ Op deze pagina worden nieuwe functies, verbeteringen en oplossingen beschreven d
 >
 > Deze content kan zonder voorafgaande kennisgeving worden gewijzigd tot de upgradedatum van de werkgebiedomgevingen. Meer informatie vindt u op de [releaseplanningspagina](../../rn/using/release-planning.md).
 
-## Release 21.3 - september 2021 {#release-21-3---sept-2021}
+## Release 22.1 - februari 2022 {#feb-2022}
 
 
 **Nieuwe functies**
@@ -31,75 +31,46 @@ Op deze pagina worden nieuwe functies, verbeteringen en oplossingen beschreven d
 <table> 
 <thead> 
 <tr> 
-<th> <strong>Uniforme Experience Cloud-interface</strong><br /> </th> 
+<th> <strong>Beveiligingsupdate voor beveiligingskwetsbaarheden van Apache Log4j</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
 <td>
-<p>De kopbalk van Adobe Campaign is veranderd voor een uniforme, verbeterde ervaring voor alle Experience Cloud-producten en -services. Deze wijzigingen maken het u als volgt gemakkelijker:</p>
-<ul>
-<li>Eenvoudiger overschakelen tussen uw organisaties of naar een andere applicatie.</li>
-<li>Verbeterde Help voor gebruikers - De Experience League is in het product opgenomen, zodat de zoekresultaten ook resultaten van communityforums en meer videocontent omvatten; hierdoor krijgt u gemakkelijker toegang tot meer content om optimaal te profiteren van de applicatie. We hebben ook een feedbackmechanisme toegevoegd aan het menu Help, waardoor het gemakkelijker is om problemen te melden of uw ideeën te delen.</li>
-<li>Verbeterde meldingen - De vervolgkeuzelijst Meldingen bevat nu twee tabbladen: één voor uw eigen productmeldingen en één voor meer algemene productmeldingen.</li>
-</ul>
-<!--<p>For more information refer to the <a href="../../start/using/interface-description.md#top-bar">detailed documentation</a>.
-</p>-->
+<p>Apache log4j heeft de geïdentificeerde kwetsbaarheden in Apache log4j v2.17.1-release verholpen. Adobe Campaign Standard gebruikt Apache log4j en in deze release is deze nieuwste Apache log4j v2.17.1 inbegrepen </p>
 </td> 
 </tr> 
 </tbody> 
 </table>
 
-<table> 
-<thead> 
-<tr> 
-<th> <strong>Audittrail</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td>
-<p>Met de nieuwe functie Audittrail wordt in real time een uitgebreide lijst met acties en gebeurtenissen in Adobe Campaign vastgelegd. Het bevat een manier om zelf toegang te krijgen tot een geschiedenis van gegevens om vragen te beantwoorden zoals:</p>
-<ul>
-<li>Wat is er gebeurd met deze workflow en wie heeft deze voor het laatst bijgewerkt?</li>
-<li>Wie heeft de laatste wijzigingen doorgevoerd?</li>
-<li>Wat was de vorige staat?</li>
-</ul>
-<p>Adobe Campaign controleert nu de acties voor het maken, bewerken en verwijderen van: workflows, opties, aangepaste bronnen. Wijzigingen van deze items worden ook bijgehouden.</p>
-<!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
-</p>-->
-</td> 
-</tr> 
-</tbody> 
-</table>
+**Beveiligingsoplossingen**
 
-
-<table> 
-<thead> 
-<tr> 
-<th> <strong>Diagnostische modus voor workflows</strong><br /> </th> 
-</tr> 
-</thead> 
-<tbody> 
-<tr> 
-<td>
-<p>U kunt de workflows van Campaign nu uitvoeren in de diagnostische modus. In deze modus wordt informatie geregistreerd om problemen met de uitvoering van probleemoplossingen te helpen oplossen. Het volledige uitvoeringsplan wordt geregistreerd als een workflowquery standaard meer dan één minuut duurt.</p>
-<!--<p>For more information refer to the <a href="../../administration/using/audit.md">detailed documentation</a>.
-</p>-->
-</td> 
-</tr> 
-</tbody> 
-</table>
+* Nieuw URL-handtekeningmechanisme voor bijhouden opgenomen in deze release. Het vorige mechanisme was uitgeschakeld om te voorkomen dat een probleem zou ontstaan dat ertoe leidde dat bepaalde geldige, ondertekende koppelingen voor bijhouden onjuist werden geblokkeerd nadat deze waren gewijzigd door beveiligingsprogramma&#39;s van derden. (CAMP-48983)
 
 **Verbeteringen**
 
-* Wanneer u een terugkerende levering maakt in een workflow die is gekoppeld aan inhoud van Adobe Experience Manager, wordt de goedkeuringsstatus van de inhoud nu gecontroleerd voordat deze wordt verzonden.
-* De verbindingslimiet voor databases wordt nu uitgelijnd met het Campaign-pakket om verbindingsfouten te voorkomen.
-* Er is een consistentiecontrole toegevoegd tijdens het maken van indexen in aangepaste bronnen en de foutberichten zijn verbeterd.
+* Verbeterde verwerking van de rapportagegegevens om overbelasting van het systeem te voorkomen. (CAMP-47578)
+* Nadat u uw In-App-berichten hebt verzonden, kunt u de levering nu deactiveren. Op deze manier kunt u de levering verwijderen zonder rapportgegevens te verliezen. (CAMP-48469)
+* Om problemen te voorkomen, kunnen gebruikers niet langer dezelfde naam voor een aangepaste tabelkolom gebruiken als de naam die wordt gebruikt voor de automatische primaire sleutel in de database. `"<dataType><resourceName>Id"`. (CAMP-49358)
+* U kunt nu uw levering controleren en taaklogboeken bijhouden met de nieuwe **Taakgeschiedenis** vervolgkeuzelijst van het dashboard van uw berichten. (CAMP-49840)
 
 **Patches**
 
-* Er is een probleem met time-out verholpen bij het importeren van e-mailinhoud van een URL. (CAMP-49054)
-* Er is een fout (-69) verholpen die werd veroorzaakt door het einde van de sessie bij het openen van een URL gemarkeerd met een bladwijzer of bij het vernieuwen van een pagina vanuit de browser. (CAMP-49003, CAMP-48930, CAMP-48894)
-* Er is een probleem verholpen bij het synchroniseren van regels van de verouderde bezorgingsserver naar de nieuwe bezorgingsserver. (CAMP-48923)
-* Er is een probleem verholpen bij het laden van een e-mailsjabloon met HTML-tags in de e-mailontwerper. (CAMP-48243)
+* Probleem verholpen met de **Rapport nu verzenden** optie in dynamische rapporten: de PDF-generatietaken mislukten met leveringen, inclusief multivarianten. (CAMP-49120)
+* Probleem verholpen waarbij gebruikers Adobe Experience Manager-inhoud (AEM) niet konden vernieuwen of loskoppelen van hun Adobe Campaign Standard-leveringen wanneer een gedupliceerde inhoud in AEM dezelfde sleutel deelde (cq:uuid). (CAMP-49161)
+* Probleem verholpen bij het openen van een instantie waarbij pagina&#39;s niet werden geladen, leveringen niet konden worden geopend of hangende wijzigingen niet konden worden opgeslagen. (CAMP-50195)
+* Probleem verholpen waardoor waarschuwingscriteria voor levering niet konden worden geopend in het veld **Aflevering, filter** niet is voldaan. (CAMP-49093)
+* Probleem verholpen tijdens het bewerken van het dialoogvenster **Secundair** knop in In-App-leveringen waardoor geen rekening kon worden gehouden met wijzigingen. (CAMP-50250)
+* Correctie van een fout in Japanse instanties waardoor gebruikers meerdere keren per dag niet konden kiezen **Uitvoerfrequentie** in de **Planner** activiteit. (CAMP-50247)
+* Probleem verholpen tijdens het werken in een Japanse gebruikersinterface die een foutbericht weergaf bij het selecteren van een tijd in een planningsactiviteit. (CAMP-49289)
+* Probleem verholpen met pushberichtrapporten waarin verwijderde pushberichten werden weergegeven als **Openen** in plaats van **Impressie**. (CAMP-45980)
+* Probleem opgelost dat tot fouten bij het openen van een rapport kon leiden. (CAMP-49222)
+* Probleem opgelost waarbij de e-mailvoorbereiding mislukte nadat een koppeling naar AEM inhoud was verwijderd. (CAMP-49877)
+* Om verschillende problemen op te lossen, is het mechanisme voor opnieuw proberen verbeterd voor leveringen, waaronder inhoud die is geïmporteerd vanaf een URL. (CAMP-48888)
+* Probleem verholpen die optrad na het maken van een nieuw filter in een aangepaste bron en het vervolgens gebruiken als een combinatietoets op een bestemmingspagina. Als de aangepaste bron opnieuw is gepubliceerd, is het filter verwijderd uit de lijst met beschikbare afstemmingssleutels voor de landingspagina. (CAMP-49516)
+* Probleem verholpen in bestemmingspagina&#39;s bij gebruik van dynamische omstandigheden met selectievakjes. (CAMP-48604)
+* Probleem verholpen dat zich voordeed in een **Query** activiteit bij gebruik van de filtervoorwaarde &quot;Op of vóór oktober&quot;. Wanneer u werkt van een instantie die is ingesteld op een Europese tijdzone, heeft de geselecteerde maand voor het filter september in plaats van oktober getoond vanwege een probleem bij het omzetten van de tijdzone. (CAMP-48602)
+* Adobe Campaign verzendt nu e-mailberichten met 7-bits codering in plaats van 8-bits om de prestaties te optimaliseren. Hierdoor wordt voorkomen dat tussenliggende relais de DKIM-handtekening ongeldig maakt, wat de authenticiteit van de berichten kan beïnvloeden. (CAMP-49016)
+* De prestaties bij het dupliceren van het publiek zijn verbeterd om problemen bij het werken met een groot publiek te voorkomen. (CAMP-49639)
+* Probleem verholpen waarbij een aangepast filter niet de juiste resultaten kon weergeven bij gebruik in een **Query** activiteit. (CAMP-49417)
+* Probleem verholpen waarbij een foutbericht werd weergegeven bij een poging een fragment te gebruiken in een levering met een komma in de naam. Het probleem is opgelost. Er kunnen nu komma&#39;s worden gebruikt in de namen van fragmenten. (CAMP-49216)
