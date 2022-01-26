@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 8bc0b1186e177b6937c1ae72c1f8763c480b12a9
+source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '734'
 ht-degree: 10%
 
 ---
@@ -53,6 +53,9 @@ Op deze pagina worden nieuwe functies, verbeteringen en oplossingen beschreven d
 * Nadat u uw In-App-berichten hebt verzonden, kunt u de levering nu deactiveren. Op deze manier kunt u de levering verwijderen zonder rapportgegevens te verliezen. (CAMP-48469)
 * Om problemen te voorkomen, kunnen gebruikers niet langer dezelfde naam voor een aangepaste tabelkolom gebruiken als de naam die wordt gebruikt voor de automatische primaire sleutel in de database. `"<dataType><resourceName>Id"`. (CAMP-49358)
 * U kunt nu uw levering controleren en taaklogboeken bijhouden met de nieuwe **Taakgeschiedenis** vervolgkeuzelijst van het dashboard van uw berichten. (CAMP-49840)
+* Verbeterde stabiliteit en databasegezondheid door dode beginselen te verminderen, wanneer een groot aantal berichten over alle kanalen in de loop der tijd wordt verzonden. (CAMP-49755, CAMP-49792, CAMP-49849)
+* Om ervoor te zorgen dat de databaseverbindingen automatisch worden vernieuwd in het geval van een database die vastloopt of opnieuw wordt opgestart, zijn verbeteringen geïmplementeerd in de Campagne Mail Transfer Agent (MTA). (CAMP-48063)
+
 
 **Patches**
 
