@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 830b81a8adffd39f00b7568dde56cf482eab0806
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '418'
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ A: Wijzigingen worden vermeld in de [Release-opmerkingen](../../rn/using/release
 
 **V: Wat is het validatieproces?**
 
-A: Als de upgrade van uw stage-instantie is uitgevoerd, raadt Adobe u aan te valideren of uw processen en gebruiksscenario&#39;s correct werken met deze nieuwe versie en om eventuele problemen aan [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) te melden.
+A: Als de upgrade van uw stage-instantie is uitgevoerd, raadt Adobe u aan te valideren of uw processen en gebruiksscenario&#39;s correct werken met deze nieuwe versie en om eventuele problemen aan [Adobe Client Care](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) te melden.
 
 **V: Heb ik tijdens het upgradeproces toegang tot de instantie?**
 
@@ -82,4 +82,4 @@ A: Ja, deze blijven werken. Er kunnen geen nieuwe e-mailberichten worden verzond
 
 A: Bij het inloggen bij Campaign wordt een pop-upmelding met de laatste versie weergegeven.
 
-Neem voor alle andere vragen contact op met [Adobe Client Care](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+Neem voor alle andere vragen contact op met [Adobe Client Care](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html).
