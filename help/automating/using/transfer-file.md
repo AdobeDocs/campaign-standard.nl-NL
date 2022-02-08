@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 41be9f7c13a4b3e0a20e714cc42b9d054812ec07
+source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 84%
+source-wordcount: '1168'
+ht-degree: 83%
 
 ---
 
@@ -59,7 +59,11 @@ U kunt deze activiteit gebruiken om data te herstellen die vervolgens met de act
    U kunt:
 
    * **[!UICONTROL Delete the source files after transfer]**: wist de bestanden op de externe server. Als deze optie uitgeschakeld blijft, controleert u handmatig de grootte van de gearchiveerde inhoud in de SFTP-map.
-   * **[!UICONTROL Disable passive mode]**: Hiermee kunt u de verbindingshaven opgeven die voor gegevensoverdracht moet worden gebruikt.
+
+   * **[!UICONTROL Sorting files]**: kunt u bestanden alfanumeriek sorteren. Deze optie is standaard uitgeschakeld.
+
+      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
+
    * **[!UICONTROL List all files]**: deze optie is beschikbaar als u **[!UICONTROL File listing]** in de **[!UICONTROL General]** tab. Hiermee kunt u alle bestanden indexeren die aanwezig zijn op de server in de gebeurtenisvariabele **vars.filenames** waarin de bestandsnamen worden gescheiden door de tekens **‘n’** 
 
 1. In de sectie **[!UICONTROL If no files are found]** van het tabblad **[!UICONTROL Advanced options]** kunt u specifieke acties configureren als er fouten of onbestaande bestanden worden gedetecteerd wanneer de activiteit wordt gestart.
@@ -80,6 +84,8 @@ Met dit protocol kunt u ervoor kiezen **[!UICONTROL Use connection parameters de
 
 U kunt ook de optie **[!UICONTROL Quick configuration]** kiezen. U hoeft de URL alleen in te voeren in het veld URL.
 ![](assets/wkf_file_transfer_04.png)
+
+**[!UICONTROL Follow redirections]**, **[!UICONTROL Ignore the HTTP return code]**, en **[!UICONTROL Add received HTTP headers to the file]** zijn de extra opties beschikbaar wanneer u het protocol van HTTP selecteert.
 
 ### Configuratie met SFTP {#SFTP-configuration-wf}
 

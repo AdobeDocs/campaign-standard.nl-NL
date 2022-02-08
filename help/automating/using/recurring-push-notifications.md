@@ -1,14 +1,11 @@
 ---
 title: Een terugkerende pushmelding verzenden met een workflow
-description: In dit voorbeeld wordt elke eerste dag van de maand om 21.00 uur een persoonlijke pushmelding verzonden naar de abonnees van uw mobiele toepassing, afhankelijk van hun tijdzone.
-audience: automating
-content-type: reference
-topic-tags: channel-activities
+description: In dit voorbeeld wordt elke eerste dag van de maand om 21.00 uur een gepersonaliseerd pushbericht verzonden naar de abonnees van uw mobiele toepassing, afhankelijk van hun tijdzones
 feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0ab950d4124bf459ba889e2f1c2954210dd350e0
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 4%

@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0538958289ce19982889f76ed195090a8455fdeb
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 9%
@@ -91,7 +91,7 @@ Elk van deze stappen wordt hieronder nader beschreven.
 
 ### Stap 1 - creeer en publiceer de gebeurtenisconfiguratie {#create-event-configuration}
 
-<img src="assets/do-not-localize/icon_config.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
 | Gebruiker | Actie | Resultaat |
 |--- |--- |--- |
@@ -101,7 +101,7 @@ Het creëren van en het publiceren van een gebeurtenis worden voorgesteld in [Ee
 
 ### Stap 2 - geef en publiceer het transactiebericht uit {#create-transactional-message}
 
-<img src="assets/do-not-localize/icon_notification.svg" width="40px">
+<!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
 | Gebruiker | Actie | Resultaat |
 |--- |--- |--- |
@@ -111,7 +111,7 @@ Voor meer informatie over het bewerken en publiceren van een transactiemelding r
 
 ### Stap 3 - Integreer de gebeurtenis die teweegbrengt {#integrate-event-trigger}
 
-<img src="assets/do-not-localize/icon_api.svg" width="55px">
+<!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
 <!--**Event triggering integration**-->
 
@@ -125,7 +125,7 @@ Zie voor meer informatie over het gebruik van de campagne REST API voor het behe
 
 ### Stap 4 - Berichtlevering {#message-delivery}
 
-<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_channels.svg" width="60px">-->
 
 Zodra al deze stappen zijn uitgevoerd, kan het bericht worden geleverd.
 
