@@ -1,17 +1,15 @@
 ---
 title: Gegevensretentie
-description: De standaard logboeklijsten in Campaign hebben vooraf vastgestelde bewaartermijnen op hen, die over het algemeen hun gegevensopslag tot 6 maanden of minder beperken. Leer meer over de standaardwaarden voor behoud voor standaardtabellen.
+description: Meer informatie over de standaardwaarden voor behoud van standaardtabellen
 audience: administration
-content-type: reference
-topic-tags: application-settings
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 38%
+source-wordcount: '137'
+ht-degree: 44%
 
 ---
 

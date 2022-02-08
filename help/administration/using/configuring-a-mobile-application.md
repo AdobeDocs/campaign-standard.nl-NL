@@ -1,16 +1,14 @@
 ---
 title: Een mobiele applicatie configureren
-description: Ontdek hoe u Adobe Campaign kunt configureren voor het verzenden van pushberichten of In-App-berichten met SDK V4 of Experience Platform SDK.
+description: Leer hoe u Adobe Campaign configureert voor het verzenden van pushberichten of In-App-berichten met behulp van Experience Platform SDK
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1245'
 ht-degree: 5%
 
 ---

@@ -1,15 +1,13 @@
 ---
-title: Merkpositionering
-description: Ontdek alle tools die beschikbaar zijn om uw merkidentiteit te beheren.
+title: Branding
+description: Ontdek alle tools die beschikbaar zijn om uw merkidentiteit te beheren
 audience: administration
-content-type: reference
-topic-tags: application-settings
 context-tags: branding,overview;branding,main
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 76%
@@ -105,7 +103,7 @@ U kunt nieuwe entiteiten van uw organisatie toevoegen in Campagne, of een nieuw 
 
    * Productie-URL: XXX.campagne.adobe.com
 
-1. **Een leveringssjabloon maken** - Zodra het nieuwe merk beschikbaar is, is het de beste manier om ten minste één nieuwe lege leveringstemplate te maken die naar dit nieuwe merk verwijzen. [Meer info](#linking-a-brand-to-a-template).
+1. **Een leveringssjabloon maken** - Zodra het nieuwe merk beschikbaar is, is het de beste manier om ten minste één nieuwe lege leveringstemplate te maken die naar dit nieuwe merk verwijzen. [Meer informatie](#linking-a-brand-to-a-template).
 
 1. **Richtlijnen voor levering controleren** - Voordat u begint met het gebruik van het nieuwe domein, moet de strategie worden besproken met het Adobe-leveringsteam. Zij zullen helpen om de beste praktijken te bepalen, als een nieuwe affiniteit zou moeten worden gecreeerd om IPs tussen domeinen bijvoorbeeld te verdelen, en/of als een platforminplan zou moeten worden bepaald. Meer informatie over aanbevolen werkwijzen voor levering [in deze sectie](../../sending/using/about-deliverability.md).
 

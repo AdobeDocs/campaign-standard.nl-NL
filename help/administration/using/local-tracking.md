@@ -1,17 +1,14 @@
 ---
 title: Pushtracking implementeren
-description: In dit document kunt u controleren of pushmeldingen correct zijn geïmplementeerd op iOS en Android.
+description: Leer hoe u ervoor kunt zorgen dat de functie voor het bijhouden van pushmeldingen correct is geïmplementeerd op iOS en Android
 audience: channels
-content-type: reference
-topic-tags: push-notifications
-context-tags: mobileApp,overview
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
