@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 06ad2e13-922b-4f35-8726-007427125c63
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 22%
+source-wordcount: '175'
+ht-degree: 7%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 22%
 
 >[!CAUTION]
 >
->De [Privacy Core-service](https://adobe.io/apis/cloudplatform/gdpr.html) De integratie is de methode u voor alle toegang en schrappingsverzoeken zou moeten gebruiken. Met ingang van versie 19.4 is het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken afgeschaft. Raadpleeg [deze pagina](../../rn/using/deprecated-features.md) voor meer informatie over Campaign Standard-functies die zijn afgeschaft en verwijderd.
+>De [Privacy Core-service](https://adobe.io/apis/cloudplatform/gdpr.html) De integratie is de methode u voor alle toegang en schrappingsverzoeken zou moeten gebruiken. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 De verzoeken van de privacy worden gecreeerd gebruikend **POST** verzoek.
 
-Voordat u aanvragen maakt, moet u de naamruimte definiëren die u wilt gebruiken. Raadpleeg voor meer informatie de [Privacy Management-documentatie](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
+Voordat u aanvragen maakt, moet u de naamruimte definiëren die u wilt gebruiken. Raadpleeg voor meer informatie de [Privacy Management-documentatie](../../start/using/privacy-requests.md).
 
 De lading moet de volgende parameters bevatten:
 

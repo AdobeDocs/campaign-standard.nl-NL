@@ -9,9 +9,9 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: a6768af0cea8891411f81e1782a873b5adb70a0e
 workflow-type: tm+mt
-source-wordcount: '1672'
+source-wordcount: '1705'
 ht-degree: 6%
 
 ---
@@ -122,6 +122,10 @@ Voor meer informatie over het maken en publiceren van bronnen raadpleegt u [deze
 1. Gebruik de **[!UICONTROL Create element]** om een veld van de geselecteerde bron te koppelen aan een van de velden die u eerder aan de gebeurtenis hebt toegevoegd (zie [Gebeurteniskenmerken definiëren](#defining-the-event-attributes)).
 
    ![](assets/message-center_enrichment-join.png)
+
+   >[!NOTE]
+   >
+   >Als u een voorwaarde definieert die het mogelijk maakt meerdere ontvangers te selecteren (zoals een veld dat dezelfde waarde kan hebben voor meerdere profielen), wordt niet meer dan één profiel als doel ingesteld.
 
 1. In dit voorbeeld combineren we de **[!UICONTROL Last name]** en de **[!UICONTROL First name]** velden met de bijbehorende velden in de **[!UICONTROL Profile]** resource.
 

@@ -9,10 +9,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: e6939330e0f9a519507f467cc56e3d5a9a995b17
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 77%
+source-wordcount: '933'
+ht-degree: 73%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 77%
 
 ## Informatie over beveiligingsgroepen {#about-security-groups}
 
+>[!IMPORTANT]
+>
+>De **[!UICONTROL Access to the deliverability parameters (Deliverability)]** en **[!UICONTROL Message Center agents (mcExec)]** beveiligingsgroepen zijn alleen interne Adobe en mogen niet aan een gebruiker worden toegewezen.
+
 Beveiligingsgroepen zijn groepen gebruikers die dezelfde rollen en rechten binnen uw organisatie delen.
 
-Gebruikers moeten altijd aan een beveiligingsgroep gekoppeld zijn. Hierdoor kunt u specifieke rollen en organisatie-eenheden toewijzen aan deze groepen.
+Gebruikers moeten altijd aan een beveiligingsgroep gekoppeld zijn. Hierdoor kunt u specifieke rollen en organisatie-eenheden toewijzen aan deze groepen. Als u de toegang van een gebruiker wilt beperken, voegt u de gebruiker niet toe aan de campagne **[!UICONTROL Standard Users]** groep als deze is gekoppeld aan **[!UICONTROL All]** organisatie-eenheid.
 
 Voor meer informatie over rollen, presenteert de lijst in de volgende pagina mogelijke verrichtingen beschikbaar volgens de rol(s) van een gebruiker: [Adobe Campaign Standard-machtigingen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
 
@@ -33,17 +37,7 @@ Standaardbeveiligingsgroepen zijn:
 * **[!UICONTROL Standard Users]**
 * **[!UICONTROL Workflow supervisors]**
 
->[!IMPORTANT]
->
->De **[!UICONTROL Access to the deliverability parameters (Deliverability)]** en **[!UICONTROL Message Center agents (mcExec)]** beveiligingsgroepen zijn alleen interne Adobe en mogen niet aan een gebruiker worden toegewezen.
-
-Elke gebruiker moet aan een beveiligingsgroep zijn toegewezen om toegang te krijgen tot Adobe Campaign.
-
-Als u de toegang van een gebruiker wilt beperken, voegt u de gebruiker niet toe aan de Campaign Standard-gebruikersgroep, aangezien deze is gekoppeld aan de organisatie-eenheid **[!UICONTROL All]**.
-
->[!NOTE]
->
->Standaard wordt de organisatie-eenheid **[!UICONTROL All (all)]** toegewezen aan de beveiligingsgroep **[!UICONTROL Administrators]**. Deze is alleen-lezen en kan niet worden gewijzigd.
+Deze ingebouwde beveiligingsgroepen zijn alleen-lezen en kunnen niet worden gewijzigd. Als u uw eigen beveiligingsgroep met een set specifieke rollen wilt maken, raadpleegt u de onderstaande sectie.
 
 ## Een beveiligingsgroep maken en gebruikers toewijzen {#creating-a-security-group-and-assigning-users}
 

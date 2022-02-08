@@ -9,10 +9,10 @@ feature: Performance Monitoring
 role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ed60bde4785da9a8cc5a6cc0efcdb24e2c1f65e3
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 89%
+source-wordcount: '499'
+ht-degree: 82%
 
 ---
 
@@ -37,6 +37,12 @@ Er zijn verschillende manieren om een levering te controleren en de impact ervan
    U kunt het logboek exporteren door op de knop **[!UICONTROL Export list]** te klikken.
 
    ![](assets/sending_delivery2.png)
+
+* **Taaklogbestanden**: Een lijst van de partijbanen die door de levering worden teweeggebracht kan van het berichtdashboard worden betreden door te selecteren **[!UICONTROL Job history]** van de **[!UICONTROL Summary]** vervolgkeuzelijst.
+
+   Selecteer een willekeurige taak in de lijst om de details van de geselecteerde taak weer te geven **[!UICONTROL Batch job]**.
+
+   ![](assets/sending_delivery8.png)
 
 * **Leveringswaarschuwingen**: Adobe Campaign biedt een e-mailwaarschuwingssysteem dat meldingen verzendt om gebruikers op de hoogte te stellen van belangrijke systeemactiviteiten, zodat ze het slagen of mislukken van leveringen kunnen bijhouden.
 * **Rapporten**: Vanuit het berichtdashboard kunt u verscheidene rapporten voor dit specifieke bericht openen. U hebt ook een **[!UICONTROL Reports]**-menu dat toegang biedt tot een volledige lijst van ingebouwde of aangepaste rapporten waarmee u specifieke metriek met betrekking tot uw bericht of campagne kunt definiëren.

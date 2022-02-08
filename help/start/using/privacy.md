@@ -13,9 +13,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1424'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Werk binnen de wetgeving die geldt voor de regio(’s) waar u actief bent om pri
 
 >[!NOTE]
 >
->Zie [deze pagina](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy-overview.html#whatisgdpr) voor meer informatie over hoe de AVG, CCPA en PDPA van toepassing zijn op Adobe Campaign.
+>Zie [deze pagina](../../start/using/privacy-management.md#privacy-management-regulations) voor meer informatie over hoe de AVG, CCPA en PDPA van toepassing zijn op Adobe Campaign.
 
 ### Adobe Experience Cloud-privacy {#experience-cloud-privacy}
 
@@ -59,7 +59,7 @@ Adobe Campaign maakt deel uit van de Adobe Experience Cloud-oplossingen. De mani
 * **Hoe Adobe Experience Cloud wordt gebruikt om informatie te verzamelen**
 
    * Adobe Experience Cloud-oplossingen gebruiken cookies en vergelijkbare technologieën zoals webbakens (ook wel tags of pixels genoemd), waarmee u informatie kunt verzamelen. Zie [deze sectie](#tracking-capabilities) voor meer informatie over cookies en trackingmogelijkheden met Adobe Campaign.
-   * U kunt in uw mobiele apps ook Adobe Experience Cloud-technologieën gebruiken. Zie [deze pagina](https://helpx.adobe.com/nl/campaign/kb/acs-mobile.html) voor meer informatie over het verzenden van mobiele leveringen met Campaign.
+   * U kunt in uw mobiele apps ook Adobe Experience Cloud-technologieën gebruiken. Zie [deze pagina](../../channels/using/mobile-guide.md) voor meer informatie over het verzenden van mobiele leveringen met Campaign.
 
 * **De privacyopties van uw gebruikers voor uw gebruik van Adobe Experience Cloud**
 
@@ -100,14 +100,14 @@ Met Adobe Campaign kunt u gegevens verzamelen, waaronder persoonlijke en gevoeli
 
 ## Privacybeheer {#privacy-management}
 
-Privacybeheer verwijst naar alle processen en tools die u kunnen helpen te voldoen aan de privacywetgeving (AVG, CCPA, enz.). Bekijk een overzicht van privacybeheer op [deze pagina](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy-overview.html).
+Privacybeheer verwijst naar alle processen en tools die u kunnen helpen te voldoen aan de privacywetgeving (AVG, CCPA, enz.). Bekijk een overzicht van privacybeheer op [deze pagina](../../start/using/privacy-management.md#privacy-management-regulations).
 
 Adobe Campaign biedt u verschillende functiesets voor privacybeheer:
 * toestemmingsbeheer, dataretentie en gebruikersrollen. Zie [deze sectie](#consent).
 * Verzoeken om toegang tot persoonsgegevens (toegangsrecht en recht om te worden vergeten). Zie [deze sectie](#privacy-requests).
-* Opt-out voor de verkoop van persoonsgegevens (CCPA-specifiek). Zie [deze sectie](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ccpa).
+* Opt-out voor de verkoop van persoonsgegevens (CCPA-specifiek). Zie [deze sectie](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
 
-De belangrijkste privacymogelijkheden in Campaign en een voorbeeld van de betrokken persona’s worden weergegeven in [deze sectie](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-faq.html?lang=nl#getting-started).
+De belangrijkste privacymogelijkheden in Campaign en een voorbeeld van de betrokken persona’s worden weergegeven in [deze sectie](#personal-data).
 
 
 ### Toestemming, retentie en rollen {#consent}
@@ -118,7 +118,7 @@ Oorspronkelijk biedt Adobe Campaign belangrijke functies die essentieel zijn voo
 * **Dataretentie**: alle ingebouwde standaard logtabellen bevatten vooraf ingestelde retentieperioden, waarbij de gegevensopslag over het algemeen is beperkt tot 6 maanden of korter. Er kunnen extra retentieperioden worden ingesteld met workflows. Neem hiervoor contact op met de adviseurs van Adobe of met technische beheerders.
 * **Rights Management**: Adobe Campaign biedt u de mogelijkheid om via verschillende standaard of aangepaste rollen de rechten te beheren die aan de verschillende Campaign-operators zijn toegewezen. Hierdoor kunt u bepalen wie binnen uw bedrijf toegang heeft tot verschillende typen gegevens en deze kan wijzigen of exporteren. Zie [Toegangscontrole](../../administration/using/about-access-management.md) voor meer informatie.
 
-Zie [deze pagina](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy-overview.html#consent) voor meer informatie over deze functies en hoe u ze kunt beheren in Adobe Campaign.
+Zie [deze pagina](../../start/using/privacy-management.md#consent-retention-roles) voor meer informatie over deze functies en hoe u ze kunt beheren in Adobe Campaign.
 
 ### Privacyverzoeken {#privacy-requests}
 
@@ -130,15 +130,9 @@ Adobe Campaign biedt extra mogelijkheden om uw taak als gegevenscontroller voor 
 
 >[!NOTE]
 >
->Deze reeks tools is bedoeld om u te helpen bij uw privacynaleving voor de AVG, CCPA, en PDPA. Zie [deze pagina](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr) voor meer informatie over deze verschillende verordeningen.
+>Deze reeks tools is bedoeld om u te helpen bij uw privacynaleving voor de AVG, CCPA, en PDPA. Zie [deze pagina](../../start/using/privacy-management.md#privacy-management-regulations) voor meer informatie over deze verschillende verordeningen.
 
-<!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
-
-* **CCPA** (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
-
-* **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
-
-Verzoeken om **toegang** en **verwijdering** worden weergegeven op [deze pagina](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=nl#getting-started). De implementatiestappen voor het maken van deze verzoeken worden uiteengezet op [deze pagina](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). [Hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=nl) zijn ook tutorials beschikbaar.
+Verzoeken om **toegang** en **verwijdering** worden weergegeven op [deze pagina](../../start/using/privacy-management.md#right-access-forgotten). De implementatiestappen voor het maken van deze verzoeken worden uiteengezet op [deze pagina](../../start/using/privacy-requests.md#about-privacy-requests). [Hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=nl) zijn ook tutorials beschikbaar.
 
 ## Trackingmogelijkheden {#tracking-capabilities}
 

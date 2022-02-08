@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 0523c7cc68661a5593ae2c58382f839c2379f2db
+source-git-commit: 99111a0d8d3bf46aae39b80851ebcabaf30be0a0
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 95%
+source-wordcount: '1245'
+ht-degree: 89%
 
 ---
 
@@ -159,6 +159,18 @@ Nadat u de levering hebt voorbereid en de goedkeuringsstappen zijn uitgevoerd, k
    ![](assets/inapp_sending_7.png)
 
 1. Meet het effect van uw in-app-berichten met leveringsrapporten. Raadpleeg [deze sectie](../../reporting/using/in-app-report.md) voor meer informatie over rapporten.
+
+1. Nadat u uw In-App-berichten hebt verzonden, kunt u de levering desactiveren. Dit kan handig zijn als u een bepaalde levering wilt stoppen of als u bijvoorbeeld een nieuwe levering met dezelfde trigger wilt uitvoeren.
+
+   Klikken **[!UICONTROL Deactivate]** dan **[!UICONTROL Ok]** om het deactiveringsverzoek te starten.
+
+   ![](assets/inapp_sending_8.png)
+
+1. Nadat het verzoek is verzonden, wordt de levering gedeactiveerd en wordt er geen ander bericht verzonden.
+
+   Houd er rekening mee dat uw rapporten voor deze levering nog steeds toegankelijk zijn.
+
+   ![](assets/inapp_sending_9.png)
 
 **Verwante onderwerpen:**
 

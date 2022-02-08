@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
 workflow-type: tm+mt
-source-wordcount: '1599'
-ht-degree: 100%
+source-wordcount: '1591'
+ht-degree: 94%
 
 ---
 
@@ -23,9 +23,7 @@ Deze informatie geldt voor AVG, CCPA, PDPA en LGPD. Zie [deze sectie](../../star
 
 De opt-out voor de verkoop van persoonsgegevens, die specifiek is voor de CCPA, wordt in [deze sectie](#sale-of-personal-information-ccpa) toegelicht.
 
->[!IMPORTANT]
->
->Sinds 19.4 is het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken afgeschaft. Voor alle AVG-, CCPA-, PDPA- of LGPD-verzoeken om toegang en verwijdering moet u de [Privacy-kernservice](#create-privacy-request)-integratiemethode gebruiken.
+<!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. For any GDPR, CCPA, PDPA, or LGPD Access and Delete requests, you need to use the [Privacy Core Service](#create-privacy-request) integration method.-->
 
 ## Privacyverzoeken {#about-privacy-requests}
 
@@ -89,15 +87,17 @@ Raadpleeg ook deze [tutorial](https://experienceleague.adobe.com/docs/campaign-s
 
 ### Een privacyverzoek maken {#create-privacy-request}
 
->[!IMPORTANT]
->
->De integratie van de **Privacy-kernservice** is de methode die u moet gebruiken voor alle verzoeken om toegang en verwijdering.
->
->Sinds 19.4 is het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken afgeschaft. Gebruik de Privacy-kernservice voor elk AVG-, CCPA-, PDPA- of LGPD-verzoek om toegang of verwijdering.
+<!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. Use the **Privacy Core Service** for any GDPR, CCPA, PDPA, or LGPD Access and Delete requests.-->
 
 Dankzij de integratie van de Privacy-kernservice kunt u uw verzoeken om toegang tot persoonsgegevens automatiseren in een context met meerdere oplossingen via één JSON API-aanroep. Verzoeken om toegang tot persoonsgegevens die van de Privacy-kernservice naar alle Experience Cloud-oplossingen worden gepusht, worden door Campaign automatisch behandeld via een speciale workflow.
 
 Raadpleeg de documentatie bij de [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl) om te ontdekken hoe u verzoeken om toegang tot persoonsgegevens kunt maken vanuit de Privacy-kernservice.
+
+>[!IMPORTANT]
+>
+>Als u een aanvraag wilt verzenden met het aangepaste naamruimtetype, gebruikt u de optie [JSON, methode](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#json){target=&quot;_blank&quot;} en voeg de namespaceId toe aan de aanvraag, of gebruik de [API-aanroep](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=en#access-delete){target=&quot;_blank&quot;} om de aanvraag in te dienen.
+>
+>Alleen de [Privacy-gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target=&quot;_blank&quot;} om aanvragen in te dienen met het standaardnaamruimtetype.
 
 Elke Privacy-kernservicetaak in Campaign is gesplitst in meerdere verzoeken om toegang tot persoonsgegevens op basis van het aantal gebruikte naamruimten, waarbij één verzoek correspondeert met één naamruimte. Bovendien kan één taak op meerdere instanties worden uitgevoerd. Daarom worden er meerdere bestanden gemaakt voor één taak. Als een verzoek bijvoorbeeld twee naamruimten bevat en op drie instanties wordt uitgevoerd, worden in totaal zes bestanden verzonden. Eén bestand per naamruimte en instantie.
 
@@ -189,7 +189,7 @@ Wanneer gebruikers via uw systeem besluiten dat zij niet toestaan dat hun persoo
 
 ### Vereiste voor aangepaste tabellen {#ccpa-prerequisite}
 
-Vanaf versie 19.4 is het veld **[!UICONTROL CCPA Opt-Out]** ingebouwd in de Campaign-interface en -API. Het veld is standaard beschikbaar voor de standaard **[!UICONTROL Profile]**-bron.
+De **[!UICONTROL CCPA Opt-Out]** wordt een veld weergegeven in de Campagne-interface en de API. Het veld is standaard beschikbaar voor de standaard **[!UICONTROL Profile]**-bron.
 
 Als u een aangepaste profielbron gebruikt, moet u de bron uitbreiden en het veld toevoegen. We adviseren u om een andere naam te gebruiken dan het ingebouwde veld, zoals: **[!UICONTROL Opt-Out for CCPA]** (optoutccpa). Wanneer een nieuw veld wordt gemaakt, wordt dit automatisch ondersteund door de Campaign-API.
 

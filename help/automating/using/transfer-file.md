@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 41be9f7c13a4b3e0a20e714cc42b9d054812ec07
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 88%
+source-wordcount: '1157'
+ht-degree: 84%
 
 ---
 
@@ -54,11 +54,13 @@ U kunt deze activiteit gebruiken om data te herstellen die vervolgens met de act
    * [Microsoft Azure Blob-opslag](#azure-blob-configuration-wf)
    * [Bestand(en) aanwezig op de Adobe Campaign-server](#files-server-configuration-wf)
 
-1. In de sectie **[!UICONTROL Additional options]**, die afhankelijk is van het geselecteerde protocol, kunt u parameters toevoegen aan uw protocol. U kunt het volgende doen:
+1. In de sectie **[!UICONTROL Additional options]**, die afhankelijk is van het geselecteerde protocol, kunt u parameters toevoegen aan uw protocol.
 
-   * **[!UICONTROL Delete the source files after transfer]**
-   * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**: Deze optie is beschikbaar wanneer u de actie **[!UICONTROL File listing]** selecteert op het tabblad **[!UICONTROL General]**. Hiermee kunt u alle bestanden indexeren die aanwezig zijn op de server in de gebeurtenisvariabele **vars.filenames** waarin de bestandsnamen worden gescheiden door de tekens **‘n’** 
+   U kunt:
+
+   * **[!UICONTROL Delete the source files after transfer]**: wist de bestanden op de externe server. Als deze optie uitgeschakeld blijft, controleert u handmatig de grootte van de gearchiveerde inhoud in de SFTP-map.
+   * **[!UICONTROL Disable passive mode]**: Hiermee kunt u de verbindingshaven opgeven die voor gegevensoverdracht moet worden gebruikt.
+   * **[!UICONTROL List all files]**: deze optie is beschikbaar als u **[!UICONTROL File listing]** in de **[!UICONTROL General]** tab. Hiermee kunt u alle bestanden indexeren die aanwezig zijn op de server in de gebeurtenisvariabele **vars.filenames** waarin de bestandsnamen worden gescheiden door de tekens **‘n’** 
 
 1. In de sectie **[!UICONTROL If no files are found]** van het tabblad **[!UICONTROL Advanced options]** kunt u specifieke acties configureren als er fouten of onbestaande bestanden worden gedetecteerd wanneer de activiteit wordt gestart.
 
