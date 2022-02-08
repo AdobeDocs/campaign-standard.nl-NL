@@ -9,10 +9,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2adead5903eb2710207d7aeaaa85418bd616ca5d
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 95%
 
 ---
 
@@ -50,6 +50,11 @@ In de specifieke context van een A/B-test gaat dit als volgt:
    * **[!UICONTROL Number of variants]**: U kunt kiezen of u twee of drie varianten wilt gebruiken. Als u drie varianten kiest, kunt u deze keuze later niet wijzigen nadat deze stap is bevestigd in de wizard.
    * **[!UICONTROL Winning strategy]**: Selecteer het criterium dat moet worden gebruikt om de winnende variant te bepalen.
    * **[!UICONTROL Target breakdown]**: Kies welk percentage van de doelgroep elke variant zal ontvangen. Het resterende percentage ontvangt de winnende variant zodra deze is bepaald. De doelprofielen worden willekeurig geselecteerd.
+
+      >[!NOTE]
+      >
+      >Als de totale populatie minder dan 50 kB bedraagt, moet elke variant ten minste 10% van de totale populatie vertegenwoordigen.
+
    * **[!UICONTROL Winner sending method]**: Kies of u wilt dat de winnende variant automatisch wordt verzonden zodra deze is bepaald of dat u het verzenden naar de resterende populatie handmatig wilt bevestigen.
    * **[!UICONTROL Test duration]**: Geef de duur van de test op. De winnende variant wordt automatisch bepaald na deze duur. U kunt de winnende variant vóór het einde van de test handmatig kiezen in het e-maildashboard.
 
@@ -88,4 +93,4 @@ Uw e-mail is nu gedefinieerd en verzonden. U kunt de logboeken en rapporten van 
 
 In het e-maildashboard zijn verschillende indicatoren beschikbaar waarmee u uw A/B-test kunt meten: het aantal keer dat op een e-mail is geklikt, het aantal keer dat een e-mail is geopend, het aantal keer dat een e-mail niet is bezorgd, enzovoort.
 
-Merk op dat de indicator **[!UICONTROL Estimated recipient reactivity]** een percentage is dat het aantal ontvangers dat op de e-mail heeft geklikt, vergelijkt met het aantal ontvangers dat de e-mail heeft geopend. Als bijvoorbeeld 10 ontvangers de e-mail hebben geopend en 5 ontvangers erop hebben geklikt, dan is de reactiviteitsgraad 50%.
+Merk op dat de indicator **[!UICONTROL Estimated recipient reactivity]** een percentage is dat het aantal ontvangers dat op de e-mail heeft geklikt, vergelijkt met het aantal ontvangers dat de e-mail heeft geopend. Als 10 ontvangers bijvoorbeeld het e-mailbericht hebben geopend en 5 ontvangers erop hebben geklikt, is de reactiviteitsfrequentie 50%.
