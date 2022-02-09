@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 85c32143f87b1c46dd9aa32e9aac17f5fa9b7c62
+source-git-commit: 1311b88313910acd9fa6585adecbd7c8315e2d77
 workflow-type: tm+mt
-source-wordcount: '7089'
+source-wordcount: '7128'
 ht-degree: 97%
 
 ---
@@ -18,17 +18,27 @@ Naast [aanvullende informatie](../../rn/using/release-notes.md) van Adobe Campai
 
 ## Februari 2022 {#doc-updates-feb-2022}
 
+## Release 22.1 - februari 2022 {#release-22-1}
+
+**Verbeteringen die zijn opgenomen in de release**
+
 Verbeterd mechanisme voor opnieuw proberen voor leveringen, inclusief inhoud die is geïmporteerd vanaf een URL. [Meer informatie](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
-Er is een waarschuwingsbericht toegevoegd over trefwoorden die automatische SMS-antwoorden activeren: zij mogen alleen alfanumerieke tekens bevatten. [Meer informatie](../../channels/using/managing-incoming-sms.md)
-
 Bijgewerkt toegangsniveau van de opties die Controle controleren: eerdere opties voor in- en uitschakelen [Audittrail](../../administration/using/audit.md) niet toegankelijk waren voor [functionele beheerders](../../administration/using/users-management.md#functional-administrators). Met deze verandering, wordt het toegangsniveau van controle gewijzigd om controle aan functionele beheerders te verlenen. [Meer informatie](../../administration/using/audit.md#enable-disable-audit)
+
+De nieuwe **Taakgeschiedenis** drop-down is toegevoegd aan het berichtdashboard. [Meer informatie](../../sending/using/monitoring-a-delivery.md)
+
+**Andere wijzigingen**
+
+Er is een waarschuwingsbericht toegevoegd over trefwoorden die automatische SMS-antwoorden activeren: zij mogen alleen alfanumerieke tekens bevatten. [Meer informatie](../../channels/using/managing-incoming-sms.md)
 
 Een opmerking toegevoegd aan de e-mailsectie voor de A/B-test: als de totale bevolking minder dan 50 kB bedraagt , moet elke variant ten minste 10 % van de totale bevolking uitmaken . Anders wordt in de logboeken een waarschuwing weergegeven. [Meer informatie](../../channels/using/designing-an-a-b-test-email.md)
 
 Bijgewerkte beschrijving van **[!UICONTROL Delete the source files after transfer]** in de **Bestand overbrengen** activiteit, waaronder een herinnering om de grootte van de gearchiveerde inhoud in de folder SFTP manueel te controleren voor het geval de optie niet wordt geselecteerd. [Meer informatie](../../automating/using/transfer-file.md)
 
 Alle verouderde koppelingen in het dialoogvenster **Privacy** secties. [Meer informatie](../../start/using/privacy.md)
+
+Een directe koppeling naar de documentatie van het Configuratiescherm van de Campagne toegevoegd in de documentatietabel Campaign Standard met inhoud.
 
 ## Release 21.3 - september 2021 {#release-21-3---september-2021}
 
