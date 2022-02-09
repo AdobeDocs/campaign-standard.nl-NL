@@ -1,21 +1,18 @@
 ---
 title: Profielen ophalen
-description: Meer informatie over het ophalen van profielen met API's.
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: Meer informatie over het ophalen van profielen met API's
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 5%
+source-wordcount: '231'
+ht-degree: 4%
 
 ---
 
-# Profielen ophalen {#retrieving-profiles}
+# Profielen ophalen met API&#39;s {#retrieving-profiles}
 
 Het ophalen van profielen wordt uitgevoerd met een **GET** verzoek.
 

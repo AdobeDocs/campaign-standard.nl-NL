@@ -1,21 +1,18 @@
 ---
 title: Een service maken
-description: Leer hoe u een service maakt met API's.
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: Leer hoe u een service maakt met API's
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 8%
+source-wordcount: '75'
+ht-degree: 4%
 
 ---
 
-# Een service maken {#creating-a-service}
+# Een service met API&#39;s maken{#creating-a-service-api}
 
 Services maken wordt uitgevoerd met een **POST** verzoek op het de dienstmiddel.
 

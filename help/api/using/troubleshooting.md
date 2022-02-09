@@ -1,21 +1,18 @@
 ---
 title: Problemen oplossen
-description: Meer informatie over algemene problemen met betrekking tot Campaign Standard API's.
-audience: developing
-content-type: reference
-topic-tags: use-case--extending-the-api
+description: Meer informatie over algemene problemen met betrekking tot Campaign Standard API's
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
 
-# Problemen oplossen {#troubleshooting}
+# Problemen met API oplossen {#troubleshooting}
 
 * **Wanneer u naar de Adobe.io-console gaat, treedt de volgende fout op: &quot;De console van de Adobe I/O is slechts beschikbaar om leden van ondernemingsrekeningen te selecteren. Neem contact op met uw systeembeheerder als u van mening bent dat u toegang moet hebben.&quot;**
 
@@ -87,7 +84,7 @@ Uw token is ongeldig (onjuiste IMS-aanroep die wordt gebruikt om een token te ge
 
 * **Ik zie mijn profiel niet na creatie**
 
-Afhankelijk van de instantieconfiguratie moet het gemaakte profiel worden gekoppeld aan een **orgUnit**. Als u wilt weten hoe u dit veld kunt toevoegen aan uw creatie, raadpleegt u [deze sectie](../../api/using/creating-profiles.md).
+Afhankelijk van de instantieconfiguratie moet het gemaakte profiel worden gekoppeld aan een **orgUnit**. Als u wilt weten hoe u dit veld kunt toevoegen aan uw creatie, raadpleegt u [deze sectie](../../api/using/creating-profiles-api.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 

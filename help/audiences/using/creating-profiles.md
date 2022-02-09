@@ -8,10 +8,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 89%
+source-wordcount: '379'
+ht-degree: 87%
 
 ---
 
@@ -21,7 +21,7 @@ In Adobe Campaign worden profielen standaard gebruikt om het hoofddoel van beric
 
 >[!NOTE]
 >
->Het is ook mogelijk om profielen te maken met de Adobe Campaign Standard API. Raadpleeg de [desbetreffende documentatie](../../api/using/creating-profiles.md)voor meer informatie.
+>Het is ook mogelijk om profielen te maken met de Adobe Campaign Standard API. Raadpleeg de [desbetreffende documentatie](../../api/using/creating-profiles-api.md)voor meer informatie.
 
 ![](assets/do-not-localize/how-to-video.png) [Ontdek hoe u profielen kunt importeren met een workflow in video](#video)
 
@@ -31,7 +31,7 @@ Als u een profiel wilt maken of bijwerken in Campaign, kunt u:
 * data online verzamelen via [landingspagina’s](../../channels/using/getting-started-with-landing-pages.md)
 * bulk maken via [REST API](../../api/using/get-started-apis.md)
 * profielen synchroniseren met [Microsoft Dynamics](../../integrating/using/d365-acs-get-started.md)
-* data invoeren met de grafische interfaceschermen, zoals hieronder wordt uitgelegd
+* Gegevens invoeren via de gebruikersinterface, zoals hieronder wordt uitgelegd
 
 Voer bijvoorbeeld de volgende stappen uit om een nieuw profiel rechtstreeks in de gebruikersinterface te maken:
 

@@ -4,8 +4,8 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken. '
 title: 'Campaign Standard-handleiding '
 breadcrumb-title: Documentatie voor Adobe Campaign Standard
-source-git-commit: 4c316778c34c14b8d5e5aa1812999ee024a581a0
-workflow-type: ht
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 100%
 
@@ -490,7 +490,7 @@ ht-degree: 100%
    + Profielen beheren {#managing-profiles}
       + [Profielen ophalen](api/using/retrieving-profiles.md)
       + [Profielen bijwerken](api/using/updating-profiles.md)
-      + [Profielen maken](api/using/creating-profiles.md)
+      + [Profielen maken](api/using/creating-profiles-api.md)
    + Services en lidmaatschappen beheren {#managing-services-and-subscriptiopns}
       + [Een service maken](api/using/creating-a-service.md)
       + [Lidmaatschappen ophalen](api/using/retrieving-subscriptions.md)
