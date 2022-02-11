@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1591'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -95,9 +95,9 @@ Raadpleeg de documentatie bij de [Experience Platform Privacy Service](https://e
 
 >[!IMPORTANT]
 >
->Als u een aanvraag wilt verzenden met het aangepaste naamruimtetype, gebruikt u de optie [JSON, methode](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#json){target=&quot;_blank&quot;} en voeg de namespaceId toe aan de aanvraag, of gebruik de [API-aanroep](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=en#access-delete){target=&quot;_blank&quot;} om de aanvraag in te dienen.
+>Als u een verzoek wilt indienen met het aangepaste naamruimtetype, gebruikt u de [JSON-methode](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=nl#json){target=&quot;_blank&quot;} en voegt u de namespaceId toe aan het verzoek, of gebruikt u de [API-aanroep](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=nl#access-delete){target=&quot;_blank&quot;} om het verzoek in te dienen.
 >
->Alleen de [Privacy-gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target=&quot;_blank&quot;} om aanvragen in te dienen met het standaardnaamruimtetype.
+>Gebruik alleen de [Privacy-gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=nl#request-builder){target=&quot;_blank&quot;} om verzoeken in te dienen met het standaardnaamruimtetype.
 
 Elke Privacy-kernservicetaak in Campaign is gesplitst in meerdere verzoeken om toegang tot persoonsgegevens op basis van het aantal gebruikte naamruimten, waarbij één verzoek correspondeert met één naamruimte. Bovendien kan één taak op meerdere instanties worden uitgevoerd. Daarom worden er meerdere bestanden gemaakt voor één taak. Als een verzoek bijvoorbeeld twee naamruimten bevat en op drie instanties wordt uitgevoerd, worden in totaal zes bestanden verzonden. Eén bestand per naamruimte en instantie.
 
@@ -189,7 +189,7 @@ Wanneer gebruikers via uw systeem besluiten dat zij niet toestaan dat hun persoo
 
 ### Vereiste voor aangepaste tabellen {#ccpa-prerequisite}
 
-De **[!UICONTROL CCPA Opt-Out]** wordt een veld weergegeven in de Campagne-interface en de API. Het veld is standaard beschikbaar voor de standaard **[!UICONTROL Profile]**-bron.
+Het veld **[!UICONTROL CCPA Opt-Out]** wordt standaard geleverd in de Campaign-interface en -API. Het veld is standaard beschikbaar voor de standaard **[!UICONTROL Profile]**-bron.
 
 Als u een aangepaste profielbron gebruikt, moet u de bron uitbreiden en het veld toevoegen. We adviseren u om een andere naam te gebruiken dan het ingebouwde veld, zoals: **[!UICONTROL Opt-Out for CCPA]** (optoutccpa). Wanneer een nieuw veld wordt gemaakt, wordt dit automatisch ondersteund door de Campaign-API.
 
