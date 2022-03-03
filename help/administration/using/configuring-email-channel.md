@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
 workflow-type: tm+mt
-source-wordcount: '2596'
-ht-degree: 76%
+source-wordcount: '2614'
+ht-degree: 75%
 
 ---
 
@@ -54,7 +54,7 @@ In het configuratiescherm voor e-mail kunt u de parameters voor het e-mailkanaal
 
    >[!IMPORTANT]
    >
-   >Het maximumaantal uit te voeren pogingen en de minimumvertraging tussen opnieuw proberen zijn nu gebaseerd op hoe goed IP zowel historisch als momenteel bij een bepaald domein uitvoert. De **[!UICONTROL Retry period]** en **[!UICONTROL Number of retries]** instellingen in Campagne worden genegeerd.
+   >The maximum number of retries to be performed and the minimum delay between retries are now based on how well an IP is performing both historically and currently at a given domain. **[!UICONTROL Retry period]****[!UICONTROL Number of retries]**
 
    <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
@@ -85,10 +85,10 @@ Beheerders hebben toegang tot de **[!UICONTROL Email processing rules]** via het
 
 >[!IMPORTANT]
 >
->De e-maildomeinen en de MX-regels worden nu automatisch beheerd<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> en kan niet worden gewijzigd.
+><!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)-->
 
-* **DKIM (DomainKeys Identified Mail)** Ondertekening van e-mailverificatie wordt uitgevoerd voor alle berichten met alle domeinen. Het wordt niet ondertekend met **Afzender-id**, **DomainKeys**, of **S/MIME**.
-* MX-regels passen uw doorvoer automatisch aan per domein op basis van uw eigen historische e-mailreputatie en de real-time feedback uit de domeinen waar u e-mails verzendt.
+* **** ************
+* MX rules automatically customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.
 
 <!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
 * **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
@@ -102,7 +102,7 @@ Deze regels bevatten de lijst met tekenreeksen die door externe servers kunnen w
 
 >[!IMPORTANT]
 >
->De synchrone de foutenmeldingen van de leveringsmislukking worden nu gekwalificeerd door Adobe Campaign Verbeterde MTA, die het stuitertype en de kwalificatie bepaalt, en die informatie terugstuurt naar Campagne.
+>Synchronous delivery failure error messages are now qualified by the Adobe Campaign Enhanced MTA, which determines the bounce type and qualification, and sends back that information to Campaign.
 
 Zie deze [sectie](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)voor meer informatie over de kwalificatie voor niet bezorgde mails.
 
@@ -158,7 +158,7 @@ Voor tijdelijk niet bezorgde berichten wordt automatisch een nieuwe poging uitge
 
 >[!IMPORTANT]
 >
->De minimale vertraging tussen pogingen en het maximumaantal uit te voeren pogingen zijn nu gebaseerd op hoe goed IP zowel historisch als momenteel bij een bepaald domein uitvoert. De **[!UICONTROL Retry period]** en **[!UICONTROL Max. number of retries]** instellingen in Campagne worden genegeerd.
+>The minimum delay between retries and the maximum number of retries to be performed are now based on how well an IP is performing both historically and currently at a given domain. **[!UICONTROL Retry period]****[!UICONTROL Max. number of retries]**
 
 De **instelling voor de bezorgingsduur** (gedefinieerd in de sectie [Validity period parameters](#validity-period-parameters)) **die in Campaign is ingesteld, wordt gerespecteerd, maar slechts tot maximaal 3,5 dagen**. Op dat punt wordt elk bericht in de wachtrij Hernieuwde pogingen verwijderd uit deze wachtrij en teruggestuurd als onbezorgbaar. Raadpleeg deze [sectie](../../sending/using/understanding-delivery-failures.md#about-delivery-failures) voor meer informatie over bezorgingsfouten.
 
@@ -209,7 +209,7 @@ De sectie **[!UICONTROL Validity period]** bevat de volgende parameters:
 
    >[!IMPORTANT]
    >
-   >**U kunt een waarde van maximaal 3,5 dagen definiëren.** Als u een waarde instelt die hoger is dan 3,5 dagen, wordt hiermee geen rekening gehouden.
+   >**U kunt een waarde van maximaal 3,5 dagen definiëren.**
 
 * **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**: dit veld wordt gebruikt voor geüploade bronnen, voornamelijk voor de spiegelpagina en -afbeeldingen. De bronnen op deze pagina zijn gedurende een beperkte tijd geldig (om schijfruimte te besparen).
 * **[!UICONTROL Mirror page management]**: de spiegelpagina is een HTML-pagina die online via een webbrowser toegankelijk is. De content komt overeen met de content van de e-mail. Standaard wordt de spiegelpagina gegenereerd als de koppeling wordt ingevoegd in de e-mailcontent. In dit veld kunt u de manier wijzigen waarop deze pagina wordt gegenereerd:
@@ -234,6 +234,7 @@ De sectie **[!UICONTROL Tracking]** bevat de volgende parameters:
 * **[!UICONTROL Activate tracking]**: hiermee kunt u de tracking van bericht-URL&#39;s in- of uitschakelen. Als u de URL van elk bericht wilt traceren, gebruikt u het pictogram **[!UICONTROL Links]** in de actiebalk Email Designer. Zie [Informatie over getraceerde URL&#39;s](../../designing/using/links.md#about-tracked-urls).
 * **[!UICONTROL Tracking validity limit]**: hiermee kunt u definiëren hoe lang tracking geactiveerd blijft voor de URL&#39;s.
 * **[!UICONTROL Substitution URL for expired URLs]**: u kunt een URL invoeren naar een webpagina die wordt weergegeven wanneer tracking is verlopen.
+* **[!UICONTROL Use tracking pixel at the top of email]**
 
 ### Geavanceerde parameters {#advanced-parameters}
 
@@ -303,46 +304,46 @@ De sectie **[!UICONTROL Access authorization]** bevat de volgende parameters:
 
 * De velden **[!UICONTROL Created by]**, **[!UICONTROL Created]****[!UICONTROL Modified by]** en **[!UICONTROL Last modified]** worden automatisch ingevuld.
 
-## Oudere instellingen {#legacy-settings}
+## Legacy settings {#legacy-settings}
 
-Als u **NOT** Als u de meest recente versie van Campagne uitvoert, zijn de hieronder beschreven parameters en UI-secties nog steeds op u van toepassing.
+****
 
 ### Hernieuwde pogingen {#legacy-retries}
 
-De **[!UICONTROL Retries]** in de [Menu Configuratie](#email-channel-parameters) en in de [Parameters verzenden](#retries-parameters) van de e-maileigenschappen geven aan hoeveel pogingen moeten worden uitgevoerd op de dag nadat de verzending is gestart (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) en de minimale vertraging tussen pogingen (**[!UICONTROL Retry period]**).
+**[!UICONTROL Retries]**[](#email-channel-parameters)[](#retries-parameters)**[!UICONTROL Number of retries]****[!UICONTROL Max. number of retries]****[!UICONTROL Retry period]**
 
-Het aantal pogingen kan globaal worden veranderd (contacteer uw Adobe technische beheerder) of voor elke levering of leveringsmalplaatje.
+The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template.
 
-Door gebrek, zijn vijf herpogingen gepland voor de eerste dag met een minimuminterval van één uur, uitgespreid zich over de 24 uren van de dag. Na die datum en tot de uiterste datum van levering, die globaal in het **[!UICONTROL Delivery parameters]** van de **[!UICONTROL Configuration]** of in het menu **[!UICONTROL Validity period]** op het niveau van de levering (zie de [Leveringsduur](#legacy-delivery-duration) hieronder).
+By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. **[!UICONTROL Delivery parameters]****[!UICONTROL Configuration]****[!UICONTROL Validity period]**[](#legacy-delivery-duration)
 
-### Leveringsduur {#legacy-delivery-duration}
+### Delivery duration {#legacy-delivery-duration}
 
-De **[!UICONTROL Message delivery duration]** in de [Menu Configuratie](#email-channel-parameters) staat u toe om het tijdkader te specificeren waarin om het even welk bericht in de levering die een tijdelijke fout of zachte stuit ontmoet opnieuw zal worden geprobeerd.
+**[!UICONTROL Message delivery duration]**[](#email-channel-parameters)
 
-De **[!UICONTROL Delivery duration]** of **[!UICONTROL Validity limit for sending messages]** in de [Geldigheidsperiode](#validity-period-parameters) kunt u opgeven gedurende welke periode de berichten kunnen worden verzonden.
+**[!UICONTROL Delivery duration]****[!UICONTROL Validity limit for sending messages]**[](#validity-period-parameters)
 
 ### Regels voor e-mailverwerking {#legacy-email-processing-rules}
 
-De **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** en **[!UICONTROL Domain management]** de regels kunnen door beheerders door middel van worden betreden en worden gewijzigd **[!UICONTROL Administration > Channels > Email > Email processing rules]** [menu](#email-processing-rules).
+**[!UICONTROL MX management]****[!UICONTROL Bounce mails]****[!UICONTROL Domain management]****[!UICONTROL Administration > Channels > Email > Email processing rules]**[](#email-processing-rules)
 
 ### Kwalificatie van niet-bezorgde e-mails {#legacy-bounce-mail-qualification}
 
-Als u de verschillende grenzen en de bijbehorende fouttypen en redenen wilt weergeven, klikt u op de knop **Adobe** logo, in de linkerbovenhoek, selecteert u **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+******[!UICONTROL Administration > Channels > Quarantines > Message qualification]**
 
-Stuiterwaarden kunnen de volgende kwalificatiestatus hebben:
+Bounces can have the following qualification statuses:
 
-* **[!UICONTROL To qualify]**: de stuiterende post moet worden gekwalificeerd. De kwalificatie moet door het leveringsteam worden gedaan om ervoor te zorgen dat de platformleverbaarheid correct functioneert. Zolang het niet wordt gekwalificeerd, wordt de stuiterende post niet gebruikt om de lijst van e-mailverwerkingsregels te verrijken.
-* **[!UICONTROL Keep]**: de stuiterende post werd gekwalificeerd en zal door **Update voor leverbaarheid** te vergelijken met bestaande regels voor e-mailverwerking en de lijst te verrijken.
-* **[!UICONTROL Ignore]**: de stuiterende post werd gekwalificeerd maar zal niet door **Update voor leverbaarheid** workflow. Het wordt dus niet naar de clientinstanties verzonden.
+* **[!UICONTROL To qualify]** Qualification must be done by the Deliverability team to ensure that the platform deliverability functions correctly. As long as it is not qualified, the bounce mail is not used to enrich the list of email processing rules.
+* **[!UICONTROL Keep]******
+* **[!UICONTROL Ignore]****** So it will not be sent to the client instances.
 
 >[!NOTE]
 >
->In het geval van een stroomonderbreking van ISP, zullen de e-mails die door Campaign worden verzonden verkeerd als stegels worden gemerkt. U moet de stuiterkwalificatie bijwerken om dit te corrigeren. Ga voor meer informatie naar [deze pagina](../../administration/using/update-bounce-qualification.md).
+>In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification. Ga voor meer informatie naar [deze pagina](../../administration/using/update-bounce-qualification.md).
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
-### Rapportage van geleverde indicatoren {#legacy-delivered-status-report}
+### Delivered indicator reporting {#legacy-delivered-status-report}
 
-In de **[!UICONTROL Summary]** de weergave van elk bericht, **[!UICONTROL Delivered]** het percentage zal geleidelijk stijgen gedurende de gehele geldigheidsperiode van de levering , naarmate de zachte en harde schokken worden gemeld .
+**[!UICONTROL Summary]****[!UICONTROL Delivered]**
 
-Zachte berichten worden weergegeven als **[!UICONTROL Failed]** na de eerste dag van de levering, en zij zullen op elke volgende dag van de geldigheidsperiode voor de levering opnieuw worden beproefd.
+**[!UICONTROL Failed]**

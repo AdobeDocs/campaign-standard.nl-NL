@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: 97d1de796397f4f801d97790cec39a94734d2af7
-workflow-type: ht
-source-wordcount: '4571'
-ht-degree: 100%
+source-git-commit: 8f04bb9fa8b47b990f0cd6359ce6569d836a9b64
+workflow-type: tm+mt
+source-wordcount: '4587'
+ht-degree: 99%
 
 ---
 
@@ -110,6 +110,7 @@ De nieuwe functies, verbeteringen en oplossingen die in de laatste release van C
 * Gebruikers worden met een nieuw waarschuwingsbericht op de hoogte gebracht van een hoog bouncepercentage.
 * Verbeterde foutmeldingen en waarschuwingen in het logboekbestand om foutopsporing eenvoudiger te maken wanneer de trackinglogbestanden niet correct zijn opgehaald. (CAMP-48939, CAMP-47360)
 * U kunt URL&#39;s nu volledig aanpassen, inclusief de domeinnaam. [Meer informatie](../../designing/using/personalization.md#personalizing-urls)
+* Proof and trap profiles have now been excluded from delivery performance calculation in Dynamic Reports. (CAMP-47338)
 
 **Patches**
 
