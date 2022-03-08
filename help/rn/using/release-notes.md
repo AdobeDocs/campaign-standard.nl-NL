@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 95%
 * U kunt nu uw levering bewaken en taaklogboeken volgen met de nieuwe vervolgkeuzelijst **Taakgeschiedenis** van het dashboard van uw berichten. [Meer informatie](../../sending/using/monitoring-a-delivery.md) (CAMP-49840)
 * Verbeterde stabiliteit en gezondheid van de database door het verminderen van dode tupels, wanneer een groot aantal berichten in de loop van de tijd over alle kanalen wordt verzonden. (CAMP-49755, CAMP-49792, CAMP-49849)
 * Om ervoor te zorgen dat databaseverbindingen automatisch worden vernieuwd in het geval van een databasecrash of opnieuw opstarten, zijn er verbeteringen geïmplementeerd in Campaign Mail Transfer Agent (MTA). (CAMP-48063)
-* Een nieuwe optie voor bijhouden **Pixels bijhouden boven aan de e-mail gebruiken** is toegevoegd aan e-maileigenschappen waarmee u de volgende pixel boven aan het e-mailbericht in plaats van onderaan kunt plaatsen. (CAMP-49672)
+* Een nieuwe trackingoptie **Trackingpixel boven aan de e-mail gebruiken** is toegevoegd aan e-maileigenschappen, zodat u de trackingpixel boven aan de e-mail kunt verplaatsen in plaats van onderaan. (CAMP-49672)
 
 **Patches**
 
