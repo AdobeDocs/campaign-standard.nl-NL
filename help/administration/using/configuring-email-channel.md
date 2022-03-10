@@ -6,16 +6,16 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
+source-git-commit: 897ec46abace9debce45e7dc174e17074b29a0c2
 workflow-type: tm+mt
-source-wordcount: '2660'
-ht-degree: 74%
+source-wordcount: '2655'
+ht-degree: 62%
 
 ---
 
 # E-mailkanaal configureren{#configuring-email-channel}
 
-Als [Campaign-beheerder](../../administration/using/users-management.md#functional-administrators) kunt u e-mailkanaalinstellingen configureren. Deze geavanceerde instellingen omvatten de algemene parameters voor e-mailkanalen, accounts voor het routeren van e-mail, verwerkingsregels voor e-mail en e-maileigenschappen. Op deze pagina leert u hoe u de standaardwaarden voor de algemene e-mail- en verzendparameters kunt bewerken.
+Als [Campaign-beheerder](../../administration/using/users-management.md#functional-administrators) kunt u e-mailkanaalinstellingen configureren. Deze geavanceerde instellingen omvatten de algemene parameters voor e-mailkanalen, accounts voor het routeren van e-mail, verwerkingsregels voor e-mail en e-maileigenschappen. Leer op deze pagina hoe u de standaardwaarden voor de algemene e-mail en het verzenden van parameters kunt bewerken.
 
 ## Parameters voor e-mailkanaal {#email-channel-parameters}
 
@@ -28,7 +28,7 @@ In het configuratiescherm voor e-mail kunt u de parameters voor het e-mailkanaal
    In de sectie **[!UICONTROL Header parameters of sent emails]** worden de geautoriseerde e-mailadressen vermeld die u kunt gebruiken om e-mails naar uw ontvangers te verzenden (het adres van de afzender) en om hen in staat te stellen geautomatiseerde antwoorden zoals asynchrone onbezorgbare mails, out-of-office antwoorden, enz. terug te sturen. (foutadres).  Adobe Campaign controleert tijdens de voorbereiding van berichten of de ingevoerde adressen geldig zijn. Deze werkwijze zorgt ervoor dat geen adressen worden gebruikt die problemen kunnen veroorzaken.
    * Zowel het adres van de afzender als het foutadres worden door Adobe ingesteld. Deze velden mogen niet leeg zijn.
    * U kunt deze velden niet bewerken. Als u een adres wilt bijwerken, neemt u contact op met de Klantenservice van Adobe.
-   * Als u nog een adres wilt toevoegen, gebruikt u het [Configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl) om een nieuw subdomein in te stellen of neemt u contact op met de Klantenservice van Adobe. Als u meerdere maskers gebruikt, worden deze door komma&#39;s van elkaar gescheiden.
+   * Als u nog een adres wilt toevoegen, kunt u [Campagne](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl) om een nieuw subdomein in te stellen, of contact op te nemen met het Adobe Customer Care-team. Als u meerdere maskers gebruikt, worden deze door komma&#39;s van elkaar gescheiden.
    * Het is aan te raden adressen in te stellen met een ster zoals *@yourdomain.com: dan kunt u elk adres gebruiken dat eindigt met uw subdomeinnaam.
 
 * **Bezorging**
@@ -40,7 +40,7 @@ In het configuratiescherm voor e-mail kunt u de parameters voor het e-mailkanaal
 
    Adobe Campaign begint met het verzenden van de berichten op de startdatum.
 
-   In het veld **[!UICONTROL Message delivery duration]** kunt u het tijdkader voor hernieuwde pogingen opgeven voor berichten in de bezorging die op een tijdelijke fout stuiten of tijdelijk niet bezorgd kunnen worden.
+   Wanneer een bericht in een levering wegens een tijdelijke fout of een zachte stuit wordt verworpen, probeert de Campagne opnieuw om dit bericht elke dag te verzenden. Gebruik de **[!UICONTROL Message delivery duration]** kan het veld waarin de tijdlijn wordt opgegeven tijdens nieuwe pogingen worden weergegeven.
 
    >[!IMPORTANT]
    >
@@ -62,7 +62,7 @@ In het configuratiescherm voor e-mail kunt u de parameters voor het e-mailkanaal
 
    Voer in het veld **[!UICONTROL Time between two significant errors]** een waarde in om te definiëren hoe lang de toepassing wacht voordat de foutteller wordt verhoogd in het geval van een mail die tijdelijk niet kan worden bezorgd. De standaardwaarde is **1d**, voor 1 dag.
 
-   Wanneer de waarde bij **[!UICONTROL Maximum number of errors before quarantine]** is bereikt, wordt het e-mailadres in quarantaine geplaatst. De standaardwaarde is **5**: het adres wordt na de vijfde fout in quarantaine geplaatst. Dit betekent dat het contact automatisch van volgende bezorgingen wordt uitgesloten.
+   Wanneer de waarde bij **[!UICONTROL Maximum number of errors before quarantine]** is bereikt, wordt het e-mailadres in quarantaine geplaatst. De standaardwaarde is **&quot;5&quot;**: het adres is quarantined op de vijfde fout. Dit betekent dat het contact automatisch van volgende bezorgingen wordt uitgesloten.
    <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
    Zie [Werken met quarantainebeheer](../../sending/using/understanding-quarantine-management.md) voor meer informatie over quarantaines.
@@ -142,9 +142,9 @@ Identificeer de e-mail met behulp van de velden **[!UICONTROL Label]** en **[!UI
 >
 >De id moet uniek zijn.
 
-In het veld **[!UICONTROL Brand]** kunt u het merk selecteren dat aan de bezorging is gekoppeld. Raadpleeg de sectie [Branding](../../administration/using/branding.md) voor meer informatie over het gebruik en de configuratie van merken.
+Gebruik de **[!UICONTROL Brand]** het merk te selecteren dat aan de levering is gekoppeld. Raadpleeg de sectie [Branding](../../administration/using/branding.md) voor meer informatie over het gebruik en de configuratie van merken.
 
-In het veld **[!UICONTROL Campaign]** kunt u de campagne invoeren die aan de e-mail is gekoppeld.
+In de **[!UICONTROL Campaign]** voert u de campagne in die aan de e-mail is gekoppeld.
 
 U kunt ook een **[!UICONTROL Description]** toevoegen in het desbetreffende veld en de afbeelding bewerken die wordt weergegeven in de e-mailminiatuur in de lijsten.
 
@@ -177,7 +177,8 @@ U kunt de indeling van de te verzenden e-mails configureren. Er zijn drie opties
 
 #### SMTP-testmodus {#smtp-test-mode}
 
-Met de optie **[!UICONTROL Enable SMTP test mode]** kunt u het verzenden van e-mails via een SMTP-verbinding testen zonder dat u daadwerkelijk berichten verzendt.
+Gebruik de **[!UICONTROL Enable SMTP test mode]** optie om het verzenden van e-mails via een SMTP-verbinding te testen zonder daadwerkelijk berichten te verzenden.
+
 De berichten worden verwerkt tot de verbinding met de SMTP-server tot stand is gebracht, maar ze worden niet verzonden.
 
 ![](assets/smtp-test-mode.png)
@@ -205,36 +206,35 @@ De sectie **[!UICONTROL Validity period]** bevat de volgende parameters:
 
    ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**: Adobe Campaign begint met het verzenden van berichten op de startdatum. In dit veld kunt u opgeven gedurende welke tijdsduur de berichten kunnen worden verzonden.
+* **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**: Adobe Campaign begint met het verzenden van berichten op de startdatum. In dit veld kunt u opgeven gedurende welke periode de berichten kunnen worden verzonden.
 
    >[!IMPORTANT]
    >
    >**U kunt een waarde van maximaal 3,5 dagen definiëren.** Als u een waarde instelt die hoger is dan 3,5 dagen, wordt hiermee geen rekening gehouden.
+   >
+   >De parameter **[!UICONTROL Delivery duration]** is niet van toepassing op transactieberichten. Zie [deze sectie](../../channels/using/getting-started-with-transactional-msg.md)voor meer informatie over transactieberichten.
 
 * **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**: dit veld wordt gebruikt voor geüploade bronnen, voornamelijk voor de spiegelpagina en -afbeeldingen. De bronnen op deze pagina zijn gedurende een beperkte tijd geldig (om schijfruimte te besparen).
-* **[!UICONTROL Mirror page management]**: de spiegelpagina is een HTML-pagina die online via een webbrowser toegankelijk is. De content komt overeen met de content van de e-mail. Standaard wordt de spiegelpagina gegenereerd als de koppeling wordt ingevoegd in de e-mailcontent. In dit veld kunt u de manier wijzigen waarop deze pagina wordt gegenereerd:
-
-   >[!IMPORTANT]
-   >
-   >Er moet HTML-content zijn gedefinieerd voordat de spiegelpagina kan worden gemaakt.
+* **[!UICONTROL Mirror page management]**: de spiegelpagina is een HTML-pagina die online via een webbrowser toegankelijk is. De content komt overeen met de content van de e-mail. Standaard wordt de spiegelpagina gegenereerd als de koppeling wordt ingevoegd in de e-mailcontent. Met dit veld wijzigt u de manier waarop deze pagina wordt gegenereerd:
 
    * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** (standaardmodus): De spiegelpagina wordt geproduceerd als de koppeling in de e-mailcontent wordt geplaatst.
    * **Force the generation of the mirror page**: zelfs als geen koppeling naar de spiegelpagina in de berichten wordt opgenomen, wordt de spiegelpagina gemaakt.
    * **Do not generate the mirror page**: er wordt geen spiegelpagina gegenereerd, zelfs niet als de koppeling zich in de berichten bevindt.
    * **Generate a mirror page accessible using only the message ID**: met deze optie hebt u toegang tot de content van de spiegelpagina, met personalisatiegegevens, in het venster met het verzendingslog.
 
->[!NOTE]
->
->De parameter **[!UICONTROL Delivery duration]** is niet van toepassing op transactieberichten. Zie [deze sectie](../../channels/using/getting-started-with-transactional-msg.md)voor meer informatie over transactieberichten.
+   >[!IMPORTANT]
+   >
+   >De spiegelpagina wordt alleen gegenereerd als er voor de e-mail een HTML-inhoud is gedefinieerd.
+
 
 ### Parameters voor tracking {#tracking-parameters}
 
 De sectie **[!UICONTROL Tracking]** bevat de volgende parameters:
 
-* **[!UICONTROL Activate tracking]**: hiermee kunt u de tracking van bericht-URL&#39;s in- of uitschakelen. Als u de URL van elk bericht wilt traceren, gebruikt u het pictogram **[!UICONTROL Links]** in de actiebalk Email Designer. Zie [Informatie over getraceerde URL&#39;s](../../designing/using/links.md#about-tracked-urls).
-* **[!UICONTROL Tracking validity limit]**: hiermee kunt u definiëren hoe lang tracking geactiveerd blijft voor de URL&#39;s.
-* **[!UICONTROL Substitution URL for expired URLs]**: u kunt een URL invoeren naar een webpagina die wordt weergegeven wanneer tracking is verlopen.
-* **[!UICONTROL Use tracking pixel at the top of email]**: kunt u de volgende pixel bij de bovenkant van e-mail in plaats van bij de bodem bewegen. Deze pixel bevindt zich standaard onder aan uw e-mailberichten. Als u grote berichten verzendt, kunt u deze pixel boven aan uw e-mails in plaats van onder aan de e-mail verplaatsen om het bijhouden van de gegevens te verbeteren. Anders kan de pixel voor het bijhouden van de berichten door sommige e-mailproviders worden geknipt.
+* **[!UICONTROL Activate tracking]**: gebruik deze optie om bericht-URL&#39;s te activeren/deactiveren. Als u de URL van elk bericht wilt traceren, gebruikt u het pictogram **[!UICONTROL Links]** in de actiebalk Email Designer. Zie [Informatie over getraceerde URL&#39;s](../../designing/using/links.md#about-tracked-urls).
+* **[!UICONTROL Tracking validity limit]**: Gebruik deze optie om de duur te bepalen waarvoor het volgen op URLs zal worden geactiveerd.
+* **[!UICONTROL Substitution URL for expired URLs]**: Gebruik deze optie om een URL in te voeren naar een fallback-webpagina: wordt weergegeven nadat de reeksspatiëring is verlopen.
+* **[!UICONTROL Use tracking pixel at the top of email]**: Gebruik deze optie als u de pixel die het beeld bijhoudt boven aan het e-mailbericht in plaats van onder aan het bericht wilt plaatsen. Deze pixel bevindt zich standaard onder aan uw e-mailberichten. Als u grote berichten verzendt, kunt u deze pixel boven aan uw e-mails in plaats van onder aan de e-mail verplaatsen om het bijhouden van de gegevens te verbeteren. Anders kan de pixel voor het bijhouden van de berichten door sommige e-mailproviders worden geknipt.
 
 ### Geavanceerde parameters {#advanced-parameters}
 
@@ -250,7 +250,7 @@ Het invoegen en gebruiken van de personalisatiecontent wordt gedetailleerd besch
 
 #### Targetcontext {#target-context}
 
-De targetingcontext maakt het mogelijk om een reeks tabellen in te stellen die wordt gebruikt voor e-mailtargeting (in het scherm voor doelgroepdefinitie) en -personalisatie (definiëren van personalisatievelden in de HTML-contenteditor).
+Gebruik de het richten context om een reeks lijsten te bepalen die voor e-mail het richten (in het scherm van de publieksdefinitie) en verpersoonlijking zullen worden gebruikt (bepalend verpersoonlijkingsgebieden in de HTML inhoudsredacteur).
 
 #### Routering {#routing}
 
@@ -270,15 +270,15 @@ Het voorbereiden van berichten wordt uitgelegd in de sectie [Berichten goedkeure
    >
    >Typologieën zijn toegankelijk via het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** en worden in [deze sectie](../../sending/using/about-typology-rules.md) beschreven.
 
-* **[!UICONTROL Compute the label during delivery preparation]**: hiermee kunt u de labelwaarde van de e-mail berekenen tijdens de voorbereidingsfase met gebruik van personalisatievelden, contentblokken en dynamische tekst.
+* **[!UICONTROL Compute the label during delivery preparation]**: Gebruik deze optie om de labelwaarde van de e-mail tijdens de voorbereidingsfase van het bericht te berekenen aan de hand van verpersoonlijkingsvelden, inhoudsblokken en dynamische tekst.
 
    Het is ook mogelijk om het bezorgingslabel te personaliseren met gebeurtenisvariabelen die in de externe-signalenactiviteit van de workflow zijn gedeclareerd. Raadpleeg [deze sectie](../../automating/using/calling-a-workflow-with-external-parameters.md) voor meer informatie.
 
-* **[!UICONTROL Save SQL queries in the log]**: met deze optie kunt u tijdens de voorbereidingsfase SQL-querylogs toevoegen aan het rapport.
+* **[!UICONTROL Save SQL queries in the log]**: gebruik deze optie om SQL vraaglogboeken in het dagboek tijdens de voorbereidingsfase toe te voegen.
 
 #### Proefinstellingen {#proof-settings}
 
-In deze sectie kunt u het standaardvoorvoegsel configureren voor gebruik in de onderwerpregel van de proef. Raadpleeg [deze sectie](../../sending/using/sending-proofs.md) voor meer informatie.
+In deze sectie kunt u het standaardvoorvoegsel configureren voor gebruik op de onderwerpregel van de proefberichten. Meer informatie over proefdrukken in [deze sectie](../../sending/using/sending-proofs.md).
 
 ### Lijst met SMTP-parameters voor e-mails {#list-of-email-smtp-parameters}
 
@@ -296,7 +296,7 @@ De sectie **[!UICONTROL SMTP]** bevat de volgende parameters:
 
 De sectie **[!UICONTROL Access authorization]** bevat de volgende parameters:
 
-* In het veld **[!UICONTROL Organizational unit]** kunt u de toegang tot deze e-mail beperken tot bepaalde gebruikers. De gebruikers die zijn gekoppeld aan de opgegeven eenheid of bovenliggende eenheden hebben lees- en schrijftoegang tot deze e-mail. Gebruikers die zijn gekoppeld aan onderliggende eenheden hebben alleen leestoegang tot deze e-mail.
+* De **[!UICONTROL Organizational unit]** wordt gebruikt om toegang tot deze e-mail tot bepaalde gebruikers te beperken. De gebruikers die zijn gekoppeld aan de opgegeven eenheid of bovenliggende eenheden hebben lees- en schrijftoegang tot deze e-mail. Gebruikers die zijn gekoppeld aan onderliggende eenheden hebben alleen leestoegang tot deze e-mail.
 
    >[!NOTE]
    >
@@ -318,17 +318,17 @@ Door gebrek, zijn vijf herpogingen gepland voor de eerste dag met een minimumint
 
 ### Leveringsduur {#legacy-delivery-duration}
 
-De **[!UICONTROL Message delivery duration]** in de [Menu Configuratie](#email-channel-parameters) staat u toe om het tijdkader te specificeren waarin om het even welk bericht in de levering die een tijdelijke fout of zachte stuit ontmoet opnieuw zal worden geprobeerd.
+Gebruik de **[!UICONTROL Message delivery duration]** in de [Menu Configuratie](#email-channel-parameters) om het tijdkader te specificeren waarin om het even welk bericht in de levering die een tijdelijke fout of zachte stuit ontmoet opnieuw zal worden geprobeerd.
 
-De **[!UICONTROL Delivery duration]** of **[!UICONTROL Validity limit for sending messages]** in de [Geldigheidsperiode](#validity-period-parameters) kunt u opgeven gedurende welke periode de berichten kunnen worden verzonden.
+Gebruik de **[!UICONTROL Delivery duration]** of **[!UICONTROL Validity limit for sending messages]** in de [Geldigheidsperiode](#validity-period-parameters) om de duur aan te geven gedurende welke de berichten kunnen worden verzonden.
 
 ### Regels voor e-mailverwerking {#legacy-email-processing-rules}
 
-De **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** en **[!UICONTROL Domain management]** de regels kunnen door beheerders door middel van worden betreden en worden gewijzigd **[!UICONTROL Administration > Channels > Email > Email processing rules]** [menu](#email-processing-rules).
+De **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** en **[!UICONTROL Domain management]** de regels kunnen door beheerders door middel van worden betreden en worden gewijzigd **[!UICONTROL Administration > Channels > Email > Email processing rules]** -menu. [Meer informatie](#email-processing-rules).
 
 ### Kwalificatie van niet-bezorgde e-mails {#legacy-bounce-mail-qualification}
 
-Als u de verschillende grenzen en de bijbehorende fouttypen en redenen wilt weergeven, klikt u op de knop **Adobe** logo, in de linkerbovenhoek, selecteert u **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+Klik op de knop **Adobe** logo, in de linkerbovenhoek, selecteert u **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 Stuiterwaarden kunnen de volgende kwalificatiestatus hebben:
 
@@ -338,12 +338,12 @@ Stuiterwaarden kunnen de volgende kwalificatiestatus hebben:
 
 >[!NOTE]
 >
->In het geval van een stroomonderbreking van ISP, zullen de e-mails die door Campaign worden verzonden verkeerd als stegels worden gemerkt. U moet de stuiterkwalificatie bijwerken om dit te corrigeren. Ga voor meer informatie naar [deze pagina](../../administration/using/update-bounce-qualification.md).
+>In het geval van een stroomonderbreking van ISP, zullen de e-mails die door Campaign worden verzonden verkeerd als stegels worden gemerkt. U moet de stuiterkwalificatie bijwerken om dit te corrigeren. [Meer informatie](../../administration/using/update-bounce-qualification.md).
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
 ### Rapportage van geleverde indicatoren {#legacy-delivered-status-report}
 
-In de **[!UICONTROL Summary]** de weergave van elk bericht, **[!UICONTROL Delivered]** het percentage zal geleidelijk stijgen gedurende de gehele geldigheidsperiode van de levering , naarmate de zachte en harde schokken worden gemeld .
+In de **[!UICONTROL Summary]** de weergave van elk bericht, **[!UICONTROL Delivered]** het percentage stijgt geleidelijk gedurende de gehele geldigheidsperiode van de levering, naarmate de zachte en harde schokken worden gemeld.
 
-Zachte berichten worden weergegeven als **[!UICONTROL Failed]** na de eerste dag van de levering, en zij zullen op elke volgende dag van de geldigheidsperiode voor de levering opnieuw worden beproefd.
+Zachte-stuiterende berichten tonen zoals **[!UICONTROL Failed]** op de eerste dag na de levering. Deze berichten worden elke dag opnieuw geprobeerd, tot de geldigheidsperiode van de levering beëindigt.
