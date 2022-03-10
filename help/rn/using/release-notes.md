@@ -5,17 +5,17 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
-workflow-type: ht
-source-wordcount: '762'
-ht-degree: 100%
+source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 97%
 
 ---
 
 
 # Laatste release{#latest-release}
 
-![](assets/do-not-localize/cp-icon.png) **Release van januari voor nieuw configuratiescherm** met doorvoer en latentiebewaking. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl).
+![Deelvenster Beheer](assets/do-not-localize/cp-icon.png) **Nieuwe releases in het regelpaneel** met doorvoer, latentie en workflowbewaking. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl){target=&quot;_blank&quot;}.
 
 ## Release 22.1 - februari 2022 {#feb-2022}
 

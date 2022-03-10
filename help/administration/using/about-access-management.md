@@ -6,10 +6,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 85%
+source-wordcount: '237'
+ht-degree: 82%
 
 ---
 
@@ -28,11 +28,11 @@ Met Adobe Campaign kunt u de machtigingen definiëren en beheren die aan verschi
 
 Rollen, groepen en organisatorische eenheden kunnen worden beheerd door de functionele beheerder van het platform, onder het menu **[!UICONTROL Administration > Users & Security]**.
 
-![](assets/user_management_1.png)
+![Menu Gebruikersbeheer](assets/user_management_1.png)
 
-De gebruikers worden beheerd in de Admin Console (verwijs naar [Groepen en gebruikers beheren](../../administration/using/managing-groups-and-users.md) de [Documentatie Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html)).
+De gebruikers worden geleid in de Admin Console. Meer informatie in het dialoogvenster [Groepen en gebruikers beheren](../../administration/using/managing-groups-and-users.md) en in de [Documentatie Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html).
 
-![](assets/user_management_6.png)
+![Productprofielen openen](assets/user_management_6.png)
 
 >[!IMPORTANT]
 >
