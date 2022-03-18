@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 897ec46abace9debce45e7dc174e17074b29a0c2
+source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
 workflow-type: tm+mt
-source-wordcount: '2655'
-ht-degree: 62%
+source-wordcount: '2681'
+ht-degree: 60%
 
 ---
 
@@ -177,9 +177,7 @@ U kunt de indeling van de te verzenden e-mails configureren. Er zijn drie opties
 
 #### SMTP-testmodus {#smtp-test-mode}
 
-Gebruik de **[!UICONTROL Enable SMTP test mode]** optie om het verzenden van e-mails via een SMTP-verbinding te testen zonder daadwerkelijk berichten te verzenden.
-
-De berichten worden verwerkt tot de verbinding met de SMTP-server tot stand is gebracht, maar ze worden niet verzonden.
+Gebruik de **[!UICONTROL Enable SMTP test mode]** optie om het verzenden van e-mails via een SMTP-verbinding te testen zonder daadwerkelijk berichten te verzenden. De levering wordt verwerkt tot verbinding aan de server SMTP maar niet verzonden: voor elke ontvanger van de levering, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel van SMTP DATA.
 
 ![](assets/smtp-test-mode.png)
 
