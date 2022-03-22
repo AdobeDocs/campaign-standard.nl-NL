@@ -1,13 +1,13 @@
 ---
-title: Problemen oplossen
+title: API-probleemoplossing
 description: Meer informatie over algemene problemen met betrekking tot Campaign Standard API's
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---

@@ -1,12 +1,12 @@
 ---
-title: Pushtracking implementeren
+title: Lokale tracering implementeren
 description: Leer hoe u ervoor kunt zorgen dat de functie voor het bijhouden van pushmeldingen correct is geïmplementeerd op iOS en Android
 audience: channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Er zijn drie variabelen die moeten worden verzonden om trackinggegevens te verze
 
 ## Lokale imitatie bijhouden {#implement-local-impression-tracking}
 
-De Adobe Experience Platform Mobile SDK verzendt automatisch de impeilingsgebeurtenis voor zowel Android als iOS zonder extra configuratie.
+De Adobe Experience Platform Mobile SDK verzendt automatisch de impeilingsgebeurtenis voor zowel Android als iOS zonder aanvullende configuratie.
 
 ## Klikken bijhouden implementeren {#implementing-click-tracking}
 

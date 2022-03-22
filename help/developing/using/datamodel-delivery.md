@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: Levering gegevensmodel
 description: Meer informatie over het datamodel
 audience: developing
 content-type: reference
@@ -7,9 +7,9 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '688'
 ht-degree: 6%
 
 ---
@@ -240,13 +240,13 @@ ht-degree: 6%
                      <ul>
                         <li>Transactionele e-mail - e-mailbliksem - 60</li>
                         <li>Fax: 4</li>
-                        <li>Mobiel (SMS) - sms - 1</li>
+                        <li>Mobile (SMS) - sms - 1</li>
                         <li>E-mail terugsturen - emailVernieuwen - 30</li>
                         <li>Direct mail - papier - 3</li>
                         <li>Telefoon - telefoon - 2</li>
                         <li>Overige — overige — 120</li>
                         <li>Terugkerende SMS - smsRefresh - 31</li>
-                        <li>Mobiele toepassing - pushNotification - 40</li>
+                        <li>Mobile-toepassing - pushNotification - 40</li>
                         <li>Transactionele SMS - smsLightning - 61</li>
                         <li>E-mail - e-mail - 0</li>
                         <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
@@ -359,11 +359,11 @@ ht-degree: 6%
                   <td>
                      <ul>
                         <li>Fax: 4</li>
-                        <li>Mobiel (SMS) - sms - 1</li>
+                        <li>Mobile (SMS) - sms - 1</li>
                         <li>E-mail - e-mail - 0</li>
                         <li>Telefoon - telefoon - 2</li>
                         <li>Direct mail - papier - 3</li>
-                        <li>Mobiele toepassing - pushNotification - 40</li>
+                        <li>Mobile-toepassing - pushNotification - 40</li>
                         <li>Overige — overige — 120</li>
                         <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -490,15 +490,15 @@ ht-degree: 6%
                         <li>Mislukt - mislukt - 87</li>
                         <li>In uitvoering - gestart - 55</li>
                         <li>Doelgericht in behandeling - targetPrepPending - 11</li>
-                        <li>Aanpassing aangevraagd - messagePrepPending - 21</li>
+                        <li>Personalization in behandeling - messagePrepPending - 21</li>
                         <li>Gepauzeerd - gepauzeerd - 75</li>
                         <li>Bewerken - editie - 0</li>
                         <li>Voltooid - voltooid - 95</li>
                         <li>Telling bezig - targetSelection - 12</li>
                         <li>Bericht afgerond - messageReady - 25</li>
-                        <li>Personalisatie of telling mislukt - voorbereidingsfout - 37</li>
+                        <li>Personalization of count is mislukt - preparingError - 37</li>
                         <li>Gestopt - geannuleerd - 85</li>
-                        <li>Personalisatie in uitvoering - messagePreparation - 22</li>
+                        <li>Personalization in uitvoering - messagePreparation - 22</li>
                         <li>Klaar voor doel - targetReady - 15</li>
                         <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                         <li>Arbitrage in uitvoering - targetArbitrage - 13</li>
