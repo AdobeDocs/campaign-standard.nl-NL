@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 06ad2e13-922b-4f35-8726-007427125c63
-source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 7%
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->De [Privacy Core-service](https://adobe.io/apis/cloudplatform/gdpr.html) De integratie is de methode u voor alle toegang en schrappingsverzoeken zou moeten gebruiken. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>De [Privacy Core-service](https://developer.adobe.com/experience-platform-apis/references/privacy-service) De integratie is de methode u voor alle toegang en schrappingsverzoeken zou moeten gebruiken. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 De verzoeken van de privacy worden gecreeerd gebruikend **POST** verzoek.
 

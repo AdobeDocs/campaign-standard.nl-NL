@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4613'
 ht-degree: 8%
 
 ---
@@ -315,7 +315,7 @@ _Pushmeldingen_
   </tr> 
   <tr> 
    <td> Transactionele pushmeldingen<br /> </td> 
-   <td> Het mobiele toepassingskanaal is toegevoegd aan de mogelijkheden voor transactiemeldingen van Adobe Campaign. Er worden nu drie kanalen ondersteund voor transactieberichten: e-mail-, SMS- en pushberichten.<br /> Raadpleeg de <a href="../../channels/using/transactional-push-notifications.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Het Mobile-toepassingskanaal is toegevoegd aan de Adobe Campaign-mogelijkheden voor transactieberichten. Er worden nu drie kanalen ondersteund voor transactieberichten: e-mail-, SMS- en pushberichten.<br /> Raadpleeg de <a href="../../channels/using/transactional-push-notifications.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Pushmeldingen herstellen<br /> </td> 
@@ -327,7 +327,7 @@ _Pushmeldingen_
   </tr> 
   <tr> 
    <td> Dreamweaver-integratie live<br /> </td> 
-   <td> De integratie tussen Adobe Campaign en Dreamweaver is nu live. Het werkt nu met de officiële laatst vrijgegeven versie van Dreamweaver (17.0.2).<br /> Hiervoor is de installatie van de Adobe Campaign Integration-extensie vanaf hier vereist: <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> Raadpleeg deze voor meer informatie <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=nl">video</a>.<br /> </td> 
+   <td> De integratie tussen Adobe Campaign en Dreamweaver is nu live. Het werkt nu met de officiële laatst vrijgegeven versie van Dreamweaver (17.0.2).<br /> Hiervoor moet de extensie Adobe Campaign Integration worden geïnstalleerd. Raadpleeg deze voor meer informatie <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=nl">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -435,7 +435,7 @@ _Pushmeldingen_
   </tr> 
   <tr> 
    <td> Gegevens over punten van belangstelling<br /> </td> 
-   <td> Punten van interessegegevens integreren Adobe Campaign met Adobe Analytics for Mobile. Een merk kan gegevens verzamelen van mobiele locaties van gebruikers - <strong>Belangenpunten</strong> - wanneer gebruikers de app van het merk openen. Hierdoor kan het merk Adobe Campaign-workflows gebruiken om persoonlijke berichten te verzenden op basis van de locatie van de gebruiker. Dit kanaal gebruikt SDK van de Mobiele kerndienst.<br /> Voor deze functie is Analytics for Mobile vereist. Dit is een betaalde oplossing.<br /> Raadpleeg de <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> De gegevens van de punten van Interesse integreren Adobe Campaign met Adobe Analytics voor Mobile. Een merk kan gegevens verzamelen van mobiele locaties van gebruikers - <strong>Belangenpunten</strong> - wanneer gebruikers de app van het merk openen. Hierdoor kan het merk Adobe Campaign-workflows gebruiken om persoonlijke berichten te verzenden op basis van de locatie van de gebruiker. Dit kanaal maakt gebruik van de SDK van de Mobile Core-service.<br /> Voor deze functie is Analytics voor Mobile vereist. Dit is een betaalde oplossing.<br /> Raadpleeg de <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API's<br /> </td> 
