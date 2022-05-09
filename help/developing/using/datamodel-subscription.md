@@ -64,7 +64,7 @@ ht-degree: 6%
     </tr>
     <tr>
         <td>mobilePhone</td>
-        <td>Mobile-nummer</td>
+        <td>Mobiel nummer</td>
         <td>tekenreeks (32)</td>
         <td> </td>
     </tr>

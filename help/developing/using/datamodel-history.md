@@ -99,7 +99,7 @@ ht-degree: 1%
                </tr>
                <tr>
                   <td>land (landen)</td>
-                  <td>Land</td>
+                  <td>Country</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -271,13 +271,13 @@ ht-degree: 1%
                         <li>(GMT-03:00) Brasi - America_Sao_Paulo - America/Sao_Paulo</li>
                         <li>(GMT+06:00) Astana, Dhaka - Asia_Dhaka - Azië/Dhaka</li>
                         <li>(GMT+06:00) Novossibirsk - Asia_Novosibirsk - Azië/Novosibirsk</li>
-                        <li>(GMT+02:00) Windhoek - Afrika_Windhoek - Afrika/Windhoek</li>
+                        <li>(GMT+02:00) Windhoek - Africa_Windhoek - Africa/Windhoek</li>
                         <li>(GMT+04:00) Kaukasus, Erevan - Azië_Jerevan - Azië/Jerevan</li>
                         <li>(GMT-04:00) Manaus - America_Manaus - Amerika/Manaus</li>
                         <li>(GMT+03:30) Teheran - Azië_Teheran - Azië/Teheran</li>
                         <li>(GMT+12:00) Auckland, Wellington - Pacific_Auckland - Pacific/Auckland</li>
-                        <li>(GMT+02:00) Jeruzalem - Azië_Jeruzalem - Azië/Jeruzalem</li>
-                        <li>(GMT+03:00) Moskou, St. Petersburg, Volgograd - Europa_Moskou - Europa/Moskou</li>
+                        <li>(GMT+02:00) Jerusalem - Asia_Jerusalem - Asia/Jerusalem</li>
+                        <li>(GMT+03:00) Moscow, St. Petersburg, Volgograd - Europe_Moscow - Europe/Moscow</li>
                         <li>(GMT+09:30) Adelaïde - Australia_Adelaide - Australia/Adelaide</li>
                         <li>(GMT+10:00) Canberra, Melbourne, Sydney - Australia_Canberra - Australia/Canberra</li>
                         <li>(GMT+08:00) Perth - Australia_Perth - Australia/Perth</li>
@@ -330,7 +330,7 @@ ht-degree: 1%
                         <li>(GMT+08:00) Taipei - Azië_Taipei - Azië/Taipei</li>
                         <li>(GMT+06:30) Rangoon - Asia_Rangoon - Azië/Rangoon</li>
                         <li>(GMT+11:00) Magadan, de Salomonseilanden, Nieuw-Caledonië - Pacific_Guadalcanal - Pacific/Guadalcanal</li>
-                        <li>(GMT+02:00) Caïro - Afrika_Caïro - Afrika/Caïro</li>
+                        <li>(GMT+02:00) Cairo - Africa_Cairo - Africa/Cairo</li>
                         <li>(GMT+05:00) Iekaterinburg - Azië_Jekaterinburg - Azië/Jekaterinburg</li>
                         <li>(GMT+08:00) Irkoutsk - Azië_Irkutsk - Azië/Irkutsk</li>
                         <li>(GMT+10:00) Guam, Port Moresby - Pacific_Guam - Pacific/Guam</li>
@@ -340,7 +340,7 @@ ht-degree: 1%
                         <li>(GMT-04:00) La Paz - America_La_Paz - America/La_Paz</li>
                         <li>(GMT-06:00) Guadalajara, Mexico, Monterrey - America_Mexico_City - America/Mexico_City</li>
                         <li>(GMT+09:30) Darwin - Australia_Darwin - Australia/Darwin</li>
-                        <li>(GMT-05:00) Est (Verenigde Staten en Canada) - America_New_York - America/New_York</li>
+                        <li>(GMT-05:00) Est (United States and Canada) - America_New_York - America/New_York</li>
                         <li>(GMT-05:00) Greenwich Mean Time minus 5 uur - Gmt_m5 - EC/GMT+5</li>
                         <li>(GMT+05:00) Islamabad, Karachi, Tachkent - Asia_Karachi - Asia/Karachi</li>
                         <li>(GMT+03:00) Koweït, Riyad - Asia_Riyad - Asia/Riyad</li>

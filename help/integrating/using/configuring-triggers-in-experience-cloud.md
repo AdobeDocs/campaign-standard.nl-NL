@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 7%
+source-wordcount: '853'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ De functionaliteit moet in Adobe Campaign door Adobe worden geactiveerd. Neem co
 Het Adobe-team heeft de volgende informatie nodig om triggers te activeren:
 
 * Bedrijfsnaam Marketing Cloud
-* IMS-organisatie-ID
+* Organisatie-id
 * Login van de Analyse Bedrijf (kan het zelfde zijn als de Naam van het Bedrijf van de Marketing Cloud)
 
 ## Oplossingen en services configureren {#configuring-solutions-and-services}
@@ -57,7 +57,7 @@ U moet configureren [Experience Cloud DTM Core-service](#configuring-experience-
 
 ### Experience Cloud DTM Core-service configureren {#configuring-experience-cloud-dtm-core-service}
 
-1. Activeer in Experience Cloud DTM Core-service (Dynamic Tag Management) de Experience Cloud-id en Adobe Analytics voor uw websitepagina&#39;s.
+1. Activeer in Experience Cloud DTM Core Service (Dynamic Tag Management) de Experience Cloud-id en Adobe Analytics voor uw websitepagina&#39;s.
 
    ![](assets/trigger_uc_conf_1.png)
 
@@ -101,7 +101,7 @@ Zie de [Adobe Experience Cloud-documentatie](https://experienceleague.adobe.com/
 
 Hier volgt een lijst met beste praktijken en beperkingen voor het gebruik van de campagne - Triggers-integratie:
 
-* Als u meerdere instanties van Campaign Standard hebt, kunnen triggers door alle instanties worden ontvangen zolang ze zich in dezelfde IMS-organisatie-id bevinden. Analyses moeten ook op dezelfde IMS-organisatie-id staan.
+* Als u meerdere instanties van Campaign Standard hebt, kunnen triggers door alle instanties worden ontvangen zolang ze zich in dezelfde organisatie bevinden. Analyses moeten ook binnen dezelfde organisatie plaatsvinden.
 * U kunt geen trekker in de Dienst van de Kern van de Trigger tot stand brengen gebruikend gebeurtenissen van twee verschillende rapportreeksen.
 * Triggers zijn gebaseerd op transactieberichten. Transactieberichten worden gebruikt wanneer u een bericht zeer snel moet verzenden. U kunt geen transactiemeldingen in de wachtrij plaatsen en deze vervolgens in batch herhalen.
 * Triggers zijn niet deterministisch van aard. Wanneer een trigger wordt gegenereerd, verstuurt deze alle aliassen die aan het cookie zijn gekoppeld. In het geval van gedeelde browsers, zoals in winkelkiosken, bibliotheken, cybercafes of gedeelde apparaten thuis (echtgenoot en echtgenote die zich aanmelden vanaf hetzelfde apparaat), is het dus niet mogelijk om de juiste id toe te wijzen. Alle id&#39;s die worden gebruikt om u aan te melden bij de browser, worden verzonden naar Campagne die een bericht verzendt op basis van de eerste afstemming. Als er meerdere &#39;e-mail-id&#39;s&#39; zijn die in aanmerking komen voor afstemming, verzendt Campagne geen e-mail. Campagne kan niet weten wat de juiste e-mailadres is, tenzij deze wordt vastgelegd en verzonden door Analytics.

@@ -8,10 +8,10 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 9%
+source-wordcount: '704'
+ht-degree: 10%
 
 ---
 
@@ -37,7 +37,7 @@ Deze integratie moet eerst worden geconfigureerd. Als u inrichting van deze inte
   </tr> 
   <tr> 
    <td> <strong>IMS-organisatie-id</strong><br /> </td> 
-   <td> Uw IMS-organisatie-id. <br> U kunt uw IMS Organisatie-id op de Experience Cloud, in het menu van het Beleid vinden. Deze wordt ook geleverd wanneer u voor het eerst verbinding maakt met de Adobe Experience Cloud. </td> 
+   <td> Uw organisatie-id. <br> Raadpleeg voor meer informatie over uw organisatie-id <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=nl">deze pagina</a></td> 
   </tr> 
   <tr> 
    <td> <strong>Omgeving:</strong><br /> </td> 

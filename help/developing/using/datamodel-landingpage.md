@@ -25,7 +25,7 @@ ht-degree: 1%
          <th>Naam</th>
          <th>Label</th>
          <th>Type (lengte)</th>
-         <th>Opsommingswaarden</th>
+         <th>Enumeration values</th>
       </tr>
       <tr>
          <td>PKey</td>
@@ -70,7 +70,7 @@ ht-degree: 1%
          <td> </td>
       </tr>
       <tr>
-         <td>campagne (campagneBase)</td>
+         <td>campaign (campaignBase)</td>
          <td>Campaign</td>
          <td>link </td>
          <td> </td>
@@ -113,11 +113,11 @@ ht-degree: 1%
             <ul>
                <li>Grieks - el - el</li>
                <li>Engels - en - nl</li>
-               <li>Chinees - zh - zh</li>
+               <li>Chinese - zh - zh</li>
                <li>Frans (Frankrijk) - fr_FR - fr_FR</li>
                <li>Vietnamees - vi - vi</li>
                <li>Portugees (Portugal) - pt_PT - pt_PT</li>
-               <li>Italiaans (Italië) - it_IT - it_IT</li>
+               <li>Italian (Italy) - it_IT - it_IT</li>
                <li>Italiaans - it - it</li>
                <li>Nederlands (België) - nl_BE - nl_BE</li>
                <li>Noors (Noorwegen) - no_NO - no_NO</li>
@@ -145,7 +145,7 @@ ht-degree: 1%
                <li>Fins - fi - fi</li>
                <li>Hongaars - hu - hu</li>
                <li>Zweeds (Finland) - sv_FI - sv_FI</li>
-               <li>Japans - ja - ja</li>
+               <li>Japanese - ja - ja</li>
                <li>Hebreeuws - hij -</li>
                <li>Koreaans - ko - ko</li>
                <li>Zweeds - sv - sv</li>
@@ -186,9 +186,9 @@ ht-degree: 1%
                <li>Italiaans (Italië) - it_IT - it_IT</li>
                <li>Italiaans - it - it</li>
                <li>Nederlands (België) - nl_BE - nl_BE</li>
-               <li>Noors (Noorwegen) - no_NO - no_NO</li>
+               <li>Norwegian (Norway) - no_NO - no_NO</li>
                <li>Nederlands (Nederland) - nl_NL - nl_NL</li>
-               <li>Arabisch - ar - ar</li>
+               <li>Arabic - ar - ar</li>
                <li>Engels (Verenigde Staten) - en_US - en_US</li>
                <li>Iers - ga - ga</li>
                <li>Tsjechisch - cs - cs</li>

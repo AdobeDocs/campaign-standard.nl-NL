@@ -1,5 +1,5 @@
 ---
-title: DataModel-service
+title: DataModel Service
 description: Meer informatie over het datamodel
 audience: developing
 content-type: reference
@@ -23,7 +23,7 @@ ht-degree: 7%
                   <th>Naam</th>
                   <th>Label</th>
                   <th>Type (lengte)</th>
-                  <th>Opsommingswaarden</th>
+                  <th>Enumeration values</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -74,9 +74,9 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>geschiedenis</td>
-                  <td>Abonnementsgeschiedenis</td>
-                  <td>collectie </td>
+                  <td>history</td>
+                  <td>Subscription history</td>
+                  <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
@@ -105,7 +105,7 @@ ht-degree: 7%
                </tr>
                <tr>
                   <td>limitedDuration</td>
-                  <td>Beperkte duur</td>
+                  <td>Limited duration</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -190,7 +190,7 @@ ht-degree: 7%
                <tr>
                   <td>abonnementen</td>
                   <td>Lidmaatschappen</td>
-                  <td>collectie </td>
+                  <td>collection </td>
                   <td> </td>
                </tr>
                <tr>
@@ -237,7 +237,7 @@ ht-degree: 7%
                </tr>
                <tr>
                   <td>validityDuration</td>
-                  <td>Geldigheidsduur</td>
+                  <td>Validity duration</td>
                   <td>getal </td>
                   <td> </td>
                </tr>
@@ -275,7 +275,7 @@ Op kanaaltype (byChannel)
 </tr>
 </table>
 
-Op naam of label (doorText)
+By name or label (byText)
 
 <table>
 <tr>

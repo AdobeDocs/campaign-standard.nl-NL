@@ -14,7 +14,7 @@ ht-degree: 10%
 
 ---
 
-# Zaadlid (nms:seedMember)
+# Seed Member (nms:seedMember)
 
 ## Objectbeschrijving
 
@@ -23,7 +23,7 @@ ht-degree: 10%
                   <th>Naam</th>
                   <th>Label</th>
                   <th>Type (lengte)</th>
-                  <th>Opsommingswaarden</th>
+                  <th>Enumeration values</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -105,19 +105,19 @@ ht-degree: 10%
                </tr>
                <tr>
                   <td>mobileApp</td>
-                  <td>Mobile-toepassing</td>
+                  <td>Mobile application</td>
                   <td>item </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>mobilePhone</td>
                   <td>Mobiel</td>
-                  <td>tekenreeks (32)</td>
+                  <td>string (32)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
-                  <td>Gewijzigd door</td>
+                  <td>Modified by</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -194,14 +194,14 @@ ht-degree: 10%
                   <td> </td>
                </tr>
                <tr>
-                  <td>miniatuur</td>
+                  <td>thumbnail</td>
                   <td>Miniatuur</td>
                   <td>tekenreeks (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>title</td>
-                  <td>Testprofiel</td>
+                  <td>Test profile</td>
                   <td>tekenreeks (255)</td>
                   <td> </td>
                </tr>

@@ -39,7 +39,7 @@ Er zijn drie variabelen die moeten worden verzonden om trackinggegevens te verze
 
 ## Lokale imitatie bijhouden {#implement-local-impression-tracking}
 
-De Adobe Experience Platform Mobile SDK verzendt automatisch de impeilingsgebeurtenis voor zowel Android als iOS zonder aanvullende configuratie.
+De Adobe Experience Platform Mobile SDK verzendt automatisch de impeilingsgebeurtenis voor zowel Android als iOS zonder extra configuratie.
 
 ## Klikken bijhouden implementeren {#implementing-click-tracking}
 
