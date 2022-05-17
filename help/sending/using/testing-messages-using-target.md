@@ -9,9 +9,9 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d903c6b5e9eefd65f7494fc17fd754a97e44e49e
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1532'
 ht-degree: 4%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 4%
 
 Daarnaast [testprofielen](../../audiences/using/managing-test-profiles.md)kunt u een e-mailbericht testen door uzelf in de positie van een van de doelprofielen te plaatsen. Op deze manier kunt u een exacte weergave krijgen van het bericht dat het profiel ontvangt (aangepaste velden, dynamische en persoonlijke gegevens, inclusief aanvullende gegevens van workflows...).
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> Deze functie is alleen beschikbaar bij e-mailberichten.
+>Met deze functie kunt u persoonlijke profielgegevens naar externe e-mailadressen verzenden. Houd er rekening mee dat door het uitvoeren van privacyaanvragen (GDPR en CCPA) in Campaign Standard deze aanvraag NIET extern wordt uitgevoerd.
 
 De belangrijkste stappen zijn:
 
@@ -35,9 +35,9 @@ De belangrijkste stappen zijn:
 1. **Voorvertoning** in de E-mailontwerper hoe het bericht wordt weergegeven voor de profielen.
 1. Verzend de proefdrukken.
 
->[!IMPORTANT]
->
->Met deze functie kunt u persoonlijke profielgegevens naar externe e-mailadressen verzenden. Houd er rekening mee dat door het uitvoeren van privacyaanvragen (GDPR en CCPA) in Campaign Standard deze aanvraag NIET extern wordt uitgevoerd.
+   >[!IMPORTANT]
+   >
+   >Proefdrukken worden verwerkt door [!DNL Campaign Standard] als standaardleveringen. Als proefdrukken worden verzonden met behulp van profielvervanging, worden records toegevoegd aan de bezorgings- en trackinglogboeken van de geselecteerde profielen.
 
 ![](assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#video)
 
