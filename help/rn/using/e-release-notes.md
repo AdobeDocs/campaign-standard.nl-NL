@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: bdcbde7fbc460eb3a52e43af5c2050ea69f8d115
+source-git-commit: e2de69844275a9a97f609c7c76cce290c68d09ac
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '167'
+ht-degree: 31%
 
 ---
 
@@ -24,7 +24,7 @@ Op deze pagina worden nieuwe functies, verbeteringen en oplossingen beschreven d
 
 ## Release 22.2 - juni 2022 {#rn-2022}
 
-**Verbeteringen**
+**Verbetering**
 
 * **Adobe Notification Service** - De campagne komt met de Dienst van het Bericht van Adobe die de oplossingen van Experience Cloud toestaat om gebruikers over Experience Cloud op activiteiten te waarschuwen die voor hen belangrijk zijn om te weten. Vanaf versie 22.2 is de gebruikerservaring verbeterd: meldingen krijgen prioriteit en meldingen die door het product worden gegenereerd, worden gescheiden van de statusberichten van de Adobe. Wanneer de melding naar een specifieke workflow verwijst, kunt u de bijbehorende workflow bovendien rechtstreeks openen via de e-mail of het bericht in het product.  Voor meer informatie over Adobe Campaign-berichten raadpleegt u [Adobe Campaign-berichten](../../administration/using/sending-internal-notifications.md).
 
