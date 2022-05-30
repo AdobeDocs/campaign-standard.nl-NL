@@ -10,7 +10,7 @@ exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: e2de69844275a9a97f609c7c76cce290c68d09ac
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 31%
+ht-degree: 99%
 
 ---
 
@@ -26,10 +26,10 @@ Op deze pagina worden nieuwe functies, verbeteringen en oplossingen beschreven d
 
 **Verbetering**
 
-* **Adobe Notification Service** - De campagne komt met de Dienst van het Bericht van Adobe die de oplossingen van Experience Cloud toestaat om gebruikers over Experience Cloud op activiteiten te waarschuwen die voor hen belangrijk zijn om te weten. Vanaf versie 22.2 is de gebruikerservaring verbeterd: meldingen krijgen prioriteit en meldingen die door het product worden gegenereerd, worden gescheiden van de statusberichten van de Adobe. Wanneer de melding naar een specifieke workflow verwijst, kunt u de bijbehorende workflow bovendien rechtstreeks openen via de e-mail of het bericht in het product.  Voor meer informatie over Adobe Campaign-berichten raadpleegt u [Adobe Campaign-berichten](../../administration/using/sending-internal-notifications.md).
+* **Adobe Notification Service** - Campaign wordt geleverd met Adobe Notification Service waarmee Experience Cloud-oplossingen gebruikers in Experience Cloud kunnen waarschuwen voor activiteiten die belangrijk voor hen zijn om te weten. Vanaf versie 22.2 is de gebruikerservaring verbeterd: meldingen krijgen prioriteit en productgegenereerde meldingen zijn gescheiden van Adobe-statusaankondigingen. Wanneer de notificatie naar een specifieke workflow verwijst, kunt u de bijbehorende workflow nu bovendien rechtstreeks openen via de e-mail of het bericht in het product.  Voor meer informatie over Adobe Campaign-notificaties raadpleegt u [Adobe Campaign-notificaties](../../administration/using/sending-internal-notifications.md).
 
 
 **Beveiligingsupgrade**
 
-* Deze versie wordt geleverd met een upgrade-activiteit op het gebied van beveiliging om de kwetsbaarheid van Apache te beperken en uw instantieomgeving veiliger te maken. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/technotes/technote-migration/acc-apache-upgrade.html){target=&quot;_blank&quot;}.
+* Deze versie wordt geleverd met een beveiligingsupgradeactiviteit om de Apache-kwetsbaarheid te verminderen en uw instantieomgeving veiliger te maken. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-classic/using/technotes/technote-migration/acc-apache-upgrade.html?lang=nl){target=&quot;_blank&quot;}.
 
