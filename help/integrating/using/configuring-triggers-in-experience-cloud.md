@@ -8,7 +8,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
+source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 6%
@@ -87,7 +87,7 @@ De alias waarnaar eerder in DTM wordt verwezen, moet via een kenmerk van de klan
 
    >[!NOTE]
    >
-   >U kunt uw triggers afstemmen voor zowel anonieme als aangemelde gebruikers. Voor anonieme gebruikers moet het profiel bestaan in Adobe Campaign en is een e-mail verzonden naar de gebruiker eerder. Hiervoor is de configuratie van bezoekersidentiteitskaart voldoende. Nochtans, als u trekkers voor het programma geopende gebruikers wilt in overeenstemming brengen, moet u de Gedeclareerde Gegevensbron van identiteitskaart plaatsen. Raadpleeg voor meer informatie hierover [Configuratie gegevensbron](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >U kunt uw triggers afstemmen voor zowel anonieme als aangemelde gebruikers. Voor anonieme gebruikers moet het profiel bestaan in Adobe Campaign en is een e-mail verzonden naar de gebruiker eerder. Hiervoor is de configuratie van bezoekersidentiteitskaart voldoende. Nochtans, als u trekkers voor het programma geopende gebruikers wilt in overeenstemming brengen, moet u de Gedeclareerde Gegevensbron van identiteitskaart plaatsen. Raadpleeg voor meer informatie hierover [Configuratie gegevensbron](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
 ## Een trigger maken in de interface Experience Cloud {#creating-a-trigger-in-the-experience-cloud-interface}
 

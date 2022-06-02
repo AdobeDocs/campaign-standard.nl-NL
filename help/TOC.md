@@ -4,8 +4,8 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken. '
 title: 'Campaign Standard-handleiding '
 breadcrumb-title: Documentatie voor Adobe Campaign Standard
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: ht
+source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 100%
 
@@ -242,7 +242,7 @@ ht-degree: 100%
       + [Dimensies en metrische gegevens van Campaign in Analytics](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
    + Campaign en Audience Manager of de People core-service {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [Informatie over de integratie van Campaign-Audience Manager of de People core-service](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
-      + [De integratie met Audience Manager of de People core-service inrichten en configureren](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+      + [De integratie met Audience Manager of de People core-service inrichten en configureren](integrating/using/integration-with-audience-manager-or-people-core-service.md)
       + [Problemen oplossen](integrating/using/troubleshooting.md)
       + [Doelgroepen delen met Audience Manager of de People core-service](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Werken met Campaign en de Assets core-service](integrating/using/working-with-campaign-and-assets-core-service.md)
