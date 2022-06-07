@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 75bc042701ac29d2e525884dc929063147c1cdce
+source-git-commit: b00a0b9e4536d388ccfef3cca0315cabd0d99670
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 37%
+source-wordcount: '468'
+ht-degree: 30%
 
 ---
 
@@ -24,11 +24,18 @@ Op deze pagina worden nieuwe functies, verbeteringen en oplossingen beschreven d
 
 ## Release 22.2 - juni 2022 {#rn-2022}
 
-**Verbetering**
+**Verbeteringen**
 
 * **Adobe Notification Service** - Campaign wordt geleverd met Adobe Notification Service waarmee Experience Cloud-oplossingen gebruikers in Experience Cloud kunnen waarschuwen voor activiteiten die belangrijk voor hen zijn om te weten. Vanaf versie 22.2 is de gebruikerservaring verbeterd: meldingen krijgen prioriteit en productgegenereerde meldingen zijn gescheiden van Adobe-statusaankondigingen. Wanneer de notificatie naar een specifieke workflow verwijst, kunt u de bijbehorende workflow nu bovendien rechtstreeks openen via de e-mail of het bericht in het product.  Voor meer informatie over Adobe Campaign-notificaties raadpleegt u [Adobe Campaign-notificaties](../../administration/using/sending-internal-notifications.md).
 
 * **Optimalisatie bij opstarten van workflow** - Adobe heeft een nieuwe functie toegevoegd die het aantal werkstromen kan afstemmen die rond dezelfde tijd beginnen. Dit zou helpen cpu pieken verhinderen die tot de dienstonderbrekingen of onderbreking konden leiden. Adobe zou het na 22.2 versie toelaten. Er is geen verder actiepunt voor de klant met betrekking tot hetzelfde.
+
+* **Toegankelijkheid** - Adobe heeft vele toegankelijkheidsoplossingen aangebracht om het algemene gebruiksgemak van de toepassing te verbeteren. Deze eigenschappen worden momenteel toegelaten voor een reeks vroege adopters slechts, en zij zullen aan alle klanten in ACS 22.3 versie worden opgesteld. Voorbeelden van toegankelijkheidsverbeteringen zijn:
+
+   * Ervoor zorgen dat er op elk scherm een zichtbare focusindicator is voor de brandbare elementen
+   * Paginalandmarkeringen maken voor eenvoudigere navigatie
+   * De naam, rol, waarde en status voor veel besturingselementen toevoegen
+   * Problemen verhelpen die zijn opgetreden met de dynamische focusvolgorde op hoofdschermen
 
 **Beveiligingsupgrade**
 
