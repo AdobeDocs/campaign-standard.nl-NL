@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 18%
@@ -29,7 +29,7 @@ De mobiele toepassingen die pushmeldingen ontvangen, moeten door een beheerder i
 
 Door zowel Adobe Campaign als Adobe Mobile Services te configureren, kunt u de gegevens van uw mobiele toepassing gebruiken voor uw campagnes. Raadpleeg [deze pagina](../../administration/using/configuring-a-mobile-application.md) voor meer informatie.
 
-Als u pushberichten wilt verzenden met een Experience Cloud SDK-toepassing, moet een mobiele app worden ingesteld in Adobe Experience Platform Launch en worden geconfigureerd in Adobe Campaign. Raadpleeg [deze pagina](../../administration/using/configuring-a-mobile-application.md#channel-specific-config) voor meer informatie.
+Als u pushberichten wilt verzenden met een Experience Cloud SDK-toepassing, moet een mobiele toepassing worden ingesteld in de gebruikersinterface voor gegevensverzameling en worden geconfigureerd in Adobe Campaign. Raadpleeg [deze pagina](../../administration/using/configuring-a-mobile-application.md#channel-specific-config) voor meer informatie.
 
 ## Stap 2: Je pushmelding aanpassen in Adobe Campaign {#customize-push}
 

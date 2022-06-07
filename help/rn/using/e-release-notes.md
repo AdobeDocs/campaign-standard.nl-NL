@@ -7,7 +7,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: b00a0b9e4536d388ccfef3cca0315cabd0d99670
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 30%
@@ -40,6 +40,7 @@ Op deze pagina worden nieuwe functies, verbeteringen en oplossingen beschreven d
 **Beveiligingsupgrade**
 
 * Apache Tomcat is geüpgraded van versie 7 naar versie 8.5.
+
 
 **Patches**
 

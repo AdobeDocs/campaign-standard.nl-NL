@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 92%
+source-wordcount: '878'
+ht-degree: 82%
 
 ---
 
@@ -94,8 +94,10 @@ De activiteit **[!UICONTROL Segmentation]** wordt over het algemeen na targeting
 1. Voeg zoveel segmenten toe als nodig is door stap 6 tot en met 10 van deze procedure te herhalen.
 1. Bewerk indien nodig de parameters op het tabblad **[!UICONTROL Advanced options]**:
 
-   * Schakel de optie **[!UICONTROL Enable overlapping of outbound populations]** in als u wilt dat een lid van de binnenkomende populatie tot verscheidene segmenten tegelijk behoort. De uitgaande populatie van de activiteit kan groter zijn dan de binnenkomende populatie.
-   * Schakel de optie **[!UICONTROL Concatenate the code of each segment]** in als aan de binnenkomende populatie reeds een segmentcode is toegewezen die u wilt houden. De segmentcode die in de activiteit wordt opgegeven, wordt toegevoegd aan de oorspronkelijke segmentcode.
-   * Schakel de optie **[!UICONTROL Generate complement]** in als u de resterende populatie wilt benutten. Zie [Hoofdlettergebruik: Leveringen maken met een aanvulling](../../automating/using/workflow-created-query-with-complement.md).
+   * De **[!UICONTROL Enable overlapping of outbound populations]** Met deze optie bepaalt u hoe profielen die tot verschillende segmenten behoren, worden beheerd:
+      * Wanneer de optie niet is ingeschakeld, wordt **[!UICONTROL Segmentation]** Met activity wordt gecontroleerd dat een profiel niet aanwezig is in verschillende uitvoerovergangen, zelfs als dit profiel voldoet aan de criteria van verschillende subsets.
+      * Als de optie is ingeschakeld, kunnen de profielen in verschillende subsets worden gevonden als ze voldoen aan de filtercriteria.
+   * Als de binnenkomende bevolking reeds een segmentcode is toegewezen die u wilt houden, controleer **[!UICONTROL Concatenate the code of each segment]** optie. De segmentcode die in de activiteit wordt opgegeven, wordt toegevoegd aan de oorspronkelijke segmentcode.
+   * Als u de resterende populatie moet uitbuiten, controleert u de **[!UICONTROL Generate complement]** optie. Zie [Hoofdlettergebruik: Leveringen maken met een aanvulling](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Bevestig de configuratie van uw activiteit en sla de workflow op.

@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 In-app-berichten is een berichtenkanaal waarmee u een bericht kunt weergeven wanneer de gebruiker binnen de mobiele applicatie actief is. Dit berichttype is ter aanvulling van pushmeldingen die worden afgeleverd aan het meldingscentrum van de telefoon van gebruikers. Raadpleeg deze [sectie](../../channels/using/about-push-notifications.md)voor meer informatie over het pushmeldingenkanaal.
 
-Voor dit kanaal moeten mobiele applicaties en worden geïntegreerd met de Adobe Experience Platform SDK. Deze apps moeten worden geactiveerd in Adobe Experience Platform Launch voordat ze beschikbaar zijn in Adobe Campaign voor in-app-leveringen.
+Voor dit kanaal moeten mobiele applicaties en worden geïntegreerd met de Adobe Experience Platform SDK. Deze toepassingen moeten worden geactiveerd in de gebruikersinterface voor gegevensverzameling voordat ze beschikbaar zijn in Adobe Campaign voor In-App-leveringen.
 
 ![](assets/launch_campaign.png)
 
@@ -27,7 +27,7 @@ Als u in-app-berichten wilt verzenden op mobiele toepassingen met behulp van de 
 
 1. Zorg ervoor dat u in Adobe Campaign toegang hebt tot het kanaal **[!UICONTROL In-App]**. Neem contact op met uw accountteam als u geen toegang hebt tot deze kanalen.
 
-1. Als u mobiele gebruiksscenario’s in Adobe Campaign Standard wilt gebruiken met een Experience Cloud SDK-applicatie, moet u een mobiele app maken in Adobe Experience Platform Launch en deze configureren in Adobe Campaign Standard. Raadpleeg deze [pagina](../../administration/using/configuring-a-mobile-application.md) voor de stapsgewijze handleiding.
+1. Als u gebruik wilt maken van gevallen voor mobiel gebruik in Adobe Campaign Standard met een Experience Cloud SDK-toepassing, moet u een mobiele app maken in de gebruikersinterface voor gegevensverzameling en configureren in Adobe Campaign Standard. Raadpleeg deze [pagina](../../administration/using/configuring-a-mobile-application.md) voor de stapsgewijze handleiding.
 
 1. Zodra de configuratie is voltooid, kunt u uw in-app-bericht voorbereiden. Raadpleeg [deze pagina](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message) voor meer informatie.
 

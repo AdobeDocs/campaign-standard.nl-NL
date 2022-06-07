@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Mobiele gebruiksscenario’s die worden ondersteund in Adobe Campaign Standard {#mobile-use-cases}
 
-Op deze pagina vindt u de lijst met alle gevallen voor mobiel gebruik die worden ondersteund in [!DNL Adobe Campaign Standard] met de [!DNL Adobe Experience Platform SDKs]. Let op: als u deze gebruiksgevallen ondersteunt, moet u de [!DNL Adobe Experience Platform SDKs], [!DNL Adobe Experience Platform Launch], en [!DNL Adobe Campaign Standard]. Raadpleeg voor meer informatie hierover [page](../../administration/using/configuring-a-mobile-application.md).
+Op deze pagina vindt u de lijst met alle gevallen voor mobiel gebruik die worden ondersteund in [!DNL Adobe Campaign Standard] met de [!DNL Adobe Experience Platform SDKs]. Let op: als u deze gebruiksgevallen ondersteunt, moet u de [!DNL Adobe Experience Platform SDKs], [!DNL tags in Adobe Experience Platform], en [!DNL Adobe Campaign Standard]. Raadpleeg voor meer informatie hierover [page](../../administration/using/configuring-a-mobile-application.md).
 
 Adobe Campaign Standard ondersteunt de volgende gebruiksgevallen:
 
@@ -27,9 +27,9 @@ Adobe Campaign Standard ondersteunt de volgende gebruiksgevallen:
 * [Een aangepaste gebeurtenis implementeren in uw mobiele app om In-App-berichten te activeren](../../administration/using/supported-mobile-use-cases.md#custom-event-inapp)
 * [Koppelingsvelden instellen voor extra verificatie voor de profielsjabloon die is gebaseerd op In-App-berichten](../../administration/using/supported-mobile-use-cases.md#linkage-fields-inapp)
 
-Om deze gebruiksgevallen te vormen, hebt u de volgende uitbreidingen van nodig [!DNL Experience Platform Launch]:
+Voor het configureren van deze gebruiksgevallen hebt u de volgende extensies nodig:
 
-* **[!DNL Adobe Campaign Standard]** <br>Als u de extensie Campaign Standard wilt installeren en configureren, raadpleegt u [De extensie Campaign Standard configureren in Experience Platform Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
+* **[!DNL Adobe Campaign Standard]** <br>Als u de extensie Campaign Standard wilt installeren en configureren, raadpleegt u [De extensie Campaign Standard configureren in de gebruikersinterface voor gegevensverzameling](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
 * **[!DNL Mobile Core]**, die automatisch wordt geïnstalleerd. <br>Voor meer informatie over de Mobile Core-extensie raadpleegt u [Mobiele kern](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core).
 * **[!DNL Profile]**, die automatisch wordt geïnstalleerd. <br>Zie voor meer informatie over de profielextensie [Profiel](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/profile).
 

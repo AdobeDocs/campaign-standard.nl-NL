@@ -8,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '717'
 ht-degree: 3%
 
 ---
@@ -115,14 +115,14 @@ De **[!UICONTROL Share]** kunt u rapporten verzenden met Adobe Campaign-gebruike
 
       ![](assets/tab_share_4.png)
 
-   1. Selecteer de ontvangers voor uw e-mail door op het veld te klikken en deze te selecteren in de vervolgkeuzelijst of door hun e-mailadres te typen.
+   1. Selecteer de ontvangers in de keuzelijst. U kunt geen gebruikers buiten uw organisatie selecteren.
    1. Controleren **[!UICONTROL Show scheduling options]** als u terugkerende e-mails wilt verzenden. Dit kan ook worden gedaan door **[!UICONTROL Send Report on schedule]** in de **[!UICONTROL Share]** tab.
    1. Klik op **[!UICONTROL Send now]**. De ontvangers ontvangen dan een e-mail met het bijbehorende rapport.
 
 * **[!UICONTROL Send report on schedule]**: Plan uw rapport en verzend terugkerende e-mails naar uw ontvangers.
 
    1. In de **[!UICONTROL Send report]** voegt u zo nodig een beschrijving toe.
-   1. Selecteer de ontvangers voor uw e-mail door op het veld te klikken en deze te selecteren in de vervolgkeuzelijst of door hun e-mailadres te typen.
+   1. Selecteer de ontvangers in de keuzelijst. U kunt geen gebruikers buiten uw organisatie selecteren.
 
       ![](assets/tab_share_5.png)
 

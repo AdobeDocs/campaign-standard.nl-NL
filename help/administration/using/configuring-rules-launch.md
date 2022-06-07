@@ -1,6 +1,6 @@
 ---
-title: Adobe Experience Platform Launch-regels configureren ter ondersteuning van Adobe Campaign Standard-gebruiksgevallen
-description: Leer hoe u Adobe Experience Platform Launch-regels configureert ter ondersteuning van Adobe Campaign Standard-gebruiksgevallen
+title: Tagregels configureren ter ondersteuning van Adobe Campaign Standard-gebruiksproblemen
+description: Leer hoe u tagregels configureert ter ondersteuning van Adobe Campaign Standard-gebruiksgevallen
 audience: channels
 content-type: reference
 topic-tags: push-notifications
@@ -9,20 +9,20 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 1%
+source-wordcount: '998'
+ht-degree: 0%
 
 ---
 
-# Launch-regels configureren voor ondersteuning van Adobe Campaign Standard-gebruiksscenario’s {#configuring-rules-launch}
+# Tagregels configureren ter ondersteuning van Adobe Campaign Standard-gebruiksproblemen {#configuring-rules-launch}
 
-In [!DNL Adobe Experience Platform Launch], gegevenselementen en regels maken om PII en andere gegevens van mobiele toepassingen naar [!DNL Adobe Campaign Standard].
+In de UI van de Inzameling van Gegevens, creeer gegevenselementen en regels om PII en andere gegevens van mobiele toepassingen naar te verzenden [!DNL Adobe Campaign Standard].
 
-Om ervoor te zorgen dat alle configuratie in [!DNL Adobe Experience Platform Launch] Deze wijzigingen worden van kracht. Zie voor meer informatie [Publiceren](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
+Om ervoor te zorgen dat alle configuratieveranderingen in UI van de Inzameling van Gegevens van kracht worden, moet u deze veranderingen publiceren. Zie voor meer informatie [Publiceren](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
 
-Om regels te maken in [!DNL Experience Platform Launch]Voer de volgende stappen uit:
+Ga als volgt te werk om regels te maken in de gebruikersinterface voor gegevensverzameling:
 
 1. [Gegevenselementen maken](../../administration/using/configuring-rules-launch.md#create-data-elements)
 2. [Regels maken](../../administration/using/configuring-rules-launch.md#create-data-elements) voor gebruiksgevallen die u wilt ondersteunen:
@@ -33,7 +33,7 @@ Om regels te maken in [!DNL Experience Platform Launch]Voer de volgende stappen 
 
 ## Gegevenselementen maken {#create-data-elements}
 
-Hier zijn de gegevenselementen die u aanbeveelt [!DNL Experience Platform Launch].
+Hier zijn de gegevenselementen wij adviseren dat u in de UI van de Inzameling van Gegevens creeert.
 U kunt naar wens aanvullende gegevenselementen maken.
 
 * **[!UICONTROL Experience Cloud ID]**
@@ -42,7 +42,7 @@ U kunt naar wens aanvullende gegevenselementen maken.
 
 U kunt als volgt deze gegevenselementen maken:
 
-1. In [!DNL Experience Platform Launch]klikt u op het dashboard voor mobiele toepassingen op **[!UICONTROL Data Elements]** tab.
+1. Klik in de gebruikersinterface voor gegevensverzameling op het dashboard voor mobiele toepassingen op de knop **[!UICONTROL Data Elements]** tab.
 
 1. Als u de opdracht **[!UICONTROL Experience Cloud ID]** gegevenselement, klik **[!UICONTROL Create New Data Element]**.
 
@@ -79,9 +79,9 @@ U moet regels maken voor het volgende:
 >
 >Als u PII-gegevens van een mobiele app naar Adobe Campaign wilt verzenden, moet u een SDK-API implementeren. Ga voor meer informatie naar [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
 
-PII-gegevens verzenden naar [!DNL Adobe Campaign Standard], maakt u een regel in [!DNL Experience Platform Launch]:
+PII-gegevens verzenden naar [!DNL Adobe Campaign Standard], maakt u een regel in de gebruikersinterface voor gegevensverzameling:
 
-1. In [!DNL Experience Platform Launch]klikt u op het dashboard voor mobiele toepassingen op **[!UICONTROL Rules]** dan op **[!UICONTROL Create New Rule]**.
+1. Klik in de gebruikersinterface voor gegevensverzameling op het dashboard voor mobiele toepassingen op de knop **[!UICONTROL Rules]** dan op **[!UICONTROL Create New Rule]**.
 
 1. Typ bijvoorbeeld een naam, **Mobile Core - Collect PII**.
 
@@ -135,7 +135,7 @@ PII-gegevens verzenden naar [!DNL Adobe Campaign Standard], maakt u een regel in
    }
    ```
 
-   De gegevenselementen die worden gedefinieerd in [!DNL Experience Platform Launch] moet worden ingesloten in dubbele percentages, bijvoorbeeld %%mcid%%, en contextvariabelen van de app moeten worden ingesloten in enkele percentages, bijvoorbeeld %contextdata.email%.
+   De gegevenselementen die in UI van de Inzameling van Gegevens worden bepaald zouden in dubbele percentages, bijvoorbeeld moeten worden ingesloten `%%mcid%%`en contextvariabelen van de app moeten worden opgenomen in enkele percentages, bijvoorbeeld %contextdata.email%.
 
 1. In **[!UICONTROL Content Type]**, type **application/json**.
 
@@ -151,9 +151,9 @@ Uw gebruikersgegevens zijn nu geconfigureerd om naar Campagne te worden verzonde
 >
 >Als u Android ACPCore v1.4.0 of later/ iOS ACPCore v2.3.0 of later gebruikt, is het niet nodig om trackingpostbacks te configureren.
 
-Trackinggegevens verzenden naar [!DNL Adobe Campaign Standard] voor het rapporteren over de interactie van uw gebruikers met InApp-berichten in uw mobiele toepassing, maakt u de volgende regel in [!DNL Experience Platform Launch]:
+Trackinggegevens verzenden naar [!DNL Adobe Campaign Standard] voor het melden van hoe uw gebruikers met In-App berichten in uw mobiele toepassing interactie aangaan, creeer de volgende regel in de UI van de Inzameling van Gegevens:
 
-1. In [!DNL Experience Platform Launch]Selecteer in het dashboard voor mobiele toepassingen de optie **[!UICONTROL Rules]** en klik op **[!UICONTROL Add Rule]**.
+1. Selecteer in de gebruikersinterface voor gegevensverzameling op het dashboard voor mobiele toepassingen de optie **[!UICONTROL Rules]** en klik op **[!UICONTROL Add Rule]**.
 
 1. Typ bijvoorbeeld een naam, **Adobe Campaign - In-app klikken op bijhouden**.
 
@@ -189,13 +189,13 @@ Trackinggegevens verzenden naar [!DNL Adobe Campaign Standard] voor het rapporte
 >
 >Als u Android ACPCore v1.4.0 of later/ iOS ACPCore v2.3.0 of later gebruikt, is het niet nodig om trackingpostbacks te configureren.
 
-Trackinggegevens verzenden naar [!DNL Adobe Campaign Standard], die helpt bij het bijhouden van uw pushberichten en de interactie van uw gebruikers met uw mobiele toepassing, moet u een regel maken in [!DNL Experience Platform Launch].
+Trackinggegevens verzenden naar [!DNL Adobe Campaign Standard], die u helpt bij het bijhouden van uw pushberichten en de interactie van uw gebruikers met uw mobiele toepassing, moet u een regel maken in de gebruikersinterface voor gegevensverzameling.
 
 Voor meer informatie over het bijhouden van push-berichten raadpleegt u [Push Tracking](../../administration/using/push-tracking.md).
 
 Gebruik de trackAction-API om de handelingen van de app bij te houden. Zie voor meer informatie [Toepassingsacties bijhouden](https://app.gitbook.com/@aep-sdks/s/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
 
-1. In [!DNL Experience Platform Launch]klikt u op het dashboard voor mobiele toepassingen op **[!UICONTROL Rules]** en klik op **[!UICONTROL Add Rule]**.
+1. Klik in de gebruikersinterface voor gegevensverzameling op het dashboard voor mobiele toepassingen op de knop **[!UICONTROL Rules]** en klik op **[!UICONTROL Add Rule]**.
 
 1. Typ bijvoorbeeld een naam, **Adobe Campaign - bijhouden van klikken met push**.
 
@@ -225,7 +225,7 @@ Gebruik de trackAction-API om de handelingen van de app bij te houden. Zie voor 
 
 ### Locatie na terugzetten {#location-postback}
 
-1. In [!DNL Experience Platform Launch]klikt u op het dashboard voor mobiele toepassingen op **[!UICONTROL Rules]** en klik op **[!UICONTROL Add Rule]**.
+1. Klik in de gebruikersinterface voor gegevensverzameling op het dashboard voor mobiele toepassingen op de knop **[!UICONTROL Rules]** en klik op **[!UICONTROL Add Rule]**.
 
 1. Typ bijvoorbeeld een naam, **Locatie na terugzetten**.
 
@@ -264,7 +264,7 @@ Gebruik de trackAction-API om de handelingen van de app bij te houden. Zie voor 
 
    >[!NOTE]
    >
-   >In het bovenstaande voorbeeld moeten de gegevenselementen aan de rechterkant worden geconfigureerd in [!DNL Experience Platform Launch] door de stappen in [Gegevenselementen maken](../../administration/using/configuring-rules-launch.md#create-data-elements). De gegevenselementen aan de linkerkant worden ondersteund in [!DNL Adobe Campaign Standard] en hebt geen configuratie nodig. Als u aanvullende gegevens nodig hebt, moet u de uitbreidingen van aangepaste bronnen uitvoeren in [!DNL Adobe Campaign Standard].
+   >In het bovenstaande voorbeeld moeten de gegevenselementen aan de rechterkant worden geconfigureerd in de interface voor gegevensverzameling door de stappen in [Gegevenselementen maken](../../administration/using/configuring-rules-launch.md#create-data-elements). De gegevenselementen aan de linkerkant worden ondersteund in [!DNL Adobe Campaign Standard] en hebt geen configuratie nodig. Als u aanvullende gegevens nodig hebt, moet u de uitbreidingen van aangepaste bronnen uitvoeren in [!DNL Adobe Campaign Standard].
 
 1. In **[!UICONTROL Content Type]**, type **application/json**.
 

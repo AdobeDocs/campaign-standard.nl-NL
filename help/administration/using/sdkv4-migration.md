@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1193'
 ht-degree: 1%
 
 ---
@@ -43,7 +43,7 @@ Nadat u de SDK-versie van Adobe van v4 naar Adobe Experience Platform hebt bijge
 |:-:|
 | De mobiele toepassing is beschikbaar in **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]**. Voor de migratie was deze beschikbaar in **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK V4)]**. |
 | De **[!UICONTROL Collect PII Endpoint]** van de toepassing wordt gewijzigd. De map **[!UICONTROL Collect PII Endpoint]** blijven werken. De verzonden gegevens gaan niet verloren. |
-| De toepassing wordt gekoppeld aan een Adobe Experience Platform Launch **[!UICONTROL Mobile Property]**. Het wordt verwerkt als een nieuwe mobiele toepassing. |
+| De toepassing wordt gekoppeld aan een tag **[!UICONTROL Mobile Property]**. Het wordt verwerkt als een nieuwe mobiele toepassing. |
 | De oorspronkelijke Adobe Experience Platform SDK-toepassing die in de migratie wordt gebruikt, bestaat niet als een aparte toepassing. Alleen de v4-toepassing voor gemigreerde SDK is beschikbaar. |
 
 ## Uw mobiele toepassing migreren van SDK v4 naar Adobe Experience Platform SDK {#how-to-migrate}
@@ -53,9 +53,9 @@ Voordat u gaat migreren, moet u rekening houden met de volgende aanbevelingen:
 * Het migratieproces is onomkeerbaar.
 * U moet migratie van meerdere toepassingen niet tegelijkertijd uitvoeren. Zorg er ook voor dat de migratie van een zelfde toepassing niet tezelfdertijd door meerdere vensters wordt geactiveerd.
 * Controleer vóór de migratie of u de opdracht **[!UICONTROL Organizational unit]** van de mobiele toepassing die u wilt migreren en van de Adobe Experience Platform-toepassing die u gebruikt voor migratie.
-* Na de migratie wordt de toepassing een Adobe Experience Platform SDK-toepassing. De wijzigingen van het programma worden gekoppeld aan de bijbehorende start **[!UICONTROL Mobile Property]**.
+* Na de migratie wordt de toepassing een Adobe Experience Platform SDK-toepassing. De wijzigingen worden gekoppeld aan de bijbehorende tag **[!UICONTROL Mobile Property]**.
 
-1. Een nieuwe **[!UICONTROL Mobile property]** in de Adobe Experience Platform Launch. Raadpleeg voor meer informatie hierover [Adobe Experience Platform Launch-documentatie](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
+1. Een nieuwe **[!UICONTROL Mobile property]** in de UI voor gegevensverzameling. Raadpleeg voor meer informatie hierover de [documentatie](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
 
 1. Selecteer in Adobe Campaign Standard in het menu Geavanceerd de optie **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** en opent u de **[!UICONTROL syncWithLaunch]** workflow. Controleer of de workflow zonder fout is beëindigd.
 
@@ -88,7 +88,7 @@ Voordat u gaat migreren, moet u rekening houden met de volgende aanbevelingen:
 Na deze migratie zijn abonnees die zijn verzameld door de V4-versie van de mobiele toepassing en nieuwe abonnees die zijn verzameld door de AEP-versie van de mobiele toepassing, beschikbaar in de gemigreerde toepassing.
 
 Als u de twee verschillende typen abonnees wilt onderscheiden, kunt u een nieuw aangepast veld toevoegen met **[!UICONTROL Text]** type wanneer het uitbreiden van het douanemiddel **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** als `sdkversion` of `appVersion` bijvoorbeeld. Voor meer informatie over hoe te om een douanemiddel uit te breiden, verwijs naar dit [page](../../developing/using/creating-or-extending-the-resource.md).
-U zult dan de bijbehorende Lancering moeten vormen **[!UICONTROL Mobile property]** om deze aangepaste veldwaarde te verzenden in de oproep PII verzamelen en de configuratie van uw mobiele toepassing dienovereenkomstig te wijzigen.
+U zult dan de bijbehorende markering moeten vormen **[!UICONTROL Mobile property]** om deze aangepaste veldwaarde te verzenden in de oproep PII verzamelen en de configuratie van uw mobiele toepassing dienovereenkomstig te wijzigen.
 
 ## Veelgestelde vragen {#faq}
 
@@ -106,7 +106,7 @@ A: Alleen in aanmerking komende toepassing van uw **[!UICONTROL Organizational u
 
 ### V: Waarom kan de toepassing van SDK van Adobe Experience Platform met de Gevormde Status van het Bezit niet voor migratie worden gebruikt? {#property-status}
 
-A: Tijdens het migratieproces blijven de SDK v4-abonnees en -kenmerken behouden. Deze houdt alleen de informatie over Starten bij van de Adobe Experience Platform SDK-toepassing. Abonnees en andere gegevens uit de Adobe Experience Platform SDK-toepassing gaan verloren. Om gegevensverlies te voorkomen, gebruiken alleen Adobe Experience Platform SDK-toepassingen met de **[!UICONTROL Ready to Configure]** **[!UICONTROL Property Status]** in aanmerking komen voor migratie.
+A: Tijdens het migratieproces blijven de SDK v4-abonnees en -kenmerken behouden. Deze houdt alleen de taggerelateerde informatie van de Adobe Experience Platform SDK-toepassing bij. Abonnees en andere gegevens uit de Adobe Experience Platform SDK-toepassing gaan verloren. Om gegevensverlies te voorkomen, gebruiken alleen Adobe Experience Platform SDK-toepassingen met de **[!UICONTROL Ready to Configure]** **[!UICONTROL Property Status]** in aanmerking komen voor migratie.
 
 ### V: Waar kan ik na de migratie mijn vorige SDK v4 mobiele toepassing vinden? {#v4-app-not-visible}
 

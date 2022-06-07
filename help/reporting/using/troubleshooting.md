@@ -8,10 +8,10 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 5%
+source-wordcount: '790'
+ht-degree: 4%
 
 ---
 
@@ -181,3 +181,12 @@ De waarde **N.v.t.** kan soms in uw dynamische rapporten verschijnen. Dit kan om
 
    ![](assets/troubleshooting_4.png)
 
+## De rapporten van leveringen tonen onvolledige gegevens wanneer het gebruiken van de afbeelding van het douaneDoel
+
+Als u de ingevoerde afbeeldingen van het douaneDoel in leveringen gebruikt en geen gegevens in de verschillende rapporten worden getoond, zou dit kunnen betekenen dat de verbeteringen van de Rapportering niet voor die afbeeldingen van het Doel werden gecreeerd.
+
+U lost dit als volgt op:
+
+* Na het invoeren van uw afbeelding van het Doel van XML, zult u ook de Verrijking van de Rapportering moeten invoeren.
+
+* In plaats van uw afbeelding van het Doel in te voeren, kunt u het direct in Adobe Campaign Standard tot stand brengen die automatisch tot de Verrijking van de Rapportering zal leiden.

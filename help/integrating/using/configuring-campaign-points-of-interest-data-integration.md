@@ -8,9 +8,9 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1327'
 ht-degree: 2%
 
 ---
@@ -27,11 +27,11 @@ De mobiele toepassingen die worden gebruikt om locatiegegevens te verzamelen moe
 
 Om Adobe Experience Platform Location Services met mobiele toepassingen te kunnen gebruiken die met SDK van Adobe Experience Platform worden gevormd, moet u:
 
-1. Voeg de **[!UICONTROL Places]** en **[!UICONTROL Places Monitor]** extensies voor uw mobiele toepassingsconfiguratie in Adobe Experience Platform Launch. Stel uw mobiele toepassing in Adobe Campaign in. Zie [De extensie Plaatsen installeren in Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) en [De extensie Plaatsen in Experience Platform Launch installeren](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
+1. Voeg de **[!UICONTROL Places]** en **[!UICONTROL Places Monitor]** extensies naar uw mobiele toepassingsconfiguratie in de gebruikersinterface voor gegevensverzameling. Stel uw mobiele toepassing in Adobe Campaign in. Zie [De extensie Plaatsen installeren](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) en [De extensie Places Monitor installeren](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
 
-1. Als uw extensies zijn ingesteld, maakt u gegevenselementen in **[!UICONTROL Adobe Experience Platform Launch]** om gegevens van deze extensies op te halen. Zie dit [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) om uw gegevenselementen te maken.
+1. Als uw extensies zijn ingesteld, maakt u gegevenselementen in de gebruikersinterface voor gegevensverzameling om gegevens van deze extensies op te halen. Zie dit [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) om uw gegevenselementen te maken.
 
-1. Dan, binnen **[!UICONTROL Adobe Experience Platform Launch]**, moet u regels maken voor het ondersteunen van gevallen van mobiel gebruik tussen Point of Interesses en Adobe Campaign.\
+1. Dan, in de Inzameling van Gegevens UI, moet u regels tot stand brengen om mobiele gebruiksgevallen tussen Punt van Belangen en Adobe Campaign te steunen.\
    Deze regel wordt geactiveerd wanneer een gebruiker een geo-fenced invoert **[!UICONTROL Point of Interest]**. Zie dit [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) om uw regel te maken.
 
 1. Definieer uw **[!UICONTROL Points of Interest]** op plaatsen. Zie [Een interessepunt maken](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html).
@@ -188,7 +188,6 @@ U definieert de interessepunten die worden gebruikt om locatiegegevens te verzam
 Een specifieke douanemiddel laat u toe om de gegevens te bepalen die u van de abonnees van uw toepassingen wilt verzamelen.
 
 Deze stap wordt beschreven in het dialoogvenster [Een mobiele toepassing configureren met SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) pagina.
-
 
 ## Toegang verkrijgen tot mobiele apps die worden gebruikt om locatiegegevens te verzamelen {#accessing-mobile-apps-used-to-collect-location-data}
 
