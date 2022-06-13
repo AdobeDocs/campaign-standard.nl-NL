@@ -5,9 +5,9 @@ user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken,
 title: 'Campaign Standard-handleiding '
 breadcrumb-title: Documentatie voor Adobe Campaign Standard
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1810'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -452,9 +452,9 @@ ht-degree: 99%
       + [Afbeeldingen en video’s toevoegen in iOS](administration/using/image-push-notification.md)
       + [De payloadstructuur voor pushmeldingen begrijpen](administration/using/push-payload.md)
       + [Lokale notificatietracking implementeren](administration/using/local-tracking.md)
-      + [Tags in veelgestelde vragen over Adobe Experience Platform-synchronisatie](administration/using/syncwithlaunch-faq.md)
+      + [Tags in Adobe Experience Platform - veelgestelde vragen over synchronisatie](administration/using/syncwithlaunch-faq.md)
       + [Veelgestelde vragen over de integratie van Experience Platform SDK](administration/using/aep-faq.md)
-      + [Tagregels configureren ter ondersteuning van Adobe Campaign Standard-gebruiksproblemen](administration/using/configuring-rules-launch.md)
+      + [Tagregels configureren om Adobe Campaign Standard-gebruiksscenario&#39;s te ondersteunen](administration/using/configuring-rules-launch.md)
       + [Mobiele gebruiksscenario’s die worden ondersteund in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
       + [Uw mobiele applicatie migreren van SDK v4 naar Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
    + Een sms-kanaal configureren {#configuring-sms}
