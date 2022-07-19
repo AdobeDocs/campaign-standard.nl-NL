@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: d1714101-bad0-40c1-8d60-90469d033197
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 146dfea38bd456a5d9200b0632d4aa279b10a7b9
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 2%
@@ -35,7 +35,7 @@ U kunt een koppeling invoegen in elk pagina-element: afbeelding, woord, groep wo
 
    * **Externe koppeling**: voegt een koppeling naar een externe URL in.
 
-      U kunt personalisatie voor uw URLs bepalen. Zie [URL&#39;s aanpassen](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
+      U kunt personalisatie voor uw URLs bepalen. Zie [URL&#39;s aanpassen](personalization.md#personalizing-urls).
 
    * **Openingspagina**: toegang geven tot een Adobe Campaign-landingspagina.
    * **Koppeling naar abonnement**: voeg een koppeling in om u te abonneren op een Adobe Campaign-service.
