@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: e74ce4aea097e5078aabf83f424e855db72b04a1
+source-git-commit: 471c0e66f1742346798f61ed8e8912695e9c95b6
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 21%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,25 +25,26 @@ Op deze pagina vindt u een beschrijving van de verbeteringen en correcties die z
 
 ## Release 22.3 - september 2022 {#e-rn-2022}
 
-**Verbeteringen**
-
-**Toegankelijkheid**
-
-Campaign Standard 2.2.3 wordt geleverd met toegankelijkheidsoplossingen en -verbeteringen die gebruikers helpen om te navigeren en optimaal te profiteren van Adobe Campaign.
-
-Deze mogelijkheden worden vrijgegeven in Beperkte Beschikbaarheid en slechts uitgevoerd aan een reeks klanten. Neem contact op met uw Adobe als u deze verbeteringen wilt inschakelen in uw Campagneomgeving(en).
-
 <!--
+### Improvement{#e-rn-improvements}
+
+**Accessibility**
+
+Campaign Standard 22.3 comes with accessibility fixes and improvements which facilitate users to navigate and get the most out of Adobe Campaign.
+
+These capabilities are released in Limited Availability and rolled out to a set of customers only. To have these improvements enabled on your Campaign environment(s), contact your Adobe representative.
+
+
 * **Data retention**
 
     Data retention periods have been reduced to avoid overloading Campaign server. However, you can still modify these values and define a custom period of time based on your needs and data retention policies. To change retention periods, contact Adobe.
 -->
 
-**Beveiligingsupdate**
+### Beveiligingsupdate{#e-rn-security}
 
 Deze release wordt geleverd met de volgende beveiligingsupgrade: Apache Tomcat is geüpgraded van v7.0 naar v8.0.
 
-**Oplossingen**
+### Oplossingen{#e-rn-fixes}
 
 * Probleem verholpen met geplande rapporten, die een uur voor de geplande timing werden geactiveerd. (CAMP-51502)
 * Probleem verholpen met betrekking tot de leveringsindicatoren in het leveringsdashboard die niet overeenkwamen met het verzenden van logboeken (nms:wideLogRcp). (CAMP-51127)
