@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 8b049f7decc95d3959feb0193bf51287422ddaec
+source-git-commit: ab4abe7221c88f2c92e765ba2d158b6fb9c2075f
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '418'
 ht-degree: 99%
 
 ---
@@ -29,7 +29,7 @@ Alle releasedatums kunnen worden gewijzigd: bezoek deze pagina regelmatig om te 
 
 Omgevingsupdates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. De exacte datums worden per e-mail naar elke klant verzonden.
 
-Gedetailleerde informatie over deze release is beschikbaar in de Vroege aanvullende informatie op de datum van de upgrade van de stagingomgeving.
+Gedetailleerde informatie over deze release is te vinden in de [Vroege aanvullende informatie](e-release-notes.md).
 
 <table>
  <thead>

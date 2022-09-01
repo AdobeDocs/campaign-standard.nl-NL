@@ -1,14 +1,12 @@
 ---
 title: Aanvullende informatie 2019
 description: Deze pagina bevat een overzicht van alle releases van Adobe Campaign Standard in 2019.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '7588'
 ht-degree: 8%
@@ -36,7 +34,7 @@ ht-degree: 8%
    <ul>
     <li>Recht op toegang en recht op verwijdering: We benutten de capaciteiten die voor GDPR zijn toegevoegd. <a href="https://helpx.adobe.com/content/help/nl/campaign/kb/acs-privacy.html#righttoaccess">Meer informatie</a> </li>
     <li><p>Bij het maken van een privacyverzoek is het regulatietype (GDPR of CCPA) toegevoegd aan de Privacy Core Service. Dit is de enige methode die u moet gebruiken voor alle verzoeken voor toegang en verwijderen. Het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken is verouderd. Zie het artikel <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">Vervangen en verwijderde functies</a>.</p></li>
-    <li>A <strong>CCPA opt-out</strong> Er is een veld toegevoegd aan de profielbron zodat Adobe Campaign-gebruikers kunnen controleren of een consument heeft gekozen voor de verkoop van persoonlijke gegevens. <a href="https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ccpa">Meer info</a>.</li>
+    <li>A <strong>CCPA opt-out</strong> Er is een veld toegevoegd aan de profielbron zodat Adobe Campaign-gebruikers kunnen controleren of een consument heeft gekozen voor de verkoop van persoonlijke gegevens. <a href="https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ccpa">Meer informatie</a>.</li>
   </ul>
     <p>Bekijk ook de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">Hoe kan ik-video</a>.</p>
 </td> 

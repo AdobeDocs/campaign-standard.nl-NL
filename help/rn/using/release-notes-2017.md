@@ -1,14 +1,12 @@
 ---
 title: Aanvullende informatie 2017
 description: Deze pagina bevat een overzicht van alle releases van Adobe Campaign Standard in 2017.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '4613'
 ht-degree: 8%
@@ -435,7 +433,7 @@ _Pushmeldingen_
   </tr> 
   <tr> 
    <td> Gegevens over punten van belangstelling<br /> </td> 
-   <td> De gegevens van de punten van Interesse integreren Adobe Campaign met Adobe Analytics voor Mobile. Een merk kan gegevens verzamelen van mobiele locaties van gebruikers - <strong>Belangenpunten</strong> - wanneer gebruikers de app van het merk openen. Hierdoor kan het merk Adobe Campaign-workflows gebruiken om persoonlijke berichten te verzenden op basis van de locatie van de gebruiker. Dit kanaal gebruikt SDK van de Mobiele kerndienst.<br /> Voor deze functie is Analytics voor Mobile vereist. Dit is een betaalde oplossing.<br /> Raadpleeg de <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Punten van interessegegevens integreren Adobe Campaign met Adobe Analytics for Mobile. Een merk kan gegevens verzamelen van mobiele locaties van gebruikers - <strong>Belangenpunten</strong> - wanneer gebruikers de app van het merk openen. Hierdoor kan het merk Adobe Campaign-workflows gebruiken om persoonlijke berichten te verzenden op basis van de locatie van de gebruiker. Dit kanaal gebruikt SDK van de Mobiele kerndienst.<br /> Voor deze functie is Analytics for Mobile vereist. Dit is een betaalde oplossing.<br /> Raadpleeg de <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API's<br /> </td> 

@@ -1,14 +1,12 @@
 ---
 title: Aanvullende informatie 2018
 description: Deze pagina bevat een overzicht van alle releases van Adobe Campaign Standard in 2018.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '5401'
 ht-degree: 6%
@@ -138,7 +136,7 @@ De nieuwste [documentatie-updates](../../rn/using/documentation-updates.md) voor
 **Patches**
 
 * Probleem verholpen met het byEmail queryfilter waarbij geen resultaten werden geretourneerd. (CAMP-23420)
-* Probleem verholpen waarbij een standaardgebruiker toegang kreeg tot bepaalde functies of schermen die beperkt waren tot beheerders (/rest/hoofd/* eindpunten, transactionele berichtschermen, profielen en doelgroepen voor het importeren van schermen).
+* Probleem verholpen waarbij een standaardgebruiker toegang kreeg tot bepaalde functies of schermen die beperkt waren tot beheerders (/rest/kop/&#42; eindpunten, transactiemeldschermen, profielen en doelgroepen (importschermen).
 * Oplossing voor een probleem dat ervoor zorgde dat aanvragen voor GDPR-privacy niet konden worden verwerkt met aangepaste bronnen als hun naam met een nummer was begonnen.
 * Correctie van een fout die ervoor zorgde dat de activiteit van het Publiek van het Opslaan van toepassingsabonnees in Adobe Experience Cloud kon delen.
 * Probleem verholpen met de bestandsoverdrachtactiviteit die kon optreden wanneer de bestandsnaam lege spaties bevatte. (CAMP-25936)
