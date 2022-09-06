@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
-workflow-type: ht
-source-wordcount: '441'
-ht-degree: 100%
+source-git-commit: 93f1a6cb0727859f3c3f645366a9d2dc25795a79
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 20%
 
 ---
 
@@ -18,30 +18,30 @@ ht-degree: 100%
 ![Configuratiescherm](assets/do-not-localize/cp-icon.png) **Nieuwe release van het configuratiescherm**. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl){target=&quot;_blank&quot;}.
 
 
-## Release 22.2 - juni 2022 {#june-2022}
+## Release 22.3 - herfst/winter 2022 {#sept-22}
 
-**Verbeteringen**
+### Verbetering{#rn-improvements}
 
-* **Adobe Notification Service** - Campaign wordt geleverd met Adobe Notification Service waarmee Experience Cloud-oplossingen gebruikers in Experience Cloud kunnen waarschuwen voor activiteiten die belangrijk voor hen zijn om te weten. Vanaf versie 22.2 is de gebruikerservaring verbeterd: meldingen krijgen prioriteit en productgegenereerde meldingen zijn gescheiden van Adobe-statusaankondigingen. Wanneer de notificatie naar een specifieke workflow verwijst, kunt u de bijbehorende workflow nu bovendien rechtstreeks openen via de e-mail of het bericht in het product.  Voor meer informatie over Adobe Campaign-notificaties raadpleegt u [Adobe Campaign-notificaties](../../administration/using/sending-internal-notifications.md).
+**Toegankelijkheid**
 
-* **Optimalisatie bij het opstarten van workflows** - Adobe heeft een nieuwe mogelijkheid toegevoegd waarmee het aantal workflows dat rond dezelfde tijd begint, kan worden aangepast. Dit zou CPU-pieken helpen voorkomen die tot serviceonderbrekingen of downtime hadden kunnen leiden. Adobe zou dit inschakelen na de release van 22.2. Er is geen verder actiepunt over de klant met betrekking tot hetzelfde.
+Campaign Standard 2.2.3 wordt geleverd met toegankelijkheidsoplossingen en -verbeteringen die gebruikers helpen om te navigeren en optimaal te profiteren van Adobe Campaign.
 
-* **Toegankelijkheid** - Adobe heeft veel toegankelijkheidsoplossingen gemaakt om het algemene gebruiksgemak van de applicatie te verbeteren. Deze functies zijn momenteel alleen ingeschakeld voor een aantal early adopters en ze zullen in de ACS 22.3-release naar alle klanten worden uitgerold. Voorbeelden van toegankelijkheidsverbeteringen zijn:
+Deze mogelijkheden worden vrijgegeven in Beperkte Beschikbaarheid en slechts uitgevoerd aan een reeks klanten. Neem contact op met uw Adobe als u deze verbeteringen wilt inschakelen in uw Campagneomgeving(en).
 
-   * Ervoor zorgen dat er een zichtbare focusindicator is voor focusbare elementen op elk scherm
-   * Paginaoriëntatiepunten maken voor eenvoudigere navigatie
-   * De naam, rol, waarde en status toevoegen voor veel besturingselementen
-   * Problemen met dynamische focusvolgorde op hoofdschermen corrigeren
+<!--
+* **Data retention**
 
+    Data retention periods have been reduced to avoid overloading Campaign server. However, you can still modify these values and define a custom period of time based on your needs and data retention policies. To change retention periods, contact Adobe.
+-->
 
-**Patches**
+### Beveiligingsupdate{#rn-security}
 
-* Er is een probleem opgelost met de technische workflow voor facturering vanwege een dubbele-sleutelfout. (CAMP-51029)
-* De ontbrekende Microsoft Edge-browsercategorie is toegevoegd aan trackingrapporten. Ze waren eerder gecategoriseerd met Microsoft Chrome geopend. (CAMP-51165)
-* Er is een probleem opgelost met AVG-verzoeken waarbij geen gegevens uit onderliggende tabellen werden verwijderd. (CAMP-48276)
-* Er is een probleem opgelost in de e-mailontwerper waardoor de zichtbaarheidsvoorwaarde van een fragment niet werd opgeslagen in een sjabloon voor transactiebericht. (CAMP-50338)
-* Er is een probleem opgelost in Campaign-rapporten waardoor geen rekening werd gehouden met het datumbereik. (CAMP-50991)
-* Er is een fout verholpen waardoor geplande e-mails mislukten: de bezorgingsanalyse kon niet starten omdat de bezorging nog steeds de status &#39;Opnieuw in behandeling&#39; had. (CAMP-50302)
-* Er is een probleem opgelost in de e-mailontwerper bij het bekijken van een voorbeeld van een e-mail met een profielvervanging. (CAMP-49312)
-* Er is een probleem opgelost met lege waarde in aangepaste opsommingen: bij het maken van een aangepaste bron met een veld dat een tekstopsomming is en slechts één waarde bevat, wordt deze waarde nu standaard ingesteld, zodat u een query op dit veld kunt maken als een eenvoudig verzoek. (CAMP-50606)
+Deze release wordt geleverd met de volgende beveiligingsupgrade: Apache Tomcat is geüpgraded van v7.0 naar v8.0.
+
+### Oplossingen{#e-rn-fixes}
+
+* Probleem verholpen met geplande rapporten, die een uur voor de geplande timing werden geactiveerd. (CAMP-51502)
+* Probleem verholpen met betrekking tot de leveringsindicatoren in het leveringsdashboard die niet overeenkwamen met het verzenden van logboeken (nms:wideLogRcp). (CAMP-51127)
+* Probleem verholpen waarbij uitbreiding van aangepaste bronnen met ACS-connector (prime-aanbieding) werd voorkomen. (CAMP-51033)
+* Verbeterde publicatieprocedure voor reacties op privacyverzoeken om vertraging te voorkomen. (CAMP-50613)
 

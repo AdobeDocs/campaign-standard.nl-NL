@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 3f9adbf4e8c9066b1954a1443654d82ee7b53fea
+source-git-commit: 93f1a6cb0727859f3c3f645366a9d2dc25795a79
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 20%
+source-wordcount: '183'
+ht-degree: 19%
 
 ---
 
@@ -23,8 +23,7 @@ Op deze pagina vindt u een beschrijving van de verbeteringen en correcties die z
 >
 > Deze content kan zonder voorafgaande kennisgeving worden gewijzigd tot de upgradedatum van de werkgebiedomgevingen. Meer informatie vindt u op de [releaseplanningspagina](../../rn/using/release-planning.md).
 
-## Release 22.3 - september 2022 {#e-rn-2022}
-
+## Release 22.3 - herfst/winter 2022 {#e-rn-2022}
 
 ### Verbetering{#e-rn-improvements}
 

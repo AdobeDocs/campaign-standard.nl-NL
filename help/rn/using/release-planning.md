@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: ab4abe7221c88f2c92e765ba2d158b6fb9c2075f
+source-git-commit: 17baeabf1e01c58fe0ecbb03f9d4b45831fbaaf7
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 99%
+source-wordcount: '421'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Upgrades worden in twee fasen geïmplementeerd. Eerst worden Stage-instanties bi
 
 Alle releasedatums kunnen worden gewijzigd: bezoek deze pagina regelmatig om te controleren op updates.
 
-## Release 22.3 - release van september 2022 {#release-22-3-release}
+## Release 22.3 - Release 2022 herfst/winter {#release-22-3-release}
 
 Omgevingsupdates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. De exacte datums worden per e-mail naar elke klant verzonden.
 
@@ -34,18 +34,18 @@ Gedetailleerde informatie over deze release is te vinden in de [Vroege aanvullen
 <table>
  <thead>
   <tr>
-   <th> Omgeving<br /> </th>
+   <th> Omgevingen<br /> </th>
    <th> Datums<br /> </th>
   </tr>
  </thead>
  <tbody>
   <tr>
    <td>Stage<br /> </td>
-   <td>6-7 september 2022<br /> </td>
+   <td>8 september 2022 - begin 2023<br /> </td>
   </tr>
   <tr>
    <td>Productie<br /> </td>
-   <td>13-29 sep. 2022<br /> </td>
+   <td>15 september 2022 - begin 2023<br /> </td>
   </tr>
  </tbody>
 </table>
