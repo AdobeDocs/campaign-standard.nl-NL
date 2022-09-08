@@ -4,16 +4,43 @@ description: Deze pagina bevat een overzicht van alle releases van Adobe Campaig
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
+source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1098'
+ht-degree: 97%
 
 ---
 
 # Aanvullende informatie 2022{#release-notes-2022}
 
-[Releaseplanning](../../rn/using/release-planning.md) | [Releases van het configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl) | [Documentatie-updates](../../rn/using/documentation-updates.md) | [Eerdere aanvullende informatie](../../rn/using/release-notes-2020.md) | [Afgeschafte functies](../../rn/using/deprecated-features.md)
+## Release 22.2 - juni 2022 {#june-2022}
+
+**Verbeteringen**
+
+* **Adobe Notification Service** - Campaign wordt geleverd met Adobe Notification Service waarmee Experience Cloud-oplossingen gebruikers in Experience Cloud kunnen waarschuwen voor activiteiten die belangrijk voor hen zijn om te weten. Vanaf versie 22.2 is de gebruikerservaring verbeterd: meldingen krijgen prioriteit en productgegenereerde meldingen zijn gescheiden van Adobe-statusaankondigingen. Wanneer de notificatie naar een specifieke workflow verwijst, kunt u de bijbehorende workflow nu bovendien rechtstreeks openen via de e-mail of het bericht in het product.  Voor meer informatie over Adobe Campaign-notificaties raadpleegt u [Adobe Campaign-notificaties](../../administration/using/sending-internal-notifications.md).
+
+<!--
+* **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
+-->
+
+* **Toegankelijkheid** - Adobe heeft veel toegankelijkheidsoplossingen gemaakt om het algemene gebruiksgemak van de applicatie te verbeteren. Deze eigenschappen worden momenteel toegelaten voor een reeks vroege adopters slechts, en zij zullen aan alle klanten in toekomstige versies worden opgesteld. Voorbeelden van toegankelijkheidsverbeteringen zijn:
+
+   * Ervoor zorgen dat er een zichtbare focusindicator is voor focusbare elementen op elk scherm
+   * Paginaoriëntatiepunten maken voor eenvoudigere navigatie
+   * De naam, rol, waarde en status toevoegen voor veel besturingselementen
+   * Problemen met dynamische focusvolgorde op hoofdschermen corrigeren
+
+
+**Patches**
+
+* Er is een probleem opgelost met de technische workflow voor facturering vanwege een dubbele-sleutelfout. (CAMP-51029)
+* De ontbrekende Microsoft Edge-browsercategorie is toegevoegd aan trackingrapporten. Ze waren eerder gecategoriseerd met Microsoft Chrome geopend. (CAMP-51165)
+* Er is een probleem opgelost met AVG-verzoeken waarbij geen gegevens uit onderliggende tabellen werden verwijderd. (CAMP-48276)
+* Er is een probleem opgelost in de e-mailontwerper waardoor de zichtbaarheidsvoorwaarde van een fragment niet werd opgeslagen in een sjabloon voor transactiebericht. (CAMP-50338)
+* Er is een probleem opgelost in Campaign-rapporten waardoor geen rekening werd gehouden met het datumbereik. (CAMP-50991)
+* Er is een fout verholpen waardoor geplande e-mails mislukten: de bezorgingsanalyse kon niet starten omdat de bezorging nog steeds de status &#39;Opnieuw in behandeling&#39; had. (CAMP-50302)
+* Er is een probleem opgelost in de e-mailontwerper bij het bekijken van een voorbeeld van een e-mail met een profielvervanging. (CAMP-49312)
+* Er is een probleem opgelost met lege waarde in aangepaste opsommingen: bij het maken van een aangepaste bron met een veld dat een tekstopsomming is en slechts één waarde bevat, wordt deze waarde nu standaard ingesteld, zodat u een query op dit veld kunt maken als een eenvoudig verzoek. (CAMP-50606)
 
 
 ## Release 22.1 - februari 2022 {#feb-2022}

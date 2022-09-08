@@ -1,17 +1,14 @@
 ---
 title: Afgeschafte en verwijderde functies van Campaign Standard
 description: Deze pagina bevat de afgeschafte en verwijderde functies van Adobe Campaign Standard.
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-deprecated-features
 feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 47d0f4c42d84e2107da65fae5528af0705f2165f
+source-git-commit: 5b5b3fc968c43be734677f7184b9957a8eb3684f
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 63%
+source-wordcount: '861'
+ht-degree: 64%
 
 ---
 
@@ -48,7 +45,7 @@ Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikma
   <tr> 
    <td> <p> De aanvang van Campaign Standard 21.3 versie, integratie met de dienst van de Doelen van het Publiek wordt afgekeurd. </p>
    <p>Voor nieuwe implementatie, kunt u de dienst van de Doelen van het Publiek niet meer met Adobe Campaign Standard integreren. U kunt Campagne en Adobe Experience Platform echter integreren via Bronnen en Doelen. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Meer informatie</a>.</p>
-     <em>Doeldatum verwijdering: september 2022</em></p>
+     <em>Streefdatum voor verwijdering: 2023</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -64,7 +61,7 @@ Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikma
   <tr> 
    <td> <p> Vanaf de Campaign Standard 21.3-release is de integratie met de Adobe Experience Platform Data Connector verouderd. </p>
    <p>Voor nieuwe implementatie kunt u de Adobe Experience Platform Data Connector niet meer integreren met Adobe Campaign Standard. U kunt Campagne en Adobe Experience Platform echter integreren via Bronnen en Doelen. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Meer informatie</a>.</p>
-     <em>Doeldatum verwijdering: september 2022</em></p>
+     <em>Streefdatum voor verwijdering: 2023</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -81,9 +78,7 @@ Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikma
   <tr> 
    <td> <p>Vanaf Campaign 19.0 is de verouderde e-maileditor afgeschaft. Gebruiken <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campagne voor e-mailontwerper</a> om uw e-mailinhoud te maken en aan te passen. </p></br>
    <p>Lees <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">deze sectie</a> om te ontdekken hoe u uw e-mailsjablonen voor de nieuwe editor kunt aanpassen.</p></br>
-  <p> 
-  <em>Verwachte verwijdering: eind 2022</em></p>
-   </td> 
+  </td> 
   </tr> 
  </tbody> 
 </table>

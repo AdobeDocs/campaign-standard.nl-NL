@@ -6,20 +6,14 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
+source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: tm+mt
-source-wordcount: '5401'
+source-wordcount: '5357'
 ht-degree: 6%
 
 ---
 
 # Aanvullende informatie 2018{#release-notes}
-
-Op zoek naar een specifieke release van Adobe Campaign Standard in 2018?
-
-Elke release bevat nieuwe functies en patches. Klik op een release om de inhoud ervan weer te geven.
-
-De nieuwste [documentatie-updates](../../rn/using/documentation-updates.md) voor Adobe Campaign Standard. Als u op zoek bent naar een nieuwere release, raadpleegt u deze [page](../../rn/using/release-notes.md).
 
 ## Release 18.9 - september 2018 {#release-18-9---september-2018}
 

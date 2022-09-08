@@ -9,10 +9,10 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 100%
+source-wordcount: '1300'
+ht-degree: 98%
 
 ---
 
@@ -155,7 +155,7 @@ U kunt de **verzendingslogboeken** extraheren om de gedragingen van de controleg
 
 >[!IMPORTANT]
 >
->U hebt de [beheerdersrol](../../administration/using/users-management.md#functional-administrators) nodig en moet deel uitmaken van de **[!UICONTROL All]** [organisatie-eenheid](../../administration/using/organizational-units.md) om verbinding te kunnen maken met Adobe Campaign. Als u de toegang voor een bepaalde gebruiker of groep gebruikers wilt beperken, koppel deze dan niet aan **[!UICONTROL All]**-eenheden voor toegang tot leveringslogboeken.
+>Om tot leveringslogboeken toegang te hebben, moet u hebben [Beheerdersrol](../../administration/using/users-management.md#functional-administrators) en deel uit te maken van de **[!UICONTROL All]** [organisatie-eenheid](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### De leveringslogboeken controleren {#checking-logs}
 

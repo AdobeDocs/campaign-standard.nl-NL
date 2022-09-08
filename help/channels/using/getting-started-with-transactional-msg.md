@@ -9,18 +9,14 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: 0538958289ce19982889f76ed195090a8455fdeb
+source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '988'
 ht-degree: 9%
 
 ---
 
 # Aan de slag met transactionele berichten {#getting-started-with-transactional-messaging}
-
-## Overzicht {#overview}
-
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
 Een transactiebericht is een individuele en unieke communicatie die in real time door een leverancier zoals een website wordt verzonden. Dit wordt vooral verwacht, omdat het belangrijke informatie bevat die de ontvanger wil controleren of bevestigen.
 
@@ -93,9 +89,9 @@ Elk van deze stappen wordt hieronder nader beschreven.
 
 <!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
-| Gebruiker | Actie | Resultaat |
-|--- |--- |--- |
-| Deze stap moet worden uitgevoerd door een beheerder die [administratierechten](../../administration/using/users-management.md#functional-administrators). | Configureer een gebeurtenis met de naam &quot;Afstand starten&quot; en publiceer deze gebeurtenisconfiguratie. | De API die wordt gebruikt door uw websiteontwikkelaar, wordt geïmplementeerd en er wordt automatisch een transactiemelding gemaakt. |
+| Een gebeurtenis maken | Gebruiker | Actie | Resultaat |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_config.svg" width="60px"> | Deze stap moet worden uitgevoerd door een beheerder die [administratierechten](../../administration/using/users-management.md#functional-administrators). | Configureer een gebeurtenis met de naam &quot;Afstand starten&quot; en publiceer deze gebeurtenisconfiguratie. | De API die wordt gebruikt door uw websiteontwikkelaar, wordt geïmplementeerd en er wordt automatisch een transactiemelding gemaakt. |
 
 Het creëren van en het publiceren van een gebeurtenis worden voorgesteld in [Een transactiegebeurtenis configureren](../../channels/using/configuring-transactional-event.md) en [Transactiegebeurtenissen publiceren](../../channels/using/publishing-transactional-event.md) secties.
 
@@ -103,9 +99,9 @@ Het creëren van en het publiceren van een gebeurtenis worden voorgesteld in [Ee
 
 <!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
-| Gebruiker | Actie | Resultaat |
-|--- |--- |--- |
-| Deze stap kan worden uitgevoerd door een marketinggebruiker die [administratierechten](../../administration/using/users-management.md#functional-administrators). | Bewerk het transactiebericht, test het en publiceer het. | Het transactiebericht is dan klaar om te worden verzonden. |
+| Bericht bewerken | Gebruiker | Actie | Resultaat |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_notification.svg" width="40px"> | Deze stap kan worden uitgevoerd door een marketinggebruiker die [administratierechten](../../administration/using/users-management.md#functional-administrators). | Bewerk het transactiebericht, test het en publiceer het. | Het transactiebericht is dan klaar om te worden verzonden. |
 
 Voor meer informatie over het bewerken en publiceren van een transactiemelding raadpleegt u [Transactieberichten bewerken](../../channels/using/editing-transactional-message.md) en [Levenscyclus van transactionele berichten](../../channels/using/publishing-transactional-message.md).
 
@@ -113,13 +109,11 @@ Voor meer informatie over het bewerken en publiceren van een transactiemelding r
 
 <!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
-<!--**Event triggering integration**-->
-
-| Gebruiker | Actie | Resultaat |
-|--- |--- |--- |
-| Deze stap wordt uitgevoerd door de ontwikkelaar van uw website. | Gebruik de REST Transaction Messages API om de gebeurtenis in uw website te integreren. | De gebeurtenis wordt geactiveerd wanneer een klant zijn winkelwagentje verlaat. |
-
 Nadat u een gebeurtenis hebt gemaakt, moet u het activeren van deze gebeurtenis integreren in uw website.<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> Hiervoor moet uw webontwikkelaar van uw website de opdracht **Adobe Campaign Standard REST API**.
+
+| De trigger implementeren | Gebruiker | Actie | Resultaat |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_api.svg" width="55px"> | Deze stap wordt uitgevoerd door de ontwikkelaar van uw website. | Gebruik de REST Transaction Messages API om de gebeurtenis in uw website te integreren. | De gebeurtenis wordt geactiveerd wanneer een klant zijn winkelwagentje verlaat. |
 
 Zie voor meer informatie over het gebruik van de campagne REST API voor het beheer van transactieberichten de [REST API-documentatie](../../api/using/managing-transactional-messages.md).
 
@@ -127,9 +121,11 @@ Zie voor meer informatie over het gebruik van de campagne REST API voor het behe
 
 <!--<img src="assets/do-not-localize/icon_channels.svg" width="60px">-->
 
-Zodra al deze stappen zijn uitgevoerd, kan het bericht worden geleverd.
+Zodra alle bovenstaande stappen zijn uitgevoerd, kan het bericht worden geleverd.
 
-Zodra een gebruiker de site verlaat zonder de producten in zijn winkelwagentje te bestellen, wordt de bijbehorende Campagne-gebeurtenis geactiveerd. De gebruiker ontvangt automatisch een e-mailbericht.
+| Het bericht verzenden | Gebruiker | Actie | Resultaat |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_channels.svg" width="60px"> | Deze stap wordt uitgevoerd door klanten die uw website bezoeken. | Zodra een gebruiker de site verlaat zonder de producten in zijn winkelwagentje te bestellen, wordt de bijbehorende Campagne-gebeurtenis geactiveerd. | De gebruiker ontvangt automatisch een e-mailbericht. |
 
 ## Verwante onderwerpen
 

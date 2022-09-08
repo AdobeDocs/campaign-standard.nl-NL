@@ -8,17 +8,14 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: 8f04bb9fa8b47b990f0cd6359ce6569d836a9b64
-workflow-type: ht
-source-wordcount: '4587'
+source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+workflow-type: tm+mt
+source-wordcount: '4569'
 ht-degree: 100%
 
 ---
 
 # Aanvullende informatie 2021{#release-notes-2021}
-
-[Releaseplanning](../../rn/using/release-planning.md) | [Releases van het configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl) | [Documentatie-updates](../../rn/using/documentation-updates.md) | [Eerdere aanvullende informatie](../../rn/using/release-notes-2020.md) | [Afgeschafte functies](../../rn/using/deprecated-features.md)
-
 
 ## Release 21.3 - september 2021 {#release-21-3---sept-2021}
 
