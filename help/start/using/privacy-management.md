@@ -8,9 +8,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
-source-wordcount: '963'
+source-git-commit: ede4bd97ffddca4a5e24f1e4114d50ca5140a01d
+workflow-type: ht
+source-wordcount: '827'
 ht-degree: 100%
 
 ---
@@ -68,7 +68,7 @@ U kunt in Adobe Campaign verzoeken voor **Toegang** en **Verwijderen** afhandele
 
 * Het **recht om te worden vergeten** (verwijderingsverzoek) geeft de betrokkene het recht om de gegevensbeheerder zijn of haar persoonsgegevens te laten wissen, de verdere verspreiding van de gegevens stop te zetten en eventueel de verwerking van de gegevens door derden te laten stopzetten.
 
-Als u wilt weten hoe u verzoeken om **toegang** en **verwijdering** kunt maken en hoe Adobe Campaign deze verwerkt, raadpleegt u de [implementatiestappen](../../start/using/privacy-requests.md#about-privacy-requests).
+Raadpleeg de [implementatiestappen](../../start/using/privacy-requests.md#about-privacy-requests) om te leren hoe u **toegangs**- en **verwijderings** verzoeken kunt maken en hoe Adobe Campaign ze verwerkt.
 
 Tutorials over privacybeheer in Campaign Standard zijn ook [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=nl#privacy) te vinden.
 
@@ -81,7 +81,7 @@ Tutorials over privacybeheer in Campaign Standard zijn ook [hier](https://experi
 Naast de meest recente mogelijkheden voor **toegangsrecht** en **recht om te worden vergeten** biedt Adobe Campaign andere belangrijke functies die essentieel zijn voor privacy:
 
 * [Toestemmingsbeheer](#consent-management): abonnementsfuncties voor voorkeurenbeheer
-* [Dataretentie](#data-retention): dataretentieperioden in alle standaard logtabellen, er kunnen extra retentieperioden worden ingesteld met workflows
+* [Dataretentie](../../administration/using/data-retention.md): dataretentieperioden in alle standaard logtabellen, er kunnen extra retentieperioden worden ingesteld met workflows
 * [Rights Management](#rights-management): gegevenstoegang beheerd volgens opgegeven recht
 
 ### Toestemmingsbeheer {#consent-management}
@@ -95,27 +95,6 @@ Vanaf het begin hebben in Adobe Campaign functies voor het helpen beheren van be
 Zie [Abonnementen](../../audiences/using/about-subscriptions.md) en [Aan de slag met landingspagina’s ](../../channels/using/getting-started-with-landing-pages.md) voor meer informatie over toestemmingsbeheer.
 
 Naast de tools voor toestemmingsbeheer van Adobe Campaign kunt u ook nagaan of een consument ervoor heeft gekozen om zich af te melden voor de verkoop van persoonsgegevens. Zie [deze sectie](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
-
-### Gegevensretentie {#data-retention}
-
-Voor retentie bevatten de ingebouwde logtabellen in Campaign vooraf ingestelde retentieperioden, waarbij de gegevensopslag over het algemeen is beperkt tot zes maanden of korter.
-
-Hieronder volgen de standaardwaarden voor retentie in de ingebouwde tabellen. Houd er rekening mee dat de retentieconfiguratie tijdens de implementatie door technische beheerders van Adobe wordt ingesteld, en dat de waarden per implementatie kunnen verschillen op basis van de vereisten van de klant.
-
-* **Samengevoegde tracking**: 6 maanden
-* **Verzendingslogs**: 6 maanden
-* **Trackinglogs**: 6 maanden
-* **Gebeurtenissen**: 1 maand
-* **Statistieken van gebeurtenisverwerking**: 6 maanden
-* **Gearchiveerde gebeurtenissen**: 6 maanden
-* **Tijdelijke entiteiten**: 7 dagen
-* **Genegeerde pipelinegebeurtenissen**: 1 maand
-* **Leveringsmeldingen**: 1 maand
-* **Exportaudit**: 6 maanden
-
-Net als bij verwijderen is het met de functionaliteit van de standaardworkflow mogelijk om retentieperioden in te stellen voor elke aangepaste tabel.
-
-Neem contact op met de consultants of technische beheerders van Adobe voor meer informatie over retentie, of als u retentie wilt instellen voor aangepaste tabellen.
 
 ### Rights Management {#rights-management}
 
