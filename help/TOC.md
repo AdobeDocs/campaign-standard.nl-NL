@@ -1,8 +1,8 @@
 ---
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: 'Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken. '
-title: 'Campaign Standard-handleiding '
+user-guide-description: Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken.
+title: Campaign Standard-handleiding
 breadcrumb-title: Documentatie voor Adobe Campaign Standard
 source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
 workflow-type: ht
