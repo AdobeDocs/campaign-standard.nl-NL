@@ -5,16 +5,23 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 9000b7737e8579aa2389d517d83fde958d8945fe
+source-git-commit: 5814bf107a252793911cd34c0dceed35ce58bf69
 workflow-type: tm+mt
-source-wordcount: '7221'
-ht-degree: 100%
+source-wordcount: '7251'
+ht-degree: 99%
 
 ---
 
 # Documentatie-updates{#documentation-updates}
 
 Naast [aanvullende informatie](../../rn/using/release-notes.md) van Adobe Campaign worden op deze pagina alle nieuwe updates in de documentatie van Adobe Campaign Standard weergegeven.
+
+## Release 22.3 - herfst/winter 2022 {#release-22-3}
+
+Opmerkingen bij de release van Campaign Standard 22.3 Fall/Winter zijn gepubliceerd. [Meer informatie](release-notes.md)
+
+De bewaartermijnen van gegevens zijn bijgewerkt om veranderingen te weerspiegelen die met versie 22.3 komen. [Meer informatie](../../administration/using/data-retention.md)
+
 
 ## Release 22.2 - juni 2022 {#release-22-2}
 
