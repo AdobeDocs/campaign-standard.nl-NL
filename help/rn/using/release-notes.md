@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '116'
-ht-degree: 29%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Deze release wordt geleverd met de volgende beveiligingsupgrade: Apache Tomcat i
 ### Oplossingen{#e-rn-fixes}
 
 * Probleem verholpen met geplande rapporten, die een uur voor de geplande timing werden geactiveerd. (CAMP-51502)
-* Probleem verholpen met betrekking tot de leveringsindicatoren in het leveringsdashboard die niet overeenkwamen met het verzenden van logboeken (nms:wideLogRcp). (CAMP-51127)
+* Probleem verholpen met betrekking tot de leveringsindicatoren in het leveringsdashboard die niet overeenkwamen met het verzenden van logboeken (nms:broadLogRcp). (CAMP-51127)
 * Probleem verholpen waarbij uitbreiding van aangepaste bronnen met ACS-connector (prime-aanbieding) werd voorkomen. (CAMP-51033)
 * Verbeterde publicatieprocedure voor reacties op privacyverzoeken om vertraging te voorkomen. (CAMP-50613)
 
