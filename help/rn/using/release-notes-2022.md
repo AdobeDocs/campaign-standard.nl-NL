@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 * **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
 -->
 
-* **Toegankelijkheid** - Adobe heeft veel toegankelijkheidsoplossingen gemaakt om het algemene gebruiksgemak van de applicatie te verbeteren. Deze eigenschappen worden momenteel toegelaten voor een reeks vroege adopters slechts, en zij zullen aan alle klanten in toekomstige versies worden opgesteld. Voorbeelden van toegankelijkheidsverbeteringen zijn:
+* **Toegankelijkheid** - Adobe heeft veel toegankelijkheidsoplossingen gemaakt om het algemene gebruiksgemak van de applicatie te verbeteren. Deze functies zijn momenteel alleen ingeschakeld voor een aantal early adopters en ze zullen in de future release naar alle klanten worden uitgerold. Voorbeelden van toegankelijkheidsverbeteringen zijn:
 
    * Ervoor zorgen dat er een zichtbare focusindicator is voor focusbare elementen op elk scherm
    * Paginaoriëntatiepunten maken voor eenvoudigere navigatie
