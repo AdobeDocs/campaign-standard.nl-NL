@@ -9,7 +9,7 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -43,9 +43,9 @@ Als u sms-berichten wilt maken en naar een mobiele telefoon verzenden, hebt u he
 
 1. Voer de algemene eigenschappen van de sms in.
 
-   {{$include /help/_includes/channel-activities-name-id-fields.md}}
-
    ![](assets/sms_creation_2.png)
+
+   Zowel het label als de id van de activiteit worden in de interface weergegeven, maar deze zijn niet zichtbaar voor de ontvangers van het bericht.
 
 1. Geef de doelgroep op waarop u zich wilt richten. U kunt een bestaande doelgroep selecteren of een populatie targeten door regels te definiëren en te combineren.
 

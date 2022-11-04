@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -61,8 +61,6 @@ De stappen voor het maken van een zelfstandig in-app-bericht met Adobe Campaign 
 1. Voer de eigenschappen voor het in-app-bericht in en selecteer de mobiele app in het veld **[!UICONTROL Associate a Mobile App to a delivery]**. 
 
    Als de vervolgkeuzelijst geen toepassingen bevat, controleert u of uw mobiele toepassingen zich in een **Gevormd** status. Toepassingen in een **Klaar om te worden gevormd** wordt niet weergegeven in de lijst. Raadpleeg deze [pagina](../../administration/using/configuring-a-mobile-application.md#channel-specific-config) voor meer informatie over de configuratie van mobiele applicaties.
-
-   {{$include /help/_includes/channel-activities-name-id-fields.md}}
 
    ![](assets/inapp_creating_3.png)
 

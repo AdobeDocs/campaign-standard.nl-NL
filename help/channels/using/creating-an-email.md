@@ -8,7 +8,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -31,9 +31,7 @@ U kunt een e-mailbericht maken op basis van een [campagne](../../start/using/mar
    >
    >Follow-up- en A/B-testsjablonen zijn standaard verborgen. Schakel de selectievakjes links in ( **[!UICONTROL Filter]** (zijpaneel) als u ze wilt weergeven.
 
-1. Voer de algemene eigenschappen van de e-mail in. U kunt een naam invoeren in het dialoogvenster **Label** en bewerk de id.
-
-   {{$include /help/_includes/channel-activities-name-id-fields.md}}
+1. Voer de algemene eigenschappen van de e-mail in. U kunt een naam invoeren in het dialoogvenster **Label** en bewerk de id. Zowel verschijnen de activiteitennaam als zijn identiteitskaart in de interface, maar zij zijn niet zichtbaar aan de berichtontvangers.
 
    U kunt een beschrijving toevoegen die de gebruiker in de content van de campagne kan zien.
 
