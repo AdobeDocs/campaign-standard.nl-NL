@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -56,7 +56,7 @@ Het maken van een marketingactiviteit wordt gedetailleerd beschreven in de secti
 
    ![](assets/workflow_creation_2.png)
 
-   U kunt een naam invoeren in het veld **Label** en de id wijzigen. De activiteitennaam en de bijbehorende id verschijnen in de interface, maar deze zijn niet zichtbaar voor de berichtontvangers.
+   U kunt een naam invoeren in het veld **Label** en de id wijzigen.
 
    >[!NOTE]
    >
