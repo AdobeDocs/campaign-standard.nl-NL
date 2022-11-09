@@ -8,7 +8,7 @@ feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 24%
@@ -28,6 +28,7 @@ Het publiek is gebaseerd op profielen met een voltooide voorkeurstaal.
    ![](assets/multi_create1.png)
 
 1. Definieer de algemene eigenschappen en de doelgroep van de e-mail, net als voor een standaard-e-mail. Raadpleeg de sectie [Doelgroepen maken](../../audiences/using/creating-audiences.md).
+
 1. Bij de vierde stap in de aanmaakwizard definieert u de variantopties. Als de [meertalige sjabloon](../../channels/using/multilingual-messages-template.md) bevat al alle juiste parameters. U kunt rechtstreeks op de knop **[!UICONTROL Create]** knop.
 
    ![](assets/multi_create4.png)

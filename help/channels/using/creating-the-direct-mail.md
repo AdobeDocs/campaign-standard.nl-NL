@@ -9,10 +9,10 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 95%
+source-wordcount: '636'
+ht-degree: 88%
 
 ---
 
@@ -35,6 +35,12 @@ Het maken van een direct-maillevering lijkt veel op het maken van een gewone e-m
 1. Voer de algemene eigenschappen van de levering in.
 
    ![](assets/direct_mail_3.png)
+
+   >[!NOTE]
+   >
+   >Zowel verschijnen de activiteitennaam als zijn identiteitskaart in de interface, maar zij zijn niet zichtbaar aan de berichtontvangers.
+   >
+   >Zorg ervoor dat het veld Id geen lege ruimte bevat om discrepanties te voorkomen, bijvoorbeeld bij integratie met Adobe Analytics.
 
 1. Definieer de doelgroep die u wilt opnemen in het extractiebestand en de test- en trapprofielen. Zie [De doelgroep voor direct mail definiëren](../../channels/using/defining-the-direct-mail-audience.md).
 

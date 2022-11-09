@@ -9,10 +9,10 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '561'
+ht-degree: 88%
 
 ---
 
@@ -45,7 +45,11 @@ Als u sms-berichten wilt maken en naar een mobiele telefoon verzenden, hebt u he
 
    ![](assets/sms_creation_2.png)
 
-   Zowel het label als de id van de activiteit worden in de interface weergegeven, maar deze zijn niet zichtbaar voor de ontvangers van het bericht.
+   >[!NOTE]
+   >
+   >Zowel verschijnen de activiteitennaam als zijn identiteitskaart in de interface, maar zij zijn niet zichtbaar aan de berichtontvangers.
+   >
+   >Zorg ervoor dat het veld Id geen lege ruimte bevat om discrepanties te voorkomen, bijvoorbeeld bij integratie met Adobe Analytics.
 
 1. Geef de doelgroep op waarop u zich wilt richten. U kunt een bestaande doelgroep selecteren of een populatie targeten door regels te definiëren en te combineren.
 
