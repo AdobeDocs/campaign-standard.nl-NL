@@ -4,9 +4,10 @@ description: Deze pagina bevat een overzicht van alle releases van Adobe Campaig
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
+exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
+source-git-commit: 77c5baaf51b82ea001326f3f20c8ab183155f9e6
 workflow-type: ht
-source-wordcount: '1098'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -96,4 +97,3 @@ ht-degree: 100%
 * De prestaties bij het dupliceren van audiences zijn verbeterd om problemen bij het werken met grote audiences te voorkomen. (CAMP-49639)
 * Er is een probleem opgelost waardoor een aangepast filter de juiste resultaten niet kon weergeven bij gebruik in een **Query**-activiteit. (CAMP-49417)
 * Er is een fout opgelost die een foutbericht weergaf bij een poging om een fragment te gebruiken in een levering met een komma in de naam. Het probleem is opgelost. Er kunnen nu komma&#39;s worden gebruikt in de namen van fragmenten. (CAMP-49216)
-
