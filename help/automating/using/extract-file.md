@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 86%
+source-wordcount: '438'
+ht-degree: 79%
 
 ---
 
@@ -73,6 +73,12 @@ De specifieke data-extractiemethode wordt gedefinieerd bij het configureren van 
 1. Klik op het tabblad **[!UICONTROL File structure]** om de uitvoer-, datum- en getalnotaties te configureren voor het bestand dat wordt geëxporteerd.
 
    Schakel de optie **[!UICONTROL Export labels instead of internal values of enumerations]** in als u opsommingswaarden exporteert. Hiermee kunt u kortere labels ophalen die gemakkelijker zijn te begrijpen dan id&#39;s.
+
+   ![](assets/extract-file-file-structure.png)
+
+   >[!NOTE]
+   >
+   >Als u gegevens wilt extraheren naar een CSV-bestand met een specifieke codering, selecteert u eerst de uitvoerindeling &quot;Tekst&quot;. Kies de gewenste codering in de vervolgkeuzelijst en wijzig de uitvoerindeling in &quot;CSV (Excel)&quot;.
 
 1. Ga naar het tabblad **[!UICONTROL Properties]** en selecteer de optie **[!UICONTROL Do not generate a file if the inbound transition is empty]** om te voorkomen dat er lege bestanden worden gemaakt en geüpload op SFTP-servers als de binnenkomende overgang leeg is.
 1. Bevestig de configuratie van uw activiteit en sla de workflow op.

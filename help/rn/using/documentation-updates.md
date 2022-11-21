@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
+source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
 workflow-type: tm+mt
-source-wordcount: '7270'
-ht-degree: 100%
+source-wordcount: '7293'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,8 @@ Naast [aanvullende informatie](../../rn/using/release-notes.md) van Adobe Campai
 ## November 2022 {#doc-updates-november-2022}
 
 Er is een opmerking toegevoegd waarin u wordt aanbevolen om spaties in het ID-veld van leveringen te vermijden. [Meer informatie](../../channels/using/creating-an-email.md)
+
+Informatie is toegevoegd aan het dialoogvenster **[!UICONTROL Extract file]** pagina met workflowactiviteit om gegevens te extraheren naar een CSV-bestand met een specifieke codering. [Meer informatie](../../automating/using/extract-file.md)
 
 ## Release 22.3 - herfst/winter 2022 {#release-22-3}
 
