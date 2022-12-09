@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
-workflow-type: ht
-source-wordcount: '130'
-ht-degree: 100%
+source-git-commit: 1cfc5d51c3eeff35664118f3ee114a40067db3cc
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 89%
 
 ---
 
@@ -23,20 +23,15 @@ Op deze pagina worden nieuwe verbeteringen en oplossingen beschreven die in de v
 >
 > Deze content kan zonder voorafgaande kennisgeving worden gewijzigd tot de upgradedatum van de werkgebiedomgevingen. Meer informatie vindt u op de [releaseplanningspagina](../../rn/using/release-planning.md).
 
-## Release 22.3 - herfst/winter 2022 {#e-rn-2022}
+## Release 22.3.2 {#dec-22}
 
-<!--
-### Improvement{#e-rn-improvements}
+### Beveiligingsupdate{#rn-security2}
 
+Deze release wordt geleverd met de volgende beveiligingsupgrade: Debian is geüpgraded naar versie 11.0.
 
-**Accessibility**
+## Release 22.3 - herfst/winter 2022 {#sept-22}
 
-Campaign Standard 22.3 comes with accessibility fixes and improvements which facilitate users to navigate and get the most out of Adobe Campaign.
-
-These capabilities are released in Limited Availability and rolled out to a set of customers only. To have these improvements enabled on your Campaign environment(s), contact your Adobe representative.
--->
-
-### Beveiligingsupdate{#e-rn-security}
+### Beveiligingsupdate{#rn-security}
 
 Deze release wordt geleverd met de volgende beveiligingsupgrade: Apache Tomcat is geüpgraded van v7.0 naar v8.0.
 
@@ -46,3 +41,4 @@ Deze release wordt geleverd met de volgende beveiligingsupgrade: Apache Tomcat i
 * Probleem verholpen met betrekking tot de leveringsindicatoren in het leveringsdashboard die niet overeenkwamen met het verzenden van logboeken (nms:broadLogRcp). (CAMP-51127)
 * Probleem verholpen waarbij uitbreiding van aangepaste bronnen met ACS-connector (prime-aanbieding) werd voorkomen. (CAMP-51033)
 * Verbeterde publicatieprocedure voor reacties op privacyverzoeken om vertraging te voorkomen. (CAMP-50613)
+
