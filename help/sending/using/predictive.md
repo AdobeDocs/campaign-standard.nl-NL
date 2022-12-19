@@ -8,7 +8,7 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: 279e91e44a8a0398496758fd85fc4bbc082aac6a
+source-git-commit: 16801092547f41dd94f12e4dbe9c9afe0b550a36
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 56%
@@ -20,6 +20,7 @@ ht-degree: 56%
 Met Campaign kunt u het ontwerp en de levering van klantjourneys optimaliseren om de betrokkenheidsvoorkeuren van elk individu te voorspellen. Dankzij AI en computerleren kunnen de Send-Time Optimization en het Predictive Engagement Scoring van Adobe Campaign open tarieven, optimale verzendtijden en waarschijnlijke prijs analyseren en voorspellen op basis van historische betrokkenheidsmetriek.
 
 >[!IMPORTANT]
+>
 >Deze mogelijkheid is niet rechtstreeks beschikbaar als onderdeel van het product. Voor de implementatie moet Adobe Consulting worden ingeschakeld. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie.
 
 Adobe Campaign biedt twee nieuwe modellen voor het leren van machines: **Optimalisatie van de verzendtijd** en **Progressieve scores voor betrokkenheid**. Deze twee modellen zijn machine-leert modellen die specifiek voor het ontwerpen en het leveren van betere klantenreizen zijn.
@@ -35,6 +36,7 @@ De voorspellende voorspellingen van de Optimalisatie van de Send-Time die de bes
 Binnen het Predictive Send-Time Optimization model, zijn er twee submodellen:
 
 * **De voorspelbare verzendtijd voor openen is de beste tijd om een bericht naar de klant te verzenden voor een maximale kans op openen.**
+
 * **De voorspelbare verzendtijd voor klikken is de beste tijd om een bericht naar de klant te verzenden voor een maximale kans op klikken**
 
 **Modelinvoer**: leveringslogboeken, logbestanden bijhouden en profielkenmerken (niet-PII)
@@ -77,6 +79,7 @@ De profielscores geven standaard het beste tijdstip van de dag voor elke dag van
 ### Berichten verzenden op het beste moment{#use-predictive-send-time}
 
 Als u de e-mails wilt laten verzenden op het optimale tijdstip per profiel, moet de levering worden gepland met de optie **[!UICONTROL Send at a custom date defined by a formula]**.
+
 Leer [in deze sectie](../../sending/using/computing-the-sending-date.md) hoe u de verzenddatum berekent.
 
 De formule moet worden ingevuld met het specifieke beste tijdstip van de specifieke dag waarop de levering de deur uitgaat.
@@ -86,7 +89,7 @@ De formule moet worden ingevuld met het specifieke beste tijdstip van de specifi
 Voorbeeld van de formule:
 
 ```
-AddHours([currentDelivery/scheduling/@contactDate], 
+AddHours([currentDelivery/scheduling/@contactDate],
 [cusSendTimeScoreByClickprofile_link/@EMAIL_BEST_TIME_TO_CLICK_WEDNESDAY])
 ```
 
