@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken.
 title: Campaign Standard-handleiding
 breadcrumb-title: Documentatie voor Adobe Campaign Standard
-source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
-workflow-type: ht
-source-wordcount: '1812'
+source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
+workflow-type: tm+mt
+source-wordcount: '1814'
 ht-degree: 100%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 100%
       + [Voorbeelden van leveringen weergeven](sending/using/previewing-messages.md)
       + [Proeven verzenden](sending/using/sending-proofs.md)
       + [E-mailberichten testen met doelprofielen](sending/using/testing-messages-using-target.md)
-      + [E-mails met AI-mogelijkheden](sending/using/predictive.md)
+      + [Voorspellingsmogelijkheden voor gebruikersbetrokkenheid](sending/using/predictive.md)
       + [E-mailweergave](sending/using/email-rendering.md)
       + [Een controlegroep toevoegen](sending/using/control-group.md)
       + [Traps gebruiken](sending/using/using-traps.md)
