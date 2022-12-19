@@ -8,7 +8,7 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
+source-git-commit: 279e91e44a8a0398496758fd85fc4bbc082aac6a
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 56%
