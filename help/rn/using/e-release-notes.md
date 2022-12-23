@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 1cfc5d51c3eeff35664118f3ee114a40067db3cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '147'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Op deze pagina worden nieuwe verbeteringen en oplossingen beschreven die in de v
 
 ### Beveiligingsupdate{#rn-security2}
 
-Deze release wordt geleverd met de volgende beveiligingsupgrade: Debian is geüpgraded naar versie 11.0.
+Deze release wordt geleverd met de volgende beveiligingsupgrade: Debian is geüpgraded naar v11.0.
 
 ## Release 22.3 - herfst/winter 2022 {#sept-22}
 
