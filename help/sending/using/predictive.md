@@ -8,71 +8,65 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: c5b417144836a86307d91cec981db23581807ff7
+source-git-commit: 75628ed8a2f9b21def23e5b257a3592e1a721536
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 100%
+source-wordcount: '1078'
+ht-degree: 56%
 
 ---
 
-# Ontwerp en levering optimaliseren met e-mails met AI-mogelijkheden{#journey-ai}
+# Voorspellingsmogelijkheden voor gebruikersbetrokkenheid {#journey-ai}
 
-## Aan de slag met e-mails met AI-mogelijkheden{#journey-ai-ovv}
-
-Met Campaign kunt u het ontwerp en de levering van klantjourneys optimaliseren om de betrokkenheidsvoorkeuren van elk individu te voorspellen. Adobe Campaign wordt aangestuurd door Journey AI en kan openingsfrequenties, optimale verzendtijden en waarschijnlijk verloop analyseren en voorspellen op basis van historische betrokkenheidscijfers.
-
-**Modellen voor machine learning**
-
-Adobe Campaign Standard biedt twee nieuwe modellen voor machine learning: **optimalisatie van voorspellende verzendtijd** en **voorspellende betrokkenheidsscores**. Deze twee modellen worden samen Journey AI genoemd, een type modellen voor machine learning die specifiek zijn voor het ontwerpen en leveren van betere klantjourneys.
-
-* **Optimalisatie van voorspellende verzendtijd**: Met optimalisatie van voorspellende verzendtijd wordt voorspeld wat de beste verzendtijd is voor elk ontvangend profiel voor het openen van of klikken op e-mails. Voor elk ontvangend profiel geven de scores aan wat de beste verzendtijd is op elke weekdag en welke weekdag het geschiktst is voor verzending om de beste resultaten te bereiken.
-
-* **Voorspellende betrokkenheidsscore**: Met de voorspellende betrokkenheidsscore wordt voorspeld hoe waarschijnlijk het is dat een ontvanger iets doet met een bericht evenals de kans dat de klant zich binnen 7 dagen na de volgende e-mailverzending afmeldt. De waarschijnlijkheden worden verder onderverdeeld in buckets op basis van het specifieke risico van terugtrekking, middelgroot of laag. Op deze manier geeft het model ook het risicopercentiel aan voor de klanten om te begrijpen welke positie een bepaalde klant inneemt ten opzichte van andere klanten.
+Met Campaign kunt u het ontwerp en de levering van klantjourneys optimaliseren om de betrokkenheidsvoorkeuren van elk individu te voorspellen. Dankzij AI en computerleren kunnen de Send-Time Optimization en het Predictive Engagement Scoring van Adobe Campaign open tarieven, optimale verzendtijden en waarschijnlijke prijs analyseren en voorspellen op basis van historische betrokkenheidsmetriek.
 
 >[!IMPORTANT]
+>
 >Deze mogelijkheid is niet rechtstreeks beschikbaar als onderdeel van het product. Voor de implementatie moet Adobe Consulting worden ingeschakeld. Neem contact op met uw Adobe-vertegenwoordiger voor meer informatie.
+
+Adobe Campaign biedt twee nieuwe modellen voor het leren van machines: **Optimalisatie van de verzendtijd** en **Progressieve scores voor betrokkenheid**. Deze twee modellen zijn machine-leert modellen die specifiek voor het ontwerpen en het leveren van betere klantenreizen zijn.
+
+* **Optimalisatie van verzendtijd** Hiermee kunt u voorspellen welke de beste verzendtijd is voor elk ontvangend profiel voor e-mail wordt geopend of klikt en voor het openen van een pushbericht. Voor elk ontvangend profiel geven de scores aan wat de beste verzendtijd is op elke weekdag en welke weekdag het geschiktst is voor verzending om de beste resultaten te bereiken.
+
+* **Predictieve betrokkenheidsscoring**: voorspelt de waarschijnlijkheid dat een ontvanger een bericht in dienst neemt evenals de waarschijnlijkheid om uit (het afmelden) te kiezen binnen de volgende 7 dagen na de volgende e-mail verzendt. De waarschijnlijkheden worden verder verdeeld in emmers op basis van het verwachte niveau van betrokkenheid bij uw inhoud: hoog, gemiddeld of laag. Deze modellen bieden de klanten ook de percentiele positie van het niet-abonnementsrisico om te begrijpen waar de rang van een bepaalde klant ten opzichte van anderen is.
 
 ## Voorspellende optimalisatie van verzendtijd{#predictive-send-time}
 
-### Klikken en openen optimaliseren{#about-predictive-send-time}
+De voorspellende voorspellingen van de Optimalisatie van de Send-Time die de beste verzendtijd voor elk ontvangend profiel voor e-mail opent of klikt en voor push-message opent. Voor elk ontvangend profiel geven de scores aan wat de beste verzendtijd is op elke weekdag en welke weekdag het geschiktst is voor verzending om de beste resultaten te bereiken.
 
-Optimalisatie van voorspellende verzendtijd voorspelt de beste verzendtijd voor elk ontvangend profiel voor het openen van en klikken op e-mail. Voor elk ontvangend profiel geven de scores aan wat de beste verzendtijd is op elke weekdag en welke weekdag het geschiktst is voor verzending om de beste resultaten te bereiken.
+Binnen het Predictive Send-Time Optimization model, zijn er twee submodellen:
 
-Binnen het model voor optimalisatie van voorspellende verzendtijd zijn er twee submodellen:
-* De voorspelbare verzendtijd voor openen is de beste tijd om een bericht naar de klant te verzenden voor een maximale kans op openen.
-* De voorspelbare verzendtijd voor klikken is de beste tijd om een bericht naar de klant te verzenden voor een maximale kans op klikken
+* **De voorspelbare verzendtijd voor openen is de beste tijd om een bericht naar de klant te verzenden voor een maximale kans op openen.**
+
+* **De voorspelbare verzendtijd voor klikken is de beste tijd om een bericht naar de klant te verzenden voor een maximale kans op klikken**
 
 **Modelinvoer**: leveringslogboeken, logbestanden bijhouden en profielkenmerken (niet-PII)
 
 **Modeluitvoer**: beste tijd om een bericht te verzenden (voor openen en klikken)
 
-
 Uitvoerdetails
 
-* Bereken het beste tijdstip om een e-mail te verzenden voor de 7 dagen van de week met intervallen van 1 uur (bijvoorbeeld: 9:00 uur, 10:00 uur, 11:00 uur)
+* Berekent de beste tijd van de dag om een e-mail voor in de 7 dagen van de week met intervallen van 1 uur te verzenden (bijvoorbeeld: 9:00, 10:00, 11:00)
 * Het model geeft de beste dag in de week en het beste tijdstip op die dag aan
 * Elke optimale tijd wordt twee keer berekend: één keer om de openingsfrequentie te maximaliseren en één keer om de klikfrequentie te maximaliseren
 * Er worden 16 velden weergegeven (14 voor weekdagen en 2 voor de hele week):
-   * de beste verzendtijd voor een e-mail om klikken te optimaliseren op maandag - waarden tussen 0 en 23
-   * de beste verzendtijd voor een e-mail om openen te optimaliseren op maandag - waarden tussen 0 en 23
-   * de beste verzendtijd voor een e-mail om klikken te optimaliseren op dinsdag - waarden tussen 0 en 23
-   * ...
-   * de beste verzendtijd voor een e-mail om klikken te optimaliseren op zondag - waarden tussen 0 en 23
-   * de beste verzendtijd voor een e-mail om openen te optimaliseren op zondag - waarden tussen 0 en 23
-   * ...
-   * de beste verzenddag voor een e-mail om openen te optimaliseren voor de hele week - van maandag tot en met zondag
-   * de beste verzendtijd voor een e-mail om openen te optimaliseren voor de hele week - waarden tussen 0 en 23
+
+* Beste tijd om een e-mail te verzenden om kliks voor Maandag te optimaliseren - waarden tussen 0 en 23
+
+* De beste tijd voor het verzenden van een e-mail voor optimalisatie wordt geopend voor maandag - waarden tussen 0 en 23
+* ...
+* Beste tijd om een e-mail te verzenden om kliks voor Zondag te optimaliseren - waarden tussen 0 en 23
+* De beste tijd voor het verzenden van een e-mail voor optimalisatie wordt geopend voor zondag - waarden tussen 0 en 23
+* ...
+* De beste dag om een e-mail voor optimalisatie te verzenden wordt geopend voor de hele week - van maandag tot en met zondag
+* De beste tijd voor het verzenden van een e-mail voor optimalisatie wordt geopend voor de hele week - waarden tussen 0 en 23
 
 >[!NOTE]
 >
->Deze voorspellende mogelijkheden gelden alleen voor e-mailleveringen.
->
 >Het model heeft minstens één maand aan data nodig om significante resultaten te produceren.
+>
+>Deze voorspellende mogelijkheden zijn alleen van toepassing op e-mail- en pushkanalen.
 
-
-### Profielscores openen{#access-predictive-send-time-scores}
-
-Zodra de mogelijkheden van machine learning zijn geïmplementeerd in Campaign, verrijken ze de profielgegevens met nieuwe tabbladen met de beste scores voor openen/klikken. De cijfers worden berekend door Journey AI en worden aan de hand van technische workflows naar Campaign overgezet.
+Zodra de mogelijkheden van machine learning zijn geïmplementeerd in Campaign, verrijken ze de profielgegevens met nieuwe tabbladen met de beste scores voor openen/klikken. De metriek worden berekend en in Campagne gebracht gebruikend technische werkschema&#39;s.
 
 Voor toegang tot deze cijfers moet u het volgende doen:
 
@@ -87,6 +81,7 @@ De profielscores geven standaard het beste tijdstip van de dag voor elke dag van
 ### Berichten verzenden op het beste moment{#use-predictive-send-time}
 
 Als u de e-mails wilt laten verzenden op het optimale tijdstip per profiel, moet de levering worden gepland met de optie **[!UICONTROL Send at a custom date defined by a formula]**.
+
 Leer [in deze sectie](../../sending/using/computing-the-sending-date.md) hoe u de verzenddatum berekent.
 
 De formule moet worden ingevuld met het specifieke beste tijdstip van de specifieke dag waarop de levering de deur uitgaat.
@@ -96,7 +91,7 @@ De formule moet worden ingevuld met het specifieke beste tijdstip van de specifi
 Voorbeeld van de formule:
 
 ```
-AddHours([currentDelivery/scheduling/@contactDate], 
+AddHours([currentDelivery/scheduling/@contactDate],
 [cusSendTimeScoreByClickprofile_link/@EMAIL_BEST_TIME_TO_CLICK_WEDNESDAY])
 ```
 
@@ -106,14 +101,17 @@ AddHours([currentDelivery/scheduling/@contactDate],
 >
 >Het datamodel kan verschillen, afhankelijk van uw implementatie.
 
-
 ## Voorspellende betrokkenheidsscore {#predictive-scoring}
 
-Met voorspellende betrokkenheidsscore kunt u het volgende doen:
+Met voorspellende scores voor betrokkenheid voorspelt u de waarschijnlijkheid dat een ontvanger een bericht zal ontvangen en de kans dat hij of zij het abonnement zal opzeggen (zal opzeggen) binnen de volgende 7 dagen na het volgende e-mailbericht.
 
-* **Een doelgroep selecteren**: met de queryactiviteit kunt u de doelgroep selecteren die u wilt aantrekken met een specifiek bericht
-* **Een doelgroep uitsluiten**: met de queryactiviteit kunt u de doelgroep verwijderen voor afmelden
-* **Personaliseren**: personaliseer berichten op basis van het betrokkenheidsniveau (sterk betrokken gebruikers krijgen een ander bericht dan niet-betrokken gebruikers)
+De waarschijnlijkheden worden verder verdeeld in emmers op basis van het verwachte niveau van betrokkenheid bij uw inhoud: hoog, gemiddeld of laag. Deze modellen bieden de klanten ook de percentiele positie van het niet-abonnementsrisico om te begrijpen waar de rang van een bepaalde klant ten opzichte van anderen is.
+
+Met voorspellende scores voor betrokkenheid kunt u:
+
+* **Een publiek selecteren**: door vraagactiviteit te gebruiken, kunt u het publiek selecteren om met een specifiek bericht in dienst te nemen
+* **Een publiek uitsluiten**: door vraagactiviteit te gebruiken, kunt u het publiek verwijderen dat waarschijnlijker is om af te melden
+* **Persoonlijk maken**: berichten personaliseren op basis van het betrokkenheidsniveau (zeer betrokken gebruikers krijgen een ander bericht dan niet-betrokken gebruikers)
 
 Dit model gebruikt meerdere scores om het volgende aan te geven:
 
@@ -128,13 +126,9 @@ Dit model gebruikt meerdere scores om het volgende aan te geven:
 >
 >Het model heeft minstens één maand aan data nodig om significante resultaten te produceren.
 
-
 **Modelinvoer**: leveringslogboeken, trackinglogboeken en specifieke profielkenmerken
 
 **Modeluitvoer**: een profielkenmerk dat de score en categorie van het profiel beschrijft
-
-
-### De betrokkenheidsscore gebruiken voor het e-mailkanaal
 
 Voor toegang tot deze cijfers moet u het volgende doen:
 
@@ -142,8 +136,6 @@ Voor toegang tot deze cijfers moet u het volgende doen:
 
 1. Klik op het tabblad **Engagement Scores for Email Channel**.
 
-Door een queryactiviteit in een workflow op te nemen kunt u de score gebruiken om uw doelgroep te optimaliseren.
-
-Een voorbeeld met de criteria voor **retentieniveau**:
+Door een queryactiviteit in een workflow op te nemen kunt u de score gebruiken om uw doelgroep te optimaliseren. Een voorbeeld met de criteria voor **retentieniveau**:
 
 ![](assets/do-not-localize/predictive_score_query.png)
