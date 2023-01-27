@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8b450d6570ae26a32daab185621319dd1ac3e983
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '913'
 ht-degree: 1%
 
 ---
@@ -43,20 +43,18 @@ Volg de onderstaande stappen om het toegangstoken OAuth te genereren.
 
 ### Nieuwe toepassing registreren {#register-a-new-app}
 
-1. Meld u aan bij portal.azure.com onder uw beheerdersaanmelding.
+1. Meld u aan bij [portal.azure.com](https://portal.azure.com){target="_blank"}.
 
 1. Klikken op **[!UICONTROL Azure Active Directory]** in het linkerzijmenu; klik vervolgens op **[!UICONTROL App registrations]** in het submenu dat wordt weergegeven.
 
 1. Klikken **[!UICONTROL New registration]** boven aan het scherm.
-
-   ![](assets/do-not-localize/MSdynACSIntegration-7.png)
 
 1. Vul het registratiescherm voor de app in:
 
    * Naam: adobe-campagne `<stage or prod>`
    * Ondersteund accounttype: **[!UICONTROL Accounts in this organizational directory only]** (standaardwaarde)
 
-Voor meer informatie over het maken van een nieuwe toepassing raadpleegt u [deze sectie](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
+Voor meer informatie over het maken van een nieuwe toepassing raadpleegt u [deze sectie](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
 
 >[!NOTE]
 >
@@ -65,8 +63,6 @@ Voor meer informatie over het maken van een nieuwe toepassing raadpleegt u [deze
 ### Klantgeheim genereren {#generate-a-client-secret}
 
 1. Klik in het scherm met het overzicht van de toepassing op het submenu links op **[!UICONTROL Certificates and Secrets > New client secret]**
-
-   ![](assets/do-not-localize/MSdynACSIntegration-8.png)
 
 1. Voer een beschrijving in, stel de duur in en klik op **[!UICONTROL OK]**.
 
@@ -81,13 +77,9 @@ Uw clientgeheim is nu gemaakt. Bewaar de waarde tijdelijk voor de voltooiing van
 
 1. Klik in dit scherm of in het overzichtsscherm van de app op **[!UICONTROL API permissions]** in het submenu links.  Na klikken **[!UICONTROL Add a permission]** moet u **[!UICONTROL Dynamics CRM]** in het menu.
 
-   ![](assets/do-not-localize/MSdynACSIntegration-9.png)
-
 1. Schakel vervolgens het selectievakje in voor **[!UICONTROL user_impersonation]** en klik op de knop **[!UICONTROL Add permissions]** knop.
 
-   ![](assets/do-not-localize/MSdynACSIntegration-10.png)
-
-Raadpleeg voor meer informatie over het instellen van machtigingen de [deze sectie](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis).
+Raadpleeg voor meer informatie over het instellen van machtigingen de [deze sectie](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis){target="_blank"}.
 
 ### De gebruiker van de app maken
 
@@ -109,7 +101,7 @@ Deze nieuwe gebruiker is een generieke gebruiker. Deze wordt door de toepassing 
    * **[!UICONTROL Full Name]**: Adobe API `<stage or prod>`
    * **[!UICONTROL Email]**: gelijk aan **[!UICONTROL User Name]** (of het e-mailbericht van de beheerder als u dat wenst)
 
-   Raadpleeg voor meer informatie over het maken van apps door gebruikers [deze sectie](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+   Raadpleeg voor meer informatie over het maken van apps door gebruikers [deze sectie](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}.
 
 1. Klik op het gebruikerspictogram en upload een Adobe Campaign-pictogram. Dit is het pictogram dat in de mening van de Chronologie zal worden getoond wanneer de nieuwe gebeurtenissen van de Adobe in Dynamiek 365 verschijnen.
 
@@ -128,7 +120,8 @@ Volg de instructies [op deze pagina](https://docs.microsoft.com/en-us/onedrive/f
 Volg onderstaande stappen om de Dynamics 365 App te integreren in uw Campaign Standard-omgeving:
 
 1. Ga naar de volgende koppeling: [https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps) en zoek naar _Adobe Campaign for Dynamics 365_ in de zoekbalk.
-U kunt ook naar dit item navigeren [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview).
+U kunt ook naar dit item navigeren [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview)
+{target="_blank"}.
 1. Volg de instructies om app voor uw instantie Dynamics 365 te installeren.
 1. Na geïnstalleerd, navigeer aan uw instantie van de Dynamiek 365 en teken binnen als beheerder.
 1. Klik op het tandwielpictogram in de rechterbovenhoek en klik op **[!UICONTROL Advanced Settings]**. Klik in de bovenste banner op de vervolgkeuzelijst naast **[!UICONTROL Settings]**, klikt u op **[!UICONTROL Processes]** krachtens **[!UICONTROL Process Center]**.
