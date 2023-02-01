@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
+source-git-commit: bfa34136950218d2fd56870247d39be00c725427
 workflow-type: ht
-source-wordcount: '7293'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ Er is informatie toegevoegd aan de pagina **[!UICONTROL Extract file]** workflow
 
 Aanvullende informatie bij de release van Campaign Standard 22.3 herfst/winter is gepubliceerd. [Meer informatie](release-notes.md)
 
-De bewaartermijnen van gegevens zijn bijgewerkt om veranderingen te weerspiegelen die met versie 22.3 komen. [Meer informatie](../../administration/using/data-retention.md)
+<!--Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)-->
 
 
 ## Release 22.2 - juni 2022 {#release-22-2}
