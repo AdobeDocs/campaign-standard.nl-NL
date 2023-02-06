@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 7243a97bdc8f0b6ecba42b606d048a3fbd322a63
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 30%
+source-wordcount: '1365'
+ht-degree: 25%
 
 ---
 
@@ -77,7 +77,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 >[!NOTE]
 >
->De toename van het aantal quarantaine is een normaal effect dat verband houdt met de &quot;slijtage&quot; van de database. Als de levensduur van een e-mailadres wordt beschouwd als drie jaar en de lijst met ontvangers jaarlijks met 50% groeit, kan de verhoging van het aantal quarantaines als volgt worden berekend: Einde van jaar 1: (1*0,33)/(1+0,5)=22%. Einde van jaar 2: ((1,22*0,33)+0,33)/(1,5+0,75)=32,5%.
+>De toename van het aantal quarantaine is een normaal effect dat verband houdt met de &quot;slijtage&quot; van de database. Bijvoorbeeld, als de levensduur van een e-mailadres wordt beschouwd als drie jaar en de ontvankelijke lijst met 50% elk jaar stijgt, kan de verhoging van quarantines als volgt worden berekend: Einde van jaar 1: 1&#42;0,33)/(1+0,5)=22%. Einde van jaar 2: (1,22)&#42;0,33)+0,33)/(1,5+0,75)=32,5%.
 
 Er zijn filters beschikbaar waarmee u door de lijst kunt bladeren. U kunt filteren op het adres, de status en/of het kanaal.
 
@@ -97,24 +97,14 @@ Definieer het adres (of telefoonnummer, enz.) en kanaaltype. U kunt een status i
 
 ![](assets/quarantines-create-last-delivery.png)
 
-### Het verwijderen van een quarantined adres {#removing-a-quarantined-address}
+## Een adres uit quarantaine verwijderen {#removing-a-quarantined-address}
 
-Indien nodig, kunt u een adres uit de quarantainelijst manueel verwijderen. Bovendien worden adressen die aan specifieke voorwaarden voldoen automatisch geschrapt uit de quarantainelijst door **[!UICONTROL Database cleanup]** workflow. (Voor meer informatie over technische workflows raadpleegt u [deze sectie](../../administration/using/technical-workflows.md#list-of-technical-workflows).)
 
-Als u een adres handmatig uit de quarantainelijst wilt verwijderen, voert u een van de onderstaande handelingen uit.
 
->[!IMPORTANT]
-Als u handmatig een e-mailadres uit quarantaine verwijdert, betekent dit dat u opnieuw gaat leveren aan dit adres. Dientengevolge, kan dit ernstige gevolgen op uw leverbaarheid en IP reputatie hebben, die uiteindelijk tot uw IP adres of verzendend domein zou kunnen leiden die worden geblokkeerd. Ga extra voorzichtig te werk wanneer u overweegt een adres uit quarantaine te verwijderen. Neem in geval van twijfel contact op met een leverancier.
 
-* Selecteer het adres in het menu **[!UICONTROL Administration > Channels > Quarantines > Addresses]** lijst en selecteer **[!UICONTROL Delete element]**.
+### Automatische updates {#unquarantine-auto}
 
-   ![](assets/quarantine-delete-address.png)
-
-* Een adres selecteren en het adres wijzigen **[!UICONTROL Status]** tot **[!UICONTROL Valid]**.
-
-   ![](assets/quarantine-valid-status.png)
-
-   U kunt ook de status wijzigen in **[!UICONTROL On allowlist]**. In dit geval blijft het adres op de quarantainelijst staan, maar het wordt systematisch als doel gebruikt, zelfs als er een fout optreedt.
+Adressen die specifieke voorwaarden aanpassen worden automatisch geschrapt uit de quarantainelijst door het opschoonwerkschema van het Gegevensbestand. Meer informatie over technische workflows vindt u op [deze sectie](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 
 De adressen worden automatisch verwijderd uit de quarantainelijst in de volgende gevallen:
 
@@ -124,10 +114,43 @@ De adressen worden automatisch verwijderd uit de quarantainelijst in de volgende
 
 Hun status verandert vervolgens in **[!UICONTROL Valid]**.
 
->[!IMPORTANT]
-Ontvangers met een adres in een **[!UICONTROL Quarantine]** of **[!UICONTROL On denylist]** de status wordt nooit automatisch verwijderd, zelfs niet als ze een e-mail ontvangen.
-
 Het maximumaantal pogingen dat moet worden uitgevoerd in het geval van **[!UICONTROL Erroneous]** status en de minimumvertraging tussen pogingen zijn nu gebaseerd op hoe goed IP zowel historisch als momenteel bij een bepaald domein presteert.
+
+
+>[!IMPORTANT]
+>
+>Ontvangers met een adres in een **[!UICONTROL Quarantine]** of **[!UICONTROL Denylisted]** de status wordt nooit verwijderd, zelfs niet als ze een e-mail ontvangen.
+
+
+### Handmatige updates {#unquarantine-manual}
+
+U kunt een adres ook handmatig uit de quarantaine verwijderen.  Als u een adres handmatig uit de quarantainelijst wilt verwijderen, kunt u het uit de quarantainelijst verwijderen of de status ervan wijzigen in **[!UICONTROL Valid]**.
+
+* Selecteer het adres in het menu **[!UICONTROL Administration > Channels > Quarantines > Addresses]** lijst en selecteer **[!UICONTROL Delete element]**.
+
+   ![](assets/quarantine-delete-address.png)
+
+* Een adres selecteren en het adres wijzigen **[!UICONTROL Status]** tot **[!UICONTROL Valid]**.
+
+   ![](assets/quarantine-valid-status.png)
+
+
+### Bulkupdates {#unquarantine-bulk}
+
+U zou bulkupdates op de quarantainelijst, bijvoorbeeld in het geval van een ISP stroomonderbreking kunnen moeten uitvoeren. In dat geval worden e-mails ten onrechte als bonnen gemarkeerd omdat ze niet met succes aan de ontvanger kunnen worden bezorgd. Deze adressen moeten uit de quarantainelijst worden verwijderd.
+
+Om dit te doen, creeer een werkschema en voeg toe **[!UICONTROL Query]** activiteit op uw quarantainetabel om alle getroffen ontvangers uit te filteren. Als deze eenmaal zijn geïdentificeerd, kunnen ze uit de quarantainelijst worden verwijderd en worden opgenomen in toekomstige e-mailleveringen voor campagnes.
+
+Gebaseerd op het tijdkader van het incident, hieronder zijn de geadviseerde richtlijnen voor deze vraag.
+
+* **Fouttekst (quarantainetekst)** bevat &quot;550-5.1.1&quot; EN **Fouttekst (quarantainetekst)** bevat &quot;support.ISP.com&quot;
+
+   waar &quot;support.ISP.com&quot; kan zijn: bijvoorbeeld &quot;support.apple.com&quot; of &quot;support.google.com&quot;
+
+* **Status bijwerken (@lastModified)** op of na MM/DD/YYYY HH:MM:SS AM
+* **Status bijwerken (@lastModified)** op of vóór MM/DD/YYYY HH:MM:SS PM
+
+Als u de lijst met betrokken ontvangers hebt, voegt u een **[!UICONTROL Update data]** activiteit om hun e-mailadresstatus in te stellen op **[!UICONTROL Valid]** zodat zij uit de quarantainelijst worden verwijderd door **[!UICONTROL Database cleanup]** workflow. U kunt ze ook gewoon uit de quarantainetabel verwijderen.
 
 ## Voorwaarden voor het in quarantaine plaatsen van een adres {#conditions-for-sending-an-address-to-quarantine}
 
@@ -145,7 +168,8 @@ Adobe Campaign beheert quarantaine op basis van leveringsfouten en de reden die 
 Als een gebruiker een e-mailbericht kwalificeert als spam ([feedbacklus](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)), wordt het bericht automatisch opnieuw gericht naar een technische brievenbus die door Adobe wordt beheerd. Het e-mailadres van de gebruiker wordt vervolgens automatisch in quarantaine geplaatst met de status **[!UICONTROL On denylist]**. Deze status verwijst alleen naar het adres, het profiel staat niet op de lijst van gewezen personen, zodat de gebruiker SMS-berichten en pushberichten blijft ontvangen.
 
 >[!NOTE]
-Quarantaine in Adobe Campaign is hoofdlettergevoelig. Zorg dat u de e-mailadressen in kleine letters importeert, zodat ze later niet opnieuw worden getarget.
+>
+>Quarantaine in Adobe Campaign is hoofdlettergevoelig. Zorg dat u de e-mailadressen in kleine letters importeert, zodat ze later niet opnieuw worden getarget.
 
 In de lijst met adressen in quarantaine (zie [In quarantaine geplaatste adressen voor het volledige platform identificeren](#identifying-quarantined-addresses-for-the-entire-platform)) geeft het veld **[!UICONTROL Error reason]** aan waarom het geselecteerde adres in quarantaine werd geplaatst.
 
