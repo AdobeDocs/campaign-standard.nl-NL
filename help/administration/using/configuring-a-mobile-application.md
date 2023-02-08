@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1260'
 ht-degree: 4%
 
 ---
@@ -50,9 +50,7 @@ Met deze stap kan de gebruiker zich aanmelden bij de gebruikersinterface voor ge
 
 1. Klik in de gebruikersinterface van de gegevensverzameling op de knop **[!UICONTROL Extensions]** tab, ga naar **[!UICONTROL Catalog]** en zoek naar **[!UICONTROL Adobe Campaign Standard]** extensie. Zie voor meer informatie [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
-1. Installeer de **[!UICONTROL Places]** en de **[!UICONTROL Places Monitor]** extensie.
-   * Installeer de **[!UICONTROL Places]** in de UI voor gegevensverzameling. Zie dit [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
-   * Installeer de **[!UICONTROL Places Monitor]** in de UI voor gegevensverzameling. Zie dit [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)
+1. Installeer de **[!UICONTROL Places]** in de UI voor gegevensverzameling. Zie dit [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
 
 1. In Adobe Campaign Standard, vorm het mobiele bezit dat u in de Inzameling UI van Gegevens creeerde. Zie [Een Adobe Experience Platform Launch-toepassing instellen in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
