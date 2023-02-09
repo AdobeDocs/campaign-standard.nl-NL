@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '5357'
+source-wordcount: '5355'
 ht-degree: 6%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 6%
   </tr> 
   <tr> 
    <td> Integratie met Adobe starten voor mobiele apps (bèta)<br /> </td> 
-   <td> Adobe De integratie van de Lancering met Adobe Campaign vereenvoudigt en automatiseert nu het proces van de Activering van het Bezit van de Mobiele App in Campagne gebruikend Mobile SDK V5.<br /> Raadpleeg de <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Adobe De integratie van de Lancering met Adobe Campaign vereenvoudigt en automatiseert nu het proces van de Activering van het Bezit van de Mobiele App in Campagne gebruikend Mobile SDK V5.<br /> Raadpleeg de <a href="https://helpx.adobe.com/nl/campaign/kb/configuring-app-sdk.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -195,7 +195,7 @@ ht-degree: 6%
  <tbody> 
   <tr> 
    <td> GDPR: Core Service Integration<br /> </td> 
-   <td> De Integratie van de Dienst van de Kern van de privacy staat u toe om uw verzoeken GDPR in een multi-oplossingscontext door één enkele vraag van JSON API te automatiseren. <br /> GDPR-aanvragen die van de Privacy Core Service naar alle Experience Cloud-oplossingen worden geduwd, worden nu automatisch door de Campagne afgehandeld. <br /> Raadpleeg de <a href="https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> De Integratie van de Dienst van de Kern van de privacy staat u toe om uw verzoeken GDPR in een multi-oplossingscontext door één enkele vraag van JSON API te automatiseren. <br /> GDPR-aanvragen die van de Privacy Core Service naar alle Experience Cloud-oplossingen worden geduwd, worden nu automatisch door de Campagne afgehandeld. <br /> Raadpleeg de <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Push-verbeteringen - gedetailleerde feedback voor levering<br /> </td> 
@@ -297,7 +297,7 @@ _Aangepaste resources_
     <ul> 
      <li> Recht op toegang: staat de betrokkene toe een kopie te ontvangen van zijn persoonsgegevens die door gegevensverwerkingsverantwoordelijken zijn vastgelegd, met inbegrip van gegevens die mogelijk in Adobe Campaign zijn opgeslagen. </li> 
      <li> Rechts om te verwijderen: geeft de betrokkene het recht zijn persoonsgegevens te laten wissen door gegevensverwerkingsverantwoordelijken, eventueel met inbegrip van gegevens die in Adobe Campaign zijn opgeslagen. </li> 
-    </ul> Raadpleeg de <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+    </ul> Raadpleeg de <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer voor e-mail (bèta)<br /> </td> 

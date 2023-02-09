@@ -1,6 +1,6 @@
 ---
 title: Content ontwerpen in Adobe Campaign
-description: Maak vanaf het begin e-mailinhoud, importeer HTML of gebruik bestaande sjablonen.
+description: Maak vanaf het begin e-mailcontent, importeer HTML of gebruik bestaande sjablonen.
 audience: designing
 content-type: reference
 topic-tags: about-content-design
@@ -8,10 +8,10 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 87%
+source-wordcount: '1239'
+ht-degree: 88%
 
 ---
 
@@ -119,7 +119,7 @@ Als u Email Designer goed wilt gebruiken en op de eenvoudigste manier de beste e
 
 * De meta-tag Referrer wordt niet ondersteund in de e-mailontwerper.
 
-Meer best practices voor algemeen gebruik en ontwerp vindt u in de volgende stapsgewijze Adobe Campaign-handleiding: [Best practices voor levering met Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html?lang=nl).
+Meer best practices voor algemeen gebruik en ontwerp vindt u in de volgende stapsgewijze Adobe Campaign-handleiding: [Best practices voor levering met Adobe Campaign](../../sending/using/delivery-best-practices.md).
 
 ### Fragmenten bijwerken {#email-designer-updates}
 

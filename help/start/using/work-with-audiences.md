@@ -1,13 +1,13 @@
 ---
 title: Lijsten aanpassen
-description: '"Leer hoe u de weergave kunt aanpassen en hoe u kunt werken op lijstschermen in Adobe Campaign Standard:elementen sorteren, filteren, verwijderen of dupliceren. De schermen van lijsten tonen elementen van één of verscheidene bepaalde middelen."'
+description: "Leer hoe u de weergave kunt aanpassen en hoe u kunt werken op lijstschermen in Adobe Campaign Standard:elementen sorteren, filteren, verwijderen of dupliceren. De schermen van lijsten tonen elementen van één of verscheidene bepaalde middelen."
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 9%
+source-wordcount: '776'
+ht-degree: 7%
 
 ---
 
@@ -125,7 +125,7 @@ Dankzij de workflows en de query-editor kunt u een publiek maken dat de verschil
 
 GDPR is de nieuwe privacywet van de Europese Unie (EU) die de vereisten inzake gegevensbescherming harmoniseert en moderniseert. AVG is van toepassing op Adobe Campaign-klanten die data bewaren voor in de EU wonende betrokken personen. Naast de privacymogelijkheden die al beschikbaar zijn in Adobe Campaign (waaronder beheer van toestemming, instellingen voor gegevensbewaring en gebruikersrollen), maken we van deze gelegenheid gebruik in onze rol als gegevensverwerker om extra mogelijkheden op te nemen, zodat u gemakkelijker klaar bent als Data Controller voor bepaalde GDPR-verzoeken.
 
-Zie dit [hulplijn](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html) voor meer informatie over de tools en functies die Adobe Campaign biedt om u te helpen aan de GDPR-standaard te voldoen.
+Zie [deze sectie](../../start/using/privacy.md) voor meer informatie over de tools en functies die Adobe Campaign biedt om u te helpen aan de GDPR-standaard te voldoen.
 
 **Meer informatie**
 

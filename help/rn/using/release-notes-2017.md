@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '4569'
+source-wordcount: '4562'
 ht-degree: 8%
 
 ---
@@ -392,7 +392,7 @@ _Pushmeldingen_
   </tr> 
   <tr> 
    <td> Dreamweaver-integratie (Labs)<br /> </td> 
-   <td> Dankzij de integratie met Adobe Campaign en Dreamweaver hebt u nu een geïntegreerd proces voor het maken van e-mailcampagnes met Adobe-oplossingen.<br /> U kunt Adobe Campaign-e-mailberichten bewerken in Dreamweaver en de inhoud naadloos laten synchroniseren tussen beide oplossingen.<br /> Voor de eerste release is de integratie beschikbaar als een 'Labs'-functie en werkt deze alleen met Dreamweaver Pre Release Beta. Neem contact op met AC-DW-integration@adobe.com als u dit wilt activeren.<br /> Raadpleeg deze voor meer informatie <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">video</a>.<br /> </td> 
+   <td> Dankzij de integratie met Adobe Campaign en Dreamweaver hebt u nu een geïntegreerd proces voor het maken van e-mailcampagnes met Adobe-oplossingen.<br /> U kunt Adobe Campaign-e-mailberichten bewerken in Dreamweaver en de inhoud naadloos laten synchroniseren tussen beide oplossingen.<br /> Voor de eerste release is de integratie beschikbaar als een 'Labs'-functie en werkt deze alleen met Dreamweaver Pre Release Beta. Neem contact op met AC-DW-integration@adobe.com als u dit wilt activeren.<br /> Raadpleeg deze voor meer informatie <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=nl">video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Tijdoptimalisatie voor handmatig verzenden<br /> </td> 
@@ -489,9 +489,9 @@ _Workflows_
   </tr> 
   <tr> 
    <td> Transactieberichten-API<br /> </td> 
-   <td> De API voor Transactieberichten is nu beschikbaar via <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.io</a>, waardoor het gemakkelijker wordt te gebruiken en te controleren:<br /> 
+   <td> De API voor transactief berichtenverkeer is nu beschikbaar, waardoor het gemakkelijker is om te gebruiken en te controleren:<br /> 
     <ul> 
-     <li> U kunt profiteren van de rapportage- en monitoringmogelijkheden van het platform adobe.io. </li> 
+     <li> U kunt profiteren van de rapportage- en bewakingsfuncties van het Adobe Developer-platform. </li> 
      <li> De verificatie wordt nu uitgevoerd met de op adobe.io-token gebaseerde verificatie in plaats van IP-voegende op lijst van gewenste personen, waardoor het beveiligingsproces eenvoudiger wordt. </li> 
      <li> Alle API's zijn nu geïntegreerd op één platform, waardoor het eenvoudiger dan ooit is om transactionele communicatiemogelijkheden toe te voegen aan uw integratie als u de profiel- en services-API al ondersteunt. </li> 
     </ul> </td> 

@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: bfa34136950218d2fd56870247d39be00c725427
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '7279'
+source-wordcount: '7229'
 ht-degree: 100%
 
 ---
@@ -422,7 +422,7 @@ Microsoft Dynamics 365-integratie (GA) - [Meer informatie](../../integrating/usi
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
-De lijst met foutberichten voor Adobe Campaign is bijgewerkt. [Meer informatie](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+De lijst met foutberichten voor Adobe Campaign is bijgewerkt. [Meer informatie](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=nl)
 
 De handleiding om aan de slag te gaan met de AVG is verbeterd en verrijkt. Het is nu een documentatie over privacybeheer, waaronder AVG en CCPA. [Meer informatie](https://helpx.adobe.com/content/help/nl/campaign/kb/campaign-privacy.html)
 
@@ -504,7 +504,7 @@ Er is een nieuwe sectie toegevoegd over de aanbevolen updates voor Email Designe
 
 Er is een nieuwe sectie toegevoegd over best practices voor workflows. [Meer informatie](../../automating/using/best-practices-workflows.md)
 
-De lijst met foutberichten voor Campaign Standard en Classic is bijgewerkt. [Meer informatie](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+De lijst met foutberichten voor Campaign Standard en Classic is bijgewerkt. [Meer informatie](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=nl)
 
 Er is een waarschuwing toegevoegd in de documentatie over aangepaste resources. We raden u aan maximaal 30 tekens te gebruiken voor aangepaste resource-id’s. Dit geldt ook voor aangepaste resourcevelden, sleutels, indexen en koppelingen. [Meer informatie](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -516,7 +516,7 @@ Er is een gebruiksscenario toegevoegd over het aanroepen van een profiel met een
 
 Er is een aanbeveling toegevoegd betreffende het gebruik van terugkerende leveringen zonder aggregatieperiode bij het aanroepen van een workflow met parameters. [Meer informatie](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-De lijst met foutberichten voor Campaign Standard en Classic is bijgewerkt. [Meer informatie](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+De lijst met foutberichten voor Campaign Standard en Classic is bijgewerkt. [Meer informatie](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=nl)
 
 Er is een waarschuwing toegevoegd in de documentatie over aangepaste resources. We raden u aan maximaal 30 tekens te gebruiken voor aangepaste resource-id’s. Dit geldt ook voor aangepaste resourcevelden, sleutels, indexen en koppelingen. [Meer informatie](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -624,7 +624,7 @@ Er is een nieuwe technische opmerking toegevoegd over het weergeven van een afbe
 
 Er is een nieuwe technische opmerking toegevoegd over de implementatie van historypushtracering. [Meer informatie](../../administration/using/push-tracking.md)
 
-De lijst met foutberichten voor Campaign Standard en Classic is bijgewerkt. [Meer informatie](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+De lijst met foutberichten voor Campaign Standard en Classic is bijgewerkt. [Meer informatie](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=nl)
 
 De documentatie over de integratie van Triggers met Campaign is bijgewerkt. [Meer informatie](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -748,7 +748,7 @@ Er is een sectie in de API-documentatie toegevoegd betreffende **aangepaste filt
 
 **Nieuwe mogelijkheden die in de release zijn opgenomen**
 
-AVG: kernservice-integratie - [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html)
+AVG: kernservice-integratie - [Meer informatie](../../start/using/privacy-management.md)
 
 Pushverbeteringen - Gedetailleerde leveringsfeedback - [Meer informatie](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
@@ -782,7 +782,7 @@ Sommige pagina’s van de documentatie over de contenteditor zijn samengevoegd v
 
 **Nieuwe mogelijkheden die in de release zijn opgenomen**
 
-Algemene EU-verordening inzake gegevensbescherming (AVG) - [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy.html)
+Algemene EU-verordening inzake gegevensbescherming (AVG) - [Meer informatie](../../start/using/privacy.md)
 
 Creative Designer voor e-mail - [Meer informatie](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -822,7 +822,7 @@ De activiteit Verrijking - Data verrijken op basis van eerdere overgangen - [Mee
 
 De meeste URL’s voor de integratie van Campaign met andere Adobe-oplossingen zijn gewijzigd. Controleer uw bladwijzers. [Meer informatie](../../integrating/using/get-started-campaign-integrations.md)
 
-Het datamodel v1 is nu beschikbaar met de SQL-structuur voor ingebouwde resources - [Meer informatie](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/datamodel/datamodel-audience.html?lang=nl)
+Het datamodel v1 is nu beschikbaar met de SQL-structuur voor ingebouwde resources - [Meer informatie](../../developing/using/datamodel-introduction.md)
 
 Er is informatie toegevoegd over het voorbereiden van een bericht in een levering - [Meer informatie](../../sending/using/preparing-the-send.md)
 
@@ -950,7 +950,7 @@ Er is documentatie toegevoegd over rapporten met actieve profielen. [Meer inform
 
 De documentatie over [Leveringswaarschuwingen](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons) is bijgewerkt met een sectie over probleemoplossing waarin een aantal tips zijn opgenomen over de acties die u kunt uitvoeren wanneer u waarschuwingen ontvangt.
 
-Er is een nieuwe handleiding Aan de slag beschikbaar. Hierin vindt u enkele best practices die u kunt gebruiken voor Adobe Campaign, van het maken en targeten tot het verzenden en controleren. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-standard/using/communication-channels/delivery-bestpractices/delivery-best-practices.html?lang=nl)
+Er is een nieuwe handleiding Aan de slag beschikbaar. Hierin vindt u enkele best practices die u kunt gebruiken voor Adobe Campaign, van het maken en targeten tot het verzenden en controleren. [Meer informatie](../../sending/using/delivery-best-practices.md)
 
 De documentatie over vervolgberichten is bijgewerkt met een verbeterd gebruiksscenario. [Meer informatie](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 

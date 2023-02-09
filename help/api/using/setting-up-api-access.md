@@ -8,23 +8,23 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '369'
 ht-degree: 1%
 
 ---
 
 # API-toegang instellen {#setting-up-api-access}
 
-Adobe Campaign Standard API-toegang wordt ingesteld via de onderstaande stappen. Elk van deze stappen wordt beschreven in [Adobe IO-documentatie](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+Adobe Campaign Standard API-toegang wordt ingesteld via de onderstaande stappen. Elk van deze stappen wordt beschreven in [Adobe Developer-documentatie](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!IMPORTANT]
 >
->Om certificaten in Adobe IO te beheren, zorg ervoor u hebt <b>Systeembeheerder</b> rechten van de organisatie of [ontwikkelaarsaccount](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a> in de Admin Console.
+>Certificaten beheren in [Adobe Developer](https://developer.adobe.com/), zorg ervoor dat u **Systeembeheerder** rechten van de organisatie of [ontwikkelaarsaccount](https://helpx.adobe.com/enterprise/using/manage-developers.html) in de Admin Console.
 
 1. **Controleer of u een digitaal certificaat hebt** of maak indien nodig een sjabloon. De openbare en persoonlijke sleutels die van het certificaat worden voorzien zijn vereist in de volgende stappen.
-1. **Een nieuwe integratie met Adobe Campaign Service maken** in Adobe IO en vorm het. Uw referenties worden vervolgens gegenereerd (API-sleutel, clientgeheim...).
+1. **Een nieuwe integratie met Adobe Campaign Service maken** in [Adobe Developer](https://developer.adobe.com/) en configureren. Uw referenties worden vervolgens gegenereerd (API-sleutel, clientgeheim...).
 1. **Een JSON-webtoken (JWT) maken** uit de eerder gegenereerde referenties en deze ondertekenen met uw persoonlijke sleutel. De JWT codeert alle identiteits- en beveiligingsgegevens die Adobe nodig heeft om uw identiteit te verifiëren en u toegang tot de API te verlenen.
 1. **Uitwisseling uw JWT voor een Token van de Toegang** via een verzoek van de POST. Dit toegangstoken moet worden gebruikt in elke header van uw API-aanvragen.
 
@@ -43,7 +43,7 @@ Om een veilige service-to-service Adobe I/O API-sessie tot stand te brengen, moe
    * &lt;organization> : uw productieexemplaar,
    * &lt;organization-mkt-stage>: de instantie van het werkgebied.
 
-   Raadpleeg de beheerder of uw technische contactpersoon voor Adobe om de waarde van uw ORGANISATIE-id op te vragen. U kunt het in Adobe I/O ook terugwinnen wanneer het creëren van een nieuwe integratie, in de vergunningslijst (zie <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe IO-documentatie</a>).
+   Raadpleeg de beheerder of uw technische contactpersoon voor Adobe om de waarde van uw ORGANISATIE-id op te vragen. U kunt het in Adobe I/O ook terugwinnen wanneer het creëren van een nieuwe integratie, in de vergunningslijst (zie <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer-documentatie</a>).
 
 * **&lt;access_token>**: Uw persoonlijk toegangstoken, dat werd teruggewonnen toen het ruilen van uw Token van het Web JSON door een verzoek van de POST.
 

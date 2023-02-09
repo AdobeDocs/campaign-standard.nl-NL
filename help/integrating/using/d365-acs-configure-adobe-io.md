@@ -1,6 +1,6 @@
 ---
-title: De integratie van Adobe IO voor Microsoft Dynamics 365 configureren
-description: Leer hoe te om Adobe IO voor de Integratie van de Dynamica 365 van Microsoft te vormen.
+title: Integratie van Adobe Developer for Microsoft Dynamics 365 configureren
+description: Leer hoe u de integratie van Adobe Developer for Microsoft Dynamics 365 configureert
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
@@ -8,14 +8,14 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
-# Adobe Campaign Standard en Adobe I/O Configuration for the Microsoft Dynamics 365 integration
+# Adobe Campaign Standard en Adobe Developer Configuration for the Microsoft Dynamics 365 integration
 
 Dit artikel zal verklaren hoe te om Adobe Campaign Standard en Adobe I/O te vormen om de integratietoepassing toegang tot de gegevens te geven.
 
@@ -43,13 +43,13 @@ Alvorens de pre-integratieopstelling in dit artikel uit te voeren, wordt veronde
 
 ### Configuratie
 
-U zult een nieuw project van Adobe IO moeten creëren en het voor de integratie vormen.
+U zult een nieuw project van Adobe Developer moeten creëren en het voor de integratie vormen.
 
 #### Een nieuw project maken
 
 Hiervoor volgt u de onderstaande procedure:
 
-1. Navigeren naar [Adobe IO-console](https://console.adobe.io/home#) en selecteer uw organisatie-id voor Adobe in het keuzemenu rechtsboven in het scherm.
+1. Navigeren naar [Adobe Developer Console](https://console.adobe.io/home#) en selecteer uw organisatie-id voor Adobe in het keuzemenu rechtsboven in het scherm.
 
 1. Klik vervolgens op **[!UICONTROL Create new project]** krachtens **[!UICONTROL Quick Start]**.
 
@@ -63,13 +63,13 @@ Hiervoor volgt u de onderstaande procedure:
 
    ![](assets/adobeIO3.png)
 
-1. Op het volgende scherm kunt u uw eigen openbare sleutel uploaden of Adobe IO de sleutel laten genereren voor u. Deze instructies volgen de laatste optie. Als u besluit Adobe IO te laten het zeer belangrijke paar produceren, klik op optie 1; Klik vervolgens op de knop **[!UICONTROL Generate keypair]** knop.
+1. Op het volgende scherm kunt u uw eigen openbare sleutel uploaden of Adobe Developer de sleutel laten genereren voor u. Deze instructies volgen de laatste optie. Als u besluit Adobe Developer toe te laten het zeer belangrijke paar produceren, klik op optie 1; Klik vervolgens op de knop **[!UICONTROL Generate keypair]** knop.
 
    ![](assets/adobeIO4.png)
 
 1. In het volgende scherm wordt u gevraagd een naam te geven en de downloadlocatie van het zip-bestand met sleutelpaar te selecteren.
 
-Nadat u het bestand hebt gedownload, kunt u het uitpakken om de openbare en persoonlijke sleutels weer te geven. Adobe IO heeft reeds de openbare sleutel op uw Adobe IO project toegepast. U moet uw persoonlijke sleutel voor later behouden; de persoonlijke sleutel wordt gebruikt tijdens de installatie vóór de integratie van het integratieprogramma.
+Nadat u het bestand hebt gedownload, kunt u het uitpakken om de openbare en persoonlijke sleutels weer te geven. Adobe Developer heeft de openbare sleutel al toegepast op uw Adobe Developer-project. U moet uw persoonlijke sleutel voor later behouden; de persoonlijke sleutel wordt gebruikt tijdens de installatie vóór de integratie van het integratieprogramma.
 
 1. Klikken **[!UICONTROL Next]** blijven
 
@@ -83,7 +83,7 @@ Nadat u het bestand hebt gedownload, kunt u het uitpakken om de openbare en pers
 
    ![](assets/adobeIO6.png)
 
-1. Op het volgende scherm zult u de details van uw nieuw Adobe IO project zien. Klikken **[!UICONTROL Add to Project]** links boven in het scherm en selecteert u **API** in de vervolgkeuzelijst.
+1. Op het volgende scherm ziet u de details van uw nieuwe Adobe Developer-project. Klikken **[!UICONTROL Add to Project]** links boven in het scherm en selecteert u **API** in de vervolgkeuzelijst.
 
    ![](assets/adobeIO7.png)
 
@@ -101,10 +101,10 @@ Installatie vóór integratie in campagne is nu voltooid.
 
 **Verwante onderwerpen**
 
-* [Adobe IO configureren voor integratie met Microsoft Dynamics 365](../../integrating/using/d365-acs-configure-adobe-io.md) is de volgende stap bij het opzetten van de integratie
+* [Integratie van Adobe Developer for Microsoft Dynamics 365 configureren](../../integrating/using/d365-acs-configure-adobe-io.md) is de volgende stap bij het opzetten van de integratie
 * [Het overzicht van de toepassing van de Zelfbediening van de integratie](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) bevat de volledige lijst met stappen om de integratie op gang te brengen.
 
 
-* [Adobe IO - Integratie van serviceaccount](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
+* [Adobe Developer - Integratie van serviceaccount](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - API Access Setup](../../api/using/setting-up-api-access.md)
 * [Campaign Standard - Integratie met Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
