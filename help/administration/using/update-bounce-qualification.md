@@ -4,16 +4,14 @@ description: Leer hoe te om stuitkwalificatie na een ISP stroomonderbreking bij 
 audience: delivery
 hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '425'
 ht-degree: 4%
 
 ---
 
 # Kwalificatie van niet-bezorging bijwerken na een ISP-uitval {#update-bounce-qualification.md}
-
-Als u NIET de recentste versie van Campagne in werking stelt, kan deze sectie op u van toepassing zijn. Neem contact op met uw Adobe Campaign-vertegenwoordiger.
 
 ## Context
 

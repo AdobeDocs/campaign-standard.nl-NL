@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken.
 title: Campaign Standard-handleiding
 breadcrumb-title: Documentatie voor Adobe Campaign Standard
-source-git-commit: 7243a97bdc8f0b6ecba42b606d048a3fbd322a63
+source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
 workflow-type: tm+mt
-source-wordcount: '1822'
-ht-degree: 99%
+source-wordcount: '1814'
+ht-degree: 100%
 
 ---
 
@@ -182,7 +182,6 @@ ht-degree: 99%
       + [Waarschuwingen ontvangen wanneer fouten optreden](sending/using/receiving-alerts-when-failures-happen.md)
       + [Leveringsfouten begrijpen](sending/using/understanding-delivery-failures.md)
       + [Werken met quarantainebeheer](sending/using/understanding-quarantine-management.md)
-      + [Onjuiste vaste bedragen bijwerken na Italia Online-storing](sending/using/update-bounce-it.md)
    + Leverbaarheid beheren {#managing-deliverability}
       + [Informatie over leverbaarheid](sending/using/about-deliverability.md)
       + [E-mailcontent controleren](sending/using/control-email-content.md)
