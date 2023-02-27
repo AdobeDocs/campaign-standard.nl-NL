@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6c96a5d294c6e96d20571d176898290c9c026f0b
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 90%
+source-wordcount: '1591'
+ht-degree: 89%
 
 ---
 
@@ -20,6 +20,10 @@ Een beheerder moet een of meer externe accounts configureren in het menu **[!UIC
 De stappen voor het maken en wijzigen van een extern account worden beschreven in de sectie [Externe accounts](../../administration/using/external-accounts.md). Hieronder vindt u de parameters die specifiek zijn voor externe accounts bij het verzenden van sms-berichten.
 
 ## Een sms-routering bepalen {#defining-an-sms-routing}
+
+>[!IMPORTANT]
+>
+>Het gebruik van hetzelfde account en wachtwoord voor meerdere externe SMS-accounts kan leiden tot conflicten en overlapping tussen de accounts. Zie de [De pagina voor probleemoplossing via SMS](troubleshooting-sms.md#external-account-conflict).
 
 Het externe account **[!UICONTROL SMS routing via SMPP]** wordt standaard opgegeven, maar het kan nuttig zijn om andere accounts toe te voegen.
 
