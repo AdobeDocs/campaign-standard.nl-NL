@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: c2c8d2d05bbc376e2153448ca0a9e6ba0f367420
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 95%
+source-wordcount: '558'
+ht-degree: 78%
 
 ---
 
@@ -42,13 +42,10 @@ De activiteit **[!UICONTROL Reconciliation]** wordt hoofdzakelijk gebruikt voor 
 
    U kunt dan bijvoorbeeld een doelgroep opslaan, de database bijwerken, enzovoort.
 
-De activiteit **[!UICONTROL Reconciliation]** kan bijvoorbeeld na een activiteit voor het laden van data worden geplaatst met het doel om niet-standaarddata in de database te importeren.
+De **[!UICONTROL Reconciliation]** activiteit kan na een activiteit van ladingsgegevens worden geplaatst om niet-standaardgegevens in het gegevensbestand in te voeren.
 
-**Verwante onderwerpen:**
+Terwijl de **Verrijking** activiteit staat u toe om extra gegevens te bepalen in uw werkschema (gebruik **Verrijking** activiteit om gegevens te combineren die uit veelvoudige reeksen komen, of om verbindingen met een tijdelijke middel tot stand te brengen), **Verzoening** Met activiteit kunt u niet-geïdentificeerde gegevens koppelen aan bestaande bronnen. De afstemmingsoperatie houdt in dat de gegevens van de gekoppelde afmetingen al in de database staan. Gebruiksscenario&#39;s zijn beschikbaar in [deze sectie](#use-cases-reconciliation).
 
-* [Hoofdlettergebruik: Afstemming van gegevens met behulp van relaties](../../automating/using/reconciliation-using-relations.md)
-* [Hoofdlettergebruik: Gegevensupdate met afstemming](../../automating/using/data-update-reconciliation.md)
-* [Hoofdlettergebruik: Een bestandspubliek in overeenstemming brengen met de database](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuratie {#configuration}
 
@@ -70,3 +67,12 @@ De activiteit **[!UICONTROL Reconciliation]** kan bijvoorbeeld na een activiteit
    * **[!UICONTROL Keep in the outbound population]**: Alle data van de binnenkomende overgang blijven behouden in de uitgaande overgang van de activiteit.
 
 1. Bevestig de configuratie van uw activiteit en sla de workflow op.
+
+
+## Gebruiksscenario’s{#use-cases-reconciliation}
+
+Leer hoe u deze activiteit in de volgende gebruiksgevallen kunt gebruiken:
+
+* [Hoofdlettergebruik: Afstemming van gegevens met behulp van relaties](../../automating/using/reconciliation-using-relations.md)
+* [Hoofdlettergebruik: Gegevensupdate met afstemming](../../automating/using/data-update-reconciliation.md)
+* [Hoofdlettergebruik: Een bestandspubliek in overeenstemming brengen met de database](../../automating/using/reconcile-file-audience-with-database.md)
