@@ -5,20 +5,20 @@ feature: Profiles
 role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0ae2501b5c3ecf6dc9562bb53b5354c52aff7323
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Actieve profielen{#active-profiles}
 
-Functionele beheerders van campagnes hebben toegang tot de **[!UICONTROL Customer metrics]** verslag van **[!UICONTROL Administration > Customer metrics]**.
+U hebt toegang tot de gegevens over actieve profielen via de **[!UICONTROL Customer metrics]** verslag. Dit rapport is beschikbaar aan de functionele beheerders van de Campagne slechts. Als u dit rapport wilt openen, klikt u op het Adobe Campaign-pictogram linksboven in het dialoogvenster [gebruikersinterface](../../start/using/interface-description.md#advanced-menu)en blader naar **[!UICONTROL Administration > Customer metrics]**.
 
 ![](assets/audience_customer_metrics.png)
 
-Dit rapport wordt elke maand gegenereerd door de **[!UICONTROL Billing]** technische workflow en geeft het aantal **actieve profielen**.
+Dit rapport wordt elke maand gegenereerd door de **[!UICONTROL Billing]** technische workflow en geeft het aantal **actieve profielen**. Meer informatie over technische workflows vindt u in [deze pagina](../../administration/using/technical-workflows.md).
 
 Een &quot;Profiel&quot;is een verslag van informatie die een eindklant, vooruitzicht, of lood vertegenwoordigt. Profielen worden in overweging genomen **actief** als zij in de afgelopen twaalf maanden via een kanaal het doelwit zijn geweest van een campagne.
 
