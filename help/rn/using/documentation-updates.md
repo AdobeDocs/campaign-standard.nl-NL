@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: ht
-source-wordcount: '7229'
+source-wordcount: '7230'
 ht-degree: 100%
 
 ---
@@ -330,7 +330,7 @@ Er is meer gedetailleerde informatie over de Enhanced MTA toegevoegd aan de kern
 
 De sectie met betrekking tot archivering met Email BCC is verplaatst en bijgewerkt. [Meer informatie](../../sending/using/archiving.md)
 
-De documentatie over het configureren van een mobiele app en de bijbehorende pagina’s zijn bijgewerkt om de afschaffing van SDK V4 weer te geven. [Meer informatie](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
+De documentatie over het configureren van een mobiele app en de bijbehorende pagina’s zijn bijgewerkt om de afschaffing van SDK V4 weer te geven. [Meer informatie](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)
 
 De documentatie over de Adobe Experience Manager-integratie met Adobe Campaign Standard is bijgewerkt en verbeterd. [Meer informatie](../../integrating/using/configure-experience-manager.md)
 
