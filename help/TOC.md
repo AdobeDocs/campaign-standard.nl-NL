@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken.
 title: Campaign Standard-handleiding
 breadcrumb-title: Documentatie voor Adobe Campaign Standard
-source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
+source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
 workflow-type: tm+mt
-source-wordcount: '1814'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -121,6 +121,7 @@ ht-degree: 100%
    + Transactionele berichten {#transactional-messaging}
       + [Aan de slag met transactionele berichten](channels/using/getting-started-with-transactional-msg.md)
       + [Best practices en beperkingen](channels/using/transactional-messaging-limitations.md)
+      + [Updates voor transactiemeldingmachtigingen](channels/using/transactional-message-permission.md)
       + Configuratie van gebeurtenissen {#event-configuration}
          + [Een transactionele gebeurtenis configureren](channels/using/configuring-transactional-event.md)
          + [Een transactionele gebeurtenis publiceren](channels/using/publishing-transactional-event.md)
