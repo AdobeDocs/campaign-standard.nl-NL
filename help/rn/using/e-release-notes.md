@@ -1,28 +1,13 @@
 ---
-title: Vroege aanvullende informatie
-description: Vroege aanvullende informatie
-feature: Overview
-role: User
-level: Beginner
-hide: true
-hidefromtoc: true
-exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 1cfc5d51c3eeff35664118f3ee114a40067db3cc
-workflow-type: ht
-source-wordcount: '147'
-ht-degree: 100%
+source-git-commit: 48b6c5de8871e9e1f12c91474376abc53a199bc8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
-
-# Vroege aanvullende informatie {#e-new-release}
-
-Op deze pagina worden nieuwe verbeteringen en oplossingen beschreven die in de volgende release van Campaign Standard zijn opgenomen.
-
 >[!CAUTION]
 >
 > Deze content kan zonder voorafgaande kennisgeving worden gewijzigd tot de upgradedatum van de werkgebiedomgevingen. Meer informatie vindt u op de [releaseplanningspagina](../../rn/using/release-planning.md).
-
 ## Release 22.3.2 {#dec-22}
 
 ### Beveiligingsupdate{#rn-security2}
@@ -41,4 +26,3 @@ Deze release wordt geleverd met de volgende beveiligingsupgrade: Apache Tomcat i
 * Probleem verholpen met betrekking tot de leveringsindicatoren in het leveringsdashboard die niet overeenkwamen met het verzenden van logboeken (nms:broadLogRcp). (CAMP-51127)
 * Probleem verholpen waarbij uitbreiding van aangepaste bronnen met ACS-connector (prime-aanbieding) werd voorkomen. (CAMP-51033)
 * Verbeterde publicatieprocedure voor reacties op privacyverzoeken om vertraging te voorkomen. (CAMP-50613)
-
