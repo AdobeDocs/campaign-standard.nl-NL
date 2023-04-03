@@ -1,13 +1,27 @@
 ---
-source-git-commit: 48b6c5de8871e9e1f12c91474376abc53a199bc8
+title: Vroege aanvullende informatie
+description: Vroege aanvullende informatie
+feature: Overview
+role: User
+level: Beginner
+hide: true
+hidefromtoc: true
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: 1a8e623c034a2fbacd9ddf37711488a8f6b99442
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '147'
+ht-degree: 100%
 
 ---
+
+
+# Vroege aanvullende informatie {#e-new-release}
+
+Op deze pagina worden nieuwe verbeteringen en oplossingen beschreven die in de volgende release van Campaign Standard zijn opgenomen.
 >[!CAUTION]
 >
 > Deze content kan zonder voorafgaande kennisgeving worden gewijzigd tot de upgradedatum van de werkgebiedomgevingen. Meer informatie vindt u op de [releaseplanningspagina](../../rn/using/release-planning.md).
+
 ## Release 22.3.2 {#dec-22}
 
 ### Beveiligingsupdate{#rn-security2}
