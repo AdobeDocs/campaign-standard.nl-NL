@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 1a8e623c034a2fbacd9ddf37711488a8f6b99442
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 25e842d2b012a07b3f1ef1ff5490a6b4afa0e887
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 27%
 
 ---
 
@@ -22,21 +22,19 @@ Op deze pagina worden nieuwe verbeteringen en oplossingen beschreven die in de v
 >
 > Deze content kan zonder voorafgaande kennisgeving worden gewijzigd tot de upgradedatum van de werkgebiedomgevingen. Meer informatie vindt u op de [releaseplanningspagina](../../rn/using/release-planning.md).
 
-## Release 22.3.2 {#dec-22}
+## Release 23.1 - 2023 lente-/zomerrelease {#apr-23}
 
-### Beveiligingsupdate{#rn-security2}
+### Verbeteringen {#e-rn-improvements}
 
-Deze release wordt geleverd met de volgende beveiligingsupgrade: Debian is geüpgraded naar v11.0.
+* De dienst van het Overseinen van de Duw is gemoderniseerd om onderhoud te optimaliseren. (CAMP-47959)
+* De sms-berichtenservice is gemoderniseerd om een betere stabiliteit te bieden. (CAMP-52217)
+* De out-of-the-box **Workflow voor het maken van verrijking melden** is toegevoegd. Nadat u een doeltoewijzing van de ene instantie naar de andere hebt geïmporteerd, voert u gewoon de workflow uit om de bijbehorende rapportverrijkingsitems te importeren. (CAMP-52452)
 
-## Release 22.3 - herfst/winter 2022 {#sept-22}
+### Patches{#e-rn-patches}
 
-### Beveiligingsupdate{#rn-security}
-
-Deze release wordt geleverd met de volgende beveiligingsupgrade: Apache Tomcat is geüpgraded van v7.0 naar v8.0.
-
-### Oplossingen{#e-rn-fixes}
-
-* Probleem verholpen met geplande rapporten, die een uur voor de geplande timing werden geactiveerd. (CAMP-51502)
-* Probleem verholpen met betrekking tot de leveringsindicatoren in het leveringsdashboard die niet overeenkwamen met het verzenden van logboeken (nms:broadLogRcp). (CAMP-51127)
-* Probleem verholpen waarbij uitbreiding van aangepaste bronnen met ACS-connector (prime-aanbieding) werd voorkomen. (CAMP-51033)
-* Verbeterde publicatieprocedure voor reacties op privacyverzoeken om vertraging te voorkomen. (CAMP-50613)
+* Probleem opgelost dat tot een time-outfout bij het weergeven van de **Hot click** verslag. (CAMP-51582)
+* Probleem verholpen waardoor u de integratie met de **Plaatsen** service. (CAMP-51923)
+* Probleem verholpen waardoor de werkstroomplanner niet correct werkte. (CAMP-52003)
+* Probleem verholpen waardoor de details van de storing niet konden worden weergegeven wanneer de PDF-versie van een aangepast dynamisch rapport met een groot gegevensvolume werd weergegeven. (CAMP-52178)
+* Probleem verholpen waarbij een fout kon worden weergegeven bij het openen van rapporten. (CAMP-52500)
+* Probleem verholpen waarbij de **MTA-instanties voor deze account beperken** De schakelaarparameter van SMS aan alle kanalen in plaats van het toepassen slechts op SMS. (CAMP-52640)
