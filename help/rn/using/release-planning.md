@@ -8,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 36865b52044ffd4b4868250cada3ab585b9ef856
+source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 100%
@@ -29,7 +29,7 @@ Alle releasedatums kunnen worden gewijzigd: bezoek deze pagina regelmatig om te 
 
 Omgevingsupdates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. De exacte datums worden per e-mail naar elke klant verzonden.
 
-Gedetailleerde informatie over deze release is te vinden in de [Aanvullende informatie](e-release-notes.md).
+Gedetailleerde informatie over deze release is te vinden in de [Aanvullende informatie](release-notes.md).
 
 <table>
  <thead>

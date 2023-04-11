@@ -5,14 +5,33 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
-source-git-commit: 77c5baaf51b82ea001326f3f20c8ab183155f9e6
+source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1201'
 ht-degree: 100%
 
 ---
 
 # Aanvullende informatie 2022{#release-notes-2022}
+
+## Release 22.3.2 {#feb-23}
+
+### Beveiligingsupdate{#rn-security2}
+
+Deze release wordt geleverd met de volgende beveiligingsupgrade: Debian is geüpgraded naar v11.0.
+
+## Release 22.3 - herfst/winter 2022 {#sept-22}
+
+### Beveiligingsupdate{#rn-security}
+
+Deze release wordt geleverd met de volgende beveiligingsupgrade: Apache Tomcat is geüpgraded van v7.0 naar v8.0.
+
+### Oplossingen{#rn-fixes}
+
+* Probleem verholpen met geplande rapporten, die een uur voor de geplande timing werden geactiveerd. (CAMP-51502)
+* Probleem verholpen met betrekking tot de leveringsindicatoren in het leveringsdashboard die niet overeenkwamen met het verzenden van logboeken (nms:broadLogRcp). (CAMP-51127)
+* Probleem verholpen waarbij uitbreiding van aangepaste bronnen met ACS-connector (prime-aanbieding) werd voorkomen. (CAMP-51033)
+* Verbeterde publicatieprocedure voor reacties op privacyverzoeken om vertraging te voorkomen. (CAMP-50613)
 
 ## Release 22.2 - juni 2022 {#june-2022}
 

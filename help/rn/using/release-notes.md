@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: f04fd1542dc3b8ccd5e9fe53edd206061edbc3c5
+source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 100%
+source-wordcount: '259'
+ht-degree: 16%
 
 ---
 
@@ -17,22 +17,26 @@ ht-degree: 100%
 
 ![Configuratiescherm](assets/do-not-localize/cp-icon.png) **Nieuwe release van het configuratiescherm**. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl){target="_blank"}.
 
-## Release 22.3.2 {#feb-23}
+## Release 23.1 - 2023 lente-/zomerrelease {#apr-23}
 
-### Beveiligingsupdate{#rn-security2}
+### Verbeteringen {#e-rn-improvements}
 
-Deze release wordt geleverd met de volgende beveiligingsupgrade: Debian is geüpgraded naar v11.0.
+* De dienst van het Overseinen van de Duw is gemoderniseerd om steun te verbeteren. (CAMP-47959)
+* De SMS-berichtenservice is verbeterd om een betere stabiliteit te bieden. (CAMP-52217)
+* Adobe heeft veel toegankelijkheidscorrecties uitgevoerd om het algemene gebruiksgemak van de toepassing te verbeteren. Hier volgen enkele voorbeelden van toegankelijkheidsverbeteringen:
+   * De toetsenbordtoegankelijkheid van de interface is in veel schermen geoptimaliseerd.
+   * De toepassing is aangepast voor gebruikers met touchscreen.
+   * De kleur van verschillende items in de interface is gewijzigd om de zichtbaarheid te verbeteren.
 
-## Release 22.3 - herfst/winter 2022 {#sept-22}
+### Andere wijzigingen {#e-rn-changes}
 
-### Beveiligingsupdate{#rn-security}
+* De out-of-the-box **Workflow voor het maken van verrijking melden** is toegevoegd. Nadat u een doeltoewijzing van de ene instantie naar de andere hebt geïmporteerd, voert u gewoon de workflow uit om de bijbehorende rapportverrijkingsitems te importeren. (CAMP-52452)
 
-Deze release wordt geleverd met de volgende beveiligingsupgrade: Apache Tomcat is geüpgraded van v7.0 naar v8.0.
+### Opgeloste problemen{#e-rn-patches}
 
-### Oplossingen{#e-rn-fixes}
-
-* Probleem verholpen met geplande rapporten, die een uur voor de geplande timing werden geactiveerd. (CAMP-51502)
-* Probleem verholpen met betrekking tot de leveringsindicatoren in het leveringsdashboard die niet overeenkwamen met het verzenden van logboeken (nms:broadLogRcp). (CAMP-51127)
-* Probleem verholpen waarbij uitbreiding van aangepaste bronnen met ACS-connector (prime-aanbieding) werd voorkomen. (CAMP-51033)
-* Verbeterde publicatieprocedure voor reacties op privacyverzoeken om vertraging te voorkomen. (CAMP-50613)
-
+* Probleem opgelost dat tot een time-outfout bij het weergeven van de **Hot click** verslag. (CAMP-51582)
+* Probleem verholpen waardoor u de integratie met de **Plaatsen** service. (CAMP-51923)
+* Probleem verholpen waardoor de werkstroomplanner niet correct werkte. (CAMP-52003)
+* Probleem verholpen waardoor de details van de storing niet konden worden weergegeven wanneer de PDF-versie van een aangepast dynamisch rapport met een groot gegevensvolume werd weergegeven. (CAMP-52178)
+* Probleem verholpen waarbij een fout kon worden weergegeven bij het openen van rapporten. (CAMP-52500)
+* Probleem verholpen waarbij de **MTA-instanties voor deze account beperken** De schakelaarparameter van SMS aan alle kanalen in plaats van het toepassen slechts op SMS. (CAMP-52640)
