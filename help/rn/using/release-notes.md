@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
+source-git-commit: f9bd5901d68c09ba20d5d48d263f4818c2e1e86a
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 16%
@@ -25,7 +25,7 @@ ht-degree: 16%
 * De SMS-berichtenservice is verbeterd om een betere stabiliteit te bieden. (CAMP-52217)
 * Adobe heeft veel toegankelijkheidscorrecties uitgevoerd om het algemene gebruiksgemak van de toepassing te verbeteren. Hier volgen enkele voorbeelden van toegankelijkheidsverbeteringen:
    * De toetsenbordtoegankelijkheid van de interface is in veel schermen geoptimaliseerd.
-   * De toepassing is aangepast voor gebruikers met touchscreen.
+   * De toepassing is verbeterd voor gebruikers met touchscreen.
    * De kleur van verschillende items in de interface is gewijzigd om de zichtbaarheid te verbeteren.
 
 ### Andere wijzigingen {#e-rn-changes}
