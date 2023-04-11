@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 25e842d2b012a07b3f1ef1ff5490a6b4afa0e887
+source-git-commit: 485927b217fb68064897dd877c2f4a6dd208d443
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 27%
+source-wordcount: '275'
+ht-degree: 21%
 
 ---
 
@@ -26,11 +26,18 @@ Op deze pagina worden nieuwe verbeteringen en oplossingen beschreven die in de v
 
 ### Verbeteringen {#e-rn-improvements}
 
-* De dienst van het Overseinen van de Duw is gemoderniseerd om onderhoud te optimaliseren. (CAMP-47959)
-* De sms-berichtenservice is gemoderniseerd om een betere stabiliteit te bieden. (CAMP-52217)
+* De dienst van het Overseinen van de Duw is gemoderniseerd om steun te verbeteren. (CAMP-47959)
+* De SMS-berichtenservice is verbeterd om een betere stabiliteit te bieden. (CAMP-52217)
+* Adobe heeft veel toegankelijkheidscorrecties uitgevoerd om het algemene gebruiksgemak van de toepassing te verbeteren. Hier volgen enkele voorbeelden van toegankelijkheidsverbeteringen:
+   * De toetsenbordtoegankelijkheid van de interface is in veel schermen geoptimaliseerd.
+   * De toepassing is aangepast voor gebruikers met touchscreen.
+   * De kleur van verschillende items in de interface is gewijzigd om de zichtbaarheid te verbeteren.
+
+### Andere wijzigingen {#e-rn-changes}
+
 * De out-of-the-box **Workflow voor het maken van verrijking melden** is toegevoegd. Nadat u een doeltoewijzing van de ene instantie naar de andere hebt geïmporteerd, voert u gewoon de workflow uit om de bijbehorende rapportverrijkingsitems te importeren. (CAMP-52452)
 
-### Patches{#e-rn-patches}
+### Opgeloste problemen{#e-rn-patches}
 
 * Probleem opgelost dat tot een time-outfout bij het weergeven van de **Hot click** verslag. (CAMP-51582)
 * Probleem verholpen waardoor u de integratie met de **Plaatsen** service. (CAMP-51923)
