@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Gedetailleerde informatie over deze release is te vinden in de [Aanvullende info
  </thead>
  <tbody>
   <tr>
-   <td>Stage </td>
+   <td>Stadium </td>
    <td>11 april 2023 - juli 2023 </td>
   </tr>
   <tr>
