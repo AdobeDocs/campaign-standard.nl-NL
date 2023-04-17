@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 5b5b3fc968c43be734677f7184b9957a8eb3684f
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 64%
+source-wordcount: '863'
+ht-degree: 63%
 
 ---
 
@@ -111,8 +111,8 @@ Deze sectie bevat een lijst met functies en mogelijkheden die uit Campaign Stand
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Vanaf de release van Campagne 20.1 is SDK v4 afgekeurd. <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">Meer informatie</a>.</p><br/>
-   <p>De <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> (voorheen v5 genoemd) biedt nu exclusief ondersteuning voor toekomstige Adobe Experience Cloud-functies en -functionaliteit.</p>
+   <td> <p> Vanaf de release van Campagne 20.1 is SDK v4 afgekeurd. <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">Meer informatie</a>.</p><br/>
+   <p>De <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> (voorheen v5 genoemd) biedt nu exclusief ondersteuning voor toekomstige Adobe Experience Cloud-functies en -functionaliteit.</p>
    <p>Na 31 augustus kunnen 2021 klanten de versie 4 SDK's blijven downloaden en gebruiken, maar er is geen ondersteuning voor de klantenservice of toegang tot forums.</p>
    <p>Leer hoe u van SDK v4 naar Adobe Experience Platform Mobile SDK kunt migreren <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">op deze pagina</a>.</p></br>
      </td> 

@@ -19,7 +19,7 @@ ht-degree: 98%
 
 ![](assets/do-not-localize/cp-icon.png) **Release van nieuw configuratiescherm in juni** met controle van actieve profielen, controle van de leverbaarheid van subdomeinen en beheer van GPG-sleutels. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl).
 
-![](assets/do-not-localize/cp-icon.png) **Release van nieuw Configuratiescherm in oktober** met domeinconfiguratie met CNAME-records en nieuwe mogelijkheden voor databasecontrole. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Release van nieuw Configuratiescherm in oktober** met domeinconfiguratie met CNAME-records en nieuwe mogelijkheden voor databasecontrole. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl).
 
 ## Release 20.4 - oktober 2020 {#release-20-4---october-2020}
 
@@ -289,7 +289,7 @@ ht-degree: 98%
 * Probleem verholpen waardoor gebruikers geen wijzigingen konden aanbrengen in rapporten. (CAMP-42505)
 
 
-![](assets/do-not-localize/cp-icon.png) **Nieuw configuratiescherm in de release van mei** met certificaatverlenging voor CNAME-subdomeinen. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **Nieuw configuratiescherm in de release van mei** met certificaatverlenging voor CNAME-subdomeinen. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl).
 
 ## Release 20.2 - april 2020 {#release-20-2---april-2020}
 
@@ -327,7 +327,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->Nieuwe mogelijkheden worden in april beschikbaar gesteld in het Configuratiescherm van Campaign, waaronder Google TXT-recordbeheer, bewaking van de databaseruimte en e-mailwaarschuwingen. Raadpleeg de [Opmerking bij de release van het Configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html) voor meer informatie over deze functies.
+>Nieuwe mogelijkheden worden in april beschikbaar gesteld in het Configuratiescherm van Campaign, waaronder Google TXT-recordbeheer, bewaking van de databaseruimte en e-mailwaarschuwingen. Raadpleeg de [Opmerking bij de release van het Configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl) voor meer informatie over deze functies.
 
 **Verbeteringen**
 

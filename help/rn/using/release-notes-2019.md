@@ -269,7 +269,7 @@ ht-degree: 8%
 
 ## Release 19.2.3 - juni 2019 {#release-19-2-3---june-2019}
 
-**E-mailontwerper**
+**Email Designer**
 
 Introduceerde een reeks verbeteringen en correcties om fragmenten te optimaliseren in de release 19.2. Nieuw gemaakte fragmenten werken naadloos. Fragmenten die eerder zijn gemaakt, zijn grijs weergegeven en moeten naar de nieuwe indeling worden gemigreerd. Klik hiertoe op elk fragment en valideer de migratie ervan naar de nieuwe indeling. We raden u aan enkele fragmenten te testen voordat u ze allemaal migreert.
 
@@ -531,7 +531,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
      <li> De mogelijkheid om <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">inhoud automatisch ophalen van een URL tijdens de voorbereiding</a> </li> 
      <li> Volledig conform <a href="../../designing/using/using-reusable-content.md#content-templates">out-of-the-box inhoudssjablonen</a>. </li> 
     </ul> 
-    <p>Raadpleeg voor meer informatie de <a href="../../designing/using/designing-content-in-adobe-campaign.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">Hoe kan ik-video</a>. Hieronder vindt u verbeteringen en correcties.</p><p>Als gevolg hiervan is de oude e-mailinhoudeditor nu afgekeurd. Raadpleeg deze voor meer informatie <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">page</a>.</p> </td> 
+    <p>Raadpleeg voor meer informatie de <a href="../../designing/using/designing-content-in-adobe-campaign.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">Hoe kan ik-video</a>. Hieronder vindt u verbeteringen en correcties.</p><p>Als gevolg hiervan is de oude e-mailinhoudeditor nu afgekeurd. Raadpleeg deze voor meer informatie <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=nl#release-notes">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Productaanbiedingen in Transactiee-mails<br /> </td> 
@@ -564,7 +564,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 * De lijst met landen die beschikbaar zijn wanneer het adres van een profiel wordt gedefinieerd, is verrijkt. (CAMP-26707)
 * Er wordt nu een foutbericht weergegeven wanneer u een ingebouwde workflow probeert te importeren.
 
-**E-mailontwerper**
+**Email Designer**
 
 * Probleem verholpen waarbij de geografische eenheid kon worden gebruikt voor een e-mailsjabloon of een inhoudsfragment dat met de e-mailontwerper is gemaakt, ook al was deze functie uitgeschakeld in Adobe Campaign, waardoor de sjabloon of het fragment niet beschikbaar was toen u opnieuw probeerde toegang te krijgen tot de sjabloon. (CAMP-28174)
 * Probleem verholpen waardoor dynamische inhoudsvoorwaarden niet konden worden opgeslagen tijdens het bewerken van inhoud met de e-mailontwerper. (CAMP-27905)
