@@ -1,6 +1,6 @@
 ---
 title: Aan de slag met dynamische rapportage
-description: Analyseer het succes van uw campagnes in ingebouwde of aangepaste dynamische rapporten.
+description: Analyseer het succes van uw campagnes in geïntegreerde of aangepaste dynamische rapporten.
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

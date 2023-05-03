@@ -1,6 +1,6 @@
 ---
 title: Aan de slag met profielen en doelgroepen
-description: Definieer doelgroepen, selecteer doelgroepen, filterontvangers, verzamel gegevens en updateprofielen.
+description: Definieer doelgroepen, selecteer doelgroepen, filter ontvangers, verzamel gegevens en werk profielen bij.
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
@@ -10,8 +10,8 @@ level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 20%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

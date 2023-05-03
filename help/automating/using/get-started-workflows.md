@@ -1,6 +1,6 @@
 ---
 title: Aan de slag met processen en data management
-description: Automatiseer processen met workflows, beheer gegevens en publiek, verzend berichten, en meer.
+description: Automatiseer processen met workflows, beheer gegevens en doelgroepen, verzend berichten, en meer.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
@@ -11,7 +11,7 @@ exl-id: 26be942a-c252-458f-a590-eb235567ca67
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 

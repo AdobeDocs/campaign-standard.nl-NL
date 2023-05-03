@@ -1,6 +1,6 @@
 ---
 title: Aan de slag met Campaign Standard-API’s
-description: Creëer integratie en bouw uw eigen ecosysteem door Campagne met een panel van technologieën in aanraking te brengen.
+description: Maak integraties en bouw uw eigen ecosysteem door een interface tussen Campaign en een reeks technologieën tot stand te brengen.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -11,7 +11,7 @@ exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 

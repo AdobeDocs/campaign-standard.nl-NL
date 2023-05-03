@@ -1,6 +1,6 @@
 ---
 title: Aan de slag met het Campaign Standard-gegevensmodel
-description: Verrijk het gegevensmodel van Campaign Standard met douanegebieden en middelen, en breid REST APIs uit om uitgebreide gebieden bloot te stellen.
+description: Verrijk het Campaign Standard-gegevensmodel met aangepaste velden en bronnen en breid REST API's uit om uitgebreide velden weer te geven.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
@@ -11,7 +11,7 @@ exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 25%
+ht-degree: 31%
 
 ---
 
