@@ -1,5 +1,5 @@
 ---
-title: 'E-mails ontwerpen via Adobe Campaign-integratie '
+title: E-mails ontwerpen via Adobe Campaign-integratie
 description: Ontdek hoe u e-mails kunt ontwerpen via Adobe Campaign-integratie in de e-mailontwerper.
 audience: designing
 content-type: reference
@@ -148,7 +148,7 @@ Adobe Campaign biedt verschillende opties voor het schrijven van e-mailberichten
    <td> <strong>Meer informatie</strong><br /> </td> 
    <td> Zie <a href="../../designing/using/designing-content-in-adobe-campaign.md">Over de e-mailontwerper</a>.<br /> </td> 
    <td> Zie <a href="../../integrating/using/integrating-with-experience-manager.md">Integreren met Experience Manager</a>.<br /> </td> 
-   <td> Zie <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver en Campagne</a> en bekijk dit <a href="#video">video</a>.<br /> </td> 
+   <td> Zie <a href="https://helpx.adobe.com/nl/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaver en Campagne</a> en bekijk dit <a href="#video">video</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
