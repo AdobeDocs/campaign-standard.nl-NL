@@ -1,5 +1,5 @@
 ---
-title: 'Help- en ondersteuningsopties voor Campaign Standard '
+title: Help- en ondersteuningsopties voor Campaign Standard
 description: Hebt u ondersteuning nodig voor Campaign Standard? U bent op de juiste plaats.
 audience: rns
 content-type: reference
@@ -127,4 +127,4 @@ U kunt een ticket maken om contact op te nemen met de Adobe-klantenondersteuning
 
 Als u een probleem wilt melden of een chatsessie wilt starten in dat nieuwe systeem, maakt u verbinding met de [Adobe Admin Console](https://adminconsole.adobe.com/overview).
 
-Volg de gedetailleerde procedure die op [deze pagina](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) wordt beschreven.
+Volg de gedetailleerde procedure die op [deze pagina](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) wordt beschreven.
