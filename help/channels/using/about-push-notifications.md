@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 41%
+source-wordcount: '1239'
+ht-degree: 40%
 
 ---
 
@@ -64,7 +64,7 @@ Voordat u pushmeldingen verzendt, moet u het volgende doen:
 
 1. Controleer of de gebruiker beschikt over de benodigde rechten in Adobe Campaign Standard en tags in Adobe Experience Platform.
 
-1. Maak een mobiele eigenschap in de gebruikersinterface voor gegevensverzameling. Zie [Een mobiele eigenschap instellen](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property) voor meer informatie.
+1. Maak een mobiele eigenschap in de gebruikersinterface voor gegevensverzameling. Zie [Een mobiele eigenschap instellen](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) voor meer informatie.
 
 1. Installeer in de gebruikersinterface voor gegevensverzameling de **[!UICONTROL Adobe Campaign Standard]** extensie.
 
@@ -87,7 +87,7 @@ Ontdek de onderstaande bronnen:
 
 ### Wat moet ik doen om een pushtoken te verkrijgen in Campaign? {#push-token-acquisition}
 
-Controleer of het inrichtingsteam de levering van het Push-kanaal in Adobe Campaign Standard heeft voltooid. SetPushIdentifier-API van SDK implementeren. Raadpleeg [deze pagina](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging) voor meer informatie.
+Controleer of het inrichtingsteam de levering van het Push-kanaal in Adobe Campaign Standard heeft voltooid. SetPushIdentifier-API van SDK implementeren. Raadpleeg [deze pagina](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging) voor meer informatie.
 
 ### Als ik Push token en ECID in Campaign heb, wat moet ik dan nog een pushmelding verzenden? {#sending-push}
 
@@ -144,7 +144,7 @@ Mobiele App-ontwikkelaars moeten de ondersteuning voor mediabestanden in de app 
 Volg de onderstaande stappen:
 
 * Configureer een postback voor het bijhouden van de push. Instructies zijn te vinden [hier](../../administration/using/configuring-a-mobile-application.md).
-* TrackAction-API implementeren vanuit Mobile Core. Zie dit [page](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) voor meer informatie .
+* TrackAction-API implementeren vanuit Mobile Core. Zie dit [page](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/) voor meer informatie .
 
 Meer gedetailleerde instructies vindt u in deze [page](../../administration/using/push-tracking.md).
 

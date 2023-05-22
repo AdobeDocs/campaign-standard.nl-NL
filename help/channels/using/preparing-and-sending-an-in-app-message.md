@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1246'
+ht-degree: 83%
 
 ---
 
@@ -21,7 +21,7 @@ Er zijn drie typen in-app-berichten beschikbaar in Adobe Campaign:
 
 * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: Met dit berichttype kunt u zich richten op Adobe Campaign-profielen (CRM-profielen) die zijn geabonneerd op uw mobiele applicatie. Dit berichttype kan met alle beschikbare profielkenmerken in Adobe Campaign worden gepersonaliseerd maar vereist een veilige handshake tussen Mobile SDK en de in-app-berichtenservice van Adobe Campaign om ervoor te zorgen dat berichten met persoonlijke en gevoelige informatie alleen door geautoriseerde gebruikers worden gebruikt.
 
-   Om dit berichttype op gebruikersapparaten te downloaden, moet Mobile SDK koppelingsgebieden verzenden die worden gebruikt om een mobiel profiel te koppelen aan een CRM-profiel in Adobe Campaign. Raadpleeg deze [pagina](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference)voor meer informatie over SDK API&#39;s die vereist zijn voor ondersteuning van in-app-berichten.
+   Om dit berichttype op gebruikersapparaten te downloaden, moet Mobile SDK koppelingsgebieden verzenden die worden gebruikt om een mobiel profiel te koppelen aan een CRM-profiel in Adobe Campaign. Raadpleeg deze [pagina](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/)voor meer informatie over SDK API&#39;s die vereist zijn voor ondersteuning van in-app-berichten.
 
 * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: Met dit berichttype kunt u berichten verzenden naar alle (huidige of toekomstige) gebruikers van uw mobiele applicatie, zelfs als ze geen bestaand profiel hebben in Adobe Campaign. Personalisatie is dus niet mogelijk wanneer u de berichten aanpast, omdat het gebruikersprofiel mogelijk niet eens bestaat in Adobe Campaign.
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**: Met dit berichttype kunt u zich richten op alle bekende of anonieme gebruikers van een mobiele app met een mobiel profiel in Adobe Campaign. Dit berichttype kan worden gepersonaliseerd met alleen niet-persoonlijke en niet-gevoelige kenmerken en vereist geen veilige handshake tussen Mobile SDK en de in-app-berichtenservice van Adobe Campaign.

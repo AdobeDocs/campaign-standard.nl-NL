@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 1%
@@ -55,7 +55,7 @@ Voordat u gaat migreren, moet u rekening houden met de volgende aanbevelingen:
 * Controleer vóór de migratie of u de opdracht **[!UICONTROL Organizational unit]** van de mobiele toepassing die u wilt migreren en van de Adobe Experience Platform-toepassing die u gebruikt voor migratie.
 * Na de migratie wordt de toepassing een Adobe Experience Platform SDK-toepassing. De wijzigingen worden gekoppeld aan de bijbehorende tag **[!UICONTROL Mobile Property]**.
 
-1. Een nieuwe **[!UICONTROL Mobile property]** in de UI voor gegevensverzameling. Raadpleeg voor meer informatie hierover de [documentatie](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
+1. Een nieuwe **[!UICONTROL Mobile property]** in de UI voor gegevensverzameling. Raadpleeg voor meer informatie hierover de [documentatie](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
 
 1. Selecteer in Adobe Campaign Standard in het menu Geavanceerd de optie **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** en opent u de **[!UICONTROL syncWithLaunch]** workflow. Controleer of de workflow zonder fout is beëindigd.
 

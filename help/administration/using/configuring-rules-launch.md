@@ -1,5 +1,5 @@
 ---
-title: Tagregels configureren ter ondersteuning van Adobe Campaign Standard-gebruiksproblemen
+title: Tagregels configureren om Adobe Campaign Standard-gebruiksscenario's te ondersteunen
 description: Leer hoe u tagregels configureert ter ondersteuning van Adobe Campaign Standard-gebruiksgevallen
 audience: channels
 content-type: reference
@@ -9,18 +9,18 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 0%
+source-wordcount: '999'
+ht-degree: 2%
 
 ---
 
-# Tagregels configureren ter ondersteuning van Adobe Campaign Standard-gebruiksproblemen {#configuring-rules-launch}
+# Tagregels configureren om Adobe Campaign Standard-gebruiksscenario&#39;s te ondersteunen {#configuring-rules-launch}
 
 In de UI van de Inzameling van Gegevens, creeer gegevenselementen en regels om PII en andere gegevens van mobiele toepassingen naar te verzenden [!DNL Adobe Campaign Standard].
 
-Om ervoor te zorgen dat alle configuratieveranderingen in UI van de Inzameling van Gegevens van kracht worden, moet u deze veranderingen publiceren. Zie voor meer informatie [Publiceren](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration).
+Om ervoor te zorgen dat alle configuratieveranderingen in UI van de Inzameling van Gegevens van kracht worden, moet u deze veranderingen publiceren. Zie voor meer informatie [Publiceren](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration).
 
 Ga als volgt te werk om regels te maken in de gebruikersinterface voor gegevensverzameling:
 
@@ -77,7 +77,7 @@ U moet regels maken voor het volgende:
 
 >[!NOTE]
 >
->Als u PII-gegevens van een mobiele app naar Adobe Campaign wilt verzenden, moet u een SDK-API implementeren. Ga voor meer informatie naar [CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii).
+>Als u PII-gegevens van een mobiele app naar Adobe Campaign wilt verzenden, moet u een SDK-API implementeren. Ga voor meer informatie naar [CollectPII](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#collectpii).
 
 PII-gegevens verzenden naar [!DNL Adobe Campaign Standard], maakt u een regel in de gebruikersinterface voor gegevensverzameling:
 
