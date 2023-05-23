@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '709'
+ht-degree: 77%
 
 ---
 
@@ -96,7 +96,7 @@ Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, le
     <tr> 
    <td> Adobe Journey Orchestration<br /> </td> 
    <td> Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden voor Transactioneel berichtenverkeer van Adobe Campaign Standard in de context van Adobe Journey Orchestration, via een 'out-of-the-box'-actie.<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=en">Werken met Adobe Journey Orchestration en Adobe Campaign Standard</a><br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">Werken met Adobe Journey Orchestration en Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 

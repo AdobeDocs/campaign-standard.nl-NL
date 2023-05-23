@@ -1,5 +1,5 @@
 ---
-title: 'E-mails ontwerpen met bestaande inhoud '
+title: E-mails ontwerpen met bestaande inhoud
 description: Ontdek hoe u e-mailberichten kunt ontwerpen met bestaande inhoud en e-mailinhoud in de e-mailontwerper.
 audience: designing
 content-type: reference
@@ -8,9 +8,9 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
-source-git-commit: 0d645de54106d49452a846ee650335607dbf21d3
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1280'
 ht-degree: 5%
 
 ---

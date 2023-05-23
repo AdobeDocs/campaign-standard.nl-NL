@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
-workflow-type: ht
-source-wordcount: '1591'
-ht-degree: 100%
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+workflow-type: tm+mt
+source-wordcount: '1559'
+ht-degree: 94%
 
 ---
 
@@ -45,7 +45,7 @@ Daarom is het uw verantwoordelijkheid als gegevenscontroller om de identiteit te
 
 Voordat u privacyverzoeken maakt, moet u de naamruimte definiëren die u wilt gebruiken. De naamruimte is de sleutel die wordt gebruikt om de betrokkene in de Adobe Campaign-database te identificeren. Er zijn twee ingebouwde naamruimten beschikbaar: e-mail en mobiele telefoon. Voer de volgende stappen uit als u een andere naamruimte nodig hebt (bijvoorbeeld een aangepast profielveld).
 
-Raadpleeg ook deze [tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=nl#privacy) over het maken van een naamruimte.
+Raadpleeg ook deze [tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html#privacy) over het maken van een naamruimte.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Raadpleeg ook deze [tutorial](https://experienceleague.adobe.com/docs/campaign-s
 
    ![](assets/privacy-create-new-namespace.png)
 
-   Raadpleeg de documentatie bij [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=nl) voor meer informatie over naamruimten.
+   Raadpleeg de documentatie bij [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html) voor meer informatie over naamruimten.
 
 1. In Campaign wordt één INS (Identity Service Namespace) toegewezen aan één naamruimte. U moet opgeven hoe de naamruimte in Campaign wordt afgestemd.
 
@@ -91,13 +91,13 @@ Raadpleeg ook deze [tutorial](https://experienceleague.adobe.com/docs/campaign-s
 
 Dankzij de integratie van de Privacy-kernservice kunt u uw verzoeken om toegang tot persoonsgegevens automatiseren in een context met meerdere oplossingen via één JSON API-aanroep. Verzoeken om toegang tot persoonsgegevens die van de Privacy-kernservice naar alle Experience Cloud-oplossingen worden gepusht, worden door Campaign automatisch behandeld via een speciale workflow.
 
-Raadpleeg de documentatie bij de [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl) om te ontdekken hoe u verzoeken om toegang tot persoonsgegevens kunt maken vanuit de Privacy-kernservice.
+Raadpleeg de documentatie bij de [Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) om te ontdekken hoe u verzoeken om toegang tot persoonsgegevens kunt maken vanuit de Privacy-kernservice.
 
 >[!IMPORTANT]
 >
->Als u een verzoek wilt indienen met het aangepaste naamruimtetype, gebruikt u de [JSON-methode](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=nl#json){target=&quot;_blank&quot;} en voegt u de namespaceId toe aan het verzoek, of gebruikt u de [API-aanroep](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=nl#access-delete){target=&quot;_blank&quot;} om het verzoek in te dienen.
+>Als u een aanvraag wilt verzenden met het aangepaste naamruimtetype, gebruikt u de optie [JSON, methode](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html#access-delete){target="_blank"} om het verzoek in te dienen.
 >
->Gebruik alleen de [Privacy-gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=nl#request-builder){target=&quot;_blank&quot;} om verzoeken in te dienen met het standaardnaamruimtetype.
+>Alleen de [Privacy-gebruikersinterface](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"} aanvragen verzenden met het standaardnaamruimtetype.
 
 Elke Privacy-kernservicetaak in Campaign is gesplitst in meerdere verzoeken om toegang tot persoonsgegevens op basis van het aantal gebruikte naamruimten, waarbij één verzoek correspondeert met één naamruimte. Bovendien kan één taak op meerdere instanties worden uitgevoerd. Daarom worden er meerdere bestanden gemaakt voor één taak. Als een verzoek bijvoorbeeld twee naamruimten bevat en op drie instanties wordt uitgevoerd, worden in totaal zes bestanden verzonden. Eén bestand per naamruimte en instantie.
 
@@ -125,7 +125,7 @@ Hier volgt de lijst van ingebouwde bronnen waarmee rekening wordt gehouden bij h
 
 Als u aangepaste bronnen hebt gemaakt met een koppeling naar de profielbron (eigen type), wordt hiermee ook rekening gehouden. Als u bijvoorbeeld een transactiebron hebt met een koppeling naar de profielbron en een transactiedetailbron met een koppeling naar de transactiebron, wordt met beide rekening gehouden.
 
-Raadpleeg ook [deze tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=nl#privacy) over het wijzigen van aangepaste bronnen.
+Raadpleeg ook [deze tutorial](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html#privacy) over het wijzigen van aangepaste bronnen.
 
 Dit werkt alleen als u in de aangepaste bron de optie **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** selecteert:
 

@@ -1,15 +1,15 @@
 ---
 title: Gebruikersbeheer
-description: 'Gebruikers van Adobe Campaign hebben specifieke rollen. Ontdek de belangrijkste gebruikerstypen. '
+description: Gebruikers van Adobe Campaign hebben specifieke rollen. Ontdek de belangrijkste gebruikerstypen.
 audience: administration
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 82%
+source-wordcount: '1198'
+ht-degree: 81%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 82%
 
 Met Adobe Campaign kunt u een set rollen toewijzen aan uw gebruikers om te bepalen tot welk deel van de interface ze toegang hebben.
 
-De specifieke rollen en de bijbehorende machtigingen worden in de volgende secties nader beschreven: [inzicht in rollen](../../administration/using/list-of-roles.md) en [machtigingen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
+De specifieke rollen en de bijbehorende machtigingen worden in de volgende secties nader beschreven: [inzicht in rollen](../../administration/using/list-of-roles.md) en [machtigingen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
 Beheerders kunnen gebruikers beheren vanuit de Admin Console. Gebruikers worden dan automatisch gesynchroniseerd met Adobe Campaign. Raadpleeg voor meer informatie de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/users.html) documentatie.
 
@@ -35,7 +35,7 @@ Klik op **[!UICONTROL User administration]** voor toegang tot de gebruikersbehee
 
 * [Gebruikersmachtigingen beheren](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html) (video)
 * [Lijst met rollen](../../administration/using/list-of-roles.md)
-* [Lijst met machtigingen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
+* [Lijst met machtigingen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 ## Gebruikerstypen {#type-of-users}
 

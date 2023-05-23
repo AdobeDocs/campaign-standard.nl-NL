@@ -1,5 +1,5 @@
 ---
-title: 'Herbruikbare inhoud maken en gebruiken '
+title: Herbruikbare inhoud maken en gebruiken
 description: Begin met het ontwikkelen van herbruikbare e-mailinhoud met de e-mailontwerper.
 audience: designing
 content-type: reference
@@ -8,9 +8,9 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1817'
 ht-degree: 1%
 
 ---
@@ -249,7 +249,7 @@ Als u een e-mailbericht bewerkt met de e-mailontwerper, kunt u een deel van dat 
 
 * U kunt een structuur met verpersoonlijkingsvelden, dynamische inhoud of een ander fragment niet als fragment opslaan.
 * U kunt alleen structuren selecteren die aan elkaar grenzen.
-<!-- - You cannot select an empty structure.-->
+   <!-- - You cannot select an empty structure.-->
 
 1. Selecteer bij het bewerken van een e-mailbericht in de e-mailontwerper de optie **[!UICONTROL Save as fragment]** van de hoofdwerkbalk.
 

@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '857'
 ht-degree: 63%
 
 ---
@@ -44,7 +44,7 @@ Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikma
  <tbody> 
   <tr> 
    <td> <p> De aanvang van Campaign Standard 21.3 versie, integratie met de dienst van de Doelen van het Publiek wordt afgekeurd. </p>
-   <p>Voor nieuwe implementatie, kunt u de dienst van de Doelen van het Publiek niet meer met Adobe Campaign Standard integreren. U kunt Campagne en Adobe Experience Platform echter integreren via Bronnen en Doelen. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Meer informatie</a>.</p>
+   <p>Voor nieuwe implementatie, kunt u de dienst van de Doelen van het Publiek niet meer met Adobe Campaign Standard integreren. U kunt Campagne en Adobe Experience Platform echter integreren via Bronnen en Doelen. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">Meer informatie</a>.</p>
      <em>Streefdatum voor verwijdering: 2023</em></p>
      </td> 
   </tr> 
@@ -60,7 +60,7 @@ Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikma
  <tbody> 
   <tr> 
    <td> <p> Vanaf de Campaign Standard 21.3-release is de integratie met de Adobe Experience Platform Data Connector verouderd. </p>
-   <p>Voor nieuwe implementatie kunt u de Adobe Experience Platform Data Connector niet meer integreren met Adobe Campaign Standard. U kunt Campagne en Adobe Experience Platform echter integreren via Bronnen en Doelen. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">Meer informatie</a>.</p>
+   <p>Voor nieuwe implementatie kunt u de Adobe Experience Platform Data Connector niet meer integreren met Adobe Campaign Standard. U kunt Campagne en Adobe Experience Platform echter integreren via Bronnen en Doelen. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">Meer informatie</a>.</p>
      <em>Streefdatum voor verwijdering: 2023</em></p>
      </td> 
   </tr> 
@@ -129,7 +129,7 @@ Deze sectie bevat een lijst met functies en mogelijkheden die uit Campaign Stand
  <tbody> 
   <tr> 
    <td> <p>Sinds Campaign 21.2 is het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken afgeschaft. De profielverwijdering in twee stappen is niet beschikbaar. Gebruik de <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe Privacy-kernservice</a>.</p></br>
-   <p>Zie ook <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=nl">Verzoeken om toegang tot persoonsgegevens beheren</a>.</p>
+   <p>Zie ook <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">Verzoeken om toegang tot persoonsgegevens beheren</a>.</p>
   </td> 
   </tr> 
  </tbody> 
