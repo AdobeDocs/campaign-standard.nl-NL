@@ -41,7 +41,7 @@ Meertalige push vereist 14 kolommen in het CSV-bestand:
 Controleer het CSV-voorbeeld door op de knop **[!UICONTROL Download a sample file]** in de **[!UICONTROL Manage Content Variants]** venster. Raadpleeg de volgende secties voor meer informatie [sectie](../../channels/using/creating-a-multilingual-push-notification.md).
 
 * **title, messageBody, sound, badge, deplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**: regelmatig de inhoud van de pushlading. U moet deze informatie op dezelfde manier verstrekken als wanneer het creëren van dupleveringen.
-* **Custom Fields**:  use JSON format for the custom fields, e.g. `{"key1":"value1","key2":"value2"}`. Raadpleeg het voorbeeldbestand hierboven voor een voorbeeld van aangepaste velden.
+* **Aangepaste velden**: Gebruik de JSON-indeling voor aangepaste velden, bijvoorbeeld `{"key1":"value1","key2":"value2"}`. Raadpleeg het voorbeeldbestand hierboven voor een voorbeeld van aangepaste velden.
 * **isContentAvailable**: markering voor controle van beschikbare inhoud, waarde 1 impliceert waar, waarde 0 impliceert vals. De standaardwaarde is 0. Als u deze kolom leeg laat, zal de waarde als 0 worden beschouwd.
 * **isMutableContent**: markering voor Mutable Content, waarde 1 impliceert true, waarde 0 betekent false. De standaardwaarde is 0. Als u deze kolom leeg laat, zal de waarde als 0 worden beschouwd.
 * **landinstelling**: landinstelling is het veld voor taalvarianten, bijvoorbeeld &quot;en_us&quot; voor Amerikaans-Engels en &quot;fr_fr&quot; voor Frankrijk-Frans.
@@ -51,7 +51,7 @@ Controleer het CSV-voorbeeld door op de knop **[!UICONTROL Download a sample fil
 ## Restricties en richtlijnen voor het maken van CSV-bestanden {#constraints-guideline-csv}
 
 **De naam van elke kolom is vast**.
-You should include the name of each column in the CSV file, if you don&#39;t use any columns for the content, leave it blank.
+Neem de naam van elke kolom op in het CSV-bestand. Als u geen kolommen gebruikt voor de inhoud, laat u deze leeg.
 
 **De kolommen &quot;locale&quot; en &quot;language&quot; zijn verplicht en de waarde is uniek voor elke rij.**
 Een lege waarde voor deze kolom resulteert in een fout bij het uploaden van het bestand.
@@ -98,7 +98,7 @@ In het bereik zijn twee verplichte kenmerken:
 
 De volgende talen worden ondersteund:
 
-| landinstelling | taal |
+| landinstelling | language |
 |:-:|:-:|
 | af_za | Afrikaans - Zuid-Afrika |
 | sq_al | Albanees - Albanië |
@@ -133,7 +133,7 @@ De volgende talen worden ondersteund:
 | nl_be | Nederlands - België |
 | nl_nl | Nederlands - Nederland |
 | en_au | Engels - Australië |
-| en_bz | English - Belize |
+| en_bz | Engels - Belize |
 | en_ca | Engels - Canada |
 | en_in | Engels - India |
 | en_ie | Engels - Ierland |
@@ -144,7 +144,7 @@ De volgende talen worden ondersteund:
 | en_tt | Engels - Trinidad en Tobago |
 | en_gb | Engels - Verenigd Koninkrijk |
 | nl_nl | Engels - Verenigde Staten |
-| en_zw | Engels - Zimbabwe |
+| nl_zw | Engels - Zimbabwe |
 | et_ee | Ests - Estland |
 | fi_fi | Fins - Finland |
 | fr_be | Frans - België |
@@ -197,7 +197,7 @@ De volgende talen worden ondersteund:
 | es_cr | Spaans - Costa Rica |
 | es_do | Spaans - Dominicaanse Republiek |
 | es_ec | Spaans - Ecuador |
-| es_sv | Spanish - El Salvador |
+| es_sv | Spaans - El Salvador |
 | es_gt | Spaans - Guatemala |
 | es_hn | Spaans - Honduras |
 | es_mx | Spaans - Mexico |

@@ -1,6 +1,6 @@
 ---
 title: Niet-leverbare items en niet-bezorgingen
-description: 'Met het niet-Te leveren en stuitert uit-van-de-doos rapport, leer over de fouten die aan uw levering kunnen voorkwamen. '
+description: Met het niet-Te leveren en stuitert uit-van-de-doos rapport, leer over de fouten die aan uw levering kunnen voorkwamen.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports

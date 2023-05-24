@@ -34,7 +34,7 @@ Voer de in [Een toegewezen trigger maken in Campagne](../../integrating/using/us
 Als de trigger is gemaakt, gaat u verder naar de volgende stap. Zo niet, dan betekent dit dat de verbinding met het eindpunt van de trigger is mislukt. Controleer of Triggers is ingericht in Experience Cloud (Activeringsservices). Als dit niet het geval is, neemt u contact op met de manager van uw Adobe-account of de professionele servicepartner. De volgende informatie is vereist:
 
 * Bedrijfsnaam Marketing Cloud
-* Organisatie-id
+* Organisatie-ID
 * Login van de Analyse Bedrijf (kan het zelfde zijn als de Naam van het Bedrijf van de Marketing Cloud)
 
 **Probeer de trigger te publiceren**

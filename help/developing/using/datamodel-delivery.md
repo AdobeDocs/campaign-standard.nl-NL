@@ -359,11 +359,11 @@ ht-degree: 6%
                   <td>
                      <ul>
                         <li>Fax: 4</li>
-                        <li>Mobile (SMS) - sms - 1</li>
+                        <li>Mobiel (SMS) - sms - 1</li>
                         <li>E-mail - e-mail - 0</li>
                         <li>Telefoon - telefoon - 2</li>
                         <li>Direct mail - papier - 3</li>
-                        <li>Mobile-toepassing - pushNotification - 40</li>
+                        <li>Mobiele toepassing - pushNotification - 40</li>
                         <li>Overige — overige — 120</li>
                         <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>

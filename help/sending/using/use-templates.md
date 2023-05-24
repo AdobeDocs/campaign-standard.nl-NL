@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: '"De malplaatjes van de levering staan voor verhoogde efficiency toe door kant-en-klare scenario''s voor de meeste gemeenschappelijke soorten activiteiten te verstrekken."'
+description: "De malplaatjes van de levering staan voor verhoogde efficiency toe door kant-en-klare scenario's voor de meeste gemeenschappelijke soorten activiteiten te verstrekken."
 feature: Deliverability
 role: User
 level: Intermediate

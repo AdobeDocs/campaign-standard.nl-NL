@@ -45,7 +45,7 @@ Om de Chronologie van een contact te bekijken, navigeer aan uw contactenlijst do
 
 >[!NOTE]
 >
->De **Adobe Campaign for Microsoft Dynamics 365** app in AppSource moet zijn geïnstalleerd in uw Microsoft Dynamics 365-exemplaar om deze gebeurtenissen te kunnen weergeven. [Meer info](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app).
+>De **Adobe Campaign for Microsoft Dynamics 365** app in AppSource moet zijn geïnstalleerd in uw Microsoft Dynamics 365-exemplaar om deze gebeurtenissen te kunnen weergeven. [Meer informatie](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app).
 
 Hieronder ziet u een momentopname van het scherm van het Contact voor &quot;Gebruiker van de Dynamiek&quot;. In de mening van de Chronologie, zult u merken dat de Gebruiker van de Dynamiek een e-mail werd verzonden verbonden aan de Naam van de Campagne &quot;2019LoyaltyCamp&quot;en de Naam van de Levering &quot;DM190&quot;. Dynamics User opende het e-mailbericht en klikte ook een URL in e-mail; beide acties hebben gebeurtenissen gemaakt die ook hieronder worden weergegeven . Als u naar de rechterhoek kijkt, ziet u de RA-kaart (Relationship Assistant). bevat momenteel een taak die moet worden opgevolgd op de aangeklikte URL.
 
@@ -83,7 +83,7 @@ Hieronder volgt een lijst met kenmerken en een beschrijving:
 
 * **URL bijhouden**: URL waarop is geklikt
 
-* **URL van pagina spiegelen**: De URL naar de spiegelpagina van het e-mailbericht dat is verzonden, geopend, geklikt of teruggestuurd. De vervalperiode van de pagina van de e-mailspiegel kan in het configuratiescherm van de overeenkomstige activiteit van het e-mailkanaal van de Campagne worden gewijzigd. [Meer info](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+* **URL van pagina spiegelen**: De URL naar de spiegelpagina van het e-mailbericht dat is verzonden, geopend, geklikt of teruggestuurd. De vervalperiode van de pagina van de e-mailspiegel kan in het configuratiescherm van de overeenkomstige activiteit van het e-mailkanaal van de Campagne worden gewijzigd. [Meer informatie](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ De eerste run van de gegevensstroom is ontworpen om alle toegewezen records over
 
 De basis vervangingsregels kunnen in de integratietoepassing UI worden gevormd om een attributenwaarde met een verschillende waarde (b.v., &quot;groen&quot;voor &quot;#00FF00&quot;, &quot;F&quot;voor 1, enz.) te vervangen.
 
-Afhankelijk van het volume van verslagen, kan uw opslag van de Campagne SFTP voor de aanvankelijke gegevensoverdracht moeten worden gebruikt. [Meer info](#initial-data-transfer).
+Afhankelijk van het volume van verslagen, kan uw opslag van de Campagne SFTP voor de aanvankelijke gegevensoverdracht moeten worden gebruikt. [Meer informatie](#initial-data-transfer).
 
 Het attribuut externalId van de de profiellijst van de Campagne moet met de Dynamica 365 contactattributen contactId worden bevolkt om contacttoegang te werken. De aangepaste entiteiten van de campagne moeten ook worden gevuld met het attribuut &#39;Dynamics 365 unique ID&#39;; dit kenmerk kan echter worden opgeslagen in elk kenmerk van een aangepaste entiteit voor campagne (het hoeft dus niet om externalId te gaan).
 
@@ -166,7 +166,7 @@ Als u een afzonderlijk proces hebt voor het beheren van de synchronisatie met de
 
 >[!NOTE]
 >
->In de UI van de integratietoepassing, **Unidirectioneel (Microsoft Dynamics 365 to Campaign)** en de **Bidirectioneel** De gevallen van het opt-outgebruik worden gevormd in een afzonderlijke opt-outwerkschema. [Meer info](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
+>In de UI van de integratietoepassing, **Unidirectioneel (Microsoft Dynamics 365 to Campaign)** en de **Bidirectioneel** De gevallen van het opt-out-gebruik worden geconfigureerd in een afzonderlijke opt-out-workflow. [Meer informatie](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 >
 >De **Unidirectioneel (campagne voor Microsoft Dynamics 365)** het geval van opt-out is een uitzondering; wordt geconfigureerd binnen de workflow voor toegang (Contactpersoon voor profiel).
 

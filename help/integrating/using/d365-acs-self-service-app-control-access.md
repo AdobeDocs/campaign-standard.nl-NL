@@ -88,4 +88,4 @@ Van de **[!UICONTROL Products]**  pagina, selecteert u uw Campagne-instantie en 
 
    Als dit de eerste keer is dat de gebruiker aan de organisatie wordt toegevoegd, voert u details in.
 
-1. Klikken **[!UICONTROL Save]** ter bevestiging.
+1. Klik op **[!UICONTROL Save]** om te bevestigen.

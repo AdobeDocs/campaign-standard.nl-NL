@@ -1,5 +1,5 @@
 ---
-title: DataModel Service
+title: DataModel-service
 description: Meer informatie over het datamodel
 audience: developing
 content-type: reference
@@ -23,7 +23,7 @@ ht-degree: 7%
                   <th>Naam</th>
                   <th>Label</th>
                   <th>Type (lengte)</th>
-                  <th>Enumeration values</th>
+                  <th>Opsommingswaarden</th>
                </tr>
                <tr>
                   <td>PKey</td>
@@ -74,9 +74,9 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>history</td>
-                  <td>Subscription history</td>
-                  <td>collection </td>
+                  <td>geschiedenis</td>
+                  <td>Abonnementsgeschiedenis</td>
+                  <td>collectie </td>
                   <td> </td>
                </tr>
                <tr>
@@ -105,7 +105,7 @@ ht-degree: 7%
                </tr>
                <tr>
                   <td>limitedDuration</td>
-                  <td>Limited duration</td>
+                  <td>Beperkte duur</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -121,7 +121,7 @@ ht-degree: 7%
                   <td>opsomming (byte) </td>
                   <td>
                      <ul>
-                        <li>Mobile (SMS) - sms - 1</li>
+                        <li>Mobiel (SMS) - sms - 1</li>
                         <li>E-mail - e-mail - 0</li>
                         <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -190,7 +190,7 @@ ht-degree: 7%
                <tr>
                   <td>abonnementen</td>
                   <td>Lidmaatschappen</td>
-                  <td>collection </td>
+                  <td>collectie </td>
                   <td> </td>
                </tr>
                <tr>
@@ -237,7 +237,7 @@ ht-degree: 7%
                </tr>
                <tr>
                   <td>validityDuration</td>
-                  <td>Validity duration</td>
+                  <td>Geldigheidsduur</td>
                   <td>getal </td>
                   <td> </td>
                </tr>
@@ -275,7 +275,7 @@ Op kanaaltype (byChannel)
 </tr>
 </table>
 
-By name or label (byText)
+Op naam of label (doorText)
 
 <table>
 <tr>

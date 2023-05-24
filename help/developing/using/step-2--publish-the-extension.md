@@ -1,5 +1,5 @@
 ---
-title: '"Stap 2: de extensie publiceren"'
+title: "Stap 2: de extensie publiceren"
 description: Leer hoe u de extensie publiceert in Campaign Standard. Deel 2 van een reeks.
 audience: developing
 content-type: reference

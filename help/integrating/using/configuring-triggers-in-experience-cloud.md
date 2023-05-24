@@ -1,6 +1,6 @@
 ---
 title: Triggers configureren in Experience Cloud
-description: 'Leer hoe u de integratie met Adobe Experience Cloud Triggers configureert om persoonlijke leveringen naar uw klanten te sturen op basis van hun eerdere gedrag. '
+description: Leer hoe u de integratie met Adobe Experience Cloud Triggers configureert om persoonlijke leveringen naar uw klanten te sturen op basis van hun eerdere gedrag.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -11,7 +11,7 @@ exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
 source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
 workflow-type: tm+mt
 source-wordcount: '853'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -24,7 +24,7 @@ De functionaliteit moet in Adobe Campaign door Adobe worden geactiveerd. Neem co
 Het Adobe-team heeft de volgende informatie nodig om triggers te activeren:
 
 * Bedrijfsnaam Marketing Cloud
-* Organisatie-id
+* Organisatie-ID
 * Login van de Analyse Bedrijf (kan het zelfde zijn als de Naam van het Bedrijf van de Marketing Cloud)
 
 ## Oplossingen en services configureren {#configuring-solutions-and-services}

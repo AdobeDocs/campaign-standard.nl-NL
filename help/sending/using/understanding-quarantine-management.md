@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 25%
+source-wordcount: '1429'
+ht-degree: 24%
 
 ---
 
@@ -49,7 +49,7 @@ Quarantaine en lijst van gewezen personen zijn niet van toepassing op hetzelfde 
 >
 >Quarantine bevat een **Op lijst van gewezen personen** status, die van toepassing is wanneer ontvangers uw bericht melden als spam of op een SMS-bericht reageren met een trefwoord zoals &quot;STOP&quot;. In dat geval wordt het betreffende adres of telefoonnummer van het profiel verzonden naar quarantaine met de **[!UICONTROL On denylist]** status. Voor meer informatie over het beheren van SMS-berichten van STOP raadpleegt u [deze sectie](../../channels/using/managing-incoming-sms.md#managing-stop-sms).
 
-<!--When a user replies to an SMS message with a keyword such as STOP in order to opt-out from SMS deliveries, his profile is not added to the denylist like in the email opt-out process. Instead, the profile's phone number is sent to quarantine with the **[!UICONTROL On denylist]** status. This status refers to the phone number only, meaning that the profile will continue receiving email messages.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
+&lt;!—Wanneer een gebruiker op een SMS-bericht reageert met een trefwoord zoals STOP om te weigeren van SMS-leveringen, wordt dit profiel niet toegevoegd aan de lijst van gewezen personen, zoals in het e-mailuitschakelproces. In plaats daarvan wordt het telefoonnummer van het profiel verzonden naar quarantaine met de **[!UICONTROL On denylist]** status. Deze status verwijst alleen naar het telefoonnummer, wat betekent dat het profiel e-mailberichten blijft ontvangen.<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
 ## In quarantaine geplaatste adressen identificeren {#identifying-quarantined-addresses}
 

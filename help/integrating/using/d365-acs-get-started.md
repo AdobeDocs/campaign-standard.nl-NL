@@ -75,7 +75,7 @@ Stroomdiagramdetails (afbeeldingen tot bovenstaande stappen):
 
    >[!IMPORTANT]
    >
-   > Als u de bidirectionele of Campagne aan Dynamiek 365 opt-out configuratie vereist, zult u het verzoek aan uw Adobe technisch contact voor de opt-out werkschema&#39;s moeten indienen om opstelling op uw instantie van de Campagne te zijn. [Meer info](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
+   > Als u de bidirectionele of Campagne aan Dynamiek 365 opt-out configuratie vereist, zult u het verzoek aan uw Adobe technisch contact voor de opt-out werkschema&#39;s moeten indienen om opstelling op uw instantie van de Campagne te zijn. [Meer informatie](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
 
 ### Deze integratie configureren {#configure-this-integration}
 

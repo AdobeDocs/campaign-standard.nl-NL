@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: '"Wanneer u uw inhoud klaar hebt, leer hoe u zorgvuldig bepaalt wie uw bericht zal ontvangen."'
+description: "Wanneer u uw inhoud klaar hebt, leer hoe u zorgvuldig bepaalt wie uw bericht zal ontvangen."
 feature: Deliverability
 role: User
 level: Intermediate

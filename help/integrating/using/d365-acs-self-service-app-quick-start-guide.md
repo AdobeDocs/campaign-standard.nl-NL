@@ -1,5 +1,5 @@
 ---
-title: 'Aan de slag met het integratieprogramma '
+title: Aan de slag met het integratieprogramma
 description: Aan de slag met het integratieprogramma
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
@@ -102,7 +102,7 @@ In de **[!UICONTROL Microsoft Dynamics 365 to Campaign]** pagina, kunt u tot de 
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
-In de **[!UICONTROL Edit Table Mapping]** pagina, controleer **[!UICONTROL Mappings]** om ervoor te zorgen dat velden van Microsoft Dynamics 365 worden toegewezen aan het juiste veld in Campagne. Als u andere toewijzingen moet toevoegen, doet u dit nu, evenals om het even welke vervangingen of filters. [Meer info](../../integrating/using/d365-acs-self-service-app-data-sync.md).
+In de **[!UICONTROL Edit Table Mapping]** pagina, controleer **[!UICONTROL Mappings]** om ervoor te zorgen dat velden van Microsoft Dynamics 365 worden toegewezen aan het juiste veld in Campagne. Als u andere toewijzingen moet toevoegen, doet u dit nu, evenals om het even welke vervangingen of filters. [Meer informatie](../../integrating/using/d365-acs-self-service-app-data-sync.md).
 
 Als u nieuwe toewijzingen wilt toevoegen, raadpleegt u [deze sectie](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) voor meer informatie .
 

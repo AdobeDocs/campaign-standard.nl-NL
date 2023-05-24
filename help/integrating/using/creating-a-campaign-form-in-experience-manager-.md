@@ -1,5 +1,5 @@
 ---
-title: 'Een Campaign-formulier maken in Experience Manager '
+title: Een Campaign-formulier maken in Experience Manager
 description: Met de Adobe Experience Manager-integratie kunt u rechtstreeks in AEM formulieren maken om profielen te maken en bij te werken of abonnementen te beheren.
 audience: integrating
 content-type: reference

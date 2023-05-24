@@ -216,7 +216,7 @@ Hieronder vindt u een lijst met beschikbare opties voor het synchroniseren van g
 
 * **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**: met deze optie wordt het **Toewijzingen** sectie. Met deze invoer kunt u bepalen in welke Adobe Campaign-velden gegevens worden toegewezen aan welke velden in Microsoft Dynamics 365. Dit betekent dat als u een waarde in de Dynamica 365 van Microsoft manueel bijwerkt dan zijn waarde door de waarde van Adobe Campaign zou worden beschreven als het gebeurt om te veranderen.
 
-* **[!UICONTROL Bidirectional]**: met deze optie wordt het **Toewijzingen** sectie. Met deze paren wordt aangegeven welke velden in Microsoft Dynamics 365 en Adobe Campaign aan elkaar worden toegewezen. [Meer info](../../integrating/using/d365-acs-notices-and-recommendations.md).
+* **[!UICONTROL Bidirectional]**: met deze optie wordt het **Toewijzingen** sectie. Met deze paren wordt aangegeven welke velden in Microsoft Dynamics 365 en Adobe Campaign aan elkaar worden toegewezen. [Meer informatie](../../integrating/using/d365-acs-notices-and-recommendations.md).
 
 ### Toewijzingen
 

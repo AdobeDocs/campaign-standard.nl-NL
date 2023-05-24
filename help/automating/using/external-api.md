@@ -261,7 +261,7 @@ Deze logboekberichten worden gebruikt om informatie in een logboek te registrere
   </tr> 
   <tr> 
    <td> WKF-560247 - Een HTTP-headerwaarde is ongeldig (headerwaarde: '%s').</td> 
-   <td> <p>HTTP-headerwaarde is ongeldig (headerwaarde: '%s'). </p>
+   <td> <p>HTTP header value is bad (header value: '%s'). </p>
     <p>Opmerking: Deze fout wordt in een logboek geregistreerd wanneer de aangepaste koptekstwaarde niet kan worden gevalideerd volgens <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 

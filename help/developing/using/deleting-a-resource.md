@@ -1,6 +1,6 @@
 ---
 title: Een bron verwijderen
-description: 'Leer hoe u een bron verwijdert '
+description: Leer hoe u een bron verwijdert
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource

@@ -256,7 +256,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> (@bezorgd/@verzonden)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Openen<br /> </td> 
+   <td> Open<br /> </td> 
    <td> @open<br /> </td> 
    <td> @count(status=open)<br /> </td> 
   </tr> 

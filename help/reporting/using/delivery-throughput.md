@@ -1,6 +1,6 @@
 ---
 title: Leveringsdoorvoer
-description: With the Delivery throughput out-of-the-box report, learn about the success of your delivery.
+description: Met het output out-of-the-box rapport van de Levering, leer over het succes van uw levering.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -21,7 +21,7 @@ ht-degree: 4%
 Dit rapport bevat gegevens met betrekking tot de leveringsproductie van een verzend, of verscheidene verzendt. Het voorziet in:
 
 * Het aantal verwerkte berichten per uur
-* The **[!UICONTROL Top 5 deliveries]** table and complementary summary numbers that show the five deliveries with the best gain in retries.
+* De **[!UICONTROL Top 5 deliveries]** tabel en aanvullende samenvattingsnummers die de vijf leveringen weergeven met de beste winst in herpogingen.
 
 ![](assets/delivery_reports_1.png)
 

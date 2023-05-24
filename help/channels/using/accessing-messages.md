@@ -1,6 +1,6 @@
 ---
 title: Berichten openen
-description: '"Leer hoe u toegang krijgt tot berichten en hun geavanceerde functies: creëren, richten, personalisatie, uitvoering en rapportering."'
+description: "Leer hoe u toegang krijgt tot berichten en hun geavanceerde functies: creëren, richten, personalisatie, uitvoering en rapportering."
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels

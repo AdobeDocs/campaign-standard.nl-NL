@@ -1,6 +1,6 @@
 ---
 title: Sms-rapport
-description: 'Met het SMS out-of-the-box rapport, leer over het succes van uw levering van SMS. '
+description: Met het SMS out-of-the-box rapport, leer over het succes van uw levering van SMS.
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports

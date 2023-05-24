@@ -9,11 +9,11 @@ exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Tags in veelgestelde vragen over Adobe Experience Platform-synchronisatie {#syncwithlaunch-faq}
+# Tags in Adobe Experience Platform - veelgestelde vragen over synchronisatie {#syncwithlaunch-faq}
 
 U kunt mobiele eigenschappen van tags importeren naar Adobe Campaign Standard via het dialoogvenster **[!UICONTROL Sync with Launch]** specifieke technische workflow. Raadpleeg deze voor meer informatie [page](../../administration/using/technical-workflows.md)
 

@@ -1,5 +1,5 @@
 ---
-title: '"Stap 1: extensievelden toevoegen aan de profielbron"'
+title: "Stap 1: extensievelden toevoegen aan de profielbron"
 description: Ontdek hoe u de profielbron kunt uitbreiden.
 audience: developing
 content-type: reference

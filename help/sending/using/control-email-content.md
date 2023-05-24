@@ -25,7 +25,6 @@ Om ervoor te zorgen dat je e-mailberichten bij je ontvangers terechtkomen en je 
 Volg de onderstaande principes bij het ontwerpen van uw berichtinhoud:
 
 * [Naam en adres van de afzender](#sender-name): het adres moet de afzender uitdrukkelijk identificeren. Het domein moet eigendom zijn van en geregistreerd zijn bij de afzender. Het domeinregister mag niet worden geprivatiseerd.
-
    <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
 * [Personalisatie en tijdoptimalisatie](#perso-send-time-optimization): het personaliseren van inhoud en het bepalen van een verzendingstijd per ontvanger verhogen de kansen van uw bericht dat wordt geopend.
 * Afbeeldingen en tekst: respecteer een goede tekst/beeldverhouding (bijvoorbeeld 60% tekst en 40% afbeeldingen).

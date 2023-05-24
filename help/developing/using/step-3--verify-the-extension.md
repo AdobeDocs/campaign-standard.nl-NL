@@ -1,5 +1,5 @@
 ---
-title: '"Stap 3: de extensie verifiëren"'
+title: "Stap 3: de extensie verifiëren"
 description: Leer hoe u toegang krijgt tot het uitgebreide veld met de rest-API.
 audience: developing
 content-type: reference

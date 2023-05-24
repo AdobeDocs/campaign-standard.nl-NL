@@ -23,13 +23,13 @@ Dynamische tekst wordt op dezelfde manier gedefinieerd als dynamische inhoud. Zi
 >
 >Voor SMS en push kunt u alleen dynamische tekst definiëren. U kunt zowel dynamische inhoud als tekst op een openingspagina definiëren. Als u dynamische tekst wilt definiëren met de [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md), zie [Dynamische inhoud in een e-mail definiëren](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
-Note that surrogate pairs, characters not included in the Basic Multilingual Plane of the Unicode character set, cannot be stored in 2 bytes (16bits) and need to get encoded into 2 UTF-16 characters. Deze tekens zijn enkele CJK-ideografieën, de meeste emojis en sommige talen.
-<br>These characters can cause some incompatibility issues in dynamic text. You need to perform strong tests before sending your messages.
+Vervangende paren, tekens die niet in het meertalig basisvlak van de Unicode-tekenset staan, kunnen niet in 2 bytes (16 bits) worden opgeslagen en moeten in 2 UTF-16-tekens worden gecodeerd. Deze tekens zijn enkele CJK-ideografieën, de meeste emojis en sommige talen.
+<br>Deze tekens kunnen onverenigbaarheidsproblemen veroorzaken in dynamische tekst. U moet sterke tests uitvoeren alvorens uw berichten te verzenden.
 
 
-The example below shows how to define dynamic text in an SMS message.
+In het onderstaande voorbeeld ziet u hoe u dynamische tekst in een SMS-bericht definieert.
 
-1. Select text in the body of your message or landing page.
+1. Selecteer tekst in de tekst van het bericht of de landingspagina.
 1. Klik op **[!UICONTROL Enable dynamic text]**.
 
    ![](assets/dynamic_text_sms_1.png)

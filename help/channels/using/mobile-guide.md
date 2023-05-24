@@ -11,7 +11,7 @@ exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 24%
+ht-degree: 25%
 
 ---
 
@@ -96,7 +96,7 @@ Met Adobe Campaign Standard kunt u mobiele leveringen via drie verschillende kan
 <tr>
   <td>
     <div>
-    <p><strong>Tagregels configureren ter ondersteuning van Adobe Campaign Standard-gebruiksproblemen</strong></p>
+    <p><strong>Tagregels configureren om Adobe Campaign Standard-gebruiksscenario's te ondersteunen</strong></p>
     </div>
     <p><a href="../../administration/using/configuring-rules-launch.md"><strong>Klik hier</strong></a> om gegevenselementen en regels in de gebruikersinterface voor gegevensverzameling te gaan maken en PII's en andere gegevens van mobiele toepassingen naar Adobe Campaign Standard te verzenden.</p>
     <br>

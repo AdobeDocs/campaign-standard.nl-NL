@@ -12,7 +12,7 @@ exl-id: d2ce702b-92d1-4b94-bd47-34ef46a8bd9f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -58,7 +58,7 @@ In de [eigenschappen van workflow](../../automating/using/managing-execution-opt
 
 Mogelijke opties zijn:
 
-* **[!UICONTROL Supervisors]**: Hiermee kunt u de groep personen definiëren die op de hoogte moeten worden gesteld (e-mail en meldingen in de app) als de workflow een fout aantreft. Als er geen groep wordt gedefinieerd, wordt niemand op de hoogte gebracht. Voor meer informatie over Adobe Campaign-berichten raadpleegt u [Adobe Campaign-berichten](../../administration/using/sending-internal-notifications.md).
+* **[!UICONTROL Supervisors]**: Hiermee kunt u de groep personen definiëren die op de hoogte moeten worden gesteld (e-mail en meldingen in de app) als de workflow een fout aantreft. Als er geen groep wordt gedefinieerd, wordt niemand op de hoogte gebracht. Voor meer informatie over Adobe Campaign-notificaties raadpleegt u [Adobe Campaign-notificaties](../../administration/using/sending-internal-notifications.md).
 
 * **[!UICONTROL In case of error]**: kunt u opgeven welke actie moet worden uitgevoerd als de activiteit een fout aantreft. Hiervoor zijn twee opties beschikbaar:
 

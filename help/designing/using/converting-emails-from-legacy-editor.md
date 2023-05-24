@@ -1,5 +1,5 @@
 ---
-title: 'E-mail met de oude editor converteren naar e-mailontwerper '
+title: E-mail met de oude editor converteren naar e-mailontwerper
 description: Ontdek hoe u e-mailberichten kunt gebruiken die zijn gemaakt in de E-mail van de Oudere Editor naar de e-mailontwerper.
 audience: designing
 content-type: reference

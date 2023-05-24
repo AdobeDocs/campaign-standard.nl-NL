@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ---
 
-# Hot kliks{#hot-clicks}
+# Hot clicks{#hot-clicks}
 
 Dit rapport is toegankelijk via de **[!UICONTROL Reports]** in elk bezorgings- of transactiebericht.
 

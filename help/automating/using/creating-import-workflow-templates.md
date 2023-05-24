@@ -107,7 +107,7 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
 
 1. Configureer de **[!UICONTROL Update data]** activiteit die zich na de **[!UICONTROL Deduplication]** eerder geconfigureerde activiteit.
 
-   * Selecteren **[!UICONTROL Insert only]** als **[!UICONTROL Operation type]** omdat de inkomende overgang alleen profielen bevat die niet aanwezig zijn in de database.
+   * Selecteren **[!UICONTROL Insert only]** als **[!UICONTROL Operation type]** aangezien de inkomende overgang alleen profielen bevat die niet in de database aanwezig zijn.
    * In de **[!UICONTROL Identification]** tab, selecteert u **[!UICONTROL Using reconciliation criteria]** en definieert u een sleutel tussen de **[!UICONTROL Dimension to update]** - Profielen in dit geval - en de koppeling die in het dialoogvenster **[!UICONTROL Reconciliation]** activiteit. In dit voorbeeld wordt **CRM-id** aangepast veld wordt gebruikt.
 
       ![](assets/import_template_example6.png)

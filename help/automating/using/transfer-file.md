@@ -12,7 +12,7 @@ exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
 source-wordcount: '1168'
-ht-degree: 83%
+ht-degree: 82%
 
 ---
 
@@ -145,7 +145,7 @@ Met het Microsoft Azure Blob-protocol hebt u toegang tot een blob op een Microso
 ### Configuratie met bestanden die aanwezig zijn op de Adobe Campaign-server {#files-server-configuration-wf}
 
 Het protocol **[!UICONTROL File(s) present on the Adobe Campaign server]** komt overeen met de opslagplaats die de te herstellen bestanden bevat.
-Metatekens of jokertekens (bijvoorbeeld * of ?) kunnen worden gebruikt om bestanden te filteren.
+Metatekens of jokertekens (bijvoorbeeld &#42; of ?) kunnen worden gebruikt om bestanden te filteren.
 
 Kies **[!UICONTROL Define a file path]** of **[!UICONTROL Use a dynamic file path]**.
 Met de optie **[!UICONTROL Use a dynamic file path]** kunt u een standaardexpressie en gebeurtenisvariabelen gebruiken om de naam van het over te dragen bestand te personaliseren. Raadpleeg [deze pagina](../../automating/using/customizing-workflow-external-parameters.md) voor meer informatie.

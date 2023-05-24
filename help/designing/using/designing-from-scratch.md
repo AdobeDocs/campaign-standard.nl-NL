@@ -1,5 +1,5 @@
 ---
-title: 'Geheel nieuwe e-mails ontwerpen '
+title: Geheel nieuwe e-mails ontwerpen
 description: Ontdek hoe u e-mailberichten kunt ontwerpen op basis van nieuwe e-mailinhoud in de e-mailontwerper.
 audience: designing
 content-type: reference
@@ -34,7 +34,7 @@ U kunt dit ook uitchecken [inleidende video](https://video.tv.adobe.com/v/22771/
 
 >[!NOTE]
 >
->U kunt het ontwerpen van nieuwe e-mailinhoud voorkomen door sjablonen voor inhoud buiten de verpakking te gebruiken. For more on this, see [Content templates](../../designing/using/using-reusable-content.md#content-templates).
+>U kunt het ontwerpen van nieuwe e-mailinhoud voorkomen door sjablonen voor inhoud buiten de verpakking te gebruiken. Zie voor meer informatie [Inhoudssjablonen](../../designing/using/using-reusable-content.md#content-templates).
 
 ## E-mailstructuur definiëren {#defining-the-email-structure}
 
@@ -105,7 +105,7 @@ U kunt een **[!UICONTROL Content block]**, **[!UICONTROL Dynamic content]** of *
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
 >title="Informatie over inhoudscomponenten"
->abstract="Content components are empty content placeholders that you can edit to create an email."
+>abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt bewerken om een e-mail te maken."
 
 Inhoudscomponenten zijn onbewerkte, lege componenten die u kunt bewerken wanneer u ze eenmaal in een e-mail hebt geplaatst.
 
@@ -156,20 +156,20 @@ Als u inhoud hebt die niet opnieuw kan worden gemaakt, kunt u de HTML-code uit h
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="Video-instellingen"
->abstract="Gebruik deze component om een video in te voegen in uw e-mail. Note that videos do not work on all email clients. We raden u aan een fallback-afbeelding in te stellen."
+>abstract="Gebruik deze component om een video in te voegen in uw e-mail. Video&#39;s werken niet voor alle e-mailclients. We raden u aan een fallback-afbeelding in te stellen."
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="Aanvullende informatie"
 
 De videocomponent invoegen in een structuurcomponent van uw e-mail en de videokoppeling invoeren in het dialoogvenster **[!UICONTROL Component Settings]**.
 
 >[!NOTE]
 >
->Note that video is not compatible with all email programs. Als dit niet wordt ondersteund, wordt fallback weergegeven.
+>Video is niet compatibel met alle e-mailprogramma&#39;s. Als dit niet wordt ondersteund, wordt fallback weergegeven.
 
 ### Afbeelding
 
 Gebruik deze component om een afbeelding in te voegen in uw e-mail.
 
-Insert the image component into a structure component and click browse to upload an image file from your computer.
+Voeg de afbeeldingscomponent in een structuurcomponent in en klik op Bladeren om een afbeeldingsbestand van uw computer te uploaden.
 
 ### **[!UICONTROL Social]**
 

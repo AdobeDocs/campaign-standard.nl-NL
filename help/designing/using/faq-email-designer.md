@@ -1,5 +1,5 @@
 ---
-title: 'Veelgestelde vragen over e-mailontwerper '
+title: Veelgestelde vragen over e-mailontwerper
 description: Veelgestelde vragen over E-mailontwerper.
 audience: designing
 content-type: reference

@@ -141,7 +141,7 @@ ht-degree: 1%
                </tr>
                <tr>
                   <td>email</td>
-                  <td>E-mail</td>
+                  <td>Email</td>
                   <td>string (128)</td>
                   <td> </td>
                </tr>
@@ -422,7 +422,7 @@ ht-degree: 1%
                   </td>
                </tr>
                <tr>
-                  <td>titel</td>
+                  <td>title</td>
                   <td>Profiel</td>
                   <td>tekenreeks (255)</td>
                   <td> </td>

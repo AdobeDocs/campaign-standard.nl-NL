@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: '"Als uw bericht klaar is, leert u hoe u alle controles kunt uitvoeren voordat u het verzendt"'
+description: "Als uw bericht klaar is, leert u hoe u alle controles kunt uitvoeren voordat u het verzendt"
 feature: Deliverability
 role: User
 level: Intermediate

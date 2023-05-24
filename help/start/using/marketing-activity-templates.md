@@ -1,6 +1,6 @@
 ---
 title: Sjablonen
-description: '"Met Adobe Campaign-sjablonen kunt u parameters vooraf configureren, afhankelijk van uw behoeften: sjablonen kunnen een volledige of gedeeltelijke configuratie van de marketingactiviteiten bevatten om het gebruik van Adobe Campaign voor niet-technische eindgebruikers te vereenvoudigen."'
+description: "Met Adobe Campaign-sjablonen kunt u parameters vooraf configureren, afhankelijk van uw behoeften: sjablonen kunnen een volledige of gedeeltelijke configuratie van de marketingactiviteiten bevatten om het gebruik van Adobe Campaign voor niet-technische eindgebruikers te vereenvoudigen."
 audience: start
 content-type: reference
 topic-tags: managing-templates

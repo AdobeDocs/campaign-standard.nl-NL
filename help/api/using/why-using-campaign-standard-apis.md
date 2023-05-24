@@ -54,7 +54,7 @@ In de onderstaande stappen wordt een stapsgewijze beschrijving van het gebruik b
 
 1. Download de JSON-verzameling door op [hier](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
 
-1. Open Postman, dan selecteer **Bestand** / **Importeren** -menu.
+1. Open Postman en selecteer vervolgens de **Bestand** / **Importeren** -menu.
 
 1. Sleep het gedownloade bestand naar het venster. Vooraf ontworpen API-aanvragen worden weergegeven en kunnen worden gebruikt.
 

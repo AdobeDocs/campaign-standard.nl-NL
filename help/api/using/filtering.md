@@ -37,7 +37,7 @@ In de onderstaande voorbeeldladingen ziet u hoe u de metagegevens van de &quot;b
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-It returns the URL where the filters are described.
+De URL waar de filters worden beschreven, wordt geretourneerd.
 
 ```
 {
@@ -47,7 +47,7 @@ It returns the URL where the filters are described.
   }
 ```
 
-Perform a GET request on the URL. It returns the list of filters for the profile resource, with the metadata associated to each filter.
+Voer een verzoek van de GET op URL uit. De lijst met filters voor de profielbron wordt geretourneerd, met de metagegevens die aan elk filter zijn gekoppeld.
 
 ```
 {
@@ -62,7 +62,7 @@ Perform a GET request on the URL. It returns the list of filters for the profile
 }
 ```
 
-## Filters metadata structure
+## Metagegevensstructuur filteren
 
 Voor elk filter is dezelfde metagegevensstructuur beschikbaar:
 
@@ -89,7 +89,7 @@ Voorbeeld van de structuur van filtermetagegevens:
 
 ## Filters gebruiken
 
-Filtering is performed with the following request:
+Filteren wordt uitgevoerd met het volgende verzoek:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/by<filterName>?<filterParam>=<filterValue>`
 
@@ -99,7 +99,7 @@ Het is mogelijk meerdere filters te combineren in één aanvraag:
 
 <br/>
 
-***Sample requests***
+***Voorbeeldverzoeken***
 
 * Voorbeeld van een GET-aanvraag om de &#39;service&#39;-bronnen op te halen met het type &#39;email&#39;.
 
