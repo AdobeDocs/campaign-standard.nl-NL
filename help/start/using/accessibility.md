@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '648'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -126,4 +126,4 @@ Adobe Campaign Standard streeft naar een steeds grotere mate van toegankelijkhei
 
 We raden u aan om het [feedbackformulier Adobe-toegankelijkheid](https://www.adobe.com/accessibility/feedback.html) te gebruiken om suggesties voor verbetering te sturen en om de toegankelijkheidsproblemen die u tegenkomt, te melden.
 
-U kunt ook naar [Release-opmerkingen van Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html#release-notes) verwijzen om de meest recente verbeteringen en functies te volgen.
+U kunt ook naar [Release-opmerkingen van Adobe Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=nl#release-notes) verwijzen om de meest recente verbeteringen en functies te volgen.
