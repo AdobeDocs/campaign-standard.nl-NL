@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ Krijg ondersteuning via onze veelgestelde vragen, best practices, online hulpbro
 ### Wat is het configuratiescherm?
 
 Met het configuratiescherm kunt u uw werk als productbeheerder van Campaign Standard efficiënter uitvoeren doordat u de instellingen kunt beheren en het gebruik voor elk van uw instanties kunt bijhouden.
-[Klik hier](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html#discover-control-panel) voor meer informatie.
+[Klik hier](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=nl#discover-control-panel) voor meer informatie.
 
 >[!NOTE]
 >
@@ -93,23 +93,23 @@ Met het configuratiescherm kunt u uw werk als productbeheerder van Campaign Stan
 
 ### Hoe kan ik het configuratiescherm openen?
 
-U kunt het configuratiescherm rechtstreeks openen vanuit Adobe Experience Cloud. [Klik hier](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html#discover-control-panel) voor meer informatie.
+U kunt het configuratiescherm rechtstreeks openen vanuit Adobe Experience Cloud. [Klik hier](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=nl#discover-control-panel) voor meer informatie.
 
 ### Veelgestelde vragen over configuratiescherm
 
-[Klik hier ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html) om de veelgestelde vragen over het Campaign-configuratiescherm te openen. 
+[Klik hier ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=nl) om de veelgestelde vragen over het Campaign-configuratiescherm te openen. 
 
 ### SFTP-beheer
 
-In het configuratiescherm kunt u werken met alle SFTP-servers die verbonden zijn met Campaign-instanties waar u toegang toe hebt. U kunt de opslagcapaciteit controleren, IP-adressen op de lijst van gewenste personen beheren en openbare SSH-sleutels beheren. [Klik hier](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management) voor meer informatie.
+In het configuratiescherm kunt u werken met alle SFTP-servers die verbonden zijn met Campaign-instanties waar u toegang toe hebt. U kunt de opslagcapaciteit controleren, IP-adressen op de lijst van gewenste personen beheren en openbare SSH-sleutels beheren. [Klik hier](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=nl#sftp-management) voor meer informatie.
 
 ### Subdomeinen en certificaten
 
 U kunt de subdomeinen en de bijbehorende certificaten controleren. Meer informatie:
 
-* [Branding van subdomein](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html#subdomains-and-certificates)
-* [Een nieuw subdomein instellen](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#subdomains-and-certificates)
-* [SSL-certificaten controleren](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates)
+* [Branding van subdomein](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl#subdomains-and-certificates)
+* [Een nieuw subdomein instellen](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl#subdomains-and-certificates)
+* [SSL-certificaten controleren](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=nl#subdomains-and-certificates)
 
 ## Vragen om hulp
 
