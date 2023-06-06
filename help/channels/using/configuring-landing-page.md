@@ -9,9 +9,9 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '653'
 ht-degree: 97%
 
 ---
@@ -115,4 +115,4 @@ Uw landingspagina is nu ingesteld met Google reCAPTCHA en dit wordt onderaan de 
 
 ![](assets/lp_parameters_google2.png)
 
-Google reCAPTCHA retourneert vervolgens een score op basis van gebruikersinteracties met uw pagina. Maak verbinding met uw [Google-beheerconsole](https://g.co/recaptcha/admin) om uw score te controleren.
+Google reCAPTCHA retourneert vervolgens een score op basis van gebruikersinteracties met uw pagina. Maak verbinding met uw Google-beheerconsole om uw score te controleren.
