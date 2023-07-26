@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 6947d163119dd6fc5966fdc723530b02bdd4a469
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '900'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ De veelvoudige toepassingen zullen moeten worden gevormd om de integratie toe te
 
 ## Vereisten
 
-Voordat u de instellingen voor de pre-integratie uitvoert in dit document, wordt aangenomen dat u al voorzieningen hebt getroffen en beheerdersrechten hebt voor de Microsoft Dynamics 365-instantie van uw organisatie.  Als dit niet is gebeurd, dan zult u in contact met de klantensteun van Microsoft moeten krijgen om Dynamica 365 levering te voltooien.
+Voordat u de instellingen voor de integratie uitvoert in dit document, wordt aangenomen dat u al voorzieningen hebt getroffen en beheerdersrechten hebt voor de Microsoft Dynamics 365-instantie van uw organisatie.  Als dit niet is gebeurd, dan zult u in contact met de klantensteun van Microsoft moeten krijgen om Dynamica 365 levering te voltooien.
 
 Als u de integratie voor zowel het opvoeren als productiemilieu&#39;s vormt, zult u de hieronder stappen voor zowel uw het opvoeren als dynamiek 365 van de productie instanties moeten uitvoeren. Enkele instructies hieronder variëren enigszins, afhankelijk van het feit of u een werkgebied of een instantie van de productietynamiek van 365 configureert (bijvoorbeeld, voor een productieinstantie selecteert u &quot;prod&quot; voor `<stage or prod>`)
 
@@ -83,29 +83,29 @@ Raadpleeg voor meer informatie over het instellen van machtigingen de [deze sect
 
 ### De gebruiker van de app maken
 
-Deze nieuwe gebruiker is een generieke gebruiker. Deze wordt door de toepassing gebruikt: Elke wijziging in Microsoft Dynamics 365 met behulp van de API wordt uitgevoerd door deze gebruiker. Voer de volgende stappen uit om het bestand te maken:
+Deze nieuwe gebruiker is een generieke gebruiker. Deze wordt door de toepassing gebruikt: elke wijziging in Microsoft Dynamics 365 met behulp van de API wordt door deze gebruiker uitgevoerd. Voer de volgende stappen uit om het bestand te maken:
 
 1. Navigeer naar de instantie Dynamics 365 en meld u aan als Admin.
 
 1. Klik op het tandwielpictogram in de rechterbovenhoek en klik op **[!UICONTROL Advanced Settings]**. Klik in de bovenste banner op de vervolgkeuzelijst naast **[!UICONTROL Settings]**, klikt u op **[!UICONTROL Security > Users]**.
 
-1. Klik op de vervolgkeuzelijst en ga naar **[!UICONTROL Application Users]**. Klik op **[!UICONTROL New]**.
+1. Klik op het vervolgkeuzemenu om naar **[!UICONTROL Application Users]**. Klik op **[!UICONTROL New]**.
 
 1. Vervolgkeuzelijst naast de tekst van het gebruikerspictogram controleren **[!UICONTROL USER:APPLICATION USER]**.
 
    Vul het scherm voor de nieuwe gebruiker in.  Suggesties voor parameters:
 
-   * **[!UICONTROL User Name]** (e-mail): adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot; (bijv. adobe_api_stage@some-company.crm.dynamics.com)
-   * **[!UICONTROL Application ID]**: Id van de toepassing die u hebt geregistreerd in Azure AD (dit is verplicht)
+   * **[!UICONTROL User Name]** (e-mail): adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot; (bijvoorbeeld adobe_api_stage@some-company.crm.dynamics.com)
+   * **[!UICONTROL Application ID]**: ID van de toepassing die u hebt geregistreerd in Azure AD (dit is verplicht)
    * U kunt leeg laten **[!UICONTROL Application ID URI]** en **[!UICONTROL Azure AD Object ID]**
-   * **[!UICONTROL Full Name]**: Adobe API `<stage or prod>`
+   * **[!UICONTROL Full Name]**: ADOBE API `<stage or prod>`
    * **[!UICONTROL Email]**: gelijk aan **[!UICONTROL User Name]** (of het e-mailbericht van de beheerder als u dat wenst)
 
    Raadpleeg voor meer informatie over het maken van apps door gebruikers [deze sectie](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}.
 
-1. Klik op het gebruikerspictogram en upload een Adobe Campaign-pictogram. Dit is het pictogram dat in de mening van de Chronologie zal worden getoond wanneer de nieuwe gebeurtenissen van de Adobe in Dynamiek 365 verschijnen.
+1. Klik op het gebruikerspictogram en upload een Adobe Campaign-pictogram. Dit is het pictogram dat wordt weergegeven in de tijdlijnweergave wanneer nieuwe Adobe-gebeurtenissen verschijnen in Dynamics 365.
 
-1. Open de lijst met gebruikersrollen door te klikken **[!UICONTROL MANAGE ROLES]** in het bovenste lint.
+1. De lijst met gebruikersrollen openen door te klikken **[!UICONTROL MANAGE ROLES]** in het bovenste lint.
 
 1. Omlaag schuiven en selecteren **[!UICONTROL System administrator]** toegang voor deze gebruiker.
 
@@ -119,9 +119,8 @@ Volg de instructies [op deze pagina](https://docs.microsoft.com/en-us/onedrive/f
 
 Volg onderstaande stappen om de Dynamics 365 App te integreren in uw Campaign Standard-omgeving:
 
-1. Ga naar de volgende koppeling: [https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps) en zoek naar _Adobe Campaign for Dynamics 365_ in de zoekbalk.
-U kunt ook naar dit item navigeren [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview)
-{target="_blank"}.
+1. Bladeren naar [Microsoft Business Apps](https://appsource.microsoft.com/en-us/marketplace/apps)en zoek naar_Adobe Campaign Standard_ in de zoekbalk.
+U kunt ook naar dit item navigeren [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"}.
 1. Volg de instructies om app voor uw instantie Dynamics 365 te installeren.
 1. Na geïnstalleerd, navigeer aan uw instantie van de Dynamiek 365 en teken binnen als beheerder.
 1. Klik op het tandwielpictogram in de rechterbovenhoek en klik op **[!UICONTROL Advanced Settings]**. Klik in de bovenste banner op de vervolgkeuzelijst naast **[!UICONTROL Settings]**, klikt u op **[!UICONTROL Processes]** krachtens **[!UICONTROL Process Center]**.
