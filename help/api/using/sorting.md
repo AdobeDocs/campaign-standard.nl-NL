@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
-source-git-commit: 0c8710b3e1cc679fa907758a4bf5542d892c737c
+source-git-commit: 13fc1b011f61d67dda128e77b854032801bda263
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 11%
@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # Sorteren
 
-Sorteren is beschikbaar in oplopende of aflopende volgorde. Om dit te doen, gebruik **%20desc** of **%20asc** aan uw verzoek.
+Sorteren is standaard in oplopende volgorde beschikbaar. Als u in aflopende volgorde wilt sorteren, voegt u **%20desc** aan de **_order** waarde van de parameter.
 
 Als u wilt weten of een veld kan worden gesorteerd, controleert u de parameter &quot;sortable&quot; in de metagegevens van de bron. Raadpleeg [deze sectie](../../api/using/metadata-mechanism.md) voor meer informatie.
 
@@ -28,7 +28,7 @@ Als u wilt weten of een veld kan worden gesorteerd, controleert u de parameter &
 * Voorbeeld van een GET-aanvraag om e-mailberichten op te halen in de database in alfabetische volgorde.
 
   ```
-  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20asc \
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
   -H 'Cache-Control: no-cache' \
