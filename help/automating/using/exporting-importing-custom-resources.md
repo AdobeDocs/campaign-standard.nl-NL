@@ -25,7 +25,7 @@ De voorwaarden zijn:
 
 * **Een of meer aangepaste resources** die beschikbaar en gepubliceerd zijn.
 
-   Bovendien moet u een unieke sleutel voor deze resources gedefinieerd hebben omdat de automatische primaire sleutels niet in de pakketten worden geëxporteerd. De resource kan daarom een primaire sleutel en een aanvullende unieke sleutel hebben om de uniekheid van de records te garanderen.
+  Bovendien moet u een unieke sleutel voor deze resources gedefinieerd hebben omdat de automatische primaire sleutels niet in de pakketten worden geëxporteerd. De resource kan daarom een primaire sleutel en een aanvullende unieke sleutel hebben om de uniekheid van de records te garanderen.
 * **De benodigde rechten** om een pakket te maken en te exporteren.
 
 Aanvullende resources:

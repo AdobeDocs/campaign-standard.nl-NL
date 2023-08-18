@@ -23,22 +23,22 @@ Op de bovenste werkbalk kunt u bijvoorbeeld uw rapport wijzigen, opslaan of afdr
 
 Gebruik de **Project** tab naar:
 
-* **Openen...**: Hiermee opent u een eerder gemaakt rapport of een sjabloon.
-* **Opslaan als...**: Hiermee dupliceert u sjablonen om deze te kunnen wijzigen.
-* **Project vernieuwen**: Werkt uw rapport bij dat op nieuwe gegevens en veranderingen in filters wordt gebaseerd.
+* **Openen...**: Opent een eerder gemaakt rapport of een sjabloon.
+* **Opslaan als..**: Hiermee dupliceert u sjablonen om deze te kunnen wijzigen.
+* **Project vernieuwen**: werkt uw rapport bij op basis van nieuwe gegevens en wijzigingen in filters.
 * **CSV downloaden**: Exporteert uw rapporten naar een CSV-bestand.
 
 De **Bewerken** kunt u:
 
-* **Ongedaan maken**: Hiermee annuleert u de laatste handeling op het dashboard.
-* **Alles wissen**: Hiermee verwijdert u elk deelvenster op het dashboard.
+* **Ongedaan maken**: Annuleert de laatste handeling op het dashboard.
+* **Alles wissen**: verwijdert elk deelvenster op het dashboard.
 
 De **Invoegen** in de tabel kunt u uw rapporten aanpassen door grafieken en tabellen toe te voegen aan het dashboard:
 
-* **Nieuw leeg deelvenster**: Hiermee voegt u een nieuw leeg deelvenster toe aan het dashboard.
-* **Nieuwe vrije vorm**: Hiermee voegt u een nieuwe vrije-vormtabel toe aan het dashboard.
-* **Nieuwe regel**: Hiermee voegt u een nieuwe lijngrafiek toe aan het dashboard.
-* **Nieuwe balk**: Hiermee voegt u een nieuwe staafgrafiek toe aan het dashboard.
+* **Nieuw leeg deelvenster**: Voegt een nieuw leeg deelvenster toe aan het dashboard.
+* **Nieuwe vrije vorm**: Voegt een nieuwe vrije-vormlijst aan uw dashboard toe.
+* **Nieuwe regel**: Voegt een nieuwe lijngrafiek aan uw dashboard toe.
+* **Nieuwe balk**: Voegt een nieuwe staafgrafiek toe aan het dashboard.
 
 **Verwante onderwerpen:**
 
@@ -55,9 +55,9 @@ Met de linkertabbladen kunt u uw rapport samenstellen en de gegevens naar wens f
 
 Op deze tabbladen hebt u toegang tot de volgende items:
 
-* **[!UICONTROL Panels]**: Voeg een leeg paneel of een vrije vorm aan uw rapport toe beginnen uw gegevens te filtreren. Raadpleeg de sectie Deelvensters toevoegen voor meer informatie hierover
-* **[!UICONTROL Visualizations]**: sleep en laat vallen een selectie van visualiseringspunten om uw rapport een grafische dimensie te geven. Raadpleeg voor meer informatie de sectie Visualisaties toevoegen.
-* **[!UICONTROL Components]**: Pas uw rapporten aan met verschillende afmetingen, metriek, segmenten en tijdsperioden.
+* **[!UICONTROL Panels]**: voeg een leeg paneel of een vrije vorm aan uw rapport toe beginnen uw gegevens te filtreren. Raadpleeg de sectie Deelvensters toevoegen voor meer informatie hierover
+* **[!UICONTROL Visualizations]**: sleep en zet een selectie van visualisatie-items neer om uw rapport een grafische dimensie te geven. Raadpleeg voor meer informatie de sectie Visualisaties toevoegen.
+* **[!UICONTROL Components]**: pas uw rapporten aan met verschillende afmetingen, metriek, segmenten en tijdsperioden.
 
 ## Werkbalk {#toolbar}
 
@@ -77,9 +77,9 @@ De werkbalk bevindt zich boven de werkruimte. Het wordt samengesteld uit verschi
 
 Gebruik de **Project** tab naar:
 
-* **Openen...**: Hiermee opent u een eerder gemaakt rapport of een sjabloon.
-* **Opslaan als...**: Hiermee dupliceert u sjablonen om deze te kunnen wijzigen.
-* **Project vernieuwen**: Werkt uw rapport bij dat op nieuwe gegevens en veranderingen in filters wordt gebaseerd.
+* **Openen...**: Opent een eerder gemaakt rapport of een sjabloon.
+* **Opslaan als..**: Hiermee dupliceert u sjablonen om deze te kunnen wijzigen.
+* **Project vernieuwen**: werkt uw rapport bij op basis van nieuwe gegevens en wijzigingen in filters.
 * **CSV downloaden**: Exporteert uw rapporten naar een CSV-bestand.
 * **[!UICONTROL Print]**: Druk uw rapport af.
 
@@ -89,8 +89,8 @@ Gebruik de **Project** tab naar:
 
 De **Bewerken** kunt u:
 
-* **Ongedaan maken**: Hiermee annuleert u de laatste handeling op het dashboard.
-* **Alles wissen**: Hiermee verwijdert u elk deelvenster op het dashboard.
+* **Ongedaan maken**: Annuleert de laatste handeling op het dashboard.
+* **Alles wissen**: verwijdert elk deelvenster op het dashboard.
 
 ### Tabblad Invoegen {#insert-tab}
 
@@ -98,10 +98,10 @@ De **Bewerken** kunt u:
 
 De **Invoegen** kunt u uw rapporten aanpassen door grafieken en lijsten aan uw dashboard toe te voegen:
 
-* **Nieuw leeg deelvenster**: Hiermee voegt u een nieuw leeg deelvenster toe aan het dashboard.
-* **Nieuwe vrije vorm**: Hiermee voegt u een nieuwe vrije-vormtabel toe aan het dashboard.
-* **Nieuwe regel**: Hiermee voegt u een nieuwe lijngrafiek toe aan het dashboard.
-* **Nieuwe balk**: Hiermee voegt u een nieuwe staafgrafiek toe aan het dashboard.
+* **Nieuw leeg deelvenster**: Voegt een nieuw leeg deelvenster toe aan het dashboard.
+* **Nieuwe vrije vorm**: Voegt een nieuwe vrije-vormlijst aan uw dashboard toe.
+* **Nieuwe regel**: Voegt een nieuwe lijngrafiek aan uw dashboard toe.
+* **Nieuwe balk**: Voegt een nieuwe staafgrafiek toe aan het dashboard.
 
 ### Tabblad Delen {#share-tab}
 
@@ -141,7 +141,7 @@ De **[!UICONTROL Share]** kunt u rapporten verzenden met Adobe Campaign-gebruike
 
    1. Als u één van uw gepland rapport moet schrappen, selecteer het geplande rapport u dan wilt schrappen klikt **[!UICONTROL Delete the section]**.
    1. Om uw geplande rapporten te vormen of te controleren, klik direct op het rapport u moet veranderen.
-   1. De **[!UICONTROL Edit scheduled report]** verschijnt, kunt u de ontvangers of frequentie van uw e-mail nu wijzigen als dat nodig is.
+   1. De **[!UICONTROL Edit scheduled report]** wordt weergegeven, kunt u de ontvangers of frequentie van uw e-mail nu wijzigen als dat nodig is.
 
 De doelgebruikers ontvangen vervolgens een e-mail met het rapport dat u rechtstreeks in hun postvakken hebt toegevoegd. Gebruikers kunnen altijd beslissen geen terugkerende e-mailberichten meer te ontvangen via de koppeling om hun abonnement op te zeggen die beschikbaar is in elke terugkerende e-mail.
 

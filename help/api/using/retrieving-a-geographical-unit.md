@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # De geografische eenheid van een profiel ophalen {#retrieving-geographical-unit}
 
-1. Voer een verzoek van de GET op het profiel PKey uit om terug te winnen **geoUnit** URL.
+1. Voer een GET verzoek op het profiel PKey uit om terug te winnen **geoUnit** URL.
 1. Voer een verzoek van de GET op URL uit om meer details over de Geografische eenheid terug te winnen.
 
 <br/>
@@ -58,7 +58,7 @@ Voer een verzoek van de GET op URL uit om meer informatie terug te winnen.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Er worden details over de geografische eenheid geretourneerd.
+Het geeft details over de geografische eenheid.
 
 ```
 {

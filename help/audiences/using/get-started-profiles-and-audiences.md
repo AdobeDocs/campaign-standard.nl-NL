@@ -40,7 +40,7 @@ Identificeer klanten effectiever over al uw kanalen gebruikend **geïntegreerde 
 
 Adobe Campaign bouwt rijke klantenprofielen in real time, toestaand u om relevantere en gepersonaliseerde aanbiedingen te leveren aangezien de voorkeur van uw klant verandert. Daarnaast integreert Adobe Campaign geavanceerde analyse-, gegevensbeheer- en doelfuncties om het publiek te stimuleren.
 
-**Profielen** zijn individuele contacten die in het gegevensbestand worden opgeslagen. Elk profiel komt overeen met één item in de database dat de nodige informatie bevat om dat profiel als doel, als gekwalificeerd en individueel te traceren profiel te hebben: Adobe Campaign kan elke interactie van zowel online als offline kanalen volgen en deze in één profiel samenvoegen.
+**Profielen** zijn individuele contacten die in het gegevensbestand worden opgeslagen. Elk profiel komt overeen met één item in de database dat de benodigde informatie bevat om dat profiel als doel in te stellen, te kwalificeren en individueel te traceren: Adobe Campaign kan elke interactie van zowel online als offline kanalen volgen en het samenvoegen in één profiel.
 
 **Soorten publiek** Dit zijn lijsten met profielen die op specifieke criteria zijn gebaseerd, of een reeks criteria. Gebruikend werkschema&#39;s en de vraagredacteur, kunt u publiek construeren dat door uw marketing campagnes, afhankelijk van de informatie zal worden gericht die u op hen, hun activiteiten, en hun marketing geschiedenis hebt. Op deze manier kunt u geabonneerde profielen filteren, monsters nemen of doelsoorten maken op een onbeperkt aantal criteria.
 
@@ -87,6 +87,6 @@ De privacy en de Toestemming in Campagne en hoe te om hen te beheren worden voor
 
 * [Adobe Experience Platform-doelgroepen opnemen in Campaign](../../integrating/using/ingest-aep-data.md)
 * [Werken met Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
-* [Adobe Gedeeld publiek](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
+* [Adobe gedeeld publiek](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Workflows gebruiken om profielen te importeren](../../automating/using/creating-import-workflow-templates.md)
 * [Video&#39;s over profielen en soorten publiek](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)

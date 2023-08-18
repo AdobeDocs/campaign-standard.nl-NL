@@ -1,6 +1,6 @@
 ---
 title: Berichten openen
-description: "Leer hoe u toegang krijgt tot berichten en hun geavanceerde functies: creëren, richten, personalisatie, uitvoering en rapportering."
+description: "Leer hoe u toegang krijgt tot berichten en hun geavanceerde functies: maken, richten, personaliseren, uitvoeren en rapporteren."
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
@@ -23,7 +23,7 @@ U kunt tot een reeks geavanceerde functionaliteit, van het richten, het creëren
 Berichten zijn toegankelijk:
 
 * binnen een campagne
-* van de Adobe Campaign-startpagina
+* van de Adobe Campaign-homepage
 * van de lijst van marketingactiviteiten
 
 ## Berichten openen in campagnes {#accessing-messages-in-campaigns}
@@ -50,7 +50,7 @@ De volledige lijst met marketingactiviteiten van alle gecombineerde campagnes op
 
 1. Selecteren **[!UICONTROL Marketing activities]** in de bovenste navigatiebalk.
 
-   U kunt deze ook openen via het dialoogvenster **[!UICONTROL Marketing activities]** op de homepage. Voor meer informatie over de lijst van marketingactiviteiten raadpleegt u de [Beheer van marketingactiviteiten](../../start/using/marketing-activities.md#creating-a-marketing-activity) sectie.
+   U kunt deze ook openen via het dialoogvenster **[!UICONTROL Marketing activities]** op de homepage. Voor meer informatie over de lijst van marketingactiviteiten raadpleegt u de [Marketing beheren](../../start/using/marketing-activities.md#creating-a-marketing-activity) sectie.
 
 1. Als u de marketingactiviteiten wilt filteren (op naam, datum, status of type activiteit), gebruikt u de opdracht **[!UICONTROL Search]** links van de lijst van marketingactiviteiten.
 
@@ -62,9 +62,9 @@ De status van een bericht wordt weergegeven door een specifieke kleur in de lijs
 
 * **[!UICONTROL Editing]** (grijs): het bericht wordt bewerkt.
 * **[!UICONTROL In progress]** (blauw): het bericht wordt verzonden.
-* **[!UICONTROL Finished]** (groen): verzenden is voltooid zonder fouten.
-* **[!UICONTROL Erroneous]** (rood): Het verzenden is geannuleerd of er is een fout opgetreden tijdens het voorbereiden of verzenden van het bericht.
+* **[!UICONTROL Finished]** (groen): het verzenden is voltooid zonder fouten.
+* **[!UICONTROL Erroneous]** (rood): het verzenden is geannuleerd of er is een fout opgetreden tijdens het voorbereiden of verzenden van het bericht.
 
-   >[!NOTE]
-   >
-   >Een gele berichtbanner kan boven de kaart verschijnen wanneer een actie wordt vereist, bijvoorbeeld wanneer u het verzenden van een bericht moet bevestigen.
+  >[!NOTE]
+  >
+  >Een gele berichtbanner kan boven de kaart verschijnen wanneer een actie wordt vereist, bijvoorbeeld wanneer u het verzenden van een bericht moet bevestigen.

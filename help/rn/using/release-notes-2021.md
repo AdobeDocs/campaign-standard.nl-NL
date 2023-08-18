@@ -358,9 +358,9 @@ De nieuwe functies, verbeteringen en oplossingen die zijn opgenomen in de volgen
 
 * Probleem verholpen waarbij de leveringsanalyse mislukte bij het verzenden van een transactioneel pushbericht gericht op profielen. Het probleem is opgelost door een nieuwe [doeltoewijzing](../../administration/using/target-mappings-in-campaign.md) te introduceren: **Profiel - realtimegebeurtenis voor Push** (*mapRtEventAppSubRcp*). De leverings-, uitsluitings- en trackinglogboeken voor [transactionele pushmeldingen die gericht zijn op een profiel](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile), worden nu opgeslagen in de tabellen *broadLogAppSubRcp*, *excludeLogAppSubRcp* and *trackingLogAppSubRcp*.
 
-   >[!IMPORTANT]
-   >
-   >Als u daarom een bestaand, op profielen gebaseerde pushmelding gebruikt (gemaakt vóór de upgrade naar Adobe Campaign 21.1), wordt u wegens deze verandering aangeraden de doeltoewijzing bij te werken naar de nieuwe en het bericht opnieuw te publiceren. Raadpleeg de gedetailleerde stappen [hier](../../channels/using/transactional-push-notifications.md#change-target-mapping). Als u de vorige doeltoewijzing **Profiel - Realtimegebeurtenis** (*mapRtEventRcp*) gebruikt, kan dit leiden tot langere voorbereidingstijden van de levering en een verslechtering van de prestaties.
+  >[!IMPORTANT]
+  >
+  >Als u daarom een bestaand, op profielen gebaseerde pushmelding gebruikt (gemaakt vóór de upgrade naar Adobe Campaign 21.1), wordt u wegens deze verandering aangeraden de doeltoewijzing bij te werken naar de nieuwe en het bericht opnieuw te publiceren. Raadpleeg de gedetailleerde stappen [hier](../../channels/using/transactional-push-notifications.md#change-target-mapping). Als u de vorige doeltoewijzing **Profiel - Realtimegebeurtenis** (*mapRtEventRcp*) gebruikt, kan dit leiden tot langere voorbereidingstijden van de levering en een verslechtering van de prestaties.
 
 * Probleem verholpen waardoor leveringsrapporten niet konden worden uitgevoerd wanneer 5000 rijen werden weergegeven.
 * Probleem verholpen met A/B-tests waarbij de content van variant B niet kon worden bijgewerkt nadat de leveringssjabloon was gewijzigd. (CAMP-45235)

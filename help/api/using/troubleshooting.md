@@ -1,6 +1,6 @@
 ---
 title: API-probleemoplossing
-description: Meer informatie over algemene problemen met betrekking tot Campaign Standard API's
+description: Meer informatie over algemene problemen met API's voor Campaigns Standard
 feature: API
 role: Data Engineer
 level: Experienced
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # Problemen met API oplossen {#troubleshooting}
 
-* **Wanneer u naar de Adobe.io-console gaat, treedt de volgende fout op: &quot;De console van de Adobe I/O is slechts beschikbaar om leden van ondernemingsrekeningen te selecteren. Neem contact op met uw systeembeheerder als u van mening bent dat u toegang moet hebben.&quot;**
+* **Wanneer u naar de console Adobe.io gaat, krijgt u de volgende fout: &quot;De console van de Adobe I/O is slechts beschikbaar om leden van ondernemingsrekeningen te selecteren. Als u van mening bent dat u toegang moet hebben, neemt u contact op met uw systeembeheerder.&quot;**
 
 U kunt alleen API-sleutels maken voor de organisaties waarvan u de beheerder bent. Als dit bericht wordt weergegeven en u API-sleutels wilt maken, vraagt u een van de beheerders van de organisatie.
 
-* **Wanneer u een aanvraag voor Adobe.io doet, krijgt u {&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profile is not valid&quot;}**
+* **Wanneer u een aanvraag doet naar Adobe.io, wordt {&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profile is not valid&quot;}**
 
-Dit betekent dat er een probleem is met de IMS-provisioning van uw specifieke campagneproduct: het IMS-team moet dit probleem verhelpen.
+Dit betekent dat er een probleem is met de IMS-provisioning van uw specifieke campagneproduct: het IMS-team moet dit probleem oplossen.
 
-Als u meer details wilt opvragen, kunt u de IMS API met uw token aanroepen om te zien hoe uw IMS-profiel eruitziet: U moet een prodCtx hebben waar organisation_id het zelfde is als die u in u URL voor Adobe.io plaatst om uw verzoek te kunnen leiden.
+Als u meer details wilt, kunt u de IMS API met uw token aanroepen om te zien hoe uw IMS-profiel eruitziet: u moet een prodCtx hebben waarbij de organisatie_id dezelfde is als de id die u in uw URL voor Adobe.io plaatst om uw aanvraag te kunnen doorsturen.
 Als de IMS-voorziening ontbreekt, moet deze worden hersteld.
 
 ```
@@ -74,9 +74,9 @@ In de reactie, moet de waarde ORGANIZATION_ID het zelfde in uw eerste verzoek va
 }
 ```
 
-* **Wanneer u een aanvraag doet naar Adobe.io, krijgt u {&quot;code&quot;:500, &quot;message&quot;:&quot;Oeps. Er ging iets mis. Controleer de URI en probeer het opnieuw.&quot;}**
+* **Wanneer u een aanvraag doet naar Adobe.io, krijgt u {&quot;code&quot;:500, &quot;message&quot;:&quot;Oeps. Er is iets misgegaan. Controleer de URI en probeer het opnieuw.&quot;}**
 
-Adobe.io declareert uw ongeldige URI: De URI die u aanvraagt, is naar alle waarschijnlijkheid ongeldig. Op Adobe.io wanneer u de dienst van de Campagne selecteert, krijgt u een plukker met een lijst van mogelijke organisatie_ids. U moet controleren dat u kiest u in uw URL plaatst.
+Adobe.io declareert uw ongeldige URI: de URI die u aanvraagt, is naar alle waarschijnlijkheid ongeldig. Op Adobe.io wanneer u de dienst van de Campagne selecteert, krijgt u een plukker met een lijst van mogelijke organisatie_ids. U moet controleren dat u kiest u in uw URL plaatst.
 
 * **Wanneer u een aanvraag doet naar Adobe.io, krijgt u {&quot;error_code&quot;:&quot;401013&quot;,&quot;message&quot;:&quot;Oauth token is not valid&quot;}**
 

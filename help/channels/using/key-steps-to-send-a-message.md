@@ -19,7 +19,7 @@ ht-degree: 14%
 
 In deze sectie leert u hoe u persoonlijke berichten kunt maken en verzenden naar een doelgroep met Adobe Campaign Standard.
 
-De specifieke informatie over om elk communicatie kanaal tot stand te brengen en te vormen is beschikbaar in deze secties:
+De specifieke informatie over om elk communicatiekanaal tot stand te brengen en te vormen is beschikbaar in deze secties:
 
 * [Een e-mail maken](../../channels/using/creating-an-email.md)
 * [SMS maken](../../channels/using/creating-an-sms-message.md)
@@ -31,11 +31,11 @@ Raadpleeg de [Best practices voor levering](../../sending/using/delivery-best-pr
 
 ## Uw bericht maken
 
-Hefboomwerking Campaign Standard [marketingactiviteiten](../../start/using/marketing-activities.md) om een e-mail-, SMS-, direct-mail-, push-bericht of In-App-bericht te maken.
+Campaign Standard benutten [marketingactiviteiten](../../start/using/marketing-activities.md) om een e-mail-, SMS-, direct-mail-, push-bericht of In-App-bericht te maken.
 
 ![](assets/marketing-activities.png)
 
-Berichten kunnen worden gemaakt op basis van de lijst met marketingactiviteiten of op basis van een workflow met [specifieke activiteiten](../../automating/using/about-channel-activities.md).
+Berichten kunnen worden gemaakt vanuit de lijst met marketingactiviteiten of vanuit een workflow met [specifieke activiteiten](../../automating/using/about-channel-activities.md).
 
 ![](assets/steps-channel.png)
 
@@ -62,7 +62,7 @@ In de **[!UICONTROL Content]** de inhoud van uw bericht blokkeren, ontwerpen en 
 
 ![](assets/steps-prepare.png)
 
-**Controleer en test uw bericht** voordat u het verzendt met gebruik van Campaign Standard-mogelijkheden: voorvertoning, e-mailweergave, proefdrukken, enz. Raadpleeg [deze sectie](../../sending/using/previewing-messages.md) voor meer informatie.
+**Controleer en test uw bericht** voordat u het verzendt met behulp van de mogelijkheden van het Campaign Standard: voorvertoning, rendering van e-mail, proefdrukken, enz. Raadpleeg [deze sectie](../../sending/using/previewing-messages.md) voor meer informatie.
 
 Gebruik de **[!UICONTROL Schedule]** blok om te bepalen wanneer uw berichten zullen worden verzonden (zie [Berichten plannen](../../sending/using/about-scheduling-messages.md)).
 
@@ -74,7 +74,7 @@ Zodra uw bericht klaar is, kunt u het verzenden bevestigen. De **[!UICONTROL Dep
 
 ![](assets/steps-send.png)
 
-Verschillende logboeken zijn beschikbaar om u te helpen de levering van uw berichten te controleren (zie [toezicht op de levering](../../sending/using/monitoring-a-delivery.md)). U kunt ook de ontvangers van de levering volgen dankzij het gedrag van uw Campaign Standard [trackingfuncties](../../sending/using/tracking-messages.md).
+Verschillende logboeken zijn beschikbaar om u te helpen de levering van uw berichten te controleren (zie [toezicht op de levering](../../sending/using/monitoring-a-delivery.md)). U kunt ook het gedrag van de ontvangers van de levering volgen dankzij het Campaign Standard [trackingfuncties](../../sending/using/tracking-messages.md).
 
 ![](../../sending/using/assets/tracking_logs.png)
 

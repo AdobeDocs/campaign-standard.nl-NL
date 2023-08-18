@@ -17,37 +17,37 @@ ht-degree: 3%
 
 De **[!UICONTROL Audit trail]** geeft u toegang tot de volledige geschiedenis van veranderingen die binnen uw instantie worden aangebracht.
 
-**[!UICONTROL Audit trail]** legt in real-time een uitgebreide lijst vast met acties en gebeurtenissen die plaatsvinden in uw Adobe Campaign Standard-instantie. Het omvat een zelfbediende manier om tot een geschiedenis van gegevens toegang te hebben helpen vragen zoals beantwoorden: wat er is gebeurd met uw workflows, aangepaste bronnen en opties, die deze voor het laatst hebben bijgewerkt of wat uw gebruikers in het geval hebben gedaan.
+**[!UICONTROL Audit trail]** legt in real-time een uitgebreide lijst vast met acties en gebeurtenissen die plaatsvinden in uw Adobe Campaign Standard-instantie. Het omvat een zelf-servermanier om tot een geschiedenis van gegevens toegang te hebben helpen vragen zoals beantwoorden: wat met uw werkschema&#39;s, douanemiddelen en opties gebeurde, die hen het laatst bijgewerkt of wat uw gebruikers in de instantie deden.
 
 ![](assets/audit-trail.png)
 
 **[!UICONTROL Audit trail]** bestaat uit drie onderdelen:
 
-* **Actief bronnenaudittrail**: controleer de activiteit en laatste wijziging aan douanemiddelen wordt gedaan die.
+* **Actief bronnenaudittrail**: controleer de activiteit en laatste wijziging die aan douanemiddelen wordt gedaan.
 
-   Voor meer informatie over **[!UICONTROL Custom resources]**, verwijzen naar [page](../../developing/using/key-steps-to-add-a-resource.md).
+  Voor meer informatie over **[!UICONTROL Custom resources]**, verwijzen naar [page](../../developing/using/key-steps-to-add-a-resource.md).
 
-* **Workflowaudittrail**: Controleer de activiteit en laatste wijziging aan werkschema&#39;s, en daarnaast, de staat van uw werkschema&#39;s zoals:
+* **Workflowaudittrail**: controleer de activiteit en de laatste wijziging die aan werkschema&#39;s wordt uitgevoerd, en daarnaast, de staat van uw werkschema&#39;s zoals:
 
    * Gemaakt
-   * Gewijzigd
+   * gewijzigd
    * Verwijderd
    * Start van workflow
    * Werkstroom pauzeren
-   * Workflow stoppen
+   * Werkstroomstop
    * Workflow opnieuw starten
    * Workflowopschoning
    * Workflow simuleren
    * Workflowwakeup
    * Werkstroom direct stoppen
    * Workflow opnieuw starten met dezelfde gebruiker
-   * Opnieuw starten van werkstroom Onbekende opdracht
+   * Opnieuw starten van werkstroom Onbekend, opdracht
 
-   Voor meer informatie over **[!UICONTROL Workflows]**, verwijzen naar [page](../../automating/using/get-started-workflows.md).
+  Voor meer informatie over **[!UICONTROL Workflows]**, verwijzen naar [page](../../automating/using/get-started-workflows.md).
 
-* **Optie-audittrail**: Controleer de activiteit en laatste wijziging aan opties.
+* **Optie-audittrail**: controleer de activiteit en laatste wijziging aan opties.
 
-   Voor meer informatie over **[!UICONTROL Options]**, verwijzen naar [page](../../administration/using/about-campaign-standard-settings.md).
+  Voor meer informatie over **[!UICONTROL Options]**, verwijzen naar [page](../../administration/using/about-campaign-standard-settings.md).
 
 De retentieperiode bedraagt standaard 30 dagen.
 
@@ -65,7 +65,7 @@ Ga als volgt te werk om het audittrail van uw instantie te openen:
 
    * **[!UICONTROL Start date]**
    * **[!UICONTROL End date]**
-   * **[!UICONTROL Type]**: Het type van de entiteit tussen allen, Werkschema, het Middel van de Douane en Optie.
+   * **[!UICONTROL Type]**: Type van entiteit tussen allen, Werkschema, het Middel van de Douane en Optie.
    * **[!UICONTROL Entity name]**: ID van uw workflow, optie of aangepaste bron
 
    ![](assets/audit-trail_2.png)
@@ -74,7 +74,7 @@ Ga als volgt te werk om het audittrail van uw instantie te openen:
 
 1. Het venster van de Controleorganisatie geeft u meer gedetailleerde informatie over de gekozen entiteit zoals:
 
-   * **[!UICONTROL Entity]**: Id van uw workflow, optie of aangepaste bron.
+   * **[!UICONTROL Entity]**: ID van uw workflow, optie of aangepaste bron.
    * **[!UICONTROL Action]**: Laatste actie uitgevoerd op deze entiteit.
    * **[!UICONTROL Changed by]**: Gebruikersnaam van de laatste persoon die deze entiteit als laatste heeft gewijzigd.
    * **[!UICONTROL Changed date]**: Datum van de laatste actie die op deze entiteit is uitgevoerd.
@@ -100,14 +100,15 @@ Dit doet u als volgt:
 
 1. Selecteer een van de volgende opties, afhankelijk van de entiteit die u wilt uitschakelen:
 
-   * **[!UICONTROL XtkAudit_Workflows]** optie om het audittrail voor Workflows te beheren.
+   * **[!UICONTROL XtkAudit_Workflows]** optie voor het beheren van het audittrail voor Workflows.
    * **[!UICONTROL XtkAudit_Option]** optie om het spoor van de Controle voor Opties te beheren.
    * **[!UICONTROL XtkAudit_CusResource]** optie voor het beheren van het audittrail voor de middelen van de Douane.
    * **[!UICONTROL XtkAudit_Enable_All]** optie om het audittrail voor elke entiteit te beheren.
 
-      >[!NOTE]
-      >
-      >Als de **[!UICONTROL XtkAudit_Enable_All]** optie is ingesteld op 0, de **[!UICONTROL Audit trail]** Deze functie wordt volledig uitgeschakeld, ongeacht andere individuele optiewaarden.
+     >[!NOTE]
+     >
+     >Als de **[!UICONTROL XtkAudit_Enable_All]** optie is ingesteld op 0, de **[!UICONTROL Audit trail]** Deze functie wordt volledig uitgeschakeld, ongeacht andere individuele optiewaarden.
+
    ![](assets/audit-trail_5.png)
 
 1. Van uw **[!UICONTROL Options]** pagina instellen **[!UICONTROL Value (integer)]** tot 0 als u het **[!UICONTROL Audit trail]** of 1 om deze in te schakelen.

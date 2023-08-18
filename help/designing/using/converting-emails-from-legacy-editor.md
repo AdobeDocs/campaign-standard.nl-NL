@@ -23,7 +23,7 @@ Met deze optie kunt u een E-mailDesigner-sjabloon maken door een HTML-e-mail te 
 
 >[!NOTE]
 >
->Net als in de compatibiliteitsmodus kan een HTML-component met beperkte opties worden bewerkt: u kunt alleen op plaats een editie uitvoeren.
+>Net als in de compatibiliteitsmodus kan een HTML-component met beperkte opties worden bewerkt: u kunt alleen op plaats edities uitvoeren.
 
 >[!IMPORTANT]
 >
@@ -38,7 +38,7 @@ Met deze optie kunt u een E-mailDesigner-sjabloon maken door een HTML-e-mail te 
 ## Uw e-mailstructuur maken
 
 1. Open de **[!UICONTROL Email Designer]**  om een lege e-mailinhoud te maken.
-1. Stel de kenmerken voor het hoofdtekstniveau in: achtergrondkleuren, breedte, enz. Ga voor meer informatie naar [E-mailstijlen bewerken](../../designing/using/styles.md).
+1. Stel de kenmerken voor het tekstniveau in: achtergrondkleuren, breedte, enzovoort. Ga voor meer informatie naar [E-mailstijlen bewerken](../../designing/using/styles.md).
 1. Voeg zoveel structuurcomponenten toe als secties. Ga voor meer informatie naar [De e-mailstructuur bewerken](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 ## HTML-inhoud toevoegen
@@ -73,7 +73,6 @@ Met deze optie kunt u een E-mailDesigner-sjabloon maken door een HTML-e-mail te 
    >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
 
-
 1. Ga terug naar de mobiele weergave om te controleren of uw inhoud correct wordt weergegeven en sla uw wijzigingen op.
 
 ## Gebruiksscenario
@@ -94,7 +93,7 @@ Als u de HTML-versie van het e-mailbericht wilt weergeven, klikt u op **[!UICONT
 
 ### De e-mailsjabloon en de structuur ervan maken
 
-1. Slepen en neerzetten **[!UICONTROL Structure components]**  de indeling van onze e-mail weerspiegelen.
+1. Slepen en slepen **[!UICONTROL Structure components]**  de indeling van onze e-mail weerspiegelen.
 
 1. Herhaal dit zo vaak als nodig is. We moeten elf structuurcomponenten maken.
 

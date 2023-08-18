@@ -49,7 +49,7 @@ De stappen voor het exporteren van het pakket worden beschreven in de sectie [Ee
 * Het pakket **[!UICONTROL Platform]** hergroepeert alle resources die tijdens technische configuratie zijn toegevoegd: aangepaste resources, aangepaste resourcesets, triggers en applicatieopties van het type **[!UICONTROL System]**.
 * Het pakket **[!UICONTROL Administration]** hergroepeert alle objecten die tijdens bedrijfsconfiguratie zijn toegevoegd, waaronder: campagnesjablonen, contentsjablonen, leveringssjablonen, landingspaginasjablonen, programmasjablonen en workflowsjablonen.
 
-   Het omvat ook de volgende objecten: contentblokken, doeltoewijzingen, externe accounts, organisatie-eenheden, applicatieopties van het type **[!UICONTROL User]**, rollen, typologieën, typologische regels en gebruikers.
+  Het omvat ook de volgende objecten: contentblokken, doeltoewijzingen, externe accounts, organisatie-eenheden, applicatieopties van het type **[!UICONTROL User]**, rollen, typologieën, typologische regels en gebruikers.
 
 >[!NOTE]
 >
@@ -112,11 +112,11 @@ Wanneer de bewerking is voltooid, worden verschillende secties weergegeven:
 
 * **[!UICONTROL Export status]**: In deze sectie wordt aangegeven of de bewerking correct is uitgevoerd.
 
-   ![](assets/packages_6.png)
+  ![](assets/packages_6.png)
 
 * Via het tabblad **[!UICONTROL Log]** kunt u de verschillende exportstappen raadplegen. Dit tabblad bevat de statussen van alle eerdere exporttransacties.
 
-   ![](assets/packages_7.png)
+  ![](assets/packages_7.png)
 
 >[!NOTE]
 >
@@ -168,7 +168,7 @@ Wanneer de bewerking is voltooid, worden verschillende secties weergegeven:
 * **[!UICONTROL Import status]**: In deze sectie wordt aangegeven of de bewerking correct is uitgevoerd.
 * Via het tabblad **[!UICONTROL Execution logs]** kunt u de verschillende importstappen raadplegen. Dit is met name belangrijk om fouten te bekijken.
 
-   ![](assets/packages_20.png)
+  ![](assets/packages_20.png)
 
 Nadat een pakket is geïmporteerd, kunt u het niet opnieuw importeren vanuit hetzelfde element. U kunt alleen het label en de id van het pakket wijzigen.
 

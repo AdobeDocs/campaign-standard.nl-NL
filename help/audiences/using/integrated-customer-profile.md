@@ -45,7 +45,7 @@ U hebt nu toegang tot de **marketinghistorie** van deze contactpersoon.
 
 De belangrijkste informatie over het profiel, evenals de lijst met gebeurtenissen, wordt verzameld op deze pagina.
 
-Klik op een gebeurtenis in de lijst om deze te openen: u hebt toegang tot de berichten die zijn verzonden of tot de services waarop het profiel is geabonneerd.
+Klik op een gebeurtenis in de lijst om deze te openen. U kunt de berichten openen die zijn verzonden of de services waarop het profiel is geabonneerd.
 
 ![](assets/mkt_hist_view.png)
 

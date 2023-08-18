@@ -113,11 +113,11 @@ Afhankelijk van het type doelgroep, kunt u een doelgroep op verschillende manier
 
 * Als u een **querydoelgroep** wilt bewerken, gaat u naar de lijst met doelgroepen via het menu **[!UICONTROL Audiences]** of de kaart **[!UICONTROL Audiences]** op de startpagina van Adobe Campaign.
 
-   Open de relevante doelgroep. Alle elementen van een eerder gemaakte doelgroep kunnen worden bewerkt.
+  Open de relevante doelgroep. Alle elementen van een eerder gemaakte doelgroep kunnen worden bewerkt.
 
-   >[!CAUTION]
-   >
-   >Als u **[!UICONTROL Filtering dimension]** in de query verandert, gaan de regels die u eerder hebt gedefinieerd, verloren.
+  >[!CAUTION]
+  >
+  >Als u **[!UICONTROL Filtering dimension]** in de query verandert, gaan de regels die u eerder hebt gedefinieerd, verloren.
 
 * Als u een **lijst-** of **bestandsdoelgroep** wilt bewerken, moet u de workflow waaruit de doelgroep is gemaakt bewerken en de **[!UICONTROL Save audience]**-activiteit wijzigen. Start de workflow zodat de doelgroep wordt gewijzigd.
 * Als u een **Experience Cloud**-doelgroep wilt bewerken, raadpleegt u de sectie [Doelgroepen importeren/exporteren met de People-kernservice](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md).

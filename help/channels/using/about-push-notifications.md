@@ -34,7 +34,7 @@ Er zijn twee typen pushmeldingen beschikbaar in Adobe Campaign:
 
 * Met meldingen van het type **[!UICONTROL Alert/Message/Badge]** kunt u standaardtekstberichten verzenden met extra content (geluid, badge, deeplink, enz.), die u in de sectie **[!UICONTROL Advanced options]** kunt definiëren.
 
-   Met deze meldingstypen kunt u een titel en een bericht toevoegen waarin u personalisatievelden kunt gebruiken. Als u uw bericht wilt aanpassen, selecteert u de sjabloon **[!UICONTROL Send push on profiles]**.
+  Met deze meldingstypen kunt u een titel en een bericht toevoegen waarin u personalisatievelden kunt gebruiken. Als u uw bericht wilt aanpassen, selecteert u de sjabloon **[!UICONTROL Send push on profiles]**.
 
 * Meldingen van het type **[!UICONTROL Silent push]** worden gebruikt om de applicatie op de hoogte te brengen zonder bericht of content voor de eindgebruiker. Dit type bericht kan bijvoorbeeld worden gebruikt om de applicatie te informeren dat er content op de server beschikbaar is om te downloaden.
 
@@ -66,13 +66,13 @@ Voordat u pushmeldingen verzendt, moet u het volgende doen:
 
 1. Maak een mobiele eigenschap in de gebruikersinterface voor gegevensverzameling. Zie [Een mobiele eigenschap instellen](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) voor meer informatie.
 
-1. Installeer in de gebruikersinterface voor gegevensverzameling de **[!UICONTROL Adobe Campaign Standard]** extensie.
+1. Installeer in de gebruikersinterface van de gegevensverzameling de **[!UICONTROL Adobe Campaign Standard]** extensie.
 
 1. In Adobe Campaign Standard, vorm het mobiele bezit dat u in de Inzameling UI van Gegevens creeerde. Zie voor meer informatie [Een tagtoepassing instellen in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. Voeg de kanaalspecifieke configuratie toe aan de configuratie van de mobiele applicatie. Zie [Kanaalspecifieke applicatieconfiguratie in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config) voor meer informatie.
 
-1. Raadpleeg de gedetailleerde instructies over extensies, labelregels en de SDK-implementatie in [Kwesties voor mobiel gebruik die in Adobe Campaign Standard worden ondersteund met de SDK&#39;s van Adobe Experience Platform](../../administration/using/configuring-rules-launch.md).
+1. Raadpleeg de gedetailleerde instructies over extensies, labelregels en de SDK-implementatie in [Kwesties voor mobiel gebruik die in Adobe Campaign Standard worden ondersteund met de SDK van Adobe Experience Platform](../../administration/using/configuring-rules-launch.md).
 
 ## Veelgestelde vragen over pushmeldingen {#push-faq}
 
@@ -121,7 +121,7 @@ Ja, de Campagne steunt beide platforms tezelfdertijd en staat u toe om geloofsbr
 
 Controleer of uw pushcertificaten geldig zijn door ze te testen [hier](https://pushtry.com/).
 
-### Ik kan pushmeldingen verzenden vanaf push.com, maar niet via Campagne. {#push-not-sending}
+### Ik kan pushmeldingen succesvol verzenden vanuit pushtry.com, maar niet via Campagne. {#push-not-sending}
 
 Zorg ervoor dat u de instructies voor pushlading volgt [hier](../../administration/using/push-payload.md).
 
@@ -156,7 +156,7 @@ Zie dit [page](../../reporting/using/indicator-calculation.md#push-notification-
 
 ### Worden verdiepingen ondersteund in pushberichten en in-app-berichten? {#deeplink-push}
 
-Ja, deplinks worden ondersteund in pushberichten. Deeplinks moeten omvatten:
+Ja, deplinks worden ondersteund in pushberichten. Deeplinks moeten het volgende omvatten:
 
 * Taal die verklaart dat levering het volgen moet worden onbruikbaar gemaakt om de diepte te werken.
 * Appsflyer met Tak als partners die het zuiveren volgen kunnen doen. Voor meer informatie over de integratie van Branch en Adobe Campaign Standard raadpleegt u deze [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).

@@ -30,7 +30,7 @@ U kunt de activiteit **Data bijwerken** gebruiken nadat u een bestand hebt geïm
 
 **Verwante onderwerpen:**
 
-* [Hoofdlettergebruik: Gegevens bijwerken die zijn gebaseerd op een bestand](../../automating/using/update-database-file.md)
+* [Hoofdlettergebruik: gegevens bijwerken op basis van een bestand](../../automating/using/update-database-file.md)
 * [Gegevens bijwerken op basis van een automatische bestandsdownload](../../automating/using/update-data-automatic-download.md)
 
 ## Configuratie {#configuration}
@@ -42,7 +42,7 @@ U kunt de activiteit **Data bijwerken** gebruiken nadat u een bestand hebt geïm
    * **[!UICONTROL Insert or update]**: Data invoegen of bijwerken als de records al bestaan in de database.
    * **[!UICONTROL Insert only]**: Alleen data invoegen. De al bestaande records worden niet bijgewerkt. Als er afstemmingscriteria worden gedefinieerd, worden alleen de niet-afgestemde records toegevoegd.
 
-      Schakel het selectievakje **[!UICONTROL Generate an outbound transition for rejects]** in als de geïmporteerde data bepaalde records bevatten die al in de database bestaan om mogelijke fouten te voorkomen.
+     Schakel het selectievakje **[!UICONTROL Generate an outbound transition for rejects]** in als de geïmporteerde data bepaalde records bevatten die al in de database bestaan om mogelijke fouten te voorkomen.
 
    * **[!UICONTROL Update]**: Data bijwerken van alleen de records die al in de database bestaan.
    * **[!UICONTROL Delete]**: Data verwijderen.

@@ -1,6 +1,6 @@
 ---
 title: Configuratierichtlijnen
-description: Meer informatie over Campaign Standard-configuratierichtlijnen
+description: Meer informatie over de configuratierichtlijnen voor Campaigns Standard
 audience: administration
 feature: Access Management
 role: Admin
@@ -35,9 +35,9 @@ Hier volgt een lijst met browsers die compatibel zijn met Adobe Campaign Standar
 * iOS (versie 7 en hoger)
 * Android (versie 4.4 en hoger)
 
-## Campaign Standard netwerk eindpunten {#campaign-standard-network-endpoints}
+## Campaign Standard netwerkeindpunten {#campaign-standard-network-endpoints}
 
-Hier volgen de verschillende eindpunten die worden gebruikt in Campaign Standard.
+Hier zijn de verschillende eindpunten die in Campaign Standard worden gebruikt.
 
 | Context | URL |
 |--- |--- |

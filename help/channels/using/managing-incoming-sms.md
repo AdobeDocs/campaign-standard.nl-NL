@@ -99,7 +99,7 @@ Dit doet u als volgt:
    ![](assets/sms_config_mo_5.png)
 
 1. Hier, willen wij elk inkomend bericht van de dag daarvoor richten. In de **[!UICONTROL Field]** categorie, selecteert u **[!UICONTROL Creation date (created)]**.
-1. In **[!UICONTROL Filter type]**, selecteert u **[!UICONTROL Relative]** dan in **[!UICONTROL Level of precision]** kiest u **[!UICONTROL Day]**.
+1. In **[!UICONTROL Filter type]**, selecteert u **[!UICONTROL Relative]** dan in **[!UICONTROL Level of precision]**, kiest u **[!UICONTROL Day]**.
 
    ![](assets/sms_config_mo_6.png)
 

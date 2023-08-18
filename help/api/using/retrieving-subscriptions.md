@@ -84,7 +84,7 @@ De lijst met abonnementen voor de service wordt weergegeven met elk gekoppeld pr
 
 Dit is een procedure in twee stappen.
 
-1. Hiermee wordt de abonnements-URL voor een bepaald profiel opgehaald.
+1. Haal de abonnements-URL voor een bepaald profiel op.
 1. Voer een verzoek van de GET op URL uit. Het keert de lijst van abonnementen voor het profiel, met elke bijbehorende dienst terug.
 
 <br/>

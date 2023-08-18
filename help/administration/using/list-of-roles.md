@@ -9,7 +9,7 @@ exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 77%
+ht-degree: 80%
 
 ---
 
@@ -25,12 +25,12 @@ Standaardrechten zijn:
 
 * **[!UICONTROL Administration]**: Algemene beheerrechten.
 
-   >[!NOTE]
-   >
-   >Als u met Experience Cloud Triggers werkt, hebt u de **[!UICONTROL Administration]** heeft toegang tot het menu Experience Cloud Triggers. Raadpleeg deze voor meer informatie over Experience Cloud-triggers [page](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+  >[!NOTE]
+  >
+  >Als u met Experience Cloud Triggers werkt, hebt u de **[!UICONTROL Administration]** recht om tot het menu van de Trekkers van het Experience Cloud toegang te hebben. Raadpleeg deze voor meer informatie over Experiencen Cloud Triggers [page](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**: Recht om publicaties uit te voeren en aangepaste bronnen te maken.
-* **[!UICONTROL Generic import]**: Recht om een generieke import op data uit te voeren. Dit werkt alleen als u de **[!UICONTROL Generic import]** de rol van de **[!UICONTROL Workflow]** rol.
+* **[!UICONTROL Generic import]**: Recht om een generieke import op data uit te voeren. Dit werkt alleen als u de opdracht **[!UICONTROL Generic import]** de rol van de **[!UICONTROL Workflow]** rol.
 * **[!UICONTROL Prepare deliveries]**: Recht om leveringen te maken, te wijzigen, voor te bereiden en te verwijderen. Gebruikers met deze rol kunnen de levering voorbereiden, maar niet verzenden.
 * **[!UICONTROL Start deliveries]**: Recht om leveringen te maken, te wijzigen, voor te bereiden, te verzenden en te verwijderen.
 * **[!UICONTROL Workflow]**: Recht om de uitvoering van workflows te beheren (starten, stoppen, pauzeren, enz.). Gebruikers met deze rol kunnen zelfs in een workflow geen levering verzenden.

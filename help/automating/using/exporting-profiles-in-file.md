@@ -38,11 +38,11 @@ Het doel van deze workflow is om een lijst met profielen te exporteren naar een 
 
    * CSV-uitvoerindeling
 
-      ![](assets/wkf_data_export7.png)
+     ![](assets/wkf_data_export7.png)
 
    * Datumnotatie
 
-      ![](assets/wkf_data_export9.png)
+     ![](assets/wkf_data_export9.png)
 
 1. Bevestig uw activiteit.
 1. Sleep een [Bestand overbrengen](../../automating/using/transfer-file.md) activiteit na de **[!UICONTROL Extract file]** activiteit om het extractiedossier op een externe rekening terug te krijgen.

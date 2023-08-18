@@ -20,7 +20,7 @@ Met Adobe Campaign kunt u de machtigingen definiëren en beheren die aan verschi
 * **Organisatorische eenheden**: Hiermee kunt u een hiërarchie van machtigingen definiëren voor de verschillende objecten van het platform (e-mails, workflows, sjablonen, gebruikers, profielen, enzovoort). Raadpleeg de sectie [Organisatorische eenheden](../../administration/using/organizational-units.md) .
 * **Rollen**: een reeks eenheidsrechten waarmee u de autorisaties kunt definiëren die aan gebruikers en gebruikersgroepen zijn toegewezen. Raadpleeg de sectie [Lijst met rollen](../../administration/using/list-of-roles.md).
 
-   In combinatie met bedrijfseenheden geven rollen gebruikers een gefilterde weergave van de interface en bepalen deze de toegang van gebruikers tot de verschillende functies. Raadpleeg de [Tabel met autorisaties](../../administration/using/list-of-roles.md) voor meer informatie.
+  In combinatie met bedrijfseenheden geven rollen gebruikers een gefilterde weergave van de interface en bepalen deze de toegang van gebruikers tot de verschillende functies. Raadpleeg de [Tabel met autorisaties](../../administration/using/list-of-roles.md) voor meer informatie.
 
 >[!IMPORTANT]
 >

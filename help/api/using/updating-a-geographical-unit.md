@@ -24,7 +24,7 @@ ht-degree: 10%
 
 ***Voorbeeldverzoek***
 
-Hiermee wordt de lijst van geografische eenheden opgehaald.
+De lijst van geografische eenheden ophalen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/ \

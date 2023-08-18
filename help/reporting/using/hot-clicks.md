@@ -26,14 +26,14 @@ De inhoud van het bericht (HTML en/of tekst) wordt weergegeven met het percentag
 
 ![](assets/delivery_reports_10.png)
 
-Als u dynamische inhoud hebt gemaakt voor levering, kunt u de percentages bekijken voor elke voorwaarde die u hebt gedefinieerd. Voor meer informatie over het invoegen van voorwaardelijke inhoud in een levering raadpleegt u [Dynamische inhoud definiëren](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+Als u dynamische inhoud hebt gemaakt voor levering, kunt u de percentages bekijken voor elke voorwaarde die u hebt gedefinieerd. Zie voor meer informatie over het invoegen van voorwaardelijke inhoud in een levering [Dynamische inhoud definiëren](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 
 Stel dat u een levering hebt gemaakt met de volgende voorwaarden:
 
 * Het verband op het belangrijkste beeld is verschillend als de ontvanger een man of een vrouw is.
 * Je hebt ook een link toegevoegd naar een speciale aanbieding die alleen zichtbaar is voor ontvangers ouder dan 25 jaar.
 
-Selecteer **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** van het leveringsdashboard.
+Als uw bericht is verzonden, selecteert u **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** van het leveringsdashboard.
 
 Standaard is er geen profiel geselecteerd. Alleen klikken voor ontvangers waarvan het geslacht onbekend is en voor ontvangers die jonger zijn dan 25 jaar of waarvan de leeftijd onbekend is, worden weergegeven.
 
@@ -45,31 +45,31 @@ Klik op de knop **[!UICONTROL Change profile]** en selecteer een vrouwelijk test
 
 Klik op de knop **[!UICONTROL Change profile]** en selecteer een testprofiel waarvan de geboortedatum overeenkomt met deze voorwaarde.
 
-Voor meer informatie over testprofielen raadpleegt u [Testprofielen](../../audiences/using/managing-test-profiles.md).
+Zie voor meer informatie over testprofielen [Testprofielen](../../audiences/using/managing-test-profiles.md).
 
 >[!NOTE]
 >
->Het aantal klikken op een specifieke verbinding is een percentage van het totale kliks voor alle voorwaardelijke inhoud in een levering. Als u dynamische inhoud hebt gedefinieerd, is het mogelijk dat het totaal van de percentages die voor een specifiek testprofiel worden weergegeven, niet gelijk is aan 100.
+>Het aantal klikken op een specifieke verbinding is een percentage van het totale kliks voor alle voorwaardelijke inhoud in een levering. Daarom als u dynamische inhoud bepaalde, zou het totaal van de percentages die voor een specifiek testprofiel worden getoond niet kunnen gelijk 100 zijn.
 
-Op dezelfde manier kunt u voor terugkerende leveringen en transactieberichten het testprofiel selecteren dat overeenkomt met de dynamische inhoud die u wilt weergeven, maar u kunt ook de klikpercentages weergeven volgens de geselecteerde uitvoeringslevering.
+Op dezelfde manier kunt u voor terugkerende leveringen en transactieberichten het testprofiel selecteren dat overeenkomt met de dynamische inhoud die u wilt weergeven, maar u kunt ook de klikpercentages weergeven op basis van de geselecteerde uitvoeringslevering.
 
 Een uitvoering is een niet-activeerbaar en niet-functioneel technisch bericht dat in de volgende gevallen wordt gecreëerd:
 
 * Telkens wanneer een terugkerende levering wordt uitgevoerd of bijgewerkt.
 
-   Als de workflow die deze levering beheert eenmaal per maand wordt uitgevoerd, is er bijvoorbeeld één levering per maand. Bovendien wordt telkens wanneer de inhoud van de levering wordt bijgewerkt, een extra levering voor de uitvoering gemaakt.
+  Als de workflow die deze levering beheert eenmaal per maand wordt uitgevoerd, is er bijvoorbeeld één levering per maand. Bovendien wordt telkens wanneer de inhoud van de levering wordt bijgewerkt, een extra levering voor de uitvoering gemaakt.
 
-   Voor meer informatie over terugkerende e-mailleveringen raadpleegt u [E-maillevering](../../automating/using/email-delivery.md).
+  Zie voor meer informatie over terugkerende e-mailleveringen [E-maillevering](../../automating/using/email-delivery.md).
 
 * Door gebrek eens per maand voor transactionele berichten, en telkens als een transactiebericht wordt uitgegeven en opnieuw gepubliceerd.
 
-   Zie voor meer informatie over transactieberichten [Aan de slag met transactiemeldingen](../../channels/using/getting-started-with-transactional-msg.md).
+  Zie voor meer informatie over transactieberichten [Aan de slag met transactieberichten](../../channels/using/getting-started-with-transactional-msg.md).
 
 >[!NOTE]
 >
 >Omdat de id&#39;s van de bijgehouden URL&#39;s voor elke uitvoering verschillend zijn, kunnen de &#39;hot click&#39;-gegevens niet worden geaggregeerd voor alle uitgevoerde leveringen van een bepaald bericht. Deze kan slechts voor één uitvoeringslevering tegelijk worden weergegeven.
 
-Selecteer **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** van het leveringsdashboard.
+Als uw bericht is verzonden, selecteert u **[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]** van het leveringsdashboard.
 
 Standaard is de laatste levering van de uitvoering geselecteerd. Klik op de knop **[!UICONTROL Change execution delivery]** om een andere te selecteren.
 

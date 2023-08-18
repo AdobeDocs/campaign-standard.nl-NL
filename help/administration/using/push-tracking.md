@@ -92,7 +92,7 @@ Om te volgen klik, moeten twee scenario&#39;s worden behandeld:
 * De gebruiker ziet het bericht maar wist het.
 * De gebruiker ziet de melding en klikt erop om deze om te zetten in een open tracking.
 
-Om dit te behandelen, moet u twee Intenten gebruiken: een voor het klikken op de melding en een andere voor het negeren van de melding.
+Om dit te behandelen, moet u twee Intenten gebruiken: voor het klikken van het bericht en een andere om het bericht te sluiten.
 
 Voor leveringen die zijn gemaakt vóór 21.1-release of leveringen met een aangepaste sjabloon, raadpleegt u deze [sectie](../../administration/using/push-tracking.md#about-push-tracking).
 
@@ -125,7 +125,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-Om **[!UICONTROL BroadcastReceiver]** om te kunnen werken, moet u het registreren bij **[!UICONTROL AndroidManifest.xml]**
+Om de **[!UICONTROL BroadcastReceiver]** om te kunnen werken, moet u het registreren bij **[!UICONTROL AndroidManifest.xml]**
 
 ```
 <manifest>

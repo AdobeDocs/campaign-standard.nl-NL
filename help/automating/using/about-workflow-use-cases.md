@@ -1,6 +1,6 @@
 ---
 title: Gebruiksscenario’s voor workflows
-description: Lees meer over gebruiksgevallen die u kunt uitvoeren met Campaign Standard-workflows.
+description: Lees meer over gebruiksgevallen die u kunt uitvoeren met workflows van Campaigns Standard.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management

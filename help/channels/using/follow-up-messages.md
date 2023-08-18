@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Een follow-upbericht is een vooraf bepaalde marketing leveringsmalplaatje dat in een werkschema kan worden gebruikt om een andere mededeling naar de ontvangers van een specifiek transactiebericht te verzenden.
 
-Het voorbeeld dat in het dialoogvenster [Operationeel beginsel van het transactieverkeer](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) sectie: er wordt een e-mailbericht met de winkelwagentje verzonden naar gebruikers van uw website die producten aan hun winkelwagentje hebben toegevoegd , maar die de site hebben verlaten zonder dat ze hun aankopen hebben gedaan .
+Het voorbeeld dat in het dialoogvenster [Operationeel beginsel van het transactieverkeer](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) sectie: er wordt een e-mail met de afkeuring van winkelwagentjes verzonden naar gebruikers van uw website die producten aan hun winkelwagentje hebben toegevoegd, maar de site hebben verlaten zonder dat ze de producten hebben gekocht.
 
 U wilt een vriendelijke herinnering sturen aan alle klanten die het bericht van het verlaten van het winkelwagentje hebben ontvangen maar het na drie dagen niet hebben geopend. Ze ontvangen een vervolgbericht op basis van dezelfde gegevens die werden gebruikt in het eerste e-mailbericht dat werd verzonden.
 
@@ -52,7 +52,7 @@ Alleen de vervolgberichten worden weergegeven.
 
 >[!IMPORTANT]
 >
->Alleen gebruikers met de [Beheer](../../administration/using/users-management.md#functional-administrators) de rol kan tot transactionele berichten toegang hebben en uitgeven.
+>Alleen gebruikers met de [Administratie](../../administration/using/users-management.md#functional-administrators) de rol kan tot transactionele berichten toegang hebben en uitgeven.
 
 ## Een vervolgbericht verzenden {#sending-a-follow-up-message}
 
@@ -106,7 +106,7 @@ Zodra u het malplaatje van de follow-up levering creeerde, kunt u het in een wer
 
 1. Sleep een **E-maillevering** in uw workflow.
 
-   De e-mailleveringsactiviteit wordt weergegeven in de [E-maillevering](../../automating/using/email-delivery.md) sectie.
+   De e-mailleveringsactiviteit wordt weergegeven in het dialoogvenster [E-maillevering](../../automating/using/email-delivery.md) sectie.
 
    ![](assets/message-center_follow-up-workflow.png)
 

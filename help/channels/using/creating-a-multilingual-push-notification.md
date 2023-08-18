@@ -27,11 +27,11 @@ Deze functie gebruikt de voorkeurstalen die zijn opgegeven in de profielen van o
 
 Voer de volgende stappen uit als u meertalige inhoudvarianten wilt gebruiken voor het verzenden van pushberichten:
 
-* [Stap 1: Variant voor meertalige inhoud uploaden](#step-1--upload-multilingual-content-variant)
-* [Stap 2: Een pushmelding voorvertonen en voltooien met meertalige inhoudsvarianten](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
-* [Stap 3: Meertalige pushmeldingen verzenden en analyseren](#step-3--send-and-analyze-multilingual-push-notification-delivery)
+* [Stap 1: De meertalige inhoudvariant uploaden](#step-1--upload-multilingual-content-variant)
+* [Stap 2: Een pushmelding voorvertonen en voltooien met meertalige inhoudvarianten](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
+* [Stap 3: de levering van meertalige pushmeldingen verzenden en analyseren](#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
-## Stap 1: Variant voor meertalige inhoud uploaden {#step-1--upload-multilingual-content-variant}
+## Stap 1: De meertalige inhoudvariant uploaden {#step-1--upload-multilingual-content-variant}
 
 Voordat u uw meertalige pushmelding kunt aanpassen, moeten we eerst de varianten in de inhoud uploaden in een meertalige leveringssjabloon en de levering maken.
 
@@ -40,7 +40,7 @@ Voordat u uw meertalige pushmelding kunt aanpassen, moeten we eerst de varianten
 >U kunt deze stap ook overslaan als u een variant handmatig voor elke taalvariant wilt maken.
 
 1. In de **[!UICONTROL Marketing activities]** klikt u op de knop **[!UICONTROL Create]** dan selecteert u **[!UICONTROL Push notification]**.
-1. Selecteer de sjabloon **[!UICONTROL Send multilingual push to Campaign profiles]** als u zich wilt richten op de Adobe Campaign-profielen die zijn geabonneerd op uw mobiele toepassing of de sjabloon **[!UICONTROL Send multilingual push to app subscriber]** om een pushmelding te verzenden naar alle gebruikers die zich hebben aangemeld voor het ontvangen van berichten van uw mobiele toepassing.
+1. Selecteer de sjabloon **[!UICONTROL Send multilingual push to Campaign profiles]** als u de Adobe Campaign-profielen wilt activeren die zijn geabonneerd op uw mobiele toepassing of de sjabloon **[!UICONTROL Send multilingual push to app subscriber]** om een pushmelding te verzenden naar alle gebruikers die zich hebben aangemeld voor het ontvangen van berichten van uw mobiele toepassing.
 
    ![](assets/multivariant_push_2.png)
 
@@ -50,7 +50,7 @@ Voordat u uw meertalige pushmelding kunt aanpassen, moeten we eerst de varianten
 
 1. In de **[!UICONTROL Audiences]** vensters, slepen en neerzetten vragen om uw publiek af te stemmen.
 
-   De toegevoegde vragen hangen van het gekozen malplaatje af: als u **[!UICONTROL Send multilingual push to Campaign profiles]** sjabloon die u kunt opvragen bij bekende ontvangers van uw mobiele toepassing. Als u de optie **[!UICONTROL Send multilingual push to app subscriber]** in de sjabloon, kunt u een query uitvoeren op alle abonnees van een bepaalde app die zich hebben aangemeld.
+   De toegevoegde vragen hangen van het gekozen malplaatje af: als u verkoos **[!UICONTROL Send multilingual push to Campaign profiles]** sjabloon die u kunt opvragen bij bekende ontvangers van uw mobiele toepassing. Als u de optie **[!UICONTROL Send multilingual push to app subscriber]** in de sjabloon, kunt u een query uitvoeren op alle abonnees van een bepaalde app die zich hebben aangemeld.
    >[!NOTE]
    >
    >Als u doelgroepen richt met specifieke talen, moet u elke beoogde taal in uw CSV-bestand vermelden.
@@ -59,11 +59,11 @@ Voordat u uw meertalige pushmelding kunt aanpassen, moeten we eerst de varianten
 
 1. In de **[!UICONTROL Manage Content Variants]** , sleep en zet het bestand neer of selecteer een bestand van uw computer.
 
-   Het bestand moet UTF8-gecodeerd zijn en moet een specifieke indeling hebben die u kunt vinden door op het **[!UICONTROL Download the sample file]** optie. U moet ook de juiste syntaxis gebruiken voor waarden van landinstellingen. Raadpleeg voor meer informatie over de bestandsindeling en de ondersteunde landinstellingen [page](../../channels/using/generating-csv-multilingual-push.md).
+   Het bestand moet UTF8-gecodeerd zijn en moet een specifieke indeling hebben die u kunt vinden door op het tabblad **[!UICONTROL Download the sample file]** -optie. U moet ook de juiste syntaxis gebruiken voor waarden van landinstellingen. Raadpleeg voor meer informatie over de bestandsindeling en de ondersteunde landinstellingen [page](../../channels/using/generating-csv-multilingual-push.md).
 
    ![](assets/multivariant_push_4.png)
 
-1. Nadat u het bestand hebt geüpload, worden de taalvarianten automatisch in het deelvenster **[!UICONTROL Variants]** tab. U kunt een **[!UICONTROL Default variant]** in het bestand dat uw standaardinhoudsvariant zal zijn als er geen voorkeurstaal is opgegeven voor de doelgebruiker.
+1. Nadat u het bestand hebt geüpload, worden de taalvarianten automatisch ingevuld in het dialoogvenster **[!UICONTROL Variants]** tab. U kunt een **[!UICONTROL Default variant]** in het bestand dat uw standaardinhoudsvariant zal zijn als er geen voorkeurstaal is opgegeven voor de doelgebruiker.
 
    ![](assets/multivariant_push_5.png)
 
@@ -80,13 +80,13 @@ Voordat u uw meertalige pushmelding kunt aanpassen, moeten we eerst de varianten
 
 U kunt nu uw meertalige pushmelding aanpassen.
 
-## Stap 2: Een pushmelding voorvertonen en voltooien met meertalige inhoudsvarianten {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
+## Stap 2: Een pushmelding voorvertonen en voltooien met meertalige inhoudvarianten {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
 
 Nadat u het bestand met de inhoudvarianten hebt geüpload, kunt u nu een voorvertoning weergeven van de verschillende varianten vanaf de levering van het pushbericht.
 
 Het is ook mogelijk om meer varianten te maken en te bewerken naast de varianten die uit het bestand zijn geüpload.
 
-1. In de **[!UICONTROL Content]** kunt u in de vervolgkeuzelijst een voorvertoning weergeven van de inhoud van uw pushmelding, afhankelijk van de gekozen taal.
+1. In de **[!UICONTROL Content]** kunt u in de vervolgkeuzelijst een voorvertoning van de inhoud van uw pushmelding weergeven, afhankelijk van de gekozen taal.
 
    ![](assets/multivariant_push_7.png)
 
@@ -108,7 +108,7 @@ Het is ook mogelijk om meer varianten te maken en te bewerken naast de varianten
 
 Uw meertalige pushmelding kan nu worden verzonden.
 
-## Stap 3: Meertalige pushmeldingen verzenden en analyseren {#step-3--send-and-analyze-multilingual-push-notification-delivery}
+## Stap 3: de levering van meertalige pushmeldingen verzenden en analyseren {#step-3--send-and-analyze-multilingual-push-notification-delivery}
 
 Uw meertalige contentvariantpushberichten kunnen nu naar uw gebruikers worden verzonden.
 

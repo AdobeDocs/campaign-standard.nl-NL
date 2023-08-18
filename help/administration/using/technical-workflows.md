@@ -102,7 +102,7 @@ Technische workflows worden gebruikt om door uzelf geactiveerde achtergrond- en 
   <tr> 
    <td> <span class="uicontrol">Logboeken voor bijhouden herstellen</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
-   <td> Met deze workflow worden verloren logbestanden voor bijhouden hersteld. Deze technische workflow wordt in specifieke situaties gebruikt en beperkt tot Adobe voor intern gebruik. <br> Standaard wordt deze workflow elke 10 minuten gestart.<br /> </td> 
+   <td> Met deze workflow worden verloren traceringslogbestanden hersteld. Deze technische workflow wordt in specifieke omstandigheden gebruikt en beperkt tot Adobe voor intern gebruik. <br> Standaard wordt deze workflow elke 10 minuten gestart.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Uitvoering van levering bijwerken</span> <br/> </td> 

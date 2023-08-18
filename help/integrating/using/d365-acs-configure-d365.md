@@ -33,7 +33,7 @@ Als u de integratie voor zowel het opvoeren als productiemilieu&#39;s vormt, zul
 
 ## Toepassing en machtigingen instellen
 
-Met een OAuth-toegangstoken kan het integratiegereedschap via web-API&#39;s verifiëren met uw Microsoft Dynamics 365-instantie om Campaign Standard-ervaringsgebeurtenissen te posten naar de tijdlijnweergave van de Microsoft Dynamics 365-interface.
+Met een OAuth-toegangstoken kan het integratiegereedschap via web-API&#39;s verifiëren met uw Microsoft Dynamics 365-instantie om ervaringsgebeurtenissen van Campaigns Standard te posten naar de tijdlijnweergave van de Microsoft Dynamics 365-interface.
 
 De volgende video bevat een overzicht van de belangrijkste stappen:
 
@@ -98,12 +98,12 @@ Deze nieuwe gebruiker is een generieke gebruiker. Deze wordt door de toepassing 
    * **[!UICONTROL User Name]** (e-mail): adobe_api_`<stage-or-prod>`@`<your-d365-hostname>`&quot; (bijvoorbeeld adobe_api_stage@some-company.crm.dynamics.com)
    * **[!UICONTROL Application ID]**: ID van de toepassing die u hebt geregistreerd in Azure AD (dit is verplicht)
    * U kunt leeg laten **[!UICONTROL Application ID URI]** en **[!UICONTROL Azure AD Object ID]**
-   * **[!UICONTROL Full Name]**: ADOBE API `<stage or prod>`
+   * **[!UICONTROL Full Name]**: Adobe-API `<stage or prod>`
    * **[!UICONTROL Email]**: gelijk aan **[!UICONTROL User Name]** (of het e-mailbericht van de beheerder als u dat wenst)
 
    Raadpleeg voor meer informatie over het maken van apps door gebruikers [deze sectie](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}.
 
-1. Klik op het gebruikerspictogram en upload een Adobe Campaign-pictogram. Dit is het pictogram dat wordt weergegeven in de tijdlijnweergave wanneer nieuwe Adobe-gebeurtenissen verschijnen in Dynamics 365.
+1. Klik op het gebruikerspictogram en upload een Adobe Campaign-pictogram. Dit is het pictogram dat wordt weergegeven in de tijdlijnweergave wanneer er nieuwe Adobe-gebeurtenissen verschijnen in Dynamics 365.
 
 1. De lijst met gebruikersrollen openen door te klikken **[!UICONTROL MANAGE ROLES]** in het bovenste lint.
 
@@ -117,7 +117,7 @@ Volg de instructies [op deze pagina](https://docs.microsoft.com/en-us/onedrive/f
 
 ## Campaign Standard installeren voor Microsoft Dynamics 365 {#install-appsource-app}
 
-Volg onderstaande stappen om de Dynamics 365 App te integreren in uw Campaign Standard-omgeving:
+Volg onderstaande stappen om de Dynamics 365 App te integreren in uw omgeving van het Campaign Standard:
 
 1. Bladeren naar [Microsoft Business Apps](https://appsource.microsoft.com/en-us/marketplace/apps)en zoek naar_Adobe Campaign Standard_ in de zoekbalk.
 U kunt ook naar dit item navigeren [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"}.
@@ -125,7 +125,7 @@ U kunt ook naar dit item navigeren [link](https://appsource.microsoft.com/en-us/
 1. Na geïnstalleerd, navigeer aan uw instantie van de Dynamiek 365 en teken binnen als beheerder.
 1. Klik op het tandwielpictogram in de rechterbovenhoek en klik op **[!UICONTROL Advanced Settings]**. Klik in de bovenste banner op de vervolgkeuzelijst naast **[!UICONTROL Settings]**, klikt u op **[!UICONTROL Processes]** krachtens **[!UICONTROL Process Center]**.
 1. Zoeken naar **[!UICONTROL Adobe Campaign Email Bounce]** en klik erop.
-1. Op de **[!UICONTROL Administration]** , wijzigt u de eigenaar in de eerder gemaakte Adobe API-toepassingsgebruiker door op **[!UICONTROL Actions]** in het bovenste lint selecteert u vervolgens **[!UICONTROL Assign to another User]** selecteert u **[!UICONTROL Adobe API application user]** van de vervolgkeuzelijst om toe te wijzen.
+1. Op de **[!UICONTROL Administration]** tabblad, wijzigt u de eigenaar in de Adobe API-toepassingsgebruiker die u eerder hebt gemaakt door op **[!UICONTROL Actions]** in het bovenste lint selecteert u vervolgens **[!UICONTROL Assign to another User]** selecteert u **[!UICONTROL Adobe API application user]** van de vervolgkeuzelijst om toe te wijzen.
 1. Activeer het proces opnieuw.
 1. Doe het zelfde voor **[!UICONTROL Adobe Campaign Email Click]** taak.
 

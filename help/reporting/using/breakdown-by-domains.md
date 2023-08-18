@@ -26,15 +26,15 @@ De tabel **Uitzendstatistieken** bevat de beschikbare gegevens voor mogelijke fo
 
 * **Verwerkt/verzonden**: Het aantal verzonden e-mailberichten.
 * **Geleverd**: Het aantal geleverde e-mails.
-* **Bounces + fouten**: Het aantal berichten dat niet kon worden geleverd.
+* **Bounces + fouten**: Het aantal berichten dat niet kon worden afgeleverd.
 * **Hard stuiteren**: Het totale aantal permanente fouten, zoals een onjuist e-mailadres.
 * **Zachte stuit**: Het totale aantal tijdelijke fouten, zoals een volledig postvak.
 
 De tweede tabel, **Trackingstatistieken** bevat de beschikbare gegevens voor de reactiviteit van de ontvanger tot de levering, zoals:
 
 * **Geleverd**: Het aantal geleverde e-mails
-* **Openen**: Het aantal keren dat een bericht in een levering werd geopend.
-* **Klikken**: Het aantal keren dat op inhoud is geklikt in een levering.
+* **Openen**: Het aantal keren dat een bericht is geopend in een levering.
+* **Klikken**: Het aantal keren dat op de inhoud is geklikt in een levering.
 * **Abonnement opgezegd**: Het aantal klikken op de abonnementkoppeling.
 * **Pagina spiegelen**: Het aantal klikken op de koppeling van de spiegelpagina.
 * **Op lijst van gewezen personen**: Het aantal ontvangers dat een e-mail heeft gedeclareerd als spam of junk. [Meer informatie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

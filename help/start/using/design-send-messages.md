@@ -1,6 +1,6 @@
 ---
 title: Lijsten aanpassen
-description: "Leer hoe u de weergave kunt aanpassen en hoe u kunt werken op lijstschermen in Adobe Campaign Standard:elementen sorteren, filteren, verwijderen of dupliceren. De schermen van lijsten tonen elementen van één of verscheidene bepaalde middelen."
+description: "Leer hoe u de weergave kunt aanpassen en kunt werken op lijstschermen in Adobe Campaign Standard:elementen sorteren, filteren, verwijderen of dupliceren. De schermen van lijsten tonen elementen van één of verscheidene bepaalde middelen."
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -37,7 +37,7 @@ ht-degree: 5%
 <td>Leveringen maken</td>
 <td>Personaliseer en maak uw leveringen dynamisch</td>
 <td>Volg en controleer uw leveringen</td>
-<td>Installatierapporten</td>
+<td>Rapporten instellen</td>
 </tr>
 </table>
 
@@ -67,12 +67,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 <img width="60px" alt="voorwaarden" src="assets/icon_profile.svg"/>
 
-Houd de aandacht van uw klanten op en verbeter de responssnelheid door inhoud en kopteksten te gebruiken die zijn aangepast aan hun profielen, voorkeuren en activiteiten. Alle clientgegevens zijn gecentraliseerd in Adobe Campaign en u kunt via verschillende kanalen berichten met aangepaste inhoud aanbieden.
+Neem de aandacht van uw klanten op en verbeter de responssnelheid door inhoud en kopteksten te gebruiken die zijn gepersonaliseerd op basis van hun profielen, voorkeuren en activiteiten. Alle clientgegevens zijn gecentraliseerd in Adobe Campaign en u kunt via verschillende kanalen berichten met aangepaste inhoud aanbieden.
 
 Persoonlijke berichten zijn essentieel voor het verzenden van relevante inhoud, het bieden van persoonlijke ervaringen en het verhogen van de open en conversiesnelheden. Kanaaloverschrijdende berichten die door Adobe Campaign worden geleverd, kunnen op verschillende manieren worden gepersonaliseerd. Deze manieren kunnen met criteria afhankelijk van de profielen worden gecombineerd. U kunt:
 
 * Invoegen [dynamische verpersoonlijkingsvelden](../../designing/using/personalization.md#inserting-a-personalization-field) in uw berichten
-* Invoegen [vooraf gedefinieerde verpersoonlijkingsblokken](../../designing/using/personalization.md#adding-a-content-block)
+* Invoegen [vooraf gedefinieerde aanpassingsblokken](../../designing/using/personalization.md#adding-a-content-block)
 * [De afzender aanpassen](../../designing/using/subject-line.md) van een e-mail of sms
 * [De onderwerpregel aanpassen](../../designing/using/subject-line.md) van een e-mail
 * Maken [voorwaardelijke inhoud in een e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) of [op een landingspagina](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
@@ -107,7 +107,7 @@ Met Adobe Campaign kunt u elke levering afzonderlijk controleren en bijhouden. H
 * [Een levering controleren](../../sending/using/monitoring-a-delivery.md)
 * [Berichten traceren](../../sending/using/tracking-messages.md)
 
-## Installatierapporten
+## Rapporten instellen
 
 <img width="60px" alt="voorwaarden" src="assets/icon_profile.svg"/>
 

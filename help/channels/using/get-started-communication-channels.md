@@ -66,9 +66,9 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**Afzonderlijke en unieke berichten verzenden** aan uw klanten in real time: welkomstberichten, bevestiging van bestellingen voor verzending, wijziging van wachtwoord, enz.
+**Afzonderlijke en unieke berichten verzenden** aan uw klanten in real time: welkomstberichten, bestelling verzendbevestigingen, wachtwoordwijziging, enz.
 
-Transactieberichten zijn afhankelijk van uw opties beschikbaar voor de kanalen voor e-mail, SMS en pushmeldingen. Er zijn twee typen berichten: **Transactieberichten voor gebeurtenissen** het richten van gebeurtenissen zonder profielinformatie, en **profiel transactieberichten** het richten van profielen van uw gegevensbestand.
+Transactieberichten zijn afhankelijk van uw opties beschikbaar voor de kanalen voor e-mail, SMS en pushmeldingen. Er zijn twee typen berichten: **Transactieberichten voor gebeurtenissen** het richten van gebeurtenissen zonder profielinformatie, en **profielen transactiemeldingen** het richten van profielen van uw gegevensbestand.
 
 Meer informatie:
 
@@ -86,7 +86,7 @@ Meer informatie:
 
 De campagne wordt geleverd met bestemmingspagina&#39;s die Webvormen zijn die kunnen worden gebruikt aan **informatie over uw publiek vastleggen**, biedt abonnementen op de service aan, geeft gegevens weer en laat uw database groeien.
 
-Openingspagina&#39;s kunnen ook worden gebruikt voor **het aanschaffen of bijwerken van bestaande profielen** en om een dubbele aanmeldingsprocedure in te stellen, waarmee u het platform kunt beschermen tegen onjuiste of ongeldige e-mailadressen of spambots.
+Openingspagina&#39;s kunnen ook worden gebruikt voor **bestaande profielen aanschaffen of bijwerken** en om een dubbele aanmeldingsprocedure in te stellen, waarmee u het platform kunt beschermen tegen onjuiste of ongeldige e-mailadressen of spambots.
 
 Meer informatie:
 
@@ -103,4 +103,4 @@ Meer informatie:
 * [Een AEM-inhoud importeren](../../integrating/using/creating-email-experience-manager.md)
 * [Berichten verzenden met workflows](../../automating/using/about-channel-activities.md)
 * [Zelfstudievideo&#39;s over communicatiekanalen](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=nl)
-* [Hoofdlettergebruik: Een levering tussen kanalen maken](../../automating/using/workflow-cross-channel-delivery.md)
+* [Hoofdlettergebruik: een levering tussen kanalen maken](../../automating/using/workflow-cross-channel-delivery.md)

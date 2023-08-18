@@ -1,6 +1,6 @@
 ---
 title: Tagregels configureren om Adobe Campaign Standard-gebruiksscenario's te ondersteunen
-description: Leer hoe u tagregels configureert ter ondersteuning van Adobe Campaign Standard-gebruiksgevallen
+description: Leer hoe u labelregels configureert ter ondersteuning van Adobe Campaign Standard-gebruiksgevallen
 audience: channels
 content-type: reference
 topic-tags: push-notifications
@@ -62,7 +62,7 @@ U kunt als volgt deze gegevenselementen maken:
 
 1. In de **[!UICONTROL Name]** veld, typ een naam, bijvoorbeeld **kampeerserver**.
 
-1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Adobe Campaign Standard]**. Vervolgens **[!UICONTROL Campaign Server]** in de **[!UICONTROL Data element]** type drop-down.
+1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Adobe Campaign Standard]**. Dan, **[!UICONTROL Campaign Server]** in de **[!UICONTROL Data element]** type drop-down.
 
 ## Regels maken {#creating-rules}
 
@@ -85,15 +85,15 @@ PII-gegevens verzenden naar [!DNL Adobe Campaign Standard], maakt u een regel in
 
 1. Typ bijvoorbeeld een naam, **Mobile Core - Collect PII**.
 
-1. In de **[!UICONTROL Events]** sectie, klikt u op **[!UICONTROL Add]**.
+1. In de **[!UICONTROL Events]** sectie, klikken **[!UICONTROL Add]**.
 
-1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Mobile Core]**. Vervolgens **[!UICONTROL Collect PII]** in de **[!UICONTROL Event type]** vervolgkeuzelijst.
+1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Mobile Core]**. Dan, **[!UICONTROL Collect PII]** in de **[!UICONTROL Event type]** vervolgkeuzelijst.
 
 1. Klik op **[!UICONTROL Keep changes]**.
 
-1. In de **[!UICONTROL Actions]** sectie, klikt u op **[!UICONTROL Add]**.
+1. In de **[!UICONTROL Actions]** sectie, klikken **[!UICONTROL Add]**.
 
-1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Mobile Core]**. Vervolgens **[!UICONTROL Send PII]** in de **[!UICONTROL Action type]** vervolgkeuzelijst.
+1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Mobile Core]**. Dan, **[!UICONTROL Send PII]** in de **[!UICONTROL Action type]** vervolgkeuzelijst.
 
 1. In **[!UICONTROL URL]** Voer de volgende URL in:
 
@@ -101,7 +101,7 @@ PII-gegevens verzenden naar [!DNL Adobe Campaign Standard], maakt u een regel in
    https://{%%camp-server%%}/rest/head/mobileAppV5/{%%pkey%%}/subscriptions/{%%mcid%%}
    ```
 
-1. Selecteer **[!UICONTROL Add Post Body]** selectievakje.
+1. Selecteer de **[!UICONTROL Add Post Body]** selectievakje.
 
 1. In **[!UICONTROL Post Body]**, typt u het volgende:
 
@@ -119,11 +119,11 @@ PII-gegevens verzenden naar [!DNL Adobe Campaign Standard], maakt u een regel in
    "{%contextdata.lastName%}" }
    ```
 
-   Met de marketingCloudId kunt u uw app-abonnees in overeenstemming brengen met de ontvangers in de database en is het daarom vereist. U kunt andere sleutel-waardeparen specificeren zoals uw bedrijfsbehoeften. In het bovenstaande voorbeeld worden E-mail, Voornaam en Achternaam doorgegeven vanuit de app.
+   Met de marketingCloudId kunt u uw app-abonnees in overeenstemming brengen met de ontvangers in de database en is het daarom vereist. U kunt andere sleutel-waardeparen specificeren zoals op uw bedrijfsbehoeften. In het bovenstaande voorbeeld worden E-mail, Voornaam en Achternaam doorgegeven vanuit de app.
 
-   De sleutels (bijvoorbeeld cusEmail, cusFirstName, en cusLastName) zouden de gebied IDs moeten aanpassen die in uw douanemiddel in de instantie van Adobe Campaign Standard worden bepaald. De waardevariabelen (bijvoorbeeld email, firstName en LastName) moeten overeenkomen met de toetsen in de JSON-gegevens die vanuit de mobiele app worden verzonden, terwijl de API voor het verzamelen van AMS vanuit de toepassingscode wordt aangeroepen.
+   De sleutels (bijvoorbeeld cusEmail, cusFirstName, en cusLastName) zouden de gebied IDs moeten aanpassen die in uw douanemiddel in de instantie van Adobe Campaign Standard worden bepaald. De waardevariabelen (bijvoorbeeld e-mail, firstName en LastName) moeten overeenkomen met de sleutels in de JSON-gegevens die vanuit de mobiele app worden verzonden, terwijl de API voor het verzamelen van AMS vanuit de toepassingscode wordt aangeroepen.
 
-   U kunt levenscyclusgegevens ook doorgeven in de PII-nabewerking verzamelen of een andere nabewerking afhankelijk van de gebeurtenistriggers. Hier is een voorbeeld van de Lifecycle Data JSON:
+   U kunt levenscyclusgegevens ook doorgeven in de PII-nabewerking verzamelen of een andere nabewerking, afhankelijk van de gebeurtenistriggers. Hier is een voorbeeld van de Lifecycle Data JSON:
 
    ```
    {
@@ -157,15 +157,15 @@ Trackinggegevens verzenden naar [!DNL Adobe Campaign Standard] voor het melden v
 
 1. Typ bijvoorbeeld een naam, **Adobe Campaign - In-app klikken op bijhouden**.
 
-1. In de **[!UICONTROL Events]** sectie, klikt u op **[!UICONTROL Add]**.
+1. In de **[!UICONTROL Events]** sectie, klikken **[!UICONTROL Add]**.
 
-1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Adobe Campaign Standard]**. Vervolgens **[!UICONTROL In-App click tracking]** in de **[!UICONTROL Event type]** vervolgkeuzelijst.
+1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Adobe Campaign Standard]**. Dan, **[!UICONTROL In-App click tracking]** in de **[!UICONTROL Event type]** vervolgkeuzelijst.
 
 1. Klik op **[!UICONTROL Keep changes]**.
 
-1. In de **[!UICONTROL Actions]** sectie, klikt u op **[!UICONTROL Add]**.
+1. In de **[!UICONTROL Actions]** sectie, klikken **[!UICONTROL Add]**.
 
-1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Mobile Core]**. Vervolgens **[!UICONTROL Send postback]** in de **[!UICONTROL Event type]** vervolgkeuzelijst.
+1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Mobile Core]**. Dan, **[!UICONTROL Send postback]** in de **[!UICONTROL Event type]** vervolgkeuzelijst.
 
 1. In **[!UICONTROL URL]** Typ de volgende URL:
 
@@ -173,7 +173,7 @@ Trackinggegevens verzenden naar [!DNL Adobe Campaign Standard] voor het melden v
    https://{%%camp-server%%}/r/?id={%id%}&mcid={%%mcid%%}
    ```
 
-1. Selecteer **[!UICONTROL Add post body]** selectievakje.
+1. Selecteer de **[!UICONTROL Add post body]** selectievakje.
 
 1. In **[!UICONTROL Post Body]** typt u **{}**.
 
@@ -199,15 +199,15 @@ Gebruik de trackAction-API om de handelingen van de app bij te houden. Zie voor 
 
 1. Typ bijvoorbeeld een naam, **Adobe Campaign - bijhouden van klikken met push**.
 
-1. In de **[!UICONTROL Events]** sectie, klikt u op **[!UICONTROL Add]**.
+1. In de **[!UICONTROL Events]** sectie, klikken **[!UICONTROL Add]**.
 
-1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Mobile Core]**. Vervolgens **[!UICONTROL Track Action]** in de **[!UICONTROL Event type]** vervolgkeuzelijst.
+1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Mobile Core]**. Dan, **[!UICONTROL Track Action]** in de **[!UICONTROL Event type]** vervolgkeuzelijst.
 
-1. Van de **[!UICONTROL Action]** vervolgkeuzelijst, selecteert u **[!UICONTROL Action]**, selecteert u **[!UICONTROL equals]** en type **bijhouden**.
+1. Van de **[!UICONTROL Action]** vervolgkeuzelijst, selecteert u **[!UICONTROL Action]**, selecteert u **[!UICONTROL equals]**, en type **bijhouden**.
 
-1. Klik op **[!UICONTROL Keep changes]**. Dan, in **[!UICONTROL Actions]** sectie, klikt u op **[!UICONTROL Add]**.
+1. Klik op **[!UICONTROL Keep changes]**. Dan, in **[!UICONTROL Actions]** sectie, klikken **[!UICONTROL Add]**.
 
-1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Mobile Core]**. Vervolgens **[!UICONTROL Send postback]** in de **[!UICONTROL Action type]** vervolgkeuzelijst.
+1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Mobile Core]**. Dan, **[!UICONTROL Send postback]** in de **[!UICONTROL Action type]** vervolgkeuzelijst.
 
 1. In **[!UICONTROL URL]** Voer de volgende URL in:
 
@@ -215,9 +215,9 @@ Gebruik de trackAction-API om de handelingen van de app bij te houden. Zie voor 
    https://{%%camp-server%%}/r/?id={%contextdata.broadlogId%},{%contextdata.deliveryId%},{%contextdata.action%}&mcId={%%mcid%%}
    ```
 
-1. Selecteer **[!UICONTROL Add post body]** selectievakje.
+1. Selecteer de **[!UICONTROL Add post body]** selectievakje.
 
-1. Voeg je berichttekst toe, bijvoorbeeld { }.
+1. Voeg bijvoorbeeld de tekst { } toe.
 
 1. In **[!UICONTROL Content Type]**, type **application/json**.
 
@@ -229,15 +229,15 @@ Gebruik de trackAction-API om de handelingen van de app bij te houden. Zie voor 
 
 1. Typ bijvoorbeeld een naam, **Locatie na terugzetten**.
 
-1. In de **[!UICONTROL Events]** sectie, klikt u op **[!UICONTROL Add]**.
+1. In de **[!UICONTROL Events]** sectie, klikken **[!UICONTROL Add]**.
 
-1. Maak een gebeurtenis, bijvoorbeeld, Enter POI of Exit POI. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **Plaatsen - bèta**. Vervolgens **POI invoeren** of **POI afsluiten** in de **[!UICONTROL Event type]** vervolgkeuzelijst.
+1. Maak een gebeurtenis, bijvoorbeeld, Enter POI of Exit POI. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **Plaatsen - bèta**. Dan, **POI invoeren** of **POI afsluiten** in de **[!UICONTROL Event type]** vervolgkeuzelijst.
 
 1. Voer bijvoorbeeld een naam in **Plaatsen - bèta - ga POI in** of **POI afsluiten**.
 
-1. In de **[!UICONTROL Actions]** sectie, klikt u op **[!UICONTROL Add]**.
+1. In de **[!UICONTROL Actions]** sectie, klikken **[!UICONTROL Add]**.
 
-1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Mobile Core]**. Vervolgens **[!UICONTROL Send postback]** van de **[!UICONTROL Action type]** vervolgkeuzelijst.
+1. Van de **[!UICONTROL Extension]** vervolgkeuzelijst, selecteert u **[!UICONTROL Mobile Core]**. Dan, **[!UICONTROL Send postback]** van de **[!UICONTROL Action type]** vervolgkeuzelijst.
 
 1. Voer bijvoorbeeld een naam in **Mobiele kern - Locatiepostback verzenden**.
 
@@ -247,7 +247,7 @@ Gebruik de trackAction-API om de handelingen van de app bij te houden. Zie voor 
    https://{%%camp-server%%}/rest/head/mobileAppV5/{%%pkey%%}/locations/
    ```
 
-1. Selecteer **[!UICONTROL Add post body]** selectievakje en voeg je berichttekst toe, bijvoorbeeld:
+1. Selecteer de **[!UICONTROL Add post body]** selectievakje en voeg je berichttekst toe, bijvoorbeeld:
 
    ```
    {

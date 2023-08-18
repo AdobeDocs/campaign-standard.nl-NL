@@ -67,7 +67,7 @@ Het keert het bijgewerkte profiel met de voltooide de dienstknoop terug.
 }
 ```
 
-## Methode 2: Een profiel toevoegen aan abonnees van een service
+## Methode 2: Een profiel toevoegen aan abonnees van de dienst
 
 Voer een verzoek van de GET uit om de dienst terug te winnen.
 

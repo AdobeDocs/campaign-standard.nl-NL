@@ -9,7 +9,7 @@ exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 72%
 
 >[!IMPORTANT]
 >
->De **[!UICONTROL Access to the deliverability parameters (Deliverability)]** en **[!UICONTROL Message Center agents (mcExec)]** beveiligingsgroepen zijn alleen interne Adobe en mogen niet aan een gebruiker worden toegewezen.
+>De **[!UICONTROL Access to the deliverability parameters (Deliverability)]** en **[!UICONTROL Message Center agents (mcExec)]** veiligheidsgroepen zijn Adobe intern slechts en zouden niet aan enige gebruiker moeten worden toegewezen.
 
 Beveiligingsgroepen zijn groepen gebruikers die dezelfde rollen en rechten binnen uw organisatie delen.
 
@@ -40,7 +40,7 @@ Deze ingebouwde beveiligingsgroepen zijn alleen-lezen en kunnen niet worden gewi
 
 >[!IMPORTANT]
 >
->Houd er rekening mee dat in de Admin Console beveiligingsgroepen profielen worden genoemd.
+>In de Admin Console worden beveiligingsgroepen profielen genoemd.
 
 U kunt uw eigen beveiligingsgroepen maken als de standaardgroepen niet genoeg zijn om uw gebruikers te beheren. Zij kunnen door Beheerders worden geleid die toegang tot zowel de beleidsmenu&#39;s van Adobe Campaign als de Admin Console hebben. Voor meer informatie over de Admin Console raadpleegt u deze [documentatie](https://helpx.adobe.com/enterprise/managing/user-guide.html).
 

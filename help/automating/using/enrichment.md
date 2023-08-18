@@ -34,8 +34,8 @@ Met de activiteit **[!UICONTROL Enrichment]** kunt u de binnenkomende overgang g
 
 **Verwante onderwerpen**
 
-* [Hoofdlettergebruik: Profielgegevens verrijken met gegevens in een bestand](../../automating/using/enriching-profile-data-file.md).
-* [Hoofdlettergebruik: Een e-mail verzenden met verrijkte velden](../../automating/using/sending-email-enriched-fields.md)
+* [Hoofdlettergebruik: profielgegevens worden verrijkt met gegevens in een bestand](../../automating/using/enriching-profile-data-file.md).
+* [Hoofdlettergebruik: een e-mail met verrijkte velden verzenden](../../automating/using/sending-email-enriched-fields.md)
 
 ## Configuratie {#configuration}
 

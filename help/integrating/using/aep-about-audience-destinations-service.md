@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
+>De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van de Adobe als u toegang wilt.
 
 Verbeter uw ervaringen met de consument door de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) het opbouwen van een doelgericht publiek op basis van grote, complexe gegevensbestanden. De Adobe Experience Platform consolideert profielen, gedragingen en gegevens van meerdere entiteiten op online en offline bronnen, waaronder Adobe Analytics, om u te helpen een 360-gradenweergave van uw klant te maken, zodat u uw ervaringen met klanten effectief kunt beheren.
 
@@ -33,7 +33,7 @@ Adobe Campaign Standard gebruikt vervolgens de **Bestemmingen publiek** service 
 * [Overzicht van het realtime klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
 * [Overzicht van segmentatieservice](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
 
-Nadat u een segment hebt gemaakt, kunt u het als publiek activeren voor levering in [Campaign Standard-workflows](../../integrating/using/aep-targeting-audiences.md). Daarnaast kunt u contextafhankelijke gegevens van de Adobe Experience Platform naar [personaliseren](../../integrating/using/aep-personalizing-campaigns.md) en voeg dynamische inhoud toe aan uw campagnes.
+Nadat u een segment hebt gemaakt, kunt u het als publiek activeren voor levering in [Workflows voor Campaigns Standard](../../integrating/using/aep-targeting-audiences.md). Daarnaast kunt u contextafhankelijke gegevens van de Adobe Experience Platform naar [personaliseren](../../integrating/using/aep-personalizing-campaigns.md) en voeg dynamische inhoud toe aan uw campagnes.
 
 ![](assets/do-not-localize/how-to-video.png) Hoe kan ik-video&#39;s zijn ook beschikbaar in [deze sectie](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html).
 
@@ -41,12 +41,12 @@ In deze secties gebruikte termen:
 
 * **Profiel**: Profiel is een standaardgegevensmodel voor Experience Platforms dat wordt gebruikt om de kenmerken van de consument te definiëren. Een profiel kan ook een aggregaat zijn van gebeurtenisgegevens en -kenmerken die betrekking hebben op een persoon en/of apparaat.
 
-   Voorbeeld: &quot;John Doe is een 55-jarige man.&quot;
+  Voorbeeld: &quot;Jan Doe is een 55-jarige man.&quot;
 
 * **Segment**: Een set regels die een subset van profielen definieert vanuit uw database, waarbij zowel kenmerken als gebeurtenisgegevens worden gebruikt.
 
-   Voorbeeld: &quot;Menen > 50 jaar oud.&quot;
+  Voorbeeld: &quot;Males > 50 jaar oud.&quot;
 
 * **Publiek**: Een verzameling profielen die voldoen aan segmentregels.
 
-   Voorbeeld: Lijst met profielen voor alle mannen > 50 jaar oud in uw database.
+  Voorbeeld: Lijst met profielen voor alle mannen > 50 jaar oud in uw database.

@@ -38,8 +38,8 @@ Wanneer u een geplande workflow ontwerpt die meerdere activiteiten bevat, moet u
 
 **Verwante onderwerpen:**
 
-* [Hoofdlettergebruik: Leveringen maken op de aanmaakdatum van profielen](../../automating/using/workflow-creation-date-query.md)
-* [Hoofdlettergebruik: Elke dinsdag een e-maillevering maken](../../automating/using/workflow-weekly-offer.md)
+* [Hoofdlettergebruik: leveringen maken op de aanmaakdatum van profielen](../../automating/using/workflow-creation-date-query.md)
+* [Hoofdlettergebruik: elke dinsdag een e-maillevering maken](../../automating/using/workflow-weekly-offer.md)
 
 ## Configuratie {#configuration}
 

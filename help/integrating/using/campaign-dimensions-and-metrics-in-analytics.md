@@ -35,7 +35,7 @@ Campagne **[!UICONTROL dimensions]** vindt u in Analytics:
   </tr> 
   <tr> 
    <td> Campagnelabel<br /> </td> 
-   <td> Campagnelabel zoals weergegeven in Campagne<br /> </td> 
+   <td> Label van campagne zoals weergegeven in campagne<br /> </td> 
   </tr> 
   <tr> 
    <td> Leverings-id<br /> </td> 

@@ -21,4 +21,4 @@ De afbeeldingen van het doel zijn technische voorwerpen die door Campagne worden
 
 Beheerders hebben toegang tot doeltoewijzingen in het dialoogvenster **[!UICONTROL Administration > Application settings > Target mappings]** -menu.
 
-Doeltoewijzing is mogelijk om specifieke behoeften te dekken. In elk geval moet de doeldimensie ervan altijd overeenkomen met profielen ( **[!UICONTROL nms:recipient]** tabel). Ga naar [deze pagina](../../automating/using/query.md#targeting-dimensions-and-resources) voor meer informatie over targetingdimensies.
+Doeltoewijzing of -wijziging is mogelijk om aan specifieke behoeften te voldoen. In elk geval moet de doeldimensie ervan altijd overeenkomen met profielen ( **[!UICONTROL nms:recipient]** tabel). Ga naar [deze pagina](../../automating/using/query.md#targeting-dimensions-and-resources) voor meer informatie over targetingdimensies.

@@ -39,11 +39,11 @@ Als u de naam wilt definiëren van de afzender die wordt weergegeven in de kopte
 
 ![](assets/delivery_content_edition16.png)
 
-* De **[!UICONTROL From: name]** kunt u de naam van de afzender invoeren. Standaard wordt de **Naam afzender** wordt automatisch in het veld ingevoerd. Het standaard e-mailadres en de naam van de afzender worden gedefinieerd in **[!UICONTROL Brands]** toegankelijk via het Adobe Campaign-logo in het geavanceerde menu **[!UICONTROL Administration > Instance settings > Brand configuration]** .
+* De **[!UICONTROL From: name]** kunt u de naam van de afzender invoeren. Standaard wordt de standaard **Naam afzender** wordt automatisch in het veld ingevoerd. Het standaard e-mailadres en de naam van de afzender worden gedefinieerd in **[!UICONTROL Brands]** toegankelijk via het Adobe Campaign-logo in het geavanceerde menu **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
-   U kunt de naam van de afzender wijzigen door op de knop **Naam afzender** blokkeren. Het veld wordt bewerkbaar en u kunt de naam invoeren die u wilt gebruiken.
+  U kunt de naam van de afzender wijzigen door op de knop **Naam afzender** blokkeren. Het veld wordt bewerkbaar en u kunt de naam invoeren die u wilt gebruiken.
 
-   U kunt dit veld aanpassen. Hiervoor kunt u aanpassingsvelden, inhoudsblokken en dynamische inhoud toevoegen door op de pictogrammen onder de naam van de afzender te klikken. Zie voor meer informatie [Personalisatie](../../designing/using/personalization.md).
+  U kunt dit veld aanpassen. Hiervoor kunt u aanpassingsvelden, inhoudsblokken en dynamische inhoud toevoegen door op de pictogrammen onder de naam van de afzender te klikken. Zie voor meer informatie [Personalisatie](../../designing/using/personalization.md).
 
 * De **[!UICONTROL From: email address]** kan niet vanuit deze sectie worden bewerkt. U kunt dit wijzigen door de eigenschappen van de e-mail te bewerken vanaf het dashboard. Zie voor meer informatie [Lijst met geavanceerde e-mailparameters](../../administration/using/configuring-email-channel.md#advanced-parameters).
 

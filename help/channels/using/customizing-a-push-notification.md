@@ -42,7 +42,7 @@ Met een geluid worden gebruikers gewaarschuwd dat er een pushmelding is, zodat d
 
    ![](assets/push_notif_advanced_7.png)
 
-1. Het geluidsbestand wordt afgespeeld bij het verzenden van de melding als het bestand is gedefinieerd in het pakket van de mobiele applicatie. U kunt instellen op **default** om het standaardgeluid van het apparaat af te spelen.
+1. Het geluidsbestand wordt afgespeeld bij het verzenden van de melding als het bestand is gedefinieerd in het pakket van de mobiele applicatie. U kunt instellen op **default** het standaardgeluid van het apparaat afspelen.
 
    Als de **[!UICONTROL Play a sound]** veld is leeg, er wordt geen geluid afgespeeld.
 
@@ -113,7 +113,7 @@ Als u een vervaldatum instelt voor uw pushmelding, stelt u een specifieke datum 
 
 Een vervaldatum toevoegen aan uw pushmelding:
 
-1. Controleer de **[!UICONTROL Expire message]** optie: door **[!UICONTROL Expire message]** wordt de duur automatisch ingesteld op 0. Als u de waarde niet wijzigt, proberen zowel APNS als FCM het bericht onmiddellijk te verzenden. Als het mislukt, wordt het bericht niet opnieuw verzonden.
+1. Controleer de **[!UICONTROL Expire message]** optie:door **[!UICONTROL Expire message]** wordt de duur automatisch ingesteld op 0. Als u de waarde niet wijzigt, proberen zowel APNS als FCM het bericht onmiddellijk te verzenden. Als het mislukt, wordt het bericht niet opnieuw verzonden.
 
 1. Selecteer in het veld **[!UICONTROL Duration]** de geldigheid van uw pushmelding.
 

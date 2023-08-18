@@ -27,7 +27,7 @@ In alle gevallen voldoet de quarantaineprocedure aan de specifieke regels van de
 
 De profielen waarvan de e-mailadressen of telefoonnummers in quarantaine zijn geplaatst, worden automatisch uitgesloten tijdens de voorbereiding van berichten (zie [In quarantaine geplaatste adressen voor een levering identificeren](#identifying-quarantined-addresses-for-a-delivery)). Hierdoor wordt de levering versneld, omdat het foutenpercentage een belangrijk effect heeft op de leveringssnelheid.
 
-Sommige internetproviders beschouwen e-mails automatisch als spam als het aantal ongeldige adressen te hoog is. Met quarantaine kunt u dus voorkomen dat u door deze providers aan de lijst van gewezen personen wordt toegevoegd.
+Sommige internetproviders beschouwen e-mails automatisch als spam als het aantal ongeldige adressen te hoog is. Met quarantaine kunt u dus voorkomen dat deze providers aan de lijst van gewezen personen worden toegevoegd.
 
 Bovendien zijn de verzendkosten voor sms-berichten lager doordat onjuiste telefoonnummers van de levering worden uitgesloten.
 
@@ -37,13 +37,13 @@ Raadpleeg [deze pagina](../../sending/using/delivery-best-practices.md) voor mee
 
 Quarantaine en lijst van gewezen personen zijn niet van toepassing op hetzelfde object:
 
-* **Quarantine** alleen van toepassing op een **adres** (of telefoonnummer, enz.), niet naar het profiel zelf. Een profiel waarvan het e-mailadres in quarantaine is geplaatst, kan bijvoorbeeld zijn profiel bijwerken en een nieuw adres invoeren. Dit profiel kan dan opnieuw worden geactiveerd door leveringsacties. Eveneens, als twee profielen gebeuren om het zelfde telefoonaantal te hebben, zullen zij allebei worden beïnvloed als het aantal quarantined is.
+* **Quarantine** is alleen van toepassing op een **adres** (of telefoonnummer, enz.), niet naar het profiel zelf. Een profiel waarvan het e-mailadres in quarantaine is geplaatst, kan bijvoorbeeld zijn profiel bijwerken en een nieuw adres invoeren. Dit profiel kan dan opnieuw worden geactiveerd door leveringsacties. Eveneens, als twee profielen gebeuren om het zelfde telefoonaantal te hebben, zullen zij allebei worden beïnvloed als het aantal quarantined is.
 
-   De in quarantaine geplaatste adressen of telefoonaantallen worden getoond in [uitsluitingslogboeken](#identifying-quarantined-addresses-for-a-delivery) (voor levering) of in de [quarantainelijst](#identifying-quarantined-addresses-for-the-entire-platform) (voor het gehele platform).
+  De in quarantaine geplaatste adressen of telefoonaantallen worden getoond in [uitsluitingslogboeken](#identifying-quarantined-addresses-for-a-delivery) (voor levering) of in de [quarantainelijst](#identifying-quarantined-addresses-for-the-entire-platform) (voor het gehele platform).
 
 * Aan de slag **lijst van gewezen personen** anderzijds zal **profiel** niet langer het doelwit is van de levering, bijvoorbeeld na een abonnement (opt-out), voor een bepaald kanaal. Als een profiel op de lijst van gewezen personen voor het e-mailkanaal bijvoorbeeld twee e-mailadressen heeft, worden beide adressen van levering uitgesloten. Voor meer informatie over het proces van de lijst van gewezen personen, verwijs naar [Over opt-in en opt-out in campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-   U kunt controleren of een profiel op de lijst van gewezen personen voor een of meer kanalen in het dialoogvenster **[!UICONTROL No longer contact (on denylist)]** van het profiel **[!UICONTROL General]** tab. Zie [deze sectie](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
+  U kunt controleren of een profiel op de lijst van gewezen personen voor een of meer kanalen in het dialoogvenster **[!UICONTROL No longer contact (on denylist)]** van het profiel **[!UICONTROL General]** tab. Zie [deze sectie](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile).
 
 >[!NOTE]
 >
@@ -77,9 +77,9 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 >[!NOTE]
 >
->De toename van het aantal quarantaine is een normaal effect dat verband houdt met de &quot;slijtage&quot; van de database. Bijvoorbeeld, als de levensduur van een e-mailadres wordt beschouwd als drie jaar en de ontvankelijke lijst met 50% elk jaar stijgt, kan de verhoging van quarantines als volgt worden berekend: Einde van jaar 1: 1&#42;0,33)/(1+0,5)=22%. Einde van jaar 2: (1,22)&#42;0,33)+0,33)/(1,5+0,75)=32,5%.
+>De toename van het aantal quarantaine is een normaal effect dat verband houdt met de &quot;slijtage&quot; van de database. Bijvoorbeeld, als de levensduur van een e-mailadres wordt beschouwd als drie jaar en de ontvankelijke lijst met 50% elk jaar stijgt, kan de verhoging van quarantines als volgt worden berekend: Eind van Jaar 1: (1&#42;0,33)/(1+0,5)=22%. Einde van jaar 2: (1.22&#42;0,33)+0,33)/(1,5+0,75)=32,5%.
 
-Er zijn filters beschikbaar waarmee u door de lijst kunt bladeren. U kunt filteren op het adres, de status en/of het kanaal.
+Er zijn filters beschikbaar waarmee u door de lijst kunt bladeren. U kunt filteren op adres, status en/of kanaal.
 
 ![](assets/quarantines-filters.png)
 
@@ -125,11 +125,11 @@ U kunt een adres ook handmatig uit de quarantaine verwijderen.  Als u een adres 
 
 * Selecteer het adres in het menu **[!UICONTROL Administration > Channels > Quarantines > Addresses]** lijst en selecteer **[!UICONTROL Delete element]**.
 
-   ![](assets/quarantine-delete-address.png)
+  ![](assets/quarantine-delete-address.png)
 
 * Een adres selecteren en het adres wijzigen **[!UICONTROL Status]** tot **[!UICONTROL Valid]**.
 
-   ![](assets/quarantine-valid-status.png)
+  ![](assets/quarantine-valid-status.png)
 
 
 ### Bulkupdates {#unquarantine-bulk}
@@ -142,7 +142,7 @@ Gebaseerd op het tijdkader van het incident, hieronder zijn de geadviseerde rich
 
 * **Fouttekst (quarantainetekst)** bevat &quot;550-5.1.1&quot; EN **Fouttekst (quarantainetekst)** bevat &quot;support.ISP.com&quot;
 
-   waar &quot;support.ISP.com&quot; kan zijn: bijvoorbeeld &quot;support.apple.com&quot; of &quot;support.google.com&quot;
+  waar &quot;support.ISP.com&quot; kan zijn: bijvoorbeeld &quot;support.apple.com&quot; of &quot;support.google.com&quot;
 
 * **Status bijwerken (@lastModified)** op of na MM/DD/YYYY HH:MM:SS AM
 * **Status bijwerken (@lastModified)** op of vóór MM/DD/YYYY HH:MM:SS PM
@@ -157,7 +157,7 @@ Adobe Campaign beheert quarantaine op basis van leveringsfouten en de reden die 
 * **Harde fout**: het desbetreffende e-mailadres wordt onmiddellijk in quarantaine geplaatst.
 * **Zachte fout**: bij zachte fouten wordt het adres niet direct in quarantaine geplaatst, maar neemt het aantal fouten op de foutenteller toe. Zie voor meer informatie [Beheer van zachte fouten](#soft-error-management).
 
-   <!--
+  <!--
   When the error counter reaches the limit threshold, the address goes into quarantine. In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error. The error counter threshold can be modified. For more on this, refer to this [page](../../administration/using/configuring-email-channel.md#email-channel-parameters).
   When a delivery is successful after a retry, the error counter of the address which was prior to that quarantined is reinitialized. The address status changes to **[!UICONTROL Valid]** and it is deleted from the list of quarantines after two days by the **[!UICONTROL Database cleanup]** workflow.
   -->
@@ -176,9 +176,9 @@ In de lijst met adressen in quarantaine (zie [In quarantaine geplaatste adressen
 
 In tegenstelling tot harde fouten, verzenden de zachte fouten onmiddellijk geen adres naar quarantaine, maar zij verhogen in plaats daarvan een foutenteller.
 
-Opnieuw proberen wordt uitgevoerd tijdens de [leveringsduur](../../administration/using/configuring-email-channel.md#validity-period-parameters). Wanneer de foutenteller de grenswaarde bereikt, wordt het adres in quarantaine geplaatst. Raadpleeg voor meer informatie hierover [Retourneert na een tijdelijke leverfout](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+Opnieuw proberen wordt uitgevoerd tijdens de [leveringstijd](../../administration/using/configuring-email-channel.md#validity-period-parameters). Wanneer de foutenteller de grenswaarde bereikt, wordt het adres in quarantaine geplaatst. Raadpleeg voor meer informatie hierover [Retourneert na een tijdelijke leverfout](understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 <!--In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
 The error counter threshold can be modified.-->
 
-De foutenteller wordt opnieuw geïnitialiseerd als de laatste significante fout meer dan 10 dagen geleden voorkwam. De adresstatus verandert vervolgens in **Geldig** en wordt door de **Database opschonen** workflow. (Voor meer informatie over technische workflows raadpleegt u [deze sectie](../../administration/using/technical-workflows.md#list-of-technical-workflows).)
+De foutenteller wordt opnieuw geïnitialiseerd als de laatste significante fout meer dan 10 dagen geleden voorkwam. De adresstatus verandert vervolgens in **Geldig** en wordt door de **Database opschonen** workflow. (Zie voor meer informatie over technische workflows [deze sectie](../../administration/using/technical-workflows.md#list-of-technical-workflows).)

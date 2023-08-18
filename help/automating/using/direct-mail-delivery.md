@@ -41,7 +41,7 @@ De berichtvoorbereiding wordt geactiveerd op basis van de uitvoeringsparameters 
 
 **Verwante onderwerpen:**
 
-* [Hoofdlettergebruik: Koppeling van e-mail- en direct-mailleveringen](../../automating/using/coupling-email-direct-mail.md)
+* [Hoofdletters/kleine letters gebruiken: E-mail- en directe-mailleveringen koppelen](../../automating/using/coupling-email-direct-mail.md)
 * [Informatie over direct mail](../../channels/using/about-direct-mail.md)
 
 ## Configuratie {#configuration}
@@ -58,11 +58,11 @@ De berichtvoorbereiding wordt geactiveerd op basis van de uitvoeringsparameters 
    * **[!UICONTROL Direct mail]**: De direct mail wordt één keer verzonden. U kunt hier opgeven of u al dan niet een uitgaande overgang aan de activiteit wilt toevoegen. De verschillende overgangstypen worden beschreven in stap 7 van deze procedure.
    * **[!UICONTROL Recurring direct mail]**: De direct-mail wordt verscheidene keren verzonden, volgens de frequentie die in een activiteit **[!UICONTROL Scheduler]** wordt bepaald. Selecteer de aggregatieperiode van de verzendingen. Zo kunt u alle verzendingen die tijdens de vastgestelde periode plaatsvinden hergroeperen in één direct mail die ook wel **Periodieke uitvoering** wordt genoemd en die toegankelijk is via de lijst met marketingactiviteiten van de applicatie.
 
-      Voor een terugkerende verjaardagsmail, die dagelijks wordt verwerkt, kunt u er bijvoorbeeld voor kiezen om de verzendingen per maand samen te voegen. Op deze manier kunt u maandelijks rapporten over uw levering ontvangen, hoewel de e-mail elke dag wordt verwerkt.
+     Voor een terugkerende verjaardagsmail, die dagelijks wordt verwerkt, kunt u er bijvoorbeeld voor kiezen om de verzendingen per maand samen te voegen. Op deze manier kunt u maandelijks rapporten over uw levering ontvangen, hoewel de e-mail elke dag wordt verwerkt.
 
-      >[!NOTE]
-      >
-      >Voor terugkerende direct mails wordt bij elke uitvoering van de workflow een nieuw bestand gegenereerd. De geselecteerde aggregatieperiode heeft geen invloed op dit gedrag.
+     >[!NOTE]
+     >
+     >Voor terugkerende direct mails wordt bij elke uitvoering van de workflow een nieuw bestand gegenereerd. De geselecteerde aggregatieperiode heeft geen invloed op dit gedrag.
 
 1. Selecteer een type direct mail. De typen direct mail zijn afkomstig van sjablonen die u hebt gedefinieerd in het menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Voer de algemene eigenschappen voor de direct mail in. U kunt deze ook koppelen aan een bestaande campagne. Het label van de leveringsactiviteit van de workflow wordt bijgewerkt met het direct-maillabel.

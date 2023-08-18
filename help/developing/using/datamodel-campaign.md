@@ -10,7 +10,7 @@ exl-id: a63fe730-a6b2-4ae0-93da-9f8ee7824c9f
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -109,8 +109,8 @@ ht-degree: 8%
                   <td>opsomming (tekenreeks) (255)</td>
                   <td>
                      <ul>
-                        <li>In uitvoering - gestart - gestart</li>
-                        <li>Bewerken - editie - editie</li>
+                        <li>Aan de gang - begonnen - begonnen</li>
+                        <li>Bewerkingen - editie</li>
                         <li>Voltooid - voltooid - voltooid</li>
                         <li>Waarschuwing - waarschuwing - waarschuwing</li>
                         <li>Onjuist - fout - fout</li>

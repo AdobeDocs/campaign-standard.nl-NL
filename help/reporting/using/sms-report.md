@@ -25,4 +25,4 @@ De **Overzicht van SMS** tabel, grafieken en samenvattingsnummers bevatten besch
 
 * **Verwerkt/verzonden**: Het aantal verzonden SMS.
 * **Geleverd**: Het aantal geleverde SMS.
-* **Bounces + fouten**: Het aantal berichten dat niet kon worden geleverd.
+* **Bounces + fouten**: Het aantal berichten dat niet kon worden afgeleverd.

@@ -36,3 +36,4 @@ Zodra de update is uitgevoerd, werken alle koppelingen weer naar behoren.
 >[!NOTE]
 >
 >Voor vragen over deze wijzigingen neemt u contact op met de [Adobe-klantenservice](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>

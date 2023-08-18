@@ -30,21 +30,21 @@ De activiteit **[!UICONTROL Reconciliation]** wordt hoofdzakelijk gebruikt voor 
 
 * Relaties toevoegen: Op het tabblad **[!UICONTROL Links]** kunt u koppelingen toevoegen tussen de binnenkomende data en verschillende andere Adobe Campaign-databasedimensies.
 
-   Een bestand met aankoopdata kan bijvoorbeeld ook informatie bevatten om de aangekochte producten en de koper te identificeren. De bestandsdata hebben derhalve betrekking op twee extra dimensies (naast **Purchases**): de dimensies **Products** en **Profiles**. Vervolgens moeten er relaties worden aangelegd tussen deze dimensies en de dimensie **Purchases** (zie het volgende voorbeeld).
+  Een bestand met aankoopdata kan bijvoorbeeld ook informatie bevatten om de aangekochte producten en de koper te identificeren. De bestandsdata hebben derhalve betrekking op twee extra dimensies (naast **Purchases**): de dimensies **Products** en **Profiles**. Vervolgens moeten er relaties worden aangelegd tussen deze dimensies en de dimensie **Purchases** (zie het volgende voorbeeld).
 
-   Bij het definiëren van een relatie wordt een kolom toegevoegd aan de binnenkomende data om te verwijzen naar de externe sleutel van de gekoppelde dimensie.
+  Bij het definiëren van een relatie wordt een kolom toegevoegd aan de binnenkomende data om te verwijzen naar de externe sleutel van de gekoppelde dimensie.
 
-   >[!NOTE]
-   >
-   >Deze bewerking houdt in dat de data van de gekoppelde dimensies al in de database staan. Als u bijvoorbeeld een aankoopbestand importeert waarin wordt aangegeven welk product is gekocht, op welk moment, door welke klant, enzovoort, moeten het product en de klant al in de database aanwezig zijn.
+  >[!NOTE]
+  >
+  >Deze bewerking houdt in dat de data van de gekoppelde dimensies al in de database staan. Als u bijvoorbeeld een aankoopbestand importeert waarin wordt aangegeven welk product is gekocht, op welk moment, door welke klant, enzovoort, moeten het product en de klant al in de database aanwezig zijn.
 
 * Data-identificatie: Op het tabblad **[!UICONTROL Identification]** kunt u binnenkomende data eenvoudig koppelen aan kolommen van een bestaande dimensie in de Adobe Campaign-database. Na de activiteit worden de data geïdentificeerd als behorend tot de gedefinieerde dimensie.
 
-   U kunt dan bijvoorbeeld een doelgroep opslaan, de database bijwerken, enzovoort.
+  U kunt dan bijvoorbeeld een doelgroep opslaan, de database bijwerken, enzovoort.
 
-De **[!UICONTROL Reconciliation]** activiteit kan na een activiteit van ladingsgegevens worden geplaatst om niet-standaardgegevens in het gegevensbestand in te voeren.
+Bijvoorbeeld de **[!UICONTROL Reconciliation]** activiteit kan na een activiteit van ladingsgegevens worden geplaatst om niet-standaardgegevens in het gegevensbestand in te voeren.
 
-Terwijl de **Verrijking** activiteit staat u toe om extra gegevens te bepalen in uw werkschema (gebruik **Verrijking** activiteit om gegevens te combineren die uit veelvoudige reeksen komen, of om verbindingen met een tijdelijke middel tot stand te brengen), **Verzoening** Met activiteit kunt u niet-geïdentificeerde gegevens koppelen aan bestaande bronnen. De afstemmingsoperatie houdt in dat de gegevens van de gekoppelde afmetingen al in de database staan. Gebruiksscenario&#39;s zijn beschikbaar in [deze sectie](#use-cases-reconciliation).
+Terwijl de **Verrijking** activiteit staat u toe om extra gegevens te bepalen in uw werkschema (gebruik **Verrijking** activiteit om gegevens te combineren die uit veelvoudige reeksen komen, of om verbindingen met een tijdelijke middel tot stand te brengen), **Verzoening** Met activiteit kunt u niet-geïdentificeerde gegevens koppelen aan bestaande bronnen. De afstemmingsoperatie houdt in dat de gegevens van de gekoppelde afmetingen al in de database staan. Gebruiksgevallen zijn beschikbaar in [deze sectie](#use-cases-reconciliation).
 
 
 ## Configuratie {#configuration}
@@ -73,6 +73,6 @@ Terwijl de **Verrijking** activiteit staat u toe om extra gegevens te bepalen in
 
 Leer hoe u deze activiteit in de volgende gebruiksgevallen kunt gebruiken:
 
-* [Hoofdlettergebruik: Afstemming van gegevens met behulp van relaties](../../automating/using/reconciliation-using-relations.md)
-* [Hoofdlettergebruik: Gegevensupdate met afstemming](../../automating/using/data-update-reconciliation.md)
+* [Geval gebruiken: Afstemming van gegevens met gebruik van relaties](../../automating/using/reconciliation-using-relations.md)
+* [Hoofdlettergebruik: gegevens worden bijgewerkt met gebruik van afstemming](../../automating/using/data-update-reconciliation.md)
 * [Hoofdlettergebruik: Een bestandspubliek in overeenstemming brengen met de database](../../automating/using/reconcile-file-audience-with-database.md)

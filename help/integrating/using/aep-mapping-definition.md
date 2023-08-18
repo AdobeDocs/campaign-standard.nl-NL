@@ -1,6 +1,6 @@
 ---
 title: Toewijzingsdefinitie
-description: Leer hoe u een Campaign Standard-veld toewijst met een XDM-veld (Experience Data Model).
+description: Leer hoe te om een gebied van het Campaign Standard met een gebied van de Gegevens van de Ervaring in kaart te brengen XDM (XDM).
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector bevindt zich momenteel in bèta, die vaak zonder voorafgaande kennisgeving kan worden bijgewerkt. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
+>Adobe Experience Platform Data Connector bevindt zich momenteel in bèta, die vaak zonder voorafgaande kennisgeving kan worden bijgewerkt. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van de Adobe als u toegang wilt.
 
-In deze sectie, zult u ontdekken hoe te om een gebied van Campaign Standard met een gebied van de Gegevens van de Ervaring in kaart te brengen van een Model (XDM).
+In deze sectie, zult u ontdekken hoe te om een gebied van het Campaign Standard met een gebied van de Gegevens van de Ervaring in kaart te brengen van het Model (XDM).
 
-Om deze taak uit te voeren, zijn de eerste vereisten:
+Voor deze taak zijn de volgende vereisten vereist:
 
 * een XDM-schemadefinitie via de interface of met behulp van de REST API die aan XDM is gekoppeld
 * een verwezenlijking Dataset die op de XDM schemadefinitie wordt gebaseerd
@@ -36,8 +36,8 @@ Om deze taak uit te voeren, zijn de eerste vereisten:
 
 1. Vul de verplichte velden in en selecteer:
 
-   * a **doeldimensie**: dit is het Campaign Standard-schema dat moet worden toegewezen
-   * a **gegevensset**: Dit is het gegevenspakket dat aan een XDM-schema in Adobe Experience Platform is gekoppeld.
+   * a **doeldimensie**: dit is het schema van het Campaign Standard dat moet worden toegewezen
+   * a **gegevensset**: dit is het gegevenspakket dat aan een XDM-schema in Adobe Experience Platform is gekoppeld.
 
 >[!NOTE]
 >
@@ -45,17 +45,17 @@ Om deze taak uit te voeren, zijn de eerste vereisten:
 >
 >Als de gegevensset die u selecteert al wordt gebruikt in een bestaande gegevenstoewijzing, wordt een waarschuwing weergegeven dat uw gegevens mogelijk worden overschreven op Adobe Experience Platform. Dit kan gebeuren wanneer er sommige gemeenschappelijke ontvangers in datamappings gebruikend een zelfde dataset zijn.
 
-In het volgende scherm worden de **[!UICONTROL Field mappings]** sectie waar u een nieuwe afbeelding voor elk gebied in het schema van de Campaign Standard kunt tot stand brengen.
+In het volgende scherm worden de **[!UICONTROL Field mappings]** sectie waar u een nieuwe afbeelding voor elk gebied in het schema van het Campaign Standard kunt tot stand brengen.
 
 ![](assets/aep_fieldmappings.png)
 
-De **[!UICONTROL Create new field mapping]** kunt u het veld Campaign Standard en de bijbehorende veldpadexpressie selecteren in het XDM-schema.
+De **[!UICONTROL Create new field mapping]** kunt u het veld Campaign Standard en de bijbehorende padexpressie voor velden selecteren in het XDM-schema.
 
 Als u geen Adobe Campaign Standard-veld kunt vinden, kunt u het zoekveld gebruiken om naar het veld te zoeken. Op dit moment werkt alleen zoeken naar velden die zijn geopend in de hiërarchie.
 
 ![](assets/aep_mapfield.png)
 
-De uitgebreide bronnen die zijn gedefinieerd in Campaign Standard, worden toegewezen als alle native velden. Ze worden gedefinieerd in de extensie _customer/default in XDM.
+De uitgebreide bronnen die in het Campaign Standard zijn gedefinieerd, worden toegewezen als alle native velden. Ze worden gedefinieerd in de extensie _customer/default in XDM.
 
 ![](assets/aep_fieldscusmapping.png)
 
@@ -77,4 +77,4 @@ Als u een XDM-toewijzing wilt bewerken, opent u deze, wijzigt u de gewenste info
 
 >[!IMPORTANT]
 >
->Als u momenteel een waarde in het dialoogvenster **[!UICONTROL Field mappings]** en klikt u vervolgens buiten het veld. De wijziging wordt pas in de interface weergegeven wanneer u op de knop **[!UICONTROL Save]** knop. Dit gedrag treedt slechts eenmaal op, wanneer de bewerking wordt uitgevoerd op **[!UICONTROL Field Mappings]** Dit is de eerste bewerking op de pagina.
+>Als u momenteel een waarde in het dialoogvenster **[!UICONTROL Field mappings]** en klikt u vervolgens buiten het veld. De wijziging wordt pas in de interface weergegeven wanneer u op de knop **[!UICONTROL Save]** knop. Dit gedrag treedt slechts eenmaal op wanneer de bewerking wordt uitgevoerd op **[!UICONTROL Field Mappings]** Dit is de eerste bewerking op de pagina.

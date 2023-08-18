@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 100%
 
@@ -31,13 +31,13 @@ De gebruikersinterface van Adobe Campaign Standard streeft ernaar in de applicat
 
 * Grote tekst en koppen zijn verbeterd en hebben nu een contrastverhouding van 3:1.
 
-   ![](assets/accessibility_2.png)
+  ![](assets/accessibility_2.png)
 
 * Help-inhoud en platte tekst in de applicatie zijn bijgewerkt en hebben een contrastverhouding van 4,5:1.
 
 * De pictogrammen voor het pauzeren en annuleren van workflows zijn bijgewerkt om het contrast tussen achtergrond- en voorgrondkleuren te verbeteren.
 
-   ![](assets/accessibility_1.png)
+  ![](assets/accessibility_1.png)
 
 * Kleur, vorm en locatie zijn niet de enige methoden die worden gebruikt om informatie of hiërarchie in de applicatie over te brengen.
 
@@ -47,11 +47,11 @@ De gebruikersinterface van Adobe Campaign Standard maakt het werken met content 
 
 * Wanneer de gebruiker een vereist id-veld leeg laat, wordt met een afbeelding en een foutmelding visueel aangegeven welk veld fout is en wordt dezelfde informatie softwarematig aan gebruikers doorgegeven met ondersteunende technologieën zoals schermlezers.
 
-   ![](assets/accessibility_3.png)
+  ![](assets/accessibility_3.png)
 
 * Content die wordt weergegeven wanneer de muis ergens boven wordt gehouden of wanneer de focus wordt verplaatst, kan door de gebruiker worden genegeerd en verbergt andere content niet.
 
-   ![](assets/accessibility_4.png)
+  ![](assets/accessibility_4.png)
 
 * Alternatieve teksten voor afbeeldingen en toegankelijke namen voor knoppen zijn toegevoegd en kunnen hardop worden voorgelezen met ondersteunende technologie in plaats van alleen te vertrouwen op visuele indicatoren voor het identificeren van elementen.
 

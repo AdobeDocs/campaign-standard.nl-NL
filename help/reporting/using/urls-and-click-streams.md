@@ -26,5 +26,5 @@ Elke tabel wordt aangegeven met een overzichtsnummer en een overzicht van de dia
 
 De **Meest bezochte koppelingen** de tabel bevat de beschikbare gegevens voor het gedrag van de ontvanger per levering, zoals:
 
-* **Klikken**: Het aantal keren dat op inhoud is geklikt in een levering.
-* **Unieke klikken**: Het aantal ontvangers dat op inhoud in een levering klikte.
+* **Klikken**: Het aantal keren dat op de inhoud is geklikt in een levering.
+* **Unieke klikken**: Het aantal ontvangers dat op inhoud in een levering heeft geklikt.

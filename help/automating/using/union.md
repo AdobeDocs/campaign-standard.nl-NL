@@ -34,7 +34,7 @@ De activiteit **[!UICONTROL Union]** wordt gebruikt om de populaties van binnenk
 
 **Verwante onderwerpen:**
 
-* [Hoofdlettergebruik: Unie op twee verfijnde doelgroepen](../../automating/using/union-on-two-refined-audiences.md)
+* [Gebruiksscenario: Verenigen op twee verfijnde doelgroepen](../../automating/using/union-on-two-refined-audiences.md)
 
 ## Configuratie {#configuration}
 

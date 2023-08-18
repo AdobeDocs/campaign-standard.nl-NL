@@ -23,7 +23,7 @@ De integratie met de Dienst van de Kern van Activa wordt beperkt tot [Functionel
 
 Bronnen die door Adobe Experience Cloud worden gedeeld, kunnen als volgt worden gebruikt in uw e-mails en landingspagina&#39;s:
 
-1. Wanneer u de inhoud van een e-mail- of landingspagina bewerkt, gaat u naar een afbeeldingsblok en selecteert u **[!UICONTROL Image shared from Adobe Experience Cloud]** via het contextmenu.
+1. Ga bij het bewerken van de inhoud van een e-mail- of landingspagina naar een afbeeldingsblok en selecteer **[!UICONTROL Image shared from Adobe Experience Cloud]** via het contextmenu.
 
    ![](assets/dam_insert_image_dce.png)
 

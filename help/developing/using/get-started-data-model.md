@@ -29,9 +29,9 @@ Breid het Campaign Standard-datamodel uit met uw eigen velden en bronnen, en con
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-De gegevens die door Campagne worden gebruikt worden bepaald door verschillende die middelen in worden bepaald **vooraf gedefinieerd gegevensmodel**. Het gegevensmodel toont een uit-van-de-doosSQL structuur voor een reeks marketing-verwante middelen: levering, publiek, openingspagina&#39;s, profiel, enz. Elke bron wordt geleverd met gekoppelde filters, zodat u door de bronnen kunt navigeren.
+De gegevens die door Campagne worden gebruikt worden bepaald door verschillende die middelen in worden bepaald **vooraf gedefinieerd gegevensmodel**. Het gegevensmodel toont een uit-van-de-doos SQL structuur voor een reeks marketing-verwante middelen: levering, publiek, landende pagina&#39;s, profiel, etc. Elke bron wordt geleverd met gekoppelde filters, zodat u door de bronnen kunt navigeren.
 
-De **Diagnose** kunt u de technische objecten weergeven die door Campaign Standard worden gegenereerd: gegevensschema&#39;s, webpagina&#39;s, filters, enz., waarmee u het gegevensmodel en eventuele wijzigingen kunt controleren.
+De **Diagnose** kunt u de technische objecten weergeven die door Campaign Standard worden gegenereerd: gegevensschema&#39;s, webpagina&#39;s, filters, enzovoort, zodat u het gegevensmodel kunt controleren en eventuele wijzigingen kunt aanbrengen.
 
 Meer informatie:
 
@@ -46,14 +46,14 @@ Meer informatie:
 
 Met Campaign Standard kunt u **Het vooraf gedefinieerde gegevensmodel verrijken** om uw eigen bronnen te maken (bijvoorbeeld om tabellen met aankopen of producten toe te voegen) of om bestaande bronnen uit te breiden met nieuwe velden. U kunt de schermen van de Campagne ook vormen om de navigatie door de nieuwe middelen en de gebieden te optimaliseren die zijn gecreeerd.
 
-Bovendien kunt u **Campaign Standard REST API&#39;s uitbreiden** om in de API&#39;s uitgebreide velden voor de aangepaste bronprofielen beschikbaar te maken. Zo kunt u bijvoorbeeld het profiel van een klant bijwerken met een promotiecode die is gegenereerd op basis van een factureringssysteem.
+Bovendien kunt u **REST-API&#39;s voor Campaigns Standard uitbreiden** om in de API&#39;s uitgebreide velden voor de aangepaste bronprofielen beschikbaar te maken. Zo kunt u bijvoorbeeld het profiel van een klant bijwerken met een promotiecode die is gegenereerd op basis van een factureringssysteem.
 
 Meer informatie:
 
 * [Een bron toevoegen of uitbreiden](../../developing/using/key-steps-to-add-a-resource.md)
 * [De API uitbreiden](../../developing/using/about-extending-the-api.md)
-* [Hoofdlettergebruik: De profielbron uitbreiden met een nieuw veld](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
-* [Hoofdlettergebruik: De abonnementen uitbreiden naar een toepassingsbron](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
+* [Hoofdlettergebruik: de profielbron uitbreiden met een nieuw veld](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
+* [Hoofdlettergebruik: de abonnementen uitbreiden naar een bron van een toepassing](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
 
 ## Werken met API&#39;s {#apis}
 

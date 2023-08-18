@@ -28,7 +28,7 @@ De **[!UICONTROL Log]** bevat de uitvoeringsgeschiedenis van alle activiteiten o
 
 ![](assets/wkf_execution_4.png)
 
-De **[!UICONTROL Tasks]** tabblad bevat de volgorde van uitvoering van de activiteiten. Klik op een taak voor meer informatie.
+De **[!UICONTROL Tasks]** tabblad bevat informatie over de volgorde van uitvoering van de activiteiten. Klik op een taak voor meer informatie.
 
 ![](assets/wkf_execution_5.png)
 
@@ -44,13 +44,13 @@ Wanneer een fout optreedt, wordt de werkstroom gepauzeerd en de activiteit die w
 
 De workflowstatus wordt rood en de fout wordt opgenomen in het logbestand.
 
-U kunt de workflow zodanig configureren dat deze niet wordt gepauzeerd en verder wordt uitgevoerd zonder fouten. Ga hiertoe naar de workfloweigenschappen via de ![](assets/edit_darkgrey-24px.png) en, in de **[!UICONTROL Execution]** selecteert u de **Negeren** in de **In geval van een fout** veld.
+U kunt de workflow zodanig configureren dat deze niet wordt gepauzeerd en verder wordt uitgevoerd zonder fouten. Ga hiertoe naar de workfloweigenschappen via de ![](assets/edit_darkgrey-24px.png) en, in de **[!UICONTROL Execution]** selecteert u de **Negeren** in de **In geval van fout** veld.
 
 In dit geval wordt de onjuiste taak afgebroken. Deze modus is vooral geschikt voor workflows die zijn ontworpen om de bewerking later opnieuw te proberen (periodieke handelingen).
 
 >[!NOTE]
 >
->U kunt deze configuratie afzonderlijk toepassen voor elke activiteit. Selecteer een activiteit en open deze met de snelle actie ![](assets/edit_darkgrey-24px.png). Selecteer vervolgens de modus voor foutbeheer in het dialoogvenster **Uitvoeropties** tab. Zie [Opties voor het uitvoeren van activiteiten](../../automating/using/activity-properties.md).
+>U kunt deze configuratie afzonderlijk toepassen voor elke activiteit. U doet dit door een activiteit te selecteren en deze te openen met de snelle actie ![](assets/edit_darkgrey-24px.png). Selecteer vervolgens de modus voor foutbeheer in het dialoogvenster **Uitvoeropties** tab. Zie [Opties voor het uitvoeren van activiteiten](../../automating/using/activity-properties.md).
 
 In de [eigenschappen van workflow](../../automating/using/managing-execution-options.md)zijn aanvullende opties beschikbaar met betrekking tot foutbeheer.
 
@@ -58,14 +58,14 @@ In de [eigenschappen van workflow](../../automating/using/managing-execution-opt
 
 Mogelijke opties zijn:
 
-* **[!UICONTROL Supervisors]**: Hiermee kunt u de groep personen definiëren die op de hoogte moeten worden gesteld (e-mail en meldingen in de app) als de workflow een fout aantreft. Als er geen groep wordt gedefinieerd, wordt niemand op de hoogte gebracht. Voor meer informatie over Adobe Campaign-notificaties raadpleegt u [Adobe Campaign-notificaties](../../administration/using/sending-internal-notifications.md).
+* **[!UICONTROL Supervisors]**: hiermee kunt u de groep personen definiëren die een melding moeten ontvangen (e-mail en meldingen in de app) als er een fout optreedt in de workflow. Als er geen groep wordt gedefinieerd, wordt niemand op de hoogte gebracht. Voor meer informatie over Adobe Campaign-notificaties raadpleegt u [Adobe Campaign-notificaties](../../administration/using/sending-internal-notifications.md).
 
-* **[!UICONTROL In case of error]**: kunt u opgeven welke actie moet worden uitgevoerd als de activiteit een fout aantreft. Hiervoor zijn twee opties beschikbaar:
+* **[!UICONTROL In case of error]**: hiermee kunt u opgeven welke actie moet worden uitgevoerd als er een fout optreedt. Hiervoor zijn twee opties beschikbaar:
 
    * **Het proces onderbreken**: de workflow wordt automatisch opgeschort. De workflowstatus is dan **Onjuist** en de bijbehorende kleur wordt rood. Start de workflow opnieuw als het probleem is opgelost.
-   * **Negeren**: de activiteit wordt niet uitgevoerd, en bijgevolg zijn er ook geen van de activiteiten die daarop volgen (in dezelfde tak). Dit kan handig zijn voor terugkerende taken. Als de tak een eerder geplaatste planner heeft, zou dit op de volgende uitvoeringsdatum moeten teweegbrengen.
+   * **Negeren**: de activiteit wordt niet uitgevoerd en bijgevolg zijn er ook geen van de activiteiten die erop volgen (in dezelfde tak). Dit kan handig zijn voor terugkerende taken. Als de tak een eerder geplaatste planner heeft, zou dit op de volgende uitvoeringsdatum moeten teweegbrengen.
 
-* **[!UICONTROL Consecutive errors]** : Hiermee kunt u een aantal opeenvolgende fouten definiëren die zijn geautoriseerd voordat de uitvoering van de workflow automatisch wordt onderbroken.
+* **[!UICONTROL Consecutive errors]** Met : kunt u een aantal opeenvolgende fouten definiëren die zijn geautoriseerd voordat de uitvoering van de workflow automatisch wordt onderbroken.
 
    * Als het opgegeven getal **[!UICONTROL 0]** of zolang het opgegeven aantal niet is bereikt, worden activiteiten die fouten tegenkomen, genegeerd. De andere werkstroomvertakkingen worden normaal uitgevoerd.
 

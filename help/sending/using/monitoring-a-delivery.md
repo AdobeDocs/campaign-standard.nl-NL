@@ -26,23 +26,23 @@ Er zijn verschillende manieren om een levering te controleren en de impact ervan
 
 * **Berichtenlogbestanden**: Deze logboeken kunnen direct vanuit het berichtdashboard worden geopend. Zij tonen de details van de verzending, welk doel is uitgesloten en waarom, evenals de tracking-informatie zoals aantal geopend en aantal klikken.
 
-   Klik op het pictogram rechtsonder in het blok **[!UICONTROL Deployment]** om de berichtenlogboeken weer te geven.
+  Klik op het pictogram rechtsonder in het blok **[!UICONTROL Deployment]** om de berichtenlogboeken weer te geven.
 
-   Verschillende tabbladen bevatten informatie (indien aanwezig) over de **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** en **[!UICONTROL Tracked URLs]**. Zie [Leveringslogboeken](#delivery-logs).
+  Verschillende tabbladen bevatten informatie (indien aanwezig) over de **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** en **[!UICONTROL Tracked URLs]**. Zie [Leveringslogboeken](#delivery-logs).
 
-   ![](assets/sending_delivery1.png)
+  ![](assets/sending_delivery1.png)
 
-   Het logboek bevat alle berichten met betrekking tot de levering en de proeven. Met specifieke pictogrammen kunt u fouten of waarschuwingen identificeren. Zie [Berichten goedkeuren](../../sending/using/previewing-messages.md) voor meer informatie.
+  Het logboek bevat alle berichten met betrekking tot de levering en de proeven. Met specifieke pictogrammen kunt u fouten of waarschuwingen identificeren. Zie [Berichten goedkeuren](../../sending/using/previewing-messages.md) voor meer informatie.
 
-   U kunt het logboek exporteren door op de knop **[!UICONTROL Export list]** te klikken.
+  U kunt het logboek exporteren door op de knop **[!UICONTROL Export list]** te klikken.
 
-   ![](assets/sending_delivery2.png)
+  ![](assets/sending_delivery2.png)
 
 * **Taaklogbestanden**: Een lijst van de partijbanen die door de levering worden teweeggebracht kan van het berichtdashboard worden betreden door te selecteren **[!UICONTROL Job history]** van de **[!UICONTROL Summary]** vervolgkeuzelijst.
 
-   Selecteer een willekeurige taak in de lijst om de details van de geselecteerde taak weer te geven **[!UICONTROL Batch job]**.
+  Selecteer een willekeurige taak in de lijst om de details van de geselecteerde taak weer te geven **[!UICONTROL Batch job]**.
 
-   ![](assets/sending_delivery8.png)
+  ![](assets/sending_delivery8.png)
 
 * **Leveringswaarschuwingen**: Adobe Campaign biedt een e-mailwaarschuwingssysteem dat meldingen verzendt om gebruikers op de hoogte te stellen van belangrijke systeemactiviteiten, zodat ze het slagen of mislukken van leveringen kunnen bijhouden.
 * **Rapporten**: Vanuit het berichtdashboard kunt u verscheidene rapporten voor dit specifieke bericht openen. U hebt ook een **[!UICONTROL Reports]**-menu dat toegang biedt tot een volledige lijst van ingebouwde of aangepaste rapporten waarmee u specifieke metriek met betrekking tot uw bericht of campagne kunt definiëren.

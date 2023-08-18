@@ -76,7 +76,7 @@ Het aantal beschikbare weergaven vindt u terug in uw licentieovereenkomst. Bij e
 
 Tokens maken voor elke afzonderlijke rendering en niet voor het hele e-mailrenderrapport. Dit houdt in dat:
 
-* **Elke keer** Het e-mailrenderrapport wordt gegenereerd. Eén token per berichtclient wordt afgetrokken: één token voor de rendering van Outlook 2000, één token voor de rendering van Outlook, één token voor de rendering van Apple Mail, enzovoort.
+* **Elke keer** Het e-mailteruggevende rapport wordt geproduceerd, wordt één teken per overseinencliënt afgetrokken: één teken voor de teruggeven van Vooruitzichten 2000, voor de teruggeven van Vooruitzichten, voor de teruggave van de Post van Apple, etc.
 
 * **Voor dezelfde levering** Als u de rendering via e-mail opnieuw genereert, wordt het aantal beschikbare tokens opnieuw verminderd met het aantal gegenereerde renderingen.
 

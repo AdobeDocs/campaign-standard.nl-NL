@@ -48,23 +48,23 @@ Selecteer onder de sectie **[!UICONTROL Target extraction]** een van de volgende
 
 * **[!UICONTROL Random sampling]**: bij het voorbereiden van de levering extraheert Adobe Campaign willekeurig een aantal profielen dat overeenkomt met het percentage of het maximumaantal dat u als [groottelimiet](#size-limit) gaat instellen.
 
-   Als u in de sectie **[!UICONTROL Limits]** de drempelwaarde bijvoorbeeld instelt op 10, bestaat de controlegroep uit 10% die willekeurig wordt geselecteerd uit de targetpopulatie.<!--Change screenshot to match example)-->
+  Als u in de sectie **[!UICONTROL Limits]** de drempelwaarde bijvoorbeeld instelt op 10, bestaat de controlegroep uit 10% die willekeurig wordt geselecteerd uit de targetpopulatie.<!--Change screenshot to match example)-->
 
-   ![](assets/control-group-random-sampling.png)
+  ![](assets/control-group-random-sampling.png)
 
 * **[!UICONTROL Keep only the first records after sorting]**: met deze optie kunt u een limiet definiëren op basis van een of meer sorteervolgorden.
 
-   Bijvoorbeeld:
+  Bijvoorbeeld:
 
    * Selecteer het veld **[!UICONTROL Age]** als sorteercriterium.
    * Definieer 100 als de drempel in de sectie **[!UICONTROL Limits]** (zie [Groottelimiet](#size-limit)).
    * Laat de optie **[!UICONTROL Descending sort]** ingeschakeld.
 
-   Als gevolg hiervan zal de controlegroep bestaan uit de 100 oudste ontvangers.<!--Change screenshot to match example)-->
+  Als gevolg hiervan zal de controlegroep bestaan uit de 100 oudste ontvangers.<!--Change screenshot to match example)-->
 
-   ![](assets/control-group-keep-first-records.png)
+  ![](assets/control-group-keep-first-records.png)
 
-   Het kan interessant zijn om een controlegroep te definiëren met profielen die weinig of juist veel aankopen doen, en hun gedragingen met dat van de gecontacteerde ontvangers te vergelijken.
+  Het kan interessant zijn om een controlegroep te definiëren met profielen die weinig of juist veel aankopen doen, en hun gedragingen met dat van de gecontacteerde ontvangers te vergelijken.
 
 >[!NOTE]
 >
@@ -78,23 +78,23 @@ Of u nu **[!UICONTROL Random sampling]** of **[!UICONTROL Keep only the first re
 
 * Selecteer **[!UICONTROL Size (as a % of the initial population)]** en vul het bijbehorende frame in.
 
-   Als u bijvoorbeeld 10 instelt, zal Adobe Campaign afhankelijk van de hierboven geselecteerde optie het volgende doen:
+  Als u bijvoorbeeld 10 instelt, zal Adobe Campaign afhankelijk van de hierboven geselecteerde optie het volgende doen:
    * Willekeurig 10% van de targetpopulatie extraheren.
    * Als u het veld **[!UICONTROL Age]** als sorteercriterium hebt geselecteerd, worden de 10% oudste profielen uit de targetpopulatie geëxtraheerd.
 
-   >[!NOTE]
-   >
-   >Als u de optie **[!UICONTROL Descending sort]** uitschakelt, worden de 10% jongste profielen geëxtraheerd.
+  >[!NOTE]
+  >
+  >Als u de optie **[!UICONTROL Descending sort]** uitschakelt, worden de 10% jongste profielen geëxtraheerd.
 
 * Selecteer **[!UICONTROL Maximum size]** en vul het bijbehorende frame in.
 
-   Als u bijvoorbeeld 100 instelt, zal Adobe Campaign het volgende doen:
+  Als u bijvoorbeeld 100 instelt, zal Adobe Campaign het volgende doen:
    * Willekeurig 100 profielen uit de targetpopulatie extraheren.
    * Als u het veld **[!UICONTROL Age]** als sorteercriterium hebt geselecteerd, worden de 100 oudste profielen uit de targetpopulatie geëxtraheerd.
 
-   >[!NOTE]
-   >
-   >Als u de optie **[!UICONTROL Descending sort]** uitschakelt, worden de 100 jongste profielen geëxtraheerd.
+  >[!NOTE]
+  >
+  >Als u de optie **[!UICONTROL Descending sort]** uitschakelt, worden de 100 jongste profielen geëxtraheerd.
 
 ## Een bepaalde populatie uitsluiten {#excluding-specific-population}
 
@@ -163,11 +163,11 @@ Als u wilt zien welke profielen uit de target zijn verwijderd nadat het bericht 
 
 * Op het tabblad **[!UICONTROL Sending logs]** ziet u de geëxtraheerde en uitgesloten profielen. Deze hebben de status **[!UICONTROL Ignored]** en **[!UICONTROL Control group]** als de oorzaak van de mislukking.
 
-   ![](assets/control-group-sending-logs.png)
+  ![](assets/control-group-sending-logs.png)
 
 * U kunt ook het tabblad **[!UICONTROL Exclusion causes]** bekijken om te zien hoeveel profielen niet zijn opgenomen in de levering.
 
-   ![](assets/control-group-exclusion-causes.png)
+  ![](assets/control-group-exclusion-causes.png)
 
 ### De logboeken van de controlegroep gebruiken {#using-logs}
 

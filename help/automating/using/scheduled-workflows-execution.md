@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## Uitvoering van geplande workflows
 
-In Campaign Standard garandeert de workflowengine dat een workflowinstantie slechts door één proces wordt uitgevoerd. Het blokkeren van activiteiten zoals invoer, lange lopende vragen of schrijft in het gegevensbestand verhindert de uitvoering van om het even welke andere taak wanneer het lopen.
+In Campaign Standard garandeert de workflowengine dat een workflowinstantie slechts door één proces wordt uitgevoerd. Het blokkeren van activiteiten zoals invoer, lange lopende vragen of schrijft in het gegevensbestand verhindert de uitvoering van een andere taak wanneer het lopen.
 
 Anderzijds blokkeren niet-blokkerende activiteiten niet de uitvoering van andere taken (gewoonlijk activiteiten die wachten op een gebeurtenis zoals de **[!UICONTROL Scheduler]** activiteit).
 
@@ -44,13 +44,13 @@ Als u wilt controleren of een of meer taken uit een vorige werkstroom nog niet z
 
    * De eerste regelfilters uit de huidige taak (query2) evenals de volgende planningtaak (planning2) die tot het huidige werkschema behoort.
 
-      >[!NOTE]
-      >
-      >Wanneer een **[!UICONTROL Scheduler]** de activiteit begint, voegt het onmiddellijk een andere planningstaak toe om bij de volgende geplande tijd te lopen en het werkschema te beginnen. Daarom is het belangrijk om zowel de vraag als planningstaken te filtreren wanneer het zoeken naar hangende taken van een vorige uitvoering.
+     >[!NOTE]
+     >
+     >Wanneer een **[!UICONTROL Scheduler]** de activiteit begint, voegt het onmiddellijk een andere planningstaak toe om bij de volgende geplande tijd te lopen en het werkschema te beginnen. Daarom is het belangrijk om zowel de vraag als planningstaken te filtreren wanneer het zoeken naar hangende taken van een vorige uitvoering.
 
    * De tweede regel bepaalt of taken uit een vorige uitvoering van de workflow nog actief zijn (in behandeling), wat overeenkomt met de uitvoerstatus 0.
 
-1. Voeg een **[!UICONTROL Test]** activiteit om te controleren op het aantal hangende taken die door de **[!UICONTROL Query]** activiteit. Om dit te doen, vorm twee uitgaande overgangen.
+1. Voeg een **[!UICONTROL Test]** activiteit om te controleren op het aantal hangende taken die door de **[!UICONTROL Query]** activiteit. Hiertoe configureert u twee uitgaande overgangen.
 
    ![](assets/scheduled-wkf-test.png)
 

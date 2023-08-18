@@ -18,25 +18,25 @@ ht-degree: 2%
 # Een rapport maken op basis van workflowsegmenten{#creating-a-report-workflow-segment}
 
 >[!CAUTION]
-> **[!UICONTROL Segment code]**kan alleen e-mail- en SMS-leveringen als doel hebben.
+> **[!UICONTROL Segment code]** kan alleen e-mail- en SMS-leveringen als doel hebben.
 
 Nadat u een workflow hebt gemaakt en uw populatie hebt gefilterd in verschillende doelgroepen, kunt u de efficiëntie van uw marketingcampagnes meten op basis van segmenten die zijn gedefinieerd in deze doelworkflow.
 Om deze segmenten in uw rapporten te richten:
 
-* [Stap 1: Profielen bijwerken, aangepaste bron met segmenten](#step-1--update-profiles-custom-resource-segments)
+* [Stap 1: Werk Profielen aan douanemiddel met segmenten bij](#step-1--update-profiles-custom-resource-segments)
 * [Stap 2: Een workflow met segmenten maken](#step-2--create-a-workflow-segments)
-* [Stap 3: Een dynamisch rapport maken om segmenten te filteren](#step-3--create-a-dynamic-report-filter-segments)
+* [Stap 3: Creeer een dynamisch rapport aan filtersegmenten](#step-3--create-a-dynamic-report-filter-segments)
 
 >[!CAUTION]
 >De dynamische gebruiksovereenkomst voor rapportage moet worden geaccepteerd om te beginnen met het verzamelen van deze gegevens.
 >
 >Voor meer informatie over deze overeenkomst raadpleegt u deze [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
-## Stap 1: Profielen bijwerken, aangepaste bron met segmenten{#step-1--update-profiles-custom-resource-segments}
+## Stap 1: Werk Profielen aan douanemiddel met segmenten bij{#step-1--update-profiles-custom-resource-segments}
 
 Voordat u op uw segmentcode rapporteert, moet u de **[!UICONTROL Profiles]** douanemiddel voor uw segmentcodes die moeten worden opgeslagen.
 
-1. Selecteer in het geavanceerde menu via het Adobe Campaign-logo de optie **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** Selecteer vervolgens de **[!UICONTROL Profile (profile)]** resource.
+1. Selecteer in het geavanceerde menu via het Adobe Campaign-logo de optie **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** en selecteert u vervolgens de **[!UICONTROL Profile (profile)]** resource.
 1. In de **[!UICONTROL Sending logs extension]** van het menu **[!UICONTROL Data structure]** tab, check **[!UICONTROL Add segment code]** om opslag van uw segmentcodes toe te staan van het richten van werkschema&#39;s en het te verzenden naar dynamische rapportering.
 
    De **[!UICONTROL Segment code]** zal dan beschikbaar zijn in **[!UICONTROL Profile]** dimensie van uw rapport.
@@ -50,18 +50,18 @@ Selecteer in het menu Geavanceerd de optie **[!UICONTROL Administration]** > **[
 
    ![](assets/custom_profile_7.png)
 
-1. Klikken **[!UICONTROL Prepare publication]** Klik vervolgens wanneer de voorbereiding is voltooid op de knop **[!UICONTROL Publish]** knop. Voor meer informatie over douanemiddel, verwijs naar dit [page](../../developing/using/updating-the-database-structure.md).
+1. Klikken **[!UICONTROL Prepare publication]** Klik vervolgens wanneer de voorbereiding is voltooid op **[!UICONTROL Publish]** knop. Voor meer informatie over douanemiddel, verwijs naar dit [page](../../developing/using/updating-the-database-structure.md).
 
 U kunt nu uw workflow maken met segmentcodes.
 
-Merk op dat de segmentcodes zullen worden verzameld zodra u de segmentcode in toelaat **[!UICONTROL Sending logs extension]**.
+De segmentcodes worden verzameld zodra u de segmentcode in het dialoogvenster **[!UICONTROL Sending logs extension]**.
 
 ## Stap 2: Een workflow met segmenten maken {#step-2--create-a-workflow-segments}
 
 >[!NOTE]
 >Als de invoerovergang van de e-maillevering leeg is, wordt de segmentcode van de vorige overgang standaard toegevoegd.
 
-Eerst moet u een workflow maken met verschillende doelgroepen. Hier, willen wij een e-mail verzenden die afhankelijk van de leeftijd van ons publiek zal worden gepersonaliseerd: één levering voor profielen van 20 tot 30 jaar oud en een andere voor profielen van 30 tot 40 jaar oud.
+Eerst moet u een workflow maken met verschillende doelgroepen. Hier willen we een e-mail sturen die gepersonaliseerd zal zijn afhankelijk van de leeftijd van ons publiek: een levering voor profielen van 20 tot 30 jaar oud en een andere voor profielen van 30 tot 40 jaar oud.
 
 1. Maak uw workflow. Raadpleeg deze voor meer informatie over het maken van uw workflow [page](../../automating/using/building-a-workflow.md).
 
@@ -102,14 +102,14 @@ Eerst moet u een workflow maken met verschillende doelgroepen. Hier, willen wij 
 
 U kunt tot uw rapporten nu toegang hebben om uw segmentcodes te volgen.
 
-## Stap 3: Een dynamisch rapport maken om segmenten te filteren {#step-3--create-a-dynamic-report-filter-segments}
+## Stap 3: Creeer een dynamisch rapport aan filtersegmenten {#step-3--create-a-dynamic-report-filter-segments}
 
 Nadat u leveringen met uw workflow hebt verzonden, kunt u rapporten splitsen aan de hand van uw segmentcodes uit uw workflow.
 
 1. Van de **[!UICONTROL Reports]** selecteert u een rapport dat buiten de doos valt of klikt u op de knop **[!UICONTROL Create new project]** om een geheel nieuwe knop te starten.
 
    ![](assets/custom_profile_18.png)
-1. Sleep de **[!UICONTROL Delivery]** dimensie aan uw vrije lijst.
+1. Sleep de **[!UICONTROL Delivery]** dimensie van uw vrije-vormlijst.
 
    ![](assets/report_segment_5.png)
 

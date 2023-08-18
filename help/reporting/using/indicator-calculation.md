@@ -140,7 +140,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   <tr> 
    <td> Open rate<br /> </td> 
    <td> @rateOpens<br /> </td> 
-   <td> @open/@loaded<br /> </td> 
+   <td> @Opens/@bezorgd<br /> </td> 
    <td> De noemer voor de berekening van het tarief is gebaseerd op slechts Geleverd.<br /> </td> 
   </tr> 
   <tr> 
@@ -188,7 +188,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   <tr> 
    <td> Unieke klikken<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. Raadpleeg de volgende secties voor meer informatie <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">voorbeeld</a>.<br /> </td> 
+   <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. Raadpleeg voor meer informatie deze <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">voorbeeld</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -268,7 +268,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   <tr> 
    <td> Unieke openingen<br /> </td> 
    <td> @uniqueOpenen<br /> </td> 
-   <td> Unieke opent wordt berekend gebruikend de concepten van Schets van unieke RecipientIds. Raadpleeg de volgende secties voor meer informatie <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">voorbeeld</a>.<br /> </td> 
+   <td> Unieke opent wordt berekend gebruikend de concepten van Schets van unieke RecipientIds. Raadpleeg voor meer informatie deze <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">voorbeeld</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressies<br /> </td> 
@@ -278,7 +278,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   <tr> 
    <td> Unieke afbeeldingen<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
-   <td> @unique(@count(status=view)<br /> </td> 
+   <td> @unique(@count(status=view))<br /> </td> 
   </tr> 
   <tr> 
    <td> Klik op<br /> </td> 
@@ -288,7 +288,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   <tr> 
    <td> Unieke klikken<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. Raadpleeg de volgende secties voor meer informatie <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">voorbeeld</a>.<br /> </td> 
+   <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. Raadpleeg voor meer informatie deze <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">voorbeeld</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Klikken tot snelheid<br /> </td> 
@@ -331,8 +331,8 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   <tr> 
    <td> Unieke afbeeldingen<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
-   <td> @unique(@count(status=view)<br /> </td> 
-   <td> Voor <span class="uicontrol">Doelgebruikers gebaseerd op hun Campagneprofiel (inAppProfile)</span> template, gebruiker = ontvanger-id.<br /> Voor <span class="uicontrol">Alle gebruikers van een mobiele app als doel instellen (inAppBroadcast)</span> en <span class="uicontrol">Doelgebruikers op basis van hun mobiele profiel (inApp)</span> sjablonen, gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
+   <td> @unique(@count(status=view))<br /> </td> 
+   <td> Voor <span class="uicontrol">Doelgebruikers op basis van hun Campagneprofiel (inAppProfile)</span> template, gebruiker = ontvanger-id.<br /> Voor <span class="uicontrol">Alle gebruikers van een mobiele app als doel instellen (inAppBroadcast)</span> en <span class="uicontrol">Doelgebruikers op basis van hun mobiele profiel (inApp)</span> sjablonen, gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
   </tr> 
   <tr> 
    <td> In-app klikken <br /> </td> 
@@ -344,7 +344,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> Unieke muisklikken in de app<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=click)<br /> </td> 
-   <td> Voor <span class="uicontrol">Doelgebruikers gebaseerd op hun Campagneprofiel (inAppProfile)</span> template, gebruiker = ontvanger-id.<br /> Voor <span class="uicontrol">Alle gebruikers van een mobiele app als doel instellen (inAppBroadcast)</span> en <span class="uicontrol">Doelgebruikers op basis van hun mobiele profiel (inApp)</span> sjablonen, gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
+   <td> Voor <span class="uicontrol">Doelgebruikers op basis van hun Campagneprofiel (inAppProfile)</span> template, gebruiker = ontvanger-id.<br /> Voor <span class="uicontrol">Alle gebruikers van een mobiele app als doel instellen (inAppBroadcast)</span> en <span class="uicontrol">Doelgebruikers op basis van hun mobiele profiel (inApp)</span> sjablonen, gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
   </tr> 
   <tr> 
    <td> In-app klikfrequentie<br /> </td> 
@@ -362,7 +362,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> Unieke ontslagen in de app<br /> </td> 
    <td> @uniquedismission<br /> </td> 
    <td> @unique(@count (status=close)<br /> </td> 
-   <td> Voor <span class="uicontrol">Doelgebruikers gebaseerd op hun Campagneprofiel (inAppProfile)</span> template, gebruiker = ontvanger-id.<br /> Voor <span class="uicontrol">Alle gebruikers van een mobiele app als doel instellen (inAppBroadcast)</span> en <span class="uicontrol">Doelgebruikers op basis van hun mobiele profiel (inApp)</span> sjablonen, gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
+   <td> Voor <span class="uicontrol">Doelgebruikers op basis van hun Campagneprofiel (inAppProfile)</span> template, gebruiker = ontvanger-id.<br /> Voor <span class="uicontrol">Alle gebruikers van een mobiele app als doel instellen (inAppBroadcast)</span> en <span class="uicontrol">Doelgebruikers op basis van hun mobiele profiel (inApp)</span> sjablonen, gebruiker = MC-id of equivalent die een unieke combinatie van gebruiker, mobiele app en apparaat vertegenwoordigt.<br /> </td> 
   </tr> 
   <tr> 
    <td> Ontslagfrequentie in de app<br /> </td> 

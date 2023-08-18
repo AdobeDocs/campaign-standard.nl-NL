@@ -1,5 +1,5 @@
 ---
-title: Overzicht van het ervaringsgegevensmodel
+title: Overzicht van Experience Data Model
 description: Het Model van Gegevens van de ervaring (XDM) is een standaardreeks gegevensschema's waarin de gegevens voor gebruik met de oplossingen en de producten van Adobe Experience Platform zouden kunnen worden opgenomen.
 audience: administration
 content-type: reference
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 ---
 
-# Overzicht van het ervaringsgegevensmodel {#experience-data-model-overview}
+# Overzicht van Experience Data Model {#experience-data-model-overview}
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector bevindt zich momenteel in bèta, die vaak zonder voorafgaande kennisgeving kan worden bijgewerkt. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
+>Adobe Experience Platform Data Connector bevindt zich momenteel in bèta, die vaak zonder voorafgaande kennisgeving kan worden bijgewerkt. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van de Adobe als u toegang wilt.
 
 Het Model van Gegevens van de ervaring (XDM) is een standaardreeks gegevensschema&#39;s waarin de gegevens voor gebruik met de oplossingen en de producten van Adobe Experience Platform zouden kunnen worden opgenomen.
 

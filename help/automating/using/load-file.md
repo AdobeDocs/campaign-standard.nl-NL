@@ -43,9 +43,9 @@ U kunt:
 
 **Verwante onderwerpen:**
 
-* [Hoofdlettergebruik: De database bijwerken met externe gegevens](../../automating/using/update-database-file.md)
-* [Hoofdlettergebruik: Gegevens bijwerken op basis van een automatische bestandsdownload](../../automating/using/update-data-automatic-download.md)
-* [Hoofdlettergebruik: Een e-mail verzenden met verrijkte velden](../../automating/using/sending-email-enriched-fields.md)
+* [Hoofdlettergebruik: de database bijwerken met externe gegevens](../../automating/using/update-database-file.md)
+* [Hoofdlettergebruik: gegevens bijwerken op basis van een automatische bestandsdownload](../../automating/using/update-data-automatic-download.md)
+* [Hoofdlettergebruik: een e-mail met verrijkte velden verzenden](../../automating/using/sending-email-enriched-fields.md)
 * [Hoofdlettergebruik: Een bestandspubliek in overeenstemming brengen met de database](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuratie {#configuration}
@@ -71,19 +71,19 @@ De activiteitconfiguratie omvat twee stappen. Eerst moet u de verwachte bestands
    * U kunt kiezen om de structuur van een ander bestand te gebruiken door de optie **[!UICONTROL Detect structure from a new file]** te selecteren.
    * U kunt de standaarddetectieparameters wijzigen om deze aan te passen aan het bestand. In het veld **[!UICONTROL File type]** kunt u opgeven of het bestand dat u wilt importeren, bestaat uit kolommen met een vaste lengte. In dat geval moet u ook het maximum aantal tekens voor elke kolom opgeven op het tabblad **[!UICONTROL Column definition]**.
 
-      Alle detectieopties die nodig zijn om de data uit het bestand correct te herstellen, worden opnieuw gegroepeerd in **[!UICONTROL File format]**. U kunt deze wijzigen en vervolgens de structuur van het laatste bestand dat in de activiteit is geladen, opnieuw detecteren door deze nieuwe instellingen in aanmerking te nemen. Gebruik de knop **[!UICONTROL Apply configuration]** om dit te doen. U kunt bijvoorbeeld een ander kolomscheidingsteken opgeven.
+     Alle detectieopties die nodig zijn om de data uit het bestand correct te herstellen, worden opnieuw gegroepeerd in **[!UICONTROL File format]**. U kunt deze wijzigen en vervolgens de structuur van het laatste bestand dat in de activiteit is geladen, opnieuw detecteren door deze nieuwe instellingen in aanmerking te nemen. Gebruik de knop **[!UICONTROL Apply configuration]** om dit te doen. U kunt bijvoorbeeld een ander kolomscheidingsteken opgeven.
 
-      >[!NOTE]
-      >
-      >Deze bewerking neemt het laatste bestand dat in de activiteit is geladen, in aanmerking. Als het gedetecteerde bestand groot is, worden in het datavoorbeeld alleen de eerste 30 regels weergegeven.
+     >[!NOTE]
+     >
+     >Deze bewerking neemt het laatste bestand dat in de activiteit is geladen, in aanmerking. Als het gedetecteerde bestand groot is, worden in het datavoorbeeld alleen de eerste 30 regels weergegeven.
 
-      ![](assets/wkf_file_loading3.png)
+     ![](assets/wkf_file_loading3.png)
 
-      In de sectie **[!UICONTROL File format]** kunt u met de optie **[!UICONTROL Check columns from file against column definitions]** controleren of de kolommen van het bestand dat u uploadt, overeenkomen met de kolomdefinitie.
+     In de sectie **[!UICONTROL File format]** kunt u met de optie **[!UICONTROL Check columns from file against column definitions]** controleren of de kolommen van het bestand dat u uploadt, overeenkomen met de kolomdefinitie.
 
-      Als het aantal kolommen en/of de naam van kolommen niet overeenkomen met de kolomdefinitie, wordt een foutbericht weergegeven wanneer de workflow wordt uitgevoerd. Als de optie niet is geactiveerd, worden waarschuwingen in het logboekbestand weergegeven.
+     Als het aantal kolommen en/of de naam van kolommen niet overeenkomen met de kolomdefinitie, wordt een foutbericht weergegeven wanneer de workflow wordt uitgevoerd. Als de optie niet is geactiveerd, worden waarschuwingen in het logboekbestand weergegeven.
 
-      ![](assets/wkf_file_loading_check.png)
+     ![](assets/wkf_file_loading_check.png)
 
 1. Ga naar het tabblad **[!UICONTROL Column definition]** om de data-indeling voor elke kolom te controleren en indien nodig de parameters aan te passen.
 
@@ -101,7 +101,7 @@ De activiteitconfiguratie omvat twee stappen. Eerst moet u de verwachte bestands
    * Het betreft het bestand dat u tijdens de vorige stap hebt geüpload.
    * Het betreft een nieuw bestand dat vanaf de lokale computer moet worden geüpload. De optie **[!UICONTROL Upload a new file from local machine]** wordt weergegeven als het uploaden van een eerste bestand al is gedefinieerd in de workflow. Hierdoor kunt u een ander bestand uploaden dat u wilt verwerken als het huidige bestand niet aan uw wensen voldoet.
 
-      ![](assets/wkf_file_loading1.png)
+     ![](assets/wkf_file_loading1.png)
 
 1. Als het bestand waarvan u de data wilt laden, is gecomprimeerd tot een gzip-bestand (.gz), selecteert u de optie **[!UICONTROL Decompression]** in het veld **[!UICONTROL Add a pre-processing stage]**. Hierdoor kunt u het bestand uitpakken voordat u de data laadt. Deze optie is alleen beschikbaar als het bestand afkomstig is van de binnenkomende overgang van de activiteit.
 
@@ -137,7 +137,7 @@ Met de kolomopmaak kunt u de waardeverwerking van elke kolom definiëren:
 
    * **[!UICONTROL Maximum number of characters]**: Hiermee geeft u het maximum aantal tekens voor tekenreekstypekolommen aan.
 
-      Dit veld moet worden ingevuld bij het laden van bestanden die bestaan uit kolommen met een vaste lengte.
+     Dit veld moet worden ingevuld bij het laden van bestanden die bestaan uit kolommen met een vaste lengte.
 
    * **[!UICONTROL Letter case management]**: Hiermee bepaalt u of een proces voor hoofdletters/kleine letters moet worden toegepast op data van het type **Text** .
    * **[!UICONTROL White space management]**: Hiermee geeft u aan of bepaalde spaties moeten worden genegeerd in een tekenreeks voor data van het type **Text** .
@@ -154,9 +154,9 @@ Met de kolomopmaak kunt u de waardeverwerking van elke kolom definiëren:
    * **[!UICONTROL Use a default value in case the value is not remapped]**: Dit vervangt de waarde die de fout veroorzaakt door een standaardwaarde, die in het veld **[!UICONTROL Default value]** is gedefinieerd tenzij een toewijzing is gedefinieerd voor de foutieve waarde (zie de optie **[!UICONTROL Remapping of values]** hierboven).
    * **[!UICONTROL Reject the line when there is no remapping value]**: De volledige regel wordt alleen verwerkt als een toewijzing voor de foutieve waarde is gedefinieerd (zie de optie **[!UICONTROL Remapping of values]** hierboven).
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL Error processing]** heeft betrekking op fouten betreffende waarden in het geïmporteerde bestand. Bijvoorbeeld een onjuist datatype (‘four’ in letters voor een kolom ‘Integer’), een tekenreeks die meer tekens bevat dan het toegestane maximumaantal, een datum met onjuiste scheidingstekens, enzovoort. Deze optie heeft echter geen betrekking op fouten die worden gegenereerd door beheer van lege waarden.
+  >[!NOTE]
+  >
+  >**[!UICONTROL Error processing]** heeft betrekking op fouten betreffende waarden in het geïmporteerde bestand. Bijvoorbeeld een onjuist datatype (‘four’ in letters voor een kolom ‘Integer’), een tekenreeks die meer tekens bevat dan het toegestane maximumaantal, een datum met onjuiste scheidingstekens, enzovoort. Deze optie heeft echter geen betrekking op fouten die worden gegenereerd door beheer van lege waarden.
 
 * **[!UICONTROL Default value]**: Hiermee geeft u de standaardwaarde op op basis van de gekozen foutverwerking.
 * **[!UICONTROL Empty value management]**: Hiermee geeft u op hoe lege waarden moeten worden beheerd tijdens het laden van data.

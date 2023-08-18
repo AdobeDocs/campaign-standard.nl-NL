@@ -21,11 +21,11 @@ Adobe Campaign Standard API-toegang wordt ingesteld via de onderstaande stappen.
 
 >[!IMPORTANT]
 >
->Certificaten beheren in [Adobe Developer](https://developer.adobe.com/), zorg ervoor dat u **Systeembeheerder** rechten van de organisatie of [ontwikkelaarsaccount](https://helpx.adobe.com/enterprise/using/manage-developers.html) in de Admin Console.
+>Certificaten beheren in [Adobe Developer](https://developer.adobe.com/), zorg ervoor dat u **Systeembeheerder** rechten van de organisatie of [ontwikkelingsaccount](https://helpx.adobe.com/enterprise/using/manage-developers.html) in de Admin Console.
 
 1. **Controleer of u een digitaal certificaat hebt** of maak indien nodig een sjabloon. De openbare en persoonlijke sleutels die van het certificaat worden voorzien zijn vereist in de volgende stappen.
 1. **Een nieuwe integratie met Adobe Campaign Service maken** in [Adobe Developer](https://developer.adobe.com/) en configureren. Uw referenties worden vervolgens gegenereerd (API-sleutel, clientgeheim...).
-1. **Een JSON-webtoken (JWT) maken** uit de eerder gegenereerde referenties en deze ondertekenen met uw persoonlijke sleutel. De JWT codeert alle identiteits- en beveiligingsgegevens die Adobe nodig heeft om uw identiteit te verifiëren en u toegang tot de API te verlenen.
+1. **Een JSON-webtoken (JWT) maken** uit de eerder gegenereerde referenties en deze ondertekenen met uw persoonlijke sleutel. De JWT codeert alle identiteits- en beveiligingsgegevens die door de Adobe nodig zijn om uw identiteit te verifiëren en u toegang tot de API te verlenen.
 1. **Uitwisseling uw JWT voor een Token van de Toegang** via een verzoek van de POST. Dit toegangstoken moet worden gebruikt in elke header van uw API-aanvragen.
 
 Om een veilige service-to-service Adobe I/O API-sessie tot stand te brengen, moet elke aanvraag naar een Adobe-service de onderstaande informatie bevatten in de machtigingheader.
@@ -38,18 +38,18 @@ Om een veilige service-to-service Adobe I/O API-sessie tot stand te brengen, moe
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-* **&lt;organization>**: Dit is uw persoonlijke ORGANIZATION ID, één ORGANIZATION ID wordt verstrekt door Adobe voor elk van uw instanties:
+* **&lt;organization>**: Dit is uw persoonlijke ORGANISATIE-ID, één ORGANISATIE-ID wordt per Adobe opgegeven voor elk van uw gevallen:
 
-   * &lt;organization> : uw productieexemplaar,
-   * &lt;organization-mkt-stage>: de instantie van het werkgebied.
+   * &lt;organization> : uw productie-instantie,
+   * &lt;organization-mkt-stage>: uw werkgebiedinstantie.
 
-   Raadpleeg de beheerder of uw technische contactpersoon voor Adobe om de waarde van uw ORGANISATIE-id op te vragen. U kunt het in Adobe I/O ook terugwinnen wanneer het creëren van een nieuwe integratie, in de vergunningslijst (zie <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer-documentatie</a>).
+  Als u de waarde van uw ORGANISATIE-id wilt opvragen, raadpleegt u uw beheerder of uw technische contactpersoon voor de Adobe. U kunt het in Adobe I/O ook terugwinnen wanneer het creëren van een nieuwe integratie, in de vergunningslijst (zie <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Adobe Developer-documentatie</a>).
 
-* **&lt;access_token>**: Uw persoonlijk toegangstoken, dat werd teruggewonnen toen het ruilen van uw Token van het Web JSON door een verzoek van de POST.
+* **&lt;access_token>**: Uw persoonlijke toegangstoken, die werd teruggewonnen toen het ruilen van uw Token van het Web JSON door een verzoek van de POST.
 
 * **&lt;api_key>**: uw persoonlijke API-sleutel. Het wordt geleverd in Adobe I/O na het creëren van een nieuwe integratie aan de Dienst van Adobe Campaign.
 
-   ![alt-tekst](assets/tenant.png)
+  ![alt-tekst](assets/tenant.png)
 
 ## Problemen oplossen
 

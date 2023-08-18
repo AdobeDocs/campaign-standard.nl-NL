@@ -50,8 +50,8 @@ Regels voor controle kunnen worden toegepast in verschillende fasen van de leven
 
 * **Na doelframes**: Het uitvoeren na het richten staat u toe om het volume van het doel te kennen om de controleregel toe te passen.
 
-   De **Proefdrukgrootte controleren** de controleregel is van toepassing na de doelfase: deze regel verhindert de voorbereiding van berichtverpersoonlijking als er teveel bewijsontvangers zijn.
+  Bijvoorbeeld de **Proefdrukgrootte controleren** de controleregel is van toepassing na het gericht richten stadium: deze regel verhindert de voorbereiding van berichtverpersoonlijking als er teveel bewijsontvangers zijn.
 
-* **Aan het begin van personalisatie**: Is van toepassing wanneer de controle op de goedkeuring van de berichtverpersoonlijking betrekking heeft. De personalisatie van berichten wordt uitgevoerd tijdens de analysefase.
+* **Aan het begin van personalisatie**: Wordt toegepast wanneer de controle betrekking heeft op goedkeuring van berichtpersonalisatie. De personalisatie van berichten wordt uitgevoerd tijdens de analysefase.
 
-* **Aan het einde van de analyse**: Wanneer een controle berichtverpersoonlijking vereist om volledig te zijn.
+* **Aan het einde van de analyse**: Wanneer een controle berichtpersonalisatie vereist om volledig te zijn.

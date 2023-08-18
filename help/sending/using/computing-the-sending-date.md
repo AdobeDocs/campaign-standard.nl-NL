@@ -37,27 +37,27 @@ U kunt dit plannen met behulp van een workflow.
 1. Sleep een **Query** in uw werkstroom te openen. Zie de [Query](../../automating/using/query.md) sectie.
 1. Selecteer een publiek, bijvoorbeeld al uw Gold-klanten en klik op **[!UICONTROL Confirm]** om de query op te slaan.
 1. Sleep een **Segmentering** in uw werkstroom te openen. Zie de [Segmentering](../../automating/using/segmentation.md) sectie.
-1. Definieer vijf segmenten. Voor elk segment:
+1. Geef vijf segmenten op. Voor elk segment:
 
-   * Vul de **[!UICONTROL Segment code]** veld: Voer handmatig de gewenste datum en tijd in voor het verzenden van het bericht.
+   * Vul de **[!UICONTROL Segment code]** veld: voer handmatig de gewenste datum en tijd in voor het verzenden van het bericht.
 
-      Bijvoorbeeld, wilt u de eerste partij op 1 Juni om 10:00 AM GMT+1 verzenden. Gebruik de volgende indeling: **YYYY-MM-DD hh:mm:ss+tz**.
+     Bijvoorbeeld, wilt u de eerste partij op 1 Juni om 10:00 AM GMT+1 verzenden. Gebruik de volgende indeling: **YYYY-MM-DD hh:mm:ss+tz**.
 
-      ![](assets/send-time_opt_segment_configuration.png)
+     ![](assets/send-time_opt_segment_configuration.png)
 
-      Als u de volgende batch de dag erna wilt verzenden, voert u **2017-06-02 10:00:00+01** voor het tweede segment.
+     Als u de volgende batch de dag erna wilt verzenden, voert u **2017-06-02 10:00:00+01** voor het tweede segment.
 
-      Voor de overige segmenten definieert u de volgende batches als volgt:
+     Voor de overige segmenten definieert u de volgende batches als volgt:
 
       * **2017-06-03 10:00:00+01**
       * **2017-06-04 10:00:00+01**
       * **2017-06-05 10:00:00+01**
-   * Zorg ervoor dat u de optie **[!UICONTROL Limit the population of this segment]** optie.
 
-      In de **[!UICONTROL Limitation]** tab, selecteert u **[!UICONTROL Random sampling]** en voer het gewenste percentage voor elk segment in: 10 voor de eerste partij, 15 voor de tweede, enzovoort.
+   * Zorg ervoor dat u de optie **[!UICONTROL Limit the population of this segment]** -optie.
 
-      ![](assets/send-time_opt_segment_limitation.png)
+     In de **[!UICONTROL Limitation]** tab, selecteert u **[!UICONTROL Random sampling]** en voer het gewenste percentage voor elk segment in: 10 voor de eerste batch, 15 voor de tweede, enzovoort.
 
+     ![](assets/send-time_opt_segment_limitation.png)
 
 1. Als alle segmenten zijn gedefinieerd, selecteert u **[!UICONTROL Generate all segments in the same transition]** en klik op **[!UICONTROL Confirm]**.
 
@@ -66,7 +66,7 @@ U kunt dit plannen met behulp van een workflow.
 1. Sleep een **E-maillevering** in uw werkstroom te openen. Zie de [E-maillevering](../../automating/using/email-delivery.md) sectie.
 1. Klik op de knop **[!UICONTROL Schedule]** in het e-maildashboard en selecteer **[!UICONTROL Messages to be sent automatically on the date specified below]**.
 1. In de **[!UICONTROL Start sending from]** een contactdatum definiëren.
-1. Kies in het vervolgkeuzemenu Optimalisatie tijd verzenden de optie **[!UICONTROL Send at a custom date defined by a formula]**.
+1. Kies in het vervolgkeuzemenu Optimalisatie verzendtijd **[!UICONTROL Send at a custom date defined by a formula]**.
 1. Klik op de knop **[!UICONTROL Edit an expression]** van de **[!UICONTROL Custom date formula]** veld.
 
    ![](assets/send-time_opt_formula_define.png)
@@ -113,7 +113,7 @@ U kunt dit plannen met behulp van een workflow.
 1. Sleep een **Query** in uw werkstroom te openen. Zie de [Query](../../automating/using/query.md) sectie.
 1. Selecteer een publiek, bijvoorbeeld meer dan 35 profielen en klik op **[!UICONTROL Confirm]** om de query op te slaan.
 1. Sleep een **Segmentering** in uw werkstroom te openen. Zie de [Segmentering](../../automating/using/segmentation.md) sectie.
-1. Definieer vier segmenten. Voor elk segment:
+1. Geef vier segmenten op. Voor elk segment:
 
    * Definieer de segmentcodes als volgt:
 
@@ -122,13 +122,12 @@ U kunt dit plannen met behulp van een workflow.
       * 14:00 - 16:00 **6**. Het vraagcentrum dat tussen 12:00 PM en 2:00 PM wordt gesloten, zal het bericht naar het derde kwartaal van de doelpopulatie worden verzonden om 2:00 PM (contactdatum + 6 uren).
       * 16:00 - 18:00 PM: **8**. Het bericht wordt verzonden naar het laatste kwartaal van de doelpopulatie om 16.00 uur (contactdatum + 8 uur).
 
-      >[!NOTE]
-      >
-      >De contactdatum wordt later in de workflow gedefinieerd in de e-mailleveringsactiviteit.
+     >[!NOTE]
+     >
+     >De contactdatum wordt later in de workflow gedefinieerd in de e-mailleveringsactiviteit.
 
-   * Zorg ervoor dat u de optie **[!UICONTROL Limit the population of this segment]** optie.
+   * Zorg ervoor dat u de optie **[!UICONTROL Limit the population of this segment]** -optie.
    * In de **[!UICONTROL Limitation]** tab, selecteert u **[!UICONTROL Random sampling]** en voer het gewenste percentage voor elk segment in: **25**.
-
 
 1. Als alle segmenten zijn gedefinieerd, selecteert u **[!UICONTROL Generate all segments in the same transition]** en klik op **[!UICONTROL Confirm]**.
 
@@ -141,27 +140,27 @@ U kunt dit plannen met behulp van een workflow.
 
    In dit voorbeeld selecteert u 25 mei om 8:00 uur.
 
-1. Kies in het vervolgkeuzemenu Optimalisatie tijd verzenden de optie **[!UICONTROL Send at a custom date defined by a formula]** en klik op de knop **[!UICONTROL Edit an expression]** knop.
+1. Kies in het vervolgkeuzemenu Optimalisatie verzendtijd **[!UICONTROL Send at a custom date defined by a formula]** en klik op de knop **[!UICONTROL Edit an expression]** knop.
 
    ![](assets/send-time_opt_formula_expression.png)
 
 1. In de **[!UICONTROL Expression editor]**, stelt u de datum en de segmentcodes in om de gegevens voor elke klant te berekenen.
 
-   Selecteer in de lijst met functies de optie **[!UICONTROL AddHours]**.
+   Selecteer in de lijst met functies **[!UICONTROL AddHours]**.
 
    ![](assets/send-time_opt_formula_expression_addhours.png)
 
-   Selecteer in de beschikbare velden de optie **[!UICONTROL Current delivery]** > **[!UICONTROL Delivery scheduling]** > **[!UICONTROL Contact date]**.
+   Selecteer in de beschikbare velden **[!UICONTROL Current delivery]** > **[!UICONTROL Delivery scheduling]** > **[!UICONTROL Contact date]**.
 
    ![](assets/send-time_opt_formula_expression_contact_date.png)
 
    Hiermee kunt u de datum en tijd ophalen die in het dialoogvenster **[!UICONTROL Start sending from]** veld.
 
-   Selecteer in de lijst met functies de optie **[!UICONTROL ToInteger]**. Selecteer in de beschikbare velden de optie **[!UICONTROL Additional data]** > **[!UICONTROL Segment code]**.
+   Selecteer in de lijst met functies **[!UICONTROL ToInteger]**. Selecteer in de beschikbare velden **[!UICONTROL Additional data]** > **[!UICONTROL Segment code]**.
 
    ![](assets/send-time_opt_formula_expression_segment_code.png)
 
-   Dit laat u toe om de aantallen terug te winnen die u in de segmentcodes specificeerde.
+   Hierdoor kunt u de getallen ophalen die u in de segmentcodes hebt opgegeven.
 
    U zou de volgende formule moeten krijgen:
 

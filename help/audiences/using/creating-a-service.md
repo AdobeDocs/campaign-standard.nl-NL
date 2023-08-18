@@ -45,9 +45,9 @@ Een service configureren:
    * **[!UICONTROL No message]**: in deze modus kunt u een service maken zonder een bevestigingsbericht.
    * **[!UICONTROL Default message]**: In deze modus wordt het standaardtransactiebericht voor bevestiging van in- en uitschrijving gebruikt. De standaardbevestigingsberichten zijn generiek en zijn hetzelfde voor alle services die de standaardmodus gebruiken.
 
-      >[!NOTE]
-      >
-      >U kunt een standaardbericht wijzigen door op het betreffende label in de sectie **[!UICONTROL Service properties]** te klikken of door het te selecteren in de lijst met transactieberichten van Adobe Campaign, nadat u het selectievakje **[!UICONTROL Show internal transactional messages]** hebt ingeschakeld.
+     >[!NOTE]
+     >
+     >U kunt een standaardbericht wijzigen door op het betreffende label in de sectie **[!UICONTROL Service properties]** te klikken of door het te selecteren in de lijst met transactieberichten van Adobe Campaign, nadat u het selectievakje **[!UICONTROL Show internal transactional messages]** hebt ingeschakeld.
 
    * **[!UICONTROL Custom message]**: In deze modus kunt u specifieke aangepaste bevestigingsberichten voor elke service afhandelen. Vervolgens selecteert u de sjabloon **[!UICONTROL Custom subscription event configuration]** die aan een specifieke [transactiebericht](../../channels/using/getting-started-with-transactional-msg.md)-sjabloon is gekoppeld. Zie [Een abonnement op een service bevestigen](../../audiences/using/confirming-subscription-to-a-service.md) voor meer informatie hierover.
 
@@ -67,4 +67,4 @@ In deze video ziet u hoe u een service kunt maken en de abonnementen ervan kunt 
 
 >[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
 
-Er zijn aanvullende Campaign Standard-hoe-kan-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).
+Er zijn aanvullende Campaign Standard-to-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).

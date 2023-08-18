@@ -1,6 +1,6 @@
 ---
 title: Informatie over Campaign Standard-instellingen
-description: Meer informatie over de basisinstellingen van Campaign Standard
+description: Meer informatie over de basisinstellingen van Campaigns Standard
 audience: administration
 context-tags: extAccount,main;extAccount,overview
 feature: Instance Settings
@@ -20,7 +20,7 @@ ht-degree: 5%
 
 * externe rekeningen instellen;
 * Vorm doeltoewijzingen om technische montages te beheren die worden vereist om leveringen te verzenden,
-* Stel interne meldingen in de toepassing in, enzovoort.
+* Stel interne meldingen in de toepassing in, enz.
 
 Deze instellingen zijn beschikbaar via de **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** -menu.
 

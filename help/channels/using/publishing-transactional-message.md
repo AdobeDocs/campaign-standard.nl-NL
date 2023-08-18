@@ -1,6 +1,6 @@
 ---
 title: Levenscyclus van transactionele berichten
-description: Leer hoe u een transactiebericht publiceert, pauzeert, publiceert en verwijdert.
+description: Leer hoe u een transactiemelding publiceert, pauzeert, publiceert en verwijdert.
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
@@ -24,7 +24,7 @@ De stappen voor het publiceren, pauzeren, verwijderen en publiceren van een tran
 
 >[!IMPORTANT]
 >
->Alleen gebruikers met de [Beheer](../../administration/using/users-management.md#functional-administrators) de rol kan tot transactieberichten toegang hebben en publiceren.
+>Alleen gebruikers met de [Administratie](../../administration/using/users-management.md#functional-administrators) de rol kan tot transactieberichten toegang hebben en publiceren.
 
 ## Publicatieproces voor transactieberichten {#transactional-messaging-pub-process}
 
@@ -147,9 +147,9 @@ Het verwijderen van een transactiebericht kan echter alleen onder bepaalde voorw
 
 * **Transactieberichten**: Tenzij een ander transactiebericht is gekoppeld aan de overeenkomstige gebeurtenis, geldt dat als de publicatie van het transactiebericht ongedaan is gemaakt de publicatie van de gebeurtenisconfiguratie ook ongedaan moet worden gemaakt om uw transactiebericht te kunnen verwijderen. Zie [Publicatie van een gebeurtenis ongedaan maken](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) voor meer informatie.
 
-   >[!IMPORTANT]
-   >
-   >Als u een transactiebericht verwijdert waarvoor al meldingen zijn verzonden, worden ook de verzendings- en trackinglogboeken verwijderd.
+  >[!IMPORTANT]
+  >
+  >Als u een transactiebericht verwijdert waarvoor al meldingen zijn verzonden, worden ook de verzendings- en trackinglogboeken verwijderd.
 
 * **Transactieberichten van een kant-en-klare gebeurtenissjabloon (interne transactieberichten)**: Als een intern transactiebericht als enige bericht aan de overeenkomstige interne gebeurtenis is gekoppeld, kan het niet worden verwijderd. U moet eerst een ander transactiebericht maken door het te dupliceren of via het menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]**.
 

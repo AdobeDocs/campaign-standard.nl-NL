@@ -1,6 +1,6 @@
 ---
 title: Campagnes aanpassen met Adobe Experience Platform-kenmerken
-description: Leer hoe u uw campagnes kunt personaliseren met de kenmerken van het Adobe-Platform.
+description: Leer hoe u uw campagnes kunt personaliseren met de kenmerken van het Adobe EExperience Platform.
 audience: automating
 content-type: reference
 topic-tags: channel-activities
@@ -19,17 +19,17 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
+>De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van de Adobe als u toegang wilt.
 >
 >**Push** en **In app** de kanalen zijn nog niet beschikbaar voor verpersoonlijking gebruikend contextuele gegevens van Adobe Experience Platform.
 
 Zodra uw werkschema met wordt gevormd [Adobe Experience Platform-publiek](../../integrating/using/aep-about-audience-destinations-service.md), kunt u berichten met profielattributen personaliseren die uitsluitend in het Model van de Gegevens van de Ervaring (XDM) bestaan.
 
-Hiervoor moet u deze kenmerken toevoegen aan de **[!UICONTROL Read audience]** activiteit:
+Hiervoor moet u deze kenmerken toevoegen aan het dialoogvenster **[!UICONTROL Read audience]** activiteit:
 
 1. Open de **[!UICONTROL Read audience]** activiteit. In de **[!UICONTROL Additional data]** klikt u op de knop **[!UICONTROL Create element]** knop.
 
-   De **[!UICONTROL Additional data]** is alleen beschikbaar nadat een Adobe Experience Platform-publiek is geselecteerd.
+   Let erop dat de **[!UICONTROL Additional data]** is alleen beschikbaar nadat een Adobe Experience Platform-publiek is geselecteerd.
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
@@ -53,7 +53,7 @@ Hiervoor moet u deze kenmerken toevoegen aan de **[!UICONTROL Read audience]** a
 
 1. Als alle velden zijn toegevoegd, klikt u op de knop **[!UICONTROL Confirm]** om uw wijzigingen op te slaan. Ze zijn nu beschikbaar om uw leveringen aan te passen.
 
-Raadpleeg de documentatie bij Campaign Standard voor meer informatie over het maken en personaliseren van leveringen:
+Raadpleeg de documentatie bij het Campaign Standard voor meer informatie over het maken en personaliseren van leveringen:
 
 * [Communicatiekanalen detecteren](../../channels/using/get-started-communication-channels.md)
 * [Informatie over kanaalactiviteiten](../../automating/using/about-channel-activities.md)

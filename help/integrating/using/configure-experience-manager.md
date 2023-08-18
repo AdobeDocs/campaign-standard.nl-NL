@@ -40,7 +40,7 @@ Adobe Campaign configureren:
 
    ![](assets/aem_1.png)
 
-1. Controleer of de **[!UICONTROL AEMResourceTypeFilter]** is correct geconfigureerd. Toegang krijgen tot **[!UICONTROL Options]** menu onder **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** -menu.
+1. Controleer of de **[!UICONTROL AEMResourceTypeFilter]** is correct geconfigureerd. Toegang krijgen tot de **[!UICONTROL Options]** menu onder **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** -menu.
 
 1. In de **[!UICONTROL Value (text)]** -veld, controleer of de volgende syntaxis correct is:
 

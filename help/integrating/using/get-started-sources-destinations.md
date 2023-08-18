@@ -15,12 +15,12 @@ ht-degree: 17%
 
 # Aan de slag met bronnen en bestemmingen {#rtcdp}
 
-## Bronnen en doelen
+## Informatie over bronnen en doelen
 
 Met Adobe Experience Platform kunt u gegevens delen tussen Campaign Standard en Adobe Real-time Customer Data Platform (RTCDP). Op deze manier kunt u Adobe Experience Platform-doelgroepen in uw campagneworkflows gebruiken en vervolgens gegevens naar Adobe Real-time Customer Data Platform sturen die betrekking hebben op deze doelgroepen, zoals verzenden, openen en klikken.
 
-* Met **Doelen**, neemt het publiek van Adobe Experience Platform op in Campaign Standard. Hierdoor kunt u uw bekende en onbekende gegevens activeren voor uw marketingcampagnes.
-* Met **Bronnen** Campaign Standard-gegevens (bijvoorbeeld verzenden, openen, klikken) naar Adobe Experience Platform exporteren. Op deze manier kunt u gegevens die u van verschillende bronnen verzamelt, centraliseren in één locatie en de daaruit verkregen inzichten gebruiken om meer te doen.
+* Met **Doelen**, neemt het publiek van Adobe Experience Platform in Campaign Standard op. Hierdoor kunt u uw bekende en onbekende gegevens activeren voor uw marketingcampagnes.
+* Met **Bronnen** Exporteer de gegevens van het Campaign Standard (bijvoorbeeld verzenden, openen, klikken) naar Adobe Experience Platform. Op deze manier kunt u gegevens die u van verschillende bronnen verzamelt, centraliseren in één locatie en de daaruit verkregen inzichten gebruiken om meer te doen.
 
 
 >[!IMPORTANT]
@@ -33,11 +33,11 @@ Raadpleeg de volgende pagina&#39;s voor een gedetailleerder overzicht van Adobe 
 * [Documentatie voor bestemmingen](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=nl)
 * [Documentatie voor bronnen](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=nl)
 
-## Connect Campaign Standard met Adobe Experience Platform
+## Campaign Standard verbinden met Adobe Experience Platform
 
-Als u gegevens wilt delen tussen Adobe Experience Platform en Campaign Standard, moet u eerst Adobe Campaign verbinden als een **Doel** en sluit uw AWS S3- of Azure-blob-opslaglocatie aan als een **Bron** Adobe ervaren Platform.
+Als u gegevens wilt delen tussen Adobe Experience Platform en Campaign Standard, moet u eerst Adobe Campaign verbinden als een **Doel** en sluit uw AWS S3- of Azure-blob-opslaglocatie aan als **Bron** in Adobe Experience Platform.
 
-Zodra de schakelaars zijn gevormd, kunt u opstelling een gegevensinvoer of uitvoer naar Campaign Standard gebruikend werkschema&#39;s.
+Zodra de schakelaars zijn gevormd, kunt u opstelling een gegevensinvoer of uitvoer in Campaign Standard gebruikend werkschema&#39;s.
 
 ![](assets/rtcdp-schema.png)
 

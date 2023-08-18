@@ -44,11 +44,11 @@ Workflows kunnen in verschillende contexten worden gebruikt, zoals:
 
 Er zijn verschillende activiteiten beschikbaar om u te helpen uw workflows ontwerpen.
 
-[Gerichte activiteiten](../../automating/using/about-targeting-activities.md) kunt u een of meer doelen maken door sets te definiëren en deze sets te splitsen of te combineren met een doorsnede, samenvoeging of uitsluitingsbewerking.
+[Gerichte activiteiten](../../automating/using/about-targeting-activities.md) staat u toe om één of meerdere doelstellingen te bouwen door reeksen te bepalen en deze reeksen te verdelen of te combineren gebruikend doorsnede, vereniging, of uitsluitingsverrichtingen.
 
-Met [Uitvoeringsactiviteiten](../../automating/using/about-execution-activities.md), uw workflow en activiteiten te coördineren, terwijl [Kanaalactiviteiten](../../automating/using/about-channel-activities.md) Hiermee kunt u Campaign Standard-communicatiekanalen combineren om kanaalworkflows te maken.
+Met [Uitvoeringsactiviteiten](../../automating/using/about-execution-activities.md), uw workflow en activiteiten te coördineren, terwijl [Kanaalactiviteiten](../../automating/using/about-channel-activities.md) Hiermee kunt u communicatiekanalen van Campaigns Standard combineren om kanaalworkflows te maken.
 
-Tot slot: [Gegevensbeheer](../../automating/using/about-data-management-activities.md) kunt u gegevens uit uw database bewerken.
+Tot slot: [Gegevensbeheeractiviteiten](../../automating/using/about-data-management-activities.md) kunt u gegevens uit uw database bewerken.
 
 Meer informatie:
 
@@ -60,9 +60,9 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-De **queryeditor** om gegevens van uw gegevensbestand te filtreren en een bevolking te bouwen om uw ontvangers beter te richten. De vraagredacteur is beschikbaar om verscheidene acties in Campaign Standard uit te voeren: Maak het type van Vraag publiek, bepaal leveringsdoelstellingen, of populaties in werkschemaactiviteiten.
+Gebruik de **queryeditor** om gegevens van uw gegevensbestand te filtreren en een bevolking te bouwen om uw ontvangers beter te richten. De vraagredacteur is beschikbaar om verscheidene acties in Campaign Standard uit te voeren: creeer het type van Vraag publiek, bepaal leveringsdoelstellingen, of populaties in werkschemaactiviteiten.
 
-De vraagredacteur komt met **vooraf gedefinieerde filters en regels** voor snel en gemakkelijk filtreren. U kunt echter ook **geavanceerde expressie bewerken** mogelijkheden. Op deze manier kunt u handmatig voorwaarden invoeren en functies gebruiken om uw eigen regels op te stellen.
+De vraagredacteur komt met **vooraf gedefinieerde filters en regels** voor snel en gemakkelijk filtreren. U kunt echter ook **geavanceerde expressies bewerken** mogelijkheden. Op deze manier kunt u handmatig voorwaarden invoeren en functies gebruiken om uw eigen regels op te stellen.
 
 Meer informatie:
 
@@ -84,7 +84,7 @@ Met [Sjablonen importeren](../../automating/using/importing-data-with-import-tem
 
 Hefboomwerking [Pakketten](../../automating/using/managing-packages.md) om middelen tussen verschillende campagneinstanties, bijvoorbeeld, te ruilen om de configuratie van een geval te herhalen, of gegevens over te brengen van een server aan een andere met inbegrip van douanemiddelen.
 
-Tot slot: [Lijsten exporteren](../../automating/using/exporting-lists.md) u toestaan om het even welke lijst van Campaign Standard als, bijvoorbeeld, de lijst van testprofielen, de lijst van quarantines e-mailadressen, enz. uit te voeren.
+Tot slot: [Lijsten exporteren](../../automating/using/exporting-lists.md) kunt u lijsten vanuit Campaigns Standard exporteren, zoals bijvoorbeeld de lijst met testprofielen, de lijst met e-mailadressen in quarantaine, enz.
 
 Meer informatie:
 

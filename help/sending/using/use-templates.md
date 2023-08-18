@@ -26,9 +26,9 @@ Meer informatie over leveringssjablonen vindt u in [deze sectie](../../start/usi
 
 A [leveringssjabloon](../../start/using/marketing-activity-templates.md#creating-a-new-template) kunt u een reeks technische en functionele eigenschappen definiëren die aan uw behoeften voldoen en die opnieuw kunnen worden gebruikt voor toekomstige leveringen. U kunt dan tijd besparen en leveringen standaardiseren wanneer dat nodig is.
 
-Als u meerdere merken beheert in Adobe Campaign, raadt Adobe aan één subdomein per merk te hebben. Een bank kan bijvoorbeeld verschillende subdomeinen hebben die overeenkomen met elk van haar regionale agentschappen. Als een bank eigenaar is van het domein bluebank.com, kunnen de subdomeinen @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, enz. zijn. Als u één leveringssjabloon per subdomein hebt, kunt u altijd de juiste vooraf geconfigureerde parameters voor elk merk gebruiken. Hierdoor worden fouten voorkomen en bespaart u tijd.
+Wanneer u meerdere merken beheert in Adobe Campaign, raadt Adobe aan één subdomein per merk te hebben. Een bank kan bijvoorbeeld verschillende subdomeinen hebben die overeenkomen met elk van haar regionale agentschappen. Als een bank eigenaar is van het bluebank.com-domein, kunnen de subdomeinen @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com enzovoort zijn. Als u één leveringssjabloon per subdomein hebt, kunt u altijd de juiste vooraf geconfigureerde parameters voor elk merk gebruiken. Hierdoor worden fouten voorkomen en bespaart u tijd.
 
-**Tip**: Om configuratiefouten in Campagne te vermijden, adviseren wij dat u een inheemse malplaatje dupliceert en zijn eigenschappen verandert eerder dan een nieuw malplaatje tot stand te brengen.
+**Tip**: Om configuratiefouten in Campagne te vermijden, adviseren wij dat u een inheemse malplaatje dupliceert en zijn eigenschappen verandert eerder dan tot een nieuw malplaatje te leiden.
 
 ## Adressen configureren
 
@@ -56,7 +56,7 @@ Als u de naam van de afzender wilt wijzigen die wordt weergegeven in de koptekst
 
 ![](assets/template-content.png)
 
-Om de openingssnelheid van uw leveringen te verhogen, raadt Adobe u aan een naam te gebruiken die gemakkelijk kan worden herkend door de ontvangers, zoals de naam van uw merk.
+Om de openingssnelheid van uw leveringen te verhogen, raadt de Adobe aan een naam te gebruiken die gemakkelijk door de ontvangers kan worden herkend, zoals de naam van uw merk.
 
 **Tip** - Om de ervaring van de ontvanger verder te verbeteren, kunt u de naam van een persoon toevoegen, bijvoorbeeld &quot;Emma van Megastore&quot;.
 

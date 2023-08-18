@@ -66,34 +66,34 @@ Query&#39;s kunnen in het venster **[!UICONTROL Audience]** worden gedefinieerd 
 
    * Bij een tekenreeks of numeriek **veld** moet u de vergelijkingsoperator en de waarde opgeven.
 
-      ![](assets/query_editor_audience_definition2.png)
+     ![](assets/query_editor_audience_definition2.png)
 
    * Bij een datum- of **tijdveld** kunt u een specifieke datum, een bereik tussen twee datums of een periode definiëren ten opzichte van de uitvoeringsdatum van de query.
 
-      ![](assets/query_editor_date_field.png)
+     ![](assets/query_editor_date_field.png)
 
    * Bij een Booleaans **veld** vinkt u de selectievakken aan die zijn gekoppeld aan de mogelijke waarden voor het veld.
    * Bij een **groeperingsveld** selecteer u het veld waarop u de regel wilt toepassen. Daarna definieert u de voorwaarde op dezelfde manier als bij de andere velden.
 
-      ![](assets/query_editor_audience_definition4.png)
+     ![](assets/query_editor_audience_definition4.png)
 
    * Voor een **1-1**-koppeling met een andere databasebron selecteert u de waarde rechtstreeks in de getargete tabel.
 
-      ![](assets/query_editor_audience_definition5.png)
+     ![](assets/query_editor_audience_definition5.png)
 
    * Voor een **1-N**-koppeling met een andere databasebron definieert u een subquery voor de velden van deze tweede bron.
 
-      U hoeft geen subvoorwaarde op te geven.
+     U hoeft geen subvoorwaarde op te geven.
 
-      U kunt bijvoorbeeld alleen de operator **[!UICONTROL Exists]** selecteren in de profieltrackinglogboeken en de regel goedkeuren. De regel retourneert alle profielen waarvoor trackinglogboeken bestaan.
+     U kunt bijvoorbeeld alleen de operator **[!UICONTROL Exists]** selecteren in de profieltrackinglogboeken en de regel goedkeuren. De regel retourneert alle profielen waarvoor trackinglogboeken bestaan.
 
-      ![](assets/query_editor_audience_definition6.png)
+     ![](assets/query_editor_audience_definition6.png)
 
    * Bij een **vooraf gedefinieerd filter** voert u de elementen in die u volgens de aangeboden criteria wilt gebruiken of selecteert u deze.
 
-      Beheerders kunnen filters maken om het uitvoeren van complexe en herhaalde query&#39;s te vereenvoudigen. Deze zijn beschikbaar in de query-editor in de vorm van vooraf geconfigureerde regels, waarmee het aantal stappen dat door de gebruiker moet worden uitgevoerd, sterk wordt verminderd.
+     Beheerders kunnen filters maken om het uitvoeren van complexe en herhaalde query&#39;s te vereenvoudigen. Deze zijn beschikbaar in de query-editor in de vorm van vooraf geconfigureerde regels, waarmee het aantal stappen dat door de gebruiker moet worden uitgevoerd, sterk wordt verminderd.
 
-      ![](assets/query-editor_filter_email-audience_filter.png)
+     ![](assets/query-editor_filter_email-audience_filter.png)
 
 1. U kunt een naam voor uw regel opgeven. Deze naam wordt dan weergegeven als regelnaam in de werkruimte. Als de regel geen naam heeft, wordt een automatische beschrijving van de voorwaarden getoond.
 1. Als u de werkruimte-elementen wilt combineren, koppelt u ze aan elkaar om verschillende groepen en/of groepsniveaus te maken. Vervolgens kiest u een logische operator om elementen op hetzelfde niveau te combineren:

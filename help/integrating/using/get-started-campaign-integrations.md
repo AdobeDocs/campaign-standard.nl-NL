@@ -77,7 +77,7 @@ Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, le
    <td><a href="../../integrating/using/get-started-sources-destinations.md">Aan de slag met bronnen en bestemmingen</a></td>
   </tr> 
   <tr> 
-   <td> Adobe Asset Core-service en bedrijfsmiddelen op aanvraag<br /> </td> 
+   <td> Adobe Asset Core-service en Activa op aanvraag<br /> </td> 
    <td> Hiermee kunt u assets uit uw Adobe Experience Cloud-bibliotheek invoegen in e-mails en landingspagina’s die in Adobe Campaign zijn gemaakt.<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Assets-kernservice</a> of Assets on demand<br /> </td> 
   </tr> 
@@ -94,8 +94,8 @@ Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, le
     </td> 
   </tr> 
     <tr> 
-   <td> Adobe Journey Orchestration<br /> </td> 
-   <td> Hiermee kunt u e-mails, pushberichten en SMS verzenden met de mogelijkheden voor Transactioneel berichtenverkeer van Adobe Campaign Standard in de context van Adobe Journey Orchestration, via een 'out-of-the-box'-actie.<br /> </td> 
+   <td> Journey Orchestration Adobe<br /> </td> 
+   <td> Hiermee kunt u e-mails, pushberichten en SMS verzenden via de mogelijkheden voor Transactioneel Overseinen van Adobe Campaign Standard in het kader van het Journey Orchestration van de Adobe, via een actie 'uit de doos'.<br /> </td> 
    <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">Werken met Adobe Journey Orchestration en Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 

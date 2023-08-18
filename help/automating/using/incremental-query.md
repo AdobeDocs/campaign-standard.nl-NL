@@ -40,11 +40,11 @@ De activiteit **[!UICONTROL Incremental query]** kan voor diverse doeleinden wor
 
 * Data exporteren.
 
-   U kunt een activiteit **[!UICONTROL Incremental query]** gebruiken om regelmatig nieuwe logboeken in bestanden te exporteren. Dit kan bijvoorbeeld nuttig zijn als u uw loggegevens wilt gebruiken in externe rapporten of BI-tools. Een volledig voorbeeld is beschikbaar in de sectie [Logboeken exporteren](../../automating/using/exporting-logs.md).
+  U kunt een activiteit **[!UICONTROL Incremental query]** gebruiken om regelmatig nieuwe logboeken in bestanden te exporteren. Dit kan bijvoorbeeld nuttig zijn als u uw loggegevens wilt gebruiken in externe rapporten of BI-tools. Een volledig voorbeeld is beschikbaar in de sectie [Logboeken exporteren](../../automating/using/exporting-logs.md).
 
 **Verwante onderwerpen**
 
-* [Hoofdlettergebruik: Incrementele query op abonnees van een service](../../automating/using/incremental-query-on-subscribers.md)
+* [Het geval van het gebruik: Incrementele vraag op abonnees aan de dienst](../../automating/using/incremental-query-on-subscribers.md)
 
 ## Configuratie {#configuration}
 
@@ -60,7 +60,8 @@ De activiteit **[!UICONTROL Incremental query]** kan voor diverse doeleinden wor
    * **[!UICONTROL Use the exclusion of the results of previous executions]**: De resultaten van eerdere uitvoeringen zijn uitgesloten van elke nieuwe uitvoering.
    * **[!UICONTROL Use a date field]**: Bij de volgende uitvoeringen wordt alleen rekening gehouden met de resultaten waarvan het geselecteerde datumveld groter is dan of gelijk is aan de laatste uitvoeringsdatum van de activiteit **[!UICONTROL Incremental query]**. U kunt elk datumveld selecteren dat betrekking heeft op de bron die is geselecteerd op het tabblad **[!UICONTROL Properties]**. Deze modus biedt betere prestaties bij het uitvoeren van query&#39;s op grote bronnen, zoals loggegevens.
 
-      Na de eerste uitvoering van de workflow ziet u op dit tabblad de laatste uitvoeringsdatum die wordt gebruikt voor de volgende uitvoering. Deze wordt automatisch steeds bijgewerkt wanneer de workflow wordt uitgevoerd. U kunt deze waarde ook overschrijven door handmatig een nieuwe waarde in te voeren die beter aan uw behoeften voldoet.
+     Na de eerste uitvoering van de workflow ziet u op dit tabblad de laatste uitvoeringsdatum die wordt gebruikt voor de volgende uitvoering. Deze wordt automatisch steeds bijgewerkt wanneer de workflow wordt uitgevoerd. U kunt deze waarde ook overschrijven door handmatig een nieuwe waarde in te voeren die beter aan uw behoeften voldoet.
+
    >[!NOTE]
    >
    >In de modus **[!UICONTROL Use a date field]** is meer flexibiliteit mogelijk, afhankelijk van het datumveld dat is geselecteerd. Als het geselecteerde veld bijvoorbeeld overeenkomt met een wijzigingsdatum, kunt u in de datumveldmodus data opvragen die recentelijk zijn bijgewerkt. De andere modus sluit opnames echter gewoon uit die al in een eerdere uitvoering waren benaderd, zelfs als deze sinds de laatste uitvoering van de workflow zijn gewijzigd.

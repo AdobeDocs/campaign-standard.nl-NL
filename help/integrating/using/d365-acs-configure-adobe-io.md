@@ -35,7 +35,7 @@ Met Adobe I/O kunt u API-toegang tot Adobe Campaign Standard en andere Adobe-pro
 
 ### Overzicht
 
-Alvorens de pre-integratieopstelling in dit artikel uit te voeren, wordt verondersteld dat u reeds provisioned bent en beheerdertoegang tot de instantie van de Campaign Standard van uw organisatie hebt.  Als dit niet is gebeurd, moet u contact opnemen met de klantenservice van Adobe om de levering van de campagne te voltooien.
+Alvorens de pre-integratieopstelling in dit artikel uit te voeren, wordt verondersteld dat u reeds provisioned bent en beheerdertoegang tot de instantie van het Campaign Standard van uw organisatie hebt.  Als dit niet is gebeurd, moet u contact opnemen met de klantenservice van de Adobe om de levering van de campagne te voltooien.
 
 >[!CAUTION]
 >
@@ -63,21 +63,21 @@ Hiervoor volgt u de onderstaande procedure:
 
    ![](assets/adobeIO3.png)
 
-1. Op het volgende scherm kunt u uw eigen openbare sleutel uploaden of Adobe Developer de sleutel laten genereren voor u. Deze instructies volgen de laatste optie. Als u besluit Adobe Developer toe te laten het zeer belangrijke paar produceren, klik op optie 1; Klik vervolgens op de knop **[!UICONTROL Generate keypair]** knop.
+1. Op het volgende scherm kunt u uw eigen openbare sleutel uploaden of Adobe Developer de sleutel laten genereren voor u. Deze instructies volgen de laatste optie. Als u ervoor kiest dat Adobe Developer het sleutelpaar laat genereren, klikt u op optie 1 en vervolgens op de knop **[!UICONTROL Generate keypair]** knop.
 
    ![](assets/adobeIO4.png)
 
 1. In het volgende scherm wordt u gevraagd een naam te geven en de downloadlocatie van het zip-bestand met sleutelpaar te selecteren.
 
-Nadat u het bestand hebt gedownload, kunt u het uitpakken om de openbare en persoonlijke sleutels weer te geven. Adobe Developer heeft de openbare sleutel al toegepast op uw Adobe Developer-project. U moet uw persoonlijke sleutel voor later behouden; de persoonlijke sleutel wordt gebruikt tijdens de installatie vóór de integratie van het integratieprogramma.
+Nadat u het bestand hebt gedownload, kunt u het uitpakken en de openbare en persoonlijke sleutels weergeven. Adobe Developer heeft de openbare sleutel al toegepast op uw Adobe Developer-project. U moet uw persoonlijke sleutel voor later behouden; de persoonlijke sleutel wordt gebruikt tijdens de voorintegratieinstellingen van het integratieprogramma.
 
-1. Klikken **[!UICONTROL Next]** blijven
+1. Klikken **[!UICONTROL Next]** om door te gaan
 
    ![](assets/adobeIO5.png)
 
-1. In het volgende scherm selecteert u productprofielen die u aan dit project wilt koppelen. Selecteer het productprofiel in de titel: De huurder-id van uw campagneexemplaar - [!UICONTROL Administrators]
+1. In het volgende scherm selecteert u productprofielen die u aan dit project wilt koppelen. Selecteer het productprofiel dat in de titel bevat: De huurder-id van uw campagneexemplaar - [!UICONTROL Administrators]
 
-   Voorbeeld: Campaign Standard - uw campagne-huurderID - Beheerders
+   Voorbeeld: Campaign Standard - uw-campagne-huurderID - Beheerders
 
 1. Klik op **[!UICONTROL Save configured API]**.
 
@@ -107,4 +107,4 @@ Installatie vóór integratie in campagne is nu voltooid.
 
 * [Adobe Developer - Integratie van serviceaccount](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - API Access Setup](../../api/using/setting-up-api-access.md)
-* [Campaign Standard - Integratie met Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
+* [Campaign Standard - Dynamiek 365-integratie](../../integrating/using/d365-acs-configure-d365.md)

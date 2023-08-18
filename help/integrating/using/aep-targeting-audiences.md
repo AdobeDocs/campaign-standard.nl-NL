@@ -19,7 +19,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
+>De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van de Adobe als u toegang wilt.
 
 Als u eenmaal een [Adobe Experience Platform-publiek](../../integrating/using/aep-about-audience-destinations-service.md) Gebruikend de Bouwer van het Segment, kunt u het op de zelfde manier gebruiken zoals u voor een publiek van de Campagne binnen werkschema&#39;s om berichten te personaliseren en te verzenden.
 
@@ -27,7 +27,7 @@ Voer de volgende stappen uit om een Adobe Experience Platform-publiek te activer
 
 1. Voeg een **[!UICONTROL Read audience]** in de werkstroom te openen en vervolgens te openen.
 
-1. Selecteer **[!UICONTROL Adobe Experience Platform]** optie onder **[!UICONTROL Type of audience]** voegt u vervolgens het gewenste publiek toe.
+1. Selecteer de **[!UICONTROL Adobe Experience Platform]** optie onder **[!UICONTROL Type of audience]** voegt u vervolgens het gewenste publiek toe.
 
    ![](assets/aep_wkf_readaudience.png)
 
@@ -45,7 +45,7 @@ Voer de volgende stappen uit om een Adobe Experience Platform-publiek te activer
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   Deze lijst bevat alle afbeeldingen van het Gegevensmodel van de Ervaring (XDM) die op uw instantie zijn gevormd. Voor meer informatie over Adobe Experience Platform Data Connector raadpleegt u [dit speciale document](../../integrating/using/aep-about-data-connector.md).
+   Deze lijst bevat alle afbeeldingen van het Gegevensmodel van de Ervaring (XDM) die op uw instantie zijn gevormd. Raadpleeg voor meer informatie over Adobe Experience Platform Data Connector [dit speciale document](../../integrating/using/aep-about-data-connector.md).
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
@@ -57,9 +57,9 @@ U kunt nu uw workflow configureren met andere activiteiten. U kunt bijvoorbeeld 
 
 >[!NOTE]
 >
->Met Campaign Standard kunt u Adobe Experience Platform-doelgroepen binnen alle leveringskanalen kiezen: E-mails, SMS-berichten, Direct-mailberichten, pushberichten en In-App-berichten.
+>Met Campaign Standard kunt u Adobe Experience Platform-doelgroepen binnen alle leveringskanalen gebruiken: e-mails, SMS-berichten, Direct-mailberichten, pushberichten en In-App-berichten.
 >
->*Opmerking: Voor alle push- en In-App-berichten ondersteunt Campaign Standard alleen leveringen voor bekende profielen.
+>*Opmerking: voor alle push- en In-App-berichten ondersteunt Campaign Standard alleen leveringen voor bekende profielen.
 
 Raadpleeg de volgende secties voor meer informatie over het gebruik van workflows en leveringen:
 

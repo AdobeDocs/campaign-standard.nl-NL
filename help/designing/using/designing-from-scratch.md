@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Geheel nieuwe e-mails ontwerpen {#designing-an-email-content-from-scratch}
 
-Leer hoe u e-mailinhoud kunt master. Met E-mailontwerper kunt u e-mails en sjablonen maken die beginnen met of zonder uw eigen vooraf gedefinieerde inhoud.
+Leer hoe u e-mailinhoud kunt vervaardigen. Met E-mailontwerper kunt u e-mails en sjablonen maken die beginnen met of zonder uw eigen vooraf gedefinieerde inhoud.
 
 Hier volgen de belangrijkste stappen voor het maken en ontwerpen van een geheel nieuwe e-mailinhoud met de e-mailontwerper:
 
@@ -30,7 +30,7 @@ Hier volgen de belangrijkste stappen voor het maken en ontwerpen van een geheel 
 1. Een voorvertoning van uw e-mail bekijken.
 1. Sla de inhoud op en voer het bericht verder nadat u hebt bepaald dat u een publiek hebt gedefinieerd en het verzenden op de juiste wijze hebt gepland.
 
-U kunt dit ook uitchecken [inleidende video](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
+U kunt dit ook controleren [inleidende video](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Met de e-mailontwerper kunt u de structuur van uw e-mail eenvoudig definiëren. 
 De structuur van een e-mail bewerken:
 
 1. Open een bestaande inhoud of maak een nieuwe e-mailinhoud.
-1. Toegang krijgen tot **[!UICONTROL Structure components]** door **+** links.
+1. Toegang krijgen tot de **[!UICONTROL Structure components]** door de **+** links.
 
    ![](assets/email_designer_structure.png)
 
@@ -71,7 +71,7 @@ De structuur van een e-mail bewerken:
 
 1. Er zijn verschillende structuurcomponenten beschikbaar die uit een of meer kolommen zijn samengesteld.
 
-   Selecteer **[!UICONTROL n:n column]** om het aantal kolommen van uw keus (tussen 3 en 10) te bepalen. U kunt de breedte van elke kolom ook bepalen door de pijlen bij de bodem van elke kolom te bewegen.
+   Selecteer de **[!UICONTROL n:n column]** om het aantal kolommen van uw keus (tussen 3 en 10) te bepalen. U kunt de breedte van elke kolom ook bepalen door de pijlen bij de bodem van elke kolom te bewegen.
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -90,7 +90,7 @@ Nadat de structuur is gedefinieerd, kunt u inhoudsfragmenten en -componenten aan
 
 Een preheader is een korte samenvattingstekst die op de onderwerpregel volgt wanneer een e-mail van uw Postvak IN wordt weergegeven. De preheader biedt een hogere open snelheid.
 
-Selecteer **[!UICONTROL Preheader]** te bewerken en de inhoud in te vullen.
+Selecteer de **[!UICONTROL Preheader]** te bewerken en de inhoud in te vullen.
 
 ![](assets/email_designer_preheader.png)
 
@@ -127,7 +127,7 @@ Gebruik deze component om tekst in te voegen in uw e-mail. U kunt de kleur, stij
 
 ### **[!UICONTROL Divider]**
 
-Gebruik deze component om een scheidingslijn in te voegen in uw e-mail. U kunt de kleur, stijl en grootte van de eindlijn selecteren in **[!UICONTROL Component Settings]**.
+Gebruik deze component om een scheidingslijn in te voegen in uw e-mail. U kunt in **[!UICONTROL Component Settings]**.
 
 ### **[!UICONTROL HTML]**
 
@@ -137,7 +137,7 @@ Met deze component kunt u de verschillende onderdelen van de bestaande HTML kopi
 >
 >Een gratis HTML-component kan met beperkte opties worden bewerkt. Als niet alle stijlen zijn gekanteld, moet u de juiste CSS toevoegen in het dialoogvenster **kop** van de HTML-code, anders reageert de e-mail niet. Gebruik de **[!UICONTROL Preview]** om de reactiesnelheid van uw inhoud te testen (zie [Berichten voorvertonen](../../sending/using/previewing-messages.md)).
 
-Om een externe inhoud eenvoudig compatibel te maken met de e-mailontwerper, raadt Adobe u aan een geheel nieuw bericht te maken en de inhoud van uw bestaande e-mail te kopiëren naar fragmenten en componenten.
+Om een externe inhoud eenvoudig compatibel te maken met de e-mailontwerper, raadt de Adobe u aan een geheel nieuw bericht te maken en de inhoud van uw bestaande e-mail te kopiëren naar fragmenten en onderdelen.
 
 Als u inhoud hebt die niet opnieuw kan worden gemaakt, kunt u de HTML-code uit het originele e-mailbericht kopiëren en plakken met de opdracht **[!UICONTROL Html]** inhoudscomponent. Zorg ervoor dat u bekend bent met HTML voordat u verdergaat.
 

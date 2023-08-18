@@ -30,11 +30,11 @@ Als deze optie is ingeschakeld, moet u e-mail BCC activeren via de **[!UICONTROL
 ## Recommendations en beperkingen {#recommendations-and-limitations}
 
 * Deze functie is optioneel. Controleer uw licentieovereenkomst en neem contact op met uw accountmanager om deze te activeren.
-* Het adres BCC van uw keus moet aan het team van Adobe worden verstrekt die het voor u zal vormen.
+* Het adres BCC van uw keus moet aan het team van de Adobe worden verstrekt die het voor u zal vormen.
 * U kunt slechts één BCC-e-mailadres gebruiken.
 * Alleen e-mailberichten die correct zijn verzonden, worden in aanmerking genomen. Bounces niet.
 * Om privacyredenen moeten BCC-e-mails worden verwerkt door een archiveringssysteem dat veilig identificeerbare informatie (PII) kan opslaan.
-* Bij het maken van een nieuwe leveringssjabloon is de optie BCC via e-mail niet standaard ingeschakeld, zelfs niet als de optie is aangeschaft. U moet het manueel in elke leveringsmalplaatje toelaten waar u het wilt gebruiken.
+* Bij het maken van een nieuwe leveringssjabloon is E-mail BCC niet standaard ingeschakeld, zelfs niet als de optie is aangeschaft. U moet het manueel in elke leveringsmalplaatje toelaten waar u het wilt gebruiken.
 
 >[!NOTE]
 >

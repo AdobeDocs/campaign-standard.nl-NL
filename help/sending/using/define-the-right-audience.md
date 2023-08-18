@@ -18,15 +18,15 @@ ht-degree: 11%
 
 # De juiste doelgroep definiëren {#define-the-right-audience}
 
-Gerichte populatie is van essentieel belang: uw lijsten zorgvuldig samen te stellen, uw e-mailberichten te testen op populaire e-mailclients en mobiele apparaten en ervoor te zorgen dat uw e-maillijsten up-to-date zijn (zonder onbekende of verouderde adressen). U kunt ook proefdrukken verzenden waarmee u een volledige validatiecyclus kunt instellen.
+De doelgroep is belangrijk: maak uw lijsten zorgvuldig, test uw e-mails op populaire e-mailclients en mobiele apparaten en controleer of uw e-maillijsten up-to-date zijn (zonder onbekende of verouderde adressen). U kunt ook proefdrukken verzenden waarmee u een volledige validatiecyclus kunt instellen.
 
-Meer informatie over doelgroepen [in deze sectie](../../audiences/using/selecting-an-audience-in-a-message.md)
+Meer informatie over doelpopulaties [in deze sectie](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 ## Doelgroep {#target-the-right-audience}
 
 Wanneer u uw inhoud klaar hebt, moet u zorgvuldig bepalen wie uw bericht zal ontvangen.
 
-Om uw levering succesvol te maken, wilt u de meest relevante gepersonaliseerde inhoud naar de juiste ontvangers verzenden. Met Adobe Campaign kunt u het meest nauwkeurige doel maken: u kunt ontvangers selecteren op basis van hun leeftijd, lokalisatie, wat ze hebben gekocht, als ze op een koppeling hebben geklikt in een vorige levering, enzovoort. Met Adobe Campaign kunt u ook testprofielen, controlegroepen en zaadadressen definiëren om te controleren of het doel correct is.
+Om uw levering succesvol te maken, wilt u de meest relevante gepersonaliseerde inhoud naar de juiste ontvangers verzenden. Met Adobe Campaign kunt u het meest nauwkeurige doel maken: u kunt ontvangers selecteren op basis van hun leeftijd, lokalisatie, wat ze hebben gekocht, als ze op een koppeling in een vorige levering klikken, enzovoort. Met Adobe Campaign kunt u ook testprofielen, controlegroepen en zaadadressen definiëren om te controleren of het doel correct is.
 
 ## Doeltoewijzingen {#target-mappings}
 

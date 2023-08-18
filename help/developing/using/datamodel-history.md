@@ -32,7 +32,7 @@ ht-degree: 1%
                   <td> </td>
                </tr>
                <tr>
-                  <td>leeftijd</td>
+                  <td>ouderdom</td>
                   <td>Leeftijd</td>
                   <td>integer </td>
                   <td> </td>
@@ -352,13 +352,13 @@ ht-degree: 1%
                         <li>(GMT+01:00) Belgrado, Bratislava, Boedapest, Ljubljana, Praag - Europa_Belgrado - Europa/Belgrado</li>
                         <li>(GMT) Reykjavik - Atlantic_Reykjavik - Atlantic/Reykjavik</li>
                         <li>(GMT+02:00) Boekarest - Europa_Boekarest - Europa/Boekarest</li>
-                        <li>(GMT+05:00) Greenwich Mean Time plus 5 uur - Gmt_p5 - Etc/GMT-5</li>
+                        <li>(GMT+05:00) Greenwich Mean Time plus 5 uur - Gmt_p5 - EC/GMT-5</li>
                         <li>(GMT+04:00) Greenwich Mean Time plus 4 uur - Gmt_p4 - Etc/GMT-4</li>
-                        <li>(GMT+07:00) Greenwich Mean Time plus 7 uur - GMT_p7 - Etc/GMT-7</li>
+                        <li>(GMT+07:00) Greenwich Mean Time plus 7 uur - GMT_p7 - EC/GMT-7</li>
                         <li>(GMT+06:00) Greenwich Mean Time plus 6 uur - Gmt_p6 - Etc/GMT-6</li>
                         <li>(GMT+01:00) Greenwich Mean Time plus 1 uur - Gmt_p1 - EC/GMT-1</li>
                         <li>(GMT-08:00) Pacific (Verenigde Staten en Canada) - America_Los_Angeles - America/Los_Angeles</li>
-                        <li>(GMT+02:00) Greenwich Mean Time plus 2 uur - Gmt_p2 - Etc/GMT-2</li>
+                        <li>(GMT+02:00) Greenwich Mean Time plus 2 uur - Gmt_p2 - EC/GMT-2</li>
                         <li>(GMT+07:00) Krasnoïarsk - Azië_Krasnoyarsk - Azië/Krasnoyarsk</li>
                         <li>(GMT+09:00) Greenwich Mean Time plus 9 uur - Gmt_p9 - EC/GMT-9</li>
                         <li>(GMT+08:00) Greenwich Mean Time plus 8 uur - Gmt_p8 - Etc/GMT-8</li>
@@ -511,7 +511,7 @@ Klikt (hasClickedDelivery)
 <th>Type</th>
 </tr>
 <tr>
-<td>levering</td>
+<td>bezorging</td>
 <td>link</td>
 </tr>
 </table>
@@ -524,7 +524,7 @@ Geopend (hasOpenDelivery)
 <th>Type</th>
 </tr>
 <tr>
-<td>levering</td>
+<td>bezorging</td>
 <td>link</td>
 </tr>
 </table>
@@ -550,7 +550,7 @@ Ontvangen (hasReceivedDelivery)
 <th>Type</th>
 </tr>
 <tr>
-<td>levering</td>
+<td>bezorging</td>
 <td>link</td>
 </tr>
 </table>

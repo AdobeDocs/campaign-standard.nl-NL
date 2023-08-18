@@ -28,7 +28,7 @@ Hier volgen enkele voorbeelden:
 * Transactiecommunicatie op basis van gebeurtenissen activeren - orderbevestiging, boekingsroute, opnieuw instellen van wachtwoord, enz.
 * Zelfs de communicatie via e-mail over het verlaten van de winkelwagentje.
 
-Aanbiedingspagina&#39;s voor aanmelding bieden klanten of vooruitzichten een manier om hun naam en e-mailadres te registreren. Zodra Campaign Standard de profielinformatie en voorkeur vangt, kan het gepersonaliseerde berichten verzenden die op de belangen van de persoon worden gebaseerd.
+Aanbiedingspagina&#39;s voor aanmelding bieden klanten of vooruitzichten een manier om hun naam en e-mailadres te registreren. Zodra het Campaign Standard de profielinformatie en voorkeur vangt, kan het gepersonaliseerde berichten verzenden die op de belangen van de persoon worden gebaseerd.
 
 Ze zijn gemaakt met de volgende elementen:
 
@@ -44,9 +44,9 @@ Ze zijn gemaakt met de volgende elementen:
 
    ![alt-tekst](assets/apis_uc3.png)
 
-Er is een verzameling aanvragen beschikbaar om u te helpen vertrouwd te maken met Campaign Standard API&#39;s-aanvragen. Deze verzameling in JSON-indeling biedt vooraf ontworpen API-aanvragen die veelvoorkomende gebruiksgevallen vertegenwoordigen.
+Er is een verzameling aanvragen beschikbaar om u te helpen vertrouwd te maken met Campaign Standard-API&#39;s. Deze verzameling in JSON-indeling biedt vooraf ontworpen API-aanvragen die veelvoorkomende gebruiksgevallen vertegenwoordigen.
 
-In de onderstaande stappen wordt een stapsgewijze beschrijving van het gebruik beschreven voor het importeren en gebruiken van de verzameling om een profiel te maken in een Campaign Standard-database.
+In de onderstaande stappen wordt een stapsgewijze beschrijving van het gebruik beschreven voor het importeren en gebruiken van de verzameling om een profiel te maken in een database van Campaigns Standard.
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ In de onderstaande stappen wordt een stapsgewijze beschrijving van het gebruik b
 
    ![alt-tekst](assets/postman_collection.png)
 
-1. Selecteer **Een profiel maken** verzoek, dan update het verzoek van de POST en **Kopteksten** met uw eigen gegevens (&lt;organization>, &lt;api_key>, &lt;access_token>). Raadpleeg [deze sectie](../../api/using/setting-up-api-access.md) voor meer informatie.
+1. Selecteer de **Een profiel maken** verzoek, dan update het verzoek van de POST en **Kopteksten** met uw eigen gegevens (&lt;organization>, &lt;api_key>, &lt;access_token>). Raadpleeg [deze sectie](../../api/using/setting-up-api-access.md) voor meer informatie.
 
    ![alt-tekst](assets/postman_uc1.png)
 
@@ -72,6 +72,6 @@ In de onderstaande stappen wordt een stapsgewijze beschrijving van het gebruik b
 
    ![alt-tekst](assets/postman_uc3.png)
 
-1. Open uw instantie van de Campaign Standard, dan controleer dat het profiel, met alle informatie van de lading wordt gecreeerd.
+1. Open uw instantie van het Campaign Standard, dan controleer dat het profiel, met alle informatie van de lading wordt gecreeerd.
 
    ![alt-tekst](assets/postman_uc4.png)

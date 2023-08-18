@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Over privacybeheer {#about-privacy-management}
 
-Campaign Standard API&#39;s bieden functies die het mogelijk maken verzoeken die verband houden met privacyregels zoals GDPR en CCPA, automatisch af te handelen.
+Campaign Standard-API&#39;s bieden functies die het mogelijk maken verzoeken die verband houden met privacyregels zoals GDPR en CCPA, automatisch af te handelen.
 
 U kunt de volgende acties uitvoeren:
 
 * Maak een nieuwe privacyaanvraag,
 * Een privacyverzoek bewaken,
-* Een bestand met privacygegevens ophalen,
+* Hiermee wordt een bestand met privacygegevens opgehaald,
 * De status van een profiel voor het uitschakelen van een CCPA-bestand beheren.
 
 Het API-eindpunt van de privacy is **/privacy/privacyTool**. De het middelbeschrijving van PrivacyTool en bijbehorende filters zijn beschikbaar in de middelmeta-gegevens. Zie [Metagegevensmechanisme](../../api/using/metadata-mechanism.md).

@@ -53,7 +53,7 @@ De voorbereiding van berichten wordt geactiveerd volgens de parameters voor work
    * **[!UICONTROL SMS]**: De sms wordt één keer verzonden. U kunt hier opgeven of u al dan niet een uitgaande overgang aan de activiteit wilt toevoegen. De verschillende overgangstypen worden beschreven in stap 7 van deze procedure.
    * **[!UICONTROL Recurring SMS]**: De sms wordt verscheidene keren verzonden, volgens de frequentie die in een activiteit **[!UICONTROL Scheduler]** is bepaald. Selecteer de aggregatieperiode van de verzendingen. Zo kunt u alle verzendingen die tijdens de gedefinieerde periode plaatsvinden, hergroeperen in één enkele weergave die ook wel **Periodieke uitvoering** wordt genoemd en via de lijst met marketingactiviteiten van de applicatie kan worden geopend.
 
-      Voor een terugkerende verjaardags-sms die dagelijks wordt verzonden, kunt u er bijvoorbeeld voor kiezen om de verzendingen per maand samen te voegen. Op deze manier ontvangt u maandelijks rapporten over uw levering, hoewel de sms elke dag wordt verzonden.
+     Voor een terugkerende verjaardags-sms die dagelijks wordt verzonden, kunt u er bijvoorbeeld voor kiezen om de verzendingen per maand samen te voegen. Op deze manier ontvangt u maandelijks rapporten over uw levering, hoewel de sms elke dag wordt verzonden.
 
 1. Selecteer een sms-type. De sms-typen zijn afkomstig van sms-sjablonen die zijn gedefinieerd in het menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Voer de algemene eigenschappen van de sms in. U kunt deze ook aan een bestaande campagne koppelen. Het label van de leveringsactiviteit van de workflow wordt bijgewerkt met het sms-label.

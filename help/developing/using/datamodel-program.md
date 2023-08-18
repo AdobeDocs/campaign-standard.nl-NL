@@ -1,5 +1,5 @@
 ---
-title: DataModel-programma
+title: DataModel Program
 description: Meer informatie over het datamodel
 audience: developing
 content-type: reference
@@ -103,8 +103,8 @@ ht-degree: 8%
                   <td>opsomming (tekenreeks) (255)</td>
                   <td>
                      <ul>
-                        <li>In uitvoering - gestart - gestart</li>
-                        <li>Bewerken - editie - editie</li>
+                        <li>Aan de gang - begonnen - begonnen</li>
+                        <li>Bewerkingen - editie</li>
                         <li>Voltooid - voltooid - voltooid</li>
                         <li>Waarschuwing - waarschuwing - waarschuwing</li>
                         <li>Onjuist - fout - fout</li>

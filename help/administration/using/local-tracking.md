@@ -29,7 +29,7 @@ Het bijhouden van lokale meldingen kan in drie typen worden gesplitst:
 
 Voor het implementeren van tracering voor Adobe Campaign Standard moet de mobiele toepassing de Mobile SDK opnemen in de toepassing. Deze SDK&#39;s zijn beschikbaar in [!DNL Adobe Mobile Services].
 
-Er zijn drie variabelen die moeten worden verzonden om trackinggegevens te verzenden: twee maken deel uit van de gegevens die van Adobe Campaign worden ontvangen, en de andere is een handelingsvariabele die bepaalt of het een indruk, een klik of een open is.
+Om het volgen informatie te verzenden, zijn er drie variabelen die moeten worden verzonden: twee maken deel uit van de gegevens die van Adobe Campaign worden ontvangen en het andere is een actievariabele die of het een indruk, een klik of een open dicteert.
 
 | Variabele | Waarde |
 | :-: | :-: |
@@ -51,17 +51,17 @@ Om kliks te volgen, moeten twee scenario&#39;s worden uitgevoerd:
 
 * De gebruiker ziet het bericht maar wist het.
 
-   Om te volgen klik in het geval van ontslagscenario, voeg de uitzendingsontvanger toe `NotificationDismissalHandler` in het AndroidManifest-bestand van uw toepassingsmodule.
+  Om te volgen klik in het geval van ontslagscenario, voeg de uitzendingsontvanger toe `NotificationDismissalHandler` in het AndroidManifest-bestand van uw toepassingsmodule.
 
-   ```
-   <receiver
-   android:name="com.adobe.marketing.mobile.NotificationDismissalHandler">
-   </receiver>
-   ```
+  ```
+  <receiver
+  android:name="com.adobe.marketing.mobile.NotificationDismissalHandler">
+  </receiver>
+  ```
 
 * De gebruiker ziet het bericht en klikt erop, dit zal aan open het volgen draaien.
 
-   Dit scenario zou een klik en een open moeten veroorzaken. Het volgen van deze klik zal een deel van de implementatie nodig zijn om open te volgen. Zie [Openbare tracering implementeren](#implement-open-tracking).
+  Dit scenario zou een klik en een open moeten veroorzaken. Het volgen van deze klik zal een deel van de implementatie nodig zijn om open te volgen. Zie [Openbare tracering implementeren](#implement-open-tracking).
 
 ### Voor iOS {#implement-click-tracking-ios}
 

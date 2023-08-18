@@ -19,7 +19,7 @@ ht-degree: 25%
 
 ## Over bijhouden {#about-tracking}
 
-Dankzij de trackingfuncties van Adobe Campaign kunt u het gedrag van de geadresseerden bijhouden. Hiervoor gebruikt Adobe Campaign sessiecookies en permanente cookies.
+Dankzij de trackingfuncties van Adobe Campaign kunt u het gedrag van de ontvangers van de levering volgen. Hiervoor gebruikt Adobe Campaign sessiecookies en permanente cookies.
 
 U kunt gebruikers laten weten dat uw sites zijn uitgerust met webtraceringsprogramma&#39;s via een verzoek om toestemming (bijvoorbeeld via de pagina) met een selectievakje waarmee het gebruik van cookies wordt toegestaan, of u kunt een banner toevoegen boven aan de eerste pagina waarop ze landen, enzovoort. Pop-upvensters moeten worden vermeden omdat ze vaak worden geblokkeerd door browsers.
 
@@ -73,14 +73,14 @@ In het bovenstaande voorbeeld:
 
 * Open het bericht.
 * Klik op de koppeling spiegel.
-* Klik op de aangepaste koppeling &quot;MEER INFORMATIE&quot;.
+* Klik op de aangepaste koppeling MEER INFORMATIE.
 
 In de **[!UICONTROL Type]** kolom, de mogelijke waarden zijn:
 
 * **[!UICONTROL Email click]**: de ontvangers hebben op een aangepaste koppeling geklikt.
 * **[!UICONTROL Mirror page]**: de ontvanger klikte op een verbinding aan de spiegelpagina.
 * **[!UICONTROL Open]**: de ontvanger heeft de e-mail geopend.
-* **[!UICONTROL Opt-out]**: de ontvanger klikte op een unsubscription verbinding.
+* **[!UICONTROL Opt-out]**: de ontvanger klikte op een koppeling zonder abonnement.
 
 >[!NOTE]
 >

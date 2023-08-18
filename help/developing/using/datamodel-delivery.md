@@ -10,7 +10,7 @@ exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -196,8 +196,8 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>uitvoering</td>
-                  <td>Uitvoeringsparameters van de levering</td>
+                  <td>executie</td>
+                  <td>Parameters voor uitvoering van de levering</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -313,8 +313,8 @@ ht-degree: 6%
                   <td>opsomming (tekenreeks) (255)</td>
                   <td>
                      <ul>
-                        <li>In uitvoering - gestart - gestart</li>
-                        <li>Bewerken - editie - editie</li>
+                        <li>Aan de gang - begonnen - begonnen</li>
+                        <li>Bewerkingen - editie</li>
                         <li>Voltooid - voltooid - voltooid</li>
                         <li>Waarschuwing - waarschuwing - waarschuwing</li>
                         <li>Onjuist - fout - fout</li>
@@ -342,13 +342,13 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>master (deliveryBase)</td>
-                  <td>Master instantie</td>
+                  <td>Hoofdexemplaar</td>
                   <td>link </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>masterKpis</td>
-                  <td>Master indicatoren</td>
+                  <td>Stramienindicatoren</td>
                   <td>item </td>
                   <td> </td>
                </tr>
@@ -449,7 +449,7 @@ ht-degree: 6%
                </tr>
                <tr>
                   <td>ribbonMessage</td>
-                  <td>Lint</td>
+                  <td>Lint-bericht</td>
                   <td>string </td>
                   <td> </td>
                </tr>
@@ -571,8 +571,8 @@ ht-degree: 6%
                   <td>opsomming (tekenreeks) (255)</td>
                   <td>
                      <ul>
-                        <li>In uitvoering - gestart - gestart</li>
-                        <li>Bewerken - editie - editie</li>
+                        <li>Aan de gang - begonnen - begonnen</li>
+                        <li>Bewerkingen - editie</li>
                         <li>Voltooid - voltooid - voltooid</li>
                         <li>Waarschuwing - waarschuwing - waarschuwing</li>
                         <li>Onjuist - fout - fout</li>

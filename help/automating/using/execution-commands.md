@@ -30,7 +30,7 @@ De ![](assets/play_darkgrey-24px.png) start met het uitvoeren van een workflow d
 
 >[!NOTE]
 >
->De aanvang is een asynchroon proces: het verzoek wordt opgeslagen en zal zo spoedig mogelijk door de werkschemauitvoeringsmotor worden verwerkt.
+>De start is een asynchroon proces: de aanvraag wordt opgeslagen en wordt zo snel mogelijk verwerkt door de engine voor workflowuitvoering.
 
 **Pauzeren**
 
@@ -38,7 +38,7 @@ De ![](assets/pause_darkgrey-24px.png) pauzeert de uitvoering. De workflow neemt
 
 **Stoppen**
 
-De ![](assets/stop_darkgrey-24px.png) de knop stopt een workflow die wordt uitgevoerd en die vervolgens de **Voltooid** (groen) status. De bewerkingen die worden uitgevoerd, worden indien mogelijk onderbroken en de import of SQL-query&#39;s die worden uitgevoerd, worden onmiddellijk geannuleerd. U kunt de workflow niet hervatten vanaf de plaats waar deze is gestopt.
+De ![](assets/stop_darkgrey-24px.png) de knop stopt een workflow die wordt uitgevoerd en die vervolgens de **Voltooid** (groen) status. De actieve bewerkingen worden indien mogelijk onderbroken en de import of SQL-query&#39;s die worden uitgevoerd, worden onmiddellijk geannuleerd. U kunt de workflow niet hervatten vanaf de plaats waar deze is gestopt.
 
 **Opnieuw starten**
 
@@ -56,7 +56,7 @@ De ![](assets/check_darkgrey-24px.png) Hiermee activeert u gepauzeerde of gedeac
 
 **Uitvoering opgeschort**
 
-De ![](assets/check_pause_darkgrey-24px.png) de knop pauzeert de workflow bij de geselecteerde activiteit: deze taak en alle taken die erop volgen (in dezelfde vertakking) worden niet uitgevoerd.
+De ![](assets/check_pause_darkgrey-24px.png) pauzeert de werkstroom bij de geselecteerde activiteit: deze taak en alle taken die erop volgen (in dezelfde vertakking) worden niet uitgevoerd.
 
 **Geen uitvoering**
 

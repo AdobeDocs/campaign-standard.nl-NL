@@ -1,6 +1,6 @@
 ---
 title: Externe API
-description: De externe API activiteit brengt gegevens in het werkschema van Campaign Standard van een extern systeem via een vraag van HTTP API.
+description: De activiteit van de Externe API brengt gegevens in het werkschema van het Campaign Standard van een extern systeem via een vraag van HTTP API.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -38,7 +38,7 @@ De belangrijkste kenmerken van deze activiteit zijn:
 
 ### Berichten over compatibiliteit met oudere versies {#from-beta-to-ga}
 
-Met de release van Campaign Standard 20.4 zijn de beperking voor de grootte van de http-responsgegevens en de time-outinstructies voor de reactie verkleind om deze af te stemmen op de best practices - zie [Beperkingen en geleiders](#guardrails). Deze beveiligingswijzigingen gelden niet voor bestaande Externe API-activiteiten; daarom wordt u aangeraden bestaande Externe API-activiteiten in alle workflows te vervangen door nieuwe versies.
+Met de release van Campaign Standard 20.4 zijn de beperking voor de grootte van de http-responsgegevens en de instructies voor de time-out van de reactie verlaagd om deze af te stemmen op de best practices - zie [Beperkingen en geleiders](#guardrails). Deze beveiligingswijzigingen gelden niet voor bestaande Externe API-activiteiten; daarom wordt u aangeraden bestaande Externe API-activiteiten in alle workflows te vervangen door nieuwe versies.
 
 Wanneer u activiteiten voor Externe API vervangt, voegt u de nieuwe activiteit Externe API toe aan de workflow, kopieert u handmatig de configuratiedetails en verwijdert u vervolgens de oude activiteit.
 
@@ -96,7 +96,7 @@ De JSON-parser is ontworpen voor standaard typen JSON-structuurpatronen, met enk
 De JSON-voorbeelddefinitie moet de **volgende kenmerken** hebben:
 
 * **Matrixelementen** moeten eigenschappen op het eerste niveau bevatten (diepere niveaus worden niet ondersteund).
-   **Eigenschapsnamen** worden uiteindelijk de kolomnamen voor het uitvoerschema van de tijdelijke uitvoertabel.
+  **Eigenschapsnamen** worden uiteindelijk de kolomnamen voor het uitvoerschema van de tijdelijke uitvoertabel.
 * **JSON-elementen** die moeten worden vastgelegd, moeten zich binnen de eerste 10 nestniveaus van het JSON-antwoord bevinden.
 * **De kolomnaamdefinitie** is gebaseerd op het eerste element van de ‘data’-matrix.
 De definitie van kolommen (toevoegen/verwijderen) en de typewaarde van de eigenschap kunnen in het tabblad **Column definition** worden bewerkt.
@@ -114,13 +114,13 @@ Als de **parsering wordt gevalideerd**, verschijnt er een bericht waarin u wordt
 
 ### Execution
 
-Op dit tabblad kunt u het eindpunt van de verbinding definiëren. De **[!UICONTROL URL]** kunt u het veld **HTTPS-eindpunt** die Campaign Standard zal communiceren met .
+Op dit tabblad kunt u het eindpunt van de verbinding definiëren. De **[!UICONTROL URL]** kunt u het veld **HTTPS-eindpunt** dat Campaign Standard zal communiceren met .
 
 Indien nodig door het eindpunt, zijn twee types van authentificatiemethode beschikbaar:
 
-* Basisverificatie: Voer uw gebruikersnaam-/wachtwoordgegevens in het dialoogvenster **[!UICONTROL Request Header(s)]** sectie.
+* Basisverificatie: voer uw gebruikersnaam-/wachtwoordgegevens in het dialoogvenster **[!UICONTROL Request Header(s)]** sectie.
 
-* OAuth-verificatie: Klik op de knop **[!UICONTROL Use connection parameters defined in an external account]** in een externe account kunt u een externe account selecteren waar de OAuth-verificatie is gedefinieerd. Raadpleeg de sectie [Externe accounts](../../administration/using/external-accounts.md) voor meer informatie.
+* OAuth-verificatie: door op de knop **[!UICONTROL Use connection parameters defined in an external account]** in een externe account kunt u een externe account selecteren waar de OAuth-verificatie is gedefinieerd. Raadpleeg de sectie [Externe accounts](../../administration/using/external-accounts.md) voor meer informatie.
 
 ![](assets/externalAPI-execution.png)
 
@@ -158,7 +158,7 @@ Dit tabblad is beschikbaar voor de meeste workflowactiviteiten. Raadpleeg de sec
 
 ## Testen
 
-Als u de externe API-functionaliteit wilt testen met een eenvoudig testeindpunt, kunt u Postman Echo gebruiken: https://docs.postman-echo.com.
+Als u de externe API-functionaliteit wilt testen met een eenvoudig testeindpunt, kunt u Postman Echo: https://docs.postman-echo.com gebruiken.
 
 ## Problemen oplossen
 

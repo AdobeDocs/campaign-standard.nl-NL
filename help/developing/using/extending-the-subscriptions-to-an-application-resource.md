@@ -1,6 +1,6 @@
 ---
 title: De lidmaatschappen uitbreiden naar een applicatiebron
-description: Leer hoe u het abonnement kunt uitbreiden naar een bron van een toepassing
+description: Leer hoe u het abonnement kunt uitbreiden naar een toepassingsbron
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
@@ -22,8 +22,8 @@ In Adobe Campaign worden data van mobiele profielkenmerken die vanaf een mobiel 
 Deze bron kan worden uitgebreid om gegevens te verzamelen die u van het mobiele apparaat naar Adobe Campaign wilt verzenden.
 
 1. Selecteer in het geavanceerde menu dat u opent via het Adobe Campaign-logo achtereenvolgens **[!UICONTROL Administration]** > **[!UICONTROL Development]** en **[!UICONTROL Custom resources]**.
-1. Klikken **[!UICONTROL Create]** en kiest u **[!UICONTROL Extend an existing resource]** optie.
-1. Selecteer **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** bron en klik op **[!UICONTROL Create]**.
+1. Klikken **[!UICONTROL Create]** en kiest u **[!UICONTROL Extend an existing resource]** -optie.
+1. Selecteer de **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** bron en klik op **[!UICONTROL Create]**.
 
    ![](assets/in_app_personal_data_4.png)
 
@@ -45,4 +45,4 @@ Deze bron kan worden uitgebreid om gegevens te verzamelen die u van het mobiele 
 
    ![](assets/in_app_personal_data_3.png)
 
-1. **[!UICONTROL Save]** en publiceert u uw aangepaste bron. Voor meer informatie over de publicatie van douanemiddelen, verwijs naar dit [page](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. **[!UICONTROL Save]** en publiceert u uw aangepaste bron. Raadpleeg voor meer informatie over de publicatie van aangepaste bronnen de volgende [page](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).

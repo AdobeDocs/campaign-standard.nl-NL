@@ -1,6 +1,6 @@
 ---
 title: Lijsten aanpassen
-description: "Leer hoe u de weergave kunt aanpassen en hoe u kunt werken op lijstschermen in Adobe Campaign Standard:elementen sorteren, filteren, verwijderen of dupliceren. De schermen van lijsten tonen elementen van één of verscheidene bepaalde middelen."
+description: "Leer hoe u de weergave kunt aanpassen en kunt werken op lijstschermen in Adobe Campaign Standard:elementen sorteren, filteren, verwijderen of dupliceren. De schermen van lijsten tonen elementen van één of verscheidene bepaalde middelen."
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Lijsten aanpassen{#customizing-lists}
 
-**Lijst** de schermen staan u toe om elementen van één of verscheidene bepaalde middelen te tonen.
+**Lijst** Met schermen kunt u elementen van een of meer opgegeven bronnen weergeven.
 
 Adobe Campaign heeft twee typen lijsten:
 
@@ -34,7 +34,7 @@ Wanneer u de muis boven een element in de lijst plaatst, **snelle acties**. Met 
 
 U kunt ook configureren of kolommen in een lijst al dan niet moeten worden weergegeven. Kolommen toevoegen of verwijderen:
 
-1. Zorg ervoor dat het scherm in staat is **Lijst** in.
+1. Zorg ervoor dat het scherm in staat is **Lijst** -modus.
 
    ![](assets/export_list_mode_switch.png)
 

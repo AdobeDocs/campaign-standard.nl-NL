@@ -24,7 +24,7 @@ Als u de integratie tussen Adobe Campaign Standard en Adobe Analytics wilt start
 Externe accounts en technische workflows kunnen alleen worden beheerd door de functionele beheerder van het platform.
 
 1. Selecteer in het geavanceerde menu via het Adobe Campaign-logo de optie **[!UICONTROL Administration > Application settings > External accounts]**.
-1. Selecteer **[!UICONTROL Share KPIs with Adobe Analytics]** externe rekening.
+1. Selecteer de **[!UICONTROL Share KPIs with Adobe Analytics]** externe rekening.
 
    ![](assets/analytics_2.png)
 
@@ -35,7 +35,7 @@ Externe accounts en technische workflows kunnen alleen worden beheerd door de fu
    ![](assets/analytics_1.png)
 
 1. Klik op de knop **[!UICONTROL Refresh report suites]**.
-1. Selecteren in het dialoogvenster **[!UICONTROL Analytics default report suite]** vervolgkeuzelijst met Adobe Analytics-rapporten die u wilt verrijken met Adobe Campaign-gegevens.
+1. Selecteren in het dialoogvenster **[!UICONTROL Analytics default report suite]** vervolgkeuzelijst met Adobe Analytics-rapporten die u wilt uitbreiden met Adobe Campaign-gegevens.
 
    Je externe account is nu klaar en gekoppeld aan Adobe Analytics. U kunt deze op elk gewenst moment uitschakelen door de knop **[!UICONTROL Enabled]** doos.
 

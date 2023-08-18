@@ -40,11 +40,11 @@ Meertalige push vereist 14 kolommen in het CSV-bestand:
 
 Controleer het CSV-voorbeeld door op de knop **[!UICONTROL Download a sample file]** in de **[!UICONTROL Manage Content Variants]** venster. Raadpleeg de volgende secties voor meer informatie [sectie](../../channels/using/creating-a-multilingual-push-notification.md).
 
-* **title, messageBody, sound, badge, deplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**: regelmatig de inhoud van de pushlading. U moet deze informatie op dezelfde manier verstrekken als wanneer het creëren van dupleveringen.
-* **Aangepaste velden**: Gebruik de JSON-indeling voor aangepaste velden, bijvoorbeeld `{"key1":"value1","key2":"value2"}`. Raadpleeg het voorbeeldbestand hierboven voor een voorbeeld van aangepaste velden.
+* **title, messageBody, sound, badge, deplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**: de inhoud van de standaardpushlading. U moet deze informatie op dezelfde manier verstrekken als wanneer het creëren van dupleveringen.
+* **Aangepaste velden**: gebruik de JSON-indeling voor aangepaste velden, bijvoorbeeld `{"key1":"value1","key2":"value2"}`. Raadpleeg het voorbeeldbestand hierboven voor een voorbeeld van aangepaste velden.
 * **isContentAvailable**: markering voor controle van beschikbare inhoud, waarde 1 impliceert waar, waarde 0 impliceert vals. De standaardwaarde is 0. Als u deze kolom leeg laat, zal de waarde als 0 worden beschouwd.
-* **isMutableContent**: markering voor Mutable Content, waarde 1 impliceert true, waarde 0 betekent false. De standaardwaarde is 0. Als u deze kolom leeg laat, zal de waarde als 0 worden beschouwd.
-* **landinstelling**: landinstelling is het veld voor taalvarianten, bijvoorbeeld &quot;en_us&quot; voor Amerikaans-Engels en &quot;fr_fr&quot; voor Frankrijk-Frans.
+* **isMutableContent**: markering voor Mutable Content, waarde 1 betekent true, waarde 0 betekent false. De standaardwaarde is 0. Als u deze kolom leeg laat, zal de waarde als 0 worden beschouwd.
+* **landinstelling**: locale is het veld voor taalvarianten, bijv. &quot;en_us&quot; voor Amerikaans-Engels en &quot;fr_fr&quot; voor Frankrijk-Frans.
 * **taal**: naam van de taal die aan de landinstelling is gekoppeld. Als de landinstelling bijvoorbeeld &#39;en_us&#39; is, moet de naam van de taal &#39;English-United States&#39; zijn.
 * **silentPush**: markering voor het type pushmelding. Als het een regelmatig pushbericht is, moet de waarde 0 zijn. Als het een stille push is, moet de waarde 1 zijn. De standaardwaarde is 0. Als u deze kolom leeg laat, zal de waarde als 0 worden beschouwd.
 
@@ -84,13 +84,13 @@ Het veld &quot;firstName&quot; wordt weergegeven door:
 
 In het bereik zijn twee verplichte kenmerken:
 
-* De ene is een klasse die statisch is. Welk verpersoonlijkingsgebied u van plan bent te gebruiken, zal het altijd class=&quot;nl-dce-field nl-dce-done&quot;zijn.
+* De ene klasse is static. Welk verpersoonlijkingsgebied u van plan bent te gebruiken, zal het altijd class=&quot;nl-dce-field nl-dce-done&quot;zijn.
 
 * Een andere is data-nl-expr die de weg van verpersoonlijkingsgebied is. Als u bijvoorbeeld het verpersoonlijkingsveld &quot;firstName&quot; vanuit de gebruikersinterface invoegt, wordt het navigatiepad ingesteld op **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** (zoals weergegeven in de onderstaande afbeelding). In dit geval wordt het pad
 
-   ```
-   /context/profile/firstName. data-nl-expr="/context/profile/firstName".
-   ```
+  ```
+  /context/profile/firstName. data-nl-expr="/context/profile/firstName".
+  ```
 
 ![](assets/multilingual_push_2.png)
 
@@ -143,7 +143,7 @@ De volgende talen worden ondersteund:
 | en_za | Engels - Zuid-Afrika |
 | en_tt | Engels - Trinidad en Tobago |
 | en_gb | Engels - Verenigd Koninkrijk |
-| nl_nl | Engels - Verenigde Staten |
+| nl_NL | Engels - Verenigde Staten |
 | nl_zw | Engels - Zimbabwe |
 | et_ee | Ests - Estland |
 | fi_fi | Fins - Finland |
@@ -221,4 +221,4 @@ De volgende talen worden ondersteund:
 | uk_ua | Oekraïens - Oekraïne |
 | ur_in | Urdu - India |
 | ur_pk | Urdu - Pakistan |
-| vi_vn | Vietnamees - Vietnam |
+| vi_v | Vietnamees - Vietnam |

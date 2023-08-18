@@ -25,11 +25,11 @@ Leer in dit document hoe u een afbeelding weergeeft via een Adobe Campaign Stand
 
 Pushmelding wordt ondersteund door Experience Platform-SDK&#39;s.
 
-De mobiele toepassingen die pushmeldingen ontvangen, moeten door een beheerder in de Adobe Campaign-interface zijn geconfigureerd.
+De mobiele toepassingen die pushberichten ontvangen, moeten door een beheerder in de Adobe Campaign-interface worden geconfigureerd.
 
 Door zowel Adobe Campaign als Adobe Mobile Services te configureren, kunt u de gegevens van uw mobiele toepassing gebruiken voor uw campagnes. Raadpleeg [deze pagina](../../administration/using/configuring-a-mobile-application.md) voor meer informatie.
 
-Als u pushberichten wilt verzenden met een Experience Cloud SDK-toepassing, moet een mobiele toepassing worden ingesteld in de gebruikersinterface voor gegevensverzameling en worden geconfigureerd in Adobe Campaign. Raadpleeg [deze pagina](../../administration/using/configuring-a-mobile-application.md#channel-specific-config) voor meer informatie.
+Als u pushberichten wilt verzenden met een SDK-toepassing voor Experiencen Cloud, moet een mobiele toepassing worden ingesteld in de gebruikersinterface voor gegevensverzameling en worden geconfigureerd in Adobe Campaign. Raadpleeg [deze pagina](../../administration/using/configuring-a-mobile-application.md#channel-specific-config) voor meer informatie.
 
 ## Stap 2: Je pushmelding aanpassen in Adobe Campaign {#customize-push}
 
@@ -37,7 +37,7 @@ Als u uw pushmelding wilt verfijnen, kunt u in Adobe Campaign een aantal geavanc
 
 1. Een pushmelding maken. Raadpleeg [deze pagina](../../channels/using/preparing-and-sending-a-push-notification.md) voor meer informatie.
 
-1. Open vanaf de pagina met pushberichten de **[!UICONTROL Advanced options]** sectie.
+1. Via de inhoudspagina van uw pushmelding kunt u de **[!UICONTROL Advanced options]** sectie.
 
 1. Voer de URL van het bestand in het dialoogvenster **[!UICONTROL Rich media content URL]** veld.
 Voor iOS 10 of hoger kunt u afbeeldings-, GIF-, audio- en videobestanden invoegen.
@@ -52,7 +52,7 @@ Nadat u uw pushmelding in Adobe Campaign hebt aangepast, moet u uw mobiele toepa
 
 >[!NOTE]
 >
->Als uw toepassing in doelstelling-C is, verwijs naar het volgende [documentatie](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
+>Raadpleeg het volgende als uw toepassing zich in doelstelling C bevindt [documentatie](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
 
 Als uw app in [!DNL Swift]volgt u de onderstaande stappen:
 
@@ -149,7 +149,7 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 }]
 ```
 
-## Stap 4: Test het verzenden van de push {#test-send-push}
+## Stap 4: Test die de push verzendt {#test-send-push}
 
 U kunt nu testen hoe u uw toepassing bouwt en hoe u de levering hebt gemaakt die u in stap 2 hierboven hebt gemaakt. Voor meer informatie over het voorbereiden en verzenden van uw pushmelding raadpleegt u deze [page](../../channels/using/preparing-and-sending-a-push-notification.md).
 

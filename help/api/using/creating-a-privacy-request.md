@@ -28,11 +28,11 @@ Voordat u aanvragen maakt, moet u de naamruimte definiëren die u wilt gebruiken
 De lading moet de volgende parameters bevatten:
 
 * **name**: een unieke interne naam
-* **namespace**: de naamruimtenaam die is geconfigureerd in de Campaign Standard-interface
-* **connectionValue**: de afstemmingswaarde gebaseerd op de afstemmingssleutel die is gedefinieerd in de naamruimte
+* **namespace**: de naamruimtenaam die in de interface van het Campaign Standard is geconfigureerd
+* **connectionValue**: de reconciliatiewaarde gebaseerd op de reconciliatietoets die in de naamruimte is gedefinieerd
 * **label**: het aanvraaglabel
 * **type**: het type aanvraag. Accepteerde waarden zijn &quot;access&quot; of &quot;delete&quot;.
-* **verordening**: het type regelgeving. Voorbeeld: &quot;GDPR&quot;, &quot;CCPA&quot;. Deze parameter is verplicht en is beschikbaar vanaf Campaign Standard 19.4. Als u zich op een oudere build bevindt, hoeft u deze niet toe te voegen aan uw lading.
+* **verordening**: het type regelgeving. Voorbeeld: &quot;GDPR&quot;, &quot;CCPA&quot;. Deze parameter is verplicht en is beschikbaar vanaf Campaign Standard 19.4. Als u zich op een oudere build bevindt, hoeft u deze niet toe te voegen aan uw payload.
 
 <br/>
 
@@ -57,7 +57,7 @@ Met deze POST-aanvraag wordt een privacyaanvraag gemaakt op basis van een e-mail
 }
 ```
 
-Antwoord op het verzoek van de POST.
+Antwoord op de POST verzoek.
 
 ```
 {

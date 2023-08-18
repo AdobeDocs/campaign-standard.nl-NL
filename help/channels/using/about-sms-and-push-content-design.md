@@ -31,11 +31,11 @@ Ga als volgt te werk om de editor voor sms- en pushcontent te openen:
 
 * Klik op het blok **[!UICONTROL Content]** in een sms-dashboard.
 
-   ![](assets/des_sms_content.png)
+  ![](assets/des_sms_content.png)
 
 * Klik op het potlood naast het veld **[!UICONTROL Message body]** in het dashboard voor pushberichten.
 
-   ![](assets/des_push_body.png)
+  ![](assets/des_push_body.png)
 
 **Verwante onderwerpen:**
 

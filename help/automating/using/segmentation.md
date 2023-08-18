@@ -30,7 +30,7 @@ Met de activiteit **[!UICONTROL Segmentation]** kunt u een of meer segmenten mak
 
 **Verwante onderwerpen:**
 * [Hoofdlettergebruik: Segmentatie op locatie](../../automating/using/workflow-segmentation-location.md)
-* [Hoofdlettergebruik: Segmentering volgens leeftijdsgroepen](../../automating/using/segmentation-age-groups.md)
+* [Hoofdlettergebruik: Segmentatie volgens leeftijdsgroepen](../../automating/using/segmentation-age-groups.md)
 
 ## Gebruikscontext {#context-of-use}
 
@@ -38,7 +38,7 @@ De activiteit **[!UICONTROL Segmentation]** wordt over het algemeen na targeting
 
 **Verwante onderwerpen**
 
-* [Hoofdlettergebruik: Profielen segmenteren op basis van hun leeftijdsgroepen](../../automating/using/segmentation-age-groups.md).
+* [Hoofdlettergebruik: Segmenteringsprofielen op basis van hun leeftijdsgroepen](../../automating/using/segmentation-age-groups.md).
 
 ## Configuratie {#configuration}
 
@@ -85,9 +85,10 @@ De activiteit **[!UICONTROL Segmentation]** wordt over het algemeen na targeting
    * **[!UICONTROL By data grouping]**: U kunt de segmentpopulatie beperken op basis van de waarden van een specifiek veld van de binnenkomende populatie. Selecteer het veld voor groepering en geef de waarden op die u wilt gebruiken.
    * **[!UICONTROL By data grouping (as a %)]**: U kunt de segmentpopulatie beperken op basis van de waarden van een specifiek veld van de binnenkomende populatie door een percentage te gebruiken. Selecteer het veld waarop u de groepering wilt toepassen en geef de waarden op die u wilt gebruiken.
 
-      >[!NOTE]
-      >
-      >U kunt verschillende beperkingen voor elke waarde gebruiken. U kunt bijvoorbeeld een groepering voor het veld **[!UICONTROL Gender]** opgeven en de populatie met leden van het **[!UICONTROL Male]** geslacht beperken tot 10, en de populatie met leden van het **[!UICONTROL Female]** geslacht tot 30 personen. Als u meerdere velden voor datagroepering gebruikt, moeten alle groeperingen dezelfde grootte hebben.
+     >[!NOTE]
+     >
+     >U kunt verschillende beperkingen voor elke waarde gebruiken. U kunt bijvoorbeeld een groepering voor het veld **[!UICONTROL Gender]** opgeven en de populatie met leden van het **[!UICONTROL Male]** geslacht beperken tot 10, en de populatie met leden van het **[!UICONTROL Female]** geslacht tot 30 personen. Als u meerdere velden voor datagroepering gebruikt, moeten alle groeperingen dezelfde grootte hebben.
+
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. Bevestig de configuratie van uw segment.
@@ -97,7 +98,7 @@ De activiteit **[!UICONTROL Segmentation]** wordt over het algemeen na targeting
    * De **[!UICONTROL Enable overlapping of outbound populations]** Met deze optie bepaalt u hoe profielen die tot verschillende segmenten behoren, worden beheerd:
       * Wanneer de optie niet is ingeschakeld, wordt **[!UICONTROL Segmentation]** Met activity wordt gecontroleerd dat een profiel niet aanwezig is in verschillende uitvoerovergangen, zelfs als dit profiel voldoet aan de criteria van verschillende subsets.
       * Als de optie is ingeschakeld, kunnen de profielen in verschillende subsets worden gevonden als ze voldoen aan de filtercriteria.
-   * Als de binnenkomende bevolking reeds een segmentcode is toegewezen die u wilt houden, controleer **[!UICONTROL Concatenate the code of each segment]** optie. De segmentcode die in de activiteit wordt opgegeven, wordt toegevoegd aan de oorspronkelijke segmentcode.
-   * Als u de resterende populatie moet uitbuiten, controleert u de **[!UICONTROL Generate complement]** optie. Zie [Hoofdlettergebruik: Leveringen maken met een aanvulling](../../automating/using/workflow-created-query-with-complement.md).
+   * Als de binnenkomende bevolking reeds een segmentcode is toegewezen die u wilt houden, controleer **[!UICONTROL Concatenate the code of each segment]** -optie. De segmentcode die in de activiteit wordt opgegeven, wordt toegevoegd aan de oorspronkelijke segmentcode.
+   * Als u de resterende populatie moet uitbuiten, controleert u de **[!UICONTROL Generate complement]** -optie. Zie [Hoofdlettergebruik: leveringen maken met een complement](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Bevestig de configuratie van uw activiteit en sla de workflow op.

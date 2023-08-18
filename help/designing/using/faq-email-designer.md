@@ -35,7 +35,7 @@ U kunt opvulling toevoegen met de HTML-breadcrumb.
 
 1. Klik op het element waaraan u een opvulling wilt toevoegen.
 1. Klik op de bovenliggende tag in de HTML breadcrumb.
-U kunt nu opvulling toevoegen aan dit element.
+U kunt nu een opvulling toevoegen aan dit element.
 
 ## Kan ik HTML-inhoud importeren in de e-mailontwerper?
 
@@ -64,4 +64,4 @@ Raadpleeg voor meer informatie [Stijlen](../../designing/using/styles.md)
 
 ## Welke lettertypen zijn beschikbaar?
 
-Bij het bewerken van stijlen zijn alleen weblettertypen beschikbaar die officieel door de meeste e-mailclients worden ondersteund. Deze lettertypen zijn standaard beschikbaar via de gebruikersinterface. Als u aangepaste lettertypen wilt gebruiken, moet u de HTML-code bijwerken.
+Bij het bewerken van stijlen zijn alleen weblettertypen beschikbaar die officieel door de meeste e-mailclients worden ondersteund. Dit gebeurt standaard via de gebruikersinterface. Als u aangepaste lettertypen wilt gebruiken, moet u de HTML-code bijwerken.

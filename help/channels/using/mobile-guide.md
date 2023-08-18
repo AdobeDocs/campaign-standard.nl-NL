@@ -193,7 +193,7 @@ Met Adobe Campaign Standard kunt u mobiele leveringen via drie verschillende kan
     <div>
     <p><strong>Een sms-bericht maken</strong></p>
     </div>
-    <p>Het maken van een sms-verzending lijkt sterk op het maken van een standaard e-mail. </br>De stappen <a href="../../channels/using/creating-an-sms-message.md"><strong>gedetailleerd hier</strong></a> beschrijf de configuratie die voor dit kanaal specifiek is.</br></p>
+    <p>Het maken van een sms-verzending lijkt sterk op het maken van een standaard e-mail. </br>De stappen <a href="../../channels/using/creating-an-sms-message.md"><strong>gedetailleerd hier</strong></a> beschrijf de configuratie die voor dit kanaal specifiek is.</p>
     <br>
   </td>
   <td>
@@ -201,7 +201,7 @@ Met Adobe Campaign Standard kunt u mobiele leveringen via drie verschillende kan
     <p><strong>Een SMS-bericht aanpassen
 </strong></p>
     </div>
-    <p>Om uw levering te verfijnen, staat Adobe Campaign u toe om tot een reeks geavanceerde opties toegang te hebben terwijl het ontwerpen van een SMS- bericht.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>Klik hier voor meer informatie.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong></p>
+    <p>Om uw levering te verfijnen, staat Adobe Campaign u toe om tot een reeks geavanceerde opties toegang te hebben terwijl het ontwerpen van een SMS- bericht.</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>Klik hier voor meer informatie.</p>
     <br>
   </td>
 </tr>
@@ -210,7 +210,7 @@ Met Adobe Campaign Standard kunt u mobiele leveringen via drie verschillende kan
     <div>
     <p><strong>Binnenkomende sms'en beheren</strong></p>
     </div>
-    <p>Wanneer een profiel op een SMS-bericht antwoordt dat via Campagne is verzonden, kunt u berichten configureren die automatisch naar hen worden teruggestuurd, evenals de actie die moet worden uitgevoerd.Een lokaal berichttype aanpassen</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Klik hier voor meer informatie.</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
+    <p>Wanneer een profiel op een SMS-bericht antwoordt dat via Campagne is verzonden, kunt u berichten configureren die automatisch naar hen worden teruggestuurd, evenals de actie die moet worden uitgevoerd.Een lokaal berichttype aanpassen</br><a href="../../channels/using/managing-incoming-sms.md"><strong>Klik hier voor meer informatie.</p>
     <br>
   </td>
   <td>

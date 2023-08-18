@@ -30,7 +30,7 @@ De lijst hieronder verstrekt informatie over uit-van-de-doos het filtreren regel
 | **[!UICONTROL Duplicate]** | Alles | Omvat geen duplicaten op basis van de doelpopulatie **[!UICONTROL Address]** veld. |
 | **[!UICONTROL Exclude mobile applications]** | Mobiele toepassing | Hiermee sluit u app-abonnementen uit die niet overeenkomen met de mobiele toepassing die in het bericht is gedefinieerd. |
 | **[!UICONTROL Exclude mobile applications for In-App]** | In app | Hiermee sluit u toepassingsabonnementen uit die niet overeenkomen met de mobiele toepassing die in het bericht is gedefinieerd (In-App-sjabloon). |
-| **[!UICONTROL Exclude mobile applications for In-App broadcast]** | In app | Hiermee sluit u toepassingsabonnementen uit die niet overeenkomen met de mobiele toepassing die in het bericht is gedefinieerd (In-App-uitzendsjabloon) |
+| **[!UICONTROL Exclude mobile applications for In-App broadcast]** | In app | Hiermee sluit u app-abonnementen uit die niet overeenkomen met de mobiele toepassing die in het bericht is gedefinieerd (In-App-uitzendsjabloon) |
 | **[!UICONTROL Exclude mobile applications for Push]** | Mobiele toepassing | Hiermee sluit u app-abonnementen uit die niet overeenkomen met de mobiele toepassing die in het bericht is gedefinieerd (voor Push) |
 | **[!UICONTROL Quarantined address]** | Alles | Sluit quarantined adressen uit. |
 | **[!UICONTROL Target limited in size]** | Alles | Controleert of de maximale leveringsgrootte voor het doel is bereikt. Is van toepassing op direct-mailleveringen waarbij de optie &quot;leveringslimiet&quot; is geactiveerd. |
@@ -56,7 +56,7 @@ Voer de volgende stappen uit om een filtreertypologieregel te maken:
 
 1. Maak een nieuwe typologieregel. De belangrijkste stappen voor het opstellen van typologische regels zijn beschreven in [deze sectie](../../sending/using/managing-typology-rules.md).
 
-1. Selecteer **[!UICONTROL Filtering]** regeltype en geef vervolgens het gewenste kanaal op.
+1. Selecteer de **[!UICONTROL Filtering]** regeltype en geef vervolgens het gewenste kanaal op.
 
 1. In de **[!UICONTROL Filtering criteria]** tabblad selecteert u de abonnementen in het dialoogvenster **[!UICONTROL Subscription]** categorie.
 
@@ -66,7 +66,7 @@ Voer de volgende stappen uit om een filtreertypologieregel te maken:
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. Selecteer **[!UICONTROL Age]** en de filtervoorwaarden zodanig definiëren dat de leeftijd van de abonnees lager is dan 18 jaar.
+1. Selecteer de **[!UICONTROL Age]** en de filtervoorwaarden zodanig definiëren dat de leeftijd van de abonnees lager is dan 18 jaar.
 
    ![](assets/typology_create-rule-age.png)
 
@@ -82,7 +82,7 @@ Wanneer deze regel in een bericht wordt gebruikt, worden abonnees die als minder
 
 ## Het vormen van het filtreren regels richten context {#configuring-filtering-rules-targeting-context}
 
-Campaign Standard staat u toe om te vormen  **Doelstelling** en **Filteren** Welke afmetingen moeten worden gebruikt, is afhankelijk van de gegevens die u als doel wilt gebruiken.
+Campaign Standard staat u toe om  **Targeting** en **Filteren** Welke afmetingen moeten worden gebruikt, is afhankelijk van de gegevens die u als doel wilt gebruiken.
 
 Om dit te doen, open de eigenschappen van de typologieregel, dan toegang tot **[!UICONTROL Advanced information]** sectie.
 

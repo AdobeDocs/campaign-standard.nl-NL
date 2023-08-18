@@ -26,7 +26,7 @@ U kunt elke dinsdag een e-mail naar alle klanten sturen voor speciale aanbieding
 
 ## Een activiteit Planner maken{#creating-a-scheduler-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, slepen en neerzetten [Planner](../../automating/using/scheduler.md) activiteit.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, een [Planner](../../automating/using/scheduler.md) activiteit.
 1. Dubbelklik op de activiteit.
 1. Configureer de uitvoering van uw levering.
 1. In **[!UICONTROL Execution frequency]** selecteert u **[!UICONTROL Weekly]**.

@@ -29,17 +29,17 @@ Met de **[!UICONTROL Schedule]**-eigenschappen kunt u verzendopties instellen vo
 
 * **[!UICONTROL Messages to be sent once confirmed]**: Berichten worden verzonden zodra de verzending wordt bevestigd. Zie [De verzending bevestigen](../../sending/using/confirming-the-send.md).
 
-   ![](assets/delivery_planning_1.png)
+  ![](assets/delivery_planning_1.png)
 
 * **[!UICONTROL Messages to be sent automatically on the date specified below]**: Berichten worden op een latere datum en tijd verzonden. Geef de **contactdatum** op in het veld **Beginnen met verzenden vanaf**.
 
-   U kunt het verzenden voorbereiden en bevestigen, maar berichten worden pas verzonden vanaf de geselecteerde datum en tijd. Het voorbereiden en het bevestigen van de verzending worden gepresenteerd in de secties [De verzending voorbereiden](../../sending/using/preparing-the-send.md) en [De verzending bevestigen](../../sending/using/confirming-the-send.md).
+  U kunt het verzenden voorbereiden en bevestigen, maar berichten worden pas verzonden vanaf de geselecteerde datum en tijd. Het voorbereiden en het bevestigen van de verzending worden gepresenteerd in de secties [De verzending voorbereiden](../../sending/using/preparing-the-send.md) en [De verzending bevestigen](../../sending/using/confirming-the-send.md).
 
-   Met behulp van de vervolgkeuzelijst **[!UICONTROL Time zone of the contact date]** kunt u de tijdzone wijzigen die voor de verzendtijd in aanmerking wordt genomen. Als u bijvoorbeeld 09:00 uur in het veld **[!UICONTROL Start sending from]** invoert en als u Brussel, Kopenhagen, Madrid, Parijs (GMT+1) selecteert in de vervolgkeuzelijst **[!UICONTROL Time zone of the contact date]**, ontvangen alle ontvangers het bericht om 09:00 uur Parijse tijd. Daarom zal een ontvanger in Moskou (GMT+3) het bericht om 11:00 uur Moskouse tijd ontvangen.
+  Met behulp van de vervolgkeuzelijst **[!UICONTROL Time zone of the contact date]** kunt u de tijdzone wijzigen die voor de verzendtijd in aanmerking wordt genomen. Als u bijvoorbeeld 09:00 uur in het veld **[!UICONTROL Start sending from]** invoert en als u Brussel, Kopenhagen, Madrid, Parijs (GMT+1) selecteert in de vervolgkeuzelijst **[!UICONTROL Time zone of the contact date]**, ontvangen alle ontvangers het bericht om 09:00 uur Parijse tijd. Daarom zal een ontvanger in Moskou (GMT+3) het bericht om 11:00 uur Moskouse tijd ontvangen.
 
-   Als u het verzenden handmatig wilt bevestigen, schakelt u de optie **[!UICONTROL Request confirmation before sending messages]** in. Deze optie is standaard ingeschakeld.
+  Als u het verzenden handmatig wilt bevestigen, schakelt u de optie **[!UICONTROL Request confirmation before sending messages]** in. Deze optie is standaard ingeschakeld.
 
-   ![](assets/delivery_planning.png)
+  ![](assets/delivery_planning.png)
 
 >[!IMPORTANT]
 >

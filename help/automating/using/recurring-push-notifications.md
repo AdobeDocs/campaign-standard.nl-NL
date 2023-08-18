@@ -40,18 +40,18 @@ Voer de volgende stappen uit om de workflow te maken:
    * Sleep de **Abonnementen op een toepassing** in de werkruimte. Selecteren **Exists** en selecteer de mobiele toepassing die u wilt gebruiken.
    * Selecteer het e-mailbericht dat u naar uw klanten hebt verzonden.
    * Sleep de **Leveringslogboeken (logboeken)** -element in de werkruimte en selecteer **Exists** om zich te richten op alle klanten die het e-mailbericht hebben ontvangen.
-   * Sleep de **Logbestanden bijhouden (bijhouden)** -element in de werkruimte en selecteer **Is niet bestaand** om zich te richten op alle klanten die het e-mailbericht niet hebben geopend.
+   * Sleep de **Logbestanden bijhouden (bijhouden)** -element in de werkruimte en selecteer **Is niet bestaand** om zich te richten op alle klanten die e-mail niet hebben geopend.
 
-      ![](assets/wkf_push_example_2.png)
+     ![](assets/wkf_push_example_2.png)
 
 1. De [Levering pushmelding](../../automating/using/push-notification-delivery.md) Met activiteit kunt u de inhoud van uw bericht invoeren en de velden voor personalisatie selecteren die u wilt gebruiken:
 
-   * Selecteer **[!UICONTROL Recurring notification]** optie.
+   * Selecteer de **[!UICONTROL Recurring notification]** -optie.
    * Definieer de inhoud van het pushbericht. Raadpleeg deze voor meer informatie over inhoud van pushberichten [sectie](../../channels/using/preparing-and-sending-a-push-notification.md).
    * In de **[!UICONTROL Schedule]** blok, selecteren **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. Hier hebben we de **[!UICONTROL Time zone of the contact date]** Stille Oceaan zoals in de workflow **[!UICONTROL Scheduler]**.
    * Selecteer in het veld **[!UICONTROL Optimize the sending time per recipient]** de optie **[!UICONTROL Send at the recipient's time zone]**.
 
-      ![](assets/wkf_push_example_4.png)
+     ![](assets/wkf_push_example_4.png)
 
 1. Klik op de knop **[!UICONTROL Start]** om uw terugkerende workflow te starten.
 

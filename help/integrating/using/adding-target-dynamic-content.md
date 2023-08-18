@@ -29,7 +29,7 @@ Voordat u de afbeelding opent in Adobe Campaign, moet u eerst de volgende taken 
 * Maak segmenten met behulp van informatie uit Adobe Campaign om ervaringen op te geven. Als u gegevens van Adobe Campaign wilt gebruiken in de selectieregels van de aanbieding, moet u de gegevens opgeven in het tekstvak in Adobe Target.
 
 1. Een e-maillevering maken.
-1. Wanneer u de inhoud van een e-mail- of landingspagina bewerkt, gaat u naar een afbeeldingsblok en selecteert u **[!UICONTROL Dynamic image from Adobe Target]** via het contextmenu.
+1. Ga bij het bewerken van de inhoud van een e-mail- of landingspagina naar een afbeeldingsblok en selecteer **[!UICONTROL Dynamic image from Adobe Target]** via het contextmenu.
 
    ![](assets/tar_insert_dynamic_image.png)
 

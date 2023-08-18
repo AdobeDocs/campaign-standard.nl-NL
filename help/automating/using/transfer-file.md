@@ -32,7 +32,7 @@ U kunt deze activiteit gebruiken om data te herstellen die vervolgens met de act
 
 **Verwante onderwerpen:**
 
-* [Hoofdlettergebruik: Gegevens bijwerken op basis van een automatische bestandsdownload](../../automating/using/update-data-automatic-download.md)
+* [Hoofdlettergebruik: gegevens bijwerken op basis van een automatische bestandsdownload](../../automating/using/update-data-automatic-download.md)
 
 ## Configuratie {#configuration}
 
@@ -60,11 +60,11 @@ U kunt deze activiteit gebruiken om data te herstellen die vervolgens met de act
 
    * **[!UICONTROL Delete the source files after transfer]**: wist de bestanden op de externe server. Als deze optie uitgeschakeld blijft, controleert u handmatig de grootte van de gearchiveerde inhoud in de SFTP-map.
 
-   * **[!UICONTROL Sorting files]**: kunt u bestanden alfanumeriek sorteren. Deze optie is standaard uitgeschakeld.
+   * **[!UICONTROL Sorting files]**: hiermee kunt u bestanden alfanumeriek sorteren. Deze optie is standaard uitgeschakeld.
 
-      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
+     <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL List all files]**: deze optie is beschikbaar als u **[!UICONTROL File listing]** in de **[!UICONTROL General]** tab. Hiermee kunt u alle bestanden indexeren die aanwezig zijn op de server in de gebeurtenisvariabele **vars.filenames** waarin de bestandsnamen worden gescheiden door de tekens **‘n’** 
+   * **[!UICONTROL List all files]**: deze optie is beschikbaar als u de optie **[!UICONTROL File listing]** in de **[!UICONTROL General]** tab. Hiermee kunt u alle bestanden indexeren die aanwezig zijn op de server in de gebeurtenisvariabele **vars.filenames** waarin de bestandsnamen worden gescheiden door de tekens **‘n’** 
 
 1. In de sectie **[!UICONTROL If no files are found]** van het tabblad **[!UICONTROL Advanced options]** kunt u specifieke acties configureren als er fouten of onbestaande bestanden worden gedetecteerd wanneer de activiteit wordt gestart.
 
@@ -78,7 +78,7 @@ U kunt deze activiteit gebruiken om data te herstellen die vervolgens met de act
 
 Met het HTTP-protocol kunt u beginnen met het downloaden van een bestand vanaf een extern account of van een URL.
 
-Met dit protocol kunt u ervoor kiezen **[!UICONTROL Use connection parameters defined in an external account]** optie. Selecteer in dit geval het gewenste account en geef het pad op van het bestand dat u wilt downloaden.
+Met dit protocol kunt u ervoor kiezen **[!UICONTROL Use connection parameters defined in an external account]** -optie. Selecteer in dit geval het gewenste account en geef het pad op van het bestand dat u wilt downloaden.
 
 ![](assets/wkf_file_transfer_03.png)
 

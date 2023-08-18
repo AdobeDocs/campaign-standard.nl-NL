@@ -14,9 +14,9 @@ ht-degree: 7%
 
 # Een bron oproepen met een samengestelde identificatiesleutel{#calling-a-resource-using-a-composite-identification-key}
 
-In sommige gevallen moet u voor een resource mogelijk een id-sleutel definiëren die uit twee velden bestaat. Zodra de identificatiesleutel wordt gevormd, moet u een filterdefinitie vormen om het middel met deze identificatiesleutel, of van de interface van Campaign Standard of APIs te kunnen roepen.
+In sommige gevallen moet u voor een resource mogelijk een identificatiesleutel definiëren die uit twee velden bestaat. Zodra de identificatiesleutel wordt gevormd, moet u een filterdefinitie vormen om het middel met deze identificatiesleutel, of van de interface van het Campaign Standard of APIs te kunnen roepen.
 
-In dit geval wordt de **Profiel** resource is uitgebreid met aangepaste **&quot;CRM-ID&quot;** en **&quot;categorie&quot;** velden. We maken een identificatiesleutel voor de profielbron, die uit deze twee velden zal bestaan. Vervolgens configureren we een filterdefinitie, zodat we toegang hebben tot de profielbron met de id-toets.
+In dit geval wordt de **Profiel** resource is uitgebreid met aangepaste **&quot;CRM-ID&quot;** en **&quot;categorie&quot;** velden. We maken een identificatiesleutel voor de profielbron, die uit deze twee velden zal bestaan. Vervolgens configureren we een filterdefinitie, zodat we toegang hebben tot de profielbron met behulp van de identificatietoets.
 
 De belangrijkste stappen voor dit gebruiksgeval zijn:
 
@@ -30,7 +30,7 @@ Verwante onderwerpen:
 * [Identificatiesleutels definiëren](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [Campaign Standard REST API&#39;s](../../api/using/get-started-apis.md)
 
-## Stap 1: De id-toets configureren{#step-1-configure-the-identification-key}
+## Stap 1: De identificatietoets configureren{#step-1-configure-the-identification-key}
 
 >[!NOTE]
 > Algemene concepten bij het configureren van identificatietoetsen worden gedetailleerd in [deze sectie](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
@@ -54,7 +54,7 @@ Verwante onderwerpen:
 
 1. U kunt de filterdefinitie nu configureren om de bron aan te roepen met behulp van de id-sleutel.
 
-## Stap 2: De filterdefinitie configureren{#step-2-configure-the-filter-definition}
+## Stap 2: Vorm de filterdefinitie{#step-2-configure-the-filter-definition}
 
 >[!NOTE]
 > Algemene concepten bij het configureren van filterdefinities worden beschreven in [deze sectie](../../developing/using/configuring-filter-definition.md).
@@ -69,7 +69,7 @@ Verwante onderwerpen:
 
    ![](assets/uc_idkey5.png)
 
-1. Selecteer het eerste veld dat wordt gebruikt in de identificatiecode (&quot;CRM-id&quot;) en activeer vervolgens het veld **[!UICONTROL Switch to parameters]** optie.
+1. Selecteer het eerste veld dat wordt gebruikt in de identificatiecode (&quot;CRM-id&quot;) en activeer vervolgens het veld **[!UICONTROL Switch to parameters]** -optie.
 
    ![](assets/uc_idkey6.png)
 
@@ -86,7 +86,7 @@ Verwante onderwerpen:
 
 1. De filterdefinitie is nu geconfigureerd. U kunt de bron publiceren zodat het filter beschikbaar is.
 
-## Stap 3: Roep de bron aan op basis van de identificatiesleutel{#step-3-call-the-resource-based-on-its-identification-key}
+## Stap 3: Roep de bron op basis van de identificatiesleutel{#step-3-call-the-resource-based-on-its-identification-key}
 
 Zodra de identificatiesleutel en zijn filterdefinitie worden gevormd, kunt u hen gebruiken om het middel, of van de standaardinterface van de Campagne of REST APIs te roepen.
 
@@ -109,4 +109,4 @@ In ons geval zou de syntaxis om een profiel op te halen uit de categorie &quot;s
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-Raadpleeg voor meer informatie [Campaign Standard REST API&#39;s-documentatie](../../api/using/filtering.md).
+Raadpleeg voor meer informatie [Documentatie voor REST API&#39;s van Campaign Standard](../../api/using/filtering.md).

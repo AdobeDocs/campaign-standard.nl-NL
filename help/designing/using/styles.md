@@ -40,7 +40,7 @@ Door in de boomstructuur te bladeren, kunt u een nauwkeurigere selectie maken. U
 Als u een kolom wilt selecteren, kunt u ook het volgende doen:
 
 1. Selecteer een structuurcomponent (rechtstreeks in de e-mail of met de boomstructuur die beschikbaar is aan de linkerkant) **Palet**).
-1. Van de **contextafhankelijke werkbalk**, klikt u op **[!UICONTROL Select a column]** om de gewenste kolom te kiezen.
+1. Van de **contextwerkbalk**, klikt u op **[!UICONTROL Select a column]** om de gewenste kolom te kiezen.
 
 Zie een voorbeeld in [deze sectie](#example--adjusting-vertical-alignment-and-padding).
 
@@ -77,7 +77,7 @@ Bijvoorbeeld:
 
 >[!NOTE]
 >
->Afhankelijk van uw selectie (structuurcomponent, kolom of inhoudscomponent), is het resultaat niet hetzelfde. Adobe raadt u aan het dialoogvenster **[!UICONTROL Padding]** en **[!UICONTROL Margin]** parameters op kolomniveau.
+>Afhankelijk van uw selectie (structuurcomponent, kolom of inhoudscomponent), is het resultaat niet hetzelfde. Adobe raadt aan de **[!UICONTROL Padding]** en **[!UICONTROL Margin]** parameters op kolomniveau.
 
 Voor beide **[!UICONTROL Padding]** en **[!UICONTROL Margin]** Klik op het vergrendelingspictogram om de synchronisatie tussen de parameters boven en onder of rechts en links te verbreken. Hierdoor kunt u elke parameter afzonderlijk aanpassen.
 
@@ -85,17 +85,17 @@ Voor beide **[!UICONTROL Padding]** en **[!UICONTROL Margin]** Klik op het vergr
 
 ## Stijluitlijning {#about-alignment}
 
-* **Tekstuitlijning**: Plaats de cursor van uw muis op tekst en gebruik de contextafhankelijke werkbalk om deze uit te lijnen.
+* **Tekstuitlijning**: plaats de cursor van de muis op bepaalde tekst en gebruik de contextafhankelijke werkbalk om deze uit te lijnen.
 
-   ![](assets/des_text_alignment.png)
+  ![](assets/des_text_alignment.png)
 
 * **Horizontale uitlijning** kan worden toegepast op tekst, afbeeldingen en knoppen - momenteel niet op de knop **[!UICONTROL Divider]** en **[!UICONTROL Social]** componenten.
 
-   ![](assets/des_horizontal_alignment.png)
+  ![](assets/des_horizontal_alignment.png)
 
 * In te stellen **verticale uitlijning** selecteert u een kolom in een structuurcomponent en kiest u een optie in het deelvenster Instellingen.
 
-   ![](assets/des_set_vertical_alignment.png)
+  ![](assets/des_set_vertical_alignment.png)
 
 ## Achtergronden instellen {#about-backgrounds}
 
@@ -104,7 +104,7 @@ Voor beide **[!UICONTROL Padding]** en **[!UICONTROL Margin]** Klik op het vergr
 >title="Achtergrondinstellingen"
 >abstract="Met de e-mailontwerper kunt u de achtergrondkleur of achtergrondafbeelding voor uw inhoud aanpassen. Achtergrondafbeelding wordt niet door alle e-mailclients ondersteund."
 
-Als het gaat om het instellen van achtergronden met de e-mailontwerper, raadt Adobe het volgende aan:
+Als het gaat om het instellen van achtergronden met de e-mailontwerper, raadt de Adobe het volgende aan:
 
 1. Pas een achtergrondkleur toe op de tekst van uw e-mail, indien dat door uw ontwerp wordt vereist.
 1. In de meeste gevallen stelt u achtergrondkleuren in op kolomniveau.
@@ -114,42 +114,42 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
 
 * Een **[!UICONTROL Background color]** voor de hele e-mail. Selecteer de instellingen voor de hoofdtekst in de boomstructuur die toegankelijk is in het linkerpalet.
 
-   ![](assets/des_background_body.png)
+  ![](assets/des_background_body.png)
 
 * Dezelfde achtergrondkleur voor alle structuurcomponenten instellen door **[!UICONTROL Viewport background color]**. Met deze optie kunt u een andere instelling selecteren dan de achtergrondkleur.
 
-   ![](assets/des_background_viewport.png)
+  ![](assets/des_background_viewport.png)
 
 * Stel een andere achtergrondkleur in voor elke structuurcomponent. Selecteer een structuur in de boomstructuur die toegankelijk is vanuit het linkerpalet als u alleen een specifieke achtergrondkleur op die structuur wilt toepassen.
 
-   ![](assets/des_background_structure.png)
+  ![](assets/des_background_structure.png)
 
-   Zorg ervoor dat u geen achtergrondkleur voor de viewport instelt, omdat hierdoor de achtergrondkleuren van de structuur kunnen worden verborgen.
+  Zorg ervoor dat u geen achtergrondkleur voor de viewport instelt, omdat hierdoor de achtergrondkleuren van de structuur kunnen worden verborgen.
 
 * Een **[!UICONTROL Background image]** voor de inhoud van een structuurcomponent.
 
-   ![](assets/des_background_image.png)
+  ![](assets/des_background_image.png)
 
-   >[!NOTE]
-   >
-   >Sommige e-mailprogramma&#39;s ondersteunen achtergrondafbeeldingen niet. Als deze optie niet wordt ondersteund, wordt in plaats daarvan de achtergrondkleur van de rij gebruikt. Selecteer de gewenste achtergrondkleur voor fallback voor het geval de afbeelding niet kan worden weergegeven.
+  >[!NOTE]
+  >
+  >Sommige e-mailprogramma&#39;s ondersteunen achtergrondafbeeldingen niet. Als deze optie niet wordt ondersteund, wordt in plaats daarvan de achtergrondkleur van de rij gebruikt. Selecteer de gewenste achtergrondkleur voor fallback als de afbeelding niet kan worden weergegeven.
 
 * Stel een achtergrondkleur in op kolomniveau.
 
-   ![](assets/des_background_column.png)
+  ![](assets/des_background_column.png)
 
-   >[!NOTE]
-   >
-   >Dit is het meest gebruikte geval. Adobe raadt aan achtergrondkleuren in te stellen op kolomniveau, omdat dit meer flexibiliteit biedt bij het bewerken van de volledige e-mailinhoud.
+  >[!NOTE]
+  >
+  >Dit is het meest gebruikte geval. Adobe raadt aan achtergrondkleuren in te stellen op kolomniveau, omdat dit meer flexibiliteit biedt bij het bewerken van de volledige e-mailinhoud.
 
-   U kunt ook een achtergrondafbeelding instellen op kolomniveau, maar dit wordt zelden gebruikt.
+  U kunt ook een achtergrondafbeelding instellen op kolomniveau, maar dit wordt zelden gebruikt.
 
 ### Voorbeeld: verticale uitlijning en opvulling aanpassen {#example--adjusting-vertical-alignment-and-padding}
 
 U wilt de opvulling en de verticale uitlijning aanpassen binnen een structuurcomponent die uit drie kolommen bestaat. Volg de onderstaande stappen om dit te doen:
 
 1. Selecteer de structuurcomponent rechtstreeks in de e-mail of met behulp van de boomstructuur die beschikbaar is aan de linkerkant **Palet**.
-1. Van de **contextafhankelijke werkbalk**, klikt u op **[!UICONTROL Select a column]** en kiest u het bestand dat u wilt bewerken. U kunt deze ook selecteren in de boomstructuur.
+1. Van de **contextwerkbalk**, klikt u op **[!UICONTROL Select a column]** en kiest u het bestand dat u wilt bewerken. U kunt deze ook selecteren in de boomstructuur.
 
    ![](assets/des_selecting_column.png)
 
@@ -179,7 +179,7 @@ U kunt een koppeling onderstrepen en de kleur en het doel ervan selecteren in de
 
 1. In een component waar een verbinding wordt opgenomen, selecteer de etikettekst van uw verbinding.
 
-1. Controleer in de componentinstellingen **[!UICONTROL Underline link]** om de labeltekst van uw koppeling te onderstrepen.
+1. Controleer in de componentinstellingen of **[!UICONTROL Underline link]** om de labeltekst van uw koppeling te onderstrepen.
 
    ![](assets/stylelinks-selecttext.png)
 
@@ -187,7 +187,7 @@ U kunt een koppeling onderstrepen en de kleur en het doel ervan selecteren in de
 
    ![](assets/stylelinks-target.png)
 
-1. Als u de kleur van de koppeling wilt wijzigen, klikt u op **[!UICONTROL Link color]**.
+1. Klik op **[!UICONTROL Link color]**.
 
    ![](assets/stylelinks-colorpicker.png)
 

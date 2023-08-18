@@ -33,4 +33,4 @@ In deze video ziet u hoe u aangepaste bronnen kunt maken.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
-Er zijn aanvullende Campaign Standard-hoe-kan-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).
+Er zijn aanvullende Campaign Standard-to-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).

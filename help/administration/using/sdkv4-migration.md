@@ -24,19 +24,19 @@ ht-degree: 1%
 ## De SDK V4-migratie
 
 Adobe Campaign Standard verwerkt mobiele toepassingen die SDK V4 gebruiken als aparte toepassingen dan toepassingen die Adobe Experience Platform SDK gebruiken.
-Nadat u de SDK-versie van Adobe van v4 naar Adobe Experience Platform hebt bijgewerkt, moeten mobiele toepassingen de bestaande abonnementsgegevens en -campagnes van de toepassing blijven gebruiken: daarom is een migratie noodzakelijk .
+Nadat u de SDK-versie van de Adobe van v4 naar Adobe Experience Platform hebt bijgewerkt, moeten mobiele toepassingen de bestaande abonnementsgegevens en -campagnes van de toepassing blijven gebruiken. Daarom is een migratie nodig.
 
 >[!NOTE]
 >
 > Op deze pagina wordt de migratie van een mobiele SDK v4-toepassing naar een nieuwe Adobe Experience Platform SDK-toepassing gedocumenteerd. Uw SDK v4 mobiele toepassingen worden niet samengevoegd met een mobiele Adobe Experience Platform SDK-toepassing met een **[!UICONTROL Configured]** **[!UICONTROL Property status]**.
 
-| Wat na de migratie niet verandert |
+| Wat verandert er na de migratie niet |
 |:-:|
 | Er is geen effect op bestaande leveringen en campagnes met de gemigreerde SDK V4-toepassing. |
 | De naam van de mobiele toepassing blijft ongewijzigd. |
 | De platformreferenties voor iOS en Android blijven behouden. |
 | Alle abonnees van de toepassing en hun gegevens zullen worden bewaard. |
-| De bestaande mobiele SDK v4-toepassing zal gegevens (PII-gegevens, Abonnee &amp; token-gegevens) naar Adobe Campaign Standard blijven verzenden. |
+| De bestaande mobiele SDK v4-toepassing zal gegevens (PII-gegevens, Abonnees en token-gegevens) naar Adobe Campaign Standard blijven verzenden. |
 | De **[!UICONTROL Organizational unit]** van de mobiele toepassing blijft ongewijzigd. |
 
 | Wat verandert er na de migratie |
@@ -83,7 +83,7 @@ Voordat u gaat migreren, moet u rekening houden met de volgende aanbevelingen:
 
 1. Controleer op de pagina met kanaallijsten van de Adobe Experience Platform SDK of uw vorige mobiele V4-toepassing is ingesteld op **[!UICONTROL Ready To Configure]**.
 
-1. Selecteer uw mobiele toepassing en klik op **[!UICONTROL Save]** om de migratie te voltooien.
+1. Selecteer uw mobiele toepassing en klik op **[!UICONTROL Save]** de migratie voltooien.
 
 Na deze migratie zijn abonnees die zijn verzameld door de V4-versie van de mobiele toepassing en nieuwe abonnees die zijn verzameld door de AEP-versie van de mobiele toepassing, beschikbaar in de gemigreerde toepassing.
 
@@ -92,40 +92,40 @@ U zult dan de bijbehorende markering moeten vormen **[!UICONTROL Mobile property
 
 ## Veelgestelde vragen {#faq}
 
-### V: In de mobiele SDK v4-toepassing is het tabblad Migratie van mobiele toepassingen naar Adobe Experience Platform SDK niet zichtbaar. {#tab-not-visible}
+### Q: In de mobiele SDK v4-toepassing is het tabblad Migratie van mobiele toepassingen naar de Adobe Experience Platform SDK niet zichtbaar. {#tab-not-visible}
 
-A: Vanuit het geavanceerde menu **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]** controleert u de waarde van de **[!UICONTROL Enable migration of mobile app from SDK v4 to Adobe Experience Platform SDK option]** optie. Deze moet op 1 worden ingesteld en standaard worden ingeschakeld. Beheerders hebben de toepassing mogelijk handmatig uitgeschakeld.
+A: Van het geavanceerde menu **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]** controleert u de waarde van de **[!UICONTROL Enable migration of mobile app from SDK v4 to Adobe Experience Platform SDK option]** -optie. Deze moet op 1 worden ingesteld en standaard worden ingeschakeld. Beheerders hebben de toepassing mogelijk handmatig uitgeschakeld.
 
 ![](assets/aep_v4_1.png)
 
-### V: Het bericht Geen gegevens wordt weergegeven op het tabblad Mobile-toepassingsmigratie naar Adobe Experience Platform SDK. {#no-data}
+### Q: Van het mobiele lusje van de toepassingsmigratie aan SDK van Adobe Experience Platform, verschijnt het bericht Geen gegevens. {#no-data}
 
-A: Alleen in aanmerking komende toepassing van uw **[!UICONTROL Organizational unit]** wordt weergegeven in de lijst. Controleer of u de juiste Adobe Experience Platform-toepassing voor de migratie hebt. De **[!UICONTROL Property Status]** van uw Adobe Experience Platform-toepassing moet worden ingesteld op **[!UICONTROL Ready to Configure]**  en de **[!UICONTROL Mobile app migration status]** instellen op **[!UICONTROL Not Migrated]**.
+A: Alleen in aanmerking komende toepassing van uw **[!UICONTROL Organizational unit]** wordt weergegeven in de lijst. Zorg ervoor dat u over de juiste Adobe Experience Platform-toepassing voor de migratie beschikt. De **[!UICONTROL Property Status]** van uw Adobe Experience Platform-toepassing moet worden ingesteld op **[!UICONTROL Ready to Configure]**  en de **[!UICONTROL Mobile app migration status]** instellen op **[!UICONTROL Not Migrated]**.
 
 ![](assets/aep_v4_6.png)
 
-### V: Waarom kan de toepassing van SDK van Adobe Experience Platform met de Gevormde Status van het Bezit niet voor migratie worden gebruikt? {#property-status}
+### Q: Waarom kan de toepassing van SDK van Adobe Experience Platform met de Gevormde Status van het Bezit niet voor migratie worden gebruikt? {#property-status}
 
 A: Tijdens het migratieproces blijven de SDK v4-abonnees en -kenmerken behouden. Deze houdt alleen de taggerelateerde informatie van de Adobe Experience Platform SDK-toepassing bij. Abonnees en andere gegevens uit de Adobe Experience Platform SDK-toepassing gaan verloren. Om gegevensverlies te voorkomen, gebruiken alleen Adobe Experience Platform SDK-toepassingen met de **[!UICONTROL Ready to Configure]** **[!UICONTROL Property Status]** in aanmerking komen voor migratie.
 
 ### V: Waar kan ik na de migratie mijn vorige SDK v4 mobiele toepassing vinden? {#v4-app-not-visible}
 
-A: De mobiele toepassing na migratie wordt weergegeven via het geavanceerde menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]**.
+A: De mobiele toepassing na de migratie wordt weergegeven via het geavanceerde menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]**.
 
 ### V: Waar kan ik na de migratie mijn nieuwe Adobe Experience Platform SDK-toepassing vinden? {#aep-not-visible}
 
 A: De nieuwe Adobe Experience Platform SDK-toepassing die voor de migratie wordt gebruikt, bestaat niet als een aparte toepassing. Alleen de v4-toepassing voor gemigreerde SDK is beschikbaar.
 
-### V: Als de SDK v4 mobile application Organizational unit is ingesteld op A (een onderliggend element van de Organizer-eenheid ALL) en de Adobe Experience Platform SDK op ALL. Hoe kan ik mijn mobiele toepassing migreren? {#v4-org-unit}
+### Q: Als de SDK v4 mobile application Organizational unit is ingesteld op A (een onderliggend element van de Organizer-eenheid ALL) en de SDK van Adobe Experience Platform op ALL. Hoe kan ik mijn mobiele toepassing migreren? {#v4-org-unit}
 
-A: Beheerders van de **[!UICONTROL Organizational unit]** Iedereen heeft de rechten om zowel mobiele toepassingen als migratie te beheren.
+A: Administrateurs van de **[!UICONTROL Organizational unit]** Iedereen heeft de rechten om zowel mobiele toepassingen als migratie te beheren.
 
-### V: Als de SDK v4 mobile application Organizational unit is ingesteld op A en de Adobe Experience Platform SDK-toepassing is ingesteld op B (een verwant van Organizational Unit A). Hoe kan ik mijn mobiele toepassing migreren? {#aep-org-unit}
+### Q: Als de SDK v4 mobile application Organizational unit is ingesteld op A en de Adobe Experience Platform SDK-toepassing is ingesteld op B (een verwant van de Organizational Unit A). Hoe kan ik mijn mobiele toepassing migreren? {#aep-org-unit}
 
 A: Adobe Experience Platform SDK-toepassing is het middel van een verwant **[!UICONTROL Organizational unit]**, is de mobiele toepassing niet zichtbaar voor gebruikers van de **[!UICONTROL Organizational unit]** A. De mobiele toepassing is beschikbaar voor de beheerders van de **[!UICONTROL Organizational unit]** ALLES, maar we raden deze beheerders niet aan om de mobiele toepassing te migreren.
 In dit geval moet u uw mobiele toepassingen in hetzelfde formaat verplaatsen **[!UICONTROL Organizational unit]** of in een **[!UICONTROL Organizational unit]** met een bovenliggende koppeling.
 Voor meer informatie over **[!UICONTROL Organizational unit]**, gelieve deze [sectie](../../administration/using/organizational-units.md).
 
-### V: Vanaf de pagina Mobiele toepassing van Adobe Experience Platform SDK (die is gemigreerd vanuit uw mobiele toepassing van v4), wordt onder de vervolgkeuzelijst Push channel-instellingen geen informatie zoals geüploade datum/naam weergegeven voor de Android-sleutel of het iOS-certificaat {#no-information-v5}
+### Q: Van uw Adobe Experience Platform SDK-pagina voor mobiele apparaten (die is gemigreerd vanuit uw mobiele v4-toepassing), wordt onder de vervolgkeuzelijst voor Push channel-instellingen geen informatie zoals de geüploade datum/naam weergegeven voor de Android-sleutel of het iOS-certificaat {#no-information-v5}
 
-A: Deze informatie wordt niet door het systeem opgeslagen wanneer de mobiele SDK V4-toepassing wordt gemaakt. Wanneer u uw SDK V4 mobiele toepassing naar een mobiele Adobe Experience Platform SDK-toepassing migreert, beschikt uw gemigreerde mobiele toepassing ook niet over dit soort informatie. Zodra een gebruiker een nieuw iOS-certificaat of een Android-sleutel uploadt, worden de verschillende details van de sleutel of het certificaat correct opgeslagen en weergegeven onder de **[!UICONTROL Push channel settings]** vervolgkeuzelijst.
+A: Het systeem slaat deze informatie niet op wanneer de mobiele SDK V4-toepassing wordt gemaakt. Wanneer u uw SDK V4 mobiele toepassing naar een mobiele Adobe Experience Platform SDK-toepassing migreert, beschikt uw gemigreerde mobiele toepassing ook niet over dit soort informatie. Zodra een gebruiker een nieuw iOS-certificaat of een Android-sleutel uploadt, worden de verschillende details van de sleutel of het certificaat correct opgeslagen en weergegeven onder de **[!UICONTROL Push channel settings]** vervolgkeuzelijst.

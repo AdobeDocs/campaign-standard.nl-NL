@@ -28,11 +28,11 @@ Er zijn twee kolommen gewijd aan het tonen van deze statussen in **[!UICONTROL C
 * **Concept**: de bron is zojuist gecreëerd of opnieuw opgesteld. Om de gegevensbestandlijsten evenals overeenkomstige APIs tot stand te brengen, moet het middel opnieuw worden gepubliceerd. Als een bron opnieuw wordt opgesteld, wordt deze automatisch na de publicatiestap inactief.
 * **Opnieuw samenstellen in behandeling**: de bron is opnieuw opgesteld. Het proces voor het opnieuw ontwerpen vindt plaats tijdens de volgende publicatie. Herformulering is onomkeerbaar. Er worden verschillende waarschuwingsberichten weergegeven om de gebruiker op de hoogte te brengen, zowel bij het opnieuw opstellen als bij het voorbereiden van de publicatie.
 
-   Voor meer informatie over herformulering raadpleegt u [Een bron verwijderen](../../developing/using/deleting-a-resource.md).
+  Zie voor meer informatie over herformulering [Een bron verwijderen](../../developing/using/deleting-a-resource.md).
 
-   >[!NOTE]
-   >
-   >De **[!UICONTROL Cancel re-draft]** Deze optie is beschikbaar wanneer de bron die u opnieuw wilt samenstellen nog steeds koppelingen bevat via andere bronnen met de status &quot;Gepubliceerd&quot;. Met deze optie kunt u het proces voor het opnieuw samenstellen van concepten herstellen. De aangepaste bronnen gaan dan terug naar hun oorspronkelijke status.
+  >[!NOTE]
+  >
+  >De **[!UICONTROL Cancel re-draft]** Deze optie is beschikbaar wanneer de bron die u opnieuw wilt samenstellen, nog steeds koppelingen bevat via andere bronnen met de status &quot;Gepubliceerd&quot;. Met deze optie kunt u het proces voor het opnieuw samenstellen van concepten herstellen. De aangepaste bronnen gaan dan terug naar hun oorspronkelijke status.
 
 * **Gepubliceerd**: de bron is gepubliceerd. Als de bron na de laatste gewijzigde datum is gewijzigd, wordt een bericht weergegeven waarin u wordt uitgenodigd de bron opnieuw te publiceren om rekening te houden met de laatste wijzigingen.
 

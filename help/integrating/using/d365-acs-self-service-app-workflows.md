@@ -26,11 +26,11 @@ De integratietoepassing wordt geleverd met drie workflows:
 **Microsoft Dynamics 365 to Campaign**
 * Verzenden *contactpersonen* van Microsoft Dynamics 365 naar Adobe Campaign
 * *Aangepaste entiteiten*: Breng aangepaste tabellen van Microsoft Dynamics 365 naar Adobe Campaign. [Meer informatie](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
-* Dit wordt ook wel bekend als **Ingress** (onder verwijzing naar de toegang tot gegevens van Microsoft Dynamics 365 tot Adobe Campaign)
+* Dit wordt ook wel **Ingress** (onder verwijzing naar de toegang tot gegevens van Microsoft Dynamics 365 tot Adobe Campaign)
 
 **Campagne voor Microsoft Dynamics 365**
 * E-mailmarketinggebeurtenissen van Adobe Campaign Standard worden verzonden naar Dynamics 365 (e-mail verzenden, openen, klikken, stuiteren). [Meer informatie](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
-* Dit wordt ook wel bekend als **Egress** (onder verwijzing naar de vooruitgang van gegevens van Adobe Campaign naar Microsoft Dynamics 365)
+* Dit wordt ook wel **Egress** (onder verwijzing naar de vooruitgang van gegevens van Adobe Campaign naar Microsoft Dynamics 365)
 
 **In-/uitschakelen**
 
@@ -46,13 +46,14 @@ Deze integratietoepassing leest eerst in gegevens en schrijft dan gegevens aan d
 
 >[!NOTE]
 >Als uw Microsoft Dynamics 365- en/of Campagne-records niet worden bijgewerkt, moet u eerst controleren of er een groot aantal records wacht om naar de bestemming te worden geschreven.
+>
 
 ## Workflowstatus {#workflow-status}
 
 De **[!UICONTROL Status]** de staat van de achtergrondprocessen die aan de workflow zijn gekoppeld. Mogelijke waarden zijn:
 
-* **UITVOEREN**: Het proces is momenteel actief en uw gegevens moeten worden gesynchroniseerd.
-* **GESTOPT**: Het proces is momenteel niet actief, dus u mag niet verwachten dat uw gegevens moeten worden gesynchroniseerd.
+* **UITVOEREN**: Het proces wordt momenteel uitgevoerd en uw gegevens moeten worden gesynchroniseerd.
+* **GESTOPT**: Het proces is momenteel niet actief, dus u mag niet verwachten dat de gegevens moeten worden gesynchroniseerd.
 * **STARTEN**: U hebt gevraagd dat de workflowprocessen worden gestart. De toepassing is nog niet begonnen met het synchroniseren van de gegevens die aan deze workflow zijn gekoppeld, maar u kunt verwachten dat dit na een paar minuten gebeurt (wanneer vervolgens de status van **UITVOEREN**)
 * **MISLUKT**: De workflowprocessen werden uitgevoerd, maar er zijn fouten opgetreden en deze kunnen niet worden hersteld.
 
@@ -62,9 +63,9 @@ Mogelijke acties worden hieronder vermeld.
 
 * **Bewerken**: Als u op het potloodpictogram klikt, gaat u naar een andere pagina waarop u de workflow kunt bijwerken. Houd er rekening mee dat wijzigingen die u aanbrengt, NIET van kracht worden totdat u de workflow stopt en deze vervolgens opnieuw opstart.
 
-* **Start**: Met de knop Start wordt gevraagd om een stopworkflow te starten. Deze knop wordt alleen weergegeven wanneer de processen die aan de workflow zijn gekoppeld, momenteel zijn gestopt. De processen veranderen eerst in &quot;STARTING&quot; en daarna in &quot;RUNNING&quot;. De gegevens die aan de workflow zijn gekoppeld, worden pas gesynchroniseerd als de status &quot;RUNNING&quot; is ingeschakeld.
+* **Start**: Met de knop Start wordt een stopworkflow gestart. Deze knop wordt alleen weergegeven wanneer de processen die aan de workflow zijn gekoppeld, momenteel zijn gestopt. De processen veranderen eerst in &quot;STARTING&quot; en daarna in &quot;RUNNING&quot;. De gegevens die aan de workflow zijn gekoppeld, worden pas gesynchroniseerd als de status &quot;RUNNING&quot; is ingeschakeld.
 
-   De startknop is een schakelknop. Als de workflowprocessen al zijn gestart, verandert de knop in een **Stoppen** knop.
+  De startknop is een schakelknop. Als de workflowprocessen al zijn gestart, verandert de knop in een **Stoppen** knop.
 
 * **Stoppen**: A **Stoppen** om een actieve workflow te stoppen. Deze knop wordt alleen weergegeven wanneer de processen die aan de workflow zijn gekoppeld, actief zijn.
 

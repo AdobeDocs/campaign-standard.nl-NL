@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1559'
 ht-degree: 100%
 
@@ -149,7 +149,7 @@ Dit zijn de verschillende statussen voor verzoeken om toegang tot persoonsgegeve
 * **[!UICONTROL Processing]**/**[!UICONTROL Retry in progress]**: de workflow verwerkt het verzoek.
 * **[!UICONTROL Delete pending]**: in de workflow zijn alle te verwijderen gegevens van ontvangers geïdentificeerd.
 * **[!UICONTROL Delete in progress]**: de workflow verwerkt de verwijdering.
-   <!--**[!UICONTROL Delete Confirmation Pending]** (Delete request in 2-steps process mode): the workflow has processed the Access request. Manual confirmation is requested to perform the deletion. The button is available for 15 days.-->
+  <!--**[!UICONTROL Delete Confirmation Pending]** (Delete request in 2-steps process mode): the workflow has processed the Access request. Manual confirmation is requested to perform the deletion. The button is available for 15 days.-->
 * **[!UICONTROL Complete]**: de verwerking van het verzoek is zonder fout voltooid.
 * **[!UICONTROL Error]**: er is een fout opgetreden in de workflow. De reden wordt weergegeven in de kolom **[!UICONTROL Request status]** in de lijst met verzoeken om toegang tot persoonsgegevens. **[!UICONTROL Error data not found]** betekent bijvoorbeeld dat er in de database geen ontvangersgegevens zijn gevonden die overeenkomen met de **[!UICONTROL Reconciliation value]** van de betrokkene.
 

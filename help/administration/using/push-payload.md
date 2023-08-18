@@ -19,7 +19,7 @@ Met Adobe Campaign kunt u persoonlijke en gesegmenteerde pushmeldingen op mobiel
 
 Elke pushmelding die op een mobiele app wordt ontvangen, bevat informatie die door de app wordt gebruikt om de pushmelding weer te geven als een waarschuwingsbericht wordt verzonden. De pushmelding werkt hoogstwaarschijnlijk ook verder, vooral als een pushmelding wordt verzonden.
 
-Deze informatie wordt ontvangen door de mobiele toepassingscode in een gebeurtenishandler die aangeeft dat een pushmelding is ontvangen. Wanneer u pushberichten van Adobe Campaign Standard verzendt, bevat de informatie die in de mobiele app is ontvangen mogelijk ook Campaign Standard-specifieke informatie die kan worden gebruikt om gebruik te maken van bepaalde functies van Campaign Standard. Bovendien kan de lading aangepaste gegevens bevatten die door de mobiele app kunnen worden verbruikt.
+Deze informatie wordt ontvangen door de mobiele toepassingscode in een gebeurtenishandler die aangeeft dat een pushmelding is ontvangen. Wanneer u pushberichten van Adobe Campaign Standard verzendt, kunnen de gegevens die in de mobiele app zijn ontvangen ook specifieke informatie over het Campaign Standard bevatten die kan worden gebruikt om gebruik te maken van bepaalde functies die door het Campaign Standard worden geboden. Bovendien kan de lading aangepaste gegevens bevatten die door de mobiele app kunnen worden verbruikt.
 
 In dit document wordt de structuur beschreven van de payload die in een mobiele app is ontvangen wanneer een pushmelding naar een app van Adobe Campaign Standard is verzonden.
 

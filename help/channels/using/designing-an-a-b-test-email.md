@@ -51,14 +51,15 @@ In de specifieke context van een A/B-test gaat dit als volgt:
    * **[!UICONTROL Winning strategy]**: Selecteer het criterium dat moet worden gebruikt om de winnende variant te bepalen.
    * **[!UICONTROL Target breakdown]**: Kies welk percentage van de doelgroep elke variant zal ontvangen. Het resterende percentage ontvangt de winnende variant zodra deze is bepaald. De doelprofielen worden willekeurig geselecteerd.
 
-      >[!NOTE]
-      >
-      >Als de totale populatie minder dan 50 kB bedraagt, moet elke variant ten minste 10% van de totale populatie vertegenwoordigen.
+     >[!NOTE]
+     >
+     >Als de totale populatie minder dan 50 kB bedraagt, moet elke variant ten minste 10% van de totale populatie vertegenwoordigen.
 
    * **[!UICONTROL Winner sending method]**: Kies of u wilt dat de winnende variant automatisch wordt verzonden zodra deze is bepaald of dat u het verzenden naar de resterende populatie handmatig wilt bevestigen.
    * **[!UICONTROL Test duration]**: Geef de duur van de test op. De winnende variant wordt automatisch bepaald na deze duur. U kunt de winnende variant vóór het einde van de test handmatig kiezen in het e-maildashboard.
 
-      De test moet ten minste één uur duren zodat alle trackingdata kunnen worden verzameld en correct in overweging kunnen worden genomen voor het selecteren van de winnende variant.
+     De test moet ten minste één uur duren zodat alle trackingdata kunnen worden verzameld en correct in overweging kunnen worden genomen voor het selecteren van de winnende variant.
+
    ![](assets/ab_parameters.png)
 
 1. Nadat de A/B-testparameters zijn gedefinieerd, gaat u naar de volgende stap in de wizard en definieert u de e-mailcontent. Afhankelijk van de sjabloon die u hebt gekozen, kunt u verschillende onderwerpen, verschillende namen van afzenders of verschillende content definiëren. Gebruik de carrousel om tussen de verschillende varianten van het element te navigeren. Raadpleeg de sectie [Contenteditor](../../designing/using/designing-content-in-adobe-campaign.md) voor meer informatie.

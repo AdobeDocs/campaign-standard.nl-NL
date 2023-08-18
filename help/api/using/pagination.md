@@ -74,4 +74,4 @@ Standaard worden de **next** knooppunt is niet beschikbaar bij interactie met ta
 
 >[!NOTE]
 >
->Het aantal records waarboven een tabel als groot wordt beschouwd, wordt gedefinieerd in Campaign Standard **XtkBigTableThreshold** optie. De standaardwaarde is 100.000 records.
+>Het aantal records waarboven een tabel als groot wordt beschouwd, wordt in Campaign Standard gedefinieerd **XtkBigTableThreshold** -optie. De standaardwaarde is 100.000 records.

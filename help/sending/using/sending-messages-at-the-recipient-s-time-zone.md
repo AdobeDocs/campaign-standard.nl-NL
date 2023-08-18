@@ -17,7 +17,7 @@ ht-degree: 88%
 
 # Berichten verzenden in de tijdzone van de ontvanger{#sending-messages-at-the-recipient-s-time-zone}
 
-Wanneer het leiden van een campagne waarin de datum en de tijd belangrijk zijn, kunt u een levering plannen die de lokale tijd van elke ontvanger rekening houdt: ze ontvangen e-mail-, SMS- of pushberichten op het geplande tijdstip in hun eigen tijdzone.
+Wanneer het leiden van een campagne waarin de datum en de tijd belangrijk zijn, kunt u een levering plannen die de lokale tijd van elke ontvanger in rekening brengt: zij zullen e-mail, SMS of dupberichten op de tijd ontvangen u, in hun eigen tijdzone geplande.
 
 >[!NOTE]
 >

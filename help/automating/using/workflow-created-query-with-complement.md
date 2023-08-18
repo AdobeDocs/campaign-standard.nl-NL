@@ -1,6 +1,6 @@
 ---
 title: Leveringen maken met een aanvulling
-description: In dit gebruiksgeval ziet u hoe u leveringen met een complement maakt.
+description: In dit gebruiksgeval ziet u hoe u leveringen met een aanvulling kunt maken.
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -18,7 +18,7 @@ ht-degree: 41%
 
 # Leveringen maken met een aanvulling {#deliveries-with-complement}
 
-U kunt een e-mail naar klanten sturen: een voor klanten die minder dan een jaar geleden zijn gemaakt, een voor klanten die meer dan een jaar geleden zijn gecreëerd.
+U kunt een e-mail naar klanten sturen: één voor klanten die minder dan een jaar geleden zijn gemaakt, één voor klanten die meer dan een jaar geleden zijn gemaakt.
 
 1. Klik in **[!UICONTROL Marketing Activities]** op **[!UICONTROL Create]** en selecteer **[!UICONTROL Workflow]**.
 1. Selecteer **[!UICONTROL New Workflow]** als workflowtype en klik op **[!UICONTROL Next]**.
@@ -36,9 +36,9 @@ U kunt een e-mail naar klanten sturen: een voor klanten die minder dan een jaar 
 
 ## Een segmentatieactiviteit maken {#create-a-segmentation-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, slepen en neerzetten [Segmentering](../../automating/using/segmentation.md) en dubbelklik erop.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, een [Segmentering](../../automating/using/segmentation.md) en dubbelklik erop.
 1. Houd de cursor boven het segment en klik vervolgens op ![](assets/edit_darkgrey-24px.png) om klanten te richten voegde dit jaar in het gegevensbestand toe.
-1. Slepen en neerzetten **[!UICONTROL Profiles]** en selecteert u **[!UICONTROL Created]** met het filtertype **[!UICONTROL Relative]**.
+1. Slepen en slepen **[!UICONTROL Profiles]** en selecteert u **[!UICONTROL Created]** met het filtertype **[!UICONTROL Relative]**.
 1. Wijzig de **[!UICONTROL Level of precision]** tot **[!UICONTROL Year]** en selecteert u **[!UICONTROL This year]**.
 1. Klik twee keer op **[!UICONTROL Confirm]**.
 1. In **[!UICONTROL Advanced Options]**, controle **[!UICONTROL Generate complement]** om een segment tot stand te brengen richtend de resterende ontvangers.

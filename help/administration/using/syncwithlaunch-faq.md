@@ -1,6 +1,6 @@
 ---
 title: Synchroniseren met veelgestelde vragen over technische workflow starten
-description: Algemene vragen over de technische workflow van Adobe Launch
+description: Algemene vragen over de technische workflow voor het starten van Adoben
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -71,7 +71,7 @@ Raadpleeg voor meer informatie over de organisatorische eenheid [page](../../adm
 
 1. Alleen dan verschijnt de eigenschap in **[!UICONTROL Ready to Configure]** status in Adobe Campaign en kan nu worden geconfigureerd.
 
-## Ik wil een eigenschap voor mobiele apparaten configureren in Adobe Campaign. Moet ik wachten tot de technische workflow synchroniseert tussen tags in Adobe Experience Platform en Adobe Campaign?
+## Ik wil een mobiel bezit in Adobe Campaign vormen. Moet ik wachten tot de technische workflow synchroniseert tussen tags in Adobe Experience Platform en Adobe Campaign?
 
 U kunt de workflow direct uitvoeren:
 

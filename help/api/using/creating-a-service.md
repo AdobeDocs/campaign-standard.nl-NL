@@ -39,7 +39,7 @@ De vraag van de POST van de steekproef om de dienst met specifieke attributen to
 -d }
 ```
 
-Het keert de pas gecreëerde dienst met de bijgewerkte attributen terug.
+De nieuwe service wordt met de bijgewerkte kenmerken geretourneerd.
 
 ```
 {

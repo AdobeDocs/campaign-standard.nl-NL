@@ -47,13 +47,13 @@ De startpagina bestaat uit een set kaarten waarmee u snel toegang hebt tot de be
 
 ## Bovenste balk {#top-bar}
 
-De bovenste balk is zichtbaar op elk scherm en biedt u de mogelijkheid om door Adobe Campaign-functies te navigeren en toegang te krijgen tot het profiel Adobe, meldingen, Adobe Experience Cloud-oplossingen en Campagne.
+De bovenste balk is zichtbaar op elk scherm en biedt u de mogelijkheid om door Adobe Campaign-functies te navigeren en toegang te krijgen tot het profiel Adobe dat is verbonden, meldingen, Adobe Experience Cloud-oplossingen en Campagne.
 
 De navigatieprincipes:
 
 * De **Adobe** in de linkerbovenhoek van de pagina biedt u toegang tot de geavanceerde mogelijkheden en configuraties. De menu&#39;s zijn afhankelijk van uw profiel en machtigingen.
 
-   Het geavanceerde menu wordt beschreven in de sectie [Geavanceerd menu](#advanced-menu).
+  Het geavanceerde menu wordt beschreven in de sectie [Geavanceerd menu](#advanced-menu).
 
 * Met de koppeling **[!UICONTROL Home]** kunt u de startpagina van Adobe Campaign weergeven.
 * Met de koppelingen **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** en **[!UICONTROL Reports]** hebt u toegang tot de weergaven die aan deze functies zijn gekoppeld.
@@ -72,12 +72,12 @@ Gebruik de **[!UICONTROL Search]** voor hulp. Zoekresultaten zijn onder andere d
 
 Met drie tabbladen kunt u hulp en hulp zoeken:
 
-1. De **[!UICONTROL Help]** bevat:
+1. De **[!UICONTROL Help]** tab bevat:
    * een snelle toegang tot Adobe Campaign Standard-documentatie met contextafhankelijke koppelingen.
    * a **[!UICONTROL Learning]** koppeling waarmee u toegang kunt krijgen tot de Adobe Campaign-cursusbibliotheek.
    * a **[!UICONTROL Community]** link naar het forum dat gewijd is aan uw vragen over Campagne.
-   * rechtstreekse toegang tot: Help Center, Customer Care, Experience Cloud product status, Developers Connection, Release Notes, Release Planning en de **[!UICONTROL About]** scherm.
-1. De **[!UICONTROL Support]** kunt u een ondersteuningskwestie openen en telefonisch contact met ons opnemen.
+   * een directe toegang tot: Help Center, Customer Care, de status van het product van het Experience Cloud, de verbinding van ontwikkelaars, de Nota&#39;s van de Versie, de Planning van de Versie en **[!UICONTROL About]** scherm.
+1. De **[!UICONTROL Support]** kunt u een ondersteuningscase openen en telefonisch of via Twitter contact met ons opnemen.
 1. De **[!UICONTROL Feedback]**  kunt u gemakkelijker problemen melden of uw ideeën delen.
 
 ## Het menu Advanced {#advanced-menu}
@@ -126,23 +126,23 @@ De content en weergave van de centrale zone varieert:
 
 * Een **lijst** met verschillende elementen, zoals programma&#39;s, campagnes, profielen, enz. Deze elementen worden in de modus **[!UICONTROL Card]** of **[!UICONTROL List]** weergegeven. Gebruik de knop Change om van modus te wisselen. Op elk element worden indicatoren weergegeven.
 
-   ![](assets/ux_liste.png)
+  ![](assets/ux_liste.png)
 
-   Met een teller blijft u op de hoogte van het aantal elementen. Klik op deze teller als dit aantal groter is dan 30 voor het totaal aantal.
+  Met een teller blijft u op de hoogte van het aantal elementen. Klik op deze teller als dit aantal groter is dan 30 voor het totaal aantal.
 
 * Een **dashboard** met een overzicht van alle parameters die aan een activiteit zijn gekoppeld. Dit scherm toont interactieve zones om de verschillende concepten te scheiden en onafhankelijk van elkaar te configureren.
 
-   ![](assets/ux_dashboard.png)
+  ![](assets/ux_dashboard.png)
 
 * Als er bij het maken van een element meerdere opties mogelijk zijn, kunt u in een **selectiescherm** het type element selecteren dat u wilt toevoegen (campagnes, leveringen). Dit selectiescherm biedt ook toegang tot de rapporten.
 
-   ![](assets/ux_activityselection.png)
+  ![](assets/ux_activityselection.png)
 
 * Voor de workflows en de query-editor is een **werkruimte** met een palet beschikbaar voor het ontwerpen van het object.
 
-   U kunt elementen van het palet naar de werkruimte slepen om het desbetreffende element te configureren.
+  U kunt elementen van het palet naar de werkruimte slepen om het desbetreffende element te configureren.
 
-   ![](assets/ux_workspace.png)
+  ![](assets/ux_workspace.png)
 
 ## Actiebalk {#action-bar}
 

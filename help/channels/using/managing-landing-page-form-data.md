@@ -38,7 +38,7 @@ Volg de onderstaande stappen om dit te doen:
    >
    >De standaardvelden van de ingebouwde landingspagina&#39;s zijn vooraf geconfigureerd. U kunt deze desgewenst wijzigen.
 
-1. Toegang krijgen tot **[!UICONTROL Form data]** in het linkerpalet.
+1. Toegang krijgen tot de **[!UICONTROL Form data]** in het linkerpalet.
 
 1. Als u het veldtype wilt wijzigen, selecteert u een waarde in het menu **[!UICONTROL HTML type of the field]** vervolgkeuzelijst.
 
@@ -84,11 +84,11 @@ Dit doet u als volgt:
 
    ![](assets/lp_parameters_job.png)
 
-1. Selecteer **[!UICONTROL Reconciliation key]**: dit databaseveld wordt gebruikt om te bepalen of de bezoeker een profiel heeft dat al bekend is in de Adobe Campaign-database. Het kan bijvoorbeeld e-mail, voornaam, achternaam zijn. Met de afstemmingssleutel kunt u een profiel bijwerken of maken, afhankelijk van de **[!UICONTROL Update strategy]** hieronder gedefinieerde parameter.
+1. Selecteer de **[!UICONTROL Reconciliation key]**: dit databaseveld wordt gebruikt om te bepalen of de bezoeker een profiel heeft dat al bekend is in de Adobe Campaign-database. Het kan bijvoorbeeld e-mail, voornaam, achternaam zijn. Met de afstemmingssleutel kunt u een profiel bijwerken of maken, afhankelijk van de **[!UICONTROL Update strategy]** hieronder gedefinieerde parameter.
 
 1. Definieer **[!UICONTROL Form parameter mapping]**: in deze sectie kunt u de veldparameters van de landingspagina toewijzen, net als de parameters die in de afstemmingssleutel worden gebruikt.
 
-1. Selecteer **[!UICONTROL Update strategy]**: als met de afstemmingssleutel een bestaand databaseprofiel wordt hersteld, kunt u ervoor kiezen dat dit profiel wordt bijgewerkt met de gegevens die in het formulier zijn ingevoerd, of in plaats daarvan deze update voorkomen.
+1. Selecteer de **[!UICONTROL Update strategy]**: als met de afstemmingssleutel een bestaand databaseprofiel wordt hersteld, kunt u ervoor kiezen dat dit profiel wordt bijgewerkt met de gegevens die in het formulier zijn ingevoerd, of deze update voorkomen.
 
    ![](assets/lp_parameters_update-strategy.png)
 
@@ -102,15 +102,15 @@ Volg de onderstaande stappen om dit te doen:
 
    * Selecteer een blok in het menu **[!UICONTROL Form data]** sectie, kiest u **[!UICONTROL Checkbox]** als het veldtype.
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
-   * Als u bekend bent met HTML, kunt u ook handmatig een selectievakje invoegen met de **[!UICONTROL Show source]** knop.
+   * Als u bekend bent met HTML, kunt u ook handmatig een selectievakje invoegen met de opdracht **[!UICONTROL Show source]** knop.
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      Op deze manier kunt u het selectievakje op de gewenste plaats op de pagina invoegen.
+     Op deze manier kunt u het selectievakje op de gewenste plaats op de pagina invoegen.
 
-      ![](assets/lp_manual-checkbox.png)
+     ![](assets/lp_manual-checkbox.png)
 
 1. Controleer of het selectievakje is ingeschakeld in de inhoud. De **[!UICONTROL Type]** vervolgkeuzelijst wordt weergegeven in het dialoogvenster **[!UICONTROL Form data]** in het linkerpalet. Selecteren **[!UICONTROL Service and subscription]** in de lijst.
 
@@ -150,13 +150,13 @@ Voer de volgende handelingen uit om dit selectievakje in te voegen en te configu
 
    * Selecteer een blok in het menu **[!UICONTROL Form data]** sectie, kiest u **[!UICONTROL Checkbox]** als het veldtype.
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
-   * Als u bekend bent met HTML, kunt u ook handmatig een selectievakje invoegen met de **[!UICONTROL Show source]** knop.
+   * Als u bekend bent met HTML, kunt u ook handmatig een selectievakje invoegen met de opdracht **[!UICONTROL Show source]** knop.
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      <!--Manually insert a checkbox, such as in the example below:
+     <!--Manually insert a checkbox, such as in the example below:
 
       <!--Click **[!UICONTROL Hide source]**.-->
 
@@ -170,7 +170,7 @@ Voer de volgende handelingen uit om dit selectievakje in te voegen en te configu
 
    >[!NOTE]
    >
-   >De **[!UICONTROL Agreement]** element wordt niet in kaart gebracht aan een gebied van het gegevensbestand van de Campagne.
+   >De **[!UICONTROL Agreement]** element wordt niet toegewezen aan een gebied van het gegevensbestand van de Campagne.
 
 1. Klik op de knop ![](assets/lp-properties-icon.png) pictogram naast **[!UICONTROL Form data]** om toegang te krijgen tot geavanceerde eigenschappen van het selectievakje.
 

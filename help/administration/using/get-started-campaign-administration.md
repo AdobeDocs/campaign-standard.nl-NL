@@ -26,7 +26,7 @@ Als cloudgebaseerde oplossing biedt Adobe Campaign beheerders verschillende mani
 
 >[!NOTE]
 >
->Als u vragen of verzoeken over implementatie en configuratiekwesties hebt, contacteer uw Adobe rekeningsmanager.
+>Als u vragen of verzoeken over implementatie en configuratiekwesties hebt, contacteer uw manager van de rekening van de Adobe.
 
 Houd er rekening mee dat Admin-gebruikers ook het Configuratiescherm van de Campagne kunnen gebruiken voor het beheren van instellingen en het bijhouden van het gebruik voor elk van uw instanties. Raadpleeg de [desbetreffende documentatie](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) voor meer informatie.
 
@@ -40,20 +40,20 @@ De verschillende beschikbare menu&#39;s zijn:
 
 * [Gebruikers en beveiliging](../../administration/using/about-access-management.md): Met dit menu kunt u de toegang tot het platform (gebruikers, rollen, beveiligingsgroepen, eenheden) beheren.
 * [Kanalen](../../administration/using/about-channel-configuration.md): In dit menu worden de technische parameters gegroepeerd die zijn gekoppeld aan de verschillende platformkanalen (e-mail, mobiel) en het typologie- en quarantainebeheer.
-* [Toepassingsinstellingen](../../administration/using/external-accounts.md): Met dit menu kunt u verschillende toepassingselementen configureren (externe accounts, opties, technische workflows).
+* [Toepassingsinstellingen](../../administration/using/external-accounts.md): In dit menu kunt u verschillende toepassingselementen configureren (externe accounts, opties, technische workflows).
 * [Ontwikkeling](../../developing/using/data-model-concepts.md): Met dit menu kunt u uw aangepaste bronnen beheren en toegang krijgen tot diagnostische gereedschappen.
-* [Instantie-instellingen](../../administration/using/branding.md): In dit menu definieert u de verschillende merken en configureert u de instellingen (logo, beheer, bijhouden, URL-domein voor toegang tot de bestemmingspagina&#39;s, enz.).
+* [Instantie-instellingen](../../administration/using/branding.md): In dit menu definieert u de verschillende merken en configureert u de instellingen (logo, beheer van bijhouden, URL-domein voor toegang tot de bestemmingspagina&#39;s, enz.).
 * [Implementatie](../../automating/using/managing-packages.md): In dit menu worden de import- en exportopties voor het pakket opnieuw gegroepeerd.
-* [Metingen van klanten](../../audiences/using/active-profiles.md): Adobe Campaign geeft een rapport weer waarin het aantal actieve profielen wordt weergegeven. Dit rapport is slechts informatief, het heeft geen directe invloed op het factureren.
+* [Metingen van klanten](../../audiences/using/active-profiles.md): Adobe Campaign levert een rapport waarin het aantal actieve profielen wordt weergegeven. Dit rapport is slechts informatief, het heeft geen directe invloed op het factureren.
 * [Privacy-gereedschappen](../../start/using/privacy-management.md): Met dit menu kunt u GDPR-toegang maken, aanvragen verwijderen en de evolutie ervan volgen.
 
 ## Gebruikers en beveiliging {#users-security}
 
 <img src="assets/do-not-localize/icon_users.svg"  width="60px">
 
-Gebruikers uitnodigen om toegang te krijgen tot de toepassing en deze te beheren **veiligheidsgroepen**, dit zijn groepen gebruikers die dezelfde rollen en rechten binnen uw organisatie delen. Adobe Campaign biedt standaard een set **rollen** Hiermee kunt u eenheidsmachtigingen definiëren die zijn toegewezen aan gebruikers en gebruikersgroepen. Gecombineerd met **organisatorische eenheden**, geven de rollen gebruikers een gefilterde mening van de interface en bepalen hun toegang tot de verschillende eigenschappen.
+Gebruikers uitnodigen om de toepassing te openen en deze te beheren **veiligheidsgroepen**, dit zijn groepen gebruikers die dezelfde rollen en rechten binnen uw organisatie delen. Adobe Campaign biedt standaard een set **rollen** Hiermee kunt u eenheidsmachtigingen definiëren die zijn toegewezen aan gebruikers en gebruikersgroepen. Combineren met **organisatorische eenheden**, geven de rollen gebruikers een gefilterde mening van de interface en bepalen hun toegang tot de verschillende eigenschappen.
 
-De norm van de campagne staat u ook toe om op veiligheid betrekking hebbende informatie te controleren. U kunt informatie over gegevensexport ophalen die door gebruikers via de **[!UICONTROL Export audits]** en de **[!UICONTROL Licenses]** -scherm om alle geïnstalleerde campagnelicenties binnen uw organisatie te controleren en om andere informatie op te vragen, zoals het nummer van de build, de releaseversie en de voorwaarden van de overeenkomst.
+De standaard van de campagne staat u ook toe om op veiligheid betrekking hebbende informatie te controleren. U kunt informatie over gegevensexport ophalen die door gebruikers via de **[!UICONTROL Export audits]** en de **[!UICONTROL Licenses]** -scherm om alle geïnstalleerde campagnelicenties binnen uw organisatie te controleren en om andere informatie op te vragen, zoals het nummer van de build, de releaseversie en de voorwaarden van de overeenkomst.
 
 Meer informatie:
 
@@ -70,7 +70,7 @@ Meer informatie:
 
 Alle communicatiekanalen in Adobe Campaign moeten correct zijn geconfigureerd om berichten effectief te kunnen verzenden.,De **[!UICONTROL Channel]**  kunt u de technische parameters beheren die aan de verschillende kanalen zijn gekoppeld.
 
-Diverse configureren **email** parameters: verwerkingsregels voor stuit, quarantines, e-maileigenschappen en routeparameters, typoly-regels. Bepaal het verpletteren van configuraties en eigenschappen voor **SMS** kanaal, evenals de codering en formaten van SMS.
+Diverse configureren **email** parameters: verwerkingsregels voor stuit, quarantines, e-maileigenschappen en routeparameters, typoly-regels. Bepaal verpletterende configuraties en eigenschappen voor **SMS** kanaal, evenals de codering en formaten van SMS.
 
 Instellen **mobiele toepassingen** om in-app berichten en pushberichten te kunnen verzenden met Adobe Experience Platform SDK&#39;s.
 
@@ -85,7 +85,7 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_settings.svg" width="60px">
 
-Campaign Standard wordt geleverd met verschillende toepassingselementen die kunnen worden geconfigureerd om aan uw behoeften te voldoen.
+Campaign Standard wordt geleverd met verschillende toepassingselementen die op maat van uw behoeften kunnen worden geconfigureerd.
 
 Instellen **externe rekeningen**, die worden gebruikt om Adobe Campaign te verbinden met externe servers. Toegang krijgen tot Campaign Standard-doeltoewijzingen en uw platform bewaken met **technische werkstromen**.
 

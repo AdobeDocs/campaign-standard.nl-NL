@@ -27,7 +27,7 @@ U kunt de volgende typen externe accounts instellen:
 * Adobe Analytics. Zie [deze sectie](../../integrating/using/configure-campaign-analytics-integration.md) voor meer informatie.
 * Google reCAPTCHA. Zie [deze sectie](#google-recaptcha-external-account) voor meer informatie.
 * Microsoft Azure Blob-opslag. Zie [deze sectie](#microsoft-azure-external-account) voor meer informatie.
-* OAuth 2.0. Raadpleeg voor meer informatie hierover [deze sectie](#oauth-account).
+* OAuth 2.0 Raadpleeg voor meer informatie hierover [deze sectie](#oauth-account).
 
 >[!NOTE]
 >
@@ -91,10 +91,10 @@ SFTP-servers kunnen worden beheerd via het Configuratiescherm. Zie de [Configura
 
 Geef voor een externe OAuth 2.0-rekening de volgende gegevens:
 
-* A **Type subsidie**: alleen **clientgegevens** wordt ondersteund.
-* A **Beveiligde API-URL**: Voer het eindpunt van de vergunning in.
-* **OAuth 2.0 gevoelige geloofsbrieven**: Deze sectie is bedoeld voor geloofsbrieven die van nature gevoelig zijn. Referentiewaarden worden op het scherm gemaskeerd nadat ze zijn toegevoegd. op dat moment zijn ze niet leesbaar of bewerkbaar . Als voor het eindpunt van de autorisatie een bepaalde referentie moet worden ingevoegd in de HTTP-autorisatieheader in plaats van in de hoofdtekst van de POST, kunt u de optie Opnemen in koptekst voor die referentie selecteren.
-* **Niet-gevoelige OAuth 2.0-gegevens**: Deze sectie is bedoeld voor geloofsbrieven die in aard niet gevoelig zijn. De referentie-waarden zijn zichtbaar op het scherm nadat ze zijn toegevoegd. zij zullen ook bewerkbaar zijn .  Als voor het eindpunt van de autorisatie een bepaalde referentie moet worden ingevoegd in de HTTP-autorisatieheader in plaats van in de hoofdtekst van de POST, kunt u de optie Opnemen in koptekst voor die referentie selecteren.
+* A **Type subsidie** alleen : **clientgegevens** wordt ondersteund.
+* A **Secure API URL**: voer het eindpunt van de autorisatie in.
+* **OAuth 2.0 gevoelige geloofsbrieven**: Deze sectie is bedoeld voor referenties die van nature gevoelig zijn. Referentiewaarden worden op het scherm gemaskeerd nadat ze zijn toegevoegd. Op dat punt kunnen ze niet worden gelezen en kunnen ze niet worden bewerkt. Als voor het eindpunt van de autorisatie een bepaalde referentie moet worden ingevoegd in de HTTP-autorisatieheader in plaats van in de hoofdtekst van de POST, kunt u de optie Opnemen in koptekst voor die referentie selecteren.
+* **Niet-vertrouwelijke 2.0-gegevens**: Deze sectie is bedoeld voor referenties die niet gevoelig van aard zijn. Referentiewaarden zijn op het scherm zichtbaar nadat ze zijn toegevoegd. Ze kunnen ook worden bewerkt.  Als voor het eindpunt van de autorisatie een bepaalde referentie moet worden ingevoegd in de HTTP-autorisatieheader in plaats van in de hoofdtekst van de POST, kunt u de optie Opnemen in koptekst voor die referentie selecteren.
 
 Nadat u de accountgegevens hebt ingevoerd, klikt u op **Verbinding testen** om te controleren of de externe account correct is geconfigureerd.
 
@@ -102,7 +102,7 @@ Nadat u de accountgegevens hebt ingevoerd, klikt u op **Verbinding testen** om t
 
 >[!NOTE]
 >
->De referenties &quot;Content-Type: application/x-www-form-urlencoded&quot; en &quot;Grant_type=client_credentials&quot; worden automatisch toegevoegd aan de API-aanroep; daarom zult u niet hen in de geloofsbrieven sectie hoeven toe te voegen.
+>De geloofsbrieven &quot;Content-Type: application/x-www-form-urlencoded&quot;en &quot;gift_type=client_credentials&quot;zullen automatisch aan de API vraag worden toegevoegd; daarom zult u niet hen in de geloofsbrieven sectie moeten toevoegen.
 
 ## Extern Amazon S3-account {#amazon-s3-external-account}
 
@@ -142,9 +142,9 @@ Wanneer u deze nieuwe externe account instelt, moet u de volgende gegevens opgev
 
 * Server: Voer de URL van de Adobe Experience Manager-server in. Bijvoorbeeld:
 
-   ```
-   http://aem.domain.com:4502
-   ```
+  ```
+  http://aem.domain.com:4502
+  ```
 
 * Aanmeldingsgegevens voor AEM-account: gebruik het account dat toegang nodig heeft tot de Adobe Experience Manager-instantie. Het zou een accountonderdeel moeten zijn van de groep campaign-remote in Experience Manager.
 
@@ -165,7 +165,7 @@ Geef voor een extern Google reCAPTCHA V3-account de volgende data op:
 * Uw **[!UICONTROL Site key]** en **[!UICONTROL Site secret]**
 * Een **[!UICONTROL Threshold]** tussen 0 en 1
 
-   Een waarde van 0,0 bij **[!UICONTROL Threshold]** betekent dat het waarschijnlijk een bot is en 1,0 geeft een waarschijnlijk goede interactie aan. Standaard kunt u een drempel van 0,5 gebruiken.
+  Een waarde van 0,0 bij **[!UICONTROL Threshold]** betekent dat het waarschijnlijk een bot is en 1,0 geeft een waarschijnlijk goede interactie aan. Standaard kunt u een drempel van 0,5 gebruiken.
 
 ![](assets/external_accounts_3.png)
 

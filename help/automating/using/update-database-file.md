@@ -20,7 +20,7 @@ ht-degree: 33%
 
 In het volgende voorbeeld wordt de configuratie van een **[!UICONTROL Update data]** activiteit na een **[!UICONTROL Load file]** activiteit. Het doel van deze workflow is om profielen aan de Adobe Campaign-database toe te voegen of bij te werken met de data uit het bestand.
 
-In dit voorbeeld wordt de verzoeningssleutel gebruikt: **e-mailadres**. Het bestand dat in het dialoogvenster [Bestand laden](../../automating/using/load-file.md) activiteit is **.txt** opmaakbestand met de volgende voorbeeldgegevens:
+In dit voorbeeld wordt de verzoeningssleutel gebruikt: **mailadres**. Het bestand dat in het dialoogvenster [Bestand laden](../../automating/using/load-file.md) activiteit is **.txt** opmaakbestand met de volgende voorbeeldgegevens:
 
 ```
 lastname;firstname;email;birthdate

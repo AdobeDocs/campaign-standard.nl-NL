@@ -26,14 +26,14 @@ Elke tabel wordt aangegeven met een overzichtsnummer en een overzicht van de dia
 
 De **Leveringsstatistieken** de tabel bevat de gegevens die beschikbaar zijn voor verzonden e-mails, zoals:
 
-* **[!UICONTROL Processed/sent]**: Het totale aantal verzendt voor de levering.
+* **[!UICONTROL Processed/sent]**: Het totale aantal verzendingen voor de levering.
 * **[!UICONTROL Delivered]**: Het aantal berichten dat is verzonden in verhouding tot het totale aantal verzonden berichten. Er wordt rekening gehouden met de geconstateerde fouten. Er wordt echter geen rekening gehouden met klachten (spamverklaringen) en wegberichten zoals &quot;out of office&quot;.
 * **[!UICONTROL Bounces + Errors]**: Het aantal totale fouten dat tijdens levering en automatische terugkeerverwerking met betrekking tot het totale aantal verzonden berichten wordt gecumuleerd.
 
 De **Openen en klikken** de lijst, bevat de beschikbare gegevens voor ontvankelijke activiteit voor elke levering, zoals:
 
-* **Klikken**: Het aantal keren dat op een inhoud is geklikt in een levering.
-* **Openen**: Het aantal keren dat een bericht in een levering werd geopend.
+* **Klikken**: Het aantal keren dat op de inhoud is geklikt in een levering.
+* **Openen**: Het aantal keren dat een bericht is geopend in een levering.
 * **Unieke openingen**: Het aantal ontvangers dat de levering heeft geopend.
 * **Unieke klikken**: Het aantal ontvangers dat op een inhoud in een levering heeft geklikt.
 

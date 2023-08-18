@@ -21,7 +21,7 @@ Elk object en elke gebruiker van het platform is gekoppeld aan een organisatoris
 
 >[!IMPORTANT]
 >
->Als een gebruiker niet is gekoppeld aan een eenheid, kan die gebruiker geen verbinding maken met Adobe Campaign. Als u de toegang voor een bepaalde gebruiker of groep gebruikers wilt beperken, moet u deze niet koppelen aan de **[!UICONTROL All]** eenheid. We raden u aan de optie toe te voegen **Toegangsmachtigingsbeheervelden** voordat u profielen importeert. Raadpleeg deze [sectie](../../administration/using/organizational-units.md#partitioning-profiles) voor meer informatie.
+>Als een gebruiker niet is gekoppeld aan een eenheid, kan die gebruiker geen verbinding maken met Adobe Campaign. Als u de toegang voor een bepaalde gebruiker of groep gebruikers wilt beperken, moet u deze niet koppelen aan de **[!UICONTROL All]** -eenheid. We raden u aan de optie toe te voegen **Toegangsmachtigingsbeheervelden** voordat u profielen importeert. Raadpleeg deze [sectie](../../administration/using/organizational-units.md#partitioning-profiles) voor meer informatie.
 >
 >Standaard wordt de organisatie-eenheid **[!UICONTROL All (all)]** toegewezen aan de beveiligingsgroep **[!UICONTROL Administrators]**. Deze is alleen-lezen en kan niet worden gewijzigd.
 
@@ -41,11 +41,11 @@ Wanneer aan de gebruiker een organisatorische eenheid wordt toegewezen, wordt de
 
 Met de eenheden van de organisatie kunt u uw exemplaar filteren, afhankelijk van de organisatie waaraan uw gebruikers zijn gekoppeld. Deze eenheid kan een regio, land of zelfs een merk in uw exemplaar vertegenwoordigen.
 
-Hier, creeerden wij eerder veiligheidsgroepen met verschillende rollen aan twee gebruikers: één gebruiker wordt toegewezen de beheerders en de Geometrixx van de veiligheidsgroepen, de andere gebruiker behoort tot de standaardgebruikers en de Kleuren van de Geometrixx Zie [Een beveiligingsgroep maken en gebruikers toewijzen](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) voor het volledige voorbeeld.
+Hier, creeerden wij eerder veiligheidsgroepen met verschillende rollen aan twee gebruikers: één gebruiker wordt toegewezen de beheerders en de Geometrixx van de veiligheidsgroepen, de andere gebruiker behoort tot de standaardgebruikers en van de Geometrixx zie [Een beveiligingsgroep maken en gebruikers toewijzen](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) voor het volledige voorbeeld.
 
 We moeten nu de organisatorische eenheden creëren voor de Geometrixx Clothes en de veiligheidsgroepen van de Geometrixx:
 
-1. Kies in het geavanceerde menu van de Adobe-campagne de optie **[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**.
+1. Kies in het geavanceerde menu van de campagne Adobe de optie **[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**.
 1. Klikken **[!UICONTROL Create]** om uw organisatorische eenheid te configureren.
 
    ![](assets/manage_units_1.png)
@@ -104,14 +104,14 @@ Standaard zijn de velden voor de organisatie-eenheid niet beschikbaar in uw prof
 
 1. Selecteer in het geavanceerde menu via het Adobe Campaign-logo de optie **Beheer > Ontwikkeling > Aangepaste bronnen**.
 1. Selecteren **Profiel** of maak een nieuwe aangepaste bron om de profielen uit te breiden. Raadpleeg voor meer informatie over het uitbreiden van profielen de volgende [page](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource).
-1. Controleer de **Voeg de beheersgebieden van de toegangsvergunning toe** vak voor het toevoegen van de organisatorische eenheden in het dialoogvenster **Profiel** extensie.
+1. Controleer de **Voeg de beheersgebieden van de toegangsvergunning toe** om de organisatorische eenheden in het dialoogvenster **Profiel** extensie.
 
    ![](assets/user_management_9.png)
 
 1. Klik op **[!UICONTROL Save]**.
 1. Werk de structuur bij door de aangepaste bronnen opnieuw te publiceren. Voor meer informatie over het publicatieproces raadpleegt u [De structuur bijwerken](../../developing/using/updating-the-database-structure.md) sectie.
 
-Het veld organisatorische eenheid wordt toegevoegd aan uw profielen in het gedeelte **[!UICONTROL Access authorization]** sectie.
+Het veld Organisatorische eenheid wordt toegevoegd aan uw profielen in het gedeelte **[!UICONTROL Access authorization]** sectie.
 
 ![](assets/user_management_10.png)
 

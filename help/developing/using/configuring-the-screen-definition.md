@@ -96,9 +96,9 @@ Met deze instellingen kunt u een controlebalk in het scherm van de aangepaste re
 
 * **[!UICONTROL Authorize creating]**: Met deze optie kunt u het maken van elementen van de resource activeren. De gebruiker kan daarom aanvullende records toevoegen.
 
-   >[!NOTE]
-   >
-   >U moet eerst het detailscherm activeren dat aan de resource is gekoppeld om deze optie beschikbaar te maken.
+  >[!NOTE]
+  >
+  >U moet eerst het detailscherm activeren dat aan de resource is gekoppeld om deze optie beschikbaar te maken.
 
 * **[!UICONTROL Authorize duplicating]**: Met deze optie kunt u duplicatierecords activeren die aan de aangepaste resource zijn gekoppeld.
 * **[!UICONTROL Authorize deleting]**: Met deze optie kunt u verwijderingsrecords activeren die aan de aangepaste resource zijn gekoppeld.

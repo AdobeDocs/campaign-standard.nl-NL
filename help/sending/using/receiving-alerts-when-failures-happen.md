@@ -33,7 +33,7 @@ De verzonden meldingen bevatten een rapport dat standaard is gebaseerd op de vol
 
 De ontvangers van de waarschuwingen kunnen toezicht houden op de leveringen die door Adobe Campaign worden verwerkt en passende maatregelen nemen wanneer er problemen zijn bij de uitvoering ervan.
 
-Deze waarschuwingsmeldingen kunnen worden aangepast op basis van specifieke waarschuwingscriteria die via een dashboard in de Adobe Campaign-interface zijn gedefinieerd.
+Deze waarschuwingsberichten kunnen worden aangepast op basis van specifieke waarschuwingscriteria die via een dashboard in de Adobe Campaign-interface zijn gedefinieerd.
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ De verzonden meldingen bevatten:
 
 ![](assets/delivery-alerting_notification.png)
 
-## Waarschuwingsdashboards voor levering {#delivery-alerting-dashboards}
+## Waarschuwingsdashboards {#delivery-alerting-dashboards}
 
 ### Informatie over waarschuwingsdashboards voor levering {#about-delivery-alerting-dashboards}
 
@@ -63,11 +63,11 @@ Via de Adobe Campaign-interface kunt u:
 * Wijzig de criteria parameters voor elk dashboard. Zie [Criteria](#criteria-parameters).
 * Definieer een groep ontvangers voor elk dashboard.
 
-   U wilt de gebruikers met beheerdersrechten bijvoorbeeld alleen op de hoogte stellen van de mislukte leveringen. Nochtans, wilt u de marketing gebruikers om informatie over de leveringen met een zachte stuiterende slechte foutenverhouding te ontvangen. Daarom moet u twee verschillende dashboards tot stand brengen en de criteria bepalen die u voor elke groep ontvangers wilt.
+  U wilt de gebruikers met beheerdersrechten bijvoorbeeld alleen op de hoogte stellen van de mislukte leveringen. Nochtans, wilt u de marketing gebruikers om informatie over de leveringen met een zachte stuiterende slechte foutenverhouding te ontvangen. Daarom moet u twee verschillende dashboards tot stand brengen en de criteria bepalen die u voor elke groep ontvangers wilt.
 
 * Open de geschiedenis van alle verzonden waarschuwingen voor elk dashboard.
 
-   Wanneer u een dashboard selecteert, wordt standaard de laatste waarschuwing voor dit dashboard weergegeven. Alle verzonden waarschuwingen worden links op het scherm weergegeven. Klik op een item in het dialoogvenster **[!UICONTROL History]** lijst voor toegang tot de bijbehorende waarschuwingen.
+  Wanneer u een dashboard selecteert, wordt standaard de laatste waarschuwing voor dit dashboard weergegeven. Alle verzonden waarschuwingen worden links op het scherm weergegeven. Klik op een item in het dialoogvenster **[!UICONTROL History]** lijst voor toegang tot de bijbehorende waarschuwingen.
 
 ![](assets/delivery-alerting_dashboard.png)
 
@@ -84,9 +84,9 @@ Als u meldingen op basis van specifieke criteria wilt verzenden naar verschillen
    ![](assets/delivery-alerting_dashboard_general.png)
 
 1. Selecteer de groep ontvangers die u via het dialoogvenster wilt waarschuwen **[!UICONTROL Alert group]** vervolgkeuzelijst. Als u een groep wilt wijzigen of maken, raadpleegt u [Een beveiligingsgroep maken en gebruikers toewijzen](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
-1. Van de **[!UICONTROL Delivery alerting criteria]** sectie, klikt u op **[!UICONTROL Create element]** om criteria toe te voegen. Zie [Waarschuwingscriteria](#about-alerting-criteria).
+1. Van de **[!UICONTROL Delivery alerting criteria]** sectie, klikken **[!UICONTROL Create element]** om criteria toe te voegen. Zie [Waarschuwingscriteria](#about-alerting-criteria).
 1. Selecteer de knop **[!UICONTROL Edit properties]**. In de **[!UICONTROL Criteria parameters]** , definieert u hoe de criteria worden toegepast. Zie [Criteria](#criteria-parameters).
-1. Klikken **[!UICONTROL Create]** om het dashboard op te slaan.
+1. Klikken **[!UICONTROL Create]** het dashboard opslaan.
 
 Telkens wanneer een levering voldoet aan de criteria die u in dit dashboard hebt gedefinieerd, wordt een waarschuwingsbericht verzonden naar de opgegeven groep gebruikers.
 
@@ -94,18 +94,18 @@ Telkens wanneer een levering voldoet aan de criteria die u in dit dashboard hebt
 
 ### Waarschuwingscriteria {#about-alerting-criteria}
 
-Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]** en selecteert u **[!UICONTROL Delivery alerting criteria]**.
+Ga voor toegang tot de waarschuwingscriteria voor levering naar **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]** en selecteert u **[!UICONTROL Delivery alerting criteria]**.
 
 ![](assets/delivery-alerting_criteria.png)
 
 De volgende criteria kunnen worden gebruikt in de waarschuwingsdashboards voor levering:
 
-* **[!UICONTROL Deliveries failed]**: Elke levering gepland binnen een bepaald bereik, met een onjuiste status.
-* **[!UICONTROL Deliveries with preparation failed]**: Elke levering die binnen een bepaald bereik is gewijzigd en waarvoor de voorbereidingsstap (berekening van het doel en genereren van de inhoud) is mislukt. Zie voor meer informatie [De verzending voorbereiden](../../sending/using/preparing-the-send.md).
-* **[!UICONTROL Delivery with bad error ratio for soft bounces]**: Elke levering gepland binnen een bepaald bereik, met ten minste een status **[!UICONTROL In progress]**, met een soft bounce error ratio groter dan een bepaald percentage.
-* **[!UICONTROL Delivery with bad error ratio for hard bounces]**: Elke levering gepland binnen een bepaald bereik, met ten minste een status **[!UICONTROL In progress]**, met een harde stuitfoutenverhouding groter dan een bepaald percentage.
+* **[!UICONTROL Deliveries failed]**: Elke levering die binnen een bepaald bereik is gepland, met een onjuiste status.
+* **[!UICONTROL Deliveries with preparation failed]**: Elke levering die binnen een bepaald bereik is gewijzigd en waarvoor de bereidingsstap (berekening van het doel en genereren van de inhoud) is mislukt. Zie voor meer informatie [De verzending voorbereiden](../../sending/using/preparing-the-send.md).
+* **[!UICONTROL Delivery with bad error ratio for soft bounces]**: Elke levering gepland binnen een bepaald bereik, met een status van ten minste **[!UICONTROL In progress]**, met een soft bounce error ratio groter dan een bepaald percentage.
+* **[!UICONTROL Delivery with bad error ratio for hard bounces]**: Elke levering gepland binnen een bepaald bereik, met een status van ten minste **[!UICONTROL In progress]**, met een harde stuitfoutenverhouding groter dan een bepaald percentage.
 * **[!UICONTROL Deliveries with long start pending]**: Elke levering gepland binnen een bepaald bereik, met een **[!UICONTROL Start pending]** status langer dan een bepaalde duur; **[!UICONTROL Start pending]** status die betekent dat de berichten nog niet door het systeem in aanmerking zijn genomen.
-* **[!UICONTROL Deliveries with low throughput]**: Om het even welke levering begon langer dan een bepaalde duur, met minder dan een bepaald percentage verwerkte berichten, met een productie minder dan een bepaalde waarde.
+* **[!UICONTROL Deliveries with low throughput]**: Elke levering die langer dan een bepaalde duur is gestart, met minder dan een bepaald percentage verwerkte berichten, met een doorvoer die lager is dan een gedefinieerde waarde.
 * **[!UICONTROL Deliveries in progress]**: Elke levering gepland binnen een bepaald bereik, met de **[!UICONTROL In progress]** status.
 
 >[!NOTE]
@@ -120,15 +120,15 @@ Voor elk criterium kunt u de volgende instellingen definiëren:
 
 * **[!UICONTROL Indicators to add in alerts]**, dat wil zeggen de kolommen die in de kennisgeving worden weergegeven **[!UICONTROL Details]** voor de leveringen die overeenstemmen met het geselecteerde criterium.
 
-   ![](assets/delivery-alerting_notification_colums.png)
+  ![](assets/delivery-alerting_notification_colums.png)
 
 * **[!UICONTROL Alert type]**, dat wil zeggen het label en de kleur die naast het leveringscriterium in de samenvatting van de kennisgeving zullen worden weergegeven.
 
-   ![](assets/delivery-alerting_notification_labels.png)
+  ![](assets/delivery-alerting_notification_labels.png)
 
-* **[!UICONTROL Criteria frequency]**: Indien voor één levering aan een criterium wordt voldaan, wordt dit herhaald in elke kennisgeving die binnen de monitoringperiode wordt verzonden. Anders wordt één waarschuwing per dag (bij het eerste exemplaar) per waarschuwingscriterium voor één levering verzonden.
+* **[!UICONTROL Criteria frequency]**: Indien voor één levering aan een criterium is voldaan, wordt dit herhaald in elke kennisgeving die binnen de monitoringperiode wordt verzonden. Anders wordt één waarschuwing per dag (bij het eerste exemplaar) per waarschuwingscriterium voor één levering verzonden.
 
-   Deze optie is standaard ingesteld op één keer per dag voor alle criteria.
+  Deze optie is standaard ingesteld op één keer per dag voor alle criteria.
 
 **Verwante onderwerpen:**
 
@@ -142,20 +142,20 @@ U kunt nieuwe waarschuwingscriteria voor levering maken die beter aansluiten bij
 
 U kunt bijvoorbeeld een nieuw criterium maken waarmee u een melding kunt verzenden waarin alle leveringen worden vermeld met een **[!UICONTROL Finished]** status.
 
-Om dit te doen, moet u eerst uitbreiden **Aflevering** bron en voeg een nieuw filter toe waarmee u alleen de leveringen met een **[!UICONTROL Finished]** status.
+Hiervoor moet u eerst de **Aflevering** bron en voeg een nieuw filter toe waarmee u alleen de leveringen met een **[!UICONTROL Finished]** status.
 
-1. Ga naar **Adobe Campaign** > **Beheer** > **Ontwikkeling** > **Aangepaste bronnen** en klik op **[!UICONTROL Create]**.
+1. Ga naar **Adobe Campaign** > **Administratie** > **Ontwikkeling** > **Aangepaste bronnen** en klik op **[!UICONTROL Create]**.
 1. Selecteren **[!UICONTROL Extend an existing resource]**, selecteert u de **[!UICONTROL Delivery]** bron in de vervolgkeuzelijst en klik op **[!UICONTROL Create]** om het te bewerken.
 
    ![](assets/delivery-alerting_extend-delivery-cus.png)
 
-   Voor meer informatie over het uitbreiden van een bestaande bron raadpleegt u [De bron definiëren](../../developing/using/creating-or-extending-the-resource.md).
+   Zie voor meer informatie over het uitbreiden van een bestaande bron [De bron definiëren](../../developing/using/creating-or-extending-the-resource.md).
 
 1. In de **[!UICONTROL Delivery]** bron, ga naar de **[!UICONTROL Filter definition]** en klik op **[!UICONTROL Add an element]** om een filter te maken.
 
    ![](assets/delivery-alerting_new-filter.png)
 
-1. Bewerk de nieuwe filterdefinitie: in de **[!UICONTROL Filter definition]** venster, slepen en neerzetten **[!UICONTROL Status]** in de werkruimte en selecteer **[!UICONTROL Finished]** als de filtervoorwaarde.
+1. Bewerk de nieuwe filterdefinitie in het gedeelte **[!UICONTROL Filter definition]** venster, slepen en neerzetten **[!UICONTROL Status]** in de werkruimte en selecteer **[!UICONTROL Finished]** als de filtervoorwaarde.
 
    ![](assets/delivery-alerting_filter-status.png)
 
@@ -188,23 +188,23 @@ In de **[!UICONTROL Criteria parameters]** tabblad van een [waarschuwingsdashboa
 
 ![](assets/delivery-alerting_dashboard_criteria-parameters.png)
 
-* **[!UICONTROL Delivery target minimum size]**: Bijvoorbeeld, als u 100 op dit gebied ingaat, wordt een bericht verzonden slechts voor leveringen met een doel gelijk aan of groter dan 100 ontvangers. Deze parameter geldt voor alle criteria.
+* **[!UICONTROL Delivery target minimum size]**: Als u bijvoorbeeld 100 invoert in dit veld, wordt alleen een melding verzonden voor leveringen met een doel dat gelijk is aan of groter is dan 100 ontvangers. Deze parameter geldt voor alle criteria.
 * **[!UICONTROL Monitoring period before and after the contact date (in hours)]**: Aantal uren voor en na de huidige tijd. Alleen de leveringen met een contactdatum in dit tijdsbereik worden in aanmerking genomen. Deze parameter geldt voor alle criteria. De standaardwaarde voor dit veld is 24 uur.
 
-   Voor meer informatie over de contactdatum raadpleegt u [Informatie over het plannen](../../sending/using/about-scheduling-messages.md).
+  Zie voor meer informatie over de contactdatum [Informatie over het plannen](../../sending/using/about-scheduling-messages.md).
 
-* **[!UICONTROL Maximum ratio of soft bounce errors]**: Er wordt een melding verzonden voor alle leveringen met een soft bounce error ratio die groter is dan de opgegeven waarde. De standaardwaarde voor dit veld is 0,05 (5%).
+* **[!UICONTROL Maximum ratio of soft bounce errors]**: Er wordt een melding verzonden voor alle leveringen met een soft bounce error ratio groter dan de opgegeven waarde. De standaardwaarde voor dit veld is 0,05 (5%).
 
-   Voor meer informatie over zachte stuiterfouten raadpleegt u [Bounce mail-kwalificatie](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) en [Lijst met fouttypen voor levering](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+  Zie voor meer informatie over zachte stuiterfouten [Bounce mail-kwalificatie](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) en [Lijst met fouttypen voor levering](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
-* **[!UICONTROL Maximum ratio of hard bounce errors]**: Er wordt een melding verzonden voor alle leveringen met een harde stuitfoutenverhouding die groter is dan de opgegeven waarde. De standaardwaarde voor dit veld is 0,05 (5%).
+* **[!UICONTROL Maximum ratio of hard bounce errors]**: Er wordt een melding verzonden voor alle leveringen met een harde stuiterfout-verhouding die groter is dan de opgegeven waarde. De standaardwaarde voor dit veld is 0,05 (5%).
 
-   Voor meer informatie over harde stuitfouten raadpleegt u [Bounce mail-kwalificatie](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) en [Lijst met fouttypen voor levering](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+  Zie voor meer informatie over harde stuitfouten [Bounce mail-kwalificatie](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) en [Lijst met fouttypen voor levering](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 
 * **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**: Er wordt een melding verzonden voor alle leveringen met een **[!UICONTROL Start pending]** status langer dan de in dit veld opgegeven duur, **[!UICONTROL Start pending]** status die betekent dat de berichten nog niet door het systeem in aanmerking zijn genomen.
 * **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**: Alleen leveringen gestart (met **[!UICONTROL In progress]** status) voor meer dan de opgegeven duur in aanmerking worden genomen voor de **[!UICONTROL Deliveries with low throughput]** criterium.
-* **[!UICONTROL Maximum percentage of processed messages for the computation of the throughput]**: Voor de **[!UICONTROL Deliveries with low throughput]** criterium.
-* **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**: Voor de **[!UICONTROL Deliveries with low throughput]** criterium.
+* **[!UICONTROL Maximum percentage of processed messages for the computation of the throughput]**: Alleen leveringen met een percentage verwerkte berichten dat lager is dan het opgegeven percentage worden in aanmerking genomen voor de **[!UICONTROL Deliveries with low throughput]** criterium.
+* **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**: Alleen leveringen met een lagere doorvoer dan de opgegeven waarde worden in aanmerking genomen voor de **[!UICONTROL Deliveries with low throughput]** criterium.
 * **[!UICONTROL Minimum processed ratio required for 'Deliveries in progress' criterion]**: Alleen leveringen met een percentage verwerkte berichten dat hoger is dan het opgegeven percentage, worden in aanmerking genomen.
 
 ### Waarschuwingsfrequentie {#alerting-frequency}
@@ -225,18 +225,18 @@ Wanneer u nu een bericht ontvangt voor een waarschuwing over de levering, kunt u
 
 Eerst en vooral, controleer de levering **Logboek** tabblad om alle informatie over de levering en proefdrukken weer te geven. Met de rode en gele pictogrammen kunt u fouten of waarschuwingen herkennen. Het rode pictogram geeft een kritieke fout aan die voorkomt dat de levering wordt gestart.
 
-Selecteer de optie **[!UICONTROL Sending logs]** tab. Het bevat de lijst met verzonden berichten en hun status. Hier kunt u de leveringsstatus voor elke ontvanger controleren ( **[!UICONTROL Sent]**, **[!UICONTROL Pending]**, **[!UICONTROL Failed]**, enz.). Zie voor meer informatie [Logboeken verzenden](../../sending/using/monitoring-a-delivery.md#sending-logs).
+Als u de geschiedenis van elk exemplaar van een levering wilt weergeven, selecteert u de optie **[!UICONTROL Sending logs]** tab. Het bevat de lijst met verzonden berichten en hun status. Hier kunt u de leveringsstatus voor elke ontvanger controleren ( **[!UICONTROL Sent]**, **[!UICONTROL Pending]**, **[!UICONTROL Failed]**, enz.). Zie voor meer informatie [Logboeken verzenden](../../sending/using/monitoring-a-delivery.md#sending-logs).
 
 Hier volgen enkele mogelijke redenen om waarschuwingsberichten te ontvangen op basis van de criteria waaraan een levering voldoet.
 
-* **[!UICONTROL Deliveries failed]**: Dit criterium brengt u op de hoogte van alle leveringen met een onjuiste status. Dit kan te wijten zijn aan:
+* **[!UICONTROL Deliveries failed]**: Dit criterium informeert u over alle leveringen met een onjuiste status. Dit kan te wijten zijn aan:
 
    * Een probleem met de leveringsserver (MTA, de Agent van de Overdracht van het Bericht)
    * Een time-out voor de verbinding tussen de Adobe Campaign-leveringsserver en de ontvangende server
-   * Een probleem met betrekking tot de leverbaarheid
+   * Een probleem met betrekking tot de levering
    * Een onjuiste workflow
 
-   Als de levering met een werkschema in werking wordt gesteld, controleer of die werkschema correct was begonnen. Zie voor meer informatie [Een workflow uitvoeren](../../automating/using/about-workflow-execution.md). Anders kunt u contact opnemen met uw Adobe Campaign-beheerder om het probleem op te lossen.
+  Als de levering met een werkschema in werking wordt gesteld, controleer of die werkschema correct was begonnen. Zie voor meer informatie [Een workflow uitvoeren](../../automating/using/about-workflow-execution.md). Anders kunt u contact opnemen met uw Adobe Campaign-beheerder om het probleem op te lossen.
 
 * **[!UICONTROL Deliveries with preparation failed]**: Er kan een fout optreden tijdens de voorbereiding van de levering in de volgende gevallen:
 
@@ -245,35 +245,33 @@ Hier volgen enkele mogelijke redenen om waarschuwingsberichten te ontvangen op b
    * Het doel ontbreekt.
    * De levering overschrijdt de groottelimiet.
 
-   Zie voor meer informatie [De verzending voorbereiden](../../sending/using/preparing-the-send.md). Deze fouten worden echter meestal waargenomen tijdens de analyse van berichten. Zie [Controlevoorschriften](../../sending/using/control-rules.md).
+  Zie voor meer informatie [De verzending voorbereiden](../../sending/using/preparing-the-send.md). Deze fouten worden echter meestal waargenomen tijdens de analyse van berichten. Zie [Controlevoorschriften](../../sending/using/control-rules.md).
 
 * De mogelijke oorzaken van een **[!UICONTROL Delivery with bad error ratio for soft bounces]** alert kan zijn:
 
    * De server van de ontvanger is neer.
    * De brievenbus van de ontvanger is volledig.
 
-   Voor meer informatie raadpleegt u de **[!UICONTROL Exclusion logs]** en **[!UICONTROL Exclusion causes]** tabbladen van de leveringslogboeken. Zie [Uitsluitingslogboeken](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
+  Voor meer informatie, controleer **[!UICONTROL Exclusion logs]** en **[!UICONTROL Exclusion causes]** tabbladen van de leveringslogboeken. Zie [Uitsluitingslogboeken](../../sending/using/monitoring-a-delivery.md#exclusion-logs).
 
-   De mogelijke oorzaken van een **[!UICONTROL Delivery with bad error ratio for hard bounces]** alert kan zijn:
+  De mogelijke oorzaken van een **[!UICONTROL Delivery with bad error ratio for hard bounces]** alert kan zijn:
 
    * De ontvanger wordt toegevoegd aan de lijst van gewezen personen, wat betekent dat hij niet langer contact met hem wil opnemen.
    * Het e-mailadres van de ontvanger bestaat niet.
    * Het domein van de ontvanger bestaat niet.
    * De server van de ontvanger blokkeert de levering.
 
-   Volg onderstaande aanbevolen procedures om zachte en harde stuiterfouten te voorkomen:
+  Volg onderstaande aanbevolen procedures om zachte en harde stuiterfouten te voorkomen:
 
    * Bouw het filtreren typologieregels om één deel van het berichtdoel tijdens de leveringsanalyse, zoals in quarantaine gehouden ontvangers uit te sluiten. Zie [Filterregels maken](../../sending/using/filtering-rules.md).
    * Werk regelmatig uw klantengegevensbestand bij om goede processen van het quarantainebeheer te handhaven. Zie [Informatie over quarantines](../../sending/using/understanding-quarantine-management.md#about-quarantines).
    * Over het algemeen kunt u de prestaties het beste verbeteren. Zie de Adobe Campaign [Leverbaarheid](../../sending/using/about-deliverability.md) gedetailleerde documentatie en neem contact op met uw Adobe Campaign-beheerder voor hulp.
 
+* **[!UICONTROL Deliveries with long start pending]**: Doorgaans betekent dit dat er een probleem is op het niveau van MTA (Message Transfer Agent). Het uitvoeringsproces wacht op de beschikbaarheid van sommige bronnen. De MTA is mogelijk niet gestart.
 
+  **[!UICONTROL Deliveries with low throughput]**: Ook dit is een kwestie van leverbaarheid, wat betekent dat de MTA te langzaam is.
 
-* **[!UICONTROL Deliveries with long start pending]**: Gewoonlijk betekent dit dat er een probleem op het niveau van MTA (de Agent van de Overdracht van het Bericht) is. Het uitvoeringsproces wacht op de beschikbaarheid van sommige bronnen. De MTA is mogelijk niet gestart.
-
-   **[!UICONTROL Deliveries with low throughput]**: Nogmaals, dit is een kwestie van leverbaarheid die betekent dat de MTA te langzaam is.
-
-   Neem contact op met uw Adobe Campaign-beheerder voor meer informatie over deze problemen.
+  Neem contact op met uw Adobe Campaign-beheerder voor meer informatie over deze problemen.
 
 **Verwante onderwerpen:**
 

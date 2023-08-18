@@ -63,11 +63,11 @@ Elke lijst en visualisatie is resizable en kan worden bewogen om uw rapport bete
 
    De **[!UICONTROL Column settings]** bestaat uit:
 
-   * **[!UICONTROL Number]**: Hiermee kunt u samenvattingsnummers in de kolom tonen of verbergen.
-   * **[!UICONTROL Percent]**: Hiermee kunt u het percentage in de kolom tonen of verbergen.
-   * **[!UICONTROL Interpret zero as no value]**: Hiermee kunt u tonen of verbergen wanneer de waarde gelijk is aan nul.
-   * **[!UICONTROL Background]**: Hiermee kunt u de horizontale voortgangsbalk in cellen weergeven of verbergen.
-   * **[!UICONTROL Include retries]**: Hiermee kunt u opnieuw proberen opnemen in het resultaat. Dit is alleen beschikbaar voor **[!UICONTROL Sent]** en **[!UICONTROL Bounces + Errors]**.
+   * **[!UICONTROL Number]**: hiermee kunt u samenvattingsnummers weergeven of verbergen in de kolom.
+   * **[!UICONTROL Percent]**: hiermee kunt u het percentage in de kolom tonen of verbergen.
+   * **[!UICONTROL Interpret zero as no value]**: hiermee kunt u tonen of verbergen wanneer de waarde gelijk is aan nul.
+   * **[!UICONTROL Background]**: hiermee kunt u de horizontale voortgangsbalk in cellen weergeven of verbergen.
+   * **[!UICONTROL Include retries]**: hiermee kunt u opnieuw proberen in het resultaat opnemen. Dit is alleen beschikbaar voor **[!UICONTROL Sent]** en **[!UICONTROL Bounces + Errors]**.
 
 1. Selecteer een of meerdere rijen en klik op de knop **[!UICONTROL Visualize]** pictogram. Er wordt een visualisatie toegevoegd die de geselecteerde rijen weerspiegelt.
 

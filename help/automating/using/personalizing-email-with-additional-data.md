@@ -42,11 +42,12 @@ De workflow wordt als volgt weergegeven:
    * Twee aggregaten gebaseerd op de transactieverzameling: het aantal gekochte producten en het totale bestede bedrag. U kunt deze toevoegen vanaf het tabblad **[!UICONTROL Data]** van het samengevoegde configuratievenster. Gebruik de aggregaten **Count** en **Sum**. Raadpleeg de sectie [Een aggregaat toevoegen](../../automating/using/query.md#adding-an-aggregate).
    * Een verzameling waarmee het bestede bedrag, de datum en het product van de laatste uitgevoerde transactie wordt geretourneerd.
 
-      Hiervoor moet u de verschillende velden toevoegen die u wilt weergeven op het tabblad **[!UICONTROL Data]** van het configuratievenster van de verzameling.
+     Hiervoor moet u de verschillende velden toevoegen die u wilt weergeven op het tabblad **[!UICONTROL Data]** van het configuratievenster van de verzameling.
 
-      Als u alleen de meest recente transactie wilt retourneren, moet u &quot;1&quot; voor **[!UICONTROL Number of lines to return]** invoeren en een aflopende sortering toepassen voor het veld **Date** van de verzameling. Hiervoor gebruikt u het tabblad **[!UICONTROL Sort]**.
+     Als u alleen de meest recente transactie wilt retourneren, moet u &quot;1&quot; voor **[!UICONTROL Number of lines to return]** invoeren en een aflopende sortering toepassen voor het veld **Date** van de verzameling. Hiervoor gebruikt u het tabblad **[!UICONTROL Sort]**.
 
-      Raadpleeg de secties [Een verzameling toevoegen](../../automating/using/query.md#adding-a-collection) en [Aanvullende data sorteren](../../automating/using/query.md#sorting-additional-data).
+     Raadpleeg de secties [Een verzameling toevoegen](../../automating/using/query.md#adding-a-collection) en [Aanvullende data sorteren](../../automating/using/query.md#sorting-additional-data).
+
    ![](assets/enrichment_example4.png)
 
 1. Als u wilt controleren dat de data correct door de uitgaande overgang van de activiteit worden overgebracht, start u de workflow voor de eerste keer (zonder de activiteit **[!UICONTROL Email delivery]**) en opent u de uitgaande overgang van de query.

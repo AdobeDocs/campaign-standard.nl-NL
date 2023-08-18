@@ -36,8 +36,8 @@ Daarom wordt aangeraden slechts één binnenkomende overgang in te stellen voor 
 
 **Verwante onderwerpen**
 
-* [Hoofdlettergebruik: Duplicaten identificeren vóór levering](../../automating/using/identifying-duplicated-before-delivery.md)
-* [Hoofdlettergebruik: De gegevens uit een geïmporteerd bestand dedupliceren](../../automating/using/deduplicating-data-imported-file.md)
+* [Hoofdlettergebruik: dubbele gegevens identificeren vóór levering](../../automating/using/identifying-duplicated-before-delivery.md)
+* [Hoofdlettergebruik: de gegevens uit een geïmporteerd bestand dupliceren](../../automating/using/deduplicating-data-imported-file.md)
 
 ## Configuratie {#configuration}
 
@@ -67,15 +67,15 @@ Om een deduplicatie-activiteit te configureren, moet u een label, de methode en 
    * **[!UICONTROL Choose for me]**: Hiermee selecteert u willekeurig de record die u uit de duplicaten wilt houden.
    * **[!UICONTROL Following a list of values]**: Hiermee kunt u een waardeprioriteit voor een of meer velden definiëren. Als u de waarden wilt definiëren, selecteert u een veld of maakt u een expressie en vervolgens voegt u de waarde(n) toe aan de desbetreffende tabel. Als u een nieuw veld wilt definiëren, klikt u op de knop **[!UICONTROL Add]** boven de lijst met waarden.
 
-      ![](assets/deduplication_2.png)
+     ![](assets/deduplication_2.png)
 
    * **[!UICONTROL Non-empty value]**: Hiermee kunt u records waarvoor de waarde van de geselecteerde expressie niet leeg is als prioriteit behouden.
 
-      ![](assets/deduplication_3.png)
+     ![](assets/deduplication_3.png)
 
    * **[!UICONTROL Using an expression]**: Hiermee kunt u de records behouden waarin de waarde van de ingevoerde expressie het kleinst of het grootst is.
 
-      ![](assets/deduplication_4.png)
+     ![](assets/deduplication_4.png)
 
 1. Indien nodig beheert u de [Overgangen](../../automating/using/activity-properties.md) van de activiteit om toegang te krijgen tot de geavanceerde opties voor de uitgaande populatie.
 1. Bevestig de configuratie van uw activiteit en sla de workflow op.

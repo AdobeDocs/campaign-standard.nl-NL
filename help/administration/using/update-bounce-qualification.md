@@ -15,7 +15,7 @@ ht-degree: 4%
 
 ## Context
 
-In het geval van een stroomonderbreking van ISP, kunnen de e-mails die door Campaign worden verzonden niet met succes aan hun ontvanger worden geleverd: deze e - mails worden ten onrechte als bounces gemarkeerd .
+Als een internetprovider buiten beschouwing blijft, kunnen e-mails die via Campagne worden verzonden niet succesvol aan de ontvanger worden bezorgd: deze e-mails worden ten onrechte gemarkeerd als steunkleuren.
 
 In december 2020 resulteerde een wereldwijde uitgave bij Gmail in een onjuiste opgave van sommige e-mailberichten die naar geldige Gmail-adressen werden verzonden, door Gmail-servers met de volgende bounce: *&quot;550-5.1.1 Het e-mailaccount dat u probeerde te bereiken, bestaat niet.&quot;*
 
@@ -26,7 +26,7 @@ Google heeft verklaard dat de Gmail-storingen en -storingen die deze kwestie heb
 >U kunt het Google Workspace Status Dashboard inschakelen [deze pagina](https://www.google.com/appsstatus#hl=en&amp;v=status).
 
 
-Adobe Campaign heeft deze ontvangers automatisch aan de quarantainelijst toegevoegd met een **[!UICONTROL Status]** instellen van **[!UICONTROL Quarantine]**. Om dit te verbeteren, moet u uw quarantainetabel in Campagne bijwerken door deze ontvangers te vinden en te verwijderen, of hun te veranderen **[!UICONTROL Status]** tot **[!UICONTROL Valid]** zodat de nachtelijke schoonmaakworkflow ze verwijdert.
+Volgens de standaardlogica voor stuitverwerking heeft Adobe Campaign deze ontvangers automatisch aan de quarantainelijst toegevoegd met een **[!UICONTROL Status]** instellen van **[!UICONTROL Quarantine]**. Om dit te verbeteren, moet u uw quarantainetabel in Campagne bijwerken door deze ontvangers te vinden en te verwijderen, of hun te veranderen **[!UICONTROL Status]** tot **[!UICONTROL Valid]** zodat de nachtelijke schoonmaakworkflow ze verwijdert.
 
 Om de ontvangers te vinden die door deze Gmail- kwestie werden beïnvloed, of in het geval dat dit opnieuw met een andere ISP gebeurt, gelieve de instructies hieronder te zien.
 

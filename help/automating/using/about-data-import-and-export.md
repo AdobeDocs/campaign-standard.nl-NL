@@ -20,7 +20,7 @@ ht-degree: 24%
 Afhankelijk van uw bedrijfsbehoeften kunt u gegevens op verschillende manieren importeren en exporteren met Adobe Campaign:
 
 * **Pakketten**: pakketten zijn XML-bestanden waarmee u configuraties en gegevenssets van een Adobe Campaign-instantie naar een andere instantie kunt exporteren en importeren. Systeemupdates worden ook uitgevoerd via het importeren van pakketten.
-* **Lijsten**: alle lijstschermen kunnen worden gevormd en de getoonde gegevens worden uitgevoerd in een afzonderlijk dossier.
+* **Lijsten**: alle lijstschermen kunnen worden geconfigureerd en de weergegeven gegevens kunnen in een afzonderlijk bestand worden geëxporteerd.
 * **Workflows**: importeer gegevens uit bestanden en gebruik deze om de database bij te werken of e-mails te verzenden. U kunt ook gegevens selecteren die u wilt exporteren in bestanden. Workflows zijn de beste manier om regelmatige updates te automatiseren, zoals het importeren van profielen.
 
    * Met de activiteit **[!UICONTROL Load file]** kunt u data in één gestructureerd formulier importeren en deze data gebruiken in Adobe Campaign. De data worden tijdelijk geïmporteerd en een andere activiteit is nodig om deze definitief te integreren in de Adobe Campaign-database. Raadpleeg voor meer informatie over het gebruik van deze activiteit [deze sectie](../../automating/using/load-file.md).

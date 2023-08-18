@@ -32,11 +32,11 @@ In veel projecten wordt de invoer zonder **[!UICONTROL Deduplication]** activite
 
 Ga niet uit van de veronderstelling dat de inkomende gegevens consistent en correct zijn, of dat de afdeling van IT of de supervisor van Adobe Campaign het zal behandelen. Houd tijdens het project rekening met het opschonen van gegevens. U kunt gegevens dedupliceren, op elkaar afstemmen en de consistentie behouden bij het importeren van gegevens.
 
-Een voorbeeld van een generiek werkschemamalplaatje dat voor het invoeren van gegevens wordt ontworpen is beschikbaar in [Voorbeeld: Workflow-sjabloon importeren](../../automating/using/creating-import-workflow-templates.md) sectie.
+Een voorbeeld van een generiek werkstroomsjabloon dat is ontworpen voor het importeren van gegevens is beschikbaar in het dialoogvenster [Voorbeeld: werkstroomsjabloon importeren](../../automating/using/creating-import-workflow-templates.md) sectie.
 
 >[!NOTE]
 >
->U kunt ook [importsjablonen](../../automating/using/importing-data-with-import-templates.md). Het zijn werkstroomsjablonen die zijn gedefinieerd door een beheerder die, nadat ze zijn geactiveerd, alleen de mogelijkheid biedt om het bestand op te geven dat de te importeren gegevens bevat.
+>U kunt ook [importsjablonen](../../automating/using/importing-data-with-import-templates.md). Het zijn werkstroomsjablonen die zijn gedefinieerd door een beheerder die, nadat ze zijn geactiveerd, alleen de mogelijkheid biedt om het bestand op te geven dat de gegevens bevat die moeten worden geïmporteerd.
 
 **Verwante onderwerpen:**
 
@@ -55,7 +55,7 @@ Bijvoorbeeld:
 * Scheidingsteken: tab of puntkomma
 * Eerste regel met kopteksten
 * Geen scheidingsteken voor tekenreeks
-* Datumnotatie: YYYY/MM/DD HH:mm:SS
+* Datumnotatie: JJJJ/MM/DD UU:mm:SS
 
 Voorbeeld van te importeren bestand:
 

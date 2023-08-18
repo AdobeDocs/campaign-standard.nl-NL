@@ -16,9 +16,9 @@ ht-degree: 5%
 
 >[!CAUTION]
 >
->De functie Geografische eenheid is vervangen door de release Campaign Standard 18.7.
+>De functie Geografische eenheid is vervangen door de release van Campaign Standard 18.7.
 >
->Als gevolg hiervan kunnen nieuwe Campaign Standard-exemplaren en bestaande exemplaren zonder gemaakte geografische eenheden deze functie niet implementeren vanaf de release 18.7.
+>Als gevolg hiervan kunnen nieuwe instanties van Campaigns Standard, en bestaande instanties zonder gemaakte geografische eenheden, deze functie niet implementeren vanaf de release 18.7.
 >
 >Raadpleeg voor meer informatie de <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=nl#release-notes">Verouderde functies</a> pagina.
 

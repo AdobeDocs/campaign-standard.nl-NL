@@ -64,13 +64,13 @@ Nee, dit wordt nog niet ondersteund.
 
 Voor waarschuwingsberichten is ten minste één afwijzingsknop vereist (primaire of secundaire knop moet actie afwijzen). Anders, is het mogelijk om het bericht te bewaren maar het zal niet worden ontvangen.
 
-## Als lokale meldingen niet worden afgespeeld, wordt het aangepaste geluid van iOS niet afgespeeld. wordt het standaardgeluid afgespeeld? {#local-notification-sound}
+## Als lokale berichten het aangepaste geluid van iOS niet worden afgespeeld, wordt het standaardgeluid afgespeeld? {#local-notification-sound}
 
-Voor aangepast geluid op iOS moet u een bestandsnaam met extensie opgeven wanneer u een lokale melding maakt (bijvoorbeeld sound.caf). Als deze extensie niet is opgegeven, wordt het standaardgeluid gebruikt.
+Voor aangepast geluid op iOS moet u een bestandsextensie opgeven wanneer u een lokale melding maakt (bijvoorbeeld sound.caf). Als deze extensie niet is opgegeven, wordt het standaardgeluid gebruikt.
 
 ## Worden de diepte gesteund in in-app berichten? {#inapp-deeplinks}
 
-Ja, deplinks worden ondersteund in In-App-berichten. Deeplinks moeten omvatten:
+Ja, deplinks worden ondersteund in In-App-berichten. Deeplinks moeten het volgende omvatten:
 
 * de taal die verklaart dat levering het volgen moet worden onbruikbaar gemaakt om de diepte te werken.
 * Appsflyer met Tak als partners die het zuiveren volgen kunnen doen. Voor meer informatie over de integratie van Branch en Adobe Campaign Standard raadpleegt u deze [page](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).
@@ -85,6 +85,6 @@ Ja, deze berichten worden ook bedoeld als de berichten van de madeliefketen. Vol
 
 1. Wanneer u uw pushbericht ontwerpt, definieert u een aangepaste variabele waarvan de waarde kan worden ingesteld als een gebeurtenis die IAM activeert, bijvoorbeeld Key = &quot;inappkey&quot; en value = &quot;Trigger from fall preview Push&quot;.
 
-1. Implementeer gebeurtenistrigger in de mobiele toepassingscode als volgt:
+1. In de mobiele app-code kunt u gebeurtenistrigger als volgt implementeren:
 
    ![](assets/faq_inapp_2.png)

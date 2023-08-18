@@ -32,14 +32,14 @@ Er zijn verschillende opties beschikbaar:
 
 * **[!UICONTROL No optimization]**: Berichten worden in de tijdzone van de gebruiker verzonden.
 
-   Als uw tijdzone bijvoorbeeld GMT+1 is en u 9.00 uur invoert in het veld **[!UICONTROL Start sending from]**, zal een ontvanger die in de tijdzone GMT+3 is gevestigd, het bericht om 11.00 uur lokale tijd voor die ontvanger ontvangen.
+  Als uw tijdzone bijvoorbeeld GMT+1 is en u 9.00 uur invoert in het veld **[!UICONTROL Start sending from]**, zal een ontvanger die in de tijdzone GMT+3 is gevestigd, het bericht om 11.00 uur lokale tijd voor die ontvanger ontvangen.
 
 * **[!UICONTROL Send at the recipient's time zone]**: Alle ontvangers ontvangen het bericht met inachtneming van hun tijdzone.
 
-   Als u bijvoorbeeld 9.00 uur invoert in het veld **[!UICONTROL Start sending from]**, zal een ontvanger die in de tijdzone GMT+3 is gevestigd, het bericht om 9.00 uur lokale tijd voor die ontvanger ontvangen.
+  Als u bijvoorbeeld 9.00 uur invoert in het veld **[!UICONTROL Start sending from]**, zal een ontvanger die in de tijdzone GMT+3 is gevestigd, het bericht om 9.00 uur lokale tijd voor die ontvanger ontvangen.
 
-   Zie [Berichten verzenden in de tijdzone van de ontvanger](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
+  Zie [Berichten verzenden in de tijdzone van de ontvanger](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
 
 * **[!UICONTROL Send at a custom date defined by a formula]**: Elke ontvanger zal het bericht ontvangen op de datum en de tijd die door de opgegeven formule is geconfigureerd.
 
-   Zie [De verzenddatum berekenen](../../sending/using/computing-the-sending-date.md).
+  Zie [De verzenddatum berekenen](../../sending/using/computing-the-sending-date.md).

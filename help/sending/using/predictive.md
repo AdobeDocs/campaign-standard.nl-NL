@@ -17,7 +17,7 @@ ht-degree: 56%
 
 # Voorspellingsmogelijkheden voor gebruikersbetrokkenheid {#journey-ai}
 
-Met Campaign kunt u het ontwerp en de levering van klantjourneys optimaliseren om de betrokkenheidsvoorkeuren van elk individu te voorspellen. Dankzij AI en computerleren kunnen de Send-Time Optimization en het Predictive Engagement Scoring van Adobe Campaign open tarieven, optimale verzendtijden en waarschijnlijke prijs analyseren en voorspellen op basis van historische betrokkenheidsmetriek.
+Met Campaign kunt u het ontwerp en de levering van klantjourneys optimaliseren om de betrokkenheidsvoorkeuren van elk individu te voorspellen. Dankzij AI en computerleren kunnen de Send-Time Optimization en de Predictive Engagement Scoring van Adobe Campaign open tarieven, optimale verzendtijden en waarschijnlijke prijs analyseren en voorspellen op basis van historische betrokkenheidsmetriek.
 
 >[!IMPORTANT]
 >
@@ -27,7 +27,7 @@ Adobe Campaign biedt twee nieuwe modellen voor het leren van machines: **Optimal
 
 * **Optimalisatie van verzendtijd** Hiermee kunt u voorspellen welke de beste verzendtijd is voor elk ontvangend profiel voor e-mail wordt geopend of klikt en voor het openen van een pushbericht. Voor elk ontvangend profiel geven de scores aan wat de beste verzendtijd is op elke weekdag en welke weekdag het geschiktst is voor verzending om de beste resultaten te bereiken.
 
-* **Predictieve betrokkenheidsscoring**: voorspelt de waarschijnlijkheid dat een ontvanger een bericht in dienst neemt evenals de waarschijnlijkheid om uit (het afmelden) te kiezen binnen de volgende 7 dagen na de volgende e-mail verzendt. De waarschijnlijkheden worden verder verdeeld in emmers op basis van het verwachte niveau van betrokkenheid bij uw inhoud: hoog, gemiddeld of laag. Deze modellen bieden de klanten ook de percentiele positie van het niet-abonnementsrisico om te begrijpen waar de rang van een bepaalde klant ten opzichte van anderen is.
+* **Predictieve betrokkenheidsscoring**: voorspelt de waarschijnlijkheid dat een ontvanger een bericht in dienst neemt evenals de waarschijnlijkheid om uit (het afmelden) te kiezen binnen de volgende 7 dagen na de volgende e-mail verzendt. De waarschijnlijkheid wordt verder verdeeld in emmers volgens het voorspelde niveau van betrokkenheid bij uw inhoud: hoog, gemiddeld of laag. Deze modellen bieden de klanten ook de percentiele positie van het niet-abonnementsrisico om te begrijpen waar de rang van een bepaalde klant ten opzichte van anderen is.
 
 ## Voorspellende optimalisatie van verzendtijd{#predictive-send-time}
 
@@ -45,7 +45,7 @@ Binnen het Predictive Send-Time Optimization model, zijn er twee submodellen:
 
 Uitvoerdetails
 
-* Berekent de beste tijd van de dag om een e-mail voor in de 7 dagen van de week met intervallen van 1 uur te verzenden (bijvoorbeeld: 9:00, 10:00, 11:00)
+* Berekent de beste tijd van de dag om een e-mail voor in de 7 dagen van de week met tussenpozen van 1 uur te verzenden (bijvoorbeeld: 9:00 uur, 10:00 uur, 11:00 uur)
 * Het model geeft de beste dag in de week en het beste tijdstip op die dag aan
 * Elke optimale tijd wordt twee keer berekend: één keer om de openingsfrequentie te maximaliseren en één keer om de klikfrequentie te maximaliseren
 * Er worden 16 velden weergegeven (14 voor weekdagen en 2 voor de hele week):
@@ -105,13 +105,13 @@ AddHours([currentDelivery/scheduling/@contactDate],
 
 Met voorspellende scores voor betrokkenheid voorspelt u de waarschijnlijkheid dat een ontvanger een bericht zal ontvangen en de kans dat hij of zij het abonnement zal opzeggen (zal opzeggen) binnen de volgende 7 dagen na het volgende e-mailbericht.
 
-De waarschijnlijkheden worden verder verdeeld in emmers op basis van het verwachte niveau van betrokkenheid bij uw inhoud: hoog, gemiddeld of laag. Deze modellen bieden de klanten ook de percentiele positie van het niet-abonnementsrisico om te begrijpen waar de rang van een bepaalde klant ten opzichte van anderen is.
+De waarschijnlijkheid wordt verder verdeeld in emmers volgens het voorspelde niveau van betrokkenheid bij uw inhoud: hoog, gemiddeld of laag. Deze modellen bieden de klanten ook de percentiele positie van het niet-abonnementsrisico om te begrijpen waar de rang van een bepaalde klant ten opzichte van anderen is.
 
 Met voorspellende scores voor betrokkenheid kunt u:
 
 * **Een publiek selecteren**: door vraagactiviteit te gebruiken, kunt u het publiek selecteren om met een specifiek bericht in dienst te nemen
 * **Een publiek uitsluiten**: door vraagactiviteit te gebruiken, kunt u het publiek verwijderen dat waarschijnlijker is om af te melden
-* **Persoonlijk maken**: berichten personaliseren op basis van het betrokkenheidsniveau (zeer betrokken gebruikers krijgen een ander bericht dan niet-betrokken gebruikers)
+* **Persoonlijk maken**: personaliseer berichten op basis van het betrokkenheidsniveau (zeer betrokken gebruikers krijgen een andere boodschap dan niet-betrokken gebruikers)
 
 Dit model gebruikt meerdere scores om het volgende aan te geven:
 

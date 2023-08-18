@@ -27,7 +27,7 @@ Als u in-app-berichten wilt verzenden op mobiele toepassingen met behulp van de 
 
 1. Zorg ervoor dat u in Adobe Campaign toegang hebt tot het kanaal **[!UICONTROL In-App]**. Neem contact op met uw accountteam als u geen toegang hebt tot deze kanalen.
 
-1. Als u gebruik wilt maken van gevallen voor mobiel gebruik in Adobe Campaign Standard met een Experience Cloud SDK-toepassing, moet u een mobiele app maken in de gebruikersinterface voor gegevensverzameling en configureren in Adobe Campaign Standard. Raadpleeg deze [pagina](../../administration/using/configuring-a-mobile-application.md) voor de stapsgewijze handleiding.
+1. Om gebruik van mobiele apparaten in Adobe Campaign Standard te kunnen maken met een SDK-toepassing voor Experiencen Cloud, moet een mobiele app worden gemaakt in de gebruikersinterface voor gegevensverzameling en worden geconfigureerd in Adobe Campaign Standard. Raadpleeg deze [pagina](../../administration/using/configuring-a-mobile-application.md) voor de stapsgewijze handleiding.
 
 1. Zodra de configuratie is voltooid, kunt u uw in-app-bericht voorbereiden. Raadpleeg [deze pagina](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message) voor meer informatie.
 

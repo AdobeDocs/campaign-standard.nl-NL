@@ -19,15 +19,15 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector bevindt zich momenteel in bèta, die vaak zonder voorafgaande kennisgeving kan worden bijgewerkt. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
+>Adobe Experience Platform Data Connector bevindt zich momenteel in bèta, die vaak zonder voorafgaande kennisgeving kan worden bijgewerkt. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van de Adobe als u toegang wilt.
 
 Met Adobe Campaign Standard kunt u de directe invoer van gegevenstoewijzingen via API&#39;s activeren en de status van uw innameverzoeken ophalen.
 
-Op deze pagina wordt beschreven hoe u de ingangsstatus van uw gegevenstoewijzingen kunt activeren en ophalen. Voor algemene informatie over Campaign Standard API&#39;s raadpleegt u [deze sectie](../../api/using/get-started-apis.md).
+Op deze pagina wordt beschreven hoe u de ingangsstatus van uw gegevenstoewijzingen kunt activeren en ophalen. Zie voor algemene informatie over Campaign Standard-API&#39;s [deze sectie](../../api/using/get-started-apis.md).
 
 ## Vereisten {#prerequisites}
 
-Alvorens APIs te gebruiken, moet de gegevenstoewijzing eerst binnen de interface van Campaign Standard gevormd en gepubliceerd zijn. Raadpleeg deze secties voor meer informatie hierover:
+Alvorens APIs te gebruiken, moet de gegevenstoewijzing eerst binnen de interface van het Campaign Standard zijn gevormd en gepubliceerd. Raadpleeg deze secties voor meer informatie hierover:
 
 * [Toewijzingsdefinitie](../../integrating/using/aep-mapping-definition.md)
 * [Toewijzingsactivering](../../integrating/using/aep-mapping-activation.md)
@@ -42,7 +42,7 @@ Als de gegevenstoewijzing is gemaakt, moet u de bewerking stoppen zodat u deze o
 
 1. Sla uw wijzigingen op
 
-De uitvoering van de gegevenstoewijzing wordt nu gestopt. U kunt Campaign Standard API&#39;s gebruiken om de API&#39;s handmatig te activeren.
+De uitvoering van de gegevenstoewijzing wordt nu gestopt. U kunt Campaign Standard APIs gebruiken om het manueel teweeg te brengen.
 
 ## De onmiddellijke inname van gegevenstoewijzing starten {#starting-immediate-ingestion}
 
@@ -52,13 +52,13 @@ De directe opname van een afbeelding XDM in Adobe Experience Platform wordt tewe
 
 >[!NOTE]
 >
->Voor het uitvoeren van de API-aanroep van ingest POST moet de gebruiker beschikken over een **SQL-functie uitvoeren** rol, die door een beheerder van Campaign Standard door onder Manuscript kan worden verstrekt uit te voeren JS:
+>Voor het uitvoeren van de API-aanroep van ingest POST moet de gebruiker beschikken over **Uitvoering van SQL-functies** rol, die door een beheerder van het Campaign Standard door onder Manuscript kan worden verstrekt uit te voeren JS:
 >
->
-```
+>```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
+>
 
 De verrichting van de POST keert informatie betreffende de gecreeerde verzoekstatus terug:
 
@@ -106,73 +106,73 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Gedetailleerde informatie over de status van de XDM-toewijzingsaanvraag en de bijbehorende taken is beschikbaar in de Campaign Standard-interface, in de **[!UICONTROL Status of data export to platform]** menu (zie [Toewijzingsactivering](../../integrating/using/aep-mapping-activation.md)).
+>Gedetailleerde informatie over de status van de XDM-toewijzingsaanvraag en de bijbehorende taken is beschikbaar in de interface van het Campaign Standard, in de **[!UICONTROL Status of data export to platform]** menu (zie [Toewijzingsactivering](../../integrating/using/aep-mapping-activation.md)).
 
 De bewerking GET retourneert de volgende informatie:
 
 * **batchId**: dit veld wordt alleen ingevuld als er een fout is opgetreden na het voorbereiden en uploaden van de batch,
-* **info**: de XDM-toewijzings-id;
-* **numRecords**: het aantal geconsumeerde gegevens (alleen successtatus);
+* **info**: de XDM-toewijzingsid,
+* **numRecords**: het aantal gegeten records (alleen successtatus),
 * **status**: de status van de ingeste aanvraag (geslaagd/mislukt/in uitvoering)
 
 Mogelijke reacties op de GET-bewerking zijn:
 
 * Ontvangen aanvraag:
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. ",
-   "numRecords": 15,
-   "requestId": 3520,
-   "status": "Success"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. ",
+  "numRecords": 15,
+  "requestId": 3520,
+  "status": "Success"
+  }
+  ```
 
 * Ingest-verzoek is mislukt omdat 0 record is ingevoerd:
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. ACP-880056 Failed to fetch the record from the database.",
-   "numRecords": 0,
-   "requestId": 3520,
-   "status": "Failed"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. ACP-880056 Failed to fetch the record from the database.",
+  "numRecords": 0,
+  "requestId": 3520,
+  "status": "Failed"
+  }
+  ```
 
 * Ingest-aanvraag is mislukt, met een record geüpload onder een batch:
 
-   ```
-   {
-   "batchId": "<value>",
-   "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "Failed"
-   }
-   ```
+  ```
+  {
+  "batchId": "<value>",
+  "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "Failed"
+  }
+  ```
 
 * De intentieverzoek aborteerde na het opnemen van sommige verslagen (dit kan in botsingsscenario&#39;s gebeuren):
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. Ingestion request aborted due to some issue with data ingestion service. Please submit a new request",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "Aborted"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. Ingestion request aborted due to some issue with data ingestion service. Please submit a new request",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "Aborted"
+  }
+  ```
 
 * Voorlopig verzoek (wanneer de aanvraag is geüpload naar de gegevens in een batch of wanneer de batch wordt voorbereid voor de aanvraag):
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>.",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "In Progress"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>.",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "In Progress"
+  }
+  ```

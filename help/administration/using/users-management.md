@@ -9,7 +9,7 @@ exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
@@ -41,12 +41,12 @@ Klik op **[!UICONTROL User administration]** voor toegang tot de gebruikersbehee
 
 Deze gebruikerssegmentatie is niet verplicht, maar een afspiegeling van de meest voorkomende gebruikerstypen in Adobe Campaign.
 
-Deze sectie helpt u de belangrijkste types van gebruikers van Adobe Campaign te begrijpen. Voor meer informatie over specifieke rollen die een gebruiker kan houden (beginleveringen, exporteren, leveringen voorbereiden, enz.) raadpleegt u [Lijst met rollen](../../administration/using/list-of-roles.md) en [Groepen en gebruikers beheren](../../administration/using/managing-groups-and-users.md) pagina&#39;s.
+Deze sectie helpt u de belangrijkste types van gebruikers van Adobe Campaign te begrijpen. Voor meer informatie over specifieke rollen die een gebruiker kan houden (beginleveringen, exporteren, leveringen voorbereiden, enz.), raadpleegt u [Lijst met rollen](../../administration/using/list-of-roles.md) en [Groepen en gebruikers beheren](../../administration/using/managing-groups-and-users.md) pagina&#39;s.
 
 We concentreren ons liever op de manier waarop verschillende taken in Adobe Campaign worden verdeeld over de drie belangrijkste typen gebruikers:
 
 * [Functionele beheerders](#functional-administrators): dit zijn de meest technische gebruikers in uw organisatie.
-* [Geavanceerde gebruikers](#advanced-users): zij zetten alle elementen op die de marketeers nodig hebben om hun leveringen te verzenden en te controleren .
+* [Geavanceerde gebruikers](#advanced-users): zij zetten alle elementen op die de marketeers nodig hebben om hun leveringen te verzenden en te controleren.
 * [Basisgebruikers](#basic-users): dit zijn de marketeers die hun campagnes personaliseren, leveren en controleren.
 
 >[!NOTE]
@@ -158,4 +158,4 @@ In deze video ziet u hoe u toegangsrechten voor gebruikers beheert.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
-Er zijn aanvullende Campaign Standard-hoe-kan-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).
+Er zijn aanvullende Campaign Standard-to-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).

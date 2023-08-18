@@ -29,13 +29,13 @@ Daarnaast kunt u sjablonen instellen voor het importeren van gegevens. Het gebru
 
 U kunt twee typen sjablonen instellen:
 
-* **Workflowsjablonen**: Dit zijn vooraf geconfigureerde workflows die u één keer kunt instellen op basis van uw behoeften en die u telkens opnieuw kunt gebruiken wanneer u gegevens wilt importeren en de database wilt bijwerken.
+* **Workflowsjablonen**: dit zijn vooraf geconfigureerde workflows die u één keer kunt instellen op basis van uw behoeften en die u telkens opnieuw kunt gebruiken wanneer u gegevens wilt importeren en de database wilt bijwerken.
 
-   Een voorbeeld van een werkstroomsjabloon voor het importeren van gegevens vindt u in [deze sectie](../../automating/using/creating-import-workflow-templates.md).
+  Een voorbeeld van een werkstroomsjabloon voor het importeren van gegevens vindt u in [deze sectie](../../automating/using/creating-import-workflow-templates.md).
 
-* **Gegevenssjablonen importeren**: dit zijn, net als workflowsjablonen, sjablonen die zijn gebaseerd op workflows, die zijn ingesteld om bestanden te uploaden om de database bij te werken. Zodra gevormd, worden zij ter beschikking gesteld aan gebruikers met een vereenvoudigde mening onder **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** -menu.
+* **Gegevenssjablonen importeren**: Net als werkstroomsjablonen zijn dit sjablonen die zijn gebaseerd op workflows en die zijn ingesteld om bestanden te uploaden om de database bij te werken. Zodra gevormd, worden zij ter beschikking gesteld aan gebruikers met een vereenvoudigde mening onder **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** -menu.
 
-   Voor meer informatie over de malplaatjes van de invoergegevens, verwijs naar [speciale documentatie](../../automating/using/importing-data-with-import-templates.md).
+  Raadpleeg voor meer informatie over sjablonen voor importgegevens de [speciale documentatie](../../automating/using/importing-data-with-import-templates.md).
 
 ## Gegevens van bestemmingspagina&#39;s verzamelen {#collecting-data-from-landing-pages}
 
@@ -51,20 +51,20 @@ Raadpleeg voor meer informatie over bestemmingspagina&#39;s de [speciale documen
 
 ## Profielen synchroniseren vanuit Microsoft Dynamics 365
 
-Dankzij de Campaign Standard-integratie met Microsoft Dynamics 365 kunt u contactgegevens van Microsoft Dynamics 365 doorgeven aan de Campagne-database.
+Dankzij de integratie van Campaigns Standard met Microsoft Dynamics 365 kunt u contactgegevens van Microsoft Dynamics 365 doorgeven aan de Campagne-database.
 Deze contacten zijn dan zichtbaar in de lijst van Profielen en kunnen in marketing campagnes worden gericht.
 
 Raadpleeg voor meer informatie over deze integratie de [speciale documentatie](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
->Houd er rekening mee dat de Campaign Standard-Microsoft Dynamics 365-connector momenteel in Beperkte beschikbaarheid beschikbaar is en dat er verschillende beperkingen op van toepassing zijn, die in de documentatie worden beschreven.
+>Houd er rekening mee dat de aansluiting Campaign Standard-Microsoft Dynamics 365 momenteel beperkt beschikbaar is en dat er verschillende beperkingen op van toepassing zijn, die in de documentatie nader worden beschreven.
 
 ## Gegevens importeren via API-aanroepen
 
 Met Campaign Standard-API&#39;s kunt u bewerkingen uitvoeren om de database bij te werken, zoals het maken, bijwerken of verwijderen van profielen of services.
 
-Raadpleeg voor meer informatie over het gebruik van de API&#39;s de [speciale documentatie](../../api/using/get-started-apis.md).
+Raadpleeg de klasse [speciale documentatie](../../api/using/get-started-apis.md).
 
 >[!IMPORTANT]
 >

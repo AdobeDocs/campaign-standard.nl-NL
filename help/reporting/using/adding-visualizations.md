@@ -24,18 +24,18 @@ De **Visualisaties** kunt u visualisatie-items, zoals gebied, donut en grafiek, 
    ![](assets/dynamic_report_visualization_1.png)
 
 1. Nadat het toevoegen van een visualisatie aan uw paneel, ontdekt de Dynamische rapporten automatisch de gegevens in uw vrije vormlijst. Selecteer de instellingen voor uw visualisatie.
-1. Als u meer dan één vrije-vormlijst hebt, verkies de beschikbare gegevensbron om in uw grafiek in toe te voegen **Instellingen gegevensbron** venster. Dit venster is ook beschikbaar als u op de gekleurde stip naast de titel voor visualisatie klikt.
+1. Als u meer dan één vrije lijst hebt, verkies de beschikbare gegevensbron om in uw grafiek in toe te voegen **Instellingen gegevensbron** venster. Dit venster is ook beschikbaar als u op de gekleurde stip naast de titel voor visualisatie klikt.
 
    ![](assets/dynamic_report_visualization_2.png)
 
-1. Klik op de knop **[!UICONTROL Visualization]** om het grafiektype of de weergave ervan rechtstreeks te wijzigen, zoals:
+1. Klik op de knop **[!UICONTROL Visualization]** om het grafiektype of de weergave van het grafiektype rechtstreeks te wijzigen, zoals:
 
-   * **Percentage**: Hiermee geeft u de waarden weer als een percentage.
-   * **Y-as verankeren op nul**: Hiermee wordt de y-as naar nul geforceerd, zelfs als de waarden boven nul liggen.
+   * **Percentage**: De waarden worden weergegeven als een percentage.
+   * **Y-as verankeren op nul**: Hiermee wordt de y-as naar nul geforceerd, zelfs als waarden boven nul liggen.
    * **Legenda zichtbaar**: Hiermee kunt u de legenda verbergen.
-   * **Normalisatie**: Hiermee past u waarden aan.
-   * **Dual Axis weergeven**: Hiermee voegt u een andere as aan de grafiek toe.
-   * **Max. items beperken**: Hiermee beperkt u het aantal weergegeven grafieken.
+   * **Normalisatie**: Hiermee worden waarden geforceerd overeen te komen.
+   * **Dual Axis weergeven**: Voegt een andere as toe aan de grafiek.
+   * **Max. items beperken**: hiermee wordt het aantal weergegeven grafieken beperkt.
    * **Drempel**: Hiermee kunt u een drempelwaarde instellen voor de grafiek. Het wordt weergegeven als een zwarte stippellijn.
 
    ![](assets/dynamic_report_visualization_3.png)

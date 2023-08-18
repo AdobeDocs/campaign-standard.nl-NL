@@ -19,13 +19,13 @@ ht-degree: 5%
 
 ## Bestaande inhoud selecteren{#selecting-an-existing-content}
 
-Adobe Campaign wordt geleverd met een set vooraf gedefinieerde inhoud die u helpt aan de slag te gaan. U kunt een van deze opties gebruiken. Als de inhoud van het bericht dat u wilt verzenden, buiten Adobe Campaign wordt voorbereid, kunt u het vanuit uw computer of een URL importeren.
+Adobe Campaign wordt geleverd met een set vooraf gedefinieerde inhoud waarmee u aan de slag kunt. U kunt een van deze opties gebruiken. Als de inhoud van het bericht dat u wilt verzenden, buiten Adobe Campaign wordt voorbereid, kunt u het vanuit uw computer of een URL importeren.
 
 Wanneer u een e-mail- of landingspagina maakt, kunt u desgewenst bestaande inhoud uit een andere bron laden.
 
 >[!NOTE]
 >
->In de onderstaande afbeeldingen ziet u hoe u bestaande inhoud laadt met de [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md).
+>In de onderstaande afbeeldingen ziet u hoe u bestaande inhoud laadt met de [E-mailDesigner](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. Open na het maken van de e-mail- of landingspagina de inhoud ervan.
 1. Klik op het pictogram van de introductiepagina voor toegang tot de **[!UICONTROL Email Designer]** homepage.
@@ -34,10 +34,10 @@ Wanneer u een e-mail- of landingspagina maakt, kunt u desgewenst bestaande inhou
 
 1. Selecteer de bron van de inhoud die u wilt laden:
 
-   * [Inhoudssjablonen](../../designing/using/using-reusable-content.md#content-templates): klik op **[!UICONTROL Templates]** tab.
-   * [Inhoud helemaal opnieuw](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), om vers te beginnen: klik op **[!UICONTROL Create]** knop.
-   * [Inhoud van uw computer als ZIP- of HTML-bestand](#importing-content-from-a-file): klik op **[!UICONTROL Upload]** knop.
-   * [Inhoud van een bestaande URL](#importing-content-from-a-url) (alleen voor e-mails): klik op **[!UICONTROL Import from URL]** knop.
+   * [Inhoudssjablonen](../../designing/using/using-reusable-content.md#content-templates): klik op de knop **[!UICONTROL Templates]** tab.
+   * [Inhoud helemaal opnieuw](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch), om vers te beginnen: klik op de knop **[!UICONTROL Create]** knop.
+   * [Inhoud van uw computer als ZIP- of HTML-bestand](#importing-content-from-a-file): klik op de knop **[!UICONTROL Upload]** knop.
+   * [Inhoud van een bestaande URL](#importing-content-from-a-url) (alleen voor e-mails): klik op de knop **[!UICONTROL Import from URL]** knop.
 
    ![](assets/des_loading_2.png)
 
@@ -47,7 +47,7 @@ Wanneer u een e-mail- of landingspagina maakt, kunt u desgewenst bestaande inhou
 
    >[!NOTE]
    >
-   >De [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md) gebruikt specifieke codering. Standaard HTML-inhoud die naar Campagne wordt geüpload, moet overeenkomen met de verwachte codering om volledig compatibel te zijn met en te kunnen worden bewerkt vanuit de e-mailontwerper. Als de inhoud niet overeenkomt, wordt de inhoud geüpload in [compatibiliteitsmodus](#compatibility-mode). Bestaande inhoud compatibel maken, raadpleegt u [deze sectie](#editing-existing-contents-with-the-email-designer).
+   >De [E-mailDesigner](../../designing/using/designing-content-in-adobe-campaign.md) gebruikt specifieke codering. Standaard HTML-inhoud die naar Campagne wordt geüpload, moet overeenkomen met de verwachte codering om volledig compatibel te zijn met en te kunnen worden bewerkt vanuit de e-mailontwerper. Als de inhoud niet overeenkomt, wordt de inhoud geüpload in [compatibiliteitsmodus](#compatibility-mode). Bestaande inhoud compatibel maken, raadpleegt u [deze sectie](#editing-existing-contents-with-the-email-designer).
 
 **Verwante onderwerpen:**
 
@@ -56,7 +56,7 @@ Wanneer u een e-mail- of landingspagina maakt, kunt u desgewenst bestaande inhou
 
 ## Bestaande inhoud bewerken met de e-mailontwerper{#editing-existing-contents-with-the-email-designer}
 
-De mogelijkheden van de [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md), moet de geüploade HTML specifieke tags bevatten die ervoor zorgen dat deze voldoet aan de WYSIWYG-editor.
+De mogelijkheden van de [E-mailDesigner](../../designing/using/designing-content-in-adobe-campaign.md), moet de geüploade HTML specifieke tags bevatten die ervoor zorgen dat deze voldoet aan de WYSIWYG-editor.
 
 Als de HTML deze codering niet geheel of gedeeltelijk heeft, wordt de inhoud geladen in &#39; [compatibiliteitsmodus](#compatibility-mode)&quot;.
 
@@ -87,9 +87,9 @@ Voordat u inhoud van een URL importeert, moet u controleren of aan de onderstaan
 * Om beveiligingsredenen beginnen alleen URL&#39;s met **[!UICONTROL https]** zijn toegestaan.
 * Zorg ervoor dat alle bronnen (afbeeldingen, CSS) zijn ingesteld in absolute koppelingen en in HTTPS. Anders wordt de spiegel na het verzenden van de e-mail weergegeven zonder de bijbehorende bronnen. Hier volgt een voorbeeld van een absolute koppelingsdefinitie:
 
-   ```
-   <a href="https://www.mywebsite.com/images/myimage.png">
-   ```
+  ```
+  <a href="https://www.mywebsite.com/images/myimage.png">
+  ```
 
 >[!NOTE]
 >
@@ -108,7 +108,7 @@ Ontdek deze functie in video.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
 
-Er zijn aanvullende Campaign Standard-hoe-kan-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).
+Er zijn aanvullende Campaign Standard-to-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).
 
 ### Inhoud automatisch ophalen van een URL tijdens het voorbereiden {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
@@ -116,7 +116,7 @@ Wanneer u inhoud importeert vanaf een URL tijdens de voorbereiding van berichten
 
 Volg onderstaande stappen om inhoud op te halen tijdens het voorbereiden:
 
-1. Selecteer **[!UICONTROL Content imported during preparation]** optie.
+1. Selecteer de **[!UICONTROL Content imported during preparation]** -optie.
 
    ![](assets/email_designer_importfromurl2.png)
 
@@ -163,14 +163,14 @@ Wanneer inhoud wordt geladen in de compatibiliteitsmodus, kunt u nog steeds de v
 
 * De tekst wijzigen of een afbeelding wijzigen
 * Koppelingen en aanpassingsvelden invoegen
-* Enkele opmaakopties voor het geselecteerde HTML-blok bewerken
+* Bewerk enkele opmaakopties voor het geselecteerde HTML-blok
 * Voorwaardelijke inhoud definiëren
 
 ![](assets/email_designer_compatibility.png)
 
 Andere wijzigingen, zoals het toevoegen van nieuwe secties aan uw e-mail of geavanceerde opmaak, moeten rechtstreeks in de broncode van de e-mail worden uitgevoerd via de modus HTML.
 
-Ga voor meer informatie over het converteren van een bestaande e-mail naar een e-mail die compatibel is met E-mail die compatibel is met E-mail met Designer naar [deze sectie](../../designing/using/using-existing-content.md).
+Ga voor meer informatie over het converteren van een bestaande e-mail naar een e-mail die compatibel is met E-mail die compatibel is met E-mail naar [deze sectie](../../designing/using/using-existing-content.md).
 
 **Verwant onderwerp**:
 
@@ -180,7 +180,7 @@ Ga voor meer informatie over het converteren van een bestaande e-mail naar een e
 
 ## HTML-inhoud omzetten {#converting-an-html-content}
 
-Als u een raamwerk van modulaire sjablonen en fragmenten wilt maken die u kunt combineren voor hergebruik in meerdere e-mails, kunt u uw e-mailsjabloon het beste converteren naar een E-mailDesigner-sjabloon.
+Als u een framework van modulaire sjablonen en fragmenten wilt maken die u kunt combineren voor hergebruik in meerdere e-mails, kunt u uw e-mailsjabloon het beste omzetten in een sjabloon voor e-mailontwerpen.
 
 Met deze kwestie kunt u HTML-e-mailberichten snel converteren naar onderdelen van E-mailontwerper.
 
@@ -190,7 +190,7 @@ Met deze kwestie kunt u HTML-e-mailberichten snel converteren naar onderdelen va
 
 >[!NOTE]
 >
->Net als in de compatibiliteitsmodus kan een HTML-component met beperkte opties worden bewerkt: u kunt alleen op plaats een editie uitvoeren.
+>Net als in de compatibiliteitsmodus kan een HTML-component met beperkte opties worden bewerkt: u kunt alleen op plaats edities uitvoeren.
 
 Buiten de e-mailontwerper, zorg ervoor de originele HTML in herbruikbare secties wordt verdeeld.
 
@@ -216,10 +216,10 @@ Als dit niet het geval is, snijd de verschillende blokken van uw HTML uit. Bijvo
 <!-- //3 COLUMN w/CTA (SCALED) -->
 ```
 
-Herhaal de volgende procedure voor elk gedeelte van uw bestaande e-mailbericht nadat u al uw blokken hebt geïdentificeerd:
+Herhaal de volgende procedure voor elk gedeelte van uw bestaande e-mail als u al uw blokken hebt geïdentificeerd in de e-mailontwerper:
 
 1. Open de E-mailontwerper om een lege e-mailinhoud te maken.
-1. Stel de kenmerken voor het hoofdtekstniveau in: achtergrondkleuren, breedte, enz. Ga voor meer informatie naar [E-mailstijlen bewerken](../../designing/using/styles.md).
+1. Stel de kenmerken voor het tekstniveau in: achtergrondkleuren, breedte, enzovoort. Ga voor meer informatie naar [E-mailstijlen bewerken](../../designing/using/styles.md).
 1. Voeg een structuurcomponent toe. Ga voor meer informatie naar [De e-mailstructuur bewerken](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Voeg een HTML-component toe. Ga voor meer informatie naar [Fragmenten en componenten toevoegen](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 1. Kopieer en plak de HTML in die component.
@@ -249,6 +249,5 @@ Herhaal de volgende procedure voor elk gedeelte van uw bestaande e-mailbericht n
    >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
    >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
-
 
 1. Ga terug naar de mobiele weergave om te controleren of uw inhoud correct wordt weergegeven en sla uw wijzigingen op.

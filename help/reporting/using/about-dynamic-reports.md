@@ -29,17 +29,17 @@ Rapporten zijn toegankelijk:
 
 * Van de homepage door te selecteren **[!UICONTROL Reports]** in de bovenste balk of op de **[!UICONTROL Reports]** kaart voor toegang tot rapporten voor alle leveringen.
 
-   ![](assets/campaign_reports_access.png)
+  ![](assets/campaign_reports_access.png)
 
 * In elk programma, campagne, en bericht, van **Rapporten** knop door te klikken **Dynamische rapporten** alleen de rapporten weergeven die specifiek zijn voor de levering.
 
-   ![](assets/campaign_reports_description.png)
+  ![](assets/campaign_reports_description.png)
 
 Bepaalde rapporten kunnen niet direct na een levering beschikbaar zijn, afhankelijk van de tijd die het kost om informatie te verzamelen en te verwerken.
 
 Dynamische rapporten worden in twee categorieën onderverdeeld:
 
-* **Sjablonen**, die kunnen worden gewijzigd door ze te kopiëren met behulp van de **Opslaan als** option (**Project > Opslaan als..**) in de sjabloon.
+* **Sjablonen**, die kunnen worden gewijzigd door ze te kopiëren met behulp van de **Opslaan als** option (**Project > Opslaan als.**) in de sjabloon.
 * **Aangepaste rapporten** (geïdentificeerd in blauw), die direct kan worden tot stand gebracht door te klikken op **Nieuw project maken** op de knop **Rapporten** homepage.
 
 >[!NOTE]
@@ -54,9 +54,9 @@ Het doel van de dynamische rapportgebruiksovereenkomst is als pop-uptoestemming 
 
 Er zijn drie opties beschikbaar:
 
-* **[!UICONTROL Ask me later]**: Door te klikken **Later vragen**, wordt het venster 24 uur niet meer weergegeven. Totdat u de overeenkomst accepteert of afwijst, worden de profielafmetingen niet weergegeven in uw rapporten en worden de persoonlijke identificatiegegevens van uw klanten niet verzameld of verzonden.
+* **[!UICONTROL Ask me later]**: Klik op **Later vragen**, wordt het venster 24 uur niet meer weergegeven. Totdat u de overeenkomst accepteert of afwijst, worden de profielafmetingen niet weergegeven in uw rapporten en worden de persoonlijke identificatiegegevens van uw klanten niet verzameld of verzonden.
 * **[!UICONTROL Accept]**: Door deze overeenkomst te accepteren, machtigt u Adobe Campaign om de persoonlijke identiteitsgegevens van uw klanten te verzamelen en deze over te dragen aan het rapportage- of datacenter.
-* **[!UICONTROL Decline]**: Als u de overeenkomst afwijst, worden de profielafmetingen niet weergegeven in uw rapporten en worden de persoonlijke identificatiegegevens van uw klanten niet verzameld of verzonden. Let erop dat in dit geval externalID nog steeds wordt verzameld en gebruikt om eindgebruikers te identificeren.
+* **[!UICONTROL Decline]**: Als u de overeenkomst afwijst, worden de profielafmetingen niet in uw rapporten weergegeven en worden de persoonlijke identificatiegegevens van uw klanten niet verzameld of verzonden. Let erop dat in dit geval externalID nog steeds wordt verzameld en gebruikt om eindgebruikers te identificeren.
 
 In de onderstaande tabel ziet u wat er gebeurt als u deze overeenkomst accepteert, afhankelijk van uw regio.
 

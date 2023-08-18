@@ -26,7 +26,7 @@ Deze sectie maakt een lijst van de beste praktijken en de beperkingen u zich van
 
 ## Machtigingen {#permissions}
 
-Alleen gebruikers met de [Beheer](../../administration/using/users-management.md#functional-administrators) de rol kan transactionele gebeurtenissen vormen en tot transactionele berichten toegang hebben.
+Alleen gebruikers met de [Administratie](../../administration/using/users-management.md#functional-administrators) de rol kan transactionele gebeurtenissen vormen en tot transactionele berichten toegang hebben.
 
 ## Configuratie en publicatie van gebeurtenissen {#design-and-publication}
 
@@ -58,7 +58,7 @@ De manier waarop u berichtcontent kunt personaliseren hangt af van het type tran
 
 ### Transactieberichten op basis van profiel
 
-* De personalisatiegegevens kunnen afkomstig zijn van de data in de gebeurtenis of van de afgestemde profielrecord. Zie [Configuratie van op profielen gebaseerde transactieberichten](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) en [Specifieke kenmerken van op profielen gebaseerde transactiemeldingen](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
+* De personalisatiegegevens kunnen afkomstig zijn van de data in de gebeurtenis of van de afgestemde profielrecord. Zie [Configuratie van op profielen gebaseerde transactieberichten](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) en [Specifieke kenmerken van op profielen gebaseerde transactieberichten](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
 * U **kan** gebruiken **[!UICONTROL Unsubscription link]** in een bericht voor een profieltransactie. Zie [Een contentblok](../../designing/using/personalization.md#adding-a-content-block) toevoegen.
 * De moeheidsregels zijn compatibel met transactieberichten voor profielen. Zie [Moeheidsregels](../../sending/using/fatigue-rules.md).
 

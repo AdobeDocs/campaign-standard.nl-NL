@@ -33,45 +33,45 @@ Nadat u elk account afzonderlijk hebt gecontroleerd, zijn er twee mogelijke scen
 
 * **Het probleem kwam voor op een of meerdere rekeningen**
 
-   In dit geval kunt u op elke account afzonderlijk andere procedures voor het oplossen van problemen toepassen. Het is best om andere rekeningen onbruikbaar te maken terwijl het diagnostiseren van een rekening om netwerkverkeer en het aantal logboeken te verminderen.
+  In dit geval kunt u op elke account afzonderlijk andere procedures voor het oplossen van problemen toepassen. Het is best om andere rekeningen onbruikbaar te maken terwijl het diagnostiseren van een rekening om netwerkverkeer en het aantal logboeken te verminderen.
 
 * **Het probleem is niet opgetreden wanneer slechts één account actief is**
 
-   Er is een conflict tussen accounts. Zoals eerder vermeld, behandelt Adobe Campaign accounts afzonderlijk, maar kan de provider ze als één enkele account behandelen.
+  Er is een conflict tussen accounts. Zoals eerder vermeld, behandelt Adobe Campaign accounts afzonderlijk, maar kan de provider ze als één enkele account behandelen.
 
    * U gebruikt verschillende aanmeldings-/wachtwoordcombinaties voor al uw accounts.
 U moet contact opnemen met de provider om mogelijke conflicten aan de zijkant vast te stellen.
 
    * Sommige externe accounts hebben dezelfde combinatie van aanmelding/wachtwoord.
-De provider kan niet zien van welke externe account de `BIND PDU` komt van, zodat behandelen zij alle verbindingen van de veelvoudige rekeningen als één enkel. Ze hadden MO en SR mogelijk willekeurig rond de twee accounts gerouteerd, wat problemen veroorzaakte.
-Als de leverancier veelvoudige korte codes voor de zelfde login/wachtwoordcombinatie steunt, zult u hen moeten vragen waar te om die korte code in te zetten `BIND PDU`. Deze informatie moet in de `BIND PDU`, en niet in `SUBMIT_SM`, sinds de `BIND PDU` is de enige plaats die het verpletteren van MOs correct zal toestaan.
-Zie de [Informatie in elke soort PDU](../../administration/using/sms-protocol.md#information-pdu) in de sectie hierboven om te weten welk veld beschikbaar is in het dialoogvenster `BIND PDU`, meestal voegt u de korte code toe in `address_range`, maar daarvoor is speciale steun van de leverancier nodig. Contacteer hen om te weten hoe zij verwachten om veelvoudige korte codes onafhankelijk te leiden.
+De provider kan niet zien van welk extern account de `BIND PDU` afkomstig is, dus behandelen ze alle verbindingen van de meerdere accounts als één enkel account. Ze hebben MO en SR mogelijk willekeurig over de twee accounts gerouteerd, wat problemen heeft veroorzaakt.
+Als de provider meerdere korte codes ondersteunt voor dezelfde combinatie van aanmelding/wachtwoord, moet u vragen waar u die korte code in de `BIND PDU`. Houd er rekening mee dat dit stuk informatie binnen de `BIND PDU`map moet worden geplaatst, en niet `SUBMIT_SM`op, omdat dit de `BIND PDU` enige plaats is waar correct routering-MB&#39;s mogelijk zijn.
+Zie de [informatie in elk type PDU](../../administration/using/sms-protocol.md#information-pdu) sectie hierboven om te weten welk veld beschikbaar is in de `BIND PDU`, gewoonlijk voegt u de korte code toe `address_range`, maar dat speciale ondersteuning van de provider vereist. Neem contact op om te weten hoe ze verwachten meerdere korte codes onafhankelijk van elkaar te routen.
 Adobe Campaign biedt ondersteuning voor het verwerken van meerdere korte codes op dezelfde externe account.
 
 ## Uitgifte met externe rekening in het algemeen {#external-account-issues}
 
 * Onderzoek of de schakelaar onlangs is veranderd en door wie (controleer Externe Rekeningen als groep).
 
-   ```
-   select saccount, (sserver ||':'||sport) as serverPort, iextaccountid, CASE WHEN N0.iactive=1 THEN 'Yes' ELSE 'No' END as "(x) Enabled",
-   
-   (select X1.sname from xtkoperator X1 where N0.icreatedbyid = X1.ioperatorid) as "Created By",
-   
-   (select X1.sname from xtkoperator X1 where N0.imodifiedbyid = X1.ioperatorid) as "Last Modified By",
-   
-   N0.slabel as "External Account", N0.tslastmodified as "LastModifiedDate"
-   
-   from nmsextaccount N0 LEFT JOIN xtkoperator X0 ON (N0.icreatedbyid=X0.ioperatorid) order by 8 DESC LIMIT 50;
-   ```
+  ```
+  select saccount, (sserver ||':'||sport) as serverPort, iextaccountid, CASE WHEN N0.iactive=1 THEN 'Yes' ELSE 'No' END as "(x) Enabled",
+  
+  (select X1.sname from xtkoperator X1 where N0.icreatedbyid = X1.ioperatorid) as "Created By",
+  
+  (select X1.sname from xtkoperator X1 where N0.imodifiedbyid = X1.ioperatorid) as "Last Modified By",
+  
+  N0.slabel as "External Account", N0.tslastmodified as "LastModifiedDate"
+  
+  from nmsextaccount N0 LEFT JOIN xtkoperator X0 ON (N0.icreatedbyid=X0.ioperatorid) order by 8 DESC LIMIT 50;
+  ```
 
-* Onderzoek (in /postupgrade folder) of het systeem werd bevorderd en wanneer
-* Onderzoek of om het even welke pakketten die SMS beïnvloeden onlangs (/var/log/dpkg.log) zouden kunnen zijn bevorderd.
+* Onderzoeken (in /postupgrade directory) of het systeem is geüpgraded en wanneer
+* Onderzoek of pakketten die van invloed zijn op SMS mogelijk onlangs zijn geüpgraded (/var/log/dpkg.log).
 
-## Probleem bij verbinding met de provider {#issue-provider}
+## Probleem bij het maken van verbinding met de provider {#issue-provider}
 
-* Als de `BIND PDU` retourneert een andere waarde dan nul `command_status` Vraag de provider om meer informatie.
+* Als de `BIND PDU` code een niet-nulcode `command_status` retourneert, vraagt u de provider om meer informatie.
 
-* Controleer of het netwerk correct is geconfigureerd, zodat de TCP-verbinding tot stand kan worden gebracht met de provider.
+* Controleer of het netwerk correct is geconfigureerd, zodat er een TCP-verbinding met de provider kan worden gemaakt.
 
 * Vraag de leverancier om te controleren dat zij behoorlijk IPs aan de lijst van gewenste personen van de instantie van Adobe Campaign toevoegden.
 
@@ -91,11 +91,11 @@ Een verbinding wordt als instabiel beschouwd als om het even welke volgend gebeu
 
 * `enquire_link` keren uit, aan de kant van Adobe Campaign of aan de kant van de provider. Misschien ziet u `ENQUIRE_LINK_RESP` met een foutcode die niet gelijk is aan nul.
 
-* Er zijn veel `BIND PDU`s. Afhankelijk van het aantal verbindingen mag er niet meer dan een paar zijn per dag. Meer dan 1 BIND PDU per uur zou alarm moeten zijn.
+* Er zijn veel `BIND PDU`s. Er mogen niet meer dan enkele verbindingen per dag zijn, afhankelijk van het aantal verbindingen. Meer dan 1 BIND PDU per uur zou alarm moeten zijn.
 
 Verbindingsstabiliteitsproblemen oplossen:
 
-* De instabiele verbindingen zijn zelden de worteloorzaak, het is vaak het resultaat van een ander probleem dat een losmaken veroorzaakt. Het vinden van de worteloorzaak is de prioriteit.
+* De instabiele verbindingen zijn zelden de worteloorzaak, het is vaak het resultaat van een ander probleem die tot een losmaken leidt. Het vinden van de worteloorzaak is de prioriteit.
 
 * Brede SMPP-sporen inschakelen. U zult hen nodig hebben om te zien wat gebeurt wanneer de verbinding opnieuw begint.
 
@@ -121,7 +121,7 @@ Verbindingsstabiliteitsproblemen oplossen:
 
 * Als de sporen SMPP toegelaten, controleer dat `SUBMIT_SM PDU` bevat de juiste informatie.
 
-* Controleer of de provider reageert met een `SUBMIT_SM_RESP PDU` met een waarde &quot;OK&quot; (code 0). Zorg ervoor dat de PDU met een redelijke vertraging aankomt: iets langer dan 1 seconde moet met de leverancier worden besproken , komt het gewoonlijk binnen minder dan 100 ms aan .
+* Controleer of de provider reageert met een `SUBMIT_SM_RESP PDU` met een waarde &quot;OK&quot; (code 0). Zorg ervoor dat de PDU met een redelijke vertraging aankomt: iets langer dan 1 seconde moet met de leverancier worden besproken, komt het gewoonlijk binnen 100 ms aan.
 
 * Als al deze stappen werken, kunt u erop vertrouwen dat het probleem aan de leverancierszijde is. Zij zullen het oplossen van problemen op hun platform moeten doen.
 
@@ -145,9 +145,9 @@ Het verminderen van de hoeveelheid duplicaten wanneer er opnieuw wordt geprobeer
 
 * Controleer of de `DELIVER_SM PDU` komt van de leverancier en is goed gevormd.
 
-* Controleren of Adobe Campaign met succes reageert `DELIVER_SM_RESP PDU` tijdig. Op Adobe Campaign Standard garandeert dit dat de hele verwerkingslogica is toegepast. Als dat niet het geval is, is gegarandeerd dat er een foutbericht staat in de logboeken waarin wordt aangegeven waarom de verwerking is mislukt.
+* Controleer of Adobe Campaign tijdig met succes `DELIVER_SM_RESP PDU` reageert. Op Adobe Campaign Standard garandeert dit dat de hele verwerkingslogica is toegepast, als dat niet het geval is, wordt gegarandeerd een foutbericht in de logbestanden weergegeven waarin wordt aangegeven waarom de verwerking is mislukt.
 
-Als de `DELIVER_SM PDU` wordt niet erkend, dan zou u het volgende moeten controleren:
+Als het `DELIVER_SM PDU` document niet is bevestigd, moet u het volgende controleren:
 
 * Controleer regex met betrekking tot id-extractie en fout-verwerking in het dialoogvenster **Externe rekening**. Mogelijk moet u deze valideren aan de hand van de inhoud van het dialoogvenster `DELIVER_SM PDU`.
 
@@ -155,19 +155,19 @@ Als de `DELIVER_SM PDU` wordt niet erkend, dan zou u het volgende moeten control
 
 * Controleer bij Adobe Campaign Standard of `broadLog` en `broadLogExec` tabellen zijn correct gesynchroniseerd.
 
-Als u alles hebt gecorrigeerd, maar sommige ongeldige SR&#39;s zich nog steeds in de buffers van de provider bevinden, kunt u deze overslaan met behulp van de **Aantal voor ongeldige id-erkenning** optie. Dit dient met voorzichtigheid te worden gebruikt en zo snel mogelijk na het schoonmaken van de buffers op 0 te worden ingesteld.
+Als u alles hebt gecorrigeerd, behalve dat er een aantal ongeldige SR&#39;s nog steeds in de buffers van de provider staan, kunt u deze overslaan met de optie voor het bevestigen van het **aantal** ongeldige id&#39;s. Gebruik dit voorzichtig en zet deze zo snel mogelijk in op 0 nadat de buffers zijn schoongemaakt.
 
-## Probleem bij verwerking MO (en lijst van gewezen personen/automatisch antwoord){#issue-process-MO}
+## Probleem bij het verwerken van mo-bestanden (en denylist/auto reply){#issue-process-MO}
 
-* SMPP-sporen inschakelen tijdens tests. Als u TLS niet toelaat, zou u een netwerk moeten doen vangt wanneer het oplossen van problemenMO om te controleren dat PDUs de correcte informatie bevatten en behoorlijk geformatteerd zijn.
+* Schakel SMPP-sporen in tijdens tests. Als u TLS niet inschakelt, moet u bij het oplossen van MO-problemen vastleggen op het netwerk om te controleren of de PDF&#39;s de juiste informatie bevatten en correct zijn geformatteerd.
 
-* Wanneer het vangen van netwerkverkeer of het analyseren van sporen SMPP, ben zeker om het volledige gesprek met MO en zijn antwoord MT te vangen als een antwoord wordt gevormd.
+* Bij het vastleggen van netwerkverkeer of het analyseren van SMPP-sporen, moet u ervoor zorgen dat u het hele gesprek met de MO vastlegt en het antwoord hierop mt als er een antwoord is geconfigureerd.
 
 * Als de MO (`DELIVER_SM PDU`) niet in de sporen wordt weergegeven, het probleem ligt aan de aanbodzijde. Zij zullen het oplossen van problemen op hun platform moeten doen.
 
 * Als de `DELIVER_SM PDU` wordt weergegeven, controleert u of het door Adobe Campaign is erkend met succes `DELIVER_SM_RESP PDU` (code 0). Dit RESP garandeert dat alle verwerkingslogica is toegepast door Adobe Campaign (automatisch antwoord en allow/lijst van gewezen personen). Als het niet het geval is, zoek naar een foutenmelding in de logboeken MTA.
 
-* Als automatische reacties zijn ingeschakeld, controleert u of de optie `SUBMIT_SM` is naar de provider verzonden. Als niet, is het gegarandeerd om een foutenmelding in de logboeken te vinden MTA.
+* Als automatische reacties zijn ingeschakeld, controleert u of de `SUBMIT_SM` is naar de provider verzonden. Als niet, is het gegarandeerd om een foutenmelding in de logboeken te vinden MTA.
 
 * Als de `SUBMIT_SM MT PDU` die het antwoord bevat, wordt in de tracés gevonden maar het SMS komt niet aan de mobiele telefoon, u moet contact opnemen met de provider voor hulp bij het oplossen van problemen.
 
@@ -183,11 +183,11 @@ Als u alles hebt gecorrigeerd, maar sommige ongeldige SR&#39;s zich nog steeds i
 
 Neem contact met hen op en zie wat er mis is met hen. Ze moeten je kunnen vertellen of het probleem aan hun kant of aan Adobe Campaign ligt. Als het probleem zich in Adobe Campaign voordoet, moeten ze u exact kunnen vertellen welk veld onjuist is.
 
-**Stap 2: Weet wat er in je bericht staat**
+**Stap 2: Weet wat in uw bericht is**
 
 Unicode staat veel varianten voor look-alike karakters toe en Adobe Campaign kan niet hen allen behandelen.
 
-De gemeenschappelijkste bron van problemen is een exemplaar-deeg van een tekstbewerker, die normale karakters in typografisch correcte versies verandert: Spaties zijn veranderd in vaste spaties, dubbele aanhalingstekens zijn veranderd in open en sluitende aanhalingstekens, mintekens zijn gewijzigd in verschillende soorten afbreekstreepjes, enz.
+De meest voorkomende bron van problemen is een kopie-plakbewerking van een tekstverwerker, waarbij gebruikelijke tekens worden gewijzigd in typografisch correcte versies: spaties veranderen in vaste spaties, dubbele aanhalingstekens veranderen in open en sluitende aanhalingstekens, min-tekens veranderen in verschillende soorten afbreekstreepjes, enz.
 
 Kopieer uw bericht niet en plak het tijdens het testen altijd rechtstreeks in de interface.
 
@@ -197,15 +197,15 @@ Om unicode in hexadecimaal om te zetten, kunt u online hulpmiddelen zoals gebrui
 
 Wanneer het openen van kaartjes over coderingsproblemen, of met de leverancier of de steun van Adobe Campaign, altijd een hexadecimale versie omvat van wat u typt en wat u ziet.
 
-**Stap 3: Weet wat u moet verzenden**
+**Stap 3: weet wat u moet verzenden**
 
 Bepaal de codering die u wilt gebruiken en zoek online naar de bijbehorende tekentabel. Controleer of de tekens die u wilt verzenden, daadwerkelijk beschikbaar zijn op de doelcodepagina. Controleer of de `data_coding` het veld is juist en komt overeen met wat u en de provider verwachten.
 
-**Stap 4: Weet wat je daadwerkelijk hebt verzonden**
+**Stap 4: weet wat u daadwerkelijk hebt verzonden**
 
-U zult zuivert output van de schakelaar nodig hebben om precies te zien welke bytes u naar de leverancier verzendt. Coderingsproblemen verschijnen in `SUBMIT_SM PDU`Zorg er dus voor dat u ze vastlegt. Verzend zeer duidelijke berichten die gemakkelijk in het logboek zijn te vinden.
+U zult zuivert output van de schakelaar nodig hebben om precies te zien welke bytes u naar de leverancier verzendt. Coderingsproblemen verschijnen in `SUBMIT_SM PDU`s, zorg er dus voor dat u ze vastlegt. Verzend zeer duidelijke berichten die gemakkelijk in het logboek zijn te vinden.
 
-Verschillende soorten speciale tekens verzenden tijdens het testen. GSM7-codering bevat bijvoorbeeld uitgebreide tekens die sterk van elkaar verschillen in hun hexadecimale vorm. Ze zijn gemakkelijk te vinden omdat ze niet in andere codering voorkomen.
+Verschillende soorten speciale tekens verzenden tijdens het testen. GSM7-codering bevat bijvoorbeeld uitgebreide tekens die sterk van elkaar verschillen in hun hexadecimale vorm. Ze zijn gemakkelijk te vinden omdat ze niet in andere codering worden weergegeven.
 
 ## Elementen die moeten worden opgenomen bij communicatie over een SMS-probleem {#element-include}
 
@@ -215,7 +215,7 @@ Wanneer u om hulp over een kwestie van SMS, of het een steunkaartje aan Adobe Ca
 
 * Als het probleem met het verkeer van SMS verwant is, contacteer eerst de leverancier. Hun platform is het meest geschikt voor efficiënte diagnose van de verkeersproblemen van SMS in real time.
 
-* Neem een korte maar feitelijke beschrijving van het probleem op.
+* Neem een korte, maar feitelijke beschrijving van het probleem op.
 
 * Een beschrijving van het verwachte resultaat opnemen.
 
@@ -237,9 +237,9 @@ Een netwerk vangt is niet altijd nodig, gewoonlijk zijn de uitgebreide SMPP- ber
 
 * Verbindingsproblemen, maar de uitgebreide berichten tonen geen `BIND_RESP PDU`.
 
-* Onverklaarde verbanden zonder foutenmelding, het gebruikelijke gedrag van de schakelaar wanneer het een laag-vlakke protocolfout ontdekt.
+* Onverklaarbare ontkoppelingen zonder foutbericht, het gebruikelijke gedrag van de connector wanneer een protocolfout van het lage niveau wordt gedetecteerd.
 
-* De leverancier klaagt over unbind/disconnection proces.
+* De provider klaagt over het proces voor het opheffen van de verbinding/ontkoppeling.
 
 * Coderingsproblemen in optionele TLV-velden.
 
@@ -249,17 +249,17 @@ In alle andere situaties, probeer om verbose SMPP- berichten eerst te analyseren
 
 In sommige gevallen is het vastleggen van netwerkverkeer niet nodig. Hier volgen de meest voorkomende situaties:
 
-* TLS ingeschakeld: Het TLS-verkeer is per definitie gecodeerd, zodat het niet kan worden vastgelegd.
+* TLS ingeschakeld: TLS-verkeer wordt per definitie versleuteld zodat dit niet kan worden vastgelegd.
 
-* Prestatieproblemen: Logbestanden bevatten alle benodigde informatie om prestatieproblemen op te sporen.
+* Prestatieproblemen: logboeken bevatten alle benodigde informatie om prestatieproblemen op te sporen.
 
 * Timingproblemen (`retry timing`, `enquire_link` punt, doorvoerlimiet, enz.)
 
-* SR-parsering en -verwerking: uitgebreide logboeken geven veel meer context en een betere presentatie .
+* SR parseren en verwerken: uitgebreide logboeken geven veel meer context en een betere presentatie.
 
 * MO-verwerking (automatische antwoorden, quarantaine).
 
-* Fouten waarbij geen daadwerkelijk SMPP-verkeer is betrokken: Voorbereiding van levering, problemen met de Berichtencentrum-API, workflowproblemen, enz.
+* Fouten waarbij geen daadwerkelijk SMPP-verkeer is betrokken: voorbereiding van levering, problemen met de API van het berichtcentrum, workflowproblemen, enz.
 
 ## SMP-sporen inschakelen {#enabling-smpp-traces}
 
@@ -314,4 +314,4 @@ Het resultaat moet als volgt zijn:
 2 nlservermtachild -tracefile:mtachild@INSTANCE_NAME -instance:INSTANCE_NAME -detach 30390
 ```
 
-4 geopende verbindingen voor het sms-proces en 2 per mta-kind met 5 kinderen.
+4 open verbindingen voor het sms proces en 2 per mta kind met 5 kinderen.

@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Tellen
 
-De Adobe Campaign REST API kan het aantal records in een aanvraag tellen. Hiervoor gebruikt u de URL die wordt geretourneerd in het dialoogvenster **aantal** knooppunt.
+De Adobe Campaign REST API kan het aantal records in een aanvraag tellen. Hiervoor gebruikt u de URL die in het dialoogvenster **aantal** knooppunt.
 
 <br/>
 

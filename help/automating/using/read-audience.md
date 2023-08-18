@@ -30,7 +30,7 @@ De activiteit **[!UICONTROL Read audience]** is een vereenvoudigde versie van de
 
 **Verwante onderwerpen**
 
-* [Hoofdlettergebruik: Unie op twee verfijnde doelgroepen](../../automating/using/union-on-two-refined-audiences.md)
+* [Gebruiksscenario: Verenigen op twee verfijnde doelgroepen](../../automating/using/union-on-two-refined-audiences.md)
 * [Hoofdlettergebruik: Een bestandspubliek in overeenstemming brengen met de database](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## Configuratie {#configuration}

@@ -134,7 +134,7 @@ ht-degree: 7%
                   <td>
                      <ul>
                         <li>Viral - 1</li>
-                        <li>Nieuwsbrief - nieuwsbrief - 0</li>
+                        <li>nieuwsbrief - 0</li>
                         <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
@@ -288,7 +288,7 @@ Op naam of label (doorText)
 </tr>
 </table>
 
-Door resource aan te wijzen (byTargetResource)
+Door resource als doel in te stellen (byTargetResource)
 
 <table>
 <tr>

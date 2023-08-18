@@ -35,7 +35,7 @@ De voorwaarden zijn:
 
    ![](assets/aem_acs_2.png)
 
-1. Selecteer **[!UICONTROL Adobe Campaign Email (ACS)]** sjabloon.
+1. Selecteer de **[!UICONTROL Adobe Campaign Email (ACS)]** sjabloon.
 
 1. Vul de eigenschappen van uw e-mail in en klik **[!UICONTROL Create]**.
 
@@ -57,7 +57,7 @@ De voorwaarden zijn:
 
 ## Taalkopieën maken {#creating-language-copies}
 
-Na het ontwerpen van uw e-mailinhoud moet u nu uw taalkopieën maken die gesynchroniseerd zijn met Adobe Campaign Standard als varianten.
+Nadat u uw e-mailinhoud hebt ontworpen, moet u nu uw taalkopieën maken die gesynchroniseerd worden met Adobe Campaign Standard als varianten.
 
 1. Selecteer de eerder gemaakte pagina en klik op **[!UICONTROL Create]** dan **[!UICONTROL Language Copy]**.
 

@@ -83,11 +83,11 @@ Selecteer deze optie in het publicatiescherm.
 
 * Als de API nog niet is gepubliceerd (dus als u de bron nooit hebt uitgebreid of als u deze optie voor deze of een andere bron nog nooit hebt ingeschakeld), hebt u de keuze om deze wel of niet te maken.
 
-   ![](assets/create-profile-and-services-api.png)
+  ![](assets/create-profile-and-services-api.png)
 
 * Als de API al is gepubliceerd (wat betekent dat u de bron al hebt uitgebreid en deze optie één keer hebt ingeschakeld), wordt de API-update geforceerd.
 
-   Als de API eenmaal is gemaakt, wordt deze automatisch bijgewerkt telkens wanneer u deze opnieuw publiceert. Zo wordt voorkomen dat het profiel of de servicebron van deze API wordt verbroken en uw instantie beschadigd raakt.
+  Als de API eenmaal is gemaakt, wordt deze automatisch bijgewerkt telkens wanneer u deze opnieuw publiceert. Zo wordt voorkomen dat het profiel of de servicebron van deze API wordt verbroken en uw instantie beschadigd raakt.
 
 Standaard wordt de aangepaste bron geïntegreerd, maar als u deze bron voor een specifiek gedrag niet wilt publiceren, kunt u de optie **[!UICONTROL Hide this resource from APIs]** in de **[!UICONTROL Resource Properties]** selecteren.
 

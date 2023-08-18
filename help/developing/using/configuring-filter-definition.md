@@ -81,8 +81,8 @@ Uw gebruikers hoeven nu niet zelf een filter te configureren en kunnen gewoon he
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
-Nadat een filter is geconfigureerd, kunt u het van Campaign Standard API&#39;s gebruiken met behulp van deze syntaxis:
+Nadat een filter is geconfigureerd, kunt u het van Campaign Standard-API&#39;s gebruiken met behulp van deze syntaxis:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-Raadpleeg voor meer informatie de [Campaign Standard API-documentatie](../../api/using/filtering.md#custom-filters).
+Raadpleeg voor meer informatie de [Campaign Standard APIs-documentatie](../../api/using/filtering.md#custom-filters).

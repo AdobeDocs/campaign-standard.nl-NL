@@ -20,7 +20,7 @@ ht-degree: 79%
 
 >[!IMPORTANT]
 >
->Productaanbiedingen zijn alleen beschikbaar voor **transactie-e-mailberichten** via de [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) interface.
+>Productaanbiedingen zijn alleen beschikbaar voor **transactie-e-mailberichten** via de [E-mailDesigner](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) interface.
 
 Wanneer u de inhoud van een transactie-e-mail bewerkt, kunt u productlijsten maken die verwijzen naar een of meer gegevensverzamelingen. In een e-mailbericht waarin de winkelwagen wordt verlaten, kunt u bijvoorbeeld een lijst opnemen met alle producten die zich in de winkelwagentjes bevonden toen ze uw website verlieten, met een afbeelding, de prijs en een koppeling naar elk product.
 

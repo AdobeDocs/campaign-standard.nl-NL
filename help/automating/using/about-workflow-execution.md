@@ -34,7 +34,7 @@ Een overgang is niet beëindigd als deze niet aan een doelactiviteit is gekoppel
 
 >[!NOTE]
 >
->Een workflow met niet-afgesloten overgangen kan nog steeds worden uitgevoerd: er wordt een waarschuwingsbericht gegenereerd en de workflow wordt gepauzeerd zodra de overgang is bereikt , maar dit leidt niet tot een fout . U kunt ook een workflow starten zonder het ontwerp volledig af te ronden en u kunt het tijdens de stappen voltooien.
+>Er kan nog steeds een workflow met niet-afgesloten overgangen worden uitgevoerd: er wordt een waarschuwingsbericht gegenereerd en de workflow wordt gepauzeerd zodra de overgang is bereikt, maar dit leidt niet tot een fout. U kunt ook een workflow starten zonder het ontwerp volledig af te ronden en u kunt het tijdens de stappen voltooien.
 
 Nadat een activiteit is uitgevoerd, wordt boven de overgang het aantal records weergegeven dat in de overgang is verzonden.
 
@@ -48,6 +48,6 @@ Standaard zijn alleen de details van de laatste overgang van de workflow toegank
 >
 >Deze optie verbruikt veel geheugen en is ontworpen om een workflow te helpen construeren en ervoor te zorgen dat deze correct is geconfigureerd en gedraagt. Laat deze optie uitgeschakeld op productie-instanties.
 
-Wanneer een overgang is geopend, kunt u de overgang bewerken **[!UICONTROL Label]** of een koppeling maken **[!UICONTROL Segment code]** aan het. Hiervoor bewerkt u de desbetreffende velden en bevestigt u uw wijzigingen.
+Wanneer een overgang is geopend, kunt u de overgang bewerken **[!UICONTROL Label]** of een koppeling maken **[!UICONTROL Segment code]** aan de Commissie. Hiervoor bewerkt u de desbetreffende velden en bevestigt u uw wijzigingen.
 
 Met Campaign Standard REST API&#39;s kunt u **start**, **pauzeren**, **resume** en **stoppen** een workflow. U kunt meer details en voorbeelden van de vraag van REST in vinden [API-documentatie.](../../api/using/controlling-a-workflow.md)

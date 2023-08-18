@@ -25,47 +25,47 @@ In het configuratiescherm voor e-mail kunt u de parameters voor het e-mailkanaal
 
 * **Geautoriseerde maskervelden**
 
-   In de sectie **[!UICONTROL Header parameters of sent emails]** worden de geautoriseerde e-mailadressen vermeld die u kunt gebruiken om e-mails naar uw ontvangers te verzenden (het adres van de afzender) en om hen in staat te stellen geautomatiseerde antwoorden zoals asynchrone onbezorgbare mails, out-of-office antwoorden, enz. terug te sturen. (foutadres).  Adobe Campaign controleert tijdens de voorbereiding van berichten of de ingevoerde adressen geldig zijn. Deze werkwijze zorgt ervoor dat geen adressen worden gebruikt die problemen kunnen veroorzaken.
+  In de sectie **[!UICONTROL Header parameters of sent emails]** worden de geautoriseerde e-mailadressen vermeld die u kunt gebruiken om e-mails naar uw ontvangers te verzenden (het adres van de afzender) en om hen in staat te stellen geautomatiseerde antwoorden zoals asynchrone onbezorgbare mails, out-of-office antwoorden, enz. terug te sturen. (foutadres).  Adobe Campaign controleert tijdens de voorbereiding van berichten of de ingevoerde adressen geldig zijn. Deze werkwijze zorgt ervoor dat geen adressen worden gebruikt die problemen kunnen veroorzaken.
    * Zowel het adres van de afzender als het foutadres worden door Adobe ingesteld. Deze velden mogen niet leeg zijn.
    * U kunt deze velden niet bewerken. Als u een adres wilt bijwerken, neemt u contact op met de Klantenservice van Adobe.
-   * Als u nog een adres wilt toevoegen, kunt u [Campagne](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl) om een nieuw subdomein in te stellen, of contact op te nemen met het Adobe Customer Care-team. Als u meerdere maskers gebruikt, worden deze door komma&#39;s van elkaar gescheiden.
+   * Als u nog een adres wilt toevoegen, kunt u [Campagne](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl) om een nieuw subdomein in te stellen, of contact op te nemen met het team van de Zorg van de Adobe. Als u meerdere maskers gebruikt, worden deze door komma&#39;s van elkaar gescheiden.
    * Het is aan te raden adressen in te stellen met een ster zoals *@yourdomain.com: dan kunt u elk adres gebruiken dat eindigt met uw subdomeinnaam.
 
 * **Bezorging**
 
-   De **[!UICONTROL Delivery reports ID]** wordt geleverd door de Klantenservice van Adobe. Deze identificeert elke instantie aan de hand van een bezorgings-id die in de technische bezorgingsrapporten wordt gebruikt.
-   <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
+  De **[!UICONTROL Delivery reports ID]** wordt geleverd door de Klantenservice van Adobe. Deze identificeert elke instantie aan de hand van een bezorgings-id die in de technische bezorgingsrapporten wordt gebruikt.
+  <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
 
 * **Bezorgingsparameters**
 
-   Adobe Campaign begint met het verzenden van de berichten op de startdatum.
+  Adobe Campaign begint met het verzenden van de berichten op de startdatum.
 
-   Wanneer een bericht in een levering wegens een tijdelijke fout of een zachte stuit wordt verworpen, probeert de Campagne opnieuw om dit bericht elke dag te verzenden. Gebruik de **[!UICONTROL Message delivery duration]** kan het veld waarin de tijdlijn wordt opgegeven tijdens nieuwe pogingen worden weergegeven.
+  Wanneer een bericht in een levering wegens een tijdelijke fout of een zachte stuit wordt verworpen, probeert de Campagne opnieuw om dit bericht elke dag te verzenden. Gebruik de **[!UICONTROL Message delivery duration]** kan het veld waarin de tijdlijn wordt opgegeven tijdens nieuwe pogingen worden weergegeven.
 
-   >[!IMPORTANT]
-   >
-   >**Deze parameter in Campaign wordt nu alleen gebruikt bij een instelling van 3,5 dagen of minder.** Als u een waarde definieert die hoger is dan 3,5 dagen, wordt hiermee geen rekening gehouden.
+  >[!IMPORTANT]
+  >
+  >**Deze parameter in Campaign wordt nu alleen gebruikt bij een instelling van 3,5 dagen of minder.** Als u een waarde definieert die hoger is dan 3,5 dagen, wordt hiermee geen rekening gehouden.
 
-   Het veld **[!UICONTROL Online resources validity duration]** wordt gebruikt voor geüploade bronnen, voornamelijk voor de spiegelpagina en -afbeeldingen. De bronnen op deze pagina zijn gedurende een beperkte tijd geldig (om schijfruimte te besparen).
+  Het veld **[!UICONTROL Online resources validity duration]** wordt gebruikt voor geüploade bronnen, voornamelijk voor de spiegelpagina en -afbeeldingen. De bronnen op deze pagina zijn gedurende een beperkte tijd geldig (om schijfruimte te besparen).
 
 * **Hernieuwde pogingen**
 
-   Voor tijdelijk niet bezorgde berichten wordt automatisch een nieuwe poging uitgevoerd. Zie [Hernieuwde pogingen na een tijdelijke leveringsfout](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)voor meer informatie.
+  Voor tijdelijk niet bezorgde berichten wordt automatisch een nieuwe poging uitgevoerd. Zie [Hernieuwde pogingen na een tijdelijke leveringsfout](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)voor meer informatie.
 
-   >[!IMPORTANT]
-   >
-   >Het maximumaantal uit te voeren pogingen en de minimumvertraging tussen opnieuw proberen zijn nu gebaseerd op hoe goed IP zowel historisch als momenteel bij een bepaald domein uitvoert. De **[!UICONTROL Retry period]** en **[!UICONTROL Number of retries]** instellingen in Campagne worden genegeerd.
+  >[!IMPORTANT]
+  >
+  >Het maximumaantal uit te voeren pogingen en de minimumvertraging tussen opnieuw proberen zijn nu gebaseerd op hoe goed IP zowel historisch als momenteel bij een bepaald domein uitvoert. De **[!UICONTROL Retry period]** en **[!UICONTROL Number of retries]** instellingen in Campagne worden genegeerd.
 
-   <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
+  <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
 * **Parameters voor e-mailquarantaine**
 
-   Voer in het veld **[!UICONTROL Time between two significant errors]** een waarde in om te definiëren hoe lang de toepassing wacht voordat de foutteller wordt verhoogd in het geval van een mail die tijdelijk niet kan worden bezorgd. De standaardwaarde is **1d**, voor 1 dag.
+  Voer in het veld **[!UICONTROL Time between two significant errors]** een waarde in om te definiëren hoe lang de toepassing wacht voordat de foutteller wordt verhoogd in het geval van een mail die tijdelijk niet kan worden bezorgd. De standaardwaarde is **1d**, voor 1 dag.
 
-   Wanneer de waarde bij **[!UICONTROL Maximum number of errors before quarantine]** is bereikt, wordt het e-mailadres in quarantaine geplaatst. De standaardwaarde is **&quot;5&quot;**: het adres is quarantined op de vijfde fout. Dit betekent dat het contact automatisch van volgende bezorgingen wordt uitgesloten.
-   <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
+  Wanneer de waarde bij **[!UICONTROL Maximum number of errors before quarantine]** is bereikt, wordt het e-mailadres in quarantaine geplaatst. De standaardwaarde is **&quot;5&quot;**: het adres wordt in quarantined op de vijfde fout. Dit betekent dat het contact automatisch van volgende bezorgingen wordt uitgesloten.
+  <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
-   Zie [Werken met quarantainebeheer](../../sending/using/understanding-quarantine-management.md) voor meer informatie over quarantaines.
+  Zie [Werken met quarantainebeheer](../../sending/using/understanding-quarantine-management.md) voor meer informatie over quarantaines.
 
 ## E-mailrouteringsaccounts {#email-routing-accounts}
 
@@ -169,15 +169,15 @@ U kunt de indeling van de te verzenden e-mails configureren. Er zijn drie opties
 * **Use recipient preferences** (standaardmodus): de berichtindeling wordt gedefinieerd op basis van de data die zijn opgeslagen in het profiel van de ontvanger en worden standaard opgeslagen in het veld **Email format** (@emailFormat). Als een ontvanger berichten in een bepaalde indeling wenst te ontvangen, wordt deze indeling gebruikt. Als het veld niet is ingevuld, wordt een multipart-alternative bericht verzonden (zie hieronder).
 * **Let recipient mail client choose the most appropriate format (multipart-alternative)**: het bericht bevat beide indelingen: tekst en HTML. De indeling die bij ontvangst wordt weergegeven, is afhankelijk van de configuratie van de e-mailsoftware van de ontvanger (multipart-alternative).
 
-   >[!IMPORTANT]
-   >
-   >Deze optie bevat beide versies van het bericht. Het beïnvloedt daarom de bezorgingsdoorvoer, omdat de berichtgrootte groter is.
+  >[!IMPORTANT]
+  >
+  >Deze optie bevat beide versies van het bericht. Het beïnvloedt daarom de bezorgingsdoorvoer, omdat de berichtgrootte groter is.
 
 * **Send all messages in text format**: het bericht wordt verzonden in de tekstindeling. De HTML-indeling wordt niet verzonden, maar wordt alleen voor de spiegelpagina gebruikt wanneer de ontvanger op de koppeling in het bericht klikt.
 
 #### SMTP-testmodus {#smtp-test-mode}
 
-Gebruik de **[!UICONTROL Enable SMTP test mode]** optie om het verzenden van e-mails via een SMTP-verbinding te testen zonder daadwerkelijk berichten te verzenden. De levering wordt verwerkt tot verbinding aan de server SMTP maar niet verzonden: voor elke ontvanger van de levering, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel van SMTP DATA.
+Gebruik de **[!UICONTROL Enable SMTP test mode]** optie om het verzenden van e-mails via een SMTP-verbinding te testen zonder daadwerkelijk berichten te verzenden. De levering wordt verwerkt tot verbinding aan de server SMTP maar niet verzonden: voor elke ontvanger van de levering, verbindt de Campagne met de SMTP leverancierserver, voert SMTP RCPT aan bevel uit, en sluit de verbinding vóór het bevel SMTP DATA.
 
 ![](assets/smtp-test-mode.png)
 
@@ -200,17 +200,17 @@ De sectie **[!UICONTROL Validity period]** bevat de volgende parameters:
 
 * **[!UICONTROL Explicitly set validity dates]**: als dit vakje niet is ingeschakeld, moet u een tijdsduur invoeren in de velden **[!UICONTROL Delivery duration]** en **[!UICONTROL Resource validity limit]**.
 
-   Schakel dit selectievakje in als u specifieke tijden en datums wilt definiëren.
+  Schakel dit selectievakje in als u specifieke tijden en datums wilt definiëren.
 
-   ![](assets/delivery-set-explicit-dates.png)
+  ![](assets/delivery-set-explicit-dates.png)
 
 * **[!UICONTROL Delivery duration]** / **[!UICONTROL Validity limit for sending messages]**: Adobe Campaign begint met het verzenden van berichten op de startdatum. In dit veld kunt u opgeven gedurende welke periode de berichten kunnen worden verzonden.
 
-   >[!IMPORTANT]
-   >
-   >**U kunt een waarde van maximaal 3,5 dagen definiëren.** Als u een waarde instelt die hoger is dan 3,5 dagen, wordt hiermee geen rekening gehouden.
-   >
-   >De parameter **[!UICONTROL Delivery duration]** is niet van toepassing op transactieberichten. Zie [deze sectie](../../channels/using/getting-started-with-transactional-msg.md)voor meer informatie over transactieberichten.
+  >[!IMPORTANT]
+  >
+  >**U kunt een waarde van maximaal 3,5 dagen definiëren.** Als u een waarde instelt die hoger is dan 3,5 dagen, wordt hiermee geen rekening gehouden.
+  >
+  >De parameter **[!UICONTROL Delivery duration]** is niet van toepassing op transactieberichten. Zie [deze sectie](../../channels/using/getting-started-with-transactional-msg.md)voor meer informatie over transactieberichten.
 
 * **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**: dit veld wordt gebruikt voor geüploade bronnen, voornamelijk voor de spiegelpagina en -afbeeldingen. De bronnen op deze pagina zijn gedurende een beperkte tijd geldig (om schijfruimte te besparen).
 * **[!UICONTROL Mirror page management]**: de spiegelpagina is een HTML-pagina die online via een webbrowser toegankelijk is. De content komt overeen met de content van de e-mail. Standaard wordt de spiegelpagina gegenereerd als de koppeling wordt ingevoegd in de e-mailcontent. Met dit veld wijzigt u de manier waarop deze pagina wordt gegenereerd:
@@ -220,19 +220,20 @@ De sectie **[!UICONTROL Validity period]** bevat de volgende parameters:
    * **Do not generate the mirror page**: er wordt geen spiegelpagina gegenereerd, zelfs niet als de koppeling zich in de berichten bevindt.
    * **Generate a mirror page accessible using only the message ID**: met deze optie hebt u toegang tot de content van de spiegelpagina, met personalisatiegegevens, in het venster met het verzendingslog.
 
-   >[!IMPORTANT]
-   >
-   >De spiegelpagina wordt alleen gegenereerd als er voor de e-mail een HTML-inhoud is gedefinieerd.
+  >[!IMPORTANT]
+  >
+  >De spiegelpagina wordt alleen gegenereerd als er voor de e-mail een HTML-inhoud is gedefinieerd.
+  >
 
 
 ### Parameters voor tracking {#tracking-parameters}
 
 De sectie **[!UICONTROL Tracking]** bevat de volgende parameters:
 
-* **[!UICONTROL Activate tracking]**: gebruik deze optie om bericht-URL&#39;s te activeren/deactiveren. Als u de URL van elk bericht wilt traceren, gebruikt u het pictogram **[!UICONTROL Links]** in de actiebalk Email Designer. Zie [Informatie over getraceerde URL&#39;s](../../designing/using/links.md#about-tracked-urls).
-* **[!UICONTROL Tracking validity limit]**: Gebruik deze optie om de duur te bepalen waarvoor het volgen op URLs zal worden geactiveerd.
-* **[!UICONTROL Substitution URL for expired URLs]**: Gebruik deze optie om een URL in te voeren naar een fallback-webpagina: wordt weergegeven nadat de reeksspatiëring is verlopen.
-* **[!UICONTROL Use tracking pixel at the top of email]**: Gebruik deze optie als u de pixel die het beeld bijhoudt boven aan het e-mailbericht in plaats van onder aan het bericht wilt plaatsen. Deze pixel bevindt zich standaard onder aan uw e-mailberichten. Als u grote berichten verzendt, kunt u deze pixel boven aan uw e-mails in plaats van onder aan de e-mail verplaatsen om het bijhouden van de gegevens te verbeteren. Anders kan de pixel voor het bijhouden van de berichten door sommige e-mailproviders worden geknipt.
+* **[!UICONTROL Activate tracking]**: gebruik deze optie om URL-tracking van berichten te activeren/deactiveren. Als u de URL van elk bericht wilt traceren, gebruikt u het pictogram **[!UICONTROL Links]** in de actiebalk Email Designer. Zie [Informatie over getraceerde URL&#39;s](../../designing/using/links.md#about-tracked-urls).
+* **[!UICONTROL Tracking validity limit]**: gebruik deze optie om de duur te bepalen waarvoor het volgen op URLs zal worden geactiveerd.
+* **[!UICONTROL Substitution URL for expired URLs]**: gebruik deze optie om een URL in te voeren naar een fallback-webpagina: deze wordt weergegeven zodra de tekstspatiëring is verlopen.
+* **[!UICONTROL Use tracking pixel at the top of email]**: gebruik deze optie als u de pixel die het beeld bijhoudt, boven in de e-mail wilt plaatsen in plaats van onderaan. Deze pixel bevindt zich standaard onder aan uw e-mailberichten. Als u grote berichten verzendt, kunt u deze pixel boven aan uw e-mails in plaats van onder aan de e-mail verplaatsen om het bijhouden van de gegevens te verbeteren. Anders kan de pixel voor het bijhouden van de berichten door sommige e-mailproviders worden geknipt.
 
 ### Geavanceerde parameters {#advanced-parameters}
 
@@ -264,13 +265,13 @@ Het voorbereiden van berichten wordt uitgelegd in de sectie [Berichten goedkeure
 
 * **[!UICONTROL Typology]**: voordat berichten worden verzonden, moeten deze worden voorbereid om de content en configuratie te valideren. De verificatieregels die tijdens de voorbereidingsfase worden toegepast, worden in een **typologie** gedefinieerd. Voor e-mails betekent voorbereiding bijvoorbeeld dat het onderwerp, de URL&#39;s en afbeeldingen gecontroleerd worden. Selecteer in dit veld de typologie die u wilt toepassen.
 
-   >[!NOTE]
-   >
-   >Typologieën zijn toegankelijk via het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** en worden in [deze sectie](../../sending/using/about-typology-rules.md) beschreven.
+  >[!NOTE]
+  >
+  >Typologieën zijn toegankelijk via het menu **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** en worden in [deze sectie](../../sending/using/about-typology-rules.md) beschreven.
 
-* **[!UICONTROL Compute the label during delivery preparation]**: Gebruik deze optie om de labelwaarde van de e-mail tijdens de voorbereidingsfase van het bericht te berekenen aan de hand van verpersoonlijkingsvelden, inhoudsblokken en dynamische tekst.
+* **[!UICONTROL Compute the label during delivery preparation]**: gebruik deze optie om de labelwaarde van de e-mail tijdens de voorbereidingsfase van het bericht te berekenen aan de hand van verpersoonlijkingsvelden, inhoudsblokken en dynamische tekst.
 
-   Het is ook mogelijk om het bezorgingslabel te personaliseren met gebeurtenisvariabelen die in de externe-signalenactiviteit van de workflow zijn gedeclareerd. Raadpleeg [deze sectie](../../automating/using/calling-a-workflow-with-external-parameters.md) voor meer informatie.
+  Het is ook mogelijk om het bezorgingslabel te personaliseren met gebeurtenisvariabelen die in de externe-signalenactiviteit van de workflow zijn gedeclareerd. Raadpleeg [deze sectie](../../automating/using/calling-a-workflow-with-external-parameters.md) voor meer informatie.
 
 * **[!UICONTROL Save SQL queries in the log]**: gebruik deze optie om SQL vraaglogboeken in het dagboek tijdens de voorbereidingsfase toe te voegen.
 
@@ -286,9 +287,9 @@ De sectie **[!UICONTROL SMTP]** bevat de volgende parameters:
 * **[!UICONTROL Bounce mails]**: standaard worden de teruggestuurde berichten ontvangen in de fouteninbox van het platform (gedefinieerd in het scherm **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Email]** > **[!UICONTROL Configuration]**). Als u een specifiek foutadres voor een e-mailbericht wilt definiëren, typt u dit adres in het veld **[!UICONTROL Error address]**.
 * **[!UICONTROL Additional SMTP headers]**: met deze optie kunt u extra SMTP-kopteksten toevoegen aan uw berichten. Het script dat in het veld **[!UICONTROL Headers]** wordt ingevoerd, moet verwijzen naar één koptekst per regel, en wel in de notatie **name:value**. Waarden worden indien nodig automatisch gecodeerd.
 
-   >[!IMPORTANT]
-   >
-   >Het toevoegen van een script voor het opnemen van extra SMTP-kopteksten is gereserveerd voor gevorderde gebruikers. De syntaxis van dit script moet voldoen aan de vereisten van dit type content: geen ongebruikte ruimte, geen lege regel, enz.
+  >[!IMPORTANT]
+  >
+  >Het toevoegen van een script voor het opnemen van extra SMTP-kopteksten is gereserveerd voor gevorderde gebruikers. De syntaxis van dit script moet voldoen aan de vereisten van dit type content: geen ongebruikte ruimte, geen lege regel, enz.
 
 ### Lijst van parameters voor toegang {#list-of-access-authorization-parameters}
 
@@ -296,9 +297,9 @@ De sectie **[!UICONTROL Access authorization]** bevat de volgende parameters:
 
 * De **[!UICONTROL Organizational unit]** wordt gebruikt om toegang tot deze e-mail tot bepaalde gebruikers te beperken. De gebruikers die zijn gekoppeld aan de opgegeven eenheid of bovenliggende eenheden hebben lees- en schrijftoegang tot deze e-mail. Gebruikers die zijn gekoppeld aan onderliggende eenheden hebben alleen leestoegang tot deze e-mail.
 
-   >[!NOTE]
-   >
-   >U kunt organisatorische eenheden configureren via het menu **Administration** > **Users &amp; Security**.
+  >[!NOTE]
+  >
+  >U kunt organisatorische eenheden configureren via het menu **Administration** > **Users &amp; Security**.
 
 * De velden **[!UICONTROL Created by]**, **[!UICONTROL Created]****[!UICONTROL Modified by]** en **[!UICONTROL Last modified]** worden automatisch ingevuld.
 
@@ -322,16 +323,16 @@ Gebruik de **[!UICONTROL Delivery duration]** of **[!UICONTROL Validity limit fo
 
 ### Regels voor e-mailverwerking {#legacy-email-processing-rules}
 
-De **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** en **[!UICONTROL Domain management]** de regels kunnen door beheerders door middel van worden betreden en worden gewijzigd **[!UICONTROL Administration > Channels > Email > Email processing rules]** -menu. [Meer informatie](#email-processing-rules).
+De **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** en **[!UICONTROL Domain management]** de regels kunnen door beheerders door **[!UICONTROL Administration > Channels > Email > Email processing rules]** -menu. [Meer informatie](#email-processing-rules).
 
 ### Kwalificatie van niet-bezorgde e-mails {#legacy-bounce-mail-qualification}
 
-Klik op de knop **Adobe** logo, in de linkerbovenhoek, selecteert u **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+Als u de verschillende grenzen en de bijbehorende fouttypen en redenen wilt weergeven, klikt u op de knop **Adobe** logo, in de linkerbovenhoek, selecteert u **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 Stuiterwaarden kunnen de volgende kwalificatiestatus hebben:
 
 * **[!UICONTROL To qualify]**: de stuiterende post moet worden gekwalificeerd. De kwalificatie moet door het leveringsteam worden gedaan om ervoor te zorgen dat de platformleverbaarheid correct functioneert. Zolang het niet wordt gekwalificeerd, wordt de stuiterende post niet gebruikt om de lijst van e-mailverwerkingsregels te verrijken.
-* **[!UICONTROL Keep]**: de stuiterende post werd gekwalificeerd en zal door **Update voor leverbaarheid** te vergelijken met bestaande regels voor e-mailverwerking en de lijst te verrijken.
+* **[!UICONTROL Keep]**: de stuiterende post werd gekwalificeerd en zal door worden gebruikt **Update voor leverbaarheid** te vergelijken met bestaande regels voor e-mailverwerking en de lijst te verrijken.
 * **[!UICONTROL Ignore]**: de stuiterende post werd gekwalificeerd maar zal niet door **Update voor leverbaarheid** workflow. Het wordt dus niet naar de clientinstanties verzonden.
 
 >[!NOTE]

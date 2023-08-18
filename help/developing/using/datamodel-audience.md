@@ -182,7 +182,7 @@ ht-degree: 6%
                   <td> </td>
                </tr>
                <tr>
-                  <td>ignoreFilename</td>
+                  <td>weigerFilename</td>
                   <td>Afwijzingsbestand</td>
                   <td>string </td>
                   <td> </td>

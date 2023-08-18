@@ -35,7 +35,7 @@ De stappen voor het maken van een pushmelding met Adobe Campaign zijn:
 
    Standaard kunt u een van de volgende twee sjablonen selecteren:
 
-   * **[!UICONTROL Send push to Campaign profiles]**: Gebruik deze sjabloon als doel voor de Adobe Campaign CRM-profielen die zijn geabonneerd op uw mobiele toepassing en zich hebben aangemeld voor het ontvangen van pushberichten. U kunt [personalisatie](../../designing/using/personalization.md#inserting-a-personalization-field) in uw pushmelding, zoals de voornaam van de ontvanger.
+   * **[!UICONTROL Send push to Campaign profiles]**: gebruik deze sjabloon als doel voor de Adobe Campaign CRM-profielen die zijn geabonneerd op uw mobiele toepassing en die zich hebben aangemeld voor het ontvangen van pushberichten. U kunt [personalisatie](../../designing/using/personalization.md#inserting-a-personalization-field) in uw pushmelding, zoals de voornaam van de ontvanger.
    * **[!UICONTROL Send push to app subscribers]**: gebruik deze sjabloon om een pushmelding te verzenden naar alle bekende en anonieme gebruikers van mobiele toepassingen die zich hebben aangemeld om meldingen van uw toepassing te ontvangen. U kunt deze berichten personaliseren met gegevens die uit uw mobiele toepassing worden verzameld.
 
    U kunt ook meertalige sjablonen selecteren. Raadpleeg voor meer informatie [Meertalige pushmeldingen maken](../../channels/using/creating-a-multilingual-push-notification.md).
@@ -62,7 +62,7 @@ De stappen voor het maken van een pushmelding met Adobe Campaign zijn:
 
    ![](assets/push_notif_content.png)
 
-   De inhoud en opties van de pushmelding die hier zijn geconfigureerd, worden doorgegeven aan uw mobiele app in de vorm van een payload. De gedetailleerde structuur van de lading wordt beschreven in [De payloadstructuur van Campaign Standard-pushberichten begrijpen](../../administration/using/push-payload.md) technote.
+   De inhoud en opties van de pushmelding die hier zijn geconfigureerd, worden doorgegeven aan uw mobiele app in de vorm van een payload. De gedetailleerde structuur van de lading wordt beschreven in [Werken met de payloadstructuur van pushberichten voor Campaigns Standard](../../administration/using/push-payload.md) technote.
 
 1. Klik op **[!UICONTROL Create]**.
 
@@ -72,8 +72,8 @@ De stappen voor het maken van een pushmelding met Adobe Campaign zijn:
 
    Voor meer bij het verzenden van tests, verwijs naar [Testprofielen](../../sending/using/sending-proofs.md).
 
-1. Selecteer de testprofielen en klik op **[!UICONTROL Preview]** om de melding weer te geven: inhoud wordt gepersonaliseerd met de gegevens van het testprofiel.
-1. Controleer de lay-out van de pushmelding op verschillende apparaten: Selecteer iPhone, Android-telefoon, iPad of Android voor een voorvertoning van de rendering.
+1. Selecteer de testprofielen en klik op **[!UICONTROL Preview]** om het bericht weer te geven: de inhoud wordt gepersonaliseerd met de gegevens van het testprofiel.
+1. Controleer de lay-out van de pushmelding op verschillende apparaten: selecteer iPhone, Android-telefoon, iPad of Android om een voorvertoning van de rendering weer te geven.
 
    ![](assets/push_notif_preview.png)
 
@@ -107,14 +107,14 @@ U kunt pushmeldingen naar een geselecteerd publiek in Adobe Campaign verzenden d
 
    ![](assets/push_send_7.png)
 
-1. U kunt nu **[!UICONTROL Confirm]** om pushmeldingen te verzenden.
+1. U kunt nu op **[!UICONTROL Confirm]** om pushmeldingen te verzenden.
 1. Controleer de status van uw levering via het berichtdashboard en de logboeken. Zie voor meer informatie [Berichten verzenden](../../sending/using/confirming-the-send.md) en [Leveringslogboeken](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
-   In dit voorbeeld wordt op het berichtdashboard weergegeven dat Adobe Campaign heeft geprobeerd twee pushmeldingen te verzenden: een werd met succes geleverd aan het apparaat en een andere ontbrak. Om te weten waarom de levering fouten heeft, klik ![](assets/lp_link_properties.png) onder aan het dialoogvenster **[!UICONTROL Deployment]** venster.
+   In dit voorbeeld wordt op het berichtdashboard weergegeven dat Adobe Campaign heeft geprobeerd twee pushmeldingen te verzenden: een bericht is afgeleverd op het apparaat en een ander bericht is mislukt. Om te weten waarom de levering fouten heeft, klik ![](assets/lp_link_properties.png) onder aan het dialoogvenster **[!UICONTROL Deployment]** venster.
 
    ![](assets/push_send_4.png)
 
-1. Van de **[!UICONTROL Deployment]** venster, klikt u op de knop **[!UICONTROL Sending logs]** voor toegang tot de lijst met verzonden pushberichten en hun status. Voor deze levering is een pushmelding verzonden, terwijl het andere is mislukt als gevolg van een ongeldige apparaattoken. Deze abonnee zal dan aan de lijst van gewezen personen van verdere leveringen worden toegevoegd.
+1. Van de **[!UICONTROL Deployment]** venster, klikt u op **[!UICONTROL Sending logs]** voor toegang tot de lijst met verzonden pushberichten en hun status. Voor deze levering is een pushmelding verzonden, terwijl het andere is mislukt door een ongeldige apparaattoken. Deze abonnee zal dan aan de lijst van gewezen personen van verdere leveringen worden toegevoegd.
 
    >[!NOTE]
    >

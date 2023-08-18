@@ -34,7 +34,7 @@ De dynamische Rapportering verstrekt volledig klantgerichte en real-time rapport
 
 Met dynamische rapportage **interface voor slepen en neerzetten**, kunt u gegevens onderzoeken, bepalen hoe uw e-mailcampagnes tegen uw belangrijkste klantensegmenten werden uitgevoerd en hun effect op ontvangers van één enkele plaats meten.
 
-**Dynamische rapporten beheren** dankzij verschillende functies : Vernieuw de gegevens in real time, druk uw rapporten, of voer hen als Csv- dossiers uit. U kunt uw rapporten ook delen met gebruikers van de Campaign Standard door middel van eenmalige of terugkerende e-mails.
+**Dynamische rapporten beheren** dankzij verschillende functies: vernieuw de gegevens in real time, druk uw rapporten, of voer hen uit als Csv- dossiers. U kunt uw rapporten ook delen met gebruikers van het Campaign Standard door middel van eenmalige of terugkerende e-mails.
 
 Meer informatie:
 
@@ -45,7 +45,7 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standard wordt geleverd met een set **gebruiksklare dynamische rapporten** waarmee u meerdere aspecten van uw marketingcampagnes kunt meten: Stommen, leveringen die het meest als spam of junk zijn gedeclareerd, de meeste bekeken leveringen door ontvangers, zendergerelateerde rapporten, leveringstijd en trackingrapporten..
+Campaign Standard wordt geleverd met een set **gebruiksklare dynamische rapporten** waarmee u meerdere aspecten van uw marketingcampagnes kunt meten: stormen, leveringen die het meest als spam of junk zijn gedeclareerd, de meeste bekeken leveringen door ontvangers, rapporten die betrekking hebben op kanalen, doorvoercapaciteit en trackingsrapporten...
 
 **Verschillende componenten combineren** (afmetingen, metriek en segmenten, tijdsperiodes) om uw eigen rapporten te bouwen of out-of-the-box rapporten te personaliseren.
 
@@ -59,9 +59,9 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**Uw rapporten aanpassen** door mogelijkheden voor dynamische rapportering te benutten: U kunt zoveel componenten toevoegen als u nodig hebt (deelvensters en vrije-vormtabellen) om uw gegevens te analyseren met de beschikbare metrische waarde en afmetingen.
+**Uw rapporten aanpassen** door dynamische rapporteringsmogelijkheden te gebruiken: voeg zoveel componenten toe als u nodig hebt (panelen en vrije-vormlijsten) om uw gegevens te analyseren gebruikend beschikbare metrisch en dimensies.
 
-Slepen en neerzetten **visualisatie-items** om grafische vertegenwoordiging van uw gegevens in uw rapporten toe te voegen en hen te vormen volgens uw behoeften.
+Slepen en slepen **visualisatie-items** om grafische vertegenwoordiging van uw gegevens in uw rapporten toe te voegen en hen te vormen volgens uw behoeften.
 
 Rapporten maken op basis van **aangepaste profielgegevens** gemaakt tijdens de profielbronextensie, en **rapporten op basis van segmenten** gedefinieerd voor workflows die als doel zijn.
 
@@ -84,4 +84,4 @@ Deze video biedt een overzicht van de rapportagemogelijkheden van Adobe Campaign
 
 >[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
-Er zijn aanvullende Campaign Standard-hoe-kan-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).
+Er zijn aanvullende Campaign Standard-to-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).

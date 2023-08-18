@@ -17,9 +17,9 @@ ht-degree: 24%
 
 # Een meertalige e-mail maken{#creating-a-multilingual-email}
 
-U kunt een meertalige e-mail verzenden naar profielen met verschillende voorkeurstalen: elk profiel zal een variant van e - mail in hun aangewezen taal ontvangen .
+U kunt een meertalige e-mail verzenden naar profielen met verschillende voorkeurstalen: elk profiel ontvangt een variant van het e-mailbericht in de taal van zijn voorkeur.
 
-Hiervoor controleert u of er een sjabloon voor meertalige e-mail beschikbaar is. Zo niet, leer dan hoe u er een kunt maken in [deze sectie](../../channels/using/multilingual-messages-template.md).
+Hiervoor controleert u of er een sjabloon voor meertalige e-mail beschikbaar is. Zo niet, leer dan hoe u er een maakt in [deze sectie](../../channels/using/multilingual-messages-template.md).
 
 Het publiek is gebaseerd op profielen met een voltooide voorkeurstaal.
 
@@ -35,7 +35,7 @@ Het publiek is gebaseerd op profielen met een voltooide voorkeurstaal.
 
    Voeg zo nodig varianten toe met de **[!UICONTROL Add an element]** knop. **[!UICONTROL Default]** De variant mag niet worden verwijderd. Wanneer ingesteld op **[!UICONTROL default]**, [de voorkeurstaal van het profiel](../../audiences/using/creating-profiles.md) wordt gebruikt om de variant te kiezen. U kunt ook de **[!UICONTROL Default]** variant op een andere taal.
 
-1. Maken van e-mail bevestigen: het e-maildashboard wordt dan weergegeven.
+1. Bevestig het maken van e-mail: het e-maildashboard wordt dan weergegeven.
 1. Definieer de e-mailinhoud voor elke variant. Afhankelijk van de sjabloon die u hebt gekozen, kunt u verschillende onderwerpen, verschillende namen van afzenders of verschillende content definiëren. Gebruik het vervolgkeuzemenu om tussen de verschillende varianten van het element te navigeren. Raadpleeg de sectie [Contenteditor](../../designing/using/designing-content-in-adobe-campaign.md) voor meer informatie.
 
    ![](assets/multi_selectcontent.png)

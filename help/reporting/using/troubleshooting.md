@@ -94,7 +94,7 @@ Dit resulteert in de volgende tabel:
 
 Dit kan te wijten zijn aan het feit dat heuristiek wordt gebruikt in Dynamische rapportering om te volgen opent zelfs wanneer wij niet kunnen volgen **[!UICONTROL Open]** handeling.
 
-Als een gebruiker bijvoorbeeld afbeeldingen op zijn client heeft uitgeschakeld en op een koppeling in de e-mail klikt, **[!UICONTROL Open]** mag niet door de database worden bijgehouden, maar **[!UICONTROL Click]** zal.
+Als een gebruiker bijvoorbeeld afbeeldingen op zijn client heeft uitgeschakeld en op een koppeling in de e-mail klikt, **[!UICONTROL Open]** mag niet door de database worden bijgehouden, maar de **[!UICONTROL Click]** zal.
 
 Daarom **[!UICONTROL Open]** het volgen logboektellingen kunnen niet de zelfde telling in het gegevensbestand hebben.
 
@@ -107,7 +107,7 @@ Dergelijke voorvallen worden toegevoegd als **&quot;Een e-mailklik betekent dat 
 ## Hoe worden tellingen voor terugkomende/transactionele leveringen berekend? {#counts-recurring-deliveries}
 
 Wanneer het werken met terugkomende en transactionele leveringen, zullen de tellingen aan zowel de ouder als kindleveringen worden toegeschreven.
-We kunnen het voorbeeld nemen van een terugkerende levering met de naam **R1** die elke dag moet worden uitgevoerd op dag 1 (RC1), dag 2 (RC2) en dag 3 (RC3).
+We kunnen het voorbeeld nemen van een terugkerende levering genaamd **R1** die elke dag moet worden uitgevoerd op dag 1 (RC1), dag 2 (RC2) en dag 3 (RC3).
 Laten we aannemen dat slechts één persoon alle onderliggende leveringen meerdere keren heeft geopend. In dit geval worden op de individuele terugkerende onderliggende leveringen de volgende gegevens vermeld: **[!UICONTROL Open]** tel als 1 voor elk.
 Aangezien dezelfde persoon echter op alle leveringen heeft geklikt, heeft de bovenliggende terugkerende levering ook **[!UICONTROL Unique open]** als 1.
 
@@ -165,7 +165,7 @@ In het onderstaande voorbeeld heeft de cel dezelfde kleur omdat de waarde 100% i
 
 Als u de **[!UICONTROL Conditional formatting]** aan douane, wanneer de waarde de hogere grens bereikt zal de cel groener worden. Als het de ondergrens bereikt, wordt het rood.
 
-Hier stellen we bijvoorbeeld de **[!UICONTROL Upper limit]** tot en met 500 en **[!UICONTROL Lower limit]** tot 0.
+Hier stellen we bijvoorbeeld de **[!UICONTROL Upper limit]** tot en met 500 **[!UICONTROL Lower limit]** tot 0.
 
 ![](assets/troubleshooting_2.png)
 
@@ -173,19 +173,19 @@ Hier stellen we bijvoorbeeld de **[!UICONTROL Upper limit]** tot en met 500 en *
 
 ![](assets/troubleshooting_3.png)
 
-De waarde **N.v.t.** kan soms in uw dynamische rapporten verschijnen. Dit kan om drie redenen worden getoond:
+De waarde **NVT** kan soms in uw dynamische rapporten verschijnen. Dit kan om drie redenen worden getoond:
 
-* De levering is verwijderd en wordt hier weergegeven als **N.v.t.** geen discrepantie in de resultaten veroorzaken.
-* Wanneer u het gereedschap **[!UICONTROL Transactional Delivery]** dimensie aan uw rapporten, de waarde **N.v.t.** kan hierdoor ontstaan. Dit gebeurt omdat het Dynamische rapport elke levering haalt zelfs als zij geen transactie zijn. Dit kan ook gebeuren wanneer u het gereedschap **[!UICONTROL Delivery]** de dimensie van uw verslag, maar in dit geval **N.v.t.** value zal transactionele leveringen vertegenwoordigen.
+* De levering is verwijderd en wordt hier weergegeven als **NVT** geen discrepantie in de resultaten veroorzaken.
+* Wanneer u het gereedschap **[!UICONTROL Transactional Delivery]** dimensie aan uw rapporten, de waarde **NVT** kan hierdoor ontstaan. Dit gebeurt omdat het Dynamische rapport elke levering haalt zelfs als zij geen transactie zijn. Dit kan ook gebeuren wanneer u het gereedschap **[!UICONTROL Delivery]** de dimensie van uw verslag, maar in dit geval **NVT** value zal transactionele leveringen vertegenwoordigen.
 * Wanneer een afmeting met metrisch wordt gebruikt die niet met de afmeting verwant is. In het onderstaande voorbeeld wordt een uitsplitsing toegevoegd met de **[!UICONTROL Tracking URL]** hoewel de **[!UICONTROL Click]** count is ingesteld op 0 in this delivery.
 
-   ![](assets/troubleshooting_4.png)
+  ![](assets/troubleshooting_4.png)
 
 ## De rapporten van leveringen tonen onvolledige gegevens wanneer het gebruiken van de afbeelding van het douaneDoel
 
 Als u de ingevoerde afbeeldingen van het douaneDoel in leveringen gebruikt en geen gegevens in de verschillende rapporten worden getoond, zou dit kunnen betekenen dat de verbeteringen van de Rapportering niet voor die afbeeldingen van het Doel werden gecreeerd.
 
-U lost dit als volgt op:
+Dit probleem oplossen:
 
 * Na het invoeren van uw afbeelding van het Doel van XML, zult u ook de Verrijking van de Rapportering moeten invoeren.
 

@@ -1,6 +1,6 @@
 ---
 title: Lijsten aanpassen
-description: "Leer hoe u de weergave kunt aanpassen en hoe u kunt werken op lijstschermen in Adobe Campaign Standard:elementen sorteren, filteren, verwijderen of dupliceren. De schermen van lijsten tonen elementen van één of verscheidene bepaalde middelen."
+description: "Leer hoe u de weergave kunt aanpassen en kunt werken op lijstschermen in Adobe Campaign Standard:elementen sorteren, filteren, verwijderen of dupliceren. De schermen van lijsten tonen elementen van één of verscheidene bepaalde middelen."
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -33,7 +33,7 @@ ht-degree: 8%
 <td>Campaign-datamodel</td>
 <td>Werken met REST API's</td>
 <td>Gebruikers beheren</td>
-<td>Vorm en controleer uw instantie</td>
+<td>Configureer en controleer uw instantie</td>
 </tr>
 </table>
 
@@ -70,7 +70,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 * xxxx
 * xxxx
 
-## Vorm en controleer uw instantie
+## Configureer en controleer uw instantie
 
 <img width="60px" alt="voorwaarden" src="assets/icon_profile.svg"/>
 

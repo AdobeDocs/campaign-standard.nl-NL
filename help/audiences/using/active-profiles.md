@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Actieve profielen{#active-profiles}
 
-U hebt toegang tot de gegevens over actieve profielen via de **[!UICONTROL Customer metrics]** verslag. Dit rapport is beschikbaar aan de functionele beheerders van de Campagne slechts. Als u dit rapport wilt openen, klikt u op het Adobe Campaign-pictogram linksboven in het dialoogvenster [gebruikersinterface](../../start/using/interface-description.md#advanced-menu)en blader naar **[!UICONTROL Administration > Customer metrics]**.
+U hebt toegang tot de gegevens over actieve profielen via de **[!UICONTROL Customer metrics]** verslag. Dit rapport is beschikbaar aan de functionele beheerders van de Campagne slechts. Klik op het Adobe Campaign-pictogram linksboven in het dialoogvenster [gebruikersinterface](../../start/using/interface-description.md#advanced-menu)en blader naar **[!UICONTROL Administration > Customer metrics]**.
 
 ![](assets/audience_customer_metrics.png)
 
@@ -41,3 +41,4 @@ Onder aan de pagina worden de doeldimensies weergegeven met het aantal profielen
 >[!NOTE]
 >
 >Als Admin-gebruiker kunt u het aantal actieve profielen dat op uw instanties wordt gebruikt, ook rechtstreeks vanuit het Configuratiescherm controleren. Raadpleeg voor meer informatie de [Documentatie van het regelpaneel](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
+>

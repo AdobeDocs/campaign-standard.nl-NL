@@ -59,7 +59,7 @@ Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikma
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Vanaf de Campaign Standard 21.3-release is de integratie met de Adobe Experience Platform Data Connector verouderd. </p>
+   <td> <p> Vanaf de release van Campaign Standard 21.3 is de integratie met de Adobe Experience Platform Data Connector verouderd. </p>
    <p>Voor nieuwe implementatie kunt u de Adobe Experience Platform Data Connector niet meer integreren met Adobe Campaign Standard. U kunt Campagne en Adobe Experience Platform echter integreren via Bronnen en Doelen. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">Meer informatie</a>.</p>
      <em>Streefdatum voor verwijdering: 2023</em></p>
      </td> 
@@ -91,7 +91,7 @@ Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikma
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Vanaf de startversie van Campagne 18.7 zijn geografische eenheden afgekeurd. Organisatie-eenheden en geografische eenheden zijn in Campaign identieke constructies. Gebruikers moeten uitsluitend organisatie-eenheden gebruiken om hun gebruikerstoestemming/gegevenstoegangshiërarchie samen te stellen. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=nl#administrating">Meer informatie</a>. Houd er rekening mee dat vanaf release 18.7 deze functie niet meer kan worden geïmplementeerd voor nieuwe Campaign Standard-instanties of voor bestaande instanties waarin geen geografische eenheden zijn gemaakt.</p>
+   <td> <p>Vanaf de release Campagne 18.7 zijn geografische eenheden afgekeurd. Organisatie-eenheden en geografische eenheden zijn in Campaign identieke constructies. Gebruikers moeten uitsluitend organisatie-eenheden gebruiken om hun gebruikerstoestemming/gegevenstoegangshiërarchie samen te stellen. <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=nl#administrating">Meer informatie</a>. Houd er rekening mee dat vanaf release 18.7 deze functie niet meer kan worden geïmplementeerd voor nieuwe Campaign Standard-instanties of voor bestaande instanties waarin geen geografische eenheden zijn gemaakt.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -173,7 +173,7 @@ Deze sectie bevat een lijst met functies en mogelijkheden die uit Campaign Stand
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK] is buiten gebruik gesteld. Dientengevolge, beelduitgave aangedreven door [!DNL Creative SDK] in Campaign Standard e-mailberichten zijn niet meer beschikbaar vanaf de release van Campagne 20.2.</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] is buiten gebruik gesteld. Dientengevolge, beelduitgave aangedreven door [!DNL Creative SDK] in Campaign Standard zijn e-mails niet meer beschikbaar vanaf de release van Campagne 20.2.</p></br>
    </td> 
   </tr> 
  </tbody> 

@@ -50,11 +50,11 @@ Adobe Campaign maakt deel uit van de Adobe Experience Cloud-oplossingen. De mani
 
 * **Welke informatie wanneer wordt verzameld bij het gebruik van Adobe Experience Cloud**
 
-   Als bedrijf dat Adobe Experience Cloud-oplossingen gebruikt, bepaalt u welke gegevens u verzamelt en naar uw Adobe Experience Cloud-account verzendt. Voorbeelden van soorten informatie die mogelijk worden verzameld, zijn webbrowseractiviteiten, IP-adressen, locatiegegevens van mobiele apparaten, succespercentages van campagnes, items die zijn aangeschaft of in een winkelwagentje zijn geplaatst, enz.
+  Als bedrijf dat Adobe Experience Cloud-oplossingen gebruikt, bepaalt u welke gegevens u verzamelt en naar uw Adobe Experience Cloud-account verzendt. Voorbeelden van soorten informatie die mogelijk worden verzameld, zijn webbrowseractiviteiten, IP-adressen, locatiegegevens van mobiele apparaten, succespercentages van campagnes, items die zijn aangeschaft of in een winkelwagentje zijn geplaatst, enz.
 
-   >[!NOTE]
-   >
-   >Net als alle andere Adobe-producten verzamelt Campaign informatie over gebruikers van apps en websites. Zie het [Adobe-privacybeleid](https://www.adobe.com/nl/privacy/policy.html) voor meer informatie.
+  >[!NOTE]
+  >
+  >Net als alle andere Adobe-producten verzamelt Campaign informatie over gebruikers van apps en websites. Zie het [Adobe-privacybeleid](https://www.adobe.com/nl/privacy/policy.html) voor meer informatie.
 
 * **Hoe Adobe Experience Cloud wordt gebruikt om informatie te verzamelen**
 
@@ -63,14 +63,14 @@ Adobe Campaign maakt deel uit van de Adobe Experience Cloud-oplossingen. De mani
 
 * **De privacyopties van uw gebruikers voor uw gebruik van Adobe Experience Cloud**
 
-   Adobe vraagt u om uw klanten een privacybeleid te verstrekken waarin het volgende wordt beschreven:
+  Adobe vraagt u om uw klanten een privacybeleid te verstrekken waarin het volgende wordt beschreven:
 
    * Uw privacymethoden in verband met Adobe Experience Cloud
    * Hoe gebruikers hun voorkeuren kunnen instellen voor het verzamelen of gebruiken van hun gegevens in verband met Adobe Experience Cloud
 
-   >[!NOTE]
-   >
-   >Net als bij alle Adobe-producten kunnen Campaign-gebruikers weigeren om verzamelde informatie over hen te delen via apps en websites. Raadpleeg de [Veelgestelde vragen over Adobe Experience Cloud-gebruiksgegevens](https://www.adobe.com/nl/privacy/experience-cloud-usage-info-faq.html) voor meer informatie daarover.
+  >[!NOTE]
+  >
+  >Net als bij alle Adobe-producten kunnen Campaign-gebruikers weigeren om verzamelde informatie over hen te delen via apps en websites. Raadpleeg de [Veelgestelde vragen over Adobe Experience Cloud-gebruiksgegevens](https://www.adobe.com/nl/privacy/experience-cloud-usage-info-faq.html) voor meer informatie daarover.
 
 Zie [deze pagina](https://www.adobe.com/nl/privacy/marketing-cloud.html) voor meer informatie over de Adobe Experience Cloud-privacy.
 

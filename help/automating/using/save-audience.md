@@ -45,25 +45,27 @@ De activiteit **[!UICONTROL Save audience]** wordt hoofdzakelijk gebruikt om ber
 
       * **[!UICONTROL Replace audience content with new data]**: De volledige content van de doelgroep wordt vervangen. De oude data gaan verloren. Alleen de data van de binnenkomende overgang van de activiteit voor het opslaan van de doelgroep blijven behouden.
       * **[!UICONTROL Complete audience with new data]**: De oude doelgroepsdata worden bewaard en de data van de binnenkomende overgang van de activiteit voor het opslaan van de doelgroep worden eraan toegevoegd.
+
    * **[!UICONTROL Create then update an audience]**: Voer de naam in van de doelgroep en selecteer het updatetype. Als de doelgroep nog niet bestaat, wordt deze gemaakt. Als deze al bestaat, wordt deze bijgewerkt volgens de geselecteerde modus:
 
       * **[!UICONTROL Replace audience content with new data]**: De volledige content van de doelgroep wordt vervangen. De oude data gaan verloren. Alleen de data van de binnenkomende overgang van de activiteit voor het opslaan van de doelgroep blijven behouden.
 
-         Waarschuwing: Met deze optie wist u het doelgroeptype en de doeldimensie van de bijgewerkte doelgroep.
+        Waarschuwing: Met deze optie wist u het doelgroeptype en de doeldimensie van de bijgewerkte doelgroep.
 
       * **[!UICONTROL Complete audience with new data]**: De oude doelgroepsdata worden bewaard en de data van de binnenkomende overgang van de activiteit voor het opslaan van de doelgroep worden eraan toegevoegd.
 
-         Waarschuwing: Deze optie veroorzaakt een fout als het doelgroeptype of de doeldimensie van de bijgewerkte doelgroep niet compatibel is met de huidige configuratie van de workflow. U kunt een doelgroep van het type File bijvoorbeeld niet voltooien met profielen die afkomstig zijn van een query.
+        Waarschuwing: Deze optie veroorzaakt een fout als het doelgroeptype of de doeldimensie van de bijgewerkte doelgroep niet compatibel is met de huidige configuratie van de workflow. U kunt een doelgroep van het type File bijvoorbeeld niet voltooien met profielen die afkomstig zijn van een query.
+
    * **[!UICONTROL Create a new audience]**: Voer de naam in van de doelgroep die u wilt maken. De tijd en datum waarop de doelgroep wordt gemaakt, worden automatisch toegevoegd aan de naam van de doelgroep. Dit maakt de doelgroep uniek telkens wanneer de workflow wordt uitgevoerd.
    * **[!UICONTROL Share in Adobe Experience Cloud]**: Als u profielen doelgericht hebt benaderd en u uw doelgroep wilt exporteren naar Adobe Experience Cloud, selecteert u deze optie en vervolgens selecteert u een bestaande gedeelde doelgroep of maakt u een nieuwe doelgroep.
 
-      Selecteer ook een **[!UICONTROL Shared Data source]** die overeenkomt met de resource van de data in de doelgroep, zodat de data op de juiste wijze worden afgestemd in Adobe Experience Cloud.
+     Selecteer ook een **[!UICONTROL Shared Data source]** die overeenkomt met de resource van de data in de doelgroep, zodat de data op de juiste wijze worden afgestemd in Adobe Experience Cloud.
 
-      Als u deze optie gebruikt, wordt de gedeelde doelgroep niet toegevoegd aan de lijst met Adobe Campaign-doelgroepen die beschikbaar zijn via het menu **[!UICONTROL Audiences]**.
+     Als u deze optie gebruikt, wordt de gedeelde doelgroep niet toegevoegd aan de lijst met Adobe Campaign-doelgroepen die beschikbaar zijn via het menu **[!UICONTROL Audiences]**.
 
-      >[!NOTE]
-      >
-      >Deze optie is alleen beschikbaar als de functionaliteit voor gedeelde doelgroepen met Adobe Experience Cloud door uw beheerder is geconfigureerd. Voor meer informatie raadpleegt u [Werken met Campaign en de kernservice People](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
+     >[!NOTE]
+     >
+     >Deze optie is alleen beschikbaar als de functionaliteit voor gedeelde doelgroepen met Adobe Experience Cloud door uw beheerder is geconfigureerd. Voor meer informatie raadpleegt u [Werken met Campaign en de kernservice People](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md).
 
    Het type doelgroepen dat tijdens een update wordt opgeslagen of beschikbaar is, is afhankelijk van de activiteiten die stroomopwaarts in de workflow worden geplaatst.
 

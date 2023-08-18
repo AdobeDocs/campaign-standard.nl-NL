@@ -38,7 +38,7 @@ Om dit mogelijk te maken, legt Adobe Campaign de weergave vast en stelt deze bes
 
 **Tips**:
 
-* U kunt het verzonden bericht bekijken in de verschillende contexten waarin het kan worden ontvangen: webmail, berichtservice, mobiel, enz.
+* U kunt het verzonden bericht weergeven in de verschillende contexten waarin het kan worden ontvangen: webmail, berichtservice, mobiel enzovoort.
 
 * Rendermogelijkheden via e-mail zijn van cruciaal belang om te bepalen of uw e-mailcampagnes erin slagen de filters van belangrijke ISP&#39;s (Internet Service Providers) en webmailservices te overschrijden. Dergelijke hulpmiddelen verzenden een pre-vlucht exemplaar van een e-mail naar een netwerk van testinboxes, zodat kunt u zien hoe het bericht, over deze diensten zal tonen of teruggeven. Ze kunnen ook rapporten en opties voor codecorrectie bevatten die u helpen snel oplossingen te vinden en te maken die de leesbaarheid verbeteren.
 

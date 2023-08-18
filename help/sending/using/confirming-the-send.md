@@ -59,9 +59,9 @@ Zodra het bericht is verzonden naar de contacten, toont het vak **[!UICONTROL De
 * Het percentage geopende berichten
 * Het percentage klikken in de berichten (voor e-mails)
 
-   >[!NOTE]
-   >
-   >De waarden van **[!UICONTROL Open rate]** en **[!UICONTROL Click-through rate]** worden elk uur bijgewerkt.
+  >[!NOTE]
+  >
+  >De waarden van **[!UICONTROL Open rate]** en **[!UICONTROL Click-through rate]** worden elk uur bijgewerkt.
 
 ![](assets/sending_delivery.png)
 
@@ -82,13 +82,13 @@ Zodra een bericht wordt verzonden, kunt u het gedrag van zijn ontvangers volgen,
 >
 >Deze sectie is alleen van toepassing op e-mailkanalen.
 
-In de **[!UICONTROL Summary]** de weergave van elke e-mail, **[!UICONTROL Delivered]** het percentage begint bij 100% en daalt vervolgens geleidelijk gedurende de hele levering. [geldigheidsperiode](../../administration/using/configuring-email-channel.md#validity-period-parameters), terwijl de zachte en harde grenzen worden teruggekaatst<!--from the Enhanced MTA to Campaign-->.
+In de **[!UICONTROL Summary]** de weergave van elke e-mail, **[!UICONTROL Delivered]** het percentage begint bij 100% en daalt geleidelijk gedurende de hele levering. [geldigheidsperiode](../../administration/using/configuring-email-channel.md#validity-period-parameters), terwijl de zachte en harde grenzen worden gemeld<!--from the Enhanced MTA to Campaign-->.
 
-Alle berichten worden zelfs als **[!UICONTROL Sent]** in de [verzenden, logbestanden](../../sending/using/monitoring-a-delivery.md#sending-logs) zodra zij met succes van Campagne aan Verbeterde MTA (de Agent van de Overdracht van het Bericht) worden afgelost. Zij blijven deze status behouden, tenzij of totdat [stuiten](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) voor dat bericht wordt meegedeeld terug van Verbeterde MTA aan Campaign.
+Alle berichten worden zelfs als **[!UICONTROL Sent]** in de [verzenden, logbestanden](../../sending/using/monitoring-a-delivery.md#sending-logs) zodra zij met succes van Campagne aan Verbeterde MTA (de Agent van de Overdracht van het Bericht) worden afgelost. Zij blijven deze status behouden, tenzij of totdat [stuiteren](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) voor dat bericht wordt meegedeeld terug van Verbeterde MTA aan Campaign.
 
 Wanneer hard-stuiterende berichten van Verbeterde MTA worden gemeld, verandert hun status van **[!UICONTROL Sent]** tot **[!UICONTROL Failed]** en de **[!UICONTROL Delivered]** het percentage wordt dienovereenkomstig verlaagd.
 
-Wanneer de zachte die berichten terug van Verbeterde MTA worden gemeld, tonen zij nog **[!UICONTROL Sent]** en de **[!UICONTROL Delivered]** percentage is nog niet bijgewerkt. De zachte die berichten van het stuiteren zijn dan [opnieuw](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) gedurende de gehele geldigheidsduur van de levering:
+Wanneer de zachte die berichten terug van Verbeterde MTA worden gemeld, tonen zij nog **[!UICONTROL Sent]** en de **[!UICONTROL Delivered]** percentage is nog niet bijgewerkt. De zachte die berichten van het stuiteren zijn dan [hervat](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) gedurende de gehele geldigheidsduur van de levering:
 
 * Als een nieuwe poging voor het eind van de geldigheidsperiode succesvol is, blijft de berichtstatus zoals **[!UICONTROL Sent]** en de **[!UICONTROL Delivered]** percentage blijft ongewijzigd.
 
@@ -139,17 +139,17 @@ De lijsten hieronder tonen de veranderingen in KPIs en het verzenden van logboek
 | Stap in het verzendende proces | KPI-overzicht | Status van logboeken verzenden |
 |--- |--- |--- |
 | Het bericht wordt met succes afgelost van Campagne aan Verbeterde MTA | <ul><li>**[!UICONTROL Delivered]** percentage begint bij 0%</li><li>**[!UICONTROL Bounces + errors]** percentage begint bij 0%</li></ul> | In behandeling |
-| Fel-stuiterende berichten worden gemeld terug van Verbeterde MTA | <ul><li>Geen wijziging in **[!UICONTROL Delivered]** percentage</li><li>**[!UICONTROL Bounces + errors]** percentage dienovereenkomstig verhoogd</li></ul> | Mislukt |
-| De zachte die berichten bewegen worden gemeld terug van Verbeterde MTA | <ul><li>Geen wijziging in **[!UICONTROL Delivered]** percentage</li><li>**[!UICONTROL Bounces + errors]** percentage dienovereenkomstig verhoogd</li></ul> | Mislukt |
-| Opnieuw proberen van zachte berichten is geslaagd | <ul><li>**[!UICONTROL Delivered]** percentage dienovereenkomstig verhoogd</li><li>**[!UICONTROL Bounces + errors]** percentage wordt dienovereenkomstig verlaagd</li></ul> | Verzonden |
-| Opnieuw proberen van zachte berichten mislukt | <ul><li> Geen wijziging in **[!UICONTROL Delivered]** percentage </li><li> Geen wijziging in **[!UICONTROL Bounces + errors]** percentage </li></ul> | Mislukt |
+| Fel-stuiterende berichten worden gemeld terug van Verbeterde MTA | <ul><li>Geen wijziging in **[!UICONTROL Delivered]** percentage</li><li>**[!UICONTROL Bounces + errors]** percentage wordt dienovereenkomstig verhoogd</li></ul> | Mislukt |
+| De zachte die berichten bewegen worden gemeld terug van Verbeterde MTA | <ul><li>Geen wijziging in **[!UICONTROL Delivered]** percentage</li><li>**[!UICONTROL Bounces + errors]** percentage wordt dienovereenkomstig verhoogd</li></ul> | Mislukt |
+| Herhalingen van soft-bouncing berichten zijn succesvol | <ul><li>**[!UICONTROL Delivered]** percentage wordt dienovereenkomstig verhoogd</li><li>**[!UICONTROL Bounces + errors]** percentage wordt dienovereenkomstig verlaagd</li></ul> | Verzonden |
+| Herhalingen van soft-bouncing berichten mislukken | <ul><li> Geen wijziging in **[!UICONTROL Delivered]** percentage </li><li> Geen wijziging in **[!UICONTROL Bounces + errors]** percentage </li></ul> | Mislukt |
 
 **Zonder e-mailfeedbackservice**
 
 | Stap in het verzendende proces | KPI-overzicht | Status van logboeken verzenden |
 |--- |--- |--- |
 | Het bericht wordt met succes afgelost van Campagne aan Verbeterde MTA | <ul><li>**[!UICONTROL Delivered]** percentage begint bij 100%</li><li>**[!UICONTROL Bounces + errors]** percentage begint bij 0%</li></ul> | Verzonden |
-| Fel-stuiterende berichten worden gemeld terug van Verbeterde MTA | <ul><li>**[!UICONTROL Delivered]** percentage wordt dienovereenkomstig verlaagd</li><li>**[!UICONTROL Bounces + errors]** percentage dienovereenkomstig verhoogd</li></ul> | Mislukt |
+| Fel-stuiterende berichten worden gemeld terug van Verbeterde MTA | <ul><li>**[!UICONTROL Delivered]** percentage wordt dienovereenkomstig verlaagd</li><li>**[!UICONTROL Bounces + errors]** percentage wordt dienovereenkomstig verhoogd</li></ul> | Mislukt |
 | De zachte die berichten bewegen worden gemeld terug van Verbeterde MTA | <ul><li>Geen wijziging in **[!UICONTROL Delivered]** percentage</li><li>Geen wijziging in **[!UICONTROL Bounces + errors]** percentage</li></ul> | Verzonden |
-| Opnieuw proberen van zachte berichten is geslaagd | <ul><li>Geen wijziging in **[!UICONTROL Delivered]** percentage</li><li>Geen wijziging in **[!UICONTROL Bounces + errors]** percentage</li></ul> | Verzonden |
-| Opnieuw proberen van zachte berichten mislukt | <ul><li>**[!UICONTROL Delivered]** percentage wordt dienovereenkomstig verlaagd</li><li>**[!UICONTROL Bounces + errors]** percentage dienovereenkomstig verhoogd</li></ul> | Mislukt |
+| Herhalingen van soft-bouncing berichten zijn succesvol | <ul><li>Geen wijziging in **[!UICONTROL Delivered]** percentage</li><li>Geen wijziging in **[!UICONTROL Bounces + errors]** percentage</li></ul> | Verzonden |
+| Herhalingen van soft-bouncing berichten mislukken | <ul><li>**[!UICONTROL Delivered]** percentage wordt dienovereenkomstig verlaagd</li><li>**[!UICONTROL Bounces + errors]** percentage wordt dienovereenkomstig verhoogd</li></ul> | Mislukt |

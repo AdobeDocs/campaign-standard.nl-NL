@@ -23,6 +23,6 @@ Dit rapport is alleen toegankelijk vanaf uw servicepagina via het geavanceerde m
 
 ![](assets/service-summary.png)
 
-De **[!UICONTROL Subscription evolution curves]** visualisatie geeft het aantal abonnementen en abonnementen aan, afhankelijk van de **[!UICONTROL Period]** gekozen in de vervolgkeuzelijst.
+De **[!UICONTROL Subscription evolution curves]** visualisatie geeft het aantal abonnementen en afboekingen weer, afhankelijk van de **[!UICONTROL Period]** gekozen in de vervolgkeuzelijst.
 
 De **[!UICONTROL Overall subscription evolution]** kunt u de evolutie van uw abonnees door verschillende periodes zien.

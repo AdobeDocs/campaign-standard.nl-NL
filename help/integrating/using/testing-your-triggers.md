@@ -25,13 +25,13 @@ Als u wilt controleren of de integratie Triggers - campagne is geactiveerd, klik
 
 Ga naar de volgende stap als u deze ziet.
 
-Als dat niet het geval is, neemt u contact op met de Adobe-accountmanager of de professionele servicepartner. Zie [De functionaliteit activeren](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
+Als dat niet het geval is, neemt u contact op met de manager van uw Adobe-account of de professionele servicepartner. Zie [De functionaliteit activeren](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
 
 **Probeer een trigger te maken**
 
-Voer de in [Een toegewezen trigger maken in Campagne](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) om een trigger te maken.
+Voer de in [Een toegewezen trigger maken in Campagne](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) een trigger maken.
 
-Als de trigger is gemaakt, gaat u verder naar de volgende stap. Zo niet, dan betekent dit dat de verbinding met het eindpunt van de trigger is mislukt. Controleer of Triggers is ingericht in Experience Cloud (Activeringsservices). Als dit niet het geval is, neemt u contact op met de manager van uw Adobe-account of de professionele servicepartner. De volgende informatie is vereist:
+Als de trigger is gemaakt, gaat u verder naar de volgende stap. Als dat niet het geval is, betekent dit dat de verbinding met het eindpunt van de trigger is mislukt. Controleer of Triggers is ingericht in Experience Cloud (activeringsservices). Als dit niet het geval is, neemt u contact op met de manager van uw Adobe account of de professionele servicepartner. De volgende informatie is vereist:
 
 * Bedrijfsnaam Marketing Cloud
 * Organisatie-ID
@@ -39,9 +39,9 @@ Als de trigger is gemaakt, gaat u verder naar de volgende stap. Zo niet, dan bet
 
 **Probeer de trigger te publiceren**
 
-Voer de in [Een toegewezen trigger maken in Campagne](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) om de trigger te publiceren.
+Voer de in [Een toegewezen trigger maken in Campagne](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) de trigger publiceren.
 
-Als de publicatie is gelukt, gaat u verder naar de volgende stap. Als dat niet het geval is, neemt u contact op met Adobe om de instantie opnieuw te starten en probeert u het opnieuw.
+Als de publicatie is gelukt, gaat u verder naar de volgende stap. Als dat niet het geval is, neemt u contact op met de Adobe om de instantie opnieuw te starten en probeert u het opnieuw.
 
 **De trigger van de website genereren**
 
@@ -64,7 +64,7 @@ Zo ja, volg deze richtsnoeren:
 * Controleer het type van verzoeningsidentiteitskaart in de gegevensbron van de Campagne.
 * CustomerId-gegevensbron wordt gemaakt via Customer Attributes.
 * Controleer de gegevensbron-id.
-* Vraag Adobe om de instantie van de Campagne na de configuratie opnieuw te beginnen DataSource.
+* Vraag Adobe om de instantie van de Campagne na de configuratie van Datasource opnieuw te beginnen.
 * Controleer het parseren van de trigger in het triggerrapport.
 
 **Is de trigger in status in behandeling?**

@@ -20,11 +20,11 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
+>De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van de Adobe als u toegang wilt.
 
 De Bouwer van het Segment staat u toe om publiek te bouwen door regels te bepalen die op gegevens worden gebaseerd die uit [Klantprofiel in realtime](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html).
 
-In deze sectie worden algemene concepten beschreven wanneer u een segment maakt. Voor gedetailleerde informatie over de Bouwer van het Segment zelf, verwijs naar [Gebruikershandleiding voor Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+In deze sectie worden algemene concepten beschreven bij het maken van een segment. Raadpleeg voor meer informatie over de Segment Builder zelf de [Gebruikershandleiding voor Segment Builder](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 De interface van de Bouwer van het Segment wordt samengesteld als volgt:
 
@@ -68,13 +68,13 @@ De vermelde velden zijn kenmerken die door uw bedrijf zijn vastgelegd en die bes
 
 Velden zijn ingedeeld in tabbladen:
 
-* **[!UICONTROL Attributes]**: Kenmerken van bestaande profielen die kunnen ontstaan uit uw Adobe Campaign-database en/of Adobe Experience Platform. Zij verwijzen naar statische informatie die bij een profiel is gevoegd (bijv. e-mailadres, land van verblijf, status van loyaliteitsprogramma, enz.).
+* **[!UICONTROL Attributes]**: Bestaande profielkenmerken die afkomstig kunnen zijn uit uw Adobe Campaign-database en/of Adobe Experience Platform. Zij verwijzen naar statische informatie die bij een profiel is gevoegd (bijv. e-mailadres, land van verblijf, status van loyaliteitsprogramma, enz.).
 
-   ![](assets/aep_audiences_attributestab.png)
+  ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**: Activiteiten die consumenten identificeren die enige interactie hebben gehad met de klantenaanraakpunten van uw bedrijf, zoals &quot;iedereen die tweemaal in twee weken bestelde&quot;. Dit kan van Adobe Analytics worden gestroomd, of direct in Adobe Experience Platform worden opgenomen gebruikend derdehulpmiddelen ETL.
+* **[!UICONTROL Events]**: Activiteiten die consumenten identificeren die enige interactie hebben gehad met de klantenaanraakpunten van uw bedrijf, zoals &quot;iedereen die twee keer in twee weken bestelde&quot;. Dit kan van Adobe Analytics worden gestroomd, of direct in Adobe Experience Platform worden opgenomen gebruikend derdehulpmiddelen ETL.
 
-   ![](assets/aep_audiences_eventstab.png)
+  ![](assets/aep_audiences_eventstab.png)
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ Velden zijn ingedeeld in tabbladen:
 >
 >Raadpleeg de [desbetreffende documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html) voor meer informatie.
 
-Door gebrek, toont de Bouwer van het Segment gebieden waarin de gegevens reeds aanwezig zijn. Als u het volledige schema wilt weergeven, inclusief de velden waarvoor geen gegevens aanwezig zijn, schakelt u het **[!UICONTROL Show full XDM schema]** van de instellingen.
+Door gebrek, toont de Bouwer van het Segment gebieden waarin de gegevens reeds aanwezig zijn. Om het volledige schema, met inbegrip van gebieden te tonen waarvoor geen gegevens aanwezig zijn, laat **[!UICONTROL Show full XDM schema]** van de instellingen.
 
 ![](assets/aep_audiences_populatedfields.png)
 

@@ -24,18 +24,18 @@ De integratie van Adobe Campaign Standard met Microsoft Dynamics 365 zelfbedieni
 
 Voordat u begint met het integratieprogramma, moet u de concepten en instructies begrijpen die aan de integratie zijn gekoppeld en een aantal eerste stappen ondernemen om toegang te krijgen.
 
-Meer informatie vindt u in deze secties:
+Meer informatie vindt u in de volgende secties:
 
 * [Aan de slag met de integratie van Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Aanbevolen werkwijzen en beperkingen voor integratie](../../integrating/using/d365-acs-notices-and-recommendations.md)
-* [Belangrijke stappen leren om deze integratie te implementeren](../../integrating/using/d365-acs-get-started.md#request-and-implement-this-integration)
+* [Ontdek de belangrijkste stappen om deze integratie te implementeren](../../integrating/using/d365-acs-get-started.md#request-and-implement-this-integration)
 * [De integratie van Microsoft Dynamics 365 gebruiken](../../integrating/using/d365-acs-using-the-integration.md)
 
 ## Vereisten {#self-service-app-prerequisites}
 
-U moet Microsoft Dynamics 365 en Adobe Campaign Standard zodanig configureren dat de integratie-app toegang heeft tot uw gegevens. Dit zal wat tijd vergen om in Dynamica 365, Adobe Campaign Standard, en Adobe I/O te vormen; nochtans, zodra zij worden gevormd, zult u de integratie door het gebruikersinterface van de zelfbedieningstoepassing kunnen controleren.
+U moet Microsoft Dynamics 365 en Adobe Campaign Standard zodanig configureren dat de integratie-app toegang heeft tot uw gegevens. Dit zal wat tijd vergen om in Dynamiek 365, Adobe Campaign Standard, en Adobe I/O te vormen; nochtans, zodra zij worden gevormd, zult u de integratie door het gebruikersinterface van de zelfbedieningstoepassing kunnen controleren.
 
-Meer informatie vindt u in deze secties:
+Meer informatie vindt u in de volgende secties:
 
 * [De integratie van Microsoft Dynamics 365 voor Campaign configureren](../../integrating/using/d365-acs-configure-d365.md)
 * [Adobe I/O configureren](../../integrating/using/d365-acs-configure-adobe-io.md)
@@ -86,7 +86,7 @@ Als u over de juiste org en instantie beschikt, klikt u op het menu &quot;hambur
 In de **[!UICONTROL Settings]** pagina, vult de volgende secties in:
 
 * Microsoft Dynamics 365 Credentials
-* Adobe Credentials
+* Credentials Adobe
 
 Ga [hier](../../integrating/using/d365-acs-self-service-app-settings.md) voor meer gedetailleerde informatie over waar de informatie voor elke invoer moet worden gevonden. Als u klaar bent, klikt u op de knop **[!UICONTROL Save]** aan de onderkant.
 
@@ -102,7 +102,7 @@ In de **[!UICONTROL Microsoft Dynamics 365 to Campaign]** pagina, kunt u tot de 
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
-In de **[!UICONTROL Edit Table Mapping]** pagina, controleer **[!UICONTROL Mappings]** om ervoor te zorgen dat velden van Microsoft Dynamics 365 worden toegewezen aan het juiste veld in Campagne. Als u andere toewijzingen moet toevoegen, doet u dit nu, evenals om het even welke vervangingen of filters. [Meer informatie](../../integrating/using/d365-acs-self-service-app-data-sync.md).
+In de **[!UICONTROL Edit Table Mapping]** pagina, controleer de **[!UICONTROL Mappings]** om ervoor te zorgen dat velden van Microsoft Dynamics 365 worden toegewezen aan het juiste veld in Campagne. Als u andere toewijzingen moet toevoegen, doet u dit nu, evenals om het even welke vervangingen of filters. [Meer informatie](../../integrating/using/d365-acs-self-service-app-data-sync.md).
 
 Als u nieuwe toewijzingen wilt toevoegen, raadpleegt u [deze sectie](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) voor meer informatie .
 
@@ -111,6 +111,7 @@ Zodra uw configuratie correct is, klik **[!UICONTROL Play]** naast de knop **[!U
 >[!IMPORTANT]
 >
 >Wij **krachtig** U wordt aangeraden dit eerst in uw Stage- of Dev-omgeving uit te voeren voordat u dit doet in Production. Controleer of het werkgebied/de instantie dev is geselecteerd in de koptekst.
+>
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
@@ -123,7 +124,7 @@ Als deze eenmaal is gestart, kunt u testen door items toe te voegen of te wijzig
 
 Met de header in de zelfbedieningsapp kunt u definiëren welke org en instantie u momenteel bekijkt en/of configureert.
 
-Selecteer **ORG** en de **INSTANTIE** wilt weergeven/bewerken. Deze velden worden alleen-lezen weergegeven, maar kunnen worden bewerkt wanneer u de muiscursor erop plaatst.
+Selecteer de **ORG** en de **INSTANTIE** wilt weergeven/bewerken. Deze velden worden alleen-lezen weergegeven, maar kunnen worden bewerkt wanneer u de muiscursor erop plaatst.
 
 Er wordt een vervolgkeuzemenu weergegeven wanneer u op de knop klikt met de drie horizontale lijnen ![](assets//do-not-localize/d365-to-acs-icon-hamburger.png) aan de rechterkant van de koptekst.
 
@@ -133,11 +134,11 @@ De items in het keuzemenu zijn:
 
 * **Documentatie**: Deze optie is een koppeling naar de Adobe Campaign-documentatie die specifiek is voor deze integratie
 
-* **Klantenservice**: Dit is een koppeling naar de documentatie van Experience Cloud met betrekking tot het openen van een ticket voor de klantenservice
+* **Klantenservice**: Dit is een koppeling naar de documentatie van het Experience Cloud met betrekking tot het openen van een ticket voor de klantenservice
 
 * **Afmelden**: Hiermee meldt u zich af van de toepassing en kunt u zich weer aanmelden als een andere gebruiker.
 
-* **Info**: Dit toont een dialoog die informatie over de toepassing, met inbegrip van auteursrechtinformatie bevat.
+* **Info**: Hiermee wordt een dialoogvenster weergegeven met informatie over de toepassing, inclusief copyrightinformatie.
 
 ### Broodkruimels {#app-breadcrumbs}
 
@@ -155,6 +156,6 @@ De volgende pictogrammen worden gebruikt op meerdere pagina&#39;s in de zelfbedi
 
 ![](assets/do-not-localize/d365-to-acs-icon-add.png) - Voeg een nieuw item toe aan een lijst.
 
-![](assets/do-not-localize/d365-to-acs-icon-edit.png) - Een bestaande bewerking bewerken
+![](assets/do-not-localize/d365-to-acs-icon-edit.png) - Iets bewerken dat al bestaat
 
 ![](assets/do-not-localize/d365-to-acs-icon-delete.png) - Een item uit een lijst met items verwijderen

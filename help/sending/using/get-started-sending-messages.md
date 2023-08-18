@@ -37,7 +37,7 @@ Tot slot, hefboomwerking leverbaarheidsrichtlijnen en hulpmiddelen beschikbaar i
 
 Campaign Standard **berichtenvoorbereiding** analyseert het doel, de personalisatie en de geldigheid van het bericht. Fouten die tijdens deze stap zijn vastgesteld, moeten worden gecorrigeerd voordat u verder kunt gaan.
 
-**Voorvertonen en testen** uw berichten gebruiken diverse mogelijkheden: Verzend proefdrukken naar testprofielen of speciale profielen, test de onderwerpregel van uw e-mail, en controleer de weergave van uw berichten om ervoor te zorgen dat het op een optimale manier op een verscheidenheid van Webcliënten, Webpost en apparaten zal tonen.
+**Voorvertonen en testen** Uw berichten gebruiken diverse mogelijkheden: verzend proefdrukken naar testprofielen of gerichte profielen, test de het onderwerpregel van uw e-mail, en controleer de teruggave van uw berichten om ervoor te zorgen dat het op een optimale manier op een verscheidenheid van Webcliënten, Webpost en apparaten zal tonen.
 
 Gebruik de planningsmogelijkheden van de Campagne van de hefboomwerking om te bepalen wanneer uw berichten zullen worden verzonden. U kunt bijvoorbeeld het verzenden aanpassen in de tijdzone van de ontvanger, de verzendtijd optimaliseren of de verzenddatum berekenen.
 
@@ -77,14 +77,14 @@ Meer informatie:
 
 De levering staat toe om het succes van uw campagnes te meten die uw ontvangers&#39; inbox bereiken zonder te stuiteren, of als spam worden gemerkt.
 
-Campaign Standard biedt verschillende **leverbare gereedschappen** om u te helpen het aantal succesvol geleverde berichten verbeteren: rapporten over de leveringstijd, tijdoptimalisatie verzenden, voorvertoning van berichten, rendering van e-mail, quarantainebeheer, enz.
+Campaign Standard biedt verschillende **leverbare gereedschappen** om u te helpen het aantal succesvol geleverde berichten te verbeteren: leveringsoutputrapporten, verzendend tijdoptimalisering, berichtenvoorproef, e-mail het teruggeven, quarantainebeheer, etc.
 
 Meer informatie:
 
 * [Informatie over leverbaarheid](../../sending/using/about-deliverability.md)
 * [Leverbaarheid controleren](../../sending/using/monitor-deliverability.md)
-* [Adobe Handleiding voor beste praktijken voor aflevering](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl)
-* [Productie beheren](../../reporting/using/delivery-throughput.md)
+* [Handleiding voor beste praktijken bij de levering van Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=nl)
+* [De doorvoer van de levering regelen](../../reporting/using/delivery-throughput.md)
 
 ## Aanvullende bronnen
 
@@ -95,8 +95,8 @@ Meer informatie:
 
 ## Video over zelfstudie {#video}
 
-In deze video ziet u hoe u een teste-mail verzendt, voorbereidt en verzendt u vervolgens een e-maillevering in Campaign Standard.
+In deze video ziet u hoe u een teste-mail verzendt, een e-maillevering in Campaign Standard voorbereidt en vervolgens verzendt.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24013/)
 
-Er zijn aanvullende Campaign Standard-hoe-kan-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).
+Er zijn aanvullende Campaign Standard-to-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).

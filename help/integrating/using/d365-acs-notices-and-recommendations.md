@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Voor contact en aangepaste entiteitssynchronisatie, behandelt deze integratie **Microsoft Dynamics 365 als bron van de waarheid**.  Wijzigingen in gesynchroniseerde kenmerken moeten worden doorgevoerd in Dynamics 365 en niet in Adobe Campaign Standard).  Als er wijzigingen worden aangebracht in Campagne, kunnen deze tijdens de synchronisatie worden overschreven in Campagne, omdat de synchronisatie in één richting plaatsvindt.
 
-De integratie kan naar keuze worden gevormd om profiel uit te geven schrapt vraag aan Campagne wanneer een contact in Dynamica 365 wordt geschrapt helpen gegevensintegriteit handhaven. Een profielverwijdering is echter anders dan een privacyverwijdering. Een privacyschrapping in Campagne zal het het profielverslag van de Campagne en bijbehorende logboekingangen verwijderen; overwegende dat een reguliere profielverwijdering alleen de Campagneprofielrecord verwijdert, zodat de resterende bestanden achter blijven in Campagnelogboeken. Als de functie voor het verwijderen van profielen is ingeschakeld in de integratie, moeten aanvullende stappen worden uitgevoerd om privacyverzoeken van betrokkenen correct te verwerken. Raadpleeg de stappen in het dialoogvenster [Sectie Privacy hieronder](#manage-privacy-requests).
+De integratie kan naar keuze worden gevormd om profiel uit te geven schrapt vraag aan Campagne wanneer een contact in Dynamica 365 wordt geschrapt helpen gegevensintegriteit handhaven. Een profielverwijdering is echter anders dan een privacyverwijdering. Als u een privacyverwijdering uitvoert in Campagne, worden de record met het Campagneprofiel en de bijbehorende logbestandvermeldingen verwijderd. Als u een profiel regelmatig verwijdert, wordt alleen de record met het Campagneprofiel verwijderd, maar blijven de resterende items achter in Campagnerogboeken. Als de functie voor het verwijderen van profielen is ingeschakeld in de integratie, moeten aanvullende stappen worden uitgevoerd om privacyverzoeken van betrokkenen op de juiste wijze te verwerken. Raadpleeg de stappen in het dialoogvenster [Sectie Privacy hieronder](#manage-privacy-requests).
 
 ## Privacy{#acs-msdyn-manage-privacy}
 
@@ -46,7 +46,7 @@ Als u de integratie hebt gevormd om regelmatige profiel uit te geven schrapt vra
 
 >[!IMPORTANT]
 >
->Als om het even welk dossier van de Bron douane van de Campagne persoonlijke informatie bevat, toepasselijk op het gebruik van een klant van Campagne, zou zulk verslag aan een overeenkomstig het profielverslag van de Campagne (of direct of door een andere douanemiddel) moeten worden verbonden zodat een privacy verwante schrapping in het profielverslag het verbonden douanemiddelverslag met persoonlijke informatie kan ook schrappen; de koppelings- en verwijderingsopties tussen de entiteiten moeten zo zijn geconfigureerd dat deze trapsgewijze verwijdering van de gekoppelde records mogelijk is. Persoonlijke gegevens moeten niet worden ingevoerd in een aangepaste bron die niet aan het profiel is gekoppeld.
+>Als om het even welk dossier van het Bron van de Campagne van het douanemiddel persoonlijke informatie bevat, van toepassing op het gebruik van een klant van Campagne, zou zulk verslag aan een overeenkomstig het profielverslag van de Campagne (of direct of door een andere douanemiddel) moeten worden verbonden zodat een privacy-verwante schrapping in het profielverslag het verbonden douanemiddelverslag met persoonlijke informatie kan ook schrappen; de verbinding en schrappingsopties tussen de entiteiten moeten worden gevormd om deze cascade gewijze verwijdering van de verbonden verslagen toe te laten. Persoonlijke gegevens moeten niet worden ingevoerd in een aangepaste bron die niet aan het profiel is gekoppeld.
 
 ## Uitschakelen {#opt-out}
 
@@ -66,7 +66,7 @@ Wanneer levering van de integratie, zult u de kans hebben om te specificeren wel
 
 * **Unidirectioneel (Microsoft Dynamics 365 to Campaign)**: Dynamics 365 is een bron van waarheid voor opt-outs. De opt-uit attributen zullen in één richting van Dynamiek 365 aan Campaign Standard worden gesynchroniseerd
 * **Unidirectioneel (campagne voor Microsoft Dynamics 365)**: Campaign Standard is de bron van de waarheid voor opt-outs. De opt-uit attributen zullen in één richting van Campaign Standard aan Dynamica 365 worden gesynchroniseerd
-* **Bidirectioneel**: Dynamics 365 EN Campaign Standard zijn beide bronnen van waarheid. De opt-uit attributen zullen bidirectioneel tussen Campaign Standard en Dynamiek 365 worden gesynchroniseerd
+* **Bidirectioneel**: Dynamiek 365 EN Campaign Standard zijn beide bronnen van waarheid. De opt-uit attributen zullen bidirectioneel tussen Campaign Standard en Dynamiek 365 worden gesynchroniseerd
 
 Als u een afzonderlijk proces hebt voor het beheren van de synchronisatie met de optie om te weigeren tussen de systemen, kan de gegevensstroom van de integratie worden uitgeschakeld.
 
@@ -82,7 +82,7 @@ Als u **Bidirectioneel** of **Unidirectioneel (campagne voor Microsoft Dynamics 
 
 >[!IMPORTANT]
 >
->Als u **Bidirectioneel** of **Unidirectioneel (campagne voor Microsoft Dynamics 365)** de opt-out configuratie, zult u het verzoek aan uw technische contact van de Adobe voor de opt-out werkschema&#39;s moeten indienen om opstelling op uw instantie van de Campagne te zijn
+>Als u **Bidirectioneel** of **Unidirectioneel (campagne voor Microsoft Dynamics 365)** de opt-out configuratie, zult u het verzoek aan uw Adobe technische contact voor de opt-out werkschema&#39;s moeten indienen om opstelling op uw instantie van de Campagne te zijn
 
 ## Gebruik van campagne-SFTP
 
@@ -104,13 +104,13 @@ De integratie in de onderstaande gebruiksgevallen zal uw opslag van de Campagne 
 
 Deze integratie zal contacten en douaneentiteiten van de Dynamica 365 van Microsoft aan Campagne synchroniseren. Campagnerecords die buiten de integratie worden gemaakt (d.w.z. die niet door de synchronisatietaak worden gemaakt), worden niet door de integratie gewijzigd, inclusief Campagne-records die op het moment van de integratieconfiguratie bestaan.
 
-Omdat deze integratie gebruikmaakt van de **[!UICONTROL externalId]** veld in Campagne voor synchronisatie van Campagne-profielrecords met Dynamics 365 contactrecords, dit veld Campagne (**[!UICONTROL externalId]** ) moet worden gevuld met Microsoft Dynamics 365 **[!UICONTROL contactId]** voor de records die u wilt synchroniseren via Microsoft Dynamics 365.  Aangepaste entiteiten worden ook gesynchroniseerd met een unieke id voor Microsoft Dynamics 365. De aangepaste entiteit Campagne moet dit id-kenmerk opnemen als tabelkolom. De kolom externalId kan worden gebruikt om deze attributenwaarde op te slaan, maar het wordt niet vereist voor de douane van de Campagne entiteiten.
+Omdat deze integratie de **[!UICONTROL externalId]** veld in Campagne voor synchronisatie van Campagne-profielrecords met Dynamics 365 contactrecords, dit veld Campagne (**[!UICONTROL externalId]** ) moet worden gevuld met Microsoft Dynamics 365 **[!UICONTROL contactId]** voor de records die u wilt synchroniseren via Microsoft Dynamics 365.  Aangepaste entiteiten worden ook gesynchroniseerd met een unieke id voor Microsoft Dynamics 365. De aangepaste entiteit Campagne moet dit id-kenmerk opnemen als tabelkolom. De kolom externalId kan worden gebruikt om deze attributenwaarde op te slaan, maar het wordt niet vereist voor de douane van de Campagne entiteiten.
 
-Houd in mening, dat de Dynamica 365 van Microsoft nog de bron van waarheid is, en dat de het profielgegevens van de Campagne kunnen worden beschreven aangezien de integratie updates aan de kant van Dynamica 365 ontdekt.  Afhankelijk van uw bestaande implementatie kunnen er ook andere stappen vereist zijn om de integratie in te schakelen. daarom wordt aanbevolen nauw samen te werken met uw technische Adobe-contactpersoon.
+Houd in mening, dat de Dynamica 365 van Microsoft nog de bron van waarheid is, en dat de het profielgegevens van de Campagne kunnen worden beschreven aangezien de integratie updates aan de kant van Dynamica 365 ontdekt.  Afhankelijk van uw bestaande implementatie kunnen er ook andere stappen nodig zijn om de integratie mogelijk te maken. Daarom wordt u aangeraden nauw samen te werken met uw technische contactpersoon voor Adoben.
 
 >[!NOTE]
 >
->Vanwege de complexiteit van bestaande implementaties van klanten wordt u aangeraden met uw technische Adobe-contactpersoon te werken bij het plannen en instellen van de integratie.
+>Vanwege de complexiteit van bestaande implementaties van klanten wordt u aangeraden met uw Adobe technische contactpersoon te werken bij het plannen en instellen van de integratie.
 
 ### Frequentie gegevenssynchronisatie
 
@@ -150,23 +150,23 @@ Een uitgebreider overzicht van aangepaste campagnebronnen vindt u [in deze secti
 
 ### Integratiehandleidingen
 
-Bij het gebruik van deze integratie moet rekening worden gehouden met de volgende instructies. Neem contact op met uw Adobe technisch vertegenwoordiger als u denkt dat u deze instructies overschrijdt.
+Bij de planning van het gebruik van deze integratie moet rekening worden gehouden met de volgende instructies. Neem contact op met uw Adobe als u denkt dat u deze instructies overschrijdt.
 
 * U zult het juiste pakket van de Campagne moeten vergunning geven om het volume van de motorvraag te steunen dat door de integratie wordt geproduceerd. Het overschrijden van het gelicentieerde aanroepvolume van de motor kan een verslechtering van de campagneprestaties veroorzaken.
 
-   Gebruik het volgende om te helpen het volume van de motorvraag van de integratie schatten:
+  Gebruik het volgende om te helpen het volume van de motorvraag van de integratie schatten:
 
-   * Record wordt ingevoegd (d.w.z. nieuwe record): 1 motoraanroep
-   * Opnemen verwijdert: 1 motoraanroep
-   * Updates opnemen: 2 motoraanroepen (slechts 1 aanroep als de doelrecord identiek is aan de bronrecord, d.w.z. als er geen wijziging is in de campagnerecord)
+   * Record invoegen (d.w.z. nieuwe record): 1 motoraanroep
+   * Record verwijdert: 1 motoraanroep
+   * Recordupdates: 2 motoraanroepen (slechts 1 aanroep als de doelrecord identiek is aan de bronrecord - dat wil zeggen, als er geen wijziging is in de campagnerecord)
 
-   Bij het schatten van het totale volume van de de vraagvraag van de motor van de Campagne, is het belangrijk om in andere bronnen van motorvraag, met inbegrip van het landen van pagina&#39;s, WebApps, JSSP, APIs, mobiele toepassingsregistraties, enz. rekening te houden.
+  Bij het schatten van het totale volume van de de vraagvraag van de motor van de Campagne, is het belangrijk om in andere bronnen van motorvraag, met inbegrip van het landen van pagina&#39;s, WebApps, JSSP, APIs, mobiele toepassingsregistraties, enz. rekening te houden.
 
-   Hier vindt u informatie over het Adobe Campaign Standard-pakket: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html)
+  Hier vindt u informatie over het Adobe Campaign Standard-pakket: [https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html)
 
 * De integratie steunt een maximum van 15 miljoen totale verslagen voor de aanvankelijke synchronisatie aan middelen in Campagne. Incrementele synchronisatie wordt beperkt door het Adobe Campaign Standard-pakket.
 
-* Het standaard integratieaanbod omvat ondersteuning voor maximaal twintig aangepaste entiteiten, elk met een maximale grootte van 50 kolommen.
+* De standaard integratie biedt ondersteuning voor maximaal twintig aangepaste entiteiten, elk met een maximale grootte van 50 kolommen.
 
 * U moet uw aangepaste bronnen maken en publiceren voordat u de integratie kunt implementeren.
 
@@ -176,7 +176,7 @@ Bij het gebruik van deze integratie moet rekening worden gehouden met de volgend
 
 * De integratie ondersteunt transformatie tussen primitieve gegevenstypen van Microsoft Dynamics 365 (Boolean, Integer, Decimaal, Double, String, DateTime, Date) en Adobe Campaign Standard (integer, boolean, float, double, date, datetime, string). Geavanceerde gegevenstypen worden geïnterpreteerd als tekenreeksen en worden ongewijzigd gesynchroniseerd.
 
-* Onderhoudsvensters aan boord moeten mogelijk tussen Adobe en de klant worden vastgesteld.
+* Onderhoudsvensters aan boord moeten mogelijk tussen de Adobe en de klant worden vastgesteld.
 
 * Houd er rekening mee dat aanzienlijke stijgingen of &quot;pieken&quot; in het gebruik van de integratie (bijvoorbeeld een sterke toename van nieuwe of bijgewerkte records) kunnen leiden tot een vertraging van de gegevenssynchronisatie.
 
@@ -188,7 +188,7 @@ Bij het gebruik van deze integratie moet rekening worden gehouden met de volgend
 
 De integratie was ontworpen om het algemene gebruik van gemeenschappelijke gegevensbewegingen tussen de Dynamica 365 van Microsoft en Campagne op te lossen, maar is niet bedoeld om elk gebruiksgeval te richten specifiek voor elke klant:
 
-* De integratie heeft geen betrekking op het verwijderen van privacy (bijvoorbeeld GDPR). De verantwoordelijkheid voor het voldoen aan de privacyverzoeken van eindgebruikers berust bij de klant; dergelijke verzoeken moeten onafhankelijk van elkaar worden gedaan in de campagne (via de Adobe Experience Platform Privacy Service) en in Dynamics 365. De integratie kan regelmatige schrappingen uitgeven om met gegevenssynchronisatie te helpen, indien gewenst.   Controleren [de sectie Privacy](#manage-privacy-requests) voor meer informatie .
+* De integratie heeft geen betrekking op het verwijderen van privacy (bijvoorbeeld GDPR). De verantwoordelijkheid voor het voldoen aan de privacyverzoeken van eindgebruikers ligt bij de klant; dergelijke verzoeken moeten onafhankelijk van elkaar worden gedaan in zowel de campagne (via de Adobe Experience Platform Privacy Service) als in Dynamics 365. De integratie kan regelmatige schrappingen uitgeven om met gegevenssynchronisatie te helpen, indien gewenst.   Controleren [de sectie Privacy](#manage-privacy-requests) voor meer informatie .
 
 * Geen profiel of douaneentiteitsgegevens zullen van Campagne aan Dynamica 365, met uitzondering van opt-out informatie (als gevormd door de klant) worden gesynchroniseerd.
 
@@ -196,4 +196,4 @@ De integratie was ontworpen om het algemene gebruik van gemeenschappelijke gegev
 
 * Het samenstellen en activeren van campagne-e-mailcampagnes vanuit Dynamics 365 wordt niet ondersteund.
 
-* De integratie doet **niet** de remodeling van gegevens tussen Dynamica 365 en de gegevensmodellen van Campaign Standard steunen. Naar verwachting zal de integratie één Dynamics 365-tabel synchroniseren met één campagneretabel.
+* De integratie doet het **niet** de remodeling van gegevens tussen Dynamica 365 en de gegevensmodellen van het Campaign Standard steunen. Verwacht wordt dat de integratie één Dynamics 365-tabel synchroniseert met één campagneretabel.

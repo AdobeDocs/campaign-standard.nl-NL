@@ -11,7 +11,7 @@ exl-id: 184bc656-2107-4380-9b35-148cb4380547
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -37,15 +37,15 @@ De Referentials van de Dynamica 365 van Microsoft geven de integratietoepassing 
 
 ### Adobe API-referenties
 
-De Adobe Campaign-referenties worden gegenereerd met [Adobe I/O](https://www.adobe.io/). U moet het scherm bezoeken [Adobe I/O configureren](../../integrating/using/d365-acs-configure-adobe-io.md) en volg de instructies in deze sectie voordat u de invoer in deze sectie kunt invullen.
+De Adobe Campaign-referenties worden gegenereerd met [Adobe I/O](https://www.adobe.io/). U moet het scherm bezoeken [Adobe I/O configureren](../../integrating/using/d365-acs-configure-adobe-io.md) en volgt u de instructies in deze sectie voordat u de invoer kunt invullen.
 
 In de volgende afbeelding wordt de koppeling tussen de invoer van het Adobe I/O- en het instellingenscherm uitgebreid uitgelegd.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
-* *Persoonlijke sleutel*: het proces om dit te bepalen begint door &quot;te klikken produceert openbare/privé sleutelpaar&quot;knoop. Hiermee maakt u een ZIP-bestand dat u moet downloaden. Als u het bestand hebt gedownload, decomprimeert u het bestand. Dit resulteert in twee bestanden met de naam certificate_pub.crt en private.key. Zorg ervoor dat u private.key op een veilige plaats plaatst en deze niet deelt. Open het bestand private.key in een teksteditor. Kopieer de gehele waarde in de teksteditor (ctrl-A en ctrl-C op een pc, of cmd-A en vervolgens cmd-C op een Mac). Dit moet de regels omvatten met &quot;BEGIN PRIVATE KEY&quot; en &quot;END PRIVATE KEY&quot; in hun geheel. Plak deze volledige tekst met meerdere regels in de invoer Persoonlijke sleutel in het scherm Instellingen.
+* *Persoonlijke sleutel*: het proces om dit te bepalen begint door &quot;te klikken produceert openbare/privé sleutelpaar&quot;knoop. Hiermee maakt u een ZIP-bestand dat u moet downloaden. Als u het bestand hebt gedownload, decomprimeert u het bestand. Dit resulteert in twee bestanden met de naam certificate_pub.crt en private.key. Plaats private.key op een veilige plaats en deel deze niet. Open het bestand private.key in een teksteditor. Kopieer de gehele waarde in de teksteditor (ctrl-A en ctrl-C op een pc, of cmd-A en vervolgens cmd-C op een Mac). Hieronder moeten de regels met &quot;BEGIN PRIVATE KEY&quot; en &quot;END PRIVATE KEY&quot; in hun geheel vallen. Plak deze volledige tekst met meerdere regels in de invoer Persoonlijke sleutel in het scherm Instellingen.
 
-* *URL*: Deze waarde past in het patroon https\://mc.adobe.io/&lt;campaign-instance-name>. De header van de integratie-app bevat zowel de &#39;&#39;Org&#39;&#39; als &#39;&#39;Instance&#39;&#39;. Het gedeelte &#39;campagne-instance-name&#39; van de URL is gewoon de naam die in deze instantiewaarde wordt gevonden.
+* *URL*: Deze waarde past in het patroon https\://mc.adobe.io/&lt;campaign-instance-name>. De koptekst van de integratie-app bevat zowel de &#39;&#39;Org&#39;&#39; als &#39;&#39;Instance&#39;&#39;. Het gedeelte ‘Campagne-instance-name’ van de URL is gewoon de naam die in deze instantiewaarde wordt gevonden.
 
 ## Adobe Campaign SFTP-instellingen {#ac-smtp-settings}
 
@@ -56,6 +56,7 @@ De andere reden om de SFTP-server in te stellen is als u de workflow voor het in
 >[!IMPORTANT]
 >
 >U bent verantwoordelijk voor de informatie die u opent en downloadt van de omslagen SFTP. Als de informatie persoonlijke gegevens bevat, moet u zich aan de toepasselijke privacywetten en -regels houden. [Meer informatie](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
+>
 
 Om de montages van SFTP van de Campagne voor de Integratie van de Dynamica 365 van Microsoft te bepalen, heb toegang tot de volgende sectie:
 
@@ -63,7 +64,7 @@ Om de montages van SFTP van de Campagne voor de Integratie van de Dynamica 365 v
 
 U moet het volgende opgeven:
 
-* **SFTP-host**: dit veld bevat &lt;campaign-instance-name>.campagne.adobe.com. De header van de integratie-app bevat zowel de **Org** en **Instance**. Het gedeelte &#39;campagne-instance-name&#39; van de URL is gewoon de naam die in deze instantiewaarde wordt gevonden.
+* **SFTP-host**: dit veld bevat &lt;campaign-instance-name>.campaign.adobe.com. De header van de integratie-app bevat zowel de **Org** en **Instantie**. Het gedeelte ‘Campagne-instance-name’ van de URL is gewoon de naam die in deze instantiewaarde wordt gevonden.
 
 * **SFTP-gebruiker**: Als u de gebruiker SFTP hebt, voeg het hier toe. Anders, verwijs naar [deze sectie](#ac-control-panel-settings). Als onderdeel van het proces wordt de gebruikersnaam weergegeven.
 
@@ -77,7 +78,7 @@ U moet het volgende opgeven:
 
 SFTP-beheer detecteren met [Campagne](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) in deze punten:
 
-* [SFTP-beheer](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management)
+* [SFTP-beheer](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=nl#sftp-management)
 
 * [SFTP-opslagbeheer](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
 

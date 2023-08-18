@@ -21,7 +21,7 @@ Raadpleeg voor meer informatie over compatibiliteit tussen dimensies en metriek 
 
 [![image](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
-## Dimension {#dimensions}
+## Dimensionen {#dimensions}
 
 In de onderstaande tabel vindt u een overzicht van de afmetingen die in rapporten en de definities daarvan worden gebruikt.
 
@@ -47,7 +47,7 @@ In de onderstaande tabel vindt u een overzicht van de afmetingen die in rapporte
   </tr> 
   <tr> 
    <td> Land/regio<br /> </td> 
-   <td> Land geregistreerd in profiel van ontvanger.<br /> </td> 
+   <td> Land geregistreerd in het profiel van de ontvanger.<br /> </td> 
   </tr> 
   <tr> 
    <td> Levering<br /> </td> 
@@ -55,7 +55,7 @@ In de onderstaande tabel vindt u een overzicht van de afmetingen die in rapporte
   </tr> 
   <tr> 
    <td> Apparaat<br /> </td> 
-   <td> Apparaat van waaruit de e-mail/SMS/push-melding is geopend/weergegeven/waarop is geklikt.<br /> </td> 
+   <td> Apparaat van waaruit de e-mail/SMS/push-melding is geopend/bekeken/aangeklikt.<br /> </td> 
   </tr> 
   <tr> 
    <td> Mislukt<br /> </td> 
@@ -119,7 +119,7 @@ In de onderstaande tabel vindt u een overzicht van de afmetingen die in rapporte
   </tr> 
   <tr> 
    <td> URL-label bijhouden<br /> </td> 
-   <td> Label dat aan de URL wordt gegeven, zoals de spiegelpagina, neemt u contact met ons op of opent u.<br /> </td> 
+   <td> Label dat aan de URL wordt gegeven, zoals de spiegel, neemt contact met ons op of opent.<br /> </td> 
   </tr> 
   <tr> 
    <td> Transactionele levering<br /> </td> 
@@ -184,7 +184,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
   </tr> 
   <tr> 
    <td> Harde stuitsnelheid<br /> </td> 
-   <td> Percentage leveringen dat is mislukt als gevolg van permanente fouten.<br /> </td> 
+   <td> Percentage leveringen dat is mislukt door permanente fouten.<br /> </td> 
   </tr> 
   <tr> 
    <td> Pagina spiegelen<br /> </td> 
@@ -392,63 +392,63 @@ In de onderstaande tabel vindt u een lijst met segmenten die in rapporten en de 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Leeftijd: Boomklasse 1<br /> </td> 
-   <td> Ontvangers, geboren van 1946 tot en met 1954.<br /> </td> 
+   <td> Leeftijd: Boomers 1<br /> </td> 
+   <td> Ontvangers geboren van 1946 tot 1954.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: Boomklasse 2<br /> </td> 
+   <td> Leeftijd: Boomers 2<br /> </td> 
    <td> Ontvangers geboren van 1955 tot 1965.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: 18 t/m 25<br /> </td> 
+   <td> Leeftijd: van 18 tot 25 jaar<br /> </td> 
    <td> Ontvangers van 18 tot 25 jaar oud.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: Van 26 t/m 30<br /> </td> 
+   <td> Leeftijd: van 26 tot 30 jaar<br /> </td> 
    <td> Ontvangers van 26 tot 30 jaar oud.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: Van 31 t/m 40<br /> </td> 
+   <td> Leeftijd: van 31 tot 40<br /> </td> 
    <td> Ontvangers van 31 tot 40 jaar oud.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: 41 t/m 50<br /> </td> 
+   <td> Leeftijd: van 41 tot 50<br /> </td> 
    <td> Ontvangers van 41 tot 50 jaar oud.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: Generatie X<br /> </td> 
+   <td> Leeftijd: generatie X<br /> </td> 
    <td> Ontvangers geboren van 1966 tot 1976.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: Generation Y (Millenniumjaar)<br /> </td> 
+   <td> Leeftijd: generatie Y (miljoenen)<br /> </td> 
    <td> Ontvangers, geboren van 1977 tot 1994.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: Generatie Z<br /> </td> 
+   <td> Leeftijd: generatie Z<br /> </td> 
    <td> Ontvangers geboren van 1995 tot vandaag.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: Groter dan 50<br /> </td> 
+   <td> Leeftijd: groter dan 50<br /> </td> 
    <td> Ontvangers die ouder zijn dan 50 jaar.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: Minder dan 25<br /> </td> 
+   <td> Leeftijd: minder dan 25 jaar<br /> </td> 
    <td> Ontvangers die jonger zijn dan 25 jaar.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: Minder dan 30<br /> </td> 
+   <td> leeftijd: minder dan 30<br /> </td> 
    <td> Ontvangers die jonger zijn dan 30 jaar.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: Minder dan 40<br /> </td> 
+   <td> leeftijd: minder dan 40<br /> </td> 
    <td> Ontvangers die jonger zijn dan 40 jaar.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: Minder dan 50<br /> </td> 
+   <td> Leeftijd: minder dan 50<br /> </td> 
    <td> Ontvangers die jonger zijn dan 50 jaar.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Leeftijd: Stil genereren<br /> </td> 
+   <td> Leeftijd: stille generatie<br /> </td> 
    <td> Ontvangers geboren in 1945 of eerder.<br /> </td> 
   </tr> 
   <tr> 

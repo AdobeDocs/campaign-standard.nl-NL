@@ -1,6 +1,6 @@
 ---
 title: Personen die een bericht niet openen, doelgericht opnieuw benaderen
-description: Dit gebruiksgeval laat zien hoe u niet-openers opnieuw kunt richten.
+description: Dit gebruiksgeval laat zien hoe u zich opnieuw richt op niet-openers.
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -29,7 +29,7 @@ U kunt een e-mail naar klanten en dan een sms naar hen verzenden die niet de pos
 1. Sleep in **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** een [Query](../../automating/using/query.md)-activiteit en zet deze neer.
 1. Dubbelklik op de activiteit.
 1. In **[!UICONTROL Shortcuts]**, slepen en neerzetten **[!UICONTROL Profiles]** en selecteert u **[!UICONTROL email]** met de exploitant **[!UICONTROL is not empty]**.
-1. In **[!UICONTROL Shortcuts]**, slepen en neerzetten **[!UICONTROL Profiles]** en selecteert u **[!UICONTROL no longer contact by email]** met de waarde **[!UICONTROL no ]**.
+1. In **[!UICONTROL Shortcuts]**, slepen en neerzetten **[!UICONTROL Profiles]** en selecteert u **[!UICONTROL no longer contact by email]** met de waarde **[!UICONTROL no]**.
 1. Klik op **[!UICONTROL Confirm]**.
 
 ![](assets/wf-complement-query.png)
@@ -50,7 +50,7 @@ U kunt een e-mail naar klanten en dan een sms naar hen verzenden die niet de pos
 
 ## Het richten van niet-openers in een vraagactiviteit{#targeting-non-openers-in-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, slepen en neerzetten [Wachten](../../automating/using/wait.md) activiteit.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, een [Wachten](../../automating/using/wait.md) activiteit.
 1. In **[!UICONTROL Duration]**, klikt u op ![](assets/duration-icon.png) en selecteer één dag.
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** sleept u een **[!UICONTROL Query activity]** en zet u deze neer.
 1. Dubbelklik op de activiteit.

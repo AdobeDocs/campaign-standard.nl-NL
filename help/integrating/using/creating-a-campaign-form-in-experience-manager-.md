@@ -31,8 +31,8 @@ Een Adobe Campaign-formulier maken op uw AEM-site:
 
 1. Selecteer het formuliertype in het menu **[!UICONTROL Form Start]** component:
 
-   * **Adobe Campaign: Profiel opslaan**
-   * **Adobe Campaign: Abonneren op services**
+   * **Adobe Campaign: profiel opslaan**
+   * **Adobe Campaign: abonneren op services**
    * **Adobe Campaign: Abonnement op services opzeggen**
 
 1. Bewerk de inhoud van het formulier door verschillende velden en componenten toe te voegen die u kunt toewijzen aan de Adobe Campaign-databasevelden.

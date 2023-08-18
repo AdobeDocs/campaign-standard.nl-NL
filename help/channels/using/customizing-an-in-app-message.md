@@ -45,23 +45,23 @@ Het keuzemenu **[!UICONTROL Layout]** bevat vier verschillende opties die u kunt
 
 * **[!UICONTROL Full page]**: Dit type lay-out bedekt het volledige scherm van de apparaten van uw doelgroep.
 
-   Media- (afbeeldingen, video), tekst- en knopcomponenten worden ondersteund.
+  Media- (afbeeldingen, video), tekst- en knopcomponenten worden ondersteund.
 
 * **[!UICONTROL Large modal]**: Deze lay-out wordt weergegeven in een groot waarschuwingsvenster. Uw applicatie is op de achtergrond nog steeds zichtbaar.
 
-   Media- (afbeeldingen, video), tekst- en knopcomponenten worden ondersteund.
+  Media- (afbeeldingen, video), tekst- en knopcomponenten worden ondersteund.
 
 * **[!UICONTROL Small modal]**: Deze lay-out wordt weergegeven als een klein waarschuwingsvenster. Uw applicatie is op de achtergrond nog steeds zichtbaar.
 
-   Media- (afbeeldingen, video), tekst- en knopcomponenten worden ondersteund.
+  Media- (afbeeldingen, video), tekst- en knopcomponenten worden ondersteund.
 
 * **[!UICONTROL Alert]**: Dit type lay-out wordt weergegeven als een waarschuwingsbericht van het besturingssysteem.
 
-   Alleen tekst- en knopcomponenten worden ondersteund.
+  Alleen tekst- en knopcomponenten worden ondersteund.
 
 * **[!UICONTROL Local notification]**: Dit type lay-out wordt weergegeven als een bannerbericht.
 
-   Alleen geluid, tekst en bestemming worden ondersteund. Zie [Berichten van het type lokale meldingen aanpassen](#customizing-a-local-notification-message-type) voor meer informatie over lokale berichten.
+  Alleen geluid, tekst en bestemming worden ondersteund. Zie [Berichten van het type lokale meldingen aanpassen](#customizing-a-local-notification-message-type) voor meer informatie over lokale berichten.
 
 In het rechtervenster van de content editor kunt u een voorbeeld van elk type lay-out bekijken op verschillende apparaten, zoals een telefoon, tablet of platform (bijvoorbeeld Android of iOS), en standen (bijvoorbeeld liggend of staand).
 

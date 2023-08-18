@@ -243,7 +243,7 @@ ht-degree: 98%
 * Het maximale aantal real-time gebeurtenissen dat op een instantie kan worden gepubliceerd, is verhoogd van 350 naar 2000. (CAMP-41608)
 * De synchronisatie tussen Adobe Launch en Campaign Standard is verbeterd dankzij de technische workflow SyncWithLaunch. Met deze workflow kunt u alle mobiele eigenschappen van Adobe Launch automatisch importeren in Adobe Campaign Standard. Raadpleeg [deze sectie](../../administration/using/technical-workflows.md) voor meer informatie.
 
-   U moet een ticket indienen bij de klantenservice van Adobe (rechtstreeks of via uw Adobe-contactpersoon) om de technische workflow syncWithLaunch in uw Campaign-instantie te activeren. (CAMP-40082)
+  U moet een ticket indienen bij de klantenservice van Adobe (rechtstreeks of via uw Adobe-contactpersoon) om de technische workflow syncWithLaunch in uw Campaign-instantie te activeren. (CAMP-40082)
 
 **Verbeteringen voor Email Designer**
 

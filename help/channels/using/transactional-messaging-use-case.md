@@ -38,7 +38,7 @@ De belangrijkste stappen voor de implementatie van dit gebruiksgeval worden hier
 
 1. Een nieuwe gebeurtenis maken met de opdracht **[!UICONTROL Email]** kanaal. Zie [Een gebeurtenis maken](../../channels/using/configuring-transactional-event.md#creating-an-event).
 
-1. Selecteer **[!UICONTROL Profile]** dimensie als doel instellen voor een [op profielen gebaseerd transactiemelding](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
+1. Selecteer de **[!UICONTROL Profile]** dimensie als doel instellen voor een [op profielen gebaseerd transactiemelding](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
 
 1. Definieer de kenmerken die beschikbaar zijn om het transactiebericht aan te passen. Voeg in dit voorbeeld de velden CRM-id en Product-id toe. Zie [Gebeurteniskenmerken definiëren](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes).
 
@@ -54,7 +54,7 @@ De belangrijkste stappen voor de implementatie van dit gebruiksgeval worden hier
 
 1. Omdat dit verplicht is voor op profielen gebaseerde gebeurtenissen, moet u ook een verrijking maken die gericht is op de **[!UICONTROL Profile]** resource.
 
-1. Creeer samen voorwaarde tussen het gebied van &quot;identiteitskaart van CRM&quot;dat eerder aan het bericht werd toegevoegd, en het overeenkomstige gebied van het **[!UICONTROL Profile]** bron die u hebt uitgebreid. <!--What's the purpose to have created a CRM ID for this event and to have the CRM ID as a join condition? could it be any other field provided you created it in the event?-->
+1. Creeer samen voorwaarde tussen het gebied van &quot;identiteitskaart van CRM&quot;dat eerder aan het bericht werd toegevoegd, en het overeenkomstige gebied van **[!UICONTROL Profile]** bron die u hebt uitgebreid. <!--What's the purpose to have created a CRM ID for this event and to have the CRM ID as a join condition? could it be any other field provided you created it in the event?-->
 
    ![](assets/message-center_usecase4.png)
 

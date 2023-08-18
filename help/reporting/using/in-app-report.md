@@ -27,20 +27,20 @@ Elke tabel wordt aangegeven met een overzichtsnummer en een overzicht van de dia
 
 ![](assets/inapp_report.png)
 
-De eerste tabel **Overzicht van betrokkenheid in de app** wordt in drie categorieën gesplitst: per dag, per mobiele app en per levering. Het bevat de beschikbare gegevens voor ontvankelijke reactiviteit aan de levering:
+De eerste tabel **Overzicht van betrokkenheid in de app** wordt opgesplitst in drie categorieën: per dag, per mobiele app en per levering. Het bevat de beschikbare gegevens voor ontvankelijke reactiviteit aan de levering:
 
-* **[!UICONTROL Processed/sent]**: Het totale aantal verzendingen voor de levering in de app.
-* **[!UICONTROL Delivered]**: Het aantal berichten dat in de app is verzonden, in verhouding tot het totale aantal verzonden berichten.
+* **[!UICONTROL Processed/sent]**: Totaal aantal verzendingen voor levering in de app.
+* **[!UICONTROL Delivered]**: Het aantal berichten in de app dat is verzonden, in verhouding tot het totale aantal verzonden berichten.
 * **[!UICONTROL Impressions]**: Totaal aantal berichten in de app die door ontvangers worden gezien, afhankelijk van of aan het triggercriterium is voldaan.
 * **[!UICONTROL Unique impressions]**: Aantal indrukken door ontvanger.
 * **[!UICONTROL In-App click through rate]**: Percentage gebruikers die op Knoop 1 of Knoop 2 klikte vergeleken met gebruikers die het bericht zagen.
-* **[!UICONTROL In-App dismissal rate]**: Percentage in-app-berichten dat ontvangers hebben afgewezen.
+* **[!UICONTROL In-App dismissal rate]**: Percentage in-app-berichten dat ontvangers hebben genegeerd.
 
 ![](assets/inapp_report_1.png)
 
-De tweede tabel **In-app klikken en ontslagen** wordt in drie categorieën gesplitst: per dag, per mobiele app en per levering. Het bevat de beschikbare gegevens voor ontvankelijk gedrag per levering:
+De tweede tabel **In-app klikken en ontslagen** wordt opgesplitst in drie categorieën: per dag, per mobiele app en per levering. Het bevat de beschikbare gegevens voor ontvankelijk gedrag per levering:
 
 * **[!UICONTROL In-App clicks]**: Het totale aantal ontvangers dat op Knoop 1 of Knoop 2 klikte.
-* **[!UICONTROL Unique In-App clicks]**: Aantal keren dat ontvangers op Knoop 1 of Knoop 2 klikten.
-* **[!UICONTROL In-App dismissal]**: Het totale aantal berichten dat de ontvangers of door de dichte knoop of auto-dismiss ontvingen te klikken ontvingen.
-* **[!UICONTROL Unique In-App dismissal]**: Aantal tijdontvangers hebben een bericht in de app afgewezen.
+* **[!UICONTROL Unique In-App clicks]**: Aantal keren dat ontvangers op Button 1 of Button 2 hebben geklikt.
+* **[!UICONTROL In-App dismissal]**: Het totale aantal berichten dat de ontvangers of door de dichte knoop of auto-dismiss ontvingen te klikken verwierpen.
+* **[!UICONTROL Unique In-App dismissal]**: Aantal ontvangers in de app dat een bericht in de app heeft afgewezen.

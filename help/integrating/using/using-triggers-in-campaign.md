@@ -55,7 +55,7 @@ Voer daartoe de volgende stappen uit:
 
 Nadat u een triggergebeurtenis in Adobe Campaign hebt gemaakt op basis van een bestaande Adobe Experience Cloud-trigger, moet u deze nu publiceren.
 
-1. Klik in de eerder gemaakte trigger op de knop **[!UICONTROL Publish]** om de triggergebeurtenis te publiceren.
+1. Klik in de eerder gemaakte trigger op **[!UICONTROL Publish]** om de triggergebeurtenis te publiceren.
 
    ![](assets/trigger_publish_1.png)
 
@@ -63,7 +63,7 @@ Nadat u een triggergebeurtenis in Adobe Campaign hebt gemaakt op basis van een b
 
    ![](assets/trigger_publish_2.png)
 
-1. Wanneer de publicatie is voltooid, verschijnt het volgende bericht onder **[!UICONTROL Publication]**.
+1. Wanneer de publicatie is voltooid, wordt het volgende bericht weergegeven onder **[!UICONTROL Publication]**.
 
    ![](assets/trigger_publish_3.png)
 

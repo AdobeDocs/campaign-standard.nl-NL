@@ -1,6 +1,6 @@
 ---
 title: Adobe Experience Platform-doelgroepen opnemen in Campaign
-description: Leer hoe u Adobe Experience Platform-publiek inneemt in Campaign Standard.
+description: Leer hoe u Adobe Experience Platform-publiek in Campaign Standard kunt opnemen.
 audience: integrating
 content-type: reference
 role: Data Architect
@@ -21,19 +21,19 @@ Zodra de Bestemming is gevormd, zullen de gegevens naar uw opslagplaats worden u
 
 ## Adobe Campaign verbinden als doel
 
-In het Adobe Experience-platform configureert u een verbinding met Adobe Campaign door een opslaglocatie voor de geëxporteerde segmenten te selecteren. Met deze stappen kunt u ook de segmenten selecteren die u wilt exporteren en aanvullende XDM-velden opgeven die u wilt opnemen.
+In het platform van de Ervaring van de Adobe, vorm een verbinding met Adobe Campaign door een opslagplaats voor de uitgevoerde segmenten te selecteren. Met deze stappen kunt u ook de segmenten selecteren die u wilt exporteren en aanvullende XDM-velden opgeven die u wilt opnemen.
 
 Raadpleeg voor meer informatie de [Doelen](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
 
 Nadat de Bestemming is gevormd, leidt Adobe Experience Platform tot een lusje-afgebakend .txt of .csv- dossier in de opslagplaats die u verstrekte. Deze bewerking is gepland en wordt één keer per 24 uur uitgevoerd.
 
-U kunt nu een Campaign Standard-workflow configureren om het segment in te voeren in Campagne.
+U kunt een werkschema van het Campaign Standard nu vormen om het segment in Campagne in te nemen.
 
 ## Een importworkflow maken in Campaign Standard
 
-Zodra Campaign Standard is gevormd als Bestemming, moet u een specifieke werkschema bouwen om het dossier in te voeren dat door Adobe Experience Platform is uitgevoerd.
+Zodra het Campaign Standard als Bestemming is gevormd, moet u een specifieke werkschema bouwen om het dossier in te voeren dat door Adobe Experience Platform is uitgevoerd.
 
-Om dit te doen, moet u toevoegen en vormen a **[!UICONTROL Transfer file]** activiteit. Voor meer op hoe te om deze activiteit te vormen, verwijs naar [deze sectie](../../automating/using/transfer-file.md).
+Om dit te doen, moet u toevoegen en vormen **[!UICONTROL Transfer file]** activiteit. Raadpleeg voor meer informatie over het configureren van deze activiteit [deze sectie](../../automating/using/transfer-file.md).
 
 ![](assets/rtcdp-transfer-file.png)
 

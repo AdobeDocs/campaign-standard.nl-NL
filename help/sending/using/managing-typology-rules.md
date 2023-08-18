@@ -67,7 +67,7 @@ In de standaardbewerkingsmodus worden de regels in de volgende volgorde toegepas
 1. Controleregels, indien toegepast aan het begin van targeting.
 1. Filterregels:
 
-   * Native toepassingsregels voor adreskwalificatie: bepaald adres / niet-geverifieerd adres / adres op lijst van gewezen personen / quarantined adres / adreskwaliteit.
+   * Native toepassingsregels voor adreskwalificatie: gedefinieerd adres / niet-geverifieerd adres / adres op lijst van gewezen personen / in quarantaine geplaatst adres / adreskwaliteit.
    * Filterregels die door de gebruiker zijn gedefinieerd.
 
 1. Controleregels, indien toegepast aan het einde van targeting.

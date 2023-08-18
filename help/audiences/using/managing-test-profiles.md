@@ -31,7 +31,7 @@ Een testprofiel bevat fictieve contactinformatie, of contactinformatie die door 
 * Voor het verzenden van **proeven**: Een proef is een specifiek bericht dat wordt gebruikt om het bericht te controleren voordat de definitieve levering naar ontvangers wordt verzonden. Een testprofiel voor proeven is verantwoordelijk voor de controle van de levering met betrekking tot de content en de opmaak ervan. Zie [Proeven verzenden](../../sending/using/sending-proofs.md).
 * Voor **e-mailweergave**: Het testprofiel voor e-mailweergave wordt gebruikt om te controleren hoe een bericht wordt weergegeven volgens de berichteninbox die het bericht ontvangt. Dit kan bijvoorbeeld webmail, een berichtenservice, een mobiele applicatie, enzovoort zijn. Zie [E-mailweergave](../../sending/using/email-rendering.md).
 
-   **E-mailweergave** is alleen-lezen. Testprofielen voor dit gebruik zijn alleen kant-en-klaar beschikbaar in Adobe Campaign.
+  **E-mailweergave** is alleen-lezen. Testprofielen voor dit gebruik zijn alleen kant-en-klaar beschikbaar in Adobe Campaign.
 
 * Als een **trap**: Het bericht wordt naar het testprofiel verzonden op dezelfde manier als het naar het belangrijkste doel wordt verzonden. Zie [Traps gebruiken](../../sending/using/using-traps.md).
 * Voor het weergeven van **voorbeelden** van berichten: U kunt een testprofiel selecteren wanneer u een voorbeeld van een bericht weergeeft om de personalisatie-elementen te testen. Zie [Berichten voorvertonen](/help/sending/using/previewing-messages.md).
@@ -84,4 +84,4 @@ In deze video wordt getoond hoe u een testprofiel kunt maken.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
 
-Er zijn aanvullende Campaign Standard-hoe-kan-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).
+Er zijn aanvullende Campaign Standard-to-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).

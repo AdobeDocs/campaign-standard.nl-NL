@@ -1,6 +1,6 @@
 ---
 title: Controlerichtlijnen
-description: Deze pagina bevat algemene richtlijnen voor de controle van Campaign Standard
+description: Deze pagina bevat algemene richtsnoeren voor het toezicht op Campaign Standard
 audience: production
 feature: Access Management
 role: Admin
@@ -29,7 +29,7 @@ Campaign Standard biedt verschillende manieren om uw instanties te controleren o
 
 **Systeemmeldingen**
 
-De interface van Campaign Standard verstrekt een berichtruit die u toelaat om op de hoogte worden gehouden van wat in het systeem gebeurt: status van gebeurtenissen, systeemupdates, vereiste actie, enz. [Meer informatie](../../start/using/interface-description.md#top-bar)
+De interface van het Campaign Standard verstrekt een berichtruit die u toelaat om op de hoogte worden gehouden van wat in het systeem gebeurt: gebeurtenisstatussen, systeemupdates, vereiste actie, enz. [Meer informatie](../../start/using/interface-description.md#top-bar)
 
 
 **Technische workflows**
@@ -38,7 +38,7 @@ Technische workflows zijn bewerkingen of taken die regelmatig en volgens een pla
 
 **Configuratiescherm**
 
-In het Configuratiescherm kunt u verschillende instellingen van uw exemplaar beheren: URL-machtigingen, controleer de instantiedetails zoals de buildversies van uw servers, controleer het gebruik van actieve profielen, enzovoort. Hiermee kunt u ook de beschikbare ruimte op de SFTP-servers controleren die met uw instantie zijn verbonden. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl).
+In het Configuratiescherm kunt u verschillende instellingen van uw instantie beheren: URL-machtigingen, controle de instantiedetails zoals de buildversies van uw servers, controle van het gebruik van actieve profielen, enzovoort. Hiermee kunt u ook de beschikbare ruimte op de SFTP-servers controleren die met uw instantie zijn verbonden. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl).
 
 >[!NOTE]
 >
@@ -46,11 +46,11 @@ In het Configuratiescherm kunt u verschillende instellingen van uw exemplaar beh
 
 **Technische objecten**
 
-De **[!UICONTROL Diagnosis]** menu is een belangrijk hulpmiddel voor het bewaken en analyseren van de verschillende technische objecten die door de toepassing worden gegenereerd: gegevensschema&#39;s, webpagina&#39;s, batchtaken, enz. [Meer informatie](../../developing/using/monitoring-data-model-changes.md)
+De **[!UICONTROL Diagnosis]** het menu is een belangrijk hulpmiddel voor het bewaken en analyseren van de verschillende technische objecten die door de toepassing worden gegenereerd: gegevensschema&#39;s, webpagina&#39;s, batchtaken, enz. [Meer informatie](../../developing/using/monitoring-data-model-changes.md)
 
 **Exportcontroles**
 
-Met exportcontroles kunt u de uitgevoerde exportbewerkingen op uw exemplaren controleren: bestanden die zijn geüpload van workflows, exporteerlijsten en bestanden die zijn gedownload van direct-mailberichten.
+Met exportcontroles kunt u controleren welke exportbewerkingen op uw instanties worden uitgevoerd: bestanden die zijn geüpload uit workflows, exporteerlijsten en bestanden die zijn gedownload uit direct-mailberichten.
 [Meer informatie](../../administration/using/auditing-export-logs.md)
 
 **Licenties**
@@ -83,7 +83,7 @@ Met Campaign Standard kunt u meldingen verzenden naar supervisors om te controle
 
 **Aflevering**
 
-Campaign Standard biedt verschillende gereedschappen voor het leveren van informatie waarmee u het aantal gelukte berichten kunt verbeteren: rapporten over de leveringstijd, tijdoptimalisatie verzenden, voorvertoning van berichten, rendering van e-mail, quarantainebeheer, enz.
+Campaign Standard biedt verschillende gereedschappen voor het leveren van gegevens waarmee u het aantal gelukte berichten kunt verbeteren: rapporten over de leveringstijd, optimalisatie van de verzendtijd, voorvertoning van berichten, rendering van e-mail, quarantainebeheer, enz.
 [Meer informatie](../../sending/using/about-deliverability.md)
 
 **Leveringen**
@@ -93,10 +93,10 @@ Zodra uw berichten worden verzonden, staat het gedetailleerde logboeken u toe om
 
 **Afleveringswaarschuwing**
 
-Met de functie voor leveringswaarschuwingen kunt u waarschuwingen instellen die automatisch naar een groep gebruikers worden verzonden met betrekking tot de uitvoering van leveringen: het niet verzenden of voorbereiden, slechte schommelingsverhouding, lage productie, enz.
+Met de voorziening voor het waarschuwen van de levering kunt u waarschuwingen instellen die automatisch naar een groep gebruikers worden verzonden met betrekking tot de uitvoering van leveringen: verzending of voorbereiding mislukt, onjuiste verhouding tussen boetes, lage doorvoer, enzovoort.
 [Meer informatie](../../sending/using/receiving-alerts-when-failures-happen.md)
 
 **Dynamische rapportage**
 
-De dynamische rapportering verstrekt diverse rapporten om u te helpen op de hoogte worden gehouden van hoe uw leveringen presteren: schommelingen, de meest bekeken leveringen door de ontvangers, de omzet van de leveringen, enz.
+Dynamische rapportage biedt verschillende rapporten die u helpen op de hoogte te blijven van de manier waarop uw leveringen worden uitgevoerd: stormen, de meeste bekeken leveringen door ontvangers, de doorvoer van de leveringen, enz.
 [Meer informatie](../../reporting/using/about-dynamic-reports.md)

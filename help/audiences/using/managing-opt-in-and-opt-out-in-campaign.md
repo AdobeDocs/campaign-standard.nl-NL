@@ -29,7 +29,7 @@ In de **[!UICONTROL No longer contact (on denylist)]** , komen de geselecteerde 
 
 Als u gebruikers de mogelijkheid wilt geven zich aan te melden of te weigeren, moet u een **[!UICONTROL Profile acquisition]** openingspagina. Vervolgens kunnen zij de kanalen selecteren op basis van hun behoeften. Volg de onderstaande stappen om dit te doen.
 
-U kunt ook een **[!UICONTROL Denylist]** landingspagina waarmee gebruikers kunnen afzien van alle leveringen. Raadpleeg voor meer informatie hierover [Een landingspagina instellen om af te zien van alle leveringen](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
+U kunt ook een **[!UICONTROL Denylist]** landingspagina waarmee gebruikers zich kunnen afmelden voor alle leveringen. Raadpleeg voor meer informatie hierover [Een landingspagina instellen om af te zien van alle leveringen](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
 
 >[!NOTE]
 >

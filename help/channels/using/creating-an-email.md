@@ -17,7 +17,7 @@ ht-degree: 16%
 
 # Een e-mail maken{#creating-an-email}
 
-U kunt een e-mailbericht maken op basis van een [campagne](../../start/using/marketing-activities.md#creating-a-marketing-activity), van Adobe Campaign [homepage](../../start/using/interface-description.md#home-page)of in de [lijst met marketingactiviteiten](../../start/using/marketing-activities.md#about-marketing-activities). U kunt vanuit een workflow ook eenmalige en terugkerende e-mails maken.
+U kunt een e-mail maken op basis van een [campagne](../../start/using/marketing-activities.md#creating-a-marketing-activity), van Adobe Campaign [homepage](../../start/using/interface-description.md#home-page)of in de [lijst met marketingactiviteiten](../../start/using/marketing-activities.md#about-marketing-activities). U kunt vanuit een workflow ook eenmalige en terugkerende e-mails maken.
 
 ![](assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#video)
 
@@ -53,7 +53,7 @@ U kunt een e-mailbericht maken op basis van een [campagne](../../start/using/mar
 
    ![](assets/email_creation_3.png)
 
-1. De inhoud van het bericht, de naam van de afzender en het onderwerp definiëren en aanpassen met de opdracht [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md). Zie voor meer informatie [Over het ontwerpen van e-mailinhoud](../../designing/using/designing-content-in-adobe-campaign.md).
+1. De inhoud van het bericht, de naam van de afzender en het onderwerp definiëren en aanpassen met de opdracht [E-mailDesigner](../../designing/using/designing-content-in-adobe-campaign.md). Zie voor meer informatie [Over het ontwerpen van e-mailinhoud](../../designing/using/designing-content-in-adobe-campaign.md).
 
    ![](assets/email_creation_4.png)
 
@@ -106,4 +106,4 @@ In deze video wordt getoond hoe u een e-mail kunt maken.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
 
-Er zijn aanvullende Campaign Standard-hoe-kan-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).
+Er zijn aanvullende Campaign Standard-to-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).

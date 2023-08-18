@@ -39,18 +39,18 @@ Als u een testprofiel als een overvulling wilt gebruiken, moet dit deel uitmaken
 
 >[!NOTE]
 >
->In tegenstelling tot testprofielen die worden gebruikt voor [proefdrukken](../../sending/using/sending-proofs.md) of [e-mailrendering](../../sending/using/email-rendering.md), wordt het bericht tegelijkertijd verzonden naar het hoofddoel en naar de testprofielen die als vallen worden gebruikt.
+>In tegenstelling tot testprofielen voor [proefdrukken](../../sending/using/sending-proofs.md) of [e-mailrendering](../../sending/using/email-rendering.md), wordt het bericht tegelijkertijd verzonden naar het hoofddoel en naar de testprofielen die als vallen worden gebruikt.
 
 Bij het definiëren van het publiek van een bericht:
 
-1. Van de **[!UICONTROL Test profiles]** selecteert u een testprofiel. Controleer of het **[!UICONTROL Trap]** als het beoogde gebruik.
+1. Van de **[!UICONTROL Test profiles]** selecteert u een testprofiel. Zorg ervoor dat het **[!UICONTROL Trap]** als het beoogde gebruik.
 
    ![](assets/trap_select.png)
 
-1. Klik op de knop **[!UICONTROL Prepare]** knop. Zie [De verzending voorbereiden](../../sending/using/preparing-the-send.md).
+1. Als de inhoud van uw bericht gereed is, klikt u op de knop **[!UICONTROL Prepare]** knop. Zie [De verzending voorbereiden](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
-   >Controleer of u een hoofddoel hebt geselecteerd. Anders kan uw bericht niet worden verzonden.
+   >Zorg ervoor dat u een hoofddoel hebt geselecteerd. Anders kan uw bericht niet worden verzonden.
 
 1. Klik op de knop **[!UICONTROL Confirm]**. Zie [De verzending bevestigen](../../sending/using/confirming-the-send.md).
 
@@ -62,4 +62,4 @@ U kunt overvullingen gebruiken bij het verzenden van transactieberichten. In dit
 
 >[!NOTE]
 >
->Wanneer u een testprofiel als overvulling gebruikt, worden voor alle verrijkte velden in een bericht de bijbehorende aanvullende gegevens willekeurig gekozen uit een echt doelprofiel en toegewezen aan het testprofiel voor overvulling. Voor meer informatie over verrijking raadpleegt u [dit voorbeeld](../../automating/using/enriching-profile-data-file.md).
+>Wanneer u een testprofiel als overvulling gebruikt, worden voor alle verrijkte velden in een bericht de bijbehorende aanvullende gegevens willekeurig gekozen uit een echt doelprofiel en toegewezen aan het testprofiel voor overvulling. Zie voor meer informatie over verrijking [dit voorbeeld](../../automating/using/enriching-profile-data-file.md).

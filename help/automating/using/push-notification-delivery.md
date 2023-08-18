@@ -54,9 +54,9 @@ De voorbereiding van berichten wordt geactiveerd volgens de parameters voor work
 1. Selecteer de verzendmodus voor pushmeldingen:
 
    * **[!UICONTROL Single notification]**: de pushmelding wordt één keer verzonden. U kunt hier opgeven of u al dan niet een uitgaande overgang aan de activiteit wilt toevoegen. De verschillende overgangstypen worden beschreven in stap 7 van deze procedure.
-   * **[!UICONTROL Recurring notification]**: de pushmelding verscheidene keren wordt verzonden, volgens de frequentie die in een **[!UICONTROL Scheduler]** activiteit. Selecteer de aggregatieperiode van de verzendingen. Dit staat u toe om al te groeperen verzendt die tijdens de bepaalde periode in één enkel duw bericht voorkomen dat ook wordt geroepen **terugkerende uitvoering** en kan worden benaderd vanuit de lijst met marketingactiviteiten van de toepassing.
+   * **[!UICONTROL Recurring notification]**: de pushmelding wordt meerdere keren verzonden volgens de frequentie die in een **[!UICONTROL Scheduler]** activiteit. Selecteer de aggregatieperiode van de verzendingen. Dit staat u toe om al te groeperen verzendt die tijdens de bepaalde periode in één enkel duw bericht voorkomen dat ook wordt geroepen **terugkerende uitvoering** en kan worden benaderd vanuit de lijst met marketingactiviteiten van de toepassing.
 
-      Bijvoorbeeld, voor een terugkerend verjaardagsbericht, dat dagelijks wordt verzonden, kunt u verkiezen om samen te voegen verzendt per maand. Op deze manier kunt u maandelijks rapporten over uw levering ontvangen, hoewel het bericht elke dag wordt verzonden.
+     Bijvoorbeeld, voor een terugkerend verjaardagsbericht, dat dagelijks wordt verzonden, kunt u verkiezen om samen te voegen verzendt per maand. Op deze manier kunt u maandelijks rapporten over uw levering ontvangen, hoewel het bericht elke dag wordt verzonden.
 
 1. Selecteer een berichttype. Deze typen zijn afkomstig van de sjablonen voor pushmeldingen die zijn gedefinieerd in het dialoogvenster **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** -menu.
 1. Voer de algemene eigenschappen voor de pushmelding in. U kunt deze ook aan een bestaande campagne koppelen. Het label van de leveringsactiviteit van de workflow wordt bijgewerkt met het label voor pushmeldingen.
@@ -64,7 +64,7 @@ De voorbereiding van berichten wordt geactiveerd volgens de parameters voor work
 1. Standaard bevat de activiteit **[!UICONTROL Push notification]** geen uitgaande overgangen. Als u een uitgaande overgang wilt toevoegen aan uw activiteit **[!UICONTROL Push Notification]**, ga dan naar het tabblad **[!UICONTROL General]** van de geavanceerde opties voor activiteiten (de knop ![](assets/dlv_activity_params-24px.png) in de snelle acties van de activiteit) en vink een van de volgende opties aan:
 
    * **[!UICONTROL Add outbound transition without the population]**: Hiermee kunt u een uitgaande overgang genereren die exact dezelfde populatie als de binnenkomende overgang bevat.
-   * **[!UICONTROL Add outbound transition with the population]**: dit laat u een uitgaande overgang produceren die de bevolking bevat aan wie de kennisgeving werd verzonden. De leden van het doel die tijdens de voorbereiding van de levering zijn uitgesloten, zijn van deze overgang uitgesloten.
+   * **[!UICONTROL Add outbound transition with the population]**: hiermee kunt u een uitgaande overgang genereren die de bevolking bevat aan wie de kennisgeving is verzonden. De leden van het doel die tijdens de voorbereiding van de levering zijn uitgesloten, zijn van deze overgang uitgesloten.
 
 1. Bevestig de configuratie van uw activiteit en sla de workflow op.
 

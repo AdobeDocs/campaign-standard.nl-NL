@@ -94,7 +94,7 @@ Voer een verzoek van de DELETE op de gewenste dienst URL uit.
 Dit is een procedure in drie stappen.
 
 1. Haal de gewenste service en de abonnements-URL op.
-1. Voer op de abonnements-URL een GET-aanvraag uit om alle abonnementen op profielen op te halen.
+1. Voer op de abonnements-URL een aanvraag voor GET uit om alle abonnementen op profielen op te halen.
 1. Voer een DELETE-aanvraag uit op de gewenste profielabonnements-URL.
 
 Als het verwijderingsverzoek is gelukt, is de status van het antwoord 204 Geen inhoud.

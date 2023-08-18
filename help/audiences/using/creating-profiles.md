@@ -51,8 +51,8 @@ Voer bijvoorbeeld de volgende stappen uit om een nieuw profiel rechtstreeks in d
    * De **[!UICONTROL Time zone]** van het profiel wordt gebruikt om leveringen in de tijdzone van het profiel te verzenden. Raadpleeg deze [sectie](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) voor meer informatie.
    * In de categorie **[!UICONTROL Channels]**, die het e-mailadres, het mobiele telefoonnummer en informatie over uitschrijvingen bevat, kunt u zien via welk kanaal het profiel kan worden bereikt.
 
-      >[!NOTE]
-      > Mobiele telefoonnummers moeten altijd in internationale notatie worden ingevoerd (`+<country><number>`) in de profielentabel.
+     >[!NOTE]
+     > Mobiele telefoonnummers moeten altijd in internationale notatie worden ingevoerd (`+<country><number>`) in de profielentabel.
 
    * De categorie **[!UICONTROL No longer contact]** wordt bijgewerkt zodra het profiel zich uitschrijft bij een kanaal.
    * De categorie **[!UICONTROL Address]** bevat het postadres dat moet worden ingevuld en de optie **[!UICONTROL Address specified]** om [direct mail](../../channels/using/about-direct-mail.md) naar dit profiel te verzenden. Als de optie **[!UICONTROL Address specified]** niet is ingeschakeld, wordt dit profiel uitgesloten van elke direct-maillevering.
@@ -72,4 +72,4 @@ In deze video ziet u hoe u profielen importeert met een workflow.
 
 >[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
-Er zijn aanvullende Campaign Standard-hoe-kan-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).
+Er zijn aanvullende Campaign Standard-to-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).

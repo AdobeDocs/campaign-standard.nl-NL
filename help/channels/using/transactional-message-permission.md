@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Deze functies zijn momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
+>Deze functies zijn momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe.
 
 Momenteel kunnen gebruikers in Adobe Campaign Standard zonder de beveiligingsgroep Beheerder geen toegang krijgen tot transactiegebeurtenissen, deze maken of publiceren. Dit leidt tot problemen voor zakelijke gebruikers die gebeurtenissen moeten configureren en publiceren, maar geen beheerdersrechten hebben. Ook, is het niet mogelijk om transactionele gebeurtenissen te dupliceren.
 

@@ -53,7 +53,7 @@ Het is mogelijk dat u onder specifieke omstandigheden meer dan 20 workflows moet
 
 >[!IMPORTANT]
 >
->Zelfs als u de drempel van 20 werkstromen niet bereikt, adviseert Adobe u om **de uitvoering van de workflow in de loop der tijd verspreiden**. Door de uitvoering van uw workflows te versnellen, kunt u ervoor zorgen dat uw exemplaar beter presteert.
+>Zelfs als u de drempel van 20 workflows niet bereikt, raadt de Adobe u aan **de uitvoering van de workflow in de loop der tijd verspreiden**. Door de uitvoering van uw workflows te versnellen, kunt u ervoor zorgen dat uw exemplaar beter presteert.
 
 Voordat u een workflow start, [!DNL Campaign Standard] controleert of er voldoende fysiek systeemgeheugen is om de workflow uit te voeren. Als er onvoldoende geheugen beschikbaar is, wordt u gewaarschuwd dat de uitvoering van de workflow wordt vertraagd tot het laden op de server uitvalt en het systeemgeheugen toeneemt.
 

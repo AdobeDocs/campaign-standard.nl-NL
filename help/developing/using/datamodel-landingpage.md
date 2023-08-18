@@ -121,14 +121,14 @@ ht-degree: 1%
                <li>Italiaans - it - it</li>
                <li>Nederlands (België) - nl_BE - nl_BE</li>
                <li>Noors (Noorwegen) - no_NO - no_NO</li>
-               <li>Nederlands (Nederland) - nl_NL - nl_NL</li>
+               <li>Nederlands - nl_NL - nl_NL</li>
                <li>Arabisch - ar - ar</li>
                <li>Engels (Verenigde Staten) - en_US - en_US</li>
                <li>Iers - ga - ga</li>
                <li>Tsjechisch - cs - cs</li>
                <li>Ests - et - et</li>
-               <li>Indonesisch - id - id</li>
-               <li>Spaans - es - es</li>
+               <li>Indonesisch - id</li>
+               <li>Spaans - es</li>
                <li>Russisch - ru - ru</li>
                <li>Nederlands - nl - nl</li>
                <li>Waalse - wa - wa</li>
@@ -150,7 +150,7 @@ ht-degree: 1%
                <li>Koreaans - ko - ko</li>
                <li>Zweeds - sv - sv</li>
                <li>Zweden (Zweeds) - sv_SE - sv_SE</li>
-               <li>Slowaaks - sk - sk</li>
+               <li>Slowakije - sk - sk</li>
                <li>Maltees - mt - mt</li>
                <li>Italiaans (Zwitserland) - it_CH - it_CH</li>
                <li>Pools - pl - pl</li>
@@ -161,7 +161,7 @@ ht-degree: 1%
       </tr>
       <tr>
          <td>defaultOrigin (delivery)</td>
-         <td>Verkeersbron</td>
+         <td>verkeersbron</td>
          <td>link </td>
          <td> </td>
       </tr>
@@ -187,14 +187,14 @@ ht-degree: 1%
                <li>Italiaans - it - it</li>
                <li>Nederlands (België) - nl_BE - nl_BE</li>
                <li>Noors (Noorwegen) - no_NO - no_NO</li>
-               <li>Nederlands (Nederland) - nl_NL - nl_NL</li>
+               <li>Nederlands - nl_NL - nl_NL</li>
                <li>Arabisch - ar - ar</li>
                <li>Engels (Verenigde Staten) - en_US - en_US</li>
                <li>Iers - ga - ga</li>
                <li>Tsjechisch - cs - cs</li>
                <li>Ests - et - et</li>
-               <li>Indonesisch - id - id</li>
-               <li>Spaans - es - es</li>
+               <li>Indonesisch - id</li>
+               <li>Spaans - es</li>
                <li>Russisch - ru - ru</li>
                <li>Nederlands - nl - nl</li>
                <li>Waalse - wa - wa</li>
@@ -216,7 +216,7 @@ ht-degree: 1%
                <li>Koreaans - ko - ko</li>
                <li>Zweeds - sv - sv</li>
                <li>Zweden (Zweeds) - sv_SE - sv_SE</li>
-               <li>Slowaaks - sk - sk</li>
+               <li>Slowakije - sk - sk</li>
                <li>Maltees - mt - mt</li>
                <li>Italiaans (Zwitserland) - it_CH - it_CH</li>
                <li>Pools - pl - pl</li>
@@ -327,8 +327,8 @@ ht-degree: 1%
          <td>opsomming (tekenreeks) (255)</td>
          <td>
             <ul>
-               <li>In uitvoering - gestart - gestart</li>
-               <li>Bewerken - editie - editie</li>
+               <li>Aan de gang - begonnen - begonnen</li>
+               <li>Bewerkingen - editie</li>
                <li>Voltooid - voltooid - voltooid</li>
                <li>Waarschuwing - waarschuwing - waarschuwing</li>
                <li>Onjuist - fout - fout</li>
@@ -367,8 +367,8 @@ ht-degree: 1%
          <td> </td>
       </tr>
       <tr>
-         <td>prefill</td>
-         <td>Gegevens bezoeker vooraf laden</td>
+         <td>voorvoegsel</td>
+         <td>Bezoekersgegevens vooraf laden</td>
          <td>boolean </td>
          <td> </td>
       </tr>
@@ -403,7 +403,7 @@ ht-degree: 1%
          <td> </td>
       </tr>
       <tr>
-         <td>connectionUpdateStrategy</td>
+         <td>reconciliatieUpdateStrategy</td>
          <td>Update-strategie</td>
          <td>opsomming (byte) </td>
          <td>
@@ -436,7 +436,7 @@ ht-degree: 1%
       </tr>
       <tr>
          <td>start</td>
-         <td>Datum van implementatie</td>
+         <td>Implementatiedatum</td>
          <td>date </td>
          <td> </td>
       </tr>
@@ -573,13 +573,13 @@ ht-degree: 1%
                <li>(GMT+01:00) Belgrado, Bratislava, Boedapest, Ljubljana, Praag - Europa_Belgrado - Europa/Belgrado</li>
                <li>(GMT) Reykjavik - Atlantic_Reykjavik - Atlantic/Reykjavik</li>
                <li>(GMT+02:00) Boekarest - Europa_Boekarest - Europa/Boekarest</li>
-               <li>(GMT+05:00) Greenwich Mean Time plus 5 uur - Gmt_p5 - Etc/GMT-5</li>
+               <li>(GMT+05:00) Greenwich Mean Time plus 5 uur - Gmt_p5 - EC/GMT-5</li>
                <li>(GMT+04:00) Greenwich Mean Time plus 4 uur - Gmt_p4 - Etc/GMT-4</li>
-               <li>(GMT+07:00) Greenwich Mean Time plus 7 uur - GMT_p7 - Etc/GMT-7</li>
+               <li>(GMT+07:00) Greenwich Mean Time plus 7 uur - GMT_p7 - EC/GMT-7</li>
                <li>(GMT+06:00) Greenwich Mean Time plus 6 uur - Gmt_p6 - Etc/GMT-6</li>
                <li>(GMT+01:00) Greenwich Mean Time plus 1 uur - Gmt_p1 - EC/GMT-1</li>
                <li>(GMT-08:00) Pacific (Verenigde Staten en Canada) - America_Los_Angeles - America/Los_Angeles</li>
-               <li>(GMT+02:00) Greenwich Mean Time plus 2 uur - Gmt_p2 - Etc/GMT-2</li>
+               <li>(GMT+02:00) Greenwich Mean Time plus 2 uur - Gmt_p2 - EC/GMT-2</li>
                <li>(GMT+07:00) Krasnoïarsk - Azië_Krasnoyarsk - Azië/Krasnoyarsk</li>
                <li>(GMT+09:00) Greenwich Mean Time plus 9 uur - Gmt_p9 - EC/GMT-9</li>
                <li>(GMT+08:00) Greenwich Mean Time plus 8 uur - Gmt_p8 - Etc/GMT-8</li>
@@ -633,7 +633,7 @@ ht-degree: 1%
                <li>Abonnement op een service opzeggen - geen abonnement - 3</li>
                <li>Blacklist - blackList - 4</li>
                <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
-               <li>Overname - overname - 1</li>
+               <li>Verwerving - overname - 1</li>
                <li>Abonnement op een service - Abonnement - 2</li>
             </ul>
          </td>
@@ -693,7 +693,7 @@ Op status (per staat)
     </tr>
 </table>
 
-Door resource aan te wijzen (byTargetResource)
+Door resource als doel in te stellen (byTargetResource)
 
 <table>
 <tr>

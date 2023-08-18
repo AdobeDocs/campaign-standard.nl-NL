@@ -21,16 +21,16 @@ Met Adobe Campaign kunt u uw lijsten rechtstreeks in een bestand exporteren voor
 
 ![](assets/do-not-localize/how-to-video.png) [Ontdek hoe u een lijst in video kunt configureren](#video)
 
-Met de optie voor de exportlijst kunt u standaard maximaal 100.000 regels exporteren. Deze regels zijn gedefinieerd door de **Nms_ExportListLimit** optie. Deze optie kan door de functionele beheerder, onder **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** -menu.
+Met de optie voor de exportlijst kunt u standaard maximaal 100.000 regels exporteren. Deze regels zijn gedefinieerd door de **Nms_ExportListLimit** -optie. Deze optie kan door de functionele beheerder, onder **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** -menu.
 
 De lijst Exporteren is beschikbaar in alle schermen die een **Lijst** modus, voor gebruikers met de **[!UICONTROL EXPORT (export)]** rol.
 
 1. Ga naar uw keuze **Lijst** scherm. Bijvoorbeeld het overzichtsscherm van het testprofiel ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
-1. Controleer of het scherm zich in **Lijst** in.
+1. Controleer of het scherm zich in **Lijst** -modus.
 
    ![](assets/export_list_mode_switch.png)
 
-1. Organiseer de kolommen in de lijst in de volgorde waarin u ze wilt exporteren met de opdracht **[!UICONTROL Configure list]** in de rechterbovenhoek. Naast gevormde kolommen, zal de primaire sleutel van het middel ook worden uitgevoerd.
+1. Organiseer de kolommen in de lijst in de volgorde waarin u ze wilt exporteren met de opdracht **[!UICONTROL Configure list]** in de rechterbovenhoek Naast gevormde kolommen, zal de primaire sleutel van het middel ook worden uitgevoerd.
 1. U kunt desgewenst een filter toepassen. Klik hiertoe op de knop in de linkerbovenhoek om het zoekvenster weer te geven.
 
    Als u een export uitvoert vanuit een lijst die verschillende bronnen bevat, moet u uw filters toepassen zodat er slechts één type bron in de lijst wordt weergegeven.
@@ -40,9 +40,9 @@ De lijst Exporteren is beschikbaar in alle schermen die een **Lijst** modus, voo
 
    Er verschijnt een pop-up ter bevestiging van het exporteren. Nadat u het exporteren hebt bevestigd, wordt het bestand automatisch naar de computer gedownload.
 
-Het bestand wordt gegenereerd in CSV-indeling met de extensie .TXT. Deze naam is afhankelijk van de geëxporteerde bron en de exportdatum. Bijvoorbeeld: de naam profileBase_20150426_120253.txt zou worden toegepast op een profieluitvoer die op 26 april 2015 om 12 uur wordt uitgevoerd:02:53 Het is gecodeerd in UTF-8-indeling.
+Het bestand wordt gegenereerd in CSV-indeling met de extensie .TXT. Deze naam is afhankelijk van de geëxporteerde bron en de exportdatum. Bijvoorbeeld: de naam profileBase_20150426_120253.txt zou worden toegepast op een profielexport die op 26 april 2015 om 12 uur wordt uitgevoerd:02:53. Het is gecodeerd in UTF-8-indeling.
 
-De numerieke waarden en datums houden rekening met de lokale tijd (landinstelling) van de gebruiker die het exporteren uitvoert. Bijvoorbeeld: DD-MM-JJJJ of DD-MM-JJJJ.
+De numerieke waarden en datums houden rekening met de lokale tijd (landinstelling) van de gebruiker die het exporteren uitvoert. Bijvoorbeeld: DD-MM-YYYY of MM-DD-YYYY.
 
 Als u een exportbewerking wilt uitvoeren die groter is dan deze, moet u een specifieke workflow maken. Zie de [Bestand uitpakken](../../automating/using/extract-file.md) sectie.
 
@@ -51,7 +51,7 @@ Als u een exportbewerking wilt uitvoeren die groter is dan deze, moet u een spec
 In het volgende voorbeeld wordt een export uitgevoerd uit de onderstaande profiellijst:
 
 * Getoonde kolommen (in volgorde): Achternaam, Voornaam, Geboortedatum, E-mailadres.
-* Namen worden in alfabetische volgorde gesorteerd.
+* Namen worden alfabetisch gesorteerd.
 
 ![](assets/export_list_example1.png)
 
@@ -82,4 +82,4 @@ Deze video laat zien hoe u lijsten kunt configureren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
-Er zijn aanvullende Campaign Standard-hoe-kan-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).
+Er zijn aanvullende Campaign Standard-to-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).

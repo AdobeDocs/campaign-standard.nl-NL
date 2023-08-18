@@ -1,5 +1,5 @@
 ---
-title: Kwesties voor mobiel gebruik die in Adobe Campaign Standard worden ondersteund met de SDK's van Adobe Experience Platform
+title: Kwesties voor mobiel gebruik die in Adobe Campaign Standard worden ondersteund met de SDK van Adobe Experience Platform
 description: Leer hoe u problemen met mobiel gebruik kunt ondersteunen
 audience: channels
 feature: Instance Settings
@@ -20,7 +20,7 @@ Op deze pagina vindt u de lijst met alle gevallen voor mobiel gebruik die worden
 Adobe Campaign Standard ondersteunt de volgende gebruiksgevallen:
 
 * [Een mobiel profiel registreren in Campaign Standard](../../administration/using/supported-mobile-use-cases.md#register-mobile-profile)
-* [Een pushtoken verzenden naar Campaign Standard](../../administration/using/supported-mobile-use-cases.md#send-push-token)
+* [Een pushtoken naar het Campaign Standard verzenden](../../administration/using/supported-mobile-use-cases.md#send-push-token)
 * [Een mobiel profiel verrijken met aangepaste gegevens uit uw toepassing](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-custom)
 * [Een mobiel profiel verrijken met levenscyclusgegevens van uw toepassing](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-lifecycle)
 * [Gebruikersinteractie bijhouden met pushmeldingen](../../administration/using/supported-mobile-use-cases.md#track-user-push)
@@ -29,7 +29,7 @@ Adobe Campaign Standard ondersteunt de volgende gebruiksgevallen:
 
 Voor het configureren van deze gebruiksgevallen hebt u de volgende extensies nodig:
 
-* **[!DNL Adobe Campaign Standard]** <br>Als u de extensie Campaign Standard wilt installeren en configureren, raadpleegt u [De extensie Campaign Standard configureren in de gebruikersinterface voor gegevensverzameling](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#configure-the-campaign-standard-extension).
+* **[!DNL Adobe Campaign Standard]** <br>Om de uitbreiding van het Campaign Standard te installeren en te vormen, zie [Vorm de uitbreiding van het Campaign Standard in de Inzameling UI van Gegevens](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#configure-the-campaign-standard-extension).
 * **[!DNL Mobile Core]**, die automatisch wordt geïnstalleerd. <br>Voor meer informatie over de Mobile Core-extensie raadpleegt u [Mobiele kern](https://developer.adobe.com/client-sdks/documentation/mobile-core/).
 * **[!DNL Profile]**, die automatisch wordt geïnstalleerd. <br>Zie voor meer informatie over de profielextensie [Profiel](https://developer.adobe.com/client-sdks/documentation/profile/).
 
@@ -80,7 +80,7 @@ func applicationDidEnterBackground(_ application: UIApplication) {
 
 ### Met Android {#register-mobile-profile-android}
 
-In Android gaat u als volgt te werk [!DNL Experience Platform APIs] zijn vereist:
+In Android: [!DNL Experience Platform APIs] zijn vereist:
 
 * **[!UICONTROL OnResume]**
 * **[!UICONTROL OnPause]**
@@ -125,7 +125,7 @@ func application(_ application: UIApplication, didRegisterForRemoteNotifications
 
 ### Met Android {#send-push-token-android}
 
-In Android gaat u als volgt te werk [!DNL Experience Platform SDK] is vereist:
+In Android: [!DNL Experience Platform SDK] is vereist:
 
 * **[!UICONTROL setPushIdentifier]** <br>Zie voor meer informatie [setPushIdentifier](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
@@ -157,7 +157,7 @@ ACPCore.collectPii(["pushPlatform":"apns", "email":email, "firstName":firstName,
 
 ### Met Android {#enrich-mobile-profile-custom-android}
 
-In Android gaat u als volgt te werk [!DNL Experience Platform API] is vereist:
+In Android: [!DNL Experience Platform API] is vereist:
 
 * collectionPII <br> Zie collectPII voor meer informatie.
 
@@ -225,7 +225,7 @@ func applicationDidEnterBackground(_ application: UIApplication) {
 
 ### Met Android {#enrich-mobile-profile-lifecycle-android}
 
-In Android gaat u als volgt te werk [!DNL Experience Platform APIs] zijn vereist:
+In Android: [!DNL Experience Platform APIs] zijn vereist:
 
 * **[!UICONTROL OnResume]**
 * **[!UICONTROL OnPause]**
@@ -273,7 +273,7 @@ if (deliveryId != nil && broadlogId != nil) {
 
 ### Met Android {#track-user-push-android}
 
-In Android gaat u als volgt te werk [!DNL Experience Platform SDK] is vereist:
+In Android: [!DNL Experience Platform SDK] is vereist:
 
 * **[!UICONTROL trackAction]**
 Zie voor meer informatie [Toepassingsacties bijhouden](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
@@ -303,7 +303,7 @@ ACPCore.trackAction(mobileEventName, data: [:] )
 
 ### Met Android {#custom-event-inapp-android}
 
-In Android gaat u als volgt te werk [!DNL Experience Platform SDK] is vereist:
+In Android: [!DNL Experience Platform SDK] is vereist:
 
 * **[!UICONTROL trackAction]**
 Zie voor meer informatie [Toepassingsacties bijhouden](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).

@@ -26,17 +26,17 @@ Er zijn twee soorten ontvangers van proeven:
 
 * Met **testprofielen** kunt u aanvullende ontvangers die niet aan de gedefinieerde targetingcriteria voldoen, doelgericht benaderen.
 
-   Ze kunnen worden toegevoegd aan de doelgroep van een bericht om frauduleus gebruik van de database met ontvangers op te sporen of om ervoor te zorgen dat de e-mails in de inboxen aankomen. Zie [Testprofielen beheren](../../audiences/using/managing-test-profiles.md) voor meer informatie.
+  Ze kunnen worden toegevoegd aan de doelgroep van een bericht om frauduleus gebruik van de database met ontvangers op te sporen of om ervoor te zorgen dat de e-mails in de inboxen aankomen. Zie [Testprofielen beheren](../../audiences/using/managing-test-profiles.md) voor meer informatie.
 
-   >[!NOTE]
-   >
-   >Als u een proef wilt verzenden, moeten de testprofielen worden opgenomen in de doelgroep van uw bericht.
+  >[!NOTE]
+  >
+  >Als u een proef wilt verzenden, moeten de testprofielen worden opgenomen in de doelgroep van uw bericht.
 
 * Met **vervangingsprofielen** kunt u uzelf opgeven in de plaats van een van de doelprofielen en een exacte weergave krijgen van het bericht dat het profiel ontvangt. Zie [E-mailberichten testen met doelprofielen](../../sending/using/testing-messages-using-target.md) voor meer informatie.
 
-   >[!NOTE]
-   >
-   >Deze functie is alleen beschikbaar voor het e-mailkanaal.
+  >[!NOTE]
+  >
+  >Deze functie is alleen beschikbaar voor het e-mailkanaal.
 
 ## Een proef verzenden {#sending-a-proof}
 

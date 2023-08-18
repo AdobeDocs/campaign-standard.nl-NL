@@ -24,17 +24,17 @@ De bronworkflow wordt als volgt weergegeven:
 
 * Een activiteit [Bestand laden](../../automating/using/load-file.md) uploadt een bestand met nieuwe aankoopdata. Merk op dat de [database dienovereenkomstig is uitgebreid](../../developing/using/data-model-concepts.md) aangezien aankoopdata niet standaard aanwezig zijn in de datamart.
 
-   Bijvoorbeeld:
+  Bijvoorbeeld:
 
-   ```
-   tcode;tdate;customer;product;tamount
-   aze123;21/05/2015;dannymars@example.com;A2;799
-   aze124;28/05/2015;dannymars@example.com;A7;8
-   aze125;31/07/2015;john.smith@example.com;A7;8
-   aze126;14/12/2015;john.smith@example.com;A10;4
-   aze127;02/01/2016;dannymars@example.com;A3;79
-   aze128;04/03/2016;clara.smith@example.com;A8;149
-   ```
+  ```
+  tcode;tdate;customer;product;tamount
+  aze123;21/05/2015;dannymars@example.com;A2;799
+  aze124;28/05/2015;dannymars@example.com;A7;8
+  aze125;31/07/2015;john.smith@example.com;A7;8
+  aze126;14/12/2015;john.smith@example.com;A10;4
+  aze127;02/01/2016;dannymars@example.com;A3;79
+  aze128;04/03/2016;clara.smith@example.com;A8;149
+  ```
 
 * Bij een activiteit [Afstemming](../../automating/using/reconciliation.md) worden de koppelingen tussen de geïmporteerde data en de database tot stand gebracht, zodat de transactiedata correct aan profielen en producten worden gekoppeld.
 * Bij een activiteit [Data bijwerken](../../automating/using/update-data.md) wordt de resource Transacties van de database ingevoegd en bijgewerkt met de binnenkomende data.

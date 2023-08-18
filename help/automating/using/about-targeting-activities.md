@@ -40,7 +40,7 @@ De sectie **[!UICONTROL Targeting]** bevat de volgende activiteiten:
 
 ## Gegevens selecteren {#selecting-data}
 
-U kunt gegevens selecteren met de volgende activiteiten:
+U kunt gegevens selecteren met behulp van de volgende activiteiten:
 
 * Met de activiteit **[!UICONTROL Query]** kunt u een populatie van elementen filteren en extraheren uit de Adobe Campaign-database. Zie de [Query](../../automating/using/query.md) sectie.
 * Met de activiteit **[!UICONTROL Incremental query]** kunt u een populatie van elementen filteren en extraheren uit de Adobe Campaign-database. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Hierdoor kunt u alleen nieuwe elementen als doel instellen. Zie de koppeling. [Incrementele query](../../automating/using/incremental-query.md) sectie.
@@ -59,7 +59,7 @@ Met Adobe Campaign kunt u sets van binnenkomende gegevens verwerken. U kunt dus 
 
 De geïdentificeerde en verzamelde gegevens kunnen worden verrijkt, geaggregeerd en gemanipuleerd om de doelconstructie te optimaliseren. U kunt doelprocessen vereenvoudigen en optimaliseren door gegevens op te nemen die niet in de datamarkt zijn gemodelleerd.
 
-De **[!UICONTROL Additional data]** tabblad van het dialoogvenster **[!UICONTROL Query]** en **[!UICONTROL Incremental query]** De activiteiten staan u toe om de gegevens te verrijken die door de vraag worden gericht en deze gegevens over te brengen naar de volgende werkschemaactiviteiten, waar het kan worden gebruikt. U kunt met name het volgende toevoegen:
+De **[!UICONTROL Additional data]** tabblad van het **[!UICONTROL Query]** en **[!UICONTROL Incremental query]** De activiteiten staan u toe om de gegevens te verrijken die door de vraag worden gericht en deze gegevens over te brengen naar de volgende werkschemaactiviteiten, waar het kan worden gebruikt. U kunt met name het volgende toevoegen:
 
 * Eenvoudige data
 * Aggregaten
@@ -67,4 +67,4 @@ De **[!UICONTROL Additional data]** tabblad van het dialoogvenster **[!UICONTROL
 
 **Verwante onderwerpen:**
 
-* [Hoofdlettergebruik: Een e-mail aanpassen met aanvullende gegevens](../../automating/using/personalizing-email-with-additional-data.md)
+* [Hoofdlettergebruik: een e-mailadres aanpassen met aanvullende gegevens](../../automating/using/personalizing-email-with-additional-data.md)

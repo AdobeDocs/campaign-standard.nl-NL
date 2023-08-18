@@ -28,21 +28,21 @@ De importworkflow is als volgt ontworpen:
 
 * Met een activiteit [Bestand laden](../../automating/using/load-file.md) uploadt u een bestand met profieldata die uit een extern hulpprogramma zijn geëxtraheerd.
 
-   Bijvoorbeeld:
+  Bijvoorbeeld:
 
-   ```
-   lastname;firstname;birthdate;email;crmID
-   Smith;Hayden;23/05/1989;hayden.smith@example.com;124365
-   Mars;Daniel;17/11/1987;dannymars@example.com;123545
-   Smith;Clara;08/02/1989;hayden.smith@example.com;124567
-   Durance;Allison;15/12/1978;allison.durance@example.com;120987
-   Lucassen;Jody;28/03/1988;jody.lucassen@example.com;127634
-   Binder;Tom;19/01/1982;tombinder@example.com;128653
-   Binder;Tommy;19/01/1915;tombinder@example.com;134576
-   Connor;Jade;10/10/1979;connor.jade@example.com;132452
-   Mack;Clarke;02/03/1985;clarke.mack@example.com;149876
-   Ross;Timothy;04/07/1986;timross@example.com;157643
-   ```
+  ```
+  lastname;firstname;birthdate;email;crmID
+  Smith;Hayden;23/05/1989;hayden.smith@example.com;124365
+  Mars;Daniel;17/11/1987;dannymars@example.com;123545
+  Smith;Clara;08/02/1989;hayden.smith@example.com;124567
+  Durance;Allison;15/12/1978;allison.durance@example.com;120987
+  Lucassen;Jody;28/03/1988;jody.lucassen@example.com;127634
+  Binder;Tom;19/01/1982;tombinder@example.com;128653
+  Binder;Tommy;19/01/1915;tombinder@example.com;134576
+  Connor;Jade;10/10/1979;connor.jade@example.com;132452
+  Mack;Clarke;02/03/1985;clarke.mack@example.com;149876
+  Ross;Timothy;04/07/1986;timross@example.com;157643
+  ```
 
 * Met de activiteit [Doelgroep opslaan](../../automating/using/save-audience.md) worden de binnenkomende data als een doelgroep opgeslagen. Aangezien de data nog niet zijn afgestemd, is de doelgroep een doelgroep File en worden de data ervan nog niet herkend als profieldata.
 

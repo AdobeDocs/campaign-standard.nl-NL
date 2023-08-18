@@ -1,6 +1,6 @@
 ---
 title: Lees hier meer
-description: Moet lezen voordat API's kunnen worden gebruikt.
+description: Moet worden gelezen voordat API's kunnen worden gebruikt.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -20,14 +20,14 @@ ht-degree: 0%
 ## Technische voorschriften
 
 * Adobe Campaign API&#39;s mogen alleen worden gebruikt op Server.
-* Raadpleeg altijd uw technische Adobe-contactpersoon als het gebruiksscenario dat u wilt implementeren is uitgelijnd met de schaal die is toegestaan door Adobe Campaign API&#39;s.
+* Neem altijd contact op met de technische contactpersoon van de Adobe als het gebruiksscenario dat u wilt implementeren is uitgelijnd met de schaal die is toegestaan door Adobe Campaign API&#39;s.
 * Voor het instellen van een AdobeIO-toegang zijn specifieke machtigingen vereist. Neem contact op met de Adobe Support voor problemen.
 
 ## Rechten en toegang
 
 * Adobe Campaign API&#39;s gebruiken standaard de beheerderscontext en dus zijn de eenheden en rollen van de organisatie niet van toepassing.
 * De Adobe Campaign API&#39;s zijn uitgesloten van de rolcontext.
-* Als u APIs met een organisatie eenheid of rollen wilt vormen, gelieve eerst met uw aan Adobe technisch contact te controleren.
+* Als u APIs met een organisatieeenheid of een rollen wilt vormen, gelieve eerst met uw aan Adobe technische contact te controleren.
 
 ## Bronrepresentatie
 
@@ -65,7 +65,7 @@ Als de profielbron is uitgebreid met een veld met een aangepaste sleutel, kunt u
 
 `GET /.../profileAndServicesExt/profile/<customKey>`
 
-Aangepaste toetsen kunnen niet worden gewijzigd met een PATCH-bewerking als de sleutelwaarde afwijkt van de oorspronkelijke sleutel of als u uw eigen zakelijke sleutel gebruikt als URI in plaats van de sleutel die door Adobe wordt verschaft.
+Aangepaste toetsen kunnen niet worden gewijzigd met een PATCH-bewerking als de sleutelwaarde afwijkt van de oorspronkelijke sleutel of als u uw eigen zakelijke sleutel gebruikt als URI in plaats van de sleutel die door de Adobe wordt verschaft.
 
 Een aangepaste sleutel gebruiken voor **profielbronnen op hoofdniveau** alleen. URL&#39;s worden geretourneerd door de API en mogen nooit door uzelf worden gemaakt.
 

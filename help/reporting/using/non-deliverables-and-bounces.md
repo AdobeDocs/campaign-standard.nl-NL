@@ -28,6 +28,6 @@ De **[!UICONTROL Overview]** de tabel bevat de beschikbare gegevens over de moge
 * **Geleverd**: Het aantal geleverde e-mails.
 * **Zachte stuit**: Het totale aantal tijdelijke fouten, zoals een volledig postvak.
 * **Hard stuiteren**: Het totale aantal permanente fouten, zoals een onjuist e-mailadres.
-* **Bounces + fouten**: Het aantal berichten dat niet kon worden geleverd.
+* **Bounces + fouten**: Het aantal berichten dat niet kon worden afgeleverd.
 
 De **Uitsplitsing naar domein** de lijst maakt een lijst van de grenzen per ontvangers&#39; domeinen.

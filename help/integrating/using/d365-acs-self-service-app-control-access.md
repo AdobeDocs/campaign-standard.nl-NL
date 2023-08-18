@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # Toegang tot de Adobe Campaign Standard-integratie met Microsoft Dynamics 365 Self-Service App
 
-Voor deze configuratie moet u met een Experience Cloud (EC)-beheerder voor uw organisatie werken. Dit zijn de aanvankelijke stappen die worden vereist om u toegang tot de interface van de zelfbedieningstoepassing te geven. Zodra u toegang tot het hulpmiddel hebt, zult u opstellingsverbindingen aan uw gegevens en de stroom van gegevens tussen Adobe Campaign en de Dynamica 365 van Microsoft vormen.
+Voor deze configuratie moet u werken met een Experience Cloud (EC) Administrator voor uw organisatie. Dit zijn de aanvankelijke stappen die worden vereist om u toegang tot de interface van de zelfbedieningstoepassing te geven. Zodra u toegang tot het hulpmiddel hebt, zult u opstellingsverbindingen aan uw gegevens en de stroom van gegevens tussen Adobe Campaign en de Dynamica 365 van Microsoft vormen.
 
 >[!NOTE]
 >
@@ -30,14 +30,15 @@ In deze sectie leert u hoe u toegang kunt verlenen tot de Adobe Campaign Standar
 
 >[!IMPORTANT]
 >
-> Deze stappen vereisen **Beheerder** rol in de Experience Cloud voor uw organisatie.
+> Deze stappen vereisen **Beheerder** rol in het Experience Cloud voor uw organisatie.
+>
 
 1. Blader naar https://experience.adobe.com/ en meld u aan bij de Adobe Experience Cloud.
-1. Toegang krijgen tot **Admin Console**.
+1. Toegang krijgen tot de **Admin Console**.
 
    ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
-1. Klikken op **[!UICONTROL Products]** voor toegang tot uw Experience Cloud-oplossingen.
+1. Klikken op **[!UICONTROL Products]** om toegang te krijgen tot uw Experience Cloud oplossingen.
 
    ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
@@ -45,6 +46,7 @@ In deze sectie leert u hoe u toegang kunt verlenen tot de Adobe Campaign Standar
    >[!IMPORTANT]
    >
    >De resterende stappen in deze sectie worden uitgevoerd voor elk van uw campagneinstanties (ontwikkelen, tekst, productie).
+   >
 
 1. Klik op de eerste instantie die u wilt configureren.
 
@@ -54,13 +56,13 @@ In deze sectie leert u hoe u toegang kunt verlenen tot de Adobe Campaign Standar
 
    ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
-1. Klik op de knop **[!UICONTROL New Profile]** en voeg een nieuwe ingang toe genoemd: **Campaign Standard - uw-prod-instantie-naam - D365/ACS-integratie**
+1. Klik op de knop **[!UICONTROL New Profile]** en voeg een nieuwe ingang toe genoemd: **Campaign Standard - uw-prod-instantie-naam - D365/ACS Integratie**
 
    * Als dit item in de lijst wordt weergegeven, hoeft u niet verder te gaan. Klikken op **Adobe Campaign Standard** in het linkermenu en controleer de andere instanties van de Campagne.
 
    * Vervang &quot;uw-prod-instantie-naam&quot; door de werkelijke naam voor de instantie.
 
-1. U kunt de **[!UICONTROL Permission Group]** vervolgkeuzelijst met de standaardwaarde.
+1. U kunt de **[!UICONTROL Permission Group]** met de standaardwaarde.
 
 1. Als de items er als volgt uitzien, klikt u op de knop **[!UICONTROL Done]** knop.
 
@@ -74,7 +76,7 @@ In deze sectie leert u hoe u toegang kunt verlenen tot de Adobe Campaign Standar
 
 Van de **[!UICONTROL Products]**  pagina, selecteert u uw Campagne-instantie en volgt u de onderstaande stappen:
 
-1. Klik op het nieuwe profiel dat u eerder hebt gemaakt:  **Campaign Standard - uw-prod-instantie-naam - D365/ACS-integratie**
+1. Klik op het nieuwe profiel dat u eerder hebt gemaakt:  **Campaign Standard - uw-prod-instantie-naam - D365/ACS Integratie**
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
@@ -86,6 +88,6 @@ Van de **[!UICONTROL Products]**  pagina, selecteert u uw Campagne-instantie en 
 
 1. Voer de naam of het e-mailadres in van de gebruiker die u wilt toevoegen.  Selecteer het resultaat dat overeenkomt met de gebruiker.
 
-   Als dit de eerste keer is dat de gebruiker aan de organisatie wordt toegevoegd, voert u details in.
+   Als dit de eerste keer is wordt de gebruiker toegevoegd aan de organisatie, ga details in.
 
 1. Klik op **[!UICONTROL Save]** om te bevestigen.

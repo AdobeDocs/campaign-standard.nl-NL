@@ -37,7 +37,7 @@ Voer de onderstaande stappen uit om een abonnementsmechanisme te maken:
 
 ## Aanvullende bronnen
 
-* [Hoofdlettergebruik: Incrementele query op abonnees van een service](../../automating/using/incremental-query-on-subscribers.md)
-* [Hoofdlettergebruik: Meerdere abonnementstatussen bijwerken vanuit een bestand](../../automating/using/updating-subscriptions-from-file.md)
+* [Het geval van het gebruik: Incrementele vraag op abonnees aan de dienst](../../automating/using/incremental-query-on-subscribers.md)
+* [Hoofdlettergebruik: meerdere abonnementsstatussen bijwerken vanuit een bestand](../../automating/using/updating-subscriptions-from-file.md)
 * [Profielen na het importeren van een bestand abonneren op een specifieke service](../../automating/using/subscribing-profiles-from-file.md)
 * [Opt-in en opt-out in campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

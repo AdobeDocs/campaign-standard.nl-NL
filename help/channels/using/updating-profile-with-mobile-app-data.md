@@ -25,11 +25,11 @@ Op deze pagina worden de stappen beschreven voor het ontwikkelen van een workflo
 * **PII** staat voor &quot;Persoonlijk identificeerbare informatie&quot;. Het kan om het even welke gegevens zijn, met inbegrip van informatie die niet in de lijst van het Profiel van uw gegevensbestand van de Campagne zoals, bijvoorbeeld Analytics voor Mobiel verschijnt [Belangenpunten](../../integrating/using/about-campaign-points-of-interest-data-integration.md). PII wordt bepaald door de Mobiele Ontwikkelaar van de App, gewoonlijk met een Marketer.
 * **PII verzamelen** is een HTTP-POST-bewerking naar een Rest-API in Adobe Campaign Standard vanuit een Mobile-app.
 
-Het doel van dit gebruiksgeval is het maken of bijwerken van een Campaign Standard-profiel als de PII-gegevens die door een mobiele toepassing worden geretourneerd, profielgerelateerde gegevens bevatten.
+Het doel van dit gebruiksgeval is om een profiel van het Campaign Standard tot stand te brengen of bij te werken, als de PII gegevens die door een Mobiele Toepassing worden teruggekeerd op profiel betrekking hebbende gegevens bevatten.
 
 ## Vereisten
 
-Er zijn verschillende configuratiestappen om pushmeldingen in te schakelen in Campaign Standard, voordat Profielen kunnen worden gemaakt of bijgewerkt op basis van de abonnementsgegevens voor de mobiele app:
+Er zijn verschillende configuratiestappen om pushmeldingen in te schakelen in Campaign Standard voordat Profielen kunnen worden gemaakt of bijgewerkt op basis van de abonnementsgegevens voor de mobiele app:
 
 1. [Een mobiele toepassing maken](../../administration/using/configuring-a-mobile-application.md)
 1. [De Adobe Mobile SDK integreren met uw mobiele toepassing](../../administration/using/supported-mobile-use-cases.md).
@@ -46,7 +46,7 @@ Als u de profielbron wilt maken of bijwerken met PII-gegevens, moet u eerst de p
 
 In dit voorbeeld wordt **[!UICONTROL Fields]** de PII-gegevens die door de mobiele toepassing worden verzonden. De **[!UICONTROL Link to profiles]** geeft het veld aan dat wordt gebruikt om de PII te koppelen aan de profielgegevens, waarbij **cusEmail** afbeeldingen **@email**.
 
-De toewijzing voor Profielgegevens terwijl het uitbreiden van **[!UICONTROL Subscriptions to an Application]** resource is READ-ONLY. Het wordt gebruikt voor verzoening. Het profiel moet in het systeem worden ingevoerd met de gegevens die nodig zijn om het profiel in overeenstemming te brengen met de PII-gegevens. In ons geval moet een e-mailadres voor het profiel overeenkomen met een e-mail van de Collect PII om de afstemming te kunnen uitvoeren:
+De toewijzing voor Profielgegevens terwijl het uitbreiden van **[!UICONTROL Subscriptions to an Application]** resource is READ-ONLY. Het wordt gebruikt voor verzoening. Het profiel moet in het systeem worden ingevoerd met de gegevens die nodig zijn om het profiel te combineren met de PII-gegevens. In ons geval moet een e-mailadres voor het profiel overeenkomen met een e-mail van de Collect PII om de afstemming te kunnen uitvoeren:
 
 * Verzamel PII wordt ontvangen van een Mobiele App voor een gebruiker waar hun Voornaam &quot;Jane, Achternaam &quot;Doe&quot;is en E-mailadres janedoe@doe.com is.
 * De profielgegevens moeten afzonderlijk bestaan (de gegevens moeten bijvoorbeeld handmatig worden ingevoerd of afkomstig zijn van een andere bron), waarbij het e-mailadres van het profiel janedoe@doe.com is.
@@ -70,7 +70,7 @@ De belangrijkste stappen voor het samenstellen van de workflow zijn:
 In deze workflow wordt uitgegaan van de volgende vereisten:
 
 * Alle/alle velden die zijn uitgebreid, moeten beschikbaar zijn om de profieltabel te maken/bijwerken.
-* De tabel Profiel kan worden uitgebreid met ondersteuning voor velden die niet standaard worden ondersteund (bijvoorbeeld Grootte T-Shirt).
+* De tabel Profiel kan worden uitgebreid met velden die niet standaard worden ondersteund (bijvoorbeeld Grootte T-Shirt).
 * Om het even welk gebied van de lijst AppSubscription die leeg is zou niet in de Lijst van het Profiel moeten worden bijgewerkt.
 * Om het even welk verslag dat in de lijst AppSubscription is bijgewerkt zou in de volgende looppas van het Werkschema moeten worden omvat.
 
@@ -80,13 +80,13 @@ U bouwt de workflow door de volgende activiteiten naar de werkruimte te slepen e
 
 Voer vervolgens de onderstaande stappen uit om elke activiteit te configureren.
 
-### Configureer de **[!UICONTROL Scheduler]** activiteit
+### Vorm **[!UICONTROL Scheduler]** activiteit
 
 In de **[!UICONTROL General]** tabblad, stelt u de **[!UICONTROL Execution frequency]** (bijvoorbeeld &quot;Dagelijks&quot;), de **[!UICONTROL Time]** (bijvoorbeeld &quot;1:00:00&quot;) en de **[!UICONTROL Start]** (bijvoorbeeld de datum van vandaag).
 
 ![](assets/update_profile2.png)
 
-### Configureer de **[!UICONTROL Incremental query]** activiteit.
+### Vorm **[!UICONTROL Incremental query]** activiteit.
 
 1. In de **[!UICONTROL Properties]** klikt u op de knop **[!UICONTROL Select an element]** pictogram van de **[!UICONTROL Resource]** veld selecteert u vervolgens de **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** element.
 
@@ -100,7 +100,7 @@ In de **[!UICONTROL General]** tabblad, stelt u de **[!UICONTROL Execution frequ
 
    ![](assets/update_profile5.png)
 
-### Configureer de **[!UICONTROL Update data]** activiteit.
+### Vorm **[!UICONTROL Update data]** activiteit.
 
 1. In de **[!UICONTROL Identification]** zorgt u ervoor dat de **[!UICONTROL Dimension to update]** is ingesteld op Profielen (profiel) en klik vervolgens op **[!UICONTROL Create element]** om een veld toe te voegen als een afstemmingscriterium.
 

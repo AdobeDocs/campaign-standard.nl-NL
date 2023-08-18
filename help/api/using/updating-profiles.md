@@ -28,7 +28,7 @@ Het bijwerken van profielen wordt uitgevoerd met een **PATCH** verzoek.
 
 ***Voorbeeldverzoek***
 
-Voorbeeld van GET-aanvraag om een profiel op te halen.
+Voorbeeld van een GET-aanvraag om een profiel op te halen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\

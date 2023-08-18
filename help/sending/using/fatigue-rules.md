@@ -99,9 +99,9 @@ De volgende kanalen zijn beschikbaar:
 * Direct mail
 * Mobile application: met dit kanaal kunt u pushmeldingen verzenden naar profielen of naar app-abonnees. Als u ervoor kiest om meldingen naar profielen te verzenden, zijn deze compatibel met meerkanaals-moeheidsregels.
 
-   >[!IMPORTANT]
-   >
-   >Moeheidsregels zijn niet compatibel met pushmeldingen die naar app-abonnees worden verzonden. Als u berichten naar app-abonnees verzendt, zijn de moeheidsregels niet van toepassing.
+  >[!IMPORTANT]
+  >
+  >Moeheidsregels zijn niet compatibel met pushmeldingen die naar app-abonnees worden verzonden. Als u berichten naar app-abonnees verzendt, zijn de moeheidsregels niet van toepassing.
 
 * All channels: met deze optie kunt u de regel op alle kanalen toepassen. U kunt bijvoorbeeld kiezen om maximaal drie berichten per maand te verzenden voor elk kanaal. Als u vorige week twee e-mails naar een profiel hebt verzonden en u vandaag probeert een pushmelding te verzenden, wordt hetzelfde profiel uitgesloten.
 
@@ -135,11 +135,11 @@ Vervolgens hebt u twee opties:
 
 * Selecteer een profielveld: de drempelwaarde varieert voor elk profiel afhankelijk van het geselecteerde veld. Als u bijvoorbeeld de profielresource hebt uitgebreid met een veld voor communicatiefrequentie, klikt u op de knop rechts van het veld **[!UICONTROL Threshold computation formula]** en selecteert u het veld. Voor elk profiel krijgt de drempelwaarde de waarde van het veld voor communicatiefrequentie.
 
-   ![](assets/fatigue21.png)
+  ![](assets/fatigue21.png)
 
 * Definieer een formule: klik op de tweede knop rechts van het veld **[!UICONTROL Threshold computation formula]** om een geavanceerde formule voor de berekening van de drempelwaarde te definiëren. U kunt bijvoorbeeld het aantal geautoriseerde berichten indexeren op basis van het segment waartoe het profiel behoort. Dit betekent dat een profiel dat tot het segment Web behoort, meer berichten kan ontvangen dan andere profielen. Een formule van het type **[!UICONTROL Iif (@origin='Web', 5, 3)]** autoriseert de levering van vijf berichten aan profielen van het segment Web en drie berichten voor andere segmenten.
 
-   ![](assets/fatigue14.png)
+  ![](assets/fatigue14.png)
 
 **De drempelwaarde voor profielen en leveringen verfijnen**
 
@@ -176,15 +176,15 @@ Er zijn drie tabbladen beschikbaar waarin u de details kunt zien van de resultat
 
 * Leveringslogboeken:
 
-   ![](assets/fatigue17.png)
+  ![](assets/fatigue17.png)
 
 * Uitsluitingslogboeken:
 
-   ![](assets/fatigue18.png)
+  ![](assets/fatigue18.png)
 
 * Uitsluitingsoorzaken:
 
-   ![](assets/fatigue19.png)
+  ![](assets/fatigue19.png)
 
 ## Het overzichtsrapport voor moeheidsregels weergeven {#viewing-the-fatigue-rule-summary-report}
 
@@ -221,33 +221,33 @@ Er zijn veel mogelijkheden op het gebied van de implementatie van het beheer van
 
 * Een moeheidsregel maken met een **constante drempelwaarde** die van toepassing is op **alle kanalen**:
 
-   Stel dat u een meerkanaals-regel maakt met een constante drempelwaarde van 3 over een glijdende periode van 7 dagen.
+  Stel dat u een meerkanaals-regel maakt met een constante drempelwaarde van 3 over een glijdende periode van 7 dagen.
 
-   Vorige week hebben uw premiumprofielen een promotionele e-mail en een transactionele remarketing-e-mail ontvangen. U hebt ook een sms gepland die volgende week wordt verzonden. Vandaag besluit u een pushmelding te verzenden voor al uw profielen. De premiumprofielen worden uitgesloten van de pushmelding van vandaag omdat het maximumaantal berichten over een periode van 2 weken al is bereikt.
+  Vorige week hebben uw premiumprofielen een promotionele e-mail en een transactionele remarketing-e-mail ontvangen. U hebt ook een sms gepland die volgende week wordt verzonden. Vandaag besluit u een pushmelding te verzenden voor al uw profielen. De premiumprofielen worden uitgesloten van de pushmelding van vandaag omdat het maximumaantal berichten over een periode van 2 weken al is bereikt.
 
-   ![](assets/fatigue23.png)
+  ![](assets/fatigue23.png)
 
 * Een moeheidsregel maken met een **variabele drempelwaarde** op basis van een **profielveld**:
 
-   U hebt de profielresource uitgebreid met een veld voor een communicatielimiet om een andere drempelwaarde voor elk profiel te definiëren. Definieer in uw moeheidsregel een variabele drempelwaarde op basis van dit veld en selecteer een glijdende periode van 2 dagen. Neem twee voorbeelden van profielen: John heeft een communicatielimiet van 1 en David heeft een drempelwaarde van 2. Beiden hebben gisteren al een e-mail met een nieuwsbrief ontvangen. U besluit ze vandaag nog een e-mail te sturen. Alleen David zal de e-mail ontvangen, omdat John van de doelgroep is uitgesloten.
+  U hebt de profielresource uitgebreid met een veld voor een communicatielimiet om een andere drempelwaarde voor elk profiel te definiëren. Definieer in uw moeheidsregel een variabele drempelwaarde op basis van dit veld en selecteer een glijdende periode van 2 dagen. Neem twee voorbeelden van profielen: John heeft een communicatielimiet van 1 en David heeft een drempelwaarde van 2. Beiden hebben gisteren al een e-mail met een nieuwsbrief ontvangen. U besluit ze vandaag nog een e-mail te sturen. Alleen David zal de e-mail ontvangen, omdat John van de doelgroep is uitgesloten.
 
-   ![](assets/fatigue24.png)
+  ![](assets/fatigue24.png)
 
 * Een moeheidsregel maken met behulp van een **formule voor de berekening van drempelwaarden**:
 
-   U wilt de drempelwaarde wijzigen op basis van de leeftijd van uw profielen. Als een profiel jonger is dan 40 jaar, wilt u een limiet van 4 definiëren en voor oudere profielen wilt u een limiet van 2 instellen. In plaats van deze drempelwaarde voor elk profiel met een uitgebreid veld te definiëren, kunt u rechtstreeks in de moeheidsregel een formule maken om de drempelwaarde op basis van de leeftijd van het profiel te berekenen. In ons voorbeeld zou de formule als volgt zijn: **[!UICONTROL Iif (@age<40, 4, 2)]**.
+  U wilt de drempelwaarde wijzigen op basis van de leeftijd van uw profielen. Als een profiel jonger is dan 40 jaar, wilt u een limiet van 4 definiëren en voor oudere profielen wilt u een limiet van 2 instellen. In plaats van deze drempelwaarde voor elk profiel met een uitgebreid veld te definiëren, kunt u rechtstreeks in de moeheidsregel een formule maken om de drempelwaarde op basis van de leeftijd van het profiel te berekenen. In ons voorbeeld zou de formule als volgt zijn: **[!UICONTROL Iif (@age<40, 4, 2)]**.
 
-   ![](assets/fatigue25.png)
+  ![](assets/fatigue25.png)
 
-   >[!NOTE]
-   >
-   >Deze sectie bevat ook een stapsgewijs voorbeeld van een moeheidsregel met een formule voor de berekening van drempelwaarden.
+  >[!NOTE]
+  >
+  >Deze sectie bevat ook een stapsgewijs voorbeeld van een moeheidsregel met een formule voor de berekening van drempelwaarden.
 
 * Een moeheidsregel maken die de **drempelwaarde voor profielen en leveringen verfijnt**:
 
-   U hebt de profielresource uitgebreid met een veld Score en u hebt de resource van de leveringen ook uitgebreid met een veld Type. U wilt een constante drempelwaarde van 3 definiëren, maar u wilt alle leveringen van het type Alert of Black Friday en alle profielen met een score van meer dan 10 uitsluiten van de telling. Wanneer de regel wordt uitgevoerd, telt deze in de vroegere en geplande leveringen alle leveringen die niet van het type Alert of Black Friday zijn en die naar profielen met een score lager dan 10 zijn verzonden.
+  U hebt de profielresource uitgebreid met een veld Score en u hebt de resource van de leveringen ook uitgebreid met een veld Type. U wilt een constante drempelwaarde van 3 definiëren, maar u wilt alle leveringen van het type Alert of Black Friday en alle profielen met een score van meer dan 10 uitsluiten van de telling. Wanneer de regel wordt uitgevoerd, telt deze in de vroegere en geplande leveringen alle leveringen die niet van het type Alert of Black Friday zijn en die naar profielen met een score lager dan 10 zijn verzonden.
 
-   ![](assets/fatigue26.png)
+  ![](assets/fatigue26.png)
 
 Hier vindt u een stapsgewijs voorbeeld van een moeheidsregel met een formule voor de berekening van drempelwaarden.
 

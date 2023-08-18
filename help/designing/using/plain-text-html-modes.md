@@ -1,6 +1,6 @@
 ---
 title: Onbewerkte tekst, HTML en mobiele e-mailindelingen bewerken
-description: De modi Onbewerkte tekst en HTML ontdekken
+description: De modi Onbewerkte tekst en HTML
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -29,7 +29,7 @@ De gebieden van de aanpassing en inhoudsblokken die aan de versie van de HTML wo
 >
 >Als u inhoudsblokken wilt gebruiken in de versie zonder opmaak, moet u ervoor zorgen dat ze geen HTML-code bevatten.
 
-Als u een andere versie voor normale tekst wilt gebruiken dan de versie HTML, kunt u deze synchronisatie uitschakelen door op de knop **[!UICONTROL Sync with HTML]** van de schakelaar van **[!UICONTROL Plain text]** weergave van uw e-mail.
+Als u een andere versie voor normale tekst wilt gebruiken dan de versie HTML, kunt u deze synchronisatie uitschakelen door op de knop **[!UICONTROL Sync with HTML]** schakelen van de **[!UICONTROL Plain text]** weergave van uw e-mail.
 
 ![](assets/email_designer_textversion.png)
 
@@ -37,7 +37,7 @@ Vervolgens kunt u de versie zonder tekst naar wens bewerken.
 
 >[!NOTE]
 >
->Als u de **[!UICONTROL Plain text]** versie terwijl synchronisatie is uitgeschakeld, de volgende keer dat u de optie **[!UICONTROL Sync with HTML]** alle wijzigingen die u hebt aangebracht in de versie zonder opmaak worden vervangen door de versie HTML. De in **[!UICONTROL Plain text]** weergave kan niet worden gereflecteerd in **[!UICONTROL HTML]** weergeven.
+>Als u de **[!UICONTROL Plain text]** versie terwijl synchronisatie is uitgeschakeld, de volgende keer dat u de optie **[!UICONTROL Sync with HTML]** alle wijzigingen die u hebt aangebracht in de versie zonder opmaak worden vervangen door de versie HTML. De in **[!UICONTROL Plain text]** weergave kan niet worden weerspiegeld in **[!UICONTROL HTML]** weergeven.
 
 ## Een e-mailinhoudsbron bewerken in HTML {#editing-an-email-content-source-in-html}
 
@@ -47,13 +47,13 @@ U kunt de HTML-versie van het e-mailbericht op twee manieren bewerken:
 
 * Selecteren **[!UICONTROL Edit]** > **[!UICONTROL HTML]** om de HTML-versie van het volledige e-mailbericht te openen.
 
-   ![](assets/email_designer_html1.png)
+  ![](assets/email_designer_html1.png)
 
 * Selecteer een element in de WYSIWYG-interface en klik op de knop **[!UICONTROL Source code]** pictogram.
 
-   Alleen de bron van het geselecteerde element wordt weergegeven. U kunt de broncode bewerken als het geselecteerde element een **[!UICONTROL HTML]** inhoudscomponent. Andere onderdelen worden alleen-lezen weergegeven, maar kunnen nog wel worden bewerkt in de volledige HTML-versie van het e-mailbericht.
+  Alleen de bron van het geselecteerde element wordt weergegeven. U kunt de broncode bewerken als het geselecteerde element een **[!UICONTROL HTML]** inhoudscomponent. Andere onderdelen worden alleen-lezen weergegeven, maar kunnen nog wel worden bewerkt in de volledige HTML-versie van het e-mailbericht.
 
-   ![](assets/email_designer_html2.png)
+  ![](assets/email_designer_html2.png)
 
 Als u de HTML van de code wijzigt, kan de reactiesnelheid van de e-mail worden verbroken. Zorg ervoor dat u het bestand test met het gereedschap **[!UICONTROL Preview]** knop. Zie [Berichten voorvertonen](../../sending/using/previewing-messages.md).
 
@@ -122,7 +122,7 @@ Alle stijlopties zijn beschikbaar in de mobiele weergave. De e-mailDesigner-stij
 
    ![](assets/email_designer_mobile_view_background_mobile_disabled.png)
 
-   De achtergrondkleur die is gedefinieerd in de bureaubladweergave wordt nu toegepast: wordt grijs (niet leeg).
+   De achtergrondkleur die in de bureaubladweergave is gedefinieerd, wordt nu toegepast: de achtergrondkleur wordt grijs (niet leeg).
 
    De enige uitzondering is de **[!UICONTROL Border color]** instellen. Wanneer deze optie is uitgeschakeld in de mobiele weergave, wordt er geen rand meer toegepast, zelfs niet wanneer een randkleur is gedefinieerd in de desktopweergave.
 

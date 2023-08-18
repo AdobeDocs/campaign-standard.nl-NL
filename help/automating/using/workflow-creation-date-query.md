@@ -18,7 +18,7 @@ ht-degree: 38%
 
 # Leveringen maken op de maakdatum van profielen {#creation-date-query}
 
-U kunt een voorstel via e-mail verzenden op de verjaardag van het maken van het profiel van de klant.
+U kunt een voorstel via e-mail verzenden op de dag dat de klant het profiel heeft gemaakt.
 
 1. Klik in **[!UICONTROL Marketing Activities]** op **[!UICONTROL Create]** en selecteer **[!UICONTROL Workflow]**.
 1. Selecteer **[!UICONTROL New Workflow]** als workflowtype en klik op **[!UICONTROL Next]**.
@@ -26,7 +26,7 @@ U kunt een voorstel via e-mail verzenden op de verjaardag van het maken van het 
 
 ## Een activiteit Planner maken {#creating-a-scheduler-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, slepen en neerzetten [Planner](../../automating/using/scheduler.md) activiteit.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, een [Planner](../../automating/using/scheduler.md) activiteit.
 1. Dubbelklik op de activiteit.
 1. Configureer de uitvoering van uw levering.
 1. In **[!UICONTROL Execution frequency]** selecteert u **[!UICONTROL Daily]**.
@@ -52,7 +52,7 @@ U kunt een voorstel via e-mail verzenden op de verjaardag van het maken van het 
 1. In de **[!UICONTROL list of functions]**, dubbelklikken **[!UICONTROL Day]** van de **[!UICONTROL Date]** knooppunt.
 1. Voeg vervolgens het veld in **[!UICONTROL Created]** als argument.
 1. Selecteren **[!UICONTROL equals to (=)]** als de operator.
-1. Selecteer bij Waarde **[!UICONTROL Day]** van de **[!UICONTROL Date]** knooppunt in **[!UICONTROL List of functions]**.
+1. Selecteer bij Waarde **[!UICONTROL Day]** van de **[!UICONTROL Date]** knooppunt in de **[!UICONTROL List of functions]**.
 1. Voeg de **[!UICONTROL GetDate()]** functie als argument.
 
 U hebt de profielen opgehaald die op de aanmaakdag gelijk zijn aan de huidige dag.

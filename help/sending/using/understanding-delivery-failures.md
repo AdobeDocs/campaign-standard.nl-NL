@@ -66,8 +66,8 @@ De mogelijke redenen van een leveringsfout zijn:
 | **[!UICONTROL Duplicate]** | Genegeerd | Het adres is reeds ontdekt in de segmentatie. |
 | **[!UICONTROL Not defined]** | Zacht | het adres is in kwalificatie omdat de fouten niet zijn verhoogd. | toch. Dit type fout treedt op wanneer een nieuw foutbericht wordt verzonden door de server: het kan een geïsoleerde fout zijn, maar als deze opnieuw voorkomt, zal de foutenteller stijgen en worden de technische teams gewaarschuwd. |
 | **[!UICONTROL Error ignored]** | Genegeerd | Het adres staat op de lijst van gewenste personen en er zal in elk geval een e-mail naar worden gestuurd. |
-| **[!UICONTROL Address on denylist]** | Hard | Het adres werd toegevoegd aan de lijst van gewezen personen toen het verzenden. |
-| **[!UICONTROL Account disabled]** | Zacht/Hard | Wanneer de Internet Access Provider (IAP) een lange periode van inactiviteit ontdekt, kan het de rekening van de gebruiker sluiten: levering aan het adres van de gebruiker zal dan onmogelijk zijn. Het type Soft of Hard is afhankelijk van het type ontvangen fout: als het account tijdelijk is uitgeschakeld vanwege een inactiviteit van zes maanden en nog steeds kan worden geactiveerd, wordt de status **[!UICONTROL Erroneous]** toegewezen en wordt de levering opnieuw geprobeerd. Als de ontvangen fout aangeeft dat het account permanent is gedeactiveerd, wordt de levering rechtstreeks in quarantaine geplaatst. |
+| **[!UICONTROL Address on denylist]** | Hard | Het adres werd toegevoegd aan de lijst van gewezen personen op het tijdstip van verzending. |
+| **[!UICONTROL Account disabled]** | Zacht/Hard | Wanneer de Internet Access Provider (IAP) een lange periode van inactiviteit detecteert, kan deze de account van de gebruiker sluiten: de levering aan het adres van de gebruiker is dan onmogelijk. Het type Soft of Hard is afhankelijk van het type ontvangen fout: als het account tijdelijk is uitgeschakeld vanwege een inactiviteit van zes maanden en nog steeds kan worden geactiveerd, wordt de status **[!UICONTROL Erroneous]** toegewezen en wordt de levering opnieuw geprobeerd. Als de ontvangen fout aangeeft dat het account permanent is gedeactiveerd, wordt de levering rechtstreeks in quarantaine geplaatst. |
 | **[!UICONTROL Not connected]** | Genegeerd | De mobiele telefoon van het profiel is uitgeschakeld of heeft geen verbinding met het netwerk wanneer het bericht wordt verzonden. |
 | **[!UICONTROL Invalid domain]** | Zacht | Het domein van het e-mailadres is onjuist of bestaat niet meer. Dit profiel wordt opnieuw geactiveerd tot het aantal fouten 5 is. Hierna wordt de record ingesteld op de status Quarantaine en wordt de levering niet opnieuw geprobeerd. |
 | **[!UICONTROL Text too long]** | Genegeerd | Het aantal tekens in het SMS-bericht overschrijdt de limiet. Zie [Sms-codering, -lengte en -transliteratie](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) voor meer informatie. |
@@ -96,7 +96,7 @@ Als u bijvoorbeeld opnieuw wilt proberen om een levering na één dag te stoppen
 
 >[!NOTE]
 >
->Als een bericht maximaal 3,5 dagen in de wachtrij voor opnieuw proberen is geweest en niet is geleverd, wordt een time-out weergegeven en wordt de status van het bericht bijgewerkt<!--from **[!UICONTROL Sent]**--> tot **[!UICONTROL Failed]** in de [leveringslogs](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+>Als een bericht maximaal 3,5 dagen in de wachtrij voor opnieuw proberen is geweest en niet is geleverd, wordt een time-out gegenereerd en wordt de status bijgewerkt<!--from **[!UICONTROL Sent]**--> tot **[!UICONTROL Failed]** in de [leveringslogs](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -116,7 +116,7 @@ Voor de synchrone foutenmeldingen van de leveringsmislukking, bepaalt Adobe Camp
 >
 >De kwalificaties voor niet-bezorging in de tabel **[!UICONTROL Message qualification]** van Campaign worden niet meer gebruikt.
 
-Asynchrone niet-bezorgingen worden nog steeds gekwalificeerd door het inMail-proces aan de hand van de regels voor **[!UICONTROL Inbound email]**. Klik op de knop **Adobe** logo, linksboven, en selecteer vervolgens **[!UICONTROL Administration > Channels > Email > Email processing rules]** en selecteert u **[!UICONTROL Bounce mails]**. Voor meer informatie over deze regel raadpleegt u [deze sectie](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Asynchrone niet-bezorgingen worden nog steeds gekwalificeerd door het inMail-proces aan de hand van de regels voor **[!UICONTROL Inbound email]**. Klik op de knop **Adobe** logo, linksboven, en selecteer vervolgens **[!UICONTROL Administration > Channels > Email > Email processing rules]** en selecteert u **[!UICONTROL Bounce mails]**. Zie voor meer informatie over deze regel [deze sectie](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
 Zie voor meer informatie over stuiteringen en de verschillende soorten stuiteringen [deze sectie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 

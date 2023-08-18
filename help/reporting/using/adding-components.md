@@ -27,11 +27,11 @@ Componenten helpen u bij het aanpassen van rapporten met verschillende afmetinge
 
    De tabel met componenten bestaat uit vier categorieën:
 
-   * **Dimension**: Krijg details van het leveringslogboek, zoals browser of domein van de ontvanger, of het succes van een levering.
+   * **Dimensionen**: Krijg details van het leveringslogboek, zoals browser of domein van de ontvanger, of het succes van een levering.
    * **Metrisch**: Meer informatie over de status van een bericht. Als bijvoorbeeld een bericht is verzonden en de gebruiker het heeft geopend.
-   * **[!UICONTROL Segments]**: Gegevens filteren op basis van het leeftijdsbereik van de ontvanger. **[!UICONTROL Segments]** U kunt rechtstreeks slepen en neerzetten in een vrije-vormtabel of in de bovenste balk van het deelvenster.
+   * **[!UICONTROL Segments]**: De gegevens van de filter afhankelijk van de leeftijdswaaier van de ontvanger. **[!UICONTROL Segments]** U kunt rechtstreeks slepen en neerzetten in een vrije-vormtabel of in de bovenste balk van het deelvenster.
 
-      Deze categorie is alleen beschikbaar als de beheerder de voorwaarden van de Dynamic Reporting Usage Agreement heeft goedgekeurd die op het scherm worden weergegeven. Als de beheerder de overeenkomst afwijst, zijn de segmenten niet zichtbaar in het dialoogvenster **[!UICONTROL Components]** worden niet verzameld.
+     Deze categorie is alleen beschikbaar als de beheerder de voorwaarden van de Dynamic Reporting Usage Agreement heeft goedgekeurd die op het scherm worden weergegeven. Als de beheerder de overeenkomst afwijst, zijn de segmenten niet zichtbaar in het dialoogvenster **[!UICONTROL Components]** worden niet verzameld.
 
    * **Tijd**: Stel een tijdsperiode in voor uw tabel.
 
@@ -39,7 +39,7 @@ Componenten helpen u bij het aanpassen van rapporten met verschillende afmetinge
 
    ![](assets/dynamic_report_components_2.png)
 
-1. Nadat u de component hebt gesleept en neergezet, kunt u de tabel verder configureren met de **[!UICONTROL Row settings]** optie.
+1. Nadat u de component hebt gesleept en neergezet, kunt u de tabel verder configureren met de **[!UICONTROL Row settings]** -optie.
 
    ![](assets/dynamic_report_components_3.png)
 

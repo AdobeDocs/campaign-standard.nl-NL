@@ -21,11 +21,11 @@ ht-degree: 3%
 >
 > Adobe Experience Platform Launch is omgedoopt tot een reeks technologieën voor gegevensverzameling in Adobe Experience Platform. Diverse terminologische wijzigingen zijn als gevolg hiervan in de productdocumentatie doorgevoerd. Raadpleeg de [volgend document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html) voor een geconsolideerde referentie van de terminologische wijzigingen.
 
-Merk op dat de pushmelding en de implementaties in de app door deskundige gebruikers moeten worden uitgevoerd. Neem voor hulp contact op met uw Adobe-accountmanager of Professional-servicepartner.
+Merk op dat de pushmelding en de implementaties in de app door deskundige gebruikers moeten worden uitgevoerd. Neem voor hulp contact op met uw Adobe Account Executive of Professional Services-partner.
 
 Als u pushmeldingen en In-App-berichten wilt verzenden met de SDK-toepassing van het Experience Platform, moet een mobiele toepassing worden ingesteld in de gebruikersinterface voor gegevensverzameling en worden geconfigureerd in Adobe Campaign.
 
-Zodra een mobiele toepassing is ingesteld, kunt u de verzamelde PII-gegevens ophalen om profielen te maken of bij te werken vanuit uw database. Raadpleeg voor meer informatie deze sectie: [Profielgegevens maken en bijwerken op basis van gegevens van mobiele toepassingen](../../channels/using/updating-profile-with-mobile-app-data.md).
+Zodra een mobiele toepassing is ingesteld, kunt u de PII-gegevens ophalen die zijn verzameld om profielen te maken of bij te werken vanuit uw database. Raadpleeg voor meer informatie deze sectie: [Profielgegevens maken en bijwerken op basis van gegevens van mobiele toepassingen](../../channels/using/updating-profile-with-mobile-app-data.md).
 
 Als u meer wilt weten over de verschillende gevallen van mobiel gebruik die in Adobe Campaign Standard worden ondersteund met de SDK&#39;s van Adobe Experience Platform, raadpleegt u deze [page](../../administration/using/supported-mobile-use-cases.md).
 
@@ -42,7 +42,7 @@ Voer de volgende stappen uit om de configuratie te voltooien:
    * In Adobe Campaign Standard moet u ervoor zorgen dat de IMS-gebruiker deel uitmaakt van de standaardprofielen voor gebruikers- en beheerproducten. Met deze stap kan de gebruiker zich aanmelden bij Adobe Campaign Standard, naar de pagina voor de mobiele app van de SDK van het Experience Platform navigeren en de eigenschappen van de mobiele app weergeven die u hebt gemaakt in de gebruikersinterface voor gegevensverzameling.
 
    * Controleer in de gebruikersinterface voor gegevensverzameling of uw IMS-gebruiker deel uitmaakt van een productprofiel van een Experience Platform Launch.
-Met deze stap kan de gebruiker zich aanmelden bij de gebruikersinterface voor gegevensverzameling om de eigenschappen te maken en weer te geven. Voor meer informatie over productprofielen in de UI van de Inzameling van Gegevens, zie [Uw productprofiel maken](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile). In het productprofiel, zou er geen toestemmingen moeten zijn die op het bedrijf of de eigenschappen worden geplaatst, maar de gebruiker zou nog login moeten kunnen.
+Met deze stap kan de gebruiker zich aanmelden bij de gebruikersinterface voor gegevensverzameling om de eigenschappen te maken en weer te geven. Zie voor meer informatie over productprofielen in de gebruikersinterface voor gegevensverzameling [Uw productprofiel maken](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile). In het productprofiel, zou er geen toestemmingen moeten zijn die op het bedrijf of de eigenschappen worden geplaatst, maar de gebruiker zou nog login moeten kunnen.
 
    Als u aanvullende taken wilt uitvoeren, zoals het installeren van een extensie, het publiceren van een app, het configureren van omgevingen, enzovoort, moet u machtigingen instellen in het productprofiel.
 
@@ -77,7 +77,7 @@ Standaard begint de technische werkstroom elke 15 minuten. Indien nodig kan de t
 
    ![](assets/launch_11.png)
 
-De workflow start en synchroniseert nu de mobiele eigenschappen van de tag die in Adobe Campaign Standard zijn geïmporteerd.
+De workflow wordt nu opnieuw gestart en gesynchroniseerd met de mobiele eigenschappen van de tag die in Adobe Campaign Standard zijn geïmporteerd.
 
 ## Toepassing instellen in Adobe Campaign {#set-up-campaign}
 
@@ -100,9 +100,9 @@ haar **[!UICONTROL Property Status]** moeten **[!UICONTROL Ready to configure]**
 
    >[!NOTE]
    >
-   >Door gebrek, om de lijst van mobiele toepassingen terug te winnen die in de UI van de Inzameling van Gegevens worden gecreeerd, gebruikt Campaign Standard de waarde die in de optie NmsServer_URL wordt bepaald om passende eigenschappen te zoeken.
+   >Door gebrek, om de lijst van mobiele toepassingen terug te winnen die in de UI van de Inzameling van Gegevens worden gecreeerd, gebruikt het Campaign Standard de waarde die in de optie NmsServer_URL wordt bepaald om passende eigenschappen te zoeken.
    >
-   >In sommige gevallen, kan het eindpunt van de Campagne voor een mobiele toepassing van die in NmsServer_URL worden bepaald verschillend zijn. In dat geval definieert u het eindpunt in het dialoogvenster `Launch_URL_Campaign` optie. De campagne zal de waarde van deze optie gebruiken om passende eigenschappen in de UI van de Inzameling van Gegevens te zoeken.
+   >In sommige gevallen, kan het eindpunt van de Campagne voor een mobiele toepassing van die in NmsServer_URL worden bepaald verschillend zijn. In dat geval definieert u het eindpunt in het dialoogvenster `Launch_URL_Campaign` -optie. De campagne zal de waarde van deze optie gebruiken om passende eigenschappen in de UI van de Inzameling van Gegevens te zoeken.
 
    ![](assets/launch_4.png)
 
@@ -132,7 +132,7 @@ Uw mobiele toepassing kan nu worden gebruikt in Campagne voor pushberichten of i
 
 1. Selecteer de mobiele toepassing die u hebt gemaakt en geconfigureerd in de gebruikersinterface voor gegevensverzameling.
 
-1. Op de **[!UICONTROL Mobile application properties]** kunt u gebeurtenissen toevoegen die beschikbaar zijn in uw mobiele toepassing voor uw In-App-berichten.
+1. Op de **[!UICONTROL Mobile application properties]** kunt u beginnen met het toevoegen van gebeurtenissen die beschikbaar zijn in uw mobiele toepassing voor uw In-App-berichten.
 
 1. Om uw gebeurtenissen te vormen, klik **[!UICONTROL Create Element]**.
 

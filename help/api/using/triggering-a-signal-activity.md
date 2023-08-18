@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Een signaalactiviteit activeren {#triggering-a-signal-activity}
 
-In een Adobe Campaign Standard-workflow kunnen er een of meer **Extern signaal** activiteiten. Deze activiteiten zijn &#39;listeners&#39; die wachten op activering.
+In een Adobe Campaign Standard-workflow kunnen er een of meer **Extern signaal** activiteiten. Deze activiteiten zijn &#39;listeners&#39; die wachten om te worden geactiveerd.
 
 Met Campaign Standard-API&#39;s kunt u een **Extern signaal** activiteit om een werkschema te roepen. De API-aanroep kan parameters bevatten die worden opgenomen in de gebeurtenisvariabelen van de workflow (een doelnaam, een bestandsnaam die moet worden geïmporteerd, een deel van de berichtinhoud, enz.). Op deze manier kunt u uw campagneautomatisering eenvoudig integreren met uw externe systeem.
 

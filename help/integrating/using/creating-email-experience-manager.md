@@ -37,12 +37,12 @@ Er zijn verschillende sjablonen beschikbaar die specifiek zijn voor Adobe Campai
 
 Standaard kunt u met twee vooraf gedefinieerde sjablonen e-mailinhoud voor Adobe Campaign maken.
 
-* **[!UICONTROL Adobe Campaign Email]**: Deze sjabloon bevat een standaardinhoud die u kunt aanpassen. U kunt kiezen tussen Adobe Campaign-e-mail (AC6.1) en Adobe Campaign-e-mail (ACS).
-* **[!UICONTROL Importer Page]**: Met deze sjabloon kunt u een ZIP-bestand importeren dat een HTML-bestand bevat met inhoud die u vervolgens kunt aanpassen.
+* **[!UICONTROL Adobe Campaign Email]**: deze sjabloon bevat een standaardinhoud die u kunt aanpassen. U kunt kiezen tussen Adobe Campaign-e-mail (AC6.1) en Adobe Campaign-mail (ACS).
+* **[!UICONTROL Importer Page]**: met deze sjabloon kunt u een ZIP-bestand importeren dat een HTML-bestand bevat met inhoud die u vervolgens kunt aanpassen.
 
 1. Maak in Adobe Experience Manager een nieuwe **[!UICONTROL Page]**.
 
-1. Selecteer **[!UICONTROL Adobe Campaign Email]** sjabloon. Raadpleeg de volgende video voor de gedetailleerde stappen.
+1. Selecteer de **[!UICONTROL Adobe Campaign Email]** sjabloon. Raadpleeg de volgende video voor de gedetailleerde stappen.
    >[!VIDEO](https://video.tv.adobe.com/v/29997)
 
 1. Open uw nieuwe e-mailinhoud.

@@ -30,7 +30,7 @@ U kunt expressies bewerken om:
 
 * Een query te definiëren via de optie **[!UICONTROL Advanced mode]** die beschikbaar is wanneer een regel wordt toegevoegd.
 
-   ![](assets/expression_editor_2.png)
+  ![](assets/expression_editor_2.png)
 
 * Een expressie te bewerken in een workflow, bijvoorbeeld om extra data aan een activiteit toe te voegen.
 * Een zichtbaarheidsvoorwaarde te bewerken om te bepalen hoe een blok in de HTML-contenteditor wordt weergegeven. In dit geval wordt de expressie bewerkt in JavaScript-indeling en kunnen geavanceerde functies niet als standaard worden gebruikt.
@@ -76,9 +76,9 @@ De standaardexpressies bestaan uit een of meer voorwaarden die voldoen aan de vo
    * **&lt;comparison operator>** een van de operatoren is die worden vermeld in de sectie [Vergelijkingsoperatoren](../../automating/using/advanced-expression-editing.md#comparison-operators). Deze operator definieert de vergelijkingsmethode tussen **&lt;value1>** en **&lt;value2>**.
    * **&lt;value2>** een veld, een functie of een waarde is die handmatig wordt ingevoerd.
 
-   >[!NOTE]
-   >
-   >De typegegevens voor **&lt;value1>** en **&lt;value2>** moeten identiek zijn. Als **&lt;value1>** bijvoorbeeld een datum is, moet **&lt;value2>** ook een datum zijn.
+  >[!NOTE]
+  >
+  >De typegegevens voor **&lt;value1>** en **&lt;value2>** moeten identiek zijn. Als **&lt;value1>** bijvoorbeeld een datum is, moet **&lt;value2>** ook een datum zijn.
 
 * Als u meerdere voorwaarden wilt gebruiken, kunt u deze combineren met logische operatoren.
 
@@ -105,8 +105,9 @@ JavaScript-expressies bestaan uit een of meer voorwaarden en gebruiken de volgen
    * **&lt;comparison operator>** een van de operatoren is die worden vermeld in de sectie [Vergelijkingsoperatoren](../../automating/using/advanced-expression-editing.md#comparison-operators). Deze operator definieert de vergelijkingsmethode tussen **&lt;context>** en **&lt;value2>**.
    * **&lt;value2>** een veld, een functie of een waarde is die handmatig wordt ingevoerd.
 
-   >[!NOTE]
-   De typegegevens voor **&lt;context>** en **&lt;value2>** moeten identiek zijn. Als **&lt;context>** bijvoorbeeld een datum is, moet **&lt;value2>** ook een datum zijn.
+  >[!NOTE]
+  >
+  De typegegevens voor **&lt;context>** en **&lt;value2>** moeten identiek zijn. Als **&lt;context>** bijvoorbeeld een datum is, moet **&lt;value2>** ook een datum zijn.
 
 * Als u meerdere voorwaarden wilt gebruiken, kunt u deze combineren met logische operatoren.
 

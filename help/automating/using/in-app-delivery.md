@@ -33,7 +33,7 @@ De voorbereiding van berichten wordt geactiveerd volgens de parameters voor work
 
 ## Configuratie {#configuration}
 
-1. Sleep een **[!UICONTROL Query]** activiteit aan uw werkschema. De **[!UICONTROL Query]** activiteiten gericht op **[!UICONTROL Properties]** moet worden bijgewerkt volgens het in stap 4 gekozen model:
+1. Sleep een **[!UICONTROL Query]** activiteit aan uw werkschema. Houd er rekening mee dat de **[!UICONTROL Query]** activiteiten die gericht zijn op **[!UICONTROL Properties]** moet worden bijgewerkt volgens het in stap 4 gekozen model:
 
    * Targetingdimensie moet worden ingesteld op **[!UICONTROL mobileApp (mobileAppV5)]** voor de sjabloon **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**.
    * Targetingdimensie moet worden ingesteld op **[!UICONTROL profile (profile)]** voor de sjabloon **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**.
@@ -62,7 +62,7 @@ De voorbereiding van berichten wordt geactiveerd volgens de parameters voor work
 1. Standaard bevat de activiteit **[!UICONTROL In-App delivery]** geen uitgaande overgangen. Als u een uitgaande overgang wilt toevoegen aan uw activiteit **[!UICONTROL In-App delivery]**, ga dan naar het tabblad **[!UICONTROL General]** van de geavanceerde opties voor activiteiten (de knop ![](assets/dlv_activity_params-24px.png) in de snelle acties van de activiteit) en vink een van de volgende opties aan:
 
    * **[!UICONTROL Add outbound transition without the population]**: Hiermee kunt u een uitgaande overgang genereren die exact dezelfde populatie als de binnenkomende overgang bevat.
-   * **[!UICONTROL Add outbound transition with the population]**: dit laat u een uitgaande overgang produceren die de bevolking bevat aan wie het bericht werd verzonden. De leden van het doel die tijdens de voorbereiding van de levering zijn uitgesloten, zijn van deze overgang uitgesloten.
+   * **[!UICONTROL Add outbound transition with the population]**: hiermee kunt u een uitgaande overgang genereren die de populatie bevat waarnaar het bericht is verstuurd. De leden van het doel die tijdens de voorbereiding van de levering zijn uitgesloten, zijn van deze overgang uitgesloten.
 
    ![](assets/wkf_in_app_5.png)
 

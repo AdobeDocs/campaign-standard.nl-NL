@@ -18,7 +18,7 @@ ht-degree: 6%
 
 # Een transactionele gebeurtenis publiceren {#publishing-transactional-event}
 
-Eenmaal [configuratie](../../channels/using/configuring-transactional-event.md) is voltooid, kan de gebeurtenis worden gepubliceerd. De stappen voor het voorvertonen, publiceren, publiceren en verwijderen van een gebeurtenis worden hieronder beschreven.
+Eenmaal [configuratie](../../channels/using/configuring-transactional-event.md) is voltooid, is de gebeurtenis gereed om te worden gepubliceerd. De stappen voor het voorvertonen, publiceren, publiceren en verwijderen van een gebeurtenis worden hieronder beschreven.
 
 >[!IMPORTANT]
 >
@@ -76,7 +76,7 @@ De gebeurtenissen (in JSON-indeling) worden weergegeven van de meest recente tot
 
 ## Publicatie van een gebeurtenis ongedaan maken {#unpublishing-an-event}
 
-De **[!UICONTROL Unpublish]** kunt u de publicatie van de gebeurtenis annuleren. Hierdoor wordt de bron die overeenkomt met de gebeurtenis die u eerder hebt gemaakt, van de REST API verwijderd.
+De **[!UICONTROL Unpublish]** Met deze knop kunt u de publicatie van de gebeurtenis annuleren. Hierdoor wordt de bron die overeenkomt met de gebeurtenis die u eerder hebt gemaakt, van de REST API verwijderd.
 
 Zelfs als de gebeurtenis via uw website wordt geactiveerd, worden de bijbehorende berichten niet meer verzonden en niet opgeslagen in de database.
 

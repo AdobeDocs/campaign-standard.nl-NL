@@ -22,7 +22,7 @@ Hieronder vindt u meer informatie over de **[!UICONTROL Delivery throughput]** e
 * Controleer regelmatig de leveringsproductie voor het gehele platform om te verifiëren of het met de originele opstelling verenigbaar is.
 * Controleer of het opnieuw proberen correct is ingesteld (30 minuten voor herbestellingsperiode en meer dan 20 pogingen) in leveringssjablonen.
 * Verifieer regelmatig dat de stuiterende brievenbus toegankelijk is en dat de rekening niet op het punt staat te verlopen.
-* Controleer elke leveringsproductie om ervoor te zorgen dat het met de geldigheid van de leveringsinhoud (b.v. &#39;Flash-verkoop&#39; moet in minuten worden geleverd, niet in dagen).
+* Controleer elke leveringsproductie om ervoor te zorgen dat het met de geldigheid van de leveringsinhoud verenigbaar is (bijv. &quot;flitsverkoop&quot;zou in notulen, niet dagen moeten worden geleverd).
 * Controleer of het aantal fouten en nieuwe quarantines consistent zijn met andere leveringen.
 * Raadpleeg zorgvuldig de leveringslogboeken in detail om het soort fouten te controleren die worden benadrukt (lijsten van gewezen personen, DNS kwesties, anti-spamregels, enz.).
 
@@ -42,7 +42,7 @@ Andere rapporten zijn beschikbaar, zoals **[!UICONTROL Delivery summary]** of **
 
 Het berichtdashboard geeft u toegang tot de leveringslogboeken: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** en **[!UICONTROL Tracked URLs]**. Zij tonen de details van de verzending, welk doel is uitgesloten en waarom, evenals de tracking-informatie zoals aantal geopend en aantal klikken.
 
-Zie voor meer informatie [Toezicht op levering](../../sending/using/monitoring-a-delivery.md).
+Zie voor meer informatie [Toezicht op de levering](../../sending/using/monitoring-a-delivery.md).
 
 ![](assets/sending_delivery1.png)
 

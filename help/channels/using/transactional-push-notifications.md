@@ -18,7 +18,7 @@ ht-degree: 4%
 
 # Transactionele pushmeldingen{#transactional-push-notifications}
 
-Met Adobe Campaign kunt u pushmeldingen over transacties verzenden op mobiele iOS- en Android-apparaten. Deze berichten worden ontvangen op mobiele toepassingen die u in Adobe Campaign instelt door gebruik te maken van de Experience Cloud Mobile SDK.
+U kunt Adobe Campaign gebruiken om pushmeldingen over transacties te verzenden op mobiele iOS- en Android-apparaten. Deze berichten worden ontvangen op mobiele toepassingen die u in Adobe Campaign instelt door gebruik te maken van de Experience Cloud Mobile SDK.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Als u een pushmelding over een transactie wilt verzenden aan alle gebruikers die
 
 >[!NOTE]
 >
->U kunt de inhoud van een op een gebeurtenis gebaseerd pushbericht nog steeds aanpassen met [gebeurteniskenmerken](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes) (gegevens van de gebeurtenis) en [gebeurtenisverrijking](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) (gegevens uit de Campagne-database). Zie [het onderstaande voorbeeld](#sending-event-based-transactional-push-notification).
+>U kunt de inhoud van een op een gebeurtenis gebaseerd transactioneel pushbericht nog steeds aanpassen met [gebeurteniskenmerken](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes) (gegevens van de gebeurtenis) en [gebeurtenisverrijking](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) (gegevens uit de Campagne-database). Zie [het onderstaande voorbeeld](#sending-event-based-transactional-push-notification).
 
 De gebeurtenis moet de volgende drie elementen bevatten:
 
@@ -53,7 +53,7 @@ De gebeurtenis moet de volgende drie elementen bevatten:
 
 Volg onderstaande stappen om de gebeurtenis te configureren:
 
-1. Selecteer bij het maken van de gebeurtenisconfiguratie de optie **[!UICONTROL Push notification]** en **[!UICONTROL Real-time event]** doelgerichtheid (zie [Een gebeurtenis maken](../../channels/using/configuring-transactional-event.md#creating-an-event)).
+1. Selecteer bij het maken van de gebeurtenisconfiguratie de optie **[!UICONTROL Push notification]** en de **[!UICONTROL Real-time event]** doelgerichtheid (zie [Een gebeurtenis maken](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 1. Voeg velden toe aan de gebeurtenis. Hierdoor kunt u het transactiemelding aanpassen (zie [Gebeurteniskenmerken definiëren](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)). In dit voorbeeld definieert u de velden &#39;gateNumber&#39;, &#39;lastname&#39; en &#39;firstname&#39;.
 1. U kunt de inhoud van uw bericht ook verrijken. Hiervoor voegt u velden toe uit de tabel die u aan uw gebeurtenisconfiguratie hebt gekoppeld (zie [De gebeurtenis verrijken](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)).
 
@@ -121,7 +121,7 @@ Als het registratietoken bestaat, ontvangt de overeenkomstige gebruiker een tran
 
 U kunt een pushmelding voor een transactie verzenden **op de Adobe Campaign-profielen die zijn geabonneerd op uw mobiele toepassing**. Deze levering kan [personalisatievelden](../../designing/using/personalization.md#inserting-a-personalization-field), zoals de voornaam van de ontvanger, rechtstreeks opgehaald uit de Adobe Campaign-database.
 
-In dit geval moet de gebeurtenis enkele velden bevatten **die afstemming met een profiel uit de Adobe Campaign-database toestaan**.
+In dit geval moet de gebeurtenis enkele velden bevatten **die afstemming met een profiel uit de Adobe Campaign-database mogelijk maakt**.
 
 Bij het opgeven van profielen wordt per mobiele toepassing en per apparaat één transactioneel pushbericht verzonden. Als een Adobe Campaign-gebruiker bijvoorbeeld op twee toepassingen heeft geabonneerd, ontvangt deze gebruiker twee meldingen. Als een gebruiker zich op dezelfde toepassing heeft geabonneerd met twee verschillende apparaten, ontvangt deze gebruiker een melding op elk apparaat.
 
@@ -135,7 +135,7 @@ Ga voor meer informatie over het openen en bewerken van profielen naar [Profiele
 
 Als u een pushmelding over een transactie wilt verzenden naar de Adobe Campaign-profielen die zijn geabonneerd op uw mobiele toepassing, moet u eerst een gebeurtenis maken en configureren die gericht is op de Adobe Campaign-database.
 
-1. Selecteer bij het maken van de gebeurtenisconfiguratie de optie **[!UICONTROL Push notification]** en **[!UICONTROL Profile]** doelgerichtheid (zie [Een gebeurtenis maken](../../channels/using/configuring-transactional-event.md#creating-an-event)).
+1. Selecteer bij het maken van de gebeurtenisconfiguratie de optie **[!UICONTROL Push notification]** en de **[!UICONTROL Profile]** doelgerichtheid (zie [Een gebeurtenis maken](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
    Standaard wordt de transactionele pushmelding verzonden naar alle mobiele toepassingen waarop de ontvangers zich hebben geabonneerd. Als u de pushmelding naar een specifieke mobiele toepassing wilt verzenden, selecteert u deze in de lijst. De andere mobiele toepassingen zullen door het bericht worden gericht maar van het verzenden worden uitgesloten.
 

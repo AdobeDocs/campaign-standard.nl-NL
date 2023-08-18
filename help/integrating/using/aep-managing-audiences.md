@@ -1,6 +1,6 @@
 ---
 title: Adobe Experience Platform-doelgroepen beheren
-description: Leer hoe u Adobe Experience Platform beheert binnen Campaign Standard.
+description: Leer hoe u Adobe Experience Platform binnen Campaign Standard beheert.
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
@@ -20,7 +20,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->De Dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
+>De Dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van de Adobe als u toegang wilt.
 
 ## Toegang tot Adobe Experience Platform-publiek
 
@@ -36,7 +36,7 @@ Er zijn een zoekbalk en filter beschikbaar waarmee u het gewenste Adobe Experien
 
 ## Adobe Experience Platform-publiek maken
 
-Voer de volgende stappen uit om een Adobe Experience Platform-publiek rechtstreeks in Campaign Standard te maken:
+Ga als volgt te werk om een Adobe Experience Platform-publiek rechtstreeks in Campaign Standard te maken:
 
 1. Klik op de pagina in de lijst met Adobe Experience Platform-segmenten op **[!UICONTROL New audience]** in de rechterhoek.
 
@@ -66,6 +66,6 @@ Het publiek is nu klaar om te worden geactiveerd, kunt u het gebruiken als doel 
 
 Om een publiek uit te geven, open het en wijzig de regels zoals nodig binnen de interface van de Bouwer van het Segment (zie [De Segment Builder gebruiken](../../integrating/using/aep-using-segment-builder.md)).
 
-Als de wijzigingen zijn voltooid, klikt u op de knop **[!UICONTROL Save segment]** om uw publiek bij te werken.
+Klik op de knop **[!UICONTROL Save segment]** om uw publiek bij te werken.
 
 ![](assets/aep_audiences_editing.png)

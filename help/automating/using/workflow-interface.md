@@ -33,10 +33,10 @@ Het werkstroombewerkingsscherm bestaat uit de volgende elementen:
 
 Het palet bevindt zich aan de linkerkant van het scherm. Alle beschikbare activiteiten worden ingedeeld in verschillende categorieën:
 
-* [Doelstelling](../../automating/using/about-targeting-activities.md): activiteiten die specifiek gericht zijn op doelgerichte activiteiten, manipulatie van bevolkingsgegevens en filteractiviteiten
+* [Targeting](../../automating/using/about-targeting-activities.md)Betreft: Activiteiten die specifiek gericht zijn op doelgerichtheid, manipulatie van bevolkingsgegevens en filteractiviteiten
 * [Uitvoering](../../automating/using/about-execution-activities.md): specifieke activiteiten voor het organiseren en uitvoeren van workflows
 * [Kanalen](../../automating/using/about-channel-activities.md): activiteiten die de verschillende beschikbare communicatiekanalen vertegenwoordigen
-* [Gegevensbeheer (ETL)](../../automating/using/about-data-management-activities.md): specifieke activiteiten voor het manipuleren van gegevens
+* [Gegevensbeheer (ETL)](../../automating/using/about-data-management-activities.md)Betreft: Specifieke activiteiten voor het manipuleren van gegevens
 
 Als u een activiteit wilt gebruiken vanuit het palet in uw workflow, sleept u deze naar de werkruimte.
 
@@ -57,7 +57,7 @@ Overgangen na activiteiten die gegevens verwerken, bevatten de intermediaire pop
 >Deze optie verbruikt veel schijfruimte en is ontworpen om u te helpen een workflow te maken en een correcte configuratie en functionaliteit te garanderen. Laat deze optie uitgeschakeld op productie-instanties.
 
 
-Wanneer een activiteit wordt geselecteerd, verschijnen de snelle acties rond de activiteit, toestaand u om met het in wisselwerking te staan. Als u bijvoorbeeld een activiteit wilt configureren, selecteert u deze en opent u deze met de ![](assets/edit_darkgrey-24px_table.png) in de snelle handelingen.
+Wanneer een activiteit wordt geselecteerd, verschijnen de snelle acties rond de activiteit, toestaand u om met het in wisselwerking te staan. Als u bijvoorbeeld een activiteit wilt configureren, selecteert u deze en opent u deze met de opdracht ![](assets/edit_darkgrey-24px_table.png) in de snelle handelingen.
 
 Bepaalde functies zijn alleen beschikbaar in de werkruimte:
 
@@ -111,7 +111,7 @@ Wanneer een activiteit wordt geselecteerd, verschijnen de snelle actieknopen ron
 
 <img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copy selection]**<br/>Hiermee kopieert u de geselecteerde activiteit.
 
-<img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Open the activity's advanced options]**<br/>Hiermee opent u de geavanceerde opties voor de geselecteerde verzending via e-mail of SMS.
+<img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Open the activity's advanced options]**<br/>Hiermee opent u de geavanceerde opties voor de geselecteerde e-mail- of sms-leveringsactiviteit.
 
 <img height="21px" src="assets/check_darkgrey-24px_table.png" /> **[!UICONTROL Normal execution]**<br/>Hiermee wordt de selectie opnieuw ingeschakeld als deze eerder is uitgeschakeld of gemarkeerd als gepauzeerd.
 
@@ -123,7 +123,7 @@ Wanneer een activiteit wordt geselecteerd, verschijnen de snelle actieknopen ron
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>Hiermee verwijdert u de geselecteerde activiteiten.
 
-## Dubbele werkstroomactiviteiten {#duplicating-workflow-activities}
+## Dupliceren van workflowactiviteiten {#duplicating-workflow-activities}
 
 Met de werkruimte kunt u workflowactiviteiten dupliceren door deze naar dezelfde workflow te kopiëren en te plakken, of naar een andere workflow vanuit dezelfde Campagne-instantie.
 

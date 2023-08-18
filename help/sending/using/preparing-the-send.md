@@ -23,9 +23,9 @@ De voorbereiding komt overeen met de stap voor het berekenen van de doelpopulati
 
    ![](assets/preparing_delivery_2.png)
 
-1. De **[!UICONTROL Deployment]** blok geeft de voortgang van de voorbereiding weer en vervolgens de voorbereidende statistieken : aantal gerichte berichten, aantal te verzenden berichten, enz.
+1. De **[!UICONTROL Deployment]** blok geeft de voortgang van de voorbereiding weer en vervolgens de voorbereidingsstatistieken: aantal gerichte berichten, aantal te verzenden berichten, enz.
 
-   Afhankelijk van de omvang van de doelpopulatie kan deze operatie enige tijd in beslag nemen.
+   Afhankelijk van de omvang van de doelpopulatie kan deze operatie enige tijd duren.
 
    ![](assets/preparing_delivery.png)
 
@@ -45,7 +45,7 @@ De voorbereiding komt overeen met de stap voor het berekenen van de doelpopulati
 
 1. De **[!UICONTROL Deployment]** wordt geopend, worden eventuele fouten gecorrigeerd en wordt de voorbereiding opnieuw gestart.
 
-   In het laatste logbericht worden foutberichten en het aantal fouten weergegeven. Een specifiek pictogram geeft het aangetroffen fouttype weer: als het gele pictogram een niet-kritieke verwerkingsfout aangeeft, geeft het rode pictogram een kritieke fout aan die voorkomt dat de levering wordt gestart.
+   In het laatste logbericht worden foutberichten en het aantal fouten weergegeven. Een specifiek pictogram geeft het aangetroffen fouttype weer: het gele pictogram geeft een niet-kritieke verwerkingsfout aan, het rode pictogram geeft een kritieke fout aan die voorkomt dat de levering wordt gestart.
 
    ![](assets/preparing_delivery_3.png)
 

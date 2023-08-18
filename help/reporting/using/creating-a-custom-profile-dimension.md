@@ -19,16 +19,16 @@ ht-degree: 5%
 
 Rapporten kunnen ook worden gemaakt en beheerd op basis van aangepaste profielgegevens die zijn gemaakt tijdens de uitbreiding van de aangepaste profielbron.
 
-In dit voorbeeld willen we het veld Aangepast profiel maken **Loyaliteitsprogramma&#39;s** die in drie niveaus worden onderverdeeld: goud, zilver en brons. Dit aangepaste profiel wordt vervolgens uitgebreid zodat het kan worden gebruikt als een aangepaste profieldimensie in dynamische rapporten.
+In dit voorbeeld willen we het veld Aangepast profiel maken **Loyaliteitsprogramma&#39;s** die in drie niveaus worden verdeeld: goud, zilver en brons. Dit aangepaste profiel wordt vervolgens uitgebreid zodat het kan worden gebruikt als een aangepaste profieldimensie in dynamische rapporten.
 
 * [Stap 1: Een nieuw profielveld maken](#step-1--create-a-new-profile-field)
-* [Stap 2: De verzendende logboeken uitbreiden met het profielveld](#step-2--extend-the-sending-logs-with-the-profile-field)
-* [Stap 3: Een levering maken voor ontvangers die zijn ingeschreven voor het loyaliteitsprogramma](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
-* [Stap 4: Maak een dynamisch rapport om ontvangers met de dimensie van het aangepaste profiel te filteren](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
+* [Stap 2: Breid de verzendende logboeken met het profielgebied uit](#step-2--extend-the-sending-logs-with-the-profile-field)
+* [Stap 3: Creeer een levering gericht aan ontvangers die in het loyaliteitsprogramma worden ingeschreven](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
+* [Stap 4: Creeer een dynamisch rapport aan filterontvangers met de dimensie van het douaneprofiel](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
 ## Stap 1: Een nieuw profielveld maken {#step-1--create-a-new-profile-field}
 
-We moeten eerst het nieuwe profielveld maken **Loyaliteitsprogramma** dat zal het loyaliteitsniveau aan onze ontvangers toewijzen : goud, zilver of brons.
+We moeten eerst het nieuwe profielveld maken **Loyalty-programma** dat zal onze ontvangers een loyaliteitsniveau geven : goud , zilver of brons .
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Dit doet u als volgt:
 
    ![](assets/custom_profile_1.png)
 
-1. Van de **[!UICONTROL Data structure]** tabblad, in het dialoogvenster **[!UICONTROL Fields]** categorie, klikt u op de **[!UICONTROL Add field]** knop.
+1. Van de **[!UICONTROL Data structure]** tabblad, in de **[!UICONTROL Fields]** categorie, klikt u op de **[!UICONTROL Add field]** knop.
 
    ![](assets/custom_profile_2.png)
 
@@ -64,7 +64,7 @@ Dit doet u als volgt:
 
    ![](assets/custom_profile_4.png)
 
-1. Klik op de knop **[!UICONTROL Add an element]** om uw nieuwe sectie te maken. Selecteer **[!UICONTROL Type]**: **[!UICONTROL Input field]**, **[!UICONTROL Value]** of **[!UICONTROL List]** en vervolgens het veld dat moet worden toegevoegd in deze nieuwe sectie.
+1. Klik op de knop **[!UICONTROL Add an element]** om uw nieuwe sectie te maken. Selecteer de **[!UICONTROL Type]**: **[!UICONTROL Input field]**, **[!UICONTROL Value]** of **[!UICONTROL List]** en vervolgens het veld dat moet worden toegevoegd in deze nieuwe sectie.
 
    ![](assets/custom_profile_5.png)
 
@@ -75,7 +75,7 @@ Dit doet u als volgt:
    ![](assets/custom_profile_6.png)
 
 1. Selecteer in het menu Geavanceerd de optie **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publication]** om uw aangepaste bron te publiceren.
-1. Klikken **[!UICONTROL Prepare publication]** Klik vervolgens wanneer de voorbereiding is voltooid op de knop **[!UICONTROL Publish]** knop.
+1. Klikken **[!UICONTROL Prepare publication]** Klik vervolgens wanneer de voorbereiding is voltooid op **[!UICONTROL Publish]** knop.
 
    ![](assets/custom_profile_7.png)
 
@@ -83,7 +83,7 @@ Uw nieuwe profielveld kan nu worden gebruikt en geselecteerd door uw ontvangers.
 
 ![](assets/custom_profile_8.png)
 
-## Stap 2: De verzendende logboeken uitbreiden met het profielveld {#step-2--extend-the-sending-logs-with-the-profile-field}
+## Stap 2: Breid de verzendende logboeken met het profielgebied uit {#step-2--extend-the-sending-logs-with-the-profile-field}
 
 Nu uw profielgebied wordt gecreeerd, moeten wij de verzendende logboeken met ons profielgebied uitbreiden om de bijbehorende dimensie van het douaneprofiel in dynamische rapporten tot stand te brengen.
 
@@ -111,7 +111,7 @@ Voordat u het logboek uitbreidt met ons profielveld, controleert u of het PII-ve
 
    Selecteer in het menu Geavanceerd de optie **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publication]** om uw aangepaste bron te publiceren.
 
-1. Klikken **[!UICONTROL Prepare publication]** Klik vervolgens wanneer de voorbereiding is voltooid op de knop **[!UICONTROL Publish]** knop.
+1. Klikken **[!UICONTROL Prepare publication]** Klik vervolgens wanneer de voorbereiding is voltooid op **[!UICONTROL Publish]** knop.
 
    ![](assets/custom_profile_7.png)
 
@@ -119,7 +119,7 @@ Uw aangepaste profiel is nu beschikbaar als een aangepaste profieldimensie in uw
 
 Nu uw veld is gemaakt en het verzenden van logboeken is uitgebreid met dit profielveld, kunt u zich richten op ontvangers in leveringen.
 
-## Stap 3: Een levering maken voor ontvangers die zijn ingeschreven voor het loyaliteitsprogramma {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
+## Stap 3: Creeer een levering gericht aan ontvangers die in het loyaliteitsprogramma worden ingeschreven {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
 
 Nadat u het profielveld hebt gepubliceerd, kunt u de levering starten. In dit voorbeeld, willen wij elke ontvanger richten die in het loyaliteitsprogramma wordt ingeschreven.
 
@@ -143,7 +143,7 @@ Nadat u het profielveld hebt gepubliceerd, kunt u de levering starten. In dit vo
 
 Zodra uw e-mail correct naar de geselecteerde ontvangers wordt verzonden, kunt u beginnen uw gegevens te filteren en het succes van uw levering met rapporten te volgen.
 
-## Stap 4: Maak een dynamisch rapport om ontvangers met de dimensie van het aangepaste profiel te filteren {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
+## Stap 4: Creeer een dynamisch rapport aan filterontvangers met de dimensie van het douaneprofiel {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
 
 Nadat u de levering hebt verzonden, kunt u rapporten afbreken met behulp van de aangepaste profieldimensie van de **[!UICONTROL Profile]** tabel.
 
@@ -151,7 +151,7 @@ Nadat u de levering hebt verzonden, kunt u rapporten afbreken met behulp van de 
 
    ![](assets/custom_profile_18.png)
 
-1. In de **[!UICONTROL Dimensions]** categorie, klikt u op **[!UICONTROL Profile]** en sleep uw aangepaste **Loyaliteitsprogramma** profieldimensie aan uw vrije lijst.
+1. In de **[!UICONTROL Dimensions]** categorie, klikt u op **[!UICONTROL Profile]** en sleep uw aangepaste **Loyalty-programma** profieldimensie aan uw vrije lijst.
 
    ![](assets/custom_profile_19.png)
 

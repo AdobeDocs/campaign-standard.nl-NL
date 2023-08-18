@@ -30,7 +30,7 @@ In dit geval besluit u een e-mail te sturen naar alle abonnees die uw winkel in 
 
    ![](assets/poi_subscriptions_app.png)
 
-   Het beheren van het publiek wordt gedetailleerd beschreven in [Soorten publiek definiëren](../../audiences/using/creating-audiences.md) sectie.
+   Het beheren van het publiek wordt beschreven in het dialoogvenster [Soorten publiek definiëren](../../audiences/using/creating-audiences.md) sectie.
 
 1. In de **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** venster, slepen en neerzetten **[!UICONTROL POI Location Subscription]** in de werkruimte.
 

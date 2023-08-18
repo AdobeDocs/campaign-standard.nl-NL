@@ -30,7 +30,7 @@ U hebt verschillende opties voor het controleren van abonnementen op en het opze
 
 De lijst weergeven met personen die zijn geabonneerd op een service:
 
-1. Ga naar de lijst met services via het menu Geavanceerd **Profielen en publiek** > **Services**, die toegankelijk zijn via het Adobe Campaign-logo.
+1. Ga naar de lijst met services via het geavanceerde menu **Profielen en publiek** > **Services**, die toegankelijk zijn via het Adobe Campaign-logo.
 1. Selecteer de service van uw keuze om het bijbehorende dashboard weer te geven.
 1. De lijst met personen die op de service zijn geabonneerd, vindt u in de **Abonnementen** tab.
 
@@ -40,9 +40,9 @@ De lijst weergeven met personen die zijn geabonneerd op een service:
 
 U kunt als volgt de abonnements- en abonnementsgeschiedenis raadplegen:
 
-1. Ga naar de lijst met services via het menu Geavanceerd **Profielen en publiek** > **Services**, die toegankelijk zijn via het Adobe Campaign-logo.
+1. Ga naar de lijst met services via het geavanceerde menu **Profielen en publiek** > **Services**, die toegankelijk zijn via het Adobe Campaign-logo.
 1. Selecteer de service van uw keuze om het bijbehorende dashboard weer te geven.
-1. Selecteer **Abonnementsgeschiedenis** om de data weer te geven waarop elke persoon zich heeft geabonneerd en geabonneerd.
+1. Selecteer de **Abonnementsgeschiedenis** om de data weer te geven waarop elke persoon zich heeft geabonneerd en geabonneerd.
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
@@ -50,7 +50,7 @@ U kunt als volgt de abonnements- en abonnementsgeschiedenis raadplegen:
 
 Een rapport weergeven waarin de ontwikkeling van abonnementen en abonnementen wordt beschreven:
 
-1. Ga naar de lijst met services via het menu Geavanceerd **Profielen en publiek** > **Services**, die toegankelijk zijn via het Adobe Campaign-logo.
+1. Ga naar de lijst met services via het geavanceerde menu **Profielen en publiek** > **Services**, die toegankelijk zijn via het Adobe Campaign-logo.
 1. Selecteer de service van uw keuze om het bijbehorende dashboard weer te geven.
 1. Klik op de knop **Rapporten** in de actiebalk, en vervolgens **Abonnementscontrole** in het selectiescherm.
 

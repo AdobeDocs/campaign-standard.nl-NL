@@ -42,7 +42,7 @@ Houd rekening met de onderstaande algemene tips bij het samenstellen van e-mails
 
 * Houd mobiele gebruikers in gedachten
 
-* Vermijd e-mails die volledig op afbeeldingen zijn gebaseerd
+* Vermijd volledig op afbeeldingen gebaseerde e-mails
 
 * E-mailveilige lettertypen gebruiken
 
@@ -80,7 +80,7 @@ Houd rekening met het volgende om uw e-mailadres onder de limiet te houden:
 
 * Overbodige of ongebruikte stijlen verwijderen
 
-* Een deel van de e-mailinhoud verplaatsen naar een [landingspagina](../../channels/using/getting-started-with-landing-pages.md)
+* Een deel van de e-mailinhoud naar een [landingspagina](../../channels/using/getting-started-with-landing-pages.md)
 
 * Miniatuur uw code
 
@@ -90,7 +90,7 @@ In Adobe Campaign is de standaardmaximumgrootte van een e-mailbericht ingesteld 
 
 Als de limiet is bereikt, mislukt het bericht dat de limiet overschrijdt en wordt een foutbericht weergegeven in de leveringslogboeken. De andere berichten van dezelfde levering worden niet beïnvloed. In dat geval moet u het dynamische gedeelte van de e-mailsjabloon of de inhoudsfragmenten die door de levering worden gebruikt, aanpassen. <!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
 
-Adobe raadt aan de standaardwaarde voor de maximale berichtgrootte te behouden. Deze waarde kan echter worden gewijzigd in het dialoogvenster **[!UICONTROL Maximum message size]** door middel van de **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu, door [functionele beheerders](../../administration/using/users-management.md#functional-administrators) alleen.
+Adobe raadt aan de standaardwaarde voor de maximale berichtgrootte te behouden. Deze waarde kan echter worden gewijzigd in het dialoogvenster **[!UICONTROL Maximum message size]** door middel van **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** menu, door [functionele beheerders](../../administration/using/users-management.md#functional-administrators) alleen.
 
 >[!IMPORTANT]
 >
@@ -105,7 +105,7 @@ Meer informatie [in deze sectie](../../administration/using/configuring-sms-chan
 
 **Tips**:
 
-* Als u alle tekens in uw SMS-berichten ongewijzigd wilt laten, bijvoorbeeld eigennamen niet wilt wijzigen, moet u transliteratie niet inschakelen.
+* Als u alle tekens in uw SMS-berichten wilt behouden, bijvoorbeeld als u eigennamen niet wilt wijzigen, moet u transliteratie niet inschakelen.
 
 * Als uw SMS-berichten echter veel tekens bevatten waarmee de GSM-standaard geen rekening houdt, kunt u met transliteratie de verzendkosten van uw berichten beperken.
 
@@ -117,7 +117,7 @@ Het responsieve ontwerp zorgt ervoor dat een e-mail optimaal wordt weergegeven v
 
 * Responsieve e-mail HTML gebruiken in plaats van web HTML
 
-* Gebruik de voorvertoningsmodus en verzend proefdrukken om de rendering op zoveel mogelijk apparaten te testen. Leer hoe u [voorbeeldbericht](../../sending/using/previewing-messages.md) vóór verzending.
+* Gebruik de voorvertoningsmodus en verzend proefdrukken om de rendering op zoveel mogelijk apparaten te testen. Leer hoe u [voorvertoningsbericht](../../sending/using/previewing-messages.md) vóór verzending.
 
 * Campagne-e-mailontwerper wordt geleverd met responsieve ontwerpsjablonen voor mobiele apparaten. Meer informatie vindt u [op deze pagina](../../designing/using/using-reusable-content.md#content-templates).
 
@@ -131,7 +131,7 @@ Sommige e-mailclients blokkeren afbeeldingen standaard en sommige gebruikers wij
 
 * Verdeel uw inhoud met afbeelding en tekst. Vermijd e-mails die volledig op afbeeldingen zijn gebaseerd.
 
-* Als er tekst in een afbeelding moet staan, gebruikt u alt- en titeltekst om ervoor te zorgen dat uw bericht overloopt. Maak de alt-/titeltekst op om de weergave te verbeteren.
+* Als er tekst in een afbeelding moet staan, gebruikt u de alt- en titeltekst om ervoor te zorgen dat uw bericht overloopt. Maak de alt-/titeltekst op om de weergave te verbeteren.
 
 * Vermijd het gebruik van achtergrondafbeeldingen, omdat deze niet door sommige e-mailclients worden ondersteund.
 
@@ -145,6 +145,6 @@ Om van buitenaf toegankelijk te zijn, moeten de beelden die in e-mail en openbar
 
 ## Een voorbeeld van uw bericht bekijken {#preview-msg}
 
-Adobe raadt u aan een voorbeeld van uw bericht te bekijken om na te gaan wat de personalisatie is en hoe de ontvangers uw bericht zullen bekijken.
+Adobe raadt u aan een voorbeeld van uw bericht te bekijken om na te gaan hoe de inhoud van het bericht wordt aangepast en hoe de ontvangers de levering zien.
 
 In de e-mailontwerper **[!UICONTROL Preview]** kunt u de rendering van elke inhoud voor een ontvanger bekijken. De verpersoonlijkingsgebieden en de voorwaardelijke elementen van inhoud worden vervangen met de overeenkomstige informatie voor het geselecteerde profiel. [Meer informatie](../../sending/using/previewing-messages.md)

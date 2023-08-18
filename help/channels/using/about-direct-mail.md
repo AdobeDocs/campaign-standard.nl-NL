@@ -38,7 +38,7 @@ Het gebruikersproces in Adobe Campaign is als volgt:
 
 **Verwante onderwerpen:**
 
-* [Hoofdlettergebruik: Koppeling van e-mail- en direct-mailleveringen](../../automating/using/coupling-email-direct-mail.md)
+* [Hoofdletters/kleine letters gebruiken: E-mail- en directe-mailleveringen koppelen](../../automating/using/coupling-email-direct-mail.md)
 
 ## Aanbevelingen {#recommendations}
 

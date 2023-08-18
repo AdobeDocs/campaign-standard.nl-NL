@@ -19,7 +19,7 @@ ht-degree: 23%
 
 1. Selecteer in het geavanceerde menu dat u opent via het Adobe Campaign-logo achtereenvolgens **[!UICONTROL Administration]** > **[!UICONTROL Development]** en **[!UICONTROL Publication]**.
 1. Klik op de knop **[!UICONTROL Prepare Publication]**.
-1. Selecteer **[!UICONTROL Create the Profiles & Services Ext API]** optie.
+1. Selecteer de **[!UICONTROL Create the Profiles & Services Ext API]** -optie.
 
    ![](assets/create-profile-and-services-api.png)
 
@@ -31,7 +31,7 @@ ht-degree: 23%
 
    Dit zal u de veranderingen tonen die de publicatie van API op de huidige versie van profilesAndServicesExt API van toepassing zal zijn.
 
-   Hier, het gebied van de Code van de Bevordering (identiteitskaart: cusBrand) wordt ingevoegd in de API.
+   Hier wordt het veld Promo Code (ID: cusBrand) ingevoegd in de API.
 
    ![](assets/extendpandsapi_diff.png)
 

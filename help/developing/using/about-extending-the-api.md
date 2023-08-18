@@ -21,11 +21,11 @@ In dit geval wordt de beschrijving van uitgebreide velden voor de aangepaste bro
 
 >[!NOTE]
 >
->Als u de API wilt publiceren, moet u ervoor zorgen dat u beschikt over **[!UICONTROL Datamodel]** rol.
+>Zorg ervoor dat u de **[!UICONTROL Datamodel]** rol.
 
 De stappen voor het toegankelijk maken van uitgebreide velden in de openbare API zijn als volgt:
 
-1. [Voeg de uitbreidingsgebieden aan het middel van het Profiel toe](../../developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
+1. [De extensievelden toevoegen aan de profielbron](../../developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
 1. [De extensie publiceren](../../developing/using/step-2--publish-the-extension.md)
 1. [Controleer of de nieuwe uitgebreide velden beschikbaar zijn in de API](../../developing/using/step-3--verify-the-extension.md)
 

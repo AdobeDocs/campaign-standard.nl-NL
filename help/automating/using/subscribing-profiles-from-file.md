@@ -26,31 +26,31 @@ De workflow wordt als volgt weergegeven:
 
 * A [Bestand laden](../../automating/using/load-file.md) Deze activiteit laadt het profieldossier en bepaalt de structuur van de ingevoerde kolommen.
 
-   In dit voorbeeld heeft het geladen bestand de csv-indeling en bevat het de volgende data:
+  In dit voorbeeld heeft het geladen bestand de csv-indeling en bevat het de volgende data:
 
-   ```
-   lastname;firstname;email;birthdate;subdate
-   jackman;megan;megan.jackman@testmail.com;07/08/1975;10/08/2017
-   phillips;edward;phillips@testmail.com;09/03/1986;10/08/2017
-   weaver;justin;justin_w@testmail.com;11/15/1990;10/08/2017
-   martin;babeth;babeth_martin@testmail.net;11/25/1964;10/08/2017
-   reese;richard;rreese@testmail.com;02/08/1987;11/08/2017
-   cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;11/08/2017
-   xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;11/08/2017
-   grimes;daryl;daryl_890@testmail.com;12/06/1979;12/08/2017
-   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;12/08/2017
-   ```
+  ```
+  lastname;firstname;email;birthdate;subdate
+  jackman;megan;megan.jackman@testmail.com;07/08/1975;10/08/2017
+  phillips;edward;phillips@testmail.com;09/03/1986;10/08/2017
+  weaver;justin;justin_w@testmail.com;11/15/1990;10/08/2017
+  martin;babeth;babeth_martin@testmail.net;11/25/1964;10/08/2017
+  reese;richard;rreese@testmail.com;02/08/1987;11/08/2017
+  cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;11/08/2017
+  xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;11/08/2017
+  grimes;daryl;daryl_890@testmail.com;12/06/1979;12/08/2017
+  tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;12/08/2017
+  ```
 
-   ![](assets/subscription_activity_example2.png)
+  ![](assets/subscription_activity_example2.png)
 
-* A [Verzoening](../../automating/using/reconciliation.md) de activiteit identificeert de gegevens van het dossier als deel uitmakend van de profieldimensie van het gegevensbestand van Adobe Campaign. Alleen het tabblad **[!UICONTROL Identification]** is geconfigureerd. De bestandsdata worden geïdentificeerd aan de hand van de e-mailadressen van de profielen.
+* A [Verzoening](../../automating/using/reconciliation.md) de activiteit identificeert de gegevens van het dossier als deel uitmakend van de profielafmeting van het gegevensbestand van Adobe Campaign. Alleen het tabblad **[!UICONTROL Identification]** is geconfigureerd. De bestandsdata worden geïdentificeerd aan de hand van de e-mailadressen van de profielen.
 
-   ![](assets/subscription_activity_example3.png)
+  ![](assets/subscription_activity_example3.png)
 
 * A [Deduplicatie](../../automating/using/deduplication.md) op basis van de **email** in het veld van de tijdelijke bron (die voortvloeit uit de afstemming) worden eventuele duplicaten geïdentificeerd. Als de data die uit het bestand zijn geïmporteerd, duplicaten bevatten, mislukt de inschrijving op een service voor alle data.
 
-   ![](assets/subscription_activity_example5.png)
+  ![](assets/subscription_activity_example5.png)
 
 * A [Abonnementsservices](../../automating/using/subscription-services.md) Met deze activiteit kunt u de service selecteren waarop de profielen moeten worden geabonneerd, het veld dat overeenkomt met de abonnementsdatum en de oorsprong van het abonnement.
 
-   ![](assets/subscription_activity_example4.png)
+  ![](assets/subscription_activity_example4.png)

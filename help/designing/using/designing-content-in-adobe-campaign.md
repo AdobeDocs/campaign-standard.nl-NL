@@ -105,17 +105,17 @@ Als u Email Designer goed wilt gebruiken en op de eenvoudigste manier de beste e
 
 * Gebruik inline opmaak in plaats van een afzonderlijke CSS en een CSS in de &lt;head>-sectie van de HTML. Met inline opmaak kunt u het opslaan en opnieuw gebruiken van contentfragmenten optimaliseren.
 
-   Zie [Inline opmaakkenmerken toevoegen](../../designing/using/styles.md#adding-inline-styling-attributes).
+  Zie [Inline opmaakkenmerken toevoegen](../../designing/using/styles.md#adding-inline-styling-attributes).
 
 * Als u ZIP-bestanden met uw HTML-content importeert, gebruikt u gewone CSS. SCSS-stijlpagina’s worden niet ondersteund.
 
 * U kunt uw branding eenvoudig regelen door contentfragmenten te maken en opnieuw te gebruiken, zodat uw marketingcampagnes consistent blijven.
 
-   Zie [Een contentfragment maken](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
+  Zie [Een contentfragment maken](../../designing/using/using-reusable-content.md#creating-a-content-fragment).
 
 * Tijdens het bewerken van **e-mailcontent**:
 
-   Bekijk uw berichten voordat u ze verzendt. Adobe Campaign biedt een manier om het renderen van e-mail te testen met Litmus. Zie [E-mail renderen](../../sending/using/email-rendering.md) voor meer informatie.
+  Bekijk uw berichten voordat u ze verzendt. Adobe Campaign biedt een manier om het renderen van e-mail te testen met Litmus. Zie [E-mail renderen](../../sending/using/email-rendering.md) voor meer informatie.
 
 * De meta-tag Referrer wordt niet ondersteund in de e-mailontwerper.
 

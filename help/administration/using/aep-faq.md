@@ -27,7 +27,7 @@ Raadpleeg de volgende veelgestelde vragen voor meer informatie over Push of In-A
 
 ## Nuttige bronnen voordat u begint {#resource-mobile-property}
 
-Raadpleeg de onderstaande bronnen voor meer informatie over de Adobe Experience Platform SDK en de integratie van Campaign Standard:
+Raadpleeg de onderstaande bronnen voor meer informatie over de Adobe Experience Platform SDK en de integratie van Campaigns Standard:
 
 * Starten/Mobiel [Video overzicht](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
 * Starten/Mobiel [Handleiding voor tips en trucs](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
@@ -36,7 +36,7 @@ Raadpleeg de onderstaande bronnen voor meer informatie over de Adobe Experience 
 
 Ja, [!DNL Adobe Experience Platform SDK] de integratie is zowel voor Adobe Campaign Standard als voor Adobe Campaign Classic beschikbaar. U moet de bijbehorende **[!UICONTROL Extension]** via de [!DNL Data Collection UI] de integratie mogelijk te maken.
 
-Raadpleeg de volgende secties voor meer informatie [page]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
+Raadpleeg voor meer informatie deze [page]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
 ## Welke mogelijkheden biedt Adobe Experience Platform SDK-integratie in Adobe Campaign? {#aep-capabilities}
 
@@ -82,7 +82,7 @@ Het doel van de vraag CollectPII is het Mobiele Profiel in Campagne te verrijken
 
 ## Kan vraag CollectPII in antwoord op veelvoudige triggergebeurtenissen worden in brand gestoken? {#collect-pii-calls}
 
-Ja. Afhankelijk van uw bedrijfsbehoefte, kunt u vraag van CollectPII in werking stellen in antwoord op het programma openen van de gebruiker app, of het kopen van iets of levenscyclusgebeurtenis of gebruiker die een geofence etc. ingaat. Samenvattend, een interactie van gebruiker met app die informatie produceert u voor de verrijking van het Profiel zou willen gebruiken.
+Ja. Afhankelijk van uw bedrijfsbehoefte, kunt u vraag van CollectPII in werking stellen in antwoord op het programma openen van de gebruiker app, of het kopen van iets of levenscyclusgebeurtenis of gebruiker die een geofence ingaan etc. Samenvattend, een interactie van gebruiker met app die informatie produceert u voor de verrijking van het Profiel zou willen gebruiken.
 
 ## Kan ik de vraag van CollectPII in antwoord op alle Mobiele gebeurtenissen enkel in brand steken? {#collect-pii-events}
 
@@ -90,13 +90,13 @@ De frequentie en het ontwerp van vraag CollectPII zouden door bedrijfsbehoeften 
 
 ### Wanneer ik toegang probeer te krijgen tot Adobe Experience Platform Apps in Campaign of Launch, krijg ik soms een eigenschap die niet beschikbaar is. {#aep-error}
 
-Dit is een bekend probleem dat optreedt als een token vervalt. Meld u af en weer aan.
+Dit is een bekend probleem en gebeurt als het token vervalt. Meld u af en weer aan.
 
 ## Wat zouden enkele nuttige middelaanbevelingen zijn om meer over Adobe Experience Platform SDK (vroeger genoemd geworden SDK V5) te leren?{#resource-aep}
 
 Ontdek de onderstaande bronnen:
 
-* Experience Platform SDK [documentatie](https://developer.adobe.com/client-sdks/documentation/)
+* EXPERIENCE PLATFORM SDK [documentatie](https://developer.adobe.com/client-sdks/documentation/)
 * Aan de slag met de SDK voor Starten en Experience Platforms [documentatie](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
 * Upgrade uitvoeren naar Experience Platform SDK [documentatie](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks)
 * Github Experience Platform SDK [documentatie](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)

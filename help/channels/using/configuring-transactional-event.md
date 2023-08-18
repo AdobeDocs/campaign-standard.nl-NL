@@ -56,7 +56,7 @@ Maak de gebeurtenis die aan uw behoeften voldoet om aan de slag te gaan.
 
 In de **[!UICONTROL Fields]** definieert u de kenmerken die in de inhoud van de gebeurtenis worden geïntegreerd en die vervolgens kunnen worden gebruikt om het transactiebericht aan te passen.
 
-De stappen voor het toevoegen en wijzigen van velden zijn dezelfde als voor [aangepaste bronnen](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource).
+De stappen voor het toevoegen en wijzigen van velden zijn gelijk aan die voor [aangepaste bronnen](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource).
 
 ![](assets/message-center_2.png)
 
@@ -68,7 +68,7 @@ De stappen voor het toevoegen en wijzigen van velden zijn dezelfde als voor [aan
 
 U kunt aan de inhoud van de gebeurtenis een inzameling van elementen toevoegen, elk element zelf met verscheidene attributen.
 
-Deze verzameling kan worden gebruikt in een transactie-e-mail om toe te voegen [productaanbiedingen](../../designing/using/using-product-listings.md) de inhoud van het bericht, bijvoorbeeld een lijst van producten - met de prijs, het referentienummer, de hoeveelheid, enz. voor elk product in de lijst.
+Deze verzameling kan worden gebruikt in een transactie-e-mail om toe te voegen [productaanbiedingen](../../designing/using/using-product-listings.md) de inhoud van het bericht, bijvoorbeeld een lijst van producten - met prijs, referentienummer, hoeveelheid, enz. voor elk product in de lijst.
 
 1. In de **[!UICONTROL Collections]** klikt u op de **[!UICONTROL Create element]** knop.
 
@@ -85,7 +85,7 @@ Deze verzameling kan worden gebruikt in een transactie-e-mail om toe te voegen [
 
 >[!NOTE]
 >
->De stappen voor het verrijken van de elementen van een verzameling zijn dezelfde als in het dialoogvenster [De gebeurtenis verrijken](#enriching-the-transactional-message-content) sectie. Door de gebeurtenis te verrijken, kunt u een verzameling niet verrijken: u moet een verrijking aan de inzameling zelf in toevoegen **[!UICONTROL Collections]** sectie.
+>De stappen voor het verrijken van de elementen van een verzameling zijn dezelfde als in het dialoogvenster [De gebeurtenis verrijken](#enriching-the-transactional-message-content) sectie. Merk op dat het verrijken van de gebeurtenis u niet zal toestaan om een inzameling te verrijken: u moet een verrijking aan de inzameling zelf in toevoegen **[!UICONTROL Collections]** sectie.
 
 Zodra de gebeurtenis en het bericht worden gepubliceerd, zult u deze inzameling in uw transactiebericht kunnen gebruiken.
 
@@ -103,13 +103,13 @@ Hier volgt de API-voorvertoning voor dit voorbeeld:
 
 U kunt de inhoud van het transactiebericht verrijken met informatie uit de Adobe Campaign-database om uw berichten aan te passen. Van achternaam of identiteitskaart van CRM van elk van uw ontvangers, bijvoorbeeld, kunt u gegevens zoals hun adres of geboortedatum of een ander douanegebied terugkrijgen dat in de lijst van het Profiel wordt toegevoegd, om de informatie te personaliseren die naar hen wordt verzonden.
 
-Het is mogelijk om de inhoud van het transactiebericht te verrijken met informatie van uitgebreid **[!UICONTROL Profile and services Ext API]**. Zie voor meer informatie [API uitbreiden: De extensie publiceren](../../developing/using/step-2--publish-the-extension.md)
+Het is mogelijk om de inhoud van het transactiebericht te verrijken met informatie van uitgebreid **[!UICONTROL Profile and services Ext API]**. Zie voor meer informatie [De API uitbreiden: de extensie publiceren](../../developing/using/step-2--publish-the-extension.md)
 
 Deze informatie kan ook in nieuwe middelen worden opgeslagen. In dat geval moet de bron gekoppeld zijn aan de **[!UICONTROL Profile]** of **[!UICONTROL Service]** bronnen, rechtstreeks of via een andere tabel. In de onderstaande configuratie is het bijvoorbeeld mogelijk om de inhoud van het transactiebericht te verrijken met informatie uit de **[!UICONTROL Product]** bron zoals de productcategorie of id, als de **[!UICONTROL Product]** resource is gekoppeld aan de **[!UICONTROL Profile]** resource.
 
 ![](assets/message-center_usecaseschema.png)
 
-Voor meer informatie over het maken en publiceren van bronnen raadpleegt u [deze sectie](../../developing/using/key-steps-to-add-a-resource.md).
+Zie voor meer informatie over het maken en publiceren van bronnen [deze sectie](../../developing/using/key-steps-to-add-a-resource.md).
 
 1. In de **[!UICONTROL Enrichment]** klikt u op de **[!UICONTROL Create element]** knop.
 
@@ -131,7 +131,7 @@ Voor meer informatie over het maken en publiceren van bronnen raadpleegt u [deze
 
    ![](assets/message-center_enrichment-join-fields.png)
 
-   U kunt de inhoud van het transactiemelding ook verrijken gebruikend **[!UICONTROL Service]** resource. Voor meer informatie over services raadpleegt u [deze sectie](../../audiences/using/creating-a-service.md).
+   U kunt de inhoud van het transactiemelding ook verrijken gebruikend **[!UICONTROL Service]** resource. Zie voor meer informatie over services [deze sectie](../../audiences/using/creating-a-service.md).
 
 1. Als u een [gebeurtenis op basis van profiel](#profile-based-transactional-messages)in de **[!UICONTROL Targeting enrichment]** selecteert u de verrijking die tijdens de uitvoering van de levering als doel voor het bericht wordt gebruikt.
 

@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # E-mailontwerp met meerdere oplossingen {#multi-solution-email-design}
 
-Adobe Campaign biedt verschillende opties voor het schrijven van e-mailberichten. U kunt oplossingen zoals Dreamweaver gebruiken om uw e-mailinhoud te bewerken en responsieve berichten te maken in de e-mailontwerper. U kunt ook inhoud via e-mail verzenden naar Adobe Experience Manager en deze gebruiken in uw e-mails in Adobe Campaign Standard.
+Adobe Campaign biedt verschillende opties voor het schrijven van e-mailberichten. U kunt oplossingen zoals Dreamweaver gebruiken om uw e-mailinhoud te bewerken en responsieve berichten te maken in de e-mailontwerper. U kunt ook inhoud via e-mail versturen met Adobe Experience Manager en deze gebruiken in uw e-mails in Adobe Campaign Standard.
 
 ## Inhoud bewerken in Dreamweaver {#editing-content-in-dreamweaver}
 
@@ -25,15 +25,15 @@ Dankzij de Adobe Campaign Standard-integratie met Dreamweaver kunt u de inhoud v
 
 * **Bidirectionele synchronisatie**
 
-   Wanneer een bewerking in het ene product wordt uitgevoerd, wordt deze in real-time in het andere product bijgewerkt. Als u de kleur van tekst in Dreamweaver wilt wijzigen, wordt de kleur van de tekst live weergegeven in Campagne. Wanneer u bovendien code selecteert in Dreamweaver of Campagne, aangezien de lijnaantallen het zelfde zijn, blijft de selectie tussen de twee producten, wat zeer nuttig is wanneer het zoeken naar iets specifiek in de code.
+  Wanneer een bewerking in het ene product wordt uitgevoerd, wordt deze in real-time in het andere product bijgewerkt. Als u de kleur van tekst in Dreamweaver wilt wijzigen, wordt de kleur van de tekst live weergegeven in Campagne. Wanneer u bovendien code selecteert in Dreamweaver of Campagne, aangezien de lijnaantallen het zelfde zijn, blijft de selectie tussen de twee producten, wat zeer nuttig is wanneer het zoeken naar iets specifiek in de code.
 
 * **Lokale afbeeldingen uploaden naar Adobe Campaign via Dreamweaver**
 
-   Wanneer u een e-mailbericht maakt of bewerkt in Dreamweaver, kunt u gewoon een afbeelding op uw bureaublad of op uw lokale computer selecteren. Hoewel Dreamweaver u altijd heeft toegestaan dit te doen, wordt het lokale bestand onmiddellijk geüpload naar de Adobe Campaign-server wanneer Dreamweaver en Campagne zijn aangesloten: hoeven afbeeldingen niet handmatig te uploaden wanneer de inhoud verandert. Bovendien zorgt het ervoor dat de recentste beelden altijd in Campagne leven.
+  Wanneer u een e-mailbericht maakt of bewerkt in Dreamweaver, kunt u gewoon een afbeelding op uw bureaublad of op uw lokale computer selecteren. Hoewel Dreamweaver u dit altijd heeft toegestaan, wordt het lokale bestand direct geüpload naar de Adobe Campaign-server wanneer Dreamweaver en Campagne zijn aangesloten. U hoeft de afbeeldingen niet handmatig te uploaden als de inhoud verandert. Bovendien zorgt het ervoor dat de recentste beelden altijd in Campagne leven.
 
-* **Aanpassing campagne toevoegen aan Dreamweaver**
+* **Campagne-personalisatie toevoegen in Dreamweaver**
 
-   Voor de e-mailontwikkelaar is het niet langer nodig om tekst zoals `[[FIRSTNAME_PLACEHOLDER]]` noch om de syntaxis van de lijsten van uw gegevensmodel op te zoeken. De werkbalk Campagne in Dreamweaver maakt rechtstreeks verbinding met het gegevensmodel van uw Campagne-instantie. Dat betekent u in om het even welke gegevens kunt trekken u voor verpersoonlijking van iets als Voornaam aan Adres wilt. Als u inhoudsblokken hebt gemaakt in de campagne, kunt u deze ook rechtstreeks naar Dreamweaver trekken.
+  Voor de e-mailontwikkelaar is het niet langer nodig om tekst zoals `[[FIRSTNAME_PLACEHOLDER]]` noch om de syntaxis van de lijsten van uw gegevensmodel op te zoeken. De werkbalk Campagne in Dreamweaver maakt rechtstreeks verbinding met het gegevensmodel van uw Campagne-instantie. Dat betekent u in om het even welke gegevens kunt trekken u voor verpersoonlijking van iets als Voornaam aan Adres wilt. Als u inhoudsblokken hebt gemaakt in de campagne, kunt u deze ook rechtstreeks naar Dreamweaver trekken.
 
 Deze mogelijkheid wordt beschreven in de Dreamweaver-documentatie die beschikbaar is [hier](https://helpx.adobe.com/nl/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 
@@ -159,4 +159,4 @@ In deze video ziet u hoe u inhoud voor Adobe Campaign Standard kunt maken en bew
 
 >[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
 
-Er zijn aanvullende Campaign Standard-hoe-kan-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).
+Er zijn aanvullende Campaign Standard-to-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).

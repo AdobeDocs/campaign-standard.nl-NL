@@ -26,12 +26,12 @@ De reactie retourneert de hoofdmetagegevens van de bron (alle andere velden zijn
 * De **Inhoud** de knoop keert de gebieden van het middel terug. Voor elk veld in het veld **content** knooppunten, kunnen wij de volgende gebieden vinden:
 
    * &quot;apiName&quot;: naam van het kenmerk dat in de API&#39;s wordt gebruikt.
-   * &quot;type&quot;: Dit is de typedefinitie op hoog niveau (tekenreeks, nummer, koppeling, verzameling, opsomming...).
-   * &quot;dataPolicy&quot;: de waarde van het veld moet in overeenstemming zijn met de gegeven beleidsregels . Als de regel dataPolicy bijvoorbeeld is ingesteld op &#39;email&#39;, moet de waarde een geldige e-mail zijn. Tijdens een PATCH of een POST, kan dataPolicy de waarde controleren of de te transformeren waarde wijzigen (smartCase bijvoorbeeld).
-   * &quot;categorie&quot;: geeft de categorie van het gebied in de vraagredacteur.
+   * &quot;type&quot;: dit is de typedefinitie op hoog niveau (tekenreeks, nummer, koppeling, verzameling, opsomming...).
+   * &quot;dataPolicy&quot;: de waarde van het veld moet de gegeven beleidsregels volgen. Als de regel dataPolicy bijvoorbeeld is ingesteld op &#39;email&#39;, moet de waarde een geldige e-mail zijn. Tijdens een PATCH of een POST, kan dataPolicy de waarde controleren of de te transformeren waarde wijzigen (smartCase bijvoorbeeld).
+   * &quot;categorie&quot;: geeft de categorie van het veld in de zoekeditor.
    * &quot;resType&quot;: dit is het technische type.
 
-      Als &quot;type&quot;met de waarde &quot;verbinding&quot;of &quot;inzameling&quot;wordt voltooid, is de resTarget waarde de naam van het middel dat door de verbinding wordt gericht.
+     Als &quot;type&quot;met de waarde &quot;verbinding&quot;of &quot;inzameling&quot;wordt voltooid, is de resTarget waarde de naam van het middel dat door de verbinding wordt gericht.
 Als &quot;type&quot; is ingevuld met de waarde &quot;enumeration&quot;, wordt een veld &quot;values&quot; toegevoegd en wordt elke opsommingswaarde in het veld **waarden** knooppunt.
 
 * De **Filters** de knoop keert URL terug om de bijbehorende filters terug te winnen. Zie voor meer informatie over filters [deze sectie](../../api/using/filtering.md) sectie.

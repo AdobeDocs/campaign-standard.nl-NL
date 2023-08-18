@@ -280,7 +280,7 @@ CR: Enter-teken
 
 **Geavanceerde tekens (twee keer geteld)**
 
-^ { } [ ~ ] | €
+^ { } [~] | €
 
 ### SMSC-specificaties {#smsc-specifics}
 
@@ -305,15 +305,15 @@ Met de functionaliteit **[!UICONTROL Define a specific mapping of encodings]** k
    * Er wordt geprobeerd gsm-codering te gebruiken waaraan de waarde **data_coding = 0** wordt toegewezen.
    * Als gsm-codering mislukt, wordt **UCS2** -codering gebruikt waaraan de waarde **data_coding = 8** wordt toegewezen.
 
-   ![](assets/sms_data_coding.png)
+  ![](assets/sms_data_coding.png)
 
 * Wanneer de functionaliteit **[!UICONTROL Define a specific mapping of encodings]** is ingeschakeld, kunt u de gewenste coderingen en de gekoppelde **[!UICONTROL data_coding]**-veldwaarden definiëren. Adobe Campaign probeert de eerste codering in de lijst te gebruiken, en daarna de volgende codering als de eerste codering niet mogelijk is.
 
-   De volgorde van de declaratie is belangrijk. U wordt aangeraden de lijst in oplopende volgorde **van kosten** te plaatsen om voorrang te geven aan de coderingen, zodat u in elk sms-bericht zoveel mogelijk tekens kunt plaatsen.
+  De volgorde van de declaratie is belangrijk. U wordt aangeraden de lijst in oplopende volgorde **van kosten** te plaatsen om voorrang te geven aan de coderingen, zodat u in elk sms-bericht zoveel mogelijk tekens kunt plaatsen.
 
-   Declareer alleen de coderingen die u wilt gebruiken. Als sommige van de coderingen die door SMSC worden verstrekt niet aan uw gebruiksdoel beantwoorden, declareer deze dan niet in de lijst.
+  Declareer alleen de coderingen die u wilt gebruiken. Als sommige van de coderingen die door SMSC worden verstrekt niet aan uw gebruiksdoel beantwoorden, declareer deze dan niet in de lijst.
 
-   ![](assets/sms_data_coding1.png)
+  ![](assets/sms_data_coding1.png)
 
 ### Automatisch antwoord verzonden naar het MO-bericht {#automatic-reply-sent-to-the-mo}
 
@@ -331,21 +331,21 @@ De specifieke parameters voor het verzenden van sms-berichten worden opnieuw geg
 
 Van de **[!UICONTROL Advanced parameters]** sectie:
 
-* De **[!UICONTROL Short code]** kunt u een specifieke korte code toevoegen aan uw levering. Ontvangers die hebben gekozen voor deze specifieke korte code worden automatisch uitgesloten tijdens de voorbereiding van het bericht. Voor meer informatie over hoe te om korte code te vormen, verwijs naar [deze sectie](../../channels/using/managing-incoming-sms.md).
+* De **[!UICONTROL Short code]** kunt u een specifieke korte code toevoegen aan uw levering. Ontvangers die hebben gekozen voor deze specifieke korte code worden automatisch uitgesloten tijdens de voorbereiding van het bericht. Raadpleeg voor meer informatie over het configureren van korte code [deze sectie](../../channels/using/managing-incoming-sms.md).
 
-   >[!NOTE]
-   >
-   >Als de **[!UICONTROL Short code]** veld is leeg, de waarde van **[!UICONTROL Short code]** het veld dat in de externe account is ingesteld, wordt gebruikt.
+  >[!NOTE]
+  >
+  >Als de **[!UICONTROL Short code]** veld is leeg, de waarde van **[!UICONTROL Short code]** het veld dat in de externe account is ingesteld, wordt gebruikt.
 
 Van de **[!UICONTROL Send]** sectie van een SMS-sjabloon:
 
 * Met de optie **[!UICONTROL Maximum number of SMS per message]** kunt u het aantal sms-berichten definiëren dat moet worden gebruikt om een bericht te verzenden. Als dit aantal wordt overschreden, wordt het bericht niet verzonden.
 
-   >[!IMPORTANT]
-   >
-   >Als u personalisatievelden of voorwaardelijke tekst in de content van uw sms-bericht hebt ingevoegd, kunnen de lengte van het bericht en daarmee het aantal te verzenden sms-berichten verschillen afhankelijk van de ontvanger. Raadpleeg de sectie [Sms-berichten personaliseren](../../channels/using/personalizing-sms-messages.md) voor meer informatie.
+  >[!IMPORTANT]
+  >
+  >Als u personalisatievelden of voorwaardelijke tekst in de content van uw sms-bericht hebt ingevoegd, kunnen de lengte van het bericht en daarmee het aantal te verzenden sms-berichten verschillen afhankelijk van de ontvanger. Raadpleeg de sectie [Sms-berichten personaliseren](../../channels/using/personalizing-sms-messages.md) voor meer informatie.
 
-   ![](assets/sms_smpp_3.png)
+  ![](assets/sms_smpp_3.png)
 
 * In het veld **[!UICONTROL Transmission mode]** kunt u de leveringsmethode voor sms-berichten bepalen:
 

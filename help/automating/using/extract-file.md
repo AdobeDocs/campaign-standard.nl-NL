@@ -34,7 +34,7 @@ De specifieke data-extractiemethode wordt gedefinieerd bij het configureren van 
 
 **Verwante onderwerpen:**
 
-* [Hoofdlettergebruik: Profielen exporteren in een extern bestand](../../automating/using/exporting-profiles-in-file.md)
+* [Hoofdlettergebruik: profielen exporteren in een extern bestand](../../automating/using/exporting-profiles-in-file.md)
 
 ## Configuratie {#configuration}
 
@@ -43,7 +43,7 @@ De specifieke data-extractiemethode wordt gedefinieerd bij het configureren van 
    ![](assets/wkf_data_export1.png)
 
 1. Selecteer de activiteit en open deze met de knop ![](assets/edit_darkgrey-24px.png) vanuit de snelle acties die verschijnen.
-1. Voer het label van het **uitvoerbestand** in. Het bestandslabel wordt automatisch aangevuld met de datum en tijd waarop het is gemaakt. Dit label is dus uniek. Bijvoorbeeld: receiving_20150815_081532.txt for a file generated the 15th of August 2015 at 08:15:32.
+1. Voer het label van het **uitvoerbestand** in. Het bestandslabel wordt automatisch aangevuld met de datum en tijd waarop het is gemaakt. Dit label is dus uniek. Bijvoorbeeld: ontvangers_20150815_081532.txt voor een bestand dat op 15 augustus 2015 om 08 wordt gegenereerd:15:32.
 
    >[!NOTE]
    >

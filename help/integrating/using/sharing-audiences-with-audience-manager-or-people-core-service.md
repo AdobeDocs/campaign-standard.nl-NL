@@ -63,7 +63,7 @@ Het kan worden uitgevoerd in een nieuwe werkstroom en alleen door gebruikers die
 1. Geef het publiek op met de opdracht **[!UICONTROL Shared audience]** veld. In het venster dat wordt geopend, kunt u een bestaand publiek selecteren of een nieuw publiek maken:
 
    * Als u een bestaand publiek selecteert, worden alleen de nieuwe records aan het publiek toegevoegd.
-   * Als u uw profiellijst naar een nieuw publiek wilt exporteren, voltooit u de opdracht **[!UICONTROL Segment name]** veld en klik vervolgens op **[!UICONTROL Create]** voordat u het nieuwe publiek selecteert.
+   * Als u uw profiellijst naar een nieuw publiek wilt exporteren, voltooit u de opdracht **[!UICONTROL Segment name]** veld en klik op **[!UICONTROL Create]** voordat u het nieuwe publiek selecteert.
 
    ![](assets/aam_save_audience_segment_picker.png)
 
@@ -71,11 +71,11 @@ Het kan worden uitgevoerd in een nieuwe werkstroom en alleen door gebruikers die
 
 1. Klik op het vinkje rechtsboven in het scherm om te voltooien.
 1. Selecteer de bijbehorende **[!UICONTROL Shared Data Source]**.
-1. Controleer desgewenst de **[!UICONTROL Generate an outbound transition]** gebruiken om de profielen te gebruiken die zijn geëxporteerd. Alleen de profielen die met elkaar in overeenstemming kunnen worden gebracht, worden geëxporteerd.
+1. Controleer desgewenst de **[!UICONTROL Generate an outbound transition]** gebruiken voor de profielen die zijn geëxporteerd. Alleen de profielen die in overeenstemming kunnen worden gebracht, worden geëxporteerd.
 1. Bevestig de configuratie van de activiteit en sla uw werkschema op.
 1. Start de workflow om uw publiek te exporteren. De synchronisatie tussen Adobe Campaign en de kerndienst van Mensen kan verscheidene uren vergen
 
-De synchronisatie tussen Adobe Campaign en de kerndienst van Mensen vergt 24-36 uur. Na deze periode, zult u uw nieuw publiek in de de kerndienst van Mensen kunnen vinden en het in andere oplossingen van Adobe Experience Cloud hergebruiken. Voor meer informatie over het gebruiken van een Adobe Campaign gedeeld publiek in de de kerndienst van de Mensen van de Adobe, verwijs naar dit [documentatie](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html).
+De synchronisatie tussen Adobe Campaign en de kerndienst van Mensen vergt 24-36 uur. Na deze periode, zult u uw nieuw publiek in de de kerndienst van Mensen kunnen vinden en het in andere oplossingen van Adobe Experience Cloud hergebruiken. Voor meer informatie over het gebruiken van een Adobe Campaign gedeeld publiek in de kerndienst van de Mensen van de Adobe, verwijs naar dit [documentatie](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html).
 
 **Verwante onderwerpen:**
 

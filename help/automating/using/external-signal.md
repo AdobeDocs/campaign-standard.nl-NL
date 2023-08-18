@@ -40,8 +40,8 @@ Merk op dat een activiteit **[!UICONTROL External signal]** vanaf verschillende 
 
 **Verwante onderwerpen**
 
-* [Hoofdlettergebruik: Externe signaalactiviteit en gegevensinvoer](../../automating/using/external-signal-data-import.md).
-* [Hoofdlettergebruik: Een workflow aanroepen om een publiek te maken op basis van een bestand met externe parameters](../../automating/using/use-case-calling-workflow.md)
+* [Hoofdlettergebruik: externe signaalactiviteit en importeren van gegevens](../../automating/using/external-signal-data-import.md).
+* [Hoofdlettergebruik: een workflow aanroepen om met externe parameters een publiek te maken van een bestand](../../automating/using/use-case-calling-workflow.md)
 
 ## Configuratie {#configuration}
 

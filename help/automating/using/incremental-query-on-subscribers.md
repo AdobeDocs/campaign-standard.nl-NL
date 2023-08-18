@@ -26,16 +26,16 @@ De workflow bestaat uit de volgende elementen:
 
 * A [Planner](../../automating/using/scheduler.md) om de workflow elke maandag om 6.00 uur uit te voeren.
 
-   ![](assets/incremental_query_example2.png)
+  ![](assets/incremental_query_example2.png)
 
 * An [Incrementele query](../../automating/using/incremental-query.md) activiteit, die alle huidige abonnees tijdens de eerste uitvoering richt, dan slechts de nieuwe abonnees van die week tijdens de volgende executies.
 
-   ![](assets/incremental_query_example3.png)
+  ![](assets/incremental_query_example3.png)
 
 * An [E-maillevering](../../automating/using/email-delivery.md) activiteit. De workflow wordt één keer per week uitgevoerd, maar u kunt de verzonden e-mails en de resultaten per maand samenvoegen, om bijvoorbeeld rapporten te genereren over een periode van een hele maand en niet slechts één week.
 
-   U doet dit door een **[!UICONTROL Recurring email]** **[!UICONTROL By month]** te maken om de e-mails en de resultaten te hergroeperen.
+  U doet dit door een **[!UICONTROL Recurring email]** **[!UICONTROL By month]** te maken om de e-mails en de resultaten te hergroeperen.
 
-   Definieer de content van uw e-mail en voer de promocode in. Raadpleeg voor meer informatie hierover [E-mailinhoud definiëren](../../designing/using/personalization.md) secties.
+  Definieer de content van uw e-mail en voer de promocode in. Raadpleeg voor meer informatie hierover [E-mailinhoud definiëren](../../designing/using/personalization.md) secties.
 
 Start vervolgens de workflowuitvoering. Elke week ontvangen nieuwe abonnees het welkomstbericht met de promocode.

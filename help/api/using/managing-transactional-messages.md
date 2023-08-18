@@ -40,17 +40,17 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;transactionalapi>**: de Transactional Berichten API endPoints.
 
-   De naam van het Transactionele eindpunt van Berichten API hangt van uw instantieconfiguratie af. Deze komt overeen met de waarde &quot;mc&quot; gevolgd door uw persoonlijke organisatie-id. Laten we het voorbeeld van het Geometrixx-bedrijf nemen, met &#39;geometrixx&#39; als organisatie-id. In dat geval zou het verzoek om POST als volgt zijn:
+  De naam van het Transactionele eindpunt van Berichten API hangt van uw instantieconfiguratie af. Deze komt overeen met de waarde &quot;mc&quot; gevolgd door uw persoonlijke organisatie-id. Laten we het voorbeeld van het Geometrixx-bedrijf nemen, met &#39;geometrixx&#39; als organisatie-id. In dat geval zou het verzoek om POST als volgt zijn:
 
-   `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
+  `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
-   Het eindpunt van de API voor transactionele berichten is ook zichtbaar tijdens de API-voorvertoning.
+  Het eindpunt van de API voor transactionele berichten is ook zichtbaar tijdens de API-voorvertoning.
 
 * **&lt;eventid>**: het type gebeurtenis dat u wilt verzenden. Deze id wordt gegenereerd wanneer de gebeurtenisconfiguratie wordt gemaakt (zie [deze sectie](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
 ### POST request header
 
-Het verzoek moet een &quot;Content-Type: application/json&quot;.
+Het verzoek moet een header &quot;Content-Type: application/json&quot; bevatten.
 
 U moet bijvoorbeeld een tekenset toevoegen **utf-8**. Deze waarde is afhankelijk van de REST-toepassing die u gebruikt.
 
@@ -70,13 +70,13 @@ De gebeurtenisgegevens bevinden zich in de hoofdtekst van de JSON-POST. De gebeu
 De volgende optionele parameters kunnen aan de inhoud van de gebeurtenis worden toegevoegd om het verzenden van aan de gebeurtenis gekoppelde transactieberichten te beheren:
 
 * **vervaldatum** (optioneel): na deze datum wordt het verzenden van de transactiegebeurtenis geannuleerd.
-* **gepland** (optioneel): vanaf deze datum wordt de transactie - gebeurtenis verwerkt en wordt het transactiemelding verzonden .
+* **gepland** (optioneel): vanaf deze datum wordt de transactie-gebeurtenis verwerkt en wordt het transactiebericht verzonden.
 
 >[!NOTE]
 >
->De waarden van de parameters &quot;expiration&quot; en &quot;scheduled&quot; volgen de ISO 8601-indeling. ISO 8601 specificeert het gebruik van de hoofdletter &quot;T&quot; om de datum en de tijd van elkaar te scheiden. Deze kan echter uit de invoer of uitvoer worden verwijderd voor een betere leesbaarheid.
+>De waarden van de parameters &quot;expiration&quot; en &quot;scheduled&quot; volgen de ISO 8601-indeling. ISO 8601 specificeert het gebruik van de hoofdletter &quot;T&quot; om de datum en de tijd van elkaar te scheiden. Deze kan echter wel uit de invoer of uitvoer worden verwijderd voor een betere leesbaarheid.
 
-### Antwoord op het verzoek van de POST
+### Antwoord op de POST
 
 De reactie van de POST keert de status van de transactionele gebeurtenis op het tijdstip terug het werd gecreeerd. Om zijn huidige status (gebeurtenisgegevens, gebeurtenisstatus...) terug te winnen, gebruik de Primaire Sleutel door de reactie van de POST in een verzoek van de GET wordt teruggekeerd:
 
@@ -109,7 +109,7 @@ POST vraagt om de gebeurtenis te verzenden.
 }
 ```
 
-Antwoord op het verzoek van de POST.
+Antwoord op de POST verzoek.
 
 ```
 {
@@ -135,11 +135,11 @@ Antwoord op het verzoek van de POST.
 In het antwoord kunt u met het veld status weten of de gebeurtenis is verwerkt:
 
 * **hangend**: de gebeurtenis is in behandeling - de gebeurtenis neemt deze status over wanneer deze zojuist is geactiveerd.
-* **verwerking**: de gebeurtenis is in afwachting van levering - het wordt omgezet in een bericht en het bericht wordt verzonden.
-* **gepauzeerd**: het gebeurtenisproces wordt gepauzeerd. Het wordt niet meer verwerkt, maar in een rij in het gegevensbestand van Adobe Campaign bewaard. Raadpleeg [deze sectie](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication) voor meer informatie.
+* **verwerking**: de gebeurtenis is in afwachting van levering - deze wordt omgezet in een bericht en het bericht wordt verzonden.
+* **onderbroken**: het gebeurtenisproces wordt gepauzeerd. Het wordt niet meer verwerkt, maar in een rij in het gegevensbestand van Adobe Campaign bewaard. Raadpleeg [deze sectie](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication) voor meer informatie.
 * **verwerkt**: de gebeurtenis is verwerkt en het bericht is verzonden.
 * **genegeerd**: de gebeurtenis werd genegeerd door de levering, typisch wanneer een adres in quarantaine is.
-* **deliveryFailed**: Er is een leveringsfout opgetreden tijdens de verwerking van de gebeurtenis.
+* **deliveryFailed**: er is een leveringsfout opgetreden tijdens de verwerking van de gebeurtenis.
 * **routingFailed**: de verpletterende mislukte fase - dit kan bijvoorbeeld voorkomen wanneer het gespecificeerde type van gebeurtenis niet kan worden gevonden.
-* **tooOld**: de gebeurtenis is verlopen voordat deze kon worden verwerkt - dit kan om verschillende redenen gebeuren, bijvoorbeeld wanneer een verzending meerdere keren mislukt (dit leidt ertoe dat de gebeurtenis niet meer up-to-date is) of wanneer de server gebeurtenissen niet meer kan verwerken na het overladen.
+* **tooOld**: de gebeurtenis is verlopen voordat deze kon worden verwerkt - dit kan om verschillende redenen gebeuren, bijvoorbeeld wanneer een verzend meerdere keren mislukt (dit leidt ertoe dat de gebeurtenis niet meer up-to-date is) of wanneer de server gebeurtenissen na het overladen niet meer kan verwerken.
 * **targetingFailed**: Campaign Standard kon geen verbinding verrijken die voor bericht het richten wordt gebruikt.

@@ -21,11 +21,11 @@ ht-degree: 2%
 
 Met de editor kunt u een e-mail- of landingspagina aanpassen door koppelingen in te voegen in de HTML-inhoudselementen.
 
-U kunt een koppeling invoegen in elk pagina-element: afbeelding, woord, groep woorden, tekstblok, enz.
+U kunt een koppeling invoegen in elk pagina-element: afbeelding, woord, groep woorden, tekstblok, enzovoort.
 
 >[!NOTE]
 >
->In de onderstaande afbeeldingen ziet u hoe u een koppeling invoegt met de [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md) in een e-mail.
+>In de onderstaande afbeeldingen ziet u hoe u een koppeling invoegt met de opdracht [E-mailDesigner](../../designing/using/designing-content-in-adobe-campaign.md) in een e-mail.
 
 1. Selecteer een element en klik op **[!UICONTROL Insert link]** in de contextuele werkbalk.
 
@@ -33,18 +33,18 @@ U kunt een koppeling invoegen in elk pagina-element: afbeelding, woord, groep wo
 
 1. Kies het type koppeling dat u wilt maken:
 
-   * **Externe koppeling**: voegt een koppeling naar een externe URL in.
+   * **Externe koppeling**: voeg een koppeling naar een externe URL in.
 
-      U kunt personalisatie voor uw URLs bepalen. Zie [URL&#39;s aanpassen](personalization.md#personalizing-urls).
+     U kunt personalisatie voor uw URLs bepalen. Zie [URL&#39;s aanpassen](personalization.md#personalizing-urls).
 
-   * **Openingspagina**: toegang geven tot een Adobe Campaign-landingspagina.
+   * **Openingspagina**: geef toegang tot een Adobe Campaign-landingspagina.
    * **Koppeling naar abonnement**: voeg een koppeling in om u te abonneren op een Adobe Campaign-service.
    * **Koppeling met abonnement opheffen**: voeg een koppeling in om uw abonnement op een Adobe Campaign-service op te zeggen.
-   * **Koppeling die een handeling definieert**: definieert een actie wanneer op een element in de landingspagina wordt geklikt.
+   * **Koppeling die een handeling definieert**: definieer een actie wanneer op een element op de bestemmingspagina wordt geklikt.
 
-      >[!NOTE]
-      >
-      >Dit type koppeling is alleen beschikbaar voor bestemmingspagina&#39;s.
+     >[!NOTE]
+     >
+     >Dit type koppeling is alleen beschikbaar voor bestemmingspagina&#39;s.
 
 1. U kunt de tekst wijzigen die aan de ontvanger wordt getoond.
 1. U kunt het browsergedrag instellen wanneer de gebruiker op de koppeling klikt (bijvoorbeeld een nieuw venster openen).
@@ -59,7 +59,7 @@ Nadat de koppeling is gemaakt, kunt u deze nog steeds wijzigen in het deelvenste
 
 ![](assets/des_link_edit.png)
 
-Wanneer u een e-mailbericht bewerkt met de [E-mailontwerper](../../designing/using/designing-content-in-adobe-campaign.md)U kunt gemakkelijk de koppelingen openen en wijzigen die u hebt gemaakt in de tabel met alle URL&#39;s die in de e-mail zijn opgenomen. In deze lijst kunt u een gecentraliseerde weergave gebruiken en elke URL in de e-mailinhoud opzoeken. Ga voor toegang tot de pagina naar [Bijgehouden URL&#39;s](#about-tracked-urls).
+Wanneer u een e-mailbericht bewerkt met de [E-mailDesigner](../../designing/using/designing-content-in-adobe-campaign.md)U kunt gemakkelijk de koppelingen openen en wijzigen die u hebt gemaakt in de tabel met alle URL&#39;s die in de e-mail zijn opgenomen. In deze lijst kunt u een gecentraliseerde weergave gebruiken en elke URL in de e-mailinhoud opzoeken. Ga voor toegang tot de pagina naar [Bijgehouden URL&#39;s](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 
@@ -93,7 +93,7 @@ Voor elke bijgehouden URL kunt u de modus Tekstspatiëring instellen op een van 
 
 * **Bijgehouden**: activeert tracking op deze URL.
 * **Pagina spiegelen**: beschouwt deze URL als een URL van een spiegelpagina.
-* **Nooit**: activeert het bijhouden van deze URL nooit. Deze gegevens worden opgeslagen: als de URL in een toekomstig bericht opnieuw verschijnt, wordt het volgen automatisch gedeactiveerd.
+* **Nooit**: activeert nooit het bijhouden van deze URL. Deze informatie wordt opgeslagen: als de URL opnieuw in een toekomstig bericht wordt weergegeven, wordt de URL automatisch uitgeschakeld.
 * **Uitschakelen**: beschouwt deze URL als een opt-out- of niet-abonnements-URL.
 
 ![](assets/des_link_tracking_type.png)
@@ -112,4 +112,4 @@ Wanneer het opstellen van een rapport, van **[!UICONTROL Components]** tab, sele
 
 ![](assets/des_link_tracking_report.png)
 
-Voor meer informatie over het samenstellen van aangepaste rapporten raadpleegt u [deze sectie](../../reporting/using/about-dynamic-reports.md).
+Zie voor meer informatie over het samenstellen van aangepaste rapporten [deze sectie](../../reporting/using/about-dynamic-reports.md).

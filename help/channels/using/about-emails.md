@@ -22,9 +22,9 @@ Het e-mailkanaal is een van de belangrijkste kanalen in Adobe Campaign, zodat u 
 
 U kunt verschillende typen e-mailberichten verzenden:
 
-* E-mails met één verzending: standaard e-mails die u één keer naar een bepaald doel kunt verzenden.
-* E-mails terugsturen: regelmatig dezelfde e-mail verzenden en elk bericht en de bijbehorende verslagen samenvoegen. Een veelvoorkomend voorbeeld is een e-mailbericht voor verjaardagen. Terugkerende e-mails zijn alleen beschikbaar via workflows.
+* E-mailberichten voor één verzending: standaard e-mailberichten die u één keer naar een bepaald doel kunt verzenden.
+* Herhalende e-mails: stuur regelmatig dezelfde e-mail en aggregeer elke verzending en de bijbehorende rapporten op periodieke basis. Een veelvoorkomend voorbeeld is een e-mailbericht voor verjaardagen. Terugkerende e-mails zijn alleen beschikbaar via workflows.
 * E-mails voor A/B-tests: test maximaal drie versies van een e-mailbericht.
-* Transactiee-mails: Eenvoudige e-mailberichten die worden geactiveerd op basis van het gedrag van uw klanten.
+* Transactiee-mails: eenheidse e-mails die worden geactiveerd op basis van het gedrag van uw klanten.
 
-Als u meer wilt weten over de beste werkwijzen bij het maken en verzenden van e-mails, raadpleegt u de [Best practices voor levering](../../sending/using/delivery-best-practices.md) sectie.
+Als u meer wilt weten over de beste praktijken bij het maken en verzenden van e-mails, raadpleegt u de [Best practices voor levering](../../sending/using/delivery-best-practices.md) sectie.

@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # Overzicht van niet-bezorging{#bounce-summary}
 
-In dit rapport worden de algemene harde en zachte fouten beschreven die tijdens de leveringen zijn aangetroffen, alsmede de automatische verwerking van steunbedragen (zie [Leveringsfouten begrijpen](../../sending/using/understanding-delivery-failures.md)).
+In dit rapport worden de algemene harde en zachte fouten beschreven die tijdens de leveringen zijn aangetroffen, alsmede de automatische verwerking van steunbedragen (zie [Uitvoerfouten](../../sending/using/understanding-delivery-failures.md)).
 
 ![](assets/campaign_reports_bounces.png)
 
@@ -30,15 +30,15 @@ De **Stuitingsredenen** de tabel bevat de beschikbare gegevens voor de soorten f
 
 * **[!UICONTROL User unknown]**: Het type fout dat wordt gegenereerd wanneer een levering naar een ongeldig e-mailadres wordt verzonden.
 * **[!UICONTROL Invalid domain]**: Het type fout dat wordt gegenereerd wanneer een levering wordt verzonden naar een e-mailadres waarvan het domein onjuist is of niet meer bestaat.
-* **[!UICONTROL Unreachable]**: Het type van fout die in het koord van de berichtlevering wordt ontmoet, zoals domein tijdelijk onbereikbaar.
+* **[!UICONTROL Unreachable]**: Het type fout dat in de tekenreeks voor het verzenden van berichten wordt aangetroffen, zoals tijdelijk onbereikbaar domein.
 * **[!UICONTROL Account disabled]**: Het type fout dat wordt gegenereerd wanneer een levering wordt verzonden naar een e-mailadres dat niet meer bestaat.
 * **[!UICONTROL Mailbox full]**: Het type fout dat wordt gegenereerd wanneer het Postvak IN van de ontvanger vol is. Er zijn vijf pogingen om het bericht te leveren alvorens deze fout wordt geproduceerd.
 * **[!UICONTROL Not connected]**: Het type fout dat wordt gegenereerd wanneer de mobiele telefoon van de ontvanger is uitgeschakeld of wanneer de ontvanger niet is verbonden met een netwerk op het moment dat het bericht wordt verzonden.
 
-   >[!NOTE]
-   >
-   >Dit type fout heeft alleen betrekking op leveringen op mobiele kanalen.
+  >[!NOTE]
+  >
+  >Dit type fout heeft alleen betrekking op leveringen op mobiele kanalen.
 
-* **[!UICONTROL Refused]**: Het type van fout produceerde wanneer een adres door de dienstverlener van Internet (ISP) wordt geweigerd. Bijvoorbeeld, wanneer een veiligheidsregel door anti-Spam software is toegepast.
+* **[!UICONTROL Refused]**: Het type fout die wordt gegenereerd wanneer een adres wordt geweigerd door de internetprovider (ISP). Bijvoorbeeld, wanneer een veiligheidsregel door anti-Spam software is toegepast.
 
 De **Domeinherverdeling** de lijst toont de algemene problemen die tijdens de leveringen volgens het ontvankelijke domein worden ontmoet.

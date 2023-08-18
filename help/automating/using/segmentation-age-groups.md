@@ -28,16 +28,16 @@ De workflow bestaat uit de volgende elementen:
 
 * A [Planningsactiviteit](../../automating/using/segmentation.md) om de uitvoeringsdatum van de workflow te bepalen.
 * A [Query](../../automating/using/query.md) activiteit aan doelprofielen van mensen van wie verjaardag en e-mailadres zijn ingegaan.
-* A [Segmentering](../../automating/using/segmentation.md) activiteit om 3 segmenten te creëren die in verschillende uitgaande overgangen worden verdeeld: 18-25 jaar oud, 26-32 jaar oud en profielen ouder dan 32 jaar. De segmenten worden gedefinieerd volgens de volgende parameters:
+* A [Segmentering](../../automating/using/segmentation.md) activiteit om 3 segmenten te creëren verdeeld in verschillende uitgaande overgangen: 18-25 jaar oud, 26-32 jaar oud en profielen ouder dan 32 jaar. De segmenten worden gedefinieerd volgens de volgende parameters:
 
-   ![](assets/wkf_segment_example_3.png)
+  ![](assets/wkf_segment_example_3.png)
 
    * Een filter op de leeftijd om de leeftijdsgroep van het segment te bepalen
 
-      ![](assets/wkf_segment_new_segment.png)
+     ![](assets/wkf_segment_new_segment.png)
 
    * De typelimiet **[!UICONTROL Random sampling]**, gekoppeld aan een **[!UICONTROL Maximum size]** van 100
 
-      ![](assets/wkf_segment_example_1.png)
+     ![](assets/wkf_segment_example_1.png)
 
 * An [E-maillevering](../../automating/using/email-delivery.md) activiteit per segment.

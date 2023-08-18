@@ -35,7 +35,7 @@ Afhankelijk van de gewenste resultaten en de typen bewerkbare data zijn er versc
 
 >[!NOTE]
 >
->Aanvullende functies zijn beschikbaar in alle activiteiten waarmee u gebeurtenisvariabelen kunt gebruiken nadat u een workflow met externe parameters hebt aangeroepen. Deze worden in [deze sectie](../../automating/using/customizing-workflow-external-parameters.md).
+>Aanvullende functies zijn beschikbaar in alle activiteiten waarmee u gebeurtenisvariabelen kunt gebruiken nadat u een workflow met externe parameters hebt aangeroepen. Deze worden nader beschreven in [deze sectie](../../automating/using/customizing-workflow-external-parameters.md).
 
 ## Datums {#dates}
 
@@ -220,7 +220,7 @@ De datumfuncties worden gebruikt om datum- of tijdwaarden te manipuleren.
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> Zet een tekenreeks om in datum + tijdzone.<br /> Voorbeeld: ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Azië/Teheran")<br /> </td> 
+   <td> Zet een tekenreeks om in datum + tijdzone.<br /> Voorbeeld: ToDateTimeWithTimezone ("2019-02-19 08:09:0", "Azië/Teheran")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;tekenreeks&gt;)<br /> </td> 
   </tr> 
   <tr> 

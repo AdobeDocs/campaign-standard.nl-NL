@@ -68,8 +68,8 @@ Voor elk filter is dezelfde metagegevensstructuur beschikbaar:
 
 * De **@formType** en **@webPage** velden zijn technische velden.
 * De **data** geeft een voorbeeld van het gebruik van het filter.
-* De **metagegevens** knooppunt beschrijft de filterparameters.
-* De **voorwaarde** knooppunt beschrijft wat het filter moet doen. De filterparameters die in het metagegevensknooppunt worden beschreven, worden gebruikt om filtervoorwaarden te maken. Voor elke filtervoorwaarde, als **enabledIf** is waar, **expr** wordt toegepast.
+* De **metagegevens** de knoop beschrijft de filterparameters.
+* De **conditie** knooppunt beschrijft wat het filter moet doen. De filterparameters die in het metagegevensknooppunt worden beschreven, worden gebruikt om filtervoorwaarden te maken. Voor elke filtervoorwaarde, als **enabledIf** is waar, **expr** wordt toegepast.
 
 <br/>
 
@@ -103,95 +103,95 @@ Het is mogelijk meerdere filters te combineren in één aanvraag:
 
 * Voorbeeld van een GET-aanvraag om de &#39;service&#39;-bronnen op te halen met het type &#39;email&#39;.
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   Antwoord op het verzoek.
+  Antwoord op het verzoek.
 
-   ```
-   {
-       "content": [
-           {
-               "PKey": "<PKEY>",
-               "created": "2019-09-25 23:20:35.000Z",
-               "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/@I_FIiDush4OQPc0mbOVR9USoh36Tt5CsD35lATvQjdWlXrYc0lFkvle2XIwZUbD8GqTVvSp8AfWFUvjkGMe1fPe5nok",
-               "label": "Marketing Newsletter",
-               "lastModified": "2019-09-25 23:20:35.000Z",
-               "limitedDuration": false,
-               "messageType": "email",
-               "mode": "newsletter",
-               ...
-           },
-           ...
-       ],
-       ...
-   }
-   ```
+  ```
+  {
+      "content": [
+          {
+              "PKey": "<PKEY>",
+              "created": "2019-09-25 23:20:35.000Z",
+              "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/@I_FIiDush4OQPc0mbOVR9USoh36Tt5CsD35lATvQjdWlXrYc0lFkvle2XIwZUbD8GqTVvSp8AfWFUvjkGMe1fPe5nok",
+              "label": "Marketing Newsletter",
+              "lastModified": "2019-09-25 23:20:35.000Z",
+              "limitedDuration": false,
+              "messageType": "email",
+              "mode": "newsletter",
+              ...
+          },
+          ...
+      ],
+      ...
+  }
+  ```
 
 * Voorbeeldverzoek om de &quot;profiel&quot;-bronnen op te halen die &quot;Doe&quot; bevatten in de velden E-mail of achternaam (het filter ByText zoekt naar zowel de velden E-mail als achternaam).
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   Antwoord op het verzoek.
+  Antwoord op het verzoek.
 
-   ```
-   {
-       "content": [
-           {
-               "PKey": "<PKEY>",
-               "firstName": "John",
-               "lastName":"Doe",
-               "birthDate": "1980-10-24",
-               ...
-           }
-           ...
-       ],
-       ...
-   }
-   ```
+  ```
+  {
+      "content": [
+          {
+              "PKey": "<PKEY>",
+              "firstName": "John",
+              "lastName":"Doe",
+              "birthDate": "1980-10-24",
+              ...
+          }
+          ...
+      ],
+      ...
+  }
+  ```
 
 * Voorbeeld van een GET-verzoek om de servicemiddelen op te halen met het type &quot;email&quot; en het label &quot;sport&quot;.
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
-   -H 'Content-Type: application/json' \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>'
+  ```
 
-   Antwoord op het verzoek.
+  Antwoord op het verzoek.
 
-   ```
-   {
-       "content": [
-           {
-               "PKey": "<PKEY>",
-               "created": "2019-09-26 09:36:01.014Z",
-               "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>",
-               "label": "sport",
-               "lastModified": "2019-09-26 09:36:01.014Z",
-               "limitedDuration": false,
-               "messageType": "email",
-               "mode": "newsletter",
-               "name": "SVC13",
-               ...
-           }
-       ],
-       ...
-   }
-   ```
+  ```
+  {
+      "content": [
+          {
+              "PKey": "<PKEY>",
+              "created": "2019-09-26 09:36:01.014Z",
+              "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>",
+              "label": "sport",
+              "lastModified": "2019-09-26 09:36:01.014Z",
+              "limitedDuration": false,
+              "messageType": "email",
+              "mode": "newsletter",
+              "name": "SVC13",
+              ...
+          }
+      ],
+      ...
+  }
+  ```
 
 ## Aangepaste filters
 
@@ -199,10 +199,10 @@ Als u een aangepast filter wilt gebruiken, moet u het maken en aanpassen in de A
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-Raadpleeg de documentatie bij Campaign Standard voor meer informatie hierover:
+Raadpleeg de documentatie bij het Campaign Standard voor meer informatie hierover:
 
 * [De filterdefinitie configureren](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Hoofdlettergebruik: Een bron aanroepen met een samengestelde identificatiesleutel](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
+* [Hoofdlettergebruik: een bron aanroepen met een samengestelde id-sleutel](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
