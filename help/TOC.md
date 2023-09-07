@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken.
 title: Campaign Standard-handleiding
 breadcrumb-title: Documentatie voor Adobe Campaign Standard
-source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
-workflow-type: tm+mt
-source-wordcount: '1818'
+source-git-commit: 957064f708390c33a3295ed7d107cc9c488be875
+workflow-type: ht
+source-wordcount: '1812'
 ht-degree: 100%
 
 ---
@@ -271,22 +271,21 @@ ht-degree: 100%
          + [Gegevens toewijzen tussen Microsoft Dynamics 365 en Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [De integratie van Microsoft Dynamics 365 gebruiken](integrating/using/d365-acs-using-the-integration.md)
    + Campaign en Adobe Experience Platform {#adobe-experience-platform}
-      + Bronnen en bestemmingen van het Adobe Experience Platform {#aep-sources-destinations}
-         + [Aan de slag met bronnen en bestemmingen](integrating/using/get-started-sources-destinations.md)
-         + [Adobe Experience Platform-doelgroepen opnemen in Campaign](integrating/using/ingest-aep-data.md)
-         + [Gegevens exporteren van Campaign naar Adobe Experience Platform](integrating/using/export-campaign-data.md)
-      + De service Doelgroepbestemmingen (bèta) {#audience-destinations}
-         + [Informatie over de service Doelgroepbestemmingen](integrating/using/aep-about-audience-destinations-service.md)
-         + [Adobe Experience Platform-doelgroepen beheren](integrating/using/aep-managing-audiences.md)
-         + [De Segment Builder gebruiken](integrating/using/aep-using-segment-builder.md)
-         + [Adobe Experience Platform-doelgroepen doelgericht benaderen](integrating/using/aep-targeting-audiences.md)
-         + [Campagnes aanpassen met Adobe Experience Platform-kenmerken](integrating/using/aep-personalizing-campaigns.md)
-      + Adobe Experience Platform-gegevensconnector (bèta) {#data-connector}
-         + [Informatie over de Adobe Experience Platform-gegevensconnector](integrating/using/aep-about-data-connector.md)
-         + [Overzicht gegevensmodel Experience Platform](integrating/using/aep-data-model-overview.md)
-         + [Toewijzingsdefinitie](integrating/using/aep-mapping-definition.md)
-         + [Toewijzingsactivering](integrating/using/aep-mapping-activation.md)
-         + [Gegevensopname via API&#39;s activeren](integrating/using/aep-triggering-data-ingestion.md)
+      + [Aan de slag met bronnen en bestemmingen](integrating/using/get-started-sources-destinations.md)
+      + [Adobe Experience Platform-doelgroepen opnemen in Campaign](integrating/using/ingest-aep-data.md)
+      + [Gegevens exporteren van Campaign naar Adobe Experience Platform](integrating/using/export-campaign-data.md)
+         + De service Doelgroepbestemmingen (bèta) {#audience-destinations}
+            + [Informatie over de service Doelgroepbestemmingen](integrating/using/aep-about-audience-destinations-service.md)
+            + [Adobe Experience Platform-doelgroepen beheren](integrating/using/aep-managing-audiences.md)
+            + [De Segment Builder gebruiken](integrating/using/aep-using-segment-builder.md)
+            + [Adobe Experience Platform-doelgroepen doelgericht benaderen](integrating/using/aep-targeting-audiences.md)
+            + [Campagnes aanpassen met Adobe Experience Platform-kenmerken](integrating/using/aep-personalizing-campaigns.md)
+         + Adobe Experience Platform-gegevensconnector (bèta) {#data-connector}
+            + [Informatie over de Adobe Experience Platform-gegevensconnector](integrating/using/aep-about-data-connector.md)
+            + [Overzicht gegevensmodel Experience Platform](integrating/using/aep-data-model-overview.md)
+            + [Toewijzingsdefinitie](integrating/using/aep-mapping-definition.md)
+            + [Toewijzingsactivering](integrating/using/aep-mapping-activation.md)
+            + [Gegevensopname via API&#39;s activeren](integrating/using/aep-triggering-data-ingestion.md)
 + Processen en gegevens beheren {#managing-processes-and-data}
    + [Aan de slag met gegevens- en procesbeheer](automating/using/get-started-workflows.md)
    + Algemene werking van workflows {#workflow-general-operation}
