@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Het Help-centrum voor de belangrijkste functies, taken, instellingen en andere bronnen die nodig zijn om Campaign Standard te gebruiken.
 title: Campaign Standard-handleiding
 breadcrumb-title: Documentatie voor Adobe Campaign Standard
-source-git-commit: 957064f708390c33a3295ed7d107cc9c488be875
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
 workflow-type: ht
-source-wordcount: '1812'
+source-wordcount: '1756'
 ht-degree: 100%
 
 ---
@@ -274,18 +274,6 @@ ht-degree: 100%
       + [Aan de slag met bronnen en bestemmingen](integrating/using/get-started-sources-destinations.md)
       + [Adobe Experience Platform-doelgroepen opnemen in Campaign](integrating/using/ingest-aep-data.md)
       + [Gegevens exporteren van Campaign naar Adobe Experience Platform](integrating/using/export-campaign-data.md)
-         + De service Doelgroepbestemmingen (bèta) {#audience-destinations}
-            + [Informatie over de service Doelgroepbestemmingen](integrating/using/aep-about-audience-destinations-service.md)
-            + [Adobe Experience Platform-doelgroepen beheren](integrating/using/aep-managing-audiences.md)
-            + [De Segment Builder gebruiken](integrating/using/aep-using-segment-builder.md)
-            + [Adobe Experience Platform-doelgroepen doelgericht benaderen](integrating/using/aep-targeting-audiences.md)
-            + [Campagnes aanpassen met Adobe Experience Platform-kenmerken](integrating/using/aep-personalizing-campaigns.md)
-         + Adobe Experience Platform-gegevensconnector (bèta) {#data-connector}
-            + [Informatie over de Adobe Experience Platform-gegevensconnector](integrating/using/aep-about-data-connector.md)
-            + [Overzicht gegevensmodel Experience Platform](integrating/using/aep-data-model-overview.md)
-            + [Toewijzingsdefinitie](integrating/using/aep-mapping-definition.md)
-            + [Toewijzingsactivering](integrating/using/aep-mapping-activation.md)
-            + [Gegevensopname via API&#39;s activeren](integrating/using/aep-triggering-data-ingestion.md)
 + Processen en gegevens beheren {#managing-processes-and-data}
    + [Aan de slag met gegevens- en procesbeheer](automating/using/get-started-workflows.md)
    + Algemene werking van workflows {#workflow-general-operation}
@@ -517,3 +505,4 @@ ht-degree: 100%
       + [Kenmerken van een geografische eenheid bijwerken](api/using/updating-geographical-unit-attributes.md)
    + [Problemen oplossen](api/using/troubleshooting.md)
 + [Campaign-configuratiescherm](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl)
+
