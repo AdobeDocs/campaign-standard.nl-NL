@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
 workflow-type: tm+mt
-source-wordcount: '7224'
+source-wordcount: '7214'
 ht-degree: 100%
 
 ---
@@ -120,7 +120,7 @@ De sectie met de belangrijkste stappen voor het verzenden van een bericht is uit
 
 Er is informatie toegevoegd om aan te geven dat bij het selecteren van een doelgroep in een query de definitie ervan wordt gekopieerd, en dat er niet naar wordt verwezen. [Meer informatie](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-De informatie over de service Doelgroepbestemmingen en de Adobe Experience Platform-gegevensconnector is gehergroepeerd tot een nieuwe sectie. [Meer informatie](../../integrating/using/aep-about-audience-destinations-service.md)
+De informatie over de service Doelgroepbestemmingen en de Adobe Experience Platform-gegevensconnector is gehergroepeerd tot een nieuwe sectie.
 
 De gegevensbron **Declared ID** kan nu ook worden gebruikt met de integratie van de People-kernservice. Er is informatie toegevoegd in de documentatie over de integratie van de Campaign Audience Manager  of de People-kernservice. [Meer informatie](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
@@ -178,7 +178,7 @@ De sectie **Privacy** is verplaatst en aangevuld met twee nieuwe pagina&#39;s: [
 
 De sectie **Transactionele berichten** heeft een nieuwe indeling en staat nu op één plaats voor betere navigatie. [Meer informatie](../../channels/using/getting-started-with-transactional-msg.md)
 
-Er is informatie toegevoegd aan de sectie Adobe Experience Platform-gegevensconnector over de validatiefout bij gegevenstoewijzing in verband met privacybeheer en hoe u dit probleem kunt oplossen. [Meer informatie](../../integrating/using/aep-mapping-activation.md)
+Er is informatie toegevoegd aan de sectie Adobe Experience Platform-gegevensconnector over de validatiefout bij gegevenstoewijzing in verband met privacybeheer en hoe u dit probleem kunt oplossen.
 
 ## Release 20.4 - oktober 2020 {#release-20-4---october-2020}
 
@@ -280,7 +280,7 @@ De documentatie over de integratie van Microsoft Dynamics 365 met Adobe Campaign
 
 Er zijn extra bronnen toegevoegd aan de startpagina van de documentatie. [Meer informatie](../../campaign-standard-home.md)
 
-Er is informatie over de Experience Cloud ID Service (ECID) toegevoegd aan de documentatie van de Adobe Experience Platform-gegevensconnector. [Meer informatie](../../integrating/using/aep-about-data-connector.md#key-concepts)
+Er is informatie over de Experience Cloud ID Service (ECID) toegevoegd aan de documentatie van de Adobe Experience Platform-gegevensconnector.
 
 De sectie over transactionele berichten bevat verbeterde informatie over het openen van de meest recente transactionele gebeurtenissen en bijgewerkte schermafbeeldingen. [Meer informatie](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
@@ -346,9 +346,9 @@ Er is informatie toegevoegd over het **[!UICONTROL History in days field]** dat 
 
 **Nieuwe mogelijkheden die in de release zijn opgenomen**
 
-Adobe Experience Platform-gegevensconnector (bèta) - [Meer informatie](../../integrating/using/aep-about-data-connector.md)
+Adobe Experience Platform-gegevensconnector (bèta)
 
-Audience Destinations (bèta) - [Meer informatie](../../integrating/using/aep-about-audience-destinations-service.md)
+Audience Destinations (bèta)
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
