@@ -14,9 +14,9 @@ role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1418'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ De [belangrijkste wetgevingen](#privacy-regulations) betreffen de verschillende 
 
 Als bedrijf dat persoonsgegevens verzamelt en deelt, bent u dus de gegevenscontroller, zijn uw klanten de betrokkenen en fungeert Adobe Campaign als gegevensprocessor bij het verwerken van deze persoonsgegevens op uw aanwijzingen. Als gegevenscontroller bent u verantwoordelijk voor de relatie met de betrokkenen, bijvoorbeeld bij het beheren van [verzoeken om toegang tot persoonsgegevens](#privacy-requests).
 
-Bij de integratie van Campagne met andere oplossingen voor Experiencen Cloud waarbij het publiek van het ene systeem naar het andere kan worden overgebracht, [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager of de kerndienst van Mensen](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)of met andere oplossingen zoals [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), moet u extra aandacht besteden aan de bescherming van persoonsgegevens.
+Bij de integratie van Campaign met andere Experience Cloud-oplossingen waarbij doelgroepen kunnen worden overgezet van het ene systeem naar het andere zoals [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager of de People-kernservice](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), of met andere oplossingen zoals [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md), moet u extra aandacht besteden aan de bescherming van persoonsgegevens.
 
 ## Gegevensacquisitie {#data-acquisition}
 
