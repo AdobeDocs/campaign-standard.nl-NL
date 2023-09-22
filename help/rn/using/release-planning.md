@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
+source-git-commit: a15959b34979678e6ed53758e0ba5a00401a765b
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '426'
+ht-degree: 95%
 
 ---
 
@@ -25,11 +25,15 @@ Upgrades worden in twee fasen geïmplementeerd. Eerst worden Stage-instanties bi
 
 Alle releasedatums kunnen worden gewijzigd: bezoek deze pagina regelmatig om te controleren op updates.
 
-## Release 23.1 - 2023 lente-/zomerrelease {#release-23-1-release}
+## Release 23.2 - Release 2023 herfst/winter {#release-23-2-release}
 
 Omgevingsupdates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. De exacte datums worden per e-mail naar elke klant verzonden.
 
-Gedetailleerde informatie over deze release is te vinden in de [Aanvullende informatie](release-notes.md).
+>[!AVAILABILITY]
+>
+>Deze release is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe.
+
+<!--Detailed information about this release is available in the [Release Notes](release-notes.md).-->
 
 <table>
  <thead>
@@ -41,11 +45,11 @@ Gedetailleerde informatie over deze release is te vinden in de [Aanvullende info
  <tbody>
   <tr>
    <td>Stadium </td>
-   <td>11 april 2023 - juli 2023 </td>
+   <td>3-9 oktober 2023 </td>
   </tr>
   <tr>
    <td>Productie </td>
-   <td>18 april 2023 - juli 2023 </td>
+   <td>12-18 oktober 2023 </td>
   </tr>
  </tbody>
 </table>
