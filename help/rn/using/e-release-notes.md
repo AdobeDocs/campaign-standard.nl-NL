@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 1437559bc1310e8daadcdeeb1a3874e673bff75f
+source-git-commit: 637ec6d0f98be7b76ed3f26821a9f66541503ca6
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '250'
 ht-degree: 19%
 
 ---
@@ -31,9 +31,9 @@ Op deze pagina worden nieuwe verbeteringen en oplossingen beschreven die in de v
 
 ### Verbeteringen {#e-rn-improvements}
 
-* **Integratie met Adobe Experience Manager**. Tijdens het maken van een leveringssjabloon voor transactieberichten in Adobe Experience Manager, kunt u het bericht nu personaliseren door de in het Campaign Standard gedefinieerde verpersoonlijkingsvelden te selecteren en te gebruiken. Er is een nieuwe vervolgkeuzelijst beschikbaar in Adobe Experience Manager.
+* **Integratie met Adobe Experience Manager**. Tijdens het maken van een gepersonaliseerde leveringssjabloon voor transactieberichten in Adobe Experience Manager kunt u nu de in Campaign Standard gedefinieerde verpersoonlijkingsvelden selecteren en gebruiken in een vervolgkeuzelijst.
 
-* **Vervaldatum cookie** - De standaardvervaldatum voor cookies is nu ingesteld op 6 maanden, overeenkomstig de Franse verordening.
+* **Vervaldatum cookie** - De standaardvervaldatum voor cookies is nu ingesteld op 6 maanden, overeenkomstig de aanbevelingen van het Franse Bureau voor gegevensbescherming (CNIL).
 
 * **Verbetering van profielzoekopdracht** - Het zoeken naar profielen is geoptimaliseerd, zodat de time-outscenario&#39;s voor zoekacties kunnen worden verminderd
 
