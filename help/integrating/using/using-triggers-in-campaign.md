@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 79%
+source-wordcount: '740'
+ht-degree: 78%
 
 ---
 
@@ -23,11 +23,9 @@ ht-degree: 79%
 >
 >Als u Triggers wilt maken, hebt u de opdracht **[!UICONTROL Administration]** of in de **[!UICONTROL Administrators]** beveiligingsgroep. Raadpleeg voor meer informatie hierover [page](../../administration/using/list-of-roles.md).
 
-Definieer eerst de gedragingen die u in Adobe Experience Cloud (**[!UICONTROL Triggers]**-kernservice) wilt bewaken. Kijk voor meer informatie in de [documentatie van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html). Let op dat u bij het definiëren van de trigger aliassen moet inschakelen. Voor elk gedrag (bladeren/verlaten van formulieren, toevoegen/verwijderen van producten, vervallen sessie, enz.) moet een nieuwe trigger worden toegevoegd in Adobe Experience Cloud.
+Definieer eerst de gedragingen die u in Adobe Experience Cloud (**[!UICONTROL Triggers]**-kernservice) wilt bewaken. Kijk voor meer informatie in de [documentatie van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html). Let op dat u bij het definiëren van de trigger aliassen moet inschakelen. Voor elk gedrag (bladeren/verlaten van formulieren, toevoegen/verwijderen van producten, vervallen sessie, enz.) moet een nieuwe trigger worden toegevoegd in Adobe Experience Cloud.
 
 Maak nu een triggergebeurtenis in Adobe Campaign op basis van een bestaande Adobe Experience Cloud-trigger.
-
-Bekijk deze [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) om meer inzicht te krijgen in het instellen van triggers in Adobe Campaign.
 
 Voer daartoe de volgende stappen uit:
 

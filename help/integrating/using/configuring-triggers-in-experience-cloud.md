@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 7%
+source-wordcount: '842'
+ht-degree: 6%
 
 ---
 
@@ -95,7 +95,7 @@ Er moet een Adobe Experience Cloud-trigger worden gemaakt, zodat u deze kunt geb
 
 Maak een nieuwe trigger in het Experience Cloud en selecteer de rapportsuite die op uw website wordt gebruikt. Zorg ervoor dat u de juiste afmeting kiest, zodat de trigger wordt geactiveerd.
 
-Zie de [Adobe Experience Cloud-documentatie](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) en bekijk dit [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+Zie de [Adobe Experience Cloud-documentatie](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html).
 
 ## Triggert beste praktijken en beperkingen {#triggers-best-practices-and-limitations}
 
