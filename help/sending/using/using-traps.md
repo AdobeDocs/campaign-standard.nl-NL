@@ -9,9 +9,9 @@ feature: Seed Address
 role: User
 level: Intermediate
 exl-id: 0482a946-35b1-426f-8505-42adcd1c3bbb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee3ab5304e80ea098f7e172f6b3f4af4324e8eb4
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '458'
 ht-degree: 2%
 
 ---
@@ -62,4 +62,6 @@ U kunt overvullingen gebruiken bij het verzenden van transactieberichten. In dit
 
 >[!NOTE]
 >
->Wanneer u een testprofiel als overvulling gebruikt, worden voor alle verrijkte velden in een bericht de bijbehorende aanvullende gegevens willekeurig gekozen uit een echt doelprofiel en toegewezen aan het testprofiel voor overvulling. Zie voor meer informatie over verrijking [dit voorbeeld](../../automating/using/enriching-profile-data-file.md).
+>Als u een testprofiel als overvulling gebruikt, worden de bijbehorende aanvullende gegevens in verrijkte velden in een bericht willekeurig geselecteerd uit een echt doelprofiel en toegewezen aan het testprofiel voor overvulling. Houd er echter rekening mee dat als het echte doelprofiel wordt uitgesloten vanwege typologische regels die worden toegepast tijdens de eerste berichtvoorbereiding, de voorbereiding van de levering zal mislukken. Deze fout treedt op omdat de verrijkte veldwaarden het overvulprofiel niet kunnen vervangen. Bijgevolg zijn de regels inzake uitsluitingstypen mogelijk niet correct van toepassing op de werkelijke ontvangers.
+>
+>Om deze situatie te voorkomen, vermijd het gebruiken van de profielen van de valtest gelijktijdig met het filtreren of vermoeidheidsregels in uw transactietypologie. Meer weten over verrijking? Zie voor meer informatie over verrijking [dit voorbeeld](../../automating/using/enriching-profile-data-file.md).
