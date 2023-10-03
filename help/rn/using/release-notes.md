@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: f9bd5901d68c09ba20d5d48d263f4818c2e1e86a
+source-git-commit: c1271bc0128c583e9b39ef98a422487e1df20fce
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 100%
+source-wordcount: '452'
+ht-degree: 59%
 
 ---
 
@@ -16,6 +16,40 @@ ht-degree: 100%
 # Laatste release{#latest-release}
 
 ![Configuratiescherm](assets/do-not-localize/cp-icon.png) **Nieuwe release van het configuratiescherm**. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl){target="_blank"}.
+
+
+
+## Release 23.2 - Release 2023 herfst/winter {#fall-23}
+
+>[!AVAILABILITY]
+>
+>Deze release is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe.
+
+### Verbeteringen {#fall-23-rn-improvements}
+
+* **Integratie met Adobe Experience Manager**. Tijdens het maken van een gepersonaliseerde leveringssjabloon voor transactieberichten in Adobe Experience Manager kunt u nu de in Campaign Standard gedefinieerde verpersoonlijkingsvelden selecteren en gebruiken in een vervolgkeuzelijst. [Meer informatie](../../integrating/using/creating-email-experience-manager.md)
+
+* **Vervaldatum cookie** - De standaardvervaldatum voor cookies is nu ingesteld op 6 maanden, overeenkomstig de aanbevelingen van het Franse Bureau voor gegevensbescherming (CNIL).
+
+* **Verbetering van profielzoekopdracht** - Het zoeken naar profielen is geoptimaliseerd, zodat de time-outscenario&#39;s voor zoekacties kunnen worden verminderd
+
+* **Lokalisatie** - De vertalingen van de term &quot;publiek&quot; voor een groep profielen die bedoeld zijn om een bericht te ontvangen, zijn geharmoniseerd voor alle Digital Experience-producten voor de volgende talen:
+
+   * Duits: Zielgruppe
+   * Portugees in Brazilië: público-alvo
+   * Spaans: público destinatario
+
+  Deze veranderingen zullen geleidelijk aan met volgende UI en documentatiereleases worden uitgevoerd.
+
+
+### Andere wijzigingen {#fall-23-rn-other-changes}
+
+* Het Transactionele Overseinen steunt nu het gebruik van veelvoudige komma-gescheiden affiniteiten.
+
+### Oplossingen {#fall-23-rn-fixes}
+
+* Oplossing voor een regressie die prestatieproblemen kan veroorzaken bij het gebruik van grote workflows. (CAMP-53369)
+* Probleem verholpen waardoor de e-mailkoppeling in een workflowwaarschuwing of -melding niet werkte. (CAMP-51874)
 
 ## Release 23.1 - 2023 lente-/zomerrelease {#apr-23}
 

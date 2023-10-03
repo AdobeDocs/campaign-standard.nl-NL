@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 668412b6385aafcaf8bb55096758731b8076666a
+source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 92%
+source-wordcount: '437'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ Omgevingsupdates vinden in golven plaats, tijdens de hieronder vermelde tijdsche
 >
 >Deze release is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe.
 
-Gedetailleerde informatie over deze release is beschikbaar in het dialoogvenster [Opmerkingen bij de eerste release](e-release-notes.md).
+Gedetailleerde informatie over deze release is te vinden in de [Aanvullende informatie](release-notes.md).
 
 <table>
  <thead>

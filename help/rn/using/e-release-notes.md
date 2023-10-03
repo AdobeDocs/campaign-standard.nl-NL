@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
+source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 25%
+source-wordcount: '235'
+ht-degree: 22%
 
 ---
 
@@ -45,3 +45,11 @@ Op deze pagina worden nieuwe verbeteringen en oplossingen beschreven die in de v
 
   Deze veranderingen zullen geleidelijk aan met volgende UI en documentatiereleases worden uitgevoerd.
 
+### Andere wijzigingen {#e-rn-other-changes}
+
+* Het Transactionele Overseinen steunt nu het gebruik van veelvoudige komma-gescheiden affiniteiten.
+
+### Oplossingen {#e-rn-fixes}
+
+* Oplossing voor een regressie die prestatieproblemen kan veroorzaken bij het gebruik van grote workflows. (CAMP-53369)
+* Probleem verholpen waardoor de e-mailkoppeling in een workflowwaarschuwing of -melding niet werkte. (CAMP-51874)
