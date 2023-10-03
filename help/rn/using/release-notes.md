@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: c1271bc0128c583e9b39ef98a422487e1df20fce
+source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 59%
+source-wordcount: '454'
+ht-degree: 60%
 
 ---
 
@@ -44,12 +44,12 @@ ht-degree: 59%
 
 ### Andere wijzigingen {#fall-23-rn-other-changes}
 
-* Het Transactionele Overseinen steunt nu het gebruik van veelvoudige komma-gescheiden affiniteiten.
+* Het Transactionele Overseinen steunt nu het gebruik van veelvoudige komma-gescheiden affiniteiten. [Meer informatie](../../sending/using/managing-typologies.md)
 
 ### Oplossingen {#fall-23-rn-fixes}
 
 * Oplossing voor een regressie die prestatieproblemen kan veroorzaken bij het gebruik van grote workflows. (CAMP-53369)
-* Probleem verholpen waardoor de e-mailkoppeling in een workflowwaarschuwing of -melding niet werkte. (CAMP-51874)
+* Probleem verholpen waardoor de koppeling in een e-mailwaarschuwing of melding voor een workflow niet werkte. (CAMP-51874)
 
 ## Release 23.1 - 2023 lente-/zomerrelease {#apr-23}
 
