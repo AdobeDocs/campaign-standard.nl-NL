@@ -8,7 +8,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
 workflow-type: tm+mt
 source-wordcount: '7299'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -18,17 +18,17 @@ Naast [aanvullende informatie](../../rn/using/release-notes.md) van Adobe Campai
 
 ## Release 23.2 - herfst/winter 2023 {#release-23-2}
 
-Opmerkingen bij de release van Campaign Standard 23.2 Fall/Winter 2023 zijn gepubliceerd. [Meer informatie](release-notes.md)
+Aanvullende informatie bij de release van Campaign Standard 23.2 herfst/winter 2023 is gepubliceerd. [Meer informatie](release-notes.md)
 
 ## Oktober 2023 {#doc-updates-oct-2023}
 
-* De nieuwe gebruikersinterface voor Experiencen Cloud Triggers is nu beschikbaar. Het biedt een intuïtieve ervaring om consumentengedrag te beheren en de gebruikerservaring aan te passen. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}.
+* De nieuwe gebruikersinterface voor Experience Cloud Triggers is nu beschikbaar. Het biedt een intuïtieve ervaring om consumentengedrag te beheren en de gebruikerservaringen aan te passen. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=nl){target="_blank"}.
 
 * Er is een opmerking toegevoegd over het gebruik van testprofielen voor overvulling in combinatie met filterregels of vermoeidheidsregels. [Meer informatie](../../sending/using/using-traps.md)
 
 ## Release 23.1 - Lente/zomer 2023 {#release-23-1}
 
-Opmerkingen bij de release van Campaign Standard 23.1, lente/zomer 2023 zijn gepubliceerd. [Meer informatie](release-notes.md)
+Aanvullende informatie bij de release van Campaign Standard 23.1 lente/zomer 2023 is gepubliceerd. [Meer informatie](release-notes.md)
 
 
 ## November 2022 {#doc-updates-november-2022}
@@ -39,7 +39,7 @@ Er is informatie toegevoegd aan de pagina **[!UICONTROL Extract file]** workflow
 
 ## Release 22.3 - herfst/winter 2022 {#release-22-3}
 
-Opmerkingen bij de release van Campaign Standard 22.3 Fall/Winter 2022 zijn gepubliceerd. [Meer informatie](release-notes.md)
+Aanvullende informatie bij de release van Campaign Standard 22.3 herfst/winter 2022 is gepubliceerd. [Meer informatie](release-notes.md)
 
 <!--Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)-->
 
@@ -241,7 +241,7 @@ Er is een nieuwe sectie toegevoegd met richtlijnen voor Campaign Standard-bewaki
 
 De sectie over externe API-beveiligingen en -beperkingen is bijgewerkt. [Meer informatie](../../automating/using/external-api.md#guardrails)
 
-De overzichtspagina van het privacybeheer is bijgewerkt met informatie over de Thaise wet inzake de bescherming van persoonsgegevens (PDPA) en de Braziliaanse Lei Geral de Proteção de Dados (LGPD). [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+De overzichtspagina van privacybeheer is bijgewerkt met informatie over de Thaise wet inzake de bescherming van persoonsgegevens (PDPA) en de Braziliaanse Lei Geral de Proteção de Dados (LGPD). [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 De handleiding voor mobiele kanalen is opnieuw ingedeeld en verbeterd. Er is een nieuwe handleiding over het configureren van mobiele kanalen toegevoegd met technische documentatie over mobiele configuratie. [Meer informatie](../../administration/using/push-tracking.md)
 
@@ -411,7 +411,7 @@ De handleiding om aan de slag te gaan met het exporteren en importeren van aange
 
 Er is een nieuw gebruiksscenario toegevoegd waarin wordt beschreven hoe u een controlegroep maakt met behulp van een workflow in Campaign Standard.
 
-Informatie met betrekking tot de eigenschappen van bestemmingspagina&#39;s is verplaatst naar een specifieke sectie. [Meer informatie](../../channels/using/configuring-landing-page.md)
+De informatie met betrekking tot de eigenschappen van landingspagina’s is verplaatst naar een specifieke sectie. [Meer informatie](../../channels/using/configuring-landing-page.md)
 
 De documentatie voor het Configuratiescherm is geïntegreerd in de nieuwe collaboratieve documentatieset. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl)
 
@@ -499,7 +499,7 @@ Er is een reeks nieuwe Help-artikelen gemaakt over de implementatie en het gebru
 
 Er is een opmerking toegevoegd aan de sectie over het [aanroepen van een workflow met parameters](../../automating/using/calling-a-workflow-with-external-parameters.md) betreffende de voorbereiding van de levering en de bijbehorende aggregatieperiode.
 
-Er is informatie toegevoegd over hoe u het label van een levering kunt aanpassen aan gebeurtenisvariabelen die zijn gedeclareerd in de externe signaalactiviteit van de workflow. [Meer informatie](../../automating/using/external-signal.md)
+Er is informatie toegevoegd over hoe u het label van een levering kunt aanpassen met gebeurtenisvariabelen die zijn gedeclareerd in de activiteit Extern signaal van de workflow. [Meer informatie](../../automating/using/external-signal.md)
 
 Er is een nieuwe sectie toegevoegd waarin wordt uitgelegd hoe u een gebruiker maakt in Adobe Campaign Standard. [Meer informatie](../../administration/using/users-management.md)
 
@@ -785,7 +785,7 @@ Er is informatie toegevoegd over het bijhouden van logboektypen. [Meer informati
 
 De sectie over de activiteit Query is bijgewerkt met queryvoorbeelden. [Meer informatie](../../automating/using/query.md#query-samples)
 
-Het gedeelte over lijsten van gewezen personen is omgedoopt tot &quot;Inzicht in opt-in- en opt-out-processen&quot;. De sectie is bijgewerkt met informatie over het beheren van opt-ins voor specifieke kanalen en het instellen van landingspagina’s om opt-ins en opt-outs te beheren. [Meer informatie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+De naam van de sectie voor lijsten met ongewenste adressen is gewijzigd in ‘Opt-in- en opt-outprocessen begrijpen’. De sectie is bijgewerkt met informatie over het beheren van opt-ins voor specifieke kanalen en het instellen van landingspagina’s om opt-ins en opt-outs te beheren. [Meer informatie](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 Ontdek de best practices voor het gebruik van door Adobe gehoste SFTP-servers. [Meer informatie](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -1027,7 +1027,7 @@ Er is een nieuwe technische opmerking beschikbaar over de integratie van de Adob
 
 Er zijn instructies toegevoegd voor de configuratie van de People-kernservice of de Audience Manager-integratie met Adobe Campaign. [Meer informatie](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-De machtigingstabel is herzien om de functie van bepaalde rollen duidelijker te maken. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+De tabel met autorisaties is herzien om de functie van bepaalde rollen duidelijker te maken. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 De contextafhankelijke Help-koppelingen die rechtstreeks beschikbaar zijn in Adobe Campaign, zijn bijgewerkt.
 

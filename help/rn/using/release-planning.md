@@ -11,7 +11,7 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Omgevingsupdates vinden in golven plaats, tijdens de hieronder vermelde tijdsche
 
 >[!AVAILABILITY]
 >
->Deze release is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe.
+>Deze release is maar voor een aantal organisaties beschikbaar (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 Gedetailleerde informatie over deze release is te vinden in de [Aanvullende informatie](release-notes.md).
 

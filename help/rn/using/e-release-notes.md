@@ -10,7 +10,7 @@ exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 22%
+ht-degree: 83%
 
 ---
 
@@ -27,23 +27,23 @@ Op deze pagina worden nieuwe verbeteringen en oplossingen beschreven die in de v
 
 >[!AVAILABILITY]
 >
->Deze release is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe.
+>Deze release is maar voor een aantal organisaties beschikbaar (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 ### Verbeteringen {#e-rn-improvements}
 
-* **Integratie met Adobe Experience Manager**. Tijdens het maken van een gepersonaliseerde leveringssjabloon voor transactieberichten in Adobe Experience Manager kunt u nu de in Campaign Standard gedefinieerde verpersoonlijkingsvelden selecteren en gebruiken in een vervolgkeuzelijst.
+* **Integratie met Adobe Experience Manager**. Tijdens het maken van een gepersonaliseerde leveringssjabloon voor transactieberichten in Adobe Experience Manager kunt u nu de in Campaign Standard gedefinieerde personalisatievelden selecteren en gebruiken in een vervolgkeuzelijst.
 
-* **Vervaldatum cookie** - De standaardvervaldatum voor cookies is nu ingesteld op 6 maanden, overeenkomstig de aanbevelingen van het Franse Bureau voor gegevensbescherming (CNIL).
+* **Vervaldatum cookies** - De standaard vervaldatum voor cookies is nu ingesteld op 6 maanden, overeenkomstig de aanbevelingen van het Franse Bureau voor gegevensbescherming (CNIL).
 
 * **Verbetering van profielzoekopdracht** - Het zoeken naar profielen is geoptimaliseerd, zodat de time-outscenario&#39;s voor zoekacties kunnen worden verminderd
 
-* **Lokalisatie** - De vertalingen van de term &quot;publiek&quot; voor een groep profielen die bedoeld zijn om een bericht te ontvangen, zijn geharmoniseerd voor alle Digital Experience-producten voor de volgende talen:
+* **Lokalisatie** - De vertalingen van de term &#39;doelgroep&#39; voor een groep profielen die bedoeld zijn om een bericht te ontvangen, zijn geharmoniseerd voor alle Digital Experience-producten voor de volgende talen:
 
    * Duits: Zielgruppe
-   * Portugees in Brazilië: público-alvo
+   * Braziliaans Portugees: público-alvo
    * Spaans: público destinatario
 
-  Deze veranderingen zullen geleidelijk aan met volgende UI en documentatiereleases worden uitgevoerd.
+  Deze veranderingen zullen geleidelijk met de volgende releases van de gebruikersinterface en documentatie worden uitgevoerd.
 
 ### Andere wijzigingen {#e-rn-other-changes}
 
