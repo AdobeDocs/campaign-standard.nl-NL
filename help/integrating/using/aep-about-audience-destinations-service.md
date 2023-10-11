@@ -11,10 +11,10 @@ level: Experienced
 exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: 376f00576ca1d0dfb536b29dbf25d88f7c93b9a8
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 2%
+source-wordcount: '354'
+ht-degree: 4%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van de Adobe als u toegang wilt.
+>De service Doelen van publiek is nu afgekeurd. Verouderde mogelijkheden zijn nog beschikbaar, maar worden niet verder verbeterd en worden niet ondersteund. Meer informatie vindt u [op deze pagina](../../rn/using/deprecated-features.md)
 
 Verbeter uw ervaringen met de consument door de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) het opbouwen van een doelgericht publiek op basis van grote, complexe gegevensbestanden. De Adobe Experience Platform consolideert profielen, gedragingen en gegevens van meerdere entiteiten op online en offline bronnen, waaronder Adobe Analytics, om u te helpen een 360-gradenweergave van uw klant te maken, zodat u uw ervaringen met klanten effectief kunt beheren.
 
