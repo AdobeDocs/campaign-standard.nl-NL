@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '454'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -23,32 +23,32 @@ ht-degree: 60%
 
 >[!AVAILABILITY]
 >
->Deze release is alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe.
+>Deze release is maar voor een aantal organisaties beschikbaar (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 ### Verbeteringen {#fall-23-rn-improvements}
 
-* **Integratie met Adobe Experience Manager**. Tijdens het maken van een gepersonaliseerde leveringssjabloon voor transactieberichten in Adobe Experience Manager kunt u nu de in Campaign Standard gedefinieerde verpersoonlijkingsvelden selecteren en gebruiken in een vervolgkeuzelijst. [Meer informatie](../../integrating/using/creating-email-experience-manager.md)
+* **Integratie met Adobe Experience Manager**. Tijdens het maken van een gepersonaliseerde leveringssjabloon voor transactieberichten in Adobe Experience Manager kunt u nu de in Campaign Standard gedefinieerde personalisatievelden selecteren en gebruiken in een vervolgkeuzelijst. [Meer informatie](../../integrating/using/creating-email-experience-manager.md)
 
-* **Vervaldatum cookie** - De standaardvervaldatum voor cookies is nu ingesteld op 6 maanden, overeenkomstig de aanbevelingen van het Franse Bureau voor gegevensbescherming (CNIL).
+* **Vervaldatum cookies** - De standaard vervaldatum voor cookies is nu ingesteld op 6 maanden, overeenkomstig de aanbevelingen van het Franse Bureau voor gegevensbescherming (CNIL).
 
 * **Verbetering van profielzoekopdracht** - Het zoeken naar profielen is geoptimaliseerd, zodat de time-outscenario&#39;s voor zoekacties kunnen worden verminderd
 
-* **Lokalisatie** - De vertalingen van de term &quot;publiek&quot; voor een groep profielen die bedoeld zijn om een bericht te ontvangen, zijn geharmoniseerd voor alle Digital Experience-producten voor de volgende talen:
+* **Lokalisatie** - De vertalingen van de term &#39;doelgroep&#39; voor een groep profielen die bedoeld zijn om een bericht te ontvangen, zijn geharmoniseerd voor alle Digital Experience-producten voor de volgende talen:
 
    * Duits: Zielgruppe
-   * Portugees in Brazilië: público-alvo
+   * Braziliaans Portugees: público-alvo
    * Spaans: público destinatario
 
-  Deze veranderingen zullen geleidelijk aan met volgende UI en documentatiereleases worden uitgevoerd.
+  Deze veranderingen zullen geleidelijk met de volgende releases van de gebruikersinterface en documentatie worden uitgevoerd.
 
 
 ### Andere wijzigingen {#fall-23-rn-other-changes}
 
-* Het Transactionele Overseinen steunt nu het gebruik van veelvoudige komma-gescheiden affiniteiten. [Meer informatie](../../sending/using/managing-typologies.md)
+* Transactional Messaging ondersteunt nu het gebruik van veelvoudige door komma&#39;s gescheiden affiniteiten. [Meer informatie](../../sending/using/managing-typologies.md)
 
 ### Oplossingen {#fall-23-rn-fixes}
 
-* Oplossing voor een regressie die prestatieproblemen kan veroorzaken bij het gebruik van grote workflows. (CAMP-53369)
+* Regressie verholpen die prestatieproblemen kon veroorzaken bij het gebruik van grote workflows. (CAMP-53369)
 * Probleem verholpen waardoor de koppeling in een e-mailwaarschuwing of melding voor een workflow niet werkte. (CAMP-51874)
 
 ## Release 23.1 - 2023 lente-/zomerrelease {#apr-23}
