@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: 46c5454ad712910c88bfda7c067fda0337b043d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '235'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ Op deze pagina worden nieuwe verbeteringen en oplossingen beschreven die in de v
 
 ### Andere wijzigingen {#e-rn-other-changes}
 
-* Het Transactionele Overseinen steunt nu het gebruik van veelvoudige komma-gescheiden affiniteiten.
+* Transactional Messaging ondersteunt nu het gebruik van meerdere, door komma&#39;s gescheiden affiniteiten.
 
 ### Oplossingen {#e-rn-fixes}
 
-* Oplossing voor een regressie die prestatieproblemen kan veroorzaken bij het gebruik van grote workflows. (CAMP-53369)
-* Probleem verholpen waardoor de e-mailkoppeling in een workflowwaarschuwing of -melding niet werkte. (CAMP-51874)
+* Er is een regressie verholpen die prestatieproblemen kon veroorzaken bij het gebruik van grote workflows. (CAMP-53369)
+* Er is een probleem opgelost waarbij de e-mailkoppeling in een workflowwaarschuwing of -melding van workfing werd verhinderd. (CAMP-51874)
