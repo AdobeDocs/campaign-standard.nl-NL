@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7299'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Aanvullende informatie bij de release van Campaign Standard 23.2 herfst/winter 2
 
 * De nieuwe gebruikersinterface voor Experience Cloud Triggers is nu beschikbaar. Het biedt een intuïtieve ervaring om consumentengedrag te beheren en de gebruikerservaringen aan te passen. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=nl){target="_blank"}.
 
-* Er is een opmerking toegevoegd over het gebruik van testprofielen voor overvulling in combinatie met filterregels of vermoeidheidsregels. [Meer informatie](../../sending/using/using-traps.md)
+* Er is een opmerking toegevoegd over het gebruik van testprofielen voor overvullen in combinatie met regels voor filtering of vermoeidheid. [Meer informatie](../../sending/using/using-traps.md)
 
 ## Release 23.1 - Lente/zomer 2023 {#release-23-1}
 
