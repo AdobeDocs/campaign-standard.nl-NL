@@ -9,10 +9,10 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 68%
+source-wordcount: '755'
+ht-degree: 67%
 
 ---
 
@@ -41,7 +41,7 @@ Terwijl u transactionele gebeurtenissen configureert en publiceert, kunnen sommi
 
 ## Aantal transactieberichten {#transactional-message-number}
 
-Het aantal gepubliceerde transactieberichten kan een significante invloed op uw platform hebben. Voor optimale prestaties, zou het aantal gepubliceerde transactieberichten onder 100 moeten blijven. Om dit te verzekeren, unpublish of schrap om het even welke ongebruikte transactieberichten. Zie [Het publiceren van een transactiemelding opheffen](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) en [Transactiebericht verwijderen](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+Het aantal gepubliceerde transactieberichten kan een significante invloed op uw platform hebben. Voor optimale prestaties, zou het aantal gepubliceerde transactieberichten onder 100 moeten blijven, anders kan de prestatiesdegradatie worden ontmoet. Om dit te verzekeren, maak of schrap om het even welke ongebruikte transactiemeldingen ongedaan om bovengenoemde gids te ontmoeten. Zie [Het publiceren van een transactiemelding opheffen](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) en [Transactiebericht verwijderen](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
 Voor de beste prestaties kunt u ook het publiceren ongedaan maken of verwijderen van ongebruikte gebeurtenissen. Als u een gebeurtenis verwijdert of publiceert, worden de desbetreffende transactiemeldingen en de verzendings- en trackinglogboeken van die gebeurtenis ook verwijderd of gepubliceerd. Zie [Publicatie van een gebeurtenis ongedaan maken](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) en [Een gebeurtenis verwijderen](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
