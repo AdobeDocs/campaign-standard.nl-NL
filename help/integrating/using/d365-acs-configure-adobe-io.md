@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '572'
 ht-degree: 1%
 
 ---
@@ -59,21 +59,13 @@ Hiervoor volgt u de onderstaande procedure:
 
    ![](assets/adobeIO2.png)
 
-1. Selecteer de Adobe Campaign API (u moet mogelijk naar de onderkant schuiven) en klik op **[!UICONTROL Next]**.
+1. Selecteer de Adobe Campaign en klik op **[!UICONTROL Next]**.
 
    ![](assets/adobeIO3.png)
 
-1. Op het volgende scherm kunt u uw eigen openbare sleutel uploaden of Adobe Developer de sleutel laten genereren voor u. Deze instructies volgen de laatste optie. Als u ervoor kiest dat Adobe Developer het sleutelpaar laat genereren, klikt u op optie 1 en vervolgens op de knop **[!UICONTROL Generate keypair]** knop.
+1. Op het volgende scherm kunt u het verificatietype kiezen. U kunt kiezen voor OAuth Server-to-Server of Service Account (JWT). Merk op dat de geloofsbrieven van de Rekening van de Dienst (JWT) niet meer voor nieuwe projecten worden geadviseerd en voor de nieuwere geloofsbrieven van Server-aan-Server verouderd zijn. De instructies die in deze handleiding worden gegeven, zijn alleen van toepassing op OAuth Server-to-Server-verificatie.
 
    ![](assets/adobeIO4.png)
-
-1. In het volgende scherm wordt u gevraagd een naam te geven en de downloadlocatie van het zip-bestand met sleutelpaar te selecteren.
-
-Nadat u het bestand hebt gedownload, kunt u het uitpakken en de openbare en persoonlijke sleutels weergeven. Adobe Developer heeft de openbare sleutel al toegepast op uw Adobe Developer-project. U moet uw persoonlijke sleutel voor later behouden; de persoonlijke sleutel wordt gebruikt tijdens de voorintegratieinstellingen van het integratieprogramma.
-
-1. Klikken **[!UICONTROL Next]** om door te gaan
-
-   ![](assets/adobeIO5.png)
 
 1. In het volgende scherm selecteert u productprofielen die u aan dit project wilt koppelen. Selecteer het productprofiel dat in de titel bevat: De huurder-id van uw campagneexemplaar - [!UICONTROL Administrators]
 
@@ -81,11 +73,11 @@ Nadat u het bestand hebt gedownload, kunt u het uitpakken en de openbare en pers
 
 1. Klik op **[!UICONTROL Save configured API]**.
 
-   ![](assets/adobeIO6.png)
+   ![](assets/adobeIO5.png)
 
 1. Op het volgende scherm ziet u de details van uw nieuwe Adobe Developer-project. Klikken **[!UICONTROL Add to Project]** links boven in het scherm en selecteert u **API** in de vervolgkeuzelijst.
 
-   ![](assets/adobeIO7.png)
+   ![](assets/adobeIO6.png)
 
 1. In het volgende scherm moet u de API voor I/O-gebeurtenissen selecteren en vervolgens op **[!UICONTROL Next]**.
 
@@ -103,8 +95,7 @@ Installatie vóór integratie in campagne is nu voltooid.
 
 * [Integratie van Adobe Developer for Microsoft Dynamics 365 configureren](../../integrating/using/d365-acs-configure-adobe-io.md) is de volgende stap bij het opzetten van de integratie
 * [Het overzicht van de toepassing van de Zelfbediening van de integratie](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) bevat de volledige lijst met stappen om de integratie op gang te brengen.
-
-
 * [Adobe Developer - Integratie van serviceaccount](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - API Access Setup](../../api/using/setting-up-api-access.md)
 * [Campaign Standard - Dynamiek 365-integratie](../../integrating/using/d365-acs-configure-d365.md)
+* [Credentials migreren van JWT naar OAuth Server-aan-Server](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) bevat de stappen om geloofsbrieven van JWT aan OAuth server-aan-Server te migreren.

@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 4%
+source-wordcount: '670'
+ht-degree: 5%
 
 ---
 
@@ -39,11 +39,10 @@ De Referentials van de Dynamica 365 van Microsoft geven de integratietoepassing 
 
 De Adobe Campaign-referenties worden gegenereerd met [Adobe I/O](https://www.adobe.io/). U moet het scherm bezoeken [Adobe I/O configureren](../../integrating/using/d365-acs-configure-adobe-io.md) en volgt u de instructies in deze sectie voordat u de invoer kunt invullen.
 
-In de volgende afbeelding wordt de koppeling tussen de invoer van het Adobe I/O- en het instellingenscherm uitgebreid uitgelegd.
+* Selecteer Auth Type als Oauth aangezien op JWT gebaseerde authentificatie verouderd is.
+* In de volgende afbeelding wordt de koppeling tussen de invoer van het Adobe I/O- en het instellingenscherm uitgebreid uitgelegd.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
-
-* *Persoonlijke sleutel*: het proces om dit te bepalen begint door &quot;te klikken produceert openbare/privé sleutelpaar&quot;knoop. Hiermee maakt u een ZIP-bestand dat u moet downloaden. Als u het bestand hebt gedownload, decomprimeert u het bestand. Dit resulteert in twee bestanden met de naam certificate_pub.crt en private.key. Plaats private.key op een veilige plaats en deel deze niet. Open het bestand private.key in een teksteditor. Kopieer de gehele waarde in de teksteditor (ctrl-A en ctrl-C op een pc, of cmd-A en vervolgens cmd-C op een Mac). Hieronder moeten de regels met &quot;BEGIN PRIVATE KEY&quot; en &quot;END PRIVATE KEY&quot; in hun geheel vallen. Plak deze volledige tekst met meerdere regels in de invoer Persoonlijke sleutel in het scherm Instellingen.
 
 * *URL*: Deze waarde past in het patroon https\://mc.adobe.io/&lt;campaign-instance-name>. De koptekst van de integratie-app bevat zowel de &#39;&#39;Org&#39;&#39; als &#39;&#39;Instance&#39;&#39;. Het gedeelte ‘Campagne-instance-name’ van de URL is gewoon de naam die in deze instantiewaarde wordt gevonden.
 
