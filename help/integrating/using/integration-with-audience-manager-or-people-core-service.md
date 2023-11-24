@@ -8,10 +8,10 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+source-git-commit: 26e37cea37b33924ac634c5e4ab7c60804a738f1
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 10%
+source-wordcount: '769'
+ht-degree: 9%
 
 ---
 
@@ -124,10 +124,16 @@ Als u de opdracht **[!UICONTROL Declared ID]** gegevensbron:
 
 Voor de configuratie van de integratie met de dienst van de Kern van Mensen of de manager van het Publiek, moeten wij ook de server van het Volgen van de Campagne vormen.
 
-Hier, moet u ervoor zorgen de het Volgen van de Campagne Server op het domein (CNAME) wordt geregistreerd. Meer informatie over domeinnaamconfiguratie vindt u in [dit artikel](https://helpx.adobe.com/nl/campaign/kb/domain-name-delegation.html).
+Als u wilt dat een gedeeld publiek kan functioneren met de bezoeker-id, moet het trackingserverdomein een subdomein zijn van de aangeklikte URL of de hoofdwebsite.
+
+>[!IMPORTANT]
+>
+> U moet ervoor zorgen de het Volgen van de Campagne Server op het domein (CNAME) wordt geregistreerd. Meer informatie over domeinnaamconfiguratie vindt u in [dit artikel](https://helpx.adobe.com/nl/campaign/kb/domain-name-delegation.html).
 
 ### Stap 4: Vorm de Dienst van identiteitskaart van de Bezoeker {#step-4--configure-the-visitor-id-service}
 
 Raadpleeg het volgende als uw bezoekersidentiteitsservice nog nooit is geconfigureerd op uw webeigenschappen of websites [document](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) leren hoe te om uw dienst of het volgende te vormen [video](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two).
+
+De klant-id&#39;s synchroniseren met de opgegeven id `setCustomerID` functie in de dienst van identiteitskaart van het Experience Cloud met de integratiecode: `AdobeCampaignID`. De `AdobeCampaignID` moet overeenkomen met de waarde van de Reconcilation-sleutel die is ingesteld in de ontvangergegevensbron die is geconfigureerd in [Stap 2: Vorm de Gegevensbronnen](#step-2--configure-the-data-sources).
 
 Uw configuratie en levering worden voltooid, kan de integratie nu worden gebruikt om publiek of segmenten in te voeren en uit te voeren.
