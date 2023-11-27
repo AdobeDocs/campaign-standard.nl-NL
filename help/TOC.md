@@ -5,9 +5,9 @@ user-guide-description: Het Help-centrum voor de belangrijkste functies, taken, 
 title: Campaign Standard-handleiding
 breadcrumb-title: Documentatie voor Adobe Campaign Standard
 source-git-commit: 01ac9b91a5b4af445bdd6209a0b9494731a47362
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1768'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -269,7 +269,7 @@ ht-degree: 99%
          + [Systemen verbinden met de integratieapp](integrating/using/d365-acs-self-service-app-settings.md)
          + [Synchronisatieworkflows beheren](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Gegevens toewijzen tussen Microsoft Dynamics 365 en Campaign](integrating/using/d365-acs-self-service-app-data-sync.md)
-         + [Credentials migreren van JWT naar OAuth Server-aan-Server](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
+         + [Referentiekenmerken migreren van JWT naar OAuth server-naar-server](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
       + [De integratie van Microsoft Dynamics 365 gebruiken](integrating/using/d365-acs-using-the-integration.md)
    + Campaign en Adobe Experience Platform {#adobe-experience-platform}
       + [Aan de slag met bronnen en bestemmingen](integrating/using/get-started-sources-destinations.md)
@@ -447,7 +447,7 @@ ht-degree: 99%
       + [Tagregels configureren om Adobe Campaign Standard-gebruiksscenario&#39;s te ondersteunen](administration/using/configuring-rules-launch.md)
       + [Mobiele gebruiksscenario’s die worden ondersteund in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
       + [Uw mobiele applicatie migreren van SDK v4 naar Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
-      + [Wijzigingen in pushmeldingskanaal](administration/using/push-technote.md)
+      + [Aanstaande wijzigingen in het kanaal voor pushmeldingen](administration/using/push-technote.md)
    + Een sms-kanaal configureren {#configuring-sms}
       + [Het sms-kanaal implementeren](administration/using/configuring-sms-channel.md)
       + [Protocol en instellingen voor sms-connector](administration/using/sms-protocol.md)
