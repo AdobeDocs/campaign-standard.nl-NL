@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7336'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Naast [aanvullende informatie](../../rn/using/release-notes.md) van Adobe Campai
 
 * Aanvullende informatie bij de release van Campaign Standard 23.2 herfst/winter 2023 is gepubliceerd. [Meer informatie](release-notes.md)
 
-* JWT (JSON Web Tokens) is momenteel bezig met afschrijvingen en wordt vervangen door OAuth. De overgang wordt geleidelijk uitgevoerd binnen de komende releases van Campagne en de documentatie zal worden aangepast aan deze updates.
+* JWT (JSON Web Tokens) wordt momenteel uitgefaseerd en wordt vervangen door OAuth. De overgang wordt geleidelijk uitgevoerd binnen komende releases van Campaign en de documentatie zal worden aangepast voor deze updates.
 
 ## Oktober 2023 {#doc-updates-oct-2023}
 
