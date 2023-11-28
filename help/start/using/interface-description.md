@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1260'
 ht-degree: 77%
 
 ---
@@ -77,7 +77,7 @@ Met drie tabbladen kunt u hulp en hulp zoeken:
    * a **[!UICONTROL Learning]** koppeling waarmee u toegang kunt krijgen tot de Adobe Campaign-cursusbibliotheek.
    * a **[!UICONTROL Community]** link naar het forum dat gewijd is aan uw vragen over Campagne.
    * een directe toegang tot: Help Center, Customer Care, de status van het product van het Experience Cloud, de verbinding van ontwikkelaars, de Nota&#39;s van de Versie, de Planning van de Versie en **[!UICONTROL About]** scherm.
-1. De **[!UICONTROL Support]** kunt u een ondersteuningscase openen en telefonisch of via Twitter contact met ons opnemen.
+1. De **[!UICONTROL Support]** kunt u een ondersteuningscase openen en telefonisch contact met ons opnemen (voorheen bekend als Twitter).
 1. De **[!UICONTROL Feedback]**  kunt u gemakkelijker problemen melden of uw ideeën delen.
 
 ## Het menu Advanced {#advanced-menu}
