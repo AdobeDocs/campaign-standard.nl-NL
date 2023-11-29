@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 579404ddc128e25cc7f8f93dfec30663c7cf754e
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '511'
 ht-degree: 2%
 
 ---
@@ -43,6 +43,7 @@ Standaard kunt u met twee vooraf gedefinieerde sjablonen e-mailinhoud voor Adobe
 1. Maak in Adobe Experience Manager een nieuwe **[!UICONTROL Page]**.
 
 1. Selecteer de **[!UICONTROL Adobe Campaign Email]** sjabloon. Raadpleeg de volgende video voor de gedetailleerde stappen.
+
    >[!VIDEO](https://video.tv.adobe.com/v/29997)
 
 1. Open uw nieuwe e-mailinhoud.
@@ -64,12 +65,42 @@ Een e-mailinhoud maken in Adobe Experience Manager:
 1. Toevoegen **[!UICONTROL Personalization fields]** via de **[!UICONTROL Text & Personalization]** component. Elke component komt overeen met een specifiek gebruik: afbeeldingen invoegen, personalisatie toevoegen, enz.
 
    Bekijk de volgende video voor meer informatie:
+
    >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
 1. Van de **[!UICONTROL Workflow]** selecteert u de **[!UICONTROL Approve for Adobe Campaign]** validatieworkflow. U kunt geen e-mail verzenden in Adobe Campaign als er inhoud wordt gebruikt die niet is goedgekeurd.
 
-1. Zodra de parameters voor inhoud en verzending zijn gedefinieerd, kunt u doorgaan met het goedkeuren, voorbereiden en verzenden van de e-mail in Adobe Campaign Standard.
+Uw e-mail verzenden in Adobe Campaign Standard:
 
-   Bekijk de volgende video voor meer informatie:
+1. Als de parameters voor inhoud en verzending eenmaal zijn gedefinieerd, maakt u een e-mailbericht op basis van een AEM-specifieke e-mailsjabloon in Adobe Campaign Standard.
 
-   >[!VIDEO](https://video.tv.adobe.com/v/23721)
++++ Meer weten over AEM specifieke template?
+
+   1. Via het geavanceerde menu hebt u toegang tot **[!UICONTROL Resources]** `>` **[!UICONTROL Templates]** `>` **[!UICONTROL Delivery templates]**.
+
+      ![](assets/aem_templates_1.png)
+
+   1. Dupliceer of selecteer een van de leveringssjablonen.
+
+   1. Van de **[!UICONTROL Properties]** van uw sjabloon, in de **[!UICONTROL Content]** vervolgkeuzelijst, selecteert u **[!UICONTROL Adobe Experience Manager as Content mode]** dan uw Adobe Experience Manager-account.
+
+      ![](assets/aem_templates_2.png)
+
++++
+
+   ![](assets/aem_send_1.png)
+
+1. Vul de eigenschappen van uw e-mail in en klik **[!UICONTROL Create]** om uw AEM inhoud te kunnen selecteren.
+
+1. Toegang krijgen tot de **[!UICONTROL Content]** blokkeren.
+
+   ![](assets/aem_send_2.png)
+
+1. Van de **[!UICONTROL Use Adobe Experience Manager content]** menu, klikt u op **[!UICONTROL Link AEM content]**.
+
+   Selecteer vervolgens de inhoud die u in uw e-mail wilt gebruiken.
+
+   ![](assets/aem_send_3.png)
+
+1. Pas uw e-mail verder aan door extra parameters zoals doelpubliek en uitvoeringsprogramma door het dashboard te specificeren. Zodra gevormd, kunt u de e-maillevering nu verzenden. [Meer informatie](../../sending/using/confirming-the-send.md)
+
