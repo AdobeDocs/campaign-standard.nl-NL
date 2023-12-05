@@ -5,14 +5,14 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 99a2ae8b383d5a8437882be065781a2317b88bfe
+source-git-commit: 70a30f5df33af3faaaa564903de60ca45f96899c
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 61%
+source-wordcount: '882'
+ht-degree: 57%
 
 ---
 
-# Afgeschafte en verwijderde functies {#deprecated-and-removed-features}
+# Verouderde en verwijderde functies {#deprecated-and-removed-features}
 
 Adobe evalueert voortdurend de productmogelijkheden om oudere functies te identificeren die door modernere alternatieven zouden moeten worden vervangen om de algehele klantwaarde te verbeteren. Hierbij wordt altijd zorgvuldig rekening gehouden met achterwaartse compatibiliteit.
 
@@ -34,6 +34,26 @@ Deze sectie bevat een lijst met functies en mogelijkheden die zijn gemarkeerd al
 In het algemeen worden functies die in een toekomstige versie moeten worden verwijderd, eerst ingesteld op afgeschaft, waarbij een alternatief wordt aangeboden. Deze functies en mogelijkheden zijn niet meer beschikbaar voor nieuwe Campaign Standard-klanten, of ze mogen niet worden gebruikt voor nieuwe implementaties. Ze worden ook verwijderd uit de productdocumentatie.
 
 Klanten wordt aangeraden na te gaan of ze in hun huidige implementatie gebruikmaken van de functie of mogelijkheid en om plannen te maken voor een wijziging in hun implementatie zodat het alternatief wordt gebruikt. Bekijk in welke versie de verwijdering plaatsvindt om uw omgeving en projectupdates dienovereenkomstig te plannen.
+
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>SDK V4 voor mobiele toepassingen</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>De ondersteuning voor de Adobe Experience Platform Mobile-versie 4 SDK's loopt af op 31 augustus 2021. Als u deze oudere versie van de SDK nog steeds gebruikt in Adobe Campaign Standard, moet u uw implementatie bijwerken met de Adobe Experience Platform SDK <strong>vóór eind juni 2024</strong>. </p></br>
+   <p>Uitlezen <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">dit artikel</a> om te leren hoe u uw implementatie kunt aanpassen en naar de nieuwste SDK van het Experience Platform kunt gaan.</p></br>
+   <p><strong>Waarschuwing</strong>: De SDK V4 wordt vanaf eind juni 2024 niet meer ondersteund in Campaign Standard.</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 
 
 <table> 
@@ -124,7 +144,7 @@ Deze sectie bevat een lijst met functies en mogelijkheden die uit Campaign Stand
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Sinds Campaign 21.2 is het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken afgeschaft. De profielverwijdering in twee stappen is niet meer beschikbaar. Gebruik de <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe Privacy-kernservice</a>.</p></br>
+   <td> <p>Sinds Campaign 21.2 is het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken afgeschaft. De profielverwijdering in twee stappen is niet meer beschikbaar. Gebruiken <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe Privacy Core-service</a>.</p></br>
    <p>Zie ook <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">Verzoeken om toegang tot persoonsgegevens beheren</a>.</p>
   </td> 
   </tr> 
@@ -169,7 +189,7 @@ Deze sectie bevat een lijst met functies en mogelijkheden die uit Campaign Stand
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK] is buiten gebruik gesteld. Dientengevolge, beelduitgave aangedreven door [!DNL Creative SDK] in Campaign Standard zijn e-mails niet meer beschikbaar vanaf de release van Campagne 20.2.</p></br>
+   <td> <p>[!DNL Adobe Creative SDK] is ontmanteld. Dientengevolge, beelduitgave aangedreven door [!DNL Creative SDK] in Campaign Standard zijn e-mails niet meer beschikbaar vanaf de release van Campagne 20.2.</p></br>
    </td> 
   </tr> 
  </tbody> 
