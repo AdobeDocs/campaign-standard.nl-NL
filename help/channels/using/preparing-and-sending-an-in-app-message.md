@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 83%
+source-wordcount: '1224'
+ht-degree: 80%
 
 ---
 
@@ -30,7 +30,7 @@ Er zijn drie typen in-app-berichten beschikbaar in Adobe Campaign:
 
 ![](assets/diagram_inapp.png)
 
-## Uw in-app-bericht voorbereiden {#preparing-your-in-app-message}
+## Uw bericht in de app voorbereiden {#preparing-your-in-app-message}
 
 >[!CAUTION]
 >
@@ -58,7 +58,7 @@ De stappen voor het maken van een zelfstandig in-app-bericht met Adobe Campaign 
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. Voer de eigenschappen voor het in-app-bericht in en selecteer de mobiele app in het veld **[!UICONTROL Associate a Mobile App to a delivery]**. 
+1. Voer de berichteigenschappen in de app in en selecteer uw mobiele app in het dialoogvenster **[!UICONTROL Associate a Mobile App to a delivery]** veld.
 
    Als de vervolgkeuzelijst geen toepassingen bevat, controleert u of uw mobiele toepassingen zich in een **geconfigureerd** status. Toepassingen in een **Klaar om te worden gevormd** wordt niet weergegeven in de lijst. Raadpleeg deze [pagina](../../administration/using/configuring-a-mobile-application.md#channel-specific-config) voor meer informatie over de configuratie van mobiele applicaties.
 
@@ -100,7 +100,7 @@ De stappen voor het maken van een zelfstandig in-app-bericht met Adobe Campaign 
 
 1. Als u een trigger **[!UICONTROL Places]** gebruikt, worden Places context data, Places custom metadata of Places event type automatisch ingevuld op basis van alle Libraries en hun Points of Interest die zijn gemaakt in Adobe Places.
 
-   Houd er rekening mee dat deze trigger alleen op het apparaat wordt toegepast voor de interessepunten van de bibliotheken die zijn geselecteerd in de extensie Plaatsen in de gebruikersinterface voor gegevensverzameling. Raadpleeg deze [documentatie](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html) voor meer informatie over de extensie Places en over het installeren ervan.
+   Houd er rekening mee dat deze trigger alleen op het apparaat wordt toegepast voor de interessepunten van de bibliotheken die zijn geselecteerd in de extensie Plaatsen in de gebruikersinterface voor gegevensverzameling. Raadpleeg deze [documentatie](https://developer.adobe.com/client-sdks/solution/places) voor meer informatie over de extensie Places en over het installeren ervan.
 
 1. Kies op het tabblad **[!UICONTROL Frequency & duration]** de frequentie voor de trigger, de begin- en einddatum, de dag van de week en het tijdstip van de dag waarop het in-app-bericht actief wordt.
 
@@ -118,9 +118,9 @@ Uw in-app-bericht is nu klaar om naar de beoogde doelgroep te worden verzonden.
 
 * [Een in-app-bericht aanpassen](../../channels/using/customizing-an-in-app-message.md)
 * [In-app-rapport](../../reporting/using/in-app-report.md)
-* [Een in-app-bericht verzenden binnen een workflow](../../automating/using/in-app-delivery.md)
+* [Een bericht in de app verzenden binnen een workflow](../../automating/using/in-app-delivery.md)
 
-## Voorbeeld van het in-app-bericht bekijken {#previewing-the-in-app-message}
+## Een voorvertoning weergeven van het bericht in de app {#previewing-the-in-app-message}
 
 Voordat u uw in-app-bericht verzendt, kunt u het testen met uw testprofielen om te controleren wat uw doelgroep ziet wanneer deze uw levering ontvangt.
 
@@ -135,7 +135,7 @@ Voordat u uw in-app-bericht verzendt, kunt u het testen met uw testprofielen om 
 
 1. U kunt nu uw bericht verzenden en de impact ervan meten met leveringsrapporten.
 
-## Uw in-app-bericht verzenden {#sending-your-in-app-message}
+## Uw bericht in de app verzenden {#sending-your-in-app-message}
 
 Nadat u de levering hebt voorbereid en de goedkeuringsstappen zijn uitgevoerd, kunt u uw bericht verzenden.
 
@@ -176,4 +176,4 @@ Nadat u de levering hebt voorbereid en de goedkeuringsstappen zijn uitgevoerd, k
 **Verwante onderwerpen:**
 
 * [In-app-rapport](../../reporting/using/in-app-report.md)
-* [Een in-app-bericht verzenden binnen een workflow](../../automating/using/in-app-delivery.md)
+* [Een bericht in de app verzenden binnen een workflow](../../automating/using/in-app-delivery.md)

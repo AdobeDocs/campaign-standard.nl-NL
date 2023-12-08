@@ -8,10 +8,10 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 2%
+source-wordcount: '1252'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ De mobiele toepassingen die worden gebruikt om locatiegegevens te verzamelen moe
 
 Om Adobe Experience Platform Location Services met mobiele toepassingen te kunnen gebruiken die met SDK van Adobe Experience Platform worden gevormd, moet u:
 
-1. Voeg de **[!UICONTROL Places]** in de gebruikersinterface voor gegevensverzameling van uw mobiele app. Stel uw mobiele toepassing in Adobe Campaign in. Zie [De extensie Plaatsen installeren](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch).
+1. Voeg de **[!UICONTROL Places]** in de gebruikersinterface voor gegevensverzameling van uw mobiele app. Stel uw mobiele toepassing in Adobe Campaign in. Zie [De extensie Plaatsen installeren](https://developer.adobe.com/client-sdks/solution/places).
 
 1. Als uw extensies zijn ingesteld, maakt u gegevenselementen in de gebruikersinterface voor gegevensverzameling om gegevens van deze extensies op te halen. Zie dit [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) om uw gegevenselementen te maken.
 

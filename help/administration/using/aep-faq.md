@@ -6,14 +6,14 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '856'
 ht-degree: 2%
 
 ---
 
-# Veelgestelde vragen over de integratie van Experience Platform SDK {#aep-faq}
+# Veelgestelde vragen over integratie van Experience Platform SDK {#aep-faq}
 
 Als u pushmeldingen en In-App-berichten wilt verzenden met de SDK-toepassing van het Experience Platform, moet een mobiele toepassing worden ingesteld in de SDK van Adobe Experience Platform en worden geconfigureerd in Adobe Campaign.
 
@@ -36,7 +36,7 @@ Raadpleeg de onderstaande bronnen voor meer informatie over de Adobe Experience 
 
 Ja, [!DNL Adobe Experience Platform SDK] de integratie is zowel voor Adobe Campaign Standard als voor Adobe Campaign Classic beschikbaar. U moet de bijbehorende **[!UICONTROL Extension]** via de [!DNL Data Collection UI] de integratie mogelijk te maken.
 
-Raadpleeg voor meer informatie deze [page]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
+Raadpleeg [deze pagina](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard) voor meer informatie.
 
 ## Welke mogelijkheden biedt Adobe Experience Platform SDK-integratie in Adobe Campaign? {#aep-capabilities}
 
@@ -98,7 +98,7 @@ Ontdek de onderstaande bronnen:
 
 * EXPERIENCE PLATFORM SDK [documentatie](https://developer.adobe.com/client-sdks/documentation/)
 * Aan de slag met de SDK voor Starten en Experience Platforms [documentatie](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
-* Upgrade uitvoeren naar Experience Platform SDK [documentatie](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks)
+* Upgrade uitvoeren naar Experience Platform SDK [documentatie](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/)
 * Github Experience Platform SDK [documentatie](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## Ik krijg fout &quot;u hebt geen schrijftoegang bij levering&quot;terwijl het creëren van een levering van het dupbericht. {#write-access-error}

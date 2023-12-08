@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
-workflow-type: ht
-source-wordcount: '7336'
-ht-degree: 100%
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+workflow-type: tm+mt
+source-wordcount: '7211'
+ht-degree: 99%
 
 ---
 
@@ -232,7 +232,7 @@ Er is informatie toegevoegd over anonieme bronnen in het rapport Actieve profiel
 
 Er is een bijgewerkte sectie over het leren werken met transactionele berichten beschikbaar. [Meer informatie](../../channels/using/getting-started-with-transactional-msg.md)
 
-De sectie **Beperkingen voor transactionele berichten** is [hierheen](../../channels/using/transactional-messaging-limitations.md) verplaatst.
+De **Transactionele berichtenbeperkingen** sectie is verplaatst [hier](../../channels/using/transactional-messaging-limitations.md).
 
 De sectie **De verzending voorbereiden** is [hierheen](../../sending/using/preparing-the-send.md) verplaatst.
 
@@ -346,7 +346,7 @@ Er is meer gedetailleerde informatie over de Enhanced MTA toegevoegd aan de kern
 
 De sectie met betrekking tot archivering met Email BCC is verplaatst en bijgewerkt. [Meer informatie](../../sending/using/archiving.md)
 
-De documentatie over het configureren van een mobiele app en de bijbehorende pagina’s zijn bijgewerkt om de afschaffing van SDK V4 weer te geven. [Meer informatie](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)
+De documentatie over het configureren van een mobiele app en de bijbehorende pagina’s zijn bijgewerkt om de afschaffing van SDK V4 weer te geven. [Meer informatie](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
 
 De documentatie over de Adobe Experience Manager-integratie met Adobe Campaign Standard is bijgewerkt en verbeterd. [Meer informatie](../../integrating/using/configure-experience-manager.md)
 

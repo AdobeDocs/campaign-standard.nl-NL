@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 3%
+source-wordcount: '1220'
+ht-degree: 2%
 
 ---
 
@@ -50,11 +50,11 @@ Met deze stap kan de gebruiker zich aanmelden bij de gebruikersinterface voor ge
 
 1. Klik in de gebruikersinterface van de gegevensverzameling op de knop **[!UICONTROL Extensions]** tab, ga naar **[!UICONTROL Catalog]** en zoek naar **[!UICONTROL Adobe Campaign Standard]** extensie. Zie voor meer informatie [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
-1. Installeer de **[!UICONTROL Places]** in de UI voor gegevensverzameling. Zie dit [page](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html).
+1. Installeer de **[!UICONTROL Places]** in de UI voor gegevensverzameling. Zie dit [page](https://developer.adobe.com/client-sdks/solution/places).
 
 1. In Adobe Campaign Standard, vorm het mobiele bezit dat u in de Inzameling UI van Gegevens creeerde. Zie [Een Adobe Experience Platform Launch-toepassing instellen in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
-1. Voeg de kanaalspecifieke configuratie toe aan de configuratie van de mobiele applicatie.
+1. Voeg de kanaalspecifieke configuratie toe aan uw mobiele toepassingsopstelling.
 Zie [Kanaalspecifieke applicatieconfiguratie in Adobe Campaign](../../administration/using/configuring-a-mobile-application.md#channel-specific-config) voor meer informatie.
 
 1. Indien nodig, kunt u de eigenschap tag verwijderen.
@@ -106,7 +106,7 @@ haar **[!UICONTROL Property Status]** moeten **[!UICONTROL Ready to configure]**
 
    ![](assets/launch_4.png)
 
-1. U kunt de organisatorische eenheid van uw mobiele toepassing veranderen onder **[!UICONTROL Access Authorization]** om de toegang tot deze mobiele toepassing te beperken tot specifieke organisatie-eenheden. Raadpleeg deze sectie voor meer informatie.
+1. U kunt de organisatorische eenheid van uw mobiele toepassing veranderen onder **[!UICONTROL Access Authorization]** om de toegang tot deze mobiele toepassing te beperken tot specifieke organisatie-eenheden. Raadpleeg deze pagina voor meer informatie.
 
    Hier, kan de beheerder suborganisatorische eenheden toewijzen door hen van drop-down te selecteren.
 
