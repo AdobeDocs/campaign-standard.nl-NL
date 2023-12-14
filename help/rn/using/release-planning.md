@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: ht
-source-wordcount: '437'
-ht-degree: 100%
+source-git-commit: 311fdf000333c03cb3b21fc6fea786251ced045f
+workflow-type: tm+mt
+source-wordcount: '472'
+ht-degree: 88%
 
 ---
 
@@ -23,11 +23,34 @@ Alle Adobe Campaign Standard-instanties worden geüpgraded met elke nieuwe relea
 
 Upgrades worden in twee fasen geïmplementeerd. Eerst worden Stage-instanties bijgewerkt waardoor u nieuwe mogelijkheden kunt testen en zo nodig uw configuratie kunt aanpassen. Vervolgens worden productie-instanties bijgewerkt.
 
-Alle releasedatums kunnen worden gewijzigd: bezoek deze pagina regelmatig om te controleren op updates.
+Alle releasedatums kunnen worden gewijzigd: ga regelmatig naar deze pagina om te controleren op updates. Omgevingsupdates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. De exacte datums worden per e-mail naar elke klant verzonden.
 
-## Release 23.2 - Release 2023 herfst/winter {#release-23-2-release}
+## Release 24.1 - 2024-winterrelease {#release-24-1-release}
 
-Omgevingsupdates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. De exacte datums worden per e-mail naar elke klant verzonden.
+Gedetailleerde informatie over deze release is beschikbaar in het dialoogvenster [Opmerkingen bij de release](release-notes.md) een week voordat de upgrades van de werkgebiedomgeving beginnen.
+
+<table>
+ <thead>
+  <tr>
+   <th> Omgevingen </th>
+   <th> Datums </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>Stadium </td>
+   <td>16 jan. - 13 feb. 2024 </td>
+  </tr>
+  <tr>
+   <td>Productie </td>
+   <td>23 jan. 20 feb. 2024 </td>
+  </tr>
+ </tbody>
+</table>
+
+
+## Release 23.2 - 2023 Fall Limited, release {#release-23-2-release}
+
 
 >[!AVAILABILITY]
 >
