@@ -7,11 +7,12 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
 workflow-type: tm+mt
-source-wordcount: '5211'
-ht-degree: 99%
+source-wordcount: '5267'
+ht-degree: 97%
 
 ---
 
@@ -68,7 +69,7 @@ ht-degree: 99%
 <tbody> 
 <tr> 
   <td> <p>Met veel plezier kondigen we Journey AI aan voor alle Adobe Campaign Standard-klanten.</p>
-  <p>Journey AI maakt gebruik van geavanceerde Machine Learning (ML) waarmee bedrijven het ontwerp en de levering van klantjourneys kunnen optimaliseren door de betrokkenheidsvoorkeur van elk individu te voorspellen.</p>
+  <p>Journey AI maakt gebruik van Advanced Machine Learning (ML) om bedrijven in staat te stellen het ontwerp en de levering van klantreizen te optimaliseren door de voorkeur van elk individu voor de service te voorspellen.</p>
   <P>Journey AI bestaat uit twee ML-kenmerken:</p>
 <ul> 
      <li> <strong>Voorspellende betrokkenheidsscores</strong> - Intelligente identificatie van het geprefereerde betrokkenheidsniveau van klanten om berichten beter te kunnen targeten en personaliseren voor meer conversies en retentie. Bekijk de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">instructievideo</a>.</li> 
@@ -235,7 +236,7 @@ ht-degree: 99%
 **Aanvullende mogelijkheden** (vanaf 13 juli)
 
 * **AI-aangestuurde optimalisering van verzendingstijd en profielscore** - U kunt nu het ontwerp en de levering van klantjourneys optimaliseren om de betrokkenheidsvoorkeur van elke persoon te voorspellen. Adobe Campaign wordt aangestuurd door Journey AI en kan openingsfrequenties, optimale verzendtijden en waarschijnlijk verloop analyseren en voorspellen op basis van historische betrokkenheidscijfers. [Meer informatie](../../sending/using/predictive.md)
-* **De nieuwe Braziliaanse privacyverordening** - Naast de privacymogelijkheden die in Campaign al beschikbaar zijn, helpt Adobe u met de voorbereiding voor de Lei Geral de Proteçao de Dados (LGPD) van Brazilië. Bij het maken van een verzoek om toegang tot persoonsgegevens is het LGPD-wetgevingstype toegevoegd in de Adobe Privacy-kernservice. [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy-overview.html)
+* **De nieuwe privacyverordening van Brazilië** - Naast de privacy-mogelijkheden die al beschikbaar zijn in Campaign, helpt Adobe u te helpen bij het voorbereiden van de Braziliaanse Lei Geral de Proteçao de Datos (LGPD). Bij het maken van een verzoek om toegang tot persoonsgegevens is het LGPD-wetgevingstype toegevoegd in de Adobe Privacy-kernservice. [Meer informatie](https://helpx.adobe.com/nl/campaign/kb/campaign-privacy-overview.html)
 
 **Verbeteringen**
 
@@ -266,7 +267,7 @@ ht-degree: 99%
 
 **Experience Platform-integraties**
 
-* De activering van Adobe Experience Platform-doelgroepen van de activiteit **Read audience** verloopt nu beter en stabieler. Bovendien zijn de logbestanden van workflows nu overzichtelijker en gedetailleerder ten aanzien van activeringstaken, met als resultaat eenvoudigere monitoring en probleemoplossing bij het lezen van Adobe Experience Platform-doelgroepen.
+* Activering van het Adobe Experience Platform-publiek vanuit de **Lees publiek** de activiteit is verbeterd om betere prestaties en stabiliteit te bieden . Bovendien zijn de logbestanden van workflows nu overzichtelijker en gedetailleerder ten aanzien van activeringstaken, met als resultaat eenvoudigere monitoring en probleemoplossing bij het lezen van Adobe Experience Platform-doelgroepen.
 
 **Patches**
 
@@ -359,7 +360,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->De functies van het Adobe Experience Platform in de Campaign Standard worden momenteel in bèta weergegeven en kunnen vaak en zonder kennisgeving worden bijgewerkt. Raadpleeg de gedetailleerde documentatie: Experience Platform-gegevensconnector, Audience Destinations
+>De functies van het Adobe Experience Platform in de Campaign Standard worden momenteel in bèta weergegeven en kunnen vaak en zonder kennisgeving worden bijgewerkt. Raadpleeg de gedetailleerde documentatie: Experience Platform Data Connector, Publiek Doelen
 
 * In workflowlogboeken wordt om de 10 minuten het aantal records weergegeven dat al is verwerkt door de taak die momenteel wordt uitgevoerd in Campaign.
 * Probleem verholpen dat kon optreden bij het importeren van een Adobe Experience Platform-profiel dat uit de database was verwijderd.
@@ -406,7 +407,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>De Adobe Experience Platform-gegevensconnector is nu geïntegreerd met Adobe Campaign Standard. U kunt uw Campaign-data ter beschikking stellen op het Adobe Experience Platform door de XTK-data (data die in Campaign worden opgenomen) toe te wijzen aan het Adobe Experience Platform-datamodel (XDM). </p>
-    <p>Deze mogelijkheid is alleen beschikbaar voor klanten die in Azure worden gehost.</p>
+    <p>Houd er rekening mee dat deze mogelijkheid alleen beschikbaar is voor klanten die in Azure worden gehost.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -421,7 +422,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>Met Audience Destinations kunt u segmenten van het Adobe Experience Platform delen met Adobe Campaign.</p>
-    <p>Deze mogelijkheid is alleen beschikbaar voor klanten die in Azure worden gehost.</p>
+    <p>Houd er rekening mee dat deze mogelijkheid alleen beschikbaar is voor klanten die in Azure worden gehost.</p>
    </td> 
   </tr> 
  </tbody> 

@@ -1,20 +1,19 @@
 ---
-title: Wijzigingen in pushmeldingskanaal
-description: Wijzigingen in pushmeldingskanaal
+title: Aanstaande wijzigingen in het kanaal voor pushmeldingen
+description: Aanstaande wijzigingen in het kanaal voor pushmeldingen
 audience: channels
 feature: Push
 role: Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-source-git-commit: 9b7b127d92628169249c64ce85147d530b32a2cc
+exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 1%
+source-wordcount: '322'
+ht-degree: 5%
 
 ---
 
-# Wijzigingen in pushmeldingskanaal {#push-upgrade}
+# Aanstaande wijzigingen in het kanaal voor pushmeldingen {#push-upgrade}
 
 Met Campagne kunt u pushmeldingen verzenden op Android- en iOS-apparaten. Om dit te doen, baseert de Campagne zich op de specifieke abonnementsdiensten. Enkele belangrijke wijzigingen in de FCM-service (Firebase Cloud Messaging) van Android worden in 2024 gepubliceerd en zijn van invloed op uw Adobe Campaign-implementatie. Daarnaast wijzigt de Adobe voor iOS-toepassingen de manier waarop beheerders certificaten kunnen configureren.
 
@@ -30,7 +29,7 @@ Adobe Campaign Standard gebruikt momenteel de verouderde HTTP-API&#39;s om Andro
 
 De Adobe zal ook Adobe Campaign Standard voor het Kanaal van het Push Bericht van iOS bevorderen en de manier veranderen wij Beheerders toestaan om certificaten voor hun toepassingen van iOS te vormen. Beheerders moeten nu de iOS-certificaten uploaden via de Adobe Campaign Standard-gebruikersinterface.
 
-## Heeft dit gevolgen voor u? {#push-impact}
+## Heb je invloed op? {#push-impact}
 
 Als gebruiker van het Campaign Standard, als u pushberichten naar uw publiek verzendt, wordt u beïnvloed.
 

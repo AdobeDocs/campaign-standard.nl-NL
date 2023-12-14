@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
-workflow-type: ht
-source-wordcount: '454'
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+workflow-type: tm+mt
+source-wordcount: '465'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,6 @@ ht-degree: 100%
 # Laatste release{#latest-release}
 
 ![Configuratiescherm](assets/do-not-localize/cp-icon.png) **Nieuwe release van het configuratiescherm**. [Meer informatie](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=nl){target="_blank"}.
-
 
 
 ## Release 23.2 - Release 2023 herfst/winter {#fall-23}
@@ -48,7 +47,7 @@ ht-degree: 100%
 
 ### Oplossingen {#fall-23-rn-fixes}
 
-* Regressie verholpen die prestatieproblemen kon veroorzaken bij het gebruik van grote workflows. (CAMP-53369)
+* Er is een regressie verholpen die prestatieproblemen kon veroorzaken bij het gebruik van grote workflows. (CAMP-53369)
 * Probleem verholpen waardoor de koppeling in een e-mailwaarschuwing of melding voor een workflow niet werkte. (CAMP-51874)
 
 ## Release 23.1 - 2023 lente-/zomerrelease {#apr-23}
