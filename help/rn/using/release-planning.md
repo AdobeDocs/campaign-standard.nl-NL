@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 311fdf000333c03cb3b21fc6fea786251ced045f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '472'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Alle Adobe Campaign Standard-instanties worden geüpgraded met elke nieuwe relea
 
 Upgrades worden in twee fasen geïmplementeerd. Eerst worden Stage-instanties bijgewerkt waardoor u nieuwe mogelijkheden kunt testen en zo nodig uw configuratie kunt aanpassen. Vervolgens worden productie-instanties bijgewerkt.
 
-Alle releasedatums kunnen worden gewijzigd: ga regelmatig naar deze pagina om te controleren op updates. Omgevingsupdates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. De exacte datums worden per e-mail naar elke klant verzonden.
+Alle versiedatums kunnen worden gewijzigd: bezoek deze pagina regelmatig om te controleren op updates. Omgevingsupdates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. De exacte datums worden per e-mail naar elke klant verzonden.
 
-## Release 24.1 - 2024-winterrelease {#release-24-1-release}
+## Versie 24.1: winterversie 2024 {#release-24-1-release}
 
-Gedetailleerde informatie over deze release is beschikbaar in het dialoogvenster [Opmerkingen bij de release](release-notes.md) een week voordat de upgrades van de werkgebiedomgeving beginnen.
+Gedetailleerde informatie over deze versie zal een week voordat wanneer upgrades van de faseomgeving van start gaan, beschikbaar zijn in de [Aanvullende informatie](release-notes.md).
 
 <table>
  <thead>
@@ -39,17 +39,17 @@ Gedetailleerde informatie over deze release is beschikbaar in het dialoogvenster
  <tbody>
   <tr>
    <td>Stadium </td>
-   <td>16 jan. - 13 feb. 2024 </td>
+   <td>16 jan.-13 feb. 2024 </td>
   </tr>
   <tr>
    <td>Productie </td>
-   <td>23 jan. 20 feb. 2024 </td>
+   <td>23 jan.-20 feb. 2024 </td>
   </tr>
  </tbody>
 </table>
 
 
-## Release 23.2 - 2023 Fall Limited, release {#release-23-2-release}
+## Versie 23.2: beperkte herfstversie 2023 {#release-23-2-release}
 
 
 >[!AVAILABILITY]
