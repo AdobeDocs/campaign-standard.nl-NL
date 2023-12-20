@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: cd1650801bf31edc99d93901da232ff618673eed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7240'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ Naast [aanvullende informatie](../../rn/using/release-notes.md) van Adobe Campai
 
 ## December 2023 {#doc-updates-dec-2023}
 
-Enkele belangrijke wijzigingen in de FCM-service (Firebase Cloud Messaging) van Android worden in 2024 gepubliceerd en zijn van invloed op uw Adobe Campaign-implementatie. Meer informatie in [dit technote](../../administration/using/push-technote.md).
+In 2024 komt er een versie met enkele belangrijke wijzigingen voor de service FCM (Android Firebase Cloud Messaging). Deze zullen van invloed zijn op uw Adobe Campaign-implementatie. Meer informatie vindt u [in deze technische opmerking](../../administration/using/push-technote.md).
 
-## Release 23.2 - herfst 2023 {#release-23-2}
+## Versie 23.2: herfst 2023 {#release-23-2}
 
 * Aanvullende informatie bij de release van Campaign Standard 23.2 herfst/winter 2023 is gepubliceerd. [Meer informatie](release-notes.md)
 
@@ -236,7 +236,7 @@ Er is informatie toegevoegd over anonieme bronnen in het rapport Actieve profiel
 
 Er is een bijgewerkte sectie over het leren werken met transactionele berichten beschikbaar. [Meer informatie](../../channels/using/getting-started-with-transactional-msg.md)
 
-De **Transactionele berichtenbeperkingen** sectie is verplaatst [hier](../../channels/using/transactional-messaging-limitations.md).
+De sectie **Beperkingen voor transactieberichten** is [hierheen](../../channels/using/transactional-messaging-limitations.md) verplaatst.
 
 De sectie **De verzending voorbereiden** is [hierheen](../../sending/using/preparing-the-send.md) verplaatst.
 
@@ -350,7 +350,7 @@ Er is meer gedetailleerde informatie over de Enhanced MTA toegevoegd aan de kern
 
 De sectie met betrekking tot archivering met Email BCC is verplaatst en bijgewerkt. [Meer informatie](../../sending/using/archiving.md)
 
-De documentatie over het configureren van een mobiele app en de bijbehorende pagina’s zijn bijgewerkt om de afschaffing van SDK V4 weer te geven. [Meer informatie](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
+De documentatie over het configureren van een mobiele app en de bijbehorende pagina’s zijn bijgewerkt om de afschaffing van SDK V4 weer te geven. [Meer informatie](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=bl)
 
 De documentatie over de Adobe Experience Manager-integratie met Adobe Campaign Standard is bijgewerkt en verbeterd. [Meer informatie](../../integrating/using/configure-experience-manager.md)
 
