@@ -1,5 +1,5 @@
 ---
-title: Interactie met aangepaste resources
+title: Interactie met aangepaste bronnen
 description: Meer informatie over het beheer van aangepaste bronnen met API's/
 audience: developing
 content-type: reference
@@ -11,11 +11,11 @@ exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 4%
+ht-degree: 0%
 
 ---
 
-# Interactie met aangepaste resources {#interacting-with-custom-resources}
+# Interactie met aangepaste bronnen {#interacting-with-custom-resources}
 
 De **/customResources** het eindpunt staat u toe om de de douanemiddelen van de Campagne in REST bloot te stellen. Op basis van deze API is er een integratie tussen aangepaste entiteiten en externe eindpunten beschikbaar.
 

@@ -42,7 +42,7 @@ Een voorbeeld van een generiek werkstroomsjabloon dat is ontworpen voor het impo
 
 * [Bestandsactiviteit laden](../../automating/using/load-file.md)
 * [Afstemmingsactiviteit](../../automating/using/reconciliation.md)
-* [Segmentatie-activiteit](../../automating/using/segmentation.md)
+* [Segmenteringsactiviteit](../../automating/using/segmentation.md)
 * [Deduplicatieactiviteit](../../automating/using/deduplication.md)
 * [Gegevensactiviteit bijwerken](../../automating/using/update-data.md)
 

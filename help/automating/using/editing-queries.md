@@ -11,8 +11,8 @@ level: Experienced
 exl-id: a0adb913-2ee7-4cce-9b4f-74ebb7f1ce6a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 100%
+source-wordcount: '788'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ Dit wordt door verschillende functies van de applicatie gebruikt voor de volgend
 * **E-mailtargets** definiëren
 * Populaties definiëren in **workflowactiviteiten**
 
-## Interface van de query-editor {#query-editor-interface}
+## Interface van de Query-editor {#query-editor-interface}
 
 De query-editor bestaat uit een **palet** en een **werkruimte**.
 
@@ -56,7 +56,7 @@ De werkruimte is de centrale zone waar u regels, doelgroepen en vooraf gedefinie
 
 Wanneer u een element van het palet naar de werkruimte verplaatst, wordt een nieuw venster geopend en kunt u [query&#39;s maken](#creating-queries).
 
-## Query’s maken {#creating-queries}
+## Vragen maken {#creating-queries}
 
 Met de query-editor kunt u een doelgroep of testprofiel definiëren voor een bericht, een populatie bepalen voor een workflow, en een doelgroep maken die geschikt is voor query&#39;s.
 
@@ -114,7 +114,7 @@ Uw query&#39;s worden nu gemaakt en gedefinieerd, zodat u een populatie kunt sam
 
 * [Geavanceerde functies](../../automating/using/advanced-expression-editing.md)
 * [Filters definiëren](../../developing/using/configuring-filter-definition.md)
-* [Gebruiksscenario: Eenmaal per week een e-maillevering maken](../../automating/using/workflow-weekly-offer.md)
-* [Gebruiksscenario: Een levering maken die is gesegmenteerd op locatie](../../automating/using/workflow-segmentation-location.md)
-* [Gebruiksscenario: Leveringen maken met een aanvulling](../../automating/using/workflow-created-query-with-complement.md)
-* [Gebruiksscenario: Retargeting van een workflow om een nieuwe levering te zenden naar personen die het bericht niet hebben geopend](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Gebruik hoofdletters/kleine letters: één keer per week een e-maillevering maken](../../automating/using/workflow-weekly-offer.md)
+* [Gebruiksscenario: een levering maken die op een locatie is gesegmenteerd](../../automating/using/workflow-segmentation-location.md)
+* [Hoofdlettergebruik: leveringen maken met een complement](../../automating/using/workflow-created-query-with-complement.md)
+* [Gebruik hoofdletters/kleine letters: opnieuw rangschikken workflow om een nieuwe levering naar niet-openers te verzenden](../../automating/using/workflow-cross-channel-retargeting.md)

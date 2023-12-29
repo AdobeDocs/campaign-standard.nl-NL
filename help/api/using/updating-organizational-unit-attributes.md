@@ -1,5 +1,5 @@
 ---
-title: Kenmerken van een organisatorische eenheid bijwerken
+title: Kenmerken van een organisatie-eenheid bijwerken
 description: Leer hoe u kenmerken van een organisatie-eenheid kunt bijwerken
 audience: developing
 content-type: reference
@@ -11,11 +11,11 @@ exl-id: 90841afd-ebc2-4b6a-895e-a96ef65740d7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 11%
+ht-degree: 0%
 
 ---
 
-# Kenmerken van een organisatorische eenheid bijwerken {#updating-organizational-unit-attributes}
+# Kenmerken van een organisatie-eenheid bijwerken {#updating-organizational-unit-attributes}
 
 1. Voer een verzoek van de GET uit op **orgUnitBase** bron voor het ophalen van de PKey-organisatie.
 1. Voer een verzoek van de PATCH op de Organisatorische eenheid uit, met de attributen om in de lading bij te werken.

@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1016'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Het uploaden van een CSV-bestand om inhoud te genereren voor levering is een fun
 
 Meertalige push vereist 14 kolommen in het CSV-bestand:
 
-1. title
+1. titel
 1. messageBody
 1. geluid
 1. adge
@@ -35,7 +35,7 @@ Meertalige push vereist 14 kolommen in het CSV-bestand:
 1. isMutableContent
 1. customFields
 1. landinstelling
-1. language
+1. taal
 1. silentPush
 
 Controleer het CSV-voorbeeld door op de knop **[!UICONTROL Download a sample file]** in de **[!UICONTROL Manage Content Variants]** venster. Raadpleeg de volgende secties voor meer informatie [sectie](../../channels/using/creating-a-multilingual-push-notification.md).
@@ -98,7 +98,7 @@ In het bereik zijn twee verplichte kenmerken:
 
 De volgende talen worden ondersteund:
 
-| landinstelling | language |
+| landinstelling | taal |
 |:-:|:-:|
 | af_za | Afrikaans - Zuid-Afrika |
 | sq_al | Albanees - Albanië |

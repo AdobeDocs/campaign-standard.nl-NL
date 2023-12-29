@@ -12,7 +12,7 @@ exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 86%
+ht-degree: 79%
 
 ---
 
@@ -24,9 +24,9 @@ U kunt een e-mail sturen naar klanten met aanbiedingen in hun lokale winkels.
 1. Selecteer **[!UICONTROL New Workflow]** als workflowtype en klik op **[!UICONTROL Next]**.
 1. Voer de eigenschappen van de workflow in en klik op **[!UICONTROL Create]**.
 
-## Ontvangers selecteren met wie via e-mailcontact kan worden opgenomen{#selecting-recipients-contactable-via-email}
+## Ontvangers die via e-mail contact kunnen opnemen selecteren{#selecting-recipients-contactable-via-email}
 
-1. Sleep in **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** een [Query](../../automating/using/query.md)-activiteit en zet deze neer ![](assets/query.png).
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, een [Query](../../automating/using/query.md) activiteit ![](assets/query.png).
 1. Dubbelklik op de activiteit.
 1. In **[!UICONTROL Shortcuts]** sleept u het veld **[!UICONTROL Profiles]** en selecteert u het veld **[!UICONTROL email]** met de operator **[!UICONTROL is not empty]**.
 1. In **[!UICONTROL Shortcuts]** sleept u het veld **[!UICONTROL Profiles]** en selecteert u het veld **[!UICONTROL no longer contact by email]** met de waarde **[!UICONTROL no]**.
@@ -34,7 +34,7 @@ U kunt een e-mail sturen naar klanten met aanbiedingen in hun lokale winkels.
 
 ![](assets/wf-complement-query.png)
 
-## Een segmentatie-activiteit maken{#creating-a-segmentation-activity}
+## Een segmentatieactiviteit maken{#creating-a-segmentation-activity}
 
 1. Sleep een [Segmentering](../../automating/using/segmentation.md) en dubbelklik erop.
 1. Klik op het segment en open vervolgens de overgang met als target de mensen in de eerste stad. In dit geval Boston.

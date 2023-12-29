@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 10%
+source-wordcount: '308'
+ht-degree: 9%
 
 ---
 
@@ -38,7 +38,7 @@ U kunt de weergegeven waarden configureren door de tijdschaal te wijzigen.
 
 Andere rapporten zijn beschikbaar, zoals **[!UICONTROL Delivery summary]** of **[!UICONTROL Non-deliverables and bounces]**. Zie voor meer informatie [Dynamische rapporten](../../reporting/using/about-dynamic-reports.md).
 
-## Leveringen controleren {#monitoring-deliveries}
+## Bewaking van leveringen {#monitoring-deliveries}
 
 Het berichtdashboard geeft u toegang tot de leveringslogboeken: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** en **[!UICONTROL Tracked URLs]**. Zij tonen de details van de verzending, welk doel is uitgesloten en waarom, evenals de tracking-informatie zoals aantal geopend en aantal klikken.
 

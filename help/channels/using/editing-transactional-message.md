@@ -12,7 +12,7 @@ exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 30%
+ht-degree: 27%
 
 ---
 
@@ -35,7 +35,7 @@ Zodra uw bericht klaar is, kan het worden getest en worden gepubliceerd. Zie [Tr
 Om tot het transactiebericht toegang te hebben dat u creeerde:
 
 1. Klik op de knop **Adobe** in de linkerbovenhoek.
-1. Selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Selecteren **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_4.png)
 
@@ -221,7 +221,7 @@ De stappen voor het maken, bewerken en aanpassen van een bericht voor een profie
 
 De verschillen worden hieronder vermeld.
 
-1. [Ga naar het transactionele bericht dat is gemaakt om het te bewerken.](#accessing-transactional-messages)
+1. [Het transactiebericht openen](#accessing-transactional-messages) die is gemaakt om deze te bewerken.
 1. Klik in het transactionele bericht op de sectie **[!UICONTROL Content]**. Naast de transactiesjablonen voor e-mailberichten kunt u ook een e-mailsjabloon kiezen voor de **[!UICONTROL Profile]** resource.
 
    ![](assets/message-center_marketing_templates.png)

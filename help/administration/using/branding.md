@@ -1,6 +1,6 @@
 ---
 title: Branding
-description: Ontdek alle tools die beschikbaar zijn om uw merkidentiteit te beheren
+description: Ontdek alle tools die beschikbaar zijn om uw brandingsidentiteiten te beheren
 audience: administration
 context-tags: branding,overview;branding,main
 feature: Instance Settings
@@ -9,24 +9,24 @@ level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 76%
+source-wordcount: '1259'
+ht-degree: 72%
 
 ---
 
 # Branding{#branding}
 
-## Merkidentiteit {#about-brand-identity}
+## Informatie over merkidentiteit {#about-brand-identity}
 
 Elk bedrijf heeft visuele en technische richtlijnen voor de merkidentiteit. Met Adobe Campaign kunt u een reeks specificaties instellen om een consistente merkidentiteit en -beleving aan uw klanten te bieden, van logo&#39;s tot technische aspecten, zoals een e-mailafzender, URL of domeinen.
 
 Technische beheerders kunnen een of meer merken definiëren om de parameters voor de identiteit van een merk centraal in te voeren. Dit zijn onder andere het merklogo, het domein van de toegangs-URL voor de landingspagina&#39;s of de instellingen voor de tracking van berichten. Met Adobe Campaign kunt u deze merken maken en ze koppelen aan berichten of landingspagina&#39;s. Deze configuratie wordt beheerd in sjablonen.
 
-## Merken configureren en gebruiken {#configuring-and-using-brands}
+## Brandmerken configureren en gebruiken {#configuring-and-using-brands}
 
 Het belangrijkste principe voor het configureren en gebruiken van merken is het volgende:
 
-1. Maak en configureer het merk. Deze bewerking vereist specifieke machtigingen en wordt uitgevoerd door de technische beheerder van Adobe Campaign. De stappen voor een nieuw merk in Campagne zijn gedetailleerd [in deze sectie](#creating-a-brand).
+1. Maak en configureer het merk. Voor deze bewerking zijn specifieke machtigingen vereist en deze wordt uitgevoerd door de technische beheerder van Adobe Campaign. De stappen voor een nieuw merk in Campagne zijn gedetailleerd [in deze sectie](#creating-a-brand).
 1. Maak een of meer sjablonen voor leveringen en landingspagina&#39;s voor dit merk. Raadpleeg de sectie [Een sjabloon maken](../../start/using/marketing-activity-templates.md).
 1. Maak berichten en landingspagina&#39;s op basis van deze sjabloon. Raadpleeg de secties [Een e-mail maken](../../channels/using/creating-an-email.md) en [Een landingspagina maken](../../channels/using/designing-a-landing-page.md).
 
@@ -139,7 +139,7 @@ Nadat u de sjabloon hebt gemaakt, kunt u deze koppelen aan een merk. Dit doet u 
 
 Uw sjabloon wordt gekoppeld aan het merk. In de e-maileditor maken de elementen zoals **Email address of default sender**, **Default sender name** of **Logo** gebruik van de geconfigureerde merkdata.
 
-### Gebruiksscenario voor merkpositionering {#branding-use-case}
+### Branding use case {#branding-use-case}
 
 In dit voorbeeld gaan we een nieuw aan reizen gerelateerd merk maken en dit in een e-mail gebruiken.
 

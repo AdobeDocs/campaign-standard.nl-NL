@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 31%
+source-wordcount: '334'
+ht-degree: 20%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 31%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_datamodel.svg" width="60px"><p><a href="#data-model">Datamodel</a></p></td>
+<td><img src="assets/do-not-localize/icon_datamodel.svg" width="60px"><p><a href="#data-model">Gegevensmodel</a></p></td>
 <td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">Aangepaste bronnen</a></p></td><td><img src="assets/do-not-localize/icon_api.svg" width="60px"><p><a href="#custom-resources">Werken met API's</a></p></td></tr>
 </table>
 
-Breid het Campaign Standard-datamodel uit met uw eigen velden en bronnen, en controleer alle veranderingen in datamodellen in één weergave.
+Breid het gegevensmodel van het Campaign Standard met uw eigen gebieden en middelen uit, en controleer alle veranderingen van het gegevensmodel in één enkele mening.
 
-## Datamodel {#data-model}
+## Gegevensmodel {#data-model}
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
@@ -61,7 +61,7 @@ Meer informatie:
 
 Met Campaign Standard APIs, creeer integraties voor Adobe Campaign Standard en bouw uw eigen ecosysteem door Campagne met het paneel van technologieën te verbinden die u gebruikt. [Aan de slag met Campaign Standard REST-API’s](../../api/using/get-started-apis.md)
 
-## Aanvullende bronnen
+## Verdere bronnen
 
-* [Aangepaste resources exporteren en importeren](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
+* [Aangepaste bronnen exporteren/importeren](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
 * [Gegevens exporteren van Campaign naar Adobe Experience Platform](../../integrating/using/export-campaign-data.md)

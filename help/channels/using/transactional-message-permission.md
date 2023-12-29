@@ -12,7 +12,7 @@ exl-id: 995da330-6c86-444b-86b2-61d887f37db4
 source-git-commit: 7247fe596494690ac0676196fbb72c6139aeb0c7
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Deze functies zijn momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe.
+>Deze functies zijn momenteel alleen beschikbaar voor een aantal organisaties (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
 
 Momenteel kunnen gebruikers in Adobe Campaign Standard zonder de beveiligingsgroep Beheerder geen toegang krijgen tot transactiegebeurtenissen, deze maken of publiceren. Dit leidt tot problemen voor zakelijke gebruikers die gebeurtenissen moeten configureren en publiceren, maar geen beheerdersrechten hebben. Ook, is het niet mogelijk om transactionele gebeurtenissen te dupliceren.
 

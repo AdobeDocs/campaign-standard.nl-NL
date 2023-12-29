@@ -1,6 +1,6 @@
 ---
 title: Verjaardagslevering
-description: Dit voorbeeld is een verjaardagsworkflow. Elke dag wordt er een e-mail gestuurd naar profielen die op die dag jarig zijn.
+description: Dit voorbeeld is een verjaardagsworkflow. Elke dag wordt een e-mail verzonden naar profielen waarvan het verjaart op die dag is.
 audience: automating
 content-type: reference
 topic-tags: channel-activities
@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 535ddbce-d8ba-4578-9e37-10604291c95d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 69%
+source-wordcount: '174'
+ht-degree: 52%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 69%
 
 ![](assets/wkf_delivery_example_1.png)
 
-Dit voorbeeld is een verjaardagsworkflow. Elke dag wordt er een e-mail gestuurd naar profielen die op die dag jarig zijn.
+Dit voorbeeld is een verjaardagsworkflow. Elke dag wordt een e-mail verzonden naar profielen waarvan het verjaart op die dag is.
 
 Voer de volgende stappen uit om de workflow te maken:
 

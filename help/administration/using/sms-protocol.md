@@ -8,7 +8,7 @@ level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '8650'
+source-wordcount: '8640'
 ht-degree: 0%
 
 ---
@@ -700,7 +700,7 @@ Met deze instelling kunt u slechts één TLV-optie per bericht toevoegen.
 >
 >Vanaf de release 21.1 is het nu mogelijk meer dan één optionele parameter toe te voegen. Raadpleeg deze [sectie](../../administration/using/sms-protocol.md#automatic-reply-tlv) voor meer informatie.
 
-### Automatisch antwoord verzonden naar het MO-bericht {#automatic-reply}
+### Automatisch antwoord verzonden aan de MO {#automatic-reply}
 
 Met deze functie kunt u snel tekst op de MO beantwoorden en per korte code naar de lijst van gewezen personen verzenden.
 
@@ -734,7 +734,7 @@ Dit veld is optioneel. Het staat met voeten treedt afzenderadres (oADC) toe. De 
 
 Het veld is door de SMPP-specificatie beperkt tot 21 tekens, maar sommige providers staan mogelijk langere waarden toe. Houd er rekening mee dat in sommige landen zeer strikte beperkingen kunnen worden toegepast, zoals lengte, inhoud en toegestane tekens.
 
-### Bezorgingsparameters {#delivery-parameters}
+### Leveringsparameters {#delivery-parameters}
 
 #### Maximum aantal SMS per bericht {#maximum-sms}
 

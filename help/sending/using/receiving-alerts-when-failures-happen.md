@@ -10,8 +10,8 @@ level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 2%
+source-wordcount: '2038'
+ht-degree: 1%
 
 ---
 
@@ -85,7 +85,7 @@ Als u meldingen op basis van specifieke criteria wilt verzenden naar verschillen
 
 1. Selecteer de groep ontvangers die u via het dialoogvenster wilt waarschuwen **[!UICONTROL Alert group]** vervolgkeuzelijst. Als u een groep wilt wijzigen of maken, raadpleegt u [Een beveiligingsgroep maken en gebruikers toewijzen](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
 1. Van de **[!UICONTROL Delivery alerting criteria]** sectie, klikken **[!UICONTROL Create element]** om criteria toe te voegen. Zie [Waarschuwingscriteria](#about-alerting-criteria).
-1. Selecteer de knop **[!UICONTROL Edit properties]**. In de **[!UICONTROL Criteria parameters]** , definieert u hoe de criteria worden toegepast. Zie [Criteria](#criteria-parameters).
+1. Selecteer de **[!UICONTROL Edit properties]** knop. In de **[!UICONTROL Criteria parameters]** , definieert u hoe de criteria worden toegepast. Zie [Criteria](#criteria-parameters).
 1. Klikken **[!UICONTROL Create]** het dashboard opslaan.
 
 Telkens wanneer een levering voldoet aan de criteria die u in dit dashboard hebt gedefinieerd, wordt een waarschuwingsbericht verzonden naar de opgegeven groep gebruikers.
@@ -132,9 +132,9 @@ Voor elk criterium kunt u de volgende instellingen definiëren:
 
 **Verwante onderwerpen:**
 
-* [Verzendlogboeken](../../sending/using/monitoring-a-delivery.md#sending-logs)
+* [Logboeken verzenden](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [Waarschuwingsfrequentie](#alerting-frequency)
-* [Pictogrammen en statussen van marketingactiviteiten](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
+* [Pictogrammen en statussen voor marketingactiviteiten](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
 ### Een leveringswaarschuwingscriterium maken {#creating-a-delivery-alerting-criterion}
 

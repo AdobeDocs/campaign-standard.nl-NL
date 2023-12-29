@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 2%
+source-wordcount: '1232'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Hier volgen de belangrijkste stappen voor het maken en ontwerpen van een geheel 
 1. Voeg afbeeldingen toe en bewerk de tekst van de e-mail. Zie [Afbeeldingen invoegen](../../designing/using/images.md#inserting-images).
 1. Pas uw e-mail aan door personaliseringsgebieden, verbindingen, etc. toe te voegen. Zie [Een aanpassingsveld invoegen](../../designing/using/personalization.md#inserting-a-personalization-field), [Een koppeling invoegen](../../designing/using/links.md#inserting-a-link) en [Dynamische inhoud in een e-mail definiëren](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. Bepaal de onderwerpregel van uw e-mail. Zie [De onderwerpregel van een e-mail aanpassen](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. Een voorvertoning van uw e-mail bekijken.
+1. Bekijk uw e-mail.
 1. Sla de inhoud op en voer het bericht verder nadat u hebt bepaald dat u een publiek hebt gedefinieerd en het verzenden op de juiste wijze hebt gepland.
 
 U kunt dit ook controleren [inleidende video](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).

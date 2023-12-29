@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 5%
+source-wordcount: '1277'
+ht-degree: 3%
 
 ---
 
@@ -128,7 +128,7 @@ Volg onderstaande stappen om inhoud op te halen tijdens het voorbereiden:
 
 1. Als u een voorvertoning wilt weergeven van de URL-inhoud die is opgehaald, opent u het bericht nadat u het hebt gemaakt en klikt u op de knop **[!UICONTROL Preview]** knop.
 
-Het is mogelijk om de externe URL te personaliseren waarvan de inhoud wordt opgehaald. Volg de onderstaande stappen om dit te doen:
+Het is mogelijk om de externe URL te personaliseren waarvan de inhoud wordt opgehaald. Hiervoor voert u de volgende stappen uit:
 
 1. Klik op het e-maillabel boven op het scherm om naar de e-mailontwerper te gaan **[!UICONTROL Properties]** tab.
 1. Zoek de **[!UICONTROL Remote URL]** veld.

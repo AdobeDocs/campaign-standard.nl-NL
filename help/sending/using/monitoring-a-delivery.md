@@ -12,7 +12,7 @@ exl-id: ddc92077-df73-411d-a161-3263581e6945
 source-git-commit: ed60bde4785da9a8cc5a6cc0efcdb24e2c1f65e3
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 82%
+ht-degree: 78%
 
 ---
 
@@ -55,7 +55,7 @@ Er zijn verschillende manieren om een levering te controleren en de impact ervan
 
 ## Leveringslogboeken {#delivery-logs}
 
-### Verzendlogboeken {#sending-logs}
+### Logboeken verzenden {#sending-logs}
 
 Op het tabblad **[!UICONTROL Sending logs]** vindt u een geschiedenis van elke keer dat deze levering heeft plaatsgevonden. De lijst met verzonden berichten en hun status is hier opgeslagen. Op dit tabblad kunt u de leveringsstatus voor elke ontvanger bekijken.
 
@@ -81,7 +81,7 @@ Op het tabblad **[!UICONTROL Exclusion logs]** worden alle berichten weergegeven
 
 ![](assets/sending_delivery4.png)
 
-### Uitsluitingsoorzaken {#exclusion-causes}
+### Uitsluiting veroorzaakt {#exclusion-causes}
 
 Het tabblad **[!UICONTROL Exclusion causes]** toont het aantal berichten dat van de verzending is uitgesloten.
 

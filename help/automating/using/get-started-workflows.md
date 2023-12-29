@@ -1,5 +1,5 @@
 ---
-title: Aan de slag met processen en data management
+title: Aan de slag met processen en gegevensbeheer
 description: Automatiseer processen met workflows, beheer gegevens en doelgroepen, verzend berichten, en meer.
 audience: automating
 content-type: reference
@@ -10,12 +10,12 @@ level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 15%
+source-wordcount: '548'
+ht-degree: 8%
 
 ---
 
-# Aan de slag met processen en data management {#get-started-processes-data-management}
+# Aan de slag met processen en gegevensbeheer {#get-started-processes-data-management}
 
 <table>
 <tr>
@@ -91,7 +91,7 @@ Meer informatie:
 * [Gegevens importeren en exporteren](../../automating/using/about-data-import-and-export.md)
 * [Gebruiksscenario: aangepaste bronnen exporteren en importeren](../../automating/using/exporting-importing-custom-resources.md)
 
-## Aanvullende bronnen
+## Verdere bronnen
 
 * [Zelfstudievideo&#39;s over processen en gegevensbeheer](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=nl)
 * [Technische workflows](../../administration/using/technical-workflows.md)

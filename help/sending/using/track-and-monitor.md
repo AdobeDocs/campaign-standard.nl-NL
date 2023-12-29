@@ -11,16 +11,16 @@ level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 4%
+source-wordcount: '433'
+ht-degree: 3%
 
 ---
 
-# Bijhouden en bewaken {#track-and-monitor}
+# Track en monitor {#track-and-monitor}
 
 Hebt u op de knop Verzenden geklikt? Laten we eens kijken wat er gebeurt. Zodra de levering wordt verzonden, laat Adobe Campaign u toe om spoor van de verzonden berichten te houden en te ontdekken hoe uw ontvangers op uw levering reageren. Op deze manier kunt u uw volgende campagnes beter verzenden en optimaliseren.
 
-## Leveringen controleren {#monitoring-deliveries}
+## Bewaking van leveringen {#monitoring-deliveries}
 
 Om uw campagnes te controleren, moet u ervoor zorgen dat het bericht inderdaad aan uw ontvangers is geleverd.
 

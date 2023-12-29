@@ -11,17 +11,17 @@ exl-id: af849377-686f-45b3-bf6e-5069a8966987
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # Een landingspagina testen en publiceren{#testing-publishing--landing-page}
 
-## De publicatie van een landingspagina {#about-landing-page-publication}
+## Publicatie van bestemmingspagina {#about-landing-page-publication}
 
 Voordat u een landingspagina publiceert, moet u tests uitvoeren: valideer de uitvoering, configureer de toegang en stel het einde van de levensduur van de landingspagina in. Deze stappen zijn vereist en moeten voorzichtig worden uitgevoerd.
 
-## De landingspagina testen {#testing-the-landing-page-}
+## De bestemmingspagina testen {#testing-the-landing-page-}
 
 Aangezien de landingspagina uw platform en data zal beïnvloeden, moet u de uitvoering ervan zorgvuldig testen. Dit doet u als volgt:
 
@@ -65,7 +65,7 @@ Voordat u gaat publiceren, is het met het oog op de veiligheid en platformpresta
 >
 >U kunt ook een implementatiedatum en -tijd definiëren: de landingspagina wordt dan automatisch gepubliceerd op de opgegeven datum.
 
-## Een landingspagina publiceren {#publishing-a-landing-page}
+## Een openingspagina publiceren {#publishing-a-landing-page}
 
 Wanneer u een landingspagina publiceert, wordt deze live weergegeven. De landingspagina kan dan worden geopend door uw bezoekers.
 

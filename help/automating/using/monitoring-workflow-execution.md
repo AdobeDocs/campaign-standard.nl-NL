@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d2ce702b-92d1-4b94-bd47-34ef46a8bd9f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 5%
+source-wordcount: '578'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ De ![](assets/printpreview_darkgrey-24px.png) opent het werkschemalogboek en taa
 
 De workflowgeschiedenis wordt opgeslagen voor de duur die is opgegeven in de opties voor workflowuitvoering (zie [Workflow-eigenschappen](../../automating/using/managing-execution-options.md)). Tijdens deze duur, worden alle berichten daarom bewaard, zelfs na een nieuw begin. Als u de berichten van een vorige uitvoering niet wilt opslaan, moet u de geschiedenis wissen door op de knop ![](assets/delete_darkgrey-24px.png) knop.
 
-De **[!UICONTROL Log]** bevat de uitvoeringsgeschiedenis van alle activiteiten of van alle geselecteerde activiteiten. De uitgevoerde bewerkingen en uitvoeringsfouten worden in chronologische volgorde geïndexeerd.
+De **[!UICONTROL Log]** bevat de uitvoeringsgeschiedenis van alle activiteiten of van alle geselecteerde activiteiten. De uitgevoerde bewerkingen en uitvoeringsfouten worden chronologisch geïndexeerd.
 
 ![](assets/wkf_execution_4.png)
 

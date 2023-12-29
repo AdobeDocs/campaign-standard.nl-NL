@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: 6c96a5d294c6e96d20571d176898290c9c026f0b
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 89%
+source-wordcount: '1596'
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,7 @@ Een beheerder moet een of meer externe accounts configureren in het menu **[!UIC
 
 De stappen voor het maken en wijzigen van een extern account worden beschreven in de sectie [Externe accounts](../../administration/using/external-accounts.md). Hieronder vindt u de parameters die specifiek zijn voor externe accounts bij het verzenden van sms-berichten.
 
-## Een sms-routering bepalen {#defining-an-sms-routing}
+## Het bepalen van een Verpletteren van SMS {#defining-an-sms-routing}
 
 >[!IMPORTANT]
 >
@@ -70,9 +70,9 @@ Als u het SMPP-protocol wilt gebruiken, kunt u ook een nieuw extern account make
 
 U kunt nu uw nieuwe routering gebruiken om sms-berichten te verzenden met Adobe Campaign.
 
-## Sms-codering en -indelingen {#sms-encoding-and-formats}
+## SMS-codering en -indelingen {#sms-encoding-and-formats}
 
-### Sms-codering, -lengte en -transliteratie {#sms-encoding--length-and-transliteration}
+### SMS-codering, -lengte en -transliteratie {#sms-encoding--length-and-transliteration}
 
 Standaard voldoet het aantal tekens in een sms aan de gsm-standaarden (Global System for Mobile Communications).
 
@@ -99,7 +99,7 @@ Standaard is transliteratie van tekens uitgeschakeld. Als u alle tekens in uw sm
 
 Als uw sms-berichten echter veel tekens bevatten die Unicode-berichten genereren, kunt u deze optie inschakelen om de kosten voor het verzenden van uw berichten te beperken.
 
-### Tabel met tekens - gsm-standaard {#table-of-characters---gsm-standard}
+### Tekenlijst - GSM-standaard {#table-of-characters---gsm-standard}
 
 In deze sectie vindt u de tekens die in aanmerking worden genomen door de gsm-standaard. Alle tekens die in de hoofdtekst van het bericht worden ingevoegd, met uitzondering van de onderstaande tekens, converteren het volledige bericht naar de binaire indeling (Unicode) en beperken het tot 70 tekens. Raadpleeg de sectie [Sms-codering, -lengte en -transliteratie](#sms-encoding--length-and-transliteration) voor meer informatie.
 
@@ -315,13 +315,13 @@ Met de functionaliteit **[!UICONTROL Define a specific mapping of encodings]** k
 
   ![](assets/sms_data_coding1.png)
 
-### Automatisch antwoord verzonden naar het MO-bericht {#automatic-reply-sent-to-the-mo}
+### Automatisch antwoord verzonden aan de MO {#automatic-reply-sent-to-the-mo}
 
 Wanneer een profiel op een SMS-bericht reageert dat via Campagne is verzonden, kunt u berichten configureren die automatisch naar hen worden teruggestuurd, evenals de actie die moet worden uitgevoerd.
 
 Raadpleeg [deze sectie](../../channels/using/managing-incoming-sms.md) voor meer informatie.
 
-## Sms-eigenschappen configureren {#configuring-sms-properties}
+## Eigenschappen van SMS configureren {#configuring-sms-properties}
 
 In deze sectie vindt u de lijst met parameters die uniek zijn voor sms in het eigenschappenscherm van een sms-levering of een sms-sjabloon.
 

@@ -12,7 +12,7 @@ exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 36%
+ht-degree: 30%
 
 ---
 
@@ -40,7 +40,7 @@ Definieer een testprofiel dat aan uw gebeurtenis wordt gekoppeld. Hiermee kunt u
 
    ![](assets/message-center_5.png)
 
-U kunt ook een nieuw testprofiel maken of een profiel gebruiken dat al in het menu **[!UICONTROL Test profiles]** staat. Dit doet u als volgt:
+U kunt ook een nieuw testprofiel maken of een profiel gebruiken dat al bestaat in het dialoogvenster **[!UICONTROL Test profiles]** -menu. Dit doet u als volgt:
 
 1. Klik op de knop **Adobe** logo, in de linkerbovenhoek, en selecteer **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
 1. In de **[!UICONTROL Event]** selecteert u de gebeurtenis die u zojuist hebt gemaakt. In dit voorbeeld selecteert u Cart abandonment (EVTcartAbandonment).

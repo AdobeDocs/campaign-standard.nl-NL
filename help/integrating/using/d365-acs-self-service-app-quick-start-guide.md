@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 2%
+source-wordcount: '1079'
+ht-degree: 1%
 
 ---
 
@@ -37,7 +37,7 @@ U moet Microsoft Dynamics 365 en Adobe Campaign Standard zodanig configureren da
 
 Meer informatie vindt u in de volgende secties:
 
-* [De integratie van Microsoft Dynamics 365 voor Campaign configureren](../../integrating/using/d365-acs-configure-d365.md)
+* [Microsoft Dynamics 365 configureren voor integratie van campagnes](../../integrating/using/d365-acs-configure-d365.md)
 * [Adobe I/O configureren](../../integrating/using/d365-acs-configure-adobe-io.md)
 * [Aangepaste bronnen voor campagne toewijzen en aangepaste entiteiten voor Microsoft Dynamics 365](../../integrating/using/d365-acs-notices-and-recommendations.md)
 

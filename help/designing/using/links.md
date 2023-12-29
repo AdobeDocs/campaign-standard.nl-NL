@@ -69,7 +69,7 @@ Wanneer u een e-mailbericht bewerkt met de [E-mailDesigner](../../designing/usin
 
 **Verwante onderwerpen**:
 
-* [Een personalisatieveld invoegen](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Een aanpassingsveld invoegen](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Inhoudsblokken toevoegen](../../designing/using/personalization.md#adding-a-content-block)
 * [Dynamische inhoud definiëren](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 

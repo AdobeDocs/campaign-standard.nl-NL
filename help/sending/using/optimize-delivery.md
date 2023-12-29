@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 7%
+source-wordcount: '727'
+ht-degree: 4%
 
 ---
 
@@ -42,7 +42,7 @@ Om levering te optimaliseren wanneer het behandelen van e-mails in grote volumes
 
 **Tip**: Gebruik een transparant adres van de afzender dat overeenkomt met de website van uw merk. Het bedrijf TravelAgency beheert bijvoorbeeld de hotelketen Valentino. Zijn bezit het valentino.com domein voor zijn website. Om het hotel Valentino in Parijs te promoten, gebruikt het subdomein paris.valentino.com. Daarom kan een relevant afzenderadres hotel@paris.valentino.com zijn.
 
-## Afleverbaarheidsbeheer {#deliverability-management}
+## Leverbaarheidsbeheer {#deliverability-management}
 
 Om uw ontvangers&#39; te bereiken inbox zonder te stuiteren of als spam worden gemerkt, moet u het leverbaarheidstarief van uw berichten verbeteren.
 
@@ -64,7 +64,7 @@ Wanneer u e-mailberichten op een nieuw platform gaat verzenden, kunt u een lijst
 
 **Tips**
 
-* De ontvangers de waarvan adressen in quarantined zijn uitgesloten door gebrek tijdens de leveringsanalyse: zij worden niet gericht. Hierdoor wordt de levering versneld, omdat het foutenpercentage een belangrijk effect heeft op de leveringssnelheid. Een e-mailadres kan in quarantaine worden geplaatst bijvoorbeeld wanneer inbox volledig is of als het adres niet bestaat. [Meer informatie](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
+* De ontvangers de waarvan adressen in quarantined zijn uitgesloten door gebrek tijdens de leveringsanalyse: zij worden niet gericht. Dit zal leveranties versnellen, aangezien het foutenpercentage een significant effect op leveringssnelheid heeft. Een e-mailadres kan in quarantaine worden geplaatst bijvoorbeeld wanneer inbox volledig is of als het adres niet bestaat. [Meer informatie](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses)
 
 * Adobe Campaign beheert onjuiste adressen op basis van het type geretourneerde fout. Raadpleeg [deze sectie](../../sending/using/understanding-quarantine-management.md) voor meer informatie.
 

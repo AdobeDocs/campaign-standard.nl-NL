@@ -12,7 +12,7 @@ exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 74%
+ht-degree: 70%
 
 ---
 
@@ -39,7 +39,7 @@ Doelgroepen kunnen worden gedefinieerd bij het maken van het bericht via de wiza
 
 1. Definieer het belangrijkste **[!UICONTROL Target]** van de e-mail. Dit is de gebruikelijke doelgroep van de e-mail.
 
-   Het doel wordt gedefinieerd op het tabblad **[!UICONTROL Target]** en bestaat uit geïdentificeerde profielen uit uw database. U kunt het hoofddoel instellen met de functies van de [query-editor](../../automating/using/editing-queries.md#creating-queries).
+   Het doel wordt gedefinieerd in het dialoogvenster **[!UICONTROL Target]** en bestaat uit geïdentificeerde profielen uit uw database. U kunt het hoofddoel instellen met de functies van de [query-editor](../../automating/using/editing-queries.md#creating-queries).
 
    Op dit tabblad bevat het palet **[!UICONTROL Shortcuts]** alleen vooraf gedefinieerde filters en de doelgroepen die in de geïdentificeerde profielen zijn gedefinieerd. Op het tabblad **[!UICONTROL Explorer]** hebt u toegang tot aanvullende configuraties.
 

@@ -11,7 +11,7 @@ exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 14%
+ht-degree: 11%
 
 ---
 
@@ -23,7 +23,7 @@ De specifieke informatie over om elk communicatiekanaal tot stand te brengen en 
 
 * [Een e-mail maken](../../channels/using/creating-an-email.md)
 * [SMS maken](../../channels/using/creating-an-sms-message.md)
-* [Een direct-maillevering maken](../../channels/using/creating-the-direct-mail.md)
+* [Een directe postbezorging maken](../../channels/using/creating-the-direct-mail.md)
 * [Een pushmelding maken](../../channels/using/preparing-and-sending-a-push-notification.md).
 * [Een in-app-bericht voorbereiden en verzenden](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
@@ -50,7 +50,7 @@ Er zijn verschillende soorten publiek beschikbaar:
 
 ![](assets/steps-audience.png)
 
-## Content ontwerpen en aanpassen
+## Inhoud ontwerpen en aanpassen
 
 In de **[!UICONTROL Content]** de inhoud van uw bericht blokkeren, ontwerpen en aanpassen met behulp van velden uit uw database. Raadpleeg de secties boven aan deze pagina voor meer informatie over het ontwerpen van inhoud voor een specifiek kanaal.
 

@@ -11,7 +11,7 @@ exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 48%
+ht-degree: 33%
 
 ---
 
@@ -50,12 +50,12 @@ U kunt gegevens selecteren met behulp van de volgende activiteiten:
 
 Met Adobe Campaign kunt u sets van binnenkomende gegevens verwerken. U kunt dus meerdere populaties combineren, een deel ervan uitsluiten of gegevens alleen gemeenschappelijk houden voor verschillende doelen.
 
-* Met de activiteit **[!UICONTROL Union]** kunt u het resultaat van meerdere activiteiten hergroeperen in één doel. Zie de [Unie](../../automating/using/union.md) sectie.
-* Met de activiteit **[!UICONTROL Intersection]** kunt u alleen de elementen behouden die de verschillende binnenkomende populaties in de activiteit gemeenschappelijk hebben. Zie de [Intersectie](../../automating/using/intersection.md) sectie.
-* Met de activiteit **[!UICONTROL Exclusion]** kunt u elementen uit één populatie uitsluiten op basis van bepaalde criteria. Zie de [Uitsluiting](../../automating/using/exclusion.md) sectie.
-* Met de activiteit **[!UICONTROL Segmentation]** kunt u een of meer segmenten maken van een populatie die wordt berekend door activiteiten die eerder in de workflow zijn geplaatst. Aan het eind van de activiteit kunnen zij in één enkele overgang of verschillende overgangen worden verwerkt. Zie de [Segmentering](../../automating/using/segmentation.md) sectie.
+* De **[!UICONTROL Union]** de activiteit staat u toe om het resultaat van veelvoudige activiteiten in één enkel doel te hergroeperen. Zie de [Unie](../../automating/using/union.md) sectie.
+* De **[!UICONTROL Intersection]** Met activiteit kunt u alleen de elementen behouden die de verschillende binnenkomende populaties gemeen hebben. Zie de [Intersectie](../../automating/using/intersection.md) sectie.
+* De **[!UICONTROL Exclusion]** op basis van bepaalde criteria kunt u elementen uitsluiten van één populatie. Zie de [Uitsluiting](../../automating/using/exclusion.md) sectie.
+* Met de activiteit **[!UICONTROL Segmentation]** kunt u een of meer segmenten maken van een populatie die wordt berekend door activiteiten die eerder in de workflow zijn geplaatst. Aan het eind van de activiteit, kunnen zij in één enkele overgang of verschillende overgangen worden verwerkt. Zie de [Segmentering](../../automating/using/segmentation.md) sectie.
 
-## Data verrijken {#enriching-data}
+## Gegevens worden verrijkt {#enriching-data}
 
 De geïdentificeerde en verzamelde gegevens kunnen worden verrijkt, geaggregeerd en gemanipuleerd om de doelconstructie te optimaliseren. U kunt doelprocessen vereenvoudigen en optimaliseren door gegevens op te nemen die niet in de datamarkt zijn gemodelleerd.
 

@@ -1,6 +1,6 @@
 ---
 title: Gegevensupdate met afstemming
-description: In het volgende voorbeeld ziet u een workflow die een doelgroep van profielen rechtstreeks maakt op basis van een geïmporteerd bestand dat nieuwe klanten bevat.
+description: In het volgende voorbeeld ziet u een workflow die een publiek van profielen rechtstreeks maakt vanuit een geïmporteerd bestand dat nieuwe clients bevat.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -12,7 +12,7 @@ exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 67%
+ht-degree: 52%
 
 ---
 

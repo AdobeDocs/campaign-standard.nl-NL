@@ -12,7 +12,7 @@ exl-id: d430d0e7-1201-49c6-aad3-a2c03d02290c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ De editor voor sms- en pushcontent bestaat uit twee verschillende secties waarme
 1. De **actiebalk** bevat de algemene opties voor de pagina. Via deze balk kunt u personalisatievelden of contentblokken invoegen, voorwaardelijke tekst toevoegen en een voorvertoning van uw sms-content bekijken. Zie [Actiebalk van de editor voor sms- en pushcontent](#sms-and-push-content-editor-action-bar).
 1. In de **bewerkingszone** van het scherm kunt u direct uw tekstbericht invoeren en selecteren waar u personalisatie wilt invoegen. Zie [Modi voor het bewerken van sms- en pushcontent](#sms-and-push-content-edition-modes).
 
-## Actiebalk van de editor voor sms- en pushcontent {#sms-and-push-content-editor-action-bar}
+## Handelingenbalk voor SMS- en push-inhoud {#sms-and-push-content-editor-action-bar}
 
 De actiebalk bevat verschillende knoppen die u kunt gebruiken om te werken met de content die wordt gemaakt.
 
@@ -82,7 +82,7 @@ De actiebalk bevat verschillende knoppen die u kunt gebruiken om te werken met d
  </tbody> 
 </table>
 
-## Modi voor het bewerken van sms- en pushcontent {#sms-and-push-content-edition-modes}
+## Versiemodi voor SMS- en push-inhoud {#sms-and-push-content-edition-modes}
 
 De editor voor sms- en pushcontent biedt de volgende functies:
 

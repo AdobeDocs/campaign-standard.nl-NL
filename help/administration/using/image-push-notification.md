@@ -1,5 +1,5 @@
 ---
-title: Een afbeelding weergeven vanuit een Adobe Campaign Standard-pushmelding
+title: Een afbeelding weergeven op basis van een Adobe Campaign Standard-pushmelding
 description: Leer hier hoe u een afbeelding kunt weergeven via een Adobe Campaign-pushmelding op een iOS-apparaat
 audience: channels
 feature: Instance Settings
@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 18%
+source-wordcount: '414'
+ht-degree: 12%
 
 ---
 
@@ -35,12 +35,12 @@ Als u pushberichten wilt verzenden met een SDK-toepassing voor Experiencen Cloud
 
 Als u uw pushmelding wilt verfijnen, kunt u in Adobe Campaign een aantal geavanceerde opties gebruiken tijdens het ontwerpen van de melding.
 
-1. Een pushmelding maken. Raadpleeg [deze pagina](../../channels/using/preparing-and-sending-a-push-notification.md) voor meer informatie.
+1. Maak een pushmelding. Raadpleeg [deze pagina](../../channels/using/preparing-and-sending-a-push-notification.md) voor meer informatie.
 
 1. Via de inhoudspagina van uw pushmelding kunt u de **[!UICONTROL Advanced options]** sectie.
 
 1. Voer de URL van het bestand in het dialoogvenster **[!UICONTROL Rich media content URL]** veld.
-Voor iOS 10 of hoger kunt u afbeeldings-, GIF-, audio- en videobestanden invoegen.
+Voor iOS 10 of hoger kunt u afbeeldings-, gif-, audio- en videobestanden invoegen.
 
    ![](assets/push_notif_advanced_6.png)
 

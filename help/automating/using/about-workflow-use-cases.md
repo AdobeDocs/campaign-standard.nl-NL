@@ -10,7 +10,7 @@ exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 72%
+ht-degree: 69%
 
 ---
 
@@ -35,7 +35,7 @@ Ze helpen u de verschillende contexten te ontdekken waarin workflows kunnen word
 * [Een e-mail met aanvullende gegevens personaliseren](../../automating/using/personalizing-email-with-additional-data.md)
 * [Een terugkerende pushmelding verzenden](../../automating/using/recurring-push-notifications.md)
 
-## Segmentatie en targeting {#segmentation-and-targeting}
+## Segmentering en doelgerichtheid {#segmentation-and-targeting}
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
@@ -47,7 +47,7 @@ Ze helpen u de verschillende contexten te ontdekken waarin workflows kunnen word
 * [Segmentatie volgens leeftijdsgroepen](../../automating/using/segmentation-age-groups.md)
 * [Bronnen gebruiken die niet gelijk zijn aan targetingdimensies](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
-## Data management {#management}
+## Gegevensbeheer {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 

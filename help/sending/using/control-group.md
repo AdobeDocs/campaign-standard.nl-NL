@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
 source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 98%
+source-wordcount: '1317'
+ht-degree: 95%
 
 ---
 
@@ -36,11 +36,11 @@ Voor het definiëren van een controlegroep kunt u beide methoden gebruiken.
 
 Alle profielen die deel uitmaken van de controlegroep bij de voorbereidingsstap voor levering worden uit de hoofdtarget verwijderd. Ze zullen het bericht niet meer ontvangen als het eenmaal is verzonden.
 
-## Extraheren uit de targetpopulatie {#extraction-target-population}
+## Uithalen uit de doelpopulatie {#extraction-target-population}
 
 Als u een controlegroep wilt definiëren, kunt u kiezen of u op willekeurige wijze of op basis van een sortering een percentage of een vast aantal profielen uit de targetpopulatie wilt extraheren.
 
-### Targetextractie {#target-extraction}
+### Doelextractie {#target-extraction}
 
 Definieer eerst hoe de profielen uit de target worden geëxtraheerd: **willekeurig** of op basis van een **sortering**.
 
@@ -72,7 +72,7 @@ Selecteer onder de sectie **[!UICONTROL Target extraction]** een van de volgende
 
 <!--![](assets/control-group-no-extraction.png)-->
 
-### Groottelimiet {#size-limit}
+### Groottebeperking {#size-limit}
 
 Of u nu **[!UICONTROL Random sampling]** of **[!UICONTROL Keep only the first records after sorting]** selecteert, u moet instellen hoe u het aantal profielen gaat beperken dat u uit de hoofdtarget extraheert. Voer een van de volgende handelingen uit:
 
@@ -96,7 +96,7 @@ Of u nu **[!UICONTROL Random sampling]** of **[!UICONTROL Keep only the first re
   >
   >Als u de optie **[!UICONTROL Descending sort]** uitschakelt, worden de 100 jongste profielen geëxtraheerd.
 
-## Een bepaalde populatie uitsluiten {#excluding-specific-population}
+## Exclusief een specifieke populatie {#excluding-specific-population}
 
 U kunt een controlegroep ook definiëren door een specifieke populatie van de target uit te sluiten door middel van een query.
 
@@ -116,7 +116,7 @@ De profielen die overeenkomen met het resultaat van de query, worden van de targ
 
 <!--For more on using the query editor, see the [Editing queries](../../automating/using/editing-queries.md) section.-->
 
-## Gebruiksscenario: een controlegroep instellen {#control-group-example}
+## Hoofdlettergebruik: een controlegroep instellen {#control-group-example}
 
 Hieronder ziet u een voorbeeld van het definiëren van een controlegroep via beide methoden: profielen extraheren uit de hoofdtarget en een query gebruiken om een bepaalde populatie uit te sluiten.
 
@@ -157,7 +157,7 @@ U kunt de **verzendingslogboeken** extraheren om de gedragingen van de controleg
 >
 >Om tot leveringslogboeken toegang te hebben, moet u hebben [Beheerdersrol](../../administration/using/users-management.md#functional-administrators) en deel uit te maken van de **[!UICONTROL All]** [organisatie-eenheid](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
-### De leveringslogboeken controleren {#checking-logs}
+### De leveringslogs controleren {#checking-logs}
 
 Als u wilt zien welke profielen uit de target zijn verwijderd nadat het bericht is verzonden, controleert u de **[!UICONTROL Delivery logs]**. Raadpleeg [deze sectie](../../sending/using/monitoring-a-delivery.md#delivery-logs) voor meer informatie over de leveringslogboeken en de toegang tot deze logboeken.
 
@@ -196,7 +196,7 @@ Als de levering is verzonden, kunt u de leveringslogboeken gebruiken om te filte
 
 U kunt vervolgens bijvoorbeeld de logboekdata exporteren met een **Bestand extraheren**-activiteit gevolgd door een **Bestand overdragen**-activiteit. Hierdoor kunt u in uw eigen rapportagetool de resultaten van uw campagne bij de effectieve target analyseren in vergelijking met de controlegroep. Zie [deze sectie](../../automating/using/exporting-logs.md) voor meer informatie over het exporteren van logboeken.
 
-### De controlegroep targeten {#targeting-control-group}
+### Het richten van de controlegroep {#targeting-control-group}
 
 Als u een targeting wilt uitvoeren op basis van de profielen die het bericht niet hebben ontvangen, kunt u ook de leveringslogboeken gebruiken. Volg de onderstaande stappen:
 

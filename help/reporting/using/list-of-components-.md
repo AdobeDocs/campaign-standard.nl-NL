@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 1%
+source-wordcount: '1308'
+ht-degree: 0%
 
 ---
 
@@ -38,7 +38,7 @@ In de onderstaande tabel vindt u een overzicht van de afmetingen die in rapporte
    <td> Browser waarvan het bericht werd geopend of aangeklikt.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Campaign<br /> </td> 
+   <td> Campagne<br /> </td> 
    <td> Label en id van uw campagne.<br /> </td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ In de onderstaande tabel vindt u een overzicht van de afmetingen die in rapporte
    <td> Land geregistreerd in het profiel van de ontvanger.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Levering<br /> </td> 
+   <td> Aflevering<br /> </td> 
    <td> Label en id van de levering.<br /> </td> 
   </tr> 
   <tr> 
@@ -163,7 +163,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
    <td> Percentage van e-mailberichten dat is teruggestuurd in vergelijking met verzonden e-mail.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Klik op<br /> </td> 
+   <td> Klikken<br /> </td> 
    <td> Het aantal keren dat op een inhoud is geklikt in een levering.<br /> </td> 
   </tr> 
   <tr> 
@@ -203,7 +203,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
    <td> Percentage van klikken op een aanbieding.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open<br /> </td> 
+   <td> Openen<br /> </td> 
    <td> Aantal keren dat een bericht in een levering werd geopend.<br /> </td> 
   </tr> 
   <tr> 
@@ -280,7 +280,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
    <td> Percentage pushmeldingen dat is teruggestuurd in vergelijking met verzonden pushberichten.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Klik op<br /> </td> 
+   <td> Klikken<br /> </td> 
    <td> Het aantal keren dat een pushmelding aan het apparaat is afgeleverd en door de gebruiker is aangeklikt. De gebruiker wilde het bericht bekijken, dat dan zal worden bewogen om Open het volgen te duwen, of het sluiten.<br /> </td> 
   </tr> 
   <tr> 
@@ -304,7 +304,7 @@ De lijsten hieronder geven u de lijst van metriek die in rapporten en hun defini
    <td> Het totale aantal verzonden pushberichten.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open<br /> </td> 
+   <td> Openen<br /> </td> 
    <td> Het totale aantal pushberichten dat aan het apparaat is geleverd en waarop gebruikers hebben geklikt om de app te openen. Dit is gelijkaardig aan de Duw klikt behalve zal een Duw Open niet teweeggebracht worden als het bericht werd verworpen.<br /> </td> 
   </tr> 
   <tr> 

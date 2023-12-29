@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1533'
 ht-degree: 4%
 
 ---
@@ -177,7 +177,7 @@ De belangrijkste stappen voor dit gebruik zijn als volgt:
 1. Een workflow maken om profielen als doel in te stellen en de nieuwsbrief te verzenden.
 1. Configureer de vervangende profielen van het bericht.
 1. Geef een voorvertoning van het bericht weer met behulp van de beoogde profielen.
-1. Verzend proeven.
+1. Proefdrukken verzenden.
 
 ### Stap 1: Maak het publiek dat u wilt gebruiken voor tests
 

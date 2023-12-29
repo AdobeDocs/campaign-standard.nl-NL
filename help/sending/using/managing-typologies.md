@@ -12,13 +12,13 @@ exl-id: 10bd4e4f-78b4-4318-bded-4cf33b466f1d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # Typologieën beheren {#managing-typologies}
 
-## Typologieën {#about-typologies}
+## Over typologieën {#about-typologies}
 
 Typologieën zijn reeksen regels waarmee u de geldigheid van uw bericht kunt controleren alvorens het te verzenden. Bijvoorbeeld: de content van het bericht is niet leeg, er is een uitschrijving, uitsluiting van duplicaten enzovoort.
 

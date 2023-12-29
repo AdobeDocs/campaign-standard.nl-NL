@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 93%
+source-wordcount: '1765'
+ht-degree: 90%
 
 ---
 
@@ -29,7 +29,7 @@ Deze activiteit maakt gebruikt van de tool Query-editor. Deze tool wordt gedetai
 **Verwante onderwerpen:**
 
 * [Voorbeelden van query’s](../../automating/using/query-samples.md)
-* [Gebruiksscenario: Retargeting van een workflow om een nieuwe levering te zenden naar personen die het bericht niet hebben geopend](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Gebruik hoofdletters/kleine letters: opnieuw rangschikken workflow om een nieuwe levering naar niet-openers te verzenden](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## Gebruikscontext {#context-of-use}
 
@@ -67,7 +67,7 @@ De activiteit **[!UICONTROL Query]** kan voor diverse doeleinden worden gebruikt
 
 1. Bevestig de configuratie van uw activiteit en sla de workflow op.
 
-## Targetingdimensies en bronnen {#targeting-dimensions-and-resources}
+## Doeldimensies en bronnen {#targeting-dimensions-and-resources}
 
 Met targetingdimensies en bronnen definieert u de elementen waarop een query wordt gebaseerd om de target van een levering te bepalen.
 
@@ -99,11 +99,11 @@ Voorbeeld van beschikbare filters voor de bron **[!UICONTROL Deliveries (deliver
 
 ![](assets/targeting_dimension5.png)
 
-Standaard worden de targetingdimensie en bron ingesteld om profielen te targetten. Maar soms is het handig om een andere bron te gebruiken dan de targetingdimensie als u wilt zoeken naar een specifieke record in een verafgelegen tabel.
+Standaard worden de doeldimensie en -bron ingesteld op doelprofielen. Maar soms is het handig om een andere bron te gebruiken dan de targetingdimensie als u wilt zoeken naar een specifieke record in een verafgelegen tabel.
 
 Raadpleeg het volgende gebruiksgeval voor meer informatie: [Bronnen gebruiken die verschillen van doelgerichte dimensies](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
-## Data verrijken {#enriching-data}
+## Gegevens worden verrijkt {#enriching-data}
 
 Op het tabblad **[!UICONTROL Additional data]** van de activiteiten **[!UICONTROL Query]**, **[!UICONTROL Incremental query]** en **[!UICONTROL Enrichment]** kunt u de getargete data verrijken en voor gebruik overdragen naar de volgende workflowactiviteiten. U kunt met name het volgende toevoegen:
 
@@ -201,7 +201,7 @@ Merk op: als u sortering op het aggregaat moet toepassen, moet u nulwaarden wegf
 1. Raadpleeg de sectie [Aanvullende data sorteren](#sorting-additional-data).
 1. Selecteer **[!UICONTROL Confirm]** om de verzameling toe te voegen.
 
-### Toegevoegde data filteren {#filtering-added-data}
+### Toegevoegde gegevens filteren {#filtering-added-data}
 
 Wanneer u een aggregaat of verzameling toevoegt, kunt u een extra filter opgeven om het aantal data te beperken dat u wilt weergeven.
 
@@ -209,7 +209,7 @@ Als u bijvoorbeeld alleen de verzamelingsregels van transacties met bedragen van
 
 ![](assets/enrichment_filter_data.png)
 
-### Aanvullende data sorteren {#sorting-additional-data}
+### Extra gegevens sorteren {#sorting-additional-data}
 
 Wanneer u een aggregaat of verzameling toevoegt aan de data van een query, kunt u opgeven of u een sortering wilt toepassen (oplopend of aflopend). Dit kan op basis van de waarde van het veld of de gedefinieerde expressie.
 
@@ -217,7 +217,7 @@ Als u bijvoorbeeld alleen de transactie wilt opslaan die het laatst door een pro
 
 ![](assets/enrichment_sort_data.png)
 
-### De getargete data filteren op basis van aanvullende data {#filtering-the-targeted-data-according-to-additional-data}
+### De doelgegevens filteren op basis van aanvullende gegevens {#filtering-the-targeted-data-according-to-additional-data}
 
 Als u eenmaal aanvullende data hebt toegevoegd, wordt een nieuw tabblad **[!UICONTROL Output filtering]** weergegeven in **[!UICONTROL Query]**. Op dit tabblad kunt u een extra filter toepassen op de data die oorspronkelijk zijn getarget op het tabblad **[!UICONTROL Target]** door de toegevoegde data erbij te betrekken.
 

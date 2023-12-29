@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 17%
+source-wordcount: '947'
+ht-degree: 15%
 
 ---
 
@@ -50,7 +50,7 @@ Als u een terugkerende levering zonder aggregatieperiode gebruikt, kunt u om bev
 
 ## Berichtindicatoren {#message-indicators}
 
-Zodra het bericht is verzonden naar de contacten, toont het vak **[!UICONTROL Deployment]** uw KPI-data (Key Performance Indicator), waaronder:
+Zodra het bericht wordt verzonden naar de contacten, **[!UICONTROL Deployment]** de streek toont uw KPIs (Zeer belangrijke Indicator van Prestaties) gegevens, die omvatten:
 
 * Het aantal te leveren berichten
 * Het aantal verzonden berichten

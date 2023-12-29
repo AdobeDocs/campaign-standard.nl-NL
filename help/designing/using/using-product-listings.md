@@ -1,5 +1,5 @@
 ---
-title: Productvermeldingen gebruiken in een transactiebericht
+title: Productaanbiedingen in een transactiebericht gebruiken
 description: Leer hoe je productaanbiedingen in een transactiebericht gebruikt.
 audience: designing
 content-type: reference
@@ -11,12 +11,12 @@ level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 79%
+source-wordcount: '844'
+ht-degree: 77%
 
 ---
 
-# Productvermeldingen gebruiken in een transactiebericht {#using-product-listings}
+# Productaanbiedingen in een transactiebericht gebruiken {#using-product-listings}
 
 >[!IMPORTANT]
 >
@@ -32,7 +32,7 @@ U kunt ook [deze set video&#39;s](https://experienceleague.adobe.com/docs/campai
 >
 >Adobe Campaign biedt geen ondersteuning voor geneste productvermeldingen. Dit betekent dat u geen productvermeldingen in een andere vermelding kunt opnemen.
 
-## Een productvermelding definiëren {#defining-a-product-listing}
+## Een productlijst definiëren {#defining-a-product-listing}
 
 Voordat u een productvermelding in een transactiebericht kunt gebruiken, moet u op gebeurtenisniveau de lijst met producten en de velden definiëren voor elk weer te geven product van de lijst. Ga voor meer informatie naar [Dataverzamelingen definiëren](../../channels/using/configuring-transactional-event.md#defining-data-collections).
 
@@ -74,7 +74,7 @@ Voordat u een productvermelding in een transactiebericht kunt gebruiken, moet u 
    >
    >Als u wilt dat de elementen van de lijst verticaal (**[!UICONTROL Column]**) worden weergegeven, dan wordt het maximumaantal items beperkt volgens de geselecteerde structuurcomponent (2, 3 of 4 kolommen). Zie [De e-mailstructuur bewerken](../../designing/using/designing-from-scratch.md#defining-the-email-structure) voor meer informatie over het selecteren van structuurcomponenten.
 
-## De productvermelding invullen {#populating-the-product-listing}
+## De productlijst invullen {#populating-the-product-listing}
 
 Volg onderstaande stappen om een productvermelding van de gebeurtenis die gekoppeld is aan de transactie-e-mail weer te geven.
 

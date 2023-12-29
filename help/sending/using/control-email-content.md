@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: debbc70d-4094-44c0-b7cb-c999effda1a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 8%
+source-wordcount: '787'
+ht-degree: 6%
 
 ---
 
@@ -51,7 +51,7 @@ Zie voor meer informatie [De e-mailafzender van een e-mailbericht definiëren](.
 
 Om de ervaring van uw ontvangers te verbeteren en hen open uw e-mail te maken, laat Adobe Campaign u toe om uw berichten aan te passen. Zie [deze sectie](../../designing/using/personalization.md)voor meer informatie.
 
-Om het openingstarief van uw berichten te verhogen, kunt u een verzendende tijd per ontvanger ook manueel bepalen. Elk profiel ontvangt het bericht dan op de opgegeven datum en tijd, indien mogelijk. Zie voor meer informatie [De verzendtijd optimaliseren](../../sending/using/optimizing-the-sending-time.md).
+Om het openingstarief van uw berichten te verhogen, kunt u een verzendende tijd per ontvanger ook manueel bepalen. Elk profiel ontvangt het bericht op de opgegeven datum en tijd, indien mogelijk. Zie voor meer informatie [De verzendtijd optimaliseren](../../sending/using/optimizing-the-sending-time.md).
 
 ## Koppeling en formulier uitschakelen {#opt-out}
 

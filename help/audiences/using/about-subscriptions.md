@@ -35,7 +35,7 @@ Voer de onderstaande stappen uit om een abonnementsmechanisme te maken:
 1. **Abonnementen controleren** - ontdek verscheidene manieren om abonnementen op uw dienst te controleren [in deze sectie](../../audiences/using/monitoring-subscriptions.md)
 1. **Abonnementen bevestigen** - volgen [deze zelfstudie](../../audiences/using/confirming-subscription-to-a-service.md) om een bevestigingsbericht voor een abonnement te verzenden
 
-## Aanvullende bronnen
+## Verdere bronnen
 
 * [Het geval van het gebruik: Incrementele vraag op abonnees aan de dienst](../../automating/using/incremental-query-on-subscribers.md)
 * [Hoofdlettergebruik: meerdere abonnementsstatussen bijwerken vanuit een bestand](../../automating/using/updating-subscriptions-from-file.md)

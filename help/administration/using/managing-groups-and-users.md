@@ -1,6 +1,6 @@
 ---
 title: Groepen en gebruikers beheren
-description: Leer hoe u beveiligingsgroepen maakt en gebruikers beheert
+description: Leer hoe u beveiligingsgroepen kunt maken en gebruikers kunt beheren
 audience: administration
 feature: Access Management
 role: Admin
@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 73%
+source-wordcount: '921'
+ht-degree: 70%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 73%
 
 Beveiligingsgroepen zijn groepen gebruikers die dezelfde rollen en rechten binnen uw organisatie delen.
 
-Gebruikers moeten altijd aan een beveiligingsgroep gekoppeld zijn. Hierdoor kunt u specifieke rollen en organisatie-eenheden toewijzen aan deze groepen. Als u de toegang van een gebruiker wilt beperken, voegt u de gebruiker niet toe aan de campagne **[!UICONTROL Standard Users]** groep als deze is gekoppeld aan **[!UICONTROL All]** organisatie-eenheid.
+Gebruikers moeten altijd aan een beveiligingsgroep gekoppeld zijn. Op deze manier kunt u specifieke rollen en organisatorische eenheden toewijzen aan deze instellingen. Als u de toegang van een gebruiker wilt beperken, voegt u de gebruiker niet toe aan de campagne **[!UICONTROL Standard Users]** groep als deze is gekoppeld aan **[!UICONTROL All]** organisatie-eenheid.
 
 Voor meer informatie over rollen, presenteert de lijst in de volgende pagina mogelijke verrichtingen beschikbaar volgens de rol(s) van een gebruiker: [Adobe Campaign Standard-machtigingen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 

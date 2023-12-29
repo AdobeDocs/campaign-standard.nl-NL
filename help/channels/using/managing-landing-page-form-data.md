@@ -12,7 +12,7 @@ exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '835'
-ht-degree: 15%
+ht-degree: 12%
 
 ---
 
@@ -30,7 +30,7 @@ U kunt hun toewijzing definiëren en beheren via de **[!UICONTROL Form data]** i
 
 Als u de Campagne-database naar wens wilt bijwerken, koppelt u relevante databasevelden aan invoerzone, keuzerondje of keuzelijstblokken van de landingspagina.
 
-Volg de onderstaande stappen om dit te doen:
+Hiervoor voert u de volgende stappen uit:
 
 1. Selecteer een blok in de inhoud van de bestemmingspagina.
 
@@ -74,7 +74,7 @@ Volg de onderstaande stappen om dit te doen:
 
 <!--If you choose a mandatory **[!UICONTROL Checkbox]**, make sure that it is of **[!UICONTROL Field]** type.-->
 
-## Dataopslag en afstemming{#data-storage-and-reconciliation}
+## Gegevensopslag en afstemming{#data-storage-and-reconciliation}
 
 Met de parameters voor data-afstemming definieert u hoe de data die zijn ingevoerd op de landingspagina, worden beheerd nadat ze door de gebruiker zijn verzonden.
 
@@ -96,7 +96,7 @@ Dit doet u als volgt:
 
 U kunt verschillende selectievakjes gebruiken op één bestemmingspagina om gebruikers toe te staan zich van de veelvoudige diensten te abonneren of af te melden.
 
-Volg de onderstaande stappen om dit te doen:
+Hiervoor voert u de volgende stappen uit:
 
 1. Bij het ontwerpen van de bestemmingspagina:
 

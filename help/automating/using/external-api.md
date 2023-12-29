@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2208'
 ht-degree: 93%
 
 ---
@@ -36,7 +36,7 @@ De belangrijkste kenmerken van deze activiteit zijn:
 * Mogelijkheid om een JSON-antwoord terug te krijgen, het toe te wijzen aan uitvoertabellen en stroomafwaarts door te geven aan andere workflowactiviteiten.
 * Het beheer van mislukkingen met een specifieke uitgaande overgang
 
-### Berichten over compatibiliteit met oudere versies {#from-beta-to-ga}
+### Berichten over achterwaartse compatibiliteit {#from-beta-to-ga}
 
 Met de release van Campaign Standard 20.4 zijn de beperking voor de grootte van de http-responsgegevens en de instructies voor de time-out van de reactie verlaagd om deze af te stemmen op de best practices - zie [Beperkingen en geleiders](#guardrails). Deze beveiligingswijzigingen gelden niet voor bestaande Externe API-activiteiten; daarom wordt u aangeraden bestaande Externe API-activiteiten in alle workflows te vervangen door nieuwe versies.
 
@@ -46,7 +46,7 @@ Wanneer u activiteiten voor Externe API vervangt, voegt u de nieuwe activiteit E
 >
 >U kunt niet over activiteitspecifieke koptekstwaarden heen kopiëren omdat deze binnen de activiteit gemaskeerd zijn.
 
-### Beperkingen en beveiligingen {#guardrails}
+### Beperkingen en geleiders {#guardrails}
 
 Op deze activiteit zijn de volgende beveiligingen van toepassing:
 

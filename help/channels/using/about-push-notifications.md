@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 40%
+source-wordcount: '1206'
+ht-degree: 39%
 
 ---
 
@@ -49,12 +49,12 @@ Er kunnen specifieke configuraties worden ingesteld om het gedrag van meldingen 
 * [Een pushmelding voorbereiden en verzenden](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [Een meertalige pushmelding maken](../../channels/using/creating-a-multilingual-push-notification.md)
 * [Pushmeldingenrapport](../../reporting/using/push-notification-report.md)
-* [Campaign Standard - gids voor mobiel gebruik](../../channels/using/get-started-communication-channels.md)
+* [Campaign Standard mobiele hulplijn](../../channels/using/get-started-communication-channels.md)
 
 ## Vereisten {#prerequisites}
 
 >[!NOTE]
->Als u de functie voor pushmeldingen van Campaign wilt gebruiken, moet u een geldig pushcertificaat in pem-indeling opgeven zonder wachtwoorden.
+>Als u de functie voor pushmeldingen van Campagne wilt gebruiken, moet u een geldig pushcertificaat in .pem-indeling opgeven zonder wachtwoorden.
 >
 >Als u een geldig p12-certificaat hebt, kunt u het gemakkelijk converteren naar een pem-bestand met online resources.
 
@@ -80,7 +80,7 @@ Voordat u pushmeldingen verzendt, moet u het volgende doen:
 
 Ontdek de onderstaande bronnen:
 
-* [Videotutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [Video-Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [Productdocumentatie](../../channels/using/about-push-notifications.md)
 * Configureren met AEP SDK [documentatie](../../administration/using/configuring-a-mobile-application.md)
 * [Community-pagina](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)

@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2611'
 ht-degree: 3%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 3%
 De inhoud en weergave van berichten die door Adobe Campaign worden geleverd, kunnen op verschillende manieren worden gepersonaliseerd. Deze methoden kunnen worden gecombineerd op basis van criteria die afhankelijk zijn van de profielen. In het algemeen kunt u met Adobe Campaign:
 
 * Dynamische personalisatievelden invoegen. Zie [Een personalisatieveld invoegen](#inserting-a-personalization-field).
-* Vooraf gedefinieerde personalisatieblokken invoegen. Zie [Een contentblok](#adding-a-content-block) toevoegen.
+* Vooraf gedefinieerde aanpassingsblokken invoegen. Zie [Een contentblok](#adding-a-content-block) toevoegen.
 * Pas de afzender van een e-mail aan. Zie [De afzender aanpassen](#personalizing-the-sender).
 * Pas het onderwerp van een e-mail aan. Zie [De onderwerpregel van een e-mail aanpassen](../../designing/using/subject-line.md#subject-line).
 * Voorwaardelijke content maken. Zie [Dynamische inhoud in een e-mail definiëren](#defining-dynamic-content-in-an-email).
@@ -55,7 +55,7 @@ Met Adobe Campaign kunt u een of meer URL&#39;s in uw bericht aanpassen door per
 >
 >Wanneer u een inhoudsblok selecteert, kunt u geen elementen selecteren, zoals **Koppelen aan spiegelpagina**. Dit type blokken is niet toegestaan binnen een koppeling.
 
-## Een personalisatieveld invoegen{#inserting-a-personalization-field}
+## Een aanpassingsveld invoegen{#inserting-a-personalization-field}
 
 Met Adobe Campaign kunt u een veld uit de database in uw pagina invoegen, zoals de voornaam van het profiel.
 
@@ -177,7 +177,7 @@ Raadpleeg [Targetingdimensies en resources](../../automating/using/query.md#targ
 
 **Verwante onderwerpen:**
 
-* [Een personalisatieveld invoegen](#inserting-a-personalization-field)
+* [Een aanpassingsveld invoegen](#inserting-a-personalization-field)
 * [Een inhoudsblok toevoegen](#adding-a-content-block)
 * [Dynamische inhoud in een e-mail definiëren](#defining-dynamic-content-in-an-email)
 

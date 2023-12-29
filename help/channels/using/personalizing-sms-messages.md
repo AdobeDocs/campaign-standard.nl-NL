@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 100%
+source-wordcount: '434'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ Hier bespreken we een voorbeeld van een sms-bericht met personalisatievelden dat
 >
 >Het algoritme dat automatisch de beste codering kiest, wordt onafhankelijk uitgevoerd voor elk bericht, geval voor geval. Op deze manier worden alleen de gepersonaliseerde berichten die Unicode-codering vereisen in Unicode verzonden; voor alle andere wordt GSM-codering gebruikt.
 
-## Sms-afzender {#sms-sender}
+## SMS-afzender {#sms-sender}
 
 >[!IMPORTANT]
 >

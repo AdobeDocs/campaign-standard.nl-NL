@@ -7,12 +7,12 @@ level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
 source-git-commit: b65bf28565c25072c6a95cebdb999ce38a2e2e1a
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
 
-# Problemen met API oplossen {#troubleshooting}
+# API-problemen {#troubleshooting}
 
 * **Wanneer u naar de console Adobe.io gaat, krijgt u de volgende fout: &quot;De console van de Adobe I/O is slechts beschikbaar om leden van ondernemingsrekeningen te selecteren. Als u van mening bent dat u toegang moet hebben, neemt u contact op met uw systeembeheerder.&quot;**
 

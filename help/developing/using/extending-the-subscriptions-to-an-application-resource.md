@@ -11,13 +11,13 @@ exl-id: ac9c556d-c0f6-4b33-8855-1f5f669c148f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 24%
+ht-degree: 10%
 
 ---
 
 # De lidmaatschappen uitbreiden naar een applicatiebron{#extending-the-subscriptions-to-an-application-resource}
 
-In Adobe Campaign worden data van mobiele profielkenmerken die vanaf een mobiel apparaat worden verzonden, opgeslagen in de resource **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** waardoor u de data die u van de abonnees van uw applicaties wilt verzamelen, kunt definiëren. Raadpleeg voor meer informatie over aangepaste bronnen [deze pagina](../../developing/using/key-steps-to-add-a-resource.md).
+In Adobe Campaign worden gegevens van kenmerken van mobiele apparaten opgeslagen in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** bron waarmee u de gegevens kunt definiëren die u van de abonnees van uw toepassingen wilt verzamelen. Raadpleeg voor meer informatie over aangepaste bronnen [deze pagina](../../developing/using/key-steps-to-add-a-resource.md).
 
 Deze bron kan worden uitgebreid om gegevens te verzamelen die u van het mobiele apparaat naar Adobe Campaign wilt verzenden.
 

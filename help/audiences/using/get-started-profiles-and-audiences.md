@@ -10,8 +10,8 @@ level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 22%
+source-wordcount: '591'
+ht-degree: 10%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 22%
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">Privacynaleving</a></p></td></tr>
 </table>
 
-Met Campaign-geïntegreerde klantprofielen kunt u alle interacties met klanten via alle kanalen volgen binnen één weergave, waardoor u relevante en gepersonaliseerde berichten aan uw klanten kunt leveren.
+De campagne geïntegreerde klantenprofielen staat u toe om elke interactie met klanten over alle kanalen binnen één enkele mening te volgen, toestaand u om relevante en gepersonaliseerde berichten aan uw klanten te leveren.
 
-Segmenteer uw database in doelgroepen om de target van uw marketingcampagnes te optimaliseren.
+Segmenteer uw database in publiek om het doel van uw marketingcampagnes te optimaliseren.
 
-Beheer machtigingen en toestemming van klanten door met behulp van services en landingspagina’s eenvoudige opt-in- en opt-out-mechanismen in te stellen.
+Beheer de machtigingen en toestemming van klanten met behulp van services en bestemmingspagina&#39;s voor eenvoudige opt-in- en opt-out-mechanismen.
 
 ## Segmentering en doelgerichtheid {#segmenting-targeting}
 
@@ -83,7 +83,7 @@ Meer informatie in deze [dit artikel](https://helpx.adobe.com/nl/campaign/kb/cam
 
 De privacy en de Toestemming in Campagne en hoe te om hen te beheren worden voorgesteld in [deze sectie](../../start/using/privacy.md). U zult ook beste praktijken vinden, om u met uw naleving van de Privacy te helpen wanneer het gebruiken van onze dienst.
 
-## Aanvullende bronnen
+## Verdere bronnen
 
 * [Adobe Experience Platform-doelgroepen opnemen in Campaign](../../integrating/using/ingest-aep-data.md)
 * [Werken met Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)

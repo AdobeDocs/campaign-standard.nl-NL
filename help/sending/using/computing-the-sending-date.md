@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 1%
+source-wordcount: '1026'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +51,7 @@ U kunt dit plannen met behulp van een workflow.
 
       * **2017-06-03 10:00:00+01**
       * **2017-06-04 10:00:00+01**
-      * **2017-06-05 10:00:00+01**
+      * **2017-06-05:00:00+01**
 
    * Zorg ervoor dat u de optie **[!UICONTROL Limit the population of this segment]** -optie.
 

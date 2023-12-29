@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 79eacc31-d5a2-4e13-aa0b-744d7ab7004f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 12%
+source-wordcount: '87'
+ht-degree: 10%
 
 ---
 
@@ -38,7 +38,7 @@ Raadpleeg voor meer informatie over de uitvoeringsopdrachten de [Campagnedocumen
 
 ***Voorbeeldverzoeken***
 
-* Een workflow starten.
+* Start een workflow.
 
   ```
   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \

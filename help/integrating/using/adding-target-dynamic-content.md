@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 4%
+source-wordcount: '406'
+ht-degree: 2%
 
 ---
 
@@ -28,7 +28,7 @@ Voordat u de afbeelding opent in Adobe Campaign, moet u eerst de volgende taken 
 * Een [Formuliergebaseerde ervaringscomposer](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html) activiteit, waarin u een radibox moet selecteren en verscheidene ervaringen, afhankelijk van het aantal nieuwe aanbiedingen specificeren. Voor elke ervaring moet je een van de nieuwe aanbiedingen selecteren.
 * Maak segmenten met behulp van informatie uit Adobe Campaign om ervaringen op te geven. Als u gegevens van Adobe Campaign wilt gebruiken in de selectieregels van de aanbieding, moet u de gegevens opgeven in het tekstvak in Adobe Target.
 
-1. Een e-maillevering maken.
+1. Maak een e-maillevering.
 1. Ga bij het bewerken van de inhoud van een e-mail- of landingspagina naar een afbeeldingsblok en selecteer **[!UICONTROL Dynamic image from Adobe Target]** via het contextmenu.
 
    ![](assets/tar_insert_dynamic_image.png)

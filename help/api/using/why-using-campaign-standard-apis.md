@@ -1,5 +1,5 @@
 ---
-title: Het nut van Campaign Standard-API’s?
+title: Waarom Campaign Standard-API's gebruiken?
 description: Meer informatie over Campaign Standard-API's en waarom u deze gebruikt.
 audience: developing
 content-type: reference
@@ -10,12 +10,12 @@ level: Experienced
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 3%
+source-wordcount: '472'
+ht-degree: 1%
 
 ---
 
-# Waarom Campaign Standard-API&#39;s gebruiken {#why-using-campaign-standard-apis}
+# Waarom Campaign Standard-API&#39;s worden gebruikt {#why-using-campaign-standard-apis}
 
 Adobe Campaign Standard biedt API&#39;s waarmee bestaande systemen kunnen integreren met het Campagneplatform om problemen in real-time op te lossen.
 

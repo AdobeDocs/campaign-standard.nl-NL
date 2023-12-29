@@ -1,5 +1,5 @@
 ---
-title: Campaign Standard - gids voor mobiel gebruik
+title: Campaign Standard mobiele hulplijn
 description: Meer informatie over de algemene richtlijnen voor mobiele leveringen in Adobe Campaign Standard, zoals hoe u uw mobiele toepassingen kunt configureren of pushmeldingen en In-App-berichten kunt maken.
 audience: channels
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 25%
+ht-degree: 19%
 
 ---
 
@@ -140,7 +140,7 @@ Met Adobe Campaign Standard kunt u mobiele leveringen via drie verschillende kan
   </td>
   <td>
     <div>
-    <p><strong>Een afbeelding weergeven vanuit een Adobe Campaign Standard-pushmelding</strong></p>
+    <p><strong>Een afbeelding weergeven op basis van een Adobe Campaign Standard-pushmelding</strong></p>
     </div>
     <p><a href="../../administration/using/image-push-notification.md"><strong>Meer hier</strong></a> hoe u een afbeelding weergeeft via een Adobe Campaign-pushmelding op een iOS-apparaat.</p>
     <br>
@@ -170,7 +170,7 @@ Met Adobe Campaign Standard kunt u mobiele leveringen via drie verschillende kan
 <tr>
   <td>
     <div>
-    <p><strong>Berichten van het type lokale meldingen aanpassen</strong></p>
+    <p><strong>Het type lokaal berichtbericht aanpassen</strong></p>
     </div>
     <p>Lokale meldingen kunnen alleen op een bepaald tijdstip en afhankelijk van een gebeurtenis door een app worden geactiveerd. </br><a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type"><strong>Klik hier</strong></a> voor meer informatie.</p>
     <br>

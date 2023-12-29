@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 20%
+source-wordcount: '491'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 20%
 <table>
 <tr><td><img src="assets/do-not-localize/icon_system.svg" width="60px"><p><a href="#monitoring-system">Toezicht op het systeem</a></p></td>
 <td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#moniroting-workflows">Workflows controleren</a></p></td>
-<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Leveringen controleren</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">Bewaking van leveringen</a></p></td></tr>
 </table>
 
 Campaign Standard biedt verschillende manieren om uw instanties te controleren om ervoor te zorgen dat uw systeem gezond is en uiteindelijk problemen op te lossen die kunnen optreden bij het instellen van workflows, het verzenden van leveringen, enz.
@@ -34,7 +34,7 @@ De interface van het Campaign Standard verstrekt een berichtruit die u toelaat o
 
 **Technische workflows**
 
-Technische workflows zijn bewerkingen of taken die regelmatig en volgens een planning op de server moeten worden uitgevoerd. Om ervoor te zorgen dat uw instantie gezond is en correct werkt, moet u ervoor zorgen dat zij altijd in gebruik zijn. [Meer informatie](../../administration/using/technical-workflows.md)
+Technische workflows zijn bewerkingen of taken die volgens de planning regelmatig op de server moeten worden uitgevoerd. Om ervoor te zorgen dat uw instantie gezond is en correct werkt, moet u ervoor zorgen dat zij altijd in gebruik zijn. [Meer informatie](../../administration/using/technical-workflows.md)
 
 **Configuratiescherm**
 
@@ -62,7 +62,7 @@ Met de **[!UICONTROL Licenses]** -menu, informatie over uw instanties controlere
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-**Best practices en probleemoplossing**
+**Aanbevolen werkwijzen en problemen oplossen**
 
 Volg de best practices en richtlijnen voor het oplossen van problemen bij het gebruik van workflows om de prestaties te verbeteren.
 [Meer informatie](../../automating/using/best-practices-workflows.md)
@@ -77,7 +77,7 @@ Controle van workflowlogbestanden is een belangrijke stap om uw workflows te ana
 Met Campaign Standard kunt u meldingen verzenden naar supervisors om te controleren of de workflows worden uitgevoerd en of er een fout is die uw aandacht vereist.
 [Meer informatie](../../automating/using/monitoring-workflow-execution.md#error-management)
 
-## Leveringen controleren {#monitoring-deliveries}
+## Bewaking van leveringen {#monitoring-deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 

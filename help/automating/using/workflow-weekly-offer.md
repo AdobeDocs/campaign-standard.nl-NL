@@ -12,7 +12,7 @@ exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 81%
+ht-degree: 76%
 
 ---
 
@@ -24,7 +24,7 @@ U kunt elke dinsdag een e-mail naar alle klanten sturen voor speciale aanbieding
 1. Selecteer **[!UICONTROL New Workflow]** als workflowtype en klik op **[!UICONTROL Next]**.
 1. Voer eigenschappen van de workflow in en klik op **[!UICONTROL Create]**.
 
-## Een activiteit Planner maken{#creating-a-scheduler-activity}
+## Een planningsactiviteit maken{#creating-a-scheduler-activity}
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, een [Planner](../../automating/using/scheduler.md) activiteit.
 1. Dubbelklik op de activiteit.
@@ -41,7 +41,7 @@ U kunt elke dinsdag een e-mail naar alle klanten sturen voor speciale aanbieding
 >
 >Om uw workflow in een specifieke **[!UICONTROL Time Zone]** te starten stelt u in het tabblad **[!UICONTROL Execution options]** de tijdzone voor uw planner in in het veld voor de tijdzone. Standaard is de geselecteerde tijdzone de tijdzone die is gedefinieerd in de workfloweigenschappen (zie [Een workflow maken](../../automating/using/building-a-workflow.md)).
 
-## Een queryactiviteit maken{#creating-a-query-activity}
+## Query-activiteiten maken{#creating-a-query-activity}
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** om ontvangers te selecteren, sleept u een [Query](../../automating/using/query.md) en dubbelklik erop.
 1. Sleep en zet een **[!UICONTROL Email]** neer in **[!UICONTROL Shortcuts]** > **[!UICONTROL Profile]**.
@@ -67,4 +67,4 @@ Raadpleeg [Een e-mail ontwerpen](../../designing/using/designing-from-scratch.md
 
 **Verwante onderwerpen:**
 
-* [E-mailkanaal](../../channels/using/creating-an-email.md)
+* [Email channel](../../channels/using/creating-an-email.md)

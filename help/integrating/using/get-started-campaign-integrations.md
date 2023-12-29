@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '657'
 ht-degree: 77%
 
 ---
@@ -87,7 +87,7 @@ Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, le
    <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">Op locatie gebaseerde marketingberichten verzenden met data van Campaign en Points of Interest</a> (Analytics for Mobile)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Adobe Experience Cloud-triggers<br /> </td> 
+   <td> Adobe Experience Cloud Triggers<br /> </td> 
    <td> Hiermee kunt u persoonlijke e-mails verzenden naar uw klanten in Adobe Campaign als reactie op specifieke gedragingen die door Adobe Analytics op uw website worden bijgehouden.<br /> </td> 
    <td> 
     Video <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud Triggers gebruiken in Campaign Standard</a>, <a href="../../integrating/using/abandonment-triggers-use-cases.md">Gebruiksscenario’s voor afbreking in Triggers en Campaign</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Remarketingberichten activeren op basis van siteactiviteit</a> (stap 2)

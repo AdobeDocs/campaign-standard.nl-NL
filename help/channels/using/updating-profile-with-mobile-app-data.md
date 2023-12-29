@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 3%
+source-wordcount: '1000'
+ht-degree: 2%
 
 ---
 
@@ -53,7 +53,7 @@ De toewijzing voor Profielgegevens terwijl het uitbreiden van **[!UICONTROL Subs
 
 **Verwante onderwerpen:**
 
-* [De abonnementen uitbreiden naar een applicatieresource](../../developing/using/extending-the-subscriptions-to-an-application-resource.md).
+* [De abonnementen uitbreiden naar een toepassingsbron](../../developing/using/extending-the-subscriptions-to-an-application-resource.md).
 * [Bestaande bronnen maken of uitbreiden](../../developing/using/key-steps-to-add-a-resource.md).
 
 ## Stap 2 - De workflow maken

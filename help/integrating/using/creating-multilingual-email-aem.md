@@ -1,5 +1,5 @@
 ---
-title: Een meertalige e-mail maken met de integratie van Adobe Experience Manager.
+title: Een meertalige e-mail maken met de Adobe Experience Manager-integratie.
 description: Met de Adobe Experience Manager-integratie kunt u inhoud rechtstreeks in AEM maken en later in Adobe Campaign gebruiken.
 audience: integrating
 content-type: reference
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 5%
+source-wordcount: '616'
+ht-degree: 3%
 
 ---
 
@@ -51,7 +51,7 @@ De voorwaarden zijn:
 
 1. Klikken **[!UICONTROL Complete]** dan **[!UICONTROL Newsletter review]** van de **[!UICONTROL Complete work item]** venster.
 
-1. Klik op **[!UICONTROL Complete]** en vervolgens op **[!UICONTROL Newsletter approval]**. Zodra de parameters voor inhoud en verzending zijn gedefinieerd, kunt u doorgaan met het goedkeuren, voorbereiden en verzenden van de e-mail in Adobe Campaign Standard.
+1. Klikken **[!UICONTROL Complete]** dan **[!UICONTROL Newsletter approval]**. Zodra de parameters voor inhoud en verzending zijn gedefinieerd, kunt u doorgaan met het goedkeuren, voorbereiden en verzenden van de e-mail in Adobe Campaign Standard.
 
    ![](assets/aem_acs_8.png)
 

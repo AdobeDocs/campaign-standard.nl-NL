@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 96%
+source-wordcount: '1439'
+ht-degree: 93%
 
 ---
 
@@ -48,7 +48,7 @@ Met een geluid worden gebruikers gewaarschuwd dat er een pushmelding is, zodat d
 
 De gebruiker zal dan het dupbericht en het geluid ontvangen slechts als hun telefoon niet gedempt is.
 
-## De badgewaarde vernieuwen {#refresh-the-badge-value}
+## De badwaarde vernieuwen {#refresh-the-badge-value}
 
 Een badge wordt gebruikt om het aantal nieuwe ongelezen meldingen direct op het applicatiepictogram te tonen. De badgewaarde verdwijnt zodra de gebruiker de nieuwe content in de applicatie opent of leest.
 
@@ -69,7 +69,7 @@ Wanneer een melding op een apparaat wordt ontvangen, kan de badgewaarde voor de 
 
    ![](assets/push_notif_advanced_1.png)
 
-## Een deeplink toevoegen {#add-a-deeplink}
+## Een diepkoppeling toevoegen {#add-a-deeplink}
 
 Met een deeplink kunt u gebruikers rechtstreeks naar de content in de applicatie brengen (in plaats van een webbrowserpagina te openen).
 
@@ -139,7 +139,7 @@ Dit doet u als volgt:
 
    ![](assets/push_notif_actionable_buttons.png)
 
-## Rich media content toevoegen {#add-rich-media-content}
+## Rich media-inhoud toevoegen {#add-rich-media-content}
 
 Met rich media content kunt u een betere betrokkenheid van de gebruiker bereiken. Dit houdt in dat gebruikers eerder geneigd zullen zijn om uw pushmelding te openen.
 
@@ -160,7 +160,7 @@ Rich media opnemen in de pushmelding:
 
    ![](assets/push_notif_advanced_2.png)
 
-## Het meldingsgedrag voor iOS wijzigen {#change-the-notification-behavior-for-ios}
+## Het berichtgedrag voor iOS wijzigen {#change-the-notification-behavior-for-ios}
 
 ![](assets/push_notif_advanced_5.png)
 

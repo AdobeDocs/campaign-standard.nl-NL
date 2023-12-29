@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 88%
+source-wordcount: '554'
+ht-degree: 87%
 
 ---
 
@@ -82,7 +82,7 @@ Zodra het verzenden is voltooid, kunt u het effect van uw bericht beginnen meten
 
 **Verwante onderwerpen:**
 
-* [Bewerken van content van sms-berichten en pushmeldingen](../../channels/using/about-sms-and-push-content-design.md)
+* [Informatie over SMS en push-inhoud](../../channels/using/about-sms-and-push-content-design.md)
 * [Sjablonen beheren](../../start/using/marketing-activity-templates.md)
 
 ## Video over zelfstudie {#video}

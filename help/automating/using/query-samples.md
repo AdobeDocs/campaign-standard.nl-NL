@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 76%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 90%
 
 In deze sectie worden gebruiksscenario&#39;s beschreven wanneer u een **[!UICONTROL Query]** activiteit. Voor meer informatie over het gebruik van een **[!UICONTROL Query]** activiteit, zie [deze sectie](../../automating/using/query.md).
 
-## Targeting op basis van eenvoudige profielkenmerken {#targeting-on-simple-profile-attributes}
+## Toewijzen aan eenvoudige profielkenmerken {#targeting-on-simple-profile-attributes}
 
 Het volgende voorbeeld toont een queryactiviteit die is gericht op mannen tussen 18 en 30 jaar die in Londen wonen.
 
 ![](assets/query_sample_1.png)
 
-## Targeting op basis van e-mailkenmerken {#targeting-on-email-attributes}
+## Gericht op e-mailkenmerken {#targeting-on-email-attributes}
 
 In het volgende voorbeeld ziet u een queryactiviteit die is geconfigureerd voor doelprofielen met het e-mailadresdomein &quot;orange.co.uk&quot;.
 
@@ -36,7 +36,7 @@ In het volgende voorbeeld ziet u een queryactiviteit die is geconfigureerd voor 
 
 ![](assets/query_sample_emailnotempty.png)
 
-## Targeting van profielen met vandaag als verjaardag {#targeting-profiles-whose-birthday-is-today}
+## Doelprofielen waarvan de verjaardag vandaag is {#targeting-profiles-whose-birthday-is-today}
 
 In het volgende voorbeeld ziet u een queryactiviteit die is geconfigureerd voor doelprofielen met vandaag als verjaardag.
 
@@ -48,7 +48,7 @@ In het volgende voorbeeld ziet u een queryactiviteit die is geconfigureerd voor 
 
    ![](assets/query_sample_birthday2.png)
 
-## Targeting van profielen die een specifieke levering hebben geopend {#targeting-profiles-who-opened-a-specific-delivery}
+## Doelprofielen die een specifieke levering hebben geopend {#targeting-profiles-who-opened-a-specific-delivery}
 
 Het volgende voorbeeld toont een queryactiviteit die is geconfigureerd om te filteren op profielen die de levering met het label &quot;Summer Time&quot; hebben geopend.
 
@@ -60,7 +60,7 @@ Het volgende voorbeeld toont een queryactiviteit die is geconfigureerd om te fil
 
    ![](assets/query_sample_opened2.png)
 
-## Targeting van profielen waarbij de levering om een bepaalde reden is mislukt {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
+## Doelprofielen waarvoor leveringen om een bepaalde reden zijn mislukt {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
 
 Het volgende voorbeeld toont een queryactiviteit die is geconfigureerd om te filteren op profielen waarbij de levering is mislukt omdat hun postvak vol was. Deze query is alleen beschikbaar voor gebruikers met beheerrechten die horen bij de **[!UICONTROL All (all)]** organisatie-eenheden (zie [deze sectie](../../administration/using/organizational-units.md)).
 
@@ -76,7 +76,7 @@ Het volgende voorbeeld toont een queryactiviteit die is geconfigureerd om te fil
 
    ![](assets/query_sample_failure3.png)
 
-## Targeting van profielen die in de afgelopen 7 dagen niet zijn benaderd {#targeting-profiles-not-contacted-during-the-last-7-days}
+## Doelprofielen waarmee geen contact is opgenomen in de afgelopen 7 dagen {#targeting-profiles-not-contacted-during-the-last-7-days}
 
 Het volgende voorbeeld toont een queryactiviteit die is geconfigureerd om te filteren op profielen die de afgelopen 7 dagen niet zijn benaderd.
 
@@ -92,7 +92,7 @@ Het volgende voorbeeld toont een queryactiviteit die is geconfigureerd om te fil
 
    ![](assets/query_sample_7days2.png)
 
-## Targeting van profielen die op een specifieke koppeling hebben geklikt {#targeting-profiles-who-clicked-a-specific-link-}
+## Doelprofielen die op een specifieke koppeling hebben geklikt {#targeting-profiles-who-clicked-a-specific-link-}
 
 1. Sleep het filter **[!UICONTROL Tracking logs (tracking)]** en plaats het in uw query.
 

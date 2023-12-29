@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
 source-git-commit: 2adead5903eb2710207d7aeaaa85418bd616ca5d
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 95%
+source-wordcount: '841'
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ U kunt de content, het onderwerp of de afzender van de e-mail variëren.
 >
 >A/B-tests op e-mails die zijn gemaakt in Adobe Experience Manager zijn niet mogelijk.
 
-## Een e-mail met A/B-testfunctie maken {#creating-an-a-b-test-email}
+## Een e-mail met een A/B-test maken {#creating-an-a-b-test-email}
 
 U kunt een A/B-test maken met de wizard voor het maken van standaard-e-mails waaraan een stap voor de A/B-testconfiguratie is toegevoegd. Het maken van een standaard-e-mail wordt beschreven in de sectie [Een e-mail maken](../../channels/using/creating-an-email.md).
 

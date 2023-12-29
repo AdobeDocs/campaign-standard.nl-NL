@@ -10,8 +10,8 @@ level: Beginner
 exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign Standard is een krachtige cross-channel campagne managementtool w
 
 Beheer het volledige proces van het maken, uitvoeren en volgen van cross-channel campagnes, evenals het verzenden van berichten die zijn gepersonaliseerd volgens het profiel, de gedragingen, de voorkeuren en de behoeften van klanten. U kunt het hele marketingproces niet alleen eenvoudig orkestreren, modelleren en automatiseren, maar ook integreren met andere Adobe-oplossingen.
 
-## Uw marketingdatabase vergroten {#grow-database}
+## Vergroot uw marketingdatabase {#grow-database}
 
 <img width="60px" alt="voorwaarden" src="assets/icon_segment.svg"/>
 
@@ -35,7 +35,7 @@ Met **Campaign-geïntegreerde klantprofielen** kunt u alle interacties met klant
 
 [Aan de slag met profielen en doelgroepen](../../audiences/using/get-started-profiles-and-audiences.md)
 
-## Cross-channel marketingcampagnes orkestreren {#orchestrate-campaigns}
+## Kanaaloverschrijdende marketingcampagnes ordenen {#orchestrate-campaigns}
 
 <img width="60px" alt="voorwaarden" src="assets/icon_workflows.svg"/>
 
@@ -45,7 +45,7 @@ Plan, coördineer en orkestreer cross-channel campagnes.
 
 **Gebruik workflows** om uw campagnes te orkestreren en te automatiseren. [Aan de slag met processen en data management](../../automating/using/get-started-workflows.md)
 
-## Berichten ontwerpen en verzenden {#design-send}
+## Ontwerpen en verzenden van berichten {#design-send}
 
 <img width="60px" alt="voorwaarden" src="assets/icon_send.svg"/>
 
@@ -57,7 +57,7 @@ Ontwerp en verzend berichten via online en offline communicatiekanalen, inclusie
 
 **Analyseer en controleer de content van uw berichten** voordat u ze verzendt, aan de hand van meerdere testfuncties zoals voorvertoning, proeven, e-mailonderwerpregels testen, e-mailrendering, enzovoort. Zorg ervoor dat uw berichten op het juiste ogenblik worden geleverd door de verzendtijd te optimaliseren (plannen, tijdzonebeheer). [Aan de slag met berichten testen en verzenden](../../sending/using/get-started-sending-messages.md)
 
-## De invloed van uw campagnes bijhouden {#track-impact-campaigns}
+## Houd de impact van uw campagnes bij {#track-impact-campaigns}
 
 <img width="60px" alt="voorwaarden" src="assets/icon_report.svg"/>
 
@@ -70,7 +70,7 @@ Gebruik de functie voor leveringsmeldingen om het al dan niet slagen van leverin
 
 **Gebruik dynamische rapporten** voor een samenvatting van specifieke statistieken voor uw bericht of campagne. Dynamische rapportage biedt volledig aanpasbare en realtimerapporten die toegang tot profielgegevens toevoegen, waardoor demografische analyse mogelijk wordt op basis van profieldimensies zoals geslacht, woonplaats en leeftijd. Dit in aanvulling op functionele data over de e-mailcampagne, zoals openen en klikken. Met de interface voor slepen en neerzetten kunt u data onderzoeken, bepalen hoe de e-mailcampagnes voor uw belangrijkste klantensegmenten hebben gepresteerd en hun invloed op de ontvangers meten. [Aan de slag met dynamische rapportage](../../reporting/using/about-dynamic-reports.md)
 
-## Uw platform beheren en het datamodel uitbreiden {#datamodel-apis}
+## Uw platform beheren en het gegevensmodel uitbreiden {#datamodel-apis}
 
 <img width="60px" alt="voorwaarden" src="assets/icon_admin.svg"/>
 

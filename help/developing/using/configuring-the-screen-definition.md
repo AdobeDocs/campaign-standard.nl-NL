@@ -12,7 +12,7 @@ exl-id: dc45f487-7502-478d-a2b3-51669cc6b225
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -88,7 +88,7 @@ In de sectie **[!UICONTROL Detail screen configuration]** van de schermdefinitie
 
 Het detailscherm van de resource is nu gedefinieerd.
 
-## De sectie Actions on data {#actions-on-data-section}
+## Handelingen in gegevenssectie {#actions-on-data-section}
 
 Met deze instellingen kunt u een controlebalk in het scherm van de aangepaste resource weergeven. Er zijn drie opties beschikbaar:
 

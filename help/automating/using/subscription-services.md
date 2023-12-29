@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 98%
+source-wordcount: '1116'
+ht-degree: 96%
 
 ---
 
@@ -69,7 +69,7 @@ Als deze activiteit in een bestand is opgegeven via toegewezen kolommen, kunt u 
 
    De configuratie kan nu worden uitgevoerd. Zodra deze is uitgevoerd, kunt u de profielen die zich hebben ingeschreven of uitgeschreven bij de service bekijken in de details van de service.
 
-## Voorbeeld: Profielen na het importeren van een bestand abonneren op een specifieke service {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
+## Voorbeeld: profielen abonneren op een specifieke service na het importeren van een bestand {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 In dit voorbeeld ziet u hoe u een bestand met profielen importeert en deze abonneert op een bestaande service. Nadat het bestand is geïmporteerd, moet een afstemming worden uitgevoerd, zodat de geïmporteerde data kunnen worden geïdentificeerd als profielen. Om ervoor te zorgen dat het bestand geen duplicaten bevat, wordt een ontdubbelingsactiviteit uitgevoerd op de data.
 
@@ -108,7 +108,7 @@ De workflow wordt als volgt weergegeven:
 
   ![](assets/subscription_activity_example4.png)
 
-## Voorbeeld: Meerdere abonnementsstatussen bijwerken vanuit een bestand {#example--updating-multiple-subscription-statuses-from-a-file}
+## Voorbeeld: meerdere abonnementsstatussen bijwerken vanuit een bestand {#example--updating-multiple-subscription-statuses-from-a-file}
 
 In dit voorbeeld wordt getoond hoe u een bestand met profielen kunt importeren en hun inschrijving op verschillende services die in het bestand zijn opgegeven, kunt bijwerken. Nadat het bestand is geïmporteerd, moet een afstemming worden uitgevoerd, zodat de geïmporteerde data kunnen worden geïdentificeerd als profielen met een koppeling naar services. Om ervoor te zorgen dat het bestand geen duplicaten bevat, wordt een ontdubbelingsactiviteit uitgevoerd op de data.
 

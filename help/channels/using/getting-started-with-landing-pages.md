@@ -11,7 +11,7 @@ exl-id: 8015c555-9521-478c-8669-66b9cc145887
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Op deze pagina vindt u informatie over elk van deze stappen en verwijzingen naar
 * [Een service maken](../../audiences/using/creating-a-service.md)
 * [Een dubbele opt-inprocedure instellen](setting-up-a-double-opt-in-process.md)
 
-## Beperkingen voor landingspagina{#landing-page-limitations}
+## Beperkingen op landingspagina{#landing-page-limitations}
 
 In de onderstaande sectie worden enkele beperkingen weergegeven die u moet kennen voordat u landingspagina&#39;s gaat instellen.
 
@@ -67,7 +67,7 @@ Hier is alleen het eerste profiel bijgewerkt aangezien dat de oudste vermelding 
 
 * Landingspagina&#39;s werken alleen met profielen, en niet met testprofielen. Dit betekent dat landingspagina&#39;s niet kunnen worden getest als onderdeel van een e-mailproefversie.
 
-## Stap 1 - De sjabloon voor de landingspagina configureren {#configure-the-landing-page-template}
+## Stap 1 - vorm het het landen paginamalplaatje {#configure-the-landing-page-template}
 
 Voordat u een landingspagina instelt, moet u eerst een sjabloon ervoor configureren die aan uw behoeften voldoet. Zodra de sjabloon klaar is, worden alle landingspagina&#39;s die op de sjabloon zijn gebaseerd, vooraf geconfigureerd met de gewenste parameters.
 
@@ -79,7 +79,7 @@ Raadpleeg [deze sectie](../../channels/using/getting-started-with-landing-pages.
 
 ![](assets/lp-steps1.png)
 
-## Stap 2 - De landingspagina maken en configureren {#create-and-configure-the-landing-page}
+## Stap 2 - creeer en vorm de het landen pagina {#create-and-configure-the-landing-page}
 
 Op basis van de sjabloon die in de vorige stap is gedefinieerd maakt u nu een nieuwe landingspagina in een programma of campagne.
 
@@ -94,7 +94,7 @@ Uit veiligheidsredenen en voor betere prestaties van het platform raden we u ten
 >
 >Uw wijzigingen gelden alleen voor de landingspagina die u hebt bewerkt. Als u deze wijzigingen ook op andere landingspagina&#39;s wilt toepassen, moet u ze in een specifieke sjabloon opnemen en vervolgens landingspagina&#39;s maken op basis van die sjabloon.
 
-## Stap 3 - De landingspagina ontwerpen {#design-the-landing-page}
+## Stap 3 - Ontwerp de landingspagina {#design-the-landing-page}
 
 U kunt nu de content van de landingspagina definiëren. De landingspagina bevat standaard drie pagina&#39;s die u kunt doorbladeren met behulp van pijlen: de hoofdpagina met content, een bevestigingspagina en een foutpagina.
 
@@ -106,7 +106,7 @@ U kunt ook configureren hoe de knop voor bevestiging werkt als een profiel erop 
 
 Raadpleeg [deze sectie](../../channels/using/designing-a-landing-page.md) voor meer informatie over het ontwerp van landingspagina&#39;s.
 
-## Stap 4 - De landingspagina testen {#test-the-landing-page}
+## Stap 4 - Test de landingspagina {#test-the-landing-page}
 
 Als de landingspagina eenmaal is gedefinieerd, kunt u simuleren hoe deze online wordt uitgevoerd en zich gedraagt.
 
@@ -120,7 +120,7 @@ Als u tevreden bent met de manier waarop de landingspagina functioneert, publice
 
 Raadpleeg [deze sectie](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-) voor meer informatie over het testen van een landingspagina.
 
-## Stap 5 - De landingspagina publiceren {#publish-the-landing-page}
+## Stap 5 - Publiceer de landingspagina {#publish-the-landing-page}
 
 Als de testen met succes zijn voltooid, publiceert u de landingspagina. Druk hiervoor op de knop **[!UICONTROL Publish]** op de actiebalk in het dashboard. Een controleblok geeft de voortgang en status van de publicatie aan.
 

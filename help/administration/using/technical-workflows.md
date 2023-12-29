@@ -8,8 +8,8 @@ level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 89%
+source-wordcount: '704'
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ Functionele beheerders hebben toegang tot technische workflows via het menu **[!
 
 ![](assets/technical_workflows.png)
 
-## Lijst met technische workflows {#list-of-technical-workflows}
+## Lijst van technische werkstromen {#list-of-technical-workflows}
 
 Technische workflows worden gebruikt om door uzelf geactiveerde achtergrond- en technische processen in Adobe Campaign af te handelen.
 
@@ -102,7 +102,7 @@ Technische workflows worden gebruikt om door uzelf geactiveerde achtergrond- en 
   <tr> 
    <td> <span class="uicontrol">Logboeken voor bijhouden herstellen</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
-   <td> Met deze workflow worden verloren traceringslogbestanden hersteld. Deze technische workflow wordt in specifieke omstandigheden gebruikt en beperkt tot Adobe voor intern gebruik. <br> Standaard wordt deze workflow elke 10 minuten gestart.<br /> </td> 
+   <td> Met deze workflow worden verloren traceringslogbestanden hersteld. Deze technische workflow wordt in specifieke omstandigheden gebruikt en beperkt tot Adobe voor intern gebruik. <br> Deze wordt standaard elke 10 minuten gestart.<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Uitvoering van levering bijwerken</span> <br/> </td> 

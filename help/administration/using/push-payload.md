@@ -8,8 +8,8 @@ level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 3%
+source-wordcount: '1088'
+ht-degree: 2%
 
 ---
 
@@ -206,7 +206,7 @@ Om aspecten van een android lading te begrijpen verwijs naar [Concepten en optie
 | Berichttitel <br>Bericht | alert → titel <br> waarschuwing → | titel <br>lichaam | Deze gegevens bevatten specifieke gegevens van het waarschuwingsbericht.<br>De titel en de lichaamstoetsen verstrekken de inhoud van de alarm. |
 | Geluid afspelen | geluid | geluid | Een aangepast geluid dat met de waarschuwing moet worden afgespeeld. |
 | Waarde van de badge | badge | badge | Een geheel-getalwaarde die moet worden gebruikt om het pictogram van de app aan te geven. |
-| Een deeplink toevoegen | uri | NA | Met een deeplink kunt u gebruikers rechtstreeks naar de content in de applicatie brengen (in plaats van een webbrowserpagina te openen). |
+| Een diepkoppeling toevoegen | uri | NA | Met een deeplink kunt u gebruikers rechtstreeks naar de content in de applicatie brengen (in plaats van een webbrowserpagina te openen). |
 | Categorie | categorie | categorie | Aangepaste handelingen weergeven met een extern bericht. <br>Met de categorietoets kan het systeem de handelingen voor die categorie weergeven als knoppen in de waarschuwingsinterface. |
 | Aangepaste velden | custom_field1, custom_field2.. | custom_field1, custom_field2.. | Alle aangepaste gegevens die u naar uw app wilt verzenden. |
 | URL met rijke media-inhoud (afbeeldings-, gif-, audio- en videobestanden)<br>(Alleen van toepassing voor iOS 10 of hoger) | media-gehechtheid-url | NA | URL van uw mediabestanden om rijke inhoud aan uw melding toe te voegen. <br>Wanneer u een waarde voor deze URL opgeeft, wordt de markering voor gemuteerde inhoud automatisch naar de payload verzonden. <br> (Alleen van toepassing voor iOS 10 of hoger) |

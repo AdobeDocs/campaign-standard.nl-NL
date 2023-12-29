@@ -11,14 +11,14 @@ level: Beginner
 exl-id: 3f4f9307-c65f-47bb-bc92-ce8b5d06557f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 100%
+source-wordcount: '642'
+ht-degree: 97%
 
 ---
 
 # Programma’s en campagnes{#programs-and-campaigns}
 
-## Plannen, programma’s en campagnes {#about-plans--programs-and-campaigns}
+## Informatie over plannen, programma&#39;s en campagnes {#about-plans--programs-and-campaigns}
 
 Met Adobe Campaign kunt u marketingcampagnes plannen waarin u verschillende soorten activiteiten kunt maken en beheren: e-mails, sms-berichten, pushmeldingen, workflows en landingspagina’s. Deze campagnes en hun content kunnen in programma’s worden verzameld.
 
@@ -91,7 +91,7 @@ De campagne wordt gemaakt en weergegeven. Gebruik de knop **[!UICONTROL Create]*
 
 U kunt ook een campagne maken op basis van de lijst met marketingactiviteiten. U kunt de marketingactiviteit via het eigenschappenvenster van de campagne koppelen aan een bovenliggend programma of subprogramma.
 
-## Pictogrammen en statussen van programma’s en campagnes {#programs-and-campaigns-icons-and-statuses}
+## Pictogrammen en statussen van programma&#39;s en campagnes {#programs-and-campaigns-icons-and-statuses}
 
 Alle programma’s en campagnes in de lijst hebben een visueel symbool en een pictogram waarvan de kleur de uitvoeringsstatus aangeeft. Deze status hangt af van de geldigheidsperiode van het programma of de campagne.
 

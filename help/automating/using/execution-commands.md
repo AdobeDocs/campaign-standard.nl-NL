@@ -12,7 +12,7 @@ exl-id: fddd88b1-603a-465b-b5e7-624632c0d5cd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ Met de pictogrammen op de actiebalk kunt u de uitvoering van een werkstroom star
 
 De beschikbare acties zijn als volgt:
 
-**Starten**
+**Start**
 
 De ![](assets/play_darkgrey-24px.png) start met het uitvoeren van een workflow die vervolgens de **In uitvoering** (blauw) status. Als de werkstroom is gepauzeerd, wordt deze hervat, anders wordt deze gestart en worden de initiële activiteiten geactiveerd.
 

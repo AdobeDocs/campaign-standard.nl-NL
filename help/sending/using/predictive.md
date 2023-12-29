@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
 source-git-commit: 75628ed8a2f9b21def23e5b257a3592e1a721536
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 56%
+source-wordcount: '1103'
+ht-degree: 47%
 
 ---
 
@@ -35,9 +35,9 @@ De voorspellende voorspellingen van de Optimalisatie van de Send-Time die de bes
 
 Binnen het Predictive Send-Time Optimization model, zijn er twee submodellen:
 
-* **De voorspelbare verzendtijd voor openen is de beste tijd om een bericht naar de klant te verzenden voor een maximale kans op openen.**
+* **Voorspeltijd voor open verzending** is de beste tijd een mededeling naar de klant moet worden verzonden om te maximaliseren opent
 
-* **De voorspelbare verzendtijd voor klikken is de beste tijd om een bericht naar de klant te verzenden voor een maximale kans op klikken**
+* **Tijdstip van voorspelbare verzending voor klikken** is de beste tijd een mededeling naar de klant moet worden verzonden om kliks te maximaliseren
 
 **Modelinvoer**: leveringslogboeken, logbestanden bijhouden en profielkenmerken (niet-PII)
 
@@ -80,7 +80,7 @@ De profielscores geven standaard het beste tijdstip van de dag voor elke dag van
 
 ### Berichten verzenden op het beste moment{#use-predictive-send-time}
 
-Als u de e-mails wilt laten verzenden op het optimale tijdstip per profiel, moet de levering worden gepland met de optie **[!UICONTROL Send at a custom date defined by a formula]**.
+De e-mails kunnen alleen worden verzonden op het optimale tijdstip per profiel als de levering is gepland met de optie **[!UICONTROL Send at a custom date defined by a formula]**.
 
 Leer [in deze sectie](../../sending/using/computing-the-sending-date.md) hoe u de verzenddatum berekent.
 
@@ -117,7 +117,7 @@ Dit model gebruikt meerdere scores om het volgende aan te geven:
 
 * **Betrokkenheidsscore voor openen/Betrokkenheidsscore voor klikken**: deze waarde geeft aan hoe waarschijnlijk het is dat een abonnee iets doet met een bepaald bericht (openen of klikken). Waarden kunnen variëren van 0,0 tot 1,0.
 * **Waarschijnlijkheid van afmelding**: deze waarde geeft aan hoe waarschijnlijk het is dat de ontvanger zich voor het e-mailkanaal afmeldt op basis van één geopend bericht. Waarden kunnen variëren van 0,0 tot 1,0.
-* **Retentieniveau**: met deze waarde worden gebruikers in drie niveaus ingedeeld: laag, gemiddeld en hoog. Bij een hoge waarde blijven gebruikers waarschijnlijk bij het merk, bij een lage waarde melden ze zich waarschijnlijk af.
+* **Retentieniveau**: deze waarde rangschikt gebruikers in drie niveaus: laag, gemiddeld en hoog. Bij een hoge waarde blijven gebruikers waarschijnlijk bij het merk, bij een lage waarde melden ze zich waarschijnlijk af.
 * **Percentielwaarde voor retentie**: profielrangorde in termen van kans op afmelden. Waarden kunnen variëren van 0,0 tot 1,0. Als de percentielwaarde voor retentie bijvoorbeeld 0,953 is, is er meer kans dat deze ontvanger bij het merk blijft en minder kans dat deze zich afmeldt dan bij 95,3% van alle gebruikers.
 
 >[!NOTE]
@@ -136,6 +136,6 @@ Voor toegang tot deze cijfers moet u het volgende doen:
 
 1. Klik op het tabblad **Engagement Scores for Email Channel**.
 
-Door een queryactiviteit in een workflow op te nemen kunt u de score gebruiken om uw doelgroep te optimaliseren. Een voorbeeld met de criteria voor **retentieniveau**:
+Door een vraagactiviteit in een werkschema te gebruiken, kunt u de score gebruiken om uw publiek te optimaliseren. Een voorbeeld met de criteria voor **retentieniveau**:
 
 ![](assets/do-not-localize/predictive_score_query.png)

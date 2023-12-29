@@ -11,7 +11,7 @@ exl-id: 47f53290-2190-4181-bcd5-e60287189c41
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '924'
-ht-degree: 5%
+ht-degree: 4%
 
 ---
 
@@ -45,7 +45,7 @@ U kunt ook een e-mail maken [met bestaande inhoud](#with-existing-content):
 
 U kunt eenvoudig een e-mail maken, componenten toevoegen en de inhoud aanpassen om snel een levering te verzenden. U kunt de opmaakopties desgewenst aanpassen aan uw inhoud. Zie voor meer informatie over het beheren van stijlinstellingen en inline-kenmerken [E-mailstijlen bewerken](../../designing/using/styles.md).
 
-1. Een e-mail maken.
+1. Maak een e-mail.
 1. Sluit homepage.
 
 ### Een onderwerpregel toevoegen {#add-a-subject-line}
@@ -72,7 +72,7 @@ In de componenten van de Structuur, belemmering en dalingscomponenten voor de la
 
 U kunt meerdere inhoudscomponenten aan uw e-mail toevoegen, zoals afbeeldingen, tekst en knoppen. Zie voor meer informatie [Inhoudscomponenten](../../designing/using/designing-from-scratch.md#about-content-components).
 
-* **Image**
+* **Afbeelding**
 
    1. In **Inhoudscomponenten** Sleep de afbeelding naar een van de structuurcomponenten.
    1. Klikken **Bladeren**.

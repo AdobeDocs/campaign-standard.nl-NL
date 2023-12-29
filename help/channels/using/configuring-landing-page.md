@@ -12,13 +12,13 @@ exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
 source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
 # Een landingspagina configureren {#configuring-landing-page}
 
-## Verzending van een landingspagina bevestigen {#confirm-a-landing-page-submission}
+## Verzending van een bestemmingspagina bevestigen {#confirm-a-landing-page-submission}
 
 Wanneer een landingspagina door een bezoeker wordt verzonden, kunt u de geactiveerde acties configureren. Dit doet u als volgt:
 
@@ -34,7 +34,7 @@ Wanneer een landingspagina door een bezoeker wordt verzonden, kunt u de geactive
 
    ![](assets/lp_parameters_6.png)
 
-## Een landingspagina koppelen aan een service {#linking-a-landing-page-to-a-service}
+## Een openingspagina koppelen aan een service {#linking-a-landing-page-to-a-service}
 
 U kunt een formulier koppelen aan een service, zodat profielen zich kunnen inschrijven voor een specifieke service bij het valideren van de landingspagina’s.
 
@@ -54,7 +54,7 @@ Voer de volgende stappen uit om de service die u wilt koppelen, te selecteren:
 
    Gebruik de optie **[!UICONTROL Specified service in the URL]** om toe te staan dat de landingspagina voor verschillende services wordt gebruikt. Daarom moet u naar de landingspagina verwijzen wanneer u de service configureert.
 
-## Machtigingen instellen en data vooraf laden {#setting-permissions-and-pre-loading-data}
+## Machtigingen instellen en gegevens vooraf laden {#setting-permissions-and-pre-loading-data}
 
 De toegang tot een landingspagina kan worden beperkt tot geïdentificeerde bezoekers, die afkomstig zijn van een koppeling in een bericht dat bijvoorbeeld door Campaign wordt verzonden, of tot een specifieke organisatorische eenheid.
 In het geval van geïdentificeerde bezoekers kunt u hun data vooraf in de landingspagina laden. Dit doet u als volgt:

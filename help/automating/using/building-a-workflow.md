@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 96%
+source-wordcount: '976'
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 In deze sectie worden de belangrijkste beginselen en best practice voor het maken van een nieuwe workflow beschreven.
 
-## Functioneringsprincipes van workflows{#workflow-operating-principles}
+## Operationele workflowbeginselen{#workflow-operating-principles}
 
 Een workflow is een **reeks configureerbare activiteiten**. Elke activiteit heeft een specifieke rol in het proces. Het resultaat van elke activiteit wordt doorgestuurd naar de volgende activiteit door een **overgang**, die door een pijl wordt vertegenwoordigd.
 
@@ -68,7 +68,7 @@ Het maken van een marketingactiviteit wordt gedetailleerd beschreven in de secti
 
 1. Bevestig het maken van de activiteit. Het dashboard voor die activiteit wordt dan weergegeven. Raadpleeg de sectie [Workflowinterface](../../automating/using/workflow-interface.md) voor meer informatie.
 
-1. Zodra de workflow klaar is om te worden geconfigureerd, kunt u toegang krijgen tot extra opties door op de knop **[!UICONTROL Edit properties]** te klikken.
+1. Als de workflow gereed is om te worden geconfigureerd, hebt u toegang tot extra opties door op de knop **[!UICONTROL Edit properties]** knop.
 
    U kunt bijvoorbeeld een specifieke tijdzone definiëren die standaard in alle activiteiten van de workflow moet worden gebruikt. Standaard is de tijdzone van de workflow de tijdzone die is gedefinieerd voor de huidige Campaign-operator.
 
@@ -76,7 +76,7 @@ Het maken van een marketingactiviteit wordt gedetailleerd beschreven in de secti
 
    ![](assets/workflow_properties.png)
 
-## Activiteiten toevoegen en koppelen {#adding-and-linking-activities}
+## Toevoeging en koppeling van activiteiten {#adding-and-linking-activities}
 
 U moet nu de verschillende activiteiten definiëren en deze koppelen in het diagram.
 
@@ -115,10 +115,10 @@ Bovendien is het voor de activiteiten **[!UICONTROL Targeting]** en **[!UICONTRO
 
 **Gebruiksscenario&#39;s voor workflows:**
 
-* [Gebruiksscenario: Eenmaal per week een e-maillevering maken](../../automating/using/workflow-weekly-offer.md)
-* [Gebruiksscenario: Een levering maken die is gesegmenteerd op locatie](../../automating/using/workflow-segmentation-location.md)
-* [Gebruiksscenario: Leveringen maken met een aanvulling](../../automating/using/workflow-created-query-with-complement.md)
-* [Gebruiksscenario: Retargeting van een workflow om een nieuwe levering te zenden naar personen die het bericht niet hebben geopend](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Gebruik hoofdletters/kleine letters: één keer per week een e-maillevering maken](../../automating/using/workflow-weekly-offer.md)
+* [Gebruiksscenario: een levering maken die op een locatie is gesegmenteerd](../../automating/using/workflow-segmentation-location.md)
+* [Hoofdlettergebruik: leveringen maken met een complement](../../automating/using/workflow-created-query-with-complement.md)
+* [Gebruik hoofdletters/kleine letters: opnieuw rangschikken workflow om een nieuwe levering naar niet-openers te verzenden](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## Activiteiten configureren {#configuring-activities}
 

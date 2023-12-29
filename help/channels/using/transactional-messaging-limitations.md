@@ -1,5 +1,5 @@
 ---
-title: Beperkingen voor transactionele berichten
+title: Transactionele berichtenbeperkingen
 description: Meer informatie over de belangrijkste aanbevelingen en beperkingen met betrekking tot transactieberichten in Adobe Campaign Standard.
 audience: channels
 content-type: reference
@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
 source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 67%
+source-wordcount: '756'
+ht-degree: 61%
 
 ---
 
@@ -47,16 +47,16 @@ Voor de beste prestaties kunt u ook het publiceren ongedaan maken of verwijderen
 
 ## Personalisatie {#personalization}
 
-De manier waarop u berichtcontent kunt personaliseren hangt af van het type transactiebericht. Specifieke informatie staat hieronder.
+De manier waarop u berichtcontent kunt personaliseren hangt af van het type transactiebericht. De specifieke kenmerken worden hieronder vermeld.
 
-### Transactieberichten op basis van gebeurtenissen
+### Transactieberichten die zijn gebaseerd op gebeurtenissen
 
 * De persoonlijke informatie komt uit data van de gebeurtenis zelf. Zie [Transactieberichtconfiguratie op basis van gebeurtenissen](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 * U **kan** gebruiken **[!UICONTROL Unsubscription link]** inhoud blokkeert in een bericht over een gebeurtenistransactie.
 * Het gebeurtenistransactiebericht wordt verondersteld om alleen de data in de verzendgebeurtenis zelf te gebruiken bij het bepalen van de ontvanger en de personalisatie van de berichtcontent. U kunt de content van het transactiebericht echter wel verrijken met data uit de Adobe Campaign-database. Zie [Een gebeurtenis verrijken](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) en [Een transactiebericht aanpassen](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
-* Aangezien de transactieberichten voor gebeurtenissen geen profielinformatie bevatten, zijn ze niet compatibel met &#39;moeheidsregels&#39;, zelfs in het geval van een verrijking met profielen.
+* Aangezien de berichten van de gebeurtenistransactie geen profielinformatie bevatten, zijn zij niet compatibel met vermoeidheidsregels, zelfs in het geval van een verrijking met profielen.
 
-### Transactieberichten op basis van profiel
+### Transactieberichten op basis van profielen
 
 * De personalisatiegegevens kunnen afkomstig zijn van de data in de gebeurtenis of van de afgestemde profielrecord. Zie [Configuratie van op profielen gebaseerde transactieberichten](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) en [Specifieke kenmerken van op profielen gebaseerde transactieberichten](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
 * U **kan** gebruiken **[!UICONTROL Unsubscription link]** in een bericht voor een profieltransactie. Zie [Een contentblok](../../designing/using/personalization.md#adding-a-content-block) toevoegen.

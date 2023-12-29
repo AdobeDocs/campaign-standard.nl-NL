@@ -12,7 +12,7 @@ exl-id: 9cee2005-a99b-47cb-b573-a25812614409
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -43,7 +43,7 @@ Maak een nieuwe workflow in het programma of de campagne van uw keuze:
 
 De gedetailleerde stappen voor het maken van een workflow worden uitgelegd in de sectie [Een workflow maken](../../automating/using/building-a-workflow.md).
 
-## Een queryactiviteit maken {#creating-query-activity}
+## Query-activiteiten maken {#creating-query-activity}
 
 U hebt toegang tot de interface van een workflow zodra deze is gemaakt.
 
@@ -61,7 +61,7 @@ U kunt een query voor een of meerdere elementen maken.
 
 Gebruik de knop **[!UICONTROL Count]** om een schatting te bekijken van het aantal profielen waarop de query zich richt.
 
-## Een segmentatie-activiteit maken {#creating-segmentation-activity}
+## Een segmentatieactiviteit maken {#creating-segmentation-activity}
 
 Zodra uw doel door de queryactiviteit is geïdentificeerd, moet u een criterium selecteren om het doel in twee verschillende populaties te segmenteren: een gedeelte ontvangt een e-mail en het andere gedeelte ontvangt een sms.
 

@@ -11,8 +11,8 @@ level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 100%
+source-wordcount: '1663'
+ht-degree: 97%
 
 ---
 
@@ -23,12 +23,12 @@ Nadat u een nieuwe aangepaste resource hebt gemaakt, moet u de datastructuur con
 Wanneer u de resource bewerkt, kunt u op het tabblad **[!UICONTROL Data structure]** het volgende toevoegen:
 
 * [Velden](#adding-fields-to-a-resource)
-* [Identificatiesleutels](#defining-identification-keys)
+* [Identificatiecode](#defining-identification-keys)
 * [Indexen](#defining-indexes)
 * [Koppelingen](#defining-links-with-other-resources)
-* [Verzendlogboeken](#defining-sending-logs-extension)
+* [Logboeken verzenden](#defining-sending-logs-extension)
 
-## Velden toevoegen aan een resource {#adding-fields-to-a-resource}
+## Velden toevoegen aan een bron {#adding-fields-to-a-resource}
 
 U kunt nieuwe velden aan een resource toevoegen om data op te slaan die geen deel uitmaken van het kant-en-klare datamodel.
 
@@ -71,7 +71,7 @@ U kunt nieuwe velden aan een resource toevoegen om data op te slaan die geen dee
 
 De velden van uw resource zijn nu gedefinieerd.
 
-## Identificatiesleutels definiëren {#defining-identification-keys}
+## Identificatietoetsen definiëren {#defining-identification-keys}
 
 Elke resource moet ten minste één unieke sleutel hebben. U kunt bijvoorbeeld een sleutel opgeven zodat twee producten niet dezelfde id in een aankooptabel kunnen hebben.
 
@@ -127,7 +127,7 @@ De indexen die zijn gemaakt, worden weergegeven in de lijst in de sectie **[!UIC
 >
 >Zie deze [sectie](../../developing/using/data-model-best-practices.md#indexes) voor meer informatie over best practices bij het maken van indexen.
 
-## Koppelingen met andere resources definiëren {#defining-links-with-other-resources}
+## Koppelingen met andere bronnen definiëren {#defining-links-with-other-resources}
 
 Een koppeling geeft de verbinding weer die een tabel heeft met andere tabellen.
 
@@ -215,7 +215,7 @@ Als u deze koppeling toevoegt, wordt via het menu **[!UICONTROL Profiles & audie
 
 ![](assets/custom_resource_link_to_profile.png)
 
-## De extensie voor verzendlogboeken definiëren {#defining-sending-logs-extension}
+## De bestandsextensie definiëren {#defining-sending-logs-extension}
 
 Met de extensie voor verzendlogboeken kunt u het volgende doen:
 
@@ -256,7 +256,7 @@ Voor meer informatie over Dynamische rapportage raadpleegt u de [Lijst met compo
 >
 >Het aantal velden dat naar Dynamische rapportage wordt verzonden, is beperkt tot 20.
 
-## Resource-eigenschappen bewerken {#editing-resource-properties}
+## Broneigenschappen bewerken {#editing-resource-properties}
 
 In het scherm van de aangepaste resource geeft het deelvenster **[!UICONTROL Summary]** de status van de pas gemaakte resource aan. U kunt de toegang tot en de algemene eigenschappen van deze resource beheren.
 
@@ -277,7 +277,7 @@ In het scherm van de aangepaste resource geeft het deelvenster **[!UICONTROL Sum
 
 Uw wijzigingen worden opgeslagen. U moet de resource opnieuw publiceren om deze toe te passen.
 
-## Een unieke id genereren voor profielen en aangepaste resources {#generating-a-unique-id-for-profiles-and-custom-resources}
+## Een unieke id genereren voor profielen en aangepaste bronnen {#generating-a-unique-id-for-profiles-and-custom-resources}
 
 Standaard hebben profielen en aangepaste resources geen bedrijfs-id wanneer ze worden gemaakt. U kunt een optie inschakelen waarmee automatisch een unieke id wordt gegenereerd wanneer elementen worden gemaakt. Deze id kan worden gebruikt om:
 

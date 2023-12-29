@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 47%
+source-wordcount: '693'
+ht-degree: 43%
 
 ---
 
@@ -44,7 +44,7 @@ De voorbereiding van berichten wordt geactiveerd volgens de parameters voor work
 
    >[!NOTE]
    >
-   >U kunt de algemene eigenschappen en geavanceerde opties van de activiteit (niet van de levering zelf) raadplegen via de knop ![](assets/dlv_activity_params-24px.png) van de snelle acties van de activiteit.
+   >U hebt via de ![](assets/dlv_activity_params-24px.png) uit de snelle acties van de activiteit.
 
    ![](assets/wkf_in_app_3.png)
 

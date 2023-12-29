@@ -1,6 +1,6 @@
 ---
 title: Een e-mail met verrijkte velden verzenden
-description: In het onderstaande voorbeeld ziet u hoe u een e-mail verzendt met behulp van aanvullende data die via de activiteit voor het laden van het bestand zijn opgehaald uit een extern bestand.
+description: In het onderstaande voorbeeld ziet u hoe u een e-mail verzendt met behulp van aanvullende gegevens die via het laden van het bestand zijn opgehaald uit een extern bestand.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -12,7 +12,7 @@ exl-id: 5ca7571d-d4d2-4b59-86d4-4f1f3a620b54
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 75%
+ht-degree: 68%
 
 ---
 

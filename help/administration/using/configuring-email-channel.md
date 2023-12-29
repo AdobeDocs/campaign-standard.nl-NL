@@ -1,6 +1,6 @@
 ---
 title: E-mailkanaal configureren in Adobe Campaign Standard
-description: Leer hoe u het e-mailkanaal configureert in Adobe Campaign Standard
+description: Leer hoe u het e-mailkanaal in Adobe Campaign Standard configureert
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
 workflow-type: tm+mt
-source-wordcount: '2681'
-ht-degree: 60%
+source-wordcount: '2683'
+ht-degree: 58%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 60%
 
 Als [Campaign-beheerder](../../administration/using/users-management.md#functional-administrators) kunt u e-mailkanaalinstellingen configureren. Deze geavanceerde instellingen omvatten de algemene parameters voor e-mailkanalen, accounts voor het routeren van e-mail, verwerkingsregels voor e-mail en e-maileigenschappen. Leer op deze pagina hoe u de standaardwaarden voor de algemene e-mail en het verzenden van parameters kunt bewerken.
 
-## Parameters voor e-mailkanaal {#email-channel-parameters}
+## Parameters e-mailkanaal {#email-channel-parameters}
 
 In het configuratiescherm voor e-mail kunt u de parameters voor het e-mailkanaal definiëren. Beheerders hebben toegang tot deze configuratie-instellingen via het menu **[!UICONTROL Administration]> [!UICONTROL Channels] > [!UICONTROL Email] >[!UICONTROL Configuration]**.
 
@@ -38,7 +38,7 @@ In het configuratiescherm voor e-mail kunt u de parameters voor het e-mailkanaal
 
 * **Bezorgingsparameters**
 
-  Adobe Campaign begint met het verzenden van de berichten op de startdatum.
+  Adobe Campaign verzendt de berichten die beginnen op de begindatum.
 
   Wanneer een bericht in een levering wegens een tijdelijke fout of een zachte stuit wordt verworpen, probeert de Campagne opnieuw om dit bericht elke dag te verzenden. Gebruik de **[!UICONTROL Message delivery duration]** kan het veld waarin de tijdlijn wordt opgegeven tijdens nieuwe pogingen worden weergegeven.
 
@@ -79,7 +79,7 @@ Het accounttype moet altijd worden ingesteld op **[!UICONTROL Routing]**, het ka
 
 [Externe accounts](../../administration/using/external-accounts.md)
 
-## Regels voor e-mailverwerking {#email-processing-rules}
+## E-mailverwerkingsregels {#email-processing-rules}
 
 Beheerders hebben toegang tot de **[!UICONTROL Email processing rules]** via het menu **[!UICONTROL Administration > Channels > Email]**.
 
@@ -94,7 +94,7 @@ Beheerders hebben toegang tot de **[!UICONTROL Email processing rules]** via het
 * **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
 * The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
 
-### Niet bezorgde mails {#bounce-mails}
+### Stuitberichten {#bounce-mails}
 
 De asynchrone, niet bezorgde mails worden nog steeds gekwalificeerd door het Campaign inMail-proces aan de hand van de **[!UICONTROL Bounce mails]**-regels.
 
@@ -148,11 +148,11 @@ In de **[!UICONTROL Campaign]** voert u de campagne in die aan de e-mail is geko
 
 U kunt ook een **[!UICONTROL Description]** toevoegen in het desbetreffende veld en de afbeelding bewerken die wordt weergegeven in de e-mailminiatuur in de lijsten.
 
-### Parameters voor verzending {#sending-parameters}
+### Parameters verzenden {#sending-parameters}
 
 De sectie **[!UICONTROL Send]** is alleen beschikbaar voor e-mailsjablonen. Deze bevat de volgende parameters:
 
-#### Parameters voor hernieuwde pogingen {#retries-parameters}
+#### Parameters opnieuw {#retries-parameters}
 
 Voor tijdelijk niet bezorgde berichten wordt automatisch een nieuwe poging uitgevoerd. Zie [Hernieuwde pogingen na een tijdelijke leveringsfout](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)voor meer informatie.
 
@@ -192,7 +192,7 @@ Als u de optie voor de SMTP testmodus voor een e-mailsjabloon inschakelt, is dez
 
 Raadpleeg de sectie [Lijst met SMTP-parameters voor e-mails](#list-of-email-smtp-parameters) voor meer informatie over het configureren van SMTP.
 
-### Parameters voor geldigheidsperiode {#validity-period-parameters}
+### Geldigheidsperiode {#validity-period-parameters}
 
 De sectie **[!UICONTROL Validity period]** bevat de volgende parameters:
 
@@ -226,7 +226,7 @@ De sectie **[!UICONTROL Validity period]** bevat de volgende parameters:
   >
 
 
-### Parameters voor tracking {#tracking-parameters}
+### Parameters bijhouden {#tracking-parameters}
 
 De sectie **[!UICONTROL Tracking]** bevat de volgende parameters:
 
@@ -247,7 +247,7 @@ Klik op de knop rechts van het veld dat wordt gewijzigd en voeg vervolgens het p
 
 Het invoegen en gebruiken van de personalisatiecontent wordt gedetailleerd beschreven in de documentatie over het [aanpassen van e-mailcontent](../../designing/using/personalization.md).
 
-#### Targetcontext {#target-context}
+#### Doelcontext {#target-context}
 
 Gebruik de het richten context om een reeks lijsten te bepalen die voor e-mail het richten (in het scherm van de publieksdefinitie) en verpersoonlijking zullen worden gebruikt (bepalend verpersoonlijkingsgebieden in de HTML inhoudsredacteur).
 
@@ -279,7 +279,7 @@ Het voorbereiden van berichten wordt uitgelegd in de sectie [Berichten goedkeure
 
 In deze sectie kunt u het standaardvoorvoegsel configureren voor gebruik op de onderwerpregel van de proefberichten. Meer informatie over proefdrukken in [deze sectie](../../sending/using/sending-proofs.md).
 
-### Lijst met SMTP-parameters voor e-mails {#list-of-email-smtp-parameters}
+### Lijst met SMTP-parameters voor e-mail {#list-of-email-smtp-parameters}
 
 De sectie **[!UICONTROL SMTP]** bevat de volgende parameters:
 
@@ -291,7 +291,7 @@ De sectie **[!UICONTROL SMTP]** bevat de volgende parameters:
   >
   >Het toevoegen van een script voor het opnemen van extra SMTP-kopteksten is gereserveerd voor gevorderde gebruikers. De syntaxis van dit script moet voldoen aan de vereisten van dit type content: geen ongebruikte ruimte, geen lege regel, enz.
 
-### Lijst van parameters voor toegang {#list-of-access-authorization-parameters}
+### Lijst van parameters voor toegangsvergunningen {#list-of-access-authorization-parameters}
 
 De sectie **[!UICONTROL Access authorization]** bevat de volgende parameters:
 
@@ -307,7 +307,7 @@ De sectie **[!UICONTROL Access authorization]** bevat de volgende parameters:
 
 Als u **NOT** Als u de meest recente versie van Campagne uitvoert, zijn de hieronder beschreven parameters en UI-secties nog steeds op u van toepassing.
 
-### Hernieuwde pogingen {#legacy-retries}
+### Opnieuw {#legacy-retries}
 
 De **[!UICONTROL Retries]** in de [Menu Configuratie](#email-channel-parameters) en in de [Parameters verzenden](#retries-parameters) van de e-maileigenschappen geven aan hoeveel pogingen moeten worden uitgevoerd op de dag nadat de verzending is gestart (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) en de minimale vertraging tussen pogingen (**[!UICONTROL Retry period]**).
 
@@ -321,11 +321,11 @@ Gebruik de **[!UICONTROL Message delivery duration]** in de [Menu Configuratie](
 
 Gebruik de **[!UICONTROL Delivery duration]** of **[!UICONTROL Validity limit for sending messages]** in de [Geldigheidsperiode](#validity-period-parameters) om de duur aan te geven gedurende welke de berichten kunnen worden verzonden.
 
-### Regels voor e-mailverwerking {#legacy-email-processing-rules}
+### E-mailverwerkingsregels {#legacy-email-processing-rules}
 
 De **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** en **[!UICONTROL Domain management]** de regels kunnen door beheerders door **[!UICONTROL Administration > Channels > Email > Email processing rules]** -menu. [Meer informatie](#email-processing-rules).
 
-### Kwalificatie van niet-bezorgde e-mails {#legacy-bounce-mail-qualification}
+### Bounce mail-kwalificatie {#legacy-bounce-mail-qualification}
 
 Als u de verschillende grenzen en de bijbehorende fouttypen en redenen wilt weergeven, klikt u op de knop **Adobe** logo, in de linkerbovenhoek, selecteert u **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 15%
+source-wordcount: '631'
+ht-degree: 12%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 15%
 <tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">Menu Beheer</a></p></td>
 <td><img src="assets/do-not-localize/icon_users.svg" width="60px"><p><a href="#users-security">Gebruikers en beveiliging</a></p></td>
 <td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#channels-configuration">Kanaalconfiguratie</a></p></td>
-<td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">Applicatie-instellingen</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">Toepassingsinstellingen</a></p></td></tr>
 </table>
 
 Als cloudgebaseerde oplossing biedt Adobe Campaign beheerders verschillende manieren om de toepassing te configureren. Hoewel de infrastructuurconfiguratie door Adobe wordt uitgevoerd, kunnen de functionele beheerders diverse configuratiehandelingen uitvoeren die hieronder worden beschreven.
@@ -81,7 +81,7 @@ Meer informatie:
 * [Een sms-kanaal configureren](../../administration/using/configuring-sms-channel.md)
 * [Een mobiele applicatie configureren](../../administration/using/configuring-a-mobile-application.md)
 
-## Applicatie-instellingen {#application-settings}
+## Toepassingsinstellingen {#application-settings}
 
 <img src="assets/do-not-localize/icon_settings.svg" width="60px">
 

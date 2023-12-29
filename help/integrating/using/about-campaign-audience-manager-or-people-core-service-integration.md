@@ -11,7 +11,7 @@ exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,7 @@ Integratie ondersteunt twee typen Adobe Experience Cloud-id&#39;s:
 
   >[!NOTE]
   >
-  >De gegevensbron Declared ID kan nu ook worden gebruikt met de integratie van de People-kernservice.
+  >De verklaarde gegevensbron van identiteitskaart kan nu ook met de dienstintegratie van de Kern van Mensen worden gebruikt.
   >
   >Als u de de dienstintegratie van de Kern van Mensen gebruikt en de integratie van de Audience Manager wilt toevoegen, zult u de hulp van een consultant van Adobe Audience Manager nodig hebben om te vermijden verlies van alle verzamelde syncs van identiteitskaart wanneer het overgaan aan het gebruiken van deze Gedeclareerde gegevensbron van identiteitskaart in een context van Adobe Audience Manager.
 

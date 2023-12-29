@@ -11,7 +11,7 @@ exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 88%
+ht-degree: 84%
 
 ---
 
@@ -45,7 +45,7 @@ U kunt ook dynamische content definiëren die varieert per profiel. Zie [Dynamis
 
 Verbeter uw berichten en landingspagina’s met koppelingen en afbeeldingen. Zie [Een koppeling invoegen](../../designing/using/links.md#inserting-a-link) en [Afbeeldingen invoegen](../../designing/using/images.md#inserting-images).
 
-## E-mail Designer-interface {#email-designer-interface}
+## E-mailDesigner-interface {#email-designer-interface}
 
 Email Designer biedt een groot aantal opties waarmee u elk aspect van uw content kunt maken, bewerken en aanpassen.
 
@@ -65,7 +65,7 @@ Ga naar meer algemene opties en instellingen op de hoofd **werkbalk** (4).
 
 De **contextuele werkbalk** van de editorinterface biedt verschillende functies, afhankelijk van de geselecteerde zone. U vindt er actieknoppen en knoppen waarmee u de stijl van de tekst kunt wijzigen. De uitgevoerde wijzigingen zijn altijd van toepassing op de geselecteerde zone.
 
-### Startpagina van E-mail Designer {#email-designer-home-page}
+### Homepage van E-mail Designer {#email-designer-home-page}
 
 Wanneer u [een e-mail maakt](../../channels/using/creating-an-email.md), wordt de **[!UICONTROL Email Designer]**-startpagina automatisch weergegeven als u de e-mailcontent selecteert.
 
@@ -99,7 +99,7 @@ Als u geen sjabloon selecteert, kunt u op de startpagina van Email Designer ook 
 
 **Contentonderdelen**: Contentonderdelen zijn onbewerkte, lege onderdelen die u kunt bewerken zodra ze in een e-mail zijn geplaatst.
 
-## Best practices voor het ontwerpen van content {#content-design-best-practices}
+## Aanbevolen werkwijzen voor het ontwerpen van inhoud {#content-design-best-practices}
 
 Als u Email Designer goed wilt gebruiken en op de eenvoudigste manier de beste e-mails wilt maken, raden we u aan de volgende principes toe te passen:
 
@@ -143,7 +143,7 @@ Let bij fragmenten op het volgende:
 
 * Het bijwerken van fragmenten die worden gebruikt in e-mailberichten die al zijn voorbereid, heeft geen invloed op deze e-mails.
 
-## Beperkingen van E-mail Designer {#email-designer-limitations}
+## Beperkingen van e-mailDesigner {#email-designer-limitations}
 
 * U kunt geen personalisatievelden gebruiken in een fragment. Zie [deze sectie](../../designing/using/using-reusable-content.md#about-fragments)voor meer informatie over fragmenten.
 
@@ -159,7 +159,7 @@ Let bij fragmenten op het volgende:
 * [Een e-mail maken](../../channels/using/creating-an-email.md)
 * [Een landingspagina ontwerpen](../../channels/using/designing-a-landing-page.md)
 * [Een sms-bericht maken](../../channels/using/creating-an-sms-message.md)
-* [Een pushbericht maken en verzenden](../../channels/using/preparing-and-sending-a-push-notification.md)
+* [Een pushmelding maken en verzenden](../../channels/using/preparing-and-sending-a-push-notification.md)
 
 ## Video over zelfstudie {#video}
 
@@ -167,4 +167,4 @@ Deze video biedt een overzicht van de e-mailontwerper.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-Om aan de slag te gaan met Email Designer bekijkt u deze [video’s](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) waarin de algemene functionaliteit van Email Designer wordt uitgelegd en waarin wordt aangetoond hoe u een nieuw e-mailbericht kunt ontwerpen of sjablonen kunt gebruiken
+Ga als volgt te werk om aan de slag te gaan met de e-mailontwerper [set video&#39;s](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) die de algemene functionaliteit van de e-mailontwerper en het ontwerpen van een geheel nieuwe e-mail of het gebruik van sjablonen toelichten

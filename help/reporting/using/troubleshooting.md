@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 4%
+source-wordcount: '817'
+ht-degree: 1%
 
 ---
 
@@ -34,8 +34,8 @@ Hier volgt een visuele weergave van de interactie van de profielen met de verzon
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Day</strong> <br /> </th> 
-   <th align="center"> <strong>Geopende items</strong> <br /> </th> 
+   <th align="center"> <strong>Dag</strong> <br /> </th> 
+   <th align="center"> <strong>Openen</strong> <br /> </th> 
    <th align="center"> <strong>Unieke openingen</strong> <br /> </th> 
   </tr> 
  </thead> 
@@ -63,13 +63,13 @@ Dit resulteert in de volgende tabel:
  <thead> 
   <tr> 
    <th align="center"> <strong></strong> <br /> </th> 
-   <th align="center"> <strong>Geopende items</strong> <br /> </th> 
+   <th align="center"> <strong>Openen</strong> <br /> </th> 
    <th align="center"> <strong>Unieke openingen</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td align="center"> <strong> Day </strong><br /> </td> 
+   <td align="center"> <strong> Dag </strong><br /> </td> 
    <td align="center"> <strong> 6 </strong><br /> </td> 
    <td align="center"> <strong> 2</strong><br /> </td>
   </tr> 
@@ -116,10 +116,10 @@ Rapporten moeten er als volgt uitzien:
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>Levering</strong> <br /> </th> 
+   <th align="center"> <strong>Aflevering</strong> <br /> </th> 
    <th align="center"> <strong>Verzonden</strong> <br /> </th> 
    <th align="center"> <strong>Geleverd</strong> <br /> </th>
-   <th align="center"> <strong>Geopende items</strong> <br /> </th> 
+   <th align="center"> <strong>Openen</strong> <br /> </th> 
    <th align="center"> <strong>Unieke openingen</strong> <br /> </th>
   </tr> 
  </thead> 

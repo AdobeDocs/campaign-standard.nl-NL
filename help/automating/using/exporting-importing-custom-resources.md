@@ -11,7 +11,7 @@ exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,7 @@ De voorwaarden zijn:
 Aanvullende resources:
 
 * [Pakketten beheren](../../automating/using/managing-packages.md)
-* [Pakketten implementeren: werkwijze](../../developing/using/data-model-concepts.md)
+* [Pakketten implementeren: operatieprincipe](../../developing/using/data-model-concepts.md)
 * [Een bron toevoegen of uitbreiden](../../developing/using/key-steps-to-add-a-resource.md)
 
 ## De structuur exporteren {#exporting-the-structure}
@@ -67,7 +67,7 @@ U kunt nu op **[!UICONTROL Start export]** klikken.
 
 Het gegenereerde pakket is beschikbaar in de map Downloads. De naam van het zip-bestand wordt willekeurig gegenereerd. U kunt de naam ervan wijzigen.
 
-## De data exporteren {#exporting-the-data}
+## De gegevens exporteren {#exporting-the-data}
 
 Met deze tweede export kunnen we de data uit de aangepaste resources **Producten** en **Bestellingen** exporteren.
 
@@ -122,7 +122,7 @@ Het gegenereerde pakket is beschikbaar in de map Downloads. De naam van het zip-
 
    ![](assets/cusresources_import1.png)
 
-## De data importeren {#importing-the-data}
+## De gegevens importeren {#importing-the-data}
 
 In deze sectie **importeren we de data** die zijn gekoppeld aan het pakket dat in de vorige stap op de instantie is geïnstalleerd.
 

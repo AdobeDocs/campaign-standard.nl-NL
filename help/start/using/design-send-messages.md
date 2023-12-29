@@ -12,7 +12,7 @@ ht-degree: 5%
 ---
 
 
-# Berichten ontwerpen en verzenden
+# Ontwerpen en verzenden van berichten
 
 <table>
 <tr>

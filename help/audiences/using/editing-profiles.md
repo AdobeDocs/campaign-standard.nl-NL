@@ -11,7 +11,7 @@ exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 12%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 
 Als u een bestaand profiel wilt bewerken en de bijbehorende gegevens wilt raadplegen of wijzigen, gaat u als volgt te werk:
 
-1. Klik op de Adobe Campaign-startpagina op de kaart **[!UICONTROL Customer profiles]** of het tabblad **[!UICONTROL Profiles]**.
+1. Klik op de startpagina van Adobe Campaign op de knop **[!UICONTROL Customer profiles]** of de **[!UICONTROL Profiles]** tab.
 1. Selecteer een contactpersoon.
 1. Klik op de knop **[!UICONTROL Edit profile properties]** voor toegang tot de gedetailleerde informatie van het profiel.
 

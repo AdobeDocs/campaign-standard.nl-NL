@@ -7,14 +7,15 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
-source-git-commit: 736e8b7e863409779c153567f6e5fc577ac3c519
+exl-id: e0fb289a-6b6e-473d-80af-50f6d0d72af1
+source-git-commit: abdcd3f9f7f709818dee794b4c830e486fefa290
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 0%
+source-wordcount: '559'
+ht-degree: 1%
 
 ---
 
-# Credentials migreren van JWT naar OAuth Server-aan-Server
+# Referentiekenmerken migreren van JWT naar OAuth server-naar-server
 
 De referentie van de Rekening van de Dienst (JWT) is afgekeurd ten gunste van de nieuwe referentie van OAuth server-aan-Server. De nieuwe referentie maakt het voor u gemakkelijker om Adobe toepassingen te handhaven. Het verwijdert ook de behoefte om certificaten periodiek te roteren en werkt uit-van-de-doos gebruikend standaardOAuth2 bibliotheken.
 

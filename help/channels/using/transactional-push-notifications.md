@@ -12,7 +12,7 @@ exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1451'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -75,7 +75,7 @@ Een luchtvaartmaatschappij wil bijvoorbeeld haar gebruikers van mobiele toepassi
 
 Het bedrijf verzendt één transactioneel pushbericht per gebruiker (geïdentificeerd met een registratietoken), gebruikend één mobiele toepassing, door één enkel apparaat.
 
-1. Ga naar het transactionele bericht dat is gemaakt om het te bewerken. Zie [Toegang tot transactieberichten](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
+1. Ga het transactiemelding dat werd gecreeerd om het uit te geven. Zie [Toegang tot transactieberichten](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
 
    ![](assets/message-center_push_message.png)
 
@@ -165,7 +165,7 @@ Als u een pushmelding over een transactie wilt verzenden naar de Adobe Campaign-
 
 Een luchtvaartmaatschappij wil bijvoorbeeld een laatste instapoproep sturen naar alle Adobe Campaign-gebruikers die zich op de mobiele toepassing hebben geabonneerd.
 
-1. Ga naar het transactionele bericht dat is gemaakt om het te bewerken. Zie [Toegang tot transactieberichten](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
+1. Ga het transactiemelding dat werd gecreeerd om het uit te geven. Zie [Toegang tot transactieberichten](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
 
 1. Klik op de knop **[!UICONTROL Content]** blokkeren om de titel en de tekst van uw bericht te wijzigen.
 

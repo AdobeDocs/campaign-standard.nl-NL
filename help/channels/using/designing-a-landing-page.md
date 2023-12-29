@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1666'
-ht-degree: 96%
+source-wordcount: '1672'
+ht-degree: 93%
 
 ---
 
 # Een landingspagina ontwerpen{#designing-a-landing-page}
 
-## De content van een landingspagina ontwerpen {#about-content-design}
+## Informatie over het ontwerpen van inhoud voor pagina-inhoud {#about-content-design}
 
 Landingspagina’s worden gemaakt als een willekeurige [marketingactiviteit](../../start/using/marketing-activities.md#about-marketing-activities).
 
@@ -32,7 +32,7 @@ De inhoud van bestemmingspagina&#39;s wordt ontworpen door de de inhoudredacteur
 
 Op deze pagina worden de specifieke kenmerken van de contenteditor voor landingspagina’s beschreven. Raadpleeg de volgende secties in de handleiding over het **ontwerpen van e-mailcontent** voor meer informatie over de acties die een of meer marketingactiviteiten gemeenschappelijk hebben:
 
-* [Een personalisatieveld invoegen](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Een aanpassingsveld invoegen](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Een inhoudsblok toevoegen](../../designing/using/personalization.md#adding-a-content-block)
 * [Een koppeling invoegen](../../designing/using/links.md#inserting-a-link)
 * [Afbeeldingen invoegen](../../designing/using/images.md)
@@ -43,7 +43,7 @@ Op deze pagina worden de specifieke kenmerken van de contenteditor voor landings
 >
 >Voordat u een HTML-pagina importeert in Adobe Campaign, moet u controleren of deze correct wordt geopend en weergegeven in de verschillende browsers. Als de HTML-pagina JavaScript-scripts bevat, moeten deze zonder fouten worden uitgevoerd buiten de editor. Vermijd in het algemeen het gebruik van scripts in de content van berichten om ervoor te zorgen dat deze correct worden verwerkt door e-mailclients.
 
-## Interface van de contenteditor voor landingspagina’s{#landing-page-content-editor-interface}
+## Interface van de inhoudseditor voor bestemmingspagina{#landing-page-content-editor-interface}
 
 Met de contenteditor voor landingspagina’s kunt u content in Adobe Campaign eenvoudig definiëren, wijzigen en aanpassen. Klik op het blok **[!UICONTROL Content]** in het dashboard van de landingspagina om de editor te openen.
 
@@ -239,7 +239,7 @@ De **werkbalk** is een contextafhankelijk element van de editorinterface dat ver
 
 ## De landingspaginastructuur en -stijl beheren{#managing-landing-page-structure-and-style}
 
-### Blokken beheren in de contenteditor {#managing-blocks-in-the-content-editor}
+### Blokken beheren in de inhoudeditor {#managing-blocks-in-the-content-editor}
 
 De verschillende HTML-contentelementen worden op de landingspagina weergegeven als blokken in overeenstemming met de tag **&lt;div>** **&lt;/div>**. Selecteer een blok als u ermee wilt werken. Het blok wordt dan omrand met een blauw kader.
 
@@ -261,7 +261,7 @@ De parameters die zijn gedefinieerd voor een element in een blok (koppelingen, p
 
 ![](assets/des_lp_content_4.png)
 
-### Een rand en achtergrond toevoegen in de contenteditor {#adding-a-border-and-a-background-in-the-content-editor}
+### Een rand en achtergrond toevoegen in de inhoudseditor {#adding-a-border-and-a-background-in-the-content-editor}
 
 U kunt ook een **achtergrondkleur** definiëren door een kleur te selecteren in het diagram. Deze kleur wordt toegepast op het geselecteerde blok.
 
@@ -271,7 +271,7 @@ U kunt een **rand** aan het geselecteerde blok toevoegen.
 
 ![](assets/des_lp_content_6.png)
 
-### De tekststijl wijzigen in de contenteditor {#changing-the-text-style-in-the-content-editor}
+### De tekststijl wijzigen in de inhoudseditor {#changing-the-text-style-in-the-content-editor}
 
 Als u de stijl van de tekst wilt wijzigen, moet u in een tekstblok klikken.
 
@@ -285,7 +285,7 @@ Als u de tekstuitlijning wilt wijzigen, selecteert u een van de volgende drie pi
 
 U kunt de werkbalk ook gebruiken om de lettertypekenmerken te wijzigen: u kunt de tekengrootte aanpassen, de tekst vet of cursief maken, de tekst onderstrepen of de kleur van de tekst wijzigen. Zie [deze sectie](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface).
 
-### Afbeeldingen invoegen in een landingspagina {#inserting-images-in-a-landing-page}
+### Afbeeldingen invoegen in een openingspagina {#inserting-images-in-a-landing-page}
 
 1. Selecteer in de content van een landingspagina een blok met een afbeelding.
 1. Selecteer de knop **[!UICONTROL Insert]**.
@@ -304,7 +304,7 @@ U kunt de werkbalk ook gebruiken om de lettertypekenmerken te wijzigen: u kunt d
 
    ![](assets/des_insert_images_lp_4.png)
 
-## Dynamische content definiëren in een landingspagina{#defining-dynamic-content-in-a-landing-page}
+## Dynamische inhoud definiëren in een openingspagina{#defining-dynamic-content-in-a-landing-page}
 
 Als u dynamische content in een landingspagina wilt definiëren, selecteert u een blok met de breadcrumb of door rechtstreeks op een element te klikken.
 

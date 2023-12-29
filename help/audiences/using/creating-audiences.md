@@ -12,13 +12,13 @@ exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '969'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Doelgroepen maken{#creating-audiences}
 
-## Querydoelgroepen maken {#creating-query-audiences}
+## Query-publiek maken {#creating-query-audiences}
 
 In deze sectie wordt beschreven hoe u een **query** doelgroep maakt. U kunt ook een doelgroep maken door een bestand te importeren of een doelgroep te targetten in een [workflow](../../automating/using/get-started-workflows.md).
 
@@ -45,7 +45,7 @@ Vanuit de doelgroeplijst kunt u doelgroepen maken door query&#39;s uit te voeren
 >
 >U kunt een beschrijving aan deze doelgroep toevoegen en de toegangsrechten bepalen via het pictogram **[!UICONTROL Edit properties]**.
 
-## Lijstdoelgroepen maken {#creating-list-audiences}
+## Lijstpubliek maken {#creating-list-audiences}
 
 In deze sectie wordt beschreven hoe u een **lijstdoelgroep** maakt na targeting in een workflow. U kunt ook doelgroepen maken door een bestand te importeren in een [workflow](../../automating/using/get-started-workflows.md) of via een query in het menu **[!UICONTROL Audiences]**.
 
@@ -75,7 +75,7 @@ Voer de volgende stappen uit om een **lijstdoelgroep** te maken:
 
    ![](assets/audiences_list_4.png)
 
-## Bestandsdoelgroepen maken {#creating-file-audiences}
+## Bestandspubliek maken {#creating-file-audiences}
 
 In deze sectie wordt beschreven hoe u een **bestandsdoelgroep** maakt door een bestand te importeren in een workflow. U kunt ook een doelgroep maken van een targetingactiviteit in een [workflow](../../automating/using/get-started-workflows.md) of via een query in het menu **[!UICONTROL Audiences]**.
 
@@ -97,7 +97,7 @@ Voer de volgende stappen uit om een **bestandsdoelgroep** te maken:
 
    ![](assets/audience_files_3.png)
 
-## Experience Cloud-doelgroepen maken {#creating-experience-cloud-audiences}
+## Experiencen Cloud publiek maken {#creating-experience-cloud-audiences}
 
 In Adobe Campaign kunt u doelgroepen delen en uitwisselen met Adobe Experience Cloud. Een doelgroep van **Experience Cloud** wordt rechtstreeks geïmporteerd van de People-kernservice naar Adobe Campaign met de technische workflow van **[!UICONTROL Import shared audience]**.
 
@@ -107,7 +107,7 @@ Voordat u met deze integratie aan de slag kunt, moet u de integratie eerst confi
 
 ![](assets/audience_peoplecore.png)
 
-## Doelgroepen bewerken {#editing-audiences}
+## Soorten publiek bewerken {#editing-audiences}
 
 Afhankelijk van het type doelgroep, kunt u een doelgroep op verschillende manieren bewerken:
 
@@ -122,7 +122,7 @@ Afhankelijk van het type doelgroep, kunt u een doelgroep op verschillende manier
 * Als u een **lijst-** of **bestandsdoelgroep** wilt bewerken, moet u de workflow waaruit de doelgroep is gemaakt bewerken en de **[!UICONTROL Save audience]**-activiteit wijzigen. Start de workflow zodat de doelgroep wordt gewijzigd.
 * Als u een **Experience Cloud**-doelgroep wilt bewerken, raadpleegt u de sectie [Doelgroepen importeren/exporteren met de People-kernservice](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md).
 
-## Doelgroepen verwijderen {#deleting-audiences}
+## Soorten publiek verwijderen {#deleting-audiences}
 
 Er zijn twee manieren om een of meer doelgroepen te verwijderen. Ten eerste kunt u een vervaldatum aan een doelgroep toevoegen
 

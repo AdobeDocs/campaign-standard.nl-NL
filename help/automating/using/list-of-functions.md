@@ -10,8 +10,8 @@ level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 95%
+source-wordcount: '2011'
+ht-degree: 94%
 
 ---
 
@@ -300,7 +300,7 @@ De geomarketing-functies worden gebruikt om geografische waarden te manipuleren.
  </tbody> 
 </table>
 
-## Numerieke waarden {#numerical}
+## Numeriek {#numerical}
 
 De functies voor numerieke waarden worden gebruikt om tekst om te zetten in getallen.
 
@@ -478,7 +478,7 @@ Deze tabel bevat de resterende beschikbare functies.
  </tbody> 
 </table>
 
-## Tekenreeks {#string}
+## String {#string}
 
 De tekenreeksfuncties worden gebruikt om een set tekenreeksen te manipuleren.
 
@@ -718,7 +718,7 @@ De aggregatiefuncties worden gebruikt voor het uitvoeren van berekeningen op een
  </tbody> 
 </table>
 
-## Representatie {#representation}
+## Vertegenwoordiging {#representation}
 
 De representatiefuncties worden gebruikt om waarden te bestellen.
 

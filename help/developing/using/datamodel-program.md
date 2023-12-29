@@ -9,8 +9,8 @@ level: Experienced
 exl-id: b05dc67a-6447-4d22-99f2-8a14a0ee46d2
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 8%
+source-wordcount: '228'
+ht-degree: 1%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 8%
                </tr>
                <tr>
                   <td>name</td>
-                  <td>Id</td>
+                  <td>ID</td>
                   <td>tekenreeks (64)</td>
                   <td> </td>
                </tr>
@@ -174,7 +174,7 @@ ht-degree: 8%
                   <td> </td>
                </tr>
                <tr>
-                  <td>title</td>
+                  <td>titel</td>
                   <td>Programma</td>
                   <td>tekenreeks (255)</td>
                   <td> </td>

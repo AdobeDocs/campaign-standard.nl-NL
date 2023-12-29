@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 6%
 
 ---
@@ -42,7 +42,7 @@ Als de gegevenstoewijzing is gemaakt, moet u de bewerking stoppen zodat u deze o
 
    ![](assets/aep_datamapping_stop.png)
 
-1. Sla uw wijzigingen op
+1. Uw wijzigingen opslaan
 
 De uitvoering van de gegevenstoewijzing wordt nu gestopt. U kunt Campaign Standard APIs gebruiken om het manueel teweeg te brengen.
 

@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 98%
+source-wordcount: '1032'
+ht-degree: 92%
 
 ---
 
@@ -25,10 +25,10 @@ Hier ziet u hoe we profielen bijwerken met het nieuwe veld met behulp van een la
 
 Hiervoor voert u de volgende stappen uit:
 
-* [Stap 1: De profielresource uitbreiden](#step-1--extend-the-profile-resource)
+* [Stap 1: De profielbron uitbreiden](#step-1--extend-the-profile-resource)
 * [Stap 2: Het testprofiel uitbreiden](#step-2--extend-the-test-profile)
-* [Stap 3: Uw aangepaste resource publiceren](#step-3--publish-your-custom-resource)
-* [Stap 4: Profielen bijwerken en doelgericht benaderen met een workflow](#step-4--update-and-target-profiles-with-a-workflow)
+* [Stap 3: Publiceer uw douanemiddel](#step-3--publish-your-custom-resource)
+* [Stap 4: Update- en doelprofielen met een workflow](#step-4--update-and-target-profiles-with-a-workflow)
 
 Het volgende veld wordt aan de profielen toegevoegd en kan in een levering doelgericht worden benaderd:
 
@@ -40,7 +40,7 @@ Verwante onderwerpen:
 * [Profielen beheren](../../audiences/using/about-profiles.md)
 * [Testprofielen beheren](../../audiences/using/managing-test-profiles.md)
 
-## Stap 1: De profielresource uitbreiden {#step-1--extend-the-profile-resource}
+## Stap 1: De profielbron uitbreiden {#step-1--extend-the-profile-resource}
 
 Om het nieuwe veld **Interest** voor de profielen te maken moet u eerst de kant-en-klare resource **[!UICONTROL Profiles (profile)]** uitbreiden.
 
@@ -119,7 +119,7 @@ Om te testen of het nieuwe gemaakte veld correct is geconfigureerd, kunt u uw le
 
 Het nieuwe veld is nu beschikbaar voor zowel profielen als testprofielen. U moet de aangepaste resource publiceren om ervoor te zorgen dat deze correct is geconfigureerd.
 
-## Stap 3: Uw aangepaste resource publiceren {#step-3--publish-your-custom-resource}
+## Stap 3: Publiceer uw douanemiddel {#step-3--publish-your-custom-resource}
 
 Om de veranderingen die op de resources zijn uitgevoerd, te kunnen toepassen en gebruiken, moet u de database bijwerken.
 
@@ -143,7 +143,7 @@ Om de veranderingen die op de resources zijn uitgevoerd, te kunnen toepassen en 
 
 Het nieuwe resourceveld is nu klaar om te worden gebruikt en om bijvoorbeeld in een levering doelgericht profielen te benaderen.
 
-## Stap 4: Profielen bijwerken en doelgericht benaderen met een workflow {#step-4--update-and-target-profiles-with-a-workflow}
+## Stap 4: Update- en doelprofielen met een workflow {#step-4--update-and-target-profiles-with-a-workflow}
 
 Als u profielen wilt bijwerken met data voor het nieuwe aangepaste veld, kunt u een landingspagina maken met de sjabloon **[!UICONTROL Profile acquisition]**. Raadpleeg deze [pagina](../../channels/using/getting-started-with-landing-pages.md) voor meer informatie over landingspagina’s.
 

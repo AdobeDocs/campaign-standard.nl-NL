@@ -8,7 +8,7 @@ hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '7556'
+source-wordcount: '7674'
 ht-degree: 8%
 
 ---
@@ -210,7 +210,7 @@ ht-degree: 8%
 **Andere wijzigingen**
 
 * Er is een waarschuwing toegevoegd aan de interface met leveringseigenschappen. Hiermee geeft u op dat leveringen worden voorbereid op basis van hun aggregatieperiode en ontdooid om de workflow meerdere keren per dag aan te roepen. Zorg ervoor dat ze geen periode hebben. (CAMP-34393)
-* Een waarschuwing is toegevoegd in de schermen van de douaneconfiguratie van het middel. We raden u aan maximaal 30 tekens te gebruiken voor aangepaste resource-id’s. Dit geldt ook voor aangepaste resourcevelden, sleutels, indexen en koppelingen.
+* Een waarschuwing is toegevoegd in de schermen van de douaneconfiguratie van het middel. We raden u aan maximaal 30 tekens te gebruiken voor aangepaste resource-id’s. Dit geldt ook voor aangepaste bronvelden, sleutels, indexen en koppelingen.
 * Er wordt nu een bericht weergegeven wanneer u probeert een transactiebericht te verwijderen dat door een landingspagina wordt gebruikt als een bevestigingsbericht.
 * Er verschijnt nu een waarschuwing in workflows wanneer een activiteit langer dan 6 uur wordt uitgevoerd. Dit is niet van toepassing op de activiteiten Push notification, Delivery, Signal, Start, End, Fork, AND-joint, Schedule, and Wait.
 * Er verschijnt nu een waarschuwing in workflows wanneer u het maximumaantal werkstromen bereikt dat gelijktijdig wordt uitgevoerd.
@@ -299,7 +299,7 @@ Introduceerde een reeks verbeteringen en correcties om fragmenten te optimaliser
  </thead> 
  <tbody> 
   <tr> 
-   <td> Configuratiescherm<br /> </td> 
+   <td> Deelvenster Beheer<br /> </td> 
    <td> <p>Om uw werk als Admin-gebruiker efficiënter te maken, kunt u eenvoudig de capaciteit controleren en de instellingen van uw instanties beheren (te beginnen met SFTP-serverbeheer).</p><p>Raadpleeg voor meer informatie de <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=nl">Hoe kan ik-video</a>.</p></td> 
   </tr> 
   <tr> 
@@ -360,14 +360,14 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
 * De dimensie van de code van het postcode is verwijderd uit Dynamische Rapportering. We raden je aan in plaats daarvan de afmetingen Plaats, Land en Staat te gebruiken.
 * De gebeurtenisactivering &#39;First Launch&#39; van de levenscyclus van In-App-berichten is verwijderd.
 * Wanneer het uitvoeren van een pakket met veiligheidsgroepen, bevat het nu de rollen die aan elke groep worden toegewezen. (CAMP-32960)
-* In de activiteit van het Dossier van de Lading, laat een nieuwe optie u controleren dat de kolommen van het dossier u uploadt de kolomdefinitie aanpassen. Raadpleeg de [gedetailleerde documentatie](../../automating/using/load-file.md) voor meer informatie. (CAMP-32229)
-* Workflows kunnen nu worden gestart met een payload, zodat u externe parameters kunt gebruiken en delen tussen activiteiten in de workflow. Raadpleeg de [gedetailleerde documentatie](../../automating/using/calling-a-workflow-with-external-parameters.md) voor meer informatie. (CAMP-29412 &amp; CAMP-29413)
+* In de activiteit van het Dossier van de Lading, laat een nieuwe optie u controleren dat de kolommen van het dossier u uploadt de kolomdefinitie aanpassen. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../automating/using/load-file.md). (CAMP-32229)
+* Workflows kunnen nu worden gestart met een payload, zodat u externe parameters kunt gebruiken en delen tussen activiteiten in de workflow. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../automating/using/calling-a-workflow-with-external-parameters.md). (CAMP-29412 &amp; CAMP-29413)
 * Met Campaign Standard-API&#39;s kunt u nu de geografische en organisatorische eenheden van profielen bijwerken met behulp van een payload. Raadpleeg de [gedetailleerde documentatie](../../api/using/get-started-apis.md) voor meer informatie.
 * Foutberichten waarin een object uit de database niet toegankelijk is, zijn duidelijker om te begrijpen.
 * In de activiteit van het Extraheren dossier, zijn de mogelijkheden JavaScript bijgewerkt toen het bepalen van de naam van een dossier om uit te voeren. Alleen de functie formatDate is nu beschikbaar voor gebruik in het veld Uitvoer. Raadpleeg de [gedetailleerde documentatie](../../automating/using/extract-file.md) voor meer informatie.
 * Het genereren van automatische sequentie-id&#39;s is verbeterd voor aangepaste bronnen. De primaire sleutels voor nieuwe douanemiddelen zijn nu in 64 beetjes door gebrek.
 * De testmodus voor het publiceren van aangepaste bronnen is verbeterd. Er wordt nu een waarschuwingsbericht weergegeven aan gebruikers als de laatste publicatie van de aangepaste bron is mislukt en niet is hersteld. Nadat de publicatie van een aangepaste bron is mislukt, kunt u terugdraaien naar de laatste werkversie. Raadpleeg de [gedetailleerde documentatie](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource) voor meer informatie.
-* Er is een nieuwe optie toegevoegd aan de bestandsactiviteit voor overbrengen. Hiermee kunt u de bestanden sorteren wanneer u de handeling File downloaden gebruikt, in de SFTP-modus. Raadpleeg de [gedetailleerde documentatie](../../automating/using/transfer-file.md) voor meer informatie. (CAMP-33109)
+* Er is een nieuwe optie toegevoegd aan de bestandsactiviteit voor overbrengen. Hiermee kunt u de bestanden sorteren wanneer u de handeling File downloaden gebruikt, in de SFTP-modus. Raadpleeg voor meer informatie de [gedetailleerde documentatie](../../automating/using/transfer-file.md). (CAMP-33109)
 
 **Patches**
 
@@ -432,7 +432,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
    <td> Workflowverbeteringen<br /> </td> 
    <td> <p>De volgende workflowmogelijkheden zijn toegevoegd:</p> 
     <ul> 
-     <li> U kunt nu activiteiten kopiëren en plakken binnen een workflow of een andere workflow vanuit dezelfde Campagne-instantie. Op deze manier kunt u eenvoudig een volledige workflow of specifieke activiteiten dupliceren en de instellingen behouden die oorspronkelijk zijn gedefinieerd. Raadpleeg de <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">gedetailleerde documentatie</a> voor meer informatie. (CAMP-20014) </li> 
+     <li> U kunt nu activiteiten kopiëren en plakken binnen een workflow of een andere workflow vanuit dezelfde Campagne-instantie. Op deze manier kunt u eenvoudig een volledige workflow of specifieke activiteiten dupliceren en de instellingen behouden die oorspronkelijk zijn gedefinieerd. Raadpleeg voor meer informatie de <a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">gedetailleerde documentatie</a>. (CAMP-20014) </li> 
      <li> Wanneer u de opdracht <strong>Bestand laden</strong> activiteit, kunt u nu een timestamp aan de naam van het dossier toevoegen die de verworpen verslagen bevat. Raadpleeg de <a href="../../automating/using/load-file.md#configuration">gedetailleerde documentatie</a> voor meer informatie. </li> 
      <li> <strong>Query</strong> en <strong>Segmentering</strong> De activiteiten laten u nu een uitgaande overgang toelaten als de activiteiten geen gegevens terugwinnen. </li> 
     </ul> </td> 
@@ -531,7 +531,7 @@ Er zijn verschillende verbeteringen toegevoegd aan het Transactionele berichtenk
      <li> De mogelijkheid om <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">inhoud automatisch ophalen van een URL tijdens de voorbereiding</a> </li> 
      <li> Volledig conform <a href="../../designing/using/using-reusable-content.md#content-templates">out-of-the-box inhoudssjablonen</a>. </li> 
     </ul> 
-    <p>Raadpleeg voor meer informatie de <a href="../../designing/using/designing-content-in-adobe-campaign.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">Hoe kan ik-video</a>. Hieronder vindt u verbeteringen en correcties.</p><p>Als gevolg hiervan is de oude e-mailinhoudeditor nu afgekeurd. Raadpleeg deze voor meer informatie <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=nl#release-notes">page</a>.</p> </td> 
+    <p>Raadpleeg voor meer informatie de <a href="../../designing/using/designing-content-in-adobe-campaign.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">hoe kan ik-video</a>. Hieronder vindt u verbeteringen en correcties.</p><p>Als gevolg hiervan is de oude e-mailinhoudeditor nu afgekeurd. Raadpleeg deze voor meer informatie <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=nl#release-notes">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> Productaanbiedingen in Transactiee-mails<br /> </td> 

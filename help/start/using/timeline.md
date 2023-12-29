@@ -12,7 +12,7 @@ exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -49,9 +49,9 @@ Elk element heeft een pictogram dat overeenkomt met het type van het element:
 
 * ![](assets/timeline_program_icon.png) Programma
 * ![](assets/timeline_campaign_icon.png) Campagne
-* ![](assets/timeline_lp_icon.png) Landingspagina
+* ![](assets/timeline_lp_icon.png) Openingspagina
 * ![](assets/timeline_email_icon.png) E-mail
-* ![](assets/timeline_sms_icon.png) Sms
+* ![](assets/timeline_sms_icon.png) SMS
 * ![](assets/timeline_push_icon.png) Pushmelding
 
 De gekleurde lijn aan de linkerrand van elk vak geeft de status van het desbetreffende element aan.

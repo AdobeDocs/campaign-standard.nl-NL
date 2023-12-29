@@ -12,7 +12,7 @@ exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 62%
+ht-degree: 61%
 
 ---
 
@@ -39,7 +39,7 @@ Wanneer een transactiebericht niet kan worden verzonden, zijn er twee systemen o
 * Op transactioneel berichtniveau kan een transactiebericht mislukken voordat de gebeurtenis aan een uitvoeringslevering wordt toegewezen, dus tussen de ontvangst van de gebeurtenis en de voorbereiding van de levering. Zie [Proces nieuwe verwerkingspogingen voor gebeurtenissen](#event-processing-retry-process).
 * Qua verzendingsproces kan het transactiebericht vanwege een tijdelijke fout mislukken als de gebeurtenis eenmaal aan een uitvoeringslevering is toegewezen. Zie [Proces voor het opnieuw verzenden van een bericht](#message-sending-retry-process).
 
-### Proces nieuwe verwerkingspogingen voor gebeurtenissen {#event-processing-retry-process}
+### Herbewerking van gebeurtenisverwerking {#event-processing-retry-process}
 
 Wanneer een gebeurtenis wordt teweeggebracht, wordt het toegewezen aan een uitvoeringslevering. De gebeurtenisverwerking wordt uitgesteld als de gebeurtenis niet aan een uitvoeringslevering kan worden toegewezen. Hernieuwde pogingen worden uitgevoerd tot de gebeurtenis aan een nieuwe uitvoeringslevering wordt toegewezen.
 
@@ -49,7 +49,7 @@ Wanneer een gebeurtenis wordt teweeggebracht, wordt het toegewezen aan een uitvo
 
 De gebeurtenis kan bijvoorbeeld niet worden toegewezen aan een uitvoeringslevering omdat de content niet correct is, er een probleem is met toegangsrechten of branding, er een fout is ontdekt bij het toepassen van typologische regels, enz. In dit geval kunt u het bericht pauzeren, het bewerken om het probleem op te lossen en het opnieuw publiceren. Het systeem voor hernieuwde pogingen wijst het bericht dan toe aan een nieuwe uitvoeringslevering.
 
-### Proces voor het opnieuw verzenden van een bericht {#message-sending-retry-process}
+### Bericht bij opnieuw proberen {#message-sending-retry-process}
 
 Zodra de gebeurtenis aan een uitvoeringslevering is toegewezen, kan het transactiebericht wegens een tijdelijke fout mislukken, bijvoorbeeld als de mailbox van de ontvanger vol is. Zie [Hernieuwde pogingen na een tijdelijke leveringsfout](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)voor meer informatie.
 

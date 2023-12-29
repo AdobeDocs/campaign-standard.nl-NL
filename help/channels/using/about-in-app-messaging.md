@@ -11,7 +11,7 @@ exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -39,9 +39,9 @@ Als u in-app-berichten wilt verzenden op mobiele toepassingen met behulp van de 
 
 * [In-app-rapport](../../reporting/using/in-app-report.md)
 * [Mobiele gebruiksscenario’s die worden ondersteund in Adobe Campaign Standard](../../administration/using/configuring-rules-launch.md)
-* [Campaign Standard - gids voor mobiel gebruik](../../channels/using/get-started-communication-channels.md)
+* [Campaign Standard mobiele hulplijn](../../channels/using/get-started-communication-channels.md)
 
-## Mobiele profielvelden met persoonlijke en vertrouwelijke gegevens verwerken {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
+## Mobiele profielvelden verwerken met persoonlijke en gevoelige gegevens {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
 In Adobe Campaign worden data van mobiele profielkenmerken die vanaf een mobiel apparaat worden verzonden, opgeslagen in de resource **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** waardoor u de data die u van de abonnees van uw applicaties wilt verzamelen, kunt definiëren.
 

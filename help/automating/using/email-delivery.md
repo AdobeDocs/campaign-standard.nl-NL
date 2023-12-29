@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 94%
+source-wordcount: '858'
+ht-degree: 90%
 
 ---
 
@@ -42,10 +42,10 @@ De berichtvoorbereiding wordt geactiveerd op basis van de uitvoeringsparameters 
 
 **Verwante onderwerpen:**
 
-* [Gebruiksscenario: Eenmaal per week een e-maillevering maken](../../automating/using/workflow-weekly-offer.md)
-* [Gebruiksscenario: Een levering maken die is gesegmenteerd op locatie](../../automating/using/workflow-segmentation-location.md)
-* [Gebruiksscenario: Leveringen maken met een aanvulling](../../automating/using/workflow-created-query-with-complement.md)
-* [Gebruiksscenario: Retargeting van een workflow om een nieuwe levering te zenden naar personen die het bericht niet hebben geopend](../../automating/using/workflow-cross-channel-retargeting.md)
+* [Gebruik hoofdletters/kleine letters: één keer per week een e-maillevering maken](../../automating/using/workflow-weekly-offer.md)
+* [Gebruiksscenario: een levering maken die op een locatie is gesegmenteerd](../../automating/using/workflow-segmentation-location.md)
+* [Hoofdlettergebruik: leveringen maken met een complement](../../automating/using/workflow-created-query-with-complement.md)
+* [Gebruik hoofdletters/kleine letters: opnieuw rangschikken workflow om een nieuwe levering naar niet-openers te verzenden](../../automating/using/workflow-cross-channel-retargeting.md)
 * [Hoofdlettergebruik: levering geboortedag](../../automating/using/birthday-delivery.md)
 
 ## Configuratie {#configuration}

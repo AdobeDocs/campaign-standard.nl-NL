@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 100%
+source-wordcount: '976'
+ht-degree: 97%
 
 ---
 
@@ -33,13 +33,13 @@ Gebruik de in-app contenteditor om te kiezen uit twee in-app-berichtmodi:
 
 **Verwante onderwerpen:**
 
-* [Uw in-app-bericht verzenden](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
-* [In-app-rapportage](../../reporting/using/in-app-report.md)
+* [Uw bericht in de app verzenden](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
+* [Rapportage in de app](../../reporting/using/in-app-report.md)
 * [Lokale notificatietracking implementeren](../../administration/using/local-tracking.md)
 
 ## Aanpassen met een berichtsjabloon {#customizing-with-a-message-template}
 
-### Lay-out {#layout}
+### Layout {#layout}
 
 Het keuzemenu **[!UICONTROL Layout]** bevat vier verschillende opties die u kunt kiezen, afhankelijk van wat u met uw bericht wilt bereiken:
 
@@ -138,7 +138,7 @@ U kunt maximaal twee knoppen toevoegen aan uw in-app-bericht.
 
    ![](assets/inapp_customize_7.png)
 
-## Berichten van het type lokale meldingen aanpassen {#customizing-a-local-notification-message-type}
+## Het type lokaal berichtbericht aanpassen {#customizing-a-local-notification-message-type}
 
 Lokale meldingen kunnen alleen op een bepaald tijdstip en afhankelijk van een gebeurtenis door een app worden geactiveerd. Ze waarschuwen gebruikers dat er iets gebeurt in hun app, zelfs zonder internettoegang.
 Zie deze [pagina](../../administration/using/local-tracking.md) voor meer informatie over het bijhouden van lokale meldingen.

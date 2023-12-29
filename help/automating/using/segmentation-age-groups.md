@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: dab7ef86-4776-48f4-be9a-37de316e0dd9
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 66%
+source-wordcount: '204'
+ht-degree: 51%
 
 ---
 
 # Segmentatie volgens leeftijdsgroepen {#segmentation-age-groups}
 
-In het volgende voorbeeld wordt een segmentatie van databaseprofielen weergegeven op basis van de leeftijdsgroep.
+In het volgende voorbeeld wordt een segmentatie van databaseprofielen weergegeven op basis van hun leeftijdsgroep.
 
 Het doel van de workflow is om voor elke leeftijdsgroep een specifieke e-mail te verzenden. Aangezien deze workflow deel uitmaakt van een testcampagne, kan elk segment maximaal slechts 100 profielen bevatten die willekeurig zijn geselecteerd om een beperkte en representatieve doelgroep te gebruiken.
 

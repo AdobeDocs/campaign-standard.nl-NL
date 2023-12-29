@@ -12,13 +12,13 @@ exl-id: 2df7fbed-b979-4706-bd56-83f712cc3070
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 33%
+ht-degree: 11%
 
 ---
 
 # De database bijwerken met externe gegevens {#update-database-file}
 
-In het volgende voorbeeld wordt de configuratie van een **[!UICONTROL Update data]** activiteit na een **[!UICONTROL Load file]** activiteit. Het doel van deze workflow is om profielen aan de Adobe Campaign-database toe te voegen of bij te werken met de data uit het bestand.
+In het volgende voorbeeld wordt de configuratie van een **[!UICONTROL Update data]** activiteit na een **[!UICONTROL Load file]** activiteit. Het doel van deze workflow is om profielen toe te voegen aan of bij te werken naar de Adobe Campaign-database met de gegevens die uit het bestand zijn opgehaald.
 
 In dit voorbeeld wordt de verzoeningssleutel gebruikt: **mailadres**. Het bestand dat in het dialoogvenster [Bestand laden](../../automating/using/load-file.md) activiteit is **.txt** opmaakbestand met de volgende voorbeeldgegevens:
 

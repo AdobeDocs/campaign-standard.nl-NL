@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: c80ed1f6-ad8a-4448-a6df-b9881327228a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 67%
+source-wordcount: '212'
+ht-degree: 61%
 
 ---
 
@@ -36,6 +36,6 @@ De workflow bestaat uit de volgende elementen:
 
   U doet dit door een **[!UICONTROL Recurring email]** **[!UICONTROL By month]** te maken om de e-mails en de resultaten te hergroeperen.
 
-  Definieer de content van uw e-mail en voer de promocode in. Raadpleeg voor meer informatie hierover [E-mailinhoud definiëren](../../designing/using/personalization.md) secties.
+  Definieer de inhoud van uw e-mail en voeg de code van de welkomstaanbieding in. Raadpleeg voor meer informatie hierover [E-mailinhoud definiëren](../../designing/using/personalization.md) secties.
 
 Start vervolgens de workflowuitvoering. Elke week ontvangen nieuwe abonnees het welkomstbericht met de promocode.

@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 188b1750-e062-4328-9829-6f2848356b5c
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 89%
+source-wordcount: '1152'
+ht-degree: 86%
 
 ---
 
 # Een dubbele opt-inprocedure instellen{#setting-up-a-double-opt-in-process}
 
-## Dubbele opt-in {#about-double-opt-in}
+## Dubbele aanmelding {#about-double-opt-in}
 
 Het dubbele opt-inmechanisme is een best practice voor de verzending van e-mails. Het beveiligt het platform tegen onjuiste of ongeldige e-mailadressen en spambots en voorkomt mogelijke spamklachten.
 
@@ -33,7 +33,7 @@ Hiervoor gaat u als volgt te werk:
 
 Deze stappen moeten in Adobe Campaign in een specifieke volgorde worden ingesteld om ervoor te zorgen dat alle parameters correct zijn ingeschakeld.
 
-## Stap 1: De landingspagina voor bevestiging maken {#step-1--create-the-confirmation-landing-page}
+## Stap 1: De bestemmingspagina voor bevestiging maken {#step-1--create-the-confirmation-landing-page}
 
 Het proces voor het instellen van het dubbele opt-inmechanisme begint met het maken van de landingspagina voor bevestiging. Deze pagina wordt weergegeven wanneer de bezoekers op de bevestigings-e-mail hebben geklikt om zich te registreren.
 
@@ -67,7 +67,7 @@ Ga als volgt te werk om deze landingspagina te maken en te configureren:
 
 1. [Test en publiceer](../../channels/using/testing-publishing-landing-page.md) de landingspagina.
 
-## Stap 2: De bevestigings-e-mail maken {#step-2--create-the-confirmation-email}
+## Stap 2: Maak het bevestigingsbericht {#step-2--create-the-confirmation-email}
 
 Nadat de landingspagina voor bevestiging is gemaakt, kunt u de bevestigings-e-mail ontwerpen. Deze e-mail wordt automatisch verzonden naar elke bezoeker die de landingspagina voor acquisitie valideert. Deze validatie wordt beschouwd als een gebeurtenis en de e-mail is een transactioneel bericht dat is gekoppeld aan een specifieke typologieregel die de mogelijkheid biedt om opt-outpopulaties doelgericht te benaderen.
 
@@ -119,7 +119,7 @@ De bevestigings-e-mail is een transactioneel bericht dat is gebaseerd op de gebe
 1. Bewerk de eigenschappen van de e-mailsjabloon. Selecteer in de sectie **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** de eerder gemaakte typologie **TYPOLOGY_PROFILE**.
 1. Sla het transactionele bericht op en publiceer dit.
 
-## Stap 3: De landingspagina voor acquisitie maken {#step-3--create-the-acquisition-landing-page}
+## Stap 3: Maak de aanschafpagina voor aankopen {#step-3--create-the-acquisition-landing-page}
 
 U moet de initiële landingspagina voor acquisitie maken: dit opt-informulier wordt op uw website gepubliceerd.
 

@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
 source-git-commit: 4d67d1d0239c7439cc1f4b8e1fd7fb2f7a99adec
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 13%
+source-wordcount: '194'
+ht-degree: 10%
 
 ---
 
@@ -34,4 +34,4 @@ Hieronder vindt u de standaardretentieperioden voor standaardtabellen. Waar moge
 * **Tijdelijke entiteiten**: 7 dagen
 * **Genegeerde pipelinegebeurtenissen**: 1 maand
 * **Leveringsmeldingen**: 1 maand
-* **Exportaudit**: 6 maanden (aanbevolen: 1 maand)
+* **Exportcontrole**: 6 maanden (aanbevolen: 1 maand)

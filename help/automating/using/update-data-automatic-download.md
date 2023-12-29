@@ -1,6 +1,6 @@
 ---
 title: Gegevens bijwerken op basis van een automatische bestandsdownload
-description: In het volgende voorbeeld wordt het resultaat getoond van een automatisch gedownloade activiteit voor het laden van een bestand via een activiteit voor het overdragen van een bestand, gevolgd door een activiteit voor het bijwerken van data.
+description: In het volgende voorbeeld wordt het resultaat getoond van een activiteit van een automatisch gedownload laadbestand via een activiteit van het overdrachtsbestand, gevolgd door een activiteit van de updategegevens.
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -12,7 +12,7 @@ exl-id: 2b21cf45-1c40-4e0e-ae2c-28c9f73e1964
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '279'
-ht-degree: 79%
+ht-degree: 70%
 
 ---
 

@@ -12,8 +12,8 @@ hide: true
 hidefromtoc: true
 source-git-commit: 376f00576ca1d0dfb536b29dbf25d88f7c93b9a8
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 4%
+source-wordcount: '706'
+ht-degree: 3%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector is nu afgekeurd. Verouderde mogelijkheden zijn nog beschikbaar, maar worden niet verder verbeterd en worden niet ondersteund. Meer informatie vindt u [op deze pagina](../../rn/using/deprecated-features.md)
+>Adobe Experience Platform Data Connector is nu afgekeurd. Verouderde mogelijkheden zijn nog beschikbaar, maar worden niet verder verbeterd en worden niet ondersteund. Meer informatie [op deze pagina](../../rn/using/deprecated-features.md)
 
 Adobe Experience Platform Data Connector helpt bestaande klanten hun gegevens op Adobe Experience Platform beschikbaar te maken door XTK-gegevens (gegevens die in Campaign worden opgenomen) toe te wijzen aan XDM-gegevens (Experience Data Model) op Adobe Experience Platform.
 

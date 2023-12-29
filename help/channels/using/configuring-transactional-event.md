@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
 source-git-commit: fc6788bf62fa66bd43b3e50fb9bc676ccb466078
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 6%
+source-wordcount: '1709'
+ht-degree: 3%
 
 ---
 
@@ -96,7 +96,7 @@ Hier volgt de API-voorvertoning voor dit voorbeeld:
 **Verwante onderwerpen:**
 
 * [De gebeurtenis voorvertonen en publiceren](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [Productvermeldingen gebruiken in een transactiebericht](../../designing/using/using-product-listings.md)
+* [Productaanbiedingen in een transactiebericht gebruiken](../../designing/using/using-product-listings.md)
 * [Transactiebericht publiceren](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## De gebeurtenis verrijken {#enriching-the-transactional-message-content}
@@ -173,7 +173,7 @@ De configuratie van de Transactionele gebeurtenis kan afhankelijk van [type tran
 
 In de volgende secties wordt gedetailleerd welke specifieke configuratie moet worden ingesteld op basis van het gewenste transactiebericht. Raadpleeg voor meer informatie over de algemene stappen om een gebeurtenis te configureren: [Een gebeurtenis maken](#creating-an-event).
 
-### Transactieberichten op basis van gebeurtenissen {#event-based-transactional-messages}
+### Transactieberichten die zijn gebaseerd op gebeurtenissen {#event-based-transactional-messages}
 
 U kunt doelgericht transactieberichten voor gebeurtenissen verzenden. Dit type transactieberichten bevat geen profielinformatie: het leveringsdoel wordt bepaald door de data in de gebeurtenis zelf.
 
@@ -181,7 +181,7 @@ Als u een op een gebeurtenis gebaseerd transactiebericht wilt verzenden, moet u 
 
 1. Selecteer bij het maken van de gebeurtenisconfiguratie de optie **[!UICONTROL Real-time event]** doelgerichtheid (zie [Een gebeurtenis maken](#creating-an-event)).
 1. Voeg velden toe aan de gebeurtenis om het transactiemelding aan te passen (zie [Gebeurteniskenmerken definiëren](#defining-the-event-attributes)).
-1. Het gebeurtenistransactiebericht wordt verondersteld om alleen de data in de verzendgebeurtenis zelf te gebruiken bij het bepalen van de ontvanger en de personalisatie van de berichtcontent.
+1. Het op gebeurtenis-gebaseerde transactieoverseinen wordt verondersteld om slechts de gegevens te gebruiken die in de verzonden gebeurtenis zijn om de ontvanger en de verpersoonlijking van de berichtinhoud te bepalen.
 
    Als u echter aanvullende informatie uit de Adobe Campaign-database wilt gebruiken, kunt u de inhoud van het transactiebericht verrijken (zie [De inhoud van transactiemeldingen verrijken](#enriching-the-transactional-message-content)).
 
@@ -193,7 +193,7 @@ Als u een op een gebeurtenis gebaseerd transactiebericht wilt verzenden, moet u 
 
 1. De gebeurtenis in uw website integreren (zie [De gebeurtenis die leidt tot integratie](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
 
-### Transactieberichten op basis van profiel {#profile-based-transactional-messages}
+### Transactieberichten op basis van profielen {#profile-based-transactional-messages}
 
 U kunt transactieberichten verzenden die op klantenprofielen worden gebaseerd, die u toestaat om de regels van de marketingtypologie toe te passen, de unsubscribe verbinding omvatten, het bericht toevoegen aan de globale levering rapportering en hefboomwerking het in de klantenreis.
 

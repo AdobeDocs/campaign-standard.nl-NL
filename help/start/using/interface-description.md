@@ -10,8 +10,8 @@ level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
 source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 77%
+source-wordcount: '1261'
+ht-degree: 76%
 
 ---
 
@@ -28,7 +28,7 @@ Alle Adobe Campaign-schermen bestaan uit de volgende elementen:
 
 ![](assets/ux_interface_01.png)
 
-## Startpagina {#home-page}
+## Homepage {#home-page}
 
 De startpagina bestaat uit een set kaarten waarmee u snel toegang hebt tot de belangrijkste functies van Adobe Campaign. De lijst met mogelijkheden op de startpagina van Campaign is afhankelijk van uw machtigingen en de opties die voor uw organisatie zijn geconfigureerd.
 
@@ -80,7 +80,7 @@ Met drie tabbladen kunt u hulp en hulp zoeken:
 1. De **[!UICONTROL Support]** kunt u een ondersteuningscase openen en telefonisch contact met ons opnemen (voorheen bekend als Twitter).
 1. De **[!UICONTROL Feedback]**  kunt u gemakkelijker problemen melden of uw ideeën delen.
 
-## Het menu Advanced {#advanced-menu}
+## Het menu Geavanceerd {#advanced-menu}
 
 Het geavanceerde menu wordt weergegeven door op de knop **Adobe Campaign** in de linkerbovenhoek van elk scherm. Het geavanceerde menu kan variëren afhankelijk van uw contract en gebruikersmachtigingen.
 
@@ -95,7 +95,7 @@ Het pictogram **[!UICONTROL Marketing plans]** geeft u toegang tot de volgende f
 * **[!UICONTROL Timeline]** - Raadpleeg de sectie [Tijdlijn](../../start/using/timeline.md) voor meer informatie.
 * **[!UICONTROL Transactional messages]** met de submenu&#39;s **[!UICONTROL Deliveries]** en **[!UICONTROL Event configuration]** - Raadpleeg de sectie [Transactieberichten](../../channels/using/getting-started-with-transactional-msg.md) voor meer informatie.
 
-### Profielen en doelgroepen {#profiles-e-audiences}
+### Profielen en publiek {#profiles-e-audiences}
 
 Het pictogram **[!UICONTROL Profiles & audiences]** geeft u toegang tot de volgende functies:
 

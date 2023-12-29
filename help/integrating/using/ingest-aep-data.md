@@ -8,8 +8,8 @@ level: Intermediate
 exl-id: 5c266c44-535b-4954-862d-74c83a6f6406
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 7%
+source-wordcount: '319'
+ht-degree: 6%
 
 ---
 
@@ -47,5 +47,5 @@ Voorbeelden van werkstromen voor gegevensbeheer zijn beschikbaar in het gedeelte
 
 Verwante onderwerpen:
 
-* [Data-managementactiviteiten](../../automating/using/about-data-management-activities.md)
+* [Gegevensbeheeractiviteiten](../../automating/using/about-data-management-activities.md)
 * [Informatie over gegevens importeren en exporteren](../../automating/using/about-data-import-and-export.md)

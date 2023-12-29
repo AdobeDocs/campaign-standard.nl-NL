@@ -43,7 +43,7 @@ Voor het afhandelen van een gebeurtenis in een workflow is een leveringssjabloon
 Deze sjabloon openen:
 
 1. Klik op de knop **Adobe** in de linkerbovenhoek.
-1. Selecteer **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
+1. Selecteren **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Controleer de **[!UICONTROL Follow-up messages]** in het linkerdeelvenster.
 
    ![](assets/message-center_follow-up-search.png)

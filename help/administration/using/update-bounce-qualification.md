@@ -6,12 +6,12 @@ hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 4%
+source-wordcount: '435'
+ht-degree: 2%
 
 ---
 
-# Kwalificatie van niet-bezorging bijwerken na een ISP-uitval {#update-bounce-qualification.md}
+# Bounce-kwalificatie bijwerken na een ISP-uitgang {#update-bounce-qualification.md}
 
 ## Context
 
@@ -50,4 +50,4 @@ Als u de lijst met betrokken ontvangers hebt, kunt u deze instellen op de status
 
 **Verwante onderwerpen:**
 * [Leveringsfouten begrijpen](../../sending/using/understanding-delivery-failures.md)
-* [Kwalificatie van niet-bezorgde e-mails](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
+* [Bounce mail-kwalificatie](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)

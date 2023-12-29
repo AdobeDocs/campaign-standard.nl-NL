@@ -127,7 +127,7 @@ Deze sectie bevat een lijst met functies en mogelijkheden die uit Campaign Stand
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Vanaf de release van Campagne 20.1 is SDK v4 afgekeurd. Het is nu verwijderd. <a href="https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html">Meer informatie</a>.</p><br/>
+   <td> <p> Vanaf de release van Campagne 20.1 is SDK v4 afgekeurd. Het is nu verwijderd. <a href="https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.htmlhtml?lang=bl">Meer informatie</a>.</p><br/>
    <p>De <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> (voorheen v5 genoemd) biedt nu exclusief ondersteuning voor toekomstige Adobe Experience Cloud-functies en -functionaliteit.</p>
    <p>Na 31 augustus kunnen 2021 klanten de versie 4 SDK's blijven downloaden en gebruiken, maar er is geen ondersteuning voor de klantenservice of toegang tot forums.</p>
    <p>Leer hoe u van SDK v4 naar Adobe Experience Platform Mobile SDK kunt migreren <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">op deze pagina</a>.</p></br>

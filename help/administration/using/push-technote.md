@@ -9,13 +9,13 @@ exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
 source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
 # Aanstaande wijzigingen in het kanaal voor pushmeldingen {#push-upgrade}
 
-Met Campagne kunt u pushmeldingen verzenden op Android- en iOS-apparaten. Om dit te doen, baseert de Campagne zich op de specifieke abonnementsdiensten. Enkele belangrijke wijzigingen in de FCM-service (Firebase Cloud Messaging) van Android worden in 2024 gepubliceerd en zijn van invloed op uw Adobe Campaign-implementatie. Daarnaast wijzigt de Adobe voor iOS-toepassingen de manier waarop beheerders certificaten kunnen configureren.
+Met Campagne kunt u pushmeldingen verzenden op Android- en iOS-apparaten. Om dit te doen, baseert de Campagne zich op de specifieke abonnementsdiensten. In 2024 komt er een versie met enkele belangrijke wijzigingen voor de service FCM (Android Firebase Cloud Messaging). Deze zullen van invloed zijn op uw Adobe Campaign-implementatie. Daarnaast wijzigt de Adobe voor iOS-toepassingen de manier waarop beheerders certificaten kunnen configureren.
 
 ## Wat is er veranderd? {#push-changes}
 

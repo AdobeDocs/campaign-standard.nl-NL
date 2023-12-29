@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 74%
+source-wordcount: '652'
+ht-degree: 70%
 
 ---
 
@@ -26,7 +26,7 @@ De stappen voor het publiceren, pauzeren, verwijderen en publiceren van een tran
 >
 >Alleen gebruikers met de [Administratie](../../administration/using/users-management.md#functional-administrators) de rol kan tot transactieberichten toegang hebben en publiceren.
 
-## Publicatieproces voor transactieberichten {#transactional-messaging-pub-process}
+## Transactieproces voor de publicatie van berichten {#transactional-messaging-pub-process}
 
 De grafiek hieronder illustreert het algemene proces van de transactionele berichtpublicatie.
 
@@ -35,7 +35,7 @@ De grafiek hieronder illustreert het algemene proces van de transactionele beric
 **Verwante onderwerpen:**
 * [Transactiebericht publiceren](#publishing-a-transactional-message)
 * [Een transactiebericht pauzeren](#suspending-a-transactional-message-publication)
-* [Het publiceren van een transactiebericht opheffen](#unpublishing-a-transactional-message)
+* [Het publiceren van een transactiemelding opheffen](#unpublishing-a-transactional-message)
 * [Een gebeurtenis publiceren](../../channels/using/publishing-transactional-event.md)
 
 <!--## Testing a transactional message {#testing-a-transactional-message}
@@ -103,7 +103,7 @@ Klik op de knop **[!UICONTROL Reports]** voor toegang tot rapporten over uw tran
 * [Een transactioneel bericht testen](../../channels/using/testing-transactional-message.md)
 * [De gebeurtenis die leidt tot integratie](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
-## Opschorting van de publicatie van een transactiebericht {#suspending-a-transactional-message-publication}
+## Opschorting van een transactiebericht {#suspending-a-transactional-message-publication}
 
 U kunt het publiceren van uw transactiebericht opschorten met behulp van de knop **[!UICONTROL Pause]**, bijvoorbeeld als u de data in het bericht wilt wijzigen. De gebeurtenissen worden daarom niet meer verwerkt, maar in plaats daarvan in een wachtrij in de Adobe Campaign-database opgeslagen.
 
@@ -113,7 +113,7 @@ De gebeurtenissen in de wachtrij worden bewaard gedurende een periode die is ged
 
 Na het klikken op **[!UICONTROL Resume]** worden alle gebeurtenissen in de wachtrij verwerkt (op voorwaarde dat deze niet verlopen zijn). Zij bevatten nu alle wijzigingen die zijn uitgevoerd terwijl de publicatie van de sjabloon was opgeschort.
 
-## Het publiceren van een transactiebericht opheffen {#unpublishing-a-transactional-message}
+## Het publiceren van een transactiemelding opheffen {#unpublishing-a-transactional-message}
 
 Door op **[!UICONTROL Unpublish]** te klikken, kunt de publicatie van transactionele berichten en de publicatie van de overeenkomstige gebeurtenis annuleren, waardoor de resource overeenkomend aan de eerder aangemaakte gebeurtenis uit de REST API wordt verwijderd.
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 64%
+source-wordcount: '1281'
+ht-degree: 62%
 
 ---
 
@@ -78,7 +78,7 @@ De mogelijke redenen van een leveringsfout zijn:
 * [Harde vlekken](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
 * [Zachte golven](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
-## Nieuwe pogingen na een tijdelijke leveringsfout {#retries-after-a-delivery-temporary-failure}
+## Retourneert na een tijdelijke leverfout {#retries-after-a-delivery-temporary-failure}
 
 Als een bericht mislukt als gevolg van een tijdelijke fout, worden de pogingen opnieuw uitgevoerd tijdens de leveringsduur. Raadpleeg [Typen leveringsfouten en redenen](#delivery-failure-types-and-reasons) voor meer informatie over de typen fouten.
 
@@ -108,7 +108,7 @@ Een levering kan onmiddellijk mislukken (synchrone fout), of later nadat het is 
 * **Synchrone fout**: Als de externe server waarmee contact is opgenomen door de Adobe Campaign-leveringsserver onmiddellijk een foutbericht retourneert, mag de levering niet naar de server van het profiel worden verzonden.
 * **Asynchrone fout**: Een niet-bezorgde e-mail of een SR is later opnieuw verzonden door de ontvangende server. Asynchrone fouten kunnen optreden tot een week nadat een levering is verzonden.
 
-## Kwalificatie van niet-bezorgde e-mails {#bounce-mail-qualification}
+## Bounce mail-kwalificatie {#bounce-mail-qualification}
 
 Voor de synchrone foutenmeldingen van de leveringsmislukking, bepaalt Adobe Campaign Verbeterde MTA (de Agent van de Overdracht van het Bericht) het stuittype en de kwalificatie, en stuurt die informatie terug naar Campagne.
 

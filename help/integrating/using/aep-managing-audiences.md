@@ -13,8 +13,8 @@ hide: true
 hidefromtoc: true
 source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 3%
+source-wordcount: '381'
+ht-degree: 2%
 
 ---
 
@@ -64,7 +64,7 @@ Ga als volgt te werk om een Adobe Experience Platform-publiek rechtstreeks in Ca
 
 Het publiek is nu klaar om te worden geactiveerd, kunt u het gebruiken als doel voor uw campagnes (zie [Adobe Experience Platform-doelgroepen](../../integrating/using/aep-targeting-audiences.md)).
 
-## Doelgroepen bewerken
+## Soorten publiek bewerken
 
 Om een publiek uit te geven, open het en wijzig de regels zoals nodig binnen de interface van de Bouwer van het Segment (zie [De Segment Builder gebruiken](../../integrating/using/aep-using-segment-builder.md)).
 

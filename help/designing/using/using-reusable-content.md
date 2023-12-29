@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 1%
+source-wordcount: '1812'
+ht-degree: 0%
 
 ---
 
@@ -301,7 +301,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 Maak met de e-mailontwerper een fragment voor elke herbruikbare sectie. In dit voorbeeld maakt u twee fragmenten: een voor de koptekst en een voor de voettekst. Vervolgens kunt u de relevante onderdelen van uw bestaande inhoud naar deze fragmenten kopiëren.
 
-Volg de onderstaande stappen om dit te doen:
+Hiervoor voert u de volgende stappen uit:
 
 1. Ga in Adobe Campaign naar **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** en maak een fragment voor de koptekst. Zie voor meer informatie [Een inhoudsfragment maken](#creating-a-content-fragment).
 1. Voeg zoveel structuurcomponenten aan het fragment toe als u nodig hebt.

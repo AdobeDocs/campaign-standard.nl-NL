@@ -12,7 +12,7 @@ exl-id: f611e023-f74c-476e-83b9-aff451f68c81
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 38%
+ht-degree: 32%
 
 ---
 
@@ -24,7 +24,7 @@ U kunt een voorstel via e-mail verzenden op de dag dat de klant het profiel heef
 1. Selecteer **[!UICONTROL New Workflow]** als workflowtype en klik op **[!UICONTROL Next]**.
 1. Voer de eigenschappen van de workflow in en klik op **[!UICONTROL Create]**.
 
-## Een activiteit Planner maken {#creating-a-scheduler-activity}
+## Een planningsactiviteit maken {#creating-a-scheduler-activity}
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, een [Planner](../../automating/using/scheduler.md) activiteit.
 1. Dubbelklik op de activiteit.
@@ -40,7 +40,7 @@ U kunt een voorstel via e-mail verzenden op de dag dat de klant het profiel heef
 
 ![](assets/time_zone.png)
 
-## Een queryactiviteit maken {#creating-a-query-activity}
+## Query-activiteiten maken {#creating-a-query-activity}
 
 1. Als u ontvangers wilt selecteren, sleept u een [Query](../../automating/using/query.md) en dubbelklik erop.
 1. Toevoegen **[!UICONTROL Profiles]** en selecteert u **[!UICONTROL no longer contact by email]** met de waarde **[!UICONTROL no]**.
@@ -93,11 +93,11 @@ De uiteindelijke query wordt weergegeven:
 1. Voer de e-maileigenschappen in en klik op **[!UICONTROL Next]**.
 1. Klik op **[!UICONTROL Email Designer]** om de lay-out van uw e-mail te bepalen.
 1. Voeg elementen in of selecteer een bestaande sjabloon.
-1. Personaliseer uw e-mail met velden en koppelingen.
+1. Pas uw e-mail aan met behulp van velden en koppelingen.
 Zie [Een e-mail ontwerpen](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch) voor meer informatie.
 1. Klik op **[!UICONTROL Preview]** om uw lay-out te controleren.
 1. Klik op **[!UICONTROL Save]**.
 
 **Verwante onderwerpen:**
 
-* [E-mailkanaal](../../channels/using/creating-an-email.md)
+* [Email channel](../../channels/using/creating-an-email.md)

@@ -11,7 +11,7 @@ exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
 source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
 source-wordcount: '1038'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -146,7 +146,7 @@ Hieronder vindt u de beschikbare achtergrondinstellingen die u kunt gebruiken.
 
 ### Voorbeeld: verticale uitlijning en opvulling aanpassen {#example--adjusting-vertical-alignment-and-padding}
 
-U wilt de opvulling en de verticale uitlijning aanpassen binnen een structuurcomponent die uit drie kolommen bestaat. Volg de onderstaande stappen om dit te doen:
+U wilt de opvulling en de verticale uitlijning aanpassen binnen een structuurcomponent die uit drie kolommen bestaat. Hiervoor voert u de volgende stappen uit:
 
 1. Selecteer de structuurcomponent rechtstreeks in de e-mail of met behulp van de boomstructuur die beschikbaar is aan de linkerkant **Palet**.
 1. Van de **contextwerkbalk**, klikt u op **[!UICONTROL Select a column]** en kiest u het bestand dat u wilt bewerken. U kunt deze ook selecteren in de boomstructuur.
@@ -155,7 +155,7 @@ U wilt de opvulling en de verticale uitlijning aanpassen binnen een structuurcom
 
    De bewerkbare parameters voor die kolom worden weergegeven in het dialoogvenster **[!UICONTROL Settings]** aan de rechterkant.
 
-1. Selecteer onder **[!UICONTROL Vertical alignment]** de optie **[!UICONTROL Up]**.
+1. Onder **[!UICONTROL Vertical alignment]**, selecteert u **[!UICONTROL Up]**.
 
    ![](assets/des_vertical_alignment.png)
 

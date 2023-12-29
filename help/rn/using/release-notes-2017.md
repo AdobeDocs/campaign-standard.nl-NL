@@ -8,8 +8,8 @@ hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '4562'
-ht-degree: 8%
+source-wordcount: '4572'
+ht-degree: 3%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 8%
  <tbody> 
   <tr> 
    <td> Vermoeidheidsbeheer<br /> </td> 
-   <td> Met vermoeidheidsbeheer kunt u vermoeidheidsregels maken om overcommunicatie met profielen te beheren. De regels van de vermoeidheid worden gemakkelijk gebouwd, maar zijn uiterst flexibel met mogelijkheden zoals het tellen van berichten over veelvoudige kanalen (met inbegrip van transactionele berichten), slechts het tellen van specifieke leveringen, of het toepassen van regels op specifieke profielen.<br /> Raadpleeg de <a href="../../sending/using/fatigue-rules.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Met vermoeidheidsbeheer kunt u vermoeidheidsregels maken om overcommunicatie met profielen te beheren. De regels van de vermoeidheid worden gemakkelijk gebouwd, maar zijn uiterst flexibel met mogelijkheden zoals het tellen van berichten over veelvoudige kanalen (met inbegrip van transactionele berichten), slechts het tellen van specifieke leveringen, of het toepassen van regels op specifieke profielen.<br /> Raadpleeg voor meer informatie de <a href="../../sending/using/fatigue-rules.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Inhoud maken: importeren via een URL<br /> </td> 
-   <td> Importeren vanaf een URL biedt u de mogelijkheid om uw creatieve inhoud snel van een website op te halen en e-mails samen te stellen voor elke levering. Bovendien kunt u uw creatieve proces stroomlijnen door derden in staat te stellen inhoud rechtstreeks via een URL te delen. Geïmporteerde inhoud kan op flexibele wijze worden gebruikt als onderdeel van één levering of op sjabloonniveau, zodat alle gerelateerde campagnes, ongeacht of het workflowberichten of transactiemeldingen betreft, consistent blijven en A/B- of multivariate tests bevatten. Importeren van een URL converteert en volgt automatisch alle koppelingen om de e-mailprestaties te controleren via Dynamic Reporting.<br /> Raadpleeg de <a href="../../designing/using/using-existing-content.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Importeren vanaf een URL biedt u de mogelijkheid om uw creatieve inhoud snel van een website op te halen en e-mails samen te stellen voor elke levering. Bovendien kunt u uw creatieve proces stroomlijnen door derden in staat te stellen inhoud rechtstreeks via een URL te delen. Geïmporteerde inhoud kan op flexibele wijze worden gebruikt als onderdeel van één levering of op sjabloonniveau, zodat alle gerelateerde campagnes, ongeacht of het workflowberichten of transactiemeldingen betreft, consistent blijven en A/B- of multivariate tests bevatten. Importeren van een URL converteert en volgt automatisch alle koppelingen om de e-mailprestaties te controleren via Dynamic Reporting.<br /> Raadpleeg voor meer informatie de <a href="../../designing/using/using-existing-content.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +80,7 @@ _Workflows_
 * Probleem met de **[!UICONTROL Reconciliation]** activiteit.
 * Probleem verholpen met het gebruik van jokertekens in het dialoogvenster **[!UICONTROL File Transfer]** activiteit.
 
-_Profielen en doelgroepen_
+_Profielen en publiek_
 
 * Probleem verholpen waardoor in bepaalde specifieke gevallen geen correcte rekening kon worden gehouden met een voorwaarde voor een query, wat tot onjuiste resultaten zou kunnen leiden.
 * Probleem verholpen waardoor profielen niet konden worden geopend als ze waren bestemd voor een bericht dat was voorbereid, maar dat nooit was verzonden en verlopen.
@@ -108,15 +108,15 @@ _Aangepaste resources_
  <tbody> 
   <tr> 
    <td> Bibliotheek van e-mailsjablonen<br /> </td> 
-   <td> Maak kennis met achttien gloednieuwe responsieve sjablonen die zijn ontworpen in twee prachtige thema's: Astro en Doezelaar. Deze aanpasbare sjablonen zijn in de branche agnostisch en kunnen meteen worden gebruikt. Sjablonen bevatten inhoud voor verschillende gebruiksgevallen, zodat uw e-mailmarketingcampagnes sneller, efficiënter en mooier dan ooit kunnen worden ontworpen en geleverd.<br /> Raadpleeg de <a href="../../designing/using/using-reusable-content.md#content-templates">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Maak kennis met achttien gloednieuwe responsieve sjablonen die zijn ontworpen in twee prachtige thema's: Astro en Doezelaar. Deze aanpasbare sjablonen zijn in de branche agnostisch en kunnen meteen worden gebruikt. Sjablonen bevatten inhoud voor verschillende gebruiksgevallen, zodat uw e-mailmarketingcampagnes sneller, efficiënter en mooier dan ooit kunnen worden ontworpen en geleverd.<br /> Raadpleeg voor meer informatie de <a href="../../designing/using/using-reusable-content.md#content-templates">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dynamische rapportage met profielgegevens<br /> </td> 
-   <td> De dynamische Rapportering verstrekt volledig klantgerichte en bedrijfsrapporten in real time. Met deze release biedt een krachtige uitbreiding van Dynamic Reporting toegang tot profielgegevens, waardoor demografische analyse mogelijk wordt op basis van profieldimensies zoals geslacht, stad, postcode en leeftijd, en naast functionele e-mailcampagnecampagne, zoals geopend en geklikt. Met de zelfde makkelijk te gebruiken belemmering-en-dalingsinterface, bepalend hoe uw e-mailcampagne tegen uw belangrijkste klantensegmenten wordt uitgevoerd gemakkelijker dan ooit.<br /> Raadpleeg de <a href="../../reporting/using/about-dynamic-reports.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> De dynamische Rapportering verstrekt volledig klantgerichte en bedrijfsrapporten in real time. Met deze release biedt een krachtige uitbreiding van Dynamic Reporting toegang tot profielgegevens, waardoor demografische analyse mogelijk wordt op basis van profieldimensies zoals geslacht, stad, postcode en leeftijd, en naast functionele e-mailcampagnecampagne, zoals geopend en geklikt. Met de zelfde makkelijk te gebruiken belemmering-en-dalingsinterface, bepalend hoe uw e-mailcampagne tegen uw belangrijkste klantensegmenten wordt uitgevoerd gemakkelijker dan ooit.<br /> Raadpleeg voor meer informatie de <a href="../../reporting/using/about-dynamic-reports.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Abonnement voor massa met oorsprong en datum<br /> </td> 
-   <td> Met deze Mass Subscription-uitbreiding kunt u nu abonnementsgegevens (oorsprong en datum) rechtstreeks in de Adobe Campaign Standard-database opslaan via de activiteit Subscription Services in een workflow.<br /> Raadpleeg de <a href="../../automating/using/subscription-services.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Met deze Mass Subscription-uitbreiding kunt u nu abonnementsgegevens (oorsprong en datum) rechtstreeks in de Adobe Campaign Standard-database opslaan via de activiteit Subscription Services in een workflow.<br /> Raadpleeg voor meer informatie de <a href="../../automating/using/subscription-services.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -135,7 +135,7 @@ _E-mail, SMS-berichten en direct mail_
 * Nu wanneer een verpletterende externe rekening gehandicapt is, wordt een waarschuwing getoond in de beïnvloede leveringen (e-mail, SMS en duw) en **Voorvertoning** wordt verborgen in deze leveringen.
 * Probleem verholpen dat een fout veroorzaakte in de voorvertoning van een A/B-test op de e-mailinhoud toen dynamische tekst werd ingeschakeld op de onderwerpregel.
 
-_Transactionele berichten_
+_Transactieberichten_
 
 * Het is nu mogelijk om te bepalen wanneer u een vervolgbericht wilt verzenden, bijvoorbeeld 3 dagen nadat een transactiebericht is verzonden. Raadpleeg de [gedetailleerde documentatie](../../channels/using/follow-up-messages.md#sending-a-follow-up-message) voor meer informatie.
 * Het is nu mogelijk om de datum te bepalen vanaf wanneer de aan een gebeurtenis gekoppelde transactieberichten moeten worden verzonden.
@@ -161,7 +161,7 @@ _Integraties_
 * Vars en gebeurtenissen worden nu ondersteund voor de integratie van Analytics &amp; Campagne.
 * Wanneer u een e-mail verzendt met de inhoud van de verlaten winkelwagen, is de parameter voor het laden van elementen die uit winkelwagentje zijn verwijderd nu optioneel.
 
-_Profielen en doelgroepen_
+_Profielen en publiek_
 
 * Adobe Campaign biedt nu een rapport waarin het aantal actieve profielen wordt weergegeven. Dit rapport is slechts informatief, het heeft geen directe invloed op het factureren. Raadpleeg de [gedetailleerde documentatie](../../audiences/using/active-profiles.md) voor meer informatie.
 * Probleem verholpen waardoor profielen niet op een service konden worden geabonneerd wanneer de API voor profielen en services werd gebruikt.
@@ -180,27 +180,27 @@ _Profielen en doelgroepen_
  <tbody> 
   <tr> 
    <td> Meertalige e-mail- en sms-leveringen<br /> </td> 
-   <td> Bepaal en voer meertalige e-mail &amp; SMS-leveringen uit door één enkele levering op basis van de voorkeurstaal van uw automatisch gesegmenteerde klanten. Rapporteer over de prestaties van elke levering, inclusief de taal en individuele niveaus.<br /> Steeds meer bedrijven worden geconfronteerd met de uitdaging om content in meerdere talen te leveren terwijl ze in eigen land en in het buitenland groeien. Als zodanig vormt het stroomlijnen van de gelokaliseerde berichtenlevering een essentieel onderdeel van een effectieve strategie voor klantcommunicatie voor multinationale ondernemingen, bedrijven in landen met meerdere talen en bedrijven die hun inhoud op taalkundig niveau verder willen aanpassen, ongeacht waar klanten zich bevinden. Raadpleeg de <a href="../../channels/using/creating-a-multilingual-email.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Bepaal en voer meertalige e-mail &amp; SMS-leveringen uit door één enkele levering op basis van de voorkeurstaal van uw automatisch gesegmenteerde klanten. Rapporteer over de prestaties van elke levering, inclusief de taal en individuele niveaus.<br /> Steeds meer bedrijven worden geconfronteerd met de uitdaging om content in meerdere talen te leveren terwijl ze in eigen land en in het buitenland groeien. Als zodanig vormt het stroomlijnen van de gelokaliseerde berichtenlevering een essentieel onderdeel van een effectieve strategie voor klantcommunicatie voor multinationale ondernemingen, bedrijven in landen met meerdere talen en bedrijven die hun inhoud op taalkundig niveau verder willen aanpassen, ongeacht waar klanten zich bevinden. Raadpleeg voor meer informatie de <a href="../../channels/using/creating-a-multilingual-email.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Campaign-meldingen<br /> </td> 
-   <td> Ontvang meldingen over belangrijke systeemactiviteiten rechtstreeks in Adobe Campaign Standard. U wordt bijvoorbeeld op de hoogte gesteld van de voortgang van de lopende leveringen of wanneer een workflow een fout bevat.<br /> Kennisgevingen in realtime houden relevante belanghebbenden op de hoogte en bieden gebruikers de mogelijkheid om onmiddellijk en rechtstreeks te reageren op activiteitenmeldingen vanuit de toepassing. Het resultaat voor teams is geavanceerde behendigheid, efficiency en vlottere uitvoering van campagnes. Raadpleeg de <a href="../../administration/using/sending-internal-notifications.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Ontvang meldingen over belangrijke systeemactiviteiten rechtstreeks in Adobe Campaign Standard. U wordt bijvoorbeeld op de hoogte gesteld van de voortgang van de lopende leveringen of wanneer een workflow een fout bevat.<br /> Kennisgevingen in realtime houden relevante belanghebbenden op de hoogte en bieden gebruikers de mogelijkheid om onmiddellijk en rechtstreeks te reageren op activiteitenmeldingen vanuit de toepassing. Het resultaat voor teams is geavanceerde behendigheid, efficiency en vlottere uitvoering van campagnes. Raadpleeg voor meer informatie de <a href="../../administration/using/sending-internal-notifications.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Leveringswaarschuwing<br /> </td> 
-   <td> Naast het rechtstreeks bekijken van berichten in Adobe Campaign Standard, biedt Adobe Campaign nu ook een e-mailwaarschuwingssysteem om e-mailwaarschuwingen aan gebruikers of externe belanghebbenden over belangrijke systeemactiviteiten te activeren. Maak, beheer en ontvang aanpasbare waarschuwingen en dashboards om de resultaten of mislukkingen van de levering bij te houden.<br /> Adobe Campaign Delivery Alerting verhoogt de efficiëntie door alle betrokken Adobe Campaign-gebruikers automatisch via e-mail en dashboard op de hoogte te houden van de uitvoeringsstatus van de levering. Raadpleeg de <a href="../../sending/using/receiving-alerts-when-failures-happen.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Naast het rechtstreeks bekijken van berichten in Adobe Campaign Standard, biedt Adobe Campaign nu ook een e-mailwaarschuwingssysteem om e-mailwaarschuwingen aan gebruikers of externe belanghebbenden over belangrijke systeemactiviteiten te activeren. Maak, beheer en ontvang aanpasbare waarschuwingen en dashboards om de resultaten of mislukkingen van de levering bij te houden.<br /> Adobe Campaign Delivery Alerting verhoogt de efficiëntie door alle betrokken Adobe Campaign-gebruikers automatisch via e-mail en dashboard op de hoogte te houden van de uitvoeringsstatus van de levering. Raadpleeg voor meer informatie de <a href="../../sending/using/receiving-alerts-when-failures-happen.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Versleutelde gedeclareerde id in gegevensbronnen<br /> </td> 
-   <td> Verzend e-mail en de trekkers van SMS zonder de behoefte aan een bestaand profiel in Campagne door gecodeerde contactinformatie (e-mailadres of telefoonaantal) als Verklaarde identiteitskaart te gebruiken Omdat gecodeerde opgegeven id's door Adobe Campaign Standard kunnen worden gedecodeerd, kan Campagne nu nieuwe verhandelbare profielen maken wanneer gebruikers van andere oplossingen voor Experiencen Cloud met eerder onbekende contactpersonen worden benaderd.<br /> De klanten van het doel en onbekende vooruitzichten in real time door zowel e-mail als SMS om loyaliteit in uw bestaande klantenbasis te verbeteren en nieuwe klanten te verwerven. Maak optimaal gebruik van uw first-party cookie data (vanuit Adobe Audience Manager*) wanneer perspectief verifieert en gebruik deze inzichten in Adobe Campaign. <br /> *Adobe Audience Manager is vereist. Raadpleeg de <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Verzend e-mail en de trekkers van SMS zonder de behoefte aan een bestaand profiel in Campagne door gecodeerde contactinformatie (e-mailadres of telefoonaantal) als Verklaarde identiteitskaart te gebruiken Omdat gecodeerde opgegeven id's door Adobe Campaign Standard kunnen worden gedecodeerd, kan Campagne nu nieuwe verhandelbare profielen maken wanneer gebruikers van andere oplossingen voor Experiencen Cloud met eerder onbekende contactpersonen worden benaderd.<br /> De klanten van het doel en onbekende vooruitzichten in real time door zowel e-mail als SMS om loyaliteit in uw bestaande klantenbasis te verbeteren en nieuwe klanten te verwerven. Maak optimaal gebruik van uw first-party cookie data (vanuit Adobe Audience Manager*) wanneer perspectief verifieert en gebruik deze inzichten in Adobe Campaign. <br /> *Adobe Audience Manager is vereist. Raadpleeg voor meer informatie de <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> KPI delen van campagne naar analyse<br /> </td> 
-   <td> Deel campagnegegevens met Adobe Analytics om de cijfers voor e-mailmarketing van Campaign te meten in combinatie met andere marketing- en reclameactiviteiten door middel van conversie, waarbij het gedrag voor en na het klikken wordt verenigd.<br /> De algemene prestaties rechtstreeks volgen en synergieën met externe programma's in Analytics aan het licht brengen. Pas uw kennis van deze geconsolideerde weergave weer toe op uw campagnes; u verbetert uiteindelijk de openstaande, doorklikwaarden en de conversiekoersen en verhoogt zo de omzet en de algehele prestaties van de campagne. <br /> Adobe Analytics is vereist. Raadpleeg de <a href="../../integrating/using/about-campaign-analytics-integration.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Deel campagnegegevens met Adobe Analytics om de cijfers voor e-mailmarketing van Campaign te meten in combinatie met andere marketing- en reclameactiviteiten door middel van conversie, waarbij het gedrag voor en na het klikken wordt verenigd.<br /> De algemene prestaties rechtstreeks volgen en synergieën met externe programma's in Analytics aan het licht brengen. Pas uw kennis van deze geconsolideerde weergave weer toe op uw campagnes; u verbetert uiteindelijk de openstaande, doorklikwaarden en de conversiekoersen en verhoogt zo de omzet en de algehele prestaties van de campagne. <br /> Adobe Analytics is vereist. Raadpleeg voor meer informatie de <a href="../../integrating/using/about-campaign-analytics-integration.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Direct Mail Channel - Terugkeer naar afzender<br /> </td> 
-   <td> Platte bestandsuitwisselingen met Direct Mail-providers die informatie over terugsturen bevatten, worden nu ondersteund. Dankzij deze uitbreiding van het Direct Mail-kanaal kunnen de overeenkomstige postadressen van toekomstige communicatie worden uitgesloten.<br /> Op deze manier kunnen marketers op de hoogte worden gesteld van een onjuist adres en via andere kanalen contact opnemen met de klant of hen aanmoedigen hun postadres bij te werken. Dit vermindert ook het aantal verspilde marketingdollars aangezien de marketers vermijden verzendend post naar onjuiste adressen. <br /> Direct Mail is beschikbaar als een add-on kanaal. Raadpleeg de <a href="../../channels/using/return-to-sender.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Platte bestandsuitwisselingen met Direct Mail-providers die informatie over terugsturen bevatten, worden nu ondersteund. Dankzij deze uitbreiding van het Direct Mail-kanaal kunnen de overeenkomstige postadressen van toekomstige communicatie worden uitgesloten.<br /> Op deze manier kunnen marketers op de hoogte worden gesteld van een onjuist adres en via andere kanalen contact opnemen met de klant of hen aanmoedigen hun postadres bij te werken. Dit vermindert ook het aantal verspilde marketingdollars aangezien de marketers vermijden verzendend post naar onjuiste adressen. <br /> Direct Mail is beschikbaar als een add-on kanaal. Raadpleeg voor meer informatie de <a href="../../channels/using/return-to-sender.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -255,12 +255,12 @@ _Workflows_
  </thead> 
  <tbody> 
   <tr> 
-   <td> Direct mail<br /> </td> 
-   <td> Doorbreek de digitale barrière en verbind met de fysieke wereld met het eerste off-line kanaal van Adobe Campaign Standard, Direct Mail. Met deze functie kunt u het bestand dat door directe-mailproviders wordt vereist, aanpassen en genereren als onderdeel van de campagnes voor meerdere kanalen. Gebruik Direct Mail om klanten opnieuw aan te trekken of om de klantervaring te verbeteren met een aansprekend aanraakpunt dat klanten naar uw app, website of winkel stuurt.<br /> Raadpleeg de <a href="../../channels/using/about-direct-mail.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Directe post<br /> </td> 
+   <td> Doorbreek de digitale barrière en verbind met de fysieke wereld met het eerste off-line kanaal van Adobe Campaign Standard, Direct Mail. Met deze functie kunt u het bestand dat door directe-mailproviders wordt vereist, aanpassen en genereren als onderdeel van de campagnes voor meerdere kanalen. Gebruik Direct Mail om klanten opnieuw aan te trekken of om de klantervaring te verbeteren met een aansprekend aanraakpunt dat klanten naar uw app, website of winkel stuurt.<br /> Raadpleeg voor meer informatie de <a href="../../channels/using/about-direct-mail.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> BCC e-mailen<br /> </td> 
-   <td> Met e-mail BCC kunt u unieke e-mailberichten opslaan die naar individuele ontvangers zijn verzonden, zodat het merk deze berichten kan archiveren. Door een BCC e-mailadres aan alle e-mails toe te voegen, kunnen Adobe Campaign Standard-klanten een exacte kopie van elke e-mail bewaren met deze functie. Dit is een algemene wettelijke vereiste voor de financiële dienstenindustrie en is nuttig in het helpen van de centra van de klantendienst bij het oplossen van conflicten in echt - tijd.<br /> Raadpleeg de <a href="../../sending/using/archiving.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Met e-mail BCC kunt u unieke e-mailberichten opslaan die naar individuele ontvangers zijn verzonden, zodat het merk deze berichten kan archiveren. Door een BCC e-mailadres aan alle e-mails toe te voegen, kunnen Adobe Campaign Standard-klanten een exacte kopie van elke e-mail bewaren met deze functie. Dit is een algemene wettelijke vereiste voor de financiële dienstenindustrie en is nuttig in het helpen van de centra van de klantendienst bij het oplossen van conflicten in echt - tijd.<br /> Raadpleeg voor meer informatie de <a href="../../sending/using/archiving.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -303,19 +303,19 @@ _Pushmeldingen_
  <tbody> 
   <tr> 
    <td> Verbeterde mogelijkheden voor Image Edition met de Creative SDK<br /> </td> 
-   <td> U hebt nu toegang tot een volledige set functies die door de Creative SDK worden gevoed om uw afbeeldingen direct in de inhoudeditor te verbeteren tijdens het bewerken van e-mails of het landen van pagina's.<br /> Voor deze functie hoeft u geen aanvullende oplossingen voor Creatives Cloud aan te schaffen.<br /> Raadpleeg de <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> U hebt nu toegang tot een volledige set functies die door de Creative SDK worden gevoed om uw afbeeldingen direct in de inhoudeditor te verbeteren tijdens het bewerken van e-mails of het landen van pagina's.<br /> Voor deze functie hoeft u geen aanvullende oplossingen voor Creatives Cloud aan te schaffen.<br /> Raadpleeg voor meer informatie de <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Transactionele pushmeldingen<br /> </td> 
-   <td> Het mobiele toepassingskanaal is toegevoegd aan de mogelijkheden voor transactiemeldingen van Adobe Campaign. Er worden nu drie kanalen ondersteund voor transactieberichten: e-mail, SMS en pushberichten.<br /> Raadpleeg de <a href="../../channels/using/transactional-push-notifications.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Het mobiele toepassingskanaal is toegevoegd aan de mogelijkheden voor transactiemeldingen van Adobe Campaign. Er worden nu drie kanalen ondersteund voor transactieberichten: e-mail, SMS en pushberichten.<br /> Raadpleeg voor meer informatie de <a href="../../channels/using/transactional-push-notifications.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Pushmeldingen herstellen<br /> </td> 
-   <td> U kunt terugkerende pushmeldingen nu configureren in een workflow. U kunt terugkerende pushmeldingen gebruiken in situaties waarin uw klanten periodieke updates zoals wekelijkse herinneringen verwachten om nieuwe inhoud of promoties uit te checken.<br /> Raadpleeg de <a href="../../automating/using/push-notification-delivery.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> U kunt terugkerende pushmeldingen nu configureren in een workflow. U kunt terugkerende pushmeldingen gebruiken in situaties waarin uw klanten periodieke updates zoals wekelijkse herinneringen verwachten om nieuwe inhoud of promoties uit te checken.<br /> Raadpleeg voor meer informatie de <a href="../../automating/using/push-notification-delivery.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Amazon Simple Storage Service (S3)-connector<br /> </td> 
-   <td> De Amazon Simple Storage Service (S3)-connector kan nu worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campaign. Deze kan worden ingesteld in een workflowactiviteit. De configuratie wordt uitgevoerd in een externe account.<br /> Raadpleeg de <a href="../../administration/using/external-accounts.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> De Amazon Simple Storage Service (S3)-connector kan nu worden gebruikt voor het importeren of exporteren van gegevens naar Adobe Campaign. Deze kan worden ingesteld in een workflowactiviteit. De configuratie wordt uitgevoerd in een externe account.<br /> Raadpleeg voor meer informatie de <a href="../../administration/using/external-accounts.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dreamweaver-integratie live<br /> </td> 
@@ -339,11 +339,11 @@ _E-mails en SMS-berichten_
 * Probleem verholpen dat tot een fout leidde bij het weergeven van de bijgehouden URL&#39;s van een levering zonder URL in de inhoud.
 * Probleem verholpen waarbij de groottekenmerken van een afbeelding niet correct werden toegepast in het verzonden bericht.
 
-_Transactionele berichten_
+_Transactieberichten_
 
 * Het veld rtEventHistoId wordt niet meer weergegeven als een personalisatieveld in een transactiemalplaatje.
 
-_Landingspagina’s_
+_Openingspagina&#39;s_
 
 * We hebben de **[!UICONTROL by email]** filter gebruikt in het landen van pagina&#39;s om nieuwe abonnees met gegevensbestandprofielen te verzoenen.
 * Probleem verholpen waarbij bij het gebruik van Booleaanse velden in een formulierconfiguratie vrije tekstinvoer in plaats van selectievakjes werd weergegeven.
@@ -388,7 +388,7 @@ _Pushmeldingen_
  <tbody> 
   <tr> 
    <td> Dynamische rapportage<br /> </td> 
-   <td> De dynamische Rapportering verstrekt een nieuwe generatie volledig klantgerichte en bedrijfsrapporten in real time. Met deze functie, die is gebaseerd op visuele dynamische draaitabellen en afbeeldingen, kunt u variabelen en dimensies slepen en neerzetten om de efficiëntie en effectiviteit van uw marketingcampagnes te analyseren. Dynamische rapportering stelt u ook in staat om uw eigen bedrijfsrapporten helemaal zelf te maken en deze op te slaan voor later gebruik.<br /> Raadpleeg de <a href="../../reporting/using/about-dynamic-reports.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> De dynamische Rapportering verstrekt een nieuwe generatie volledig klantgerichte en bedrijfsrapporten in real time. Met deze functie, die is gebaseerd op visuele dynamische draaitabellen en afbeeldingen, kunt u variabelen en dimensies slepen en neerzetten om de efficiëntie en effectiviteit van uw marketingcampagnes te analyseren. Dynamische rapportering stelt u ook in staat om uw eigen bedrijfsrapporten helemaal zelf te maken en deze op te slaan voor later gebruik.<br /> Raadpleeg voor meer informatie de <a href="../../reporting/using/about-dynamic-reports.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dreamweaver-integratie (Labs)<br /> </td> 
@@ -400,7 +400,7 @@ _Pushmeldingen_
     <ul> 
      <li> Alle ontvangers ontvangen het bericht met hun tijdzone in rekening gebracht. </li> 
      <li> Elke ontvanger ontvangt het bericht op een gegevens verwerkte datum en tijd die door een formule wordt bepaald. </li> 
-    </ul> Raadpleeg de <a href="../../sending/using/optimizing-the-sending-time.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+    </ul> Raadpleeg voor meer informatie de <a href="../../sending/using/optimizing-the-sending-time.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Nieuwe mogelijkheden voor pushmeldingen<br /> </td> 
@@ -411,7 +411,7 @@ _Pushmeldingen_
      <li> Interactieve push </li> 
      <li> Ondersteuning voor rijke inhoud </li> 
      <li> calculator voor downloadgrootte </li> 
-    </ul> Raadpleeg de <a href="../../channels/using/about-push-notifications.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+    </ul> Raadpleeg voor meer informatie de <a href="../../channels/using/about-push-notifications.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Workflows: nieuwe signaalactiviteit<br /> </td> 
@@ -419,19 +419,19 @@ _Pushmeldingen_
     <ul> 
      <li> <span class="uicontrol">Einde</span> activiteit: op een nieuw tabblad kunt u een workflow opgeven die wordt geactiveerd nadat deze activiteit is uitgevoerd. </li> 
      <li> <span class="uicontrol">Gegevens bijwerken</span> activiteit: gebruik de nieuwe lege uitgaande overgang om een <strong>Einde</strong> activiteit die een andere workflow activeert. Lege uitgaande overgangen bevatten geen gegevens en nemen geen overbodige ruimte in het systeem in beslag </li> 
-    </ul> Raadpleeg de <a href="../../automating/using/external-signal.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+    </ul> Raadpleeg voor meer informatie de <a href="../../automating/using/external-signal.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Workflows: nieuwe activiteit voor publiek lezen<br /> </td> 
-   <td> Start uw doelproces met een bestaand publiek dat u eenvoudig kunt selecteren en verfijnen in één activiteit.<br /> Raadpleeg de <a href="../../automating/using/read-audience.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Start uw doelproces met een bestaand publiek dat u eenvoudig kunt selecteren en verfijnen in één activiteit.<br /> Raadpleeg voor meer informatie de <a href="../../automating/using/read-audience.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Gegevens over punten van belangstelling<br /> </td> 
-   <td> Punten van interessegegevens integreren Adobe Campaign met Adobe Analytics for Mobile. Een merk kan gegevens verzamelen van mobiele locaties van gebruikers - ook wel <strong>Belangenpunten</strong> - wanneer gebruikers de app van het merk openen. Hierdoor kan het merk Adobe Campaign-workflows gebruiken om persoonlijke berichten te verzenden op basis van de locatie van de gebruiker. Dit kanaal gebruikt SDK van de Mobiele kerndienst.<br /> Voor deze functie is Analytics for Mobile vereist. Dit is een betaalde oplossing.<br /> Raadpleeg de <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Punten van interessegegevens integreren Adobe Campaign met Adobe Analytics for Mobile. Een merk kan gegevens verzamelen van mobiele locaties van gebruikers - ook wel <strong>Belangenpunten</strong> - wanneer gebruikers de app van het merk openen. Hierdoor kan het merk Adobe Campaign-workflows gebruiken om persoonlijke berichten te verzenden op basis van de locatie van de gebruiker. Dit kanaal gebruikt SDK van de Mobiele kerndienst.<br /> Voor deze functie is Analytics for Mobile vereist. Dit is een betaalde oplossing.<br /> Raadpleeg voor meer informatie de <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API's<br /> </td> 
-   <td> Bronnen die op elk niveau zijn gekoppeld aan de profielen of services, zijn nu beschikbaar in de API.<br /> Raadpleeg de <a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+   <td> Bronnen die op elk niveau zijn gekoppeld aan de profielen of services, zijn nu beschikbaar in de API.<br /> Raadpleeg voor meer informatie de <a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -448,7 +448,7 @@ _E-mails en SMS-berichten_
 * Probleem verholpen waarbij het verwijderen van e-mailberichten over transacties kon worden voorkomen.
 * Probleem verholpen waarbij de inhoud niet correct kon worden gesynchroniseerd met de laatste wijzigingen voordat een voorvertoning van een levering werd weergegeven.
 
-_Landingspagina’s_
+_Openingspagina&#39;s_
 
 * Probleem verholpen waarbij een gebruiker niet kon bewerken door in de inhoud van een openingspagina te klikken.
 
@@ -485,7 +485,7 @@ _Workflows_
      <li> De koppeling voor het opzeggen van abonnementen in de berichten opnemen. </li> 
      <li> De transactionele berichten aan de globale leveringsrapportage toevoegen. </li> 
      <li> De transactionele berichten in het klanttraject gebruiken. </li> 
-    </ul> Raadpleeg de <a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">gedetailleerde documentatie</a> voor meer informatie.<br /> </td> 
+    </ul> Raadpleeg voor meer informatie de <a href="../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Transactieberichten-API<br /> </td> 

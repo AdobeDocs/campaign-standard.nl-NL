@@ -12,7 +12,7 @@ exl-id: 1c918d20-b549-424f-a97c-3895b4e1b3b2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '165'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -40,4 +40,4 @@ Ga als volgt te werk om de editor voor sms- en pushcontent te openen:
 **Verwante onderwerpen:**
 
 * [Een sms-bericht maken](../../channels/using/creating-an-sms-message.md)
-* [Een pushbericht maken en verzenden](../../channels/using/preparing-and-sending-a-push-notification.md)
+* [Een pushmelding maken en verzenden](../../channels/using/preparing-and-sending-a-push-notification.md)

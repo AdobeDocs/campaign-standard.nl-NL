@@ -11,8 +11,8 @@ level: Experienced
 exl-id: 58d4e02f-3c9a-4e5d-a6aa-fdbcec0d8dda
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 1%
+source-wordcount: '1557'
+ht-degree: 0%
 
 ---
 
@@ -96,11 +96,11 @@ In de volgende tabel worden deze id&#39;s en hun doel beschreven.
 | Weergavenaam | Technische naam | Beschrijving | Best practices |
 |--- |--- |--- |--- |
 |  | PKey | <ul><li>De PKey is de fysieke primaire sleutel van een Adobe Campaign lijst.</li><li>Deze id is gewoonlijk uniek voor een specifieke Adobe Campaign-instantie.</li><li>In Adobe Campaign Standard is deze waarde niet zichtbaar voor de eindgebruiker (behalve in URL&#39;s).</li></ul> | <ul><li>Via de [API systeem](../../api/using/get-started-apis.md), is het mogelijk om een waarde terug te winnen PKey (die een geproduceerde/gehakte waarde, niet de fysieke sleutel is).</li><li>Het wordt afgeraden dit te gebruiken voor iets anders dan het ophalen, bijwerken of verwijderen van records via de API.</li></ul> |
-| Id | name or internalName | <ul><li>Deze informatie is een unieke id van een record in een tabel. Deze waarde kan handmatig worden bijgewerkt.</li><li>Deze id behoudt de waarde wanneer deze wordt geïmplementeerd in een andere instantie van Adobe Campaign. De naam moet anders zijn dan de gegenereerde waarde om via een pakket te kunnen worden geëxporteerd.</li><li>Dit is niet de werkelijke primaire sleutel van de tabel.</li></ul> | <ul><li>Gebruik geen speciale tekens zoals spatie &quot;&quot;, puntkolom &quot;:&quot; of afbreekstreepje &quot;-&quot;.</li><li>Al deze tekens worden vervangen door een onderstrepingsteken &quot;_&quot; (toegestaan teken). &quot;abc-def&quot; en &quot;abc:def&quot; worden bijvoorbeeld opgeslagen als &quot;abc_def&quot; en worden elkaar overschreven.</li></ul> |
+| ID | name or internalName | <ul><li>Deze informatie is een unieke id van een record in een tabel. Deze waarde kan handmatig worden bijgewerkt.</li><li>Deze id behoudt de waarde wanneer deze wordt geïmplementeerd in een andere instantie van Adobe Campaign. De naam moet anders zijn dan de gegenereerde waarde om via een pakket te kunnen worden geëxporteerd.</li><li>Dit is niet de werkelijke primaire sleutel van de tabel.</li></ul> | <ul><li>Gebruik geen speciale tekens zoals spatie &quot;&quot;, puntkolom &quot;:&quot; of afbreekstreepje &quot;-&quot;.</li><li>Al deze tekens worden vervangen door een onderstrepingsteken &quot;_&quot; (toegestaan teken). &quot;abc-def&quot; en &quot;abc:def&quot; worden bijvoorbeeld opgeslagen als &quot;abc_def&quot; en worden elkaar overschreven.</li></ul> |
 | Label | label | <ul><li>Het label is de bedrijfsidentificatie van een object of record in Adobe Campaign.</li><li>Voor dit object zijn spaties en speciale tekens toegestaan.</li><li>Het garandeert niet dat een record uniek is.</li></ul> | <ul><li>Het wordt aanbevolen een structuur voor de objectlabels te bepalen.</li><li>Dit is de meest gebruikersvriendelijke oplossing om een record of object voor een Adobe Campaign-gebruiker te identificeren.</li></ul> |
 | ACS-id | acsId | <ul><li>Er kan een aanvullende id worden gegenereerd: de [ACS-id](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>Aangezien de PKey niet in het gebruikersinterface van Adobe Campaign kan worden gebruikt, is dit een oplossing om een unieke waarde te verkrijgen die tijdens de toevoeging van een profielverslag wordt geproduceerd.</li><li>De waarde kan alleen automatisch worden gegenereerd als de optie is ingeschakeld in de bron voordat een record in Adobe Campaign wordt ingevoegd.</li></ul> | <ul><li>Deze UUID kan worden gebruikt als een verzoeningssleutel.</li><li>Een automatisch gegenereerde ACS-id kan niet worden gebruikt als referentie in een workflow of in een pakketdefinitie.</li><li>Deze waarde is specifiek voor een Adobe Campaign-instantie.</li></ul> |
 
-### Identificatiesleutels {#keys}
+### Identificatiecode {#keys}
 
 Elke bron die in Adobe Campaign is gemaakt, moet ten minste één unieke bron hebben [identificatiesleutel](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 

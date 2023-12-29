@@ -10,20 +10,20 @@ level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
 source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 78%
+source-wordcount: '736'
+ht-degree: 74%
 
 ---
 
 # Triggers gebruiken in Campaign{#using-triggers-in-campaign}
 
-## Een gekoppelde trigger in Campaign maken {#creating-a-mapped-trigger-in-campaign}
+## Een toegewezen trigger maken in Campagne {#creating-a-mapped-trigger-in-campaign}
 
 >[!NOTE]
 >
 >Als u Triggers wilt maken, hebt u de opdracht **[!UICONTROL Administration]** of in de **[!UICONTROL Administrators]** beveiligingsgroep. Raadpleeg voor meer informatie hierover [page](../../administration/using/list-of-roles.md).
 
-Definieer eerst de gedragingen die u in Adobe Experience Cloud (**[!UICONTROL Triggers]**-kernservice) wilt bewaken. Kijk voor meer informatie in de [documentatie van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html). Let op dat u bij het definiëren van de trigger aliassen moet inschakelen. Voor elk gedrag (bladeren/verlaten van formulieren, toevoegen/verwijderen van producten, vervallen sessie, enz.) moet een nieuwe trigger worden toegevoegd in Adobe Experience Cloud.
+Zorg ervoor dat u het gedrag definieert dat u vooraf in Adobe Experience Cloud wilt controleren (**[!UICONTROL Triggers]** kerndienst). Kijk voor meer informatie in de [documentatie van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html). Let op dat u bij het definiëren van de trigger aliassen moet inschakelen. Voor elk gedrag (bladeren/verlaten van formulieren, toevoegen/verwijderen van producten, vervallen sessie, enz.) moet een nieuwe trigger worden toegevoegd in Adobe Experience Cloud.
 
 Maak nu een triggergebeurtenis in Adobe Campaign op basis van een bestaande Adobe Experience Cloud-trigger.
 
@@ -75,7 +75,7 @@ Nadat u een triggergebeurtenis in Adobe Campaign hebt gemaakt op basis van een b
 
 Na het publiceren van de gebeurtenis wordt er automatisch een transactiesjabloon gemaakt die aan de nieuwe gebeurtenis is gekoppeld. Wijzig en publiceer vervolgens de zojuist gemaakte sjabloon. Raadpleeg de sectie [De sjabloon bewerken](../../start/using/marketing-activity-templates.md) voor meer informatie.
 
-## De sjabloon van het transactiebericht bewerken {#editing-the-transactional-message-template}
+## De transactiemalplaatje van het bericht uitgeven {#editing-the-transactional-message-template}
 
 Na het maken en publiceren van de triggergebeurtenis, wordt de bijbehorende transactiesjabloon automatisch gemaakt. Raadpleeg de sectie [Een toegewezen trigger maken in Campaign](#creating-a-mapped-trigger-in-campaign) voor meer informatie.
 

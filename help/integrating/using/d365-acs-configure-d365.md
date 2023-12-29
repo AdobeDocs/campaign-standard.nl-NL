@@ -1,5 +1,5 @@
 ---
-title: De integratie van Microsoft Dynamics 365 voor Campaign configureren
+title: Microsoft Dynamics 365 configureren voor integratie van campagnes
 description: Leer hoe u Microsoft Dynamics 365 for Campaign-integratie configureert.
 audience: integrating
 content-type: reference
@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
 source-git-commit: 6947d163119dd6fc5966fdc723530b02bdd4a469
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 1%
+source-wordcount: '879'
+ht-degree: 0%
 
 ---
 

@@ -11,7 +11,7 @@ exl-id: 22112517-40f7-4966-84bf-40794e5d0f79
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ Het bericht is verplicht om het bericht voor te bereiden en te verzenden.
 >
 >Als de onderwerpregel leeg is, wordt een waarschuwing weergegeven op het berichtdashboard en in de e-mailontwerper.
 
-1. Een e-mail maken.
+1. Maak een e-mail.
 1. Ga naar de **[!UICONTROL Properties]** tabblad van de introductiepagina E-mail Designer (toegankelijk via het homepictogram).
 1. Vul de **[!UICONTROL Subject]** sectie.
 
@@ -53,6 +53,6 @@ Als u de naam wilt definiëren van de afzender die wordt weergegeven in de kopte
 
 **Verwante onderwerpen:**
 
-* [Een personalisatieveld invoegen](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Een aanpassingsveld invoegen](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [Een inhoudsblok toevoegen](../../designing/using/personalization.md#adding-a-content-block)
 * [Dynamische inhoud in een e-mail definiëren](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)

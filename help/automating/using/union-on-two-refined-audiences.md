@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: 6261f800-11bd-4b02-a587-49ddb0da240f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 58%
+source-wordcount: '156'
+ht-degree: 43%
 
 ---
 
 # Samenvoeging op twee verfijnde doelgroepen {#example--union-on-two-refined-audiences}
 
-De workflow die in dit voorbeeld wordt gedefinieerd, toont de samenvoeging van twee activiteiten voor **[!UICONTROL Read audience]**. Het doel van deze workflow is om een e-mail te sturen naar Gold- of Silver-leden tussen 18 en 30 jaar oud. Er zijn al specifieke doelgroepen in het systeem gemaakt om de Gold- en Silver-leden bij te houden.
+De workflow die in dit voorbeeld wordt gedefinieerd, toont de samenvoeging van twee activiteiten voor **[!UICONTROL Read audience]**. Het doel van deze workflow is om een e-mail te sturen naar Gold- of Silver-leden van 18 tot 30 jaar oud. Er zijn al specifieke doelgroepen in het systeem gemaakt om de Gold- en Silver-leden bij te houden.
 
 De workflow is als volgt ontworpen:
 

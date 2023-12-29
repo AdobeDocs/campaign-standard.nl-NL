@@ -10,20 +10,20 @@ level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
 workflow-type: tm+mt
-source-wordcount: '1429'
-ht-degree: 24%
+source-wordcount: '1442'
+ht-degree: 22%
 
 ---
 
 # Werken met quarantainebeheer{#understanding-quarantine-management}
 
-## Quarantaine {#about-quarantines}
+## Informatie over quarantines {#about-quarantines}
 
 Een e-mailadres of telefoonnummer kan bijvoorbeeld in quarantaine worden geplaatst, wanneer de brievenbus volledig is of als het adres niet bestaat.
 
 In alle gevallen voldoet de quarantaineprocedure aan de specifieke regels van deze [sectie](#conditions-for-sending-an-address-to-quarantine).
 
-### Uw levering optimaliseren via quarantaine {#optimizing-your-delivery-through-quarantines}
+### De levering optimaliseren via quarantines {#optimizing-your-delivery-through-quarantines}
 
 De profielen waarvan de e-mailadressen of telefoonnummers in quarantaine zijn geplaatst, worden automatisch uitgesloten tijdens de voorbereiding van berichten (zie [In quarantaine geplaatste adressen voor een levering identificeren](#identifying-quarantined-addresses-for-a-delivery)). Hierdoor wordt de levering versneld, omdat het foutenpercentage een belangrijk effect heeft op de leveringssnelheid.
 
@@ -59,13 +59,13 @@ De gekwalificeerde adressen kunnen voor een specifieke levering of voor het voll
 If you need to remove an address from quarantine, contact your technical administrator.
 -->
 
-### In quarantaine geplaatste adressen voor een levering identificeren {#identifying-quarantined-addresses-for-a-delivery}
+### Het identificeren van quarantined adressen voor een levering {#identifying-quarantined-addresses-for-a-delivery}
 
 Bij adressen die voor een specifieke levering in quarantaine worden geplaatst, gebeurt dit tijdens de voorbereidingsfase van de levering, via het tabblad **[!UICONTROL Exclusion logs]** van het leveringsdashboard (zie [deze sectie](../../sending/using/monitoring-a-delivery.md#exclusion-logs)). Raadpleeg [deze sectie](../../sending/using/preparing-the-send.md) voor meer informatie over het voorbereiden van leveringen.
 
 ![](assets/exclusion_logs.png)
 
-### In quarantaine geplaatste adressen voor het volledige platform identificeren {#identifying-quarantined-addresses-for-the-entire-platform}
+### Het identificeren van quarantined adressen voor het volledige platform {#identifying-quarantined-addresses-for-the-entire-platform}
 
 Beheerders hebben vanuit het **[!UICONTROL Administration > Channels > Quarantines > Addresses]** -menu.
 
@@ -149,7 +149,7 @@ Gebaseerd op het tijdkader van het incident, hieronder zijn de geadviseerde rich
 
 Als u de lijst met betrokken ontvangers hebt, voegt u een **[!UICONTROL Update data]** activiteit om hun e-mailadresstatus in te stellen op **[!UICONTROL Valid]** zodat zij uit de quarantainelijst worden verwijderd door **[!UICONTROL Database cleanup]** workflow. U kunt ze ook gewoon uit de quarantainetabel verwijderen.
 
-## Voorwaarden voor het in quarantaine plaatsen van een adres {#conditions-for-sending-an-address-to-quarantine}
+## Voorwaarden voor verzending van een adres naar quarantaine {#conditions-for-sending-an-address-to-quarantine}
 
 Adobe Campaign beheert quarantaine op basis van leveringsfouten en de reden die wordt toegewezen bij de kwalificatie van foutmeldingen (zie [Fouttypen en redenen voor foute leveringen](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) en [Kwalificatie voor niet-bezorgde mail](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)).
 

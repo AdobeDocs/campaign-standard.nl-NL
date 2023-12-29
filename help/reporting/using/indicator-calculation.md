@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 2%
+source-wordcount: '738'
+ht-degree: 1%
 
 ---
 
@@ -66,7 +66,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Klik op<br /> </td> 
+   <td> Klikken<br /> </td> 
    <td> @clicks<br /> </td> 
    <td> count(@trackingUrlType=1, 10 of 11)<br /> </td> 
    <td> </td> 
@@ -132,7 +132,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Open<br /> </td> 
+   <td> Openen<br /> </td> 
    <td> @uniqueOpens<br /> </td> 
    <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2)<br /> </td> 
    <td> </td> 
@@ -256,7 +256,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> (@bezorgd/@verzonden)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open<br /> </td> 
+   <td> Openen<br /> </td> 
    <td> @open<br /> </td> 
    <td> @count(status=open)<br /> </td> 
   </tr> 
@@ -281,7 +281,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
    <td> @unique(@count(status=view))<br /> </td> 
   </tr> 
   <tr> 
-   <td> Klik op<br /> </td> 
+   <td> Klikken<br /> </td> 
    <td> @clicks<br /> </td> 
    <td> @count(status=interact)<br /> </td> 
   </tr> 

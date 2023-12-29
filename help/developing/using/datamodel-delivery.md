@@ -9,8 +9,8 @@ level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 7%
+source-wordcount: '725'
+ht-degree: 1%
 
 ---
 
@@ -191,7 +191,7 @@ ht-degree: 7%
                </tr>
                <tr>
                   <td>uitsluitingen</td>
-                  <td>Uitsluitingsoorzaken</td>
+                  <td>Uitsluiting veroorzaakt</td>
                   <td>collectie </td>
                   <td> </td>
                </tr>
@@ -377,7 +377,7 @@ ht-degree: 7%
                </tr>
                <tr>
                   <td>name</td>
-                  <td>Id</td>
+                  <td>ID</td>
                   <td>tekenreeks (64)</td>
                   <td> </td>
                </tr>
@@ -524,14 +524,14 @@ ht-degree: 7%
                   <td> </td>
                </tr>
                <tr>
-                  <td>title</td>
+                  <td>titel</td>
                   <td>Levering</td>
                   <td>tekenreeks (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>bijhouden</td>
-                  <td>Parameters voor tracking</td>
+                  <td>Parameters bijhouden</td>
                   <td>item </td>
                   <td> </td>
                </tr>

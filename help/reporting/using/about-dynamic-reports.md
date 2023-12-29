@@ -10,14 +10,14 @@ level: Beginner
 exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 5%
+source-wordcount: '800'
+ht-degree: 2%
 
 ---
 
 # Aan de slag met dynamische rapporten {#about-dynamic-reports}
 
-De dynamische Rapportering verstrekt volledig klantgerichte en real-time rapporten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. Met de interface voor slepen en neerzetten kunt u data onderzoeken, bepalen hoe de e-mailcampagnes voor uw belangrijkste klantensegmenten hebben gepresteerd en hun invloed op de ontvangers meten.
+De dynamische Rapportering verstrekt volledig klantgerichte en real-time rapporten. Het voegt toegang tot profielgegevens toe, toelatend demografische analyse door profieldimensies zoals geslacht, stad en leeftijd naast functionele e-mailcampagnegegevens zoals opent en klikt. Met de belemmering-en-dalingsinterface, kunt u gegevens onderzoeken, bepalen hoe uw e-mailcampagnes tegen uw belangrijkste klantensegmenten werden uitgevoerd en hun effect op ontvangers meten.
 
 >[!NOTE]
 >

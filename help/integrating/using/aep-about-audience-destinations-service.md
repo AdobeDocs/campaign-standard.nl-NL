@@ -13,8 +13,8 @@ hide: true
 hidefromtoc: true
 source-git-commit: 376f00576ca1d0dfb536b29dbf25d88f7c93b9a8
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 4%
+source-wordcount: '335'
+ht-degree: 2%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->De service Doelen van publiek is nu afgekeurd. Verouderde mogelijkheden zijn nog beschikbaar, maar worden niet verder verbeterd en worden niet ondersteund. Meer informatie vindt u [op deze pagina](../../rn/using/deprecated-features.md)
+>De service Doelen van publiek is nu afgekeurd. Verouderde mogelijkheden zijn nog beschikbaar, maar worden niet verder verbeterd en worden niet ondersteund. Meer informatie [op deze pagina](../../rn/using/deprecated-features.md)
 
 Verbeter uw ervaringen met de consument door de [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) het opbouwen van een doelgericht publiek op basis van grote, complexe gegevensbestanden. De Adobe Experience Platform consolideert profielen, gedragingen en gegevens van meerdere entiteiten op online en offline bronnen, waaronder Adobe Analytics, om u te helpen een 360-gradenweergave van uw klant te maken, zodat u uw ervaringen met klanten effectief kunt beheren.
 

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 94%
+source-wordcount: '996'
+ht-degree: 90%
 
 ---
 
@@ -40,11 +40,11 @@ U hebt ook een werkende website nodig.
 
 Raadpleeg [Oplossingen en services configureren](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services) voor meer informatie.
 
-## Trigger voor afbreken van bladeren {#browse-abandonment-trigger}
+## Bladeren door activeringstrigger {#browse-abandonment-trigger}
 
 In dit gebruiksscenario maken we een eenvoudige trigger die wordt geactiveerd telkens wanneer een klant een bezoek op de website afbreekt. In dit voorbeeld wordt ervan uitgegaan dat u al over DTM beschikt om data te verzamelen en naar Adobe Analytics te verzenden en dat al uw gebeurtenissen zijn gemaakt.
 
-### Een Experience Cloud Trigger maken {#creating-an-experience-cloud-trigger}
+### Een Experience Cloud activeren {#creating-an-experience-cloud-trigger}
 
 1. Selecteer **[!UICONTROL Manage Triggers]** in het menu van de Experience Cloud Activation-kernservice.
 
@@ -58,7 +58,7 @@ In dit gebruiksscenario maken we een eenvoudige trigger die wordt geactiveerd te
 
    ![](assets/trigger_uc_browse_3.png)
 
-### De trigger gebruiken in Adobe Campaign {#using-the-trigger-in-adobe-campaign}
+### De trigger in Adobe Campaign gebruiken {#using-the-trigger-in-adobe-campaign}
 
 Nu we een Experience Cloud Trigger hebben gemaakt, gebruiken we deze in Adobe Campaign.
 
@@ -117,11 +117,11 @@ In Adobe Campaign moet u een trigger maken die gekoppeld is aan de trigger die u
 
    ![](assets/trigger_uc_browse_14.png)
 
-## Trigger voor afbreken van zoekopdracht {#search-abandonment-trigger}
+## Trigger voor verlaten van zoekopdracht {#search-abandonment-trigger}
 
 In dit gebruiksscenario maken we een trigger om opnieuw contact op te nemen met bezoekers die onze boekingssite hebben bezocht, naar een bestemming hebben gezocht, geen geschikte resultaten hebben gevonden en daarna niets hebben geboekt. Het algemene proces is hetzelfde als in het vorige gebruiksscenario (zie [Trigger voor afbreken van bladeren](#browse-abandonment-trigger)). We concentreren ons daarom hier op het personaliseren van de remarketing-e-mail.
 
-### Een Experience Cloud Trigger maken {#creating-an-experience-cloud-trigger-1}
+### Een Experience Cloud activeren {#creating-an-experience-cloud-trigger-1}
 
 Voer de stappen uit die in het vorige gebruiksscenario zijn beschreven om de Experience Cloud Trigger te maken. Zie [Een Experience Cloud Trigger maken](#creating-an-experience-cloud-trigger). Het belangrijkste verschil is de triggerdefinitie.
 
@@ -129,7 +129,7 @@ Voer de stappen uit die in het vorige gebruiksscenario zijn beschreven om de Exp
 
 In de sectie **[!UICONTROL Include Meta Data]** kunt u alle data die zijn verzameld via Analytics doorgeven aan de triggerpayload. In dit voorbeeld maken we een aangepaste eVar (bijvoorbeeld eVar 3) om de zoekterm te verzamelen die de bezoeker invoert. Deze term wordt vervolgens gebruikt in het transactionele e-mailbericht dat aan dezelfde bezoeker wordt verzonden.
 
-### De trigger gebruiken in Adobe Campaign {#using-the-trigger-in-adobe-campaign-1}
+### De trigger in Adobe Campaign gebruiken {#using-the-trigger-in-adobe-campaign-1}
 
 1. Voer de stappen uit die in het vorige gebruiksscenario zijn beschreven om de trigger in Adobe Campaign te maken. Zie [De trigger gebruiken in Adobe Campaign](#using-the-trigger-in-adobe-campaign). Het belangrijkste verschil is hoe we in Adobe Campaign toegang krijgen tot en gebruikmaken van de metadata die naar de triggerpayload worden gepusht.
 1. Klik in de trigger voor het afbreken van een zoekopdracht die u in Adobe Campaign hebt gemaakt op het pictogram **[!UICONTROL Event content and enrichment]** om de payload weer te geven die naar Adobe Campaign wordt gepusht.

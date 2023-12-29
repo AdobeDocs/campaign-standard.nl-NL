@@ -8,14 +8,14 @@ exl-id: 67282d21-b4ed-4af5-b751-848a6d705118
 source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 10%
+ht-degree: 0%
 
 ---
 
 # Interactie met de marketinggeschiedenis{#interacting-with-marketing-history}
 
 De **geschiedenis** Met het eindpunt kunt u communiceren met de marketinggeschiedenis van een profiel.
-Op deze manier kunt u bijvoorbeeld gemakkelijk de spiegelpagina ophalen voor een levering die naar een profiel is verzonden. Volg de onderstaande stappen om dit te doen:
+Op deze manier kunt u bijvoorbeeld gemakkelijk de spiegelpagina ophalen voor een levering die naar een profiel is verzonden. Hiervoor voert u de volgende stappen uit:
 
 1. Voer een GET uit met de **geschiedenis** en de primaire sleutel van het profiel.
 1. Voer een verzoek van de GET uit op **gebeurtenissen** href gaf terug.

@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 83%
+source-wordcount: '512'
+ht-degree: 79%
 
 ---
 
@@ -72,7 +72,7 @@ In dit rapport ziet u de e-mailweergave zoals de ontvanger deze te zien krijgt. 
 
 ### E-mailrenderingtokens
 
-Het aantal beschikbare weergaven vindt u terug in uw licentieovereenkomst. Bij elke levering waarvoor **Email rendering** is ingeschakeld, neemt uw aantal beschikbare weergaven (ook wel tokens genoemd) af met één.
+Het aantal beschikbare weergaven vindt u terug in uw licentieovereenkomst. Elke levering met **E-mailrendering** Ingeschakeld vermindert de beschikbare rendering (tokens genoemd) met één.
 
 Tokens maken voor elke afzonderlijke rendering en niet voor het hele e-mailrenderrapport. Dit houdt in dat:
 

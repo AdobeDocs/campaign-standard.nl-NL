@@ -12,7 +12,7 @@ exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 9%
+ht-degree: 7%
 
 ---
 
@@ -44,7 +44,7 @@ Leer beste praktijken met betrekking tot leveringsontwerp en verzendend met Adob
 
 **[Track en monitor](track-and-monitor.md)** - Controle verzenden en problemen oplossen
 
-## Gerelateerde content
+## Gerelateerde inhoud
 
 * [Aan de slag met de prestaties](../../sending/using/about-deliverability.md)
 

@@ -12,7 +12,7 @@ exl-id: ea167fec-d4df-4147-9dcd-33001d8a1c9b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ Voor elk doelprofiel wordt een nieuwe regel toegevoegd aan het extractiebestand.
 >
 >Zorg ervoor dat uw profielen een postadres bevatten aangezien deze informatie essentieel is voor direct-mailproviders. Controleer ook of u het selectievakje **[!UICONTROL Address specified]** in de profieldata hebt ingeschakeld. Zie [Aanbevelingen](../../channels/using/about-direct-mail.md#recommendations).
 
-## Test- en trapprofielen toevoegen {#adding-test-and-trap-profiles}
+## Testen- en overvulprofielen toevoegen {#adding-test-and-trap-profiles}
 
 Voeg testprofielen toe zodat u het bestand met een klein aantal profielen kunt testen. Zo kunt u snel een bestandsvoorbeeld maken om de structuur te testen en te valideren voordat u het eigenlijke bestand voorbereidt. Zie [Testprofielen beheren](../../audiences/using/managing-test-profiles.md).
 

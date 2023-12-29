@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
 source-git-commit: 69c47c8f3cbb405acbef634aa1ebaef8e767f159
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 4%
+source-wordcount: '889'
+ht-degree: 3%
 
 ---
 
@@ -123,7 +123,7 @@ De volgende stappen voor dit gebruik zijn nodig:
 
 1. U kunt de workflow nu uitvoeren. Zodra het wordt uitgevoerd, zal het gegevensdoel door de vraag naar de server SFTP in een gecodeerd.gpg- dossier worden uitgevoerd.
 
-## Tutorialvideo’s {#video}
+## Zelfstudievideo&#39;s {#video}
 
 In deze video wordt getoond hoe u een GPG-sleutel kunt gebruiken voor het decoderen van gegevens.
 

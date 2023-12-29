@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 19%
+source-wordcount: '365'
+ht-degree: 13%
 
 ---
 
@@ -73,7 +73,7 @@ Meer informatie:
 * [Een aangepaste profieldimensie maken](../../reporting/using/creating-a-custom-profile-dimension.md)
 * [Een rapport maken op basis van workflowsegmenten](../../reporting/using/creating-a-report-workflow-segment.md)
 
-## Aanvullende bronnen
+## Verdere bronnen
 
 * [Logboeken exporteren](../../automating/using/exporting-logs.md)
 * [Informatie over de integratie van Campaign-Analytics](../../integrating/using/about-campaign-analytics-integration.md)

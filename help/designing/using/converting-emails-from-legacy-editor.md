@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 2b024052-ed42-44f3-9990-be7425cc79d7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '440'
 ht-degree: 8%
 
 ---
@@ -75,7 +75,7 @@ Met deze optie kunt u een E-mailDesigner-sjabloon maken door een HTML-e-mail te 
 
 1. Ga terug naar de mobiele weergave om te controleren of uw inhoud correct wordt weergegeven en sla uw wijzigingen op.
 
-## Gebruiksscenario
+## Hoofdletters gebruiken
 
 Laten we proberen deze e-mail, gemaakt in de verouderde editor, om te zetten in een **[!UICONTROL Email Designer]** sjabloon.
 

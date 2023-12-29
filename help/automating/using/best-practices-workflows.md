@@ -11,8 +11,8 @@ level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
 source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 80%
+source-wordcount: '1212'
+ht-degree: 77%
 
 ---
 
@@ -95,7 +95,7 @@ Als u toegang wilt tot de gedetailleerde weergave van de overgangen, schakelt u 
 ![](assets/keep_interim_best_practices.png)
 
 
-### Labelactiviteiten{#activity-labeling}
+### Etiketteringsactiviteiten{#activity-labeling}
 
 Tijdens het ontwikkelen van uw workflow wordt een naam gegenereerd voor elke activiteit, zoals voor alle Adobe Campaign-objecten. Terwijl de naam van een activiteit door de tool wordt geproduceerd en niet kan worden bewerkt, raden wij aan om de activiteit te labelen met een expliciete naam wanneer u deze configureert.
 
@@ -103,7 +103,7 @@ Tijdens het ontwikkelen van uw workflow wordt een naam gegenereerd voor elke act
 
 U kunt kopiëren en plakken gebruiken om bestaande activiteiten te dupliceren. Op deze manier behoudt u de instellingen die oorspronkelijk zijn gedefinieerd. Raadpleeg [Workflowactiviteiten dupliceren](../../automating/using/workflow-interface.md) voor meer informatie.
 
-### Activiteit Planner{#acheduler-activity}
+### Planningsactiviteit{#acheduler-activity}
 
 Bij het samenstellen van uw workflow gebruikt u slechts één **[!UICONTROL Scheduler activity]** per vertakking. Als dezelfde vertakking van een workflow meerdere planners heeft (die met elkaar gekoppeld zijn), zal het aantal uit te voeren taken exponentieel worden vermenigvuldigd, waardoor de database aanzienlijk overbelast zou worden.
 
@@ -115,7 +115,7 @@ Raadpleeg de [activiteit Planner](../../automating/using/scheduler.md) voor meer
 
 Wanneer u een geplande workflow ontwerpt die meerdere activiteiten bevat, moet u ervoor zorgen dat de workflow niet opnieuw wordt gepland totdat deze is voltooid. Hiervoor moet u uw workflow configureren om te voorkomen dat deze wordt uitgevoerd als een of meer taken uit een eerdere uitvoering nog in behandeling zijn. Raadpleeg [deze pagina](../../automating/using/scheduled-workflows-execution.md) voor meer informatie.
 
-## Een workflow met parameters aanroepen{#workflow-with-parameters}
+## Werkstroom aanroepen met parameters{#workflow-with-parameters}
 
 Zorg ervoor dat de naam en het aantal parameters gelijk zijn aan wat er is gedefinieerd bij het aanroepen van de workflow (zie [deze pagina](../../automating/using/defining-parameters-calling-workflow.md). De parametertypen moeten ook consistent zijn met de waarden die worden verwacht.
 
@@ -137,13 +137,13 @@ Zie [Lijsten exporteren](../../automating/using/exporting-lists.md) voor meer in
 
 Adobe Campaign biedt verschillende logboeken om meer inzicht te krijgen in problemen met workflows.
 
-### Workflowlogboeken gebruiken{#using-workflow-logs}
+### Workflowlogs gebruiken{#using-workflow-logs}
 
 U kunt workflowlogboeken openen om de uitvoering van uw activiteiten te controleren. De uitgevoerde bewerkingen en uitvoeringsfouten worden in chronologische volgorde geïndexeerd. Het tabblad Logs bestaat uit de geschiedenis van de uitvoering van alle of enkele geselecteerde activiteiten.
 Op het tabblad Tasks wordt de volgorde van uitvoering van de activiteiten weergegeven. Klik op een taak voor meer informatie over een activiteit.
 Raadpleeg [De uitvoering van workflows controleren](../../automating/using/monitoring-workflow-execution.md) voor meer informatie.
 
-#### Problemen met databeheeractiviteiten oplossen{#troubleshooting-data-management-activities}
+#### Problemen met gegevensbeheer oplossen{#troubleshooting-data-management-activities}
 
 U kunt SQL-query’s analyseren op het tabblad Log.
 
@@ -162,7 +162,7 @@ De query wordt weergegeven in de kolom **[!UICONTROL Message]** van de logboeken
 Met leveringslogboeken kunt u het succes van uw leveringen controleren. Uitsluitingslogboeken retourneren uitsluitingsberichten tijdens de voorbereiding van de verzending. Verzendingslogboeken geven de status van de levering voor elk profiel weer.
 Raadpleeg [Leveringsfouten begrijpen](../../sending/using/understanding-delivery-failures.md) voor meer informatie.
 
-### Leveringswaarschuwingen gebruiken{#delivery-alerting}
+### Waarschuwing bij levering gebruiken{#delivery-alerting}
 
 De functie voor leveringswaarschuwingen is een systeem voor waarschuwingsbeheer waardoor een groep gebruikers automatisch meldingen kan ontvangen die informatie bevatten over de uitvoering van hun leveringen.
 Raadpleeg [Leveringswaarschuwingen](../../sending/using/receiving-alerts-when-failures-happen.md) voor meer informatie.

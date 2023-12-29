@@ -12,7 +12,7 @@ exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1053'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ De elementen van elke lijst worden standaard weergegeven op basis van de wijzigi
 
 Als u de content van een element wilt weergeven en wijzigen, klikt u op het elementlabel. Raadpleeg de secties [Een pakket exporteren](#exporting-a-package) en [Een pakket importeren](#importing-a-package).
 
-## Pakketexports {#package-exports}
+## Pakket exporteren {#package-exports}
 
 ### Standaardpakketten {#standard-packages}
 
@@ -122,7 +122,7 @@ Wanneer de bewerking is voltooid, worden verschillende secties weergegeven:
 >
 >Wanneer u een element selecteert in de lijst met pakketcontent die al is geëxporteerd, zijn de tabbladen **[!UICONTROL Log]** en **[!UICONTROL Last export]** nog steeds beschikbaar.
 
-## Pakketimports {#package-imports}
+## Pakketimport {#package-imports}
 
 ### Systeemupdates {#system-updates}
 

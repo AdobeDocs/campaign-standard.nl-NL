@@ -6,8 +6,8 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 96%
+source-wordcount: '787'
+ht-degree: 95%
 
 ---
 
@@ -80,5 +80,5 @@ De importsjabloon is nu beschikbaar voor de gebruikers en kan worden gebruikt om
 
 * [Workflows](../../automating/using/get-started-workflows.md)
 * [Gegevens importeren en exporteren](../../automating/using/about-data-import-and-export.md)
-* [Voorbeeld: Workflowsjabloon importeren](../../automating/using/creating-import-workflow-templates.md)
+* [Voorbeeld: werkstroomsjabloon importeren](../../automating/using/creating-import-workflow-templates.md)
 

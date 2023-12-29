@@ -12,7 +12,7 @@ exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 98%
+ht-degree: 94%
 
 ---
 
@@ -40,7 +40,7 @@ De activiteit **[!UICONTROL Incremental query]** kan voor diverse doeleinden wor
 
 * Data exporteren.
 
-  U kunt een activiteit **[!UICONTROL Incremental query]** gebruiken om regelmatig nieuwe logboeken in bestanden te exporteren. Dit kan bijvoorbeeld nuttig zijn als u uw loggegevens wilt gebruiken in externe rapporten of BI-tools. Een volledig voorbeeld is beschikbaar in de sectie [Logboeken exporteren](../../automating/using/exporting-logs.md).
+  U kunt een activiteit **[!UICONTROL Incremental query]** gebruiken om regelmatig nieuwe logboeken in bestanden te exporteren. Het kan bijvoorbeeld nuttig zijn als u uw logboekgegevens in externe rapportering of hulpmiddelen van BI wilt gebruiken. Een volledig voorbeeld is beschikbaar in de sectie [Logboeken exporteren](../../automating/using/exporting-logs.md).
 
 **Verwante onderwerpen**
 
@@ -71,6 +71,6 @@ De activiteit **[!UICONTROL Incremental query]** kan voor diverse doeleinden wor
 1. Via een toegewezen tabblad kunt u **[!UICONTROL Additional data]** voor de doelpopulatie definiëren. Deze data worden in extra kolommen opgeslagen en kunnen alleen worden gebruikt voor de actieve workflow. U kunt met name data toevoegen uit de Adobe Campaign-databasetabellen die zijn gekoppeld aan de doeldimensie van de query. Raadpleeg de sectie [Data verrijken](../../automating/using/query.md#enriching-data).
 1. Bevestig de configuratie van uw activiteit en sla de workflow op.
 
-## Data verrijken {#enriching-data}
+## Gegevens worden verrijkt {#enriching-data}
 
 Net als bij een query kunt u de data van een **[!UICONTROL Incremental query]** verrijken. Raadpleeg de sectie [Data verrijken](../../automating/using/query.md#enriching-data).

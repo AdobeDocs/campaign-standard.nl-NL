@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 82%
+source-wordcount: '1170'
+ht-degree: 75%
 
 ---
 
@@ -52,9 +52,9 @@ U kunt deze activiteit gebruiken om data te herstellen die vervolgens met de act
    * [SFTP](#SFTP-configuration-wf)
    * [Amazon S3](#S3-configuration-wf)
    * [Microsoft Azure Blob-opslag](#azure-blob-configuration-wf)
-   * [Bestand(en) aanwezig op de Adobe Campaign-server](#files-server-configuration-wf)
+   * [Bestanden aanwezig op de Adobe Campaign-server](#files-server-configuration-wf)
 
-1. In de sectie **[!UICONTROL Additional options]**, die afhankelijk is van het geselecteerde protocol, kunt u parameters toevoegen aan uw protocol.
+1. De **[!UICONTROL Additional options]** kunt u parameters toevoegen aan uw protocol, afhankelijk van het geselecteerde protocol.
 
    U kunt:
 
@@ -78,7 +78,7 @@ U kunt deze activiteit gebruiken om data te herstellen die vervolgens met de act
 
 Met het HTTP-protocol kunt u beginnen met het downloaden van een bestand vanaf een extern account of van een URL.
 
-Met dit protocol kunt u ervoor kiezen **[!UICONTROL Use connection parameters defined in an external account]** -optie. Selecteer in dit geval het gewenste account en geef het pad op van het bestand dat u wilt downloaden.
+Met dit protocol kunt u ervoor kiezen **[!UICONTROL Use connection parameters defined in an external account]** -optie. Selecteer in dit geval de account die u wilt downloaden en geef het pad op van het bestand dat u wilt downloaden.
 
 ![](assets/wkf_file_transfer_03.png)
 
@@ -120,7 +120,7 @@ Met het Amazon S3-protocol kunt u beginnen met het downloaden van een bestand va
 
 4. Als u de bronbestanden wilt verwijderen wanneer de overdracht is voltooid, selecteert u **[!UICONTROL Delete the source files after transfer]**.
 
-### Configuratie met Microsoft Azure Blob Storage {#azure-blob-configuration-wf}
+### Configuratie met Microsoft Azure Blob-opslag {#azure-blob-configuration-wf}
 
 Met het Microsoft Azure Blob-protocol hebt u toegang tot een blob op een Microsoft Azure Blob Storage-account.
 
@@ -142,7 +142,7 @@ Met het Microsoft Azure Blob-protocol hebt u toegang tot een blob op een Microso
    * **‘campaign/new-’**: Komt overeen met alle blobs met een bestandsnaam die begint met ‘new-’ en zich in de map Campaign bevindt.
    * **“”**: Door een leeg pad toe te voegen, kunt u alle blobs afstemmen die in de container beschikbaar zijn.
 
-### Configuratie met bestanden die aanwezig zijn op de Adobe Campaign-server {#files-server-configuration-wf}
+### Configuratie met bestanden aanwezig op de Adobe Campaign-server {#files-server-configuration-wf}
 
 Het protocol **[!UICONTROL File(s) present on the Adobe Campaign server]** komt overeen met de opslagplaats die de te herstellen bestanden bevat.
 Metatekens of jokertekens (bijvoorbeeld &#42; of ?) kunnen worden gebruikt om bestanden te filteren.
@@ -160,7 +160,7 @@ Bijvoorbeeld:
 
 `//myserver/hello/myrecipients.csv` is onjuist.
 
-## Instellingen genereren van historische data {#historization-settings}
+## Historialisatie-instellingen {#historization-settings}
 
 Telkens wanneer een activiteit **[!UICONTROL Transfer file]** wordt uitgevoerd, worden de geüploade of gedownloade bestanden opgeslagen in een speciale map. Er wordt één map gemaakt voor elke activiteit **[!UICONTROL Transfer file]** van een workflow. Daarom is het belangrijk om de grootte van deze map te kunnen beperken om fysieke ruimte op de server vrij te houden.
 

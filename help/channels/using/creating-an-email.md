@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 16%
+source-wordcount: '567'
+ht-degree: 14%
 
 ---
 
@@ -60,7 +60,7 @@ U kunt een e-mail maken op basis van een [campagne](../../start/using/marketing-
    U kunt uw bericht rechtstreeks ontwerpen met een vooraf gedefinieerde inhoudssjabloon of met Dreamweaver of Adobe Experience Manager. Als u zich niet als ontwerper voelt, kunt u een inhoud ook uploaden die voor u, is voorbereid of een bestaande inhoud van een URL invoeren. Zie [Bestaande content selecteren](../../designing/using/using-existing-content.md).
 
 1. Geef een voorvertoning van uw bericht weer. Zie [Berichten voorvertonen](../../sending/using/previewing-messages.md).
-1. Bevestig het maken van de e-mail.
+1. Bevestig dat u het e-mailbericht maakt.
 
    >[!NOTE]
    >

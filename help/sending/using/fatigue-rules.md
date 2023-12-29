@@ -10,14 +10,14 @@ level: Intermediate
 exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '2341'
-ht-degree: 99%
+source-wordcount: '2374'
+ht-degree: 98%
 
 ---
 
 # Moeheidsregels{#fatigue-rules}
 
-## Moeheidsregels {#about-fatigue-rules}
+## Informatie over vermoeidheidsregels {#about-fatigue-rules}
 
 Met moeheidsregels kunnen marketeers algemene kanaaloverschrijdende bedrijfsregels instellen die automatisch overvraagde profielen uitsluiten van campagnes.
 
@@ -34,7 +34,7 @@ Verwante onderwerpen:
 * [Typologische regels](../../sending/using/managing-typology-rules.md)
 * [De communicatiefrequentie optimaliseren om contactmoeheid te voorkomen](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
-## Een moeheidsregel maken {#creating-a-fatigue-rule}
+## Een vermoeidheidsregel maken {#creating-a-fatigue-rule}
 
 Voer de volgende stappen uit om een typologieregel **[!UICONTROL Fatigue]** te maken en te configureren:
 
@@ -154,7 +154,7 @@ Het verfijnen van de drempelwaarde voor leveringen is anders dan het beperken va
 * **[!UICONTROL Application criteria]**: u kiest om de regel al dan niet uit te voeren volgens specifieke criteria. Als uw toepassingsvoorwaarde bijvoorbeeld ‘Label starts with Newsletter’ is, is de regel alleen van toepassing op leveringen die aan deze voorwaarde voldoen. Als het label van de levering begint met ‘Promotion’, wordt de regel helemaal niet uitgevoerd.
 * **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**: alle leveringen die deze typologieregel gebruiken, zullen de regel uitvoeren, maar u beslist welke van de vroegere en de geplande leveringen u wilt tellen. Als uw beperking bijvoorbeeld ‘Label starts with Newsletter’ is, wordt de regel uitgevoerd, zelfs als het leveringslabel begint met ‘Promo’. Tijdens de geselecteerde glijdende periode wordt het aantal leveringen geteld waarvan het label begint met ‘Newsletter’.
 
-## De glijdende periode instellen {#setting-the-sliding-period}
+## De schuifperiode instellen {#setting-the-sliding-period}
 
 Moeheidsregels worden gedefinieerd in rollende perioden van n dagen. De periode wordt geconfigureerd in de sectie **[!UICONTROL Sliding period]**, bijvoorbeeld twee weken, zeven dagen of vijf uren.
 
@@ -166,7 +166,7 @@ Als u bijvoorbeeld een periode van 48 uur definieert, zoekt het systeem 48 uur *
 
 Als u de in aanmerking genomen leveringen wilt beperken tot een periode van twee weken, voert u **Day** en **7** of 1 week in de sectie **Sliding period** in. Bij de berekening wordt rekening gehouden met leveringen die zijn verzonden tot 7 dagen vóór en gepland tot 7 dagen na de leveringsdatum waarop de regel wordt toegepast.
 
-## De resultaten van moeheidsregels weergeven {#viewing-the-fatigue-results}
+## De resultaten van vermoeidheid weergeven {#viewing-the-fatigue-results}
 
 Tijdens de voorbereiding van de levering worden, indien van toepassing, profielen uitgesloten van de levering, afhankelijk van het aantal leveringen dat al naar hen is verzonden. Klik op de knop in de rechterbenedenhoek van het blok **[!UICONTROL Deployment]** om de resultaten van de uitvoering van de moeheidsregel weer te geven.
 
@@ -186,7 +186,7 @@ Er zijn drie tabbladen beschikbaar waarin u de details kunt zien van de resultat
 
   ![](assets/fatigue19.png)
 
-## Het overzichtsrapport voor moeheidsregels weergeven {#viewing-the-fatigue-rule-summary-report}
+## Samenvattingsrapport voor de vermoeidheidsregel weergeven {#viewing-the-fatigue-rule-summary-report}
 
 Adobe Campaign bevat een speciaal rapport over moeheidsregels om u te helpen begrijpen hoe deze regels op uw campagnes worden toegepast. Zo kunt u zien hoe uw campagnes elkaar beïnvloeden en kunt u de juiste aanpassingen aanbrengen.
 

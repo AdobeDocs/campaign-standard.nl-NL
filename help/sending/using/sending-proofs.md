@@ -12,13 +12,13 @@ exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # Proeven verzenden {#sending-proofs}
 
-## Proeven {#about-proofs}
+## Proefdrukken {#about-proofs}
 
 Een proef is een specifiek bericht dat u toestaat om een bericht te testen voordat het naar het hoofddoel wordt verzonden. Ontvangers van de proef zijn verantwoordelijk voor de goedkeuring van het bericht (content en vorm).
 
@@ -38,7 +38,7 @@ Er zijn twee soorten ontvangers van proeven:
   >
   >Deze functie is alleen beschikbaar voor het e-mailkanaal.
 
-## Een proef verzenden {#sending-a-proof}
+## Een proefafdruk verzenden {#sending-a-proof}
 
 Voer de volgende stappen uit om proeven te verzenden:
 
@@ -80,7 +80,7 @@ Afhankelijk van de opmerkingen van de personen die de proef ontvangen, wordt u m
 
 U moet zoveel proeven verzenden als nodig zijn totdat u de content van de levering hebt voltooid. Als dit is gebeurd, kunt u de levering naar het hoofddoel verzenden en de goedkeuringscyclus sluiten.
 
-## De onderwerpregel van proeven configureren {#configuring-proofs-subject-line}
+## De onderwerpregel van proefdrukken configureren {#configuring-proofs-subject-line}
 
 Wanneer een proef wordt verzonden, wordt de onderwerpregel ervan standaard geconfigureerd met het voorvoegsel **‘Proof’** gevolgd door het nummer van de proef.
 

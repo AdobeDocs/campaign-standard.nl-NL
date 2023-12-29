@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 86%
+source-wordcount: '480'
+ht-degree: 81%
 
 ---
 
 # Een e-mail met aanvullende gegevens personaliseren {#example--personalizing-an-email-with-additional-data}
 
-Het volgende voorbeeld toont hoe u verschillende typen aanvullende data toevoegt aan een query en hoe u deze data gebruikt voor een personalisatieveld in een e-mailbericht. Meer informatie over het verrijken van de gegevens waarop een **[!UICONTROL Query]** activiteit, zie [deze sectie](../../automating/using/query.md#enriching-data).
+In het volgende voorbeeld ziet u hoe u verschillende typen aanvullende gegevens toevoegt aan een query en hoe u deze gebruikt als een verpersoonlijkingsveld in een e-mailbericht. Meer informatie over het verrijken van de gegevens waarop een **[!UICONTROL Query]** activiteit, zie [deze sectie](../../automating/using/query.md#enriching-data).
 
 In dit voorbeeld worden [aangepaste bronnen](../../developing/using/data-model-concepts.md) gebruikt:
 

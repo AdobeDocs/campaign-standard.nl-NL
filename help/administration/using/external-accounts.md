@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1764'
-ht-degree: 80%
+source-wordcount: '1720'
+ht-degree: 77%
 
 ---
 
@@ -35,7 +35,7 @@ U kunt de volgende typen externe accounts instellen:
 
 Externe accounts kunnen door beheerders worden geconfigureerd via het menu **[!UICONTROL Administration > Application settings > External accounts]**.
 
-## Een extern account maken {#creating-an-external-account}
+## Een externe account maken {#creating-an-external-account}
 
 Adobe Campaign wordt geleverd met een set vooraf gedefinieerde externe accounts. Om verbindingen met externe systemen zoals FTP-servers voor bestandsoverdracht in te stellen, kunt u uw eigen externe accounts aanmaken.
 
@@ -52,7 +52,7 @@ Externe accounts worden gebruikt door technische processen, zoals technische wor
 
 Het externe account wordt gemaakt en toegevoegd aan de lijst met accounts. Het is nu beschikbaar voor uw data-/bestandsoverdrachten of routeringconfiguraties in workflowactiviteiten en leveringseigenschappen.
 
-## Extern SFTP-account {#sftp-external-account}
+## Externe SFTP-account {#sftp-external-account}
 
 Voor verschillende typen externe accounts moeten verschillende data worden opgegeven.
 
@@ -62,7 +62,7 @@ Geef voor een extern SFTP-account de volgende data op:
 * Poortnummer. Bijvoorbeeld **22**.
 * Aanmeldingsgegevens SFTP-server: accountnaam en wachtwoord waarmee verbinding wordt gemaakt met de server.
 
-### Aanbevelingen voor door Adobe gehoste SFTP-servers {#adobe-hosted-sftp-server-recommendations}
+### Adobe gehoste aanbevelingen voor SFTP-servers {#adobe-hosted-sftp-server-recommendations}
 
 Als u bestanden en data beheert voor ETL-doeleinden, worden deze bestanden opgeslagen op een gehoste SFTP-server die door Adobe wordt geleverd. Deze SFTP is ontworpen als een tijdelijke opslagruimte waarop u het bewaren en verwijderen van bestanden kunt regelen.
 
@@ -104,7 +104,7 @@ Nadat u de accountgegevens hebt ingevoerd, klikt u op **Verbinding testen** om t
 >
 >De geloofsbrieven &quot;Content-Type: application/x-www-form-urlencoded&quot;en &quot;gift_type=client_credentials&quot;zullen automatisch aan de API vraag worden toegevoegd; daarom zult u niet hen in de geloofsbrieven sectie moeten toevoegen.
 
-## Extern Amazon S3-account {#amazon-s3-external-account}
+## Amazon S3 externe account {#amazon-s3-external-account}
 
 Het Amazon S3-serverveld moet als volgt worden ingevuld:
 
@@ -132,7 +132,7 @@ We raden u aan de volgende aanbevelingen te volgen om u te helpen bij het instel
 * Schakel tijdens het maken van een extern account codering in voor het opslaan van gevoelige data in het S3-bucket door het selectievakje **[!UICONTROL Keep files in S3 encrypted]** aan te vinken.
 * Verleen bucketmachtigingen om aan te geven wie toegang heeft tot het object in een bucket. Zie de [Amazon S3-documentatie](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html) voor meer informatie over bucketmachtigingen.
 
-## Extern Adobe Experience Manager-account {#adobe-experience-manager-external-account}
+## Externe Adobe Experience Manager-account {#adobe-experience-manager-external-account}
 
 De externe accounts van Adobe Experience Manager worden gebruikt bij de integratie van Campaign met Experience Manager.
 
@@ -148,7 +148,7 @@ Wanneer u deze nieuwe externe account instelt, moet u de volgende gegevens opgev
 
 * Aanmeldingsgegevens voor AEM-account: gebruik het account dat toegang nodig heeft tot de Adobe Experience Manager-instantie. Het zou een accountonderdeel moeten zijn van de groep campaign-remote in Experience Manager.
 
-## Extern Google reCAPTCHA-account {#google-recaptcha-external-account}
+## Google reCAPTCHA externe account {#google-recaptcha-external-account}
 
 >[!NOTE]
 >
@@ -169,7 +169,7 @@ Geef voor een extern Google reCAPTCHA V3-account de volgende data op:
 
 ![](assets/external_accounts_3.png)
 
-## Extern Microsoft Azure Blob-opslagaccount {#microsoft-azure-external-account}
+## Microsoft Azure Blob-opslag, externe account {#microsoft-azure-external-account}
 
 >[!NOTE]
 >
@@ -190,7 +190,7 @@ Geef de volgende data op voor een extern account voor Microsoft Azure Blob-opsla
 
 Als de configuratie voltooid is, klikt u op **[!UICONTROL Test connection]** om Adobe Campaign te koppelen aan Microsoft Azure Blob-opslag.
 
-### Aanbevelingen voor Microsoft Azure Blob-opslag {#azure-blob-recommendations}
+### Microsoft Azure Blob-opslagaanbevelingen {#azure-blob-recommendations}
 
 **Codering**
 
