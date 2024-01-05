@@ -6,16 +6,16 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 12%
+source-wordcount: '338'
+ht-degree: 5%
 
 ---
 
 # Aanstaande wijzigingen in het kanaal voor pushmeldingen {#push-upgrade}
 
-Met Campagne kunt u pushmeldingen verzenden op Android- en iOS-apparaten. Om dit te doen, baseert de Campagne zich op de specifieke abonnementsdiensten. In 2024 komt er een versie met enkele belangrijke wijzigingen voor de service FCM (Android Firebase Cloud Messaging). Deze zullen van invloed zijn op uw Adobe Campaign-implementatie. Daarnaast wijzigt de Adobe voor iOS-toepassingen de manier waarop beheerders certificaten kunnen configureren.
+Met Campagne kunt u pushmeldingen verzenden op Android- en iOS-apparaten. Om dit te doen, baseert de Campagne zich op de specifieke abonnementsdiensten. Enkele belangrijke wijzigingen in de Android Firebase Cloud Messaging (FCM)-service worden gepubliceerd met de release van 24.1.2024 Winter en zijn van invloed op uw Adobe Campaign-implementatie. Daarnaast wijzigt de Adobe voor iOS-toepassingen de manier waarop beheerders certificaten kunnen configureren.
 
 ## Wat is er veranderd? {#push-changes}
 
@@ -27,7 +27,7 @@ Adobe Campaign Standard gebruikt momenteel de verouderde HTTP-API&#39;s om Andro
 
 ### iOS {#push-ios}
 
-De Adobe zal ook Adobe Campaign Standard voor het Kanaal van het Push Bericht van iOS bevorderen en de manier veranderen wij Beheerders toestaan om certificaten voor hun toepassingen van iOS te vormen. Beheerders moeten nu de iOS-certificaten uploaden via de Adobe Campaign Standard-gebruikersinterface.
+De Adobe zal ook Adobe Campaign Standard voor het Kanaal van het Push Bericht van iOS bevorderen en de manier veranderen wij Beheerders toestaan om certificaten voor hun toepassingen van iOS te vormen. Vanaf 24.2.2024 moeten beheerders de iOS-certificaten uploaden via de Adobe Campaign Standard-gebruikersinterface, in de eigenschappen van uw mobiele toepassing.
 
 ## Heb je invloed op? {#push-impact}
 
@@ -35,7 +35,7 @@ Als gebruiker van het Campaign Standard, als u pushberichten naar uw publiek ver
 
 ## Hoe migreren? {#push-migration}
 
-Deze updates vereisen een Campaign Standard bouwt verbetering, aangezien zij de mobiele kanaalconfiguratie en het toestemmingsbeheer beïnvloeden.
+Deze updates vereisen een Campaign Standard bouwstijl verbetering aan versie 24.1 2024 van de Winter, aangezien zij de mobiele kanaalconfiguratie en toestemmingsbeheer beïnvloeden.
 
 Er zullen binnenkort gedetailleerde instructies worden gegeven om een soepel overgangsproces te vergemakkelijken.
 

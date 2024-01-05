@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 602aca18af81625b9756a8f2020b5bc636199b96
+source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 68%
+source-wordcount: '159'
+ht-degree: 52%
 
 ---
 
@@ -33,7 +33,10 @@ Op deze pagina worden nieuwe verbeteringen en oplossingen beschreven die in de v
 
 Adobe Campaign Standard 24.1 gebruikt de HTTP v1-API&#39;s om Android Push Notification Berichten te verzenden, om ervoor te zorgen dat deze compatibel zijn met aanstaande FCM-wijzigingen. Meer informatie vindt u [in deze technische opmerking](../../administration/using/push-technote.md).
 
+Adobe Campaign Standard 24.1 ondersteunt nu p8-verificatiecertificaten voor iOS-pushberichten. Uw implementatie moet worden aangepast om deze wijzigingen te activeren. Meer informatie vindt u [in deze technische opmerking](../../administration/using/push-technote.md).
+
 
 ### Oplossingen {#e-rn-fixes}
 
+* Probleem verholpen waarbij werd voorkomen dat de onaangekondigde e-mailadressen na 30 dagen uit quarantaine werden verwijderd. (CAMP-52977)
 * Probleem verholpen waarbij de workflow voor het waarschuwen voor levering werd gestopt met de volgende fout: `division by zero`. (CAMP-49786)
