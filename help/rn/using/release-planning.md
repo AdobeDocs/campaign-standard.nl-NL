@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 7678628193f025ae9bfe4c70afe0cb5f0bbc4a4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '464'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Alle versiedatums kunnen worden gewijzigd: bezoek deze pagina regelmatig om te c
 
 ## Versie 24.1: winterversie 2024 {#release-24-1-release}
 
-Gedetailleerde informatie over deze release is te vinden in de [Vroege aanvullende informatie](e-release-notes.md).
+Gedetailleerde informatie over deze versie is te vinden in de [Vroege aanvullende informatie](e-release-notes.md).
 
 <table>
  <thead>
