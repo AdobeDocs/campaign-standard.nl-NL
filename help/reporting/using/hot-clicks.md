@@ -9,20 +9,24 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 5af37156-e93b-4ae9-9856-053364f211ef
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: d0ef11f26a52603107af28231d70821b44753abb
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
 # Hot clicks{#hot-clicks}
 
+>[!IMPORTANT]
+>
+>In het rapport Hot Clicks wordt alleen de HTML-versie van het e-mailbericht weergegeven en wordt de tekstversie niet ondersteund.
+
 Dit rapport is toegankelijk via de **[!UICONTROL Reports]** in elk bezorgings- of transactiebericht.
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
-De inhoud van het bericht (HTML en/of tekst) wordt weergegeven met het percentage klikken op elke koppeling.
+Het stelt de berichtinhoud met het percentage van kliks op elke verbinding voor.
 
 ![](assets/delivery_reports_10.png)
 
