@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: acbe5f1990738f586e4310d13f0e19baab11d771
+source-git-commit: 1346f7d833515fb2e6feabb39d199ffd5610c88e
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Om ervoor te zorgen dat het pushbericht volledig is ontwikkeld, moet u ervoor zo
 
 De functie Push Tracking bestaat uit drie typen:
 
-* **Push Impressions** - Wanneer een pushmelding aan het apparaat is afgeleverd en op het meldingscentrum zit, maar helemaal niet is aangeraakt.  Dit wordt als een indruk beschouwd.  In de meeste gevallen zouden de indrukkingsaantallen gelijkaardig moeten zijn als niet het zelfde als het geleverde aantal. Het zorgt ervoor dat het apparaat het bericht kreeg en die informatie terug naar de server terugbracht.
+* **Push Impressions** - Wanneer een pushbericht correct aan het apparaat is geleverd en zich in het meldingscentrum bevindt zonder tussenkomst van de gebruiker.
 
 * **Klikken** - Wanneer een pushmelding naar het apparaat is gestuurd en de gebruiker op het apparaat heeft geklikt.  De gebruiker wilde de melding bekijken (die op zijn beurt weer naar Open Push-tracking gaat) of het bericht negeren.
 
-* **Push Open** - Wanneer een pushmelding naar het apparaat is gestuurd en de gebruiker op het bericht heeft geklikt waardoor de app wordt geopend.  Dit is gelijkaardig aan de Duw klikt behalve zal een Duw Open niet teweeggebracht worden als het bericht werd verworpen.
+* **Push Open** - Wanneer een pushmelding naar het apparaat is gestuurd en de gebruiker op het bericht heeft geklikt waardoor de app wordt geopend. Dit is gelijkaardig aan de Duw klikt behalve zal een Duw Open niet teweeggebracht worden als het bericht werd verworpen.
 
 Voor het implementeren van tracering voor Campaign Standard moet de mobiele app de SDK&#39;s van Adobe Experience Platform bevatten. Deze SDK&#39;s zijn beschikbaar in de [Adobe Experience Platform SDKs-documentatie](https://github.com/Adobe-Marketing-Cloud/acp-sdks).
 
