@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 630a4d0d0ced73d469fe81431f8bcf954b74cb45
+source-git-commit: 1619e1f434742b89d0f0802c40e82d7b59773a59
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1307'
 ht-degree: 2%
 
 ---
@@ -153,7 +153,7 @@ Uw mobiele toepassing kan nu worden gebruikt in Campagne voor pushberichten of i
      Voer de volgende toepassingsgegevens in:
 
       * **Toepassings-id (iOS-bundel-id)**: Zie [Apple-documentatie](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) voor meer informatie over bundel-id.
-      * **iOS Certificate (P8)-bestand**: Sleep de p8-auttoets en zet deze neer.
+      * **iOS Certificate (P8)-bestand**: Sleep de p8-auttoets en zet deze neer. Raadpleeg voor instructies over het genereren van het .p8-verificatiebestand de [Apple Developer Account](https://developer.apple.com/account/ios/authkey/create).
       * **Sleutel-id**: Zie [Apple-documentatie](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) voor meer informatie over sleutel-id.
       * **iOS Team ID**: Zie [Apple-documentatie](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) voor meer informatie over iOS Team ID.
 
@@ -165,7 +165,7 @@ Uw mobiele toepassing kan nu worden gebruikt in Campagne voor pushberichten of i
      Voer de volgende toepassingsgegevens in:
 
       * **Toepassings-id (Android-pakketnaam)**: Zie [Android-documentatie](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) voor meer informatie over de naam van het pakket.
-      * **JSON-bestand (Android Key)**: Sleep het bestand met de persoonlijke sleutel .json en zet het neer.
+      * **JSON-bestand (Android Key)**: Sleep het bestand met de persoonlijke sleutel .json en zet het neer. Voor instructies over het genereren van het .json-bestand met de persoonlijke sleutel raadpleegt u de [Documentatie voor ontwikkelaars voor Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments).
 
         ![](assets/mobile_app_android_config.png)
 +++
