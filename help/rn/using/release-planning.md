@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 7678628193f025ae9bfe4c70afe0cb5f0bbc4a4d
-workflow-type: ht
-source-wordcount: '464'
-ht-degree: 100%
+source-git-commit: ff6e926b66547632b74e58cc0e419c83a4ea556e
+workflow-type: tm+mt
+source-wordcount: '408'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ Alle versiedatums kunnen worden gewijzigd: bezoek deze pagina regelmatig om te c
 
 ## Versie 24.1: winterversie 2024 {#release-24-1-release}
 
-Gedetailleerde informatie over deze versie is te vinden in de [Vroege aanvullende informatie](e-release-notes.md).
+Gedetailleerde informatie over deze release is beschikbaar in het dialoogvenster [Opmerkingen bij de release](release-notes.md) wanneer de Stage-omgeving begint met bijwerken.
 
 <table>
  <thead>
@@ -47,37 +47,6 @@ Gedetailleerde informatie over deze versie is te vinden in de [Vroege aanvullend
   </tr>
  </tbody>
 </table>
-
-
-## Versie 23.2: beperkte herfstversie 2023 {#release-23-2-release}
-
-
->[!AVAILABILITY]
->
->Deze release is maar voor een aantal organisaties beschikbaar (beperkte beschikbaarheid). Neem voor meer informatie contact op met uw Adobe-vertegenwoordiger.
-
-Gedetailleerde informatie over deze release is te vinden in de [Aanvullende informatie](release-notes.md).
-
-<table>
- <thead>
-  <tr>
-   <th> Omgevingen </th>
-   <th> Datums </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td>Stadium </td>
-   <td>3-9 oktober 2023 </td>
-  </tr>
-  <tr>
-   <td>Productie </td>
-   <td>12-18 oktober 2023 </td>
-  </tr>
- </tbody>
-</table>
-
-Neem contact op met [Adobe Client Care](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) als u nog vragen hebt.
 
 ## Vragen en antwoorden {#questions-and-answers}
 
