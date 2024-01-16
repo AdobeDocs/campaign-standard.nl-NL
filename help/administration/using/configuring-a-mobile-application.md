@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+source-git-commit: 630a4d0d0ced73d469fe81431f8bcf954b74cb45
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1271'
 ht-degree: 2%
 
 ---
@@ -146,15 +146,31 @@ Uw mobiele toepassing kan nu worden gebruikt in Campagne voor pushberichten of i
 
    De gebeurtenis is nu beschikbaar op het tabblad Triggers wanneer u een bericht in de app maakt. Zie voor meer informatie [Een bericht in de app voorbereiden en verzenden](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
-1. In de **[!UICONTROL Device-specific settings]** in een dashboard voor mobiele toepassingen voor elk apparaat de toepassingsgegevens opgeven, inclusief het certificaat voor iOS en de serversleutel voor Android.
+1. In de **[!UICONTROL Device-specific settings]** van een mobiel toepassingsdashboard, voor elk apparaat, de toepassingsdetails verstrekken.
 
-   Nadat het certificaat is geüpload, verschijnt er een bericht met de melding dat het uploaden is voltooid en wordt de vervaldatum van het certificaat weergegeven.
+   * +++ Voor iOS
 
-   >[!NOTE]
-   >
-   >Nadat u het certificaat in Adobe Campaign Standard hebt toegevoegd, kunt u de instellingen niet meer wijzigen omdat slechts één APNS-platform (productie of sandbox) aan de MCPNS-app kan worden toegevoegd.
+     Voer de volgende toepassingsgegevens in:
 
-   ![](assets/launch_8.png)
+      * **Toepassings-id (iOS-bundel-id)**: Zie [Apple-documentatie](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) voor meer informatie over bundel-id.
+      * **iOS Certificate (P8)-bestand**: Sleep de p8-auttoets en zet deze neer.
+      * **Sleutel-id**: Zie [Apple-documentatie](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) voor meer informatie over sleutel-id.
+      * **iOS Team ID**: Zie [Apple-documentatie](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) voor meer informatie over iOS Team ID.
+
+        ![](assets/mobile_app_ios_config.png)
++++
+
+   * +++ Voor Android
+
+     Voer de volgende toepassingsgegevens in:
+
+      * **Toepassings-id (Android-pakketnaam)**: Zie [Android-documentatie](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) voor meer informatie over de naam van het pakket.
+      * **JSON-bestand (Android Key)**: Sleep het bestand met de persoonlijke sleutel .json en zet het neer.
+
+        ![](assets/mobile_app_android_config.png)
++++
+
+1. Nadat het certificaat is geüpload, verschijnt er een bericht met de melding dat het uploaden is voltooid en wordt de vervaldatum van het certificaat weergegeven.
 
 1. Klik op de knop **[!UICONTROL Mobile application subscribers]** om een lijst met abonnees en andere informatie over deze abonnees weer te geven, bijvoorbeeld of ze uw meldingen hebben verlaten.
 
