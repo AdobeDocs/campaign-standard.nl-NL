@@ -3,11 +3,11 @@ audience: end-user
 user-guide-title: Campaign Standard
 user-guide-description: Productdocumentatie voor Adobe Campaign Standard.
 title: Campaign Standard-handleiding
-breadcrumb-title: Documentatie Campaign Standard
+breadcrumb-title: Documentatie voor Campaign Standard
 source-git-commit: 64e3bb463497548d6fbae80f00b8c963b65c4f40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1769'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
