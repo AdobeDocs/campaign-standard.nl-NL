@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 8702a07c50afa82a24b79cf768ab079f6384cf3f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7258'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Naast [aanvullende informatie](../../rn/using/release-notes.md) van Adobe Campai
 
 ## Release 24.1 - Winter 2024 {#release-24-1}
 
-Opmerkingen bij de release van Campaign Standard 24.1 Winter 2024 zijn gepubliceerd. [Meer informatie](release-notes.md)
+Aanvullende informatie bij de release van Campaign Standard 24.1 winter 2024 is gepubliceerd. [Meer informatie](release-notes.md)
 
 ## December 2023 {#doc-updates-dec-2023}
 
