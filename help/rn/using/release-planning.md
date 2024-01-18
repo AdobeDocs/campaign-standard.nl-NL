@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: ff6e926b66547632b74e58cc0e419c83a4ea556e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Alle versiedatums kunnen worden gewijzigd: bezoek deze pagina regelmatig om te c
 
 ## Versie 24.1: winterversie 2024 {#release-24-1-release}
 
-Gedetailleerde informatie over deze release is beschikbaar in het dialoogvenster [Opmerkingen bij de release](release-notes.md) wanneer de Stage-omgeving begint met bijwerken.
+Gedetailleerde informatie over deze release is beschikbaar in de [Aanvullende informatie](release-notes.md) wanneer upgrades van de stagingomgeving van start gaan.
 
 <table>
  <thead>
