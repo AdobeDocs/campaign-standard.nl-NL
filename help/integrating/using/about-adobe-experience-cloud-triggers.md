@@ -9,7 +9,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: ea69225fdf8b69025ff93b87b5b47ac9095b0eea
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 91%
@@ -30,7 +30,7 @@ In het volgende diagram wordt beschreven hoe deze integratie werkt.
 
 **Verwante onderwerpen:**
 
-* Meer informatie over de verschillende typen triggers: [Adobe Experience Cloud-documentatie](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html).
+* Meer informatie over de verschillende typen triggers: [Adobe Experience Cloud-documentatie](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html).
 * Bekijk de video over [triggers voor remarketingberichten op basis van websiteactiviteiten](https://helpx.adobe.com/nl/marketing-cloud/how-to/email-marketing.html#step-two).
 * Verken onze twee [gebruiksscenario&#39;s voor triggers bij afbrekingsacties](../../integrating/using/abandonment-triggers-use-cases.md).
 
