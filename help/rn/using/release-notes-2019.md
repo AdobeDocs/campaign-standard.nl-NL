@@ -6,7 +6,7 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '7674'
 ht-degree: 8%
@@ -61,7 +61,7 @@ ht-degree: 8%
 * De toestemmingspop-up voor Dynamische rapportering is bijgewerkt om integratie Adobe Campaign Standard en de Dynamica 365 van Microsoft te omvatten. Door de voorwaarden te accepteren, worden profielgegevens opgenomen wanneer de integratie Adobe Campaign Standard / Microsoft Dynamics 365 en Dynamic Reporting worden gebruikt. [Meer informatie](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * Probleem verholpen waarbij onjuiste contactdata werden weergegeven bij ontvangst van leveringswaarschuwingen.
 * Wanneer een transactieberichtgebeurtenis met een onbekende contextparameter wordt voorgelegd, keert de Campagne nu een &quot;400&quot;foutenmelding in plaats van &quot;500&quot;terug. (CAMP-28632)
-* Een nieuwe **Bewijs uitsluiten** segment is toegevoegd in Dynamische rapportering. Dit segment is nu standaard geselecteerd om uw rapporten te filteren. [Meer informatie](../../reporting/using/list-of-components-.md#segments)
+* Een nieuwe **Bewijs uitsluiten** segment is toegevoegd in Dynamische rapportering. Dit segment is nu standaard geselecteerd om uw rapporten te filteren. [Meer informatie](../../reporting/using/list-of-components.md#segments)
 * De **Vervaldatum bericht** is toegevoegd aan pushmelding. Hiermee kunt u een vervaldatum opgeven waarop het bericht niet meer wordt verzonden door Apple (APNS) of Android (FCM). [Meer informatie](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * Er zijn verbeteringen aangebracht in de **Bestand laden** activiteit: werkstroomlogboeken zijn duidelijker en gedetailleerder gemaakt over de fout die optreedt wanneer een bestand niet kan worden geladen. De uitgaande overgang die wordt gegenereerd wanneer de **De afwijzing behouden in een bestand** de naam van de optie is gewijzigd **Afwijzingen**. [Meer informatie](../../automating/using/load-file.md)
 * Meertalige verwante logboeken zijn toegevoegd aan de verzendende logboeken om het versturen van fouten beter te begrijpen die het gevolg zijn van ontbrekende talen in de geüploade CSV-bestanden.

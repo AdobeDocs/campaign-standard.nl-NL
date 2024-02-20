@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: fc6788bf62fa66bd43b3e50fb9bc676ccb466078
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 3%
@@ -103,7 +103,7 @@ Hier volgt de API-voorvertoning voor dit voorbeeld:
 
 U kunt de inhoud van het transactiebericht verrijken met informatie uit de Adobe Campaign-database om uw berichten aan te passen. Van achternaam of identiteitskaart van CRM van elk van uw ontvangers, bijvoorbeeld, kunt u gegevens zoals hun adres of geboortedatum of een ander douanegebied terugkrijgen dat in de lijst van het Profiel wordt toegevoegd, om de informatie te personaliseren die naar hen wordt verzonden.
 
-Het is mogelijk om de inhoud van het transactiebericht te verrijken met informatie van uitgebreid **[!UICONTROL Profile and services Ext API]**. Zie voor meer informatie [De API uitbreiden: de extensie publiceren](../../developing/using/step-2--publish-the-extension.md)
+Het is mogelijk om de inhoud van het transactiebericht te verrijken met informatie van uitgebreid **[!UICONTROL Profile and services Ext API]**. Zie voor meer informatie [De API uitbreiden: de extensie publiceren](../../developing/using/step-2-publish-the-extension.md)
 
 Deze informatie kan ook in nieuwe middelen worden opgeslagen. In dat geval moet de bron gekoppeld zijn aan de **[!UICONTROL Profile]** of **[!UICONTROL Service]** bronnen, rechtstreeks of via een andere tabel. In de onderstaande configuratie is het bijvoorbeeld mogelijk om de inhoud van het transactiebericht te verrijken met informatie uit de **[!UICONTROL Product]** bron zoals de productcategorie of id, als de **[!UICONTROL Product]** resource is gekoppeld aan de **[!UICONTROL Profile]** resource.
 

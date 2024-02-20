@@ -4,8 +4,8 @@ user-guide-title: Campaign Standard
 user-guide-description: Productdocumentatie voor Adobe Campaign Standard.
 title: Campaign Standard-handleiding
 breadcrumb-title: Documentatie voor Campaign Standard
-source-git-commit: 64e3bb463497548d6fbae80f00b8c963b65c4f40
-workflow-type: ht
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 100%
 
@@ -201,7 +201,7 @@ ht-degree: 100%
    + Informatie over rapportage {#about-reporting}
       + [Informatie over dynamische rapporten](reporting/using/about-dynamic-reports.md)
       + [Rapportage-interface](reporting/using/reporting-interface.md)
-      + [Lijst met componenten](reporting/using/list-of-components-.md)
+      + [Lijst met componenten](reporting/using/list-of-components.md)
       + [Indicatoren berekenen](reporting/using/indicator-calculation.md)
       + [Problemen oplossen](reporting/using/troubleshooting.md)
    + Lijst met rapporten {#list-of-reports}
@@ -233,7 +233,7 @@ ht-degree: 100%
       + [Informatie over de integratie van Campaign-Experience Manager](integrating/using/integrating-with-experience-manager.md)
       + [De integratie van Campaign-Experience Manager configureren](integrating/using/configure-experience-manager.md)
       + [E-mailcontent maken in Adobe Experience Manager](integrating/using/creating-email-experience-manager.md)
-      + [Een Campaign-formulier maken in Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Een Campaign-formulier maken in Experience Manager](integrating/using/creating-a-campaign-form-in-experience-manager.md)
       + [Een meertalige e-mail maken met de integratie van Adobe Experience Manager](integrating/using/creating-multilingual-email-aem.md)
    + Campaign en Target {#working-with-campaign-and-target}
       + [Informatie over de integratie van Campaign-Target](integrating/using/about-campaign-target-integration.md)
@@ -397,11 +397,11 @@ ht-degree: 100%
       + [De databasestructuur bijwerken](developing/using/updating-the-database-structure.md)
       + [Een bron verwijderen](developing/using/deleting-a-resource.md)
       + [Een bron oproepen met een samengestelde identificatiesleutel](developing/using/uc-calling-resource-id-key.md)
-   + Gebruiksscenario: de API uitbreiden {#use-case--extending-the-api}
+   + Gebruiksscenario: de API uitbreiden {#use-case-extending-the-api}
       + [Informatie over het uitbreiden van de API](developing/using/about-extending-the-api.md)
-      + [Stap 1: extensievelden toevoegen aan de profielbron](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
-      + [Stap 2: de extensie publiceren](developing/using/step-2--publish-the-extension.md)
-      + [Stap 3: de extensie verifiëren](developing/using/step-3--verify-the-extension.md)
+      + [Stap 1: extensievelden toevoegen aan de profielbron](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
+      + [Stap 2: de extensie publiceren](developing/using/step-2-publish-the-extension.md)
+      + [Stap 3: de extensie verifiëren](developing/using/step-3-verify-the-extension.md)
    + Gebruiksscenario&#39;s: bronnen uitbreiden {#use-cases--extending-resources}
       + [De profielbron uitbreiden met een nieuw veld](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [De lidmaatschappen uitbreiden naar een applicatiebron](developing/using/extending-the-subscriptions-to-an-application-resource.md)

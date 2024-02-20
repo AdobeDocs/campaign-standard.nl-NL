@@ -5,8 +5,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 8702a07c50afa82a24b79cf768ab079f6384cf3f
-workflow-type: ht
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+workflow-type: tm+mt
 source-wordcount: '7258'
 ht-degree: 100%
 
@@ -898,7 +898,7 @@ De sectie over het maken van services is bijgewerkt. [Meer informatie](../../aud
 
 Er zijn gebruiksscenario’s toegevoegd voor een beter begrip van beveiligingsgroepen en eenheden. [Meer informatie](../../administration/using/organizational-units.md)
 
-Verbeterde definities en berekeningen van dimensies, metrische data en segmenten in dynamische rapporten. [Meer informatie](../../reporting/using/list-of-components-.md)
+Verbeterde definities en berekeningen van dimensies, metrische data en segmenten in dynamische rapporten. [Meer informatie](../../reporting/using/list-of-components.md)
 
 Er is informatie toegevoegd over het ophalen van binnenkomende sms-berichten met een workflow. [Meer informatie](../../administration/using/configuring-sms-channel.md)
 
@@ -958,7 +958,7 @@ Verbetering voor massa-abonnementen - [Meer informatie](../../automating/using/s
 
 **Overige documentatie-updates die bij de release worden geleverd**
 
-Gedetailleerde lijst van alle componenten die beschikbaar zijn in Dynamische rapporten en enkele veranderingen in formules. [Meer informatie](../../reporting/using/list-of-components-.md)
+Gedetailleerde lijst van alle componenten die beschikbaar zijn in Dynamische rapporten en enkele veranderingen in formules. [Meer informatie](../../reporting/using/list-of-components.md)
 
 Gedetailleerde lijst met KPI’s die worden gedeeld met Adobe Analytics. [Meer informatie](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
@@ -1010,7 +1010,7 @@ De documentatie over e-mailweergave is bijgewerkt. [Meer informatie](../../sendi
 
 De tabel voor de berekening van rapportindicatoren is bijgewerkt. [Meer informatie](../../reporting/using/indicator-calculation.md)
 
-De documentatie over rapportage is bijgewerkt met vier nieuwe metrische data. [Meer informatie](../../reporting/using/list-of-components-.md)
+De documentatie over rapportage is bijgewerkt met vier nieuwe metrische data. [Meer informatie](../../reporting/using/list-of-components.md)
 
 Er is documentatie toegevoegd over het genereren van unieke id’s voor profielen. [Meer informatie](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)
 

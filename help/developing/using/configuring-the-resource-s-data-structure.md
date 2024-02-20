@@ -9,7 +9,7 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 97%
@@ -250,7 +250,7 @@ Als u een nieuwe subdimensie wilt genereren die is gekoppeld aan de dimensie Pro
 
 Vanaf Dynamische rapportage kunt u de dimensie van het aangepaste veld slepen en neerzetten in een vrije-vormtabel.
 
-Voor meer informatie over Dynamische rapportage raadpleegt u de [Lijst met componenten](../../reporting/using/list-of-components-.md).
+Voor meer informatie over Dynamische rapportage raadpleegt u de [Lijst met componenten](../../reporting/using/list-of-components.md).
 
 >[!IMPORTANT]
 >
