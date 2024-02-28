@@ -4,8 +4,8 @@ user-guide-title: Campaign Standard
 user-guide-description: Productdocumentatie voor Adobe Campaign Standard.
 title: Campaign Standard-handleiding
 breadcrumb-title: Documentatie voor Campaign Standard
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
-workflow-type: ht
+source-git-commit: 1b218f7f19b0ebc4d77903688e1f2c502d8b5234
+workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 100%
 
@@ -402,7 +402,7 @@ ht-degree: 100%
       + [Stap 1: extensievelden toevoegen aan de profielbron](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
       + [Stap 2: de extensie publiceren](developing/using/step-2-publish-the-extension.md)
       + [Stap 3: de extensie verifiëren](developing/using/step-3-verify-the-extension.md)
-   + Gebruiksscenario&#39;s: bronnen uitbreiden {#use-cases--extending-resources}
+   + Gebruiksscenario&#39;s: bronnen uitbreiden {#use-cases-extending-resources}
       + [De profielbron uitbreiden met een nieuw veld](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [De lidmaatschappen uitbreiden naar een applicatiebron](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + Gegevensmodel {#datamodel}
