@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 3baadaf774092bb48a029e098e8f56170660400b
+source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
 workflow-type: tm+mt
-source-wordcount: '2737'
-ht-degree: 55%
+source-wordcount: '2729'
+ht-degree: 56%
 
 ---
 
@@ -294,13 +294,11 @@ De sectie **[!UICONTROL SMTP]** bevat de volgende parameters:
   >
   >Het toevoegen van een script voor het opnemen van extra SMTP-kopteksten is gereserveerd voor gevorderde gebruikers. De syntaxis van dit script moet voldoen aan de vereisten van dit type content: geen ongebruikte ruimte, geen lege regel, enz.
 
-  Vanaf 1 juni 2024, Google en Yahoo! afzenders verplichten te voldoen aan **Een-klik List-Unsubscribe**. De campagne steunt, uit-van-de-doos, dit vermogen. [Meer informatie over deze wijziging](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#1-click-(list)-unsubscribe%3A){target="_blank"}
+  Vanaf 1 juni 2024, Google en Yahoo! afzenders verplichten te voldoen aan **Een-klik List-Unsubscribe**. De campagne steunt dit vermogen uit-van-de-doos.
 
   >[!CAUTION]
   >
   >Als u de koptekstwaarde in het dialoogvenster **[!UICONTROL Additional SMTP headers]** van uw e-mailsjablonen kan de compatibiliteit met de **Een-klik List-Unsubscribe** eis van Google en Yahoo!
-
-  <!--Campaign supports, out-of-the-box, Google and Yahoo **One-Click List-Unsubscribe** capability. Be aware that if you modify the header value in custom templates, it could break the compliance with Google/Yahoo **One-Click List-Unsubscribe**.-->
 
 ### Lijst van parameters voor toegangsvergunningen {#list-of-access-authorization-parameters}
 
