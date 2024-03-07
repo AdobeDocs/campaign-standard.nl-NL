@@ -9,7 +9,7 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 2%
@@ -49,7 +49,7 @@ In dit voorbeeld wordt **[!UICONTROL Fields]** de PII-gegevens die door de mobie
 De toewijzing voor Profielgegevens terwijl het uitbreiden van **[!UICONTROL Subscriptions to an Application]** resource is READ-ONLY. Het wordt gebruikt voor verzoening. Het profiel moet in het systeem worden ingevoerd met de gegevens die nodig zijn om het profiel te combineren met de PII-gegevens. In ons geval moet een e-mailadres voor het profiel overeenkomen met een e-mail van de Collect PII om de afstemming te kunnen uitvoeren:
 
 * Verzamel PII wordt ontvangen van een Mobiele App voor een gebruiker waar hun Voornaam &quot;Jane, Achternaam &quot;Doe&quot;is en E-mailadres janedoe@doe.com is.
-* De profielgegevens moeten afzonderlijk bestaan (de gegevens moeten bijvoorbeeld handmatig worden ingevoerd of afkomstig zijn van een andere bron), waarbij het e-mailadres van het profiel janedoe@doe.com is.
+* De profielgegevens moeten afzonderlijk bestaan (de gegevens moeten bijvoorbeeld handmatig worden ingevoerd of ze moeten al afkomstig zijn van een andere bron), waarbij het e-mailadres van het profiel janedoe@doe.com is.
 
 **Verwante onderwerpen:**
 
@@ -88,7 +88,7 @@ In de **[!UICONTROL General]** tabblad, stelt u de **[!UICONTROL Execution frequ
 
 ### Vorm **[!UICONTROL Incremental query]** activiteit.
 
-1. In de **[!UICONTROL Properties]** klikt u op de knop **[!UICONTROL Select an element]** pictogram van de **[!UICONTROL Resource]** veld selecteert u vervolgens de **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** element.
+1. In de **[!UICONTROL Properties]** klikt u op de knop **[!UICONTROL Select an element]** pictogram van de **[!UICONTROL Resource]** veld selecteert u vervolgens de **[!UICONTROL Subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** element.
 
    ![](assets/update_profile3.png)
 

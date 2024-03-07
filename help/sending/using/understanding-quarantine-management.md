@@ -8,9 +8,9 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1430'
 ht-degree: 22%
 
 ---
@@ -116,7 +116,7 @@ Het maximumaantal pogingen dat moet worden uitgevoerd in het geval van **[!UICON
 
 >[!IMPORTANT]
 >
->Ontvangers met een adres in een **[!UICONTROL Quarantine]** of **[!UICONTROL Denylisted]** de status wordt nooit verwijderd, zelfs niet als ze een e-mail ontvangen.
+Ontvangers met een adres in een **[!UICONTROL Quarantine]** of **[!UICONTROL Denylisted]** de status wordt nooit verwijderd, zelfs niet als ze een e-mail ontvangen.
 
 
 ### Handmatige updates {#unquarantine-manual}
@@ -144,8 +144,8 @@ Gebaseerd op het tijdkader van het incident, hieronder zijn de geadviseerde rich
 
   waar &quot;support.ISP.com&quot; kan zijn: bijvoorbeeld &quot;support.apple.com&quot; of &quot;support.google.com&quot;
 
-* **Status bijwerken (@lastModified)** op of na MM/DD/YYYY HH:MM:SS AM
-* **Status bijwerken (@lastModified)** op of vóór MM/DD/YYYY HH:MM:SS PM
+* **Status bijwerken (@lastModified)** op of na `MM/DD/YYYY HH:MM:SS AM`
+* **Status bijwerken (@lastModified)** op of voor  `MM/DD/YYYY HH:MM:SS PM`
 
 Als u de lijst met betrokken ontvangers hebt, voegt u een **[!UICONTROL Update data]** activiteit om hun e-mailadresstatus in te stellen op **[!UICONTROL Valid]** zodat zij uit de quarantainelijst worden verwijderd door **[!UICONTROL Database cleanup]** workflow. U kunt ze ook gewoon uit de quarantainetabel verwijderen.
 
@@ -166,7 +166,7 @@ Als een gebruiker een e-mailbericht kwalificeert als spam ([feedbacklus](https:/
 
 >[!NOTE]
 >
->Quarantaine in Adobe Campaign is hoofdlettergevoelig. Zorg dat u de e-mailadressen in kleine letters importeert, zodat ze later niet opnieuw worden getarget.
+Quarantaine in Adobe Campaign is hoofdlettergevoelig. Zorg dat u de e-mailadressen in kleine letters importeert, zodat ze later niet opnieuw worden getarget.
 
 In de lijst met adressen in quarantaine (zie [In quarantaine geplaatste adressen voor het volledige platform identificeren](#identifying-quarantined-addresses-for-the-entire-platform)) geeft het veld **[!UICONTROL Error reason]** aan waarom het geselecteerde adres in quarantaine werd geplaatst.
 

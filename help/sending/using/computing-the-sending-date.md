@@ -8,9 +8,9 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ U kunt dit plannen met behulp van een workflow.
 
    * Vul de **[!UICONTROL Segment code]** veld: voer handmatig de gewenste datum en tijd in voor het verzenden van het bericht.
 
-     Bijvoorbeeld, wilt u de eerste partij op 1 Juni om 10:00 AM GMT+1 verzenden. Gebruik de volgende indeling: **YYYY-MM-DD hh:mm:ss+tz**.
+     Bijvoorbeeld, wilt u de eerste partij op 1 Juni om 10:00 AM GMT+1 verzenden. Gebruik de volgende indeling: **`YYYY-MM-DD hh:mm:ss+tz`**.
 
      ![](assets/send-time_opt_segment_configuration.png)
 
