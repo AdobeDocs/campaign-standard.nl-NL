@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Productdocumentatie voor Adobe Campaign Standard.
 title: Campaign Standard-handleiding
 breadcrumb-title: Documentatie voor Campaign Standard
-source-git-commit: 1b218f7f19b0ebc4d77903688e1f2c502d8b5234
+source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 100%
+source-wordcount: '1768'
+ht-degree: 99%
 
 ---
 
@@ -448,7 +448,7 @@ ht-degree: 100%
       + [Tagregels configureren om Adobe Campaign Standard-gebruiksscenario&#39;s te ondersteunen](administration/using/configuring-rules-launch.md)
       + [Mobiele gebruiksscenario’s die worden ondersteund in Adobe Campaign Standard](administration/using/supported-mobile-use-cases.md)
       + [Uw mobiele applicatie migreren van SDK v4 naar Adobe Experience Platform SDK](administration/using/sdkv4-migration.md)
-      + [Aanstaande wijzigingen in het kanaal voor pushmeldingen](administration/using/push-technote.md)
+      + [Wijzigingen in kanaal voor pushmelding](administration/using/push-technote.md)
    + Een sms-kanaal configureren {#configuring-sms}
       + [Het sms-kanaal implementeren](administration/using/configuring-sms-channel.md)
       + [Protocol en instellingen voor sms-connector](administration/using/sms-protocol.md)

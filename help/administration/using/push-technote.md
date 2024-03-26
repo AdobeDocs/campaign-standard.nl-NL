@@ -6,7 +6,7 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: 2d3210f681bef0f94b7f22f43906ac62b29541f2
+source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 1%
@@ -31,7 +31,7 @@ Voor een ononderbroken service moet u een upgrade uitvoeren van uw mobiele toepa
 
 Als onderdeel van de voortdurende inspanningen van Google om haar diensten te verbeteren, zullen de bestaande FCM API&#39;s worden stopgezet op **20 juni 2024**. Meer informatie over het HTTP-protocol voor Firebase Cloud Messaging vindt u in [Google Firebase-documentatie](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
-Vanaf versie 24.2 ondersteunt Adobe Campaign Standard de HTTP v1-API&#39;s voor het verzenden van Android Push Notification-berichten.
+Starten [24.1-release](../../rn/using/release-notes.md), Adobe Campaign Standard ondersteunt de HTTP v1 API&#39;s voor het verzenden van Android Push Notification Berichten.
 
 ### Heb je invloed op? {#fcm-impact}
 
@@ -49,7 +49,7 @@ De overgang naar de nieuwste API&#39;s is verplicht om elke onderbreking van de 
 
 #### Vereisten {#fcm-transition-prerequisites}
 
-* De steun van **HTTP v1 AP&#39;s** Deze modus is toegevoegd in versie 24.1. Als uw omgeving op een oudere versie wordt uitgevoerd, is een upgrade van uw omgeving naar de [nieuwste release van Campaign Standard](../../rn/using/release-notes.md).
+* De steun van **HTTP v1-API** Deze modus is toegevoegd in versie 24.1. Als uw omgeving op een oudere versie wordt uitgevoerd, is een upgrade van uw omgeving naar de [nieuwste release van Campaign Standard](../../rn/using/release-notes.md).
 
 * Het JSON-bestand van de Android Firebase Admin SDK-service is vereist om de mobiele toepassing naar HTTP v1 te verplaatsen. Leer hoe u dit bestand kunt ophalen in [Google Firebase-documentatie](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
@@ -118,7 +118,7 @@ Als uw huidige implementatie afhankelijk is van op een certificaat gebaseerde aa
 
 #### Vereisten {#ios-transition-prerequisites}
 
-* De steun van **Op token gebaseerde verificatie** Deze modus is toegevoegd in versie 24.1. Als uw omgeving op een oudere versie wordt uitgevoerd, is een upgrade van uw omgeving naar de [nieuwste release van Campaign Standard](../../rn/using/release-notes.md).
+* De steun van **Op token gebaseerde verificatie** modus is toegevoegd in [24.1-release](../../rn/using/release-notes.md). Als uw omgeving op een oudere versie wordt uitgevoerd, is een upgrade van uw omgeving naar de [nieuwste release van Campaign Standard](../../rn/using/release-notes.md).
 
 * U hebt een APNs-verificatietoken voor ondertekening nodig om de tokens te genereren die uw server gebruikt. U kunt deze sleutel aanvragen via uw Apple-ontwikkelaarsaccount, zoals wordt uitgelegd in [Apple Developer-documentatie](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
