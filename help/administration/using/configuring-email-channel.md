@@ -294,7 +294,7 @@ De sectie **[!UICONTROL SMTP]** bevat de volgende parameters:
   >
   >Het toevoegen van een script voor het opnemen van extra SMTP-kopteksten is gereserveerd voor gevorderde gebruikers. De syntaxis van dit script moet voldoen aan de vereisten van dit type content: geen ongebruikte ruimte, geen lege regel, enz.
 
-  Vanaf 1 juni 2024, Google en Yahoo! afzenders verplichten te voldoen aan **Een-klik List-Unsubscribe**. De campagne steunt dit vermogen uit-van-de-doos.
+  Vanaf 1 juni 2024 moeten afzenders bij Google en Yahoo! afzenders verplichten te voldoen aan **Een-klik List-Unsubscribe**. De campagne steunt dit vermogen uit-van-de-doos.
 
   >[!CAUTION]
   >
