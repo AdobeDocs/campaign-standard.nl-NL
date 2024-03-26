@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 1619e1f434742b89d0f0802c40e82d7b59773a59
+source-git-commit: 58b07f023f52e2bf4972b4a86bf4412f613f38da
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launch is omgedoopt tot een reeks technologieën voor gegevensverzameling in Adobe Experience Platform. Diverse terminologische wijzigingen zijn als gevolg hiervan in de productdocumentatie doorgevoerd. Raadpleeg de [volgend document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html) voor een geconsolideerde referentie van de terminologische wijzigingen.
+> Adobe Experience Platform Launch is omgedoopt tot een reeks technologieën voor gegevensverzameling in Adobe Experience Platform. Diverse terminologische wijzigingen zijn als gevolg hiervan in de productdocumentatie doorgevoerd. Raadpleeg de [volgend document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"} voor een geconsolideerde referentie van de terminologische wijzigingen.
 
 Merk op dat de pushmelding en de implementaties in de app door deskundige gebruikers moeten worden uitgevoerd. Neem voor hulp contact op met uw Adobe Account Executive of Professional Services-partner.
 
@@ -39,6 +39,7 @@ Voer de volgende stappen uit om de configuratie te voltooien:
    Als dat niet het geval is, neemt u contact op met uw accountteam.
 
 1. Controleer of de gebruiker beschikt over de benodigde rechten in Adobe Campaign Standard en tags in Adobe Experience Platform.
+
    * In Adobe Campaign Standard moet u ervoor zorgen dat de IMS-gebruiker deel uitmaakt van de standaardprofielen voor gebruikers- en beheerproducten. Met deze stap kan de gebruiker zich aanmelden bij Adobe Campaign Standard, naar de pagina voor de mobiele app van de SDK van het Experience Platform navigeren en de eigenschappen van de mobiele app weergeven die u hebt gemaakt in de gebruikersinterface voor gegevensverzameling.
 
    * Controleer in de gebruikersinterface voor gegevensverzameling of uw IMS-gebruiker deel uitmaakt van een productprofiel van een Experience Platform Launch.
@@ -152,10 +153,10 @@ Uw mobiele toepassing kan nu worden gebruikt in Campagne voor pushberichten of i
 
      Voer de volgende toepassingsgegevens in:
 
-      * **Toepassings-id (iOS-bundel-id)**: Zie [Apple-documentatie](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) voor meer informatie over bundel-id.
-      * **iOS Certificate (P8)-bestand**: Sleep de p8-auttoets en zet deze neer. Raadpleeg voor instructies over het genereren van het .p8-verificatiebestand de [Apple Developer Account](https://developer.apple.com/account/ios/authkey/create).
-      * **Sleutel-id**: Zie [Apple-documentatie](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) voor meer informatie over sleutel-id.
-      * **iOS Team ID**: Zie [Apple-documentatie](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) voor meer informatie over iOS Team ID.
+      * **Toepassings-id (iOS-bundel-id)**: Zie [Apple-documentatie](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} voor meer informatie over bundel-id.
+      * **iOS Certificate (P8)-bestand**: Sleep de p8-auttoets en zet deze neer. Raadpleeg voor instructies over het genereren van het .p8-verificatiebestand de [Apple Developer Account](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
+      * **Sleutel-id**: Zie [Apple-documentatie](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} voor meer informatie over sleutel-id.
+      * **iOS Team ID**: Zie [Apple-documentatie](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} voor meer informatie over iOS Team ID.
 
         ![](assets/mobile_app_ios_config.png)
 +++
@@ -164,8 +165,8 @@ Uw mobiele toepassing kan nu worden gebruikt in Campagne voor pushberichten of i
 
      Voer de volgende toepassingsgegevens in:
 
-      * **Toepassings-id (Android-pakketnaam)**: Zie [Android-documentatie](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) voor meer informatie over de naam van het pakket.
-      * **JSON-bestand (Android Key)**: Sleep het bestand met de persoonlijke sleutel .json en zet het neer. Voor instructies over het genereren van het .json-bestand met de persoonlijke sleutel raadpleegt u de [Documentatie voor ontwikkelaars voor Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments).
+      * **Toepassings-id (Android-pakketnaam)**: Zie [Android-documentatie](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} voor meer informatie over de naam van het pakket.
+      * **JSON-bestand (Android Key)**: Sleep het bestand met de persoonlijke sleutel .json en zet het neer. Voor instructies over het genereren van het .json-bestand met de persoonlijke sleutel raadpleegt u de [Documentatie voor ontwikkelaars voor Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
         ![](assets/mobile_app_android_config.png)
 +++

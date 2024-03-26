@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
 workflow-type: tm+mt
 source-wordcount: '4695'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -336,7 +336,7 @@ De nieuwe functies, verbeteringen en oplossingen die zijn opgenomen in de volgen
 
 * De indeling van het SMPP-logboek is verbeterd.
 
-* Optionele parameters voor cryptString- en decryptString JS-functies zijn toegevoegd in overeenstemming met Adobe Campaign Classic-API’s.
+* Optionele parameters voor cryptString- en decryptString JS-functies zijn toegevoegd aan Adobe Campaign Standard API&#39;s.
 
 * Verbeterde waarschuwings- of foutberichten in logboeken voor leveringsvoorbereiding.
 
