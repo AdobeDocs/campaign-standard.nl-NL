@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -115,11 +115,11 @@ U kunt de subdomeinen en de bijbehorende certificaten controleren. Meer informat
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-Het nieuwe ticketingsysteem loopt via de [Adobe Admin Console](https://adminconsole.adobe.com/overview). Voor het nieuwe systeem zijn nieuwe individuele accounts nodig voor elke gebruiker, met de juiste toestemmingen. Als u vindt dat u zich niet kunt aanmelden bij uw Adobe ID, kunt u toegang aanvragen via het Experience League en wordt u zo snel mogelijk ingesteld door het team voor klantenservice. [Meer informatie](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+Het nieuwe ticketingsysteem loopt via de [Adobe Admin Console](https://adminconsole.adobe.com/overview). Voor het nieuwe systeem zijn nieuwe individuele accounts nodig voor elke gebruiker, met de juiste toestemmingen. Als u zich niet kunt aanmelden met uw Adobe ID, kunt u om toegang vragen via de Experience League. Het klantenserviceteam helpt u dan zo snel mogelijk. [Meer informatie](https://helpx.adobe.com/nl/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### Vraag het de experts.
 
-Lid worden van de Gemeenschap van de Campagne: zoek naar antwoorden in bestaande vraag of stel uw vraag aan de gemeenschap. [Deelnemen aan het gesprek](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Word lid van de Campaign-community: zoek naar antwoorden in bestaande vragen of stel uw vraag aan de community. [Deelnemen aan het gesprek](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Een ticket maken of een chat starten
 
