@@ -8,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 8625a26686570d555d7f5614b38536c248ee16a3
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '1205'
 ht-degree: 1%
 
 ---
@@ -190,3 +190,25 @@ Dit probleem oplossen:
 * Na het invoeren van uw afbeelding van het Doel van XML, zult u ook de Verrijking van de Rapportering moeten invoeren.
 
 * In plaats van uw afbeelding van het Doel in te voeren, kunt u het direct in Adobe Campaign Standard tot stand brengen die automatisch tot de Verrijking van de Rapportering zal leiden.
+
+## Verschil tussen het kolomkopnummer en de som van rijen
+
+In de volgende gevallen wordt een discrepantie tussen het kolomkopnummer en de som van alle rijen verwacht:
+
+* **Unieke maatstaven**: Het gebruiken van unieke metriek kan het totale aantal veranderen dat in de kopbal wordt getoond, aangezien het op ontvankelijke IDs in plaats van een eenvoudige som rijtellingen gebaseerd is. Dientengevolge, zou één enkel profiel talrijke gebeurtenissen over diverse afmetingen kunnen teweegbrengen, die tot veelvoudige rijen in de dataset leiden. In de koptekst wordt elk profiel echter maar één keer geteld.
+
+  Bijvoorbeeld:
+
+   * Als een profiel A een e-mail op drie verschillende dagen opent, zal de indeling naar dag A in drie rijen tonen, maar in de koptekst, zal A tellen als 1.
+
+   * Als profiel A op drie verschillende koppelingen in een e-mail op dezelfde dag klikt, wordt A in drie rijen weergegeven als de URL die u opgeeft, maar in de koptekst telt A als 1. Hetzelfde geldt voor uitsplitsingen naar apparaat en browser.
+
+* **Metrisch openen**: Het aantal Open&#39;s wordt bepaald door het totaal van zowel de werkelijke Open-gebeurtenissen als de Unieke klikgebeurtenissen (per ontvanger-id) samen te voegen, met uitzondering van gevallen waarin geen open gebeurtenis heeft plaatsgevonden omdat zonder een open gebeurtenis niet op een e-mailkoppeling kan worden geklikt.
+
+  Bijvoorbeeld:
+
+   * Wanneer profiel A een bijgehouden e-mail (met URL U1) opent, registreert het als een open gebeurtenis met URL die als ongeldig wordt genoteerd. Als u later op U1 klikt, wordt een klikgebeurtenis gegenereerd. Hoewel de klik van A op U1 als open gebeurtenis wordt geteld, is er geen specifieke open gebeurtenis voor U1. A wordt daarom slechts eenmaal meegeteld in de unieke open telling.
+
+   * Met een profiel R wordt op dag 1 een e-mail geopend waarin een open gebeurtenis wordt geregistreerd en op een koppeling wordt geklikt. In de komende twee dagen, opent R e-mail opnieuw en klikt opnieuw de verbinding, die een klikgebeurtenis elke dag produceert. Terwijl R&#39;s betrokkenheid dagelijks wordt bijgehouden in het Open nummer, wordt R slechts één keer geteld in de kolomkop, met nadruk op unieke overeenkomsten.
+
+* **Gebeurtenis Negatief**: In Rapporten betekent negatiefgebeurtenis leveringspogingen die aanvankelijk waren gemarkeerd als geslaagd, maar uiteindelijk zijn mislukt na opnieuw proberen. Deze worden aangegeven met een telling van -1. Om verwarring te voorkomen, worden deze negatieve aantallen uitgesloten van de getoonde metrische aantallen van de Levering. Hierdoor komt het totaal van alle rijen voor de leveringsmethode mogelijk niet overeen met het kolomkopnummer.
