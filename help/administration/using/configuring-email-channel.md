@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
+source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
 workflow-type: tm+mt
-source-wordcount: '2729'
-ht-degree: 56%
+source-wordcount: '2749'
+ht-degree: 55%
 
 ---
 
@@ -294,7 +294,9 @@ De sectie **[!UICONTROL SMTP]** bevat de volgende parameters:
   >
   >Het toevoegen van een script voor het opnemen van extra SMTP-kopteksten is gereserveerd voor gevorderde gebruikers. De syntaxis van dit script moet voldoen aan de vereisten van dit type content: geen ongebruikte ruimte, geen lege regel, enz.
 
-  Vanaf 1 juni 2024 moeten afzenders bij Google en Yahoo! afzenders verplichten te voldoen aan **Een-klik List-Unsubscribe**. De campagne steunt dit vermogen uit-van-de-doos.
+  Vanaf 1 juni 2024 moeten afzenders bij Google en Yahoo! afzenders verplichten te voldoen aan **Een-klik List-Unsubscribe**. De campagne steunt dit vermogen uit-van-de-doos voor leveringsmalplaatjes.
+
+  Toepassen **Een-klik List-Unsubscribe** voor alle e-mailleveringen die geen template zijn, moet u de **[!UICONTROL Copy headers from delivery templates]** technische workflow. [Meer informatie](technical-workflows.md)
 
   >[!CAUTION]
   >
@@ -332,7 +334,7 @@ Gebruik de **[!UICONTROL Delivery duration]** of **[!UICONTROL Validity limit fo
 
 ### E-mailverwerkingsregels {#legacy-email-processing-rules}
 
-De **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** en **[!UICONTROL Domain management]** de regels kunnen door beheerders door **[!UICONTROL Administration > Channels > Email > Email processing rules]** -menu. [Meer informatie](#email-processing-rules).
+De **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** en **[!UICONTROL Domain management]** de regels kunnen door beheerders door **[!UICONTROL Administration > Channels > Email > Email processing rules]** -menu. [Meer informatie](#email-processing-rules)
 
 ### Bounce mail-kwalificatie {#legacy-bounce-mail-qualification}
 
