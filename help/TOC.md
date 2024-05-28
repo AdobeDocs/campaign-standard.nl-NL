@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Productdocumentatie voor Adobe Campaign Standard.
 title: Campaign Standard-handleiding
 breadcrumb-title: Documentatie voor Campaign Standard
-source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
-workflow-type: ht
-source-wordcount: '1768'
+source-git-commit: 63cd437c5a19791ffb9d3c0b8690ee1532a4774d
+workflow-type: tm+mt
+source-wordcount: '1754'
 ht-degree: 100%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 100%
    + [Laatste release](rn/using/release-notes.md)
    + [Vroege aanvullende informatie](rn/using/e-release-notes.md)
    + Eerdere releases {#previous-releases}
-      + [Aanvullende informatie 2023](rn/using/release-notes-2023.md)
-      + [Aanvullende informatie 2022](rn/using/release-notes-2022.md)
-      + [Aanvullende informatie 2021](rn/using/release-notes-2021.md)
-      + [Aanvullende informatie 2020](rn/using/release-notes-2020.md)
-      + [Aanvullende informatie 2019](rn/using/release-notes-2019.md)
-      + [Aanvullende informatie 2018](rn/using/release-notes-2018.md)
-      + [Aanvullende informatie 2017](rn/using/release-notes-2017.md)
+      + [2023](rn/using/release-notes-2023.md)
+      + [2022](rn/using/release-notes-2022.md)
+      + [2021](rn/using/release-notes-2021.md)
+      + [2020](rn/using/release-notes-2020.md)
+      + [2019](rn/using/release-notes-2019.md)
+      + [2018](rn/using/release-notes-2018.md)
+      + [2017](rn/using/release-notes-2017.md)
    + [Releaseplanning](rn/using/release-planning.md)
    + [Afgeschafte functies](rn/using/deprecated-features.md)
    + [Probleem met handtekening van bijgehouden URL&#39;s](rn/using/tracked-urls.md)
