@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 9291eb06c35b1d06c0a992fa64a460215477f57e
+source-git-commit: a8013bac719a45442e09d710db12df0abe721cc4
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 38%
@@ -26,7 +26,7 @@ ht-degree: 38%
 
 * **iOS Push Notifications** - Adobe Campaign Standard 24.1 ondersteunt nu p8-verificatiecertificaten voor iOS-pushberichten. Uw implementatie moet worden aangepast om deze wijzigingen te activeren. Meer informatie vindt u [in deze technische opmerking](../../administration/using/push-technote.md).
 
-**Een-klik List-Unsubscribe** - Vanaf 1 juni 2024, Google en Yahoo! voldoen aan uitschrijven met één klik voor lijsten. Campaign ondersteunt deze mogelijkheid nu standaard. Lees meer in [deze sectie](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters).
+* **Een-klik List-Unsubscribe** - Vanaf 1 juni 2024, Google en Yahoo! voldoen aan uitschrijven met één klik voor lijsten. Campaign ondersteunt deze mogelijkheid nu standaard. Lees meer in [deze sectie](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters).
 
 * **Infrastructuur** - De Postgres-database is bijgewerkt van versie 11.22 naar versie 12.17.
 
