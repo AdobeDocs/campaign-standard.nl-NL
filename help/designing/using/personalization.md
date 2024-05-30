@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 9291eb06c35b1d06c0a992fa64a460215477f57e
 workflow-type: tm+mt
 source-wordcount: '2611'
 ht-degree: 3%
@@ -37,7 +37,7 @@ U kunt dit veld aanpassen. Hiervoor kunt u aanpassingsvelden, inhoudsblokken en 
 >
 >De headerparameters mogen niet leeg zijn. Het adres van de afzender is verplicht om een e-mailbericht toe te staan (norm RFC). Adobe Campaign controleert de syntaxis van de ingevoerde e-mailadressen.
 
-## URL&#39;s aanpassen{#personalizing-urls}
+## URL&#39;s aanpassen {#personalizing-urls}
 
 Met Adobe Campaign kunt u een of meer URL&#39;s in uw bericht aanpassen door personalisatievelden, inhoudsblokken of dynamische inhoud aan de URL&#39;s toe te voegen. Dit doet u als volgt:
 
@@ -85,7 +85,7 @@ Als personalisatie is gegenereerd (bijvoorbeeld bij het voorvertonen en voorbere
 >
 >Als de e-mail wordt gemaakt op basis van een workflow, zijn de aanvullende gegevens die in de workflow zijn berekend, ook beschikbaar in de velden voor personalisatie. Raadpleeg voor meer informatie over het toevoegen van aanvullende gegevens uit een workflow de [Gegevens worden verrijkt](../../automating/using/about-targeting-activities.md#enriching-data) sectie.
 
-## Een inhoudsblok toevoegen{#adding-a-content-block}
+## Een inhoudsblok toevoegen {#adding-a-content-block}
 
 Adobe Campaign biedt een lijst met vooraf geconfigureerde inhoudsblokken. Deze inhoudsblokken zijn dynamisch, gepersonaliseerd en hebben een specifieke rendering. U kunt bijvoorbeeld een begroeting of een koppeling naar de spiegelpagina toevoegen.
 
