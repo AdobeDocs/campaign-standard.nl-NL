@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
+source-git-commit: dba7ed7d68a33ddf1a1e62ea0f20e855c0b7eb20
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 75%
+source-wordcount: '839'
+ht-degree: 72%
 
 ---
 
@@ -62,7 +62,8 @@ Technische workflows worden gebruikt om door uzelf geactiveerde achtergrond- en 
   <tr> 
    <td> <span class="uicontrol">Prognose</span> <br /> </td> 
    <td> <span class="uicontrol">forecasting</span> <br /> </td> 
-   <td> Deze workflow voert de analyse uit van de leveringen die zijn opgeslagen in de voorlopige prognose (het maken van de voorlopige logboeken). Standaard wordt deze workflow elke dag om 1.00 uur gestart. <br /> </td> 
+   <td> Deze workflow voert de analyse uit van de leveringen die zijn opgeslagen in de voorlopige prognose (het maken van de voorlopige logboeken). Door gebrek, is het begonnen elke dag om 1 uur. <br />
+   Het voorspellen werkschema is een erfeniswerkschema dat nu in Campaign Standard is gestopt en niet meer werkt.</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Een gedeelde doelgroep importeren</span> <br /> </td> 
