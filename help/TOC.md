@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Productdocumentatie voor Adobe Campaign Standard.
 title: Campaign Standard-handleiding
 breadcrumb-title: Documentatie voor Campaign Standard
-source-git-commit: 63cd437c5a19791ffb9d3c0b8690ee1532a4774d
-workflow-type: ht
-source-wordcount: '1754'
+source-git-commit: e8cf96da88f68680be1ff5f770036b012654b160
+workflow-type: tm+mt
+source-wordcount: '1752'
 ht-degree: 100%
 
 ---
@@ -15,10 +15,8 @@ ht-degree: 100%
 # Documentatie voor Adobe Campaign Standard {#using}
 
 + [Documentatie voor Campaign Standard](campaign-standard-home.md)
-+ [Laatste updates](rn/using/documentation-updates.md)
 + Aanvullende informatie {#release-notes}
-   + [Laatste release](rn/using/release-notes.md)
-   + [Vroege aanvullende informatie](rn/using/e-release-notes.md)
+   + [Nieuwste release](rn/using/release-notes.md)
    + Eerdere releases {#previous-releases}
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
@@ -30,6 +28,7 @@ ht-degree: 100%
    + [Releaseplanning](rn/using/release-planning.md)
    + [Afgeschafte functies](rn/using/deprecated-features.md)
    + [Probleem met handtekening van bijgehouden URL&#39;s](rn/using/tracked-urls.md)
+   + [Nieuwste documentatie-updates](rn/using/documentation-updates.md)
 + Aan de slag {#getting-started}
    + [Informatie over Adobe Campaign Standard](start/using/about-campaign-standard.md)
    + Kennismaken met de interface {#discovering-the-interface}

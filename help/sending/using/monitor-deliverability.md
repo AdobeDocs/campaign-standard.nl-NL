@@ -9,7 +9,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 9%
@@ -18,7 +18,8 @@ ht-degree: 9%
 
 # Leverbaarheid controleren{#monitor-deliverability}
 
-Hieronder vindt u meer informatie over de **[!UICONTROL Delivery throughput]** en de verschillende door Adobe Campaign aangeboden monitoringinstrumenten. Hier volgen enkele aanvullende richtlijnen voor het controleren van de leverbaarheid:
+Hieronder vindt u meer informatie over het **[!UICONTROL Delivery throughput]** -rapport en de verschillende door Adobe Campaign aangeboden controlemiddelen. Hier volgen enkele aanvullende richtlijnen voor het controleren van de leverbaarheid:
+
 * Controleer regelmatig de leveringsproductie voor het gehele platform om te verifiëren of het met de originele opstelling verenigbaar is.
 * Controleer of het opnieuw proberen correct is ingesteld (30 minuten voor herbestellingsperiode en meer dan 20 pogingen) in leveringssjablonen.
 * Verifieer regelmatig dat de stuiterende brievenbus toegankelijk is en dat de rekening niet op het punt staat te verlopen.
@@ -30,27 +31,27 @@ Hieronder vindt u meer informatie over de **[!UICONTROL Delivery throughput]** e
 
 Dit verslag bevat informatie over de leveringstijd van het gehele platform gedurende een bepaalde periode om de snelheid te meten waarop de berichten worden geleverd.
 
-Zie voor meer informatie [Leveringsdoorvoer](../../reporting/using/delivery-throughput.md).
+Voor meer op dit, zie [ productie van de Levering ](../../reporting/using/delivery-throughput.md).
 
 ![](assets/delivery_reports_1.png)
 
 U kunt de weergegeven waarden configureren door de tijdschaal te wijzigen.
 
-Andere rapporten zijn beschikbaar, zoals **[!UICONTROL Delivery summary]** of **[!UICONTROL Non-deliverables and bounces]**. Zie voor meer informatie [Dynamische rapporten](../../reporting/using/about-dynamic-reports.md).
+Er zijn andere rapporten beschikbaar, zoals **[!UICONTROL Delivery summary]** of **[!UICONTROL Non-deliverables and bounces]** . Voor meer op dit, zie [ Dynamische rapporten ](../../reporting/using/about-dynamic-reports.md).
 
 ## Bewaking van leveringen {#monitoring-deliveries}
 
-Het berichtdashboard geeft u toegang tot de leveringslogboeken: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** en **[!UICONTROL Tracked URLs]**. Zij tonen de details van de verzending, welk doel is uitgesloten en waarom, evenals de tracking-informatie zoals aantal geopend en aantal klikken.
+Het berichtdashboard geeft u toegang tot de leveringslogboeken: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** en **[!UICONTROL Tracked URLs]** . Zij tonen de details van de verzending, welk doel is uitgesloten en waarom, evenals de tracking-informatie zoals aantal geopend en aantal klikken.
 
-Zie voor meer informatie [Toezicht op de levering](../../sending/using/monitoring-a-delivery.md).
+Voor meer op dit, zie [ Controle een levering ](../../sending/using/monitoring-a-delivery.md).
 
 ![](assets/sending_delivery1.png)
 
 ## Ontvangen van waarschuwingen {#receiving-alerts}
 
-De **[!UICONTROL Delivery alerting]** deze functie is een systeem voor alarmbeheer waarmee een groep gebruikers automatisch meldingen kan ontvangen die informatie bevatten over de uitvoering van hun leveringen .
+De functie **[!UICONTROL Delivery alerting]** is een waarschuwingssysteem waarmee een groep gebruikers automatisch meldingen kan ontvangen met informatie over de uitvoering van hun leveringen.
 
-Zie voor meer informatie [Waarschuwingen ontvangen wanneer fouten optreden](../../sending/using/receiving-alerts-when-failures-happen.md).
+Voor meer op dit, zie [ Ontvangend alarm wanneer de mislukkingen ](../../sending/using/receiving-alerts-when-failures-happen.md) gebeuren.
 
 <!--## External tools (#external-tools)
 

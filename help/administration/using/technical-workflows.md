@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: dba7ed7d68a33ddf1a1e62ea0f20e855c0b7eb20
+source-git-commit: f87795ee2378a1e9e1b393c6cce002bcb70178b8
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 72%
+source-wordcount: '791'
+ht-degree: 74%
 
 ---
 
@@ -49,22 +49,16 @@ Technische workflows worden gebruikt om door uzelf geactiveerde achtergrond- en 
    <td> Deze workflow verzendt het rapport over de systeemactiviteit per e-mail naar de gebruiker die het systeem ‘factureert’. Standaard wordt de workflow elke dag automatisch om 1.00 uur gestart.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Kopteksten kopiëren uit leveringssjablonen</span> <br /> </td> 
-   <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
-   <td> Deze werkstroom kopieert SMTP kopballen die voor e-mailleveringsmalplaatjes aan de overeenkomstige kindniet-malplaatjeleveringen worden geplaatst. In deze workflow worden alleen e-mailmarketingproducten opgehaald. SMTP-headers worden niet gekopieerd naar transactieleveringen en proefdrukken. <br> Deze workflow wordt niet periodiek uitgevoerd. Het moet door de gebruiker per gebruik worden gestart. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> Als er een hoog volume aan leveringen op uw instantie is, kunt u de optie NmsCleanup_DeliveryPurgeDelay bijwerken in de <strong>Toepassingsinstellingen</strong>. Als u een verandering in kopballen SMTP van om het even welk malplaatje aanbrengt, dan moet u het werkschema opnieuw na de verandering uitvoeren zodat de gecorrigeerde kopballen over aan niet-malplaatjeleveringen worden gekopieerd.<a href="data-retention.md#deliveries">Meer informatie</a>
+   <td> <span class="uicontrol"> Kopballen van het Exemplaar van leveringsmalplaatjes </span> <br /> </td> 
+   <td> <span class="uicontrol"> smtpHeaderupdate </span> <br /> </td> 
+   <td> Deze werkstroom kopieert SMTP kopballen die voor e-mailleveringsmalplaatjes aan de overeenkomstige kindniet-malplaatjeleveringen worden geplaatst. In deze workflow worden alleen e-mailmarketingproducten opgehaald. SMTP-headers worden niet gekopieerd naar transactieleveringen en proefdrukken. <br> Deze workflow wordt niet periodiek uitgevoerd. Het moet door de gebruiker per gebruik worden gestart. <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> als er een hoog volume van leveringen op uw instantie is, kunt u de optie NmsCleanup_DeliveryPurgeDelay in de <strong> montages van de Toepassing </strong> bijwerken. Als u een verandering in kopballen SMTP van om het even welk malplaatje aanbrengt, dan moet u het werkschema opnieuw na de verandering uitvoeren zodat de gecorrigeerde kopballen over aan niet-malplaatjeleveringen worden gekopieerd.<a href="data-retention.md#deliveries"> Leer meer </a>
    <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Database opschonen</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
    <td> Deze workflow is de workflow voor databaseonderhoud: deze stelt verschillende statistieken en processen in werking en schrapt verouderde data uit de database volgens de configuratie die is gedefinieerd. Standaard wordt deze workflow elke dag automatisch om 4.00 uur gestart.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">Prognose</span> <br /> </td> 
-   <td> <span class="uicontrol">forecasting</span> <br /> </td> 
-   <td> Deze workflow voert de analyse uit van de leveringen die zijn opgeslagen in de voorlopige prognose (het maken van de voorlopige logboeken). Door gebrek, is het begonnen elke dag om 1 uur. <br />
-   Het voorspellen werkschema is een erfeniswerkschema dat nu in Campaign Standard is gestopt en niet meer werkt.</td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">Een gedeelde doelgroep importeren</span> <br /> </td> 
    <td> <span class="uicontrol">importSharedAudience</span> <br /> </td> 
@@ -102,14 +96,14 @@ Technische workflows worden gebruikt om door uzelf geactiveerde achtergrond- en 
    <td> Deze workflow synchroniseert de in Adobe Campaign Standard geïmporteerde eigenschappen voor mobiele tags. De workflow wordt elke 15 minuten gestart.<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">Herstel van logbestanden bijhouden</span> <br /> </td> 
+   <td> <span class="uicontrol"> het Volgen logboekterugwinning </span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
    <td> Deze workflow synchroniseert de in Adobe Campaign Standard geïmporteerde eigenschappen voor mobiele tags. De workflow wordt elke 15 minuten gestart.<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">Logboeken voor bijhouden herstellen</span> <br /> </td> 
-   <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
-   <td> Met deze workflow worden verloren traceringslogbestanden hersteld. Deze technische workflow wordt in specifieke omstandigheden gebruikt en beperkt tot Adobe voor intern gebruik. <br> Deze wordt standaard elke 10 minuten gestart.<br /> </td> 
+   <td> <span class="uicontrol"> Herstel het Volgen Logs </span> <br /> </td> 
+   <td> <span class="uicontrol"> trackingLogRecovery </span> <br /> </td> 
+   <td> Met deze workflow worden verloren traceringslogbestanden hersteld. Deze technische workflow wordt in specifieke omstandigheden gebruikt en beperkt tot Adobe voor intern gebruik. <br> Standaard wordt deze elke 10 minuten gestart. <br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">Uitvoering van levering bijwerken</span> <br/> </td> 

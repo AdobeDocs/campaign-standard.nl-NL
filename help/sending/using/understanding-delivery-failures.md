@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
 source-wordcount: '1281'
-ht-degree: 62%
+ht-degree: 59%
 
 ---
 
@@ -35,7 +35,7 @@ De berichten kunnen ook tijdens de leveringsvoorbereiding worden uitgesloten als
 
 * [Werken met quarantainebeheer](../../sending/using/understanding-quarantine-management.md)
 * [Informatie over opt-in en opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [Bounces](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [ Bounces ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## Leveringsfouten identificeren voor een bericht {#identifying-delivery-failures-for-a-message}
 
@@ -75,14 +75,14 @@ De mogelijke redenen van een leveringsfout zijn:
 
 
 **Verwante onderwerpen:**
-* [Harde vlekken](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
-* [Zachte golven](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [ Harde grenzen ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [ Zachte grenzen ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## Retourneert na een tijdelijke leverfout {#retries-after-a-delivery-temporary-failure}
 
 Als een bericht mislukt als gevolg van een tijdelijke fout, worden de pogingen opnieuw uitgevoerd tijdens de leveringsduur. Raadpleeg [Typen leveringsfouten en redenen](#delivery-failure-types-and-reasons) voor meer informatie over de typen fouten.
 
-Het aantal pogingen (hoeveel pogingen opnieuw zouden moeten worden uitgevoerd de dag nadat verzendt is begonnen) en de minimumvertraging tussen opnieuw proberen zijn nu<!--managed by the Adobe Campaign Enhanced MTA,--> gebaseerd op hoe goed presteert IP zowel historisch als momenteel bij een bepaald domein. De instellingen voor **Retries** in Campaign worden genegeerd.
+Het aantal pogingen (hoeveel opnieuw zou moeten worden uitgevoerd de dag nadat verzendt is begonnen) en de minimumvertraging tussen opnieuw probeert is nu <!--managed by the Adobe Campaign Enhanced MTA,--> gebaseerd op hoe goed IP zowel historisch als momenteel bij een bepaald domein uitvoert. De instellingen voor **Retries** in Campaign worden genegeerd.
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
@@ -92,11 +92,11 @@ Om de duur van een levering te wijzigen, gaat u naar de geavanceerde parameters 
 >
 >**De parameter **[!UICONTROL Delivery duration]**in uw Campaign-leveringen wordt nu alleen gebruikt als deze is ingesteld op 3,5 dagen of minder.** Als u een waarde definieert die hoger is dan 3,5 dagen, wordt hiermee geen rekening gehouden.
 
-Als u bijvoorbeeld opnieuw wilt proberen om een levering na één dag te stoppen, kunt u de leveringsduur instellen op **1 quinquies** en de berichten in de wachtrij voor opnieuw proberen worden na één dag verwijderd.
+Bijvoorbeeld, als u opnieuw voor een levering wilt stoppen na één dag, kunt u de leveringsduur aan **1d** plaatsen, en de berichten in de hertry rij zullen na één dag worden verwijderd.
 
 >[!NOTE]
 >
->Als een bericht maximaal 3,5 dagen in de wachtrij voor opnieuw proberen is geweest en niet is geleverd, wordt een time-out gegenereerd en wordt de status bijgewerkt<!--from **[!UICONTROL Sent]**--> tot **[!UICONTROL Failed]** in de [leveringslogs](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+>Zodra een bericht in de herpogingsrij voor een maximum van 3.5 dagen is geweest en heeft nagelaten te leveren, zal het uit tijd en zijn status <!--from **[!UICONTROL Sent]**--> aan **[!UICONTROL Failed]** in [ leveringslogboeken ](../../sending/using/monitoring-a-delivery.md#delivery-logs) worden bijgewerkt.
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -116,9 +116,9 @@ Voor de synchrone foutenmeldingen van de leveringsmislukking, bepaalt Adobe Camp
 >
 >De kwalificaties voor niet-bezorging in de tabel **[!UICONTROL Message qualification]** van Campaign worden niet meer gebruikt.
 
-Asynchrone niet-bezorgingen worden nog steeds gekwalificeerd door het inMail-proces aan de hand van de regels voor **[!UICONTROL Inbound email]**. Klik op de knop **Adobe** logo, linksboven, en selecteer vervolgens **[!UICONTROL Administration > Channels > Email > Email processing rules]** en selecteert u **[!UICONTROL Bounce mails]**. Zie voor meer informatie over deze regel [deze sectie](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Asynchrone niet-bezorgingen worden nog steeds gekwalificeerd door het inMail-proces aan de hand van de regels voor **[!UICONTROL Inbound email]**. Om tot deze regels toegang te hebben, klik het **Adobe** embleem, bij top-left, dan selecteren **[!UICONTROL Administration > Channels > Email > Email processing rules]** en selecteren **[!UICONTROL Bounce mails]**. Voor meer op deze regel, zie [ deze sectie ](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Zie voor meer informatie over stuiteringen en de verschillende soorten stuiteringen [deze sectie](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+Voor meer op stuitingen en de verschillende soorten stuitingen, zie [ deze sectie ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 
@@ -136,6 +136,6 @@ To list the various bounces and their associated error types et reasons, click t
 
 Het dubbele opt-inmechanisme is een best practice voor de verzending van e-mails. Het beveiligt het platform tegen onjuiste of ongeldige e-mailadressen en spambots en voorkomt mogelijke spamklachten.
 
-Het principe is om een e-mail te verzenden om de instemming van bezoekers te bevestigen voordat u deze als profielen in uw Campaign-database opslaat. De bezoeker vult een online landingspagina in, ontvangt een e-mail en moet op de bevestigingskoppeling klikken om zijn inschrijving te voltooien.
+Het principe is om een e-mail te verzenden ter bevestiging van de overeenkomst van de bezoeker voordat deze als &#39;profielen&#39; worden opgeslagen in uw Campagne-database: de bezoeker vult een online bestemmingspagina in, ontvangt vervolgens een e-mail en moet op de bevestigingskoppeling klikken om zijn abonnement af te ronden.
 
 Zie [deze sectie](../../channels/using/setting-up-a-double-opt-in-process.md)voor meer informatie.
