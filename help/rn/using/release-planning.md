@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: c35f8caeab9b6605b042618705eecc347d13fd18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Upgrades worden in twee fasen geïmplementeerd. Eerst worden Stage-instanties bi
 
 Alle versiedatums kunnen worden gewijzigd: bezoek deze pagina regelmatig om te controleren op updates. Omgevingsupdates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. De exacte datums worden per e-mail naar elke klant verzonden.
 
-## Release 24.2 - 2024-zomerrelease {#release-24-2-release}
+## Release 24.2 - zomerrelease 2024 {#release-24-2-release}
 
 Gedetailleerde informatie over deze release is beschikbaar in de [Aanvullende informatie](release-notes.md) wanneer upgrades van de stagingomgeving van start gaan.
 
@@ -40,13 +40,13 @@ Gedetailleerde informatie over deze release is beschikbaar in de [Aanvullende in
  <tbody>
   <tr>
    <td>Stadium </td>
-   <td>6 augustus - 13 augustus 2024 </td>
-   <td>2025 - Nog te bevestigen data</td>
+   <td>6-13 augustus 2024 </td>
+   <td>2025 - nog te bevestigen datums</td>
   </tr>
   <tr>
    <td>Productie </td>
-   <td>20 augustus - 27 augustus 2024 </td>
-   <td>2025 - Nog te bevestigen data</td>
+   <td>20-27 augustus 2024 </td>
+   <td>2025 - nog te bevestigen datums</td>
   </tr>
  </tbody>
 </table>

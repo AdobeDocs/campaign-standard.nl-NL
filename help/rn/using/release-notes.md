@@ -1,19 +1,19 @@
 ---
-title: Opmerkingen bij de nieuwste release
-description: Op deze pagina vindt u content van de nieuwste release van Campaign Standard
+title: Nieuwste aanvullende informatie
+description: Op deze pagina vindt u content over de nieuwste release van Campaign Standard
 feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 44c436a74a0a4aa688427bfb36d506566d57ac3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
 
-# Opmerkingen bij de nieuwste release {#latest-release}
+# Nieuwste aanvullende informatie {#latest-release}
 
 <!--
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
@@ -21,21 +21,21 @@ ht-degree: 66%
 
 ## Vroege aanvullende informatie {#e-new-release}
 
-Deze sectie maakt een lijst van verbeteringen en veranderingen inbegrepen in de volgende versie van het Campaign Standard.
+In deze sectie worden nieuwe verbeteringen en wijzigingen vermeld die in de volgende release van Campaign Standard zijn opgenomen.
 
 >[!CAUTION]
 >
->Deze content kan zonder voorafgaande kennisgeving worden gewijzigd tot de upgradedatum van de werkgebiedomgevingen. Leer meer in de [ Versie plannende pagina ](../../rn/using/release-planning.md).
+>Deze content kan zonder voorafgaande kennisgeving worden gewijzigd tot de upgradedatum van de werkgebiedomgevingen. Meer informatie vindt u op de pagina [Releaseplanning](../../rn/using/release-planning.md).
 
-**Versie 24.2 - 2024 Versie van de Zomer**
+**Release 24.2 - zomerrelease 2024**
 
-* **de datum van de Versie**: Augustus 2024 (Beperkte Beschikbaarheid) - [ Leer meer ](../../rn/using/release-planning.md).
+* **Releasedatum**: augustus 2024 (beperkte beschikbaarheid) - [Meer informatie](../../rn/using/release-planning.md).
 
-* **Migratie aan Server-aan-Server referentie OAuth**
+* **Migratie naar OAuth-server-naar-server-aanmeldingsgegevens**
 
-  Beginnend deze versie, met de referentie van de Rekening van de Dienst (JWT) die door Adobe wordt verouderd, steunen de uitgaande integraties van de Campagne met de oplossingen en apps van de Adobe nu op server-aan-server referentie OAuth. De Adobe zal JWT aan migratie OAuth voor uw uitgaande integratie, zoals de integratie van Campaign-Analytics of de integratie van Triggers van het Experience Cloud uitvoeren.
+  Omdat de aanmeldingsgegevens van het serviceaccount (JWT) door Adobe worden beëindigd, zijn vanaf deze versie de uitgaande integraties van Campaign met oplossingen en apps van Adobe nu gebaseerd op de OAuth-server-naar-server-aanmeldingsgegevens. Adobe zal de migratie van JWT naar OAuth voor uw uitgaande integraties uitvoeren, zoals de integratie van Campaign-Analytics en de integratie van Experience Cloud-triggers.
 
-  Als u binnenkomende integratie met Campagne hebt uitgevoerd, en als u [ Campagne APIs ](../../api/using/get-started-apis.md) gebruikt, moet u uw Technische Rekening zoals die in [ wordt gedetailleerd deze documentatie ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/) migreren {target="_blank"}. De bestaande geloofsbrieven van de Rekening van de Dienst (JWT) zullen ophouden werkend op **27 Januari, 2025**.
+  Als u inkomende integraties met Campaign hebt uitgevoerd, en als u [Campaign API&#39;s](../../api/using/get-started-apis.md) gebruikt, moet u uw technische account migreren zoals beschreven in [deze documentatie ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Bestaande aanmeldingsgegevens voor het serviceaccount (JWT) zullen niet meer werken vanaf **27 januari, 2025**.
 
 
 ## Versie 24.1: winterversie 2024 {#winter-24}
