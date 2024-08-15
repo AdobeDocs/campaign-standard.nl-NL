@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 44c436a74a0a4aa688427bfb36d506566d57ac3a
-workflow-type: ht
-source-wordcount: '387'
-ht-degree: 100%
+source-git-commit: 625b2341b1f7da17d202ef1edcdf97f3cb46b801
+workflow-type: tm+mt
+source-wordcount: '489'
+ht-degree: 73%
 
 ---
 
@@ -18,25 +18,38 @@ ht-degree: 100%
 <!--
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
 
+<!--
+## Early release notes {#e-new-release}
 
-## Vroege aanvullende informatie {#e-new-release}
-
-In deze sectie worden nieuwe verbeteringen en wijzigingen vermeld die in de volgende release van Campaign Standard zijn opgenomen.
+This section lists improvements and changes included in the next Campaign Standard release.
 
 >[!CAUTION]
 >
->Deze content kan zonder voorafgaande kennisgeving worden gewijzigd tot de upgradedatum van de werkgebiedomgevingen. Meer informatie vindt u op de pagina [Releaseplanning](../../rn/using/release-planning.md).
+>This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
+-->
 
-**Release 24.2 - zomerrelease 2024**
+## Release 24.2 - zomerrelease 2024 {#summer-24}
 
-* **Releasedatum**: augustus 2024 (beperkte beschikbaarheid) - [Meer informatie](../../rn/using/release-planning.md).
+<!--**Release date**: August 2024 (Limited Availability) - [Learn more](../../rn/using/release-planning.md).-->
 
-* **Migratie naar OAuth-server-naar-server-aanmeldingsgegevens**
+### Verbetering {#summer-24-rn-improvements}
 
-  Omdat de aanmeldingsgegevens van het serviceaccount (JWT) door Adobe worden beëindigd, zijn vanaf deze versie de uitgaande integraties van Campaign met oplossingen en apps van Adobe nu gebaseerd op de OAuth-server-naar-server-aanmeldingsgegevens. Adobe zal de migratie van JWT naar OAuth voor uw uitgaande integraties uitvoeren, zoals de integratie van Campaign-Analytics en de integratie van Experience Cloud-triggers.
+**Migratie naar OAuth-server-naar-server-aanmeldingsgegevens**
 
-  Als u inkomende integraties met Campaign hebt uitgevoerd, en als u [Campaign API&#39;s](../../api/using/get-started-apis.md) gebruikt, moet u uw technische account migreren zoals beschreven in [deze documentatie ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Bestaande aanmeldingsgegevens voor het serviceaccount (JWT) zullen niet meer werken vanaf **27 januari, 2025**.
+Omdat de aanmeldingsgegevens van het serviceaccount (JWT) door Adobe worden beëindigd, zijn vanaf deze versie de uitgaande integraties van Campaign met oplossingen en apps van Adobe nu gebaseerd op de OAuth-server-naar-server-aanmeldingsgegevens. Adobe zal de migratie van JWT naar OAuth voor uw uitgaande integraties uitvoeren, zoals de integratie van Campaign-Analytics en de integratie van Experience Cloud-triggers.
 
+Als u inkomende integraties met Campaign hebt uitgevoerd, en als u [Campaign API&#39;s](../../api/using/get-started-apis.md) gebruikt, moet u uw technische account migreren zoals beschreven in [deze documentatie ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Bestaande aanmeldingsgegevens voor het serviceaccount (JWT) zullen niet meer werken vanaf **27 januari, 2025**.
+
+### Oplossingen {#summer-24-rn-fixes}
+
+* Probleem opgelost waarbij de werkstroomplanner voor de geplande tijd begon. (CAMP-55412)
+* Probleem verholpen waarbij een fout is opgetreden bij het dupliceren van aangepaste velden in pushberichten voor transacties. (CAMP-54459)
+* Oplossing van problemen die de bruikbaarheid van de tijd- en datumplanner voor In-App-berichten beïnvloedden. (CAMP-54495)
+* Probleem verholpen waarbij het bijhouden van wijzigingen niet werkte wanneer de functie voor het bijhouden van objecten Aangepast werd gebruikt en de volledige koppeling dynamisch is. (CAMP-56044)
+* Probleem verholpen waarbij een beperkt aantal sjablonen werd weergegeven bij het zoeken naar specifieke sjablonen. (CAMP-55273)
+* De volgende talen zijn toegevoegd aan de keuzelijst met voorkeurstalen: en_kz (Engels - Kazachstan) en en_ua (Engels - Oekraïne). (CAMP-55336)
+* Probleem verholpen waarbij de knoppen voor tijdaanpassing niet werkten in plannerinstellingen. (CAMP-53602)
+* Oplossing voor diverse gebruikersinterfaceproblemen met betrekking tot de balk voor tijdaanpassing in plannerinstellingen. (CAMP-55291)
 
 ## Versie 24.1: winterversie 2024 {#winter-24}
 
