@@ -3,7 +3,7 @@ keywords: Campaign Standard;startpagina;populaire onderwerpen
 title: Adobe Campaign Standard-productdocumentatie
 description: Bladeren door de Campaign Standard-productdocumentatie
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 8b94b632bbc4fc8e190cccb05018043cdeb00fdd
+source-git-commit: 0beb4934d1412c3f64d28106f9243673907629f3
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
@@ -18,9 +18,9 @@ Bekijk vast de nieuwste verbeteringen in Adobe Campaign Standard-producten en -d
 
 >[!BEGINTABS]
 
->[!TAB Campaign versie 24.1 is live!]
+>[!TAB Campaign versie 24.2 is live!]
 
-Ontdek nieuwe functies, verbeteringen en oplossingen die via Campaign Standard versie 24.1 zijn geleverd.
+Ontdek nieuwe functies, verbeteringen en oplossingen die via Campaign Standard versie 24.2 zijn geleverd.
 
 [![afbeelding](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 
