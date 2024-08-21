@@ -8,7 +8,7 @@ exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 0beb4934d1412c3f64d28106f9243673907629f3
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -42,14 +42,14 @@ Als u inkomende integraties met Campaign hebt uitgevoerd, en als u [Campaign API
 
 ### Oplossingen {#summer-24-rn-fixes}
 
-* Probleem opgelost waarbij de werkstroomplanner voor de geplande tijd begon. (CAMP-55412)
-* Probleem verholpen waarbij een fout is opgetreden bij het dupliceren van aangepaste velden in pushberichten voor transacties. (CAMP-54459)
-* Oplossing van problemen die de bruikbaarheid van de tijd- en datumplanner voor In-App-berichten beïnvloedden. (CAMP-54495)
-* Probleem verholpen waarbij het bijhouden van wijzigingen niet werkte wanneer de functie voor het bijhouden van objecten Aangepast werd gebruikt en de volledige koppeling dynamisch is. (CAMP-56044)
-* Probleem verholpen waarbij een beperkt aantal sjablonen werd weergegeven bij het zoeken naar specifieke sjablonen. (CAMP-55273)
-* De volgende talen zijn toegevoegd aan de keuzelijst met voorkeurstalen: en_kz (Engels - Kazachstan) en en_ua (Engels - Oekraïne). (CAMP-55336)
-* Probleem verholpen waarbij de knoppen voor tijdaanpassing niet werkten in plannerinstellingen. (CAMP-53602)
-* Oplossing voor diverse gebruikersinterfaceproblemen met betrekking tot de balk voor tijdaanpassing in plannerinstellingen. (CAMP-55291)
+* Er is een probleem opgelost waarbij de workflowplanner vóór de geplande tijd startte. (CAMP-55412)
+* Er is een probleem opgelost dat een fout veroorzaakte bij het dupliceren van aangepaste velden in transactionele pushmeldingen. (CAMP-54459)
+* Er zijn problemen opgelost die invloed hadden op de bruikbaarheid van de tijd- en datumplanner voor in-app messaging. (CAMP-54495)
+* Er is een probleem opgelost waarbij tracking niet werkte wanneer de functie Aangepaste tracking-alias werd gebruikt en de gehele koppeling dynamisch was. (CAMP-56044)
+* Er is een probleem opgelost waarbij een beperkt aantal sjablonen werd weergegeven bij het zoeken naar specifieke sjablonen. (CAMP-55273)
+* De volgende talen zijn aan de vervolgkeuzelijst met voorkeurstalen toegevoegd: en_kz (Engels - Kazachstan) en en_ua (Engels - Oekraïne). (CAMP-55336)
+* Er is een probleem opgelost waarbij de knoppen voor tijdaanpassing niet werkten in de plannerinstellingen. (CAMP-53602)
+* Er zijn diverse gebruikersinterfaceproblemen opgelost met de balk voor tijdaanpassing in plannerinstellingen. (CAMP-55291)
 
 ## Versie 24.1: winterversie 2024 {#winter-24}
 
