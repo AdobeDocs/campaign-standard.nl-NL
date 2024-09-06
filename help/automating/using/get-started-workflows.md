@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: c7c4826f69ac988911b9d72a3e06240ed9582862
+source-git-commit: 69621657e1d367043200f741d93972664e6eb8fb
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 9%
@@ -38,8 +38,6 @@ Workflows kunnen in verschillende contexten worden gebruikt, zoals:
 
 ## Workflowactiviteiten {#workflow-activities}
 
-<img src="assets/do-not-localize/icon_workflows.svg" width="10px">
-
 Er zijn verschillende activiteiten beschikbaar om u te helpen uw workflows ontwerpen.
 
 [ het richten activiteiten ](../../automating/using/about-targeting-activities.md) staat u toe om één of meerdere doelstellingen te bouwen door reeksen te bepalen en deze reeksen te splitsen of te combineren gebruikend doorsnede, vereniging, of uitsluitingsverrichtingen.
@@ -56,8 +54,6 @@ Meer informatie:
 
 ## Gegevens filteren {#filter-data}
 
-<img src="assets/do-not-localize/icon_filter.svg" width="15px">
-
 Hefboomwerking de **vraagredacteur** om gegevens van uw gegevensbestand te filtreren en een bevolking te bouwen om uw ontvangers beter te richten. De vraagredacteur is beschikbaar om verscheidene acties in Campaign Standard uit te voeren: creeer het type van Vraag publiek, bepaal leveringsdoelstellingen, of populaties in werkschemaactiviteiten.
 
 De vraagredacteur komt met **vooraf bepaalde filters en regels** voor snel en gemakkelijk het filtreren. Nochtans, kunt u **geavanceerde uitdrukking ook gebruiken die** mogelijkheden uitgeeft. Op deze manier kunt u handmatig voorwaarden invoeren en functies gebruiken om uw eigen regels op te stellen.
@@ -69,8 +65,6 @@ Meer informatie:
 * [Lijst met functies](../../automating/using/list-of-functions.md)
 
 ## Gegevens importeren/exporteren {#import-export-data}
-
-<img src="assets/do-not-localize/icon_manage.svg" width="20px">
 
 Het Campaign Standard komt met verscheidene **mogelijkheden van het gegevensbeheer** om gegevens in te voeren en uit te voeren.
 
