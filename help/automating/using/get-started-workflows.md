@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 31f62227736daf4f215fcbe1cf7b0a0a8574cda3
+source-git-commit: 47f47a624b8a1d941d1ab4b49e67f0260ac68cf1
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 9%
@@ -34,19 +34,19 @@ Workflows kunnen in verschillende contexten worden gebruikt, zoals:
 
 >[!IMPORTANT]
 >
-> Adobe raadt klanten aan niet meer dan 20 actieve workflows tegelijk uit te voeren en de uitvoering van de workflow in de loop der tijd te prioriteren en te verspreiden. Raadpleeg voor meer informatie de beste praktijken in [deze pagina](../../automating/using/best-practices-workflows.md).
+> Adobe raadt klanten aan niet meer dan 20 actieve workflows tegelijk uit te voeren en de uitvoering van de workflow in de loop der tijd te prioriteren en te verspreiden. Voor meer op dit, verwijs naar de beste praktijken die in [ worden verstrekt deze pagina ](../../automating/using/best-practices-workflows.md).
 
 ## Workflowactiviteiten {#workflow-activities}
 
-<img src="assets/do-not-localize/icon_workflows.svg" width="60px">
+<img src="assets/do-not-localize/icon_workflows.svg" width="10%px">
 
 Er zijn verschillende activiteiten beschikbaar om u te helpen uw workflows ontwerpen.
 
-[Gerichte activiteiten](../../automating/using/about-targeting-activities.md) staat u toe om één of meerdere doelstellingen te bouwen door reeksen te bepalen en deze reeksen te verdelen of te combineren gebruikend doorsnede, vereniging, of uitsluitingsverrichtingen.
+[ het richten activiteiten ](../../automating/using/about-targeting-activities.md) staat u toe om één of meerdere doelstellingen te bouwen door reeksen te bepalen en deze reeksen te splitsen of te combineren gebruikend doorsnede, vereniging, of uitsluitingsverrichtingen.
 
-Met [Uitvoeringsactiviteiten](../../automating/using/about-execution-activities.md), uw workflow en activiteiten te coördineren, terwijl [Kanaalactiviteiten](../../automating/using/about-channel-activities.md) Hiermee kunt u communicatiekanalen van Campaigns Standard combineren om kanaalworkflows te maken.
+Met [ de activiteiten van de Uitvoering ](../../automating/using/about-execution-activities.md), coördineer uw werkschema en zijn activiteiten, terwijl [ de activiteiten van het Kanaal ](../../automating/using/about-channel-activities.md) u Campaign Standard communicatie kanalen laten combineren om kanaalwerkschema&#39;s tot stand te brengen.
 
-Tot slot: [Gegevensbeheeractiviteiten](../../automating/using/about-data-management-activities.md) kunt u gegevens uit uw database bewerken.
+Tot slot [ de beheersactiviteiten van Gegevens ](../../automating/using/about-data-management-activities.md) staan u toe om gegevens van uw gegevensbestand te manipuleren.
 
 Meer informatie:
 
@@ -58,9 +58,9 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-Gebruik de **queryeditor** om gegevens van uw gegevensbestand te filtreren en een bevolking te bouwen om uw ontvangers beter te richten. De vraagredacteur is beschikbaar om verscheidene acties in Campaign Standard uit te voeren: creeer het type van Vraag publiek, bepaal leveringsdoelstellingen, of populaties in werkschemaactiviteiten.
+Hefboomwerking de **vraagredacteur** om gegevens van uw gegevensbestand te filtreren en een bevolking te bouwen om uw ontvangers beter te richten. De vraagredacteur is beschikbaar om verscheidene acties in Campaign Standard uit te voeren: creeer het type van Vraag publiek, bepaal leveringsdoelstellingen, of populaties in werkschemaactiviteiten.
 
-De vraagredacteur komt met **vooraf gedefinieerde filters en regels** voor snel en gemakkelijk filtreren. U kunt echter ook **geavanceerde expressies bewerken** mogelijkheden. Op deze manier kunt u handmatig voorwaarden invoeren en functies gebruiken om uw eigen regels op te stellen.
+De vraagredacteur komt met **vooraf bepaalde filters en regels** voor snel en gemakkelijk het filtreren. Nochtans, kunt u **geavanceerde uitdrukking ook gebruiken die** mogelijkheden uitgeeft. Op deze manier kunt u handmatig voorwaarden invoeren en functies gebruiken om uw eigen regels op te stellen.
 
 Meer informatie:
 
@@ -72,17 +72,17 @@ Meer informatie:
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Campaign Standard wordt geleverd met verschillende **gegevensbeheermogelijkheden** om gegevens te importeren en te exporteren.
+Het Campaign Standard komt met verscheidene **mogelijkheden van het gegevensbeheer** om gegevens in te voeren en uit te voeren.
 
-[Werkstroomgegevensbeheeractiviteiten](../../automating/using/about-data-management-activities.md) kunt u gegevens importeren, massa-updates uitvoeren op velden, bestand ontvangen of verzenden of niet-geïdentificeerde gegevens koppelen aan bestaande bronnen.
+[ de activiteiten van het gegevensbeheer van de Werkschema&#39;s ](../../automating/using/about-data-management-activities.md) staan u toe om gegevens in te voeren, massaupdates op gebieden uit te voeren, dossier te ontvangen of te verzenden, of geen geïdentificeerde gegevens aan bestaande middelen te verbinden.
 
-Met [Sjablonen importeren](../../automating/using/importing-data-with-import-templates.md)beheert u bepaalde typen import die door beheerders zijn gedefinieerd via vereenvoudigde importfuncties.
+Met [ de malplaatjes van de Invoer ](../../automating/using/importing-data-with-import-templates.md), beheer bepaalde types van invoer die door beheerders door vereenvoudigde de invoerfuncties worden bepaald.
 
-[Logbestanden exporteren](../../automating/using/exporting-logs.md) Hiermee kunt u loggegevens exporteren via een eenvoudige workflow, zodat u de resultaten van uw marketingcampagnes kunt analyseren in uw eigen rapportage- of BI-gereedschappen.
+[ het Uitvoeren logboeken ](../../automating/using/exporting-logs.md) laat u logboekgegevens door een eenvoudig werkschema uitvoeren, toestaand u om de resultaten van uw marketing campagnes in uw eigen rapportering of hulpmiddelen van BI te analyseren.
 
-Hefboomwerking [Pakketten](../../automating/using/managing-packages.md) om middelen tussen verschillende campagneinstanties, bijvoorbeeld, te ruilen om de configuratie van een geval te herhalen, of gegevens over te brengen van een server aan een andere met inbegrip van douanemiddelen.
+Hefboomwerking [ Pakketten ](../../automating/using/managing-packages.md) aan uitwisselingsmiddelen tussen verschillende campagneinstanties, bijvoorbeeld, om de configuratie van een instantie te herhalen, of gegevens over te brengen van een server aan een andere met inbegrip van douanemiddelen.
 
-Tot slot: [Lijsten exporteren](../../automating/using/exporting-lists.md) kunt u lijsten vanuit Campaigns Standard exporteren, zoals bijvoorbeeld de lijst met testprofielen, de lijst met e-mailadressen in quarantaine, enz.
+Tot slot [ het Uitvoeren lijsten ](../../automating/using/exporting-lists.md) staan u toe om het even welke lijst van Campaign Standard als, bijvoorbeeld, de lijst van testprofielen, de lijst van quarantines e-mailadressen, enz. uit te voeren.
 
 Meer informatie:
 
@@ -91,6 +91,6 @@ Meer informatie:
 
 ## Verdere bronnen
 
-* [Zelfstudievideo&#39;s over processen en gegevensbeheer](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=nl)
+* [ Van processen en van het gegevensbeheer zelfstudie video&#39;s ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=nl)
 * [Technische workflows](../../administration/using/technical-workflows.md)
 * [Aan de slag met het Campaign Standard-gegevensmodel](../../developing/using/get-started-data-model.md)
