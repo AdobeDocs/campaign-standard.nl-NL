@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ea524bdcef0324c7fc4b9da0bb443b6abc66a23a
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '829'
 ht-degree: 4%
 
 ---
@@ -22,21 +22,23 @@ U kunt workflows maken om volledige processen in uw campagnes en programma&#39;s
 
 Het werkstroombewerkingsscherm bestaat uit de volgende elementen:
 
-* De [Palet](#palette), waarin wordt verwezen naar de beschikbare activiteiten.
-* De [Werkruimte](#workspace), waarin de activiteiten zijn geconfigureerd en georganiseerd.
-* De [Actiebalk](#action-bar), die bestaat uit knoppen waarmee u kunt communiceren met de workflow en/of de onderdelen ervan.
-* De [Snelle acties](#quick-actions), die rond een geselecteerde activiteit verschijnen, staat u toe om met het in wisselwerking te staan.
+* Het [ Palet ](#palette), dat verwijzingen de beschikbare activiteiten.
+* [ Workspace ](#workspace), waarin de activiteiten worden gevormd en georganiseerd.
+* De [ bar van de Actie ](#action-bar), die uit knopen wordt samengesteld die u toestaan om met het werkschema en/of zijn componenten in wisselwerking te staan.
+* De [ Snelle acties ](#quick-actions), die rond een geselecteerde activiteit verschijnen, staan u toe om met het in wisselwerking te staan.
 
 ![](assets/wkf_overview.png)
+
+![](assets/do-not-localize/how-to-video.png) [ ontdekt hoe te om een werkschema in video ](#video) te bouwen
 
 ## Palet {#palette}
 
 Het palet bevindt zich aan de linkerkant van het scherm. Alle beschikbare activiteiten worden ingedeeld in verschillende categorieën:
 
-* [Targeting](../../automating/using/about-targeting-activities.md)Betreft: Activiteiten die specifiek gericht zijn op doelgerichtheid, manipulatie van bevolkingsgegevens en filteractiviteiten
-* [Uitvoering](../../automating/using/about-execution-activities.md): specifieke activiteiten voor het organiseren en uitvoeren van workflows
-* [Kanalen](../../automating/using/about-channel-activities.md): activiteiten die de verschillende beschikbare communicatiekanalen vertegenwoordigen
-* [Gegevensbeheer (ETL)](../../automating/using/about-data-management-activities.md)Betreft: Specifieke activiteiten voor het manipuleren van gegevens
+* [ het richten ](../../automating/using/about-targeting-activities.md): activiteiten specifiek voor het richten, het manipuleren van populatiegegevens, en het filtreren activiteiten
+* [ Uitvoering ](../../automating/using/about-execution-activities.md): activiteiten specifiek voor het organiseren van en het uitvoeren van werkschema&#39;s
+* [ Kanalen ](../../automating/using/about-channel-activities.md): activiteiten die de verschillende beschikbare communicatiekanalen vertegenwoordigen
+* [ Beheer van Gegevens (ETL) ](../../automating/using/about-data-management-activities.md): activiteiten specifiek voor het manipuleren van gegevens
 
 Als u een activiteit wilt gebruiken vanuit het palet in uw workflow, sleept u deze naar de werkruimte.
 
@@ -44,28 +46,28 @@ U moet elke activiteit vormen die vanaf het palet wordt toegevoegd alvorens het 
 
 ![](assets/workflow_palette.png)
 
-## Werkruimte {#workspace}
+## Workspace {#workspace}
 
 De werkruimte is de centrale zone in de werkstroomeditor. Het is in deze streek dat u uw activiteiten kunt laten vallen, hen verbinden samen gebruikend overgangen, en hen vormen.
 
 Als u twee activiteiten wilt koppelen, verplaatst u het einde van de pijl van de eerste activiteit naar de volgende activiteit totdat ze verbinding maken. U kunt de activiteit naar het punt van de pijl achter het bewegen om het aan de voorafgaande activiteit te verbinden. Als u een van de activiteiten verplaatst, blijven deze gekoppeld.
 
-Overgangen na activiteiten die gegevens verwerken, bevatten de intermediaire populaties. U hebt toegang tot de **[!UICONTROL Keep interim results]** in de **[!UICONTROL Execution]** van de workfloweigenschappen.
+Overgangen na activiteiten die gegevens verwerken, bevatten de intermediaire populaties. U kunt ze openen door de optie **[!UICONTROL Keep interim results]** in het gedeelte **[!UICONTROL Execution]** van de workfloweigenschappen te selecteren.
 
 >[!CAUTION]
 >
 >Deze optie verbruikt veel schijfruimte en is ontworpen om u te helpen een workflow te maken en een correcte configuratie en functionaliteit te garanderen. Laat deze optie uitgeschakeld op productie-instanties.
 
 
-Wanneer een activiteit wordt geselecteerd, verschijnen de snelle acties rond de activiteit, toestaand u om met het in wisselwerking te staan. Als u bijvoorbeeld een activiteit wilt configureren, selecteert u deze en opent u deze met de opdracht ![](assets/edit_darkgrey-24px_table.png) in de snelle handelingen.
+Wanneer een activiteit wordt geselecteerd, verschijnen de snelle acties rond de activiteit, toestaand u om met het in wisselwerking te staan. Als u bijvoorbeeld een activiteit wilt configureren, selecteert u deze en opent u deze vervolgens met de knop ![](assets/edit_darkgrey-24px_table.png) in de snelle handelingen.
 
 Bepaalde functies zijn alleen beschikbaar in de werkruimte:
 
 * Selecteer verschillende activiteiten en overgangen door er een zone omheen te tekenen.
-* Druk **Ctrl** + klik met de linkermuisknop om meerdere activiteiten en/of overgangen te selecteren.
-* Druk **Enter** om de details van de momenteel geselecteerde activiteit of overgang weer te geven.
-* Druk **Verwijderen** om de geselecteerde activiteit te verwijderen.
-* Druk **Ctrl + C** de geselecteerde activiteiten te kopiëren, en **Ctrl + V** plakken in de werkruimte.
+* Pers **CTRL** + linkerklik om verscheidene activiteiten en/of overgangen te selecteren.
+* Pers **gaat** binnen om het detail van de momenteel geselecteerde activiteit of overgang te bekijken.
+* Pers **Schrapping** om de momenteel geselecteerde activiteit te schrappen.
+* Pers **CTRL + C** om de geselecteerde activiteiten te kopiëren, en **CTRL + V** om hen in de werkruimte te kleven.
 
 ![](assets/workflow_workspace.png)
 
@@ -73,55 +75,55 @@ Bepaalde functies zijn alleen beschikbaar in de werkruimte:
 
 Afhankelijk van de elementen die zijn geselecteerd in de werkruimte of de uitvoeringsstatus van de workflow, kunnen de knoppen in de actiebalk afwijken.
 
-<img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Open activity]**<br/>Hiermee kunt u de eigenschappen van de workflow bewerken.
+<img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Open activity]**<br/>staat u toe om de eigenschappen van het werkschema uit te geven.
 
-<img height="21px" src="assets/play_darkgrey-24px_table.png" /> **[!UICONTROL Start]**<br/>Start de workflow.
+<img height="21px" src="assets/play_darkgrey-24px_table.png" /> **[!UICONTROL Start]**<br/>begint het werkschema.
 
-<img height="21px" src="assets/pause_darkgrey-24px_table.png" /> **[!UICONTROL Pause]**<br/>Pauzeert de workflow.
+<img height="21px" src="assets/pause_darkgrey-24px_table.png" /> **[!UICONTROL Pause]**<br/>pauzeert het werkschema.
 
-<img height="21px" src="assets/stop_darkgrey-24px_table.png" /> **[!UICONTROL Stop]**<br/>Onderbreekt de uitvoering van de workflow. Kan niet worden hervat vanwaar het werd gestopt.
+<img height="21px" src="assets/stop_darkgrey-24px_table.png" /> **[!UICONTROL Stop]**<br/>onderbreekt werkschemauitvoering. Kan niet worden hervat vanwaar het werd gestopt.
 
-<img height="21px" src="assets/pauseplay_darkgrey-24px_table.png" /> **[!UICONTROL Restart]**<br/>Start de workflow opnieuw.
+<img height="21px" src="assets/pauseplay_darkgrey-24px_table.png" /> **[!UICONTROL Restart]**<br/>herstart het werkschema.
 
-<img height="21px" src="assets/printpreview_darkgrey-24px_table.png" /> **[!UICONTROL Log and tasks]**<br/>Hiermee opent u het uitvoeringslogboek van de workflow.
+<img height="21px" src="assets/printpreview_darkgrey-24px_table.png" /> **[!UICONTROL Log and tasks]**<br/>opent het de uitvoeringslogboek van het werkschema.
 
-<img height="21px" src="assets/checkcircle_darkgrey-24px_table.png" /> **[!UICONTROL Enable multi-selection]**<br/>Schakelt de modus voor meerdere selecties in. De workflow moet uit ten minste twee activiteiten bestaan.
+<img height="21px" src="assets/checkcircle_darkgrey-24px_table.png" /> **[!UICONTROL Enable multi-selection]**<br/>laat multi-selectiemodus toe. De workflow moet uit ten minste twee activiteiten bestaan.
 
-<img height="21px" src="assets/closecircle_darkgrey-24px_table.png" /> **[!UICONTROL Disable multi-selection]**<br/>Schakelt de multi-selectiemodus uit.<br />
+<img height="21px" src="assets/closecircle_darkgrey-24px_table.png" /> **[!UICONTROL Disable multi-selection]**<br/>maakt multi-selectiemodus onbruikbaar.<br />
 
-<img height="21px" src="assets/targeted.png" /> **[!UICONTROL Open transition]**<br/>Hiermee opent u de geselecteerde overgang.<br />
+<img height="21px" src="assets/targeted.png" /> **[!UICONTROL Open transition]**<br/>opent de geselecteerde overgang.<br />
 
-<img height="21px" src="assets/check_darkgrey-24px_table.png" />  **[!UICONTROL Normal execution]**<br/>Hiermee wordt de selectie opnieuw ingeschakeld als deze eerder is uitgeschakeld of gemarkeerd als gepauzeerd.<br />
+<img height="21px" src="assets/check_darkgrey-24px_table.png" />  **[!UICONTROL Normal execution]**<br/>laat selectie opnieuw toe als het eerder onbruikbaar gemaakt of zoals gepauzeerd is geweest.<br />
 
-<img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Execution suspended]**<br/>Hiermee onderbreekt u de workflow bij de geselecteerde activiteit.<br />
+<img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Execution suspended]**<br/>pauzeert het werkschema bij de geselecteerde activiteit.<br />
 
-<img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>Hiermee wordt de activiteit uitgeschakeld.<br />
+<img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>maakt de activiteit onbruikbaar.<br />
 
-<img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>Hiermee verwijdert u de geselecteerde activiteiten.<br />
+<img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>schrapt de activiteiten die worden geselecteerd.<br />
 
-<img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copy selection]**<br/>Kopieert de geselecteerde activiteiten.
+<img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copy selection]**<br/>kopieert de activiteiten die worden geselecteerd.
 
-<img height="21px" src="assets/paste_24px.png" /> **[!UICONTROL Paste]**<br/>Hiermee plakt u de gekopieerde activiteiten.
+<img height="21px" src="assets/paste_24px.png" /> **[!UICONTROL Paste]**<br/>kleeft de activiteiten die zijn gekopieerd.
 
 ## Snelle acties {#quick-actions}
 
 Wanneer een activiteit wordt geselecteerd, verschijnen de snelle actieknopen rond de activiteit, die u toestaat om met het in wisselwerking te staan.
 
-<img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Open activity]**<br/>Hiermee opent u de geselecteerde activiteit.
+<img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Open activity]**<br/>opent de geselecteerde activiteit.
 
-<img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copy selection]**<br/>Hiermee kopieert u de geselecteerde activiteit.
+<img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copy selection]**<br/>kopieert de geselecteerde activiteit.
 
-<img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Open the activity's advanced options]**<br/>Hiermee opent u de geavanceerde opties voor de geselecteerde e-mail- of sms-leveringsactiviteit.
+<img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Open the activity's advanced options]**<br/>opent de geavanceerde opties van de geselecteerde e-mail of de leveringsactiviteit van SMS.
 
-<img height="21px" src="assets/check_darkgrey-24px_table.png" /> **[!UICONTROL Normal execution]**<br/>Hiermee wordt de selectie opnieuw ingeschakeld als deze eerder is uitgeschakeld of gemarkeerd als gepauzeerd.
+<img height="21px" src="assets/check_darkgrey-24px_table.png" /> **[!UICONTROL Normal execution]**<br/>laat selectie opnieuw toe als het eerder onbruikbaar gemaakt of zoals gepauzeerd is geweest.
 
-<img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Execution suspended]**<br/>Hiermee onderbreekt u de workflow bij de geselecteerde activiteit.
+<img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Execution suspended]**<br/>pauzeert het werkschema bij de geselecteerde activiteit.
 
-<img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>Hiermee wordt de activiteit uitgeschakeld.
+<img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>maakt de activiteit onbruikbaar.
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>Hiermee wordt de selectie onmiddellijk verwerkt. Deze knop is alleen beschikbaar voor de <span class="uicontrol">Planner</span> en <span class="uicontrol">Wachten</span> activiteiten.
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>dwingt directe verwerking van de selectie. Deze knoop is slechts beschikbaar voor de <span class="uicontrol"> Planner </span> en <span class="uicontrol"> wacht </span> activiteiten.
 
-<img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>Hiermee verwijdert u de geselecteerde activiteiten.
+<img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>schrapt de activiteiten die worden geselecteerd.
 
 ## Dupliceren van workflowactiviteiten {#duplicating-workflow-activities}
 
@@ -135,15 +137,15 @@ Zodra een activiteit wordt gedupliceerd, wordt zijn volledige configuratie gehou
 
 Voer de volgende stappen uit om een activiteit te dupliceren:
 
-1. Selecteer de activiteit en klik op de knop **[!UICONTROL Copy selection]** uit de snelle handelingen.
+1. Selecteer de activiteit, dan klik de **[!UICONTROL Copy selection]** knoop van de snelle acties.
 
-   U kunt ook de opdracht **Ctrl + C** sneltoets.
+   U kunt **CTRL + C** toetsenbordkortere weg ook gebruiken.
 
    ![](assets/wkf_copypaste1.png)
 
-1. Klik met de rechtermuisknop in de werkruimte van de doelworkflow en klik vervolgens op de knop **[!UICONTROL Paste]** knop.
+1. Klik met de rechtermuisknop in de werkruimte van de doelworkflow en klik vervolgens op de knop **[!UICONTROL Paste]** .
 
-   U kunt ook de opdracht **CTRL + V** sneltoets.
+   U kunt **CTRL + V** toetsenbordkortere weg ook gebruiken.
 
    ![](assets/wkf_copypaste2.png)
 
@@ -151,6 +153,14 @@ Voer de volgende stappen uit om een activiteit te dupliceren:
 
 Het is ook mogelijk om veelvoudige activiteiten te kopiëren-kleven, toelatend u om een volledige werkstroom te dupliceren.
 
-U doet dit door de activiteiten te selecteren door er een zone omheen te tekenen. Klik vervolgens op de knop **[!UICONTROL Copy selection]** van de actiebalk (of druk op **Ctrl + C**). U kunt ze vervolgens op de gewenste locatie plakken.
+U doet dit door de activiteiten te selecteren door er een zone omheen te tekenen. dan klik de **[!UICONTROL Copy selection]** knoop van de actiebar (of druk **CTRL + C**). U kunt ze vervolgens op de gewenste locatie plakken.
 
 ![](assets/wkf_copypaste3.png)
+
+## Video over zelfstudie {#video}
+
+In deze video wordt getoond hoe u een workflow kunt maken.
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+De extra Campaign Standard hoe te video&#39;s zijn beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).
