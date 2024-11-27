@@ -9,9 +9,9 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 058c59136c28e7fce2a79686919f900f410e324a
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '982'
 ht-degree: 15%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 15%
 
 Nadat u de berichten hebt voorbereid en de goedkeuringsstappen zijn uitgevoerd, kunt u de berichten verzenden. Raadpleeg [De verzending voorbereiden](../../sending/using/preparing-the-send.md) voor meer informatie over het voorbereiden van berichten.
 
-Alleen gebruikers met de **[!UICONTROL Start deliveries]** de rol kan het verzenden bevestigen. Raadpleeg de sectie [Lijst met rollen](../../administration/using/list-of-roles.md) voor meer informatie.
+Alleen gebruikers met de rol **[!UICONTROL Start deliveries]** kunnen het verzenden bevestigen. Raadpleeg de sectie [Lijst met rollen](../../administration/using/list-of-roles.md) voor meer informatie.
 
 <!--Users without this role will see the following message: 
 
@@ -30,11 +30,11 @@ Alleen gebruikers met de **[!UICONTROL Start deliveries]** de rol kan het verzen
 
 Wanneer de voorbereiding is voltooid, volgt u de onderstaande stappen om uw bericht te verzenden.
 
-1. Klik op de knop **[!UICONTROL Confirm send]** in de actiebalk van het bericht gevonden.
+1. Klik op de knop **[!UICONTROL Confirm send]** op de actiebalk van het bericht.
 
    ![](assets/confirm_delivery.png)
 
-1. De verzending voltooien door op de knop **[!UICONTROL OK]** knop.
+1. Voltooi de verzending door op de knop **[!UICONTROL OK]** te klikken.
 
    ![](assets/confirm_delivery1.png)
 
@@ -44,13 +44,17 @@ Wanneer de voorbereiding is voltooid, volgt u de onderstaande stappen om uw beri
 >
 >Als het bericht gepland is, wordt het verzonden wanneer het verzenden van tijd wordt bereikt. Raadpleeg [deze sectie](../../sending/using/about-scheduling-messages.md) voor meer informatie over het plannen van berichten.
 
-Als u een terugkerende levering zonder aggregatieperiode gebruikt, kunt u om bevestiging vragen voordat de levering wordt verzonden. Wanneer het vormen van uw bericht, open **[!UICONTROL Schedule]** blok van het leveringsdashboard en activeer de specifieke optie.
+Als u een terugkerende levering zonder aggregatieperiode gebruikt, kunt u om bevestiging vragen voordat de levering wordt verzonden. Wanneer het vormen van uw bericht, open het **[!UICONTROL Schedule]** blok van het leveringsdashboard en activeer de specifieke optie.
 
 ![](assets/confirmation_recurring_deliveries.png)
 
 ## Berichtindicatoren {#message-indicators}
 
-Zodra het bericht wordt verzonden naar de contacten, **[!UICONTROL Deployment]** de streek toont uw KPIs (Zeer belangrijke Indicator van Prestaties) gegevens, die omvatten:
+>[!NOTE]
+>
+> Het **dashboard van de Plaatsing** verstrekt gegevens voor snelle verwijzing, die niet de aantallen in Dynamische rapporten kan aanpassen. Voor nauwkeurige en betrouwbare informatie, adviseren wij het gebruiken van de Dynamische rapportering als bron van waarheid. [Meer informatie](../../reporting/using/get-started-reporting.md)
+
+Zodra het bericht wordt verzonden naar de contacten, toont de **[!UICONTROL Deployment]** streek uw gegevens van KPIs (de Zeer belangrijke Indicator van Prestaties), die omvatten:
 
 * Het aantal te leveren berichten
 * Het aantal verzonden berichten
@@ -65,7 +69,7 @@ Zodra het bericht wordt verzonden naar de contacten, **[!UICONTROL Deployment]**
 
 ![](assets/sending_delivery.png)
 
-Als KPIs te lang duurt om bij te werken of niet op de resultaten van het verzenden logboeken wijst, klik **[!UICONTROL Compute stats]** in de **[!UICONTROL Deployment]** venster.
+Als de KPI&#39;s te lang duren om bij te werken of als ze de resultaten van de verzendende logboeken niet weerspiegelen, klikt u op de knop **[!UICONTROL Compute stats]** in het **[!UICONTROL Deployment]** -venster.
 
 ![](assets/sending_delivery7.png)
 
@@ -82,19 +86,19 @@ Zodra een bericht wordt verzonden, kunt u het gedrag van zijn ontvangers volgen,
 >
 >Deze sectie is alleen van toepassing op e-mailkanalen.
 
-In de **[!UICONTROL Summary]** de weergave van elke e-mail, **[!UICONTROL Delivered]** het percentage begint bij 100% en daalt geleidelijk gedurende de hele levering. [geldigheidsperiode](../../administration/using/configuring-email-channel.md#validity-period-parameters), terwijl de zachte en harde grenzen worden gemeld<!--from the Enhanced MTA to Campaign-->.
+In de **[!UICONTROL Summary]** mening van elke e-mail, begint het **[!UICONTROL Delivered]** percentage bij 100% en gaat dan progressief door de levering [ geldigheidsperiode ](../../administration/using/configuring-email-channel.md#validity-period-parameters), aangezien de zachte en harde grenzen worden gemeld terug <!--from the Enhanced MTA to Campaign-->.
 
-Alle berichten worden zelfs als **[!UICONTROL Sent]** in de [verzenden, logbestanden](../../sending/using/monitoring-a-delivery.md#sending-logs) zodra zij met succes van Campagne aan Verbeterde MTA (de Agent van de Overdracht van het Bericht) worden afgelost. Zij blijven deze status behouden, tenzij of totdat [stuiteren](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) voor dat bericht wordt meegedeeld terug van Verbeterde MTA aan Campaign.
+Sterker nog, tonen alle berichten als **[!UICONTROL Sent]** in [ verzendend logboeken ](../../sending/using/monitoring-a-delivery.md#sending-logs) zodra zij met succes van Campagne aan Verbeterde MTA (de Agent van de Overdracht van het Bericht) worden afgelost. Zij blijven in die status tenzij of tot a [ stuiteren ](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) voor dat bericht terug van Verbeterde MTA aan Campagne wordt meegedeeld.
 
-Wanneer hard-stuiterende berichten van Verbeterde MTA worden gemeld, verandert hun status van **[!UICONTROL Sent]** tot **[!UICONTROL Failed]** en de **[!UICONTROL Delivered]** het percentage wordt dienovereenkomstig verlaagd.
+Wanneer hard-bouncing berichten van Verbeterde MTA worden gemeld, verandert hun status van **[!UICONTROL Sent]** in **[!UICONTROL Failed]** en **[!UICONTROL Delivered]** percentage wordt dienovereenkomstig verminderd.
 
-Wanneer de zachte die berichten terug van Verbeterde MTA worden gemeld, tonen zij nog **[!UICONTROL Sent]** en de **[!UICONTROL Delivered]** percentage is nog niet bijgewerkt. De zachte die berichten van het stuiteren zijn dan [hervat](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) gedurende de gehele geldigheidsduur van de levering:
+Wanneer soft-bouncing berichten terug van Verbeterde MTA worden gemeld, tonen zij nog steeds als **[!UICONTROL Sent]** en het **[!UICONTROL Delivered]** percentage wordt nog niet bijgewerkt. De soft-bouncing berichten worden dan [ opnieuw geprobeerd ](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) door de periode van de leveringsgeldigheid:
 
-* Als een nieuwe poging voor het eind van de geldigheidsperiode succesvol is, blijft de berichtstatus zoals **[!UICONTROL Sent]** en de **[!UICONTROL Delivered]** percentage blijft ongewijzigd.
+* Als het opnieuw proberen is gelukt vóór het einde van de geldigheidsperiode, blijft de status van het bericht behouden als **[!UICONTROL Sent]** en blijft het percentage **[!UICONTROL Delivered]** ongewijzigd.
 
-* Anders verandert de status in **[!UICONTROL Failed]** en de **[!UICONTROL Delivered]** het percentage wordt dienovereenkomstig verlaagd.
+* Anders verandert de status in **[!UICONTROL Failed]** en wordt het percentage **[!UICONTROL Delivered]** dienovereenkomstig verlaagd.
 
-Daarom moet u tot het eind van de geldigheidsperiode wachten om het definitieve te zien **[!UICONTROL Delivered]** en het uiteindelijke aantal **[!UICONTROL Sent]** en **[!UICONTROL Failed]** berichten.
+Daarom moet u wachten tot het einde van de geldigheidsperiode om het uiteindelijke **[!UICONTROL Delivered]** percentage en het uiteindelijke aantal **[!UICONTROL Sent]** - en **[!UICONTROL Failed]** -berichten weer te geven.
 
 ### E-mailfeedbackservice (bèta) {#email-feedback-service}
 
@@ -104,29 +108,29 @@ Met de e-mailfeedbackservice (EFS) wordt de status van elke e-mail correct gerap
 >
 >De e-mailfeedbackservice is momenteel beschikbaar als bètafunctie.
 
-Wanneer de levering is gestart, is er geen wijziging in de **[!UICONTROL Delivered]** percentage wanneer het bericht met succes van Campagne aan Verbeterde MTA wordt afgelost.
+Zodra de levering is begonnen, is er geen verandering in het **[!UICONTROL Delivered]** percentage wanneer het bericht met succes van Campagne aan Verbeterde MTA wordt afgelost.
 
 ![](assets/efs-sending.png)
 
-De leveringslogboeken tonen de **[!UICONTROL Pending]** status voor elk gericht adres.
+In de leveringslogboeken wordt de status **[!UICONTROL Pending]** voor elk doeladres weergegeven.
 
 ![](assets/efs-pending.png)
 
-Wanneer de berichtlevering aan de gerichte profielen in echt - tijd van Verbeterde MTA wordt gemeld, tonen de leveringslogboeken **[!UICONTROL Sent]** status voor elk adres dat met succes het bericht ontving. De **[!UICONTROL Delivered]** het percentage wordt dienovereenkomstig verhoogd bij elke succesvolle levering.
+Wanneer de berichtlevering aan de gerichte profielen in echt - tijd van Uitgebreide MTA wordt gemeld, tonen de leveringslogboeken de **[!UICONTROL Sent]** status voor elk adres dat met succes het bericht ontving. Het percentage **[!UICONTROL Delivered]** wordt dienovereenkomstig verhoogd bij elke succesvolle levering.
 
-Wanneer hard-bouncing berichten terug van Verbeterde MTA worden gemeld, verandert hun logboekstatus van **[!UICONTROL Pending]** tot **[!UICONTROL Failed]** en de **[!UICONTROL Bounces + errors]** het percentage wordt dienovereenkomstig verhoogd.
+Wanneer hard-bouncing berichten van Verbeterde MTA worden gemeld, verandert hun logboekstatus van **[!UICONTROL Pending]** in **[!UICONTROL Failed]** en **[!UICONTROL Bounces + errors]** percentage wordt dienovereenkomstig verhoogd.
 
-Wanneer de zachte die berichten terug van Verbeterde MTA worden gemeld, verandert hun logboekstatus ook van **[!UICONTROL Pending]** tot **[!UICONTROL Failed]** en de **[!UICONTROL Bounces + errors]** het percentage wordt dienovereenkomstig verhoogd. De **[!UICONTROL Delivered]** percentage blijft ongewijzigd. De zachte die berichten bewegen worden dan opnieuw geprobeerd door de levering [geldigheidsperiode](../../administration/using/configuring-email-channel.md#validity-period-parameters):
+Wanneer soft-bouncing berichten van Verbeterde MTA worden gemeld, verandert hun logboekstatus ook van **[!UICONTROL Pending]** in **[!UICONTROL Failed]** en **[!UICONTROL Bounces + errors]** percentage wordt dienovereenkomstig verhoogd. Het percentage **[!UICONTROL Delivered]** blijft ongewijzigd. De soft-bouncing berichten worden dan opnieuw geprobeerd door de levering [ geldigheidsperiode ](../../administration/using/configuring-email-channel.md#validity-period-parameters):
 
-* Als een nieuwe poging is gelukt vóór het einde van de geldigheidsperiode, verandert de berichtstatus in **[!UICONTROL Sent]** en de **[!UICONTROL Delivered]** het percentage wordt dienovereenkomstig verhoogd.
+* Als het opnieuw proberen is gelukt vóór het einde van de geldigheidsperiode, verandert de berichtstatus in **[!UICONTROL Sent]** en wordt het **[!UICONTROL Delivered]** percentage dienovereenkomstig verhoogd.
 
-* Anders blijft de status ongewijzigd **[!UICONTROL Failed]**. De **[!UICONTROL Delivered]** en **[!UICONTROL Bounces + errors]** de percentages blijven ongewijzigd.
+* Anders blijft de status als **[!UICONTROL Failed]** . De percentages **[!UICONTROL Delivered]** en **[!UICONTROL Bounces + errors]** blijven ongewijzigd.
 
 >[!NOTE]
 >
->Zie voor meer informatie over harde en zachte golven [deze sectie](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>Voor meer op harde en zachte grenzen, zie [ deze sectie ](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 >
->Voor meer informatie over pogingen na een tijdelijke mislukking van de levering, zie [deze sectie](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+>Voor meer op herpogingen na een tijdelijke mislukking van de levering, zie [ deze sectie ](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 <!--Soft-bouncing messages increment an error counter. When the error counter reaches the limit threshold or when the validity period is over, the address goes into quarantine and the status remains as **[!UICONTROL Failed]**. For more on conditions for sending an address to quarantine, see [this section](../../help/sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).-->
 
@@ -134,22 +138,22 @@ Wanneer de zachte die berichten terug van Verbeterde MTA worden gemeld, verander
 
 De lijsten hieronder tonen de veranderingen in KPIs en het verzenden van logboekstatussen die door het vermogen EFS worden geïntroduceerd.
 
-**Met e-mailfeedbackservice**
+**met de dienst van de Terugkoppeling E-mail**
 
 | Stap in het verzendende proces | KPI-overzicht | Status van logboeken verzenden |
 |--- |--- |--- |
-| Het bericht wordt met succes afgelost van Campagne aan Verbeterde MTA | <ul><li>**[!UICONTROL Delivered]** percentage begint bij 0%</li><li>**[!UICONTROL Bounces + errors]** percentage begint bij 0%</li></ul> | In behandeling |
-| Fel-stuiterende berichten worden gemeld terug van Verbeterde MTA | <ul><li>Geen wijziging in **[!UICONTROL Delivered]** percentage</li><li>**[!UICONTROL Bounces + errors]** percentage wordt dienovereenkomstig verhoogd</li></ul> | Mislukt |
-| De zachte die berichten bewegen worden gemeld terug van Verbeterde MTA | <ul><li>Geen wijziging in **[!UICONTROL Delivered]** percentage</li><li>**[!UICONTROL Bounces + errors]** percentage wordt dienovereenkomstig verhoogd</li></ul> | Mislukt |
-| Herhalingen van soft-bouncing berichten zijn succesvol | <ul><li>**[!UICONTROL Delivered]** percentage wordt dienovereenkomstig verhoogd</li><li>**[!UICONTROL Bounces + errors]** percentage wordt dienovereenkomstig verlaagd</li></ul> | Verzonden |
-| Herhalingen van soft-bouncing berichten mislukken | <ul><li> Geen wijziging in **[!UICONTROL Delivered]** percentage </li><li> Geen wijziging in **[!UICONTROL Bounces + errors]** percentage </li></ul> | Mislukt |
+| Het bericht wordt met succes afgelost van Campagne aan Verbeterde MTA | <ul><li>**[!UICONTROL Delivered]** percentage begint bij 0%</li><li>**[!UICONTROL Bounces + errors]** percentage begint bij 0%</li></ul> | In behandeling |
+| Fel-stuiterende berichten worden gemeld terug van Verbeterde MTA | <ul><li>Geen wijziging in **[!UICONTROL Delivered]** percentage</li><li>**[!UICONTROL Bounces + errors]** percentage wordt dienovereenkomstig verhoogd</li></ul> | Mislukt |
+| De zachte die berichten bewegen worden gemeld terug van Verbeterde MTA | <ul><li>Geen wijziging in **[!UICONTROL Delivered]** percentage</li><li>**[!UICONTROL Bounces + errors]** percentage wordt dienovereenkomstig verhoogd</li></ul> | Mislukt |
+| Herhalingen van soft-bouncing berichten zijn succesvol | <ul><li>**[!UICONTROL Delivered]** percentage wordt dienovereenkomstig verhoogd</li><li>**[!UICONTROL Bounces + errors]** percentage is dienovereenkomstig verlaagd</li></ul> | Verzonden |
+| Herhalingen van soft-bouncing berichten mislukken | <ul><li> Geen wijziging in **[!UICONTROL Delivered]** percentage </li><li> Geen wijziging in **[!UICONTROL Bounces + errors]** percentage </li></ul> | Mislukt |
 
-**Zonder e-mailfeedbackservice**
+**zonder de dienst van de Terugkoppeling E-mail**
 
 | Stap in het verzendende proces | KPI-overzicht | Status van logboeken verzenden |
 |--- |--- |--- |
 | Het bericht wordt met succes afgelost van Campagne aan Verbeterde MTA | <ul><li>**[!UICONTROL Delivered]** percentage begint bij 100%</li><li>**[!UICONTROL Bounces + errors]** percentage begint bij 0%</li></ul> | Verzonden |
-| Fel-stuiterende berichten worden gemeld terug van Verbeterde MTA | <ul><li>**[!UICONTROL Delivered]** percentage wordt dienovereenkomstig verlaagd</li><li>**[!UICONTROL Bounces + errors]** percentage wordt dienovereenkomstig verhoogd</li></ul> | Mislukt |
-| De zachte die berichten bewegen worden gemeld terug van Verbeterde MTA | <ul><li>Geen wijziging in **[!UICONTROL Delivered]** percentage</li><li>Geen wijziging in **[!UICONTROL Bounces + errors]** percentage</li></ul> | Verzonden |
-| Herhalingen van soft-bouncing berichten zijn succesvol | <ul><li>Geen wijziging in **[!UICONTROL Delivered]** percentage</li><li>Geen wijziging in **[!UICONTROL Bounces + errors]** percentage</li></ul> | Verzonden |
-| Herhalingen van soft-bouncing berichten mislukken | <ul><li>**[!UICONTROL Delivered]** percentage wordt dienovereenkomstig verlaagd</li><li>**[!UICONTROL Bounces + errors]** percentage wordt dienovereenkomstig verhoogd</li></ul> | Mislukt |
+| Fel-stuiterende berichten worden gemeld terug van Verbeterde MTA | <ul><li>**[!UICONTROL Delivered]** percentage is dienovereenkomstig verlaagd</li><li>**[!UICONTROL Bounces + errors]** percentage wordt dienovereenkomstig verhoogd</li></ul> | Mislukt |
+| De zachte die berichten bewegen worden gemeld terug van Verbeterde MTA | <ul><li>Geen wijziging in **[!UICONTROL Delivered]** percentage</li><li>Geen wijziging in **[!UICONTROL Bounces + errors]** percentage</li></ul> | Verzonden |
+| Herhalingen van soft-bouncing berichten zijn succesvol | <ul><li>Geen wijziging in **[!UICONTROL Delivered]** percentage</li><li>Geen wijziging in **[!UICONTROL Bounces + errors]** percentage</li></ul> | Verzonden |
+| Herhalingen van soft-bouncing berichten mislukken | <ul><li>**[!UICONTROL Delivered]** percentage is dienovereenkomstig verlaagd</li><li>**[!UICONTROL Bounces + errors]** percentage wordt dienovereenkomstig verhoogd</li></ul> | Mislukt |
