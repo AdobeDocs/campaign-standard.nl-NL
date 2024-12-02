@@ -1,6 +1,6 @@
 ---
 title: Geïntegreerd klantprofiel
-description: '“Volg elke klantinteractie in één weergave: het geïntegreerde Adobe Campaign-klantprofiel wordt gedurende de gehele levenscyclus van de klant bijgewerkt.”'
+description: 'Houd elke klantinteractie in één weergave bij: het door Adobe Campaign geïntegreerde klantprofiel wordt gedurende de gehele levenscyclus van de klant bijgewerkt.'
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
@@ -12,7 +12,7 @@ exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 48%
+ht-degree: 41%
 
 ---
 
@@ -22,7 +22,7 @@ Er is een geïntegreerd klantprofiel beschikbaar voor elke contactpersoon van uw
 
 Voer de volgende stappen uit om toegang te krijgen tot het geïntegreerde klantprofiel:
 
-1. Klik op de startpagina van Adobe Campaign op de knop **[!UICONTROL Customer profiles]** of de **Profielen** om de lijst met profielen weer te geven.
+1. Van de homepage van Adobe Campaign, klik de **[!UICONTROL Customer profiles]** kaart of het **Profielen** lusje om de profielenlijst te tonen.
 
 1. Als u een profiel wilt zoeken dat is gebaseerd op een specifiek veld, opent u het zoekvenster en selecteert u het veld waarop u de zoekopdracht wilt uitvoeren.
 

@@ -1,6 +1,6 @@
 ---
 title: Marketingactiviteiten
-description: “Ontdek hoe u uw marketingactiviteiten zoals campagnes, e-mails, sms’en, pushmeldingen, landingspagina’s en workflows kunt maken en beheren. U kunt gemakkelijk een nieuwe activiteit ontwerpen, een bestaande activiteit bewerken en de status en geldigheid van uw activiteiten raadplegen.”
+description: 'Leer hoe u uw marketingactiviteiten kunt maken en beheren: campagnes, e-mail, SMS en pushberichten, bestemmingspagina''s, workflows. U kunt gemakkelijk een nieuwe activiteit ontwerpen, bestaande uitgeven, en hun status en geldigheid raadplegen.'
 audience: start
 content-type: reference
 topic-tags: marketing-plans
@@ -12,7 +12,7 @@ exl-id: c75471aa-b947-4488-a569-5412d3825c64
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 79%
+ht-degree: 71%
 
 ---
 
@@ -81,14 +81,14 @@ Programma’s en campagnes worden weergegeven in de sectie [Programma’s en cam
 
 Afhankelijk van de context kunt u:
 
-* Een e-mail maken - [Meer informatie](../../channels/using/creating-an-email.md)
-* Een SMS-bericht maken - [Meer informatie](../../channels/using/creating-an-sms-message.md)
-* Een pushmelding maken - [Meer informatie](../../channels/using/preparing-and-sending-a-push-notification.md)
-* Een bericht in de app maken - [Meer informatie](../../channels/using/about-in-app-messaging.md)
-* Een workflow maken - [Meer informatie](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* Een openingspagina maken - [Meer informatie](../../channels/using/getting-started-with-landing-pages.md)
-* Maak een campagne - [Meer informatie](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* Een programma maken - [Meer informatie](../../start/using/programs-and-campaigns.md#creating-a-program)
+* Creeer e-mail - [ Leer meer ](../../channels/using/creating-an-email.md)
+* Creeer SMS - [ leer meer ](../../channels/using/creating-an-sms-message.md)
+* Creeer een duw bericht - [ Leer meer ](../../channels/using/preparing-and-sending-a-push-notification.md)
+* Creeer een bericht in-app - [ Leer meer ](../../channels/using/about-in-app-messaging.md)
+* Creeer een werkschema - [ leer meer ](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* Creeer een het landen pagina - [ Leer meer ](../../channels/using/getting-started-with-landing-pages.md)
+* Creeer een campagne - [ leer meer ](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* Creeer een programma - [ leer meer ](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >

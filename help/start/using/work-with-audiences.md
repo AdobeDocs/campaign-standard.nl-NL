@@ -1,6 +1,6 @@
 ---
 title: Lijsten aanpassen
-description: "Leer hoe u de weergave kunt aanpassen en kunt werken op lijstschermen in Adobe Campaign Standard:elementen sorteren, filteren, verwijderen of dupliceren. De schermen van lijsten tonen elementen van één of verscheidene bepaalde middelen."
+description: Leer hoe u de weergave kunt aanpassen en kunt werken op lijstschermen in Adobe Campaign Standard:elementen sorteren, filteren, verwijderen of dupliceren. De schermen van lijsten tonen elementen van één of verscheidene bepaalde middelen.
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -56,13 +56,13 @@ Campaign Standard biedt verschillende hulpmiddelen aan om u te helpen uw marketi
 
 ### Gegevens importeren via workflows {#importing-data-through-workflows}
 
-Met workflows kunt u gegevens verzamelen en importeren in de Campagne-database via [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) activiteiten. Algemene informatie en aanbevolen procedures bij het importeren van gegevens via workflows worden weergegeven in [deze sectie](../../automating/using/about-data-import-and-export.md).
+Met workflows kunt u gegevens verzamelen en importeren in de Campagne-database via [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) -activiteiten. Algemene informatie en beste praktijken wanneer het invoeren van gegevens door werkschema&#39;s worden voorgesteld in [ deze sectie ](../../automating/using/about-data-import-and-export.md).
 
 Daarnaast kunt u sjablonen instellen voor het importeren van gegevens. Het gebruik van importsjablonen is het aanbevolen om regelmatig bestanden met dezelfde structuur te importeren. U kunt twee typen sjablonen instellen:
 
-* **Workflowsjablonen**: dit zijn vooraf geconfigureerde workflows die u één keer kunt instellen op basis van uw behoeften en die u telkens opnieuw kunt gebruiken wanneer u gegevens wilt importeren en de database wilt bijwerken. Een voorbeeld van een werkstroomsjabloon voor het importeren van gegevens vindt u in [deze sectie](../../automating/using/creating-import-workflow-templates.md).
+* **malplaatjes van het Werkschema**: dit zijn pre-gevormde werkschema&#39;s die u opstelling eens volgens uw behoeften kunt, en telkens opnieuw gebruiken wanneer u gegevens wilt invoeren en het gegevensbestand bijwerken. Een voorbeeld van werkschemamalplaatje om gegevens in te voeren wordt gedetailleerd in [ deze sectie ](../../automating/using/creating-import-workflow-templates.md).
 
-* **Gegevenssjablonen importeren**: Net als werkstroomsjablonen zijn dit sjablonen die zijn gebaseerd op workflows en die zijn ingesteld om bestanden te uploaden om de database bij te werken. Zodra gevormd, worden zij ter beschikking gesteld aan gebruikers met een vereenvoudigde mening onder **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** -menu. Raadpleeg voor meer informatie over sjablonen voor importgegevens de [speciale documentatie](../../automating/using/importing-data-with-import-templates.md).
+* **de gegevensmalplaatjes van de Invoer**: als werkschemamalplaatjes, zijn deze malplaatjes die op werkschema&#39;s worden gebaseerd, die opstelling zijn om dossiers te uploaden om het gegevensbestand bij te werken. Zodra deze zijn geconfigureerd, worden ze beschikbaar gesteld voor gebruikers met een vereenvoudigde weergave in het menu **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** . Voor meer op de malplaatjes van de invoergegevens, verwijs naar de [ specifieke documentatie ](../../automating/using/importing-data-with-import-templates.md).
 
 ### Gegevens van bestemmingspagina&#39;s verzamelen {#collecting-data-from-landing-pages}
 
@@ -72,7 +72,7 @@ Openingspagina&#39;s zijn webformulieren die kunnen worden gebruikt om gegevens 
 * Wijs elk invoerveld toe aan het corresponderende veld in de database.
 * Maak de openingspagina online beschikbaar via een website of via een directe koppeling naar een bericht.
 
-Raadpleeg voor meer informatie over bestemmingspagina&#39;s de [speciale documentatie](../../channels/using/getting-started-with-landing-pages.md).
+Voor meer bij het landen van pagina&#39;s, verwijs naar de [ specifieke documentatie ](../../channels/using/getting-started-with-landing-pages.md).
 
 **Meer informatie**
 
@@ -81,12 +81,12 @@ Raadpleeg voor meer informatie over bestemmingspagina&#39;s de [speciale documen
 
 ### Profielen synchroniseren vanuit Microsoft Dynamics 365
 
-Dankzij de integratie van Campaigns Standard met Microsoft Dynamics 365 kunt u contactgegevens van Microsoft Dynamics 365 doorgeven aan de Campagne-database.
-Deze contacten zijn dan zichtbaar in de lijst van Profielen en kunnen in marketing campagnes worden gericht. Raadpleeg voor meer informatie over deze integratie de [speciale documentatie](../../integrating/using/d365-acs-get-started.md).
+Dankzij de integratie van Campaigns Standard met Microsoft Dynamics 365 kunt u contactgegevens doorgeven van Microsoft Dynamics 365 naar de Campagne-database.
+Deze contacten zijn dan zichtbaar in de lijst van Profielen en kunnen in marketing campagnes worden gericht. Voor meer op deze integratie, verwijs naar de [ specifieke documentatie ](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
->Houd er rekening mee dat de aansluiting Campaign Standard-Microsoft Dynamics 365 momenteel beperkt beschikbaar is en dat er verschillende beperkingen op van toepassing zijn, die in de documentatie nader worden beschreven.
+>Houd er rekening mee dat Campaign Standard-Microsoft Dynamics 365-connector momenteel in Beperkte beschikbaarheid is en dat er enkele beperkingen op van toepassing zijn, die in de documentatie nader worden beschreven.
 
 **Meer informatie**
 
@@ -95,7 +95,7 @@ Deze contacten zijn dan zichtbaar in de lijst van Profielen en kunnen in marketi
 
 ### Gegevens importeren via API-aanroepen
 
-Met Campaign Standard-API&#39;s kunt u bewerkingen uitvoeren om de database bij te werken, zoals het maken, bijwerken of verwijderen van profielen of services. Raadpleeg de klasse [speciale documentatie](../../api/using/get-started-apis.md).
+Met Campaign Standard-API&#39;s kunt u bewerkingen uitvoeren om de database bij te werken, zoals het maken, bijwerken of verwijderen van profielen of services. Voor meer op hoe te om APIs te gebruiken, verwijs naar de [ specifieke documentatie ](../../api/using/get-started-apis.md).
 
 >[!CAUTION]
 >
@@ -125,7 +125,7 @@ Dankzij de workflows en de query-editor kunt u een publiek maken dat de verschil
 
 GDPR is de nieuwe privacywet van de Europese Unie (EU) die de vereisten inzake gegevensbescherming harmoniseert en moderniseert. GDPR is van toepassing op Adobe Campaign-klanten die gegevens aanhouden voor in de EU verblijvende gegevenssubjecten. Naast de privacymogelijkheden die al beschikbaar zijn in Adobe Campaign (waaronder beheer van toestemming, instellingen voor gegevensbewaring en gebruikersrollen), maken we van deze gelegenheid gebruik in onze rol als gegevensverwerker om extra mogelijkheden op te nemen, zodat u gemakkelijker klaar bent als Data Controller voor bepaalde GDPR-verzoeken.
 
-Zie [deze sectie](../../start/using/privacy.md) voor meer informatie over de tools en functies die Adobe Campaign biedt om u te helpen aan de GDPR-standaard te voldoen.
+Verwijs naar [ deze sectie ](../../start/using/privacy.md) om meer over de hulpmiddelen en de functionaliteiten te leren die Adobe Campaign verstrekt om u te helpen volgzaam GDPR worden.
 
 **Meer informatie**
 

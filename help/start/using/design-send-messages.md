@@ -1,6 +1,6 @@
 ---
 title: Lijsten aanpassen
-description: "Leer hoe u de weergave kunt aanpassen en kunt werken op lijstschermen in Adobe Campaign Standard:elementen sorteren, filteren, verwijderen of dupliceren. De schermen van lijsten tonen elementen van één of verscheidene bepaalde middelen."
+description: Leer hoe u de weergave kunt aanpassen en kunt werken op lijstschermen in Adobe Campaign Standard:elementen sorteren, filteren, verwijderen of dupliceren. De schermen van lijsten tonen elementen van één of verscheidene bepaalde middelen.
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -71,18 +71,18 @@ Neem de aandacht van uw klanten op en verbeter de responssnelheid door inhoud en
 
 Persoonlijke berichten zijn essentieel voor het verzenden van relevante inhoud, het bieden van persoonlijke ervaringen en het verhogen van de open en conversiesnelheden. Kanaaloverschrijdende berichten die door Adobe Campaign worden geleverd, kunnen op verschillende manieren worden gepersonaliseerd. Deze manieren kunnen met criteria afhankelijk van de profielen worden gecombineerd. U kunt:
 
-* Invoegen [dynamische verpersoonlijkingsvelden](../../designing/using/personalization.md#inserting-a-personalization-field) in uw berichten
-* Invoegen [vooraf gedefinieerde aanpassingsblokken](../../designing/using/personalization.md#adding-a-content-block)
-* [De afzender aanpassen](../../designing/using/subject-line.md) van een e-mail of sms
-* [De onderwerpregel aanpassen](../../designing/using/subject-line.md) van een e-mail
-* Maken [voorwaardelijke inhoud in een e-mail](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) of [op een landingspagina](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* Invoegen [Dynamische tekst](../../channels/using/defining-dynamic-text.md) in een SMS-bericht of een pushmelding
+* Plaats [ dynamische verpersoonlijkingsgebieden ](../../designing/using/personalization.md#inserting-a-personalization-field) in uw berichten
+* Tussenvoegsel [ vooraf bepaalde verpersoonlijkingsblokken ](../../designing/using/personalization.md#adding-a-content-block)
+* [ Personaliseer de afzender ](../../designing/using/subject-line.md) van e-mail of een SMS
+* [ Personaliseer de onderwerpregel ](../../designing/using/subject-line.md) van e-mail
+* Creeer [ voorwaardelijke inhoud in e-mail ](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) of [ in een het landen pagina ](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
+* Tussenvoegsel [ Dynamische tekst ](../../channels/using/defining-dynamic-text.md) in een bericht van SMS of een Duw bericht
 
 ![](assets/delivery_content_43.png)
 
 **Meer informatie**
 
-* Ontdek personalisatie van e-mail door [end-to-end sample](../../designing/using/personalization.md#example-email-personalization)
+* Ontdek e-mailverpersoonlijking door a [ steekproef van begin tot eind ](../../designing/using/personalization.md#example-email-personalization)
 * [URL&#39;s aanpassen](../../designing/using/personalization.md#personalizing-urls)
 * [Aanpassing van een afbeelding instellen](../../designing/using/personalization.md#personalizing-an-image-source)
 
