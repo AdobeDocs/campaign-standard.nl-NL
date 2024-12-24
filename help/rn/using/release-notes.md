@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: c2d2f3843801d108f007fea52a76e41abe16d76c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -27,23 +27,23 @@ In deze sectie worden nieuwe verbeteringen en wijzigingen vermeld die in de volg
 >
 >Deze content kan zonder voorafgaande kennisgeving worden gewijzigd tot de upgradedatum van de werkgebiedomgevingen. Meer informatie vindt u op de pagina [Releaseplanning](../../rn/using/release-planning.md).
 
-### Versie 25.1: winterversie 2025 {#winter-25}
+### Release 25.1: release winter 2025 {#winter-25}
 
 #### Beveiligingsoplossingen {#winter-25-security}
 
 * Deze release biedt beveiligingsoplossingen.
-* Deze release wordt geleverd met de volgende beveiligingsupgrade: Apache Tomcat is bijgewerkt naar versie 10.1.33.
+* Deze release wordt geleverd met de volgende beveiligingsupgrade: Apache Tomcat is geüpgraded naar v10.1.33.
 
 #### Andere oplossingen {#winter-25-fixes}
 
-* Een dubbel probleem in sjablonen opgelost (CAMP-56340)
-* Probleem verholpen waarbij een regressie bij het bijhouden van wijzigingen werd gecorrigeerd toen dynamische URL&#39;s werden gebruikt in Adobe Experience Manager-sjablonen (CAMP-51932)
-* Oplossing voor een prestatieprobleem met het factureringsproces (CAMP-56796)
-* Probleem met HTML-codering verholpen met het teken `>` op JSSP-webpagina&#39;s (CAMP-56497)
-* Vaste een kwestie in Dynamische rapportering wanneer het gebruiken van **Vertoning op geselecteerde rijen** optie (CAMP-55895)
+* Een dupliceerprobleem in sjablonen is opgelost (CAMP-56340)
+* Een trackingregressie bij gebruik van dynamische URL&#39;s in Adobe Experience Manager-sjablonen is opgelost (CAMP-51932)
+* Een prestatieprobleem in het factureringsproces is opgelost (CAMP-56796)
+* Een HTML-coderingsprobleem met het `>`-teken op JSSP-webpagina&#39;s is opgelost (CAMP-56497)
+* Een probleem met dynamische rapportage bij het gebruik van de optie **Weergave in geselecteerde rijen** is opgelost (CAMP-55895)
 
 
-## Release 24.2 - 2024 Summer Release (LA) {#summer-24}
+## Release 24.2 - release zomer 2024 (LA) {#summer-24}
 
 ### Verbetering {#summer-24-rn-improvements}
 
