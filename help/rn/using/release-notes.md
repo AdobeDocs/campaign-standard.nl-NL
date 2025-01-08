@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: c2d2f3843801d108f007fea52a76e41abe16d76c
-workflow-type: ht
-source-wordcount: '390'
-ht-degree: 100%
+source-git-commit: ec96a9c3320a570f80863b1189f350c5f62f8466
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 75%
 
 ---
 
@@ -16,50 +16,32 @@ ht-degree: 100%
 # Nieuwste aanvullende informatie {#latest-release}
 
 <!--
-![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
+## Release notes {#e-new-release}
 
 
-## Vroege aanvullende informatie {#e-new-release}
-
-In deze sectie worden nieuwe verbeteringen en wijzigingen vermeld die in de volgende release van Campaign Standard zijn opgenomen.
+This section lists improvements and changes included in the next Campaign Standard release.
 
 >[!CAUTION]
 >
->Deze content kan zonder voorafgaande kennisgeving worden gewijzigd tot de upgradedatum van de werkgebiedomgevingen. Meer informatie vindt u op de pagina [Releaseplanning](../../rn/using/release-planning.md).
+>This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
 
-### Release 25.1: release winter 2025 {#winter-25}
+-->
 
-#### Beveiligingsoplossingen {#winter-25-security}
+## Release 25.1: release winter 2025 {#winter-25}
+
+### Beveiligingsoplossingen {#winter-25-security}
 
 * Deze release biedt beveiligingsoplossingen.
 * Deze release wordt geleverd met de volgende beveiligingsupgrade: Apache Tomcat is geüpgraded naar v10.1.33.
 
-#### Andere oplossingen {#winter-25-fixes}
+### Andere oplossingen {#winter-25-fixes}
 
+
+* De URL &#39;Gegevensschema&#39; in het abonnementsoverzichtsscherm is gecorrigeerd (CAMP-56168, CAMP-56296)
+* Vaste een kwestie om de vermoeidheidsregels te mijden wanneer het **Bericht dat onmiddellijk moet worden verzonden** optie wordt gebruikt (CAMP-56866, CAMP-57033)
 * Een dupliceerprobleem in sjablonen is opgelost (CAMP-56340)
 * Een trackingregressie bij gebruik van dynamische URL&#39;s in Adobe Experience Manager-sjablonen is opgelost (CAMP-51932)
 * Een prestatieprobleem in het factureringsproces is opgelost (CAMP-56796)
 * Een HTML-coderingsprobleem met het `>`-teken op JSSP-webpagina&#39;s is opgelost (CAMP-56497)
 * Een probleem met dynamische rapportage bij het gebruik van de optie **Weergave in geselecteerde rijen** is opgelost (CAMP-55895)
 
-
-## Release 24.2 - release zomer 2024 (LA) {#summer-24}
-
-### Verbetering {#summer-24-rn-improvements}
-
-**Migratie naar OAuth-server-naar-server-aanmeldingsgegevens**
-
-Omdat de aanmeldingsgegevens van het serviceaccount (JWT) door Adobe worden beëindigd, zijn vanaf deze versie de uitgaande integraties van Campaign met oplossingen en apps van Adobe nu gebaseerd op de OAuth-server-naar-server-aanmeldingsgegevens. Adobe zal de migratie van JWT naar OAuth voor uw uitgaande integraties uitvoeren, zoals de integratie van Campaign-Analytics en de integratie van Experience Cloud-triggers.
-
-Als u inkomende integraties met Campaign hebt uitgevoerd, en als u [Campaign API&#39;s](../../api/using/get-started-apis.md) gebruikt, moet u uw technische account migreren zoals beschreven in [deze documentatie ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Bestaande aanmeldingsgegevens voor het serviceaccount (JWT) zullen niet meer werken vanaf **27 januari, 2025**.
-
-### Oplossingen {#summer-24-rn-fixes}
-
-* Er is een probleem opgelost waarbij de workflowplanner vóór de geplande tijd startte. (CAMP-55412)
-* Er is een probleem opgelost dat een fout veroorzaakte bij het dupliceren van aangepaste velden in transactionele pushmeldingen. (CAMP-54459)
-* Er zijn problemen opgelost die invloed hadden op de bruikbaarheid van de tijd- en datumplanner voor in-app messaging. (CAMP-54495)
-* Er is een probleem opgelost waarbij tracking niet werkte wanneer de functie Aangepaste tracking-alias werd gebruikt en de gehele koppeling dynamisch was. (CAMP-56044)
-* Er is een probleem opgelost waarbij een beperkt aantal sjablonen werd weergegeven bij het zoeken naar specifieke sjablonen. (CAMP-55273)
-* De volgende talen zijn aan de vervolgkeuzelijst met voorkeurstalen toegevoegd: en_kz (Engels - Kazachstan) en en_ua (Engels - Oekraïne). (CAMP-55336)
-* Er is een probleem opgelost waarbij de knoppen voor tijdaanpassing niet werkten in de plannerinstellingen. (CAMP-53602)
-* Er zijn diverse gebruikersinterfaceproblemen opgelost met de balk voor tijdaanpassing in plannerinstellingen. (CAMP-55291)
