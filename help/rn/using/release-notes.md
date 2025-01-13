@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: ec96a9c3320a570f80863b1189f350c5f62f8466
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -37,8 +37,8 @@ This section lists improvements and changes included in the next Campaign Standa
 ### Andere oplossingen {#winter-25-fixes}
 
 
-* De URL &#39;Gegevensschema&#39; in het abonnementsoverzichtsscherm is gecorrigeerd (CAMP-56168, CAMP-56296)
-* Vaste een kwestie om de vermoeidheidsregels te mijden wanneer het **Bericht dat onmiddellijk moet worden verzonden** optie wordt gebruikt (CAMP-56866, CAMP-57033)
+* Er is een probleem opgelost met de URL &#39;Gegevensschema&#39; in het lidmaatschapsoverzichtsscherm (CAMP-56168, CAMP-56296)
+* Er is een probleem opgelost met het omzeilen van de moeheidsregels wanneer de optie **Bericht moet onmiddellijk worden verzonden** wordt gebruikt (CAMP-56866, CAMP-57033)
 * Een dupliceerprobleem in sjablonen is opgelost (CAMP-56340)
 * Een trackingregressie bij gebruik van dynamische URL&#39;s in Adobe Experience Manager-sjablonen is opgelost (CAMP-51932)
 * Een prestatieprobleem in het factureringsproces is opgelost (CAMP-56796)

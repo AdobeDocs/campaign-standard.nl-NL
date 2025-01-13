@@ -4,9 +4,9 @@ title: Adobe Campaign Standard-productdocumentatie
 description: Bladeren door de Campaign Standard-productdocumentatie
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 91%
 
 ## Nieuwe functies
 
-Bekijk vast de nieuwste verbeteringen in Adobe Campaign Standard-producten en -documentatie! Voor een uitvoerige lijst van eigenschappen, verbeteringen, en moeilijke situaties, controleer de gedetailleerde [ Nota&#39;s van de Versie ](rn/using/release-notes.md).
+Bekijk vast de nieuwste verbeteringen in Adobe Campaign Standard-producten en -documentatie! Bekijk voor een uitgebreide lijst met functies, verbeteringen en oplossingen de gedetailleerde [Aanvullende informatie](rn/using/release-notes.md).
 
 >[!BEGINTABS]
 
@@ -26,7 +26,7 @@ Met veel plezier kondigen we aan dat Adobe Campaign Standard-gebruikers nu in aa
 
 >[!TAB Campaign versie 25.1 is live!]
 
-Ontdek verbeteringen en oplossingen die bij de release van Campaign Standard 25.1 worden geleverd.
+Ontdek de verbeteringen en oplossingen in Campaign Standard versie 25.1.
 
 [![afbeelding](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 
