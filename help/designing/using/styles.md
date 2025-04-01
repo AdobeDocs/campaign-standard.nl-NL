@@ -11,7 +11,7 @@ exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
 source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
 source-wordcount: '1038'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -102,7 +102,7 @@ Voor zowel **[!UICONTROL Padding]** als **[!UICONTROL Margin]** klikt u op het v
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="Achtergrondinstellingen"
->abstract="Met de e-mail Designer kunt u de achtergrondkleur of achtergrondafbeelding voor uw inhoud aanpassen. Achtergrondafbeelding wordt niet door alle e-mailclients ondersteund."
+>abstract="Met de E-mail Designer kunt u de achtergrondkleur of achtergrondafbeelding voor uw content aanpassen. Houd er rekening mee dat achtergrondafbeeldingen niet door alle e-mailclients worden ondersteund."
 
 Adobe raadt het volgende aan als het gaat om het instellen van achtergronden voor de e-mailtoepassing Designer:
 

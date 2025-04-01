@@ -11,7 +11,7 @@ exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
 source-wordcount: '1229'
-ht-degree: 1%
+ht-degree: 13%
 
 ---
 
@@ -40,13 +40,13 @@ U kunt deze [ inleidende video ](https://video.tv.adobe.com/v/22771/?autoplay=tr
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
->title="Informatie over de componenten Structuur"
->abstract="Structuurelementen definiëren de indeling van de e-mail."
+>title="Informatie over structuuronderdelen"
+>abstract="Structuuronderdelen bepalen de lay-out van de e-mail."
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="E-mailkolommen definiëren"
->abstract="Met de e-mail Designer kunt u de indeling van uw e-mail eenvoudig definiëren door de kolomstructuur te definiëren."
+>abstract="Met de E-mail Designer kunt u de lay-out van uw e-mail eenvoudig definiëren door de kolomstructuur te definiëren."
 
 Met de e-mail Designer kunt u eenvoudig de structuur van uw e-mail definiëren. Door structuurelementen toe te voegen en te bewegen met eenvoudige belemmering-en-dalingsacties, kunt u de vorm van uw e-mail binnen seconden ontwerpen.
 
@@ -86,7 +86,7 @@ Nadat de structuur is gedefinieerd, kunt u inhoudsfragmenten en -componenten aan
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
 >title="Een preheader gebruiken"
->abstract="Met de preheader kunt u een korte samenvattingstekst configureren die een hogere open snelheid voor uw e-mail biedt."
+>abstract="Met de preheader kunt u een korte samenvattingstekst configureren die een hoger openingspercentage voor uw e-mail oplevert."
 
 Een preheader is een korte samenvattingstekst die op de onderwerpregel volgt wanneer een e-mail van uw Postvak IN wordt weergegeven. De preheader biedt een hogere open snelheid.
 
@@ -100,12 +100,12 @@ U kunt een **[!UICONTROL Content block]** , een **[!UICONTROL Dynamic content]**
 >
 >De preheader is niet compatibel met alle e-mailprogramma&#39;s. Voorheader wordt niet weergegeven als dit niet wordt ondersteund.
 
-## Inhoudscomponenten gebruiken {#about-content-components}
+## Contentonderdelen gebruiken {#about-content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
->title="Informatie over inhoudscomponenten"
->abstract="Inhoudscomponenten zijn lege plaatsaanduidingen voor inhoud die u kunt bewerken om een e-mail te maken."
+>title="Informatie over contentonderdelen"
+>abstract="Contentonderdelen zijn lege tijdelijke aanduidingen voor inhoud die u kunt bewerken om een e-mail te maken."
 
 Inhoudscomponenten zijn onbewerkte, lege componenten die u kunt bewerken wanneer u ze eenmaal in een e-mail hebt geplaatst.
 
@@ -156,7 +156,7 @@ Als u inhoud hebt die niet opnieuw kan worden gemaakt, kunt u de HTML-code uit d
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="Video-instellingen"
->abstract="Gebruik deze component om een video in te voegen in uw e-mail. Video&#39;s werken niet voor alle e-mailclients. We raden u aan een fallback-afbeelding in te stellen."
+>abstract="Gebruik dit onderdeel om een video in uw e-mail in te voegen. Houd er rekening mee dat video&#39;s niet op alle e-mailclients werken. We raden u aan een reserveafbeelding in te stellen."
 
 Voeg de videocomponent in een structuurelement van uw e-mail in en voer de videokoppeling in de **[!UICONTROL Component Settings]** in.
 
@@ -174,12 +174,12 @@ Voeg de afbeeldingscomponent in een structuurcomponent in en klik op Bladeren om
 
 Gebruik deze component om koppelingen naar pagina&#39;s met sociale media in uw e-mail in te voegen. U kunt selecteren welke koppelingen u wilt weergeven en de grootte van het bijbehorende pictogram in **[!UICONTROL Component Settings]** .
 
-### Carousel {#carousel-settings}
+### Carrousel {#carousel-settings}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="Carrouselinstellingen"
->abstract="Leer hoe u een carrousel invoegt en configureert in uw inhoud.carrousel werkt niet op alle e-mailclients en er wordt een fallback-afbeelding weergegeven als dit niet wordt ondersteund."
+>abstract="Lees hoe u een carrousel invoegt en configureert in uw content. Houd er rekening mee dat de carrousel niet op alle e-mailclients werkt en dat er een reserveafbeelding wordt weergegeven als deze niet wordt ondersteund."
 
 1. Sleep de component **[!UICONTROL Carousel]** naar een structuurcomponent.
 1. Blader naar de gewenste afbeeldingen op uw computer.
