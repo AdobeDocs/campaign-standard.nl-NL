@@ -6,10 +6,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 52217326ec7f17ab7ce4d058d185b2680681a9c0
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 70%
+source-wordcount: '947'
+ht-degree: 65%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 70%
 
 >[!IMPORTANT]
 >
->De **[!UICONTROL Access to the deliverability parameters (Deliverability)]** en **[!UICONTROL Message Center agents (mcExec)]** veiligheidsgroepen zijn Adobe intern slechts en zouden niet aan enige gebruiker moeten worden toegewezen.
+>De beveiligingsgroepen **[!UICONTROL Access to the deliverability parameters (Deliverability)]** en **[!UICONTROL Message Center agents (mcExec)]** zijn alleen intern voor Adobe en mogen niet aan gebruikers worden toegewezen.
 
 Beveiligingsgroepen zijn groepen gebruikers die dezelfde rollen en rechten binnen uw organisatie delen.
 
-Gebruikers moeten altijd aan een beveiligingsgroep gekoppeld zijn. Op deze manier kunt u specifieke rollen en organisatorische eenheden toewijzen aan deze instellingen. Als u de toegang van een gebruiker wilt beperken, voegt u de gebruiker niet toe aan de campagne **[!UICONTROL Standard Users]** groep als deze is gekoppeld aan **[!UICONTROL All]** organisatie-eenheid.
+Gebruikers moeten altijd aan een beveiligingsgroep gekoppeld zijn. Op deze manier kunt u specifieke rollen en organisatorische eenheden toewijzen aan deze instellingen. Als u de toegang van een gebruiker wilt beperken, voegt u de gebruiker niet toe aan de groep Campagne **[!UICONTROL Standard Users]** omdat deze is gekoppeld aan de **[!UICONTROL All]** -organisatie.
 
-Voor meer informatie over rollen, presenteert de lijst in de volgende pagina mogelijke verrichtingen beschikbaar volgens de rol(s) van een gebruiker: [Adobe Campaign Standard-machtigingen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
+Voor meer informatie over rollen, stelt de lijst in de volgende pagina mogelijke verrichtingen beschikbaar volgens de rol(s) van een gebruiker voor: [ de toestemmingen van Adobe Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
 Standaardbeveiligingsgroepen zijn:
 
@@ -42,7 +42,7 @@ Deze ingebouwde beveiligingsgroepen zijn alleen-lezen en kunnen niet worden gewi
 >
 >In de Admin Console worden beveiligingsgroepen profielen genoemd.
 
-U kunt uw eigen beveiligingsgroepen maken als de standaardgroepen niet genoeg zijn om uw gebruikers te beheren. Zij kunnen door Beheerders worden geleid die toegang tot zowel de beleidsmenu&#39;s van Adobe Campaign als de Admin Console hebben. Voor meer informatie over de Admin Console raadpleegt u deze [documentatie](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+U kunt uw eigen beveiligingsgroepen maken als de standaardgroepen niet genoeg zijn om uw gebruikers te beheren. Ze kunnen worden beheerd door beheerders die toegang hebben tot de beheermenu&#39;s van Adobe Campaign en de Admin Console. Voor meer informatie over Admin Console, verwijs naar deze [ documentatie ](https://helpx.adobe.com/enterprise/managing/user-guide.html).
 
 Hier moeten we eerst de twee kant-en-klare groepen, Standaardgebruikers en Beheerders, aan onze gebruikers toewijzen. Deze beveiligingsgroepen beperken een aantal functies van Adobe Campaign: de standaardgebruiker heeft basistoegang tot Adobe Campaign terwijl de beheerder bijvoorbeeld toegang heeft tot de beheermenu’s.
 
@@ -54,7 +54,7 @@ Vervolgens gaan we een reeks beveiligingsgroepen maken, Geometrixx en Geometrixx
 
 U moet eerst een van de standaardbeveiligingsgroepen aan uw gebruikers toewijzen:
 
-1. Selecteer in de Admin Console eerst uw instantie en daarna de **Gebruikers** tab.
+1. In Admin Console, selecteer uw instantie toen de **Gebruikers** tabel.
 
    ![](assets/manage_security_group_2.png)
 
@@ -69,7 +69,7 @@ U moet eerst een van de standaardbeveiligingsgroepen aan uw gebruikers toewijzen
 
 Zodra uw twee gebruikers zijn gekoppeld aan de standaardbeveiligingsgroepen **[!UICONTROL Administrators]** en **[!UICONTROL Standard users]**, die rollen aan de gebruikers toewijzen, kan de gebruiker van het type Beheerder de twee beveiligingsgroepen **Geometrixx** en **Geometrixx Clothes** maken, waardoor naast de standaardbeveiligingsgroepen organisatie-eenheden aan de gebruikers worden toegewezen.
 
-1. Selecteer in de Admin Console eerst uw instantie en daarna de **Producten** tab.
+1. In Admin Console, selecteer uw instantie toen de **Producten** tabel.
 1. Klik op de knop **Nieuw profiel** om de beveiligingsgroep **Geometrixx** te maken.
 
    ![](assets/create_security_1.png)
@@ -105,7 +105,7 @@ Zodra uw twee gebruikers zijn gekoppeld aan de standaardbeveiligingsgroepen **[!
 
    * De rollen van de verschillende groepen worden gecumuleerd. Hier bevinden gebruikers zich in twee verschillende groepen: één die van invloed is op rollen en de andere die van invloed is op eenheden.
    * De eenheid die het hoogste is in de hiërarchie wordt gebruikt (zie het voorbeeld in de sectie [Organisatie-eenheden](../../administration/using/organizational-units.md)).
-   * De gebruiker kan geen verbinding meer maken als eenheden hetzelfde equivalente niveau hebben en zich in parallelle vertakkingen in de hiërarchie bevinden.
+   * Als de organisatorische eenheden die aan de gebruiker worden toegewezen in parallelle takken in de hiërarchie zijn, d.w.z., hebben zij geen gemeenschappelijke toegewezen oudereenheid, dan selecteert het systeem de organisatorische eenheid voor de gebruiker en de gebruiker zou toegang tot het systeem geselecteerde organisatorische eenheid en zijn kinderen hebben.
 
 1. Volg dezelfde procedures om de beveiligingsgroep Geometrixx Clothes aan uw standaardgebruiker toe te wijzen.
 
@@ -115,7 +115,7 @@ De nieuwe beveiligingsgroepen worden nu in de Admin Console gemaakt. Als u ze vo
 
 De gebruiker van het type Beheerder moet de reeks beveiligingsgroepen maken die worden gebruikt om organisatie-eenheden toe te wijzen: Geometrixx en Geometrixx Clothes. Zie [Eenheden maken en beheren](../../administration/using/organizational-units.md#creating-and-managing-units) voor informatie over het maken van organisatie-eenheden.
 
-1. Klik op de knop **Adobe** logo, in de linkerbovenhoek, en selecteer **[!UICONTROL Administration > Users & Security > Security groups]**.
+1. Klik het **Adobe** embleem, in de top-linkerhoek, dan selecteren **[!UICONTROL Administration > Users & Security > Security groups]**.
 1. Maak uw nieuwe beveiligingsgroep en geef het **[!UICONTROL Label]** en de **[!UICONTROL ID]** van de groep op.
 
    De id moet dezelfde zijn als de id die u in de Admin Console hebt gekozen.
