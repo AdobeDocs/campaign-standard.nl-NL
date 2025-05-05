@@ -24,4 +24,4 @@ ht-degree: 0%
 
 De **geoUnitBase** Met het eindpunt kunt u communiceren met geografische eenheden, zodat u bijvoorbeeld hun kenmerken kunt bijwerken of de eenheid van een profiel kunt bijwerken.
 
-De **Geografische eenheid** wordt toegevoegd aan een profiel wanneer u de profielbron uitbreidt. Vergeet daarom niet de opdracht **profileAndServicesExt** eindpunt voor interactie met geografische eenheden. Voor meer informatie over de het middeluitbreiding van het profiel, verwijs naar [Campagnedocumentatie](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).
+De **Geografische eenheid** wordt toegevoegd aan een profiel wanneer u de profielbron uitbreidt. Vergeet daarom niet de opdracht **profileAndServicesExt** eindpunt voor interactie met geografische eenheden. Voor meer informatie over de het middeluitbreiding van het profiel, verwijs naar [Campagnedocumentatie](https://helpx.adobe.com/nl/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).

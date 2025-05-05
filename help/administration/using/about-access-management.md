@@ -30,7 +30,7 @@ Rollen, groepen en organisatorische eenheden kunnen worden beheerd door de funct
 
 ![Menu Gebruikersbeheer](assets/user_management_1.png)
 
-De gebruikers worden geleid in de Admin Console. Meer informatie in het dialoogvenster [Groepen en gebruikers beheren](../../administration/using/managing-groups-and-users.md) en in de [Documentatie Admin Console](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+De gebruikers worden geleid in de Admin Console. Meer informatie in het dialoogvenster [Groepen en gebruikers beheren](../../administration/using/managing-groups-and-users.md) en in de [Documentatie Admin Console](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html).
 
 ![Productprofielen openen](assets/user_management_6.png)
 

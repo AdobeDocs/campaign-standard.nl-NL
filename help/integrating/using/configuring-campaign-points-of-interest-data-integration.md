@@ -34,7 +34,7 @@ Om Adobe Experience Platform Location Services met mobiele toepassingen te kunne
 1. Dan, in de Inzameling van Gegevens UI, moet u regels tot stand brengen om mobiele gebruiksgevallen tussen Punt van Belangen en Adobe Campaign te steunen.\
    Deze regel wordt geactiveerd wanneer een gebruiker een geo-fenced invoert **[!UICONTROL Point of Interest]**. Zie dit [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) om uw regel te maken.
 
-1. Definieer uw **[!UICONTROL Points of Interest]** op plaatsen. Zie [Een interessepunt maken](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html).
+1. Definieer uw **[!UICONTROL Points of Interest]** op plaatsen. Zie [Een interessepunt maken](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html?lang=nl-NL).
 
 1. Zorg ervoor dat u de mobiele toepassing en de verzamelde locatiegegevens in Adobe Campaign opent. Zie [Toegang verkrijgen tot mobiele apps die worden gebruikt om locatiegegevens te verzamelen](#accessing-mobile-apps-used-to-collect-location-data) en [Toegang verkrijgen tot verzamelde locatiegegevens](#accessing-collected-location-data).
 
@@ -162,7 +162,7 @@ U moet toegang hebben tot Adobe Analytics om de volgende configuratie te kunnen 
 
 >[!NOTE]
 >
->Voor gedetailleerde informatie bij het vormen van postbacks, verwijs naar [Documentatie over Adobe mobiele services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html).
+>Voor gedetailleerde informatie bij het vormen van postbacks, verwijs naar [Documentatie over Adobe mobiele services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html?lang=nl-NL).
 
 ### De SDK integreren in een mobiele toepassing {#integrating-the-sdk-into-a-mobile-application}
 
@@ -177,11 +177,11 @@ U definieert de interessepunten die worden gebruikt om locatiegegevens te verzam
 1. Ga naar de Adobe Mobile Services interface.
 1. Voeg uw toepassing toe.
 
-   Raadpleeg voor meer informatie over het beheer van toepassingen in Mobile Services de [Documentatie over Adobe mobiele services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html).
+   Raadpleeg voor meer informatie over het beheer van toepassingen in Mobile Services de [Documentatie over Adobe mobiele services](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html?lang=nl-NL).
 
 1. Definieer de interessepunten.
 
-   Raadpleeg voor meer informatie over het beheren van de belangengroepen de [Documentatie over Adobe mobiele services](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html).
+   Raadpleeg voor meer informatie over het beheren van de belangengroepen de [Documentatie over Adobe mobiele services](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html?lang=nl-NL).
 
 ### Gegevens over belangenpunten van abonnees verzamelen {#collecting-subscribers--points-of-interest-data}
 

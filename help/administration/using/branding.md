@@ -87,7 +87,7 @@ Een **merk** wordt gedefinieerd door de volgende kenmerken:
 
 U kunt nieuwe entiteiten van uw organisatie toevoegen in Campagne, of een nieuw type van e-mail tot stand brengen dat u onder een verschillend subdomain moet verzenden. Volg onderstaande stappen om dit te doen:
 
-1. **Een nieuw subdomein configureren** - Voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap het vormen zijn. U kunt dit via [Campagne](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl) of neem contact op met uw technische Adobe. Meer informatie over subdomeinconfiguratie [in dit artikel](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html).
+1. **Een nieuw subdomein configureren** - Voor om het even welk nieuw subdomain dat door Adobe moet worden gebruikt, zal de eerste stap het vormen zijn. U kunt dit via [Campagne](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=nl) of neem contact op met uw technische Adobe. Meer informatie over subdomeinconfiguratie [in dit artikel](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html?lang=nl-NL).
 
    >[!NOTE]
    >

@@ -76,4 +76,4 @@ Raadpleeg de documentatie bij Campagne voor meer informatie over de extensie van
 
 * [Concepten van gegevensmodellen](../../developing/using/data-model-concepts.md)
 * [De API uitbreiden](../../developing/using/about-extending-the-api.md)
-* [Koppelingen met andere bronnen definiëren](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
+* [Koppelingen met andere bronnen definiëren](https://helpx.adobe.com/nl/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)

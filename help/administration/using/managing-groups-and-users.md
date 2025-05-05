@@ -25,7 +25,7 @@ Beveiligingsgroepen zijn groepen gebruikers die dezelfde rollen en rechten binne
 
 Gebruikers moeten altijd aan een beveiligingsgroep gekoppeld zijn. Op deze manier kunt u specifieke rollen en organisatorische eenheden toewijzen aan deze instellingen. Als u de toegang van een gebruiker wilt beperken, voegt u de gebruiker niet toe aan de groep Campagne **[!UICONTROL Standard Users]** omdat deze is gekoppeld aan de **[!UICONTROL All]** -organisatie.
 
-Voor meer informatie over rollen, stelt de lijst in de volgende pagina mogelijke verrichtingen beschikbaar volgens de rol(s) van een gebruiker voor: [ de toestemmingen van Adobe Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
+Voor meer informatie over rollen, stelt de lijst in de volgende pagina mogelijke verrichtingen beschikbaar volgens de rol(s) van een gebruiker voor: [ de toestemmingen van Adobe Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=nl-NL).
 
 Standaardbeveiligingsgroepen zijn:
 
@@ -42,7 +42,7 @@ Deze ingebouwde beveiligingsgroepen zijn alleen-lezen en kunnen niet worden gewi
 >
 >In de Admin Console worden beveiligingsgroepen profielen genoemd.
 
-U kunt uw eigen beveiligingsgroepen maken als de standaardgroepen niet genoeg zijn om uw gebruikers te beheren. Ze kunnen worden beheerd door beheerders die toegang hebben tot de beheermenu&#39;s van Adobe Campaign en de Admin Console. Voor meer informatie over Admin Console, verwijs naar deze [ documentatie ](https://helpx.adobe.com/enterprise/managing/user-guide.html).
+U kunt uw eigen beveiligingsgroepen maken als de standaardgroepen niet genoeg zijn om uw gebruikers te beheren. Ze kunnen worden beheerd door beheerders die toegang hebben tot de beheermenu&#39;s van Adobe Campaign en de Admin Console. Voor meer informatie over Admin Console, verwijs naar deze [ documentatie ](https://helpx.adobe.com/nl/enterprise/managing/user-guide.html).
 
 Hier moeten we eerst de twee kant-en-klare groepen, Standaardgebruikers en Beheerders, aan onze gebruikers toewijzen. Deze beveiligingsgroepen beperken een aantal functies van Adobe Campaign: de standaardgebruiker heeft basistoegang tot Adobe Campaign terwijl de beheerder bijvoorbeeld toegang heeft tot de beheermenu’s.
 

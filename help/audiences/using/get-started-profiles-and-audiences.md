@@ -89,4 +89,4 @@ De privacy en de Toestemming in Campagne en hoe te om hen te beheren worden voor
 * [Werken met Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)
 * [Adobe gedeeld publiek](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [Workflows gebruiken om profielen te importeren](../../automating/using/creating-import-workflow-templates.md)
-* [Video&#39;s over profielen en soorten publiek](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [Video&#39;s over profielen en soorten publiek](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html?lang=nl-NL)

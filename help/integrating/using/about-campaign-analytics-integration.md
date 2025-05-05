@@ -32,6 +32,6 @@ Integratie tussen de kernservice van Adobe Analytics **Triggers** en Adobe Campa
 
 **Verwante onderwerpen:**
 
-* [Overzicht van Campaign Standard naar analytische integratie](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
-* [De integratie van het Campaign Standard configureren](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Overzicht van Campaign Standard naar analytische integratie](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html?lang=nl-NL)
+* [De integratie van het Campaign Standard configureren](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html?lang=nl-NL)
 * [Dimensies en metrische gegevens van Campaign in Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

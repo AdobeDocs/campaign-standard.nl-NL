@@ -31,7 +31,7 @@ Volg de onderstaande principes bij het ontwerpen van uw berichtinhoud:
 * [Koppeling met abonnement opheffen](#opt-out) en landingspagina: de koppeling om het abonnement op te zeggen is essentieel. Het formulier moet zichtbaar en geldig zijn en moet functioneel zijn.
 * Voorbeeld: gebruik de gereedschappen van Adobe Campaign om de inhoud van uw e-mail te controleren en te optimaliseren ([Anti-spamanalyse](#anti-spam-analysis), [E-mailrendering](#message-responsiveness)).
 
-Voor meer tips voor het optimaliseren van de leesbaarheid bij het ontwerpen van inhoud raadpleegt u de [Handleiding voor beste praktijken bij de levering van Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html).
+Voor meer tips voor het optimaliseren van de leesbaarheid bij het ontwerpen van inhoud raadpleegt u de [Handleiding voor beste praktijken bij de levering van Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=nl-NL).
 
 >[!NOTE]
 >

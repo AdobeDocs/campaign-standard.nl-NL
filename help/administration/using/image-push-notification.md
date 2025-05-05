@@ -52,7 +52,7 @@ Nadat u uw pushmelding in Adobe Campaign hebt aangepast, moet u uw mobiele toepa
 
 >[!NOTE]
 >
->Raadpleeg het volgende als uw toepassing zich in doelstelling C bevindt [documentatie](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html).
+>Raadpleeg het volgende als uw toepassing zich in doelstelling C bevindt [documentatie](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html?lang=nl-NL).
 
 Als uw app in [!DNL Swift]volgt u de onderstaande stappen:
 

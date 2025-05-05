@@ -167,4 +167,4 @@ Deze video biedt een overzicht van de e-mailontwerper.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-Ga als volgt te werk om aan de slag te gaan met de e-mailontwerper [set video&#39;s](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) die de algemene functionaliteit van de e-mailontwerper en het ontwerpen van een geheel nieuwe e-mail of het gebruik van sjablonen toelichten
+Ga als volgt te werk om aan de slag te gaan met de e-mailontwerper [set video&#39;s](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=nl-NL#GettingStarted) die de algemene functionaliteit van de e-mailontwerper en het ontwerpen van een geheel nieuwe e-mail of het gebruik van sjablonen toelichten

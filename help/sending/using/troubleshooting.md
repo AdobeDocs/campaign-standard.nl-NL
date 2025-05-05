@@ -36,7 +36,7 @@ Als het probleem zich blijft voordoen, neemt u contact op met de services voor c
 
 * **wat is het verschil tussen een e-mailadres op lijst van gewezen personen en een quarantined e-mailadres?**
 
-   * De status **[!UICONTROL On denylist]** is een resultaat van a [ terugkoppelt lijn ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops) (wanneer een persoon een bericht als spam meldt).
+   * De status **[!UICONTROL On denylist]** is een resultaat van a [ terugkoppelt lijn ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=nl-NL#feedback-loops) (wanneer een persoon een bericht als spam meldt).
 
    * De status **[!UICONTROL Quarantined]** is het resultaat van een zachte of harde stuit.
 

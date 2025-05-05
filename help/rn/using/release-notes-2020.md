@@ -36,7 +36,7 @@ ht-degree: 97%
 <tr> 
   <td> <p>U kunt nu <strong>Controlegroepen</strong> gebruiken om de invloed van uw campagnes te meten door een deel van hun doelgroep uit te sluiten. Vervolgens kunt u de gedragingen van de doelgroep die het bericht heeft ontvangen, vergelijken met de gedragingen van contactpersonen die niet zijn getarget. Op basis van de verzendlogboeken kunt u in toekomstige campagnes ook een controlegroep targeten.
 </p>
-<p>Raadpleeg de <a href="../../sending/using/control-group.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">instructievideo</a> voor meer informatie.
+<p>Raadpleeg de <a href="../../sending/using/control-group.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=nl-NL">instructievideo</a> voor meer informatie.
 </p>
 </td> 
 </tr> 
@@ -72,8 +72,8 @@ ht-degree: 97%
   <p>Journey AI maakt gebruik van Advanced Machine Learning (ML) om bedrijven in staat te stellen het ontwerp en de levering van klantreizen te optimaliseren door de voorkeur van elk individu voor de service te voorspellen.</p>
   <P>Journey AI bestaat uit twee ML-kenmerken:</p>
 <ul> 
-     <li> <strong>Voorspellende betrokkenheidsscores</strong> - Intelligente identificatie van het geprefereerde betrokkenheidsniveau van klanten om berichten beter te kunnen targeten en personaliseren voor meer conversies en retentie. Bekijk de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">instructievideo</a>.</li> 
-     <li> <strong>Voorspellende optimalisatie van verzendtijd</strong> - Voorspelt voor elk individu het beste tijdstip om in een campagne e-mails te verzenden voor maximale betrokkenheid en een beter rendement van de e-mailcampagne. Bekijk de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">instructievideo</a>.</li>
+     <li> <strong>Voorspellende betrokkenheidsscores</strong> - Intelligente identificatie van het geprefereerde betrokkenheidsniveau van klanten om berichten beter te kunnen targeten en personaliseren voor meer conversies en retentie. Bekijk de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html?lang=nl-NL">instructievideo</a>.</li> 
+     <li> <strong>Voorspellende optimalisatie van verzendtijd</strong> - Voorspelt voor elk individu het beste tijdstip om in een campagne e-mails te verzenden voor maximale betrokkenheid en een beter rendement van de e-mailcampagne. Bekijk de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html?lang=nl-NL">instructievideo</a>.</li>
     </ul>
   <p>Als u wilt weten hoe u aan de slag kunt met Journey AI, raadpleegt u de <a href="../../sending/using/predictive.md">gedetailleerde documentatie</a> en neemt u contact op met uw accountmanager. Hoewel Journey AI gratis beschikbaar is voor bestaande Campaign-klanten, zijn er implementatiekosten van ongeveer 50 uur.</p>
     </td> 
@@ -206,7 +206,7 @@ ht-degree: 97%
 <li>Recht op toegang en recht op verwijdering: we maken gebruik van de functies die voor de AVG (GDPR) en CCPA zijn toegevoegd. <a href="https://helpx.adobe.com/content/help/nl/campaign/kb/acs-privacy.html#righttoaccess">Meer informatie</a> </li>
 <li><p>Als u een verzoek om toegang tot persoonsgegevens wilt maken, is het PDPA-wetgevingstype toegevoegd in de Privacy-kernservice. Dit is de enige methode die u moet gebruiken voor alle verzoeken voor toegang en verwijderen. Het gebruik van de Campaign-API en -interface voor toegangs- en verwijderingsverzoeken is verouderd. Zie het artikel <a href="../../rn/using/deprecated-features.md">Vervangen en verwijderde functies</a>.</p></li>
 </ul>
-<p>Bekijk ook de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">Hoe kan ik-video</a>.</p>
+<p>Bekijk ook de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=nl-NL">Hoe kan ik-video</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -227,7 +227,7 @@ ht-degree: 97%
 <li>Een array-object van een JSON selecteren zonder de objectdata te benoemen, en zonder dat deze data op het hoogste niveau moeten staan.</li>
 </ul>
 <p><strong>Let op:</strong> Klanten moeten <strong>alle External API-activiteiten van de bètaversie in hun workflows vervangen door</strong> External API-activiteiten van de GA-versie. Workflows die de bètaversie van de External API gebruiken, werken niet meer in 20.3.</p>
-<p>Raadpleeg voor meer informatie de <a href="../../automating/using/external-api.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">Hoe kan ik-video</a>.</p>
+<p>Raadpleeg voor meer informatie de <a href="../../automating/using/external-api.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=nl-NL">Hoe kan ik-video</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -320,7 +320,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td> <p>Naast testprofielen kunt u nu uw e-mails testen op echte doelprofielen. Zo krijgt u een exacte weergave van het bericht dat het profiel ontvangt: aangepaste velden, dynamische en gepersonaliseerde informatie, inclusief aanvullende data van workflows, enz. </p>
-    <p>Raadpleeg de <a href="../../sending/using/testing-messages-using-target.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">videotutorial</a>voor meer informatie. </p>
+    <p>Raadpleeg de <a href="../../sending/using/testing-messages-using-target.md">gedetailleerde documentatie</a> en de <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html?lang=nl-NL">videotutorial</a>voor meer informatie. </p>
    </td> 
   </tr> 
  </tbody> 

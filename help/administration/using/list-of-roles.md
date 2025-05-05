@@ -37,7 +37,7 @@ Standaardrechten zijn:
 
 Raadpleeg voor meer informatie de tabel [Rollen en machtigingen](/help/administration/using/assets/acs_rights.pdf), waarin de functies worden beschreven die beschikbaar zijn in de interface, afhankelijk van de geselecteerde machtigingen.
 
-[![image](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+[![image](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=nl-NL)
 
 **Verwante onderwerpen:**
 

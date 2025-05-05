@@ -52,7 +52,7 @@ Om uw ontvangers&#39; te bereiken inbox zonder te stuiteren of als spam worden g
 
    * Wanneer u uw e-mail controleert op leverbaarheid, wilt u zich op vier hoofdcategorieën concentreren: gegevenskwaliteit, bericht en inhoud, verzendende infrastructuur, en reputatie. Voor een diepere bespreking van dit onderwerp, verwijs naar [deze sectie](../../sending/using/about-deliverability.md).
 
-* Pas bij het starten van een nieuw platform de aanbevelingen toe die nader worden beschreven op [deze pagina](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
+* Pas bij het starten van een nieuw platform de aanbevelingen toe die nader worden beschreven op [deze pagina](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=nl-NL#transition-process).
 
 * Neem contact op met uw Adobe voor hulp.
 

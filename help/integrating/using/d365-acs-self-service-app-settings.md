@@ -79,13 +79,13 @@ SFTP-beheer detecteren met [Campagne](https://experienceleague.adobe.com/docs/co
 
 * [SFTP-beheer](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=nl#sftp-management)
 
-* [SFTP-opslagbeheer](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
+* [SFTP-opslagbeheer](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=nl-NL#installing-ssh-key)
 
-* [IP-bereiken toevoegen](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html#sftp-management)
+* [IP-bereiken toevoegen](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=nl-NL#sftp-management)
 
-* [Sleutels beheren](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#sftp-management)
+* [Sleutels beheren](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=nl-NL#sftp-management)
 
-* [Aanmelden bij uw SFTP-server](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html#sftp-management)
+* [Aanmelden bij uw SFTP-server](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=nl-NL#sftp-management)
 
 Nadat de configuratie is voltooid, meldt u zich met de persoonlijke sleutel aan bij de SFTP-server en maakt u de map &quot;d365_loads/exporting&quot;.
 

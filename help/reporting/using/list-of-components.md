@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Raadpleeg voor meer informatie over compatibiliteit tussen dimensies en metriek de volgende [table](/help/reporting/using/assets/dynamic_report_compatibility.pdf). Als twee componenten niet compatibel zijn, geeft de cel de waarde weer **Geen**.
 
-[![image](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
+[![image](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=nl-NL)
 
 ## Dimensionen {#dimensions}
 

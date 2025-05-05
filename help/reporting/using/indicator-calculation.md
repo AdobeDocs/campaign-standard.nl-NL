@@ -188,7 +188,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   <tr> 
    <td> Unieke klikken<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. Raadpleeg voor meer informatie deze <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">voorbeeld</a>.<br /> </td> 
+   <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. Raadpleeg voor meer informatie deze <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=nl-NL#unique-open-clicks-no-match">voorbeeld</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -268,7 +268,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   <tr> 
    <td> Unieke openingen<br /> </td> 
    <td> @uniqueOpenen<br /> </td> 
-   <td> Unieke opent wordt berekend gebruikend de concepten van Schets van unieke RecipientIds. Raadpleeg voor meer informatie deze <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">voorbeeld</a>.<br /> </td> 
+   <td> Unieke opent wordt berekend gebruikend de concepten van Schets van unieke RecipientIds. Raadpleeg voor meer informatie deze <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=nl-NL#unique-open-clicks-no-match">voorbeeld</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Impressies<br /> </td> 
@@ -288,7 +288,7 @@ De onderstaande tabellen bevatten een lijst met indicatoren die in de verschille
   <tr> 
    <td> Unieke klikken<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. Raadpleeg voor meer informatie deze <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">voorbeeld</a>.<br /> </td> 
+   <td> De unieke kliks wordt berekend gebruikend de concepten van de Schets. Raadpleeg voor meer informatie deze <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=nl-NL#unique-open-clicks-no-match">voorbeeld</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Klikken tot snelheid<br /> </td> 

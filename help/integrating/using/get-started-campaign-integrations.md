@@ -27,7 +27,7 @@ Met de verschillende hieronder vermelde integraties kunt u de functies voor leve
 
 Afhankelijk van uw omgeving kunnen andere oplossingen ook aan Adobe Experience Cloud worden gekoppeld. Ze zijn gekoppeld als organisaties (ook wel tenants genoemd).
 
-Een organisatie is de entiteit waarmee een beheerder groepen en gebruikers kan configureren en eenmalig aanmelden in de Experience Cloud kan beheren. De organisatie functioneert als een aanmeldingsbedrijf dat alle producten en oplossingen van Experience Cloud omvat. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter vele organisaties hebben. Het gebruikers- en organisatiebeheer wordt gedetailleerd beschreven in de [Adobe Experience Cloud Help-portal](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html).
+Een organisatie is de entiteit waarmee een beheerder groepen en gebruikers kan configureren en eenmalig aanmelden in de Experience Cloud kan beheren. De organisatie functioneert als een aanmeldingsbedrijf dat alle producten en oplossingen van Experience Cloud omvat. Meestal is een organisatie uw bedrijfsnaam. Een bedrijf kan echter vele organisaties hebben. Het gebruikers- en organisatiebeheer wordt gedetailleerd beschreven in de [Adobe Experience Cloud Help-portal](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=nl-NL).
 
 Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, lees dan onze [API-documentatie](../../api/using/get-started-apis.md).
 
@@ -49,14 +49,14 @@ Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, le
    <td> Adobe Experience Manager<br /> </td> 
    <td> Hiermee kunt u rechtstreeks in Adobe Experience Manager e-mailcontent of formulieren maken die worden toegewezen aan de Adobe Campaign-database.<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Werken met campagne en Experience Manager</a>, <a href="https://helpx.adobe.com/nl/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience Manager en Campaign Standard integreren</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Een e-mail maken met Experience Manager en campagne</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Werken met campagne en Experience Manager</a>, <a href="https://helpx.adobe.com/nl/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience Manager en Campaign Standard integreren</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=nl-NL">Een e-mail maken met Experience Manager en campagne</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
    <td> Hiermee kunt u afbeeldingen invoegen die door Adobe Target dynamisch worden berekend wanneer een e-mailbericht wordt geopend dat door Adobe Campaign is gemaakt en verzonden.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Werken met campagne en doel</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">Campagne en doel integreren</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">E-mailafbeeldingen in realtime aanpassen</a> video (stap 3)
+    <a href="../../integrating/using/about-campaign-target-integration.md">Werken met campagne en doel</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=nl-NL">Campagne en doel integreren</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">E-mailafbeeldingen in realtime aanpassen</a> video (stap 3)
     </td> 
   </tr> 
   <tr> 
@@ -96,7 +96,7 @@ Als u gegevensstromen van andere systemen wilt integreren met Adobe Campaign, le
     <tr> 
    <td> Journey Orchestration Adobe<br /> </td> 
    <td> Hiermee kunt u e-mails, pushberichten en SMS verzenden via de mogelijkheden voor Transactioneel Overseinen van Adobe Campaign Standard in het kader van het Journey Orchestration van de Adobe, via een actie 'uit de doos'.<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">Werken met Adobe Journey Orchestration en Adobe Campaign Standard</a><br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=nl-NL">Werken met Adobe Journey Orchestration en Adobe Campaign Standard</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 

@@ -80,7 +80,7 @@ De stappen voor het maken van een zelfstandig in-app-bericht met Adobe Campaign 
 
    * **[!UICONTROL Life Cycle events]**: Kant-en-klare levenscyclusgebeurtenissen die worden ondersteund door Adobe Mobile SDK.
 
-     Raadpleeg deze [pagina](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html)voor meer informatie over levenscyclusgebeurtenissen.
+     Raadpleeg deze [pagina](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=nl-NL)voor meer informatie over levenscyclusgebeurtenissen.
 
    * **[!UICONTROL Analytics Events]**: De volgende drie categorieën worden ondersteund, afhankelijk van wat er is opgebouwd in uw mobiele app: Adobe Analytics, Context data of View state.
 
@@ -88,7 +88,7 @@ De stappen voor het maken van een zelfstandig in-app-bericht met Adobe Campaign 
 
    * **[!UICONTROL Places]**: De volgende drie categorieën maken gebruik van realtime locatiedata om contextueel relevante mobiele ervaringen te bieden: Places context data, Places custom metadata of Places event type.
 
-     Raadpleeg de [documentatie bij Places](https://experienceleague.adobe.com/docs/places/using/home.html) voor meer informatie over Adobe Places.
+     Raadpleeg de [documentatie bij Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=nl-NL) voor meer informatie over Adobe Places.
 
    ![](assets/inapp_creating_4.png)
 

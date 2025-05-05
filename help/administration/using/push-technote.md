@@ -55,7 +55,7 @@ De overgang naar de nieuwste API&#39;s is verplicht om elke onderbreking van de 
 
 * Als u deze oudere versie van de SDK nog steeds gebruikt, moet u uw implementatie bijwerken met de Adobe Experience Platform SDK. Meer informatie over het migreren naar Adobe Experience Plaform SDK in [dit artikel](sdkv4-migration.md).
 
-* Zorg ervoor dat u de **Mobiele toepassingsconfiguratie** toestemming in Adobe Experience Platform Data Collection Mobile alvorens de hieronder stappen uit te voeren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* Zorg ervoor dat u de **Mobiele toepassingsconfiguratie** toestemming in Adobe Experience Platform Data Collection Mobile alvorens de hieronder stappen uit te voeren. [Meer informatie](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=nl-NL#adobe-experience-platform-data-collection-permissions){target="_blank"}.
 
 
 #### Overgangprocedure {#fcm-transition-steps}

@@ -33,7 +33,7 @@ XDM Workspace biedt de mogelijkheid om gegevensschema&#39;s weer te geven, te ma
 
 Open Adobe Experience Platform om de XDM-gebruikersinterface te openen. Navigeer naar het venster Gegevensmodel om een XDM-schema te maken of uit te breiden.
 
-Raadpleeg de volledige [XDM Workspace-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Raadpleeg de volledige [XDM Workspace-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=nl-NL).
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -48,4 +48,4 @@ U kunt de volgende handelingen uitvoeren via de XDM Schema-API:
 * Schema-beschrijvingen weergeven
 * Schema-descriptors maken, bijwerken en verwijderen
 
-Alle details om API vraag te manipuleren zijn beschikbaar in [Handleiding voor ontwikkelaars](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+Alle details om API vraag te manipuleren zijn beschikbaar in [Handleiding voor ontwikkelaars](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=nl-NL).

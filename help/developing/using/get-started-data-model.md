@@ -63,5 +63,5 @@ Met Campaign Standard APIs, creeer integraties voor Adobe Campaign Standard en b
 
 ## Verdere bronnen
 
-* [Aangepaste bronnen exporteren/importeren](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
+* [Aangepaste bronnen exporteren/importeren](https://helpx.adobe.com/nl/campaign/kb/acs-get-started-with-cusres.html)
 * [Gegevens exporteren van Campaign naar Adobe Experience Platform](../../integrating/using/export-campaign-data.md)

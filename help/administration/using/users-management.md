@@ -19,7 +19,7 @@ ht-degree: 81%
 
 Met Adobe Campaign kunt u een set rollen toewijzen aan uw gebruikers om te bepalen tot welk deel van de interface ze toegang hebben.
 
-De specifieke rollen en de bijbehorende machtigingen worden in de volgende secties nader beschreven: [inzicht in rollen](../../administration/using/list-of-roles.md) en [machtigingen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
+De specifieke rollen en de bijbehorende machtigingen worden in de volgende secties nader beschreven: [inzicht in rollen](../../administration/using/list-of-roles.md) en [machtigingen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=nl-NL).
 
 Beheerders kunnen gebruikers beheren vanuit de Admin Console. Gebruikers worden dan automatisch gesynchroniseerd met Adobe Campaign. Raadpleeg voor meer informatie de [Admin Console](https://helpx.adobe.com/nl/enterprise/using/users.html) documentatie.
 
@@ -33,9 +33,9 @@ Klik op **[!UICONTROL User administration]** voor toegang tot de gebruikersbehee
 
 **Verwante onderwerpen:**
 
-* [Gebruikersmachtigingen beheren](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html) (video)
+* [Gebruikersmachtigingen beheren](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=nl-NL) (video)
 * [Lijst met rollen](../../administration/using/list-of-roles.md)
-* [Lijst met machtigingen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+* [Lijst met machtigingen](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=nl-NL)
 
 ## Type gebruikers {#type-of-users}
 

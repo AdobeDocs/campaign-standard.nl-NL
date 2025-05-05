@@ -201,8 +201,8 @@ Als u een aangepast filter wilt gebruiken, moet u het maken en aanpassen in de A
 
 Raadpleeg de documentatie bij het Campaign Standard voor meer informatie hierover:
 
-* [Filterdefinitie configureren](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Hoofdlettergebruik: een bron aanroepen met een samengestelde id-sleutel](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
+* [Filterdefinitie configureren](https://helpx.adobe.com/nl/campaign/standard/developing/using/configuring-filter-definition.html).
+* [Hoofdlettergebruik: een bron aanroepen met een samengestelde id-sleutel](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=nl-NL).
 
 <br/>
 

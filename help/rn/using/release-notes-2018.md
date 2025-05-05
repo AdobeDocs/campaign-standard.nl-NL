@@ -117,7 +117,7 @@ ht-degree: 3%
 
 **Verbeteringen**
 
-* Dankzij de integratie met Adobe Campaign en Adobe Target kunt u nu gebruikmaken van de [Machtigingen](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html) gebruiken. Wanneer u een dynamische afbeelding van Adobe Target in een e-mail opneemt, kunt u nu een eigenschap Doel opgeven (at_property-code).
+* Dankzij de integratie met Adobe Campaign en Adobe Target kunt u nu gebruikmaken van de [Machtigingen](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=nl-NL) gebruiken. Wanneer u een dynamische afbeelding van Adobe Target in een e-mail opneemt, kunt u nu een eigenschap Doel opgeven (at_property-code).
 * Aangepaste bronnen met een eigen koppeling naar de profielbron worden nu in aanmerking genomen door verzoeken om toegang tot of verwijdering van GDPR-privacy. Voor 1 kardinaliteit eenvoudige verbindingen en de verbindingen van de kardinaliteitsinzameling van N, moet u &quot;het Schrappen/het Dupliceren van het doelverslag impliceren schrappend/het dupliceren van de verslagen van verwijzingen voorzien door de verbinding&quot;in het douanemiddel selecteren. Voor eenvoudige 0- of 1-cardinaliteit-koppelingen selecteert u &quot;Verwijderen/dupliceren van de record houdt in dat de doelrecord waarnaar door de koppeling wordt verwezen, wordt verwijderd/gedupliceerd&quot;.
 
 **Andere wijzigingen**
@@ -195,7 +195,7 @@ ht-degree: 3%
  <tbody> 
   <tr> 
    <td> GDPR: Core Service Integration<br /> </td> 
-   <td> De Integratie van de Dienst van de Kern van de privacy staat u toe om uw verzoeken GDPR in een multi-oplossingscontext door één enkele vraag van JSON API te automatiseren. <br /> GDPR-verzoeken die van de Privacy Core Service naar alle oplossingen voor Experiencen Cloud worden geduwd, worden nu automatisch door de Campagne afgehandeld. <br /> Raadpleeg voor meer informatie de <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">gedetailleerde documentatie</a>.<br /> </td> 
+   <td> De Integratie van de Dienst van de Kern van de privacy staat u toe om uw verzoeken GDPR in een multi-oplossingscontext door één enkele vraag van JSON API te automatiseren. <br /> GDPR-verzoeken die van de Privacy Core Service naar alle oplossingen voor Experiencen Cloud worden geduwd, worden nu automatisch door de Campagne afgehandeld. <br /> Raadpleeg voor meer informatie de <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=nl-NL">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Push-verbeteringen - gedetailleerde feedback voor levering<br /> </td> 
@@ -297,7 +297,7 @@ _Aangepaste resources_
     <ul> 
      <li> Recht op toegang: staat de betrokkene toe een kopie te ontvangen van zijn persoonsgegevens die door gegevensverwerkingsverantwoordelijken zijn vastgelegd, met inbegrip van gegevens die in Adobe Campaign zijn opgeslagen. </li> 
      <li> Recht op verwijderen: geeft de betrokkene het recht om zijn persoonsgegevens die door de gegevensverwerkingsverantwoordelijken zijn vastgelegd, te laten wissen, mogelijk met inbegrip van gegevens die in Adobe Campaign zijn opgeslagen. </li> 
-    </ul> Raadpleeg voor meer informatie de <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">gedetailleerde documentatie</a>.<br /> </td> 
+    </ul> Raadpleeg voor meer informatie de <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=nl-NL">gedetailleerde documentatie</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Creative Designer voor e-mail (bèta)<br /> </td> 
@@ -461,7 +461,7 @@ Sommige problemen kunnen zich voordoen bij het gebruik van contextafhankelijke H
      <li> afbeeldingen of andere mediabestanden downloaden en toevoegen als bijlagen aan een melding </li> 
      <li> de tekst van de hoofdtekst of titel van een kennisgeving wijzigen </li> 
      <li> voeg een draadherkenningsteken aan een bericht toe </li> 
-    </ul> Raadpleeg voor meer informatie over Beschikbare inhoud en Mabelinhoud de <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">gedetailleerde documentatie</a>.<br /> <strong>Waarschuwing:</strong> deze updates van pushberichten vereisen dat klanten hun mobiele toepassingen upgraden . Zie <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">dit technote</a> voor meer informatie .<br /> </td> 
+    </ul> Raadpleeg voor meer informatie over Beschikbare inhoud en Mabelinhoud de <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">gedetailleerde documentatie</a>.<br /> <strong>Waarschuwing:</strong> deze updates van pushberichten vereisen dat klanten hun mobiele toepassingen upgraden . Zie <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=nl-NL">dit technote</a> voor meer informatie .<br /> </td> 
   </tr> 
   <tr> 
    <td> Geoptimaliseerde leveringen in tijdzone<br /> </td> 

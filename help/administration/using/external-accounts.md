@@ -81,7 +81,7 @@ Om dergelijke problemen te voorkomen, wordt u aangeraden de onderstaande best pr
 
 Ook, merk op dat openbare IPs waarvan u probeert om de verbinding in werking te stellen SFTP aan de lijst van gewenste personen op de instantie van de Campagne moet worden toegevoegd. Het toevoegen van IP adressen aan de lijst van gewenste personen kan via worden gevraagd [ondersteuningsticket](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html), samen met het verstrekken van de openbare sleutel voor authentificatie te gebruiken.
 
-SFTP-servers kunnen worden beheerd via het Configuratiescherm. Zie de [Configuratiescherm-documentatie](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html) voor meer informatie.
+SFTP-servers kunnen worden beheerd via het Configuratiescherm. Zie de [Configuratiescherm-documentatie](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=nl-NL) voor meer informatie.
 
 >[!NOTE]
 >

@@ -23,7 +23,7 @@ Profielen maken wordt uitgevoerd met een **POST** verzoek om de profielbron.
 >
 >Als u een <b>orgUnit</b> naar het gemaakte profiel, moet u de profielbron met dit gebied uitbreiden en, na de publicatie van de uitbreiding, een verzoek van de POST op uitvoeren <b>ProfileAndServicesExt</b> eindpunt.
 >
->Voor meer informatie over de het middeluitbreiding van het profiel, verwijs naar <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campagnedocumentatie</a>.
+>Voor meer informatie over de het middeluitbreiding van het profiel, verwijs naar <a href="https://helpx.adobe.com/nl/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campagnedocumentatie</a>.
 
 <br/>
 

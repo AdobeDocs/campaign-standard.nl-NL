@@ -80,7 +80,7 @@ Voordat u pushmeldingen verzendt, moet u het volgende doen:
 
 Ontdek de onderstaande bronnen:
 
-* [Video-Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [Video-Tutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html?lang=nl-NL)
 * [Productdocumentatie](../../channels/using/about-push-notifications.md)
 * Configureren met AEP SDK [documentatie](../../administration/using/configuring-a-mobile-application.md)
 * [Community-pagina](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)

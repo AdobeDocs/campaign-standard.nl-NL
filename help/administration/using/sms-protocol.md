@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->De **Protocol en instellingen voor SMS-aansluiting** voor Adobe Campaign Classic kunt u vinden in deze [page](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html).
+>De **Protocol en instellingen voor SMS-aansluiting** voor Adobe Campaign Classic kunt u vinden in deze [page](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=nl-NL).
 >
 >In dit document verwijzen alle verwijzingen naar details over het protocol, veldnamen en waarden naar de [SMPP 3.4-specificatie](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 

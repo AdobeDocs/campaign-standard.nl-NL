@@ -26,7 +26,7 @@ Wanneer u de inhoud van een transactie-e-mail bewerkt, kunt u productlijsten mak
 
 Volg de onderstaande stappen om een lijst met achtergelaten producten toe te voegen aan een transactiebericht.
 
-U kunt ook [deze set video&#39;s](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails) het uitleggen van de stappen die vereist zijn om productlijsten in een transactie-e-mail te vormen.
+U kunt ook [deze set video&#39;s](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=nl-NL#configure-product-listings-in-transactional-emails) het uitleggen van de stappen die vereist zijn om productlijsten in een transactie-e-mail te vormen.
 
 >[!NOTE]
 >

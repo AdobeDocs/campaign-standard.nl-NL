@@ -38,14 +38,14 @@ In de volgende secties worden de belangrijkste stappen beschreven voor het uitvo
 >
 >Dit kan worden uitgevoerd via de API&#39;s of de Adobe Experience Platform-interface. Raadpleeg de desbetreffende documentatie voor meer informatie:
 >
->* [Een gegevensset inschakelen voor realtime klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
->* [Een gegevensset configureren voor realtime profiel en identiteitsservice van klanten met behulp van API&#39;s](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
+>* [Een gegevensset inschakelen voor realtime klantprofiel](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html?lang=nl-NL)
+>* [Een gegevensset configureren voor realtime profiel en identiteitsservice van klanten met behulp van API&#39;s](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html?lang=nl-NL)
 
 ## Belangrijkste concepten {#key-concepts}
 
 * Uit de functie voor het toewijzen van vakken is alleen beschikbaar voor velden die standaard in het Campaign Standard worden opgegeven. Voor het opnemen van alle douanegebieden en middelen, moet elke klant hun eigen afbeelding bepalen.
 
-* Adobe Experience Platform Data Connector zorgt ervoor dat profielgegevens regelmatig via het platform worden doorgegeven. &#x200B; De intervalduur is 15 minuten. Deze waarde kan met [Adobe Experience Platform API&#39;s](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html).
+* Adobe Experience Platform Data Connector zorgt ervoor dat profielgegevens regelmatig via het platform worden doorgegeven. &#x200B; De intervalduur is 15 minuten. Deze waarde kan met [Adobe Experience Platform API&#39;s](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=nl-NL).
 
 * Gegevenstechnicus kan de toewijzing publiceren, wijzigen en pauzeren van Campagne naar Adobe Experience Platform.
 
@@ -59,7 +59,7 @@ In de volgende secties worden de belangrijkste stappen beschreven voor het uitvo
 
 * De Dienst van identiteitskaart van het Experience Cloud (ECID) is een apparatenherkenningsteken dat door gebrek met de Gebeurtenissen van de Ervaring wordt verzonden.
 
-  Het is een unieke en permanente id die aan een bezoeker is toegewezen en die door de Platform Identity Service kan worden gebruikt om dezelfde bezoeker en zijn gegevens in verschillende oplossingen voor Experiencen Cloud te identificeren. Raadpleeg voor meer informatie de [Help bij Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html).
+  Het is een unieke en permanente id die aan een bezoeker is toegewezen en die door de Platform Identity Service kan worden gebruikt om dezelfde bezoeker en zijn gegevens in verschillende oplossingen voor Experiencen Cloud te identificeren. Raadpleeg voor meer informatie de [Help bij Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=nl-NL).
 
   >[!NOTE]
   >
@@ -69,7 +69,7 @@ In de volgende secties worden de belangrijkste stappen beschreven voor het uitvo
 
 * De out-of-box overdracht van abonnementsgebeurtenissen wordt niet ondersteund. Om abonnementsgebeurtenissen over te brengen, kunt u overeenkomstige XDM en dataset op Adobe Experience Platform tot stand brengen, dan een afbeelding van douanegegevens voor deze gegevens vormen.
 
-* Met betrekking tot privacyverzoeken (zowel Access- als Delete-handelingen) moeten klanten afzonderlijke verzoeken indienen via de [Privacy Core-service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests): een voor Campagne en een voor Adobe Experience Platform. Zie voor meer informatie [Over privacyverzoeken](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=nl#getting-started) en [Privacyverzoeken beheren](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) in Campaign.
+* Met betrekking tot privacyverzoeken (zowel Access- als Delete-handelingen) moeten klanten afzonderlijke verzoeken indienen via de [Privacy Core-service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl-NL#how-to-use-privacy-service-to-manage-privacy-job-requests): een voor Campagne en een voor Adobe Experience Platform. Zie voor meer informatie [Over privacyverzoeken](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=nl#getting-started) en [Privacyverzoeken beheren](https://helpx.adobe.com/nl/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) in Campaign.
 
 * Voor elk XDM gebied, moet het DULE etiketteren in Adobe Experience Platform worden gedaan. Dit is de verantwoordelijkheid van de klant om DULE-labels toe te passen.
 
@@ -83,4 +83,4 @@ Deze video biedt een overzicht over de Adobe Experience Platform Data Connector.
 
 >[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
-Er zijn aanvullende video&#39;s beschikbaar over de Adobe Experience Platform Data Connector [hier](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html).
+Er zijn aanvullende video&#39;s beschikbaar over de Adobe Experience Platform Data Connector [hier](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=nl-NL).

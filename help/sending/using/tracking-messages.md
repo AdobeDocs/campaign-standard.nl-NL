@@ -28,7 +28,7 @@ Trackinggegevens zijn beschikbaar voor elke contactpersoon van uw database naar 
 Adobe Campaign gebruikt twee soorten cookies:
 
 * Een sessiecookie (ongeldig). Dit bevat het herkenningsteken van e-mail die naar het contact (broadlogId) wordt verzonden en herkenningsteken van het berichtmalplaatje (deliveryId). Deze wordt toegevoegd wanneer de contactpersoon op een URL klikt die is opgenomen in een e-mail die door Adobe Campaign wordt verzonden. Hiermee kunt u het gedrag van de contactpersoon op het web volgen. Deze sessiecookie wordt automatisch gewist wanneer de browser wordt gesloten. De contactpersoon kan zijn browser configureren om cookies te weigeren.
-* Een cookie die wordt gedeeld tussen Adobe Experience Cloud-oplossingen. Hierdoor kunt u de gebruikers identificeren die met de oplossingen van het Experience Cloud communiceren wanneer zij een website bezoeken. De beschrijving van deze cookie is beschikbaar [hier](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html).
+* Een cookie die wordt gedeeld tussen Adobe Experience Cloud-oplossingen. Hierdoor kunt u de gebruikers identificeren die met de oplossingen van het Experience Cloud communiceren wanneer zij een website bezoeken. De beschrijving van deze cookie is beschikbaar [hier](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=nl-NL).
 
 Als u opvolgt met de Adobe Campaign Standard, hebt u toegang tot de volgende functies:
 
