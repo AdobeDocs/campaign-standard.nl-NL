@@ -35,6 +35,7 @@ De migratie naar de referentie van OAuth Server-aan-Server is een eenvoudig proc
 4. De nieuwe referentie **OAuth Server-to-Server** wordt toegevoegd aan de linkernavigatie.
    * Klik op Migratie annuleren als u de migratie wilt annuleren.
    * Klik pas op de knop Reviseren en verwijderen als u controleert of de nieuwe referentie-OAuth Server-to-Server werkt.
+
      ![](assets/JwtToOAuthMigration3.png)
 
 5. Referenties in Microsoft Dynamics 365 bijwerken naar de Adobe Campaign Standard-app
@@ -43,6 +44,7 @@ De migratie naar de referentie van OAuth Server-aan-Server is een eenvoudig proc
    * Aangezien de nieuwe referentie van OAuth Server-aan-Server de zelfde geloofsbrieven gebruikt zoals de oude referentie van de Rekening van de Dienst (JWT), zullen de meeste gebieden reeds worden ingevuld.
    * Voer de client-id en het clientgeheim in. Deze vindt u in het project in Adobe Developer Console.
    * Klik op Opslaan om de instellingen op te slaan.
+
      ![](assets/JwtToOAuthMigration4.png)
 
 6. Controleren of de nieuwe gegevens werken
@@ -56,8 +58,11 @@ De migratie naar de referentie van OAuth Server-aan-Server is een eenvoudig proc
    * Klik op de projecten en selecteer het project dat u hebt gemigreerd.
    * Klik op het tabblad Service Account (JWT) voor referentie aan de linkerkant van de navigatie.
    * Klik op de knop Revisie en Verwijderen.
+
      ![](assets/JwtToOAuthMigration5.png)
    * Controleer de tijdstempel van de laatste toegang of het laatst gebruikte menu om te controleren of de integratie-app toegangstokens genereert met de nieuwe OAuth-referentie of nog steeds de oude JWT-referentie gebruikt.
+
      ![](assets/JwtToOAuthMigration6.png)
    * Wanneer is geverifieerd dat de integratie-app de nieuwe OAuth-referentie gebruikt en de JWT-referentie niet meer gebruikt, kunt u doorgaan met het verwijderen van de oude referentie door op de knop **Bevestigen en doorgaan** om de migratie te voltooien.
+
      ![](assets/JwtToOAuthMigration7.png)

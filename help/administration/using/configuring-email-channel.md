@@ -312,7 +312,7 @@ De sectie **[!UICONTROL Access authorization]** bevat de volgende parameters:
   >
   >U kunt organisatorische eenheden configureren via het menu **Administration** > **Users &amp; Security**.
 
-* De velden **[!UICONTROL Created by]**, **[!UICONTROL Created]****[!UICONTROL Modified by]** en **[!UICONTROL Last modified]** worden automatisch ingevuld.
+* De velden **[!UICONTROL Created by]**, **[!UICONTROL Created]**&#x200B;**[!UICONTROL Modified by]** en **[!UICONTROL Last modified]** worden automatisch ingevuld.
 
 ## Oudere instellingen {#legacy-settings}
 

@@ -149,7 +149,7 @@ Uw mobiele toepassing kan nu worden gebruikt in Campagne voor pushberichten of i
 
 1. In de **[!UICONTROL Device-specific settings]** van een mobiel toepassingsdashboard, voor elk apparaat, de toepassingsdetails verstrekken.
 
-   * +++ Voor iOS
+   +++*  Voor iOS
 
      Voer de volgende toepassingsgegevens in:
 
@@ -159,9 +159,9 @@ Uw mobiele toepassing kan nu worden gebruikt in Campagne voor pushberichten of i
       * **iOS Team ID**: Zie [Apple-documentatie](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} voor meer informatie over iOS Team ID.
 
         ![](assets/mobile_app_ios_config.png)
-+++
+   +++
 
-   * +++ Voor Android
+   +++*  Voor Android
 
      Voer de volgende toepassingsgegevens in:
 
@@ -169,7 +169,7 @@ Uw mobiele toepassing kan nu worden gebruikt in Campagne voor pushberichten of i
       * **JSON-bestand (Android Key)**: Sleep het bestand met de persoonlijke sleutel .json en zet het neer. Voor instructies over het genereren van het .json-bestand met de persoonlijke sleutel raadpleegt u de [Documentatie voor ontwikkelaars voor Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
         ![](assets/mobile_app_android_config.png)
-+++
+   +++
 
 1. Nadat het certificaat is geüpload, verschijnt er een bericht met de melding dat het uploaden is voltooid en wordt de vervaldatum van het certificaat weergegeven.
 

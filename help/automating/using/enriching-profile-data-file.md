@@ -24,7 +24,7 @@ De workflow is als volgt geconfigureerd:
 
 ![](assets/enrichment_example_workflow.png)
 
-* A ](../../automating/using/query.md) activiteit van de Vraag 0} die de profielen richt die het bericht zullen ontvangen.[
+* A [&#128279;](../../automating/using/query.md) activiteit van de Vraag 0&rbrace; die de profielen richt die het bericht zullen ontvangen.
 * A [ het dossier van de Lading ](../../automating/using/load-file.md) activiteit die de aankoopgegevens laadt. Bijvoorbeeld:
 
   ```

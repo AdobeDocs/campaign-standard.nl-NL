@@ -29,14 +29,14 @@ Raadpleeg de volgende veelgestelde vragen voor meer informatie over Push of In-A
 
 Raadpleeg de onderstaande bronnen voor meer informatie over de Adobe Experience Platform SDK en de integratie van Campaigns Standard:
 
-* De Video van het Overzicht van de lancering/Mobiele [ ](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video) {target="_blank"}
+* De Video van het Overzicht van de lancering/Mobiele [&#128279;](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video){target="_blank"} 
 * De Gids van het Lanceren/Mobiele [ Uiteinden &amp; van Draaien ](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Is de integratie van Adobe Experience Platform SDK beschikbaar voor zowel Adobe Campaign Standard als Adobe Campaign Classic? {#aep-validity}
 
 Ja, [!DNL Adobe Experience Platform SDK] integratie is beschikbaar voor zowel Adobe Campaign Standard als Adobe Campaign Classic. U moet de bijbehorende **[!UICONTROL Extension]** via [!DNL Data Collection UI] installeren om de integratie in te schakelen.
 
-Voor meer op dit, verwijs naar deze [ pagina ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard) {target="_blank"}.
+Voor meer op dit, verwijs naar deze [ pagina ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard){target="_blank"} .
 
 ## Welke mogelijkheden biedt Adobe Experience Platform SDK-integratie in Adobe Campaign? {#aep-capabilities}
 
@@ -70,7 +70,7 @@ Hiervoor voert u de volgende stappen uit:
    * Registreer in de mobiele toepassing de extensies **[!UICONTROL Campaign]** , **[!UICONTROL UserProfile]** , **[!UICONTROL Identity]** , **[!UICONTROL Lifecycle]** en **[!UICONTROL Signal]** . Volg de richtingen [ hier ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#register-the-campaign-standard-extension-with-mobile-core).
    * Start ACPCore wanneer extensies zijn geregistreerd. Voor Android moet u setApplication onCreate() gebruiken. Volg de exacte instructies in de instructies bij Mobiele installatie voor uw mobiele eigenschap in Launch.
    * De volgende SDK API&#39;s zijn ook vereist. Voer het Begin van de Levenscyclus en Pauze APIs uit zoals [ hier ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android) voor Android en hier voor iOS wordt beschreven.
-1. Configureer een **[!UICONTROL Mobile Property]** in Adobe Campaign Standard. Volg hier de procedure [ ](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+1. Configureer een **[!UICONTROL Mobile Property]** in Adobe Campaign Standard. Volg hier de procedure [&#128279;](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## Wat moet ik doen om een mobiel profiel in Campagne te verrijken? {#enrich-mobile-profile}
 
@@ -99,7 +99,7 @@ Ontdek de onderstaande bronnen:
 * Experience Platform SDK [ documentatie ](https://developer.adobe.com/client-sdks/documentation/)
 * Begonnen het worden met Lancering &amp; Experience Platform SDK [ documentatie ](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
 * Bevorderend aan Experience Platform SDK [ documentatie ](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/)
-* De documentatie van SDK van het Experience Platform van Github [ ](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
+* De documentatie van SDK van het Experience Platform van Github [&#128279;](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## Ik krijg fout &quot;u hebt geen schrijftoegang bij levering&quot;terwijl het creëren van een levering van het dupbericht. {#write-access-error}
 

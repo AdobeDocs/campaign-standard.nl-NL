@@ -90,7 +90,7 @@ Om de duur van een levering te wijzigen, gaat u naar de geavanceerde parameters 
 
 >[!IMPORTANT]
 >
->**De parameter **[!UICONTROL Delivery duration]**in uw Campaign-leveringen wordt nu alleen gebruikt als deze is ingesteld op 3,5 dagen of minder.** Als u een waarde definieert die hoger is dan 3,5 dagen, wordt hiermee geen rekening gehouden.
+>**De parameter &#x200B;** [!UICONTROL Delivery duration]&#x200B;**in uw Campaign-leveringen wordt nu alleen gebruikt als deze is ingesteld op 3,5 dagen of minder.** Als u een waarde definieert die hoger is dan 3,5 dagen, wordt hiermee geen rekening gehouden.
 
 Bijvoorbeeld, als u opnieuw voor een levering wilt stoppen na één dag, kunt u de leveringsduur aan **1d** plaatsen, en de berichten in de hertry rij zullen na één dag worden verwijderd.
 

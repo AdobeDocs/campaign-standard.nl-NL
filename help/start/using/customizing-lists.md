@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Lijsten aanpassen{#customizing-lists}
 
-{de schermen van de Lijst **staan u toe om elementen van één of verscheidene bepaalde middelen te tonen.**
+&lbrace;de schermen van de Lijst **staan u toe om elementen van één of verscheidene bepaalde middelen te tonen.**
 
 Adobe Campaign heeft twee typen lijsten:
 
@@ -34,7 +34,7 @@ Wanneer het bedekken over een element in de lijst, **snelle acties**. Met deze h
 
 U kunt ook configureren of kolommen in een lijst al dan niet moeten worden weergegeven. Kolommen toevoegen of verwijderen:
 
-1. Zorg ervoor dat het scherm op **** wijze van de Lijst is.
+1. Zorg ervoor dat het scherm op **&#x200B;**&#x200B;wijze van de Lijst is.
 
    ![](assets/export_list_mode_switch.png)
 
