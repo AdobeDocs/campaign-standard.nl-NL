@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 48cb3341c9f987bd275414c91dc8141f4fae719d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -32,12 +32,12 @@ This section lists improvements and changes included in the next Campaign Standa
 ### Beveiligingsoplossingen {#25.1.2-security}
 
 * Deze release biedt beveiligingsoplossingen.
-* Deze release wordt geleverd met de volgende beveiligingsupgrade: Apache Tomcat is bijgewerkt naar versie 10.1.36.
+* Deze release wordt geleverd met de volgende beveiligingsupgrade: Apache Tomcat is geüpgraded naar v10.1.36.
 
 ### Andere oplossingen {#25.1.2-fixes}
 
-* Probleem verholpen waarbij gebruikers zich mogelijk niet konden aanmelden via IMS. (CAMP-57337)
-* Het mechanisme voor het genereren van automatische sequentie-id is verbeterd en de betrouwbaarheid van het systeem is verbeterd. (CAMP-57281)
+* Er is een probleem met het parseren van tokens opgelost waardoor gebruikers zich soms niet konden aanmelden via IMS. (CAMP-57337)
+* Het mechanisme voor het genereren van een automatische sequentie-ID is verbeterd om de betrouwbaarheid van het systeem te vergroten. (CAMP-57281)
 
 ## Release 25.1: release winter 2025 {#winter-25}
 
