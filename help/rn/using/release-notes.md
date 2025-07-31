@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: c1f64589578c144a9b8eb879684f27834efaf8d8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -32,15 +32,15 @@ This section lists improvements and changes included in the next Campaign Standa
 ### Beveiligingsoplossingen {#summer-25-security}
 
 * Deze release biedt beveiligingsoplossingen.
-* Deze release wordt geleverd met de volgende beveiligingsupgrade: PostgreSQL 14.18, migratie van CentOS naar Rocky voor Azure-instanties.
+* Deze release heeft de volgende beveiligingsupgrade: PostgreSQL 14.18, migratie van CentOS naar Rocky voor Azure-instanties.
 
 ### Andere oplossingen {#summer-25-fixes}
 
-* Verbeterde afhandeling van de uitputting van sequenties om de betrouwbaarheid van het systeem te verbeteren. (CAMP-57281)
-* Algemene updates van de productstabilisatie. (CAMP-57339)
-* Verbeterde Dynamische Rapportering voor betere robuustheid en verminderde gegevenswanverhoudingen. (CAMP-58157)
-* Probleem verholpen waarbij tekst in vervolgkeuzemenu&#39;s niet correct werd omkaderd. (CAMP-57360)
-* Bijgewerkte rapportfunctionaliteit om te voorkomen dat gebruikers gegevens van meer dan 2 jaar kunnen opvragen. (CAMP-59262)
+* Verbeterde afhandeling van volgorde-uitputting om de betrouwbaarheid van het systeem te vergroten. (CAMP-57281)
+* Algemene updates voor productstabilisatie. (CAMP-57339)
+* Verbeterde dynamische rapportage voor betere robuustheid en minder mismatches van gegevens. (CAMP-58157)
+* Er is een probleem opgelost waarbij de tekst in vervolgkeuzemenu&#39;s niet correct werd afgebroken. (CAMP-57360)
+* Rapportagefunctionaliteit bijgewerkt om te voorkomen dat gebruikers gegevens opvragen die ouder zijn dan 2 jaar. (CAMP-59262)
 
 ## Release 25.1.2 {#25.1.2}
 
