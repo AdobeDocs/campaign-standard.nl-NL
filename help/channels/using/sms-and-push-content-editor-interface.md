@@ -90,4 +90,4 @@ De editor voor sms- en pushcontent biedt de volgende functies:
 * Een personalisatieveld toevoegen. Zie [Een personalisatieveld invoegen](../../designing/using/personalization.md#inserting-a-personalization-field) voor meer informatie.
 * Een contentblok toevoegen. Zie [Een contentblok toevoegen](../../designing/using/personalization.md#adding-a-content-block) voor meer informatie.
 * Dynamische tekst toevoegen. Zie [Dynamische tekst definiëren](../../channels/using/defining-dynamic-text.md) voor meer informatie.
-* De naam van de sms-afzender (alleen sms) aanpassen. Zie [Sms-configuratie ](../../administration/using/configuring-sms-channel.md#configuring-sms-properties) voor meer informatie.
+* De naam van de sms-afzender (alleen sms) aanpassen. Zie [Sms-configuratie &#x200B;](../../administration/using/configuring-sms-channel.md#configuring-sms-properties) voor meer informatie.

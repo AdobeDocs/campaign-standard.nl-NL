@@ -35,7 +35,7 @@ De berichten kunnen ook tijdens de leveringsvoorbereiding worden uitgesloten als
 
 * [Werken met quarantainebeheer](../../sending/using/understanding-quarantine-management.md)
 * [Informatie over opt-in en opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [ Bounces ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=nl-NL#metrics-for-deliverability)
+* [&#x200B; Bounces &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=nl-NL#metrics-for-deliverability)
 
 ## Leveringsfouten identificeren voor een bericht {#identifying-delivery-failures-for-a-message}
 
@@ -75,8 +75,8 @@ De mogelijke redenen van een leveringsfout zijn:
 
 
 **Verwante onderwerpen:**
-* [ Harde grenzen ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=nl-NL#hard-bounces)
-* [ Zachte grenzen ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=nl-NL#soft-bounces)
+* [&#x200B; Harde grenzen &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=nl-NL#hard-bounces)
+* [&#x200B; Zachte grenzen &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=nl-NL#soft-bounces)
 
 ## Retourneert na een tijdelijke leverfout {#retries-after-a-delivery-temporary-failure}
 
@@ -96,7 +96,7 @@ Bijvoorbeeld, als u opnieuw voor een levering wilt stoppen na één dag, kunt u 
 
 >[!NOTE]
 >
->Zodra een bericht in de herpogingsrij voor een maximum van 3.5 dagen is geweest en heeft nagelaten te leveren, zal het uit tijd en zijn status <!--from **[!UICONTROL Sent]**--> aan **[!UICONTROL Failed]** in [ leveringslogboeken ](../../sending/using/monitoring-a-delivery.md#delivery-logs) worden bijgewerkt.
+>Zodra een bericht in de herpogingsrij voor een maximum van 3.5 dagen is geweest en heeft nagelaten te leveren, zal het uit tijd en zijn status <!--from **[!UICONTROL Sent]**--> aan **[!UICONTROL Failed]** in [&#x200B; leveringslogboeken &#x200B;](../../sending/using/monitoring-a-delivery.md#delivery-logs) worden bijgewerkt.
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -116,9 +116,9 @@ Voor de synchrone foutenmeldingen van de leveringsmislukking, bepaalt Adobe Camp
 >
 >De kwalificaties voor niet-bezorging in de tabel **[!UICONTROL Message qualification]** van Campaign worden niet meer gebruikt.
 
-Asynchrone niet-bezorgingen worden nog steeds gekwalificeerd door het inMail-proces aan de hand van de regels voor **[!UICONTROL Inbound email]**. Om tot deze regels toegang te hebben, klik het **Adobe** embleem, bij top-left, dan selecteren **[!UICONTROL Administration > Channels > Email > Email processing rules]** en selecteren **[!UICONTROL Bounce mails]**. Voor meer op deze regel, zie [ deze sectie ](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Asynchrone niet-bezorgingen worden nog steeds gekwalificeerd door het inMail-proces aan de hand van de regels voor **[!UICONTROL Inbound email]**. Om tot deze regels toegang te hebben, klik het **Adobe** embleem, bij top-left, dan selecteren **[!UICONTROL Administration > Channels > Email > Email processing rules]** en selecteren **[!UICONTROL Bounce mails]**. Voor meer op deze regel, zie [&#x200B; deze sectie &#x200B;](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Voor meer op stuitingen en de verschillende soorten stuitingen, zie [ deze sectie ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=nl-NL#metrics-for-deliverability).
+Voor meer op stuitingen en de verschillende soorten stuitingen, zie [&#x200B; deze sectie &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=nl-NL#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

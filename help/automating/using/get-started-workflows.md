@@ -34,17 +34,17 @@ Workflows kunnen in verschillende contexten worden gebruikt, zoals:
 
 >[!IMPORTANT]
 >
-> Adobe raadt klanten aan niet meer dan 20 actieve workflows tegelijk uit te voeren en de uitvoering van de workflow in de loop der tijd te prioriteren en te verspreiden. Voor meer op dit, verwijs naar de beste praktijken die in [ worden verstrekt deze pagina ](../../automating/using/best-practices-workflows.md).
+> Adobe raadt klanten aan niet meer dan 20 actieve workflows tegelijk uit te voeren en de uitvoering van de workflow in de loop der tijd te prioriteren en te verspreiden. Voor meer op dit, verwijs naar de beste praktijken die in [&#x200B; worden verstrekt deze pagina &#x200B;](../../automating/using/best-practices-workflows.md).
 
 ## Workflowactiviteiten {#workflow-activities}
 
 Er zijn verschillende activiteiten beschikbaar om u te helpen uw workflows ontwerpen.
 
-[ het richten activiteiten ](../../automating/using/about-targeting-activities.md) staat u toe om één of meerdere doelstellingen te bouwen door reeksen te bepalen en deze reeksen te splitsen of te combineren gebruikend doorsnede, vereniging, of uitsluitingsverrichtingen.
+[&#x200B; het richten activiteiten &#x200B;](../../automating/using/about-targeting-activities.md) staat u toe om één of meerdere doelstellingen te bouwen door reeksen te bepalen en deze reeksen te splitsen of te combineren gebruikend doorsnede, vereniging, of uitsluitingsverrichtingen.
 
-Met [ de activiteiten van de Uitvoering ](../../automating/using/about-execution-activities.md), coördineer uw werkschema en zijn activiteiten, terwijl [ de activiteiten van het Kanaal ](../../automating/using/about-channel-activities.md) u Campaign Standard communicatie kanalen laten combineren om kanaalwerkschema&#39;s tot stand te brengen.
+Met [&#x200B; de activiteiten van de Uitvoering &#x200B;](../../automating/using/about-execution-activities.md), coördineer uw werkschema en zijn activiteiten, terwijl [&#x200B; de activiteiten van het Kanaal &#x200B;](../../automating/using/about-channel-activities.md) u Campaign Standard communicatie kanalen laten combineren om kanaalwerkschema&#39;s tot stand te brengen.
 
-Tot slot [ de beheersactiviteiten van Gegevens ](../../automating/using/about-data-management-activities.md) staan u toe om gegevens van uw gegevensbestand te manipuleren.
+Tot slot [&#x200B; de beheersactiviteiten van Gegevens &#x200B;](../../automating/using/about-data-management-activities.md) staan u toe om gegevens van uw gegevensbestand te manipuleren.
 
 Meer informatie:
 
@@ -68,15 +68,15 @@ Meer informatie:
 
 Het Campaign Standard komt met verscheidene **mogelijkheden van het gegevensbeheer** om gegevens in te voeren en uit te voeren.
 
-[ de activiteiten van het gegevensbeheer van de Werkschema&#39;s ](../../automating/using/about-data-management-activities.md) staan u toe om gegevens in te voeren, massaupdates op gebieden uit te voeren, dossier te ontvangen of te verzenden, of geen geïdentificeerde gegevens aan bestaande middelen te verbinden.
+[&#x200B; de activiteiten van het gegevensbeheer van de Werkschema&#39;s &#x200B;](../../automating/using/about-data-management-activities.md) staan u toe om gegevens in te voeren, massaupdates op gebieden uit te voeren, dossier te ontvangen of te verzenden, of geen geïdentificeerde gegevens aan bestaande middelen te verbinden.
 
-Met [ de malplaatjes van de Invoer ](../../automating/using/importing-data-with-import-templates.md), beheer bepaalde types van invoer die door beheerders door vereenvoudigde de invoerfuncties worden bepaald.
+Met [&#x200B; de malplaatjes van de Invoer &#x200B;](../../automating/using/importing-data-with-import-templates.md), beheer bepaalde types van invoer die door beheerders door vereenvoudigde de invoerfuncties worden bepaald.
 
-[ het Uitvoeren logboeken ](../../automating/using/exporting-logs.md) laat u logboekgegevens door een eenvoudig werkschema uitvoeren, toestaand u om de resultaten van uw marketing campagnes in uw eigen rapportering of hulpmiddelen van BI te analyseren.
+[&#x200B; het Uitvoeren logboeken &#x200B;](../../automating/using/exporting-logs.md) laat u logboekgegevens door een eenvoudig werkschema uitvoeren, toestaand u om de resultaten van uw marketing campagnes in uw eigen rapportering of hulpmiddelen van BI te analyseren.
 
-Hefboomwerking [ Pakketten ](../../automating/using/managing-packages.md) aan uitwisselingsmiddelen tussen verschillende campagneinstanties, bijvoorbeeld, om de configuratie van een instantie te herhalen, of gegevens over te brengen van een server aan een andere met inbegrip van douanemiddelen.
+Hefboomwerking [&#x200B; Pakketten &#x200B;](../../automating/using/managing-packages.md) aan uitwisselingsmiddelen tussen verschillende campagneinstanties, bijvoorbeeld, om de configuratie van een instantie te herhalen, of gegevens over te brengen van een server aan een andere met inbegrip van douanemiddelen.
 
-Tot slot [ het Uitvoeren lijsten ](../../automating/using/exporting-lists.md) staan u toe om het even welke lijst van Campaign Standard als, bijvoorbeeld, de lijst van testprofielen, de lijst van quarantines e-mailadressen, enz. uit te voeren.
+Tot slot [&#x200B; het Uitvoeren lijsten &#x200B;](../../automating/using/exporting-lists.md) staan u toe om het even welke lijst van Campaign Standard als, bijvoorbeeld, de lijst van testprofielen, de lijst van quarantines e-mailadressen, enz. uit te voeren.
 
 Meer informatie:
 
@@ -85,6 +85,6 @@ Meer informatie:
 
 ## Verdere bronnen
 
-* [ Van processen en van het gegevensbeheer zelfstudie video&#39;s ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=nl)
+* [&#x200B; Van processen en van het gegevensbeheer zelfstudie video&#39;s &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=nl)
 * [Technische workflows](../../administration/using/technical-workflows.md)
 * [Aan de slag met het Campaign Standard-gegevensmodel](../../developing/using/get-started-data-model.md)

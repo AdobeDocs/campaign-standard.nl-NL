@@ -35,13 +35,13 @@ Dankzij de Adobe Campaign Standard-integratie met Dreamweaver kunt u de inhoud v
 
   Voor de e-mailontwikkelaar is het niet langer nodig om tekst zoals `[[FIRSTNAME_PLACEHOLDER]]` toe te voegen of de syntaxis van de tabellen in het gegevensmodel op te zoeken. De werkbalk Campagne in Dreamweaver maakt rechtstreeks verbinding met het gegevensmodel van uw Campagne-instantie. Dat betekent u in om het even welke gegevens kunt trekken u voor verpersoonlijking van iets als Voornaam aan Adres wilt. Als u inhoudsblokken hebt gemaakt in de campagne, kunt u deze ook rechtstreeks naar Dreamweaver trekken.
 
-Dit vermogen wordt gedetailleerd in de toegankelijke Documentatie van Dreamweaver [ hier ](https://helpx.adobe.com/nl/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
+Dit vermogen wordt gedetailleerd in de toegankelijke Documentatie van Dreamweaver [&#x200B; hier &#x200B;](https://helpx.adobe.com/nl/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 
 ![](assets/do-not-localize/how-to-video.png) [Ontdek deze functie in video](#video)
 
 ## Inhoud bewerken in Experience Manager {#editing-content-in-experience-manager}
 
-E-mailinhoud kan worden bewerkt in Experience Manager en vervolgens worden gebruikt voor een of meerdere e-mailberichten in Adobe Campaign Standard. Verwijs naar [ dit document ](../../integrating/using/integrating-with-experience-manager.md).
+E-mailinhoud kan worden bewerkt in Experience Manager en vervolgens worden gebruikt voor een of meerdere e-mailberichten in Adobe Campaign Standard. Verwijs naar [&#x200B; dit document &#x200B;](../../integrating/using/integrating-with-experience-manager.md).
 
 ## Productaanbiedingen {#product-listing}
 
@@ -50,7 +50,7 @@ E-mailinhoud kan worden bewerkt in Experience Manager en vervolgens worden gebru
 >title="Productlijsten gebruiken"
 >abstract="In de productaanbiedingen kunt u verwijzen naar een gegevensverzameling en deze weergeven in de e-mailcontent."
 
-In de productaanbiedingen kunt u verwijzen naar een of meer gegevensverzamelingen in de e-mailinhoud. Deze aanbiedingen zijn beschikbaar voor transactie-e-mails. Een specifieke sectie voor deze eigenschap is beschikbaar [ hier ](../../designing/using/using-product-listings.md).
+In de productaanbiedingen kunt u verwijzen naar een of meer gegevensverzamelingen in de e-mailinhoud. Deze aanbiedingen zijn beschikbaar voor transactie-e-mails. Een specifieke sectie voor deze eigenschap is beschikbaar [&#x200B; hier &#x200B;](../../designing/using/using-product-listings.md).
 
 ## Vergelijking van e-mailontwerpopties {#email-design-options-comparison}
 
@@ -159,4 +159,4 @@ In deze video ziet u hoe u inhoud voor Adobe Campaign Standard kunt maken en bew
 
 >[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
 
-De extra hoe te video&#39;s van Campaign Standard zijn beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).
+De extra hoe te video&#39;s van Campaign Standard zijn beschikbaar [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).

@@ -42,16 +42,16 @@ Als u een kolom wilt selecteren, kunt u ook het volgende doen:
 1. Selecteer een structuurcomponent (direct in e-mail of gebruikend de boomstructuur beschikbaar van het linker **Palet**).
 1. Van de **contextafhankelijke toolbar**, klik **[!UICONTROL Select a column]** om de gewenste kolom te kiezen.
 
-Zie een voorbeeld in [ deze sectie ](#example--adjusting-vertical-alignment-and-padding).
+Zie een voorbeeld in [&#x200B; deze sectie &#x200B;](#example--adjusting-vertical-alignment-and-padding).
 
 ## Stijlinstellingen aanpassen {#adjusting-style-settings}
 
-1. Selecteer een element in uw e-mail. Voor meer op dit, zie [ Selecterend een element ](#selecting-an-element).
+1. Selecteer een element in uw e-mail. Voor meer op dit, zie [&#x200B; Selecterend een element &#x200B;](#selecting-an-element).
 1. Pas de instellingen naar wens aan. Elk geselecteerd element heeft een andere set instellingen.
 
-   U kunt achtergronden opnemen, grootte veranderen, horizontale of verticale groepering wijzigen, kleuren beheren, [ opvullen of marge ](#selecting-an-element) toevoegen, etc.
+   U kunt achtergronden opnemen, grootte veranderen, horizontale of verticale groepering wijzigen, kleuren beheren, [&#x200B; opvullen of marge &#x200B;](#selecting-an-element) toevoegen, etc.
 
-   Om dit te doen, gebruik de opties die in de **[!UICONTROL Settings]** ruit worden getoond of [ voeg gealigneerde het stileren attributen ](#adding-inline-styling-attributes) toe.
+   Om dit te doen, gebruik de opties die in de **[!UICONTROL Settings]** ruit worden getoond of [&#x200B; voeg gealigneerde het stileren attributen &#x200B;](#adding-inline-styling-attributes) toe.
 
    ![](assets/des_settings_pane.png)
 

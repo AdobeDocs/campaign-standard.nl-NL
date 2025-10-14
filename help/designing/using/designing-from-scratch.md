@@ -22,19 +22,19 @@ Leer hoe u e-mailinhoud kunt vervaardigen. Met Email Designer kunt u e-mails en 
 Hier volgen de belangrijkste stappen voor het maken en ontwerpen van een geheel nieuwe e-mailinhoud met behulp van de e-mailtoepassing Designer:
 
 1. Maak een e-mail en open de inhoud ervan.
-1. Voeg structuurcomponenten toe om de e-mail vorm te geven. Zie [ het Uitgeven van de e-mailstructuur ](#defining-the-email-structure).
-1. Voeg inhoudscomponenten en fragmenten in de structuurcomponenten in. Zie [ Toevoegend fragmenten en inhoudscomponenten ](#defining-the-email-structure).
-1. Voeg afbeeldingen toe en bewerk de tekst van de e-mail. Zie [ Invoegend beelden ](../../designing/using/images.md#inserting-images).
-1. Pas uw e-mail aan door personaliseringsgebieden, verbindingen, etc. toe te voegen. Zie [ Invoegend een verpersoonlijkingsgebied ](../../designing/using/personalization.md#inserting-a-personalization-field), [ Invoegend een verbinding ](../../designing/using/links.md#inserting-a-link) en [ die dynamische inhoud in e-mail ](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) bepalen.
-1. Bepaal de onderwerpregel van uw e-mail. Zie [ Personaliserend de onderwerpregel van e-mail ](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+1. Voeg structuurcomponenten toe om de e-mail vorm te geven. Zie [&#x200B; het Uitgeven van de e-mailstructuur &#x200B;](#defining-the-email-structure).
+1. Voeg inhoudscomponenten en fragmenten in de structuurcomponenten in. Zie [&#x200B; Toevoegend fragmenten en inhoudscomponenten &#x200B;](#defining-the-email-structure).
+1. Voeg afbeeldingen toe en bewerk de tekst van de e-mail. Zie [&#x200B; Invoegend beelden &#x200B;](../../designing/using/images.md#inserting-images).
+1. Pas uw e-mail aan door personaliseringsgebieden, verbindingen, etc. toe te voegen. Zie [&#x200B; Invoegend een verpersoonlijkingsgebied &#x200B;](../../designing/using/personalization.md#inserting-a-personalization-field), [&#x200B; Invoegend een verbinding &#x200B;](../../designing/using/links.md#inserting-a-link) en [&#x200B; die dynamische inhoud in e-mail &#x200B;](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) bepalen.
+1. Bepaal de onderwerpregel van uw e-mail. Zie [&#x200B; Personaliserend de onderwerpregel van e-mail &#x200B;](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 1. Bekijk uw e-mail.
 1. Sla de inhoud op en voer het bericht verder nadat u hebt bepaald dat u een publiek hebt gedefinieerd en het verzenden op de juiste wijze hebt gepland.
 
-U kunt deze [ inleidende video ](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true) ook controleren.
+U kunt deze [&#x200B; inleidende video &#x200B;](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true) ook controleren.
 
 >[!NOTE]
 >
->U kunt het ontwerpen van nieuwe e-mailinhoud voorkomen door sjablonen voor inhoud buiten de verpakking te gebruiken. Voor meer op dit, zie [ malplaatjes van de Inhoud ](../../designing/using/using-reusable-content.md#content-templates).
+>U kunt het ontwerpen van nieuwe e-mailinhoud voorkomen door sjablonen voor inhoud buiten de verpakking te gebruiken. Voor meer op dit, zie [&#x200B; malplaatjes van de Inhoud &#x200B;](../../designing/using/using-reusable-content.md#content-templates).
 
 ## E-mailstructuur definiëren {#defining-the-email-structure}
 
@@ -117,7 +117,7 @@ Hier volgt een lijst met de beschikbare onderdelen in de e-mailtoepassing van De
 
 Als u meerdere knoppen moet gebruiken in plaats van elke knop helemaal opnieuw te bewerken, kunt u de component **[!UICONTROL Button]** dupliceren met de contextuele werkbalk.
 
-U kunt knoppen ook opslaan in fragmenten die opnieuw kunnen worden gebruikt. Voor meer op dit, zie [ Creërend een inhoudsfragment ](../../designing/using/using-reusable-content.md#creating-a-content-fragment) en [ het Opslaan van inhoud als fragment ](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+U kunt knoppen ook opslaan in fragmenten die opnieuw kunnen worden gebruikt. Voor meer op dit, zie [&#x200B; Creërend een inhoudsfragment &#x200B;](../../designing/using/using-reusable-content.md#creating-a-content-fragment) en [&#x200B; het Opslaan van inhoud als fragment &#x200B;](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
 
 Selecteer **[!UICONTROL Fallback view]** om de fallback-afbeelding weer te geven in de Designer-e-mail.
 
@@ -135,7 +135,7 @@ Met deze component kunt u de verschillende onderdelen van uw bestaande HTML kopi
 
 >[!NOTE]
 >
->Een gratis HTML-component is bewerkbaar met beperkte opties. Als alle stijlen niet gealigneerd zijn, zorg ervoor om juiste CSS in de **hoofd** sectie van de code van HTML toe te voegen, anders zal e-mail niet ontvankelijk zijn. Gebruik de **[!UICONTROL Preview]** knoop om de ontvankelijkheid van uw inhoud te testen (zie [ het Voorvertonen van berichten ](../../sending/using/previewing-messages.md)).
+>Een gratis HTML-component is bewerkbaar met beperkte opties. Als alle stijlen niet gealigneerd zijn, zorg ervoor om juiste CSS in de **hoofd** sectie van de code van HTML toe te voegen, anders zal e-mail niet ontvankelijk zijn. Gebruik de **[!UICONTROL Preview]** knoop om de ontvankelijkheid van uw inhoud te testen (zie [&#x200B; het Voorvertonen van berichten &#x200B;](../../sending/using/previewing-messages.md)).
 
 Om een externe inhoud eenvoudig compatibel te maken met de e-mailtoepassing Designer, raadt Adobe aan een geheel nieuw bericht te maken en de inhoud van uw bestaande e-mailbericht te kopiëren naar fragmenten en componenten.
 

@@ -86,13 +86,13 @@ Zodra een bericht wordt verzonden, kunt u het gedrag van zijn ontvangers volgen,
 >
 >Deze sectie is alleen van toepassing op e-mailkanalen.
 
-In de **[!UICONTROL Summary]** mening van elke e-mail, begint het **[!UICONTROL Delivered]** percentage bij 100% en gaat dan progressief door de levering [ geldigheidsperiode ](../../administration/using/configuring-email-channel.md#validity-period-parameters), aangezien de zachte en harde grenzen worden gemeld terug <!--from the Enhanced MTA to Campaign-->.
+In de **[!UICONTROL Summary]** mening van elke e-mail, begint het **[!UICONTROL Delivered]** percentage bij 100% en gaat dan progressief door de levering [&#x200B; geldigheidsperiode &#x200B;](../../administration/using/configuring-email-channel.md#validity-period-parameters), aangezien de zachte en harde grenzen worden gemeld terug <!--from the Enhanced MTA to Campaign-->.
 
-Sterker nog, tonen alle berichten als **[!UICONTROL Sent]** in [ verzendend logboeken ](../../sending/using/monitoring-a-delivery.md#sending-logs) zodra zij met succes van Campagne aan Verbeterde MTA (de Agent van de Overdracht van het Bericht) worden afgelost. Zij blijven in die status tenzij of tot a [ stuiteren ](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) voor dat bericht terug van Verbeterde MTA aan Campagne wordt meegedeeld.
+Sterker nog, tonen alle berichten als **[!UICONTROL Sent]** in [&#x200B; verzendend logboeken &#x200B;](../../sending/using/monitoring-a-delivery.md#sending-logs) zodra zij met succes van Campagne aan Verbeterde MTA (de Agent van de Overdracht van het Bericht) worden afgelost. Zij blijven in die status tenzij of tot a [&#x200B; stuiteren &#x200B;](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) voor dat bericht terug van Verbeterde MTA aan Campagne wordt meegedeeld.
 
 Wanneer hard-bouncing berichten van Verbeterde MTA worden gemeld, verandert hun status van **[!UICONTROL Sent]** in **[!UICONTROL Failed]** en **[!UICONTROL Delivered]** percentage wordt dienovereenkomstig verminderd.
 
-Wanneer soft-bouncing berichten terug van Verbeterde MTA worden gemeld, tonen zij nog steeds als **[!UICONTROL Sent]** en het **[!UICONTROL Delivered]** percentage wordt nog niet bijgewerkt. De soft-bouncing berichten worden dan [ opnieuw geprobeerd ](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) door de periode van de leveringsgeldigheid:
+Wanneer soft-bouncing berichten terug van Verbeterde MTA worden gemeld, tonen zij nog steeds als **[!UICONTROL Sent]** en het **[!UICONTROL Delivered]** percentage wordt nog niet bijgewerkt. De soft-bouncing berichten worden dan [&#x200B; opnieuw geprobeerd &#x200B;](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure) door de periode van de leveringsgeldigheid:
 
 * Als het opnieuw proberen is gelukt vóór het einde van de geldigheidsperiode, blijft de status van het bericht behouden als **[!UICONTROL Sent]** en blijft het percentage **[!UICONTROL Delivered]** ongewijzigd.
 
@@ -120,7 +120,7 @@ Wanneer de berichtlevering aan de gerichte profielen in echt - tijd van Uitgebre
 
 Wanneer hard-bouncing berichten van Verbeterde MTA worden gemeld, verandert hun logboekstatus van **[!UICONTROL Pending]** in **[!UICONTROL Failed]** en **[!UICONTROL Bounces + errors]** percentage wordt dienovereenkomstig verhoogd.
 
-Wanneer soft-bouncing berichten van Verbeterde MTA worden gemeld, verandert hun logboekstatus ook van **[!UICONTROL Pending]** in **[!UICONTROL Failed]** en **[!UICONTROL Bounces + errors]** percentage wordt dienovereenkomstig verhoogd. Het percentage **[!UICONTROL Delivered]** blijft ongewijzigd. De soft-bouncing berichten worden dan opnieuw geprobeerd door de levering [ geldigheidsperiode ](../../administration/using/configuring-email-channel.md#validity-period-parameters):
+Wanneer soft-bouncing berichten van Verbeterde MTA worden gemeld, verandert hun logboekstatus ook van **[!UICONTROL Pending]** in **[!UICONTROL Failed]** en **[!UICONTROL Bounces + errors]** percentage wordt dienovereenkomstig verhoogd. Het percentage **[!UICONTROL Delivered]** blijft ongewijzigd. De soft-bouncing berichten worden dan opnieuw geprobeerd door de levering [&#x200B; geldigheidsperiode &#x200B;](../../administration/using/configuring-email-channel.md#validity-period-parameters):
 
 * Als het opnieuw proberen is gelukt vóór het einde van de geldigheidsperiode, verandert de berichtstatus in **[!UICONTROL Sent]** en wordt het **[!UICONTROL Delivered]** percentage dienovereenkomstig verhoogd.
 
@@ -128,9 +128,9 @@ Wanneer soft-bouncing berichten van Verbeterde MTA worden gemeld, verandert hun 
 
 >[!NOTE]
 >
->Voor meer op harde en zachte grenzen, zie [ deze sectie ](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+>Voor meer op harde en zachte grenzen, zie [&#x200B; deze sectie &#x200B;](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
 >
->Voor meer op herpogingen na een tijdelijke mislukking van de levering, zie [ deze sectie ](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
+>Voor meer op herpogingen na een tijdelijke mislukking van de levering, zie [&#x200B; deze sectie &#x200B;](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 <!--Soft-bouncing messages increment an error counter. When the error counter reaches the limit threshold or when the validity period is over, the address goes into quarantine and the status remains as **[!UICONTROL Failed]**. For more on conditions for sending an address to quarantine, see [this section](../../help/sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine).-->
 

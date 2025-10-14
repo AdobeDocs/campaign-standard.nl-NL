@@ -71,18 +71,18 @@ Neem de aandacht van uw klanten op en verbeter de responssnelheid door inhoud en
 
 Persoonlijke berichten zijn essentieel voor het verzenden van relevante inhoud, het bieden van persoonlijke ervaringen en het verhogen van de open en conversiesnelheden. Kanaaloverschrijdende berichten die door Adobe Campaign worden geleverd, kunnen op verschillende manieren worden gepersonaliseerd. Deze manieren kunnen met criteria afhankelijk van de profielen worden gecombineerd. U kunt:
 
-* Plaats [ dynamische verpersoonlijkingsgebieden ](../../designing/using/personalization.md#inserting-a-personalization-field) in uw berichten
-* Tussenvoegsel [ vooraf bepaalde verpersoonlijkingsblokken ](../../designing/using/personalization.md#adding-a-content-block)
-* [ Personaliseer de afzender ](../../designing/using/subject-line.md) van e-mail of een SMS
-* [ Personaliseer de onderwerpregel ](../../designing/using/subject-line.md) van e-mail
-* Creeer [ voorwaardelijke inhoud in e-mail ](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) of [ in een het landen pagina ](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* Tussenvoegsel [ Dynamische tekst ](../../channels/using/defining-dynamic-text.md) in een bericht van SMS of een Duw bericht
+* Plaats [&#x200B; dynamische verpersoonlijkingsgebieden &#x200B;](../../designing/using/personalization.md#inserting-a-personalization-field) in uw berichten
+* Tussenvoegsel [&#x200B; vooraf bepaalde verpersoonlijkingsblokken &#x200B;](../../designing/using/personalization.md#adding-a-content-block)
+* [&#x200B; Personaliseer de afzender &#x200B;](../../designing/using/subject-line.md) van e-mail of een SMS
+* [&#x200B; Personaliseer de onderwerpregel &#x200B;](../../designing/using/subject-line.md) van e-mail
+* Creeer [&#x200B; voorwaardelijke inhoud in e-mail &#x200B;](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) of [&#x200B; in een het landen pagina &#x200B;](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
+* Tussenvoegsel [&#x200B; Dynamische tekst &#x200B;](../../channels/using/defining-dynamic-text.md) in een bericht van SMS of een Duw bericht
 
 ![](assets/delivery_content_43.png)
 
 **Meer informatie**
 
-* Ontdek e-mailverpersoonlijking door a [ steekproef van begin tot eind ](../../designing/using/personalization.md#example-email-personalization)
+* Ontdek e-mailverpersoonlijking door a [&#x200B; steekproef van begin tot eind &#x200B;](../../designing/using/personalization.md#example-email-personalization)
 * [URL&#39;s aanpassen](../../designing/using/personalization.md#personalizing-urls)
 * [Aanpassing van een afbeelding instellen](../../designing/using/personalization.md#personalizing-an-image-source)
 

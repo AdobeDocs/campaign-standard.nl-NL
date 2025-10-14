@@ -33,7 +33,7 @@ Toegang krijgen tot de lijst met marketingactiviteiten van een campagne:
 1. Ga naar **[!UICONTROL Marketing activities]** op de bovenste navigatiebalk.
 1. Selecteer **[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**.
 
-   U kunt ook rechtstreeks op de **[!UICONTROL Programs & Campaigns]** -kaart van de startpagina klikken. Voor meer informatie over campagnes, verwijs naar [ Programma&#39;s en campagnes ](../../start/using/programs-and-campaigns.md) sectie.
+   U kunt ook rechtstreeks op de **[!UICONTROL Programs & Campaigns]** -kaart van de startpagina klikken. Voor meer informatie over campagnes, verwijs naar [&#x200B; Programma&#39;s en campagnes &#x200B;](../../start/using/programs-and-campaigns.md) sectie.
 
 1. Selecteer een programma, dan een campagne.
 
@@ -50,7 +50,7 @@ De volledige lijst met marketingactiviteiten van alle gecombineerde campagnes op
 
 1. Selecteer **[!UICONTROL Marketing activities]** in de bovenste navigatiebalk.
 
-   U kunt deze ook openen via de **[!UICONTROL Marketing activities]** -kaart op de startpagina. Voor meer informatie over de lijst van marketing activiteiten, verwijs naar [ het Leiden marketing activiteiten ](../../start/using/marketing-activities.md#creating-a-marketing-activity) sectie.
+   U kunt deze ook openen via de **[!UICONTROL Marketing activities]** -kaart op de startpagina. Voor meer informatie over de lijst van marketing activiteiten, verwijs naar [&#x200B; het Leiden marketing activiteiten &#x200B;](../../start/using/marketing-activities.md#creating-a-marketing-activity) sectie.
 
 1. Als u de marketingactiviteiten wilt filteren (op naam, datum, status of type activiteit), gebruikt u de velden **[!UICONTROL Search]** links van de lijst met marketingactiviteiten.
 

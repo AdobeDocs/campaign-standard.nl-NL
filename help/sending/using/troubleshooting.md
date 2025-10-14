@@ -36,7 +36,7 @@ Als het probleem zich blijft voordoen, neemt u contact op met de services voor c
 
 * **wat is het verschil tussen een e-mailadres op lijst van gewezen personen en een quarantined e-mailadres?**
 
-   * De status **[!UICONTROL On denylist]** is een resultaat van a [ terugkoppelt lijn ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=nl-NL#feedback-loops) (wanneer een persoon een bericht als spam meldt).
+   * De status **[!UICONTROL On denylist]** is een resultaat van a [&#x200B; terugkoppelt lijn &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=nl-NL#feedback-loops) (wanneer een persoon een bericht als spam meldt).
 
    * De status **[!UICONTROL Quarantined]** is het resultaat van een zachte of harde stuit.
 
@@ -46,7 +46,7 @@ Als het probleem zich blijft voordoen, neemt u contact op met de services voor c
 
   Hier zijn 10 mogelijke redenen: niet bepaald, gebruiker onbekend, ongeldig domein, adres op lijst van gewezen personen, geweigerd, fout genegeerd, onbereikbaar, rekening gehandicapt, brievenbus volledig, niet verbonden.
 
-  Voor meer op dit, zie [ Begrijpend quarantainebeheer ](../../sending/using/understanding-quarantine-management.md).
+  Voor meer op dit, zie [&#x200B; Begrijpend quarantainebeheer &#x200B;](../../sending/using/understanding-quarantine-management.md).
 
 ## Verwijderen uit lijst van gewezen personen {#removing-from-denylist}
 
@@ -59,8 +59,8 @@ Als het probleem zich blijft voordoen, neemt u contact op met de services voor c
 * **Hoe kan ik weten of één van mijn IPs op lijst van gewezen personen is? Hoe verwijder ik mijn IP(s) uit een lijst van gewezen personen?**
 
   Om te controleren of uw IP adres op lijst van gewezen personen is, kunt u diverse websites gebruiken om het te verifiëren, zoals:
-   * [ MX Toolbox ](https://mxtoolbox.com/)
-   * [ wat mijn IP adres ](https://whatismyipaddress.com) is
+   * [&#x200B; MX Toolbox &#x200B;](https://mxtoolbox.com/)
+   * [&#x200B; wat mijn IP adres &#x200B;](https://whatismyipaddress.com) is
 
   Over het algemeen, zal het resultaat van de IP adrescontrole een lijst terugkeren die details van de lijst van gewezen personen en ook de naam van de website bevat die het IP adres blokkeerde.
 

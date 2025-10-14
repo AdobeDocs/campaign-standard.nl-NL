@@ -38,7 +38,7 @@ De startpagina bestaat uit een set kaarten waarmee u snel toegang hebt tot de be
 * Met de kaart **[!UICONTROL Create an SMS]** gaat u naar de assistent voor het maken van sms-berichten. Met behulp van deze assistent kiest u een sms-type, selecteert u berichtontvangers en definieert u de content. Raadpleeg de sectie [Een sms maken](../../channels/using/creating-an-sms-message.md).
 * Met de kaart **[!UICONTROL Create a Direct mail]** gaat u naar de assistent voor het maken van direct mail. Raadpleeg de sectie [Direct mail](../../channels/using/creating-the-direct-mail.md) maken.
 * Met de kaart **[!UICONTROL Create a push notification]** opent u de assistent voor het maken van meldingen. Met behulp van deze assistent kiest u een type pushmelding, selecteert u berichtontvangers en definieert u de content. Raadpleeg de sectie [Een pushmelding maken](../../channels/using/preparing-and-sending-a-push-notification.md).
-* Met de **[!UICONTROL Create an In-App message]** -kaart gaat u naar de ontwerpassistent in de app. Met deze assistent kunt u het type In-App-bericht selecteren dat u wilt maken, de eigenschappen, het publiek en de inhoud ervan definiëren. Verwijs naar [ Creërend een In-App bericht ](../../channels/using/about-in-app-messaging.md) sectie.
+* Met de **[!UICONTROL Create an In-App message]** -kaart gaat u naar de ontwerpassistent in de app. Met deze assistent kunt u het type In-App-bericht selecteren dat u wilt maken, de eigenschappen, het publiek en de inhoud ervan definiëren. Verwijs naar [&#x200B; Creërend een In-App bericht &#x200B;](../../channels/using/about-in-app-messaging.md) sectie.
 * Met de kaart **[!UICONTROL Marketing activities]** opent u de volledige lijst met alle activiteiten, programma&#39;s en campagnes, in het bijzonder e-mails, sms-berichten, workflows en landingspagina&#39;s. Vanaf hier kunt u de elementen filteren door te zoeken op naam, datum, status of type activiteit. Raadpleeg de sectie [Lijst met marketingactiviteiten](../../start/using/marketing-activities.md#about-marketing-activities) voor meer informatie.
 * Met de kaart **[!UICONTROL Programs & campaigns]** gaat u naar de lijst met programma&#39;s waarin u campagnes kunt maken en beheren. Raadpleeg de [Programmalijst](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns).
 * Met de kaart **[!UICONTROL Timeline]** gaat u rechtstreeks naar een interactieve tijdlijn van uw marketingactiviteiten, zodat u de lopende programma&#39;s en hun content kunt raadplegen. Zie [Tijdlijn](../../start/using/timeline.md).
@@ -58,7 +58,7 @@ De navigatieprincipes:
 * Met de koppeling **[!UICONTROL Home]** kunt u de startpagina van Adobe Campaign weergeven.
 * Met de koppelingen **[!UICONTROL Marketing activities]**, **[!UICONTROL Programs & Campaigns]**, **[!UICONTROL Profiles]**, **[!UICONTROL Audiences]** en **[!UICONTROL Reports]** hebt u toegang tot de weergaven die aan deze functies zijn gekoppeld.
 * Het **schakelaar van de Oplossing** pictogram laat u tussen uw organisaties of aan een verschillende toepassing schakelen.
-* Het **[!UICONTROL Help]** pictogram wordt beschreven [ hieronder ](#help).
+* Het **[!UICONTROL Help]** pictogram wordt beschreven [&#x200B; hieronder &#x200B;](#help).
 * Het pictogram **Notifications** geeft de meest recente waarschuwingen of informatie weer.
 * Met het pictogram **User** kunt u aan uw profiel gekoppelde informatie weergeven. Gebruik dit pictogram als u **[!UICONTROL Sign out]** wilt gebruiken.
 

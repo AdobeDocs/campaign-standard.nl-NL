@@ -81,14 +81,14 @@ Programma’s en campagnes worden weergegeven in de sectie [Programma’s en cam
 
 Afhankelijk van de context kunt u:
 
-* Creeer e-mail - [ Leer meer ](../../channels/using/creating-an-email.md)
-* Creeer SMS - [ leer meer ](../../channels/using/creating-an-sms-message.md)
-* Creeer een duw bericht - [ Leer meer ](../../channels/using/preparing-and-sending-a-push-notification.md)
-* Creeer een bericht in-app - [ Leer meer ](../../channels/using/about-in-app-messaging.md)
-* Creeer een werkschema - [ leer meer ](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* Creeer een het landen pagina - [ Leer meer ](../../channels/using/getting-started-with-landing-pages.md)
-* Creeer een campagne - [ leer meer ](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* Creeer een programma - [ leer meer ](../../start/using/programs-and-campaigns.md#creating-a-program)
+* Creeer e-mail - [&#x200B; Leer meer &#x200B;](../../channels/using/creating-an-email.md)
+* Creeer SMS - [&#x200B; leer meer &#x200B;](../../channels/using/creating-an-sms-message.md)
+* Creeer een duw bericht - [&#x200B; Leer meer &#x200B;](../../channels/using/preparing-and-sending-a-push-notification.md)
+* Creeer een bericht in-app - [&#x200B; Leer meer &#x200B;](../../channels/using/about-in-app-messaging.md)
+* Creeer een werkschema - [&#x200B; leer meer &#x200B;](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* Creeer een het landen pagina - [&#x200B; Leer meer &#x200B;](../../channels/using/getting-started-with-landing-pages.md)
+* Creeer een campagne - [&#x200B; leer meer &#x200B;](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* Creeer een programma - [&#x200B; leer meer &#x200B;](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >

@@ -28,7 +28,7 @@ Alvorens een levering te verzenden, moet u ervoor zorgen dat uw ontvangers het b
 
 Met deze stap kunt u mogelijke fouten detecteren en corrigeren voordat u deze aan uw hoofddoel kunt leveren.
 
-De stappen voor het bevestigen van een levering worden voorgesteld [ in deze sectie ](../../sending/using/get-started-sending-messages.md#prepare-test-send).
+De stappen voor het bevestigen van een levering worden voorgesteld [&#x200B; in deze sectie &#x200B;](../../sending/using/get-started-sending-messages.md#prepare-test-send).
 
 ## E-mailweergave {#email-rendering}
 
@@ -42,13 +42,13 @@ Om dit mogelijk te maken, legt Adobe Campaign de weergave vast en stelt deze bes
 
 * Rendermogelijkheden via e-mail zijn van cruciaal belang om te bepalen of uw e-mailcampagnes erin slagen de filters van belangrijke ISP&#39;s (Internet Service Providers) en webmailservices te overschrijden. Dergelijke hulpmiddelen verzenden een pre-vlucht exemplaar van een e-mail naar een netwerk van testinboxes, zodat kunt u zien hoe het bericht, over deze diensten zal tonen of teruggeven. Ze kunnen ook rapporten en opties voor codecorrectie bevatten die u helpen snel oplossingen te vinden en te maken die de leesbaarheid verbeteren.
 
-Leer meer [ in deze sectie ](../../sending/using/email-rendering.md).
+Leer meer [&#x200B; in deze sectie &#x200B;](../../sending/using/email-rendering.md).
 
 ## Proefberichten {#proof-messages}
 
 Door proefdrukken te verzenden, kunt u de koppeling om te weigeren controleren, de pagina spiegelen en andere koppelingen controleren, het bericht valideren, controleren of afbeeldingen worden weergegeven, mogelijke fouten opsporen, enz. Mogelijk wilt u ook uw ontwerp en rendering op verschillende apparaten controleren.
 
-Leer meer [ in deze sectie ](../../sending/using/sending-proofs.md).
+Leer meer [&#x200B; in deze sectie &#x200B;](../../sending/using/sending-proofs.md).
 
 ## A/B-testleveringen instellen {#a-b-testing-deliveries}
 
@@ -60,4 +60,4 @@ Als u meerdere inhoud voor een e-maillevering hebt, kunt u A/B-tests gebruiken o
 
 * Selecteer het bestand met de hoogste successnelheid en stuur het naar de rest van het doel
 
-Leer meer [ in deze sectie ](../../channels/using/designing-an-a-b-test-email.md).
+Leer meer [&#x200B; in deze sectie &#x200B;](../../channels/using/designing-an-a-b-test-email.md).

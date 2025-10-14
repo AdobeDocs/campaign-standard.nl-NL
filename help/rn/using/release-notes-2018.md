@@ -307,7 +307,7 @@ _Aangepaste resources_
      <li> Een sjabloon voor e-mailinhoud en opgeslagen sjablonen maken en opslaan om het maken van e-mail te helpen schalen </li> 
      <li> Inhoudsfragmenten maken en opslaan (zoals een kop-, voettekst-, artikel-, enz.) om het creëren van inhoud te stroomlijnen en merkconsistentie te verzekeren </li> 
      <li> Naadloos schakelen tussen maken in de interface voor slepen en neerzetten en rechtstreeks HTML van een e-mailbericht bewerken met één klik op een knop </li> 
-    </ul> De Creative Designer voor e-mail is alleen beschikbaar in het Engels.<br /> Raadpleeg voor meer informatie de <a href="../../designing/using/designing-content-in-adobe-campaign.md">gedetailleerde documentatie</a> en bekijk dit <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">video</a>.<br /> </td> 
+    </ul> De Creative Designer voor e-mail is alleen beschikbaar in het Engels.<br /> Raadpleeg voor meer informatie de <a href="../../designing/using/designing-content-in-adobe-campaign.md">gedetailleerde documentatie</a> en bekijk dit <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms">video</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Meertalige pushleveringen<br /> </td> 

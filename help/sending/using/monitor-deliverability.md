@@ -31,19 +31,19 @@ Hieronder vindt u meer informatie over het **[!UICONTROL Delivery throughput]** 
 
 Dit verslag bevat informatie over de leveringstijd van het gehele platform gedurende een bepaalde periode om de snelheid te meten waarop de berichten worden geleverd.
 
-Voor meer op dit, zie [ productie van de Levering ](../../reporting/using/delivery-throughput.md).
+Voor meer op dit, zie [&#x200B; productie van de Levering &#x200B;](../../reporting/using/delivery-throughput.md).
 
 ![](assets/delivery_reports_1.png)
 
 U kunt de weergegeven waarden configureren door de tijdschaal te wijzigen.
 
-Er zijn andere rapporten beschikbaar, zoals **[!UICONTROL Delivery summary]** of **[!UICONTROL Non-deliverables and bounces]** . Voor meer op dit, zie [ Dynamische rapporten ](../../reporting/using/about-dynamic-reports.md).
+Er zijn andere rapporten beschikbaar, zoals **[!UICONTROL Delivery summary]** of **[!UICONTROL Non-deliverables and bounces]** . Voor meer op dit, zie [&#x200B; Dynamische rapporten &#x200B;](../../reporting/using/about-dynamic-reports.md).
 
 ## Bewaking van leveringen {#monitoring-deliveries}
 
 Het berichtdashboard geeft u toegang tot de leveringslogboeken: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** en **[!UICONTROL Tracked URLs]** . Zij tonen de details van de verzending, welk doel is uitgesloten en waarom, evenals de tracking-informatie zoals aantal geopend en aantal klikken.
 
-Voor meer op dit, zie [ Controle een levering ](../../sending/using/monitoring-a-delivery.md).
+Voor meer op dit, zie [&#x200B; Controle een levering &#x200B;](../../sending/using/monitoring-a-delivery.md).
 
 ![](assets/sending_delivery1.png)
 
@@ -51,7 +51,7 @@ Voor meer op dit, zie [ Controle een levering ](../../sending/using/monitoring-a
 
 De functie **[!UICONTROL Delivery alerting]** is een waarschuwingssysteem waarmee een groep gebruikers automatisch meldingen kan ontvangen met informatie over de uitvoering van hun leveringen.
 
-Voor meer op dit, zie [ Ontvangend alarm wanneer de mislukkingen ](../../sending/using/receiving-alerts-when-failures-happen.md) gebeuren.
+Voor meer op dit, zie [&#x200B; Ontvangend alarm wanneer de mislukkingen &#x200B;](../../sending/using/receiving-alerts-when-failures-happen.md) gebeuren.
 
 <!--## External tools (#external-tools)
 
