@@ -260,7 +260,7 @@ ht-degree: 88%
       + [Uw triggers testen](integrating/using/testing-your-triggers.md)
       + [Gebruiksscenario’s voor triggers bij afbrekingsacties](integrating/using/abandonment-triggers-use-cases.md)
    + Campagne en Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Aan de slag met de Microsoft Dynamics 365-integratie ](integrating/using/d365-acs-get-started.md)
+      + [Aan de slag met de Microsoft Dynamics 365-integratie &#x200B;](integrating/using/d365-acs-get-started.md)
       + [Best practices en beperkingen](integrating/using/d365-acs-notices-and-recommendations.md)
       + [Microsoft Dynamics 365 configureren](integrating/using/d365-acs-configure-d365.md)
       + [Campaign en Adobe I/O configureren](integrating/using/d365-acs-configure-adobe-io.md)
