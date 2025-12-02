@@ -53,7 +53,7 @@ Ga als volgt te werk om een Adobe Experience Platform-publiek rechtstreeks in Ca
 
 1. Om een segment met succes tot stand te brengen, moet u a **fusiebeleid** selecteren dat uw marketing doel voor dit segment aanpast.
 
-   In de instellingenruit, wordt een Platform standaardsamenvoegbeleid geselecteerd. Voor meer informatie over samenvoegbeleid, verwijs naar de specifieke sectie van de [&#x200B; gebruikersgids van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   In de instellingenruit, wordt een Platform standaardsamenvoegbeleid geselecteerd. Voor meer informatie over samenvoegbeleid, verwijs naar de specifieke sectie van de [&#x200B; gebruikersgids van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=nl-NL).
 
    ![](assets/aep_audiences_mergepolicy.png)
 

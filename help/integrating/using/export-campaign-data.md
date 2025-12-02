@@ -56,8 +56,8 @@ De belangrijkste stappen om uw de opslagplaats van de Opslag van de Opslag van A
 
 1. Maak in het menu van het Adobe Experience-platform een verbinding met uw opslaglocatie:**[!UICONTROL Sources]**
 
-   * [&#x200B; creeer een Amazon S3 bronverbinding &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html)
-   * [&#x200B; Azure Blob schakelaar &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html)
+   * [&#x200B; creeer een Amazon S3 bronverbinding &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=nl-NL)
+   * [&#x200B; Azure Blob schakelaar &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html?lang=nl-NL)
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ De belangrijkste stappen om uw de opslagplaats van de Opslag van de Opslag van A
 
 1. Configureer een gegevensstroom voor een batchverbinding voor cloudopslag. Een dataflow is een geplande taak die gegevens van de opslagplaats aan een dataset van Adobe Experience Platform terugwint en opneemt. Met deze stappen kunt u de gegevensinvoer vanaf uw opslaglocatie configureren, inclusief gegevensselectie en de toewijzing van de CSV-velden aan een XDM-schema.
 
-   De gedetailleerde informatie is beschikbaar in [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html).
+   De gedetailleerde informatie is beschikbaar in [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html?lang=nl-NL).
 
    ![](assets/rtcdp-map-xdm.png)
 

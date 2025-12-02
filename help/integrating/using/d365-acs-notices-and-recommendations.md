@@ -163,7 +163,7 @@ Bij de planning van het gebruik van deze integratie moet rekening worden gehoude
 
   Bij het schatten van het totale volume van de de vraagvraag van de motor van de Campagne, is het belangrijk om in andere bronnen van motorvraag, met inbegrip van het landen van pagina&#39;s, WebApps, JSSP, APIs, mobiele toepassingsregistraties, enz. rekening te houden.
 
-  Bekijk hier het pakketinformatie van Adobe Campaign Standard: [&#x200B; https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html)
+  Bekijk hier het pakketinformatie van Adobe Campaign Standard: [&#x200B; https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/nl/legal/product-descriptions/campaign-standard.html)
 
 * De integratie steunt een maximum van 15 miljoen totale verslagen voor de aanvankelijke synchronisatie aan middelen in Campagne. Incrementele synchronisatie wordt beperkt door het Adobe Campaign Standard-pakket.
 

@@ -36,5 +36,5 @@ De afbeelding wordt vervolgens ingevoegd. De levering kan nu naar wens worden ge
 
 **Verwante onderwerpen:**
 
-* [&#x200B; Assets en het Delen &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
+* [&#x200B; Assets en het Delen &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html?lang=nl-NL)
 * [Inhoudseditor](../../designing/using/personalization.md#example-email-personalization)

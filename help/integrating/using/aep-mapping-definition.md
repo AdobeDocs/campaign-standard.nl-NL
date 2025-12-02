@@ -44,7 +44,7 @@ Voor deze taak zijn de volgende vereisten vereist:
 
 >[!NOTE]
 >
->Voor een partij die in het Profiel van de Klant in real time of de Dienst van de Identiteit moet worden opgenomen, moet de dataset [&#x200B; worden toegelaten voor het Profiel van de Klant in real time &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
+>Voor een partij die in het Profiel van de Klant in real time of de Dienst van de Identiteit moet worden opgenomen, moet de dataset [&#x200B; worden toegelaten voor het Profiel van de Klant in real time &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=nl-NL).
 >
 >Als de gegevensset die u selecteert al wordt gebruikt in een bestaande gegevenstoewijzing, wordt een waarschuwing weergegeven dat uw gegevens mogelijk worden overschreven op Adobe Experience Platform. Dit kan gebeuren wanneer er sommige gemeenschappelijke ontvangers in datamappings gebruikend een zelfde dataset zijn.
 
@@ -64,7 +64,7 @@ De uitgebreide resources die in Campaign Standard zijn gedefinieerd, worden toeg
 
 U kunt de XDM-extensie aanpassen via de API en uw eigen extensie definiëren, zodat u een betere controle hebt over de toewijzing.
 
-Zie [&#x200B; de Registratie API van het Schema leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) voor meer details op XDM API.
+Zie [&#x200B; de Registratie API van het Schema leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=nl-NL) voor meer details op XDM API.
 
 Als u een opsommingsveld wilt toewijzen, moet u de expressie-editor gebruiken om elke opsommingswaarde te definiëren die overeenkomt met de XDM-waarde. Het postaladdressfield moet bijvoorbeeld als volgt worden gedefinieerd:
 

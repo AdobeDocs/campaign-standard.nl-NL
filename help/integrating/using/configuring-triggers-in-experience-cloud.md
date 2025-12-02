@@ -96,7 +96,7 @@ Er moet een Adobe Experience Cloud-trigger worden gemaakt, zodat u deze kunt geb
 
 Maak een nieuwe trigger in Experience Cloud en selecteer de rapportsuite die op uw website wordt gebruikt. Zorg ervoor dat u de juiste afmeting kiest, zodat de trigger wordt geactiveerd.
 
-Verwijs naar de [&#x200B; documentatie van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html).
+Verwijs naar de [&#x200B; documentatie van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=nl-NL).
 
 ## Triggert beste praktijken en beperkingen {#triggers-best-practices-and-limitations}
 

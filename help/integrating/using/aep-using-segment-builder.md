@@ -25,9 +25,9 @@ ht-degree: 3%
 >
 >De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 
-De Bouwer van het Segment staat u toe om publiek te bouwen door regels te bepalen die op gegevens worden gebaseerd die uit het [&#x200B; in real time Profiel van de Klant &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html) komen.
+De Bouwer van het Segment staat u toe om publiek te bouwen door regels te bepalen die op gegevens worden gebaseerd die uit het [&#x200B; in real time Profiel van de Klant &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=nl-NL) komen.
 
-In deze sectie worden algemene concepten beschreven bij het maken van een segment. Voor gedetailleerde informatie over de Bouwer van het Segment zelf, verwijs naar de [&#x200B; gebruikersgids van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+In deze sectie worden algemene concepten beschreven bij het maken van een segment. Voor gedetailleerde informatie over de Bouwer van het Segment zelf, verwijs naar de [&#x200B; gebruikersgids van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=nl-NL).
 
 De interface van de Bouwer van het Segment wordt samengesteld als volgt:
 
@@ -49,7 +49,7 @@ De Segment Builder moet nu in uw werkruimte worden weergegeven. Hiermee kunt u e
 
 1. Controleer of het gewenste samenvoegbeleid is geselecteerd in het instellingenvenster.
 
-   Voor meer informatie over samenvoegbeleid, verwijs naar de specifieke sectie van de [&#x200B; gebruikersgids van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   Voor meer informatie over samenvoegbeleid, verwijs naar de specifieke sectie van de [&#x200B; gebruikersgids van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=nl-NL).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -67,7 +67,7 @@ De Segment Builder moet nu in uw werkruimte worden weergegeven. Hiermee kunt u e
 
 In het linkerdeelvenster worden alle kenmerken, gebeurtenissen en doelgroepen weergegeven die u kunt gebruiken om regels samen te stellen.
 
-De vermelde gebieden zijn attributen die door uw bedrijf worden gevangen en door het [&#x200B; Model van de Gegevens van de Ervaring (XDM) Systeem &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) beschikbaar zijn gemaakt.
+De vermelde gebieden zijn attributen die door uw bedrijf worden gevangen en door het [&#x200B; Model van de Gegevens van de Ervaring (XDM) Systeem &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=nl-NL) beschikbaar zijn gemaakt.
 
 Velden zijn ingedeeld in tabbladen:
 
@@ -83,7 +83,7 @@ Velden zijn ingedeeld in tabbladen:
 >
 >**Meerdere-entiteitssegmentatie** staat u toe om de gegevens van het Profiel met extra gegevens uit te breiden die op producten, opslag, of andere niet-profielklassen worden gebaseerd. Zodra verbonden, worden de gegevens van extra klassen beschikbaar alsof zij aan het schema van het Profiel inheems waren.
 >
->Raadpleeg de [desbetreffende documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html) voor meer informatie.
+>Raadpleeg de [desbetreffende documentatie](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html?lang=nl-NL) voor meer informatie.
 
 Door gebrek, toont de Bouwer van het Segment gebieden waarin de gegevens reeds aanwezig zijn. Als u het volledige schema wilt weergeven, inclusief de velden waarvoor geen gegevens aanwezig zijn, schakelt u de optie **[!UICONTROL Show full XDM schema]** van de instellingen in.
 
@@ -97,7 +97,7 @@ Het symbool aan het eind van elk gebied verstrekt extra informatie over de attri
 
 >[!NOTE]
 >
->In de onderstaande sectie vindt u algemene informatie over de definitie van regels. Voor meer op dit, verwijs naar de [&#x200B; gebruikersgids van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+>In de onderstaande sectie vindt u algemene informatie over de definitie van regels. Voor meer op dit, verwijs naar de [&#x200B; gebruikersgids van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=nl-NL).
 
 Voer de volgende stappen uit om een regel te maken:
 

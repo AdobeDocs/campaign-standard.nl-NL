@@ -39,4 +39,4 @@ Een Adobe Campaign-formulier maken op uw AEM-site:
 1. Bewerk de inhoud van het formulier door verschillende velden en componenten toe te voegen die u kunt toewijzen aan de Adobe Campaign-databasevelden.
 1. Test en publiceer het formulier om het toegankelijk te maken op uw AEM-site.
 
-Raadpleeg de [gedetailleerde documentatie](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html) voor meer informatie.
+Raadpleeg de [gedetailleerde documentatie](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html?lang=nl-NL) voor meer informatie.

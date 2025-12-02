@@ -133,7 +133,7 @@ Als u wilt dat een gedeeld publiek kan functioneren met de bezoeker-id, moet het
 
 ### Stap 4: Vorm de Dienst van identiteitskaart van de Bezoeker {#step-4--configure-the-visitor-id-service}
 
-In het geval dat uw dienst van identiteitskaart van de Bezoeker nooit op uw Webeigenschappen of websites is gevormd, verwijs naar het volgende [&#x200B; document &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) om te leren hoe te om uw dienst of de volgende [&#x200B; video &#x200B;](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) te vormen.
+In het geval dat uw dienst van identiteitskaart van de Bezoeker nooit op uw Webeigenschappen of websites is gevormd, verwijs naar het volgende [&#x200B; document &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=nl-NL) om te leren hoe te om uw dienst of de volgende [&#x200B; video &#x200B;](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) te vormen.
 
 Synchroniseer de id&#39;s van de klant met de functie `setCustomerID` in de Experience Cloud-id-service met de integratiecode: `AdobeCampaignID` . `AdobeCampaignID` zou de waarde van de sleutel van de Wederopbouw moeten aanpassen die in de Ontvankelijke Gegevens Source in [&#x200B; wordt gevormd Stap 2: Vorm de Gegevensbronnen &#x200B;](#step-2--configure-the-data-sources).
 

@@ -25,12 +25,12 @@ De beschikbare eindpunten voor de Adobe Campaign REST API:
 * **/&lt;transactieAPI>**: interactie met de transactie berichten API (de naam van het transactie berichten API eindpunt hangt van uw instantieconfiguratie af). Raadpleeg [deze sectie](../../api/using/managing-transactional-messages.md) voor meer informatie.
 * **/ workflow/uitvoering** : communiceer met workflows. Raadpleeg [deze sectie](../../api/using/controlling-a-workflow.md) voor meer informatie.
 * **/privacy/privacyTool**: communiceer met privacy API om het automatische proces van privacyverzoeken toe te staan. Raadpleeg [deze sectie](../../api/using/creating-a-privacy-request.md) voor meer informatie.
-* **/history**: wik de de marketing geschiedenis van de profielen terug. Voor meer op geïntegreerde klantenprofielen in Campagne, verwijs naar de [&#x200B; documentatie van de Campagne &#x200B;](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html).
+* **/history**: wik de de marketing geschiedenis van de profielen terug. Voor meer op geïntegreerde klantenprofielen in Campagne, verwijs naar de [&#x200B; documentatie van de Campagne &#x200B;](https://helpx.adobe.com/nl/campaign/standard/audiences/using/integrated-customer-profile.html).
 
 Door gebrek, zijn de belangrijkste middelen beschikbaar voor **profileAndServices** en **profileAndServicesExt** APIs:
 
-* **/profile**: interactie met profielen van het gegevensbestand van de Campagne. Om profielen aan de dienst toe te voegen, gebruik het **/dienst** eindpunt. Voor meer op profielen in Campagne, verwijs naar de [&#x200B; documentatie van de Campagne &#x200B;](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html).
-* **/service**: beheer abonnementsservices. Voor meer op de diensten in Campagne, verwijs naar de [&#x200B; documentatie van de Campagne &#x200B;](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html).
+* **/profile**: interactie met profielen van het gegevensbestand van de Campagne. Om profielen aan de dienst toe te voegen, gebruik het **/dienst** eindpunt. Voor meer op profielen in Campagne, verwijs naar de [&#x200B; documentatie van de Campagne &#x200B;](https://helpx.adobe.com/nl/campaign/standard/audiences/using/about-profiles.html).
+* **/service**: beheer abonnementsservices. Voor meer op de diensten in Campagne, verwijs naar de [&#x200B; documentatie van de Campagne &#x200B;](https://helpx.adobe.com/nl/campaign/standard/audiences/using/creating-a-service.html).
 
 >[!NOTE]
 >

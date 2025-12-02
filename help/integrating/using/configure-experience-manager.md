@@ -67,8 +67,8 @@ U moet nu de integratie configureren in Adobe Experience Manager.
 
 Voer de volgende stappen uit om Adobe Experience Manager te configureren met Adobe Campaign Standard:
 
-1. Eerst moet u de replicatie tussen de Adobe Experience Manager-instanties voor schrijven en publiceren configureren. Verwijs naar deze [&#x200B; sectie &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager).
+1. Eerst moet u de replicatie tussen de Adobe Experience Manager-instanties voor schrijven en publiceren configureren. Verwijs naar deze [&#x200B; sectie &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=nl-NL#configuring-adobe-experience-manager).
 
-1. Sluit vervolgens Adobe Experience Manager aan op Adobe Campaign door een toegewezen **[!UICONTROL Cloud Service]** te configureren. Verwijs naar deze [&#x200B; sectie &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign).
+1. Sluit vervolgens Adobe Experience Manager aan op Adobe Campaign door een toegewezen **[!UICONTROL Cloud Service]** te configureren. Verwijs naar deze [&#x200B; sectie &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=nl-NL#connecting-aem-to-adobe-campaign).
 
-1. U moet nu de externalizer in Adobe Experience Manager op uw auteurinstantie vormen. Verwijs naar deze [&#x200B; sectie &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer).
+1. U moet nu de externalizer in Adobe Experience Manager op uw auteurinstantie vormen. Verwijs naar deze [&#x200B; sectie &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=nl-NL#configuring-the-externalizer).

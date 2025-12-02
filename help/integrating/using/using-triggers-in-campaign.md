@@ -24,7 +24,7 @@ ht-degree: 74%
 >
 >Als u Triggers wilt maken, hebt u de rol **[!UICONTROL Administration]** nodig of wilt u deel uitmaken van de beveiligingsgroep van **[!UICONTROL Administrators]** . Voor meer informatie over dit, verwijs naar deze [&#x200B; pagina &#x200B;](../../administration/using/list-of-roles.md).
 
-Zorg ervoor dat u het gedrag definieert dat u vooraf in Adobe Experience Cloud wilt controleren (**[!UICONTROL Triggers]** kernservice). Kijk voor meer informatie in de [documentatie van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html). Let op dat u bij het definiëren van de trigger aliassen moet inschakelen. Voor elk gedrag (bladeren/verlaten van formulieren, toevoegen/verwijderen van producten, vervallen sessie, enz.) moet een nieuwe trigger worden toegevoegd in Adobe Experience Cloud.
+Zorg ervoor dat u het gedrag definieert dat u vooraf in Adobe Experience Cloud wilt controleren (**[!UICONTROL Triggers]** kernservice). Kijk voor meer informatie in de [documentatie van Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=nl-NL). Let op dat u bij het definiëren van de trigger aliassen moet inschakelen. Voor elk gedrag (bladeren/verlaten van formulieren, toevoegen/verwijderen van producten, vervallen sessie, enz.) moet een nieuwe trigger worden toegevoegd in Adobe Experience Cloud.
 
 Maak nu een triggergebeurtenis in Adobe Campaign op basis van een bestaande Adobe Experience Cloud-trigger.
 
