@@ -61,7 +61,7 @@ De voorbereiding van berichten wordt geactiveerd volgens de parameters voor work
 
 1. Selecteer een berichttype. Deze typen zijn afkomstig van de sjablonen voor pushmeldingen die zijn gedefinieerd in het menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** .
 1. Voer de algemene eigenschappen voor de pushmelding in. U kunt deze ook aan een bestaande campagne koppelen. Het label van de leveringsactiviteit van de workflow wordt bijgewerkt met het label voor pushmeldingen.
-1. Definieer de inhoud van het pushbericht. Zie [ Creërend een duw- bericht ](../../channels/using/preparing-and-sending-a-push-notification.md)
+1. Definieer de inhoud van het pushbericht. Zie [&#x200B; Creërend een duw- bericht &#x200B;](../../channels/using/preparing-and-sending-a-push-notification.md)
 1. Standaard bevat de activiteit **[!UICONTROL Push notification]** geen uitgaande overgangen. Als u een uitgaande overgang wilt toevoegen aan uw activiteit **[!UICONTROL Push Notification]**, ga dan naar het tabblad **[!UICONTROL General]** van de geavanceerde opties voor activiteiten (de knop ![](assets/dlv_activity_params-24px.png) in de snelle acties van de activiteit) en vink een van de volgende opties aan:
 
    * **[!UICONTROL Add outbound transition without the population]**: Hiermee kunt u een uitgaande overgang genereren die exact dezelfde populatie als de binnenkomende overgang bevat.

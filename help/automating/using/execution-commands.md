@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # Uitvoeringsopdrachten {#execution-commands}
 
-Met de pictogrammen op de actiebalk kunt u de uitvoering van een werkstroom starten, bijhouden en wijzigen. Zie [ bar van de Actie ](../../automating/using/workflow-interface.md#action-bar).
+Met de pictogrammen op de actiebalk kunt u de uitvoering van een werkstroom starten, bijhouden en wijzigen. Zie [&#x200B; bar van de Actie &#x200B;](../../automating/using/workflow-interface.md#action-bar).
 
 ![](assets/wkf_execution_2.png)
 

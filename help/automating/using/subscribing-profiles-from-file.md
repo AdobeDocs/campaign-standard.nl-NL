@@ -25,7 +25,7 @@ De workflow wordt als volgt weergegeven:
 
 ![](assets/subscription_activity_example1.png)
 
-* A [ laadt dossier ](../../automating/using/load-file.md) activiteit het profieldossier en bepaalt de structuur van de ingevoerde kolommen.
+* A [&#x200B; laadt dossier &#x200B;](../../automating/using/load-file.md) activiteit het profieldossier en bepaalt de structuur van de ingevoerde kolommen.
 
   In dit voorbeeld heeft het geladen bestand de csv-indeling en bevat het de volgende data:
 
@@ -44,14 +44,14 @@ De workflow wordt als volgt weergegeven:
 
   ![](assets/subscription_activity_example2.png)
 
-* A [ de verzoenings ](../../automating/using/reconciliation.md) activiteit identificeert de gegevens van het dossier als behorend tot de profieldimensie van het gegevensbestand van Adobe Campaign. Alleen het tabblad **[!UICONTROL Identification]** is geconfigureerd. De bestandsdata worden geïdentificeerd aan de hand van de e-mailadressen van de profielen.
+* A [&#x200B; de verzoenings &#x200B;](../../automating/using/reconciliation.md) activiteit identificeert de gegevens van het dossier als behorend tot de profieldimensie van het gegevensbestand van Adobe Campaign. Alleen het tabblad **[!UICONTROL Identification]** is geconfigureerd. De bestandsdata worden geïdentificeerd aan de hand van de e-mailadressen van de profielen.
 
   ![](assets/subscription_activity_example3.png)
 
-* A [ Deduplicatie ](../../automating/using/deduplication.md) die op het **wordt gebaseerd e-mail** gebied van het tijdelijke middel (resulterend uit de verzoening) identificeert om het even welke duplicaten. Als de data die uit het bestand zijn geïmporteerd, duplicaten bevatten, mislukt de inschrijving op een service voor alle data.
+* A [&#x200B; Deduplicatie &#x200B;](../../automating/using/deduplication.md) die op het **wordt gebaseerd e-mail** gebied van het tijdelijke middel (resulterend uit de verzoening) identificeert om het even welke duplicaten. Als de data die uit het bestand zijn geïmporteerd, duplicaten bevatten, mislukt de inschrijving op een service voor alle data.
 
   ![](assets/subscription_activity_example5.png)
 
-* De activiteit van de Diensten van het Abonnement van A [ ](../../automating/using/subscription-services.md) laat u de dienst selecteren waarop de profielen moeten worden ingetekend, het gebied dat aan de abonnementsdatum, en de oorsprong van het abonnement beantwoordt.
+* De activiteit van de Diensten van het Abonnement van A [&#x200B; &#x200B;](../../automating/using/subscription-services.md) laat u de dienst selecteren waarop de profielen moeten worden ingetekend, het gebied dat aan de abonnementsdatum, en de oorsprong van het abonnement beantwoordt.
 
   ![](assets/subscription_activity_example4.png)

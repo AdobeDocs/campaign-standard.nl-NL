@@ -37,7 +37,7 @@ U kunt een e-mail naar klanten en dan een sms naar hen verzenden die niet de pos
 
 ## Een e-maillevering maken{#creating-an-email-delivery}
 
-1. De belemmering en laat vallen een [ E-maillevering ](../../automating/using/email-delivery.md) na elk segment.
+1. De belemmering en laat vallen een [&#x200B; E-maillevering &#x200B;](../../automating/using/email-delivery.md) na elk segment.
 1. Klik op de activiteit en selecteer ![](assets/edit_darkgrey-24px.png) om te bewerken.
 1. Selecteer **[!UICONTROL Simple email]** en klik op **[!UICONTROL Next]**.
 1. Selecteer **[!UICONTROL Add an outbound transition without the population]** en klik op **[!UICONTROL Next]**.
@@ -45,13 +45,13 @@ U kunt een e-mail naar klanten en dan een sms naar hen verzenden die niet de pos
 1. Voer de e-maileigenschappen in en klik op **[!UICONTROL Next]**.
 1. Klik op **[!UICONTROL Using the Email Designer]** om de lay-out van uw e-mail te bepalen.
 1. Voeg elementen in of selecteer een bestaande sjabloon.
-1. Personaliseer uw e-mail met aanbiedingen specifiek voor elke plaats.Voor meer informatie, verwijs naar [ het ontwerpen van e-mail ](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
+1. Personaliseer uw e-mail met aanbiedingen specifiek voor elke plaats.Voor meer informatie, verwijs naar [&#x200B; het ontwerpen van e-mail &#x200B;](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch).
 1. Klik op **[!UICONTROL Preview]** om uw lay-out te controleren.
 1. Klik op **[!UICONTROL Save]**.
 
 ## Het richten van niet-openers in een vraagactiviteit{#targeting-non-openers-in-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, belemmering en laat vallen a [ wacht ](../../automating/using/wait.md) activiteit.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, belemmering en laat vallen a [&#x200B; wacht &#x200B;](../../automating/using/wait.md) activiteit.
 1. Klik in **[!UICONTROL Duration]** op ![](assets/duration-icon.png) en selecteer een dag.
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** sleept u een **[!UICONTROL Query activity]** en zet u deze neer.
 1. Dubbelklik op de activiteit.
@@ -71,7 +71,7 @@ U kunt een e-mail naar klanten en dan een sms naar hen verzenden die niet de pos
 1. Klik op **[!UICONTROL Email Designer]** om de lay-out van uw sms te maken.
 1. Voeg elementen in of selecteer een bestaande sjabloon.
 1. Pas uw SMS-berichten aan met specifieke aanbiedingen voor elke locatie.
-Voor meer informatie, verwijs naar [ het Ontwerpen van een sms ](../../channels/using/creating-an-sms-message.md) sectie.
+Voor meer informatie, verwijs naar [&#x200B; het Ontwerpen van een sms &#x200B;](../../channels/using/creating-an-sms-message.md) sectie.
 1. Klik op **[!UICONTROL Preview]** om uw lay-out te controleren.
 1. Klik op **[!UICONTROL Save]**.
 

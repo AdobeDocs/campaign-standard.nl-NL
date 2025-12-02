@@ -50,7 +50,7 @@ U zult een nieuw project van Adobe Developer moeten creëren en het voor de inte
 
 Hiervoor volgt u de onderstaande procedure:
 
-1. Navigeer aan [ Adobe Developer Console ](https://console.adobe.io/home#) en selecteer uw identiteitskaart van de Organisatie van Adobe van het drop-down menu bij het hoogste recht van het scherm.
+1. Navigeer aan [&#x200B; Adobe Developer Console &#x200B;](https://console.adobe.io/home#) en selecteer uw identiteitskaart van de Organisatie van Adobe van het drop-down menu bij het hoogste recht van het scherm.
 
 1. Klik vervolgens op **[!UICONTROL Create new project]** onder **[!UICONTROL Quick Start]** .
 
@@ -94,9 +94,9 @@ Installatie vóór integratie in campagne is nu voltooid.
 
 **Verwante Onderwerpen**
 
-* [ vorm Adobe Developer voor Microsoft Dynamics 365 integratie ](../../integrating/using/d365-acs-configure-adobe-io.md) is de volgende stap in vestiging de integratie
-* [ het overzicht van de Toepassing van de Zelfbediening van de Integratie ](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) bevat de volledige lijst van stappen om de integratie in werking te stellen te krijgen.
-* [ Adobe Developer - de Integratie van de Rekening van de Dienst ](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
+* [&#x200B; vorm Adobe Developer voor Microsoft Dynamics 365 integratie &#x200B;](../../integrating/using/d365-acs-configure-adobe-io.md) is de volgende stap in vestiging de integratie
+* [&#x200B; het overzicht van de Toepassing van de Zelfbediening van de Integratie &#x200B;](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) bevat de volledige lijst van stappen om de integratie in werking te stellen te krijgen.
+* [&#x200B; Adobe Developer - de Integratie van de Rekening van de Dienst &#x200B;](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - API Access Setup](../../api/using/setting-up-api-access.md)
 * [Campaign Standard - Integratie met Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
-* [ Migreer geloofsbrieven van JWT aan OAuth server-aan-Server ](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) bevat de stappen om geloofsbrieven van JWT aan OAuth Server-aan-Server te migreren.
+* [&#x200B; Migreer geloofsbrieven van JWT aan OAuth server-aan-Server &#x200B;](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) bevat de stappen om geloofsbrieven van JWT aan OAuth Server-aan-Server te migreren.

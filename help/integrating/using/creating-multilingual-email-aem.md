@@ -88,7 +88,7 @@ Uw taalexemplaren worden nu gecreeerd, kunt u uw inhoud nu uitgeven afhankelijk 
 
    ![](assets/aem_acs_12.png)
 
-1. Selecteer uw Adobe Campaign-sjabloon voor meertalige e-mail die is geconfigureerd om Adobe Experience Manager-inhoud te ontvangen. Meer leren op hoe te om een malplaatje tot stand te brengen verbonden aan uw instantie van Adobe Experience Manager, verwijs naar deze [ pagina ](../../integrating/using/configure-experience-manager.md#config-acs).
+1. Selecteer uw Adobe Campaign-sjabloon voor meertalige e-mail die is geconfigureerd om Adobe Experience Manager-inhoud te ontvangen. Meer leren op hoe te om een malplaatje tot stand te brengen verbonden aan uw instantie van Adobe Experience Manager, verwijs naar deze [&#x200B; pagina &#x200B;](../../integrating/using/configure-experience-manager.md#config-acs).
 
    >[!NOTE]
    >
@@ -124,10 +124,10 @@ Uw taalexemplaren worden nu gecreeerd, kunt u uw inhoud nu uitgeven afhankelijk 
 
 1. Als uw inhoud of varianten in Adobe Experience Manager worden bijgewerkt, kunt u deze rechtstreeks in Adobe Campaign Standard synchroniseren met de knop **[!UICONTROL Refresh AEM contents]** .
 
-1. Uw e-mail kan nu worden verzonden. Voor meer informatie over dit, verwijs naar deze [ pagina ](../../sending/using/get-started-sending-messages.md).
+1. Uw e-mail kan nu worden verzonden. Voor meer informatie over dit, verwijs naar deze [&#x200B; pagina &#x200B;](../../sending/using/get-started-sending-messages.md).
 
    >[!NOTE]
    >
    >U kunt geen e-mail verzenden in Adobe Campaign als er AEM-inhoud wordt gebruikt die niet is goedgekeurd.
 
-Uw doelgroep ontvangt uw e-mail afhankelijk van de set **[!UICONTROL Preferred languages]** in de **[!UICONTROL Profiles]** . Meer leren op hoe te om profielen en aangewezen talen uit te geven, verwijs naar deze [ pagina ](../../audiences/using/editing-profiles.md).
+Uw doelgroep ontvangt uw e-mail afhankelijk van de set **[!UICONTROL Preferred languages]** in de **[!UICONTROL Profiles]** . Meer leren op hoe te om profielen en aangewezen talen uit te geven, verwijs naar deze [&#x200B; pagina &#x200B;](../../audiences/using/editing-profiles.md).

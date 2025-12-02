@@ -20,10 +20,10 @@ ht-degree: 6%
 
 Naast het volgen van de online aanwezigheid van klanten, kunt u ook uit hun fysieke plaatsen voordeel halen. Dankzij de integratie met Adobe Analytics for Mobile kunt u Adobe Campaign gebruiken om op locatie gebaseerde marketingberichten te verzenden naar de abonnees van uw mobiele toepassing.
 
-De interessepunten bestaan uit een breedte, een lengtegraad en een straal verbonden aan een etiket. Zij worden bepaald in de [ Mobiele Diensten van Adobe ](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) interface.
+De interessepunten bestaan uit een breedte, een lengtegraad en een straal verbonden aan een etiket. Zij worden bepaald in de [&#x200B; Mobiele Diensten van Adobe &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) interface.
 
 Als een abonnee uw mobiele toepassing opent en de locatie overeenkomt met een punt van interesse, legt Adobe Campaign de gegevens vast via de Experience Cloud Mobile SDK. U kunt deze gegevens gebruiken om persoonlijke berichten te verzenden op basis van de locatie van de gebruiker (zoals e-mails, pushberichten, SMS-berichten).
 
 U kunt bijvoorbeeld een kortingsaanbieding van 10% sturen naar klanten die uw toepassing gebruiken en in de afgelopen twee weken een van uw winkels in Boston hebben bezocht.
 
-Een gebruiksgeval wordt voorgesteld in de [ Persoonlijke berichten van de Campagne met de gegevens van het Punt van de Gegevens ](../../integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md) sectie.
+Een gebruiksgeval wordt voorgesteld in de [&#x200B; Persoonlijke berichten van de Campagne met de gegevens van het Punt van de Gegevens &#x200B;](../../integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md) sectie.

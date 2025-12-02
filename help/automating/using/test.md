@@ -48,9 +48,9 @@ Voorwaarden zijn gebaseerd op **functies** of op **variabelen**, zoals gebeurten
 
    Bij het bewerken van het veld **[!UICONTROL Condition]** krijgt u via twee knoppen hulp bij het aanroepen van gebeurtenisvariabelen en bij het bewerken van expressies waarin variabelen en functies worden gecombineerd:
 
-   * ![](assets/extsignal_picker.png): selecteer de gebeurtenisvariabele onder alle variabelen die in het werkschema beschikbaar zijn (zie [ deze pagina ](../../automating/using/customizing-workflow-external-parameters.md)).
+   * ![](assets/extsignal_picker.png): selecteer de gebeurtenisvariabele onder alle variabelen die in het werkschema beschikbaar zijn (zie [&#x200B; deze pagina &#x200B;](../../automating/using/customizing-workflow-external-parameters.md)).
 
-     Bijvoorbeeld, kunt u het aantal gedownloade dossiers na a [ de overdrachtactiviteit van het Dossier controleren ](../../automating/using/transfer-file.md) gebruikend de **[!UICONTROL filesCount]** variabele.
+     Bijvoorbeeld, kunt u het aantal gedownloade dossiers na a [&#x200B; de overdrachtactiviteit van het Dossier controleren &#x200B;](../../automating/using/transfer-file.md) gebruikend de **[!UICONTROL filesCount]** variabele.
 
      ![](assets/wkf_test_activity_variables.png)
 

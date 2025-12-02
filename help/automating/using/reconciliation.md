@@ -45,7 +45,7 @@ De activiteit **[!UICONTROL Reconciliation]** wordt hoofdzakelijk gebruikt voor 
 
 De **[!UICONTROL Reconciliation]** -activiteit kan bijvoorbeeld worden geplaatst na een laadgegevensactiviteit om niet-standaardgegevens te importeren in de database.
 
-Terwijl de **Verrijking** activiteit u toestaat om extra gegevens te bepalen in uw werkschema (gebruik een **Verrijking** activiteit om gegevens te combineren die uit veelvoudige reeksen komen, of verbindingen tot stand te brengen aan een tijdelijk middel), staat de **Verzoening** activiteit u toe om niet geïdentificeerde gegevens aan bestaande middelen te verbinden. De afstemmingsoperatie houdt in dat de gegevens van de gekoppelde afmetingen al in de database staan. De gevallen van het gebruik zijn beschikbaar in [ deze sectie ](#use-cases-reconciliation).
+Terwijl de **Verrijking** activiteit u toestaat om extra gegevens te bepalen in uw werkschema (gebruik een **Verrijking** activiteit om gegevens te combineren die uit veelvoudige reeksen komen, of verbindingen tot stand te brengen aan een tijdelijk middel), staat de **Verzoening** activiteit u toe om niet geïdentificeerde gegevens aan bestaande middelen te verbinden. De afstemmingsoperatie houdt in dat de gegevens van de gekoppelde afmetingen al in de database staan. De gevallen van het gebruik zijn beschikbaar in [&#x200B; deze sectie &#x200B;](#use-cases-reconciliation).
 
 
 ## Configuratie {#configuration}

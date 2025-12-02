@@ -181,9 +181,9 @@ Telkens wanneer de activiteit wordt uitgevoerd, wordt de map als volgt gecontrol
 
 ## Uitvoervariabelen {#output-variables}
 
-De **[!UICONTROL Transfer file]** activiteit produceert gebeurtenisvariabelen als output, die u hefboomwerking in andere activiteiten kunt, bijvoorbeeld om het aantal gedownloade dossiers te controleren gebruikend a [ Test ](../../automating/using/test.md) activiteit.
+De **[!UICONTROL Transfer file]** activiteit produceert gebeurtenisvariabelen als output, die u hefboomwerking in andere activiteiten kunt, bijvoorbeeld om het aantal gedownloade dossiers te controleren gebruikend a [&#x200B; Test &#x200B;](../../automating/using/test.md) activiteit.
 
-Merk op dat de gebeurtenisvariabelen ook aan een ander werkschema kunnen worden overgegaan gebruikend een extern signaal (zie [ Aanpassend een werkschema met externe parameters ](../../automating/using/customizing-workflow-external-parameters.md)).
+Merk op dat de gebeurtenisvariabelen ook aan een ander werkschema kunnen worden overgegaan gebruikend een extern signaal (zie [&#x200B; Aanpassend een werkschema met externe parameters &#x200B;](../../automating/using/customizing-workflow-external-parameters.md)).
 
 Beschikbare uitvoervariabelen zijn:
 

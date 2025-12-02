@@ -22,13 +22,13 @@ Loggegevens, of ze nu betrekking hebben op leveringen of op abonnementen, kunnen
 
 >[!CAUTION]
 >
->Slechts kunnen de Functionele [ beheerders ](../../administration/using/users-management.md#functional-administrators), met **[!UICONTROL Administration]** rol en toegang tot **Alle** eenheden tot het verzenden van logboeken, berichtlogboeken, het volgen logboeken, uitsluiting of abonnementlogboeken toegang hebben. Een gebruiker zonder beheerdersrechten kan zich richten op deze logbestanden, maar begint met een gekoppelde tabel (profielen, levering).
+>Slechts kunnen de Functionele [&#x200B; beheerders &#x200B;](../../administration/using/users-management.md#functional-administrators), met **[!UICONTROL Administration]** rol en toegang tot **Alle** eenheden tot het verzenden van logboeken, berichtlogboeken, het volgen logboeken, uitsluiting of abonnementlogboeken toegang hebben. Een gebruiker zonder beheerdersrechten kan zich richten op deze logbestanden, maar begint met een gekoppelde tabel (profielen, levering).
 
 Als u een **[!UICONTROL Incremental query]** gebruikt die alleen nieuwe logbestanden ophaalt wanneer de workflow wordt uitgevoerd en een eenvoudige **[!UICONTROL Extract file]** -activiteit gebruikt om de uitvoerkolommen te definiëren, kunt u een bestand ophalen met de indeling en alle gegevens die u nodig hebt. Gebruik vervolgens een **[!UICONTROL Transfer file]** -activiteit om het uiteindelijke bestand op te halen. Elke werkstroomuitvoering wordt gepland door een **[!UICONTROL Scheduler]** .
 
 De bewerking voor het exporteren van logbestanden kan worden uitgevoerd door standaardgebruikers. De privé middelen zoals: de uitzendingen, het volgen logboeken, de logboeken van het uitsluitingslogboekabonnement en de abonnementsgeschiedenis logboeken op **Profielen** kunnen slechts door functionele beheerder worden beheerd.
 
-1. Creeer een nieuw werkschema zoals gedetailleerd in [ deze sectie ](../../automating/using/building-a-workflow.md#creating-a-workflow).
+1. Creeer een nieuw werkschema zoals gedetailleerd in [&#x200B; deze sectie &#x200B;](../../automating/using/building-a-workflow.md#creating-a-workflow).
 1. Voeg een **[!UICONTROL Scheduler]** activiteit toe en plaats het op uw behoeften. Hieronder ziet u een voorbeeld van een maandelijkse uitvoering.
 
    ![](assets/export_logs_scheduler.png)
@@ -39,7 +39,7 @@ De bewerking voor het exporteren van logbestanden kan worden uitgevoerd door sta
 
      ![](assets/export_logs_query_properties.png)
 
-   * Stel op het tabblad **[!UICONTROL Target]** een voorwaarde in om alle leveringslogboeken op te halen die overeenkomen met leveringen die in 2016 of daarna zijn verzonden. Voor meer informatie, verwijs naar [ het Uitgeven vragen ](../../automating/using/editing-queries.md#creating-queries) sectie.
+   * Stel op het tabblad **[!UICONTROL Target]** een voorwaarde in om alle leveringslogboeken op te halen die overeenkomen met leveringen die in 2016 of daarna zijn verzonden. Voor meer informatie, verwijs naar [&#x200B; het Uitgeven vragen &#x200B;](../../automating/using/editing-queries.md#creating-queries) sectie.
 
      ![](assets/export_logs_query_target.png)
 
@@ -70,7 +70,7 @@ De bewerking voor het exporteren van logbestanden kan worden uitgevoerd door sta
 1. Voeg een **[!UICONTROL Transfer file]** -activiteit toe en configureer deze om het nieuwe bestand van de Adobe Campaign-server over te brengen naar een andere locatie waar u toegang tot het bestand hebt, zoals een SFTP-server.
 
    * Selecteer op het tabblad **[!UICONTROL General]** **[!UICONTROL File upload]** omdat het bestand van Adobe Campaign naar een andere server moet worden verzonden.
-   * In het **[!UICONTROL Protocol]** lusje, specificeer de overdrachtsparameters en selecteer de [ externe rekening ](../../administration/using/external-accounts.md#creating-an-external-account) aan gebruik.
+   * In het **[!UICONTROL Protocol]** lusje, specificeer de overdrachtsparameters en selecteer de [&#x200B; externe rekening &#x200B;](../../administration/using/external-accounts.md#creating-an-external-account) aan gebruik.
 
 1. Voeg een **[!UICONTROL End]** activiteit toe om ervoor te zorgen het behoorlijk beëindigt en uw werkschema bewaart.
 

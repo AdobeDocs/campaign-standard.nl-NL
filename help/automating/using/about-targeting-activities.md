@@ -43,18 +43,18 @@ De sectie **[!UICONTROL Targeting]** bevat de volgende activiteiten:
 
 U kunt gegevens selecteren met behulp van de volgende activiteiten:
 
-* Met de activiteit **[!UICONTROL Query]** kunt u een populatie van elementen filteren en extraheren uit de Adobe Campaign-database. Zie de [ sectie van de Vraag ](../../automating/using/query.md).
-* Met de activiteit **[!UICONTROL Incremental query]** kunt u een populatie van elementen filteren en extraheren uit de Adobe Campaign-database. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Hierdoor kunt u alleen nieuwe elementen als doel instellen. Zie de koppeling. [ Incrementele vraag ](../../automating/using/incremental-query.md) sectie.
-* De **[!UICONTROL Read audience]** activiteit staat u toe om een bestaand publiek terug te winnen en het te raffineren door extra het filtreren voorwaarden toe te passen.Zie [ Lezen publiek ](../../automating/using/read-audience.md) sectie.
+* Met de activiteit **[!UICONTROL Query]** kunt u een populatie van elementen filteren en extraheren uit de Adobe Campaign-database. Zie de [&#x200B; sectie van de Vraag &#x200B;](../../automating/using/query.md).
+* Met de activiteit **[!UICONTROL Incremental query]** kunt u een populatie van elementen filteren en extraheren uit de Adobe Campaign-database. Telkens wanneer deze activiteit wordt uitgevoerd, worden de resultaten van de vorige uitvoeringen uitgesloten. Hierdoor kunt u alleen nieuwe elementen als doel instellen. Zie de koppeling. [&#x200B; Incrementele vraag &#x200B;](../../automating/using/incremental-query.md) sectie.
+* De **[!UICONTROL Read audience]** activiteit staat u toe om een bestaand publiek terug te winnen en het te raffineren door extra het filtreren voorwaarden toe te passen.Zie [&#x200B; Lezen publiek &#x200B;](../../automating/using/read-audience.md) sectie.
 
 ## Gegevens segmenteren {#segmenting-data}
 
 Met Adobe Campaign kunt u sets van binnenkomende gegevens verwerken. U kunt dus meerdere populaties combineren, een deel ervan uitsluiten of gegevens alleen gemeenschappelijk houden voor verschillende doelen.
 
-* Met de **[!UICONTROL Union]** -activiteit kunt u het resultaat van meerdere activiteiten opnieuw groeperen in één doel. Zie [ Unie ](../../automating/using/union.md) sectie.
-* Met de **[!UICONTROL Intersection]** -activiteit kunt u alleen de elementen behouden die de verschillende binnenkomende populaties in de activiteit gemeen hebben. Zie de [ sectie van de Intersectie ](../../automating/using/intersection.md).
-* Met de **[!UICONTROL Exclusion]** -activiteit kunt u elementen op basis van bepaalde criteria van één populatie uitsluiten. Zie de [ sectie van de Uitsluiting ](../../automating/using/exclusion.md).
-* Met de activiteit **[!UICONTROL Segmentation]** kunt u een of meer segmenten maken van een populatie die wordt berekend door activiteiten die eerder in de workflow zijn geplaatst. Aan het eind van de activiteit, kunnen zij in één enkele overgang of verschillende overgangen worden verwerkt. Zie de [ sectie van de Segmentatie ](../../automating/using/segmentation.md).
+* Met de **[!UICONTROL Union]** -activiteit kunt u het resultaat van meerdere activiteiten opnieuw groeperen in één doel. Zie [&#x200B; Unie &#x200B;](../../automating/using/union.md) sectie.
+* Met de **[!UICONTROL Intersection]** -activiteit kunt u alleen de elementen behouden die de verschillende binnenkomende populaties in de activiteit gemeen hebben. Zie de [&#x200B; sectie van de Intersectie &#x200B;](../../automating/using/intersection.md).
+* Met de **[!UICONTROL Exclusion]** -activiteit kunt u elementen op basis van bepaalde criteria van één populatie uitsluiten. Zie de [&#x200B; sectie van de Uitsluiting &#x200B;](../../automating/using/exclusion.md).
+* Met de activiteit **[!UICONTROL Segmentation]** kunt u een of meer segmenten maken van een populatie die wordt berekend door activiteiten die eerder in de workflow zijn geplaatst. Aan het eind van de activiteit, kunnen zij in één enkele overgang of verschillende overgangen worden verwerkt. Zie de [&#x200B; sectie van de Segmentatie &#x200B;](../../automating/using/segmentation.md).
 
 ## Gegevens worden verrijkt {#enriching-data}
 

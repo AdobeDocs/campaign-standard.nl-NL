@@ -39,7 +39,7 @@ De **[!UICONTROL Segmentation]** -activiteit wordt doorgaans geplaatst na doelac
 
 **Verwante onderwerpen**
 
-* [ geval van het Gebruik: Het segmenteren van profielen volgens hun leeftijdsgroepen ](../../automating/using/segmentation-age-groups.md).
+* [&#x200B; geval van het Gebruik: Het segmenteren van profielen volgens hun leeftijdsgroepen &#x200B;](../../automating/using/segmentation-age-groups.md).
 
 ## Configuratie {#configuration}
 
@@ -62,7 +62,7 @@ De **[!UICONTROL Segmentation]** -activiteit wordt doorgaans geplaatst na doelac
    * **[!UICONTROL Limit segment population]**: Hiermee kunt u de segmentgrootte beperken.
    * **[!UICONTROL Filter and limit segment population]**: Hiermee kunt u de segmentpopulatie filteren en de grootte ervan beperken.
    * **[!UICONTROL Label]**: segmentlabel.
-   * **[!UICONTROL Segment code]**: code die aan de segmentpopulatie wordt toegewezen.De segmentcode kan worden gepersonaliseerd gebruikend een standaarduitdrukking en gebeurtenisvariabelen (zie [ deze pagina ](../../automating/using/customizing-workflow-external-parameters.md)).
+   * **[!UICONTROL Segment code]**: code die aan de segmentpopulatie wordt toegewezen.De segmentcode kan worden gepersonaliseerd gebruikend een standaarduitdrukking en gebeurtenisvariabelen (zie [&#x200B; deze pagina &#x200B;](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Exclude segment from population]**: Hiermee sluit u het opgegeven segment uit van de uitgaande populatie van de activiteit. Deze optie kan alleen worden gebruikt als de optie **[!UICONTROL Generate all segments in the same transition]** is geselecteerd.
 
    ![](assets/wkf_segment_new_segment.png)
@@ -100,6 +100,6 @@ De **[!UICONTROL Segmentation]** -activiteit wordt doorgaans geplaatst na doelac
       * Wanneer de optie niet is ingeschakeld, controleert de **[!UICONTROL Segmentation]** -activiteit of een profiel niet aanwezig is in verschillende uitvoerovergangen, zelfs als dit profiel voldoet aan de criteria van verschillende subsets.
       * Als de optie is ingeschakeld, kunnen de profielen in verschillende subsets worden gevonden als ze voldoen aan de filtercriteria.
    * Als aan de binnenkomende populatie al een segmentcode is toegewezen die u wilt behouden, controleert u de optie **[!UICONTROL Concatenate the code of each segment]** . De segmentcode die in de activiteit wordt opgegeven, wordt toegevoegd aan de oorspronkelijke segmentcode.
-   * Controleer de optie **[!UICONTROL Generate complement]** als u de resterende populatie wilt gebruiken. Zie [ geval van het Gebruik: Creërend leveringen met een aanvulling ](../../automating/using/workflow-created-query-with-complement.md).
+   * Controleer de optie **[!UICONTROL Generate complement]** als u de resterende populatie wilt gebruiken. Zie [&#x200B; geval van het Gebruik: Creërend leveringen met een aanvulling &#x200B;](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Bevestig de configuratie van uw activiteit en sla de workflow op.

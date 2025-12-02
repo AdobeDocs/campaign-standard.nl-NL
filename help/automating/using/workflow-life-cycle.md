@@ -23,7 +23,7 @@ De levenscyclus van een werkstroom omvat drie hoofdstappen en elke stap is gekop
 
 * **het Uitgeven** (grijs)
 
-  Dit is de aanvankelijke ontwerpfase van een werkschema (verwijs naar [ Creërend een werkschema ](../../automating/using/building-a-workflow.md#creating-a-workflow)). De workflow wordt nog niet door de server afgehandeld en kan zonder risico worden gewijzigd.
+  Dit is de aanvankelijke ontwerpfase van een werkschema (verwijs naar [&#x200B; Creërend een werkschema &#x200B;](../../automating/using/building-a-workflow.md#creating-a-workflow)). De workflow wordt nog niet door de server afgehandeld en kan zonder risico worden gewijzigd.
 
 * **lopend** (blauw)
 
@@ -41,8 +41,8 @@ Als de workflow eenmaal is gestart, kan deze ook twee andere statussen hebben:
 
 * **Onjuiste** (rood)
 
-  Er is een fout opgetreden bij het uitvoeren van een workflow. De werkstroom is gestopt en de gebruiker moet een actie uitvoeren. Om meer over deze fout te weten te komen, gebruik de ![](assets/printpreview_darkgrey-24px.png) knoop om tot het werkschemalogboek toegang te hebben (verwijs naar [ Controle ](../../automating/using/monitoring-workflow-execution.md)).
+  Er is een fout opgetreden bij het uitvoeren van een workflow. De werkstroom is gestopt en de gebruiker moet een actie uitvoeren. Om meer over deze fout te weten te komen, gebruik de ![](assets/printpreview_darkgrey-24px.png) knoop om tot het werkschemalogboek toegang te hebben (verwijs naar [&#x200B; Controle &#x200B;](../../automating/using/monitoring-workflow-execution.md)).
 
-In de lijst met marketingactiviteiten kunt u alle workflows en de bijbehorende statussen weergeven. Voor meer op dit, zie [ het Leiden marketing activiteiten ](../../start/using/marketing-activities.md#about-marketing-activities).
+In de lijst met marketingactiviteiten kunt u alle workflows en de bijbehorende statussen weergeven. Voor meer op dit, zie [&#x200B; het Leiden marketing activiteiten &#x200B;](../../start/using/marketing-activities.md#about-marketing-activities).
 
 ![](assets/wkf_execution_3.png)

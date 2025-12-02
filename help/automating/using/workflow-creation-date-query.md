@@ -27,7 +27,7 @@ U kunt een voorstel via e-mail verzenden op de dag dat de klant het profiel heef
 
 ## Een planningsactiviteit maken {#creating-a-scheduler-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, belemmering en laat vallen a [ Planner ](../../automating/using/scheduler.md) activiteit.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, belemmering en laat vallen a [&#x200B; Planner &#x200B;](../../automating/using/scheduler.md) activiteit.
 1. Dubbelklik op de activiteit.
 1. Configureer de uitvoering van uw levering.
 1. In **[!UICONTROL Execution frequency]** selecteert u **[!UICONTROL Daily]**.
@@ -43,7 +43,7 @@ U kunt een voorstel via e-mail verzenden op de dag dat de klant het profiel heef
 
 ## Query-activiteiten maken {#creating-a-query-activity}
 
-1. Om ontvangers te selecteren, sleep en laat vallen de activiteit van de a [ Vraag ](../../automating/using/query.md) en klik het tweemaal.
+1. Om ontvangers te selecteren, sleep en laat vallen de activiteit van de a [&#x200B; Vraag &#x200B;](../../automating/using/query.md) en klik het tweemaal.
 1. Voeg **[!UICONTROL Profiles]** toe en selecteer **[!UICONTROL no longer contact by email]** met de waarde **[!UICONTROL no]** .
 
 ### Profielen ophalen die zijn gemaakt op dezelfde dag als de dag van uitvoering {#retrieving-profiles-created-on-the-same-day}
@@ -87,7 +87,7 @@ De uiteindelijke query wordt weergegeven:
 
 ## Een e-maillevering maken{#creating-an-email-delivery}
 
-1. De belemmering en laat vallen een [ E-maillevering ](../../automating/using/email-delivery.md) activiteit.
+1. De belemmering en laat vallen een [&#x200B; E-maillevering &#x200B;](../../automating/using/email-delivery.md) activiteit.
 1. Klik op de activiteit en selecteer ![](assets/edit_darkgrey-24px.png) om te bewerken.
 1. Selecteer **[!UICONTROL Recurring email]** en klik op **[!UICONTROL Next]**.
 1. Selecteer een e-mailsjabloon en klik op **[!UICONTROL Next]**.

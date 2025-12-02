@@ -55,14 +55,14 @@ U kunt dan met het integratiehulpmiddel beginnen. Voer de volgende stappen uit:
 
 Open een browser en blader aan de schakelaar verbonden aan uw gebied:
 
-* [ Azië Pacific ](https://d365-acs-ap.ea.adobe.com/)
-* [ Europa, Midden-Oosten, of Afrika (EMEA) ](https://d365-acs-em.ea.adobe.com/)
-* [ Amerika ](https://d365-acs-am.ea.adobe.com/)
+* [&#x200B; Azië Pacific &#x200B;](https://d365-acs-ap.ea.adobe.com/)
+* [&#x200B; Europa, Midden-Oosten, of Afrika (EMEA) &#x200B;](https://d365-acs-em.ea.adobe.com/)
+* [&#x200B; Amerika &#x200B;](https://d365-acs-am.ea.adobe.com/)
 
 ## Bevestiging van privacyverzoek {#self-service-app-acknowledgement}
 
 Wanneer het doorbladeren aan zelfbediening UI voor het eerst, zult u met de privacyerkenning worden voorgesteld. U moet erkennen dat u uw rol in het afzonderlijk uitvoeren van privacyverzoeken in Campagne en Microsoft Dynamics 365 begrijpt voordat u kunt doorgaan.
-Leer meer over uw privacyverantwoordelijkheden en over hoe te om privacyverzoeken in [ te beheren deze sectie ](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
+Leer meer over uw privacyverantwoordelijkheden en over hoe te om privacyverzoeken in [&#x200B; te beheren deze sectie &#x200B;](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
 
 ## Uw referenties instellen {#self-service-app-credentials}
 
@@ -89,11 +89,11 @@ Vul de volgende secties in op de pagina **[!UICONTROL Settings]** :
 * Microsoft Dynamics 365 Credentials
 * Adobe Credentials
 
-Ga [ hier ](../../integrating/using/d365-acs-self-service-app-settings.md) om gedetailleerdere informatie over te vinden waar te om de informatie voor elke input te vinden. Wanneer u klaar bent, klikt u op de knop **[!UICONTROL Save]** onderaan.
+Ga [&#x200B; hier &#x200B;](../../integrating/using/d365-acs-self-service-app-settings.md) om gedetailleerdere informatie over te vinden waar te om de informatie voor elke input te vinden. Wanneer u klaar bent, klikt u op de knop **[!UICONTROL Save]** onderaan.
 
 ## De eerste configuratie controleren {#self-service-app-initial-config}
 
-Ervan uitgaande dat u de bovenstaande voorwaarden hebt vervuld en dat u al uw referenties correct hebt toegevoegd, gaan we nu naar de pagina **[!UICONTROL Workflows]** . Leer meer over de integratie app werkschema&#39;s in [ deze pagina ](../../integrating/using/d365-acs-self-service-app-workflows.md).
+Ervan uitgaande dat u de bovenstaande voorwaarden hebt vervuld en dat u al uw referenties correct hebt toegevoegd, gaan we nu naar de pagina **[!UICONTROL Workflows]** . Leer meer over de integratie app werkschema&#39;s in [&#x200B; deze pagina &#x200B;](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
 Klik in de pagina **[!UICONTROL Workflows]** op het potloodpictogram dat is gekoppeld aan de **[!UICONTROL Microsoft Dynamics 365 to Campaign]** -workflow om de configuratie ervan te bewerken.
 
@@ -105,7 +105,7 @@ Op de pagina **[!UICONTROL Microsoft Dynamics 365 to Campaign]** hebt u toegang 
 
 Controleer op de pagina **[!UICONTROL Edit Table Mapping]** de sectie **[!UICONTROL Mappings]** om ervoor te zorgen dat velden uit Microsoft Dynamics 365 worden toegewezen aan het juiste veld in Campagne. Als u andere toewijzingen moet toevoegen, doet u dit nu, evenals om het even welke vervangingen of filters. [Meer informatie](../../integrating/using/d365-acs-self-service-app-data-sync.md).
 
-Als u nieuwe afbeeldingen wilt toevoegen, verwijs naar [ deze sectie ](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) voor meer informatie.
+Als u nieuwe afbeeldingen wilt toevoegen, verwijs naar [&#x200B; deze sectie &#x200B;](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) voor meer informatie.
 
 Wanneer de configuratie juist is, klikt u op de knop **[!UICONTROL Play]** naast de **[!UICONTROL Microsoft Dynamics 365 to Campaign]** -workflow om de integratie en de gegevensstroom te starten.
 
@@ -135,7 +135,7 @@ De items in het keuzemenu zijn:
 
 * **Documentatie**: Deze optie is een verbinding met de Documentatie van Adobe Campaign specifiek voor deze integratie
 
-* **de Zorg van 0} Klant**: Dit is een verbinding aan de documentatie van Experience Cloud met betrekking tot het openen van een Klantenticket van de Zorg van de Klant
+* **de Zorg van 0&rbrace; Klant**: Dit is een verbinding aan de documentatie van Experience Cloud met betrekking tot het openen van een Klantenticket van de Zorg van de Klant
 
 * **Teken uit**: Dit zal u uit de toepassing ondertekenen en u toestaan terug binnen als een andere gebruiker te ondertekenen.
 

@@ -37,7 +37,7 @@ U kunt een e-mail naar klanten sturen: één voor klanten die minder dan een jaa
 
 ## Een segmentatieactiviteit maken {#create-a-segmentation-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, belemmering en laat vallen a [ Segmentatie ](../../automating/using/segmentation.md) activiteit en klik het tweemaal.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, belemmering en laat vallen a [&#x200B; Segmentatie &#x200B;](../../automating/using/segmentation.md) activiteit en klik het tweemaal.
 1. Houd de muisaanwijzer boven het segment en klik op ![](assets/edit_darkgrey-24px.png) om klanten aan te wijzen die dit jaar in de database zijn toegevoegd.
 1. Sleep en zet **[!UICONTROL Profiles]** neer en selecteer **[!UICONTROL Created]** met het filtertype **[!UICONTROL Relative]** .
 1. Wijzig **[!UICONTROL Level of precision]** in **[!UICONTROL Year]** en selecteer **[!UICONTROL This year]** .
@@ -54,7 +54,7 @@ U kunt een e-mail naar klanten sturen: één voor klanten die minder dan een jaa
 
 ## Een e-maillevering maken {#create-an-email-delivery}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, belemmering en laat vallen een [ E-maillevering ](../../automating/using/email-delivery.md) activiteit na elk segment.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, belemmering en laat vallen een [&#x200B; E-maillevering &#x200B;](../../automating/using/email-delivery.md) activiteit na elk segment.
 1. Klik op de activiteit en selecteer ![](assets/edit_darkgrey-24px.png) om te bewerken.
 1. Selecteer **[!UICONTROL Single send email]** en klik op **[!UICONTROL Next]**.
 1. Selecteer een e-mailsjabloon en klik op **[!UICONTROL Next]**.

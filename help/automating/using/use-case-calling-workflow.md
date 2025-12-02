@@ -24,9 +24,9 @@ Het doel is een workflow te activeren vanaf een API-aanroep met externe paramete
 
 Voor dit gebruik moet u de volgende handelingen uitvoeren:
 
-1. **maak een API vraag** om Werkschema 1 met externe parameters teweeg te brengen. Zie [ Stap 1: Het vormen van de API vraag ](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call).
-1. **bouwt Werkschema 1**: het werkschema zal een dossier overbrengen en het in het gegevensbestand laden. Vervolgens wordt getest of de gegevens leeg zijn of niet en worden de profielen uiteindelijk in een publiek opgeslagen. Tot slot zal het Werkschema 2 teweegbrengen. Zie [ Stap 2: Het vormen Workflow 1 ](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1).
-1. **bouwt Werkschema 2**: het werkschema zal het publiek lezen dat in Werkschema 1 is gecreeerd, dan verzend een gepersonaliseerd bericht naar de profielen, met een segmentcode die met de parameters wordt aangepast. Zie [ Stap 3: Het vormen Workflow 2 ](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
+1. **maak een API vraag** om Werkschema 1 met externe parameters teweeg te brengen. Zie [&#x200B; Stap 1: Het vormen van de API vraag &#x200B;](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call).
+1. **bouwt Werkschema 1**: het werkschema zal een dossier overbrengen en het in het gegevensbestand laden. Vervolgens wordt getest of de gegevens leeg zijn of niet en worden de profielen uiteindelijk in een publiek opgeslagen. Tot slot zal het Werkschema 2 teweegbrengen. Zie [&#x200B; Stap 2: Het vormen Workflow 1 &#x200B;](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1).
+1. **bouwt Werkschema 2**: het werkschema zal het publiek lezen dat in Werkschema 1 is gecreeerd, dan verzend een gepersonaliseerd bericht naar de profielen, met een segmentcode die met de parameters wordt aangepast. Zie [&#x200B; Stap 3: Het vormen Workflow 2 &#x200B;](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
 
 ![](assets/extsignal_uc_process.png)
 
@@ -36,7 +36,7 @@ Voordat u de workflows configureert, moet u eerst de workflows 1 en 2 maken met 
 
 ## Stap 1: De API-aanroep configureren {#step-1--configuring-the-api-call}
 
-Maak een API vraag om Werkstroom 1 met parameters teweeg te brengen. Voor meer op de API vraagsyntaxis, verwijs naar de [ documentatie van Campaign Standard REST APIs ](../../api/using/triggering-a-signal-activity.md).
+Maak een API vraag om Werkstroom 1 met parameters teweeg te brengen. Voor meer op de API vraagsyntaxis, verwijs naar de [&#x200B; documentatie van Campaign Standard REST APIs &#x200B;](../../api/using/triggering-a-signal-activity.md).
 
 In ons geval willen we de workflow met de volgende parameters bellen:
 

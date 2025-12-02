@@ -23,7 +23,7 @@ ht-degree: 3%
 
 Met het pictogram ![](assets/printpreview_darkgrey-24px.png) opent u het workflowlogboek en het taakmenu.
 
-De werkschemageschiedenis wordt bewaard voor de duur die in de opties van de werkschemauitvoering wordt gespecificeerd (verwijs naar [ eigenschappen van het Werkschema ](../../automating/using/managing-execution-options.md)). Tijdens deze duur, worden alle berichten daarom bewaard, zelfs na een nieuw begin. Als u de berichten van een vorige uitvoering niet wilt opslaan, moet u de geschiedenis wissen door op de knop ![](assets/delete_darkgrey-24px.png) te klikken.
+De werkschemageschiedenis wordt bewaard voor de duur die in de opties van de werkschemauitvoering wordt gespecificeerd (verwijs naar [&#x200B; eigenschappen van het Werkschema &#x200B;](../../automating/using/managing-execution-options.md)). Tijdens deze duur, worden alle berichten daarom bewaard, zelfs na een nieuw begin. Als u de berichten van een vorige uitvoering niet wilt opslaan, moet u de geschiedenis wissen door op de knop ![](assets/delete_darkgrey-24px.png) te klikken.
 
 Het tabblad **[!UICONTROL Log]** bevat de uitvoeringsgeschiedenis van alle activiteiten of van alle geselecteerde activiteiten. De uitgevoerde bewerkingen en uitvoeringsfouten worden chronologisch geïndexeerd.
 
@@ -51,9 +51,9 @@ In dit geval wordt de onjuiste taak afgebroken. Deze modus is vooral geschikt vo
 
 >[!NOTE]
 >
->U kunt deze configuratie afzonderlijk toepassen voor elke activiteit. U doet dit door een activiteit te selecteren en deze te openen met de snelle actie ![](assets/edit_darkgrey-24px.png) . Dan selecteer de wijze van het foutenbeheer op de **opties van de Uitvoering** tabel. Zie [ de uitvoeringsopties van de Activiteit ](../../automating/using/activity-properties.md).
+>U kunt deze configuratie afzonderlijk toepassen voor elke activiteit. U doet dit door een activiteit te selecteren en deze te openen met de snelle actie ![](assets/edit_darkgrey-24px.png) . Dan selecteer de wijze van het foutenbeheer op de **opties van de Uitvoering** tabel. Zie [&#x200B; de uitvoeringsopties van de Activiteit &#x200B;](../../automating/using/activity-properties.md).
 
-In de [ eigenschappen van het werkschema ](../../automating/using/managing-execution-options.md), zijn de extra opties met betrekking tot foutenbeheer beschikbaar.
+In de [&#x200B; eigenschappen van het werkschema &#x200B;](../../automating/using/managing-execution-options.md), zijn de extra opties met betrekking tot foutenbeheer beschikbaar.
 
 ![](assets/wkf_execution_error.png)
 

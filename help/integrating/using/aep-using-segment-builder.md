@@ -25,9 +25,9 @@ ht-degree: 3%
 >
 >De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 
-De Bouwer van het Segment staat u toe om publiek te bouwen door regels te bepalen die op gegevens worden gebaseerd die uit het [ in real time Profiel van de Klant ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html) komen.
+De Bouwer van het Segment staat u toe om publiek te bouwen door regels te bepalen die op gegevens worden gebaseerd die uit het [&#x200B; in real time Profiel van de Klant &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html) komen.
 
-In deze sectie worden algemene concepten beschreven bij het maken van een segment. Voor gedetailleerde informatie over de Bouwer van het Segment zelf, verwijs naar de [ gebruikersgids van de Bouwer van het Segment ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+In deze sectie worden algemene concepten beschreven bij het maken van een segment. Voor gedetailleerde informatie over de Bouwer van het Segment zelf, verwijs naar de [&#x200B; gebruikersgids van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 De interface van de Bouwer van het Segment wordt samengesteld als volgt:
 
@@ -49,7 +49,7 @@ De Segment Builder moet nu in uw werkruimte worden weergegeven. Hiermee kunt u e
 
 1. Controleer of het gewenste samenvoegbeleid is geselecteerd in het instellingenvenster.
 
-   Voor meer informatie over samenvoegbeleid, verwijs naar de specifieke sectie van de [ gebruikersgids van de Bouwer van het Segment ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   Voor meer informatie over samenvoegbeleid, verwijs naar de specifieke sectie van de [&#x200B; gebruikersgids van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -67,7 +67,7 @@ De Segment Builder moet nu in uw werkruimte worden weergegeven. Hiermee kunt u e
 
 In het linkerdeelvenster worden alle kenmerken, gebeurtenissen en doelgroepen weergegeven die u kunt gebruiken om regels samen te stellen.
 
-De vermelde gebieden zijn attributen die door uw bedrijf worden gevangen en door het [ Model van de Gegevens van de Ervaring (XDM) Systeem ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) beschikbaar zijn gemaakt.
+De vermelde gebieden zijn attributen die door uw bedrijf worden gevangen en door het [&#x200B; Model van de Gegevens van de Ervaring (XDM) Systeem &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) beschikbaar zijn gemaakt.
 
 Velden zijn ingedeeld in tabbladen:
 
@@ -97,7 +97,7 @@ Het symbool aan het eind van elk gebied verstrekt extra informatie over de attri
 
 >[!NOTE]
 >
->In de onderstaande sectie vindt u algemene informatie over de definitie van regels. Voor meer op dit, verwijs naar de [ gebruikersgids van de Bouwer van het Segment ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+>In de onderstaande sectie vindt u algemene informatie over de definitie van regels. Voor meer op dit, verwijs naar de [&#x200B; gebruikersgids van de Bouwer van het Segment &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
 
 Voer de volgende stappen uit om een regel te maken:
 

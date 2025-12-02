@@ -54,7 +54,7 @@ U hebt ook een werkende website nodig.
 >
 >Subdomeinconfiguratie is een sleutelelement voor de beschikbaarheid. Zorg ervoor dat de e-mails van Adobe Campaign worden verzonden vanuit hetzelfde domein als dat van de website.
 
-U moet [ de Dienst van de Kern van Experience Cloud vormen DTM ](#configuring-experience-cloud-dtm-core-service), [ Dienst van de Kern van de Mensen van Experience Cloud ](#configuring-experience-cloud-people-core-service) en [ Campagne ](#configuring-triggers-and-aliases-in-campaign) om deze gebruiksgevallen in werking te stellen.
+U moet [&#x200B; de Dienst van de Kern van Experience Cloud vormen DTM &#x200B;](#configuring-experience-cloud-dtm-core-service), [&#x200B; Dienst van de Kern van de Mensen van Experience Cloud &#x200B;](#configuring-experience-cloud-people-core-service) en [&#x200B; Campagne &#x200B;](#configuring-triggers-and-aliases-in-campaign) om deze gebruiksgevallen in werking te stellen.
 
 ### Experience Cloud DTM Core-service configureren {#configuring-experience-cloud-dtm-core-service}
 
@@ -88,7 +88,7 @@ De alias waarnaar eerder in DTM wordt verwezen, moet in de Experience Cloud Peop
 
    >[!NOTE]
    >
-   >U kunt uw triggers afstemmen voor zowel anonieme als aangemelde gebruikers. Voor anonieme gebruikers moet het profiel bestaan in Adobe Campaign en is een e-mail verzonden naar de gebruiker eerder. Hiervoor is de configuratie van bezoekersidentiteitskaart voldoende. Nochtans, als u trekkers voor het programma geopende gebruikers wilt in overeenstemming brengen, moet u de Verklaarde Gegevens van identiteitskaart Source plaatsen. Voor meer op dit, verwijs naar [ configuratie van Source van Gegevens ](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >U kunt uw triggers afstemmen voor zowel anonieme als aangemelde gebruikers. Voor anonieme gebruikers moet het profiel bestaan in Adobe Campaign en is een e-mail verzonden naar de gebruiker eerder. Hiervoor is de configuratie van bezoekersidentiteitskaart voldoende. Nochtans, als u trekkers voor het programma geopende gebruikers wilt in overeenstemming brengen, moet u de Verklaarde Gegevens van identiteitskaart Source plaatsen. Voor meer op dit, verwijs naar [&#x200B; configuratie van Source van Gegevens &#x200B;](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
 ## Een trigger maken in de Experience Cloud-interface {#creating-a-trigger-in-the-experience-cloud-interface}
 
@@ -96,7 +96,7 @@ Er moet een Adobe Experience Cloud-trigger worden gemaakt, zodat u deze kunt geb
 
 Maak een nieuwe trigger in Experience Cloud en selecteer de rapportsuite die op uw website wordt gebruikt. Zorg ervoor dat u de juiste afmeting kiest, zodat de trigger wordt geactiveerd.
 
-Verwijs naar de [ documentatie van Adobe Experience Cloud ](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html).
+Verwijs naar de [&#x200B; documentatie van Adobe Experience Cloud &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html).
 
 ## Triggert beste praktijken en beperkingen {#triggers-best-practices-and-limitations}
 

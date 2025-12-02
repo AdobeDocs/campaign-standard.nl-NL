@@ -52,4 +52,4 @@ Je gegevens zijn nu beschikbaar in Adobe Analytics.
 
 * [Externe accounts](../../administration/using/external-accounts.md)
 * [Technische workflows](../../administration/using/technical-workflows.md)
-* [ KPIs van het Aandeel voor geïntegreerde Campagne die ](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) video meldt
+* [&#x200B; KPIs van het Aandeel voor geïntegreerde Campagne die &#x200B;](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) video meldt

@@ -39,7 +39,7 @@ De belangrijkste kenmerken van deze activiteit zijn:
 
 ### Berichten over achterwaartse compatibiliteit {#from-beta-to-ga}
 
-Met Campaign Standard 20.4 versie, zijn de grens van de de grootte van de HTTP- reactiegegevens en de redactieonderbreking verminderd om zich op beste praktijken te richten - zie [ Beperkingen en guardrails ](#guardrails). Deze beveiligingswijzigingen gelden niet voor bestaande Externe API-activiteiten; daarom wordt u aangeraden bestaande Externe API-activiteiten in alle workflows te vervangen door nieuwe versies.
+Met Campaign Standard 20.4 versie, zijn de grens van de de grootte van de HTTP- reactiegegevens en de redactieonderbreking verminderd om zich op beste praktijken te richten - zie [&#x200B; Beperkingen en guardrails &#x200B;](#guardrails). Deze beveiligingswijzigingen gelden niet voor bestaande Externe API-activiteiten; daarom wordt u aangeraden bestaande Externe API-activiteiten in alle workflows te vervangen door nieuwe versies.
 
 Wanneer u activiteiten voor Externe API vervangt, voegt u de nieuwe activiteit Externe API toe aan de workflow, kopieert u handmatig de configuratiedetails en verwijdert u vervolgens de oude activiteit.
 

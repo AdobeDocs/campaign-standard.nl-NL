@@ -24,21 +24,21 @@ In het scherm **[!UICONTROL Settings]** kunt u Microsoft Dynamics 365- en Adobe 
 
 ### Microsoft Dynamics 365 Credentials
 
-De Microsoft Dynamics 365 Credentials geven de integratietoepassing toestemming om uw gegevens van Microsoft Dynamics 365 te trekken.  U moet de stappen op het scherm [ eerst volgen vormen Microsoft Dynamics 365 voor de integratie van de Campagne ](../../integrating/using/d365-acs-configure-d365.md) om de waarden te produceren die in dit scherm zullen worden gekleefd. De hieronder beschreven ingangen verwijzen naar dit scherm.
+De Microsoft Dynamics 365 Credentials geven de integratietoepassing toestemming om uw gegevens van Microsoft Dynamics 365 te trekken.  U moet de stappen op het scherm [&#x200B; eerst volgen vormen Microsoft Dynamics 365 voor de integratie van de Campagne &#x200B;](../../integrating/using/d365-acs-configure-d365.md) om de waarden te produceren die in dit scherm zullen worden gekleefd. De hieronder beschreven ingangen verwijzen naar dit scherm.
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
-* **[!UICONTROL Client ID]**: Leer hoe te om uw identiteitskaart van de Cliënt in [ te verwijzen deze sectie ](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)
+* **[!UICONTROL Client ID]**: Leer hoe te om uw identiteitskaart van de Cliënt in [&#x200B; te verwijzen deze sectie &#x200B;](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)
 
-* **[!UICONTROL Client Secret]**: Leer hoe te om uw Geheim van de Cliënt in [ te produceren deze sectie ](../../integrating/using/d365-acs-configure-d365.md#generate-a-client-secret)
+* **[!UICONTROL Client Secret]**: Leer hoe te om uw Geheim van de Cliënt in [&#x200B; te produceren deze sectie &#x200B;](../../integrating/using/d365-acs-configure-d365.md#generate-a-client-secret)
 
-* **[!UICONTROL Tenant]**: Leer hoe te om uw identiteitskaart van de Huurder in [ te vinden deze sectie ](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id)
+* **[!UICONTROL Tenant]**: Leer hoe te om uw identiteitskaart van de Huurder in [&#x200B; te vinden deze sectie &#x200B;](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id)
 
 * **[!UICONTROL URL]**: De URL heeft de indeling `https://&lt;servername&gt;.api.crm.dynamics.com/`
 
 ### Adobe API-referenties
 
-De geloofsbrieven van Adobe Campaign worden geproduceerd gebruikend [ Adobe I/O ](https://www.adobe.io/). U zult het scherm [ moeten bezoeken vormt Adobe I/O ](../../integrating/using/d365-acs-configure-adobe-io.md) en volgt de instructies daar alvorens u de input in deze sectie zult kunnen invullen.
+De geloofsbrieven van Adobe Campaign worden geproduceerd gebruikend [&#x200B; Adobe I/O &#x200B;](https://www.adobe.io/). U zult het scherm [&#x200B; moeten bezoeken vormt Adobe I/O &#x200B;](../../integrating/using/d365-acs-configure-adobe-io.md) en volgt de instructies daar alvorens u de input in deze sectie zult kunnen invullen.
 
 * Selecteer Auth Type als Oauth aangezien op JWT gebaseerde authentificatie verouderd is.
 * In de volgende afbeelding wordt de toewijzing tussen Adobe I/O en de invoer van het instellingenscherm uitgebreid uitgelegd.
@@ -66,9 +66,9 @@ U moet het volgende opgeven:
 
 * **gastheer SFTP**: dit gebied zal &lt;campagne-instantie-name>.campaign.adobe.com bevatten. De kopbal van de integratie app omvat zowel **Org** als **Instantie**. Het gedeelte ‘Campagne-instance-name’ van de URL is gewoon de naam die in deze instantiewaarde wordt gevonden.
 
-* **Gebruiker SFTP**: Als u de gebruiker SFTP hebt, voeg het hier toe. Anders, verwijs naar [ deze sectie ](#ac-control-panel-settings). Als onderdeel van het proces wordt de gebruikersnaam weergegeven.
+* **Gebruiker SFTP**: Als u de gebruiker SFTP hebt, voeg het hier toe. Anders, verwijs naar [&#x200B; deze sectie &#x200B;](#ac-control-panel-settings). Als onderdeel van het proces wordt de gebruikersnaam weergegeven.
 
-* **Sleutel SFTP**: Als u een Sleutel SSH hebt, voeg het hier toe. Anders, verwijs naar [ deze sectie ](#ac-control-panel-settings).
+* **Sleutel SFTP**: Als u een Sleutel SSH hebt, voeg het hier toe. Anders, verwijs naar [&#x200B; deze sectie &#x200B;](#ac-control-panel-settings).
 
 * De **IP Waaier** zal nodig zijn om in uw configuratie van Adobe Campaign SFTP worden omvat. Deze zullen moeten worden gevoegd op lijst van gewenste personen opdat de integratie van het eindpunt SFTP gebruik kan maken.
 
@@ -76,18 +76,18 @@ U moet het volgende opgeven:
 
 ## SFTP-instelling in Adobe Campaign {#ac-control-panel-settings}
 
-Ontdek het beheer SFTP met [ het Controlebord van de Campagne ](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) in deze secties:
+Ontdek het beheer SFTP met [&#x200B; het Controlebord van de Campagne &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=nl) in deze secties:
 
 * [SFTP-beheer](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=nl#sftp-management)
 
 * [SFTP-opslagbeheer](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
 
-* [ voeg IP waaiers ](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html#sftp-management) toe
+* [&#x200B; voeg IP waaiers &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html#sftp-management) toe
 
-* [ beheert sleutels ](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#sftp-management)
+* [&#x200B; beheert sleutels &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#sftp-management)
 
-* [ Logon aan uw server SFTP ](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html#sftp-management)
+* [&#x200B; Logon aan uw server SFTP &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html#sftp-management)
 
 Nadat de configuratie is voltooid, meldt u zich met de persoonlijke sleutel aan bij de SFTP-server en maakt u de map &quot;d365_loads/exporting&quot;.
 
-[ Bezoek deze pagina ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=nl#sftp-management) voor informatie over de server van Adobe Campaign Standard SFTP.
+[&#x200B; Bezoek deze pagina &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=nl#sftp-management) voor informatie over de server van Adobe Campaign Standard SFTP.

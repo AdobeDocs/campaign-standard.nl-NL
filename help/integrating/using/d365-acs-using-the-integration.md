@@ -18,9 +18,9 @@ ht-degree: 0%
 
 # De Microsoft Dynamics 365-integratie gebruiken
 
-Er zijn verscheidene gegevensstromen die de Integratie van Adobe Campaign Standard met Microsoft Dynamics 365 uitvoert. Deze stromen zijn gedetailleerd in [ deze pagina ](../../integrating/using/d365-acs-self-service-app-workflows.md).
+Er zijn verscheidene gegevensstromen die de Integratie van Adobe Campaign Standard met Microsoft Dynamics 365 uitvoert. Deze stromen zijn gedetailleerd in [&#x200B; deze pagina &#x200B;](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
-Meer details over de gegevensstromen kunnen verder onderaan in dit document in de [ sectie van de Stromen van Gegevens ](#data-flows) worden gevonden.
+Meer details over de gegevensstromen kunnen verder onderaan in dit document in de [&#x200B; sectie van de Stromen van Gegevens &#x200B;](#data-flows) worden gevonden.
 
 ## Adobe Campaign Standard-gebruikerservaring
 
@@ -112,7 +112,7 @@ Het attribuut externalId van de de profiellijst van de Campagne moet met de Dyna
 
 #### Aangepaste entiteiten
 
-De [ integratie 365-Adobe Campaign Standard van Microsoft Dynamics ](../../integrating/using/d365-acs-get-started.md) steunt douaneentiteiten, toelatend douaneentiteiten in Dynamiek 365 om aan overeenkomstige douanemiddelen in Campagne worden gesynchroniseerd.
+De [&#x200B; integratie 365-Adobe Campaign Standard van Microsoft Dynamics &#x200B;](../../integrating/using/d365-acs-get-started.md) steunt douaneentiteiten, toelatend douaneentiteiten in Dynamiek 365 om aan overeenkomstige douanemiddelen in Campagne worden gesynchroniseerd.
 
 De nieuwe gegevens in de douanemiddelen kunnen voor verscheidene doeleinden, met inbegrip van segmentatie en verpersoonlijking worden gebruikt.
 
@@ -120,7 +120,7 @@ De integratie ondersteunt zowel gekoppelde als niet-gekoppelde tabellen. Koppeli
 
 >[!IMPORTANT]
 >
->Als om het even welk dossier van het middel van de Campagne persoonlijke informatie bevat, zijn de specifieke aanbevelingen van toepassing. Leer meer [ in deze sectie ](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
+>Als om het even welk dossier van het middel van de Campagne persoonlijke informatie bevat, zijn de specifieke aanbevelingen van toepassing. Leer meer [&#x200B; in deze sectie &#x200B;](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
 >
 
 Wanneer het vormen van de gegevensstromen van de douaneentiteit, is het belangrijk om zich van het volgende bewust te zijn:
@@ -135,7 +135,7 @@ Wanneer het vormen van de gegevensstromen van de douaneentiteit, is het belangri
 
 * Als u in een situatie loopt waar u denkt u kindverslagen en geen manier hebt om tot hen toegang te hebben, kunt u het type van de kardinaalverbinding in **0 of 1 kardinaliteit eenvoudige verbinding** tijdelijk veranderen om tot die verslagen toegang te hebben.
 
-Een uitvoeriger overzicht van de douanemiddelen van de Campagne kan [ in deze sectie ](../../developing/using/key-steps-to-add-a-resource.md) worden gevonden.
+Een uitvoeriger overzicht van de douanemiddelen van de Campagne kan [&#x200B; in deze sectie &#x200B;](../../developing/using/key-steps-to-add-a-resource.md) worden gevonden.
 
 ### Gebeurtenisstroom voor e-mailmarketing{#email-marketing-event-flow}
 

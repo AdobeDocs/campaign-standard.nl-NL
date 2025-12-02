@@ -26,11 +26,11 @@ Als u wilt controleren of de integratie Triggers - campagne is geactiveerd, klik
 
 Ga naar de volgende stap als u deze ziet.
 
-Als dat niet het geval is, neemt u contact op met uw Adobe-accountmanager of professionele servicepartner. Zie [ het Activeren van de functionaliteit ](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
+Als dat niet het geval is, neemt u contact op met uw Adobe-accountmanager of professionele servicepartner. Zie [&#x200B; het Activeren van de functionaliteit &#x200B;](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
 
 **probeer creërend een trekker**
 
-Volg de stappen die in [ worden beschreven Creërend een in kaart gebrachte trekker in Campagne ](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) om een trekker tot stand te brengen.
+Volg de stappen die in [&#x200B; worden beschreven Creërend een in kaart gebrachte trekker in Campagne &#x200B;](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) om een trekker tot stand te brengen.
 
 Als de trigger is gemaakt, gaat u verder naar de volgende stap. Als dat niet het geval is, betekent dit dat de verbinding met het eindpunt van de trigger is mislukt. Controleer of Triggers is ingericht in Experience Cloud (Activeringsservices). Als dit niet het geval is, neemt u contact op met de Adobe-accountmanager of de professionele servicepartner. De volgende informatie is vereist:
 
@@ -40,13 +40,13 @@ Als de trigger is gemaakt, gaat u verder naar de volgende stap. Als dat niet het
 
 **probeer het publiceren van de trekker**
 
-Volg de stappen die in [ worden beschreven Creërend een in kaart gebrachte trekker in Campagne ](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) om de trekker te publiceren.
+Volg de stappen die in [&#x200B; worden beschreven Creërend een in kaart gebrachte trekker in Campagne &#x200B;](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) om de trekker te publiceren.
 
 Als de publicatie is gelukt, gaat u verder naar de volgende stap. Als dat niet het geval is, neemt u contact op met Adobe om de instantie opnieuw te starten en probeert u het opnieuw.
 
 **produceer de trekker van de website**
 
-Volg de stappen die in [ worden beschreven het Uitgeven van het transactionele berichtmalplaatje ](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) worden beschreven om het transactiesjabloon uit te geven en te publiceren. Test vervolgens het genereren van de trigger van de website.
+Volg de stappen die in [&#x200B; worden beschreven het Uitgeven van het transactionele berichtmalplaatje &#x200B;](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) worden beschreven om het transactiesjabloon uit te geven en te publiceren. Test vervolgens het genereren van de trigger van de website.
 
 Als de trigger wordt ontvangen door Analytics, gaat u naar de volgende stap. Indien niet, controleer de volgende punten:
 

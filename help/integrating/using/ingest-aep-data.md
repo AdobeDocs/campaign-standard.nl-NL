@@ -24,7 +24,7 @@ Zodra de Bestemming is gevormd, zullen de gegevens naar uw opslagplaats worden u
 
 In het Adobe Experience-platform configureert u een verbinding met Adobe Campaign door een opslaglocatie voor de geëxporteerde segmenten te selecteren. Met deze stappen kunt u ook de segmenten selecteren die u wilt exporteren en aanvullende XDM-velden opgeven die u wilt opnemen.
 
-Voor meer op dit, verwijs naar de [ documentatie van Doelen ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
+Voor meer op dit, verwijs naar de [&#x200B; documentatie van Doelen &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html).
 
 Nadat de Bestemming is gevormd, leidt Adobe Experience Platform tot een lusje-afgebakend .txt of .csv- dossier in de opslagplaats die u verstrekte. Deze bewerking is gepland en wordt één keer per 24 uur uitgevoerd.
 
@@ -34,7 +34,7 @@ U kunt nu een Campaign Standard-workflow configureren om het segment in te voere
 
 Als Campaign Standard eenmaal is geconfigureerd als een doel, moet u een specifieke workflow maken om het bestand te importeren dat door Adobe Experience Platform is geëxporteerd.
 
-Hiervoor moet u een **[!UICONTROL Transfer file]** -activiteit toevoegen en configureren. Voor meer op hoe te om deze activiteit te vormen, verwijs naar [ deze sectie ](../../automating/using/transfer-file.md).
+Hiervoor moet u een **[!UICONTROL Transfer file]** -activiteit toevoegen en configureren. Voor meer op hoe te om deze activiteit te vormen, verwijs naar [&#x200B; deze sectie &#x200B;](../../automating/using/transfer-file.md).
 
 ![](assets/rtcdp-transfer-file.png)
 
@@ -44,7 +44,7 @@ In de onderstaande workflow wordt het bestand bijvoorbeeld dagelijks vanaf de op
 
 ![](assets/rtcdp-workflow.png)
 
-De voorbeelden van werkschema&#39;s van het gegevensbeheer zijn beschikbaar in de [ werkschema&#39;s gebruiken gevallen ](../../automating/using/about-workflow-use-cases.md#management) sectie.
+De voorbeelden van werkschema&#39;s van het gegevensbeheer zijn beschikbaar in de [&#x200B; werkschema&#39;s gebruiken gevallen &#x200B;](../../automating/using/about-workflow-use-cases.md#management) sectie.
 
 Verwante onderwerpen:
 

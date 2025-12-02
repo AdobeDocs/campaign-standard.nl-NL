@@ -30,11 +30,11 @@ Als u gegevens van Campaign Standard naar de opslaglocatie van de S3- of Azure B
 
 Hiervoor kunt u toevoegen en configureren:
 
-* Een **[!UICONTROL Extract file]** -activiteit om de doelgegevens uit te pakken in een CSV-bestand. Voor meer op hoe te om deze activiteit te vormen, verwijs naar [ deze sectie ](../../automating/using/extract-file.md).
+* Een **[!UICONTROL Extract file]** -activiteit om de doelgegevens uit te pakken in een CSV-bestand. Voor meer op hoe te om deze activiteit te vormen, verwijs naar [&#x200B; deze sectie &#x200B;](../../automating/using/extract-file.md).
 
   ![](assets/rtcdp-extract-file.png)
 
-* Een **[!UICONTROL Transfer file]** -activiteit om het CSV-bestand over te brengen naar de opslaglocatie. Voor meer op hoe te om deze activiteit te vormen, verwijs naar [ deze sectie ](../../automating/using/transfer-file.md).
+* Een **[!UICONTROL Transfer file]** -activiteit om het CSV-bestand over te brengen naar de opslaglocatie. Voor meer op hoe te om deze activiteit te vormen, verwijs naar [&#x200B; deze sectie &#x200B;](../../automating/using/transfer-file.md).
 
   ![](assets/rtcdp-transfer-file.png)
 
@@ -42,7 +42,7 @@ In de onderstaande workflow worden logbestanden regelmatig uitgepakt in een CSV-
 
 ![](assets/aep-export.png)
 
-De voorbeelden van werkschema&#39;s van het gegevensbeheer zijn beschikbaar in de [ werkschema&#39;s gebruiken gevallen ](../../automating/using/about-workflow-use-cases.md#management) sectie.
+De voorbeelden van werkschema&#39;s van het gegevensbeheer zijn beschikbaar in de [&#x200B; werkschema&#39;s gebruiken gevallen &#x200B;](../../automating/using/about-workflow-use-cases.md#management) sectie.
 
 Verwante onderwerpen:
 
@@ -52,12 +52,12 @@ Verwante onderwerpen:
 
 ## Sluit uw opslaglocatie aan als een Source
 
-De belangrijkste stappen om uw de opslagplaats van de Opslag van de Opslag van Amazon te verbinden (S3) of Azure Blob als a **Source** in het de ervaringsplatform van Adobe zijn hieronder vermeld. De gedetailleerde informatie over elk van deze stappen is beschikbaar in de [ connectordocumentatie van Source ](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=nl).
+De belangrijkste stappen om uw de opslagplaats van de Opslag van de Opslag van Amazon te verbinden (S3) of Azure Blob als a **Source** in het de ervaringsplatform van Adobe zijn hieronder vermeld. De gedetailleerde informatie over elk van deze stappen is beschikbaar in de [&#x200B; connectordocumentatie van Source &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=nl).
 
 1. Maak in het menu van het Adobe Experience-platform een verbinding met uw opslaglocatie:**[!UICONTROL Sources]**
 
-   * [ creeer een Amazon S3 bronverbinding ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html)
-   * [ Azure Blob schakelaar ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html)
+   * [&#x200B; creeer een Amazon S3 bronverbinding &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html)
+   * [&#x200B; Azure Blob schakelaar &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html)
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ De belangrijkste stappen om uw de opslagplaats van de Opslag van de Opslag van A
 
 1. Configureer een gegevensstroom voor een batchverbinding voor cloudopslag. Een dataflow is een geplande taak die gegevens van de opslagplaats aan een dataset van Adobe Experience Platform terugwint en opneemt. Met deze stappen kunt u de gegevensinvoer vanaf uw opslaglocatie configureren, inclusief gegevensselectie en de toewijzing van de CSV-velden aan een XDM-schema.
 
-   De gedetailleerde informatie is beschikbaar in [ deze pagina ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html).
+   De gedetailleerde informatie is beschikbaar in [&#x200B; deze pagina &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html).
 
    ![](assets/rtcdp-map-xdm.png)
 

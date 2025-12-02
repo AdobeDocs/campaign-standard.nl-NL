@@ -24,7 +24,7 @@ ht-degree: 3%
 >
 >De dienst van de Doelen van het publiek is momenteel in bèta, die aan regelmatige updates zonder bericht kan worden onderworpen. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 
-Zodra u een [ publiek van Adobe Experience Platform ](../../integrating/using/aep-about-audience-destinations-service.md) gebruikend de Bouwer van het Segment hebt gecreeerd, kunt u het op de zelfde manier gebruiken aangezien u voor een publiek van de Campagne binnen werkschema&#39;s zou personaliseren en berichten verzenden.
+Zodra u een [&#x200B; publiek van Adobe Experience Platform &#x200B;](../../integrating/using/aep-about-audience-destinations-service.md) gebruikend de Bouwer van het Segment hebt gecreeerd, kunt u het op de zelfde manier gebruiken aangezien u voor een publiek van de Campagne binnen werkschema&#39;s zou personaliseren en berichten verzenden.
 
 Voer de volgende stappen uit om een Adobe Experience Platform-publiek te activeren in uw workflows:
 
@@ -44,11 +44,11 @@ Voer de volgende stappen uit om een Adobe Experience Platform-publiek te activer
 
    >[!NOTE]
    >
-   >Voor doelen buiten de primaire sleutel moet u ook een aangepaste doeltoewijzing maken die overeenkomt met de aangepaste naamruimte. Voor meer informatie over de Afbeelding van het Doel, verwijs naar [ deze sectie ](../../administration/using/target-mappings-in-campaign.md).
+   >Voor doelen buiten de primaire sleutel moet u ook een aangepaste doeltoewijzing maken die overeenkomt met de aangepaste naamruimte. Voor meer informatie over de Afbeelding van het Doel, verwijs naar [&#x200B; deze sectie &#x200B;](../../administration/using/target-mappings-in-campaign.md).
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   Deze lijst bevat alle afbeeldingen van het Gegevensmodel van de Ervaring (XDM) die op uw instantie zijn gevormd. Voor meer op de Verbinding van Gegevens van Adobe Experience Platform, verwijs naar [ dit specifieke document ](../../integrating/using/aep-about-data-connector.md).
+   Deze lijst bevat alle afbeeldingen van het Gegevensmodel van de Ervaring (XDM) die op uw instantie zijn gevormd. Voor meer op de Verbinding van Gegevens van Adobe Experience Platform, verwijs naar [&#x200B; dit specifieke document &#x200B;](../../integrating/using/aep-about-data-connector.md).
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 

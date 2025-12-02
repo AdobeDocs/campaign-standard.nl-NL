@@ -18,7 +18,7 @@ ht-degree: 4%
 
 # De integratie met Audience Manager of de People core-service inrichten en configureren{#integration-with-audience-manager-or-people-core-service}
 
-De levering en het vormen van de kern van Audience Manager en van Mensen in Adobe Campaign nemen twee stappen: [ Voorgaand verzoek aan Adobe ](#submitting-request-to-adobe) toen [ Vormend de integratie in Adobe Campaign ](#configuring-the-integration-in-adobe-campaign).
+De levering en het vormen van de kern van Audience Manager en van Mensen in Adobe Campaign nemen twee stappen: [&#x200B; Voorgaand verzoek aan Adobe &#x200B;](#submitting-request-to-adobe) toen [&#x200B; Vormend de integratie in Adobe Campaign &#x200B;](#configuring-the-integration-in-adobe-campaign).
 
 ## Aanvraag indienen bij Adobe {#submitting-request-to-adobe}
 
@@ -119,7 +119,7 @@ U kunt als volgt de gegevensbron **[!UICONTROL Declared ID]** maken:
 
 >[!NOTE]
 >
->Het **[!UICONTROL AAM Destination ID]** gebied wordt niet vereist als u de gedeelde gegevensbron voor de [ campagne-Triggers integratie ](../../integrating/using/configuring-triggers-in-experience-cloud.md) vormt. **[!UICONTROL Priority]** is alleen nodig bij het configureren van de integratie Triggers - Campagne. De prioriteit bepaalt welke gegevens-Source het eerst wordt geconfigureerd. Prioriteit kan elk nummer zijn, zoals 1 of 100. Hoe hoger de prioriteit, des te hoger de voorkeur tijdens verzoening.
+>Het **[!UICONTROL AAM Destination ID]** gebied wordt niet vereist als u de gedeelde gegevensbron voor de [&#x200B; campagne-Triggers integratie &#x200B;](../../integrating/using/configuring-triggers-in-experience-cloud.md) vormt. **[!UICONTROL Priority]** is alleen nodig bij het configureren van de integratie Triggers - Campagne. De prioriteit bepaalt welke gegevens-Source het eerst wordt geconfigureerd. Prioriteit kan elk nummer zijn, zoals 1 of 100. Hoe hoger de prioriteit, des te hoger de voorkeur tijdens verzoening.
 
 ### Stap 3: De server voor bijhouden van campagnes configureren {#step-3--configure-campaign-tracking-server}
 
@@ -129,12 +129,12 @@ Als u wilt dat een gedeeld publiek kan functioneren met de bezoeker-id, moet het
 
 >[!IMPORTANT]
 >
-> U moet ervoor zorgen de het Volgen van de Campagne Server op het domein (CNAME) wordt geregistreerd. U kunt meer informatie over de configuratie van de domeinnaam in [ dit artikel ](https://helpx.adobe.com/nl/campaign/kb/domain-name-delegation.html) vinden.
+> U moet ervoor zorgen de het Volgen van de Campagne Server op het domein (CNAME) wordt geregistreerd. U kunt meer informatie over de configuratie van de domeinnaam in [&#x200B; dit artikel &#x200B;](https://helpx.adobe.com/nl/campaign/kb/domain-name-delegation.html) vinden.
 
 ### Stap 4: Vorm de Dienst van identiteitskaart van de Bezoeker {#step-4--configure-the-visitor-id-service}
 
-In het geval dat uw dienst van identiteitskaart van de Bezoeker nooit op uw Webeigenschappen of websites is gevormd, verwijs naar het volgende [ document ](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) om te leren hoe te om uw dienst of de volgende [ video ](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) te vormen.
+In het geval dat uw dienst van identiteitskaart van de Bezoeker nooit op uw Webeigenschappen of websites is gevormd, verwijs naar het volgende [&#x200B; document &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html) om te leren hoe te om uw dienst of de volgende [&#x200B; video &#x200B;](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) te vormen.
 
-Synchroniseer de id&#39;s van de klant met de functie `setCustomerID` in de Experience Cloud-id-service met de integratiecode: `AdobeCampaignID` . `AdobeCampaignID` zou de waarde van de sleutel van de Wederopbouw moeten aanpassen die in de Ontvankelijke Gegevens Source in [ wordt gevormd Stap 2: Vorm de Gegevensbronnen ](#step-2--configure-the-data-sources).
+Synchroniseer de id&#39;s van de klant met de functie `setCustomerID` in de Experience Cloud-id-service met de integratiecode: `AdobeCampaignID` . `AdobeCampaignID` zou de waarde van de sleutel van de Wederopbouw moeten aanpassen die in de Ontvankelijke Gegevens Source in [&#x200B; wordt gevormd Stap 2: Vorm de Gegevensbronnen &#x200B;](#step-2--configure-the-data-sources).
 
 Uw configuratie en levering worden voltooid, kan de integratie nu worden gebruikt om publiek of segmenten in te voeren en uit te voeren.

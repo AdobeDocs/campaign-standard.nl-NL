@@ -22,7 +22,7 @@ U kunt &quot;formulieren&quot; maken op uw AEM-sites en de velden in een formuli
 
 Een Adobe Campaign-formulier maken op uw AEM-site:
 
-1. In uw plaats van AEM, creeer een nieuwe pagina die op het **1} malplaatje van het Profiel van Adobe Campaign wordt gebaseerd.**
+1. In uw plaats van AEM, creeer een nieuwe pagina die op het **1&rbrace; malplaatje van het Profiel van Adobe Campaign wordt gebaseerd.**
 
    ![](assets/aem_content_forms.png)
 

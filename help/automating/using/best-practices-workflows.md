@@ -118,7 +118,7 @@ Wanneer u een geplande workflow ontwerpt die meerdere activiteiten bevat, moet u
 
 ## Werkstroom aanroepen met parameters{#workflow-with-parameters}
 
-Zorg ervoor dat de naam en het aantal parameters identiek zijn aan wat wanneer het roepen van het werkschema (zie [ wordt bepaald deze pagina ](../../automating/using/defining-parameters-calling-workflow.md). De parametertypen moeten ook consistent zijn met de waarden die worden verwacht.
+Zorg ervoor dat de naam en het aantal parameters identiek zijn aan wat wanneer het roepen van het werkschema (zie [&#x200B; wordt bepaald deze pagina &#x200B;](../../automating/using/defining-parameters-calling-workflow.md). De parametertypen moeten ook consistent zijn met de waarden die worden verwacht.
 
 Zorg ervoor dat alle parameters zijn gedeclareerd in de **[!UICONTROL External signal activity]**. Anders treedt er een fout op wanneer de activiteit wordt uitgevoerd.
 

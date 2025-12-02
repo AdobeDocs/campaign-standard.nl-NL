@@ -20,7 +20,7 @@ ht-degree: 9%
 
 In Adobe Campaign kunt u de interessepunten die zijn verzameld bij de abonnees van uw mobiele toepassing gebruiken om persoonlijke marketingberichten, zoals een e-mail, te verzenden.
 
-U kunt alleen reageren op Point of Interest-gegevens met standaardleveringen. [ de Transactionele berichten ](../../channels/using/getting-started-with-transactional-msg.md) kunnen plaatsgegevens niet gebruiken.
+U kunt alleen reageren op Point of Interest-gegevens met standaardleveringen. [&#x200B; de Transactionele berichten &#x200B;](../../channels/using/getting-started-with-transactional-msg.md) kunnen plaatsgegevens niet gebruiken.
 
 De vroegste reactie is ongeveer 10 minuten.
 
@@ -31,7 +31,7 @@ In dit geval besluit u een e-mail te sturen naar alle abonnees die uw winkel in 
 
    ![](assets/poi_subscriptions_app.png)
 
-   Het leiden van publiek wordt gedetailleerd in [ het Bepalen van publiek ](../../audiences/using/creating-audiences.md) sectie.
+   Het leiden van publiek wordt gedetailleerd in [&#x200B; het Bepalen van publiek &#x200B;](../../audiences/using/creating-audiences.md) sectie.
 
 1. Sleep in het **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** -venster het **[!UICONTROL POI Location Subscription]** -element naar de werkruimte.
 

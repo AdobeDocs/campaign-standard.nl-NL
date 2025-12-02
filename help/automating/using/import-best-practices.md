@@ -33,11 +33,11 @@ In veel projecten wordt de import gemaakt zonder **[!UICONTROL Deduplication]** 
 
 Ga niet uit van de veronderstelling dat de inkomende gegevens consistent en correct zijn, of dat de afdeling van IT of de supervisor van Adobe Campaign het zal behandelen. Houd tijdens het project rekening met het opschonen van gegevens. U kunt gegevens dedupliceren, op elkaar afstemmen en de consistentie behouden bij het importeren van gegevens.
 
-Een voorbeeld van een generisch werkschemamalplaatje dat voor het invoeren van gegevens wordt ontworpen is beschikbaar in het [ Voorbeeld: het werkschemamalplaatje van de invoer ](../../automating/using/creating-import-workflow-templates.md) sectie.
+Een voorbeeld van een generisch werkschemamalplaatje dat voor het invoeren van gegevens wordt ontworpen is beschikbaar in het [&#x200B; Voorbeeld: het werkschemamalplaatje van de invoer &#x200B;](../../automating/using/creating-import-workflow-templates.md) sectie.
 
 >[!NOTE]
 >
->U kunt [ de invoermalplaatjes ](../../automating/using/importing-data-with-import-templates.md) ook gebruiken. Het zijn werkstroomsjablonen die zijn gedefinieerd door een beheerder die, nadat ze zijn geactiveerd, alleen de mogelijkheid biedt om het bestand op te geven dat de gegevens bevat die moeten worden geïmporteerd.
+>U kunt [&#x200B; de invoermalplaatjes &#x200B;](../../automating/using/importing-data-with-import-templates.md) ook gebruiken. Het zijn werkstroomsjablonen die zijn gedefinieerd door een beheerder die, nadat ze zijn geactiveerd, alleen de mogelijkheid biedt om het bestand op te geven dat de gegevens bevat die moeten worden geïmporteerd.
 
 **Verwante onderwerpen:**
 

@@ -41,7 +41,7 @@ U kunt overgangen openen om te controleren of de verzonden data correct zijn tij
 
 U kunt een workflow maken op basis van een programma, een campagne of de lijst met marketingactiviteiten.
 
-![](assets/do-not-localize/how-to-video.png) [ ontdekt hoe te om een werkschema in video ](#video) te bouwen
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ontdekt hoe te om een werkschema in video &#x200B;](#video) te bouwen
 
 Het maken van een marketingactiviteit wordt gedetailleerd beschreven in de sectie [Marketingactiviteiten maken](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
@@ -73,7 +73,7 @@ Het maken van een marketingactiviteit wordt gedetailleerd beschreven in de secti
 
    U kunt bijvoorbeeld een specifieke tijdzone definiëren die standaard in alle activiteiten van de workflow moet worden gebruikt. Standaard is de tijdzone van de workflow de tijdzone die is gedefinieerd voor de huidige Campaign-operator.
 
-   Voor meer op de eigenschappen van werkschema&#39;s, verwijs naar [ deze pagina ](../../automating/using/managing-execution-options.md).
+   Voor meer op de eigenschappen van werkschema&#39;s, verwijs naar [&#x200B; deze pagina &#x200B;](../../automating/using/managing-execution-options.md).
 
    ![](assets/workflow_properties.png)
 
@@ -138,4 +138,4 @@ In deze video wordt getoond hoe u een workflow kunt maken.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-De extra hoe te video&#39;s van Campaign Standard zijn beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).
+De extra hoe te video&#39;s van Campaign Standard zijn beschikbaar [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).

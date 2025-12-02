@@ -27,7 +27,7 @@ U kunt een e-mail sturen naar klanten met aanbiedingen in hun lokale winkels.
 
 ## Ontvangers die via e-mail contact kunnen opnemen selecteren{#selecting-recipients-contactable-via-email}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, belemmering en laat vallen a [ Vraag ](../../automating/using/query.md) activiteit ![](assets/query.png).
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, belemmering en laat vallen a [&#x200B; Vraag &#x200B;](../../automating/using/query.md) activiteit ![](assets/query.png).
 1. Dubbelklik op de activiteit.
 1. In **[!UICONTROL Shortcuts]** sleept u het veld **[!UICONTROL Profiles]** en selecteert u het veld **[!UICONTROL email]** met de operator **[!UICONTROL is not empty]**.
 1. In **[!UICONTROL Shortcuts]** sleept u het veld **[!UICONTROL Profiles]** en selecteert u het veld **[!UICONTROL no longer contact by email]** met de waarde **[!UICONTROL no]**.
@@ -37,7 +37,7 @@ U kunt een e-mail sturen naar klanten met aanbiedingen in hun lokale winkels.
 
 ## Een segmentatieactiviteit maken{#creating-a-segmentation-activity}
 
-1. De belemmering en laat vallen a [ Segmentatie ](../../automating/using/segmentation.md) activiteit en klikt het tweemaal.
+1. De belemmering en laat vallen a [&#x200B; Segmentatie &#x200B;](../../automating/using/segmentation.md) activiteit en klikt het tweemaal.
 1. Klik op het segment en open vervolgens de overgang met als target de mensen in de eerste stad. In dit geval Boston.
 1. Sleep **[!UICONTROL Location]** en selecteer **[!UICONTROL City]** met de operator **[!UICONTROL equals to]** en de waarde **[!UICONTROL Boston]**.
 Opmerking: om alle mensen die Boston zijn binnengekomen te bereiken, ongeacht hoofdlettergebruik, schakelt u de hoofdlettergevoelige optie uit.
@@ -49,7 +49,7 @@ Opmerking: om alle mensen die Boston zijn binnengekomen te bereiken, ongeacht ho
 
 ## Een e-maillevering maken{#creating-an-email-delivery}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, belemmering en laat vallen een [ E-maillevering ](../../automating/using/email-delivery.md) activiteit na elk segment.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, belemmering en laat vallen een [&#x200B; E-maillevering &#x200B;](../../automating/using/email-delivery.md) activiteit na elk segment.
 1. Klik op de activiteit en selecteer ![](assets/edit_darkgrey-24px.png) om te bewerken.
 1. Selecteer **[!UICONTROL Simple email]** en klik op **[!UICONTROL Next]**.
 1. Selecteer een e-mailsjabloon en klik op **[!UICONTROL Next]**.

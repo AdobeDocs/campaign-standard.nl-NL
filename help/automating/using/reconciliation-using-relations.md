@@ -29,7 +29,7 @@ De workflow bestaat uit de volgende activiteiten:
 
 ![](assets/reconciliation_example1.png)
 
-* A [ het dossier van de Lading ](../../automating/using/load-file.md) activiteit, die laadt en ontdekt de gegevens van het dossier om in te voeren. Het geïmporteerde bestand bevat de volgende data:
+* A [&#x200B; het dossier van de Lading &#x200B;](../../automating/using/load-file.md) activiteit, die laadt en ontdekt de gegevens van het dossier om in te voeren. Het geïmporteerde bestand bevat de volgende data:
 
    * Transactiedatum
    * E-mailadres van klant
@@ -48,7 +48,7 @@ De workflow bestaat uit de volgende activiteiten:
   2015-05-19 09:06:00;mail9@email.com;ZZ6
   ```
 
-* A [ Verzoening ](../../automating/using/reconciliation.md) activiteit om het kopen van gegevens aan gegevensbestandprofielen evenals producten te binden. Daarom moet een relatie worden gedefinieerd tussen de bestandsdata enerzijds en de profieltabel en producttabel anderzijds. Deze configuratie wordt uitgevoerd op het tabblad **[!UICONTROL Relations]** van de activiteit:
+* A [&#x200B; Verzoening &#x200B;](../../automating/using/reconciliation.md) activiteit om het kopen van gegevens aan gegevensbestandprofielen evenals producten te binden. Daarom moet een relatie worden gedefinieerd tussen de bestandsdata enerzijds en de profieltabel en producttabel anderzijds. Deze configuratie wordt uitgevoerd op het tabblad **[!UICONTROL Relations]** van de activiteit:
 
    * Relatie met de **profielen**: de kolom **client** van het bestand is gekoppeld aan het veld **email** van de dimensie **Profiles**.
    * Relatie met de **producten**: de kolom **product** van het bestand is gekoppeld aan het veld **productCode** van de dimensie **Profiles**.
@@ -57,7 +57,7 @@ De workflow bestaat uit de volgende activiteiten:
 
   ![](assets/reconciliation_example3.png)
 
-* Een [ gegevens van de Update ](../../automating/using/update-data.md) activiteit staat u toe om de gegevensbestandgebieden te bepalen om bij te werken gebruikend de ingevoerde gegevens. Aangezien de data in de vorige activiteit reeds zijn geïdentificeerd als behorend tot de dimensie **Transactions**, kunt u de identificatieoptie **[!UICONTROL Directly using the targeting dimension]** gebruiken.
+* Een [&#x200B; gegevens van de Update &#x200B;](../../automating/using/update-data.md) activiteit staat u toe om de gegevensbestandgebieden te bepalen om bij te werken gebruikend de ingevoerde gegevens. Aangezien de data in de vorige activiteit reeds zijn geïdentificeerd als behorend tot de dimensie **Transactions**, kunt u de identificatieoptie **[!UICONTROL Directly using the targeting dimension]** gebruiken.
 
   Als u gebruikmaakt van de optie waarmee automatisch velden worden gedetecteerd die moeten worden bijgewerkt, worden de koppelingen die in de vorige activiteit zijn geconfigureerd (naar profielen en producten), toegevoegd aan de lijst **[!UICONTROL Fields to update]**. U moet ook controleren of het veld dat overeenkomt met de transactiedatum, correct is toegevoegd aan deze lijst.
 

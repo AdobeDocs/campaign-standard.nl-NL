@@ -23,7 +23,7 @@ Het volgende voorbeeld toont hoe u een **[!UICONTROL Extract file]**-activiteit 
 
 Het doel van deze workflow is om een lijst met profielen te exporteren naar een extern bestand, zodat de data ook buiten Adobe Campaign kunnen worden gebruikt.
 
-1. De belemmering en laat vallen een [ dossier ](../../automating/using/extract-file.md) activiteit van het Extraheren in uw werkschema en plaatst het na de [ Vraag ](../../automating/using/query.md) activiteit.
+1. De belemmering en laat vallen een [&#x200B; dossier &#x200B;](../../automating/using/extract-file.md) activiteit van het Extraheren in uw werkschema en plaatst het na de [&#x200B; Vraag &#x200B;](../../automating/using/query.md) activiteit.
 
    In dit voorbeeld wordt de query uitgevoerd op alle profielen met een leeftijd van 18 tot en met 30 jaar.
 
@@ -46,7 +46,7 @@ Het doel van deze workflow is om een lijst met profielen te exporteren naar een 
      ![](assets/wkf_data_export9.png)
 
 1. Bevestig uw activiteit.
-1. De belemmering en laat vallen a [ het dossier van de Overdracht ](../../automating/using/transfer-file.md) activiteit na de **[!UICONTROL Extract file]** activiteit om het extractiedossier op een externe rekening terug te krijgen.
+1. De belemmering en laat vallen a [&#x200B; het dossier van de Overdracht &#x200B;](../../automating/using/transfer-file.md) activiteit na de **[!UICONTROL Extract file]** activiteit om het extractiedossier op een externe rekening terug te krijgen.
 1. Open de activiteit en kies de actie **[!UICONTROL File upload]**.
 
    ![](assets/wkf_data_export11.png)

@@ -22,7 +22,7 @@ ht-degree: 41%
 
 ![](assets/wkf_in_app_1.png)
 
-De **levering in-app** activiteit staat u toe om het verzenden van een bericht in-app binnen een werkschema te vormen. Met In-App-berichten kunt u een bericht weergeven wanneer de gebruiker actief is in de toepassing. Voor meer informatie betreffende de levering in-App, verwijs naar deze [ sectie ](../../channels/using/about-in-app-messaging.md).
+De **levering in-app** activiteit staat u toe om het verzenden van een bericht in-app binnen een werkschema te vormen. Met In-App-berichten kunt u een bericht weergeven wanneer de gebruiker actief is in de toepassing. Voor meer informatie betreffende de levering in-App, verwijs naar deze [&#x200B; sectie &#x200B;](../../channels/using/about-in-app-messaging.md).
 
 ## Gebruikscontext {#context-of-use}
 
@@ -59,7 +59,7 @@ De voorbereiding van berichten wordt geactiveerd volgens de parameters voor work
 
 1. Voer de berichteigenschappen van uw In-App in en selecteer uw mobiele app in het veld **[!UICONTROL Associate a Mobile App to a delivery]** .
 1. Sleep op het tabblad **[!UICONTROL Triggers]** de gebeurtenis die het bericht activeert. Er zijn drie categorieën gebeurtenissen beschikbaar:
-1. Definieer uw inhoud in de app. Verwijs naar de sectie betreffende [ in-app aanpassing ](../../channels/using/customizing-an-in-app-message.md).
+1. Definieer uw inhoud in de app. Verwijs naar de sectie betreffende [&#x200B; in-app aanpassing &#x200B;](../../channels/using/customizing-an-in-app-message.md).
 1. Standaard bevat de activiteit **[!UICONTROL In-App delivery]** geen uitgaande overgangen. Als u een uitgaande overgang wilt toevoegen aan uw activiteit **[!UICONTROL In-App delivery]**, ga dan naar het tabblad **[!UICONTROL General]** van de geavanceerde opties voor activiteiten (de knop ![](assets/dlv_activity_params-24px.png) in de snelle acties van de activiteit) en vink een van de volgende opties aan:
 
    * **[!UICONTROL Add outbound transition without the population]**: Hiermee kunt u een uitgaande overgang genereren die exact dezelfde populatie als de binnenkomende overgang bevat.

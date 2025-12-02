@@ -20,14 +20,14 @@ ht-degree: 5%
 
 Met Adobe Campaign kunt u uw lijsten rechtstreeks in een bestand exporteren voor toekomstig gebruik. Wanneer u een lijst in een bestand exporteert, wordt een logbestandvermelding in het menu **[!UICONTROL Export audits]** gegenereerd. Raadpleeg de sectie [Audits uitvoeren op exportlogboeken](../../administration/using/auditing-export-logs.md) voor meer informatie over exportaudits.
 
-![](assets/do-not-localize/how-to-video.png) [ ontdekt hoe te om een lijst in video ](#video) te vormen
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ontdekt hoe te om een lijst in video &#x200B;](#video) te vormen
 
 De de lijstoptie van de uitvoer staat u toe om een maximum van 100.000 lijnen door gebrek uit te voeren en door de **Nms_ExportListLimit** optie wordt bepaald. Deze optie kan worden beheerd door de functionele beheerder via het menu **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** .
 
-De lijst van de uitvoer is beschikbaar in alle schermen die de wijzemening van de Lijst ****, voor gebruikers met de **[!UICONTROL EXPORT (export)]** rol hebben.
+De lijst van de uitvoer is beschikbaar in alle schermen die de wijzemening van de Lijst **&#x200B;**, voor gebruikers met de **[!UICONTROL EXPORT (export)]** rol hebben.
 
 1. Ga naar uw gekozen **scherm van de Lijst**. Bijvoorbeeld het scherm met het testprofiel ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ).
-1. Controleer dat het scherm op **1} wijze van de Lijst {is.**
+1. Controleer dat het scherm op **1&rbrace; wijze van de Lijst &lbrace;is.**
 
    ![](assets/export_list_mode_switch.png)
 
@@ -45,7 +45,7 @@ Het bestand wordt gegenereerd in CSV-indeling met de extensie .TXT. Deze naam is
 
 De numerieke waarden en datums houden rekening met de lokale tijd (landinstelling) van de gebruiker die het exporteren uitvoert. Bijvoorbeeld: DD-MM-YYYY of MM-DD-YYYY.
 
-Als u een exportbewerking wilt uitvoeren die groter is dan deze, moet u een specifieke workflow maken. Verwijs naar de [ dossier van de Extraheren ](../../automating/using/extract-file.md) sectie.
+Als u een exportbewerking wilt uitvoeren die groter is dan deze, moet u een specifieke workflow maken. Verwijs naar de [&#x200B; dossier van de Extraheren &#x200B;](../../automating/using/extract-file.md) sectie.
 
 **Voorbeeld**
 
@@ -83,4 +83,4 @@ Deze video laat zien hoe u lijsten kunt configureren.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
-De extra hoe te video&#39;s van Campaign Standard zijn beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).
+De extra hoe te video&#39;s van Campaign Standard zijn beschikbaar [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).

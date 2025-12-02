@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Gegevens synchroniseren
 
-U kunt tabellen synchroniseren van Microsoft Dynamics 365 naar Campagne- en Campagne-marketinggegevens naar Microsoft Dynamics 365. De synchronisatie wordt uitgevoerd via drie toegewijde technische workflows: **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, **[!UICONTROL Campaign to Microsoft Dynamics 365]**, **[!UICONTROL Opt-In/Out]** . Verwijs naar deze sectie aan [ meer ](../../integrating/using/d365-acs-self-service-app-workflows.md) leren.
+U kunt tabellen synchroniseren van Microsoft Dynamics 365 naar Campagne- en Campagne-marketinggegevens naar Microsoft Dynamics 365. De synchronisatie wordt uitgevoerd via drie toegewijde technische workflows: **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, **[!UICONTROL Campaign to Microsoft Dynamics 365]**, **[!UICONTROL Opt-In/Out]** . Verwijs naar deze sectie aan [&#x200B; meer &#x200B;](../../integrating/using/d365-acs-self-service-app-workflows.md) leren.
 
 >[!IMPORTANT]
 >U moet de **[!UICONTROL Microsoft Dynamics 365 to Campaign]** -workflow stoppen/starten om rekening te houden met uw wijzigingen. [Meer informatie](../../integrating/using/d365-acs-self-service-app-workflows.md)
@@ -96,10 +96,10 @@ In deze sectie zult u leren hoe te om a **enige** afbeelding van één Microsoft
 U kunt de volgende instellingen definiëren:
 
 * **[!UICONTROL Tables]**: in deze sectie worden de naam van de Microsoft Dynamics 365-tabel en de Campagne-tabel weergegeven waaraan de tabel wordt toegewezen.
-* **[!UICONTROL Field Mappings]**: leer meer in [ deze sectie ](#field-mappings)
-* **[!UICONTROL Field Replacements]**: leer meer in [ deze sectie ](#field-replacements)
-* **[!UICONTROL Filters]**: leer meer in [ deze sectie ](#filters)
-* **[!UICONTROL Advanced Settings]**: leer meer in [ deze sectie ](#advanced-settings)
+* **[!UICONTROL Field Mappings]**: leer meer in [&#x200B; deze sectie &#x200B;](#field-mappings)
+* **[!UICONTROL Field Replacements]**: leer meer in [&#x200B; deze sectie &#x200B;](#field-replacements)
+* **[!UICONTROL Filters]**: leer meer in [&#x200B; deze sectie &#x200B;](#filters)
+* **[!UICONTROL Advanced Settings]**: leer meer in [&#x200B; deze sectie &#x200B;](#advanced-settings)
 
 ### Veldtoewijzingen {#field-mappings}
 
@@ -111,7 +111,7 @@ Wanneer u een nieuwe Microsoft Dynamics 365 aan de lijstafbeelding van de Campag
 
 De primaire Microsoft Dynamics 365-sleutel is alleen-lezen omdat de toepassing deze detecteert.
 
-Voor Campagne, moet u selecteren welk gebied de unieke sleutel zal zijn. Het moet als a [ worden gevormd identiteitskaart van CRM douanemiddel ](../../developing/using/uc-calling-resource-id-key.md) en moet geen duplicaten hebben.
+Voor Campagne, moet u selecteren welk gebied de unieke sleutel zal zijn. Het moet als a [&#x200B; worden gevormd identiteitskaart van CRM douanemiddel &#x200B;](../../developing/using/uc-calling-resource-id-key.md) en moet geen duplicaten hebben.
 
 >[!NOTE]
 >
@@ -199,13 +199,13 @@ De vier metriek die u kunt controleren zijn: **verzendt**, **klikt**, **opent**,
 
 Selecteer **ja** om te bevestigen dat u gebeurtenissen van dat type aan Microsoft Dynamics 365 wilt stromen.
 
-Klik [ hier ](../../integrating/using/d365-acs-self-service-app-workflows.md) voor meer informatie over deze e-mailgebeurtenisstromen.
+Klik [&#x200B; hier &#x200B;](../../integrating/using/d365-acs-self-service-app-workflows.md) voor meer informatie over deze e-mailgebeurtenisstromen.
 
 ## Workflow voor in- en uitschakelen {#opt-in-out-wf}
 
 Het **open-binnen/uit** werkschema staat u toe om de stroom van de opt in/uit informatie tussen Microsoft Dynamics 365 en Adobe Campaign te identificeren. Hierbij wordt ervan uitgegaan dat de gegevens zijn gekoppeld aan de &quot;contact&quot; van de Microsoft Dynamics 365-entiteit en het &quot;profiel&quot; van de Adobe Campaign-resource.
 
-Leer meer over uit:schakelen beheer in [ deze sectie ](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
+Leer meer over uit:schakelen beheer in [&#x200B; deze sectie &#x200B;](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
 
 Houd er rekening mee dat u op Opslaan moet klikken om uw selecties op te slaan. Herinner ook dat u de **Campagne aan Microsoft Dynamics 365** werkschema moet tegenhouden en dan spel voor de integratie klikken om uw veranderingen op te nemen.
 

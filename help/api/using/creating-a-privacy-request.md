@@ -20,11 +20,11 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->De [ Integratie van de Dienst van de Kern van de Privacy 0} {is de methode u voor alle toegang zou moeten gebruiken en verzoeken schrapt. ](https://developer.adobe.com/experience-platform-apis/references/privacy-service)<!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>De [&#x200B; Integratie van de Dienst van de Kern van de Privacy 0&rbrace; &lbrace;is de methode u voor alle toegang zou moeten gebruiken en verzoeken schrapt. &#x200B;](https://developer.adobe.com/experience-platform-apis/references/privacy-service)<!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 De verzoeken van de privacy worden gecreeerd gebruikend a **POST** verzoek.
 
-Voordat u aanvragen maakt, moet u de naamruimte definiëren die u wilt gebruiken. Voor meer op dit, verwijs de [ het beheersdocumentatie van de Privacy ](../../start/using/privacy-requests.md).
+Voordat u aanvragen maakt, moet u de naamruimte definiëren die u wilt gebruiken. Voor meer op dit, verwijs de [&#x200B; het beheersdocumentatie van de Privacy &#x200B;](../../start/using/privacy-requests.md).
 
 De lading moet de volgende parameters bevatten:
 

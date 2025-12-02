@@ -39,13 +39,13 @@ De bronworkflow wordt als volgt weergegeven:
 
 * Bij een activiteit [Afstemming](../../automating/using/reconciliation.md) worden de koppelingen tussen de geïmporteerde data en de database tot stand gebracht, zodat de transactiedata correct aan profielen en producten worden gekoppeld.
 * Bij een activiteit [Data bijwerken](../../automating/using/update-data.md) wordt de resource Transacties van de database ingevoegd en bijgewerkt met de binnenkomende data.
-* Een [ Eind ](../../automating/using/start-and-end.md) activiteit brengt het bestemmingswerkschema teweeg, dat wordt gebruikt om aggregaten bij te werken.
+* Een [&#x200B; Eind &#x200B;](../../automating/using/start-and-end.md) activiteit brengt het bestemmingswerkschema teweeg, dat wordt gebruikt om aggregaten bij te werken.
 
 ![](assets/signal_example_source1.png)
 
 De bestemmingsworkflow wordt als volgt weergegeven:
 
-* Een [ Externe signaal ](../../automating/using/external-signal.md) activiteit wacht op het bronwerkschema om met succes te worden gebeëindigd.
+* Een [&#x200B; Externe signaal &#x200B;](../../automating/using/external-signal.md) activiteit wacht op het bronwerkschema om met succes te worden gebeëindigd.
 * Een activiteit [Query](../../automating/using/query.md#enriching-data) benadert doelgericht profielen en verrijkt deze met een verzamelingsreeks om de laatste aankoopdatum op te halen.
 * Met een activiteit [Data bijwerken](../../automating/using/update-data.md) worden de aanvullende data opgeslagen in een speciaal aangepast veld. Merk op dat de profielresource is uitgebreid om het veld **Last purchase date** toe te voegen.
 

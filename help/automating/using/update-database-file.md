@@ -21,7 +21,7 @@ ht-degree: 11%
 
 In het volgende voorbeeld wordt de configuratie getoond van een **[!UICONTROL Update data]** -activiteit na een **[!UICONTROL Load file]** -activiteit. Het doel van deze workflow is om profielen toe te voegen aan of bij te werken naar de Adobe Campaign-database met de gegevens die uit het bestand zijn opgehaald.
 
-In dit voorbeeld, is de verzoeningssleutel gebruikt het **e-mailadres**. Het dossier in het [ geladen dossier van de Lading ](../../automating/using/load-file.md) activiteit is a **** formaatdossier dat de volgende voorbeeldgegevens bevat:
+In dit voorbeeld, is de verzoeningssleutel gebruikt het **e-mailadres**. Het dossier in het [&#x200B; geladen dossier van de Lading &#x200B;](../../automating/using/load-file.md) activiteit is a **&#x200B;**&#x200B;formaatdossier dat de volgende voorbeeldgegevens bevat:
 
 ```
 lastname;firstname;email;birthdate
@@ -36,7 +36,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-De [ gegevens van de Update ](../../automating/using/update-data.md) activiteit wordt gevormd als volgt:
+De [&#x200B; gegevens van de Update &#x200B;](../../automating/using/update-data.md) activiteit wordt gevormd als volgt:
 
 ![](assets/deduplication_example2_writer1.png)
 

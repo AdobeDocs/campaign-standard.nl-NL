@@ -20,13 +20,13 @@ ht-degree: 1%
 
 De referentie van de Rekening van de Dienst (JWT) is afgekeurd ten gunste van de nieuwe referentie van OAuth server-aan-Server. De nieuwe referentie maakt het voor u gemakkelijker om Adobe-toepassingen te onderhouden. Het verwijdert ook de behoefte om certificaten periodiek te roteren en werkt uit-van-de-doos gebruikend standaardOAuth2 bibliotheken.
 
-Terwijl de geloofsbrieven van de Rekening van de Dienst (JWT) zoals afgekeurd zijn gemerkt, zullen zij tot 1 jan. 2025 blijven werken. Daarom moet u uw integratie migreren om de nieuwe server-aan-server referentie OAuth vóór 1 Jan, 2025 te gebruiken. Gelieve te controleren {de chronologie van de 0} veroudering [ voor meer informatie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#deperecation-timelines)
+Terwijl de geloofsbrieven van de Rekening van de Dienst (JWT) zoals afgekeurd zijn gemerkt, zullen zij tot 1 jan. 2025 blijven werken. Daarom moet u uw integratie migreren om de nieuwe server-aan-server referentie OAuth vóór 1 Jan, 2025 te gebruiken. Gelieve te controleren {de chronologie van de 0} veroudering [&#x200B; voor meer informatie](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#deperecation-timelines)
 
 ## Stappen om geloofsbrieven van JWT aan OAuth server-aan-server te migreren
 
 De migratie naar de referentie van OAuth Server-aan-Server is een eenvoudig proces dat een nul onderbreking migratie voor uw toepassing toelaat. U kunt de onderstaande stappen volgen om de gegevens te migreren.
 
-1. Login aan [ Adobe Developer Console ](https://developer.adobe.com/console)
+1. Login aan [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/console)
 2. Van het het filtreren menu op de linkerkant, selecteer de optie heeft de referentie van de Rekening van de Dienst (JWT). Op deze manier worden alle projecten weergegeven die een JWT-referentie (Service Account) hebben. Klik in de lijst met projecten op het project dat u wilt migreren.
 
    ![](assets/JwtToOAuthMigration1.png)
@@ -53,7 +53,7 @@ De migratie naar de referentie van OAuth Server-aan-Server is een eenvoudig proc
    * Controleer de workflows gedurende een paar minuten om ervoor te zorgen dat de workflows correct werken. U kunt de gegevens ook controleren in Adobe Campaign Standard en Microsoft Dynamics 365 om ervoor te zorgen dat de gegevens correct worden gesynchroniseerd.
 
 7. De JWT-referentie verwijderen om de migratie te voltooien
-   * Login aan [ Adobe Developer Console ](https://developer.adobe.com/console)
+   * Login aan [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/console)
    * Klik op de projecten en selecteer het project dat u hebt gemigreerd.
    * Klik op het tabblad Service Account (JWT) voor referentie aan de linkerkant van de navigatie.
    * Klik op de knop Revisie en Verwijderen.

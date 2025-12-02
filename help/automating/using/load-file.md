@@ -106,7 +106,7 @@ De activiteitconfiguratie omvat twee stappen. Eerst moet u de verwachte bestands
 
 1. Als het bestand waarvan u de data wilt laden, is gecomprimeerd tot een gzip-bestand (.gz), selecteert u de optie **[!UICONTROL Decompression]** in het veld **[!UICONTROL Add a pre-processing stage]**. Hierdoor kunt u het bestand uitpakken voordat u de data laadt. Deze optie is alleen beschikbaar als het bestand afkomstig is van de binnenkomende overgang van de activiteit.
 
-   Met het veld **[!UICONTROL Add a pre-processing stage]** kunt u ook een bestand decoderen voordat u het in de database importeert. Voor meer op hoe te met gecodeerde dossiers te werken, verwijs naar [ deze sectie ](../../automating/using/managing-encrypted-data.md)
+   Met het veld **[!UICONTROL Add a pre-processing stage]** kunt u ook een bestand decoderen voordat u het in de database importeert. Voor meer op hoe te met gecodeerde dossiers te werken, verwijs naar [&#x200B; deze sectie &#x200B;](../../automating/using/managing-encrypted-data.md)
 
 1. Met de optie **[!UICONTROL Keep the rejects in a file]** kunt u een bestand downloaden dat fouten bevat die tijdens het importeren zijn opgetreden en het vervolgens toepassen in een naverwerkingsfase. Wanneer de optie wordt geactiveerd, wordt de naam van de uitgaande overgang gewijzigd in ‘Rejects’.
 

@@ -26,7 +26,7 @@ ht-degree: 6%
 >
 >**duw** en **in-app** kanalen zijn nog niet beschikbaar voor verpersoonlijking gebruikend contextafhankelijke gegevens van Adobe Experience Platform.
 
-Zodra uw werkschema met een [ publiek van Adobe Experience Platform ](../../integrating/using/aep-about-audience-destinations-service.md) wordt gevormd, kunt u berichten met profielattributen personaliseren die uitsluitend in het Model van de Gegevens van de Ervaring (XDM) bestaan.
+Zodra uw werkschema met een [&#x200B; publiek van Adobe Experience Platform &#x200B;](../../integrating/using/aep-about-audience-destinations-service.md) wordt gevormd, kunt u berichten met profielattributen personaliseren die uitsluitend in het Model van de Gegevens van de Ervaring (XDM) bestaan.
 
 Hiervoor moet u deze kenmerken toevoegen aan de **[!UICONTROL Read audience]** -activiteit:
 

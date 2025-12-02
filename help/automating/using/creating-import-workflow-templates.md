@@ -57,7 +57,7 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
 
 1. Configureer de **[!UICONTROL Reconciliation]** -activiteit. Het doel van deze activiteit in dit verband is de identificatie van de binnenkomende gegevens.
 
-   * In het **[!UICONTROL Relations]** lusje, selecteer **[!UICONTROL Create element]** en bepaal een verband tussen de ingevoerde gegevens en de ontvangers gericht op afmeting (zie [ het richten dimensies en middelen ](../../automating/using/query.md#targeting-dimensions-and-resources)). In dit voorbeeld, wordt het **douanegebied van identiteitskaart van 0} CRM {gebruikt om te creëren zich bij voorwaarde aansluit.** Gebruik het veld of de combinatie van velden die u nodig hebt, zolang u unieke records kunt identificeren.
+   * In het **[!UICONTROL Relations]** lusje, selecteer **[!UICONTROL Create element]** en bepaal een verband tussen de ingevoerde gegevens en de ontvangers gericht op afmeting (zie [&#x200B; het richten dimensies en middelen &#x200B;](../../automating/using/query.md#targeting-dimensions-and-resources)). In dit voorbeeld, wordt het **douanegebied van identiteitskaart van 0&rbrace; CRM &lbrace;gebruikt om te creëren zich bij voorwaarde aansluit.** Gebruik het veld of de combinatie van velden die u nodig hebt, zolang u unieke records kunt identificeren.
    * Laat op het tabblad **[!UICONTROL Identification]** de optie **[!UICONTROL Identify the document from the working data]** uitgeschakeld.
 
    ![](assets/import_template_example2.png)
@@ -83,7 +83,7 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
 1. Configureer de **[!UICONTROL Update data]** -activiteit die zich na de eerste uitgaande overgang van de eerder geconfigureerde **[!UICONTROL Segmentation]** -activiteit bevindt.
 
    * Selecteer **[!UICONTROL Update]** als **[!UICONTROL Operation type]** omdat de inkomende overgang alleen ontvangers bevat die al in de database aanwezig zijn.
-   * Selecteer op het tabblad **[!UICONTROL Identification]** **[!UICONTROL Using reconciliation criteria]** en definieer een sleutel tussen **[!UICONTROL Dimension to update]** (In dit geval Profielen) en de koppeling die in de **[!UICONTROL Reconciliation]** -activiteit is gemaakt. In dit voorbeeld, wordt het **douanegebied van identiteitskaart van 0} CRM {gebruikt.**
+   * Selecteer op het tabblad **[!UICONTROL Identification]** **[!UICONTROL Using reconciliation criteria]** en definieer een sleutel tussen **[!UICONTROL Dimension to update]** (In dit geval Profielen) en de koppeling die in de **[!UICONTROL Reconciliation]** -activiteit is gemaakt. In dit voorbeeld, wordt het **douanegebied van identiteitskaart van 0&rbrace; CRM &lbrace;gebruikt.**
 
      ![](assets/import_template_example6.png)
 
@@ -93,7 +93,7 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
 
      >[!NOTE]
      >
-     >Als u directe mails naar deze profielen wilt verzenden, moet u ook een postadres opgeven. Deze informatie is namelijk van wezenlijk belang voor de provider van de directe mail. Controleer ook of het vak **[!UICONTROL Address specified]** in de gegevens van uw profielen is ingeschakeld. Om deze optie van een werkschema bij te werken, voeg eenvoudig een element aan de bij te werken gebieden toe, en specificeer **1** als **[!UICONTROL Source]** en selecteer het `postalAddress/@addrDefined` gebied als **[!UICONTROL Destination]**. Voor meer op directe post en het gebruik van de **[!UICONTROL Address specified]** optie, zie [ dit document ](../../channels/using/about-direct-mail.md#recommendations).
+     >Als u directe mails naar deze profielen wilt verzenden, moet u ook een postadres opgeven. Deze informatie is namelijk van wezenlijk belang voor de provider van de directe mail. Controleer ook of het vak **[!UICONTROL Address specified]** in de gegevens van uw profielen is ingeschakeld. Om deze optie van een werkschema bij te werken, voeg eenvoudig een element aan de bij te werken gebieden toe, en specificeer **1** als **[!UICONTROL Source]** en selecteer het `postalAddress/@addrDefined` gebied als **[!UICONTROL Destination]**. Voor meer op directe post en het gebruik van de **[!UICONTROL Address specified]** optie, zie [&#x200B; dit document &#x200B;](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Configureer de **[!UICONTROL Deduplication]** -activiteit die zich bevindt na de overgang met niet-compatibele profielen:
 
@@ -109,7 +109,7 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
 1. Configureer de **[!UICONTROL Update data]** -activiteit die zich bevindt na de **[!UICONTROL Deduplication]** -activiteit die eerder is geconfigureerd.
 
    * Selecteer **[!UICONTROL Insert only]** as **[!UICONTROL Operation type]** omdat de inkomende overgang alleen profielen bevat die niet aanwezig zijn in de database.
-   * Selecteer op het tabblad **[!UICONTROL Identification]** **[!UICONTROL Using reconciliation criteria]** en definieer een sleutel tussen **[!UICONTROL Dimension to update]** (In dit geval Profielen) en de koppeling die in de **[!UICONTROL Reconciliation]** -activiteit is gemaakt. In dit voorbeeld, wordt het **douanegebied van identiteitskaart van 0} CRM {gebruikt.**
+   * Selecteer op het tabblad **[!UICONTROL Identification]** **[!UICONTROL Using reconciliation criteria]** en definieer een sleutel tussen **[!UICONTROL Dimension to update]** (In dit geval Profielen) en de koppeling die in de **[!UICONTROL Reconciliation]** -activiteit is gemaakt. In dit voorbeeld, wordt het **douanegebied van identiteitskaart van 0&rbrace; CRM &lbrace;gebruikt.**
 
      ![](assets/import_template_example6.png)
 
@@ -119,7 +119,7 @@ In dit voorbeeld ziet u hoe u een workflow instelt die opnieuw kan worden gebrui
 
      >[!NOTE]
      >
-     >Als u directe mails naar deze profielen wilt verzenden, moet u ook een postadres opgeven. Deze informatie is namelijk van wezenlijk belang voor de provider van de directe mail. Controleer ook of het vak **[!UICONTROL Address specified]** in de gegevens van uw profielen is ingeschakeld. Om deze optie van een werkschema bij te werken, voeg eenvoudig een element aan de bij te werken gebieden toe, en specificeer **1** als **[!UICONTROL Source]** en selecteer **[postalAddress/@addrDefined]** gebied als **[!UICONTROL Destination]**. Voor meer op directe post en het gebruik van de **[!UICONTROL Address specified]** optie, zie [ dit document ](../../channels/using/about-direct-mail.md#recommendations).
+     >Als u directe mails naar deze profielen wilt verzenden, moet u ook een postadres opgeven. Deze informatie is namelijk van wezenlijk belang voor de provider van de directe mail. Controleer ook of het vak **[!UICONTROL Address specified]** in de gegevens van uw profielen is ingeschakeld. Om deze optie van een werkschema bij te werken, voeg eenvoudig een element aan de bij te werken gebieden toe, en specificeer **1** als **[!UICONTROL Source]** en selecteer **[postalAddress/@addrDefined]** gebied als **[!UICONTROL Destination]**. Voor meer op directe post en het gebruik van de **[!UICONTROL Address specified]** optie, zie [&#x200B; dit document &#x200B;](../../channels/using/about-direct-mail.md#recommendations).
 
 1. Voeg na de derde overgang van de **[!UICONTROL Segmentation]** -activiteit een **[!UICONTROL Extract file]** activiteit en een **[!UICONTROL Transfer file]** activiteit toe als u wilt bijhouden welke gegevens niet in de database zijn ingevoegd. Configureer die activiteiten om de kolom die u nodig hebt te exporteren en om het bestand over te brengen naar een FTP- of SFTP-server waar u het bestand kunt ophalen.
 1. Voeg een **[!UICONTROL End]** -activiteit toe en sla de werkstroomsjabloon op.

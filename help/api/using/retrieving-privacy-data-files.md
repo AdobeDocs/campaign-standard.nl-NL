@@ -20,11 +20,11 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->De [ Integratie van de Dienst van de Kern van de Privacy 0} {is de methode u voor alle toegang zou moeten gebruiken en verzoeken schrapt. ](https://developer.adobe.com/experience-platform-apis/references/privacy-service)<!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>De [&#x200B; Integratie van de Dienst van de Kern van de Privacy 0&rbrace; &lbrace;is de methode u voor alle toegang zou moeten gebruiken en verzoeken schrapt. &#x200B;](https://developer.adobe.com/experience-platform-apis/references/privacy-service)<!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 Om het dossier terug te winnen dat alle informatie verbonden aan een aansluitingswaarde bevat, volg deze drie stappen procedure:
 
-1. Voer a **POST** verzoek uit om een nieuw verzoek met de attributen **tot stand te brengen type= &quot;toegang&quot;**, zie [ Creërend een nieuw privacyverzoek ](../../api/using/creating-a-privacy-request.md).
+1. Voer a **POST** verzoek uit om een nieuw verzoek met de attributen **tot stand te brengen type= &quot;toegang&quot;**, zie [&#x200B; Creërend een nieuw privacyverzoek &#x200B;](../../api/using/creating-a-privacy-request.md).
 
 1. Voer a **GET** verzoek uit om informatie over het verzoek terug te winnen.
 

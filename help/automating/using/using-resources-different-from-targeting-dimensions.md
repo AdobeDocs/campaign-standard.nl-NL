@@ -21,7 +21,7 @@ ht-degree: 76%
 
 Dit gebruiksgeval stelt voor hoe te om een middel te gebruiken dat van de het richten dimensie verschillend is, bijvoorbeeld om op een specifiek verslag in een verre lijst te zoeken.
 
-Voor meer bij het richten van dimensies en middelen, verwijs naar [ deze sectie ](../../automating/using/query.md#targeting-dimensions-and-resources)
+Voor meer bij het richten van dimensies en middelen, verwijs naar [&#x200B; deze sectie &#x200B;](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **Voorbeeld 1: profielen identificeren die door de levering worden getarget met het label &quot;Welkom terug!&quot;**.
 

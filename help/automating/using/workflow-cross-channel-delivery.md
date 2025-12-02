@@ -66,7 +66,7 @@ Gebruik de knop **[!UICONTROL Count]** om een schatting te bekijken van het aant
 
 Zodra uw doel door de queryactiviteit is geïdentificeerd, moet u een criterium selecteren om het doel in twee verschillende populaties te segmenteren: een gedeelte ontvangt een e-mail en het andere gedeelte ontvangt een sms.
 
-U moet a [ Segmentatie ](../../automating/using/segmentation.md) activiteit gebruiken om één of verscheidene segmenten van een bevolking tot stand te brengen die stroomopwaarts in een vraag wordt verwerkt.
+U moet a [&#x200B; Segmentatie &#x200B;](../../automating/using/segmentation.md) activiteit gebruiken om één of verscheidene segmenten van een bevolking tot stand te brengen die stroomopwaarts in een vraag wordt verwerkt.
 
 ![](assets/wkf_segment_activity.png)
 
@@ -113,7 +113,7 @@ Uw tweede overgang is nu ook geconfigureerd.
 
 ## Leveringen maken {#creating-deliveries}
 
-Aangezien twee overgangen reeds werden gecreeerd, moet u twee soorten leveringen aan de uitgaande overgangen van de activiteit van de Segmentatie nu toevoegen: een [ E-mail bezorging ](../../automating/using/email-delivery.md) activiteit en een [ levering van SMS ](../../automating/using/sms-delivery.md) activiteit.
+Aangezien twee overgangen reeds werden gecreeerd, moet u twee soorten leveringen aan de uitgaande overgangen van de activiteit van de Segmentatie nu toevoegen: een [&#x200B; E-mail bezorging &#x200B;](../../automating/using/email-delivery.md) activiteit en een [&#x200B; levering van SMS &#x200B;](../../automating/using/sms-delivery.md) activiteit.
 
 Gebruik Adobe Campaign om leveringen aan een workflow toe te voegen. Om dit te kunnen doen, selecteert u een levering in de categorie **[!UICONTROL Channels]** van het activiteitenpalet van uw workflow.
 
@@ -121,7 +121,7 @@ Gebruik Adobe Campaign om leveringen aan een workflow toe te voegen. Om dit te k
 
 Een e-maillevering maken:
 
-1. De belemmering en laat vallen een [ E-mail bezorging ](../../automating/using/email-delivery.md) activiteit na het eerste segment.
+1. De belemmering en laat vallen een [&#x200B; E-mail bezorging &#x200B;](../../automating/using/email-delivery.md) activiteit na het eerste segment.
 1. Dubbelklik op de activiteit om deze te bewerken.
 1. Selecteer **[!UICONTROL Simple email]**.
 1. Selecteer **[!UICONTROL Add an outbound transition with the population]** en klik op **[!UICONTROL Next]**.
@@ -138,7 +138,7 @@ Een e-maillevering maken:
 
 Een sms-levering maken:
 
-1. De belemmering en laat vallen een [ levering van SMS ](../../automating/using/sms-delivery.md) activiteit na het andere segment.
+1. De belemmering en laat vallen een [&#x200B; levering van SMS &#x200B;](../../automating/using/sms-delivery.md) activiteit na het andere segment.
 1. Dubbelklik op de activiteit om deze te bewerken.
 1. Selecteer **[!UICONTROL SMS]** en klik op **[!UICONTROL Next]**.
 1. Selecteer een sms-sjabloon en klik op **[!UICONTROL Next]**.

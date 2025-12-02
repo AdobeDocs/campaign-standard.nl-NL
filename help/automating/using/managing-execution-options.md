@@ -29,7 +29,7 @@ Mogelijke opties zijn:
 
 * **[!UICONTROL History in days]**: geeft het aantal dagen aan waarna de historie moet worden gewist. De historie bevat elementen die verwant zijn aan de workflow: logbestanden, taken, gebeurtenissen (technische objecten die zijn gekoppeld aan de workflowbewerking) en bestanden die door de **[!UICONTROL Transfer file]** -activiteit zijn gedownload. De standaardwaarde is 30 dagen voor workflowsjablonen buiten de box.
 
-  Wis van de geschiedenis wordt uitgevoerd door het technische werkschema van de schoonmaakbeurt van het Gegevensbestand, dat door gebrek dagelijks (zie [ Lijst van technische werkschema&#39;s ](../../administration/using/technical-workflows.md) wordt uitgevoerd.)
+  Wis van de geschiedenis wordt uitgevoerd door het technische werkschema van de schoonmaakbeurt van het Gegevensbestand, dat door gebrek dagelijks (zie [&#x200B; Lijst van technische werkschema&#39;s &#x200B;](../../administration/using/technical-workflows.md) wordt uitgevoerd.)
 
   >[!IMPORTANT]
   >
@@ -39,7 +39,7 @@ Mogelijke opties zijn:
 
 * **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**: controleer deze optie als u het volledige uitvoeringsplan wilt worden geregistreerd. Deze optie is standaard uitgeschakeld.
 
-  Voor meer informatie over deze optie, verwijs naar deze [ sectie ](#diagnostic-mode).
+  Voor meer informatie over deze optie, verwijs naar deze [&#x200B; sectie &#x200B;](#diagnostic-mode).
 
 * **[!UICONTROL Keep interim results]**: controleer deze optie als u de details van overgangen wilt kunnen bekijken.
 
@@ -51,7 +51,7 @@ Mogelijke opties zijn:
 
 * **[!UICONTROL Severity]**: hiermee kunt u een prioriteitsniveau opgeven voor het uitvoeren van workflows in uw Adobe Campaign-instantie. Dit veld wordt door Adobe-teams alleen gebruikt voor bewakingsdoeleinden.
 
-De sectie **[!UICONTROL Error management]** bevat aanvullende opties waarmee u kunt bepalen hoe workflows zich gedragen bij fouten. Deze opties worden gedetailleerd in de [ het beheersings ](../../automating/using/monitoring-workflow-execution.md#error-management) sectie van de Fout.
+De sectie **[!UICONTROL Error management]** bevat aanvullende opties waarmee u kunt bepalen hoe workflows zich gedragen bij fouten. Deze opties worden gedetailleerd in de [&#x200B; het beheersings &#x200B;](../../automating/using/monitoring-workflow-execution.md#error-management) sectie van de Fout.
 
 ## Diagnosemodus {#diagnostic-mode}
 
@@ -65,7 +65,7 @@ Als deze optie is ingeschakeld, wordt het hele uitvoeringsplan door de optie **[
 
 Nadat u deze optie hebt ingeschakeld en uw workflow hebt gestart, wordt het uitvoeringsplan geregistreerd als uw query meer dan één minuut duurt. U kunt uw uitvoeringsplan dan terugwinnen door EXPLAIN ANALYZE te gebruiken.
 
-Voor meer informatie over dit, verwijs naar [ documentatie PostgreSQL ](https://www.postgresql.org/docs/9.4/using-explain.html).
+Voor meer informatie over dit, verwijs naar [&#x200B; documentatie PostgreSQL &#x200B;](https://www.postgresql.org/docs/9.4/using-explain.html).
 
 Als deze query een reeks-scan bevat, geeft **[!UICONTROL Diagnostic mode]** ook aanbevelingen om een index te maken met behulp van een filterexpressie.
 

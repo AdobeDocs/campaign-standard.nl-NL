@@ -21,7 +21,7 @@ In dit voorbeeld wordt elke eerste dag van de maand om 21.00 uur een persoonlijk
 
 Voer de volgende stappen uit om de workflow te maken:
 
-1. De [ Planner ](../../automating/using/scheduler.md) activiteit staat u toe om het werkschemadagen vóór het begin van de levering te beginnen om het bericht aan elke abonnee bij 8 pm in om het even welke bepaalde tijdzone te kunnen verzenden:
+1. De [&#x200B; Planner &#x200B;](../../automating/using/scheduler.md) activiteit staat u toe om het werkschemadagen vóór het begin van de levering te beginnen om het bericht aan elke abonnee bij 8 pm in om het even welke bepaalde tijdzone te kunnen verzenden:
 
    * Selecteer Maandelijks in het veld **[!UICONTROL Execution frequency]** .
    * Selecteer 8 pm in het veld **[!UICONTROL Time]** .
@@ -35,7 +35,7 @@ Voer de volgende stappen uit om de workflow te maken:
 
    ![](assets/wkf_push_example_5.png)
 
-1. De [ activiteit van de Vraag ](../../automating/using/query.md) staat u toe om uw klanten van VIP te richten die tussen 20-30 worden gerijpt, die aan uw mobiele toepassing zijn ingetekend en die niet e-mail open u verzond:
+1. De [&#x200B; activiteit van de Vraag &#x200B;](../../automating/using/query.md) staat u toe om uw klanten van VIP te richten die tussen 20-30 worden gerijpt, die aan uw mobiele toepassing zijn ingetekend en die niet e-mail open u verzond:
 
    * Selecteer een publiek (uw klanten van VIP) en filter op hun leeftijd.
    * Sleep en laat vallen de **Abonnementen aan een toepassings** element in de werkruimte. Selecteer **bestaat** en selecteer de mobiele toepassing die u wilt gebruiken.
@@ -45,10 +45,10 @@ Voer de volgende stappen uit om de workflow te maken:
 
      ![](assets/wkf_push_example_2.png)
 
-1. De [ activiteit van de het berichtlevering van de duw ](../../automating/using/push-notification-delivery.md) staat u toe om de inhoud van uw bericht in te gaan en de verpersoonlijkingsgebieden te selecteren die u wilt gebruiken:
+1. De [&#x200B; activiteit van de het berichtlevering van de duw &#x200B;](../../automating/using/push-notification-delivery.md) staat u toe om de inhoud van uw bericht in te gaan en de verpersoonlijkingsgebieden te selecteren die u wilt gebruiken:
 
    * Selecteer de optie **[!UICONTROL Recurring notification]** .
-   * Definieer de inhoud van het pushbericht. Voor meer informatie over de inhoud van het duw- bericht, verwijs naar deze [ sectie ](../../channels/using/preparing-and-sending-a-push-notification.md).
+   * Definieer de inhoud van het pushbericht. Voor meer informatie over de inhoud van het duw- bericht, verwijs naar deze [&#x200B; sectie &#x200B;](../../channels/using/preparing-and-sending-a-push-notification.md).
    * Selecteer **[!UICONTROL Schedule]** in het blok **[!UICONTROL Messages to be sent automatically on the time zone specified below]** . Hier kiezen we de **[!UICONTROL Time zone of the contact date]** Pacific zoals in de workflow **[!UICONTROL Scheduler]** .
    * Selecteer in het veld **[!UICONTROL Optimize the sending time per recipient]** de optie **[!UICONTROL Send at the recipient's time zone]**.
 

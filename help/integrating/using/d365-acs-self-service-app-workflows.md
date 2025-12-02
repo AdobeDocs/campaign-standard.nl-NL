@@ -68,7 +68,7 @@ Mogelijke acties worden hieronder vermeld.
 
   De startknop is een schakelknop. Als de werkschemaprocessen reeds zijn begonnen, zal de knoop in a **knoop van het Einde** veranderen.
 
-* **Einde**: De 3} knoopverzoeken van het a **Einde {dat een lopend werkschema wordt tegengehouden.** Deze knop wordt alleen weergegeven wanneer de processen die aan de workflow zijn gekoppeld, actief zijn.
+* **Einde**: De 3&rbrace; knoopverzoeken van het a **Einde &lbrace;dat een lopend werkschema wordt tegengehouden.** Deze knop wordt alleen weergegeven wanneer de processen die aan de workflow zijn gekoppeld, actief zijn.
 
 Wanneer u een werkschema uitgeeft, worden uw updates NIET onmiddellijk opgenomen in de lopende procesregels, tot u het werkschema ophoudt en dan de **knoop van het Begin** klikt. Dan worden uw updates opgenomen in de lopende processen (zodra het proces aan a **RUNNING** staat terugkeert).
 

@@ -20,7 +20,7 @@ ht-degree: 9%
 
 Door Assets Core-service of Assets on Demand (afhankelijk van de configuratie van uw Adobe Experience Cloud-omgeving) te integreren met Adobe Campaign kunt u alle middelen gebruiken die in Adobe Experience Cloud worden gedeeld op uw e-mails en landingspagina&#39;s van Adobe Campaign.
 
-De integratie met de Dienst van de Kern van Assets wordt beperkt tot [ Functionele beheerders ](../../administration/using/users-management.md#functional-administrators).
+De integratie met de Dienst van de Kern van Assets wordt beperkt tot [&#x200B; Functionele beheerders &#x200B;](../../administration/using/users-management.md#functional-administrators).
 
 Bronnen die door Adobe Experience Cloud worden gedeeld, kunnen als volgt worden gebruikt in uw e-mails en landingspagina&#39;s:
 
@@ -36,5 +36,5 @@ De afbeelding wordt vervolgens ingevoegd. De levering kan nu naar wens worden ge
 
 **Verwante onderwerpen:**
 
-* [ Assets en het Delen ](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
+* [&#x200B; Assets en het Delen &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
 * [Inhoudseditor](../../designing/using/personalization.md#example-email-personalization)

@@ -25,7 +25,7 @@ De workflow bestaat uit:
 
 ![](assets/deduplication_example2_workflow.png)
 
-* Een dossier dat een lijst van profielen bevat wordt ingevoerd gebruikend het dossier van de Lading van de a [ ](../../automating/using/load-file.md) activiteit. In dit voorbeeld heeft het geïmporteerde bestand de csv-indeling en bevat het 10 profielen:
+* Een dossier dat een lijst van profielen bevat wordt ingevoerd gebruikend het dossier van de Lading van de a [&#x200B; &#x200B;](../../automating/using/load-file.md) activiteit. In dit voorbeeld heeft het geïmporteerde bestand de csv-indeling en bevat het 10 profielen:
 
   ```
   lastname;firstname;dateofbirth;email
@@ -45,13 +45,13 @@ De workflow bestaat uit:
 
   ![](assets/deduplication_example2_fileloading.png)
 
-* A [ activiteit 0} Deduplicatie. ](../../automating/using/deduplication.md) De deduplicatie wordt uitgevoerd direct na het importeren van het bestand en vóór het invoegen van de data in de database. Daarom moet deze gebaseerd zijn op de **[!UICONTROL Temporary resource]** van de activiteit **[!UICONTROL Load file]**.
+* A [&#x200B; activiteit 0&rbrace; Deduplicatie. &#x200B;](../../automating/using/deduplication.md) De deduplicatie wordt uitgevoerd direct na het importeren van het bestand en vóór het invoegen van de data in de database. Daarom moet deze gebaseerd zijn op de **[!UICONTROL Temporary resource]** van de activiteit **[!UICONTROL Load file]**.
 
   In dit voorbeeld willen we één vermelding per uniek e-mailadres in het bestand behouden. Dubbele identificatie vindt daarom plaats in de kolom **email** van de tijdelijke resource. Twee e-mailadressen staan echter twee keer in het bestand. Daarom worden twee regels als duplicaten beschouwd.
 
   ![](assets/deduplication_example2_dedup.png)
 
-* Een [ gegevens van de Update ](../../automating/using/update-data.md) activiteit staat u toe om de gegevens op te nemen die van het deduplicatieproces in het gegevensbestand worden gehouden. Pas wanneer de data worden bijgewerkt, worden de geïmporteerde data geïdentificeerd als behorend tot de profieldimensie.
+* Een [&#x200B; gegevens van de Update &#x200B;](../../automating/using/update-data.md) activiteit staat u toe om de gegevens op te nemen die van het deduplicatieproces in het gegevensbestand worden gehouden. Pas wanneer de data worden bijgewerkt, worden de geïmporteerde data geïdentificeerd als behorend tot de profieldimensie.
 
   Hier willen we **[!UICONTROL Insert only]** uitvoeren op de profielen die nog niet bestaan in de database. We gaan dit doen door de e-mailkolom van het bestand en het e-mailveld van de dimensie **Profile** te gebruiken als de afstemmingssleutel.
 

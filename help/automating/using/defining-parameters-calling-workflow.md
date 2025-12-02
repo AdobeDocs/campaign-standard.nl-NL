@@ -18,7 +18,7 @@ ht-degree: 13%
 
 # Parameters definiëren bij het oproepen van de workflow {#defining-the-parameters-when-calling-the-workflow}
 
-In deze sectie wordt beschreven hoe u parameters definieert wanneer u een workflow oproept. Voor meer op hoe te om deze verrichting van een API vraag uit te voeren, verwijs naar de [ REST APIs documentatie ](../../api/using/triggering-a-signal-activity.md).
+In deze sectie wordt beschreven hoe u parameters definieert wanneer u een workflow oproept. Voor meer op hoe te om deze verrichting van een API vraag uit te voeren, verwijs naar de [&#x200B; REST APIs documentatie &#x200B;](../../api/using/triggering-a-signal-activity.md).
 
 Controleer voordat u de parameters definieert of:
 
@@ -31,8 +31,8 @@ Voer de volgende stappen uit om de **[!UICONTROL End]** -activiteit te configure
 1. Selecteer het werkschema en de externe signaalactiviteit die u wilt roepen.
 1. Klik op de knop **[!UICONTROL Create element]** om een parameter toe te voegen en vul vervolgens de naam en waarde van de parameter in.
 
-   * **[!UICONTROL Name]**: de naam die in de **[!UICONTROL External signal]** activiteit (zie [ deze pagina ](../../automating/using/declaring-parameters-external-signal.md)) is verklaard.
-   * **[!UICONTROL Value]**: de waarde die u aan de parameter wilt toewijzen. De waarde zou de **Standaardsyntaxis** moeten volgen, die in [ wordt beschreven deze sectie ](../../automating/using/advanced-expression-editing.md#standard-syntax).
+   * **[!UICONTROL Name]**: de naam die in de **[!UICONTROL External signal]** activiteit (zie [&#x200B; deze pagina &#x200B;](../../automating/using/declaring-parameters-external-signal.md)) is verklaard.
+   * **[!UICONTROL Value]**: de waarde die u aan de parameter wilt toewijzen. De waarde zou de **Standaardsyntaxis** moeten volgen, die in [&#x200B; wordt beschreven deze sectie &#x200B;](../../automating/using/advanced-expression-editing.md#standard-syntax).
 
    ![](assets/extsignal_definingparameters_2.png)
 

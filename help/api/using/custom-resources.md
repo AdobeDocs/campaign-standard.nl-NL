@@ -30,9 +30,9 @@ De middelen van de douane zijn toegankelijk door APIs gebruikend het **/profileA
 
 U kunt elke gewenste bewerking uitvoeren met aangepaste bronnen, mits deze zijn gekoppeld aan de tabel Profiel. Neem bijvoorbeeld de onderstaande tabelstructuur:
 
-![ alt tekst ](assets/cusresources.png)
+![&#x200B; alt tekst &#x200B;](assets/cusresources.png)
 
-In dat geval, zijn alle middelen van de **Transactie**, **TransactionDetails** en **de lijsten van het Product** beschikbaar zolang zij met de **7} lijst van het Profiel {verbonden zijn.**
+In dat geval, zijn alle middelen van de **Transactie**, **TransactionDetails** en **de lijsten van het Product** beschikbaar zolang zij met de **7&rbrace; lijst van het Profiel &lbrace;verbonden zijn.**
 
 <br/>
 
@@ -77,4 +77,4 @@ Raadpleeg de documentatie bij Campagne voor meer informatie over de extensie van
 
 * [Concepten van gegevensmodellen](../../developing/using/data-model-concepts.md)
 * [De API uitbreiden](../../developing/using/about-extending-the-api.md)
-* [ het bepalen van verbindingen met andere middelen ](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
+* [&#x200B; het bepalen van verbindingen met andere middelen &#x200B;](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)

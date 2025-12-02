@@ -23,7 +23,7 @@ In het volgende voorbeeld ziet u een workflow die een doelgroep van profielen re
 
 ![](assets/identification_example2.png)
 
-* A [ het dossier van de Lading ](../../automating/using/load-file.md) activiteit, die laadt en ontdekt haar gegevens van het dossier om in te voeren. Het geïmporteerde bestand bevat de volgende data:
+* A [&#x200B; het dossier van de Lading &#x200B;](../../automating/using/load-file.md) activiteit, die laadt en ontdekt haar gegevens van het dossier om in te voeren. Het geïmporteerde bestand bevat de volgende data:
 
   ```
   lastname;firstname;email;dateofbirth
@@ -38,10 +38,10 @@ In het volgende voorbeeld ziet u een workflow die een doelgroep van profielen re
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* A [ de activiteit van de Afstemming ](../../automating/using/reconciliation.md), die elke kolom van het geladen dossier met een kolom van de profieldimensie verbindt. De bestandsrecords die niet kunnen worden geïdentificeerd (ontbrekende gegevens, incompatibel gegevenstype, enz.) worden genegeerd om de integriteit van de uiteindelijke publieksgegevens te behouden.
+* A [&#x200B; de activiteit van de Afstemming &#x200B;](../../automating/using/reconciliation.md), die elke kolom van het geladen dossier met een kolom van de profieldimensie verbindt. De bestandsrecords die niet kunnen worden geïdentificeerd (ontbrekende gegevens, incompatibel gegevenstype, enz.) worden genegeerd om de integriteit van de uiteindelijke publieksgegevens te behouden.
 
   ![](assets/identification_example1.png)
 
-* A [ sparen publiek ](../../automating/using/save-audience.md) activiteit, die het publiek van profielen bewaart.
+* A [&#x200B; sparen publiek &#x200B;](../../automating/using/save-audience.md) activiteit, die het publiek van profielen bewaart.
 
   ![](assets/identification_example3.png)

@@ -22,7 +22,7 @@ Leer hoe u de integratie met Microsoft Dynamics 365 configureert en uw CRM-gegev
 
 ## Overzicht
 
-De algemene beschrijving van de integratie van Adobe Campaign Standard met Microsoft Dynamics 365 wordt beschreven in [ deze pagina ](../../integrating/using/d365-acs-get-started.md).
+De algemene beschrijving van de integratie van Adobe Campaign Standard met Microsoft Dynamics 365 wordt beschreven in [&#x200B; deze pagina &#x200B;](../../integrating/using/d365-acs-get-started.md).
 
 De veelvoudige toepassingen zullen moeten worden gevormd om de integratie toe te laten, echter, zal dit artikel zich op stappen concentreren die binnen Dynamica 365 worden vereist.
 
@@ -44,7 +44,7 @@ Volg de onderstaande stappen om het toegangstoken OAuth te genereren.
 
 ### Nieuwe toepassing registreren {#register-a-new-app}
 
-1. Onder uw beheerderlogin, login aan [ portal.azure.com ](https://portal.azure.com){target="_blank"}.
+1. Onder uw beheerderlogin, login aan [&#x200B; portal.azure.com &#x200B;](https://portal.azure.com){target="_blank"}.
 
 1. Klik op **[!UICONTROL Azure Active Directory]** in het linkerzijmenu en klik vervolgens op **[!UICONTROL App registrations]** in het submenu dat wordt weergegeven.
 
@@ -55,7 +55,7 @@ Volg de onderstaande stappen om het toegangstoken OAuth te genereren.
    * Naam: adobe-campagne `<stage or prod>`
    * Ondersteund accounttype: **[!UICONTROL Accounts in this organizational directory only]** (standaardwaarde)
 
-Voor meer informatie over het creëren van een nieuwe toepassing, verwijs naar [ deze sectie ](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
+Voor meer informatie over het creëren van een nieuwe toepassing, verwijs naar [&#x200B; deze sectie &#x200B;](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ Uw clientgeheim is nu gemaakt. Bewaar de waarde tijdelijk voor de voltooiing van
 
 1. Schakel vervolgens het vakje voor **[!UICONTROL user_impersonation]** in en klik op de knop **[!UICONTROL Add permissions]** .
 
-Voor meer informatie over toestemmingsopstelling, verwijs naar [ deze sectie ](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis){target="_blank"}.
+Voor meer informatie over toestemmingsopstelling, verwijs naar [&#x200B; deze sectie &#x200B;](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis){target="_blank"}.
 
 ### De gebruiker van de app maken
 
@@ -102,7 +102,7 @@ Deze nieuwe gebruiker is een generieke gebruiker. Deze wordt door de toepassing 
    * **[!UICONTROL Full Name]**: Adobe API `<stage or prod>`
    * **[!UICONTROL Email]**: gelijk aan **[!UICONTROL User Name]** (of desgewenst het e-mailbericht van de beheerder)
 
-   Voor meer informatie over de verwezenlijking van de toepassingsgebruiker, verwijs naar [ deze sectie ](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}.
+   Voor meer informatie over de verwezenlijking van de toepassingsgebruiker, verwijs naar [&#x200B; deze sectie &#x200B;](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}.
 
 1. Klik op het gebruikerspictogram en upload een Adobe Campaign-pictogram. Dit is het pictogram dat wordt weergegeven in de tijdlijnweergave wanneer nieuwe Adobe-gebeurtenissen verschijnen in Dynamics 365.
 
@@ -114,14 +114,14 @@ Deze nieuwe gebruiker is een generieke gebruiker. Deze wordt door de toepassing 
 
 ### De huurder-id ophalen {#get-the-tenant-id}
 
-Volg de instructies [ in deze pagina ](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id) om uw huurdersidentiteitskaart te vinden.  U hebt deze id nodig tijdens de installatie vóór de integratie in het integratieprogramma.
+Volg de instructies [&#x200B; in deze pagina &#x200B;](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id) om uw huurdersidentiteitskaart te vinden.  U hebt deze id nodig tijdens de installatie vóór de integratie in het integratieprogramma.
 
 ## Campaign Standard installeren voor Microsoft Dynamics 365 {#install-appsource-app}
 
 Volg onderstaande stappen om de Dynamics 365 App te integreren in uw Campaign Standard-omgeving:
 
-1. Blader naar [ Van Bedrijfs Microsoft Apps ](https://appsource.microsoft.com/en-us/marketplace/apps), en onderzoek naar_Adobe Campaign Standard_ in de onderzoeksbar.
-Alternatief, kunt u aan deze [ verbinding ](https://appsource.microsoft.com/en-us/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"} navigeren.
+1. Blader naar [&#x200B; Van Bedrijfs Microsoft Apps &#x200B;](https://appsource.microsoft.com/en-us/marketplace/apps), en onderzoek naar_Adobe Campaign Standard_ in de onderzoeksbar.
+Alternatief, kunt u aan deze [&#x200B; verbinding &#x200B;](https://appsource.microsoft.com/en-us/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"} navigeren.
 1. Volg de instructies om app voor uw instantie Dynamics 365 te installeren.
 1. Na geïnstalleerd, navigeer aan uw instantie van de Dynamiek 365 en teken binnen als beheerder.
 1. Klik op het tandwielpictogram in de rechterbovenhoek en klik op **[!UICONTROL Advanced Settings]** . Klik in de bovenste banner op de vervolgkeuzelijst naast **[!UICONTROL Settings]** en klik op **[!UICONTROL Processes]** onder **[!UICONTROL Process Center]** .
@@ -136,5 +136,5 @@ Alternatief, kunt u aan deze [ verbinding ](https://appsource.microsoft.com/en-u
 
 **Verwante onderwerpen**
 
-* [ vorm Adobe Developer voor Microsoft Dynamics 365 integratie ](../../integrating/using/d365-acs-configure-adobe-io.md) is de volgende stap in vestiging de integratie
-* [ krijgen begonnen met zelfbedienings integratie app ](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) bevat de volledige lijst van stappen om de integratie in werking te stellen te krijgen.
+* [&#x200B; vorm Adobe Developer voor Microsoft Dynamics 365 integratie &#x200B;](../../integrating/using/d365-acs-configure-adobe-io.md) is de volgende stap in vestiging de integratie
+* [&#x200B; krijgen begonnen met zelfbedienings integratie app &#x200B;](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) bevat de volledige lijst van stappen om de integratie in werking te stellen te krijgen.

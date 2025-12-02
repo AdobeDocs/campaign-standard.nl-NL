@@ -19,11 +19,11 @@ ht-degree: 8%
 
 # Informatie over workflowuitvoering {#about-workflow-execution}
 
-Een workflow wordt altijd handmatig gestart. Nochtans, zodra begonnen, kan het inactief blijven, afhankelijk van de informatie die in a [ wordt gespecificeerd planner ](../../automating/using/scheduler.md) activiteit.
+Een workflow wordt altijd handmatig gestart. Nochtans, zodra begonnen, kan het inactief blijven, afhankelijk van de informatie die in a [&#x200B; wordt gespecificeerd planner &#x200B;](../../automating/using/scheduler.md) activiteit.
 
 >[!IMPORTANT]
 >
-> Adobe raadt klanten aan om niet meer dan 20 actieve workflows tegelijk uit te voeren en om prioriteiten te stellen voor de uitvoering van de workflow en deze in de loop der tijd te verspreiden. Voor meer op dit, verwijs naar de beste praktijken die in [ worden verstrekt deze pagina ](../../automating/using/best-practices-workflows.md).
+> Adobe raadt klanten aan om niet meer dan 20 actieve workflows tegelijk uit te voeren en om prioriteiten te stellen voor de uitvoering van de workflow en deze in de loop der tijd te verspreiden. Voor meer op dit, verwijs naar de beste praktijken die in [&#x200B; worden verstrekt deze pagina &#x200B;](../../automating/using/best-practices-workflows.md).
 
 De uitvoering verwante acties (begin, einde, pauze, enz.) zijn **asynchrone** processen: het bevel wordt bewaard en zal van kracht worden zodra de server beschikbaar is om het toe te passen.
 
@@ -51,4 +51,4 @@ Standaard zijn alleen de details van de laatste overgang van de workflow toegank
 
 Wanneer een overgang is geopend, kunt u de **[!UICONTROL Label]** ervan bewerken of een **[!UICONTROL Segment code]** eraan koppelen. Hiervoor bewerkt u de desbetreffende velden en bevestigt u uw wijzigingen.
 
-Gebruikend Campaign Standard REST APIs, kunt u **beginnen,** pauzeren **,** hervatten **en** ophouden **een werkschema.** U kunt meer details en voorbeelden van de vraag van REST in de [ API documentatie vinden.](../../api/using/controlling-a-workflow.md)
+Gebruikend Campaign Standard REST APIs, kunt u **beginnen,** pauzeren **,** hervatten **en** ophouden **een werkschema.** U kunt meer details en voorbeelden van de vraag van REST in de [&#x200B; API documentatie vinden.](../../api/using/controlling-a-workflow.md)

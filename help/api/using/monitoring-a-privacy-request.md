@@ -20,7 +20,7 @@ ht-degree: 16%
 
 U kunt informatie over een gecreeerd privacyverzoek controleren gebruikend a **GET** verzoek.
 
-De beschrijving van de statuslijst is beschikbaar in de [ het beheersdocumentatie van de Privacy ](../../start/using/privacy-requests.md).
+De beschrijving van de statuslijst is beschikbaar in de [&#x200B; het beheersdocumentatie van de Privacy &#x200B;](../../start/using/privacy-requests.md).
 
 <br/>
 

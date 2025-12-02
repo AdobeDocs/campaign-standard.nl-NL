@@ -28,4 +28,4 @@ Adobe Target kan verschillende gegevenstypen gebruiken:
 * Segmenten die zijn gekoppeld aan de bezoekersidentiteitskaart in Adobe Target, indien voor de gebruikte gegevens geen wettelijke beperkingen gelden
 * Adobe Target-gegevens: gebruikersagent, IP-adres, geolocalisatiegegevens
 
-Voor meer informatie over de integratie tussen Adobe Campaign en Adobe Target, kunt u ook naar het [ Portaal van Adobe Target ](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html) verwijzen.
+Voor meer informatie over de integratie tussen Adobe Campaign en Adobe Target, kunt u ook naar het [&#x200B; Portaal van Adobe Target &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html) verwijzen.

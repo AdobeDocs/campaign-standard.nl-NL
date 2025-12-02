@@ -19,7 +19,7 @@ ht-degree: 81%
 
 # Een e-mail met aanvullende gegevens personaliseren {#example--personalizing-an-email-with-additional-data}
 
-In het volgende voorbeeld ziet u hoe u verschillende typen aanvullende gegevens toevoegt aan een query en hoe u deze gebruikt als een verpersoonlijkingsveld in een e-mailbericht. Voor meer op hoe te om de gegevens te verrijken die door a **[!UICONTROL Query]** activiteit worden gericht, verwijs naar [ deze sectie ](../../automating/using/query.md#enriching-data).
+In het volgende voorbeeld ziet u hoe u verschillende typen aanvullende gegevens toevoegt aan een query en hoe u deze gebruikt als een verpersoonlijkingsveld in een e-mailbericht. Voor meer op hoe te om de gegevens te verrijken die door a **[!UICONTROL Query]** activiteit worden gericht, verwijs naar [&#x200B; deze sectie &#x200B;](../../automating/using/query.md#enriching-data).
 
 In dit voorbeeld worden [aangepaste bronnen](../../developing/using/data-model-concepts.md) gebruikt:
 
@@ -33,7 +33,7 @@ De workflow wordt als volgt weergegeven:
 
 ![](assets/enrichment_example1.png)
 
-1. Voeg de activiteit van de a [ Vraag ](../../automating/using/query.md) toe, die u toestaat om de profielen te richten die minstens één transactie hebben uitgevoerd.
+1. Voeg de activiteit van de a [&#x200B; Vraag &#x200B;](../../automating/using/query.md) toe, die u toestaat om de profielen te richten die minstens één transactie hebben uitgevoerd.
 
    ![](assets/enrichment_example2.png)
 
@@ -55,7 +55,7 @@ De workflow wordt als volgt weergegeven:
 
    ![](assets/enrichment_example5.png)
 
-1. Voeg een [ E-maillevering ](../../automating/using/email-delivery.md) activiteit toe. Voeg de personalisatievelden toe aan de e-mail die overeenkomen met de data die in de query zijn berekend. Deze zijn beschikbaar via de koppeling **[!UICONTROL Additional data (targetData)]** van de verkennertool voor personalisatievelden.
+1. Voeg een [&#x200B; E-maillevering &#x200B;](../../automating/using/email-delivery.md) activiteit toe. Voeg de personalisatievelden toe aan de e-mail die overeenkomen met de data die in de query zijn berekend. Deze zijn beschikbaar via de koppeling **[!UICONTROL Additional data (targetData)]** van de verkennertool voor personalisatievelden.
 
    ![](assets/enrichment_example3.png)
 

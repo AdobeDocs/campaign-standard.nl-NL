@@ -26,7 +26,7 @@ ht-degree: 6%
 
 Met Adobe Campaign Standard kunt u de directe invoer van gegevenstoewijzingen via API&#39;s activeren en de status van uw innameverzoeken ophalen.
 
-Op deze pagina wordt beschreven hoe u de ingangsstatus van uw gegevenstoewijzingen kunt activeren en ophalen. Voor globale informatie over Campaign Standard APIs, verwijs naar [ deze sectie ](../../api/using/get-started-apis.md).
+Op deze pagina wordt beschreven hoe u de ingangsstatus van uw gegevenstoewijzingen kunt activeren en ophalen. Voor globale informatie over Campaign Standard APIs, verwijs naar [&#x200B; deze sectie &#x200B;](../../api/using/get-started-apis.md).
 
 ## Vereisten {#prerequisites}
 
@@ -109,7 +109,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->De gedetailleerde informatie over de status van het XDM kaartverzoekverzoek en zijn verwante banen is beschikbaar in de interface van Campaign Standard, in het **[!UICONTROL Status of data export to platform]** menu (zie [ de activering van de Afbeelding ](../../integrating/using/aep-mapping-activation.md)).
+>De gedetailleerde informatie over de status van het XDM kaartverzoekverzoek en zijn verwante banen is beschikbaar in de interface van Campaign Standard, in het **[!UICONTROL Status of data export to platform]** menu (zie [&#x200B; de activering van de Afbeelding &#x200B;](../../integrating/using/aep-mapping-activation.md)).
 
 De GET-bewerking retourneert de volgende informatie:
 

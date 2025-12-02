@@ -22,12 +22,12 @@ Nadat u een transactiegebeurtenis hebt gemaakt en gepubliceerd, moet u het activ
 
 >[!NOTE]
 >
->De configuratie van de gebeurtenis wordt gedetailleerd in [ deze sectie ](../../channels/using/configuring-transactional-event.md).
+>De configuratie van de gebeurtenis wordt gedetailleerd in [&#x200B; deze sectie &#x200B;](../../channels/using/configuring-transactional-event.md).
 
 U wilt bijvoorbeeld dat de gebeurtenis &#39;Afkappen met winkelwagentje&#39; wordt geactiveerd wanneer een van uw klanten uw website verlaat voordat ze de producten in hun winkelwagentje kopen. Om dit te doen, als Webontwikkelaar, moet u de REST Transactionele Berichten API gebruiken.
 
-1. Verzend een verzoek volgens de methode van de POST, die het [ verzenden van de transactionele gebeurtenis ](#sending-a-transactional-event) teweegbrengt.
-1. Het antwoord op het POST-verzoek bevat een primaire sleutel, waarmee u een of meerdere verzoeken via een GET-aanvraag kunt verzenden. U kunt dan de [ gebeurtenisstatus ](#transactional-event-status) verkrijgen.
+1. Verzend een verzoek volgens de methode van de POST, die het [&#x200B; verzenden van de transactionele gebeurtenis &#x200B;](#sending-a-transactional-event) teweegbrengt.
+1. Het antwoord op het POST-verzoek bevat een primaire sleutel, waarmee u een of meerdere verzoeken via een GET-aanvraag kunt verzenden. U kunt dan de [&#x200B; gebeurtenisstatus &#x200B;](#transactional-event-status) verkrijgen.
 
 ## Een transactiegebeurtenis verzenden {#sending-a-transactional-event}
 
@@ -47,7 +47,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
   Het eindpunt van de API voor transactionele berichten is ook zichtbaar tijdens de API-voorvertoning.
 
-* **&lt;eventID>**: het type van gebeurtenis u wilt verzenden. Deze identiteitskaart wordt geproduceerd wanneer het creëren van de gebeurtenisconfiguratie (verwijs naar [ deze sectie ](../../channels/using/configuring-transactional-event.md#creating-an-event)).
+* **&lt;eventID>**: het type van gebeurtenis u wilt verzenden. Deze identiteitskaart wordt geproduceerd wanneer het creëren van de gebeurtenisconfiguratie (verwijs naar [&#x200B; deze sectie &#x200B;](../../channels/using/configuring-transactional-event.md#creating-an-event)).
 
 ### Koptekst POST-verzoek
 
