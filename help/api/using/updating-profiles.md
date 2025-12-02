@@ -2,10 +2,11 @@
 title: Profielen bijwerken
 description: Meer informatie over het bijwerken van profielen met API's
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 2%
@@ -14,19 +15,19 @@ ht-degree: 2%
 
 # Profielen bijwerken met API&#39;s{#updating-profiles-api}
 
-Het bijwerken van profielen wordt uitgevoerd met een **PATCH** verzoek.
+Het bijwerken van profielen wordt uitgevoerd met a **PATCH** verzoek.
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. De eerste stap is: **het profiel ophalen**.
+1. De eerste stap moet **het profiel** terugwinnen.
 
-1. In een tweede verzoek voert u een **PATCH-verzoek** in het profiel met de voltooide informatie in de lading.
+1. In een tweede verzoek, voer het verzoek van a **PATCH** op het profiel met de voltooide informatie in de nuttige lading uit.
 
-1. Om te controleren of het PATCH verzoek het profiel heeft bijgewerkt, kunnen wij een definitieve GET verzoek uitvoeren.
+1. Om te controleren of het profiel door de PATCH-aanvraag is bijgewerkt, kunnen we een laatste GET-aanvraag uitvoeren.
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
 Voorbeeld van een GET-aanvraag om een profiel op te halen.
 

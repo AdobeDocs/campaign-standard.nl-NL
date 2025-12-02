@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: ba968add-25a3-4962-9e90-f0a06d9b74a8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 3%
@@ -20,11 +21,11 @@ ht-degree: 3%
 
 De levenscyclus van een werkstroom omvat drie hoofdstappen en elke stap is gekoppeld aan een status en een kleur:
 
-* **Bewerken** (grijs)
+* **het Uitgeven** (grijs)
 
-  Dit is de eerste ontwerpfase van een workflow (zie [Een workflow maken](../../automating/using/building-a-workflow.md#creating-a-workflow)). De workflow wordt nog niet door de server afgehandeld en kan zonder risico worden gewijzigd.
+  Dit is de aanvankelijke ontwerpfase van een werkschema (verwijs naar [ Creërend een werkschema ](../../automating/using/building-a-workflow.md#creating-a-workflow)). De workflow wordt nog niet door de server afgehandeld en kan zonder risico worden gewijzigd.
 
-* **In uitvoering** (blauw)
+* **lopend** (blauw)
 
   Zodra de eerste ontwerpfase is voltooid, kan de workflow worden gestart en door de server worden afgehandeld.
 
@@ -36,12 +37,12 @@ Als de workflow eenmaal is gestart, kan deze ook twee andere statussen hebben:
 
 * **Waarschuwing** (geel)
 
-  De werkstroom kon niet worden voltooid of is gepauzeerd met de functie ![](assets/pause_darkgrey-24px.png) of ![](assets/check_pause_darkgrey-24px.png) knoppen.
+  De workflow kon niet worden voltooid of was gepauzeerd met de knoppen ![](assets/pause_darkgrey-24px.png) of ![](assets/check_pause_darkgrey-24px.png) .
 
-* **Onjuist** (rood)
+* **Onjuiste** (rood)
 
-  Er is een fout opgetreden bij het uitvoeren van een workflow. De werkstroom is gestopt en de gebruiker moet een actie uitvoeren. Als u meer wilt weten over deze fout, gebruikt u de opdracht ![](assets/printpreview_darkgrey-24px.png) om toegang te krijgen tot het workflowlogboek (zie [Toezicht](../../automating/using/monitoring-workflow-execution.md)).
+  Er is een fout opgetreden bij het uitvoeren van een workflow. De werkstroom is gestopt en de gebruiker moet een actie uitvoeren. Om meer over deze fout te weten te komen, gebruik de ![](assets/printpreview_darkgrey-24px.png) knoop om tot het werkschemalogboek toegang te hebben (verwijs naar [ Controle ](../../automating/using/monitoring-workflow-execution.md)).
 
-In de lijst met marketingactiviteiten kunt u alle workflows en de bijbehorende statussen weergeven. Zie voor meer informatie [Marketing beheren](../../start/using/marketing-activities.md#about-marketing-activities).
+In de lijst met marketingactiviteiten kunt u alle workflows en de bijbehorende statussen weergeven. Voor meer op dit, zie [ het Leiden marketing activiteiten ](../../start/using/marketing-activities.md#about-marketing-activities).
 
 ![](assets/wkf_execution_3.png)

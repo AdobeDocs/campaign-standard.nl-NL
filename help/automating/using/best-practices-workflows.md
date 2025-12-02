@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
-source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 77%
@@ -47,15 +48,15 @@ U kunt workflows dupliceren. Houd in de **[!UICONTROL Marketing Activities]** de
 
 ### Aantal workflows
 
-Standaard raden we u aan **niet meer dan 20 actieve workflows tegelijk uitvoeren** (dit geldt niet voor workflows die wachten op een geplande uitvoering). Nadat deze limiet is bereikt, worden workflows in de wachtrij geplaatst om de prestaties niet te beïnvloeden.
+Door gebrek, adviseren wij **om meer dan 20 actieve werkschema&#39;s gelijktijdig uit te voeren** (dit is niet op werkschema&#39;s van toepassing die op een geplande uitvoering wachten). Nadat deze limiet is bereikt, worden workflows in de wachtrij geplaatst om de prestaties niet te beïnvloeden.
 
 Het is mogelijk dat u onder specifieke omstandigheden meer dan 20 workflows moet uitvoeren. Als dit het geval is, moet u de gebruiksscenario’s controleren met een Campaign-expert en contact opnemen met de klantenservice van Adobe om de limiet te verhogen.
 
 >[!IMPORTANT]
 >
->Zelfs als u de drempel van 20 workflows niet bereikt, raadt de Adobe u aan **de uitvoering van de workflow in de loop der tijd verspreiden**. Door de uitvoering van uw workflows te versnellen, kunt u ervoor zorgen dat uw exemplaar beter presteert.
+>Zelfs als u niet de 20 werkstroomdrempel bereikt, adviseert Adobe u om **uit uw werkschemauitvoering over tijd** uit te spreiden. Door de uitvoering van uw workflows te versnellen, kunt u ervoor zorgen dat uw exemplaar beter presteert.
 
-Voordat u een workflow start, [!DNL Campaign Standard] controleert of er voldoende fysiek systeemgeheugen is om de workflow uit te voeren. Als er onvoldoende geheugen beschikbaar is, wordt u gewaarschuwd dat de uitvoering van de workflow wordt vertraagd tot het laden op de server uitvalt en het systeemgeheugen toeneemt.
+Voordat u een workflow start, controleert [!DNL Campaign Standard] of er voldoende fysiek systeemgeheugen is om de workflow uit te voeren. Als er onvoldoende geheugen beschikbaar is, wordt u gewaarschuwd dat de uitvoering van de workflow wordt vertraagd tot het laden op de server uitvalt en het systeemgeheugen toeneemt.
 
 ### Frequentie
 
@@ -84,7 +85,7 @@ We raden u aan maximaal 100 activiteiten in één workflow te gebruiken. Bij mee
 
 ### Workflowontwerp
 
-Om ervoor te zorgen dat de workflow op de juiste wijze wordt beëindigd, moet u de laatste overgang van een workflow op zichzelf vermijden door een **[!UICONTROL End activity]**.
+Om ervoor te zorgen dat de workflow op de juiste wijze wordt beëindigd, kunt u beter niet de laatste overgang van een workflow op zichzelf laten staan met een **[!UICONTROL End activity]** .
 
 Als u toegang wilt tot de gedetailleerde weergave van de overgangen, schakelt u de optie **[!UICONTROL Keep interim results]** in de sectie Execution van de workfloweigenschappen in.
 
@@ -117,7 +118,7 @@ Wanneer u een geplande workflow ontwerpt die meerdere activiteiten bevat, moet u
 
 ## Werkstroom aanroepen met parameters{#workflow-with-parameters}
 
-Zorg ervoor dat de naam en het aantal parameters gelijk zijn aan wat er is gedefinieerd bij het aanroepen van de workflow (zie [deze pagina](../../automating/using/defining-parameters-calling-workflow.md). De parametertypen moeten ook consistent zijn met de waarden die worden verwacht.
+Zorg ervoor dat de naam en het aantal parameters identiek zijn aan wat wanneer het roepen van het werkschema (zie [ wordt bepaald deze pagina ](../../automating/using/defining-parameters-calling-workflow.md). De parametertypen moeten ook consistent zijn met de waarden die worden verwacht.
 
 Zorg ervoor dat alle parameters zijn gedeclareerd in de **[!UICONTROL External signal activity]**. Anders treedt er een fout op wanneer de activiteit wordt uitgevoerd.
 

@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 63864f0f-2c22-4a65-86ae-21897031f30a
-source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 16%
@@ -17,13 +18,13 @@ ht-degree: 16%
 
 # Een privacyverzoek controleren {#monitoring-a-privacy-request}
 
-U kunt informatie over een gemaakte privacyaanvraag controleren met een **GET** verzoek.
+U kunt informatie over een gecreeerd privacyverzoek controleren gebruikend a **GET** verzoek.
 
-De beschrijving van de statuslijst is beschikbaar in het dialoogvenster [Privacy Management-documentatie](../../start/using/privacy-requests.md).
+De beschrijving van de statuslijst is beschikbaar in de [ het beheersdocumentatie van de Privacy ](../../start/using/privacy-requests.md).
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -33,7 +34,7 @@ De beschrijving van de statuslijst is beschikbaar in het dialoogvenster [Privacy
 -H 'Content-Type: application/json;charset=utf-8'
 ```
 
-Antwoord op het verzoek van de GET.
+Antwoord op het GET-verzoek.
 
 ```
 {

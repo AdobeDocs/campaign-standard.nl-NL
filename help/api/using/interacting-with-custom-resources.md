@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Interactie met aangepaste bronnen {#interacting-with-custom-resources}
 
-De **/customResources** het eindpunt staat u toe om de de douanemiddelen van de Campagne in REST bloot te stellen. Op basis van deze API is er een integratie tussen aangepaste entiteiten en externe eindpunten beschikbaar.
+Het **/customResources** eindpunt staat u toe om de de douanemiddelen van de Campagne in REST bloot te stellen. Op basis van deze API is er een integratie tussen aangepaste entiteiten en externe eindpunten beschikbaar.
 
 Het /customResources eindpunt heeft precies het zelfde gedrag zoals /profileAndServices eindpunt.
 
@@ -37,7 +38,7 @@ Hier volgt een voorbeeld om de metagegevens op te halen uit een aangepaste bron:
 GET /customResources/resourceType/<customResourceName>
 ```
 
-Voor het maken, bijwerken of verwijderen worden de GET, POST, PATCH, DELETE gebruikt.
+Voor het maken, bijwerken of verwijderen worden de GET, POST, PATCH en DELETE gebruikt.
 
 ```
 POST /customResources/<customResourceName>
@@ -45,4 +46,4 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >Het API-eindpunt en de workflows voor privacy (of privacy/privacyTool) beheren niet de aangepaste bronnen die niet aan de profielentiteit zijn gekoppeld.
->U bent verantwoordelijk voor het beheren en opschonen van alle PII&#39;s voor deze aangepaste bronnen. Voor meer informatie over het privacygereedschap, [klik hier](../../api/using/creating-a-privacy-request.md).
+>U bent verantwoordelijk voor het beheren en opschonen van alle PII&#39;s voor deze aangepaste bronnen. Voor meer informatie over privacyhulpmiddel, [ klik hier ](../../api/using/creating-a-privacy-request.md).

@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: bfc52511-f66f-4948-a939-d0d77e8ef03c
-source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 6%
@@ -17,12 +18,12 @@ ht-degree: 6%
 
 # CCPA-opt-out beheren {#managing-ccpa-optout}
 
-De CCPA-status van een profiel kan worden gecontroleerd en beheerd met de **ccpaOptOut** profielkenmerken en de waarden &quot;true&quot; of &quot;false&quot;:
+De opt-outstatus van CCPA van een profiel kan worden gecontroleerd en worden geleid gebruikend **ccpaOptOut** profielattributen en de &quot;waar&quot;of &quot;vals&quot;waarden:
 
 `"ccpaOptOut": <value>`
 
-* **true**: verbiedt de verkoop van persoonlijke informatie.
-* **false**: staat de verkoop van persoonsgegevens toe.
+* **waar**: verbiedt de verkoop van persoonlijke informatie.
+* **vals**: keurt de verkoop van persoonlijke informatie goed.
 
 <!--The “CCPA Opt-Out” attribute is only available starting 19.4. For 19.3 environments, you need to extend the Profiles resource and add a boolean field. This field will be added to the API with the chosen label. We suggest you use “Opt-Out for CCPA”.
 >
@@ -30,9 +31,9 @@ De CCPA-status van een profiel kan worden gecontroleerd en beheerd met de **ccpa
 
 <br/>
 
-***Voorbeeldverzoeken***
+***verzoeken van de Steekproef***
 
-* De vraag van de GET van de steekproef om de optiestatus van CCPA van een profiel terug te winnen.
+* Voorbeeld van een GET-aanvraag om de status voor een CCPA-uitschakelstatus van een profiel op te halen.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -42,7 +43,7 @@ De CCPA-status van een profiel kan worden gecontroleerd en beheerd met de **ccpa
   -H 'Content-Type: application/json;charset=utf-8'
   ```
 
-  Antwoord op het verzoek van de GET.
+  Antwoord op het GET-verzoek.
 
   ```
   {
@@ -54,7 +55,7 @@ De CCPA-status van een profiel kan worden gecontroleerd en beheerd met de **ccpa
   }
   ```
 
-* De vraag van de POST van de steekproef om een profiel voor opt-out CCPA te merken.
+* Voorbeeld van POST-verzoek om een profiel voor CCPA-opt-out te markeren.
 
   ```
   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -71,7 +72,7 @@ De CCPA-status van een profiel kan worden gecontroleerd en beheerd met de **ccpa
   -d }'
   ```
 
-  Antwoord op het verzoek van de GET.
+  Antwoord op het GET-verzoek.
 
   ```
   {
@@ -84,7 +85,7 @@ De CCPA-status van een profiel kan worden gecontroleerd en beheerd met de **ccpa
   }
   ```
 
-* Voorbeeld van PATCH-verzoek om een profiel voor CCPA-opt-out bij te werken.
+* Voorbeeld van een PATCH-verzoek om een profiel voor CCPA-opt-out bij te werken.
 
   ```
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -98,7 +99,7 @@ De CCPA-status van een profiel kan worden gecontroleerd en beheerd met de **ccpa
   -d }'
   ```
 
-  Antwoord op het verzoek van de GET.
+  Antwoord op het GET-verzoek.
 
   ```
   {

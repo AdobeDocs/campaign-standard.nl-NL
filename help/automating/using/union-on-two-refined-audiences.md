@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: readAudience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 6261f800-11bd-4b02-a587-49ddb0da240f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 43%
@@ -24,7 +25,7 @@ De workflow is als volgt ontworpen:
 
 ![](assets/readaudience_activity_example1.png)
 
-* Een eerste [Lees publiek](../../automating/using/read-audience.md) activiteit die het gouden ledenpubliek terugwint en het door slechts profielen te selecteren die tussen 18 en 30 jaar oud zijn verfijnt.
+* Een eerste [ leest publiek ](../../automating/using/read-audience.md) activiteit die het Gouden ledenpubliek terugwint en het raffineert door slechts profielen te selecteren die tussen 18 en 30 jaar oud zijn.
 * Een tweede activiteit **[!UICONTROL Read audience]** die de doelgroep met Silver-leden ophaalt en deze verfijnt door slechts profielen te selecteren die tussen 18 en 30 jaar oud zijn.
-* A [Unie](../../automating/using/union.md) activiteit die populaties verenigt van beide **[!UICONTROL Read audiences]** activiteiten in één eindpopulatie.
-* An [E-maillevering](../../automating/using/email-delivery.md) activiteit die e-mail naar de bevolking verzendt die uit **[!UICONTROL Union]** activiteit.
+* A [ activiteit 0} Unie die populaties van beide ](../../automating/using/union.md) activiteiten in één definitieve bevolking verenigt.**[!UICONTROL Read audiences]**
+* Een [ e-maillevering ](../../automating/using/email-delivery.md) activiteit die e-mail naar de bevolking verzendt die uit de **[!UICONTROL Union]** activiteit komt.

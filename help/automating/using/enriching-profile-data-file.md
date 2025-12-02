@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: enrichment,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
-source-git-commit: 7bc90f353a804680eb58514737d65cdd0d873fc5
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 77%
@@ -24,8 +25,8 @@ De workflow is als volgt geconfigureerd:
 
 ![](assets/enrichment_example_workflow.png)
 
-* A [&#128279;](../../automating/using/query.md) activiteit van de Vraag 0&rbrace; die de profielen richt die het bericht zullen ontvangen.
-* A [&#x200B; het dossier van de Lading &#x200B;](../../automating/using/load-file.md) activiteit die de aankoopgegevens laadt. Bijvoorbeeld:
+* A [ activiteit van de Vraag 0} die de profielen richt die het bericht zullen ontvangen.](../../automating/using/query.md)
+* A [ het dossier van de Lading ](../../automating/using/load-file.md) activiteit die de aankoopgegevens laadt. Bijvoorbeeld:
 
   ```
   tcode;tdate;customer;product;tamount
@@ -39,7 +40,7 @@ De workflow is als volgt geconfigureerd:
 
   In dit voorbeeldbestand gebruikt u het e-mailadres om de gegevens in overeenstemming te brengen met de databaseprofielen. U kunt ook unieke id’s inschakelen, zoals beschreven in [dit document](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
 
-* Een [&#x200B; Verrijking &#x200B;](../../automating/using/enrichment.md) activiteit die tot een verband tussen de transactiegegevens leidt die van het dossier worden geladen en de profielen in **[!UICONTROL Query]** worden geselecteerd. De koppeling wordt gedefinieerd op het tabblad **[!UICONTROL Advanced relations]** van de activiteit. De koppeling is gebaseerd op de overgang die uit de activiteit **[!UICONTROL Load file]** komt. Het veld met de e-mail van de profielresource en de kolom met de klant van het geïmporteerde bestand worden gebruikt als afstemmingscriteria.
+* Een [ Verrijking ](../../automating/using/enrichment.md) activiteit die tot een verband tussen de transactiegegevens leidt die van het dossier worden geladen en de profielen in **[!UICONTROL Query]** worden geselecteerd. De koppeling wordt gedefinieerd op het tabblad **[!UICONTROL Advanced relations]** van de activiteit. De koppeling is gebaseerd op de overgang die uit de activiteit **[!UICONTROL Load file]** komt. Het veld met de e-mail van de profielresource en de kolom met de klant van het geïmporteerde bestand worden gebruikt als afstemmingscriteria.
 
   ![](assets/enrichment_example_workflow2.png)
 
@@ -77,11 +78,11 @@ De workflow is als volgt geconfigureerd:
 
      ![](assets/enrichment_example_workflow9.png)
 
-* A [&#x200B; segmentatie &#x200B;](../../automating/using/segmentation.md) activiteit met slechts één segment, dat profielen van het aanvankelijke doel terugwint die minstens twee geregistreerde transacties hebben. Profielen met slechts één transactie worden uitgesloten. Hiervoor wordt de query van de segmentatie gemaakt op het eerder gedefinieerde aggregaat.
+* A [ segmentatie ](../../automating/using/segmentation.md) activiteit met slechts één segment, dat profielen van het aanvankelijke doel terugwint die minstens twee geregistreerde transacties hebben. Profielen met slechts één transactie worden uitgesloten. Hiervoor wordt de query van de segmentatie gemaakt op het eerder gedefinieerde aggregaat.
 
   ![](assets/enrichment_example_workflow5.png)
 
-* Een [&#x200B; E-mail levering &#x200B;](../../automating/using/email-delivery.md) activiteit die de extra gegevens gebruikt die in **[!UICONTROL Enrichment]** worden bepaald om de twee laatste aankopen dynamisch terug te winnen die door het profiel worden gemaakt. De aanvullende data bevinden zich in het knooppunt **Additional data (TargetData)** bij het toevoegen van een personalisatieveld.
+* Een [ E-mail levering ](../../automating/using/email-delivery.md) activiteit die de extra gegevens gebruikt die in **[!UICONTROL Enrichment]** worden bepaald om de twee laatste aankopen dynamisch terug te winnen die door het profiel worden gemaakt. De aanvullende data bevinden zich in het knooppunt **Additional data (TargetData)** bij het toevoegen van een personalisatieveld.
 
   ![](assets/enrichment_example_workflow10.png)
 

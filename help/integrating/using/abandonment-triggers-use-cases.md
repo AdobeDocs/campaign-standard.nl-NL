@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 90%
@@ -44,7 +45,7 @@ Raadpleeg [Oplossingen en services configureren](../../integrating/using/configu
 
 In dit gebruiksscenario maken we een eenvoudige trigger die wordt geactiveerd telkens wanneer een klant een bezoek op de website afbreekt. In dit voorbeeld wordt ervan uitgegaan dat u al over DTM beschikt om data te verzamelen en naar Adobe Analytics te verzenden en dat al uw gebeurtenissen zijn gemaakt.
 
-### Een Experience Cloud activeren {#creating-an-experience-cloud-trigger}
+### Een Experience Cloud-trigger maken {#creating-an-experience-cloud-trigger}
 
 1. Selecteer **[!UICONTROL Manage Triggers]** in het menu van de Experience Cloud Activation-kernservice.
 
@@ -64,7 +65,7 @@ Nu we een Experience Cloud Trigger hebben gemaakt, gebruiken we deze in Adobe Ca
 
 In Adobe Campaign moet u een trigger maken die gekoppeld is aan de trigger die u in Experience Cloud hebt gemaakt.
 
-1. Als u de trigger in Adobe Campaign wilt maken, klikt u op de knop **Adobe** logo, in de linkerbovenhoek, en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. Om de trekker in Adobe Campaign tot stand te brengen, klik het **Adobe** embleem, in de hoogste-linkerhoek, dan uitgezocht **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -81,7 +82,7 @@ In Adobe Campaign moet u een trigger maken die gekoppeld is aan de trigger die u
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. Klik op de knop **[!UICONTROL More]** klikt u rechtsboven op **[!UICONTROL Trigger Transactional Template]**.
+1. Als u de berichtsjabloon wilt weergeven, klikt u op de knop **[!UICONTROL More]** rechtsboven en vervolgens op **[!UICONTROL Trigger Transactional Template]** .
 
 1. Pas de content en de data van de afzender aan.
 
@@ -121,7 +122,7 @@ In Adobe Campaign moet u een trigger maken die gekoppeld is aan de trigger die u
 
 In dit gebruiksscenario maken we een trigger om opnieuw contact op te nemen met bezoekers die onze boekingssite hebben bezocht, naar een bestemming hebben gezocht, geen geschikte resultaten hebben gevonden en daarna niets hebben geboekt. Het algemene proces is hetzelfde als in het vorige gebruiksscenario (zie [Trigger voor afbreken van bladeren](#browse-abandonment-trigger)). We concentreren ons daarom hier op het personaliseren van de remarketing-e-mail.
 
-### Een Experience Cloud activeren {#creating-an-experience-cloud-trigger-1}
+### Een Experience Cloud-trigger maken {#creating-an-experience-cloud-trigger-1}
 
 Voer de stappen uit die in het vorige gebruiksscenario zijn beschreven om de Experience Cloud Trigger te maken. Zie [Een Experience Cloud Trigger maken](#creating-an-experience-cloud-trigger). Het belangrijkste verschil is de triggerdefinitie.
 

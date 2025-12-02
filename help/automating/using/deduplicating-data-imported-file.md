@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: dedup,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 631eb661-a696-4352-aa58-9097b391723e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 83%
@@ -24,7 +25,7 @@ De workflow bestaat uit:
 
 ![](assets/deduplication_example2_workflow.png)
 
-* Een bestand dat een lijst met profielen bevat, wordt geïmporteerd met een [Bestand laden](../../automating/using/load-file.md) activiteit. In dit voorbeeld heeft het geïmporteerde bestand de csv-indeling en bevat het 10 profielen:
+* Een dossier dat een lijst van profielen bevat wordt ingevoerd gebruikend het dossier van de Lading van de a [ ](../../automating/using/load-file.md) activiteit. In dit voorbeeld heeft het geïmporteerde bestand de csv-indeling en bevat het 10 profielen:
 
   ```
   lastname;firstname;dateofbirth;email
@@ -44,13 +45,13 @@ De workflow bestaat uit:
 
   ![](assets/deduplication_example2_fileloading.png)
 
-* A [Deduplicatie](../../automating/using/deduplication.md) activiteit. De deduplicatie wordt uitgevoerd direct na het importeren van het bestand en vóór het invoegen van de data in de database. Daarom moet deze gebaseerd zijn op de **[!UICONTROL Temporary resource]** van de activiteit **[!UICONTROL Load file]**.
+* A [ activiteit 0} Deduplicatie. ](../../automating/using/deduplication.md) De deduplicatie wordt uitgevoerd direct na het importeren van het bestand en vóór het invoegen van de data in de database. Daarom moet deze gebaseerd zijn op de **[!UICONTROL Temporary resource]** van de activiteit **[!UICONTROL Load file]**.
 
   In dit voorbeeld willen we één vermelding per uniek e-mailadres in het bestand behouden. Dubbele identificatie vindt daarom plaats in de kolom **email** van de tijdelijke resource. Twee e-mailadressen staan echter twee keer in het bestand. Daarom worden twee regels als duplicaten beschouwd.
 
   ![](assets/deduplication_example2_dedup.png)
 
-* An [Gegevens bijwerken](../../automating/using/update-data.md) Met deze activiteit kunt u de gegevens die van het deduplicatieproces worden bewaard, in de database invoegen. Pas wanneer de data worden bijgewerkt, worden de geïmporteerde data geïdentificeerd als behorend tot de profieldimensie.
+* Een [ gegevens van de Update ](../../automating/using/update-data.md) activiteit staat u toe om de gegevens op te nemen die van het deduplicatieproces in het gegevensbestand worden gehouden. Pas wanneer de data worden bijgewerkt, worden de geïmporteerde data geïdentificeerd als behorend tot de profieldimensie.
 
   Hier willen we **[!UICONTROL Insert only]** uitvoeren op de profielen die nog niet bestaan in de database. We gaan dit doen door de e-mailkolom van het bestand en het e-mailveld van de dimensie **Profile** te gebruiken als de afstemmingssleutel.
 

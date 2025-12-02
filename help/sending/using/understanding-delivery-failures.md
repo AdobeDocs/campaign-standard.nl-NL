@@ -8,7 +8,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 59%
@@ -35,7 +35,7 @@ De berichten kunnen ook tijdens de leveringsvoorbereiding worden uitgesloten als
 
 * [Werken met quarantainebeheer](../../sending/using/understanding-quarantine-management.md)
 * [Informatie over opt-in en opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [&#x200B; Bounces &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=nl-NL#metrics-for-deliverability)
+* [ Bounces ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## Leveringsfouten identificeren voor een bericht {#identifying-delivery-failures-for-a-message}
 
@@ -64,7 +64,7 @@ De mogelijke redenen van een leveringsfout zijn:
 | **[!UICONTROL Mailbox full]** | Zacht | De brievenbus van deze gebruiker is volledig en kan niet meer berichten goedkeuren. Dit adres kan uit de quarantainelijst worden verwijderd om een nieuwe poging te doen. Het wordt automatisch na 30 dagen verwijderd. Om het adres automatisch uit de lijst met in quarantaine geplaatste adressen te verwijderen, moet de technische workflow voor **[!UICONTROL Database cleanup]** worden gestart. |
 | **[!UICONTROL Refused]** | Zacht/Hard | Het adres is in quarantaine geplaatst toe te schrijven aan een veiligheid terugkoppelt als spamrapport. Afhankelijk van de fout die door de provider is geretourneerd, wordt het adres rechtstreeks naar quarantaine verzonden of wordt de levering opnieuw geprobeerd totdat Campaign een fout ontvangt die de quarantainestatus rechtvaardigt of tot het aantal fouten 5 bereikt. |
 | **[!UICONTROL Duplicate]** | Genegeerd | Het adres is reeds ontdekt in de segmentatie. |
-| **[!UICONTROL Not defined]** | Zacht | het adres is in kwalificatie omdat de fouten niet zijn verhoogd. | toch. Dit type fout treedt op wanneer een nieuw foutbericht wordt verzonden door de server: het kan een geïsoleerde fout zijn, maar als deze opnieuw voorkomt, zal de foutenteller stijgen en worden de technische teams gewaarschuwd. |
+| **[!UICONTROL Not defined]** | Zacht | het adres is in kwalificatie omdat de fouten nog niet zijn verhoogd. Dit type fout treedt op wanneer een nieuw foutbericht wordt verzonden door de server: het kan een geïsoleerde fout zijn, maar als deze opnieuw voorkomt, zal de foutenteller stijgen en worden de technische teams gewaarschuwd. |
 | **[!UICONTROL Error ignored]** | Genegeerd | Het adres staat op de lijst van gewenste personen en er zal in elk geval een e-mail naar worden gestuurd. |
 | **[!UICONTROL Address on denylist]** | Hard | Het adres werd toegevoegd aan de lijst van gewezen personen op het tijdstip van verzending. |
 | **[!UICONTROL Account disabled]** | Zacht/Hard | Wanneer de Internet Access Provider (IAP) een lange periode van inactiviteit detecteert, kan deze de account van de gebruiker sluiten: de levering aan het adres van de gebruiker is dan onmogelijk. Het type Soft of Hard is afhankelijk van het type ontvangen fout: als het account tijdelijk is uitgeschakeld vanwege een inactiviteit van zes maanden en nog steeds kan worden geactiveerd, wordt de status **[!UICONTROL Erroneous]** toegewezen en wordt de levering opnieuw geprobeerd. Als de ontvangen fout aangeeft dat het account permanent is gedeactiveerd, wordt de levering rechtstreeks in quarantaine geplaatst. |
@@ -75,8 +75,8 @@ De mogelijke redenen van een leveringsfout zijn:
 
 
 **Verwante onderwerpen:**
-* [&#x200B; Harde grenzen &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=nl-NL#hard-bounces)
-* [&#x200B; Zachte grenzen &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=nl-NL#soft-bounces)
+* [ Harde grenzen ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [ Zachte grenzen ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## Retourneert na een tijdelijke leverfout {#retries-after-a-delivery-temporary-failure}
 
@@ -90,13 +90,13 @@ Om de duur van een levering te wijzigen, gaat u naar de geavanceerde parameters 
 
 >[!IMPORTANT]
 >
->**De parameter &#x200B;** [!UICONTROL Delivery duration]&#x200B;**in uw Campaign-leveringen wordt nu alleen gebruikt als deze is ingesteld op 3,5 dagen of minder.** Als u een waarde definieert die hoger is dan 3,5 dagen, wordt hiermee geen rekening gehouden.
+>**De parameter **[!UICONTROL Delivery duration]**in uw Campaign-leveringen wordt nu alleen gebruikt als deze is ingesteld op 3,5 dagen of minder.** Als u een waarde definieert die hoger is dan 3,5 dagen, wordt hiermee geen rekening gehouden.
 
 Bijvoorbeeld, als u opnieuw voor een levering wilt stoppen na één dag, kunt u de leveringsduur aan **1d** plaatsen, en de berichten in de hertry rij zullen na één dag worden verwijderd.
 
 >[!NOTE]
 >
->Zodra een bericht in de herpogingsrij voor een maximum van 3.5 dagen is geweest en heeft nagelaten te leveren, zal het uit tijd en zijn status <!--from **[!UICONTROL Sent]**--> aan **[!UICONTROL Failed]** in [&#x200B; leveringslogboeken &#x200B;](../../sending/using/monitoring-a-delivery.md#delivery-logs) worden bijgewerkt.
+>Zodra een bericht in de herpogingsrij voor een maximum van 3.5 dagen is geweest en heeft nagelaten te leveren, zal het uit tijd en zijn status <!--from **[!UICONTROL Sent]**--> aan **[!UICONTROL Failed]** in [ leveringslogboeken ](../../sending/using/monitoring-a-delivery.md#delivery-logs) worden bijgewerkt.
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -116,9 +116,9 @@ Voor de synchrone foutenmeldingen van de leveringsmislukking, bepaalt Adobe Camp
 >
 >De kwalificaties voor niet-bezorging in de tabel **[!UICONTROL Message qualification]** van Campaign worden niet meer gebruikt.
 
-Asynchrone niet-bezorgingen worden nog steeds gekwalificeerd door het inMail-proces aan de hand van de regels voor **[!UICONTROL Inbound email]**. Om tot deze regels toegang te hebben, klik het **Adobe** embleem, bij top-left, dan selecteren **[!UICONTROL Administration > Channels > Email > Email processing rules]** en selecteren **[!UICONTROL Bounce mails]**. Voor meer op deze regel, zie [&#x200B; deze sectie &#x200B;](../../administration/using/configuring-email-channel.md#email-processing-rules).
+Asynchrone niet-bezorgingen worden nog steeds gekwalificeerd door het inMail-proces aan de hand van de regels voor **[!UICONTROL Inbound email]**. Om tot deze regels toegang te hebben, klik het **Adobe** embleem, bij top-left, dan selecteren **[!UICONTROL Administration > Channels > Email > Email processing rules]** en selecteren **[!UICONTROL Bounce mails]**. Voor meer op deze regel, zie [ deze sectie ](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Voor meer op stuitingen en de verschillende soorten stuitingen, zie [&#x200B; deze sectie &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=nl-NL#metrics-for-deliverability).
+Voor meer op stuitingen en de verschillende soorten stuitingen, zie [ deze sectie ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

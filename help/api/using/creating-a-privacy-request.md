@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 06ad2e13-922b-4f35-8726-007427125c63
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 4%
@@ -19,24 +20,24 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->De [Privacy Core-service](https://developer.adobe.com/experience-platform-apis/references/privacy-service) De integratie is de methode u voor alle toegang en schrappingsverzoeken zou moeten gebruiken. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>De [ Integratie van de Dienst van de Kern van de Privacy 0} {is de methode u voor alle toegang zou moeten gebruiken en verzoeken schrapt. ](https://developer.adobe.com/experience-platform-apis/references/privacy-service)<!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
-De verzoeken van de privacy worden gecreeerd gebruikend **POST** verzoek.
+De verzoeken van de privacy worden gecreeerd gebruikend a **POST** verzoek.
 
-Voordat u aanvragen maakt, moet u de naamruimte definiëren die u wilt gebruiken. Raadpleeg voor meer informatie de [Privacy Management-documentatie](../../start/using/privacy-requests.md).
+Voordat u aanvragen maakt, moet u de naamruimte definiëren die u wilt gebruiken. Voor meer op dit, verwijs de [ het beheersdocumentatie van de Privacy ](../../start/using/privacy-requests.md).
 
 De lading moet de volgende parameters bevatten:
 
-* **name**: een unieke interne naam
-* **namespace**: de naamruimtenaam die in de interface van het Campaign Standard is geconfigureerd
-* **connectionValue**: de reconciliatiewaarde gebaseerd op de reconciliatietoets die in de naamruimte is gedefinieerd
-* **label**: het aanvraaglabel
-* **type**: het type aanvraag. Accepteerde waarden zijn &quot;access&quot; of &quot;delete&quot;.
-* **verordening**: het type regelgeving. Voorbeeld: &quot;GDPR&quot;, &quot;CCPA&quot;. Deze parameter is verplicht en is beschikbaar vanaf Campaign Standard 19.4. Als u zich op een oudere build bevindt, hoeft u deze niet toe te voegen aan uw payload.
+* **naam**: een unieke interne naam
+* **namespace**: De namespace naam die in de interface van Campaign Standard wordt gevormd
+* **connectionValue**: de verzoeningswaarde die op de verzoeningssleutel wordt gebaseerd die in namespace wordt bepaald
+* **etiket**: het verzoeketiket
+* **type**: het verzoektype. Accepteerde waarden zijn &quot;access&quot; of &quot;delete&quot;.
+* **regeling**: het regulatietype. Voorbeeld: &quot;GDPR&quot;, &quot;CCPA&quot;. Deze parameter is verplicht en is beschikbaar vanaf de Campaign Standard 19.4-release. Als u zich op een oudere build bevindt, hoeft u deze niet toe te voegen aan uw payload.
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
 Met deze POST-aanvraag wordt een privacyaanvraag gemaakt op basis van een e-mailafstemmingssleutel die is gedefinieerd in de naamruimte AMCDS2:
 
@@ -57,7 +58,7 @@ Met deze POST-aanvraag wordt een privacyaanvraag gemaakt op basis van een e-mail
 }
 ```
 
-Antwoord op de POST verzoek.
+Antwoord op het POST-verzoek.
 
 ```
 {

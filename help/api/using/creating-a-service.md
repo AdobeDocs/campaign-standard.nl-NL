@@ -2,10 +2,11 @@
 title: Een service met API's maken
 description: Leer hoe u een service maakt met API's
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
-source-git-commit: 02f1ef1f960cf98b5277b2db960e61ae20e22209
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 0%
@@ -14,15 +15,15 @@ ht-degree: 0%
 
 # Een service met API&#39;s maken{#creating-a-service-api}
 
-Services maken wordt uitgevoerd met een **POST** verzoek op het de dienstmiddel.
+De verwezenlijking van de diensten wordt uitgevoerd met a **POST** verzoek op het de dienstmiddel.
 
 Als u de dienst met specifieke attributen wilt tot stand brengen, voeg hen in de lading toe. Anders, zal de nieuwe dienst met standaarddegenen worden gecreeerd.
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
-De vraag van de POST van de steekproef om de dienst met specifieke attributen tot stand te brengen.
+Voorbeeld van POST-aanvraag om een service met specifieke kenmerken te maken.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \

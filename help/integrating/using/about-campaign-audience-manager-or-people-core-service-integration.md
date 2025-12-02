@@ -1,14 +1,15 @@
 ---
 title: Informatie over de integratie van Campaign-Audience Manager of de People core-service
-description: Met de Audience Manager/de de kernde dienstintegratie van Mensen, kunt u publiek of segmenten binnen de verschillende oplossingen van Adobe Experience Cloud delen.
+description: Met de Audience Manager/People core service integration kunt u soorten publiek of segmenten delen binnen de verschillende Adobe Experience Cloud-oplossingen.
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 3%
@@ -21,28 +22,28 @@ ht-degree: 3%
 >
 >Afhankelijk van de uitgewisselde gegevens kunnen er wettelijke beperkingen gelden voor het invoerende publiek in Adobe Campaign.
 
-Met Adobe Campaign kunt u soorten publiek/segmenten uitwisselen en delen met verschillende Adobe Experience Cloud-toepassingen. Integreren **Adobe Campaign** with **Personenkern-service** (ook bekend als **Profielen en publiek kernservice**) of Adobe Audience Manager biedt u de volgende mogelijkheden:
+Met Adobe Campaign kunt u soorten publiek/segmenten uitwisselen en delen met verschillende Adobe Experience Cloud-toepassingen. Het integreren **Adobe Campaign** met **de kerndienst van de Mensen** (ook als **wordt bekend de kerndienst van Profielen &amp; van het publiek**) of Adobe Audience Manager staat u toe:
 
-* Importeer soorten publiek/segmenten van verschillende Adobe Experience Cloud-oplossingen naar Adobe Campaign. Soorten publiek kan worden geïmporteerd uit het **[!UICONTROL Audiences]** in Adobe Campaign.
-* Exporteer soorten publiek als gedeeld publiek/segmenten. Deze doelgroepen kunnen worden gebruikt in de verschillende Adobe Experience Cloud-oplossingen die u gebruikt. Soorten publiek kunnen worden geëxporteerd nadat activiteiten in een workflow als doel zijn opgegeven. Hierbij wordt gebruikgemaakt van de optie **[!UICONTROL Save audience]** activiteit.
+* Importeer soorten publiek/segmenten van verschillende Adobe Experience Cloud-oplossingen naar Adobe Campaign. Soorten publiek kan worden geïmporteerd vanuit het menu **[!UICONTROL Audiences]** in Adobe Campaign.
+* Exporteer soorten publiek als gedeeld publiek/segmenten. Deze doelgroepen kunnen worden gebruikt in de verschillende Adobe Experience Cloud-oplossingen die u gebruikt. Soorten publiek kunnen worden geëxporteerd nadat activiteiten in een werkstroom als doel zijn opgegeven, met behulp van de **[!UICONTROL Save audience]** -activiteit.
 
 Integratie ondersteunt twee typen Adobe Experience Cloud-id&#39;s:
 
-* **Bezoeker-id**: Met dit type id kunt u Adobe Experience Cloud-bezoekers combineren met Adobe Campaign-profielen. Zodra een verbinding via Adobe IMS is ingeschakeld, wordt de Marketing Cloud Visitor ID Service geactiveerd, die de permanente cookie vervangt die door Adobe Campaign wordt gebruikt. Zo kunt u een bezoeker identificeren en deze vervolgens koppelen aan een profiel.
-  <br>Een bezoekersidentiteitskaart wordt verbonden met een profiel zodra het profiel in een e-mail klikt die via Adobe Campaign wordt verzonden:
+* **identiteitskaart van de Bezoeker**: dit type van identiteitskaart staat u toe om de bezoekers van Adobe Experience Cloud met de profielen van Adobe Campaign te verzoenen. Zodra een verbinding via Adobe IMS is ingeschakeld, wordt de Marketing Cloud Visitor ID Service geactiveerd, die de permanente cookie vervangt die door Adobe Campaign wordt gebruikt. Zo kunt u een bezoeker identificeren en deze vervolgens koppelen aan een profiel.
+  <br> Een bezoekersidentiteitskaart wordt verbonden met een profiel zodra het profiel in een e-mail klikt die via Adobe Campaign wordt verzonden:
    * Als het profiel al een bezoeker-id heeft, kunnen Adobe Campaign het profiel met de browsergegevens van het profiel herstellen en automatisch koppelen aan de bezoeker-id.
    * Als er geen bezoeker-id wordt gevonden, wordt een nieuwe id gemaakt. Deze bezoeker-id wordt opgeslagen in de logboeken voor het bijhouden van profielen.
 
   De id wordt dan herkend door de andere Adobe Marketing Cloud-toepassingen met dezelfde CNAME.
 
-* **Opgegeven id**: met dit type id kunt u elk type gegevens combineren met elementen uit de Adobe Campaign-database. Het wordt in Adobe Campaign vertegenwoordigd als een vooraf gedefinieerde afstemmingssleutel. Bij het uitwisselen van gegevens worden de Adobe Campaign-database-id&#39;s gehashed. Deze hashed-id&#39;s worden vervolgens vergeleken met de hashed-id&#39;s van het Adobe Marketing Cloud-publiek dat betrokken is bij het importeren of exporteren.
-  <br>Deze integratie ondersteunt reguliere gedeclareerde id&#39;s, gehashte gedeclareerde id&#39;s en gecodeerde gedeclareerde id&#39;s.
+* **Verklaarde identiteitskaart**: dit type van identiteitskaart staat u toe om het even welk type van gegevens met elementen van het gegevensbestand van Adobe Campaign te verzoenen. Het wordt in Adobe Campaign vertegenwoordigd als een vooraf gedefinieerde afstemmingssleutel. Bij het uitwisselen van gegevens worden de Adobe Campaign-database-id&#39;s gehashed. Deze hashed-id&#39;s worden vervolgens vergeleken met de hashed-id&#39;s van het Adobe Marketing Cloud-publiek dat betrokken is bij het importeren of exporteren.
+  <br> deze integratie steunt regelmatige gedeclareerde IDs, gehakt verklaarde IDs en gecodeerde verklaarde IDs.
 
   >[!NOTE]
   >
   >De verklaarde gegevensbron van identiteitskaart kan nu ook met de dienstintegratie van de Kern van Mensen worden gebruikt.
   >
-  >Als u de de dienstintegratie van de Kern van Mensen gebruikt en de integratie van de Audience Manager wilt toevoegen, zult u de hulp van een consultant van Adobe Audience Manager nodig hebben om te vermijden verlies van alle verzamelde syncs van identiteitskaart wanneer het overgaan aan het gebruiken van deze Gedeclareerde gegevensbron van identiteitskaart in een context van Adobe Audience Manager.
+  >Als u de de dienstintegratie van de Kern van Mensen gebruikt en de integratie van Audience Manager wilt toevoegen, zult u de hulp van een consultant van Adobe Audience Manager nodig hebben om te vermijden verlies van alle verzamelde identiteitskaart- syncs wanneer het overgaan aan het gebruiken van deze Gedeclareerde gegevensbron van identiteitskaart in een context van Adobe Audience Manager.
 
 
   Met codering kunt u gecodeerde gegevens delen in gegevensbronnen (bijvoorbeeld PII) met de gedeclareerde id door het versleutelingsalgoritme op te geven.

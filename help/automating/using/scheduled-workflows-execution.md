@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 8d9820a4-3c44-45f5-815e-4ed48a96276d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 1%
@@ -22,7 +23,7 @@ ht-degree: 1%
 
 In Campaign Standard garandeert de workflowengine dat een workflowinstantie slechts door één proces wordt uitgevoerd. Het blokkeren van activiteiten zoals invoer, lange lopende vragen of schrijft in het gegevensbestand verhindert de uitvoering van een andere taak wanneer het lopen.
 
-Anderzijds blokkeren niet-blokkerende activiteiten niet de uitvoering van andere taken (gewoonlijk activiteiten die wachten op een gebeurtenis zoals de **[!UICONTROL Scheduler]** activiteit).
+Aan de andere kant blokkeren niet-blokkerende activiteiten de uitvoering van andere taken niet (gewoonlijk activiteiten die wachten op een gebeurtenis zoals de **[!UICONTROL Scheduler]** -activiteit).
 
 Dit kan leiden tot een scenario waarbij een op een planning gebaseerde workflow kan worden uitgevoerd, zelfs als de vorige uitvoering van dezelfde workflow nog niet is voltooid, wat kan leiden tot onverwachte gegevensproblemen.
 
@@ -30,11 +31,11 @@ Daarom moet u er bij het ontwerpen van een geplande workflow met meerdere activi
 
 ## De workflow configureren
 
-Als u wilt controleren of een of meer taken uit een vorige werkstroom nog niet zijn uitgevoerd, moet u een **[!UICONTROL Query]** en **[!UICONTROL Test]** activiteit.
+Als u wilt controleren of een of meer taken uit een vorige werkstroom nog niet zijn uitgevoerd, moet u een **[!UICONTROL Query]** - en **[!UICONTROL Test]** -activiteit gebruiken.
 
-1. Voeg een **[!UICONTROL Query]** activiteit na de **[!UICONTROL Scheduler]** activiteit, dan vorm het als volgt.
+1. Voeg een **[!UICONTROL Query]** activiteit na de **[!UICONTROL Scheduler]** activiteit toe, dan vorm het als volgt.
 
-1. De bron van de activiteit wijzigen in **[!UICONTROL WorkflowTaskDetail]**, wat betekent dat het zich richt op de huidige taken van de workflow.
+1. Wijzig de bron van de activiteit in **[!UICONTROL WorkflowTaskDetail]** , wat betekent dat de huidige taken van de werkstroom erop gericht zijn.
 
    ![](assets/scheduled-wkf-resource.png)
 
@@ -46,11 +47,11 @@ Als u wilt controleren of een of meer taken uit een vorige werkstroom nog niet z
 
      >[!NOTE]
      >
-     >Wanneer een **[!UICONTROL Scheduler]** de activiteit begint, voegt het onmiddellijk een andere planningstaak toe om bij de volgende geplande tijd te lopen en het werkschema te beginnen. Daarom is het belangrijk om zowel de vraag als planningstaken te filtreren wanneer het zoeken naar hangende taken van een vorige uitvoering.
+     >Wanneer een **[!UICONTROL Scheduler]** activiteit begint, voegt het onmiddellijk een andere planningtaak toe om bij de volgende geplande tijd te lopen en het werkschema te beginnen. Daarom is het belangrijk om zowel de vraag als planningstaken te filtreren wanneer het zoeken naar hangende taken van een vorige uitvoering.
 
    * De tweede regel bepaalt of taken uit een vorige uitvoering van de workflow nog actief zijn (in behandeling), wat overeenkomt met de uitvoerstatus 0.
 
-1. Voeg een **[!UICONTROL Test]** activiteit om te controleren op het aantal hangende taken die door de **[!UICONTROL Query]** activiteit. Hiertoe configureert u twee uitgaande overgangen.
+1. Voeg een **[!UICONTROL Test]** -activiteit toe om te controleren op het aantal lopende taken dat door de **[!UICONTROL Query]** -activiteit wordt geretourneerd. Hiertoe configureert u twee uitgaande overgangen.
 
    ![](assets/scheduled-wkf-test.png)
 

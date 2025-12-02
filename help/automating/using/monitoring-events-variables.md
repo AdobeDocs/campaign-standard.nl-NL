@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 299a617c-0a38-45b5-922c-c23b0926b8c3
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 9%
@@ -19,8 +20,8 @@ ht-degree: 9%
 
 Het is mogelijk om de gebeurtenisvariabelen te controleren die in het werkschema, met inbegrip van de gedeclareerde externe parameters beschikbaar zijn. Hiervoor voert u de volgende stappen uit:
 
-1. Selecteer de activiteit die volgt op **[!UICONTROL External signal]** activiteit, dan klik **[!UICONTROL Log and tasks]** knop.
-1. In de **[!UICONTROL Tasks]** tabblad, klikt u op ![](assets/edit_darkgrey-24px.png) knop.
+1. Selecteer de activiteit die volgt op de **[!UICONTROL External signal]** -activiteit en klik vervolgens op de knop **[!UICONTROL Log and tasks]** .
+1. Klik op de knop **[!UICONTROL Tasks]** op het tabblad ![](assets/edit_darkgrey-24px.png) .
 
    ![](assets/extsignal_monitoring_2.png)
 

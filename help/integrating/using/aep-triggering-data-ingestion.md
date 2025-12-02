@@ -5,12 +5,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 6%
@@ -21,40 +22,40 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector bevindt zich momenteel in bèta, die vaak zonder voorafgaande kennisgeving kan worden bijgewerkt. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van de Adobe als u toegang wilt.
+>Adobe Experience Platform Data Connector bevindt zich momenteel in bèta, die vaak zonder voorafgaande kennisgeving kan worden bijgewerkt. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 
 Met Adobe Campaign Standard kunt u de directe invoer van gegevenstoewijzingen via API&#39;s activeren en de status van uw innameverzoeken ophalen.
 
-Op deze pagina wordt beschreven hoe u de ingangsstatus van uw gegevenstoewijzingen kunt activeren en ophalen. Zie voor algemene informatie over Campaign Standard-API&#39;s [deze sectie](../../api/using/get-started-apis.md).
+Op deze pagina wordt beschreven hoe u de ingangsstatus van uw gegevenstoewijzingen kunt activeren en ophalen. Voor globale informatie over Campaign Standard APIs, verwijs naar [ deze sectie ](../../api/using/get-started-apis.md).
 
 ## Vereisten {#prerequisites}
 
-Alvorens APIs te gebruiken, moet de gegevenstoewijzing eerst binnen de interface van het Campaign Standard zijn gevormd en gepubliceerd. Raadpleeg deze secties voor meer informatie hierover:
+Voordat u de API&#39;s kunt gebruiken, moet de gegevenstoewijzing eerst zijn geconfigureerd en gepubliceerd in de Campaign Standard-interface. Raadpleeg deze secties voor meer informatie hierover:
 
 * [Toewijzingsdefinitie](../../integrating/using/aep-mapping-definition.md)
 * [Toewijzingsactivering](../../integrating/using/aep-mapping-activation.md)
 
 Als de gegevenstoewijzing is gemaakt, moet u de bewerking stoppen zodat u deze op elk gewenst moment vanuit de API kunt activeren. Ga als volgt te werk om dit te doen:
 
-1. Ga in Campaign Standard naar de **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** -menu.
+1. Ga in Campaign Standard naar het menu **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** .
 
-1. Dubbelklik op de gegevenstoewijzing om deze te openen en klik vervolgens op de knop **[!UICONTROL Stop]** knop.
+1. Dubbelklik op de gegevenstoewijzing om deze te openen en klik vervolgens op de knop **[!UICONTROL Stop]** .
 
    ![](assets/aep_datamapping_stop.png)
 
 1. Uw wijzigingen opslaan
 
-De uitvoering van de gegevenstoewijzing wordt nu gestopt. U kunt Campaign Standard APIs gebruiken om het manueel teweeg te brengen.
+De uitvoering van de gegevenstoewijzing wordt nu gestopt. U kunt Campaign Standard API&#39;s gebruiken om deze handmatig te activeren.
 
 ## De onmiddellijke inname van gegevenstoewijzing starten {#starting-immediate-ingestion}
 
-De directe opname van een afbeelding XDM in Adobe Experience Platform wordt teweeggebracht met een POST verrichting:
+Directe opname van een XDM-toewijzing in Adobe Experience Platform wordt geactiveerd met een POST-bewerking:
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
 >[!NOTE]
 >
->Voor het uitvoeren van de API-aanroep van ingest POST moet de gebruiker beschikken over **Uitvoering van SQL-functies** rol, die door een beheerder van het Campaign Standard door onder Manuscript kan worden verstrekt uit te voeren JS:
+>Om ingeste POST API vraag uit te voeren, moet de gebruiker een **SQL rol van de functieuitvoering** hebben, die door een beheerder van Campaign Standard door onder Manuscript uit te voeren JS kan worden verstrekt:
 >
 >```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
@@ -62,7 +63,7 @@ De directe opname van een afbeelding XDM in Adobe Experience Platform wordt tewe
 >```
 >
 
-De verrichting van de POST keert informatie betreffende de gecreeerde verzoekstatus terug:
+De POST verrichting keert informatie betreffende de gecreeerde verzoekstatus terug:
 
 * Verzoek is verzonden voor XDM-toewijzing:
 
@@ -99,7 +100,7 @@ De verrichting van de POST keert informatie betreffende de gecreeerde verzoeksta
 
 ## De status van een innameverzoek ophalen {#retrieving-status}
 
-De status van een innameverzoek kan met een verrichting van de GET en gewenste verzoekidentiteitskaart in de parameters worden teruggewonnen:
+De status van een innameverzoek kan worden opgehaald met een GET-bewerking en de gewenste aanvraag-id in de parameters:
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
@@ -108,14 +109,14 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->Gedetailleerde informatie over de status van de XDM-toewijzingsaanvraag en de bijbehorende taken is beschikbaar in de interface van het Campaign Standard, in de **[!UICONTROL Status of data export to platform]** menu (zie [Toewijzingsactivering](../../integrating/using/aep-mapping-activation.md)).
+>De gedetailleerde informatie over de status van het XDM kaartverzoekverzoek en zijn verwante banen is beschikbaar in de interface van Campaign Standard, in het **[!UICONTROL Status of data export to platform]** menu (zie [ de activering van de Afbeelding ](../../integrating/using/aep-mapping-activation.md)).
 
-De bewerking GET retourneert de volgende informatie:
+De GET-bewerking retourneert de volgende informatie:
 
-* **batchId**: dit veld wordt alleen ingevuld als er een fout is opgetreden na het voorbereiden en uploaden van de batch,
-* **info**: de XDM-toewijzingsid,
-* **numRecords**: het aantal gegeten records (alleen successtatus),
-* **status**: de status van de ingeste aanvraag (geslaagd/mislukt/in uitvoering)
+* **batchId**: dit gebied wordt bevolkt slechts als de mislukking na partij voorkwam en uploadt,
+* **info**: XDM afbeelding identiteitskaart,
+* **numRecords**: het aantal verslagen die (successtatus slechts) zijn opgenomen,
+* **status**: De ingest aanvraagstatus (succes/ontbroken/lopend)
 
 Mogelijke reacties op de GET-bewerking zijn:
 

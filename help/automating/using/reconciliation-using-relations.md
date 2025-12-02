@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 7d0e3f17-ef04-4890-b63b-6957fc6cd648
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 81%
@@ -28,7 +29,7 @@ De workflow bestaat uit de volgende activiteiten:
 
 ![](assets/reconciliation_example1.png)
 
-* A [Bestand laden](../../automating/using/load-file.md) activiteit, die de gegevens van het te importeren bestand laadt en detecteert. Het geïmporteerde bestand bevat de volgende data:
+* A [ het dossier van de Lading ](../../automating/using/load-file.md) activiteit, die laadt en ontdekt de gegevens van het dossier om in te voeren. Het geïmporteerde bestand bevat de volgende data:
 
    * Transactiedatum
    * E-mailadres van klant
@@ -47,7 +48,7 @@ De workflow bestaat uit de volgende activiteiten:
   2015-05-19 09:06:00;mail9@email.com;ZZ6
   ```
 
-* A [Verzoening](../../automating/using/reconciliation.md) activiteit om het kopen gegevens aan gegevensbestandprofielen evenals producten te binden. Daarom moet een relatie worden gedefinieerd tussen de bestandsdata enerzijds en de profieltabel en producttabel anderzijds. Deze configuratie wordt uitgevoerd op het tabblad **[!UICONTROL Relations]** van de activiteit:
+* A [ Verzoening ](../../automating/using/reconciliation.md) activiteit om het kopen van gegevens aan gegevensbestandprofielen evenals producten te binden. Daarom moet een relatie worden gedefinieerd tussen de bestandsdata enerzijds en de profieltabel en producttabel anderzijds. Deze configuratie wordt uitgevoerd op het tabblad **[!UICONTROL Relations]** van de activiteit:
 
    * Relatie met de **profielen**: de kolom **client** van het bestand is gekoppeld aan het veld **email** van de dimensie **Profiles**.
    * Relatie met de **producten**: de kolom **product** van het bestand is gekoppeld aan het veld **productCode** van de dimensie **Profiles**.
@@ -56,7 +57,7 @@ De workflow bestaat uit de volgende activiteiten:
 
   ![](assets/reconciliation_example3.png)
 
-* An [Gegevens bijwerken](../../automating/using/update-data.md) Met deze activiteit kunt u de databasevelden definiëren die u wilt bijwerken met behulp van de geïmporteerde gegevens. Aangezien de data in de vorige activiteit reeds zijn geïdentificeerd als behorend tot de dimensie **Transactions**, kunt u de identificatieoptie **[!UICONTROL Directly using the targeting dimension]** gebruiken.
+* Een [ gegevens van de Update ](../../automating/using/update-data.md) activiteit staat u toe om de gegevensbestandgebieden te bepalen om bij te werken gebruikend de ingevoerde gegevens. Aangezien de data in de vorige activiteit reeds zijn geïdentificeerd als behorend tot de dimensie **Transactions**, kunt u de identificatieoptie **[!UICONTROL Directly using the targeting dimension]** gebruiken.
 
   Als u gebruikmaakt van de optie waarmee automatisch velden worden gedetecteerd die moeten worden bijgewerkt, worden de koppelingen die in de vorige activiteit zijn geconfigureerd (naar profielen en producten), toegevoegd aan de lijst **[!UICONTROL Fields to update]**. U moet ook controleren of het veld dat overeenkomt met de transactiedatum, correct is toegevoegd aan deze lijst.
 

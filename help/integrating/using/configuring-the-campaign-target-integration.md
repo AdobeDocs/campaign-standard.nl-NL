@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: d382bfdd-418d-46c1-98dd-df8626f85cac
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 4%
@@ -27,11 +28,11 @@ Voor deze procedure zijn de volgende elementen nodig:
 * Een Adobe Target-huurder
 * Een Adobe Target-vak opgegeven voor het tot stand brengen van de verbinding met Adobe Campaign
 
-1. Selecteer in het geavanceerde menu via het Adobe Campaign-logo in de linkerbovenhoek de optie **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+1. Selecteer in het geavanceerde menu via het Adobe Campaign-logo in de linkerbovenhoek **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** .
 1. Als u de server- en paderopties voor Adobe Target wilt configureren, vult u de volgende velden dienovereenkomstig in:
 
-   * **[!UICONTROL TNT_TenantName]**: naam van de Adobe Target-huurder. Deze waarde komt overeen met de naam van de Adobe Target **[!UICONTROL Client]**.
-   * **[!UICONTROL TNT_EdgeServer]**: Adobe Target-server gebruikt voor integratie. Deze optie is al standaard beschikbaar. Deze waarde komt overeen met de Adobe Target **[!UICONTROL Server Domain]**, gevolgd door de **/m2** waarde. Bijvoorbeeld: **tt.omtrdc.net/m2**.
+   * **[!UICONTROL TNT_TenantName]**: naam van de Adobe Target-huurder. Deze waarde komt overeen met de naam van de Adobe Target **[!UICONTROL Client]** .
+   * **[!UICONTROL TNT_EdgeServer]**: Adobe Target-server gebruikt voor integratie. Deze optie is al standaard beschikbaar. Deze waarde komt overeen met de Adobe Target **[!UICONTROL Server Domain]** , gevolgd door de waarde **/m2** . Bijvoorbeeld: **tt.omtrdc.net/m2**.
 
    ![](assets/tar_options.png)
 

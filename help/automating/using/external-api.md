@@ -1,15 +1,16 @@
 ---
 title: Externe API
-description: De activiteit van de Externe API brengt gegevens in het werkschema van het Campaign Standard van een extern systeem via een vraag van HTTP API.
+description: De activiteit van de Externe API brengt gegevens in het Campaign Standard werkschema van een extern systeem via een vraag van HTTP API.
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2208'
 ht-degree: 93%
@@ -38,7 +39,7 @@ De belangrijkste kenmerken van deze activiteit zijn:
 
 ### Berichten over achterwaartse compatibiliteit {#from-beta-to-ga}
 
-Met de release van Campaign Standard 20.4 zijn de beperking voor de grootte van de http-responsgegevens en de instructies voor de time-out van de reactie verlaagd om deze af te stemmen op de best practices - zie [Beperkingen en geleiders](#guardrails). Deze beveiligingswijzigingen gelden niet voor bestaande Externe API-activiteiten; daarom wordt u aangeraden bestaande Externe API-activiteiten in alle workflows te vervangen door nieuwe versies.
+Met Campaign Standard 20.4 versie, zijn de grens van de de grootte van de HTTP- reactiegegevens en de redactieonderbreking verminderd om zich op beste praktijken te richten - zie [ Beperkingen en guardrails ](#guardrails). Deze beveiligingswijzigingen gelden niet voor bestaande Externe API-activiteiten; daarom wordt u aangeraden bestaande Externe API-activiteiten in alle workflows te vervangen door nieuwe versies.
 
 Wanneer u activiteiten voor Externe API vervangt, voegt u de nieuwe activiteit Externe API toe aan de workflow, kopieert u handmatig de configuratiedetails en verwijdert u vervolgens de oude activiteit.
 
@@ -114,13 +115,13 @@ Als de **parsering wordt gevalideerd**, verschijnt er een bericht waarin u wordt
 
 ### Execution
 
-Op dit tabblad kunt u het eindpunt van de verbinding definiëren. De **[!UICONTROL URL]** kunt u het veld **HTTPS-eindpunt** dat Campaign Standard zal communiceren met .
+Op dit tabblad kunt u het eindpunt van de verbinding definiëren. Het **[!UICONTROL URL]** gebied staat u toe om het **Eindpunt HTTPS** te bepalen dat Campaign Standard zal communiceren met.
 
 Indien nodig door het eindpunt, zijn twee types van authentificatiemethode beschikbaar:
 
-* Basisverificatie: voer uw gebruikersnaam-/wachtwoordgegevens in het dialoogvenster **[!UICONTROL Request Header(s)]** sectie.
+* Basisverificatie: voer uw gebruikersnaam-/wachtwoordgegevens in de sectie **[!UICONTROL Request Header(s)]** in.
 
-* OAuth-verificatie: door op de knop **[!UICONTROL Use connection parameters defined in an external account]** in een externe account kunt u een externe account selecteren waar de OAuth-verificatie is gedefinieerd. Raadpleeg de sectie [Externe accounts](../../administration/using/external-accounts.md) voor meer informatie.
+* OAuth-verificatie: door op de **[!UICONTROL Use connection parameters defined in an external account]** in een externe account te klikken, kunt u een externe account selecteren waar de OAuth-verificatie is gedefinieerd. Raadpleeg de sectie [Externe accounts](../../administration/using/external-accounts.md) voor meer informatie.
 
 ![](assets/externalAPI-execution.png)
 

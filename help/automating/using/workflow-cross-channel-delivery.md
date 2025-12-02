@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9cee2005-a99b-47cb-b573-a25812614409
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 84%
@@ -65,7 +66,7 @@ Gebruik de knop **[!UICONTROL Count]** om een schatting te bekijken van het aant
 
 Zodra uw doel door de queryactiviteit is geïdentificeerd, moet u een criterium selecteren om het doel in twee verschillende populaties te segmenteren: een gedeelte ontvangt een e-mail en het andere gedeelte ontvangt een sms.
 
-U moet een [Segmentering](../../automating/using/segmentation.md) activiteit om één of verscheidene segmenten van een bevolking tot stand te brengen die stroomopwaarts in een vraag wordt berekend.
+U moet a [ Segmentatie ](../../automating/using/segmentation.md) activiteit gebruiken om één of verscheidene segmenten van een bevolking tot stand te brengen die stroomopwaarts in een vraag wordt verwerkt.
 
 ![](assets/wkf_segment_activity.png)
 
@@ -112,7 +113,7 @@ Uw tweede overgang is nu ook geconfigureerd.
 
 ## Leveringen maken {#creating-deliveries}
 
-Aangezien twee overgangen reeds werden gecreeerd, moet u twee soorten leveringen aan de uitgaande overgangen van de activiteit van de Segmentatie nu toevoegen: en [E-maillevering](../../automating/using/email-delivery.md) en [Levering via SMS](../../automating/using/sms-delivery.md) activiteit.
+Aangezien twee overgangen reeds werden gecreeerd, moet u twee soorten leveringen aan de uitgaande overgangen van de activiteit van de Segmentatie nu toevoegen: een [ E-mail bezorging ](../../automating/using/email-delivery.md) activiteit en een [ levering van SMS ](../../automating/using/sms-delivery.md) activiteit.
 
 Gebruik Adobe Campaign om leveringen aan een workflow toe te voegen. Om dit te kunnen doen, selecteert u een levering in de categorie **[!UICONTROL Channels]** van het activiteitenpalet van uw workflow.
 
@@ -120,7 +121,7 @@ Gebruik Adobe Campaign om leveringen aan een workflow toe te voegen. Om dit te k
 
 Een e-maillevering maken:
 
-1. Sleep een [E-maillevering](../../automating/using/email-delivery.md) activiteit na het eerste segment.
+1. De belemmering en laat vallen een [ E-mail bezorging ](../../automating/using/email-delivery.md) activiteit na het eerste segment.
 1. Dubbelklik op de activiteit om deze te bewerken.
 1. Selecteer **[!UICONTROL Simple email]**.
 1. Selecteer **[!UICONTROL Add an outbound transition with the population]** en klik op **[!UICONTROL Next]**.
@@ -133,11 +134,11 @@ Een e-maillevering maken:
 1. Voer de e-maileigenschappen in en klik op **[!UICONTROL Next]**.
 1. Selecteer **[!UICONTROL Use the Email Designer]** om de lay-out van uw e-mail te bepalen.
 1. Bewerk de content en sla deze op.
-1. In de **[!UICONTROL Schedule]** van het berichtdashboard, unselect **[!UICONTROL Request confirmation before sending messages]** -optie.
+1. Schakel in de sectie **[!UICONTROL Schedule]** van het berichtdashboard de optie **[!UICONTROL Request confirmation before sending messages]** uit.
 
 Een sms-levering maken:
 
-1. Sleep een [Levering via SMS](../../automating/using/sms-delivery.md) activiteit na het andere segment.
+1. De belemmering en laat vallen een [ levering van SMS ](../../automating/using/sms-delivery.md) activiteit na het andere segment.
 1. Dubbelklik op de activiteit om deze te bewerken.
 1. Selecteer **[!UICONTROL SMS]** en klik op **[!UICONTROL Next]**.
 1. Selecteer een sms-sjabloon en klik op **[!UICONTROL Next]**.
@@ -150,7 +151,7 @@ U kunt de workflow starten zodra de leveringen zijn gemaakt en bewerkt.
 
 ## De workflow uitvoeren {#running-the-workflow}
 
-Als de workflow eenmaal is gestart, is de doelgroep voor de **[!UICONTROL Query]** activiteiten worden gesegmenteerd om een e-mail- of sms-levering te ontvangen.
+Nadat de workflow is gestart, wordt de populatie waarop de **[!UICONTROL Query]** -activiteit betrekking heeft, gesegmenteerd om een e-mail- of sms-levering te ontvangen.
 
 Klik op de knop **[!UICONTROL Start]** op de actiebalk om de workflow uit te voeren.
 

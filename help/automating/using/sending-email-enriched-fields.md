@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5ca7571d-d4d2-4b59-86d4-4f1f3a620b54
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 68%
@@ -28,15 +29,15 @@ In het onderstaande voorbeeld ziet u hoe u een e-mail verzendt met behulp van aa
 
 Voer de volgende stappen uit om de workflow te maken:
 
-1. Sleep een [Query](../../automating/using/query.md) in uw werkstroom en open het om het belangrijkste doel te bepalen.
+1. De belemmering en laat vallen de activiteit van de a [ Vraag ](../../automating/using/query.md) in uw werkschema en opent het om het belangrijkste doel te bepalen.
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. Sleep een [Bestand laden](../../automating/using/load-file.md) activiteit om sommige gegevens aan een profiel toe te wijzen. In dit voorbeeld laadt u een bestand met accountnummers die overeenkomen met bepaalde profielen van de database.
+1. De belemmering en laat vallen a [ dossier ](../../automating/using/load-file.md) activiteit van de Lading om wat gegevens aan een profiel toe te wijzen. In dit voorbeeld laadt u een bestand met accountnummers die overeenkomen met bepaalde profielen van de database.
 
    ![](assets/load_file_activity.png)
 
-1. Sleep een [Verrijking](../../automating/using/enrichment.md) in uw werkstroom en koppel het ladingsdossier en vraagactiviteiten aan het.
+1. De belemmering en laat vallen een [ Verrijking ](../../automating/using/enrichment.md) activiteit in uw werkschema en verbindt het ladingsdossier en vraagactiviteiten aan het.
 
 1. Selecteer op het tabblad **[!UICONTROL Advanced relations]** van de activiteit voor het verrijken de optie **[!UICONTROL 0 or 1 cardinality simple link]** en definieer de velden die moeten worden gebruikt voor afstemming. Hier gebruiken we de achternaam om de data af te stemmen op de databaseprofielen.
 
@@ -50,13 +51,13 @@ Voer de volgende stappen uit om de workflow te maken:
 
    Zie de sectie [Verrijking](../../automating/using/enrichment.md) voor meer informatie.
 
-1. Sleep een [Segmentering](../../automating/using/segmentation.md) in uw werkstroom en open het om het belangrijkste doel te verfijnen.
+1. De belemmering en laat vallen a [ Segmentatie ](../../automating/using/segmentation.md) activiteit in uw werkschema en opent het om het belangrijkste doel te raffineren.
 
    ![](assets/load_file_segmentation.png)
 
    Zie de sectie [Segmentatie](../../automating/using/segmentation.md) voor meer informatie.
 
-1. Sleep een [E-maillevering](../../automating/using/email-delivery.md) in uw werkstroom te openen.
+1. De belemmering en laat vallen een [ E-mail bezorging ](../../automating/using/email-delivery.md) activiteit in uw werkschema en het openen.
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 

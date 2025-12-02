@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d6ebce3c-1e84-4b3b-a68d-90df4680af64
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 1%
@@ -19,17 +20,17 @@ ht-degree: 1%
 
 Standaard worden 25 bronnen in een lijst geladen.
 
-De **_lineCount** Met deze parameter kunt u het aantal bronnen beperken dat in de reactie wordt vermeld.  U kunt dan de **next** knooppunt om de volgende resultaten weer te geven.
+Met de parameter **_lineCount** kunt u het aantal bronnen beperken dat in de reactie wordt vermeld.  U kunt de **volgende** knoop dan gebruiken om de volgende resultaten te tonen.
 
 >[!NOTE]
 >
->Gebruik altijd de URL-waarde die wordt geretourneerd in het dialoogvenster **next** knooppunt om een pagineringsverzoek uit te voeren.
+>Gebruik altijd de waarde URL die in **volgende** knoop is teruggekeerd om een pagineringsverzoek uit te voeren.
 >
->De **_lineStart** request is berekend en moet altijd worden gebruikt binnen de URL die wordt geretourneerd in het dialoogvenster **next** knooppunt.
+>Het **_lineStart** verzoek wordt berekend en moet altijd binnen URL worden gebruikt die in **volgende** knoop is teruggekeerd.
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
 Voorbeeld van GET-verzoek om 1 record van de profielbron weer te geven.
 
@@ -41,7 +42,7 @@ Voorbeeld van GET-verzoek om 1 record van de profielbron weer te geven.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Antwoord op het verzoek, met de **next** knooppunt om paginering uit te voeren.
+Reactie op het verzoek, met **volgende** knoop om paginering uit te voeren.
 
 ```
 {
@@ -62,7 +63,7 @@ Antwoord op het verzoek, met de **next** knooppunt om paginering uit te voeren.
 }
 ```
 
-Standaard worden de **next** knooppunt is niet beschikbaar bij interactie met tabellen met een grote hoeveelheid gegevens. Als u paginering wilt kunnen uitvoeren, moet u de opdracht **_forcePagination=true** parameter aan uw vraag URL.
+Door gebrek, is de **volgende** knoop niet beschikbaar wanneer het in wisselwerking staan met lijsten met grote hoeveelheid gegevens. Om paginering uit te kunnen voeren, moet u de **_forcePagination=true** parameter aan uw vraag URL toevoegen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -74,4 +75,4 @@ Standaard worden de **next** knooppunt is niet beschikbaar bij interactie met ta
 
 >[!NOTE]
 >
->Het aantal records waarboven een tabel als groot wordt beschouwd, wordt in Campaign Standard gedefinieerd **XtkBigTableThreshold** -optie. De standaardwaarde is 100.000 records.
+>Het aantal verslagen waarboven een lijst als groot wordt beschouwd wordt bepaald in Campaign Standard **XtkBigTableThreshold** optie. De standaardwaarde is 100.000 records.

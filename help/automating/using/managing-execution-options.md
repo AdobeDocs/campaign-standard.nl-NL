@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 6%
@@ -18,27 +19,27 @@ ht-degree: 6%
 
 # Uitvoeringsopties beheren {#managing-execution-options}
 
-Als u de uitvoeringsopties van een werkstroom wilt wijzigen, gebruikt u de opdracht ![](assets/edit_darkgrey-24px.png) om toegang te krijgen tot de workfloweigenschappen en de **[!UICONTROL Execution]** sectie.
+Als u de uitvoeropties van een workflow wilt wijzigen, gebruikt u de knop ![](assets/edit_darkgrey-24px.png) om de workfloweigenschappen te openen en selecteert u de sectie **[!UICONTROL Execution]** .
 
 ![](assets/wkf_execution_6.png)
 
 Mogelijke opties zijn:
 
-* **[!UICONTROL Default affinity]**: in dit veld kunt u een workflow of werkstroomactiviteit op een bepaalde computer uitvoeren.
+* **[!UICONTROL Default affinity]**: in dit veld kunt u een workflow of een werkstroomactiviteit op een bepaalde computer uitvoeren.
 
-* **[!UICONTROL History in days]**: geeft het aantal dagen aan waarna de historie moet worden gewist. De geschiedenis bevat elementen die verwant zijn aan de workflow: logbestanden, taken, gebeurtenissen (technische objecten die zijn gekoppeld aan de workflowbewerking) en bestanden die zijn gedownload door de **[!UICONTROL Transfer file]** activiteit. De standaardwaarde is 30 dagen voor workflowsjablonen buiten de box.
+* **[!UICONTROL History in days]**: geeft het aantal dagen aan waarna de historie moet worden gewist. De historie bevat elementen die verwant zijn aan de workflow: logbestanden, taken, gebeurtenissen (technische objecten die zijn gekoppeld aan de workflowbewerking) en bestanden die door de **[!UICONTROL Transfer file]** -activiteit zijn gedownload. De standaardwaarde is 30 dagen voor workflowsjablonen buiten de box.
 
-  Het leegmaken van de geschiedenis wordt uitgevoerd door het technische werkschema van de Schoonmaak van het Gegevensbestand, dat door gebrek dagelijks wordt uitgevoerd (zie [Lijst van technische werkstromen](../../administration/using/technical-workflows.md).)
+  Wis van de geschiedenis wordt uitgevoerd door het technische werkschema van de schoonmaakbeurt van het Gegevensbestand, dat door gebrek dagelijks (zie [ Lijst van technische werkschema&#39;s ](../../administration/using/technical-workflows.md) wordt uitgevoerd.)
 
   >[!IMPORTANT]
   >
-  >Als de **[!UICONTROL History in days]** veld blanco gelaten, wordt de waarde ervan beschouwd als &quot;1&quot;, wat betekent dat de geschiedenis na 1 dag wordt gewist.
+  >Als het veld **[!UICONTROL History in days]** leeg blijft, wordt de waarde ervan beschouwd als &quot;1&quot;, wat betekent dat de historie na 1 dag wordt gewist.
 
 * **[!UICONTROL Save SQL queries in the log]**: hiermee kunt u de SQL-query&#39;s uit de workflow opslaan in de logbestanden.
 
 * **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**: controleer deze optie als u het volledige uitvoeringsplan wilt worden geregistreerd. Deze optie is standaard uitgeschakeld.
 
-  Raadpleeg voor meer informatie over deze optie [sectie](#diagnostic-mode).
+  Voor meer informatie over deze optie, verwijs naar deze [ sectie ](#diagnostic-mode).
 
 * **[!UICONTROL Keep interim results]**: controleer deze optie als u de details van overgangen wilt kunnen bekijken.
 
@@ -48,9 +49,9 @@ Mogelijke opties zijn:
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**: hiermee kunt u de workflow lokaal uitvoeren voor testdoeleinden in de ontwikkelomgeving.
 
-* **[!UICONTROL Severity]**: hiermee kunt u een prioriteitsniveau opgeven voor het uitvoeren van workflows in uw Adobe Campaign-instantie. Dit veld wordt door Adobe teams alleen voor monitoringdoeleinden gebruikt.
+* **[!UICONTROL Severity]**: hiermee kunt u een prioriteitsniveau opgeven voor het uitvoeren van workflows in uw Adobe Campaign-instantie. Dit veld wordt door Adobe-teams alleen gebruikt voor bewakingsdoeleinden.
 
-De **[!UICONTROL Error management]** biedt extra opties waarmee u kunt beheren hoe workflows zich gedragen in geval van fouten. Deze opties worden beschreven in het dialoogvenster [Foutbeheer](../../automating/using/monitoring-workflow-execution.md#error-management) sectie.
+De sectie **[!UICONTROL Error management]** bevat aanvullende opties waarmee u kunt bepalen hoe workflows zich gedragen bij fouten. Deze opties worden gedetailleerd in de [ het beheersings ](../../automating/using/monitoring-workflow-execution.md#error-management) sectie van de Fout.
 
 ## Diagnosemodus {#diagnostic-mode}
 
@@ -58,15 +59,15 @@ De **[!UICONTROL Error management]** biedt extra opties waarmee u kunt beheren h
 >
 >Deze optie kan de workflowprestaties aanzienlijk beïnvloeden en moet spaarzaam worden gebruikt.
 
-Als deze optie is ingeschakeld, wordt **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]** in de **[!UICONTROL Execution]** in de workfloweigenschappen wordt het hele uitvoeringsplan geregistreerd als een query meer dan één minuut in beslag neemt.
+Als deze optie is ingeschakeld, wordt het hele uitvoeringsplan door de optie **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]** in de **[!UICONTROL Execution]** -sectie van de workfloweigenschappen geregistreerd als een query meer dan een minuut in beslag neemt.
 
 ![](assets/wkf_diagnostic.png)
 
 Nadat u deze optie hebt ingeschakeld en uw workflow hebt gestart, wordt het uitvoeringsplan geregistreerd als uw query meer dan één minuut duurt. U kunt uw uitvoeringsplan dan terugwinnen door EXPLAIN ANALYZE te gebruiken.
 
-Raadpleeg voor meer informatie hierover [PostSQL-documentatie](https://www.postgresql.org/docs/9.4/using-explain.html).
+Voor meer informatie over dit, verwijs naar [ documentatie PostgreSQL ](https://www.postgresql.org/docs/9.4/using-explain.html).
 
-Als deze query een reeks-scan bevat, wordt **[!UICONTROL Diagnostic mode]** zal ook aanbevelingen verstrekken om een index met behulp van een filteruitdrukking tot stand te brengen.
+Als deze query een reeks-scan bevat, geeft **[!UICONTROL Diagnostic mode]** ook aanbevelingen om een index te maken met behulp van een filterexpressie.
 
 >[!NOTE]
 >
@@ -80,12 +81,12 @@ Tijdens de uitvoering van de workflow moet aan de volgende twee voorwaarden word
 
 * De resulterende rijen na de opeenvolgingsaftasten zijn minder dan 1 % van de totale rijen aanwezig in de lijst.
 
-U kunt de optie beheren vanuit het geavanceerde menu door **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**:
+U kunt de optie vanuit het geavanceerde menu beheren door **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** te selecteren:
 
-* **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**: Van de **[!UICONTROL Value]** kunt u een nieuwe tijd voor de uitvoering van de query instellen. Als uw vraaguitvoering deze waarde overschrijdt, zal het uitvoeringsplan worden geregistreerd.
+* **[!UICONTROL Time of query execution (in milliseconds)(DiagnosticModeQueryTime)]**: Vanuit het veld **[!UICONTROL Value]** kunt u een nieuwe tijd voor de uitvoering van de query instellen. Als uw vraaguitvoering deze waarde overschrijdt, zal het uitvoeringsplan worden geregistreerd.
 
   ![](assets/wkf_diagnostic_2.png)
 
-* **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**: Van de **[!UICONTROL Value]** veld, kunt u het percentage wijzigen van de querytijd die de reeks moet doornemen voordat de aanbeveling wordt gegenereerd.
+* **[!UICONTROL Percentage of seq scan time (DiagnosticModeSeqScanPercentage)]**: Vanuit het veld **[!UICONTROL Value]** kunt u het percentage wijzigen van de querytijd die de scans van reeksen moet doorlopen voordat de aanbeveling wordt gegenereerd.
 
   ![](assets/wkf_diagnostic_3.png)

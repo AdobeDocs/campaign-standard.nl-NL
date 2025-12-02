@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: channel-activities
 context-tags: directMail,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '915'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -26,8 +27,8 @@ ht-degree: 93%
 
 Met de activiteit **[!UICONTROL Direct mail delivery]** kunt u een bestand configureren en voorbereiden met profieldata die u wilt gebruiken voor een direct-mailcampagne. Dit kan een directe post zijn die slechts één keer wordt gebruikt, of het kan een terugkomende directe post zijn.
 
-* **Standaard** direct mails worden één keer verzonden.
-* **Terugkeren** Met mails kunt u dezelfde directe e-mail meerdere keren verzenden naar verschillende doelen over een bepaalde periode. U kunt de leveringen per periode samenvoegen om rapporten te krijgen die voldoen aan uw behoeften.
+* **Standaard** directe post wordt verzonden eens.
+* **het Terugkomen** brievenpost staat u toe om de zelfde directe post veelvoudige tijden naar verschillende doelstellingen over een bepaalde periode te verzenden. U kunt de leveringen per periode samenvoegen om rapporten te krijgen die voldoen aan uw behoeften.
 
 ## Gebruikscontext {#context-of-use}
 
@@ -70,7 +71,7 @@ De berichtvoorbereiding wordt geactiveerd op basis van de uitvoeringsparameters 
 1. Standaard bevat de activiteit **[!UICONTROL Direct mail delivery]** geen uitgaande overgangen. Als u een uitgaande overgang wilt toevoegen aan uw activiteit **[!UICONTROL Direct mail delivery]**, ga dan naar het tabblad **[!UICONTROL General]** van de geavanceerde opties voor activiteiten (de knop ![](assets/dlv_activity_params-24px.png) in de snelle acties van de activiteit) en vink een van de volgende opties aan:
 
    * **[!UICONTROL Add outbound transition without the population]**: Zo kunt u een uitgaande overgang genereren die exact dezelfde populatie bevat als de binnenkomende overgang. Deze overgang bevat het bestand dat door de direct-mailactiviteit wordt gegenereerd en de onbewerkte populatie die door de direct-mailactiviteit is ontvangen.
-   * **[!UICONTROL Add outbound transition with the population]**: Zo kunt u een uitgaande overgang genereren met de populatie naar wie de direct mail wordt gestuurd. De leden van het doel die tijdens de voorbereiding van de direct mail waren uitgesloten (quarantaine, ongeldige e-mail, enz.), zijn uitgesloten van deze overgang. De overgang bevat ook het bestand dat door de direct mail wordt gegenereerd.
+   * **[!UICONTROL Add outbound transition with the population]**: Zo kunt u een uitgaande overgang genereren met de populatie naar wie de direct mail wordt gestuurd. De leden van het doel die tijdens de voorbereiding van direct mail (quarantaine, ongeldig adres, enz.) worden uitgesloten, zijn van deze overgang uitgesloten. De overgang bevat ook het bestand dat door de direct mail wordt gegenereerd.
 
 1. Bevestig de configuratie van uw activiteit en sla de workflow op.
 

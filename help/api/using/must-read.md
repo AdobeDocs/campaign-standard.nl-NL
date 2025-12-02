@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 0%
@@ -20,28 +21,28 @@ ht-degree: 0%
 ## Technische voorschriften
 
 * Adobe Campaign API&#39;s mogen alleen worden gebruikt op Server.
-* Neem altijd contact op met de technische contactpersoon van de Adobe als het gebruiksscenario dat u wilt implementeren is uitgelijnd met de schaal die is toegestaan door Adobe Campaign API&#39;s.
-* Voor het instellen van een AdobeIO-toegang zijn specifieke machtigingen vereist. Neem contact op met de Adobe Support voor problemen.
+* Raadpleeg altijd uw technische contactpersoon voor Adobe als het gebruiksscenario dat u wilt implementeren is uitgelijnd met de schaal die is toegestaan door Adobe Campaign API&#39;s.
+* Voor het instellen van een AdobeIO-toegang zijn specifieke machtigingen vereist. Neem contact op met de Adobe-ondersteuning voor problemen.
 
 ## Rechten en toegang
 
 * Adobe Campaign API&#39;s gebruiken standaard de beheerderscontext en dus zijn de eenheden en rollen van de organisatie niet van toepassing.
 * De Adobe Campaign API&#39;s zijn uitgesloten van de rolcontext.
-* Als u APIs met een organisatieeenheid of een rollen wilt vormen, gelieve eerst met uw aan Adobe technische contact te controleren.
+* Als u de API&#39;s wilt configureren met een organisatie-eenheid of rollen, raadpleegt u eerst uw technische contact met Adobe.
 
 ## Bronrepresentatie
 
-Alle API-bronnen zijn beschikbaar in **JSON** met een URL-extensie of in een HTTP Accept Header:
+Alle API middelen zijn beschikbaar in **JSON** met een uitbreiding URL of binnen HTTP keurt Kopbal goed:
 
 `GET /profileAndServices/<resourceName>.json`
 
 >[!NOTE]
 >
->Zonder extensie in de URL **de json-indeling is de standaardindeling** voor het inhoudstype.
+>Zonder uitbreiding in URL, is het **json formaat standaard één** voor inhoud-type.
 
 <br/>
 
-***aanvraagvoorbeeld***
+***verzoeksteekproef***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile.json \
@@ -65,13 +66,13 @@ Als de profielbron is uitgebreid met een veld met een aangepaste sleutel, kunt u
 
 `GET /.../profileAndServicesExt/profile/<customKey>`
 
-Aangepaste toetsen kunnen niet worden gewijzigd met een PATCH-bewerking als de sleutelwaarde afwijkt van de oorspronkelijke sleutel of als u uw eigen zakelijke sleutel gebruikt als URI in plaats van de sleutel die door de Adobe wordt verschaft.
+Aangepaste sleutels kunnen niet worden gewijzigd met een PATCH-bewerking als de sleutelwaarde afwijkt van de oorspronkelijke sleutel of als u uw eigen zakelijke sleutel gebruikt als URI in plaats van de sleutel die door Adobe wordt geleverd.
 
-Een aangepaste sleutel gebruiken voor **profielbronnen op hoofdniveau** alleen. URL&#39;s worden geretourneerd door de API en mogen nooit door uzelf worden gemaakt.
+Gebruik een douanesleutel voor **top-level profielmiddelen** slechts. URL&#39;s worden geretourneerd door de API en mogen nooit door uzelf worden gemaakt.
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
 Als u de abonnementen voor een profiel wilt ophalen met behulp van een aangepaste sleutel, voert u een GET-bewerking uit op de aangepaste sleutel.
 

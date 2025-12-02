@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: filtering-data
 context-tags: queryFilter,overview;audience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -200,7 +201,7 @@ De voorwaarden moeten aan waarden zijn gekoppeld aan de hand van een van de volg
    <td> NOT<br /> </td> 
    <td> N.v.t.<br /> </td> 
    <td> Heeft overeenkomsten met <span class="uicontrol">Like</span>. Hiermee kunt u de ingevoerde waarde overslaan. Ook hier moet de ingevoerde waarde het jokerteken <span class="uicontrol">%</span> bevatten.<br /> </td> 
-   <td> <strong>@lastName NOT Smi%h</strong>. Hier worden de ontvangers die overeenkomen met de naam ‘Smi%h’ (dus Smith, enz.) niet geretourneerd.<br /> </td> 
+   <td> <strong>@lastName NOT Smi%h</strong>. Hier komen de ontvangers overeen met de naam 'Smi%h' (dus Smith, enz.) die als gevolg hiervan niet wordt geretourneerd.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Is empty</span> <br /> </td> 

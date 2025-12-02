@@ -1,36 +1,37 @@
 ---
-title: GET/POST/PATCH/DELETE werkwoorden
-description: Meer informatie over de werkwoorden die worden gebruikt in Campaign Standard-API's.
+title: Werkwoorden GET / POST / PATCH / DELETE
+description: Meer informatie over de werkwoorden die worden gebruikt in Campaign Standard API's.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: de97a194-d497-4665-906e-53178fd3b119
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
 
 ---
 
-# GET/POST/PATCH/DELETE werkwoorden {#verbs}
+# Werkwoorden GET / POST / PATCH / DELETE {#verbs}
 
 Beschikbare werkwoorden voor het uitvoeren van bewerkingen op de bronnen zijn:
 
 * `GET`: haalt één element of een verzameling elementen op
-* `POST`: maakt een bron met parameters.
+* `POST` : maakt een bron met parameters.
 * `PATCH`: werkt een bron met parameters bij.
-* `DELETE`: verwijdert een bron.
+* `DELETE`: hiermee verwijdert u een bron.
 
 <!-- ajouter codes retour -->
 
 <br/>
 
-***Voorbeeldverzoeken***
+***verzoeken van de Steekproef***
 
-* Voorbeeld-GET-verzoek voor de profielverzameling.
+* Voorbeeld van een GET-aanvraag voor de profielverzameling.
 
 
   ```
@@ -66,7 +67,7 @@ Beschikbare werkwoorden voor het uitvoeren van bewerkingen op de bronnen zijn:
   }
   ```
 
-* Voorbeeld van GET-verzoek voor een specifiek profiel.
+* Voorbeeld van een GET-aanvraag voor een specifiek profiel.
 
 
   ```
@@ -92,7 +93,7 @@ Beschikbare werkwoorden voor het uitvoeren van bewerkingen op de bronnen zijn:
   }
   ```
 
-* Voorbeeld van POST-verzoek om een profiel te maken.
+* Voorbeeld van een POST-aanvraag om een profiel te maken.
 
 
   ```
@@ -116,7 +117,7 @@ Beschikbare werkwoorden voor het uitvoeren van bewerkingen op de bronnen zijn:
   }
   ```
 
-* Voorbeeld-PATCH-verzoek om een profiel bij te werken.
+* Voorbeeld van een PATCH-aanvraag om een profiel bij te werken.
 
   ```
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -136,7 +137,7 @@ Beschikbare werkwoorden voor het uitvoeren van bewerkingen op de bronnen zijn:
   }
   ```
 
-* Voorbeeld van DELETE-verzoek om een profiel te verwijderen.
+* Voorbeeld van een DELETE-aanvraag om een profiel te verwijderen.
 
   ```
   -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \

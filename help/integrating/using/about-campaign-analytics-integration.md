@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ada1a5d1-879b-49cd-b4ef-43d7a40bafdb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 7%
@@ -28,10 +29,10 @@ Dit werkt door eerst een externe account te maken die is gekoppeld aan Adobe Ana
 
 Deze integratie is alleen beschikbaar voor e-mailleveringen.
 
-Integratie tussen de kernservice van Adobe Analytics **Triggers** en Adobe Campaign is ook beschikbaar. Hiermee kunt u persoonlijke e-mails naar uw klanten sturen als reactie op specifieke gedragingen die door Adobe Analytics (binnen 15 minuten) op uw website worden bijgehouden.
+Een integratie tussen de kerndienst van Adobe Analytics **Triggers** en Adobe Campaign is ook beschikbaar. Hiermee kunt u persoonlijke e-mails naar uw klanten sturen als reactie op specifieke gedragingen die door Adobe Analytics (binnen 15 minuten) op uw website worden bijgehouden.
 
 **Verwante onderwerpen:**
 
-* [Overzicht van Campaign Standard naar analytische integratie](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html?lang=nl-NL)
-* [De integratie van het Campaign Standard configureren](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html?lang=nl-NL)
+* [ Overzicht van Campaign Standard aan de integratie van Analytics ](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
+* [ vorm de integratie van Campaign Standard ](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Dimensies en metrische gegevens van Campaign in Analytics](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

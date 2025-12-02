@@ -5,12 +5,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector bevindt zich momenteel in bèta, die vaak zonder voorafgaande kennisgeving kan worden bijgewerkt. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van de Adobe als u toegang wilt.
+>Adobe Experience Platform Data Connector bevindt zich momenteel in bèta, die vaak zonder voorafgaande kennisgeving kan worden bijgewerkt. Klanten moeten op Azure (momenteel alleen in bèta voor Noord-Amerika) worden gehost om toegang te krijgen tot deze mogelijkheden. Neem contact op met de klantenservice van Adobe als u toegang wilt.
 
 Het Model van Gegevens van de ervaring (XDM) is een standaardreeks gegevensschema&#39;s waarin de gegevens voor gebruik met de oplossingen en de producten van Adobe Experience Platform zouden kunnen worden opgenomen.
 
@@ -33,7 +34,7 @@ XDM Workspace biedt de mogelijkheid om gegevensschema&#39;s weer te geven, te ma
 
 Open Adobe Experience Platform om de XDM-gebruikersinterface te openen. Navigeer naar het venster Gegevensmodel om een XDM-schema te maken of uit te breiden.
 
-Raadpleeg de volledige [XDM Workspace-documentatie](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=nl-NL).
+Raadpleeg de volledige [ documentatie van XDM Workspace ](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -48,4 +49,4 @@ U kunt de volgende handelingen uitvoeren via de XDM Schema-API:
 * Schema-beschrijvingen weergeven
 * Schema-descriptors maken, bijwerken en verwijderen
 
-Alle details om API vraag te manipuleren zijn beschikbaar in [Handleiding voor ontwikkelaars](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=nl-NL).
+Alle details om API vraag te manipuleren zijn beschikbaar in de [ Gids van de Ontwikkelaar ](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).

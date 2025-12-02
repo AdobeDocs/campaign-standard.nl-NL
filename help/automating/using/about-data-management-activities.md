@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: b780704c-210b-4cab-9016-91726a86de6d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 55%
@@ -32,4 +33,4 @@ De sectie **[!UICONTROL Data management (ETL)]** bevat de volgende activiteiten:
 * [Bestand extraheren](../../automating/using/extract-file.md)
 * [Lidmaatschapsservices](../../automating/using/subscription-services.md)
 
-**[!UICONTROL Data management (ETL)]** activiteiten kunt u definiëren **segmentcodes** voor hun uitgaande overgangen. Vervolgens kunt u rapporten maken op basis van deze segmentcodes om de efficiëntie van uw marketingcampagnes te meten. Raadpleeg [deze sectie](../../reporting/using/creating-a-report-workflow-segment.md) voor meer informatie.
+**[!UICONTROL Data management (ETL)]** de activiteiten staan u toe om **segmentcodes** voor hun uitgaande overgangen te bepalen. Vervolgens kunt u rapporten maken op basis van deze segmentcodes om de efficiëntie van uw marketingcampagnes te meten. Raadpleeg [deze sectie](../../reporting/using/creating-a-report-workflow-segment.md) voor meer informatie.

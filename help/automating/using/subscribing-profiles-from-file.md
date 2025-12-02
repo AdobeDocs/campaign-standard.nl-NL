@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 06ae4a5c-f112-4aac-b776-437ac35a8f02
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 53%
@@ -24,7 +25,7 @@ De workflow wordt als volgt weergegeven:
 
 ![](assets/subscription_activity_example1.png)
 
-* A [Bestand laden](../../automating/using/load-file.md) Deze activiteit laadt het profieldossier en bepaalt de structuur van de ingevoerde kolommen.
+* A [ laadt dossier ](../../automating/using/load-file.md) activiteit het profieldossier en bepaalt de structuur van de ingevoerde kolommen.
 
   In dit voorbeeld heeft het geladen bestand de csv-indeling en bevat het de volgende data:
 
@@ -43,14 +44,14 @@ De workflow wordt als volgt weergegeven:
 
   ![](assets/subscription_activity_example2.png)
 
-* A [Verzoening](../../automating/using/reconciliation.md) de activiteit identificeert de gegevens van het dossier als deel uitmakend van de profielafmeting van het gegevensbestand van Adobe Campaign. Alleen het tabblad **[!UICONTROL Identification]** is geconfigureerd. De bestandsdata worden geïdentificeerd aan de hand van de e-mailadressen van de profielen.
+* A [ de verzoenings ](../../automating/using/reconciliation.md) activiteit identificeert de gegevens van het dossier als behorend tot de profieldimensie van het gegevensbestand van Adobe Campaign. Alleen het tabblad **[!UICONTROL Identification]** is geconfigureerd. De bestandsdata worden geïdentificeerd aan de hand van de e-mailadressen van de profielen.
 
   ![](assets/subscription_activity_example3.png)
 
-* A [Deduplicatie](../../automating/using/deduplication.md) op basis van de **email** in het veld van de tijdelijke bron (die voortvloeit uit de afstemming) worden eventuele duplicaten geïdentificeerd. Als de data die uit het bestand zijn geïmporteerd, duplicaten bevatten, mislukt de inschrijving op een service voor alle data.
+* A [ Deduplicatie ](../../automating/using/deduplication.md) die op het **wordt gebaseerd e-mail** gebied van het tijdelijke middel (resulterend uit de verzoening) identificeert om het even welke duplicaten. Als de data die uit het bestand zijn geïmporteerd, duplicaten bevatten, mislukt de inschrijving op een service voor alle data.
 
   ![](assets/subscription_activity_example5.png)
 
-* A [Abonnementsservices](../../automating/using/subscription-services.md) Met deze activiteit kunt u de service selecteren waarop de profielen moeten worden geabonneerd, het veld dat overeenkomt met de abonnementsdatum en de oorsprong van het abonnement.
+* De activiteit van de Diensten van het Abonnement van A [ ](../../automating/using/subscription-services.md) laat u de dienst selecteren waarop de profielen moeten worden ingetekend, het gebied dat aan de abonnementsdatum, en de oorsprong van het abonnement beantwoordt.
 
   ![](assets/subscription_activity_example4.png)

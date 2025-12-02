@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 90%
@@ -40,7 +41,7 @@ U kunt overgangen openen om te controleren of de verzonden data correct zijn tij
 
 U kunt een workflow maken op basis van een programma, een campagne of de lijst met marketingactiviteiten.
 
-![](assets/do-not-localize/how-to-video.png) [Ontdek hoe u een workflow kunt maken in video](#video)
+![](assets/do-not-localize/how-to-video.png) [ ontdekt hoe te om een werkschema in video ](#video) te bouwen
 
 Het maken van een marketingactiviteit wordt gedetailleerd beschreven in de sectie [Marketingactiviteiten maken](../../start/using/marketing-activities.md#creating-a-marketing-activity).
 
@@ -68,11 +69,11 @@ Het maken van een marketingactiviteit wordt gedetailleerd beschreven in de secti
 
 1. Bevestig het maken van de activiteit. Het dashboard voor die activiteit wordt dan weergegeven. Raadpleeg de sectie [Workflowinterface](../../automating/using/workflow-interface.md) voor meer informatie.
 
-1. Als de workflow gereed is om te worden geconfigureerd, hebt u toegang tot extra opties door op de knop **[!UICONTROL Edit properties]** knop.
+1. Als de workflow gereed is om te worden geconfigureerd, kunt u aanvullende opties openen door op de knop **[!UICONTROL Edit properties]** te klikken.
 
    U kunt bijvoorbeeld een specifieke tijdzone definiëren die standaard in alle activiteiten van de workflow moet worden gebruikt. Standaard is de tijdzone van de workflow de tijdzone die is gedefinieerd voor de huidige Campaign-operator.
 
-   Zie voor meer informatie over de eigenschappen van workflows [deze pagina](../../automating/using/managing-execution-options.md).
+   Voor meer op de eigenschappen van werkschema&#39;s, verwijs naar [ deze pagina ](../../automating/using/managing-execution-options.md).
 
    ![](assets/workflow_properties.png)
 
@@ -137,4 +138,4 @@ In deze video wordt getoond hoe u een workflow kunt maken.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-Er zijn aanvullende Campaign Standard-to-video&#39;s beschikbaar [hier](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).
+De extra hoe te video&#39;s van Campaign Standard zijn beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).

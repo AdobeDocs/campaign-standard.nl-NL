@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5805bdfa-fb33-4a46-ba1e-7a10b067349b
-source-git-commit: 9c14fc3de60d8e0304f8a7ebd46e7be34d2e0499
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 76%
@@ -20,7 +21,7 @@ ht-degree: 76%
 
 Dit gebruiksgeval stelt voor hoe te om een middel te gebruiken dat van de het richten dimensie verschillend is, bijvoorbeeld om op een specifiek verslag in een verre lijst te zoeken.
 
-Raadpleeg voor meer informatie over doelgerichtheid en bronnen [deze sectie](../../automating/using/query.md#targeting-dimensions-and-resources)
+Voor meer bij het richten van dimensies en middelen, verwijs naar [ deze sectie ](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **Voorbeeld 1: profielen identificeren die door de levering worden getarget met het label &quot;Welkom terug!&quot;**.
 

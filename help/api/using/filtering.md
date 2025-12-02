@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -19,15 +20,15 @@ ht-degree: 0%
 
 ## Metagegevens van filters ophalen
 
-Filters zijn beschikbaar voor elke bron. Om de filters te identificeren verbonden aan een middel, moet u een verzoek van de GET op de middelmeta-gegevens uitvoeren. Dit verzoek retourneert de URL waar alle filters zijn gedefinieerd voor een bepaalde bron. Raadpleeg voor meer informatie over metagegevens [deze sectie](../../api/using/metadata-mechanism.md).
+Filters zijn beschikbaar voor elke bron. Om de filters te identificeren verbonden aan een middel, moet u een verzoek van GET op de middelmeta-gegevens uitvoeren. Dit verzoek retourneert de URL waar alle filters zijn gedefinieerd voor een bepaalde bron. Voor meer op meta-gegevens, verwijs naar [ deze sectie ](../../api/using/metadata-mechanism.md).
 
-Om de meta-gegevens van een filter te identificeren en te bepalen hoe te om het te gebruiken, moet u een verzoek van de GET op eerder teruggekeerde URL uitvoeren.
+Om de meta-gegevens van een filter te identificeren en te bepalen hoe te om het te gebruiken, moet u een GET verzoek op eerder teruggekeerde URL uitvoeren.
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
-In de onderstaande voorbeeldladingen ziet u hoe u de metagegevens van de &quot;byText&quot;-filter voor de &quot;profile&quot;-bron ophaalt. Voer eerst een verzoek van de GET op &quot;profiel&quot;middelmetada uit.
+In de onderstaande voorbeeldladingen ziet u hoe u de metagegevens van de &quot;byText&quot;-filter voor de &quot;profile&quot;-bron ophaalt. Voer eerst een GET-aanvraag uit op de metada van de resource &quot;profile&quot;.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -47,7 +48,7 @@ De URL waar de filters worden beschreven, wordt geretourneerd.
   }
 ```
 
-Voer een verzoek van de GET op URL uit. De lijst met filters voor de profielbron wordt geretourneerd, met de metagegevens die aan elk filter zijn gekoppeld.
+Voer een GET-aanvraag uit op de URL. De lijst met filters voor de profielbron wordt geretourneerd, met de metagegevens die aan elk filter zijn gekoppeld.
 
 ```
 {
@@ -66,10 +67,10 @@ Voer een verzoek van de GET op URL uit. De lijst met filters voor de profielbron
 
 Voor elk filter is dezelfde metagegevensstructuur beschikbaar:
 
-* De **@formType** en **@webPage** velden zijn technische velden.
-* De **data** geeft een voorbeeld van het gebruik van het filter.
-* De **metagegevens** de knoop beschrijft de filterparameters.
-* De **conditie** knooppunt beschrijft wat het filter moet doen. De filterparameters die in het metagegevensknooppunt worden beschreven, worden gebruikt om filtervoorwaarden te maken. Voor elke filtervoorwaarde, als **enabledIf** is waar, **expr** wordt toegepast.
+* De velden **@formType** en **@webPage** zijn technische velden.
+* Het **gegevens** gebied geeft een steekproef op hoe te om de filter te gebruiken.
+* De **meta-gegevens** knoop beschrijft de filterparameters.
+* De **voorwaarde** knoop beschrijft wat de filter bedoeld is te doen. De filterparameters die in het metagegevensknooppunt worden beschreven, worden gebruikt om filtervoorwaarden te maken. Voor elke filtervoorwaarde, als **enabledIf** waar is, zal **expr** worden toegepast.
 
 <br/>
 
@@ -99,7 +100,7 @@ Het is mogelijk meerdere filters te combineren in één aanvraag:
 
 <br/>
 
-***Voorbeeldverzoeken***
+***verzoeken van de Steekproef***
 
 * Voorbeeld van een GET-aanvraag om de &#39;service&#39;-bronnen op te halen met het type &#39;email&#39;.
 
@@ -133,7 +134,8 @@ Het is mogelijk meerdere filters te combineren in één aanvraag:
   }
   ```
 
-* Voorbeeldverzoek om de &quot;profiel&quot;-bronnen op te halen die &quot;Doe&quot; bevatten in de velden E-mail of achternaam (het filter ByText zoekt naar zowel de velden E-mail als achternaam).
+* Voorbeeld van een GET-aanvraag om de &quot;profiel&quot;-bronnen met &quot;Doe&quot; op te halen in
+de velden voor e-mail- of achternaam (het filter ByText zoekt zowel naar de velden voor e-mail- als achternaam).
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -161,7 +163,7 @@ Het is mogelijk meerdere filters te combineren in één aanvraag:
   }
   ```
 
-* Voorbeeld van een GET-verzoek om de servicemiddelen op te halen met het type &quot;email&quot; en het label &quot;sport&quot;.
+* Voorbeeld van een GET-aanvraag om de servicemiddelen op te halen met het type &quot;email&quot; en het label &quot;sport&quot;.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -199,16 +201,16 @@ Als u een aangepast filter wilt gebruiken, moet u het maken en aanpassen in de A
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-Raadpleeg de documentatie bij het Campaign Standard voor meer informatie hierover:
+Raadpleeg de documentatie bij Campaign Standard voor meer informatie:
 
-* [Filterdefinitie configureren](https://helpx.adobe.com/nl/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Hoofdlettergebruik: een bron aanroepen met een samengestelde id-sleutel](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=nl-NL).
+* [ Vormend filterdefinitie ](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
+* [ geval van het Gebruik: Het roepen van een middel gebruikend een samengestelde identiteitskaart ](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
-Voorbeeld-GET-verzoek om de &quot;profiel&quot;-bronnen op te halen met transactiebedragen van 100$ of meer. Het filter &quot;byAmount&quot; is eerst gedefinieerd in de Adobe Campaign Standard-interface en gekoppeld aan de aangepaste tabel &quot;Transaction&quot;.
+Voorbeeld van een GET-aanvraag om de &quot;profile&quot;-bronnen op te halen met transactiebedragen van 100$ of meer. Het filter &quot;byAmount&quot; is eerst gedefinieerd in de Adobe Campaign Standard-interface en gekoppeld aan de aangepaste tabel &quot;Transaction&quot;.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \

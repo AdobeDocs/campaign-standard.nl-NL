@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: writer,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2df7fbed-b979-4706-bd56-83f712cc3070
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 11%
@@ -18,9 +19,9 @@ ht-degree: 11%
 
 # De database bijwerken met externe gegevens {#update-database-file}
 
-In het volgende voorbeeld wordt de configuratie van een **[!UICONTROL Update data]** activiteit na een **[!UICONTROL Load file]** activiteit. Het doel van deze workflow is om profielen toe te voegen aan of bij te werken naar de Adobe Campaign-database met de gegevens die uit het bestand zijn opgehaald.
+In het volgende voorbeeld wordt de configuratie getoond van een **[!UICONTROL Update data]** -activiteit na een **[!UICONTROL Load file]** -activiteit. Het doel van deze workflow is om profielen toe te voegen aan of bij te werken naar de Adobe Campaign-database met de gegevens die uit het bestand zijn opgehaald.
 
-In dit voorbeeld wordt de verzoeningssleutel gebruikt: **mailadres**. Het bestand dat in het dialoogvenster [Bestand laden](../../automating/using/load-file.md) activiteit is **.txt** opmaakbestand met de volgende voorbeeldgegevens:
+In dit voorbeeld, is de verzoeningssleutel gebruikt het **e-mailadres**. Het dossier in het [ geladen dossier van de Lading ](../../automating/using/load-file.md) activiteit is a **** formaatdossier dat de volgende voorbeeldgegevens bevat:
 
 ```
 lastname;firstname;email;birthdate
@@ -35,7 +36,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-De [Gegevens bijwerken](../../automating/using/update-data.md) activiteit is als volgt geconfigureerd:
+De [ gegevens van de Update ](../../automating/using/update-data.md) activiteit wordt gevormd als volgt:
 
 ![](assets/deduplication_example2_writer1.png)
 

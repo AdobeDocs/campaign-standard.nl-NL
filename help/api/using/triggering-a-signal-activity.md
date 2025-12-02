@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 9f94e98f-fe04-4369-8946-1380e02cdece
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 2%
@@ -17,9 +18,9 @@ ht-degree: 2%
 
 # Een signaalactiviteit activeren {#triggering-a-signal-activity}
 
-In een Adobe Campaign Standard-workflow kunnen er een of meer **Extern signaal** activiteiten. Deze activiteiten zijn &#39;listeners&#39; die wachten om te worden geactiveerd.
+In een werkschema van Adobe Campaign Standard, kan er één of meerdere **Externe signaal** activiteiten zijn. Deze activiteiten zijn &#39;listeners&#39; die wachten om te worden geactiveerd.
 
-Met Campaign Standard-API&#39;s kunt u een **Extern signaal** activiteit om een werkschema te roepen. De API-aanroep kan parameters bevatten die worden opgenomen in de gebeurtenisvariabelen van de workflow (een doelnaam, een bestandsnaam die moet worden geïmporteerd, een deel van de berichtinhoud, enz.). Op deze manier kunt u uw campagneautomatisering eenvoudig integreren met uw externe systeem.
+Campaign Standard APIs laat u een **Externe signaal** activiteit teweegbrengen om een werkschema te roepen. De API-aanroep kan parameters bevatten die worden opgenomen in de gebeurtenisvariabelen van de workflow (een doelnaam, een bestandsnaam die moet worden geïmporteerd, een deel van de berichtinhoud, enz.). Op deze manier kunt u uw campagneautomatisering eenvoudig integreren met uw externe systeem.
 
 >[!NOTE]
 >
@@ -27,13 +28,13 @@ Met Campaign Standard-API&#39;s kunt u een **Extern signaal** activiteit om een 
 
 Volg onderstaande stappen om een workflow te activeren:
 
-1. Een **GET** verzoek op het werkschema om de Externe trekker van de signaalactiviteit terug te winnen URL.
+1. Voer a **GET** verzoek op het werkschema uit om de Externe trekker URL van de signaalactiviteit terug te winnen.
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. Een **POST** verzoek op teruggekeerde URL om de signaalactiviteit, met te teweegbrengen **&quot;bron&quot;** parameter in de payload. Dit kenmerk is verplicht, zodat u de activerende aanvraagbron kunt aangeven.
+1. Voer a **POST** verzoek op teruggekeerde URL uit om de signaalactiviteit, met de **&quot;bron&quot;** parameter in de nuttige lading teweeg te brengen. Dit kenmerk is verplicht, zodat u de activerende aanvraagbron kunt aangeven.
 
-Als u de workflow met parameters wilt aanroepen, voegt u deze samen met de **&quot;parameters&quot;** kenmerk. De syntaxis bestaat uit de naam van de parameter gevolgd door de waarde (de volgende typen worden ondersteund: **string**, **getal**, **boolean** en **datum/tijd**).
+Als u het werkschema met parameters wilt roepen, voeg hen in de nuttige lading met **&quot;parameters&quot;** attributen toe. De syntaxis bestaat uit de naam van de parameter die door zijn waarde wordt gevolgd (de volgende types worden gesteund: **koord**, **aantal**, **boolean** en **datum/tijd**).
 
 ```
   -X POST <TRIGGER_URL>
@@ -56,13 +57,13 @@ Als u de workflow met parameters wilt aanroepen, voegt u deze samen met de **&qu
 
 >[!NOTE]
 >
->Wanneer u een parameter aan de lading toevoegt, moet u ervoor zorgen dat de parameter **name** en **type** De waarden zijn consistent met de informatie die in de externe signaalactiviteit wordt gedeclareerd. Bovendien mag de omvang van de lading niet groter zijn dan 64 Ko.
+>Wanneer het toevoegen van een parameter aan de nuttige lading, zorg ervoor dat zijn **naam** en **type** waarden met de informatie verenigbaar zijn die in de Externe signaalactiviteit wordt verklaard. Bovendien mag de omvang van de lading niet groter zijn dan 64 Ko.
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
-Voer een verzoek van de GET uit op het werkschema.
+Voer een GET-aanvraag uit voor de workflow.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \
@@ -91,7 +92,7 @@ Het retourneert de activiteit van het workflowsignaal en de bijbehorende trigger
 }
 ```
 
-Om een signaalactiviteit teweeg te brengen, voer een verzoek van de POST op trekkerURL met &quot;bron&quot;uit. Voeg de kenmerken &quot;parameters&quot; toe als u de workflow met parameters wilt aanroepen.
+Om een signaalactiviteit teweeg te brengen, voer een verzoek van POST op de trekkerURL met &quot;bron&quot;uit. Voeg de kenmerken &quot;parameters&quot; toe als u de workflow met parameters wilt aanroepen.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
@@ -115,7 +116,7 @@ Om een signaalactiviteit teweeg te brengen, voer een verzoek van de POST op trek
 
 <!-- + réponse -->
 
-Als een van de parameters niet wordt gedeclareerd in de externe signaalactiviteit, retourneert de aanvraag van de POST de onderstaande fout die aangeeft welke parameter ontbreekt.
+Als een van de parameters niet wordt gedeclareerd in de externe signaalactiviteit, retourneert de POST-aanvraag de onderstaande fout die aangeeft welke parameter ontbreekt.
 
 ```
 RST-360011 An error has occurred - please contact your administrator.

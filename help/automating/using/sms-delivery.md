@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: channel-activities
 context-tags: sms,main;delivery,smsContent,back
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 65d3f3d8-039d-4188-a6a4-0065724aa82b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -26,8 +27,8 @@ ht-degree: 93%
 
 Met de activiteit **[!UICONTROL SMS delivery]** kunt u het verzenden van een sms in een workflow configureren. Dit kan één enkel zijn verzendt SMS en slechts één keer verzonden, of het kan terugkomende SMS zijn.
 
-* **Eén verzending** SMS-berichten zijn standaard-SMS-berichten die eenmaal worden verzonden.
-* **Terugkeren** Met SMS-berichten kunt u gedurende een bepaalde periode dezelfde SMS-berichten meerdere keren naar verschillende doelen verzenden. U kunt de leveringen per periode samenvoegen om rapporten te krijgen die voldoen aan uw behoeften.
+* **enkel verzend** de berichten van SMS zijn standaardSMS, één keer verzonden.
+* **het Terugkomen** de berichten van SMS staan u toe om zelfde SMS veelvoudige tijden naar verschillende doelstellingen over een bepaalde periode te verzenden. U kunt de leveringen per periode samenvoegen om rapporten te krijgen die voldoen aan uw behoeften.
 
 ## Gebruikscontext {#context-of-use}
 
@@ -61,7 +62,7 @@ De voorbereiding van berichten wordt geactiveerd volgens de parameters voor work
 1. Standaard bevat de activiteit **[!UICONTROL SMS delivery]** geen uitgaande overgangen. Als u een uitgaande overgang wilt toevoegen aan uw activiteit **[!UICONTROL SMS delivery]**, ga dan naar het tabblad **[!UICONTROL General]** van de geavanceerde opties voor activiteiten (de knop ![](assets/dlv_activity_params-24px.png) in de snelle acties van de activiteit) en vink een van de volgende opties aan:
 
    * **[!UICONTROL Add outbound transition without the population]**: Hiermee kunt u een uitgaande overgang genereren die exact dezelfde populatie als de binnenkomende overgang bevat.
-   * **[!UICONTROL Add outbound transition with the population]**: Hiermee kunt u een uitgaande overgang genereren die de populatie bevat aan wie de sms is verzonden. De leden van de doelgroep die tijdens de voorbereiding van de levering werden uitgesloten (quarantaine, ongeldig nummer, enzovoort) zijn uitgesloten van deze overgang.
+   * **[!UICONTROL Add outbound transition with the population]**: Hiermee kunt u een uitgaande overgang genereren die de populatie bevat aan wie de sms is verzonden. De leden van de doelgroep die tijdens de voorbereiding van de levering zijn uitgesloten (quarantaine, ongeldig aantal, enz.), zijn van deze overgang uitgesloten.
 
 1. Bevestig de configuratie van uw activiteit en sla de workflow op.
 

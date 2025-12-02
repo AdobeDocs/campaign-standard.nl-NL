@@ -1,16 +1,17 @@
 ---
 title: Gebruiksscenario’s voor workflows
-description: Lees meer over gebruiksgevallen die u kunt uitvoeren met workflows van Campaigns Standard.
+description: Klik hier als je meer wilt weten over het gebruik van Campaign Standard-workflows.
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -47,7 +48,7 @@ Ze helpen u de verschillende contexten te ontdekken waarin workflows kunnen word
 * [Segmentatie volgens leeftijdsgroepen](../../automating/using/segmentation-age-groups.md)
 * [Bronnen gebruiken die niet gelijk zijn aan targetingdimensies](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
-## Gegevensbeheer {#management}
+## Data management {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 

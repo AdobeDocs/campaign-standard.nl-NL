@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 75%
@@ -54,17 +55,17 @@ U kunt deze activiteit gebruiken om data te herstellen die vervolgens met de act
    * [Microsoft Azure Blob-opslag](#azure-blob-configuration-wf)
    * [Bestanden aanwezig op de Adobe Campaign-server](#files-server-configuration-wf)
 
-1. De **[!UICONTROL Additional options]** kunt u parameters toevoegen aan uw protocol, afhankelijk van het geselecteerde protocol.
+1. In de sectie **[!UICONTROL Additional options]** , die afhankelijk is van het geselecteerde protocol, kunt u parameters toevoegen aan uw protocol.
 
    U kunt:
 
-   * **[!UICONTROL Delete the source files after transfer]**: wist de bestanden op de externe server. Als deze optie uitgeschakeld blijft, controleert u handmatig de grootte van de gearchiveerde inhoud in de SFTP-map.
+   * **[!UICONTROL Delete the source files after transfer]** : wist de bestanden op de externe server. Als deze optie uitgeschakeld blijft, controleert u handmatig de grootte van de gearchiveerde inhoud in de SFTP-map.
 
    * **[!UICONTROL Sorting files]**: hiermee kunt u bestanden alfanumeriek sorteren. Deze optie is standaard uitgeschakeld.
 
      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL List all files]**: deze optie is beschikbaar als u de optie **[!UICONTROL File listing]** in de **[!UICONTROL General]** tab. Hiermee kunt u alle bestanden indexeren die aanwezig zijn op de server in de gebeurtenisvariabele **vars.filenames** waarin de bestandsnamen worden gescheiden door de tekens **‘n’** 
+   * **[!UICONTROL List all files]** : deze optie is beschikbaar wanneer u de handeling **[!UICONTROL File listing]** op het tabblad **[!UICONTROL General]** selecteert. Hiermee kunt u alle bestanden indexeren die aanwezig zijn op de server in de gebeurtenisvariabele **vars.filenames** waarin de bestandsnamen worden gescheiden door de tekens **‘n’** 
 
 1. In de sectie **[!UICONTROL If no files are found]** van het tabblad **[!UICONTROL Advanced options]** kunt u specifieke acties configureren als er fouten of onbestaande bestanden worden gedetecteerd wanneer de activiteit wordt gestart.
 
@@ -78,20 +79,20 @@ U kunt deze activiteit gebruiken om data te herstellen die vervolgens met de act
 
 Met het HTTP-protocol kunt u beginnen met het downloaden van een bestand vanaf een extern account of van een URL.
 
-Met dit protocol kunt u ervoor kiezen **[!UICONTROL Use connection parameters defined in an external account]** -optie. Selecteer in dit geval de account die u wilt downloaden en geef het pad op van het bestand dat u wilt downloaden.
+Met dit protocol kunt u de optie **[!UICONTROL Use connection parameters defined in an external account]** kiezen. Selecteer in dit geval de account die u wilt downloaden en geef het pad op van het bestand dat u wilt downloaden.
 
 ![](assets/wkf_file_transfer_03.png)
 
 U kunt ook de optie **[!UICONTROL Quick configuration]** kiezen. U hoeft de URL alleen in te voeren in het veld URL.
 ![](assets/wkf_file_transfer_04.png)
 
-**[!UICONTROL Follow redirections]**, **[!UICONTROL Ignore the HTTP return code]**, en **[!UICONTROL Add received HTTP headers to the file]** zijn de extra opties beschikbaar wanneer u het protocol van HTTP selecteert.
+**[!UICONTROL Follow redirections]** , **[!UICONTROL Ignore the HTTP return code]** en **[!UICONTROL Add received HTTP headers to the file]** zijn aanvullende opties beschikbaar wanneer u het HTTP-protocol selecteert.
 
 ### Configuratie met SFTP {#SFTP-configuration-wf}
 
 Met het SFTP-protocol kunt u beginnen met het downloaden van een bestand vanaf een URL of een extern account.
 
-Met dit protocol kunt u ervoor kiezen **[!UICONTROL Use connection parameters defined in an external account]** selecteert u vervolgens het account dat u wilt gebruiken en geeft u het pad op van het bestand dat u wilt downloaden.
+Met dit protocol kunt u de optie **[!UICONTROL Use connection parameters defined in an external account]** kiezen, vervolgens het account selecteren dat u wilt en het pad opgeven van het bestand dat u wilt downloaden.
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -116,7 +117,7 @@ Met het Amazon S3-protocol kunt u beginnen met het downloaden van een bestand va
    >
    > Jokertekens worden niet ondersteund in Amazon S3.
    >
-   > Meerdere bestanden als doel instellen `my_file_02` en `my _file_3433`kunt u de volgende syntaxis gebruiken: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
+   > Als u meerdere bestanden als `my_file_02` en `my _file_3433` als doel wilt instellen, kunt u de volgende syntaxis gebruiken: `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_` .
 
 4. Als u de bronbestanden wilt verwijderen wanneer de overdracht is voltooid, selecteert u **[!UICONTROL Delete the source files after transfer]**.
 
@@ -180,11 +181,11 @@ Telkens wanneer de activiteit wordt uitgevoerd, wordt de map als volgt gecontrol
 
 ## Uitvoervariabelen {#output-variables}
 
-De **[!UICONTROL Transfer file]** activiteit genereert gebeurtenisvariabelen als output, die u in andere activiteiten kunt gebruiken, bijvoorbeeld om het aantal gedownloade dossiers te controleren gebruikend [Testen](../../automating/using/test.md) activiteit.
+De **[!UICONTROL Transfer file]** activiteit produceert gebeurtenisvariabelen als output, die u hefboomwerking in andere activiteiten kunt, bijvoorbeeld om het aantal gedownloade dossiers te controleren gebruikend a [ Test ](../../automating/using/test.md) activiteit.
 
-Gebeurtenisvariabelen kunnen ook aan een andere workflow worden doorgegeven via een extern signaal (zie [Een workflow aanpassen met externe parameters](../../automating/using/customizing-workflow-external-parameters.md)).
+Merk op dat de gebeurtenisvariabelen ook aan een ander werkschema kunnen worden overgegaan gebruikend een extern signaal (zie [ Aanpassend een werkschema met externe parameters ](../../automating/using/customizing-workflow-external-parameters.md)).
 
 Beschikbare uitvoervariabelen zijn:
 
 * **[!UICONTROL fileName]**: naam van de overgedragen bestanden.
-* **[!UICONTROL filesCount]**: aantal overgedragen bestanden.
+* **[!UICONTROL filesCount]** : aantal overgedragen bestanden.

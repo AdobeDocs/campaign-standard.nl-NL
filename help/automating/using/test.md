@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: jstest,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 62a064f7-6d0b-49ca-9834-eccb5bf42496
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 77%
@@ -47,9 +48,9 @@ Voorwaarden zijn gebaseerd op **functies** of op **variabelen**, zoals gebeurten
 
    Bij het bewerken van het veld **[!UICONTROL Condition]** krijgt u via twee knoppen hulp bij het aanroepen van gebeurtenisvariabelen en bij het bewerken van expressies waarin variabelen en functies worden gecombineerd:
 
-   * ![](assets/extsignal_picker.png): selecteer de gebeurtenisvariabele onder alle variabelen die beschikbaar zijn in de workflow (zie [deze pagina](../../automating/using/customizing-workflow-external-parameters.md)).
+   * ![](assets/extsignal_picker.png): selecteer de gebeurtenisvariabele onder alle variabelen die in het werkschema beschikbaar zijn (zie [ deze pagina ](../../automating/using/customizing-workflow-external-parameters.md)).
 
-     U kunt bijvoorbeeld het aantal gedownloade bestanden controleren na een [Bestandsoverdracht](../../automating/using/transfer-file.md) activiteit met behulp van **[!UICONTROL filesCount]** variabele.
+     Bijvoorbeeld, kunt u het aantal gedownloade dossiers na a [ de overdrachtactiviteit van het Dossier controleren ](../../automating/using/transfer-file.md) gebruikend de **[!UICONTROL filesCount]** variabele.
 
      ![](assets/wkf_test_activity_variables.png)
 

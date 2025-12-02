@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 81%
@@ -18,7 +19,7 @@ ht-degree: 81%
 
 # Een e-mail met aanvullende gegevens personaliseren {#example--personalizing-an-email-with-additional-data}
 
-In het volgende voorbeeld ziet u hoe u verschillende typen aanvullende gegevens toevoegt aan een query en hoe u deze gebruikt als een verpersoonlijkingsveld in een e-mailbericht. Meer informatie over het verrijken van de gegevens waarop een **[!UICONTROL Query]** activiteit, zie [deze sectie](../../automating/using/query.md#enriching-data).
+In het volgende voorbeeld ziet u hoe u verschillende typen aanvullende gegevens toevoegt aan een query en hoe u deze gebruikt als een verpersoonlijkingsveld in een e-mailbericht. Voor meer op hoe te om de gegevens te verrijken die door a **[!UICONTROL Query]** activiteit worden gericht, verwijs naar [ deze sectie ](../../automating/using/query.md#enriching-data).
 
 In dit voorbeeld worden [aangepaste bronnen](../../developing/using/data-model-concepts.md) gebruikt:
 
@@ -32,7 +33,7 @@ De workflow wordt als volgt weergegeven:
 
 ![](assets/enrichment_example1.png)
 
-1. Voeg een [Query](../../automating/using/query.md) activiteit, waardoor u zich kunt richten op de profielen die minstens één transactie hebben uitgevoerd.
+1. Voeg de activiteit van de a [ Vraag ](../../automating/using/query.md) toe, die u toestaat om de profielen te richten die minstens één transactie hebben uitgevoerd.
 
    ![](assets/enrichment_example2.png)
 
@@ -54,7 +55,7 @@ De workflow wordt als volgt weergegeven:
 
    ![](assets/enrichment_example5.png)
 
-1. Een [E-maillevering](../../automating/using/email-delivery.md) activiteit. Voeg de personalisatievelden toe aan de e-mail die overeenkomen met de data die in de query zijn berekend. Deze zijn beschikbaar via de koppeling **[!UICONTROL Additional data (targetData)]** van de verkennertool voor personalisatievelden.
+1. Voeg een [ E-maillevering ](../../automating/using/email-delivery.md) activiteit toe. Voeg de personalisatievelden toe aan de e-mail die overeenkomen met de data die in de query zijn berekend. Deze zijn beschikbaar via de koppeling **[!UICONTROL Additional data (targetData)]** van de verkennertool voor personalisatievelden.
 
    ![](assets/enrichment_example3.png)
 

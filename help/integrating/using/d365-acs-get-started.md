@@ -1,28 +1,29 @@
 ---
-title: Aan de slag met de integratie van Microsoft Dynamics 365
-description: Leer hoe u aan de slag kunt met de integratie van Microsoft Dynamics 365
+title: Aan de slag met de Microsoft Dynamics 365-integratie
+description: Leer hoe u aan de slag kunt met de Microsoft Dynamics 365-integratie
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: fa0f790d-6a4d-4b83-a51f-f565e9545a1a
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 4%
 
 ---
 
-# Aan de slag met de integratie van Microsoft Dynamics 365
+# Aan de slag met de Microsoft Dynamics 365-integratie
 
-Activeer uw gegevens van CRM over dwars-kanaalmededeling: leer hoe te om contacten van de Dynamiek 365 van Microsoft aan Adobe Campaign over te brengen, en de gegevens van de campagneprestaties (verzendt, opent, klikt, en stuit) terug van Adobe Campaign aan de Dynamica 365 van Microsoft te delen.
+Activeer uw CRM-gegevens voor communicatie via meerdere kanalen: leer hoe u contactpersonen van Microsoft Dynamics 365 kunt doorgeven aan Adobe Campaign en hoe u gegevens over de campagneprestaties (verzenden, openen, klikken en bellen) kunt delen van Adobe Campaign naar Microsoft Dynamics 365.
 
 Voor deze integratie zijn de volgende softwareversies vereist:
 
-* Microsoft Dynamics 365 for Sales Online, nieuwste versie
+* Microsoft Dynamics 365 alleen voor Sales Online, nieuwste versie
 
 * Adobe Campaign Standard, nieuwste versie
 
@@ -35,9 +36,9 @@ Voor deze integratie zijn de volgende softwareversies vereist:
 
 Dankzij de Adobe Campaign Standard-integratie met Microsoft Dynamics 365 kunnen alle beschikbare contactgegevens in het CRM-systeem worden gesynchroniseerd, zodat alle relevante contactgegevens beschikbaar zijn voor campagneactiviteiten.
 
-Omgekeerd, aangezien de profielen binnen Adobe Campaign Standard met berichten in wisselwerking staan, stromen die gegevens (b.v.: verzendt, opent, klikt, en stuitingen) automatisch in de Dynamica 365 van Microsoft om contactverslagen te houden volledig met marketing activiteit.
+Omgekeerd, aangezien de profielen binnen Adobe Campaign Standard met berichten in wisselwerking staan, stromen die gegevens (b.v.: verzendt, opent, klikt, en stuit) automatisch naar Microsoft Dynamics 365 om contactverslagen te houden volledig met marketing activiteit.
 
-De integratie ondersteunt ook het inschakelen van [aangepaste entiteiten](../../integrating/using/d365-acs-self-service-app-settings.md) in Dynamics 365 to be synchronized to corresponding **aangepaste bronnen** in Campaign.
+De integratie steunt ook toelatend [ douaneentiteiten ](../../integrating/using/d365-acs-self-service-app-settings.md) in Dynamiek 365 om aan overeenkomstige **douanemiddelen** in Campagne worden gesynchroniseerd.
 
 Deze integratie is ontworpen om vier hoofdgebruiksituaties te ondersteunen:
 
@@ -48,7 +49,7 @@ Deze integratie is ontworpen om vier hoofdgebruiksituaties te ondersteunen:
 
 Belangrijkste voordelen zijn:
 
-* Consistent overseinen tussen verkoop &amp; marketing: de integratie van Adobe Campaign Standard met Dynamics 365 integratie geeft zowel systeemtoegang tot klanteninzicht als e-mailmarketing geschiedenis die alle berichten aan de klant toestaat om het zelfde verenigbare overseinen te delen.
+* Consistent overseinen tussen verkoop &amp; marketing: de integratie van Adobe Campaign Standard met Dynamiek 365 integratie geeft zowel systeemtoegang tot klantinsight als e-mail marketing geschiedenis die alle berichten aan de klant toestaat om het zelfde verenigbare overseinen te delen.
 
 * Holistische mening van alle vooruitzichten en klantengegevens: door Adobe Campaign Standard met Dynamica 365 te integreren, is het mogelijk om e-mailmarketing geschiedenis op elk contact van binnen het systeem van CRM te delen en toegang te hebben.
 
@@ -59,7 +60,7 @@ Belangrijkste voordelen zijn:
 >Deze integratie beschouwt Dynamiek 365 als bron van waarheid voor contact en douaneentiteitsynchronisatie.  Wijzigingen in gesynchroniseerde kenmerken moeten worden uitgevoerd in Dynamics 365, niet in Adobe Campaign Standard.  Als er wijzigingen worden aangebracht in Campagne, kunnen deze tijdens de synchronisatie worden overschreven.
 >
 
-## Belangrijkste stappen om de integratie van Microsoft Dynamics 365 te implementeren{#request-and-implement-this-integration}
+## Belangrijkste stappen om de Microsoft Dynamics 365-integratie te verwezenlijken{#request-and-implement-this-integration}
 
 Om deze integratie mogelijk te maken, moet u de onderstaande stappen volgen.
 
@@ -69,40 +70,40 @@ Volg hieronder het stroomschema en de stroomdiagramdetails om de integratie aan 
 
 Stroomdiagramdetails (afbeeldingen tot bovenstaande stappen):
 
-* **Stap 1** - Er wordt aangenomen dat u al een licentie voor Microsoft Dynamics 365 voor Sales en voor Adobe Campaign Standard hebt of in aanschaf bent.
-* **Stap 2** - Het standaard integratieaanbod is gratis voor alle klanten, maar er kunnen, afhankelijk van uw vereisten, extra kosten van toepassing zijn. Meer informatie over [Aanbevolen werkwijzen en beperkingen](../../integrating/using/d365-acs-notices-and-recommendations.md). Er moet een nieuwe verkooporder (SO) worden ondertekend om van de integratie te kunnen profiteren als deze niet in de oorspronkelijke mededeling van punten van bezwaar was opgenomen.
-* **Stap 3** - Voltooi de pre-integratiestappen voor Dynamics 365 en Campaign. Zie [Deze integratie configureren](#configure-this-integration).
-* **Stap 4** - Het Adobe instapkaartteam biedt u toegang tot de gebruikersinterface van de integratietoepassing (UI).
-* **Stap 5** - U kunt uw gegevenstoewijzingen, vervangingen, filters, enz. configureren. en test uw integratie vanuit de interface van de integratietoepassing.
+* **Stap 1** - men veronderstelt dat u reeds hebt, of in het proces bent om, een vergunning voor Microsoft Dynamics 365 voor Verkoop en voor Adobe Campaign Standard aan te kopen.
+* **Stap 2** - het standaard integratieaanbod is vrij aan alle klanten; nochtans, kunnen de extra kosten afhankelijk van uw vereisten van toepassing zijn. Leer meer over [ Beste praktijken en beperkingen ](../../integrating/using/d365-acs-notices-and-recommendations.md). Er moet een nieuwe verkooporder (SO) worden ondertekend om van de integratie te kunnen profiteren als deze niet in de oorspronkelijke mededeling van punten van bezwaar was opgenomen.
+* **Stap 3** - voltooi pre-integratiestappen voor Dynamiek 365 en Campagne. Zie [ deze integratie ](#configure-this-integration) vormen.
+* **Stap 4** - het Adobe onboarding team zal u toegang tot het gebruikersinterface van de integratietoepassing (UI) verlenen.
+* **Stap 5** - U zult uw gegevenstoewijzingen, vervangingen, filters, enz. kunnen vormen. en test uw integratie vanuit de interface van de integratietoepassing.
 
   >[!IMPORTANT]
   >
-  > Als u de bidirectionele of Campagne aan Dynamiek 365 opt-out configuratie vereist, zult u het verzoek aan uw Adobe technisch contact voor de opt-out werkschema&#39;s moeten indienen om opstelling op uw instantie van de Campagne te zijn. [Meer informatie](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
+  > Als u de bidirectionele of Campagne aan Dynamiek 365 opt-out configuratie vereist, zult u het verzoek aan uw technische contact van Adobe voor de opt-out werkschema&#39;s moeten indienen om opstelling op uw instantie van de Campagne te zijn. [Meer informatie](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
 
 ### Deze integratie configureren {#configure-this-integration}
 
 Voor deze integratie moeten drie systemen worden ingericht en geconfigureerd:
 
-* **Adobe Campaign Standard**: u moet API-toegang instellen en een nieuwe integratie configureren voor het integratieprogramma. Om dit te bereiken, raadpleegt u [dit artikel](../../integrating/using/d365-acs-configure-adobe-io.md).
-* **Microsoft Dynamics 365**: u moet een nieuwe toepassingsregistratie maken en een toepassingsgebruiker de integratie laten gebruiken.  Als u Microsoft Dynamics 365 voor deze integratie wilt configureren, raadpleegt u [dit artikel](../../integrating/using/d365-acs-configure-d365.md).
-* **Adobe Campaign Standard-integratie met Microsoft Dynamics 365 Self-Service App**: u moet de stappen in [dit artikel](../../integrating/using/d365-acs-self-service-app-control-access.md).
+* **Adobe Campaign Standard**: u moet opstelling API toegang en een nieuwe integratie voor het integratiehulpmiddel vormen. Om dit te bereiken, verwijs naar [ dit artikel ](../../integrating/using/d365-acs-configure-adobe-io.md).
+* **Microsoft Dynamics 365**: u moet een nieuwe toepassingsregistratie tot stand brengen en een toepassingsgebruiker toelaten om de integratie te gebruiken.  Om Microsoft Dynamics 365 voor deze integratie te vormen, verwijs naar [ dit artikel ](../../integrating/using/d365-acs-configure-d365.md).
+* **de integratie van Adobe Campaign Standard met Microsoft Dynamics 365 Zelfbediening App**: u zult de stappen in [ dit artikel ](../../integrating/using/d365-acs-self-service-app-control-access.md) moeten volgen.
 
 >[!IMPORTANT]
 >
->Voor elk systeem moeten deze stappen door een **beheerder**.
+>Voor elk systeem, moeten deze stappen door een **beheerder** worden uitgevoerd.
 >
 >De stappen in deze documentatie zullen u door het creëren van integratie/registraties begeleiden die het toewijzen van toestemmingen en/of admin toegang impliceren.  Het is uw verantwoordelijkheid om ervoor te zorgen dat deze stappen voldoen aan uw bedrijfsbeleid alvorens uit te voeren, en hen zorgvuldig uit te voeren.
 >
 
 ### Verzoek om ondersteuning
 
-De kaartjes van de steun kunnen met de Zorg van de Klant van de Adobe worden geregistreerd.
+Support-tickets kunnen worden geregistreerd bij de klantenservice van Adobe.
 
 Voor alle problemen met integratiegegevensstromen moet u de volgende informatie opnemen:
 
-* **Proceseigenaar**: Engineering-architecten
-* **ES-proces-id**: Wordt verstrekt tijdens instapprocedure
-* **Procestitel**: Microsoft Dynamics 365 / Adobe Campaign Standard Integration
-* **Probleembeschrijving**: Beschrijving van het probleem
+* **Eigenaar van het Proces**: De Architecten van de Techniek
+* **ES identiteitskaart van het Proces**: Verstrekt tijdens het instapproces
+* **Titel van het Proces**: De Integratie van Microsoft Dynamics 365/Adobe Campaign Standard
+* **Beschrijving van de Uitgave**: Beschrijving van de kwestie
 
-Integratieondersteuning is momenteel 24x5 (beschikbaar van maandag tot en met vrijdag, met uitzondering van feestdagen en onderbrekingsperiodes in de Adobe).
+Integratieondersteuning is momenteel 24x5 (beschikbaar van maandag tot en met vrijdag, met uitzondering van Adobe-feestdagen en onderbrekingsperiodes).

@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2b21cf45-1c40-4e0e-ae2c-28c9f73e1964
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 70%
@@ -36,13 +37,13 @@ Voer de volgende stappen uit om de workflow te maken:
    ![](assets/wkf_file_transfer_07.png)
 
 1. Bevestig uw activiteit.
-1. Sleep een [Bestand laden](../../automating/using/load-file.md) activiteit in uw werkschema en plaats het na **[!UICONTROL Transfer file]** activiteit.
+1. De belemmering en laat vallen a [ dossier ](../../automating/using/load-file.md) activiteit van de Lading in uw werkschema en plaatst het na de **[!UICONTROL Transfer file]** activiteit.
 1. Selecteer de activiteit en open deze met de knop ![](assets/edit_darkgrey-24px.png) vanuit de snelle acties die verschijnen.
 1. Schakel in de sectie **[!UICONTROL File to load]** van het tabblad **[!UICONTROL Execution]** de optie **[!UICONTROL Use the file specified in the inbound transition]** in.
 
    ![](assets/wkf_file_loading8.png)
 
 1. Configureer uw activiteit zoals eerder opgegeven.
-1. Sleep een [Gegevens bijwerken](../../automating/using/update-data.md) activiteit in uw werkschema en plaats het na **[!UICONTROL Load file]** activiteit, dan vorm het.
+1. De belemmering en laat vallen een [ gegevens van de Update ](../../automating/using/update-data.md) activiteit in uw werkschema en plaatst het na de **[!UICONTROL Load file]** activiteit, dan vormt het.
 
 Nadat de workflow is gestart, worden de data uit het geüploade bestand geëxtraheerd en vervolgens gebruikt om de Adobe Campaign-database te verrijken.

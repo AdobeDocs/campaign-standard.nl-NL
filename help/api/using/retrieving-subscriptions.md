@@ -2,10 +2,11 @@
 title: Lidmaatschappen ophalen
 description: Leer hoe u abonnementen ophaalt met API's
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 1%
@@ -23,13 +24,13 @@ Dit is een procedure in twee stappen.
 
 >[!CAUTION]
 >
->De REST-API retourneert de eigenschap &quot;href&quot;, die de te gebruiken URL bevat. <b>Gebruik altijd de URL in het antwoord om het volgende API-verzoek in te dienen</b>.
+>De REST-API retourneert de eigenschap &quot;href&quot;, die de te gebruiken URL bevat. <b> gebruikt altijd URL in de reactie om het verdere API verzoek </b> te maken.
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
-Voer een verzoek van de GET uit om de dienst terug te winnen.
+Voer een GET-verzoek uit om de service op te halen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -85,13 +86,13 @@ De lijst met abonnementen voor de service wordt weergegeven met elk gekoppeld pr
 Dit is een procedure in twee stappen.
 
 1. Haal de abonnements-URL voor een bepaald profiel op.
-1. Voer een verzoek van de GET op URL uit. Het keert de lijst van abonnementen voor het profiel, met elke bijbehorende dienst terug.
+1. Voer een GET-aanvraag uit op de URL. Het keert de lijst van abonnementen voor het profiel, met elke bijbehorende dienst terug.
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
-Voer een verzoek van de GET uit om het profiel terug te winnen.
+Voer een GET-aanvraag uit om het profiel op te halen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \

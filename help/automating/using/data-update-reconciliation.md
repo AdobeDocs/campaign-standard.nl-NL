@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 52%
+ht-degree: 33%
 
 ---
 
@@ -22,7 +23,7 @@ In het volgende voorbeeld ziet u een workflow die een doelgroep van profielen re
 
 ![](assets/identification_example2.png)
 
-* A [Bestand laden](../../automating/using/load-file.md) activiteit, die de gegevens van het te importeren bestand laadt en detecteert. Het geïmporteerde bestand bevat de volgende data:
+* A [ het dossier van de Lading ](../../automating/using/load-file.md) activiteit, die laadt en ontdekt haar gegevens van het dossier om in te voeren. Het geïmporteerde bestand bevat de volgende data:
 
   ```
   lastname;firstname;email;dateofbirth
@@ -37,10 +38,10 @@ In het volgende voorbeeld ziet u een workflow die een doelgroep van profielen re
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* A [Verzoening](../../automating/using/reconciliation.md) activiteit, die elke kolom van het geladen dossier aan een kolom van de profielafmeting verbindt. De bestandsrecords die niet kunnen worden geïdentificeerd (wegens ontbrekende data, incompatibel datatype, enz.), worden genegeerd om de integriteit van de uiteindelijke doelgroepsdata te handhaven.
+* A [ de activiteit van de Afstemming ](../../automating/using/reconciliation.md), die elke kolom van het geladen dossier met een kolom van de profieldimensie verbindt. De bestandsrecords die niet kunnen worden geïdentificeerd (ontbrekende gegevens, incompatibel gegevenstype, enz.) worden genegeerd om de integriteit van de uiteindelijke publieksgegevens te behouden.
 
   ![](assets/identification_example1.png)
 
-* A [Adviezen opslaan](../../automating/using/save-audience.md) activiteit, die het publiek van profielen bewaart.
+* A [ sparen publiek ](../../automating/using/save-audience.md) activiteit, die het publiek van profielen bewaart.
 
   ![](assets/identification_example3.png)

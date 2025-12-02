@@ -1,14 +1,15 @@
 ---
-title: Integratie van Adobe Developer for Microsoft Dynamics 365 configureren
-description: Leer hoe u de integratie van Adobe Developer for Microsoft Dynamics 365 configureert
+title: Adobe Developer for Microsoft Dynamics 365-integratie configureren
+description: Leer hoe u Adobe Developer for Microsoft Dynamics 365-integratie configureert
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 # Adobe Campaign Standard en Adobe Developer Configuration for the Microsoft Dynamics 365 integration
 
-Dit artikel zal verklaren hoe te om Adobe Campaign Standard en Adobe I/O te vormen om de integratietoepassing toegang tot de gegevens te geven.
+In dit artikel wordt uitgelegd hoe u Adobe Campaign Standard en Adobe I/O configureert om de integratietoepassing toegang te geven tot de gegevens.
 
 ## Adobe Campaign Standard configureren {#campaign-standard}
 
@@ -31,11 +32,11 @@ Schakel &quot;profielextensies&quot; in Adobe Campaign Standard in.   Dit is nod
 
 ## Adobe I/O configureren {#adobe-io}
 
-Met Adobe I/O kunt u API-toegang tot Adobe Campaign Standard en andere Adobe-producten inschakelen.   Dit artikel zal in detail hoe te om Adobe I/O te vormen om de integratie van Adobe Campaign Standard met de Dynamica 365 van Microsoft toegang te geven om de gegevens te synchroniseren.
+Met Adobe I/O kunt u API-toegang tot Adobe Campaign Standard en andere Adobe-producten inschakelen.   In dit artikel wordt beschreven hoe u Adobe I/O kunt configureren om de Adobe Campaign Standard-integratie met Microsoft Dynamics 365 toegang te geven om de gegevens te synchroniseren.
 
 ### Overzicht
 
-Alvorens de pre-integratieopstelling in dit artikel uit te voeren, wordt verondersteld dat u reeds provisioned bent en beheerdertoegang tot de instantie van het Campaign Standard van uw organisatie hebt.  Als dit niet is gebeurd, moet u contact opnemen met de klantenservice van de Adobe om de levering van de campagne te voltooien.
+Voordat u de pre-integratie-instelling in dit artikel uitvoert, wordt aangenomen dat u al bent ingericht en beheerderstoegang hebt tot de Campaign Standard-instantie van uw organisatie.  Als dit niet is gebeurd, moet u contact opnemen met de klantenservice van Adobe om de levering van campagnes te voltooien.
 
 >[!CAUTION]
 >
@@ -49,17 +50,17 @@ U zult een nieuw project van Adobe Developer moeten creëren en het voor de inte
 
 Hiervoor volgt u de onderstaande procedure:
 
-1. Navigeren naar [Adobe Developer Console](https://console.adobe.io/home#) en selecteer uw organisatie-id voor Adobe in het keuzemenu rechtsboven in het scherm.
+1. Navigeer aan [ Adobe Developer Console ](https://console.adobe.io/home#) en selecteer uw identiteitskaart van de Organisatie van Adobe van het drop-down menu bij het hoogste recht van het scherm.
 
-1. Klik vervolgens op **[!UICONTROL Create new project]** krachtens **[!UICONTROL Quick Start]**.
+1. Klik vervolgens op **[!UICONTROL Create new project]** onder **[!UICONTROL Quick Start]** .
 
    ![](assets/adobeIO1.png)
 
-1. Onder **[!UICONTROL Get started with your new project]**, klikt u op **[!UICONTROL Add API]**.
+1. Klik onder **[!UICONTROL Get started with your new project]** op **[!UICONTROL Add API]** .
 
    ![](assets/adobeIO2.png)
 
-1. Selecteer de Adobe Campaign en klik op **[!UICONTROL Next]**.
+1. Selecteer de Adobe Campaign en klik op **[!UICONTROL Next]** .
 
    ![](assets/adobeIO3.png)
 
@@ -69,33 +70,33 @@ Hiervoor volgt u de onderstaande procedure:
 
 1. In het volgende scherm selecteert u productprofielen die u aan dit project wilt koppelen. Selecteer het productprofiel dat in de titel bevat: De huurder-id van uw campagneexemplaar - [!UICONTROL Administrators]
 
-   Voorbeeld: Campaign Standard - uw-campagne-huurderID - Beheerders
+   Voorbeeld: Campaign Standard - uw campagne-huurderID - Beheerders
 
 1. Klik op **[!UICONTROL Save configured API]**.
 
    ![](assets/adobeIO5.png)
 
-1. Op het volgende scherm ziet u de details van uw nieuwe Adobe Developer-project. Klikken **[!UICONTROL Add to Project]** links boven in het scherm en selecteert u **API** in de vervolgkeuzelijst.
+1. Op het volgende scherm ziet u de details van uw nieuwe Adobe Developer-project. Klik **[!UICONTROL Add to Project]** bij top-left van het scherm en selecteer **API** van de daling neer.
 
    ![](assets/adobeIO6.png)
 
-1. In het volgende scherm moet u de API voor I/O-gebeurtenissen selecteren en vervolgens op **[!UICONTROL Next]**.
+1. In het volgende scherm moet u de API voor I/O-gebeurtenissen selecteren en vervolgens op **[!UICONTROL Next]** klikken.
 
-1. Klik op het volgende scherm op **[!UICONTROL Save the configured API]**.  U wordt teruggebracht naar het scherm met projectdetails.
+1. Klik op het volgende scherm op **[!UICONTROL Save the configured API]** .  U wordt teruggebracht naar het scherm met projectdetails.
 
-1. Klik nu op **[!UICONTROL Add to Project]** links boven in het scherm en selecteert u **API** in de vervolgkeuzelijst, zoals u eerder deed.
+1. Klik nu **[!UICONTROL Add to Project]** bij top-left van het scherm en selecteer **API** van de daling neer, zoals u eerder deed.
 
-1. In het volgende scherm moet u de API voor I/O-beheer selecteren en op **[!UICONTROL Next]**.
+1. In het volgende scherm moet u de API voor I/O-beheer selecteren en op **[!UICONTROL Next]** klikken.
 
-1. Klik op het volgende scherm op **[!UICONTROL Save the configured API]**.
+1. Klik op het volgende scherm op **[!UICONTROL Save the configured API]** .
 
 Installatie vóór integratie in campagne is nu voltooid.
 
-**Verwante onderwerpen**
+**Verwante Onderwerpen**
 
-* [Integratie van Adobe Developer for Microsoft Dynamics 365 configureren](../../integrating/using/d365-acs-configure-adobe-io.md) is de volgende stap bij het opzetten van de integratie
-* [Het overzicht van de toepassing van de Zelfbediening van de integratie](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) bevat de volledige lijst met stappen om de integratie op gang te brengen.
-* [Adobe Developer - Integratie van serviceaccount](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
+* [ vorm Adobe Developer voor Microsoft Dynamics 365 integratie ](../../integrating/using/d365-acs-configure-adobe-io.md) is de volgende stap in vestiging de integratie
+* [ het overzicht van de Toepassing van de Zelfbediening van de Integratie ](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) bevat de volledige lijst van stappen om de integratie in werking te stellen te krijgen.
+* [ Adobe Developer - de Integratie van de Rekening van de Dienst ](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - API Access Setup](../../api/using/setting-up-api-access.md)
-* [Campaign Standard - Dynamiek 365-integratie](../../integrating/using/d365-acs-configure-d365.md)
-* [Credentials migreren van JWT naar OAuth Server-aan-Server](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) bevat de stappen om geloofsbrieven van JWT aan OAuth server-aan-Server te migreren.
+* [Campaign Standard - Integratie met Dynamics 365](../../integrating/using/d365-acs-configure-d365.md)
+* [ Migreer geloofsbrieven van JWT aan OAuth server-aan-Server ](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) bevat de stappen om geloofsbrieven van JWT aan OAuth Server-aan-Server te migreren.

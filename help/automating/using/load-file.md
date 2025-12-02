@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1366'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -89,7 +90,7 @@ De activiteitconfiguratie omvat twee stappen. Eerst moet u de verwachte bestands
 
    Op het tabblad **[!UICONTROL Column definition]** kunt u nauwkeurig de datastructuur van elke kolom opgeven om data te importeren die geen fouten bevatten (bijvoorbeeld met null-beheer) en deze in overeenstemming te brengen met de typen die al aanwezig zijn in de Adobe Campaign-database voor toekomstige bewerkingen.
 
-   U kunt bijvoorbeeld het label van een kolom wijzigen, het type kolom selecteren (tekenreeks, geheel getal, datum, enzovoort) of zelfs foutverwerking opgeven.
+   U kunt bijvoorbeeld het label van een kolom wijzigen, het type kolom selecteren (tekenreeks, geheel getal, datum, enz.) of zelfs de verwerking van fouten opgeven.
 
    Raadpleeg de sectie [Kolomindeling](#column-format) voor meer informatie.
 
@@ -105,7 +106,7 @@ De activiteitconfiguratie omvat twee stappen. Eerst moet u de verwachte bestands
 
 1. Als het bestand waarvan u de data wilt laden, is gecomprimeerd tot een gzip-bestand (.gz), selecteert u de optie **[!UICONTROL Decompression]** in het veld **[!UICONTROL Add a pre-processing stage]**. Hierdoor kunt u het bestand uitpakken voordat u de data laadt. Deze optie is alleen beschikbaar als het bestand afkomstig is van de binnenkomende overgang van de activiteit.
 
-   De **[!UICONTROL Add a pre-processing stage]** in het veld kunt u ook een bestand decoderen voordat u het in de database importeert. Raadpleeg voor meer informatie over het werken met gecodeerde bestanden [deze sectie](../../automating/using/managing-encrypted-data.md)
+   Met het veld **[!UICONTROL Add a pre-processing stage]** kunt u ook een bestand decoderen voordat u het in de database importeert. Voor meer op hoe te met gecodeerde dossiers te werken, verwijs naar [ deze sectie ](../../automating/using/managing-encrypted-data.md)
 
 1. Met de optie **[!UICONTROL Keep the rejects in a file]** kunt u een bestand downloaden dat fouten bevat die tijdens het importeren zijn opgetreden en het vervolgens toepassen in een naverwerkingsfase. Wanneer de optie wordt geactiveerd, wordt de naam van de uitgaande overgang gewijzigd in ‘Rejects’.
 

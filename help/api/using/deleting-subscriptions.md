@@ -2,10 +2,11 @@
 title: Lidmaatschappen verwijderen
 description: Leer hoe u abonnementen met API's kunt verwijderen
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 76e2d102-c877-41a6-af87-2f407201a572
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -22,13 +23,13 @@ Dit is een procedure in drie stappen.
 
 1. Haal de abonnements-URL voor het gewenste profiel op.
 1. Voer een GET-aanvraag uit op de abonnements-URL.
-1. Voer een verzoek van de DELETE op de gewenste dienst URL uit.
+1. Voer een DELETE-verzoek uit op de gewenste service-URL.
 
 Als het verwijderingsverzoek is gelukt, is de status van het antwoord 204 Geen inhoud.
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
 In de onderstaande voorbeeldladingen ziet u hoe u een profiel van een service kunt afmelden. Voer eerst een GET-aanvraag uit om het profiel op te halen.
 
@@ -77,7 +78,7 @@ Het keert de lijst van abonnementen voor het geselecteerde profiel, met een URL 
 ...
 ```
 
-Voer een verzoek van de DELETE op de gewenste dienst URL uit.
+Voer een DELETE-verzoek uit op de gewenste service-URL.
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -94,14 +95,14 @@ Voer een verzoek van de DELETE op de gewenste dienst URL uit.
 Dit is een procedure in drie stappen.
 
 1. Haal de gewenste service en de abonnements-URL op.
-1. Voer op de abonnements-URL een aanvraag voor GET uit om alle abonnementen op profielen op te halen.
+1. Voer een GET-aanvraag uit op de abonnements-URL om alle abonnementen op profielen op te halen.
 1. Voer een DELETE-aanvraag uit op de gewenste profielabonnements-URL.
 
 Als het verwijderingsverzoek is gelukt, is de status van het antwoord 204 Geen inhoud.
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
 Haal het servicerecord op.
 

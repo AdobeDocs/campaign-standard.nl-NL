@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: incremental,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c80ed1f6-ad8a-4448-a6df-b9881327228a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 61%
@@ -24,18 +25,18 @@ De workflow bestaat uit de volgende elementen:
 
 ![](assets/incremental_query_example1.png)
 
-* A [Planner](../../automating/using/scheduler.md) om de workflow elke maandag om 6.00 uur uit te voeren.
+* A [ Planner ](../../automating/using/scheduler.md) activiteit, om het werkschema elke Maandag om 6 uur uit te voeren.
 
   ![](assets/incremental_query_example2.png)
 
-* An [Incrementele query](../../automating/using/incremental-query.md) activiteit, die alle huidige abonnees tijdens de eerste uitvoering richt, dan slechts de nieuwe abonnees van die week tijdens de volgende executies.
+* Een [ Incrementele vraag ](../../automating/using/incremental-query.md) activiteit, die alle huidige abonnees tijdens de eerste uitvoering richt, dan slechts de nieuwe abonnees van die week tijdens de volgende uitvoeringen.
 
   ![](assets/incremental_query_example3.png)
 
-* An [E-maillevering](../../automating/using/email-delivery.md) activiteit. De workflow wordt één keer per week uitgevoerd, maar u kunt de verzonden e-mails en de resultaten per maand samenvoegen, om bijvoorbeeld rapporten te genereren over een periode van een hele maand en niet slechts één week.
+* Een [ E-maillevering ](../../automating/using/email-delivery.md) activiteit. De workflow wordt één keer per week uitgevoerd, maar u kunt de verzonden e-mails en de resultaten per maand samenvoegen, om bijvoorbeeld rapporten te genereren over een periode van een hele maand en niet slechts één week.
 
   U doet dit door een **[!UICONTROL Recurring email]** **[!UICONTROL By month]** te maken om de e-mails en de resultaten te hergroeperen.
 
-  Definieer de inhoud van uw e-mail en voeg de code van de welkomstaanbieding in. Raadpleeg voor meer informatie hierover [E-mailinhoud definiëren](../../designing/using/personalization.md) secties.
+  Definieer de inhoud van uw e-mail en voeg de code van de welkomstaanbieding in. Voor meer op dit, verwijs naar [ het bepalen van e-mailinhoud ](../../designing/using/personalization.md) secties.
 
 Start vervolgens de workflowuitvoering. Elke week ontvangen nieuwe abonnees het welkomstbericht met de promocode.

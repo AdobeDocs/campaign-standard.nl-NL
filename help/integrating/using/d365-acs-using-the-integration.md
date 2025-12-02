@@ -1,14 +1,15 @@
 ---
 title: De integratie van Microsoft Dynamics 365 gebruiken
-description: Leer hoe u Microsoft Dynamics 365 kunt gebruiken met integratie van Campaigns Standard
+description: Leer hoe u de Microsoft Dynamics 365 kunt gebruiken met Campaign Standard-integratie
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: fb464183-13bf-4b47-ac27-4b785bafef37
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1652'
 ht-degree: 0%
@@ -17,19 +18,19 @@ ht-degree: 0%
 
 # De Microsoft Dynamics 365-integratie gebruiken
 
-Er zijn verscheidene gegevensstromen die de Integratie van Adobe Campaign Standard met de Dynamica 365 van Microsoft uitvoert. Deze stromen worden in detail beschreven in [deze pagina](../../integrating/using/d365-acs-self-service-app-workflows.md).
+Er zijn verscheidene gegevensstromen die de Integratie van Adobe Campaign Standard met Microsoft Dynamics 365 uitvoert. Deze stromen zijn gedetailleerd in [ deze pagina ](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
-Meer informatie over de gegevensstromen vindt u verderop in dit document in de [Gegevensstromen](#data-flows)  sectie.
+Meer details over de gegevensstromen kunnen verder onderaan in dit document in de [ sectie van de Stromen van Gegevens ](#data-flows) worden gevonden.
 
 ## Adobe Campaign Standard-gebruikerservaring
 
-Wanneer een contact wordt gecreeerd, gewijzigd, of geschrapt (als geschrapt wordt toegelaten) in de Dynamiek 365 van Microsoft, zal het naar Campaign Standard worden verzonden. Deze contacten zullen in het scherm van Profielen in Campagne zichtbaar zijn en kunnen in marketing campagnes worden gericht. Zie het scherm Profielen hieronder.
+Wanneer een contactpersoon wordt gemaakt, gewijzigd of verwijderd (als Verwijderen is ingeschakeld) in Microsoft Dynamics 365, wordt deze naar Campaign Standard verzonden. Deze contacten zullen in het scherm van Profielen in Campagne zichtbaar zijn en kunnen in marketing campagnes worden gericht. Zie het scherm Profielen hieronder.
 
 ![](assets/MSdynamicsACS-usage1.png)
 
-Wanneer een opt-out-kenmerk wordt gewijzigd in Campagne, wordt dit weerspiegeld in Dynamics 365 als u de optie **Unidirectioneel (campagne voor Microsoft Dynamics 365)** of **Bidirectioneel** de opt-out configuratie, en als u dat bepaalde attribuut correct in kaart gebracht hebt.
+Wanneer een opt-out attribuut in Campagne wordt gewijzigd, zal het in Dynamiek 365 worden weerspiegeld als u **Unidirectioneel (Campagne aan Microsoft Dynamics 365)** of **Bidirectionele** opt-out configuratie hebt geselecteerd, en als u die bepaalde die attributen correct in kaart gebracht hebt.
 
-## Microsoft Dynamics 365 gebruikerservaring
+## Microsoft Dynamics 365-gebruikerservaring
 
 Voor egress worden de volgende e-mailmarketinggebeurtenissen verzonden van Campagne naar Dynamics 365 en in de tijdlijnweergave van Microsoft Dynamics 365 weergegeven als aangepaste activiteiten:
 
@@ -45,7 +46,7 @@ Om de Chronologie van een contact te bekijken, navigeer aan uw contactenlijst do
 
 >[!NOTE]
 >
->De **Adobe Campaign for Microsoft Dynamics 365** app in AppSource moet zijn geïnstalleerd in uw Microsoft Dynamics 365-exemplaar om deze gebeurtenissen te kunnen weergeven. [Meer informatie](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app).
+>**Adobe Campaign voor Microsoft Dynamics 365** app in AppSource zal in uw Microsoft Dynamics 365 instantie moeten worden geïnstalleerd om deze gebeurtenissen te bekijken. [Meer informatie](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app).
 
 Hieronder ziet u een momentopname van het scherm van het Contact voor &quot;Gebruiker van de Dynamiek&quot;. In de mening van de Chronologie, zult u merken dat de Gebruiker van de Dynamiek een e-mail werd verzonden verbonden aan de Naam van de Campagne &quot;2019LoyaltyCamp&quot;en de Naam van de Levering &quot;DM190&quot;. Dynamics User opende het e-mailbericht en klikte ook een URL in e-mail; allebei van deze acties creeerden gebeurtenissen die hieronder ook tonen. Als u naar de rechterhoek kijkt, ziet u de RA-kaart (Relationship Assistant). Deze kaart bevat momenteel een taak die u moet opvolgen op de aangeklikte URL.
 
@@ -55,7 +56,7 @@ Zie hieronder voor een close-up van de mening van de Chronologie voor de Gebruik
 
 ![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
-Hieronder volgt een close-up van de Relationship Assistant-kaart (RA). De app AppSource bevat een workflow die zoekt naar een Adobe-URL Click-gebeurtenis. Wanneer deze gebeurtenis zich voordoet, wordt een taak gemaakt en wordt een vervaldatum ingesteld. Hierdoor kan de taak worden weergegeven in de RA-kaart, waardoor deze meer zichtbaar wordt. Er is een vergelijkbare workflow voor Adobe van e-mailstuitgebeurtenissen, waarbij een taak wordt toegevoegd om het ongeldige e-mailadres te combineren. Deze workflows kunnen in de oplossing worden uitgeschakeld.
+Hieronder volgt een close-up van de Relationship Assistant-kaart (RA). De app AppSource bevat een workflow die zoekt naar een Adobe-gebeurtenis Click URL. Wanneer deze gebeurtenis zich voordoet, wordt een taak gemaakt en wordt een vervaldatum ingesteld. Hierdoor kan de taak worden weergegeven in de RA-kaart, waardoor deze meer zichtbaar wordt. Er is een vergelijkbare workflow voor Adobe Email Bounce-gebeurtenissen, waarbij een taak wordt toegevoegd om het ongeldige e-mailadres te combineren. Deze workflows kunnen in de oplossing worden uitgeschakeld.
 
 ![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
@@ -69,33 +70,33 @@ Het formulier voor URL-klikgebeurtenissen voor e-mail voegt een extra kenmerk to
 
 Hieronder volgt een lijst met kenmerken en een beschrijving:
 
-* **Onderwerp**: Onderwerp van het evenement; samengesteld uit de campagne-id en de bezorgings-id van de e-maillevering
+* **Onderwerp**: Onderwerp van de gebeurtenis; samengesteld uit identiteitskaart van de Campagne en identiteitskaart van de Levering van de e-maillevering
 
 * **Eigenaar**: De toepassingsgebruiker die in de post-provisioning stappen wordt gecreeerd
 
-* **Betreffende**: De naam van de contactpersoon
+* **Betreffende**: De naam van het contact
 
-* **Campagnenaam**: De campagne-id in Campaign Standard
+* **Naam van de Campagne**: Identiteitskaart van de Campagne in Campaign Standard
 
-* **Leveringsnaam**: De leverings-id in Campaign Standard
+* **Naam van de Levering**: Leverings identiteitskaart in Campaign Standard
 
-* **Datum van verzending/openen/klikken/Afmelden**: Datum/tijd waarop de gebeurtenis is gemaakt
+* **Verzonden/Geopende Datum/Geklikt/Geëindigd**: Datum/tijd toen de gebeurtenis werd gecreeerd
 
-* **URL bijhouden**: URL waarop is geklikt
+* **Volgend URL**: URL die werd geklikt
 
-* **URL van pagina spiegelen**: De URL naar de spiegelpagina van het e-mailbericht dat is verzonden, geopend, geklikt of teruggestuurd. De vervalperiode van de pagina van de e-mailspiegel kan in het configuratiescherm van de overeenkomstige activiteit van het e-mailkanaal van de Campagne worden gewijzigd. [Meer informatie](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+* **de Pagina URL van het Spiegel**: URL aan de spiegelpagina van e-mail die werd verzonden/geopend/kliked/gebogen. De vervalperiode van de pagina van de e-mailspiegel kan in het configuratiescherm van de overeenkomstige activiteit van het e-mailkanaal van de Campagne worden gewijzigd. [Meer informatie](../../administration/using/configuring-email-channel.md#validity-period-parameters).
 
 >[!NOTE]
 >
->Als u de optie Weigeren hebt ingeschakeld en een kenmerk Weigeren is gewijzigd in Microsoft Dynamics 365, wordt dit kenmerk weerspiegeld in Campagne als u de optie **Unidirectioneel (campagne voor Microsoft Dynamics 365)** of **Bidirectioneel** de opt-out configuratie, en als u dat bepaalde attribuut correct in kaart gebracht hebt.
+>Voor opt-out, wanneer een opt-out attribuut in Microsoft Dynamics 365 wordt gewijzigd, zal het in Campagne worden weerspiegeld als u **Unidirectioneel (Campagne aan Microsoft Dynamics 365)** selecteerde of **bidirectionele** opt-out configuratie, en als u die bepaalde die eigenschap correct in kaart wordt gebracht hebt.
 
 ## Gegevensstromen {#data-flows}
 
 ### Contact- en aangepaste entiteitsvermeldingen
 
-Nieuwe, bijgewerkte en verwijderde records (Opmerking: verwijderde gegevens moeten zijn ingeschakeld) worden vanuit de contacttabel Microsoft Dynamics 365 verzonden naar de tabel met cameraprofielen.
+Nieuwe, bijgewerkte en verwijderde records (Opmerking: verwijderde bestanden moeten zijn ingeschakeld) worden vanuit de Microsoft Dynamics 365-tabel met contactpersonen verzonden naar de tabel met het campagneprofiel.
 
-Tabeltoewijzingen kunnen in de gebruikersinterface van de integratietoepassing worden geconfigureerd om Microsoft Dynamics 365-tabelkenmerken toe te wijzen aan Campagnetabelkenmerken. De tabeltoewijzingen kunnen zo nodig worden gewijzigd om kenmerken toe te voegen of te verwijderen.
+De afbeeldingen van de lijst kunnen in de integratietoepassing UI worden gevormd om Microsoft Dynamics 365 lijstattributen aan de lijstattributen van de Campagne in kaart te brengen. De tabeltoewijzingen kunnen zo nodig worden gewijzigd om kenmerken toe te voegen of te verwijderen.
 
 De aanvankelijke looppas van de gegevensstroom wordt ontworpen om alle in kaart gebrachte verslagen, met inbegrip van die duidelijk als &quot;inactief&quot;over te brengen; later, zal de integratie slechts stijgende updates verwerken. De uitzondering aan dit is als het gegeven wordt herhaald of als een filter wordt gevormd; de basis, op attribuut-gebaseerde, het filtreren regels kunnen worden gevormd om te bepalen welke verslagen aan synchronisatie aan Campagne.
 
@@ -111,7 +112,7 @@ Het attribuut externalId van de de profiellijst van de Campagne moet met de Dyna
 
 #### Aangepaste entiteiten
 
-De [Integratie van Microsoft Dynamics 365-Adobe Campaign Standard](../../integrating/using/d365-acs-get-started.md) steunt douaneentiteiten, toelatend douaneentiteiten in Dynamiek 365 om aan overeenkomstige douanemiddelen in Campagne worden gesynchroniseerd.
+De [ integratie 365-Adobe Campaign Standard van Microsoft Dynamics ](../../integrating/using/d365-acs-get-started.md) steunt douaneentiteiten, toelatend douaneentiteiten in Dynamiek 365 om aan overeenkomstige douanemiddelen in Campagne worden gesynchroniseerd.
 
 De nieuwe gegevens in de douanemiddelen kunnen voor verscheidene doeleinden, met inbegrip van segmentatie en verpersoonlijking worden gebruikt.
 
@@ -119,7 +120,7 @@ De integratie ondersteunt zowel gekoppelde als niet-gekoppelde tabellen. Koppeli
 
 >[!IMPORTANT]
 >
->Als om het even welk dossier van het middel van de Campagne persoonlijke informatie bevat, zijn de specifieke aanbevelingen van toepassing. Meer informatie [in deze sectie](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
+>Als om het even welk dossier van het middel van de Campagne persoonlijke informatie bevat, zijn de specifieke aanbevelingen van toepassing. Leer meer [ in deze sectie ](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data).
 >
 
 Wanneer het vormen van de gegevensstromen van de douaneentiteit, is het belangrijk om zich van het volgende bewust te zijn:
@@ -128,13 +129,13 @@ Wanneer het vormen van de gegevensstromen van de douaneentiteit, is het belangri
 * Voor de stromen van de gegevens van de douaneentiteit, verandering het volgen binnen Dynamiek 365 voor gesynchroniseerde douaneentiteiten moet worden toegelaten.
 * Als een ouder en verbonden kindverslag dicht bij de zelfde tijd in Dynamiek 365, wegens de parallelle verwerking van de integratie worden gecreeerd, is er een lichte kans dat een nieuw kindverslag aan Campaign vóór zijn ouderverslag zou kunnen worden geschreven.
 
-* Als het bovenliggende element en het onderliggende element aan de zijde Campagne zijn gekoppeld, gebruikt u de optie **1 cardinaliteit eenvoudige link** de onderliggende record verborgen en ontoegankelijk blijft (via UI of API) totdat de bovenliggende record in Campaign wordt ontvangen.
+* Als de ouder en het kind op de kant van de Campagne gebruikend de **1 cardinaliteit eenvoudige verbinding** optie verbonden zijn, zal het kindverslag verborgen en ontoegankelijk (via UI of API) blijven tot het ouderverslag in Campagne aankomt.
 
-* (aangenomen **1 cardinaliteit eenvoudige link** in Campagne) als het kindverslag in Dynamiek 365 wordt bijgewerkt of geschrapt, en die verandering wordt geschreven aan Campagne alvorens het ouderverslag in Campaign (niet waarschijnlijk, maar een verre mogelijkheid) verschijnt, zal die update of schrapping niet in Campagne worden verwerkt en een fout zal worden geworpen. In het geval van een update moet de betreffende record opnieuw worden bijgewerkt in Dynamics 365 om de bijgewerkte record te synchroniseren. In geval van schrapping moet de betrokken record afzonderlijk aan de campagnezijde worden vermeld, aangezien er geen record meer is in Dynamics 365 om te verwijderen of bij te werken.
+* (Veronderstellend **1 kardinaliteit eenvoudige verbinding** in Campagne) als het kindverslag in Dynamiek 365 wordt bijgewerkt of geschrapt, en die verandering wordt geschreven aan Campagne alvorens het ouderverslag in Campagne (niet waarschijnlijk, maar een verre mogelijkheid) toont, zal die update of schrapping niet in Campagne worden verwerkt en een fout zal worden geworpen. In het geval van een update moet de betreffende record opnieuw worden bijgewerkt in Dynamics 365 om de bijgewerkte record te synchroniseren. In geval van schrapping moet de betrokken record afzonderlijk aan de campagnezijde worden vermeld, aangezien er geen record meer is in Dynamics 365 om te verwijderen of bij te werken.
 
-* Als u in een situatie terechtkomt waarin u denkt dat u kinderrecords hebt verborgen en deze niet kunt openen, kunt u het type cardinaliteitskoppeling tijdelijk wijzigen in **0 of 1 cardinaliteit, eenvoudige koppeling** om toegang te krijgen tot die records.
+* Als u in een situatie loopt waar u denkt u kindverslagen en geen manier hebt om tot hen toegang te hebben, kunt u het type van de kardinaalverbinding in **0 of 1 kardinaliteit eenvoudige verbinding** tijdelijk veranderen om tot die verslagen toegang te hebben.
 
-Een uitgebreider overzicht van aangepaste campagnebronnen vindt u [in deze sectie](../../developing/using/key-steps-to-add-a-resource.md).
+Een uitvoeriger overzicht van de douanemiddelen van de Campagne kan [ in deze sectie ](../../developing/using/key-steps-to-add-a-resource.md) worden gevonden.
 
 ### Gebeurtenisstroom voor e-mailmarketing{#email-marketing-event-flow}
 
@@ -159,17 +160,17 @@ E-mailmarketinggebeurtenissen kunnen via het type worden in-/uitgeschakeld (verz
 
 Waarden voor uitschakelen (bijvoorbeeld lijst van gewezen personen) worden gesynchroniseerd tussen systemen. U kunt uit de volgende opties kiezen bij instapweigering:
 
-* **Unidirectioneel (Microsoft Dynamics 365 to Campaign)**: Dynamics 365 is een bron van waarheid voor opt-outs. De opt-uit attributen zullen in één richting van Dynamiek 365 aan Campaign Standard worden gesynchroniseerd&quot;
-* **Unidirectioneel (campagne voor Microsoft Dynamics 365)**: Campaign Standard is de bron van de waarheid voor opt-outs. De opt-uit attributen zullen in één richting van Campaign Standard aan Dynamica 365 worden gesynchroniseerd
-* **Bidirectioneel**: Dynamiek 365 EN Campaign Standard zijn beide bronnen van waarheid. De opt-uit attributen zullen bidirectioneel tussen Campaign Standard en Dynamiek 365 worden gesynchroniseerd
+* **Unidirectioneel (Microsoft Dynamics 365 aan Campagne)**: De dynamiek 365 is bron van waarheid voor opt-outs. De opt-outkenmerken worden in één richting gesynchroniseerd, van Dynamics 365 tot Campaign Standard.&quot;
+* **Unidirectioneel (Campagne aan Microsoft Dynamics 365)**: Campaign Standard is de bron van waarheid voor opt-outs. Kenmerken voor Uitschakelen worden in één richting gesynchroniseerd van Campaign Standard naar Dynamics 365
+* **Bidirectional**: Dynamiek 365 EN Campaign Standard zijn beide bronnen van waarheid. Opt-out-kenmerken worden bidirectioneel gesynchroniseerd tussen Campaign Standard en Dynamics 365
 
 Als u een afzonderlijk proces hebt voor het beheren van de synchronisatie met de optie om te weigeren tussen de systemen, kan de gegevensstroom van de integratie worden uitgeschakeld.
 
 >[!NOTE]
 >
->In de UI van de integratietoepassing, **Unidirectioneel (Microsoft Dynamics 365 to Campaign)** en de **Bidirectioneel** De gevallen van het opt-out-gebruik worden geconfigureerd in een afzonderlijke opt-out-workflow. [Meer informatie](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
+>In de integratietoepassing UI, worden de **Unidirectionele (Microsoft Dynamics 365 aan Campagne)** en **Bidirectionele** opt-out gebruiksgevallen gevormd in een afzonderlijke opt-out werkschema. [Meer informatie](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf).
 >
->De **Unidirectioneel (campagne voor Microsoft Dynamics 365)** Het gebruik van de optie om te weigeren is een uitzondering; het is geconfigureerd in de workflow voor toegang (Contact met profiel).
+>Het **Unidirectionele (Campagne aan Microsoft Dynamics 365)** opt-out gebruiksgeval is een uitzondering; het wordt gevormd binnen het ingangswerkschema (Contact aan Profiel).
 >
 
 De klant moet aangeven dat de toewijzing van de &quot;opt-out&quot;-stroom moet plaatsvinden, aangezien de zakelijke vereisten per onderneming kunnen verschillen. Aan de kant van de Campagne, slechts kunnen de OOTB opt-out attributen worden gebruikt voor opt-out afbeelding:
@@ -187,4 +188,4 @@ In Dynamiek 365, hebben de meeste opt-outgebieden het &quot;niet&quot;prefix; no
 
 ### Eerste gegevensoverdracht {#initial-data-transfer}
 
-De eerste gegevensoverdracht kan enige tijd duren, afhankelijk van het aantal records dat u hebt ingevoerd bij Microsoft Dynamics 365. Na de eerste gegevensoverdracht neemt de integratie de incrementele updates op.
+De eerste gegevensoverdracht kan enige tijd duren, afhankelijk van het aantal records dat u van Microsoft Dynamics 365 gebruikt. Na de eerste gegevensoverdracht neemt de integratie de incrementele updates op.

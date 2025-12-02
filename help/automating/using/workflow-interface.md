@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: about-workflows-and-data-management
 context-tags: workflow,main;workflow,overview
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: ea524bdcef0324c7fc4b9da0bb443b6abc66a23a
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 4%
@@ -22,23 +23,23 @@ U kunt workflows maken om volledige processen in uw campagnes en programma&#39;s
 
 Het werkstroombewerkingsscherm bestaat uit de volgende elementen:
 
-* Het [&#x200B; Palet &#x200B;](#palette), dat verwijzingen de beschikbare activiteiten.
-* [&#x200B; Workspace &#x200B;](#workspace), waarin de activiteiten worden gevormd en georganiseerd.
-* De [&#x200B; bar van de Actie &#x200B;](#action-bar), die uit knopen wordt samengesteld die u toestaan om met het werkschema en/of zijn componenten in wisselwerking te staan.
-* De [&#x200B; Snelle acties &#x200B;](#quick-actions), die rond een geselecteerde activiteit verschijnen, staan u toe om met het in wisselwerking te staan.
+* Het [ Palet ](#palette), dat verwijzingen de beschikbare activiteiten.
+* [ Workspace ](#workspace), waarin de activiteiten worden gevormd en georganiseerd.
+* De [ bar van de Actie ](#action-bar), die uit knopen wordt samengesteld die u toestaan om met het werkschema en/of zijn componenten in wisselwerking te staan.
+* De [ Snelle acties ](#quick-actions), die rond een geselecteerde activiteit verschijnen, staan u toe om met het in wisselwerking te staan.
 
 ![](assets/wkf_overview.png)
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; ontdekt hoe te om een werkschema in video &#x200B;](#video) te bouwen
+![](assets/do-not-localize/how-to-video.png) [ ontdekt hoe te om een werkschema in video ](#video) te bouwen
 
 ## Palet {#palette}
 
 Het palet bevindt zich aan de linkerkant van het scherm. Alle beschikbare activiteiten worden ingedeeld in verschillende categorieën:
 
-* [&#x200B; het richten &#x200B;](../../automating/using/about-targeting-activities.md): activiteiten specifiek voor het richten, het manipuleren van populatiegegevens, en het filtreren activiteiten
-* [&#x200B; Uitvoering &#x200B;](../../automating/using/about-execution-activities.md): activiteiten specifiek voor het organiseren van en het uitvoeren van werkschema&#39;s
-* [&#x200B; Kanalen &#x200B;](../../automating/using/about-channel-activities.md): activiteiten die de verschillende beschikbare communicatiekanalen vertegenwoordigen
-* [&#x200B; Beheer van Gegevens (ETL) &#x200B;](../../automating/using/about-data-management-activities.md): activiteiten specifiek voor het manipuleren van gegevens
+* [ het richten ](../../automating/using/about-targeting-activities.md): activiteiten specifiek voor het richten, het manipuleren van populatiegegevens, en het filtreren activiteiten
+* [ Uitvoering ](../../automating/using/about-execution-activities.md): activiteiten specifiek voor het organiseren van en het uitvoeren van werkschema&#39;s
+* [ Kanalen ](../../automating/using/about-channel-activities.md): activiteiten die de verschillende beschikbare communicatiekanalen vertegenwoordigen
+* [ Beheer van Gegevens (ETL) ](../../automating/using/about-data-management-activities.md): activiteiten specifiek voor het manipuleren van gegevens
 
 Als u een activiteit wilt gebruiken vanuit het palet in uw workflow, sleept u deze naar de werkruimte.
 
@@ -163,4 +164,4 @@ In deze video wordt getoond hoe u een workflow kunt maken.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-De extra Campaign Standard hoe te video&#39;s zijn beschikbaar [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).
+De extra hoe te video&#39;s van Campaign Standard zijn beschikbaar [ hier ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl).

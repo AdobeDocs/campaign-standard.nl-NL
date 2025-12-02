@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: df06cb86-dba2-41e4-81d0-66f3a86e47bd
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 4%
@@ -19,19 +20,19 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->De [Privacy Core-service](https://developer.adobe.com/experience-platform-apis/references/privacy-service) De integratie is de methode u voor alle toegang en schrappingsverzoeken zou moeten gebruiken. <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>De [ Integratie van de Dienst van de Kern van de Privacy 0} {is de methode u voor alle toegang zou moeten gebruiken en verzoeken schrapt. ](https://developer.adobe.com/experience-platform-apis/references/privacy-service)<!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 Om het dossier terug te winnen dat alle informatie verbonden aan een aansluitingswaarde bevat, volg deze drie stappen procedure:
 
-1. Een **POST** verzoek om een nieuw verzoek met het attribuut tot stand te brengen **type=&quot;access&quot;**, zie [Een nieuwe privacyaanvraag maken](../../api/using/creating-a-privacy-request.md).
+1. Voer a **POST** verzoek uit om een nieuw verzoek met de attributen **tot stand te brengen type= &quot;toegang&quot;**, zie [ Creërend een nieuw privacyverzoek ](../../api/using/creating-a-privacy-request.md).
 
-1. Een **GET** verzoek om informatie over het verzoek terug te winnen.
+1. Voer a **GET** verzoek uit om informatie over het verzoek terug te winnen.
 
-1. Haal het gegevensbestand op door een **POST** verzoek op de teruggekeerde **privacyRequestData** URL, met de interne naam van de privacyaanvraag in de payload. Bijvoorbeeld: {&quot;name&quot;:&quot;PT17&quot;}.
+1. Haal het gegevensdossier door a **POST** verzoek op teruggekeerde **privacyRequestData** URL uit te voeren URL, met de interne naam van het privacyverzoek binnen de nuttige lading. Bijvoorbeeld: {&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
 Maak een privacyaanvraag met het kenmerk type=&quot;access&quot;.
 
@@ -54,7 +55,7 @@ Maak een privacyaanvraag met het kenmerk type=&quot;access&quot;.
 
 <!-- + réponse -->
 
-Voer een verzoek van de GET uit om informatie over het verzoek terug te winnen.
+Voer een GET-verzoek uit om informatie over de aanvraag op te halen.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -85,7 +86,7 @@ Het keert het privacyRequestData attribuut met een bijbehorende URL terug.
 },
 ```
 
-Voer een verzoek van de POST op privacyRequestData URL, met de verzoek interne naam binnen de lading uit.
+Voer een POST- verzoek op privacyRequestData URL, met de verzoek interne naam binnen de lading uit.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool/<PKEY>/privacyRequestData \

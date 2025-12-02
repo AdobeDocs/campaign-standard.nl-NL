@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
-source-git-commit: c2c8d2d05bbc376e2153448ca0a9e6ba0f367420
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 78%
@@ -42,9 +43,9 @@ De activiteit **[!UICONTROL Reconciliation]** wordt hoofdzakelijk gebruikt voor 
 
   U kunt dan bijvoorbeeld een doelgroep opslaan, de database bijwerken, enzovoort.
 
-Bijvoorbeeld de **[!UICONTROL Reconciliation]** activiteit kan na een activiteit van ladingsgegevens worden geplaatst om niet-standaardgegevens in het gegevensbestand in te voeren.
+De **[!UICONTROL Reconciliation]** -activiteit kan bijvoorbeeld worden geplaatst na een laadgegevensactiviteit om niet-standaardgegevens te importeren in de database.
 
-Terwijl de **Verrijking** activiteit staat u toe om extra gegevens te bepalen in uw werkschema (gebruik **Verrijking** activiteit om gegevens te combineren die uit veelvoudige reeksen komen, of om verbindingen met een tijdelijke middel tot stand te brengen), **Verzoening** Met activiteit kunt u niet-geïdentificeerde gegevens koppelen aan bestaande bronnen. De afstemmingsoperatie houdt in dat de gegevens van de gekoppelde afmetingen al in de database staan. Gebruiksgevallen zijn beschikbaar in [deze sectie](#use-cases-reconciliation).
+Terwijl de **Verrijking** activiteit u toestaat om extra gegevens te bepalen in uw werkschema (gebruik een **Verrijking** activiteit om gegevens te combineren die uit veelvoudige reeksen komen, of verbindingen tot stand te brengen aan een tijdelijk middel), staat de **Verzoening** activiteit u toe om niet geïdentificeerde gegevens aan bestaande middelen te verbinden. De afstemmingsoperatie houdt in dat de gegevens van de gekoppelde afmetingen al in de database staan. De gevallen van het gebruik zijn beschikbaar in [ deze sectie ](#use-cases-reconciliation).
 
 
 ## Configuratie {#configuration}

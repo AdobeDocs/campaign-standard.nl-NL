@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e0d281f7-d522-425c-9854-894e84a0a422
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 3%
@@ -27,4 +28,4 @@ Adobe Target kan verschillende gegevenstypen gebruiken:
 * Segmenten die zijn gekoppeld aan de bezoekersidentiteitskaart in Adobe Target, indien voor de gebruikte gegevens geen wettelijke beperkingen gelden
 * Adobe Target-gegevens: gebruikersagent, IP-adres, geolocalisatiegegevens
 
-Voor meer informatie over de integratie tussen Adobe Campaign en Adobe Target kunt u ook de [Adobe Target Portal](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=nl-NL).
+Voor meer informatie over de integratie tussen Adobe Campaign en Adobe Target, kunt u ook naar het [ Portaal van Adobe Target ](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html) verwijzen.

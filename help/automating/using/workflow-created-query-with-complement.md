@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,segmentation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5cd71e07-f955-4c15-bdfb-14b0daccec1a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 39%
@@ -28,20 +29,20 @@ U kunt een e-mail naar klanten sturen: één voor klanten die minder dan een jaa
 
 1. Sleep in **[!UICONTROL Activities]** > **[!UICONTROL Targeting]** een [Query](../../automating/using/query.md)-activiteit en zet deze neer.
 1. Dubbelklik op de activiteit.
-1. In **[!UICONTROL Shortcuts]**, slepen en neerzetten **[!UICONTROL Profiles]** en selecteert u **[!UICONTROL email]** met de exploitant **[!UICONTROL is not empty]**.
-1. In **[!UICONTROL Shortcuts]**, slepen en neerzetten **[!UICONTROL Profiles]** en selecteert u **[!UICONTROL no longer contact by email]** met de waarde **[!UICONTROL no]**.
+1. In **[!UICONTROL Shortcuts]** sleept u **[!UICONTROL Profiles]** en selecteert u **[!UICONTROL email]** met de operator **[!UICONTROL is not empty]** .
+1. Sleep in **[!UICONTROL Shortcuts]** en zet **[!UICONTROL Profiles]** neer en selecteer **[!UICONTROL no longer contact by email]** met de waarde **[!UICONTROL no]** .
 1. Klik op **[!UICONTROL Confirm]**.
 
 ![](assets/wf-complement-query.png)
 
 ## Een segmentatieactiviteit maken {#create-a-segmentation-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, een [Segmentering](../../automating/using/segmentation.md) en dubbelklik erop.
-1. Houd de cursor boven het segment en klik vervolgens op ![](assets/edit_darkgrey-24px.png) om klanten te richten voegde dit jaar in het gegevensbestand toe.
-1. Slepen en slepen **[!UICONTROL Profiles]** en selecteert u **[!UICONTROL Created]** met het filtertype **[!UICONTROL Relative]**.
-1. Wijzig de **[!UICONTROL Level of precision]** tot **[!UICONTROL Year]** en selecteert u **[!UICONTROL This year]**.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, belemmering en laat vallen a [ Segmentatie ](../../automating/using/segmentation.md) activiteit en klik het tweemaal.
+1. Houd de muisaanwijzer boven het segment en klik op ![](assets/edit_darkgrey-24px.png) om klanten aan te wijzen die dit jaar in de database zijn toegevoegd.
+1. Sleep en zet **[!UICONTROL Profiles]** neer en selecteer **[!UICONTROL Created]** met het filtertype **[!UICONTROL Relative]** .
+1. Wijzig **[!UICONTROL Level of precision]** in **[!UICONTROL Year]** en selecteer **[!UICONTROL This year]** .
 1. Klik twee keer op **[!UICONTROL Confirm]**.
-1. In **[!UICONTROL Advanced Options]**, controle **[!UICONTROL Generate complement]** om een segment tot stand te brengen richtend de resterende ontvangers.
+1. Schakel in **[!UICONTROL Advanced Options]** **[!UICONTROL Generate complement]** in om een segment te maken dat zich richt op de overige ontvangers.
 1. Klik op **[!UICONTROL Confirm]**.
 1. Klik op **[!UICONTROL Save]**.
 
@@ -49,11 +50,11 @@ U kunt een e-mail naar klanten sturen: één voor klanten die minder dan een jaa
 
 >[!NOTE]
 >
->Klik op **[!UICONTROL Advanced Mode]**.
+>Klik op **[!UICONTROL Advanced Mode]** als u de structuur van de lijn wilt bekijken.
 
 ## Een e-maillevering maken {#create-an-email-delivery}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, slepen en neerzetten [E-maillevering](../../automating/using/email-delivery.md) activiteit na elk segment.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**, belemmering en laat vallen een [ E-maillevering ](../../automating/using/email-delivery.md) activiteit na elk segment.
 1. Klik op de activiteit en selecteer ![](assets/edit_darkgrey-24px.png) om te bewerken.
 1. Selecteer **[!UICONTROL Single send email]** en klik op **[!UICONTROL Next]**.
 1. Selecteer een e-mailsjabloon en klik op **[!UICONTROL Next]**.

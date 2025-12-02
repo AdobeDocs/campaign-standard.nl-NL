@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: segmentation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 82%
+ht-degree: 79%
 
 ---
 
@@ -34,17 +35,17 @@ Met de activiteit **[!UICONTROL Segmentation]** kunt u een of meer segmenten mak
 
 ## Gebruikscontext {#context-of-use}
 
-De activiteit **[!UICONTROL Segmentation]** wordt over het algemeen na targetingactiviteiten (query, doorsnede, samenvoeging, uitsluiting, enz.) geplaatst om de standaardpopulatie te bepalen op basis waarvan de segmenten worden gevormd.
+De **[!UICONTROL Segmentation]** -activiteit wordt doorgaans geplaatst na doelactiviteiten (zoeken, doorsnijden, verenigen, uitsluiten, enz.) om de standaardpopulatie te definiëren op basis waarvan de segmenten worden gevormd.
 
 **Verwante onderwerpen**
 
-* [Hoofdlettergebruik: Segmenteringsprofielen op basis van hun leeftijdsgroepen](../../automating/using/segmentation-age-groups.md).
+* [ geval van het Gebruik: Het segmenteren van profielen volgens hun leeftijdsgroepen ](../../automating/using/segmentation-age-groups.md).
 
 ## Configuratie {#configuration}
 
 1. Sleep een activiteit **[!UICONTROL Segmentation]** en zet deze neer in uw workflow.
 1. Selecteer de activiteit en open deze met de knop ![](assets/edit_darkgrey-24px.png) vanuit de snelle acties die verschijnen.
-1. In de **[!UICONTROL General]** selecteert u de **[!UICONTROL Resource type]** waarop de segmentatie moet worden uitgevoerd:
+1. Selecteer op het tabblad **[!UICONTROL General]** de **[!UICONTROL Resource type]** waarop de segmentatie moet worden uitgevoerd:
 
    * **[!UICONTROL Database resource]** als de segmentatie wordt uitgevoerd op data die al in de database aanwezig zijn. Selecteer de **[!UICONTROL Filtering dimension]** afhankelijk van de data die u wilt segmenteren. Segmentatie wordt standaard uitgevoerd op de **profielen**.
    * **[!UICONTROL Temporary resource]** indien de segmentatie wordt uitgevoerd op de tijdelijke data van de workflow: selecteer de **[!UICONTROL Targeted set]** met de data die u wilt segmenteren. Deze gebruikssituatie kan optreden na het importeren van een bestand of als de data in de database verrijkt zijn.
@@ -61,7 +62,7 @@ De activiteit **[!UICONTROL Segmentation]** wordt over het algemeen na targeting
    * **[!UICONTROL Limit segment population]**: Hiermee kunt u de segmentgrootte beperken.
    * **[!UICONTROL Filter and limit segment population]**: Hiermee kunt u de segmentpopulatie filteren en de grootte ervan beperken.
    * **[!UICONTROL Label]**: segmentlabel.
-   * **[!UICONTROL Segment code]**: code toegewezen aan de segmentpopulatie.De segmentcode kan worden gepersonaliseerd met behulp van een standaardexpressie en gebeurtenisvariabelen (zie [deze pagina](../../automating/using/customizing-workflow-external-parameters.md)).
+   * **[!UICONTROL Segment code]**: code die aan de segmentpopulatie wordt toegewezen.De segmentcode kan worden gepersonaliseerd gebruikend een standaarduitdrukking en gebeurtenisvariabelen (zie [ deze pagina ](../../automating/using/customizing-workflow-external-parameters.md)).
    * **[!UICONTROL Exclude segment from population]**: Hiermee sluit u het opgegeven segment uit van de uitgaande populatie van de activiteit. Deze optie kan alleen worden gebruikt als de optie **[!UICONTROL Generate all segments in the same transition]** is geselecteerd.
 
    ![](assets/wkf_segment_new_segment.png)
@@ -95,10 +96,10 @@ De activiteit **[!UICONTROL Segmentation]** wordt over het algemeen na targeting
 1. Voeg zoveel segmenten toe als nodig is door stap 6 tot en met 10 van deze procedure te herhalen.
 1. Bewerk indien nodig de parameters op het tabblad **[!UICONTROL Advanced options]**:
 
-   * De **[!UICONTROL Enable overlapping of outbound populations]** Met deze optie bepaalt u hoe profielen die tot verschillende segmenten behoren, worden beheerd:
-      * Wanneer de optie niet is ingeschakeld, wordt **[!UICONTROL Segmentation]** Met activity wordt gecontroleerd dat een profiel niet aanwezig is in verschillende uitvoerovergangen, zelfs als dit profiel voldoet aan de criteria van verschillende subsets.
+   * Met de optie **[!UICONTROL Enable overlapping of outbound populations]** bepaalt u hoe profielen die tot verschillende segmenten behoren, worden beheerd:
+      * Wanneer de optie niet is ingeschakeld, controleert de **[!UICONTROL Segmentation]** -activiteit of een profiel niet aanwezig is in verschillende uitvoerovergangen, zelfs als dit profiel voldoet aan de criteria van verschillende subsets.
       * Als de optie is ingeschakeld, kunnen de profielen in verschillende subsets worden gevonden als ze voldoen aan de filtercriteria.
-   * Als de binnenkomende bevolking reeds een segmentcode is toegewezen die u wilt houden, controleer **[!UICONTROL Concatenate the code of each segment]** -optie. De segmentcode die in de activiteit wordt opgegeven, wordt toegevoegd aan de oorspronkelijke segmentcode.
-   * Als u de resterende populatie moet uitbuiten, controleert u de **[!UICONTROL Generate complement]** -optie. Zie [Hoofdlettergebruik: leveringen maken met een complement](../../automating/using/workflow-created-query-with-complement.md).
+   * Als aan de binnenkomende populatie al een segmentcode is toegewezen die u wilt behouden, controleert u de optie **[!UICONTROL Concatenate the code of each segment]** . De segmentcode die in de activiteit wordt opgegeven, wordt toegevoegd aan de oorspronkelijke segmentcode.
+   * Controleer de optie **[!UICONTROL Generate complement]** als u de resterende populatie wilt gebruiken. Zie [ geval van het Gebruik: Creërend leveringen met een aanvulling ](../../automating/using/workflow-created-query-with-complement.md).
 
 1. Bevestig de configuratie van uw activiteit en sla de workflow op.

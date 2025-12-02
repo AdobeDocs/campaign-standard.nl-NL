@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 90841afd-ebc2-4b6a-895e-a96ef65740d7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 0%
@@ -17,12 +18,12 @@ ht-degree: 0%
 
 # Kenmerken van een organisatie-eenheid bijwerken {#updating-organizational-unit-attributes}
 
-1. Voer een verzoek van de GET uit op **orgUnitBase** bron voor het ophalen van de PKey-organisatie.
-1. Voer een verzoek van de PATCH op de Organisatorische eenheid uit, met de attributen om in de lading bij te werken.
+1. Voer een verzoek van GET op het **orgUnitBase** middel uit om de Organisatorische eenheid PKey terug te winnen.
+1. Voer een PATCH-verzoek uit op de Organizer-eenheid met de kenmerken die moeten worden bijgewerkt in de payload.
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
 Hiermee wordt de lijst met organisatorische eenheden opgehaald.
 
@@ -50,7 +51,7 @@ Alle organisatie-eenheden worden geretourneerd. Haal de sleutel van de gewenste 
 },
 ```
 
-Voer een verzoek van de PATCH op de Organisatorische eenheid uit, met de attributen om in de lading bij te werken.
+Voer een PATCH-verzoek uit op de Organizer-eenheid met de kenmerken die moeten worden bijgewerkt in de payload.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

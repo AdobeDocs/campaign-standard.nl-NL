@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 86810821-6f62-46ab-ba0b-2175797fe9dd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -17,12 +18,12 @@ ht-degree: 0%
 
 # Kenmerken van een geografische eenheid bijwerken {#managing-geographical-units}
 
-1. Voer een verzoek van de GET uit op **geoUnitBase** bron voor het ophalen van de geografische eenheid PKey.
-1. Voer een verzoek van de PATCH op de Geografische eenheid uit, met de attributen in de lading bij te werken.
+1. Voer een verzoek van GET op het **geoUnitBase** middel uit om de Geografische eenheid PKey terug te winnen.
+1. Voer een PATCH-verzoek uit op de geografische eenheid, met de kenmerken die moeten worden bijgewerkt in de lading.
 
 <br/>
 
-***Voorbeeldverzoek***
+***verzoek van de Steekproef***
 
 De lijst van geografische eenheden ophalen.
 
@@ -50,7 +51,7 @@ Alle geografische eenheden worden geretourneerd. Haal de sleutel van de gewenste
 },
 ```
 
-Voer een verzoek van de PATCH op de Geografische eenheid uit, met de attributen in de lading bij te werken.
+Voer een PATCH-verzoek uit op de geografische eenheid, met de kenmerken die moeten worden bijgewerkt in de lading.
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

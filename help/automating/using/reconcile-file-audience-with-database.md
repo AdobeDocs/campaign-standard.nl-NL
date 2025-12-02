@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: readAudience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 6a59907d-850e-4d61-b1f7-8fc8b915580e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 87%
@@ -50,6 +51,6 @@ De afstemmingsworkflow is als volgt ontworpen:
 
 ![](assets/readaudience_activity_example2.png)
 
-* A [Lees publiek](../../automating/using/read-audience.md) De activiteit uploadt het publiek van het Dossier dat in het de invoerwerkschema wordt gecreeerd. De doelgroepsdata zijn nog niet afgestemd op de Adobe Campaign-database.
+* A [ leest publiek ](../../automating/using/read-audience.md) activiteit uploadt het publiek van het Dossier dat in het de invoerwerkschema wordt gecreeerd. De doelgroepsdata zijn nog niet afgestemd op de Adobe Campaign-database.
 * Met een activiteit [Afstemming](../../automating/using/reconciliation.md) worden de binnenkomende data via het tabblad **[!UICONTROL Identification]** aangeduid als profielen. Bijvoorbeeld door het veld **email** te gebruiken als afstemmingscriteria.
 * Met een activiteit [Data bijwerken](../../automating/using/update-data.md) wordt de resource met de profielen van de database ingevoegd en bijgewerkt met de binnenkomende data. Aangezien de data al als profielen zijn geïdentificeerd, kunt u de optie **[!UICONTROL Directly using the targeting dimension]** selecteren en **[!UICONTROL Profiles]** selecteren op het tabblad **[!UICONTROL Identification]** van de activiteit. Vervolgens hoeft u alleen maar de lijst met velden toe te voegen die op het overeenkomstige tabblad moeten worden bijgewerkt.

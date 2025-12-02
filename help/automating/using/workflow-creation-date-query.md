@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 32%
@@ -26,34 +27,34 @@ U kunt een voorstel via e-mail verzenden op de dag dat de klant het profiel heef
 
 ## Een planningsactiviteit maken {#creating-a-scheduler-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, een [Planner](../../automating/using/scheduler.md) activiteit.
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, belemmering en laat vallen a [ Planner ](../../automating/using/scheduler.md) activiteit.
 1. Dubbelklik op de activiteit.
 1. Configureer de uitvoering van uw levering.
 1. In **[!UICONTROL Execution frequency]** selecteert u **[!UICONTROL Daily]**.
-1. Selecteer een **[!UICONTROL Time]** en de **[!UICONTROL Repetition frequency]** van uitvoering voor uw workflow.
+1. Selecteer een **[!UICONTROL Time]** en de **[!UICONTROL Repetition frequency]** van de uitvoering voor uw workflow.
 1. Selecteer een **[!UICONTROL Start]** datum en **[!UICONTROL Expiration]** voor uw workflow.
 1. Bevestig uw activiteit en sla de workflow op.
 
 >[!NOTE]
 >
->Om uw werkschema bij een specifieke tijdzone te beginnen, in **[!UICONTROL Execution options]** lusje, opstelling de tijdzone voor uw planner in **[!UICONTROL Time zone]** veld. Standaard is de geselecteerde tijdzone de tijdzone die is gedefinieerd in de workfloweigenschappen (zie [Een workflow maken](../../automating/using/building-a-workflow.md)).
+>Als u uw workflow in een specifieke tijdzone wilt starten, stelt u op het tabblad **[!UICONTROL Execution options]** de tijdzone voor de planner in het veld **[!UICONTROL Time zone]** in. Standaard is de geselecteerde tijdzone de tijdzone die is gedefinieerd in de workfloweigenschappen (zie [Een workflow maken](../../automating/using/building-a-workflow.md)).
 
 ![](assets/time_zone.png)
 
 ## Query-activiteiten maken {#creating-a-query-activity}
 
-1. Als u ontvangers wilt selecteren, sleept u een [Query](../../automating/using/query.md) en dubbelklik erop.
-1. Toevoegen **[!UICONTROL Profiles]** en selecteert u **[!UICONTROL no longer contact by email]** met de waarde **[!UICONTROL no]**.
+1. Om ontvangers te selecteren, sleep en laat vallen de activiteit van de a [ Vraag ](../../automating/using/query.md) en klik het tweemaal.
+1. Voeg **[!UICONTROL Profiles]** toe en selecteer **[!UICONTROL no longer contact by email]** met de waarde **[!UICONTROL no]** .
 
 ### Profielen ophalen die zijn gemaakt op dezelfde dag als de dag van uitvoering {#retrieving-profiles-created-on-the-same-day}
 
-1. In **[!UICONTROL Profile]**, slepen en neerzetten **[!UICONTROL Created]** veld. en klik op **[!UICONTROL Advanced Mode]**.
+1. Sleep het veld **[!UICONTROL Profile]** in **[!UICONTROL Created]** en zet het neer. en klik op **[!UICONTROL Advanced Mode]** .
    ![](assets/advanced_mode.png)
-1. In de **[!UICONTROL list of functions]**, dubbelklikken **[!UICONTROL Day]** van de **[!UICONTROL Date]** knooppunt.
-1. Voeg vervolgens het veld in **[!UICONTROL Created]** als argument.
-1. Selecteren **[!UICONTROL equals to (=)]** als de operator.
-1. Selecteer bij Waarde **[!UICONTROL Day]** van de **[!UICONTROL Date]** knooppunt in de **[!UICONTROL List of functions]**.
-1. Voeg de **[!UICONTROL GetDate()]** functie als argument.
+1. Dubbelklik in **[!UICONTROL list of functions]** op **[!UICONTROL Day]** vanuit het knooppunt **[!UICONTROL Date]** .
+1. Voeg vervolgens het veld **[!UICONTROL Created]** in als argument.
+1. Selecteer **[!UICONTROL equals to (=)]** als de operator.
+1. Selecteer bij Waarde **[!UICONTROL Day]** in het knooppunt **[!UICONTROL Date]** in het **[!UICONTROL List of functions]** .
+1. Voeg de functie **[!UICONTROL GetDate()]** in als argument.
 
 U hebt de profielen opgehaald die op de aanmaakdag gelijk zijn aan de huidige dag.
 
@@ -67,9 +68,9 @@ Klik op **[!UICONTROL Confirm]**.
 
 ### Profielen ophalen die zijn gemaakt op dezelfde maand als de maand van uitvoering{#retrieving-profiles-created-on-the-same-month}
 
-1. Op de **[!UICONTROL Query]** editor, selecteert u de eerste query en dupliceert deze.
+1. Selecteer in de **[!UICONTROL Query]** -editor de eerste query en dupliceer deze.
 1. Open het duplicaat.
-1. Vervangen **[!UICONTROL Day]** door **[!UICONTROL Month]** in de query.
+1. Vervang **[!UICONTROL Day]** door **[!UICONTROL Month]** in de query.
 1. Klik op **[!UICONTROL Confirm]**.
 
 ![](assets/month_rule.png)
@@ -86,7 +87,7 @@ De uiteindelijke query wordt weergegeven:
 
 ## Een e-maillevering maken{#creating-an-email-delivery}
 
-1. Sleep een [E-maillevering](../../automating/using/email-delivery.md) activiteit.
+1. De belemmering en laat vallen een [ E-maillevering ](../../automating/using/email-delivery.md) activiteit.
 1. Klik op de activiteit en selecteer ![](assets/edit_darkgrey-24px.png) om te bewerken.
 1. Selecteer **[!UICONTROL Recurring email]** en klik op **[!UICONTROL Next]**.
 1. Selecteer een e-mailsjabloon en klik op **[!UICONTROL Next]**.

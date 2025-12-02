@@ -6,13 +6,14 @@ content-type: reference
 topic-tags: channel-activities
 context-tags: delivery,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '858'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -66,7 +67,7 @@ De berichtvoorbereiding wordt geactiveerd op basis van de uitvoeringsparameters 
 
    >[!NOTE]
    >
-   >Herhalende leveringen worden voorbereid op basis van de **aggregatieperiode**. Als de samenvoegingsperiode bijvoorbeeld &quot;op dag&quot; is, wordt de levering slechts eenmaal per dag opnieuw voorbereid. Als u deze workflow meerdere keren per dag wilt aanroepen, gebruikt u [!UICONTROL No aggregation].
+   >De terugkomende leveringen worden voorbereid gebaseerd op de **samenvoegingsperiode**. Als de samenvoegingsperiode bijvoorbeeld &quot;op dag&quot; is, wordt de levering slechts eenmaal per dag opnieuw voorbereid. Als u deze workflow meerdere keren per dag wilt aanroepen, gebruikt u [!UICONTROL No aggregation] .
 
 1. Selecteer een e-mailtype. De e-mailtypen zijn afkomstig van e-mailsjablonen die u hebt gedefinieerd in het menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Voer de algemene eigenschappen voor de e-mail in. U kunt deze ook koppelen aan een bestaande campagne. Het label van de leveringsactiviteit van de workflow wordt bijgewerkt met het e-maillabel.
@@ -74,7 +75,7 @@ De berichtvoorbereiding wordt geactiveerd op basis van de uitvoeringsparameters 
 1. Standaard bevat de activiteit **[!UICONTROL Email delivery]** geen uitgaande overgangen. Als u een uitgaande overgang wilt toevoegen aan uw activiteit **[!UICONTROL Email delivery]**, ga dan naar het tabblad **[!UICONTROL General]** van de geavanceerde opties voor activiteiten (de knop ![](assets/dlv_activity_params-24px.png) in de snelle acties van de activiteit) en vink een van de volgende opties aan:
 
    * **[!UICONTROL Add outbound transition without the population]**: Zo kunt u een uitgaande overgang genereren die exact dezelfde populatie bevat als de binnenkomende overgang.
-   * **[!UICONTROL Add outbound transition with the population]**: Zo kunt u een uitgaande overgang genereren met de populatie naar wie de e-mail is gestuurd. De leden van het doel die tijdens de voorbereiding van de levering waren uitgesloten (quarantaine, ongeldige e-mail, enz.),  zijn uitgesloten van deze overgang.
+   * **[!UICONTROL Add outbound transition with the population]**: Zo kunt u een uitgaande overgang genereren met de populatie naar wie de e-mail is gestuurd. De leden van het doel die tijdens de voorbereiding van de levering zijn uitgesloten (quarantaine, ongeldige e-mail, enz.), zijn van deze overgang uitgesloten.
 
 1. Bevestig de configuratie van uw activiteit en sla de workflow op.
 

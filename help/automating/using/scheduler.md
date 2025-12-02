@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-source-git-commit: 6107f5e43b25037f7f5a7f130922a3a22d0047af
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 52%
@@ -58,35 +59,35 @@ Wanneer u een geplande workflow ontwerpt die meerdere activiteiten bevat, moet u
 
    >[!NOTE]
    >
-   >De **[!UICONTROL Repetition frequency]** in het veld voor de uitvoeringsfrequenties Dagelijks en Maandelijks kunt u de tijd vrijmaken waarop de workflow wordt geactiveerd. Als u bijvoorbeeld een dagelijkse uitvoeringsperiode selecteert en de herhalingsfrequentie is ingesteld op **2** (dagen), dan wordt de workflow elke twee dagen geactiveerd. De tussenliggende periode mag niet minder dan 10 minuten zijn. Als de herhalingsfrequentie is ingesteld op **0** (ook de standaardwaarde), wordt deze optie niet in aanmerking genomen en de workflow wordt uitgevoerd volgens de opgegeven uitvoeringsfrequentie.
+   >Met het veld **[!UICONTROL Repetition frequency]** dat beschikbaar is voor de uitvoeringsfrequenties Dagelijks en Maandelijks kunt u de tijd vrijmaken waarop de workflow wordt geactiveerd. Als u bijvoorbeeld een dagelijkse uitvoeringsperiode selecteert en de herhalingsfrequentie is ingesteld op **2** (dagen), dan wordt de workflow elke twee dagen geactiveerd. De tussenliggende periode mag niet minder dan 10 minuten zijn. Als de herhalingsfrequentie bij **0** (ook de standaardwaarde) wordt geplaatst, wordt deze optie niet in aanmerking genomen en het werkschema zal volgens de gespecificeerde uitvoeringsfrequentie lopen.
 
-   Wanneer u de uitvoeringsfrequentie instelt op **[!UICONTROL Several times a day]** hebt u de flexibiliteit om te kiezen tussen het uitvoeren van de workflow op specifieke tijdstippen van de dag of periodiek gedurende de dag.
+   Wanneer u de uitvoeringsfrequentie instelt op **[!UICONTROL Several times a day]** , hebt u de flexibiliteit om te kiezen tussen het uitvoeren van de workflow op specifieke tijdstippen van de dag of periodiek gedurende de dag.
 
-+++ Leer hoe u een **[!UICONTROL "Several times a day"]** uitvoeringsfrequentie
+   +++ Leer hoe u een uitvoeringsfrequentie van **[!UICONTROL "Several times a day"]** configureert
 
-   * Als u de workflow meerdere keren op bepaalde tijdstippen gedurende de dag wilt uitvoeren, schakelt u het **[!UICONTROL Specific times]** en klik vervolgens op **[!UICONTROL Add an element]** om de gewenste uitvoeringstijd op te geven. Voeg zo vaak als nodig is toe om aan uw vereisten te voldoen.
+   * Als u de workflow meerdere keren wilt uitvoeren op bepaalde momenten gedurende de dag, schakelt u de optie **[!UICONTROL Specific times]** in en klikt u op **[!UICONTROL Add an element]** om de gewenste uitvoeringstijd op te geven. Voeg zo vaak als nodig is toe om aan uw vereisten te voldoen.
 
-   * Als u de workflow gedurende de hele dag periodiek wilt uitvoeren, schakelt u het **[!UICONTROL Periodic]** en configureert u vervolgens de uitvoeringsfrequentie:
+   * Als u de workflow gedurende de hele dag wilt uitvoeren, schakelt u de optie **[!UICONTROL Periodic]** in en configureert u vervolgens de uitvoeringsfrequentie:
 
-      1. In de **[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]** , geeft u het interval op waarmee de workflow moet worden uitgevoerd (bijvoorbeeld om de 30 minuten, om de 2 uur).
+      1. Geef in het veld **[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]** het interval op waarmee de workflow moet worden uitgevoerd (bijvoorbeeld elke 30 minuten, elke 2 uur).
 
          >[!NOTE]
          >
          >Deze optie maakt het ook mogelijk dagelijkse, maandelijkse of jaarlijkse herhalingsfrequenties toe te passen. In dit geval wordt de workflow niet meerdere keren per dag uitgevoerd, maar volgens de frequentie die u in dit veld hebt opgegeven.
          >
-         > Als u voor uw workflow geen meerdere uitvoeringen binnen een dag nodig hebt, maar deze in plaats daarvan dagelijks, maandelijks of jaarlijks moet uitvoeren, is het raadzaam de opdracht **[!UICONTROL Daily]**, **[!UICONTROL Monthly]** of **[!UICONTROL Yearly]** opties beschikbaar in het dialoogvenster **[!UICONTROL Execution frequency]** vervolgkeuzelijst.
+         > Als uw werkstroom geen meerdere uitvoeringen binnen een dag vereist, maar in plaats daarvan dagelijks, maandelijks of jaarlijks moet worden uitgevoerd, is het aan te raden de opties **[!UICONTROL Daily]** , **[!UICONTROL Monthly]** of **[!UICONTROL Yearly]** in de vervolgkeuzelijst **[!UICONTROL Execution frequency]** te gebruiken.
 
-      1. In de **[!UICONTROL Start]**/**[!UICONTROL End]** tijdvelden, definieert het tijdstip waarop de werkstroom moet worden gestart en beëindigd.
+      1. Definieer in de tijdvelden **[!UICONTROL Start]**/ **[!UICONTROL End]** de tijd waarop de uitvoering van de workflow moet beginnen en eindigen.
 
-         Als geen eindtijd wordt gespecificeerd, eindigt de uitvoering bij middernacht 00:00:00 uur, en de volgende uitvoering begint de volgende dag bij de gespecificeerde begintijd.
+         Als geen eindtijd wordt gespecificeerd, eindigt de uitvoering bij middernacht 00 :00: 00 uren, en volgende uitvoering is de volgende dag bij de gespecificeerde begintijd.
 
-      1. In de **[!UICONTROL Start]** datumveld, selecteert u de datum waarop de eerste uitvoering moet beginnen.
+      1. Selecteer in het datumveld **[!UICONTROL Start]** de datum waarop de eerste uitvoering moet beginnen.
 
    In het onderstaande voorbeeld wordt de activiteit geconfigureerd om de workflow elke 2 uur tussen 8.00 uur en 5.00 uur uit te voeren, te beginnen op 1 maart.
 
    ![](assets/wkf_scheduler_day.png)
 
-+++
+   +++
 
 1. Geef aan wanneer de uitvoering verloopt:
 

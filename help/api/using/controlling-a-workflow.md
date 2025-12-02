@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 79eacc31-d5a2-4e13-aa0b-744d7ab7004f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 10%
@@ -17,7 +18,7 @@ ht-degree: 10%
 
 # Een workflow beheren {#controlling-a-workflow}
 
-U kunt een werkstroom rechtstreeks vanuit de REST API besturen via een verzoek van een POST met de werkstroom-id en de vereiste uitvoeringsopdracht:
+U kunt een workflow rechtstreeks vanuit de REST API beheren via een POST-aanvraag met de workflow-id en de vereiste uitvoeringsopdracht:
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
 
@@ -32,11 +33,11 @@ Er zijn vier uitvoeringsopdrachten beschikbaar om een workflow te besturen:
 * Hervatten
 * Stoppen
 
-Raadpleeg voor meer informatie over de uitvoeringsopdrachten de [Campagnedocumentatie](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html?lang=nl-NL).
+Voor meer informatie over de uitvoeringsbevelen, verwijs naar de [ documentatie van de Campagne ](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
 
 <br/>
 
-***Voorbeeldverzoeken***
+***verzoeken van de Steekproef***
 
 * Start een workflow.
 

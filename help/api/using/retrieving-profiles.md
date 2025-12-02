@@ -2,10 +2,11 @@
 title: Profielen ophalen
 description: Meer informatie over het ophalen van profielen met API's
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 4%
@@ -14,17 +15,17 @@ ht-degree: 4%
 
 # Profielen ophalen met API&#39;s {#retrieving-profiles}
 
-Het ophalen van profielen wordt uitgevoerd met een **GET** verzoek.
+Het terugwinnen van profielen wordt uitgevoerd met a **GET** verzoek.
 
-Vervolgens kunt u de zoekopdracht verfijnen door filters, volgorde en paginering te gebruiken. Raadpleeg voor meer informatie de [Aanvullende bewerkingen](../../api/using/sorting.md) sectie.
+Vervolgens kunt u de zoekopdracht verfijnen door filters, volgorde en paginering te gebruiken. Voor meer op dit, verwijs naar de [ Aanvullende verrichtingen ](../../api/using/sorting.md) sectie.
 
-Bovendien kunt u met Campaign Standard-API&#39;s zoeken naar profielen op basis van een van deze velden: e-mail, voornaam, achternaam of een aangepast veld. Raadpleeg [deze sectie](#searching-field) voor meer informatie.
+Bovendien kunt u met Campaign Standard API&#39;s zoeken naar profielen op basis van een van deze velden: e-mail, voornaam, achternaam of een aangepast veld. Raadpleeg [deze sectie](#searching-field) voor meer informatie.
 
 <br/>
 
-***Voorbeeldverzoeken***
+***verzoeken van de Steekproef***
 
-* Voorbeeld van GET-aanvraag om alle profielen op te halen.
+* Voorbeeld van een GET-aanvraag om alle profielen op te halen.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -85,13 +86,13 @@ Bovendien kunt u met Campaign Standard-API&#39;s zoeken naar profielen op basis 
 
 ## Zoeken naar profielen op basis van een veld {#searching-field}
 
-De **[!UICONTROL filterType]** kunt u profielen ophalen op basis van een van de volgende velden: e-mail, voornaam, achternaam of elk aangepast veld dat is toegevoegd bij Geavanceerd filteren tijdens het uitbreiden van de profielbron.
+Met de parameter **[!UICONTROL filterType]** kunt u profielen ophalen op basis van een van de volgende velden: e-mail, voornaam, achternaam of elk aangepast veld dat is toegevoegd bij Geavanceerd filteren tijdens het uitbreiden van de profielbron.
 
 >[!NOTE]
 >
 >Zoekopdrachten zijn hoofdlettergevoelig en worden alleen op voorvoegsels uitgevoerd. U kunt bijvoorbeeld niet zoeken naar een profiel met de laatste letters van de achternaam.
 
-***Voorbeeldverzoeken***
+***verzoeken van de Steekproef***
 
 * Voorbeeldverzoek om profielen te filteren op basis van voornaam.
 

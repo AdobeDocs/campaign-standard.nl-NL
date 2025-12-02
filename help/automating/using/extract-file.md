@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
-source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 78%
@@ -43,7 +44,7 @@ De specifieke data-extractiemethode wordt gedefinieerd bij het configureren van 
    ![](assets/wkf_data_export1.png)
 
 1. Selecteer de activiteit en open deze met de knop ![](assets/edit_darkgrey-24px.png) vanuit de snelle acties die verschijnen.
-1. Voer het label van het **uitvoerbestand** in. Het bestandslabel wordt automatisch aangevuld met de datum en tijd waarop het is gemaakt. Dit label is dus uniek. Bijvoorbeeld: ontvangers_20150815_081532.txt voor een bestand dat op 15 augustus 2015 om 08 wordt gegenereerd:15:32.
+1. Voer het label van het **uitvoerbestand** in. Het bestandslabel wordt automatisch aangevuld met de datum en tijd waarop het is gemaakt. Dit label is dus uniek. Bijvoorbeeld: ontvangers_20150815_081532.txt voor een dossier produceerde 15e van Augustus 2015 bij 08 :15: 32.
 
    >[!NOTE]
    >
@@ -51,7 +52,7 @@ De specifieke data-extractiemethode wordt gedefinieerd bij het configureren van 
 
 1. Indien gewenst, kunt u het uitvoerbestand comprimeren door de optie **[!UICONTROL Compression]** in het veld **[!UICONTROL Add a post-processing stage]** te selecteren. Het uitvoerbestand wordt gecomprimeerd naar een GZIP-bestand (.gz).
 
-   De **[!UICONTROL Add a post-processing stage]** kunt u een bestand ook versleutelen voordat u het uitpakt. Raadpleeg voor meer informatie over het werken met gecodeerde bestanden [deze sectie](../../automating/using/managing-encrypted-data.md)
+   Met het veld **[!UICONTROL Add a post-processing stage]** kunt u ook een bestand versleutelen voordat u het uitpakt. Voor meer op hoe te met gecodeerde dossiers te werken, verwijs naar [ deze sectie ](../../automating/using/managing-encrypted-data.md)
 
 1. Klik op de knop **[!UICONTROL Create element]** om een uitvoerkolom toe te voegen.
 

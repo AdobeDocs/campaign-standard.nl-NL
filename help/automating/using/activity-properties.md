@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9c47ef72-59af-4b55-8e65-d8f687fb5fbe
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 0%
@@ -20,59 +21,59 @@ ht-degree: 0%
 
 ## Algemene eigenschappen van een activiteit {#global-properties-of-an-activity}
 
-Elke activiteit heeft een **[!UICONTROL General]** , waarmee u algemene parameters kunt wijzigen die specifiek zijn voor de activiteit.
+Elke activiteit heeft een tab **[!UICONTROL General]** , waarmee u algemene parameters kunt wijzigen die specifiek zijn voor de activiteit.
 
 ![](assets/activity-properties.png)
 
-De **[!UICONTROL Properties]** kunt u de algemene parameters van de activiteit wijzigen, met name het label en de id. U kunt dit tabblad niet configureren.
+Op het tabblad **[!UICONTROL Properties]** kunt u de algemene parameters van de activiteit wijzigen, met name het label en de id. U kunt dit tabblad niet configureren.
 
 ![](assets/activity-properties2.png)
 
 ## De uitgaande overgangen van een activiteit beheren {#managing-an-activity-s-outbound-transitions}
 
-Door gebrek, hebben bepaalde activiteiten geen uitgaande overgang. U kunt er een toevoegen vanuit het menu **[!UICONTROL Transitions]** of van de activiteit **[!UICONTROL Properties]** om andere processen in dezelfde workflow op uw bevolking toe te passen.
+Door gebrek, hebben bepaalde activiteiten geen uitgaande overgang. U kunt er een toevoegen vanaf het tabblad **[!UICONTROL Transitions]** of vanaf het tabblad **[!UICONTROL Properties]** van de activiteit om andere processen toe te passen op uw populatie in dezelfde workflow.
 
 Afhankelijk van de activiteiten kunt u verschillende typen uitgaande overgangen toevoegen:
 
-* **Standaardovergang**: populatie berekend door de activiteit
-* **Overgang zonder populatie**: dit type uitgaande overgang kan worden toegevoegd om de workflow voort te zetten en bevat geen populatie om geen overbodige ruimte op het systeem te verbruiken.
-* **Afwijzingen**: afgewezen bevolking. Bijvoorbeeld, als de binnenkomende gegevens van de activiteit niet konden worden verwerkt omdat het onjuist of onvolledig was.
-* **Complementeren**: populatie die resteert na uitvoering van de activiteit. Bijvoorbeeld, als een segmentatieactiviteit wordt gevormd om slechts een percentage van de binnenkomende bevolking te bewaren.
+* **Standaard overgang**: populatie die door de activiteit wordt gegevens verwerkt
+* **Overgang zonder bevolking**: dit type van uitgaande overgang kan worden toegevoegd om het werkschema voort te zetten en bevat geen bevolking om geen onnodige ruimte op het systeem te verbruiken.
+* **verwerpt**: Verworpen bevolking. Bijvoorbeeld, als de binnenkomende gegevens van de activiteit niet konden worden verwerkt omdat het onjuist of onvolledig was.
+* **Complement**: populatie die na het uitvoeren van de activiteit blijft. Bijvoorbeeld, als een segmentatieactiviteit wordt gevormd om slechts een percentage van de binnenkomende bevolking te bewaren.
 
-Geef, indien van toepassing, een **[!UICONTROL Segment code]** voor de uitgaande overgang van de activiteit. Deze segmentcode zal u toestaan om te identificeren waar de ondergroepen van de doelbevolking van komen, en kan, later, voor de doeleinden van de berichtverpersoonlijking dienen.
+Geef, indien van toepassing, een **[!UICONTROL Segment code]** op voor de uitgaande overgang van de activiteit. Deze segmentcode zal u toestaan om te identificeren waar de ondergroepen van de doelbevolking van komen, en kan, later, voor de doeleinden van de berichtverpersoonlijking dienen.
 
 ## Opties voor het uitvoeren van activiteiten {#activity-execution-options}
 
-In het eigenschappenscherm van de activiteit is er een **[!UICONTROL Advanced options]** tabblad waarin u de uitvoeringsmodus en het gedrag van de activiteit kunt definiëren in het geval van fouten.
+In het eigenschappenscherm van de activiteit, is er een **[!UICONTROL Advanced options]** lusje dat u de de uitvoeringswijze en gedrag van de activiteit in het geval van fouten laat bepalen.
 
-Als u toegang wilt krijgen tot deze opties, selecteert u een activiteit in een workflow en opent u deze vervolgens met de knop ![](assets/edit_darkgrey-24px.png) in de actiebalk.
+Als u toegang wilt krijgen tot deze opties, selecteert u een activiteit in een workflow en opent u deze met de knop ![](assets/edit_darkgrey-24px.png) op de actiebalk.
 
 ![](assets/wkf_advanced_parameters.png)
 
-De **[!UICONTROL Execution]** in het veld kunt u de actie definiëren die moet worden uitgevoerd wanneer de taak wordt gestart. Hiervoor zijn drie opties beschikbaar:
+In het veld **[!UICONTROL Execution]** kunt u de handeling definiëren die moet worden uitgevoerd wanneer de taak wordt gestart. Hiervoor zijn drie opties beschikbaar:
 
 * **Normaal**: de activiteit wordt normaal uitgevoerd.
-* **Inschakelen maar niet uitvoeren**: de activiteit wordt gepauzeerd en als gevolg daarvan zijn er ook toekomstige processen die volgen. Dit kan nuttig blijken als u aanwezig wilt zijn wanneer de taak wordt begonnen.
-* **Niet inschakelen**: de activiteit wordt niet uitgevoerd en bijgevolg zijn ook niet alle activiteiten die volgen (in dezelfde tak).
+* **laat toe maar voert niet** uit: de activiteit wordt gepauzeerd, en bijgevolg zijn om het even welke toekomstige processen die volgen. Dit kan nuttig blijken als u aanwezig wilt zijn wanneer de taak wordt begonnen.
+* **laat** niet toe: de activiteit wordt niet uitgevoerd, en bijgevolg zijn geen van beide activiteiten die (in de zelfde tak) volgen.
 
-De **[!UICONTROL In case of error]** in dit veld kunt u opgeven welke actie moet worden uitgevoerd als er een fout optreedt. Hiervoor zijn twee opties beschikbaar:
+In het veld **[!UICONTROL In case of error]** kunt u opgeven welke actie moet worden uitgevoerd als er een fout optreedt. Hiervoor zijn twee opties beschikbaar:
 
-* **Het proces onderbreken**: de workflow wordt automatisch opgeschort. De workflowstatus is dan **Onjuist** en de bijbehorende kleur wordt rood. Start de workflow opnieuw als het probleem is opgelost.
-* **Negeren**: de activiteit wordt niet uitgevoerd en bijgevolg zijn er ook geen van de activiteiten die erop volgen (in dezelfde tak). Dit kan handig zijn voor terugkerende taken. Als de tak een eerder geplaatste planner heeft, zou dit op de volgende uitvoeringsdatum moeten teweegbrengen.
+* **Onderbreek het proces**: het werkschema wordt automatisch opgeschort. De werkschemastatus is dan **Onjuiste** en de kleur verbonden wordt rood. Start de workflow opnieuw als het probleem is opgelost.
+* **negeert**: de activiteit wordt niet uitgevoerd, en dientengevolge zijn geen van beide activiteiten die het (in de zelfde tak) volgen. Dit kan handig zijn voor terugkerende taken. Als de tak een eerder geplaatste planner heeft, zou dit op de volgende uitvoeringsdatum moeten teweegbrengen.
 
-De **[!UICONTROL Behavior]** kunt u in het veld de procedure definiëren die moet worden gevolgd wanneer asynchrone taken worden gebruikt. Hiervoor zijn twee opties beschikbaar:
+In het veld **[!UICONTROL Behavior]** kunt u de procedure definiëren die moet worden gevolgd wanneer asynchrone taken worden gebruikt. Hiervoor zijn twee opties beschikbaar:
 
-* **Meerdere taken geautoriseerd**: meerdere taken kunnen tegelijkertijd worden uitgevoerd, zelfs als de eerste niet is voltooid.
-* **De huidige taak heeft prioriteit**: zodra een taak in uitvoering is , krijgt deze prioriteit . Zolang één taak nog bezig is, zal geen andere taak worden uitgevoerd.
+* **Veelvoudige geoorloofde taken**: de veelvoudige taken kunnen tezelfdertijd worden uitgevoerd zelfs als eerste niet beëindigde.
+* **de huidige taak heeft prioriteit**: zodra een taak lopend is, neemt dit prioriteit. Zolang één taak nog bezig is, zal geen andere taak worden uitgevoerd.
 
-De **[!UICONTROL Max. execution duration]** kunt u een duur opgeven, bijvoorbeeld &#39;&#39;30s&#39;&#39; of &#39;&#39;1h&#39;&#39;. Als de activiteit niet wordt gebeëindigd nadat de gespecificeerde duur is verstreken, wordt een alarm teweeggebracht. Dit heeft geen invloed op de werking van de workflow.
+In het veld **[!UICONTROL Max. execution duration]** kunt u een duur opgeven, zoals &#39;30&#39; of &#39;1 uur&#39;. Als de activiteit niet wordt gebeëindigd nadat de gespecificeerde duur is verstreken, wordt een alarm teweeggebracht. Dit heeft geen invloed op de werking van de workflow.
 
-De **[!UICONTROL Affinity]** in het veld kunt u een workflow of een werkstroomactiviteit op een bepaalde computer uitvoeren. Hiervoor moet u een of meer affiniteiten opgeven voor de workflow of activiteit in kwestie.
+Met het veld **[!UICONTROL Affinity]** kunt u een workflow of een werkstroomactiviteit op een bepaalde computer uitvoeren. Hiervoor moet u een of meer affiniteiten opgeven voor de workflow of activiteit in kwestie.
 
-De **[!UICONTROL Time zone]** kunt u de tijdzone van de activiteit selecteren. Met Adobe Campaign kunt u de tijdsverschillen tussen meerdere landen op hetzelfde moment beheren. De toegepaste instelling wordt geconfigureerd wanneer de instantie wordt gemaakt.
+In het veld **[!UICONTROL Time zone]** kunt u de tijdzone van de activiteit selecteren. Met Adobe Campaign kunt u de tijdsverschillen tussen meerdere landen op hetzelfde moment beheren. De toegepaste instelling wordt geconfigureerd wanneer de instantie wordt gemaakt.
 
 >[!NOTE]
 >
 >Als er standaard geen tijdzone is geselecteerd, wordt voor de activiteit de tijdzone gebruikt die is gedefinieerd in de workfloweigenschappen.
 
-De **Opmerking** Veld is een gratis veld waarmee u een notitie kunt toevoegen.
+Het **gebied van de Commentaar** is een vrij gebied dat u toestaat om een nota toe te voegen.

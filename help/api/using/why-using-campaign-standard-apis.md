@@ -1,21 +1,22 @@
 ---
-title: Waarom Campaign Standard-API's gebruiken?
-description: Meer informatie over Campaign Standard-API's en waarom u deze gebruikt.
+title: Waarom Campaign Standard API's gebruiken?
+description: Meer informatie over Campaign Standard API's en waarom ze gebruiken.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 1%
 
 ---
 
-# Waarom Campaign Standard-API&#39;s worden gebruikt {#why-using-campaign-standard-apis}
+# Waarom Campaign Standard API&#39;s gebruiken {#why-using-campaign-standard-apis}
 
 Adobe Campaign Standard biedt API&#39;s waarmee bestaande systemen kunnen integreren met het Campagneplatform om problemen in real-time op te lossen.
 
@@ -28,50 +29,50 @@ Hier volgen enkele voorbeelden:
 * Transactiecommunicatie op basis van gebeurtenissen activeren - orderbevestiging, boekingsroute, opnieuw instellen van wachtwoord, enz.
 * Zelfs de communicatie via e-mail over het verlaten van de winkelwagentje.
 
-Aanbiedingspagina&#39;s voor aanmelding bieden klanten of vooruitzichten een manier om hun naam en e-mailadres te registreren. Zodra het Campaign Standard de profielinformatie en voorkeur vangt, kan het gepersonaliseerde berichten verzenden die op de belangen van de persoon worden gebaseerd.
+Aanbiedingspagina&#39;s voor aanmelding bieden klanten of vooruitzichten een manier om hun naam en e-mailadres te registreren. Als Campaign Standard de profielgegevens en voorkeuren eenmaal vastlegt, kunnen persoonlijke berichten worden verzonden op basis van de belangen van de persoon.
 
 Ze zijn gemaakt met de volgende elementen:
 
 1. Een registratieformulier met campagne-API-listeners.
 
-   ![alt-tekst](assets/apis_uc1.png)
+   ![ alt tekst ](assets/apis_uc1.png)
 
 1. Aangepaste acties die moeten worden uitgevoerd op basis van selectievakjes. Een klant die &#39;Speciale aanbiedingen per e-mail&#39; selecteert, ontvangt een andere aangepaste e-mail met een cadeaubon dan het normale registratieproces.
 
-   ![alt-tekst](assets/apis_uc2.png)
+   ![ alt tekst ](assets/apis_uc2.png)
 
-1. De details van een profiel kunnen worden gewijzigd nadat u op de koppeling Details bijwerken in de e-mail hebt geklikt. Hiermee wordt het profiel weergegeven op de pagina &quot;Uw profiel en voorkeursgegevens bijwerken&quot;. Om de bewerking uit te voeren, worden de profieldetails (sleutel) overgegaan tot de server van de Campagne en het profiel wordt teruggewonnen en vertegenwoordigd. Nadat het profiel op de knop &quot;Bijwerken&quot; heeft geklikt, wordt de informatie in het systeem bijgewerkt (via de opdracht PATCH).
+1. De details van een profiel kunnen worden gewijzigd nadat u op de koppeling Details bijwerken in de e-mail hebt geklikt. Hiermee wordt het profiel weergegeven op de pagina &quot;Uw profiel en voorkeursgegevens bijwerken&quot;. Om de bewerking uit te voeren, worden de profieldetails (sleutel) overgegaan tot de server van de Campagne en het profiel wordt teruggewonnen en vertegenwoordigd. Zodra het profiel op de knop &quot;Bijwerken&quot; klikt, wordt de informatie bijgewerkt naar het systeem (via een PATCH-opdracht).
 
-   ![alt-tekst](assets/apis_uc3.png)
+   ![ alt tekst ](assets/apis_uc3.png)
 
-Er is een verzameling aanvragen beschikbaar om u te helpen vertrouwd te maken met Campaign Standard-API&#39;s. Deze verzameling in JSON-indeling biedt vooraf ontworpen API-aanvragen die veelvoorkomende gebruiksgevallen vertegenwoordigen.
+Er is een verzameling aanvragen beschikbaar om u te helpen vertrouwd te maken met Campaign Standard API&#39;s-aanvragen. Deze verzameling in JSON-indeling biedt vooraf ontworpen API-aanvragen die veelvoorkomende gebruiksgevallen vertegenwoordigen.
 
-In de onderstaande stappen wordt een stapsgewijze beschrijving van het gebruik beschreven voor het importeren en gebruiken van de verzameling om een profiel te maken in een database van Campaigns Standard.
+In de onderstaande stappen wordt een stapsgewijze beschrijving van het gebruik beschreven voor het importeren en gebruiken van de verzameling om een profiel te maken in de Campaign Standard-database.
 
 >[!NOTE]
 >
 >In ons voorbeeld wordt Postman gebruikt. U kunt echter uw favoriete REST-client gebruiken.
 
-1. Download de JSON-verzameling door op [hier](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
+1. Download de inzameling JSON door [ hier ](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip) te klikken.
 
-1. Open Postman en selecteer vervolgens de **Bestand** / **Importeren** -menu.
+1. Open Postman, dan selecteer het **Dossier** / **de Invoer** menu.
 
 1. Sleep het gedownloade bestand naar het venster. Vooraf ontworpen API-aanvragen worden weergegeven en kunnen worden gebruikt.
 
-   ![alt-tekst](assets/postman_collection.png)
+   ![ alt tekst ](assets/postman_collection.png)
 
-1. Selecteer de **Een profiel maken** verzoek, dan update het verzoek van de POST en **Kopteksten** met uw eigen gegevens (&lt;organization>, &lt;api_key>, &lt;access_token>). Raadpleeg [deze sectie](../../api/using/setting-up-api-access.md) voor meer informatie.
+1. Selecteer **Creërend een profiel** verzoek, dan werk het POST verzoek en het **kopballen** lusje met uw eigen informatie (&lt;ORGANIZATION>, &lt;API_KEY>, &lt;ACCESS_TOKEN>) bij. Raadpleeg [deze sectie](../../api/using/setting-up-api-access.md) voor meer informatie.
 
-   ![alt-tekst](assets/postman_uc1.png)
+   ![ alt tekst ](assets/postman_uc1.png)
 
-1. Vul de **Lichaam** met de informatie die u aan het nieuwe profiel wilt toevoegen, klikt u op de knop **Verzenden** om de aanvraag uit te voeren.
+1. Vul het **Lichaam** lusje met de informatie in u aan het nieuwe profiel wilt toevoegen, dan **verzenden** knoop klikken om het verzoek uit te voeren.
 
-   ![alt-tekst](assets/postman_uc2.png)
+   ![ alt tekst ](assets/postman_uc2.png)
 
 1. Wanneer een object is gemaakt, wordt er een primaire sleutel (PKey) aan gekoppeld. Het is zichtbaar in de verzoekreactie, evenals andere attributen.
 
-   ![alt-tekst](assets/postman_uc3.png)
+   ![ alt tekst ](assets/postman_uc3.png)
 
-1. Open uw instantie van het Campaign Standard, dan controleer dat het profiel, met alle informatie van de lading wordt gecreeerd.
+1. Open uw Campaign Standard-instantie en controleer vervolgens of het profiel is gemaakt, met alle informatie uit de laadbewerking.
 
-   ![alt-tekst](assets/postman_uc4.png)
+   ![ alt tekst ](assets/postman_uc4.png)
