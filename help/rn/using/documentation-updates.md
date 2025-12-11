@@ -589,7 +589,7 @@ De handleiding over automatisering is bijgewerkt met koppelingen naar gerelateer
 
 De sectie over de berekening van indicatoren voor dynamische rapporten is bijgewerkt. [Meer informatie](../../reporting/using/indicator-calculation.md)
 
-Er is een tabel over compatibiliteit voor dynamische rapportage toegevoegd om de compatibiliteit tussen dimensies en metrische data beter te begrijpen. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
+Er is een tabel over compatibiliteit voor dynamische rapportage toegevoegd om de compatibiliteit tussen dimensies en metrische data beter te begrijpen. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=nl-NL)
 
 De lijst met functies voor workflows is bijgewerkt. [Meer informatie](../../automating/using/list-of-functions.md)
 
@@ -867,7 +867,7 @@ De activiteit **[!UICONTROL Subscription Services]** is bijgewerkt om meer gebru
 
 Er is een stapsgewijs gebruiksscenario toegevoegd voor het voorbereiden van een levering. [Meer informatie](../../sending/using/preparing-the-send.md)
 
-De sectie met de lijst met autorisaties is verwijderd. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (pdf).
+De sectie met de lijst met autorisaties is verwijderd. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=nl-NL) (pdf).
 
 Er is een stapsgewijs gebruiksscenario toegevoegd voor het gebruiken van automatische antwoorden voor sms’en. [Meer informatie](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1039,7 +1039,7 @@ Er is een nieuwe technische opmerking beschikbaar over de integratie van de Adob
 
 Er zijn instructies toegevoegd voor de configuratie van de People-kernservice of de Audience Manager-integratie met Adobe Campaign. [Meer informatie](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-De tabel met autorisaties is herzien om de functie van bepaalde rollen duidelijker te maken. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+De tabel met autorisaties is herzien om de functie van bepaalde rollen duidelijker te maken. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=nl-NL)
 
 De contextafhankelijke Help-koppelingen die rechtstreeks beschikbaar zijn in Adobe Campaign, zijn bijgewerkt.
 
