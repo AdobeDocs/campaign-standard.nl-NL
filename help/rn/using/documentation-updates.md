@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7259'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ In 2024 komt er een versie met enkele belangrijke wijzigingen voor de service FC
 
 ## Oktober 2023 {#doc-updates-oct-2023}
 
-* De nieuwe gebruikersinterface voor Experience Cloud Triggers is nu beschikbaar. Het biedt een intuïtieve ervaring om consumentengedrag te beheren en de gebruikerservaringen aan te passen. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=nl){target="_blank"}.
+* De nieuwe gebruikersinterface voor Experience Cloud Triggers is nu beschikbaar. Deze biedt een intuïtieve ervaring om consumentengedrag te beheren en de gebruikerservaringen aan te passen. [Meer informatie](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=nl){target="_blank"}.
 
 * Er is een opmerking toegevoegd over het gebruik van testprofielen voor overvullen in combinatie met regels voor filtering of vermoeidheid. [Meer informatie](../../sending/using/using-traps.md)
 
@@ -70,7 +70,7 @@ Het gebruik van de SMTP-testmodus is gedetailleerd beschreven. [Meer informatie]
 
 ## Maart 2022 {#doc-updates-march-2022}
 
-Er is een opmerking toegevoegd om op te geven dat door het verzenden van proefdrukken met behulp van profielvervanging records worden toegevoegd aan de logboeken van de geselecteerde profielen. [Meer informatie](../../sending/using/testing-messages-using-target.md)
+Er is een opmerking toegevoegd om aan te geven dat het verzenden van bewijzen met behulp van profielvervanging records toevoegt aan de logboeken van de geselecteerde profielen. [Meer informatie](../../sending/using/testing-messages-using-target.md)
 
 ## Release 22.1 - februari 2022 {#release-22-1}
 
@@ -589,7 +589,7 @@ De handleiding over automatisering is bijgewerkt met koppelingen naar gerelateer
 
 De sectie over de berekening van indicatoren voor dynamische rapporten is bijgewerkt. [Meer informatie](../../reporting/using/indicator-calculation.md)
 
-Er is een tabel over compatibiliteit voor dynamische rapportage toegevoegd om de compatibiliteit tussen dimensies en metrische data beter te begrijpen. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=nl-NL)
+Er is een tabel over compatibiliteit voor dynamische rapportage toegevoegd om de compatibiliteit tussen dimensies en metrische data beter te begrijpen. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 De lijst met functies voor workflows is bijgewerkt. [Meer informatie](../../automating/using/list-of-functions.md)
 
@@ -867,7 +867,7 @@ De activiteit **[!UICONTROL Subscription Services]** is bijgewerkt om meer gebru
 
 Er is een stapsgewijs gebruiksscenario toegevoegd voor het voorbereiden van een levering. [Meer informatie](../../sending/using/preparing-the-send.md)
 
-De sectie met de lijst met autorisaties is verwijderd. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=nl-NL) (pdf).
+De sectie met de lijst met autorisaties is verwijderd. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf) (pdf).
 
 Er is een stapsgewijs gebruiksscenario toegevoegd voor het gebruiken van automatische antwoorden voor sms’en. [Meer informatie](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1039,7 +1039,7 @@ Er is een nieuwe technische opmerking beschikbaar over de integratie van de Adob
 
 Er zijn instructies toegevoegd voor de configuratie van de People-kernservice of de Audience Manager-integratie met Adobe Campaign. [Meer informatie](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-De tabel met autorisaties is herzien om de functie van bepaalde rollen duidelijker te maken. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=nl-NL)
+De tabel met autorisaties is herzien om de functie van bepaalde rollen duidelijker te maken. [Meer informatie](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 De contextafhankelijke Help-koppelingen die rechtstreeks beschikbaar zijn in Adobe Campaign, zijn bijgewerkt.
 
