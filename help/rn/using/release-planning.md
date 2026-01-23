@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: d69dfd5cb214f1655563fc4a255b1f8aba834848
+source-git-commit: a9137d1230bd4d975593cfcc3f9c5e2e985f603d
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ Upgrades worden in twee fasen geïmplementeerd. Eerst worden Stage-instanties bi
 
 Alle versiedatums kunnen worden gewijzigd: bezoek deze pagina regelmatig om te controleren op updates. Omgevingsupdates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. De exacte datums worden per e-mail naar elke klant verzonden.
 
-## Release 25.2 - zomerrelease 2025 {#release-25-2-release}
+## Release 26.1 {#release-26.1}
 
 Gedetailleerde informatie over deze release is beschikbaar in de [Aanvullende informatie](release-notes.md) wanneer upgrades van de stagingomgeving van start gaan.
 
@@ -40,12 +40,12 @@ Gedetailleerde informatie over deze release is beschikbaar in de [Aanvullende in
  <tbody>
   <tr>
    <td>Stadium </td>
-   <td>Augustus </td>
+   <td>maart </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
    <td>Productie </td>
-   <td>September </td>
+   <td>april </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>
