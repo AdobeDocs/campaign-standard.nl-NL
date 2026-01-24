@@ -119,7 +119,7 @@ Het nieuwe ticketingsysteem loopt via de [Adobe Admin Console](https://admincons
 
 ### Vraag het de experts.
 
-Word lid van de Campaign-community: zoek naar antwoorden in bestaande vragen of stel uw vraag aan de community. [Deelnemen aan het gesprek](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Word lid van de Campaign-community: zoek naar antwoorden in bestaande vragen of stel uw vraag aan de community. [Deelnemen aan het gesprek](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=nl)
 
 ### Een ticket maken of een chat starten
 
