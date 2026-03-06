@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Productdocumentatie voor Adobe Campaign Standard.
 title: 'Campaign Standard-handleiding '
 breadcrumb-title: Documentatie voor Campaign Standard
-source-git-commit: c70e3058f75ba2b11a8311628198e5c02d489964
+source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
 workflow-type: tm+mt
-source-wordcount: '1753'
+source-wordcount: '1754'
 ht-degree: 88%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 88%
 + Aanvullende informatie {#release-notes}
    + [Nieuwste release](rn/using/release-notes.md)
    + Eerdere releases {#previous-releases}
+      + [2025](rn/using/release-notes-2025.md)
       + [2024](rn/using/release-notes-2024.md)
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
@@ -260,7 +261,7 @@ ht-degree: 88%
       + [Uw triggers testen](integrating/using/testing-your-triggers.md)
       + [Gebruiksscenario’s voor triggers bij afbrekingsacties](integrating/using/abandonment-triggers-use-cases.md)
    + Campagne en Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Aan de slag met de Microsoft Dynamics 365-integratie &#x200B;](integrating/using/d365-acs-get-started.md)
+      + [Aan de slag met de Microsoft Dynamics 365-integratie ](integrating/using/d365-acs-get-started.md)
       + [Best practices en beperkingen](integrating/using/d365-acs-notices-and-recommendations.md)
       + [Microsoft Dynamics 365 configureren](integrating/using/d365-acs-configure-d365.md)
       + [Campaign en Adobe I/O configureren](integrating/using/d365-acs-configure-adobe-io.md)
