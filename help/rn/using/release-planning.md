@@ -1,6 +1,6 @@
 ---
-title: Planning van Campaign Standard-releases
-description: Deze pagina bevat een overzicht van de komende versies van Adobe Campaign Standard.
+title: Campaign Standard Release Planning
+description: Deze pagina bevat een overzicht van komende releases van Adobe Campaign Standard.
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
@@ -8,26 +8,26 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
+source-git-commit: f0d21b5eaac74eb27790eb342e56c334e0a04990
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 98%
+ht-degree: 0%
 
 ---
 
-# Releaseplanning {#release-planning}
+# Release-planning {#release-planning}
 
-Adobe verbetert zijn oplossingen voortdurend door nieuwe mogelijkheden, verbeteringen en correcties toe te voegen.
+Adobe verbetert zijn oplossingen voortdurend door nieuwe mogelijkheden, verbeteringen en oplossingen toe te voegen.
 
 Alle Adobe Campaign Standard-instanties worden geüpgraded met elke nieuwe release. Er is geen actie vereist om een upgrade uit te voeren.
 
-Upgrades worden in twee fasen geïmplementeerd. Eerst worden Stage-instanties bijgewerkt waardoor u nieuwe mogelijkheden kunt testen en zo nodig uw configuratie kunt aanpassen. Vervolgens worden productie-instanties bijgewerkt.
+Upgrades worden in twee fasen geïmplementeerd. Eerst worden Stage-instanties bijgewerkt, zodat u nieuwe mogelijkheden kunt testen en zo nodig uw configuratie kunt aanpassen. Productie-instanties worden vervolgens bijgewerkt.
 
-Alle versiedatums kunnen worden gewijzigd: bezoek deze pagina regelmatig om te controleren op updates. Omgevingsupdates vinden in golven plaats, tijdens de hieronder vermelde tijdschema&#39;s. De exacte datums worden per e-mail naar elke klant verzonden.
+Alle releasedatums kunnen worden gewijzigd: ga regelmatig naar deze pagina om te controleren op updates. De updates van het milieu gebeuren in golven, tijdens de vermelde hieronder termijnen. Exacte datums worden per e-mail naar elke klant verzonden.
 
-## Release 26.2 - {#release-26-2-release}
+## Release 26.3 {#release-26-2-release}
 
-Gedetailleerde informatie over deze release is beschikbaar in de [Aanvullende informatie](release-notes.md) wanneer upgrades van de stagingomgeving van start gaan.
+De gedetailleerde informatie over deze versie is beschikbaar in de [ Nota&#39;s van de Versie ](release-notes.md) wanneer het milieu van het Stadium begint.
 
 <table>
  <thead>
@@ -39,13 +39,13 @@ Gedetailleerde informatie over deze release is beschikbaar in de [Aanvullende in
  </thead>
  <tbody>
   <tr>
-   <td>Stadium </td>
-   <td>april </td>
+   <td>Werkgebied </td>
+   <td>augustus </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
    <td>Productie </td>
-   <td>april </td>
+   <td>september </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>
@@ -53,32 +53,32 @@ Gedetailleerde informatie over deze release is beschikbaar in de [Aanvullende in
 
 ## Vragen en antwoorden {#questions-and-answers}
 
-**V: Wat is de impact?**
+**Q: Wat is het effect?**
 
-A: Wijzigingen worden vermeld in de [Release-opmerkingen](../../rn/using/release-notes.md), waaronder koppelingen naar gerelateerde documentatie. Adobe raadt ook aan de pagina [Verouderde en verwijderde functies](../../rn/using/deprecated-features.md) te raadplegen. Deze pagina&#39;s zijn op de upgradedatum van de Stage-omgeving beschikbaar voor de nieuwe release.
+A: De veranderingen zijn vermeld in de [ Nota&#39;s van de Versie ](../../rn/using/release-notes.md), met inbegrip van verbindingen aan verwante documentatie. Adobe adviseert ook om [ Vervangen en Verwijderde pagina van Eigenschappen ](../../rn/using/deprecated-features.md) te raadplegen. Deze pagina&#39;s zijn beschikbaar voor de nieuwe versie op de de milieuverbeteringsdatum van het Stadium.
 
-**V: Wat is het validatieproces?**
+**Q: Wat is het bevestigingsproces?**
 
-A: Als de upgrade van uw stage-instantie is uitgevoerd, raadt Adobe u aan te valideren of uw processen en gebruiksscenario&#39;s correct werken met deze nieuwe versie en om eventuele problemen aan [Adobe Client Care](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html) te melden.
+A: Aangezien uw het opvoeren instantie wordt bevorderd, adviseert Adobe om uw processen te bevestigen en gebruiksgevallen behoorlijk met deze nieuwe versie werken, en om het even welk probleem aan [ de Zorg van de Cliënt van Adobe te melden ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
-**V: Heb ik tijdens het upgradeproces toegang tot de instantie?**
+**Q: Zal er toegang tot de instantie tijdens het verbeteringsproces zijn?**
 
-A: Nee. Tijdens een upgrade van de database kan het zijn dat deze gedurende enkele minuten niet toegankelijk is. Alle processen worden automatisch opnieuw gestart.
+A: Nee. Tijdens de upgrade van de instantie is de database mogelijk niet gedurende een paar minuten toegankelijk. Alle processen worden automatisch opnieuw gestart.
 
-**V: Worden de berichten nog steeds verstuurd?**
+**Q: Zal de berichten blijven worden verzonden?**
 
-A: Nee. Berichten worden gedurende een paar minuten niet verzonden. Wanneer de upgrade is voltooid, worden de processen automatisch opnieuw gestart.
+A: Nee. Berichten worden over een paar minuten niet verzonden. Wanneer de upgrade is voltooid, worden de processen automatisch opnieuw gestart.
 
-**V: Blijven de workflows lopen en worden de leveringen verzonden?**
+**Q: Zal de werkschema&#39;s blijven in werking stellen en de leveringen verzenden?**
 
-A: Nee. Tijdens de upgrade worden de workflowserver en MTA allebei onderbroken. Als gevolg hiervan worden gedurende enkele minuten geen workflows uitgevoerd en geen leveringen verzonden. U hoeft niets te doen, de workflows worden opnieuw gestart zodra de instantie is bijgewerkt.
+A: Nee. Tijdens bouwstijlverbetering, werkschemaserver en MTA allebei tegengehouden. Dit heeft tot gevolg dat workflows niet worden uitgevoerd en dat leveringen niet gedurende een paar minuten worden verzonden. Er is geen actie vereist: de workflows worden opnieuw gestart zodra de upgrade van de instantie wordt uitgevoerd.
 
-**V: Werkt de tracking van koppelingen in berichten nog tijdens de upgrade?**
+**Q: Zal het volgen van verbindingen in berichten nog tijdens de verbetering werken?**
 
-A: Ja, deze blijven werken. Er kunnen geen nieuwe e-mailberichten worden verzonden tijdens de upgrade, maar het bijhouden van koppelingen in reeds verzonden e-mails blijft werken
+A: Ja, ze zullen werken. Er kunnen geen nieuwe e-mailberichten worden verzonden tijdens de upgrade, maar de trackingkoppelingen in al verzonden e-mails zijn actief.
 
-**V: Hoe weet ik dat de upgrade is voltooid?**
+**Q: Hoe weet ik dat de verbetering wordt voltooid?**
 
-A: Bij het inloggen bij Campaign wordt een pop-upmelding met de laatste versie weergegeven.
+A: Wanneer het programma openen aan Campaign, zal popup van het versiebericht, met de recentste versie worden getoond.
 
-Neem voor alle andere vragen contact op met [Adobe Client Care](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html).
+Voor andere vragen, contacteer [ de Zorg van de Cliënt van Adobe ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
