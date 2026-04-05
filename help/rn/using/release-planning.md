@@ -65,7 +65,7 @@ A: De veranderingen zijn vermeld in de [&#x200B; Nota&#39;s van de Versie &#x200
 
 **Q: Wat is het bevestigingsproces?**
 
-A: Aangezien uw het opvoeren instantie wordt bevorderd, adviseert Adobe om uw processen te bevestigen en gebruiksgevallen behoorlijk met deze nieuwe versie werken, en om het even welk probleem aan [&#x200B; de Zorg van de Cliënt van Adobe te melden &#x200B;](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+A: Aangezien uw het opvoeren instantie wordt bevorderd, adviseert Adobe om uw processen te bevestigen en gebruiksgevallen behoorlijk met deze nieuwe versie werken, en om het even welk probleem aan [&#x200B; de Zorg van de Cliënt van Adobe te melden &#x200B;](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html).
 
 **Q: Zal er toegang tot de instantie tijdens het verbeteringsproces zijn?**
 
@@ -87,4 +87,4 @@ A: Ja, ze zullen werken. Er kunnen geen nieuwe e-mailberichten worden verzonden 
 
 A: Wanneer het programma openen aan Campaign, zal popup van het versiebericht, met de recentste versie worden getoond.
 
-Voor andere vragen, contacteer [&#x200B; de Zorg van de Cliënt van Adobe &#x200B;](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+Voor andere vragen, contacteer [&#x200B; de Zorg van de Cliënt van Adobe &#x200B;](https://helpx.adobe.com/nl/enterprise/using/support-for-experience-cloud.html).

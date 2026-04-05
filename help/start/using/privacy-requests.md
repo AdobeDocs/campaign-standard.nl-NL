@@ -45,7 +45,7 @@ Daarom is het uw verantwoordelijkheid als Data Controller om de identiteit te be
 
 Definieer de naamruimte die u wilt gebruiken voordat u de privacyverzoeken maakt. De naamruimte is de sleutel die wordt gebruikt om het gegevensonderwerp in de Adobe Campaign-database te identificeren. Er zijn twee naamruimten beschikbaar: e-mail en mobiele telefoon. Voer de volgende stappen uit als u een andere naamruimte nodig hebt (bijvoorbeeld een aangepast profielveld).
 
-Ook verwijs naar dit [&#x200B; leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html#privacy) op hoe te om tot een namespace te leiden.
+Ook verwijs naar dit [&#x200B; leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=nl-NL#privacy) op hoe te om tot een namespace te leiden.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Ook verwijs naar dit [&#x200B; leerprogramma &#x200B;](https://experienceleague.
 
    ![](assets/privacy-create-new-namespace.png)
 
-   Meer over identiteit namespaces leren, zie de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html).
+   Meer over identiteit namespaces leren, zie de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=nl-NL).
 
 1. Één Namespace van de Dienst van de Identiteit wordt in kaart gebracht aan één namespace in Campagne. U moet opgeven hoe de naamruimte in Campagne moet worden afgestemd.
 
@@ -91,13 +91,13 @@ Ook verwijs naar dit [&#x200B; leerprogramma &#x200B;](https://experienceleague.
 
 De integratie van de Dienst van de Kern van de Privacy staat u toe om uw verzoeken van de Privacy in een multi-oplossingscontext door één enkele vraag te automatiseren JSON API. De verzoeken van de privacy die van de Dienst van de Kern van de Privacy aan alle oplossingen van Experience Cloud worden geduwd worden automatisch behandeld door Campagne via een specifieke werkschema.
 
-Verwijs naar de [&#x200B; Experience Platform Privacy Service &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) documentatie om te leren hoe te om de verzoeken van de Privacy van de Dienst van de Kern van de Privacy tot stand te brengen.
+Verwijs naar de [&#x200B; Experience Platform Privacy Service &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=nl-NL) documentatie om te leren hoe te om de verzoeken van de Privacy van de Dienst van de Kern van de Privacy tot stand te brengen.
 
 >[!IMPORTANT]
 >
->Om een verzoek voor te leggen gebruikend het type van douanenamespace, hefboomwerking de [&#x200B; methode JSON &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#json){target="_blank"} en namespaceId toe te voegen aan het verzoek, of de [&#x200B; API vraag &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html#access-delete){target="_blank"} te gebruiken om het verzoek te doen.
+>Om een verzoek voor te leggen gebruikend het type van douanenamespace, hefboomwerking de [&#x200B; methode JSON &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=nl-NL#json){target="_blank"} en namespaceId toe te voegen aan het verzoek, of de [&#x200B; API vraag &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=nl-NL#access-delete){target="_blank"} te gebruiken om het verzoek te doen.
 >
->Gebruik slechts het [&#x200B; gebruikersinterface van de Privacy &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"} om verzoeken voor te leggen gebruikend het standaardnamespacetype.
+>Gebruik slechts het [&#x200B; gebruikersinterface van de Privacy &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=nl-NL#request-builder){target="_blank"} om verzoeken voor te leggen gebruikend het standaardnamespacetype.
 
 Elke de kernde dienstbaan van de Privacy wordt verdeeld in veelvoudige verzoeken van de Privacy in Campagne die op hoeveel namespaces wordt gebaseerd, één verzoek beantwoordt aan één namespace. Bovendien kan één taak op meerdere instanties worden uitgevoerd. Daarom worden er meerdere bestanden gemaakt voor één taak. Als een aanvraag bijvoorbeeld twee naamruimten heeft en op drie instanties wordt uitgevoerd, worden in totaal zes bestanden verzonden. Eén bestand per naamruimte en instantie.
 
@@ -125,7 +125,7 @@ Hier is de lijst van uit-van-de-doos middelen die in aanmerking worden genomen w
 
 Als u douanemiddelen creeerde die een verbinding aan het profielmiddel (eigen type) hebben, zullen zij ook in aanmerking worden genomen. Bijvoorbeeld, als u een transactiemiddel verbonden aan het profielmiddel en een middel van de transactiedetails verbonden aan het transactiemiddel hebt, zullen zij allebei in aanmerking worden genomen.
 
-Ook verwijs naar [&#x200B; dit leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html#privacy) op hoe te om douanemiddelen te wijzigen.
+Ook verwijs naar [&#x200B; dit leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=nl-NL#privacy) op hoe te om douanemiddelen te wijzigen.
 
 Dit werkt alleen als u de optie **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** selecteert in de aangepaste bron:
 

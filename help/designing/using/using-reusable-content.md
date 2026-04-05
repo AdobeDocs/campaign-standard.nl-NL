@@ -149,7 +149,7 @@ In deze video&#39;s wordt getoond hoe u uw eigen sjabloon kunt maken.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
 
-De extra hoe te video&#39;s van Campaign Standard zijn beschikbaar [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html).
+De extra hoe te video&#39;s van Campaign Standard zijn beschikbaar [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=nl-NL).
 
 ## Informatie over fragmenten {#about-fragments}
 

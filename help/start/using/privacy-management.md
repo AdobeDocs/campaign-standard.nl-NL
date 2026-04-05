@@ -72,7 +72,7 @@ Om u te helpen uw bereidheid van de Privacy vergemakkelijken, staat Adobe Campai
 
 Leren hoe u **Toegang** kunt tot stand brengen en **schrapt** verzoeken en hoe Adobe Campaign hen verwerkt, verwijs naar de [&#x200B; implementatiestappen &#x200B;](../../start/using/privacy-requests.md#about-privacy-requests).
 
-De leerprogramma&#39;s op het beheer van de Privacy in Campaign Standard zijn ook beschikbaar [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html#privacy).
+De leerprogramma&#39;s op het beheer van de Privacy in Campaign Standard zijn ook beschikbaar [&#x200B; hier &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=nl-NL#privacy).
 
 >[!NOTE]
 >

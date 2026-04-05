@@ -35,7 +35,7 @@ De berichten kunnen ook tijdens de leveringsvoorbereiding worden uitgesloten als
 
 * [quarantainebeheer](../../sending/using/understanding-quarantine-management.md)
 * [Over opt-in en opt-out in campagne](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [&#x200B; Bounces &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [&#x200B; Bounces &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=nl-NL#metrics-for-deliverability)
 
 ## Leveringsfouten identificeren voor een bericht {#identifying-delivery-failures-for-a-message}
 
@@ -75,8 +75,8 @@ De mogelijke oorzaken van een mislukking van de levering zijn:
 
 
 **Verwante onderwerpen:**
-* [&#x200B; Harde grenzen &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
-* [&#x200B; Zachte grenzen &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [&#x200B; Harde grenzen &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=nl-NL#hard-bounces)
+* [&#x200B; Zachte grenzen &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=nl-NL#soft-bounces)
 
 ## Retourneert na een tijdelijke leverfout {#retries-after-a-delivery-temporary-failure}
 
@@ -120,7 +120,7 @@ Voor de synchrone foutenmeldingen van de leveringsmislukking, bepaalt Adobe Camp
 
 Asynchrone stuiteringen worden nog steeds gekwalificeerd door het inMail-proces via de **[!UICONTROL Inbound email]** -regels. Om tot deze regels toegang te hebben, klik het **Adobe** embleem, bij top-left, dan selecteren **[!UICONTROL Administration > Channels > Email > Email processing rules]** en selecteren **[!UICONTROL Bounce mails]**. Voor meer op deze regel, zie [&#x200B; deze sectie &#x200B;](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
-Voor meer op stuitingen en de verschillende soorten stuitingen, zie [&#x200B; deze sectie &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+Voor meer op stuitingen en de verschillende soorten stuitingen, zie [&#x200B; deze sectie &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=nl-NL#metrics-for-deliverability).
 
 <!--
 MOVED TO configuring-email-channel.md > LEGACY SETTINGS

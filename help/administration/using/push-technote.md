@@ -57,7 +57,7 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
 * Als u deze oudere versie van de SDK nog gebruikt, moet u uw implementatie bijwerken met Adobe Experience Platform SDK. Leer hoe te om aan de Ervaring van Adobe te migreren Plaform SDK in [&#x200B; dit artikel &#x200B;](sdkv4-migration.md).
 
-* Zorg ervoor u de **Mobiele toestemming van de Configuratie van de App** in Mobiele de Inzameling van Gegevens van Adobe Experience Platform alvorens de hieronder stappen uit te voeren hebt. [Meer info](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* Zorg ervoor u de **Mobiele toestemming van de Configuratie van de App** in Mobiele de Inzameling van Gegevens van Adobe Experience Platform alvorens de hieronder stappen uit te voeren hebt. [Meer info](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=nl-NL#adobe-experience-platform-data-collection-permissions){target="_blank"}.
 
 
 #### Overgangprocedure {#fcm-transition-steps}

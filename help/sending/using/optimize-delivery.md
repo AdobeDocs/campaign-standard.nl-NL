@@ -34,7 +34,7 @@ Verschillende factoren kunnen de serverprestaties rechtstreeks beïnvloeden en h
 
 * De [&#x200B; werkschemauitvoering &#x200B;](../../automating/using/about-workflow-execution.md): het controleren van uw werkschema is essentieel om de kwesties van de platformprestaties te vermijden. Volg de vermelde richtlijnen [&#x200B; in deze pagina &#x200B;](../../automating/using/monitoring-workflow-execution.md). Leer meer in de [&#x200B; werkschema beste praktijken &#x200B;](../../automating/using/best-practices-workflows.md) sectie.
 
-* U kunt hefboomwerking &lbrace;de mogelijkheden van het Controlebord van de Campagne [&#x200B; om uw platform te controleren, gebruikend &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html) prestaties controlerende [&#x200B; functies.](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html)
+* U kunt hefboomwerking &lbrace;de mogelijkheden van het Controlebord van de Campagne [&#x200B; om uw platform te controleren, gebruikend &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=nl-NL) prestaties controlerende [&#x200B; functies.](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=nl-NL)
 
 ## Netwerkconfiguratie controleren {#network-config}
 
@@ -52,7 +52,7 @@ Om uw ontvangers&#39; te bereiken inbox zonder te stuiteren of als spam worden g
 
    * Wanneer u uw e-mail controleert op leverbaarheid, wilt u zich op vier hoofdcategorieën concentreren: gegevenskwaliteit, bericht en inhoud, verzendende infrastructuur, en reputatie. Voor een diepere duik op dit onderwerp, verwijs naar [&#x200B; deze sectie &#x200B;](../../sending/using/about-deliverability.md).
 
-* Wanneer het beginnen van een nieuw platform, pas de aanbevelingen toe die op [&#x200B; worden gedetailleerd deze pagina &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
+* Wanneer het beginnen van een nieuw platform, pas de aanbevelingen toe die op [&#x200B; worden gedetailleerd deze pagina &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=nl-NL#transition-process).
 
 * Neem contact op met uw Adobe-vertegenwoordiger voor hulp.
 

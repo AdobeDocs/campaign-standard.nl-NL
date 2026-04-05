@@ -31,7 +31,7 @@ In het configuratiescherm voor e-mail kunt u de parameters voor het e-mailkanaal
 
    * Zowel de afzender als de foutenadressen worden opstelling door Adobe. Deze velden mogen niet leeg zijn.
    * U kunt deze velden niet bewerken. Neem contact op met het Adobe-team voor klantenservice als u een adres wilt bijwerken.
-   * Om een ander adres toe te voegen, kunt u [&#x200B; Controlebord van de Campagne &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) gebruiken aan opstelling een nieuw subdomain, of het team van de Zorg van de Klant van Adobe contacteren. Als u meerdere maskers gebruikt, worden deze door komma&#39;s van elkaar gescheiden.
+   * Om een ander adres toe te voegen, kunt u [&#x200B; Controlebord van de Campagne &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=nl-NL) gebruiken aan opstelling een nieuw subdomain, of het team van de Zorg van de Klant van Adobe contacteren. Als u meerdere maskers gebruikt, worden deze door komma&#39;s van elkaar gescheiden.
    * Het is een goede praktijk om adressen te plaatsen gebruikend een ster zoals **@yourdomain.com**: het laat u toe om het even welk adres te gebruiken dat met uw subdomeinnaam beëindigt.
 
 * **Leverbaarheid**
