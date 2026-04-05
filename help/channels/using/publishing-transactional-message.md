@@ -18,13 +18,13 @@ ht-degree: 0%
 
 # Levenscyclus van transactionele berichten {#publishing-transactional-message}
 
-Wanneer het [ transactionele bericht ](../../channels/using/editing-transactional-message.md) klaar is om te worden verzonden, kan het worden gepubliceerd.
+Wanneer het [&#x200B; transactionele bericht &#x200B;](../../channels/using/editing-transactional-message.md) klaar is om te worden verzonden, kan het worden gepubliceerd.
 
 De stappen voor het publiceren, pauzeren, verwijderen en publiceren van een transactiebericht worden hieronder beschreven.
 
 >[!IMPORTANT]
 >
->Slechts kunnen de gebruikers met de [ rol van het Beleid ](../../administration/using/users-management.md#functional-administrators) tot transactionele berichten toegang hebben en publiceren.
+>Slechts kunnen de gebruikers met de [&#x200B; rol van het Beleid &#x200B;](../../administration/using/users-management.md#functional-administrators) tot transactionele berichten toegang hebben en publiceren.
 
 ## Transactieproces voor de publicatie van berichten {#transactional-messaging-pub-process}
 
@@ -96,7 +96,7 @@ Nadat u het transactiebericht hebt bewerkt en getest, kunt u het publiceren. Kli
 
 Nu, zodra de gebeurtenis van de &quot;Verlaat van de Kar&quot;wordt teweeggebracht, veroorzaakt het automatisch een bericht dat de titel en de familienaam van de ontvanger, de kar URL, het laatste geraadpleegde product of een lijst van producten bevat als u een productlijst, en het totale kartbedrag om te verzenden bepaalde.
 
-Klik op de knop **[!UICONTROL Reports]** om rapporten over uw transactiemelding te openen. Zie [ Dynamische rapporten ](../../reporting/using/about-dynamic-reports.md).
+Klik op de knop **[!UICONTROL Reports]** om rapporten over uw transactiemelding te openen. Zie [&#x200B; Dynamische rapporten &#x200B;](../../reporting/using/about-dynamic-reports.md).
 
 ![](assets/message-center_13.png)
 
@@ -109,7 +109,7 @@ Klik op de knop **[!UICONTROL Reports]** om rapporten over uw transactiemelding 
 
 U kunt het publiceren van uw transactiemelding opschorten door de **[!UICONTROL Pause]** knoop, bijvoorbeeld te gebruiken om de gegevens te wijzigen in het bericht. De gebeurtenissen worden daarom niet meer verwerkt, maar in plaats daarvan in een wachtrij in de Adobe Campaign-database opgeslagen.
 
-De een rij gevormde gebeurtenissen worden gehouden tijdens een periode die in REST API (zie de [ REST API documentatie ](../../api/using/managing-transactional-messages.md)) of in de trekkergebeurtenis wordt bepaald als u de de kerndienst van Triggers gebruikt (zie [ Ongeveer de Trekkers van de Wolk van de Ervaring van Adobe ](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+De een rij gevormde gebeurtenissen worden gehouden tijdens een periode die in REST API (zie de [&#x200B; REST API documentatie &#x200B;](../../api/using/managing-transactional-messages.md)) of in de trekkergebeurtenis wordt bepaald als u de de kerndienst van Triggers gebruikt (zie [&#x200B; Ongeveer de Trekkers van de Wolk van de Ervaring van Adobe &#x200B;](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
@@ -125,11 +125,11 @@ Zelfs als de gebeurtenis via uw website wordt geactiveerd, worden de bijbehorend
 
 >[!NOTE]
 >
->Om het bericht opnieuw te publiceren, moet u terug naar de overeenkomstige gebeurtenisconfiguratie gaan, [ publiceren de gebeurtenis ](../../channels/using/publishing-transactional-event.md), en dan [ publiceren het bericht ](#publishing-a-transactional-message).
+>Om het bericht opnieuw te publiceren, moet u terug naar de overeenkomstige gebeurtenisconfiguratie gaan, [&#x200B; publiceren de gebeurtenis &#x200B;](../../channels/using/publishing-transactional-event.md), en dan [&#x200B; publiceren het bericht &#x200B;](#publishing-a-transactional-message).
 
 Als u de publicatie van een gepauzeerd transactiebericht ongedaan maakt, moet u mogelijk tot 24 uur wachten voordat u het bericht opnieuw kunt publiceren. Hiermee kan de **[!UICONTROL Database cleanup]** -workflow alle gebeurtenissen opschonen die naar de wachtrij zijn verzonden.
 
-De stappen voor het pauzeren van een bericht zijn gedetailleerd in [ die een transactionele berichtpublicatie ](#suspending-a-transactional-message-publication) sectie schorsen.
+De stappen voor het pauzeren van een bericht zijn gedetailleerd in [&#x200B; die een transactionele berichtpublicatie &#x200B;](#suspending-a-transactional-message-publication) sectie schorsen.
 
 De **[!UICONTROL Database cleanup]** -workflow, die elke dag om 4.00 uur wordt uitgevoerd, is toegankelijk via **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]** .
 
@@ -145,9 +145,9 @@ Zodra een transactiebericht niet gepubliceerd is, of als een transactiebericht n
 
 Het verwijderen van een transactiebericht kan echter alleen onder bepaalde voorwaarden worden uitgevoerd:
 
-* Zorg ervoor dat het transactiebericht de status **[!UICONTROL Draft]** heeft, anders kunt u het bericht niet verwijderen. De **[!UICONTROL Draft]** status is op een bericht van toepassing dat nog niet gepubliceerd is, of dat [ niet gepubliceerd ](#unpublishing-a-transactional-message) (en niet [ gepauzeerd ](#suspending-a-transactional-message-publication)) is geweest.
+* Zorg ervoor dat het transactiebericht de status **[!UICONTROL Draft]** heeft, anders kunt u het bericht niet verwijderen. De **[!UICONTROL Draft]** status is op een bericht van toepassing dat nog niet gepubliceerd is, of dat [&#x200B; niet gepubliceerd &#x200B;](#unpublishing-a-transactional-message) (en niet [&#x200B; gepauzeerd &#x200B;](#suspending-a-transactional-message-publication)) is geweest.
 
-* **Transactionele berichten**: Tenzij een ander transactiebericht met de overeenkomstige gebeurtenis verbonden is, als het transactiebericht unpublished is, moet de gebeurtenisconfiguratie ook unpublished zijn om uw transactiebericht met succes te schrappen. Voor meer op dit, zie [ Unpublishing een gebeurtenis ](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
+* **Transactionele berichten**: Tenzij een ander transactiebericht met de overeenkomstige gebeurtenis verbonden is, als het transactiebericht unpublished is, moet de gebeurtenisconfiguratie ook unpublished zijn om uw transactiebericht met succes te schrappen. Voor meer op dit, zie [&#x200B; Unpublishing een gebeurtenis &#x200B;](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
   >[!IMPORTANT]
   >

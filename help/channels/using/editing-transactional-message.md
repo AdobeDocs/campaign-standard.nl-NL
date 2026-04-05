@@ -20,15 +20,15 @@ ht-degree: 0%
 
 Zodra u een gebeurtenis <!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))--> hebt gecreeerd en gepubliceerd, wordt het overeenkomstige transactiebericht automatisch gecreeerd.
 
-De stappen om de gebeurtenis te vormen en te publiceren worden voorgesteld in [ Vormend een transactionele gebeurtenis ](../../channels/using/configuring-transactional-event.md) en [ het Publiceren van een transactiegebeurtenis ](../../channels/using/publishing-transactional-event.md) sectie.
+De stappen om de gebeurtenis te vormen en te publiceren worden voorgesteld in [&#x200B; Vormend een transactionele gebeurtenis &#x200B;](../../channels/using/configuring-transactional-event.md) en [&#x200B; het Publiceren van een transactiegebeurtenis &#x200B;](../../channels/using/publishing-transactional-event.md) sectie.
 
 De stappen voor het openen, bewerken en personaliseren van dit bericht worden hieronder beschreven.
 
 >[!IMPORTANT]
 >
->Slechts kunnen de gebruikers met de [ rol van het Beleid ](../../administration/using/users-management.md#functional-administrators) tot transactionele berichten toegang hebben en uitgeven.
+>Slechts kunnen de gebruikers met de [&#x200B; rol van het Beleid &#x200B;](../../administration/using/users-management.md#functional-administrators) tot transactionele berichten toegang hebben en uitgeven.
 
-Zodra uw bericht klaar is, kan het worden getest en worden gepubliceerd. Zie [ het Testen van een transactioneel bericht ](../../channels/using/testing-transactional-message.md) en [ Transactionele berichtlevenscyclus ](../../channels/using/publishing-transactional-message.md).
+Zodra uw bericht klaar is, kan het worden getest en worden gepubliceerd. Zie [&#x200B; het Testen van een transactioneel bericht &#x200B;](../../channels/using/testing-transactional-message.md) en [&#x200B; Transactionele berichtlevenscyclus &#x200B;](../../channels/using/publishing-transactional-message.md).
 
 ## Toegang tot transactieberichten {#accessing-transactional-messages}
 
@@ -43,7 +43,7 @@ Om tot het transactiebericht toegang te hebben dat u creeerde:
 
    ![](assets/message-center_message-board.png)
 
-U kunt tot een transactioneel bericht door de verbinding ook direct toegang hebben die in de linkerkant van het overeenkomstige scherm van de gebeurtenisconfiguratie wordt gevestigd. Zie [ Voorproef en het publiceren van een gebeurtenis ](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
+U kunt tot een transactioneel bericht door de verbinding ook direct toegang hebben die in de linkerkant van het overeenkomstige scherm van de gebeurtenisconfiguratie wordt gevestigd. Zie [&#x200B; Voorproef en het publiceren van een gebeurtenis &#x200B;](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 ## Een transactiebericht aanpassen {#personalizing-a-transactional-message}
 
@@ -51,13 +51,13 @@ Voer de onderstaande stappen uit om een transactiebericht te bewerken en aan te 
 
 >[!NOTE]
 >
->Deze sectie beschrijft hoe te om een **op gebeurtenis-gebaseerde** transactiebericht uit te geven. De **op profiel-gebaseerde** transactionele berichtspecifieke eigenschappen zijn gedetailleerd [ hieronder ](#profile-transactional-message-specificities).
+>Deze sectie beschrijft hoe te om een **op gebeurtenis-gebaseerde** transactiebericht uit te geven. De **op profiel-gebaseerde** transactionele berichtspecifieke eigenschappen zijn gedetailleerd [&#x200B; hieronder &#x200B;](#profile-transactional-message-specificities).
 >
->De configuratiestappen om een op gebeurtenis-gebaseerd transactiebericht tot stand te brengen worden voorgesteld in [ deze sectie ](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
+>De configuratiestappen om een op gebeurtenis-gebaseerd transactiebericht tot stand te brengen worden voorgesteld in [&#x200B; deze sectie &#x200B;](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 
-U wilt bijvoorbeeld een bericht sturen naar gebruikers van uw website die producten aan hun winkelwagentje hebben toegevoegd en de site verlaten zonder dat ze de producten hebben gekocht. Dit voorbeeld wordt voorgesteld in de [ Transactionele overseinen werkend principe ](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) sectie.
+U wilt bijvoorbeeld een bericht sturen naar gebruikers van uw website die producten aan hun winkelwagentje hebben toegevoegd en de site verlaten zonder dat ze de producten hebben gekocht. Dit voorbeeld wordt voorgesteld in de [&#x200B; Transactionele overseinen werkend principe &#x200B;](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) sectie.
 
-1. Klik op het **[!UICONTROL Content]** -blok om het onderwerp en de inhoud van uw bericht te wijzigen. In dit voorbeeld selecteert u een sjabloon met afbeeldingen en tekst. Voor meer op e-mailinhoudsmalplaatjes, zie [ het Ontwerpen van e-mails gebruikend malplaatjes ](../../designing/using/using-reusable-content.md#designing-templates).
+1. Klik op het **[!UICONTROL Content]** -blok om het onderwerp en de inhoud van uw bericht te wijzigen. In dit voorbeeld selecteert u een sjabloon met afbeeldingen en tekst. Voor meer op e-mailinhoudsmalplaatjes, zie [&#x200B; het Ontwerpen van e-mails gebruikend malplaatjes &#x200B;](../../designing/using/using-reusable-content.md#designing-templates).
 
    ![](assets/message-center_6.png)
 
@@ -67,13 +67,13 @@ U wilt bijvoorbeeld een bericht sturen naar gebruikers van uw website die produc
    >
    >De koppeling naar het verlaten winkelwagentje is een koppeling naar een externe URL die de persoon omleidt naar zijn winkelwagentje. Deze parameter wordt niet beheerd in Adobe Campaign.
 
-1. In dit voorbeeld, wilt u drie gebieden toevoegen die u bepaalde toen u [ uw gebeurtenis ](../../channels/using/configuring-transactional-event.md) creeerde: voornaam, het laatst geraadpleegde product, totaal kartbedrag. Om dit te doen, [ neem een verpersoonlijkingsgebied ](../../designing/using/personalization.md#inserting-a-personalization-field) in de berichtinhoud op.
+1. In dit voorbeeld, wilt u drie gebieden toevoegen die u bepaalde toen u [&#x200B; uw gebeurtenis &#x200B;](../../channels/using/configuring-transactional-event.md) creeerde: voornaam, het laatst geraadpleegde product, totaal kartbedrag. Om dit te doen, [&#x200B; neem een verpersoonlijkingsgebied &#x200B;](../../designing/using/personalization.md#inserting-a-personalization-field) in de berichtinhoud op.
 
 1. Blader naar deze velden via **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** .
 
    ![](assets/message-center_7.png)
 
-1. U kunt de inhoud van uw bericht ook verrijken. Om dit te doen, voeg gebieden van de lijst toe die u met uw gebeurtenisconfiguratie (zie [ het Verrijken van de gebeurtenis ](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)) verbond. In dit voorbeeld selecteert u het veld **[!UICONTROL Title (salutation)]** in de **[!UICONTROL Profile]** tabel tot en met **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** .
+1. U kunt de inhoud van uw bericht ook verrijken. Om dit te doen, voeg gebieden van de lijst toe die u met uw gebeurtenisconfiguratie (zie [&#x200B; het Verrijken van de gebeurtenis &#x200B;](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)) verbond. In dit voorbeeld selecteert u het veld **[!UICONTROL Title (salutation)]** in de **[!UICONTROL Profile]** tabel tot en met **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]** .
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -83,11 +83,11 @@ U wilt bijvoorbeeld een bericht sturen naar gebruikers van uw website die produc
 
 1. Geef een voorvertoning van uw bericht weer door het profiel te selecteren dat u voor deze gebeurtenis hebt gedefinieerd.
 
-   De stappen voor het voorvertonen van een bericht zijn gedetailleerd in de [ Voorhoudende berichten ](../../sending/using/previewing-messages.md) sectie.
+   De stappen voor het voorvertonen van een bericht zijn gedetailleerd in de [&#x200B; Voorhoudende berichten &#x200B;](../../sending/using/previewing-messages.md) sectie.
 
    ![](assets/message-center_9.png)
 
-   U kunt controleren of de verpersoonlijkingsvelden overeenkomen met de gegevens die zijn ingevoerd in het testprofiel. Voor meer op dit, zie [ Definiërend een specifiek testprofiel ](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
+   U kunt controleren of de verpersoonlijkingsvelden overeenkomen met de gegevens die zijn ingevoerd in het testprofiel. Voor meer op dit, zie [&#x200B; Definiërend een specifiek testprofiel &#x200B;](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
 
 <!--
 ## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
@@ -213,17 +213,17 @@ For more on creating a collection and related fields when configuring the event,
 
 ## Specifieke kenmerken van op profielen gebaseerde transactieberichten {#profile-transactional-message-specificities}
 
-U kunt transactionele berichten verzenden die op klant marketing profielen worden gebaseerd, die u toestaat om alle profielinformatie te hefboomwerking om de berichtinhoud te personaliseren, de unsubscription verbinding te gebruiken, en de regels van de marketingtypologie zoals [ vermoeidheidsregels ](../../sending/using/fatigue-rules.md) toe te passen.
+U kunt transactionele berichten verzenden die op klant marketing profielen worden gebaseerd, die u toestaat om alle profielinformatie te hefboomwerking om de berichtinhoud te personaliseren, de unsubscription verbinding te gebruiken, en de regels van de marketingtypologie zoals [&#x200B; vermoeidheidsregels &#x200B;](../../sending/using/fatigue-rules.md) toe te passen.
 
-* Voor meer op de verschillen tussen op gebeurtenis-gebaseerde en op profiel-gebaseerde transactionele berichten, zie [ deze sectie ](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types).
+* Voor meer op de verschillen tussen op gebeurtenis-gebaseerde en op profiel-gebaseerde transactionele berichten, zie [&#x200B; deze sectie &#x200B;](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types).
 
-* De configuratiestappen om een op profiel-gebaseerd transactiebericht tot stand te brengen zijn gedetailleerd in [ deze sectie ](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
+* De configuratiestappen om een op profiel-gebaseerd transactiebericht tot stand te brengen zijn gedetailleerd in [&#x200B; deze sectie &#x200B;](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages).
 
 De stappen voor het maken, bewerken en aanpassen van een bericht voor een profieltransactie zijn meestal dezelfde als voor een bericht voor een gebeurtenistransactie.
 
 De verschillen worden hieronder vermeld.
 
-1. [ ga het transactionele bericht ](#accessing-transactional-messages) dat werd gecreeerd om het uit te geven.
+1. [&#x200B; ga het transactionele bericht &#x200B;](#accessing-transactional-messages) dat werd gecreeerd om het uit te geven.
 1. Klik in het transactiebericht op de sectie **[!UICONTROL Content]** . Naast de transactionele e-mailsjablonen kunt u ook een e-mailsjabloon kiezen die zich richt op de **[!UICONTROL Profile]** -bron.
 
    ![](assets/message-center_marketing_templates.png)
@@ -232,11 +232,11 @@ De verschillen worden hieronder vermeld.
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
-   Voor meer op malplaatjes, zie [ deze sectie ](../../designing/using/using-reusable-content.md#content-templates).
+   Voor meer op malplaatjes, zie [&#x200B; deze sectie &#x200B;](../../designing/using/using-reusable-content.md#content-templates).
 
-1. Ook, in tegenstelling tot configuraties die op gebeurtenissen in real time worden gebaseerd, hebt u **directe toegang tot alle profielinformatie** om uw bericht te personaliseren. U kunt [ verpersoonlijkingsgebieden ](../../designing/using/personalization.md#inserting-a-personalization-field) toevoegen aangezien u voor een andere standaard marketing e-mail zou doen.
+1. Ook, in tegenstelling tot configuraties die op gebeurtenissen in real time worden gebaseerd, hebt u **directe toegang tot alle profielinformatie** om uw bericht te personaliseren. U kunt [&#x200B; verpersoonlijkingsgebieden &#x200B;](../../designing/using/personalization.md#inserting-a-personalization-field) toevoegen aangezien u voor een andere standaard marketing e-mail zou doen.
 
-1. Sla uw wijzigingen op voordat u het bericht publiceert. Voor meer op dit, zie [ het Publiceren van een transactioneel bericht ](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
+1. Sla uw wijzigingen op voordat u het bericht publiceert. Voor meer op dit, zie [&#x200B; het Publiceren van een transactioneel bericht &#x200B;](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message).
 
 <!--
 ### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}

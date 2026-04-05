@@ -18,17 +18,17 @@ ht-degree: 0%
 
 # Transactiegebeurtenissen publiceren {#publishing-transactional-event}
 
-Zodra [ configuratie ](../../channels/using/configuring-transactional-event.md) wordt gedaan, is de gebeurtenis klaar om te worden gepubliceerd. De stappen voor het voorvertonen, publiceren, publiceren en verwijderen van een gebeurtenis worden hieronder beschreven.
+Zodra [&#x200B; configuratie &#x200B;](../../channels/using/configuring-transactional-event.md) wordt gedaan, is de gebeurtenis klaar om te worden gepubliceerd. De stappen voor het voorvertonen, publiceren, publiceren en verwijderen van een gebeurtenis worden hieronder beschreven.
 
 >[!IMPORTANT]
 >
->Slechts [ Functionele beheerders ](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) --> hebben de aangewezen rechten om gebeurtenisconfiguraties te publiceren.
+>Slechts [&#x200B; Functionele beheerders &#x200B;](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) --> hebben de aangewezen rechten om gebeurtenisconfiguraties te publiceren.
 
-Een grafiek die het volledige transactieoverseinenpublicatieproces, met inbegrip van het publiceren en unpublishing gebeurtenisconfiguraties illustreert, is beschikbaar in [ deze sectie ](../../channels/using/publishing-transactional-message.md).
+Een grafiek die het volledige transactieoverseinenpublicatieproces, met inbegrip van het publiceren en unpublishing gebeurtenisconfiguraties illustreert, is beschikbaar in [&#x200B; deze sectie &#x200B;](../../channels/using/publishing-transactional-message.md).
 
 Zodra de publicatie is voltooid:
-* Het overeenkomstige transactiemelding wordt automatisch gecreeerd. Zie [ het Uitgeven van transactionele berichten ](../../channels/using/editing-transactional-message.md).
-* De API die door uw websiteontwikkelaar wordt gebruikt, wordt opgesteld en de transactionele gebeurtenissen kunnen nu worden verzonden. Zie [ de gebeurtenis die ](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) teweegbrengt integreren.
+* Het overeenkomstige transactiemelding wordt automatisch gecreeerd. Zie [&#x200B; het Uitgeven van transactionele berichten &#x200B;](../../channels/using/editing-transactional-message.md).
+* De API die door uw websiteontwikkelaar wordt gebruikt, wordt opgesteld en de transactionele gebeurtenissen kunnen nu worden verzonden. Zie [&#x200B; de gebeurtenis die &#x200B;](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) teweegbrengt integreren.
 
 ## Een gebeurtenis voorvertonen en publiceren {#previewing-and-publishing-the-event}
 
@@ -36,13 +36,13 @@ Voordat u de gebeurtenis kunt gebruiken, moet u deze voorvertonen en publiceren.
 
 1. Klik op de knop **[!UICONTROL API preview]** om een simulatie van de REST API te bekijken die door de ontwikkelaar van de website wordt gebruikt voordat deze wordt gepubliceerd.
 
-   Nadat de gebeurtenis is gepubliceerd, kunt u met deze knop ook een voorvertoning van de API in productie zien. Zie [ de gebeurtenis die ](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) teweegbrengt integreren.
+   Nadat de gebeurtenis is gepubliceerd, kunt u met deze knop ook een voorvertoning van de API in productie zien. Zie [&#x200B; de gebeurtenis die &#x200B;](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) teweegbrengt integreren.
 
    ![](assets/message-center_api_preview.png)
 
    >[!NOTE]
    >
-   >De REST API varieert afhankelijk van het geselecteerde kanaal en de geselecteerde doeldimensie. Voor meer details op de diverse configuraties, verwijs naar [ deze sectie ](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations).
+   >De REST API varieert afhankelijk van het geselecteerde kanaal en de geselecteerde doeldimensie. Voor meer details op de diverse configuraties, verwijs naar [&#x200B; deze sectie &#x200B;](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations).
 
 1. Klik op **[!UICONTROL Publish]** om de publicatie te starten.
 
@@ -58,7 +58,7 @@ Voordat u de gebeurtenis kunt gebruiken, moet u deze voorvertonen en publiceren.
    >
    >Telkens wanneer u de gebeurtenis wijzigt, moet u nogmaals op **[!UICONTROL Publish]** klikken om de bijgewerkte REST API te genereren die door uw websiteontwikkelaar wordt gebruikt.
 
-   Zodra de gebeurtenis is gepubliceerd, wordt het a [ transactiebericht ](../../channels/using/editing-transactional-message.md) verbonden aan de nieuwe gebeurtenis automatisch gecreeerd.
+   Zodra de gebeurtenis is gepubliceerd, wordt het a [&#x200B; transactiebericht &#x200B;](../../channels/using/editing-transactional-message.md) verbonden aan de nieuwe gebeurtenis automatisch gecreeerd.
 
 1. U kunt tot dit transactiebericht direct toegang hebben door de verbinding die in het linkerzijgebied wordt gevestigd.
 
@@ -66,7 +66,7 @@ Voordat u de gebeurtenis kunt gebruiken, moet u deze voorvertonen en publiceren.
 
    >[!NOTE]
    >
-   >Als de gebeurtenis het verzenden van een transactiemelding moet activeren, moet u het bericht wijzigen en publiceren dat net is gemaakt. Zie [ het Uitgeven ](../../channels/using/editing-transactional-message.md) en [ het Publiceren van een transactiebericht ](../../channels/using/publishing-transactional-message.md) secties. U moet ook [ deze trekkergebeurtenis ](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) in uw website integreren.
+   >Als de gebeurtenis het verzenden van een transactiemelding moet activeren, moet u het bericht wijzigen en publiceren dat net is gemaakt. Zie [&#x200B; het Uitgeven &#x200B;](../../channels/using/editing-transactional-message.md) en [&#x200B; het Publiceren van een transactiebericht &#x200B;](../../channels/using/publishing-transactional-message.md) secties. U moet ook [&#x200B; deze trekkergebeurtenis &#x200B;](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) in uw website integreren.
 
 1. Zodra Adobe Campaign gebeurtenissen ontvangt die betrekking hebben op deze gebeurtenisconfiguratie, kunt u op de koppeling **[!UICONTROL Latest transactional events]** onder de sectie **[!UICONTROL History]** klikken om toegang te krijgen tot de meest recente gebeurtenissen die door uw externe service zijn verzonden en door Adobe Campaign zijn verwerkt.
 
@@ -84,7 +84,7 @@ Zelfs als de gebeurtenis via uw website wordt geactiveerd, worden de bijbehorend
 
 >[!NOTE]
 >
->Als u het overeenkomstige transactiemelding reeds hebt gepubliceerd, wordt de transactieberichtpublicatie ook geannuleerd. Zie [ Unpublishing een transactioneel bericht ](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message).
+>Als u het overeenkomstige transactiemelding reeds hebt gepubliceerd, wordt de transactieberichtpublicatie ook geannuleerd. Zie [&#x200B; Unpublishing een transactioneel bericht &#x200B;](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message).
 
 Klik op de knop **[!UICONTROL Publish]** om een nieuwe REST API te genereren.
 
@@ -109,7 +109,7 @@ Nadat een gebeurtenis niet gepubliceerd is of nog niet gepubliceerd is, kunt u d
 
    >[!NOTE]
    >
-   >Zorg ervoor dat de gebeurtenisconfiguratie de status **[!UICONTROL Draft]** heeft, anders kunt u deze niet verwijderen. De **[!UICONTROL Draft]** status is op een gebeurtenis van toepassing die nog niet gepubliceerd is of die [ niet gepubliceerd ](#unpublishing-an-event) is geweest.
+   >Zorg ervoor dat de gebeurtenisconfiguratie de status **[!UICONTROL Draft]** heeft, anders kunt u deze niet verwijderen. De **[!UICONTROL Draft]** status is op een gebeurtenis van toepassing die nog niet gepubliceerd is of die [&#x200B; niet gepubliceerd &#x200B;](#unpublishing-an-event) is geweest.
 
 1. Klik op **[!UICONTROL Confirm]** .
 

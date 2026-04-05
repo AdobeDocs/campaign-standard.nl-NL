@@ -46,7 +46,7 @@ Hiervoor voert u de volgende stappen uit:
 
    >[!NOTE]
    >
-   >Voor meer bij het gebruiken van het checkbox type in een het landen pagina, zie de [ veelvoudige de dienstabonnementen van de Update ](#multiple-subscriptions) en [ checkbox van de Overeenkomst ](#agreement-checkbox) secties.
+   >Voor meer bij het gebruiken van het checkbox type in een het landen pagina, zie de [&#x200B; veelvoudige de dienstabonnementen van de Update &#x200B;](#multiple-subscriptions) en [&#x200B; checkbox van de Overeenkomst &#x200B;](#agreement-checkbox) secties.
 
 1. Als u een veldtype selecteert dat niet compatibel is met het databaseveld dat momenteel is geselecteerd in de **[!UICONTROL Field]** -zone, wordt een waarschuwingsbericht weergegeven. Selecteer een geschikte waarde voor optimale toewijzing.
 
@@ -120,7 +120,7 @@ Hiervoor voert u de volgende stappen uit:
 
    ![](assets/lp_checkbox-behavior.png)
 
-1. Selecteer de dienst van a [ ](../../audiences/using/creating-a-service.md) van de overeenkomstige lijst.
+1. Selecteer de dienst van a [&#x200B; &#x200B;](../../audiences/using/creating-a-service.md) van de overeenkomstige lijst.
 
    ![](assets/lp_checkbox-service.png)
 

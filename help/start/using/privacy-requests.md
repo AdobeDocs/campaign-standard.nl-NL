@@ -17,19 +17,19 @@ ht-degree: 0%
 
 # Privacyverzoeken beheren {#privacy-requests}
 
-Voor een algemene presentatie over het Beheer van de Privacy, verwijs naar [ deze sectie ](../../start/using/privacy-management.md).
+Voor een algemene presentatie over het Beheer van de Privacy, verwijs naar [&#x200B; deze sectie &#x200B;](../../start/using/privacy-management.md).
 
-Deze informatie is van toepassing op GDPR, CCPA, PDPA en LGPD. Voor meer op deze verordeningen, zie [ deze sectie ](../../start/using/privacy-management.md#privacy-management-regulations).
+Deze informatie is van toepassing op GDPR, CCPA, PDPA en LGPD. Voor meer op deze verordeningen, zie [&#x200B; deze sectie &#x200B;](../../start/using/privacy-management.md#privacy-management-regulations).
 
-De opt-out voor de Verkoop van Persoonlijke Informatie, die voor CCPA specifiek is, wordt verklaard in [ deze sectie ](#sale-of-personal-information-ccpa).
+De opt-out voor de Verkoop van Persoonlijke Informatie, die voor CCPA specifiek is, wordt verklaard in [&#x200B; deze sectie &#x200B;](#sale-of-personal-information-ccpa).
 
 <!--Starting 19.4, the use of the Campaign API and interface for Access and Delete requests is deprecated. For any GDPR, CCPA, PDPA, or LGPD Access and Delete requests, you need to use the [Privacy Core Service](#create-privacy-request) integration method.-->
 
 ## Over privacyverzoeken {#about-privacy-requests}
 
-Om u te helpen uw privacy-gereedheid te vergemakkelijken, kunt u met Adobe Campaign aanvragen voor toegang en verwijdering afhandelen. Het **recht op Toegang** en het **Recht om worden vergeten** (schrappingsverzoek) worden beschreven in [ deze sectie ](../../start/using/privacy-management.md#right-access-forgotten).
+Om u te helpen uw privacy-gereedheid te vergemakkelijken, kunt u met Adobe Campaign aanvragen voor toegang en verwijdering afhandelen. Het **recht op Toegang** en het **Recht om worden vergeten** (schrappingsverzoek) worden beschreven in [&#x200B; deze sectie &#x200B;](../../start/using/privacy-management.md#right-access-forgotten).
 
-Om die verzoeken uit te voeren, moet u de **integratie van de Dienst van de Kern van de Privacy gebruiken 0}.** De verzoeken van de privacy die van de Dienst van de Kern van de Privacy aan alle oplossingen van Experience Cloud worden geduwd worden automatisch behandeld door Campagne via een specifieke werkschema.
+Om die verzoeken uit te voeren, moet u de **integratie van de Dienst van de Kern van de Privacy gebruiken 0&rbrace;.** De verzoeken van de privacy die van de Dienst van de Kern van de Privacy aan alle oplossingen van Experience Cloud worden geduwd worden automatisch behandeld door Campagne via een specifieke werkschema.
 
 ### Vereisten {#prerequesites}
 
@@ -39,13 +39,13 @@ Daarom is het uw verantwoordelijkheid als Data Controller om de identiteit te be
 
 >[!NOTE]
 >
->Voor meer op persoonlijke gegevens en op de verschillende entiteiten die gegevens (het Controlemechanisme van Gegevens, de Bewerker van Gegevens en Onderwerp van Gegevens) beheren, zie [ Persoonlijke gegevens en Persona&#39;s ](../../start/using/privacy.md#personal-data).
+>Voor meer op persoonlijke gegevens en op de verschillende entiteiten die gegevens (het Controlemechanisme van Gegevens, de Bewerker van Gegevens en Onderwerp van Gegevens) beheren, zie [&#x200B; Persoonlijke gegevens en Persona&#39;s &#x200B;](../../start/using/privacy.md#personal-data).
 
 ### Naamruimten {#namesspaces}
 
 Definieer de naamruimte die u wilt gebruiken voordat u de privacyverzoeken maakt. De naamruimte is de sleutel die wordt gebruikt om het gegevensonderwerp in de Adobe Campaign-database te identificeren. Er zijn twee naamruimten beschikbaar: e-mail en mobiele telefoon. Voer de volgende stappen uit als u een andere naamruimte nodig hebt (bijvoorbeeld een aangepast profielveld).
 
-Ook verwijs naar dit [ leerprogramma ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html#privacy) op hoe te om tot een namespace te leiden.
+Ook verwijs naar dit [&#x200B; leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html#privacy) op hoe te om tot een namespace te leiden.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Ook verwijs naar dit [ leerprogramma ](https://experienceleague.adobe.com/docs/c
 
    ![](assets/privacy-create-new-namespace.png)
 
-   Meer over identiteit namespaces leren, zie de [ documentatie van Experience Platform ](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html).
+   Meer over identiteit namespaces leren, zie de [&#x200B; documentatie van Experience Platform &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html).
 
 1. Één Namespace van de Dienst van de Identiteit wordt in kaart gebracht aan één namespace in Campagne. U moet opgeven hoe de naamruimte in Campagne moet worden afgestemd.
 
@@ -91,13 +91,13 @@ Ook verwijs naar dit [ leerprogramma ](https://experienceleague.adobe.com/docs/c
 
 De integratie van de Dienst van de Kern van de Privacy staat u toe om uw verzoeken van de Privacy in een multi-oplossingscontext door één enkele vraag te automatiseren JSON API. De verzoeken van de privacy die van de Dienst van de Kern van de Privacy aan alle oplossingen van Experience Cloud worden geduwd worden automatisch behandeld door Campagne via een specifieke werkschema.
 
-Verwijs naar de [ Experience Platform Privacy Service ](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) documentatie om te leren hoe te om de verzoeken van de Privacy van de Dienst van de Kern van de Privacy tot stand te brengen.
+Verwijs naar de [&#x200B; Experience Platform Privacy Service &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) documentatie om te leren hoe te om de verzoeken van de Privacy van de Dienst van de Kern van de Privacy tot stand te brengen.
 
 >[!IMPORTANT]
 >
->Om een verzoek voor te leggen gebruikend het type van douanenamespace, hefboomwerking de [ methode JSON ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#json){target="_blank"} en namespaceId toe te voegen aan het verzoek, of de [ API vraag ](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html#access-delete){target="_blank"} te gebruiken om het verzoek te doen.
+>Om een verzoek voor te leggen gebruikend het type van douanenamespace, hefboomwerking de [&#x200B; methode JSON &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#json){target="_blank"} en namespaceId toe te voegen aan het verzoek, of de [&#x200B; API vraag &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html#access-delete){target="_blank"} te gebruiken om het verzoek te doen.
 >
->Gebruik slechts het [ gebruikersinterface van de Privacy ](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"} om verzoeken voor te leggen gebruikend het standaardnamespacetype.
+>Gebruik slechts het [&#x200B; gebruikersinterface van de Privacy &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"} om verzoeken voor te leggen gebruikend het standaardnamespacetype.
 
 Elke de kernde dienstbaan van de Privacy wordt verdeeld in veelvoudige verzoeken van de Privacy in Campagne die op hoeveel namespaces wordt gebaseerd, één verzoek beantwoordt aan één namespace. Bovendien kan één taak op meerdere instanties worden uitgevoerd. Daarom worden er meerdere bestanden gemaakt voor één taak. Als een aanvraag bijvoorbeeld twee naamruimten heeft en op drie instanties wordt uitgevoerd, worden in totaal zes bestanden verzonden. Eén bestand per naamruimte en instantie.
 
@@ -109,7 +109,7 @@ Het patroon voor een bestandsnaam is: `<InstanceName>-<NamespaceId>-<Reconciliat
 
 ### Lijst met bronnen {#list-of-resources}
 
-Wanneer het uitvoeren van een verzoek van de Privacy van de Schrapping of van de Toegang, zoekt Adobe Campaign alle gegevens van het Onderwerp van Gegevens die op de **** waarde van de Verzoening in alle middelen worden gebaseerd die een verbinding aan het profielmiddel (eigen type) hebben.
+Wanneer het uitvoeren van een verzoek van de Privacy van de Schrapping of van de Toegang, zoekt Adobe Campaign alle gegevens van het Onderwerp van Gegevens die op de **&#x200B;**&#x200B;waarde van de Verzoening in alle middelen worden gebaseerd die een verbinding aan het profielmiddel (eigen type) hebben.
 
 Hier is de lijst van uit-van-de-doos middelen die in aanmerking worden genomen wanneer het uitvoeren van de verzoeken van de Privacy:
 
@@ -125,7 +125,7 @@ Hier is de lijst van uit-van-de-doos middelen die in aanmerking worden genomen w
 
 Als u douanemiddelen creeerde die een verbinding aan het profielmiddel (eigen type) hebben, zullen zij ook in aanmerking worden genomen. Bijvoorbeeld, als u een transactiemiddel verbonden aan het profielmiddel en een middel van de transactiedetails verbonden aan het transactiemiddel hebt, zullen zij allebei in aanmerking worden genomen.
 
-Ook verwijs naar [ dit leerprogramma ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html#privacy) op hoe te om douanemiddelen te wijzigen.
+Ook verwijs naar [&#x200B; dit leerprogramma &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html#privacy) op hoe te om douanemiddelen te wijzigen.
 
 Dit werkt alleen als u de optie **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** selecteert in de aangepaste bron:
 
@@ -177,7 +177,7 @@ De **Wet van de Privacy van de Consumentenbescherming van Californië** (CCPA) v
 
 De configuratie en het gebruik van verzoeken van de Toegang en van de Schrapping zijn gemeenschappelijk voor zowel GDPR als CCPA. In dit deel wordt de opt-out voor de verkoop van persoonsgegevens beschreven, die specifiek is voor de CCPA.
 
-Naast de [ het beheer van de Toestemming ](../../start/using/privacy-management.md#consent-management) hulpmiddelen die door Adobe Campaign worden verstrekt, hebt u de mogelijkheid om te volgen of een consument uit voor de Verkoop van Persoonlijke Informatie heeft gekozen.
+Naast de [&#x200B; het beheer van de Toestemming &#x200B;](../../start/using/privacy-management.md#consent-management) hulpmiddelen die door Adobe Campaign worden verstrekt, hebt u de mogelijkheid om te volgen of een consument uit voor de Verkoop van Persoonlijke Informatie heeft gekozen.
 
 Wanneer gebruikers via uw systeem besluiten dat zij niet toestaan dat hun persoonlijke gegevens aan derden worden verkocht, kunt u deze gegevens opslaan en bijhouden.
 
@@ -187,7 +187,7 @@ Wanneer gebruikers via uw systeem besluiten dat zij niet toestaan dat hun persoo
 
 >[!IMPORTANT]
 >
->Het is uw verantwoordelijkheid als de verantwoordelijke voor de gegevens om het verzoek van de betrokkene te ontvangen en de aanvraagdata voor de CCPA bij te houden. Als technologieleverancier bieden we alleen een manier om te weigeren. Voor meer op uw rol als Controlemechanisme van Gegevens, zie [ Persoonlijke gegevens en Persona&#39;s ](../../start/using/privacy.md#personal-data).
+>Het is uw verantwoordelijkheid als de verantwoordelijke voor de gegevens om het verzoek van de betrokkene te ontvangen en de aanvraagdata voor de CCPA bij te houden. Als technologieleverancier bieden we alleen een manier om te weigeren. Voor meer op uw rol als Controlemechanisme van Gegevens, zie [&#x200B; Persoonlijke gegevens en Persona&#39;s &#x200B;](../../start/using/privacy.md#personal-data).
 
 ### Vereiste voor aangepaste tabellen {#ccpa-prerequisite}
 
@@ -195,13 +195,13 @@ Het veld **[!UICONTROL CCPA Opt-Out]** is offline beschikbaar in de Campagne-int
 
 Als u een middel van het douaneprofiel gebruikt, moet u het middel uitbreiden en het gebied toevoegen. We raden u aan een andere naam te gebruiken dan het veld voor de uit-van-de-doos, bijvoorbeeld: **[!UICONTROL Opt-Out for CCPA]** (optoutcpa). Wanneer een nieuw veld wordt gemaakt, wordt dit automatisch ondersteund door de campagne-API.
 
-Voor meer gedetailleerde informatie over hoe te om het profielmiddel uit te breiden, zie [ deze sectie ](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
+Voor meer gedetailleerde informatie over hoe te om het profielmiddel uit te breiden, zie [&#x200B; deze sectie &#x200B;](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
 >[!NOTE]
 >
 >Het wijzigen van middelen is een gevoelige verrichting die door deskundige slechts gebruikers moet worden uitgevoerd.
 
-1. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]** . Klik op de aangepaste profielbron. Voor meer bij het uitbreiden van een middel, zie [ deze sectie ](../../developing/using/creating-or-extending-the-resource.md).
+1. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]** . Klik op de aangepaste profielbron. Voor meer bij het uitbreiden van een middel, zie [&#x200B; deze sectie &#x200B;](../../developing/using/creating-or-extending-the-resource.md).
 
    ![](assets/privacy-ccpa-extend-cus.png)
 
@@ -209,15 +209,15 @@ Voor meer gedetailleerde informatie over hoe te om het profielmiddel uit te brei
 
    ![](assets/privacy-ccpa-extend-field.png)
 
-1. Voeg op het tabblad **[!UICONTROL Screen definition]** onder **[!UICONTROL Detail screen configuration]** het veld toe en selecteer **[!UICONTROL Input field]** . Hiermee wordt het veld beschikbaar gesteld in de lijst met profielen en de details.  Voor meer bij het vormen van de het schermdefinitie, zie [ deze sectie ](../../developing/using/configuring-the-screen-definition.md).
+1. Voeg op het tabblad **[!UICONTROL Screen definition]** onder **[!UICONTROL Detail screen configuration]** het veld toe en selecteer **[!UICONTROL Input field]** . Hiermee wordt het veld beschikbaar gesteld in de lijst met profielen en de details.  Voor meer bij het vormen van de het schermdefinitie, zie [&#x200B; deze sectie &#x200B;](../../developing/using/configuring-the-screen-definition.md).
 
    ![](assets/privacy-ccpa-extend-screen.png)
 
-1. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]** , bereidt de publicatie voor en publiceer de wijzigingen. Voor meer bij het publiceren van een middel, zie [ deze sectie ](../../developing/using/updating-the-database-structure.md).
+1. Ga naar **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]** , bereidt de publicatie voor en publiceer de wijzigingen. Voor meer bij het publiceren van een middel, zie [&#x200B; deze sectie &#x200B;](../../developing/using/updating-the-database-structure.md).
 
    ![](assets/privacy-ccpa-extend-pub.png)
 
-1. Controleer of het veld beschikbaar is op de details van een profiel. Voor meer op dit, zie [ deze sectie ](#usage).
+1. Controleer of het veld beschikbaar is op de details van een profiel. Voor meer op dit, zie [&#x200B; deze sectie &#x200B;](#usage).
 
 ### Gebruik {#usage}
 
@@ -226,7 +226,7 @@ Het is de verantwoordelijkheid van de gegevensverwerker om de waarde van het vel
 U kunt verschillende methoden gebruiken om de waarden te vullen:
 
 * De interface van de campagne gebruiken door de details van de ontvanger te bewerken (zie hieronder)
-* Gebruikend de Privacy API van de Campagne (zie de [ API documentatie ](../../api/using/managing-ccpa-opt-out.md))
+* Gebruikend de Privacy API van de Campagne (zie de [&#x200B; API documentatie &#x200B;](../../api/using/managing-ccpa-opt-out.md))
 * Via een workflow voor het importeren van gegevens
 
 Vervolgens moet u ervoor zorgen dat u nooit de persoonlijke gegevens van profielen die u hebt afgewezen aan derden verkoopt.
@@ -239,7 +239,7 @@ Vervolgens moet u ervoor zorgen dat u nooit de persoonlijke gegevens van profiel
 
    ![](assets/privacy-ccpa-profile-opt-out-true.png)
 
-1. U kunt de profielenlijst vormen om de op-uit kolom te tonen. Leren hoe te om lijsten te vormen, zie [ deze sectie ](../../start/using/customizing-lists.md).
+1. U kunt de profielenlijst vormen om de op-uit kolom te tonen. Leren hoe te om lijsten te vormen, zie [&#x200B; deze sectie &#x200B;](../../start/using/customizing-lists.md).
 
    ![](assets/privacy-ccpa-profile-configure-list.png)
 

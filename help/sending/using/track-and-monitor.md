@@ -32,7 +32,7 @@ Om uw campagnes te controleren, moet u ervoor zorgen dat het bericht inderdaad a
 
 * Van het berichtdashboard, kunt u tot verscheidene rapporten voor dit specifieke bericht toegang hebben.
 
-Voor meer dit, zie [ Controle een levering ](../../sending/using/monitoring-a-delivery.md).
+Voor meer dit, zie [&#x200B; Controle een levering &#x200B;](../../sending/using/monitoring-a-delivery.md).
 
 ## Tracking {#tracking-deliveries}
 
@@ -40,7 +40,7 @@ Als u beter wilt weten wat uw doelprofielen doen, kunt u bijhouden hoe zij op ee
 
 **Uiteinde**: Het volgen van het bericht wordt toegelaten door gebrek. Als u URL&#39;s wilt configureren, selecteert u de optie URL&#39;s weergeven in de onderste sectie van de wizard voor levering. Voor elke URL van het bericht kunt u kiezen of u reeksspatiëring wilt activeren.
 
-Voor meer op dit, verwijs naar de [ het Volgen berichten ](../../sending/using/tracking-messages.md) sectie en [ het Volgen indicatoren ](../../reporting/using/tracking-indicators.md) beschrijving.
+Voor meer op dit, verwijs naar de [&#x200B; het Volgen berichten &#x200B;](../../sending/using/tracking-messages.md) sectie en [&#x200B; het Volgen indicatoren &#x200B;](../../reporting/using/tracking-indicators.md) beschrijving.
 
 ## Dynamische rapporten {#dyn-reports}
 
@@ -48,13 +48,13 @@ Met dynamische rapporten kunt u volledig aanpasbare en real-time rapporten maken
 
 **Tip** - de ingebouwde rapporten zijn beschikbaar voor u om uw campagnes te controleren maar deze rapporten kunnen ook worden aangepast door om het even welke metriek of dimensies aan uw rapport te slepen en te laten vallen.
 
-Voor meer op dit, verwijs naar de [ Rapporterende gids ](../../reporting/using/about-dynamic-reports.md).
+Voor meer op dit, verwijs naar de [&#x200B; Rapporterende gids &#x200B;](../../reporting/using/about-dynamic-reports.md).
 
 ## Hot kliks
 
 In het rapport Hot click wordt de berichtinhoud (HTML en/of tekst) weergegeven met het percentage klikken op elke koppeling. Door het percentage van klikken op elke dynamische inhoud weer te geven, kunt u meten welke inhoud het meest geschikt is voor de ontvangers.
 
-Voor meer op dit, verwijs naar het [ Hete klik rapport ](../../reporting/using/hot-clicks.md).
+Voor meer op dit, verwijs naar het [&#x200B; Hete klik rapport &#x200B;](../../reporting/using/hot-clicks.md).
 
 ## Tips voor prestaties van levering {#performance-tips}
 

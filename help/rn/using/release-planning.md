@@ -27,7 +27,7 @@ Alle releasedatums kunnen worden gewijzigd: ga regelmatig naar deze pagina om te
 
 ## Release 26.3 {#release-26-3-release}
 
-De gedetailleerde informatie over deze versie is beschikbaar in de [ Nota&#39;s van de Versie ](release-notes.md) wanneer het milieu van het Stadium begint.
+De gedetailleerde informatie over deze versie is beschikbaar in de [&#x200B; Nota&#39;s van de Versie &#x200B;](release-notes.md) wanneer het milieu van het Stadium begint.
 
 <table>
  <thead>
@@ -61,11 +61,11 @@ De gedetailleerde informatie over deze versie is beschikbaar in de [ Nota&#39;s 
 
 **Q: Wat is het effect?**
 
-A: De veranderingen zijn vermeld in de [ Nota&#39;s van de Versie ](../../rn/using/release-notes.md), met inbegrip van verbindingen aan verwante documentatie. Adobe adviseert ook om [ Vervangen en Verwijderde pagina van Eigenschappen ](../../rn/using/deprecated-features.md) te raadplegen. Deze pagina&#39;s zijn beschikbaar voor de nieuwe versie op de de milieuverbeteringsdatum van het Stadium.
+A: De veranderingen zijn vermeld in de [&#x200B; Nota&#39;s van de Versie &#x200B;](../../rn/using/release-notes.md), met inbegrip van verbindingen aan verwante documentatie. Adobe adviseert ook om [&#x200B; Vervangen en Verwijderde pagina van Eigenschappen &#x200B;](../../rn/using/deprecated-features.md) te raadplegen. Deze pagina&#39;s zijn beschikbaar voor de nieuwe versie op de de milieuverbeteringsdatum van het Stadium.
 
 **Q: Wat is het bevestigingsproces?**
 
-A: Aangezien uw het opvoeren instantie wordt bevorderd, adviseert Adobe om uw processen te bevestigen en gebruiksgevallen behoorlijk met deze nieuwe versie werken, en om het even welk probleem aan [ de Zorg van de Cliënt van Adobe te melden ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+A: Aangezien uw het opvoeren instantie wordt bevorderd, adviseert Adobe om uw processen te bevestigen en gebruiksgevallen behoorlijk met deze nieuwe versie werken, en om het even welk probleem aan [&#x200B; de Zorg van de Cliënt van Adobe te melden &#x200B;](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
 
 **Q: Zal er toegang tot de instantie tijdens het verbeteringsproces zijn?**
 
@@ -87,4 +87,4 @@ A: Ja, ze zullen werken. Er kunnen geen nieuwe e-mailberichten worden verzonden 
 
 A: Wanneer het programma openen aan Campaign, zal popup van het versiebericht, met de recentste versie worden getoond.
 
-Voor andere vragen, contacteer [ de Zorg van de Cliënt van Adobe ](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).
+Voor andere vragen, contacteer [&#x200B; de Zorg van de Cliënt van Adobe &#x200B;](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html).

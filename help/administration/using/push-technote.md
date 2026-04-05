@@ -29,9 +29,9 @@ Voor een ononderbroken service moet u een upgrade uitvoeren van uw mobiele toepa
 
 ### Wat is er veranderd? {#fcm-changes}
 
-Als deel van Google dat voortdurend probeert om zijn diensten te verbeteren, zal erfenis FCM APIs op **juni 20, 2024** worden opgeheven. Leer meer over het protocol van HTTP van het Overseinen van de Wolk van de Wolk van de Wolk van de Vuurstand van de Wolk van de Vuurstand van de Wolk van de Vuurstand in [ Google documentatie ](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
+Als deel van Google dat voortdurend probeert om zijn diensten te verbeteren, zal erfenis FCM APIs op **juni 20, 2024** worden opgeheven. Leer meer over het protocol van HTTP van het Overseinen van de Wolk van de Wolk van de Wolk van de Vuurstand van de Wolk van de Vuurstand van de Wolk van de Vuurstand in [&#x200B; Google documentatie &#x200B;](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
-Beginnend [ versie 24.1 ](../../rn/using/release-notes.md), steunt Adobe Campaign Standard v1 APIs van HTTP om de Berichten van het Bericht van het Push van Android te verzenden.
+Beginnend [&#x200B; versie 24.1 &#x200B;](../../rn/using/release-notes.md), steunt Adobe Campaign Standard v1 APIs van HTTP om de Berichten van het Bericht van het Push van Android te verzenden.
 
 ### Heb je invloed op? {#fcm-impact}
 
@@ -51,11 +51,11 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
 #### Vereisten {#fcm-transition-prerequisites}
 
-* De steun van **v1 API van HTTP** wijze is toegevoegd in versie 24.1. Als uw milieu op een oudere versie loopt, is een eerste vereiste voor deze verandering uw milieu aan de [ recentste versie van Campaign Standard ](../../rn/using/release-notes.md) te bevorderen.
+* De steun van **v1 API van HTTP** wijze is toegevoegd in versie 24.1. Als uw milieu op een oudere versie loopt, is een eerste vereiste voor deze verandering uw milieu aan de [&#x200B; recentste versie van Campaign Standard &#x200B;](../../rn/using/release-notes.md) te bevorderen.
 
-* Het JSON-bestand van de Android Firebase Admin SDK-service is nodig om de mobiele toepassing naar HTTP v1 te verplaatsen. Leer hoe te om dit dossier in [ documentatie van de Vuurbasis van Google ](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"} te krijgen.
+* Het JSON-bestand van de Android Firebase Admin SDK-service is nodig om de mobiele toepassing naar HTTP v1 te verplaatsen. Leer hoe te om dit dossier in [&#x200B; documentatie van de Vuurbasis van Google &#x200B;](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"} te krijgen.
 
-* Als u deze oudere versie van de SDK nog gebruikt, moet u uw implementatie bijwerken met Adobe Experience Platform SDK. Leer hoe te om aan de Ervaring van Adobe te migreren Plaform SDK in [ dit artikel ](sdkv4-migration.md).
+* Als u deze oudere versie van de SDK nog gebruikt, moet u uw implementatie bijwerken met Adobe Experience Platform SDK. Leer hoe te om aan de Ervaring van Adobe te migreren Plaform SDK in [&#x200B; dit artikel &#x200B;](sdkv4-migration.md).
 
 * Zorg ervoor u de **Mobiele toestemming van de Configuratie van de App** in Mobiele de Inzameling van Gegevens van Adobe Experience Platform alvorens de hieronder stappen uit te voeren hebt. [Meer info](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
 
@@ -99,7 +99,7 @@ Token-gebaseerde authentificatie biedt een stateless manier om met APNs te commu
 
 * U kunt één token gebruiken om meldingen te distribueren voor alle apps van uw bedrijf.
 
-Leer meer over op token-gebaseerde verbindingen aan APNs in [ documentatie van de Ontwikkelaar van Apple ](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+Leer meer over op token-gebaseerde verbindingen aan APNs in [&#x200B; documentatie van de Ontwikkelaar van Apple &#x200B;](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
 Adobe Campaign Standard ondersteunt zowel tokenverbindingen als verbindingen op basis van certificaten. Als uw implementatie afhankelijk is van een verbinding op basis van een certificaat, raadt Adobe u ten zeerste aan deze bij te werken naar een tokenverbinding.
 
@@ -122,9 +122,9 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
 #### Vereisten {#ios-transition-prerequisites}
 
-* De steun van **op token-gebaseerde authentificatie** wijze is toegevoegd in [ versie 24.1 ](../../rn/using/release-notes.md). Als uw milieu op een oudere versie loopt, is een eerste vereiste voor deze verandering uw milieu aan de [ recentste versie van Campaign Standard ](../../rn/using/release-notes.md) te bevorderen.
+* De steun van **op token-gebaseerde authentificatie** wijze is toegevoegd in [&#x200B; versie 24.1 &#x200B;](../../rn/using/release-notes.md). Als uw milieu op een oudere versie loopt, is een eerste vereiste voor deze verandering uw milieu aan de [&#x200B; recentste versie van Campaign Standard &#x200B;](../../rn/using/release-notes.md) te bevorderen.
 
-* U hebt een APNs-verificatietoken voor ondertekening nodig om de tokens te genereren die uw server gebruikt. U vraagt deze sleutel van uw Apple ontwikkelaarsrekening, zoals die in [ documentatie van de Ontwikkelaar van Apple ](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"} wordt verklaard.
+* U hebt een APNs-verificatietoken voor ondertekening nodig om de tokens te genereren die uw server gebruikt. U vraagt deze sleutel van uw Apple ontwikkelaarsrekening, zoals die in [&#x200B; documentatie van de Ontwikkelaar van Apple &#x200B;](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"} wordt verklaard.
 
 
 #### Overgangprocedure {#ios-transition-steps}
@@ -194,7 +194,7 @@ Nee, na deze migratie is het niet nodig om het iOS-certificaat elk jaar bij te w
 
 +++Wat gebeurt er als deze migratie niet wordt uitgevoerd?
 
-De Android-pushberichten zullen mislukken na 20 juni 2024, zoals aangegeven in de kennisgeving van Google. [ las meer ](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
+De Android-pushberichten zullen mislukken na 20 juni 2024, zoals aangegeven in de kennisgeving van Google. [&#x200B; las meer &#x200B;](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
 
 +++
 
