@@ -1,5 +1,5 @@
 ---
-title: Metadatamechanisme
+title: Metagegevensmechanisme
 description: Meer informatie over het mechanisme voor metagegevens.
 audience: developing
 content-type: reference
@@ -9,14 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
-# Metadatamechanisme {#metadata-mechanism}
+# Metagegevensmechanisme {#metadata-mechanism}
 
 U kunt de middelmeta-gegevens terugwinnen gebruikend **resourceType** in een verzoek van GET:
 
@@ -35,11 +35,13 @@ De reactie retourneert de hoofdmetagegevens van de bron (alle andere velden zijn
      Als &quot;type&quot;met de waarde &quot;verbinding&quot;of &quot;inzameling&quot;wordt voltooid, is de resTarget waarde de naam van het middel dat door de verbinding wordt gericht.
 Als het &quot;type&quot;met de waarde &quot;opsomming&quot;wordt voltooid, wordt een &quot;waarden&quot;gebied toegevoegd en elke opsommingswaarde is gedetailleerd in de **waarden** knoop.
 
-* De **Filters** knoop keert URL terug om de bijbehorende filters terug te winnen. Voor meer op filters, verwijs naar [&#x200B; deze sectie &#x200B;](../../api/using/filtering.md) sectie.
+* De **Filters** knoop keert URL terug om de bijbehorende filters terug te winnen. Voor meer op filters, verwijs naar [ deze sectie ](../../api/using/filtering.md) sectie.
 
 <!-- créer une section au même niveau sur les liens -->
-<!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
-si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
+<!--
+dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
+si on prend l'exemple de l'org unit, on aura un bon exemple lien
+-->
 <!-- plus reparler du node Data -->
 
 <br/>

@@ -1,5 +1,5 @@
 ---
-title: Een transactionele gebeurtenis configureren
+title: Een transactiegebeurtenis configureren
 description: Leer hoe u transactiegebeurtenissen in Adobe Campaign configureert.
 audience: channels
 content-type: reference
@@ -9,32 +9,32 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '1709'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
-# Een transactionele gebeurtenis configureren {#configuring-transactional-event}
+# Een transactiegebeurtenis configureren {#configuring-transactional-event}
 
 Als u een transactiebericht met Adobe Campaign wilt verzenden, moet u eerst de structuur van de gebeurtenisgegevens beschrijven door een gebeurtenis te maken en te configureren.
 
 >[!IMPORTANT]
 >
->Alleen [Functionele beheerders](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->beschikken over de juiste rechten om gebeurtenisconfiguraties te maken en te bewerken.
+>Slechts [ Functionele beheerders ](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) --> hebben de aangewezen rechten om gebeurtenisconfiguraties tot stand te brengen en uit te geven.
 
-De configuratie varieert afhankelijk van de [type transactiebericht](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) u wilt verzenden, en op het kanaal dat zal worden gebruikt. Zie voor meer informatie [Specifieke configuraties](#transactional-event-specific-configurations).
+De configuratie varieert afhankelijk van het [ type van transactioneel bericht ](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) u, en op het kanaal wilt verzenden dat zal worden gebruikt. Voor meer op dit, zie [ Specifieke configuraties ](#transactional-event-specific-configurations).
 
-Nadat de configuratie is voltooid, moet de gebeurtenis worden gepubliceerd. Zie [Transactiegebeurtenissen publiceren](../../channels/using/publishing-transactional-event.md).
+Nadat de configuratie is voltooid, moet de gebeurtenis worden gepubliceerd. Zie [ Publicerend een transactionele gebeurtenis ](../../channels/using/publishing-transactional-event.md).
 
 ## Een gebeurtenis maken {#creating-an-event}
 
 Maak de gebeurtenis die aan uw behoeften voldoet om aan de slag te gaan.
 
-1. Klik op de knop **Adobe** logo, in de linkerbovenhoek, en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
-1. Klik op de knop **[!UICONTROL Create]**.
-1. Voer een **[!UICONTROL Label]** en **[!UICONTROL ID]** voor de gebeurtenis. De **[!UICONTROL ID]** veld is verplicht en moet beginnen met het voorvoegsel &quot;EVT&quot;. Als u dit voorvoegsel niet gebruikt, wordt het automatisch toegevoegd zodra u klikt **[!UICONTROL Create]**.
+1. Klik het **Adobe** embleem, in de top-linkerhoek, dan uitgezocht **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Klik op **[!UICONTROL Create]** .
+1. Voer een **[!UICONTROL Label]** en een **[!UICONTROL ID]** in voor de gebeurtenis. Het veld **[!UICONTROL ID]** is verplicht en moet beginnen met het voorvoegsel &quot;EVT&quot;. Als u dit voorvoegsel niet gebruikt, wordt het automatisch toegevoegd wanneer u op **[!UICONTROL Create]** klikt.
 
    ![](assets/message-center_1.png)
 
@@ -42,35 +42,35 @@ Maak de gebeurtenis die aan uw behoeften voldoet om aan de slag te gaan.
    >
    >De id mag niet langer zijn dan 64 tekens, inclusief het voorvoegsel EVT.
 
-1. Selecteer het kanaal dat wordt gebruikt om uw transactiemeldingen te verzenden **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** of **[!UICONTROL Push notification]**. Er kan slechts één kanaal worden gebruikt voor elke gebeurtenis en het kan achteraf niet worden gewijzigd.
+1. Selecteer het kanaal dat wordt gebruikt om de transactiemeldingen **[!UICONTROL Email]** , **[!UICONTROL Mobile (SMS)]** of **[!UICONTROL Push notification]** te verzenden. Er kan slechts één kanaal worden gebruikt voor elke gebeurtenis en het kan achteraf niet worden gewijzigd.
 
-1. Selecteer de doeldimensie die overeenkomt met de gewenste gebeurtenisconfiguratie en klik op **[!UICONTROL Create]**.
+1. Selecteer de doeldimensie die overeenkomt met de gewenste gebeurtenisconfiguratie en klik op **[!UICONTROL Create]** .
 
-   Transactieberichten die zijn gebaseerd op gebeurtenissen, zijn gericht op gegevens die zich in de gebeurtenis zelf bevinden, terwijl op een profiel gebaseerde transactieberichten bedoeld zijn voor gegevens die zich in de Adobe Campaign-database bevinden. Raadpleeg voor meer informatie hierover [Specifieke configuraties](#transactional-event-specific-configurations).
+   Transactieberichten die zijn gebaseerd op gebeurtenissen, zijn gericht op gegevens die zich in de gebeurtenis zelf bevinden, terwijl op een profiel gebaseerde transactieberichten bedoeld zijn voor gegevens die zich in de Adobe Campaign-database bevinden. Voor meer op dit, verwijs naar [ Specifieke configuraties ](#transactional-event-specific-configurations).
 
 >[!NOTE]
 >
->Het aantal transactionele gebeurtenissen kan een effect op uw platform hebben. Voor optimale prestaties moet u ongebruikte gebeurtenissen verwijderen. Zie [Een gebeurtenis verwijderen](../../channels/using/publishing-transactional-event.md#deleting-an-event).
+>Het aantal transactionele gebeurtenissen kan een effect op uw platform hebben. Voor optimale prestaties moet u ongebruikte gebeurtenissen verwijderen. Zie [ het Schrappen van een gebeurtenis ](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## Gebeurteniskenmerken definiëren {#defining-the-event-attributes}
 
-In de **[!UICONTROL Fields]** definieert u de kenmerken die in de inhoud van de gebeurtenis worden geïntegreerd en die vervolgens kunnen worden gebruikt om het transactiebericht aan te passen.
+Definieer in de sectie **[!UICONTROL Fields]** de kenmerken die in de inhoud van de gebeurtenis worden geïntegreerd en die vervolgens kunnen worden gebruikt om het transactiebericht aan te passen.
 
-De stappen voor het toevoegen en wijzigen van velden zijn gelijk aan die voor [aangepaste bronnen](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource).
+De stappen voor het toevoegen van en het wijzigen van gebieden zijn het zelfde als voor [ douanemiddelen ](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource).
 
 ![](assets/message-center_2.png)
 
 >[!NOTE]
 >
->Als u een meertalig transactiebericht wilt maken, definieert u een extra gebeurteniskenmerk met de **[!UICONTROL AC_language]** ID. Dit is alleen van toepassing op transactieberichten voor gebeurtenissen. Nadat de gebeurtenis is gepubliceerd, zijn de stappen voor het bewerken van de inhoud van een meertalig transactiebericht gelijk aan die voor een meertalig standaard-e-mailbericht. Zie [Een meertalige e-mail maken](../../channels/using/creating-a-multilingual-email.md).
+>Als u een meertalig transactiebericht wilt maken, definieert u een extra gebeurteniskenmerk met de id **[!UICONTROL AC_language]** . Dit is alleen van toepassing op transactieberichten voor gebeurtenissen. Nadat de gebeurtenis is gepubliceerd, zijn de stappen voor het bewerken van de inhoud van een meertalig transactiebericht gelijk aan die voor een meertalig standaard-e-mailbericht. Zie [ Creërend een meertalige e-mail ](../../channels/using/creating-a-multilingual-email.md).
 
 ## Gegevensverzamelingen definiëren {#defining-data-collections}
 
 U kunt aan de inhoud van de gebeurtenis een inzameling van elementen toevoegen, elk element zelf met verscheidene attributen.
 
-Deze verzameling kan worden gebruikt in een transactie-e-mail om toe te voegen [productaanbiedingen](../../designing/using/using-product-listings.md) de inhoud van het bericht, bijvoorbeeld een lijst van producten - met prijs, referentienummer, hoeveelheid, enz. voor elk product in de lijst.
+Deze inzameling kan in een transactie-e-mail worden gebruikt om [ productlijsten ](../../designing/using/using-product-listings.md) aan de inhoud van het bericht toe te voegen, bijvoorbeeld een lijst van producten - met de prijs, het verwijzingsaantal, de hoeveelheid, enz. voor elk product in de lijst.
 
-1. In de **[!UICONTROL Collections]** klikt u op de **[!UICONTROL Create element]** knop.
+1. Klik in de sectie **[!UICONTROL Collections]** op de knop **[!UICONTROL Create element]** .
 
    ![](assets/message-center_collection_create.png)
 
@@ -81,11 +81,11 @@ Deze verzameling kan worden gebruikt in een transactie-e-mail om toe te voegen [
 
    ![](assets/message-center_collection_fields.png)
 
-1. De **[!UICONTROL Enrichment]** kunt u elk item van de verzameling verrijken. Op deze manier kunt u de elementen van de overeenkomende productlijst aanpassen met informatie uit de Adobe Campaign-database of uit andere bronnen die u hebt gemaakt.
+1. Op het tabblad **[!UICONTROL Enrichment]** kunt u elk item van de verzameling verrijken. Op deze manier kunt u de elementen van de overeenkomende productlijst aanpassen met informatie uit de Adobe Campaign-database of uit andere bronnen die u hebt gemaakt.
 
 >[!NOTE]
 >
->De stappen voor het verrijken van de elementen van een verzameling zijn dezelfde als in het dialoogvenster [De gebeurtenis verrijken](#enriching-the-transactional-message-content) sectie. Merk op dat het verrijken van de gebeurtenis u niet zal toestaan om een inzameling te verrijken: u moet een verrijking aan de inzameling zelf in toevoegen **[!UICONTROL Collections]** sectie.
+>De stappen voor het verrijken van de elementen van een inzameling zijn het zelfde zoals die in [ wordt beschreven het Verrijken van de gebeurtenis ](#enriching-the-transactional-message-content) sectie. Als u de gebeurtenis verrijkt, kunt u een verzameling niet verrijken: u moet een verrijking aan de verzameling zelf toevoegen in de sectie **[!UICONTROL Collections]** .
 
 Zodra de gebeurtenis en het bericht worden gepubliceerd, zult u deze inzameling in uw transactiebericht kunnen gebruiken.
 
@@ -103,23 +103,23 @@ Hier volgt de API-voorvertoning voor dit voorbeeld:
 
 U kunt de inhoud van het transactiebericht verrijken met informatie uit de Adobe Campaign-database om uw berichten aan te passen. Van achternaam of identiteitskaart van CRM van elk van uw ontvangers, bijvoorbeeld, kunt u gegevens zoals hun adres of geboortedatum of een ander douanegebied terugkrijgen dat in de lijst van het Profiel wordt toegevoegd, om de informatie te personaliseren die naar hen wordt verzonden.
 
-Het is mogelijk om de inhoud van het transactiebericht te verrijken met informatie van uitgebreid **[!UICONTROL Profile and services Ext API]**. Zie voor meer informatie [De API uitbreiden: de extensie publiceren](../../developing/using/step-2-publish-the-extension.md)
+Het is mogelijk om de inhoud van het transactiebericht te verrijken met informatie van uitgebreid **[!UICONTROL Profile and services Ext API]**. Voor meer informatie, zie [ Uitbreidend API: het Publiceren van de uitbreiding ](../../developing/using/step-2-publish-the-extension.md)
 
-Deze informatie kan ook in nieuwe middelen worden opgeslagen. In dat geval moet de bron gekoppeld zijn aan de **[!UICONTROL Profile]** of **[!UICONTROL Service]** bronnen, rechtstreeks of via een andere tabel. In de onderstaande configuratie is het bijvoorbeeld mogelijk om de inhoud van het transactiebericht te verrijken met informatie uit de **[!UICONTROL Product]** bron zoals de productcategorie of id, als de **[!UICONTROL Product]** resource is gekoppeld aan de **[!UICONTROL Profile]** resource.
+Deze informatie kan ook in nieuwe middelen worden opgeslagen. In dat geval moet de bron rechtstreeks of via een andere tabel worden gekoppeld aan de **[!UICONTROL Profile]** - of **[!UICONTROL Service]** -bronnen. In de onderstaande configuratie is het bijvoorbeeld mogelijk om de inhoud van het transactiebericht te verrijken met informatie uit de **[!UICONTROL Product]** -bron, zoals de productcategorie of id, als de **[!UICONTROL Product]** -bron is gekoppeld aan de **[!UICONTROL Profile]** -bron.
 
 ![](assets/message-center_usecaseschema.png)
 
-Zie voor meer informatie over het maken en publiceren van bronnen [deze sectie](../../developing/using/key-steps-to-add-a-resource.md).
+Voor meer bij het creëren van en het publiceren van middelen, zie [ deze sectie ](../../developing/using/key-steps-to-add-a-resource.md).
 
-1. In de **[!UICONTROL Enrichment]** klikt u op de **[!UICONTROL Create element]** knop.
+1. Klik in de sectie **[!UICONTROL Enrichment]** op de knop **[!UICONTROL Create element]** .
 
    ![](assets/message-center_addenrichment.png)
 
-1. Selecteer de bron waarmee u uw bericht wilt koppelen. Kies in dat geval de optie **[!UICONTROL Profile]** resource.
+1. Selecteer de bron waarmee u uw bericht wilt koppelen. Kies in dit geval de **[!UICONTROL Profile]** -bron.
 
    ![](assets/message-center_new-enrichment.png)
 
-1. Gebruik de **[!UICONTROL Create element]** om een veld van de geselecteerde bron te koppelen aan een van de velden die u eerder aan de gebeurtenis hebt toegevoegd (zie [Gebeurteniskenmerken definiëren](#defining-the-event-attributes)).
+1. Gebruik de **[!UICONTROL Create element]** knoop om een gebied van het geselecteerde middel aan één van de gebieden te verbinden u eerder aan de gebeurtenis (zie [ het Bepalen van de gebeurtenisattributen ](#defining-the-event-attributes)) toevoegde.
 
    ![](assets/message-center_enrichment-join.png)
 
@@ -127,19 +127,19 @@ Zie voor meer informatie over het maken en publiceren van bronnen [deze sectie](
    >
    >Als u een voorwaarde definieert die het mogelijk maakt meerdere ontvangers te selecteren (zoals een veld dat dezelfde waarde kan hebben voor meerdere profielen), wordt niet meer dan één profiel als doel ingesteld.
 
-1. In dit voorbeeld combineren we de **[!UICONTROL Last name]** en de **[!UICONTROL First name]** velden met de bijbehorende velden in de **[!UICONTROL Profile]** resource.
+1. In dit voorbeeld combineren we de velden **[!UICONTROL Last name]** en **[!UICONTROL First name]** met de corresponderende velden in de **[!UICONTROL Profile]** -bron.
 
    ![](assets/message-center_enrichment-join-fields.png)
 
-   U kunt de inhoud van het transactiemelding ook verrijken gebruikend **[!UICONTROL Service]** resource. Zie voor meer informatie over services [deze sectie](../../audiences/using/creating-a-service.md).
+   U kunt de inhoud van het transactiemelding ook verrijken gebruikend het **[!UICONTROL Service]** middel. Voor meer op de diensten, zie [ deze sectie ](../../audiences/using/creating-a-service.md).
 
-1. Als u een [gebeurtenis op basis van profiel](#profile-based-transactional-messages)in de **[!UICONTROL Targeting enrichment]** selecteert u de verrijking die tijdens de uitvoering van de levering als doel voor het bericht wordt gebruikt.
+1. Als u creeert of a [ op profiel-gebaseerde gebeurtenis ](#profile-based-transactional-messages) uitgeeft, in de **[!UICONTROL Targeting enrichment]** sectie, selecteer de verrijking die als berichtdoel tijdens de leveringsuitvoering zal worden gebruikt.
 
    ![](assets/message-center_marketing_targeting_enrichment.png)
 
    >[!NOTE]
    >
-   >Een verrijking maken en een verrijking als doel selecteren op basis van de **[!UICONTROL Profile]** resource is verplicht voor op profielen gebaseerde gebeurtenissen.
+   >Het maken van een verrijking en het selecteren van een verrijking voor doelen op basis van de **[!UICONTROL Profile]** -bron zijn verplicht voor op profielen gebaseerde gebeurtenissen.
 
 Zodra de gebeurtenis en het bericht worden gepubliceerd, zal deze verbinding u toestaan om de inhoud van het transactiebericht te verrijken.
 
@@ -153,13 +153,13 @@ Zodra de gebeurtenis en het bericht worden gepubliceerd, zal deze verbinding u t
 
 Voer de onderstaande stappen uit om de reeds gemaakte transactiegebeurtenissen te openen en te doorzoeken.
 
-1. Klik op de knop **Adobe** logo, in de linkerbovenhoek, en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
-1. Klik op de knop **[!UICONTROL Show search]**.
+1. Klik het **Adobe** embleem, in de top-linkerhoek, dan uitgezocht **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. Klik op **[!UICONTROL Show search]** .
 
    ![](assets/message-center_search-events.png)
 
-1. U kunt filteren op de **[!UICONTROL Publication status]**. Zo kunt u bijvoorbeeld alleen de gepubliceerde gebeurtenissen weergeven.
-1. U kunt de gebeurtenissen ook filteren met de **[!UICONTROL Last event received]**. Als u bijvoorbeeld 10 invoert, worden alleen de gebeurtenisconfiguraties met de laatste gebeurtenis die tien dagen geleden of later is ontvangen, weergegeven. Hierdoor kunt u weergeven welke gebeurtenissen gedurende een bepaalde periode inactief zijn geweest.
+1. U kunt filteren op de **[!UICONTROL Publication status]** . Zo kunt u bijvoorbeeld alleen de gepubliceerde gebeurtenissen weergeven.
+1. U kunt de gebeurtenissen ook filteren met de methode **[!UICONTROL Last event received]** . Als u bijvoorbeeld 10 invoert, worden alleen de gebeurtenisconfiguraties met de laatste gebeurtenis die tien dagen geleden of later is ontvangen, weergegeven. Hierdoor kunt u weergeven welke gebeurtenissen gedurende een bepaalde periode inactief zijn geweest.
 
    ![](assets/message-center_last-event-received.png)
 
@@ -169,53 +169,54 @@ Voer de onderstaande stappen uit om de reeds gemaakte transactiegebeurtenissen t
 
 ## Specifieke configuraties {#transactional-event-specific-configurations}
 
-De configuratie van de Transactionele gebeurtenis kan afhankelijk van [type transactiebericht](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) wilt verzenden (gebeurtenis of profiel) en op het kanaal dat wordt gebruikt.
+De transactionele gebeurtenisconfiguratie kan afhankelijk van het [ type van transactioneel bericht ](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) variëren u (gebeurtenis of profiel), en op het kanaal wilt verzenden dat zal worden gebruikt.
 
-In de volgende secties wordt gedetailleerd welke specifieke configuratie moet worden ingesteld op basis van het gewenste transactiebericht. Raadpleeg voor meer informatie over de algemene stappen om een gebeurtenis te configureren: [Een gebeurtenis maken](#creating-an-event).
+In de volgende secties wordt gedetailleerd welke specifieke configuratie moet worden ingesteld op basis van het gewenste transactiebericht. Voor meer op de algemene stappen om een gebeurtenis te vormen, verwijs naar [ Creërend een gebeurtenis ](#creating-an-event).
 
 ### Transactieberichten die zijn gebaseerd op gebeurtenissen {#event-based-transactional-messages}
 
-U kunt doelgericht transactieberichten voor gebeurtenissen verzenden. Dit type transactieberichten bevat geen profielinformatie: het leveringsdoel wordt bepaald door de data in de gebeurtenis zelf.
+U kunt transactiemeldingen voor gebeurtenissen verzenden die verwijzen naar een gebeurtenis. Dit type van transactieberichten bevat profielinformatie niet: het leveringsdoel wordt bepaald door de gegevens in de gebeurtenis zelf.
 
-Als u een op een gebeurtenis gebaseerd transactiebericht wilt verzenden, moet u eerst een gebeurtenis maken en configureren die gericht is op de **gegevens in de gebeurtenis zelf**.
+Om een op gebeurtenis-gebaseerd transactiebericht te verzenden, moet u eerst een gebeurtenis tot stand brengen en vormen richtend de **gegevens in de gebeurtenis zelf**.
 
-1. Selecteer bij het maken van de gebeurtenisconfiguratie de optie **[!UICONTROL Real-time event]** doelgerichtheid (zie [Een gebeurtenis maken](#creating-an-event)).
-1. Voeg velden toe aan de gebeurtenis om het transactiemelding aan te passen (zie [Gebeurteniskenmerken definiëren](#defining-the-event-attributes)).
+1. Wanneer het creëren van de gebeurtenisconfiguratie, selecteer **[!UICONTROL Real-time event]** richtend afmeting (zie [ Creërend een gebeurtenis ](#creating-an-event)).
+1. Voeg gebieden aan de gebeurtenis toe, om het transactionele bericht (zie [ te kunnen personaliseren die de gebeurtenisattributen ](#defining-the-event-attributes) bepalen).
 1. Het op gebeurtenis-gebaseerde transactieoverseinen wordt verondersteld om slechts de gegevens te gebruiken die in de verzonden gebeurtenis zijn om de ontvanger en de verpersoonlijking van de berichtinhoud te bepalen.
 
-   Als u echter aanvullende informatie uit de Adobe Campaign-database wilt gebruiken, kunt u de inhoud van het transactiebericht verrijken (zie [De inhoud van transactiemeldingen verrijken](#enriching-the-transactional-message-content)).
+   Nochtans, als u extra informatie van het gegevensbestand van Adobe Campaign wilt gebruiken, kunt u de transactionele berichtinhoud (zie [ Verrijkend de transactionele berichtinhoud ](#enriching-the-transactional-message-content)) verrijken.
 
-1. De gebeurtenis voorvertonen en publiceren (zie [De gebeurtenis voorvertonen en publiceren](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)).
+1. Voorproef en publiceer de gebeurtenis (zie [ Voorproef en het publiceren van de gebeurtenis ](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)).
 
    Wanneer u een voorvertoning van de gebeurtenis weergeeft, bevat de REST API een kenmerk dat het e-mailadres, de mobiele telefoon of specifieke kenmerken voor pushmeldingen opgeeft, afhankelijk van het geselecteerde kanaal.
 
-   Nadat de gebeurtenis is gepubliceerd, wordt automatisch een transactiebericht gemaakt dat aan de nieuwe gebeurtenis is gekoppeld. Als de gebeurtenis het verzenden van een transactiebericht moet activeren, moet u [wijzigen](../../channels/using/editing-transactional-message.md) en [publish](../../channels/using/publishing-transactional-message.md) het bericht dat zojuist is gemaakt.
+   Nadat de gebeurtenis is gepubliceerd, wordt automatisch een transactiebericht gemaakt dat aan de nieuwe gebeurtenis is gekoppeld. Opdat de gebeurtenis het verzenden van een transactiebericht teweegbrengt, moet u [ ](../../channels/using/editing-transactional-message.md) wijzigen en [ ](../../channels/using/publishing-transactional-message.md) het bericht publiceren dat enkel werd gecreeerd.
 
-1. De gebeurtenis in uw website integreren (zie [De gebeurtenis die leidt tot integratie](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
+1. Integreer de gebeurtenis in uw website (zie [ de gebeurtenis die ](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) teweegbrengt integreren).
 
 ### Transactieberichten op basis van profielen {#profile-based-transactional-messages}
 
 U kunt transactieberichten verzenden die op klantenprofielen worden gebaseerd, die u toestaat om de regels van de marketingtypologie toe te passen, de unsubscribe verbinding omvatten, het bericht toevoegen aan de globale levering rapportering en hefboomwerking het in de klantenreis.
 
-Als u een op een profiel gebaseerd transactiebericht wilt verzenden, moet u eerst een gebeurtenis maken en configureren die zich richt op **gegevens uit de Adobe Campaign-database**.
+Om een op profiel-gebaseerd transactiebericht te verzenden, moet u eerst een gebeurtenis creëren en vormen richtend **gegevens van het gegevensbestand van Adobe Campaign**.
 
-1. Selecteer bij het maken van de gebeurtenisconfiguratie de optie **[!UICONTROL Profile event]** doelgerichtheid (zie [Een gebeurtenis maken](#creating-an-event)).
-1. Voeg velden toe aan de gebeurtenis om het transactiemelding aan te passen (zie [Gebeurteniskenmerken definiëren](#defining-the-event-attributes)). U moet ten minste één veld toevoegen om een verrijking te maken. U hoeft geen andere velden te maken, zoals **Voornaam** en **Achternaam** aangezien u verpersoonlijkingsgebieden van het gegevensbestand van Adobe Campaign zult kunnen gebruiken.
-1. Een verrijking maken om de gebeurtenis te koppelen aan de **[!UICONTROL Profile]** resource (zie [De gebeurtenis verrijken](#enriching-the-transactional-message-content)) en selecteer deze verrijking als de **[!UICONTROL Targeting enrichment]**.
+1. Wanneer het creëren van de gebeurtenisconfiguratie, selecteer **[!UICONTROL Profile event]** richtend afmeting (zie [ Creërend een gebeurtenis ](#creating-an-event)).
+1. Voeg gebieden aan de gebeurtenis toe, om het transactionele bericht (zie [ te kunnen personaliseren die de gebeurtenisattributen ](#defining-the-event-attributes) bepalen). U moet ten minste één veld toevoegen om een verrijking te maken. U te hoeven niet om andere gebieden zoals **tot stand te brengen Voornaam** en **Familienaam** aangezien u verpersoonlijkingsgebieden van het gegevensbestand van Adobe Campaign zult kunnen gebruiken.
+1. Creeer een verrijking om de gebeurtenis aan het **[!UICONTROL Profile]** middel (zie [ Verrijkend de gebeurtenis ](#enriching-the-transactional-message-content)) te verbinden en deze verrijking als **[!UICONTROL Targeting enrichment]** te selecteren.
 
    >[!IMPORTANT]
    >
    >Deze stap is verplicht voor op profielen gebaseerde gebeurtenissen.
 
-1. De gebeurtenis voorvertonen en publiceren (zie [De gebeurtenis voorvertonen en publiceren](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)).
+1. Voorproef en publiceer de gebeurtenis (zie [ Voorproef en het publiceren van de gebeurtenis ](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)).
 
-   Als u een voorvertoning van de gebeurtenis weergeeft, bevat de REST API geen kenmerk dat het e-mailadres, de mobiele telefoon of specifieke kenmerken voor pushmeldingen opgeeft, aangezien deze worden opgehaald uit het dialoogvenster **[!UICONTROL Profile]** resource.
+   Wanneer u een voorvertoning van de gebeurtenis weergeeft, bevat de REST API geen kenmerk dat het e-mailadres, de mobiele telefoon of specifieke kenmerken voor pushmeldingen opgeeft, aangezien deze worden opgehaald uit de **[!UICONTROL Profile]** -bron.
 
-   Nadat de gebeurtenis is gepubliceerd, wordt automatisch een transactiebericht gemaakt dat aan de nieuwe gebeurtenis is gekoppeld. Als de gebeurtenis het verzenden van een transactiebericht moet activeren, moet u [wijzigen](../../channels/using/editing-transactional-message.md) en [publish](../../channels/using/publishing-transactional-message.md) het bericht dat zojuist is gemaakt.
+   Nadat de gebeurtenis is gepubliceerd, wordt automatisch een transactiebericht gemaakt dat aan de nieuwe gebeurtenis is gekoppeld. Opdat de gebeurtenis het verzenden van een transactiebericht teweegbrengt, moet u [ ](../../channels/using/editing-transactional-message.md) wijzigen en [ ](../../channels/using/publishing-transactional-message.md) het bericht publiceren dat enkel werd gecreeerd.
 
-1. De gebeurtenis in uw website integreren (zie [De gebeurtenis die leidt tot integratie](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)).
+1. Integreer de gebeurtenis in uw website (zie [ de gebeurtenis die ](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) teweegbrengt integreren).
 
-<!--### Transactional SMS messages {#transactional-sms}
+<!--
+### Transactional SMS messages {#transactional-sms}
 
 The steps to configure an  event to send an SMS transactional message are the same as for the email channel. The only differences are as follows:
 
@@ -223,20 +224,21 @@ The steps to configure an  event to send an SMS transactional message are the sa
 
 * When previewing the event corresponding to an event-based transactional SMS, the REST API contains an attribute specifying the mobile phone instead of the email address.
 
-* The specificities to edit the content of an SMS transactional message are the same as for a [standard SMS](../../channels/using/about-sms-and-push-content-design.md).-->
+* The specificities to edit the content of an SMS transactional message are the same as for a [standard SMS](../../channels/using/about-sms-and-push-content-design.md).
+-->
 
 ### Transactionele pushmeldingen {#transactional-push-notifications}
 
 U kunt twee typen pushmeldingen voor transacties verzenden:
-* Een anonieme pushmelding voor transacties naar alle gebruikers die zich hebben aangemeld om berichten van uw mobiele toepassing te ontvangen. Zie [Transactiepushmeldingen op basis van gebeurtenissen configureren](../../channels/using/transactional-push-notifications.md#event-based-transactional-push-notifications).
-* Een pushmelding voor transacties naar de Adobe Campaign-profielen die zijn geabonneerd op uw mobiele toepassing. Zie [Op profielen gebaseerde pushmeldingen voor transacties configureren](../../channels/using/transactional-push-notifications.md#profile-based-transactional-push-notifications).
+* Een anonieme pushmelding voor transacties naar alle gebruikers die zich hebben aangemeld om berichten van uw mobiele toepassing te ontvangen. Zie [ Vormend op gebeurtenis-gebaseerde transactionele pushberichten ](../../channels/using/transactional-push-notifications.md#event-based-transactional-push-notifications).
+* Een pushmelding voor transacties naar de Adobe Campaign-profielen die zijn geabonneerd op uw mobiele toepassing. Zie [ Vormend op profiel-gebaseerde transactionele pushberichten ](../../channels/using/transactional-push-notifications.md#profile-based-transactional-push-notifications).
 
 >[!IMPORTANT]
 >
->Als u pushmeldingen over transacties wilt verzenden, moet u Adobe Campaign dienovereenkomstig configureren. Zie [Een mobiele toepassing configureren](../../administration/using/configuring-a-mobile-application.md).
+>Als u pushmeldingen over transacties wilt verzenden, moet u Adobe Campaign dienovereenkomstig configureren. Zie [ Vormend een mobiele toepassing ](../../administration/using/configuring-a-mobile-application.md).
 
 ### Vervolgberichten {#follow-up-messages}
 
 U kunt een vervolgbericht verzenden naar de klanten die een specifiek transactiebericht hebben ontvangen.
 
-De stappen om een gebeurtenis te vormen die toestaat om een follow-upbericht te verzenden zijn gedetailleerd in [deze sectie](../../channels/using/follow-up-messages.md#configuring-an-event-to-send-a-follow-up-message).
+De stappen om een gebeurtenis te vormen die toestaat om een follow-upbericht te verzenden zijn gedetailleerd in [ deze sectie ](../../channels/using/follow-up-messages.md#configuring-an-event-to-send-a-follow-up-message).

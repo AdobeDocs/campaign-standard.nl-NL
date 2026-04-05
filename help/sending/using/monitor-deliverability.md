@@ -9,10 +9,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 9%
+ht-degree: 8%
 
 ---
 
@@ -31,19 +31,19 @@ Hieronder vindt u meer informatie over het **[!UICONTROL Delivery throughput]** 
 
 Dit verslag bevat informatie over de leveringstijd van het gehele platform gedurende een bepaalde periode om de snelheid te meten waarop de berichten worden geleverd.
 
-Voor meer op dit, zie [&#x200B; productie van de Levering &#x200B;](../../reporting/using/delivery-throughput.md).
+Voor meer op dit, zie [ productie van de Levering ](../../reporting/using/delivery-throughput.md).
 
 ![](assets/delivery_reports_1.png)
 
 U kunt de weergegeven waarden configureren door de tijdschaal te wijzigen.
 
-Er zijn andere rapporten beschikbaar, zoals **[!UICONTROL Delivery summary]** of **[!UICONTROL Non-deliverables and bounces]** . Voor meer op dit, zie [&#x200B; Dynamische rapporten &#x200B;](../../reporting/using/about-dynamic-reports.md).
+Er zijn andere rapporten beschikbaar, zoals **[!UICONTROL Delivery summary]** of **[!UICONTROL Non-deliverables and bounces]** . Voor meer op dit, zie [ Dynamische rapporten ](../../reporting/using/about-dynamic-reports.md).
 
 ## Bewaking van leveringen {#monitoring-deliveries}
 
 Het berichtdashboard geeft u toegang tot de leveringslogboeken: **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** en **[!UICONTROL Tracked URLs]** . Zij tonen de details van de verzending, welk doel is uitgesloten en waarom, evenals de tracking-informatie zoals aantal geopend en aantal klikken.
 
-Voor meer op dit, zie [&#x200B; Controle een levering &#x200B;](../../sending/using/monitoring-a-delivery.md).
+Voor meer op dit, zie [ Controle een levering ](../../sending/using/monitoring-a-delivery.md).
 
 ![](assets/sending_delivery1.png)
 
@@ -51,9 +51,10 @@ Voor meer op dit, zie [&#x200B; Controle een levering &#x200B;](../../sending/us
 
 De functie **[!UICONTROL Delivery alerting]** is een waarschuwingssysteem waarmee een groep gebruikers automatisch meldingen kan ontvangen met informatie over de uitvoering van hun leveringen.
 
-Voor meer op dit, zie [&#x200B; Ontvangend alarm wanneer de mislukkingen &#x200B;](../../sending/using/receiving-alerts-when-failures-happen.md) gebeuren.
+Voor meer op dit, zie [ Ontvangend alarm wanneer de mislukkingen ](../../sending/using/receiving-alerts-when-failures-happen.md) gebeuren.
 
-<!--## External tools (#external-tools)
+<!--
+## External tools (#external-tools)
 
 ### Signal Spam {#signal-spam}
 
@@ -67,4 +68,5 @@ Signal Spam also provides direct complaints that end users log through a dedicat
 
 250ok is a monitoring solution which provides IP and domain denylists, as well as reputation indicators.
 
-The information provided is real-time, which allows for a pro-active assistance. 250ok a complementary solution to the Adobe deliverability internal tools.-->
+The information provided is real-time, which allows for a pro-active assistance. 250ok a complementary solution to the Adobe deliverability internal tools.
+-->

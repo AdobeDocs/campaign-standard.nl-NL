@@ -3,16 +3,16 @@ title: Berichten bijhouden en controleren
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-index: y
+index: true
 description: Leer hoe u met Adobe Campaign de verzonden berichten kunt volgen en kunt ontdekken hoe de ontvangers op uw levering reageren
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 3%
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Hebt u op de knop Verzenden geklikt? Laten we eens kijken wat er gebeurt. Zodra 
 
 Om uw campagnes te controleren, moet u ervoor zorgen dat het bericht inderdaad aan uw ontvangers is geleverd.
 
-**Tips**
+**Uiteinden**
 
 * U kunt de status van de berichten in de leveringslogboeken controleren.
 
@@ -32,29 +32,29 @@ Om uw campagnes te controleren, moet u ervoor zorgen dat het bericht inderdaad a
 
 * Van het berichtdashboard, kunt u tot verscheidene rapporten voor dit specifieke bericht toegang hebben.
 
-Zie voor meer informatie [Toezicht op de levering](../../sending/using/monitoring-a-delivery.md).
+Voor meer dit, zie [ Controle een levering ](../../sending/using/monitoring-a-delivery.md).
 
 ## Tracking {#tracking-deliveries}
 
-Als u beter wilt weten wat uw doelprofielen doen, kunt u bijhouden hoe zij op een levering reageren: ontvangst, openen, klikken op koppelingen, abonnementen enzovoort. Zie de **Logboeken bijhouden** tabblad van de levering.
+Als u beter wilt weten wat uw doelprofielen doen, kunt u bijhouden hoe zij op een levering reageren: ontvangst, openen, klikken op koppelingen, abonnementen enzovoort. Verwijs naar het **Volgen logboeken** lusje van de levering.
 
-**Tip**: Het bijhouden van berichten is standaard ingeschakeld. Als u URL&#39;s wilt configureren, selecteert u de optie URL&#39;s weergeven in de onderste sectie van de wizard voor levering. Voor elke URL van het bericht kunt u kiezen of u reeksspatiëring wilt activeren.
+**Uiteinde**: Het volgen van het bericht wordt toegelaten door gebrek. Als u URL&#39;s wilt configureren, selecteert u de optie URL&#39;s weergeven in de onderste sectie van de wizard voor levering. Voor elke URL van het bericht kunt u kiezen of u reeksspatiëring wilt activeren.
 
-Raadpleeg voor meer informatie de [Berichten bijhouden](../../sending/using/tracking-messages.md) en de [Traceringsindicatoren](../../reporting/using/tracking-indicators.md) beschrijving.
+Voor meer op dit, verwijs naar de [ het Volgen berichten ](../../sending/using/tracking-messages.md) sectie en [ het Volgen indicatoren ](../../reporting/using/tracking-indicators.md) beschrijving.
 
 ## Dynamische rapporten {#dyn-reports}
 
-Met dynamische rapporten kunt u volledig aanpasbare en real-time rapporten maken om uw campagnes te controleren. Met Dimensionen, meetgegevens en visualisaties kunt u de impact en het succes van uw campagnes op ontvangers meten.
+Met dynamische rapporten kunt u volledig aanpasbare en real-time rapporten maken om uw campagnes te controleren. Met afmetingen, meetgegevens en visualisaties kunt u de impact en het succes van uw campagnes op ontvangers meten.
 
-**Tip** - Ingebouwde rapporten zijn beschikbaar voor u om uw campagnes te controleren maar deze rapporten kunnen ook worden aangepast door om het even welke metriek of dimensies aan uw rapport te slepen en te laten vallen.
+**Tip** - de ingebouwde rapporten zijn beschikbaar voor u om uw campagnes te controleren maar deze rapporten kunnen ook worden aangepast door om het even welke metriek of dimensies aan uw rapport te slepen en te laten vallen.
 
-Raadpleeg voor meer informatie de [Rapportagehandleiding](../../reporting/using/about-dynamic-reports.md).
+Voor meer op dit, verwijs naar de [ Rapporterende gids ](../../reporting/using/about-dynamic-reports.md).
 
-## Hot clicks
+## Hot kliks
 
 In het rapport Hot click wordt de berichtinhoud (HTML en/of tekst) weergegeven met het percentage klikken op elke koppeling. Door het percentage van klikken op elke dynamische inhoud weer te geven, kunt u meten welke inhoud het meest geschikt is voor de ontvangers.
 
-Raadpleeg voor meer informatie de [Rapport Hot click](../../reporting/using/hot-clicks.md).
+Voor meer op dit, verwijs naar het [ Hete klik rapport ](../../reporting/using/hot-clicks.md).
 
 ## Tips voor prestaties van levering {#performance-tips}
 

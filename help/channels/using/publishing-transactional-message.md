@@ -9,22 +9,22 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '652'
-ht-degree: 70%
+ht-degree: 0%
 
 ---
 
 # Levenscyclus van transactionele berichten {#publishing-transactional-message}
 
-Wanneer de [transactiebericht](../../channels/using/editing-transactional-message.md) kan worden gepubliceerd.
+Wanneer het [ transactionele bericht ](../../channels/using/editing-transactional-message.md) klaar is om te worden verzonden, kan het worden gepubliceerd.
 
 De stappen voor het publiceren, pauzeren, verwijderen en publiceren van een transactiebericht worden hieronder beschreven.
 
 >[!IMPORTANT]
 >
->Alleen gebruikers met de [Administratie](../../administration/using/users-management.md#functional-administrators) de rol kan tot transactieberichten toegang hebben en publiceren.
+>Slechts kunnen de gebruikers met de [ rol van het Beleid ](../../administration/using/users-management.md#functional-administrators) tot transactionele berichten toegang hebben en publiceren.
 
 ## Transactieproces voor de publicatie van berichten {#transactional-messaging-pub-process}
 
@@ -38,7 +38,8 @@ De grafiek hieronder illustreert het algemene proces van de transactionele beric
 * [Het publiceren van een transactiemelding opheffen](#unpublishing-a-transactional-message)
 * [Een gebeurtenis publiceren](../../channels/using/publishing-transactional-event.md)
 
-<!--## Testing a transactional message {#testing-a-transactional-message}
+<!--
+## Testing a transactional message {#testing-a-transactional-message}
 
 You first need to create a specific test profile that will allow you to properly check the transactional message.
 
@@ -84,38 +85,39 @@ Once you have created one or more specific test profiles and saved your transact
 
 ![](assets/message-center_10.png)
 
-The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.-->
+The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.
+-->
 
 ## Transactiebericht publiceren {#publishing-a-transactional-message}
 
-Nadat u het transactiebericht hebt bewerkt en getest, kunt u het publiceren. Klik op de knop **[!UICONTROL Publish]** knop.
+Nadat u het transactiebericht hebt bewerkt en getest, kunt u het publiceren. Klik op de knop **[!UICONTROL Publish]** .
 
 ![](assets/message-center_12.png)
 
-Zodra de gebeurtenis ‘Cart abandonment’ wordt geactiveerd, wordt automatisch een bericht verzonden met de titel en de achternaam van de ontvanger, de URL naar de winkelwagen, het laatst geraadpleegde product of een lijst met producten (als u een productvermelding hebt gedefinieerd) en het totale bedrag van de winkelwagen.
+Nu, zodra de gebeurtenis van de &quot;Verlaat van de Kar&quot;wordt teweeggebracht, veroorzaakt het automatisch een bericht dat de titel en de familienaam van de ontvanger, de kar URL, het laatste geraadpleegde product of een lijst van producten bevat als u een productlijst, en het totale kartbedrag om te verzenden bepaalde.
 
-Klik op de knop **[!UICONTROL Reports]** voor toegang tot rapporten over uw transactiebericht. Zie [Dynamische rapporten](../../reporting/using/about-dynamic-reports.md).
+Klik op de knop **[!UICONTROL Reports]** om rapporten over uw transactiemelding te openen. Zie [ Dynamische rapporten ](../../reporting/using/about-dynamic-reports.md).
 
 ![](assets/message-center_13.png)
 
 **Verwante onderwerpen**:
-* [Een transactioneel bericht bewerken](../../channels/using/editing-transactional-message.md)
-* [Een transactioneel bericht testen](../../channels/using/testing-transactional-message.md)
+* [Een transactiebericht bewerken](../../channels/using/editing-transactional-message.md)
+* [Transactiebericht testen](../../channels/using/testing-transactional-message.md)
 * [De gebeurtenis die leidt tot integratie](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
 ## Opschorting van een transactiebericht {#suspending-a-transactional-message-publication}
 
-U kunt het publiceren van uw transactiebericht opschorten met behulp van de knop **[!UICONTROL Pause]**, bijvoorbeeld als u de data in het bericht wilt wijzigen. De gebeurtenissen worden daarom niet meer verwerkt, maar in plaats daarvan in een wachtrij in de Adobe Campaign-database opgeslagen.
+U kunt het publiceren van uw transactiemelding opschorten door de **[!UICONTROL Pause]** knoop, bijvoorbeeld te gebruiken om de gegevens te wijzigen in het bericht. De gebeurtenissen worden daarom niet meer verwerkt, maar in plaats daarvan in een wachtrij in de Adobe Campaign-database opgeslagen.
 
-De gebeurtenissen in de wachtrij worden bewaard gedurende een periode die is gedefinieerd in de REST API (zie de [REST API-documentatie](../../api/using/managing-transactional-messages.md)) of in de triggergebeurtenis als u de Triggers Core-service gebruikt (zie [Informatie over Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
+De een rij gevormde gebeurtenissen worden gehouden tijdens een periode die in REST API (zie de [ REST API documentatie ](../../api/using/managing-transactional-messages.md)) of in de trekkergebeurtenis wordt bepaald als u de de kerndienst van Triggers gebruikt (zie [ Ongeveer de Trekkers van de Wolk van de Ervaring van Adobe ](../../integrating/using/about-adobe-experience-cloud-triggers.md)).
 
 ![](assets/message-center_pause.png)
 
-Na het klikken op **[!UICONTROL Resume]** worden alle gebeurtenissen in de wachtrij verwerkt (op voorwaarde dat deze niet verlopen zijn). Zij bevatten nu alle wijzigingen die zijn uitgevoerd terwijl de publicatie van de sjabloon was opgeschort.
+Wanneer u op **[!UICONTROL Resume]** klikt, worden alle gebeurtenissen in de wachtrij verwerkt (mits deze niet verlopen zijn). Zij bevatten nu alle wijzigingen die zijn uitgevoerd terwijl de publicatie van de template werd opgeschort.
 
 ## Het publiceren van een transactiemelding opheffen {#unpublishing-a-transactional-message}
 
-Door op **[!UICONTROL Unpublish]** te klikken, kunt de publicatie van transactionele berichten en de publicatie van de overeenkomstige gebeurtenis annuleren, waardoor de resource overeenkomend aan de eerder aangemaakte gebeurtenis uit de REST API wordt verwijderd.
+Als u op **[!UICONTROL Unpublish]** klikt, kunt u de publicatie van het transactiebericht annuleren, maar ook de publicatie van de bijbehorende gebeurtenis. Hierdoor wordt de bron die overeenkomt met de gebeurtenis die u eerder hebt gemaakt, van de REST-API verwijderd.
 
 ![](assets/message-center_unpublish-template.png)
 
@@ -123,37 +125,38 @@ Zelfs als de gebeurtenis via uw website wordt geactiveerd, worden de bijbehorend
 
 >[!NOTE]
 >
->Als u het bericht opnieuw wilt publiceren, moet u teruggaan naar de bijbehorende gebeurtenisconfiguratie. [De gebeurtenis publiceren](../../channels/using/publishing-transactional-event.md)en vervolgens [het bericht publiceren](#publishing-a-transactional-message).
+>Om het bericht opnieuw te publiceren, moet u terug naar de overeenkomstige gebeurtenisconfiguratie gaan, [ publiceren de gebeurtenis ](../../channels/using/publishing-transactional-event.md), en dan [ publiceren het bericht ](#publishing-a-transactional-message).
 
-Als u de publicatie van een gepauzeerd transactiebericht ongedaan maakt, moet u mogelijk tot 24 uur wachten voordat u het bericht opnieuw kunt publiceren. Zo kan de workflow **[!UICONTROL Database cleanup]** alle gebeurtenissen opschonen die naar de wachtrij zijn verzonden.
+Als u de publicatie van een gepauzeerd transactiebericht ongedaan maakt, moet u mogelijk tot 24 uur wachten voordat u het bericht opnieuw kunt publiceren. Hiermee kan de **[!UICONTROL Database cleanup]** -workflow alle gebeurtenissen opschonen die naar de wachtrij zijn verzonden.
 
-De stappen voor het pauzeren van een bericht worden uitgebreid beschreven in de sectie[Opschorting van de publicatie van een transactiebericht](#suspending-a-transactional-message-publication).
+De stappen voor het pauzeren van een bericht zijn gedetailleerd in [ die een transactionele berichtpublicatie ](#suspending-a-transactional-message-publication) sectie schorsen.
 
-De workflow **[!UICONTROL Database cleanup]**, die elke dag om 4.00 uur wordt uitgevoerd, is toegankelijk via **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]**.
+De **[!UICONTROL Database cleanup]** -workflow, die elke dag om 4.00 uur wordt uitgevoerd, is toegankelijk via **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Workflows]** .
 
 ## Transactiebericht verwijderen {#deleting-a-transactional-message}
 
-Als de publicatie van een transactiebericht ongedaan is gemaakt, of als een transactiebericht nog niet is gepubliceerd, kunt u het transactiebericht uit de lijst met transactieberichten verwijderen. Dit doet u als volgt:
+Zodra een transactiebericht niet gepubliceerd is, of als een transactiebericht nog niet is gepubliceerd, kunt u het van de transactiemeldlijst schrappen. Dit doet u als volgt:
 
-1. Klik op de knop **Adobe** logo, in de linkerbovenhoek, en selecteer **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
-1. Houd de muis boven het gewenste bericht.
-1. Klik op de knop **[!UICONTROL Delete element]**.
+1. Klik het **Adobe** embleem, in de top-linkerhoek, dan uitgezocht **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. Houd de muis boven het bericht van uw keuze.
+1. Klik op **[!UICONTROL Delete element]** .
 
 ![](assets/message-center_delete-template.png)
 
 Het verwijderen van een transactiebericht kan echter alleen onder bepaalde voorwaarden worden uitgevoerd:
 
-* Zorg ervoor dat het transactiebericht de status **[!UICONTROL Draft]** heeft, anders kunt u het bericht niet verwijderen. De status **[!UICONTROL Draft]** is van toepassing op een bericht dat nog niet is gepubliceerd of waarvan [de publicatie ongedaan is gemaakt](#unpublishing-a-transactional-message) (en niet is [gepauzeerd](#suspending-a-transactional-message-publication)).
+* Zorg ervoor dat het transactiebericht de status **[!UICONTROL Draft]** heeft, anders kunt u het bericht niet verwijderen. De **[!UICONTROL Draft]** status is op een bericht van toepassing dat nog niet gepubliceerd is, of dat [ niet gepubliceerd ](#unpublishing-a-transactional-message) (en niet [ gepauzeerd ](#suspending-a-transactional-message-publication)) is geweest.
 
-* **Transactieberichten**: Tenzij een ander transactiebericht is gekoppeld aan de overeenkomstige gebeurtenis, geldt dat als de publicatie van het transactiebericht ongedaan is gemaakt de publicatie van de gebeurtenisconfiguratie ook ongedaan moet worden gemaakt om uw transactiebericht te kunnen verwijderen. Zie [Publicatie van een gebeurtenis ongedaan maken](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) voor meer informatie.
+* **Transactionele berichten**: Tenzij een ander transactiebericht met de overeenkomstige gebeurtenis verbonden is, als het transactiebericht unpublished is, moet de gebeurtenisconfiguratie ook unpublished zijn om uw transactiebericht met succes te schrappen. Voor meer op dit, zie [ Unpublishing een gebeurtenis ](../../channels/using/publishing-transactional-event.md#unpublishing-an-event).
 
   >[!IMPORTANT]
   >
-  >Als u een transactiebericht verwijdert waarvoor al meldingen zijn verzonden, worden ook de verzendings- en trackinglogboeken verwijderd.
+  >Als u een transactiemelding verwijdert waarvoor al meldingen zijn verzonden, worden ook de verzendings- en trackinglogboeken verwijderd.
 
-* **Transactieberichten van een kant-en-klare gebeurtenissjabloon (interne transactieberichten)**: Als een intern transactiebericht als enige bericht aan de overeenkomstige interne gebeurtenis is gekoppeld, kan het niet worden verwijderd. U moet eerst een ander transactiebericht maken door het te dupliceren of via het menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]**.
+* **Transactionele berichten van een uit-van-de-doos gebeurtenismalplaatje (interne transactionele berichten)**: Als een intern transactiebericht slechts met de overeenkomstige interne gebeurtenis verbonden is, kan het niet worden geschrapt. U moet eerst een ander transactiebericht maken door het te dupliceren of via het menu **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Transactional message templates]** .
 
-<!--## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}
+<!--
+## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}
 
 Once the message is published and your site integration is done, you can monitor the delivery.
 
@@ -245,4 +248,5 @@ In the retry process, the sending logs of the new execution delivery are not imm
 
 You cannot stop an execution delivery. However, if the current execution delivery fails, a new one is created as soon as a new event is received, and all new events are processed by this new execution delivery. No new events are processed by the failed execution delivery.
 
-If some events already assigned to an execution delivery have been postponed as part of the retry process and if that execution delivery fails, the retry system does not assign the postponed events to the new execution delivery, which means that these events are lost. Check the [delivery logs](#monitoring-transactional-message-delivery) to see the recipients that may have been impacted.-->
+If some events already assigned to an execution delivery have been postponed as part of the retry process and if that execution delivery fails, the retry system does not assign the postponed events to the new execution delivery, which means that these events are lost. Check the [delivery logs](#monitoring-transactional-message-delivery) to see the recipients that may have been impacted.
+-->
